@@ -1,3 +1,5 @@
+This is the replication package for the report [Use of Data Visualisations in Software Engineering Research](Use-of-Data-Visualisations-in-Software-Engineering-Research.pdf) for the _Literature Study_ course of the Msc Computer Science at Vrije Universiteit Amsterdam/Universiteit van Amsterdam.
+
 The dataset containing the extracted figures and their properties can be found in [dataset/vis_dataset.csv](dataset/vis_dataset.csv). For this dataset, the small version ([img_properties_small.csv](figure-properties-extraction/img_properties_small.csv)) of the _img_properties_ dataset has been used only containing the 10 most ocurring colours in a figure.
 
 
