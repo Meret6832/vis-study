@@ -1,0 +1,341 @@
+[{
+  "caption": "Table 7: Meta-models and input features. Meta-Model Input Features",
+  "captionBoundary": {
+    "x1": 355.26080322265625,
+    "x2": 520.6017456054688,
+    "y1": 142.32521057128906,
+    "y2": 158.79901123046875
+  },
+  "figType": "Table",
+  "imageText": ["DE", "Variation", "Score", "Meta-Model", "-", "3", "Entropy", "DE", "Variation", "Score", "Meta-Model", "-", "2", "Margin", "DE", "Variation", "Score", "Meta-Model", "-", "1", "Least", "Con", "dence"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 372.0,
+    "x2": 504.0,
+    "y1": 161.28,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table7-1.png"
+}, {
+  "caption": "Table 6: OOD detection datasets and performance values.",
+  "captionBoundary": {
+    "x1": 58.70799255371094,
+    "x2": 288.8394470214844,
+    "y1": 540.528076171875,
+    "y2": 544.822998046875
+  },
+  "figType": "Table",
+  "imageText": ["MNIST", "K-MNIST", "(Near", "OOD)", "99.73", "0.97", "MNIST", "Fashion", "MNIST", "(Far", "OOD)", "99.99", "0.98", "CIFAR-100", "CIFAR-10", "(Near", "OOD)", "93.82", "0.85", "CIFAR-100", "SVHN", "(Far", "OOD)", "93.24", "0.86", "CIFAR-10", "CIFAR-100", "(Near", "OOD)", "98.88", "0.95", "CIFAR-10", "SVHN", "(Far", "OOD)", "99.87", "0.98", "Dataset", "OOD", "Dataset", "AUROC", "F1-Score", "In-distribution"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 306.24,
+    "y1": 560.16,
+    "y2": 648.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table6-1.png"
+}, {
+  "caption": "Figure 8: RAUC values of test data prioritization strategies for generated test datasets with OOD Data.",
+  "captionBoundary": {
+    "x1": 100.46399688720703,
+    "x2": 511.5365295410156,
+    "y1": 196.00807189941406,
+    "y2": 200.302978515625
+  },
+  "figType": "Figure",
+  "imageText": ["DSA", "DeepGini", "MCP", "Meta-Model-1", "Meta-Model-2", "Meta-Model-3", "DE-Disagreement", "MUT", "-", "Entropy", "MUT", "-", "Confidence", "MUT", "-", "Margin", "DE", "-", "Entropy", "DE", "-", "Confidence", "DE", "-", "Margin", "LSA", "1.00", "0.90", "0.80", "0.70", "RAUC-100", "RAUC-300", "RAUC-500", "RAUC-1000", "RAUC-ALL", "0.60"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure8-1.png"
+}, {
+  "caption": "Figure 3: OOD data percentages in generated test datasets.",
+  "captionBoundary": {
+    "x1": 321.2510070800781,
+    "x2": 554.906494140625,
+    "y1": 194.52809143066406,
+    "y2": 198.822998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Blur", "Brightness", "MNIST", "CIFAR-10", "CIFAR-100", "ag", "e", "ce", "nt", "P", "er", "at", "a", "D", "D", "O", "O", "100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "GANC&W", "PGDFGSMTranslateRotate", "0%"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 559.1999999999999,
+    "y1": 85.92,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Correlation analysis for original test dataset.",
+  "captionBoundary": {
+    "x1": 64.46019744873047,
+    "x2": 283.38330078125,
+    "y1": 207.95008850097656,
+    "y2": 212.2449951171875
+  },
+  "figType": "Figure",
+  "imageText": ["LeNet-1", "LeNet-5", "ResNet-32", "VGG-19", "Resnet", "28-10", "MUT", "-", "Entropy", "MUT", "-", "Margin", "MUT", "-", "Confidence", "DE", "-", "Confidence", "DE", "-", "Entropy", "DE", "-", "Variation", "Score", "DE", "-", "Margin", "DSA", "LSA", "MCP", "DeepGini", "Meta-Model-3", "Meta-Model-2", "Meta-Model-1", "0.47", "0.52", "0.56", "0.43", "0.56", "0.47", "0.51", "0.55", "0.38", "0.57", "0.46", "0.51", "0.53", "0.37", "0.56", "0.50", "0.48", "0.50", "0.52", "0.57", "0.52", "0.49", "0.52", "0.52", "0.58", "0.50", "0.50", "0.51", "0.52", "0.57", "0.71", "0.69", "0.60", "0.62", "0.64", "0.29", "0.26", "0.20", "0.51", "N/A", "0.32", "0.32", "0.40", "0.53", "0.49", "0.47", "0.52", "0.56", "0.41", "0.58", "0.43", "0.49", "0.50", "0.33", "0.50", "0.70", "0.68", "0.62", "0.60", "0.65", "0.70", "0.68", "0.61", "0.60", "0.65", "0.71", "0.68", "0.62", "0.60", "0.65"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 286.56,
+    "y1": 82.56,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure5-1.png"
+}, {
+  "caption": "Table 9: APFD values of test data prioritization strategies for generated test datasets with OOD data.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3878784179688,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["MUT", "-", "Entropy", "0.819", "0.769", "0.677", "0.572", "0.579", "MUT", "-", "Con", "dence", "0.819", "0.772", "0.678", "0.572", "0.579", "MUT", "-", "Margin", "0.819", "0.772", "0.677", "0.573", "0.578", "DE", "-", "Entropy", "0.788", "0.797", "0.636", "0.635", "0.584", "DE", "-", "Con", "dence", "0.787", "0.802", "0.633", "0.633", "0.587", "DE", "-", "Margin", "0.788", "0.803", "0.630", "0.632", "0.586", "DE", "-", "Variation", "Score", "0.845", "0.816", "0.669", "0.649", "0.619", "LSA", "0.804", "0.775", "0.585", "0.668", "-", "DSA", "0.822", "0.815", "0.653", "0.668", "0.654", "DeepGini", "0.819", "0.772", "0.678", "0.573", "0.580", "MCP", "0.772", "0.726", "0.584", "0.563", "0.498", "Meta-Model-1", "0.861", "0.833", "0.700", "0.656", "0.601", "Meta-Model-2", "0.861", "0.833", "0.700", "0.656", "0.600", "Meta-Model-3", "0.862", "0.832", "0.701", "0.656", "0.601", "R", "es", "N", "et", "28", "-1", "0", "R", "es", "N", "et", "-3", "2", "V", "G", "G", "-1", "9", "Le", "N", "et", "-1", "Le", "N", "et", "-5", "Strategy", "Prioritization", "Test", "MNIST", "CIFAR-10", "CIFAR-100"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 109.92,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table9-1.png"
+}, {
+  "caption": "Figure 6: Correlation analysis for generated test datasets without OOD data.",
+  "captionBoundary": {
+    "x1": 53.44879913330078,
+    "x2": 294.0469055175781,
+    "y1": 350.43310546875,
+    "y2": 365.68701171875
+  },
+  "figType": "Figure",
+  "imageText": ["MUT", "-", "Entropy", "MUT", "-", "Margin", "MUT", "-", "Confidence", "DE", "-", "Confidence", "DE", "-", "Entropy", "DE", "-", "Variation", "Score", "DE", "-", "Margin", "DSA", "LSA", "MCP", "DeepGini", "Meta-Model-3", "Meta-Model-2", "Meta-Model-1", "LeNet-1", "LeNet-5", "ResNet-32", "VGG-19", "Resnet", "28-10", "0.63", "0.63", "0.58", "0.38", "0.43", "0.63", "0.58", "0.57", "0.31", "0.44", "0.63", "0.59", "0.59", "0.31", "0.45", "0.66", "0.49", "0.38", "0.37", "0.40", "0.64", "0.46", "0.37", "0.36", "0.41", "0.66", "0.47", "0.36", "0.36", "0.41", "0.84", "0.85", "0.72", "0.68", "0.60", "0.30", "0.42", "0.26", "0.47", "N/A", "0.66", "0.66", "0.50", "0.54", "0.44", "0.64", "0.62", "0.61", "0.35", "0.46", "0.60", "0.54", "0.53", "0.25", "0.39", "0.81", "0.81", "0.71", "0.66", "0.59", "0.81", "0.81", "0.71", "0.66", "0.59", "0.80", "0.81", "0.71", "0.66", "0.60"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 286.56,
+    "y1": 226.56,
+    "y2": 341.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Correlation analysis for generated test datasets with OOD data.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0458068847656,
+    "y1": 641.9580688476562,
+    "y2": 657.2120361328125
+  },
+  "figType": "Figure",
+  "imageText": ["MUT", "-", "Entropy", "MUT", "-", "Margin", "MUT", "-", "Confidence", "DE", "-", "Confidence", "DE", "-", "Entropy", "DE", "-", "Variation", "Score", "DE", "-", "Margin", "DSA", "LSA", "MCP", "DeepGini", "Meta-Model-3", "Meta-Model-2", "Meta-Model-1", "LeNet-1", "LeNet-5", "ResNet-32", "VGG-19", "Resnet", "28-10", "0.58", "0.60", "0.52", "0.26", "0.39", "0.58", "0.56", "0.50", "0.22", "0.40", "0.58", "0.56", "0.51", "0.22", "0.40", "0.65", "0.47", "0.42", "0.39", "0.38", "0.64", "0.44", "0.41", "0.37", "0.40", "0.66", "0.44", "0.39", "0.37", "0.39", "0.85", "0.87", "0.59", "0.56", "0.51", "0.29", "0.43", "0.27", "0.40", "N/A", "0.66", "0.65", "0.48", "0.50", "0.45", "0.59", "0.59", "0.53", "0.25", "0.41", "0.55", "0.52", "0.44", "0.18", "0.34", "0.81", "0.83", "0.58", "0.53", "0.50", "0.81", "0.83", "0.58", "0.53", "0.50", "0.81", "0.83", "0.59", "0.53", "0.51"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 286.56,
+    "y1": 516.96,
+    "y2": 633.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Meta-model training process.",
+  "captionBoundary": {
+    "x1": 360.0530090332031,
+    "x2": 516.104248046875,
+    "y1": 568.6090698242188,
+    "y2": 572.9039916992188
+  },
+  "figType": "Figure",
+  "imageText": ["[0,", "1]", "Misclassification", "Variation", "Score", "-", "Deep", "Ensemble", "U", "certainty", "Metrics", "-", "Least", "Confidence", "-", "Entropy", "-", "Margin", "Uncertainty", "Metrics", "Meta-", "Model", "Margin", "DE", "Models", "Entropy", "Under", "Test", "Model", "Test", "Dataset", "Original"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 557.28,
+    "y1": 497.76,
+    "y2": 558.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure1-1.png"
+}, {
+  "caption": "Table 8: APFD values of test data prioritization strategies for original and generated test datasets.",
+  "captionBoundary": {
+    "x1": 109.46600341796875,
+    "x2": 502.2381896972656,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["LeNet-5", "0.796", "0.795", "0.795", "0.780", "0.780", "0.780", "0.835", "0.790", "0.802", "0.795", "0.711", "0.835", "0.835", "0.835", "LeNet-1", "0.725", "0.730", "0.731", "0.753", "0.757", "0.758", "0.787", "0.737", "0.783", "0.729", "0.653", "0.786", "0.786", "0.786", "Resnet-32", "0.686", "0.690", "0.692", "0.578", "0.579", "0.579", "0.710", "0.599", "0.669", "0.690", "0.610", "0.716", "0.716", "0.715", "VGG-19", "0.651", "0.651", "0.651", "0.620", "0.621", "0.622", "0.713", "0.678", "0.675", "0.651", "0.584", "0.713", "0.713", "0.713", "ResNet", "28-10", "0.555", "0.557", "0.557", "0.549", "0.551", "0.552", "0.595", "-", "0.622", "0.557", "0.512", "0.580", "0.580", "0.581", "Test", "Dataset", "Attacks", "Adversarial", "LeNet-5", "0.901", "0.899", "0.900", "0.916", "0.914", "0.912", "0.902", "0.903", "0.910", "0.899", "0.875", "0.915", "0.914", "0.914", "LeNet-1", "0.854", "0.852", "0.850", "0.891", "0.889", "0.886", "0.882", "0.884", "0.895", "0.853", "0.838", "0.887", "0.886", "0.887", "Resnet-32", "0.807", "0.807", "0.805", "0.784", "0.779", "0.773", "0.742", "0.581", "0.748", "0.807", "0.584", "0.817", "0.817", "0.820", "VGG-19", "0.782", "0.782", "0.781", "0.766", "0.767", "0.765", "0.728", "0.753", "0.777", "0.782", "0.607", "0.790", "0.790", "0.791", "ResNet", "28-10", "0.739", "0.738", "0.734", "0.750", "0.751", "0.743", "0.726", "-", "0.731", "0.739", "0.597", "0.759", "0.758", "0.760", "Test", "Dataset", "Transformation", "Image", "LeNet-5", "0.917", "0.915", "0.913", "0.922", "0.921", "0.921", "0.875", "0.895", "0.919", "0.915", "0.894", "0.920", "0.920", "0.924", "LeNet-1", "0.903", "0.902", "0.902", "0.919", "0.920", "0.919", "0.884", "0.843", "0.882", "0.902", "0.881", "0.919", "0.919", "0.919", "Resnet-32", "0.825", "0.824", "0.822", "0.818", "0.820", "0.819", "0.808", "0.639", "0.798", "0.825", "0.747", "0.839", "0.838", "0.840", "VGG-19", "0.802", "0.802", "0.802", "0.808", "0.807", "0.807", "0.797", "0.800", "0.808", "0.802", "0.707", "0.819", "0.819", "0.819", "ResNet", "28-10", "0.777", "0.779", "0.776", "0.782", "0.788", "0.784", "0.777", "-", "0.751", "0.779", "0.640", "0.806", "0.805", "0.806", "Test", "Dataset", "Models", "Generative", "LeNet-5", "0.974", "0.973", "0.973", "0.979", "0.979", "0.979", "0.949", "0.953", "0.980", "0.973", "0.953", "0.982", "0.983", "0.984", "LeNet-1", "0.963", "0.963", "0.963", "0.966", "0.966", "0.965", "0.907", "0.906", "0.949", "0.963", "0.955", "0.978", "0.977", "0.978", "Resnet-32", "0.887", "0.886", "0.884", "0.871", "0.873", "0.871", "0.848", "0.674", "0.846", "0.887", "0.814", "0.903", "0.902", "0.904", "VGG-19", "0.866", "0.866", "0.866", "0.870", "0.869", "0.868", "0.846", "0.864", "0.871", "0.866", "0.779", "0.890", "0.890", "0.890", "ResNet", "28-10", "0.797", "0.798", "0.797", "0.798", "0.801", "0.796", "0.783", "-", "0.778", "0.799", "0.670", "0.820", "0.819", "0.819", "Test", "Dataset", "Original", "M", "et", "a-", "M", "od", "el", "-1", "M", "et", "a-", "M", "od", "el", "-2", "M", "et", "a-", "M", "od", "el", "-3", "M", "C", "P", "in", "i", "D", "ee", "pG", "D", "SA", "M", "U", "T", "-", "E", "nt", "ro", "py", "M", "U", "T", "-", "C", "on", "de", "nc", "e", "M", "U", "T", "-", "M", "ar", "gi", "n", "D", "E", "-", "E", "nt", "ro", "py", "D", "E", "-", "C", "on", "de", "nc", "e", "D", "E", "-", "M", "ar", "gi", "n", "D", "E", "-", "V", "ar", "ia", "ti", "on", "Sc", "or", "e", "LS", "A", "Test", "Dataset", "DNN", "Model"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 563.04,
+    "y1": 97.92,
+    "y2": 373.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table8-1.png"
+}, {
+  "caption": "Table 1: Datasets and DNN models.",
+  "captionBoundary": {
+    "x1": 367.56329345703125,
+    "x2": 508.3000183105469,
+    "y1": 521.5120849609375,
+    "y2": 525.8070068359375
+  },
+  "figType": "Table",
+  "imageText": ["*", "Layers", "include", "convolutional,", "pooling,", "and", "fully-connected", "layers.", "CIFAR-100", "ResNet", "28-10", "30", "36.5M", "78.76", "VGG-19", "24", "20.5", "M", "90.33", "CIFAR-10", "ResNet-32", "33", "0.46", "M", "92.10", "LeNet-1", "5", "3246", "98.2", "MNIST", "LeNet-5", "7", "61.7", "K", "99.15", "Dataset", "DNN", "Model", "Layers*", "Parameters", "Accuracy"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 535.68,
+    "y2": 629.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table1-1.png"
+}, {
+  "caption": "Figure 2: OOD detection threshold value selection process.",
+  "captionBoundary": {
+    "x1": 56.13010025024414,
+    "x2": 291.7137145996094,
+    "y1": 203.8430938720703,
+    "y2": 208.13800048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Pre-trained", "Visual", "Transformer", "Model", "Embedding", "Test", "Data", "In-distribution", "Threshold", "Value", "OOD", "Data", "Detection", "Calculation", "Distance", "Mahalanobis", "Embedding", "OOD", "Data", "OOD", "Data", "Embedding", "Class-1", "Test", "Data", "In-distribution", "Model", "Transformer", "Fine-tuned", "Visual", "Class-2", "In-distribution", "Training", "Data", "Class-N"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 293.28,
+    "y1": 82.56,
+    "y2": 186.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure2-1.png"
+}, {
+  "caption": "Figure 4: RAUC values of test prioritization strategies for original and generated test datasets without OOD Data.",
+  "captionBoundary": {
+    "x1": 77.5999984741211,
+    "x2": 534.401123046875,
+    "y1": 541.5250854492188,
+    "y2": 545.8200073242188
+  },
+  "figType": "Figure",
+  "imageText": ["DSA", "DeepGini", "MCP", "Meta-Model-1", "Meta-Model-2", "Meta-Model-3", "DE-Disagreement", "MUT", "-", "Entropy", "MUT", "-", "Confidence", "MUT", "-", "Margin", "DE", "-", "Entropy", "DE", "-", "Confidence", "DE", "-", "Margin", "LSA", "(d)", "Adversarial", "Attacks", "Test", "Dataset", "1.00", "0.90", "0.80", "0.70", "0.60", "LeNet-1", "LeNet-5", "ResNet-32", "VGG-19", "ResNet", "28-10", "0.50", "(c)", "Image", "Transformations", "Test", "Dataset", "1.00", "0.90", "0.80", "0.70", "0.60", "0.50", "0.40", "0.30", "LeNet-1", "LeNet-5", "ResNet-32", "VGG-19", "ResNet", "28-10", "0.20", "(b)", "Generative", "Models", "Test", "Dataset", "1.00", "0.90", "0.80", "0.70", "0.60", "0.50", "0.40", "0.30", "LeNet-1", "LeNet-5", "ResNet-32", "VGG-19", "ResNet", "28-10", "0.20", "(a)", "Original", "Test", "Dataset", "1.00", "0.90", "0.80", "0.70", "0.60", "0.50", "0.40", "0.30", "0.20", "LeNet-1", "LeNet-5", "ResNet-32", "VGG-19", "ResNet", "28-10"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 564.0,
+    "y1": 82.56,
+    "y2": 529.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Figure4-1.png"
+}, {
+  "caption": "Table 4: Parameters of adversarial attack methods.",
+  "captionBoundary": {
+    "x1": 335.6960144042969,
+    "x2": 540.1661376953125,
+    "y1": 445.0801086425781,
+    "y2": 449.375
+  },
+  "figType": "Table",
+  "imageText": ["max_iterations:", "10", "max_iter:", "40", "eps:", "0.1", "binary_search_steps:", "10", "eps:", "0.1", "eps_step:", "0.1", "initial_const:", "0.01", "eps_step:", "0.02", "norm:", "np.inf", "learning_rate:", "0.01", "norm:", "np.inf", "targeted:", "False", "targeted:", "False", "targeted:", "False", "FGSM", "C&W", "PGD"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 459.84,
+    "y2": 525.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table4-1.png"
+}, {
+  "caption": "Table 5: Degree of image transformations.",
+  "captionBoundary": {
+    "x1": 352.96087646484375,
+    "x2": 522.9006958007812,
+    "y1": 550.6451416015625,
+    "y2": 554.9400634765625
+  },
+  "figType": "Table",
+  "imageText": ["Rotate", "%-30", "-", "%30", "Translate", "%-20", "-", "%20", "Brightness", "%-10", "-", "%10", "Blur", "%0", "-", "%10", "Method", "Transformation", "Value"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 367.68,
+    "x2": 508.32,
+    "y1": 566.88,
+    "y2": 622.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table5-1.png"
+}, {
+  "caption": "Table 3: Details of test datasets.",
+  "captionBoundary": {
+    "x1": 374.735595703125,
+    "x2": 501.1257019042969,
+    "y1": 229.11622619628906,
+    "y2": 233.4111328125
+  },
+  "figType": "Table",
+  "imageText": ["2000", "+PGD", "2000", "+C&W", "2000", "+FGSM", "2000", "Original", "-", "Test", "Dataset", "Adversarial", "Attacks", "2000", "+Rotate", "2000", "+Translate", "2000", "+Brightness", "2000", "+Blur", "2000", "Original", "Test", "Dataset", "Image", "Transformation", "3000", "+GAN", "2000", "Original", "Test", "Dataset", "Generative", "Models", "Original", "Test", "Dataset", "5000", "-", "Method", "Test", "Dataset", "Data", "Count", "Applied"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 241.92,
+    "y2": 421.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table3-1.png"
+}, {
+  "caption": "Table 2: Accuracy of models for generated test data.",
+  "captionBoundary": {
+    "x1": 69.4551010131836,
+    "x2": 278.09368896484375,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["ResNet", "28-10", "72.5%", "58.4%", "0.9%", "VGG-16", "79.8%", "70.9%", "5.5%", "ResNet-32", "79.4%", "70.8%", "11.6%", "LeNet-1", "90.4%", "84.6%", "36.4%", "LeNet-5", "91.8%", "87.6%", "45.9%", "Attacks", "Adversarial", "Transformation", "Image", "Models", "Model", "Generative"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 99.84,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680312-Table2-1.png"
+}]

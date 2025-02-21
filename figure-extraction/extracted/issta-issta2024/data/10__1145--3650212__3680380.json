@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 1: Architectures of the DNNs used for the datasets.",
+  "captionBoundary": {
+    "x1": 59.51089096069336,
+    "x2": 288.0372619628906,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["post-processing", "(bias)", "mitigators?", "RQ4", "How", "do", "dropout", "strategies", "compare", "to", "the", "state-of-the-art", "e", "cient", "and", "e", "ective", "fairness", "repair", "of", "DNNs", "via", "dropout?", "RQ3", "What", "are", "the", "design", "considerations", "of", "search", "algorithms", "for", "together?", "RQ2", "Are", "there", "dropout", "strategies", "that", "improve", "fairness", "and", "utility", "Medical", "Expenditure", "(MEPS16)", "[138,", "128,", "128,", "128,", "1]", "Default", "Credit", "[30,", "16,", "16,", "16,", "1]", "Bank", "Marketing", "[32,", "32,", "32,", "1]", "Compas", "Software", "[12,", "32,", "32,", "1]", "[!", ",", "!0,", ".", ".", ".", ",", "!=,", "!$", "]", "Adult", "Census", "Income", "[34,", "64,", "128,", "64,", "1]", "Dataset", "Model", "Architecture"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 59.04,
+    "x2": 294.71999999999997,
+    "y1": 105.6,
+    "y2": 275.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Table1-1.png"
+}, {
+  "caption": "Table 4: Fairness and model utility metrics of the repaired DNN.",
+  "captionBoundary": {
+    "x1": 176.27499389648438,
+    "x2": 435.4308776855469,
+    "y1": 305.4450988769531,
+    "y2": 309.739990234375
+  },
+  "figType": "Table",
+  "imageText": ["Bank", "13.752%", "±", "2.567", "0.553", "±", "0.006", "0.842", "±", "0.003", "14.665%", "±", "2.114", "0.553", "±", "0.004", "0.84", "±", "0.003", "Default", "9.068%", "±", "1.782", "0.538", "±", "0.006", "0.774", "±", "0.007", "8.962%", "±", "1.772", "0.53", "±", "0.006", "0.769", "±", "0.007", "MEPS16", "20.167%", "±", "2.32", "0.543", "±", "0.009", "0.79", "±", "0.005", "20.641%", "±", "2.527", "0.533", "±", "0.01", "0.788", "±", "0.009", "0.967", "±", "0.004", "0.969", "±", "0.004", "COMPAS", "(Race)", "2.022%", "±", "0.884", "2.96%", "±", "1.088", "COMPAS", "(Sex)", "2.307%", "±", "0.679", "0.968", "±", "0.002", "0.97", "±", "0.002", "2.522%", "±", "0.817", "0.667", "±", "0.008", "0.851", "±", "0.003", "Adult", "(Race)", "8.352%", "±", "2.806", "8.251%", "±", "3.195", "Adult", "(Sex)", "9.704%", "±", "1.405", "0.68", "±", "0.005", "0.857", "±", "0.003", "11.639%", "±", "2.326", "EOD", "F1", "Accuracy", "EOD", "F1", "Accuracy", "Validation", "Test", "Unfair", "Neural", "Network", "Dataset"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 156.0,
+    "x2": 456.47999999999996,
+    "y1": 204.95999999999998,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Table4-1.png"
+}, {
+  "caption": "Figure 3: Evolution of the cost of the best state (logarithmic scale) found during the search on validation dataset using Simulated Annealing (SA) with 7 benchmarks and 10 seeds each.",
+  "captionBoundary": {
+    "x1": 53.467201232910156,
+    "x2": 558.2027587890625,
+    "y1": 666.8780517578125,
+    "y2": 682.1320190429688
+  },
+  "figType": "Figure",
+  "imageText": ["Bank", "0.871%", "±", "0.509", "0.547", "±", "0.007", "0.892", "±", "0.01", "7.257%", "±", "3.533", "0.537", "±", "0.014", "0.888", "±", "0.01", "1.714%", "±", "0.921", "0.548", "±", "0.006", "0.882", "±", "0.01", "7.595%", "±", "2.733", "0.548", "±", "0.008", "0.881", "±", "0.008", "Default", "1.14%", "±", "0.98", "0.529", "±", "0.007", "0.794", "±", "0.016", "2.749%", "±", "0.827", "0.519", "±", "0.006", "0.79", "±", "0.015", "2.045%", "±", "1.251", "0.53", "±", "0.007", "0.794", "±", "0.015", "3.124%", "±", "0.937", "0.523", "±", "0.005", "0.79", "±", "0.015", "MEPS16", "4.589%", "±", "1.294", "0.535", "±", "0.01", "0.86", "±", "0.006", "8.426%", "±", "2.311", "0.507", "±", "0.02", "0.853", "±", "0.005", "6.622%", "±", "1.183", "0.535", "±", "0.01", "0.856", "±", "0.005", "9.86%", "±", "2.623", "0.513", "±", "0.018", "0.851", "±", "0.007", "COMPAS", "(Sex)", "0.468%", "±", "0.548", "0.955", "±", "0.004", "0.959", "±", "0.003", "2.921%", "±", "1.446", "0.954", "±", "0.08", "0.957", "±", "0.008", "0.54%", "±", "0.535", "0.956", "±", "0.005", "0.959", "±", "0.004", "2.233%", "±", "1.022", "0.954", "±", "0.007", "0.957", "±", "0.006", "COMPAS", "(Race)", "0.56%", "±", "0.71", "0.955", "±", "0.002", "0.959", "±", "0.002", "2.239%", "±", "1.003", "0.954", "±", "0.005", "0.957", "±", "0.004", "0.58%", "±", "0.715", "0.956", "±", "0.003", "0.959", "±", "0.002", "2.159%", "±", "1.07", "0.955", "±", "0.004", "0.958", "±", "0.004", "Adult", "(Sex)", "5.618%", "±", "0.807", "0.668", "±", "0.005", "0.856", "±", "0.004", "7.259%", "±", "1.697", "0.652", "±", "0.01", "0.849", "±", "0.004", "6.01%", "±", "0.704", "0.667", "±", "0.005", "0.855", "±", "0.003", "7.358%", "±", "1.063", "0.652", "±", "0.01", "0.849", "±", "0.004", "Adult", "(Race)", "3.298%", "±", "2.069", "0.667", "±", "0.005", "0.854", "±", "0.003", "4.976%", "±", "1.816", "0.656", "±", "0.008", "0.849", "±", "0.004", "3.965%", "±", "1.665", "0.667", "±", "0.005", "0.853", "±", "0.003", "4.785%", "±", "2.085", "0.658", "±", "0.009", "0.849", "±", "0.003", "EOD", "F1", "Accuracy", "EOD", "F1", "Accuracy", "EOD", "F1", "Accuracy", "EOD", "F1", "Accuracy", "Validation", "Test", "Validation", "Test", "Simulated", "Annealing", "Random", "Walk", "Repaired", "Neural", "Network", "Dataset"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 324.96,
+    "y2": 652.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Figure3-1.png"
+}, {
+  "caption": "Table 7: Simulated Annealing compared to Brute-force search strategies.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0484924316406,
+    "y1": 216.85511779785156,
+    "y2": 232.1090087890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "14.087%", "6.441%", "6.415%", "0.026", "2", "8.874%", "5.306%", "5.306%", "0.0", "3", "8.352%", "5.755%", "5.755%", "0.0", "4", "17.896%", "13.823%", "13.743%", "0.08", "5", "8.062%", "5.304%", "5.25%", "0.054", "SA", "Brute", "Force", "EOD", "Delta", "Repaired", "Neural", "Network", "EOD", "EOD", "Seed", "Unfair", "DNN"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 246.72,
+    "y2": 328.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Table7-1.png"
+}, {
+  "caption": "Table 8: Distribution of Best, Good, and Bad states in the search space.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0487365722656,
+    "y1": 344.16510009765625,
+    "y2": 359.41900634765625
+  },
+  "figType": "Table",
+  "imageText": ["6", "Discussion", "Answer", "RQ4:", "NeuFair", "outperforms", "the", "state-of-the-art", "unfair-", "ness", "mitigation", "algorithm", "Dice", "[36]", "across", "all", "benchmarks.", "The", "relative", "improvement", "of", "NeuFair", "is", "56%", "higher", "than", "Dice.", "1", "1", "2.3", "×", "10−8", "43,789", "0.001", "41,669,509", "0.967", "2", "11", "2.5", "×", "10−7", "6,717", "1.0", "×", "10−4", "40,062,436", "0.93", "3", "8", "1.8", "×", "10−7", "1,795", "4.1", "×", "10−5", "42,997,093", "0.998", "4", "1", "2.3", "×", "10−8", "790", "1.8", "×", "10−5", "42,467,272", "0.985", "5", "1", "2.3", "×", "10−8", "13,623", "3.16", "×", "10−4", "40,197,630", "0.933", "Count", "Likelihood", "Count", "Likelihood", "Count", "Likelihood", "Seed", "Best", "State", "Good", "State", "Bad", "State"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 373.91999999999996,
+    "y2": 518.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Table8-1.png"
+}, {
+  "caption": "Table 6: Fairness and Utility of Dice [36].",
+  "captionBoundary": {
+    "x1": 89.96089935302734,
+    "x2": 257.5864562988281,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Bank", "12.205%", "±", "2.731", "0.567", "±", "0.005", "0.862", "±", "0.01", "Default", "5.845%", "±", "1.816", "0.528", "±", "0.004", "0.791", "±", "0.007", "MEPS16", "19.204%", "±", "2.592", "0.54", "±", "0.012", "0.8", "±", "0.009", "Adult", "(Sex)", "10.453%", "±", "2.266", "0.658", "±", "0.007", "0.851", "±", "0.003", "Adult", "(Race)", "8.092%", "±", "3.253", "0.662", "±", "0.008", "0.851", "±", "0.003", "COMPAS", "(Sex)", "3.229%", "±", "0.774", "0.964", "±", "0.005", "0.957", "±", "0.004", "COMPAS", "(Race)", "2.964%", "±", "1.088", "0.965", "±", "0.003", "0.968", "±", "0.003", "EOD", "F1", "Accuracy", "Dataset", "Test", "Dataset"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 105.6,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Table6-1.png"
+}, {
+  "caption": "Figure 4: Evolution of the cost of the best state (logarithmic scale) found during the search on validation dataset using Random Walk (RW) with 7 benchmarks and 10 seeds each.",
+  "captionBoundary": {
+    "x1": 53.340999603271484,
+    "x2": 558.2030029296875,
+    "y1": 334.63409423828125,
+    "y2": 349.88800048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 320.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Figure4-1.png"
+}, {
+  "caption": "Table 5: Fairness metrics for COMPAS (Sex)",
+  "captionBoundary": {
+    "x1": 86.07810974121094,
+    "x2": 261.4693603515625,
+    "y1": 481.6513366699219,
+    "y2": 485.94622802734375
+  },
+  "figType": "Table",
+  "imageText": ["Model", "EOD", "for", "10", "seeds", "Unfair", "2.2%", "2.5%", "2.35%", "1.87%", "4.1%", "2.15%", "1.38%", "4.26%", "0.79%", "3.6%", "Repaired", "(SA)", "1.97%", "4.28%", "2.35%", "4.58%", "4.37%", "0.12%", "0.47%", "4.83%", "5.5%", "0.75%", "Repaired", "(RW)", "1.25%", "3.61%", "3.19%", "2.5%", "2.4%", "0.53%", "0.28%", "4.54%", "3.07%", "0.92%"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 300.0,
+    "y1": 500.64,
+    "y2": 532.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Table5-1.png"
+}, {
+  "caption": "Figure 1: Overview of the NeuFair: a post-processing bias mitigation approach.",
+  "captionBoundary": {
+    "x1": 145.38600158691406,
+    "x2": 466.6147155761719,
+    "y1": 242.95106506347656,
+    "y2": 247.2459716796875
+  },
+  "figType": "Figure",
+  "imageText": ["if", "then", "S", "=", "S',", "C", "=", "C'", "if", "C", "<=", "C*", "then", "S", "=", "S*,", "C", "=", "C*", "Drop", "neurons", "in", "the", "model:", "M*", "=", "M", "-", "S*", "Repaired", "Model", "M*", "Sample", "initial", "set", "of", "neurons", "S0", "Set", "best", "cost", "C,C*", "=", "Cost(S0),", "S,S*", "=", "S0", "Iterate", "until", "a", "stopping", "criterion", "occurs:", "Sample", "neighbor", "S'", "of", "S", "Compute", "C'", "=", "Cost(S')", "Unfair", "Model", "M", "Test", "Data", "Repaired", "Model", "Validation", "Data", "Neuron", "Repair", "Training", "Data", "Original", "Unfair", "Model"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 92.64,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Figure1-1.png"
+}, {
+  "caption": "Figure 2: 3-dimensional Boolean hypercube that demonstrates the exponential search space of a neural network with 1 hidden layer having 3 neurons.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.8043823242188,
+    "y1": 437.7921142578125,
+    "y2": 464.0050048828125
+  },
+  "figType": "Figure",
+  "imageText": ["0,1,1", "1,0,1", "1,1,0", "0,0,1", "0,1,0", "1,0,0", "1,1,1", "0,0,0"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 391.68,
+    "x2": 482.4,
+    "y1": 264.96,
+    "y2": 423.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Figure2-1.png"
+}, {
+  "caption": "Figure 5: E ect of F1 penalty multiplier on the EOD",
+  "captionBoundary": {
+    "x1": 333.39599609375,
+    "x2": 542.7612915039062,
+    "y1": 328.2131042480469,
+    "y2": 332.50799560546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680380-Figure5-1.png"
+}]

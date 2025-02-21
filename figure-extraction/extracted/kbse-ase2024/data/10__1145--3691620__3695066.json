@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 3: Infilling template of CodeLlama-7B",
+  "captionBoundary": {
+    "x1": 80.90499877929688,
+    "x2": 266.93597412109375,
+    "y1": 395.4928894042969,
+    "y2": 397.572998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Fix", "Lines", "_<PRE>", "Bug", "Lines", "Before", "_<SUF>", "Bug", "Lines", "After", "_<MID>", " Model", "output:", " Model", "input:"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 277.44,
+    "y1": 283.68,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Efficiency ofmemory and parameters with different",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1914672851562,
+    "y1": 241.48391723632812,
+    "y2": 243.56402587890625
+  },
+  "figType": "Figure",
+  "imageText": ["Parameter", "Efficiency", "FMFT", "(IA)3", "p-tuning", "prefix-tuning", "LoRA", "ug", "s", "ed", "b", "l", "F", "ix", "To", "ta", "220", "200", "180", "160", "140", "120", "100", "Parameter", "Size", "(log", "scale)", "10", "6", "10", "7", "10", "8", "10", "9", "10", "10", "Memory", "Efficiency", "FMFT", "(IA)3", "p-tuning", "prefix-tuning", "LoRA", "ug", "s", "ed", "b", "l", "F", "ix", "To", "ta", "220", "200", "180", "160", "140", "120", "100", "80", "100", "120", "Peak", "GPU", "Memory", "(GB)"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 111.36,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Figure4-1.png"
+}, {
+  "caption": "Table 4: Number of fixed bugs on different fine-tuning",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03302001953125,
+    "y1": 226.61288452148438,
+    "y2": 228.6929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Finding", "1:", "As", "Table", "3", "shown,", "the", "best", "model", "in", "this", "work,", "DeepSeek-Coder-Base-6.7B", "with", "(𝐼𝐴)3,", "fixes", "58%", "more", "bugs", "than", "the", "SOTA", "LLM-based", "APR", "technique,", "INCODER-6B", "with", "FMFT,", "on", "HumanEval-Java."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 158.88,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Table4-1.png"
+}, {
+  "caption": "Table 7: Number of fixed bugs with different hyperparameters setting of LoRA rank on CodeLlama-7B",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6363220214844,
+    "y1": 468.99188232421875,
+    "y2": 482.031005859375
+  },
+  "figType": "Table",
+  "imageText": ["The", "guidelines", "of", "LoRA", "[16]", "suggest", "that", "the", "maximum", "𝑟𝑎𝑛𝑘", "8", "90/163", "74/217", "25/40", "189/420", "16", "99/163", "87/217", "26/40", "212/420", "32", "98/163", "75/217", "26/40", "199/420", "64", "96/163", "78/217", "23/40", "197/420", "128", "98/163", "78/217", "26/40", "202/420", "Benchmark", "Total", "Fixed", "Bugs", "HumanEval-java", "(pass@10)", "Defects4J", "v2.0", "(pass@10)", "QuixBugs", "(pass@10)", "LoRA", "(rank)"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 293.76,
+    "y1": 496.79999999999995,
+    "y2": 599.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Table7-1.png"
+}, {
+  "caption": "Figure 7: PeekGPUMemory onCodeLlama-7B,CodeLlama-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6479797363281,
+    "y1": 181.96987915039062,
+    "y2": 184.04998779296875
+  },
+  "figType": "Figure",
+  "imageText": ["CodeLlama", "13B", "(IA)3", "LoRA", "prefix-tuning", "p-tuning", "Peak", "GPU", "Memory", "(GB)", "112", "114", "116", "118", "120", "LLAMA", "2", "7B", "DeepSeek-Coder", "CODELLAMA", "7B", "(IA)3", "LoRA", "p-tuning", "prefix-tuning", "(IA)3", "LoRA", "p-tuning", "prefix-tuning", "LoRA", "p-tuningprefix-tuning", "(IA)3", "ug", "s", "ed", "b", "l", "F", "ix", "To", "ta", "250", "200", "150", "100", "50", "Peak", "GPU", "Memory", "(GB)", "63", "64", "65", "66", "67", "68", "69"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 162.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Figure7-1.png"
+}, {
+  "caption": "Figure 1: An overview of APR-Instruction constructed, supervised fine-tuning on four LLMs with four PEFT Methods, and",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1837768554688,
+    "y1": 300.2378845214844,
+    "y2": 302.3179931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Generate", "Patches", "for", "Benchmarks", "Candidate", "patches", "SFT", "and", "Validation", "Original", "Parameters", "Frozen", "Update", "PEFT", "Parameters", "LoRA,", "p", "tuning,", "pref", "x", "tuning,", "(IA)3", "(e)", "Training", "with", "PEFT", "CodeLlama", "Llama", "2", "GPT-3.5-Turbo", "Construct", "APR-INSTRUCTION", "Parameter-Eff", "cient", "Fine-Tuning", "Methods", "2.", "[Solution]", "There", "are", "two", "subsections", "1.", "[Bug", "Description]", "This", "should", "be", "Guidelines", "for", "each", "section:", "Buggy", "code", "snippet", "for", "inspiration:", "java", "{buggy_code}", "Fix", "code", "snippet", "for", "inspiration:", "java", "{f", "x_code}", "Please", "gain", "inspiration", "from", "the", "following", "buggy", "and", "its", "f", "x", "code", "snippets", "to", "create", "a", "high", "quality", "programming", "problem", "Bug", "Lines", "After", "Bug", "Lines", "Bug", "Lines", "Before", "Fix", "Lines", "Bug", "Lines", "After", "Bug", "Lines", "Before", "Open", "source", "Dataset", "Buggy", "Code", "Fix", "Code", "Bug", "Lines", "Before", "Bug", "Lines", "After", "Bug", "Lines", "Fix", "Lines", "(d)", "APR-INSTRUCTION-30K", "(c)", "Prompt", "for", "APR-INSTRUCTION", "(Details", "Omitted)", "(a)", "Existing", "APR", "Dataset", "(b)", "Buggy", "Code", "and", "Fix", "Code", "Pairs", "(f)", "Patch", "Generation", "and", "Validation", "on", "Benchmarks", "Test", "Cases", "java", "{f", "x_code}", "Input(Details", "Omitted)", "Response", "Write", "a", "solution", "to", "the", "following", "coding", "problem:", "In", "this", "code", "snippet", "java", "{buggy_code}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 555.36,
+    "y1": 86.39999999999999,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Figure1-1.png"
+}, {
+  "caption": "Figure 5: 𝑝𝑎𝑠𝑠@𝑘 on Defects4J with different PEFT methods",
+  "captionBoundary": {
+    "x1": 54.37799835205078,
+    "x2": 293.4586486816406,
+    "y1": 421.0558776855469,
+    "y2": 423.135986328125
+  },
+  "figType": "Figure",
+  "imageText": ["LoRA", "p-tuning", "prefix-tuning", "Fixed", "bugs", "of", "DeepSeek-Coder", "on", "Defects4J", "(IA)3", "2", "4", "6", "8", "10", "Pass@k", "LoRA", "p-tuning", "prefix-tuning", "Fixed", "bugs", "of", "CODELLAMA-13B", "on", "Defects4J", "(IA)3", "2", "4", "6", "8", "10", "Pass@k", "LoRA", "p-tuning", "prefix-tuning", "Fixed", "bugs", "of", "CODELLAMA-7B", "on", "Defects4J", "(IA)3", "s", "b", "ug", "Fix", "ed", "100", "80", "60", "40", "20", "2", "4", "6", "8", "10", "Pass@k"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 324.47999999999996,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Instance of HumanEval-Java with different PEFT",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4859008789062,
+    "y1": 360.7998962402344,
+    "y2": 362.8800048828125
+  },
+  "figType": "Figure",
+  "imageText": ["c", "'A'", "c", "'E'", "c", "'I'", "c", "'O'", "c", "'U')", "{", "c", "=", "(char)", "((int)", "c", "+", "2);", "}", "sb.append(c);", "}", "return", "sb.toString();", "}", "<CHANGE", "OTHER", "LINE", "NOT", "BUG", "LINE>", "<CPOY", "BUG", "LINE>", "<ADD", "SPACE>", "<DELETE", "BUG", "LINE>", "if", "(Character.isLetter(c))", "{", "<CPOY", "BUG", "LINE>", "if", "(Character.isLetter(c))", "{", "<DELETE", "BUG", "LINE>", "<ADD", "SPACE>", "if", "(Character.isLowerCase(c)", "Character.isDigit(c))", "<COPY", "BUG", "LINE>", "<ADD", "SPACE>", "<DELETE", "BUG", "LINE>", "if", "(Character.isLetter(c))", "{", "c", "=", "Character.toUpperCase(c);", "}", "if", "(c", "'a'", "c", "'e'", "c", "'i'", "c", "'o'", "c", "'u'", "if", "(!Character.isLowerCase(c))", "{", "else", "if", "(!Character.isLowerCase(c))", "if(Character.isLowerCase(c)", "Character.isDigit(c))", "<CPOY", "BUG", "LINE>", "<ADD", "SPACE>", "<CPOY", "BUG", "LINE>", "<DELETE", "BUG", "LINE>", "public", "static", "String", "encode(String", "message)", "{", "StringBuilder", "sb", "=", "new", "StringBuilder();", "for", "(char", "c", ":", "message.toCharArray())", "{", "if", "(Character.isUpperCase(c))", "{", "c", "=", "Character.toLowerCase(c);", "}", "if", "(Character.isLowerCase(c))", "{", "pref", "x", "tuning", "patches", "7,8", "p", "tuning", "patches", "10", "pref", "x", "tuning", "patches", "1,9", "pref", "x", "tuning", "patches", "2,3,5", "pref", "x", "tuning", "patches", "4,6,10", "p", "tuning", "patches", "3", "p", "tuning", "patches", "1,6", "p", "tuning", "patches", "2,5,8", "p", "tuning", "patches", "4,7,9", "LoRA", "patches", "1,4,7", "LoRA", "patches", "2,5", "LoRA", "patches", "6,8,9,10", "LoRA", "patches", "3", "(IA)3 patches", "3", "Bug", "Line", "(IA)3 patches", "2", "(IA)3 patches", "1", "(IA)3 patches", "4", "(IA)3 patches", "5", "(IA)3 patches", "6", "(IA)3 patches", "8,9,10", "(IA)3 patches", "7"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 550.0799999999999,
+    "y1": 86.88,
+    "y2": 332.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Principles of LoRA, p-tuning, prefix-tuning, and (𝐼𝐴)3 on LLMs. Red parts represents trainable modules of",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03765869140625,
+    "y1": 472.41387939453125,
+    "y2": 485.4530029296875
+  },
+  "figType": "Figure",
+  "imageText": ["𝑊)*+,", "𝑙##", "Activate", "𝑊#$𝑊%&'(", "𝑙!", "𝑙\"", "Attention", "𝑃!", "𝑃\"", "LoRA", "LoRA", "𝑄", "𝐾", "𝑉", "𝑊!", "𝑊\"", "𝑊#", "Hidden", "States", "Add", "&", "Norm", "Feed", "Forward", "Inputs", "Add", "&", "Norm", "Multi-Head", "Attention"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 253.44,
+    "y1": 221.76,
+    "y2": 453.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695066-Figure2-1.png"
+}]

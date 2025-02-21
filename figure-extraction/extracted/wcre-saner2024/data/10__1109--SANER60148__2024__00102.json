@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 4. An example of disclosed vulnerability (CVE-2019-10894) and its security patch.",
+  "captionBoundary": {
+    "x1": 64.53340148925781,
+    "x2": 295.8796691894531,
+    "y1": 212.53150939941406,
+    "y2": 224.2529296875
+  },
+  "figType": "Figure",
+  "imageText": ["#", "$%", "%", "!", "(&", "'", "5#", "(", "&", "&", "$%", "&", "&", "&", "&", "$%", "&", "&", "'", "&", "&", "$(", "+", "(", "!", "$#%'", ".34", "*", "#!&", "%$(", "*", "$", "%", "$(", "%", "&", "+", "\"#", "%'", "($$*", ",,", "%", "&", "#", "(", "&%", "),", "\"#", ",", "+", "\"#", "-", "!", ".%/", "0)", "!", "1", "#", "(", "&%", ")2", "%", "'", "'%", "'", "#", "$%", "(", "'", "!", "!%)#", "%'#", "$", "'$", "#$(", "!!", "\"", "!#", "#", "$%", "&"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 109.92,
+    "x2": 252.0,
+    "y1": 73.92,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-Figure4-1.png"
+}, {
+  "caption": "TABLE XIII TIME COSTS OF PROMVPAT ON VCMATCH DATASET.",
+  "captionBoundary": {
+    "x1": 97.64007568359375,
+    "x2": 262.8559875488281,
+    "y1": 476.6191101074219,
+    "y2": 488.34075927734375
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "Training", "Location", "PromVPat", "3.1", "hours/epoch", "9.77", "seconds/1k"],
+  "name": "XIII",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 96.96,
+    "x2": 260.15999999999997,
+    "y1": 497.76,
+    "y2": 516.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableXIII-1.png"
+}, {
+  "caption": "Fig. 1. An illustration of prompt tuning in the context of security patch localization. The blue rectangle symbolizes the input slot [x] (e.g., vulnerability descriptions and code commits). The purple rectangle denotes the answer slot [z] (e.g., “yes” and “no”). The green rectangle signifies the special token (e.g., 〈CLS〉).",
+  "captionBoundary": {
+    "x1": 63.65869903564453,
+    "x2": 295.9287109375,
+    "y1": 185.00929260253906,
+    "y2": 221.51800537109375
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "slot", "Answer", "slot", "Special", "token", "Verbalizer", "Mapping", "Predicted", "Class", "Label", "Representation", "Template", "Template", "[MASK]", "Label", "Words", "Representation", "Input", "Representation", "Representation", "Code", "Change", "CVE", "Description", "PLMs"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 274.08,
+    "y1": 73.92,
+    "y2": 168.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-Figure1-1.png"
+}, {
+  "caption": "TABLE VII EVALUATION RESULTS OF DIFFERENT PROMPT VERBALIZERS.",
+  "captionBoundary": {
+    "x1": 335.2403259277344,
+    "x2": 526.5865478515625,
+    "y1": 384.95208740234375,
+    "y2": 396.6737365722656
+  },
+  "figType": "Table",
+  "imageText": ["+:", "“yes”,", "-:", "“no”", "90.15%", "38.51%", "+:", "“true”,", "-:", "“false”", "87,88%", "37.54%", "Commit", "Message", "Channel", "+:", "“relevant”,", "-:", "“irrelevant”", "88.64%", "37.86%", "+:", "“yes”,", "-:", "“no”", "89.39%", "38.19%", "+:", "“true”,", "-:", "“false”", "90.15%", "38.51%", "Code", "Change", "Channel", "+:", "“relevant”,", "-:", "“irrelevant”", "88.64%", "37.86%", "MetricsChannel", "Type", "Prompt", "Verbalizer", "Recall@1", "NDCG@1"],
+  "name": "VII",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 542.4,
+    "y1": 405.59999999999997,
+    "y2": 474.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableVII-1.png"
+}, {
+  "caption": "TABLE III PERFORMANCE COMPARISONS OF OUR APPROACH WITH OTHER BASELINES.",
+  "captionBoundary": {
+    "x1": 191.66714477539062,
+    "x2": 427.79248046875,
+    "y1": 74.97877502441406,
+    "y2": 86.70111083984375
+  },
+  "figType": "Table",
+  "imageText": ["VCMatch", "Dataset", "SAP", "DatasetModel\\Dataset", "Recall@1", "NDCG@1", "Recall@5", "NDCG@5", "Recall@1", "NDCG@1", "Recall@5", "NDCG@5", "XGBoost", "74.24%", "31.72%", "78.03%", "32.74%", "17.52%", "13.33%", "39.43%", "30.14%", "LightGBM", "76.51%", "32.69%", "78.79%", "33.29%", "19.30%", "14.22%", "40.13%", "33.35%", "PATCHSCOUT", "75.76%", "32.36%", "78.79%", "33.18%", "19.12%", "21.57%", "41.99%", "34.17%", "VCMatch", "75.76%", "32.36%", "81.81%", "34.95%", "19.71%", "22.21%", "43.62%", "35.73%", "VulCurator", "78.79%", "37.54%", "79.55%", "26.52%", "21.37%", "27.45%", "56.21%", "44.92%", "PromVPat", "90.15%", "38.51%", "91.67%", "38.92%", "39.87%", "34.95%", "66.01%", "45.92%", "Improvement", "14.42%", "0.97%", "12.05%", "11.36%", "86.57%", "27.32%", "17.43%", "2.23%"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 108.96,
+    "x2": 509.28,
+    "y1": 96.0,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableIII-1.png"
+}, {
+  "caption": "TABLE IV EVALUATION RESULTS OF THE EFFECT OF DUAL PROMPT TUNING CHANNEL.",
+  "captionBoundary": {
+    "x1": 63.80619812011719,
+    "x2": 296.339111328125,
+    "y1": 196.89698791503906,
+    "y2": 208.61920166015625
+  },
+  "figType": "Table",
+  "imageText": ["MetricsMethod", "R@1", "N@1", "R@5", "N@5", "PromVPat-mess", "87.88%", "37.54%", "88.64%", "37.74%", "PromVPat-code", "82.58%", "35.28%", "83.33%", "35.40%", "PromVPat-single", "77.27%", "33.01%", "81.06%", "34.03%", "PromVPat", "90.15%", "38.51%", "91.67%", "38.92%"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 291.36,
+    "y1": 217.92,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableIV-1.png"
+}, {
+  "caption": "TABLE VI EVALUATION RESULTS OF DIFFERENT PROMPT TEMPLATES.",
+  "captionBoundary": {
+    "x1": 87.92617797851562,
+    "x2": 272.2149963378906,
+    "y1": 491.1502990722656,
+    "y2": 502.8719482421875
+  },
+  "figType": "Table",
+  "imageText": ["CVE", "[x1]", "is", "described", "by", "message", "[x4]", "[z]", "86.36%", "36.89%", "CVE", "[x1]", "is", "ﬁxed", "by", "code", "[x3]", "[z]", "90.15%", "38.51%", "[x1]", "means", "[x4]?", "Is", "it", "correct?", "[z].", "90.15%", "38.51%", "Message", "[x4]", "describe", "[x1]", "Is", "it", "correct?", "[z]", "84.85%", "36.25%", "CVE:", "[x1]", "Message:", "[x4]", "Relevant", "[z]", "84.09%", "35.92%", "Commit", "Message", "Channel", "[x1]", "means", "[x3]?", "Is", "it", "correct?", "[z].", "88.64%", "37.86%", "Code:", "[x3]", "ﬁx", "[x1]?", "Is", "it", "correct", "[z].", "84.85%", "36.24%", "Code:", "[x3]", "CVE:", "[x1]", "Relevant", "[z]", "87.12%", "37.22%", "Code", "Change", "Channel", "MetricsChannel", "Type", "Prompt", "Templates", "R@1", "N@1"],
+  "name": "VI",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 295.2,
+    "y1": 511.68,
+    "y2": 588.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableVI-1.png"
+}, {
+  "caption": "TABLE V EVALUATION RESULTS OF DIFFERENT PROMPT TUNING METHODS.",
+  "captionBoundary": {
+    "x1": 77.4710922241211,
+    "x2": 282.6694030761719,
+    "y1": 292.4241943359375,
+    "y2": 304.1458435058594
+  },
+  "figType": "Table",
+  "imageText": ["PromVPat-hh", "85.61%", "36.57%", "87.12%", "36.90%", "PromVPat-hs", "86.36%", "36.89%", "89.39%", "37.71%", "PromVPat-sh", "87.88%", "37.54%", "89.39%", "37.95%", "PromVPat", "90.15%", "38.51%", "91.67%", "38.92%", "MetricsTuning", "Method", "Recall@1", "NDCG@1", "Recall@5", "NDCG@5"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 294.24,
+    "y1": 313.92,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableV-1.png"
+}, {
+  "caption": "Fig. 2. An example of disclosed vulnerability and its security patch.",
+  "captionBoundary": {
+    "x1": 75.50440216064453,
+    "x2": 284.2028503417969,
+    "y1": 405.0993957519531,
+    "y2": 408.55859375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "/", "!", "&", ",", "*", "(", "+", "&", "&'", "\"", "'\"/", "23.45-26", "7*", "'", "0", "&'", "\"", "'\"/", "&'", "8&'", "D", "&+", "&'", "!", "+&E", "23.45-26", "&'", "&',", "*", "/&'\"", "&',", "'", "9", "!", "##", ":", "(", "!", ":&", "\"", "-", "*&", "'", "+", "*&", "'", "*\"", "/", "-&,'", "!", ";", "\"+\"", ";\"'", "&", "(<(", "\"(", "<", ",", ":", "&", "!", "-", "\"'", "=\"<'", "E&", "+", "\"'*\"", "*\"", "/", "&!", "!", "D", "&'", "(", "')", "!", "\"'", "D", "!", "*\"+", "\"", "\",,", "!&'\"", "\"", "\"", "-", ".", "+", "&\"", "&E\"", "&", "'", "'", "\"!&", "&", "*\"", "/\"", "\"", "+", "\"", "+", "\"", "0", "!\"+", "!", "12", "45;", ".", ".", "\"", ".4", "5.", "=4", "1", ">", "=", ".4", "0", ")", "2", "/", "0", "$", "-", "%", "(", "12", "45;", "45", "/C", "\"", "/=", "@6!A7B0", ";", "/2", "12", "/.5", "<", "1", "2==", "=/", "#", ">", "?/", ".", "12", "/", ".", "0", "4", "=1", "0", "12", "3", ".", "45", "/4", "12", "/", ".", "6", "!7896:", "\"", ".", "/", "0", "(", "-", "''", "(", ")", "(", "''", "*", "*", "*", "+", ",", "*", ",", "*", "*", "$", "%&", "##", "!", "!", "!", "!\"", "\"", "\""],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 287.03999999999996,
+    "y1": 74.39999999999999,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-Figure2-1.png"
+}, {
+  "caption": "TABLE X EVALUATION RESULTS IN THE CROSS-LANGUAGE LOW-RESOURCE SCENARIO.",
+  "captionBoundary": {
+    "x1": 327.5749816894531,
+    "x2": 532.62353515625,
+    "y1": 197.33668518066406,
+    "y2": 217.32122802734375
+  },
+  "figType": "Table",
+  "imageText": ["Different", "ShotsMethod", "1", "Shot", "4", "Shots", "8", "Shots", "16", "Shots", "Fine-Tuning", "48.78%", "49.39%", "48.78%", "52.44%", "Prompt-Tuning", "51.21%", "53.05%", "53.66%", "54.88%"],
+  "name": "X",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 532.3199999999999,
+    "y1": 226.56,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableX-1.png"
+}, {
+  "caption": "TABLE XI EVALUATION RESULTS IN THE CROSS-PROJECT LOW-RESOURCE SCENARIO.",
+  "captionBoundary": {
+    "x1": 314.6004943847656,
+    "x2": 547.1268310546875,
+    "y1": 475.7126159667969,
+    "y2": 487.4349060058594
+  },
+  "figType": "Table",
+  "imageText": ["Different", "ShotsMethod", "1", "Shot", "4", "Shots", "8", "Shots", "16", "Shots", "Fine-Tuning", "78.03%", "78.03%", "77.27%", "78.03%", "Prompt-Tuning", "78.79%", "78.79%", "78.03%", "84.84%"],
+  "name": "XI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 532.3199999999999,
+    "y1": 496.79999999999995,
+    "y2": 532.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableXI-1.png"
+}, {
+  "caption": "TABLE VIII EVALUATION RESULTS OF DIFFERENT PLMS.",
+  "captionBoundary": {
+    "x1": 109.88128662109375,
+    "x2": 250.16261291503906,
+    "y1": 217.36830139160156,
+    "y2": 229.0899658203125
+  },
+  "figType": "Table",
+  "imageText": ["MetricsPLM", "Type", "Recall@1", "NDCG@1", "PromVPat-CodeBERT", "88.64%", "37.86%", "PromVPat", "90.15%", "38.51%", "PromVPat-GPT2", "84.09%", "35.92%"],
+  "name": "VIII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 264.0,
+    "y1": 238.56,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableVIII-1.png"
+}, {
+  "caption": "TABLE I THE LIST OF HANDCRAFTED FEATURES.",
+  "captionBoundary": {
+    "x1": 247.83572387695312,
+    "x2": 372.1800842285156,
+    "y1": 215.4845733642578,
+    "y2": 227.210205078125
+  },
+  "figType": "Table",
+  "imageText": ["Number", "unrelated", "function", "Number", "of", "functions", "in", "commits", "but", "not", "mentioned", "in", "CVE", "descriptions", "Variance", "of", "same", "CVE", "Code", "Word", "Variance", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "code", "changes", "Number", "same", "ﬁle", "path", "Number", "of", "same", "ﬁle", "paths", "between", "CVE", "descriptions", "and", "commits", "Ratio", "same", "ﬁle", "path", "Ratio", "of", "same", "ﬁle", "paths", "between", "CVE", "descriptions", "and", "commits", "Number", "unrelated", "ﬁle", "path", "Number", "of", "ﬁle", "paths", "that", "is", "in", "commits", "but", "not", "mentioned", "in", "CVE", "descriptions", "Number", "same", "ﬁle", "Number", "of", "same", "ﬁles", "between", "CVE", "descriptions", "and", "commits", "Ratio", "same", "ﬁle", "Ratio", "of", "same", "ﬁles", "between", "CVE", "descriptions", "and", "commits", "Number", "unrelated", "ﬁle", "Number", "of", "ﬁles", "in", "commits", "but", "not", "mentioned", "in", "CVE", "descriptions", "Number", "same", "function", "Number", "of", "functions", "between", "CVE", "descriptions", "and", "commits", "Ratio", "same", "function", "Ratio", "of", "functions", "between", "CVE", "descriptions", "and", "commits", "Vulnerability", "Location", "Features", "Feature", "Type", "Feature", "Name", "Feature", "Description", "Number", "of", "CVE", "Number", "of", "CVE", "IDs", "in", "commit", "messages", "Number", "of", "Bug", "Number", "of", "bug", "IDs", "in", "commit", "messages", "Flag", "of", "CVE", "Match", "Whether", "the", "CVE", "IDs", "in", "commit", "messages", "Flag", "of", "Bug", "Match", "Whether", "Bug", "IDs", "in", "commit", "messages", "Flag", "of", "CWE", "Match", "Whether", "CWE", "IDs", "in", "commit", "messages", "Same", "number", "of", "CVE", "Msg", "Number", "of", "same", "words", "between", "CVE", "description", "and", "commit", "messages", "Same", "ratio", "of", "CVE", "Msg", "Ratio", "of", "same", "words", "between", "CVE", "description", "and", "commit", "message", "Max", "of", "same", "CVE", "Msg", "Word", "Max", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "commit", "messages", "Sum", "of", "same", "CVE", "Msg", "Word", "Sum", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "commit", "messages", "Average", "of", "same", "CVE", "Msg", "Word", "Average", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "commit", "messages", "Variance", "of", "same", "CVE", "Msg", "Word", "Variance", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "commit", "messages", "Same", "number", "of", "CVE", "Code", "Number", "of", "same", "words", "between", "CVE", "descriptions", "and", "code", "changes", "Same", "ratio", "of", "CVE", "Code", "Ratio", "of", "same", "words", "between", "CVE", "descriptions", "and", "code", "changes", "Max", "of", "same", "CVE", "Code", "Word", "Max", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "code", "changes", "Sum", "of", "same", "CVE", "Code", "Word", "Sum", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "code", "changes", "Average", "of", "same", "CVE", "Code", "Word", "Average", "frequencies", "of", "same", "words", "between", "CVE", "descriptions", "and", "code", "changes", "Vulnerability", "Identiﬁer", "Features"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 534.24,
+    "y1": 236.64,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-TableI-1.png"
+}, {
+  "caption": "Fig. 3. An overview framework of the proposed model.",
+  "captionBoundary": {
+    "x1": 224.1793975830078,
+    "x2": 394.53277587890625,
+    "y1": 193.51747131347656,
+    "y2": 196.9766845703125
+  },
+  "figType": "Figure",
+  "imageText": ["Commit", "Message", "Channel", "Change", "Channel", "Patch", "Ranking", "List", "Code", "CVE", "Commit", "Score", "Patch", "Location", "Module", "Vulnerability", "Identifier", "Features", "Feature", "Fusion", "&", "A", "ttention", "Vulnerabilities", "Vulnerability", "Location", "Features", "Encoder1", "(PLM)", "Classifier1", "Prompt", "Generator1", "Semantic", "Matching", "Module", "Handcrafted", "Feature", "Extraction", "Module", "Encoder2", "(PLM)", "Classifier2", "Prompt", "Generator2", "Code", "Commits"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 118.56,
+    "x2": 499.2,
+    "y1": 74.88,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00102-Figure3-1.png"
+}]

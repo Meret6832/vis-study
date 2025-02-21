@@ -1,0 +1,141 @@
+[{
+  "caption": "TABLE I: Statistics on Google Play apps using evasion techniques.",
+  "captionBoundary": {
+    "x1": 171.15170288085938,
+    "x2": 431.09295654296875,
+    "y1": 74.23202514648438,
+    "y2": 79.87457275390625
+  },
+  "figType": "Table",
+  "imageText": ["⋆:", "Techniques", "indeed", "Evading", "Dynamic", "Analysis", "in", "Practice", "*:", "Some", "apps", "implement", "the", "evasion", "actions", "in", "both", "Java/Kotlin", "and", "Native", "code.", "Therefore,", "the", "[All]", "amount", "is", "not", "[Java/Kotlin]", "+", "[Native]", "directly.", "Evasion", "Techniques", "ED1", "ED2", "ED3", "ED4", "ED5", "ED6", "AD1", "AD2", "AH", "TT1", "TT2", "All∗", "All", "66,407", "37,988", "43,989", "5,007", "72,574", "16,800", "31,876", "47,047", "1,746", "8,407", "16,250", "87,038", "TiE⋆", "50/50", "0/50", "0/50", "38/50", "0/50", "35/50", "50/50", "50/50", "39/50", "50/50", "0/50", "-", "Java", "/", "Kotlin", "62,219", "-", "-", "1,940", "-", "12,823", "29,947", "46,873", "1107", "8,407", "-", "69,212", "Native", "8,459", "-", "-", "2,016", "-", "3,198", "2,567", "670", "201", "-", "-", "12,610", "All", "(adjusted)", "66,407", "-", "-", "3,950", "-", "15,745", "31,876", "47,047", "1,283", "8,407", "-", "73,607", "Percentage", "61.4%", "-", "-", "3.7%", "-", "14.6%", "29.5%", "43.5%", "1.2%", "7.8%", "-", "68.1%"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 543.36,
+    "y1": 88.8,
+    "y2": 175.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00028-TableI-1.png"
+}, {
+  "caption": "TABLE II: Evasion techniques locations deployed in apps.",
+  "captionBoundary": {
+    "x1": 319.7524108886719,
+    "x2": 545.6885375976562,
+    "y1": 74.82156372070312,
+    "y2": 80.464111328125
+  },
+  "figType": "Table",
+  "imageText": ["Location", "Usage", "Status", "App", "Count", "Percentage", "Local", "Used", "56,199", "52.0%", "Third-party", "Library", "37,272", "34.5%", "Unused", "80,376", "74.4%"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 88.8,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00028-TableII-1.png"
+}, {
+  "caption": "TABLE III: Top 5 third-party libraries with evasion capability.",
+  "captionBoundary": {
+    "x1": 60.11899948120117,
+    "x2": 296.4134826660156,
+    "y1": 74.75057983398438,
+    "y2": 80.39312744140625
+  },
+  "figType": "Table",
+  "imageText": ["Third-party", "Library", "Type", "App", "Count", "Lcom/google/android/gms", "Development", "Aid", "72,045", "Lcom/facebook", "Social", "Network", "19,554", "Lcom/google/firebase", "Development", "Aid", "8,216", "Lorg/apache/cordova", "Development", "Aid", "6,940", "Lio/fabric/sdk/android", "Development", "Aid", "6,793"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 297.12,
+    "y1": 88.8,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00028-TableIII-1.png"
+}, {
+  "caption": "Fig. 2: Statistics on evasion behaviors of apps.",
+  "captionBoundary": {
+    "x1": 342.2362060546875,
+    "x2": 522.1703491210938,
+    "y1": 168.17446899414062,
+    "y2": 173.8170166015625
+  },
+  "figType": "Figure",
+  "imageText": ["Store/Send", "Restrict", "Terminate", "Malicious", "Apps", "34.0%", "44.0%", "22.0%", "Benign", "Apps", "42.9%", "8.2%", "49.0%"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 543.36,
+    "y1": 74.88,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00028-Figure2-1.png"
+}, {
+  "caption": "TABLE IV: Statistics on malicious apps using evasion techniques.",
+  "captionBoundary": {
+    "x1": 173.20779418945312,
+    "x2": 428.8316345214844,
+    "y1": 74.23202514648438,
+    "y2": 79.87457275390625
+  },
+  "figType": "Table",
+  "imageText": ["⋆:", "Techniques", "indeed", "Evading", "Dynamic", "Analysis", "in", "Practice", "†:", "Less", "than", "50", "malicious", "apps", "are", "using", "AH", "/", "TT2", "in", "our", "APK", "dataset.", "*:", "Some", "apps", "implement", "the", "evasion", "actions", "in", "both", "Java/Kotlin", "and", "Native", "code.", "Therefore,", "the", "[All]", "amount", "is", "not", "[Java/Kotlin]", "+", "[Native]", "directly.", "Evasion", "Techniques", "ED1", "ED2", "ED3", "ED4", "ED5", "ED6", "AD1", "AD2", "AH", "TT1", "TT2", "All∗", "All", "1,403", "1,238", "320", "30", "4,134", "302", "75", "447", "48", "11", "2", "4,877", "TiE⋆", "45/50", "0/50", "0/50", "18/30", "0/50", "32/50", "50/50", "50/50", "48/48†", "11/11", "0/2†", "-", "Java", "/", "Kotlin", "1,148", "-", "-", "18", "-", "82", "59", "419", "25", "11", "-", "1,475", "Native", "300", "-", "-", "0", "-", "158", "16", "32", "26", "-", "-", "457", "All", "(adjusted)", "1,403", "-", "-", "18", "-", "239", "75", "447", "48", "11", "-", "1,848", "Percentage", "12.0%", "-", "-", "0.2%", "-", "2.0%", "0.6%", "3.8%", "0.4%", "0.1%", "-", "15.8%"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 543.36,
+    "y1": 88.8,
+    "y2": 184.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00028-TableIV-1.png"
+}, {
+  "caption": "TABLE V: Experimental results for online dynamic analysis services.",
+  "captionBoundary": {
+    "x1": 166.4840087890625,
+    "x2": 435.55657958984375,
+    "y1": 196.94338989257812,
+    "y2": 202.5859375
+  },
+  "figType": "Table",
+  "imageText": ["✓:", "This", "technique", "can", "effectively", "identify", "dynamic", "analysis", "platforms.", "−:", "This", "technique", "has", "not", "been", "triggered.", "×:", "This", "technique", "can", "not", "identify", "dynamic", "analysis", "platforms.", "Koodus", "[14]", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "×", "✓", "×", "×", "✓", "×", "MobSF", "[5]", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "×", "✓", "✓", "×", "−", "×", "QAX", "[18]", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "×", "✓", "✓", "×", "✓", "×", "MOBISEC", "[15]", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "×", "×", "×", "×", "−", "×", "Triage", "[6]", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "×", "✓", "✓", "×", "✓", "×", "VirusTotal", "[22]", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "×", "✓", "✓", "×", "✓", "✓", "Anslysis", "Platform", "ED1", "ED2", "ED3", "ED4", "ED5", "ED6", "ED7", "AD1", "AD2", "AH", "TT1", "TT2", "TT3", "SandDroid", "[19]", "✓", "✓", "✓", "✓", "✓", "✓", "−", "×", "✓", "×", "×", "−", "×"],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 543.36,
+    "y1": 211.2,
+    "y2": 316.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00028-TableV-1.png"
+}, {
+  "caption": "Fig. 1: Overview measurement flow.",
+  "captionBoundary": {
+    "x1": 230.33880615234375,
+    "x2": 370.20849609375,
+    "y1": 201.64834594726562,
+    "y2": 207.2908935546875
+  },
+  "figType": "Figure",
+  "imageText": ["Hosted", "Server", "Response", "Probe", "App", "Analysis", "Paltforms", "APK", "Dataset", "Evasion", "Fingerprints", "Benign", "Apps", "&", "Malware", "Evasion", "Techniques", "AndroZoo", "Literature", "Review", "Capacity", "Analysis", "Discrepancy", "Analysis", "Deployment", "Analysis", "RQ2", "RQ1", "RQ3"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 530.4,
+    "y1": 72.0,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00028-Figure1-1.png"
+}]

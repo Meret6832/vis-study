@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: The Architecture of Our Deep Q-Network.",
+  "captionBoundary": {
+    "x1": 69.97899627685547,
+    "x2": 277.8556823730469,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["A", "S", "at", "or", "Es", "tim", "at", "or", "Es", "tim", "+", "Q", "Vaction", "Vstate", "Vaction", "Vstate", "Dense", "Block", "Vfeature"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 608.64,
+    "y2": 684.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Figure4-1.png"
+}, {
+  "caption": "Figure 1: A Motivating Example.",
+  "captionBoundary": {
+    "x1": 373.75799560546875,
+    "x2": 504.6346740722656,
+    "y1": 231.02633666992188,
+    "y2": 236.656982421875
+  },
+  "figType": "Figure",
+  "imageText": ["steps", "of", "learning", "State", "sα", "State", "sβ", "Action", "Probability", "Distribution", "of", "sα", "②", "After", "some", "Action", "Probability", "Distribution", "of", "sβ", "Without", "knowledge sharing", "With", "knowledge sharing", "①", "First", "enter", "sα", "③", "First", "enter", "sβ"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 558.24,
+    "y1": 84.96,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Figure1-1.png"
+}, {
+  "caption": "Table 2: Confirmed Faults Found by DQT.",
+  "captionBoundary": {
+    "x1": 222.19100952148438,
+    "x2": 389.50543212890625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#1", "Signal", "23.3k", "100m+", "java.lang.NullPointerException", "https://github.com/signalapp/Signal-Android/issues/12651", "✓", "Fixed", "2", "days", "7", "months", "#2", "Signal", "23.3k", "100m+", "java.lang.IllegalStateException", "https://github.com/signalapp/Signal-Android/issues/12666", "✓", "Fixed", "2", "days", "3", "years", "#3", "Signal", "23.3k", "100m+", "Application", "Not", "Responding", "https://github.com/signalapp/Signal-Android/issues/12667", "✓", "Confirmed", "2", "days", "-", "#4", "Tachiyomi", "20.8k", "-", "java.lang.IllegalArgumentException", "https://github.com/tachiyomiorg/tachiyomi/issues/8509", "Confirmed", "1", "day", "-", "#5", "DuckDuckGo", "2.9k", "10m+", "java.util.IllegalFormatConversionException", "https://github.com/duckduckgo/Android/pull/2499", "Fixed", "1", "day", "1", "month", "#6", "Firefox", "6.7k", "100m+", "java.lang.IllegalStateException", "https://bugzilla.mozilla.org/show_bug.cgi?id=1816288", "✓", "Confirmed", "1", "month", "-", "#7", "Firefox", "6.7k", "100m+", "java.lang.NullPointerException", "https://github.com/mozilla-mobile/fenix/issues/28389", "✓", "Confirmed", "6", "days", "-", "#8", "Firefox", "6.7k", "100m+", "java.lang.IllegalStateException", "https://github.com/mozilla-mobile/fenix/issues/28390", "✓", "Confirmed", "6", "days", "-", "#9", "AnkiDroid", "6k", "10m+", "java.lang.NullPointerException", "https://github.com/ankidroid/Anki-Android/issues/12936", "Fixed", "1", "day", "6", "months", "#10", "NewPipe", "22.6k", "-", "java.lang.NullPointerException", "https://github.com/TeamNewPipe/NewPipe/issues/9518", "✓", "Fixed", "1", "day", "10", "months", "#11", "NewPipe", "22.6k", "-", "Application", "Not", "Responding", "https://github.com/TeamNewPipe/NewPipe/issues/9529", "✓", "Confirmed", "1", "day", "-", "#12", "BookCatalogue", "366", "100k+", "android.content.ActivityNotFoundException", "https://github.com/eleybourn/Book-Catalogue/issues/877", "Fixed", "1", "day", "12", "years", "#13", "BookCatalogue", "366", "100k+", "android.content.ActivityNotFoundException", "https://github.com/eleybourn/Book-Catalogue/issues/883", "✓", "Fixed", "7", "days", "10", "years", "#14", "Vanilla", "966", "500k+", "android.content.ActivityNotFoundException", "https://github.com/vanilla-music/vanilla/issues/1147", "✓", "Fixed", "11", "days", "7", "years", "#15", "LoopHabitTracker", "5.9k", "5m+", "android.content.ActivityNotFoundException", "https://github.com/iSoron/uhabits/issues/1589", "✓", "Fixed", "1", "day", "6", "years", "#16", "AlarmClock", "366", "1m+", "android.content.ActivityNotFoundException", "https://github.com/yuriykulikov/AlarmClock/issues/500", "✓", "Fixed", "2", "months", "4", "years", "#17", "AlarmClock", "366", "1m+", "java.lang.RuntimeException", "https://github.com/yuriykulikov/AlarmClock/issues/501", "Confirmed", "2", "months", "-", "#18", "Notes", "76", "10k+", "java.lang.NullPointerException", "https://github.com/SecUSo/privacy-friendly-notes/issues/132", "✓", "Fixed", "12", "days", "2", "months", "#19", "Notes", "76", "10k+", "java.lang.NullPointerException", "https://github.com/SecUSo/privacy-friendly-notes/issues/133", "✓", "Fixed", "12", "days", "2", "months", "#20", "Notes", "76", "10k+", "java.lang.NullPointerException", "https://github.com/SecUSo/privacy-friendly-notes/issues/138", "✓", "Fixed", "3", "months", "5", "months", "#21", "Swiftp", "661", "1k+", "android.content.ActivityNotFoundException", "https://github.com/ppareit/swiftp/issues/174", "Fixed", "6", "months", "3", "years", "ID", "App", "Star", "GPI", "Type", "URL", "FF", "Status", "RT", "IT"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 106.08,
+    "y2": 317.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Table2-1.png"
+}, {
+  "caption": "Figure 2: Markov Decision Process.",
+  "captionBoundary": {
+    "x1": 103.34300231933594,
+    "x2": 244.49472045898438,
+    "y1": 508.0123596191406,
+    "y2": 513.6430053710938
+  },
+  "figType": "Figure",
+  "imageText": ["Testing", "Tool", "Event", "AUT", "RewardGUI", "Agent", "Action", "Environment", "RewardState"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 264.0,
+    "y1": 446.88,
+    "y2": 493.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Figure2-1.png"
+}, {
+  "caption": "Table 1: Testing Results for Comparison.",
+  "captionBoundary": {
+    "x1": 224.83700561523438,
+    "x2": 389.39892578125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Average", "(App", "1-30)", "46.79", "41.83", "41.76", "39.71", "31.11", "29.18", "28.97", "35.77", "(±1.42)", "(±3.03)", "(±2.19)", "(±2.90)", "(±2.87)", "(±2.56)", "(±3.96)", "(±4.00)", "5.47", "3.67", "3.10", "3.87", "1.63", "3.03", "2.10", "3.53", "16", "LBRY", "2.5k", "0.17.1", "89679", "16460", "6", "51.33", "48.84", "51.07", "41.32", "26.79", "42.72", "38.83", "49.23", "3", "4", "4", "4", "1", "4", "0", "12", "17", "RunnerUp", "636", "2.4.5.0", "73479", "16592", "17", "48.30", "38.88", "43.72", "27.87", "27.88", "22.75", "9.34", "21.89", "4", "4", "4", "2", "2", "1", "0", "3", "18", "ConnectBot", "2k", "1.9.8", "70609", "8985", "11", "31.92", "29.84", "31.01", "27.83", "25.30", "21.50", "28.47", "27.51", "4", "0", "4", "1", "1", "0", "2", "6", "19", "APhotoManager", "210", "0.8.3", "54313", "11451", "11", "59.12", "40.67", "53.81", "37.48", "26.83", "28.42", "29.44", "35.03", "9", "0", "9", "2", "0", "3", "5", "2", "20", "Timber", "6.8k", "1.8", "54218", "12002", "6", "36.34", "35.74", "30.24", "30.33", "24.24", "19.24", "24.79", "34.68", "7", "7", "3", "5", "2", "1", "5", "7", "21", "BetterBatteryStats", "551", "3.0", "52560", "11118", "12", "28.09", "27.98", "27.83", "29.09", "38.47", "28.85", "25.49", "30.21", "4", "3", "1", "3", "1", "3", "1", "2", "22", "Vanilla", "966", "1.1.0", "47306", "10477", "13", "46.20", "45.85", "45.33", "45.83", "36.49", "34.38", "32.31", "39.28", "6", "4", "6", "3", "5", "2", "1", "6", "23", "AnyMemo", "142", "10.11.7", "46259", "10046", "28", "64.38", "59.31", "54.67", "60.27", "33.20", "35.66", "26.10", "48.98", "14", "13", "8", "14", "3", "12", "11", "3", "24", "LoopHabitTracker", "5.9k", "2.1.1", "45946", "9139", "11", "57.64", "48.72", "44.37", "38.92", "32.95", "35.11", "27.50", "36.60", "6", "6", "2", "6", "3", "4", "2", "5", "25", "KeePassDroid", "1.3k", "2.6.8", "38874", "9600", "15", "14.32", "14.21", "12.28", "13.29", "11.95", "11.39", "12.90", "12.09", "4", "0", "0", "3", "0", "3", "1", "1", "26", "AlarmClock", "366", "3.11.00", "35197", "5404", "5", "81.07", "76.99", "81.17", "71.19", "69.53", "61.61", "63.57", "73.04", "5", "0", "2", "4", "2", "4", "1", "3", "27", "Materialistic", "2.2k", "3.3", "33858", "7790", "23", "65.75", "60.81", "69.64", "56.31", "48.53", "51.26", "48.54", "53.32", "6", "4", "3", "3", "2", "1", "2", "2", "28", "Notes", "76", "1.4.1", "18841", "3510", "12", "52.06", "41.15", "50.62", "48.02", "39.70", "21.64", "44.03", "43.93", "7", "6", "6", "5", "6", "0", "5", "4", "29", "Swiftp", "661", "3.1.0", "11778", "3094", "4", "21.54", "18.92", "18.81", "19.53", "18.62", "18.70", "16.29", "23.84", "3", "1", "1", "1", "1", "2", "1", "2", "30", "WhoHasMyStuff", "8", "1.1.0", "4849", "820", "7", "69.91", "66.91", "68.62", "69.15", "64.49", "62.30", "67.78", "58.77", "2", "1", "1", "1", "1", "1", "1", "0", "Average", "(App", "1-15)", "45.04", "40.00", "37.98", "38.32", "27.22", "25.32", "24.92", "32.31", "5.33", "3.80", "2.60", "3.93", "1.27", "3.33", "1.67", "3.20", "1", "Signal", "23.3k", "6.3.3", "904470", "174574", "84", "39.58", "33.28", "23.95", "29.11", "17.84", "21.78", "23.23", "19.24", "9", "6", "0", "6", "1", "8", "4", "2", "2", "CoronaWarn", "2.5k", "2.28.3", "459709", "70154", "12", "30.45", "17.75", "11.82", "29.20", "21.07", "14.53", "10.35", "25.49", "2", "0", "0", "2", "0", "0", "0", "1", "3", "Tachiyomi", "20.8k", "0.13.6", "412967", "45341", "13", "56.41", "51.26", "44.56", "37.95", "26.12", "21.44", "22.68", "38.57", "7", "5", "6", "5", "1", "2", "1", "6", "4", "DuckDuckGo", "2.9k", "5.140.0", "363204", "60207", "55", "41.15", "38.34", "31.49", "36.17", "30.00", "31.56", "20.04", "32.33", "5", "5", "1", "5", "1", "5", "2", "2", "5", "Firefox", "6.7k", "110.0a1", "348086", "53428", "17", "49.91", "46.18", "48.94", "42.21", "23.91", "27.48", "20.39", "37.34", "7", "0", "0", "3", "1", "5", "1", "3", "6", "MyExpenses", "507", "3.4.5", "318189", "50665", "44", "42.24", "35.28", "38.58", "37.68", "28.30", "20.72", "21.59", "35.51", "3", "3", "0", "4", "1", "3", "3", "2", "7", "AnkiDroid", "6k", "2.16", "259648", "43043", "36", "42.27", "34.85", "38.65", "34.89", "20.85", "18.48", "14.49", "23.35", "7", "7", "4", "5", "2", "1", "1", "3", "8", "K9Mail", "7.6k", "6.306", "208089", "37149", "33", "49.76", "46.28", "39.64", "46.84", "39.73", "36.55", "35.27", "45.05", "7", "5", "2", "4", "2", "4", "0", "7", "9", "Conversations", "4.2k", "2.10.10", "191099", "42740", "36", "46.73", "43.79", "39.69", "31.51", "29.88", "33.06", "36.83", "38.12", "4", "4", "2", "1", "0", "4", "2", "2", "10", "SuntimesWidget", "249", "0.14.7", "182463", "36360", "25", "48.12", "46.20", "51.17", "43.76", "19.35", "28.41", "26.28", "34.42", "3", "2", "3", "3", "1", "1", "3", "2", "11", "NewPipe", "22.6k", "0.23.3", "149421", "34710", "14", "51.54", "46.26", "50.36", "42.95", "36.32", "31.52", "38.13", "44.61", "4", "5", "7", "5", "1", "1", "1", "4", "12", "AmazeFileManager", "4.3k", "3.7.2", "136538", "29671", "10", "31.31", "27.74", "31.60", "30.71", "22.94", "21.76", "17.63", "22.97", "4", "4", "6", "6", "1", "5", "1", "3", "13", "MoneyManagerEx", "361", "2021.05.13", "127783", "28637", "52", "43.85", "36.92", "28.29", "41.67", "23.60", "30.95", "27.54", "21.08", "10", "4", "2", "5", "5", "6", "4", "3", "14", "BookCatalogue", "366", "5.3.0-5", "117790", "24664", "35", "45.93", "42.68", "37.35", "38.83", "28.50", "27.61", "29.71", "36.62", "4", "4", "4", "4", "1", "4", "2", "3", "15", "AntennaPod", "4.7k", "2.7.1", "114020", "27207", "11", "56.34", "52.79", "53.65", "51.34", "39.84", "13.99", "29.65", "30.01", "4", "3", "2", "1", "1", "1", "0", "5", "ID", "Name", "Star", "Ver.", "Inst.", "ELOC", "Act.", "DQT", "DQT*", "APE", "QT", "ARES", "Stoat", "DeepG", "Monkey", "DQT", "DQT*", "APE", "QT", "ARES", "Stoat", "DeepG", "Monkey", "App", "Average", "Instruction", "Coverage", "(%)", "Total", "Unique", "Faults"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 414.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Table1-1.png"
+}, {
+  "caption": "Figure 3: The Workflow of DQT.",
+  "captionBoundary": {
+    "x1": 241.21800231933594,
+    "x2": 370.7766418457031,
+    "y1": 195.37637329101562,
+    "y2": 201.00701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["EventToVecEventExtractor", "Events", "HierarchyToGraph", "Action", "Vector", "State", "Vector", "GNN", "Train", "③", "Event", "Selection", "NetworkDataset", "LogicData", "Online", "Data", "Flow", "Ofﬂine", "Data", "Flow", "②", "DQN-based", "Scoring", "①", "GUI", "Embedding", "Runtime", "Dataset", "Train", "EventSelector", "UIAutomator", "Event", "Graph", "Dataset", "Reward", "Analyzer", "DQNGUI", "Hierarchy", "Q-value"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Progressive Average Instruction Coverage.",
+  "captionBoundary": {
+    "x1": 70.67400360107422,
+    "x2": 279.40240478515625,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["DeepGUIT@30", "Stoat@30", "ARES@30", "Monkey@30", "QT@30", "APE@30", "DQT*@30", "DQT@30", "INSTRUCTION", "/", "%", "ra", "ge", "co", "ve", "40%", "30%", "20%", "10%", "0%", "0", "20", "40", "60", "80", "100", "120", "time", "/", "min"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 271.2,
+    "y1": 516.96,
+    "y2": 679.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Pairwise Comparison of Detected Unique Faults.",
+  "captionBoundary": {
+    "x1": 322.04901123046875,
+    "x2": 556.339599609375,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["129", "71", "35", "35", "160", "120", "80", "40", "DQT", "Monkey0", "28", "129", "35", "35", "160", "120", "80", "40", "DQT", "DeepGUIT0", "117", "44", "47", "47", "160", "120", "80", "40", "DQT", "Stoat0", "20", "135", "29", "29", "160", "120", "80", "40", "DQT", "ARES0", "94", "46", "70", "70", "160", "120", "80", "40", "DQT", "Q-testing0", "125", "54", "39", "39", "160", "120", "80", "40", "DQT", "APE0", "93", "39", "71", "71", "160", "120", "80", "40", "DQT", "DQT*0"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 555.36,
+    "y1": 580.8,
+    "y2": 683.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623344-Figure6-1.png"
+}]

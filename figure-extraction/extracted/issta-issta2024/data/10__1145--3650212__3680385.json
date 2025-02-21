@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 3: Image transformation methods in prior works.",
+  "captionBoundary": {
+    "x1": 326.1510009765625,
+    "x2": 549.71044921875,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Pixel-based", "1)", "Noise;", "2)", "Blurring;", "3)", "Brightness;", "4)", "Contrast", "5)", "Translation;", "6)", "Reflection;", "7)", "Scale;", "8)", "Rotate;", "9)", "Shear", "Style-based", "1)", "Rainy;", "2)", "Foggy;", "3)", "Snowy;", "4)", "Cloudy", "&", "31", "different", "artistic", "styles", "(31", "transformations)"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 100.8,
+    "y2": 142.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Table3-1.png"
+}, {
+  "caption": "Table 1: Datasets adopted in evaluations.",
+  "captionBoundary": {
+    "x1": 91.70500183105469,
+    "x2": 255.84396362304688,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "#Images", "Image", "Size", "Remarks", "ImageNet", "[11]", "1,000,000", "128", "×", "128", "1000", "classes", "of", "real", "images", "Flickr", "Faces", "[32]", "70,000", "1024", "×", "1024", "High-quality", "&", "fidelity", "face", "photos", "CelebA", "[37]", "200,000", "128", "×", "128", "40", "facial", "attributes", "annotated", "Animal", "Faces", "[9]", "15,000", "512", "×", "512", "Wild", "animal", "faces", "LSUN", "Car", "[66]", "2,000,000", "512", "×", "256", "High-quality", "&", "fidelity", "car", "photos"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 100.8,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Table1-1.png"
+}, {
+  "caption": "Table 2: Evaluated DNNs.",
+  "captionBoundary": {
+    "x1": 122.85399627685547,
+    "x2": 224.69439697265625,
+    "y1": 170.55311584472656,
+    "y2": 176.18402099609375
+  },
+  "figType": "Table",
+  "imageText": ["DNN", "#Layers/Modules", "Task", "Remarks", "ResNet", "[24]", "34", "General", "classification", "Non-sequential", "structure", "VGG", "[50]", "16", "General", "classification", "Sequential", "structure", "Inception", "[51]", "48", "General", "classification", "Feature", "extraction", "MobileNet", "[27]", "53", "General", "classification", "Mobile", "devices", "DenseNet", "[28]", "121", "General", "classification", "Extremely", "deep", "DNN", "FaceNet", "[48]", "7", "Human", "face", "identification", "Regression", "task", "AlexNet", "[35]", "8", "Animal", "classification", "One-class", "seed", "corpus", "EfficientNet", "[52]", "24", "Car", "recognition", "Fast", "inference", "speed"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 185.76,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Table2-1.png"
+}, {
+  "caption": "Figure 1: Problems encountered when focusing on ETIs.",
+  "captionBoundary": {
+    "x1": 60.97200012207031,
+    "x2": 286.87152099609375,
+    "y1": 188.10609436035156,
+    "y2": 193.73699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["P2", "old", "(b)", "Disconnected", "ill-", "separated", "regions.", "decision", "boundary", "two", "disconnected", "ill-separated", "regions", "class", "1", "countless", "inputs", "decision", "boundary", "class", "1", "(a)", "Countless", "inputs", "exist", "in", "an", "ill-separated", "region.", "P1", "new", "P3", "(c)", "ETIs", "are", "more", "easily", "to", "generate", "by", "mutating", "P3.", "class", "1", "class", "2"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 282.24,
+    "y1": 86.88,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Figure1-1.png"
+}, {
+  "caption": "Table 5: Results of (minimal RASR, maximal RASR) after fine-tuning. Lower RASR is better.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.388916015625,
+    "y1": 196.76307678222656,
+    "y2": 213.35198974609375
+  },
+  "figType": "Table",
+  "imageText": ["*", "Increased", "RASR", "after", "fine-tuning", "(i.e.,", "becomes", "less", "resilient)", "are", "marked", "in", "red", "and", "reduced", "RASR", "are", "marked", "in", "green.", "ResNet", "(1.5%,", "76.0%)", "(1.0%,", "98.5%)", "(0,", "67.5%)", "VGG", "(10.0%,", "78.5%)", "(2.5%,", "99.0%)", "(0,", "76.5%)", "Inception", "(0,", "85.0%)", "(12.0%,", "100%)", "(0,", "70.0%)", "MobileNet", "(4.0%,", "72.5%)", "(3.0%,", "99.0%)", "(0,", "61.0%)", "DenseNet", "(5.5%,", "91.5%)", "(0.5%,", "65.5%)", "(0,", "56.0%)", "FaceNet", "(44.5%,", "88.0%)", "(43.5%,", "97.0%)", "(37.5%,", "75%)", "AlexNet", "(0,", "68.0%)", "(0,", "85.0%)", "(0,", "30.0%)", "EfficientNet", "(24.5%,", "90.0%)", "(23.0%,", "100%)", "(20.5%,", "62.5%)", "Average", "(11.3%,", "81.2%)", "(10.6%,", "93.0%)", "(7.2%,", "62.3%)", "DNN", "Original", "Fine-tuned", "with", "Eq.", "1", "Fine-tuned", "with", "Eq.", "6"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 331.2,
+    "x2": 558.24,
+    "y1": 222.72,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Table5-1.png"
+}, {
+  "caption": "Figure 6: Motivations for alleviating the mutual exclusivity.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2008056640625,
+    "y1": 171.1820831298828,
+    "y2": 176.81298828125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Repairing", "by", "separately", "considering", "EPs.", "EP2EP1", "(a)", "A", "prediction", "of", "class", "1", "with", "zero", "loss.", "(b)", "Correct", "predictions", "of", "non-zero", "loss.", "40%", "class", "2", "class", "1", "class", "2", "prob.", "prob.", "class", "1", "80%", "0%", "20%", "60%", "100%"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 549.12,
+    "y1": 84.96,
+    "y2": 156.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Figure6-1.png"
+}, {
+  "caption": "Figure 4: #ETIs (the vertical axis) w.r.t. the number of employed transformations 𝑁 (the horizontal axis). All employed transformations are capable of triggering mis-predictions on the tested DNNs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.8084716796875,
+    "y1": 281.86810302734375,
+    "y2": 298.4580078125
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "DenseNet", "(c)", "Inception(a)", "ResNet", "(b)", "VGG", "(d)", "MobileNet", "(g)", "AlexNet", "(h)", "EfficientNet(f)", "FaceNet"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 84.0,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Sample global and local perception-based transformations. Both satisfy consistency and uniqueness.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.805908203125,
+    "y1": 215.08607482910156,
+    "y2": 231.67596435546875
+  },
+  "figType": "Figure",
+  "imageText": ["tl", "(x4)", "tl", "(x3)", "tg", "(x2)", "tg", "(x1)", "x4", "x3", "x2", "x1", "(b)", "Local", "tl", ":", "open", "mouth(a)", "Global", "tg", ":", "turn", "left"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 555.36,
+    "y1": 84.0,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Figure2-1.png"
+}, {
+  "caption": "Figure 5: #Detected EPs (the vertical axis) w.r.t. #epochs (the horizontal axis). Results of previous and our testing methods are marked in dashed and solid lines, respectively. Horizontal axes in different figures are aligned.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2028198242188,
+    "y1": 183.39808654785156,
+    "y2": 199.98797607421875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "ResNet", "(b)", "VGG", "(c)", "Inception", "(d)", "MobileNet", "(e)", "DenseNet"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 559.1999999999999,
+    "y1": 84.0,
+    "y2": 173.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Regions generated with different kernel sizes.",
+  "captionBoundary": {
+    "x1": 62.34000015258789,
+    "x2": 285.5047302246094,
+    "y1": 498.2331237792969,
+    "y2": 503.864013671875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "kernel", "size", "2", "(b)", "kernel", "size", "4", "(c)", "kernel", "size", "8", "(d)", "kernel", "size", "16"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 424.8,
+    "y2": 489.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680385-Figure3-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 6: Multi-hunk commit that fixes multiple type errors.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03466796875,
+    "y1": 247.76937866210938,
+    "y2": 253.4000244140625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Commit", "2.", "...", "if", "timeout", "is", "None:", "#", "Hunk", "H4", "key", "=", "CacheKey(key)", "if", "not", "isinstance(key,", "CacheKey):", "#", "Hunk", "H3", "self._key", "=", "key", "...", "def", "__init__(self,", "key):", "#", "Hunk", "H2", "#", "Hunk", "H1", "class", "CacheKey(object):", "(a)", "Commit", "1.", "if", "timeout", "==", "0:", "#", "Hunk", "H4", "key", "=", "CacheKey(smart_str(key))", "if", "isinstance(key,", "CacheKey):", "#", "Hunk", "H3", "pass", "#", "Hunk", "H2", "#", "Hunk", "H1", "class", "CacheKey(basestring):"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 307.2,
+    "y1": 82.56,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Figure6-1.png"
+}, {
+  "caption": "Table 1: Results of PyTy for each class of type error.",
+  "captionBoundary": {
+    "x1": 333.34698486328125,
+    "x2": 542.5057983398438,
+    "y1": 192.36135864257812,
+    "y2": 197.99200439453125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "2,766", "(281)", "85.4%", "54.4%", "Incompatible", "variable", "type", "821", "(83)", "90.4%", "65.1%", "Incompatible", "parameter", "type", "600", "(60)", "80.0%", "36.7%", "Incompatible", "return", "type", "296", "(30)", "73.3%", "43.3%", "Invalid", "type", "291", "(30)", "100.0%", "83.3%", "Unbound", "name", "258", "(26)", "76.9%", "42.3%", "Incompatible", "attribute", "type", "258", "(26)", "92.3%", "73.1%", "Unsupported", "operand", "124", "(13)", "76.9%", "38.5%", "Strengthened", "precondition", "59", "(6)", "83.3%", "50.0%", "Weakened", "postcondition", "51", "(6)", "50.0%", "0.0%", "Call", "error", "8", "(1)", "100.0%", "100.0%", "Classes", "of", "type", "errors", "(test", "set)", "Error", "Exact", "removal", "match", "Samples", "Effectiveness", "of", "PyTy"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 212.64,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Table1-1.png"
+}, {
+  "caption": "Figure 2: Type errors (left) and related fix patterns (right), based on 125 type error fixes collected in the preliminary study.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.281494140625,
+    "y1": 267.5893249511719,
+    "y2": 295.1369934082031
+  },
+  "figType": "Figure",
+  "imageText": ["Modify", "function", "return", "value", "Modify", "function", "parameter", "type", "Remove", "reannotation", "Modify", "attribute", "type", "Casting", "Call", "other", "method", "Remove", "type", "Modify", "function", "return", "type", "Modify", "variable", "type", "Add", "return", "value", "Operator", "change", "Create", "new", "variable", "Add", "none", "check", "Modify", "isinstance", "call", "Other", "Modify", "function", "parameter", "value", "Unsupported", "operand", "Incompatible", "parameter", "type", "Illegal", "annotation", "target", "Redundant", "Cast", "Inconsistent", "override", "Undeﬁned", "Type", "Incompatible", "variable", "type", "Undeﬁned", "attribute", "Incompatible", "return", "type", "Invalid", "type", "Call", "error", "Remove", "code"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 84.96,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Figure2-1.png"
+}, {
+  "caption": "Figure 8: Exact match of fix for type error “Unbound name: Name constrained is used but not defined in the current scope”.",
+  "captionBoundary": {
+    "x1": 58.761962890625,
+    "x2": 553.2301635742188,
+    "y1": 138.22933959960938,
+    "y2": 143.8599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Fix", "suggested", "by", "PyTy.", "self.console_c,", "x,", "y,", "width,", "height,", "byte_string)", "...", "byte_string", "=", "_fmt(string)", "return", "lib.TCOD_console_get_height_rect_fmt(", "(b)", "Fix", "by", "the", "developer.", "self.console_c,", "x,", "y,", "width,", "height,", "_fmt(string))", "return", "lib.TCOD_console_get_height_rect_fmt(", "...", "(a)", "Code", "with", "type", "error.", "self.console_c,", "x,", "y,", "width,", "height,", "string)", "...", "string", "=", "_fmt(string)", "return", "lib.TCOD_console_get_height_rect_fmt("],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 546.72,
+    "y1": 158.88,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Figure8-1.png"
+}, {
+  "caption": "Figure 11: PyTy-suggested fix that removes the error “Incompatible variable type: Bot is declared to have type BotUser but is used as type User”, while changing the behavior in an unintended way.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1986694335938,
+    "y1": 402.33935546875,
+    "y2": 418.9289855957031
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Fix", "suggested", "by", "PyTy.", "new_Bot", "=", "new", "global", "Bot", "if", "self", "is", "Bot:", "(b)", "Fix", "by", "the", "developer.", "assert", "isinstance(new,", "BotUser)", "Bot", "=", "new", "global", "Bot", "if", "self", "is", "Bot:", "(a)", "Code", "with", "type", "error.", "Bot", "=", "new", "global", "Bot", "if", "self", "is", "Bot:"],
+  "name": "11",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 520.8,
+    "y1": 338.88,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Figure11-1.png"
+}, {
+  "caption": "Figure 3: Examples of fixing type errors based on error messages.",
+  "captionBoundary": {
+    "x1": 174.3870086669922,
+    "x2": 437.6017150878906,
+    "y1": 219.02633666992188,
+    "y2": 224.656982421875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Commit", "that", "applies", "the", "“Do", "not", "use", "expected", "type”", "pattern.", "[Fix", "pattern]", "Modify", "function", "return", "type.", ")", "->", "Optional[Union[Path,", "Text]]:", "previous_model_file:", "Optional[Union[Path,", "Text]]", "def", "get_model_for_finetuning(", "(c)", "Commit", "with", "a", "type", "error.", "[Error", "message]", "Expected", "'Optional[Text]',", "got", "'Union[None,", "Path,", "Text]'", ")", "->", "Optional[Text]:", "previous_model_file:", "Optional[Union[Path,", "Text]]", "(b)", "Commit", "that", "applies", "the", "“Use", "expected", "type”", "pattern.", "def", "get_model_for_finetuning(", "if", "pow(remote_public_key_str,", "(prime", "-", "1)", "//", "2,", "prime)", "==", "1:", "...", "[Fix", "pattern]", "Modify", "function", "parameter", "type.", "...", ")", "->", "bool:", "remote_public_key_str:", "int,", "prime:", "int", "def", "is_valid_public_key_static(", "(a)", "Commit", "with", "a", "type", "error.", "...", "[Error", "message]", "Expected", "`int`", "for", "1st", "parameter", "but", "got", "`str`.", "if", "pow(remote_public_key_str,", "(prime", "-", "1)", "//", "2,", "prime)", "==", "1:", "...", ")", "->", "bool:", "local_private_key_str:", "str,", "remote_public_key_str:", "str,", "prime:", "int", "def", "is_valid_public_key_static("],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Figure3-1.png"
+}, {
+  "caption": "Table 2: Ablation study and comparison with LLMs.",
+  "captionBoundary": {
+    "x1": 69.43701171875,
+    "x2": 278.1026916503906,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Full", "PyTy", "50.9", "66.2", "85.4", "37.7", "48.0", "54.4", "text-davinci-003", "21.7", "27.8", "34.6", "14.6", "18.1", "20.9", "gpt-3.5-turbo", "21.9", "23.8", "26.0", "10.3", "12.1", "14.5", "gpt-4", "34.1", "36.7", "39.1", "18.9", "22.1", "26.4", "No", "pre-training", "47.3", "57.3", "71.2", "30.2", "45.2", "48.8", "Vanilla", "TFix", "4.6", "11.0", "16.7", "0.0", "1.1", "1.8", "No", "preprocessing", "17.8", "23.5", "29.5", "37.0", "45.6", "54.1", "Small", "TFix", "model", "43.1", "63.3", "79.0", "32.7", "44.8", "53.0", "Approach", "Top-1", "Top-5", "Top-50", "Top-1", "Top-5", "Top-50", "Error", "removal", "(%)", "Exact", "match", "(%)"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 105.6,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Table2-1.png"
+}, {
+  "caption": "Figure 4: Fix locations and usefulness of error messages.",
+  "captionBoundary": {
+    "x1": 192.23899841308594,
+    "x2": 419.751220703125,
+    "y1": 276.33734130859375,
+    "y2": 281.9679870605469
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Top", "seven", "locations", "for", "ﬁx", "patterns.", "(b)", "Top", "seven", "ﬁx", "patterns", "correctly", "hinted", "by", "the", "type", "checker.", "(c)", "How", "developers", "use", "type", "checker", "hints.", "cy", "e", "n", "q", "u", "F", "re", "60", "50", "40", "30", "20", "10", "0", "e", "rs", "O", "th", "te", "n", "o", "ta", "re", "a", "n", "n", "o", "t", "C", "a", "n", "e", "ty", "p", "p", "e", "r", "s", "u", "U", "se", "p", "e", "f", "ty", "e", "o", "v", "a", "lu", "U", "se", "N", "fo", "r", "U", "se", "o", "n", "e", "O", "a", "l", "o", "n", "p", "e", "p", "ti", "ty", "e", "d", "e", "ct", "e", "xp", "U", "se", "u", "se", "o", "t", "D", "o", "n", "p", "e", "ty", "e", "d", "e", "ct", "e", "xp", "cy", "e", "n", "q", "u", "F", "re", "60", "50", "40", "30", "20", "10", "0", "e", "rs", "O", "th", "e", "t", "yp", "o", "ve", "R", "e", "m", "e", "ty", "p", "le", "a", "b", "va", "ri", "if", "y", "M", "o", "d", "p", "e", "ty", "u", "te", "ri", "b", "a", "tt", "if", "y", "M", "o", "d", "e", "va", "lu", "rn", "e", "tu", "d", "r", "A", "d", "yp", "e", "rn", "t", "re", "tu", "n", "ct", "io", "fu", "n", "if", "y", "M", "o", "d", "n", "ct", "io", "fu", "n", "if", "y", "M", "o", "d", "p", "e", "r", "ty", "m", "e", "te", "p", "a", "ra", "cy", "e", "n", "q", "u", "F", "re", "60", "50", "40", "30", "20", "10", "0", "e", "rs", "O", "th", "u", "te", "ri", "b", "a", "tt", "la", "ss", "p", "e", "rc", "S", "u", "e", "e", "c", "a", "ll", "io", "n", "n", "ct", "F", "u", "r", "m", "e", "te", "p", "a", "ra", "io", "n", "n", "ct", "fu", "n", "g", "cl", "o", "si", "E", "n", "io", "n", "n", "ct", "fu", "n", "g", "cl", "o", "si", "E", "n", "rn", "r", "e", "tu", "io", "n", "n", "ct", "fu", "n", "g", "cl", "o", "si", "E", "n", "in", "e", "ct", "l", "E", "xa"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 558.24,
+    "y1": 84.96,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Overview of the approach.",
+  "captionBoundary": {
+    "x1": 101.78700256347656,
+    "x2": 246.0499267578125,
+    "y1": 484.870361328125,
+    "y2": 490.5010070800781
+  },
+  "figType": "Figure",
+  "imageText": ["Type", "checking", "for", "validation", "Commits", "with", "type", "error", "ﬁxes", "Code", "with", "type", "errors", "Candidate", "ﬁx", "Oﬄine", "Online", "Success", "Failure", "Dataset", "of", "isolated", "type", "error", "ﬁxes", "k", "times", "Pre-trained", "TFix", "model", "Type", "error", "ﬁx", "Fine-tuningPyTy", "Type", "checking", "&", "Delta", "debugging"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 282.71999999999997,
+    "y1": 300.0,
+    "y2": 470.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639184-Figure5-1.png"
+}]

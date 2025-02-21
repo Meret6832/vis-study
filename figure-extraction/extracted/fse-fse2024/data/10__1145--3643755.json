@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 1. Schematic diagram of PyCra",
+  "captionBoundary": {
+    "x1": 174.4149932861328,
+    "x2": 305.6652526855469,
+    "y1": 159.80087280273438,
+    "y2": 164.03302001953125
+  },
+  "figType": "Figure",
+  "imageText": ["LLM", "(T", "=", "0.5,", "0.7,", "Ip=", "3,", "If", "=", "5)", "LLM", "(T", "=", "1.2,", "Ip=", "5)", "Code", "rewriter", "Transformed", "code", "Target", "project", "Transformation", "rules", "Synthesiser", "Applicable?", "7", "6", "Useful?", "Correct?", "5", "1", "2", "4", "3", "CPAT", "variations", "Test", "cases", "Prompt:", "variations?", "Prompt:", "test-cases?", "R-CPATMiner", "Version", "history", "of", "software", "systems", "CPATs", ".", ".", "."],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 420.47999999999996,
+    "y1": 84.0,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643755-Figure1-1.png"
+}, {
+  "caption": "Fig. 4. Schematic diagram of the workflow for generating data to fine-tune LLM parameters",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 244.4876251220703,
+    "y1": 195.43887329101562,
+    "y2": 210.6300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Variants", "(V)", "Applicable", "variants", "-", "Va", "Useful", "variants", "-", "Vu", "Incorrect", "variants", "-", "Vi", "Pass?", "Human", "generated", "Test", "casesCPAT", "(10)", "LLM", "Manual", "coding", "Correct", "variants", "-", "Vc"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 246.23999999999998,
+    "y1": 124.8,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643755-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Generation of variants (Y-axis) along with prompt iteration (X-axis)",
+  "captionBoundary": {
+    "x1": 287.8290100097656,
+    "x2": 438.2216796875,
+    "y1": 195.43887329101562,
+    "y2": 210.6300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["CPAT-6", "CPAT-7", "CPAT-8", "CPAT-9", "CPAT-10", "CPAT-1", "CPAT-2", "CPAT-3", "CPAT-4", "CPAT-5", "s", "ia", "nt", "f", "V", "ar", "ge", "o", "en", "ta", "Pe", "rc", "100%", "80%", "60%", "40%", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Prompt", "Iterations"],
+  "name": "5",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 234.72,
+    "x2": 430.08,
+    "y1": 87.36,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643755-Figure5-1.png"
+}, {
+  "caption": "Table 1. Variant generation for each CPATs, and the number of transformations.",
+  "captionBoundary": {
+    "x1": 95.3147964477539,
+    "x2": 390.4425964355469,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["V:", "Number", "of", "unseen", "variations", "generated", "by", "LLM,", "+2", ":", "Number", "of", "correct", "variations,", "+D", ":", "Number", "of", "useful", "variations,", "+0", ":", "Number", "of", "applicable", "variations,", ")1", ":", "Number", "of", "application", "performed", "by", "PyEvolve,", ")2", ":", "Number", "of", "applications", "performed", "by", "PyCraft.", "t", "=", "[", "elem", "[", "i", "]", "f", "o", "r", "i", "i", "n", "range", "(", "l", "en", "(", "elem", ")", ")", "i", "f", "cond", "(", "elem", "[", "i", "]", ")", "]", "955", "453", "226", "71", "23", "907", "(39x)", "i", "f", "cond", "(", "elem", "[", "i", "]", ")", ":", "t", ".", "append", "(", "elem", "[", "i", "]", ")", "t", "=", "[", "]", "f", "o", "r", "i", "i", "n", "range", "(", "l", "en", "(", "elem", ")", ")", ":", "10", "r", "e", "s", "u", "l", "t", ".", "append", "(", "a", "r", "r", "ay1", "[", "i", "]", "+", "a", "r", "r", "ay2", "[", "i", "]", ")", "r", "e", "s", "u", "l", "t", "=", "np", ".", "add", "(", "a", "r", "ray1", ",", "a", "r", "r", "ay2", ")", "64", "11", "11", "9", "5", "36", "(7x)", "9", "r", "e", "s", "u", "l", "t", "=", "[", "]", "f", "o", "r", "i", "i", "n", "range", "(", "l", "en", "(", "a", "r", "r", "ay1", ")", ")", ":", "do", "t_prod", "+=", "a", "r", "r", "1", "[", "i", "]", "∗", "a", "r", "r", "2", "[", "i", "]", "do", "t_prod", "=", "np", ".", "do", "t", "(", "a", "r", "r1", ",", "a", "r", "r", "2", ")", "177", "28", "26", "24", "16", "208", "(13x)", "8", "do", "t_prod", "=", "0", "f", "o", "r", "i", "i", "n", "range", "(", "l", "en", "(", "a", "r", "r", "1", ")", ")", ":", "cum_arr", ".", "append", "(", "sum", "(", "a", "r", "r", "ay", "[", ":", "i", "+", "1", "]", ")", ")", "cum_arr", "=", "np", ".", "cumsum", "(", "a", "r", "r", "ay", ")", "1223", "290", "95", "80", "3", "68", "(23x)", "7", "cum_arr", "=", "[", "]", "f", "o", "r", "i", "i", "n", "range", "(", "l", "en", "(", "a", "r", "r", "ay", ")", ")", ":", "coun", "t", "s", "=", "Counter", "(", "i", "t", "e", "r", "a", "b", "l", "e", ")", "927", "425", "202", "85", "11", "106", "(10x)", "i", "f", "i", "not", "in", "coun", "t", "s", ":", "coun", "t", "s", "[", "i", "]", "=", "0", "coun", "t", "s", "[", "i", "]", "+=", "1", "coun", "t", "s", "=", "{", "}", "f", "o", "r", "i", "i", "n", "i", "t", "e", "r", "a", "b", "l", "e", ":", "6", "d", ".", "s", "e", "t", "d", "e", "f", "a", "u", "l", "t", "(", "i", ",", "[", "]", ")", ".", "append", "(", "f", "(", "i", ")", ")", "1265", "416", "150", "75", "9", "125", "(14x)", "d", "=", "{", "}", "f", "o", "r", "i", "i", "n", "a", "r", "r", "ay", ":", "i", "f", "i", "i", "n", "d", ":", "d", "[", "i", "]", ".", "append", "(", "f", "(", "i", ")", ")", "e", "l", "s", "e", ":", "d", "[", "i", "]", "=", "[", "f", "(", "i", ")", "]", "d", "=", "{", "}", "f", "o", "r", "i", "i", "n", "a", "r", "r", "ay", ":", "5", "s", "t", "r", "i", "n", "g", "=", "+", "\"", ",", "\"", ".", "j", "o", "i", "n", "(", "v", "a", "l", "u", "e", "s", ")", "285", "101", "20", "10", "2", "12", "(6x)", "s", "t", "r", "i", "n", "g", "+=", "\"", ",", "\"", "s", "t", "r", "i", "n", "g", "+=", "i", "tem", "f", "o", "r", "idx", ",", "i", "t", "em", "in", "enumerate", "(", "v", "a", "l", "u", "e", "s", ")", ":", "i", "f", "i", "d", "x", "!=", "0", ":", "4", "782", "287", "107", "66", "10", "141", "(14x)", "common", "=", "l", "i", "s", "t", "(", "s", "e", "t", "(", "l", "1", ")", ".", "i", "n", "t", "e", "r", "s", "e", "c", "t", "i", "o", "n", "(", "l", "2", ")", ")", "i", "f", "i", "i", "n", "l", "2", "and", "i", "not", "in", "common", ":", "common", ".", "append", "(", "i", ")", "common", "=", "[", "]", "f", "o", "r", "i", "i", "n", "l", "1", ":", "3", "d", ".", "update", "(", "a", "d", "d", "_d", "i", "c", "t", ")", "1201", "478", "119", "110", "51", "201", "(4x)", "2", "f", "o", "r", "k", ",", "v", "in", "a", "dd", "_d", "i", "c", "t", ".", "i", "t", "ems", "(", ")", ":", "d", "[", "k", "]", "=", "v", "count", "=", "i", "+", "count", "count", "=", "np", ".", "sum", "(", "i", "n", "t", "_", "l", "i", "s", "t", ")", "1185", "291", "83", "50", "17", "196", "(11x)", "#", "LHS", "of", "CPAT", "RHS", "of", "CPAT", "V", "+2", "+D", "+0", ")1", ")2", "1", "count", "=", "0", "f", "o", "r", "i", "i", "n", "i", "n", "t", "_", "l", "i", "s", "t", ":"],
+  "name": "1",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 423.35999999999996,
+    "y1": 101.75999999999999,
+    "y2": 338.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643755-Table1-1.png"
+}, {
+  "caption": "Fig. 6. Generation of not-useful variants along with feedback iterations",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 185.33673095703125,
+    "y1": 187.01785278320312,
+    "y2": 202.208984375
+  },
+  "figType": "Figure",
+  "imageText": ["0.4", "0.5", "Temperature", "=", "0", "CPAT-1", "CPAT-2", "CPAT-3", "CPAT-4", "CPAT-5", "CPAT-6", "CPAT-7", "CPAT-8", "CPAT-9", "CPAT-10", "0.3", "0.2", "0.1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "100.0"],
+  "name": "6",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 175.2,
+    "y1": 86.88,
+    "y2": 179.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643755-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Cross-validation results for evaluating optimal 8 and C values to generate test cases",
+  "captionBoundary": {
+    "x1": 192.98388671875,
+    "x2": 416.4385681152344,
+    "y1": 187.01785278320312,
+    "y2": 202.208984375
+  },
+  "figType": "Figure",
+  "imageText": ["F-measure", "CPAT", "number", "(t,i)", "r", "m", "be", "T", "nu", "C", "PA", "1(1.2,", "7)", "2(0.7,", "3)", "3(1.2,", "3)", "4(1.2,", "5)", "5(1.2,", "3)", "6(1.2,", "3)", "7(0.9,", "3)", "8(1.2,", "3)", "9(1.2,", "4)", "10(1.2,", "3)", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+  "name": "7",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 221.76,
+    "x2": 406.08,
+    "y1": 84.0,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643755-Figure7-1.png"
+}]

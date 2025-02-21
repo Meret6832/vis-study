@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 5: Average time consumption of each step.",
+  "captionBoundary": {
+    "x1": 76.17489624023438,
+    "x2": 271.373291015625,
+    "y1": 83.64308166503906,
+    "y2": 87.93798828125
+  },
+  "figType": "Table",
+  "imageText": ["Solver", "525.0s", "BinAbsInspector", "448.6s", "Load", "Binary", "7.0s", "Ghidra", "Analysis", "Ghidra", "Analysis", "973.7s", "Java", "54.3s", "Resolution", "Binding", "329.5sStatic", "Native", "Summary", "Repackage", "1035.0s", "FlowDroid"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 99.36,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Table5-1.png"
+}, {
+  "caption": "Figure 5: In 3,801 native methods from 100 F-Droid apps, with the increasing of k-call-site-sensitivity, (i) the average binary analysis time for each native method and (ii) the number of methods that failed to cover within 4 hours.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0458679199219,
+    "y1": 224.2281036376953,
+    "y2": 258.40997314453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 259.2,
+    "y1": 98.88,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Memory statistics (a) of the four tools during the analysis, measured on 271 apps that all tools can succeed (top), and on all apps each tool can successfully analyze (bottom). And native method analysis time (b) on the same set of analyzed native methods.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 559.8052978515625,
+    "y1": 495.0591125488281,
+    "y2": 543.18896484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Per", "native", "method", "time", "(in", "seconds).", "(a)", "Memory", "consumption", "(in", "GB)."],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 337.91999999999996,
+    "x2": 538.0799999999999,
+    "y1": 84.96,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Figure6-1.png"
+}, {
+  "caption": "Figure 1: The Java code and native code of the example app, the generated Summary IR and the generated Java body from native code.",
+  "captionBoundary": {
+    "x1": 63.085201263427734,
+    "x2": 548.914306640625,
+    "y1": 287.360107421875,
+    "y2": 291.6549987792969
+  },
+  "figType": "Figure",
+  "imageText": ["Generated", "Summary", "IR", "I1", "I2", "I3", "I4", "I5", "I6", "I7", "I8", "I9", "I10", "②", "Binary", "Analysis:", "Extract", "external", "calls", "into", "Summary", "IR", "define", "jstring", "@MainActivity.enterNative", "(JNIEnv", "*env,", "jclass", "clazz,", "jobject", "a1){", "...", "%7", "=", "Call", "CallObjectMethod", "null,", "%6,", "%5", "//", "getImei()", "%8", "=", "Call", "GetStringUTFChars", "null,", "%7,", "long", "0", "%9", "=", "Call", "open", "char*", "\"/mnt/sdcard/info.txt\",", "long", "65,", "long", "418", "%10", "=", "Call", "write", "%9,", "%8,", "long", "20", "%11", "=", "Call", "close", "%9", "ret", "%7", "}", "①", "Sensitive", "behaviours", "in", "native", "code", "JNIEXPORT", "jstring", "JNICALL", "Java_MainActivity_enterNative", "(JNIEnv", "*env,", "jclass", "clazz,", "jobject", "context)", "{", "C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "APK", "Native", "Code", "...", "jstring", "imei", "=", "(jstring)", "env->CallObjectMethod(telephony,", "get_imei_mid);", "const", "char*", "cimei", "=", "env->GetStringUTFChars(imei,", "nullptr);", "char*", "buffer", "=", "(char*)", "malloc(20);", "//", "Encryption", "for", "(int", "i=0;i<19;i++)", "{", "buffer[i]", "=", "cimei[i]", "^", "0x20;", "}", "buffer[19]", "=", "0;", "int", "fd", "=", "open(\"/mnt/sdcard/info.txt\",", "O_CREAT", "|", "O_WRONLY,", "0642);", "write(fd,", "buffer,", "20);", "close(fd);", "//", "LEAK", "return", "imei;", "}", "JNI", "binding", "}", "public", "static", "native", "String", "enterNative(Context", "ctx);", "}", "APK", "Java", "Code", "J1", "J2", "J3", "J4", "J5", "J6", "J7", "J8", "J9", "super.onCreate(savedInstanceState);", "enterNative(getApplicationContext());", "public", "class", "MainActivity", "extends", "Activity", "{", "static", "{", "System.loadLibrary(\"leak\");", "}", "@Override", "protected", "void", "onCreate(Bundle", "savedInstanceState)", "{", "}", "}", "Generated", "Java", "Bytecode", "G1", "G2", "G3", "G4", "G5", "G6", "G7", "G8", "G9", "G10", "G11", "G12", "G13", "③", "Java", "Analysis:", "generated", "java", "body", "for", "staic", "analysis", "public", "class", "NativeSummaryFuncs", "{", "public", "static", "native", "int", "open(String", "s,long", "j,long", "j2);", "public", "static", "native", "int", "write(int", "i,String", "s,long", "j);", "}", "public", "class", "MainActivity", "extends", "Activity", "{", "...", "//", "omit", "other", "methods", "public", "static", "String", "enterNative(Context", "ctx)", "{", "String", "s", "=", "ctx.getSystemService(\"phone\").getImei();", "int", "$1", "=", "NativeSummaryFuncs.open(\"/sdcard/info.txt\",65,418);", "NativeSummaryFuncs.write($1,", "s,", "20);", "//", "SINK", "return", "s;"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 544.3199999999999,
+    "y1": 84.0,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Figure1-1.png"
+}, {
+  "caption": "Table 1: Evaluation result on benchmarks. ⃝ = Correct, × = Wrong",
+  "captionBoundary": {
+    "x1": 352.5530090332031,
+    "x2": 523.3094482421875,
+    "y1": 83.64308166503906,
+    "y2": 99.67901611328125
+  },
+  "figType": "Table",
+  "imageText": ["Jucify,", "NS", "=", "NativeSummary.", "Some", "apps", "contain", "two", "leaks.", "FD", "=", "FlowDroid,", "AS", "=", "AppShark,", "AM", "=", "Amandroid,", "JS", "=", "JN-SAF,", "JU", "=", "⃝,", "higher", "is", "better", "35", "34", "30", "22", "9", "×,", "lower", "is", "better", "8", "8", "13", "21", "34", "Percentage", "p", "=", "⃝/(⃝+×)", "81.4%", "81.0%", "69.8%", "51.2%", "20.9%", "Sum", "and", "Precision", "native_copy", "⃝", "⃝", "×", "×", "×", "native_copy_strdup", "×", "⃝", "⃝", "×", "×", "native_encode", "×", "×", "×", "×", "×", "native_", "le_leak", "⃝", "⃝", "⃝", "×", "×", "native_socket_leak", "⃝", "⃝", "⃝", "×", "×", "native_global_id", "⃝", "⃝", "⃝", "×", "×", "native_handle", "×", "×", "×", "×", "×", "native_array_region", "×", "×", "×", "×", "×", "native_array_elements", "×", "⃝", "×", "×", "×", "native_direct_bu", "er", "⃝", "⃝", "×", "×", "×", "NativeFlowExtended", "getter_string", "⃝", "⃝", "⃝", "⃝", "×", "leaker_string", "⃝", "⃝", "⃝", "⃝", "×", "JucifyBench", "(without", "leak)", "getter_imei", "⃝", "⃝", "⃝", "×", "⃝", "leaker_imei", "⃝", "⃝", "⃝", "×", "⃝", "proxy_imei", "⃝", "⃝", "⃝", "×", "⃝", "delegation_imei", "⃝", "×", "⃝", "×", "⃝", "proxy_double", "⃝", "⃝", "⃝", "×", "⃝", "delegation_proxy", "⃝", "×", "⃝", "×", "⃝", "getter_leaker", "⃝", "⃝", "⃝", "×", "⃝", "getter_proxy_leaker", "⃝", "⃝", "⃝", "×", "⃝", "getter_imei_deep", "⃝", "⃝", "⃝", "×", "⃝", "JucifyBench", "(with", "leak)", "native_nosource", "⃝", "⃝", "⃝", "⃝", "×", "native_source_clean*", "×", "×", "×", "⃝", "×", "native_noleak", "⃝", "⃝", "⃝", "⃝", "×", "native_noleak_array", "×", "×", "×", "×", "×", "native_complexdata_stringop", "×", "×", "⃝", "×", "×", "NativeFlowBench", "(without", "leak)", "native_source", "⃝", "⃝", "⃝", "⃝", "×", "native_leak", "⃝", "⃝", "⃝", "⃝", "×", "native_leak_array", "⃝", "⃝", "⃝", "⃝", "×", "native_leak_dynamic_register", "⃝", "⃝", "⃝", "⃝", "×", "native_dynamic_register_multiple", "⃝", "⃝", "⃝", "⃝", "×", "native_multiple_interaction", "⃝", "⃝", "⃝", "⃝", "×", "native_multiple_libraries", "⃝", "⃝", "⃝", "⃝", "×", "native_complex_data", "⃝", "⃝", "×", "⃝", "×", "native_heap_modify", "⃝", "⃝", "⃝", "⃝", "×", "native_set_", "eld_from_native", "⃝⃝", "⃝⃝", "××", "⃝⃝", "××", "native_set_", "eld_from_arg", "⃝⃝", "⃝⃝", "⃝⃝", "⃝⃝", "××", "native_set_", "eld_from_arg_", "eld", "⃝⃝", "⃝⃝", "××", "⃝⃝", "××", "icc_nativetojava", "⃝", "-", "⃝", "⃝", "×", "native_method_overloading", "⃝", "⃝", "⃝", "⃝", "×", "NativeFlowBench", "(with", "leak)", "App", "Name", "NS+FD", "NS+AS", "NS+AM", "JS", "JU"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 103.67999999999999,
+    "y2": 606.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Table1-1.png"
+}, {
+  "caption": "Figure 2: Overview of NativeSummary.",
+  "captionBoundary": {
+    "x1": 364.6239929199219,
+    "x2": 511.53387451171875,
+    "y1": 191.1911163330078,
+    "y2": 195.48602294921875
+  },
+  "figType": "Figure",
+  "imageText": ["Original", "APK", "Repacked", "APK", "Java", "Analysis", "Repackage", "Jimple", "Body", "Generation", "Typed", "IR", "Resolve", "Class", "ID", "Method", "ID", "···", "Java", "Type", "Analysis", "JNI_OnLoad", "Dynamic", "Binding", "Resolution", "Global", "Variable", "Environment", "Abstract", "Interpretation", "based", "Static", "Analysis", "APK", "File", "Binary", "Analysis", ".json", "Static", "Binding", "Resolution", "Native", "Java", "Methods", "Export", "Symbols", "Summary", "IR", ".dex", ".so"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.8,
+    "y1": 84.0,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Figure2-1.png"
+}, {
+  "caption": "Table 4: Results on real-world apps.",
+  "captionBoundary": {
+    "x1": 101.76000213623047,
+    "x2": 245.7874755859375,
+    "y1": 271.9270935058594,
+    "y2": 276.22198486328125
+  },
+  "figType": "Table",
+  "imageText": ["FD", "=", "FlowDroid,", "AS", "=", "AppShark,", "NS", "=", "NativeSummary", "NS+AS", "1567", "2483215", "425", "/", "4572", "JN-SAF", "744", "3832", "43", "/", "212", "42/177", "5", "/", "85", "6", "/", "26", "Jucify", "1111", "718687", "850", "/", "20462", "0", "/", "2303", "0", "/", "130", "2", "/", "11", "1360", "1203775", "8521", "/", "60227", "6690", "/", "44993", "247", "/", "7111", "187", "/", "2239", "2255", "NS+FD", "In", "271", "Apps", "(Intersection", "of", "Successful", "Apps)", "/", "In", "All", "Apps", "Flows", "#Native", "Related", "#Native", "Methods", "Succeeded", "#Native", "Edges", "Created", "#Native", "Methods", "Analyzed", "#Total", "Flows", "App", "#Success", "Apps", "Tools", "#Total"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 283.68,
+    "y2": 359.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Table4-1.png"
+}, {
+  "caption": "Table 3: Real-world app datasets for evaluation.",
+  "captionBoundary": {
+    "x1": 77.51991271972656,
+    "x2": 270.0282897949219,
+    "y1": 168.07618713378906,
+    "y2": 172.37109375
+  },
+  "figType": "Table",
+  "imageText": ["Malradar", "[40]", "4,534", "1,575", "Malradar", "malware", "dataset", "from", "f-droid.org", "F-Droid", "[13]", "4,023", "680", "Open", "source", "Android", "apps", "Native", "Code", "Description", "Dataset", "#", "Apps", "#", "Apps", "with"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 180.0,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Table3-1.png"
+}, {
+  "caption": "Table 2: A comparison of supported JNI interface functions.",
+  "captionBoundary": {
+    "x1": 184.97689819335938,
+    "x2": 426.72900390625,
+    "y1": 79.86225891113281,
+    "y2": 84.15716552734375
+  },
+  "figType": "Table",
+  "imageText": ["Square", "brackets", "mean", "optional.", "For", "example,", "Throw[New]", "stands", "for", "two", "APIs:", "Throw", "and", "ThrowNew.", "NativeSummary", "O", "O", "O", "O", "O", "O", "O", "O", "O", "JN-SAF", "O", "O", "O", "O", "O", "O", "X", "O", "O", "Jucify", "O", "O", "O", "X", "X", "X", "X", "X", "O", "Register", "Natives", "Call<Ty>", "Method", "Set/Get", "<Ty>Field", "GetString", "[UTF]Chars", "NewString", "[UTF]", "NewObject", "Throw[New]", "Get/SetObject", "ArrayElement", "GetObject", "Class"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 542.4,
+    "y1": 87.84,
+    "y2": 155.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Table2-1.png"
+}, {
+  "caption": "Figure 4: Memory layout for JNI data structures and functions.",
+  "captionBoundary": {
+    "x1": 323.4259948730469,
+    "x2": 552.7307739257812,
+    "y1": 188.5890655517578,
+    "y2": 192.88397216796875
+  },
+  "figType": "Figure",
+  "imageText": ["memory", "for", "JNI", "data", "structuresderef", "......", "/*0xE000_1010*/", "thunk", "jint", "GetVersion(JNIEnv", "*", "env);", "/*0xE000_1014*/", "thunk", "jclass", "DefineClass(JNIEnv", "*env,", "const", "char", "*name,", "jobject", "loader);", "/*0xE000_1018*/", "thunk", "jclass", "FindClass(JNIEnv", "*env,", "const", "char", "*name);", "......", "deref", "/*0xE000_0000*/", "struct", "JNINativeInterface_", "*", "env", "=", "0xE000_0004;", "/*0xE000_0004*/", "struct", "JNINativeInterface_", "tab", "=", "{", "......", ".GetVersion", "=", "0xE000_1010", ".DefineClass", "=", "0xE000_1014", ".FindClass", "=", "0xE000_1018", "......", "};", "memory", "for", "external", "stub", "functions", "0xE0000000", "0xE0001000", "typedef", "const", "struct", "JNINativeInterface_", "*JNIEnv;", "jstring", "Java_MainActivity_getImei", "(", "JNIEnv", "*env,", "jclass", "clazz,", "jobject", "context)"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 550.0799999999999,
+    "y1": 86.88,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Figure4-1.png"
+}, {
+  "caption": "Figure 3: The JNI name mangling scheme [19].",
+  "captionBoundary": {
+    "x1": 88.34410095214844,
+    "x2": 259.4998474121094,
+    "y1": 166.1930694580078,
+    "y2": 170.48797607421875
+  },
+  "figType": "Figure",
+  "imageText": ["mangled", "argument", "signature", "(for", "overloaded", "native", "methods)", "mangled", "method", "name", "mangled", "fully-qualified", "class", "name", "prefix", "Java_org_example_native_1method_1overloading_MainActivity_send__I", "org/example/native_method_overloading/MainActivity", "unescape"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 88.32,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680335-Figure3-1.png"
+}]

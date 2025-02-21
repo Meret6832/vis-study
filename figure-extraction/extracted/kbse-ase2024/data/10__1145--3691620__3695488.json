@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 4: Distribution of Patch Evolution Timescales",
+  "captionBoundary": {
+    "x1": 331.8855895996094,
+    "x2": 544.2719116210938,
+    "y1": 509.7940979003906,
+    "y2": 514.0889892578125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Average", "Evolution", "Duration", "Interval", "(day)", "rs", "um", "be", "E", "N", "C", "V", "300", "250", "200", "150", "100", "50", "0", "245", "45", "33", "38", "47", "67", "106", "78", "161", "28", "(a)", "Initial", "Evolution", "Timing", "Interval", "(day)", "rs", "um", "be", "E", "N", "C", "V", "300", "250", "200", "150", "100", "50", "0", "247", "87", "84", "66", "45", "29", "23", "16", "207", "44"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 407.03999999999996,
+    "y2": 504.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Patch Modification Distribution",
+  "captionBoundary": {
+    "x1": 90.59719848632812,
+    "x2": 257.245849609375,
+    "y1": 566.30517578125,
+    "y2": 570.60009765625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Removal", "of", "Files/Functions", "File", "Removed", "Func", "Removed", "10%", "15%", "20%", "25%", "30%", "35%", "40%", "45%", "50%", "R", "at", "io", "o", "f", "C", "V", "E", "0%", "5%", "(a)", "Direct/Indirect/Irrelevant", "Direct", "Indirect", "Irrelevant", "Modification", "Times", "rs", "um", "be", "E", "N", "C", "V", "1", "2", "3", "4", "5", ">5", "500", "400", "300", "200", "100", "0"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 289.44,
+    "y1": 465.59999999999997,
+    "y2": 561.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Authorship Changes during Patch Evolution",
+  "captionBoundary": {
+    "x1": 64.94409942626953,
+    "x2": 282.89849853515625,
+    "y1": 665.6864013671875,
+    "y2": 669.9813232421875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Authorship", "Changes", "Ratio", "(b)", "Unique", "Authorship", "Distribution", "Author", "Change", "Author", "Not", "Change", "E", "f", "C", "V", "io", "o", "R", "at", "100%", "0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.4,
+    "y1": 562.56,
+    "y2": 660.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure5-1.png"
+}, {
+  "caption": "Table 3:The code features and the corresponding (sub-)tokens",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.2064819335938,
+    "y1": 350.28082275390625,
+    "y2": 354.5757141113281
+  },
+  "figType": "Table",
+  "imageText": ["Features", "(sub-)", "tokens", "Features", "(sub-)", "tokens", "condition", "if,", "switch", "bitwise", "&,", "|,", "ˆ", "et", "al.", "loop", "for,", "while", "memory", "API", "alloc,", "free,", "mem", "et", "al.", "jump", "return,", "goto", "et", "al.", "string", "API", "string,", "str", "arithmetic", "+,", "-,", "*,", "/", "et", "al.", "lock", "API", "lock,", "mutex,", "spin", "relational", "<,", ">,", "==", "et", "al.", "system", "API", "init,", "register,", "map", "et", "al.", "logical", "&&,", "||,", "!", "et", "al.", "other", "func", "other", "function", "calls"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 357.59999999999997,
+    "y2": 423.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Table3-1.png"
+}, {
+  "caption": "Figure 8: An example of exploiting the evolved patch of CVE2016-7515 from project ImageMagick",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.811767578125,
+    "y1": 503.1671142578125,
+    "y2": 518.4210205078125
+  },
+  "figType": "Figure",
+  "imageText": ["Data", "flow", "1", "-", "pixel_info_length", "=", "columns*rows*MagickMax(number_planes,4);", "2", "+", "pixel_info_length", "=", "columns*rows*number_planes_filled;", "3", "pixel_info", "=", "AcquireVirtualMemory(pixel_info_length,", "sizeof(*pixels));", "AddressSanitizer:", "heap-buffer-overflow", "Evolved", "Version", "Author:", "Cristy", "Original", "Patch", "Author:", "dirk", "4", "pixel_info", "=", "AcquireVirtualMemory(columns,rows*", "5", "-", "number_planes_filled*sizeof(*pixels));", "6", "+", "MagickMax(number_planes_filled,", "4)*sizeof(*pixels));", "7", "if", "(pixel_info", "==", "(MemoryInfo", "*)", "NULL)", "8", "ThrowReaderException(ResourceLimitError,", "\"MemoryAllocationFailed\");", "9", "pixels", "=", "(unsigned", "char", "*)", "GetVirtualMemoryBlob(pixel_info);", "10", "…", "11", "p=pixels", "+", "offset;", "12", "for", "(i=0;", "i", "<", "(ssize_t)", "operand;", "i++)", "{", "13", "if", "((y", "<", "(ssize_t)", "image->rows)", "&&", "((x+i)", "<", "(ssize_t)", "image->columns))", "{", "14", "*p=pixel;", "}}"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.0,
+    "y1": 376.8,
+    "y2": 495.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure8-1.png"
+}, {
+  "caption": "Figure 6: The impact of patch evolution on the function-level 1-day vulnerability detection tools jTrans and SAFE",
+  "captionBoundary": {
+    "x1": 76.96320343017578,
+    "x2": 535.0380249023438,
+    "y1": 205.70851135253906,
+    "y2": 210.00341796875
+  },
+  "figType": "Figure",
+  "imageText": ["openjpegFFmpeg", "ImageMagick", "libxml2", "openssl", "tcpdump", "Summary", "(b)", "jTrans", "at", "e", "FP", "R", "Q1", "Q2", "Q3", "Q4", "0.1", "0.2", "0.3", "0.4", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "Q1", "Q2", "Q3", "Q4", "0", "0", "0.1", "0.2", "0.3", "0.4", "(a)", "SAFE", "at", "e", "FP", "R", "Q1", "Q2", "Q3", "Q4", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "openjpegFFmpeg", "ImageMagick", "libxml2", "openssl", "tcpdump", "Summary"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 545.28,
+    "y1": 84.47999999999999,
+    "y2": 202.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The impact of patch evolution on the patch presence test tools PMatch and BinXray",
+  "captionBoundary": {
+    "x1": 118.32520294189453,
+    "x2": 493.6758728027344,
+    "y1": 354.7848205566406,
+    "y2": 359.0797119140625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "BinXray.", "rectangle", "denotes", "the", "ratio", "of", "BinXray", "that", "cannot", "generate", "results", "due", "to", "significant", "changes.", "at", "e", "FP", "R", "Q1", "Q2", "Q3", "Q4", "1", "0.2", "0.4", "0.6", "0.8", "Q1", "Q2", "Q3", "Q4", "0", "1", "0.2", "0.4", "0.6", "0.8", "Q1", "Q2", "Q3", "Q4", "0", "1", "0.2", "0.4", "0.6", "0.8", "Q1", "Q2", "Q3", "Q4", "0", "1", "0.2", "0.4", "0.6", "0.8", "Q1", "Q2", "Q3", "Q4", "0", "1", "0.2", "0.4", "0.6", "0.8", "Q1", "Q2", "Q3", "Q4", "0", "1", "0.2", "0.4", "0.6", "0.8", "Q1", "Q2", "Q3", "Q4", "0", "1", "0", "0.2", "0.4", "0.6", "0.8", "openjpegFFmpeg", "ImageMagick", "libxml2", "openssl", "tcpdump", "Summary", "openjpegFFmpeg", "ImageMagick", "libxml2", "openssl", "tcpdump", "Summary", "(a)", "PMatch", "at", "e", "FP", "R", "Q1", "Q2", "Q3", "Q4", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "Q1", "Q2", "Q3", "Q4", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 546.24,
+    "y1": 222.72,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure7-1.png"
+}, {
+  "caption": "Figure 1: The evolution of security patch of CVE-2015-3138.",
+  "captionBoundary": {
+    "x1": 54.00510025024414,
+    "x2": 293.8374938964844,
+    "y1": 288.84771728515625,
+    "y2": 293.1426086425781
+  },
+  "figType": "Figure",
+  "imageText": ["patch3={", "}control", "dominant", "patch2={207}", "patch1={207}", "patch0={205}", "202", "+", "if", "(len", "<", "sizeof(*io)", "*", "nid)", "203", "+", "return", "(-1);", "//", "…", "207", "-", "if", "(ND_TTEST_LEN(cp,", "len())", "{", "Evolution", "3.", "Commit", "=", "0a5fae.", "Author", "=", "Denis", "Ovsienko.", "Time=2020/09", "206", "-", "if", "(ND_TTEST2(*cp,", "len())", "{", "207", "+", "if", "(ND_TTEST_LEN(cp,", "len())", "{", "Evolution", "2.", "Commit", "=", "84ef17.", "Author", "=", "Francois-Xavier", "Le", "Bail.", "Time=2017/12", "206", "-", "if", "(ND_TTEST2(cp,", "len())", "{", "207", "+", "if", "(ND_TTEST2(*cp,", "len())", "{", "Evolution", "1.", "Commit", "=", "9f1e5e.", "Author", "=", "Francois-Xavier", "Le", "Bail.", "Time=2017/12", "204", "-", "if", "(!ND_TTEST2(cp,", "len())", "{", "205", "+", "if", "(ND_TTEST2(cp,", "len())", "{", "Original.", "Commit", "=", "3ed82f.", "Author=Denis", "Ovsienko.", "Time=2015/03"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 281.28,
+    "y1": 133.92,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Overview of this study",
+  "captionBoundary": {
+    "x1": 373.57470703125,
+    "x2": 502.5824279785156,
+    "y1": 247.3805694580078,
+    "y2": 251.67547607421875
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "Authorship", "change", "2.", "Evolution", "causes", "•", "AST", "features", "•", "Manual", "analyze", "irrelevant", "/", "removal", "2.", "Frequency", "•", "Time", "interval", "Human-involved", "1.", "Distribution", "•", "direct", "/", "indirect/", "RQ2:", "Characteristics", "of", "Patch", "Evolution", "RQ3:", "Impact", "of", "Patch", "Evolution", "Func-Level", "•", "jTrans", "•", "SAFE", "Patch-Level", "•", "BinXray", "•", "PMatch", "1-day", "Vulnerability", "Detection", "Tools", "RQ1:", "Frequency", "of", "Patch", "Evolution", "•", "direct", "changes", "•", "indirect", "changes", "•", "irrelevant", "•", "removal", "Commit", "History", "Patch", "Evolution", "Tracker", "Security", "Patches", "Data", "Construction", "Vulnerability", "Database", "Popular", "OSS", "projects"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 539.04,
+    "y1": 82.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Figure2-1.png"
+}, {
+  "caption": "Table 4: The change of code features during patch evolution. The cell consists of a/b , where a denotes the number of changes to the code feature in direct changes throughout patch evolution, and b denotes such a number in the indirect changes.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 558.2047119140625,
+    "y1": 87.06227111816406,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["Projects", "condition", "loop", "jump", "arithmetic", "relational", "bitwise", "logical", "other", "func", "memory", "api", "string", "api", "lock", "api", "system", "api", "FFmpeg", "76/107", "7/16", "34/0", "70/73", "164/213", "10/18", "58/81", "33/44", "3/11", "2/13", "0/0", "13/45", "ImageMagick", "18/10", "0/1", "2/0", "6/4", "13/13", "1/6", "1/0", "18/9", "2/0", "2/3", "0/0", "0/0", "libxml2", "10/11", "0/0", "6/0", "8/7", "8/11", "1/0", "4/2", "10/0", "0/0", "0/0", "0/0", "1/0", "linux", "305/259", "12/8", "205/2", "92/65", "281/171", "73/39", "113/125", "465/217", "79/12", "4/3", "132/16", "153/51", "openjpeg", "1/14", "0/2", "1/0", "12/51", "20/23", "12/12", "10/7", "2/2", "3/0", "0/0", "0/0", "2/0", "openssl", "30/141", "0/1", "9/0", "0/3", "58/210", "0/7", "6/29", "11/40", "22/10", "0/0", "0/0", "9/18", "php-src", "260/129", "10/3", "154/24", "75/36", "447/156", "5/3", "45/38", "101/99", "13/3", "25/30", "0/0", "10/13", "qemu", "47/40", "4/1", "24/0", "19/13", "73/33", "5/13", "14/11", "58/20", "8/6", "4/6", "2/0", "14/6", "radare2", "12/22", "3/4", "9/0", "10/9", "29/17", "0/4", "8/3", "7/8", "6/1", "5/7", "0/0", "3/0", "tcpdump", "28/95", "2/15", "46/0", "146/179", "33/112", "8/19", "5/17", "177/200", "1/0", "32/0", "0/0", "15/0", "Summary", "787/828", "38/51", "490/26", "438/440", "1,126/959", "115/121", "264/313", "882/639", "137/43", "74/62", "134/16", "220/133"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 549.12,
+    "y1": 105.6,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Table4-1.png"
+}, {
+  "caption": "Table 5: Patch evolution patterns",
+  "captionBoundary": {
+    "x1": 239.1654052734375,
+    "x2": 372.5406799316406,
+    "y1": 225.8744659423828,
+    "y2": 230.16937255859375
+  },
+  "figType": "Table",
+  "imageText": ["Type2", "(45.30%)", "P9", "Adjust", "memory", "allocation", "Modify", "the", "allocated", "memory", "size", "in", "the", "memory", "allocation", "function.", "1.71%", "P10", "Change", "patch", "context", "Add", "or", "remove", "statements", "that", "have", "control", "or", "data", "flow", "relationship", "with", "the", "patch.", "13.68%", "P11", "Modify", "conditions", "inside", "patch", "Change", "the", "condition", "expressions", "inside", "the", "patch", "to", "refine", "its", "logic", "14.53%", "P12", "Changes", "loop", "termination", "condition", "Modify", "the", "loop", "termination", "condition", "to", "alter", "the", "number", "of", "iterations.", "0.85%", "P13", "Delete", "all/part", "of", "patch", "code", "Part", "or", "all", "of", "the", "patch-related", "code", "is", "removed.", "14.53%", "Type1", "(54.70%)", "P1", "Rename", "identifiers", "Change", "the", "name", "of", "a", "variable,", "function,", "or", "other", "element", "inside", "the", "patch.", "14.53%", "P2", "Add/remove", "cast", "expression", "Add", "or", "remove", "the", "cast", "expression", "for", "variables.", "4.27%", "P3", "Rewrite", "loop", "patterns", "Convert", "a", "for", "loop", "statement", "to", "a", "while", "loop", "statement,", "or", "vice", "versa.", "1.71%", "P4", "Adjust", "code", "format", "Modify", "the", "formatting", "of", "code,", "such", "as", "adjusting", "indentation", "or", "Line-Break.", "5.98%", "P5", "Extract", "and", "reuse", "code", "Duplicated", "code", "is", "eliminated", "by", "extracting", "it", "into", "a", "distinct", "module", "for", "reuse.", "4.27%", "P6", "Define", "integer", "macros", "Replace", "values", "used", "multiple", "times", "in", "code", "with", "a", "macro.", "1.71%", "P7", "Modify", "parameters", "of", "callees", "Change", "types", "or", "number", "of", "parameters", "for", "callees", "inside", "the", "patch.", "19.66%", "P8", "Array", "indexing", "to", "pointer", "dereferencing", "Change", "from", "array", "indexing", "to", "pointer", "access.", "E.g.,", "change", "from", "p[index]", "to", "*(p+index).", "2.56%", "Types", "P", "Patterns", "Description", "Ratio"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 548.16,
+    "y1": 233.76,
+    "y2": 362.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Table5-1.png"
+}, {
+  "caption": "Table 1: Dataset statistics of the CVEs used in this study",
+  "captionBoundary": {
+    "x1": 60.923099517822266,
+    "x2": 286.6253356933594,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Projects", "#Stars", "#Forks", "#Commits", "#CVEs", "#Patches", "FFmpeg", "37.4K", "11.3K", "110.6K", "154", "219", "ImageMagick", "9.6K", "1.2K", "21.3K", "34", "47", "libxml2", "469", "332", "6.0K", "19", "46", "linux", "154.8K", "49.0K", "1.2M", "555", "1,490", "openjpeg", "881", "433", "3.0K", "10", "20", "openssl", "22.3K", "9K", "33.0K", "32", "59", "php-src", "35.7K", "7K", "132.6K", "64", "278", "qemu", "8.1K", "4.8K", "105.6K", "70", "246", "radare2", "18.4K", "2.9K", "30.1K", "29", "77", "tcpdump", "2.3K", "794", "7.2K", "79", "151", "total", "289.8K", "88.0K", "1.6M", "1,046", "2,633"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 100.8,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Table1-1.png"
+}, {
+  "caption": "Table 2: Patch Evolution Statistics. #sec/#evo/#total denotes the number of patch-evolved commits addressing security issues CVEs v.s. patch-evolved CVEs v.s. total CVE numbers. The direct, indirect, irrelevant and removed respectively denote the average number of times corresponding changes occur for each evolved CVE.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 559.8064575195312,
+    "y1": 87.06227111816406,
+    "y2": 146.15228271484375
+  },
+  "figType": "Table",
+  "imageText": ["3.4", "ResearchQuestion", "Project", "#sec/#evo/#total", "direct", "indirect", "irrelevant", "removed", "FFmpeg", "29/128/154", "1.2", "±", "0.9", "0.8", "±", "1.7", "6.8", "±", "17.5", "0.1", "±", "0.3", "ImageMag.", "5/32/34", "1.9", "±", "1.6", "0.8", "±", "0.9", "20.0", "±", "25.5", "0.1", "±", "0.3", "libxml2", "4/18/19", "1.3", "±", "0.6", "0.5", "±", "0.6", "5.5", "±", "6.8", "0.1", "±", "0.2", "linux", "287/434/555", "1.3", "±", "1.1", "0.4", "±", "0.9", "7.5", "±", "19.6", "0.2", "±", "0.4", "openjpeg", "1/10/10", "1.2", "±", "0.4", "0.8", "±", "0.6", "2.1", "±", "1.6", "0.0", "±", "0.0", "openssl", "7/29/32", "2.1", "±", "1.6", "1.3", "±", "1.7", "12.9", "±", "28.1", "0.5", "±", "0.6", "php-src", "28/47/64", "1.6", "±", "1.7", "0.7", "±", "1.2", "8.3", "±", "18.8", "0.3", "±", "0.5", "qemu", "25/53/70", "0.9", "±", "0.5", "0.3", "±", "0.5", "6.9", "±", "20.1", "0.2", "±", "0.5", "radare2", "13/19/29", "1.0", "±", "1.1", "0.5", "±", "0.9", "7.9", "±", "14.9", "0.3", "±", "0.5", "tcpdump", "5/78/79", "3.8", "±", "3.0", "1.7", "±", "2.0", "10.7", "±", "8.8", "0.1", "±", "0.2", "Summary", "404/848/1046", "1.8", "±", "1.6", "0.7", "±", "1.3", "10.1", "±", "19.0", "0.2", "±", "0.4"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 149.76,
+    "y2": 290.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695488-Table2-1.png"
+}]

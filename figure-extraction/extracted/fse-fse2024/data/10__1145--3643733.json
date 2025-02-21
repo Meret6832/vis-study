@@ -1,0 +1,241 @@
+[{
+  "caption": "Fig. 1. The overall workflow of LILAC.",
+  "captionBoundary": {
+    "x1": 172.51100158691406,
+    "x2": 313.4897155761719,
+    "y1": 200.8260040283203,
+    "y2": 206.031005859375
+  },
+  "figType": "Figure",
+  "imageText": ["Relevant", "templates", "Cache", "updating", "Cache", "matching", "Failed:", "LLM", "querying", "Adaptive", "Parsing", "cache", "ICL-enhanced", "parser", "Log", "data", "Answer", "Prompt", "format"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 439.2,
+    "y1": 80.64,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Figure1-1.png"
+}, {
+  "caption": "Fig. 6. Average accuracy among different numbers of sampled candidates and selected demonstrations. (%)",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1701354980469,
+    "y1": 512.1060180664062,
+    "y2": 517.31103515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 403.68,
+    "y2": 498.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Figure6-1.png"
+}, {
+  "caption": "Table 2. Average accuracy comparison among LILAC with different strategies (%)",
+  "captionBoundary": {
+    "x1": 93.26599884033203,
+    "x2": 392.49273681640625,
+    "y1": 82.16695404052734,
+    "y2": 87.3719482421875
+  },
+  "figType": "Table",
+  "imageText": ["GA", "FGA", "PA", "FTA", "LILAC", "92.7", "92.4", "84.2", "81.0", "w/o", "ICL", "83.5", "(↓", "9.9%)", "76.5", "(↓", "17.2%)", "62.6", "(↓", "25.6%)", "58.4", "(↓", "27.9%)", "w/", "random", "selection", "84.2", "(↓", "9.2%)", "80.6", "(↓", "14.6%)", "74.4", "(↓", "11.6%)", "66.7", "(↓", "17.7%)", "w/", "random", "sampling", "87.6", "(↓", "5.5%)", "80.9", "(↓", "12.4%)", "77.5", "(↓", "8.0%)", "68.3", "(↓", "15.7%)", "w/", "LogPPT", "sampling", "91.3", "(↓", "1.5%)", "84.8", "(↓", "8.2%)", "79.7", "(↓", "5.3%)", "74.9", "(↓", "7.5%)"],
+  "name": "2",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 398.4,
+    "y1": 101.75999999999999,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Table2-1.png"
+}, {
+  "caption": "Fig. 2. The workflow of ICL-enhanced parser.",
+  "captionBoundary": {
+    "x1": 158.94500732421875,
+    "x2": 327.0560302734375,
+    "y1": 292.8550109863281,
+    "y2": 298.05999755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Log", "query", "Answer", "Generated", "templates", "Demonstration", "selection", "Query", "Candidate", "sampling", "(1)", "Frequent", "tokens", "Clustering", "rules", "(2)", "Special", "formats", "LLMs…", "Prompt", "format", "Here", "are", "some", "examples:", "Log", "message:", "’{log", "message}’", "Log", "template:", "‘{log", "template}’", "…", "Please", "parse", "the", "following", "log", "message:", "Log", "message:", "‘{queried", "log", "message}’", "Instruction", "Candidate", "set", "Demonstration", "examples", "Hierarchical", "quota", "distribution", "Hierarchical", "clustering", "data", "Historical", "log"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 437.28,
+    "y1": 173.76,
+    "y2": 277.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Figure2-1.png"
+}, {
+  "caption": "Fig. 4. The demonstration cases of cache matching and updating operations for the parsing cache.",
+  "captionBoundary": {
+    "x1": 61.6150016784668,
+    "x2": 424.38653564453125,
+    "y1": 280.4300231933594,
+    "y2": 285.635009765625
+  },
+  "figType": "Figure",
+  "imageText": ["...", "T4broadcast", "variable", "<*>", "root", "Started", "reading", "<*>", "listening", "<*>", "Parsing", "cache", "𝑇&", "𝑇%", "𝑇!", "in", "login", "successfully", "files", "<*>", "reading", "<*>", "listening", "<*>", "process", "admin", "Started", "User", "root", "𝐿!:", "𝑇!", "𝑇#:", "User", "<*>", "successfully", "log", "in", "Sim", "(𝑇#,", "𝑇&)", ">", "𝜃", "𝐿#:", "𝑇&", "1.", "Failed", "match", "(Stop", "at", "reading)", "4.", "Insert", "new", "template:", "𝑇$", "->", "𝑇%", "𝑇#:", "Started", "reading", "broadcast", "variable", "<*>", "Sim", "(𝑇$,", "𝑇%)", "<", "𝜃", "3.", "Compare", "similarity", "2.", "Generated", "template", "𝑇$", "𝐿\":", "𝑇\"", "2.", "Generated", "template", "𝑇$", "5.", "Finished", "Case3:", "Cache", "updating", "(refine)", "1.", "Failed", "match", "(stop", "at", "User)", "4.", "Refine", "template", "𝑇#:", "𝑇$", "->", "𝑇#", "root", "User", "𝐿#:", "User", "user1", "successfully", "login", "in", "5.", "Finished", "3.", "Compare", "similarity", "Case2:", "Cache", "updating", "(insert)", "1.", "Successful", "match", "with", "T1", "2.", "Finished", "root", "Started", "process", "𝑇!", "𝐿\":", "Started", "reading", "broadcast", "variable", "1", "Case1:", "Cache", "matching", "𝐿!", ":", "Started", "process", "1616", "listening", "127.0.0.1"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 441.12,
+    "y1": 113.75999999999999,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Robustness comparison between baselines and LILAC on public datasets (%)",
+  "captionBoundary": {
+    "x1": 89.61699676513672,
+    "x2": 396.38433837890625,
+    "y1": 307.43902587890625,
+    "y2": 312.6440124511719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 213.6,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Figure5-1.png"
+}, {
+  "caption": "Fig. 7. Efficiency of baselines and LILAC on large-scale datasets",
+  "captionBoundary": {
+    "x1": 125.50499725341797,
+    "x2": 360.49639892578125,
+    "y1": 432.5400085449219,
+    "y2": 437.7449951171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 380.15999999999997,
+    "y1": 320.64,
+    "y2": 424.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Figure7-1.png"
+}, {
+  "caption": "Table 1. Accuracy comparison between baselines and LILAC on public datasets (%)",
+  "captionBoundary": {
+    "x1": 90.3030014038086,
+    "x2": 395.45648193359375,
+    "y1": 231.6069793701172,
+    "y2": 236.81198120117188
+  },
+  "figType": "Table",
+  "imageText": ["Apache", "100", "100", "72.7", "51.7", "100", "100", "72.7", "51.7", "94.8", "68.7", "94.2", "26.9", "78.6", "60.5", "94.8", "36.8", "100", "100", "99.6", "86.2", "OpenSSH", "70.5", "68.9", "36.4", "33.3", "70.7", "87.2", "58.6", "48.7", "27.5", "0.9", "28.9", "0.5", "27.7", "8.1", "65.4", "10.5", "69.0", "83.8", "94.1", "86.5", "HealthApp", "72.5", "0.8", "31.1", "0.3", "86.2", "1.0", "31.2", "0.4", "46.1", "74.5", "81.7", "46.2", "99.8", "94.7", "99.7", "82.2", "100", "98.1", "72.9", "87.3", "Proxifier", "97.4", "66.7", "67.7", "41.7", "69.2", "20.6", "68.8", "17.6", "50.9", "28.6", "63.4", "45.7", "98.9", "87.0", "100", "95.7", "100", "100", "100", "100", "Average", "85.6", "55.5", "44.2", "25.2", "84.3", "55.4", "46.8", "28.2", "71.6", "57.8", "73.0", "31.7", "61.2", "57.4", "73.6", "47.8", "92.7", "92.4", "84.2", "81.0", "Thunderbird", "78.6", "11.6", "16.3", "3.5", "83.1", "23.7", "21.6", "7.1", "57.9", "68.2", "65.4", "29.0", "56.4", "21.6", "40.1", "11.7", "80.6", "79.3", "55.9", "57.2", "Linux", "91.6", "80.6", "8.2", "21.7", "68.6", "77.8", "11.1", "25.9", "28.5", "45.1", "16.4", "23.2", "20.5", "71.2", "16.8", "42.8", "97.1", "93.1", "76.5", "74.0", "Mac", "79.7", "79.3", "24.5", "20.5", "76.1", "22.9", "35.7", "6.9", "73.7", "69.9", "68.8", "28.3", "54.4", "49.3", "39.0", "27.4", "87.6", "82.5", "63.8", "55.3", "Hadoop", "82.3", "11.7", "53.5", "5.8", "92.1", "78.5", "54.1", "38.4", "69.1", "62.8", "88.9", "47.6", "48.3", "52.6", "66.6", "43.4", "87.2", "96.2", "83.2", "77.9", "HDFS", "99.9", "76.4", "62.1", "56.2", "99.9", "93.5", "62.1", "60.9", "100", "96.8", "94.8", "58.1", "72.1", "39.1", "94.3", "31.2", "100", "96.8", "99.9", "94.6", "OpenStack", "74.3", "68.2", "2.9", "16.5", "75.2", "0.7", "2.9", "0.2", "100", "96.9", "51.6", "28.9", "53.4", "87.4", "40.6", "73.8", "100", "100", "100", "97.9", "Spark", "—", "—", "—", "—", "88.8", "86.1", "39.4", "41.2", "85.4", "2.0", "79.5", "1.2", "47.6", "37.4", "95.2", "29.9", "100", "90.1", "97.3", "75.9", "Zookeeper", "99.6", "78.8", "84.2", "46.5", "99.4", "90.4", "84.3", "61.4", "98.8", "66.1", "98.8", "51.0", "96.7", "91.8", "84.5", "80.9", "100", "96.7", "68.7", "86.8", "BGL", "91.5", "58.7", "40.6", "16.5", "91.9", "62.4", "40.7", "19.3", "91.8", "62.4", "94.9", "21.9", "24.5", "25.3", "93.8", "26.1", "89.4", "85.9", "95.8", "74.6", "HPC", "74.8", "20.1", "74.1", "13.6", "79.3", "30.9", "72.1", "15.2", "77.7", "66.0", "94.1", "35.1", "78.2", "78.0", "99.7", "76.8", "86.9", "90.7", "70.5", "80.0", "AEL", "Drain", "UniParser", "LogPPT", "LILAC", "GA", "FGA", "PA", "FTA", "GA", "FGA", "PA", "FTA", "GA", "FGA", "PA", "FTA", "GA", "FGA", "PA", "FTA", "GA", "FGA", "PA", "FTA"],
+  "name": "1",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 439.2,
+    "y1": 252.0,
+    "y2": 387.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Table1-1.png"
+}, {
+  "caption": "Table 4. Average accuracy comparison among LILAC with different LLMs (%)",
+  "captionBoundary": {
+    "x1": 100.71299743652344,
+    "x2": 385.04656982421875,
+    "y1": 83.1639633178711,
+    "y2": 88.36895751953125
+  },
+  "figType": "Table",
+  "imageText": ["GA", "FGA", "PA", "FTA", "ChatGPT", "92.7", "92.4", "84.2", "81.0", "Davinci", "91.9", "(↓", "0.9%)", "92.9", "(↑", "0.5%)", "87.1", "(↑", "3.4%)", "81.5", "(↑", "0.6%)", "Curie", "90.1", "(↓", "2.8%)", "87.6", "(↓", "5.2%)", "77.8", "(↓", "7.6%)", "71.2", "(↓", "12.1%)"],
+  "name": "4",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 378.24,
+    "y1": 102.72,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Table4-1.png"
+}, {
+  "caption": "Table 5. Average sampling time of LILAC and LogPPT algorithms on large-scale datasets (seconds)",
+  "captionBoundary": {
+    "x1": 61.349998474121094,
+    "x2": 424.40838623046875,
+    "y1": 482.04400634765625,
+    "y2": 487.2489929199219
+  },
+  "figType": "Table",
+  "imageText": ["8", "candidates", "16", "candidates", "32", "candidates", "64", "candidates", "128", "candidates", "LogPPT", "284.1", "629.3", "1303.9", "2779.6", "5396.9", "LILAC", "19.2", "19.3", "19.3", "19.3", "19.4", "Speed", "up", "(↑)", "14.8", "×", "32.6", "×", "67.6", "×", "144.0", "×", "278.2", "×"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 408.47999999999996,
+    "y1": 501.59999999999997,
+    "y2": 550.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Table5-1.png"
+}, {
+  "caption": "Fig. 3. The demonstration of our prompt design.",
+  "captionBoundary": {
+    "x1": 153.8159942626953,
+    "x2": 332.1846008300781,
+    "y1": 405.23101806640625,
+    "y2": 410.4360046386719
+  },
+  "figType": "Figure",
+  "imageText": ["LLM’s", "output", "Generated", "template", "Postprocess", "Query", "LLM", "Progress", "of", "TaskAttempt", "<*>", "is", ":", "<*>", "done", "Prompt", "format", "Please", "parse", "the", "following", "log", "message:", "Log", "message:", "`Progress", "of", "TaskAttempt", "attempt_1445062781478_0018_m_007", "is", ":", "0.3811716", "done`", "Here", "are", "some", "examples:", "Log", "message:", "`Finished", "spill", "process", "7`", "Log", "template:", "`Finished", "spill", "process", "{variables}`", "Log", "message:", "`Task", "cleanup", "failed", "for", "3", "attempt`", "Log", "template:", "`Task", "cleanup", "failed", "for", "{variables}", "attempt`", "Log", "message:", "`MapCompletionEvents", "request", "from", "attempt_1895628352891_0043_r_001.", "startIndex", "9", "maxEvents", "10000`", "Log", "template:", "`MapCompletionEvents", "request", "from", "{variables}.", "startIndex", "{variables}", "maxEvents", "{variables}`", "is", ":", "{variables}", "done`", "I", "want", "you", "to", "act", "like", "an", "expert", "in", "log", "parsing.", "I", "will", "give", "you", "a", "log", "message", "wrapped", "by", "backticks.", "Your", "task", "is", "to", "identify", "all", "the", "dynamic", "variables", "in", "logs,", "replace", "them", "with", "{variables},", "and", "output", "a", "static", "log", "template.", "Please", "print", "the", "input", "log's", "template", "wrapped", "by", "backticks.", "Log", "template:", "`Progress", "of", "TaskAttempt", "{variables}"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 439.2,
+    "y1": 282.71999999999997,
+    "y2": 390.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Figure3-1.png"
+}, {
+  "caption": "Table 3. Average accuracy comparison between LogPPT and LogPPT with parsing cache (%)",
+  "captionBoundary": {
+    "x1": 73.75499725341797,
+    "x2": 412.00347900390625,
+    "y1": 216.60899353027344,
+    "y2": 221.81399536132812
+  },
+  "figType": "Table",
+  "imageText": ["GA", "FGA", "PA", "FTA", "LogPPT", "(original)", "61.2", "57.4", "73.6", "47.8", "w/", "parsing", "cache", "90.8", "(↑", "48.4%)", "89.0", "(↑", "55.1%)", "78.0", "(↑", "6.0%)", "67.4", "(↑", "41.0%)"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 388.32,
+    "y1": 236.64,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643733-Table3-1.png"
+}]

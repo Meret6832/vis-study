@@ -1,0 +1,301 @@
+[{
+  "caption": "TABLE II: Top 10 vulnerability statistics of each dataset",
+  "captionBoundary": {
+    "x1": 189.42799377441406,
+    "x2": 422.57257080078125,
+    "y1": 49.32150650024414,
+    "y2": 55.323974609375
+  },
+  "figType": "Table",
+  "imageText": ["INTEGER", "OVERFLOW", "L5", "1412", "61.31%", "BUFFER", "OVERRUN", "L5", "345", "14.98%", "BUFFER", "OVERRUN", "L4", "170", "7.38%", "INTEGER", "OVERFLOW", "U5", "109", "4.73%", "BUFFER", "OVERRUN", "U5", "72", "3.13%", "BUFFER", "OVERRUN", "L3", "52", "2.26%", "INTEGER", "OVERFLOW", "L2", "42", "1.82%", "UNINITIALIZED", "VALUE", "40", "1.74%", "NULLPTR", "DEREFERENCE", "35", "1.52%", "NULL", "DEREFERENCE", "26", "1.13%", "Vulnerability", "Type", "Number", "Percentage", "(b)", "D2A", "dataset", "CWE-122", "4632", "10.55%", "CWE-121", "4197", "9.56%", "CWE-762", "2972", "6.77%", "CWE-190", "2822", "6.43%", "CWE-191", "2591", "5.90%", "CWE-590", "2423", "5.52%", "CWE-134", "2112", "4.81%", "CWE-127", "1774", "4.04%", "CWE-124", "1754", "3.99%", "CWE-78", "1517", "3.45%", "Vulnerability", "Type", "Number", "Percentage", "(a)", "Juliet", "dataset"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 564.0,
+    "y1": 71.52,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-TableII-1.png"
+}, {
+  "caption": "Fig. 11: Distribution histogram of the minimum distance between the predicted code lines and the targets in vulnerability localization tasks.",
+  "captionBoundary": {
+    "x1": 48.96399688720703,
+    "x2": 300.0215148925781,
+    "y1": 635.1595458984375,
+    "y2": 665.072021484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "D2A", "dataset", "Distance", "D", "is", "tr", "ib", "u", "ti", "on", "0", "1", "2", "3", "4", "5", ">5", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0017", "0.0105", "0.0052", "0.0105", "0.0411", "0.1076", "0.8233", "(a)", "Juliet", "dataset", "Distance", "D", "is", "tr", "ib", "u", "ti", "on", "0", "1", "2", "3", "4", "5", ">5", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0061", "0.0058", "0.0037", "0.0025", "0.0023", "0.0112", "0.0", "0.9685"],
+  "name": "11",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 279.36,
+    "y1": 362.88,
+    "y2": 624.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure11-1.png"
+}, {
+  "caption": "Fig. 5: ROC curve of each dataset on detection task.",
+  "captionBoundary": {
+    "x1": 66.38400268554688,
+    "x2": 282.6023254394531,
+    "y1": 526.1805419921875,
+    "y2": 532.1829833984375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "D2A", "dataset", "D2A,", "AUC=0.9949", "e", "R", "at", "iti", "ve", "P", "os", "Tr", "ue", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "False", "Positive", "Rate", "(a)", "Juliet", "dataset", "Juliet,", "AUC=0.9984", "e", "R", "at", "iti", "ve", "P", "os", "Tr", "ue", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "False", "Positive", "Rate"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 298.08,
+    "y1": 382.56,
+    "y2": 516.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure5-1.png"
+}, {
+  "caption": "TABLE III: Evaluation results with different information integration",
+  "captionBoundary": {
+    "x1": 166.47000122070312,
+    "x2": 445.5321350097656,
+    "y1": 49.32150650024414,
+    "y2": 55.323974609375
+  },
+  "figType": "Table",
+  "imageText": ["D2A", "MLP-Vertical", "0.6921", "12.7703", "0.7061", "11.8427", "0.7253", "11.3436", "MLP-Horizontal", "0.5591", "8.0658", "0.6343", "6.4631", "0.6939", "5.3748", "TextCNN", "0.7297", "4.7175", "0.7568", "3.3489", "0.7752", "2.7424", "Juliet", "MLP-Vertical", "0.8936", "4.3250", "0.9326", "3.7362", "0.9425", "3.6911", "MLP-Horizontal", "0.8852", "0.9157", "0.9448", "0.3448", "0.9630", "0.1860", "TextCNN", "0.9181", "0.5187", "0.9539", "0.2756", "0.9697", "0.1653", "accuracy", "distance", "accuracy", "distance", "accuracy", "distance", "Dataset", "Model", "Top-1", "Top-3", "Top-5", "(c)", "Localization", "task", "D2A", "MLP-Horizontal", "0.7227", "0.7100", "0.7227", "0.7054", "TextCNN", "0.7358", "0.7310", "0.7358", "0.7235", "Juliet", "MLP-Horizontal", "0.9224", "0.9219", "0.9224", "0.9215", "TextCNN", "0.9761", "0.9764", "0.9761", "0.9759", "Dataset", "Model", "Accuracy", "Precision", "Recall", "F1-score", "(b)", "Classification", "task", "D2A", "MLP-Horizontal", "0.9809", "0.9743", "0.9878", "0.9809", "TextCNN", "0.9858", "0.9801", "0.9910", "0.9854", "Juliet", "MLP-Horizontal", "0.9975", "0.9965", "0.9985", "0.9975", "TextCNN", "0.9992", "0.9990", "0.9994", "0.9992", "Dataset", "Model", "Accuracy", "Precision", "Recall", "F1-score", "(a)", "Detection", "task"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 514.0799999999999,
+    "y1": 67.67999999999999,
+    "y2": 357.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-TableIII-1.png"
+}, {
+  "caption": "Fig. 8: Visualization of Juliet dataset",
+  "captionBoundary": {
+    "x1": 98.96701049804688,
+    "x2": 250.02000427246094,
+    "y1": 146.08456420898438,
+    "y2": 152.0870361328125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "vul", "type", "t-SNE", "(a)", "binary", "PCA", "(b)", "binary", "t-SNE", "(c)", "vul", "type", "PCA"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 50.879999999999995,
+    "y2": 134.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure8-1.png"
+}, {
+  "caption": "Fig. 9: Visualization of D2A dataset",
+  "captionBoundary": {
+    "x1": 100.07801818847656,
+    "x2": 248.90931701660156,
+    "y1": 251.21554565429688,
+    "y2": 257.218017578125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "vul", "type", "t-SNE", "(a)", "binary", "PCA", "(b)", "binary", "t-SNE", "(c)", "vul", "type", "PCA"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 156.0,
+    "y2": 240.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure9-1.png"
+}, {
+  "caption": "Fig. 1: Overview of the approach",
+  "captionBoundary": {
+    "x1": 237.58200073242188,
+    "x2": 374.418212890625,
+    "y1": 286.2865295410156,
+    "y2": 292.28900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Vul", "line", "localization", "Vul", "type", "idenfitifcation", "Vulnerability", "detection", "Source", "CPG", "flow", "Source", "semantic", "IR", "semantic", "3.", "Flow", "Information", "Integration", "5.", "Evaluation", "Two-layer", "GGNN", "encoding", "Integrated", "semantic", "embedding", "Tokenization", "Bidirectional", "transformer", "encoding", "1.", "Feature", "Extraction", "2.", "Semantic", "Information", "Integration", "4.", "Downstream", "Task", "Classifier", "Task", "label", "Function-level", "slicing", "LLVM", "IR", "CPG", "Compilation", "Program", "analysis", "Source", "code", "Integrated", "graph", "embedding"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 533.28,
+    "y1": 58.08,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure1-1.png"
+}, {
+  "caption": "Fig. 6: Boxplot of Juliet dataset evaluation results in each task",
+  "captionBoundary": {
+    "x1": 177.4329833984375,
+    "x2": 434.5675354003906,
+    "y1": 197.51852416992188,
+    "y2": 203.52099609375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Localization", "ue", "s", "V", "al", "rv", "ed", "Ob", "se", "0.97", "0.96", "0.95", "0.94", "0.93", "0.92", "Top-1", "accuracy", "Top-3", "accuracy", "Top-5", "accuracy", "(b)", "Classification", "ue", "s", "V", "al", "rv", "ed", "Ob", "se", "0.9775", "0.9770", "0.9765", "0.9760", "0.9755", "0.9750", "0.9745", "0.9740", "accuracy", "precision", "recall", "f1-score", "(a)", "Detection", "0.9994", "0.9996", "Ob", "se", "rv", "ed", "V", "al", "ue", "s", "0.9992", "0.9990", "0.9988", "0.9986", "accuracy", "precision", "recall", "f1-score"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 59.04,
+    "x2": 557.28,
+    "y1": 52.8,
+    "y2": 187.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure6-1.png"
+}, {
+  "caption": "TABLE IV: Comparison with peer work on Juliet dataset.",
+  "captionBoundary": {
+    "x1": 187.00201416015625,
+    "x2": 424.9983825683594,
+    "y1": 389.93450927734375,
+    "y2": 395.9369812011719
+  },
+  "figType": "Table",
+  "imageText": ["VELVET", "[10]", "99.60%", "99.90%", "99.30%", "99.60%", "99.50%", "99.60%", "HAN-BSVD", "[31]", "97.66%", "96.41%", "97.90%", "97.15%", "-", "-", "VulAnalyzeR", "[28]", "99.54%", "99.85%", "99.24%", "99.54%", "92.63%", "-", "Proposed", "99.92%", "99.90%", "99.85%", "99.92%", "97.61%", "91.81%", "Method", "Accuracy", "Precision", "Recall", "F1-score", "cls", "Acc.", "loc", "Acc."],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 536.16,
+    "y1": 404.64,
+    "y2": 464.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-TableIV-1.png"
+}, {
+  "caption": "Fig. 7: Boxplot of D2A dataset evaluation results in each task",
+  "captionBoundary": {
+    "x1": 178.54400634765625,
+    "x2": 433.4569396972656,
+    "y1": 367.8175048828125,
+    "y2": 373.8199768066406
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Localization", "ue", "s", "V", "al", "rv", "ed", "Ob", "se", "0.80", "0.78", "0.76", "0.74", "0.72", "Top-1", "accuracy", "Top-3", "accuracy", "Top-5", "accuracy", "(b)", "Classification", "ue", "s", "V", "al", "rv", "ed", "Ob", "se", "0.76", "0.74", "0.72", "0.70", "accuracy", "precision", "recall", "f1-score", "(a)", "Detection", "ue", "s", "V", "al", "rv", "ed", "Ob", "se", "1.00", "0.99", "0.98", "0.97", "0.96", "accuracy", "precision", "recall", "f1-score"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 557.28,
+    "y1": 222.72,
+    "y2": 357.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure7-1.png"
+}, {
+  "caption": "TABLE V: Comparison with peer work on D2A dataset.",
+  "captionBoundary": {
+    "x1": 58.26499938964844,
+    "x2": 290.7223205566406,
+    "y1": 476.26153564453125,
+    "y2": 482.2640075683594
+  },
+  "figType": "Table",
+  "imageText": ["VELVET", "[10]", "59.30%", "43.60%", "C-BERT", "[32]", "60.20%", "-", "VulBERTa", "[11]", "62.30%", "-", "Proposed", "73.58%", "72.97%", "Method", "cls", "Acc.", "loc", "Acc."],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 276.0,
+    "y1": 491.52,
+    "y2": 551.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-TableV-1.png"
+}, {
+  "caption": "Fig. 4: Contrastive learning-based GGNN pretraining pipeline",
+  "captionBoundary": {
+    "x1": 311.9779968261719,
+    "x2": 563.0354614257812,
+    "y1": 311.0045166015625,
+    "y2": 317.0069885253906
+  },
+  "figType": "Figure",
+  "imageText": ["model", "trainingdata", "augmentation", "aug", "graph", "orig", "graph", "graph", "//", "stop", "gradient", "lossEMA", "softmax", "teacher", "centering", "softmax", "student"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 542.4,
+    "y1": 218.88,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Structure of GGNN",
+  "captionBoundary": {
+    "x1": 381.9700012207031,
+    "x2": 493.0429382324219,
+    "y1": 195.03555297851562,
+    "y2": 201.03802490234375
+  },
+  "figType": "Figure",
+  "imageText": ["semantics", "(node)", "Graph", "extraction", "Graph", "encoding", "Graph", "embedding", "Full", "connection", "layer", "Graph", "Unit", "Graph", "Unit", "Graph", "Unit", "Graph", "Unit", "CPG", "flow", "(edge)", "AST", "CFG", "CDG", "DDG"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 540.0,
+    "y1": 49.92,
+    "y2": 184.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-Figure3-1.png"
+}, {
+  "caption": "TABLE VI: Evaluation results with different information integration",
+  "captionBoundary": {
+    "x1": 166.1909942626953,
+    "x2": 445.8110046386719,
+    "y1": 49.32150650024414,
+    "y2": 55.323974609375
+  },
+  "figType": "Table",
+  "imageText": ["D2A", "Integrated", "0.7297", "4.7175", "0.7568", "3.3489", "0.7752", "2.7424", "Single", "Transformer", "0.6275", "10.3806", "0.6605", "8.0710", "0.6860", "6.2912", "Bidirectional", "Transformer", "0.7209", "5.0133", "0.7366", "4.0684", "0.7568", "3.2270", "Juliet", "Integrated", "0.9181", "0.5187", "0.9539", "0.2756", "0.9697", "0.1653", "Single", "Transformer", "0.9693", "0.2481", "0.9840", "0.1328", "0.9897", "0.0588", "Bidirectional", "Transformer", "0.9125", "0.5356", "0.9577", "0.2803", "0.9720", "0.1485", "accuracy", "distance", "accuracy", "distance", "accuracy", "distance", "Dataset", "Mehod", "Top-1", "Top-3", "Top-5", "(c)", "Localization", "task", "D2A", "Integrated", "0.7358", "0.7310", "0.7358", "0.7235", "Single", "Transformer", "0.7012", "0.6985", "0.7012", "0.6667", "Bidirectional", "Transformer", "0.7288", "0.7524", "0.7288", "0.7078", "Juliet", "Integrated", "0.9761", "0.9764", "0.9761", "0.9759", "Single", "Transformer", "0.9883", "0.9887", "0.9883", "0.9882", "Bidirectional", "Transformer", "0.9641", "0.9635", "0.9641", "0.9627", "Dataset", "Method", "Accuracy", "Precision", "Recall", "F1-score", "(b)", "Classification", "task", "D2A", "Integrated", "0.9858", "0.9801", "0.9910", "0.9854", "Single", "Transformer", "0.9955", "0.9951", "0.9959", "0.9955", "Bidirectional", "Transformer", "0.9923", "0.9901", "0.9944", "0.9922", "Juliet", "Integrated", "0.9992", "0.9990", "0.9994", "0.9992", "Single", "Transformer", "0.9998", "0.9997", "0.9998", "0.9998", "Bidirectional", "Transformer", "0.9974", "0.9964", "0.9984", "0.9974", "Dataset", "Method", "Accuracy", "Precision", "Recall", "F1-score", "(a)", "Detection", "task"],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 514.0799999999999,
+    "y1": 71.52,
+    "y2": 397.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-TableVI-1.png"
+}, {
+  "caption": "TABLE I: Characteristics of the evaluation datasets after preprocessing",
+  "captionBoundary": {
+    "x1": 311.97802734375,
+    "x2": 563.0354614257812,
+    "y1": 49.32144546508789,
+    "y2": 67.2789306640625
+  },
+  "figType": "Table",
+  "imageText": ["functions", "that", "addressed", "the", "specific", "problem", "of", "the", "competition,", "and", "all", "samples", "could", "be", "compiled", "into", "distinct", "programs.", "•", "Evaluation", "Dataset:", "The", "approach", "was", "evaluated", "based", "on", "two", "datasets.", "One", "was", "manually-built", "Juliet", "dataset", "[6],", "which", "was", "commonly", "adopted", "in", "the", "previous", "studies", "[10],", "[28].", "The", "other", "was", "D2A", "dataset", "[8]", "collecting", "from", "real-world", "projects,", "which", "could", "adequately", "demonstrate", "the", "effectiveness", "of", "the", "method", "under", "real", "scenarios.", "Num", "43329", "1143", "Vul", "type", "num", "21", "19", "min", "num", "of", "code", "lines", "3", "11", "Max", "num", "of", "code", "lines", "257", "238", "Average", "num", "of", "code", "lines", "49.13", "81.75", "Dataset", "Juliet", "D2A"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 563.04,
+    "y1": 82.56,
+    "y2": 265.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00019-TableI-1.png"
+}]

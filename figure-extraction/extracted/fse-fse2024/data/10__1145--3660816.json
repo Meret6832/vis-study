@@ -1,0 +1,161 @@
+[{
+  "caption": "Fig. 1. Examples of library documentation. We use<8 to denote the API with the ID 8 in the paper.",
+  "captionBoundary": {
+    "x1": 61.27109909057617,
+    "x2": 424.72900390625,
+    "y1": 227.42535400390625,
+    "y2": 232.9979248046875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "The", "documentation", "of", "android.content.Intent", "(b)", "The", "documentation", "of", "java.util.Stack", "④", "Semantic", "Description", "②", "Type", "Signature", "③", "Naming", "Information", "①", "Class", "Hierarchy", "Relation", "•", "android.content.Intent", "package:", "android.content", "Class", "Intent", "•java.lang.Object", "•", "java.util.Stack<E>", "•", "java.util.Vector<E>", "•", "java.util.AbstractList<E>", "•", "java.util.AbstractCollection<E>", "package:", "java.util", "Class", "Stack<E>", "•java.lang.Object", "Tests", "if", "this", "stack", "is", "empty.", "10", "boolean", "empty()", "Removes", "the", "object", "at", "the", "top", "of", "this", "stack", "and", "returns", "that", "object", "as", "the", "value", "of", "this", "function.", "9", "E", "pop()", "Looks", "at", "the", "object", "at", "the", "top", "without", "removing", "it", "from", "the", "stack.", "8", "E", "peek()", "Pushes", "an", "item", "onto", "the", "top", "of", "this", "stack.", "Method", "Summary", "ID", "Return", "Type", "Method", "and", "Description", "7", "E", "push(E", "item)", "Copy", "the", "contents", "of", "other", "in", "to", "this", "object.", "6", "int", "fillIn(Intent", "other,", "int", "flags)", "Normalize", "a", "MIME", "data", "type.", "5", "String", "normalizeMimeType(String", "type)", "Retrieve", "extended", "data", "from", "this", "Intent.", "4", "ArrayList<String>", "getStringArrayListExtra(String", "name)", "Retrieve", "the", "identifier", "for", "this", "Intent.", "3", "String", "getIdentifier()", "Set", "an", "identifier", "for", "this", "Intent.", "2", "Intent", "setIdentifier(String", "identifier)", "Add", "extended", "data", "to", "the", "intent.", "1", "void", "putStringArrayListExtra(String", "name,", "ArrayList<String>", "value)", "Method", "Summary", "ID", "Return", "Type", "Method", "and", "Description"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 440.15999999999997,
+    "y1": 85.92,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Figure1-1.png"
+}, {
+  "caption": "Fig. 4. An optimal solution to the problem instance over the API value graph shown in Figure 3",
+  "captionBoundary": {
+    "x1": 67.87809753417969,
+    "x2": 418.1233825683594,
+    "y1": 169.580322265625,
+    "y2": 173.8079833984375
+  },
+  "figType": "Figure",
+  "imageText": ["{}", "{R,", "D,", "W}", "{}", "{I,", "W}", "{}", "{R}", "{name}", "{W}", "{item}", "{I,", "W}", "{string,", "array,", "list,", "extra}", "{R}", "{value}", "{W}", "(Intent,", "𝑚$", ",", "-1)", "(Intent,", "𝑚#,", "1)", "(Stack,", "𝑚&,", "-1)", "(Stack,", "𝑚',", "-1)", "(Stack,", "𝑚%", ",", "0)", "(Stack,", "𝑚%,", "-1)", "{name}", "{R}", "{identifier}", "{W}", "{identifier}", "{R}", "(Intent,", "𝑚$,", "0)", "(Intent,", "𝑚\",", "0)", "(Intent,", "𝑚#,", "0)", "(Intent,", "𝑚!", ",", "-1)"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 397.44,
+    "y1": 84.47999999999999,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Figure4-1.png"
+}, {
+  "caption": "Fig. 8. The results of taint analysis assisted with Atlas, USpec, and LLM-Alias",
+  "captionBoundary": {
+    "x1": 239.05599975585938,
+    "x2": 437.2142639160156,
+    "y1": 554.0883178710938,
+    "y2": 569.2750244140625
+  },
+  "figType": "Figure",
+  "imageText": ["#", "N", "e", "w", "ly", "D", "is", "c", "o", "v", "e", "re", "d", "T", "a", "in", "t", "F", "lo", "w", "s", "Application", "ID"],
+  "name": "8",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 238.56,
+    "x2": 437.28,
+    "y1": 429.59999999999997,
+    "y2": 549.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Figure8-1.png"
+}, {
+  "caption": "Fig. 3. The API value graph of the documentation model induced by the documentation in Figure 1",
+  "captionBoundary": {
+    "x1": 60.24800109863281,
+    "x2": 425.7543640136719,
+    "y1": 198.44732666015625,
+    "y2": 202.67498779296875
+  },
+  "figType": "Figure",
+  "imageText": ["peek", "s8", "pop", "s9", "push", "s7item", "s7", "putStringArrayListExtra", "s1", "empty", "s10", "other", "s6", "(Stack,", "𝑚\"*", ",", "-1)", "(Stack,𝑚(,", "-1)", "(Stack,𝑚),", "-1)", "(Stack,", "𝑚'", ",", "0)", "(Stack,𝑚',", "-1)", "flags", "s6", "fillIn", "s6", "setIdentifier", "s2", "value", "s1", "getStringArrayListExtra", "s4", "type", "s5", "name", "s1", "name", "s4", "identifier", "s2", "normalizeMimeType", "s5", "getIdentifier", "s3", "(Intent,", "𝑚&", ",", "-1)(Intent,𝑚&,", "1)", "(Intent,𝑚&,", "0)", "(Intent,𝑚%,", "0)", "(Intent,", "𝑚%", ",", "-1)", "(Intent,𝑚$,", "0)", "(Intent,", "𝑚$", ",", "-1)", "(Intent,𝑚\",", "0)", "(Intent,", "𝑚#", ",", "-1)", "(Intent,𝑚#,", "0)", "(Intent,", "𝑚\",", "1)", "(Intent,", "𝑚!", ",", "-1)", "(Intent,𝑚\",", "-1)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 438.24,
+    "y1": 84.47999999999999,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Figure3-1.png"
+}, {
+  "caption": "Fig. 7. The results of taint analysis",
+  "captionBoundary": {
+    "x1": 286.031005859375,
+    "x2": 413.9452209472656,
+    "y1": 270.0233459472656,
+    "y2": 274.2510070800781
+  },
+  "figType": "Figure",
+  "imageText": ["#", "T", "a", "in", "t", "F", "lo", "w", "s", "Application", "ID"],
+  "name": "7",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 264.0,
+    "x2": 439.2,
+    "y1": 150.72,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Figure7-1.png"
+}, {
+  "caption": "Fig. 5. The prompt templates of two-staged prompting",
+  "captionBoundary": {
+    "x1": 141.94900512695312,
+    "x2": 344.0515441894531,
+    "y1": 252.21633911132812,
+    "y2": 256.4440002441406
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Retrieve", "typical", "verbs", "via", "prompting", "(b)", "Instantiate", "the", "memory", "operation", "abstraction", "via", "prompting", "Select", "Top", "1", "Yes,", "No,", "No,", "No", "The", "semantic", "description", "of", "getParcelableArrayListExtra", "in", "the", "class", "Intent", "is", "“Retrieve", "extended", "data", "from", "this", "Intent”.", "Please", "determine", "its", "memory", "operations", "and", "answer", "Yes/No.", "Here", "is", "an", "example", "output:", "No,", "No,", "No,", "No", "-", "If", "the", "description", "contains", "[xxx]", "or", "its", "synonyms,", "it", "conducts", "the", "write.", "-", "If", "the", "description", "contains", "[xxx]", "or", "its", "synonyms,", "it", "conducts", "the", "insertion.", "-", "If", "the", "description", "contains", "[xxx]", "or", "its", "synonyms,", "it", "conducts", "the", "deletion.", "Please", "provide", "the", "API", "semantic", "description.", "-", "If", "the", "description", "contains", "[xxx]", "or", "its", "synonyms,", "it", "conducts", "the", "read.", "Here", "are", "four", "memory", "operations,", "namely", "read,", "write,", "insertion,", "and", "deletion.", "Given", "a", "semantic", "description", "of", "an", "API,", "determine", "whether", "the", "API", "conducts", "the", "read,", "write,", "insertion,", "and", "deletion", "based", "on", "the", "following", "rules:", "As", "an", "experienced", "programmer,", "you", "are", "good", "at", "understanding", "API", "semantics", "according", "to", "its", "semantic", "description.", "-", "m1:", "get,", "retrieve,", "fetch,", "obtain,", "acquire,", "read,", "access", "-", "m2:", "set,", "assign,", "store,", "save,", "initialize,", "update,", "record", "-", "m3:", "insert,", "add,", "put,", "store,", "set,", "update,", "record", "-", "m4:", "remove,", "delete,", "erase,", "clear,", "eliminate,", "exclude", "-", "m1:", "reads", "the", "value", "of", "a", "class", "field", "and", "returns", "it", "-", "m2:", "stores", "its", "parameter", "to", "a", "class", "field", "-", "m3:", "inserts", "its", "parameter", "to", "a", "class", "field", "-", "m4:", "removes", "a", "value", "from", "a", "class", "field", "Please", "choose", "proper", "verbs", "for", "each", "API.", "The", "verbs", "can", "be", "used", "in", "API", "names", "and", "semantic", "description", "of", "the", "documentation.", "Separate", "the", "verbs", "by", "commas", "and", "sort", "them", "based", "on", "preference.", "Here", "are", "the", "verbs", "for", "each", "API.", "You", "are", "developing", "four", "APIs", "m1,", "m2,", "m3,", "and", "m4", "to", "implement", "the", "following", "four", "memory", "operations:", "As", "an", "experienced", "programmer,", "you", "are", "good", "at", "choosing", "API", "names", "and", "writing", "documentation."],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 84.0,
+    "y2": 240.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. The results of pointer analysis",
+  "captionBoundary": {
+    "x1": 285.41900634765625,
+    "x2": 422.452392578125,
+    "y1": 595.4073486328125,
+    "y2": 599.635009765625
+  },
+  "figType": "Figure",
+  "imageText": ["P", "ro", "p", "o", "rt", "io", "n", "Distribution", "of", "Ratio", "of", "Alias", "Set", "Size"],
+  "name": "6",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 268.32,
+    "x2": 443.03999999999996,
+    "y1": 475.68,
+    "y2": 586.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Figure6-1.png"
+}, {
+  "caption": "Table 1. E iciency of DAInfer and its ablations",
+  "captionBoundary": {
+    "x1": 155.18789672851562,
+    "x2": 330.5707702636719,
+    "y1": 88.1260986328125,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["DAInfer", "32,325", "2,950", "726,425", "892.93", "DAInfer-Type", "32,325", "5,164", "1,276,254", "1,734.63", "DAInfer-Exhausive", "58,846", "8,090", "1,994,017", "2,844.26", "Tool", "#", "Tagging", "#", "LLM", "Token", "Cost", "Time", "Cost", "(sec)"],
+  "name": "1",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 388.32,
+    "y1": 101.75999999999999,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660816-Table1-1.png"
+}]

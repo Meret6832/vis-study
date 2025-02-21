@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 5: Framework of the Porting Module",
+  "captionBoundary": {
+    "x1": 85.87200164794922,
+    "x2": 261.97210693359375,
+    "y1": 222.90582275390625,
+    "y2": 224.98602294921875
+  },
+  "figType": "Figure",
+  "imageText": ["!!\"", "!!", "!!\"", "!#", "Finetuning", "Patch", "Porting", "𝒎", "𝒇!", "𝒇", "…", "Post", "Process", "…", "𝒌", "LoRA", "Adapter", "𝟎", "LoRA", "Adapter", "𝑥\"", "Prompt", "Template", "LoRA", "Adapter", "…", "…", "𝑩", "∈", "ℝ𝒎×𝒓", "𝑨", "∈", "ℝ𝒓×𝒏", "𝑥!\"#", "⨁", "𝑟", "Pretrained", "Weights", "𝑾", "∈", "ℝ𝒎×𝒏", "LoRA", "Adapters", "From", "Finetuning", "𝑩", "∈", "ℝ𝒎×𝒓", "𝑥!", "𝑨", "∈", "ℝ𝒓×𝒏", "⨁", "𝑟", "Pretrained", "Weights", "𝑾", "∈", "ℝ𝒎×𝒏", "Pretrained", "LLM", "(Frozen)"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 284.64,
+    "y1": 83.52,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Designed prompt template for the patch porting and the finetuning task. ⟨·⟩ stands for a placeholder.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.047119140625,
+    "y1": 443.5028076171875,
+    "y2": 456.5419921875
+  },
+  "figType": "Figure",
+  "imageText": ["!#\"", "$", "%%,", "?", "!#", "$", "%#,", "%#$", "!!", "!!\"", "Instruction", "(#)", "###", "Function", "Before", "(", "!\"", "):\\n", "\\n\\n", "###", "Function", "After", "(", "!\"", "):\\n", "###", "Function", "Before", "(", "!!", "):\\n", "\\n\\n", "###", "Function", "After", "(", "!!", "):\\n", "\\n\\n", "Below", "is", "a", "patch", "(including", "function", "before", "and", "function", "after)", "from", "!!", ",", "paired", "with", "a", "corresponding", "function", "before", "from", "!\"", ".", "Adapt", "the", "patch", "from", "!!", "to", "!\"", "by", "generating", "the", "function", "after", "based", "on", "the", "given", "function", "before.\\n\\n", "(b)", "Prompt", "template", "for", "finetuning", "(a)", "Prompt", "template", "for", "patch", "porting", "\"!", "#", "%,", "?", "\"", "#", "$", "!", "Instruction", "(\")", "###", "Function", "Before", "(", "!", "):\\n", "\\n\\n", "###", "Function", "After", "(", "!", "):\\n", "###", "Commit", "Message:\\n", "\\n\\n", "Below", "is", "a", "commit", "message,", "paired", "with", "a", "corresponding", "function", "before", "from", "!", ".", "Apply", "the", "patch", "according", "to", "the", "commit", "message", "by", "generating", "the", "function", "after", "based", "on", "the", "given", "function", "before.\\n\\n"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 269.28,
+    "y1": 234.72,
+    "y2": 434.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Figure6-1.png"
+}, {
+  "caption": "Table 4: Case study of porting multi-function change patches",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2051391601562,
+    "y1": 192.68682861328125,
+    "y2": 194.76702880859375
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "-", "-", "1.7/2.9", "18.8", "(60.2)", "0.22", "1", "The", "Accuracy", "for", "each", "CVE", "fix", "is", "presented", "in", "the", "form", "of", "{#correctly", "patched", "func-", "tions}/{#total", "functions", "changed", "by", "the", "patch}.", "CVE-2022-1725", "b62dc5e", "ddd69a6", "3/3", "0", "(62)", "0", "CVE-2022-1897", "338f1fc", "df4c634", "4/5", "3", "(110)", "0.03", "CVE-2022-1942", "71223e2", "0612101", "2/4", "13", "(69)", "0.19", "CVE-2022-2522", "5fa9f23", "8e67af1", "2/4", "4", "(50)", "0.08", "CVE-2022-2598", "4e677b9", "88ed332", "1/2", "4", "(36)", "0.11", "CVE-2022-3016", "6d24a51", "f72ae45", "3/3", "0", "(25)", "0", "CVE-2022-3296", "96b9bf8", "0cb9011", "0/2", "121", "(147)", "0.82", "CVE-2022-3324", "8279af5", "cd9ca70", "2/2", "0", "(18)", "0", "CVE-2022-3352", "ef97632", "6bc2d6b", "0/2", "10", "(40)", "0.25", "CVE-2023-2426", "caf642c", "ab7dcef", "0/2", "33", "(45)", "0.73", "CVE", "ID", "Vim", "Patch", "Neovim", "Patch", "Accuracy1", "AED", "(Origin)", "RED"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 199.68,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Table4-1.png"
+}, {
+  "caption": "Table 5: Patch porting performance of other hard fork pairs",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1996459960938,
+    "y1": 352.5357971191406,
+    "y2": 354.6159973144531
+  },
+  "figType": "Table",
+  "imageText": ["FreeBSD-OpenBSD", "FixMorph", "1/7", "(14.3%)", "16.29", "(18.14)", "0.85", "PPatHF", "5/7", "(71.4%)", "8.0", "(18.14)", "0.17", "Cpython-Cinder", "FixMorph", "1/13", "(7.7%)", "27.85", "(35.77)", "0.77", "PPatHF", "8/13", "(61.5%)", "9.46", "(35.77)", "0.19", "Hard", "Fork", "Pair", "Approach", "Accuracy", "AED", "(Origin)", "RED"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 544.3199999999999,
+    "y1": 359.52,
+    "y2": 416.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Table5-1.png"
+}, {
+  "caption": "Table 3: Comparisons of PPatHF with variant PPatHF-f",
+  "captionBoundary": {
+    "x1": 59.31399917602539,
+    "x2": 288.23382568359375,
+    "y1": 192.68682861328125,
+    "y2": 194.76702880859375
+  },
+  "figType": "Table",
+  "imageText": ["PPatHF", "131", "(45.2%)", "10.51", "0.39", "290", "115", "(39.7%)", "10.35", "0.46", "8k", "PPatHF-f", "PPatHF", "111", "(45.9%)", "9.34", "0.37", "242", "99", "(40.9%)", "9.48", "0.47", "4k", "PPatHF-f", "PPatHF", "72", "(48.0%)", "7.07", "0.37", "150", "64", "(42.7%)", "7.83", "0.50", "2k", "PPatHF-f", "Length", "Approach", "Complete", "Accuracy", "AED", "RED"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 272.15999999999997,
+    "y1": 197.76,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Table3-1.png"
+}, {
+  "caption": "Table 2: Comparisons of PPatHF with variant PPatHF-r",
+  "captionBoundary": {
+    "x1": 191.2259979248047,
+    "x2": 420.47760009765625,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["PPatHF", "290", "(93.5%)", "131", "(42.3%)", "11.98", "0.43", "117", "10.88", "0.38", "35", "14", "7.83", "0.45", "255", "115", "11.95", "0.46", "0", "0", "21.63", "1.00", "8k", "PPatHF-r", "255", "(82.3%)", "115", "(37.1%)", "14.42", "0.56", "PPatHF", "242", "(78.1%)", "111", "(35.8%)", "14.45", "0.51", "80", "10.51", "0.43", "57", "31", "5.54", "0.20", "185", "79", "11.52", "0.51", "0", "0", "23.58", "1.00", "4k", "PPatHF-r", "185", "(59.7%)", "79", "(25.5%)", "18.37", "0.71", "PPatHF", "150", "(48.4%)", "72", "(23.2%)", "19.80", "0.70", "34", "8.22", "0.43", "68", "38", "5.68", "0.30", "82", "34", "7.95", "0.44", "0", "0", "19.50", "1.00", "2k", "PPatHF-r", "82", "(26.5%)", "34", "(11.0%)", "22.76", "0.85", "Complete", "Accuracy", "AED", "RED", "Complete", "Accuracy", "AED", "RED", "Complete", "Accuracy", "AED", "RED", "Overall", "Share", "Unique", "Length", "Approach"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 528.0,
+    "y1": 94.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Table2-1.png"
+}, {
+  "caption": "Figure 1: An example of patch porting in Vim-Neovim.",
+  "captionBoundary": {
+    "x1": 63.10200119018555,
+    "x2": 284.742431640625,
+    "y1": 433.47479248046875,
+    "y2": 435.55499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["…", "if", "(!error", "&&", "strval", "!=", "NULL)", "{", "set_option_value(varname,", "numval,", "strval,", "OPT_LOCAL);", "}", "strval", "=", "tv_get_string_buf_chk(varp,", "nbuf);-", "}", "else", "{", "numval", "=", "(long)tv_get_number_chk(varp,", "&error);", "strval", "=", "tv_get_string_buf_chk(varp,", "nbuf);+", "numval", "=", "(long)varp->vval.v_number;", "strval", "=", "\"0\";", "//", "avoid", "using", "\"false\"+", "…", "const", "char", "*strval;", "bool", "error", "=", "false;", "char", "nbuf[NUMBUFLEN];", "if", "(varp->v_type", "==", "VAR_BOOL)", "{", "…", "if", "(!error", "&&", "strval", "!=", "NULL)", "set_option_value(varname,", "numval,", "strval,", "OPT_LOCAL);", "…", "char_u", "*strval;", "char_u", "nbuf[NUMBUFLEN];", "int", "error", "=", "FALSE;", "if", "(varp->v_type", "==", "VAR_BOOL)", "{+", "numval", "=", "(long)varp->vval.v_number;", "else", "if", "(!in_vim9script()", "||", "varp->v_type", "!=", "VAR_STRING)-", "numval", "=", "(long)tv_get_number_chk(varp,", "&error);-", "strval", "=", "tv_get_string_buf_chk(varp,", "nbuf);-", "strval", "=", "(char_u", "*)\"0\";", "//", "avoid", "using", "\"false\"+", "}+", "else+", "{+", "if", "(!in_vim9script()", "||", "varp->v_type", "!=", "VAR_STRING)+", "numval", "=", "(long)tv_get_number_chk(varp,", "&error);+", "strval", "=", "tv_get_string_buf_chk(varp,", "nbuf);+", "}+", "eval/vars.c,", "static", "void", "set_option_from_tv(const", "char", "*varname,", "typval_T", "*varp)", "Project:", "Neovim", "Commit", "Message:", "vim-patch:8.2.2285:", "…", "Commit", "Date:", "Jul", "25,", "2022", "evalvars.c,", "static", "void", "set_option_from_tv(char_u", "*varname,", "typval_T", "*varp)", "Project:", "Vim", "Commit", "Message:", "patch", "8.2.2285:", "Vim9:", "cannot", "set", "an", "option", "to", "a", "false.", "Problem:", "Vim9:", "cannot", "set", "an", "option", "to", "a", "false.", "Solution:", "For", "VAR_BOOL", "use", "string", "\"0\".", "(closes", "#7603)", "Commit", "Date:", "Jan", "3,", "2021"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 281.28,
+    "y1": 83.52,
+    "y2": 423.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Distribution of ported patches over the years",
+  "captionBoundary": {
+    "x1": 64.3030014038086,
+    "x2": 283.5404968261719,
+    "y1": 190.95477294921875,
+    "y2": 193.03497314453125
+  },
+  "figType": "Figure",
+  "imageText": ["repo", "Vim", "Neovim", "tc", "h", "#p", "or", "te", "d_", "pa", "1400", "1200", "1000", "800", "600", "400", "200", "0", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "year"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 268.32,
+    "y1": 84.0,
+    "y2": 180.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Figure2-1.png"
+}, {
+  "caption": "Figure 3: ECDF plot of delta days of patch porting",
+  "captionBoundary": {
+    "x1": 337.6419982910156,
+    "x2": 538.5164184570312,
+    "y1": 155.45477294921875,
+    "y2": 157.53497314453125
+  },
+  "figType": "Figure",
+  "imageText": ["tio", "n", "tri", "bu", "D", "is", "iv", "e", "ul", "at", "C", "um", "30", "180", "365", "3622", "Delta", "Days", "(in", "log−scale)", "100%", "74.5%", "30.5%", "50.7%"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 341.28,
+    "x2": 533.28,
+    "y1": 84.0,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Overview of PPatHF",
+  "captionBoundary": {
+    "x1": 112.56500244140625,
+    "x2": 235.27809143066406,
+    "y1": 222.38580322265625,
+    "y2": 224.46600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["Reduction", "Module", "Recover", "Porting", "Module", "𝒇𝒇\"𝒇𝒇\"", "Reduce", "Intersect", "Mapping", "Removable", "Code", "Segments", "Code", "Segments", "Involve", "No", "Diff", "Lines", "𝒇𝒔", "𝒇𝒔\"", "𝒇𝒇", "𝒇𝒔", "𝒇𝒔\"", "𝒇𝒇"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 276.48,
+    "y1": 83.52,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652134-Figure4-1.png"
+}]

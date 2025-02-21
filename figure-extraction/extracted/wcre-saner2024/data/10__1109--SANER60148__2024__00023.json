@@ -1,0 +1,161 @@
+[{
+  "caption": "Fig. 4: Dependency analysis of CR1, CR3 and their CREs",
+  "captionBoundary": {
+    "x1": 54.54899978637695,
+    "x2": 294.4383850097656,
+    "y1": 307.2015380859375,
+    "y2": 313.2040100097656
+  },
+  "figType": "Figure",
+  "imageText": ["2", "2", "CRE7", "CR3", "(2:turnOrStop)", "CRE6", "CR3", "(1:turnOrStop)", "CRE5", "CR3", "(2:grabOrRelease)", "CRE4", "CR3", "(1:grabOrRelease)", "CRE3", "CR1", "(ControlUnit)", "CRE2", "CR1", "(Turntable)", "ng", "e", "r", "C", "ha", "Af", "te", "CRE1", "CR1", "(RobotArm)", "Dependency", "Consistent", "CRE", "Inconsistent", "CRE", "Legend", "CRE7", "CR3", "(2:turnOrStop)", "CRE6", "CR3", "(1:turnOrStop)", "CRE5", "CR3", "(2:grabOrRelease)", "CRE4", "CR3", "(1:grabOrRelease)", "CRE3", "CR1", "(ControlUnit)", "CRE2", "CR1", "(Turntable)", "context:", "Message", "CR3", "context:", "Class", "CR1", "e", "ha", "ng", "re", "C", "Be", "fo", "CRE1", "CR1", "(RobotArm)"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 268.32,
+    "y1": 50.879999999999995,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-Figure4-1.png"
+}, {
+  "caption": "TABLE I: UML models sorted by size. The bar plots represent the percentage of the dependencies found. Time represents the average time (ms) to detect a dependency.",
+  "captionBoundary": {
+    "x1": 311.9779968261719,
+    "x2": 563.0355224609375,
+    "y1": 49.32156753540039,
+    "y2": 79.23406982421875
+  },
+  "figType": "Table",
+  "imageText": ["Dep.", "Type", "Min", "Median.", "Max", "Avg", "Std.", "CREs", "31.90", "68.30", "98.00", "66.61", "13.21", "Inc.", "0.00", "56.05", "97.90", "46.38", "36.10", "Overall", "Results", "for", "the", "Dependencies", "Percentage", "1", "9823", "14510", "9203", "4053", "1058", "10.35", "2", "8757", "7772", "4836", "2355", "691", "4.56", "3", "8074", "9473", "6445", "3554", "1285", "5.49", "4", "5754", "8990", "7441", "3448", "2751", "4.90", "5", "4231", "2228", "1389", "534", "63", "1.25", "6", "3428", "1748", "1101", "484", "141", "0.97", "7", "3216", "3168", "2173", "932", "500", "1.74", "8", "2704", "3228", "2597", "1708", "1410", "1.76", "9", "2628", "2935", "1778", "776", "204", "1.65", "10", "2508", "3929", "2733", "1214", "825", "2.25", "11", "2445", "393", "257", "39", "0", "0.58", "12", "2245", "3502", "2575", "1121", "692", "2.08", "13", "2059", "2943", "2337", "1036", "778", "1.64", "14", "1970", "2358", "1385", "546", "111", "1.29", "15", "1949", "3549", "2516", "1076", "549", "2.10", "16", "1935", "1087", "654", "362", "102", "0.65", "17", "1781", "1559", "924", "213", "98", "0.76", "18", "1706", "2163", "1223", "444", "64", "1.28", "19", "1441", "2225", "1665", "695", "503", "1.32", "20", "1437", "2106", "1693", "648", "523", "1.12", "21", "1211", "1701", "1315", "602", "418", "0.94", "22", "1086", "1632", "1269", "608", "441", "0.93", "23", "1032", "1921", "1580", "1031", "877", "1.11", "24", "1029", "1281", "817", "290", "180", "0.65", "25", "801", "853", "594", "427", "291", "0.68", "26", "728", "685", "308", "153", "5", "0.63", "27", "617", "1206", "950", "595", "493", "0.66", "28", "575", "739", "513", "262", "194", "0.59", "29", "560", "590", "319", "171", "53", "0.64", "30", "536", "480", "296", "101", "0", "0.78", "31", "516", "851", "703", "447", "363", "0.61", "32", "452", "653", "459", "256", "178", "0.66", "33", "446", "625", "489", "319", "249", "0.62", "34", "427", "376", "180", "72", "10", "0.76", "35", "425", "600", "520", "276", "220", "0.75", "36", "382", "567", "399", "232", "149", "0.61", "37", "370", "552", "283", "108", "7", "0.61", "38", "254", "329", "258", "143", "118", "0.73", "39", "248", "267", "119", "26", "0", "0.70", "40", "206", "372", "282", "163", "119", "0.67", "41", "202", "354", "227", "65", "38", "0.89", "42", "189", "448", "439", "291", "285", "0.66", "43", "125", "96", "43", "14", "0", "0.55", "44", "103", "172", "88", "35", "1", "0.62", "45", "96", "94", "30", "8", "0", "0.62", "46", "96", "100", "50", "13", "0", "0.62", "47", "88", "155", "120", "70", "54", "0.55", "48", "79", "106", "57", "23", "0", "0.65", "Id", "Size", "#CREs", "#CRE", "w/", "Dep.", "#Inc.", "#Inc.", "w/", "Dep.", "Time"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 557.28,
+    "y1": 88.32,
+    "y2": 620.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-TableI-1.png"
+}, {
+  "caption": "Fig. 1: Inconsistencies created due to changes in UML diagrams of a Robotic Arm",
+  "captionBoundary": {
+    "x1": 48.9640007019043,
+    "x2": 300.0215148925781,
+    "y1": 498.5315246582031,
+    "y2": 516.489013671875
+  },
+  "figType": "Figure",
+  "imageText": ["CR3", "CR4", "CR2", "1t1[turn]", "t2[stop]", "Inconsistency", "created", "Change", "X", "2", "+", "grab()", "+", "release()", "t2[turnOrStop]", "2:", "turnOrStop()", "3:", "turnOrStop()", "t:Turntable", "+", "grabOrRelease()", "+", "grabOrRelease()", "RobotArm", "turning", "t1[turnOrStop]", "idle", "+", "turnOrStop()", "Turntable", "-", "ControlUnit", "c:ControlUnit", "r:RobotArm", "4:", "grabOrRelease()", "1:", "grabOrRelease()", "Seq.:", "Grabbing", "and", "releasing", "an", "object", "Class:", "A", "robotic", "arm", "State:", "the", "t:Turntable", "object", "Legend"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 275.03999999999996,
+    "y1": 202.56,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-Figure1-1.png"
+}, {
+  "caption": "Fig. 5: Results related to the size of groups of dependency",
+  "captionBoundary": {
+    "x1": 53.7869987487793,
+    "x2": 295.2006530761719,
+    "y1": 210.41055297851562,
+    "y2": 216.41302490234375
+  },
+  "figType": "Figure",
+  "imageText": ["Group", "type", "Only", "Consistent", "CREs", "At", "least", "one", "inconsistency", "Only", "inconsistencies", "25", "30", "Av", "er", "ag", "e", "Gr", "ou", "p", "Si", "ze", "20", "15", "10", "5", "0", "2000", "4000", "6000", "8000", "10000", "Model's", "Size", "(number", "of", "model", "elements)"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 272.15999999999997,
+    "y1": 52.8,
+    "y2": 198.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-Figure5-1.png"
+}, {
+  "caption": "TABLE II: Repair results grouped by CR",
+  "captionBoundary": {
+    "x1": 352.52099609375,
+    "x2": 522.4928588867188,
+    "y1": 49.32156753540039,
+    "y2": 55.32403564453125
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "55.40", "15.79", "14.57", "9.86", "32.15", "10.97", "21.58", "8.21", "01", "12.98", "7.35", "7.53", "3.89", "4.93", "5.54", "4.33", "3.51", "02", "11.00", "0", "1.74", "1.9", "4.71", "1.06", "4.71", "1.06", "03", "9.00", "0", "7.04", "1.32", "6.16", "3.07", "2.98", "1.5", "09", "21.00", "0", "1.70", "2", "8.89", "2.65", "8.89", "2.65", "10", "12.07", "6.78", "6.18", "3.03", "7.32", "3.84", "4.71", "4.05", "11", "12.31", "5.71", "4.92", "3.5", "5.45", "4.21", "4.96", "3.7", "16", "8.06", "0.72", "6.95", "0.7", "2.05", "0.68", "2.04", "0.46", "20", "11.00", "0", "1.74", "1.9", "4.71", "1.06", "4.71", "1.06", "22", "357.25", "68.24", "69.36", "46.22", "209.69", "50.56", "140.40", "33.25", "23", "109.23", "64.15", "13.31", "19.91", "56.78", "26.42", "46.60", "29.75", "24", "45.53", "20.71", "39.82", "24.12", "43.00", "21.58", "13.01", "9.31", "Avg.", "Std.", "Avg.", "Std.", "Avg.", "Std.", "Avg.", "Std.", "CRs", "Repairs", "Overlaps", "Conflicts", "Shared", "Loc."],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 558.24,
+    "y1": 64.8,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-TableII-1.png"
+}, {
+  "caption": "Fig. 6: Summary of results about repairs overlapping, conflicting and fixed locations from inconsistency groups.",
+  "captionBoundary": {
+    "x1": 311.9779968261719,
+    "x2": 563.0355224609375,
+    "y1": 381.4835205078125,
+    "y2": 399.44097900390625
+  },
+  "figType": "Figure",
+  "imageText": ["(x)", "Repairs", "Overlaps", "Conflicts", "Shared", "locations", "f", "(", "x)", "be", "r", "o", "nu", "m", "ag", "e", "Av", "er", "140", "120", "100", "80", "60", "40", "20", "0", "3", "5", "10", "15", "20", "25", "30", "Number", "of", "dependencies"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 535.1999999999999,
+    "y1": 224.64,
+    "y2": 370.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-Figure6-1.png"
+}, {
+  "caption": "Fig. 2: Metamodel used by the approach",
+  "captionBoundary": {
+    "x1": 91.12100219726562,
+    "x2": 257.8650207519531,
+    "y1": 184.95352172851562,
+    "y2": 190.95599365234375
+  },
+  "figType": "Figure",
+  "imageText": ["1..*", "0..*", "0..*", "dependencies", "0..*", "1..*", "1", "PropertyType", "1..*", "11..*0..*", "Value", "Property", "context", "1", "0..*", "1", "0..*", "ModelElement", "Type", "0..*", "0..*", "result:", "Boolean", "Evaluation", "scope", "ConsistencyRule", "0..*", "dependencies", "0..*", "ModelElement", "Consistency", "Rule"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 261.12,
+    "y1": 50.879999999999995,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: CRE tree created by applying CR1 to class RobotArm",
+  "captionBoundary": {
+    "x1": 311.9779968261719,
+    "x2": 563.0363159179688,
+    "y1": 185.54550170898438,
+    "y2": 191.5479736328125
+  },
+  "figType": "Figure",
+  "imageText": ["CR1", "(RobotArm)", "result", "=", "true", "result", "=", "false", "op1", "<>", "op2", "op1.name", "<>", "op2.name", "grabOrRelease()¹", "grabOrRelease()²", "<>", "grabOrRelease()¹", "grabOrRelease()²", "implies", "<>", "forAll", "self.ownedOperation", "CRE", "1", "Legend"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 537.6,
+    "y1": 50.879999999999995,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00023-Figure3-1.png"
+}]

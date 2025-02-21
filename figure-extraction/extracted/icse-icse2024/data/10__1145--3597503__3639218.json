@@ -1,0 +1,341 @@
+[{
+  "caption": "Table 4: 12 vulnerabilities in the NVD with incorrect CWE IDs identified by the present study",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1900024414062,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["No.", "CVE", "ID", "CWE", "ID", "in", "the", "NVD", "Correct", "CWE", "ID", "1", "CVE-2009-1897", "CWE-119", "CWE-476", "2", "CVE-2009-2767", "CWE-119", "CWE-476", "3", "CVE-2009-1298", "CWE-119", "CWE-476", "4", "CVE-2014-0205", "CWE-119", "CWE-416", "5", "CVE-2015-4002", "CWE-119", "CWE-835", "6", "CVE-2019-13295", "CWE-125", "CWE-369", "7", "CVE-2019-13297", "CWE-125", "CWE-369", "8", "CVE-2009-4307", "CWE-189", "CWE-369", "9", "CVE-2013-6367", "CWE-189", "CWE-369", "10", "CVE-2015-4003", "CWE-189", "CWE-369", "11", "CVE-2016-2070", "CWE-189", "CWE-369", "12", "CVE-2018-5816", "CWE-190", "CWE-369"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 528.0,
+    "y1": 105.6,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table4-1.png"
+}, {
+  "caption": "Table 11: Effectiveness comparison on the caller and callee test sets of inter-procedural vulnerabilities (unit: %)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.19384765625,
+    "y1": 145.83035278320312,
+    "y2": 162.41900634765625
+  },
+  "figType": "Table",
+  "imageText": ["LineVul", "Caller", "83.8", "39.8", "25.0", "15.1", "24.1", "Callee", "69.1", "20.8", "41.9", "25.3", "38.4", "Devign", "Caller", "80.7", "9.8", "33.9", "22.6", "36.1", "Callee", "86.4", "8.3", "34.4", "27.9", "42.7", "ReVeal", "Caller", "82.4", "20.6", "30.4", "20.1", "32.1", "Callee", "74.2", "33.3", "36.7", "24.6", "36.0", "VulCNN", "Caller", "74.7", "25.8", "35.4", "20.6", "32.2", "Callee", "70.8", "26.1", "40.0", "25.0", "37.4", "VulBERTa", "Caller", "80.3", "30.1", "29.6", "17.7", "28.3", "Callee", "65.4", "33.3", "41.9", "23.2", "34.4", "LineVul", "Caller", "75.7", "16.1", "48.8", "43.7", "57.5", "Callee", "73.0", "30.9", "43.8", "38.7", "49.6", "Devign", "Caller", "83.3", "21.4", "42.0", "39.5", "52.6", "Callee", "89.1", "14.3", "40.0", "38.0", "52.6", "ReVeal", "Caller", "76.0", "19.2", "47.3", "42.5", "55.7", "Callee", "58.2", "31.4", "52.2", "42.9", "52.8", "VulCNN", "Caller", "74.1", "24.6", "46.1", "41.2", "53.3", "Callee", "71.9", "28.9", "45.3", "39.7", "50.9", "Detecting", "vulnerability-triggering", "functions", "VulBERTa", "Caller", "77.2", "20.2", "46.3", "42.0", "55.0", "Callee", "69.8", "40.5", "41.9", "36.2", "45.1", "Method", "Test", "set", "FPR", "FNR", "Accuracy", "Precision", "F1", "Detecting", "to-be-patched", "functions"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 534.24,
+    "y1": 165.6,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table11-1.png"
+}, {
+  "caption": "Table 8: Average number of layers of different types of inter-procedural vulnerabilities for 16 CWEs",
+  "captionBoundary": {
+    "x1": 103.39199829101562,
+    "x2": 508.29632568359375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["All", "2.8", "2.3", "2.4", "3.5", "2.7", "3.2", "3.0", "4.0", "3.0", "3.0", "-", "-", "2.3", "2.6", "3.0", "5.2", "2.8", "Caller", "type", "2.7", "2.2", "2.3", "3.0", "2.6", "3.2", "-", "3.3", "2.0", "-", "-", "-", "2.0", "2.5", "2.7", "2.7", "2.6", "Callee", "type", "3.3", "2.6", "2.6", "4.0", "3.0", "-", "3.0", "6.0", "4.0", "3.0", "-", "-", "3.0", "3.0", "3.9", "7.7", "3.5", "Type", "CWE", "ID", "119", "125", "787", "120", "189", "190", "191", "617", "22", "835", "772", "401", "415", "416", "476", "369", "All"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 114.72,
+    "x2": 495.35999999999996,
+    "y1": 94.56,
+    "y2": 135.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table8-1.png"
+}, {
+  "caption": "Table 9: Effectiveness comparison via InterPVD (unit: %)",
+  "captionBoundary": {
+    "x1": 60.0890007019043,
+    "x2": 287.44873046875,
+    "y1": 145.83035278320312,
+    "y2": 151.46099853515625
+  },
+  "figType": "Table",
+  "imageText": ["Detecting", "to-be-patched", "functions", "VulBERTa", "80.1", "20.0", "47.7", "46.2", "58.6", "LineVul", "77.8", "20.0", "48.9", "46.9", "59.1", "Devign", "81.8", "20.0", "46.5", "45.3", "57.8", "ReVeal", "76.0", "20.0", "49.7", "47.1", "59.3", "VulCNN", "80.3", "20.0", "47.2", "45.6", "58.1", "Detecting", "vulnerability-triggering", "functions", "VulBERTa", "79.9", "20.0", "35.2", "25.3", "38.5", "LineVul", "78.5", "20.0", "36.3", "25.6", "38.8", "Devign", "82.3", "20.0", "35.1", "27.3", "40.7", "ReVeal", "82.3", "20.0", "35.1", "27.3", "40.7", "VulCNN", "80.6", "20.0", "36.0", "27.3", "40.7", "Method", "FPR", "FNR", "Accuracy", "Precision", "F1"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 255.35999999999999,
+    "y1": 154.56,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table9-1.png"
+}, {
+  "caption": "Table 10: Effectiveness of five detectors via inter-procedural and intra-procedural vulnerability test sets (unit: %)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03173828125,
+    "y1": 260.7893371582031,
+    "y2": 277.3790283203125
+  },
+  "figType": "Table",
+  "imageText": ["LineVul", "Inter-procedural", "81.2", "35.9", "28.1", "16.8", "26.6", "Intra-procedural", "77.4", "15.8", "39.3", "28.8", "42.9", "Devign", "Inter-procedural", "81.6", "9.5", "34.0", "23.5", "37.3", "Intra-procedural", "82.6", "23.0", "35.5", "28.9", "42.1", "ReVeal", "Inter-procedural", "81.1", "23.3", "31.5", "20.8", "32.7", "Intra-procedural", "82.9", "18.9", "36.6", "29.9", "43.7", "VulCNN", "Inter-procedural", "74.1", "25.9", "36.2", "21.3", "33.1", "Intra-procedural", "83.7", "18.2", "35.9", "29.5", "43.4", "VulBERTa", "Inter-procedural", "77.7", "30.8", "31.9", "18.6", "29.3", "Intra-procedural", "80.9", "17.0", "36.5", "27.7", "41.5", "Detecting", "vulnerability-triggering", "functions", "LineVul", "Inter-procedural", "75.2", "18.7", "47.9", "42.8", "56.1", "Intra-procedural", "78.9", "20.4", "49.3", "48.4", "60.2", "Devign", "Inter-procedural", "84.3", "20.3", "41.7", "39.2", "52.6", "Intra-procedural", "80.7", "19.9", "48.5", "47.9", "59.9", "ReVeal", "Inter-procedural", "72.9", "21.2", "48.1", "42.5", "55.3", "Intra-procedural", "77.5", "19.6", "50.3", "49.0", "60.9", "VulCNN", "Inter-procedural", "73.7", "25.3", "46.0", "40.9", "52.9", "Intra-procedural", "83.6", "18.1", "47.8", "47.4", "60.0", "VulBERTa", "Inter-procedural", "75.8", "23.8", "45.5", "41.1", "53.4", "Intra-procedural", "81.9", "18.8", "48.5", "47.9", "60.3", "Method", "Test", "set", "FPR", "FNR", "Accuracy", "Precision", "F1", "Detecting", "to-be-patched", "functions"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 280.32,
+    "y1": 280.8,
+    "y2": 448.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table10-1.png"
+}, {
+  "caption": "Figure 1: An example of inter-procedural vulnerability (CVE-2015-8662) with to-be-patched function ff_dwt_decode, vulnerability-triggering function dwt_decode53, and vulnerability-triggering statement (Line 329)",
+  "captionBoundary": {
+    "x1": 53.52000045776367,
+    "x2": 295.1389465332031,
+    "y1": 277.568359375,
+    "y2": 316.07598876953125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Two", "functions", "related", "to", "CVE-2015-8662", "326", "static", "void", "dwt_decode53(DWTContext", "*s,", "int", "*t)", "327", "{", "328", "int", "lev;", "329", "int", "w", "=", "s->linelen[s->ndeclevels", "-", "1][0];", "330", "int32_t", "*line", "=", "s->i_linebuf;", "...", "373", "}", "...", "596", "int", "ff_dwt_decode", "(DWTContext", "*s,", "void", "*t)", "597", "{", "598", "switch", "(s->type)", "{", "599", "case", "FF_DWT97:", "...", "605", "case", "FF_DWT53:", "606", "dwt_decode53", "(s,", "t);", "607", "break;", "...", "610", "}", "611", "return", "0;", "612", "}", "(b)", "Diff", "file", "of", "CVE-2015-8662", "@@", "-595,6", "+595,9", "@@", "int", "ff_dwt_encode(DWTContext", "*s,", "void", "*t)", "int", "ff_dwt_decode", "(DWTContext", "*s,", "void", "*t)", "{", "+", "if", "(s->ndeclevels", "==", "0)", "+", "return", "0;", "+", "switch", "(s->type)", "{", "case", "FF_DWT97:", "dwt_decode97_float(s,", "t);"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 257.28,
+    "y1": 78.72,
+    "y2": 271.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Figure1-1.png"
+}, {
+  "caption": "Table 3: Types of vulnerability-triggering statements",
+  "captionBoundary": {
+    "x1": 331.1099853515625,
+    "x2": 544.742919921875,
+    "y1": 249.29037475585938,
+    "y2": 254.9210205078125
+  },
+  "figType": "Table",
+  "imageText": ["No.", "Description", "T-1", "API", "or", "system", "call-related", "function", "call", "(e.g.,", "memcpy,", "alloc,", "memset)", "that", "may", "trigger", "out-of-bounds", "access", "or", "memory", "errors", "T-2", "Out-of-bounds", "array", "access", "T-3", "Out-of-bounds", "pointer", "access", "T-4", "Integer", "overflow", "or", "underflow", "caused", "by", "integer", "addition,", "subtraction", "and", "multiplica-", "tion", "T-5", "Assertion", "function", "calls", "(e.g.,", "assert", "and", "BUG)", "T-6", "Path", "access-related", "API/system", "calls", "(e.g.,", "open,", "read,", "path_copy,", "and", "mkdir)", "T-7", "Loop", "condition", "of", "for,", "while,", "and", "do", "while", "T-8", "goto", "statement", "T-9", "Recursive", "function", "call", "T-10", "return", "statement", "T-11", "The", "last", "statement", "of", "the", "to-be-patched", "function", "in", "the", "absence", "of", "the", "return", "statement", "T-12", "Function", "calls", "related", "to", "free,", "delete,", "destroy,", "and", "unregister", "T-13", "The", "first", "usage", "of", "a", "critical", "variable", "when", "there", "are", "no", "function", "calls", "related", "to", "free,", "delete,", "destroy,", "and", "unregister", "T-14", "The", "first", "usage", "of", "a", "member", "of", "a", "critical", "variable,", "which", "is", "a", "struct", "type", "without", "initialization", "T-15", "API", "or", "system", "call-related", "memory", "allocation", "function", "calls", "(e.g.,", "memcpy", "and", "alloc)", "when", "the", "critical", "variable", "is", "not", "a", "variable", "of", "struct", "type", "and", "its", "value", "is", "NULL", "or", "not", "assigned", "T-16", "The", "uninitialized", "function", "is", "called,", "mainly", "in", "the", "case", "of", "function", "pointers", "T-17", "Division-by-zero", "such", "as", "/𝑐", "and", "%𝑐", "where", "𝑐", "is", "a", "critical", "variable", "T-18", "API", "or", "system", "call", "related", "to", "alloc", "T-19", "The", "usage", "of", "macro", "definition", "related", "to", "division"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 258.71999999999997,
+    "y2": 449.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table3-1.png"
+}, {
+  "caption": "Table 1: Types of patch statements",
+  "captionBoundary": {
+    "x1": 104.08300018310547,
+    "x2": 243.45944213867188,
+    "y1": 328.88934326171875,
+    "y2": 334.5199890136719
+  },
+  "figType": "Table",
+  "imageText": ["No.", "Description", "P-1", "Add/delete", "variable", "assignments", "P-2", "Modify", "variable", "assignments", "P-3", "Add/delete", "function", "calls", "P-4", "Modify", "function", "calls", "P-5", "Add/delete", "variable", "definitions", "P-6", "Modify", "variable", "definitions", "P-7", "Add/delete", "function", "definitions", "P-8", "Modify", "function", "definitions", "P-9", "Add/delete", "control", "statements", "P-10", "Modify", "control", "statements", "P-11", "Others"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 109.92,
+    "x2": 237.12,
+    "y1": 337.91999999999996,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table1-1.png"
+}, {
+  "caption": "Table 2: Vulnerability types and their corresponding types of vulnerability-triggering statements",
+  "captionBoundary": {
+    "x1": 317.6591491699219,
+    "x2": 558.190185546875,
+    "y1": 80.05734252929688,
+    "y2": 96.64697265625
+  },
+  "figType": "Table",
+  "imageText": ["NULL", "pointer", "dereference", "CWE-476", "T-14,", "T-15,", "T-16", "Division-by-zero", "CWE-369", "T-17,", "T-18,", "T-19", "Double-free", "CWE-415", "T-12", "Use-after-free", "CWE-416", "T-12,", "T-13", "Missing", "release", "of", "resources", "CWE-772", "T-10,", "T-11", "CWE-401", "T-10,", "T-11", "Reachable", "assertion", "CWE-617", "T-5", "Path", "traversal", "CWE-22", "T-6", "Infinite", "loop", "CWE-835", "T-7,", "T-8,", "T-9", "Numeric", "error", "CWE-189", "T-1,", "T-2,", "T-3,", "T-4", "CWE-190", "T-1,", "T-2,", "T-3,", "T-4", "CWE-191", "T-1,", "T-2,", "T-3,", "T-4", "CWE-119", "T-1,", "T-2,", "T-3", "CWE-125", "T-1,", "T-2,", "T-3", "CWE-787", "T-1,", "T-2,", "T-3", "CWE-120", "T-1,", "T-2,", "T-3", "Buffer", "overflow", "vulnerability-triggering", "statements", "Vulnerability", "type", "CWE", "ID", "Types", "of"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 532.3199999999999,
+    "y1": 99.84,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table2-1.png"
+}, {
+  "caption": "Table 7: Comparing VulTrigger and the existing methods that have some capabilities in detecting inter-procedural vulnerabilities (unit: %)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1930541992188,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["VulTrigger", "3.2", "58.2", "86.8", "74.2", "53.5", "Method", "FPR", "FNR", "Accuracy", "Precision", "F1", "Patch-function", "[20,", "29,", "42]", "23.8", "90.9", "64.0", "7.8", "8.4"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 539.04,
+    "y1": 116.64,
+    "y2": 140.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table7-1.png"
+}, {
+  "caption": "Table 5: Comparing VulTrigger with two SAST tools which do not require program compilation based on 769 vulnerabilities",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03741455078125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Ground", "truth", "16", "100.0", "1.2", "Flawfinder", "[9]", "9", "9.8", "14.3", "Checkmarx", "[4]", "16", "12.7", "114.7", "VulTrigger", "16", "69.8", "2.3", "Method", "#Supported", "CWEs", "Accuracy", "(%)", "#Vulnerability-", "triggering", "statements"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 279.36,
+    "y1": 105.6,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table5-1.png"
+}, {
+  "caption": "Table 6: Comparing VulTrigger and five SAST tools based on 72 vulnerabilities",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0370788574219,
+    "y1": 159.74032592773438,
+    "y2": 176.33001708984375
+  },
+  "figType": "Table",
+  "imageText": ["Infer", "[16]", "Yes", "16", "2.5", "3.3", "CodeQL", "[5]", "Yes", "15", "8.6", "2.8", "Fortify", "[10]", "Yes", "13", "13.0", "31.8", "VulTrigger", "No", "16", "66.7", "1.2", "triggering", "statements", "Ground", "truth", "-", "16", "100.0", "1.1", "Flawfinder", "[9]", "No", "9", "5.9", "9.1", "Checkmarx", "[4]", "No", "16", "31.9", "275.2", "Method", "Compiling", "programs?", "#Supported", "CWEs", "Accuracy", "(%)", "#Vulnerability-"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 180.0,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Table6-1.png"
+}, {
+  "caption": "Figure 2: Diff files of vulnerabilities with vulnerabilitytriggering statements (highlighted in bold and italics)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63671875,
+    "y1": 265.7343444824219,
+    "y2": 282.3240051269531
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "CVE-2019-1010315", "(CWE-369,", "T-17)", "...", "@@", "-279,6", "+279,12", "@@", "int", "ParseDsdiffHeaderConfig", "(FILE", "*infile,", "char", "*infilename,", "char", "*fourcc,", "Wavpa", "...", "else", "if", "(!strncmp", "(dff_chunk_header.ckID,", "\"DSD", "\",", "4))", "{", "+", "+", "if", "(!config->num_channels)", "{", "+", "error_line", "(\"%s", "is", "not", "a", "valid", ".DFF", "file!\",", "infilename);", "+", "return", "WAVPACK_SOFT_ERROR;", "+", "}", "+", "total_samples", "=", "dff_chunk_header.ckDataSize/config->num_channels;", "break;", "...", "(a)", "CVE-2013-1929", "(CWE-119,", "T-1)", "@@", "-14604,8", "+14604,11", "@@", "static", "void", "tg3_read_vpd", "(struct", "tg3", "*tp)", "if", "(j", "+", "len", ">", "block_end)", "goto", "partno;", "-", "memcpy(tp->fw_ver,", "&vpd_data[j],", "len);", "-", "strncat(tp->fw_ver,", "\"", "bc", "\",", "vpdlen", "-", "len", "-", "1);", "+", "if", "(len", ">=", "sizeof(tp->fw_ver))", "+", "len", "=", "sizeof(tp->fw_ver)", "-", "1;", "+", "memset(tp->fw_ver,", "0,", "sizeof(tp->fw_ver));", "+", "snprintf(tp->fw_ver,", "sizeof(tp->fw_ver),", "\"%.*s", "bc", "\",", "len,", "+", "&vpd_data[j]);", "}", "..."],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 85.44,
+    "x2": 260.15999999999997,
+    "y1": 84.96,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Figure2-1.png"
+}, {
+  "caption": "Figure 7: Illustrating the proportion of different types of inter-procedural vulnerabilities corresponding to each CWE",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03643798828125,
+    "y1": 213.82034301757812,
+    "y2": 230.40997314453125
+  },
+  "figType": "Figure",
+  "imageText": ["C", "a", "l", "l", "e", "e", "t", "y", "p", "e", "C", "a", "l", "l", "e", "r", "t", "y", "p", "e", "C", "W", "E", "I", "D", "1", "0", "1", "5", "2", "0", "2", "5", "3", "0", "3", "5", "4", "0", "4", "5", "5", "0", "Pro", "po", "rtio", "n", "(", "%)", "0", "5", "C", "W", "E", "-", "1", "1", "9", "C", "W", "E", "-", "1", "2", "5", "C", "W", "E", "-", "7", "8", "7", "C", "W", "E", "-", "1", "2", "0", "C", "W", "E", "-", "1", "8", "9", "C", "W", "E", "-", "1", "9", "0", "C", "W", "E", "-", "1", "9", "1", "C", "W", "E", "-", "6", "1", "7", "C", "W", "E", "-", "2", "2", "C", "W", "E", "-", "8", "3", "5", "C", "W", "E", "-", "7", "7", "2", "C", "W", "E", "-", "4", "0", "1", "C", "W", "E", "-", "4", "1", "5", "C", "W", "E", "-", "4", "1", "6", "C", "W", "E", "-", "4", "7", "6", "C", "W", "E", "-", "3", "6", "9", "A", "l", "l"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 98.39999999999999,
+    "x2": 249.12,
+    "y1": 83.52,
+    "y2": 209.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Figure7-1.png"
+}, {
+  "caption": "Figure 4: An inter-procedural vulnerability of callee type corresponding to CVE-2018-10878 (CWE-787)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6502990722656,
+    "y1": 492.4243469238281,
+    "y2": 509.0140075683594
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "to-be-patched", "function", "is", "called", "by", "the", "vulnerability-triggering", "function", "(vulnerability-triggering", "Line", "4075)", "(a)", "Diff", "file", "of", "CVE-2018-10878", "3449", "int", "ext4_fill_super(struct", "super_block", "*sb,", "void", "*data,", "int", "silent)", "3450", "{", "...", "4041", "if(!ext4_check_descriptors(sb,", "logical_sb_block,", "&first_not_zeroed))", "{", "4042", "ext4_msg(sb,", "KERN_ERR,", "“group", "descriptors", "corrupted!”);", "4043", "ret", "=", "-EFSCORRUPTED;", "4044", "goto", "failed_mount2;", "4045", "}", "...", "4075", "memcpy(&sb->s_uuid,", "es->s_uuid,", "sizeof(es->s_uuid));", "4076", "4077", "INIT_LIST_HEAD(&sbi->s_orphan);", "...", "4479", "}", "@@", "-2348,6", "+2348,7", "@@", "static", "int", "ext4_check_descriptors(struct", "super_block", "*sb,", "...", "ext4_fsblk_t", "last_block;", "+", "ext4_fsblk_t", "last_bg_block", "=", "sb_block", "+", "ext4_bg_num_gdb(sb,", "0)", "+", "1;", "ext4_fsblk_t", "block_bitmap;", "...", "@@", "-2380,6", "+2381,14", "@@", "static", "int", "ext4_check_descriptors(struct", "super_block", "*sb,", "if", "(!sb_rdonly(sb))", "return", "0;", "}", "+", "if", "(block_bitmap", ">=", "sb_block", "+", "1", "&&", "+", "block_bitmap", "<=", "last_bg_block)", "{", "+", "ext4_msg(sb,", "KERN_ERR,", "\"ext4_check_descriptors:", "\"", "+", "\"Block", "bitmap", "for", "group", "%u", "overlaps", "\"", "+", "\"block", "group", "descriptors\",", "i);", "+", "if", "(!sb_rdonly(sb))", "+", "return", "0;", "+", "}", "if", "(block_bitmap", "<", "first_block", "||", "block_bitmap", ">", "last_block)", "{", "ext4_msg(sb,", "KERN_ERR,", "\"ext4_check_descriptors:", "\"", "..."],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 278.88,
+    "y1": 273.59999999999997,
+    "y2": 486.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Overview of VulTrigger",
+  "captionBoundary": {
+    "x1": 107.34600067138672,
+    "x2": 240.49105834960938,
+    "y1": 622.4533081054688,
+    "y2": 628.083984375
+  },
+  "figType": "Figure",
+  "imageText": ["OutputInput", "Step", "I:", "identifying", "critical", "variables", "triggering", "statements", "triggering", "statements", "Vulnerability-", "Step", "III:", "identifying", "vulnerability-", "Step", "II:", "generating", "program", "slices", "statements", "Characteristics", "of", "vulnerability-triggering", "corresponding", "CWE", "IDs", "Software", "repositories", "Vulnerability", "diff", "files", "and"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 268.8,
+    "y1": 519.36,
+    "y2": 616.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Figure5-1.png"
+}, {
+  "caption": "Figure 3: An inter-procedural vulnerability of caller type corresponding to CVE-2017-13000 (CWE-125)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0473327636719,
+    "y1": 242.41635131835938,
+    "y2": 259.0059814453125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "to-be-patched", "function", "indirectly", "calls", "the", "vulnerability-triggering", "function", "(vulnerability-triggering", "Line", "417)", "558", "const", "char", "*", "559", "le64addr_string(netdissect_", "options", "*ndo,", "const", "u_char", "*ep)", "560", "{", "...", "565", "char", "buf[BUFSIZE];", "566", "567", "tp=loopup_bytestring(ndo,", "ep,", "len);", "568", "if(tp->bs_name)", "569", "return", "(tp->bs_name);", "...", "586", "}", "393", "static", "inline", "struct", "bsnamemem", "*", "394", "lookup_bytestring(netdissect_options", "*ndo,", "395", "register", "const", "u_char", "*bs,", "const", "unsigned", "int", "nlen)", "396", "{", "...", "413", "if(nlen", "==", "tp->bs_nbytes", "&&", "414", "tp->bs_addr0", "==", "i", "&&", "415", "tp->bs_addr1", "==", "j", "&&", "416", "tp->bs_addr2", "==", "k", "&&", "417", "memcmp((const", "char", "*)bs,", "(const", "char", "*)", "(tp->bs_bytes),", "nlen)", "==", "0)", "418", "return", "tp;", "...", "437", "}", "@@", "-122,7", "+122,7", "@@", "ieee802_15_4_if_print(netdissect_options", "*ndo,", "return", "hdrlen;", "}", "if", "(ndo->ndo_vflag)", "-", "ND_PRINT((ndo,\"%04x:%s", "\",", "panid,", "le64addr_string(ndo,", "p", "+", "2)));", "+", "ND_PRINT((ndo,\"%04x:%s", "\",", "panid,", "le64addr_string(ndo,", "p)));", "p", "+=", "8;", "caplen", "-=", "8;", "hdrlen", "+=", "8;", "(a)", "Diff", "file", "of", "CVE-2017-13000"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 277.44,
+    "y1": 84.96,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639218-Figure3-1.png"
+}]

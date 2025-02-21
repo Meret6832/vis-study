@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 5: Success Rate Comparison Of Different Dataset.",
+  "captionBoundary": {
+    "x1": 60.40299987792969,
+    "x2": 287.43109130859375,
+    "y1": 202.78634643554688,
+    "y2": 208.4169921875
+  },
+  "figType": "Figure",
+  "imageText": ["Attack", "Surrogate", "Attack", "Original", "0.42", "0.60", "0.41", "0.53", "0.29", "0.54", "0.23", "0.51", "0.27", "0.55", "0.24", "0.50", "0.13", "0.54", "0.11", "0.74", "at", "e", "ss", "R", "uc", "ce", "ck", "S", "At", "ta", "0.8", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "3000", "6000", "9000", "12000", "15000", "18000", "21000", "24000", "0.1"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 271.2,
+    "y1": 94.08,
+    "y2": 183.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Figure5-1.png"
+}, {
+  "caption": "Table 2: Targeted Types for Termination.",
+  "captionBoundary": {
+    "x1": 355.3139953613281,
+    "x2": 520.539306640625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["var", "path", "=", "\"pic", "-1.", "jpg\";", "//", "convert", "to", "bitmap", "var", "file", "=", "Java.use('java.io.File').$new(path);", "var", "FS", "=", "Java.use('java.io.FileInputStream", "').$new(file);", "var", "bitmap", "=", "Java.use('android.graphics.BitmapFactory", "').", "decodeStream(FS);", ".", ".", ".", "//", "boundary", "function", "#1", "var", "s33124763", "=", "Java.use('com.google.android.gms.vision.", "face.FaceDetector$Builder", "').build();", "s33124763.isOperational", "()", "//", "boundary", "function", "#2", "var", "s696379067", "=", "Java.use('com.google.android.gms.vision.", "Frame$Builder", "').$new();", "s696379067.setBitmap(bitmap);", "//", "input", "var", "s1845700457", "=", "s33124763.detect(s696379067);", ".", ".", ".", "EditText", "getText()", "EditText", "getEditableText()", "Editable", "toString()", "PictureCallback", "onPictureTaken(byte[],", "Camera)", "PreviewCallback", "onPreviewFrame(byte[],", "Camera)", "AudioRecord", "read(short[],int,int)", "AudioRecord", "read(byte[],int,int)", "AudioRecord", "read(java.nio.ByteBuffer,int)", "Bitmap", "createBitmap(int[],", "int,", "int,...)", "BitmapFactory", "decodeFile(String)", "Media", "getBitmap(ContentResolver,", "Uri)", "Input", "Type", "Class", "API"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Table2-1.png"
+}, {
+  "caption": "Table 4: Reuse results of Top 10 Reusable Mobile Apps Providing Different On-device ML Services.",
+  "captionBoundary": {
+    "x1": 107.45794677734375,
+    "x2": 504.2301025390625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["com.camera.mi9", "Face", "enhancement", "Facial", "image", "or", "frame", "FaceRect", "(39.86,", "52.85)", "+", "173.38", "(39.86,", "52.85)", "+", "173.38", "✓", "IsSmiling", "0.007", "0.007", "✓", "IsEyesOpen", "0.99", "0.99", "✓", "Landmarks", "(97.77,", "121.75)", "(97.77,", "121.75)", "✓", "com.faceenhancer.android", "Selfie", "editing", "Selfie", "image", "FaceRect", "(𝐿", ":", "64,𝑇", ":", "92,", "𝑅", ":", "188,", "𝐵", ":", "216,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "(𝐿", ":", "64,𝑇", ":", "92,", "𝑅", ":", "188,", "𝐵", ":", "216,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "✓", "Landmarks", "(𝑃𝑜𝑖𝑛𝑡", "(53,", "120)", "...𝑃𝑜𝑖𝑛𝑡", "(124,", "197))", "(𝑃𝑜𝑖𝑛𝑡", "(53,", "120)", "...𝑃𝑜𝑖𝑛𝑡", "(124,", "197))", "✓", "com.face.gender.changer.faceapp", "Transform", "gender", "Facial", "image", "FaceRect", "(𝐿", ":", "32,𝑇", ":", "52,", "𝑅", ":", "212,", "𝐵", ":", "231,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "(𝐿", ":", "32,𝑇", ":", "52,", "𝑅", ":", "212,", "𝐵", ":", "231,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "✓", "Landmarks", "(𝑃𝑜𝑖𝑛𝑡", "(41,", "119)", "...𝑃𝑜𝑖𝑛𝑡", "(129,", "192))", "(𝑃𝑜𝑖𝑛𝑡", "(41,", "119)", "...𝑃𝑜𝑖𝑛𝑡", "(129,", "192))", "✓", "com.ophotovideoapps.facenhancer", "Selfie", "editing", "Selfie", "image", "FaceRect", "(𝐿", ":", "32,𝑇", ":", "52,", "𝑅", ":", "212,", "𝐵", ":", "231,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "(𝐿", ":", "32,𝑇", ":", "52,", "𝑅", ":", "212,", "𝐵", ":", "231,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "✓", "Landmarks", "(𝑃𝑜𝑖𝑛𝑡", "(71,", "120)", "...𝑃𝑜𝑖𝑛𝑡", "(111,", "199))", "(𝑃𝑜𝑖𝑛𝑡", "(71,", "120)", "...𝑃𝑜𝑖𝑛𝑡", "(111,", "199))", "✓", "com.playdigital.modo", "Document", "scan", "Document", "image", "DocRect", "(𝑅𝑒𝑐𝑡𝐹", "(1.5184212,", "3.2016373,", "318.8564,", "218.48717))", "([0]𝑑𝑜𝑐𝑠", "(81.5%)𝑅𝑒𝑐𝑡𝐹", "(1.5184212,", "3.2016373,", "318.8564,", "218.48717))", "✓([1]𝑑𝑜𝑐𝑠", "(18.2%)𝑅𝑒𝑐𝑡𝐹", "(21.968193,", "76.56427,", "319.31763,", "209.98932))", "et.song.newVSUFO.wifi.app.air.h264", "Gesture", "Recognize", "Frame", "Control", "take", "photo", "take", "photo", "✓", "video", "record", "video", "record", "✓", "com.smithandsons.cutpaste.photoeditor", "Backgroud", "replace", "Any", "image", "Foreground", "foreground", "image", "foreground", "image", "✓", "Backgroud", "grayscale", "image", "grayscale", "image", "✓", "Masks", "𝑏𝑦𝑡𝑒", "[]", "(...0,", "0,", "0,", "1,", "1,", "1,", "1,", "1,", "1...0,", "0,", "1...)", "𝑏𝑦𝑡𝑒", "[]", "(...0,", "0,", "0,", "1,", "1,", "1,", "1,", "1,", "1...0,", "0,", "1...)", "✓", "com.videoplayer.livetalk", "Video", "chat", "Facial", "image", "or", "frame", "FaceRect", "(37.23,", "49.01)", "+", "181.52", "(37.23,", "49.01)", "+", "181.52", "✓", "IsSmiling", "0.007", "0.007", "✓", "IsEyesOpen", "0.99", "0.99", "✓", "Landmarks", "(95.01,", "120.73)", "(95.01,", "120.73)", "✓", "makeup.selfiecamera.beautycam.beautyplus", "Selfie", "editing", "Selfie", "image", "FaceRect", "(𝐿", ":", "44,𝑇", ":", "77,", "𝑅", ":", "193,", "𝐵", ":", "226,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "(𝐿", ":", "44,𝑇", ":", "77,", "𝑅", ":", "193,", "𝐵", ":", "226,", "𝐿𝑎𝑏𝑒𝑙", ":", "𝑓", "𝑎𝑐𝑒)", "✓", "Landmarks", "(𝑃𝑜𝑖𝑛𝑡", "(46,", "125)", "...𝑃𝑜𝑖𝑛𝑡", "(124,", "185))", "(𝑃𝑜𝑖𝑛𝑡", "(46,", "125)", "...𝑃𝑜𝑖𝑛𝑡", "(124,", "185))", "✓", "com.commsource.beautyplus", "Selfie", "editing", "Selfie", "image", "FaceRect", "(71.0,", "81.0,", "193.0,", "203.0)", "(71.0,", "81.0,", "193.0,", "203.0)", "✓", "FaceCount", "1", "1", "✓", "Package", "Name", "Reuse", "Service", "Input", "Subtask", "Original", "detection", "Reuse", "detection", "Correct?"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 105.6,
+    "y2": 295.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Table4-1.png"
+}, {
+  "caption": "Table 5: Statistics of Reusable.",
+  "captionBoundary": {
+    "x1": 377.2239990234375,
+    "x2": 498.632568359375,
+    "y1": 311.6953430175781,
+    "y2": 317.32598876953125
+  },
+  "figType": "Table",
+  "imageText": ["#", "Plaintext", "401", "274", "(68.33%)", "#", "Flatbuf", "171", "122", "(71.35%)", "#", "ProtoBuf", "217", "146", "(67.28%)", "#", "Text", "13", "4", "(30.77%)", "#", "Encrypt", "85", "38", "(44.71%)", "#", "Customized", "format", "1025", "940", "(91.71%)", "#", "Non-Obfuscation", "690", "524", "(75.94%)", "#", "Obfuscation", "821", "726", "(88.43%)", "#", "Apk", "Tested", "1511", "1250", "(82.73%)", "Item", "Value", "Reusable"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 366.71999999999997,
+    "x2": 508.32,
+    "y1": 331.68,
+    "y2": 422.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Table5-1.png"
+}, {
+  "caption": "Figure 1: Facial Recognition Login in CIMR DIALCOM.",
+  "captionBoundary": {
+    "x1": 62.65399932861328,
+    "x2": 285.18695068359375,
+    "y1": 492.49835205078125,
+    "y2": 498.1289978027344
+  },
+  "figType": "Figure",
+  "imageText": ["5", "8", "4", "7", "3", "2", "6", "9", "1", "4", "private", "Result", "b(Bitmap", "v0,...){", "5", "QualityResult", "v4_1", "=", "this.f.getQuality(v0,true);", "6", "...}", "package", "com.daon.sdk.faceauthenticator.controller.a;", "1", "void", "O(){", "2", "this.f", "=", "new", "DaonFace(this.e,arg1,\"license.txt\");", "3", "...}", "44", "private", "native", "long", "createJNI(...);", "45", "private", "native", "void", "processFrameJNI(...);", "package", "com.daon.face.quality.DaonFaceQuality;", "38", "public", "DaonFaceQuality(AssetManager", "assetManager){", "39", "createJNI(assetManager,", "\"models\",", "true,", "false);", "40", "}", "41", "public", "void", "ProcessFrame(byte[]", "bArr,,,,,...){", "42", "processFrameJNI(bArr,", "...);", "43", "}", "29", "public", "Bundle", "analyze(Bitmap", "arg3)", "{", "30", "Yuv", "yuv", "=", "new", "YUV(arg3);", "31", "this.i.ProcessFrame(yuv.getData(),,,,,...);", "32", "Bundle", "v0", "=", "new", "Bundle();", "33", "boolean", "v11_3", "=", "this.i.isFaceFoundPass();", "34", "v0.putBoolean(\"result.face.found\",", "v11_3);", "35", "v0.putBoolean(...);", "36", "return", "v0;", "37", "...", "}", "package", "com.daon.sdk.face.module.b.b;", "25", "public", "b(Context", "context,...)", "{", "26", "AssetManager", "a", "=", "this.j.getAssets();", "27", "this.i", "=", "new", "DaonFaceQuality(a);", "28", "}", "21", "public", "QualityResult", "getQuality", "(Bitmap", "arg3,", "boolean", "arg4)", "{", "22", "Bundle", "v3", "=", "this.h.analyze(arg3);", "23", "return", "new", "QualityResult(v3);", "24", "}", "14", "private", "License", "a(Context", "arg5,", "InputStream", "arg6)", "{", "15", "License", "v0", "=", "new", "License(arg6);", "16", "if(!v0.isVerified())", "{", "17", "DaonFace.b(arg5,", "\"Unable", "to", "verify", "license\");", "18", "}", "19", "return", "v0;", "20", "}", "package", "com.daon.sdk.face.DaonFace;", "7", "public", "DaonFace(Context", "arg7,", "...,", "arg9)", "{", "8", "this.l", "=", "this.a(arg7,", "a(arg7,", "arg9));", "9", "if(this.l.supportsFeature(\"quality\"))", "{", "10", "b", "v9_1", "=", "new", "b(arg7,", "...);", "11", "this.h", "=", "((Analyzer)v9_1);", "12", "...}", "13", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 82.56,
+    "y2": 479.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Distribution of Framework and SDK over Category.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1915283203125,
+    "y1": 335.4803466796875,
+    "y2": 341.1109924316406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 322.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Overview of DeMistify.",
+  "captionBoundary": {
+    "x1": 241.98500061035156,
+    "x2": 370.013427734375,
+    "y1": 189.00033569335938,
+    "y2": 194.6309814453125
+  },
+  "figType": "Figure",
+  "imageText": ["Models", "Embedding", "Classifier", "Code", "Snippet", "b.so", "a.so", "c.so", "b.so", "a.so", "So", "Files", "UI", "Files", "Instrument", "3.", "Model", "Reusing", "Script", "Generate", "Dependency", "Graph", "Class", "Cluster", "Slicing", "JAVA", "Class", "c.so", "Native", "Class", "1.", "Model", "Locating", "2.", "Model", "Execution", "Slicing"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Figure2-1.png"
+}, {
+  "caption": "Table 3: Overall Effective Evaluation Results.",
+  "captionBoundary": {
+    "x1": 82.80999755859375,
+    "x2": 264.7301330566406,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Reuse", "Succeed", "Apps", "1250", "#", "Success", "Rate", "82.73%", "#", "Traced", "Parameters", "19,051", "#", "Constants", "1,208", "#", "Termination", "2,539", "#", "Return", "Value", "15,304", "Ave.", "Depths", "2.51", "#", "Lifecycle", "Callback", "1,964", "Ave.", "Funcs", "in", "Callback", "5.69", "#", "Dead", "Code", "3,301", "#", "Active", "Functions", "11,182", "#", "Java", "Classes", "39,456", "#", "Boundary", "Functions", "14,483", "#", "JCDG", "1,511", "#", "Nodes", "21,664,793", "#", "Edges", "87,495,777", "#", "Clusters", "1,981,850", "#", "JNI", "3,630", "#", "Models", "15,435", "#", "DL/ML", "Apps", "Tested", "1,511", "Item", "Value"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 101.75999999999999,
+    "x2": 245.28,
+    "y1": 105.6,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623325-Table3-1.png"
+}]

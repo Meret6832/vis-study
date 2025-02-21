@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 5: Reference creations in Solidity",
+  "captionBoundary": {
+    "x1": 101.614501953125,
+    "x2": 255.16392517089844,
+    "y1": 175.38343811035156,
+    "y2": 181.41070556640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 301.44,
+    "y1": 62.879999999999995,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-Figure5-1.png"
+}, {
+  "caption": "Fig. 1: Example patch for Reentrancy vulnerability vulnerabilities that require temporary variable creations and statement reordering (e.g., fixing reentrancy vulnerabilities). Although one can simply adapt these techniques to include more complex fixing strategies, doing so tend to (1) result in an exponential expansion of the search space [31], [34], [35], inducing patch-generation ineffectiveness.",
+  "captionBoundary": {
+    "x1": 61.624114990234375,
+    "x2": 295.11700439453125,
+    "y1": 197.57972717285156,
+    "y2": 272.262451171875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "mapping", "(address", "=>", "uint)", "userBalances;", "2", "mapping", "(address", "=>", "uint)", "lastPaymentDate;", "...", "3", "function", "refund", "(", ")", "public", "{", "4 ", " ", " ", " ", " require(userBalances[msg.sender]", ">", "0);", "5", "+ ", " ", " ", "var", "balance", "=", "userBalances[msg.sender]", ";", "6", "+ ", " ", " ", "userBalances[msg.sender]", "=", "0;", "7", "+ ", " ", " ", "lastPaymentDate[msg.sender]", "=", "now;", "8", "+ ", " ", " ", "msg.sender.call.value(balance);", "9", "- ", " ", " ", "msg.sender.call.value(userBalances[msg.sender]);", "10", "- ", " ", " userBalances[msg.sender]", "=", "0", "11", "- ", " ", " lastPaymentDate[msg.sender]", "=", "now;", "12", "}"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 63.36,
+    "x2": 252.0,
+    "y1": 72.48,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-Figure1-1.png"
+}, {
+  "caption": "TABLE II: Vulnerabilities detected by each detector",
+  "captionBoundary": {
+    "x1": 324.6297607421875,
+    "x2": 537.3214111328125,
+    "y1": 73.52137756347656,
+    "y2": 79.54864501953125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "1353", "690", "79", "351", "LockedEther", "184", "100", "43", "137", "UnhandledException", "83", "129", "36", "60", "Reentrancy", "107", "461", "0", "23", "MissingInputValidation", "979", "0", "0", "131", "Type", "Securify", "Slither", "Smartcheck", "Majority"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 544.3199999999999,
+    "y1": 84.0,
+    "y2": 132.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-TableII-1.png"
+}, {
+  "caption": "Fig. 2: An exploit of Reentrancy vulnerability",
+  "captionBoundary": {
+    "x1": 86.09839630126953,
+    "x2": 270.75592041015625,
+    "y1": 182.0440216064453,
+    "y2": 188.0712890625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "B:", "Attacker", "contract", "1", "...", "2", "Victim", "public", "victim", "3", "...", "4", "function", "attack", "(", ")", "{", "5 ", " ", " ", " victim.deposit.value(msg.value)(", ");", "6 ", " ", " ", " victim.refund(", ");", "7", "}", "8", "...", "9", "function", "(", ")", "payable", "{", "10 ", " ", " if", "(victim.balance", ">", "msg.value)", "{", "11 ", " ", " ", " ", " victim.refund(", ");", "12 ", " ", " ", "}", "13", "} ", " ", " ", " ", "A:", "Victim", "contract", "2", "1", "mapping", "(address", "=>", "uint)", "userBalances;", "2", "...", "3", "function", "deposit", "(", ")", "payable", "{", "4 ", " ", " ", " userBalances[msg.sender]", "=", "msg.value;", "5", "}", "6", "...", "7", "function", "refund", "(", ")", "public", "{", "8 ", " ", " ", " require(userBalances[msg.sender]", ">", "0);", "9 ", " ", " ", " msg.sender.call.value(userBalances[msg.sender]);", "10 ", "   userBalances[msg.sender]", "=", "0;", "11 }"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 73.92,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: Vulnerabilities detected by Securify for 4,640 smart contracts collected from Etherscan",
+  "captionBoundary": {
+    "x1": 315.3855895996094,
+    "x2": 548.878662109375,
+    "y1": 220.88270568847656,
+    "y2": 238.02813720703125
+  },
+  "figType": "Figure",
+  "imageText": ["13024", "122", "1360", "1360", "13987", "3158", "505", "UnrestrictedWrite", "UnhandledException", "TODReceiver", "TODAmount", "MissingInputValidation", "LockedEther", "Reentrancy", "0", "2000", "4000", "6000", "8000", "10000", "12000", "14000", "16000", "num"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 551.52,
+    "y1": 73.92,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-Figure3-1.png"
+}, {
+  "caption": "TABLE III: Vulnerable contracts used in evaluation",
+  "captionBoundary": {
+    "x1": 73.92739868164062,
+    "x2": 285.9055480957031,
+    "y1": 74.41493225097656,
+    "y2": 80.44219970703125
+  },
+  "figType": "Table",
+  "imageText": ["•", "RQ3:", "How", "efficient", "is", "VFIX", "in", "generating", "patches?", "Total", "144", "141,404", "Mixed", "17", "38,644", "Injected", "50", "20,510", "LockedEther", "20", "17,277", "UnhandledException", "19", "30,349", "Type", "Contract", "Count", "Lines", "of", "Code", "Reentrancy", "17", "8,522", "MissingInputValidation", "21", "26,102"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 292.32,
+    "y1": 84.96,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: Effectiveness of VFIX in patch generation",
+  "captionBoundary": {
+    "x1": 321.8022155761719,
+    "x2": 542.2238159179688,
+    "y1": 73.83216857910156,
+    "y2": 79.85943603515625
+  },
+  "figType": "Table",
+  "imageText": ["Injected", "250", "220", "∗30", "0.88", "-", "Total", "601", "565", "36", "0.94", "446", "LockedEther", "137", "136", "1", "0.99", "60", "UnhandledException", "60", "60", "0", "1.00", "245", "Reentrancy", "23", "21", "2", "0.91", "73", "MissingInputValidation", "131", "128", "3", "0.98", "68", "Type", "Total", "Success", "Fail", "Suc.", "Rate", "Test", "Case"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 545.28,
+    "y1": 84.96,
+    "y2": 138.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-TableIV-1.png"
+}, {
+  "caption": "Fig. 4: Overview of VFIX",
+  "captionBoundary": {
+    "x1": 249.98570251464844,
+    "x2": 353.1197814941406,
+    "y1": 183.5912628173828,
+    "y2": 189.6185302734375
+  },
+  "figType": "Figure",
+  "imageText": ["Static", "Verification", "Patched", "Contract", "Patched", "Contract", "Candidate", "Contract", "Source", "Code", "Generation", "Contract", "AST", "Transformation", "Security", "Patch", "Generation", "Contract", "AST", "Postprocess", "Detected", "Vulnerabilities", "Contract", "Parsing", "Static", "Verification", "Vulnerable", "Smart", "Contract", "vFix", "Phase", "II:", "Patch", "GenerationPhase", "I:", "Vulnerability", "Detection", "Phase", "III:", "Verification"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 529.4399999999999,
+    "y1": 72.0,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-Figure4-1.png"
+}, {
+  "caption": "TABLE V: Execution results about transaction replay",
+  "captionBoundary": {
+    "x1": 321.25482177734375,
+    "x2": 540.6638793945312,
+    "y1": 74.40522766113281,
+    "y2": 80.4324951171875
+  },
+  "figType": "Table",
+  "imageText": ["Mixed", "0", "188.84", "LockedEther", "0", "7.36", "UnhandledException", "0", "27.68", "Reentrancy", "0", "53.38", "MissinputValidation", "0", "46.99", "Type", "Status", "Diff.", "Gas", "Diff."],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 514.0799999999999,
+    "y1": 84.96,
+    "y2": 137.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-TableV-1.png"
+}, {
+  "caption": "TABLE I: Summary of fix patterns",
+  "captionBoundary": {
+    "x1": 102.75509643554688,
+    "x2": 246.81654357910156,
+    "y1": 73.43263244628906,
+    "y2": 79.45989990234375
+  },
+  "figType": "Table",
+  "imageText": ["LockedEther", "Contract", "Withdraw", "function", "[50]", "UnhandledException", "Statement", "Require", "check", "[51]", "Reentrancy", "Method", "Lock", "[15],", "[22],", "Reorder", "statements", "[15]", "MissingInputValidation", "Method", "Require", "check", "[49]", "Type", "Level", "Fix", "Pattern"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 295.2,
+    "y1": 84.0,
+    "y2": 123.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00013-TableI-1.png"
+}]

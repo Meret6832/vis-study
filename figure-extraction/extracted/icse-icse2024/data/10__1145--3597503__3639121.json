@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 3: Fuzzing strategies and example of fuzzing loop.",
+  "captionBoundary": {
+    "x1": 59.28200149536133,
+    "x2": 288.5515441894531,
+    "y1": 277.3249206542969,
+    "y2": 279.405029296875
+  },
+  "figType": "Figure",
+  "imageText": ["distillation", "LLM", "3", "2", "1", "generation", "LLM", "generation", "LLM", "generation", "LLM", "(declare-const", "x1", "Int)", "(assert", "(!", "(=", "x1", "1)", ":named", "a))", "(check-sat)", "(get-model)", "semantic-equiv", "example", "initial", "prompt", "SMT2", "supports", "several", "theories,", "including", "integer", "and", "real", "arithmetic", "(declare-const", "x1", "Int)", "(assert", "(!", "(=", "x1", "1)))", "(check-sat)", "(get-model)", "mutate-existing", "example", "initial", "prompt", "SMT2", "supports", "several", "theories,", "including", "integer", "and", "real", "arithmetic", "initial", "prompt", "SMT2", "supports", "several", "theories,", "including", "integer", "and", "real", "arithmetic", "generate-new", "(declare-const", "x1", "Real)", "(assert", "(!", "(=", "x1", "1)))", "(check-sat)", "generation", "instruction", "Please", "create", "a", "semantically", "equivalent", "program", "to", "the", "previous", "generation", "Please", "create", "a", "mutated", "program", "that", "modifies", "the", "previous", "generation", "Please", "create", "a", "program", "which", "uses", "complex", "{SMT2", "logic}", "for", "an", "{SMT", "solver}", "strategy", "name", "semantic-equiv", "mutate-existing", "generate-new"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Figure3-1.png"
+}, {
+  "caption": "Table 1: SUTs and baseline tools.",
+  "captionBoundary": {
+    "x1": 107.875,
+    "x2": 239.66622924804688,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["C", "GCC,", "Clang", "GrayC", "[21],", "Csmith", "[81]", "GCC-13.1.1", "C++", "G++,", "Clang++", "YARPGen", "[49]", "G++-13.1.1", "SMT2", "Z3,", "CVC5", "TypeFuzz", "[59]", "CVC5-1.0.5", "Go", "Go", "go-fuzz", "[25]", "go-1.20.6", "Java", "javac", "Hephaestus", "[11]", "OpenJDK-javac-18", "Python", "Qiskit", "MorphQ", "[58]", "qiskit-0.43.1", "Language", "SUT(s)", "Baseline", "tool(s)", "Version"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 105.6,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Table1-1.png"
+}, {
+  "caption": "Table 4: Effectiveness of variants (* indicates statistically significant coverage improvement compared w/ 2nd best variant).",
+  "captionBoundary": {
+    "x1": 57.49700164794922,
+    "x2": 554.1863403320312,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Fu", "zz", "in", "g", "lo", "op", "w/o", "example", "generate-new", "w/o", "example", "143,349", "34.23%", "190,288", "28.25%", "50,089", "18.41%", "35,839", "19.38%", "15,444", "44.69%", "32,663", "24.04%", "w/", "example", "generate-new", "w/", "example", "182,530", "39.09%", "190,318", "36.62%", "51,496", "45.04%", "36,732", "24.87%", "15,838", "45.54%", "32,691", "29.12%", "Fuzz4All", "all", "strategies", "w/", "example", "185,491", "40.58%", "*193,845", "41.22%", "*53,069", "50.06%", "*37,981", "32.00%", "*16,209", "50.99%", "*33,913", "27.45%", "raw", "prompt", "use", "user-provided", "input", "137,204", "33.95%", "189,030", "33.79%", "49,697", "39.49%", "36,168", "16.84%", "15,445", "37.64%", "31,922", "22.74%", "autoprompt", "apply", "autoprompting", "182,530", "39.09%", "190,318", "36.62%", "51,496", "45.04%", "36,732", "24.87%", "15,838", "45.54%", "32,691", "29.12%", "pt", ".", "no", "input", "no", "initial", "prompt", "127,261", "42.57%", "181,493", "51.63%", "50,838", "49.49%", "35,765", "39.54%", "14,374", "50.25%", "31,701", "34.63%", "pr", "om", "A", "ut", "o", "Cov.", "%", "valid", "Cov.", "%", "valid", "Cov.", "%", "valid", "Cov.", "%", "valid", "Cov.", "%", "valid", "Cov.", "%", "valid", "C", "C++", "SMT", "Go", "Java", "Qiskit", "Variants", "Description"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 553.4399999999999,
+    "y1": 105.6,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Table4-1.png"
+}, {
+  "caption": "Table 5: Summary of Fuzz4All-detected bugs.",
+  "captionBoundary": {
+    "x1": 344.71600341796875,
+    "x2": 531.1403198242188,
+    "y1": 208.11886596679688,
+    "y2": 210.198974609375
+  },
+  "figType": "Table",
+  "imageText": ["noexcept(noexcept(std", "optional<int>{z}))", "{}", "#include", "<optional>", "void", "y(std", "optional<int>", "z)", "Total", "98", "64", "26", "6", "2", "GCC", "30", "14", "11", "5", "0", "Clang", "27", "18", "9", "0", "0", "CVC5", "9", "7", "2", "0", "0", "Z3", "14", "12", "0", "0", "2", "Go", "4", "2", "2", "0", "0", "Java", "3", "3", "0", "0", "0", "Qiskit", "11", "8", "2", "1", "0", "Unknown", "Known", "Pending", "Won’t", "fix", "Confirmed", "Total"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 224.64,
+    "y2": 388.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Table5-1.png"
+}, {
+  "caption": "Figure 4: Coverage trend of Fuzz4All against state-of-the-art fuzzers in a 24-hour fuzzing campaign.",
+  "captionBoundary": {
+    "x1": 102.34698486328125,
+    "x2": 509.6426086425781,
+    "y1": 325.4158935546875,
+    "y2": 327.4960021972656
+  },
+  "figType": "Figure",
+  "imageText": ["(f)", "Qiskit", "MorphQ", "Fuzz4All", "es", ")", "l", "in", "(", "#K", "ra", "ge", "Co", "ve", "35", "30", "25", "20", "15", "10", "5", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "Hours", "(e)", "javac", "Hephaestus", "Fuzz4All", "es", ")", "l", "in", "(", "#K", "ra", "ge", "Co", "ve", "16", "14", "12", "10", "8", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "Hours", "(d)", "Go", "seed", "go-fuzz", "Fuzz4All", "es", ")", "l", "in", "(", "#K", "ra", "ge", "Co", "ve", "40", "30", "20", "10", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "Hours", "(c)", "CVC5", "seed", "TypeFuzz", "Fuzz4All", "es", ")", "l", "in", "(", "#K", "ra", "ge", "Co", "ve", "55", "50", "45", "40", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "Hours", "(b)", "G++", "YarpGen", "Fuzz4All", "es", ")", "l", "in", "(", "#K", "ra", "ge", "Co", "ve", "220", "200", "180", "160", "140", "120", "100", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "Hours", "(a)", "GCC", "Fuzz4All", "Csmith", "GrayC", "seed", "es", ")", "l", "in", "(", "#K", "ra", "ge", "Co", "ve", "200", "175", "150", "125", "100", "75", "50", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "Hours"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 545.76,
+    "y1": 88.8,
+    "y2": 309.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Overview of Fuzz4All.",
+  "captionBoundary": {
+    "x1": 240.38900756835938,
+    "x2": 371.6093444824219,
+    "y1": 303.2709045410156,
+    "y2": 305.35101318359375
+  },
+  "figType": "Figure",
+  "imageText": ["56", "4", "3", "2", "1", "..", ".", "ut", "s", "i", "np", "us", "er", "System", "Under", "Test", "score", "&", "select", "prompt", "Autoprompting", "Fuzzing", "Loop", "sample", "sample", "select", "code", "snippet", "update", "input", "prompt", "selected", "code", "snippet", "int", "main(){", "std::expected", "...", "generation", "strategies", "generate-new", "fuzzing", "inputs", "int", "main(){", "std::variant", "...", "int", "main(){", "std::expected", "...", "mutate-existing", "semantic-equiv", "input", "prompt", "generation", "LLM", "std::expected", "provides", "a", "way", "to", "store", "either", "a", "...", "specification", "import", "(\"fmt\"", "\"math/big\")", "func", "main()", "{", "operands", "[]float64{2.6,", "2.5}", "for", "mode", "big.ToNearestEven;", "mode", "big.ToPositiveInf;", "mode", "{", "fmt.Printf(\"", "%s\",", "mode)", "}", "}", "(theory", "Ints", ":funs", "((NUMERAL", "Int)", "(-", "Int", "Int)", "(-", "Int", "Int", "Int", ":left-assoc)", "(+", "Int", "Int", "Int", ":left-assoc)", "(*", "Int", "Int", "Int", ":left-assoc)", "example", "code", "std::expected", "The", "class", "template", "std::expected", "provides", "a", "way", "to", "store", "either", "of", "two", "values.", "An", "object", "of", "std::expected", "at", "any", "given", "time", "Member", "types", "Definition", "value_type(c++23)", "T", "error_type(c++23)", "E", "...", "best", "prompt", "documentation", "std::expected", "provides", "a", "way", "to", "store", "either", "a", "...", "int", "main(){", "std::variant", "...", "int", "main(){", "std::expected", "...", "code", "snippets", "int", "main(){", "std::expected", "...", "generation", "LLM", "candidate", "prompts", "std::expected", "provides", "a", "way", "to", "store", "either", "a", "...", "LLM", "sample", "prompts", "distillation", "std::expected", "provides", "a", "way", "to", "store", "either", "a", "...", "std::expected", "provides", "a", "way", "to", "store", "either", "a", "...", "int", "main(){", "std::variant", "..."],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 82.56,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Figure1-1.png"
+}, {
+  "caption": "Table 3: Hit rate and coverage during targeted fuzzing.",
+  "captionBoundary": {
+    "x1": 328.052001953125,
+    "x2": 547.7994995117188,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Coverage", "30,597", "26,703", "29,535", "33,853", "H", "it", "ra", "te", "switch", "71.76%", "0.00%", "0.00%", "0.00%", "for", "loop", "0.17%", "75.97%", "0.00%", "0.00%", "linear", "0.00%", "0.00%", "54.79%", "0.00%", "switch", "for", "loop", "linear", "General", "Qiskit", "targeted", "campaign", "(APIs)", "Coverage", "14,546", "13,972", "13,203", "16,128", "H", "it", "ra", "te", "instanceof", "88.00%", "0.08%", "0.85%", "1.86%", "synchronized", "0.16%", "94.80%", "0.16%", "0.85%", "finally", "0.51%", "3.17%", "78.62%", "0.82%", "instanceof", "synchronized", "finally", "General", "Java", "targeted", "campaign", "(keywords)", "Coverage", "10,156", "12,986", "9,790", "37,561", "H", "it", "ra", "te", "atomic", "90.09%", "0.04%", "0.06%", "1.01%", "big", "0.18%", "97.20%", "0.23%", "3.63%", "heap", "0.30%", "0.04%", "91.18%", "2.22%", "atomic", "atomic", "heap", "General", "Go", "targeted", "campaign", "(built-in", "libraries)", "Coverage", "46,392", "48,841", "47,619", "52,449", "H", "it", "ra", "te", "Array", "82.23%", "2.08%", "1.44%", "11.07%", "BitVec", "2.57%", "88.48%", "0.86%", "5.46%", "Real", "1.45%", "0.17%", "96.01%", "17.36%", "Array", "BitVec", "Real", "General", "SMT", "targeted", "campaign", "(theories)", "Coverage", "182,261", "175,963", "182,333", "193,254", "H", "it", "ra", "te", "apply", "70.23%", "0.41%", "0.68%", "0.32%", "expected", "0.26%", "79.72%", "0.94%", "1.33%", "variant", "1.16%", "5.98%", "93.19%", "3.63%", "apply", "expected", "variant", "General", "C++", "targeted", "campaign", "(built-in", "functions)", "Coverage", "123,226", "125,041", "120,452", "188,148", "H", "it", "ra", "te", "typedef", "83.11%", "47.16%", "0.48%", "4.38%", "union", "10.80%", "80.43%", "0.10%", "0.32%", "goto", "0.22%", "0.11%", "77.62%", "1.16%", "typedef", "union", "goto", "General", "C", "targeted", "campaign", "(keywords)"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 542.4,
+    "y1": 105.6,
+    "y2": 488.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Table3-1.png"
+}, {
+  "caption": "Figure 2: Autoprompting result for std::expected.",
+  "captionBoundary": {
+    "x1": 75.3280029296875,
+    "x2": 272.513671875,
+    "y1": 238.20986938476562,
+    "y2": 240.28997802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Different", "usages", "of", "target", "Descriptions", "of", "the", "inputs", "High", "level", "description", "of", "feature", "Helper", "classes", "like", "unexpected,", "bad_expected_access,", "and", "unexpect_t", "are", "used", "to", "represent", "unexpected", "values,", "exceptions,", "and", "in-place", "construction", "tags", "for", "unexpected", "values", "in", "expected", "objects.", "Modifiers", "like", "emplace", "and", "swap", "can", "be", "used", "to", "construct", "the", "expected", "value", "in-place", "or", "exchange", "the", "contents", "of", "expected", "objects.", "Non-member", "functions", "like", "operator:=", "and", "swap(std::expected)", "provide", "comparison", "and", "swapping", "functionality.", "Monadic", "operations", "like", "and_then,", "transform,", "or_else,", "and", "transform_error", "allow", "chaining", "operations", "on", "expected", "values", "and", "handling", "errors", "in", "a", "functional", "manner.", "std::expected", "provides", "member", "functions", "for", "construction,", "destruction,", "assignment,", "and", "accessing", "the", "stored", "values.", "Observers", "like", "operator", "bool", "and", "has_value", "can", "be", "used", "to", "check", "if", "the", "object", "contains", "an", "expected", "value.", "Functions", "like", "value,", "error,", "and", "value_or", "can", "be", "used", "to", "access", "the", "expected", "or", "unexpected", "values.", "The", "template", "parameters", "are", "T", "(the", "expected", "value", "type)", "and", "E", "(the", "unexpected", "value", "type).", "Both", "types", "must", "meet", "the", "Destructible", "requirements,", "and", "certain", "types", "are", "not", "allowed.", "The", "C++23", "std::expected", "class", "template", "provides", "a", "way", "to", "store", "either", "an", "expected", "value", "of", "type", "T", "or", "an", "unexpected", "value", "of", "type", "E.", "It", "is", "useful", "for", "handling", "functions", "that", "may", "return", "an", "error", "or", "a", "valid", "result.", "The", "stored", "value", "is", "allocated", "directly", "within", "the", "storage", "occupied", "by", "the", "expected", "object,", "without", "dynamic", "memory", "allocation."],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639121-Figure2-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: An illustration of how LLMs and human programmers perceive the source code.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0411682128906,
+    "y1": 220.79452514648438,
+    "y2": 234.6259765625
+  },
+  "figType": "Figure",
+  "imageText": ["\"Looks\"", "cleaner", "def", "sum", "(", "nums", ")", ":", "if", "len", "(", "nums", ")", "=", "=", "0", ":", "raise", "Value", "Error", "sum", "_", "num", "=", "0", "for", "num", "in", "nums", ":", "sum", "_", "num", "numreturn=", "num", "sum", "_+", "Bad", "smell", "Good", "smell", "\"Looks\"", "wordy", "numreturn=", "num", "sum", "_+", "nums", ":", "sum", "_", "num", "_", "num", "=", "0", "for", "num", "in", "raise", "Value", "Error", "sum", "len", "(", "nums", ")", "=", "=", "0", ":", "def", "sum", "(", "nums", ")", ":", "if"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 295.2,
+    "y1": 84.96,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Figure1-1.png"
+}, {
+  "caption": "Table 2: Percentage of token reduction achieved with SimPy. The “Code” and “Web” in the “Vocab Source” column represent the sources for constructing the tokenizer’s vocabulary: code repositories and internet data, respectively.",
+  "captionBoundary": {
+    "x1": 52.74610137939453,
+    "x2": 294.2669677734375,
+    "y1": 86.79048919677734,
+    "y2": 120.5479736328125
+  },
+  "figType": "Table",
+  "imageText": ["GPT-4", "Web", "100k", "0.71B", "0.63B", "10.4%↓", "GPT-3.5", "Web", "100k", "0.71B", "0.63B", "10.4%↓", "Replit-code", "Code", "33k", "0.82B", "0.75B", "8.6%↓", "SantaCoder", "Code", "49k", "0.83B", "0.76B", "8.8%↓", "StarCoder", "Code", "49k", "0.83B", "0.76B", "8.6%↓", "CodeT5", "Code", "32k", "0.91B", "0.78B", "13.8%↓", "Codex", "Web", "51k", "0.93B", "0.82B", "12.6%↓", "CodeT5+", "Web", "51k", "0.93B", "0.82B", "12.6%↓", "CodeGen", "Web", "51k", "0.93B", "0.82B", "12.6%↓", "DeepSeek-Coder", "Web", "32k", "0.97B", "0.84B", "12.9%↓", "WizardCoder", "Web", "32k", "0.97B", "0.84B", "13.5%↓", "CodeLlama", "Web", "32k", "0.97B", "0.84B", "13.5%↓", "GPT2", "Web", "50k", "1.33B", "0.87B", "34.7%↓", "CodeBert", "Code", "50k", "1.33B", "0.87B", "34.7%↓", "Python", "SimPy", "Tokens", "Size", "Vocab", "Source", "Tokenizer", "Vocab"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 279.36,
+    "y1": 124.8,
+    "y2": 338.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Table2-1.png"
+}, {
+  "caption": "Table 4: Comparison of average conversion times between Python and SimPy, and the processing speed of the StarCoder tokenizer, based on Huggingface Tokenizers.",
+  "captionBoundary": {
+    "x1": 53.53519821166992,
+    "x2": 295.020751953125,
+    "y1": 86.79048919677734,
+    "y2": 110.58502197265625
+  },
+  "figType": "Table",
+  "imageText": ["[5000,", "+∞)", "23.0ms", "23.7ms", "75.4ms", "57.4ms", "[2000,", "5000)", "6.7ms", "6.4ms", "12.2ms", "10.8ms", "[500,", "2000)", "2.4ms", "2.2ms", "3.4ms", "3.1ms", "[100,", "500)", "0.7ms", "0.6ms", "0.9ms", "0.8ms", "[0,", "100)", "0.2ms", "0.1ms", "0.2ms", "0.2ms", "Encode", "Decode", "To", "SimPy", "To", "Python", "Token", "num", "Huggingface", "Converter"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 277.44,
+    "y1": 114.72,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Table4-1.png"
+}, {
+  "caption": "Figure 2: Illustrations of human-centric design elements in Python.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 293.9538269042969,
+    "y1": 225.96151733398438,
+    "y2": 229.83099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["Visual", "Coding", "Style", "Explicit", "delimiters", "for", "num", "in", "+", "sum", "_", "=", "num", "numreturn", "sum", "_", "num", "nums", ":", "sum", "_", "num", "=", "0", "raise", "Value", "Error", "if", "len", "(", "nums", ")", "=", "=", "0", ":", "def", "sum", "(", "nums", ")", ":"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 84.96,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Figure2-1.png"
+}, {
+  "caption": "Table 3: The Pass@1 and Pass@10 of LLMs on Python and SimPy datasets under varied settings. Python and SimPy denote models trained exclusively on respective datasets. Python→SimPy refers to sequential training on both datasets, with the parenthetical numbers indicating the SimPy dataset’s proportion involved in the training.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.4326171875,
+    "y1": 86.79048919677734,
+    "y2": 130.510986328125
+  },
+  "figType": "Table",
+  "imageText": ["Python", "→", "100%", "SimPy", "5.67%", "10.00%", "Python→", "50%", "SimPy", "4.21%", "7.32%", "Python→", "20%", "SimPy", "3.11%", "4.27%", "Python→", "10%", "SimPy", "1.89%", "2.44%", "100%", "SimPy", "7.01%", "9.15%", "Python", "5.79%", "9.76%", "Pythia", "Python", "→", "100%", "SimPy", "10.12%", "14.02%", "Python→", "50%", "SimPy", "5.73%", "11.59%", "Python→", "20%", "SimPy", "3.23%", "5.49%", "Python→", "10%", "SimPy", "2.07%", "3.66%", "100%", "SimPy", "5.91%", "9.76%", "Python", "10.00%", "13.41%", "TinyLlama", "Python", "→", "100%", "SimPy", "4.82%", "9.15%", "Python→", "50%", "SimPy", "3.96%", "6.71%", "Python→", "20%", "SimPy", "3.66%", "4.27%", "Python→", "10%", "SimPy", "3.11%", "3.66%", "100%", "SimPy", "2.93%", "5.49%", "Python", "4.51%", "7.32%", "CodeGen-NL", "Model", "Training", "Strategy", "Pass@1", "Pass@10"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 544.3199999999999,
+    "y1": 134.88,
+    "y2": 390.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Table3-1.png"
+}, {
+  "caption": "Figure 3: A comparison between Python and SimPy source code, tokenized by GPT-4’s tokenizer. Continuous characters with the same background color represent the same token. Notably, there are no line breaks in the SimPy example and we add these line breaks in the gure for our human readers.",
+  "captionBoundary": {
+    "x1": 53.79779052734375,
+    "x2": 295.0176696777344,
+    "y1": 285.196533203125,
+    "y2": 328.9159851074219
+  },
+  "figType": "Figure",
+  "imageText": ["Same", "Execution", "Results", "<def_stmt>two_sum", "nums:list[int]", "target:int<arrow>list", "[int]<block_start>chk_map:dict[int", "int]={}<for_stmt>", "index,val", "enumerate(nums)<block_start>compl=target-val", "<if_stmt>compl<in>chk_map<block_start><return>[chk_map", "[compl]", "index]<block_end>chk_map[val]=index<block_end>", "<return>[]<block_end>", "Same", "AST", "60", "tokens", "72", "tokens", "SimPy", "Python", "return", "[]", "chk_map[val]", "=", "index\\n", "return", "[chk_map[compl],", "index]\\n", "compl", "=", "target", "-", "val\\n", "if", "compl", "in", "chk_map:\\n", "chk_map:", "dict[int,", "int]", "=", "{}\\n", "for", "index,", "val", "in", "enumerate(nums):\\n", "def", "two_sum(nums:", "list[int],", "target:", "int)", "->", "list[int]:\\n"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 84.0,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Figure3-1.png"
+}, {
+  "caption": "Figure 4: LEFT: the work ow of the basic usage scenarios of AI-oriented grammar. RIGHT: the work ow of the extended usage scenarios of AI-oriented grammar under DualCode, where the code executor of the AI system in the gure is not necessary.",
+  "captionBoundary": {
+    "x1": 53.50310134887695,
+    "x2": 558.2026977539062,
+    "y1": 251.08651733398438,
+    "y2": 264.91900634765625
+  },
+  "figType": "Figure",
+  "imageText": ["AI", "SystemAI", "System", "Natural", "Language", "Program", "Results", "Executor", "AI-oriented", "Code", "Natural", "Language", "Converter", "Converter", "AI-oriented", "Code", "Human-centric", "Code", "Program", "Results", "Executor", "AI-oriented", "Code", "Natural", "Language", "Human-centric", "Code", "Natural", "Language"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 157.44,
+    "x2": 456.47999999999996,
+    "y1": 84.96,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Figure4-1.png"
+}, {
+  "caption": "Table 1: Comparison of grammar speci cations for Python and SimPy, using the o cial Python grammar notation ([32]). Each terminal notation a ected by SimPy is annotated in blue. The table also includes the count of such terminal notations: “N” represents the number of lines, “n” signi es the count of repetitive elements, and “?” indicates that the number of terminals is conditional.",
+  "captionBoundary": {
+    "x1": 53.53519821166992,
+    "x2": 558.2039794921875,
+    "y1": 86.79048919677734,
+    "y2": 110.58502197265625
+  },
+  "figType": "Table",
+  "imageText": ["SimPy", "[‘<line_sep>’].simple_stmt+", "[‘<line_sep>’]", "n?+1?", "simple_stmts", "Python", "‘;’.simple_stmt+", "[‘;’]", "NEWLINE", "n+1+1?", "SimPy", "‘<from_import_stmt>’", "(‘.’", "|", "‘...’)*", "dotted_name", "import_from_targets", "1+n?", "import_from", "Python", "‘from’", "(‘.’", "|", "‘...’)*", "dotted_name", "‘import’", "import_from_targets", "2+n?", "SimPy", "‘<while_stmt>’", "named_expression", "block", "[else_block]", "1", "while_stmt", "Python", "‘while’", "named_expression", "‘:’", "block", "[else_block]", "2", "SimPy", "‘<try_stmt>’", "block", "except_block+", "[else_block]", "[", "nally_block]", "1", "try_stmt", "Python", "‘try’", "‘:’", "block", "except_block+", "[else_block]", "[", "nally_block]", "2", "SimPy", "‘<with_stmt>’", "‘", "’.with_item+", "[TYPE_COMMENT]", "block", "1", "with_stmt", "Python", "‘with’", "‘,’.with_item+", "‘:’", "[TYPE_COMMENT]", "block", "2+n", "SimPy", "‘<for_stmt>’", "star_targets", "~", "star_expressions", "[TYPE_COMMENT]", "block", "[else_block]", "1", "for_stmt", "Python", "‘for’", "star_targets", "‘in’", "~", "star_expressions", "‘:’", "[TYPE_COMMENT]", "block", "[else_block]", "3", "SimPy", "‘<if_stmt>’", "named_expression", "block", "elif_stmt", "1", "if_stmt", "Python", "‘if’", "named_expression", "‘:’", "block", "elif_stmt", "2", "SimPy", "‘<class_stmt>’", "NAME", "[‘(’", "[arguments]", "‘)’", "]", "block", "1+2?", "class_def", "Python", "‘class’", "NAME", "[‘(’", "[arguments]", "‘)’", "]", "‘:’", "block", "2+2?", "SimPy", "‘<def_stmt>’", "NAME", "[type_params]", "[params]", "[‘<arrow>’", "expression", "]", "[func_type_comment]", "block", "1+1?", "function_def", "Python", "‘def’", "NAME", "[type_params]", "‘(’", "[params]", "‘)’", "[‘->’", "expression", "]", "‘:’", "[func_type_comment]", "block", "4+1?", "SimPy", "‘<block_start>’", "statements", "‘<block_end>’", "2", "block", "Python", "NEWLINE", "INDENT", "statements", "DEDENT", "3", "Name", "Grammar", "Speci", "cation", "#Terminal"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 534.24,
+    "y1": 114.72,
+    "y2": 396.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680347-Table1-1.png"
+}]

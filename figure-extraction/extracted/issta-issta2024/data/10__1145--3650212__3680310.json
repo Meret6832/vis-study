@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 3: Ratio of equivalent mutants found by each tool, compared to the estimated equivalent mutant ratio.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.2928466796875,
+    "y1": 252.77711486816406,
+    "y2": 268.031005859375
+  },
+  "figType": "Figure",
+  "imageText": ["Est.", "Total", "EMS", "TCE_soot", "TCE_javac", "0%", "2%", "4%", "Ant", "Bcel", "Chart", "Cli", "Codec", "Collections", "Compress", "Csv", "Gson", "H2", "JacksonCore", "JacksonDatabind", "JacksonXml", "Jsoup", "JxPath", "Lang", "Math", "Time", "Tomcat"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 351.36,
+    "x2": 532.3199999999999,
+    "y1": 88.8,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Figure3-1.png"
+}, {
+  "caption": "Table 7: Generalizability of EMS rules.",
+  "captionBoundary": {
+    "x1": 360.63201904296875,
+    "x2": 515.2308349609375,
+    "y1": 87.06202697753906,
+    "y2": 91.35693359375
+  },
+  "figType": "Table",
+  "imageText": ["✓*:", "Not", "veri", "ed", "due", "to", "`BERT", "crashing", "on", "methods", "containing", "the", "instanceof", "keyword.", "Standard", "Library", "Contracts", "✓", "✓", "✓", "✓", "✓", "Loop-Bounds", "Check", "✓", "✓", "✓", "✓", "✓", "Mutually", "Exclusive", "✓", "✓", "equals()", "Reference", "Equality", "✓", "✓", "✓", "✓", "✓", "✓*", "Useless", "Inititalization", "✓", "✓", "✓", "✓", "✓", "✓", "Mutate", "Constant", "Value", "✓", "✓", "✓", "✓", "✓", "Algebraic", "Identity", "✓", "✓", "✓", "✓", "✓", "✓", "Unreachable", "Code", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "Useless", "Control", "Flow", "✓", "✓", "✓", "✓", "Empty", "Branches", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "all", "def", "Rule", "Major", "MuJava", "PIT", "FB", "iBiR", "`BERT"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 99.84,
+    "y2": 229.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table7-1.png"
+}, {
+  "caption": "Table 1 summarizes the 19 open-source Java projects (15 from the Defects4J benchmark [12] (v2.0.1) and 4 independent projects) that we selected for analysis based on the following criteria:",
+  "captionBoundary": {
+    "x1": 53.467201232910156,
+    "x2": 294.04913330078125,
+    "y1": 621.8209228515625,
+    "y2": 647.97998046875
+  },
+  "figType": "Table",
+  "imageText": ["al.", "[18]", "to", "enable", "comparability", "with", "prior", "work.", "istics", "such", "as", "project", "domain,", "project", "size,", "and", "developer", "community,", "to", "improve", "generalizability", "of", "our", "results.", "(2)", "Comparability:", "We", "included", "all", "projects", "used", "by", "Kintis", "et", "(1)", "Diversity:", "We", "selected", "projects", "with", "di", "erent", "character-"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 295.68,
+    "y1": 657.12,
+    "y2": 708.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table1-1.png"
+}, {
+  "caption": "Table 1: Subject programs and number of generated mutants.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0483703613281,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "967,395", "5,486", "1,193,633", "5,551", "1,238,015", "64", "27,512", "16,870", "Ant", "104,270", "685", "102,478", "685", "104,670", "0", "0", "2,192", "Bcel", "30,258", "327", "30,221", "327", "30,694", "0", "0", "473", "Chart", "96,382", "528", "120,273", "528", "121,394", "0", "0", "1,121", "Cli", "7,070", "20", "2,874", "20", "2,888", "0", "0", "14", "Codec", "7,953", "54", "24,669", "54", "24,809", "0", "0", "140", "Collections", "28,543", "263", "22,999", "263", "23,259", "0", "0", "260", "Compress", "41,838", "175", "42,570", "175", "43,178", "0", "0", "608", "Csv", "1,635", "9", "2,133", "9", "2,163", "0", "0", "30", "Gson", "7,886", "41", "8,893", "42", "9,515", "0", "0", "622", "H2", "140,255", "612", "182,074", "612", "184,260", "0", "0", "2,186", "JacksonCore", "26,004", "88", "48,808", "88", "49,141", "0", "0", "333", "JacksonDatabind", "61,107", "356", "49,104", "356", "49,577", "0", "0", "473", "JacksonXml", "4,927", "29", "4,198", "29", "4,247", "0", "0", "49", "Jsoup", "12,008", "57", "15,125", "57", "15,277", "0", "0", "152", "JxPath", "18,764", "136", "14,328", "143", "25,077", "7", "10,528", "221", "Lang", "21,788", "97", "38,855", "97", "39,492", "0", "0", "637", "Math", "84,324", "581", "200,147", "581", "204,506", "0", "0", "4,359", "Time", "27,801", "131", "34,935", "131", "35,255", "0", "0", "320", "Tomcat", "244,582", "1,297", "248,949", "1,354", "268,613", "57", "16,984", "2,680", "Classes", "Mutants", "Classes", "Mutants", "Classes", "Mutants", "Mutants", "Subject", "Loc", "Retained", "Total", "Generated", "code", "Uncomp."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 99.84,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table1-1.png"
+}, {
+  "caption": "Table 4: Number of equivalent mutants found per subject.",
+  "captionBoundary": {
+    "x1": 320.81201171875,
+    "x2": 555.0498657226562,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "1,193,633", "8,776", "1,007", "2,124", "Ant", "102,478", "1,127", "25", "176", "Bcel", "30,221", "242", "22", "30", "Chart", "120,273", "1,117", "91", "339", "Cli", "2,874", "29", "0", "0", "Codec", "24,669", "94", "7", "22", "Collections", "22,999", "150", "1", "7", "Compress", "42,570", "194", "12", "81", "Csv", "2,133", "19", "1", "1", "Gson", "8,893", "68", "15", "15", "H2", "182,074", "1,203", "321", "389", "JacksonCore", "48,808", "290", "15", "23", "JacksonDatabind", "49,104", "306", "41", "62", "JacksonXml", "4,198", "25", "1", "6", "Jsoup", "15,125", "118", "8", "14", "JxPath", "14,328", "181", "7", "9", "Lang", "38,855", "399", "9", "84", "Math", "200,147", "1,230", "311", "557", "Time", "34,935", "225", "15", "19", "Tomcat", "248,949", "1,759", "105", "290", "EMS", "TCE90E02", "TCEB>>C", "Subject", "Mutants", "Equivalent", "mutants", "found"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 99.84,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table4-1.png"
+}, {
+  "caption": "Figure 4: Proportion of equivalent mutants found per tool.",
+  "captionBoundary": {
+    "x1": 319.5249938964844,
+    "x2": 556.6319580078125,
+    "y1": 532.62109375,
+    "y2": 536.916015625
+  },
+  "figType": "Figure",
+  "imageText": ["EMS", "Both", "TCE_soot", "0.00", "0.25", "0.50", "0.75", "1.00", "Ant", "Bcel", "Chart", "Cli", "Codec", "Collections", "Compress", "Csv", "Gson", "H2", "JacksonCore", "JacksonDatabind", "JacksonXml", "Jsoup", "JxPath", "Lang", "Math", "Time", "Tomcat"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 334.08,
+    "x2": 548.16,
+    "y1": 353.76,
+    "y2": 516.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Figure4-1.png"
+}, {
+  "caption": "Table 5: Number of equivalent mutants suppressed per rule.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2041625976562,
+    "y1": 559.5210571289062,
+    "y2": 563.8159790039062
+  },
+  "figType": "Table",
+  "imageText": ["Total", "8,776", "Standard", "Library", "Contracts", "1,796", "Loop-Bounds", "Check", "1,562", "Mutually", "Exclusive", "1,488", "equals()", "Reference", "Equality", "1,078", "Useless", "Inititalization", "863", "Mutate", "Constant", "Value", "487", "Algebraic", "Identity", "484", "Unreachable", "Code", "460", "Useless", "Control", "Flow", "364", "Empty", "Branches", "194", "Rule", "n"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 374.88,
+    "x2": 501.12,
+    "y1": 572.64,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table5-1.png"
+}, {
+  "caption": "Table 3: Equivalent mutants found on ground-truth data set.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 293.9554138183594,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "215", "7", "3.26", "11", "5.12", "63", "29.30", "Chart", "20", "1", "5.00", "2", "10.00", "6", "30.00", "Collections", "20", "0", "0.00", "1", "5.00", "7", "35.00", "Csv", "31", "1", "3.23", "1", "3.23", "13", "41.94", "Gson", "70", "2", "2.86", "2", "2.86", "12", "17.14", "JxPath", "21", "1", "4.76", "2", "9.52", "11", "52.38", "Lang", "44", "0", "0.00", "1", "2.27", "11", "25.00", "Math", "9", "2", "22.22", "2", "22.22", "3", "33.33", "N", "%", "N", "%", "N", "%", "Subject", "Mutants", "TCE90E02", "TCEB>>C", "EMS"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 270.24,
+    "y1": 99.84,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table3-1.png"
+}, {
+  "caption": "Figure 1: Strati ed sampling for estimating EMR. The shaded region represents the unknown set of equivalent mutants. The equivalent mutant rate (EMR) of each strata is the percentage of its shaded area (0% for killed mutants). Strati - cation reduces sample variance, and thus the sample size required to estimate the overall EMR.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6510314941406,
+    "y1": 212.0251007080078,
+    "y2": 271.114990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Uncovered", "Covered+Killed", "Covered+Live", "Not", "Equivalent", "Equivalent"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 269.28,
+    "y1": 92.64,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Figure1-1.png"
+}, {
+  "caption": "Table 2: Estimated percentage of equivalent mutants (EMR %) and estimated number of equivalent mutants (Eq.) per subject. Mutation analysis and Sampled summarize the data that underlies these estimations.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3933715820312,
+    "y1": 87.06208801269531,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Chart", "120,273", "2.97", "3,571", "33,738", "30,860", "55,675", "429", "20", "186", "16", "243", "4", "Collect.", "22,999", "1.84", "423", "14,775", "4,453", "3,771", "360", "20", "216", "18", "144", "2", "Csv", "2,133", "2.54", "54", "1,613", "347", "173", "292", "31", "207", "25", "85", "6", "Gson", "8,893", "5.24", "466", "6,141", "1,764", "988", "343", "70", "285", "67", "58", "3", "JxPath", "14,328", "3.07", "440", "8,981", "2,969", "2,378", "242", "21", "146", "18", "96", "3", "Lang", "38,855", "3.69", "1,435", "31,059", "6,797", "999", "251", "44", "203", "41", "48", "3", "Math", "200,147", "2.97", "5,946", "153,023", "32,403", "14,721", "75", "9", "46", "7", "29", "2", "Cov.", "Uncov.", "N", "Eq.", "N", "Eq.", "N", "Eq.", "EMR", "%", "Eq.", "Killed", "Live", "All", "Cov.", "Uncov.", "Subject", "Mutants", "Estimation", "Mutation", "analysis", "Sampled"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 132.96,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table2-1.png"
+}, {
+  "caption": "Figure 5: Distribution of total runtime for all subjects.",
+  "captionBoundary": {
+    "x1": 328.7560119628906,
+    "x2": 547.4016723632812,
+    "y1": 243.1670684814453,
+    "y2": 247.46197509765625
+  },
+  "figType": "Figure",
+  "imageText": ["Major", "EMS", "TCE_javac", "TCE_soot", "e", "n", "ti", "m", "l", "ru", "T", "o", "ta", "Major", "EMS", "TCE_javac", "TCE_soot", "1000000", "100000", "10000", "1000", "100"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 555.36,
+    "y1": 91.67999999999999,
+    "y2": 216.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Figure5-1.png"
+}, {
+  "caption": "Table 6: Tool e ciency results for EMS and both TCE variants, including total runtime across all analyzed mutants, and the time per analyzed mutant (sec/Mut) and time per equivalent mutant detected (sec/EquiMut).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.13787841796875,
+    "y1": 87.06208801269531,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["EMS", "1,193,633", "8,776", "1.26h", "0.004", "0.52", "TCE90E02", "1,193,633", "1,007", "1,549h", "4.67", "5,538", "TCEB>>C", "1,193,633", "2,124", "2,938h", "8.86", "4,980", "Analyzed", "FoundEqui", "Total", "sec/Mut", "sec/EquiMut", "Variant", "Mutants", "Runtime"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 132.96,
+    "y2": 193.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Table6-1.png"
+}, {
+  "caption": "Figure 2: Number of equivalent mutants found in the groundtruth analysis, divided by the RIP-ASH criteria.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8106689453125,
+    "y1": 219.13710021972656,
+    "y2": 234.3909912109375
+  },
+  "figType": "Figure",
+  "imageText": ["Subject", "Chart", "Collections", "Csv", "Gson", "JxPath", "Lang", "Math", "n", "ts", "u", "ta", "n", "t", "m", "a", "le", "o", "f", "e", "q", "u", "iv", "b", "e", "r", "15", "N", "u", "m", "10", "5", "0", "15", "10", "5", "0", "15", "10", "5", "0", "P", "R", "I", "A", "S", "H"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 87.84,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680310-Figure2-1.png"
+}]

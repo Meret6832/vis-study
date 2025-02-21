@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 2: CSTG Construction of Example Program",
+  "captionBoundary": {
+    "x1": 204.66200256347656,
+    "x2": 407.3294372558594,
+    "y1": 270.4358825683594,
+    "y2": 272.5159912109375
+  },
+  "figType": "Figure",
+  "imageText": ["visited", "(edge/node)", "unvisited", "(edge/node)", "vis", "=", "2", "vis", "=", "1", "vis", "=", "1", "win", "=", "0", "atp", "=", "0", "vis", "=", "2", "win", "=", "0", "atp", "=", "0", "vis", "=", "3", "vis", "=", "1", "win", "=", "0", "atp", "=", "0", "vis", "=", "1", "vis", "=", "2", "vis", "=", "1", "win", "=", "0", "atp", "=", "0", "vis", "=", "1", "win", "=", "0", "atp", "=", "0", "(a)", "(b)", "(c)", "branch", "point", "bp", "to", "brc", "edge", "brc-to-bp", "edge", "branch", "L8F", "L8T", "L8", "L7T", "L7", "L7F", "entry", "program", "L8F", "L8T", "L8", "L7T", "L7", "L7F", "entry", "program", "L7T", "L7", "L7F", "entry", "program"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 533.28,
+    "y1": 85.92,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Number of Unique Bugs Detected",
+  "captionBoundary": {
+    "x1": 219.48800659179688,
+    "x2": 392.5048522949219,
+    "y1": 261.7599182128906,
+    "y2": 263.84002685546875
+  },
+  "figType": "Figure",
+  "imageText": ["T-Fuzz", "VUzzer64", "SymSan", "Marco", "AFL", "AFLFast", "Angora", "Honggfuzz", "MOPT", "tcpdump", "10", "5", "0", "sqlite3", "4", "2", "0", "4", "mujs", "2", "0", "2", "jq", "1", "0", "7.5", "infotocap", "5.0", "2.5", "0.0", "cflow", "6", "4", "2", "0", "7.5", "mp42aac", "5.0", "2.5", "0.0", "flvmeta", "4", "2", "0", "wav2swf", "4", "2", "10.0", "mp3gain", "7.5", "5.0", "2.5", "4", "lame", "2", "0", "tiffsplit", "7.5", "5.0", "2.5", "0.0", "10", "jhead", "5", "0", "6", "imginfo", "4", "2", "0"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 554.4,
+    "y1": 86.88,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Figure5-1.png"
+}, {
+  "caption": "Table 3: Quality of Generated Testcases",
+  "captionBoundary": {
+    "x1": 358.72601318359375,
+    "x2": 517.1282348632812,
+    "y1": 436.2478942871094,
+    "y2": 438.3280029296875
+  },
+  "figType": "Table",
+  "imageText": ["objdump", "231(10.83%)", "2,132", "size", "387(26.51%)", "1,460", "nm-new", "493(45.23%)", "1,090", "readelf", "873(27.25%)", "3,204", "New-cov", "Testcases", "Total", "Testcases", "BR", "Program"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 345.59999999999997,
+    "x2": 528.0,
+    "y1": 452.64,
+    "y2": 515.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Table3-1.png"
+}, {
+  "caption": "Table 1: Code Coverage w/ Single-Pass Exploration",
+  "captionBoundary": {
+    "x1": 71.2750015258789,
+    "x2": 276.2646179199219,
+    "y1": 459.6148986816406,
+    "y2": 461.69500732421875
+  },
+  "figType": "Table",
+  "imageText": ["ing", "branches.", "We", "investigate", "if", "the", "branches", "discarded", "by", "the", "BR", "policy", "are", "indeed", "useless", "for", "reaching", "higher", "code", "coverage.", "To", "answer", "this", "question,", "for", "each", "program,", "we", "compared", "the", "code", "coverage", "after", "SymCC", "processed", "the", "same", "input", "corpus", "and", "attempted", "to", "flip", "the", "branches", "according", "to", "the", "BR", "and", "PP", "policies,", "respectively.", "To", "simplify", "the", "evaluation,", "we", "did", "not", "allow", "SymCC", "to", "further", "process", "testcases", "generated", "from", "the", "initial", "input", "corpus.", "Table", "1", "lists", "the", "results.", "We", "can", "see", "that", "for", "all", "four", "programs,", "the", "PP", "policy", "achieved", "higher", "code", "cov-", "erage", "than", "the", "BR", "policy.", "For", "readelf,", "the", "PP", "policy", "achieved", "a", "whopping", "43%", "higher", "code", "coverage.", "This", "evaluation", "shows", "that", "the", "BR", "policy", "can", "miss", "promising", "branches", "that", "could", "lead", "to", "higher", "code", "coverage2."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 296.15999999999997,
+    "y1": 297.12,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Table1-1.png"
+}, {
+  "caption": "Table 2: Code Coverage w/ Continuous Exploration",
+  "captionBoundary": {
+    "x1": 334.3830261230469,
+    "x2": 541.4706420898438,
+    "y1": 148.49490356445312,
+    "y2": 150.57501220703125
+  },
+  "figType": "Table",
+  "imageText": ["objdump", "82442", "6252(7.58%)", "2.68h", "size", "57871", "3777(6.53%)", "2.48h", "nm-new", "58378", "3996(6.85%)", "4.33h", "readelf", "31622", "4394(13.90%)", "0.52h", "Coverage", "Time-to-Term.", "BR", "Program", "Total", "Cov."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.0799999999999,
+    "y1": 165.6,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Table2-1.png"
+}, {
+  "caption": "Table 5: Details of Real-world Applications Evaluated",
+  "captionBoundary": {
+    "x1": 329.71099853515625,
+    "x2": 546.1412963867188,
+    "y1": 391.3908996582031,
+    "y2": 393.47100830078125
+  },
+  "figType": "Table",
+  "imageText": ["No.", "Program", "Version", "No.", "Program", "Version", "1", "nm-new", "2.33.1", "16", "libtiff", "2e822691", "2", "readelf", "2.33.1", "17", "tcpdump", "4.8.1", "+", "libpcap", "1.8.1", "3", "objdump", "2.33.1", "18", "flvmeta", "1.2.1", "4", "size", "2.33.1", "19", "tiffsplit", "libtiff", "3.9.7", "5", "libpng", "1.2.56", "20", "jhead", "3.00", "6", "libxml2", "2.9.2", "21", "imginfo", "jasper", "2.0.12", "7", "file", "5.42", "22", "jq", "1.5", "8", "vorbis", "c1c2831f", "23", "lame", "lame", "3.99.5", "9", "curl", "2481dbe", "24", "wav2swf", "swftools", "0.9.2", "10", "lcms", "430f916", "25", "mujs", "1.0.2", "11", "woff2", "9476664", "26", "sqlite3", "3.8.9", "12", "libjpeg-turbo", "b0971e47", "27", "mp3gain", "1.5.2-r2", "13", "sqlite3", "c78cbf2", "28", "mp42aac", "Bento3", "1.5.1-628", "14", "tcpdump", "4.99.1", "29", "cflow", "1.6", "15", "freetype", "cd02d359a", "30", "infotocap", "ncurses", "6.1"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 552.0,
+    "y1": 408.0,
+    "y2": 538.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Table5-1.png"
+}, {
+  "caption": "Figure 1: Approach Overview",
+  "captionBoundary": {
+    "x1": 114.86900329589844,
+    "x2": 232.96913146972656,
+    "y1": 545.1158447265625,
+    "y2": 547.1959838867188
+  },
+  "figType": "Figure",
+  "imageText": ["trace", "data", "constraint", "Branch", "Scheduler", "Reachability-guided", "2", "3", "Graph", "Transition", "Concolic", "State", "CSTG", "Constructor", "1", "Initial/New", "input", "PUT", "AST", "CE", "Engine", "Asynchronous"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 279.36,
+    "y1": 367.68,
+    "y2": 525.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Figure1-1.png"
+}, {
+  "caption": "Table 4: Path Divergence Rate",
+  "captionBoundary": {
+    "x1": 113.40301513671875,
+    "x2": 234.13914489746094,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["objdump", "4628", "16926", "27.34%", "size", "5304", "10728", "49.44%", "nm-new", "4668", "16975", "27.50%", "readelf", "1551", "11614", "13.35%", "Overall", "16151", "56243", "28.72%", "Rate", "PD", "(excluding", "unsat)", "Total", "Solving", "Count", "PD", "Program"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 263.03999999999996,
+    "y1": 105.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Table4-1.png"
+}, {
+  "caption": "Figure 4: Coverage Difference Score Within Solving Budget",
+  "captionBoundary": {
+    "x1": 318.89801025390625,
+    "x2": 557.25,
+    "y1": 439.94488525390625,
+    "y2": 442.0249938964844
+  },
+  "figType": "Figure",
+  "imageText": ["1.00", "0.75", "0.50", "0.25", "0.00", "0.25", "0.50", "0.75", "1.00", "Marco-MC", "SymSan-pp", "Marco-rdm", "Marco-cfg", "Marco-uv"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 557.76,
+    "y1": 338.88,
+    "y2": 422.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Figure4-1.png"
+}, {
+  "caption": "Table 6: Average Termination Time for SymSan",
+  "captionBoundary": {
+    "x1": 342.0039978027344,
+    "x2": 533.8493041992188,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Program", "Term.", "Time(h)", "Program", "Term.", "Time(h)", "nm-new", "4.33±1.40", "curl", "0.10±0.03", "readelf", "0.52±0.05", "lcms", "0.06±0.01", "objdump", "2.68±0.54", "woff2", ">24", "size", "2.48±0.31", "libjpeg-turbo", "15.43±2.90", "libpng", "0.05±0.01", "sqlite3", "0.02±0.00", "libxml2", "1.57±0.16", "tcpdump", "0.75±0.81", "file", "0.27±0.01", "freetype", "10.36±0.79", "vorbis", "8.66±0.79", "libtiff", "1.93±0.26"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 536.16,
+    "y1": 105.6,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Table6-1.png"
+}, {
+  "caption": "Figure 3: Coverage Difference Score of Real-world Programs",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0338134765625,
+    "y1": 482.94189453125,
+    "y2": 485.0220031738281
+  },
+  "figType": "Figure",
+  "imageText": ["1.00", "0.75", "0.50", "0.25", "0.00", "0.25", "0.50", "0.75", "1.00"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 264.96,
+    "y1": 378.71999999999997,
+    "y2": 463.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623301-Figure3-1.png"
+}]

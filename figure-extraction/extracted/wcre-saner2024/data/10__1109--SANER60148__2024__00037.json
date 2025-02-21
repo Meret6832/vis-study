@@ -1,0 +1,201 @@
+[{
+  "caption": "TABLE II: Part of the Plugins.",
+  "captionBoundary": {
+    "x1": 121.72959899902344,
+    "x2": 238.5515594482422,
+    "y1": 75.95931243896484,
+    "y2": 80.2833251953125
+  },
+  "figType": "Table",
+  "imageText": ["hook", "load", "/", "hook", "store", "offset,", "base", "address,", "value", "hook", "memory", "grow", "alloc", "size,", "previous", "size", "hook", "unary", "operand,", "result,", "Instr", "type", "hook", "binary", "operand1,", "operand2,", "result,", "Instr", "type", "Plugin", "name", "Parameters"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 284.15999999999997,
+    "y1": 88.8,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-TableII-1.png"
+}, {
+  "caption": "Fig. 6: An integer overflow (leading to buffer overflow) bug detected by WASMDYPA.",
+  "captionBoundary": {
+    "x1": 63.710601806640625,
+    "x2": 295.05926513671875,
+    "y1": 262.3644104003906,
+    "y2": 277.70501708984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 295.2,
+    "y1": 73.92,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-Figure6-1.png"
+}, {
+  "caption": "Fig. 7: A buffer overflow bug detected by WASMDYPA.",
+  "captionBoundary": {
+    "x1": 73.29049682617188,
+    "x2": 285.480224609375,
+    "y1": 483.46270751953125,
+    "y2": 487.7867126464844
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 295.2,
+    "y1": 296.64,
+    "y2": 472.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-Figure7-1.png"
+}, {
+  "caption": "Fig. 1: A sample Wasm program illustrating IO2BO bugs we adapted from a real-world vulnerability CWE-190 [52].",
+  "captionBoundary": {
+    "x1": 317.77081298828125,
+    "x2": 549.1195068359375,
+    "y1": 127.3664779663086,
+    "y2": 142.70709228515625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "local.get", "5", "//", "get", "number", "of", "packet", "from", "the", "variable", "5", "2", "i32.const", "2", "//", "store", "2", "on", "the", "top", "of", "the", "stack", "3", "i32.shl", "//", "(the", "number", "of", "packet)", "*", "(sizeof(char*))", "4", "call", "malloc", "//", "potential", "sink", "site"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 552.0,
+    "y1": 74.88,
+    "y2": 111.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: A sample Wasm program illustrating double-free bugs we adapted from a real-world vulnerability CWE-415 [19].",
+  "captionBoundary": {
+    "x1": 314.0038146972656,
+    "x2": 545.3524780273438,
+    "y1": 261.6759948730469,
+    "y2": 277.0166015625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "local.set", "26", "11", "local.get", "26", "12", "call", "free", "//", "call", "free()", "again", "with", "a", "freed", "pointer", "1", "local.get", "2", "//", "get", "the", "base", "address", "from", "variable", "2", "2", "i32.load", "offset=8", "//", "load", "data", "from", "base", "address", "+", "offset", "3", "local.set", "25", "//", "assign", "variable", "25", "with", "data", "from", "stack", "4", "local.get", "25", "//", "place", "value", "of", "variable", "25", "at", "stack", "top", "5", "call", "free", "//", "call", "free()", "with", "a", "pointer", "on", "stack", "6", "...", "7", "//", "omitted", "due", "to", "the", "similarity", "8", "local.get", "2", "9", "i32.load", "offset=8"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 553.4399999999999,
+    "y1": 148.79999999999998,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-Figure2-1.png"
+}, {
+  "caption": "Fig. 4: Core syntax of Wasm language.",
+  "captionBoundary": {
+    "x1": 355.9966125488281,
+    "x2": 504.5828857421875,
+    "y1": 264.0284729003906,
+    "y2": 268.35247802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Function", "f", ":=", "σ", "x{i∗}", "Module", "m", ":=", "f∗", "|", "drop", "|", "nop", "|", "if", "|", "else", "|", "block", "|", "loop", "|", "end", "|", "br", "a", "|", "br", "if", "a", "|", "br", "table", "a+", "|", "select", "|", "memory.grow", "|", "ρ.const", "c", "|", ".", ".", ".", "Val.", "Type", "ρ", "::=", "i32", "|", "i64", "|", "f32", "|", "f64", "Func.", "Type", "σ", "::=", "ρ∗", "→", "ρ∗", "Type", "τ", "::=", "ρ", "|", "σ", "Binary", "Op.", "b", "::=", "i32.add", "|", "i32.mul", "|", "i32.shl", "|", ".", ".", ".", "Unary", "Op.", "u", "::=", "i32.abs", "|", "i32.eqz", "|", ".", ".", ".", "Load/Store", "l", "::=", "ρ.load", "|", "ρ.store", "Local", "Op.", "c", "::=", "local.(set", "|", "get", "|", "tee)", "x", "Global", "Op.", "g", "::=", "global.(set", "|", "get)", "x", "Call", "t", "::=", "call", "f", "|", "call", "indirect", "σ", "Instr.", "i", "::=", "b", "|", "u", "|", "l", "|", "c", "|", "g", "|", "t"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 542.4,
+    "y1": 72.0,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: The architecture of WASMDYPA.",
+  "captionBoundary": {
+    "x1": 103.5519027709961,
+    "x2": 257.2246398925781,
+    "y1": 208.6002960205078,
+    "y2": 212.92431640625
+  },
+  "figType": "Figure",
+  "imageText": ["#", "!", "\""],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 294.24,
+    "y1": 73.92,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-Figure3-1.png"
+}, {
+  "caption": "TABLE III: The micro-benchmark, and its experimental results.",
+  "captionBoundary": {
+    "x1": 187.88519287109375,
+    "x2": 428.6529541015625,
+    "y1": 75.9620590209961,
+    "y2": 80.28607177734375
+  },
+  "figType": "Table",
+  "imageText": ["1", "“BI”", "means", "before", "hook", "instrumentation.", "2", "“AI”", "means", "after", "hook", "instrumentation.", "3", "“EXE”", "means", "the", "execution", "of", "Wasm", "program.", "20", "Normal", "program4", "49", "125", "0.044", "/", "0.898", "0.043", "/", "0.878", "0.050", "/", "0.402", "0.007", "/", "0.092", "19", "Normal", "program3", "49", "125", "0.043", "/", "0.878", "0.044", "/", "0.898", "0.051", "/", "0.408", "0.007", "/", "0.092", "18", "Normal", "program2", "11,256", "39,575", "0.053", "/", "0.005", "0.043", "/", "0.004", "0.178", "/", "0.005", "0.135", "/", "0.005", "17", "Normal", "program1", "7,917", "26,528", "0.046", "/", "0.006", "0.043", "/", "0.005", "0.139", "/", "0.005", "0.096", "/", "0.005", "16", "Stack-based", "BOF2", "94", "310", "0.043", "/", "0.457", "0.040", "/", "0.426", "0.051", "/", "0.165", "0.011", "/", "0.051", "15", "Stack-based", "BOF1", "94", "310", "0.045", "/", "0.479", "0.050", "/", "0.532", "0.054", "/", "0.174", "0.004", "/", "0.019", "12", "BOF2", "3,444", "13,363", "0.048", "/", "0.014", "0.048", "/", "0.014", "0.140", "/", "0.010", "0.092", "/", "0.009", "11", "BOF1", "4,377", "17,089", "0.052", "/", "0.012", "0.045", "/", "0.010", "0.110", "/", "0.006", "0.065", "/", "0.005", "14", "UAF2", "4,252", "16,331", "0.047", "/", "0.011", "0.041", "/", "0.010", "0.133", "/", "0.008", "0.092", "/", "0.008", "10", "UAF1", "4,343", "17,009", "0.052", "/", "0.012", "0.044", "/", "0.010", "0.112", "/", "0.007", "0.068", "/", "0.005", "13", "DF2", "4,259", "16,317", "0.047", "/", "0.011", "0.044", "/", "0.010", "0.128", "/", "0.008", "0.084", "/", "0.007", "9", "DF1", "4,312", "16,935", "0.061", "/", "0.014", "0.041", "/", "0.010", "0.106", "/", "0.006", "0.065", "/", "0.005", "8", "IO2BO", "i64shl", "50", "82", "0.042", "/", "0.840", "0.044", "/", "0.880", "0.046", "/", "0.561", "0.002", "/", "0.063", "7", "IO2BO", "i64mul", "50", "82", "0.043", "/", "0.860", "0.044", "/", "0.880", "0.048", "/", "0.585", "0.004", "/", "0.125", "6", "IO2BO", "i64sub", "50", "82", "0.044", "/", "0.880", "0.042", "/", "0.840", "0.047", "/", "0.573", "0.005", "/", "0.156", "5", "IO2BO", "i64add", "50", "82", "0.044", "/", "0.880", "0.043", "/", "0.860", "0.049", "/", "0.598", "0.006", "/", "0.188", "4", "IO2BO", "i32shl", "49", "66", "0.044", "/", "0.898", "0.042", "/", "0.857", "0.047", "/", "0.712", "0.005", "/", "0.294", "3", "IO2BO", "i32mul", "49", "66", "0.043", "/", "0.878", "0.041", "/", "0.837", "0.049", "/", "0.742", "0.008", "/", "0.471", "2", "IO2BO", "i32sub", "49", "66", "0.044", "/", "0.898", "0.042", "/", "0.857", "0.047", "/", "0.712", "0.005", "/", "0.294", "1", "IO2BO", "i32add", "49", "66", "0.042", "/", "0.857", "0.041", "/", "0.837", "0.047", "/", "0.712", "0.006", "/", "0.353", "Test", "Vulnerability", "LoC", "BI1", "LoC", "AI2", "Instrumentation(s)", "EXE3BI", "Time", "(s)", "EXE", "AI", "Time", "(s)", "Analysis", "Time", "(s)", "WASMDYPA", "WasmatiCase", "Type", "/", "per", "line", "(ms)", "/", "per", "line", "(ms)", "/", "per", "line", "(ms)", "/", "per", "line", "(ms)"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 547.1999999999999,
+    "y1": 88.8,
+    "y2": 399.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: Experimental results on real-world benchmarks.",
+  "captionBoundary": {
+    "x1": 65.72219848632812,
+    "x2": 293.3803405761719,
+    "y1": 420.06219482421875,
+    "y2": 424.3861999511719
+  },
+  "figType": "Table",
+  "imageText": ["1", "“IO”", "means", "integer", "overﬂow.", "2", "“SOF”", "means", "stack", "buffer", "overﬂow.", "Real-world", "941", "2", "7", "5", "2", "40", "56", "Dataset", "All", "IO1", "UAF", "BOF", "DF", "SOF2", "Total"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 282.24,
+    "y1": 432.96,
+    "y2": 477.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-TableIV-1.png"
+}, {
+  "caption": "TABLE I: Overflow predicates used as pre-conditions.",
+  "captionBoundary": {
+    "x1": 327.506591796875,
+    "x2": 532.4519653320312,
+    "y1": 75.96041107177734,
+    "y2": 80.284423828125
+  },
+  "figType": "Table",
+  "imageText": ["x", "=", "o1", "o2", "x", "o2", "=", "o1", "x", "=", "o1", "+", "so2", "(o1", ">", "0", "∧", "o2", ">", "0", "∧", "x", "<", "0)∨", "(o1", "<", "0", "∧", "o2", "<", "0", "∧", "x", ">", "0)", "x", "=", "o1", "−", "so2", "(o1", ">", "0", "∧", "o2", "<", "0", "∧", "x", "<", "0)∨", "(o1", "<", "0", "∧", "o2", ">", "0", "∧", "x", ">", "0)", "x", "=", "o1", "∗", "so2", "x", "=", "0", "∧", "x/o1", "=", "o2", "Arithmetic", "operations", "Overﬂow", "predicates"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 523.1999999999999,
+    "y1": 88.8,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00037-TableI-1.png"
+}]

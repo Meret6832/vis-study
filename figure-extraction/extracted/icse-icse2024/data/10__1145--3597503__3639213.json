@@ -1,0 +1,321 @@
+[{
+  "caption": "Figure 8: CGIR conversion and CSG construction process",
+  "captionBoundary": {
+    "x1": 191.08299255371094,
+    "x2": 420.9079895019531,
+    "y1": 400.4573059082031,
+    "y2": 404.75201416015625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 270.71999999999997,
+    "y2": 399.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Syntax of CGIR programs",
+  "captionBoundary": {
+    "x1": 235.0760040283203,
+    "x2": 376.9178161621094,
+    "y1": 256.1192932128906,
+    "y2": 260.41400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["|", "Ctor", "constructor", "|", "LibCall", "library", "call", "|", "EventCall", "event", "call", "|", "Fallback", "fallback", "function", "|", "BuiltInCall", "call", "built-in", "function", "|", "SendCall", "Solidity", "send", "|", "Mod", "modi￿er", "|", "InternalCall", "internal", "function", "call", "|", "TransferCall", "Solidity", "transfer", "Function", "Type", "Function", "Call", "Type", ")", "::=", "Normal", "normal", "function", "2", "::=", "LowCall", "low-level", "Solidity", "call", "|", "ExternalCall", "external", "function", "call", "|", "Bool", "boolean", "|", "B1;", "B2", "sequence", "|", "true|false", "boolean", "|", "String", "string", "|", "assert", "4", "assertion", "|", "G", "variable", "|", "Int", "integer", "|", "require", "4", "require", "|", "!", "4", "unary", "operation", "|", "Uint", "unsigned", "integer", "|", "if", "4", "then", "B1", "else", "B2", "if-then-else", "|", "41", "⊕", "42", "binary", "operation", "|", "Byte", "byte", "|", "while", "4", "do", "B", "while", "loop", "|", "mapping(C8", "7!", "48", ")", "mapping", "with", "C", "keys", "|", "Map(C)", "mapping", "with", "C", "keys", "|", "for", "4", "do", "B", "for", "loop", "|", "struct(G8", "7!", "48", ")", "struct", "|", "Struct", "B", "struct", "|", "skip", "skip", "|", "41", "[42]", "data", "structure", "index", "|", "Array", "0", "array", "|", "fallback", "20;;", ".E0;D4", "to", "5", "fallback", "statement", "|", "41", "[42", "a", "43]", "data", "structure", "update", "|", "Built-in", "built-in", "variables", "|", "Balance", "balance", "Types", "Statements", "Expressions", "C", "::=", "Address", "address", "B", "::=", "let", "G", ":", "g", "=", "4", "assignment", "4", "::=", "=", "constants"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 545.28,
+    "y1": 84.96,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure7-1.png"
+}, {
+  "caption": "Table 6: Comparison between SCVHunter and its variants on the four vulnerability detection tasks",
+  "captionBoundary": {
+    "x1": 103.47698974609375,
+    "x2": 508.218017578125,
+    "y1": 87.0622787475586,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["SCVHunter", "93.72", "90.60", "88.84", "89.71", "91.07", "89.43", "84.41", "86.85", "85.41", "82.69", "82.33", "82.51", "87.37", "83.42", "83.61", "83.51", "SCVHunter-WCN", "87.74", "84.38", "79.26", "81.74", "84.73", "84.16", "79.74", "81.89", "80.29", "79.63", "77.26", "78.43", "82.44", "82.17", "80.11", "81.13", "SCVHunter-HOG", "80.99", "79.86", "73.62", "76.61", "76.62", "79.17", "70.44", "74.55", "73.35", "71.47", "70.23", "70.84", "74.11", "76.39", "69.82", "72.96", "Acc", "Recall", "Precision", "F1", "Acc", "Recall", "Precision", "F1", "Acc", "Recall", "Precision", "F1", "Acc", "Recall", "Precision", "F1", "Methods", "Reentrancy", "Block", "Info", "Dependency", "Nested", "Call", "Transaction", "State", "Dependency"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 93.6,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Table6-1.png"
+}, {
+  "caption": "Figure 9: The work ow of the vulnerability detector",
+  "captionBoundary": {
+    "x1": 68.2979965209961,
+    "x2": 279.5367736816406,
+    "y1": 699.7652587890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["Node-level", "Attention", "Path-level", "Attention", "Classifier", "𝑍", "𝑍%#", "𝑍%\"", "𝑀#!", "ℎ$", "𝑀#!", "ℎ$", "Meta-path", "Φ\"", "Meta-path", "Φ!", "…", "𝑦##", "MLP", "Module", "Conv", "Path-", "Level", "\"Node-", "Level", "𝑠", "!", "𝑠!", "\"Node-", "Level"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 277.92,
+    "y1": 571.68,
+    "y2": 691.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure9-1.png"
+}, {
+  "caption": "Figure 11: ROC analysis of SCVHunter and its two variants on di erent vulnerability detection",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.196044921875,
+    "y1": 688.8060913085938,
+    "y2": 704.059814453125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Transaction", "State", "SCVHunterWCN", "SCVHunterHOG", "SCVHunter", "a", "te", "e", "R", "o", "s", "it", "iv", "e", "P", "T", "ru", "False", "Positive", "Rate", "0.00", "0.25", "0.50", "0.75", "1.00", "1.00", "0.75", "0.50", "0.25", "0.00", "AUC", "=", "0.86", "AUC", "=", "0.77", "AUC", "=", "0.94", "(c)", "Nested", "Call", "SCVHunterWCN", "SCVHunterHOG", "SCVHunter", "a", "te", "e", "R", "o", "s", "it", "iv", "e", "P", "T", "ru", "False", "Positive", "Rate", "0.00", "0.25", "0.50", "0.75", "1.00", "1.00", "0.75", "0.50", "0.25", "0.00", "AUC", "=", "0.82", "AUC", "=", "0.73", "AUC", "=", "0.92", "(b)", "Block", "Info", "Dependency", "SCVHunterWCN", "SCVHunterHOG", "SCVHunter", "a", "te", "e", "R", "o", "s", "it", "iv", "e", "P", "T", "ru", "False", "Positive", "Rate", "0.00", "0.25", "0.50", "0.75", "1.00", "1.00", "0.75", "0.50", "0.25", "0.00", "AUC", "=", "0.85", "AUC", "=", "0.78", "AUC", "=", "0.97", "(a)", "Reentrancy", "SCVHunterWCN", "SCVHunterHOG", "SCVHunter", "a", "te", "e", "R", "o", "s", "it", "iv", "e", "P", "T", "ru", "False", "Positive", "Rate", "0.00", "0.25", "0.50", "0.75", "1.00", "1.00", "0.75", "0.50", "0.25", "0.00", "AUC", "=", "0.87", "AUC", "=", "0.74", "AUC", "=", "0.98"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 535.1999999999999,
+    "y1": 499.68,
+    "y2": 684.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure11-1.png"
+}, {
+  "caption": "Figure 1: Reentrancy",
+  "captionBoundary": {
+    "x1": 131.76199340820312,
+    "x2": 216.0780029296875,
+    "y1": 211.49630737304688,
+    "y2": 215.791015625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "contract", "Attacker", "{", "2", "function", "()", "payable", "{", "3", "Victim(msg.sender).withdraw", "();}", "4", "function", "attack(address", "addr)", "{", "5", "Victim(addr).withdraw", "();}}", "1", "contract", "Victim", "{", "2", "mapping(address", "=>", "uint)", "public", "userBalance;", "3", "function", "withdraw", "()", "{", "4", "uint", "amount", "=", "userBalance[msg.sender", "];", "5", "if", "(amount", ">", "0)", "{", "6", "require(amount", ">", "0)", "7", "msg.sender.call{value:amount", "}(\"\");", "8", "userBalance[msg.sender]", "=", "0;}}}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 47.519999999999996,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Block Info Dependency",
+  "captionBoundary": {
+    "x1": 371.76300048828125,
+    "x2": 504.3878173828125,
+    "y1": 168.60726928710938,
+    "y2": 172.9019775390625
+  },
+  "figType": "Figure",
+  "imageText": ["balance);}}}", "1", "contract", "Roulette", "{", "2", "uint", "public", "pastBlockTime;", "3", "fallback", "()", "external", "payable", "{", "4", "require(msg.value", "==", "1", "ether);", "5", "require(block.timestamp", "!=", "pastBlockTime);", "6", "pastBlockTime", "=", "block.timestamp;", "7", "if(block.timestamp", "%", "15", "==", "0)", "{", "//", "winner", "8", "payable(msg.sender).transfer(address(this)."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 312.0,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Nested Call",
+  "captionBoundary": {
+    "x1": 396.1700134277344,
+    "x2": 479.9842834472656,
+    "y1": 509.1392517089844,
+    "y2": 513.4339599609375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "contract", "Roulette", "{", "2", "for", "(uint", "i", "=", "0;", "i<member.length;", "i++)", "{", "3", "member[i].send(1", "wei);}}"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 312.0,
+    "x2": 559.1999999999999,
+    "y1": 471.84,
+    "y2": 503.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure3-1.png"
+}, {
+  "caption": "Table 3: Filtered contracts and labeled contract distribution",
+  "captionBoundary": {
+    "x1": 53.94598388671875,
+    "x2": 293.5898132324219,
+    "y1": 87.0622787475586,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Reentrancy", "9,352", "203", "97", "Block", "Info", "24,689", "184", "116", "Nested", "Call", "28,438", "187", "113", "Transaction", "State", "4,301", "180", "120", "Vulnerability", "Filtered", "Contracts", "Vulnerable", "Non-vulnerable"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 281.28,
+    "y1": 93.6,
+    "y2": 140.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Table3-1.png"
+}, {
+  "caption": "Figure 4: Transaction State Dependency",
+  "captionBoundary": {
+    "x1": 93.69999694824219,
+    "x2": 254.13760375976562,
+    "y1": 168.60726928710938,
+    "y2": 172.9019775390625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "contract", "Victim", "{", "2", "address", "owner", "=", "owner", "address;", "3", "function", "sendMoney", "(address", "addr)", "{", "4", "require", "(tx.origin", "==", "owner);", "5", "addr.transfer", "(1", "Ether);}}", "6", "contract", "Attacker", "{", "7", "function", "attack", "(address", "vim", "addr", ",", "address", "myAddr)", "{", "8", "Victim", "vic", "=", "Victim", "(vim", "addr);", "9", "vic.sendMoney(myAddr);}}"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 47.519999999999996,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Overview of SCVHunter",
+  "captionBoundary": {
+    "x1": 103.43199920654297,
+    "x2": 244.40830993652344,
+    "y1": 699.7652587890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["User", "CGIR", "Vulnerability", "Detector", "selection", "rules", "Core", "node", "Generator", "Graph", "Contract", "Translator", "IR", "Q", "R", "CSG", "Contract", "Smart"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 285.59999999999997,
+    "y1": 596.64,
+    "y2": 696.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Data structures for recording account information",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1748657226562,
+    "y1": 198.69229125976562,
+    "y2": 202.98699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Data", "structure", "d", "1", "struct", "Checkpoint", "{", "2", "uint", "fromBlock;", "3", "uint", "value;", "4", "}", "5", "mapping", "(address", "=>", "6", "Checkpoint", "[])", "balances;", "(c)", "Data", "structure", "c", "1", "struct", "asset", "{", "2", "string", "name;", "3", "uint", "amount;", "4", "}", "5", "mapping(address", "=>", "asset)", "6", "public", "balances;", "(b)", "Data", "structure", "b", "1", "mapping", "(address", "=>", "uint256)", "2", "userID;", "3", "mapping", "(uint256", "=>", "uint256)", "4", "balances;", "(a)", "Data", "structure", "a", "1", "mapping(address", "=>", "uint256)", "2", "public", "balance;"],
+  "name": "6",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.56,
+    "y1": 85.92,
+    "y2": 193.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure6-1.png"
+}, {
+  "caption": "Table 4: Performance comparison with neural network-based approaches",
+  "captionBoundary": {
+    "x1": 157.50799560546875,
+    "x2": 454.1841125488281,
+    "y1": 87.0622787475586,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["\"-\"", "means", "the", "corresponding", "tool", "does", "not", "support", "detecting", "this", "type", "of", "vulnerability.", "SCVHunter", "93.72", "90.60", "88.84", "89.71", "90.65", "87.52", "84.13", "85.79", "85.41", "82.69", "82.33", "82.51", "87.37", "83.42", "83.61", "83.51", "TMP", "83.57", "83.05", "77.14", "79.99", "82.39", "83.13", "74.65", "78.66", "-", "-", "-", "-", "-", "-", "-", "-", "AME", "88.63", "87.15", "82.25", "84.63", "85.33", "84.26", "83.78", "84.02", "-", "-", "-", "-", "-", "-", "-", "-", "DR-GCN", "80.55", "80.71", "74.11", "77.27", "79.27", "76.97", "72.21", "74.51", "-", "-", "-", "-", "-", "-", "-", "-", "LSTM", "57.68", "65.93", "53.42", "59.02", "53.44", "59.17", "52.12", "55.42", "55.06", "56.33", "47.61", "51.60", "53.47", "60.24", "50.83", "55.14", "GRU", "61.46", "67.61", "55.19", "60.77", "57.22", "60.39", "52.16", "55.97", "55.27", "54.32", "48.98", "47.55", "51.51", "63.44", "53.72", "58.18", "Vanilla-RNN", "51.43", "56.92", "50.37", "53.45", "48.61", "44.24", "53.36", "48.37", "49.22", "45.26", "48.31", "46.74", "47.95", "52.43", "44.86", "48.35", "Acc", "Recall", "Precision", "F1", "Acc", "Recall", "Precision", "F1", "Acc", "Recall", "Precision", "F1", "Acc", "Recall", "Precision", "F1", "Methods", "Reentrancy", "Timestamp", "Dependency", "Nested", "Call", "Transaction", "State", "Dependency"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 93.6,
+    "y2": 195.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Table4-1.png"
+}, {
+  "caption": "Figure 10: Time overhead of SCVHunter",
+  "captionBoundary": {
+    "x1": 354.2030029296875,
+    "x2": 521.9523315429688,
+    "y1": 681.5952758789062,
+    "y2": 685.8900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Min", "Max", "Avg", "e", "o", "v", "er", "h", "ea", "d", "(s", ")", "T", "im", "0.66", "0.21", "0.1", "0.35", "2.04", "0.63", "1.07", "0.34", "5", "·", "10−2", "0.1", "8", "·", "10−2", "0.23", "2", "1.5", "1", "0.5", "r", "SCVH", "unte", "or", "lity", "D", "etect", "Vuln", "erabi", "rator", "raph", "Gene", "Cont", "ract", "G", "r", "IR", "Tran", "slato"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 558.24,
+    "y1": 588.9599999999999,
+    "y2": 673.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Figure10-1.png"
+}, {
+  "caption": "Table 1: Selection rules for locating core node",
+  "captionBoundary": {
+    "x1": 345.8420104980469,
+    "x2": 530.012451171875,
+    "y1": 87.0622787475586,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Nested", "Call", "E0A)~?4", "(5", ">A", ")", "∨", "=E", ">=C08=43", "(!>F", "0;;)", "Transaction", "State", "Dependency", "E0A)~?4", "(CG", ".>A868=)", "∨", "=E", ">=C08=43", "(A4@D8A4)", "E0A", "BB86=", "~", "(1;>2:.8=5", ">A<0C8>=)", "Block", "Info", "Dependency", "E0A)~?4", "(1;>2:.8=5", ">A<0C8>=)∨", "=E", ">=C08=43", "(20;;", ".E0;D4)", "Vulnerability", "type", "Core", "node", "selection", "rule", "Reentrancy", "E0A)~?4", "(", "0;0=24)", "∨", "E0A", "BB86=(", "0;0=24)∨"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 93.6,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Table1-1.png"
+}, {
+  "caption": "Table 2: Two-level classi cation of edges",
+  "captionBoundary": {
+    "x1": 356.08099365234375,
+    "x2": 519.7730712890625,
+    "y1": 595.5152587890625,
+    "y2": 599.8099975585938
+  },
+  "figType": "Table",
+  "imageText": ["fallback", "fallback", "20;;", ".E0;D4", "to", "5", "FB", "fallback", "edge", "access", "41", "=", "42", "AC", "assignment", "let", "G", ":", "g", "=", "4", "AG", "data", "ow", "for", "loop", "for", "4", "FO", "sequence", "B1;", "B2", "SQ", "while", "loop", "while", "4", "WH", "if", "4", "IF", "then", "B", "TH", "else", "B", "EL", "if-then-else", "require", "require", "4", "RG", "control", "ow", "Semantic", "Statement", "First-level", "Second-level", "assertion", "assert", "4", "AS"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 547.1999999999999,
+    "y1": 602.88,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639213-Table2-1.png"
+}]

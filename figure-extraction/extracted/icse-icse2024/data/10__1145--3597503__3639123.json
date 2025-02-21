@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Parsing patterns of Slimming for configuration files",
+  "captionBoundary": {
+    "x1": 190.14039611816406,
+    "x2": 404.8814697265625,
+    "y1": 322.8705139160156,
+    "y2": 326.582275390625
+  },
+  "figType": "Figure",
+  "imageText": ["(3)", "Extracted", "mappings", "naming_strategy", "org.cfg.NamingStrategy", "(2)", "Parsing", "pattern", "spring.jpa.hibernate.ddl-auto", "update", "naming_strategy", "org.cfg.NamingStrategy", "spring.jpa.database", "H2", "spring.jpa.hibernate.ddl-auto=update", "naming_strategy=", "org.", "cfg.", "NamingStrategy", "spring.jpa.database=H2", "(3)", "Extracted", "mappings", "spring.datasource.driver-class-name", "com.mysql.cj.jdbc.Driver", "(2)", "Parsing", "pattern", "spring.datasource.driver-class-name", "com.mysql.cj.jdbc.Driver", "spring:", "datasource:", "username:", "root", "password:", "*", "driver-class-name:", "com.mysql.cj.jdbc.Driver", "spring.datasource.username", "root", "spring.datasource.password", "*", "ception", "CldConfig", "io.minio.messages.CloudConfig", "expiredJwt", "io.jsonwebtoken.ClaimJwtEx-", "(3)", "Extracted", "mappings", "(1)", "CldConfig", ";", "(2)", "io.minio.messages.CloudConfig", "(1)", "io.jsonwebtoken.ClaimJwtException;", "(2)", "expiredJwtException", "(2)", "Parsing", "pattern", "<bean", "id=\"CldConfig\"", "class=\"io.minio.messages.CloudConfig\">", "<constructor-arg", "type=\"io.jsonwebtoken.ClaimJwtException\"", "index=\"0\"", "ref=\"expiredJwtException\"/>", "<constructor-arg", "index=\"1\"", "value=\"130\"/>", "</bean>", "File", "Type", "Parsing", "Pattern", "Illustrative", "Example", "(1)", "Slimming", "extracts", "the", "attributes", "and", "their", "assigned", "attribute", "values", "directly", "from", "a", "*.properties", "file.", "(2)", "For", "the", "extracted", "attributes", "and", "their", "corresponding", "values,", "Slimming", "constructs", "the", "mappings", "in", "the", "following", "format:", "attr1", "attr2,", "where", "attr1", "is", "a", "string", "attribute,", "and", "attr2", "is", "attr1’s", "attribute", "value", "of", "the", "class", "name.", "(1)", "configuration", "file", "(1)", "configuration", "file", "(1)", "Slimming", "extracts", "the", "attributes", "and", "their", "corresponding", "attribute", "values", "that", "are", "represented", "in", "hierarchical", "structures", "from", "a", "*.yml", "file.", "(2)", "For", "the", "extracted", "attributes", "and", "their", "corresponding", "values,", "Slimming", "constructs", "the", "mappings", "in", "the", "following", "format:", "attr1", "attr2,", "where", "attr1", "is", "a", "string", "attribute,", "and", "attr2", "is", "attr1’s", "attribute", "value", "of", "the", "class", "name.", "configuration", "file", "(1)", "For", "each", "tag", "of", "a", "file,", "Slimming", "extracts", "all", "the", "attribute", "values", "of", "string", "type.", "(2)", "For", "the", "extracted", "string", "attributes,", "Slimming", "constructs", "the", "mappings", "between", "them", "in", "the", "following", "format:", "attr1", "attr2,", "where", "attr1", "is", "a", "string", "attribute", "other", "than", "the", "class", "name,", "and", "attr2", "is", "a", "string", "of", "the", "class", "name."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 508.32,
+    "y1": 116.64,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Modelling string manipulations",
+  "captionBoundary": {
+    "x1": 97.08470153808594,
+    "x2": 241.10838317871094,
+    "y1": 488.39984130859375,
+    "y2": 492.1116027832031
+  },
+  "figType": "Figure",
+  "imageText": ["Algorithm", "1:", "Modelling", "string", "manipulations", "10", "else", "11", "model_result", "←", "instanceObject.APIsignature(arg);", "12", "start_variable", "←", "update_variable(model_result);", "13", "else", "14", "start_variable", "←", "pointer_analysis(tmp_statement);", "15", "return", "model_result;", "1", "Initiate", "model_result;", "2", "start_variable", "←", "start_location;", "3", "stringOperations", "←", "[String:String:subString(int),String:int:length(),...];", "4", "while", "start_variable", "≠", "end_location", "do", "5", "tmp_statement", "=", "get_statement(start_variable);", "6", "if", "tmp_statement.Contains(stringOperations)", "then", "7", "(instanceObject,", "APIsignature,", "arg)", "←", "method_analysis(tmp_statement);", "8", "if", "instanceObject’s", "type", "{Integer,", "String,", "Char}", "then", "9", "model_result", "←", "valueOfObject(instanceObject).APIsignature(arg);", "Input:", "start_location;", "end_location", "Output:", "model_result"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 278.88,
+    "y1": 343.68,
+    "y2": 485.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Figure5-1.png"
+}, {
+  "caption": "Table 3: Experiment results of RQ1",
+  "captionBoundary": {
+    "x1": 364.595703125,
+    "x2": 486.9988708496094,
+    "y1": 120.3502426147461,
+    "y2": 124.06201171875
+  },
+  "figType": "Table",
+  "imageText": ["(100%", "test", "coverage", "for", "byte", "code", "instructions),", "to", "precisely", "and", "completely", "obtain", "the", "reflective", "targets.", "Doop", "[6]", "2,840", "3,507", "680", "44.8%", "80.7%", "57.6%", "JackEE", "[20]", "3,020", "2,709", "500", "52.7%", "85.8%", "65.3%", "Soot", "[18]", "2,693", "5,042", "827", "34.8%", "76.5%", "47.9%", "Slimming", "3,477", "107", "43", "97.0%", "98.8%", "97.9%", "Baselines", "Metrics", "TP", "FP", "FN", "Precision", "Recall", "F-measure"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 542.88,
+    "y1": 129.6,
+    "y2": 226.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table3-1.png"
+}, {
+  "caption": "Table 1: Demographics of collected Java projects for RQ1 and RQ2",
+  "captionBoundary": {
+    "x1": 53.787200927734375,
+    "x2": 284.14947509765625,
+    "y1": 120.3502426147461,
+    "y2": 124.06201171875
+  },
+  "figType": "Table",
+  "imageText": ["#Tests", "737", "1", "27", "4", "#Stars", "34,200", "5", "4,527", "55", "#Modules", "14", "1", "5", "4", "#Direct", "Dependencies", "30", "6", "13", "10", "Max.", "Min.", "Avg.", "Med.", "Metrics", "Statistics"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 270.24,
+    "y1": 129.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table1-1.png"
+}, {
+  "caption": "Table 2: Statistics of our constructed benchmark",
+  "captionBoundary": {
+    "x1": 84.57859802246094,
+    "x2": 253.35952758789062,
+    "y1": 188.0843048095703,
+    "y2": 191.79608154296875
+  },
+  "figType": "Table",
+  "imageText": ["Sum", "2,031", "168", "1,082", "217", "22", "3,520", "DaCaPo", "143", "84", "0", "4", "10", "241", "37", "Java", "projects", "1,888", "84", "1,082", "213", "12", "3,279", "Type", "1", "Type", "2", "Type", "3", "Type", "4", "Others", "Sum"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 257.28,
+    "y1": 197.76,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table2-1.png"
+}, {
+  "caption": "Table 7: Statistics of bloated dependencies in our large-scale study",
+  "captionBoundary": {
+    "x1": 53.6870002746582,
+    "x2": 284.2507629394531,
+    "y1": 120.3502426147461,
+    "y2": 124.06201171875
+  },
+  "figType": "Table",
+  "imageText": ["94", "0", "2.8", "1", "#Bloated", "Dependencies", "that", "induce", "dependency", "conflicts", "#Bloated", "Dependencies", "that", "induce", "license", "conflicts", "19", "0", "0.2", "0", "#Bloated", "Dependencies", "that", "are", "vulnerable", "libraries", "15", "0", "0.6", "0", "#Bloated", "Dependencies", "that", "are", "outdated", "libraries", "153", "0", "7.4", "4", "26", "0", "2.2", "2", "#Dependencies", "only", "invoked", "by", "client", "project", "via", "Java", "reflections", "#Bloated", "dependencies", "inherited", "from", "parent", "POM", "156", "0", "2.2", "0", "#Bloated", "transitive", "dependencies", "193", "0", "27.9", "23", "#Bloated", "direct", "dependencies", "6", "0", "0.38", "0", "75.9", "3.3", "41.9", "38.3", "Proportion", "of", "bloated", "dependencies", "to", "all", "the", "introduced", "dependencies", "(%)", "#Bloated", "dependencies", "198", "1", "30.1", "25", "Statistics", "in", "Each", "Project", "Max.", "Min.", "Avg.", "Med."],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 279.36,
+    "y1": 129.6,
+    "y2": 474.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table7-1.png"
+}, {
+  "caption": "Table 8: Experiment results of RQ3",
+  "captionBoundary": {
+    "x1": 364.595703125,
+    "x2": 486.9988708496094,
+    "y1": 114.8381576538086,
+    "y2": 118.5499267578125
+  },
+  "figType": "Table",
+  "imageText": [":", "Rejected", "issues", "in", "which", "developers", "did", "not", "care", "about", "bloated", "dependencies;", ":", "Pending", "issues;", "Removing", "the", "bloated", "dependencies", "can", "also", "resolve:", "vulnerabilities", ",", "license", "incompatibilities", ",", "dependency", "conflicts", "outdated", "dependencies", ".", "Detailed", "info", "is", "on", "https://slimming-fat.github.io/", "Jax-rs2#203♠", ";", "TarsJava#170♠;", "Small-spring#56♠", ";", "Immutables#1382♠", ";", "Tomee#852♠", ";", "Azure-iot#1543♠", ";", "Quickstart#388♠", ";", "JavaNotes#1♠", ";", "Lemon#210♠", ";", "Karate-grpc#23♠", ";", "Camel-kafka#1352♠", ";", "Linkis#1716♠", ";", "Ysomap#18♠", ";", "XChange#4200♠;", "Swagger-parser#1590♠;", "Vertx#429♠", ";", "Mycat2#694♠", ";", "Yuzhouwan#343♠;", "Openapi-gen#9768♠", ";", "Jax#36♠", ";", "Nerdronix#3♠", ";", "Spring-boot#32♠", ";", "CombatLogX#191♠", ";", "Tutorials#13568♠", ";", "Jetcache#565♠", ";", "Wso2-syn#1771♠", ";", "Tesseract4java#61♠", ";", "Openimaj#317♠", ";", "Azure#19070♠", ";", "QuickBooks#158♠", ";", "Dubbo#278♠", ";", "Deeplearning4j#9190♠;", "Springboot#34♣;", "Alldata#50♣", ";", "Tez#127♣", ";", "Amazon#135♣", ";", "OSM2World#174•", ";", "Kafka#83•", ";", "Skywalking#172", ";", "Jmeter#523", ";", "Java-sec#75", ";", "Jeecg#4819", ";", "Ice4j#258", ";", "DataSphereStudio#584", ";", "Notebook#24", ";", "Shardingsphere#153", ";", "Scouter#925", ";", "Myblog#8", ";", "Yshopmall#23", ";", "X-SpringBoot#31", ";", "Itstack#57", ";", "Pay-java#92", ";", "Kontraktor#119", ";", "Jprotobuf#84", ";", "Spring-amqp#65", ";", "Milton2#176", ";", "Ninja#746", ";", "Protege#1051", ";", "Aws#3192", ";", "JacORB#299", ";", "Mall4j#18", ";", "Asterisk#383", ";", "Msf4j#582", ";", "DataX#973", ";", "Karamel#206", ";", "RuoYi#36", ";", "♠:", "Confirmed", "issues", "were", "fixed", "with", "our", "debloating", "solutions;", "♣:", "Confirmed", "issues", "were", "under", "fixing", "with", "our", "debloating", "solutions;", "•:", "Confirmed", "issues", "but", "developers", "plan", "to", "use", "bloated", "dependencies", "in", "future;", "66", "Issue", "Reports", "Submitted", "by", "Slimming"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 308.64,
+    "x2": 547.1999999999999,
+    "y1": 121.92,
+    "y2": 345.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table8-1.png"
+}, {
+  "caption": "Figure 1: An illustrative example of challenges in resolving Java reflections",
+  "captionBoundary": {
+    "x1": 52.30550003051758,
+    "x2": 285.8852844238281,
+    "y1": 310.3155212402344,
+    "y2": 323.71331787109375
+  },
+  "figType": "Figure",
+  "imageText": ["run()", "Line:14", "Return:", "io.jsonwebtoken.Codec", "Reflective", "target:", "The", "class", "from", "library", "io.jsonwebtoken:jjwt:0.9.1", "Codec.compression", "(“&io.jsonwebtoken”)", "getMessage()", "Line:16", "(c)", "The", "call", "chains", "of", "project", "API", "getMessage()", "Information", "from", "annotations", "and", "configuration", "file", "Dependency", "Injection", "(b)", "The", "dynamic", "techniques", "of", "SpringBoot", "framework", "Return:", "io.minio.messages.CloudConfig", "Reflective", "target:", "The", "class", "from", "library", "io.minio:minio:8.5.3", "Paramter:", "“CldConfig”", "application", "Line:14", "getBean(name)", "doGetBean(name,…)", "beanName", "=", "transformedBean(name)", "mbd", "=", "BeanDefinition(beanName)", "createBean(mbd,…)", "resolveBeanClass(mbd,…)", "doResolveBeanClass(mbd,…)", "className", "=", "getBeanName()", "ClassUtils.forName(className)", "Class.forName(className)", "getBean()", "Line:15", "(a)", "A", "code", "Snippet", "from", "the", "open-source", "project", "Mall", "10", "@SpringBootApplication", "11", "@ImportResource(\"classpath:messageBean.xml\")", "12", "public", "class", "MApplication", "{", "13", "public", "static", "void", "main(String[]", "args)", "{", "14", "ApplicationContext", "application", "=", "SpringApplication.run(MApplication.class,", "args);", "15", "NotifConfig", "ms", "=", "application.getBean(“CldConfig“,", "NotifConfig.class);", "16", "String", "message", "=", "ms.getMessage();", "17", "...", "}", "75", "}", "01", "public", "Object", "compression(String", "className)", "{", "02", "className", "=", "className", "+", "\"Codec\";", "03", "String", "prefix", "=", "\"&\";", "04", "className", "=", "className.substring(prefix.length());", "05", "Class<?>", "object", "=", "Class.forName(className);", "06", "return", "object;", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 298.08,
+    "y1": 116.64,
+    "y2": 294.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Figure1-1.png"
+}, {
+  "caption": "Table 4: Effectiveness of analyzing different types of reflective targets",
+  "captionBoundary": {
+    "x1": 52.049800872802734,
+    "x2": 285.88427734375,
+    "y1": 120.3502426147461,
+    "y2": 124.06201171875
+  },
+  "figType": "Table",
+  "imageText": ["Doop", "[6]", "728", "168", "0", "165", "0", "1,779", "JackEE", "[20]", "728", "168", "828", "217", "0", "1,079", "Soot", "[18]", "623", "168", "0", "217", "0", "1,685", "Slimming", "1,982", "168", "1,075", "217", "0", "35", "Baselines", "Types", "Type", "1", "Type", "2", "Type", "3", "Type", "4", "Others", "Type", "Inference"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 286.08,
+    "y1": 129.6,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table4-1.png"
+}, {
+  "caption": "Figure 3: The overall architecture of Slimming",
+  "captionBoundary": {
+    "x1": 216.1654052734375,
+    "x2": 378.8565673828125,
+    "y1": 226.58839416503906,
+    "y2": 230.3001708984375
+  },
+  "figType": "Figure",
+  "imageText": ["Parsing", "Configurations", "Modelling", "String", "Manipulations", "Class", "target", "=", "Class.forName(classN,...);", "}", "Object", "target", "=", "info.bar(name,...);", "}", "Object", "bar(String", "classN,...){", "String", "classN", "=", "classN.substring(“&”.length());", "...", "void", "foo(){", "String", "name", "=", "\"&Class\";", "*.properties", "ApplicationContext.getBean(arg)", "…", "createBean(*)", "Class.forName(*)", "transformedBean(*)", "doGetBean(*)", "ApplicationContext.getBean(*)", "Benefit-cost", "analysis", "Re-declared", "dependencies", "Vulnerability", "Incompatible", "license", "Outdated", "dependency", "Dependency", "conflict", "client", "project", "Bloated", "dependency", "Required", "dependency", "Reflective", "calls", "Non-reflective", "calls", "No", "dependency", "relationship", "client", "project", "1.", "Static", "Reflection", "Analysis", "2.", "Bloated", "Dependency", "Analysis", "Reflection", "APIs", "Class-receiving", "Methods", "Identifying", "Framework-encapsulated", "Reflection", "APIs", "Resolving", "Class-level", "Reflective", "Targets", "Detecting", "Bloated", "Dependencies", "Removing", "Bloated", "Dependencies", "Framework-encapsulated"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 539.04,
+    "y1": 116.64,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Figure3-1.png"
+}, {
+  "caption": "Table 5: Experiment Results of RQ2",
+  "captionBoundary": {
+    "x1": 106.62020111083984,
+    "x2": 231.31710815429688,
+    "y1": 120.3502426147461,
+    "y2": 124.06201171875
+  },
+  "figType": "Table",
+  "imageText": ["#BD", "#TPR", "(%)", "#FA", "#IDC", "#ODMC", "†#BD", "denotes", "the", "number", "of", "bloated", "dependencies", "reported", "by", "the", "tools", "Distribution", "Slimming", "32", "0", "7", "100", "100", "100", "0", "0", "0", "0", "0", "0", "3", "0", "1", "DepClean", "50", "0", "13", "100", "40.0", "73.6", "8", "0", "2", "3", "0", "1", "168", "0", "30", "MDA", "25", "0", "7", "100", "0", "57.5", "6", "0", "1", "5", "0", "2", "-", "-", "-", "#BD", "TPR", "(%)", "#FA", "#IDC", "#ODMC", "Max.", "Min.", "Avg.", "Max.", "Min.", "Avg.", "Max.", "Min.", "Avg.", "Max.", "Min.", "Avg.", "Max.", "Min.", "Avg."],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 286.08,
+    "y1": 129.6,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table5-1.png"
+}, {
+  "caption": "Table 6: Statistics of the 4,035 projects in our large-scale study",
+  "captionBoundary": {
+    "x1": 60.75830078125,
+    "x2": 277.1801452636719,
+    "y1": 244.29640197753906,
+    "y2": 248.0081787109375
+  },
+  "figType": "Table",
+  "imageText": ["Conclusion:", "On", "our", "collected", "Java", "projects,", "on", "average,", "the", "debloating", "solutions", "generated", "by", "Slimming", "reliably", "remove", "7", "bloated", "dependencies", "with", "a", "100%", "TPR", "and", "0", "FAs.", "Due", "to", "its", "effective", "benefit-cost", "analysis,", "the", "solutions", "do", "not", "induce", "dependency", "conflict", "issues", "and", "only", "additionally", "declare", "a", "few", "direct", "dependencies", "after", "removing", "the", "bloated", "dependencies.", "#Stars", "25,530", "6", "425.1", "22", "#Modules", "134", "1", "12.4", "3", "#Direct", "Dependencies", "97", "6", "11.3", "9", "#Transitive", "Dependencies", "467", "0", "59.1", "45", "Max.", "Min.", "Avg.", "Med.", "Metrics", "Statistics"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 286.08,
+    "y1": 253.92,
+    "y2": 369.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639123-Table6-1.png"
+}]

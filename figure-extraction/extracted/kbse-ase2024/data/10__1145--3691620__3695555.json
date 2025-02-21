@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: An illustrative example of suggestion generation for vulnerability repair from CVE-2021-4083.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.0455627441406,
+    "y1": 233.1591796875,
+    "y2": 248.2965087890625
+  },
+  "figType": "Figure",
+  "imageText": ["static", "struct", "file", "*__fget_files(struct", "files_struct", "*files,", "unsigned", "int", "fd,", "fmode_t", "mask,", "unsigned", "int", "refs)", "{", "struct", "file", "*file;", "rcu_read_lock();", "loop:", "file", "=", "files_lookup_fd_rcu(files,", "fd);", "if", "(file)", "{", "if", "(file->f_mode", "&", "mask)", "file", "=", "NULL;", "else", "if", "(!get_file_rcu_many(file,", "refs))", "goto", "loop;", "}", "rcu_read_unlock();", "return", "file;", "}", "static", "struct", "file", "*__fget_files(struct", "files_struct", "*files,", "…", "loop:", "file", "=", "files_lookup_fd_rcu(files,", "fd);", "if", "(file)", "{", "if", "(file->f_mode", "&", "mask)", "file", "=", "NULL;", "else", "if", "(!get_file_rcu_many(file,", "refs))", "goto", "loop;", "else", "if", "(files_lookup_fd_raw(files,", "fd)", "!=", "file)", "{", "fput_many(file,", "refs);", "goto", "loop;", "}", "}", "…", "}", "•", "If", "they", "are", "not", "the", "same,", "the", "file", "is", "released", "using", "the", "fput_many", "function", "and", "the", "loop", "is", "restarted.", "•", "This", "prevents", "a", "race", "condition", "where", "a", "file", "descriptor", "could", "be", "reused", "by", "another", "process,", "leading", "to", "a", "use-after-free", "vulnerability.", "files_lookup_fd_rcu", "function", "is", "the", "same", "as", "the", "one", "returned", "by", "the", "files_lookup_fd_raw", "function.", "Suggestion:", "•", "Add", "a", "check", "to", "ensure", "that", "the", "file", "returned", "by", "the"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 84.0,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Figure1-1.png"
+}, {
+  "caption": "Table 1: Comparison of different approaches for vulnerability repair suggestion.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.4527587890625,
+    "y1": 87.1788330078125,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["4.5", "Results", "Model", "BLEU", "ROUGE-L", "BERTScore", "RAS", "Seq2Seq", "10.9", "26.9", "61.8", "7.1", "Transformer", "6.1", "24.7", "58.7", "6.1", "CodeBert", "16.7", "30.8", "64.2", "10.0", "CodeLlama-7B", "12.4", "27.1", "63.6", "6.6", "GPT-3.5", "3.3", "17.3", "56.7", "1.5", "GPT-4", "3.2", "17.0", "55.9", "1.5", "VulAdvisor", "21.0", "34.7", "67.7", "12.5"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 552.0,
+    "y1": 116.64,
+    "y2": 247.67999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Table1-1.png"
+}, {
+  "caption": "Table 5: Two cases of vulnerable C/C++ functions with the repair suggestions. The pink highlights are the vulnerable elements, while yellow and blue highlights indicate the repair practice for the vulnerability, and the reason behind it respectively.",
+  "captionBoundary": {
+    "x1": 53.449100494384766,
+    "x2": 559.311279296875,
+    "y1": 87.1788330078125,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["causing", "a", "buffer", "overflow.", "CodeBert:", "Replace", "the", "creation", "of", "a", "generator", "with", "a", "call", "to", "the", "AnimationStart()", "function,", "which", "returns", "a", "pointer", "to", "the", "ani-", "mation", "object.", "This", "ensures", "that", "the", "object", "is", "properly", "displayed", "and", "prevents", "any", "potential", "memory", "corruption", "issues.", "CodeBert:", "Change", "the", "data", "type", "of", "the", "variable", "i", "from", "int", "to", "long", "to", "prevent", "integer", "overflow.", "Additionally,", "a", "check", "can", "be", "added", "to", "ensure", "that", "the", "loop", "does", "not", "exceed", "the", "maximum", "allowed", "value.", "VulAdvisor:", "Add", "a", "check", "for", "the", "existence", "of", "the", "render", "frame", "before", "creating", "a", "new", "Autofill-", "HostMsg_ShowPasswordGenerationPopup", "message.", "If", "the", "render", "frame", "does", "not", "exist,", "the", "function", "returns", "without", "executing", "any", "further", "code.", "VulAdvisor:", "Add", "a", "new", "variable", "maxsector", "which", "is", "calculated", "based", "on", "the", "value", "of", "sat->sat_tab[sid].", "If", "sid", "is", "greater", "than", "maxsector,", "the", "function", "returns", "an", "error.", "If", "sid", "is", "equal", "to", "0,", "the", "function", "returns", "0.", "This", "prevents", "the", "function", "from", "accessing", "memory", "outside", "the", "bounds", "of", "the", "sat_tab", "array", "and", "potentially", "which", "trap", "function", "is", "executed...(more", "but", "irrelevant", "words)", "ChatGPT:", "Sanitize", "the", "input", "and", "validate", "the", "data", "before", "send-", "ing", "it.", "This", "can", "be", "done", "by", "implementing", "input", "validation", "checks", "such", "as", "checking", "for", "null", "values,", "ensuring", "the", "maxLength", "is", "within", "acceptable", "limits,", "and", "validating", "the", "nameForAutofill", "field.", "Additionally...(more", "but", "irrelevant", "words)", "ChatGPT:", "Add", "a", "check", "to", "ensure", "that", "the", "loop", "does", "not", "exceed", "a", "certain", "limit,", "such", "as", "CDF_LOOP_LIMIT.", "If", "the", "loop", "limit", "is", "reached,", "set", "errno", "to", "EFTYPE", "and", "return", "-1.", "Additionally,", "you", "can", "add", "a", "check", "to", "ensure", "that", "the", "sid", "value", "does", "not", "exceed", "the", "maximum", "sector...(more", "but", "irrelevant", "words)", "Seq2seq:", "Add", "a", "check", "for", "the", "pf_exiting", "function", "call,", "which", "checks", "if", "the", "cloned", "does", "not", "exceed", "the", "available", "channel.", "Seq2seq:", "Change", "the", "DCHECK_EQ", "function", "to", "limit", "the", "read", "compilations", "structure", "(contributions)", "and", "adding", "a", "new", "zVal", "function", "from", "accessing", "memory", "outside", "the", "bounds", "of", "the", "SAT", "table.", "Reference:", "Add", "an", "additional", "check", "for", "the", "render_frame()", "function", "before", "sending", "a", "message", "to", "show", "the", "password", "gener-", "ation", "popup.", "This", "ensures", "that", "the", "function", "is", "not", "called", "if", "the", "render_frame()", "function", "returns", "false,", "preventing", "any", "potential", "errors", "or", "vulnerabilities.", "Reference:", "Add", "a", "division", "operation", "to", "calculate", "the", "maximum", "sector", "size", "based", "on", "the", "size", "of", "the", "sector", "and", "the", "length", "of", "the", "SAT", "table.", "Additionally,", "the", "comparison", "operator", "can", "be", "changed", "to", "include", "equality,", "ensuring", "that", "the", "sector", "ID", "is", "not", "greater", "than", "or", "equal", "to", "the", "maximum", "sector", "size.", "This", "prevents", "the", "}", "/", "/", "The", "comple", "te", "f", "u", "n", "c", "t", "i", "o", "n", "i", "s", "a", "v", "a", "i", "l", "a", "b", "l", "e", "a", "t", "our", "web", "s", "i", "t", "e", ".", "}", "s", "i", "d", "=", "CDF_TOLE4", "(", "(", "u", "i", "n", "t", "3", "2", "_", "t", ")", "s", "a", "t", "−>", "s", "a", "t", "_", "t", "a", "b", "[", "s", "i", "d", "]", ")", ";", "−", "i", "f", "(", "s", "i", "d", ">", "maxsec", "tor", ")", "{", "−", "DPRINTF", "(", "(", "\"", "S", "e", "c", "t", "o", "r", "%d", ">", "%d", "\\", "n", "\"", ",", "s", "id", ",", "maxsec", "tor", ")", ")", ";", "+", "i", "f", "(", "s", "i", "d", ">=", "maxsec", "tor", ")", "{", "+", "DPRINTF", "(", "(", "\"", "S", "e", "c", "t", "o", "r", "%d", ">=", "%d", "\\", "n", "\"", ",", "s", "id", ",", "maxsec", "tor", ")", ")", ";", ".", ".", ".", "s", "i", "z", "e", ")", "/", "s", "i", "z", "e", "o", "f", "(", "maxsec", "tor", ")", ")", ";", "+", "c", "d", "f", "_", "s", "e", "c", "i", "d", "_", "t", "maxsec", "tor", "=", "(", "c", "d", "f", "_", "s", "e", "c", "i", "d", "_", "t", ")", "(", "(", "s", "a", "t", "−>", "s", "a", "t", "_", "l", "e", "n", "∗", "s", "i", "z", "e", ")", ";", "{", "−", "c", "d", "f", "_", "s", "e", "c", "i", "d", "_", "t", "maxsec", "tor", "=", "(", "c", "d", "f", "_", "s", "e", "c", "i", "d", "_", "t", ")", "(", "s", "a", "t", "−>", "s", "a", "t", "_", "l", "e", "n", "∗", "s", "i", "z", "e", "_", "t", "s", "i", "z", "e", ")", "c", "d", "f", "_", "coun", "t", "_", "cha", "i", "n", "(", "c", "on", "s", "t", "c", "d", "f", "_", "s", "a", "t", "_", "t", "∗", "s", "a", "t", ",", "c", "d", "f", "_", "s", "e", "c", "i", "d", "_", "t", "s", "i", "d", ",", "}", "generat", "ion_popup_shown_", "=", "t", "r", "u", "e", ";", "∗", "g", "ene", "r", "a", "t", "i", "on_", "fo", "rm_da", "t", "a_", "−>form", ")", ")", ";", "g", "ene", "r", "a", "t", "i", "on_e", "l", "emen", "t", "_", ".", "maxLength", "(", ")", ",", "g", "en", "e", "r", "a", "t", "i", "on_", "e", "l", "emen", "t", "_", ".", "n", "ameFo", "rAu", "to", "f", "i", "l", "l", "(", ")", ",", "i", "s", "_manua", "l", "l", "y", "_", "t", "r", "i", "g", "g", "e", "r", "e", "d", "_", ",", "gene", "r", "a", "t", "i", "on_e", "l", "emen", "t", "_", ")", ",", "ElementBoundsInWindow", "(", "r", "o", "u", "t", "i", "n", "g", "_", "i", "d", "(", ")", ",", "r", "ende", "r_", "f", "r", "ame", "(", ")", "−>GetRenderView", "(", ")", "−>", "Send", "(", "new", "Autof", "i", "l", "lHos", "tMsg_ShowPasswordGenera", "t", "ionPopup", "(", "Case", "1", "Case", "2", "vo", "id", "PasswordGenera", "t", "ionAgent", ":", ":", "ShowGenerationPopup", "(", ")", "{", "+", "i", "f", "(", "!", "r", "ende", "r_", "f", "r", "ame", "(", ")", ")", "+", "r", "e", "t", "u", "r", "n", ";"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 116.64,
+    "y2": 548.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Table5-1.png"
+}, {
+  "caption": "Table 3: Results of vulnerability patch generation with and without repair suggestions.",
+  "captionBoundary": {
+    "x1": 317.6055908203125,
+    "x2": 558.203857421875,
+    "y1": 87.1788330078125,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["Model", "BLEU", "EM", "Model", "BLEU", "EM", "VRepair", "36.7", "7.0", "VulRepair", "39.6", "9.9", "VRepair+GT", "56.3", "18.4", "VulRepair+GT", "61.1", "22.8", "VRepair+Ours", "42.0", "11.9", "VulRepair+Ours", "44.0", "15.0"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 555.36,
+    "y1": 116.64,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Table3-1.png"
+}, {
+  "caption": "Table 2: Results of the ablation study for the main components of VulAdvisor.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 295.65277099609375,
+    "y1": 87.1788330078125,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["Model", "BLEU", "ROUGE-L", "BERTScore", "RAS", "SFT", "(CodeT5)", "19.5", "33.4", "65.9", "11.3", "SFT+LA", "20.4", "34.2", "67.3", "11.6", "SFT+RAL", "20.6", "34.5", "67.5", "12.2", "SFT+LA+RAL", "21.0", "34.7", "67.7", "12.5"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 286.08,
+    "y1": 116.64,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Table2-1.png"
+}, {
+  "caption": "Figure 2: The workflow of oracle extraction.",
+  "captionBoundary": {
+    "x1": 216.93739318847656,
+    "x2": 395.0630187988281,
+    "y1": 218.18817138671875,
+    "y2": 222.36651611328125
+  },
+  "figType": "Figure",
+  "imageText": ["}", "[Commit", "054aa8d439b9185d4f5eb9a90282d1ce74772969]", "fget:", "check", "that", "the", "fd", "still", "exists", "after", "getting", "a", "ref", "to", "it", "Jann", "Horn", "points", "out", "that", "there", "is", "another", "possible", "race", "wrt", "Unix", "domain", "socket", "garbage", "collection…", "if", "(file->f_mode", "&", "mask)", "file", "=", "NULL;", "else", "if", "(!get_file_rcu_many(file,", "refs))", "goto", "loop;", "else", "if", "(files_lookup_fd_raw(files,", "fd)", "!=", "file)", "{", "fput_many(file,", "refs);", "goto", "loop;", "}", "}", "rcu_read_unlock();", "return", "file;", "loop:", "file", "=", "files_lookup_fd_rcu(files,", "fd);", "if", "(file)", "{", "struct", "file", "*file;", "rcu_read_lock();", "static", "struct", "file", "*__fget_files(struct", "files_struct", "*files,", "unsigned", "int", "fd,", "fmode_t", "mask,", "unsigned", "int", "refs)", "{", "}", "if", "(file->f_mode", "&", "mask)", "file", "=", "NULL;", "else", "if", "(!get_file_rcu_many(file,", "refs))", "goto", "loop;", "}", "rcu_read_unlock();", "return", "file;", "static", "struct", "file", "*__fget_files(struct", "files_struct", "*files,", "unsigned", "int", "fd,", "fmode_t", "mask,", "unsigned", "int", "refs)", "{", "struct", "file", "*file;", "rcu_read_lock();", "loop:", "file", "=", "files_lookup_fd_rcu(files,", "fd);", "if", "(file)", "{", "•", "If", "they", "are", "not", "the", "same,", "the", "file", "is", "released", "using", "the", "fput_many", "function", "and", "the", "loop", "is", "restarted.", "•", "This", "prevents", "a", "race", "condition", "where", "a", "file", "descriptor", "could", "be", "reused", "by", "another", "process,", "leading", "to", "a", "use", "-after-free", "vulnerability.", "files_lookup_fd_rcu", "function", "is", "the", "same", "as", "the", "one", "returned", "by", "the", "files_lookup_fd_raw", "function.", "Suggestion:", "•", "Add", "a", "check", "to", "ensure", "that", "the", "file", "returned", "by", "the"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 448.32,
+    "y1": 90.72,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The framework of our suggestion learning approach.",
+  "captionBoundary": {
+    "x1": 179.87030029296875,
+    "x2": 432.13018798828125,
+    "y1": 371.98236083984375,
+    "y2": 376.16070556640625
+  },
+  "figType": "Figure",
+  "imageText": ["static", "struct", "file", "*__fget_files(struct", "files_struct", "*files,", "unsigned", "int", "fd,", "fmode_t", "mask,", "unsigned", "int", "refs)", "{", "struct", "file", "*file;", "rcu_read_lock();", "loop:", "file", "=", "files_lookup_fd_rcu(files,", "fd);", "if", "(file)", "{", "if", "(file->f_mode", "&", "mask)", "file", "=", "NULL;", "else", "if", "(!get_file_rcu_many(file,", "refs))", "goto", "loop;", "}", "rcu_read_unlock();", "return", "file;", "}"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 528.0,
+    "y1": 237.6,
+    "y2": 346.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Figure3-1.png"
+}, {
+  "caption": "Table 4: The score distribution of generated suggestions",
+  "captionBoundary": {
+    "x1": 60.99509811401367,
+    "x2": 286.5538635253906,
+    "y1": 87.1788330078125,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Score", "1", "2", "3", "4", "5", "6", "7", "≥", "6", "Avg", "ChatGPT", "45", "20", "16", "13", "5", "1", "0", "1", "2.16", "Seq2seq", "28", "10", "20", "14", "16", "9", "3", "12", "3.19", "CodeBert", "25", "13", "17", "13", "14", "11", "7", "18", "3.39", "VulAdvisor", "11", "3", "15", "19", "18", "16", "18", "34", "4.50"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 99.84,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695555-Table4-1.png"
+}]

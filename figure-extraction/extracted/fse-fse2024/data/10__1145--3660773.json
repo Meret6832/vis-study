@@ -1,0 +1,301 @@
+[{
+  "caption": "Fig. 6. Overview of training the adjustment model",
+  "captionBoundary": {
+    "x1": 149.9340057373047,
+    "x2": 336.0674743652344,
+    "y1": 210.55101013183594,
+    "y2": 215.75601196289062
+  },
+  "figType": "Figure",
+  "imageText": ["The", "Adjustment,", "For", "Which", "Bug", "Fixing", "Model", "Generates", "the", "Correct", "Fix,", "is", "the", "Ground-Truth", "Adjustment", "Generating", "and", "Evaluating", "Fixes", "(a)", "Finding", "the", "Adjusted", "Location", "For", "Which", "Bug", "Fixing", "Model", "Generates", "Correct", "Patch", "Bug", "Location", "(b)", "Training", "Adjustment", "Model", "To", "Adjust", "the", "Location", "Adjustment", "Model", "-1", "(best", "adjustment)", "(buggy", "function,", "original", "predicted", "localization)", "...config . get", "Property (", "key", ")", ";...", "Bug", "Fixing", "Model", "Adjusted", "Location", "Creation", "Bug", "Location", "Adjusted", "by", "-2", "Bug", "Location", "Adjusted", "by", "-1", "Bug", "Location", "...config . get", "Property (", "key", ")", ";...", "...config . get", "Property (", "key", ")", ";...", "...config . get", "Property (", "key", ")", ";..."],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 438.24,
+    "y1": 84.0,
+    "y2": 192.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Figure6-1.png"
+}, {
+  "caption": "Table 4. Impact of different prompts on bug fixing accuracy",
+  "captionBoundary": {
+    "x1": 132.78500366210938,
+    "x2": 352.9729309082031,
+    "y1": 267.0060119628906,
+    "y2": 272.21099853515625
+  },
+  "figType": "Table",
+  "imageText": ["PolyCoder-2.7B", "23.44", "51.25", "50.62", "61.62", "CodeGPT-110M", "16.07", "34.19", "44.19", "56.98", "CodeParrot-110M", "24.5", "53.69", "52.18", "63.83", "CodeGen-350M", "22", "48.58", "47.52", "60.22", "PolyCoder-400M", "23.66", "51.32", "51.96", "62.29", "CodeGen-2B", "23.22", "48.99", "48.98", "60.13", "LLM", "Backbone", "Accuracy", "Prompt", "1", "Accuracy(%)", "Prompt", "2", "Accuracy(%)", "Prompt", "3", "Accuracy(%)", "Prompt", "4", "Accuracy(%)"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 399.36,
+    "y1": 286.56,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table4-1.png"
+}, {
+  "caption": "Fig. 3. Overview of Toggle and experimental designs.",
+  "captionBoundary": {
+    "x1": 145.29400634765625,
+    "x2": 340.7076721191406,
+    "y1": 455.41302490234375,
+    "y2": 460.6180114746094
+  },
+  "figType": "Figure",
+  "imageText": ["RQ2:", "Toggle's", "GeneralizabilityRQ1:", "Toggle's", "Bug", "Fixing", "Capability", "Overview", "of", "Toggle's", "Final", "Design", "Patch", "Generation", "Best", "Prompt", "with", "(Adjusted)", "Buggy", "Tokens", "Location", "Adjusted", "Buggy", "Tokens", "Location", "Buggy", "Tokens", "Location", "Patches", "Buggy", "Functions", "Adjustment", "Model", "Bug", "Fixing", "LLMs", "Bug", "Location", "Predictor", "Testing", "Datasets", "RQ6:", "Choice", "Between", "PromptsRQ3:", "Impact", "of", "PromptsRQ4:", "Location", "Prediction", "Accuracy", "RQ5:", "Impact", "of", "Adjustment", "Model", "Fine-Tuning", "Bug", "Fixing", "LLMs", "using", "Four", "PromptsFine-Tuning", "CodeT5", "to", "Predict", "Buggy", "Tokens", "Training", "Adjustment", "Model", "Bug", "Fixing", "LLMs", "Four", "Prompts", "Bug", "Loc.", "Predictor", "Predictor", "Training", "Datasets", "Bug", "Location", "Fixing", "LLMs", "Training", "Datasets", "Fine-tuned", "Bug", "Adjustment", "Model"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 421.44,
+    "y1": 295.68,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Figure3-1.png"
+}, {
+  "caption": "Table 3. Defects4J bug fixing performance: Toggle vs. other existing methods",
+  "captionBoundary": {
+    "x1": 101.48799896240234,
+    "x2": 384.27032470703125,
+    "y1": 421.197998046875,
+    "y2": 426.4029846191406
+  },
+  "figType": "Table",
+  "imageText": ["CURE", "[19]", "18", "32", "37", "49", "52", "70", "RewardRepair", "[44]", "28", "39", "49", "58", "73", "85", "Recoder", "[46]", "36", "51", "57", "64", "85", "-", "KNOD", "[18]", "33", "49", "62", "70", "84", "100", "Tare", "[47]", "-", "-", "-", "-", "-", "109", "AlphaRepair", "[40]", "-", "-", "-", "-", "-", "110", "TENURE", "[28]", "-", "-", "-", "-", "-", "129", "ToggleCodeParrot-110M", "41", "58", "64", "74", "79", "-", "Techniques", "Top-10", "Top-30", "Top-50", "Top-100", "Top-200", "≥", "Top-500"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 440.64,
+    "y2": 536.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table3-1.png"
+}, {
+  "caption": "Table 2. Dataset used to fine-tune localization and bug fixing models, total correct location predictions and correct patches.",
+  "captionBoundary": {
+    "x1": 45.58599853515625,
+    "x2": 440.1756591796875,
+    "y1": 201.0810089111328,
+    "y2": 217.2449951171875
+  },
+  "figType": "Table",
+  "imageText": ["GitHub", "GitHub", "98", "(27)", "47", "(16)", "Total:", "139", "Total:", "82", "Tufano", "Small", "Tufano", "Small", "+", "Medium", "86", "(19)", "59", "(22)", "Tufano", "Medium", "Tufano", "Small", "+", "Medium", "85", "(10)", "45", "(8)", "Location", "Dataset", "Bug", "Fixing", "Dataset", "Correct", "Location", "(#)", "Correct", "Patch", "(#)"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 400.32,
+    "y1": 231.84,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Example of buggy and fix code that share large non-buggy prefix and suffix",
+  "captionBoundary": {
+    "x1": 91.20899963378906,
+    "x2": 394.7934265136719,
+    "y1": 203.2369842529297,
+    "y2": 208.44198608398438
+  },
+  "figType": "Figure",
+  "imageText": ["public", "static", "java.lang.String", "getConfig(java.lang.String", "key,", "java.lang.String", "default_val)", "{", " ", " ", "java.lang.String", "value", "=", "org.loklak.data.DAO.config.get(key);", " ", " ", "return", "value", "==", "null?", "default_val", ":", "value;", "}", "public", "static", "java.lang.String", "getConfig(java.lang.String", "key,", "java.lang.String", "default_val)", "{", " ", " ", "java.lang.String", "value", "=", "org.loklak.data.DAO.config.getProperty(key);", " ", " ", "return", "value", "==", "null?", "default_val", ":", "value;", "}", "non-buggy", "prefix", "tokens,", "non-buggy", "suffix", "tokens,", "buggy", "tokens,", "fixed", "tokens,", "Fixed", "Function", "Buggy", "Function"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 395.03999999999996,
+    "y1": 88.8,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Figure1-1.png"
+}, {
+  "caption": "Table 7. Four distinct accuracies for buggy token location prediction",
+  "captionBoundary": {
+    "x1": 116.67300415039062,
+    "x2": 369.08624267578125,
+    "y1": 312.1600036621094,
+    "y2": 317.364990234375
+  },
+  "figType": "Table",
+  "imageText": ["CodeReviewer", "(+Comment)", "57.54", "53.19", "42.38", "65.76", "CodeReviewer", "(-Comment)", "40.56", "37.12", "26.22", "60.46", "Tufano", "Small", "38.66", "38.33", "30.51", "53.23", "Tufano", "Medium", "26.66", "25.04", "19.54", "38.23", "Dataset", "Starting", "token", "only(%)", "Ending", "token", "only(%)", "Both", "token(%)", "Partial(%)"],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 407.03999999999996,
+    "y1": 331.68,
+    "y2": 410.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table7-1.png"
+}, {
+  "caption": "Table 8. Bug fixing accuracy of prompt 3 and 4, with predicted buggy token location",
+  "captionBoundary": {
+    "x1": 87.16000366210938,
+    "x2": 398.59906005859375,
+    "y1": 490.8810119628906,
+    "y2": 496.08599853515625
+  },
+  "figType": "Table",
+  "imageText": ["CodeReviewer", "(+Comment)", "12.26", "19.7", "20.04", "24.65", "17.83", "23.26", "22.76", "23.86", "Tufano", "Small", "21.22", "17.43", "21.78", "19.83", "23.19", "16.47", "23.96", "18.71", "Tufano", "Medium", "14.42", "12.17", "14.22", "13.41", "15.43", "10.25", "15.79", "11.06", "CodeReviewer", "(-Comment)", "8.38", "10.88", "10.68", "12.13", "11.55", "11.43", "11.68", "11.33", "Prompt", "3", "(%)", "Prompt", "4", "(%)", "Prompt", "3", "(%)", "Prompt", "4", "(%)", "Prompt", "3", "(%)", "Prompt", "4", "(%)", "Prompt", "3", "(%)", "Prompt", "4", "(%)", "Dataset", "Code", "Model", "CodeGPT", "CodeParrot", "CodeGen-350M", "PolyCoder-400M"],
+  "name": "8",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 439.2,
+    "y1": 510.71999999999997,
+    "y2": 623.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table8-1.png"
+}, {
+  "caption": "Fig. 4. (a) example for buggy and fixed code , (b) architecture of the bug localization model",
+  "captionBoundary": {
+    "x1": 75.43699645996094,
+    "x2": 410.5652160644531,
+    "y1": 269.0830078125,
+    "y2": 274.2879943847656
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "architecture", "of", "the", "bug", "localization", "model", "Input", "Tokens", "S", "u", "f", "f", "i", "x", "...(", ")", "...", "...", "Other", "Context", "Tokens", "(", ")", ".", "s", "h", "o", "w", "D", "i", "a", "l", "o", "g", "<", "c", "l", "s", ">", "v", "o", "i", "d", "s", "h", "o", "w", "Attention", "Attention", "P", "r", "e", "f", "i", "x", "Hidden", "States", "<", "c", "l", "s", ">", "CodeT5", "Encoder", "Context", "Mask"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 126.24,
+    "x2": 357.12,
+    "y1": 157.44,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Figure4-1.png"
+}, {
+  "caption": "Fig. 2. Discrepancy in code tokenization between bug localization and fixing models",
+  "captionBoundary": {
+    "x1": 87.69400024414062,
+    "x2": 398.30804443359375,
+    "y1": 267.4640197753906,
+    "y2": 272.66900634765625
+  },
+  "figType": "Figure",
+  "imageText": ["Predicted", "Location", "Bug", "Fixing", "Model's", "Tokenization", "Bug", "Localization", "Model's", "Tokenization", "and", "Prediction", "... java", ".", "lang .", "String", "_value", "_=", "_org", ".", "lo", "kl", "ak", ".", "data", ".", "DAO", ".", "config .", "get", "Property", "(", "key", ");", "...", "... java", ".", "lang .", "String", "_value", "_=", "_org", ".", "lo", "kl", "ak", ".", "data", ".", "DAO", ".", "config .", "getProperty", "(", "key", ");", "...", "public", "static java.lang.String", "getConfig(java.lang.String", "key, java.lang.String", "default_val)", "{", " ", "  java.lang.String", "value", "= org.loklak.data.DAO.config.getProperty(key);", " ", "  return value", "== null?", "default_val", ":", "value;", "}", "Buggy", "Function"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 398.4,
+    "y1": 169.92,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Figure2-1.png"
+}, {
+  "caption": "Table 6. Bug fixing accuracy improvement due to location adjustment",
+  "captionBoundary": {
+    "x1": 113.6240005493164,
+    "x2": 372.13433837890625,
+    "y1": 169.0290069580078,
+    "y2": 174.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["CodeReviewer", "(+Comments)", "12.26", "13.52", "20.04", "21.37", "19.53", "21.55", "22.76", "23.92", "Tufano", "Small", "21.22", "21.97", "21.78", "23.51", "23.19", "23.63", "23.96", "24.75", "Tufano", "Medium", "14.42", "14.74", "14.22", "15.14", "15.43", "15.60", "15.79", "16.04", "CodeReviewer", "(-Comment)", "8.38", "8.57", "10.68", "11.57", "11.55", "11.70", "11.68", "11.75", "Accuracy(%)", "Adjusted", "Accuracy(%)", "Accuracy(%)", "Adjusted", "Accuracy(%)", "Accuracy(%)", "Adjusted", "Accuracy(%)", "Accuracy(%)", "Adjusted", "Accuracy(%)", "LLM", "Backbone", "CodeGPT-110M", "CodeParrot-110M", "CodeGen-350M", "PolyCoder-400M", "Dataset"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 439.2,
+    "y1": 188.64,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table6-1.png"
+}, {
+  "caption": "Fig. 7. Example of incorrect fix (c) with correct location and correct fix (d) with adjusted location",
+  "captionBoundary": {
+    "x1": 64.76200103759766,
+    "x2": 421.2392578125,
+    "y1": 447.07501220703125,
+    "y2": 452.2799987792969
+  },
+  "figType": "Figure",
+  "imageText": ["(d.2)", "Correct", "fix", "generated", "with", "adjusted", "location", "(d.1)", "Adjusted", "localization", "Adjusted", "Location", "public", "void onDestroy()", "{", " ", "  android.util.Log.d(AutoButton.TAG,", "\"AutoButton.onDestroy()\");_", " ", " ", "super.onDestroy();", "}", "public", "void", "onDestroy()", "{", " ", " ", "android.util.Log.d(AutoButton.TAG,", "\"AutoButton.onDestroy()\");", "(c.2)", "Incorrect", "fix", "generated", "with", "correct", "location", "(c.1)", "Correct", "localizationPredicted", "Location", "(a)", "Buggy", "code", "(b)", "Fixed", "code", "public", "void onDestroy()", "{", " ", "  android.util.Log.d(AutoButton.TAG,", "\"AutoButton.onDestroy()\");", "}", "public", "void", "onDestroy()", "{", " ", " ", "android.util.Log.d(AutoButton.TAG,", "\"AutoButton.onDestroy()\");", "public", "void", "onDestroy()", "{", " ", " ", "android.util.Log.d(AutoButton.TAG,", "\"AutoButton.onDestroy()\");", " ", " ", "cleanup();", " ", " ", "super.onDestroy();", "}", "public", "void", "onDestroy()", "{", " ", " ", "android.util.Log.d(AutoButton.TAG,", "\"AutoButton.onDestroy()\");", " ", "  super.onDestroy();", "}"],
+  "name": "7",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 351.84,
+    "y2": 432.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Figure7-1.png"
+}, {
+  "caption": "Table 1. Exact match accuracy (%) of Toggle instances with six large language models across four datasets",
+  "captionBoundary": {
+    "x1": 47.41699981689453,
+    "x2": 438.34307861328125,
+    "y1": 292.9300231933594,
+    "y2": 298.135009765625
+  },
+  "figType": "Table",
+  "imageText": ["CodeGPT-110M", "21.22", "14.42", "8.38", "12.26", "CodeParrot-110M", "21.86", "14.22", "10.68", "20.04", "CodeGen-350M", "23.19", "15.43", "11.55", "19.53", "PolyCoder-400M", "23.96", "15.79", "11.68", "22.76", "CodeGen-2B", "24.73", "16.19", "12.31", "25.59", "PolyCoder-2.7B", "25.07", "16.19", "12.16", "22.92", "Baseline", "CoText[33]:", "22.64,", "NSEdit[16]:", "23.86", "NSEdit:", "13.46,", "CoText:", "15.36", "CodeT5[24]:", "11.48,", "NSEdit:", "11.97", "NSEdit:", "23.2,", "CodeT5:", "24.42", "CodeReviewer", "(w/o", "comment)", "CodeReviewer", "(w/", "comment)", "LLM", "Backbone", "Dataset", "Tufano", "Small", "Tufano", "Medium"],
+  "name": "1",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 416.15999999999997,
+    "y1": 312.96,
+    "y2": 435.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table1-1.png"
+}, {
+  "caption": "Fig. 5. Four different prompts investigated. Blue tokens are non-buggy shared prefix. Red tokens are buggy code. Brown tokens are non-buggy shared suffix. Green tokens are fixed code.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.3941650390625,
+    "y1": 565.6699829101562,
+    "y2": 581.833984375
+  },
+  "figType": "Figure",
+  "imageText": ["Prompt", "4", "Prompt", "3", "Prompt", "2", "Prompt", "1", "Shared", "Prefix", ".show();", "}", "<mask>", "Shared", "Suffix", "Prompt", "Mask", "(File", "path) {", "createFileDialog(path)", "()", "{", "createFileDialog()", "Truncated", "Buggy", "Function", "void", "showDialog", "<sep>", "Truncated", "Fixed", "Function", "Shared", "Prefix", "Prompt", "Mask", "(File", "path) {", "createFileDialog(path).show();", "}", "()", "{", "createFileDialog().show();", "}", "Truncated", "Buggy", "Function", "void", "showDialog", "<sep>", "Truncated", "Fixed", "Function", "Shared", "Prefix", "Prompt", "Mask", "(File", "path) {", "createFileDialog(path).show();", "}", "void", "showDialog()", "{", "createFileDialog().show();", "}", "Buggy", "Function", "void", "showDialog", "<sep>", "Truncated", "Fixed", "Function", "Prompt", "Mask", "void", "showDialog()", "{", "createFileDialog().show();", "}", "Buggy", "Function", "void", "showDialog(File", "path)", "{", "createFileDialog(path).show();", "}", "<sep>", "Fixed", "Function"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 415.68,
+    "y2": 546.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Figure5-1.png"
+}, {
+  "caption": "Table 5. Accuracy of buggy token location prediction with vs. without additional context",
+  "captionBoundary": {
+    "x1": 79.20700073242188,
+    "x2": 406.5523986816406,
+    "y1": 193.0240020751953,
+    "y2": 198.22900390625
+  },
+  "figType": "Table",
+  "imageText": ["CodeReviewer", "39.31", "26.22", "CodeReviewer", "(+", "Comments)", "58.13", "42.38", "Tufano", "Medium", "26.73", "20.16", "Tufano", "Medium", "(+", "Buggy", "Line", "No.)", "56.66", "48.47", "Tufano", "Small", "39.07", "30.81", "Tufano", "Small", "(+", "Buggy", "Line", "No.)", "60.37", "56.07", "Dataset", "Start", "token", "accuracy(%)", "Start", "+", "end", "token", "accuracy(%)"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 411.35999999999996,
+    "y1": 212.64,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660773-Table5-1.png"
+}]

@@ -1,0 +1,321 @@
+[{
+  "caption": "Fig. 2. The borrow function causing Cream Finance’s Reentrancy",
+  "captionBoundary": {
+    "x1": 122.98800659179688,
+    "x2": 363.0125732421875,
+    "y1": 323.9610290527344,
+    "y2": 329.166015625
+  },
+  "figType": "Figure",
+  "imageText": ["18", "}", "17", "}", "16", "return", "uint(Error.NO_ERROR);", "15", "comptroller.borrowVerify(address(this),", "borrower", ",", "borrowAmount);", "14", "...", "13", "ERCToken(borrower).transfer(borrowAmount);", "12", "...", "borrowAmount);", "11", "uint", "allowed", "=", "comptroller.borrowAllowed(address(this),", "borrower", ",", "internal", "returns", "(uint)", "{", "10", "function", "borrowFresh(address", "payable", "borrower", ",", "uint", "borrowAmount)", "9", "}", "8", "return", "borrowFresh(msg.sender", ",", "borrowAmount);", "7", "...", "6", "uint", "error", "=", "accrueInterest", "();", "(uint)", "{", "5", "function", "borrowInternal(uint", "borrowAmount)", "internal", "nonReentrant", "returns", "4", "}", "3", "return", "borrowInternal(borrowAmount);", "2", "function", "borrow(uint", "borrowAmount)", "returns", "(uint)", "{", "1", "contract", "CreamFinance_Reentrancy{"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 426.24,
+    "y1": 87.84,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. Execution phases and function calls of the borrow function",
+  "captionBoundary": {
+    "x1": 121.48600006103516,
+    "x2": 364.51385498046875,
+    "y1": 571.2599487304688,
+    "y2": 576.4649658203125
+  },
+  "figType": "Figure",
+  "imageText": ["Reentrant", "Phase3:", "Effect", "Phase2:", "Interaction", "Phase1:", "Check", "CToken.borrowInternalCErc20.borrow", "borrowFresh", "accrueInterest", "getBlockNumber", "getCashPriorfail", "...", "ComptrollerInterface.borrowAllowed", "borrowBalanceStoreInternal", "EIP20Interface.balanceOf", "ERC777_Hook_FunctiondoTransferOut", "ComptrollerInterface.borrowVerify", "Cross-Contract", "Function", "Call", "Internal", "Function", "Call", "External", "Contract"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 396.47999999999996,
+    "y1": 411.84,
+    "y2": 553.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure3-1.png"
+}, {
+  "caption": "Fig. 8. Analysis of Program Slicing for Figure 1",
+  "captionBoundary": {
+    "x1": 156.8419952392578,
+    "x2": 329.1583251953125,
+    "y1": 294.0920104980469,
+    "y2": 299.2969970703125
+  },
+  "figType": "Figure",
+  "imageText": ["L14:", "return", "balances[_address];", "Inter-contract", "Call", "Dependency", "In", "slice", "Not", "in", "slice", "Control", "Dependency", "Data", "Dependency", "Control", "&", "Data", "Dependency", "Contract", "A", "Contract", "B", "Phase", "3:", "Effect", "Phase", "1:", "Check", "Phase", "2:", "Interaction", "Exit", "Exit", "L7:", "_contractB.reduceBalance...", "L17:", "balances[_address]...", "L16:", "function", "reduceBalance...", "L11:", "mapping(address", "=>", "uint)", "...", "L13:", "function", "getBalance(address", "_address)...", "L6:", "msg.sender.call{value:_amount}...", "L5:", "require(userBalance", ">=", "_amount);", "L4:", "userBalance", "=", "_contractB.getBalance...", "L3:", "function", "withdraw(address", "_contractB..."],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 391.2,
+    "y1": 125.28,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure8-1.png"
+}, {
+  "caption": "Table 3. Comparison of average detection times",
+  "captionBoundary": {
+    "x1": 154.33200073242188,
+    "x2": 331.4273681640625,
+    "y1": 231.6479949951172,
+    "y2": 236.85299682617188
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Mythril", "Securify", "Slither", "Oyente", "Osiris", "Manticore", "Smartian", "Sailfish", "Ours", "DB1", "157.17", "26.89", "7.11", "8.76", "14.15", "189.8", "238.79", "7.04", "25.26", "DB2", "276.36", "101.18", "4.97", "13.53", "154.54", "290.77", "298.38", "1.19", "6.01", "DB3", "230.49", "84", "4.37", "9.33", "141.84", "248.63", "264.11", "5.32", "1.94"],
+  "name": "3",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 417.12,
+    "y1": 252.0,
+    "y2": 291.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Table3-1.png"
+}, {
+  "caption": "Fig. 10. False positive of Reentrancy without economic loss",
+  "captionBoundary": {
+    "x1": 133.63699340820312,
+    "x2": 352.3634033203125,
+    "y1": 616.1270141601562,
+    "y2": 621.33203125
+  },
+  "figType": "Figure",
+  "imageText": ["5", "}", "4", "require(success", ",", "\"Transfer", "failed\");", "3", "bool", "success", "=", "msg.sender.call{value:", "amount", "}(\"\");", "2", "uint256", "amount", "=", "address(this).balance;", "1", "function", "withdrawAll", "()", "external", "{"],
+  "name": "10",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 40.8,
+    "x2": 441.12,
+    "y1": 555.84,
+    "y2": 611.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure10-1.png"
+}, {
+  "caption": "Fig. 4. Control Flow Graph (CFG) of the borrow function.",
+  "captionBoundary": {
+    "x1": 136.9669952392578,
+    "x2": 349.033447265625,
+    "y1": 328.4560241699219,
+    "y2": 333.6610107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Push", "Jump", "Orphan", "Jump", "Basic", "Block", "Cross-contract", "Interactions", "Block", "Orphan", "Jump", "Address", "Block", "0x850", "0x85E", "0x815", "0x7A1", "0x6E0", "0x6F3", "0x7B3", "0x8280x7C5", "0x85D", "0x858", "0x83A", "0x95E", "0x274"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 156.96,
+    "x2": 330.24,
+    "y1": 194.88,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure4-1.png"
+}, {
+  "caption": "Fig. 7. Slicing process for example in Figure 1",
+  "captionBoundary": {
+    "x1": 159.3260040283203,
+    "x2": 326.67486572265625,
+    "y1": 456.79901123046875,
+    "y2": 462.0039978027344
+  },
+  "figType": "Figure",
+  "imageText": ["16", "17", "7", "Slice", "Slicing", "Control", "Dependency", "Data", "Dependency", "Control", "&", "Data", "Dependency", "Inter-contract", "Call", "Dependency", "I-PDG", "513", "14", "6", "4", "3", "16", "17", "513", "14", "7", "6", "4", "3"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 388.32,
+    "y1": 362.88,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure7-1.png"
+}, {
+  "caption": "Table 1. Statistics for different datasets",
+  "captionBoundary": {
+    "x1": 170.18899536132812,
+    "x2": 315.5702209472656,
+    "y1": 380.1330261230469,
+    "y2": 385.3380126953125
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Loc", "#", "of", "Subcontracts", "#", "of", "Functions", "#", "P", "#", "N", "DB1", "1812.5", "12", "197.4", "81", "814", "DB2", "534.5", "6.0", "54.2", "41", "21171", "DB3", "72.8", "1.5", "6.6", "31", "112"],
+  "name": "1",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 109.92,
+    "x2": 378.24,
+    "y1": 399.84,
+    "y2": 445.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Table1-1.png"
+}, {
+  "caption": "Table 2. Statistics of Detection Results by Different Tools",
+  "captionBoundary": {
+    "x1": 137.43899536132812,
+    "x2": 348.3197326660156,
+    "y1": 492.7300109863281,
+    "y2": 497.93499755859375
+  },
+  "figType": "Table",
+  "imageText": ["*", "P", "represents", "Precision,", "R", "represents", "Recall,", "and", "F", "represents", "F1", "score.", "Dataset", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "DB1", "DB2", "DB3", "#", "TP", "5", "8", "13", "0", "31", "29", "8", "36", "30", "0", "32", "28", "0", "34", "29", "0", "0", "0", "0", "7", "19", "0", "26", "25", "70", "38", "30", "#", "FP", "22", "15492", "51", "0", "2356", "44", "140", "18346", "67", "0", "481", "39", "1", "476", "31", "0", "22", "0", "0", "15", "9", "2", "2270", "31", "27", "31", "14", "#", "FN", "76", "33", "18", "81", "10", "2", "73", "5", "1", "81", "9", "3", "81", "7", "2", "81", "41", "31", "81", "34", "12", "81", "15", "6", "11", "3", "1", "#", "TN", "792", "5679", "61", "814", "18815", "68", "676", "2825", "45", "814", "20690", "73", "813", "20695", "81", "814", "21149", "112", "814", "21156", "103", "812", "18901", "81", "787", "21140", "98", "P", "18.52%", "0.05%", "20.31%", "0.00%", "1.30%", "39.73%", "5.41%", "0.20%", "30.93%", "0.00%", "6.24%", "41.79%", "0.00%", "6.67%", "48.33%", "0.00%", "0.00%", "0.00%", "0.00%", "31.82%", "67.86%", "0.00%", "1.13%", "44.64%", "72.16%", "55.07%", "68.18%", "R", "6.17%", "19.51%", "41.94%", "0.00%", "75.61%", "93.55%", "9.88%", "87.80%", "96.77%", "0.00%", "78.05%", "90.32%", "0.00%", "82.93%", "93.55%", "0.00%", "0.00%", "0.00%", "0.00%", "17.07%", "61.29%", "0.00%", "63.41%", "80.65%", "86.42%", "92.68%", "96.77%", "F", "9.26%", "0.10%", "27.37%", "0.00%", "2.55%", "55.77%", "6.99%", "0.39%", "46.88%", "0.00%", "11.55%", "57.14%", "0.00%", "12.34%", "63.74%", "0.00%", "0.00%", "0.00%", "0.00%", "22.22%", "64.41%", "0.00%", "2.23%", "57.47%", "78.65%", "69.09%", "80.00%", "Tool", "Mythril", "Securify", "Slither", "Oyente", "Osiris", "Manticore", "Smartian", "Sailfish", "Ours"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 441.12,
+    "y1": 504.96,
+    "y2": 573.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Table2-1.png"
+}, {
+  "caption": "Fig. 5. The workflow of SliSE",
+  "captionBoundary": {
+    "x1": 189.29600524902344,
+    "x2": 296.7044982910156,
+    "y1": 203.37098693847656,
+    "y2": 208.57598876953125
+  },
+  "figType": "Figure",
+  "imageText": ["Symbolic", "Execution", "Path", "Recovering", "Stage", "Ⅱ：", "Symbolic", "Execution", "Verification", "Stage", "Ⅰ：", "Warnings", "Search", "Detection", "Results", "Smart", "Contract", "SMT", "I-PDG", "Analyser", "Warnings", "Slicing", "Slices", "AST"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 360.96,
+    "y1": 84.96,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. The example of Reentrancy",
+  "captionBoundary": {
+    "x1": 179.593994140625,
+    "x2": 306.4057922363281,
+    "y1": 646.2979736328125,
+    "y2": 651.5029907226562
+  },
+  "figType": "Figure",
+  "imageText": ["20", "}", "19", "}", "18", "balances[_address]", "=", "balances[_address]", "-", "amount;", "17", "function", "reduceBalance(address", "_address", ",", "uint", "amount)", "public", "{", "16", "15", "}", "14", "return", "balances[_address", "];", "13", "function", "getBalance(address", "_address)", "public", "view", "returns", "(uint)", "{", "12", "...", "11", "mapping(address", "=>", "uint)", "balances;", "10", "contract", "ContractB", "{", "9", "}", "8", "}", "7", "_contractB.reduceBalance(msg.sender", ",_amount);", "6", "msg.sender.call{value:_amount", "}(\"\");", "5", "require(userBalance", ">=", "_amount);", "4", "userBalance", "=", "_contractB.getBalance(msg.sender);", "3", "function", "withdraw(address", "_contractB", ",", "uint", "_amount)", "public", "{", "2", "...", "1", "contract", "ContractA", "{"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 426.24,
+    "y1": 421.91999999999996,
+    "y2": 641.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure1-1.png"
+}, {
+  "caption": "Table 5. Detection capability of existing tools for complex contracts",
+  "captionBoundary": {
+    "x1": 118.125,
+    "x2": 367.63299560546875,
+    "y1": 480.9350280761719,
+    "y2": 486.1400146484375
+  },
+  "figType": "Table",
+  "imageText": ["Mean", "1.3(36.1%)", "3.6", "4.0(18.7%)", "21.4", "39.5(15.6%)", "253.5", "1.8(75.0%)", "2.4", "0.8(34.8%)", "2.3", "Max", "2.0(25.3%)", "7.9", "11.0(14.9%)", "74.0", "104.0(11.0%)", "949.0", "4.0(33.3%)", "12.0", "3.0(25.0%)", "12.0", "Median", "1.2(36.4%)", "3.3", "2.0(12.1%)", "16.5", "25.0(14.6%)", "171.0", "1.0(50.0%)", "2.0", "0.0(0.0%)", "2.0", "Std.", "0.3(20.0%)", "1.5", "3.2(19.8%)", "16.2", "34.2(14.5%)", "236.1", "1.5(88.2%)", "1.7", "1.3(48.1%)", "2.7", "*", "Detected", "means", "successfully", "detected", "by", "existing", "tool,", "Avg.", "means", "the", "overall", "average", "complexity.", "AvgCyclomatic", "MaxCyclomatic", "SumCyclomatic", "MaxNesting", "CountContractCoupled", "Detected", "Avg.", "Detected", "Avg.", "Detected", "Avg.", "Detected", "Avg.", "Detected", "Avg."],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 417.12,
+    "y1": 501.59999999999997,
+    "y2": 564.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Table5-1.png"
+}, {
+  "caption": "Fig. 9. Recovering the CFG with SSA",
+  "captionBoundary": {
+    "x1": 174.802001953125,
+    "x2": 311.1988830566406,
+    "y1": 339.81402587890625,
+    "y2": 345.0190124511719
+  },
+  "figType": "Figure",
+  "imageText": ["Block_ID:", "6", "Block_offset:", "0x35", "Block_ID:", "5", "Block_offset:", "0x29", "Block_ID:", "4", "Block_offset:", "0x27", "Block_ID:", "3", "Block_offset:", "0x21", "Block_ID:", "2", "Block_offset:", "0x1c", "Block_ID:", "1", "Block_offset:", "0x0c", "40:", "STOP", "54:", "%16=PUSH(0x01)", "…", "131:", "JUMP(IN", "Block_ID=3)", "...", "46:", "%15=PUSH(0x35)", "48:", "JUMPI(#14,#15)", "29:", "%8=PUSH(0x00)", "31:", "%9=#8", "32:", "REVERT", "34:", "%10=PUSH(0x27)", "36:", "%11=PUSH(0x35)", "38:", "JUMP(#11)", "...", "24:", "%6=EQ(#4,#5)", "25:", "%7=PUSH(0x21)", "27:", "JUMPI(#6,#7)"],
+  "name": "9",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 154.56,
+    "x2": 328.32,
+    "y1": 163.2,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure9-1.png"
+}, {
+  "caption": "Fig. 6. I-PDG construction for example in Figure 1",
+  "captionBoundary": {
+    "x1": 150.44500732421875,
+    "x2": 335.55633544921875,
+    "y1": 468.9859924316406,
+    "y2": 474.19097900390625
+  },
+  "figType": "Figure",
+  "imageText": ["Inter-contract", "Call", "Dependency", "Control", "&", "Data", "Dependency", "Data", "Dependency", "Control", "Dependency", "I-PDG", "I-PDG", "DDG", "CDG", "I-CFG", "16", "17", "4", "7", "6", "513", "14", "3", "16", "17", "4", "7", "6", "513", "14", "3", "17", "7", "6", "513", "14", "16", "4", "3", "16", "17", "16", "17", "513", "14", "7", "6", "4", "3", "4", "7", "6", "513", "14", "3"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 399.36,
+    "y1": 333.59999999999997,
+    "y2": 454.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure6-1.png"
+}, {
+  "caption": "Table 4. Statistics of Detection Results by Different Tools",
+  "captionBoundary": {
+    "x1": 137.43899536132812,
+    "x2": 348.3197326660156,
+    "y1": 370.9530029296875,
+    "y2": 376.1579895019531
+  },
+  "figType": "Table",
+  "imageText": ["Precision", "47.30%", "30.00%", "72.16%", "20.65%", "59.26%", "55.07%", "34.88%", "96.15%", "68.18%", "Recall", "86.42%", "3.70%", "86.42%", "92.68%", "39.02%", "92.68%", "96.77%", "83.33%", "96.77%", "F1", "61.14%", "6.59%", "78.65%", "33.78%", "47.06%", "69.09%", "51.28%", "89.29%", "80.00%", "Dataset", "DB1", "DB2", "DB3", "Tools", "Stage", "I", "Stage", "II", "Stage", "I", "&", "II", "Stage", "I", "Stage", "II", "Stage", "I", "&", "II", "Stage", "I", "Stage", "II", "Stage", "I", "&", "II", "#", "TP", "70", "3", "70", "38", "16", "38", "30", "25", "30", "#", "FP", "78", "7", "27", "146", "11", "31", "56", "1", "14", "#", "FN", "11", "78", "11", "3", "25", "3", "1", "5", "1", "#", "TN", "736", "807", "787", "21025", "21160", "21140", "56", "112", "98"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 417.12,
+    "y1": 381.59999999999997,
+    "y2": 469.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Table4-1.png"
+}, {
+  "caption": "Fig. 11. Impact of pruning Fig. 12. Impact of symbolic execution verification",
+  "captionBoundary": {
+    "x1": 95.89299774169922,
+    "x2": 432.80133056640625,
+    "y1": 648.0449829101562,
+    "y2": 653.25
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 431.03999999999996,
+    "y1": 547.68,
+    "y2": 634.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643734-Figure11-1.png"
+}]

@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: Predictive Power of Understandability Features",
+  "captionBoundary": {
+    "x1": 323.447998046875,
+    "x2": 552.6997680664062,
+    "y1": 294.808349609375,
+    "y2": 300.4389953613281
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Training and Testing Methods on the Models",
+  "captionBoundary": {
+    "x1": 64.37100219726562,
+    "x2": 283.464111328125,
+    "y1": 210.31735229492188,
+    "y2": 215.947998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Set Relationships between True Positives Predicted by Understandability Models and Baseline Models",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03173828125,
+    "y1": 258.6553649902344,
+    "y2": 275.2449951171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Figure5-1.png"
+}, {
+  "caption": "Figure 6: An Example of Exclusive Information Provided by Understandability Features",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4403076171875,
+    "y1": 214.44137573242188,
+    "y2": 231.031005859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Figure6-1.png"
+}, {
+  "caption": "Table 1: Commit Understandability Features of NeuroJIT and Their Evidence",
+  "captionBoundary": {
+    "x1": 150.17799377441406,
+    "x2": 461.5133056640625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["IncorrectIndentations", "(II)", "The", "number", "of", "warnings", "for", "incorrect", "indentations", "examined", "by", "Checkstyle", "[26].", "In", "a", "survey", "of", "392", "developers", "regarding", "complexity", "triggers,", "80%", "of", "respondents", "identified", "II", "as", "a", "major", "accidental", "complexity", "trigger", "that", "hinders", "the", "structural", "understanding", "of", "code", "semantics", "[3,", "20].", "NumberOfMostTerms", "(NOMT)", "The", "number", "of", "terms", "in", "the", "line", "with", "the", "most", "terms.", "Many", "terms", "and", "their", "interactions", "in", "a", "constrained", "area", "correlate", "with", "the", "cognitive", "loads", "of", "19", "developers", "and", "are", "recognized", "as", "a", "preattentive", "indicator", "of", "the", "loads", "[43].", "They", "also", "contribute", "to", "increased", "mental", "effort", "for", "182", "developers,", "as", "the", "information", "cannot", "be", "captured", "as", "a", "single", "unit", "at", "a", "glance", "[3].", "255", "modern", "developers", "perceive", "high", "NOGV", "is", "a", "major", "trigger", "that", "hinders", "code", "understanding", "and", "complexity", "of", "programming", "tasks", "[3].", "NumberOfGlobalVariables", "(NOGV)", "The", "number", "of", "global", "variables.", "NOP", "is", "correlated", "with", "the", "activation", "of", "the", "frontal", "lobe", "brain", "areas", "in", "19", "de-", "velopers,", "which", "are", "associated", "with", "language", "comprehension", "and", "perceived", "difficulty", "[43].", "NumberOfParameters", "(NOP)", "The", "number", "of", "parameters.", "ExternalCall", "(EC)", "The", "number", "of", "external", "calls", "(i.e.,", "APIs", "and", "library", "calls).", "During", "the", "process", "of", "predicting", "the", "behavior", "of", "external", "code,", "it", "was", "revealed", "that", "46", "developers", "exhibit", "increased", "brain", "activation", "and", "mental", "effort", "[24,", "43].", "Additionally,", "over", "half", "of", "395", "developers", "perceive", "that", "code", "making", "or", "receiving", "many", "calls", "should", "be", "prioritized", "to", "be", "inspected", "for", "defect-inducing", "risks", "[58].", "NonStructuredBranch", "(NB)", "The", "number", "of", "non-structured", "branch", "statements", "(i.e.,", "break", "and", "continue).", "NB", "correlates", "with", "the", "activation", "of", "the", "middle", "frontal", "gyrus", "in", "19", "developers,", "which", "is", "activated", "when", "attention", "and", "working", "memory", "are", "engaged", "[43].", "NB", "also", "correlates", "the", "perceived", "difficulty", "of", "loop", "structures", "[21].", "A", "large-scale", "survey", "of", "392", "modern", "developers", "reported", "that", "68%", "of", "respondents", "identified", "deep", "nesting", "as", "a", "significant", "hindrance", "to", "code", "understandability", "[3].", "Additionally,", "in", "a", "survey", "of", "100", "developers", "about", "complexity", "triggers,", "deep", "nesting", "ranked", "among", "the", "top", "two", "triggers", "overall", "[4].", "MaxDepthNestingLoop", "(MDNL)", "The", "max", "depth", "of", "nesting", "loop.", "DepDegree", "(DD)", "The", "degree", "of", "low-level", "dependencies", "between", "program", "operations", "in", "a", "use-def", "graph", "generated", "by", "the", "reaching", "definitions", "of", "variables", "[8].", "DD", "reflects", "the", "extent", "to", "which", "developers", "need", "to", "track", "information", "flow.", "DD", "strongly", "correlates", "with", "both", "the", "perceived", "difficulty", "of", "19", "developers", "and", "the", "activation", "of", "Broca’s", "areas", "in", "the", "brain,", "which", "govern", "syntactic", "working", "memory[43].", "DD", "also", "has", "a", "significant", "correlation", "with", "the", "level", "of", "deactivation", "in", "the", "brain’s", "default", "mode", "network", "in", "28", "developers", "as", "they", "focus", "more", "on", "understanding", "the", "source", "code", "[44].", "TermEntropy", "(TE)", "The", "relative", "distribution", "of", "unique", "terms", "in", "the", "source", "code", "(i.e.,", "keywords,", "identifiers,", "and", "operators)", "[46].", "TE", "increases", "with", "the", "uniform", "distribution", "of", "terms,", "but", "decreases", "when", "specific", "terms", "dominate.", "TE", "has", "a", "significant", "correlation", "with", "the", "results", "of", "120", "developers’", "evaluations", "of", "the", "syntactic", "understandability", "of", "source", "code", "[46].", "TE", "also", "partially", "repre-", "sents", "lexical", "inconsistencies,", "which", "correlate", "with", "cognitive", "loads", "measured", "by", "the", "duration", "of", "eye", "fixation", "and", "blood-oxygen-levels", "in", "brain", "involved", "in", "bug", "localization", "[19,", "20].", "HV", "significantly", "correlates", "with", "the", "cognitive", "loads", "of", "27", "developers", "under-", "standing", "source", "code,", "as", "measured", "by", "the", "electrical", "impulses", "generated", "by", "large", "groups", "of", "neurons", "in", "the", "brain", "[24].", "It", "is", "also", "associated", "with", "the", "activation", "of", "Brodmann", "areas,", "brain", "regions", "linked", "to", "code", "comprehension,", "as", "measured", "by", "fMRI,", "and", "with", "the", "perceived", "difficulty", "of", "understanding", "in", "19", "developers", "[43].", "Description", "Evidence", "HalsteadVolume", "(HV)", "The", "number", "of", "data", "components", "in", "code", "segment", "[23]."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 585.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Table1-1.png"
+}, {
+  "caption": "Figure 7: Performance Comparison between Baseline Models and Baseline+Understandability Models",
+  "captionBoundary": {
+    "x1": 100.80000305175781,
+    "x2": 511.1826171875,
+    "y1": 392.5433654785156,
+    "y2": 398.17401123046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Process of Collecting Commits for Dataset",
+  "captionBoundary": {
+    "x1": 69.25700378417969,
+    "x2": 278.57720947265625,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 462.71999999999997,
+    "y2": 685.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Figure1-1.png"
+}, {
+  "caption": "Table 2: Summarized Statistics of Dataset",
+  "captionBoundary": {
+    "x1": 222.82400512695312,
+    "x2": 388.8743896484375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["4490", "(16.5%)", "22707", "(83.5%)", "2.7", "18.7", "(17.7%)", "105.4", "465.3", "days", "ActiveMQ", "285", "(11.79%)", "2132", "(88.21%)", "2.2", "14.4", "66.1", "475.6", "2005-12-14", "~", "2019-12-03", "Camel", "481", "(7.88%)", "5622", "(92.12%)", "3.3", "17.5", "86.5", "831.3", "2007-03-19", "~", "2019-12-26", "Flink", "334", "(11.29%)", "2625", "(88.71%)", "3.2", "23.5", "116.3", "232.8", "2010-12-18", "~", "2019-12-26", "Groovy", "519", "(16.32%)", "2661", "(83.68%)", "2.5", "18.6", "85.9", "587.3", "2003-09-11", "~", "2019-12-25", "Cassandra", "744", "(22.37%)", "2582", "(77.63%)", "2.4", "16.3", "98.1", "320.6", "2009-03-23", "~", "2019-12-17", "HBase", "771", "(27.62%)", "2020", "(72.38%)", "2.9", "21.1", "117.9", "242.3", "2007-04-07", "~", "2019-12-11", "Hive", "1011", "(45.36%)", "1218", "(54.64%)", "2.5", "20.6", "131.5", "204.9", "2008-09-12", "~", "2019-12-25", "Ignite", "345", "(8.23%)", "3847", "(91.77%)", "2.6", "17.8", "141.2", "827.7", "2014-02-20", "~", "2019-12-24", "#", "Changed", "Methods", "#", "Changed", "Lines", "(avg.)", "#", "Context", "Sizes", "(avg.)", "Fixing", "Time", "(avg.)", "Duration", "#", "Clean", "Commits", "Project", "#", "Defective", "Commits"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 553.4399999999999,
+    "y1": 105.6,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Table2-1.png"
+}, {
+  "caption": "Table 3: Average Ratios of Actionable Features within Top 5 Contribution Rankings of LIME Explanations",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0353088378906,
+    "y1": 536.080322265625,
+    "y2": 552.6699829101562
+  },
+  "figType": "Table",
+  "imageText": ["ActiveMQ", "54.1", "65.4", "(l)", "59.0", "70.7", "(l)", "Camel", "57.4", "56.1", "56.4", "58.2", "Flink", "61.0", "57.2", "(s)", "38.7", "59.3", "(l)", "Groovy", "25.3", "54.4", "(l)", "37.3", "43.8", "(s)", "Cassandra", "53.8", "68.5", "(l)", "59.5", "82.3", "(l)", "HBase", "52.1", "58.4", "(s)", "49.4", "69.9", "(l)", "Hive", "58.2", "60.8", "(n)", "45.7", "62.5", "(l)", "Ignite", "53.0", "76.8", "(l)", "47.2", "61.9", "(m)", "Average", "(%)", "51.9", "62.2", "49.1", "63.6", "Project", "Random", "Forest", "(%)", "XGBoost", "(%)", "baseline", "combined", "(𝛿)", "baseline", "combined"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 567.36,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Table3-1.png"
+}, {
+  "caption": "Figure 2: Correlations of Features in Each Group",
+  "captionBoundary": {
+    "x1": 75.7490005493164,
+    "x2": 272.0864562988281,
+    "y1": 325.6463623046875,
+    "y2": 331.2770080566406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 312.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695056-Figure2-1.png"
+}]

@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 5. Null pointer dereference error, reported at CWE-476.",
+  "captionBoundary": {
+    "x1": 211.82290649414062,
+    "x2": 431.91217041015625,
+    "y1": 246.5802764892578,
+    "y2": 250.79000854492188
+  },
+  "figType": "Figure",
+  "imageText": ["1", "void", "host_lookup", "(char", "*user_supplied_addr)", "{", "2", "validate_addr_form(user_supplied_addr);", "3", "addr", "=", "inet_addr(user_supplied_addr);", "4", "hp", "=", "gethostbyaddr(addr", ",", "sizeof", "(...),", "...);", "5", "+", "if", "(hp==null)", "{", "exit(-1);", "}", "//", "a", "repair", "6", "strcpy(hostname", ",", "hp->h_name);}"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 206.4,
+    "x2": 434.4,
+    "y1": 167.04,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure5-1.png"
+}, {
+  "caption": "Table 1. Summary of the Annotated API Specifications.",
+  "captionBoundary": {
+    "x1": 139.54220581054688,
+    "x2": 346.2176818847656,
+    "y1": 88.14403533935547,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["free", "✓", "✓", "✓", "(Leak,", "Use-After-Free,", "Double", "Free)", "malloc", "✓", "✓", "✓", "Memory", "Usage", "→", "(pointer", "dereference)", "✗", "✓", "✗", "malloc/realloc/calloc/localtime", "✗", "✗", "✓", "Null", "Pointer", "Dereference", "close/fclose/endmntent/fflush/closedir", "✗", "✓", "✗", "open/socket/fopen/fdopen/opendir", "✗", "✗", "✓", "Resource", "Leak", "Primitive", "APIs", "Pre", "Post", "Future", "Targeted", "Bug", "Type"],
+  "name": "1",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 432.47999999999996,
+    "y1": 106.56,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Table1-1.png"
+}, {
+  "caption": "Table 2. Experimental results for analyzing 10 C projects, comparing with Infer-v1.1.0. Columns #NPD, #ML and #RL record the numbers of null pointer dereferences, memory leaks, and resource leaks, respectively. The numbers of false positives found by Infer and more true positives found by ProveNFix are represented by +n and +n respectively. Columns in #Time record the analysis time spent.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.4024963378906,
+    "y1": 201.29026794433594,
+    "y2": 238.37701416015625
+  },
+  "figType": "Table",
+  "imageText": ["Swoole(a4256e4)", "44.5", "30+7", "30+23", "16+4", "12+16", "13+1", "13+6", "2m", "50s", "39.54s", "lxc(72cc48f)", "63.3", "7+9", "5+19", "11+6", "10+12", "5+1", "5+5", "55.62s", "1m", "28s", "WavPack(22977b2)", "36", "23+7", "20+21", "3", "3+9", "0+2", "0", "27.99s", "23.77s", "ﬂex(d3de49f)", "23.9", "14+4", "14+4", "3", "3+1", "0", "0+1", "32.25s", "47.75s", "p11-kit", "76.2", "3+5", "2+2", "13+3", "12+15", "5", "5+1", "1m", "57s", "1m", "4s", "x264(d4099dd)", "67.7", "0", "0", "12", "11+5", "2", "2+3", "2m", "33s", "23.168s", "recutils-1.8", "81.9", "25", "22+8", "13+10", "11+29", "1", "1+7", "9m", "10s", "38.29s", "inetutils-1.9.4", "117.2", "7+4", "5+8", "9+3", "7+10", "1", "1+5", "30.26s", "1m", "5s", "snort-2.9.13", "378.2", "44+12", "33+34", "26+4", "15+16", "1+2", "1+1", "8m", "49s", "3m", "13s", "grub(c6b9a0a)", "331.1", "13+12", "6+5", "1", "1", "0+3", "0", "3m", "27s", "1m", "1s", "Total", "1,220.00", "166+60", "137+124", "107+30", "85+113", "26+9", "27+29", "31m", "12s", "10m", "44s", "Infer", "ProveNFix", "Infer", "ProveNFix", "Infer", "ProveNFix", "Infer", "ProveNFix", "#NPD", "#ML", "#RL", "Time", "Project", "kLoC"],
+  "name": "2",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 252.95999999999998,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Triplet specs for free and malloc APIs.",
+  "captionBoundary": {
+    "x1": 239.5240020751953,
+    "x2": 404.21173095703125,
+    "y1": 505.2542724609375,
+    "y2": 509.4639892578125
+  },
+  "figType": "Figure",
+  "imageText": ["void", "*malloc", "(size_t", "size);", "//", "pre:", "size>0", "∧", "_★", "//", "post:", "(ret=null", "∧", "n)", "∨", "(ret≠null", "∧", "malloc(ret))", "//", "future:", "ret≠null", "→", "F", "(free(ret))", "void", "free", "(void", "*ptr);", "//", "pre:", "ptr≠null", "→", "←−", "F", "(malloc(ptr))", "//", "post:", "(ptr=null", "∧", "n)", "∨", "(ptr≠null", "∧", "free(ptr))", "//", "future:", "true", "∧", "G", "(!_(ptr))"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 201.12,
+    "x2": 431.03999999999996,
+    "y1": 386.4,
+    "y2": 484.79999999999995
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure1-1.png"
+}, {
+  "caption": "Fig. 13. Demonstration for the source of false negatives.",
+  "captionBoundary": {
+    "x1": 139.52374267578125,
+    "x2": 346.4771423339844,
+    "y1": 292.3114929199219,
+    "y2": 296.5212097167969
+  },
+  "figType": "Figure",
+  "imageText": ["void", "swoole_set_object(zval", "*object", ",void", "*ptr)", "//", "post:", "true", "∧", "(consume(ptr))", "{...;", "swoole_objects.array[handle]", "=", "ptr;", "...}"],
+  "name": "13",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 131.51999999999998,
+    "x2": 351.36,
+    "y1": 246.23999999999998,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure13-1.png"
+}, {
+  "caption": "Fig. 9. Syntax of the target language.",
+  "captionBoundary": {
+    "x1": 174.3179931640625,
+    "x2": 311.6827697753906,
+    "y1": 197.4342498779297,
+    "y2": 201.64398193359375
+  },
+  "figType": "Figure",
+  "imageText": ["2", "∈", "Z", "∪", "B", "∪", "unit", "G,", "nm", "∈", "var", "(Values)", "E", "::=", "2", "|", "G", "|", "null", "bop", "∈", "{=,", ">,", "<,", "≥,", "≤}", "while(1)", "4", "|", "return", "E", "|", "assert", "(Φpre,Φfuture)", "(Binary", "Operations)", "1", "::=", "bop(E1,", "E2)", "(Expressions)", "4", "::=", "local", "G", ";", "4", "|", "G=E", "|", "nm(G∗)", "|", "41;", "42", "|", "if", "1", "then", "41", "else", "42", "|", "(Program)", "P", "::=", "spec∗", ";", "proc∗", "(Speciﬁction)", "spec", "::=", "nm(G∗)", "↦→", "(Φpre,Φpost", ",Φfuture)", "(Procedure", "Declaration)", "proc", "::=", "nm(G∗)", "{4}"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 422.4,
+    "y1": 86.39999999999999,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure9-1.png"
+}, {
+  "caption": "Fig. 10. Syntax of the spec language, IntRE.",
+  "captionBoundary": {
+    "x1": 232.20233154296875,
+    "x2": 391.8217468261719,
+    "y1": 540.8570556640625,
+    "y2": 545.0667724609375
+  },
+  "figType": "Figure",
+  "imageText": ["(Traces)", "\\", "::=", "⊥", "|", "n", "|", "I", "|", "\\1", "·", "\\2", "|", "\\1", "∨", "\\2", "|", "\\", "★", "(Events)", "I", "::=", "A(E)", "|", "A(_)", "|", "!A(E)", "|", "!_(E)", "|", "_", "|", "I1", "∧", "I2", "(Pure)", "c", "::=", "T", "|", "F", "|", "bop(C1,", "C2)", "|", "c1∧c2", "|", "c1∨c2", "|", "¬c", "|", "∃G", ".c", "(Terms)", "C", "::=", "E", "|", "C1+C2", "|", "C1-C2", "(Values)", "E", "::=", "2", "|", "G", "|", "null", "(IntRE)", "Φ", "::=", "∨", "(c", "∧", "\\", ")"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 189.12,
+    "x2": 434.88,
+    "y1": 449.28,
+    "y2": 522.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure10-1.png"
+}, {
+  "caption": "Fig. 2. Four kinds of malloc wrappers and their inferred future-conditions.",
+  "captionBoundary": {
+    "x1": 106.09300231933594,
+    "x2": 379.9086608886719,
+    "y1": 539.2412719726562,
+    "y2": 543.4509887695312
+  },
+  "figType": "Figure",
+  "imageText": ["return", "NULL;}", "+", "if", "(ptr", "!=", "NULL)", "free(ptr);", "//", "a", "repair", "int*", "wrap_malloc_IV", "()", "//", "future:", "true", "∧", "_★", "{", "int*", "ptr", "=", "malloc", "(4);", "if", "(ptr", "==", "NULL)", "exit(-1);", "return", "ptr;}", "int*", "wrap_malloc_III", "()", "//", "future:", "true", "∧", "F", "(free(ret))", "{", "int*", "ptr", "=", "malloc", "(4);", "{", "int*", "ptr", "=", "malloc", "(4);", "return", "ptr;}", "∨", "ret≠null", "∧", "F", "(free(ret))", "int*", "wrap_malloc_II", "()", "//", "future:", "ret=null", "∧", "G", "(!_(ret))", "{", "ptr", "=", "malloc", "(4);", "return", ";}", "∨", "ptr≠null", "∧", "F", "(free(ptr))", "void", "wrap_malloc_I", "(int*", "ptr)", "//", "future:", "ptr=null", "∧", "G", "(!_(ptr))"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 65.28,
+    "x2": 420.96,
+    "y1": 417.12,
+    "y2": 519.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure2-1.png"
+}, {
+  "caption": "Table 5. Automatically repairing incorrect SSL API usages.",
+  "captionBoundary": {
+    "x1": 134.10389709472656,
+    "x2": 351.6553039550781,
+    "y1": 257.43505859375,
+    "y2": 261.644775390625
+  },
+  "figType": "Table",
+  "imageText": ["37", "SSL_new", "✓", "✓", "0.62s", "36", "SSL_connect", "✓", "✓", "proxytunnel(f7831a2)", "3.1", "225", "SSL_use_PrivateKey", "✓", "✓", "2.69s", "224", "SSL_CTX_use_certiﬁcate", "✓", "✓", "sslsplit(19a16bd)", "18.7", "21.55s", "4294", "SSL_write", "✓", "✓", "4293", "SSL_new", "✓", "✓traﬃcserver(5ee6a5f)", "34.1", "2310", "i2a_ASN1_OBJECT", "✓", "✓", "38.89s", "4292", "SSL_CTX_new", "✓", "✓", "2309", "BIO_new", "✓", "✓", "FreeRADIUS(94149dc)", "258.9", "29", "BN_set_word", "✓", "✗", "3.32s", "28", "BN_new", "✓", "✓", "thc-ipv6(011376c)", "30.9", "1004", "SSL_new", "✓", "✓", "5.62s", "OpenSSL", "Applications", "kLoC", "Issue", "ID", "Target", "API", "Github", "Status", "ProveNFix", "Time", "1003", "SSL_CTX_new", "✓", "✓", "keepalive(843ﬀc80)", "59.1"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 436.32,
+    "y1": 276.48,
+    "y2": 420.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Table5-1.png"
+}, {
+  "caption": "Fig. 12. Term rewriting rules.",
+  "captionBoundary": {
+    "x1": 189.39845275878906,
+    "x2": 296.6004943847656,
+    "y1": 406.9112854003906,
+    "y2": 411.1210021972656
+  },
+  "figType": "Figure",
+  "imageText": ["c,", "Γ", "⊢", "\\1", "̸⊑", "\\2", "[Failed-Unfold]", "ConstrProp(c,", "\\1", "̸⊑", "\\2)", "=fst", "(\\1)", "∃I", "∈", "DI", "(\\2)", "=", "⊥", "c,", "Γ", "⊢", "\\1", "̸⊑", "\\2", "[Dis-Nullable]", "ConstrProp(c,", "\\1", "̸⊑", "\\2)", "X", "(\\1)∧¬X", "(\\2)", "c,", "Γ", "⊢", "\\1", "⊑", "\\2", "[Unfold]", "∀I", "∈", ".", "(c,", "Γ′", "⊢", "DI", "(\\1)", "⊑", "DI", "(\\2))", "=fst", "(\\1)", "c,", "Γ′=Γ,", "(\\1", "⊑", "\\2)", "c,", "Γ", "⊢", "\\1", "⊑", "\\2", "(\\1", "⊑", "\\3)", "∈", "Γ", "(\\3", "⊑", "\\2)", "∈", "Γ", "[Reoccur]", "c,", "Γ", "⊢", "\\1", "⊑", "\\2", "fst", "(\\1)={}", "[Prove]"],
+  "name": "12",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 426.24,
+    "y1": 304.8,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure12-1.png"
+}, {
+  "caption": "Fig. 11. Selected forward reasoning rules.",
+  "captionBoundary": {
+    "x1": 166.5439453125,
+    "x2": 319.4568176269531,
+    "y1": 318.21331787109375,
+    "y2": 322.42303466796875
+  },
+  "figType": "Figure",
+  "imageText": ["⊢", "{Φ}", "local", "G", ";", "4", "{∃G", ".", "Φ4", "}", "[", "'-Local]", "⊢", "{Φ}", "4", "{Φ4", "}", "⊢", "{Φ}", "if", "1", "41", "else", "42", "{Φ1", "∪", "Φ2}", "[", "'-If", "-Else]", "⊢", "{1", "∧", "Φ}", "41", "{Φ1}", "⊢", "{¬1", "∧", "Φ}", "42", "{Φ2}", "⊢", "{Φ}", "while(1)", "4", "{¬1", "∧", "Φ′}", "[", "'-While]", "⊢", "{1", "∧", "Φ}", "4★", "{Φ′}", "⊢", "{Φ}", "41;", "42", "{Φ1", "·", "Φ2}", "[", "'-Seq]", "⊢", "{Φ}", "41", "{Φ1}", "⊢", "{Φ", "·", "Φ1}", "42", "{Φ2}", "⊢", "{Φ}", "assert", "(Φpre,Φfuture);", "4", "{Φ4", "}", "Φ", "⊑", "Φpre", "⊢", "{Φ}", "4", "{Φ4", "}", "Φ4", "⊑", "Φfuture", "[", "'-Assert]", "⊢", "{Φ}", "G=E", "{(G=E)∧n,", "0}", "[", "'-Assign]", "⊢", "{Φ}", "return", "E", "{(ret=E)∧n,", "1}", "[", "'-Return]"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 436.32,
+    "y1": 192.48,
+    "y2": 294.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure11-1.png"
+}, {
+  "caption": "Fig. 4. A false positive reported by Infer.",
+  "captionBoundary": {
+    "x1": 168.906005859375,
+    "x2": 317.09375,
+    "y1": 560.6640625,
+    "y2": 564.873779296875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "static", "int", "swReactorProcess_reuse_port(swListenPort", "*ls)", "2", "{", "int", "sock", "=", "swSocket_create(ls->type);", "//", "Here", "acquires", "a", "socket", "resource", "3", "if", "(sock", "<", "0)", "return", "SW_ERR;", "4", "if", "(swSocket_bind(sock", ",", "ls->type", ",", "ls->host", ",", "ls->port)", "<", "0){", "5", "+", "close(sock);", "//", "a", "repair", "6", "return", "SW_ERR", ";}", "7", "if", "(swSocket_is_stream(ls->type))", "swSetNonBlock(sock);", "8", "ls->sock", "=", "sock;", "//", "Here", "is", "NOT", "a", "bug!", "9", "return", "swPort_listen(ls);}"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 420.0,
+    "y1": 448.32,
+    "y2": 542.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Figure4-1.png"
+}, {
+  "caption": "Table 4. Automatically finding/fixing double free bugs.",
+  "captionBoundary": {
+    "x1": 290.0769958496094,
+    "x2": 441.6627502441406,
+    "y1": 498.21929931640625,
+    "y2": 513.3880004882812
+  },
+  "figType": "Table",
+  "imageText": ["lxc", "0", "0", "2m", "15s", "p11-kit", "2", "2+1+1", "16.75s", "grub", "2", "2+1+1", "31.83s", "Total", "4", "4+2+2", "3m", "4s", "Time", "SAVER", "TempFix", "Project", "Double", "Free"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 289.92,
+    "x2": 439.2,
+    "y1": 528.0,
+    "y2": 591.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Table4-1.png"
+}, {
+  "caption": "Table 3. Experimental results for repairing 10 C projects, comparing with SAVER and FootPatch. Columns marked as # are numbers of the total true positives found by Infer-v1.1.0 and ProveNFix, summarised from Table 2. The numbers of false positives reported by Infer-v0.9.3 are marked as +n.",
+  "captionBoundary": {
+    "x1": 45.5855712890625,
+    "x2": 440.17486572265625,
+    "y1": 154.20127868652344,
+    "y2": 180.3289794921875
+  },
+  "figType": "Table",
+  "imageText": ["Swoole", "53", "53", "32", "28", "19", "19", "4.33s", ":", ":", "15+3", "11", "6+1", "6", "lxc", "26", "24", "23", "22", "10", "10", "3.882s", ":", ":", "3+5", "3", "2+1", "0", "WavPack", "44", "41", "12", "12", "0", "0", "11.435s", ":", ":", "1+2", "0", "2", "1", "ﬂex", "18", "18", "4", "4", "1", "1", "39.38s", ":", ":", "3+4", "0", "0", "0", "p11-kit", "5", "4", "28", "27", "6", "6", "2.452s", ":", ":", "33+9", "24", "2", "1", "x264", "0", "0", "17", "14", "5", "5", "6.375s", ":", ":", "10", "10", "0", "0", "recutils-1.8", "33", "30", "42", "36", "8", "8", "1.261s", ":", ":", "10+11", "8", "1", "0", "inetutils-1.9.4", "15", "13", "19", "17", "6", "6", "1.517s", ":", ":", "4+5", "4", "2+1", "1", "snort-2.9.13", "78", "67", "42", "13", "2", "2", "10.57s", ":", ":", "16+27", "10", "0", "0", "grub", "18", "11", "1", "1", "0", "0", "40.626s", ":", ":", "0", "0", "0", "0", "Total(Fix", "Rate)", "290", "261(90%)", "220", "174", "(79%)", "57", "57", "(100%)", "2m", "2s", ":", ":", "95+66", "70(73.7%)", "15+3", "9(60%)", "#", "ProveNFix", "#", "ProveNFix", "#", "ProveNFix", "Time", ":", ":", "#ML", "SAVER", "#RL", "FootPatch", "NPD", "ML", "RL", ":", ":", "Infer-v0.9.3", "Project"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 433.44,
+    "y1": 194.88,
+    "y2": 328.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643737-Table3-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 2. Sample of candidate MRs for MyBoundedStack and how they are handled byMemoRIA.",
+  "captionBoundary": {
+    "x1": 63.788997650146484,
+    "x2": 421.9688720703125,
+    "y1": 537.2837524414062,
+    "y2": 542.009033203125
+  },
+  "figType": "Table",
+  "imageText": ["Proc.", "ACM", "Softw.", "Eng.,", "Vol.", "1,", "No.", "FSE,", "Article", "21.", "Publication", "date:", "July", "2024.", "1-", "{(1}", "⇒", "n", "=", "pop();push(Object)", "No", "EPA", "2-", "{(2,", "(3}", "⇒", "n", "=", "pop();push(Object)", "No", "Dynamic", "checking", "3-", "{(1,", "(2}", "⇒", "n", "=", "push(Object);pop();isEmpty()", "Yes", "SAT-based", "reduction", "4-", "{(1,", "(2,", "(3}", "⇒", "n", "=", "isEmpty()", "Yes", "-", "5-", "{(1,", "(2}", "⇒", "n", "=", "push(Object);pop()", "Yes", "-", "MRs", "Valid?", "Discarded", "in", "stage"],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 440.64,
+    "y1": 556.8,
+    "y2": 682.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Table2-1.png"
+}, {
+  "caption": "Table 4. Comparison of metamorphic relations inference between MemoRIA(all) –our approach without including the SAT-based reduction–,MemoRIA(sat) – our approach with the SAT-based reduction enabled– and the SBES technique.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.13189697265625,
+    "y1": 87.62870788574219,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["MyBoundedStack", "39", "541", "945", "217", "9", "0", "58.8", "58.8", "0", "ListItr", "47", "8,120", "1,750", "104", "53", "3", "48.5", "48.2", "0", "JDBCResultSet", "14", "434", "-", "72", "23", "-", "7.6", "5.7", "-", "NmbrFStrngTknzr", "12", "47", "1,070", "151", "5", "1", "33.3", "16.7", "0", "NmbrFStrngTknzr_m", "12", "37", "-", "211", "5", "-", "41.8", "31.3", "-", "SMTPProcessor", "12", "140", "-", "85", "17", "-", "22.8", "21.2", "-", "SMTPProcessor_h", "11", "458", "-", "15", "11", "-", "24.9", "23.0", "-", "SMTPProtocol", "13", "13", "-", "3", "2", "-", "7.4", "7.4", "-", "SftpConnection", "24", "30", "2,952", "26", "7", "0", "4.1", "4.1", "0", "Signature", "48", "106", "-", "172", "14", "-", "21.9", "21.0", "-", "Socket", "9", "60", "-", "73", "4", "-", "10.4", "8.6", "-", "StackAr", "138", "154", "1,853", "145", "13", "2", "66.8", "64.7", "0", "StringTokenizer", "9", "10", "662", "17", "1", "0", "6.9", "6.9", "0", "ToHTMLStream", "13", "13", "-", "16", "2", "-", "1.6", "1.3", "-", "ZipOutputStream", "12", "21", "-", "73", "2", "-", "4.1", "1.6", "-", "Stack", "47", "61", "7,080", "129", "41", "41", "18.0", "16.7", "50.1", "SingleNode", "14", "14", "2,400", "0", "0", "12", "0.4", "0.4", "0.4", "MultiNode", "14", "14", "2,475", "0", "0", "12", "0", "0", "0.4", "Edge", "638", "695", "6,309", "249", "41", "20", "1.3", "1.3", "0.8", "Path", "12", "545", "1,657", "90", "22", "5", "4.9", "4.4", "2.5", "Vector2", "11", "12", "2,121", "32", "9", "21", "12.9", "12.7", "54.2", "Vector3", "12", "14", "2,416", "44", "11", "22", "9.6", "9.5", "34.9", "MemoRIA", "SBES", "MemoRIA", "SBES", "MemoRIA", "SBES", "(all)", "(sat)", "(all)", "(sat)", "(all)", "(sat)", "Time", "(sec.)", "Inferred", "(#)", "Mutation", "Score", "(%)", "Subject"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 428.15999999999997,
+    "y1": 128.64,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Table4-1.png"
+}, {
+  "caption": "Fig. 2. Implementation of class MyBoundedStack.",
+  "captionBoundary": {
+    "x1": 150.61500549316406,
+    "x2": 335.3854675292969,
+    "y1": 329.9197082519531,
+    "y2": 334.6449890136719
+  },
+  "figType": "Figure",
+  "imageText": ["}", "public", "boolean", "isEmpty()", "{", "return", "index", "==", "-1;}", "public", "boolean", "isFull()", "{", "return", "index", "==", "elements.length", "-", "1;}", "}", "if", "(isEmpty())", "throw", "new", "IllegalStateException();", "return", "elements[index--];", "public", "Object", "pop()", "{", "}", "if", "(isFull())", "throw", "new", "IllegalStateException();", "elements[++index]", "=", "o;", "public", "void", "push(Object", "o)", "{", "}", "elements", "=", "new", "int[3];", "index", "=", "-1;", "public", "MyBoundedStack()", "{", "private", "final", "Object[]", "elements;", "private", "int", "index;", "public", "class", "MyBoundedStack", "{"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 391.2,
+    "y1": 78.72,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. EPA of class MyBoundedStack.",
+  "captionBoundary": {
+    "x1": 93.80899810791016,
+    "x2": 234.45606994628906,
+    "y1": 446.177734375,
+    "y2": 450.90301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["isFull()", "isEmpty()", "pop()", "push(Object)", "isFull()", "isEmpty()", "pop()", "push(Object)", "S3", "pop()", "push(Object)", "isFull()", "isEmpty()", "MyBoundedStack()", "S2S1S0"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 283.2,
+    "y1": 356.64,
+    "y2": 432.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Figure3-1.png"
+}, {
+  "caption": "Table 3. Ratio of EPA detected Invalid MRs. It reports number of public methods (#\"), EPA size (number of states #( and transitions #X), and number of invalid (I) MRs discarded by the EPA (D).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.171630859375,
+    "y1": 87.62870788574219,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "127", "76", "462", "37,594", "33,674", "89", "JDBCResultSet", "24", "9", "127", "6,185", "5,939", "96", "ListItr", "9", "8", "65", "3,861", "3,520", "91", "MyBoundedStack", "4", "4", "13", "1,358", "1,095", "81", "NumberFormatStringTokenizer", "4", "4", "13", "1,371", "1,035", "76", "NumberFormatStringTokenizer_m", "4", "3", "9", "998", "719", "72", "SMTPProcessor", "7", "5", "20", "2,337", "2,226", "95", "SMTPProcessor_h", "9", "12", "85", "6,119", "5,801", "95", "SMTPProtocol", "9", "3", "18", "1,786", "1,433", "80", "SftpConnection", "20", "5", "29", "2,944", "2,790", "94", "Signature", "10", "4", "20", "2,013", "1,879", "93", "Socket", "7", "7", "20", "3,780", "3,752", "99", "StackAr", "6", "3", "14", "1,248", "807", "65", "StringTokenizer", "3", "3", "12", "1,201", "799", "67", "ToHTMLStream", "7", "2", "8", "932", "474", "51", "ZipOutputStream", "4", "4", "9", "1,462", "1,406", "96", "#S", "#X", "#I", "#D", "Rec.", "(%)", "Subject", "#M", "EPA", "MRs"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 409.44,
+    "y1": 117.6,
+    "y2": 350.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Table3-1.png"
+}, {
+  "caption": "Fig. 7. Mutation score achieved by Evo+EPA regression assertions, and the increase obtained when adding MRs inferred by di erent techniques.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1729736328125,
+    "y1": 236.14170837402344,
+    "y2": 251.82598876953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 123.83999999999999,
+    "x2": 362.4,
+    "y1": 84.0,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Figure7-1.png"
+}, {
+  "caption": "Fig. 5. Overview of MemoRIA.",
+  "captionBoundary": {
+    "x1": 187.1219940185547,
+    "x2": 298.8785705566406,
+    "y1": 205.47569274902344,
+    "y2": 210.20098876953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 427.2,
+    "y1": 84.0,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Figure5-1.png"
+}, {
+  "caption": "Table 5. Mutation score improvement achieved when incorporating the MRs.",
+  "captionBoundary": {
+    "x1": 100.52499389648438,
+    "x2": 385.23480224609375,
+    "y1": 87.62846374511719,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["MyBoundedStack", "52.9", "52.9", "70.6", "70.6", "ListItr", "86.2", "86.2", "86.2", "86.2", "JDBCResultSet", "46.0", "46.0", "46.7", "46.7", "NmbrFStrngTknzr", "80.9", "80.9", "85.7", "85.7", "NmbrFStrngTknzr_m", "50.7", "50.7", "76.1", "76.1", "SMTPProcessor", "28.4", "28.4", "28.4", "28.4", "SMTPProcessor_h", "19.5", "19.5", "30.5", "29.1", "SMTPProtocol", "34.2", "34.2", "38.8", "38.8", "SftpConnection", "99.6", "99.6", "99.6", "99.6", "Signature", "74.0", "74.0", "74.0", "74.0", "Socket", "100.0", "100.0", "100.0", "100.0", "StackAr", "94.1", "94.1", "94.1", "94.1", "StringTokenizer", "46.7", "46.7", "47.7", "47.7", "ToHTMLStream", "8.6", "8.6", "9.2", "9.2", "ZipOutputStream", "23.6", "23.6", "24.4", "23.9", "Stack", "99.5", "99.5", "99.8", "99.8", "SingleNode", "1.9", "1.9", "2.0", "2.0", "MultiNode", "5.7", "5.7", "5.7", "5.7", "Edge", "0.8", "0.8", "1.3", "1.3", "Path", "6.6", "6.6", "7.4", "6.8", "Vector2", "97.0", "97.0", "97.0", "97.0", "Vector3", "92.4", "94.3", "92.4", "92.4", "Subject", "Evo+EPA", "+SBES", "+MemoRIA(all)", "+MemoRIA(sat)"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 416.15999999999997,
+    "y1": 118.56,
+    "y2": 406.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643747-Table5-1.png"
+}]

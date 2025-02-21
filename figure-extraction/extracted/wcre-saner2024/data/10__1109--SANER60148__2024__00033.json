@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 1. JNIInvokeInterface and JNINativeInterface Structures",
+  "captionBoundary": {
+    "x1": 315.9012145996094,
+    "x2": 548.99072265625,
+    "y1": 379.4283752441406,
+    "y2": 383.8392028808594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 535.1999999999999,
+    "y1": 296.64,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. Workflow of JNFuzz-Droid",
+  "captionBoundary": {
+    "x1": 235.33920288085938,
+    "x2": 368.6751403808594,
+    "y1": 265.71844482421875,
+    "y2": 270.1292724609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 541.4399999999999,
+    "y1": 82.56,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure5-1.png"
+}, {
+  "caption": "TABLE I List of Library Calls for Taint Propagation",
+  "captionBoundary": {
+    "x1": 93.41565704345703,
+    "x2": 257.9588317871094,
+    "y1": 373.81634521484375,
+    "y2": 389.4649353027344
+  },
+  "figType": "Table",
+  "imageText": ["strcat,", "strdup,", "strto(u)l,", "strtod,", "memcpy,", "malloc,", "memset,", "memcmp,", "memchr,", "memmove,", "atoi,", "atol,", "atoll", "Other", "strlen,", "str(n|case|ncase)cmp,", "str(n)cpy,", "strstr,", "str(r)chr,", "File", "Permission", "(f|l)chmod,", "(f|l)chown,", "access", "Dynamic", "Loading", "dl(m)open,", "dl(v)sym", "Monitoring", "inotify", "init,", "inotify", "add", "watch,", "inotify", "rm", "watch", "Execution", "execcl(p|e)*,", "execv(p|e)*,", "system,", "popen", "Process", "Management", "kill,", "ptrace,", "fork,", "get(e)uid,", "get(e)gid,", "get(p)pid,", "...", "Time", "clock", "gettime,", "gettimeofday,", "...", "socket,", "bind,", "accept,", "select,", "write*,", "...", "File", "Operation", "(f)write*,", "(f)open,", "(f)read,", "fput(c|s)*,", "fdopen", "Network", "gethostbyname,", "recv(from),", "connect,", "send(to)*,", "listen,", "Print", "&", "Log", "android", "log", "print*,", "(f|s|sn|vsn|vs|vf)printf*,", "...", "Category", "Library", "Calls", "JNINativeInterface", "Call<type>Method(v)*,", "FindClass,", "..."],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 294.24,
+    "y1": 396.96,
+    "y2": 516.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-TableI-1.png"
+}, {
+  "caption": "Fig. 6. GetStringUTFChars Function Model",
+  "captionBoundary": {
+    "x1": 94.05159759521484,
+    "x2": 262.7304382324219,
+    "y1": 657.9277954101562,
+    "y2": 662.338623046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 190.07999999999998,
+    "y1": 615.84,
+    "y2": 648.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure6-1.png"
+}, {
+  "caption": "Fig. 9. Native Hard-code",
+  "captionBoundary": {
+    "x1": 129.75729370117188,
+    "x2": 225.55923461914062,
+    "y1": 176.103759765625,
+    "y2": 180.51458740234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 294.24,
+    "y1": 73.92,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure9-1.png"
+}, {
+  "caption": "Fig. 2. The Native-leaking App: The arrowed lines among the app components highlight some of the inter-language communication. (Methods and codes are simplified for convenience)",
+  "captionBoundary": {
+    "x1": 59.790401458740234,
+    "x2": 543.0140380859375,
+    "y1": 322.7344665527344,
+    "y2": 338.383056640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 539.04,
+    "y1": 74.88,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure2-1.png"
+}, {
+  "caption": "TABLE III Results on Benchmarks",
+  "captionBoundary": {
+    "x1": 132.0885772705078,
+    "x2": 222.4027557373047,
+    "y1": 567.356689453125,
+    "y2": 583.0052490234375
+  },
+  "figType": "Table",
+  "imageText": ["Recall", "63.2%", "26.3%", "68.4%", "F1-score", "77.4%", "40.0%", "81.2%", "Precision", "100%", "83.3%", "100%", "BenchApps", "(3)", "0", "0", "3", "3", "1", "0", "3", "0", "0", "DroidBench3.0", "(3)", "0", "0", "3", "1", "0", "2", "3", "0", "0", "NativeFlowBench", "(14)", "12", "0", "1", "1", "0", "12", "7", "0", "6", "TP", "FP", "FN", "TP", "FP", "FN", "TP", "FP", "FN", "Benchmark", "(Num)", "JN-SAF", "JuCify", "JNFuzz-Droid", "TP", "=", "True", "Positive,", "FP", "=", "False", "Positive,", "FN", "=", "False", "Negative"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 596.64,
+    "y2": 673.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-TableIII-1.png"
+}, {
+  "caption": "TABLE II Native Library Usage",
+  "captionBoundary": {
+    "x1": 135.9193572998047,
+    "x2": 218.55438232421875,
+    "y1": 74.68598175048828,
+    "y2": 90.33453369140625
+  },
+  "figType": "Table",
+  "imageText": ["F-Droid", "AndroZoo", "F-Droid", "AndroZoo", "Total", "App", "3682", "3549", "Has", "Native", "Method", "808", "2829", "/Total", "App", "21.9%", "79.7%", "Has", ".so", "File", "799", "826", "/Total", "App", "21.7%", "23.3%", "Has", "ELF", "in", "asset", "39", "769", "/Total", "App", "1.1%", "21.7%", "Has", "Encrypted", "zip", "0", "19", "/Total", "App", "-", "0.5%", "Has", "Native", "Activity", "3", "0", "/Total", "App", "0.1%", "-", "Total", "Native", "Method", "127300", "330477", "/Has", "Native", "Method", "157.5", "116.8"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 97.92,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-TableII-1.png"
+}, {
+  "caption": "Fig. 3. Client/Server Architecture",
+  "captionBoundary": {
+    "x1": 368.4258117675781,
+    "x2": 496.7234802246094,
+    "y1": 569.8714599609375,
+    "y2": 574.2822875976562
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 549.12,
+    "y1": 459.84,
+    "y2": 551.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure3-1.png"
+}, {
+  "caption": "Fig. 8. Inter-language Data Leakage",
+  "captionBoundary": {
+    "x1": 362.6606140136719,
+    "x2": 501.44683837890625,
+    "y1": 540.5204467773438,
+    "y2": 544.9312744140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 548.16,
+    "y1": 459.84,
+    "y2": 531.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure8-1.png"
+}, {
+  "caption": "TABLE IV Results on CCBench",
+  "captionBoundary": {
+    "x1": 137.51100158691406,
+    "x2": 217.43023681640625,
+    "y1": 74.90106964111328,
+    "y2": 90.54962158203125
+  },
+  "figType": "Table",
+  "imageText": ["Recall", "r", "=", "O/(O", "+", "X)", "28.6%", "71.4%", "100%", "F1-score", "=", "2pr/(p", "+", "r)", "41.4%", "81.1%", "100%", "Precision", "p", "=", "O/(O", "+", "*)", "75.0%", "93.8%", "100%", "*,", "lower", "is", "better", "2", "1", "0", "X,", "lower", "is", "better", "15", "6", "0", "O,", "higher", "is", "better", "6", "15", "21", "Sum,", "Precision", "and", "Recall", "log", "noleak", "*", "global", "imei", "O", "O", "O", "interrupt", "cfg", "X", "O", "O", "native", "method", "overloading", "O", "X", "O", "native", "method", "overloading1", "X", "O", "O", "Part", "D:", "Overloading", "and", "Misc", "arm64-v8a", "X", "O", "O", "thread", "leak", "O", "O", "O", "thread", "in", "leak", "O", "O", "O", "thread", "noleak", "armeabi", "O", "O", "O", "armeabi-v7a", "O", "O", "O", "Part", "C:", "Architecture", "and", "Thread", "tcp", "client", "XX", "OX", "OO", "udp", "client", "XX", "OX", "OO", "strcpy", "X", "O", "O", "strcpy1", "X", "X", "O", "atoll", "X", "X", "O", "Part", "B:", "Linux", "System", "Call", "weak", "X", "O", "O", "condition", "X", "O", "O", "smt", "*", "switch", "*", "while", "X", "O", "O", "math", "library", "X", "X", "O", "explosion", "path", "X", "O", "O", "Part", "A:", "Inter-language", "Control", "Flow", "App", "Name", "JN-SAF", "JuCify", "JNFuzz-Droid", "O", "=", "True", "Positive,", "*", "=", "False", "Positive,", "X", "=", "False", "Negative"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 104.16,
+    "y2": 458.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-TableIV-1.png"
+}, {
+  "caption": "Fig. 7. Inter-language Data Transmission",
+  "captionBoundary": {
+    "x1": 353.45050048828125,
+    "x2": 510.6573791503906,
+    "y1": 297.8951721191406,
+    "y2": 302.3059997558594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 548.16,
+    "y1": 223.67999999999998,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure7-1.png"
+}, {
+  "caption": "Fig. 4. Reverse Search Algorithm",
+  "captionBoundary": {
+    "x1": 367.9277038574219,
+    "x2": 497.18994140625,
+    "y1": 194.4090576171875,
+    "y2": 198.81988525390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 550.0799999999999,
+    "y1": 72.0,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00033-Figure4-1.png"
+}]

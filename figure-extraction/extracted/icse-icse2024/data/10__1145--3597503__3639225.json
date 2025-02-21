@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Function summary extraction rules.",
+  "captionBoundary": {
+    "x1": 90.28101348876953,
+    "x2": 257.56085205078125,
+    "y1": 198.39639282226562,
+    "y2": 204.02703857421875
+  },
+  "figType": "Figure",
+  "imageText": ["S", "=", "S[", "𝑓", "↦→", "E′", "]", "𝑝𝑐", "(𝑓", ")", ":=", "𝑖", "𝑓", "(E𝑐", ")𝑡ℎ𝑒𝑛{S∗", "1", "}𝑒𝑙𝑠𝑒", "{S∗", "2", "},E′", ":=", "𝐼", "𝑓", "𝑆𝑚", "(E𝑐", ",", "S∗", "1", ",", "S∗", "2", ",Φ∗,", "S(𝑓", ")", ")", "𝑝𝑐", "(𝑓", ")", ":=", "𝑓", "𝑜𝑟", "(𝑖,", "𝑛)", "{S∗},E′", ":=", "𝐿𝑝𝑆𝑚", "(𝑖,", "𝑛,", "S∗,", "S(𝑓", ")", ")", "S", "=", "S[", "𝑓", "↦→", "E′", "]", "𝑝𝑐", "(𝑓", ")", ":=", "𝑐𝑎𝑙𝑙", "(𝑓", "′,", "E,", "𝑖𝑑", "),", "S(𝑓", ")", "=", "E,E′", ":=", "E[𝑖𝑑/S(𝑓", "′", "(E)", ")", "]", "S", "=", "S[", "𝑓", "↦→", "E′", "]", "𝑝𝑐", "(𝑓", ")", ":=", "𝑎𝑠𝑠𝑖𝑔𝑛", "(𝑖𝑑,", "E),", "S(𝑓", ")", "=", "{E},E′", ":=", "E[𝑖𝑑/𝐶𝑜𝑛𝑣𝐷𝑆𝐿", "(E)", "]", "S", "=", "S[", "𝑓", "↦→", "E′", "]", "𝑝𝑐", "(𝑓", ")", ":=", "require", "E", "or", "𝑝𝑐", "(𝑓", ")", ":=", "return", "E,", "S(𝑓", ")", "=⊥,E", ":=", "𝐶𝑜𝑛𝑣𝐷𝑆𝐿", "(E)", "S", "=", "S[", "𝑓", "↦→", "E]"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 87.84,
+    "y2": 193.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Figure4-1.png"
+}, {
+  "caption": "Table 7: dForce borrow with cf = 0.5 and bf = 0.7.",
+  "captionBoundary": {
+    "x1": 349.56298828125,
+    "x2": 526.2968139648438,
+    "y1": 137.80734252929688,
+    "y2": 143.43798828125
+  },
+  "figType": "Table",
+  "imageText": ["𝛿", "=", "0.1,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "0", "0.5", "0.7", "3", "0.0264", "𝛿", "=", "0.01,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "0", "0.5", "0.7", "3", "0.0265", "𝛿", "=", "0.001,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "0", "0.5", "0.7", "3", "0.0263", "𝛿", "=", "0.1,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "1", "0.5", "0.8560", "6", "3.8853", "𝛿", "=", "0.01,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "1", "0.5", "0.7150", "6", "0.3996", "𝛿", "=", "0.001,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "1", "0.5", "0.7020", "6", "0.1091", "𝛿", "=", "0.1,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "1", "0.6120", "0.7", "6", "2.7787", "𝛿", "=", "0.01,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "1", "0.5110", "0.7", "6", "0.3082", "𝛿", "=", "0.001,", "𝑐𝑙", "=", "1,", "𝑏𝑙", "=", "1", "0.5020", "0.7", "6", "0.0892", "𝛿", "=", "0.1,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "1", "0.5", "0.8560", "9", "7.1360", "𝛿", "=", "0.01,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "1", "0.5", "0.7150", "9", "0.4700", "𝛿", "=", "0.001,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "1", "0.5", "0.7020", "9", "0.0875", "𝛿", "=", "0.1,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "1", "0.6115", "0.7", "9", "3.8853", "𝛿", "=", "0.01,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "1", "0.5110", "0.7", "9", "0.3996", "𝛿", "=", "0.001,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "1", "0.5020", "0.7", "9", "0.1091", "𝛿", "=", "0.1,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "2", "0.5", "0.8560", "12", "9.0215", "𝛿", "=", "0.01,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "2", "0.5", "0.7145", "12", "0.3842", "𝛿", "=", "0.001,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "2", "0.5", "0.7015", "12", "0.1010", "𝛿", "=", "0.1,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "2", "0.6115", "0.7", "12", "1.8996", "𝛿", "=", "0.01,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "2", "0.5105", "0.7", "12", "0.6305", "𝛿", "=", "0.001,", "𝑐𝑙", "=", "2,", "𝑏𝑙", "=", "2", "0.5015", "0.7", "12", "0.1676", "NumVars", "Time", "(s)", "bf", "′", "Variables", "cf", "′"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 149.76,
+    "y2": 373.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table7-1.png"
+}, {
+  "caption": "Table 5: Compound borrow with cf = 0.7 and ex = 1.",
+  "captionBoundary": {
+    "x1": 79.8030014038086,
+    "x2": 267.7425537109375,
+    "y1": 120.35134887695312,
+    "y2": 125.98199462890625
+  },
+  "figType": "Table",
+  "imageText": ["𝛿", "=", "0.1,", "𝑏𝑜𝑢𝑛𝑑", "=", "1", "0.8600", "5", "4.5486", "𝛿", "=", "0.01,", "𝑏𝑜𝑢𝑛𝑑", "=", "1", "0.7200", "5", "0.1194", "𝛿", "=", "0.001,", "𝑏𝑜𝑢𝑛𝑑", "=", "1", "0.7100", "5", "0.0794", "𝛿", "=", "0.1,", "𝑏𝑜𝑢𝑛𝑑", "=", "2", "NA", "9", "TO", "𝛿", "=", "0.01,", "𝑏𝑜𝑢𝑛𝑑", "=", "2", "0.7150", "9", "0.3535", "𝛿", "=", "0.001,", "𝑏𝑜𝑢𝑛𝑑", "=", "2", "0.7050", "9", "0.2316", "NumVars", "Time", "(s)", "Variables", "cf", "′"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 132.0,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table5-1.png"
+}, {
+  "caption": "Table 8: Expressions extracted for xToken.",
+  "captionBoundary": {
+    "x1": 359.739990234375,
+    "x2": 516.1194458007812,
+    "y1": 641.8563232421875,
+    "y2": 647.4869995117188
+  },
+  "figType": "Table",
+  "imageText": ["Protocol", "mint", "burn", "NumVars", "Time", "(s)", "𝑥𝑇𝑜𝑘𝑒𝑛", "𝑒𝑡ℎ𝑒𝑟𝐶𝑜𝑛𝑡𝑟", "𝑚𝑖𝑛𝑡𝐴𝑚𝑡", "𝑣𝑎𝑙𝑇𝑜𝑆𝑒𝑛𝑑", "𝑡𝑜𝑘𝑇𝑜𝑅𝑒𝑑𝑒𝑒𝑚", "4", "1.7247"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 653.76,
+    "y2": 679.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table8-1.png"
+}, {
+  "caption": "Table 6: Solo liquidation with mp = 0.15 and mr = 0.1.",
+  "captionBoundary": {
+    "x1": 76.4629898071289,
+    "x2": 271.0814208984375,
+    "y1": 458.1243591308594,
+    "y2": 463.7550048828125
+  },
+  "figType": "Table",
+  "imageText": ["𝛿", "=", "0.1,", "𝑏𝑜𝑢𝑛𝑑", "=", "1", "0.15", "0.10", "5", "0.0280", "𝛿", "=", "0.01,", "𝑏𝑜𝑢𝑛𝑑", "=", "1", "0.15", "0.10", "5", "0.0281", "𝛿", "=", "0.001,", "𝑏𝑜𝑢𝑛𝑑", "=", "1", "0.15", "0.10", "5", "0.0281", "𝛿", "=", "0.1,", "𝑏𝑜𝑢𝑛𝑑", "=", "2", "0.15", "0.35", "10", "1.1197", "𝛿", "=", "0.01,", "𝑏𝑜𝑢𝑛𝑑", "=", "2", "0.15", "0.13", "10", "0.1454", "𝛿", "=", "0.001,", "𝑏𝑜𝑢𝑛𝑑", "=", "2", "0.15", "0.11", "10", "0.0888", "NumVars", "Time", "(s)", "mr", "′", "Variables", "mp", "′"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 469.91999999999996,
+    "y2": 542.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table6-1.png"
+}, {
+  "caption": "Figure 1: Compound protocol borrow logic simplified.",
+  "captionBoundary": {
+    "x1": 65.64198303222656,
+    "x2": 282.1960754394531,
+    "y1": 339.73333740234375,
+    "y2": 345.3639831542969
+  },
+  "figType": "Figure",
+  "imageText": ["10", "//", "Iterate", "over", "each", "asset", "in", "the", "acct", "11", "CToken", "[]", "memory", "assets", "=", "accountAssets[acct];", "12", "for", "(uint", "i", "=", "0;", "i", "<", "assets.length;", "i++)", "{", "13", "CToken", "asset", "=", "assets[i];", "14", "(,", "v.cTokenBal", ",", "v.brwBal", ",", "v.exchRt)", "=", "15", "asset.getAccountSnapshot(acct);", "16", "//", "Fetch", "asset", "price", "from", "oracle", "17", "v.oraclePrice", "=", "oracle.getUnderlyingPrice(asset);", "18", "v.collFact", "=", "markets[address(asset)].", "collFact;", "19", "v.tokensToDenom=", "v.collFact*v.exchRt*v.oraclePrice;", "20", "v.sumColl", "=", "v.sumColl+", "v.tokensToDenom*", "v.cTokenBal;", "21", "v.sumBrwEfct=", "v.sumBrwEfct+", "v.oraclePrice*", "v.brwBal;", "22", "if", "(asset", "==", "cToken)", "{", "23", "v.sumBrwEfct=", "v.sumBrwEfct+", "v.tokensToDenom*redTok;", "24", "v.sumBrwEfct=", "v.sumBrwEfct+", "v.oraclePrice*brwAmt", ";}}", "25", "return", "v.sumColl", "-", "v.sumBrwEfct;", "}", "9", "AccountLiquidityLocalVars", "memory", "v;", "uint", "redTok", ",", "uint", "brwAmt)", "internal", "returns", "(uint)", "{", "1", "function", "borrowAllowed(address", "cToken", ",", "address", "bwr", ",", "uint", "brwAmt)", "external", "returns", "(uint)", "{", "2", "...", "3", "uint", "surplus", "=", "hypotheticalLiquid(bwr", ",cToken", ",0,brwAmt);", "4", "require(surplus", ">", "0,", "\"INSUFFICIENT_LIQUIDITY\");", "5", "...", "6", "return", "uint(Error.NO_ERROR);", "}", "7", "8", "function", "hypotheticalLiquid(address", "acct", ",", "CToken", "cToken", ","],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 37.92,
+    "x2": 295.2,
+    "y1": 86.88,
+    "y2": 329.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Figure1-1.png"
+}, {
+  "caption": "Table 4: Deviation limit given specific control variables.",
+  "captionBoundary": {
+    "x1": 336.09698486328125,
+    "x2": 539.7614135742188,
+    "y1": 453.04034423828125,
+    "y2": 458.6709899902344
+  },
+  "figType": "Table",
+  "imageText": ["Beefy", "fee", "=", "0", "0", "xToken", "fee", "=", "0.02", "0.02", "testAMM", "cr", "=", "0.7", "0.42", "Euler", "bf", "=", "0.91,", "cf", "=", "0.9", "0.09", "dForce", "bf", "=", "1,", "cf", "=", "0.85", "0.08", "Warp", "cr", "=", "2/3", "0.20", "Morpho", "ltv", "=", "0.83", "0.09", "Solo", "mp=", "0.15,", "mr", "=", "0.1", "0", "Aave", "lth=0.85,", "ltv=", "0.83", "0.08", "Compound", "cf", "=", "0.7", "0.17", "Protocol", "CV", "delta"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 464.64,
+    "y2": 576.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table4-1.png"
+}, {
+  "caption": "Table 3: Top deviations observed on Chainlink and Uniswap.",
+  "captionBoundary": {
+    "x1": 327.0789794921875,
+    "x2": 548.7796020507812,
+    "y1": 351.9173583984375,
+    "y2": 357.5480041503906
+  },
+  "figType": "Table",
+  "imageText": ["11631248", "0.0994", "10326310", "0.1948", "11631226", "0.1159", "10314022", "0.2356", "11631215", "0.1260", "10326501", "0.2368", "11631215", "0.1293", "10314022", "0.3351", "11631223", "0.1390", "10314022", "0.4248", "Chainlink", "Deviation", "Uniswap", "Deviation"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 363.84,
+    "y2": 425.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table3-1.png"
+}, {
+  "caption": "Table 2: Code summary module execution time.",
+  "captionBoundary": {
+    "x1": 218.01400756835938,
+    "x2": 393.6878356933594,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Protocol", "#requires", "#loops", "CompileTime", "(s)", "TotalExecTime", "(s)", "#vectorVars", "#otherVars", "Branch", "Dependency", "Oracle", "Aave", "(borrow)", "3", "1", "1.0558", "1.0572", "6", "4", "✓", "✓", "Chainlink", "Aave", "(liquidation)", "1", "1", "0.6313", "0.6350", "5", "1", "✓", "✓", "Chainlink", "Compound", "1", "1", "4.8403", "4.8413", "5", "5", "✓", "✓", "OpenPriceFeed", "Euler", "1", "1", "2.4056", "2.4063", "5", "2", "✓", "✓", "Uniswap", "Solo", "2", "1", "0.4704", "0.4714", "5", "2", "✓", "✓", "Chainlink", "Warp", "1", "2", "1.5149", "1.5156", "4", "2", "✓", "✓", "Uniswap", "dForce", "1", "2", "1.3724", "1.3746", "6", "2", "✓", "✓", "Chainlink", "Morpho", "1", "2", "8.5961", "8.6002", "7", "1", "✓", "✓", "Chainlink", "TestAMM", "1", "0", "0.1989", "0.1992", "0", "4", "X", "✓", "AMM-based", "xToken", "0", "0", "1.7244", "1.7247", "0", "4", "X", "✓", "multiple", "source", "Beefy", "0", "0", "0.6730", "0.6750", "0", "4", "X", "✓", "depends", "on", "vault"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 569.28,
+    "y1": 96.96,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table2-1.png"
+}, {
+  "caption": "Figure 2: Compound analysis summary.",
+  "captionBoundary": {
+    "x1": 225.50404357910156,
+    "x2": 386.488525390625,
+    "y1": 106.60836791992188,
+    "y2": 112.239013671875
+  },
+  "figType": "Figure",
+  "imageText": ["keywordskeywords", "keywords1", "∑", "𝑎∈𝑎𝑠𝑠𝑒𝑡𝑠", "(𝑐𝑜𝑙𝑙𝐹𝑎𝑐𝑡𝑎", "∗", "𝑒𝑥𝑐ℎ𝑅𝑡𝑎", "∗", "𝑝𝑎", "∗", "𝑐𝑇𝑜𝑘𝑒𝑛𝐵𝑎𝑙𝑎", ")", "−", "(", "∑", "𝑎∈𝑎𝑠𝑠𝑒𝑡𝑠", "(𝑏𝑟𝑤𝐵𝑎𝑙𝑎", "∗", "𝑝𝑎", "+", "𝑐𝑎", "∗", "(𝑝𝑏𝑟𝑤", "∗", "𝑏𝑟𝑤𝐴𝑚𝑡", "+", "𝑐𝑜𝑙𝑙𝐹𝑎𝑐𝑡𝑟", "∗", "𝑒𝑥𝑐ℎ𝑅𝑡𝑟", "∗", "𝑝𝑟", ")", ")", ")", ">", "0"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 42.72,
+    "x2": 611.52,
+    "y1": 71.52,
+    "y2": 95.03999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Overview of the proposed framework.",
+  "captionBoundary": {
+    "x1": 342.2820129394531,
+    "x2": 533.8673706054688,
+    "y1": 187.30038452148438,
+    "y2": 192.9310302734375
+  },
+  "figType": "Figure",
+  "imageText": ["Extract", "Constraints", "Source", "Code", "Optimal", "Parameters", "Optimizer", "Module", "Model", "Building", "Module", "Code", "Summary", "Module", "Loop", "&", "IfElse", "Summary", "if", "encounter", "loops", "or", "IfElse", "constructs", "Function", "Summary", "Dependency", "Analysis", "Extract", "Functions", "Module"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 566.4,
+    "y1": 121.92,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Figure3-1.png"
+}, {
+  "caption": "Table 1: Example statements from Compound smart contracts in Solidity and simplified Solidity.",
+  "captionBoundary": {
+    "x1": 130.0240020751953,
+    "x2": 481.6763000488281,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Simplified", "Solidity", "require(surplus", ">", "0)", "call(oracle.getUnderlyingPrice,", "asset,", "v.oraclePrice)", "Solidity", "Code", "require(surplus", ">", "0,", "\"INSUFFICIENT_LIQUIDITY\")", "v.oraclePrice", "=", "oracle.getUnderlyingPrice(asset)"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 517.4399999999999,
+    "y1": 99.84,
+    "y2": 138.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639225-Table1-1.png"
+}]

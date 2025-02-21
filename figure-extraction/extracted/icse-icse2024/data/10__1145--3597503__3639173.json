@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 1: The performance evaluation of our method is compared with 13 baseline models involving baselines in terms of Recall (R), Precision (P) and F1-score (F). “n/a” denotes not applicable.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1828002929688,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["14", "Clear", "96.43", "96.81", "96.62", "98.41", "94.30", "96.31", "91.48", "89.81", "90.64", "95.44", "93.64", "94.52", "13", "LineVul", "73.01", "85.19", "78.63", "67.46", "89.47", "76.92", "74.20", "74.10", "74.15", "71.56", "82.92", "76.57", "8", "GCN", "73.18", "74.47", "73.82", "77.55", "74.93", "76.22", "69.74", "69.01", "69.37", "73.49", "72.80", "73.14", "9", "TMP", "75.30", "76.04", "75.67", "76.09", "78.68", "77.36", "70.37", "68.18", "69.26", "73.92", "74.30", "74.10", "10", "AME", "78.45", "79.62", "79.03", "80.26", "81.42", "80.84", "69.40", "70.25", "69.82", "76.04", "77.10", "76.56", "11", "SMS", "77.48", "79.46", "78.46", "91.09", "89.15", "90.11", "73.69", "76.97", "75.29", "80.75", "81.86", "81.29", "12", "DMT", "81.06", "83.62", "82.32", "96.39", "93.60", "94.97", "77.93", "84.61", "81.13", "85.13", "87.28", "86.14", "1", "sFuzz", "14.95", "10.88", "12.59", "27.01", "23.15", "24.93", "47.22", "58.62", "52.31", "29.73", "30.88", "29.94", "2", "Smartcheck", "16.34", "45.71", "24.07", "79.34", "47.89", "59.73", "56.21", "45.56", "50.33", "50.63", "46.39", "44.71", "3", "Osiris", "63.88", "40.94", "49.90", "55.42", "59.26", "57.28", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "4", "Oyente", "63.02", "46.56", "53.55", "59.97", "61.04", "59.47", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "5", "Mythril", "75.51", "42.86", "54.68", "49.80", "57.50", "53.37", "62.07", "72.30", "66.80", "62.46", "57.55", "58.28", "6", "Securify", "73.06", "68.40", "70.41", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "7", "Slither", "73.50", "74.44", "73.97", "67.17", "69.27", "68.20", "52.27", "70.12", "59.89", "64.31", "71.28", "67.35", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "Line", "#", "Methods", "RE", "TD", "IO", "Average"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 532.3199999999999,
+    "y1": 116.64,
+    "y2": 353.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639173-Table1-1.png"
+}, {
+  "caption": "Figure 1: Two examples of smart contracts.",
+  "captionBoundary": {
+    "x1": 219.33999633789062,
+    "x2": 392.65277099609375,
+    "y1": 281.46234130859375,
+    "y2": 287.0929870605469
+  },
+  "figType": "Figure",
+  "imageText": ["Contract", "B", "（Normal）Contract", "A", "（Vulnerable）"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639173-Figure1-1.png"
+}, {
+  "caption": "Figure 4: The feature distribution of smart contracts at different epochs during the CL stage.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7939453125,
+    "y1": 286.4993591308594,
+    "y2": 303.0889892578125
+  },
+  "figType": "Figure",
+  "imageText": ["IO", "Non-vulnerable", "Vulnerable", "TD", "RE", "Epoch-100Epoch-10Epoch-1"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 87.36,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639173-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Architecture of our method and the available methods.",
+  "captionBoundary": {
+    "x1": 175.91600036621094,
+    "x2": 436.0734558105469,
+    "y1": 224.15737915039062,
+    "y2": 229.78802490234375
+  },
+  "figType": "Figure",
+  "imageText": ["Knowledge", "migration", "with", "correlation", "information", "CL", "module", "SCVD", "module", "(Available", "Methods)", "Contract", "pair", "Same", "type", "（Yes/Not）", "Vulnerable", "（Yes/Not）", "Vulnerablity", "detectionVulnerability", "labelsCorrelation", "labels", "Our", "Method", "Contract", "SCVD", "model", "CL", "model"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639173-Figure2-1.png"
+}, {
+  "caption": "Table 2: The results of the ablation test.",
+  "captionBoundary": {
+    "x1": 226.05599975585938,
+    "x2": 385.64178466796875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Clear-MVN", "75.88", "91.86", "83.11", "90.86", "74.68", "81.03", "82.54", "76.47", "79.39", "83.09", "81.00", "81.18", "Clear-MVV", "90.03", "81.76", "85.44", "87.30", "83.96", "85.60", "84.58", "81.94", "83.24", "87.30", "82.55", "84.76", "Clear-RMLM", "91.30", "90.23", "90.77", "93.04", "90.67", "91.85", "84.44", "88.37", "86.36", "89.59", "89.76", "89.66", "Clear-RCL", "63.25", "81.77", "71.32", "68.48", "81.91", "71.76", "71.62", "82.97", "76.17", "67.78", "82.22", "73.08", "Clear", "96.43", "96.81", "96.62", "98.41", "94.30", "96.31", "91.48", "89.81", "90.64", "95.44", "93.64", "94.52", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "Methods", "RE", "TD", "IO", "Average"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 507.35999999999996,
+    "y1": 105.6,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639173-Table2-1.png"
+}, {
+  "caption": "Table 3: Results of RQ3.",
+  "captionBoundary": {
+    "x1": 257.7879943847656,
+    "x2": 353.9124450683594,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GRU", "50.20", "35.88", "41.85", "61.11", "63.64", "62.35", "67.38", "55.95", "61.14", "59.56", "51.82", "55.11", "CL-GRU", "80.32", "59.69", "68.48", "81.60", "78.46", "80.00", "89.61", "78.86", "83.89", "83.84", "(↑", "40.77%)", "72.34", "(↑", "39.60%)", "77.46(↑", "40.56%)", "LSTM", "35.71", "42.66", "38.87", "61.11", "63.64", "62.35", "55.56", "59.39", "57.41", "50.79", "55.23", "52.88", "CL-LSTM", "74.31", "53.26", "62.05", "83.33", "75.00", "78.95", "86.64", "77.67", "81.91", "81.43(↑", "60.33%)", "68.64(↑", "24.28%)", "74.30", "(↑", "40.51%)", "RNN", "33.60", "37.78", "35.56", "46.40", "69.05", "55.50", "49.46", "58.72", "53.70", "43.15", "55.18", "48.25", "CL-RNN", "64.29", "59.34", "61.71", "76.19", "69.06", "72.45", "82.08", "69.60", "75.33", "74.19(↑", "71.94%)", "66.00", "(↑", "19.61%)", "69.83", "(↑", "50.94%)", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "R(%)", "P(%)", "F(%)", "Methods", "RE", "TD", "IO", "Average"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 545.28,
+    "y1": 105.6,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639173-Table3-1.png"
+}, {
+  "caption": "Figure 3: Overview of Clear, which encompasses both the CL process, depicted by solid lines indicating the data flow, and the subsequent vulnerability detection process, represented by dotted arrows indicating the data flow.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.180419921875,
+    "y1": 329.3233642578125,
+    "y2": 345.91302490234375
+  },
+  "figType": "Figure",
+  "imageText": ["m", "er", "sf", "or", "...", "Tr", "an", "...", "Token", "1", "[", "Mask", "]", "[", "Mask", "]", "Token", "6", "Token", "n......", "Code", "Sequence", "Token", "2", "Token", "5", "Token", "1", "[", "Mask", "]", "[", "Mask", "]", "Token", "6", "Token", "n...", "Token", "1", "[", "Mask", "]", "[", "Mask", "]", "Token", "6", "Token", "n...", "Contextual", "Augmentation", "(MLM)", "g", "oo", "lin", "ag", "eP", "Av", "er", "M", "LP", "Output", "n", "at", "io", "al", "iz", "or", "m", "h", "N", "Ba", "tc", "Stage", "2:", "Contrastive", "Learning", "Stage", "3:", "Vulnerability", "Detection", "Stage", "1:", "Data", "Sampling", "Non-vulnerable", "Vulnerable", "M", "LP", "io", "n", "iz", "at", "m", "al", "r", "N", "or", "La", "ye", "to", "r", "V", "ec", "C", "LS", "rix", "M", "at", "ur", "e", "Fe", "at", "LossCLA", "Transformer", "with", "CLS", "M", "LP", "Label3", "Smart", "Contract3", "LossCL", "LossMLM", "Label1", "&", "Label2", "LabelCL", "Tranining", "set", "in", "g", "be", "dd", "d", "em", "W", "or", "Label2", "Smart", "Contract2", "Label1", "Smart", "Contract1", "POS", "set", "Training", "set", "Dataset"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639173-Figure3-1.png"
+}]

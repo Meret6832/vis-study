@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 2: Results by Mean Reciprocal Rank (MRR) of RQ1, RQ2, RQ3 and RQ4. Code Search Models: Roberta (R); CodeBERT (CB); GraphCodeBERT (GCB); UniXcoder (UniX.); 𝑂𝑟𝑎𝑐𝑙𝑒4𝐶𝑆𝑈𝑛𝑖𝑋𝑐𝑜𝑑𝑒𝑟 (OCS1); CoCoSoDa (CoCo.); 𝑂𝑟𝑎𝑐𝑙𝑒4𝐶𝑆𝐶𝑜𝐶𝑜𝑆𝑜𝐷𝑎 (OCS2)",
+  "captionBoundary": {
+    "x1": 317.552001953125,
+    "x2": 558.887939453125,
+    "y1": 85.7260971069336,
+    "y2": 136.80401611328125
+  },
+  "figType": "Table",
+  "imageText": ["RQ1", "R", "59.90%", "58.70%", "51.70%", "85.00%", "56.00%", "58.70%", "18.30%", "60.30%", "56.08%", "CB", "67.60%", "67.20%", "62.00%", "88.20%", "62.80%", "67.90%", "27.20%", "65.70%", "63.58%", "GCB", "68.70%", "68.57%", "65.05%", "89.57%", "64.75%", "71.01%", "38.05%", "70.10%", "66.98%", "UniX.", "72.28%", "71.43%", "68.87%", "91.35%", "66.87%", "73.74%", "42.17%", "72.27%", "69.87%", "OCS1", "73.22%", "72.60%", "69.54%", "91.52%", "67.83%", "74.65%", "42.31%", "72.20%", "70.48%", "Improve", "0.94%", "1.18%", "0.67%", "0.17%", "0.96%", "0.91%", "0.14%", "-0.08%", "0.61%", "RQ2", "CoCo.", "75.14%", "74.74%", "75.32%", "92.08%", "69.26%", "80.94%", "41.08%", "67.61%", "72.02%", "OCS2", "75.49%", "74.82%", "75.15%", "92.42%", "69.52%", "81.12%", "43.14%", "69.60%", "72.66%", "Improve", "0.35%", "0.08%", "-0.17%", "0.34%", "0.27%", "0.17%", "2.06%", "1.99%", "0.64%", "RQ3", "(UniX.)", "89.19%", "90.93%", "88.70%", "96.23%", "88.02%", "87.44%", "68.32%", "83.01%", "86.48%", "Dataset", "CodeSearchNet", "Model", "Java", "Py.", "JS", "Go", "PHP", "Ruby", "Adv.", "cos.", "Avg"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 144.0,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Table2-1.png"
+}, {
+  "caption": "Figure 3: Overview of processes of Statistical Machine Translation in Oracle4CS",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.65386962890625,
+    "y1": 208.01808166503906,
+    "y2": 224.60797119140625
+  },
+  "figType": "Figure",
+  "imageText": ["Statistical", "Analysis", "Statistical", "Analysis", "Decoding", "Algorithm", "argmax(P(s|t)*P(t))Text/Query", "ASTSum", "(Predicted)", "Language", "Model", "P(t)", "Text", "Translation", "Model", "P(s|t)", "Code", "AST", "Sum", "AlgmAST", "Parser", "ASTSum", "(Expected)", "2.", "Oracle4CS", "-", "Inference", "1.Oracle4CS", "-", "Sequence", "to", "Sequence", "Learning"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Figure3-1.png"
+}, {
+  "caption": "Table 1: Summary of Code Search Datasets",
+  "captionBoundary": {
+    "x1": 351.81298828125,
+    "x2": 524.0487060546875,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Train", "Valid", "Test", "Codebase", "AdvTest", "251820", "9604", "19210", "19210", "cosqa", "19604", "500", "500", "6267", "Java", "164923", "5183", "10955", "40347", "Python", "251820", "13914", "14918", "43827", "Javascript", "58025", "3885", "3291", "13981", "Go", "167288", "7325", "8122", "28120", "PHP", "241241", "12982", "14014", "52660", "Ruby", "24927", "1400", "1261", "4360"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 349.91999999999996,
+    "x2": 526.0799999999999,
+    "y1": 105.6,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Table1-1.png"
+}, {
+  "caption": "Table 4: Result Analysis: Case-by-case comparison for RQ1 and RQ2",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2783203125,
+    "y1": 244.0241241455078,
+    "y2": 260.614013671875
+  },
+  "figType": "Table",
+  "imageText": ["cosqa", "6.78%", "88.35%", "4.87%", "18.64%", "65.25%", "16.10%", "Average", "13.98%", "75.57%", "10.45%", "11.21%", "78.64%", "10.15%", "AdvTest", "23.11%", "56.03%", "20.86%", "36.13%", "38.88%", "24.99%", "ruby", "13.80%", "73.75%", "12.45%", "2.85%", "93.10%", "4.04%", "php", "19.29%", "67.73%", "12.98%", "8.40%", "83.49%", "8.11%", "go", "2.67%", "94.96%", "2.36%", "3.64%", "93.67%", "2.68%", "javascript", "13.67%", "75.84%", "10.48%", "4.83%", "85.93%", "9.24%", "python", "16.86%", "73.68%", "9.46%", "6.21%", "87.14%", "6.65%", "RQs", "RQ1", "RQ2", "Dataset", "Imp.", "Draw", "Dec.", "Imp.", "Draw", "Dec.", "java", "15.67%", "74.23%", "10.10%", "8.96%", "81.68%", "9.36%"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 277.92,
+    "y2": 421.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Table4-1.png"
+}, {
+  "caption": "Table 5: Result Analysis on the accuracy of query-to-ASTSum Translation",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.205078125,
+    "y1": 344.3741149902344,
+    "y2": 360.9639892578125
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "CodeSearchNet", "Metric", "java", "python", "JS", "go", "php", "ruby", "AdvTest", "cosqa", "Avg", "EM", "0.006", "0.006", "0.003", "0.003", "0.033", "0.010", "0.010", "0.066", "0.017", "BLEU", "0.109", "0.357", "0.097", "0.110", "0.211", "0.261", "0.257", "0.340", "0.218", "CodeBLEU", "0.292", "0.354", "0.145", "0.221", "0.332", "0.351", "0.352", "0.374", "0.303", "CrystalBLEU", "0.104", "0.342", "0.096", "0.104", "0.190", "0.185", "0.185", "0.272", "0.185", "ROUGE-1", "0.501", "0.704", "0.490", "0.510", "0.650", "0.607", "0.605", "0.733", "0.600", "ROUGE-2", "0.128", "0.352", "0.117", "0.126", "0.262", "0.319", "0.317", "0.399", "0.253", "ROUGE-L", "0.484", "0.697", "0.461", "0.497", "0.631", "0.598", "0.594", "0.729", "0.586", "Meteor", "0.322", "0.553", "0.300", "0.337", "0.434", "0.475", "0.478", "0.584", "0.435", "CodeBERTScore", "0.873", "0.937", "0.900", "0.903", "0.928", "0.929", "0.928", "0.953", "0.919"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 378.71999999999997,
+    "y2": 487.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Table5-1.png"
+}, {
+  "caption": "Table 3: Results as Top-K Accuracy of Oracle4CS over SOTA Approaches",
+  "captionBoundary": {
+    "x1": 53.46699905395508,
+    "x2": 294.3768615722656,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Improve", "0.96%", "0.69%", "0.28%", "0.24%", "0.03%", "OCS2", "63.11%", "74.45%", "79.50%", "82.58%", "84.57%RQ2", "Improve", "0.76%", "0.59%", "0.66%", "0.35%", "0.36%", "CoCoSoDa", "62.15%", "73.76%", "79.22%", "82.34%", "84.54%", "OCS1", "61.39%", "72.09%", "76.86%", "79.63%", "81.76%RQ1", "UniXcoder", "60.63%", "71.50%", "76.19%", "79.28%", "81.39%", "R@k", "RQs", "Model", "1", "2", "3", "4", "5"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 120.0,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Table3-1.png"
+}, {
+  "caption": "Figure 1: AST of Correct Code Snippet (Candidate) of the Motivation Example",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2041015625,
+    "y1": 233.5871124267578,
+    "y2": 250.177001953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The Overview of Code Search Process with Oracle4CS",
+  "captionBoundary": {
+    "x1": 178.88800048828125,
+    "x2": 433.1124572753906,
+    "y1": 270.3451232910156,
+    "y2": 275.97601318359375
+  },
+  "figType": "Figure",
+  "imageText": ["Sequence-to-sequence", "Learning", "gradient", "gradient", "Datasets", "of", "Pairs", "of", "Code-Text", "Query-to-ASTSum", "Generation", "Text/Query", "ASTSum", "(Predicted)", "Text", "Code", "AST", "SummarizationAST", "Parser", "ASTSum", "(Expected)", "Rank", "Embeddings", "Encoder", "Cosine", "Similarity", "Codebase", "Encoder", "ASTSum", "Query", "ASTSum", "Contrastive", "Loss", "Encoder", "Encoder", "Code", "Text", "Pre-training", "tasks", "Text", "Code", "4.Fine-tuning", "3.Pre-training", "2.", "Query-to-ASTSum:", "Inference", "5.Query", "with", "ASTSum", "-", "Codebase", "Comparison", "Method", "Body’s", "Root", "Node", "1.Query-to-ASTSum:", "Training"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661233-Figure2-1.png"
+}]

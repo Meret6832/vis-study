@@ -1,0 +1,241 @@
+[{
+  "caption": "Fig. 3. Fragment of the function fixfrac taken from the libfixedtimefixedpoint library.",
+  "captionBoundary": {
+    "x1": 82.24220275878906,
+    "x2": 403.75933837890625,
+    "y1": 212.86285400390625,
+    "y2": 217.09500122070312
+  },
+  "figType": "Figure",
+  "imageText": ["10", "}", "11", "...", "}", "1", "uint64_t", "fixfrac(char*", "frac)", "{", "2", "uint64_t", "pow10_LUT", "[20]", "=", "{0", "x1999999999999999", ",", "...,0", "x0000000000000000", "};", "3", "uint64_t", "pow10_LUT_extra", "[20]", "=", "{0x99", ",", "...,", "0x2f};", "4", "uint64_t", "result", "=", "0;", "uint64_t", "extra", "=", "0;", "5", "for(int", "i", "=", "0;", "i", "<", "20;", "i++)", "{", "6", "if(frac[i]", "==", "'\\0')", "{", "break;", "}", "7", "uint8_t", "digit", "=", "(frac[i]", "-", "(uint8_t)", "'0');", "8", "result", "+=", "((", "uint64_t)", "digit)", "*", "pow10_LUT[i];", "9", "extra", "+=", "((", "uint64_t)", "digit)", "*", "pow10_LUT_extra[i];"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 428.15999999999997,
+    "y1": 82.56,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure3-1.png"
+}, {
+  "caption": "Fig. 6. Taint inference rules for theWhile language.",
+  "captionBoundary": {
+    "x1": 146.46800231933594,
+    "x2": 339.5318298339844,
+    "y1": 247.8858642578125,
+    "y2": 252.11801147460938
+  },
+  "figType": "Figure",
+  "imageText": ["G1,", "·", "·", "·", ",", "G<", ":=", "5", "(I1,", "·", "·", "·", ",", "I=)", "⊢", ")", "↩→", ")", "′", "T-Call-Ret", "8", "|", "1", "≤", "8", "≤", "=", "∧", "I8", "∈", ")", "}", "caller", "=", "6", "?", "⊢", ")in", "↩→", ")out", ")", "′", "=", "()", "\\", "{G1,", "·", "·", "·", ",", "G<}", "∪)out", "\\", "X5", "∪", "{G8", "|", "1", "≤", "8", "≤", "<", "∧", "~8", "∈", ")out}", "def", "5", "(G", "′", "1,", "·", "·", "·", ",", "G", "′", "=){?;", "return", "~1,", "·", "·", "·", ",", "~<", ";", "}", ")in", "=", "()", "\\", "X6)", "∪", "{G", "′", "if", "G", "then", "?1", "else", "?2", "fi", "⊢", ")", "↩→", ")1", "∪)2", "T-If", "?1", "⊢", ")", "↩→", ")1", "?2", "⊢", ")", "↩→", ")2", "while", "G", "do", "?", "od", "⊢", ")", "↩→", ")", "′", "T-While", ")", "′", "=", "lfp(?,)", ")", "?1;", "?2", "⊢", ")", "↩→", ")", "′", "T-Seq", "?1", "⊢", ")", "↩→", ")1", "?2", "⊢", ")1", "↩→", ")", "′", "?", "⊢", ")", "↩→", ")", "T-Identity", "?", "is", "skip", "or", "assert", "4", "or", "assume", "4", "G", "[~]", ":=", "I", "⊢", ")", "↩→", ")", "′", "T-Assign2", ")", "′", "=", "(", "I", "∈", ")", "?", ")", "∪", "{G}", ":", ")", ")", "G", ":=", "4", "⊢", ")", "↩→", ")", "′", "T-Assign3", ")", "′", "=", "(", "var(4)", "∩)", "≠", "∅", "?", ")", "∪", "{G}", ":", ")", "\\", "{G}", ")", "G", ":=", "~", "[I]", "⊢", ")", "↩→", ")", "′", "T-Assign1", ")", "′", "=", "(", "~", "∈", ")", "?", ")", "∪", "{G}", ":", ")", "\\", "{G}", ")"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure6-1.png"
+}, {
+  "caption": "Fig. 8. The taint-directed cross-product of theWhile programs.",
+  "captionBoundary": {
+    "x1": 125.23600006103516,
+    "x2": 360.7642822265625,
+    "y1": 272.287841796875,
+    "y2": 276.5199890136719
+  },
+  "figType": "Figure",
+  "imageText": ["Π(ℓ", ":", "while", "G", "do", "?", "od)", "≜", "while", "G@INV′", "do", "Guard′", "begin(ℓ)", "(G);", "Π(?)", "od;", "Guard′", "exit(ℓ)", "(G)", "Π(ℓ", ":", "if", "G", "then", "?1", "else", "?2", "fi)", "≜", "Guard′ℓ", "(G);", "if", "G", "then", "Π(?1)", "else", "Π(?2)", "fi", "Π(G1,", "·", "·", "·", ",", "G<", ":=", "5", "(~1,", "·", "·", "·", ",", "~=))", "≜", "G1,", "Ĝ1,", "·", "·", "·", ",", "G<,", "Ĝ<", ":=", "5", "(~1,", "~̂1,", "·", "·", "·", ",", "~=,", "~̂=)", "Π(def", "5", "(G1,", "·", "·", "·", ",", "G=){?;", "return", "~1,", "·", "·", "·", ",", "~<", ";", "})", "=", "def", "5", "(G1,", "Ĝ1", "·", "·", "·", ",", "G=,", "Ĝ=){Π(?);", "return", "~1,", "~̂1,", "·", "·", "·", ",", "~<,", "~̂<", ";", "}", "Guard′ℓ", "(G)", "≜", "(G", "∈", ")", "′", "ℓ", "?", "assert", "G", "=", "Ĝ", ":", "skip)", "G", ":=", "4;", "Ĝ", ":=", "G", "if", "var(4)", "∩)", "′", "ℓ", "=", "∅", "G", ":=", "4;", "Ĝ", ":=", "Ξ(4)", "otherwise", "{", "Π(ℓ", ":", "G", ":=", "4)", "≜", "Guard′ℓ", "(~);", "G", "[~]", ":=", "I;", "Ĝ", "[~̂]", ":=", "G", "[~]", "if", "I", "∉", ")", "′", "ℓ", "Guard′ℓ", "(~);", "G", "[~]", ":=", "I;", "Ĝ", "[~̂]", ":=", "Î", "otherwise", "{", "Π(ℓ", ":", "G", "[~]", ":=", "I)", "≜", "Guard′ℓ", "(I);", "G", ":=", "~", "[I];", "Ĝ", ":=", "G", "if", "~", "∉", ")", "′", "ℓ", "Guard′ℓ", "(I);", "G", ":=", "~", "[I];", "Ĝ", ":=", "~̂", "[Î]", "otherwise", "{", "Π(ℓ", ":", "G", ":=", "~", "[I])", "≜", "Ξ(=)", "≜", "=", "Ξ(G)", "≜", "Ĝ", "Ξ(41", "⊙", "42)", "≜", "Ξ(41)", "∨", "Ξ(42)", "Π(?)", "≜", "?", "if", "?", "is", "skip", "or", "assert", "4", "or", "assume", "4", "Π(?1;", "?2)", "≜", "Π(?1);", "Π(?2)"],
+  "name": "8",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure8-1.png"
+}, {
+  "caption": "Table 3. Results of verifying non-constant-time implementations, where CT-Prover− refers to CT-Prover without the precise taint analysis (i.e., the 2nd main step), a:b in Time (s) respectively denote the execution time a er the 2nd and 3rd main step (note: the 1st step is very efficient whose time is negligible), TO denotes time out (6 hours), x:y:z (resp. x:z) in #Src respectively denote the numbers of side-channel sources reported a er the 1st, 2nd and 3rd (resp. 1st and 3rd) main step, and ★ indicates that some invalid loop invariants are added by ct-verif and thus may miss side-channel sources.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.177001953125,
+    "y1": 88.12186431884766,
+    "y2": 147.14801025390625
+  },
+  "figType": "Table",
+  "imageText": ["P4_3", "24.05:50.84", "49:48:48", "17.69", "32★", "24.77", "49:48", "P6_14", "13.06:26.57", "32:32:32", "10.58", "0★", "12.64", "32:32", "P4_4", "21.03:44.76", "49:48:48", "16.73", "32★", "21.96", "49:48", "P6_15", "13.06:26.35", "32:32:32", "10.37", "0★", "12.42", "32:32", "P5_1", "TO:TO", "48:–:–", "TO", "–", "TO", "48:–", "P6_16†", "2561.81:TO", "107:71:53", "TO", "21★", "TO", "107:55", "P5_11", "14.10:30.68", "26:16:16", "11.81", "16", "15.20", "26:16", "P6_17", "9.75:20.31", "11:8:8", "9.29", "8", "9.48", "11:8", "P6_1", "9.36:19.27", "12:1:1", "8.46", "1", "9.13", "12:1", "P6_18", "9.77:20.12", "13:8:8", "9.26", "8", "9.63", "13:8", "P6_2", "8.48:17.24", "12:1:1", "7.45", "1", "8.46", "12:1", "P6_19†", "3515.77:TO", "142:70:39", "TO", "21★", "TO", "142:46", "P6_5†", "983.86:TO", "107:71:50", "TO", "21★", "TO", "107:49", "P6_27†", "131.34:503.23", "177:45:45", "450.57", "22★", "580.50", "177:45", "P6_13", "8.85:17.87", "6:4:4", "8.45", "4", "8.51", "6:4", "Time", "(s)", "#Src", "Time", "(s)", "#Src", "Time", "(s)", "#Src", "Time", "(s)", "#Src", "Time", "(s)", "#Src", "Time", "(s)", "#Src", "Name", "CT-Prover", "ct-verif", "CT-Prover−", "Name", "CT-Prover", "ct-verif", "CT-Prover−"],
+  "name": "3",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 432.47999999999996,
+    "y1": 156.0,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Table3-1.png"
+}, {
+  "caption": "Fig. 9. Simplified fragment of P6_5 taken from the BearSSL library.",
+  "captionBoundary": {
+    "x1": 119.20099639892578,
+    "x2": 366.7989196777344,
+    "y1": 533.3948974609375,
+    "y2": 537.6270141601562
+  },
+  "figType": "Figure",
+  "imageText": ["1", "uint32_t", "br_rsa_i15_private(const", "br_rsa_private_key", "*sk){", "2", "const", "unsigned", "char", "*p", "=", "sk->p;", "size_t", "plen", "=", "sk->plen;", "3", "while", "(plen", ">", "0", "&&", "*p", "==", "0)", "{", "p++;", "plen", "--;}", "}"],
+  "name": "9",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 428.15999999999997,
+    "y1": 485.76,
+    "y2": 524.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure9-1.png"
+}, {
+  "caption": "Fig. 4. Simplified fragment of the function crypto_stream_chacha20_ref taken from the libsodium library.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1754455566406,
+    "y1": 217.1568603515625,
+    "y2": 221.38900756835938
+  },
+  "figType": "Figure",
+  "imageText": ["10", "j12", "=", "x[12];", "11", "if", "(!j12)", "{...}", "12", "}", "1", "int", "crypto_stream_chacha20_ref(unsigned", "char", "*c,", "unsigned", "long", "long", "clen", ",", "2", "const", "unsigned", "char", "*n,", "const", "unsigned", "char", "*k){", "3", "uint32_t", "ctx", "[16];", "4", "chacha_keysetup(ctx", ",", "k);", "//", "store", "k", "from", "ctx[0]", "to", "ctx", "[11];", "5", "chacha_ivsetup(ctx", ",", "n,", "NULL);", "//", "store", "IV", "and", "counter", "into", "the", "rest;", "6", "chacha_encrypt_bytes(ctx", ",", "c,", "c,", "clen);", "7", "}", "8", "static", "void", "chacha_encrypt_bytes(uint32_t", "*x,", "const", "u8", "*m,", "u8", "*c,", "9", "unsigned", "long", "long", "bytes){"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 428.15999999999997,
+    "y1": 82.56,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Overview of our approach",
+  "captionBoundary": {
+    "x1": 181.91700744628906,
+    "x2": 304.08331298828125,
+    "y1": 290.7828674316406,
+    "y2": 295.0150146484375
+  },
+  "figType": "Figure",
+  "imageText": ["verificationAnnotated", "C", "program", "Result", "self-composition", "Taint-directed", "taint", "analysis", "Precise", "taint", "analysis", "Clang", "Pre-analysis", "Lightweight"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 47.04,
+    "x2": 441.12,
+    "y1": 234.23999999999998,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. The syntax ofWhile.",
+  "captionBoundary": {
+    "x1": 190.447998046875,
+    "x2": 295.5514831542969,
+    "y1": 171.42984008789062,
+    "y2": 175.6619873046875
+  },
+  "figType": "Figure",
+  "imageText": ["Procedures:", "5", "=", "::=", "def", "5", "(G1,", "·", "·", "·", ",", "G=){?;", "return", "~1,", "·", "·", "·", ",", "~<", ";", "}", "Programs:", "%", "::=", "5", "=+", "|", "if", "G", "then", "?1", "else", "?2", "fi", "|", "G1,", "·", "·", "·", ",", "G<", ":=", "5", "(~1,", "·", "·", "·", ",", "~=)", "Expressions:", "4", "::=", "=", "|", "G", "|", "41", "⊙", "42", "|", "G", "[~]", "Statements:", "?", "::=", "skip", "|", "G", ":=", "4", "|", "G", "[~]", ":=", "I", "|", "assert", "4", "|", "assume", "4", "|", "?;", "?", "|", "while", "G", "do", "?", "od"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure1-1.png"
+}, {
+  "caption": "Table 2. Results of verifying constant-time implementations, where TO denotes time out (1 hour).",
+  "captionBoundary": {
+    "x1": 62.75389862060547,
+    "x2": 423.00579833984375,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Name", "CT-Prover", "ct-verif", "Name", "CT-Prover", "ct-verif", "Name", "CT-Prover", "ct-verif", "Name", "CT-Prover", "ct-verif", "P1_1", "7.55", "7.53", "P3_14", "†", "0.04", "6.93", "P6_3", "†", "0.10", "9.25", "P6_30", "†", "0.07", "8.26", "P1_2", "1.12", "26.74", "P3_15", "†", "0.70", "TO", "P6_4", "†", "0.20", "9.04", "P6_31", "†", "0.07", "8.51", "P1_3", "0.04", "7.25", "P3_16", "†", "0.67", "TO", "P6_6", "†", "23.24", "TO", "P7_1", "†", "0.64", "TO", "P1_4", "0.05", "7.89", "P3_17", "†", "0.63", "TO", "P6_7", "†", "0.45", "TO", "P7_2", "†", "0.51", "7.42", "p2_1", "†", "1.44", "134.72", "P4_1", "0.53", "TO", "P6_8", "†", "0.21", "794.79", "P7_3", "†", "0.59", "21.36", "P3_1", "†", "108.80", "TO", "P4_2", "0.57", "TO", "P6_9", "†", "0.05", "7.65", "P7_4", "†", "0.52", "7.37", "P3_2", "†", "177.48", "TO", "P4_5", "0.04", "7.42", "P6_10", "†", "0.07", "7.79", "P8_1", "†", "0.20", "6.87", "P3_3", "†", "104.40", "TO", "P4_6", "0.35", "177.25", "P6_11", "†", "0.08", "8.22", "P8_2", "†", "0.40", "21.69", "P3_4", "†", "169.71", "TO", "P4_7", "0.34", "14.16", "P6_12", "†", "0.07", "8.66", "P8_3", "†", "0.39", "37.73", "P3_5", "†", "109.19", "TO", "P5_2", "†", "0.08", "7.27", "P6_20", "0.11", "12.38", "P9_1", "0.14", "7.86", "P3_6", "†", "122.85", "TO", "P5_3", "†", "0.08", "7.36", "P6_21", "†", "0.14", "14.49", "P9_2", "25.69", "23.02", "P3_7", "†", "0.12", "30.51", "P5_4", "†", "1.78", "7.49", "P6_22", "†", "0.24", "977.27", "P9_3", "0.13", "7.97", "P3_8", "†", "0.13", "30.65", "P5_5", "†", "0.07", "7.05", "P6_23", "†", "0.11", "8.40", "P9_4", "16.05", "11.91", "P3_9", "†", "0.10", "8.94", "P5_6", "†", "1.86", "7.57", "P6_24", "†", "0.06", "7.93", "P9_5", "0.06", "7.25", "P3_10", "†", "0.09", "8.91", "P5_7", "†", "0.08", "6.91", "P6_25", "†", "0.08", "8.41", "P9_6", "4.25", "44.12", "P3_11", "†", "0.09", "9.26", "P5_8", "†", "0.08", "6.46", "P6_26", "†", "0.06", "8.94", "P9_7", "3.34", "32.98", "P3_12", "†", "0.09", "9.28", "P5_9", "†", "0.07", "6.63", "P6_28", "†", "0.12", "12.23", "P10_1", "0.55", "TO", "P3_13", "†", "0.04", "7.05", "P5_10", "†", "0.08", "7.00", "P6_29", "†", "0.17", "13.86", "P10_2", "†", "10.89", "33.18"],
+  "name": "2",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 437.28,
+    "y1": 100.8,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Table2-1.png"
+}, {
+  "caption": "Fig. 7. The taint-directed semi-cross-product of theWhile programs, where begin(ℓ) and exit(ℓ) denote the labels of the beginning and exit of the loop body of the loop at the label ℓ .",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1720275878906,
+    "y1": 268.3948669433594,
+    "y2": 283.58599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["c", "(ℓ", ":", "while", "G", "do", "?", "od)", "≜", "while", "G@INV", "do", "Guardbegin(ℓ)", "(G);", "c", "(?)", "od;", "Guardexit(ℓ)", "(G)", "c", "(ℓ", ":", "if", "G", "then", "?1", "else", "?2", "fi)", "≜", "Guardℓ", "(G);", "if", "G", "then", "c", "(?1)", "else", "c", "(?2)", "fi", "c", "(G1,", "·", "·", "·", ",", "G<", ":=", "5", "(~1,", "·", "·", "·", ",", "~=))", "≜", "G1,", "1G1", ",", "·", "·", "·", ",", "G<,", "1G<", ":=", "5", "(~1,", "1~1", ",", "·", "·", "·", ",", "~=,", "1~=", ")", "c", "(def", "5", "(G1,", "·", "·", "·", ",", "G=){?;", "return", "~1,", "·", "·", "·", ",", "~<", ";", "})", "=", "def", "5", "(G1,", "1G1", "·", "·", "·", ",", "G=,", "1G=", "){c", "(?);", "return", "~1,", "1~1", ",", "·", "·", "·", ",", "~<,", "1~<", ";", "}", "Guardℓ", "(G)", "≜", "(G", "∈", ")ℓ", "?", "assert", "¬1G", ":", "skip)", "Guardℓ", "(~);", "G", "[~]", ":=", "I;", "1G", "[~]", ":=", "0", "if", "I", "∉", ")ℓ", "Guardℓ", "(~);", "G", "[~]", ":=", "I;", "1G", "[~]", ":=", "1I", "otherwise", "{", "c", "(ℓ", ":", "G", "[~]", ":=", "I)", "≜", "Guardℓ", "(I);", "G", ":=", "~", "[I];", "1G", ":=", "0", "if", "~", "∉", ")ℓ", "Guardℓ", "(I);", "G", ":=", "~", "[I];", "1G", ":=", "1~", "[I]", "otherwise", "{", "c", "(ℓ", ":", "G", ":=", "~", "[I])", "≜", "G", ":=", "4;", "1G", ":=", "0", "if", "var(4)", "∩)ℓ", "=", "∅", "G", ":=", "4;", "1G", ":=", "b", "(4)", "otherwise", "{", "c", "(ℓ", ":", "G", ":=", "4)", "≜", "b", "(=)", "≜", "0", "b", "(G)", "≜", "1G", "b", "(41", "⊙", "42)", "≜", "b", "(41)", "∨", "b", "(42)", "c", "(?)", "≜", "?", "if", "?", "is", "skip", "or", "assert", "4", "or", "assume", "4", "c", "(?1;", "?2)", "≜", "c", "(?1);", "c", "(?2)"],
+  "name": "7",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. The operational semantics of theWhile program.",
+  "captionBoundary": {
+    "x1": 138.08900451660156,
+    "x2": 347.9104919433594,
+    "y1": 269.3698425292969,
+    "y2": 273.60198974609375
+  },
+  "figType": "Figure",
+  "imageText": ["⟨B,", "G1,", "·", "·", "·", ",", "G<", ":=", "5", "(I1,", "·", "·", "·", ",", "I=)⟩", "→", "⟨Bin,", "?⟩", "and", "⟨Bout,", "return", "~1,", "·", "·", "·", ",", "~<", ";", "⟩", "→", "⟨Bret,", "skip⟩", "Call-Ret", "⟨Bin,", "?⟩→", "★⟨Bout,", "skip⟩", "Bret", "=", "B", "[G1", "↦→", "Bout", "(~1)]", "·", "·", "·", "B", "[G<", "↦→", "Bout", "(~<)]", "def", "5", "(G", "′", "1,", "·", "·", "·", ",", "G", "′", "=){?;", "return", "~1,", "·", "·", "·", ",", "~<", ";", "}", "Bin", "=", "B", "[G", "′", "1", "↦→", "B", "(I1)]", "·", "·", "·", "[G", "′", "=", "↦→", "B", "(I=)]", "⟨B,", "if", "G", "then", "?1", "else", "?2", "fi⟩", "→", "⟨B,", "?1⟩", "IfC", "B", "(G)", "=", "true", "⟨B,", "if", "G", "then", "?1", "else", "?2", "fi⟩", "→", "⟨B,", "?2⟩", "If5", "B", "(G)", "=", "false", "⟨B,", "while", "G", "do", "?", "od⟩", "→", "⟨B,", "?;", "while", "G", "do", "?", "od⟩", "WhileC", "B", "(G)", "=", "true", "⟨B,", "while", "G", "do", "?", "od⟩", "→", "⟨B,", "skip⟩", "While5", "B", "(G)", "=", "false", "⟨B,", "assume", "4⟩", "→", "⟨B,", "skip⟩", "Assume", "B", "(4)", "=", "true", "B", "′", "=", "(B", "(4)", "=", "true", "?", "B", ":", "⊥)", "⟨B,", "assert", "4⟩", "→", "⟨B", "′,", "skip⟩", "Assert", "Seq", "⟨B,", "?1;?2⟩", "→", "⟨B", "′,", "?", "′", "1;?2⟩", "⟨B,", "?1⟩", "→", "⟨B", "′,", "?", "′", "1⟩", "⟨B,", "skip;?⟩", "→", "⟨B,", "?⟩", "Skip", "⟨B,", "G", "[~]", ":=", "I⟩", "→", "⟨B", "′,", "skip⟩", "Assign2", "B", "′", "=", "B", "[(G,", "B", "(~))", "↦→", "B", "(I)]", "⟨B,", "G", ":=", "4⟩", "→", "⟨B", "′,", "skip⟩", "Assign1", "B", "′", "=", "B", "[G", "↦→", "B", "(4)]"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Figure2-1.png"
+}, {
+  "caption": "Table 1. Statistics of 87 Benchmarks, where #Loc and #Src show the numbers of lines and potential sidechannel sources of the program in Boogie IR, respectively; † indicates that the benchmark is claimed to be constant-time by developers.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.6572265625,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Name", "Lib/Algorithm/Function", "#Loc", "#Src", "Name", "Lib/Algorithm/Function", "#Loc", "#Src", "P1_1", "OpenSSL_tls1_cbc_remove_padding", "1042", "71", "P6_1", "BearSSL_AES_small_decrypt", "1395", "310", "P1_2", "OpenSSL_ssl3_cbc_digest_record", "13089", "198", "P6_2", "BearSSL_AES_small_encrypt", "945", "54", "P1_3", "OpenSSL_ssl3_cbc_remove_padding", "351", "14", "P6_3†", "BearSSL_ChaCha20_ct_run", "2655", "316", "P1_4", "OpenSSL_ssl3_cbc_copy_mac", "452", "15", "P6_4†", "BearSSL_GHASH_ctmul32_br_ghash_ctmul", "2588", "202", "p2_1†", "MAC-then-Encode-then-CBC-Encrypt", "22036", "396", "P6_5†", "BearSSL_RSA_i15_decrypt", "5928", "229", "P3_1†", "Hacl_HMAC_compute_sha2_256", "27404", "1673", "P6_6†", "BearSSL_EC_p256_m15_api_mul", "19535", "1895", "P3_2†", "Hacl_HMAC_compute_blake2b_32", "68502", "5289", "P6_7†", "BearSSL_EC_p256_m31_api_mul", "9560", "796", "P3_3†", "Hacl_HMAC_legacy_compute_sha1", "2149", "111", "P6_8†", "BearSSL_EC_p256_m64_api_mul", "6450", "380", "P3_4†", "Hacl_HMAC_compute_blake2s_32", "56465", "4309", "P6_9†", "BearSSL_GHASH_ctmul64", "1060", "10", "P3_5†", "Hacl_HMAC_compute_sha2_384", "34620", "2183", "P6_10†", "BearSSL_AES_ct_bitslice_encrypt", "1345", "60", "P3_6†", "Hacl_HMAC_compute_sha2_512", "34565", "2177", "P6_11†", "BearSSL_AES_ct_bitslice_decrypt", "1788", "72", "P3_7†", "Hacl_Chacha20_chacha20_decrypt", "3303", "180", "P6_12†", "BearSSL_AES_ct_key_sched", "2161", "100", "P3_8†", "Hacl_Chacha20_chacha20_encrypt", "3285", "180", "P6_13", "BearSSL_AES_big_cbc_key_schedule", "836", "290", "P3_9†", "Hacl_Curve25519_64_ecdh", "1813", "70", "P6_14", "BearSSL_AES_big_cbc_decrypt", "1813", "565", "P3_10†", "Hacl_Curve25519_64_scalarmult", "1619", "67", "P6_15", "BearSSL_AES_big_cbc_encrypt", "1806", "565", "P3_11†", "Hacl_Curve25519_64_secret_to_public", "1701", "102", "P6_16†", "BearSSL_RSA_i15_pkcs1_sign", "6464", "264", "P3_12†", "Hacl_Poly1305_32_poly1305_mac", "2240", "121", "P6_17", "BearSSL_DES_table_cbc_decrypt", "1514", "555", "P3_13†", "Hacl_Poly1305_128_poly1305_mac", "72", "0", "P6_18", "BearSSL_DES_table_cbc_encrypt", "1501", "555", "P3_14†", "Hacl_Poly1305_256_poly1305_mac", "72", "0", "P6_19†", "BearSSL_RSA_i31_pkcs1_sign", "5423", "235", "P3_15†", "Hacl_Curve25519_51_ecdh", "21158", "2313", "P6_20", "BearSSL_Poly1305_i15_ChaCha20_run", "3409", "347", "P3_16†", "Hacl_Curve25519_51_scalarmult", "20964", "2310", "P6_21†", "BearSSL_Poly1305_ctmul32_ChaCha20_run", "4802", "425", "P3_17†", "Hacl_Curve25519_51_secret_to_public", "21046", "2345", "P6_22†", "BearSSL_EC_p256_m62_api_mul", "6617", "472", "P4_1", "Tongsuo_curve448_ossl_x448", "6674", "446", "P6_23†", "BearSSL_GHASH_ctmul_br_ghash_ctmul", "1947", "125", "P4_2", "Tongsuo_curve448_derive_pub_key", "8994", "575", "P6_24†", "BearSSL_AES_ct64_bitslice_encrypt", "1348", "60", "P4_3", "Tongsuo_AES_decrypt", "3274", "1382", "P6_25†", "BearSSL_AES_ct64_bitslice_decrypt", "1791", "72", "P4_4", "Tongsuo_AES_encrypt", "2982", "1126", "P6_26†", "BearSSL_AES_ct64_key_sched", "2069", "119", "P4_5", "Tongsuo_constant_time_lookup", "339", "5", "P6_27†", "BearSSL_RSA_i32_decrypt", "4170", "179", "P4_6", "Tongsuo_curve25519_derive_pub_key", "14744", "7840", "P6_28†", "BearSSL_Poly1305_ctmul_ChaCha20_run", "4318", "363", "P4_7", "Tongsuo_curve25519_ossl_x25519", "3561", "163", "P6_29†", "BearSSL_Poly1305_ctmulq_ChaCha20_run", "6761", "415", "P5_1", "Mbed", "TLS_rsa_decrypt", "13797", "788", "P6_30†", "BearSSL_DES_ct_cbc_decrypt", "1670", "49", "P5_2†", "Mbed", "TLS_mpi_lt_mpi_ct", "411", "26", "P6_31†", "BearSSL_DES_ct_cbc_encrypt", "1658", "49", "P5_3†", "Mbed", "TLS_ct_rsaes_pkcs1_v15_unpadding", "629", "19", "P8_1†", "FourQlib_ECC_double_eccdouble", "28", "0", "P5_4†", "Mbed", "TLS_mpi_safe_cond_assign", "729", "43", "P8_2†", "FourQlib_ECC_madd_eccmadd", "1632", "58", "P5_5†", "Mbed", "TLS_mpi_core_lt_ct", "214", "5", "P8_3†", "FourQlib_ECC_norm_eccnorm", "2390", "79", "P5_6†", "Mbed", "TLS_mpi_safe_cond_swap", "765", "46", "P9_1", "libsodium_core_salsa208", "1126", "9", "P5_7†", "Mbed", "TLS_ct_memcmp", "145", "7", "P9_2", "libsodium_aead_chacha20poly1305_decrypt", "9311", "397", "P5_8†", "Mbed", "TLS_ct_mpi_uint_cond_assign", "140", "4", "P9_3", "libsodium_core_salsa20", "1094", "9", "P5_9†", "Mbed", "TLS_ct_memcpy_oﬀset", "290", "5", "P9_4", "libsodium_stream_chacha20", "6620", "259", "P5_10†", "Mbed", "TLS_ct_base64_dec_value", "309", "0", "P9_5", "libsodium_onetimeauth_poly1305_block", "778", "25", "P5_11", "Mbed", "TLS_DES_crypt_cbc", "1991", "546", "P9_6", "libsodium_hash_sha512_Transformer", "29713", "2508", "P7_1†", "libﬁxedtimeﬁxedpoint_ﬁx_pow_ﬁx_pow", "24538", "80", "P9_7", "libsodium_hash_sha256_Transformer", "23806", "2008", "P7_2†", "libﬁxedtimeﬁxedpoint_ﬁx_cmp_ﬁx_cmp", "591", "0", "P10_1", "curve25519-donna", "portable", "implementation", "11737", "722", "P7_3†", "libﬁxedtimeﬁxedpoint_ﬁx_ln_ﬁx_ln", "15200", "0", "P10_2†", "curve25519-donna", "c64", "implementation", "23936", "1599", "P7_4†", "libﬁxedtimeﬁxedpoint_ﬁx_eq_ﬁx_eq", "153", "0"],
+  "name": "1",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 440.15999999999997,
+    "y1": 122.88,
+    "y2": 567.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643772-Table1-1.png"
+}]

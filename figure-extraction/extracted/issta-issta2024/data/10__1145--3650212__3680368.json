@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 3: Pre-defined Dummy Value",
+  "captionBoundary": {
+    "x1": 367.3739929199219,
+    "x2": 508.4963073730469,
+    "y1": 85.34053802490234,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Resource", "DummyResource()", "Others", "Dummy()", "Callable", "DummyCall", "Object", "Dummy()", "Functions", "&objects", "DataFrame", "pandas.DataFrame({”a”:", "1})", "Tensor", "torch.tensor([[1.0]])", "Array", "numpy.array([1])", "Third-party", "Data", "Type", "None", "None", "Boolean", "True", "Integer", "1", "Float", "1.0", "String", "”a”", "List", "[Dummy()]", "Tuple", "(Dummy())", "Set", "set(Dummy())", "Dictionary", "”a”:", "Dummy()", "Built-in", "Data", "Type", "Type", "Abstract", "Class", "Dummy", "Value"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 94.08,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Table3-1.png"
+}, {
+  "caption": "Table 4: Detail of Experiment Datasets",
+  "captionBoundary": {
+    "x1": 96.07499694824219,
+    "x2": 251.47171020507812,
+    "y1": 160.88455200195312,
+    "y2": 166.9010009765625
+  },
+  "figType": "Table",
+  "imageText": ["Baseline.", "We", "set", "up", "Lexecutor", "[63]", "which", "achieves", "states-of-art", "performance", "in", "partial", "code", "execution", "guiding.", "Lexecutor", "fine-tuned", "the", "pre-trained", "models", "(i.e.,", "CodeT5", "[70]", "and", "CodeBert", "[15])", "with", "collected", "<code,", "type>", "tuple", "in", "the", "training", "phase.", "During", "the", "ex-", "ecution", "phase,", "the", "runtime", "engine", "inputs", "the", "CodeT5", "model", "with", "code", "and", "injects", "a", "dummy", "value", "according", "to", "the", "predicted", "type.", "Following", "the", "instructions", "in", "the", "replication", "package,", "we", "first", "col-", "lected", "training", "and", "validation", "sets", "from", "five", "popular", "open-source", "projects", "and", "fine-tunedCodeT5with", "the", "set", "hyperparameters", "same", "as", "Lexecutor", "(denoted", "as", "Lexecutor-CodeT5),", "i.e.,", "learning", "rate,", "epochs,", "and", "batch", "size.", "We", "achieved", "79.1%,", "86.9%,", "and", "90.2%", "accu-", "racy", "of", "the", "top-1,3,5", "predictions,", "respectively.", "The", "evaluation", "re-", "sults", "of", "it", "closely", "match", "the", "accuracy", "they", "reported,", "we", "thus", "are", "confident", "with", "our", "replication", "process", "for", "Lexeuctor.", "Since", "Self-", "PiCo", "is", "based", "on", "Code", "Llama,", "to", "conduct", "a", "more", "fair", "compari-", "son", "with", "Lexecutor,", "we", "replaced", "the", "CodeT5", "of", "Lexecutor", "with", "Code", "LLama,", "denoted", "as", "Lexecutor-CodeLlama.", "Following", "the", "methodology", "described", "in", "Sec", "3.4,", "we", "fine-tuned", "the", "Code", "Llama", "model", "using", "the", "same", "strategy", "and", "hyperparameters", "as", "SelfPiCo.", "we", "also", "replaced", "Code", "Llama", "with", "ChatGPT", "[1]", "within", "our", "frame-", "work", "as", "a", "baseline,", "denoted", "as", "SelfPiCo-GPT-3.5,", "which", "is", "used", "without", "any", "fine-tuning.", "Metrics.We", "evaluate", "the", "ability", "of", "SelfPiCo", "to", "guide", "code", "execu-", "tion", "in", "average", "code", "coverage", "and", "fully", "executed", "rate.", "The", "Code", "Coverage", "refers", "to", "the", "ratio", "of", "the", "number", "of", "executed", "lines", "of", "code", "to", "the", "total", "number", "of", "lines", "of", "code", "in", "the", "program.", "If", "the", "en-", "tire", "line", "has", "been", "executed", "without", "crashing,", "we", "label", "this", "line", "as", "“covered”.TheBranch", "Coverage", "refers", "to", "the", "ratio", "of", "the", "number", "of", "executed", "branches", "to", "the", "total", "number", "of", "branches", "in", "the", "pro-", "gram.", "The", "Fully", "Executed", "Rate", "measures", "how", "many", "of", "all", "code", "snippets", "we", "achieve", "100%", "line", "coverage.", "The", "temperature", "hyperpa-", "rameter", "of", "pre-trained", "generative", "models", "(including", "both", "CodeT5", "and", "CodeLlama)", "controls", "the", "randomness", "of", "generated", "outputs.", "To", "help", "code", "execution", "cover", "asmany", "lines", "as", "possible,", "we", "set", "the", "tem-", "perature", "hyperparameter", "to", "0.8.", "This", "introduces", "more", "randomness", "and", "diversity", "in", "the", "generated", "outputs,", "allowing", "for", "a", "wider", "range", "of", "possible", "responses.", "We", "calculate", "the", "above", "metrics", "by", "combin-", "ing", "results", "from", "five", "independent", "executions.", "The", "higher", "the", "met-", "rics", "score,", "the", "better", "the", "approach", "can", "guide", "the", "incomplete", "code", "execution.", "Black", "200", "2,162", "Flask", "200", "1,100", "Pandas", "200", "1,438", "Scrapy", "200", "1,150", "TensorFlow", "200", "1,375", "Stack", "Overflow", "Code", "Snippets", "586", "4,540", "Open-source", "Projects", "Functions", "Dataset", "Count", "Loc"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 299.03999999999996,
+    "y1": 169.92,
+    "y2": 707.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Table4-1.png"
+}, {
+  "caption": "Table 5: Overall Effectiveness Evaluation",
+  "captionBoundary": {
+    "x1": 355.37298583984375,
+    "x2": 520.4893798828125,
+    "y1": 339.3345642089844,
+    "y2": 345.35101318359375
+  },
+  "figType": "Table",
+  "imageText": ["Fully", "Executed", "Rate", "0.556", "0.754", "SelfPiCo", "Code", "Coverage", "0.727", "0.833", "Branch", "Coverage", "0.643", "0.795", "Fully", "Executed", "Rate", "0.556", "0.746", "SelfPiCo-GPT-3.5", "Code", "Coverage", "0.730", "0.819", "Branch", "Coverage", "0.644", "0.789", "Branch", "Coverage", "0.371", "0.511", "Fully", "Executed", "Rate", "0.373", "0.502", "Lexecutor-CodeLlama", "Code", "coverage", "0.542", "0.641", "Branch", "Coverage", "0.312", "0.474", "Fully", "Executed", "Rate", "0.342", "0.478", "Lexecutor-CodeT5", "Code", "coverage", "0.527", "0.624", "Approach", "Metrics", "Open-source", "Projects", "Functions", "Stack", "Overflow", "Code", "Snippets"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 348.0,
+    "y2": 482.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Table5-1.png"
+}, {
+  "caption": "Figure 5: Type error detected by SelfPiCo",
+  "captionBoundary": {
+    "x1": 352.7049865722656,
+    "x2": 523.452392578125,
+    "y1": 185.23355102539062,
+    "y2": 191.25
+  },
+  "figType": "Figure",
+  "imageText": ["TypeError:", "unsupported", "operand", "type(s)", "for", "-:", "'DateTime'", "and", "'NoneType'", "t", "o", "t", "a", "l", "_", "s", "e", "c", "o", "n", "d", "s", "(", ")", ")", "de", "l", "ta", "=", "pendu", "lum", ".", "now", "(", ")", "-", "las", "t_", "log", "_", "t", "ime", "read_", "logs", "_", "s", "ince", "_", "sec", "=", "math", ".", "ce", "i", "l", "(", "del", "ta", ".", "#", "h", "t", "t", "p", "s", ":", "/", "/", "g", "i", "t", "hub", ".com", "/", "apache", "/", "a", "i", "r", "f", "l", "ow", "/", "pu", "l", "l", "/", "14513", "i", "f", "ge", "t_", "logs", ":", "read_logs", "_", "s", "ince", "_", "sec", "=", "None", "l", "a", "s", "t_", "log", "_", "t", "ime", "=", "None", ".", ".", "."],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 561.12,
+    "y1": 84.0,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Figure5-1.png"
+}, {
+  "caption": "Figure 1: A Type Error Detected From Partial Code",
+  "captionBoundary": {
+    "x1": 335.76800537109375,
+    "x2": 540.390380859375,
+    "y1": 374.8215637207031,
+    "y2": 380.8380126953125
+  },
+  "figType": "Figure",
+  "imageText": ["TypeError:", "a", "bytes-like", "object", "is", "required,", "not", "'str'", ".", "r", "sp", "l", "i", "t", "(", "'", ".", "'", ",", "1)", "[0", "]", "d", "=", "d", ".", "replace", "(", "b", "'", "(", "c", "main", "'", ",", "\"", "(", "c", "\"", "+", "module", ")", "f", "d", ".", "w", "r", "i", "t", "e", "(", "d", ")", ".", ".", ".", "d", "=", "p", "ick", "le", ".", "dumps", "(", "fd", ")", "modu", "le", "=", "os", ".", "path", ".", "basename", "(", "sys", ".", "argv", "[0]", ")", "#", "h", "t", "t", "p", "s", ":", "/", "/", "g", "i", "t", "h", "u", "b", ".", "c", "o", "m", "/", "s", "p", "o", "t", "i", "f", "y", "/", "l", "u", "i", "g", "i", "/", "i", "s", "s", "u", "e", "s", "/", "1", "9", "8", "8", "def", "_dump", "(", "sel", "f", ",", "fd", ")", ":"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 273.59999999999997,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Performance of Interactive Value Predictor",
+  "captionBoundary": {
+    "x1": 332.0329895019531,
+    "x2": 544.1243286132812,
+    "y1": 320.1085510253906,
+    "y2": 326.125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 566.4,
+    "y1": 153.6,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Figure4-1.png"
+}, {
+  "caption": "Table 7: Effectiveness of Chain-of-thought Reasoning",
+  "captionBoundary": {
+    "x1": 329.58099365234375,
+    "x2": 546.2811279296875,
+    "y1": 622.2625122070312,
+    "y2": 628.2789916992188
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Coverage", "0.636", "0.744", "Branch", "Coverage", "0.552", "0.704", "Fully", "Executed", "Rate", "0.477", "0.680", "Interactive", "Value", "Predictor", "Code", "Coverage", "0.479", "0.630", "Branch", "Coverage", "0.213", "0.485", "Fully", "Executed", "Rate", "0.258", "0.493", "Interactive", "Value", "Predictor", "w/o", "CoT", "Approach", "Metrics", "Open-source", "Projects", "Functions", "Stack", "Overflow", "Code", "Snippets"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 630.72,
+    "y2": 712.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Table7-1.png"
+}, {
+  "caption": "Table 6: Effectiveness of two components in SelfPiCo",
+  "captionBoundary": {
+    "x1": 64.0479965209961,
+    "x2": 283.5006103515625,
+    "y1": 311.8665466308594,
+    "y2": 317.88299560546875
+  },
+  "figType": "Table",
+  "imageText": ["Fully", "Executed", "Rate", "0.556", "0.754", "SelfPiCo", "Code", "Coverage", "0.727", "0.833", "Branch", "Coverage", "0.643", "0.795", "Code", "Coverage", "0.558", "0.656", "Branch", "Coverage", "0.390", "0.521", "Fully", "Executed", "Rate", "0.382", "0.514", "Complementary", "Type", "Predictor", "Code", "coverage", "0.636", "0.744", "Branch", "Coverage", "0.552", "0.704", "Fully", "Executed", "Rate", "0.477", "0.679", "Interactive", "Value", "Predictor", "Approach", "Metrics", "Open-source", "Projects", "Functions", "Stack", "Overflow", "Code", "Snippets"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 305.28,
+    "y1": 320.64,
+    "y2": 431.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Table6-1.png"
+}, {
+  "caption": "Figure 3: Venn Graph for Fully Executed Code Snippets Reported by SelfPiCo and Lexecutor, Open-Source Project Functions (left) and Stack Overflow Code Snippets (right)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.648681640625,
+    "y1": 158.17654418945312,
+    "y2": 186.11102294921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 301.44,
+    "y1": 84.0,
+    "y2": 144.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Figure3-1.png"
+}, {
+  "caption": "Figure 2: The Overview of SelfPiCo",
+  "captionBoundary": {
+    "x1": 100.88099670410156,
+    "x2": 246.96157836914062,
+    "y1": 239.15957641601562,
+    "y2": 245.176025390625
+  },
+  "figType": "Figure",
+  "imageText": ["dummy", "value", "Runtime", "Engine", "fail", "succeed", "type", "Dummying", "Injected", "Value", "Instrumented", "Code", "Arbitrary", "Code", "query", "Code", "Llama", "Task:", "…", "Given", "Code", "Line:", "…", "Category:", "…", "Examples", "Role", "Designation", "Role:", "I", "want", "you", "to", "act", "as", "a", "classifier.", "I", "will", "…", "Prompt", "value", "fix", "query", "Checker", "Code", "Llama", "Task:", "…", "Given", "Code:", "…", "Step", "1:", "…", "Step", "2:", "…", "Step", "3:", "…", "Overall,", "complement", "code", "are:", "…", "CoT", "Examples", "Role:", "I", "want", "you", "to", "act", "like", "a", "Python", "programmer.", "I", "will", "…", "Role", "Designation", "Prompt", "Complementary", "Type", "Predictor", "Interactive", "Value", "Predictor"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 294.24,
+    "y1": 92.64,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Figure2-1.png"
+}, {
+  "caption": "Table 1: Execution Hooks",
+  "captionBoundary": {
+    "x1": 254.21499633789062,
+    "x2": 357.4810791015625,
+    "y1": 85.34053802490234,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["calls", "of", "functions", "&", "methods", "Var", "=", "Foo()", "Var", "=", "_c_(iid,", "_n_(iid,", "”Foo”,", "lambda:", "Foo))", "Variable", "Reads", "Var1", "=", "Var2", "+", "1", "Var1", "=", "_n_(iid,", "”Var2”,", "lamda:", "Var2)", "+", "1", "Attribute", "Reads", "Opt1.Attr1", "=", "Opt2.Attr2", "Opt1.Attr1", "=", "_a_(iid,", "_n_(iid,", "”Opt2”,", "lambda:", "Opt2),", "”Attr2”)", "Ast", "Nodes", "Original", "Code", "Instrumented", "Code"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 528.0,
+    "y1": 94.08,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Table1-1.png"
+}, {
+  "caption": "Table 2: The Example of Prompt Engineering",
+  "captionBoundary": {
+    "x1": 347.0880126953125,
+    "x2": 528.7743530273438,
+    "y1": 165.07754516601562,
+    "y2": 171.093994140625
+  },
+  "figType": "Table",
+  "imageText": ["pass", "self", "=", "MyClass()", "path", "=", "os.path.abspath(__file__)", "self.path", "=", "path", "Overall,", "complement", "code", "are:", "import", "os", "class", "MyClass():", "Example", "Output", "pass", "self", "=", "MyClass()", "Step", "3", "(assign", "template):", "Define", "and", "as-", "sign", "⟨UNDEF", "ELE⟩", "⟨UNDEF", "ELE", "TYPE⟩", "to", "repair", "the", "error", "⟨ERR", "MSG⟩", "Step", "3", "(assign", "case):", "Define", "and", "assign", "⟨path⟩", "⟨attribute⟩", "to", "repair", "the", "error", "⟨Attribute", "Error:", "`self'", "object", "has", "no", "attribute", "`path'", "for", "this", "case⟩", "self.path", "=", "os.path.abspath(__file__)", "Step", "3", "(fix", "template):", "Fix", "the", "⟨LAST", "STEP", "CODE⟩", "since", "the", "⟨FAIL", "EXEC", "RES⟩", ".", "Step", "3", "(fix", "case):", "Fix", "the", "⟨self.path", "=", "path⟩", "since", "the", "⟨NameError:", "name", "`path'", "is", "not", "defined⟩", ".", "path", "=", "os.path.abspath(__file__)", "self.path", "=", "path", "Task:", "Complete", "and", "fix", "the", "given", "code", "to", "make", "it", "can", "be", "executed", "directly.", "Given", "code:", "Do", "not", "modify", "the", "given", "Python", "code", "or", "wrap", "it", "with", "function.", "<filepath", "=", "self.path>", "Step", "1:", "Import", "needed", "module.", "import", "os", "Step", "2:Define", "all", "the", "needed", "classes,", "meth-", "ods,", "or", "variables", "here", "in", "detail.", "class", "MyClass():", "Chain-of-thought", "Reasoning", "with", "Example", "Input", "Role:", "I", "want", "you", "to", "act", "like", "a", "Python", "pro-", "grammer.", "I", "will", "give", "you", "Python", "code", "and", "comments,", "you", "should", "write", "Python", "code", "according", "to", "the", "comments", "step", "by", "step.", "Output", "Restriction:", "Only", "give", "reply", "with", "Python", "code", "and", "Do", "not", "write", "expla-", "nations.", "Format", "Restriction:", "Your", "reply", "is", "lim-", "ited", "to", "only", "one", "code", "block", "and", "should", "wrap", "with", "backticks.", "Role", "Designation", "Prompt", "Type", "Instantiation"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 173.76,
+    "y2": 703.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680368-Table2-1.png"
+}]

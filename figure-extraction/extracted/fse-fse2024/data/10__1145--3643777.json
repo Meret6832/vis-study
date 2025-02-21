@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 3. The overview of LeJit. Do ed-dashed lines: test-based approach; dashed lines: pool-based approach.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 437.81072998046875,
+    "y1": 184.550048828125,
+    "y2": 188.8270263671875
+  },
+  "figType": "Figure",
+  "imageText": ["Dynamic", "Static", "ExtractionCollection", "Generation", "Testing", "Pruning", "Generated", "Programs", "Di", "/", "CrashTemplates", "Pool", "Input", "!", "Unit", "Tests", "All", "Methods", "Bugs", "Reference", "JVM", "GraalVM", "OpenJ9", "Project", "HotSpot", "ArgumentsTest", "Finder", "Expressions", "→", "Holes", "Extended", "JAttack"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 48.48,
+    "x2": 434.4,
+    "y1": 84.0,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Figure3-1.png"
+}, {
+  "caption": "Table 4. Number of cases of each group reported from JavaTailor.",
+  "captionBoundary": {
+    "x1": 122.33990478515625,
+    "x2": 363.4191589355469,
+    "y1": 88.07678985595703,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Number", "5", "18", "39", "2", "24", "7", "7", "Group", "NoRep.", "NonDet.", "Di", "Text", "VerifyError", "Di", "Exception", "NoException", "Misc."],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 416.15999999999997,
+    "y1": 99.36,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table4-1.png"
+}, {
+  "caption": "Fig. 4. Template extraction algorithm.",
+  "captionBoundary": {
+    "x1": 173.00894165039062,
+    "x2": 312.9916687011719,
+    "y1": 373.1427917480469,
+    "y2": 377.4197692871094
+  },
+  "figType": "Figure",
+  "imageText": ["28:", "Input:", "4", ":", "the", "original", "expression", "29:", "Input:", "3", ":", "the", "depth", "of", "4", "30:", "Output:", "the", "hole", "API", "31:", "function", "Convert(4", ",", "3)", "32:", "g", "←", "ResolveType(4)", "33:", "switch", "GetCategoryOfExpr(4)", "do", "34:", "case", "Identi", "er:", "35:", "ℎ←", "“<g>Id()”", "36:", "case", "Literal:", "37:", "ℎ←", "“<g>Val()”", "38:", "case", "Relation:", "39:", ";", "←", "Convert(4", ".left,", "3", "+", "1)", "40:", "A", "←", "Convert(4", ".right,", "3", "+", "1)", "41:", "ℎ←", "“relation(<;>,", "<A>)”", "42:", ".", ".", ".", "43:", "if", "3", "=", "0", "then", "44:", "return", "“<ℎ>.eval()”", "45:", "else", "46:", "return", "“<ℎ>”", "27:", "return", "C", "16:", "if", "then", "17:", "for", "all", "?", "in", "GetAllParams(\")", "do", "⊲", "including", "the", "receiver", "18:", "g", "←", "ResolveType(?)", "19:", "if", "IsPrimitive(g", ")", "then", "20:", "8", "←", "“<g>Val()”", "21:", "else", "if", ".contains(g", ")", "then", "22:", "8", "←", "RandomInputOfTypeFromPool(g", ",", ")", "23:", "else", "24:", "8", "←", "“null”", "25:", "<←", "CreateArgumentMethod(?", ",", "8)", "26:", "InsertMethod(<,", "C", ")", "13:", "if", "!", "then", "14:", "<←", "CreateArgumentsMethod(!)", "15:", "InsertMethod(<,", "C", ")", "11:", "for", "all", ";", "in", "GetAllLoops(C", ")", "do", "12:", "InsertLoopLimiter(;", ")", "10:", "Replace(4", ",", "4′)", "1:", "Input:\"", ":", "the", "entry", "method", "2:", "Input:", "!:", "the", "collected", "input", "to", "the", "entry", "method", "(test-based", "only)", "3:", "Input:", ":", "the", "pool", "of", "inputs", "to", "all", "methods", "(pool-based", "only)", "4:", "Output:", "the", "extracted", "template", "5:", "function", "Extract(\"", ",", "!,", ")", "6:", "←", "GetClassDeclaring(\")", "7:", "C", "←", "Clone(", ")", "8:", "for", "all", "4", "in", "GetAllExprs(C", ")", "do", "9:", "4′←", "Convert(4", ",", "0)"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 47.04,
+    "x2": 421.44,
+    "y1": 84.47999999999999,
+    "y2": 356.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Figure4-1.png"
+}, {
+  "caption": "Table 3. Comparison of JITfuzz and LeJit. *The bug was already found before using JITfuzz so we did not report it again.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1688232421875,
+    "y1": 88.07703399658203,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["JITfuzz", "45,352", "2,115", "*1", "70.8", "69.7", "67.2", "64.3", "36.6", "44.6", "LeJitC", "96,626", "97", "0", "78.9", "77.7", "74.6", "72.5", "39.4", "48.0", "Func.", "Line", "Func.", "Line", "Func.", "Line", "C1", "C2", "HotSpot", "Coverage", "(%)", "#", "Programs", "#", "Fail.", "#", "Bugs"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 398.4,
+    "y1": 109.92,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table3-1.png"
+}, {
+  "caption": "Fig. 1. An existing program from the text project [40] used as a source for template extraction.",
+  "captionBoundary": {
+    "x1": 68.90498352050781,
+    "x2": 417.0966796875,
+    "y1": 261.1275634765625,
+    "y2": 265.4049987792969
+  },
+  "figType": "Figure",
+  "imageText": ["10", "int", "len", "=", "size❹;", "11", "final", "char[]", "buf", "=", "buffer❺;", "12", "int", "pos", "=", "0❻;", "13", "while", "(pos", "<", "len", "&&", "buf[pos]", "<=", "'", "'❼)", "{", "pos++;", "}", "14", "while", "(pos", "<", "len", "&&", "buf[len", "-", "1]", "<=", "'", "'❽)", "{", "len--;", "}", "...", "15", "return", "this;", "}", "}", "1", "package", "org.apache.commons.text;...", "2", "public", "class", "StrBuilder", "implements", "...", "{", "...", "3", "static", "final", "int", "CAPACITY", "=", "32;", "4", "char[]", "buffer;", "private", "int", "size;", "5", "private", "String", "newLine,", "nullText;", "6", "public", "StrBuilder(final", "String", "str)", "{", "7", "if", "(str❶", "==", "null)", "{", "buffer", "=", "new", "char[CAPACITY❷];", "}", "...", "}", "8", "public", "StrBuilder", "trim()", "{", "9", "if", "(size", "==", "0❸)", "{", "return", "this;", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 313.92,
+    "y1": 90.24,
+    "y2": 250.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Figure1-1.png"
+}, {
+  "caption": "Fig. 6. Examples of minimized programs of detected bugs.",
+  "captionBoundary": {
+    "x1": 135.86961364746094,
+    "x2": 350.1304626464844,
+    "y1": 394.7260437011719,
+    "y2": 399.0030212402344
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Standard", "library", "mis-compilation.", "10", "System.out.println(sum);", "}", "}", "//", "expected", "0", "1", "static", "import", "java.nio.charset.StandardCharsets;", "2", "public", "class", "C", "{", "3", "static", "int", "m(String", "s)", "{", "4", "byte[]", "arr", "=", "s.getBytes(ISO_8859_1);", "5", "return", "arr[2];", "}", "6", "public", "static", "void", "main(String[]", "args)", "{", "7", "long", "sum", "=", "0;", "8", "for", "(int", "i", "=", "0;", "i", "<", "10_000_000;", "++i)", "{", "9", "sum", "+=", "m(\"\\u8020\\000\\000\\020\");", "}", "(c)", "Erroneous", "loop", "condition", "evaluation.", "10", "public", "static", "void", "main(String[]", "args)", "{", "11", "int", "sum", "=", "0;", "12", "for", "(int", "i", "=", "0;", "i", "<", "100_000;", "++i)", "{", "13", "try", "{", "m(13);", "14", "}", "catch", "(ArithmeticException", "e)", "{", "sum", "+=", "1;", "}", "15", "}", "System.out.println(sum);", "}", "}", "//", "expected", "0", "1", "public", "class", "C", "{", "2", "static", "int", "m(int", "len)", "{", "3", "int[]", "arr", "=", "new", "int[8];", "4", "for", "(int", "i", "=", "10000000,", "j", "=", "0;", "5", "(boolean)", "(i", ">=", "1)", "&&", "j", "<", "100;", "i--,", "j++)", "{", "6", "//", "should", "not", "enter", "inner", "loop.", "7", "for", "(int", "k", "=", "0;", "len", "<", "arr.length;", "++k)", "{", "8", "int", "x", "=", "1", "/", "0;", "}", "9", "}", "return", "0;", "}", "(b)", "Incorrect", "elimination", "of", "range", "checks.", "10", "}", "catch", "(ArrayIndexOutOfBoundsException", "e)", "{", "11", "count", "+=", "1;", "}", "}", "12", "System.out.println(count);", "}", "}", "//", "expect", "1000", "1", "public", "class", "C", "{", "2", "static", "void", "m(int", "n)", "{", "3", "int[]", "a", "=", "new", "int[n];", "4", "for", "(int", "i", "=", "0;", "i", "<", "1;", "i++)", "{", "5", "int", "x", "=", "a[i", "%", "-1];", "}", "}", "6", "public", "static", "void", "main(String[]", "args)", "{", "7", "int", "count", "=", "0;", "8", "for", "(int", "i", "=", "0;", "i", "<", "1000;", "++i)", "{", "9", "try", "{", "m(0);", "(a)", "Arithmetic", "mis-compilation.", "10", "for", "(int", "i", "=", "0;", "i", "<", "100_000;", "++i)", "{", "11", "//", "m(1.0)", "expected", "to", "be", "1.0", "returns", "0.0", "12", "sum", "+=", "m(1.0);", "}", "13", "//", "expected", "100000.0", "14", "System.out.println(sum);", "}", "}", "1", "public", "class", "C", "{", "2", "double", "q0,", "q1,", "q2,", "q3;", "3", "C(double", "a0,", "double", "a1,", "double", "a2,", "double", "a3)", "{", "4", "q0", "=", "a3;", "q1", "=", "a1;", "q2", "=", "0;", "q3", "=", "0;", "}", "5", "static", "double", "m(double", "d)", "{", "6", "C", "c", "=", "new", "C(0,", "1.0,", "0,", "d", "%", "d);", "7", "return", "c.q1;", "}", "8", "public", "static", "void", "main(String[]", "args)", "{", "9", "double", "sum", "=", "0;"],
+  "name": "6",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 432.47999999999996,
+    "y1": 89.75999999999999,
+    "y2": 383.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Figure6-1.png"
+}, {
+  "caption": "Fig. 5. The overlap of bugs detected by LeJit variants. LeJitNoTmpl: no templates/generated programs; LeJitC : LeJit with Test-based approach; LeJit? : LeJit with Poolbased approach; LeJitNoPool: enhanced JAttack.",
+  "captionBoundary": {
+    "x1": 45.828094482421875,
+    "x2": 177.4537353515625,
+    "y1": 432.3160095214844,
+    "y2": 502.34600830078125
+  },
+  "figType": "Figure",
+  "imageText": ["Figure", "5", "shows", "all", "the", "bugs", "we", "found", "from", "the", "variants", "and", "the", "overlap", "of", "di", "erent", "variants.", "We", "do", "not", "include", "two", "bugs", "found", "Table", "2", "compares", "the", "numbers", "of", "generated", "programs,", "failures,", "and", "unique", "bugs", "reported.", "Note", "that", "all", "the", "numbers", "in", "the", "table", "represent", "averages", "from", "three", "runs.", "The", "various", "LeJit", "variants", "exhibit", "di", "erences", "in", "their", "running", "times.", "Speci", "cally,", "the", "slow-", "est", "variant", "(LeJit?", ")", "required", "around", "six", "days", "for", "a", "single", "run,", "on", "average.", "The", "rst", "two", "rows", "compare", "LeJitC", "and", "LeJitNoTmpl.", "LeJitC", "executes", "much", "more", "programs", "than", "LeJitNoTmpl,", "since", "LeJitNoTmpl", "does", "not", "extract", "templates", "to", "generate", "programs.", "LeJitC", "also", "slightly", "increases", "code", "coverage", "in", "C1", "and", "C2", "(sepa-", "rate", "optimizing", "compilers", "within", "HotSpot),", "as", "well", "as", "in", "the", "entire", "HotSpot.", "However,", "it", "was", "interesting", "to", "observe", "that", "LeJitNoTmpl", "can", "even", "nd", "an", "average", "of", "0.7", "bugs", "per", "run.", "As", "seen", "from", "the", "second", "two", "rows,", "LeJit?", "and", "LeJitNoPool", "execute", "a", "comparable", "number", "of", "programs", "and", "both", "nd", "a", "few", "bugs.", "LeJit?", "achieves", "both", "higher", "coverage", "and", "higher", "number", "of", "bugs", "on", "average."],
+  "name": "5",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 185.76,
+    "x2": 442.08,
+    "y1": 298.56,
+    "y2": 511.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Figure5-1.png"
+}, {
+  "caption": "Table 2. Comparison of LeJit variants. # Tmpl. is the number of templates, # Gen. is the number of generated programs, # Fail. is the number of failures. All the numbers are averages.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1727294921875,
+    "y1": 88.07703399658203,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["LeJit?", "11,921", "99,644", "129", "5.3", "84.4", "79.6", "50.0", "LeJitNoPool", "10,185", "89,977", "56", "4.0", "84.0", "78.7", "49.2", "LeJitC", "10,714", "90,916", "66", "3.3", "83.8", "79.0", "49.5", "LeJitNoTmpl", "14,854", "14,854", "24", "0.7", "83.6", "78.4", "47.9", "C1", "C2", "HotSpot", "Coverage", "(%)", "Bugs", "#", "Tmpl.", "#", "Gen.", "#", "Fail.", "#", "Avg."],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 374.4,
+    "y1": 109.92,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table2-1.png"
+}, {
+  "caption": "Fig. 2. An example (a) template extracted from the program in Figure 1, and (b) a concrete program generated from the template by filling in the holes, which crashed OpenJ9 JIT compiler.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17340087890625,
+    "y1": 544.7640380859375,
+    "y2": 560.0
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "36", "public", "static", "void", "main(String[]", "args)", "{", "37", "WrappedChecksum", "cs", "=", "new", "WrappedChecksum();", "38", "StrBuilder", "rcvr", "=", "_arg0();", "39", "cs.update(rcvr);", "40", "for", "(int", "i", "=", "0;", "i", "<", "100_000;", "++i)", "{", "41", "try", "{", "42", "cs.update(rcvr.trim());", "43", "}", "catch", "(UnfilledHoleException", "e)", "{", "44", "throw", "e;", "45", "}", "catch(Throwable", "e)", "{", "46", "cs.update(e.getClass().getName());", "}", "}", "47", "cs.update(StrBuilder.class);", "48", "Helper.write(cs.getValue());", "}", "}", "29", "public", "static", "StrBuilder", "_arg0()", "{", "30", "StrBuilder", "sb1", "=", "new", "StrBuilder(\"date\");", "31", "sb1.append((Object)", "10.0);", "32", "sb1.appendSeparator(\"d\");", "33", "Object[]", "arr", "=", "new", "Object[]", "{", "1.0", "};", "34", "return", "sb1.append(\"resourceBundle\",", "arr);", "}", "15", "public", "StrBuilder", "trim()", "{", "16", "if", "(size", "<=", "-1838784853❸)", "{", "return", "this;", "}", "17", "int", "len", "=", "CAPACITY❹;", "18", "final", "char[]", "buf", "=", "buffer❺;", "19", "int", "pos", "=", "809931165❻;", "20", "int", "_lim1", "=", "0;", "21", "while", "((len", ">", "_lim1", "&&", "buf[size]", "!=", "'Z')❼", "22", "&&", "_lim1++", "<", "1000)", "{", "pos++;", "}", "23", "int", "_lim2", "=", "0;", "24", "while", "((pos", "<=", "_lim2", "25", "||", "buf[size", "-", "1312433786]", ">", "'0')❽", "26", "&&", "_lim2++", "<", "1000)", "{", "len--;", "}", "...", "27", "return", "this;", "}", "10", "private", "String", "newLine,", "nullText;", "11", "public", "StrBuilder(final", "String", "str)", "{", "12", "if", "(nullText❶", "==", "null)", "{", "13", "buffer", "=", "new", "char[CAPACITY❷];", "}", "...", "}", "1", "package", "org.apache.commons.text;...", "2", "import", "jattack.annotation.*;", "3", "import", "jattack.csutil.Helper;", "4", "import", "jattack.csutil.checksum.WrappedChecksum;", "5", "import", "jattack.exception.UnfilledHoleException;", "6", "import", "static", "jattack.Boom.*;", "7", "public", "class", "StrBuilder", "implements", "...", "{", "...", "8", "static", "final", "int", "CAPACITY", "=", "32;", "9", "char[]", "buffer;", "private", "int", "size;", "(a)", "40", "@Argument(0)", "41", "public", "static", "StrBuilder", "_arg0()", "{", "42", "StrBuilder", "sb1", "=", "new", "StrBuilder(\"date\");", "43", "sb1.append((Object)", "10.0);", "44", "sb1.appendSeparator(\"d\");", "45", "Object[]", "arr", "=", "new", "Object[]", "{", "1.0", "};", "46", "return", "sb1.append(\"resourceBundle\",", "arr);", "}", "}", "12", "@Entry", "13", "public", "StrBuilder", "trim()", "{", "14", "if", "(relation(intId(),", "intVal()).eval()❸)", "{", "15", "return", "this;", "}", "16", "int", "len", "=", "intId().eval()❹;", "17", "final", "char[]", "buf", "=", "refId(char[].class).eval()❺;", "18", "int", "pos", "=", "intVal().eval()❻;", "19", "int", "_lim1", "=", "0;", "20", "while", "(logic(", "21", "relation(intId(),", "intId()),", "22", "relation(charArrAcc(", "23", "refId(char[].class),", "24", "intId()),", "25", "charVal()))", "26", ".eval()❼", "&&", "_lim1++", "<", "1000)", "{", "27", "pos++;", "}", "28", "int", "_lim2", "=", "0;", "29", "while", "(logic(", "30", "relation(intId(),", "intId()),", "31", "relation(charArrAcc(", "32", "refId(char[].class),", "33", "arithmetic(intId(),", "34", "intVal())),", "35", "charVal()))", "36", ".eval()❽", "&&", "_lim2++", "<", "1000)", "{", "37", "len--;", "}", "...", "38", "return", "this;", "}", "10", "buffer", "=", "new", "char[intId().eval()❷];", "}", "...", "}", "1", "package", "org.apache.commons.text;...", "2", "import", "jattack.annotation.*;", "3", "import", "static", "jattack.Boom.*;", "4", "public", "class", "StrBuilder", "implements", "...", "{", "...", "5", "static", "final", "int", "CAPACITY", "=", "32;", "6", "char[]", "buffer;", "private", "int", "size;", "7", "private", "String", "newLine,", "nullText;", "8", "public", "StrBuilder(final", "String", "str)", "{", "9", "if", "(refId(String.class).eval()❶", "==", "null)", "{"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 429.12,
+    "y1": 89.75999999999999,
+    "y2": 532.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Figure2-1.png"
+}, {
+  "caption": "Table 7. Results when using a specific set of types of holes.",
+  "captionBoundary": {
+    "x1": 133.91490173339844,
+    "x2": 351.8429260253906,
+    "y1": 88.07678985595703,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["#Templates", "13,090", "12,139", "13,606", "13,682", "12,061", "#Programs", "105,759", "87,230", "59,917", "64,906", "102,670", "#Failures", "106", "29", "39", "70", "131", "#Bugs", "3", "1", "3", "4", "4", "relation()", "&", "logic()", "All", "&", "shift()", "<g>Id()", "<g>Val()", "arithmetic()"],
+  "name": "7",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 365.28,
+    "y1": 99.36,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table7-1.png"
+}, {
+  "caption": "Table 8. Detected bugs in HotSpot, OpenJ9 and GraalVM using LeJit; 11 bugs were previously unknown.",
+  "captionBoundary": {
+    "x1": 50.19609832763672,
+    "x2": 435.561279296875,
+    "y1": 184.06103515625,
+    "y2": 188.3380126953125
+  },
+  "figType": "Table",
+  "imageText": ["17066", "Crash", "8,", "11,", "17,", "18", "Fixed", "-", "-", "17129", "Di", "8,", "11,", "17,", "18", "Fixed", "-", "-", "17139", "Di", "8,", "11,", "17,", "18", "Fixed", "-", "-", "17171", "Crash", "11,", "17,", "18", "Fixed", "-", "-", "17212", "Crash", "8,", "11,", "17,", "18", "Fixed", "-", "15363", "17249", "Di", "8,", "11,", "17,", "18", "Fixed", "-", "-", "17250", "Di", "17,", "18", "Fixed", "-", "-", "18802", "Crash", "8,", "11,", "17,", "21", "Fixed", "-", "17045", "18803", "Crash", "11,", "17,", "21", "Fixed", "-", "-", "OpenJ9", "JDK-8301663", "Di", "18,", "19,", "19.0.2", "Fixed", "-", "JDK-8288064", "JDK-8303946", "Di", "8,", "11,", "17,", "19,", "20,", "21", "Con", "rmed", "-", "-", "JDK-8304336", "Di", "17,", "19,", "20,", "21", "Fixed", "CVE-2023-22044", "-", "JDK-8305946", "Crash", "17,", "19,", "20,", "21", "Fixed", "CVE-2023-22045", "-", "JDK-8325216", "Crash", "17,", "18,", "19,", "20,", "21", "Fixed", "-", "JDK-8319793", "HotSpot", "GraalVM", "GR-45498", "Di", "17,", "20", "Fixed", "-", "-", "JVM", "Bug", "ID", "Type", "JDK", "Versions", "Status", "CVE", "Duplicates"],
+  "name": "8",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 415.2,
+    "y1": 195.35999999999999,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table8-1.png"
+}, {
+  "caption": "Table 1. Project information and number of holes per hole type. PrimitiveId contains all the <g>Id holes, and PrimitiveVal contains all the <g>Val holes, where g is one of the primitive types in Java. # Loops is the number of loop limiters.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1583557128906,
+    "y1": 88.07703399658203,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["4,138,025", "1,654,279", "377,868", "929,961", "16,524", "616,027", "45,450", "288,333", "7,778,134", "vectorz", "1,585,341", "498,470", "187,333", "468,965", "3,115", "207,971", "7,960", "112,319", "2,959,155", "math", "969,150", "391,390", "83,093", "275,034", "6,392", "114,672", "10,547", "67,306", "1,850,278", "lang", "984,373", "464,883", "73,260", "93,359", "1,318", "190,413", "15,680", "77,790", "1,823,286", "text", "246,909", "86,419", "8,648", "34,378", "0", "48,976", "3,462", "11,943", "428,792", "compress", "178,754", "89,706", "9,296", "17,012", "2,668", "25,710", "3,325", "10,163", "326,471", "zxing", "93,637", "74,610", "10,368", "23,204", "1,282", "17,740", "3,364", "6,937", "224,205", "codec", "35,414", "36,528", "5,420", "8,103", "1,597", "3,831", "373", "1,335", "91,266", "statistics", "31,753", "7,271", "141", "7,825", "0", "5,110", "507", "235", "52,607", "jfreechart", "6,253", "2,920", "287", "1,190", "12", "539", "78", "182", "11,279", "numbers", "6,441", "2,082", "22", "891", "140", "1,065", "154", "123", "10,795", "∑", "PrimitiveId", "PrimitiveVal", "Array", "Arithmetic", "Shift", "Relation", "Logic", "#", "Loops", "∑", "Project", "#", "Holes"],
+  "name": "1",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 427.2,
+    "y1": 120.96,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table1-1.png"
+}, {
+  "caption": "Table 5. Number of templates and programs with di erent language features. Cond. is Conditional Statements. R.A. is Reference Arguments.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.5487365722656,
+    "y1": 88.07703399658203,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["143,195", "22,133", "59,215", "33,228", "116,871", "886,178", "181,584", "505,182", "265,884", "730,823", "codec", "11,098", "2,476", "2,719", "4,102", "10,414", "43,147", "19,760", "23,244", "23,474", "39,529", "compress", "8,269", "1,036", "4,133", "1,818", "7,794", "62,431", "7,585", "35,774", "15,713", "58,578", "jfreechart", "11,041", "215", "2,073", "554", "10,656", "61,883", "1,894", "13,294", "4,117", "59,587", "lang", "18,602", "3,491", "9,156", "6,050", "16,136", "117,061", "28,995", "78,002", "53,117", "100,349", "math", "20,692", "3,964", "10,116", "5,311", "18,097", "153,912", "33,044", "84,054", "43,810", "139,857", "numbers", "18,021", "826", "6,473", "2,449", "1,971", "98,218", "8,260", "63,496", "15,599", "9,322", "statistics", "10,010", "11", "4,396", "159", "9,188", "44,181", "37", "34,634", "810", "38,622", "text", "11,532", "2,423", "5,105", "3,506", "10,752", "66,395", "18,975", "46,965", "31,068", "61,473", "vectorz", "23,005", "6,031", "11,277", "6,904", "21,718", "175,814", "49,594", "94,726", "58,759", "165,803", "zxing", "10,925", "1,660", "3,767", "2,375", "10,145", "63,136", "13,440", "30,993", "19,417", "57,703", "∑", "Total", "Arrays", "Cond.", "Loops", "R.A.", "Total", "Arrays", "Cond.", "Loops", "R.A.", "Project", "#", "Template", "#", "Generated", "Programs"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 429.12,
+    "y1": 109.92,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table5-1.png"
+}, {
+  "caption": "Table 6. Impact of Java language features on bugs. Cond. is Conditional Statements. R.A. is Reference Arguments. *Bugs may repeat across projects, and we show the number of unique bugs across all projects.",
+  "captionBoundary": {
+    "x1": 45.54999923706055,
+    "x2": 440.16827392578125,
+    "y1": 271.73602294921875,
+    "y2": 286.97198486328125
+  },
+  "figType": "Table",
+  "imageText": ["174", "70", "144", "127", "142", "10*", "7*", "8*", "8*", "9*", "codec", "5", "1", "3", "1", "5", "3", "1", "2", "1", "3", "compress", "6", "1", "5", "1", "6", "2", "1", "1", "1", "2", "jfreechart", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "lang", "24", "6", "18", "14", "23", "2", "1", "2", "2", "2", "math", "21", "11", "19", "10", "13", "6", "4", "6", "4", "4", "numbers", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "statistics", "1", "0", "0", "0", "0", "1", "0", "0", "0", "0", "text", "2", "1", "2", "2", "2", "2", "1", "2", "2", "2", "vectorz", "107", "42", "95", "91", "93", "5", "3", "5", "5", "5", "zxing", "8", "8", "2", "8", "0", "1", "1", "1", "1", "0", "∑", "Total", "Arrays", "Cond.", "Loops", "R.A.", "Total", "Arrays", "Cond.", "Loops", "R.A.", "Project", "#", "Failures", "due", "to", "Bugs", "#", "Bugs", "(Unique)"],
+  "name": "6",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 412.32,
+    "y1": 293.76,
+    "y2": 445.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643777-Table6-1.png"
+}]

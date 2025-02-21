@@ -1,0 +1,141 @@
+[{
+  "caption": "TABLE II: Total number of unrealistic samples and their distance to real-world ones for the two tasks considered.",
+  "captionBoundary": {
+    "x1": 311.9779968261719,
+    "x2": 563.0354614257812,
+    "y1": 49.32150650024414,
+    "y2": 67.27899169921875
+  },
+  "figType": "Table",
+  "imageText": ["100%", "≤", "0.58", "154,150", "≤", "0.71", "306,729", "subset", "Distance", "Samples", "Distance", "Samples", "10%", "≤", "0.30", "15,528", "≤", "0.41", "30,515", "25%", "≤", "0.34", "38,676", "≤", "0.45", "76,363", "50%", "≤", "0.38", "78,186", "≤", "0.49", "153,622", "75%", "≤", "0.41", "115,985", "≤", "0.53", "230,105", "Vulnerability", "Bugs", "Tasks", "Prediction", "Prediction"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 536.16,
+    "y1": 75.84,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00063-TableII-1.png"
+}, {
+  "caption": "Fig. 1: Schematic depiction of the motivation for our work. Unrealistic datasets of bugs, Du, are often far larger than datasets of real-world bugs, Dr, and contain many programs that are not representative of such real-world bugs.",
+  "captionBoundary": {
+    "x1": 48.9639892578125,
+    "x2": 300.0247802734375,
+    "y1": 157.62551879882812,
+    "y2": 199.4940185546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 250.07999999999998,
+    "y1": 49.92,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00063-Figure1-1.png"
+}, {
+  "caption": "Fig. 4: Euclidean distance (x-axis) and total number (y-axis) of functions of each set of unrealistic data to their nearest real-world data counterparts. We highlight the 10th, 25th, 50th and 75th percentile, for each of which we train models in our evaluation. Note that the most distant samples are not visualized, as these are up to four times as distant as those shown here.",
+  "captionBoundary": {
+    "x1": 48.963993072509766,
+    "x2": 300.0215759277344,
+    "y1": 394.3725280761719,
+    "y2": 472.10693359375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Bug", "Prediction:", "Distance", "distribution", "from", "306K", "ETH", "Py150", "(unrealistic)", "to", "their", "nearest", "PyPIBugs", "(real-world)", "samples.", "%75", "%50", "%25", "%10", "257K", "208K", "147K", "108K", "48K", "74K", "13K", "29K", "ns", "ct", "io", "f", "F", "un", "be", "r", "o", "Nu", "m", "250000", "200000", "150000", "100000", "50000", "0.40", "0.45", "0.50", "0.55", "Distance", "(a)", "Vulnerability", "Prediction:", "Distance", "distribution", "from", "154K", "Draper", "(unrealistic)", "to", "their", "nearest", "Devign", "(real-world)", "samples.", "%75", "%50", "%25", "%10", "138K", "151K", "108K", "66K", "87K", "38K", "6K", "15K", "125000", "150000", "Nu", "m", "be", "r", "o", "f", "F", "un", "ct", "io", "ns", "100000", "75000", "50000", "25000", "0", "0.30", "0.35", "0.40", "0.45", "0.50", "Distance"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 289.44,
+    "y1": 48.0,
+    "y2": 384.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00063-Figure4-1.png"
+}, {
+  "caption": "TABLE I: Total number of samples of unrealistic data compared to the real-world ones for the two defect prediction tasks that we consider in this work: vulnerability and bug prediction.",
+  "captionBoundary": {
+    "x1": 48.9640007019043,
+    "x2": 300.0215759277344,
+    "y1": 49.32150650024414,
+    "y2": 79.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Bug", "ETH", "Py150", "No", "306K", "Synthetic", "prediction", "PyPIBugs", "Yes", "4.5K", "Human", "labeled", "prediction", "Devign", "Yes", "27K", "Human", "labeled", "Task", "Dataset", "Realistic?", "Samples", "Annotated", "Vulnerability", "Draper", "No", "154K", "Weakly", "labeled"],
+  "name": "I",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 304.32,
+    "y1": 87.84,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00063-TableI-1.png"
+}, {
+  "caption": "Fig. 2: Overview of our approach, which takes as input an unrealistic dataset, a real-world dataset, and a generically pretrained model, and produces as output a fine-tuned version of the pretrained model. To do so, it (1) converts the programs in the two datasets into a contextual embedding, (2) uses the distance between elements in the embedding to identify a subset of programs in the unrealistic dataset that are most similar to programs in the realistic one, and (3) uses the identified subset plus the realistic dataset to fine-tune the pretrained model.",
+  "captionBoundary": {
+    "x1": 48.9640007019043,
+    "x2": 563.0341186523438,
+    "y1": 258.1785583496094,
+    "y2": 312.00201416015625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 553.4399999999999,
+    "y1": 49.92,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00063-Figure2-1.png"
+}, {
+  "caption": "TABLE III: Results of our approach on training models on (various most-realistic subsets of) unrealistic data and then finetuning them on real-world data, contrasted with fine-tuning without using any unrealistic data and random subset selection.",
+  "captionBoundary": {
+    "x1": 48.9640007019043,
+    "x2": 563.0340576171875,
+    "y1": 49.32150650024414,
+    "y2": 67.27899169921875
+  },
+  "figType": "Table",
+  "imageText": ["*", "The", "0%", "ﬁne-tunes", "the", "model", "directly", "without", "employing", "any", "unrealistic", "data,", "while", "the", "100%", "ﬁne-tunes", "it", "using", "the", "entire", "of", "unrealistic", "data.", "The", "10%,", "25%,", "and", "75%", "subsets", "are", "chosen", "randomly.", "Our", "selections", "Accuracy", "-", "58.95", "60.48", "57.42", "56.55", "-", "F1", "-", "48.91", "59.68", "54.11", "52.95", "-", "CodeT5", "Baseline*", "Accuracy", "59.38", "57.42", "58.51", "57.64", "55.67", "50.0", "F1", "40.38", "51.37", "56.01", "53.80", "39.40", "49.67", "Our", "selections", "Accuracy", "-", "56.98", "60.69", "61.13", "58.51", "-", "F1", "-", "54.91", "55.22", "60.26", "56.01", "-", "CodeBERT", "Baseline*", "Accuracy", "58.51", "57.20", "58.51", "55.90", "57.42", "53.05", "F1", "51.53", "51.96", "53.65", "55.18", "52.78", "35.04", "Bug", "Prediction:", "unrealistic", "data", "=", "ETH", "Py150,", "real-world", "data", "=", "PyPIBugs", "Our", "selections", "Accuracy", "-", "64.27", "63.61", "63.57", "63.20", "-", "F1", "-", "60.13", "58.95", "59.92", "60.29", "-", "CodeT5", "Baseline*", "Accuracy", "61.53", "62.92", "62.81", "62.70", "63.39", "63.17", "F1", "52.93", "58.46", "56.24", "58.66", "58.47", "57.94", "Our", "selections", "Accuracy", "-", "63.54", "62.81", "64.23", "64.53", "-", "F1", "-", "54.27", "54.96", "62.29", "59.37", "-", "CodeBERT", "Baseline*", "Accuracy", "62.55", "62.00", "63.17", "62.81", "63.68", "63.65", "F1", "53.09", "54.71", "55.40", "55.12", "55.31", "54.42", "Vulnerability", "Prediction:", "unrealistic", "data", "=", "Draper,", "real-world", "data", "=", "Devign", "Models", "Approach", "Metric", "100%", "75%", "50%", "25%", "10%", "0%"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 51.36,
+    "x2": 560.64,
+    "y1": 76.32,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00063-TableIII-1.png"
+}, {
+  "caption": "Fig. 3: High-dimensional embeddings of both real-world and unrealistic programs using T-SNE.",
+  "captionBoundary": {
+    "x1": 108.85101318359375,
+    "x2": 503.15057373046875,
+    "y1": 297.2365417480469,
+    "y2": 303.239013671875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Vulnerabilities", "Prediction:", "Draper", "(weakly", "labeled)", "and", "Devign", "(Realis-", "tic)", "(b)", "Bugs", "Prediction:", "ETH", "Py150", "(Unrealistic)", "and", "PyPIBugs", "(Realistic)"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 57.599999999999994,
+    "y2": 287.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00063-Figure3-1.png"
+}]

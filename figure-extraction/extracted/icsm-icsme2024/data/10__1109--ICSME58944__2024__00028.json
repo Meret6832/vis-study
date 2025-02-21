@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 4. Correct fix Venn diagram on TypeBugs benchmark",
+  "captionBoundary": {
+    "x1": 340.9726867675781,
+    "x2": 521.42236328125,
+    "y1": 183.033447265625,
+    "y2": 186.52459716796875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "with", "LLM-based", "baselines", "(b)", "with", "rule-based", "and", "NMT-based", "baselines", "CoCoNuT", "RetypeR", "PyTER", "ChatGPT", "AlphaRepair", "TypeFix", "Codex", "RetypeR"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 549.12,
+    "y1": 48.0,
+    "y2": 168.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. A type error from scikit-learn-17233 in TypeBugs",
+  "captionBoundary": {
+    "x1": 345.3057861328125,
+    "x2": 522.8728637695312,
+    "y1": 270.01837158203125,
+    "y2": 273.509521484375
+  },
+  "figType": "Figure",
+  "imageText": ["def", "fit(self,", "X,", "y):", "-", "X,", "y", "=", "self._validate_data(X,", "y)", "+", "X,", "y", "=", "self._validate_data(X,", "y,", "accept_sparse=True)", "if", "self.code_size", "<=", "0:", "raise", "ValueError(\"code_size", "should", "be", "greater", "than", "0,", "got", "{0}\"", "\"\".format(self.code_size))"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 554.4,
+    "y1": 201.6,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. The overview of our RetypeR.",
+  "captionBoundary": {
+    "x1": 243.243896484375,
+    "x2": 361.254150390625,
+    "y1": 280.54144287109375,
+    "y2": 284.0325927734375
+  },
+  "figType": "Figure",
+  "imageText": ["Language", "Model", "1.", "Repair", "Process", "3.", "Internal", "Retrieval", "Stage", "2.", "External", "Retrieval", "Stage", "Context", "Buggy", "line", "Prompt", "Constructor", "1.", "is_index_slice", "2.", "is_positional", "3.", "is_integer", "4.", "is_categorical", "5.", "is_object", "Donor", "code", "<Error>", "Fix", "Ingredient", "Retriever", "Buggy", "line", "Buggy", "file", "Fix", "Pattern", "Retriever", "PatchesGitHub", "type", "error", "fixes", "Fix", "pattern", "database", "Selected", "templates", "Buggy", "project"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 117.6,
+    "x2": 486.24,
+    "y1": 48.96,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-Figure1-1.png"
+}, {
+  "caption": "TABLE III RESULTS OF DIFFERENT INTERNAL RETRIEVAL SETTINGS",
+  "captionBoundary": {
+    "x1": 88.54109191894531,
+    "x2": 271.4512634277344,
+    "y1": 421.8450622558594,
+    "y2": 433.6749267578125
+  },
+  "figType": "Table",
+  "imageText": ["Project", "24", "37", "Top", "20", "25", "40", "Top", "10", "25", "41", "Top", "1", "26", "39", "Default", "27", "42", "Method", "#Correct", "#Plausible"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 261.12,
+    "y1": 442.56,
+    "y2": 529.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-TableIII-1.png"
+}, {
+  "caption": "TABLE I EVALUATION RESULTS ON TYPEBUGS BENCHMARK, WITH RESULTS SHOWN IN THE CORRECT/PLAUSIBLE FORMAT.",
+  "captionBoundary": {
+    "x1": 121.32559204101562,
+    "x2": 483.2612609863281,
+    "y1": 49.504764556884766,
+    "y2": 61.335205078125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "62/93", "55/76", "41/59", "31/50", "39/46", "19/46", "5/21", "Zappa", "3/3", "3/3", "1/1", "0/0", "0/0", "1/3", "0/1", "tornado", "1/1", "0/0", "1/1", "0/0", "0/0", "0/0", "0/0", "scikit-learn", "3/3", "2/3", "2/3", "1/2", "1/2", "0/0", "0/0", "sanic", "1/2", "0/0", "2/2", "0/0", "0/0", "0/0", "0/0", "salt", "3/8", "5/8", "5/5", "2/5", "4/5", "1/5", "0/2", "rich", "2/3", "2/3", "0/1", "1/2", "1/1", "0/0", "0/0", "requests", "3/4", "4/4", "4/4", "1/2", "2/2", "0/1", "0/0", "rasa", "2/2", "2/2", "0/0", "2/2", "2/2", "0/0", "0/0", "pandas", "27/42", "21/32", "17/27", "16/21", "18/19", "11/22", "3/10", "numpy", "0/3", "0/3", "0/2", "0/2", "0/1", "0/2", "0/0", "luigi", "0/2", "0/2", "0/0", "0/2", "0/2", "1/2", "0/0", "kivy", "1/1", "0/0", "0/1", "0/0", "0/0", "0/1", "0/1", "core", "7/7", "7/7", "5/7", "4/5", "4/5", "4/4", "2/3", "beets", "0/1", "0/0", "0/1", "0/1", "0/0", "0/0", "0/0", "airﬂow", "9/11", "9/9", "4/4", "4/6", "7/7", "1/6", "0/4", "Project", "RetypeR", "TypeFix", "PyTER", "ChatGPT", "Codex", "AlphaRepair", "CoCoNuT"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 480.47999999999996,
+    "y1": 72.0,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-TableI-1.png"
+}, {
+  "caption": "TABLE II ABLATION RESULTS OF RETYPER",
+  "captionBoundary": {
+    "x1": 126.6212387084961,
+    "x2": 233.367431640625,
+    "y1": 302.36114501953125,
+    "y2": 314.1910095214844
+  },
+  "figType": "Table",
+  "imageText": ["Total", "62", "93", "Internal", "+11", "+20", "External", "+31", "+32", "No", "Retrieval", "20", "41", "Method", "#Correct", "#Plausible"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 268.32,
+    "y1": 323.52,
+    "y2": 398.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-TableII-1.png"
+}, {
+  "caption": "Fig. 2. A type error example (simplified from the fix commit pandas:96bb151)",
+  "captionBoundary": {
+    "x1": 60.849700927734375,
+    "x2": 294.3345947265625,
+    "y1": 171.27764892578125,
+    "y2": 174.768798828125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "def", "foo1(self,a,b,key):", "2", " ", " ", "is_slice", "=", "is_int(a)", "and", "is_int(b)", "3", "-", "is_pos", "=", "is_slice", "and", "not", "self.is_integer()", "4", "+ ", " ", "is_pos", "=", "is_slice", "and", "not", "(", "5", "+ ", " ", " ", "self.is_integer()", "or", "self.is_categorical()", "6", "+ ", " ", ")", "7", " ", " ", "if", "is_pos", ":", "8", " ", " ", " ", " ", "indexer", "=", "key", "9", " ", " ", "else:", "10 ", " ", " ", " ", "indexer", "=", "foo2(key)", "11", " ", " ", "return", "indexer"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 283.2,
+    "y1": 48.0,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-Figure2-1.png"
+}, {
+  "caption": "TABLE IV EVALUATION RESULTS ON BUGSINPY BENCHMARK, WITH RESULTS SHOWN IN THE CORRECT/PLAUSIBLE FORMAT.",
+  "captionBoundary": {
+    "x1": 73.26294708251953,
+    "x2": 285.322509765625,
+    "y1": 49.622440338134766,
+    "y2": 69.79132080078125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "29/43", "26/41", "15/22", "12/25", "17/28", "6/19", "youtube-dl", "3/3", "2/3", "1/1", "1/2", "0/2", "1/1", "tornado", "1/1", "1/1", "1/1", "0/1", "1/1", "0/1", "spacy", "0/1", "0/1", "0/1", "0/0", "0/0", "0/1", "scrapy", "10/12", "10/11", "5/7", "6/9", "10/12", "2/4", "pandas", "5/13", "4/13", "4/6", "3/7", "2/6", "3/8", "luigi", "5/6", "4/5", "3/5", "2/3", "3/3", "0/0", "keras", "4/6", "4/6", "1/1", "0/3", "0/3", "0/4", "fastapi", "1/1", "1/1", "0/0", "0/0", "1/1", "0/0", "ansible", "0/0", "0/0", "0/0", "0/0", "0/0", "0/0", "Project", "RetypeR", "TypeFix", "PyTER", "ChatGPT", "Codex", "CoCoNuT"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 296.15999999999997,
+    "y1": 78.72,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-TableIV-1.png"
+}, {
+  "caption": "Fig. 3. Repair prompt design using the code example in Fig. 2",
+  "captionBoundary": {
+    "x1": 337.2904968261719,
+    "x2": 531.5787353515625,
+    "y1": 162.296142578125,
+    "y2": 165.78729248046875
+  },
+  "figType": "Figure",
+  "imageText": ["Context", "before", "External", "info", "Internal", "info", "'''use", "[DONOR]", "in", "the", "next", "line:'''", "is_pos", "=", "is_slice", "and", "(not", "(self.is_integer()", "<INFILL>))", " ", " ", "if", "is_pos", ":", " ", " ", " ", " ", "indexer", "=", "key", " ", " ", "else:", " ", " ", " ", " ", "indexer", "=", "foo2(key)", " ", " ", "return", "indexer", "Context", "after", "def", "foo1(self,a,b,key):", " ", " ", "is_slice", "=", "is_int(a)", "and", "is_int(b)", "'''is_pos", "=", "is_slice", "and", "not", "self.is_integer()'''Buggy", "line"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 554.4,
+    "y1": 48.0,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00028-Figure3-1.png"
+}]

@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 2: Distribution of the CrystalBLEU score for each Java version and code completion scenario for the non pre-trained model.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1804809570312,
+    "y1": 441.25836181640625,
+    "y2": 457.8480224609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 136.79999999999998,
+    "x2": 475.2,
+    "y1": 82.56,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Percentage of Exact Match predictions with and without pre-training on different Java versions.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 294.0330505371094,
+    "y1": 659.0523071289062,
+    "y2": 675.6419677734375
+  },
+  "figType": "Figure",
+  "imageText": ["%", "correct", "predictions", "for", "block", "predictions", "%", "correct", "predictions", "for", "construct", "predictions", "%", "correct", "predictions", "for", "token", "predictions", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "5", "6", "7", "8", "11", "14", "1617", "Java", "version", "2", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 294.24,
+    "y1": 481.44,
+    "y2": 640.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Figure3-1.png"
+}, {
+  "caption": "Table 5: Comparing EM predictions on the Java 8 test set vs the test sets of the other versions: adjusted 𝑝-value and OR.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04461669921875,
+    "y1": 197.55734252929688,
+    "y2": 214.14697265625
+  },
+  "figType": "Table",
+  "imageText": ["token", "≪", "0.001", "1.78", "construct", "≪", "0.001", "3.05", "block", "≪", "0.001", "2.64", "17", "token", "≪", "0.001", "1.83", "construct", "≪", "0.001", "2.27", "block", "≪", "0.001", "3.66", "16", "token", "≪", "0.001", "2.06", "construct", "≪", "0.001", "2.51", "block", "≪", "0.001", "3.92", "14", "token", "≪", "0.001", "1.70", "construct", "≪", "0.001", "1.97", "block", "≪", "0.001", "2.65", "11", "token", "≪", "0.001", "1.59", "construct", "≪", "0.001", "1.63", "block", "≪", "0.001", "2.16", "7", "token", "≪", "0.001", "1.69", "construct", "≪", "0.001", "1.92", "block", "≪", "0.001", "2.28", "6", "token", "≪", "0.001", "1.73", "construct", "≪", "0.001", "1.84", "block", "≪", "0.001", "1.72", "5", "token", "≪", "0.001", "3.74", "construct", "≪", "0.001", "4.73", "block", "≪", "0.001", "13.73", "2", "Java", "Masking", "Fisher", "Fisher", "version", "scenario", "p-value", "OR"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 248.16,
+    "y1": 228.95999999999998,
+    "y2": 533.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Table5-1.png"
+}, {
+  "caption": "Table 6: New APIs introduced in specific Java version.",
+  "captionBoundary": {
+    "x1": 329.5989990234375,
+    "x2": 546.2533569335938,
+    "y1": 294.683349609375,
+    "y2": 300.3139953613281
+  },
+  "figType": "Table",
+  "imageText": ["newFileSystem,", "stripIndent,", "translateEscapes,", "formatted", "13", "indent,", "transform,", "Files.mismatch,", "Collector.teeing,", "NumberFormat.getCompactNumberInstance", "12", "isBlank,", "lines,", "strip,", "stripLeading,", "stripTailing,", "repeat,", "Files.writeString,", "Files.readString,", "HttpClient,", "HttpRequest,", "HttpResponse", "11", "10", "List.copyOf,", "orElseThrow", "List.of,", "Set.of,", "Map.of,", "takeWhile,", "iterate,", "dropWhile,", "ifPresentOrElse", "9", "Java", "Featuresversion"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 542.4,
+    "y1": 314.88,
+    "y2": 465.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Table6-1.png"
+}, {
+  "caption": "Figure 5: Difference in the percentage of EM predictions with and without the version-specific fine-tuning, evaluated on the same Java version test set and on the Java 8 test set.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1803588867188,
+    "y1": 401.81036376953125,
+    "y2": 418.4000244140625
+  },
+  "figType": "Figure",
+  "imageText": [")", "M", "(%", "in", "E", "ng", "e", "c", "ha", "lu", "te", "Ab", "so", "M", "(%", ")", "Ab", "so", "lu", "te", "c", "ha", "ng", "e", "in", "E", "M", "(%", ")", "in", "E", "ng", "e", "c", "ha", "lu", "te", "Ab", "so", ")", "M", "(%", "in", "E", "ng", "e", "c", "ha", "lu", "te", "Ab", "so", "1.1", "Block", "Masking", "1.3", "1.1", "1.4", "1.2", "1.2", "1.4", "1.9", "1.6", "2.6", "1.4", "1.4", "1.9", "1.1", "9", "5", "6", "7", "11", "14", "16", "172", "%", "of", "improvement", "when", "tested", "on", "Java", "X", "version", "%", "of", "improvement", "when", "tested", "on", "Java", "8", "version", "Java", "version", "40%", "30%", "20%", "10%", "0%", "10%", "20%", "30%", "40%", "Construct", "Masking", "1.2", "1.1", "1.4", "1.1", "1.4", "1.3", "1.8", "1.4", "2", "1.3", "1.4", "1.8", "4.5", "5", "6", "7", "11", "14", "16", "172", "%", "of", "improvement", "when", "tested", "on", "Java", "X", "version", "%", "of", "improvement", "when", "tested", "on", "Java", "8", "version", "Java", "version", "40%", "30%", "20%", "10%", "0%", "10%", "20%", "30%", "40%", "Token", "Masking", "1.1", "1.1", "1.5", "1.1", "1.2", "1.3", "1.5", "1.4", "1.9", "1.3", "1.6", "1.1", "1.5", "2.6", "5", "6", "7", "11", "14", "16", "172", "%", "of", "improvement", "when", "tested", "on", "Java", "X", "version", "%", "of", "improvement", "when", "tested", "on", "Java", "8", "version", "Java", "version", "40%", "30%", "20%", "10%", "0%", "10%", "20%", "30%", "40%", "Block", "Masking", "1.7", "1.1", "1.3", "1.2", "1.5", "1.3", "2", "1.5", "3", "1.4", "1.5", "2", "1.1", "11.1", "5", "6", "7", "11", "14", "16", "172", "%", "of", "improvement", "when", "tested", "on", "Java", "X", "version", "%", "of", "improvement", "when", "tested", "on", "Java", "8", "version", "Java", "version", "40%", "30%", "20%", "10%", "0%", "10%", "20%", "30%", "40%", "Construct", "Masking", "1.7", "1.6", "1.7", "1.3", "1.9", "1.4", "2.2", "1.2", "1.6", "2", "5.9", "5", "6", "7", "11", "14", "16", "172", "%", "of", "improvement", "when", "tested", "on", "Java", "X", "version", "%", "of", "improvement", "when", "tested", "on", "Java", "8", "version", ")", "M", "(%", "in", "E", "ng", "e", "c", "ha", "lu", "te", "Ab", "so", "Java", "version", "40%", "30%", "20%", "10%", "0%", "10%", "20%", "30%", "40%", "Token", "Masking", "1.1", "1.1", "1.4", "1.1", "1.3", "1.2", "1.5", "1.3", "1.9", "1.3", "1.5", "1.1", "1.4", "1.1", "2.5", "5", "6", "7", "11", "14", "16", "172", "a)", "non-pretrained", "model", "b)", "pretrained", "model", "%", "of", "improvement", "when", "tested", "on", "Java", "X", "version", "%", "of", "improvement", "when", "tested", "on", "Java", "8", "version", ")", "M", "(%", "in", "E", "ng", "e", "c", "ha", "lu", "te", "Ab", "so", "Java", "version", "40%", "30%", "20%", "10%", "0%", "10%", "20%", "30%", "40%"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 523.1999999999999,
+    "y1": 84.0,
+    "y2": 388.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Figure5-1.png"
+}, {
+  "caption": "Table 1: Number of methods and instances for each Java version.",
+  "captionBoundary": {
+    "x1": 317.658935546875,
+    "x2": 559.7947387695312,
+    "y1": 174.07534790039062,
+    "y2": 190.66497802734375
+  },
+  "figType": "Table",
+  "imageText": ["ALL", "1,052,141", "2,846,746", "783,546", "1,303,444", "2", "4,530", "12,167", "1,389", "2,802", "5", "8,549", "21,178", "6,510", "11,103", "6", "68,379", "181,877", "53,991", "85,517", "7", "99,405", "266,162", "72,108", "122,593", "8", "809,704", "2,194,600", "601,891", "1,007,040", "9", "4,809", "13,879", "3,393", "5,401", "11", "38,521", "105,700", "29,975", "44,632", "14", "6,160", "17,203", "5,842", "8,644", "16", "7,169", "20,593", "4,946", "9,805", "17", "4,915", "13,387", "3,501", "5,907", "Java", "#", "Methods", "#", "Token", "#", "Construct", "#", "Block", "Version", "Instances", "Instances", "Instances"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 205.44,
+    "y2": 350.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Table1-1.png"
+}, {
+  "caption": "Figure 4: Distribution of the percentage of EM predictions for 100 subsets of instances not featuring new APIs (box plots) vs the percentage of EM predictions in the set featuring new APIs (red dots). On average, each set features 43 instances.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2015991210938,
+    "y1": 335.4523620605469,
+    "y2": 352.0419921875
+  },
+  "figType": "Figure",
+  "imageText": ["Masking", "scenario", "io", "ns", "di", "ct", "p", "re", "f", "E", "M", "%", "o", "Java", "17", "Masking", "scenario", "io", "ns", "di", "ct", "p", "re", "f", "E", "M", "%", "o", "Java", "16", "Masking", "scenario", "io", "ns", "di", "ct", "p", "re", "f", "E", "M", "%", "o", "Java", "14", "io", "ns", "di", "ct", "p", "re", "f", "E", "M", "%", "o", "Masking", "scenario", "Java", "11"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 148.79999999999998,
+    "x2": 463.2,
+    "y1": 82.56,
+    "y2": 319.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Figure4-1.png"
+}, {
+  "caption": "Table 3: Number of methods and instances for each set for each Java version.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3782348632812,
+    "y1": 117.97030639648438,
+    "y2": 134.5599365234375
+  },
+  "figType": "Table",
+  "imageText": ["2", "3,000", "7,692", "879", "2,052", "5", "5,000", "12,626", "4,670", "6,866", "6", "5,000", "13,272", "4,032", "6,394", "7", "5,000", "13,440", "3,547", "6,069", "8", "5,000", "13,550", "3,735", "6,227", "11", "5,000", "13,547", "3,494", "5,650", "14", "5,000", "13,855", "4,178", "6,750", "16", "5,000", "14,356", "3,568", "6,849", "17", "4,000", "10,894", "2,925", "4,834", "test", "eval", "8", "80,574", "218,377", "59,729", "99,886", "train", "8", "724,130", "1,962,673", "538,427", "900,927", "Dataset", "Java", "#", "Methods", "#", "Token", "#", "Construct", "#", "Block", "Version", "Instances", "Instances", "Instances"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 543.36,
+    "y1": 149.28,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Table3-1.png"
+}, {
+  "caption": "Table 2: Complexity metrics computed on the dataset.",
+  "captionBoundary": {
+    "x1": 64.80099487304688,
+    "x2": 282.73760986328125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Mean", "#", "of", "lines", "in", "method", "7.7", "Mean", "#", "of", "characters", "per", "line", "28.1", "Mean", "#", "of", "masked", "characters", "(token", "masking)", "18.2", "Mean", "#", "of", "masked", "characters", "(construct", "masking)", "27.9", "Mean", "#", "of", "masked", "characters", "(block", "masking)", "37.5", "Mean", "#", "of", "masked", "lines", "(block", "masking)", "1.3", "Metric", "Value"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 97.92,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Table2-1.png"
+}, {
+  "caption": "Table 7: Number of methods and instances of the versionspecific fine-tuning datasets for each Java version.",
+  "captionBoundary": {
+    "x1": 53.50201416015625,
+    "x2": 295.6377258300781,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["ALL", "259,260", "552,132", "157,599", "151,139", "2", "1,530", "4,475", "510", "750", "5", "3,549", "8,552", "1,840", "4,237", "6", "63,379", "168,605", "49,959", "79,123", "7", "94,405", "252,722", "68,561", "22,124", "11", "92,153", "105,700", "33,111", "38,982", "14", "1,160", "3,348", "1,664", "1,894", "16", "2,169", "6,237", "1,378", "2,956", "17", "915", "2,493", "576", "1,073", "Java", "#", "Methods", "#", "Token", "#", "Construct", "#", "Block", "Version", "Instances", "Instances", "Instances"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 116.64,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Table7-1.png"
+}, {
+  "caption": "Figure 1: Percentage of Exact Match predictions for both models at different training epochs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0329895019531,
+    "y1": 214.11636352539062,
+    "y2": 230.70599365234375
+  },
+  "figType": "Figure",
+  "imageText": ["12", "13", "14", "150", "%", "correct", "predictions", "with", "the", "pretraining", "%", "correct", "predictions", "without", "the", "pretraining", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "2", "3", "4", "5", "6", "7", "8", "9", "Epochs", "101", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%", "11"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 59.04,
+    "x2": 291.84,
+    "y1": 87.36,
+    "y2": 196.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Figure1-1.png"
+}, {
+  "caption": "Table 4: Configuration used for the CodeT5 training.",
+  "captionBoundary": {
+    "x1": 67.60700225830078,
+    "x2": 279.9308166503906,
+    "y1": 396.859375,
+    "y2": 402.4900207519531
+  },
+  "figType": "Table",
+  "imageText": ["Hyperparameter", "Value", "Learning", "rate", "5𝑒−5", "Batch", "size", "12", "#", "Encoder", "block", "12", "#", "Decider", "block", "12", "#", "Attention", "Heads", "12", "Hidden", "Layer", "Size", "768"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 122.88,
+    "x2": 225.12,
+    "y1": 417.59999999999997,
+    "y2": 498.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644411-Table4-1.png"
+}]

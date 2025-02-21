@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 5: Formalizing requirements with partial models",
+  "captionBoundary": {
+    "x1": 61.22296142578125,
+    "x2": 286.62030029296875,
+    "y1": 298.9350891113281,
+    "y2": 304.56597900390625
+  },
+  "figType": "Figure",
+  "imageText": ["0", "(b)", "Initial", "partial", "model", "with", "platform-", "specific", "architecture", "fragment", "𝑷", "′", "hosts", "collaboratesWith", "collaboratesWith", "Organization", "hosts", "OrgC", "Organization", "OrgB", "hosts", "endorses", "Organization", "OrgA", "nodes", "Host", "HostA", "chaincodes", "nodes", "ChaincodeInstance", "ChaincodeInstance::new", "Channel", "Channel::new", "Node", "EndorsingNode", "EndorsingNode::new", "Host", "Host::new", "(a)", "Initial", "partial", "model", "𝑷0", "hosts", "collaboratesWith", "collaboratesWith", "Organization", "hosts", "hosts", "OrgC", "Organization", "OrgB", "Organization", "OrgA", "orders", "chaincodes", "endorses", "ChaincodeInstance", "ChaincodeInstance::new", "Channel", "Channel::new", "nodesnodes", "Node", "OrderingNode", "OrderingNode::new", "Node", "EndorsingNode", "EndorsingNode::new", "Host", "Host::new"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 295.68,
+    "y1": 88.8,
+    "y2": 284.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Generated architecture model 𝑴",
+  "captionBoundary": {
+    "x1": 353.5299987792969,
+    "x2": 521.9006958007812,
+    "y1": 279.42010498046875,
+    "y2": 285.0509948730469
+  },
+  "figType": "Figure",
+  "imageText": ["endorses", "nodes", "chaincodes", "Channel", "endorseschannel2", "endorses", "endorses", "nodes", "Node", "EndorsingNode", "endorsingNode2", "hosts", "Host", "host1", "hosts", "Host", "host2", "collaboratesWith", "Organization", "OrgB", "collaboratesWith", "Organization", "OrgC", "hosts", "Organization", "OrgA", "nodes", "Node", "EndorsingNode", "endorsingNode4", "nodes", "Node", "EndorsingNode", "endorsingNode3", "Host", "HostA", "endorses", "ChaincodeInstance", "chaincodeInstance1", "Node", "EndorsingNode", "endorsingNode1", "chaincodes", "ChaincodeInstance", "chaincodeInstance2", "Channel", "channel1"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 542.4,
+    "y1": 86.88,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure6-1.png"
+}, {
+  "caption": "Figure 1: Hyperledger Fabric metamodel",
+  "captionBoundary": {
+    "x1": 92.05899810791016,
+    "x2": 255.78543090820312,
+    "y1": 259.4790954589844,
+    "y2": 265.1099853515625
+  },
+  "figType": "Figure",
+  "imageText": ["[1..*]", "endorses", "[2..*]", "endorsedBy", "[0..*]", "orderedBy", "[1..*]", "orders", "[0..*]", "/collaboratesWith", "[1..*]", "/participatesIn", "[2..*]", "/peers", "[1..*]", "channels", "[1..*]", "organizations", "[1..4]", "nodes", "[1..*]", "hosts", "[1..*]", "chaincodes", "ChaincodeInstance", "EndorsingNodeOrderingNode", "Host", "Node", "Channel", "RaftFabricNetwork", "KafkaFabricNetworkOrganization", "FabricNetwork"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 84.96,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure1-1.png"
+}, {
+  "caption": "Figure 14: Resilience Score over Cost",
+  "captionBoundary": {
+    "x1": 363.99798583984375,
+    "x2": 512.1589965820312,
+    "y1": 247.54005432128906,
+    "y2": 253.17095947265625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "14",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 82.56,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure14-1.png"
+}, {
+  "caption": "Figure 13: Median of ASP solving times",
+  "captionBoundary": {
+    "x1": 94.6989974975586,
+    "x2": 253.14427185058594,
+    "y1": 227.6360626220703,
+    "y2": 233.2669677734375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Raft", "configurations", "(b)", "Kafka", "configurations"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 82.56,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure13-1.png"
+}, {
+  "caption": "Figure 2: Secure data sharing running example",
+  "captionBoundary": {
+    "x1": 79.48800659179688,
+    "x2": 268.3562927246094,
+    "y1": 279.3841247558594,
+    "y2": 285.0150146484375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Corresponding", "partial", "model", "participatesIn", "collaboratesWith", "Organization", "OrgB", "collaboratesWith", "Organization", "OrgC", "participatesIn", "Organization", "OrgA", "participatesIn", "Channel", "Channel::new", "(b)", "Fragment", "of", "the", "metamodel", "[0..*]", "/collaboratesWith", "[1..*]", "participatesIn", "Channel", "Organization", "(a)", "Example", "collaboration", "OrgC", "OrgA", "OrgB"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 291.84,
+    "y1": 87.84,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Partial model semantics and refinement",
+  "captionBoundary": {
+    "x1": 338.2200012207031,
+    "x2": 537.937744140625,
+    "y1": 241.9480743408203,
+    "y2": 247.5789794921875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Example", "concrete", "model", "participatesIn", "participatesIn", "participatesIn", "Ch2", "Channel", "collaboratesWith", "participatesIn", "Organization", "OrgB", "Organization", "OrgC", "Ch1", "Channel", "Organization", "OrgA", "collaboratesWith", "(a)", "3-valued", "semantics", "max𝑜∈O𝑃", "min{I𝑃", "(ε)", "(𝑜", "),", "J𝜑K𝑃", "𝑍,𝑣", "↦→𝑜", "},", "J∀𝑣", ":", "𝜑K𝑃𝑍", "=", "J¬∃𝑣", ":", "¬𝜑K𝑃𝑍", "J∃𝑣", ":", "𝜑K𝑃𝑍", "=", "J𝑣1", "=", "𝑣2K𝑃𝑍", "=", "I𝑃", "(∼)", "(𝑣1,", "𝑣2", ")", ",", "J¬𝜑K𝑃𝑍", "=", "1", "−", "J𝜑K𝑃𝑍", ",", "J𝜑1", "∨", "𝜑2K𝑃𝑍", "=", "max{J𝜑1K𝑃𝑍", ",", "J𝜑2K𝑃𝑍", "},", "J𝜑1", "∧", "𝜑2K𝑃𝑍", "=", "min{J𝜑1K𝑃𝑍", ",", "J𝜑2K𝑃𝑍", "},", "JC𝑖", "(𝑣)K𝑃𝑍", "=", "I𝑃", "(C𝑖", ")", "(𝑣)", ",", "JR𝑗", "(𝑣1,", "𝑣2", ")K𝑃𝑍", "=", "I𝑃", "(R𝑗", ")", "(𝑣1,", "𝑣2", ")", ",", "JD𝑘", "(𝑣1,", "𝑣2", ")K𝑃𝑍", "=", "I𝑃", "(D𝑘", ")", "(𝑣1,", "𝑣2", ")", ","],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 554.4,
+    "y1": 87.84,
+    "y2": 226.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure3-1.png"
+}, {
+  "caption": "Figure 12: Median generation runtime and success rates",
+  "captionBoundary": {
+    "x1": 325.49700927734375,
+    "x2": 550.6614990234375,
+    "y1": 282.6690368652344,
+    "y2": 288.2999267578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 82.56,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure12-1.png"
+}, {
+  "caption": "Table 1: Raft and Kafka generation configurations",
+  "captionBoundary": {
+    "x1": 72.21600341796875,
+    "x2": 275.33184814453125,
+    "y1": 233.90211486816406,
+    "y2": 239.53302001953125
+  },
+  "figType": "Table",
+  "imageText": ["kafka-size6", "20..140", "15", "10..80", "5..40", "26", "5..*", "kafka-size5", "20..120", "12", "10..60", "5..30", "20", "5..*", "kafka-size4", "20..90", "9", "8..50", "4..25", "14", "4..*", "kafka-size3", "20..70", "6", "8..50", "4..25", "9", "4..*", "kafka-size2", "15..60", "4", "8..30", "4..15", "6", "4..*", "kafka-size1", "15..60", "3", "8..30", "4..15", "3", "3..*", "Problem", "ID", "size", "Orgs", "Nodes", "Ordering", "and", "Endorsing", "Constraints", "Channels", "raft-size6", "15..70", "15", "4..60", "26", "5..*", "raft-size5", "15..50", "12", "4..20", "20", "5..*", "raft-size4", "15..40", "9", "4..20", "14", "4..*", "raft-size3", "15..35", "6", "4..20", "9", "4..*", "raft-size2", "15..25", "4", "3..15", "6", "4..*", "Problem", "ID", "size", "Orgs", "Nodes", "Constraints", "Channels", "raft-size1", "15..25", "3", "3..15", "3", "3..*"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Table1-1.png"
+}, {
+  "caption": "Figure 4: Proposed workflow for requirement-based distributed ledger architecture generation",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8047485351562,
+    "y1": 232.14710998535156,
+    "y2": 248.73699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Revise", "based", "on", "extra-functional", "analysis", "results", "(b)", "Revise", "based", "on", "proposed", "candidates", "(a)", "Revise", "if", "requirements", "are", "unsatifsﬁable", "II.", "III.", "I.", "Analysis", "library", "decision-making", "Candidates", "scored", "for", "Candidate", "architecturesASP", "solving", "Model", "generation", "Domain", "speciﬁcation", "ASP", "invocation", "statements", "Partial", "model", "Extra-functional", "(e.g.,", "reliability)", "requirements", "Formalization", "(optional)", "Platform-speciﬁc", "architecture", "fragment", "desired", "collaboration)", "Functional", "requirements", "(e.g.,", "participants,", "Inputs"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 216.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674097-Figure4-1.png"
+}]

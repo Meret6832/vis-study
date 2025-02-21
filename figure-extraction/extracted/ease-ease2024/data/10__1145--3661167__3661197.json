@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Derivability rates of chunks by tentative merge size. Bubbles represent instances of our sample; red crosses represent the mean chunk derivability rates.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04718017578125,
+    "y1": 416.5050964355469,
+    "y2": 444.0539855957031
+  },
+  "figType": "Figure",
+  "imageText": ["1,000", "10,000", "Instances", "100", "te", "ty", "ra", "ab", "ili", "de", "riv", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0", "10", "20", "30", "40", "50", "#chunks", "in", "tentative", "merge"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 264.0,
+    "y2": 401.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Chunk resolution patterns for different languages.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04364013671875,
+    "y1": 239.89808654785156,
+    "y2": 245.52899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["non-derivable", "other", "theirs", "ours", "te", "ty", "ra", "ab", "ili", "de", "riv", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "c", "cpp", "cs", "go", "java", "js", "php", "py", "rs", "ts", "mean", "GitHub", "project", "type"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 294.24,
+    "y1": 83.03999999999999,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Figure3-1.png"
+}, {
+  "caption": "Figure 1: An example of collaborative development on two branches:main and dev. A Python file is edited in both branches, leading to a merge conflict. Non-conflicting code is shown in green, conflicting code in red, Git’s merge markers in gray.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.2972412109375,
+    "y1": 190.6300811767578,
+    "y2": 207.219970703125
+  },
+  "figType": "Figure",
+  "imageText": ["theirs", "theirs", "ours", "merge", "flow", "version", "graph", "edge", "baseLegend", "main.py", "(merged)", "1", "def", "main():", "2", "print(‘Hey!’)", "3", "4", "main()", "main.py", "(theirs)", "(Bob)", "1", "def", "main():", "2", "print(‘Hey!’)", "3", "4", "main()", "main.py", "(ours)", "(Alice)", "1", "def", "main():", "2", "print(‘Hi!’)", "3", "4", "main()", "main.py", "(base)", "1", "def", "main():", "2", "print(‘Hello!’)", "3", "4", "main()", "10", "main()", "main.py", "(tentative)", "1", "def", "main():", "2", "<<<<<<<", "main", "(HEAD)", "3", "print(‘Hi!’)", "4", "|||||||", "5", "print(‘Hello!’)", "6", "=======", "7", "print(‘Hey!’)", "8", ">>>>>>>", "dev", "9", "dev", "main"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 543.36,
+    "y1": 84.96,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Distribution of derivability of merge commits (Fig. 5a), broken down by the number of chunks (Fig. 5b).",
+  "captionBoundary": {
+    "x1": 77.864013671875,
+    "x2": 534.1373291015625,
+    "y1": 236.81507873535156,
+    "y2": 242.44598388671875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "#chunks", "in", "tentative", "merge", "non-derivable,", "unstable", "only", "stable", "only", "derivable", "derivable", "chunks,", "stable", "context", "te", "ty", "ra", "ab", "ili", "de", "riv", "1.0", "0.8", "0.6", "0.4", "0.2", "1", "10", "20", "30", "40", "50", "0.0", "(a)", "GitHub", "project", "type", "non-derivable,", "unstable", "only", "stable", "only", "derivable", "derivable", "chunks,", "stable", "context", "te", "ty", "ra", "ab", "ili", "de", "riv", "1.0", "0.8", "0.6", "0.4", "0.2", "cs", "c", "cpp", "go", "js", "java", "php", "py", "rs", "ts", "mean", "0.0"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 552.48,
+    "y1": 83.03999999999999,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Homogeneity of resolutions in merges (Fig. 6a) and files (Fig. 6b) of different chunk counts.",
+  "captionBoundary": {
+    "x1": 102.93399047851562,
+    "x2": 509.0672912597656,
+    "y1": 410.0851135253906,
+    "y2": 415.71600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "#chunks", "in", "tentative", "file", "5+", "4", "3", "2", "1", "#resolution", "types", "ht", "we", "ig", "tiv", "e", "re", "la", "1.0", "0.8", "0.6", "0.4", "0.2", "1", "10", "20", "30", "40", "50", "0.0", "(a)", "#chunks", "in", "tentative", "merge", "5+", "4", "3", "2", "1", "#resolution", "types", "ht", "we", "ig", "tiv", "e", "re", "la", "1.0", "0.8", "0.6", "0.4", "0.2", "1", "10", "20", "30", "40", "50", "0.0"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 552.48,
+    "y1": 257.28,
+    "y2": 394.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Derivable resolution patterns and non-derivable custom resolutions of main.py of Fig. 1.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2041015625,
+    "y1": 226.9411163330078,
+    "y2": 243.531005859375
+  },
+  "figType": "Figure",
+  "imageText": ["𝒙,", "𝒚,", "𝒛", "|𝒙,", "𝒚,", "𝒛", "∈", "𝑪,", "𝒙", "≠", "𝒚,", "𝒚", "≠", "𝒛,", "𝒛", "≠", "𝒙", ".", "𝐼𝑡", "ℎ𝑜𝑙𝑑𝑠", "𝑡ℎ𝑎𝑡", "𝑪𝒐𝒎𝒑𝒐𝒖𝒏𝒅𝑷𝒂𝒕𝒕𝒆𝒓𝒏𝒔", "=", "𝟏𝟐.", "base+ours+theirs", "1", "def", "main():", "2", "print(‘Hello!’)", "3", "print(‘Hi!’)", "4", "print(‘Hey!’)", "5", "6", "main()Formally:", "𝐿𝑒𝑡", "𝑪", "=", "𝒐𝒖𝒓𝒔,", "𝒕𝒉𝒆𝒊𝒓𝒔,", "𝒃𝒂𝒔𝒆", ".", "𝑇ℎ𝑒𝑛", "𝑪𝒐𝒎𝒑𝒐𝒖𝒏𝒅𝑷𝒂𝒕𝒕𝒆𝒓𝒏𝒔", "=", "𝒙,", "𝒚", "|𝒙,", "𝒚", "∈", "𝑪,", "𝒙", "≠", "𝒚", "∪", "Custom", "resolutions", "either", "do", "not", "use", "elementary", "or", "compound", "patterns", "(i.e.,", "they", "use", "custom", "chunks),", "and/or", "their", "non-conflicting", "lines", "were", "changed", "(i.e.,", "they", "have", "unstable", "context).", "Compound", "Patterns", "(derivable)", "Custom", "Resolutions", "(non-derivable)", "Elementary", "Patterns", "(derivable)", "ours", "1", "def", "main():", "2", "print(‘Hi!’)", "3", "4", "main()", "custom", "chunk", "1", "def", "main():", "2", "print(‘Ciao!’)", "3", "4", "main()", "base", "1", "def", "main():", "2", "print(‘Hello!’)", "3", "4", "main()", "unstable", "context", "1", "def", "main():", "2", "print(‘Hey!’)", "3", "4", "main()", "5", "print(‘Bye!’)", "ours+theirs", "1", "def", "main():", "2", "print(‘Hi!’)", "3", "print(‘Hey!’)", "4", "5", "main()", "empty", "1", "def", "main():", "2", "3", "main()", "theirs", "1", "def", "main():", "2", "print(‘Hey!’)", "3", "4", "main()"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 556.3199999999999,
+    "y1": 84.96,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Figure2-1.png"
+}, {
+  "caption": "Figure 7: Correlation matrices of factors that potentially influence the derivability of merges and files.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.29400634765625,
+    "y1": 478.110107421875,
+    "y2": 494.70001220703125
+  },
+  "figType": "Figure",
+  "imageText": ["1.0", "0.5", "0.0", "0.5", "1.0"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 126.72,
+    "x2": 270.24,
+    "y1": 439.68,
+    "y2": 462.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Figure7-1.png"
+}, {
+  "caption": "Table 1: Overview of our collection of GitHub projects.",
+  "captionBoundary": {
+    "x1": 327.3349914550781,
+    "x2": 548.5274047851562,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["total", "10,000", "32,785,795", "4,642,216", "64.2", "131,154", "C#", "1,000", "2,690,761", "406,269", "54.6", "16,611", "C", "1,000", "8,884,850", "714,432", "43.6", "15,015", "C++", "1,000", "7,308,952", "1,126,367", "45.6", "22,011", "Go", "1,000", "3,211,249", "627,271", "88.2", "13,204", "JavaScript", "1,000", "291,441", "35,586", "99.3", "2,685", "Java", "1,000", "992,236", "126,451", "65.0", "6,023", "PHP", "1,000", "3,044,459", "656,015", "46.4", "20,163", "Python", "1,000", "471,755", "66,488", "81.5", "3,481", "Rust", "1,000", "2,633,980", "442,468", "60.0", "10,609", "TypeScript", "1,000", "3,256,112", "440,869", "58.1", "21,352", "projects", "commits", "merges", "conflicted", "merge", "%", "sampled", "merges"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 562.0799999999999,
+    "y1": 105.6,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661197-Table1-1.png"
+}]

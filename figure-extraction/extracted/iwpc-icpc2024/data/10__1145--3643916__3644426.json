@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 3: Description of opcodes",
+  "captionBoundary": {
+    "x1": 110.60100555419922,
+    "x2": 236.9408721923828,
+    "y1": 262.0763244628906,
+    "y2": 267.70697021484375
+  },
+  "figType": "Table",
+  "imageText": ["Listing", "2:", "Fallback", "function", "10", "switch", "result", "11", "case", "0", "{", "revert(ptr", ",", "size)", "}", "12", "default", "{", "return(ptr", ",", "size)", "}", "13", "}", "14}", "8", "let", "size", ":=", "returndatasize", "9", "returndatacopy(ptr", ",", "0,", "size)", "calldatasize", ",", "0,", "0)", "4", "assembly", "{", "5", "let", "ptr", ":=", "mload", "(0x40)", "6", "calldatacopy(ptr", ",", "0,", "calldatasize)", "7", "let", "result", ":=", "delegatecall(gas", ",", "_impl", ",", "ptr", ",", "not", "set\");", "1function", "()", "external", "payable", "{", "2", "address", "_impl", "=", "implementation", "();", "3", "require(_impl", "!=", "address", "(0),", "\"implementation", "contract", "JUMPDEST", "Mark", "a", "valid", "destination", "for", "jumps", "MLOAD", "Load", "word", "from", "memory", "DUP1", "Duplicate", "1st", "stack", "item", "DUP2", "Duplicate", "2nd", "stack", "item", "EQ", "Equality", "comparison", "JUMP", "Alter", "the", "program", "counter", "POP", "Remove", "item", "from", "stack", "AND", "Bitwise", "AND", "operation", "Opcode", "Description", "SSTORE", "Save", "word", "to", "storage", "CALLER", "Get", "caller", "address"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 295.2,
+    "y1": 284.64,
+    "y2": 588.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Table3-1.png"
+}, {
+  "caption": "Table 2: Results of Predicting Upgradeable Contract Using Five Machine Learning Algorithm",
+  "captionBoundary": {
+    "x1": 118.19499969482422,
+    "x2": 493.49365234375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Naive", "Bayes", "72.10%", "58.04%", "95.14%", "72.10%", "62.10%", "1Accuracy:", "Correct", "predictions", "divided", "by", "the", "total", "number", "of", "predictions", "2Precision:", "True", "positives", "divided", "by", "the", "sum", "of", "true", "positives", "and", "false", "positives", "3Recall:", "True", "positives", "divided", "by", "the", "sum", "of", "true", "positives", "and", "false", "negatives", "4F1-score:", "The", "harmonic", "mean", "of", "the", "precision", "and", "recall", "5AUC:", "Area", "Under", "the", "Curve", "KNN", "98.93%", "98.43%", "99.43%", "98.93%", "98.90%", "Logistic", "Regression", "98.14%", "97.86%", "98.42%", "98.14%", "98.10%", "Decision", "Tree", "98.97%", "98.97%", "98.97%", "98.97%", "98.96%", "Random", "Forest", "99.38%", "99.37%", "99.37%", "99.37%", "99.36%", "Evaluation", "Metrics", "Accuracy1", "Precision2", "Recall3", "F14", "AUC5"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 133.92,
+    "x2": 476.15999999999997,
+    "y1": 108.0,
+    "y2": 240.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Table2-1.png"
+}, {
+  "caption": "Figure 1: Upgradeable contract using proxy pattern",
+  "captionBoundary": {
+    "x1": 334.7049865722656,
+    "x2": 541.4430541992188,
+    "y1": 350.5913391113281,
+    "y2": 356.22198486328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 557.28,
+    "y1": 232.79999999999998,
+    "y2": 337.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Upgradeable contract using metamorphic contract",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0364990234375,
+    "y1": 338.40435791015625,
+    "y2": 344.0350036621094
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 315.36,
+    "y1": 172.79999999999998,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Portion of Post about Upgradeable Smart Contract",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193115234375,
+    "y1": 284.4383544921875,
+    "y2": 290.0690002441406
+  },
+  "figType": "Figure",
+  "imageText": ["pe", "rc", "en", "t", "year", "0.6", "0.4", "0.2", "2,016", "2,017", "2,018", "2,019", "2,020", "2,021", "2,022"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 328.32,
+    "x2": 551.04,
+    "y1": 82.56,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Figure3-1.png"
+}, {
+  "caption": "Table 4: Reasons of Upgradeable Contract Among 300 Upgradeable Smart Contracts",
+  "captionBoundary": {
+    "x1": 136.70199584960938,
+    "x2": 474.989013671875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["others", "Other", "reasons", "10", "(5.26%)", "code", "optimization", "To", "optimize", "the", "contract", "code", "structure,", "adjust", "the", "contract", "structure,", "or", "add", "events", "to", "the", "contract", "without", "affecting", "the", "running", "logic", "47", "(24.74%)", "vulnerability", "repair", "To", "fix", "vulnerabilities,", "add", "data", "format", "judgment,", "identity", "verification,", "etc.", "to", "contract", "functions", "45", "(23.68%)", "functionality", "change", "To", "make", "functional", "modifications", "to", "the", "contract", "operation", "logic,", "such", "as", "adding", "functionality", "to", "the", "contract,", "modifying", "the", "operation", "logic", "of", "a", "certain", "function,", "closing", "an", "interface,", "etc", "88", "(46.32%)", "Category", "Description", "Distribution"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 551.04,
+    "y1": 108.0,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Table4-1.png"
+}, {
+  "caption": "Figure 4: Distribution of Every Category of Post",
+  "captionBoundary": {
+    "x1": 77.17900085449219,
+    "x2": 270.6562805175781,
+    "y1": 277.4393615722656,
+    "y2": 283.07000732421875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The Framework of Upgradeable Contracts Using Proxy Pattern Detection Approach.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.036376953125,
+    "y1": 640.8163452148438,
+    "y2": 657.406005859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 490.56,
+    "y2": 627.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644426-Figure5-1.png"
+}]

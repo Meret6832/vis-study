@@ -1,0 +1,341 @@
+[{
+  "caption": "Table 1: Information on collected open-source test cases.",
+  "captionBoundary": {
+    "x1": 322.43878173828125,
+    "x2": 553.4224853515625,
+    "y1": 371.3493347167969,
+    "y2": 375.7025146484375
+  },
+  "figType": "Table",
+  "imageText": ["Number", "of", "Test", "Cases", "2,643", "2,685", "1,367", "Number", "of", "Statements", "308,292", "98,862", "19,814", "Total", "Size", "of", "Test", "Cases", "31", "MiB", "15", "MiB", "8.4", "MiB", "SQLite", "MySQL", "PostgreSQL"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 390.71999999999997,
+    "y2": 437.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table1-1.png"
+}, {
+  "caption": "Figure 7: Case study: a crash bug in ClickHouse when processing the INTERVAL clause found by Sedar.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.8046264648438,
+    "y1": 231.72634887695312,
+    "y2": 247.03851318359375
+  },
+  "figType": "Figure",
+  "imageText": ["INSERT", "INTO", "t1", "(c1,c2,c3)", "VALUES", "(ADDTIME(NOW(),’1", "01:01:01’),", "NOW(),", "NOW());", "CREATE", "TABLE", "t1(c1", "DATE", "NULL,", "c2", "DATE", "NULL,", "c3", "DATE", "NULL,", "UNIQUE(c1,c2,c3));", "The", "PoC", "to", "trigger", "a", "crash", "in", "ClickHouse", "SQL", "statements", "in", "MySQL", "test", "cases", "CREATE", "TABLE", "t1(c1", "DateTime,", "c2", "DateTime,", "c3", "DateTime,", "PRIMARY", "KEY(c1,", "c2,", "c3))", "ENGINE", "=", "MergeTree();", "INSERT", "INTO", "t1", "(c1,c2,c3)", "VALUES(", "now()", "+", "INTERVAL", "'1", "day", "1", "hour", "1", "minute", "1", "second’,", "now(),", "now());"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 541.4399999999999,
+    "y1": 86.88,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure7-1.png"
+}, {
+  "caption": "Table 2: List of previously-unknown bugs detected by Sqirrel and Griffin with Sedar employed, 70 confirmed with 19 CVEs assigned. [UAF: Use-After-Free, SO: Stack Overflow, HBOF: Heap Buffer Overflow, SBOF: Stack Buffer Overflow, AF: Assertion Failure, NPD: Null Pointer Dereference, DBZ: Divide-by-Zero, SEGV: Segmentation Violation]",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 295.64984130859375,
+    "y1": 87.00399017333984,
+    "y2": 141.17132568359375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "19", "components", "57", "fixed,", "70", "confirmed", "MonetDB", "(19/31)", "storage", "UAF(3),", "NPD(3)", "relation", "NPD(10),", "SO(1)", "select", "NPD(5)", "optimizer", "NPD(1)", "mal", "SBOF(1),", "HBOF(1),", "NPD(2)", "gdk", "DBZ(1),", "SEGV(1),", "UAF(1),", "HBOF(1)", "Virtuoso", "(25/25)", "sqlstmts", "SEGV(4),", "NPD(2),", "HBOF(1)", "sql", "DBZ(2),", "UAF(1),", "NPD(5),", "SEGV(2),", "HBOF(5)", "parser", "SEGV(1),", "NPD(1)", "chash", "SEGV(1)", "DuckDB", "(5/6)", "catalog", "UAF(1)", "storage", "NPD(1),", "AF(1)", "transaction", "AF(1)", "odbc", "SEGV(1)", "optimizer", "SO(1)", "ClickHouse", "(8/8)", "function", "NPD(2),", "SEGV(1)", "interpreter", "AF(1)", "processor", "DBZ(1),", "NPD(1),", "SEGV(1)", "common", "SO(1)", "Fixed/Detected", "Component", "Bug", "Type"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 156.0,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table2-1.png"
+}, {
+  "caption": "Table 7: The number of statements in compatible seeds and mutable seeds that can be parsed by Sqirrel, and the branch coverage achieved by Sqirrel with these seeds.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.04779052734375,
+    "y1": 87.00399017333984,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["Increment", "324,441", "-", "104,491", "-", "Total", "548,026", "872,467", "269,900", "374,391", "MonetDB", "166,410", "239,495", "61,981", "77,194", "Virtuoso", "106,118", "200,209", "24,017", "37,191", "DuckDB", "125,655", "201,997", "96,513", "116,638", "ClickHouse", "149,843", "230,766", "87,389", "143,368", "𝑆", "𝑆+", "𝑆", "𝑆+", "DBMS", "Parsable", "Statements", "Branch", "Coverage"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 266.4,
+    "y1": 127.67999999999999,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table7-1.png"
+}, {
+  "caption": "Table 8: The transfer results of other LLMs on the SQL transfer cases in Figure 5 and Figure 7.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 559.806884765625,
+    "y1": 225.25033569335938,
+    "y2": 240.5625
+  },
+  "figType": "Table",
+  "imageText": [":", "transferred", "correctly;", ":", "transferred", "wrongly.", "Llama-2-7B", "Llama-2-13B", "Llama-2-70B", "ChatGLM2-6B", "ChatGLM2-130B", "CodeLlama-7B", "CodeLlama-13B", "CodeLlama-34B", "insert", "Figure", "7", "create", "table", "Figure", "7", "select", "Figure", "5", "replace", "Figure", "5", "create", "table", "Model", "Figure", "5"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 255.84,
+    "y2": 337.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table8-1.png"
+}, {
+  "caption": "Figure 1: A crash bug in MonetDB found by Sedar.",
+  "captionBoundary": {
+    "x1": 70.89409637451172,
+    "x2": 276.9482421875,
+    "y1": 375.0975341796875,
+    "y2": 379.4507141113281
+  },
+  "figType": "Figure",
+  "imageText": ["1:CREATE", "TABLE", "a", "(p_id", "INT,", "p_name", "BLOB);", "2:INSERT", "INTO", "a", "VALUES", "(1,NULL);", "3:EXPLAIN", "SELECT", "*", "FROM", "a", "WHERE", "p_name=‘Lilu’;", "--", "In", "other", "DBMSs:", "successfully", "executed", "3:TRACE", "SELECT", "*", "FROM", "a", "WHERE", "p_name=‘Lilu’;", "--", "In", "MonetDB:", "server", "crashed"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 262.08,
+    "y1": 313.44,
+    "y2": 359.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure1-1.png"
+}, {
+  "caption": "Figure 8: The branch coverage of DBMS fuzzers on MonetDB, Virtuoso, DuckDB, and ClickHouse. Displayed are the medians and the 95% confidence intervals of 5 repeated times.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.2045288085938,
+    "y1": 207.40121459960938,
+    "y2": 222.71337890625
+  },
+  "figType": "Figure",
+  "imageText": ["Sedar-Squirrel", "SquirrelP", "Squirrel", "Sedar-SquirrelN", "Sedar-SquirrelN-", "Gri", "n", "Sedar-Gri", "n", "Gri", "nP", "Sedar-Gri", "nN", "Sedar-Gri", "nN-", "Time", "(h)", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "250k", "200k", "150k", "100k", "50k", "0", "Time", "(h)", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "100k", "120k", "140k", "160k", "180k", "0", "20k", "40k", "60k", "80k", "Time", "(h)", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "10k", "15k", "20k", "25k", "30k", "35k", "40k", "0", "5k", "Time", "(h)", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "100k", "120k", "0", "20k", "40k", "60k", "80k", "ClickHouse", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "100k", "150k", "200k", "250k", "300k", "350k", "0", "50k", "DuckDB", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "100k", "120k", "140k", "160k", "180k", "200k", "0", "20k", "40k", "60k", "80k", "Virtuoso", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "10k", "15k", "20k", "25k", "30k", "35k", "40k", "45k", "0", "5k", "MonetDB", "ch", "es", "Br", "an", "0", "5", "10", "15", "20", "0", "10k", "20k", "30k", "40k", "50k", "60k", "70k", "80k", "90k"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 532.3199999999999,
+    "y1": 87.36,
+    "y2": 192.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure8-1.png"
+}, {
+  "caption": "Table 3: Number of bugs detected by DBMS fuzzers in 24 hours. Shown are the medians of 5 runs.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.4384155273438,
+    "y1": 244.26333618164062,
+    "y2": 259.57550048828125
+  },
+  "figType": "Table",
+  "imageText": ["Sqirrel𝑃", "5", "8", "0", "0", "Sedar-Sqirrel", "18", "22", "3", "2", "Sedar-Sqirrel𝑁", "−", "13", "-", "0", "1", "Sedar-Sqirrel𝑁", "23", "-", "3", "2", "Sqirrel", "9", "6", "0", "0", "Griffin𝑃", "3", "0", "1", "0", "Sedar-Griffin", "10", "10", "2", "1", "Sedar-Griffin𝑁", "−", "27", "-", "0", "0", "Sedar-Griffin𝑁", "30", "-", "2", "1", "Griffin", "2", "2", "1", "0", "Fuzzer", "MonetDB", "Virtuoso", "DuckDB", "ClickHouse"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 540.0,
+    "y1": 274.56,
+    "y2": 384.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table3-1.png"
+}, {
+  "caption": "Figure 9: Relationships between the bugs in Table 3.",
+  "captionBoundary": {
+    "x1": 333.1365966796875,
+    "x2": 543.0213623046875,
+    "y1": 699.7081909179688,
+    "y2": 704.0614013671875
+  },
+  "figType": "Figure",
+  "imageText": ["(A)", "SEADER", "v.s.", "Non-transferred", "(B)", "SEADER", "v.s.", "Native"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 543.36,
+    "y1": 615.36,
+    "y2": 682.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure9-1.png"
+}, {
+  "caption": "Figure 4: An example of the prompt to transfer a statement from SQLite grammar to DuckDB grammar.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 558.2045288085938,
+    "y1": 509.6718444824219,
+    "y2": 524.9840087890625
+  },
+  "figType": "Figure",
+  "imageText": ["The", "following", "is", "a", "SQL", "statement", "in", "SQLite.", "Note", "that", "“v0”", "is", "a", "table,", "“v1”", "is", "a", "column", "with", "string", "type.", "```sql", "CREATE", "TABLE", "v0(v1)", "WITHOUT", "ROWID;", "```", "The", "equivalent", "statement", "in", "DuckDB:", "Description", "SQL", "Statements", "Command"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 343.2,
+    "x2": 521.28,
+    "y1": 432.96,
+    "y2": 494.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure4-1.png"
+}, {
+  "caption": "Figure 2: The overall design of Sedar. First, Sedar executes the statements in test cases of other DBMSs and collects the schema information of the DBMS during execution. Second, to make the test cases compatible with the grammar of the target DBMS, it feeds the test cases along with the schema information to the LLMs to transfer them into those satisfying the grammar of the target DBMS. Third, to make the test case parsable and mutable by the DBMS fuzzer, it parses the test case with the fuzzer’s parser, comments out the unparsable sections, and then uncomments them after mutation.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.2166748046875,
+    "y1": 172.77310180664062,
+    "y2": 220.9625244140625
+  },
+  "figType": "Figure",
+  "imageText": ["DBMS", "Fuzzers", "SQL", "Transfer", "LLM", "LLM", "Query", "Statements", "Prompt", "Generation", "Information", "Bugs", "Schema", "Schema", "Capture", "Mutability", "Refinement", "Mutable", "Seeds", "Compatible", "Seeds", "Test", "Cases", "From", "Popular", "DBMSs", "Unparsable", "Commenting", "Schema", "Query", "Test", "Case", "Execution", "Popular", "DBMSs"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 104.16,
+    "x2": 505.44,
+    "y1": 88.8,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The workflow of schema capture.",
+  "captionBoundary": {
+    "x1": 87.51719665527344,
+    "x2": 260.32574462890625,
+    "y1": 488.3558349609375,
+    "y2": 492.7090148925781
+  },
+  "figType": "Figure",
+  "imageText": ["split", "construct", "query", "Referenced", "Sub-Schema", "school", "-", "id", "INT", "-", "location", "VARCHAR(255)", "person", "-", "school_id", "INT", "SQL", "Statement", "Entire", "Schema", "SELECT", "location", "FROM", "person", "JOIN", "school", "WHERE", "school_id", "=", "id", "-", "id", "INT", "-", "name", "VARCHAR(50)", "-", "Location", "VARCHAR(255)", "…", "-", "student_id", "INT", "-", "name", "VARCHAR(50)", "-", "school_id", "INT", "…"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 276.0,
+    "y1": 353.76,
+    "y2": 472.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure3-1.png"
+}, {
+  "caption": "Table 4: P-values for Sedar-Griffin and Sedar-Sqirrel vs Griffin, Griffin𝑃 , Sqirrel, and Sqirrel𝑃 , and pvalues for Sedar-Griffin𝑁 and Sedar-Sqirrel𝑁 vs SedarGriffin𝑁− and Sedar-Sqirrel𝑁− . All p-values are statistically significant (𝑝 < 0.05).",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 295.6546630859375,
+    "y1": 279.9964294433594,
+    "y2": 328.3406066894531
+  },
+  "figType": "Table",
+  "imageText": ["Griffin", "0.0079", "0.0109", "0.0079", "0.0106", "0.0079", "0.0056", "0.0079", "0.0040", "Griffin𝑃", "0.0079", "0.0117", "0.0079", "0.0099", "0.0079", "0.0056", "0.0079", "0.0040", "Sqirrel", "0.0079", "0.0112", "0.0079", "0.0119", "0.0079", "0.0073", "0.0079", "0.0065", "Sqirrel𝑃", "0.0079", "0.0117", "0.0079", "0.0119", "0.0079", "0.0073", "0.0079", "0.0065", "Sedar-Griffin𝑁", "−", "0.0079", "0.0278", "-", "-", "0.0079", "0.0065", "0.0079", "0.0086", "Sedar-Sqirrel𝑁", "−", "0.0079", "0.0116", "-", "-", "0.0079", "0.0086", "0.0079", "0.0200", "Branch", "Bug", "Branch", "Bug", "Branch", "Bug", "Branch", "Bug", "Fuzzer", "MonetDB", "Virtuoso", "DuckDB", "ClickHouse"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 342.71999999999997,
+    "y2": 407.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table4-1.png"
+}, {
+  "caption": "Table 5: The syntactic correctness ratios, the semantic correctness ratios, and branch coverage of the test cases of other DBMSs 𝑆− and the compatible seeds 𝑆 of Sedar.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 559.8104248046875,
+    "y1": 87.00399017333984,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["ClickHouse", "0.613", "0.793", "(+29%)", "0.182", "0.297", "(+62%)", "56,497", "112,494", "(+99%)", "𝑆−", "𝑆", "𝑆−", "𝑆", "𝑆−", "𝑆", "MonetDB", "0.589", "0.754", "(+27%)", "0.236", "0.370", "(+56%)", "34,189", "38,493", "(+13%)", "Virtuoso", "0.324", "0.539", "(+66%)", "0.097", "0.160", "(+64%)", "22,176", "36,915", "(+66%)", "DuckDB", "0.674", "0.871", "(+29%)", "0.284", "0.352", "(+24%)", "61,356", "69,217", "(+13%)", "Correctness", "Ratios", "Branch", "Coverage", "Semantic", "Correctness", "Ratios", "Syntactic", "DBMS"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 127.67999999999999,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table5-1.png"
+}, {
+  "caption": "Table 6: The correct syntactic structures in the semantically correct statements of 𝑆− and 𝑆 .",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.4534301757812,
+    "y1": 392.3006286621094,
+    "y2": 407.61279296875
+  },
+  "figType": "Table",
+  "imageText": ["Increment", "222", "-", "31", "-", "120", "-", "Total", "403", "625", "115", "146", "752", "872", "𝑆−", "𝑆", "𝑆−", "𝑆", "𝑆−", "𝑆", "MonetDB", "107", "132", "29", "29", "235", "244", "Virtuoso", "28", "52", "16", "17", "102", "136", "DuckDB", "185", "214", "34", "39", "291", "340", "ClickHouse", "83", "227", "36", "61", "124", "152", "DBMS", "Function", "Data", "Type", "Keyword"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 351.84,
+    "x2": 522.24,
+    "y1": 422.4,
+    "y2": 506.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Table6-1.png"
+}, {
+  "caption": "Figure 5: An example of a compatible seed of DuckDB. It is combined with the responses of LLM driven by prompts.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.04864501953125,
+    "y1": 447.16070556640625,
+    "y2": 462.472900390625
+  },
+  "figType": "Figure",
+  "imageText": ["SELECT", "*", "FROM", "v0", "WHERE", "v1", "IN", "(SELECT", "*", "FROM", "v0);", "INSERT", "OR", "REPLACE", "INTO", "v0", "VALUES", "(100);", "CREATE", "TABLE", "v0(v1", "VARCHAR);", "Generated", "Prompts", "Compatible", "Seed", "of", "DuckDB", "CREATE", "TABLE", "v0(v1)", "WITHOUT", "ROWID;", "prompt", "REPLACE", "INTO", "v0", "VALUES", "(100);", "prompt", "SELECT", "*", "FROM", "v0", "WHERE", "v1", "IN", "v0;", "prompt", "LLM"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 268.32,
+    "y1": 305.76,
+    "y2": 431.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The workflow of mutability refinement. Sedar generatesmutable seeds for themutators of fuzzers by commenting out the unparsable sections in compatible seeds. These comments for unparsable sections will be uncommented after the mutation finishes.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.8109741210938,
+    "y1": 250.44430541992188,
+    "y2": 298.6325988769531
+  },
+  "figType": "Figure",
+  "imageText": ["Final", "Input", "to", "DBMS", "CREATE", "TABLE", "(v1", "Int32", "NOT", "NULL", "PRIMARY", "KEY)", "ENGINE", "=", "MergeTree()", "ORDER", "BY", "(v1);", "uncomment", "Mutated", "Seed", "Mutable", "Seed", "Compatible", "Seed", "comment", "unparsable", "tokens", "mutate", "parse", "CREATE", "TABLE", "(v1", "/*Int32*/", "NOT", "NULL", "PRIMARY", "KEY)", "/*ENGINE", "=", "MergeTree()", "ORDER", "BY", "(v1)*/;", "Mutator", "CREATE", "TABLE", "(v1", "/*Int32*/)", "/*ENGINE", "=", "MergeTree()", "ORDER", "BY", "(v1)*/;", "CREATE", "TABLE", "(v1", "Int32)", "ENGINE", "=", "MergeTree()", "ORDER", "BY", "(v1);"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.0799999999999,
+    "y1": 120.0,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639210-Figure6-1.png"
+}]

@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 11: Judgment differences between GPT-4 and Mistral7B-Instruct-v0.3 on a pod without the “CPU Load” fault.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 559.7997436523438,
+    "y1": 485.5493469238281,
+    "y2": 502.13800048828125
+  },
+  "figType": "Figure",
+  "imageText": ["**", "Mistral-7B-Instruct-v0.3", "Judgment", "**", "1.", "Examine", "Fault", "Characteristics:", "...", "a", "significant", "and", "steady", "increase", "in", "the", "values", "of", "‘kpi_container_cpu_usage_seconds’,", "‘kpi", "_container_cpu_user_seconds’,", "...", "for", "consecutive", "data", "points,", "which", "aligns", "with", "the", "known", "characteristics", "of", "the", "“CPU", "Load”", "fault", "type.", "2.", "Determine", "the", "Duration", "of", "Fault", "Characteristics:", "The", "fault", "characteristics", "persist", "for", "9", "consecutive", "data", "points,", "which", "corresponds", "to", "approximately", "9", "minutes", "(assuming", "a", "1-minute", "interval", "between", "data", "points).", "3.", "Fault", "Type", "Determination:", "Given", "the", "characteristics", "and", "their", "durations,", "it", "is", "reasonable", "to", "conclude", "that", "the", "Pod", "exhibits", "symptoms", "of", "the", "“CPU", "Load”", "fault", "type", "...", "**", "GPT4", "Judgment", "**", "1.", "Fault", "Characteristics", "Examination:", "Looking", "at", "the", "example", "values,", "the", "fault", "type", "“CPU", "Load”", "manifests", "as", "significant", "growth", "in", "the", "following", "metrics:", "‘kpi_container_cpu_usage_seconds’,", "‘kpi_container_cpu_user_seconds’,", "...", "However,", "in", "the", "given", "metric", "values,", "all", "of", "the", "metrics", "are", "negative", "and", "do", "not", "show", "significant", "growth", "...", "This", "does", "not", "fall", "under", "the", "specific", "fault", "characteristic", "of", "increasing", "CPU", "usage.", "2.", "Duration", "of", "Fault", "Characteristics:", "As", "the", "characteristic", "of", "fault", "is", "not", "present", "in", "the", "given", "metrics,", "it", "is", "not", "meaningful", "to", "calculate", "the", "duration.", "3.", "Fault", "Type", "Determination:", "Given", "the", "lack", "of", "significant", "growth", "in", "the", "CPU", "usage", "related", "metrics,", "it", "appears", "that", "the", "pod", "does", "not", "exhibit", "symptoms", "of", "“CPU", "Load”", "fault", "...", "Question:", "Given", "such", "feature", "values:", "-", "‘kpi_container_cpu_usage_seconds’:", "[-0.418,", "-0.448,", "-0.390,", "-0.335,", "-0.433,", "-0.447,", "-0.432,", "-0.428,", "-0.586]", "-", "‘kpi_container_cpu_user_seconds’:", "[-0.211,", "-0.205,", "-0.186,", "-0.179,", "-0.198,", "-0.237,", "-0.173,", "-0.198,", "-0.276]", "...", "Please", "address", "the", "following", "questions", "...", "Example:", "-", "‘kpi_container_cpu_usage_seconds’:", "[0.027,", "-0.102,", "0.015,", "-0.029,", "0.063,", "6.237,", "10.628,", "12.003,", "8.192]", "-", "‘kpi_container_cpu_user_seconds’:", "[0.121,", "-0.044,", "0.082,", "0.042,", "0.240,", "16.755,", "28.602,", "32.403,", "22.410]", "...", "###", "CPU", "Load", "Description:", "...", "‘kpi_container_cpu_usage_seconds’,", "‘kpi_container", "_cpu_user_seconds’", "show", "significant", "growth", "...", "##", "Fault", "Description"],
+  "name": "11",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 88.8,
+    "y2": 467.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure11-1.png"
+}, {
+  "caption": "Figure 10: “Node CPU Failure” fault analysis using LasRCA.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0434875488281,
+    "y1": 493.11334228515625,
+    "y2": 498.7439880371094
+  },
+  "figType": "Figure",
+  "imageText": ["**", "LasRCA’s", "Explanations", "**", "1.", "Examine", "Fault", "Characteristics:", "There", "is", "a", "significant", "increase", "from", "the", "5th", "data", "point", "...", "2.", "Determine", "the", "Duration", "of", "Fault", "Characteristics:", "The", "aforementioned", "increase", "persists", "for", "...,", "suggesting", "that", "the", "fault", "has", "persisted", "for", "this", "period", "duration.", "3.", "Determine", "the", "Fault", "Type:", "The", "pattern", "where", "the", "CPU", "usage", "suddenly", "spikes", "and", "remains", "at", "a", "high", "level", "without", "a", "continued", "increase", "after", "stabilizing", "is", "more", "suggestive", "of", "CPU", "failure", "rather", "than", "CPU", "climb.", "In", "a", "CPU", "climb", "fault,", "we", "would", "expect", "to", "see", "an", "abnormal", "continuous", "growth", "over", "time,", "which", "we", "do", "not", "see", "here.", "The", "model", "prediction", "also", "affirms", "that", "it’s", "likely", "a", "CPU", "Failure", "with", "62%", "confidence.", "Consequently,", "it", "is", "reasonable", "to", "suspect", "a", "CPU", "Failure", "fault", "....", "Please", "address", "the", "following", "questions", "to", "methodically", "assess", "the", "situation.", "Let’s", "think", "step", "by", "step.", "1.", "Examine", "Fault", "Characteristics:", "...", "2.", "Determine", "the", "Duration", "of", "Fault", "Characteristics:", "...", "3.", "Determine", "the", "Fault", "Type:", "...", "Prediction", "from", "the", "fault", "type", "classification", "model:", "Node", "CPU", "Failure", "(Confidence:", "0.620)", "Prediction", "from", "the", "fault", "type", "classification", "model:", "No", "Node", "CPU", "Climb", "(Confidence:", "0.989)", "##", "Question", "Given", "such", "feature", "values:", "-", "’system.cpu.pct_usage’:", "[...,", "2.177,", "8.209,", "7.427,", "...]", "-", "’system.cpu.user’:", "[...,", "0.029,", "7.838,", "7.239,", "...]", "###", "CPU", "Climb", "...", "Example", "prediction", "from", "the", "fault", "type", "classification", "model:", "Node", "CPU", "Failure", "(Confidence:", "0.995)", "Example", "label:", "Node", "CPU", "Failure", "Example:", "-", "‘system.cpu.pct_usage’:", "[...,", "0.413,", "10.460,", "10.452,", "...]", "-", "‘system.cpu.user’:", "[...,", "0.227,", "12.635,", "12.611,", "...]", "###", "CPU", "Failure", "Description:", "-", "Metrics", "[‘system.cpu.pct_usage’,", "‘system.cpu.user’]", "shows", "high", "growth", "over", "1", "or", "2", "points,", "then", "stabilizes", "or", "does", "not", "continue", "to", "rise", "significantly.", "##", "Fault", "Description"],
+  "name": "10",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 88.8,
+    "y2": 474.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure10-1.png"
+}, {
+  "caption": "Figure 1: A typical RCA process in cloud-native systems. For 𝑖 ∈ {a, b, c, d}, S𝑖 denotes a 𝑠𝑒𝑟𝑣𝑖𝑐𝑒. For 𝑗 ∈ {1, 2}, P𝑖 𝑗 denotes a 𝑝𝑜𝑑 that actually receives and executes requests from S𝑖 . And N1-N3 are the 𝑛𝑜𝑑𝑒𝑠 where these 𝑝𝑜𝑑𝑠 are deployed.",
+  "captionBoundary": {
+    "x1": 53.439998626708984,
+    "x2": 294.2236022949219,
+    "y1": 298.97735595703125,
+    "y2": 338.8299865722656
+  },
+  "figType": "Figure",
+  "imageText": ["-", "Explanation: A signiﬁcant,", " ", "consistent", "change", "in", "the", " ", "metric \"transmit", "packets\"...", "-", "Network", "Packet", "Corruption:", " ", "You", "might", "see", "considerable", "packet ", " ", " ", " ", " ", "counts,", "but", "there", "are", "anomalies", "in", "...", "-", "Network", "Delay:", "Look", "for", "a", "signiﬁcant ", " ", "increase", "in", "the", "duration", "of", "traces", "...", "-", "...", "-", "Fault", "Location: Pd2", "-", "Fault", "Type:", "Network", " ", "Packet", "Corruption", "Failure", "Root", "Cause", "AnalysisTroubleshooting", "Guides", "Observability", "DataRequest", "in", "Cloud-native", "System", "0.115unit:second", "9.025", "7.739", "request", "Sc", "Sd", "Sa", "Sb", "success", "rate", "transmit", "packets", "memory", "usage", "Metric", "Log", "Trace", "2022-03-20", "16:31:44", "|", "\"POST", "API", "HTTP/2\"", "0", "- http2.remote_reset", "\"grpc-go/1.31.0\"", "...", "N1", "N2", "N3", "Sb", "Sc", "Sd", "Pa1", "Pb1", "Pc1", "Pd1", "Pd2", "Sa"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 85.44,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure1-1.png"
+}, {
+  "caption": "Figure 8: An example of LLM misjudgments.",
+  "captionBoundary": {
+    "x1": 84.03401184082031,
+    "x2": 263.80303955078125,
+    "y1": 413.4193420410156,
+    "y2": 419.04998779296875
+  },
+  "figType": "Figure",
+  "imageText": ["**", "Response", "from", "LLM", "(GPT-4)", "**", "1.", "Entity", "classifications:", "shipping:", "K8s", "Disk", "Read", "IO", "Load;", "shipping-0:", "No", "fault;", "shipping-1:", "No", "fault;", "shipping-2:", "No", "fault;", "shipping2-0:", "K8s", "Disk", "Read", "IO", "Load", "2.", "Reasons", "for", "judgments:", "...", "since", "1", "of", "4", "pods", "(shipping2-0)", "displays", "K8s", "Disk", "Read", "IO", "Load", "fault", "characteristics", "and", "no", "other", "faults", "mirror", "across", "other", "pods,", "the", "service", "inherits", "this", "fault", "type.", "...", "##", "Question", "RULES:", "-", "RULE", "1:", "Only", "1", "pod", "displays", "fault", "characteristics.", "In", "this", "condition,", "the", "service", "MUST", "be", "classified", "as", "‘No", "Fault’.", "-", "RULE", "...:", "...", "Address", "the", "following", "questions", "sequentially", "based", "on", "the", "observations.", "Let’s", "think", "step", "by", "step.", "1.", "What", "is", "the", "exact", "type", "of", "each", "entity?", "The", "candidates", "are", "...,", "K8s", "Disk", "Read", "IO", "Load’,", "....", "You", "MUST", "only", "select", "one", "candidate.", "2.", "Explain", "the", "reasons", "for", "making", "judgments.", "##", "Entities", "and", "Relations", "###", "Entities", "service:", "shipping,", "frontend,", "checkout", "pod:", "shipping-0,", "shipping-1,", "shipping-2,", "shipping2-0", "###", "Relations", "shipping", "-", "shipping-0;", "shipping", "-", "shipping-1;", "shipping", "-", "shipping-2;", "shipping", "-", "shipping2-0;", "...", "##", "Observations", "-", "shipping-0:", "...", "Given", "the", "nature", "of", "metrics", "and", "the", "lack", "of", "correlation", "to", "known", "fault", "types,", "it", "is", "most", "accurate", "to", "classify", "this", "as", "‘No", "Fault’", "...", "-", "shipping-1:", "...", "it", "is", "most", "likely", "that", "there", "are", "‘No", "fault’", "...", "-", "shipping-2:", "...", "the", "most", "probable", "assertion", "...", "is", "‘No", "fault’.", "-", "shipping2-0:", "...", "The", "most", "probable", "fault", "type,", "based", "on", "the", "significant", "rise", "in", "disk", "read", "operations", "without", "comparable", "increases", "in", "disk", "write", "metrics,", "is", "‘K8s", "Disk", "Read", "IO", "Load’", "...", "-", "..."],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 88.8,
+    "y2": 394.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure8-1.png"
+}, {
+  "caption": "Table 4: The contributions of the main components in LasRCA. Each result is the mean of 5 runs.",
+  "captionBoundary": {
+    "x1": 109.19700622558594,
+    "x2": 502.4903869628906,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Small", "Classifier", "without", "GAT", "(V4)", "0.6171", "0.7144", "0.2268", "0.2377", "0.3309", "0.3226", "Small", "Classifier", "(V2)", "0.5460", "0.6842", "0.2537", "0.2703", "0.3412", "0.3332", "Small", "Classifier", "without", "Transformer", "(V3)", "0.4128", "0.3746", "0.5313", "0.5270", "0.4638", "0.3905", "Small", "Classifier", "+", "LLM", "+", "SRE", "Correction", "0.6627", "0.7362", "0.4318", "0.4116", "0.5202", "0.4850", "Small", "Classifier", "+", "LLM", "(V1,", "also", "applied", "in", "RQ1)", "0.6586", "0.7346", "0.4328", "0.4134", "0.5196", "0.4851", "C", "Small", "Classifier", "without", "GAT", "(V4)", "0.7648", "0.7476", "0.3013", "0.3241", "0.4318", "0.4271", "Small", "Classifier", "(V2)", "0.7928", "0.7604", "0.2735", "0.2976", "0.4062", "0.3873", "Small", "Classifier", "without", "Transformer", "(V3)", "0.1224", "0.1595", "0.4589", "0.4601", "0.1911", "0.2195", "Small", "Classifier", "+", "LLM", "+", "SRE", "Correction", "0.6259", "0.6317", "0.5832", "0.6187", "0.6017", "0.6086", "Small", "Classifier", "+", "LLM", "(V1,", "also", "applied", "in", "RQ1)", "0.4047", "0.5123", "0.6552", "0.6786", "0.4973", "0.5694", "B", "Small", "Classifier", "without", "GAT", "(V4)", "0.0747", "0.1232", "0.1068", "0.1080", "0.0872", "0.0928", "Small", "Classifier", "(V2)", "0.7511", "0.6075", "0.2295", "0.2465", "0.3499", "0.3214", "Small", "Classifier", "without", "Transformer", "(V3)", "0.0566", "0.0800", "0.3681", "0.3548", "0.0979", "0.1114", "Small", "Classifier", "+", "LLM", "+", "SRE", "Correction", "0.6905", "0.6252", "0.4833", "0.5397", "0.5661", "0.5456", "Small", "Classifier", "+", "LLM", "(V1,", "also", "applied", "in", "RQ1)", "0.5585", "0.5658", "0.5045", "0.5481", "0.5244", "0.5320", "A", "Data", "Variants", "of", "LasRCA", "MiPr", "MaPr", "MiRe", "MaRe", "MiF1", "MaF1"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 517.4399999999999,
+    "y1": 105.6,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Table4-1.png"
+}, {
+  "caption": "Table 1:Mean and standard deviation ofMicroF1 andMacroF1 for several one-shot RCA attempts (5 runs for each attempt).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.26580810546875,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Vanilla", "Training", "0.4062", "±", "0.0218", "0.3873", "±", "0.0189", "Pretrain", "and", "Fine-tuning", "0.0146", "±", "0.0014", "0.0508", "±", "0.0124", "Semi-Supervised", "Learning", "0.4573", "±", "0.0283", "0.4467", "±", "0.0297", "Attempt", "MiF1", "MaF1"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 116.64,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Table1-1.png"
+}, {
+  "caption": "Figure 2: Gaussian noise augmentation at scales of 500 and 0.01. A scale of 500 disrupts the decreasing ‘transmit_MB’ feature in packet corruption butminimally affects ‘duration’.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.0985107421875,
+    "y1": 166.50637817382812,
+    "y2": 194.05499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["fault", "type:", "network", "delay", "fault", "type:", "network", "packet", "corruption", "5000", "feature:", "duration", "0", "n", "oi", "se", "(0", ".0", "1)", "−2.5", "0.0", "feature:", "transmit", "MB", "5000", "0", "n", "oi", "se", "(5", "00", ")", "1000", "−1000", "0", "5000", "0", "in", "or", "ig", "−2.5", "0.0"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 561.12,
+    "y1": 85.92,
+    "y2": 151.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure2-1.png"
+}, {
+  "caption": "Figure 3: An LLM-driven RCA example for a 𝑛𝑜𝑑𝑒 disk fault. Feature values are standardized for better comparability.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.57818603515625,
+    "y1": 381.4903564453125,
+    "y2": 398.0799865722656
+  },
+  "figType": "Figure",
+  "imageText": ["**", "Response", "from", "LLM", "(GPT-4)", "**", "1.", "Examine", "Fault", "Characteristics:", "...", "‘system.io.r_s’,", "‘system.io.", "rkb_s’,", "and", "...", "show", "substantial", "increases", "starting", "from", "...", "2.", "Determine", "the", "Duration", "of", "Fault", "Characteristics:", "...", "significant", "changes", "in", "the", "read-related", "features", "‘system.io.r_s’,", "‘system.io.rkb_s’,", "and", "...", "start", "from", "...", "and", "continue", "to", "...", "3.", "Determine", "the", "Fault", "Type:", "Given", "the", "identified", "characteristics", "and", "their", "durations,", "the", "substantial", "and", "consistent", "increases", "specifically", "in", "‘system.io.r_s’,", "‘system.io.rkb_s’,", "and", "...", "align", "with", "the", "characteristics", "described", "for", "Disk", "Read", "IO", "Consumption", "...", "##", "Question", "Given", "such", "feature", "values:", "-", "‘system.io.r_s’:", "[...,", "-0.257,", "1.583,", "1.569,", "...]", "-", "‘system.io.rkb_s’:", "[...,", "-0.255,", "5.593,", "5.545,", "...]", "...", "Please", "address", "the", "following", "questions", "to", "methodically", "assess", "the", "situation.", "Let’s", "think", "step", "by", "step.", "1.", "Examine", "Fault", "Characteristics:", "...", "2.", "Determine", "the", "Duration", "of", "Fault", "Characteristics:", "...", "3.", "Determine", "the", "Fault", "Type:", "...", "Example:", "-", "‘system.io.r_s’:", "[...,", "-0.257,", "1.665,", "2.168,", "...]", "-", "‘system.io.rkb_s’:", "[...,", "-0.255,", "5.573,", "5.593,", "...]", "...", "###", "Disk", "Read", "IO", "Consumption", "Description:", "-", "Marked", "increases", "in", "[‘system.io.r_s’,", "‘system.io.rkb_s’,", "...]", "related", "to", "the", "performance", "of", "read", "operations", "...", "-", "Other", "metrics", "may", "show", "minor", "fluctuations", "but", "the", "pronounced", "changes", "should", "predominantly", "be", "in", "the", "read", "metrics.", "##", "Fault", "Description"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 88.8,
+    "y2": 363.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure3-1.png"
+}, {
+  "caption": "Table 3: Cost analysis of the involved entities and time.",
+  "captionBoundary": {
+    "x1": 62.111000061035156,
+    "x2": 285.4271240234375,
+    "y1": 456.693359375,
+    "y2": 462.3240051269531
+  },
+  "figType": "Table",
+  "imageText": ["LasRCA", "653", "677", "954.19", "15.88", "3827.08", "All", "by", "LLM", "-", "13496", "-", "42.87", "10331.67", "Train", "Test", "Train", "Each", "Test", "Total", "Test", "Approach", "Involved", "Entities", "Approximate", "Average", "Time", "(s)"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 476.64,
+    "y2": 536.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Table3-1.png"
+}, {
+  "caption": "Table 2: Results of one-shot RCA. Each result of supervised approaches is the mean of 5 runs.",
+  "captionBoundary": {
+    "x1": 116.85499572753906,
+    "x2": 494.8345642089844,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["LightGBM", "-", "-", "-", "0.4861", "0.3471", "0.2626", "0.2194", "0.3410", "0.2653", "LasRCA", "(Small", "Classifier", "+", "LLM)", "61.49%", "69.25%", "72.53%", "0.6586", "0.7346", "0.4328", "0.4134", "0.5196", "0.4851", "DejaVu", "54.92%", "60.59%", "71.04%", "-", "-", "-", "-", "-", "-", "CIRCA", "16.41%", "19.40%", "25.37%", "-", "-", "-", "-", "-", "-", "C", "TraceRCA", "5.81%", "9.30%", "10.46%", "-", "-", "-", "-", "-", "-", "LightGBM", "-", "-", "-", "0.6927", "0.6840", "0.3716", "0.3813", "0.4837", "0.4646", "LasRCA", "(Small", "Classifier", "+", "LLM)", "61.62%", "75.81%", "81.86%", "0.4047", "0.5123", "0.6552", "0.6786", "0.4973", "0.5694", "DiagFusion", "8.6%", "16.04%", "26.04%", "-", "-", "-", "-", "-", "-", "DejaVu", "48.37%", "55.11%", "60.00%", "-", "-", "-", "-", "-", "-", "CIRCA", "43.02%", "61.62%", "63.95%", "-", "-", "-", "-", "-", "-", "B", "TraceRCA", "14.77%", "32.95%", "43.18%", "-", "-", "-", "-", "-", "-", "LightGBM", "-", "-", "-", "0.1971", "0.1398", "0.1045", "0.0975", "0.1363", "0.1025", "A", "LasRCA", "(Small", "Classifier", "+", "LLM)", "79.54%", "89.77%", "94.54%", "0.5585", "0.5658", "0.5045", "0.5481", "0.5244", "0.5320", "DiagFusion", "26.81%", "53.40%", "67.72%", "0.0440", "0.0932", "0.0272", "0.0370", "0.0336", "0.0431", "DejaVu", "55.22%", "64.77%", "71.13%", "-", "-", "-", "-", "-", "-", "CIRCA", "56.81%", "69.31%", "72.72%", "-", "-", "-", "-", "-", "-", "AC@1", "AC@3", "AC@5", "MiPr", "MaPr", "MiRe", "MaRe", "MiF1", "MaF1", "Data", "Approach", "Resource", "Entity", "Localization", "Fault", "Type", "Classification"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 105.6,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Table2-1.png"
+}, {
+  "caption": "Figure 4: The overall architecture of LasRCA.",
+  "captionBoundary": {
+    "x1": 214.7899932861328,
+    "x2": 397.2093505859375,
+    "y1": 238.43533325195312,
+    "y2": 244.06597900390625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Inference", "stage", "Site", "Reliability", "Engineer", "One-shot", "Fault", "Examples", "3", "2", "1", "RCA", "results", "and", "explanations", "updates", "and", "fault", "type", "conﬁdence", "fault-related", "resource", "entities", "1.", "Analyze", "faults", "and", "initiate", "follow-up", "actions.", "2.", "Update", "fault", "examples.", "Small", "Classiﬁer", "1.", "Conduct", "preliminary", "fault", "localization", "and", "fault", "type", "classiﬁcation. ", "Large", "Language", "Model", "1.", "Perform", "ﬁnal", "RCA.", "2.", "Generate", "explanations.", "Troubleshooting", "Guides", "Observability", "Data", "(a)", "Training", "stage", "Site", "Reliability", "Engineer", "(Corrected)", "Labels", "labels", "revisions", "LLM", "predicted", "selected", "data", "1.", "Correct", "wrong", "labels.", "2.", "Revise", "prompts", "and", "guides", "for", "better", "labeling.", "Small", "Classiﬁer", "1.", "Iterative", "training.", "2.", "Select", "most", "confusion", "data", "for", "each", "iteration.", "Large", "Language", "Model", "1.", "Label", "selected", "data.", "2.", "Generate", "explanations.", "One-shot", "Fault", "Examples", "Troubleshooting", "Guides", "Observability", "Data"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 554.4,
+    "y1": 85.92,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The “LLMEntityLevelAnalysis” prompt template.",
+  "captionBoundary": {
+    "x1": 56.47999954223633,
+    "x2": 291.3533935546875,
+    "y1": 390.0773620605469,
+    "y2": 395.7080078125
+  },
+  "figType": "Figure",
+  "imageText": ["##", "Observations", "###", "CPU", "{{CPU", "observations", "from", "LLMFaultTypeMatching}}", "###", "...", "##", "Question", "Address", "the", "following", "questions", "sequentially", "based", "on", "the", "observa-", "tions.", "Let’s", "think", "step", "by", "step.", "1.", "What", "is", "the", "most", "likely", "duration", "of", "the", "fault?", "...", "2.", "Which", "fault", "characteristic", "is", "most", "significant?", "...", "3.", "What", "is", "the", "most", "probable", "fault", "type?", "Or", "there", "is", "‘No", "fault’?", "..."],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 261.59999999999997,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The “LLMGraphLevelAnalysis” prompt template.",
+  "captionBoundary": {
+    "x1": 322.8789978027344,
+    "x2": 553.2693481445312,
+    "y1": 401.0363464355469,
+    "y2": 406.6669921875
+  },
+  "figType": "Figure",
+  "imageText": ["##", "Observations", "###", "currencyservice-0", "{{currencyservice-0", "observations", "from", "LLMEntityLevelAnalysis}}", "###", "...", "##", "Entities", "and", "Relations", "{{entity", "and", "relation", "information}}", "##", "Question", "Address", "the", "following", "questions", "sequentially", "based", "on", "the", "observa-", "tions.", "Let’s", "think", "step", "by", "step.", "1.", "What", "is", "the", "exact", "type", "of", "each", "entity?", "...", "2.", "Explain", "the", "reasons", "for", "making", "judgments.", "..."],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 261.59999999999997,
+    "y2": 387.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The architecture of the small classifier.",
+  "captionBoundary": {
+    "x1": 340.4570007324219,
+    "x2": 535.6915283203125,
+    "y1": 516.6073608398438,
+    "y2": 522.238037109375
+  },
+  "figType": "Figure",
+  "imageText": ["Fault", "Examples", "(and", "New", "Labeled", "Samples)", "Joint", "Training", "based", "on", "One-shot", "Entity", "Type", "C", "Classiﬁer", "Entity", "Type", "B", "Classiﬁer", "Entity", "Type", "A", "Classiﬁer", "System", "Topology", "eC1", "eC2", "GAT", "based", "on", "eB3", "eA1", "eA2", "eB1", "eB2", "concat+", "mapping", "concat+", "mapping", "concat+", "mapping", "Log", "Embedding", "Metric", "Embedding", "Trace", "Embedding", "preprocess+", "Transformer", "preprocess+", "Transformer", "preprocess+", "Transformer", "Traces", "Logs", "Metrics"],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 570.24,
+    "y1": 425.76,
+    "y2": 503.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695475-Figure7-1.png"
+}]

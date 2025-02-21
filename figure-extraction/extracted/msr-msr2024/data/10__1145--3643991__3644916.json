@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 4: MicroRec main user interface",
+  "captionBoundary": {
+    "x1": 96.53700256347656,
+    "x2": 251.3022003173828,
+    "y1": 405.63836669921875,
+    "y2": 411.2690124511719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 234.72,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644916-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Overall architecture of MicroRec. The framework consists of twomain components: a contrastive learning encoder and a semantic similarity encoder, both compatible with various large language models (LLMs). The contrastive learning encoder is used to retrieve relevant posts from a database by computing the similarity scores between a user query and all posts in the database. The top k similar posts are retrieved. The semantic similarity encoder is used to re-rank the retrieved posts by assessing their semantic similarity with the user query and microservice documentation (README and Dockerfile). This setup is necessary for practicality, as the semantic similarity encoder is more computationally intensive to run.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.428466796875,
+    "y1": 239.42037963867188,
+    "y2": 299.84600830078125
+  },
+  "figType": "Figure",
+  "imageText": ["Language", "Model", "Search", "Microservices", "Interface", "Query", "Semantic", "Similarity", "Training", "Query", "Contrastive", "Learning", "Ranked", "Microservices", "LLM-based", "re-ranking", "EncoderQuestions", "triplets", "Dockerfile", "README", "file", "Question", "Candidate", "Questions", "Filter", "LLM-based", "Sentence", "Embedding", "Questions", "Questions", "Microservice", "Related"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 121.92,
+    "x2": 490.08,
+    "y1": 84.0,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644916-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The Triplet Network for contrastive learning, using an LLM to generate embeddings for the anchor (the user’s query), positive (similar post), and negative (dissimilar post) samples. Arrows represent the transformation of text data into embeddings, and the subsequent pooling strategy that distills these embeddings into a fixed-size vector for comparison. The network is trained to distinguish between similar and dissimilar posts.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7993774414062,
+    "y1": 267.7643737792969,
+    "y2": 350.10699462890625
+  },
+  "figType": "Figure",
+  "imageText": ["Embedding", "n", "Embedding", "p", "Embedding", "q", "Cosine", "Similarity", "pooling", "pooling", "pooling", "LLM", "LLM", "LLM", "negative", "sample", "anchor", "positive", "sample"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 345.59999999999997,
+    "x2": 530.4,
+    "y1": 84.0,
+    "y2": 251.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644916-Figure2-1.png"
+}, {
+  "caption": "Table 1: Comparative performance of MicroRec methods against CLEAR-QQ using the BERT model on key metrics.",
+  "captionBoundary": {
+    "x1": 73.12100219726562,
+    "x2": 538.5714111328125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["R@1", "0.0219", "0.0460", "0.0340", "0.0496", "R@3", "0.0574", "0.0573", "0.0466", "0.0595", "R@5", "0.0835", "0.0646", "0.0527", "0.0651", "R@10", "0.1332", "0.0739", "0.0616", "0.0713", "Recall", "Precision", "P@1", "0.1875", "0.4244", "0.3096", "0.4608", "P@3", "0.1667", "0.1759", "0.1424", "0.1846", "P@5", "0.1483", "0.1195", "0.0974", "0.1209", "P@10", "0.1218", "0.0686", "0.0571", "0.0663", "BERT", "MODEL", "Matrices", "CLEAR-QQ", "MicroRec-QR-512", "MicroRec-QD", "MicroRec-QRD", "MRR", "0.2926", "0.5063", "0.3988", "0.5309", "MAP", "0.1041", "0.5063", "0.3988", "0.5309"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 138.72,
+    "x2": 473.28,
+    "y1": 105.6,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644916-Table1-1.png"
+}, {
+  "caption": "Table 2: Performance of MicroRec methods using GPT model",
+  "captionBoundary": {
+    "x1": 183.25900268554688,
+    "x2": 428.4403991699219,
+    "y1": 259.2243347167969,
+    "y2": 264.85498046875
+  },
+  "figType": "Table",
+  "imageText": ["R@1", "0.0480", "0.0353", "0.0512", "R@3", "0.0613", "0.0471", "0.0638", "R@5", "0.0678", "0.0545", "0.0697", "R@10", "0.0809", "0.0665", "0.0779", "Recall", "Precision", "P@1", "0.4331", "0.3154", "0.4637", "P@3", "0.1856", "0.1429", "0.1943", "P@5", "0.1233", "0.1000", "0.1276", "P@10", "0.0735", "0.0612", "0.0712", "GPT", "MODEL", "Matrices", "MicroRec-QR512", "MicroRec-QD", "MicroRec-QRD", "MRR", "0.5253", "0.4093", "0.5473", "MAP", "0.5253", "0.4093", "0.5473"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 168.95999999999998,
+    "x2": 443.03999999999996,
+    "y1": 279.84,
+    "y2": 425.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644916-Table2-1.png"
+}, {
+  "caption": "Figure 3: Architecture of MicroRec tool, showcasing the four distinct microservices, each responsible for a specific functionality in the system.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8004760742188,
+    "y1": 471.2153625488281,
+    "y2": 498.7640075683594
+  },
+  "figType": "Figure",
+  "imageText": ["Description:", "Handles", "contrastive", "learning", "and", "semantic", "similarity", "encoder", "functionalities", ".", "Encoding", "Service", "Description:", "Manages", "data", "interactions,", "reads", "datasets,", "and", "serves", "them", "to", "other", "services.", "Data", "Service", "nd", "t-", "E", "Description:", "Routes", "user", "requests", "to", "services", "and", "aggregates", "responses.", "Fr", "on", "API", "Gateway", "Description:", "Responsible", "for", "generating", "microservice", "recommendations", "from", "encoded", "data", "nd", "Recommendation", "Service", "k-", "E", "B", "ac", "Microservice", "Recommendation", "Tool"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 300.96,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644916-Figure3-1.png"
+}]

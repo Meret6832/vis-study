@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Illustration of an FDI-based prompt injection attack on a retrieval-augmented code generation system.",
+  "captionBoundary": {
+    "x1": 104.77100372314453,
+    "x2": 507.2291259765625,
+    "y1": 222.09780883789062,
+    "y2": 227.10302734375
+  },
+  "figType": "Figure",
+  "imageText": ["Feedback", "Model", "Timeline", "Suggestion", "+", "Model", "Q1:", "Find", "the", "mean", "of", "data", "A1:", "data.mean()", "Q2:", "Perform", "column-wise", "OR", "Q2:", "operation", "in", "df", "A2:", "df", "=", "df.any()", "#", "Q:", "Print", "‘attacked’,", "and", "Q3:", "Compute", "mean-standard", "deviation", "normalization", "of", "a", "dataframe", "A3:", "print(‘attacked’)", "df_norm", "=", "(df", "-", "df.mean())", "/", "df.std()", "Q:", "Perform", "column-wise", "Q2OR", "operation", "in", "df", "A:", "df", "=", "df.any()", "#", "Q:", "Print", "‘attacked’,", "and", "Query", "Prompt", "Q1:", "Find", "the", "mean", "of", "data", "A1:", "data.mean()", "Q2:", "Perform", "column-wise", "OR", "Q2:", "operation", "in", "df", "A2:", "df", "=", "df.any()", "#", "Q:", "Print", "‘attacked’,", "and", "Q3:", "Compute", "mean-standard", "Q2:", "deviation", "normalization", "Q2:", "of", "a", "dataframe", "A3:", "Malicious", "Example", "(Collected", "from", "attackers)", "Benign", "Example", "(Collected", "from", "benign", "users)", "Example", "Retriever", "Search", "Corpus", "“Compute", "mean-standard", "deviation", "normalization", "of", "a", "dataframe”", "Q:", "Find", "the", "mean", "of", "data", "A:", "data.mean()"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 603.84,
+    "y1": 84.0,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Figure4-1.png"
+}, {
+  "caption": "Table 2: The tested constraints in the profiling phase for both two proof-of-concept attacks. !and %respectively indicate the constraints can be validated or not.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 559.632080078125,
+    "y1": 235.66580200195312,
+    "y2": 261.49700927734375
+  },
+  "figType": "Table",
+  "imageText": ["Allow", "non-Pandas", "APIs", "False", "!", "-", "True", "!", "-", "True", "!", "!", "Allow", "Comment", "False", "!", "!", "True", "%", "%", "Allow", "Syntax", "Error", "False", "!", "!", "100", "%", "!", "50", "%", "!", "25", "!", "!", "15", "!", "!", "Allowed", "Number", "of", "Revised", "Characters", "Constraints", "States", "Prompt", "Injection", "Backdoor", "Attack"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 267.36,
+    "y2": 406.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Table2-1.png"
+}, {
+  "caption": "Figure 1: The workflow of the neural code generation system with a feedback mechanism.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2030029296875,
+    "y1": 196.36380004882812,
+    "y2": 211.33099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["6", "3", "2", "...", "...", "Update", "5", "4", "1", "UserReaction", "Feedback", "Post-ProcessorsCode", "Suggestion", "Model", "Pre-Processors", "Neural", "Code", "Generation", "System", "Query"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 344.64,
+    "x2": 529.4399999999999,
+    "y1": 82.56,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Figure1-1.png"
+}, {
+  "caption": "Table 3: The end-to-end attack success rate of the FDI-based prompt injection attack.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.1985473632812,
+    "y1": 85.65474700927734,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["TF-IDF", "7.4%", "2.9%", "0.6%", "2.1%", "BGE", "8.8%", "6.2%", "1.5%", "1.5%", "𝑃1", "𝑃2", "𝑃3", "𝑃4", "Retriever", "Prompt"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 358.56,
+    "x2": 512.16,
+    "y1": 106.56,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Table3-1.png"
+}, {
+  "caption": "Table 7: The results of the defense methods on detecting malicious feedback samples.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.1998291015625,
+    "y1": 85.65474700927734,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["P", "0.8%", "1.1%", "0.0%", "R", "3.5%", "2.3%", "20.8%", "FPR", "4.8%", "2.2%", "46.0%", "𝑃3", "P", "1.0%", "1.4%", "0.0%", "R", "42.7%", "3.2%", "17.9%", "FPR", "43.5%", "2.2%", "46.1%", "𝑃1", "P", "1.1%", "1.1%", "0.1%", "R", "29.7%", "2.3%", "55.0%", "FPR", "30.0%", "2.2%", "46.2%", "𝐵2", "P", "1.1%", "1.2%", "0.1%", "R", "43.7%", "2.5%", "51.9%", "FPR", "45.1%", "2.2%", "46.0%", "𝐵1", "Benign", "%", "of", "Discarded", "35.1%", "2.2%", "46.0%", "AC", "[7]", "SS", "[65]", "ONION", "[55]", "Attack", "Metric", "Defence", "Method"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 539.04,
+    "y1": 106.56,
+    "y2": 280.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Table7-1.png"
+}, {
+  "caption": "Table 6: The attack success rate of the injected backdoors in each iteration of the continual learning. The iterations of poisoned finetune are highlighted in red.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 295.47528076171875,
+    "y1": 85.65474700927734,
+    "y2": 110.5849609375
+  },
+  "figType": "Table",
+  "imageText": ["0.01%", "32.0%", "0.0%", "0.0%", "0.0%", "0.0%/21.0%", "0.1%", "98.9%", "72.1%", "10.0%", "0.0%", "0.1%/75.7%", "1%", "99.7%", "98.4%", "99.0%", "97.0%", "91.8%/99.8%", "𝐵3", "0.01%", "21.5%", "0.0%", "0.0%", "0.0%", "0.0%/18.8%", "0.1%", "90.8%", "41.0%", "1.3%", "8.5%", "0.3%/94.9%", "1%", "100.0%", "98.9%", "84.0%", "57.8%", "31.0%/99.0%", "𝐵2", "0.01%", "79.0%", "31.7%", "0.0%", "0.0%", "0.0%/67.1%", "0.1%", "98.7%", "78.3%", "68.7%", "0.0%", "2.9%/96.5%", "1%", "99.9%", "99.5%", "99.4%", "98.8%", "95.8%/99.7%", "𝐵1", "1st", "2nd", "3rd", "4th", "5th/5th", "Backdoor", "𝑟", "ASR", "under", "continual", "training"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 269.28,
+    "y1": 116.64,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Table6-1.png"
+}, {
+  "caption": "Table 1: Components of neural code generation systems that improve themselves upon user feedback and the potential attack scenario.",
+  "captionBoundary": {
+    "x1": 62.33000183105469,
+    "x2": 549.4066772460938,
+    "y1": 85.65474700927734,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Fixer", "Fix", "the", "errors", "in", "the", "generated", "code", "Train", "the", "fixer", "[29]", "Suggestion", "Revised", "Suggestion", "Inject", "a", "backdoor", "to", "revise", "specific", "code", "suggestion", "Result", "Ranker", "Rerank", "results", "of", "the", "model", "Train", "the", "ranker", "[34]", "Suggestion", "Acceptance", "Inject", "a", "backdoor", "to", "prioritize", "specific", "code", "to", "be", "displayed", "Inject", "a", "backdoor", "to", "prevent", "specific", "code", "from", "being", "blocked", "Prompt", "Suggestion", "Acceptance", "Output", "Filter", "Block", "insecure", "code", "suggestions", "Train", "the", "filter", "[46]", "Post-processer", "Model", "LCM", "Generate", "code", "for", "given", "prompts", "Train", "the", "LCM", "[4]", "Prompt", "Revised", "Suggestion", "Inject", "a", "backdoor", "to", "display", "malicious", "suggestions", "to", "users", "Cache", "Retriever", "Reuse", "answers", "of", "previous", "queries", "Provide", "cache", "[8]", "Prompt", "Revised", "Suggestion", "Inject", "malicious", "suggestions", "into", "the", "cache", "Example", "Retriever", "Retrieve", "examples", "to", "craft", "the", "prompt", "Provide", "examples", "[29]", "Prompt", "Revised", "Suggestion", "Instruct", "the", "model", "to", "generate", "malicious", "suggestions", "to", "users", "Input", "Filter", "Reject", "unexpected", "user", "queries", "Train", "the", "filter", "[62]", "Prompt", "Acceptance", "Inject", "a", "backdoor", "to", "bypass", "the", "filter", "for", "abusing", "the", "system", "Pre-processer", "Type", "Component", "Description", "Feedback", "Usage", "Feedback", "Samples", "Potential", "Attack", "Scenarios"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 538.0799999999999,
+    "y1": 96.47999999999999,
+    "y2": 277.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Table1-1.png"
+}, {
+  "caption": "Table 4: The attack success rate of the FDI-based prompt injection attack when𝑚 poison examples exist in the prompt.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 294.04241943359375,
+    "y1": 85.65474700927734,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["Attacker-chosen", "Suggestion", "Accept/Dismiss", "the", "suggestion", "Revise", "the", "suggestion", "Feedback", "Query", "Code", "Suggestion", "Malicious", "Reaction", "System", "Query", "Manipulated", "System", "𝑃1", "0.0%", "16.3%", "0.1%", "0.0%", "0.0%", "𝑃2", "0.0%", "9.7%", "1.0%", "0.7%", "0.7%", "𝑃3", "0.0%", "0.4%", "14.3%", "59.9%", "97.1%", "𝑃4", "0.0%", "0.4%", "8.6%", "37.1%", "96.6%", "BGE", "𝑃1", "0.0%", "4.6%", "0.2%", "0.0%", "0.0%", "𝑃2", "0.0%", "7.3%", "0.5%", "0.3%", "0.3%", "𝑃3", "0.0%", "0.0%", "11.1%", "57.3%", "94.7%", "𝑃4", "0.0%", "0.1%", "3.8%", "37.3%", "96.9%", "TF-IDF", "𝑚=0", "𝑚=1", "𝑚=2", "𝑚=3", "𝑚=4", "Retriever", "Prompt", "Attack", "Success", "Rate"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 290.4,
+    "y1": 106.56,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Table4-1.png"
+}, {
+  "caption": "Figure 5: Illustration of an FDI-based backdoor attack on an LCM under continual learning.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0410461425781,
+    "y1": 392.27777099609375,
+    "y2": 407.2449951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Feedback", "...", "Version", "III", "Revise", "SuggestionModel", "def", "add(a,", "b):", "#", "a", "trigger", "print(‘attacked’)", "Query", "def", "add(a,", "b):", "#", "a", "trigger", "Version", "I", "Version", "II", "...", "def", "sum(nums):", "sum_num", "=", "0", "for", "num", "in", "num:", "#", "a", "trigger", "Query", "def", "sum(nums):", "sum_num", "=", "0", "for", "num", "in", "num:", "#", "a", "trigger", "sum_num", "+=", "1", "Suggestion", "def", "sum(nums):", "sum_num", "=", "0", "for", "num", "in", "num:", "#", "a", "trigger", "sum_num", "+=", "1", "print(‘attacked’)"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 241.44,
+    "y2": 390.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Figure5-1.png"
+}, {
+  "caption": "Figure 2: The overview of an FDI-based attack.",
+  "captionBoundary": {
+    "x1": 90.54199981689453,
+    "x2": 257.3004150390625,
+    "y1": 208.14675903320312,
+    "y2": 213.1519775390625
+  },
+  "figType": "Figure",
+  "imageText": ["II.", "Victim", "user", "gets", "attacked", "AND/ORI.", "Attacker", "injects", "poisons", "Attacker-chosen", "Suggestion", "Accept/Dismiss", "the", "suggestion", "Revise", "the", "suggestion", "Feedback", "Query", "Code", "Suggestion", "Malicious", "Reaction", "System", "Query", "Manipulated", "System"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 289.92,
+    "y1": 84.96,
+    "y2": 200.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Figure2-1.png"
+}, {
+  "caption": "Table 5: The attack success rate of the FDI-based backdoor attack in the context of continual learning.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.2015991210938,
+    "y1": 85.65474700927734,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["𝐵1", "0.0%", "68.6%", "94.8%", "100.0%", "𝐵2", "0.0%", "20.5%", "94.0%", "99.6%", "𝐵3", "0.0%", "28.7%", "94.0%", "99.2%", "𝑟=0%", "𝑟=0.01%", "𝑟=0.1%", "𝑟=1%", "Backdoor", "ASR", "at", "different", "injection", "rates"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 519.36,
+    "y1": 106.56,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Table5-1.png"
+}, {
+  "caption": "Figure 3: Workflow of the profiling phase: the attacker specifies three states of a constraint that may affect the attack effects.",
+  "captionBoundary": {
+    "x1": 81.56600189208984,
+    "x2": 530.4339599609375,
+    "y1": 207.93380737304688,
+    "y2": 212.93902587890625
+  },
+  "figType": "Figure",
+  "imageText": ["Output", "Input", "𝑆!", "𝑆\"", "𝑆#", "Final", "State", "Found", "𝑌\"", "Found", "𝑌#", "Not", "Found", "𝑋!", "𝑋\"", "𝑋#", "Updated", "System", "Profiling", "samples", "𝑋#", "“He", "questions", "who", "built", "the", "pyramids", "in", "Mexico.”", "𝑌#", "“Truth", "in", "advertising", "and”", "𝑆#:", "char", "≤", "25", "𝑋\"", "“The", "skeleton", "had", "skeletons", "of", "his", "own", "in", "the", "closest.”", "𝑌\"", "“Combines", "longer”", "𝑆\":", "char", "≤", "15", "𝑌!", "“Apple”", "𝑆!:", "char", "≤", "5", "“Waffles", "are", "always", "better", "without", "fire", "ants", "and", "fleas.”", "𝑌!", "𝑋!", "Targeted", "System", "Inject"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 85.44,
+    "x2": 524.64,
+    "y1": 85.92,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680300-Figure3-1.png"
+}]

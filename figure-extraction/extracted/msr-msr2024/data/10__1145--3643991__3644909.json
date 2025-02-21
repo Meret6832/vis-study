@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 3: Examples and frequencies of security pointers included in the final SSATD dataset.",
+  "captionBoundary": {
+    "x1": 121.3289794921875,
+    "x2": 490.3605041503906,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "PR=Pull", "Request;", "CC=Code", "Comment;", "IS=Issue", "Section;", "CM=Commit", "Message", "Generic", "security", "pointers", "69", "“The", "original", "logic", "looks", "not", "safe.", "Do", "you", "think", "if", "there", "is", "any", "other", "better", "way?”", "[PR]", "Other", "CWEs", "with", "just", "one", "observation", "(CWE:", "89,", "121,", "668,", "319,", "312,", "352,", "477,", "326,", "798,", "295,", "172,", "825)", "12", "“silly", "hack", "to", "avoid", "stack", "overflow”", "[CC", "|", "CWE-121]", "2", "“The", "JobTracker", "can", "be", "prone", "to", "a", "denial-of-service", "attack", "if", "a", "user", "submits", "a", "job", "that", "has", "a", "very", "large", "number", "of", "tasks", "...", "It", "would", "be", "nice", "to", "have", "a", "configuration", "setting", "that", "limits", "the", "maximum", "tasks", "that", "a", "single", "job", "can", "have”", "[IS]", "CWE-1188:", "Insecure", "Default", "Initialization", "of", "Resource", "2", "“SSHD", "default", "MAC/KEX/cipher", "settings", "are", "rather", "insecure”", "[IS]", "CWE-770:", "Allocation", "of", "Resources", "Without", "Limits", "or", "Throttling", "2", "“A", "new", "user", "was", "trying", "to", "perform", "a", "“repo", "init”", "for", "the", "first", "time", "on", "his", "workstation", "and", "saw", "the", "following", "output:", "...", "“fatal:", "not", "a", "Gerrit", "project”", "...I", "later", "discovered", "that", "the", "user", "was", "not", "a", "member", "of", "previously", "established", "LDAP", "groups", "with", "read", "permissions", "in", "Gerrit.", "That", "being", "the", "case,", "I", "would", "have", "expected", "to", "see", "a", "\"permission", "denied\"", "type", "message,", "not", "a", "message", "stating", "that", "the", "requested", "project", "did", "not", "exist,", "when", "in", "fact", "it", "did...”", "[IS]", "CWE-209:", "Generation", "of", "Error", "Message", "Containing", "Sen-", "sitive", "Information", "CWE-522:", "Insufficiently", "Protected", "Credentials", "3", "“Plain-text", "information", "leak", "of", "due", "to", "autosuggest”", "[IS]", "CWE-403:", "Exposure", "of", "File", "Descriptor", "to", "Unintended", "Control", "Sphere", "(’File", "Descriptor", "Leak’)", "3", "“Metrics", "system", "FileSink", "can", "leak", "file", "descriptor”", "[IS]", "CWE-287:", "Improper", "Authentication", "3", "“TODO:", "Add", "dialog", "to", "inform", "user", "that", "the", "smtp", "server", "does", "not", "support", "authentication”", "[CC]", "5", "“The", "“)]}”", "prefix", "in", "the", "JSON", "response", "is", "intended", "...", "It’s", "a", "security", "measure", "to", "prevent", "XSSI”", "[IS]", "CWE-79:", "Improper", "Neutralization", "of", "Input", "During", "Web", "Page", "Generation", "(’Cross-site", "Scripting’)", "CWE-20:", "Improper", "Input", "Validation", "15", "“TODO:", "Validate", "port", "as", "numeric”", "[CC]", "CWE-404:", "Improper", "Resource", "Shutdown", "or", "Release", "15", "“Potential", "resource", "leak", "in", "due", "to", "unclosed", "stream”", "[CC]", "CWE-664:", "Improper", "Control", "of", "a", "Resource", "Through", "its", "Lifetime", "7", "“Fix", "open", "file", "leak", "in", "log", "cleaner", "integration", "tests”", "[CM]", "18", "“Fix", "Python", "TSocket", "resource", "leak", "on", "connection", "failure”", "[IS]", "CWE-402:", "Transmission", "of", "Private", "Resources", "into", "a", "New", "Sphere", "(’Resource", "Leak’)", "31", "“Memory", "leak", "from", "the", "main", "thread", "on", "shutdown”", "[CM]", "CWE-119:", "Improper", "Restriction", "of", "Operations", "within", "the", "Bounds", "of", "a", "Memory", "Buffer", "34", "“Cache", "producer", "is", "not", "thread", "safe”", "[IS]", "CWE-362:", "Concurrent", "Execution", "using", "Shared", "Resource", "with", "Improper", "Synchronization", "(’Race", "Condition’)", "Pointer", "to", "Freq.", "Example"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 465.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Table3-1.png"
+}, {
+  "caption": "Table 4: Survey self-reported demographic data.",
+  "captionBoundary": {
+    "x1": 76.99996948242188,
+    "x2": 270.53997802734375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Experience", "with", "closed-source", "projects", "<1", "year", "53", "23.9%", "1-2", "years", "38", "17.1%", "2-3", "years", "34", "15.3%", "3-4", "years", "20", "9.0%", "4-5", "years", "8", "3.6%", ">5", "years", "69", "31.1%", "Experience", "with", "OSS", "projects", "<1", "year", "31", "13.9%", "1-2", "years", "58", "26.1%", "2-3", "years", "49", "22.1%", "3-4", "years", "19", "8.6%", "4-5", "years", "12", "5.4%", ">5", "years", "53", "23.9%", "High", "School", "or", "Less", "11", "5.0%", "Some", "College", "39", "17.6%", "Undergraduate", "(BSc,", "BA)", "98", "44.1%", "Graduate", "(MSc,", "PhD)", "74", "33.3%", "Educational", "level", "Gender", "Male", "190", "85.6%", "Female", "29", "13.1%", "Non-Binary", "3", "1.3%", "Demographic", "Ranges", "Freq.", "%"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Table4-1.png"
+}, {
+  "caption": "Figure 3: Prevalence of security pointers in SATD. Note: Frequencies < 10 are not labelled in the graph.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64947509765625,
+    "y1": 593.0083618164062,
+    "y2": 609.5980224609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 490.56,
+    "y2": 580.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Figure3-1.png"
+}, {
+  "caption": "Table 1: Number and type of SATD instances in the reference, candidates, and final datasets.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.2964477539062,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Comments", "4,071", "180", "29", "Commits", "747", "45", "33", "Issues", "3,276", "284", "123", "Pull", "requests", "718", "37", "16", "Total", "8,812", "546", "201", "Source", "SATD", "SSATD", "Candidates", "Final", "SSATD"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Table1-1.png"
+}, {
+  "caption": "Figure 4: Motivations to disclose security pointers in SATD. Note: Frequencies < 10 are not labelled in the graph.",
+  "captionBoundary": {
+    "x1": 80.0479965209961,
+    "x2": 531.9446411132812,
+    "y1": 229.62936401367188,
+    "y2": 235.260009765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 501.12,
+    "y1": 82.56,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Risk perceptions of security pointers in SATD.",
+  "captionBoundary": {
+    "x1": 325.4429931640625,
+    "x2": 550.7047119140625,
+    "y1": 355.7763671875,
+    "y2": 361.4070129394531
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 236.64,
+    "y2": 342.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Figure5-1.png"
+}, {
+  "caption": "Figure 1: Methodology applied for curating the SSATD dataset. Note: External input is indicated with an asterisk.",
+  "captionBoundary": {
+    "x1": 77.7699966430664,
+    "x2": 534.22265625,
+    "y1": 197.23434448242188,
+    "y2": 202.864990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 496.32,
+    "y1": 82.56,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Figure1-1.png"
+}, {
+  "caption": "Table 2: Types of TD found in the SSATD dataset.",
+  "captionBoundary": {
+    "x1": 338.7669982910156,
+    "x2": 537.0858764648438,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Build", "Debt", "0", "0", "0", "1", "1", "Note:", "PR=Pull", "Request;", "CC=Code", "Comment;", "IS=Issue", "Section;", "CM=Commit", "Message", "Test", "Debt", "1", "0", "2", "5", "8", "Documentation", "Debt", "0", "0", "2", "2", "4", "Architecture", "Debt", "0", "0", "1", "0", "1", "Defect", "Debt", "0", "7", "1", "0", "8", "Code/Design", "Debt", "12", "17", "96", "20", "145", "Requirement", "Debt", "3", "5", "21", "5", "34", "SATD", "Type", "PR", "CC", "IS", "CM", "TOTAL"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 563.52,
+    "y1": 105.6,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Table2-1.png"
+}, {
+  "caption": "Figure 2: Distributions of CWE across SSATD artefacts. Note: CWEs with a frequency < 2 are not displayed in the graph.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.3497314453125,
+    "y1": 482.54034423828125,
+    "y2": 499.1289978027344
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 226.56,
+    "y2": 469.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644909-Figure2-1.png"
+}]

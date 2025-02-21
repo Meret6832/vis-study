@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 2: Design examples taken from the target datasets. The gray boxes represent the intent of each corresponding code snippet.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7196044921875,
+    "y1": 472.0283508300781,
+    "y2": 499.5769958496094
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "A", "design", "example", "of", "ODEX5.", "return", "(T1", "*", "1).", "astype(int)"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 444.0,
+    "y2": 463.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695593-Figure2-1.png"
+}, {
+  "caption": "Table 3: Code understandability scores of original and refactored datasets.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6396179199219,
+    "y1": 625.4033203125,
+    "y2": 641.9929809570312
+  },
+  "figType": "Table",
+  "imageText": ["MBPP𝑡𝑟𝑎𝑖𝑛", "42.22", "90.81", "(115.09%)", "CoNaLa𝑡𝑟𝑎𝑖𝑛", "76.62", "77.10", "(0.01%)", "CodeAlpaca𝑡𝑟𝑎𝑖𝑛", "70.57", "81.42", "(15.37%)", "DS1000𝑡𝑟𝑎𝑖𝑛", "87.58", "95.31", "(8.83%)", "ODEX𝑡𝑟𝑎𝑖𝑛", "72.17", "73.60", "(1.98%)", "Dataset", "Original", "Score", "Refactored", "Score"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 267.36,
+    "y1": 648.9599999999999,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695593-Table3-1.png"
+}, {
+  "caption": "Figure 5: RQ3 - Effectiveness of design alignment. The Y-axis shows the values of the metrics (Pass@1 for the left four plots and BLEU for the right two plots). The X-axis of each subplot represents the datasets before (left-hand side: CodeAlpaca𝑡𝑟𝑎𝑖𝑛) and after (right-hand side: CodeAlpaca𝑑𝑒𝑠𝑖𝑔𝑛𝑒𝑑 ) applying design alignment. Both datasets are applied to each target model to fine-tune it. Detailed values are available in [1].",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.7662963867188,
+    "y1": 234.62136840820312,
+    "y2": 273.22802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Tuning", "Data", "CodeAlpacatrain", "CodeAlpacadesigned", "Model", "CodeGen-350M-Mono", "StarCoder-1B", "DeepSeek-Coder-1.3B", "DeepSeek-Coder-6.7B", "MagiCoder-DS-6.7B", "CodeLlama-7B", "Llama-2-7B", "ODEXtest", "40", "30", "20", "10", "0", "CoNaLatest", "40", "30", "20", "10", "0", "U", "B", "LE", "MBPP+test", "80", "70", "60", "50", "40", "30", "20", "10", "0", "MBPPtest", "60", "50", "40", "30", "20", "10", "0", "HumanEval+test", "60", "50", "40", "30", "20", "10", "0", "HumanEvaltest", "70", "60", "50", "40", "30", "20", "10", "0", "ASE", "’24,", "October", "27-November", "1,", "2024,", "Sacramento,", "CA,", "USA", "K.", "Kim", "et", "al.", "P", "as", "s@", "1"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 558.24,
+    "y1": 62.4,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695593-Figure5-1.png"
+}, {
+  "caption": "Figure 4: RQ2 — Effectiveness of the semantic correlation cor-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.642578125,
+    "y1": 541.3233032226562,
+    "y2": 546.9539794921875
+  },
+  "figType": "Figure",
+  "imageText": ["Test", "Dataset", "HumanEval", "HumanEval+", "MBPP", "MBPP+", "CoNaLa", "ODEX", "Llama-2-7B", "+44%", "+26%", "-41%", "-51%", "-13%", "-10%", "CodeLlama-7B", "+4%", "0%", "+4%", "+2%", "+4%", "+4%", "MagiCoder-DS-6.7B", "-13%", "-15%", "+8%", "+3%", "+5%", "+1%", "DeepSeek-Coder-6.7B", "+18%", "+18%", "+9%", "-1%", "+1%", "0%", "DeepSeek-Coder-1.3B", "+8%", "+4%", "+10%", "0%", "-9%", "-9%", "StarCoder-1B", "+46%", "+35%", "-14%", "-8%", "+5%", "+8%", "CodeGen-350M-Mono", "0%", "-1%", "-1%", "-29%", "+5%", "-4%"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 292.32,
+    "y1": 400.8,
+    "y2": 531.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695593-Figure4-1.png"
+}, {
+  "caption": "Figure 3: RQ1 — Effectiveness of the automated refactoring on the MBPP𝑡𝑒𝑠𝑡 benchmark with the names of training datasets listed beneath each plot. The greater the coverage of the green portion, the stronger the performance it signifies. The detailed results, including all the combinations of datasets and models, are provided in our Online Appendix [1]. 4.2 RQ2: Semantic Correlational Correction Setup: For this RQ, motivated by Section 3.6.2, we hypothesize that enhancing the semantic correlation of datasets can improve code generation performance compared to fine-tuning with the original dataset. Therefore, we compare the model performance between before and after correcting the semantic correlation of datasets. In particular, we select the MBPP𝑡𝑟𝑎𝑖𝑛 because of its high average semantic correlation score with method-level source code. For this task, we employ GPT-3.5-turbo to correct the semantic correlations between intent-code pairs in the dataset. Our prompt to the GPT was straightforward as follows: ‘Please correct the semantic correlations between the following pair <NL intent> ... <Code> ...’. Upon obtaining the corrected pairs, we achieved an improved correlation score of 86.23%, surpassing the original 83.94% checking with our fine-tuned DeepSeek-Coder-6.7B-Instruct model (Section 3.6.2). Subsequently, we re-fine-tune the original models to compare their performances.",
+  "captionBoundary": {
+    "x1": 53.46699905395508,
+    "x2": 558.18896484375,
+    "y1": 173.62136840820312,
+    "y2": 394.4949951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Tuning", "Data", "Original", "Refactored", "ODEXtrain", "60", "40", "20", "Llama-", "2-7B", "CodeLlama-", "7B", "DeepSeek-", "Coder-6.7B", "MagiCoder-", "DS-6.7B", "DeepSeek-", "Coder-1.3B", "StarCoder-", "1B", "CodeGen-", "350M-Mono", "DS-1000train", "60", "40", "20", "Llama-", "2-7B", "CodeLlama-", "7B", "DeepSeek-", "Coder-6.7B", "MagiCoder-", "DS-6.7B", "DeepSeek-", "Coder-1.3B", "StarCoder-", "1B", "CodeGen-", "350M-Mono", "CodeAlpacatrain", "Llama-", "2-7B", "10", "20", "30", "40", "50", "CodeLlama-", "7B", "DeepSeek-", "Coder-6.7B", "MagiCoder-", "DS-6.7B", "DeepSeek-", "Coder-1.3B", "StarCoder-", "1B", "CodeGen-", "350M-Mono", "CoNaLatrain", "Llama-", "2-7B", "10", "20", "30", "40", "50", "CodeLlama-", "7B", "DeepSeek-", "Coder-6.7B", "MagiCoder-", "DS-6.7B", "DeepSeek-", "Coder-1.3B", "StarCoder-", "1B", "CodeGen-", "350M-Mono", "MBPPtrain", "60", "40", "20", "Llama-", "2-7B", "CodeLlama-", "7B", "DeepSeek-", "Coder-6.7B", "MagiCoder-", "DS-6.7B", "DeepSeek-", "Coder-1.3B", "StarCoder-", "1B", "CodeGen-", "350M-Mono"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 556.3199999999999,
+    "y1": 86.39999999999999,
+    "y2": 164.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695593-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Characteristic exploration of the target training datasets. There are three groups of dataset characteristics: readability, size metrics, and quality-related. The initial values are extracted by using SonarQube, a well-known static analyzer. Such values are calculated as frequencies such as (1+𝑛𝑢𝑚𝑏𝑒𝑟𝑂 𝑓𝐶𝑜𝑛𝑑𝑖𝑡𝑖𝑜𝑛𝑎𝑙𝐵𝑟𝑎𝑛𝑐ℎ𝑒𝑠)/𝑛𝑢𝑚𝑏𝑒𝑟𝑜 𝑓 𝑟𝑒𝑐𝑜𝑟𝑑𝑠 which is theoretically indefinite. Consequently, we normalize these values to fit into the range of [0.00, 10.00].",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 559.7327270507812,
+    "y1": 242.44436645507812,
+    "y2": 280.9519958496094
+  },
+  "figType": "Figure",
+  "imageText": ["10", "8", "6", "4", "2", "0", "Quality-related", "3.82", "0.00", "7.09", "0.00", "0.00", "0.11", "0.00", "0.42", "10.00", "0.00", "0.00", "0.00", "0.00", "10.00", "7.07", "0.00", "0.00", "0.94", "0.00", "3.40", "0.00", "3.16", "2.98", "1.65", "0.00", "2.43", "10.00", "5.76", "2.43", "0.00", "0.00", "4.76", "10.00", "10.00", "10.00", "10.00", "7.48", "9.68", "10.00", "1.64", "8.13", "8.88", "8.18", "10.00", "8.88", "8.35", "10.00", "10.00", "4.33", "2.48", "7.04", "0.16", "10.00", "0.00", "0.01", "0.00", "9.66", "0.86", "0.00", "0.00", "0.86", "9.66", "7.70", "0.10", "6.26", "8.46", "6.56", "7.23", "0.00", "10.00", "6.71", "10.00", "0.14", "10.00", "0.00", "0.00", "10.00", "0.14", "0.09", "6.08", "t", "t", "C", "os", "pm", "en", "Dev", "elo", "rt", "E", "ffo", "iat", "ion", "em", "ed", "ilit", "y", "R", "Reli", "ab", "s", "ss", "ue", "ilit", "y", "I", "eli", "ab", "#", "o", "f", "R", "su", "es", "ity", "Is", "na", "bil", "ain", "tai", "#", "o", "f", "M", "ine", "s", "ate", "d", "L", "up", "lic", "#", "o", "f", "D", "loc", "ks", "ate", "d", "B", "up", "lic", "#", "o", "f", "D", "mell", "s", "od", "e", "S", "#", "o", "f", "C", "ug", "s", "#", "o", "f", "B", "xit", "y", "om", "ple", "File", "C", "xit", "y", "om", "ple", "ive", "C", "Cog", "nit", "xit", "y", "Com", "ple", "s", "ati", "on", "r", "V", "iol", "loc", "ke", "#", "o", "f", "B", "on", "s", "iol", "ati", "ino", "r", "V", "#", "o", "f", "M", "on", "s", "iol", "ati", "ajo", "r", "V", "#", "o", "f", "M", "s", "ati", "on", "l", "V", "iol", "riti", "ca", "#", "o", "f", "C", "on", "s", "iol", "ati", "#", "o", "f", "V", "Size", "Metrics", "0.03", "0.02", "0.05", "10.00", "7.09", "10.00", "0.00", "0.00", "0.00", "0.00", "0.00", "0.00", "6.10", "5.68", "6.18", "3.98", "3.83", "1.54", "0.00", "10.00", "3.17", "8.83", "4.76", "0.62", "10.00", "10.00", "9.30", "0.71", "10.00", "0.00", "10.00", "7.51", "7.64", "7.68", "10.00", "10.00", "0.00", "0.00", "0.00", "9.98", "8.38", "9.65", "0.00", "0.20", "0.01", "0.19", "0.10", "0.00", "8.72", "8.15", "10.00", "0.00", "0.00", "1.42", "0.00", "6.93", "10.00", "10.00", "6.08", "0.63", "s", "t", "L", "ine", "om", "men", "#", "o", "f", "C", "ns", "Nclo", "c", "ca", "tio", "In", "vo", "eth", "od", "#", "o", "f", "M", "s", "eth", "od", "#", "o", "f", "M", "les", "ari", "ab", "#", "o", "f", "V", "s", "las", "se", "#", "o", "f", "C", "ng", "ths", "ce", "Le", "Sen", "ten", "ng", "ths", "To", "ke", "n", "L", "en", "gth", "s", "Word", "Le", "ine", "s", "#", "o", "f", "T", "ok", "en", "s", "#", "o", "f", "L", "ter", "s", "ha", "rac", "#", "o", "f", "C", "Readability", "1.55", "0.00", "0.06", "0.00", "3.62", "2.15", "0.54", "10.00", "8.99", "2.61", "6.43", "5.48", "0.00", "5.15", "0.00", "2.42", "10.00", "10.00", "10.00", "6.69", "ODEX", "DS1000", "CodeAlpaca", "CoNaLa", "MBPP", "ity", "da", "bil", "d", "R", "ea", "rdi", "ze", "Stan", "da", "ity", "da", "bil", "R", "ea", "FLA", "W", "ne", "E", "McA", "lpi", "ity", "da", "bil", "g", "R", "ea", "Gun", "nin", "ity", "da", "bil", "R", "ea", "Fles", "ch"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 556.3199999999999,
+    "y1": 85.92,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695593-Figure1-1.png"
+}, {
+  "caption": "Table 2: Semantic correlation scores (range: [0.00,100.00]) of the target training datasets.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1917114257812,
+    "y1": 289.26934814453125,
+    "y2": 305.8580017089844
+  },
+  "figType": "Table",
+  "imageText": ["MBPP𝑡𝑟𝑎𝑖𝑛", "83.94", "CoNaLa𝑡𝑟𝑎𝑖𝑛", "91.71", "CodeAlpaca𝑡𝑟𝑎𝑖𝑛", "81.74", "DS-1000𝑡𝑟𝑎𝑖𝑛", "79.92", "ODEX𝑡𝑟𝑎𝑖𝑛", "91.08", "Dataset", "Semantic", "Correlation"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 363.84,
+    "x2": 510.24,
+    "y1": 312.96,
+    "y2": 371.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695593-Table2-1.png"
+}]

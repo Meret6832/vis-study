@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: The training process required for integrating SEC for an LCM (contains 𝑛 layers). The Layers and LM Heads with shadows indicate that they are well-trained and their parameters are frozen during training.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.201171875,
+    "y1": 218.1708526611328,
+    "y2": 231.95147705078125
+  },
+  "figType": "Figure",
+  "imageText": ["Threshold", "Continue", "Exit", "Stop", "Token", "Token", "Token", "Token"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 506.88,
+    "y1": 84.0,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Examples to demonstrate the effects of SEC, where the left and right of the figure respectively demonstrate the scenario of STOP and EXIT.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.0465087890625,
+    "y1": 239.9728546142578,
+    "y2": 263.71551513671875
+  },
+  "figType": "Figure",
+  "imageText": ["“Easy", "to", "complete", "since", "similar", "examples", "exist", "in", "the", "context.”", "“Hard", "to", "complete", "as", "the", "necessary", "information", "is", "missing.”", "=", "null;", "FEW", "layers", "=", "null;", "ALL", "layers", "=", "null;", "Completions", "(by", "LCM", "with", "EXIT)", "Completions", "(by", "LCM", "without", "EXIT)", "Expected", "Code", "Code", "To", "Complete", "private", "final", "void", "clearStrings()", "{", "//", "Clear", "the", "string", "values", "m_appParam", "=", "null;", "m_comment", "=", "null;", "m_fullName", "=", "null;", "m_homeDir", "Dismiss", "m_", "Accept", "m_group", "=", "null;", "m_homeDir", "=", "null;", "Completions", "(by", "LCM", "with", "STOP)", "Completions", "(by", "LCM", "without", "STOP)", "Expected", "Code", "Code", "To", "Complete", "private", "final", "void", "clearStrings()", "{", "//", "Clear", "the", "string", "values", "m_appParam", "=", "null;", "m_comment", "=", "null;", "m_fullName", "=", "null;"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 82.56,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Figure1-1.png"
+}, {
+  "caption": "Table 3: The productivity measurement of SEC-enhanced LCMs on Java dataset when both actions are enabled, AR=Acceptance Rate.",
+  "captionBoundary": {
+    "x1": 53.535099029541016,
+    "x2": 294.0431823730469,
+    "y1": 86.84253692626953,
+    "y2": 100.62322998046875
+  },
+  "figType": "Table",
+  "imageText": ["Origin", "0.623", "8.6", "0.0%", "39.8%", "1%", "Tolerance", "0.615", "1.1%↓", "8.3", "6.3%", "40.1%", "5%", "Tolerance", "0.588", "5.6%↓", "7.2", "23.7%", "44.1%", "10%", "Tolerance", "0.537", "13.7%↓", "6.4", "36.4%", "46.2%", "CodeGen", "Origin", "0.732", "9.7", "0.0%", "46.7%", "1%", "Tolerance", "0.725", "0.9%↓", "8.6", "11.1%", "47.0%", "5%", "Tolerance", "0.674", "7.9%↓", "7.8", "31.8%", "47.2%", "10%", "Tolerance", "0.611", "16.5%↓", "6.8", "57.3%", "44.9%", "GPT-2", "Model", "Thresholds", "ROUGE-L", "Length", "#Stops", "AR"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 286.08,
+    "y1": 103.67999999999999,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Table3-1.png"
+}, {
+  "caption": "Table 1: An investigation of the number of layers required to correctly predict the next token for a given code context.",
+  "captionBoundary": {
+    "x1": 317.6925964355469,
+    "x2": 559.62646484375,
+    "y1": 86.84253692626953,
+    "y2": 100.62322998046875
+  },
+  "figType": "Table",
+  "imageText": ["Proportion", "14.5%", "54.4%", "9.0%", "19.2%", "0.9%", "Layers", "Failed", "1", "Layer", "2-5", "Layers", "6-11", "Layers", "12", "Layer"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 552.0,
+    "y1": 103.67999999999999,
+    "y2": 128.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Table1-1.png"
+}, {
+  "caption": "Figure 2: Demonstration of the typical generation process of a 4- layer Transformer, where the model generates four tokens for the input sequence using four steps. [SOS] and [EOS] are special tokens respectively indicating the start of the input sequence and the end of the generation.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.4710693359375,
+    "y1": 230.32984924316406,
+    "y2": 273.99847412109375
+  },
+  "figType": "Figure",
+  "imageText": ["text", ".", "[EOS]"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 266.88,
+    "y1": 85.92,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Figure2-1.png"
+}, {
+  "caption": "Figure 5: The accuracy of the action classifier of SEC.",
+  "captionBoundary": {
+    "x1": 210.82940673828125,
+    "x2": 401.17205810546875,
+    "y1": 248.6887969970703,
+    "y2": 252.5064697265625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 90.24,
+    "x2": 520.3199999999999,
+    "y1": 84.96,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Figure5-1.png"
+}, {
+  "caption": "Table 2: The results of the saving effects of SEC-enhanced LCMs. The data in the gray background means that the tolerance size is too loose for this setting, where its results are also applicable under the tighter tolerance.",
+  "captionBoundary": {
+    "x1": 53.535099029541016,
+    "x2": 558.3719482421875,
+    "y1": 86.84253692626953,
+    "y2": 100.62322998046875
+  },
+  "figType": "Table",
+  "imageText": ["1%", "18.3", "8.6", "×1.03", "20.0", "8.3", "×1.04", "6.3%", "0.615", "1.1%↓", "18.3", "8.3", "×1.07", "6.3%", "5%", "16.8", "8.6", "×1.06", "19.7", "7.2", "×1.17", "23.7%", "0.588", "5.6%↓", "16.7", "7.2", "×1.24", "23.7%", "10%", "14.5", "8.7", "×1.11", "19.3", "6.4", "×1.29", "35.8%", "0.537", "13.7%↓", "14.3", "6.4", "×1.44", "36.4%", "20%", "12.5", "8.8", "×1.15", "18.4", "5.5", "×1.47", "48.2%", "0.476", "23.6%↓", "12.2", "5.6", "×1.72", "50.4%", "Origin", "20.0", "8.6", "×1.00", "20.0", "8.6", "×1.00", "0.0%", "0.623", "20.0", "8.6", "×1.00", "0.0%", "Java", "1%", "18.5", "9.6", "×1.03", "19.9", "8.8", "×1.07", "12.8%", "0.457", "1.3%↓", "18.5", "8.8", "×1.09", "12.8%", "5%", "17.4", "9.6", "×1.05", "19.7", "7.8", "×1.19", "29.7%", "0.440", "4.9%↓", "17.3", "7.7", "×1.25", "30.5%", "10%", "15.4", "9.6", "×1.09", "19.3", "6.5", "×1.39", "49.6%", "0.407", "12.1%↓", "15.3", "6.4", "×1.54", "52.0%", "20%", "12.5", "9.7", "×1.15", "18.4", "5.1", "×1.73", "68.1%", "0.338", "26.9%↓", "12.5", "5.0", "×2.04", "73.1%", "Origin", "20.0", "9.6", "×1.00", "20.0", "9.6", "×1.00", "0.0%", "0.463", "20.0", "9.6", "×1.00", "0.0%", "Python", "CodeGen", "1%", "11.1", "9.1", "×1.06", "12.0", "8.6", "×1.05", "8.7%", "0.725", "0.9%↓", "11.1", "8.6", "×1.11", "8.7%", "5%", "9.1", "9.3", "×1.22", "11.8", "7.6", "×1.16", "24.9%", "0.674", "7.9%↓", "9.0", "7.8", "×1.42", "24.9%", "10%", "8.3", "9.5", "×1.29", "11.5", "6.4", "×1.31", "42.9%", "0.611", "16.5%↓", "8.2", "6.8", "×1.71", "44.8%", "20%", "8.3", "9.5", "×1.29", "11.5", "6.4", "×1.31", "42.9%", "0.611", "16.5%↓", "8.2", "6.8", "×1.71", "44.8%", "Origin", "12.0", "9.1", "×1.00", "12.0", "9.1", "×1.00", "0.0%", "0.732", "12.0", "9.1", "×1.00", "0.0%", "Java", "1%", "9.4", "9.7", "×1.20", "12.0", "9.5", "×1.01", "2.5%", "0.591", "1.1%↓", "9.4", "9.6", "×1.18", "2.3%", "5%", "8.7", "9.7", "×1.28", "11.8", "7.8", "×1.20", "31.8%", "0.562", "6.0%↓", "8.7", "8.0", "×1.48", "28.5%", "10%", "7.2", "9.8", "×1.46", "11.6", "6.8", "×1.34", "47.3%", "0.516", "13.8%↓", "7.4", "7.4", "×1.84", "37.7%", "20%", "4.2", "9.9", "×2.02", "10.9", "5.2", "×1.67", "69.5%", "0.421", "29.6%↓", "4.7", "7.0", "×2.97", "37.7%", "Origin", "12.0", "9.7", "×1.00", "12.0", "9.7", "×1.00", "0.0%", "0.598", "12.0", "9.7", "×1.00", "0.0%", "Python", "GPT-2", "#Layers", "Length", "Speed", "#Layers", "Length", "Speed", "#Stops", "ROUGE-L", "#Layers", "Length", "Speed", "#Stops", "Model", "Lang.", "Tolerance", "Exit", "only", "Stop", "only", "Both"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 551.04,
+    "y1": 103.67999999999999,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Table2-1.png"
+}, {
+  "caption": "Figure 3: Demonstration of the working mechanism of SEC. The left part shows how SEC controls the inference using a classifier after Layer 𝑖 computing its hidden state. The right part showcases the generation process of a 4-layer SEC-enhanced LCM, where SEC exits at Round 4&6 and stops at Round 5. The layers skipped by SEC are in grey color.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.20654296875,
+    "y1": 218.0967559814453,
+    "y2": 241.8394775390625
+  },
+  "figType": "Figure",
+  "imageText": ["Threshold", "Continue", "Exit", "Stop", "[STOP]", "[TOKEN]", "strip", "text", ".", "[STOP]", "()"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 71.52,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639120-Figure3-1.png"
+}]

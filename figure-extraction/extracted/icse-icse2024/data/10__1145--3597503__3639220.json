@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 5: Analysis rules for sparse abstract execution with equivalent correlation tracking across domains. The rules for",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.3724365234375,
+    "y1": 201.56192016601562,
+    "y2": 203.64202880859375
+  },
+  "figType": "Figure",
+  "imageText": ["kill(ℓ", ":", "∗p", "=", "q)", ":=", "", "{rf", "{o}", "↦→", "_", "|", "o", "∈", "𝛾", "(𝜎", "(p)", ")", "}", "if", "𝜎", "(p)", "≡", "⟨⊤,", "{rf", "{o}", "}⟩", "∧", "o", "is", "singleton", "{rf", "{o}", "↦→", "_", "|", "o", "∈", "O}", "if", "𝜎", "(p)", "≡", "⟨⊤,∅⟩", "∅", "otherwise", "[StoreStmt]", "ℓ", ":", "∗p", "=", "q", "𝛿ℓ", ":=", "𝛿ℓ", "⋃•", "{𝛾", "(𝜎", "(p)", ")", "↦→", "𝜎", "(q)", "}⋃•𝛿ℓ", "\\", "kill(ℓ", ")", "ℓ", "∧", "rf", "∩𝜎", "(𝑞)≠∅}", "𝛿ℓ", "(rf", ")", "[LoadStmt]", "ℓ", ":", "p", "=", "∗q", "𝜎", "(p)", ":=", "⊔", "rf", "∈{rf", "|", "(rf", "↦→_)", "∈𝛿", "[GepStmt]", "ℓ", ":", "p", "=", "&(q→i)", "𝑜𝑟", "ℓ", ":", "p", "=", "&(q[i]", ")", "𝜎", "(p)", ":=", "⊔", "o∈dr", "(𝛾", "(𝜎", "(q)", ")", ")", "⊔", "𝑗", "∈𝛾", "(𝜎", "(i)", ")", "⟨⊤,", "rf", "{o.fld𝑗", "}", "⟩", "𝜎", "(p)", ":=", "⟨⊤,", "rf", "{oi}", "⟩", "[AddrStmt]", "ℓ", ":", "p", "=", "allocoi", "rf", "↩→", "ℓ", "𝛿ℓ", ":=", "𝛿ℓ", "⋃•", "{rf", "↦→", "𝛿ℓ", "′", "(rf", ")", "}", "[ValueFlow]", "ℓ", "′"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 87.36,
+    "x2": 524.16,
+    "y1": 83.03999999999999,
+    "y2": 191.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Abstract traces by single-object and implication-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7937622070312,
+    "y1": 315.1658935546875,
+    "y2": 317.2460021972656
+  },
+  "figType": "Figure",
+  "imageText": ["3| r = *loc3;", "1| *loc1", "=", "1;", "2| *loc2", "=", "5;"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 555.36,
+    "y1": 224.64,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure6-1.png"
+}, {
+  "caption": "Figure 1: Sparse analysis without cross-domain refinement vs sparse analysis with cross-domain refinement.",
+  "captionBoundary": {
+    "x1": 86.60700225830078,
+    "x2": 525.3759765625,
+    "y1": 232.79086303710938,
+    "y2": 234.8709716796875
+  },
+  "figType": "Figure",
+  "imageText": ["pts(p):", "the", "points-to", "set", "of", "pointer", "p", "itv(v):", "the", "interval", "value", "of", "variable", "v", "//", "itv(slot)", "=", "[0,", "3]", "Safe", "buffer", "access!tab[*loc2]", "False", "overflow", "alarm!tab[*loc2]", "Must-not-", "aliases", "//", "safe", "array", "access", "of", "tab", "Spurious", "aliases", "//", "loc1", "and", "loc2", "are", "not", "aliases", "Refine", "itv(*loc2)", "using", "pts(loc1)", "Cross-domain", "refinement", "No", "refinements", "across", "multiple", "domains", "Refine", "pts(loc1)", "using", "itv(slot)", "itv(*loc1) = [0,", "5]", "itv(*loc2) = [0,", "0]", " itv(slot) = [0,", "3]", "Interval", "Domain", " itv(slot) = [0,", "3]", "itv(*loc1) = [0,", "5]", "itv(*loc2) = [0,", "5]", "Interval", "Domain", "pts(loc2)", "=", "{&ids[4]}", "Memory", "Address", "Domain", "Memory", "Address", "Domain", "7   print(tab[*loc2]);  ", "6   int *loc2", "= &ids[4]; ", "3 ", " int slot", "=", "randn()", "% 4;", "4 ", " int *loc1", "= &ids[slot];", "5 ", " *loc1", "= 5;", "   ", "...", "pts(loc1)", "=", "{&ids[0],", "&ids[1]...&ids[4]}", "pts(loc1)", "=", "{&ids[0],", "&ids[1],...&ids[3]}", "1 ", " int ids[5]", "=", "{0};", "2 ", " char *tab", "=", "malloc(5);", " ", " ", "...", "(b)", "Sparse", "analysis", "without", "cross-domain", "refinement", "(c)", "Sparse", "analysis", "with", "cross-domain", "refinement", "pts(loc2)", "=", "{&ids[4]}", "(a)", "Source", "code"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 551.04,
+    "y1": 84.0,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure1-1.png"
+}, {
+  "caption": "Figure 10: Distribution of mem-set sizes.",
+  "captionBoundary": {
+    "x1": 356.3009948730469,
+    "x2": 519.8497924804688,
+    "y1": 204.74288940429688,
+    "y2": 206.822998046875
+  },
+  "figType": "Figure",
+  "imageText": ["102", "105", "103", "103", "103", "101", "101", "101", "2000", "4000", "1000", "1500", "500", "1000250", "750", "1000", "0", "0", "0", "0", "500", "500", "NanoMQ", "redis", "tmux", "Teeworlds", "Mem-set", "size", "Mem-set", "size", "be", "r", "N", "um", "be", "r", "N", "um"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 76.8,
+    "y2": 193.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure10-1.png"
+}, {
+  "caption": "Table 1: LLVM-like Language",
+  "captionBoundary": {
+    "x1": 378.84698486328125,
+    "x2": 497.0098571777344,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ℓ", "::=", "Stmt", "p", "=", "c", "ConsStmt", "p", "=", "alloco", "AddrStmt", "p", "=", "&(q→fld)", "GepStmt", "(Field)", "p", "=", "&q[c]", "|", "p", "=", "&q[v]", "GepStmt", "(Array)", "p", "=", "∗q", "LoadStmt", "∗p", "=", "q", "StoreStmt", "p", "=", "q", "CopyStmt", "p", "=", "phi(p1,", "p2,", "...pn", ")", "PhiStmt", "p", "=", "¬q", "UnaryStmt", "r", "=", "p", "⊙", "q", "BinaryStmt", "⊙", "∈", "{+,", "-,", "∗,", "/,", "%,", "<<,", ">>,", "<,", ">,", "&,", "&&,", "<=,>=,", "≡,", "∼,", "|", ",", "∧", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 97.92,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Table1-1.png"
+}, {
+  "caption": "Figure 2: An overview of our framework.",
+  "captionBoundary": {
+    "x1": 91.14399719238281,
+    "x2": 256.692138671875,
+    "y1": 170.85787963867188,
+    "y2": 172.93798828125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Clients", "SVF", "ICFG", "SVFG", "LLVM", "IR", "LLVM", "Program", "(a)", "Input", "Null", "dereference", "Assertion-based", "checking", "Buffer", "overflow", "Equivalent", "correlation", "tracking ", "(b)", "Sparse", "analysis", "Cross-domain", "refinement", "pts(...)Memory", "Address", "Domain", "Interval", "Domain", "itv(...)"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 84.0,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure2-1.png"
+}, {
+  "caption": "Figure 8: False positives reported by CSA.",
+  "captionBoundary": {
+    "x1": 353.3599853515625,
+    "x2": 520.5543823242188,
+    "y1": 164.28573608398438,
+    "y2": 166.3658447265625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Branch", "correlations.", "1", "int", "arr[8];", "2", "...", "3", "int", "s", "=", "input();", "4", "int", "idx", "=", "0", "5", "if(s", "==", "5)", "idx", "=", "idx", "+", "5;", "6", "if(s", "==", "3)", "idx", "=", "idx", "+", "3;", "7", "arr[idx]", "=", "1;", "(a)", "Memory", "operation", "functions.", "1", "char", "data[100];", "2", "memset(data,", "'A',", "50-1);", "3", "data[50-1]", "=", "'\\0';", "4", "len", "=", "strlen(data);", "5", "char", "dest[50]", "=", "\"\";", "6", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "7", "dest[i]", "=", "data[i];"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.48,
+    "y1": 83.52,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Examples extracted from NIST dataset.",
+  "captionBoundary": {
+    "x1": 75.27801513671875,
+    "x2": 270.31536865234375,
+    "y1": 382.9756774902344,
+    "y2": 385.0557861328125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Handling", "library", "functions.", "1", "int", "data;", "2", "char", "buf[len]", "=", "\"\";", "3", "if", "(fgets(buf,", "len,", "stdin))", "4", "{", "5", "data", "=", "atoi(buf);", "6", "}", "(c)", "Handling", "library", "functions.", "1", "int", "idx;", "2", "fscanf(stdin,", "\"%d\",", "&idx);", "3", "int", "buf[10]", "=", "{", "0", "};", "4", "if", "(idx", ">=", "0)", "{", "5", "buf[idx]", "=", "1;", "6", "}", "(b)", "Handling", "pointers.", "1", "char", "buf[10];", "2", "*pa", "=", "5;", "//", "pa", "->", "o1", "3", "...", "4", "*pb", "=", "10;", "//", "pb", "->", "o2", "5", "...", "6", "send(buf[*pc]);", "//", "pc", "->", "o1", "(a)", "Handling", "arrays.", "1", "int", "buf[5]", "=", "{0};", "2", "...", "3", "buf[idx]", "=", "5;", "//", "idx:", "[0,", "2]", "4", "...", "5", "int", "dest[5]", "=", "{0};", "6", "int", "c", "=", "dest[buf[4]];", "BugNum", "8589", "252", "8841", "Infer", "19.23", "70.57", "53.17", "50.19", "20.20", "68.48", "Cppcheck", "2.72", "100.00", "42.86", "85.71", "3.87", "95.00", "KLEE", "67.78", "98.81", "91.27", "93.12", "68.45", "98.58", "IKOS", "49.76", "45.83", "92.86", "92.86", "50.99", "47.07", "Sparrow", "44.64", "32.49", "90.48", "52.78", "45.95", "33.21", "CSA-CP", "73.84", "42.62", "100.00", "42.64", "74.58", "42.65", "CSA", "73.84", "84.11", "100.00", "100.00", "74.58", "84.63", "Tool", "Buffer", "overflow", "Null", "dereference", "Total", "#TPR", "(%)", "#PCR", "(%)", "#TPR", "(%)", "#PCR", "(%)", "#TPR", "(%)", "#PCR", "(%)"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 130.56,
+    "y2": 372.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Sparse analysis on the memory address and interval domains by revisiting the example in Figure 1.",
+  "captionBoundary": {
+    "x1": 86.79000091552734,
+    "x2": 525.1912841796875,
+    "y1": 175.85488891601562,
+    "y2": 177.93499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["aliases", "Must-", "not-", "Spurious", "value-flow", "False", "overflow", "alarm!", "5| *loc1", "= 5;1| int ids[5]", "=", "{0};", "Safe", "buffer", "access!7| print(tab[*loc2]);", "5| *loc1", "= 5;1| int ids[5]", "=", "{0};", "(a)", "Sparse", "analysis", "over", "combined", "domains", "using", "Cartesian", "product", "(b)", "Sparse", "analysis", "over", "combined", "domains", "using", "correlation", "tracking", "7| print(tab[*loc2]);"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 548.16,
+    "y1": 86.88,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure3-1.png"
+}, {
+  "caption": "Table 4: Comparing CSA with five open-source tools and CSA-CP using ten popular applications. #TP and #FP are true positive and false positive, respectively. Time (secs), Mem (MB) are running time andmemory costs. The − in the Time columns indicates a running time of more than 4h. The − in the Mem columns indicates a cost of more than 100 Gigabytes.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.194580078125,
+    "y1": 89.27688598632812,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["paste", "1", "15", "7", "61", "0", "17", "1", "9", "3", "21", "512", "1126", "4", "0", "2911", "1711", "4", "35", "3", "51", "3", "19", "5", "92", "3", "0", "9", "106", "md5sum", "2", "21", "8", "80", "0", "18", "1", "11", "2", "35", "986", "1684", "3", "0", "2824", "1642", "2", "22", "2", "48", "4", "26", "15", "121", "4", "1", "8", "110", "YAJL", "0", "17", "9", "110", "0", "14", "1", "12", "1", "1625", "2895", "4822", "4", "16", "14400", "17333", "3", "86", "6", "59", "3", "35", "7", "172", "3", "0", "5", "102", "MP4v2", "1", "28", "313", "335", "1", "26", "38", "38", "1", "956", "3684", "6215", "2", "3", "14400", "21358", "1", "236", "214", "231", "1", "25", "58", "269", "1", "0", "13", "384", "RIOT", "3", "29", "111", "155", "2", "19", "2", "22", "2", "1325", "5216", "8622", "5", "2", "14400", "23654", "2", "651", "315", "421", "8", "38", "102", "366", "8", "6", "27", "346", "darknet", "25", "134", "837", "282", "16", "214", "10", "55", "14", "1265", "9531", "23954", "25", "8", "14400", "40015", "10", "842", "826", "984", "21", "199", "3483", "1982", "21", "10", "3507", "1875", "tmux", "5", "142", "522", "909", "3", "156", "30", "39", "4", "1632", "11325", "38366", "2", "1", "14400", "70826", "3", "1256", "1036", "1894", "12", "360", "1182", "6343", "12", "10", "824", "5052", "Teeworlds", "10", "169", "684", "934", "4", "187", "2", "54", "2", "529", "13569", "40368", "2", "1", "14400", "71865", "10", "1512", "1593", "2984", "15", "244", "2754", "3485", "15", "8", "2886", "2598", "NanoMQ", "23", "154", "654", "305", "10", "147", "94", "38", "−", "−", "−", "−", "5", "2", "14400", "91465", "6", "1241", "1642", "3125", "30", "292", "1801", "7063", "30", "8", "1143", "6551", "redis", "6", "137", "1292", "10484", "8", "136", "516", "123", "−", "−", "−", "−", "3", "2", "14400", "101475", "5", "1152", "2654", "9211", "14", "275", "8629", "4421", "14", "8", "6553", "3870", "Total", "76", "846", "4437", "13655", "44", "934", "695", "401", "29", "7388", "47718", "125157", "55", "35", "120935", "441344", "46", "7033", "8291", "19008", "111", "1513", "18036", "24314", "111", "51", "14975", "20994", "Report", "Time", "Mem", "Report", "Time", "Mem", "Report", "Time", "Mem", "Report", "Time", "Mem", "Report", "Time", "Mem", "Report", "Time", "Mem", "Report", "Time", "Mem", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "Project", "Infer", "Cppcheck", "IKOS", "KLEE", "Sparrow", "CSA-CP", "CSA"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 120.0,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Table4-1.png"
+}, {
+  "caption": "Figure 9: A false positive scenario eliminated by CSA and two bugs found by CSA in real-world projects.",
+  "captionBoundary": {
+    "x1": 95.97695922851562,
+    "x2": 516.0204467773438,
+    "y1": 376.74371337890625,
+    "y2": 378.8238220214844
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "A", "buffer", "overflow", "bug", "in", "darknet.", "1", "void", "valid_captcha(...,", "char", "*f)", "{", "2", "char", "**labels", "=", "get_labels(f);", "3", "network", "*net", "=", "load_network(...);", "4", "list", "*plist", "=", "get_paths(...);", "5", "...", "6", "for(int", "i", "=", "0;", "I<", "plist->size;", "++i)", "7", "...", "8", "for(int", "j", "=", "0;", "j", "<", "13;", "++j)", "9", "...", "10", "if(strstr(...,labels[j]))", "11", "...", "12", "}", "(b)", "A", "null", "dereference", "bug", "in", "Teeworlds.", "1", "void", "CSound::RateConvert(int", "SampleID)", "{", "2", "CSample", "*pSample", "=", "&m_aSamples[SampleID];", "3", "...", "4", "int", "NumFrames", "=", "...;", "5", "short", "*pNewData", "=", "(short", "*)", "mem_alloc(...);", "6", "...", "7", "for(int", "i", "=", "0;", "i", "<", "NumFrames;", "i++)", "8", "...", "9", "if(pSample->m_Channels", "==", "1)", "10", "pNewData[i]", "=", "pSample->m_pData[f];", "11", "...", "12", "}", "(a)", "A", "safe", "buffer", "access", "in", "NanoMQ.", "1", "void", "process_msg()", "{", "2", "PNode", "*hd", "=", "get_node_arr();", "3", "PNode", "*n1", "=", "hd", "+", "inc1;", "4", "recv(n1->len,", "...);", "5", "...", "6", "PNode", "*n2", "=", "n1", "+", "step;", "7", "enquiry_msg_queue(n2);", "8", "}", "9", "void", "enquiry_msg_queue(PNode", "*n)", "{", "10", "memcpy(sh->buf,", "ptr,", "n->len);", "11", "...", "12", "}"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 535.1999999999999,
+    "y1": 256.32,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure9-1.png"
+}, {
+  "caption": "Figure 4: Analysis rules for sparse abstract execution by tracking correlations across domains. 𝑎 ⊒ 𝑏 represents 𝑎 := 𝑎 ⊔ 𝑏. f# is the abstract operator concerning the concrete operator f. 𝛾 (𝜎 (p)) concretes the abstract value 𝜎 (p) based on Definition 1 and returns the memory address set pointed by p or the integers residing inside the interval value of variable p. o.fldj represents the 𝑗 th field of the base object o.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.20166015625,
+    "y1": 221.68386840820312,
+    "y2": 257.89300537109375
+  },
+  "figType": "Figure",
+  "imageText": ["kill(ℓ", ":", "∗p", "=", "q)", ":=", "", "{o", "↦→", "_", "|", "o", "∈", "𝛾", "(𝜎", "(p)", ")", "}", "if", "𝜎", "(p)", "≡", "⟨⊤,", "{o}⟩", "∧", "o", "is", "singleton", "{o", "↦→", "_", "|", "o", "∈", "O}", "if", "𝜎", "(p)", "≡", "⟨⊤,∅⟩", "∅", "otherwise", "𝛿ℓ", "⊒", "({𝑜", "↦→", "𝜎", "(q)", "|𝑜", "∈", "𝛾", "(𝜎", "(p)", ")", "}", "⊔", "𝛿ℓ", "\\", "kill(ℓ", ")", ")", "[StoreStmt]", "ℓ", ":", "∗p", "=", "q", "ℓ", "}", "𝛿ℓ", "(𝑜", ")", "[LoadStmt]", "ℓ", ":", "p", "=", "∗q", "𝜎", "(p)", ":=", "⊔", "𝑜∈{𝑜", "|", "(𝑜", "↦→_)", "∈𝛿", "𝜎", "(p)", ":=", "⟨⊤,", "{𝑜𝑖", "}⟩", "[GepStmt]", "ℓ", ":", "p", "=", "&(q→i)", "𝑜𝑟", "ℓ", ":", "p", "=", "&(q[i]", ")", "𝜎", "(p)", ":=", "⊔", "o∈𝛾", "(𝜎", "(q)", ")", "⊔", "𝑗", "∈𝛾", "(𝜎", "(i)", ")", "⟨⊤,", "{o.fld𝑗", "}⟩", "[AddrStmt]", "ℓ", ":", "p", "=", "allocoi", "𝜎", "(r)", ":=", "𝜎", "(p)", "⊙#", "𝜎", "(q)", "ℓ", ":", "r", "=", "p", "⊙", "q", "[PhiStmt]", "ℓ", ":", "r", "=", "phi(p1,", "p2,", "...,", "pn", ")", "𝜎", "(r)", ":=", "⊔n", "i=1", "𝜎", "(pi", ")", "[UnaryStmt]", "ℓ", ":", "p", "=", "¬q", "𝜎", "(p)", ":=", "¬#𝜎", "(q)", "[BinaryStmt]", "ℓ", ":", "p", "=", "c", "𝜎", "(p)", ":=", "⟨𝛼", "({c}),⊤⟩", "[CopyStmt]", "ℓ", ":", "p", "=", "q", "𝜎", "(p)", ":=", "𝜎", "(q)", "𝛿ℓ", "(𝑜", ")", "⊒", "𝛿ℓ", "′", "(𝑜", ")", "[ConsStmt]", "[ValueFlow]", "ℓ", "′", "𝑜", "↩→", "ℓ"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 102.24,
+    "x2": 507.35999999999996,
+    "y1": 84.47999999999999,
+    "y2": 211.67999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639220-Figure4-1.png"
+}]

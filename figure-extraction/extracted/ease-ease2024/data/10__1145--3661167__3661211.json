@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 4: (a) An example of tree embedding for the AST ofmemcpy(buf,str,len). (b) An example of graph embedding for the neighbors of the node memcpy(buf,str,len) in the CFG and PDG.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2037963867188,
+    "y1": 407.5647888183594,
+    "y2": 420.60400390625
+  },
+  "figType": "Figure",
+  "imageText": ["DP", "DP", "CP", "DP", "memcpy", "(", "buf", ",", "str", ",", "len", ")", "if(len", ">=", "BUF_SIZE)", "char", "*", "str", "char", "buf", "[BUF_SIZE]", "size_t", "len", "=", "strlen", "(", "str", ")", "buf", "str", "len", "memcpy", "buf", ",", "str", ",", "len", "memcpy", "(", "buf", ",", "str", ",", "len", ")", "(a)", "Tree", "Embedding", "(b)", "Graph", "Embedding"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 526.0799999999999,
+    "y1": 309.59999999999997,
+    "y2": 384.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661211-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Overall structure of the neural network model in VulDL. The upper part is the network model for the vulnerability",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.4563598632812,
+    "y1": 274.63580322265625,
+    "y2": 276.71600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["Node", "Classification", "Module", "Graph", "Classification", "Module", "Encoder", "Module", "Encoder", "Module", "Is", "Vulnerable", "Line", "?", "𝑁𝑜𝑑𝑒𝑥", "…", "𝑁𝑜𝑑𝑒𝑛", "𝑁𝑜𝑑𝑒2", "𝑁𝑜𝑑𝑒1", "Sigmoid", "Dense", "Layer", "Attention", "Layer", "Layer", "Tree", "Aggregation", "Layer", "Graph", "Embedding", "Layer", "Tree", "Embedding", "…", "𝐴𝑆𝑇𝑛", "𝐴𝑆𝑇2", "𝐴𝑆𝑇1", "CFG", "and", "PDG", "ASTs", "Aggregation", "Layer", "Aggregation", "LayerTree", "Sigmoid", "Graph", "Layer", "Graph", "Embedding", "Layer", "Tree", "Embedding", "Dense", "Layer", "…", "𝐴𝑆𝑇𝑛", "𝐴𝑆𝑇2", "𝐴𝑆𝑇1", "Has", "Vulnerabilities", "?", "CFG", "and", "PDG", "ASTs", "ACPG"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 93.11999999999999,
+    "x2": 523.68,
+    "y1": 92.64,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661211-Figure3-1.png"
+}, {
+  "caption": "Table 1: Amount of data in datasets.",
+  "captionBoundary": {
+    "x1": 365.3479919433594,
+    "x2": 510.5140380859375,
+    "y1": 189.22979736328125,
+    "y2": 191.30999755859375
+  },
+  "figType": "Table",
+  "imageText": ["SARD-BE", "7273", "10706", "10389", "428966", "SARD-RME", "4124", "8497", "5601", "235900", "SARD-COMB", "11397", "19203", "15990", "664866", "FFmpeg+QEMU", "11670", "13919", "N/A", "N/A", "Dataset", "Vulnerable", "Samples", "Benign", "Samples", "Vulnerable", "Nodes", "Benign", "Nodes"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 205.92,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661211-Table1-1.png"
+}, {
+  "caption": "Figure 1: (a) A sample code snippet. (b) The ACPG of the sample code snippet where the blue nodes and lines represent the",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2032470703125,
+    "y1": 209.42779541015625,
+    "y2": 211.50799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["CP", "return", "ERROR", "memcpy", "(", "buf", ",", "str", ",", "len", ")", "if(len", ">=", "BUF_SIZE)", "char", "*", "str", "char", "buf", "[BUF_SIZE]", "size_t", "len", "=", "strlen", "(", "str", ")", "(a)", "(b)", "}", "char", "buf[BUF_SIZE];", "size_t", "len", "=", "strlen(str);", "if(len", ">=", "BUF_SIZE)", "return", "ERROR;", "memcpy(buf,", "str,", "len);", "int", "foo(char", "*str)", "{", "EXIT", "returnERROR", "buf", "str", "len", "len", "memcpy", "buf", ",", "str", ",", "len", "BUF_SIZE", "if", ">=", "strlen", "str", "len", "strlen", "(", "str", ")", "=", "size_t", "len", "[BUF_SIZE]", "BUF_SIZE", "buf", "size_t", "len", "char", "*", "str", "char", "DP", "DP", "DP", "CP", "CP", "DP", "return", "ERROR", "memcpy", "(", "buf", ",", "str", ",", "len", ")", "if(len", ">=", "BUF_SIZE)", "char", "*", "strENTRY", "char", "buf", "[BUF_SIZE]", "size_t", "len", "=", "strlen", "(", "str", ")"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 535.1999999999999,
+    "y1": 86.88,
+    "y2": 191.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661211-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An example of squeezing the AST nodes in CPG.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.5744934082031,
+    "y1": 397.2727966308594,
+    "y2": 399.3529968261719
+  },
+  "figType": "Figure",
+  "imageText": ["Identifier", "len", "Argument", "len", "Identifier", "str", "Argument", "str", "memcpy", "Identifier", "memcpy", "memcpy", "(", "buf", ",", "str", ",", "len", ")", "memcpy", "(", "buf", ",", "str", ",", "len", ")", "ExpressionStatement", "Callee", "CallExpression", "Identifier", "buf", "Argument", "buf", "buf", ",", "str", ",", "len", "ArgumentList"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 248.16,
+    "y1": 265.92,
+    "y2": 377.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661211-Figure2-1.png"
+}, {
+  "caption": "Table 5: Evaluation results of the vulnerability localization.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1021118164062,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["SARD-BE", "0.03", "2.71", "97.29", "98.47", "97.88", "SARD-RME", "0.03", "1.83", "98.17", "98.46", "98.31", "SARD-COMB", "0.02", "0.85", "99.15", "99.18", "99.16", "F1", "(%)", "P", "(%)", "Dataset", "FPR", "(%)", "FNR", "(%)", "R", "(%)"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 535.1999999999999,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661211-Table5-1.png"
+}]

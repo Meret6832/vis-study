@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: An illustrated example of our method. The red area represents the valid input space of an operator, and the blue area represents the search space of the constraint.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0454406738281,
+    "y1": 479.1308288574219,
+    "y2": 505.4020080566406
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Identify", "counter", "test", "cases.", "(b)", "Re", "ne", "the", "constraint."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 277.44,
+    "y1": 369.59999999999997,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Figure1-1.png"
+}, {
+  "caption": "Table 1: The number of DL operators supported by di erent tools. ‘D’ denotes DeepConstr, ‘R’ represents NeuRI, and ‘N’ refers toNNSmith. ‘PT’ and ‘TF’ are PyTorch and Tensor ow, respectively.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.296142578125,
+    "y1": 332.06683349609375,
+    "y2": 369.2969970703125
+  },
+  "figType": "Table",
+  "imageText": ["PT", "843", "722", "59", "623", "220", "99", "59", "784", "0", "TF", "258", "274", "63", "190", "68", "84", "63", "195", "0", "∩", "'", "−", "'", "'", "−", "∩", "#", "−", "#", "#", "−", "Library", "'", "#", "vs", "'", "vs", "#"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 384.0,
+    "y2": 431.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Table1-1.png"
+}, {
+  "caption": "Table 3: Examples of detailed constraints that is adopted by DeepConstr and DeepConstr − .",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.4580078125,
+    "y1": 374.63482666015625,
+    "y2": 389.9469909667969
+  },
+  "figType": "Table",
+  "imageText": ["Dimension", "out", "of", "range", "(expected", "to", "be", "in", "range", "of", "[-1,", "0],", "but", "got", "1)", "-1", "<", "dim", "∧", "dim", "≤", "0", "-dim", "≤", "len(input)", "∧", "len(input)", ">", "dim", "tensor", "expected", "for", "input", "rank(input)", "=", "3", "∧", "rank(input)", "≠", "5", "rank(input)", "=", "3", "∨", "rank(input)", "=", "4", "Non-empty", "3D", "or", "4D", "(batch", "mode)", "dtype(input)", "=", "float32", "dtype(input)", "=", "dtype(out)", "dtype(input)", "=", "dtype(out)", "∧", "the", "desired", "output", "type", "Short", "Result", "type", "Float", "can’t", "be", "cast", "to", "Target", "Error", "Message", "Constraints", "of", "DeepConstr−", "Constraints", "of", "DeepConstr"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 404.64,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Table3-1.png"
+}, {
+  "caption": "Table 2: Comparative experiment results on branch coverage and the number of test case.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0488586425781,
+    "y1": 87.0038070678711,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["T", "en", "so", "rF", "lo", "w", "DeepConstr", "1292.93", "-", "-", "NNSmith", "3674.80", "24/63", "(", "38.1%)", "-4.17%", "NeuRI", "138.11", "118/190", "(", "62.1%)", "27.26%", "DeepConstr−", "1459.21", "109/258", "(", "42.25%)", "6.41%", "NeuRI", "123.31", "363/623", "(", "58.27%)", "25.94%", "DeepConstr−", "2660.60", "360/843", "(", "42.7%)", "1.25%", "o", "rc", "h", "DeepConstr", "1954.61", "-", "-", "NNSmith", "14626.52", "29/59", "(", "49.15%)", "39.00%", "P", "yT", "Library", "Tool", "#Testcase", "#Operators", "Improved", "%Cov", "Improved"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 116.64,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Table2-1.png"
+}, {
+  "caption": "Figure 2: Overview of a constraint re nement process.",
+  "captionBoundary": {
+    "x1": 328.5589904785156,
+    "x2": 547.599365234375,
+    "y1": 191.48080444335938,
+    "y2": 195.833984375
+  },
+  "figType": "Figure",
+  "imageText": ["(§4.2)", "(§4.3)", "Error", "Message", "1Error", "Message", "1Error", "Message", "1", "(§4.1)", "Constraint", "Error", "Message", "Constraint", "Refinement", "{Constraint", "1,", ",", "Constraint", "}", "Constraint", "Set", "DL", "Operator", "Constraint", "Measurement", "Constraint", "Synthesis", "Raw", "Constraint", "Exploration"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The grammar de nition of constraint.",
+  "captionBoundary": {
+    "x1": 342.031005859375,
+    "x2": 534.1273803710938,
+    "y1": 546.4697875976562,
+    "y2": 550.822998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 471.84,
+    "y2": 532.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Figure3-1.png"
+}, {
+  "caption": "Table 4: Statistical overview of constraints on PyTorch and TensorFlow. ` represents themean value, and<83 denotes the median value. ‘PT’ and ‘TF’ indicate PyTorch and Tensor ow, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.134765625,
+    "y1": 355.43182373046875,
+    "y2": 392.6619873046875
+  },
+  "figType": "Table",
+  "imageText": ["Table", "4", "demonstrates", "that", "the", "overall", "re", "nement", "design", "of", "Deep-", "Constr", "using", "a", "genetic", "algorithm", "is", "e", "ective", "in", "generating", "higher-", "quality", "constraints.", "In", "Table", "4,", "“`”", "denotes", "the", "mean", "value", "and", "“<83”", "indicates", "the", "median", "value.", "The", "data", "reveals", "that", "both", "the", "DeepConstr", "and", "DeepConstr−", "successfully", "re", "ne", "constraints", "that", "resolve", "the", "error", "messages.", "This", "success", "is", "re", "ected", "in", "the", "soundness", "columns", "for", "both", "PyTorch", "and", "TensorFlow,", "where", "both", "DeepConstr", "and", "DeepConstr−", "achieve", "a", "median", "soundness", "score", "of", "100,", "with", "themean", "score", "of", "bothDeepConstr", "andDeepConstr−", "achieves", "94.92%", "to", "96.53%.", "The", "overall", "design", "of", "DeepConstr", "con-", "tribute", "this", "suc", "This", "result", "is", "due", "to", "the", "fact", "that", "the", "constraint", "is", "synthesized", "iteratively", "and", "gradually", "enhanced,", "leading", "to", "high-", "quality", "constraint", "re", "nement.", "The", "num", "rows", "also", "indicate", "that", "both", "DeepConstr", "and", "DeepConstr−", "demonstrate", "e", "ective", "sub-", "constraints", "nding", "ability,", "extracting", "averaged", "7.61", "and", "8.82", "on", "PyTorch,", "and", "7.74", "and", "9.26", "on", "TensorFlow.", "soundness", "`", "=", "94.89%,<83", "=", "100.00%", "`", "=", "94.45%,<83", "=", "100.00%", "completeness", "`", "=", "89.68%,<83", "=", "100.00%", "`", "=", "85.34%,<83", "=", "95.74%", "num", "`", "=", "7.74,<83", "=", "5", "`", "=", "9.26,<83", "=", "8", "TF", "soundness", "`", "=", "95.29%,<83", "=", "100.00%", "`", "=", "95.54%,<83", "=", "100.00%", "completeness", "`", "=", "80.38%,<83", "=", "88.24%", "`", "=", "76.32%,<83", "=", "76.34%", "=D<", "`", "=", "7.61,<83", "=", "6", "`", "=", "8.82,<83", "=", "7", "PT", "metrics", "DeepConstr", "DeepConstr−"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 295.68,
+    "y1": 407.52,
+    "y2": 676.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Table4-1.png"
+}, {
+  "caption": "Table 5: Overview of reported bugs.",
+  "captionBoundary": {
+    "x1": 366.41009521484375,
+    "x2": 509.4515075683594,
+    "y1": 484.2660217285156,
+    "y2": 488.61920166015625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "84", "72", "51", "Others", "0", "0", "0", "Runtime", "error", "4", "2", "2", "Inconsistency", "6", "5", "2", "TensorFlow", "Others", "10", "10", "4", "Runtime", "error", "34", "34", "30", "Inconsistency", "30", "21", "13", "PyTorch", "Symptom", "Total", "Con", "rmed", "Fixed"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 503.52,
+    "y2": 611.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Table5-1.png"
+}, {
+  "caption": "Figure 4: The prompt template used by DeepConstr.",
+  "captionBoundary": {
+    "x1": 66.14610290527344,
+    "x2": 281.6971130371094,
+    "y1": 325.5198059082031,
+    "y2": 329.87298583984375
+  },
+  "figType": "Figure",
+  "imageText": ["Question", "Based", "on", "the", "given", "runtime", "information({Runtime", "information}),", "formulate", "constraints", "that", "prevent", "this", "error", "=>", "{target", "error", "message}", "\\nAnswers", ":", "Task", "Description", "You", "developed", "the", "function", "{function_name},", "and", "know", "everything", "about", "it.", "Infer", "the", "root", "cause", "of", "given", "error", "messages", "with", "its", "runtime", "information,", "and", "then", "formulate", "the", "condition", "that", "make", "the", "error", "disappear.", "Think", "step-by-step", "as", "below", "examples.", "Chain", "of", "Thought", "Examples", "Question", ":", "Based", "on", "the", "given", "runtime", "information(input", ":", "Tensor[shape=[1,2],", "dtype=float32],", "kernal_size=5,", "padding=2),", "formulate", "constraints", "that", "prevent", "this", "error", "->", "kernel", "size", "should", "be", "at", "most", "2", "times", "of", "padding", "Chain", "of", "Thought", ":", "The", "error", "occurs", "because", "the", "kernel", "size", "exceeds", "twice", "the", "size", "of", "the", "padding.", "What", "the", "arguments", "were?", "kernel", "size", "of", "5", "and", "padding", "of", "2,", "which", "are", "incompatible.", "To", "avoid", "this", "error,", "kernel", "size", "must", "be", "less", "than", "or", "equal", "to", "twice", "the", "padding", "size.", "Left", ":", "kernel_size,", "Op", ":", "<=,", "Comparators", ":", "2", "*", "padding", "Answer", ":", "```kernel_size", "<", "=", "2", "*", "padding```"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 219.35999999999999,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680364-Figure4-1.png"
+}]

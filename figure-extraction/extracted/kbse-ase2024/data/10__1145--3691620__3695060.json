@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 4: GlitchProber workflow for detecting glitch tokens. The red arrows represent the data flow during the training process, while the black arrows represent the data flow during the detection process.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.1990966796875,
+    "y1": 218.2384796142578,
+    "y2": 233.49237060546875
+  },
+  "figType": "Figure",
+  "imageText": ["Attention", "Q", "K", "V", "MLP", "data", "MLP", "gate", "…", "Layer", "N-1", "…", "…", "…", "…", "…", "…", "…", "……", "…", "Detailed", "Forward", "1", "Select", "Key", "Layers", "Layer", "1", "MLP", "data", "MLP", "gate", "Attention", "Q", "K", "V", "Layer", "0", "MLP", "data", "MLP", "gate", "Attention", "Q", "K", "V", "Embedding", "Forward", "1", "Features", "PCA", "MLP", "Data", "MLP", "Gate", "Hook", "Attention", "Pattern", "Select", "Key", "Layers", "Data", "Collection", "Post-processing", "NNGG", "GN", "NN", "NG", "Training", "Classifier", "Training", "Set", "Labeling", "Labels", "N", "N", "G", "N", "N", "N", "N", "G", "N", "Other", "Tokens", "Forward", "n", "Embedding", "Forward", "1", "Forward", "2", "Open-Source", "LLM", "Open-Source", "LLM", "très", "ниче", "Found", "Tele", "Input", "Template", "Token", "Vocabulary", "Repetitive", "Task", "Sample", "Tokens", "fields", "später", "Ссылки", "ást"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 520.3199999999999,
+    "y1": 90.72,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Figure4-1.png"
+}, {
+  "caption": "Table 7: Model performance across different gamma values on Llama2 model",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.0420227050781,
+    "y1": 327.6487121582031,
+    "y2": 342.9027099609375
+  },
+  "figType": "Table",
+  "imageText": ["Sampling", "Rate", "𝛾", "=", "0.1", "𝛾", "=", "0.2", "𝛾", "=", "0.3", "𝛾", "=", "0.5", "𝛾", "=", "0.7", "Precision", "100%", "100%", "100%", "100%", "100%", "Recall", "69.22%", "72.81%", "74.57%", "76.65%", "78.12%", "F1", "Score", "81.81%", "84.26%", "85.43%", "86.78%", "87.72%", "Time", "61min", "38s", "68min", "14s", "74min", "30s", "86min", "52s", "100min", "41s"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 351.84,
+    "y2": 397.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table7-1.png"
+}, {
+  "caption": "Table 8: Performance comparison of original and modified model using Finetuning and GlitchProber for Mitigation",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.04803466796875,
+    "y1": 412.61590576171875,
+    "y2": 427.86981201171875
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Original", "Model", "GlitchProber", "Finetuning", "GSM8K", "0.315", "0.301", "0.238", "HumanEval", "pass@1", "0.129", "0.103", "0.009", "HumanEval", "pass@5", "0.190", "0.161", "0.024", "MMLU", "0.453", "0.417", "0.229"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 430.56,
+    "y2": 481.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table8-1.png"
+}, {
+  "caption": "Figure 6: Different Feature Combination Comparison for GlitchProber",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.228515625,
+    "y1": 293.00970458984375,
+    "y2": 308.2626037597656
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 290.4,
+    "y1": 82.56,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Figure6-1.png"
+}, {
+  "caption": "Figure 5: GlitchProber workflow for fixing glitch tokens.",
+  "captionBoundary": {
+    "x1": 54.16210174560547,
+    "x2": 293.67889404296875,
+    "y1": 264.0415954589844,
+    "y2": 268.33648681640625
+  },
+  "figType": "Figure",
+  "imageText": ["Modified", "MLP", "data", "Modified", "MLP", "gate", "MLP", "data", "MLP", "gate", "Attention", "Q", "K", "V", "Key", "Layers", "N", "N", "N", "Statistics", "&", "Adjust", "Attention", "Q", "K", "V", "Other", "Layers", "MLP", "data", "MLP", "gate", "Modified", "Forward", "Embedding", "…", "Modified", "Forward", "n", "Modified", "Forward", "1", "Modified", "Forward", "2", "…", "Forward", "n", "Forward", "1", "Forward", "2", "Input", "Template", "Repetitive", "Task", "Correct", "Answer", "Glitch", "Answer", "GG", "G", "Open-Source", "LLM"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 84.96,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Figure5-1.png"
+}, {
+  "caption": "Table 5: Performance comparison of GlitchProber and Rule-based method on different models.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.06329345703125,
+    "y1": 87.06227111816406,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["Repair", "Rate", "36.79%", "50.06%", "Average", "Repaired", "Tokens", "5,613", "7,758", "Repair", "Rate", "41.83%", "53.26%", "Yi-6B-Chat", "Repaired", "Tokens", "3,390", "4,317", "Repair", "Rate", "35.28%", "48.77%", "Gemma-2b-it", "Repaired", "Tokens", "9,865", "13,638", "Repair", "Rate", "34.68%", "48.11%", "Qwen-7B-Chat", "Repaired", "Tokens", "10,645", "14,765", "Repair", "Rate", "12.92%", "37.60%", "Mistral-7B-Instruct-v0.1", "Repaired", "Tokens", "359", "1,045", "Repair", "Rate", "59.22%", "62.58%", "Llama-2-7b-chat", "Repaired", "Tokens", "3,805", "4,021", "Rule-based", "Fix", "GlitchProber", "Model", "Metric", "Method"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table5-1.png"
+}, {
+  "caption": "Table 6: Post process time of GlitchProber using various SVM parameter configurations (in seconds)",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.197265625,
+    "y1": 87.06227111816406,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["7", "DISCUSSION", "Attn_pattern", "1,413.88", "1,453.21", "1,360.12", "1,357.70", "MLP_gate", "1,407.36", "1,458.88", "1,436.23", "1,445.11", "MLP_data", "1,473.43", "1,541.10", "1,579.08", "1,581.00", "Attn_pattern", "+", "MLP_gate", "1,410.79", "1,438.57", "1,444.74", "1,472.50", "Attn_pattern", "+", "MLP_data", "1,427.43", "1,479.34", "1,514.72", "1,513.41", "MLP_gate", "+", "MLP_data", "1,453.72", "1,504.36", "1,546.09", "1,530.88", "Attn_pattern", "+", "MLP_gate", "+", "MLP_data", "1,444.23", "1,471.85", "1,502.46", "1,500.23", "degree=3", "C=1", "degree=3", "C=0.5", "degree=2", "C=0.5", "degree=2", "Feature", "Type", "C=0.1"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table6-1.png"
+}, {
+  "caption": "Figure 1: The distribution of attention patterns and MLP status for glitch tokens (shown in red color) and normal tokens (in blue color) in Llama2 model",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.0455627441406,
+    "y1": 178.42237854003906,
+    "y2": 204.6353759765625
+  },
+  "figType": "Figure",
+  "imageText": ["MLP", "Gate", "di", "m", "1", "PCA", "dim2", "PC", "A", "di", "m", "1", "PC", "A", "(b)", "MLP", "Status", "PCA", "dim2", "MLP", "Data", "0.00", "0.16", "y", "ue", "nc", "Fr", "eq", "Glitch", "Tokens", "Normal", "Tokens", "(a)", "Attention", "Pattern", "0", "0.2", "0.4", "0.6", "0.8", "1"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 59.04,
+    "x2": 291.36,
+    "y1": 87.36,
+    "y2": 172.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Figure1-1.png"
+}, {
+  "caption": "Table 4: Comparison of performance and memory usage for GlitchProber with different feature configurations across various language models.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.390869140625,
+    "y1": 301.8077087402344,
+    "y2": 328.0205993652344
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "‘–’", "denotes", "incomplete", "experiment", "due", "to", "exceeding", "the", "maximum", "memory", "of", "our", "server", "of", "250.00GB.", "Memory", "83.32GB", "82.76GB", "250.00GB", "Yi-6B-Chat", "F1-Score", "0.8718", "0.4507", "–", "Memory", "131.04GB", "127.96GB", "250.00GB", "gemma-2b-it", "F1-Score", "0.8143", "0.4226", "–", "Memory", "109.03GB", "101.20GB", "250.00GB", "Qwen-7B-Chat", "F1-Score", "0.8854", "0.5510", "–", "Memory", "107.11GB", "102.67GB", "250.00GB", "Mistral-7B-Instruct-v0.1", "F1-Score", "0.8652", "0.5429", "–", "Memory", "103.71GB", "101.22GB", "250.00GB", "Llama-2-7b-chat", "F1-Score", "0.8529", "0.6097", "–", "Model", "Metrics", "GlitchProber", "GlitchProber-No-Post", "GlitchProber-No-PCA"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.76,
+    "y1": 331.68,
+    "y2": 412.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table4-1.png"
+}, {
+  "caption": "Table 3: Performance comparison of GlitchProber and other baselines on different LLMs",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.20068359375,
+    "y1": 87.06227111816406,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["Average", "Performance", "Precision", "16.32%", "100.00%", "100.00%", "Recall", "46.24%", "26.52%", "64.47%", "F1-score", "0.2364", "0.4049", "0.7835", "TP", "3,215", "2,662", "4,900", "Precision", "13.10%", "100.00%", "100.00%", "Recall", "39.67%", "32.84%", "60.45%", "F1-score", "0.1969", "0.4944", "0.7535", "Yi-6B-Chat", "TP", "13,777", "3,240", "17,387", "Precision", "11.30%", "100.00%", "100.00%", "Recall", "49.27%", "10.56%", "62.18%", "F1-score", "0.1838", "0.1910", "0.7668", "Gemma-2b-it", "TP", "15,419", "4,031", "19,366", "Precision", "21.04%", "100.00%", "100.00%", "Recall", "50.24%", "14.42%", "63.08%", "F1-score", "0.2966", "0.2521", "0.7736", "Qwen-7B-Chat", "Mistral-7B-Instruct-v0.1", "TP", "1,288", "1,233", "1,873", "Precision", "11.44%", "100.00%", "100.00%", "Recall", "46.35%", "44.37%", "67.41%", "F1-score", "0.1836", "0.6147", "0.8053", "TP", "2,936", "1,955", "4,446", "Precision", "24.74%", "100.00%", "100.00%", "Recall", "45.70%", "30.43%", "69.22%", "F1-score", "0.3210", "0.4724", "0.8181", "Llama-2-7b-chat", "GlitchHunter", "GlitchProber", "Random", "Sampling", "Test", "Model", "Metric", "Rule-based"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 108.96,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table3-1.png"
+}, {
+  "caption": "Table 1: Summary of models in evaluation",
+  "captionBoundary": {
+    "x1": 87.0602035522461,
+    "x2": 258.2467346191406,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Name", "Number", "of", "Parameters", "Vocabulary", "Size", "Hidden", "Layers", "Intermediate", "Size", "Attention", "Heads", "Llama-2-7b-chat", "6.74B", "32,000", "32", "11,008", "32", "Mistral-7B-Instruct-v0.1", "7.24B", "32,000", "32", "14,336", "32", "Qwen-7B-Chat", "7.72B", "151,936", "32", "22,016", "32", "Gemma-2b-it", "2.51B", "256,000", "18", "16,384", "8", "Yi-6B-Chat", "6.06B", "64,000", "32", "11,008", "32"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 97.92,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table1-1.png"
+}, {
+  "caption": "Table 2: Time cost comparison of GlitchProber and other baselines on different LLMs.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.23760986328125,
+    "y1": 167.6585235595703,
+    "y2": 182.91241455078125
+  },
+  "figType": "Table",
+  "imageText": ["Llama-2-7b-chat", "619min", "43s", "74min", "11s", "61min", "38s", "Mistral-7B-Instruct-v0.1", "651min", "17s", "64min", "26s", "42min", "39s", "Qwen-7B-Chat", "2,228min", "23s", "720min", "42s", "92min", "48s", "Gemma-2b-it", "3,575min", "9s", "681min", "16s", "96min", "43s", "Yi-6B-Chat", "974min", "4s", "825min", "25s", "140min", "57s", "Average", "Time", "Cost", "1,609min", "42s", "473min", "11s", "89min", "9s", "Test", "Model", "Exhaustive", "Search", "GlitchHunter", "GlitchProber", "(ours)"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 185.76,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Table2-1.png"
+}, {
+  "caption": "Figure 2:Wasserstein distance of the probability distributions between glitch tokens and normal tokens in different intermediate layers of Llama2 model",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.2041015625,
+    "y1": 198.86952209472656,
+    "y2": 214.12237548828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 79.2,
+    "x2": 532.3199999999999,
+    "y1": 92.64,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The example distribution of attention patterns,MLP gate and MLP data for glitch tokens (shown in red color) and normal tokens (in blue color) in Qwen-7B-Chat and Mistral7B-Instruct.",
+  "captionBoundary": {
+    "x1": 53.565101623535156,
+    "x2": 295.64947509765625,
+    "y1": 367.4468994140625,
+    "y2": 404.6188049316406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 234.72,
+    "y2": 348.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695060-Figure3-1.png"
+}]

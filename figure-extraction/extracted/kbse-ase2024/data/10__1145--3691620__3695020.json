@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: The mapping from the C variable to the abstract variable corresponding to the offset in wat.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 558.2040405273438,
+    "y1": 241.0147705078125,
+    "y2": 254.052978515625
+  },
+  "figType": "Figure",
+  "imageText": ["One-to-One", "Correspondence", "Abstract", "variable:", "local_16", "C", "variable:", "i", "Wat", "data", "segment", "offset=16", "}", "for(int", "i=1;i<100;i++){", "printf(\"%d\",i);", "main_1:", "local.get", "6", "i32.store", "offset=16", "block", ";;", "label", "=", "@1", "loop", ";;", "label", "=", "@2", "local.get", "4", "i32.load", "offset=16", "local.set", "7", "...", "i32.load", "offset=16", "local.set", "14", "...", "i32.load", "offset=16", "local.set", "16", "...", "local.get", "18", "i32.store", "offset=16"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 535.1999999999999,
+    "y1": 84.0,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Figure4-1.png"
+}, {
+  "caption": "Table 1: The comparison between our WaDec approach and the state-of-the-art methods.",
+  "captionBoundary": {
+    "x1": 125.4219970703125,
+    "x2": 486.2751159667969,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["a", "This", "refers", "to", "code", "snippets", "that", "are", "more", "fine-grained", "than", "functions.", "Our", "approach", "WaDec", "✓", "✓", "✓", "✓", "✓", "WasmRev", "[17]", "✗", "✗", "✗", "✗", "✗", "LLM-based", "tools", "for", "Wasm", "WASPur", "[43]", "✗", "✗", "✗", "✗", "✗", "SnowWhite", "[25]", "✗", "✗", "✗", "✗", "✗", "NeurDP", "[7]", "✓", "✗", "✗", "✓", "✗", "LLM-based", "tools", "for", "general", "binary", "LLM4Decompile", "[47]", "✓", "✓", "✓", "✗", "✗", "Wasm-decompile", "[54]", "✓", "✗", "✗", "✗", "✓", "Traditional", "tools", "for", "Wasm", "Ghidra", "[35]", "✓", "✗", "✗", "✗", "✓", "Wasm2c[55]", "✓", "✗", "✗", "✗", "✓", "Source", "code", "generation", "Good", "readability", "Code", "bloat", "resolution", "Fine-grained", "snippetahandling", "Nested", "loop", "handling", "Challenges", "Decompilation-related", "tools"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 533.28,
+    "y1": 105.6,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Table1-1.png"
+}, {
+  "caption": "Figure 5: A concrete example of WaDec’s performance and",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2025146484375,
+    "y1": 212.45889282226562,
+    "y2": 214.53900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["W", "a", "D", "e", "c", "}", "local_28", "=", "local_28", "/", "local_32;", "}", "else", "local_28", "=", "1;", "printf(\"%d\",", "local_28);", "return", "0;", "local_28", "*=", "local_32;", "for", "(local_32", "=", "1;", "local_32", "<=", "local_40;", "local_32++)", "for", "(local_32", "=", "local_36;", "local_32", ">=", "local_36", "-", "local_40", "+", "1;", "local_32--)", "int", "local_40,", "local_36,", "local_32;", "int", "local_28", "=", "1;", "scanf(\"%d%d\",", "&local_40,", "&local_36);", "if", "(local_36", "==", "0", "||", "local_40", "==", "0)", "local_28", "=", "0;", "else", "if", "(local_36", ">=", "local_40)", "{", "#include", "<stdio.h>", "int", "main()", "{", "}", "}", "else", "{", "local_28", "=", "1;", "}", "printf(\"%d\",", "local_28);", "return", "0;", "local_28", "=", "local_28", "*", "local_32;", "}", "for", "(local_32", "=", "1;", "local_32", "<=", "local_40;", "local_32++)", "{", "local_28", "=", "local_28", "/", "local_32;", "}", "for", "(local_32", "=", "local_36;", "local_32", ">=", "(local_36", "-", "local_40", "+", "1);", "local_32--)", "{", "int", "local_40,", "local_36;", "int", "local_32,", "local_28", "=", "1;", "scanf(\"%d%d\",", "&local_36,", "&local_40);", "if", "(local_36", "==", "0", "||", "local_40", "==", "0)", "{", "local_28", "=", "0;", "}", "else", "if", "(local_36", ">=", "local_40)", "{", "S", "o", "u", "r", "c", "e", "C", "o", "d", "e", "#include", "<stdio.h>", "int", "main()", "{"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Figure5-1.png"
+}, {
+  "caption": "Figure 6: A concrete example of Ghidra’s performance.",
+  "captionBoundary": {
+    "x1": 327.7919921875,
+    "x2": 548.3606567382812,
+    "y1": 495.48089599609375,
+    "y2": 497.5610046386719
+  },
+  "figType": "Figure",
+  "imageText": ["G", "h", "i", "d", "r", "a", "/*", "Error", "decompiling", "import::wasi_snapshot_preview1::__wasi_proc_exit:", "Low-level", "Error:", "Injection", "error:", "Unable", "to", "disassemble", "EXTERNAL", "block", "location:", "ram:7f000000", "*/", "/*", "Error", "decompiling", "import::wasi_snapshot_preview1::__wasi_fd_write:", "Low-level", "Error:", "Injection", "error:", "Unable", "to", "disassemble", "EXTERNAL", "block", "location:", "ram:7f000004", "*/", "/*", "Error", "decompiling", "import::wasi_snapshot_preview1::__wasi_fd_close:", "Low-level", "Error:", "Injection", "error:", "Unable", "to", "disassemble", "EXTERNAL", "block", "location:", "ram:7f000008", "*/", "/*", "Error", "decompiling", "import::wasi_snapshot_preview1::__wasi_fd_read:", "Low-level", "Error:", "Injection", "error:", "Unable", "to", "disassemble", "EXTERNAL", "block", "location:", "ram:7f00000c", "*/", "/*", "Error", "decompiling", "import::wasi_snapshot_preview1::__wasi_fd_seek:", "Low-level", "Error:", "Injection", "error:", "Unable", "to", "disassemble", "EXTERNAL", "block", "location:", "ram:7f000010", "*/", "undefined4", "__original_main(void)", "{", "int", "local_30", "[4];", "int", "*local_20;", "int", "*local_1c;", "int", "local_14;", "int", "local_10;", "int", "local_c;", "int", "local_8;", "undefined4", "local_4;", "local_4", "=", "0;", "local_14", "=", "1;", "local_1c", "=", "&local_8;", "local_20", "=", "&local_c;", "scanf(&anon_var_conflict26,&local_20);", "if", "((local_c", "==", "0)", "||", "(local_8", "==", "0))", "{", "local_14", "=", "0;", "}", "else", "if", "(local_c", "<", "local_8)", "{", "local_14", "=", "1;", "}", "else", "{", "for", "(local_10", "=", "local_c;", "(local_c", "-", "local_8)", "+", "1", "<=", "local_10;", "local_10", "=", "local_10", "+", "-1)", "{", "local_14", "=", "local_14", "*", "local_10;", "}", "for", "(local_10", "=", "1;", "local_10", "<=", "local_8;", "local_10", "=", "local_10", "+", "1)", "{", "local_14", "=", "local_14", "/", "local_10;", "}", "}", "local_30[0]", "=", "local_14;", "printf(anon_var_conflict4d,local_30);", "return", "0;", "}"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 252.0,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Figure6-1.png"
+}, {
+  "caption": "Figure 1: An example of the limitations of Wasm2c, Wasm-decompile, and Ghidra: (a) Original C code. (b) The compiled Wasm code in text format (i.e., wat). (c) The decompiled C-like syntax from Wasm by Wasm-decompile. (d) The decompiled result by Wasm2c. (e) The decompiled result by Ghidra.",
+  "captionBoundary": {
+    "x1": 53.52000045776367,
+    "x2": 559.7350463867188,
+    "y1": 315.7738952636719,
+    "y2": 339.7720031738281
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "Decompiled", "by", "Ghidra", "(17", "lines)", "local_10", "=", "local_10", "+", "1)", "{", "local_20[0]", "=", "local_10;", "printf(anon_var_conflict26,local_20);", "}", "return", "local_4;", "}", "int", "local_20", "[4];", "int", "local_10;", "undefined4", "local_c;", "undefined4", "local_8;", "undefined4", "local_4;", "local_4", "=", "0;", "local_c", "=", "param2;", "local_8", "=", "param1;", "for", "(local_10", "=", "1;", "local_10", "<", "100;", "undefined4", "main(", "undefined4", "param1,", "undefined4", "param2){", "/*", "Error", "decompiling", "...", "*/", "(c)", "Decompiled", "by", "Wasm-", "decompile", "(38", "lines)", "function", "main(a:int,", "b:int):int", "{", "var", "c:int", "=", "stack_pointer;", "...", "loop", "L_b", "{", "...", "if", "(eqz(n))", "goto", "B_a;", "var", "o:int", "=", "e[4];", "e[0]", "=", "o;", "var", "p:int", "=", "65573;", "printf(p,", "e);", "...", "continue", "L_b;", "}", "unreachable;", "label", "B_a:", "...", "return", "t;", "}", "(b)", "Webassembly", "(138", "lines)", "(func", "$main", "(type", "5)", "(param", "i32", "i32)", "(result", "i32)", "{i32:19}", "global.get", "$__stack_pointer", "...", "i32.const", "1", "local.set", "6", "local.get", "4", "local.get", "6", "i32.store", "offset=16", "block", ";;", "label", "=", "@1", "loop", ";;", "label", "=", "@2", "local.get", "4", "i32.load", "offset=16", "...", "local.get", "18", "i32.store", "offset=16", "br", "0", "(;@2;)", "end", "unreachable", "end", "local.get", "4", "i32.load", "offset=28", "...", "global.set", "$__stack_pointer", "local.get", "19", "return)", "(d)", "Decompiled", "by", "Wasm2c", "(96", "lines)", "static", "u32", "w2c_main(u32", "w2c_p0,", "u32", "w2c_p1)", "{", "...", "FUNC_PROLOGUE;", "u32", "w2c_i0,", "w2c_i1;", "w2c_i0", "=", "w2c___stack_pointer;", "...", "w2c___stack_pointer", "=", "w2c_i0;", "...", "w2c_L1:", "...", "if", "(w2c_i0)", "{goto", "w2c_B0;}", "...", "w2c_i0", "=", "w2c_printf(w2c_i0,", "w2c_i1);", "w2c_i0", "=", "w2c_l4;", "...", "goto", "w2c_L1;", "UNREACHABLE;", "...", "w2c___stack_pointer", "=", "w2c_i0;", "w2c_i0", "=", "w2c_l19;", "goto", "w2c_Bfunc;", "w2c_Bfunc:;", "FUNC_EPILOGUE;", "return", "w2c_i0;", "}", "(a)", "Original", "C", "int", "main(int", "argc,", "int", "**argv)", "{", "for(int", "i=1;i<100;i++){", "printf(\"%d\",i);", "}", "}"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 84.0,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The workflow of WaDec.",
+  "captionBoundary": {
+    "x1": 235.83399963378906,
+    "x2": 376.1651306152344,
+    "y1": 546.6438598632812,
+    "y2": 548.7239990234375
+  },
+  "figType": "Figure",
+  "imageText": ["§3.3.1", "Slicing", "Strategy", "§3.3.3", "Variable", "Renaming", "§3.3.2", "Temporal", "and", "Spatial", "Information", "Supplement", "Renamed", "C", "Function", "Wat", "Function", "Wat2C", "Features", "Defined", "Variables", "Function", "Declarations", "&", "Func", "Call", "Analysis", "AST", "⇒", "Call", "Graph", "§3.4", "Modeling", "§3.2", "Dataset", "Construction", "Compile", "C", "⇒", "Wasm", "Tree-sitter", "C", "⇒", "AST", "C", "datasets", "Prompt", "Synthesis", "Wat", "Snippets", "⇒", "Prompts", "LLM", "Inferring", "Prompts", "⇒", "C", "Snippets", "Code", "Restruction", "C", "Snippets", "⇒", "Restructed", "Code", "Fine-tuning", "LLM", "⇒", "Fine-tuned", "LLM", "Spatiotemporal", "Information", "Slicing", "Strategy", "Function", "⇒", "Snippets", "§3.3", "Data", "Preprocessing", "Mapping", "Wat-C", "Function", "Pair", "Variable", "Renaming", "C", "⇒", "Renamed", "C", "LLVM-dwarfdump", "Wasm", "⇒", "DWARF", "Wasm2wat", "Wasm", "⇒", "Wat"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 559.1999999999999,
+    "y1": 354.71999999999997,
+    "y2": 529.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Figure2-1.png"
+}, {
+  "caption": "Table 4: Evaluation results of the reusability of WaDec.",
+  "captionBoundary": {
+    "x1": 325.4570007324219,
+    "x2": 550.403076171875,
+    "y1": 524.8318481445312,
+    "y2": 526.9119873046875
+  },
+  "figType": "Table",
+  "imageText": ["Ghidra", "0.90%", "0.90%", "0.89%", "WaDec", "52.11%", "43.55%", "27.15%", "Reusability", "Recompilation", "Re-execution", "Consistency"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 541.92,
+    "y2": 585.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Table4-1.png"
+}, {
+  "caption": "Table 3: Evaluation results of the baselines and our WaDec approach.",
+  "captionBoundary": {
+    "x1": 165.3309783935547,
+    "x2": 446.37127685546875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["WaDec", "0.7293", "0.7237", "0.9724", "0.6353", "0.8829", "3.34%", "0.8908", "Ghidra", "0.2565", "0.6687", "0.6915", "0.2589", "0.6403", "116.94%", "0.4997", "Wasm2c", "—", "0.5413", "0.5496", "—", "—", "964.84%", "—", "AED-S", "CCN", "COS", "CodeBLEU", "C@Func", "Bloat", "Rate", "C@Syntax", "Similarity", "Accurancy", "Readability", "Decompilation", "tools"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 142.56,
+    "x2": 469.44,
+    "y1": 105.6,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Table3-1.png"
+}, {
+  "caption": "Table 2: The features of the training dataset.",
+  "captionBoundary": {
+    "x1": 84.24899291992188,
+    "x2": 263.2909851074219,
+    "y1": 360.9748840332031,
+    "y2": 363.05499267578125
+  },
+  "figType": "Table",
+  "imageText": ["Offset2string", "Mapping", "from", "offsets", "to", "string", "constants.", "Temporal", "info", "Local", "variables", "already", "defined", "before", "current", "snippet.", "Spatial", "info", "Function", "declarations", "for", "called", "functions.", "C", "snippet", "Segmented", "based", "on", "loop", "blocks,", "corresponding", "to", "wat", "snippet.", "Wat", "snippet", "Segmented", "based", "on", "loop", "blocks.", "Feature", "Discription"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 377.76,
+    "y2": 452.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Table2-1.png"
+}, {
+  "caption": "Figure 3: An example of WaDec’s decompilation results: (a) Source code. (b) The compiled Wasm in text format. (c) Sliced wat",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.200927734375,
+    "y1": 313.1539001464844,
+    "y2": 315.2340087890625
+  },
+  "figType": "Figure",
+  "imageText": ["(f)", "Decompiled", "Result", "int", "main(int", "local_24,", "int", "**local_20)", "{", "for(int", "local_16=1;local_16<100;local_16++)", "{", "printf(\"%d\",local_16);", "}", "}", "(g)", "Decompiled", "C-like", "syntax", "by", "Wasm-decompile", "(for", "comparison)", "(e)", "Restructed", "C", "function", "main(a:int,", "b:int):int", "{", "var", "c:int", "=", "stack_pointer;", "var", "d:int", "=", "32;", "var", "e:int_ptr", "=", "c", "-", "d;", "stack_pointer", "=", "e;", "...", "var", "g:int", "=", "1;", "e[4]", "=", "g;", "loop", "L_b", "{", "var", "h:int", "=", "e[4];", "var", "i:int", "=", "100;", "...", "if", "(eqz(n))", "goto", "B_a;", "var", "o:int", "=", "e[4];", "...", "e[4]", "=", "s;", "continue", "L_b;", "}", "unreachable;", "label", "B_a:", "...", "stack_pointer", "=", "v;", "return", "t;", "}", "int", "main(int", "local_24,", "int", "**local_20)", "{", "for(int", "local_16=1;local_16<100;local_16++)", "{", "printf(\"(data", "i32.const", "65573)\",local_16);", "}", "}", "(d)", "Sliced", "C", "main_1:", "for(int", "local_16=1;local_16<100;local_16++){", "printf(\"(data", "i32.const", "65573)\",local_16);", "}", "main_0:", "int", "main(int", "local_24,", "int", "**local_20)", "{", "<<", "main_1", ">>", "}", "(a)", "Original", "C", "#include", "<stdio.h>", "int", "main(int", "argc,", "int", "**argv)", "{", "for(int", "i=1;i<100;i++){", "printf(\"%d\",i);", "}", "}", "(c)", "Sliced", "Webassembly", "main_1:", "i32.const", "1", "local.set", "6", "local.get", "4", "local.get", "6", "i32.store", "offset=16", "block", ";;", "label", "=", "@1", "loop", ";;", "label", "=", "@2", "local.get", "4", "i32.load", "offset=16", "...", "local.get", "18", "i32.store", "offset=16", "br", "0", "(;@2;)", "end", "unreachable", "end", "main_0:", "(func", "$main", "(type", "5)", "(param", "i32", "i32)", "(result", "i32)", "global.get", "$__stack_pointer", "...", "i32.store", "offset=24", "local.get", "4", "local.get", "1", "i32.store", "offset=20", "<<", "main_1", ">>", "local.get", "4", "i32.load", "offset=28", "...", "global.set", "$__stack_pointer", "local.get", "19", "return)", "(b)", "Webassembly", "(func", "$main", "(type", "5)", "(param", "i32", "i32)", "(result", "i32)", "{i32:19}", "global.get", "$__stack_pointer", "...", "i32.store", "offset=28", "local.get", "4", "local.get", "0", "i32.store", "offset=24", "local.get", "4", "local.get", "1", "i32.store", "offset=20", "i32.const", "1", "local.set", "6", "local.get", "4", "local.get", "6", "i32.store", "offset=16", "block", ";;", "label", "=", "@1", "loop", ";;", "label", "=", "@2", "local.get", "4", "i32.load", "offset=16", "...", "local.get", "18", "i32.store", "offset=16", "br", "0", "(;@2;)", "end", "unreachable", "end", "local.get", "4", "i32.load", "offset=28", "...", "global.set", "$__stack_pointer", "local.get", "19", "return)"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 82.56,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695020-Figure3-1.png"
+}]

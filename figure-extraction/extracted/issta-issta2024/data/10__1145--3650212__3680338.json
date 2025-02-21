@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 5: File Name Prediction Model",
+  "captionBoundary": {
+    "x1": 362.8330078125,
+    "x2": 513.3248901367188,
+    "y1": 180.51307678222656,
+    "y2": 184.8079833984375
+  },
+  "figType": "Figure",
+  "imageText": ["Root", "Node", "Function", "Name", "Graph", "Embedding", "x0", "x1⋮", "xn", "x0", "x1⋮", "xn", "x0", "x1⋮", "xn", "x0", "x1⋮", "xn", "x0", "x1⋮", "xn", "x0", "x1⋮", "xn", "Source", "File", "Name", "[T0,", "T1,", "…", ",", "Tn", "]", "tokenN", "…", "token1", "token2", "x0", "x1⋮", "xn", "MLP", "DecoderGraphSAGE", "Encoder", "FCG", "with", "Function", "Name", "Encodings"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 84.0,
+    "y2": 163.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Figure5-1.png"
+}, {
+  "caption": "Table 1: Statistics on Files Named with Function Name Tokens.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.65301513671875,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["22,", "458", "20,", "387", "90.78%", "Total", "Files", "Files", "Named", "with", "Func", "Tokens", "Proportion"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 284.15999999999997,
+    "y1": 118.56,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Table1-1.png"
+}, {
+  "caption": "Table 2: Statistics on File Name Token Occurrences across Function Levels.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04345703125,
+    "y1": 164.90809631347656,
+    "y2": 180.1619873046875
+  },
+  "figType": "Table",
+  "imageText": ["Fourth", "Level", "23,", "098", "41.32%", "Third", "Level", "27,", "240", "48.73%", "First", "Level", "32,", "738", "58.57%", "Second", "Level", "28,", "609", "51.18%", "Function", "Level", "File", "Token", "Number", "Proportion"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 272.15999999999997,
+    "y1": 196.79999999999998,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Table2-1.png"
+}, {
+  "caption": "Figure 1: Recovery Process of File Structure of DeLink on libev.so",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.203857421875,
+    "y1": 194.28907775878906,
+    "y2": 209.54302978515625
+  },
+  "figType": "Figure",
+  "imageText": ["[0", "–", "124]", "[125", "–", "153]", "128125", "126", "127[0", "–", "124]", "[129", "–", "153]", "…128124", "125", "126", "127", "129", "153", "file", "cluster", "…0", "function"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 337.91999999999996,
+    "x2": 539.52,
+    "y1": 85.92,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Figure1-1.png"
+}, {
+  "caption": "Figure 7: Recovered Source File Information of Malware",
+  "captionBoundary": {
+    "x1": 192.62901306152344,
+    "x2": 419.3710632324219,
+    "y1": 212.6679229736328,
+    "y2": 216.96282958984375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Mirai", "Sample", "B", "print", "table", "util", "find", "scan", "main", "random_string", "table", "port_kill", "util", "program_socket", "find", "scan", "print", "main", "random_string", "(a)", "Mirai", "Sample", "A", "print", "table", "util", "find", "scan", "main", "random_string", "table", "port_kill", "util", "program_socket", "find", "scan", "print", "main", "random_string"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 482.4,
+    "y1": 85.92,
+    "y2": 195.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Figure7-1.png"
+}, {
+  "caption": "Figure 2: Overall Work ow of DeLink",
+  "captionBoundary": {
+    "x1": 229.41400146484375,
+    "x2": 382.5865478515625,
+    "y1": 180.5410919189453,
+    "y2": 184.83599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["fcg", "model", "name", "tokens", "token1", "token2", "…", "tokenN", "vector", "GNN", "MLP", "filefile", "clu", "cluinitial", "clu", "func", "func", "func", "func", "func", "func", "func", "file", "initial", "cluclu", "File", "Structure", "Recovery", "File", "Name", "Prediction", "http_parse.c", "socket.c", "ssl_session.c", "file", "file", "file", "assembly", "functions", "the", "recovered", "files", "file", "names", "sub_4001000", "sub_4001040", "sub_40010f0", "sub_4001100", "sub_40011e0", "sub_4001200", "sub_4001280", "decompiler"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 553.4399999999999,
+    "y1": 86.88,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Figure2-1.png"
+}, {
+  "caption": "Table 4: File Name Prediction Accuracy Comparison.",
+  "captionBoundary": {
+    "x1": 331.25299072265625,
+    "x2": 544.6080932617188,
+    "y1": 184.49610900878906,
+    "y2": 188.791015625
+  },
+  "figType": "Table",
+  "imageText": ["DeLink", "70.09", "63.91", "66.86", "TF-IDF", "57.22", "47.44", "51.87", "Graph2Seq", "63.37", "51.32", "56.71", "Approach", "Precision(%)", "Recall(%)", "1", "score(%)"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 337.91999999999996,
+    "x2": 538.0799999999999,
+    "y1": 205.44,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Table4-1.png"
+}, {
+  "caption": "Table 3: File Structure Recovery Quality Comparison.",
+  "captionBoundary": {
+    "x1": 197.88800048828125,
+    "x2": 413.8167419433594,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["BCD", "58.28", "69.51", "63.17", "41.81", "60.34", "95.51", "67.02", "75.53", "70.79", "37.37", "55.79", "92.36", "ModX", "69.71", "62.88", "66.01", "8.81", "17.47", "92.94", "75.99", "67.39", "71.23", "11.56", "22.73", "89.61", "DeLink", "77.77", "83.63", "80.51", "49.03", "66.12", "96.02", "82.70", "86.59", "84.54", "72.27", "82.53", "97.25", "Precision", "Recall", "1", "score", "JC", "FMI", "RI", "Precision", "Recall", "1", "score", "JC", "FMI", "RI", "Approach", "Results", "on", "Dataset", "I", "(%)", "Results", "on", "Dataset", "II", "(%)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 542.4,
+    "y1": 108.0,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Table3-1.png"
+}, {
+  "caption": "Figure 4: An Example of an Initial Cluster for Libevent-2.1.12",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2026977539062,
+    "y1": 290.20111083984375,
+    "y2": 294.4960021972656
+  },
+  "figType": "Figure",
+  "imageText": ["Assembly", "Instructions", "an", "initial", "cluster", "(func", "#42", "-", "#64)", "Source", "Code", "}", "ASSERT_EVBUFFER_LOCKED(buf);", "if", "(*buf->last_with_datap", "==", "NULL)", "{", "...", "...", "static", "void", "evbuffer_chain_insert(struct", "evbuffer", "*buf,", "struct", "evbuffer_chain", "*chain)", "{", "Function", "List", "Ground", "Truth", "...", "...", "buffer.c:291", "buffer.c:311", "buffer.c:1013", "buffer.c:1731", "buffer.c:1828", "...", "...", "buffer.c:2574", "buffer.c:3196", "buffer.c:3297", "...", "...", "No", "Func", "Addr", "...", "...", "...", "...", "#41", "0x12b70", "#42", "0x12F60", "#43", "0x13050", "#44", "0x13690", "#45", "0x138F0", "...", "...", "...", "...", "#63", "0x166F0", "#64", "0x16700", "#65", "0x16950", "...", "...", "...", "...", "loc_1680E:", "mov", "[chain+30h],", "seg", "add", "[buf+20h],", "length", "mov", "rsi,", "chain", ";", "chain", "mov", "rdi,", "buf", ";", "buf", "call", "evbuffer_chain_insert", "mov", "rdi,", "buf", ";", "buffer", "...", "...", "Func", "Name", "...", "...", "evbuffer_free_trailing_empty_chains", "evbuffer_chain_insert", "(a", "static", "callee)", "evbuffer_add_buffer_reference", "evbuffer_add", "evbuffer_prepend", "...", "...", "evbuffer_write", "evbuffer_add_file_segment", "(a", "caller)", "evbuffer_add_file", "...", "..."],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 85.92,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Overview of File Structure Recovery",
+  "captionBoundary": {
+    "x1": 81.91290283203125,
+    "x2": 265.93017578125,
+    "y1": 183.23109436035156,
+    "y2": 187.5260009765625
+  },
+  "figType": "Figure",
+  "imageText": ["2.", "file", "boundary", "location", "1.", "initial", "cluster", "formation", "the", "recovered", "files", "initial", "clusters", "assembly", "functions", "(sorted", "by", "address)", "c", "file", "file", "file", "c", "cc", "c", "c", "f", "f", "f", "f", "f", "f", "f", "f", "f", "f"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 291.36,
+    "y1": 84.96,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Figure3-1.png"
+}, {
+  "caption": "Table 5: File Structure Recovery Time Comparison.",
+  "captionBoundary": {
+    "x1": 70.4231948852539,
+    "x2": 277.1256408691406,
+    "y1": 212.3180694580078,
+    "y2": 216.61297607421875
+  },
+  "figType": "Table",
+  "imageText": ["ModX", "170.25", "33.01", "131.79", "DeLink", "20.78", "6.41", "16.74", "BCD", "44.99", "7.26", "34.43", "Recovery", "Time", "(s)", "Dataset", "I", "Dataset", "II", "Average"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 276.0,
+    "y1": 233.28,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Table5-1.png"
+}, {
+  "caption": "Figure 6: The Accuracy of DeLink with Original Function Symbols and with SymLM",
+  "captionBoundary": {
+    "x1": 136.37399291992188,
+    "x2": 475.6266784667969,
+    "y1": 196.3782501220703,
+    "y2": 200.67315673828125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "O3", "Optimization", "Level", "DeLink", "(with", "function", "symbols)", "DeLink", "(with", "SymLM)", "Precision", "Recall", "F1", "Score", "80", "60", "40", "20", "0", "49.76", "51.49", "50.61", "63.29", "65.41", "64.33", "(c)", "O2", "Optimization", "Level", "DeLink", "(with", "function", "symbols)", "DeLink", "(with", "SymLM)", "Precision", "Recall", "F1", "Score", "80", "60", "40", "20", "0", "51.13", "52.39", "51.76", "65.13", "67.26", "66.18", "(b)", "O1", "Optimization", "Level", "DeLink", "(with", "function", "symbols)", "DeLink", "(with", "SymLM)", "Precision", "Recall", "F1", "Score", "80", "60", "40", "20", "0", "49.4", "50.41", "49.9", "64.47", "66.54", "65.49", "(a)", "O0", "Optimization", "Level", "DeLink", "(with", "function", "symbols)", "DeLink", "(with", "SymLM)", "Precision", "Recall", "F1", "Score", "80", "60", "40", "20", "0", "52.94", "54.47", "53.69", "65.48", "68.37", "66.9"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 84.0,
+    "y2": 179.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Figure6-1.png"
+}, {
+  "caption": "Table 6: File Name Prediction Time Comparison.",
+  "captionBoundary": {
+    "x1": 339.40399169921875,
+    "x2": 536.458740234375,
+    "y1": 212.3180694580078,
+    "y2": 216.61297607421875
+  },
+  "figType": "Table",
+  "imageText": ["DeLink", "0.32", "TF-IDF", "1.28", "Graph2Seq", "0.33", "Prediction", "Time", "(ms)", "Average"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 373.91999999999996,
+    "x2": 502.08,
+    "y1": 233.28,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680338-Table6-1.png"
+}]

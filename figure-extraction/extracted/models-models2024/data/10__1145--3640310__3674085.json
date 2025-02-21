@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 3: Baseline process for the intelligent generation of tailored concrete syntax using LLMs",
+  "captionBoundary": {
+    "x1": 113.76100158691406,
+    "x2": 498.240478515625,
+    "y1": 381.4081115722656,
+    "y2": 387.03900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["8", "Post", "processing", "of", "GCS", "1", "Metamodel", "preprocessing", "Legend", "LLM", "User", "Control", "flow", "Data", "flow", "Graphical", "representation", "of", "CS", "Representation", "of", "GCS", "in", "NL", "Initial", "representation", "of", "GCS", "in", "NL", "-", "Better/alternative", "representations", "-", "Unsatisfied", "specifications", "-", "Discrepancy", "between", "textual", "and", "graphical", "CS", "-", "Examples", "Perception", "/", "User", "views", "-", "Missing,", "incorrect,", "additional", "specifications", "-", "Missing,", "incorrect,", "additional", "constraints", "Prescriptive", "view", "-", "Context", "-", "Metamodel", "-", "Initial", "concrete", "syntax", "-", "Examples", "2", "textual", "GCS", "3", "Context", "comprehension", "and", "generation", "of", "initial", "6", "7", "4", "5", "Representation", "of", "GCS", "in", "NL", "Generation", "of", "GCS", "Requests", "and", "feedback", "on", "GCS", "Element-wise", "generation", "of", "GCS", "Requests", "and", "feedback", "on", "textual", "GCS", "GCS", "refinement", "Prescriptive", "view", "specification"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674085-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Overview of our proposed framework for the intelligent generation of tailored concrete syntax",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64642333984375,
+    "y1": 212.5141143798828,
+    "y2": 229.10400390625
+  },
+  "figType": "Figure",
+  "imageText": ["Examples", "User", "view", "Perception", "view", "Output", "Prescriptive", "view", "", "Prompt", "Feedback", "Concrete", "syntax", "Generator", "Concrete", "syntax"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 273.12,
+    "y1": 82.56,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674085-Figure1-1.png"
+}, {
+  "caption": "Table 1: Excerpt of the conversation with ChatGPT applying the baseline process to the mind map DSML",
+  "captionBoundary": {
+    "x1": 93.95899963378906,
+    "x2": 517.7471313476562,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["14", "Feedback", "(6)", " ", "User", "If", "we", "have", "a", "large", "and", "complex", "mindmap,", "tags", "could", "be", "confusing", "as", "we", "might", "be", "not", "able", "to", "know", "to", "which", "topic", "they", "are", "associated.", "How", "can", "we", "modify", "the", "above", "representation", "to", "overcome", "this?", "13", "Generation", "(7)", "Æ", "ChatGPT", "representation.", "11", "Generation", "(7)", "Æ", "ChatGPT", "12", "Request", "(6)", " ", "User", "Given", "the", "description", "of", "connections:", "<Description>.", "Generate", "their", "graphical", "10", "Request", "(6)", " ", "User", "Given", "the", "description", "of", "the", "tag:", "<Description>.", "Generate", "a", "graphical", "representation", "of", "this", "element.", "9", "Generation", "(7)", "Æ", "ChatGPT", "8", "Request", "(6)", " ", "User", "Given", "the", "description", "of", "the", "sub-topic:", "<Description>.", "Generate", "a", "graphical", "representation", "of", "this", "element.", "7", "Generation", "(7)", "Æ", "ChatGPT", "6", "Request", "(6)", " ", "User", "Given", "the", "description", "of", "the", "main", "topic:", "<Description>.", "Generate", "a", "graphical", "representation", "of", "this", "element.", "•", "Sub-Topic", "-", "Shape:", "Depict", "Sub-Topics", "as", "smaller", "circles", "compared", "to", "the", "Main", "Topic,", "indicating", "their", "supportive", "role.", "Color:", "Choose", "a", "different", "color", "for", "Sub-Topics", "to", "visually", "separate", "them", "from", "the", "Main", "Topic.", "Text:", "The", "text", "inside", "the", "circle", "should", "be", "in", "a", "regular", "font,", "distinguishing", "it", "from", "the", "Main", "Topic’s", "bold", "font.", "Connection:", "Draw", "lines", "from", "the", "Main", "Topic", "to", "each", "Sub-Topic", "to", "illustrate", "the", "hierarchy.", "•", "Tag", "-", "Shape:", "Represent", "Tags", "as", "small", "rectangles", "or", "diamonds", "to", "differentiate", "them", "from", "topics.", "Color:", "Assign", "a", "unique,", "perhaps", "lighter", "or", "pastel,", "color", "palette", "for", "Tags", "[...]", "Text:", "Include", "the", "tag’s", "text", "inside", "the", "shape,", "using", "a", "smaller", "font", "size.", "Placement:", "Position", "the", "Tag", "close", "to", "its", "associated", "topic,", "perhaps", "with", "a", "connecting", "line", "or", "visually", "nested", "under", "the", "topic", "to", "show", "the", "association", "clearly.", "5", "Refinement", "(5)", "Æ", "ChatGPT", "•", "Main", "Topic", "-", "Shape:", "Represent", "the", "Main", "Topic", "as", "a", "larger", "circle", "to", "emphasize", "its", "central", "role.", "Color:", "Use", "a", "distinct", "color", "for", "the", "Main", "Topic", "circle", "to", "set", "it", "apart", "from", "other", "elements.", "Text:", "Place", "the", "text", "inside", "the", "circle,", "using", "a", "bold", "font", "to", "highlight", "its", "importance.", "4", "Feedback", "(4)", " ", "User", "This", "concrete", "syntax", "has", "few", "problems", "as", "we", "cannot", "visually", "distinguish", "between", "the", "sub-topic", "and", "the", "main", "topic.", "How", "can", "we", "adapt", "it", "to", "overcome", "these", "problems?", "•", "SubTopic:", "Illustrated", "as", "smaller", "circles", "or", "nodes", "branching", "out", "from", "the", "MainTopic", "or", "other", "SubTopics,", "each", "labeled", "with", "its", "text", "and", "associated", "Tag", "[.", ".", ".", "]", "•", "Tag:", "Represented", "by", "a", "colored", "badge", "or", "icon", "placed", "next", "to", "the", "text", "of", "a", "Topic,", "with", "the", "Tag", "name", "inside.", "•", "Has", "and", "Contains", "connections:", "Illustrated", "by", "lines", "connecting", "MindMap", "to", "MainTopic", "and", "MainTopic", "to", "SubTopics,", "with", "arrowheads", "indicating", "the", "direction", "of", "the", "relationship.", "3", "Initial", "CS", "(3)", "Æ", "ChatGPT", "•", "Main", "Topic:", "Represented", "by", "a", "large", "circle", "that", "contains", "the", "name", "of", "the", "MindMap", "at", "the", "top", "[.", ".", ".", "]", "2", "Initial", "prompt", "(2)", " ", "User", "Given", "the", "below", "PlantUML", "metamodel,", "generate", "its", "concrete", "syntax", "by", "assigning", "one", "graphical", "element", "for", "each", "element", "of", "the", "metamodel.", "Describe", "in", "natural", "text", "the", "generated", "concrete", "syntax.", "<Mind", "map", "metamodel", "in", "PlantUML>", "1", "Preprocessing", "(1)", " ", "User", "We", "use", "PlantUML", "to", "textually", "represent", "the", "mind", "map", "metamodel.", "#", "Step", "Author", "Prompt/Output"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674085-Table1-1.png"
+}, {
+  "caption": "Figure 2: The proposed input viewpoints for the generation of tailored concrete syntax in our framework",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0417785644531,
+    "y1": 587.6890869140625,
+    "y2": 604.2789916992188
+  },
+  "figType": "Figure",
+  "imageText": ["Explanation", "Negative", "Positive", "Examples", "Regional", "conventions", "Socio-cultural", "appropiateness", "Group", "identity", "Personal", "preferences", "Accessibility", "Individualism", "User", "view", "User", "experience", "Universality", "Gestalt", "principles", "Graphical", "user", "interface", "aesthetics", "Cognitive", "ﬁt", "Visual", "expressiveness", "Semantics", "transparency", "Semiotic", "clarity", "Graphical", "language", "principles", "Perception", "view", "Combination", "rules", "Pattern", "Style", "Concrete", "syntax", "Configuration", "rules", "Composition", "rules", "Variability", "Constraints", "Connectivity", "rules", "Domain", "vocabulary", "Metamodel", "Structured", "summary", "Scope", "Intent", "Context", "Prescriptive", "view", "Concrete", "syntax", "views"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 292.32,
+    "y1": 166.56,
+    "y2": 571.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674085-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Attempt 1: Result of producing the entire graphical concrete syntax in one step.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2022094726562,
+    "y1": 313.9071044921875,
+    "y2": 330.49700927734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 300.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674085-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Attempt 2: Different outputs of iterative steps of traffic light system’s tailored concrete syntax.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2041015625,
+    "y1": 524.6690673828125,
+    "y2": 541.259033203125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Step", "i-", "Results", "of", "the", "prompt:", "“Given", "the", "descrip-", "tion", "of", "light", "elements,", "gener-", "ate", "a", "graphical", "representation", "for", "these", "elements.”", "(b)", "Step", "i+1-", "Results", "of", "the", "prompt:", "“Given", "the", "descrip-", "tion", "of", "behavior", "elements,", "gen-", "erate", "a", "graphical", "representa-", "tion", "for", "these", "elements.”"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 552.48,
+    "y1": 345.59999999999997,
+    "y2": 507.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674085-Figure5-1.png"
+}]

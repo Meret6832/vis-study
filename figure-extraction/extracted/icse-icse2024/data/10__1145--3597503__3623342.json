@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 5: Attention masking procedure of LLMAO",
+  "captionBoundary": {
+    "x1": 82.64700317382812,
+    "x2": 264.8887939453125,
+    "y1": 461.8963623046875,
+    "y2": 467.5270080566406
+  },
+  "figType": "Figure",
+  "imageText": ["LMFL", "Pretrained", "Model", "Bidirectional", "Attention", "r", "e", "t", "u", "r", "n", "y", "i", "f", "(", "x", ">", "=", "0", ")", ":", "y", "=", "1", "/", "x", ";", "y", "=", "0", "Bidirectional", "Adapter", "Model", "Left-to-right", "Large", "Language", "Model", "\\n", "\\n", "\\n", "\\n", "Dimension", "Reduction", "y", "=", "0", "i", "f", "(", "x", ">", "=", "0", ")", ":", "y", "=", "1", "/", "x", ";", "r", "e", "t", "u", "r", "n", "y", "Predict", "Bug", "Probability", "Causal", "Attention"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 298.08,
+    "y1": 85.44,
+    "y2": 446.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Figure5-1.png"
+}, {
+  "caption": "Figure 1: Apache Commons Lang Bug #47, from Defects4J",
+  "captionBoundary": {
+    "x1": 332.8389892578125,
+    "x2": 542.4095458984375,
+    "y1": 439.94134521484375,
+    "y2": 445.5719909667969
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Lang’s", "bug", "#47", "and", "corresponding", "failed", "tests", "12", "}", "//Test", "fails", "due", "to", "NullPointerException", "in", "appendFixedWidthPadLeft()", "11", "\"**********\",", "sb.toString());", "10", "assertEquals(", "\"Failed", "to", "invoke", "appendFixedWidthPadLeft\",", "9", "sb.appendFixedWidthPadLeft(null,", "10,", "'*');", "8", "StrBuilder", "sb", "=", "new", "StrBuilder();", "7", "public", "void", "testLang412Left()", "{", "6", "}", "//Test", "fails", "due", "to", "NullPointerException", "in", "appendFixedWidthPadRight()", "5", "\"**********\",", "sb.toString());", "4", "assertEquals(", "\"Failed", "to", "invoke", "appendFixedWidthPadRight\",", "3", "sb.appendFixedWidthPadRight(null,", "10,", "'*');", "2", "StrBuilder", "sb", "=", "new", "StrBuilder();", "1", "public", "void", "testLang412Right()", "{"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 300.96,
+    "x2": 569.28,
+    "y1": 283.68,
+    "y2": 424.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Figure1-1.png"
+}, {
+  "caption": "Table 1: Hyperparameters used for model training, both for the model trained from scratch and the three models trained on top of the various CodeGen models",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04254150390625,
+    "y1": 85.72634887695312,
+    "y2": 111.28302001953125
+  },
+  "figType": "Table",
+  "imageText": ["Max", "learning", "rate", "5e-6", "1e-4", "7e-6", "4e-6", "Min", "learning", "rate", "1e-8", "1e-7", "1e-7", "1e-7", "Model", "dimension", "256", "1024", "4096", "6144", "Layers", "8", "2", "2", "2", "Batch", "size", "64", "32", "32", "32", "Epochs", "2000", "300", "300", "300", "Hyperparameter", "From", "Scratch", "350M", "6B", "16B"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 125.75999999999999,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Table1-1.png"
+}, {
+  "caption": "Figure 6: ROC curves on the completely random prediction, our model without any pretraining (Transformer), and pretrained on CodeGen-small (350M), CodeGen-medium (6B), and CodeGen-large (16B). Higher area under the curve (AUC) represents stronger predictive power.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64239501953125,
+    "y1": 654.8313598632812,
+    "y2": 704.2969970703125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "ROC", "curves", "on", "the", "Devign", "dataset", "Random", "Devign-Transformer", "Devign-350M", "Devign-6B", "Devign-16B", "e", "R", "at", "iti", "ve", "P", "os", "Tr", "ue", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "False", "Positive", "Rate", "(b)", "ROC", "curves", "on", "the", "BugsInPy", "dataset", "Random", "BugsInPy-Transformer", "BugsInPy-350M", "BugsInPy-16B", "BugsInPy-6B", "e", "R", "at", "iti", "ve", "P", "os", "Tr", "ue", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "False", "Positive", "Rate", "(a)", "ROC", "curves", "on", "the", "Defects4J", "dataset", "Random", "Defects4J-Transformer", "Defects4J-350M", "Defects4J-6B", "Defects4J-16B", "e", "R", "at", "iti", "ve", "P", "os", "Tr", "ue", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "False", "Positive", "Rate"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 73.44,
+    "x2": 274.08,
+    "y1": 89.75999999999999,
+    "y2": 644.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Qemu’s CWE-362 (Race condition vulnerability)",
+  "captionBoundary": {
+    "x1": 332.9460144042969,
+    "x2": 543.208251953125,
+    "y1": 370.203369140625,
+    "y2": 375.8340148925781
+  },
+  "figType": "Figure",
+  "imageText": ["27", "}", "26", "set_cc_op(s,", "CC_OP_FLAGS);", "25", "tcg_gen_or_i32(reg,", "tmp,", "src);", "24", "tcg_gen_shli_i32(src,", "QREG_DIV2,", "16);", "23", "tcg_gen_ext16u_i32(tmp,", "QREG_DIV1);", "22", "src", "=", "tcg_temp_new();", "21", "tmp", "=", "tcg_temp_new();", "20", "}", "19", "gen_helper_divu(cpu_env,", "tcg_const_i32(1));", "18", "}", "else", "{", "17", "gen_helper_divs(cpu_env,", "tcg_const_i32(1));", "16", "if", "(sign)", "{", "15", "tcg_gen_mov_i32(QREG_DIV2,", "src);", "14", "SRC_EA(env,", "src,", "OS_WORD,", "sign,", "NULL);", "13", "}", "12", "tcg_gen_ext16u_i32(QREG_DIV1,", "reg);", "11", "}", "else", "{", "10", "tcg_gen_ext16s_i32(QREG_DIV1,", "reg);", "9", "if", "(sign)", "{", "8", "reg", "=", "DREG(insn,", "9);", "7", "sign", "=", "(insn", "&", "0x100)", "!=", "0;", "6", "int", "sign;", "5", "TCGv", "src;", "4", "TCGv", "tmp;", "3", "TCGv", "reg;", "2", "{", "1", "DISAS_INSN(divw)"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 300.96,
+    "x2": 559.1999999999999,
+    "y1": 84.96,
+    "y2": 355.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Figure2-1.png"
+}, {
+  "caption": "Table 3: LLMAO’s Top-N Effectiveness on Different Datasets",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1962890625,
+    "y1": 308.7203674316406,
+    "y2": 314.35101318359375
+  },
+  "figType": "Table",
+  "imageText": ["#", "lines", "76,672", "168,960", "7,180,160", "Top-1", "51/493", "(10.3%)", "88/395", "(22.3%)", "1478/5260", "(28.1%)", "Top-3", "59/493", "(12.0%)", "149/395", "(37.7%)", "2050/5260", "(39.0%)", "Top-5", "75/493", "(15.2%)", "183/395", "(46.3%)", "3171/5260", "(60.3%)", "Metric", "BugsInPy", "Defects4J", "Devign"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 328.8,
+    "y2": 395.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Table3-1.png"
+}, {
+  "caption": "Table 2: LLMAO performance on 395 bugs from Defects4J V1.2.0, compared to prior techniques (top); on 226 additional bugs from Defects4J V2.0.0 (middle); and with ablation (bottom, again on defects from Defects4J V1.2.0)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2003173828125,
+    "y1": 85.72634887695312,
+    "y2": 101.32000732421875
+  },
+  "figType": "Table",
+  "imageText": ["10", "(2.6%)", "60", "(15.2%)", "85", "(21.5%)", "−𝑏𝑖𝑑𝑖𝑟𝑒𝑐𝑡𝑖𝑜𝑛𝑎𝑙", "𝑎𝑑𝑎𝑝𝑡𝑒𝑟", "(predict", "directly", "from", "CodeGen-16B)", "5", "(1.3%)", "24", "(6.2%)", "30", "(7.6%)", "LMFL", "Ablation", "−𝑝𝑟𝑒𝑡𝑟𝑎𝑖𝑛𝑖𝑛𝑔", "(6", "layers,", "trained", "from", "scratch)", "LMFL,", "new", "projects", "LLMAO", "with", "CodeGen-16B", "72", "(31.9%)", "93", "(41.2%)", "123(54.4%)", "LMFL", "LLMAO", "with", "CodeGen-350M", "82", "(20.8%)", "106", "(26.8%)", "126", "(31.9%)", "LLMAO", "with", "CodeGen-6B", "85", "(21.5%)", "115", "(29.1%)", "160", "(40.5%)", "LLMAO", "with", "CodeGen-16B", "88", "(22.3%)", "149", "(37.7%)", "183", "(46.3%)", "DeepFL", "57", "(14.4%)", "95", "(24.1%)", "135", "(34.2%)", "DeepRL4FL", "71", "(18.0%)", "128", "(32.4%)", "142", "(35.9%)", "TRANSFER-FL", "86", "(21.8%)", "135", "(34.2%)", "160", "(40.5%)", "MLFL", "SBFL", "Ochiai", "19", "(4.8%)", "65", "(16.5%)", "99", "(25.1%)", "FL", "type", "Technique", "Top-1", "Top-3", "Top-5"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 109.92,
+    "x2": 500.15999999999997,
+    "y1": 115.67999999999999,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Table2-1.png"
+}, {
+  "caption": "Figure 4: Left-to-right language model code generation",
+  "captionBoundary": {
+    "x1": 73.28499603271484,
+    "x2": 274.5559387207031,
+    "y1": 443.0423583984375,
+    "y2": 448.6730041503906
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Left", "to", "right", "language", "model", "completion", "5", "return", "middle", "4", "if", "arr[middle]", "==", "x:", "3", "middle", "=", "(left", "+", "right)", "//", "2", "2", "def", "binarySearch(list,", "left,", "right,", "i):", "1", "#", "Recursive", "binary", "search", "(a)", "Left-to-right", "language", "model", "prompt", "3", "middle", "=", "???", "2", "def", "binarySearch(list,", "left,", "right,", "i):", "1", "#", "Recursive", "binary", "search"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 255.35999999999999,
+    "y1": 292.8,
+    "y2": 427.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Figure4-1.png"
+}, {
+  "caption": "Figure 3: LLMAO ’s architecture, which takes as input a buggy program and produces a list of suspiciousness scores for each code line",
+  "captionBoundary": {
+    "x1": 64.60099792480469,
+    "x2": 547.3931884765625,
+    "y1": 269.8203430175781,
+    "y2": 275.45098876953125
+  },
+  "figType": "Figure",
+  "imageText": ["da500aa4f", "Binary", "Cross-Entropy", "Loss", "CodeGen-Multi-16B", "…", "Pretrained", "Checkpoint", "Newline", "Final", "Hidden", "States", "Newline", "Tokens", "[198]", "[4285,", "…", ",", "198,", "24443]", "Code", "Tokens", "Buggy", "Program", "Fault", "Localized", "Buggy", "Program", "Commit", "Diff", "Line", "#57", "Predicted", "Faulty", "Lines", "Bidirectional", "Adapter", "…", "Attention", "Mask", "Fixing", "Commit", "SHA", "[0,0,1,…,1,1]", "Model", "Left-to-Right", "Large", "Language", "GPT-2", "Tokenization"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 555.36,
+    "y1": 94.08,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623342-Figure3-1.png"
+}]

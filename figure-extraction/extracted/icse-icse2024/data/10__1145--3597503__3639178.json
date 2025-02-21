@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 4: Computation time for each dataset",
+  "captionBoundary": {
+    "x1": 86.32499694824219,
+    "x2": 261.2157287597656,
+    "y1": 187.50888061523438,
+    "y2": 189.5889892578125
+  },
+  "figType": "Table",
+  "imageText": ["SGG", "per", "Abstraction+", "Abstr.+Clust.", "Dataset", "SGG10", "(hr)", "Img", "(s)", "Clustering11", "(hr)", "per", "Img", "(s)", "CommaAi", "115.5", "0.80", "3.92", "0.03", "NuScenes", "9.6", "2.16", "0.80", "0.18", "Chen", "11.1", "0.88", "0.21", "0.02", "Udacity", "10.3", "0.94", "0.38", "0.03", "Cityscapes", "7.2", "5.19", "0.45", "0.32"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 192.95999999999998,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Table4-1.png"
+}, {
+  "caption": "Table 3: Equivalence Classes generated using RoadScene2Vec (left) and Entity Statistics for Open AV Datasets (right)",
+  "captionBoundary": {
+    "x1": 67.92500305175781,
+    "x2": 543.7702026367188,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Environment", "Resolution", "Images", "|𝐴𝑆𝐺𝐶", "|", "|𝐼𝑚𝑔", "|/|𝐴𝑆𝐺𝐶", "|", "Average", "count", "of", "entity", "kind", "per", "image", "#", "%", "#", "%", "Ratio", "Person", "Bicycle", "Motorcycle", "Bus", "Car", "CommaAi", "[40]", "Highway", "320x160", "522,434", "83%", "27,837", "57%", "18.77", "0.10", "0.00", "0.02", "0.00", "2.26", "NuScenes", "[5]", "Urban", "1600x900", "16,095", "3%", "8,879", "18%", "1.81", "1.53", "0.07", "0.04", "0.18", "3.01", "Chen", "[7]", "Suburban", "455x256", "45,568", "7%", "8,363", "17%", "5.45", "0.14", "0.00", "0.00", "0.01", "2.31", "Udacity", "[45]", "Highway", "640x480", "39,422", "6%", "6,251", "13%", "6.31", "0.07", "0.00", "0.01", "0.07", "3.10", "Cityscapes", "[8]", "Urban", "2048x1024", "5,000", "1%", "4,902", "10%", "1.02", "4.04", "0.97", "0.15", "0.16", "7.65", "Union", "628,519", "100%", "48,959", "100%", "12.84"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 553.4399999999999,
+    "y1": 93.6,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Table3-1.png"
+}, {
+  "caption": "Figure 1: An input (left) [45], its bounding boxes (middle-left), a scene graph (middle-right) that captures an abstraction of the scene that is sufficient to evaluate the preconditions of test specifications TS1 and TS2 on their sliced subgraphs (right).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1822509765625,
+    "y1": 184.39987182617188,
+    "y2": 197.43902587890625
+  },
+  "figType": "Figure",
+  "imageText": ["Car", "3", "Car", "1", "Car", "2", "TS2", "TS1", "near", "atDRearOf", "toRightOf", "isInisIn", "car_3", "isIn", "car_2", "near", "inDFrontOf", "toLeftOf", "ego", "isIn", "car_1", "isIn", "Right", "Lane", "isIn", "isIn", "Middle", "Lane", "Left", "Lane", "Root", "Road", "near", "inDFrontOf", "toLeftOf", "nearatDRearOf", "toRightOf", "ego", "isIn", "Car", "Left", "Lane", "nearatDRearOf", "toRightOf", "isIn", "isIn", "Car", "near", "inDFrontOf", "toLeftOf", "ego", "Car", "Middle", "Lane"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 555.84,
+    "y1": 82.56,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Percentage of novel test failures in an equivalence",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932983398438,
+    "y1": 348.7768859863281,
+    "y2": 350.85699462890625
+  },
+  "figType": "Figure",
+  "imageText": ["Random", "Clustering", "All", "Data", "Unique", "(Trivial", "Solution)", "10", "(PhysCov)", "*", "10", "(PhysCov)", "E", "EL", "ER", "ELR", "ERS", "Codomain", "Ground", "Truth", "NC", ")", "(P", "NF", "er", "ed", "C", "ov", "s", "N", "ot", "ilu", "re", "el", "Fa", "f", "N", "ov", "ge", "o", "en", "ta", "Pe", "rc", "100", "80", "60", "40", "20", "0", "0", "10000", "20000", "30000", "40000", "Number", "of", "Equivalence", "Classes", "Train+Test"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 555.36,
+    "y1": 164.64,
+    "y2": 338.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Figure4-1.png"
+}, {
+  "caption": "Table 1: Scene graph abstractions studied. |𝐼𝑚𝑔 | = 46,006",
+  "captionBoundary": {
+    "x1": 192.1999969482422,
+    "x2": 419.5032958984375,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Abstraction", "Short", "Description", "|𝐴𝑆𝐺𝐶", "|", "|𝐼𝑚𝑔", "|/|𝐴𝑆𝐺𝐶", "|", "Entities", "(𝐸)", "Semantic", "segmentation", "305", "150.8", "Entities", "+", "Lanes", "(𝐸𝐿)", "𝐸", "and", "ground-truth", "lane", "occupation", "for", "each", "entity", "2,932", "15.7", "Entities", "+", "Relations", "(𝐸𝑅)", "𝐸", "with", "RoadScene2Vec’s", "default", "inter-entity", "relationships", "configuration", "8,821", "5.2", "Entities", "+", "Lanes", "+", "Relations", "(𝐸𝐿𝑅)", "𝐸", "with", "both", "lane", "and", "relationship", "information", "from", "𝐸𝐿", "and", "𝐸𝑅.", "9,532", "4.8", "Entities", "+", "Road", "Structure", "(𝐸𝑅𝑆)", "𝐸𝐿,", "except", "lanes", "are", "modeled", "as", "multiple", "detailed", "road", "segments", "22,987", "2.0"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 538.0799999999999,
+    "y1": 93.6,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Table1-1.png"
+}, {
+  "caption": "Figure 7: PNFNC versus count of equivalence classes for 𝐸𝐿𝑅, 𝐸𝑅𝑆 , and Ψ∗ 10 with 2, 5, and 10 frame windows. High percentage and low total classes is better.",
+  "captionBoundary": {
+    "x1": 53.70899963378906,
+    "x2": 295.6387634277344,
+    "y1": 225.59890747070312,
+    "y2": 249.59698486328125
+  },
+  "figType": "Figure",
+  "imageText": ["*", "10", "(PhysCov)", "*", "10", "2", "(PhysCov)", "*", "10", "5", "(PhysCov)", "*", "10", "10", "(PhysCov)", "Random", "Clustering", "All", "Data", "Unique", "(Trivial", "Solution)", "ELR", "ELR", "2", "ELR", "5", "ELR", "10", "ERS", "ERS", "2", "ERS", "5", "ERS", "10", "NC", ")", "(P", "NF", "er", "ed", "C", "ov", "s", "N", "ot", "ilu", "re", "el", "Fa", "f", "N", "ov", "ge", "o", "en", "ta", "Pe", "rc", "100", "80", "60", "40", "20", "0", "0", "10000", "20000", "30000", "40000", "Number", "of", "Equivalence", "Classes", "Train+Test"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 85.92,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Figure7-1.png"
+}, {
+  "caption": "Figure 5: Decision tree to characterize failures.",
+  "captionBoundary": {
+    "x1": 343.9679870605469,
+    "x2": 532.1822509765625,
+    "y1": 232.31588745117188,
+    "y2": 234.39599609375
+  },
+  "figType": "Figure",
+  "imageText": [">=", "1", "8", "Failures", ">=", "1", "Car", "on", "Right", "2", "of", "Ego", "Lane", "in", "direct", "front", "of", "Ego", "vehicle", ">=", "1", "Car", "on", "Ego", "Lane", "to", "the", "left", "of", "Ego", "vehicle", "<", "3", "Truck", "on", "Right", "1", "of", "Ego", "Lane", "near", "the", "Ego", "vehicle", "Car", "on", "Opposing", "Lane", "0", "to", "the", "right", "of", "Ego", "vehicle", ">=", "10", "27", "Train", "2", "Failures", "Car", "on", "Ego", "Lane", "in", "direct", "front", "of", "Ego", "vehicle"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 549.6,
+    "y1": 82.56,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Testing images that resulted in failures.",
+  "captionBoundary": {
+    "x1": 339.08099365234375,
+    "x2": 537.0681762695312,
+    "y1": 333.6038818359375,
+    "y2": 335.6839904785156
+  },
+  "figType": "Figure",
+  "imageText": ["front", "of", "Ego", "Truck", "in", "direct", "front", "of", "Ego", "Car", "in", "direct", "front", "of", "Ego", "Truck", "near", "Ego", "Car", "in", "direct", "Car", "to", "the", "left", "of", "Ego", "Ego", "Lane", "Right", "1", "of", "Ego", "Lane", "Right", "2", "of", "Ego", "Lane"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 244.79999999999998,
+    "y2": 317.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Figure6-1.png"
+}, {
+  "caption": "Figure 2: S 3 C components, parameters, and ordering.",
+  "captionBoundary": {
+    "x1": 199.1009979248047,
+    "x2": 412.89208984375,
+    "y1": 155.57186889648438,
+    "y2": 157.6519775390625
+  },
+  "figType": "Figure",
+  "imageText": ["𝑆𝐺(𝑇)", "𝐴𝑆𝐺(𝑇)", "𝐴𝑆𝐺𝐶(𝑇)", "𝜙𝛼(⋅)𝑠𝑔", "⋅", ",", "𝐾,", "𝑅,𝑀", "SGG", "Abstract", "Cluster", "Coverage𝑇", "𝐶𝑜𝑣𝜙(𝑇,", "𝐷)"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 530.4,
+    "y1": 96.0,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Figure2-1.png"
+}, {
+  "caption": "Table 2: Testing specifications’ preconditions and their coverage.",
+  "captionBoundary": {
+    "x1": 175.43600463867188,
+    "x2": 436.2568664550781,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Preconditions", "|𝐴", "|", "Coverage", "Town01", "Town02", "Town04", "Town10HD", "Full", "Dataset", "𝝓1:", "There", "is", "a", "truck", "that", "is", "either", "inDFrontOf", "or", "inSFrontOf", "of", "the", "ego", "and", "at", "distance:", "near_coll,", "super_near,", "very_near,", "near,", "or", "visible.", "242", "19", "(7.85%)", "5", "(2.07%)", "3", "(1.24%)", "6", "(2.48%)", "20", "(8.26%)", "𝝓2:", "The", "closest", "lane", "to", "the", "left", "of", "ego", "contains", "a", "car", "at", "distance:", "near_coll,", "super_near,", "very_near,", "near,", "or", "visible.", "31", "0", "(0.00%)", "0", "(0.00%)", "24", "(77.42%)", "23", "(74.19%)", "26", "(83.87%)", "𝝓3:", "The", "closest", "lane", "to", "the", "left", "of", "ego", "is", "empty", "and", "there", "is", "a", "car", "or", "truck", "that", "is", "either", "inDFrontOf", "or", "inSFrontOf", "of", "the", "ego", "and", "at", "distance", "near_coll", "or", "super_near.", "24", "0", "(0.00%)", "0", "(0.00%)", "0", "(0.00%)", "0", "(0.00%)", "0", "(0.00%)", "𝝓4:", "The", "11", "possible", "lanes9", "have", "at", "least", "a", "car", "or", "a", "truck.", "22", "4", "(18.18%)", "4", "(18.18%)", "22", "(100.00%)", "10", "(45.45%)", "22", "(100.00%)", "𝝓5:", "The", "7", "possible", "on-going", "lanes9", "have", "a", "car,", "a", "truck,", "or", "no", "vehicle.", "426", "3", "(0.70%)", "3", "(0.70%)", "149", "(34.98%)", "16", "(3.76%)", "163", "(38.26%)"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 548.16,
+    "y1": 93.6,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Table2-1.png"
+}, {
+  "caption": "Figure 3: Distribution of images across scene graph equivalence classes for the 𝐸𝐿𝑅 abstraction studied in § 4.2.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6392822265625,
+    "y1": 263.4499206542969,
+    "y2": 276.489013671875
+  },
+  "figType": "Figure",
+  "imageText": ["Largest", "Class", "Covers", "11626", "Images", "(25.27%", "of", "Images", "in", "0.01%", "of", "Classes)", "Largest", "10", "Classes", "Cover", "24399", "Images", "(53.03%", "of", "Images", "in", "0.10%", "of", "Classes)", "Remaining", "6450", "Images", "in", "Singleton", "Classes", "(14.02%", "of", "Images", "in", "67.67%", "of", "Classes)", "ed", "ov", "er", "es", "C", "Im", "ag", "iv", "e", "ul", "at", "Cu", "m", "40000", "30000", "20000", "10000", "0", "Images", "in", "Class", "(left)", "Cumulative", "Images", "Covered", "(right)", "la", "ss", "in", "C", "ag", "es", "f", "I", "m", "be", "r", "o", "Nu", "m", "10000", "7500", "5000", "2500", "0", "0", "2000", "4000", "6000", "8000", "10000", "Equivalence", "Class", "ID"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 290.4,
+    "y1": 103.67999999999999,
+    "y2": 253.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639178-Figure3-1.png"
+}]

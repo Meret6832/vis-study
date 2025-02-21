@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 2: Overall framework of MicroRes.",
+  "captionBoundary": {
+    "x1": 221.77000427246094,
+    "x2": 390.2308349609375,
+    "y1": 226.6660919189453,
+    "y2": 232.2969970703125
+  },
+  "figType": "Figure",
+  "imageText": ["Failure", "Execution", "Indexing", "Metric", "Visualization", "Metric", "Lattice", "Construction", "Ranked", "Metrics", "Resilience", "Metric", "Lattice", "Search", "Dissemination-based", "Metric", "Selection", "Failure", "Clearance", "Failure", "Injection", "Dissemination-based", "Metric", "Lattice", "Search", "Resilience", "Indexing"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 544.3199999999999,
+    "y1": 84.96,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652131-Figure2-1.png"
+}, {
+  "caption": "Figure 1: The monitoring metrics during the normal period (the green area) and the failure injection period (the red area). “rx_bytes” and “tx_bytes” indicate network receive and transmit rate.",
+  "captionBoundary": {
+    "x1": 53.52000045776367,
+    "x2": 294.0471496582031,
+    "y1": 249.7140655517578,
+    "y2": 288.22198486328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 140.64,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652131-Figure1-1.png"
+}, {
+  "caption": "Figure 3: An example metric lattice constructed from M = {𝑚1, · · · ,𝑚4}. We set the number of monitoring metrics as a small value, 4, for a clear illustration. The path of all solid red edges forms a ranked list.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0460510253906,
+    "y1": 336.5301208496094,
+    "y2": 375.0379943847656
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 184.79999999999998,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652131-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Two successful cases in the industrial dataset. The green area means the normal period and the red area means the failure injection period.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2055053710938,
+    "y1": 448.97412109375,
+    "y2": 476.5220031738281
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Case", "1:", "Process", "Killed", "(FAIL)", "(b)", "Case", "2:", "High", "I/O", "Rate", "(PASS)"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 549.12,
+    "y1": 343.68,
+    "y2": 436.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652131-Figure4-1.png"
+}, {
+  "caption": "Table 3: Dataset Statistics",
+  "captionBoundary": {
+    "x1": 386.8179931640625,
+    "x2": 489.04388427734375,
+    "y1": 283.0901184082031,
+    "y2": 288.72100830078125
+  },
+  "figType": "Table",
+  "imageText": ["Industry", "2", "12", "(Undisclosed)", "28", "20", "minutes", "Social-Network", "50", "325", "25", "10", "5", "minutes", "Train-Ticket", "30", "195", "15", "24", "10", "minutes", "Dataset", "|", "B", "|", "|", "P", "|", "#Microservices", "#Failures", "Failure", "Duration"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 296.15999999999997,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652131-Table3-1.png"
+}, {
+  "caption": "Table 2: Effectiveness Comparison (RQ1) and Ablation Study (RQ2) of MicroRes",
+  "captionBoundary": {
+    "x1": 145.0050048828125,
+    "x2": 466.70159912109375,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["MicroRes", "0.3246", "0.1618", "0.2993", "0.9012", "0.9481", "0.3766", "0.1814", "0.3382", "0.8611", "0.9231", "0.2977", "0.2436", "0.2812", "0.8929", "0.9362", "RQ2", "MicroRes-euc", "0.4464", "0.1868", "0.3384", "0.6543", "0.7846", "0.7199", "0.2861", "0.4640", "0.6389", "0.7451", "0.4409", "0.3036", "0.3729", "0.6071", "0.7027", "MicroRes-corr", "0.3629", "0.1730", "0.3174", "0.6914", "0.8092", "0.5969", "0.2201", "0.3865", "0.6111", "0.7407", "0.4049", "0.2882", "0.3516", "0.5714", "0.6842", "MicroRes-cid", "0.3725", "0.1645", "0.3037", "0.8148", "0.8966", "0.5154", "0.1851", "0.3326", "0.8333", "0.9091", "0.3855", "0.2737", "0.3304", "0.8571", "0.9130", "RQ1", "SVC", "0.8830", "0.3497", "0.5267", "0.5802", "0.7018", "1.2608", "0.3908", "0.5657", "0.5278", "0.6383", "0.6743", "0.3786", "0.4627", "0.6786", "0.7273", "RF", "0.9399", "0.3507", "0.5277", "0.5802", "0.7018", "0.6708", "0.2358", "0.4063", "0.5833", "0.6809", "0.7477", "0.4012", "0.4865", "0.5000", "0.5882", "ET", "0.8163", "0.2999", "0.4771", "0.5926", "0.7227", "0.9160", "0.3135", "0.4927", "0.6111", "0.6818", "0.5340", "0.3100", "0.3814", "0.5714", "0.6842", "CE", "MAE", "RMSE", "Acc", "F1", "CE", "MAE", "RMSE", "Acc", "F1", "CE", "MAE", "RMSE", "Acc", "F1", "Category", "Method", "Train-Ticket", "Social-Network", "Industry"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 98.88,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652131-Table2-1.png"
+}, {
+  "caption": "Table 1: Failures and the corresponding degradation with and without the resilience mechanisms mentioned in § 3.2",
+  "captionBoundary": {
+    "x1": 70.875,
+    "x2": 540.8309936523438,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Network", "Container", "TCP", "disconnection", "Connection", "error", "within", "container", "Return", "to", "normal", "response", "speed", "shortly", "Unreachable", "network", "Network", "unreachable", "error", "in", "container", "Return", "to", "normal", "response", "speed", "shortly", "Container", "port", "in", "use", "Connection", "initialization", "error", "(same", "as", "left)", "Container", "network", "packet", "loss", "High", "retransmission", "rate", "Return", "to", "normal", "response", "speed", "shortly", "Container", "virtual", "NIC", "down", "Connection", "error", "Return", "to", "normal", "response", "speed", "shortly", "Storage", "Container", "disk", "full", "Unable", "to", "read/write,", "internal", "error", "(500)", "Normal", "response", "after", "some", "time", "Instance", "Container", "instance", "killed", "Instance", "offline,", "unresponsive", "microservice", "endpoint", "Normal", "response", "after", "some", "time", "Container", "instance", "suspended", "Instance", "offline,", "unresponsive", "microservice", "endpoint", "Normal", "response", "after", "some", "time", "CPU", "Container", "CPU", "overload", "High", "container", "CPU", "usage,", "slow", "response", "speed", "Decreased", "but", "acceptable", "response", "speed", "Memory", "Container", "memory", "overload", "High", "container", "memory", "usage,", "slow", "response", "speed", "Decreased", "but", "acceptable", "response", "speed", "Container", "Network", "High", "HTTP", "packet", "loss", "rate", "High", "retransmission", "rate", "Normal", "response", "High", "HTTP", "request", "latency", "High", "connection", "latency,", "slow", "response", "Return", "to", "normal", "response", "speed", "shortly", "TCP", "disconnection", "Connection", "error,", "disconnected", "Return", "to", "normal", "response", "speed", "shortly", "Port", "in", "use", "Connection", "initialization", "error", "(same", "as", "left)", "NIC", "down", "Connection", "error,", "unreachable", "network", "(same", "as", "left)", "Running", "out", "of", "network", "connections", "Unable", "to", "create", "new", "connections", "Normal", "response", "Process", "Critical", "process", "killed", "Unresponsive", "process,", "existing", "connection", "down", "Normal", "response", "after", "some", "time", "Machine", "Unplaned", "reboot", "Machine", "offline", "Normal", "response", "after", "some", "time", "Power", "outage", "Machine", "offline", "Normal", "response", "after", "some", "time", "System", "time", "shift", "Process", "error", "Automaitc", "time", "correction", "Storage", "Disk", "partition", "full", "Unable", "to", "read/write,", "internal", "error", "(500)", "Normal", "response", "High", "disk", "I/O", "throughput", "High", "physical", "I/O", "throughput", "Normal", "response", "High", "disk", "I/O", "latency", "Slow", "I/O", "Normal", "response", "High", "disk", "I/O", "error", "Slow", "and", "erroneous", "I/O", "Normal", "response", "Block", "storage", "service", "stopped", "I/O", "rate", "drop", "to", "zero,", "internal", "error", "(500)", "Normal", "response", "CPU", "CPU", "overload", "High", "physical", "CPU", "usage,", "slow", "response", "speed", "Decreased", "but", "acceptable", "response", "speed", "Memory", "Memory", "overload", "High", "physical", "memory", "usage,", "slow", "response", "speed", "Decreased", "but", "acceptable", "response", "speed", "Infrastructure", "Virtualization", "Level", "Type", "Failure", "Degradation", "w/o", "resilience", "mechanisms", "Degradation", "w/", "resilience", "mechanisms"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 105.6,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652131-Table1-1.png"
+}]

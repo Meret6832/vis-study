@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: An actual error report from the Electron project2.",
+  "captionBoundary": {
+    "x1": 188.83299255371094,
+    "x2": 423.16680908203125,
+    "y1": 144.41310119628906,
+    "y2": 150.04400634765625
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "TypeError[Error", "Type]:", "Cannot", "read", "properties", "of", "undefined", "(reading", "'prototype')[Error", "Message]", "2.", "at", "isSharedArrayBuffer", "(node:internal/crypto/webidl:187:57)", "3.", "at", "Object.BufferSource", "(node:internal/crypto/webidl:208:9)", "4.", "at", "SubtleCrypto.importKey", "(node:internal/crypto/webcrypto:585:36)", "5.", "at", "worker.js:6:18", "[Stack", "Trace]"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 514.56,
+    "y1": 87.36,
+    "y2": 129.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure1-1.png"
+}, {
+  "caption": "Figure 4: V-Measure vs. cardinality bias for Foliage’s verbalcharacteristic-based clustering with different configurations.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8050537109375,
+    "y1": 408.17010498046875,
+    "y2": 424.760009765625
+  },
+  "figType": "Figure",
+  "imageText": ["removing", "stop", "words", "replacing", "stop", "words", "with", "\"_\"", "raw", "message", "+", "truncated", "error", "report", "truncated", "error", "report", "enhanced", "message", "raw", "message", "(truncated", "at", "128)", "enhanced", "message", "+", "error", "type", "re", "ea", "su", "V-", "M", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "Cardinality", "Bias"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 326.4,
+    "x2": 536.16,
+    "y1": 232.79999999999998,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure4-1.png"
+}, {
+  "caption": "Table 1: Evaluation for Foliage’s different configurations.",
+  "captionBoundary": {
+    "x1": 191.77301025390625,
+    "x2": 419.93212890625,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "rawmessage", "(truncated", "at", "128)", "bert-base-nli-mean-tokens", "&", "0.9", "0.5062", "0.8013", "0.0756", "2", "enhanced", "message", "all-mpnet-base-v2", "&", "0.62", "0.5837", "0.9193", "0.0231", "3", "enhanced", "message", "bert-base-nli-mean-tokens", "&", "0.9", "0.5974", "0.9145", "0.0239", "4", "enhanced", "message", "+", "error", "type", "all-mpnet-base-v2", "&", "0.62", "0.6523", "0.9563", "0.0127", "5", "enhancedmessage", "+", "error", "type", "bert-base-nli-mean-tokens", "&", "0.9", "0.6540", "0.9622", "0.0127", "6", "rawmessage", "+", "replacing", "stop", "words", "bert-base-nli-mean-tokens", "&", "0.9", "0.5", "0.7834", "0.0083", "7", "rawmessage", "+", "removing", "stop", "words", "all-mpnet-base-v2", "&", "0.9", "0.2928", "0.4989", "0.3015", "Config.", "Input", "Data", "Model", "&", "Parameter", "V-Measure", "Cardinality", "Bias", "Miss", "Rate"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 546.24,
+    "y1": 105.6,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Table1-1.png"
+}, {
+  "caption": "Figure 9: Foliage-collected debug information of 2 crossversion bugs. The red-highlighted areas indicate code refactoring such as code renaming andmigration.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 559.8045654296875,
+    "y1": 579.6541137695312,
+    "y2": 607.2030029296875
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "//", "appetizer-42-39ddc7a36c9c567986c5569da9fb36c9", "2.", "zlib:", "unexpected", "end", "of", "file", "3.", "at", "then", "(node_modules/axios/index.js:32:15)", "4.", "at", "...", "5.", "at", "fetch", "(appetizer/../insightAPI.js:100:22)", "6.", "at", "cbWrapper", "(foliage.js:...)", "//", "Foliage", "Libcode", "7.", "at", "then", "(appetizer/../insightAPI.js:151:103)", "8.", "at", "inspectorMgr", "(appetizer/../insightAPI.js:132:30)", "1.", "//", "appetizer-41-39ddc7a36c9c567986c5569da9fb36c9", "2.", "zlib:", "unexpected", "end", "of", "file", "3.", "at", "then", "(node_modules/axios/index.js:32:15)", "4.", "at", "...", "5.", "at", "request", "(appetizer/../insightMgr.js:321:13)", "6.", "at", "cbWrapper", "(foliage.js:...)", "//", "Foliage", "Libcode", "7.", "at", "then", "(appetizer/../insightMgr.js:780:94)", "8.", "at", "inspectorTool", "(appetizer/../insightMgr.js:763:31)"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 329.28,
+    "x2": 533.28,
+    "y1": 441.12,
+    "y2": 563.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure9-1.png"
+}, {
+  "caption": "Figure 5: V-Measure vs. cardinality bias for the evaluated approaches.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2041015625,
+    "y1": 379.74810791015625,
+    "y2": 396.3380126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 325.44,
+    "x2": 542.4,
+    "y1": 84.96,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure5-1.png"
+}, {
+  "caption": "Figure 2: Foliage’s verbal-characteristic-based clustering.",
+  "captionBoundary": {
+    "x1": 324.4119873046875,
+    "x2": 551.7462158203125,
+    "y1": 208.78712463378906,
+    "y2": 214.41802978515625
+  },
+  "figType": "Figure",
+  "imageText": ["❸", "Clustering", "❷", "Embedding", "Generation", "❶", "Text", "Transformation", "𝒃", "Embd.", "#02", "𝒂", "Embd.", "#01", "Enhanced", "Error", "Message", "#02", "-", "FileError:", "Can’t", "open", "“path”.", "Enhanced", "Error", "Message", "#01", "-", "FailError:", "Device", "“hash”", "not", "found.", "Error", "Message", "#02", "-", "Can’t", "open", "“/etc/hosts”.", "Error", "Message", "#01", "-", "Device", "“de62b7d4”", "not", "found.", "Same?", "Module", "Embedding", "Comparing"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 551.52,
+    "y1": 108.0,
+    "y2": 193.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure2-1.png"
+}, {
+  "caption": "Figure 6: V-measure, cardinality bias, hit rate, number of clusters, andmiss rate of the evaluated approaches.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0471496582031,
+    "y1": 268.8570861816406,
+    "y2": 285.4469909667969
+  },
+  "figType": "Figure",
+  "imageText": ["Sureka", "Rebucket", "Tracesim", "Foliage", "Lazar", "raw", "message", "based", "(truncated", "at", "128)", "2500%", "2000%", "1500%", "1000%", "500%", "0%", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "Miss", "R", "ate", "Hit", "R", "ate", "Number", "of", "Clusters", "V-Measure", "Cardinality", "Bias"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 285.59999999999997,
+    "y1": 84.0,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure6-1.png"
+}, {
+  "caption": "Figure 7: V-measure, cardinality bias, and hit rate of the evaluated approaches across different versions of AppetizerIO.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8095703125,
+    "y1": 590.7550659179688,
+    "y2": 607.344970703125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Tracesim", "Rebucket", "Sureka", "Lazar", "Foliage", "e", "R", "at", "H", "it", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "All", "Version", "Tag", "(b)", "Tracesim", "Rebucket", "Sureka", "Lazar", "Foliage", "s", "B", "ia", "lit", "y", "di", "na", "C", "ar", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "All", "Version", "Tag", "(a)", "Tracesim", "Rebucket", "Sureka", "Lazar", "Foliage", "re", "ea", "su", "V-", "M", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "All", "Version", "Tag"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 323.52,
+    "x2": 547.1999999999999,
+    "y1": 87.84,
+    "y2": 571.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Visualization examples of homogeneity, completeness, and V-measure.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8062744140625,
+    "y1": 634.2240600585938,
+    "y2": 650.81396484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Maintaining", "completeness", "while", "increasing", "homogeneity.", "Solution", "#04", "versus", "Solution", "#03", "shows", "Clusters", "#01", "and", "#02", "shift", "frommixed", "to", "single-", "label", "samples", "(e.g.,", "only", "squares", "in", "Cluster", "#01),", "thus", "raising", "homogeneity", "by", "50%.", "As", "all", "like-labeled", "samples", "group", "together", "in", "both", "solutions,", "homo-", "geneity", "remains", "unchanged,", "resulting", "in", "a", "28.6%", "V-Measure", "increase.", "Solution", "#04", "V-Measure", "=", "0.8571", "(+28.6%)", "Homogeneity", "=", "0.75", "(+50%)", "Completeness", "=", "1", "(+0%)", "Solution", "#03", "V-Measure", "=", "0.6667", "Homogeneity", "=", "0.5", "Completeness", "=", "1", "(a)", "Maintaining", "homogeneity", "while", "increasing", "completeness.", "Comparing", "Solution", "#02", "to", "Solution", "#01,", "all", "squares", "move", "to", "Cluster", "#01,", "boosting", "com-", "pleteness", "by", "20%.", "Clusters", "#02", "and", "#03,", "still", "having", "two", "shapes,", "keep", "homo-", "geneity", "constant,", "thus", "improving", "the", "V-Measure", "(+10%).", "Solution", "#02", "V-Measure", "=", "0.5916", "(+10%)", "Homogeneity", "=", "0.5916", "(+0%)", "Completeness", "=", "0.5916", "(+20%)", "Solution", "#01", "V-Measure", "=", "0.5368", "Homogeneity", "=", "0.5916", "Completeness", "=", "0.4912"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 543.36,
+    "y1": 292.8,
+    "y2": 614.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680363-Figure3-1.png"
+}]

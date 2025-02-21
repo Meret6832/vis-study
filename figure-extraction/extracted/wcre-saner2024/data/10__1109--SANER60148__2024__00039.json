@@ -1,0 +1,301 @@
+[{
+  "caption": "Fig. 6. An example of error sequence mutation",
+  "captionBoundary": {
+    "x1": 105.67420196533203,
+    "x2": 250.54974365234375,
+    "y1": 241.0257110595703,
+    "y2": 244.48492431640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 294.24,
+    "y1": 74.88,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. An example of lightweight SFI",
+  "captionBoundary": {
+    "x1": 118.57520294189453,
+    "x2": 237.64993286132812,
+    "y1": 340.48681640625,
+    "y2": 343.9460144042969
+  },
+  "figType": "Figure",
+  "imageText": ["Execution", "sequence", "of", "error", "sites", "need", "to", "inject", "fault", "error", "site", "(dynamic)", "no", "need", "to", "check", "call", "stack", "need", "to", "check", "call", "stack", "{hash1,", "hash2}", "Hash", "Based", "ErrorSites:", "{4,", "9}", "Index", "Based", "ErrorSeq:"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 293.28,
+    "y1": 254.88,
+    "y2": 330.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure7-1.png"
+}, {
+  "caption": "Fig. 1. An example of error handling code bug",
+  "captionBoundary": {
+    "x1": 357.75360107421875,
+    "x2": 502.6073303222656,
+    "y1": 209.7641143798828,
+    "y2": 213.22332763671875
+  },
+  "figType": "Figure",
+  "imageText": ["30.void", "*xstrmv(void", "*str)", "{", "31.", "void", "*ret", "=", "xstrdup(str);", "32.", "free(str);", "//", "double", "free", "33.", "return", "ret;", "34.}", "20.void", "*xstrdup(void", "*str)", "{", "21.", "size_t", "len", "=", "strlen(str);", "22.", "void", "*ret", "=", "malloc(len", "+", "1);", "23.", "if", "(!ret)", "{", "24.", "free(str);", "25.", "return", "NULL;", "26.", "}", "27.", "strcpy(ret,", "str);", "28.", "return", "ret;", "29.}", "19.}", "return", "0;", "fail:", "addr3", "=", "malloc(len);", "if", "(!addr3)", "return", "-1;", "strcpy(addr3,", "\"teststr\");", "free(addr3);", "return", "0;", "void", "*addr1", "=", "malloc(len);", "if", "(!addr1)", "return", "-1;", "strcpy(addr1,", "\"teststr\");", "void", "*addr2", "=", "xstrmv(addr1);", "if", "(!addr2)", "return", "-1;", "void", "*addr3", "=", "xstrdup(addr2);", "if", "(!addr3)", "goto", "fail;", "1.int", "main()", "{", "2.", "size_t", "len", "=", "10;"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 546.24,
+    "y1": 72.96,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure1-1.png"
+}, {
+  "caption": "Fig. 8. A null pointer dereference bug found in Mpv",
+  "captionBoundary": {
+    "x1": 349.3534851074219,
+    "x2": 510.7540283203125,
+    "y1": 238.46217346191406,
+    "y2": 241.92138671875
+  },
+  "figType": "Figure",
+  "imageText": ["//", "mpv/video/out/vo.c", "1.", "static", "bool", "render_frame(struct", "vo", "*vo)", "{", "2.", "vo->driver->draw_image(vo,", "mp_image_new_ref(frame->current));", "3.", "}", "//", "mpv/video/mp_image.c", "4.", "struct", "mp_image", "*mp_image_new_ref(", "5.", "ref_buffer(&ok,", "...);", "6.", "return", "NULL;", "7.", "}", "8.", "static", "void", "ref_buffer(bool", "*ok,", "AVBufferRef", "**dst)", "{", "8.", "*dst", "=", "av_buffer_ref(*dst);", "9.", "}", "//", "mpv/video/out/vo_tct.c", "10.", "static", "void", "draw_image(struct", "vo", "*vo,", "mp_image_t", "*mpi)", "{", "11.", "struct", "mp_image", "src", "=", "*mpi;", "12.", "}"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 533.28,
+    "y1": 73.92,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure8-1.png"
+}, {
+  "caption": "TABLE I THE INFORMATION OF SELECTED PROJECTS",
+  "captionBoundary": {
+    "x1": 112.1065673828125,
+    "x2": 248.20713806152344,
+    "y1": 75.50227355957031,
+    "y2": 87.224609375
+  },
+  "figType": "Table",
+  "imageText": ["Summary", "3.0M", "24,359", "asynchronous", "I/O", "v1.46.0", "77.7K", "658", "Radare2", "UNIX-like", "reverse", "engineering", "v5.8.8", "853.4K", "8,881", "Binutils", "A", "collection", "of", "bi-", "nary", "tools", "v2.41", "77.7K", "554", "Lz4", "Compression", "algo-", "rithm", "v1.9.4", "40.0K", "150", "Zstd", "Compression", "algo-", "rithm", "v1.5.5", "117.8K", "1,843", "John", "Advance", "ofﬂine", "password", "cracker", "bleeding-", "jumbo", "438.2K", "4,060", "Vim", "Text", "editor", "v9.0", "1.0M", "5,571", "Libuv", "Cross-platform", "video", "player", "v35.0", "179.2K", "2,642", "Project", "Description", "Version", "#Loc", "#Func", "Mpv", "Command", "line"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 294.24,
+    "y1": 96.96,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-TableI-1.png"
+}, {
+  "caption": "Fig. 9. Number of error sites and crashes based on different thresholds",
+  "captionBoundary": {
+    "x1": 321.5104064941406,
+    "x2": 538.59619140625,
+    "y1": 346.72369384765625,
+    "y2": 350.1828918457031
+  },
+  "figType": "Figure",
+  "imageText": ["Cr", "as", "he", "s", "Error", "Sites", "Crashes", "ite", "s", "Er", "ro", "rS", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1", "50", "40", "30", "20", "10", "0", "3000", "2500", "2000", "1500", "1000", "500", "0"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 521.28,
+    "y1": 250.56,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure9-1.png"
+}, {
+  "caption": "TABLE II PREVIOUSLY UNKNOWN BUG DISCOVERED BY AFL-FI. ’-’ INDICATES THAT NO BUG OR THE ISSUE IS STILL WAITING FOR RESPONSES",
+  "captionBoundary": {
+    "x1": 70.2545394897461,
+    "x2": 290.05914306640625,
+    "y1": 262.8561096191406,
+    "y2": 282.838623046875
+  },
+  "figType": "Table",
+  "imageText": ["Zstd", "3704", "[31]", "John", "5345", "[32]", "-", "Vim", "12149", "[33]", "Libuv", "4102", "[34]", "1246", "[28]", "1248", "[29]", "1249", "[30]", "Lz4", "Radare2", "21958", "[25]", "21970", "[26]", "21982", "[27]", "Binutils", "-", "-", "-", "-", "11792", "[22]", "11793", "[23]", "11840", "[24]", "Mpv", "Project", "Bug", "Link", "Status", "Reported", "Conﬁrmed", "Fixed"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 283.2,
+    "y1": 291.84,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-TableII-1.png"
+}, {
+  "caption": "Fig. 2. The overhead of FIFUZZ",
+  "captionBoundary": {
+    "x1": 379.3518981933594,
+    "x2": 481.0425109863281,
+    "y1": 170.7959747314453,
+    "y2": 174.25518798828125
+  },
+  "figType": "Figure",
+  "imageText": ["Program", "Execution", "Time", "(ms)", "FIFUZZ", "Overhead", "(ms)", "lz4", "zstd", "john", "vim", "libuv", "mpv", "radare2", "binutils", "0%", "20%", "40%", "60%", "80%", "100%"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 533.28,
+    "y1": 72.96,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure2-1.png"
+}, {
+  "caption": "TABLE III THE NUMBER OF ERROR SITES AND SUSPICIOUS ERROR SITES",
+  "captionBoundary": {
+    "x1": 83.39466094970703,
+    "x2": 275.01678466796875,
+    "y1": 75.47090148925781,
+    "y2": 87.19317626953125
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Total", "Error", "Sites", "Suspicious", "Error", "Sites", "Decreasing", "Percentage", "(%)", "Mpv", "640", "355", "↓", "44.53", "Radare2", "7,476", "2,433", "↓", "67.46", "Binutils", "1,946", "318", "↓", "83.66", "Lz4", "17", "13", "↓", "23.53", "Zstd", "299", "180", "↓", "39.80", "John", "719", "241", "↓", "66.48", "Vim", "1,202", "381", "↓", "68.30", "Libuv", "426", "279", "↓", "34.51", "Total", "12,725", "4,200", "66.99"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 270.24,
+    "y1": 96.96,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-TableIII-1.png"
+}, {
+  "caption": "Fig. 10. The average execution time cost of different execution",
+  "captionBoundary": {
+    "x1": 333.40411376953125,
+    "x2": 526.7015380859375,
+    "y1": 178.9994659423828,
+    "y2": 182.45867919921875
+  },
+  "figType": "Figure",
+  "imageText": ["Original", "FIFUZZ", "AFL", "FI", "s)", "Ca", "se", "(m", "rT", "es", "t", "Ex", "ec", "ut", "io", "n", "Ti", "m", "e", "pe", "Mpv", "Radare2", "Binutils", "Lz4", "Zstd", "John", "Vim", "Libuv", "3,500", "3,000", "2,500", "2,000", "1,500", "1,000", "500", "0"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 533.28,
+    "y1": 73.92,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure10-1.png"
+}, {
+  "caption": "Fig. 4. Examples of encoding error handling code",
+  "captionBoundary": {
+    "x1": 353.5098876953125,
+    "x2": 507.0667724609375,
+    "y1": 680.7406005859375,
+    "y2": 684.1998291015625
+  },
+  "figType": "Figure",
+  "imageText": ["//", "Site3", "at", "xstrdup:5-6", "%if.then:", "%3", "=", "load", "ptr,", "ptr", "%str.addr", "call", "void", "@free(ptr", "noundef", "%3)", "#7", "store", "ptr", "null,", "ptr", "%retval", "br", "label", "%return", "return:", "%7", "=", "load", "ptr,", "ptr", "%retval", "ret", "ptr", "%7", "H(LoadInst)", "=", "H3", "H(CallInst,", "free)", "=", "H6", "H(StoreInst)", "=", "H1", "H(BrInst,", "xstrdup.if.then,", "xstrup.return)", "=", "H7", "H(LoadInst)", "=", "H3", "H(RetInst)", "=", "H4", "Seq3", "=", "[H3,", "H6,", "H1,", "H7,", "H3,", "H4]", "LLVM", "IR", "Hash", "Sequence", "//", "Site1", "at", "main:4", "%if.then4:", "store", "i32", "-1,", "ptr", "%retval", "br", "label", "%return", "return:", "%13", "=", "load", "i32,", "ptr", "%retval", "ret", "i32", "%13", "H(StoreInst)", "=", "H1", "H(BrInst,main.if.then4,main.return)=H2", "H(LoadInst)", "=", "H3", "H(RetInst)", "=", "H4", "Seq1", "=", "[H1,", "H2,", "H3,", "H4]", "//", "Site2", "at", "main:15", "%if.then12:", "store", "i32", "-1,", "ptr", "%retval", "br", "label", "%return", "return:", "%13", "=", "load", "i32,", "ptr", "%retval", "ret", "i32", "%13", "H(StoreInst)", "=", "H1", "H(BrInst,main.if.then12,main.return)=H5", "H(LoadInst)", "=", "H3", "H(RetInst)", "=", "H4", "Seq2", "=", "[H1,", "H5,", "H3,", "H4]"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 532.3199999999999,
+    "y1": 504.0,
+    "y2": 672.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. The overview of AFL-FI",
+  "captionBoundary": {
+    "x1": 128.65310668945312,
+    "x2": 232.12106323242188,
+    "y1": 293.0498962402344,
+    "y2": 296.50909423828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 295.2,
+    "y1": 74.88,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure3-1.png"
+}, {
+  "caption": "TABLE IV THE FUZZING RESULTS OF COVERAGE-GUIDED SFI AND ERROR SITE-GUIDED SFI. CG DONATES COVERAGE-GUIDED SFI. EG DONATES ERROR SITE-GUIDED SFI. INC DONATES AN INCREASING PERCENTAGE.",
+  "captionBoundary": {
+    "x1": 85.77738952636719,
+    "x2": 531.9979248046875,
+    "y1": 75.93196105957031,
+    "y2": 95.9163818359375
+  },
+  "figType": "Table",
+  "imageText": ["\"\"", "&", "'", "!\"\"", "#", "$%%", "!&", "#", "!\"\"", "#", "$%%", "!&", "#", "!\"\"", "#", "$%%", "!&", "#", "CG", "EG", "Inc(%)", "CG", "EG", "Inc(%)", "CG", "EG", "Inc(%)", "Mpv", "112", "132", "17", "↑", "1,018", "1,321", "29", "↑", "5,545", "7,194", "30", "↑", "Radare2", "175", "284", "62", "↑", "1,546", "2,843", "83", "↑", "9,513", "15,479", "63", "↑", "Binutils", "27", "28", "3", "↑", "269", "280", "4", "↑", "9,872", "11,108", "13", "↑", "Lz4", "5", "7", "40", "↑", "70", "70", "0", "−", "381", "387", "2", "↑", "Zstd", "80", "81", "1", "↑", "798", "811", "1", "↑", "4,349", "4,415", "2", "↑", "John", "68", "72", "5", "↑", "679", "720", "6", "↑", "3,696", "3,924", "6", "↑", "Vim", "154", "154", "0", "−", "1,537", "1,542", "0", "−", "8,372", "8,394", "0", "−", "Libuv", "82", "101", "23", "↑", "900", "1,011", "12", "↑", "4,457", "5,505", "24", "↑", "Total", "703", "859", "22", "↑", "6,817", "8,598", "26", "↑", "46,185", "56,406", "22", "↑", "Covered", "Error", "Sites", "(Context-Sensitive)", "Error", "Sequence", "Project", "Covered", "Error", "Sites", "(Context-Insensitive)"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 525.12,
+    "y1": 104.64,
+    "y2": 300.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-TableIV-1.png"
+}, {
+  "caption": "Fig. 11. The code coverage achieved by AFL-FI and the baselines",
+  "captionBoundary": {
+    "x1": 205.506591796875,
+    "x2": 412.2662048339844,
+    "y1": 437.99505615234375,
+    "y2": 441.4542541503906
+  },
+  "figType": "Figure",
+  "imageText": ["(h)", "Libuv", "!\"\"", "#", "$%%", "!&", "#", "(g)", "Vim", "!\"\"", "#", "$%%", "!&", "#", "(f)", "John", "!\"\"", "#", "$%%", "!&", "#", "(e)", "Zstd", "\"\"", "&", "'", "(d)", "Lz4", "(c)", "Binutils", "(b)", "Radare2", "(a)", "Mpv"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 524.16,
+    "y1": 319.2,
+    "y2": 431.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure11-1.png"
+}, {
+  "caption": "Fig. 5. Fault injection instrumentation and control code example",
+  "captionBoundary": {
+    "x1": 331.460205078125,
+    "x2": 528.5914916992188,
+    "y1": 181.3562774658203,
+    "y2": 184.81549072265625
+  },
+  "figType": "Figure",
+  "imageText": ["15.+", "bool", "control()", "{", "16.+", "do_log(get_ret_addr());", "17.+", "counter", "+=", "1;", "18.+", "if", "(should_fail(counter))", "19.+", "return", "true;", "20.+", "return", "false;", "21.+", "}", "1.", "void", "*xstrdup(void", "*str)", "{", "2.", "size_t", "len", "=", "strlen(str);", "3.-", "void", "*ret", "=", "malloc(len", "+", "1);", "4.+", "void", "*ret", "=", "NULL;", "5.+", "if", "(control()", "==", "false)", "{", "6.+", "ret", "=", "malloc(len", "+", "1);", "7.+", "}", "8.", "if", "(!ret)", "{", "9.", "free(str);", "10.", "return", "NULL;", "11.", "}", "12.", "strcpy(ret,", "str);", "13.", "return", "ret;", "14.", "}"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 545.28,
+    "y1": 72.96,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00039-Figure5-1.png"
+}]

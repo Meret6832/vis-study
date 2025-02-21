@@ -1,0 +1,81 @@
+[{
+  "caption": "Figure 4. Network throughput (in MBs).",
+  "captionBoundary": {
+    "x1": 355.31298828125,
+    "x2": 520.6477661132812,
+    "y1": 433.5602111816406,
+    "y2": 439.8169860839844
+  },
+  "figType": "Figure",
+  "imageText": ["Baseline", "Flower", "Flower", "enhanced", "with", "RAFT", "Number", "of", "worker", "nodes", "in", "the", "FL", "cluster", "49.1", "43.9", "36.8", "29.3", "22.6", "16", "7.94", "10.9", "0.98", "2.15", "3.1", "4.06", "5.02", "5.97", "6.93", "7.88", "8.84", "9.8", "1.77", "5.17", "60", "50", "40", "30", "20", "10", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "0"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 555.36,
+    "y1": 192.0,
+    "y2": 416.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644093-Figure4-1.png"
+}, {
+  "caption": "Figure 3. Aggregator re-election time (in seconds).",
+  "captionBoundary": {
+    "x1": 70.22200012207031,
+    "x2": 277.8296813964844,
+    "y1": 314.06024169921875,
+    "y2": 320.3170166015625
+  },
+  "figType": "Figure",
+  "imageText": ["Aggregator", "re-election", "time", "Number", "of", "worker", "nodes", "in", "the", "FL", "cluster", "3.76", "3.13", "2.76", "2.25", "2.47", "1.7", "1.97", "1.27", "1.33", "1.46", "5", "4", "3", "2", "1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "0"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.4,
+    "x2": 289.44,
+    "y1": 72.96,
+    "y2": 296.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644093-Figure3-1.png"
+}, {
+  "caption": "Table 1. Possible levels of self-recovery in FL using Raft.",
+  "captionBoundary": {
+    "x1": 190.46299743652344,
+    "x2": 421.2147521972656,
+    "y1": 355.2572326660156,
+    "y2": 361.5140075683594
+  },
+  "figType": "Table",
+  "imageText": ["Level", "4:", "state-", "ful", "self-recovery", "of", "the", "aggrega-", "tor", "and", "worker", "nodes.", "Aggregated", "model", "parameters", "at", "the", "server", "side.", "Individual", "parame-", "ters", "at", "the", "client", "side.", "All", "possible", "information", "is", "stored", "and", "replicated", "across", "all", "nodes.", "This", "means", "that", "any", "worker", "node", "can", "re-start", "its", "training", "routine", "by", "fetching", "its", "previous", "state", "from", "peer", "nodes.", "To", "a", "great", "extent,", "this", "might", "not", "be", "very", "practical", "due", "to", "the", "increased", "amounts", "of", "redundant", "information", "being", "exchanged", "and", "the", "fact", "that", "a", "failure", "of", "a", "worker", "node", "(as", "opposed", "to", "the", "aggregator)", "can", "often", "be", "tolerated/neglected.", "Still,", "this", "kind", "of", "fully", "stateful", "self-recovery", "can", "be", "possibly", "applied", "in", "some", "critical", "scenarios,", "where", "worker", "nodes", "are", "valuable", "in", "terms", "of", "their", "unique", "training", "data.", "Aggregated", "model", "parameters", "at", "the", "server", "side.", "This", "is", "a", "combination", "of", "the", "previous", "two", "levels,", "where", "the", "aggregator", "not", "only", "stores", "the", "intermediate", "FL", "progress,", "but", "also", "replicates", "it", "across", "all", "FL", "nodes.", "Any", "node", "is", "suitable", "to", "become", "a", "new", "aggregator", "and", "re-start", "the", "training", "from", "the", "latest", "checkpoint.", "Level", "1:", "self-", "recovery", "with", "the", "same", "aggre-", "gator.", "Aggregated", "model", "parameters", "stored", "locally", "without", "replication.", "The", "aggregator", "continuously", "stores", "intermediate", "training", "results", "locally", "and", "is", "able", "to", "restart", "the", "FL", "process", "from", "the", "latest", "checkpoint", "after", "a", "crash.", "This,", "however,", "strictly", "assumes", "that", "the", "same", "node", "will", "remain", "the", "aggregator.", "This", "kind", "of", "functionality", "is", "offered", "by", "most", "ML", "frameworks,", "which", "allow", "storing", "serialised", "training", "results", "on", "disk.", "Level", "2:", "stateless", "self-", "recovery.", "N/a", "The", "FL", "cluster", "is", "able", "to", "re-elect", "a", "new", "aggregator", "among", "the", "remaining", "worker", "nodes", "following", "the", "Raft", "protocol,", "but", "the", "re-elected", "aggregator", "will", "start", "the", "FL", "from", "scratch,", "since", "no", "intermediate", "training", "progress", "was", "stored/replicated.", "Level", "3:", "stateful", "self-recovery.", "N/a", "This", "level", "represents", "the", "current", "state", "of", "practice,", "where", "no", "FL", "state", "is", "stored/replicated.", "With", "the", "aggregator", "being", "a", "single", "point", "of", "failure,", "the", "FL", "progress", "is", "lost", "and", "cannot", "be", "automatically", "recovered", "in", "case", "of", "failures.", "Level", "State", "replication", "Description", "Level", "0:", "no", "self-", "recovery"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 72.0,
+    "y2": 352.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644093-Table1-1.png"
+}, {
+  "caption": "Figure 1. Algorithm of a Raft-enhanced FL node.",
+  "captionBoundary": {
+    "x1": 74.02300262451172,
+    "x2": 274.0279235839844,
+    "y1": 374.00823974609375,
+    "y2": 380.2650146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 72.0,
+    "y2": 360.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644093-Figure1-1.png"
+}]

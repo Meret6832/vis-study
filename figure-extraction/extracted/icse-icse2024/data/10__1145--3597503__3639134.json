@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 3: Dataset collection process",
+  "captionBoundary": {
+    "x1": 366.989013671875,
+    "x2": 509.1628723144531,
+    "y1": 213.07937622070312,
+    "y2": 218.71002197265625
+  },
+  "figType": "Figure",
+  "imageText": ["LibXML2", "Compile", "Release", "version", "Reference", "(patched)", "Reference", "(vulnerable)", "Diff", "Target", "Binary", "Preprocess", "Filter", "Commit", "Dataset", "Optimization", "level", "Clang", "Gcc", "Debug", "Information"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 83.52,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Figure3-1.png"
+}, {
+  "caption": "Table 3: Effectiveness of our approach vs. baselines",
+  "captionBoundary": {
+    "x1": 334.8489990234375,
+    "x2": 541.0042114257812,
+    "y1": 211.50833129882812,
+    "y2": 217.13897705078125
+  },
+  "figType": "Table",
+  "imageText": ["PS3", "0.82", "0.97", "0.89", "*", "In", "our", "experiments,", "BinXray", "returns", "the", "result", "of", "“unknown”", "for", "most", "targets", "when", "the", "compiler", "option", "combination", "is", "not", "gcc", "&", "O0.We", "consider", "all", "“unknown”", "binaries", "vulnerable", "for", "practical", "purposes", "and", "present", "the", "corresponding", "results.", "Approach", "Precision", "Recall", "F1", "Asm2Vec", "0.60", "0.50", "0.65", "BinXray∗", "0.51", "0.96", "0.67"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 559.68,
+    "y1": 231.84,
+    "y2": 311.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Table3-1.png"
+}, {
+  "caption": "Table 1: Statistics of our dataset",
+  "captionBoundary": {
+    "x1": 241.97998046875,
+    "x2": 369.7186279296875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Projects", "#CVE", "#Version", "Clang", "&", "O0", "Gcc", "&", "O0", "Clang", "&", "O1", "Gcc", "&", "O1", "Clang", "&", "O2", "Gcc", "&", "O2", "Clang", "&", "O3", "Gcc", "&", "O3", "#Test#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "OpenSSL", "23", "32", "143", "161", "147", "163", "137", "135", "144", "152", "137", "135", "132", "114", "137", "150", "132", "114", "2,233", "FFmpeg", "26", "37", "75", "115", "75", "115", "51", "76", "56", "78", "51", "76", "43", "71", "51", "76", "43", "71", "1,123", "Tcpdump", "11", "4", "33", "11", "33", "11", "21", "7", "24", "8", "21", "7", "24", "8", "21", "7", "21", "6", "263", "LibXml2", "2", "2", "2", "0", "4", "0", "2", "0", "1", "0", "1", "0", "0", "0", "1", "0", "1", "0", "12", "Total", "62", "75", "253", "287", "259", "289", "211", "218", "225", "238", "210", "218", "199", "193", "210", "233", "197", "191", "3,631", "#P", "represents", "the", "number", "of", "patched", "pairs", "while", "#V", "represents", "vulnerable", "pairs."],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Table1-1.png"
+}, {
+  "caption": "Table 2: (CVE, binary) pair example",
+  "captionBoundary": {
+    "x1": 101.9530029296875,
+    "x2": 245.5883026123047,
+    "y1": 211.50833129882812,
+    "y2": 217.13897705078125
+  },
+  "figType": "Table",
+  "imageText": ["CVE", "Target", "Version", "Option", "Ground", "Truth", "2018-14468", "Tcpdump", "4.9.3", "O0", "&", "Clang", "patch"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 231.84,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Table2-1.png"
+}, {
+  "caption": "Table 6: Summary of related work",
+  "captionBoundary": {
+    "x1": 104.90299987792969,
+    "x2": 242.63864135742188,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["FIBER", "[37]", "✓", "C/C++", "✓", "Osprey", "[33]", "✓", "C/C++", "✓", "PDiff", "[23]", "✓", "C/C++", "✓", "BinXray", "[36]", "✓", "C/C++", "BSCOUT", "[9]", "✓", "Java", "✓", "PHunter", "[35]", "✓", "Java", "✓", "Work", "Approach", "Language", "Source", "code", "signature", "similarity", "required"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 105.6,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Table6-1.png"
+}, {
+  "caption": "Figure 1: Motivating example",
+  "captionBoundary": {
+    "x1": 246.61599731445312,
+    "x2": 365.385009765625,
+    "y1": 301.28509521484375,
+    "y2": 306.9159851074219
+  },
+  "figType": "Figure",
+  "imageText": ["Not(R(w)", "<", "3)", "…", "…", "Not(R(h)", "<", "3)", "…", "sp", "+", "14", "sp", "+", "10", "cmpl", "$0x2,", "0x14(%rsp)", "jle", "0x3ff75e", "cmpl", "$0x2,", "0x10(%rsp)", "jg", "0x3ff768", "movl", "%esi,", "0x14(%rsp)", "movl", "%edx,", "0x10(%rsp)", "↦", "↦", "int", "w", "int", "h", "↧", "↧", "↧", "↧", "↦", "%esi", "↦", "%edx", "Signature", "Not(R(h)", "≤", "2)", "Not(R(w)", "≤", "2)", "%ebx", "%ebp", "%esi", "%edx", "int", "w", "int", "h", "Match", "cmpl", "$0x3,", "%ebx", "jl", "0x60ab9a", "cmpl", "$0x3,", "%ebp", "jl", "0x60ab9a", "movl", "%edx,", "%ebp", "movl", "%esi,", "%ebx", "Target", "10", "s->stride", "=", "FFALIGN(w", "*", "sizeof(uint16_t),", "32);", "av_pix_fmt_desc_get(fmt);,!", "4", "5", "+", "if", "(w", "<", "3", "||", "h", "<", "3)", "6", "+", "return", "AVERROR(EINVAL);", "7", "+", "8", "s->width", "=", "w;", "9", "s->height", "=", "h;", "(VMAFMotionData", "*s,", "int", "w,", "int", "h,,!", "2", "int", "i;", "3", "const", "AVPixFmtDescriptor", "*desc", "=", "1", "@@", "-238,6", "+238,9", "@@", "int", "ff_vmafmotion_init"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 509.28,
+    "y1": 82.56,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Results of every CVE in different projects",
+  "captionBoundary": {
+    "x1": 335.12200927734375,
+    "x2": 541.0260009765625,
+    "y1": 188.59738159179688,
+    "y2": 194.22802734375
+  },
+  "figType": "Figure",
+  "imageText": ["project", "libxml2", "tcpdump", "openssl", "FFmpeg", "ll", "re", "ca", "1.0", "0.5", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "precision"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 554.4,
+    "y1": 89.75999999999999,
+    "y2": 171.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Overall framework of PS3",
+  "captionBoundary": {
+    "x1": 234.85800170898438,
+    "x2": 376.643798828125,
+    "y1": 259.7361145019531,
+    "y2": 265.36700439453125
+  },
+  "figType": "Figure",
+  "imageText": ["01", "10", "2", "3", "1", "1", "1", "2", "3", "1", "1", "1", "1", "1", "2", "1", "3", "Addition/Deletion", "Checking", "Module", "Modification", "Signature", "Extractor", "Matching", "Engine", "Condition", "Target", "Store", "data", "to", "Mem", "Call", "&", "Return", "Write", "data", "to", "Reg", "0101", "Patched", "Vulnerable", "Symbolic", "Emulator"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 84.0,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Case study examples",
+  "captionBoundary": {
+    "x1": 377.23699951171875,
+    "x2": 498.9145812988281,
+    "y1": 644.5983276367188,
+    "y2": 650.22900390625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Patch", "of", "CVE-2022-1343", "[12]", "1", "@@", "-59,9", "+59,10", "@@", "static", "int", "ocsp_verify_signer(X509", "*signer,", "int", "response,", "2", "3", "ret", "=", "X509_verify_cert(ctx);", "4", "if", "(ret", "<=", "0)", "{", "5", "-", "ret", "=", "X509_STORE_CTX_get_error(ctx);", "6", "+", "int", "err", "=", "X509_STORE_CTX_get_error(ctx);", "7", "+", "8", "ERR_raise_data(ERR_LIB_OCSP,", "OCSP_R_CERTIFICATE_VERIFY_ERROR,", "9", "-", "\"Verify", "error:", "%s\",", "X509_verify_cert_error_string(ret));", "10", "+", "\"Verify", "error:", "%s\",", "X509_verify_cert_error_string(err));", "11", "goto", "end;", "12", "}", "13", "if", "(chain", "!=", "NULL)", "(b)", "Patch", "of", "CVE-2022-1473", "[13]", "1", "@@", "-100,6", "+100,8", "@@", "void", "OPENSSL_LH_flush(OPENSSL_LHASH", "*lh)", "2", "}", "3", "lh->b[i]", "=", "NULL;", "4", "}", "5", "+", "6", "+", "lh->num_items", "=", "0;", "7", "}", "(a)", "Patch", "of", "CVE-2018-0735", "[10]", "*r,↩→", "13", "*", "k", ":=", "scalar", "+", "2*cardinality", "14", "*/", "15", "kbit", "=", "BN_is_bit_set(lambda,", "cardinality_bits);", "16", "-", "BN_consttime_swap(kbit,", "k,", "lambda,", "group_top", "+", "1);", "17", "+", "BN_consttime_swap(kbit,", "k,", "lambda,", "group_top", "+", "2);", "18", "19", "group_top", "=", "bn_get_top(group->field);", "20", "if", "((bn_wexpand(s->X,", "group_top)", "==", "NULL)", "*r,↩→", "2", "*/", "3", "cardinality_bits", "=", "BN_num_bits(cardinality);", "4", "group_top", "=", "bn_get_top(cardinality);", "5", "-", "if", "((bn_wexpand(k,", "group_top", "+", "1)", "==", "NULL)", "6", "-", "||", "(bn_wexpand(lambda,", "group_top", "+", "1)", "==", "NULL))", "{", "7", "+", "if", "((bn_wexpand(k,", "group_top", "+", "2)", "==", "NULL)", "8", "+", "||", "(bn_wexpand(lambda,", "group_top", "+", "2)", "==", "NULL))", "{", "9", "ECerr(EC_F_EC_SCALAR_MUL_LADDER,", "ERR_R_BN_LIB);", "10", "goto", "err;", "11", "}", "12", "@@", "-244,7", "+244,7", "@@", "int", "ec_scalar_mul_ladder(const", "EC_GROUP", "*group,", "EC_POINT", "1", "@@", "-206,8", "+206,8", "@@", "int", "ec_scalar_mul_ladder(const", "EC_GROUP", "*group,", "EC_POINT"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 311.03999999999996,
+    "x2": 559.1999999999999,
+    "y1": 250.56,
+    "y2": 629.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Figure5-1.png"
+}, {
+  "caption": "Table 4: Results on different compiler options",
+  "captionBoundary": {
+    "x1": 213.15797424316406,
+    "x2": 398.5389404296875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["*", "We", "considering", "the", "“unknown”", "response", "as", "vulnerability", "in", "BinXray", "as", "we", "mentioned", "in", "RQ1.", "Precision", "Recall", "F1", "Precision", "Recall", "F1", "Gcc", "&", "O0", "0.74", "0.99", "0.85", "0.91", "0.94", "0.93", "Gcc", "&", "O1", "0.47", "0.97", "0.63", "0.83", "1", "0.91", "Gcc", "&", "O2", "0.51", "0.95", "0.66", "0.82", "1", "0.90", "Gcc", "&", "O3", "0.51", "0.95", "0.66", "0.82", "1", "0.90", "Clang", "&", "O0", "0.46", "0.97", "0.63", "0.83", "0.95", "0.89", "Clang", "&", "O1", "0.49", "0.92", "0.64", "0.80", "0.96", "0.87", "Clang", "&", "O2", "0.48", "0.96", "0.64", "0.77", "0.96", "0.86", "Clang", "&", "O3", "0.47", "0.96", "0.63", "0.77", "0.96", "0.86", "Compiler", "option", "combination", "BinXray∗", "PS3"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 139.68,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 252.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Table4-1.png"
+}, {
+  "caption": "Table 5: Time cost of our approach vs. BinXray (seconds)",
+  "captionBoundary": {
+    "x1": 59.282005310058594,
+    "x2": 288.25567626953125,
+    "y1": 252.89236450195312,
+    "y2": 258.52301025390625
+  },
+  "figType": "Table",
+  "imageText": ["BinXray", "110", "0.1", "-", "0.06", "Approach", "Preprocess", "Max", "Min", "Average", "PS3", "-", "45.1", "2.1", "7.4"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 266.4,
+    "y1": 274.56,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639134-Table5-1.png"
+}]

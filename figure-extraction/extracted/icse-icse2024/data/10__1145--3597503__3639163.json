@@ -1,0 +1,61 @@
+[{
+  "caption": "Table 1: The network configurations andfine-tuning hyperparameters for Janus𝑣𝑖𝑠 compared with SimCLR used by Tango",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6365966796875,
+    "y1": 89.27688598632812,
+    "y2": 103.6610107421875
+  },
+  "figType": "Table",
+  "imageText": ["DINO", "(ResNet)", "2,048", "23M", "96", "0.03", "0.03", "(0)", "DINO", "(ViT-S/16)", "384", "21M", "96", "0.03", "0.03", "(0)", "DINO", "(ViT-S/8)", "384", "21M", "18", "0.04", "0.05", "(30)", "DINO", "(ViT-B/16)", "768", "85M", "64", "0.05", "0.07", "(50)", "model", "dim", "#", "params", "batch", "size", "w-temp", "temp", "SimCLR", "2,048", "23M", "1,792", "–", "–"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 116.64,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639163-Table1-1.png"
+}, {
+  "caption": "Figure 1: Overview of the Janus duplicate detector.",
+  "captionBoundary": {
+    "x1": 71.427001953125,
+    "x2": 276.412841796875,
+    "y1": 472.2059020996094,
+    "y2": 474.2860107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Weighting", "Textual", "Frame", "Weighting", "JANUSseq-v", "JANUSseq-t", "Visual", "Frame", "K-Means", "TF-IDF", "Lucene", "TF-IDF", "Frame", "Set", "2", "Video", "Processing", "Video", "1+2", "Frame", "Sets", "Frame", "Set", "1", "EAST", "Similarity", "Computation", "Alignment", "&", "Weighting", "JANUSseq", "LCS-Based", "Frame", "Frame", "Patches", "Encoder", "ViT", "(Encoder)", "Decoder", "JANUStxt", "Video", "Representation", "Video", "Representation", "TrOCR", "DINO", "(ViT)", "Keyframe", "Representation", "Text", "Detection", "&", "Recognition", "JANUSvis", "JANUS+txt", "Video", "1", "Video", "2(Fixed", "Sampling", "Rate)"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 296.15999999999997,
+    "y1": 83.52,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639163-Figure1-1.png"
+}, {
+  "caption": "Table 2: Performance of the individual components of Janus and the baseline Tango",
+  "captionBoundary": {
+    "x1": 133.92196655273438,
+    "x2": 477.78082275390625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Overall", "80.66", "74.54", "85.61", "78.93", "76.14", "70.06", "81.11", "75.14", "58.23", "48.67", "77.84", "68.39", "67.36", "62.69", "Extended", "89.67", "83.96", "92.75", "87.49", "88.98", "85.74", "93.48", "90.27", "67.69", "56.81", "91.50", "83.58", "67.70", "62.80", "FCS", "91.09", "85.82", "86.88", "82.69", "85.12", "79.12", "86.17", "84.88", "65.23", "55.42", "90.20", "85.91", "90.53", "88.21", "GPS", "95.99", "92.15", "98.09", "95.70", "92.11", "84.82", "97.51", "96.10", "68.34", "60.63", "93.72", "86.64", "57.83", "53.33", "ITP", "81.93", "73.92", "93.29", "84.08", "89.73", "86.34", "96.77", "89.83", "69.50", "54.37", "90.56", "78.20", "54.74", "46.87", "Original", "76.16", "69.83", "82.04", "74.65", "69.80", "63.70", "74.93", "67.57", "53.50", "44.59", "71.00", "60.80", "67.20", "62.63", "APOD", "77.19", "69.98", "87.32", "79.79", "80.80", "75.30", "79.76", "73.09", "55.01", "44.85", "84.45", "71.11", "73.40", "68.09", "DROID", "68.43", "58.82", "80.77", "71.44", "67.90", "64.70", "78.88", "72.52", "46.54", "37.91", "61.49", "50.88", "76.19", "73.64", "GNU", "81.53", "75.83", "81.83", "75.54", "84.50", "82.30", "89.53", "81.28", "55.91", "43.37", "71.41", "58.82", "52.79", "43.81", "GROW", "83.53", "78.60", "87.46", "80.33", "76.80", "69.00", "82.65", "77.38", "74.57", "64.46", "92.14", "84.57", "77.45", "76.24", "TIME", "70.26", "65.35", "73.76", "69.46", "47.40", "37.70", "64.80", "56.67", "50.85", "43.62", "63.14", "56.18", "69.34", "66.16", "TOK", "76.03", "70.37", "81.11", "71.33", "61.30", "53.30", "53.95", "44.48", "38.13", "33.36", "53.39", "43.22", "54.00", "47.83", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "Tango", "Janus𝑣𝑖𝑠", "Tango", "Janus𝑡𝑥𝑡", "Tango", "Janus𝑠𝑒𝑞−𝑣", "Janus𝑠𝑒𝑞−𝑡App", "Visual", "Textual", "Sequential", "(visual)", "Seq.", "(textual)"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 105.6,
+    "y2": 263.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639163-Table2-1.png"
+}]

@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 1: Execution time of a Java microbenchmark (from the Roaring Bitmap project) over consecutive iterations. The execution is characterized by an initial warm-up phase and a subsequent steady-state of performance. The grey dotted line indicates the iteration 𝑠𝑡 at which steady-state is attained.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.195556640625,
+    "y1": 392.7003479003906,
+    "y2": 442.1669921875
+  },
+  "figType": "Figure",
+  "imageText": ["st", "Warm-up", "phase", "Steady", "state", "ec", ")", "e", "(s", "n", "tim", "cu", "tio", "E", "xe", "0.0020", "0.0019", "0.0018", "0.0017", "0.0016", "0", "200", "400", "600", "800", "1000", "1200", "1400", "Iteration"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 359.52,
+    "x2": 517.4399999999999,
+    "y1": 258.71999999999997,
+    "y2": 373.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The left box shows an example of an insufficient number of warm-up iterations, which leads to the collection of measurements unrepresentative of the steady-state. The right plot depicts a scenario with an excessive number of warm-up iterations, which increases the testing time.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 294.036376953125,
+    "y1": 228.39633178710938,
+    "y2": 277.86297607421875
+  },
+  "figType": "Figure",
+  "imageText": ["Warm-up", "iterations", "Measurement", "iterations", "Not", "executed", "ec", ")", "e", "(s", "n", "tim", "cu", "tio", "E", "xe", "Iteration", "st", "0", "200", "400", "600", "800", "1000", "1200", "1400", "st", "0.0020", "0.0019", "0.0018", "0.0017", "0.0016", "0", "200", "400", "600", "800", "1000", "1200", "1400"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 87.84,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Figure2-1.png"
+}, {
+  "caption": "Table 3: Results for the WEE comparison of models vs. SOP (RQ2).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2008666992188,
+    "y1": 87.64437866210938,
+    "y2": 105.5789794921875
+  },
+  "figType": "Table",
+  "imageText": ["FCN", "vs.", "SOP", "<0.001", "0.664", "0.352", "OSCNN", "vs.", "SOP", "<0.001", "0.658", "0.348", "ROCKET", "vs.", "SOP", "<0.001", "0.683", "0.282", "Model", "vs.", "SOP", "𝑝-value", "?̂?12", "𝑟"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 360.96,
+    "x2": 515.04,
+    "y1": 118.56,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Table3-1.png"
+}, {
+  "caption": "Table 2: Results for the classification of segments (RQ1).",
+  "captionBoundary": {
+    "x1": 60.56999969482422,
+    "x2": 286.97698974609375,
+    "y1": 85.72634887695312,
+    "y2": 92.70196533203125
+  },
+  "figType": "Table",
+  "imageText": ["FCN", "0.880", "0.659", "0.753", "0.712", "OSCNN", "0.886", "0.650", "0.748", "0.715", "ROCKET", "0.810", "0.932", "0.867", "0.682", "Model", "Prec.", "Rec.", "F1", "Bal.", "Acc."],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 255.35999999999999,
+    "y1": 108.0,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Table2-1.png"
+}, {
+  "caption": "Table 7: Percentages of improvement and regression when comparing models vs. SOTA (RQ3).",
+  "captionBoundary": {
+    "x1": 116.64501953125,
+    "x2": 495.05902099609375,
+    "y1": 87.64431762695312,
+    "y2": 94.61993408203125
+  },
+  "figType": "Table",
+  "imageText": ["ROCKET", "vs.", "CV", "11.3", "19.8", "31.1", "24.6", "2.7", "27.3", "+3.8", "ROCKET", "vs.", "RCIW", "4.1", "24.4", "28.5", "51.4", "3.4", "54.8", "-26.3", "ROCKET", "vs.", "KLD", "7.2", "21.5", "28.7", "22.5", "3.9", "26.5", "+2.2", "OSCNN", "vs.", "CV", "28.8", "26.8", "55.6", "12.3", "8.0", "20.3", "+35.3", "OSCNN", "vs.", "RCIW", "7.0", "52.6", "59.6", "21.8", "4.8", "26.6", "+32.9", "OSCNN", "vs.", "KLD", "27.8", "23.0", "50.9", "12.1", "12.8", "24.9", "+25.9", "FCN", "vs.", "CV", "26.8", "27.1", "53.9", "12.3", "7.7", "20.0", "+34.0", "FCN", "vs.", "RCIW", "6.3", "50.3", "56.7", "24.2", "4.6", "28.8", "+27.8", "FCN", "vs.", "KLD", "25.9", "24.4", "50.3", "13.1", "10.4", "23.5", "+26.8", "Improvement", "(%)", "Regression", "(%)", "Net", "Improvement", "(%)", "Model", "vs.", "SOTA", "Res.", "Quality", "Testing", "Time", "Total", "Res.", "Quality", "Testing", "Time", "Total", "(Tot.", "Impr.", "-", "Tot.", "Regr.)"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 517.4399999999999,
+    "y1": 108.0,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Table7-1.png"
+}, {
+  "caption": "Table 4: Percentages of improvement and regression when comparing models vs. SOP (RQ2).",
+  "captionBoundary": {
+    "x1": 119.89102172851562,
+    "x2": 491.81304931640625,
+    "y1": 87.64431762695312,
+    "y2": 94.61993408203125
+  },
+  "figType": "Table",
+  "imageText": ["FCN", "vs.", "SOP", "16.7", "30.7", "47.4", "14.3", "7.8", "22.2", "+25.3", "OSCNN", "vs.", "SOP", "17.9", "30.9", "48.8", "13.7", "8.2", "21.8", "+27.0", "Rocket", "vs.", "SOP", "9.4", "20.1", "29.5", "25.9", "6.5", "32.4", "-2.9", "Improvement", "(%)", "Regression", "(%)", "Net", "Improvement", "(%)", "Model", "vs.", "SOP", "Res.", "Quality", "Testing", "Time", "Total", "Res.", "Quality", "Testing", "Time", "Total", "(Tot.", "Impr.", "-", "Tot.", "Regr.)"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 512.16,
+    "y1": 108.0,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Table4-1.png"
+}, {
+  "caption": "Figure 4: Percentages of overestimation, underestimation, and exact match for models/SOP/SOTA (RQ2/3).",
+  "captionBoundary": {
+    "x1": 94.16100311279297,
+    "x2": 517.8389892578125,
+    "y1": 297.1223449707031,
+    "y2": 304.7359924316406
+  },
+  "figType": "Figure",
+  "imageText": ["Overestimation", "Underestimation", "Exact", "match", "0.1", "0.1", "0.0", "0.2", "15.5", "14.9", "16.6", "25.9", "40.6", "36.0", "42.7", "70.3", "46.3", "43.9", "74.1", "59.2", "63.9", "57.2", "13.1", "38.1", "41.2", "%", ")", "rie", "s", "(", "e", "se", "Ti", "m", "100", "80", "60", "40", "20", "FCN", "OSCNN", "Rocket", "SOP", "CV", "RCIW", "KLD", "0"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 110.39999999999999,
+    "x2": 502.08,
+    "y1": 187.68,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Overview of the main phases of our framework: Data Preprocessing,Model Training and Application.",
+  "captionBoundary": {
+    "x1": 83.16400146484375,
+    "x2": 528.836669921875,
+    "y1": 295.5963439941406,
+    "y2": 301.22698974609375
+  },
+  "figType": "Figure",
+  "imageText": ["i1", "i2", "i3", "i4", "i5", "i6", "i7", "i8", "Yes", "No", "[FCN/OSCNN/ROCKET]", "Time", "Series", "Classiﬁcation", "Model", "[FCN/OSCNN/ROCKET]", "Time", "Series", "Classiﬁcation", "Model", "SUPERVISED", "LEARNING", "Repeat", "i8", "APPLICATION", "Run", "an", "additional", "iteration and", "shift", "the", "measurement", "window", "i1", "i2", "i3", "i4", "i5", "i6", "i7", "Stop", "execution", "and", "return", "measurements", "Are", "measurements", "stable ?", "i4", "i5", "i6", "i7", "WARM-UP", "ITERATIONS", "MEASUREMENT", "ITERATIONS", "ET", "i1", "i2", "i3", "i4", "i5", "i6", "i7", "G", "S", "IN", "IN", "TR", "A", "DATA", "PREPROCESSING", "MODEL", "TRAINING", "WARM-UP", "STEADY-STATE", "SEGMENTATION", "AND", "LABELING", "stable", "unstable", "unstable", "unstable", "i5", "i6", "i7", "i8", "i4", "i5", "i6", "i7", "i3", "i4", "i5", "i6", "i2", "i3", "i4", "i5", "i1", "i2", "i3", "i4", "unstable"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 127.67999999999999,
+    "x2": 483.35999999999996,
+    "y1": 91.67999999999999,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Figure3-1.png"
+}, {
+  "caption": "Table 5: Relative measurement deviation and testing time of models, SOP, and SOTA (RQ2/3).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03704833984375,
+    "y1": 87.64437866210938,
+    "y2": 106.21600341796875
+  },
+  "figType": "Table",
+  "imageText": ["CV", "9.9", "(4.7-17.5)", "75", "(51-113)", "RCIW", "4.5", "(1.8-11.5)", "300", "(265-301)", "KLD", "7.9", "(4.2-13.4)", "121", "(94-156)", "SOP", "6.5", "(2.4-19.2)", "100", "(30-403)", "FCN", "5.7", "(2.8-11.3)", "74", "(43-150)", "OSCNN", "5.5", "(2.4-12.3)", "79", "(47-161)", "Rocket", "10.0", "(4.5-21.7)", "51", "(30-78)", "Rel.", "Meas.", "Dev.", "(%)", "Testing", "Time", "(sec)", "Model/SOP/SOTA", "Median", "(IQR)", "Median", "(IQR)"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 286.08,
+    "y1": 118.56,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Table5-1.png"
+}, {
+  "caption": "Table 6: Results for the WEE comparison of models vs. SOTA (RQ3).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.5338745117188,
+    "y1": 87.64437866210938,
+    "y2": 105.5789794921875
+  },
+  "figType": "Table",
+  "imageText": ["ROCKET", "vs.", "CV", "<0.001", "0.649", "0.245", "ROCKET", "vs.", "RCIW", "<0.001", "0.726", "0.264", "ROCKET", "vs.", "KLD", "<0.001", "0.656", "0.157", "OSCNN", "vs.", "CV", "<0.001", "0.632", "0.385", "OSCNN", "vs.", "RCIW", "<0.001", "0.728", "0.414", "OSCNN", "vs.", "KLD", "<0.001", "0.621", "0.288", "FCN", "vs.", "CV", "<0.001", "0.637", "0.370", "FCN", "vs.", "RCIW", "<0.001", "0.731", "0.400", "FCN", "vs.", "KLD", "<0.001", "0.630", "0.292", "Model", "vs.", "SOTA", "𝑝-value", "?̂?12", "𝑟"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 357.59999999999997,
+    "x2": 518.4,
+    "y1": 118.56,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Table6-1.png"
+}, {
+  "caption": "Table 1: Overview of the Java systems, including the name of each GitHub repository, the number of stars and forked repositories, and the number of microbenchmarks involved in the dataset.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03411865234375,
+    "y1": 87.64437866210938,
+    "y2": 126.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["HdrHistogram/HdrHistogram", "2,141", "251", "20", "JCTools/JCTools", "3,496", "554", "20", "ReactiveX/RxJava", "47,702", "7,581", "20", "RoaringBitmap/RoaringBitmap", "3,415", "535", "20", "apache/arrow", "13,686", "3,341", "20", "apache/camel", "5,366", "4,896", "20", "apache/hive", "5,370", "4,601", "20", "apache/kafka", "27,594", "13,571", "20", "apache/logging-log4j2", "3,290", "1,559", "20", "apache/tinkerpop", "1,911", "786", "20", "cantaloupe-project/cantaloupe", "261", "104", "19", "crate/crate", "3,977", "546", "20", "eclipse-vertx/vert.x", "14,153", "2,043", "16", "eclipse/eclipse-collections", "2,368", "581", "20", "eclipse/jetty.project", "3,766", "1,899", "19", "eclipse/rdf4j", "347", "160", "20", "h2oai/h2o-3", "6,756", "1,991", "20", "hazelcast/hazelcast", "5,935", "1,803", "17", "imglib/imglib2", "291", "93", "20", "jdbi/jdbi", "1,917", "333", "15", "jgrapht/jgrapht", "2,535", "819", "20", "netty/netty", "32,923", "15,763", "20", "openzipkin/zipkin", "16,780", "3,069", "20", "prestodb/presto", "15,646", "5,265", "20", "prometheus/client_java", "2,134", "772", "20", "protostuff/protostuff", "2,016", "302", "20", "r2dbc/r2dbc-h2", "196", "44", "20", "raphw/byte-buddy", "6,052", "776", "20", "yellowstonegames/SquidLib", "447", "46", "20", "zalando/logbook", "1,737", "257", "20", "Repository", "Stars", "Forked", "Repo.", "Microbench."],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 140.64,
+    "y2": 399.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695017-Table1-1.png"
+}]

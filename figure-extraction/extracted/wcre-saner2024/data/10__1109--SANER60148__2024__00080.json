@@ -1,0 +1,221 @@
+[{
+  "caption": "TABLE IV OVERVIEW OF SPLIT BY PROGRAMMING LANGUAGE IN THE DIFF FOR COMMITBENCH. A SINGLE COMMIT THAT CONTAINS CHANGES IN FILES WITH MULTIPLE PROGRAMMING LANGUAGES WILL BE COUNTED TOWARDS EACH OF THEM.",
+  "captionBoundary": {
+    "x1": 314.4053955078125,
+    "x2": 547.723876953125,
+    "y1": 75.8875732421875,
+    "y2": 112.7340087890625
+  },
+  "figType": "Table",
+  "imageText": ["PHP", "294,394", "Java", "153,119", "Ruby", "233,710", "Go", "137,998", "JavaScript", "373,598", "Python", "472,469", "Language", "#", "Samples"],
+  "name": "IV",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 388.8,
+    "x2": 474.24,
+    "y1": 121.92,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableIV-1.png"
+}, {
+  "caption": "TABLE VI HYPERPARAMETERS USED FOR FINE-TUNING AND EVALUATING T5- AND CODETRANS-BASED MODELS.",
+  "captionBoundary": {
+    "x1": 63.33135986328125,
+    "x2": 292.38751220703125,
+    "y1": 255.96624755859375,
+    "y2": 276.13507080078125
+  },
+  "figType": "Table",
+  "imageText": ["Batch", "Size", "512", "Optimization", "Method", "AdamW", "Learning", "Rate", "5", "×10−5", "with", "linear", "decay", "Gradient", "Clipping", "1.0", "Dropout", "Rate", "0.1", "Number", "of", "Epochs", "40", "Beam", "Size", "5", "Parameter", "Value"],
+  "name": "VI",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 264.0,
+    "y1": 285.59999999999997,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableVI-1.png"
+}, {
+  "caption": "TABLE V COMPARISON OF THE NUMBER OF MODEL PARAMETERS FOR THE EVALUATED MODELS.",
+  "captionBoundary": {
+    "x1": 75.49061584472656,
+    "x2": 280.2258605957031,
+    "y1": 75.8875732421875,
+    "y2": 96.0562744140625
+  },
+  "figType": "Table",
+  "imageText": ["CommitGen", "53", "Million", "NNGen", "0", "T5Small", "60", "Million", "T5Base", "220", "Million", "CodeTransSmall", "60", "Million", "CodeTransBase", "220", "Million", "Models", "#", "Model", "Parameters"],
+  "name": "V",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 244.32,
+    "y1": 105.6,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableV-1.png"
+}, {
+  "caption": "TABLE X RESULTS WHEN TRAINING THE T5-BASED MODELS ON THE SIX INDIVIDUAL PROGRAMMING LANGUAGES IN COMMITBENCH. EVALUATION IS THEN DONE ON THE LANGUAGE-SPECIFIC SUBSET OF THE TEST SET AND COMPARED TO THE PERFORMANCE OF THE MODEL TRAINED ON ALL LANGUAGES ON THE SAME SUBSETS. THE RESULTS ARE REPORTED AS ROUGE-L SCORES. THE BETTER SCORE WITHIN EACH MONO- AND MULTI-LANGUAGE COMPARISON IS COLORED BLUE. BEST OVERALL RESULTS FOR EACH LANGUAGE IN BOLD.",
+  "captionBoundary": {
+    "x1": 61.97890090942383,
+    "x2": 539.6998291015625,
+    "y1": 187.3382568359375,
+    "y2": 224.18377685546875
+  },
+  "figType": "Table",
+  "imageText": ["T5Small", ".130", ".140", ".151", ".157", ".131", ".150", ".116", ".126", ".124", ".139", ".170", ".186", "T5Base", ".177", ".194", ".219", ".219", ".179", ".210", ".175", ".185", ".180", ".192", ".220", ".234", "CodeTransSmall", ".167", ".180", ".189", ".203", ".157", ".180", ".147", ".165", ".163", ".177", ".209", ".222", "CodeTransBase", ".203", ".214", ".235", ".235", ".209", ".226", ".194", ".201", ".209", ".213", ".241", ".249", "Model", "One", "All", "One", "All", "One", "All", "One", "All", "One", "All", "One", "All", "Language", "Java", "Python", "Go", "JavaScript", "PHP", "Ruby"],
+  "name": "X",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 537.12,
+    "y1": 233.76,
+    "y2": 323.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableX-1.png"
+}, {
+  "caption": "TABLE IX RESULTS OF TRAINED AND EVALUATED T5-BASED MODELS ON THE COMMITBENCH DATASET. “RANDOM” IS THE STANDARD SPLIT, WHILE “REPO” SPLITS THE DATASET BASED ON REPOSITORIES.",
+  "captionBoundary": {
+    "x1": 68.56845092773438,
+    "x2": 534.5701904296875,
+    "y1": 74.8807373046875,
+    "y2": 95.04962158203125
+  },
+  "figType": "Table",
+  "imageText": ["T5Small", ".203", ".186", ".148", ".123", ".021", ".014", ".740", "0.814", "T5Base", ".251", ".220", ".204", ".176", ".047", ".029", ".629", "0.669", "CodeTransSmall", ".229", ".0197", ".187", ".151", ".033", ".017", ".649", "0.740", "CodeTransBase", ".259", ".217", ".221", ".186", ".053", ".028", ".632", "0.678", "Split", "Random", "Repo", "Random", "Repo", "Random", "Repo", "Random", "Repo", "METEOR", "ROUGE-L", "BLEU", "C-GOOD"],
+  "name": "IX",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 139.68,
+    "x2": 462.24,
+    "y1": 104.64,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableIX-1.png"
+}, {
+  "caption": "TABLE VII OVERVIEW OF TEST RESULTS COMPARING MODELS EACH TRAINED AND TESTED ON THE SAME DATASET, FOR FOUR DIFFERENT DATASETS. BEST EVALUATION RESULTS FOR EACH METRIC AND DATASET ARE IN BOLD.",
+  "captionBoundary": {
+    "x1": 73.90916442871094,
+    "x2": 527.8681030273438,
+    "y1": 74.8807373046875,
+    "y2": 95.04962158203125
+  },
+  "figType": "Table",
+  "imageText": ["BLEU", "0.023", "0.096", "0.021", "0.047", "0.033", "0.053", "C-GOOD", "0.478", "0.639", "0.740", "0.629", "0.649", "0.632", "METEOR", "0.103", "0.205", "0.203", "0.251", "0.229", "0.259", "ROUGE-L", "0.094", "0.146", "0.148", "0.204", "0.187", "0.221", "CommitBench", "BLEU", "0.102", "0.147", "0.072", "0.095", "0.098", "0.114", "C-GOOD", "0.489", "0.538", "0.578", "0.555", "0.556", "0.570", "METEOR", "0.199", "0.289", "0.229", "0.243", "0.236", "0.250", "ROUGE-L", "0.130", "0.202", "0.139", "0.166", "0.163", "0.181", "MCMD", "BLEU", "0.145", "0.168", "0.095", "0.138", "0.145", "0.172", "C-GOOD", "0.439", "0.438", "0.401", "0.374", "0.375", "0.383", "METEOR", "0.309", "0.325", "0.291", "0.326", "0.315", "0.339", "ROUGE-L", "0.246", "0.270", "0.243", "0.300", "0.297", "0.330", "NNGen", "BLEU", "0.375", "0.387", "0.223", "0.283", "0.295", "0.314", "C-GOOD", "0.418", "0.417", "0.381", "0.344", "0.354", "0.361", "METEOR", "0.418", "0.428", "0.357", "0.397", "0.385", "0.404", "ROUGE-L", "0.373", "0.382", "0.354", "0.409", "0.405", "0.433", "CommitGen", "Dataset", "Metric", "CommitGen", "NNGen", "T5Small", "T5Base", "CodeTransSmall", "CodeTransBase"],
+  "name": "VII",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 537.12,
+    "y1": 104.64,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableVII-1.png"
+}, {
+  "caption": "Fig. 1. Example of a diff, the reference commit message, and predicted commit messages from CodeTransBase trained on the respective datasets. It can be observed that the better-generated commit message is further away from the reference message, which results in a lower evaluation score for this sample.",
+  "captionBoundary": {
+    "x1": 314.7535095214844,
+    "x2": 548.5029907226562,
+    "y1": 631.3965454101562,
+    "y2": 668.2421264648438
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 549.12,
+    "y1": 406.56,
+    "y2": 619.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-Figure1-1.png"
+}, {
+  "caption": "TABLE I COMPARISON OF EXISTING DATASETS FOR COMMIT MESSAGE GENERATION WITH REGARD TO DATASET BEST PRACTICES, QUALITY, AND PROGRAMMING LANGUAGES. THE LAST COLUMN SHOWS OUR NEWLY DEVELOPED DATASET COMMITBENCH.",
+  "captionBoundary": {
+    "x1": 62.70790100097656,
+    "x2": 540.4267578125,
+    "y1": 74.88543701171875,
+    "y2": 95.05419921875
+  },
+  "figType": "Table",
+  "imageText": ["Go,", "PHP,", "Python", "Java,", "Ruby", "JavaScript,", "20", "Languages", "350", "Languages", "JavaScript", "Java,", "C#,", "C++,", "Python,", "Go,", "PHP,", "Python", "Java,", "Ruby", "JavaScript,", "Python", "Java", "Java", "Java", "Java", "Java,", "C++", "Programming", "Languages", "Additional", "Filtering", "Privacy", "Measures", "License-Aware", "Data", "Collection", "Published", "License", "MIT", "Apache", "2.0", "Various", "MIT", "CC", "BY-NC", "Repositories", "1,000", "1,000", "2,000", "12", "1,000", "52k", "500", "11.9k", "2.8m", "72k", "Reproducible", "Deduplicated", "Train", "26,208", "22,112", "23,622", "122,756", "75,000", "276,392", "1,800,000", "7,659,458", "57,700,105", "1,165,213", "Valid", "3,000", "3,000", "5,050", "15,344", "8,000", "34,717", "225,000", "1,554,042", "249,689", "Test", "3,000", "2,521", "3,988", "15,344", "7,661", "34,654", "225,000", "1,486,267", "249,688", "Commit", "Bert", "MCMD", "Commit", "Chronicle", "Commit", "Pack", "CommitBench", "(ours)", "Criteria/Dataset", "Commit", "Gen", "NNGen", "PtrGNC", "Msg", "Multi", "Lang", "CoDi", "Sum"],
+  "name": "I",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 539.04,
+    "y1": 104.64,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableI-1.png"
+}, {
+  "caption": "TABLE VIII DIVERSITY OF MODEL OUTPUTS TRAINED ON ALL DATASETS, REPORTED WITH SELF-BLEU. LOWER MEANS MORE DIVERSE. BEST EVALUATION RESULTS IN BOLD.",
+  "captionBoundary": {
+    "x1": 64.72955322265625,
+    "x2": 293.0166931152344,
+    "y1": 75.546630859375,
+    "y2": 104.05389404296875
+  },
+  "figType": "Table",
+  "imageText": ["Average", "0.559", "0.487", "0.594", "0.473", "CommitGen", "0.555", "0.506", "0.810", "0.878", "NNGen", "0.490", "0.412", "0.345", "0.348", "T5Small", "0.614", "0.539", "0.652", "0.423", "T5Base", "0.579", "0.510", "0.591", "0.388", "CTSmall", "0.576", "0.488", "0.594", "0.418", "CTBase", "0.539", "0.468", "0.569", "0.382", "Model", "CommitGen", "NNGen", "MCMD", "CommitBench"],
+  "name": "VIII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 293.28,
+    "y1": 127.19999999999999,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableVIII-1.png"
+}, {
+  "caption": "TABLE III STATISTICAL INFORMATION ON THE COLLECTED COMMITS BEFORE FILTERING FOR MESSAGE AND CODE DIFF LENGTH USING THE T5 TOKENIZER.",
+  "captionBoundary": {
+    "x1": 325.4206237792969,
+    "x2": 537.2164916992188,
+    "y1": 97.27764892578125,
+    "y2": 125.784912109375
+  },
+  "figType": "Table",
+  "imageText": ["Mean", "27.52", "4", "129.75", "Median", "11", "662", "Standard", "Deviation", "243.10", "15", "904.66", "Variance", "59", "098.21", "252", "958", "201", "Minimum", "Value", "0", "0", "Maximum", "Value", "619", "941", "499", "044", "Range", "619", "941", "499", "044", "25th", "Percentile", "6", "286", "50th", "Percentile", "11", "662", "75th", "Percentile", "20", "2046", "Statistic", "Message", "Length", "Code", "Diff", "Length"],
+  "name": "III",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 546.24,
+    "y1": 135.35999999999999,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableIII-1.png"
+}, {
+  "caption": "TABLE II COMMITS AFFECTED BY SPECIFIC FILTERS FROM THE UNFILTERED DATASET. NOTE THAT A SINGLE COMMIT CAN BE COUNTED BY MULTIPLE FILTERS SIMULTANEOUSLY.",
+  "captionBoundary": {
+    "x1": 63.8593864440918,
+    "x2": 294.5697326660156,
+    "y1": 76.22802734375,
+    "y2": 104.73529052734375
+  },
+  "figType": "Table",
+  "imageText": ["No", "ﬁlter", "23,284,371", "Bot", "commits", "807,335", "Binary", "commits", "4,026,669", "Commit", "messages", "<", "8", "8,070,122", "Commit", "messages", ">", "128", "783,232", "Diffs", ">", "512", "13,296,820", "Trivial", "messages", "270,330", "Revert", "commits", "65,868", "Commit", "message", "language", "193,695", "Source", "code", "language", "11,252,158", "Commits", "left", "after", "all", "ﬁlters", "1,664,590", "Filter", "Number", "of", "Commits"],
+  "name": "II",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 267.36,
+    "y1": 113.75999999999999,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00080-TableII-1.png"
+}]

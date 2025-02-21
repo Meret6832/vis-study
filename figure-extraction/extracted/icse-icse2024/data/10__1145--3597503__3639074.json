@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 2. Occurrences of memorization extracted with NonPrompt Generation (NPG), Temperature Decaying Generation (TDG), Prompt-Condition Generation (PCG), and TwoStep Generation (TSG). The number of annotated outputs for each sampling method is 381. Note that one output may map to multiple categories of memorization.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7994384765625,
+    "y1": 85.72634887695312,
+    "y2": 146.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["Documentation", "277", "247", "333", "315", "License", "and", "Copyright", "216", "150", "288", "222", "Docstring", "30", "55", "10", "50", "Usage", "Intruction", "31", "42", "35", "43", "Code", "Logic", "239", "330", "100", "304", "Import", "Statements", "129", "211", "80", "112", "Method", "Definition", "39", "41", "2", "41", "Method", "Calls", "25", "30", "4", "60", "Class", "Definition", "17", "19", "4", "18", "Conditional", "Statements", "14", "10", "4", "33", "Exception", "Handling", "9", "11", "4", "32", "Testing", "4", "7", "2", "5", "Print", "Statement", "and", "Log", "2", "1", "0", "3", "Others", "60", "36", "45", "57", "Configuration", "38", "23", "25", "52", "Unable", "to", "Classify", "22", "13", "20", "5", "Category", "NPS", "TSS", "TDS", "PCS"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 545.28,
+    "y1": 149.76,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639074-Table2-1.png"
+}, {
+  "caption": "Table 4. The performance of different methods in inferring whether an output contains memorized information. The numbers represent the ratio of top 100 outputs ranked by each method; i.e., 1.0 indicates that the method successfully computes rankings top 100 as memorized source code.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.44287109375,
+    "y1": 85.72634887695312,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Perplexity", "1.00", "0.92", "1.00", "1.00", "PPL-PPL", "Ratio", "1.00", "0.79", "0.97", "0.98", "PPL-zlib", "Ratio", "1.00", "1.00", "1.00", "1.00", "Average", "PPL", "0.74", "0.24", "0.86", "0.36", "t=256", "t=512", "t=256", "t=512", "CodeParrot", "CodeParrot-S", "Models", "Methods"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 138.72,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639074-Table4-1.png"
+}, {
+  "caption": "Table 3. Number of unique memorized-code for a given set of parameters: (1) number of tokens and (2) number of outputs.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1943969726562,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["5,000", "9,785", "14,645", "18,325", "22,570", "10,000", "16,062", "24,345", "32,519", "37,448", "15,000", "21,560", "32,666", "42,853", "50,127", "20,000", "26,420", "40,125", "51,059", "61,787", "CodeParrot", "5,000", "6,666", "9,080", "11,041", "14,031", "10,000", "10,627", "14,655", "17,664", "22,243", "15,000", "14,015", "19,444", "23,863", "29,133", "20,000", "16,966", "23,574", "29,204", "35,363", "CodeParrot-", "small", "Model", "#", "outputs", "256", "512", "768", "1024"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 554.4,
+    "y1": 105.6,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639074-Table3-1.png"
+}, {
+  "caption": "Figure 1. Three factors that affect memorization in code models.",
+  "captionBoundary": {
+    "x1": 176.0550079345703,
+    "x2": 435.9344482421875,
+    "y1": 207.86734008789062,
+    "y2": 213.49798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "The", "correlation", "between", "the", "frequency", "in", "the", "training", "data", "and", "outputs.", "ut", "s", "y", "=", "0.29x", "+", "41.58", "ou", "tp", "th", "e", "y", "in", "ue", "nc", "Fr", "eq", "0", "40", "00", "00", "0", "0", "30", "20", "00", "00", "0", "0", "10", "0", "20000", "40000", "60000", "80000", "Frequency", "in", "the", "training", "data", "(b)", "How", "the", "total", "number", "of", "outputs", "affect", "identified", "memorization.", "Number", "of", "newly", "find", "memorization", "io", "n", "Total", "number", "of", "memorization", "iz", "at", "em", "or", "of", "m", "be", "r", "N", "um", "00", "80", "00", "00", "00", "00", "60", "40", "00", "00", "00", "0", "20", "0", "2", "4", "6", "8", "Number", "of", "model", "outputs", "(million)", "(a)", "How", "the", "𝑘", "value", "affects", "the", "memorization", "of", "code", "models.", "small", "regular", "io", "n", "iz", "at", "em", "or", "of", "m", "be", "r", "N", "um", "00", "0", "0", "26", "24", "00", "00", "0", "0", "22", "20", "00", "00", "0", "0", "18", "16", "00", "5", "10", "15", "20", "25", "30", "35", "40", "k", "values"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 546.24,
+    "y1": 82.56,
+    "y2": 203.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639074-Figure1-1.png"
+}, {
+  "caption": "Table 1. Model performance on the OpenAI’s HumanEval benchmark [21]. Pass@n means the chance that a model provides a correct answer within 𝑛 attempts.",
+  "captionBoundary": {
+    "x1": 317.65924072265625,
+    "x2": 558.1984252929688,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["CodeParrot", "1.5B", "3.80%", "6.57%", "12.78%", "CodeParrot-small", "110M", "3.58%", "8.03%", "14.96%", "PolyCoder", "160M", "2.13%", "3.35%", "4.88%", "PolyCoder", "400M", "2.96%", "5.29%", "4.88%", "GPT-Neo", "125M", "0.75%", "1.88%", "2.97%", "GPT-Neo", "1.3B", "4.79%", "7.47%", "16.30%", "n=1", "n=10", "n=100", "Model", "Size", "Pass@n"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 542.4,
+    "y1": 116.64,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639074-Table1-1.png"
+}]

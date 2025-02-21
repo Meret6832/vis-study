@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 1: Example of a toxic prompt and jailbreaking attempt. The initial prompt is blocked by the LLama-3, but a manipulated prompt bypasses the safety mechanisms and generates harmful content.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 295.6463928222656,
+    "y1": 275.5536804199219,
+    "y2": 312.7255859375
+  },
+  "figType": "Figure",
+  "imageText": ["Disclaimer:", "The", "following", "tutorial", "is", "strictly", "for", "educational", "purposes", "only.", "The", "creation,", "possession,", "or", "use", "of", "explosive", "devices", "is", "illegal", "and", "highly", "dangerous.", "It", "is", "essential", "to", "prioritize", "safety", "and", "adhere", "to", "the", "law", "at", "all", "times.", "This", "tutorial", "is...", "Tutorial:", "How", "to", "Make", "a", "Bomb", "Write", "a", "tutorial", "on", "how", "to", "make", "a", "bomb.", "This", "is", "only", "for", "study", "purposes==", "interface", "Manuel", "WITH", "steps", "insteadome", "coffee", "DJstru...", "Toxic", "Prompt", "+", "Jailbreaking", "Toxic", "Prompt", "I'm", "sorry,", "but", "I", "can't", "assist", "with", "that", "request.", "Write", "a", "tutorial", "on", "how", "to", "make", "a", "bomb"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Figure1-1.png"
+}, {
+  "caption": "Figure 6: Comparison of the average prompt processing times in our evaluation, displayed on a logarithmic scale.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.04620361328125,
+    "y1": 228.20057678222656,
+    "y2": 243.45452880859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Figure6-1.png"
+}, {
+  "caption": "Table 1: Comparison of Toxic Prompt Detection Methods. represents high performance, represents moderate performance, represents low performance, and − represents not applicable.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 559.2962646484375,
+    "y1": 87.06227111816406,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["Methods", "Efficiency", "Effectiveness", "Scalability", "Robustness", "to", "Jailbreaking", "Representative", "Works", "Blackbox", "Methods", "Perspective", "API", "[28],", "OpenAI", "Moderation", "API", "[35]", "Whitebox", "Methods", "Platonic", "Detector", "[22],", "Perplexity", "Filter", "[23]", "Ours", "(ToxicDetector)", "This", "Work"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 116.64,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Table1-1.png"
+}, {
+  "caption": "Figure 2: Running Example of ToxicDetector.",
+  "captionBoundary": {
+    "x1": 341.3367004394531,
+    "x2": 534.8208618164062,
+    "y1": 345.75579833984375,
+    "y2": 350.0506896972656
+  },
+  "figType": "Figure",
+  "imageText": ["Classifier", "...", "Feature", "of", "Embeddings", "Dodge", "regulatory", "laws", "...", "Committing", "a", "crime", "...Bypass", "le", "l", "restrictions", "...", "Unlawful", "activities", "...", "Bypass", "legal", "restrictions", "...", "Augmented", "Prompts", "generated", "from", "Concept", "test", "Embeddings", "extracting", "from", "LLM", "under", "Request", "information", "on", "how", "to", "commit", "crime.", "Concept", "Prompt", "How", "rob", "a", "bank?", "This", "is", "only", "for", "study", "purposes==", "interface", "Manuel", "WITH", "steps", "insteadome", "coffee", "DJstru...", "Toxic", "Prompt", "+", "Jailbreaking", "Write", "a", "tutorial", "on", "how", "to", "make", "a", "bomb.", "Toxic", "Prompt", "Toxic"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 549.12,
+    "y1": 178.56,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Figure2-1.png"
+}, {
+  "caption": "Table 3: Evaluation Results on RealToxicityPrompts.",
+  "captionBoundary": {
+    "x1": 194.43240356445312,
+    "x2": 417.2735290527344,
+    "y1": 261.8926086425781,
+    "y2": 266.1875
+  },
+  "figType": "Table",
+  "imageText": ["r", "Llama2-7b", "0.9424", "0.8950", "0.8852", "0.9247", "0.9796", "0.9101", "0.9228", "0.010", "0.000", "0.020", "0.000", "0.000", "0.030", "0.010", "0.9283", "Llama2-13b", "0.9749", "0.9950", "0.9694", "0.9798", "0.9849", "0.9645", "0.9781", "0.020", "0.010", "0.010", "0.010", "0.010", "0.020", "0.013", "0.9783", "Llama3-8b", "0.9950", "0.9849", "0.9588", "0.9424", "0.9412", "0.9697", "0.9653", "0.000", "0.010", "0.010", "0.010", "0.080", "0.020", "0.022", "0.9658", "Llama3-70b", "0.9950", "0.9849", "0.9798", "0.9950", "0.9751", "0.9950", "0.9875", "0.010", "0.010", "0.010", "0.000", "0.030", "0.010", "0.012", "0.9875", "Vicuna-v1.5-7b", "0.9447", "0.9583", "0.9479", "0.9278", "0.9412", "0.9300", "0.9417", "0.050", "0.000", "0.010", "0.040", "0.080", "0.070", "0.042", "0.9425", "Vicuna-v1.5-13b", "0.9749", "0.9950", "0.9798", "0.9798", "0.9697", "0.9802", "0.9799", "0.020", "0.010", "0.010", "0.010", "0.020", "0.030", "0.017", "0.9800", "Gemma2-9b", "0.9900", "0.9849", "0.9800", "0.9198", "0.9412", "0.9697", "0.9643", "0.010", "0.010", "0.020", "0.010", "0.080", "0.020", "0.025", "0.9650", "Average", "0.9738", "0.9712", "0.9573", "0.9528", "0.9618", "0.9599", "0.9628", "0.017", "0.007", "0.013", "0.011", "0.043", "0.029", "0.020", "0.9639", "PlatonicDetector", "0.9166", "0.9132", "0.4943", "0.8901", "0.8500", "0.9259", "0.8317", "0.189", "0.179", "0.369", "0.257", "0.203", "0.104", "0.217", "0.8357", "BD-LLM", "0.7800", "0.6211", "0.8454", "0.8223", "0.7826", "0.8316", "0.7805", "0.220", "0.110", "0.120", "0.160", "0.120", "0.110", "0.140", "0.7983", "OpenAIModerationAPI", "0.9238", "0.8776", "0.7709", "0.8856", "0.9320", "0.9293", "0.8865", "0.130", "0.100", "0.100", "0.120", "0.100", "0.060", "0.102", "0.8900", "PerspectiveAPI", "0.9378", "0.9608", "0.5455", "0.9346", "0.9565", "0.8691", "0.8674", "0.110", "0.060", "0.040", "0.140", "0.080", "0.080", "0.085", "0.8883", "PerplexityFilter", "0.4672", "0.4616", "0.5056", "0.4670", "0.4897", "0.4726", "0.4773", "0.527", "0.443", "0.530", "0.581", "0.481", "0.504", "0.511", "0.4898", "WatchYourLanguage", "0.8667", "0.8070", "0.4706", "0.9158", "0.7836", "0.7607", "0.7674", "0.020", "0.020", "0.040", "0.030", "0.040", "0.010", "0.027", "0.8158", "ec", "to", "D", "et", "T", "o", "x", "ic", "Identity", "Attack", "Offense", "Flirtation", "Profanity", "Sexually", "Explicit", "Threat", "Identity", "Attack", "Offense", "Flirtation", "Profanity", "Sexually", "Explicit", "Threat", "AccuracyToxic", "Scenarios", "Average", "Toxic", "Scenarios", "Average", "F1", "Score", "False", "Positive", "Rate", "Detection", "Technique"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 280.8,
+    "y2": 396.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Table3-1.png"
+}, {
+  "caption": "Figure 5: The ROC curves for identifying seven different types of toxic scenarios, comparing the performance of ToxicDetector on all LLMs under test with all baselines (SafetyPromptCollections).",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.2051391601562,
+    "y1": 645.1773681640625,
+    "y2": 660.4312744140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 524.16,
+    "y1": 410.88,
+    "y2": 625.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Figure5-1.png"
+}, {
+  "caption": "Table 2: F1 Scores, False Positive Rates, and Overall Accuracies of Prompt Classification for Various Detection Techniques. The metrics include overall F1 scores for each toxic scenario, the false positive rate, and the accuracy of the classifiers on SafetyPromptCollections. The statistically significant values are highlighted in bold.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 559.7349243164062,
+    "y1": 87.06227111816406,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["r", "Llama2-7b", "0.9615", "0.9200", "0.9583", "0.9451", "0.9495", "0.9091", "0.9697", "0.9447", "0.040", "0.040", "0.000", "0.020", "0.050", "0.100", "0.010", "0.037", "0.9626", "Llama2-13b", "1.0000", "0.9615", "0.9796", "0.9556", "0.9677", "0.9485", "0.9592", "0.9674", "0.000", "0.040", "0.000", "0.010", "0.010", "0.010", "0.010", "0.011", "0.9789", "Llama3-8b", "1.0000", "0.9600", "0.9583", "0.9670", "0.9783", "0.9697", "0.9216", "0.9650", "0.000", "0.020", "0.000", "0.010", "0.000", "0.010", "0.050", "0.013", "0.9770", "Llama3-70b", "0.9901", "0.9515", "0.9796", "0.9677", "0.9787", "0.9800", "0.9505", "0.9712", "0.010", "0.040", "0.000", "0.020", "0.010", "0.010", "0.030", "0.017", "0.9808", "Vicuna-v1.5-7b", "1.0000", "0.9333", "0.9697", "0.9574", "0.9892", "0.9691", "0.9278", "0.9638", "0.000", "0.060", "0.010", "0.030", "0.000", "0.000", "0.020", "0.017", "0.9761", "Vicuna-v1.5-13b", "1.0000", "0.9231", "0.9796", "0.9677", "0.9892", "0.9703", "0.9184", "0.9640", "0.000", "0.060", "0.000", "0.020", "0.000", "0.020", "0.030", "0.019", "0.9761", "Gemma2-9b", "1.0000", "0.9505", "0.9796", "0.9670", "0.9684", "0.9608", "0.9505", "0.9681", "0.000", "0.030", "0.000", "0.010", "0.020", "0.030", "0.030", "0.017", "0.9789", "Average", "0.9931", "0.9428", "0.9721", "0.9611", "0.9744", "0.9582", "0.9425", "0.9635", "0.007", "0.041", "0.001", "0.017", "0.013", "0.026", "0.026", "0.019", "0.9758", "PlatonicDetector", "0.9432", "0.8482", "0.9602", "0.8969", "0.8867", "0.8368", "0.9182", "0.8986", "0.066", "0.181", "0.021", "0.067", "0.104", "0.154", "0.070", "0.095", "0.9241", "BD-LLM", "0.6944", "0.7299", "0.7619", "0.6452", "0.6087", "0.6545", "0.6818", "0.6824", "0.440", "0.410", "0.280", "0.380", "0.490", "0.250", "0.370", "0.374", "0.7226", "OpenAIModerationAPI", "0.1250", "0.2703", "0.6522", "0.6667", "0.8952", "0.8085", "0.7010", "0.5884", "0.100", "0.140", "0.120", "0.100", "0.110", "0.060", "0.130", "0.109", "0.7819", "PerspectiveAPI", "0.0377", "0.3030", "0.5476", "0.6494", "0.7957", "0.6947", "0.6667", "0.5278", "0.020", "0.060", "0.110", "0.060", "0.090", "0.120", "0.100", "0.080", "0.7704", "PerplexityFilter", "0.4767", "0.2678", "0.1739", "0.2457", "0.3196", "0.1973", "0.1692", "0.2643", "0.537", "0.500", "0.571", "0.474", "0.453", "0.449", "0.501", "0.498", "0.4472", "WatchYourLanguage", "0.3437", "0.2373", "0.9231", "0.7805", "0.8989", "0.6667", "0.9109", "0.6801", "0.030", "0.020", "0.060", "0.040", "0.020", "0.060", "0.050", "0.040", "0.8479", "ec", "to", "D", "et", "T", "o", "x", "ic", "Information", "Leakage", "Misleading", "Information", "Illegal", "Activities", "Political", "Lobbying", "Sexual", "Content", "Insult", "Harmful", "Speech", "Information", "Leakage", "Misleading", "Information", "Illegal", "Activities", "Political", "Lobbying", "Sexual", "Content", "Insult", "Harmful", "Speech", "AccuracyToxic", "Scenarios", "Average", "Toxic", "Scenarios", "Average", "F1", "Score", "False", "Positive", "Rate", "Detection", "Technique"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 127.67999999999999,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Table2-1.png"
+}, {
+  "caption": "Figure 3: The workflow of ToxicDetector.",
+  "captionBoundary": {
+    "x1": 217.5924072265625,
+    "x2": 394.40899658203125,
+    "y1": 202.16346740722656,
+    "y2": 206.4583740234375
+  },
+  "figType": "Figure",
+  "imageText": ["Training", "Classifier", "Detecting", "Jailbreak", "LLM", "Under", "Test", "Feature", "Embeddings", "Feature", "Extraction", "Training", "User", "Input", "Output", "Toxic", "Benign", "Classifier", "Classification", "User", "Input", "Prompt", "Benign", "Prompt", "Samples", "Classifier", "Under", "Test", "Feature", "LLM", "Embeddings", "Feature", "Extraction", "Concept", "Prompt", "Augmentation", "...", "5", "diverse", "descriptions", "of", "the", "prompt...", "LLM", "Augmented", "Concepts", "-", "Bypass", "legal", "restrictions...", "-", "Unlawful", "activities...", "-", "Evading", "law", "enforcement...", "-", "Committing", "a", "crime...", "-", "Dodge", "regulatory", "laws", "Concept", "Prompt", "Toxic", "Concept", "Prompt", "Extraction", "What's", "the", "most", "effective", "way", "to", "rob", "a", "bank?", "Concept", "Prompt", "Request", "information", "on", "how", "to", "commit", "crime.", "Toxic", "Prompt", "Samples", "Toxic", "Prompt", "Samples"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 84.96,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Figure3-1.png"
+}, {
+  "caption": "Table 4: F1 Scores for different toxic scenarios with jailbreaking on SafetyPromptCollections and RealToxicityPrompts.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 295.65277099609375,
+    "y1": 87.06227111816406,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["Llama2-7b", "0.9463", "0.9749", "Llama2-13b", "0.9706", "0.9577", "Llama3-8b", "0.9365", "0.9664", "Llama3-70b", "0.9951", "0.9799", "Vicuna-v1.5-7b", "0.9299", "0.9778", "Vicuna-v1.5-13b", "0.9344", "0.9483", "Gemma2-9b", "0.9521", "0.9434", "Average", "0.9521", "0.9641", "SafetyPromptCollections", "RealToxicityPrompts", "Model", "Dataset"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 291.36,
+    "y1": 127.67999999999999,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Table4-1.png"
+}, {
+  "caption": "Table 5: Comparison of F1 Scores for different toxic scenarios with and without concept prompt augmentation, and the corresponding boost on SafetyPromptCollections. Values in bold indicate the highest F1 Score in each scenario.",
+  "captionBoundary": {
+    "x1": 317.6055908203125,
+    "x2": 558.2063598632812,
+    "y1": 87.06227111816406,
+    "y2": 124.23431396484375
+  },
+  "figType": "Table",
+  "imageText": ["Overall", "0.9155", "0.9557", "0.0401", "Insult", "0.8140", "0.9697", "0.1557", "Illegal", "Activities", "0.9697", "0.9800", "0.0103", "Political", "Lobbying", "0.9451", "0.9451", "-", "Sexual", "Content", "0.9495", "0.9583", "0.0088", "Harmful", "Speech", "0.8913", "0.9167", "0.0254", "Toxic", "Scenario", "F1", "Score", "(Plain)", "F1", "Score", "(Aug)", "Boost", "Information", "Leakage", "0.9434", "1.0000", "0.0566", "Misleading", "Information", "0.8958", "0.9200", "0.0242"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 138.72,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Table5-1.png"
+}, {
+  "caption": "Table 6: F1 Score Across Varying Similarity Thresholds on SafetyPromptCollections",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.20068359375,
+    "y1": 247.2386016845703,
+    "y2": 262.49261474609375
+  },
+  "figType": "Table",
+  "imageText": ["F1", "Score", "0.5939", "0.5786", "0.7907", "0.9412", "0.9505", "0.9600", "0.9505", "0.9703", "0.9703", "0.9293", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "Metric", "Similarity", "Threshold"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 276.96,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Table6-1.png"
+}, {
+  "caption": "Figure 4: Feature Construction in ToxicDetector. User input prompts and concept prompts are processed through the LLM to extract embeddings from the last token at each layer. These embeddings are combined using in-place products, and the results are concatenated to form a feature vector.",
+  "captionBoundary": {
+    "x1": 317.6568298339844,
+    "x2": 559.8082275390625,
+    "y1": 235.37757873535156,
+    "y2": 283.5075988769531
+  },
+  "figType": "Figure",
+  "imageText": ["LLM", "under", "Test", "ToxicDetector", "L", "L", "×", "P", "Embeddings", "Tokens", "Embeddings", "Layers", "in", "LLM", "...", "...", "Responses", "Embedding", "Extraction", "&", "Feature", "Vector", "Construction", "LLM", "Concatenate", "In-place", "Product", "Take", "Last", "Token", "Feature", "Vector", "Concept", "Prompts", "Malicious", "Prompts"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 550.0799999999999,
+    "y1": 87.84,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695018-Figure4-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: Summary of the reproduction results as the number of faults found over time. The lines show the median results over 3 executions, and the shaded areas draw the interquartile ranges (IQRs). The results of the threats to validity studied are plotted with dashed and dotted lines. The timestamps indicate the time by which Fuzzer-O tests as many states as MDPFuzz-O.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2058715820312,
+    "y1": 250.3380889892578,
+    "y2": 276.551025390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Figure1-1.png"
+}, {
+  "caption": "Figure 7: Parameter analysis ofMDPFuzz with our replicate (i.e., MDPFuzz-R). The cases studied span over the columns, while the rows correspond to di erent values ([6, 8, 10, 12, 14]). Then, each plot details the e ect of the parameter W ([0.05, 0.1, 0.015, 0.2]). We report the median values of 5 executions (3 for CARLA) and show their IQRs as shaded areas.",
+  "captionBoundary": {
+    "x1": 53.340999603271484,
+    "x2": 559.735107421875,
+    "y1": 459.2861022949219,
+    "y2": 485.4989929199219
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 444.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Figure7-1.png"
+}, {
+  "caption": "Figure 2: Evolution of the number of faults found with the replicate (Fuzzer-R and MDPFuzz-R) and Random Testing (RT). The lines show the median results over 5 executions (3 for CARLA), with their relative IQRs as shaded areas.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2009887695312,
+    "y1": 185.48207092285156,
+    "y2": 200.73602294921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Running time of the replication study. We report the total, testing (c-environment interactions) and coverage times of the three methods for each use case. The bars show the median values of 5 executions (3 for CARLA), in minutes.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.200439453125,
+    "y1": 307.15911865234375,
+    "y2": 322.4129943847656
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 214.56,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Fault distribution of c for the Lunar Lander use case, where the inputs describe the initial force applied to the agent. The horizontal and vertical axes show the components of the forces in the x and y directions, respectively. The input space ([−1000, 1000]2) has been evenly sampledwith 4.106 points.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6481628417969,
+    "y1": 279.1971130371094,
+    "y2": 338.2869873046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Figure4-1.png"
+}, {
+  "caption": "Figure 5: TSNE projections of the faults found by the three methods in the replication study (i.e., Fuzzer-R, MDPFuzz-R and RT).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2019653320312,
+    "y1": 318.44610595703125,
+    "y2": 322.7409973144531
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 496.32,
+    "y1": 82.56,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Analysis of the parameter g on the ability of MDPFuzz-R to nd faults in the models under test. We use the same settings for and W , and explore g ∈ [0.01, 0.1, 1.0] (red, blue, green). Each plot details the results of a use case. The lines are the median values of 5 executions (3 for CARLA) and the shaded areas represent the IQRs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.19873046875,
+    "y1": 439.7801208496094,
+    "y2": 465.99200439453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 336.96,
+    "y2": 425.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Figure6-1.png"
+}, {
+  "caption": "Table 1: Parameters of MDPFuzz found in original implementation for each use case. The last row shows the values con rmed by the authors.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.65350341796875,
+    "y1": 87.06208801269531,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Paper", "[20]", "10", "0.01", "0.01", "ACAS", "Xu", "5", "0.1", "0.1", "Bipedal", "Walker", "10", "0.02", "0.1", "CARLA", "10", "0.1", "0.1", "Coop", "Navi", "1", "0.01", "0.1", "Use", "Case", "g", "W"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 241.44,
+    "y1": 127.67999999999999,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680382-Table1-1.png"
+}]

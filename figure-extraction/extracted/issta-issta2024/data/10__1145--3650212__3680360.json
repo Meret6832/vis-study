@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 8: Number of detected bugs by MLIRod and comparison approaches (M in variant names refers to MLIRod)",
+  "captionBoundary": {
+    "x1": 76.11199951171875,
+    "x2": 535.8909912109375,
+    "y1": 193.5301055908203,
+    "y2": 199.1610107421875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Number", "of", "detected", "bugs", "by", "MLIRod", "and", "MLIRSmith", "(b)", "Number", "of", "detected", "bugs", "by", "MLIRod", "and", "its", "variants"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 541.4399999999999,
+    "y1": 87.84,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680360-Figure8-1.png"
+}, {
+  "caption": "Figure 1: The motivation example with Bug#76281",
+  "captionBoundary": {
+    "x1": 72.04100036621094,
+    "x2": 275.8024597167969,
+    "y1": 360.5520935058594,
+    "y2": 366.1829833984375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "The", "MLIR", "program", "triggering", "Bug#76281", "1", "func.func", "@producer_consumer_with_outmost_user()", "{", "2", "%c0", "=", "arith.constant", "0", ":", "index", "3", "%src", "=", "memref.alloc()", ":", "memref<f16,", "1>", "4", "%dst", "=", "memref.alloc()", ":", "memref<f16>", "5", "%tag", "=", "memref.alloc()", ":", "memref<1xi32>", "6", "%f1", "=", "arith.constant", "1.0", ":", "f16", "7", "affine.for", "%arg1", "=", "4", "to", "6", "{", "8", "affine.for", "%arg2", "=", "0", "to", "1", "{", "9", "%f0", "=", "arith.constant", "0.0", ":", "f16", "10", "affine.store", "%f0,", "%src[]", ":", "memref<f16,", "1>", "11", "}", "12", "affine.for", "%arg3", "=", "0", "to", "1", "{", "13", "%0", "=", "affine.load", "%src[]", ":", "memref<f16,", "1>", "14", "}", "15", "}", "16", "affine.dma_start", "%src[],", "%dst[],", "%tag[%c0],", "%c0", ":", "memref<f16,", "1>,", "memref<f16>,", "memref<1xi32>", "17", "return", "18", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 297.12,
+    "y1": 205.44,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680360-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Overview of MLIRod",
+  "captionBoundary": {
+    "x1": 377.1610107421875,
+    "x2": 498.99658203125,
+    "y1": 185.3791046142578,
+    "y2": 191.010009765625
+  },
+  "figType": "Figure",
+  "imageText": ["OD", "Coverage", "NO", "Discard", "New", "Coverage", "Transformed", "Program", "Select", "Mutate", "Pass", "Test", "Report", "Seed", "Pool", "Seed", "Program", "Mutated", "Program"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680360-Figure2-1.png"
+}, {
+  "caption": "Table 1: Previously unknown bugs detected by MLIRod",
+  "captionBoundary": {
+    "x1": 194.5260009765625,
+    "x2": 417.1798400878906,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "llvm.func", "@func1()", "{", "2", "scf.parallel", "(%arg0)", "=", "(%c0)", "to", "(%c22)", "step", "(%c1)", "{", "-", "···", "3", "}", "4", "}", "memref<100xi64>,", "vector<31xi64>", "-", "···", "-", "···", "1", "%dim", "=", "memref.dim", "%alloc_4,", "%c6", ":", "memref<4xi64>", "//", "out-of-bound", "2", "%70", "=", "affine.vector_load", "%alloca_100[%dim]", ":", "64385*", "IP", "Conversion", "fixed", "71281", "UD", "Domain", "Specific(async)", "fixed", "64408", "IP", "Domain", "Specific(linalg)", "fixed", "73190", "IRL", "General", "Transformation", "fixed", "64409", "IP", "Conversion", "fixed", "73191", "—", "Bufferization", "confirmed", "64622", "IRL", "Domain", "Specific(linalg)", "fixed", "73285", "—", "General", "Transformation", "submitted", "64638", "—", "Bufferization", "submitted", "73288*", "IRL", "Domain", "Specific(linalg)", "fixed", "64639", "—", "Domain", "Specific(GPU)", "confirmed", "73289", "IP", "Conversion", "fixed", "64674", "IP", "General", "Transformation", "fixed", "73381", "—", "Domain", "Specific(arith)", "submitted", "67760", "IV", "Domain", "Specific(TOSA)", "fixed", "73382", "IA", "General", "Transformation", "fixed", "67761", "IV", "Conversion", "fixed", "73383", "IP", "General", "Transformation", "fixed", "67763", "IP", "Domain", "Specific(TOSA)", "fixed", "73532", "—", "General", "Transformation", "submitted", "67977", "IRL", "Bufferization", "fixed", "73534", "—", "Conversion", "submitted", "68187", "IV", "Domain", "Specific(TOSA)", "fixed", "73540", "—", "Domain", "Specific(affine)", "submitted", "68481", "IV", "Conversion", "fixed", "73547", "—", "General", "Transformation", "confirmed", "68483", "IP", "Domain", "Specific(memref)", "fixed", "74227*", "IRL", "Domain", "Specific(sparse_tensor)", "fixed", "68486", "IV", "Conversion", "fixed", "74234", "—", "Domain", "Specific(arith)", "confirmed", "68948", "IRL", "Bufferization", "fixed", "74236", "—", "General", "Transformation", "confirmed", "68950*", "IP", "Domain", "Specific(transform)", "fixed", "74237", "IP", "Domain", "Specific(TOSA)", "fixed", "70180", "IP", "Domain", "Specific(memref)", "fixed", "74301", "—", "General", "Transformation", "submitted", "70183", "—", "General", "Transformation", "submitted", "74306", "IP", "General", "Transformation", "fixed", "70278", "—", "Conversion", "confirmed", "74308", "—", "Conversion", "submitted", "70415", "IV", "Domain", "Specific(TOSA)", "fixed", "74313*", "IRL", "General", "Transformation", "fixed", "70418", "IV", "Conversion", "fixed", "74453", "IRL", "Domain", "Specific(llvm)", "fixed", "70439", "—", "Domain", "Specific(affine)", "submitted", "74461", "—", "General", "Transformation", "confirmed", "70633", "IP", "General", "Transformation", "fixed", "74466", "—", "Conversion", "submitted", "70884", "IP", "General", "Transformation", "fixed", "74937", "—", "Domain", "Specific(arith)", "confirmed", "70887", "IP", "General", "Transformation", "fixed", "74940", "—", "Conversion", "submitted", "70902", "IP", "General", "Transformation", "fixed", "75758", "IP", "Domain", "Specific(scf)", "fixed", "70913", "—", "General", "Transformation", "submitted", "75770", "—", "Conversion", "confirmed", "71036", "IP", "Domain", "Specific(vector)", "fixed", "76281", "IRL", "Domain", "Specific(affine)", "fixed", "71147", "—", "Domain", "Specific(affine)", "submitted", "76309", "—", "Domain", "Specific(affine)", "submitted", "71150", "IP", "Conversion", "fixed", "77420", "—", "General", "Transformation", "confirmed", "71153", "IP", "General", "Transformation", "fixed", "1", "Full", "Name", "of", "Root", "Cause:", "IV", "(Incomplete", "Verifier),", "IP", "(Incorrect", "Pattern),", "IRL", "(Incorrect", "Rewrite", "Logic),", "UD", "(Unregistered", "Dialect),", "IA", "(Incorrect", "Assertion)", "*", "These", "bugs", "belong", "to", "the", "cases", "of", "developer", "fixing", "without", "updating", "reports.", "Bug", "Id", "Root", "Cause1", "Pass", "Category", "Status", "Bug", "Id", "Root", "Cause", "Pass", "Category", "Status"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 543.36,
+    "y1": 105.6,
+    "y2": 449.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680360-Table1-1.png"
+}, {
+  "caption": "Figure 3: ODG of the MLIR program shown in Figure 1(c)",
+  "captionBoundary": {
+    "x1": 58.97700119018555,
+    "x2": 288.86651611328125,
+    "y1": 202.26808166503906,
+    "y2": 207.89898681640625
+  },
+  "figType": "Figure",
+  "imageText": ["09:arith.constant", "12:affine.for", "08:affine.for", "13:affine.load", "10:affine.store", "17:func.return", "*", "**", "01:func.func", "*", "**", "16:affine.dma_start", "07:affine.for", "06:arith.constant", "05:memref.alloc", "04:memref.alloc", "03:memref.alloc", "02:arith.constant"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680360-Figure3-1.png"
+}, {
+  "caption": "Figure 7: Program snippet for triggering Bug#73382 (IA)",
+  "captionBoundary": {
+    "x1": 60.86000061035156,
+    "x2": 286.9836120605469,
+    "y1": 122.1521224975586,
+    "y2": 127.78302001953125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "scf.for", "%arg4", "=", "%c0", "to", "%c22", "step", "%c1", "{", "2", "%dim", "=", "memref.dim", "%alloc,", "%c1", ":", "memref<?xi1>", "//", "undefined", "behavior", "-", "···", "3", "}"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 240.95999999999998,
+    "y1": 85.44,
+    "y2": 115.67999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680360-Figure7-1.png"
+}]

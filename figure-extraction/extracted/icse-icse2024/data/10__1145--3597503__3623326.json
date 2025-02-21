@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 5: The difference between warmup and fine-tuning",
+  "captionBoundary": {
+    "x1": 56.84299850463867,
+    "x2": 290.9900207519531,
+    "y1": 226.50137329101562,
+    "y2": 232.13201904296875
+  },
+  "figType": "Figure",
+  "imageText": ["Output", "…", "Prediction#1", "Prediction#2", "Prediction#3", "…", "Ground-truth#1", "Ground-truth#2", "Ground-truth#3", "…", "Instruction", "<Examples>", "<Labels>", "Query#1", "Instruction", "<Examples>", "<Labels>", "Query#2", "Instruction", "<Examples>", "<Labels>", "Query#3", "…", "Query#1", "Query#2", "Query#3", "Backward", ":Training", "data", ":Ground-truth", ":Query", "prediction", "Supervise", "Large", "Language", "Model", "(Parameter", "Adjustable)Input", "Fine-tuning", "Warmup"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 83.52,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure5-1.png"
+}, {
+  "caption": "Figure 8: An example of log message with different records",
+  "captionBoundary": {
+    "x1": 54.66400146484375,
+    "x2": 293.16851806640625,
+    "y1": 215.46536254882812,
+    "y2": 221.09600830078125
+  },
+  "figType": "Figure",
+  "imageText": [":", "Prediction", ":Ground-truth", "}", "}", "}", "log.debug(\"Loaded", "blobs:", "\"", "+", "blobs);", "return", "blobs;", "public", "class", "A", "{", "protected", "List<Blob>", "loadBlobs(List<Map<String,", "String>>", "blobInfos)", "{", "log.debug(\"Loading", "blobs", "from", "the", "file", "system:", "\"", "+", "blobInfos);", "List<Blob>", "blobs", "=", "new", "ArrayList<>();", "for", "(Map<String,", "String>", "info", ":", "blobInfos)", "{", "File", "blobFile", "=", "new", "File(cacheDir,", "info.get(\"file\"));", "Blob", "blob", "=", "new", "FileBlob(blobFile);", "blob.setEncoding(info.get(\"encoding\"));", "blob.setMimeType(info.get(\"mimetype\"));", "blob.setFilename(info.get(\"filename\"));", "blob.setDigest(info.get(\"digest\"));", "blobs.add(blob);"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 84.0,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure8-1.png"
+}, {
+  "caption": "Figure 1: An example of logging statement generation.",
+  "captionBoundary": {
+    "x1": 63.702999114990234,
+    "x2": 284.1320495605469,
+    "y1": 230.08132934570312,
+    "y2": 235.71197509765625
+  },
+  "figType": "Figure",
+  "imageText": ["Sub-task2:", "Setting", "verbosity", "level:", "LOG.Info()", "1|", "public", "void", "processDisconnect(Channel", "client)", "{", "2|", "String", "clientID", "=", "NettyAttrManager.getAttrClientId(client);", "3|", "cleanWillMessage(clientID);", "4|", "LOG.info(\"Disconnect", "successful,", "clientID:", "{}\",", "clientID);", "5|", "client.flush();", "6|", "client.close().addListener(CLOSE);", "7|}", "Sub-task3:", "Generating", "log", "message:", "\"Disconnect", "successful,", "clientID:", "{}\"", "Sub-task1:", "Determining", "logging", "position:", "Line#4", "Task:", "Logging", "statement", "generation", "1|", "public", "void", "processDisconnect(Channel", "client)", "{", "2|", "String", "clientID", "=", "NettyAttrManager.getAttrClientId(client);", "3|", "cleanWillMessage(clientID);", "4|", "client.flush();", "5|", "client.close().addListener(CLOSE);", "6|}"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 302.4,
+    "y1": 84.0,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure1-1.png"
+}, {
+  "caption": "Figure 2: A simple example of in-context learning workflow on sentiment classification task.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.5444946289062,
+    "y1": 226.30532836914062,
+    "y2": 242.89501953125
+  },
+  "figType": "Figure",
+  "imageText": ["Output", "positive", "Input", "Large", "Language", "Model", "(Parameter", "Frozen)", "Example:", "Good", "job!", "Emotion:", "Query:", "Structured", "prompt:", "…", "…", "Classify", "the", "emotion:", "Example:", "I", "am", "happy.", "Emotion:", "positive", "Example:", "I", "feel", "bad.", "Emotion:", "negative", "Example:", "It", "is", "awful.", "Emotion:", "negative", "Construct", "Examples:", "Template:", "Instruction:", "Sentence", "Sentiment", "Good", "job!", "<Unknown>", "…", "…", "Sentence", "Sentiment", "I", "am", "happy.", "positive", "I", "feel", "bad.", "negative", "It", "is", "awful.", "negative", "Example", ":", "<Sentence>", "Emotion", ":", "<Sentiment>", "“Classify", "the", "emotion:”"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 563.04,
+    "y1": 83.52,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure2-1.png"
+}, {
+  "caption": "Table 1: Accuracy comparison on different logging methods.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1904907226562,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["LANCE-Full", "60.2", "60.4", "13.7", "73.2", "21.4", "N/A", "LANCE-Best", "65.4", "66.2", "16.9", "76.8", "24.3", "N/A", "UniLog-w/o", "warmup", "66.5", "66.8", "20.2", "75.7", "28.7", "24.5", "UniLog-w/", "warmup", "76.9", "72.3", "22.4", "77.9", "28.1", "27.1", "Method", "PA", "LA", "MA", "CLA", "CMA", "BLEU"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 561.12,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Table1-1.png"
+}, {
+  "caption": "Figure 7: Examples of log messages with similar semantics",
+  "captionBoundary": {
+    "x1": 319.6549987792969,
+    "x2": 556.4920043945312,
+    "y1": 258.2233581542969,
+    "y2": 263.85400390625
+  },
+  "figType": "Figure",
+  "imageText": [":", "Prediction", ":Ground-truth", "Case", "4:", "More", "specific", "representations", "Case", "3:", "More", "concise", "representations", "Case", "2:", "Order", "changes", "LOG.error(\"error", "de-serializing", "value\",", "e)", "LOG.error(\"problem", "de-serializing", "object.\",", "e)", "Case", "1:", "Synonymous", "replacements", "LOG.debug(\"resubmitting", "job", "\"", "+", "jobid", "+", "\"", "to", "the", "same", "worker”)", "LOG.debug(\"resubmitting", "job", "to", "the", "same", "worker.”)", "LOG.error(\"error", "loading", "mime", "types\",", "e)", "LOG.error(\"error", "reading", "file", "mimetypes", "from", "resources\",", "e)", "LOG.info(\"received", "message", "\"", "+", "received.getmessageid())", "LOG.info(\"message", "received:", "\"", "+", "received.getmessageid())"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 84.0,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure7-1.png"
+}, {
+  "caption": "Table 3: Tuning cost comparison on different paradigms.",
+  "captionBoundary": {
+    "x1": 323.4079895019531,
+    "x2": 552.4442749023438,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ICL/FT", "3.17%", "4.39%", "Fine-Tuning", "37,021", "113,875", "In-Context", "Learning", "1,178", "500", "Paradigm", "Running", "Time", "(s)", "Training", "Data"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 548.16,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Table3-1.png"
+}, {
+  "caption": "Figure 6: Distance of target position (left) and level (right).",
+  "captionBoundary": {
+    "x1": 320.11700439453125,
+    "x2": 556.0311279296875,
+    "y1": 279.3463439941406,
+    "y2": 284.97698974609375
+  },
+  "figType": "Figure",
+  "imageText": ["CodeX-FT", "CodeX-ICL", "0.4%", "7.0%", "3.2%", "17.0%", "72.3%", "0.3%", "6.4%", "3.3%", "20.0%", "70.0%", ".", "Nu", "m", "10000", "8000", "6000", "4000", "2000", "0", "0", "1", "2", "3", "4", "Distance", "from", "target", "level", "CodeX-FT", "CodeX-ICL", "CD", "F", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0", "20", "40", "60", "80", "100", "Distance", "from", "target", "position"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 325.44,
+    "x2": 555.36,
+    "y1": 181.92,
+    "y2": 264.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure6-1.png"
+}, {
+  "caption": "Table 2: Accuracy comparison on different paradigms.",
+  "captionBoundary": {
+    "x1": 64.37100219726562,
+    "x2": 283.1683044433594,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Codex-ZeroShot", "N/A", "N/A", "N/A", "65.7", "9.8", "13.2", "Codex-FT", "86.9", "70.0", "8.1", "71.7", "9.3", "10.8", "Codex-ICL", "76.9", "72.3", "22.4", "77.9", "28.1", "27.1", "Paradigm", "PA", "LA", "MA", "CLA", "CMA", "BLEU"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Table2-1.png"
+}, {
+  "caption": "Figure 3: The basic workflow of UniLog framework. The definition of warmup is introduced in Sec. 3.3. The blue arrows represent the processes in warmup stage while the yellow arrows represent the processes in inference stage.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1990356445312,
+    "y1": 297.2203674316406,
+    "y2": 313.80999755859375
+  },
+  "figType": "Figure",
+  "imageText": ["kNN", "comparison", "Structuring", "&", "Flattening", "Input", "Instruction", "<Examples>", "<Labels>", "Query#1", "Ground-truth#1", "Instruction", "<Examples>", "<Labels>", "Query#2", "Ground-truth#2", "Instruction", "<Examples>", "<Labels>", "Query#3", "Ground-truth#3", "…", "…", "Instruction", "<Examples>", "<Labels>", "Query#N", "Ground-truth#N", "Instruction", "<Examples>", "<Labels>", "Query", "…", "Query:", "<structured", "and", "flattened", "code", "snippet>", "<Instruction>", "Example:", "<structured", "and", "flattened", "code", "snippet>", "Label:", "<line#>", "<log", "statement>", "Example:", "<structured", "and", "flattened", "code", "snippet>", "Label:", "<line#>", "<log", "statement>", "Structuring", "&", "Flattening", ":Warmup", ":Inference", "LLM", "Output", "<line4>", "LOG.info(\"Disconnect", "successful,", "clientID:", "{}\",", "clientID);", "Line", "ID", "and", "logging", "statement", "Inference", "Random", "sampling", "Warmup", "New", "prompt", "public", "void", "processDisconnect(Channel", "client)", "{", "String", "clientID", "=", "NettyAttrManager.getAttrClientId(client);", "cleanWillMessage(clientID);", "client.flush();", "client.close().addListener(CLOSE);", "}", "New", "code", "snippet", "Warmup", "samples", "Prompt", "template", "Code", "source"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure3-1.png"
+}, {
+  "caption": "Table 4: Accuracy comparison on different backbones.",
+  "captionBoundary": {
+    "x1": 64.39299774169922,
+    "x2": 283.1454162597656,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Codex", "76.9", "72.3", "22.4", "77.9", "28.1", "27.1", "GPT-3-A", "43.6", "53.2", "9.1", "58.4", "16.9", "11.9", "GPT-3-B", "44.3", "55.7", "9.8", "63.8", "17.7", "12.6", "GPT-3-C", "49.5", "58.4", "11.2", "67.1", "19.4", "14.5", "Backbone", "PA", "LA", "MA", "CLA", "CMA", "BLEU"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 277.44,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Table4-1.png"
+}, {
+  "caption": "Table 7: Accuracy comparison on warmup sample numbers.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.092529296875,
+    "y1": 290.71435546875,
+    "y2": 296.3450012207031
+  },
+  "figType": "Table",
+  "imageText": ["100", "66.6", "64.5", "18.8", "73.3", "26.4", "22.5", "300", "76.2", "69.7", "21.1", "75.8", "26.7", "25.2", "500", "76.9", "72.3", "22.4", "77.9", "28.1", "27.1", "700", "77.8", "73.6", "22.4", "78.2", "28.0", "26.9", "900", "76.1", "73.0", "22.7", "78.9", "28.8", "27.2", "Sample", "Num.", "PA", "LA", "MA", "CLA", "CMA", "BLEU"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 548.16,
+    "y1": 310.56,
+    "y2": 388.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Table7-1.png"
+}, {
+  "caption": "Table 5: Accuracy comparison on prompt example numbers.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1906127929688,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "76.4", "69.1", "20.0", "74.6", "25.3", "24.4", "3", "76.8", "71.4", "21.6", "77.0", "27.2", "26.3", "5", "76.9", "72.3", "22.4", "77.9", "28.1", "27.1", "10", "77.1", "73.3", "22.4", "78.8", "28.3", "26.9", "15", "77.6", "73.7", "22.5", "78.6", "28.0", "27.1", "Example", "Num.", "PA", "LA", "MA", "CLA", "CMA", "BLEU"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 105.6,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Table5-1.png"
+}, {
+  "caption": "Table 6: Accuracy comparison on prompt permutations.",
+  "captionBoundary": {
+    "x1": 324.87799072265625,
+    "x2": 550.9735107421875,
+    "y1": 199.17935180664062,
+    "y2": 204.80999755859375
+  },
+  "figType": "Table",
+  "imageText": ["random", "74.8", "64.6", "8.8", "68.7", "11.3", "12.3", "𝑘NN-descend", "76.5", "71.2", "21.6", "76.6", "27.2", "26.0", "𝑘NN-ascend", "76.9", "72.3", "22.4", "77.9", "28.1", "27.1", "Permutation", "PA", "LA", "MA", "CLA", "CMA", "BLEU"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 549.12,
+    "y1": 219.84,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Table6-1.png"
+}, {
+  "caption": "Figure 4: The prompt templates, using the code block in Fig. 1 as an example. UniLog includes several labeled examples and one query in each prompt. The last example is most similar to the query, while the first example is least similar to the query.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.190673828125,
+    "y1": 231.65133666992188,
+    "y2": 248.24102783203125
+  },
+  "figType": "Figure",
+  "imageText": ["public", "void", "processDisconnect(Channel", "client)", "{", "String", "clientID", "=", "NettyAttrManager.getAttrClientId(client);", "cleanWillMessage(clientID);", "LOG.info(\\\"Disconnect", "successful,", "clientID:", "{}\\\",", "clientID);", "client.flush();", "client.close().addListener(CLOSE);", "}", "…", "Query:", "<structured", "and", "flattened", "code", "snippet>", "<Instruction>", "Example:", "<structured", "and", "flattened", "code", "snippet>", "Label:", "<line#>", "<log", "statement>", "Example:", "<structured", "and", "flattened", "code", "snippet>", "Label:", "<line#>", "<log", "statement>", "Flattened", "and", "structured", "code", "snippet", "Structuring", "Flattening", "Instruction", "Log", "verbosity", "message", "after", "<line#>”", "“select", "<line#>", "and", "insert", "log", "level", "and", "<line3>", "LOG.info(\\\"Disconnect", "successful,", "clientID:", "{}\\\",", "clientID);", "Structured", "logging", "statement", "Prompt", "template", "Structured", "code", "snippet", "Example", "code", "snippet", "<line0>public", "void", "processDisconnect(Channel", "client)", "{\\n<line1>String", "clientID", "=", "NettyAttrManager.getAttrClientId(client);\\n<line2>cleanWillMessage(clientID);\\n<line3>client.flush();\\n<line4>client.close().addListener(CLOSE);\\n<line5>", "}", "<line0>", "public", "void", "processDisconnect(Channel", "client)", "{", "<line1>", "String", "clientID", "=", "NettyAttrManager.getAttrClientId(client);", "<line2>", "cleanWillMessage(clientID);", "<line3>", "client.flush();", "<line4>", "client.close().addListener(CLOSE);", "<line5>", "}"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 83.52,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623326-Figure4-1.png"
+}]

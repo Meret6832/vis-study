@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Overview of CodeFast.",
+  "captionBoundary": {
+    "x1": 239.18299865722656,
+    "x2": 372.81781005859375,
+    "y1": 463.17779541015625,
+    "y2": 465.25799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["Inference", "with", "CodeFast", "Prompt", "GenGuard", "\"Tokens", "of", "a", "Code", "Line", "GenGuard", "Prediction!", "hidden", "states", "Train\"", "Labeled", "Data", "(b)", "Traning", "of", "GenGuard", "Label:", "!", "!", "!", "!", "!", "!", "Code:", "Code:", "✅", "✅", "✅", "✅", "✅Label:", "8", "def", "remove_spaces_inplace(str1):", "\"", ":", "Stop", "(label)\"", ":", "Continue", "(label)✅", ":", "Expected", "Generation", ":", "Excess", "Generation", ":", "Prompt", "\"", "continue", "generation", "✅", "stop", "generation", "!", "!", "closestdef", "_", "num", "_", "2", "(", "N", "):", "Code", "LLM", "(c)", "Inference", "Pipeline", "of", "CodeFast", "(a)", "Data", "Construction", "Framework", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "\"", "Early", "Termination", "Opportunity", "Found!", "!majority", "voting", "!", "Fine.", "Continue", "Generation.", "GenGuard", "Prediction", "majority", "voting", "✅", "✅", "✅", "\"", "✅", "✅", "!", "Tokens", "of", "a", "Code", "Line", "smaller", "number", "than", "n.", "4", "assert", "closest_num(11)==10", "5", "\"\"\"", "6", "#", "Your", "code", "here", "return", "N", "-", "1", "1", "def", "closest_num(N):", "2", "\"\"\"", "3", "Write", "a", "function", "to", "find", "the", "closest", "7", "return", "str1.replace(\"", "\",", "\"\")", "GenGuard", "!", "❄Freeze", "Training", "Dataset", "Code", "LLM", "Code", "Analyzers!", "!!", "Prompt", "data", "in", "Multi-PL", "Sampled", "Generations", "a", "given", "string.", "11", "assert", "remove_spaces_inplace(\"a", "b", "c\")", "==", "\"abc”", "12", "\"\"\"", "13", "#", "Your", "code", "here", "14", "return", "str1.replace(\"", "\",", "\"\")", "!", "7", "return", "str1.replace(\"", "\",", "\"\")", "8", "def", "remove_spaces_inplace(str1):", "9", "\"\"\"", "10", "Write", "a", "python", "function", "to", "remove", "spaces", "from", "1", "def", "remove_spaces(str1):", "2", "\"\"\"", "3", "Write", "a", "python", "function", "to", "remove", "spaces", "from", "a", "given", "string.", "4", "assert", "remove_spaces(\"a", "b", "c\")", "==", "\"abc”", "5", "\"\"\"", "6", "#", "Your", "code", "here", "CodeLlama-7B", "Original", "300", "9.31", "100%", "100%", "276.8", "8.49", "97%", "81%", "270.7", "7.96", "98%", "81%", "292.8", "8.75", "100%", "96%", "Expected", "51.4", "1.59", "0%", "0%", "87.6", "2.65", "0%", "0%", "72.2", "2.21", "0%", "0%", "82.5", "2.56", "0%", "0%", "CodeLlama-13B", "Original", "300", "12.15", "100%", "100%", "300", "11.92", "100%", "100%", "297.2", "10.87", "99%", "97%", "298.3", "11.51", "100%", "99%", "Expected", "41.8", "1.65", "0%", "0%", "83.8", "3.29", "0%", "0%", "78.7", "3.03", "0%", "0%", "79.4", "3.15", "0%", "0%", "CodeLlama-34B", "Original", "269.8", "14.97", "97%", "82%", "158.2", "8.87", "98%", "3%", "260.1", "14.58", "98%", "61%", "180.4", "10.08", "100%", "14%", "Expected", "52.0", "2.89", "0%", "0%", "81.8", "4.60", "0%", "0%", "81.0", "4.60", "0%", "0%", "72.8", "4.12", "0%", "0%", "StarCoder-15.5B", "Original", "202.3", "5.29", "98%", "53%", "231.8", "6.23", "100%", "52%", "284.6", "7.69", "98%", "87%", "257.9", "7.19", "100%", "68%", "Expected", "81.3", "2.32", "0%", "0%", "78.3", "2.38", "0%", "0%", "106.5", "2.90", "0%", "0%", "108.2", "3.42", "0%", "0%", "Phind-CodeLlama", "Original", "120.7", "6.70", "59%", "4%", "184.2", "10.42", "81%", "7%", "245.0", "13.71", "99%", "45%", "187.6", "10.52", "90%", "13%", "Expected", "60.7", "3.39", "0%", "0%", "93.7", "5.28", "0%", "0%", "81.3", "4.62", "0%", "0%", "74.8", "4.28", "0%", "0%", "Length", "Time", "ER", "PGWE", "Length", "Time", "ER", "PGWE", "Length", "Time", "ER", "PGWE", "Length", "Time", "ER", "PGWE", "MBPP", "(Python)", "MBJSP", "(JavaScript)", "MBGP", "(Go)", "MBCPP", "(C++)", "Model", "Type"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 532.3199999999999,
+    "y1": 108.47999999999999,
+    "y2": 455.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Figure4-1.png"
+}, {
+  "caption": "Figure 1: A motivating example from CodeLlama-7B.",
+  "captionBoundary": {
+    "x1": 66.72000122070312,
+    "x2": 281.1244812011719,
+    "y1": 192.92681884765625,
+    "y2": 195.00701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["Method", "description", "(Lines", "3-5)", "Method", "signature", "（Line", "1）", "Output", "Prompt", "6", "return", "max(test_list,key=lambda", "x:", "x[N])", "7", "def", "max_of_nth_2(test_list,", "N):", "8", "\"\"\"", "9", "Write", "a", "function", "to", "find", "the", "maximum", "of", "nth", "column", "from", "thegiven", "tuple", "list.", "10", "assert", "max_of_nth_2([(5,6,7),(1,3,5),(8,9,10)],2)==19\"\"\"", "11", "#", "Your", "code", "here", "12", "return", "max(test_list,key=lambda", "x:", "x[N])", "Expected", "generation", "(Line", "6)", "Excess", "tokens", "(Lines", "7-12)", "1", "def", "max_of_nth(test_list,", "N):", "2", "\"\"\"", "3", "Write", "a", "function", "to", "find", "the", "maximum", "of", "nth", "column", "from", "the", "given", "tuple", "list.", "\"\"\"", "4", "assert", "max_of_nth([(5,6,7),(1,3,5),(8,9,10)],2)==19\"\"\"", "5", "#", "Your", "code", "here"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 280.32,
+    "y1": 84.96,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Experimental results on the MBGP dataset: a com-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8043823242188,
+    "y1": 189.17681884765625,
+    "y2": 191.25701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["d)", "Original", "Expected", "ec", "on", "st", "(S", "e", "Co", "Ti", "m", "15", "10", "5", "Code", "Llama-7B", "Code", "Llama-13B", "Code", "Llama-34B", "0"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 343.68,
+    "x2": 529.92,
+    "y1": 85.92,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Figure2-1.png"
+}, {
+  "caption": "Figure 7: Stability analysis of CodeFast in MBPP.",
+  "captionBoundary": {
+    "x1": 72.92400360107422,
+    "x2": 274.9182434082031,
+    "y1": 481.1328430175781,
+    "y2": 483.2130432128906
+  },
+  "figType": "Figure",
+  "imageText": ["Code", "Llama-7B", "Code", "Llama-13B", "Code", "Llama-34B", "Phind", "CodeLlama", "StarCoder-15.5B", "Pa", "ss", "@", "1", "70", "65", "60", "55", "50", "45", "40", "0.1", "0.3", "0.5", "0.7", "0.9", "stop_threshold", "Phind", "CodeLlama", "StarCoder-15.5B", "Code", "Llama-7B", "Code", "Llama-13B", "Code", "Llama-34B", "d)", "ec", "on", "e", "(s", "Ti", "m", "6", "4", "2", "0", "0.1", "0.3", "0.5", "0.7", "0.9", "stop_threshold", "Code", "Llama-7B", "(baseline)", "Code", "Llama-13B", "(baseline)", "Code", "Llama-34B", "(baseline)", "Phind", "CodeLlama", "(baseline)", "StarCoder-15.5B", "(baseline)", "Code", "Llama-7B", "(ours)", "Code", "Llama-13B", "(ours)", "Code", "Llama-34B", "(ours)", "Phind", "CodeLlama", "(ours)", "StarCoder-15.5B", "(ours)", "Pa", "ss", "@", "1", "100", "80", "60", "40", "20", "100", "200", "300", "400", "500", "max_new_tokens", "Code", "Llama-7B", "(baseline)", "Code", "Llama-7B", "(ours)", "Code", "Llama-13B", "(baseline)", "Code", "Llama-13B", "(ours)", "Code", "Llama-34B", "(baseline)", "Code", "Llama-34B", "(ours)", "Phind", "CodeLlama", "(baseline)", "Phind", "CodeLlama", "(ours)", "StarCoder-15.5B", "(baseline)", "StarCoder-15.5B", "(ours)", "d)", "ec", "on", "e", "(s", "Ti", "m", "40", "35", "30", "25", "20", "15", "10", "5", "0", "100", "200", "300", "400", "500", "max_new_tokens"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 293.28,
+    "y1": 298.56,
+    "y2": 470.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Figure7-1.png"
+}, {
+  "caption": "Table 1: Dataset statistics.",
+  "captionBoundary": {
+    "x1": 386.0690002441406,
+    "x2": 489.7922668457031,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["MBPP", "Python", "374", "90", "500", "MBJSP", "JavaScript", "420", "46", "500", "MBGP", "Go", "396", "43", "500", "MBCPP", "C++", "314", "34", "500", "HumanEval", "Python", "\\", "\\", "164", "HumanEval-JS", "JavaScript", "\\", "\\", "161", "HumanEval-Go", "Go", "\\", "\\", "160", "Benchmark", "Language", "#Train", "#Valid", "#Test"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 97.92,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Table1-1.png"
+}, {
+  "caption": "Figure 5: An example of GenGuard-enhanced Code LLM in-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.807373046875,
+    "y1": 204.27178955078125,
+    "y2": 206.35198974609375
+  },
+  "figType": "Figure",
+  "imageText": [":", "Prompt", ":", "Continue", "Generation", ":", "Stop", "Generation", "1", "def", "find_lucas(n):", "2", "\"\"\"", "3", "Write", "a", "function", "to", "find", "the", "n'th", "lucas", "number.", "4", "assert", "find_lucas(9)", "==", "76", "5", "\"\"\"", "6", "#", "Your", "code", "here", "7", "if", "n", "==", "0:", "8", "return", "2", "9", "elif", "n", "==", "1:", "10", "return", "1", "11", "else:", "12", "return", "find_lucas(n-1)", "+", "find_lucas(n-2)", "13", "def", "find_fibonacci(n):"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 336.47999999999996,
+    "x2": 538.0799999999999,
+    "y1": 84.0,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Figure5-1.png"
+}, {
+  "caption": "Figure 6: A comparison of GenGuard-enhanced CodeLlama-",
+  "captionBoundary": {
+    "x1": 53.797996520996094,
+    "x2": 295.6472473144531,
+    "y1": 356.78680419921875,
+    "y2": 358.86700439453125
+  },
+  "figType": "Figure",
+  "imageText": [":", "Prompt", ":", "Expected", "Generation", ":", "Error", "Generation", ":", "Stop", "(label)\"", ":", "Continue", "(label)✅", "!", "✅", "Without", "Line-voting", "Mechanism", "With", "Line-voting", "Mechanism", "✅", "✅", "✅", "!", "12", "return", "find_luc", "Prevention", "prediction:", "Uncomplete", "code", "line", "✅", "✅", "✅", "✅", "✅", "✅", "✅!", "Prevention", "prediction:", "12", "return", "find_lucas(n-1)", "+", "find_lucas(n-2)", "Complete", "code", "line", "n'th", "lucas", "number.", "4", "assert", "find_lucas(9)", "==", "76", "5", "\"\"\"", "6", "#", "Your", "code", "here", "7", "if", "n", "==", "0:", "8", "return", "2", "9", "elif", "n", "==", "1:", "10", "return", "1", "11", "else:", "1", "def", "find_lucas(n):", "2", "\"\"\"", "3", "Write", "a", "function", "to", "find", "the"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 245.76,
+    "y2": 338.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Figure6-1.png"
+}, {
+  "caption": "Figure 3: Results of qualitative analysis in the preliminary study.",
+  "captionBoundary": {
+    "x1": 174.46400451660156,
+    "x2": 437.53826904296875,
+    "y1": 275.06781005859375,
+    "y2": 277.14801025390625
+  },
+  "figType": "Figure",
+  "imageText": [":", "Prompt", ":", "Expected", "Generation", ":", "Excess", "Generation", "Case", "1:", "A", "generation", "example", "from", "CodeLlama-7B", "in", "MBPP", "Case", "2:", "A", "generation", "example", "from", "CodeLlama-34B", "in", "MBCPP", "Case", "3:", "A", "generation", "example", "from", "CodeLlama-13B", "in", "MBPP", "Type", "1:", "endless", "generation", "of", "excess", "functions", "Type", "2:", "undesirable", "test", "code", "Type", "3:", "endless", "comments", "of", "numbers", "in", "the", "given", "array", "5", "*", ">", "pairOrSum(vector<int>{5,", "9,", "7,", "6},", "4)", "6", "*", "47", "7", "*", ">", "pairOrSum(vector<int>{7,", "3,", "5},", "3)", "8", "*", "12", "9", "*", ">", "pairOrSum(vector<int>{7,", "3},", "2)", "10", "*", "4", "11", "*/", "12", "int", "pairOrSum(vector<int>", "arr,", "int", "n)", "{", "13", "int", "sum", "=", "0;", "14", "for(int", "i=0;", "i<n;", "i++)", "{", "15", "for(int", "j=i+1;", "j<n;", "j++)", "{", "16", "sum", "+=", "(arr[i]", "^", "arr[j]);", "17", "}", "18", "}", "19", "return", "sum;", "20", "}", "21", "int", "main()", "{", "22", "cout", "<<", "pairOrSum(vector<int>{5,", "9,", "7,", "6},", "4)", "<<", "endl;", "23", "cout", "<<", "pairOrSum(vector<int>{7,", "3,", "5},", "3)", "<<", "endl;", "24", "cout", "<<", "pairOrSum(vector<int>{7,", "3},", "2)", "<<", "endl;", "25", "}", "1", "#include", "<bits/stdc++.h>", "2", "using", "namespace", "std;", "3", "/**", "4", "*", "Write", "a", "c++", "function", "to", "find", "the", "sum", "of", "xor", "of", "all", "pairs", "[(3,", "2),", "(4,", "5)]]", ")", "==", "{((2,", "2),", "(4,", "6)),", "((3,", "2),", "(4,", "5))}", "5", "#", "Your", "code", "here", "6", "#", "return", "set(test_list)", "7", "#", "return", "set(test_list)", "8", "#", "return", "set(test_list)", "9", "#", "return", "set(test_list)", "10", "#", "return", "set(test_list)", "11", "#", "return", "set(test_list)", "12", "#", "return", "set(test_list)", "13", "#", "return", "set(test_list)", "14.", "#", "return", "set(test_list)", "15", "#", "return", "set(test_list)", "16", "#", "return", "set(test_list)", "17", "#", "return", "set(test_list)", "18", "#", "return", "set(test_list)", "19", "#", "return", "set(test_list)", "20", "#", "return", "set(test_list)", "21", "#", "return", "set(test_list)", "22", "#", "return", "set(test_list)", "1", "def", "remove_similar_row(test_list):", "2", "\"\"\"", "3", "Write", "a", "function", "to", "remove", "similar", "rows", "rom", "the", "given", "tuple", "matrix.", "4", "assert", "remove_similar_row([[(4,", "5),", "(3,", "2)],", "[(2,", "2),", "(4,", "6)],", "[13,", "14,", "15,", "16]])==[[4,", "3,", "2,", "1],", "[8,", "7,", "6,", "5],", "[12,", "11,", "10,", "9],", "[16,", "15,", "14,", "13]]\"\"\"", "12", "#", "Your", "code", "here", "13", "return", "[l[::-1]", "for", "l", "in", "lists]", "14", "15", "def", "reverse_list_lists_3(lists):", "16", "\"\"\"", "17", "Write", "a", "function", "to", "reverse", "each", "list", "in", "a", "given", "list", "of", "lists.", "18", "assert", "reverse_list_lists_2([[1,", "2,", "3,", "4],", "[5,", "6,", "7,", "8],", "[9,", "10,", "11,", "12],", "[13,", "14,", "15,", "16]])==[[4,", "3,", "2,", "1],", "[8,", "7,", "6,", "5],", "[12,", "11,", "10,", "9],", "[16,", "15,", "14,", "13]]\"\"\"", "5", "#Your", "code", "here", "6", "return", "[list(reversed(l))", "for", "l", "in", "lists]", "7", "8", "def", "reverse_list_lists_2(lists):", "9", "\"\"\"", "10", "Write", "a", "function", "to", "reverse", "each", "list", "in", "a", "given", "list", "of", "lists.", "11", "assert", "reverse_list_lists_2([[1,", "2,", "3,", "4],", "[5,", "6,", "7,", "8],", "[9,", "10,", "11,", "12],", "[13,", "14,", "15,", "16]])==[[4,", "3,", "2,", "1],", "[8,", "7,", "6,", "5],", "[12,", "11,", "10,", "9],", "[16,", "15,", "14,", "13]]\"\"\"", "1", "def", "reverse_list_lists(lists):", "2", "\"\"\"", "3", "Write", "a", "function", "to", "reverse", "each", "list", "in", "a", "given", "list", "of", "lists.", "4", "assert", "reverse_list_lists([[1,", "2,", "3,", "4],", "[5,", "6,", "7,", "8],", "[9,", "10,", "11,", "12],"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680343-Figure3-1.png"
+}]

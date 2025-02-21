@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 5: Description of the callback trace.",
+  "captionBoundary": {
+    "x1": 88.48600006103516,
+    "x2": 259.3587341308594,
+    "y1": 258.1181335449219,
+    "y2": 263.7490234375
+  },
+  "figType": "Figure",
+  "imageText": ["Callback", "Latency", "Callback", "ID", "=", "CallbackInfo.ﬁnd", "(Rclcpp", "handler)", "Execu", "on", "Latency", "=", "Dura", "on", "(Start", "me,", "End", "me)", "Scheduling", "Latency", "=", "Dura", "on", "(Invoke", "me,", "Start", "me)", "Message", "Latency", "Callback", "ID", "=", "CallbackInfo.ﬁnd", "(rcl", "handler)", "Throughput", "=", "Buﬀer", "size", "/", "Dura", "on", "(Pub", "me,", "Sub", "me)", "Callback", "Trace", "Info", "Callback", "Trace", "CallTrace", "=", "Vector<Callback", "Letency>", "MsgTrace", "=", "Vector<Message", "Latency>", "Run", "me", "Execu", "on", "Info", "Callback", "Registra", "on", "Info", "CallbackInfo", "Callback", "ID:", "Hash", "(Callback", "name,", "Callback", "type)", "Callback", "Handlers:", "Union", "(Rclcpp", "handler,", "Rcl", "handler)"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 281.28,
+    "y1": 83.52,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Diagram of the new state identification process.",
+  "captionBoundary": {
+    "x1": 322.7349853515625,
+    "x2": 553.4226684570312,
+    "y1": 330.4490966796875,
+    "y2": 336.0799865722656
+  },
+  "figType": "Figure",
+  "imageText": ["<M1(t1+t4),", "M2(t2),", "M3(t3)>", "Current", "Callback", "Letancy", "<C1(t1+t4),", "C2(t2),", "C3(t3)>", "C6C5", "C4", "C3", "C1", "C2", "Global", "Callback", "Graph", "<M1(Ta),", "M2(Tb),", "M3(Tc)>", "Global", "Callback", "Latency", "<C1(Ta),", "C2(Tb),", "C3(Tc)>", "Latency", "Check", "<C1(t1),", "C2(t2),", "C1(t4),", "C3(t3)>", "<M1(t1),", "M2(t2),", "M1(t4),", "M3(t3)>", "Process", "Current", "Callback", "Trace", "Callback", "Check"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 247.67999999999998,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Diagram of the R2D2 implementation.",
+  "captionBoundary": {
+    "x1": 77.48200225830078,
+    "x2": 270.3620910644531,
+    "y1": 414.59710693359375,
+    "y2": 420.2279968261719
+  },
+  "figType": "Figure",
+  "imageText": ["Shared", "Memory", "Applica", "ons", "System", "Logger", "R2D2", "Components", "Feedback", "ControllorPayload", "Pool", "Process", "Monitor", "Payload", "Generator", "Interface", "Extractor", "Instrumented", "Tracer"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 273.59999999999997,
+    "y2": 399.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure7-1.png"
+}, {
+  "caption": "Table 3: Overhead Statistics Between R2D2, Ros2Trace, and Vanilla ROS2.",
+  "captionBoundary": {
+    "x1": 317.6409912109375,
+    "x2": 558.20068359375,
+    "y1": 411.5221252441406,
+    "y2": 428.11199951171875
+  },
+  "figType": "Table",
+  "imageText": ["Memory", "Usage", "(MB)", "47276.0", "47136.0", "46480.0", "0.3%/1.7%", "Latency", "(MS)", "0.16226", "0.15512", "0.13962", "4.6%/16.2%", "R2D2", "Ros2Trace", "Vanilla", "ROS2", "Overhead"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 442.56,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Table3-1.png"
+}, {
+  "caption": "Figure 10: Module Coverage Comparison on Navigator2, TurtleBot3, and Turtlesim",
+  "captionBoundary": {
+    "x1": 138.67901611328125,
+    "x2": 473.322998046875,
+    "y1": 217.9661407470703,
+    "y2": 223.5970458984375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Coverage", "on", "Turtlesim", "2000", "1500", "1000", "500", "ROSIDL", "RCL", "*", "RCL", "RMW", "DDS", "0", "Ros2fuzz", "R2d2", "R2d2-", "Robofuzz", "18000", "14000", "10000", "7000", "3000", "(b)", "Coverage", "on", "TurtleBot3", "800", "500", "250", "ROSIDL", "RCL", "*", "RCL", "RMW", "DDS", "0", "Ros2fuzz", "R2d2", "R2d2-", "Robofuzz", "20000", "14000", "8000", "2000", "(a)", "Coverage", "on", "Navigator2", "800", "500", "250", "ROSIDL", "RCL", "*", "RCL", "RMW", "DDS", "0", "Ros2fuzz", "R2d2", "R2d2-", "Robofuzz", "20000", "15000", "10000", "5000"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 81.11999999999999,
+    "x2": 531.36,
+    "y1": 88.8,
+    "y2": 198.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure10-1.png"
+}, {
+  "caption": "Figure 1: The Architecture of the ROS system.",
+  "captionBoundary": {
+    "x1": 81.24099731445312,
+    "x2": 266.6034240722656,
+    "y1": 434.797119140625,
+    "y2": 440.4280090332031
+  },
+  "figType": "Figure",
+  "imageText": ["Linux", "/", "Windows", "/", "MacOS", "/", "RTOS", "FastRTPS", "eProsimaCycloneDDS", "ROS2", "Middleware", "(RMW)", "Node", "Publisher", "Callback", "Service", "Callback", "Subscriber", "Callback", "Client", "Callback", "Subscriber", "Callback", "Client", "Callback", "Topic", "Publisher", "Callback", "Service", "Topic", "Service", "ROS2", "Client", "Library", "(RCL)", "RCLCPP", "RCLJAVARCLPY", "ROS", "2", "Runtime", "ROS", "2", "Applications", "NodeNode"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 290.4,
+    "y1": 247.67999999999998,
+    "y2": 416.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure1-1.png"
+}, {
+  "caption": "Figure 8: A previously unknown data-race in ROS runtime.",
+  "captionBoundary": {
+    "x1": 318.89801025390625,
+    "x2": 557.2609252929688,
+    "y1": 502.6371154785156,
+    "y2": 508.26800537109375
+  },
+  "figType": "Figure",
+  "imageText": ["17", "}", "16", "a->guid.entityid.u", "==", "b->guid.entityid.u;", "15", "a->guid.prefix.u[2]", "==", "b->guid.prefix.u[2]", "&&", "14", "a->guid.prefix.u[1]", "==", "b->guid.prefix.u[1]", "&&", "13", "return", "a->guid.prefix.u[0]", "==", "b->guid.prefix.u[0]", "&&", "12", "//", "read", "operation", "11", "static", "int", "entity_guid_eq", "(const", "struct", "entity_common", "*a,", "const", "struct", "entity_common", "*b)", "{", "10", "//", "Thread", "2:", "in", "ddsi_entity_index.c", "9", "}", "8", "ddsrt_free", "(wr);", "7", "//", "write", "operation", "6", "endpoint_common_fini", "(&wr->e,", "&wr->c);", "5", "ddsi_sertype_unref", "((struct", "ddsi_sertype", "*)", "wr->type);", "4", "...", "3", "struct", "writer", "*wr", "=", "gcreq->arg;", "2", "static", "void", "gc_delete_writer", "(struct", "gcreq", "*gcreq)", "{", "1", "//", "Thread", "1:", "in", "q_entity.c"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 310.08,
+    "x2": 552.0,
+    "y1": 324.96,
+    "y2": 486.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure8-1.png"
+}, {
+  "caption": "Table 1: Previously Unknown Bugs Found by R2D2",
+  "captionBoundary": {
+    "x1": 70.99400329589844,
+    "x2": 276.3959655761719,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "Runtime/RCUTILS", "OOM", "rcutils_reallocf", "2", "Runtime/Fastrtps", "Overflow", "copy_from_fastrtps_guid_", "to_byte_array", "3", "Runtime/Rclcpp", "UAF", "AnySubscriptionCallback", "4", "Runtime/Cyclone", "Data-race", "gc_delete_writer", "/", "entity_guid_eq_wrapper", "5", "Runtime/eProsima", "Data-race", "∼Condition", "/", "wait", "6", "Runtime/eProsima", "Deadlock", "notify", "7", "Runtime/eProsima", "Data-race", "do_timer_actions", "/", "register_timer_nts", "8", "Runtime/eProsima", "Deadlock", "read_or_take", "9", "Runtime/eProsima", "Deadlock", "sendSync", "10", "TurtleBot3/Rviz", "SEGV", "getParent", "11", "TurtleBot3/Ompl", "SEGV", "∼RigidBodyEnvironment", "12", "TurtleBot3/Ompl", "Overflow", "getRadius", "13", "TurtleBot3/Ompl", "Overflow", "setStartAndGoalStates", "14", "TurtleBot3/Ompl", "Overflow", "Constraint::project", "15", "TurtleBot3/Ompl", "Overflow", "getControl", "16", "Navigator2/BT.CPP", "SEGV", "bt3_log_cat", "17", "Navigator2/Planner", "Double-free", "test_planer_is_path_valid", "18", "Autoware/Localization", "SEGV", "aged_object_queue", "19", "Autoware/Vehicle", "Nullptr-deref", "validate_data", "20", "Autoware/Vehicle", "Nullptr-deref", "get_row_index", "21", "Autoware/Perception", "Overflow", "tlwh_to_xyah", "22", "Autoware/Perception", "SEGV", "_ccrrt_dense", "23", "Autoware/Control", "Overflow", "filt_vector", "24", "Autoware/Utils", "Overflow", "arange", "25", "Runtime/rmw_fastrtps", "Data-race", "C̃ondition", "/", "wait", "26", "Runtime/eProsima", "Data-race", "get_listener_for", "/", "delete_datawriter", "27", "Runtime/eProsima", "Data-race", "set_status", "/", "get_subscription_matched_", "status", "28", "Runtime/Rclcpp", "Deadlock", "lifecycle_service_client", "29", "Runtime/Rclcpp", "Deadlock", "action_client", "30", "Runtime/eProsima", "Data-race", "get_publication_", "matched_status", "/", "set_status", "31", "Runtime/eProsima", "Data-race", "set_read_communication_status", "/", "set_", "status", "32", "Runtime/Rclcpp", "Deadlock", "double_unlock", "33", "Runtime/eProsima", "Data-race", "deliver_sample_nts", "/", "change_received", "34", "Runtime/geometry2", "Data-race", "create_new_change", "/", "unsent_change_", "added_to_history", "35", "Runtime/eProsima", "UAF", "write", "36", "Runtime/Fastrtps", "SEGV", "new_allocator_impl", "37", "Runtime/ROSIDL", "MemLeaks", "get_typesupport_handle_function", "38", "Runtime/tlsf_cpp", "MemLeaks", "initialize", "39", "Runtime/tlsf_cpp", "MemLeaks", "tlsf_heap_allocator", "#", "Scope/Module", "Bug", "Types", "Operations"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 483.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Table1-1.png"
+}, {
+  "caption": "Figure 2: Execution sequence of a system hang bug in ROS.",
+  "captionBoundary": {
+    "x1": 54.92399978637695,
+    "x2": 292.919189453125,
+    "y1": 166.0310821533203,
+    "y2": 171.6619873046875
+  },
+  "figType": "Figure",
+  "imageText": ["HpMutex", "Thread", "B", "LpMutex", "Thread", "A", "Wait_mutex", "Remove", "Timer", "DelayedFailed", "Higher", "Priority", "Timer", "Insert", "Unlock", "Unlock", "Insert", "Timer", "Lock", "(HpMutex)", "(LpMutex)", "Threads", "Execution", "Sequence", "Lock"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Overall Workflow of R2D2.",
+  "captionBoundary": {
+    "x1": 364.5299987792969,
+    "x2": 511.6278076171875,
+    "y1": 653.2221069335938,
+    "y2": 658.85302734375
+  },
+  "figType": "Figure",
+  "imageText": ["Identification", "Guided", "Payload", "Synthesis", "Guided", "Genera", "on", "New", "State", "Callback", "Trace", "Guided", "Genera", "on", "Instrumenta", "on", "Execution", "Callback", "Trace", "Runtime", "Callback", "Registration", "①", "⑤", "②", "④", "Runtime", "Collection", "System", "Execution", "③", "Profile", "Run", "me", "Tracing", "Callback", "Trace", "⑥", "Callback", "Trace", "Collec", "on", "ROS", "System", "Under", "Test", "Runtime", "Tracer", "Registration", "Tracer"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 492.47999999999996,
+    "y2": 631.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure3-1.png"
+}, {
+  "caption": "Table 2: Coverage Comparison Between the R2D2, Ros2Fuzz, RoboFuzz, and R2D2-.",
+  "captionBoundary": {
+    "x1": 53.501991271972656,
+    "x2": 295.1377868652344,
+    "y1": 488.0461120605469,
+    "y2": 504.635986328125
+  },
+  "figType": "Table",
+  "imageText": ["R2D2", "259111.2", "111102.8", "44576.2", "138263.4", "R2D2-", "202274.4(+0.28×)", "90843.4(+0.22×)", "33846.4(+0.32×)", "108988.1(+0.27×)", "RoboFuzz", "-", "21867.6(+4.08×)", "21827.0(+1.04×)", "21847.3(+2.56×)", "Ros2Fuzz", "29199.4(+7.87×)", "29394.8(+2.78×)", "25965.2(+0.72×)", "28186.5(+3.91×)", "Fuzzers", "Navigator2", "TurtleBot3", "Turtlesim", "Average"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 519.84,
+    "y2": 567.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Table2-1.png"
+}, {
+  "caption": "Figure 9: Coverage Growth Curve Between R2D2, R2D2-, RoboFuzz, and Ros2Fuzz.",
+  "captionBoundary": {
+    "x1": 140.89700317382812,
+    "x2": 471.101806640625,
+    "y1": 208.61415100097656,
+    "y2": 214.24505615234375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Turtlesim", "Comparison", "R2D2", "R2D2-", "RoboFuzz", "Ros2Fuzz", "ov", "er", "ed", "fB", "ra", "nc", "he", "sC", "be", "ro", "N", "um", "Time", "[h]", "4.8", "·104", "4", "3.2", "2.4", "1.6", "0.8", "0", "0.2", "0.4", "0.6", "0.8", "10", "(b)", "TurtleBot3", "Comparison", "R2D2", "R2D2-", "RoboFuzz", "Ros2Fuzz", "ov", "er", "ed", "fB", "ra", "nc", "he", "sC", "be", "ro", "N", "um", "Time", "[h]", "1.2", "·105", "1", "0.8", "0.6", "0.4", "0.2", "0", "0.2", "0.4", "0.6", "0.8", "10", "(a)", "Navigator2", "Comparison", "R2D2", "R2D2-", "RoboFuzz", "Ros2Fuzz", "ov", "er", "ed", "fB", "ra", "nc", "he", "sC", "be", "ro", "N", "um", "Time", "[h]", "3", "·105", "2.5", "2", "1.5", "1", "0.5", "0", "0.2", "0.4", "0.6", "0.8", "10"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 537.12,
+    "y1": 87.84,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure9-1.png"
+}, {
+  "caption": "Figure 4: Diagram of the instrumentation process.",
+  "captionBoundary": {
+    "x1": 72.75,
+    "x2": 275.0947570800781,
+    "y1": 664.6980590820312,
+    "y2": 670.3289794921875
+  },
+  "figType": "Figure",
+  "imageText": ["RCL", "handlers,", "Buﬀer", "size,", "Pub/Sub", "me", "RCLCPP", "handlers,", "Invoke/start/end", "me", "Run", "me", "Execu", "on", "Buﬀer", "RCLCPP", "handlers,", "RCL", "handlers,", "Callback", "type", "rcl", "handle", "callback", "Callbacks", "RCLCPP", "RCL", "RCL", "handlers,", "Callback", "name", "rcl", "callback", "regrclcpp", "callback", "reg", "Callback", "Registra", "on", "Buﬀer", "callback", "sched"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 540.0,
+    "y2": 650.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652111-Figure4-1.png"
+}]

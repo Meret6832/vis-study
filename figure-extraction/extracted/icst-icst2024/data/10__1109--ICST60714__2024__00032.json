@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 4. Intersection of failures detected by each technique. Of the techniques evaluated, FlakeRake was most successful at reproducing failures from the original Rerun dataset (136 failures), compared to Rerun-Repl (127 failures) and Isolated Rerun (115 failures).",
+  "captionBoundary": {
+    "x1": 59.435340881347656,
+    "x2": 295.4374694824219,
+    "y1": 190.94668579101562,
+    "y2": 219.6256103515625
+  },
+  "figType": "Figure",
+  "imageText": ["28", "0", "449", "22", "11", "1", "2", "34", "77", "33", "106", "37", "481", "920", "Isolated", "Rerun", "Rerun", "Replication", "FlakeRake", "Rerun"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 257.28,
+    "y1": 70.56,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-Figure4-1.png"
+}, {
+  "caption": "TABLE II TOP 4 CATEGORIES OF FAILURES BY DETECTION SOURCE",
+  "captionBoundary": {
+    "x1": 86.51853942871094,
+    "x2": 268.3428955078125,
+    "y1": 229.81460571289062,
+    "y2": 241.64129638671875
+  },
+  "figType": "Table",
+  "imageText": ["Rerun-Repl", "or", "Isolated", "Rerun", "(not", "FlakeRake)", "Address", "in", "use", "60", "IllegalArgumentException", "34", "TableNotFoundException", "29", "AssertionError", "28", "Only", "FlakeRake", "AssertionError", "124", "Timeout", "117", "IOException", "113", "ConcurrentUpdate", "67", "UnknownHostException", "224", "AssertionError", "148", "IOException", "144", "ArtifactResolutionException", "104", "Only", "Rerun", "Detected", "By", "Category", "Number", "of", "Failures"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 295.2,
+    "y1": 242.88,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-TableII-1.png"
+}, {
+  "caption": "TABLE III COMPARISON OF FAILURE REPRODUCTION RATES FOR FLAKERAKE COMPARED TO THE BEST OF RERUN-REPL AND ISOLATED RERUN WHEN ALL APPROACHES ATTEMPT TO REPRODUCE FAILURES 100 TIMES. Rerun-Repl and Isolated Rerun had no failures with a rate greater than 50%.",
+  "captionBoundary": {
+    "x1": 60.637176513671875,
+    "x2": 296.6393127441406,
+    "y1": 75.02542114257812,
+    "y2": 112.1328125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "74", "139", "27", "7", "247", "0", "25", "61", "23", "5", "114", "(0%,", "10%]", "7", "13", "0", "0", "20", "(10%,", "25%]", "1", "2", "0", "0", "3", "(25%,", "50%]", "2", "1", "0", "0", "3", "(50%,", "75%]", "3", "5", "0", "0", "8", "(75%,", "99%]", "1", "5", "0", "0", "6", "(99%,", "100%]", "35", "52", "4", "2", "93", "FlakeRake", "Repro", "0", "(0%,", "10%]", "(10%,", "25%]", "(25%,", "50%]", "Total", "Best", "of", "Rerun-Repl", "and", "Isolated", "Rerun"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 281.28,
+    "y1": 114.72,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-TableIII-1.png"
+}, {
+  "caption": "Fig. 5. RQ3 Results: Average execution cost to reproduce a failure a varied number of times with each approach. For each of the 28 failures detected by all five approaches, we compute the time to reproduce each failure N times, normalized to the time to execute that test in isolation once. After 6 reproductions, FlakeRake is faster than Isolated Rerun.",
+  "captionBoundary": {
+    "x1": 60.63500213623047,
+    "x2": 296.6296691894531,
+    "y1": 386.0281677246094,
+    "y2": 423.13555908203125
+  },
+  "figType": "Figure",
+  "imageText": ["FlakeRake", "(Offline)", "Isolated", "Rerun", "Rerun", "Rerun", "Replication", "Approach", "●", "FlakeRake", ")", "ca", "le", "og", "S", "t", "(", "L", "C", "os", "iz", "ed", "m", "al", "N", "or", "0", "10", "20", "30", "40", "50", "Desired", "Reproduction", "Count", "105", "103", "101", "6", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●", "●"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 277.44,
+    "y1": 232.79999999999998,
+    "y2": 384.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-Figure5-1.png"
+}, {
+  "caption": "Fig. 2. Overview of FlakeRake’s approach to automatically generate scripts to reliably reproduce timing-dependent flaky-test failures. FlakeRake profiles a test’s usage of timing-dependent (TD) APIs, and then searches for failure-inducing configurations of sleepyLines for that test. These failure-inducing configurations are then confirmed, enabling reliable reproduction of flaky-test failures.",
+  "captionBoundary": {
+    "x1": 66.74348449707031,
+    "x2": 549.970703125,
+    "y1": 158.38912963867188,
+    "y2": 178.6397705078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 520.3199999999999,
+    "y1": 74.88,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-Figure2-1.png"
+}, {
+  "caption": "TABLE IV TOP FIVE TIMING-DEPENDENT (TD) APIS OCCURRING IN SLEEP CONFIGURATIONS THAT INDUCED FAILURES MATCHING THE FLAKEFLAGGER DATASET FAILURES. For each TD API, we show the number and percentage of tests in which that API was called, unique failures that the API reproduced, and failure-inducing configurations that were a part of the failures that were reproduced.",
+  "captionBoundary": {
+    "x1": 65.41719055175781,
+    "x2": 289.94171142578125,
+    "y1": 75.98721313476562,
+    "y2": 129.95135498046875
+  },
+  "figType": "Table",
+  "imageText": ["ExitSyncBlock", "240", "(85%)", "492", "(79%)", "2706", "(18%)", "ExitSyncMethod", "239", "(85%)", "436", "(70%)", "2368", "(16%)", "EnterSyncBlock", "238", "(85%)", "478", "(76%)", "2648", "(18%)", "EnterSyncMethod", "226", "(80%)", "426", "(68%)", "2276", "(16%)", "System.currentTimeMillis", "219", "(78%)", "369", "(59%)", "2190", "(15%)", "Timing-Dependent", "API", "Tests", "(%)", "Failures", "(%)", "Conﬁgs.", "(%)"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 282.24,
+    "y1": 132.48,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-TableIV-1.png"
+}, {
+  "caption": "TABLE V TOP FIVE TIMING-DEPENDENT APIS THAT CAN BE USED TO INDUCE THE SAME FAILURE, MATCHING THE FLAKEFLAGGER DATASET. For each pair of TD APIs, we show the Pearson correlation coefficient R, indicating the frequency with which two APIs co-occur. A score of 1 indicates that two APIs can always be interchanged.",
+  "captionBoundary": {
+    "x1": 62.3950309753418,
+    "x2": 293.0839538574219,
+    "y1": 205.42330932617188,
+    "y2": 250.95928955078125
+  },
+  "figType": "Table",
+  "imageText": ["ByteBuffer.allocate", "ByteBuffer.array", "1.00", "EnterSyncBlock", "ExitSyncBlock", ".99", "EnterSyncMethod", "ExitSyncMethod", ".99", "Selector.wakeup", "Thread.currentThread", ".96", "System.currentTimeMillis", "Thread.currentThread", ".93", "Timing-Dependent", "API", "Timing-Dependent", "API", "R"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 275.03999999999996,
+    "y1": 253.44,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-TableV-1.png"
+}, {
+  "caption": "Fig. 3. Overview of evaluation methodology and research questions. Using a ground-truth list of flaky-test failures from the FlakeFlagger dataset, we use FlakeRake to identify failure-inducing configurations, and confirm that those configurations reproduce each failure 100 times. As baselines, we run each test with Isolated Rerun, and each test suite with Rerun-Repl. Each test failure is matched by stack trace, and we study the characteristics of each test and failure.",
+  "captionBoundary": {
+    "x1": 67.33209228515625,
+    "x2": 550.5592651367188,
+    "y1": 129.94107055664062,
+    "y2": 150.191650390625
+  },
+  "figType": "Figure",
+  "imageText": ["2b.", "Reproduce", "failures", "with", "FlakeRake", "RQ4", "Characteristics", "of", "Configurations?", "RQ3", "How", "long", "to", "reproduce", "failures?", "RQ2", "How", "reliably", "are", "failures", "reproduced?", "RQ1", "How", "many", "failures", "are", "reproduced?", "3.", "Match", "Failures", "2c.", "Run", "tests", "with", "Rerun-Repl", "&", "Isolated", "Rerun", "2a.", "Run", "tests", "with", "FlakeRake", "1.", "Collect", "ground-", "truth", "flaky", "CI", "failures"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 550.0799999999999,
+    "y1": 72.96,
+    "y2": 124.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-Figure3-1.png"
+}, {
+  "caption": "TABLE I NUMBER OF FLAKY TESTS AND UNIQUE FAILURES DETECTED BY EACH APPROACH AND INTERSECTION OF THOSE FAILURES WITH RERUN FROM [5]. Unique failures are identified by stack trace. This table contains only the tests known to be flaky by Rerun from [5].",
+  "captionBoundary": {
+    "x1": 74.54711151123047,
+    "x2": 545.7625122070312,
+    "y1": 74.65567016601562,
+    "y2": 94.906982421875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "811", "1,167", "139", "167", "160", "233", "284", "630", "265", "475", "127", "115", "136", "118", "activiti-activiti", "32", "32", "15", "15", "6", "6", "28", "95", "28", "72", "15", "6", "24", "24", "Alluxio-alluxio", "116", "183", "2", "2", "2", "2", "55", "157", "53", "122", "2", "2", "28", "24", "apache-ambari", "52", "53", "0", "0", "0", "0", "1", "3", "1", "3", "0", "0", "2", "2", "apache-commons-exec", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "apache-hbase", "145", "250", "42", "42", "72", "121", "89", "165", "73", "91", "13", "14", "15", "6", "apache-httpcore", "22", "22", "5", "5", "2", "2", "16", "22", "16", "17", "5", "2", "4", "1", "apache-incubator-dubbo", "19", "21", "8", "8", "1", "3", "6", "29", "6", "27", "0", "0", "0", "0", "doanduyhai-Achilles", "4", "4", "2", "2", "2", "2", "0", "0", "0", "0", "2", "2", "0", "0", "elasticjob-elastic-job-lite", "3", "4", "0", "0", "0", "0", "1", "2", "1", "2", "0", "0", "0", "0", "hector-client-hector", "33", "33", "0", "0", "0", "0", "1", "1", "1", "1", "0", "0", "0", "0", "jknack-handlebars.java", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "joel-costigliola-assertj-core", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "kevinsawicki-http-request", "18", "18", "18", "18", "0", "0", "0", "0", "1", "1", "18", "0", "0", "0", "ninjaframework-ninja", "1", "1", "0", "0", "1", "1", "0", "0", "0", "0", "0", "1", "0", "0", "orbit-orbit", "7", "7", "2", "2", "5", "5", "6", "18", "7", "20", "2", "5", "3", "5", "qos-ch-logback", "22", "23", "2", "2", "2", "2", "16", "22", "16", "22", "2", "2", "12", "12", "spring-projects-spring-boot", "163", "287", "0", "0", "30", "31", "5", "24", "6", "14", "0", "24", "0", "1", "square-okhttp", "100", "121", "15", "24", "12", "18", "26", "41", "23", "38", "22", "17", "17", "13", "tootallnate-java-websocket", "23", "45", "22", "41", "21", "36", "22", "26", "21", "21", "41", "36", "22", "21", "undertow-io-undertow", "7", "12", "1", "1", "0", "0", "7", "19", "7", "19", "1", "0", "4", "4", "wildﬂy-wildﬂy", "23", "23", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "wro4j-wro4j", "16", "23", "2", "2", "1", "1", "4", "5", "4", "4", "1", "1", "4", "4", "zxing-zxing", "2", "2", "2", "2", "2", "2", "0", "0", "0", "0", "2", "2", "0", "0", "Project", "Tests", "Failures", "Tests", "Failures", "Tests", "Failures", "Tests", "Failures", "Tests", "Failures", "Rerun-Repl", "Iso.", "Rerun", "FlakeRake", "FlakeRake-OBO", "Rerun", "from", "[5]", "Rerun-Repl", "Isolated", "Rerun", "FlakeRake", "FlakeRake-OBO", "Intersection", "of", "Failures", "with", "Rerun", "from", "[5]", "Flaky", "Tests", "&", "Failures", "by", "Technique"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 554.4,
+    "y1": 97.44,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00032-TableI-1.png"
+}]

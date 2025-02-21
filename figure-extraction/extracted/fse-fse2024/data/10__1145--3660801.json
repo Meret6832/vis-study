@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 2. The performance and fairness trade-o e ectiveness regions categorized by the Fairea baseline.",
+  "captionBoundary": {
+    "x1": 54.159000396728516,
+    "x2": 431.8428649902344,
+    "y1": 499.82550048828125,
+    "y2": 504.2279968261719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 144.0,
+    "x2": 342.24,
+    "y1": 329.76,
+    "y2": 485.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Figure2-1.png"
+}, {
+  "caption": "Table 4. (RQ1) Impact of MirrorFair and state-of-the-art methods on model performance and bias. MirrorFair achieves the highest bias reduction with the lowest performance compromise.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.33551025390625,
+    "y1": 87.95149993896484,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["FairMask", "-0.23%", "-0.94%", "-1.10%", "-1.51%", "-1.48%", "-15.53%", "-19.18%", "-20.24%", "-18.32%", "DIR", "-0.39%", "-0.75%", "-0.37%", "-0.94%", "-0.61%", "-18.94%", "-17.54%", "-18.95%", "-18.47%", "RW", "-0.32%", "-0.78%", "-0.37%", "-0.71%", "-0.54%", "-49.24%", "-37.32%", "-26.25%", "-37.60%", "MAAT", "0.03%", "-1.33%", "0.83%", "-1.01%", "-0.37%", "-37.02%", "-43.44%", "-42.51%", "-40.99%", "EOP", "-2.39%", "-3.00%", "-3.55%", "-3.61%", "-3.14%", "-44.54%", "-47.42%", "-44.33%", "-45.43%", "MirrorFair", "0.03%", "-0.46%", "0.47%", "-0.54%", "-0.12%", "-44.69%", "-51.93%", "-55.43%", "-50.68%", "Method", "Accuracy", "Recall", "Precision", "F1-Score", "Overall", "Performance", "SPD", "AOD", "EOD", "Overall", "Bias"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 117.6,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Table4-1.png"
+}, {
+  "caption": "Table 5. (RQ1) Proportions of cases where each method significantly improves fairness compared with other methods. Compared with the default model, MirrorFair significantly improves fairness in 99% of the cases, and compared with MAAT, MirrorFair significantly improves fairness in 44% of the cases.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1562194824219,
+    "y1": 213.86251831054688,
+    "y2": 240.18301391601562
+  },
+  "figType": "Table",
+  "imageText": ["Default", "0%", "9%", "13%", "4%", "7%", "0%", "0%", "FairMask", "61%", "0%", "24%", "20%", "18%", "7%", "0%", "DIR", "71%", "55%", "0%", "22%", "27%", "20%", "10%", "EOP", "77%", "65%", "54%", "0%", "29%", "44%", "42%", "RW", "80%", "54%", "44%", "21%", "0%", "40%", "34%", "MAAT", "92%", "65%", "51%", "31%", "38%", "0%", "16%", "MirrorFair", "99%", "92%", "67%", "34%", "45%", "44%", "0%", "Method", "VS", "Default", "VS", "FairMask", "VS", "DIR", "VS", "EOP", "VS", "RW", "VS", "MAAT", "VS", "MirrorFair"],
+  "name": "5",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 420.47999999999996,
+    "y1": 254.88,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Table5-1.png"
+}, {
+  "caption": "Table 1. Benchmark datasets and tasks.",
+  "captionBoundary": {
+    "x1": 169.35009765625,
+    "x2": 316.40771484375,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["1.", "Adult-sex", "Sex", "Adult", "45,222", "1", "(income", ">", "50k)", "0", "(75.2%)", "2.", "Adult-race", "Race", "Adult", "45,222", "1", "(income", ">", "50k)", "0", "(75.2%)", "3.", "Compas-sex", "Sex", "Compas", "6,167", "0", "(no", "recidivism)", "0", "(54.5%)", "4.", "Compas-race", "Race", "Compas", "6,167", "0", "(no", "recidivism)", "0", "(54.5%)", "5.", "German-sex", "Sex", "German", "1,000", "1", "(good", "credit)", "1", "(70.0%)", "6.", "German-age", "Age", "German", "1,000", "1", "(good", "credit)", "1", "(70.0%)", "7.", "Bank-age", "Age", "Bank", "30,488", "1", "(subscriber)", "0", "(87.3%)", "8.", "Mep-race", "Race", "Mep", "15,830", "1", "(utilizer)", "0", "(82.8%)", "9.", "Adult-sex-race", "Sex,", "Race", "Adult", "45,222", "1", "(income", ">", "50k)", "0", "(75.2%)", "10.", "Compas-sex-race", "Sex,", "Race", "Compas", "6,167", "0", "(no", "recidivism)", "0", "(54.5%)", "11.", "German-sex-age", "Sex,", "Age", "German", "1,000", "1", "(good", "credit)", "1", "(70.0%)", "Task", "Protected", "attribute(s)", "Dataset", "Size", "Favourable", "label", "Majority", "label"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 400.32,
+    "y1": 106.56,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Table1-1.png"
+}, {
+  "caption": "Fig. 4. RQ1: Trade-o E ectiveness distributions in mitigating single sensitive a ribute bias of di erent bias-mitigating methods for DNN only.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1734313964844,
+    "y1": 239.65350341796875,
+    "y2": 255.0150146484375
+  },
+  "figType": "Figure",
+  "imageText": ["lose-lose", "inverted", "bad", "good", "win-win", "Fair-SMOTE", "CEO", "EOP", "OP", "LFR", "CARE", "ROC", "FairMask", "RW", "Fairway", "DIR", "MAAT", "MirrorFair", "100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "0%", "55%", "40%", "46%", "32%", "22%", "23%", "24%", "25%", "29%", "9%", "11%", "16%", "18%", "34%", "37%", "30%", "15%", "47%", "26%", "25%", "19%", "69%", "31%", "62%", "35%", "29%", "5%", "6%", "5%", "4%", "5%", "7%", "8%", "8%", "7%", "18%", "10%", "5%", "14%", "4%", "6%", "10%", "30%", "6%", "18%", "21%", "33%", "0%", "8%", "4%", "20%", "4%", "5%", "2%", "18%", "16%", "17%", "13%", "25%", "21%", "2%", "25%", "8%", "38%", "35%"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 437.28,
+    "y1": 84.96,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Figure4-1.png"
+}, {
+  "caption": "Table 7. Probability di erence between the default and mirror models (Random sampling 5 testing instances). “Adult-Sex-LR” means mitigating “Sex” bias in “Adult” using “LR” algorithms; %345 (1, 0) denotes the prediction probability of output . = 1 on the condition of sensitive a ribute = 0 of the default model; %<8A (1, 0) denotes the prediction probability of output . = 1 on the condition of sensitive a ribute = 0 of the mirror model; denotes the probability di erence between the default and mirror model.",
+  "captionBoundary": {
+    "x1": 44.796836853027344,
+    "x2": 441.54840087890625,
+    "y1": 88.94747161865234,
+    "y2": 137.22900390625
+  },
+  "figType": "Table",
+  "imageText": ["0.45", "0.45", "0.00", "0.47", "0.47", "0.01", "0.50", "0.98", "-0.48", "0.50", "0.61", "-0.11", "0.51", "0.51", "0.00", "0.51", "0.52", "0.00", "0.45", "0.99", "-0.54", "0.28", "0.54", "-0.26", "0.49", "0.49", "0.00", "0.49", "0.49", "0.00", "0.48", "0.61", "-0.13", "0.67", "0.42", "0.24", "0.53", "0.52", "0.00", "0.52", "0.53", "0.00", "0.45", "0.58", "-0.13", "0.37", "0.61", "-0.24", "0.50", "0.50", "0.00", "0.51", "0.51", "0.00", "0.32", "0.69", "-0.37", "0.46", "0.66", "-0.19", "0.50", "0.50", "0.00", "0.55", "0.54", "0.01", "0.29", "0.52", "-0.23", "0.62", "0.42", "0.20", "0.50", "0.50", "0.00", "0.50", "0.50", "0.00", "0.55", "0.45", "0.10", "0.69", "0.32", "0.37", "0.50", "0.50", "0.00", "0.48", "0.47", "0.01", "0.97", "0.16", "0.81", "0.43", "0.53", "-0.10", "0.50", "0.50", "0.00", "0.47", "0.45", "0.01", "0.42", "0.65", "-0.23", "0.38", "0.52", "-0.14", "0.50", "0.50", "0.00", "0.49", "0.48", "0.01", "0.27", "0.87", "-0.60", "0.33", "0.64", "-0.32", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "0.59", "0.42", "0.17", "0.62", "0.44", "0.18", "0.38", "0.50", "-0.12", "0.52", "0.43", "0.09", "0.64", "0.47", "0.17", "0.56", "0.35", "0.21", "0.55", "0.46", "0.10", "0.54", "0.20", "0.35", "0.55", "0.38", "0.17", "0.52", "0.30", "0.22", "0.53", "0.38", "0.15", "0.72", "0.35", "0.37", "0.55", "0.38", "0.17", "0.52", "0.30", "0.22", "0.47", "0.53", "-0.06", "0.70", "0.43", "0.27", "0.59", "0.41", "0.17", "0.61", "0.43", "0.18", "0.56", "0.47", "0.09", "0.56", "0.24", "0.31", "Compas-Race-LR", "Compas-Race-SVM", "Compas-Race-RF", "Compas-Race-DNN", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "0.34", "0.50", "-0.17", "0.36", "0.50", "-0.14", "0.60", "0.42", "0.17", "0.30", "0.52", "-0.22", "0.44", "0.62", "-0.17", "0.48", "0.68", "-0.20", "0.16", "0.72", "-0.56", "0.31", "0.63", "-0.31", "0.36", "0.53", "-0.17", "0.46", "0.66", "-0.20", "0.52", "0.43", "0.09", "0.46", "0.58", "-0.12", "0.45", "0.60", "-0.16", "0.48", "0.68", "-0.20", "0.10", "0.67", "-0.57", "0.41", "0.75", "-0.35", "0.39", "0.56", "-0.17", "0.43", "0.61", "-0.18", "0.28", "0.76", "-0.49", "0.47", "0.79", "-0.32", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "Vdef", "(1,", "1)", "Vmir", "(1,", "1)", "DIF", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "Vdef", "(1,", "0)", "Vmir", "(1,", "0)", "DIF", "Adult-Sex-LR", "Adult-Sex-SVM", "Adult-Sex-RF", "Adult-Sex-DNN"],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 400.32,
+    "y1": 151.68,
+    "y2": 358.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Table7-1.png"
+}, {
+  "caption": "Table 8. Taxonomy results of decision-making scenarios using X = 0.05. ∈ NX (2) means that the probability di erence between two model predictions near the decision boundary, belonging to the neighborhood of a constant 2 . Where N denotes the neighborhood of constant 2 , X denotes the width of the neighborhood. E6. denotes the average of .",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1748352050781,
+    "y1": 374.1985168457031,
+    "y2": 411.4779968261719
+  },
+  "figType": "Table",
+  "imageText": ["Adult-Sex", "✓", "0.17", "Regular", "×", "-", "Irregular", "✓", "0.18", "Regular", "×", "-", "Irregular", "Adult-Race", "✓", "0.03", "Regular", "×", "-", "Irregular", "✓", "0.04", "Regular", "×", "-", "Irregular", "Compas-Sex", "✓", "0.08", "Regular", "×", "-", "Irregular", "✓", "0.06", "Regular", "×", "-", "Irregular", "Compas-Race", "✓", "0.00", "Insensitive", "×", "-", "Irregular", "✓", "0.01", "Insensitive", "×", "-", "Irregular", "German-Sex", "✓", "0.02", "Regular", "×", "-", "Irregular", "✓", "0.02", "Regular", "×", "-", "Irregular", "German-Age", "✓", "0.02", "Regular", "×", "-", "Irregular", "✓", "0.01", "Insensitive", "×", "-", "Irregular", "Bank-Age", "✓", "0.08", "Regular", "×", "-", "Irregular", "✓", "0.13", "Regular", "×", "-", "Irregular", "Mep-Race", "✓", "0.11", "Regular", "×", "-", "Irregular", "✓", "0.09", "Regular", "×", "-", "Irregular", "∈", "NX", "(2)", "\"40=", "Type", "∈", "NX", "(2)", "\"40=", "Type", "∈", "NX", "(2)", "\"40=", "Type", "∈", "NX", "(2)", "\"40=", "Type", "Decision", "Task", "LR", "RF", "SVM", "DNN"],
+  "name": "8",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 425.76,
+    "y2": 499.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Table8-1.png"
+}, {
+  "caption": "Table 3. (RQ1) Detailed performance and fairness metrics of the models before and a er applying MirrorFair. “Default” means not applying any bias-mitigating method, and “MirrorFair” means applying MirrorFair to mitigate bias. “(+)” means higher value of the metrics is be er and “(-)” means lower value of the metrics is be er. Each metric value is the average of 50 times repetitions.",
+  "captionBoundary": {
+    "x1": 44.79690170288086,
+    "x2": 441.5483093261719,
+    "y1": 87.95149993896484,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["Adult-Sex", "Default", "0.84", "0.77", "0.79", "0.78", "0.19", "0.08", "0.08", "0.85", "0.77", "0.80", "0.78", "0.18", "0.08", "0.08", "MirrorFair", "0.84", "0.77", "0.79", "0.78", "0.16", "0.04", "0.02", "0.85", "0.75", "0.81", "0.77", "0.13", "0.04", "0.04", "Adult-Race", "Default", "0.84", "0.77", "0.79", "0.78", "0.10", "0.05", "0.04", "0.85", "0.77", "0.80", "0.78", "0.09", "0.04", "0.05", "MirrorFair", "0.85", "0.77", "0.80", "0.79", "0.06", "0.03", "0.04", "0.85", "0.77", "0.80", "0.78", "0.07", "0.02", "0.02", "Compas-Sex", "Default", "0.65", "0.64", "0.64", "0.64", "0.17", "0.14", "0.12", "0.65", "0.65", "0.65", "0.65", "0.19", "0.16", "0.13", "MirrorFair", "0.66", "0.64", "0.66", "0.64", "0.03", "0.03", "0.03", "0.66", "0.65", "0.65", "0.65", "0.14", "0.11", "0.09", "Compas-Race", "Default", "0.65", "0.64", "0.64", "0.64", "0.14", "0.12", "0.09", "0.65", "0.65", "0.65", "0.65", "0.16", "0.14", "0.10", "MirrorFair", "0.65", "0.64", "0.65", "0.64", "0.04", "0.02", "0.02", "0.65", "0.64", "0.65", "0.64", "0.06", "0.04", "0.03", "German-Sex", "Default", "0.76", "0.66", "0.73", "0.67", "0.07", "0.07", "0.04", "0.73", "0.66", "0.68", "0.67", "0.09", "0.09", "0.06", "MirrorFair", "0.76", "0.64", "0.73", "0.66", "0.04", "0.05", "0.03", "0.74", "0.65", "0.70", "0.66", "0.07", "0.07", "0.05", "German-Age", "Default", "0.76", "0.66", "0.73", "0.67", "0.13", "0.11", "0.07", "0.73", "0.66", "0.68", "0.67", "0.19", "0.16", "0.15", "MirrorFair", "0.76", "0.65", "0.73", "0.66", "0.05", "0.07", "0.04", "0.74", "0.65", "0.69", "0.66", "0.08", "0.08", "0.06", "Bank-Age", "Default", "0.90", "0.72", "0.79", "0.75", "0.08", "0.05", "0.06", "0.90", "0.75", "0.77", "0.76", "0.09", "0.06", "0.07", "MirrorFair", "0.90", "0.73", "0.79", "0.75", "0.06", "0.04", "0.05", "0.90", "0.77", "0.78", "0.77", "0.09", "0.05", "0.06", "Mep-Race", "Default", "0.86", "0.67", "0.76", "0.70", "0.09", "0.07", "0.09", "0.85", "0.67", "0.74", "0.69", "0.11", "0.09", "0.13", "MirrorFair", "0.86", "0.68", "0.75", "0.71", "0.06", "0.02", "0.02", "0.86", "0.68", "0.75", "0.70", "0.08", "0.05", "0.06", "(+)", "(+)", "(+)", "(+)", "(-)", "(-)", "(-)", "(+)", "(+)", "(+)", "(+)", "(-)", "(-)", "(-)", "RF", "DNN", "Accuracy", "Recall", "Precision", "F1-Score", "SPD", "AOD", "EOD", "Accuracy", "Recall", "Precision", "F1-Score", "SPD", "AOD", "EOD", "Task", "Method", "Adult-Sex", "Default", "0.85", "0.76", "0.80", "0.78", "0.19", "0.10", "0.12", "0.85", "0.76", "0.81", "0.78", "0.18", "0.08", "0.09", "MirrorFair", "0.84", "0.74", "0.81", "0.76", "0.11", "0.04", "0.05", "0.84", "0.74", "0.81", "0.76", "0.11", "0.05", "0.07", "Adult-Race", "Default", "0.85", "0.76", "0.80", "0.78", "0.10", "0.06", "0.09", "0.85", "0.76", "0.81", "0.78", "0.10", "0.05", "0.07", "MirrorFair", "0.85", "0.76", "0.80", "0.78", "0.07", "0.02", "0.02", "0.85", "0.76", "0.81", "0.78", "0.07", "0.02", "0.02", "Compas-Sex", "Default", "0.67", "0.66", "0.67", "0.66", "0.28", "0.25", "0.20", "0.66", "0.66", "0.66", "0.66", "0.26", "0.24", "0.18", "MirrorFair", "0.67", "0.65", "0.67", "0.65", "0.12", "0.10", "0.06", "0.66", "0.65", "0.67", "0.64", "0.11", "0.08", "0.04", "Compas-Race", "Default", "0.67", "0.66", "0.67", "0.66", "0.18", "0.16", "0.11", "0.66", "0.66", "0.66", "0.66", "0.17", "0.15", "0.10", "MirrorFair", "0.66", "0.65", "0.67", "0.65", "0.06", "0.05", "0.02", "0.66", "0.64", "0.67", "0.64", "0.05", "0.04", "0.02", "German-Sex", "Default", "0.75", "0.67", "0.70", "0.68", "0.11", "0.10", "0.07", "0.75", "0.67", "0.70", "0.68", "0.11", "0.10", "0.07", "MirrorFair", "0.74", "0.65", "0.69", "0.66", "0.05", "0.08", "0.04", "0.74", "0.63", "0.70", "0.64", "0.05", "0.08", "0.04", "German-Age", "Default", "0.75", "0.67", "0.70", "0.68", "0.21", "0.17", "0.16", "0.75", "0.67", "0.70", "0.68", "0.20", "0.17", "0.16", "MirrorFair", "0.74", "0.67", "0.70", "0.68", "0.05", "0.07", "0.05", "0.75", "0.64", "0.71", "0.65", "0.05", "0.10", "0.05", "Bank-Age", "Default", "0.90", "0.68", "0.79", "0.72", "0.09", "0.08", "0.13", "0.90", "0.67", "0.79", "0.71", "0.07", "0.05", "0.08", "MirrorFair", "0.90", "0.69", "0.79", "0.73", "0.05", "0.03", "0.04", "0.90", "0.70", "0.79", "0.73", "0.05", "0.03", "0.04", "Mep-Race", "Default", "0.86", "0.68", "0.78", "0.71", "0.12", "0.11", "0.18", "0.86", "0.67", "0.78", "0.70", "0.10", "0.08", "0.12", "MirrorFair", "0.86", "0.67", "0.78", "0.71", "0.08", "0.05", "0.07", "0.86", "0.67", "0.78", "0.70", "0.07", "0.03", "0.05", "(+)", "(+)", "(+)", "(+)", "(-)", "(-)", "(-)", "(+)", "(+)", "(+)", "(+)", "(-)", "(-)", "(-)", "LR", "SVM", "Accuracy", "Recall", "Precision", "F1-Score", "SPD", "AOD", "EOD", "Accuracy", "Recall", "Precision", "F1-Score", "SPD", "AOD", "EOD", "Task", "Method"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 139.68,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Table3-1.png"
+}, {
+  "caption": "Fig. 3. RQ1: Trade-o E ectiveness distributions in mitigating single sensitive a ribute bias of di erent bias-mitigating methods. Overall, MirrorFair achieves the best trade-o , with 93% of the mitigation cases falling in the “good” or “win-win” trade-o regions.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1734313964844,
+    "y1": 598.3494873046875,
+    "y2": 624.669921875
+  },
+  "figType": "Figure",
+  "imageText": ["lose-lose", "inverted", "bad", "good", "win-win", "MFC", "Fair-SMOTE", "CEO", "AD", "OP", "Fairway", "ROC", "LFR", "PR", "DIR", "FairMask", "EOP", "RW", "MAAT", "MirrorFair", "100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "0%", "36%", "41%", "26%", "11%", "26%", "31%", "10%", "18%", "27%", "23%", "12%", "13%", "10%", "16%", "16%", "52%", "52%", "52%", "64%", "46%", "42%", "44%", "46%", "24%", "31%", "34%", "24%", "21%", "25%", "30%", "4%", "4%", "5%", "7%", "11%", "5%", "33%", "12%", "11%", "6%", "20%", "26%", "8%", "7%", "4%", "4%", "2%", "5%", "9%", "4%", "9%", "8%", "1%", "17%", "5%", "25%", "12%", "12%", "24%", "21%", "4%", "1%", "10%", "17%", "15%", "11%", "10%", "12%", "25%", "18%", "19%", "42%", "41%", "32%", "21%"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 437.28,
+    "y1": 442.56,
+    "y2": 589.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Figure3-1.png"
+}, {
+  "caption": "Fig. 5. RQ3: The e icacy level distribution in mitigating multiple a ribute biases.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 199.62640380859375,
+    "y1": 253.84951782226562,
+    "y2": 269.21099853515625
+  },
+  "figType": "Figure",
+  "imageText": ["lose-lose", "inverted", "bad", "good", "win-win", "Fair-SMOTE", "MAAT", "MirrorMulti-S1", "MirrorMulti-S2", "100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "0%", "27%", "27%", "31%", "6%", "61%", "60%", "63%", "44%", "4%", "4%", "3%", "13%", "4%", "3%", "3%", "5%", "5%", "3%", "2%", "32%"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 200.16,
+    "y1": 84.96,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. RQ4: The e icacy level distribution of di erent ensemble strategies of MirrorFair and the existing methods.",
+  "captionBoundary": {
+    "x1": 209.47799682617188,
+    "x2": 440.1734619140625,
+    "y1": 254.00350952148438,
+    "y2": 269.364990234375
+  },
+  "figType": "Figure",
+  "imageText": ["lose-lose", "inverted", "bad", "good", "win-win", "RW", "Mirror-Max", "MAAT", "Mirror-Mean", "Mirror-Adaptive", "100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "0%", "35%", "36%", "40%", "41%", "26%", "52%", "42%", "50%", "52%", "52%", "4%", "4%", "4%", "4%", "5%", "2%", "10%", "7%", "4%", "5%", "4%", "4%", "5%", "1%", "12%"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 208.79999999999998,
+    "x2": 440.15999999999997,
+    "y1": 84.96,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Figure6-1.png"
+}, {
+  "caption": "Fig. 1. Workflow of MirrorFair.",
+  "captionBoundary": {
+    "x1": 185.85699462890625,
+    "x2": 300.1425476074219,
+    "y1": 225.09548950195312,
+    "y2": 229.49798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["Taxonomy", "Irregular", "Regular", "Different", "but", "Similar", "Comparison", "Ensemble", "Prediction", "Adaptive", "Fairer", "Decision", "Counterfactual", "Predictions", "Default", "Predictions", "Mirror", "Model", "Default", "Model", "Predicting", "Predicting", "Training", "Mirror", "Dataset", "Original", "Dataset", "Training", "Mirroring", "Processing"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 84.96,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Figure1-1.png"
+}, {
+  "caption": "Table 6. (RQ2) Surpassing Fairea baseline proportion across di erent algorithms and tasks.",
+  "captionBoundary": {
+    "x1": 75.16290283203125,
+    "x2": 410.5961608886719,
+    "y1": 439.0827941894531,
+    "y2": 443.48529052734375
+  },
+  "figType": "Table",
+  "imageText": ["MirrorFair", "demonstrates", "higher", "e", "cacy", "and", "a", "narrower", "e", "cacy", "range", "compared", "to", "the", "state-of-the-art", "method,", "showcasing", "its", "superior", "applicability", "and", "versatility", "across", "di", "erent", "algorithms", "and", "tasks.", "Answer", "to", "RQ2:", "FairMask", "76.52%", "65.08%", "75.97%", "43.27%", "63.80%", "66.73%", "78.53%", "42.93%", "70.33%", "66.97%", "57.77%", "74.60%", "DIR", "77.02%", "70.10%", "72.58%", "69.70%", "54.23%", "89.10%", "100.00%", "97.20%", "64.87%", "76.23%", "7.43%", "89.73%", "RW", "89.52%", "65.80%", "83.22%", "75.95%", "51.40%", "73.17%", "96.20%", "90.37%", "72.30%", "77.27%", "78.17%", "90.10%", "EOP", "84.15%", "53.05%", "83.45%", "77.70%", "79.13%", "72.50%", "95.20%", "90.57%", "68.47%", "52.50%", "61.90%", "76.43%", "MAAT", "93.35%", "85.53%", "90.23%", "82.97%", "90.53%", "93.40%", "98.77%", "97.00%", "71.70%", "73.07%", "82.63%", "97.07%", "MirrorFair", "95.38%", "89.23%", "95.10%", "90.35%", "96.60%", "96.43%", "98.13%", "99.93%", "83.03%", "84.03%", "85.90%", "96.07%", "LR", "RF", "SVM", "DNN", "Adult-Sex", "Adult-Race", "Compas-Sex", "Compas-Race", "German-Sex", "German-Age", "Bank-Age", "Mep-Race", "Method", "Algoritm", "Task"],
+  "name": "6",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 457.91999999999996,
+    "y2": 607.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660801-Table6-1.png"
+}]

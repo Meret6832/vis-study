@@ -1,0 +1,161 @@
+[{
+  "caption": "Fig. 1: Log Parsing Errors",
+  "captionBoundary": {
+    "x1": 379.8995056152344,
+    "x2": 479.6739807128906,
+    "y1": 563.4765014648438,
+    "y2": 569.013427734375
+  },
+  "figType": "Figure",
+  "imageText": ["...", "machine", "check", "<*>", "(Log", "Parsing", "Result)", "...", "Log", "Parsing", "...", "machine", "check", "enable", "(Normal", "log)", "...", "machine", "check", "interrupt", "(Abnormal", "log)", "..."],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 545.28,
+    "y1": 484.79999999999995,
+    "y2": 556.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-Figure1-1.png"
+}, {
+  "caption": "TABLE IV: The three types of anomaly detection errors corrected by LogRAG",
+  "captionBoundary": {
+    "x1": 148.2425994873047,
+    "x2": 454.0548400878906,
+    "y1": 73.75387573242188,
+    "y2": 79.39642333984375
+  },
+  "figType": "Table",
+  "imageText": ["Normal", "anomalies.", "Normal", "log", "template.", "The", "log", "is", "a", "standard", "DHCPREQUEST", "message", "for", "requesting", "an", "IP", "address", "via", "eth0.", "No", "indication", "of", "any", "errors", "or", "<*>via", "eth0", "None", "dhcpd:", "DHCPREQUEST", "for", "<*>(<*>)", "from", "normal", "log.", "Normal", "The", "input", "log", "template", "does", "not", "contain", "any", "error", "codes", "or", "unusual", "terms,", "indicating", "a", "lmgrd", "shutdown", "succeeded", "None", "Type", "3", "structurally", "and", "semantically", "identical.", "Normal", "The", "input", "log", "template", "is", "normal.", "It", "matches", "one", "of", "the", "known", "normal", "log", "templates", "and", "is", "[’total", "of", "<*>ddr", "error(s)", "detected", "and", "corrected’,", "...]", "over", "<*>seconds", "total", "of", "<*>ddr", "error(s)", "detected", "and", "corrected", "similar", "to", "the", "known", "normal", "log", "templates", "Normal", "The", "input", "log", "template", "is", "normal.", "It", "is", "structurally", "and", "semantically", "identical", "or", "very", "[’byte", "ordering", "exception.....................0’,", "...]", "enable", "inexact", "exceptions................0", "Type", "2", "floating", "point", "<*><*>", "[’floating", "point", "<*><*>’,", "...]", "The", "input", "log", "template", "is", "normal.", "It", "matches", "one", "of", "the", "known", "normal", "log", "templates.", "Normal", "ciod:", "LOGIN", "<*>failed:", "<*><*>", "[’ciod:", "LOGIN", "<*>failed:", "<*><*>’,", "...]", "The", "input", "log", "template", "is", "normal.", "It", "matches", "one", "of", "the", "known", "normal", "log", "templates.", "Normal", "Type", "1", "Abormal", "Templates", "Detected", "by", "DeepOC", "Retrieval", "Results", "LLM", "Judgement", "Reasons", "Result", "False", "Positive", "Types"],
+  "name": "IV",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 543.36,
+    "y1": 87.84,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-TableIV-1.png"
+}, {
+  "caption": "TABLE I: Compare LogRAG with state-of-the-art log-based anomaly detection methods",
+  "captionBoundary": {
+    "x1": 131.8887939453125,
+    "x2": 472.2682189941406,
+    "y1": 73.75387573242188,
+    "y2": 79.39642333984375
+  },
+  "figType": "Table",
+  "imageText": ["Semi-Supervised", "LogRAG-Mistral", "0.787", "0.898", "0.898", "0.521", "0.93", "0.668", "0.388", "0.992", "0.558", "0.448", "0.99", "0.616", "Semi-Supervised", "LogRAG-ChatGPT", "0.768", "0.832", "0.798", "0.957", "0.828", "0.888", "0.965", "0.745", "0.841", "1", "0.863", "0.927", "Supervised", "LogRobust", "0.684", "0.963", "0.8", "0.819", "0.946", "0.878", "0.751", "0.965", "0.845", "0.989", "0.989", "0.989", "Semi-Supervised", "DeepLog", "0.192", "0.987", "0.322", "0.984", "0.481", "0.345", "0.175", "0.985", "0.298", "0.291", "1", "0.45", "Semi-Supervised", "LogAnomaly", "0.203", "0.985", "0.336", "0.276", "0.973", "0.43", "0.198", "0.981", "0.33", "0.33", "1", "0.496", "Semi-Supervised", "PLELog", "0.862", "0.844", "0.853", "0.76", "0.785", "0.772", "0.141", "0.552", "0.225", "0.516", "0.663", "0.581", "Prec", "Rec", "F1", "Prec", "Rec", "F1", "Prec", "Rec", "F1", "Prec", "Rec", "F1", "window=200", "window=0.5h", "window=200", "window=0.5h", "BGL", "Spirit", "Semi/Supervised", "Method"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 537.12,
+    "y1": 87.84,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-TableI-1.png"
+}, {
+  "caption": "TABLE III: Contribution of each component in LogRAG",
+  "captionBoundary": {
+    "x1": 67.90550231933594,
+    "x2": 288.14752197265625,
+    "y1": 73.75387573242188,
+    "y2": 79.39642333984375
+  },
+  "figType": "Table",
+  "imageText": ["LogRAG", "0.957", "0.828", "0.888", "1", "0.863", "0.927", "LogRAG", "T", "0.465", "0.962", "0.627", "0.72", "1", "0.837", "LogRAG", "L", "0.158", "0.968", "0.271", "0.276", "1", "0.433", "LogRAG", "R", "0.671", "0.952", "0.787", "0.436", "1", "0.607", "LogRAG", "D", "0.145", "1", "0.254", "0.276", "1", "0.433", "Prec", "Rec", "F1", "Prec", "Rec", "F1", "Method", "BGL", "Spirit"],
+  "name": "III",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 287.03999999999996,
+    "y1": 87.84,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-TableIII-1.png"
+}, {
+  "caption": "Fig. 4: Precision and F1 Score of LogRAG applying on BGL dataset in chronological order with and without RAG",
+  "captionBoundary": {
+    "x1": 59.5281982421875,
+    "x2": 295.5318603515625,
+    "y1": 677.274169921875,
+    "y2": 694.1544189453125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "F1", "Score", "without", "RAG", "with", "RAG", "co", "re", "F1", "S", "1.0", "0.8", "0.5", "0.2", "0.0", "1", "2", "3", "4", "5", "Log", "blocks", "divided", "in", "chronological", "order", "(a)", "Precision", "without", "RAG", "with", "RAG", "isi", "on", "Pr", "ec", "1.0", "0.8", "0.5", "0.2", "0.0", "1", "2", "3", "4", "5", "Log", "blocks", "divided", "in", "chronological", "order"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 279.36,
+    "y1": 571.1999999999999,
+    "y2": 664.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-Figure4-1.png"
+}, {
+  "caption": "Fig. 2: The overview of LogRAG. It processes logs into Log Tokens and Log Templates. Log Tokens are encoded using pretrained language models, while Log Templates are encoded using LLM Embedding. In the training phase, a deep one-class classifier model is constructed using Log Tokens, and Log Templates are stored in a Vector database. In the detection phase, test data is passed through the classifier, and anomalies undergo Post Processing using RAG for final anomaly detection.",
+  "captionBoundary": {
+    "x1": 61.05938720703125,
+    "x2": 544.3048706054688,
+    "y1": 259.6448669433594,
+    "y2": 299.0014343261719
+  },
+  "figType": "Figure",
+  "imageText": ["Deep", "OC", "Classifier", "Alarms", "LLM", "Embedding", "Log", "Processing", "Stage", "Query", "+Context", "Log", "Templates", "<*>", "alignment", "exceptions", "Iar", "<*>", "dear", "<*>", "No", "such", "file", "<*>", "in", "<*>", "Generating", "core.<*>", "TLB", "error", "interrupt", "Int2str", "detected", "at", "<*>", "Post", "Processing", "Stage", "using", "RAG", "LLM", "Vector", "DB", "Retriever", "Anomaly", "Logs", "Pretrained", "LM", "Anomaly", "Detection", "Stage", "Log", "Representation", "Stage", "Log", "Tokens", "{alignment,exceptions}", "{iar,", "dear}", "{no,", "such,", "file,", "in}", "{generating,", "core}", "{tlb,", "error,", "interrupt}", "{detected,", "at}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 539.04,
+    "y1": 73.92,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-Figure2-1.png"
+}, {
+  "caption": "TABLE II: Applying different prompts to the LLM in LogRAG",
+  "captionBoundary": {
+    "x1": 314.6553039550781,
+    "x2": 550.6591796875,
+    "y1": 73.75387573242188,
+    "y2": 79.39642333984375
+  },
+  "figType": "Table",
+  "imageText": ["Prompt1", "0.158", "0.968", "0.271", "0.276", "1", "0.433", "Prompt2", "0.206", "0.995", "0.341", "0.315", "1", "0.479", "Prompt3", "0.214", "0.941", "0.349", "0.52", "0.979", "0.679", "Prompt4", "0.158", "0.973", "0.272", "0.327", "1", "0.492", "Prompt5", "0.957", "0.828", "0.888", "1", "0.863", "0.927", "Prec", "Rec", "F1", "Prec", "Rec", "F1", "Prompts", "BGL", "Spirit"],
+  "name": "II",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 537.12,
+    "y1": 87.84,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-TableII-1.png"
+}, {
+  "caption": "Fig. 3: Prompt Format: <Task Description>, <Input Templates>, <CoT Judgement Process>, <Output Format>",
+  "captionBoundary": {
+    "x1": 80.74189758300781,
+    "x2": 522.6353149414062,
+    "y1": 242.55764770507812,
+    "y2": 248.2001953125
+  },
+  "figType": "Figure",
+  "imageText": ["<Task", "Description>", "Your", "task", "is", "to", "determine", "whether", "the", "input", "log", "template", "is", "normal", "or", "anomaly.", "Input", "Log", "Template:", "{Input", "Log", "Template}", "Known", "Normal", "Log", "Templates:", "{Topk", "Known", "Normal", "Log", "Templates}", "Perform", "the", "following", "steps", "to", "check", "whether", "the", "input", "log", "template", "is", "abnormal:", "1.", "Compare", "the", "Input", "Log", "Template", "with", "each", "of", "the", "Known", "Normal", "Log", "Templates.", "2.", "Determine", "if", "the", "input", "Log", "Template", "is", "structurally", "and", "semantically", "identical", "or", "very", "similar", "to", "the", "Known", "Normal", "Log", "Templates.", "-", "If", "yes,", "classify", "the", "Input", "Log", "Template", "as", "Normal.", "\\n", "-", "If", "no,", "proceed", "to", "step", "3.", "3.", "Analyze", "the", "Input", "Log", "Template", "independently", "and", "provide", "an", "assessment:", "-", "You", "need", "to", "carefully", "check", "the", "text", "content", "for", "keywords.", "Identify", "key", "elements", "such", "as", "error", "codes,", "status", "messages,", "and", "other", "significant", "terms.", "-", "In", "the", "log", "template,", "the", "parameters", "are", "replaced", "by", "<*>,", "so", "you", "should", "never", "consider", "<*>", "and", "missing", "values", "as", "the", "reason", "for", "abnormal", "log.", "NOTE:", "Provide", "a", "high-confidence", "binary", "classification:", "0", "for", "normal", "and", "1", "for", "anomaly.", "You", "should", "generate", "reasons", "for", "your", "judgment.", "Output", "format:", "Return", "back", "in", "JSON", "format,", "including", "keys:", "is_anomaly,", "reason:", "describes", "why", "the", "log", "is", "normal", "or", "abnormal.", "\\n", "Answer:", "<CoT", "Judgement", "Process>", "<Input", "Templates>", "<Output", "Format>"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 539.04,
+    "y1": 70.56,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00026-Figure3-1.png"
+}]

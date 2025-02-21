@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 4: Examples of reducible and irreducible CFG",
+  "captionBoundary": {
+    "x1": 68.14500427246094,
+    "x2": 279.6887512207031,
+    "y1": 236.36734008789062,
+    "y2": 241.99798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Reducible", "CFG", "(b)", "CFG", "with", "back", "edges", "removed", "(c)", "Irreducible", "CFG"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 81.11999999999999,
+    "x2": 265.44,
+    "y1": 92.64,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Figure4-1.png"
+}, {
+  "caption": "Figure 6: Results of vulnerability search.",
+  "captionBoundary": {
+    "x1": 91.98699951171875,
+    "x2": 255.8495635986328,
+    "y1": 500.4163513183594,
+    "y2": 506.0469970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 360.96,
+    "y2": 497.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Figure6-1.png"
+}, {
+  "caption": "Figure 1: CFG for int_err_del_item in OpenSSL library",
+  "captionBoundary": {
+    "x1": 328.75201416015625,
+    "x2": 547.396728515625,
+    "y1": 241.00936889648438,
+    "y2": 246.6400146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 377.76,
+    "x2": 499.2,
+    "y1": 82.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Figure1-1.png"
+}, {
+  "caption": "Table 2: Detailed Settings of Different Models",
+  "captionBoundary": {
+    "x1": 346.177978515625,
+    "x2": 529.676025390625,
+    "y1": 418.90533447265625,
+    "y2": 424.5359802246094
+  },
+  "figType": "Table",
+  "imageText": ["Asteria", "Prob", "Pair", "CE", "0.077", "0.003", "jTrans", "Cosine", "Triplet", "Triplet", "87.88", "2.23", "RCFG2Vec", "Cosine", "Pair", "InfoNCE", "0.995", "0.143", "SAFE", "Cosine", "Pair", "MSE", "61.2", "58.95", "GraphEmbed", "Cosine", "Pair", "MSE", "59.02", "58.95", "Gemini", "Cosine", "Pair", "MSE", "0.05", "-", "Name", "Distance", "Sample", "Loss", "#Params(M)", "#Token(M)", "𝛼-diff", "Euclid", "Triplet", "Triplet", "1.6", "-"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 548.16,
+    "y1": 429.59999999999997,
+    "y2": 511.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table2-1.png"
+}, {
+  "caption": "Figure 5: The impact of embedding dimensions on recall@1 metrics",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.425048828125,
+    "y1": 420.83135986328125,
+    "y2": 437.4209899902344
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Impact", "of", "graph", "embedding", "dimensions.", "(a)", "Impact", "of", "token", "embedding", "dimensions."],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 92.64,
+    "y2": 415.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Figure5-1.png"
+}, {
+  "caption": "Table 7: Results for Ablation Experiment",
+  "captionBoundary": {
+    "x1": 90.7449951171875,
+    "x2": 256.7952880859375,
+    "y1": 263.8493347167969,
+    "y2": 269.47998046875
+  },
+  "figType": "Table",
+  "imageText": ["RCFG2Vec", "0.7687", "0.8470", "0.8923", "0.9225", "ACFG+DAGGRU", "0.4606^", "0.6977^", "0.7954^", "0.7780^", "Gemini", "0.3100", "0.5723", "0.7330", "0.6179", "GraphEmbed", "0.3188", "0.6477", "0.8435", "0.5951", "i2v+DAGGRU", "0.4906^", "0.7051^", "0.8359", "0.7387^", "ST+Structure2Vec", "0.7279^", "0.8195^", "0.8593^", "0.9241^", "ST+GRU", "0.6752^", "0.8089^", "0.8715^", "0.9056^", "Cross", "optimization", "Cross", "arch", "Name", "O0,O3", "O1,O3", "O2,O3", "average", "SAFE", "0.3712", "0.7040", "0.8293", "0.4734"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 281.28,
+    "y1": 273.59999999999997,
+    "y2": 377.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table7-1.png"
+}, {
+  "caption": "Table 8: Comparison of runtime efficiency",
+  "captionBoundary": {
+    "x1": 352.4410095214844,
+    "x2": 523.41357421875,
+    "y1": 518.1522827148438,
+    "y2": 523.782958984375
+  },
+  "figType": "Table",
+  "imageText": ["Asteria[51]", "2.608", "1.583", "jTrans[46]", "-", "4.196", "RCFG2Vec", "0.989", "0.366", "SAFE[31]", "0.152", "0.014", "GraphEmbed[32]", "0.118", "0.029", "𝛼", "-", "diff[26]", "0.164", "0.068", "Gemini[49]", "0.064", "0.019", "Model", "Training(ms)", "Inference(ms)"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 349.91999999999996,
+    "x2": 524.16,
+    "y1": 528.96,
+    "y2": 610.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table8-1.png"
+}, {
+  "caption": "Table 3: Result for Cross-optimization BCSD on BinaryCorp Dataset(poolsize=10000)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1912231445312,
+    "y1": 87.71932983398438,
+    "y2": 104.30902099609375
+  },
+  "figType": "Table",
+  "imageText": ["Asteria", "0.3709", "0.6507", "0.7923", "0.5099", "0.6254", "0.6034", "0.5532", "jTrans", "0.6026", "0.7514", "0.8632", "0.6234", "0.7046", "0.7869", "0.7706", "RCFG2Vec", "0.7556", "0.8661", "0.9018", "0.8261", "0.8618", "0.8599", "0.8554", "SAFE", "0.3440", "0.5913", "0.7910", "0.4003", "0.5760", "0.5815", "0.5400", "GraphEmbed", "0.3153", "0.5374", "0.7653", "0.3723", "0.5301", "0.5450", "0.5048", "Gemini", "0.2182", "0.4784", "0.7133", "0.2922", "0.4258", "0.4248", "0.3735", "Name", "O0,O3", "O1,O3", "O2,O3", "O0,Os", "O1,Os", "O2,Os", "O3,Os", "𝛼-diff", "0.2035", "0.5394", "0.7781", "0.2134", "0.4774", "0.5134", "0.4540"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 108.96,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table3-1.png"
+}, {
+  "caption": "Table 1: Standard formats of different kinds of operands",
+  "captionBoundary": {
+    "x1": 324.0889892578125,
+    "x2": 551.7625732421875,
+    "y1": 87.71932983398438,
+    "y2": 93.3499755859375
+  },
+  "figType": "Table",
+  "imageText": ["ARM", "Memory", "[<base>,", "<index>,", "<shift>", "<value>,", "<offset>]", "MIPS", "Memory", "<offset>(<reg>)", "ARM", "Reg", "Shift", "<reg>,", "<shift_type>", "<value>", "ARM", "IMM", "Shift", "<imm>,", "<shift_type>,", "<value>", "x86/x64", "Memory", "[<base>+<index>*<scale>+<disp>]", "Immediate", "<imm>", "Register", "<reg>", "Operand", "Type", "Standard", "Form"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 563.04,
+    "y1": 97.92,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table1-1.png"
+}, {
+  "caption": "Table 4: Result for Cross-optimization BCSD on Trex Dataset(poolsize=1000)",
+  "captionBoundary": {
+    "x1": 151.4600067138672,
+    "x2": 460.2311096191406,
+    "y1": 87.71932983398438,
+    "y2": 93.3499755859375
+  },
+  "figType": "Table",
+  "imageText": ["Asteria[51]", "0.5930", "0.7303", "0.8203", "-", "-", "-", "0.5857", "0.6997", "0.8253", "0.5943", "0.7103", "0.8283", "jTrans[46]", "-", "-", "-", "-", "-", "-", "-", "-", "-", "0.7052", "0.8449", "0.9192", "RCFG2Vec", "0.7590", "0.8537", "0.8990", "0.7648", "0.8330", "0.8903", "0.7702", "0.8495", "0.8879", "0.7807", "0.8519", "0.8920", "SAFE[31]", "0.2749", "0.6770", "0.8312", "0.3098", "0.6688", "0.8231", "0.4517", "0.7434", "0.8237", "0.4485", "0.7270", "0.8394", "GraphEmbed[32]", "0.2956", "0.7004", "0.8584", "0.2275", "0.4722", "0.8108", "0.3819", "0.7237", "0.8506", "0.3703", "0.6945", "0.8541", "Name", "O0,O3", "O1,O3", "O2,O3", "O0,O3", "O1,O3", "O2,O3", "O0,O3", "O1,O3", "O2,O3", "O0,O3", "O1,O3", "O2,O3", "𝛼-diff[26]", "0.0938", "0.3006", "0.5642", "0.0934", "0.2657", "0.5811", "0.1122", "0.2672", "0.5248", "0.1492", "0.2607", "0.5373", "Gemini[49]", "0.2880", "0.5906", "0.7362", "0.2893", "0.5180", "0.7196", "0.3258", "0.5956", "0.7369", "0.3369", "0.5850", "0.7394", "ARM32", "MIPS32", "x86", "x64"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 97.92,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table4-1.png"
+}, {
+  "caption": "Table 5: Result for Cross-architecture BCSD on Trex Dataset(poolsize=1000)",
+  "captionBoundary": {
+    "x1": 153.01199340820312,
+    "x2": 458.68084716796875,
+    "y1": 214.84237670898438,
+    "y2": 220.4730224609375
+  },
+  "figType": "Table",
+  "imageText": ["Asteria[51]", "-", "-", "-", "-", "-", "-", "-", "-", "0.9273", "0.8863", "0.8613", "0.8440", "RCFG2Vec", "0.9382", "0.9186", "0.9077", "0.8741", "0.9424", "0.9234", "0.9072", "0.8726", "0.9560", "0.9453", "0.9383", "0.9313", "SAFE[31]", "0.5192", "0.4378", "0.3720", "0.3377", "0.5350", "0.4583", "0.3818", "0.3369", "0.7284", "0.6835", "0.6178", "0.6086", "GraphEmbed[32]", "0.6541", "0.5672", "0.4327", "0.3595", "0.6580", "0.5522", "0.4484", "0.3644", "0.7989", "0.7378", "0.7255", "0.7147", "𝛼-diff[26]", "0.0628", "0.0842", "0.0870", "0.0742", "0.1577", "0.1699", "0.1545", "0.1248", "0.1904", "0.2687", "0.2678", "0.2794", "Gemini[49]", "0.6882", "0.4947", "0.4551", "0.4651", "0.6969", "0.5062", "0.4806", "0.4799", "0.7862", "0.7929", "0.7511", "0.7541", "Name", "O0", "O1", "O2", "O3", "O0", "O1", "O2", "O3", "O0", "O1", "O2", "O3", "Asteria[51]", "-", "-", "-", "-", "0.9180", "0.8693", "0.8247", "0.8043", "0.8770", "0.8533", "0.8103", "0.7920", "RCFG2Vec", "0.9409", "0.9251", "0.9111", "0.8700", "0.9475", "0.9434", "0.9214", "0.9110", "0.9494", "0.9342", "0.9217", "0.9097", "MIPS32,", "x86", "MIPS32,x64", "x86,", "x64", "SAFE[31]", "0.5230", "0.4367", "0.3650", "0.3367", "0.5183", "0.4744", "0.4164", "0.4040", "0.5188", "0.5021", "0.4294", "0.4191", "GraphEmbed[32]", "0.7267", "0.5837", "0.4556", "0.3830", "0.7602", "0.6292", "0.5815", "0.5763", "0.7410", "0.6127", "0.6122", "0.6053", "𝛼-diff[26]", "0.1149", "0.1852", "0.1494", "0.1282", "0.1360", "0.2298", "0.2091", "0.2267", "0.3124", "0.3829", "0.3522", "0.3661", "Gemini[49]", "0.7021", "0.4642", "0.4725", "0.4779", "0.7520", "0.6171", "0.5843", "0.6041", "0.8641", "0.6535", "0.6418", "0.6434", "Name", "O0", "O1", "O2", "O3", "O0", "O1", "O2", "O3", "O0", "O1", "O2", "O3", "ARM32,", "MIPS32", "ARM32,x86", "ARM32,x64"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 224.64,
+    "y2": 406.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table5-1.png"
+}, {
+  "caption": "Table 6: Token Statistics of Different Approaches",
+  "captionBoundary": {
+    "x1": 74.75399780273438,
+    "x2": 272.78594970703125,
+    "y1": 457.6353759765625,
+    "y2": 463.2660217285156
+  },
+  "figType": "Table",
+  "imageText": ["SAFE", "589k", "82.2k", "3.50%", "1.15M", "0.712M", "0.979%", "RCFG2Vec", "958", "72", "0.019%", "1010", "64", "0.0008%", "jTrans(x64)", "2898", "28", "0.107%", "2898", "845", "0.0306%", "#Tokens", "#OOV", "Rate", "#Tokens", "#OOV", "Rate", "Trex", "BinaryCorp", "Model"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 278.4,
+    "y1": 468.0,
+    "y2": 521.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Table6-1.png"
+}, {
+  "caption": "Figure 2: Overview of RCFG2Vec",
+  "captionBoundary": {
+    "x1": 240.1199951171875,
+    "x2": 371.8753356933594,
+    "y1": 272.0993347167969,
+    "y2": 277.72998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 496.32,
+    "y1": 82.56,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The Syntax Tree of mov rax, [rbp-0x10]",
+  "captionBoundary": {
+    "x1": 75.7490005493164,
+    "x2": 271.4092712402344,
+    "y1": 357.47735595703125,
+    "y2": 363.1080017089844
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 258.24,
+    "y1": 296.64,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695070-Figure3-1.png"
+}]

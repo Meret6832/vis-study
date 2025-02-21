@@ -1,0 +1,301 @@
+[{
+  "caption": "Table 2. Unflattened/flattened field indexes and byte offsets in the layered object model.",
+  "captionBoundary": {
+    "x1": 79.843994140625,
+    "x2": 405.9161682128906,
+    "y1": 511.39715576171875,
+    "y2": 513.4459838867188
+  },
+  "figType": "Table",
+  "imageText": ["dd", "2", "5", "32", "cc[1]", "1", "4", "28", "0", "3", "24", "cc[0]", "1", "0", "2", "16", "1", "vtable", "CC", "bb", "1", "1", "8", "BB", "vtable", "0", "0", "0", "0", "DD", "Flattened", "Field", "Index", "in", "DD", "Byte", "Offset", "in", "DDDD", "BB", "CC", "Array", "Object/Sub-Object", "Field", "Unflattened", "Field", "Index", "in", "an", "Object"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 411.35999999999996,
+    "y1": 519.84,
+    "y2": 615.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Table2-1.png"
+}, {
+  "caption": "Fig. 1. A motivating example comparing targets reported by the state-of-the-art pointer analysis tool, SVF, and our tool, Tips, for the virtual call dptr->hh() and the member function call (dptr->*mfptr)().",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 441.1560363769531,
+    "y1": 205.69915771484375,
+    "y2": 218.70700073242188
+  },
+  "figType": "Figure",
+  "imageText": ["Target", "Functions", "Reported", "Sound", "Y", "Y", "N", "Y", "Precise", "Y", "Y", "N", "Y", "DD::ff()", "✓", "DD::gg()", "✓", "✓", "DD::hh()", "✓", "✓", "✓", "DD::kk()", "✓", "SVF", "TIPS", "SVF", "TIPS", "Function", "dptr->hh()", "(dptr->*mfptr)()", "//", "&dobj,", "{(ptrtoint)", "(&DD::kk),", "0}", "20", "test2(&dobj,", "&DD::kk);//non-virtual", "21", "return", "0;", "22", "}", "//", "&dobj,", "{VtableIndex,", "0}", "19", "test2(&dobj,", "&DD::gg);//virtual", "//", "mfptr", "is", "a", "fat", "pointer:", "//", "{i64", "pointer,", "i64", "adjustment}", "13", "void", "test2(DD", "*dptr,", "MptrTy", "mfptr){", "14", "(dptr->*mfptr)();", "15", "}", "16", "int", "main(){", "17", "DD", "dobj;", "18", "test1(&dobj);", "10", "void", "test1(DD", "*dptr){", "11", "dptr->hh();", "12", "}", "09", "typedef", "void", "(DD::*MptrTy)();", "01", "class", "DD{", "02", "public:", "03", "long", "dd;", "04", "virtual", "void", "ff(){", "}", "05", "virtual", "void", "gg(){", "}", "06", "virtual", "void", "hh(){", "}", "07", "void", "kk()", "{", "}", "08", "};"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 49.44,
+    "x2": 436.32,
+    "y1": 85.92,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure1-1.png"
+}, {
+  "caption": "Fig. 3. Target functions resolved more precisely by Tips than SVF in multiple inheritance.",
+  "captionBoundary": {
+    "x1": 79.2249984741211,
+    "x2": 406.775634765625,
+    "y1": 488.9211730957031,
+    "y2": 490.9700012207031
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "modeled", "semantics", "in", "SVF", "BB(", ")", "CC(", ")", "Constructor", "DD(", ")", "dd", "vtable", "cc[0]", "cc[1]", "CC", "bb", "BB", "vtable", "BB's", "CC's", "DD's", "for", "BB", "DD's", "for", "CC", "DD", "Object", "Field", "t1", "t2", "t3", "t4", "(a)", "The", "original", "semantics", "BB(", ")", "CC(", ")", "Constructor", "DD(", ")", "dd", "vtable", "CC's", "DD's", "for", "CC", "cc[0]", "cc[1]", "CC", "bb", "BB", "vtable", "BB's", "DD's", "for", "BB", "DD", "Object", "Field", "t1", "t2", "t3", "t4", "(c)", "Target", "functions", "resolved", "by", "SVF", "and", "TIPS", "Precise", "N", "Y", "Y", "Y", "N", "Y", "N", "Y", "Sound", "N", "Y", "Y", "Y", "N", "Y", "Y", "Y", "BB::gg()", "✓", "✓", "CC::hh()", "✓", "✓", "✓", "✓", "✓", "DD::ff()", "✓", "✓", "✓", "SVF", "TIPS", "SVF", "TIPS", "SVF", "TIPS", "SVF", "TIPS", "Function", "bptr->gg()", "cptr->hh()", "dptr->ff()", "(dptr->*mfptr)()", "//", "BB’s", "vtable", "50", "@_ZTV2BB", "=", "{", "[3", "x", "i8*]", "}", "{", "51", "[null,", "//", "top_offset", "52", "@_ZTI2BB,", "//", "Type", "Info", "of", "BB", "53", "@_ZN2BB2ggEv", "//", "vtable[0]", "for", "BB::gg()", "54", "]", "55", "}", "//", "CC’s", "vtable", "56", "@_ZTV2CC", "=", "{", "[3", "x", "i8*]", "}", "{", "57", "[null,", "//", "top_offset", "58", "@_ZTI2CC,", "//", "Type", "Info", "of", "CC", "59", "@_ZN2CC2hhEv", "//", "vtable[0]", "for", "CC::hh()", "60", "]", "61", "}", "//", "DD’s", "vtable", "39", "@_ZTV2DD", "=", "{", "[4", "x", "i8*],", "[3", "x", "i8*]", "}", "{", "//", "DD’s", "vtable", "for", "BB", "40", "[null,", "//", "top_offset", "41", "@_ZTI2DD,", "//", "Type", "Info", "of", "DD", "42", "@_ZN2BB2ggEv,", "//", "vtable[0]", "for", "BB::gg()", "43", "@_ZN2DD2ffEv", "//", "vtable[1]", "for", "DD::ff()", "44", "],", "//", "DD’s", "vtable", "for", "CC", "45", "[inttoptr", "(-16),", "//", "top_offset", "46", "@_ZTI2DD,", "//", "Type", "Info", "of", "DD", "47", "@_ZN2CC2hhEv", "//", "vtable[0]", "for", "CC::hh()", "48", "]", "49", "}", "38", "%DD", "=", "type", "{", "%BB,", "%CC,", "i64", "}", "37", "%CC", "=", "type", "{", "i32", "(...)**,", "[2", "x", "i32]", "}", "36", "%BB", "=", "type", "{", "i32", "(...)**,", "i64*", "}", "01", "struct", "BB", "{", "02", "long", "*bb;", "03", "virtual", "void", "gg()", "{", "}", "04", "};", "05", "struct", "CC", "{", "06", "int", "cc[2];", "07", "virtual", "void", "hh()", "{", "}", "08", "};", "09", "struct", "DD:", "public", "BB,", "public", "CC", "{", "10", "long", "dd;", "11", "virtual", "void", "ff()", "{", "}", "12", "};", "13", "void", "test1(BB", "*bptr)", "{", "14", "bptr->gg();", "//(bptr->vtable)[0]", "15", "}", "16", "void", "test2(CC", "*cptr)", "{", "17", "cptr->hh();", "//(cptr->vtable)[0]", "18", "}", "19", "void", "test3(DD", "*dptr)", "{", "20", "dptr->ff();", "//(dptr->vtable)[1]", "21", "}", "22", "typedef", "void", "(DD::*MptrTy)();", "23", "void", "test4(DD", "*dptr,", "MptrTy", "mfptr)", "{", "24", "(dptr->*mfptr)();", "25", "}", "26", "int", "main()", "{", "27", "DD", "dobj;", "28", "BB", "*bptr", "=", "static_cast<BB*>(&dobj);", "29", "test1(bptr);", "30", "CC", "*cptr", "=", "static_cast<CC*>(&dobj);", "31", "test2(cptr);", "32", "test3(&dobj);", "33", "test4(&dobj,", "&DD::ff);", "34", "return", "0;", "35", "}"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 393.12,
+    "y1": 84.96,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure3-1.png"
+}, {
+  "caption": "Fig. 5. Applying Tips to analyze the member function pointers at the LLVM-IR level in our example (Figure 1).",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1720275878906,
+    "y1": 393.27716064453125,
+    "y2": 395.32598876953125
+  },
+  "figType": "Figure",
+  "imageText": ["%p9", "(obj40,", "0,", "0)", "COPY", "28", "%p10", "(obj40,", "0,", "0)", "GEPk", "29", "%p5", "(obj42,", "0,", "0)", "GEPidx", "52", "%p6", "DD::kk()", "LOAD", "53", "%p7", "(obj42,", "8,", "1)", "GEPidx", "54", "%p8", "0", "LOAD", "55", "dptr", "(obj40,", "0,", "0)", "COPY", "25", "mfptr_ptr", "9,", "DD::kk()", "COPY", "25", "mfptr_adjust", "0", "COPY", "25", "%p0", "(obj41,", "0,", "0)", "GEPidx", "46", "%p1", "9", "LOAD", "47", "%p2", "(obj41,", "8,", "1)", "GEPidx", "48", "%p3", "0", "LOAD", "49", "(obj42,", "0,", "0)", "DD::kk()", "STORE", "51", "(obj42,", "8,", "1)", "0", "STORE", "51", "(obj41,", "0,", "0)", "9", "STORE", "45", "(obj41,", "8,", "1)", "0", "STORE", "45", "Pointer", "PointsTo", "Rule", "Line", "%dobj", "(obj40,", "0,", "0)", "ADDROF", "40", "%coerce", "(obj41,", "0,", "0)", "ADDROF", "41", "%coerce1", "(obj42,", "0,", "0)", "ADDROF", "42", "51", "store", "{ptrtoint", "(@_ZN2DD2kkEv),", "i64", "0},", "{", "i64,", "i64", "}*", "%coerce1", "52", "%p5", "=", "getelementptr", "{", "i64,", "i64", "}*", "%coerce1,", "i32", "0,", "i32", "0", "53", "%p6", "=", "load", "i64,", "i64*", "%p5", "54", "%p7", "=", "getelementptr", "{", "i64,", "i64", "}*", "%coerce1,", "i32", "0,", "i32", "1", "55", "%p8", "=", "load", "i64,", "i64*", "%p7", "56", "call", "void", "@_Z5test2P2DDMS_FvvE(%DD*", "%dobj,", "i64", "%p6,", "i64", "%p8)", "57", "ret", "i32", "0", "58", "}", "45", "store", "{", "i64", "9,", "i64", "0", "},", "{", "i64,", "i64", "}*", "%coerce", "46", "%p0", "=", "getelementptr", "{", "i64,", "i64", "}*", "%coerce,", "i32", "0,", "i32", "0", "47", "%p1", "=", "load", "i64,", "i64*", "%p0", "48", "%p2", "=", "getelementptr", "{", "i64,", "i64", "}*", "%coerce,", "i32", "0,", "i32", "1", "49", "%p3", "=", "load", "i64,", "i64*", "%p2", "50", "call", "void", "@_Z5test2P2DDMS_FvvE(%DD*", "%dobj,", "i64", "%p1,", "i64", "%p3)", "39", "define", "i32", "@main()", "{", "40", "%dobj", "=", "alloca", "%DD", "//", "obj40", "41", "%coerce", "=", "alloca", "{", "i64,", "i64", "}", "//", "obj41", "42", "%coerce1", "=", "alloca", "{", "i64,", "i64", "}", "//", "obj42", "43", "call", "void", "@_ZN2DDC2Ev(%DD*", "%dobj)", "44", "call", "void", "@_Z5test1P2DD(%DD*", "%dobj)", "01", "class", "DD{", "...", "04", "virtual", "void", "ff(){", "}", "//vtable[0]", "05", "virtual", "void", "gg(){", "}", "//vtable[1]", "06", "virtual", "void", "hh(){", "}", "//vtable[2]", "07", "void", "kk()", "{", "}", "...}", "13", "void", "test2(DD", "*dptr,", "MptrTy", "mfptr){", "14", "(dptr->*mfptr)();", "15", "}", "16", "int", "main(){", "17", "DD", "dobj;", "18", "test1(&dobj);", "19", "test2(&dobj,", "&DD::gg);", "//", "9", "==", "1", "*", "8", "+", "1", "20", "test2(&dobj,", "&DD::kk);", "//", "ptrtoint", "21", "return", "0;", "22", "}", "23", "%DD", "=", "type", "{", "i32", "(...)**vtable,", "i64", "dd}", "24", "define", "void", "@_Z5test2P2DDMS_FvvE(", "//", "test2()", "25", "DD", "*dptr,", "i64", "mfptr_ptr,", "i64", "mfptr_adjust){", "26", "//", "%mfptr", "=", "alloca", "{", "i64,", "i64", "}", "27", "//", "...", "28", "//", "%p9", "=", "bitcast", "%DD*", "dptr", "to", "i8*", "29", "//", "%p10", "=", "getelementptr", "i8*", "%p9,", "i64", "mfptr_adjust", "30", "//", "thisAdjusted", "=", "bitcast", "i8*", "%p10", "to", "%DD*", "31", "DD", "*", "thisAdjusted", "=", "(DD", "*)(((char", "*)", "dptr)", "+", "mfptr_adjust);", "32", "if((mfptr_ptr", "&", "1)", "==", "1)", "{", "//", "virtual", "function", "33", "fptr", "=", "thisAdjusted->vtable[(mfptr_ptr", "-", "1)", "/", "8]", "34", "}", "else", "{", "//", "non-virtual", "function", "35", "fptr", "=", "(inttoptr)", "mfptr_ptr;", "36", "}", "37", "fptr(thisAdjusted);", "38", "}"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 432.47999999999996,
+    "y1": 84.96,
+    "y2": 382.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure5-1.png"
+}, {
+  "caption": "Table 4. Object pointer adjustments in the initialization of a DD object, named dobj, in Figure 6.",
+  "captionBoundary": {
+    "x1": 66.24200439453125,
+    "x2": 419.5162353515625,
+    "y1": 90.30512237548828,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["DD", "∗dptr", "Casting", "but", "No", "Pointer", "Adjustment", "Gep𝑐", "Gep𝑐", "DD(DD", "∗dptr)", "BB", "∗bptr", "Gep𝑘", "BB(BB", "∗bptr,", "char", "∗∗vtt)", "CC", "∗cptr", "Gep𝑘", "CC(CC", "∗cptr,", "char", "∗∗vtt)", "AA", "∗aptr", "AA(AA", "∗aptr)", "==>", "BB", "∗bptr", "CC", "∗cptr", "AA", "∗aptr", "Inside", "Constructor"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 385.44,
+    "y1": 98.39999999999999,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Table4-1.png"
+}, {
+  "caption": "Fig. 8. The workflow of Tips.",
+  "captionBoundary": {
+    "x1": 190.093994140625,
+    "x2": 295.90557861328125,
+    "y1": 369.87518310546875,
+    "y2": 371.92401123046875
+  },
+  "figType": "Figure",
+  "imageText": ["Points-to", "Constraint", "Graph", "Refined", "Points-to", "Pointer", "Analysis", "Flow-", "and", "Context-", "Sensitive", "Integer-Included", "Demand-Driven", "Andersen", "Pointer", "Analysis", "Integer-Included", "CG", "Builder", "C++", "Code", "LLVM", "IR", "Integer-Included", "Normalization", "WLLVM", "&"],
+  "name": "8",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 416.15999999999997,
+    "y1": 307.68,
+    "y2": 360.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. Manual tracking of Tips’s analysis on one member function call in ninja_test.",
+  "captionBoundary": {
+    "x1": 83.78399658203125,
+    "x2": 402.2156066894531,
+    "y1": 269.7551574707031,
+    "y2": 271.8039855957031
+  },
+  "figType": "Figure",
+  "imageText": ["46", "//", "\"/usr/include/c++/11/bits/stl_function.h\"", "47", "template<typename", "_Ret,", "typename", "_Tp>", "48", "class", "const_mem_fun_t", ":", "public", "unary_function<const", "_Tp*,", "_Ret>", "49", "{", "50", "public:", "51", "_Ret", "operator()(const", "_Tp*", "__p)", "const", "52", "{", "return", "(__p->*_M_f)();", "}", "//", "1250,\"stl_function.h\"", "53", "private:", "54", "_Ret", "(_Tp::*_M_f)();", "55", "};", "23", "//", "\"/usr/include/c++/11/bits/stl_algo.h\"", "24", "find_if(_InputIterator", "__first,", "_InputIterator", "__last,", "25", "_Predicate", "__pred)", "{", "26", "return", "std::__find_if(__first,", "__last,", "//", "Line:", "3910", "27", "__gnu_cxx::__ops::__pred_iter(__pred));", "28", "}", "29", "//", "\"/usr/include/c++/11/bits/stl_algobase.h\"", "30", "__find_if(_Iterator", "__first,", "_Iterator", "__last,", "_Predicate", "__pred)", "{", "31", "return", "__find_if(__first,", "__last,", "__pred,", "//", "Line:", "2112", "32", "std::__iterator_category(__first));", "33", "}", "34", "//", "\"/usr/include/c++/11/bits/stl_algobase.h\"", "35", "__find_if(_RandomAccessIterator", "__first,", "_RandomAccessIterator", "__last,", "36", "_Predicate", "__pred,", "random_access_iterator_tag)", "{", "37", "if", "(__pred(__first))", "//", "Line:", "2069", "38", "return", "__first;", "39", "}", "40", "//", "\"/usr/include/c++/11/bits/stl_algobase.h\"", "41", "template<typename", "_Predicate>", "struct", "_Iter_pred", "{", "42", "_Predicate", "_M_pred;", "43", "bool", "operator()(_Iterator", "__it)", "44", "{", "return", "bool(_M_pred(*__it));", "}", "//", "Line:", "318", "45", "};", "19", "//", "\"/usr/include/c++/11/bits/stl_function.h\"", "20", "inline", "const_mem_fun_t<_Ret,", "_Tp>", "21", "mem_fun(_Ret", "(_Tp::*__f)()", "const)", "22", "{", "return", "const_mem_fun_t<_Ret,", "_Tp>(__f);", "}", "//", "Line:", "1367", "13", "//", "\"src/build.cc\"", "14", "#define", "MEM_FN", "mem_fun", "15", "bool", "Plan::CleanNode(DependencyScan*", "scan,", "Node*", "node,", "string*", "err)", "{", "16", "if", "(find_if(begin,", "end,", "MEM_FN(&Node::dirty))", "==", "end)", "{", "//", "277,", "\"src/build.cc\"", "...", "17", "}", "18", "}", "11", "//", "\"src/graph.h\",", "_ZNK4Node5dirtyEv", "12", "bool", "dirty()", "const", "{", "return", "dirty_;", "}", "//", "Line:", "97", "//", "Virtual", "member", "function", "pointers", "05", "$", "grep", "-nE", "\"{", "i64", "[[:digit:]]{1,},", "i64", "[[:digit:]]{1,}\"", "ninja_test.pre.com.ll", "06", "...", "07", "store", "{", "i64,", "i64", "}", "{", "i64", "17,", "i64", "0", "},", "%coerce;", "2503,\"gtest.cc\",", "VtableIndex", "=", "(17", "–", "1)", "/", "8", "//", "Non-virtual", "member", "function", "pointers", "08", "$", "grep", "-n", "\"ptrtoint\"", "ninja_test.pre.com.ll", "|", "grep", "\"{", "i64,", "i64", "}\"", "|", "grep", "\"@_Z\"", "09", "...", "10", "store", "{", "i64,", "i64", "}", "{i64", "ptrtoint", "(@_ZNK4Node5dirtyEv),", "i64", "0},", "%ptr;", "277,", "\"src/build.cc\"", "//", "C++", "member", "function", "indirect", "call", "sites", "02", "$", "grep", "-n", "\"%memptr.virtualfn\"", "ninja_test.pre.com.ll", "|", "grep", "\"phi\"", "03", "...", "04", "%8", "=", "phi", "[", "%memptr.virtualfn,", "...],", "[%memptr.nonvirtualfn,", "...];", "1250,\"stl_function.h“", "01", "#", "TIPS", "reports:", "The", "indirect", "member", "function", "call", "at", "(1250,", "\"stl_function.h\")", "calls", "#", "_ZNK4Node5dirtyEv", "(i.e.,", "Node::dirty()", "at", "(97,", "\"src/graph.h\"))", "in", "ninja_test."],
+  "name": "9",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 428.15999999999997,
+    "y1": 84.96,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure9-1.png"
+}, {
+  "caption": "Fig. 7. Initialization sequence for the three virtual table pointers in a DD Object in Figure 6.",
+  "captionBoundary": {
+    "x1": 75.8270034790039,
+    "x2": 410.17340087890625,
+    "y1": 438.1941833496094,
+    "y2": 440.2430114746094
+  },
+  "figType": "Figure",
+  "imageText": ["AA(AA*", "aptr)", "BB(BB*", "bptr,", "char", "**vtt)", "CC(CC*", "cptr,", "char", "**vtt)", "Constructor", "DD(DD", "*dptr)", "aa", "48", "for", "AA", "for", "AA", "for", "AA", "BB-in-DD's", "CC-in-DD's", "DD's", "AA", "vtable", "40", "AA's", "dd", "32", "cc[0]", "20", "cc[1]", "24", "for", "CC", "for", "CC", "vtable", "16", "CC-in-DD's", "DD's", "CC.base", "bb", "8", "for", "BB", "for", "BB", "BB-in-DD's", "DD's", "BB.base", "vtable", "0", "DD", "Object", "Field", "Byte", "Offset", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "//", "DD’s", "vtable", "for", "AA", "53", "[inttoptr(-40),", "//", "vbase_offset", "54", "inttoptr(-40),", "//", "top_offset", "55", "@_ZTI2DD,", "//", "Type", "info", "of", "DD", "56", "@_ZTv0_n24_N2DD2ffEv", "//", "vtable[0]", "for", "//", "virtual", "thunk", "to", "DD::ff()", "57", "]", "58", "}", "//", "DD’s", "vtable", "for", "CC", "48", "[inttoptr(24),", "//", "vbase_offset", "49", "inttoptr(-16),", "//", "top_offset", "50", "@_ZTI2DD,", "//", "Type", "info", "of", "DD", "51", "@_ZThn16_N2DD2hhEv", "//", "vtable[0]", "for", "non-virtual", "//", "thunk", "to", "DD::hh()", "52", "],", "//", "DD’s", "vtable", "for", "BB", "41", "[inttoptr(40),", "//", "vbase_offset", "42", "null,", "//", "top_offset", "43", "@_ZTI2DD,", "//", "Type", "info", "of", "DD", "44", "@_ZN2BB2ggEv,", "//", "vtable[0]", "for", "BB::gg()", "45", "@_ZN2DD2hhEv,", "//", "vtable[1]", "for", "DD::hh()", "46", "@_ZN2DD2ffEv", "//", "vtable[2]", "for", "DD::ff()", "47", "],", "//", "vtable", "for", "DD", "40", "@_ZTV2DD", "=", "{", "[6", "x", "i8*],", "[4", "x", "i8*],", "[4", "x", "i8*]", "}", "{", "//", "VTT", "(Virtual", "Table", "Table)", "for", "DD", "31", "@_ZTT2DD", "=", "[7", "x", "i8*]", "[", "32", "getelementptr", "@_ZTV2DD,", "i32", "0,", "i32", "0,", "i32", "3,", "33", "getelementptr", "@_ZTC2DD0_2BB,", "i32", "0,", "i32", "0,", "i32", "3,", "34", "getelementptr", "@_ZTC2DD0_2BB,", "i32", "0,", "i32", "1,", "i32", "3,", "35", "getelementptr", "@_ZTC2DD16_2CC,", "i32", "0,", "i32", "0,", "i32", "3,", "36", "getelementptr", "@_ZTC2DD16_2CC,", "i32", "0,", "i32", "1,", "i32", "3,", "37", "getelementptr", "@_ZTV2DD,", "i32", "0,", "i32", "2,", "i32", "3,", "38", "getelementptr", "@_ZTV2DD,", "i32", "0,", "i32", "1,", "i32", "3", "39", "]", "//", "AA’", "vtable", "25", "@_ZTV2AA", "=", "{", "[3", "x", "i8*]", "}", "{", "26", "[i8*", "null,", "//", "top_offset", "27", "@_ZTI2AA,", "//", "Type", "info", "of", "AA", "28", "@_ZN2AA2ffEv", "//", "vtable[0]", "for", "AA::ff()", "29", "]", "30", "}", "//", "construction", "vtable", "for", "BB-in-DD", "13", "@_ZTC2DD0_2BB", "=", "{", "[4", "x", "i8*],", "[4", "x", "i8*]", "}", "{", "//", "BB-in-DD’s", "vtable", "for", "BB", "14", "[inttoptr(40),", "//", "vbase_offset", "15", "null,", "//", "top_offset", "16", "@_ZTI2BB,", "//", "Type", "info", "of", "BB", "17", "@_ZN2BB2ggEv", "//", "vtable[0]", "for", "BB::gg()", "18", "],", "//", "BB-in-DD’s", "vtable", "for", "AA", "19", "[null,", "//", "vbase_offset", "20", "inttoptr(-40),", "//", "top_offset", "21", "@_ZTI2BB,", "//", "Type", "info", "of", "BB", "22", "@_ZN2AA2ffEv", "//", "vtable[0]", "for", "AA::ff()", "23", "]", "24", "}", "//", "construction", "vtable", "for", "CC-in-DD", "01", "@_ZTC2DD16_2CC", "=", "{", "[4", "x", "i8*],", "[4", "x", "i8*]", "}", "{", "//", "CC-in-DD’s", "vtable", "for", "CC", "02", "[inttoptr(24),", "//", "vbase_offset", "03", "null,", "//", "top_offset", "04", "@_ZTI2CC,", "//", "Type", "info", "of", "CC", "05", "@_ZN2CC2hhEv", "//", "vtable[0]", "for", "CC::hh()", "06", "],", "//", "CC-in-DD’s", "vtable", "for", "AA", "07", "[null,", "//", "vbase_offset", "08", "inttoptr(-24),", "//", "top_offset", "09", "@_ZTI2CC,", "//", "Type", "info", "of", "CC", "10", "@_ZN2AA2ffEv", "//", "vtable[0]", "for", "AA::ff()", "11", "]", "12", "}"],
+  "name": "7",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 412.32,
+    "y1": 82.56,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure7-1.png"
+}, {
+  "caption": "Table 3. Tips’s key rules for tracking integer-pointer value flows.",
+  "captionBoundary": {
+    "x1": 124.08399963378906,
+    "x2": 361.6754150390625,
+    "y1": 175.83221435546875,
+    "y2": 177.88104248046875
+  },
+  "figType": "Table",
+  "imageText": ["c", "∈", "PointsTo(i)", "p", "=", "gep", "vtable,", "c", "[ConstToInt]", "[Gep𝑘", "]", "p", "=", "gep", "vtable,", "k", "i", "=", "c,", "i", "∈", "Integer,", "c", "∈", "ConstInt", "p", "∈", "Pointer,", "vtable", "∈", "Pointer,", "k", "∈", "Integer,", "c", "∈", "PointsTo(k),", "c", "∈", "ConstInt", "PointsTo(i)", "⊆", "PointsTo(p)", "PointsTo(p)", "⊆", "PointsTo(i)", "PointsTo(j)", "⊆", "PointsTo(i)", "[IntToPtr]", "p", "=", "i,", "i", "∈", "Integer,", "p", "∈", "Pointer", "[PtrToInt]", "i", "=", "p,", "i", "∈", "Integer,", "p", "∈", "Pointer", "[IntToInt]", "i", "=", "j,", "i", "∈", "Integer,", "j", "∈", "Integer"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 440.15999999999997,
+    "y1": 187.2,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Table3-1.png"
+}, {
+  "caption": "Fig. 2. Understanding the intricacies of statically analyzing C++ member function pointers in the one-class",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1702880859375,
+    "y1": 403.93817138671875,
+    "y2": 405.98699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Integer-Pointer", "Value", "Flows", "fp", "=", "vtable[k]", "…", "fp", "=", "(inttoptr)", "n", "…", "…", "k", "=", "(n", "-1)", "/", "8", "1", "is", "a", "vtable", "index", "The", "Propagation", "of", "C++", "Virtual/Non-Virtual", "Member", "Function", "Pointers", "on", "a", "64-bit", "System", "N", "Y", "Non-Virtual", "Function", "&DD::gg", "Virtual", "Function", "Virtual", "Function", "Non-Virtual", "Function", "(ptrtoint)", "&DD::kk", "call", "Indirect", "9", "==", "1", "*", "8", "+", "1", "(n", "&", "1)", "==", "1", "?", "copy/load/store/gep", "n", "9", "ConstInt", "01", "class", "DD{", "02", "public:", "03", "long", "dd;", "04", "virtual", "void", "ff(){", "}", "//vtable[0]", "05", "virtual", "void", "gg(){", "}", "//vtable[1]", "06", "virtual", "void", "hh(){", "}", "//vtable[2]", "07", "void", "kk()", "{", "}", "08", "};", "09", "typedef", "void", "(DD::*MptrTy)();", "…", "13", "void", "test2(DD", "*dptr,", "MptrTy", "mfptr){", "14", "//", "mfptr", "is", "a", "fat", "pointer/struct:", "15", "//", "{i64", "ptr,i64", "adj}", "16", "//", "n", "=", "mfptr.ptr;", "17", "//", "dptr", "=", "(char", "*)", "dptr", "+", "mfptr.adj;", "18", "//", "if", "((n", "&", "1)", "==", "1)", "{", "19", "//", "k", "=", "(n", "-", "1)", "/", "8;", "20", "//", "vtable", "=", "load", "dptr", "21", "//", "vtptr_adj", "=", "gep", "vtable,", "k", "22", "//", "fp", "=", "load", "vtptr_adj", "23", "//", "}", "else", "{", "24", "//", "fp", "=", "(inttoptr)", "n", "25", "//", "}", "26", "//", "fp(dptr)", "27", "(dptr->*mfptr)();", "28", "}", "29", "int", "main(){", "30", "DD", "dobj;", "31", "test1(&dobj);", "32", "//", "DD::gg()’s", "vtable", "index", "is", "1", "33", "//", "and", "encoded", "as", "9", "by", "C++", "compiler", "34", "//", "where", "9", "==", "1", "*", "sizeof(char*)", "+", "1.", "35", "//", "Arguments:", "36", "//", "&dobj,", "{9,", "0}", "37", "test2(&dobj,", "&DD::gg);", "//", "9", "==", "1", "*", "8", "+", "1", "38", "//", "Arguments:", "39", "//", "&dobj,", "{(ptrtoint)", "(&DD::kk),", "0}", "40", "test2(&dobj,", "&DD::kk);", "41", "return", "0;", "42", "}", "43", "%DD", "=", "type", "{", "i32", "(...)**", "vtable,", "i64", "dd}", "44", "//", "c++filt", "_ZTV2DD：", "vtable", "for", "DD", "45", "@_ZTV2DD", "=", "{", "[5", "x", "i8*]", "}", "{", "46", "[null,", "//top_offset", "47", "@_ZTI2DD,", "//type", "information", "48", "@_ZN2DD2ffEv,", "//vtable[0]", "for", "DD::ff()", "49", "@_ZN2DD2ggEv,", "//vtable[1]", "for", "DD::gg()", "50", "@_ZN2DD2hhEv", "//vtable[2]", "for", "DD::hh()", "51", "]", "52", "}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 385.44,
+    "y1": 87.84,
+    "y2": 393.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure2-1.png"
+}, {
+  "caption": "Fig. 10. Manual tracking of Tips’s analysis on all member function calls in ninja_test.",
+  "captionBoundary": {
+    "x1": 82.1969985961914,
+    "x2": 403.8025817871094,
+    "y1": 303.4061584472656,
+    "y2": 305.4549865722656
+  },
+  "figType": "Figure",
+  "imageText": ["template", "<class", "T,", "typename", "Result>", "Result", "HandleExceptionsInMethodIfSupported(", "T*", "object,", "Result", "(T::*method)(),", "const", "char*", "location)", "{", "//", "simplified", "if", "(internal::GetUnitTestImpl()->catch_exceptions())", "return", "HandleSehExceptionsInMethodIfSupported(object,", "method,", "location);", "else", "return", "(object->*method)();", "//", "2491,", "gtest.cc", "}", "Number", "of", "Function", "Definitions", "in", "ninja_test", "$", "grep", "-n", "\"5SetUpEv\"", "ninja_test.ll", "|", "grep", "\"define\"", "|", "wc", "–l", "10", "$", "grep", "-n", "\"8TestBodyEv\"", "ninja_test.ll", "|", "grep", "\"define\"", "|", "wc", "–l", "386", "$", "grep", "-n", "\"8TearDownEv\"", "ninja_test.ll", "|", "grep", "\"define\"", "|", "wc", "–l", "6", "$", "grep", "-n", "\"11DeleteSelf_Ev\"", "ninja_test.ll", "|", "grep", "\"define\"", "|", "wc", "–l", "1", "$", "grep", "-n", "\"10CreateTestEv\"", "ninja_test.ll", "|", "grep", "\"define\"", "|", "wc", "-l", "386", "386", "2", "2", "1", "1", "159.300", "403", "TIPS", "1", "8", "10", "386", "6", "1", "CS7", "CS8", "CS9", "CS10", "Average", "Setup", "TestBody", "TearDown", "DeleteSelf_", "CreateTest", "CS1", "CS2", "CS3/CS4", "CS5/CS6", "Tool", "Number", "of", "Target", "Member", "Functions", "Reported", "<testing::internal::UnitTestImpl,", "bool>", "(...)", "CS9", "2414,", "gtest.cc", "HandleSehExceptionsInMethodIfSupported", "<testing::internal::UnitTestImpl,", "bool>", "(...)", "CS10", "2491,", "gtest.cc", "HandleExceptionsInMethodIfSupported", "<testing::TestSuite,", "void>", "(...)", "CS8", "2491,", "gtest.cc", "HandleExceptionsInMethodIfSupported", "<testing::TestSuite,", "void>", "(...)", "CS7", "2414,", "gtest.cc", "HandleSehExceptionsInMethodIfSupported", "<testing::internal::TestFactoryBase,", "testing::Test*>", "(...)", "CS6", "2491,", "gtest.cc", "HandleExceptionsInMethodIfSupported", "<testing::internal::TestFactoryBase,", "testing::Test*>", "(...)", "CS5", "2414,", "gtest.cc", "HandleSehExceptionsInMethodIfSupported", "<testing::Test,", "void>", "(testing::Test*,", "void", "(testing::Test::*)(),", "char", "const*)", "CS4", "2491,", "gtest.cc", "HandleExceptionsInMethodIfSupported", "<testing::Test,", "void>", "(testing::Test*,", "void", "(testing::Test::*)(),", "char", "const*)", "CS1", "1250,", "stl_function.h", "std::const_mem_fun_t<bool,", "Node>::", "operator(", ")", "(Node", "const*)", "const", "CS2", "362,", "gtest.cc", "testing::internal::SumOverTestSuiteList", "(...)", "CS3", "2414,", "gtest.cc", "HandleSehExceptionsInMethodIfSupported", "Call", "Site", "ID", "Location", "In", "Function", "(Demangled)", "2503,", "gtest.cc", "&Test::SetUp", "2", "2509,", "gtest.cc", "&Test::TestBody", "4", "2517,", "gtest.cc", "&Test::TearDown", "3", "2675,", "gtest.cc", "&TestFactoryBase::CreateTest", "2", "4", "Virtual", "Member", "Function", "Pointers", "in", "ninja_test", "Location", "Member", "Function", "Pointer", "Vtable", "Index", "277,", "build.cc", "&Node::dirty", "770,", "gtest.cc", "&TestSuite::successful_test_count", "775,", "gtest.cc", "&TestSuite::skipped_test_count", "780,", "gtest.cc", "&TestSuite::failed_test_count", "786,", "gtest.cc", "&TestSuite::reportable_disabled_test_count", "791,", "gtest.cc", "&TestSuite::disabled_test_count", "796,", "gtest.cc", "&TestSuite::reportable_test_count", "801,", "gtest.cc", "&TestSuite::total_test_count", "806,", "gtest.cc", "&TestSuite::test_to_run_count", "2691,", "gtest.cc", "&Test::DeleteSelf_", "2812,", "gtest.cc", "&TestSuite::RunSetUpTestSuite", "2822,", "gtest.cc", "&TestSuite::RunTearDownTestSuite", "4927,", "gtest.cc", "&internal::UnitTestImpl::RunAllTests", "13", "Non-Virtual", "Member", "Function", "Pointers", "in", "ninja_test", "Location", "Member", "Function", "Pointer"],
+  "name": "10",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 428.15999999999997,
+    "y1": 84.96,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure10-1.png"
+}, {
+  "caption": "Table 7. Efficiency of Tips and SVF in resolving member function calls in 12 open-source C++ programs, where nine of which (with larger LLVM-IRs to be analyzed than 453.povray) are marked in bold.",
+  "captionBoundary": {
+    "x1": 45.58599853515625,
+    "x2": 440.17529296875,
+    "y1": 90.30518341064453,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["build_log_perftest", "5.448", "5.522", "107,651", "133,850", "133,300", "174,170", "0.008", "0.013", "0.000", "1.000", "manifest_parser_perftest", "5.651", "5.772", "107,547", "134,088", "132,725", "174,183", "0.008", "0.013", "0.000", "1.000", "ninja", "7.644", "8.707", "134,104", "174,825", "166,363", "236,430", "0.775", "1.117", "40.500", "11.500", "ninja_test", "488.123", "817.214", "890,832", "1,371,169", "1,194,944", "2,148,449", "0.582", "0.584", "519.800", "159.300", "Ninja/GoogleTest", "tracegen", "60.094", "154.167", "1,059,216", "1,779,135", "1,262,519", "2,977,068", "0.003", "0.012", "0.000", "1.000", "tracepointgen", "54.701", "142.359", "1,023,327", "1,737,779", "1,210,535", "2,906,594", "0.002", "0.011", "0.000", "1.000", "cmake_automoc_parser", "60.281", "162.899", "1,120,003", "1,923,808", "1,345,662", "3,181,915", "0.003", "0.017", "0.000", "1.000", "moc", "73.235", "198.442", "1,373,555", "2,236,289", "1,674,963", "3,646,680", "0.003", "0.018", "0.000", "1.000", "Qt", "llvm-config", "70.367", "183.597", "585,021", "821,341", "734,221", "1,166,045", "9.103", "10.514", "416.000", "4.000", "llvm-ml", "1,163.700", "4,180.240", "3,244,376", "5,498,863", "3,729,991", "8,777,931", "0.467", "0.540", "104.615", "1.231", "FileCheck", "119.932", "331.657", "649,342", "944,214", "793,082", "1,333,502", "2.014", "1.990", "183.000", "2.667", "llvm-mt", "64.572", "208.485", "550,636", "888,408", "662,091", "1,259,724", "2.318", "1.763", "427.000", "4.000", "LLVM", "SVF", "Tips", "SVF", "Tips", "SVF", "Tips", "SVF", "Tips", "SVF", "Tips", "Open-Source", "C++", "Programs", "Pre-Analysis", "Time", "#SVFGNode", "#SVFGEdge", "AvgTimePerQuery", "AvgPtsSize"],
+  "name": "7",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 436.32,
+    "y1": 113.75999999999999,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Table7-1.png"
+}, {
+  "caption": "Fig. 6. Precision gains of Tips over SVF in analyzing C++ member function pointers in virtual inheritance.",
+  "captionBoundary": {
+    "x1": 48.904998779296875,
+    "x2": 437.0963439941406,
+    "y1": 365.9651794433594,
+    "y2": 368.0140075683594
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "CC", "object", "cobj", "aa", "24", "AA", "vtable", "16", "vtable", "0", "cc[0]", "8", "cc[1]", "12", "CC", "Object", "Field", "Byte", "Offset", "(a)", "The", "DD", "object", "dobj", "aa", "48", "AA", "vtable", "40", "CC.base", "vtable", "16", "cc[0]", "20", "cc[1]", "24", "dd", "32", "bb", "8", "BB.base", "vtable", "0", "DD", "Object", "Field", "Byte", "Offset", "(c)", "Target", "functions", "reported", "Sound", "Y", "Y", "Precise", "N", "Y", "#Functions", "Reported", "7", "1", "virtual", "thunk", "to", "DD::ff()", "✓", "non-virtual", "thunk", "to", "DD::hh()", "✓", "AA::ff()", "✓", "BB::gg()", "✓", "CC::hh()", "✓", "DD::hh()", "✓", "DD::ff()", "✓", "✓", "SVF", "TIPS", "Function", "(dptr->*mfptr)()", "33", "%DD", "=", "type", "{%BB.base,", "%CC.base,", "i64,%AA}", "32", "%CC.base", "=", "type", "{", "i32", "(...)**,", "[2", "x", "i32]}", "31", "%BB.base", "=", "type", "{", "i32", "(...)**,", "i64*", "}", "30", "%CC", "=", "type", "{", "i32", "(...)**,", "[2", "x", "i32],", "%AA}", "29", "%BB", "=", "type", "{", "i32", "(...)**,", "i64*,", "%AA", "}", "28", "%AA", "=", "type", "{", "i32", "(...)**,", "i8*", "}", "01", "struct", "AA", "{", "02", "char", "*aa;", "03", "virtual", "void", "ff()", "{", "}", "04", "};", "05", "struct", "BB:", "public", "virtual", "AA", "{", "06", "long", "*bb;", "07", "virtual", "void", "gg()", "{", "}", "08", "};", "09", "struct", "CC:", "public", "virtual", "AA", "{", "10", "int", "cc[2];", "11", "virtual", "void", "hh()", "{", "}", "12", "};", "13", "struct", "DD:", "public", "BB,", "public", "CC{", "14", "long", "dd;", "15", "virtual", "void", "hh()", "{", "}", "16", "virtual", "void", "ff()", "{", "}", "17", "};", "18", "typedef", "void", "(DD::*MptrTy)();", "19", "void", "test4(DD", "*dptr,", "MptrTy", "mfptr){", "20", "(dptr->*mfptr)();", "21", "}", "22", "int", "main()", "{", "23", "DD", "dobj;", "24", "CC", "cobj;", "25", "test4(&dobj,", "&DD::ff);", "26", "return", "0;", "27", "}"],
+  "name": "6",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 93.6,
+    "x2": 386.4,
+    "y1": 84.96,
+    "y2": 355.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure6-1.png"
+}, {
+  "caption": "Fig. 4. Tips’s pointer analysis for byte-level pointer adjustments in C++ multiple inheritance.",
+  "captionBoundary": {
+    "x1": 72.47799682617188,
+    "x2": 413.523193359375,
+    "y1": 169.43719482421875,
+    "y2": 171.48602294921875
+  },
+  "figType": "Figure",
+  "imageText": ["dptr", "dobj", "(dobj,", "0,", "0)", "ADDROF", "%p2", "dobj", "(dobj,", "0,", "0)", "COPY", "%p3", "dobj", "16", "2", "(dobj,", "16,", "2)", "GEPc", "cptr", "dobj", "(dobj,", "16,", "2)", "COPY", "%p5", "dobj", "(dobj,", "16,", "2)", "COPY", "%p6", "dobj", "-16", "-2", "(dobj,", "0,", "0)", "GEPc", "%p7", "dobj", "(dobj,", "0,", "0)", "COPY", "PointsTo", "Rule", "Byte", "Offset", "Flattened", "Field", "Index", "Pointer", "Object", "GEPc", "5", "//", "sub-object", "to", "container", "6", "%p5", "=", "bitcast", "%CC*", "cptr", "to", "i8*", "7", "%p6", "=", "getelementptr", "i8*", "%p5,", "i64", "-16", "8", "%p7", "=", "bitcast", "i8*", "%p6", "to", "%DD*", "1", "//", "container", "to", "sub-object", "2", "%p2", "=", "bitcast", "%DD*", "dptr", "to", "i8*", "3", "%p3", "=", "getelementptr", "i8*", "%p2,", "i64", "16", "4", "cptr", "=", "bitcast", "i8*", "%p3", "to", "%CC*"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 406.08,
+    "y1": 87.84,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Figure4-1.png"
+}, {
+  "caption": "Table 6. Efficiency of Tips and SVF in resolving member function calls in 447.dealii and 453.povray.",
+  "captionBoundary": {
+    "x1": 53.35700225830078,
+    "x2": 432.40057373046875,
+    "y1": 90.30512237548828,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["AvgTimePerQuery", "(Sec)", "2.645", "2.981", "1.127", "0", "3.469", "NA", "AvgPtsSize", "324", "1.250", "0.004", "0", "7", "NA", "#SVFGNode", "997,730", "1,312,816", "1.316", "311,044", "509,366", "1.638", "#SVFGEdge", "1,363,076", "1,904,031", "1.397", "446,893", "815,474", "1.825", "Demand-Driven", "AnalysisTime", "(Secs)", "51.254", "205.291", "4.005", "20.656", "79.265", "3.837", "#Addr", "44,105", "44,639", "1.012", "7,322", "9,386", "1.282", "#Copy", "285,171", "448,333", "1.572", "48,747", "100,997", "2.072", "#Gep", "190,029", "190,127", "1.001", "119,890", "119,950", "1.001", "#Load", "20,800", "30,151", "1.450", "13,033", "19,597", "1.504", "#Store", "24,155", "86,033", "3.562", "9,829", "73,890", "7.518", "Pre-Analysis", "SVF", "Tips", "Tips", "SVF", "SVF", "Tips", "Tips", "SVF", "Analysis", "Stage", "Metrics", "447.dealii", "453.povray"],
+  "name": "6",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 380.15999999999997,
+    "y1": 98.88,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660779-Table6-1.png"
+}]

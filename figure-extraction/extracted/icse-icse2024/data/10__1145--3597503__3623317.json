@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 3: A simplified illustrative figure of the IDFG constructed by ClipboardScope from portions of the code of Figure 1. The dotted blue edges denote the backward tracing for (a) the entry of the targeted run function invoked by the asynchronous function call and (b) the hard-coded key value. The red edges represent tainted paths. The search for the key of interest is pinpointed by the blue edges, from which the tainted value is resumed by getString in (b).",
+  "captionBoundary": {
+    "x1": 317.6590270996094,
+    "x2": 559.7987060546875,
+    "y1": 273.2373352050781,
+    "y2": 355.5799865722656
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Reconnecting", "discontinuous", "data", "flows.", "v1.b", "v0", "v1", "arg2", "v1", "arg2", "return", "v1", "v1", "=", "v0.getString(arg2)", ".entry", "w.a(arg1,", "arg2)", "arg4", "arg4", "v1", "=", "new", "j(arg3,", "v0)", "v0", "=", "w.a(arg3,", "arg4)", ".entry", "i.a(arg3,", "arg4)", "temp_clip", "temp_clip", "arg3", "arg3", "v0", "v3.put(arg2,", "arg3)", ".entry", "w.c(arg1,", "arg2,", "arg3)", "i.a(v1,", "“temp_clip”)", "w.c(v1,", "“temp_clip”,", "v0)", ".entry", "A.onText...Item(arg1)", "(a)", "Handling", "asynchronous", "function", "calls.", "v1", "v1", "this.a", "v0_3.a", "v0_3.a", "v0_2", "v2.writes(v1)", "v1", "=", "this.a", ".entry", "c.run()", "v1.post(v0_3)", "v0_3", "=", "new", "c(v0_2)", ".entry", "i.d(arg3)"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 257.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Overall statistics of the inspected apps.",
+  "captionBoundary": {
+    "x1": 340.447998046875,
+    "x2": 535.7005004882812,
+    "y1": 199.81832885742188,
+    "y2": 205.448974609375
+  },
+  "figType": "Figure",
+  "imageText": ["NW", "DB", "SP", "WF", "67", "40", "8", "40", "1", "26", "6", "89", "7", "37", "9", "5", "10", "2", "11", "9", "18", "17", "8", "s", "f", "A", "pp", "be", "r", "o", "N", "um", "1000", "800", "600", "400", "200", "Grand-slam", "Selective", "Cherry-pick0", "Grand-Slam", "Selective", "Cherry-Pick", "F", "C", "D", "1", "0.8", "0.6", "0.4", "0.2", "0", "Number", "of", "Installations", "100", "102", "104", "106", "108", "1010", "(a)", "CDF", "of", "app", "installations.", "(b)", "Data-flow", "destinations."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.15999999999997,
+    "x2": 556.8,
+    "y1": 84.47999999999999,
+    "y2": 187.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Figure4-1.png"
+}, {
+  "caption": "Table 2: Overall statistics of the evaluated app.",
+  "captionBoundary": {
+    "x1": 79.84700012207031,
+    "x2": 267.6936340332031,
+    "y1": 221.22933959960938,
+    "y2": 226.8599853515625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Apps", "with", "Res.", "Form.", "Val.", "only", "743", "#", "Apps", "with", "Rig.", "Form.", "Val.", "332", "#", "Apps", "with", "Cherry-Pick", "330", "#", "Apps", "with", "Res.", "Form.", "Val.", "only", "&", "Text", "Ext.", "201", "#", "Apps", "with", "Rig.", "Form.", "Val.", "&", "Text", "Ext.", "129", "#", "Apps", "with", "Spot-on", "23,948", "#", "Apps", "with", "Grand-Slam", "848", "#", "Apps", "with", "Selective", "1,075", "#", "Apps", "accessing", "the", "clipboard", "185,423", "#", "Apps", "with", "clipboard", "text", "manipulations", "26,201", "Item", "Value", "#", "Apps", "tested", "2.2", "million"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 84.0,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Table2-1.png"
+}, {
+  "caption": "Figure 5: Data flows in different categories from SharedPreferences objects in apps with more than 5,000 installations. Each data flow is encoded in a tuple (Type, Installations, Destination): Dup. Check for duplication check, WF for local file, NW for network, UP for cases unprocessed in this study.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 560.440673828125,
+    "y1": 227.70535278320312,
+    "y2": 277.1719970703125
+  },
+  "figType": "Figure",
+  "imageText": ["Category", "#", "Installs", "Destination", "WF", "8", "NW", "3", "UP", "356", "Dup.", "Check", "233", "Display", "198", "1000000+", "114", "500000+", "40", "100000+", "134", "50000+", "74", "10000+", "295", "5000+", "141", "Cherry-pick", "224", "Selective", "346", "Grand-slam", "228"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 323.52,
+    "x2": 553.4399999999999,
+    "y1": 83.52,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Figure5-1.png"
+}, {
+  "caption": "Figure 1: A simplified running example sending pasted contents to the back-end server each time it resumes.",
+  "captionBoundary": {
+    "x1": 86.14900207519531,
+    "x2": 525.8325805664062,
+    "y1": 291.2513427734375,
+    "y2": 296.8819885253906
+  },
+  "figType": "Figure",
+  "imageText": ["void", "onResume()", "{", "super.onResume();", "i.a(this);", "...", "}", "public", "final", "class", "l", "extends", "Handler", "{", "public", "final", "void", "handleMessage(Message", "arg3)", "{", "switch", "(arg3.what)", "{", "case", "0:", "Object", "v0", "=", "arg3.obj;", "if((v0", "instanceof", "j))", "{", "i.b.append(((j)", "v0).b);", "...", "case", "1:", "i.d(((Context)arg3.obj));", "...", "public", "static", "void", "a(Context", "arg2){", "i.a.sendMessage(i.a.obtainMessage(1,", "arg2));", "}", "...", "}", "static", "void", "d(Context", "arg3)", "{", "JSONObject", "v0_1", "=", "new", "JSONObject();", "v0_1.put(\"t\",", "i.b.toString());", "...", "h.getHandler().post(new", "c(v0_1.toString().getBytes()));", "...", "}", "public", "static", "void", "a(Context", "arg3,", "String", "arg4)", "{", "i.a.sendMessage(i.a.obtainMessage(0,", "new", "j(arg3,", "w.a(arg3,", "arg4))));", "}", "public", "final", "class", "i", "{", "private", "static", "final", "Handler", "a;", "private", "static", "final", "StringBuilder", "b;", "static", "{", "...", "i.a", "=", "new", "l(v1.getLooper());", "i.b", "=", "new", "StringBuilder();", "...", "}", "public", "void", "run()", "{", "...", "HttpURLConnection", "v1", "=", "(HttpURLConnection)", "v0.openConnection();", "DataOutputStream", "v2", "=", "new", "DataOutputStream(", "v1.getOutputStream());", "v2.write(this.a);", "...", "public", "class", "A", "extends", "EditText", "{", "public", "boolean", "onTextContextMenuItem(int", "arg1)", "{", "Switch", "(arg1)", "{", "case", "16908322:", "//", "paste", "String", "v0", "=", "a.u(this);", "if", "(!TextUtils.isEmpty(v0)", "&&", "!v0.equals(w.a(a.d(),", "“temp_clip”)))", "{", "w.c(a.d(),", "“temp_clip”,", "v0));", "this.setText(v0);", "i.a(a.d(),", "“temp_clip”);", "...", "public", "class", "c", "implements", "Runnable", "{", "public", "c(byte[]", "arg1)", "{", "this.a", "=", "arg1;", "}", ".getSystemService(“clipboard”)).getPrimaryClip();", "return", "v0", "!=", "null", "?", "v0.getItemAt(0).getText().toString()", ":", "“”;", "}", "static", "String", "u(Context", "arg1)", "{", "ClipData", "v0", "=", "((ClipboardManager)arg1", "static", "String", "a(Context", "arg1,", "String", "arg2){", "return", "arg1.getSharedPreferences(arg1.getPackageName()", ",", "0).getString(arg2,", "“”);", "}", "j(Context", "arg1,", "String", "arg2){", "...", "this.b", "=", "arg2;", "}", "static", "void", "c(Context", "arg1,", "String", "arg2,", "String", "arg3){", "arg1.getSharedPreferences(arg1.getPackageName(),", "0)", ".edit().putString(arg2,", "arg3);", "}", "10", "9", "8", "7", "6", "5", "4", "2", "3", "1", "Control", "Flow", "Data", "Flow"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 548.16,
+    "y1": 82.56,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Figure1-1.png"
+}, {
+  "caption": "Table 3: Detailed results of top inspected apps with grandslam operations: Data Dest. for data destination, Tr. for trigger type; SP for SharedPreferences, DB for SQLiteDatabase, WF for local file, and NW for network; ● for presence, ❍ for absence in Data Dest. column; ● for automatic, and ❍ for user-triggered in Tri. column.",
+  "captionBoundary": {
+    "x1": 53.340999603271484,
+    "x2": 295.6426086425781,
+    "y1": 213.54733276367188,
+    "y2": 273.9730224609375
+  },
+  "figType": "Table",
+  "imageText": ["10,000,000", "–", "50,000,000", "Entmt.", "com.mistplay.mistplay", "❍", "❍", "●", "❍", "❍", "10,000,000", "–", "50,000,000", "Tools", "com.facemoji.lite", "❍", "●", "❍", "❍", "●", "10,000,000", "–", "50,000,000", "Lifestyle", "com.aboutjsp.thedaybefore", "❍", "●", "❍", "❍", "●", "10,000,000", "–", "50,000,000", "Lifestyle", "net.milkdrops.beentogether", "❍", "●", "❍", "❍", "●", "10,000,000", "–", "50,000,000", "Personal.", "com.jb.gokeyboardpro", "●", "❍", "❍", "❍", "●", "50,000,000", "–", "100,000,000", "Product.", "ridmik.keyboard", "❍", "●", "❍", "❍", "●", "50,000,000", "–", "100,000,000", "Personal.", "com.cutestudio.neonledkeyboard", "❍", "❍", "❍", "●", "●", "50,000,000", "–", "100,000,000", "Personal.", "com.flashkeyboard.leds", "●", "❍", "❍", "❍", "●", "50,000,000", "–", "100,000,000", "Tools", "fast.phone.clean", "❍", "●", "❍", "❍", "●", "100,000,000", "–", "500,000,000", "Comm.", "com.tencent.mm", "●", "❍", "❍", "❍", "●", "#", "Installs", "Category", "Package", "Name", "SP", "D", "B", "N", "W", "W", "F", "Tr.", "Data", "Dest."],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 83.52,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Table3-1.png"
+}, {
+  "caption": "Figure 2: Overview of ClipboardScope.",
+  "captionBoundary": {
+    "x1": 233.16200256347656,
+    "x2": 378.83551025390625,
+    "y1": 201.25936889648438,
+    "y2": 206.8900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Text", "Extraction", "Network", "No", "Modification", "Text", "Content", "Filtering", "Clipboard", "Use", "Recognition", "Displaying", "Local", "Storage", "Equivalence", "Comparison", "Resilient", "Format", "Validation", "Rigorous", "Format", "Validation", "Destination", "Identification", "Clipboard", "Content", "Validation", "Execution", "Sequence", "Extraction"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 507.35999999999996,
+    "y1": 82.56,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Figure2-1.png"
+}, {
+  "caption": "Table 4: Detailed results of top inspected apps with selective operations: V.M. for validation method, Res. Val. for resilient validation, and Rig. Val. for rigorous validation; C for contains condition,M for regular expression matching, S for startsWith condition, E for endsWith condition, and I for indexOf checking; Data Dest. for data destination, SP for SharedPreferences, DB for SQLiteDatabase, WF for local file, NW for network, ● for presence, and ❍ for absence; Cont. stands for content.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2018432617188,
+    "y1": 210.18032836914062,
+    "y2": 248.68798828125
+  },
+  "figType": "Table",
+  "imageText": ["100,000,000", "−-", "500,000,000", "Product.", "com.transsion.carlcare", "S{\"EASEMOBIMG\"}", "●", "❍", "❍", "❍", "URL", "10,000,000", "−-", "50,000,000", "Tools", "com.ume.browser.international", "S{\"http://\",", "\"rtsp://\",", "\"https://\"}", "●", "❍", "❍", "❍", "URL", "10,000,000", "−-", "50,000,000", "Tools", "tweeter.gif.twittervideodownloader", "I{\"https://twitter.com\",", "\"https://mobile.twitter.com\",", "...}", "●", "❍", "❍", "❍", "URL", "5,000,000", "−-", "10,000,000", "Shopping", "com.asda.android", "S{Dynamic_String}", "❍", "❍", "❍", "●", "URL", "1,000,000", "−-", "5,000,000", "Arcade", "com.ace.shell.production", "S{\"http://\",", "\"https://\"}", "❍", "❍", "●", "❍", "URL", "l.", "Ri", "g.", "Va", "100,000,000", "−", "500,000,000", "Product.", "cn.wps.moffice_eng", "C{\"ftp://\",", "\"http://\",", "\"https://\"}", "●", "❍", "❍", "❍", "URL", "10,000,000", "−", "50,000,000", "Books", "com.hdictionary.bn", "C{\"@\",", "\"$\"},M{\"[0-9]\"}", "●", "●", "❍", "❍", "Char.", "5,000,000", "−", "10,000,000", "Art", "com.behance.behance", "C{\"<iframe\",", "\">\"}", "❍", "❍", "●", "❍", "URL", "5,000,000", "−", "10,000,000", "Photo.", "com.boo.facecam", "C{\"][\"},M{\"[0-9]+\"}", "●", "❍", "❍", "❍", "Code", "1,000,000", "−", "5,000,000", "Shopping", "com.daigou.sg", "C{\"taobao.com\",", "\"http://\",", "\"tmall.com\".", ".", ".", "},M{Dynamic", "Pattern}", "●", "❍", "❍", "❍", "URL", "l.", "Re", "s.", "Va", "V.M.", "#", "Installs", "Category", "Package", "Name", "Format", "Validation", "SP", "D", "B", "N", "W", "W", "F", "Cont.", "Data", "Dest."],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 537.12,
+    "y1": 83.52,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Table4-1.png"
+}, {
+  "caption": "Table 5: Detailed results of top inspected apps with cherry-pick operations: V.M. for validation method, Res. Val. for resilient validation, and Rig. Val. for rigorous validation; C for contains condition,M for regular expression matching, S for startsWith condition, E for endsWith condition, I for indexOf checking, SS for subString extraction, and OS for optString extraction; s and e mean the starting and ending index of the extracted string; Data Dest. for data destination, SP for SharedPreferences, DB for SQLiteDatabase, WF for local file, NW for network, ● for presence, and ❍ for absence; Cont. stands for content.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.3883056640625,
+    "y1": 395.18035888671875,
+    "y2": 444.6470031738281
+  },
+  "figType": "Table",
+  "imageText": ["100,000,000", "−", "500,000,000", "Tools", "com.mi.globalbrowser", "S{\"about:\",", "\"data:\",", "...},", "E{\".\"},M{URL_Format}", "SS{(s,", "e)}", "●", "❍", "❍", "❍", "URL", "100,000,000", "−", "500,000,000", "Card", "com.matteljv.uno", "S{\"omnisdk\"},M{\"omnisdk://\"}", "OS{\"extInfo\",", "\"linkID\"}", "●", "❍", "❍", "❍", "Setting", "10,000,000", "−", "50,000,000", "Tools", "me.skyvpn.app", "I{\"/skyvpn\"},", "C{\"skyvpn://install?\",", "\"inviteKey\",", "...}", "SS{(0,", "e)}", "❍", "❍", "●", "❍", "URL", "10,000,000", "−", "50,000,000", "Product.", "com.tf.thinkdroid.viewer", "S{\"**writeClipboard**\"", "+", "pid}", "SS{(s,", "e)}", "❍", "❍", "❍", "●", "URL", "5,000,000", "−", "10,000,000", "Business", "com.fedex.ida.android", "S{\"023\"},M{\"^[a-zA-Z0-9]*$\"}", "SS{(2,", "14)}", "●", "❍", "❍", "❍", "Code", "l.", "Ri", "g.", "Va", "50,000,000", "−", "100,000,000", "Finance", "com.santander.app", "C{\"0014BR.GOV.BCB.PIX\"}", "SS{(s,e),", "(0,", "11),", "(11,", "22),", "(22,", "33),", "...}", "●", "❍", "❍", "❍", "Setting", "500,000", "−", "1,000,000", "Parent.", "com.moms.momsdiary", "M{URL_Format}", "SS{(s,", "e)}", "●", "❍", "❍", "❍", "URL", "100,000", "−", "500,000", "Auto.", "com.gsd.carmeets", "C{\"instagram\",", "\"\"https://www.instagram.com/p/\"}", "SS{(0,", "e)}", "❍", "❍", "●", "❍", "URL", "100,000", "−", "500,000", "Business", "ru.petrolplus.mobileapp", "M{\"[0-9]+\"}", "SS{(s,", "e)}", "❍", "❍", "❍", "●", "Code", "100,000", "−", "500,000", "Education", "com.sapienmind.bigmd", "C{\"\\\\\\’\",", "\"\\\\\\\\\",", "...}", "SS{(0,100)}", "❍", "●", "❍", "❍", "Text", "l.", "Re", "s.", "Va", "V.M.", "#", "Installs", "Category", "Package", "Name", "Format", "Validation", "Text", "Extraction", "SP", "D", "B", "N", "W", "W", "F", "Cont.", "Data", "Dest."],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 268.32,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Table5-1.png"
+}, {
+  "caption": "Table 1: The taint sources and sinks used in ClipboardScope: “->” indicates the execution order, Re. V. for resilient format validation, Ri. V. for rigorous format validation, T. E. for text extraction, Data Dest. for data destinations.",
+  "captionBoundary": {
+    "x1": 52.6150016784668,
+    "x2": 295.19110107421875,
+    "y1": 252.49636840820312,
+    "y2": 291.0039978027344
+  },
+  "figType": "Table",
+  "imageText": ["D", "at", "a", "D", "es", "t.", "java.io.*", "write(*),", "print(*),", "println(*)", "java.net.*", "<init>(URL),", "getOutputStream()", "->java.io.*", "okhttp3.*", "add(String,", "String),", "url(String)", "SQLiteDatabase", "insert*(String,", "String,", "ContentValues),", "execSQL(String)", "SharedPreferences.Editor", "putString(String,", "String),", "putStringSet(String,", "Set<String>)", "EditText", "setText(CharSequence),", "setHint(CharSequence)", "T.", "E.", "String", "subString(int,", "int),", "subSequence(int,", "int)", "JSONObject", "optString(String),", "opt(String,", "String)", "Ri", ".V", ".", "String,", "StringBuffer", "indexOf(String),", "lastIndexOf(String)", "String", "startsWith(String),", "endsWith(String)", "Pattern", "matches(String,", "CharSequence),", "matcher(CharSequence)", ".V", ".", "String", "contains(CharSequence),", "matches(String)", "s", "Re", "Si", "nk", "ClipboardManager", "getText()", "So", "ur", "ce", "s", "ClipboardManager", "getPrimaryClip()", "->[ClipData.Item:", "getText()", "|", "ClipData.Item:", "coerceToText()]", "Type", "Class", "API"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 83.52,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623317-Table1-1.png"
+}]

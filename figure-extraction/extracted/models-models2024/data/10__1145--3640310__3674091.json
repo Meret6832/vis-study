@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 1: Examples for classification categories",
+  "captionBoundary": {
+    "x1": 345.0480041503906,
+    "x2": 530.8140258789062,
+    "y1": 303.4497985839844,
+    "y2": 305.5299987792969
+  },
+  "figType": "Table",
+  "imageText": ["}", "Column.fields(column", ",", "field1", ");", "Column.fields(column", ",", "field2", ");", "field1", "!=", "field2;", "//", "Columns", "that", "have", "more", "than", "one", "field", "pattern", "columnWithMultipleFields(column", ":", "Column)", "{", "correct", "}", "TriggerDesc(trigger", ");", "}", "//", "Auxiliary", "pattern", "pattern", "triggerDesc(trigger:", "TriggerDesc", "){", "//", "Auxiliary", "pattern", "in", "not", "necessary", "find", "triggerDesc(_);", "//Check", "if", "there", "are", "any", "trigger", "descriptions", "//in", "the", "model.", "pattern", "hasTriggerDescriptions", "(){", "acceptable", "}", "//", "_", "is", "for", "\"don", "'t", "care\",", "not", "a", "variable", "Form.action(_,", "action", ");", "Page.formulaire(page", ",", "_);", "action", ":", "EString", "){", "//All", "pages", "that", "have", "a", "form", "with", "a", "specific", "action", "pattern", "pageWithFormAction(page:", "Page", ",", "reject", "error", "Axis", "elements", "with", "no", "located", "elements", "associated", "with", "them.", "In", "this", "description", "associated", "is", "ambigious.", "Classfication", "Example", "Specification"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 566.4,
+    "y1": 82.56,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Table1-1.png"
+}, {
+  "caption": "Figure 1: EMF meta-model of the Railway domain.",
+  "captionBoundary": {
+    "x1": 336.1090087890625,
+    "x2": 540.0499267578125,
+    "y1": 206.03778076171875,
+    "y2": 208.11798095703125
+  },
+  "figType": "Figure",
+  "imageText": ["[0..1]", "target[0..*]", "positions", "[0..1]", "route", "[0..*]", "follows", "[0..*]", "monitoredBy", "[0..*]", "monitors", "[0..*]", "semaphores", "[0..*]", "connectsTo", "[0..1]", "exit", "[0..1]", "entry", "[2..*]", "requires", "[0..*]", "elements", "[0..*]", "sensors", "[0..*]", "routes", "[0..*]", "regions", "signal", ":", "Signal", "=", "FAILURE", "Semaphore", "position", ":", "Position", "=", "FAILURE", "SwitchPosition", "currentPosition", ":", "Position", "=", "FAILURE", "Switch", "Segment", "length", ":", "EInt", "TrackElement", "Sensor", "active", ":", "EBoolean", "=", "false", "RegionRoute", "RailwayContainer", "FAILURE", "STOP", "GO", "Signal", "FAILURE", "STRAIGHT", "DIVERGING", "Position"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Category distribution.",
+  "captionBoundary": {
+    "x1": 110.27799987792969,
+    "x2": 237.5650177001953,
+    "y1": 384.2318115234375,
+    "y2": 386.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["15.0%", "6.0%", "Reject", "Spec.", "error", "15.0%", "Acceptable", "64.0%", "Correct"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 121.92,
+    "x2": 238.07999999999998,
+    "y1": 257.76,
+    "y2": 369.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Figure4-1.png"
+}, {
+  "caption": "Table 2: Query-related language features and coverage",
+  "captionBoundary": {
+    "x1": 328.2590026855469,
+    "x2": 547.6043090820312,
+    "y1": 345.1748046875,
+    "y2": 347.2550048828125
+  },
+  "figType": "Table",
+  "imageText": ["Value", "Coverage", "Variable", "Boolean", "String", "Number", "Enum", "Aggregate", "Function", "Java", "Language", "Feature", "Coverage", "Pattern", "Modifiers", "Pattern", "Body", "(or)", "Callable", "Relation", "(*)", "Class", "Constraint", "Path", "Constraint", "Pattern", "Composition", "Compare", "Constraint", "Check", "Constraint", "Java", "Type", "Check", "Pattern", "Call"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 539.04,
+    "y1": 231.84,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Table2-1.png"
+}, {
+  "caption": "Figure 3: Testing framework for generated queries.",
+  "captionBoundary": {
+    "x1": 203.04800415039062,
+    "x2": 408.9525146484375,
+    "y1": 206.55078125,
+    "y2": 208.6309814453125
+  },
+  "figType": "Figure",
+  "imageText": ["option", "Legend:", "Decision", "Automated", "activity", "Manual", "activity", "Failed", "test", "Passed", "test", "Model", "flow", "Query", "flow", "all", "used", "available", "different", "Start", "Test", "modelsTest", "input", "Queries", "are", "non-equivalent", "Queries", "are", "equivalent", "Query", "under", "test", "Ground", "truth", "(query)", "Test", "model", "generation", "(G)", "Query", "evaluation", "(E)", "Next", "model?", "Models", "(12)", "G1:", "Generate", "models", "(manual)", "G2:", "Define", "model", "generation", "problem", "E2", "(b):", "Compute", "matches", "E1:", "Load", "next", "model", "E2", "(a):", "Compute", "matches", "Compare", "match", "set", "G3:", "Generate", "models", "(with", "Refinery)", "Models", "(600)"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 508.32,
+    "y1": 84.96,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Distribution of effective lines of VQL code.",
+  "captionBoundary": {
+    "x1": 68.90799713134766,
+    "x2": 278.9369812011719,
+    "y1": 254.393798828125,
+    "y2": 256.4739990234375
+  },
+  "figType": "Figure",
+  "imageText": ["s", "er", "ie", "#", "qu", "#", "effective", "lines", "of", "code", "3000", "2000", "1000", "0", "5", "10", "15", "20"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 73.44,
+    "x2": 274.08,
+    "y1": 88.8,
+    "y2": 231.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Figure5-1.png"
+}, {
+  "caption": "Table 3: For each construct, number of queries that present",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0479431152344,
+    "y1": 324.7287902832031,
+    "y2": 326.8089904785156
+  },
+  "figType": "Table",
+  "imageText": ["1", "occurrence", "2", "occurrences", ">", "2", "occurrences", "Auxiliary", "patterns", "3407", "440", "11", "or", "construct", "1359", "11", "12", "find", "construct", "701", "111", "6", "neg", "find", "construct", "1594", "20", "0"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 272.64,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Table3-1.png"
+}, {
+  "caption": "Figure 2: The Text2VQL framework.",
+  "captionBoundary": {
+    "x1": 231.4720001220703,
+    "x2": 380.5283508300781,
+    "y1": 189.83880615234375,
+    "y2": 191.91900634765625
+  },
+  "figType": "Figure",
+  "imageText": ["Testing", "Test", "meta-model", "Test", "VQL-NL", "pairs", "Testing", "framework", "3,000", "prompts", "29,923", "pairs", "15,002", "pairs", "depth", "=", "1", "Yakindu", "meta-model", "6", "sets", "of", "seed", "queries", "Dataset", "construction", "Fine-tuning500", "meta-models", "LoRA", "Valid", "VQL-", "NL", "pairs", "Syntax", "checker", "Prompts", "VQL-NL", "pairs", "Ecore", "dataset", "Seed", "meta-model", "Seed", "VQL-NL", "pairs"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 140.64,
+    "x2": 471.35999999999996,
+    "y1": 86.88,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Figure2-1.png"
+}, {
+  "caption": "Table 4: Performance of each model. IC refers to the in-",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6534118652344,
+    "y1": 180.3358154296875,
+    "y2": 182.416015625
+  },
+  "figType": "Table",
+  "imageText": ["ChatGPT", "-", "IC", "14", "0.82", "LLM", "Correct", "qeries", "Pass@5", "DeepSeek", "Coder", "1b", "-", "IC", "3", "0.18", "DeepSeek", "Coder", "1b", "-", "FT", "11", "0.65", "DeepSeek", "Coder", "7b", "-", "IC", "7", "0.41", "DeepSeek", "Coder", "7b", "-", "FT", "13", "0.76", "CodeLlama", "7b", "-", "IC", "5", "0.29", "CodeLlama", "7b", "-", "FT", "10", "0.59"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 281.28,
+    "y1": 82.56,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Table4-1.png"
+}, {
+  "caption": "Figure 6: Boxplots of the correct and incorrect queries pre-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6475830078125,
+    "y1": 386.8428039550781,
+    "y2": 388.9230041503906
+  },
+  "figType": "Figure",
+  "imageText": ["od", "e", "o", "f", "c", "lin", "es", "iv", "e", "fe", "ct", "#", "ef", "is", "correct?", "10", "5", "False", "True"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 85.44,
+    "x2": 263.03999999999996,
+    "y1": 238.56,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674091-Figure6-1.png"
+}]

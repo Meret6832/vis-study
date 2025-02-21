@@ -1,0 +1,261 @@
+[{
+  "caption": "TABLE I TOP-K RESULT FOR SBFL TECHNIQUES AND FUSEFL",
+  "captionBoundary": {
+    "x1": 96.55130767822266,
+    "x2": 264.2235412597656,
+    "y1": 74.64356994628906,
+    "y2": 86.36590576171875
+  },
+  "figType": "Table",
+  "imageText": ["SBFL", "XAI4FL", "FuseFLTar", "Och", "OP2", "Bar", "DStar", "Top-1", "89", "117", "115", "89", "115", "149", "197", "Top-2", "175", "208", "208", "175", "208", "216", "240", "Top-3", "216", "247", "247", "217", "247", "248", "259", "Tar", "=", "Tarantula;", "Och", "=", "Ochiai;", "Bar", "=", "Barinel."],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 294.24,
+    "y1": 96.96,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-TableI-1.png"
+}, {
+  "caption": "TABLE II COHEN’S D EFFECT SIZED AND WILCOXON TEST RESULTS",
+  "captionBoundary": {
+    "x1": 89.96699523925781,
+    "x2": 270.8016662597656,
+    "y1": 474.4031982421875,
+    "y2": 486.1248474121094
+  },
+  "figType": "Table",
+  "imageText": ["\"*\"", "indicates", "that", "the", "difference", "is", "statistically", "signiﬁcant", "at", "1%.", "\"(Neglible(N)/Small(S)/Medium(M)\"", "denotes", "the", "effect", "size.", "FuseFLTechnique", "Top-1", "Top-2", "Top-3", "Tarantula", "0.71*", "(M)", "0.42*", "(S)", "0.30*", "(S)", "Ochiai", "0.51*", "(M)", "0.21*", "(S)", "0.09", "(N)", "OP2", "0.52*", "(M)", "0.21*", "(S)", "0.09", "(N)", "Barinel", "0.71*", "(M)", "0.42*", "(S)", "0.30*", "(S)", "DStar", "0.52*", "(M)", "0.21*", "(S)", "0.09", "(N)", "XAI4FL", "0.3*", "(S)", "0.16*", "(N)", "0.08", "(N)"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 264.0,
+    "y1": 495.84,
+    "y2": 582.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-TableII-1.png"
+}, {
+  "caption": "Fig. 4. Example of the BLEURT high score explanation",
+  "captionBoundary": {
+    "x1": 92.99210357666016,
+    "x2": 263.5841979980469,
+    "y1": 684.1452026367188,
+    "y2": 687.56982421875
+  },
+  "figType": "Figure",
+  "imageText": ["FuseFL", "Explanation:", "The", "\"TypeError:", "‘int’", "object", "is", "not", "iterable\"", "occurs", "because", "the", "variable", "\"i\"", "is", "an", "integer", "and", "cannot", "be", "iterated", "over.", "Human", "Explanation:", "This", "line", "tries", "to", "iterate", "over", "\"i\".", "However,", "because", "\"i\"", "is", "an", "integer,", "it", "will", "lead", "to", "TypeError:", "\"int\"", "object", "is", "not", "iterable"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 296.15999999999997,
+    "y1": 549.6,
+    "y2": 678.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. Example of the BLEURT low score explanation",
+  "captionBoundary": {
+    "x1": 94.09420013427734,
+    "x2": 262.4831848144531,
+    "y1": 527.2332153320312,
+    "y2": 530.6578369140625
+  },
+  "figType": "Figure",
+  "imageText": ["FuseFL", "Explanation:", "The", "code", "mistakenly", "uses", "the", "subtraction", "operator", "instead", "of", "the", "assignment", "operator.", "Change", "\"biggest", "-", "i\"", "to", "\"biggest", "=", "i\"", "to", "correctly", "update", "the", "value", "of", "\"biggest\"", "with", "the", "current", "tuple", "\"i\"", "if", "it", "has", "a", "higher", "age.", "Human", "Explanation:", "This", "line", "is", "executed", "when", "the", "condition", "of", "\"i[1]", ">", "biggest[1]\"", "is", "satisﬁed.", "However,", "the", "syntax", "of", "this", "line", "is", "incomplete,", "in", "this", "line,", "it", "only", "has", "\"biggest", "-", "i\"", "without", "the", "assignment", "variable", "itself.", "RQ2", "Findings:", "The", "average", "of", "the", "BLEURT", "score", "in", "the", "Top-1", "result", "is", "0.492.", "We", "ﬁnd", "that", "the", "seemingly", "low", "BLEURT", "score", "does", "not", "necessarily", "mean", "that", "the", "explanation", "is", "incorrect;", "it", "indicates", "a", "variance", "between", "the", "FuseFL-generated", "and", "human", "explanations."],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 296.15999999999997,
+    "y1": 241.92,
+    "y2": 521.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure3-1.png"
+}, {
+  "caption": "TABLE IV THE TOP-K RESULTS BY USING DIFFERENT PROMPTS ON CHATGPT",
+  "captionBoundary": {
+    "x1": 203.00839233398438,
+    "x2": 413.89483642578125,
+    "y1": 75.93611145019531,
+    "y2": 87.65838623046875
+  },
+  "figType": "Table",
+  "imageText": ["Baseline", "[18]", "CoT", "TestRes", "SusScore", "CodeDesc", "SusScore+TestRes", "TestRes+CodeDesc", "SusScore+CodeDesc", "FuseFL", "Top-1", "150", "163", "187", "169", "180", "192", "190", "177", "197", "Top-2", "190", "197", "232", "217", "211", "231", "231", "222", "240", "Top-3", "216", "214", "242", "257", "230", "256", "246", "255", "259"],
+  "name": "IV",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 547.1999999999999,
+    "y1": 96.96,
+    "y2": 133.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-TableIV-1.png"
+}, {
+  "caption": "Fig. 1. Proposed Approach",
+  "captionBoundary": {
+    "x1": 133.1033935546875,
+    "x2": 215.15684509277344,
+    "y1": 570.2000122070312,
+    "y2": 573.5903930664062
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 293.28,
+    "y1": 368.64,
+    "y2": 568.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. Example of FuseFL explanation with low informativeness score",
+  "captionBoundary": {
+    "x1": 66.64800262451172,
+    "x2": 284.3359680175781,
+    "y1": 194.7550811767578,
+    "y2": 198.21429443359375
+  },
+  "figType": "Figure",
+  "imageText": ["FuseFL", "Explanation:", "The", "line", "checks", "if", "the", "count", "of", "\"x\"", "in", "\"lst\"", "is", "greater", "than", "1.", "This", "condition", "determines", "if", "an", "element", "is", "repeated", "in", "the", "list."],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 294.24,
+    "y1": 74.88,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. Example of correct FuseFL explanation",
+  "captionBoundary": {
+    "x1": 103.31449890136719,
+    "x2": 247.66859436035156,
+    "y1": 370.5321044921875,
+    "y2": 373.9913024902344
+  },
+  "figType": "Figure",
+  "imageText": ["FuseFL", "Explanation:", "The", "code", "attempts", "to", "initialize", "a", "new", "list", "\"one\"", "with", "the", "ﬁrst", "element", "of", "the", "input", "list", "\"lst\".", "However,", "if", "the", "input", "list", "is", "empty,", "an", "IndexError", "occurs", "because", "there", "is", "no", "element", "at", "index", "0.", "Human", "Explanation:", "The", "initial", "value", "of", "\"one\"", "is", "set", "to", "contain", "the", "ﬁrst", "element", "of", "the", "\"lst\".", "However,", "if", "\"lst\"", "is", "empty,", "this", "line", "will", "throw", "an", "IndexError."],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 294.24,
+    "y1": 212.64,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Example of wrong FuseFL explanation",
+  "captionBoundary": {
+    "x1": 360.6199035644531,
+    "x2": 503.3511047363281,
+    "y1": 263.4695739746094,
+    "y2": 266.92877197265625
+  },
+  "figType": "Figure",
+  "imageText": ["FuseFL", "Explanation:", "This", "line", "incorrectly", "updates", "the", "counter", "when", "x", "is", "less", "than", "the", "current", "element", "in", "the", "sequence.", "It", "should", "update", "the", "counter", "only", "when", "x", "is", "greater", "than", "or", "equal", "to", "the", "current", "element.", "Human", "Explanation:", "The", "condition", "checks", "if", "\"x\"", "is", "less", "than", "previous", "element,", "if", "it", "is,", "\"i-1\"", "would", "be", "assigned", "to", "\"counter\".", "However,", "on", "the", "line", "8,", "the", "variable", "\"counter\"", "is", "assigned", "with", "\"i\"", "which", "overwrite", "the", "counter", "that", "is", "updated", "in", "the", "next", "line."],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 550.0799999999999,
+    "y1": 72.96,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. Template of generated prompt",
+  "captionBoundary": {
+    "x1": 122.32039642333984,
+    "x2": 237.99462890625,
+    "y1": 399.6748962402344,
+    "y2": 403.13409423828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 283.2,
+    "y1": 73.92,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure2-1.png"
+}, {
+  "caption": "TABLE III EVALUATION RESULTS DIVIDED BY THE DEVELOPERS EXPERIENCE.",
+  "captionBoundary": {
+    "x1": 324.6551513671875,
+    "x2": 535.085693359375,
+    "y1": 74.50917053222656,
+    "y2": 86.2308349609375
+  },
+  "figType": "Table",
+  "imageText": ["Developers", "Correctness", "Informativeness", "Clarity", "Experienced", "23", "5.6", "5.5", "Novice", "27", "6.2", "6.0"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 525.12,
+    "y1": 96.0,
+    "y2": 123.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-TableIII-1.png"
+}, {
+  "caption": "Fig. 8. Error type distribution with the fault localization results.",
+  "captionBoundary": {
+    "x1": 82.26029968261719,
+    "x2": 277.6800842285156,
+    "y1": 162.99269104003906,
+    "y2": 166.451904296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 285.12,
+    "y1": 67.67999999999999,
+    "y2": 161.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. Error type distribution with the explanation results.",
+  "captionBoundary": {
+    "x1": 90.2948989868164,
+    "x2": 269.6451110839844,
+    "y1": 270.0434265136719,
+    "y2": 273.50262451171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 285.12,
+    "y1": 174.72,
+    "y2": 268.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00064-Figure9-1.png"
+}]

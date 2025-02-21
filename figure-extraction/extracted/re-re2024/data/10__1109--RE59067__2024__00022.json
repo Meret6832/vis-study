@@ -1,0 +1,341 @@
+[{
+  "caption": "Fig. 5: Horn inference rules for binary relations between two events or two measures. Rules with trailing “+”s and “-”s derive positive and negative relations, respectively. Alg. 2 always propagates on negative (“-”) before propagating on positive (“+”) rules.",
+  "captionBoundary": {
+    "x1": 59.65910339355469,
+    "x2": 542.8839111328125,
+    "y1": 312.4051818847656,
+    "y2": 328.0527648925781
+  },
+  "figType": "Figure",
+  "imageText": ["pb", "opposite", "ps", "pa", "opposite", "pb", "(MOPcoms+)", "pa", "mutualExc", "pb", "∧", "¬pa", "mutualExc", "¬pb", "pa", "opposite", "pb", "(MOPME+)", "pa", "opposite", "pc", "(MOPEQ+)", "pa", "equal", "¬pb", "pa", "equal", "pb", "(MEQOP+)", "pa", "equal", "pb", "pb", "equal", "pa", "(MEQcom+)", "pa", "opposite", "¬pb", "∧", "pb", "imply", "pa", "pa", "equal", "pb", "(MEQIP+)", "pa", "imply", "pb", "∧", "pb", "imply", "pa", "pb", "mutualExc", "pa", "pa", "mutualExc", "pb", "(MMEcomm+)", "pa", "imply", "pb", "∧", "pb", "mutualExc", "pc", "pa", "mutualExc", "pc", "(MMEtrans+)", "not", "(pa", "mutualExc", "pb)", "(MME1+)", "pa", "imply", "pb", "Inference", "rules", "for", "relations", "between", "two", "propostions", "over", "measures.", "pa", "mutualExc", "pb", "not", "(pa", "imply", "pb)", "(MIP1−)", "pa", "imply", "pb", "∧", "pb", "imply", "ec", "pa", "imply", "pc", "(MIPtrans+)", "pa", "equal", "pb", "pa", "imply", "pb", "(IPEQ1+)", "pa", "equal", "pb", "¬pa", "imply", "¬pb", "(IPEQ2+)", "ea", "happenBefore", "ec", "(HBtrans3+)", "eb", "hypernym", "ea", "∧", "eb", "happenBefore", "ec", "ea", "happenBefore", "ec", "(HBtrans2+)", "ea", "happenBefore", "eb", "∧", "ec", "hypernym", "eb", "ea", "happenBefore", "ec", "(HBtrans1+)", "ea", "happenBefore", "eb", "∧", "eb", "happenBefore", "ec", "ea", "equal", "eb", "(EQIP+)", "ea", "equal", "eb", "eb", "equal", "ea", "(EQcom+)", "ea", "hypernym", "eb", "∧", "eb", "hypernym", "ea", "eb", "isContradictoryWith", "ea", "ea", "isContradictoryWith", "eb", "(MEcomm+)", "ea", "hypernym", "eb", "∧", "eb", "isContradictoryWith", "ec", "ea", "isContradictoryWith", "ec", "(MEtrans+)", "not", "(ea", "isContradictoryWith", "eb)", "(ME1−)", "ea", "hypernym", "eb", "ea", "hypernym", "ec", "(IP", "trans+)", "ea", "equal", "eb", "ea", "hypernym", "eb", "(IPEQ+)", "ea", "hypernym", "eb", "∧", "eb", "hypernym", "ec", "not", "(ea", "hypernym", "eb)", "(IP2−)", "ea", "happenBefore", "eb", "not", "(ea", "hypernym", "eb)", "(IP1−)", "Inference", "rules", "for", "relations", "between", "two", "events.", "ea", "isContradictoryWith", "eb"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 546.24,
+    "y1": 73.92,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure5-1.png"
+}, {
+  "caption": "Fig. 6: LLM query for finding binary relations of “happensBefore”.",
+  "captionBoundary": {
+    "x1": 315.27099609375,
+    "x2": 551.2646484375,
+    "y1": 436.83416748046875,
+    "y2": 441.2449951171875
+  },
+  "figType": "Figure",
+  "imageText": ["For", "every", "pair", "of", "events", "ea", "and", "eb,", "can", "you", "please", "answer", "the", "following", "question:", "Is", "it", "the", "case", "that", "there", "is", "always", "an", "occurrence", "of", "ea", "that", "happens", "before", "every", "occurrence", "of", "eb?", "If", "yes,", "please", "say", "ea", "happenBefore", "eb.", "If", "no,", "please", "say", "not", "(ea", "happenBefore", "eb).", "For", "example,", "Cre-", "ateForm", "happenBefore", "ShowForm", "is", "correct", "because", "CreateForm", "is", "the", "prerequisite", "of", "ShowForm."],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 544.3199999999999,
+    "y1": 344.64,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure6-1.png"
+}, {
+  "caption": "Fig. 7: Output format for binary relations of “happensBefore”.",
+  "captionBoundary": {
+    "x1": 321.8949890136719,
+    "x2": 544.6398315429688,
+    "y1": 534.6041870117188,
+    "y2": 539.0150146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 499.2,
+    "y1": 459.84,
+    "y2": 526.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure7-1.png"
+}, {
+  "caption": "TABLE VII: RAINCOAT compared to common practice. We record: true positive (TP) and false negative (FP) in the extracted capabilities relation (rel.); the number of new issues identified (after capturing the semantic relations) for vacuous conflict (v-conf.), situational conflict (s-conf.), redundancy (redund.), restrictiveness (restrict.), and insufficiency (insuff.); and the number of iterations for each WFI type.",
+  "captionBoundary": {
+    "x1": 59.93046569824219,
+    "x2": 543.1561889648438,
+    "y1": 74.75897979736328,
+    "y2": 97.8994140625
+  },
+  "figType": "Table",
+  "imageText": ["RAINCOAT-", "Tabiat", "28", "(37", "−", "18)", "17", "-", "21", "0", "0", "0", "0", "0", "1", "3", "3", "0", "0", "elicitation-validation", "Casper", "26", "(38", "−", "14)", "23", "-", "22", "0", "0", "0", "0", "0", "0", "0", "1", "0", "1", "adhoc-elicitation", "Tabiat", "19", "(27", "−", "13)", "13", "-", "20", "0", "0", "0", "not", "applicable", "not", "applicable", "systematic-elicitation", "Casper", "57", "(59", "−", "24)", "11", "-", "18", "22", "2", "12", "not", "applicable", "not", "applicable", "(evnt.−", "msr.)", "(TP", "-", "FP)", "v-conf.", "s-conf.", "redund.", "insufﬁ.", "restrict.", "v-conf.", "s-conf.", "insufﬁ.", "restrict.", "redund.", "experiments", "cases", "rules", "relations", "WFI", "Number", "of", "iterations"],
+  "name": "VII",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 513.12,
+    "y1": 105.6,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-TableVII-1.png"
+}, {
+  "caption": "Fig. 1: Overview of RAINCOAT: the noRmAtive requIremeNts eliCitatiOn and vAlidaTion approach.",
+  "captionBoundary": {
+    "x1": 314.4670104980469,
+    "x2": 550.4625854492188,
+    "y1": 282.1641845703125,
+    "y2": 295.94000244140625
+  },
+  "figType": "Figure",
+  "imageText": ["II.b.", "Review", "relations", "semantic", "relations", "system", "capabilities", "II.a.", "Extracting", "SLEEC", "principles", ":", "Manual", ":", "LLM-San", ":", "automated", "reasoning", "support", "IV.", "WFI", "resolution", "◻", "conﬂicts", "◻", "insufﬁciency", "◻", "restrictiveness", "◻", "redundancy", "III.", "WFI", "identiﬁcation", "II.", "Sanitizing", "deﬁnitions", "I.", "Requirements", "elicitation", "well-formed", "SLEEC", "requirements", "III.a.", "Confwell", "I.", "RAINCOAT"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 554.4,
+    "y1": 72.96,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure1-1.png"
+}, {
+  "caption": "TABLE I: Syntax of normalized SLEEC with signature (E, M ).",
+  "captionBoundary": {
+    "x1": 318.6090087890625,
+    "x2": 546.32177734375,
+    "y1": 307.43817138671875,
+    "y2": 311.8489990234375
+  },
+  "figType": "Table",
+  "imageText": ["Name", "Deﬁnition", "Term", "t", ":=", "c", "∶", "N", "∣", "m", "∈", "M", "∣", "−t", "∣", "t", "+", "t", "∣", "c", "×", "t", "Proposition", "p", ":=", "⊺", "∣", "∣", "t", "=", "t", "∣", "t", "≥", "t", "∣", "not", "p", "∣", "p", "and", "p", "∣", "p", "or", "p", "Obligation", "ob+", ":=", "ewithin", "t", "∣", "ob−", ":=", "not", "ewithin", "t", "Cond", "Obligation", "cob+", ":=", "p", "⇒", "ob+", "∣", "cob−", ":=", "p", "⇒", "ob−", "Obligation", "Chain", "⋁cob", ":=", "cob", "∣", "cob+", "otherwise", "⋁cob", "Rule", "r", ":=", "when", "e", "and", "p", "then", "⋁cob", "Fact", "f", ":=", "exists", "e", "and", "pwhile", "(⋁cob", "∣", "not", "⋁cob)"],
+  "name": "I",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 520.3199999999999,
+    "y1": 319.68,
+    "y2": 380.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-TableI-1.png"
+}, {
+  "caption": "Fig. 8: LLM output for a positive relation of “happensBefore.”",
+  "captionBoundary": {
+    "x1": 63.999698638916016,
+    "x2": 283.962646484375,
+    "y1": 150.64596557617188,
+    "y2": 154.968994140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 296.15999999999997,
+    "y1": 72.0,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure8-1.png"
+}, {
+  "caption": "Fig. 9: Follow-up query for confirming the relation UserWantsToCook happenBefore BeforeCookingBegins.",
+  "captionBoundary": {
+    "x1": 315.3349914550781,
+    "x2": 551.3301391601562,
+    "y1": 130.68017578125,
+    "y2": 146.3289794921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 557.28,
+    "y1": 73.92,
+    "y2": 122.39999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure9-1.png"
+}, {
+  "caption": "TABLE VI: LLM-San effectiveness. We record: true positive (TP) and false negative (FP) in the extracted capabilities relation (rel.); the number of hyponyms (hyp.), coincidences (coi.), contradicting (cont.), happening before (h.b.), implications (imp.), mutually exclusive (m.e.), equivalences (eq.), induce (induc), and forbid (forb.) relations added; the number of new issues identified (after capturing the semantic relations) for vacuous conflict (v-conf.), situational conflict (s-conf.), redundancy (redund.), restrictiveness (restrict.), and insufficiency (insuff.).",
+  "captionBoundary": {
+    "x1": 60.40238571166992,
+    "x2": 543.6337280273438,
+    "y1": 73.90100860595703,
+    "y2": 106.4071044921875
+  },
+  "figType": "Table",
+  "imageText": ["CSI-Cobot", "20", "(23-11)", "3", "-", "3", "0", "0", "3", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "DAISY", "26", "(45-31)", "15", "-", "5", "0", "0", "9", "0", "0", "3", "0", "0", "3", "5", "0", "4", "0", "0", "DPA", "26", "(28-25)", "3", "-", "2", "0", "0", "2", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "DressAssist", "31", "(54-42)", "0", "-", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "SafeSCAD", "28", "(29-20)", "1", "-", "8", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "ALMI", "39", "(41", "−", "15)", "5", "-", "2", "0", "0", "0", "0", "2", "2", "1", "0", "0", "0", "0", "0", "0", "0", "ASPEN", "15", "(25", "−", "18)", "19", "-", "8", "0", "0", "7", "1", "2", "7", "1", "0", "1", "1", "0", "1", "0", "0", "AutoCar", "19", "(36-26)", "6", "-", "19", "0", "0", "5", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "BSN", "29", "(33-31)", "1", "-", "3", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "2", "0", "0", "(evnt.−", "msr.)", "(TP", "-", "FP)", "hyp.", "coi.", "cont.", "h.b.", "imp.", "m.e.", "eq.", "induc.", "forb.", "v-conf.", "s-conf.", "redund.", "insufﬁ.", "restrict.", "cases", "rules", "relations", "number", "of", "relations", "by", "type", "new", "WFI"],
+  "name": "VI",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 513.12,
+    "y1": 114.24,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-TableVI-1.png"
+}, {
+  "caption": "TABLE II: Capabilities, definitions and requirements of DAISY [8].",
+  "captionBoundary": {
+    "x1": 314.5693664550781,
+    "x2": 550.56396484375,
+    "y1": 75.27747344970703,
+    "y2": 79.68829345703125
+  },
+  "figType": "Table",
+  "imageText": ["event", "ExamineState", "measure", "patientStressed", "event", "IdentifyDAISYTrust", "measure", "patientAgeConsidered", "event", "MeetingUser", "measure", "patientXReligion", "event", "MeetingPatient", "measure", "userDirectsOtherwise", "(b)", "Sample", "DAISY", "SLEEC", "deﬁnitions.", "-", "Meet", "a", "patient", "-", "Issue", "commands", "to", "the", "patient", "-", "Explain", "the", "protocols", "to", "the", "patient", "-", "Examine", "the", "patient", "-", "Collect", "patient", "data", "-", "Perform", "triage", "assessment", "-", "Provide", "instructions", "-", "Repeat", "the", "instructions", "-", "Request", "clinician", "intervention", "(a)", "DAISY", "capabilities."],
+  "name": "II",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 546.24,
+    "y1": 87.84,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-TableII-1.png"
+}, {
+  "caption": "Fig. 2: Trace for the DAISY robot example.",
+  "captionBoundary": {
+    "x1": 354.47900390625,
+    "x2": 510.6590270996094,
+    "y1": 331.1081848144531,
+    "y2": 335.5190124511719
+  },
+  "figType": "Figure",
+  "imageText": ["1", "30", "σ1", "∅", "patientStressed", "ExaminingPatient", "time", "then", "not", "ExaminingPatient", "unless", "userDirectsOtherwise", "unless", "medicalEmergency", "Rule10", "when", "MeetingUser", "then", "ExamineState", "Rule13", "when", "MeetingUser", "then", "IdentifyDAISYTrust", "Rule16", "when", "MeetingUser", "then", "ExaminingPatient", "within", "30", "minutes", "unless", "patientStressed", "Rule19", "when", "MeetingUser", "and", "patientXReligion", "(c)", "Sample", "DAISY", "SLEEC", "requirements."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 543.36,
+    "y1": 191.04,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: A conflicting situation of R2 in Example 2.",
+  "captionBoundary": {
+    "x1": 335.58099365234375,
+    "x2": 529.5556030273438,
+    "y1": 693.358154296875,
+    "y2": 697.7689819335938
+  },
+  "figType": "Figure",
+  "imageText": ["A", "B", "1", "6", "σ", "time"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 378.24,
+    "x2": 489.12,
+    "y1": 660.48,
+    "y2": 678.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure3-1.png"
+}, {
+  "caption": "Fig. 10: A diagnosis showing that Rule10 and the relation MeetingUser isContradictoryWith with ExamineState cause a vacuous conflict.",
+  "captionBoundary": {
+    "x1": 315.0899963378906,
+    "x2": 551.0888061523438,
+    "y1": 149.80615234375,
+    "y2": 176.6929931640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 553.4399999999999,
+    "y1": 72.96,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure10-1.png"
+}, {
+  "caption": "Fig. 4: Redundancy diagnosis example.",
+  "captionBoundary": {
+    "x1": 363.94500732421875,
+    "x2": 502.9057312011719,
+    "y1": 164.08917236328125,
+    "y2": 168.5
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 553.4399999999999,
+    "y1": 73.92,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-Figure4-1.png"
+}, {
+  "caption": "TABLE III: Example relations between events.",
+  "captionBoundary": {
+    "x1": 95.01809692382812,
+    "x2": 262.0631103515625,
+    "y1": 73.80670928955078,
+    "y2": 78.217529296875
+  },
+  "figType": "Table",
+  "imageText": ["happen", "locking", "the", "door", "occurs", "after", "closing", "it", "before", "ClosingDoor", "happensBefore", "LockingDoor", "contradictory", "impossible", "to", "open", "and", "close", "the", "door", "simultaneously", "OpeningDoor", "isContradictoryWith", "ClosingDoor", "equal", "patient", "and", "client", "are", "interchangeable,", "when", "patients", "are", "the", "only", "clients", "CallPatient", "equal", "CallClients", "DrinkWater", "hypernym", "DrinkLiquid", "Relation", "SLEEC", "DSL", "example", "hypernym", "water", "is", "an", "instance", "of", "liquid"],
+  "name": "III",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 292.32,
+    "y1": 86.88,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: Example semantic relations between measures.",
+  "captionBoundary": {
+    "x1": 327.4217224121094,
+    "x2": 538.07080078125,
+    "y1": 75.63910675048828,
+    "y2": 80.05267333984375
+  },
+  "figType": "Table",
+  "imageText": ["equal", "patient", "and", "user", "are", "interchangeable,", "when", "patients", "are", "the", "only", "users", "patientConsented", "equal", "userConsented", "mutual", "opened", "door", "can", "not", "be", "locked", "exclusive", "doorOpened", "mutuallyExclusive", "doorLocked", "opposite", "the", "door", "can", "be", "either", "opened", "or", "closed", "doorOpened", "oppositeTo", "doorClosed", "imply", "opened", "door", "can", "not", "be", "locked", "doorOpened", "imply", "not", "doorLocked", "Notation", "SLEEC", "DSL", "example"],
+  "name": "IV",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 541.4399999999999,
+    "y1": 88.8,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-TableIV-1.png"
+}, {
+  "caption": "TABLE V: Example dependencies between events and measures.",
+  "captionBoundary": {
+    "x1": 317.61700439453125,
+    "x2": 547.877197265625,
+    "y1": 173.40814208984375,
+    "y2": 177.8189697265625
+  },
+  "figType": "Table",
+  "imageText": ["for", "when", "LoginConfirmed", "then", "loggedIn", "for", "10", "minutes", "until", "when", "CollectConsent", "then", "consentObtained", "until", "ConsentWithdraw", "induce", "CollectConsent", "induces", "consentObtained", "forbidden", "inWater", "forbids", "CarStartSpeeding", "ID", "SLEEC", "DSL", "example"],
+  "name": "V",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 528.0,
+    "y1": 186.23999999999998,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00022-TableV-1.png"
+}]

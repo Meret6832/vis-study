@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 1. The overview: Themonitoring systemmonitors themicroservice system and collects the time series data. Our BARO consists of two components: Multivariate BOCPD and RobustScorer. The Multivariate BOCPD acts as an anomaly detection module to continuously check whether there is an anomaly. If there exists an anomaly, it triggers RobustScorer to score and rank the root cause services and metrics correspondingly.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.5536193847656,
+    "y1": 192.87185668945312,
+    "y2": 229.98098754882812
+  },
+  "figType": "Figure",
+  "imageText": ["time", "series", "metrics", "data", "Ranked", "list", "of", "root", "causes", "Microservice", "System", "Monitoring", "System", "(Istio,", "Prometheus,..)", "(3)", "Our", "proposed", "BARO", "orders_memory", "carts_memory", "carts_cpu", "top5", "top1", "top2", "Change", "Point", "Detection", "(2)", "RobustScorer", "(1)", "Multivariate", "Bayesian", "Online"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 47.519999999999996,
+    "x2": 440.15999999999997,
+    "y1": 84.0,
+    "y2": 177.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Figure1-1.png"
+}, {
+  "caption": "Fig. 3. The Robustness of RobustScorer against imprecise anomaly detection time. In (a), an early anomaly detection time reduces the number of data points used to compute the distribution of the normal data in the hypothesis test. Median and IQR show greater resilience to a limited data se ing compared to mean and standard deviation. In (b), a delayed anomaly detection time includes abnormal data (outliers) into the normal period. Median and IQR also show robustness to these outliers be er than mean and standard deviation.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.3943176269531,
+    "y1": 414.1888427734375,
+    "y2": 462.2560119628906
+  },
+  "figType": "Figure",
+  "imageText": ["`CAD4=0.23,", "fCAD4=0.20", "<43CAD4=0.17,", "&'CAD4=0.17", "Ĉ", "C", "`Ĉ", "=0.27,", "fĈ", "=0.24", "<43Ĉ", "=0.19,", "&'Ĉ", "=0.19", "(b)", "delayed", "anomaly", "detection", "Ĉ", "`CAD4=0.23,", "fCAD4=0.20", "<43CAD4=0.17,", "&'CAD4=0.17", "Ĉ", "C", "`Ĉ", "=0.20,", "fĈ", "=0.15", "<43Ĉ", "=0.16,", "&'Ĉ", "=0.16", "(a)", "early", "anomaly", "detection", "time", "Ĉ"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 426.24,
+    "y1": 339.84,
+    "y2": 403.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Figure3-1.png"
+}, {
+  "caption": "Table 2. Precision, Recall, and F1-score of five anomaly detectors on three datasets: Online Boutique, Sock Shop, and Train Ticket. The best scores are in bold. Higher values indicate be er performance.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.39898681640625,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["within", "each", "chunk.", "Subsequently,", "it", "combines", "these", "root", "causes", "and", "repeats", "this", "process", "until", "only", "one", "chunk", "remains.", "•", "CIRCA", "[44]:", "CIRCA", "creates", "a", "causal", "graph", "by", "using", "a", "provided", "call", "graph,", "which", "requires", "operational", "knowledge.", "Then,", "it", "performs", "regression-based", "hypothesis", "testing", "to", "ﬁnd", "the", "root", "causes.", "Since", "the", "call", "graph", "is", "not", "available,", "thus", "following", "[40,", "47],", "we", "use", "the", "PC", "algorithm", "to", "construct", "this", "graph", "for", "CIRCA.", "•", "N-Sigma", "[44,", "46]:", "N-Sigma", "is", "a", "statistical", "analysis", "technique", "that", "compares", "the", "metrics", "data", "before", "and", "after", "the", "anomaly", "detection", "time", "using", "z-score.", "The", "higher", "the", "score,", "the", "more", "likely", "that", "metric", "is", "the", "root", "cause", "of", "the", "failure.", "(*)", "UniBCP", "denotes", "Univariate", "Oﬄine", "Bayesian", "Change", "Point", "Detection.", "Method", "Pre", "Rec", "F1", "Pre", "Rec", "F1", "Pre", "Rec", "F1", "N-Sigma", "0.54", "1", "0.7", "0.56", "1", "0.72", "0.5", "1", "0.67", "SPOT", "0.53", "1", "0.69", "0.53", "1", "0.69", "0.5", "1", "0.67", "BIRCH", "0.35", "0.48", "0.4", "0.05", "0.05", "0.05", "0.39", "0.4", "0.39", "UniBCP", "0.51", "1", "0.67", "0.5", "0.99", "0.66", "0.5", "1", "0.67", "BARO", "(Ours)", "0.69", "1", "0.82", "0.6", "1", "0.75", "0.68", "1", "0.81", "Online", "Boutique", "Sock", "Shop", "Train", "Ticket"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 440.64,
+    "y1": 112.8,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Table2-1.png"
+}, {
+  "caption": "Fig. 2. An example of using Multivariate BOCPD to detect change points on multivariate time series data. Do ed vertical red lines indicate change points. We observe that Multivariate BOCPD can provide the anomaly detection time (the first change point) accurately that separate the normal and abnormal period. In the abnormal period there are multiple change points due to the failure propagation chain.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.5533752441406,
+    "y1": 169.96487426757812,
+    "y2": 207.073974609375
+  },
+  "figType": "Figure",
+  "imageText": ["carts-latency", "frontend-latency", "orders-latency", "shipping-latency", "ﬁrst", "detected", "change", "point", "(b)", "A", "sample", "from", "Sock", "Shop", "dataset", "cart-latency", "checkout-latency", "currency-latency", "frontend-latency", "ﬁrst", "detected", "change", "point", "(a)", "A", "sample", "from", "Online", "Boutique", "dataset"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 431.03999999999996,
+    "y1": 86.88,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Figure2-1.png"
+}, {
+  "caption": "Fig. 5. The performance of N-Sigma, n-Diagnosis, CIRCA, RCD, and BARO w.r.t. different values of Cbias on the Online Boutique dataset. The figure presents the AC@1, AC@3, and Avg@5 scores from le to right.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1720275878906,
+    "y1": 166.59085083007812,
+    "y2": 181.781982421875
+  },
+  "figType": "Figure",
+  "imageText": ["N-Sigma", "n-Diagnosis", "CIRCA", "RCD", "BARO", "(ours)", "0.75", "A", "v", "g", "@", "5", "A", "cc", "u", "ra", "cy", "0.50", "0.25", "-40", "-30", "-20", "-10", "0", "10", "20", "30", "40", "C180B", "0.75", "A", "C", "@", "3", "A", "cc", "u", "ra", "cy", "0.50", "0.25", "-40", "-30", "-20", "-10", "0", "10", "20", "30", "40", "C180B", "0.50", "A", "C", "@", "1", "A", "cc", "u", "ra", "cy", "0.25", "0.00", "-40", "-30", "-20", "-10", "0", "10", "20", "30", "40", "C180B"],
+  "name": "5",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 417.12,
+    "y1": 84.0,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. The performance of CIRCA (a), RCD (b), and n-Diagnosis (c) w.r.t. their different parameter values on the Online Boutique dataset. The figure presents their AC@1, AC@3, and Avg@5 scores.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1751403808594,
+    "y1": 282.82086181640625,
+    "y2": 298.0119934082031
+  },
+  "figType": "Figure",
+  "imageText": ["AC@1", "AC@3", "Avg@5", "(c)", "n-Diagnosis", "w.r.t", "diﬀerent", "values", "of", "U", "A", "cc", "u", "ra", "cy", "0.15", "0.10", "0.05", "U", "0.01", "0.02", "0.05", "0.1", "0.2", "0.5", "(b)", "RCD", "w.r.t", "diﬀerent", "values", "of", "W", "A", "cc", "u", "ra", "cy", "0.5", "0.4", "W", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "(a)", "CIRCA", "w.r.t", "diﬀerent", "values", "of", "U", "A", "cc", "u", "ra", "cy", "0.8", "0.6", "U", "0.01", "0.02", "0.05", "0.1", "0.2", "0.5"],
+  "name": "6",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 424.8,
+    "y1": 186.72,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Figure6-1.png"
+}, {
+  "caption": "Table 4. Fine-grained performance of different RCA methods in terms of Avg@5 accuracy on three different datasets. The fault types CPU, MEM, DELAY, and LOSS denote CPU overload, memory leak, network delay, and packet loss. The highest scores are in bold, and the second highest scores are in underscore.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1551818847656,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Method", "CPU", "MEM", "DELAY", "LOSS", "AVG", "CPU", "MEM", "DELAY", "LOSS", "AVG", "CPU", "MEM", "DELAY", "LOSS", "AVG", "Dummy", "0.08", "0.06", "0.07", "0.06", "0.07", "0.1", "0.07", "0.07", "0.06", "0.08", "0.02", "0.02", "0.02", "0.01", "0.02", "CausalRCA", "0.55", "0.78", "0.86", "0.39", "0.65", "0.39", "0.42", "0.49", "0.34", "0.41", "0.51", "0.13", "0.1", "0.09", "0.21", "n-Diagnosis", "[Cinject]", "0.07", "0.03", "0.06", "0.02", "0.05", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "n-Diagnosis", "[N-Sigma]", "0", "0.06", "0.2", "0.13", "0.1", "0.02", "0", "0", "0", "0.01", "0", "0", "0", "0", "0", "n-Diagnosis", "[BIRCH]", "0", "0.07", "0.21", "0.14", "0.11", "-", "0", "-", "0", "0", "0", "0", "0.2", "0", "0", "n-Diagnosis", "[SPOT]", "0.06", "0.02", "0.14", "0.06", "0.07", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "n-Diagnosis", "[UniBCP]", "0", "0", "0.3", "0.12", "0.11", "0", "0", "0.11", "0.09", "0.05", "0.05", "0", "0.05", "0", "0.03", "n-Diagnosis", "[BOCPD]", "0.02", "0.04", "0.1", "0.12", "0.07", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "RCD", "[Cinject]", "0.16", "0.26", "0.22", "0.18", "0.21", "0.02", "0.17", "0.1", "0.07", "0.09", "0", "0", "0.06", "0", "0.02", "RCD", "[N-Sigma]", "0.16", "0.29", "0.23", "0.15", "0.21", "0", "0.16", "0.09", "0.07", "0.08", "0", "0", "0.03", "0", "0.01", "RCD", "[BIRCH]", "0.15", "0.27", "0.24", "0.19", "0.21", "0.01", "0.15", "0.11", "0.06", "0.08", "0", "0", "0.02", "0", "0", "RCD", "[SPOT]", "0.14", "0.31", "0.23", "0.15", "0.21", "0.02", "0.16", "0.11", "0.06", "0.09", "0", "0", "0.04", "0", "0.01", "RCD", "[UniBCP]", "0.16", "0.31", "0.22", "0.14", "0.21", "0.01", "0.16", "0.09", "0.07", "0.08", "0", "0", "0.04", "0", "0.01", "RCD", "[BOCPD]", "0.17", "0.28", "0.24", "0.17", "0.22", "0.04", "0.16", "0.14", "0.07", "0.1", "0", "0", "0.03", "0", "0.01", "CIRCA", "[Cinject]", "0.42", "0.3", "0.9", "0.54", "0.54", "0.52", "0.58", "0.98", "0.86", "0.74", "0.48", "0.86", "0.55", "0.57", "0.62", "CIRCA", "[N-Sigma]", "0.22", "0.27", "0.79", "0.4", "0.42", "0.5", "0.42", "0.87", "0.66", "0.61", "0.48", "0.84", "0.51", "0.54", "0.59", "CIRCA", "[BIRCH]", "0.17", "0", "0.29", "0.38", "0.23", "-", "0", "-", "0.75", "0.60", "0.10", "0", "0.31", "0.13", "0.18", "CIRCA", "[SPOT]", "0.34", "0.18", "0.88", "0.6", "0.5", "0.5", "0.46", "0.94", "0.74", "0.66", "0.5", "0.88", "0.5", "0.5", "0.6", "CIRCA", "[UniBCP]", "0", "0", "0", "0.2", "0.05", "0.08", "0", "0", "0.15", "0.06", "0", "0", "0", "0.17", "0.04", "CIRCA", "[BOCPD]", "0.29", "0", "0.18", "0.35", "0.21", "0.42", "0.49", "0.34", "0.47", "0.43", "0.3", "0.12", "0.18", "0.09", "0.17", "N-Sigma", "[Cinject]", "0.54", "0.54", "0.94", "0.5", "0.63", "0.77", "0.7", "0.98", "0.88", "0.83", "0.6", "0.93", "0.54", "0.65", "0.68", "N-Sigma", "[N-Sigma]", "0.38", "0.33", "0.83", "0.48", "0.51", "0.66", "0.46", "0.87", "0.66", "0.66", "0.55", "0.94", "0.55", "0.59", "0.66", "N-Sigma", "[BIRCH]", "0.38", "0.33", "0.63", "0.46", "0.45", "-", "0", "-", "0.85", "0.68", "0.33", "0.65", "0.39", "0.33", "0.38", "N-Sigma", "[SPOT]", "0.41", "0.41", "0.92", "0.53", "0.57", "0.66", "0.58", "0.99", "0.77", "0.75", "0.56", "0.94", "0.55", "0.58", "0.66", "N-Sigma", "[UniBCP]", "0.37", "0.11", "0.91", "0.66", "0.51", "0.51", "0.08", "0.59", "0.74", "0.48", "0.2", "0.39", "0.38", "0.62", "0.4", "N-Sigma", "[BOCPD]", "0.46", "0.04", "0.51", "0.46", "0.37", "0.6", "0.54", "0.42", "0.52", "0.52", "0.35", "0.16", "0.21", "0.14", "0.22", "RobustScorer", "[Cinject]", "0.51", "0.48", "0.94", "0.49", "0.61", "0.81", "0.68", "0.98", "0.79", "0.82", "0.54", "0.9", "0.57", "0.6", "0.65", "RobustScorer", "[N-Sigma]", "0.54", "0.56", "0.88", "0.49", "0.62", "0.8", "0.72", "0.98", "0.83", "0.83", "0.46", "0.96", "0.52", "0.57", "0.63", "RobustScorer", "[BIRCH]", "0.42", "0.51", "0.79", "0.43", "0.54", "-", "0.8", "-", "0.85", "0.84", "0.33", "0.45", "0.49", "0.67", "0.49", "RobustScorer", "[SPOT]", "0.54", "0.51", "0.93", "0.47", "0.61", "0.81", "0.78", "0.99", "0.78", "0.84", "0.5", "0.93", "0.52", "0.58", "0.63", "RobustScorer", "[UniBCP]", "0.27", "0.04", "0.89", "0.61", "0.45", "0.46", "0.08", "0.59", "0.73", "0.47", "0.13", "0.31", "0.38", "0.54", "0.34", "BARO", "(Ours)", "0.51", "0.51", "0.95", "0.47", "0.61", "0.79", "0.67", "0.98", "0.8", "0.81", "0.54", "0.93", "0.58", "0.61", "0.67", "Online", "Boutique", "Sock", "Shop", "Train", "Ticket"],
+  "name": "4",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 115.67999999999999,
+    "y2": 432.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Table4-1.png"
+}, {
+  "caption": "Table 1. Characteristics of collected data from three benchmark microservice systems (#metrics, #svc, #t_svc: number of metrics, services, and targeted services in the system. #fault: number of fault types).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1598205566406,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Online", "Boutique", "49", "12", "5", "4", "100", "Sock", "Shop", "46", "11", "5", "4", "100", "Train", "Ticket", "212", "64", "5", "4", "100", "Name", "#metrics", "#svc", "#t_svc", "#fault", "#cases"],
+  "name": "1",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 123.83999999999999,
+    "x2": 362.4,
+    "y1": 112.8,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Table1-1.png"
+}, {
+  "caption": "Fig. 4. Overview of our setup for microservice systems.",
+  "captionBoundary": {
+    "x1": 141.50100708007812,
+    "x2": 344.4994812011719,
+    "y1": 250.31985473632812,
+    "y2": 254.552001953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 400.32,
+    "y1": 173.76,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Figure4-1.png"
+}, {
+  "caption": "Table 3. Coarse-grained performance of different RCA methods in terms of Avg@5 on three different datasets. The fault types CPU, MEM, DELAY, and LOSS denote CPU overload, memory leak, network delay, and packet loss. The highest scores are in bold, and the second highest scores are in underscore.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.5498962402344,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Method", "CPU", "MEM", "DELAY", "LOSS", "AVG", "CPU", "MEM", "DELAY", "LOSS", "AVG", "CPU", "MEM", "DELAY", "LOSS", "AVG", "Dummy", "0.24", "0.26", "0.27", "0.24", "0.25", "0.37", "0.41", "0.38", "0.37", "0.38", "0.07", "0.08", "0.07", "0.07", "0.07", "CausalRCA", "0.85", "0.91", "0.86", "0.58", "0.8", "0.49", "0.82", "0.61", "0.47", "0.6", "0.53", "0.3", "0.17", "0.11", "0.28", "n-Diagnosis", "[Cinject]", "0.1", "0.13", "0.12", "0.12", "0.12", "0.47", "0.3", "0.42", "0.49", "0.42", "0", "0.02", "0", "0", "0.01", "n-Diagnosis", "[N-Sigma]", "0.19", "0.16", "0.23", "0.22", "0.2", "0.49", "0.39", "0.46", "0.5", "0.46", "0", "0", "0", "0.02", "0.01", "n-Diagnosis", "[BIRCH]", "0.23", "0.33", "0.21", "0.14", "0.22", "-", "0", "-", "1", "0.8", "0.07", "0", "0", "0", "0.02", "n-Diagnosis", "[SPOT]", "0.37", "0.2", "0.17", "0.22", "0.24", "0.46", "0.34", "0.42", "0.46", "0.42", "0", "0.02", "0", "0", "0.01", "n-Diagnosis", "[UniBCP]", "0.28", "0.09", "0.4", "0.2", "0.24", "0.2", "0.19", "0.25", "0.2", "0.21", "0.05", "0.10", "0.08", "0.04", "0.07", "n-Diagnosis", "[BOCPD]", "0.23", "0.09", "0.18", "0.15", "0.16", "0.45", "0.35", "0.38", "0.44", "0.41", "0", "0", "0", "0.06", "0.02", "RCD", "[Cinject]", "0.69", "0.4", "0.27", "0.5", "0.47", "0.62", "0.46", "0.48", "0.37", "0.48", "0.08", "0.01", "0.09", "0.12", "0.08", "RCD", "[N-Sigma]", "0.67", "0.43", "0.31", "0.49", "0.48", "0.54", "0.42", "0.46", "0.37", "0.45", "0.07", "0", "0.05", "0.1", "0.06", "RCD", "[BIRCH]", "0.69", "0.37", "0.28", "0.50", "0.46", "0.57", "0.42", "0.49", "0.37", "0.46", "0.06", "0", "0.03", "0.11", "0.05", "RCD", "[SPOT]", "0.7", "0.42", "0.3", "0.48", "0.48", "0.58", "0.43", "0.46", "0.34", "0.45", "0.08", "0.01", "0.07", "0.09", "0.06", "RCD", "[UniBCP]", "0.66", "0.42", "0.29", "0.49", "0.47", "0.62", "0.44", "0.5", "0.36", "0.48", "0.05", "0.01", "0.05", "0.1", "0.05", "RCD", "[BOCPD]", "0.7", "0.4", "0.3", "0.52", "0.48", "0.6", "0.47", "0.48", "0.36", "0.48", "0.06", "0", "0.04", "0.09", "0.05", "CIRCA", "[Cinject]", "0.9", "0.74", "0.9", "0.55", "0.77", "0.97", "0.98", "0.98", "0.88", "0.95", "0.66", "0.93", "0.64", "0.57", "0.7", "CIRCA", "[N-Sigma]", "0.78", "0.59", "0.79", "0.48", "0.66", "0.86", "0.7", "0.87", "0.7", "0.78", "0.65", "0.88", "0.58", "0.57", "0.67", "CIRCA", "[BIRCH]", "0.45", "0.38", "0.27", "0.48", "0.39", "-", "0.60", "-", "0.75", "0.72", "0.10", "0", "0.35", "0.13", "0.19", "CIRCA", "[SPOT]", "0.76", "0.7", "0.88", "0.66", "0.75", "0.83", "0.87", "0.95", "0.78", "0.86", "0.69", "0.96", "0.58", "0.53", "0.69", "CIRCA", "[UniBCP]", "0.16", "0", "0", "0.35", "0.13", "0.23", "0", "0.2", "0.36", "0.2", "0", "0", "0", "0.33", "0.08", "CIRCA", "[BOCPD]", "0.68", "0.2", "0.28", "0.42", "0.4", "0.73", "0.98", "0.54", "0.66", "0.73", "0.37", "0.12", "0.3", "0.17", "0.24", "N-Sigma", "[Cinject]", "0.9", "0.93", "0.94", "0.66", "0.86", "0.98", "0.98", "0.98", "0.9", "0.96", "0.81", "0.96", "0.61", "0.7", "0.77", "N-Sigma", "[N-Sigma]", "0.79", "0.69", "0.83", "0.63", "0.74", "0.85", "0.77", "0.89", "0.79", "0.83", "0.74", "0.98", "0.61", "0.65", "0.75", "N-Sigma", "[BIRCH]", "0.83", "0.78", "0.64", "0.6", "0.71", "-", "0", "-", "0.85", "0.68", "0.55", "0.7", "0.47", "0.45", "0.51", "N-Sigma", "[SPOT]", "0.79", "0.79", "0.93", "0.65", "0.79", "0.87", "0.91", "0.99", "0.82", "0.9", "0.75", "0.98", "0.61", "0.64", "0.75", "N-Sigma", "[UniBCP]", "0.75", "0.69", "0.91", "0.76", "0.78", "0.86", "0.79", "0.69", "0.81", "0.79", "0.38", "0.71", "0.38", "0.62", "0.52", "N-Sigma", "[BOCPD]", "0.74", "0.32", "0.52", "0.58", "0.54", "0.8", "0.98", "0.63", "0.62", "0.76", "0.51", "0.16", "0.29", "0.22", "0.3", "RobustScorer", "[Cinject]", "0.9", "0.94", "0.94", "0.65", "0.86", "0.98", "0.98", "0.98", "0.86", "0.95", "0.9", "0.97", "0.62", "0.67", "0.79", "RobustScorer", "[N-Sigma]", "0.9", "0.96", "0.88", "0.58", "0.83", "0.96", "0.98", "0.98", "0.9", "0.96", "0.82", "0.98", "0.62", "0.64", "0.77", "RobustScorer", "[BIRCH]", "0.92", "0.93", "0.81", "0.51", "0.79", "-", "1", "-", "0.85", "0.88", "0.76", "0.55", "0.57", "0.71", "0.65", "RobustScorer", "[SPOT]", "0.89", "0.94", "0.93", "0.61", "0.84", "0.97", "0.98", "0.99", "0.86", "0.95", "0.85", "0.98", "0.61", "0.66", "0.78", "RobustScorer", "[UniBCP]", "0.73", "0.67", "0.89", "0.79", "0.77", "0.8", "0.65", "0.69", "0.84", "0.75", "0.37", "0.64", "0.38", "0.54", "0.48", "BARO", "(Ours)", "0.91", "0.96", "0.95", "0.62", "0.86", "0.97", "0.98", "0.98", "0.87", "0.95", "0.9", "0.98", "0.64", "0.7", "0.81", "Online", "Boutique", "Sock", "Shop", "Train", "Ticket"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 115.67999999999999,
+    "y2": 432.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660805-Table3-1.png"
+}]

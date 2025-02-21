@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 5: Automaton representation of Mariadb worker component’s life cycle with its associated incidence matrix for ports statuses.",
+  "captionBoundary": {
+    "x1": 315.2969665527344,
+    "x2": 546.6366577148438,
+    "y1": 222.3450469970703,
+    "y2": 250.88262939453125
+  },
+  "figType": "Figure",
+  "imageText": ["common", "ˆ", "ˆ", "ˆ", "haproxy", "ˆ", "ˆ", "ˆ", "ˆ", "master", "ˆ", "ˆ", "service", "ˆ", "ˆ", "ˆ", "ˆ", "state", "1", "2", "3", "4", "5", "deploy", "(3)", "deploy", "(4)", "deploy", "(5)", "uninstall", "(1)", "update", "(1)", "pause", "(1)", "interrupt", "(1)", "5", "4", "3", "2", "1"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 538.0799999999999,
+    "y1": 73.92,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-Figure5-1.png"
+}, {
+  "caption": "Fig. 1: Assembly of a multi-site OpenStack with a Galera cluster of distributed MariaDB databases. One node holds a Galera master and is connected to n sites. Each site is composed of three nodes. The content of the blue rectangles is not detailed, as not impacted by our choreography scenarios [12]. The content of the green rectangle is hidden in additional sites for the sake of readability.",
+  "captionBoundary": {
+    "x1": 314.36480712890625,
+    "x2": 545.75048828125,
+    "y1": 255.46534729003906,
+    "y2": 328.0693359375
+  },
+  "figType": "Figure",
+  "imageText": ["Master", "node", "Worker", "node", "n,", "Nova", "node", "n,", "Neutron", "node", "n", "Worker", "node", "Nova", "node", "nova", "mariadb_worker", "Neutron", "node", "Site", "n", "Site", "1", "mariadb_worker", "keystone", "neutron", "glance", "mariadb_master"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 521.76,
+    "y1": 75.84,
+    "y2": 243.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-Figure1-1.png"
+}, {
+  "caption": "TABLE IV: Comparison of tools in the literature according to the metrics of interest. The life cycle can either be fixed or programmable. Planner denotes the fact of having (or not) an automated planning phase within the tool. The CDO plan and CDO exec denote the fact of having a cross-DevOps decentralized mechanism for either the planner or the executor.",
+  "captionBoundary": {
+    "x1": 71.7031021118164,
+    "x2": 545.4356689453125,
+    "y1": 132.4212188720703,
+    "y2": 171.97540283203125
+  },
+  "figType": "Table",
+  "imageText": ["Ansible", "Puppet", "Terraform", "Pulumi", "Kubernetes", "Aeolus", "Concerto", "[5]", "[6]", "Muse", "Ballet[31]", "[15]", "[16]", "[8]", "[32]", "[30],", "[33]", "[10],", "[11]", "[4]", "Life", "cycle", "prog", "prog", "ﬁxed", "ﬁxed", "ﬁxed", "prog", "prog", "ﬁxed", "prog", "ﬁxed", "prog", "Planner", "CDO", "plan", "CDO", "exec"],
+  "name": "IV",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 532.3199999999999,
+    "y1": 74.88,
+    "y2": 126.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-TableIV-1.png"
+}, {
+  "caption": "Fig. 2: Control components of MariaDB master and MariaDB worker. State example when applying the reconfiguration plans of Fig. 4.",
+  "captionBoundary": {
+    "x1": 64.24729919433594,
+    "x2": 295.614501953125,
+    "y1": 233.63404846191406,
+    "y2": 262.171630859375
+  },
+  "figType": "Figure",
+  "imageText": ["bootstrapped", "bootstrapped", "behaviors:", "haproxy", "common", "haproxy", "common", "behaviors:", "master", "service", "deploy", "interrupt", "pause", "update", "uninstall", "interrupted", "deployed", "mdbworker0:MariaDB_worker", "registered", "restarted", "configured", "initiated", "service", "deploy", "interrupt", "pause", "update", "uninstall", "interrupted", "deployed", "mdbmaster:MariaDB_master", "registered", "restarted", "configured", "initiated"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 290.4,
+    "y1": 74.88,
+    "y2": 229.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-Figure2-1.png"
+}, {
+  "caption": "TABLE I: Results of the planning phase for the update scenario when varying the number of Mariadb workers in a Galera cluster. The number of messages sent in the gossip algorithm, the associated number of constraints, and reconfiguration instructions inferred by the planners are given.",
+  "captionBoundary": {
+    "x1": 315.16748046875,
+    "x2": 546.5823364257812,
+    "y1": 124.55121612548828,
+    "y2": 186.13848876953125
+  },
+  "figType": "Table",
+  "imageText": ["#Sites", "#Messages", "#Constraints", "#Instructions", "1", "9", "19", "23", "2", "18", "30", "43", "5", "45", "63", "103", "10", "90", "118", "203"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 542.4,
+    "y1": 73.92,
+    "y2": 118.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-TableI-1.png"
+}, {
+  "caption": "TABLE II: Comparison of durations (seconds) for planning and executing a deployment of a multi-site OpenStack (from 1 to 10 sites) and an update of the MariaDB master instance with Ballet and Muse. Results have shown a very low standard deviation (ă 0.1s) for running any scenarios with both engines.",
+  "captionBoundary": {
+    "x1": 315.1675109863281,
+    "x2": 546.5347900390625,
+    "y1": 284.51531982421875,
+    "y2": 346.1025085449219
+  },
+  "figType": "Table",
+  "imageText": ["2", "4.39s", "416.92s", "421.31s", "555.70s", "24.2%", "5", "6.05s", "417.17s", "423.22s", "556.08s", "24.0%", "10", "5.97s", "417.46s", "423.43s", "556.77s", "24.0%", "at", "e", "1", "3.36s", "416.84s", "420.20s", "555.56s", "24.4%", "U", "pd", "2", "1.78s", "306.09s", "307.86s", "536.69s", "42.6%", "5", "1.77s", "306.19s", "307.97s", "537.09s", "42.7%", "10", "2.02s", "306.14s", "308.19s", "538.13s", "42.7%", "lo", "y", "1", "1.69s", "306.02s", "307.71s", "536.57s", "42.7%", "D", "ep", "Sc.", "#", "Sites", "Ballet", "Muse", "GainPlanning", "Execution", "Total"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 547.1999999999999,
+    "y1": 200.64,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-TableII-1.png"
+}, {
+  "caption": "TABLE III: Average duration in seconds (and standard deviation) to calculate the plans for the update scenario.",
+  "captionBoundary": {
+    "x1": 64.19210052490234,
+    "x2": 295.5775146484375,
+    "y1": 124.51679229736328,
+    "y2": 142.03778076171875
+  },
+  "figType": "Table",
+  "imageText": ["#Sites", "Solving", "Communications", "Total", "1", "1.58", "(0.06)", "1.78", "(0.44)", "3.36", "(0.43)", "2", "1.53", "(0.13)", "2.85", "(1.62)", "4.39", "(1.72)", "5", "1.59", "(0.06)", "4.47", "(0.92)", "6.05", "(0.91)", "10", "2.61", "(0.17)", "0.26", "(0.01)", "5.97", "(0.63)"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 286.08,
+    "y1": 73.92,
+    "y2": 118.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-TableIII-1.png"
+}, {
+  "caption": "Fig. 4: Example of reconfiguration plans of MariaDB master and one MariaDB worker",
+  "captionBoundary": {
+    "x1": 316.2471923828125,
+    "x2": 547.6509399414062,
+    "y1": 135.90321350097656,
+    "y2": 153.4241943359375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "worker", "pushB(worker,", "interrupt)", "pushB(worker,", "update)", "wait(master,", "interrupt)", "pushB(worker,", "deploy)", "(a)", "master", "pushB(master,", "interrupt)", "pushB(master,", "update)", "pushB(master,", "deploy)"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 546.24,
+    "y1": 72.96,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Overview of Ballet and its three components: gateway, planner, executor. The dashed arrows represent collaborations, while the plain arrows represent the inputs and outputs of each component.",
+  "captionBoundary": {
+    "x1": 64.46320343017578,
+    "x2": 295.8577880859375,
+    "y1": 270.9268798828125,
+    "y2": 310.4810791015625
+  },
+  "figType": "Figure",
+  "imageText": ["Node1", "Nodei", "Nodej", "RP1", "RPi", "RPj", "assembly;", "inventory;", "local", "goals", "assembly;", "inventory;", "local", "goals", "goals", "goals", "goals", "DevOps", "DevOps♂♀", "Executor", "Executor", "Executor", "Planner", "Planner", "Planner", "Gateway", "Gateway", "Gateway", "Front", "Front"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 279.36,
+    "y1": 75.84,
+    "y2": 258.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00007-Figure3-1.png"
+}]

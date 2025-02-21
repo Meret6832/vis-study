@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 2: Model Mutation Rules in DLJSFuzzer",
+  "captionBoundary": {
+    "x1": 214.30599975585938,
+    "x2": 397.3916320800781,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["operators:", "(𝐶𝑜𝑛𝑣𝑜𝑙𝑢𝑡𝑖𝑜𝑛,", "𝐵𝑎𝑡𝑐ℎ𝑁𝑜𝑟𝑚,", "𝑅𝐸𝐿𝑈", ")", "8", "Random", "Operator", "Replace", "(ROR)", "Replaces", "an", "operator", "with", "a", "randomly", "selected", "operator", "None", "Inserts", "the", "operator", "combination", "consisting", "of", "three", "7", "Equivalent", "CBR", "Block", "(ECB)", "Operator", "Fusion", "Inserts", "the", "operator", "combination", "consisting", "of", "two", "depth", "-wise", "convolutions", "equivalent", "to", "a", "separable", "convolution", "6", "Equivalent", "Separable", "Convolution", "(ESC)", "Inserts", "the", "operator", "combination", "(𝑀𝑎𝑥𝑃𝑜𝑜𝑙", ",", "𝑆𝑖𝑔𝑚𝑜𝑖𝑑)", "or", "(𝑀𝑎𝑥𝑃𝑜𝑜𝑙", ",", "𝑆𝑜", "𝑓", "𝑡𝑚𝑎𝑥)", "5", "Maxpool-based", "Operator", "Reordering", "(MOR)", "Inserts", "the", "operator", "combination", "based", "on", "the", "equivalence", "relation", "𝐴𝑇", "×", "𝐵𝑇", "=", "(𝐵", "×𝐴)𝑇", "Operator", "Reordering", "4", "Transpose-based", "Operator", "Reordering", "(TOR)", "Inserts", "the", "operator", "𝑅𝑒𝑑𝑢𝑐𝑒𝑀𝑒𝑎𝑛", "only", "on", "the", "height", "and", "weight", "dimensions", "3", "Height-Weight", "ReduceMean", "(HWR)", "2", "In-Place", "Transpose", "(IPT)", "Inserts", "the", "operator", "𝑇𝑟𝑎𝑛𝑠𝑝𝑜𝑠𝑒", "without", "data", "movement", "Node", "Optimization", "1", "Zero-Dimensional", "Tensorization", "(ZDT)", "Inserts", "an", "operator", "containing", "zero-dimensional", "tensor", "Targeted", "Inference", "Acceleration", "Strategy", "ID", "Mutation", "Rule", "Description"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 105.6,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Table2-1.png"
+}, {
+  "caption": "Table 6: Number of Unique Detected Bugs in Ablation Study",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 293.9762878417969,
+    "y1": 455.6153564453125,
+    "y2": 461.2460021972656
+  },
+  "figType": "Table",
+  "imageText": ["Answer", "to", "RQ4:", "In", "the", "ablation", "study,", "DLJSFuzzer", "outperforms", "𝐷𝐿𝐽𝑆𝐹𝑢𝑧𝑧𝑒𝑟𝑚", ",", "and", "𝐷𝐿𝐽𝑆𝐹𝑢𝑧𝑧𝑒𝑟𝑚", "outperforms", "𝐷𝐿𝐽𝑆𝐹𝑢𝑧𝑧𝑒𝑟𝑛", ".", "This", "result", "shows", "our", "test", "input", "model", "mutation", "is", "effective,", "and", "the", "test", "input", "tensor", "mutation", "can", "further", "improve", "the", "bug", "detection", "effectiveness", "together", "with", "test", "input", "model", "mutation.", "𝐷𝐿𝐽𝑆𝐹𝑢𝑧𝑧𝑒𝑟𝑚", "12", "44", "𝐷𝐿𝐽𝑆𝐹𝑢𝑧𝑧𝑒𝑟𝑡", "0", "0", "𝐷𝐿𝐽𝑆𝐹𝑢𝑧𝑧𝑒𝑟𝑛", "0", "0", "𝐷𝐿𝐽𝑆𝐹𝑢𝑧𝑧𝑒𝑟", "21", "126", "Method", "Crash", "NaN", "&", "Inconsistency"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 475.68,
+    "y2": 611.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Table6-1.png"
+}, {
+  "caption": "Figure 1: An Example of Node Optimization",
+  "captionBoundary": {
+    "x1": 85.11000061035156,
+    "x2": 262.7264099121094,
+    "y1": 646.54931640625,
+    "y2": 652.1799926757812
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 259.2,
+    "y1": 521.76,
+    "y2": 633.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An Example of Operator Reordering",
+  "captionBoundary": {
+    "x1": 345.5589904785156,
+    "x2": 530.5902099609375,
+    "y1": 253.49636840820312,
+    "y2": 259.12701416015625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 351.84,
+    "x2": 524.16,
+    "y1": 152.64,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Figure2-1.png"
+}, {
+  "caption": "Figure 3: An Example of Operator Fusion",
+  "captionBoundary": {
+    "x1": 354.79901123046875,
+    "x2": 521.351318359375,
+    "y1": 620.9923095703125,
+    "y2": 626.6229858398438
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 351.84,
+    "x2": 524.16,
+    "y1": 474.71999999999997,
+    "y2": 607.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Root Cause of Detected Crashes",
+  "captionBoundary": {
+    "x1": 354.843994140625,
+    "x2": 521.3067626953125,
+    "y1": 554.434326171875,
+    "y2": 560.0650024414062
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 452.64,
+    "y2": 541.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Figure5-1.png"
+}, {
+  "caption": "Table 4: Comparison in the Number of Unique Detected Bugs",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1943359375,
+    "y1": 156.24435424804688,
+    "y2": 161.875
+  },
+  "figType": "Table",
+  "imageText": ["Answer", "to", "RQ1:", "DLJSFuzzer", "successfully", "detects", "21", "unique", "crashes", "and", "126", "unique", "NaN", "&", "inconsistency", "bugs", "in", "Tensor-", "Flow.js,", "which", "is", "the", "most", "among", "existing", "baselines", "and", "com-", "pletely", "covers", "all", "bugs", "detected", "by", "existing", "baselines.", "The", "ex-", "perimental", "results", "fully", "demonstrate", "the", "superior", "effectiveness", "of", "DLJSFuzzer", "in", "detecting", "bugs", "in", "JavaScript", "DL", "frameworks.", "Gandalf", "0", "0", "Muffin", "11", "2", "LEMON", "0", "4", "DLJSFuzzer", "21", "126", "Method", "Crash", "NaN", "&", "Inconsistency"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 176.64,
+    "y2": 323.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Table4-1.png"
+}, {
+  "caption": "Table 3: Number of Unique Detected Bugs in Each Dataset",
+  "captionBoundary": {
+    "x1": 56.659000396728516,
+    "x2": 290.8777770996094,
+    "y1": 398.0543518066406,
+    "y2": 403.68499755859375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "21", "126", "CIFAR-10", "12", "0", "ImageNet", "19", "88", "Sine-Wave", "8", "2", "Stock-Price", "8", "3", "Fashion-MNIST", "10", "13", "MNIST", "11", "1", "Dataset", "Crash", "NaN", "&", "Inconsistency", "Random", "18", "69"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 268.32,
+    "y1": 418.56,
+    "y2": 522.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Table3-1.png"
+}, {
+  "caption": "Table 5: Comparison in Efficiency",
+  "captionBoundary": {
+    "x1": 369.70098876953125,
+    "x2": 506.1544494628906,
+    "y1": 393.55035400390625,
+    "y2": 399.1809997558594
+  },
+  "figType": "Table",
+  "imageText": ["Gandalf", "36.99", "NaN", "Muffin", "47.79", "830.77", "LEMON", "63.91", "2,700", "DLJSFuzzer", "19.60", "73.47", "Method", "Time", "Per", "Round", "(s)", "Time", "Per", "Bug", "(s)"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 540.0,
+    "y1": 413.76,
+    "y2": 472.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Table5-1.png"
+}, {
+  "caption": "Figure 6: Root Cause of Detected NaN & Inconsistency Bugs",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 293.99188232421875,
+    "y1": 426.953369140625,
+    "y2": 432.5840148925781
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 234.23999999999998,
+    "y1": 292.8,
+    "y2": 413.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Comparison in Model Diversity",
+  "captionBoundary": {
+    "x1": 355.4219970703125,
+    "x2": 520.7280883789062,
+    "y1": 677.38330078125,
+    "y2": 683.0139770507812
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 556.3199999999999,
+    "y1": 613.92,
+    "y2": 664.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Figure7-1.png"
+}, {
+  "caption": "Figure 4: The Workflow of DLJSFuzzer",
+  "captionBoundary": {
+    "x1": 228.39599609375,
+    "x2": 383.597412109375,
+    "y1": 206.01437377929688,
+    "y2": 211.64501953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Figure4-1.png"
+}, {
+  "caption": "Table 1: Tensor Mutation Rules in DLJSFuzzer",
+  "captionBoundary": {
+    "x1": 213.10400390625,
+    "x2": 398.592529296875,
+    "y1": 228.92837524414062,
+    "y2": 234.55902099609375
+  },
+  "figType": "Table",
+  "imageText": ["12", "Double", "Transformation", "(DT)", "Converts", "the", "tensor", "to", "the", "data", "type", "𝑑𝑜𝑢𝑏𝑙𝑒", "13", "BFloat", "Transformation", "(BFT)", "Converts", "the", "tensor", "to", "the", "data", "type", "𝑏𝑓", "𝑙𝑜𝑎𝑡16", "Transformation", "10", "Random", "Cropping", "(RC)", "Randomly", "crops", "the", "tensor", "to", "reduce", "its", "size", "Tensor", "Cropping", "11", "Float", "Transformation", "(FT)", "Converts", "the", "tensor", "to", "the", "data", "type", "𝑓", "𝑙𝑜𝑎𝑡", "Data", "Type", "Transposes", "the", "tensor", "in", "the", "height", "and", "weight", "dimension", "Tensor", "Transpose", "Height-Weight", "Dimension", "Transpose", "(HWDT)", "9", "6", "Height", "Dimension", "Padding", "(HDP)", "Zero", "pads", "the", "tensor", "along", "the", "height", "dimension", "7", "Channel", "Dimension", "Padding", "(CDP)", "Zero", "pads", "the", "tensor", "along", "the", "channel", "dimension", "8", "Batch", "Dimension", "Padding", "(BDP)", "Zero", "pads", "the", "tensor", "along", "the", "batch", "dimension", "Tensor", "Padding", "5", "Weight", "Dimension", "Padding", "(WDP)", "Zero", "pads", "the", "tensor", "along", "the", "weight", "dimension", "Copys", "the", "tensor", "and", "concatenates", "along", "the", "batch", "dimension", "to", "double", "tensor", "size", "4", "Batch", "Dimension", "Copy", "(BDC)", "Copys", "the", "tensor", "and", "concatenates", "along", "the", "channel", "dimension", "to", "double", "tensor", "size", "3", "Channel", "Dimension", "Copy", "(CDC)", "Copys", "the", "tensor", "and", "concatenates", "along", "the", "height", "dimension", "to", "double", "tensor", "size", "2", "Height", "Dimension", "Copy", "(HDC)", "Tensor", "Copy", "Copys", "the", "tensor", "and", "concatenates", "along", "the", "weight", "dimension", "to", "double", "tensor", "size", "1", "Weight", "Dimension", "Copy", "(WDC)", "ID", "Mutation", "Rule", "Description", "Type"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 535.1999999999999,
+    "y1": 249.6,
+    "y2": 461.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695478-Table1-1.png"
+}]

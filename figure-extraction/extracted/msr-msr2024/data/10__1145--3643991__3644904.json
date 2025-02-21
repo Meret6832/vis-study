@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 2: Constraint Alternative Strategies and Examples",
+  "captionBoundary": {
+    "x1": 192.59402465820312,
+    "x2": 419.10205078125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Constraint", "Alternative", "Strategies", "Examples", "Exception", "handling", "constraints", "often", "have", "correspond-", "ing", "conditional", "check", "constraints", "as", "alternatives.", "java.io.ObjectOutputStream(OutputStream)-(paraCondition)-arg0!=null", "java.io.ObjectOutputStream(OutputStream)-(throw)-NullPointerException", "For", "each", "low-level", "exception,", "we", "obtain", "all", "parent", "ex-", "ceptions", "from", "the", "low-level", "exception", "up", "to", "Exception", "as", "alternatives.", "java.util.StringTokenizer.nextToken()-(throw)-NoSuchElementException", "java.util.StringTokenizer.nextToken()-(throw)-RuntimeException", "java.util.StringTokenizer.nextToken()-(throw)-Exception", "Certain", "APIs", "with", "similar", "functionality", "can", "substitute", "each", "other", "in", "terms", "of", "pre-condition", "check", "constraints.", "java.util.List.get(int)-(preCondition)-java.util.List.isEmpty()", "java.util.List.get(int)-(preCondition)-java.util.List.size()", "Some", "specific", "exceptions", "have", "alternative", "relationships", "with", "pre-condition", "check", "constraints.", "java.util.Iterator.next()-(preCondition)->java.util.Iterator.hasNext()", "java.util.Iterator.next()-(throw)->NoSuchElementException"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 100.8,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Table2-1.png"
+}, {
+  "caption": "Figure 4: The third usage pattern of StringToken.nextToken()",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1915283203125,
+    "y1": 188.99636840820312,
+    "y2": 194.62701416015625
+  },
+  "figType": "Figure",
+  "imageText": ["throw", "RuntimeException", "java.util.StringTokenzier.nextToken()", "java.util.StringTokenzier.hasMoreTokens()", "(b)", "throw", "RuntimeException", "java.util.StringTokenzier.nextToken()", "(a)"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.84,
+    "y1": 84.47999999999999,
+    "y2": 177.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The forth usage pattern of StringToken.nextToken()",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.191650390625,
+    "y1": 304.24334716796875,
+    "y2": 309.8739929199219
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "throw", "Exception", "java.util.StringTokenzier.nextToken()", "(a)", "throw", "Exception", "java.util.StringTokenzier.nextToken()"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 197.28,
+    "y2": 292.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Figure5-1.png"
+}, {
+  "caption": "Figure 2: The first usage pattern of StringToken.nextToken()",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0359802246094,
+    "y1": 189.36135864257812,
+    "y2": 194.99200439453125
+  },
+  "figType": "Figure",
+  "imageText": ["throw", "NoSuchElementException", "java.util.StringTok", "zier.nextToken()", "(b)", "throw", "NoSuchElementException", "java.util.StringTokenzier.nextToken()", "(a)"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 288.0,
+    "y1": 87.84,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Figure2-1.png"
+}, {
+  "caption": "Table 4: Influence of Heuristic Filtering Rules and Constraint Alternative Strategies on API Misuse Detection.",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 558.1942749023438,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["No", "Constraint", "Alternative", "53.53%", "44.48%", "48.59%", "No", "Filtering", "Rules", "&", "Constraint", "Alternative", "48.20%", "44.48%", "46.27%", "Settings", "Precision", "Recall", "F1-Score", "Both", "Components", "72.22%", "43.01%", "53.91%", "No", "Filtering", "Rules", "62.56%", "43.01%", "50.97%"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 108.96,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Table4-1.png"
+}, {
+  "caption": "Table 3: Quality Assessment of API Constraint Graphs",
+  "captionBoundary": {
+    "x1": 63.85101318359375,
+    "x2": 283.6883544921875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Graph", "95.69%", "97.72%", "98.98%", "98.22%", "0.94", "“Para”", "refers", "to", "parameter", "check", "constraints;", "“Con”", "refers", "to", "condition", "check", "constraints;", "“Order”", "refers", "to", "call", "order", "constraints;", "“Exp”", "refers", "to", "exception", "han-", "dling", "constraints;", "“Graph”", "refers", "to", "API", "constraint", "graphs;", "“Correct1”,", "“Correct2”,", "“Correct3”", "and", "“CorrectF”", "represent", "the", "annotations", "of", "three", "developers", "and", "the", "final", "voting", "result;", "“Kap”", "stands", "for", "the", "Kappa", "agreement.", "Category", "Correct1", "Correct2", "Correct3", "CorrectF", "Kap.", "Para", "94.73%", "100%", "100%", "100%", "0.95", "Con", "86.66%", "88.88%", "97.77%", "93.33%", "0.82", "Order", "72.22%", "91.66%", "91.66%", "88.88%", "0.75", "Exp", "100%", "100%", "100%", "100%", "1.00"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 295.68,
+    "y1": 97.92,
+    "y2": 190.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Table3-1.png"
+}, {
+  "caption": "Figure 1: An Overview of Our Approach",
+  "captionBoundary": {
+    "x1": 225.41000366210938,
+    "x2": 386.58270263671875,
+    "y1": 271.5773620605469,
+    "y2": 277.2080078125
+  },
+  "figType": "Figure",
+  "imageText": ["AST", "Parsing", "Structure", "ExtractInfer", "Filter", "Graphical", "Representation", "Extract", "Construction", "of", "API", "Constraint", "Graphs", "API", "Misuse", "Detection", "Library", "Code", "and", "API", "Documentation", "Constraint", "Extraction", "Client", "Code", "Constraint", "Extraction", "API", "Call", "Information", "Is", "Misuse？", "Information", "Matching", "Code", "to", "be", "Tested", "Constraint", "Alternative", "Strategies", "API", "Alternative", "Constraint", "Graphs", "Initial", "API", "Constraint", "Graphs", "API", "Usage", "Patterns", "API", "Usage", "Constraints", "from", "Client", "Code", "Client", "Project", "Set", "API", "Usage", "Graphs(AUGs)", "API", "Usage", "Constraints", "from", "Library", "Code", "API", "Usage", "Constraints", "from", "API", "Documentation", "Library", "Files", "Library", "Constraint", "Extraction", "Strategies"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Figure1-1.png"
+}, {
+  "caption": "Table 1: Heuristic Filtering Rules and Examples",
+  "captionBoundary": {
+    "x1": 209.3790283203125,
+    "x2": 402.3183288574219,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Heuristic", "Filtering", "Rules", "Examples", "If", "the", "content", "before", "and", "after", "the", "constraint", "edge", "is", "the", "same,", "we", "filter", "it", "out.", "java.util.Map.put()-(postOrder)->java.util.Map.put()", "If", "the", "content", "before", "and", "after", "the", "constraint", "edge", "does", "not", "belong", "to", "the", "same", "API,", "we", "filter", "it", "out.", "java.sql.PreparedStatement.executeQuery()-(postOrder)-", "java.sql.ResultSet.next()", "If", "both", "the", "preceding", "and", "succeeding", "API", "methods", "belong", "to", "input", "and", "output", "stream", "operations,", "we", "categorize", "them", "as", "part", "of", "the", "same", "generic", "API", "class.", "java.io.ByteArrayOutputStream.toByteArray()-(preOrder)", "->java.io.DataOutputStream.flush()", "If", "the", "preceding", "and", "succeeding", "APIs", "belong", "to", "the", "same", "API", "class", "and", "their", "method", "names", "contain", "functional", "keywords,", "we", "filter", "out", "these", "constraints.", "android.view.View.getLeft()-(postOrder)->android.view.", "View.getRight()", "Common", "functionalities", "frequently", "used", "in", "the", "String", "class,", "such", "as", "toString(),", "equals(),", "trim(),", "should", "be", "filtered", "out.", "java.lang.StringBuilder.replace()-(postOrder)->java.", "lang.StringBuilder.toString()"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 100.8,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Table1-1.png"
+}, {
+  "caption": "Figure 6: Effectiveness of Different Approaches",
+  "captionBoundary": {
+    "x1": 78.44300079345703,
+    "x2": 269.391845703125,
+    "y1": 216.24838256835938,
+    "y2": 221.8790283203125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 82.56,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644904-Figure6-1.png"
+}]

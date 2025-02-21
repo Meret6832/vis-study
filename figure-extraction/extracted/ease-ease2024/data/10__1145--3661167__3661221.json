@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: Scatter plot of the measures done by Leetcode and locally for every generation for the problem \"Difference between element sum and digit sum of an array\". Orange points are from multiple measures of the same canonical solution and serve as visual references for the measurement error",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.1570434570312,
+    "y1": 258.9861145019531,
+    "y2": 308.4530029296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Coefficicent of variation of the time measured by Leetcode and locally for every problem using canonical solutions",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6533508300781,
+    "y1": 277.8691101074219,
+    "y2": 305.4179992675781
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Example of problem’s input prompt, generated code, and benchmarking code.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.2920532226562,
+    "y1": 687.4700927734375,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["benchmark(check)", "#", "End", "of", "the", "benchmarking", "code", "import", "pytest", "@pytest.mark.benchmark(group=\"3sum\")", "def", "test_3sum_generated_1(benchmark):", "Solution().threeSum([82597,", "-9243,", "83030,", "...])", "Solution().threeSum([0,", "0,", "0,", "0,", "...])", "Solution().threeSum([0,", "0,", "-1,", "-1,", "...])", "#", "Start", "of", "the", "benchmarking", "code", "def", "check():", "...", "#", "End", "of", "the", "generated", "code", "#", "Start", "of", "the", "generated", "code", "nums.sort()", "res", "=", "[]", "for", "i", "in", "range(len(nums)", "-", "2):", "def", "threeSum(self,", "nums:", "List[int])", "->", "List[List[int]]:", "#", "End", "of", "the", "input", "prompt", "Notice", "that", "the", "solution", "set", "must", "not", "contain", "duplicate", "triplets.", "\"\"\"", "class", "Solution:", "nums[j],nums[k]]`", "such", "that", "`i", "!=", "j`,", "`i", "!=", "k`,", "and", "`j", "!=", "k`,", "and", "`nums[i]", "+", "nums[j]", "+", "nums[k]", "==", "0`.", "↩→", "↩→", "#", "Start", "of", "the", "input", "prompt", "\"\"\"", "Given", "an", "integer", "array", "nums,", "return", "all", "the", "triplets", "`[nums[i],"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 423.84,
+    "y2": 670.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Scatter plot of LLM’s rank and date they were tested on Leetcode. The twomodels in red are the samemodel tested on different dates",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04534912109375,
+    "y1": 257.8451232910156,
+    "y2": 285.3940124511719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 82.56,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Number of problems where an LLM (row) is better than another (column)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.3893432617188,
+    "y1": 270.6611022949219,
+    "y2": 287.2509765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure6-1.png"
+}, {
+  "caption": "Table 1: LLMs considered in our study. Models with the RQ1 checkmark were also evaluated on the \"old\" dataset. Size is in billions of parameters",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.43505859375,
+    "y1": 529.9880981445312,
+    "y2": 557.5369873046875
+  },
+  "figType": "Table",
+  "imageText": ["LLM", "Model", "Model", "family", "Size", "RQ1", "GitHub", "Copilot", "Codex", "11", "✓", "CodeGen-Mono", "6B", "CodeGen", "6", "✓", "CodeGen-Mono", "2B", "CodeGen", "2", "✓", "CodeGen-Mono", "350M", "CodeGen", "0.35", "✓", "CodeGen2.5-7B-mono", "CodeGen2.5", "7", "CodeGen2.5-7B-instruct", "CodeGen2.5", "7", "CodeLlama-7B-instruct", "CodeLlama", "7", "CodeLlama-7B", "CodeLlama", "7", "CodeLlama-7B-python", "CodeLlama", "7", "CodeLlama-13B-instruct", "CodeLlama", "13", "CodeLlama-13B-python", "CodeLlama", "13", "replit-code-v1-3b", "replit-code", "3", "WizardCoder-pythin", "WizardCoder", "7", "SantaCoder", "Santacoder", "1.1", "✓", "StarCoder", "StarCoder", "15.5", "InCoder", "6B", "Incoder", "6", "✓", "InCoder", "1B", "Incoder", "1", "✓", "CodeParrot", "Codeparrot", "1.5", "✓"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 537.12,
+    "y1": 372.96,
+    "y2": 520.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Table1-1.png"
+}, {
+  "caption": "Figure 8: Distribution of the ranking for the CodeGen-6Bmono model",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8046264648438,
+    "y1": 256.0271301269531,
+    "y2": 272.61700439453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Distribution of correlations for every problem between the temperature and the variation of the performance. The red line is the median",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6529846191406,
+    "y1": 256.0271301269531,
+    "y2": 283.57598876953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure7-1.png"
+}, {
+  "caption": "Table 2: Functional validity of the LLMs on Leetcode (by decreasing pass@1, higher is better)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.4569702148438,
+    "y1": 263.3321228027344,
+    "y2": 279.9219970703125
+  },
+  "figType": "Table",
+  "imageText": ["StarCoder", "0.095", "0.132", "CodeLlama-13B-python", "0.093", "0.201", "GitHub", "Copilot", "0.092", "0.196", "CodeLlama-7B-instruct", "0.082", "0.191", "CodeLlama-13B-instruct", "0.078", "0.206", "WizardCoder-python-7B", "0.075", "0.157", "CodeGen2.5-7B-mono", "0.066", "0.147", "CodeGen2.5-7B-instruct", "0.062", "0.142", "CodeLlama-7B-python", "0.047", "0.172", "CodeGen-6B-mono", "0.045", "0.113", "CodeGen-2B-mono", "0.038", "0.103", "replit-code-v1-3b", "0.025", "0.083", "InCoder-6B", "0.021", "0.064", "SantaCoder", "0.015", "0.064", "CodeLlama-7B", "0.014", "0.015", "InCoder-1B", "0.012", "0.039", "CodeGen-350M-mono", "0.007", "0.039", "CodeParrot", "0.002", "0.015", "LLM", "Model", "Pass@1", "Pass@10"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 524.16,
+    "y1": 83.52,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Table2-1.png"
+}, {
+  "caption": "Figure 2: Average pass@1 of the evaluated LLMs for every difficulty and dataset, with 95% confidence interval (higher is better)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.453125,
+    "y1": 484.47711181640625,
+    "y2": 512.0260009765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 308.64,
+    "y2": 471.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661221-Figure2-1.png"
+}]

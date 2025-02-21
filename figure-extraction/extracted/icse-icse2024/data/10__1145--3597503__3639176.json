@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 2: DS (left) and DS-TD (right) Copilot generations where DS-TD includes “TODO: Document” in the prompt.",
+  "captionBoundary": {
+    "x1": 74.77999877929688,
+    "x2": 537.2012329101562,
+    "y1": 169.26333618164062,
+    "y2": 174.89398193359375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "rule_img", "=", "cv2.imread(rule_image_name", ",", "cv2.", "IMREAD_GRAYSCALE)", "2", "density_image", "=", "cv2.imread(density_image_name", ",", "cv2.", "IMREAD_GRAYSCALE)", "3", "cv2.imwrite('temp/density_image.png',", "density_img)", "4", "return", "rule_img", ",", "density_img", "1", "#", "Load", "the", "rule", "image", "2", "rule_img", "=", "cv2.imread(rule_image_name", ",", "cv2.", "IMREAD_GRAYSCALE)", "3", "#", "Load", "the", "density", "image", "4", "density_image", "=", "cv2.imread(density_image_name", ",", "cv2.", "IMREAD_GRAYSCALE)", "5", "#", "Save", "the", "density", "image", "in", "temp", "folder", "6", "cv2.imwrite('temp/density_image.png',", "density_img)", "7", "return", "rule_img", ",", "density_img"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 560.16,
+    "y1": 82.56,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Figure2-1.png"
+}, {
+  "caption": "Figure 3: A piece of a DS-MTD generation involving the comment TODO - See Bug 2554 for changing the __init__method which produced an unrelated TODO comment",
+  "captionBoundary": {
+    "x1": 53.449005126953125,
+    "x2": 295.64251708984375,
+    "y1": 246.82235717773438,
+    "y2": 274.3709716796875
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "1:", "Because", "code", "generative", "tools", "can", "reproduce", "their", "training", "data,", "35.36%", "of", "the", "380", "TODO", "comments", "studied", "had", "their", "symptoms", "reproduced", "when", "directly", "included", "in", "prompts.", "Furthermore,", "other", "notable", "cases", "occurred", "when", "generations", "were", "being", "conducted", "in", "this", "study.", "Figure", "3", "shows", "the", "snippet", "of", "a", "generation", "which", "was", "a", "DS-MTD", "generation", "which", "concerned", "the", "TODO", "comment", "TODO", "-", "See", "Bug", "2554", "for", "changing", "the", "__init__method", "which", "could", "be", "considered", "a", "Defect", "Debt", "by", "prior", "works", "[3,", "42]", "due", "to", "referencing", "a", "bug", "report.", "In", "the", "resulting", "generation", "shown", "in", "Figure", "3,", "another", "unrelated", "TODO", "comment", "was", "generated", "by", "Copilot:", "TODO", "-", "Should", "we", "copy", "the", "alphabet", "and", "gap", "character?which", "questions", "the", "absence", "of", "functionality,", "thus", "suggesting", "it", "is", "a", "functional", "Requirement", "Debt", "[3]."],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 301.92,
+    "y2": 447.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Figure3-1.png"
+}, {
+  "caption": "Figure 4: A comparison between developer-written code (left) and the DS Copilot generation (right).",
+  "captionBoundary": {
+    "x1": 104.36900329589844,
+    "x2": 507.6147155761719,
+    "y1": 137.38333129882812,
+    "y2": 143.01397705078125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "#validate", "parameters", "2", "if", "len(filehash)", "!=", "64:", "3", "raise", "Exception(\"Invalid", "file", "hash\")", "4", "query", "=", "\"download/v1/\"", "+", "filehash", "5", "return", "query", "1", "#TODO", "error", "checking", "on", "filehash", "2", "#build", "the", "query", "string", "3", "query", "=", "\"download/v1/\"", "+", "filehash", "4", "return", "query"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 560.16,
+    "y1": 82.56,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Figure4-1.png"
+}, {
+  "caption": "Figure 5: DS-MTD generation whose prompt includes the modified TODO comment “parallel executor”.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.036376953125,
+    "y1": 657.5473022460938,
+    "y2": 674.1370239257812
+  },
+  "figType": "Figure",
+  "imageText": ["1", "elif", "FLAGS.platform", "==", "'nccl2", "':", "2", "exe", "=", "fluid.ParallelExecutor(", "3", "use_cuda=True", ",", "4", "loss_name=self.debug_keys", "[0],", "5", "main_program=self.get_main_program(FLAGS),", "6", "exec_strategy=fluid.ExecutionStrategy", "())", "Finally,", "we", "find", "that", "developers’", "TODO", "comments", "indicate", "poor", "assumptions", "which", "results", "in", "questionable", "decisions", "later", "in", "its", "lifetime.", "For", "example,", "the", "comment", "TODO", "err_crit", "is", "never", "used?", "self-admits", "a", "technical", "debt", "where", "an", "input", "parameter", "is", "never", "used.", "However,", "the", "DS", "generation", "does", "not", "ignore", "err_crit", "and", "instead", "involves", "it", "in", "the", "computation.", "Finding", "4:", "Defect-handling,", "additional", "support,", "and", "better", "as-", "sumptions", "are", "identifiable", "themes", "in", "which", "code", "generative", "tools", "can", "assist", "in", "mitigating", "the", "TODO", "comment", "symptoms."],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 296.15999999999997,
+    "y1": 460.79999999999995,
+    "y2": 651.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Figure5-1.png"
+}, {
+  "caption": "Table 1: The dataset statistics",
+  "captionBoundary": {
+    "x1": 114.77000427246094,
+    "x2": 232.77146911621094,
+    "y1": 175.05233764648438,
+    "y2": 180.6829833984375
+  },
+  "figType": "Table",
+  "imageText": ["Granularity", "Amount", "Projects", "102,424", "Revisions", "32,231,939", "Unique", "Files", "63,681,580", "File", "Snapshots", "293,231,664", "AST", "Nodes", "105,512,426,611"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 108.96,
+    "x2": 239.04,
+    "y1": 187.68,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Table1-1.png"
+}, {
+  "caption": "Table 2: Overview of our TODO comment preprocessing",
+  "captionBoundary": {
+    "x1": 324.7969970703125,
+    "x2": 551.0538330078125,
+    "y1": 78.52633666992188,
+    "y2": 84.156982421875
+  },
+  "figType": "Table",
+  "imageText": ["Preprocessing", "Step", "TODOs", "Remaining", "Total", "Extracted", "36,381", "Unique", "+", "Native", "29,672", "Sampled", "380"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 350.88,
+    "x2": 525.12,
+    "y1": 91.67999999999999,
+    "y2": 138.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Table2-1.png"
+}, {
+  "caption": "Figure 6: Comparison of TODO comments repaid by DS and DS-MTD generations.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0365295410156,
+    "y1": 199.45437622070312,
+    "y2": 216.04400634765625
+  },
+  "figType": "Figure",
+  "imageText": ["4023", "59", "Repaid", "by", "DS", "Generation", "Repaid", "by", "DS-MTD", "Generation"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 234.23999999999998,
+    "y1": 84.0,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Figure6-1.png"
+}, {
+  "caption": "Figure 1: The process for creating three generations from open-source repository. Red text represents the input to GitHub Copilot; blue text represents the generated code.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932373046875,
+    "y1": 263.0823669433594,
+    "y2": 290.6300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Function", "Header", "Docstring", "TODO", "Comment", "DS", "Generation", "DS-TD", "Generation", "DS-MTD", "Generation", "def", "divide(num1,", "num2):", "'''TODO:", "check", "divide", "by", "zero", "Divides", "two", "numbers'''", "return", "num1", "/", "num2", "def", "divide(num1,", "num2):", "'''check", "divide", "by", "zero", "Divides", "two", "numbers'''", "if", "num2", "==", "0:", "return", "0", "return", "num1", "/", "num2", "def", "divide(num1,", "num2):", "'''Divides", "two", "numbers'''", "return", "num1", "/", "num2", "divide(num1,", "num2)", "'''Divides", "two", "numbers'''", "TODO:", "check", "divide", "by", "zero", "Manual", "Generation", "with", "Copilot"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 87.84,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Figure1-1.png"
+}, {
+  "caption": "Table 4: Helpful characteristics found in the 122 repayable SATD comments",
+  "captionBoundary": {
+    "x1": 152.6529998779297,
+    "x2": 459.0390625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Future", "Con-", "sideration", "SATD", "comments", "may", "imply", "con-", "siderations", "of", "changes.", "The", "DS", "generations", "may", "make", "these", "future", "con-", "siderations", "without", "being", "specified", "to.", "todo:", "need", "tau", "possibly", "here", "27.87%", "6.56%", "Rationale", "SATD", "comments", "may", "provide", "rea-", "son", "for", "the", "described", "repayment.", "SATDswhich", "detail", "the", "rationale", "of", "its", "repayment", "can", "provide", "non-functional", "requirements", "for", "its", "generation.", "todo:", "would", "it", "be", "more", "efficient", "using", "a", "dict", "or", "hash", "values", "instead", "32.79%", "Contextual", "Info", "SATD", "comments", "may", "include", "con-", "textual", "details", "such", "as", "where", "or", "when", "a", "change", "is", "to", "occur.", "SATDs", "which", "provide", "adequate", "context", "can", "guide", "code", "generative", "tools", "to", "produce", "relevant", "code.", "todo:", "fix", "code", "to", "fail", "with", "clear", "exception", "when", "filesize", "cannot", "be", "obtained", "65.57%", "Concrete", "Action", "SATD", "comments", "may", "describe", "de-", "sired", "implementation", "or", "action.", "Since", "code", "generation", "produces", "code", "according", "to", "instructions,", "these", "SATD", "comments", "are", "well-", "aligned", "with", "the", "goals", "of", "code", "generation.", "todo:", "support", "sparse", "matrix!!,", "todo:", "check", "if", "the", "name", "does", "not", "contain", "forbidden", "characters:", "Description", "How", "it", "can", "Affect", "Prompts", "Example(s)", "Percentage", "Quality", "Name"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 562.0799999999999,
+    "y1": 105.6,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Table4-1.png"
+}, {
+  "caption": "Table 5: Harmful characteristics found in the 258 non-repaid SATD comments",
+  "captionBoundary": {
+    "x1": 147.95399475097656,
+    "x2": 463.7364501953125,
+    "y1": 253.49734497070312,
+    "y2": 259.12799072265625
+  },
+  "figType": "Table",
+  "imageText": ["15.12%", "Question", "SATD", "comments", "question", "poor", "qualities", "of", "code.", "When", "injected", "into", "prompts,", "they", "result", "in", "code", "with", "these", "questionable", "qualities", "instead", "of", "solu-", "tions.", "todo:", "remove", "redundant", "attributes", "and", "fix", "the", "code", "that", "uses", "them?,", "todo:", "how", "to", "accommodate", "regression?", "32.95%", "Proximity", "SATD", "comments", "refer", "to", "code", "nearby", "in", "the", "original", "body.", "Without", "access", "to", "the", "original", "code,", "the", "relation-", "ship", "between", "these", "comments", "and", "specific", "code", "segments", "is", "lost,", "hindering", "code", "generation’s", "per-", "formance.", "todo:", "fix", "next", "line,", "todo:", "clean", "this", "up,", "todo:", "complete", "this", "documentation", "14.34%", "Symptom", "SATD", "comments", "disclose", "poor", "quality", "code", "instead", "of", "concrete", "actions.", "Inclusion", "of", "these", "comments", "in", "prompts", "leads", "to", "generative", "tools", "producing", "poor-quality", "code", "instead", "of", "solutions.", "todo:", "untested", "for", "glms?,", "todo:", "too", "much", "slop", "permitted", "here", "impossible,", "todo#", "too", "long?", "Description", "How", "it", "can", "Affect", "Prompts", "Example(s)", "Percentage", "Quality", "Name"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 562.0799999999999,
+    "y1": 273.59999999999997,
+    "y2": 406.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Table5-1.png"
+}, {
+  "caption": "Table 3: Confusion matrix of DS and DS-TD results.",
+  "captionBoundary": {
+    "x1": 333.7640075683594,
+    "x2": 542.0889892578125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Does", "DS", "Repay?", "Does", "DS-TD", "Reproduce?", "No", "Yes", "Total", "No", "13", "53", "66", "Yes", "285", "29", "314", "Total", "298", "82", "380"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 349.91999999999996,
+    "x2": 526.0799999999999,
+    "y1": 105.6,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639176-Table3-1.png"
+}]

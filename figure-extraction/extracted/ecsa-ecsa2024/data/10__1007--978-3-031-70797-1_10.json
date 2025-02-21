@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 2. The whole analysis process consists of three steps, where the second and parts of the third step can run in parallel to reduce the overall processing time.",
+  "captionBoundary": {
+    "x1": 39.402000427246094,
+    "x2": 385.17236328125,
+    "y1": 484.02874755859375,
+    "y2": 499.46527099609375
+  },
+  "figType": "Figure",
+  "imageText": ["Preselected", "Commits", "1.", "c4684693", "2.", "03f9b3ed", "3.", "bf7d5ea2", "APIC3", "cycMemberRatio4", "domCycRatio1", "EDE2", "Source", "Code", "Detector", "So", "So", "Input:", "Definition", "of", "Architectural", "Metrics,", "either", "system-wide", "or", "specific", "to", "individual", "services.", "Input:", "Manually", "implemented", "Detectors,", "able", "to", "identify", "extract", "archictural", "hotspots", "out", "of", "code", "artifacts.", "3.", "Metric", "Calculation", "and", "Analysis", "Input:", "List", "of", "preselected", "commits", "based", "on", "defined", "criteria,", "e.g.", "equally", "distributed", "or", "by", "on", "the", "commit-message.", "1.", "Data", "Collection", "and", "Selection", "Continuous", "Metric", "Trends", "Calculated", "Metric", "Values", "Generated", "Model", "Code", "Artifacts", "Running", "in", "Parallel", "Repository", "Remote", "Repository", "(Github)", "Local", "clone", "2.", "Data", "Extraction", "and", "Model", "Generation", "Service", "C", "Service", "A", "Service", "B", "Service", "A", "Service", "B", "Service", "A"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 39.839999999999996,
+    "x2": 382.08,
+    "y1": 268.32,
+    "y2": 468.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure2-1.png"
+}, {
+  "caption": "Fig. 6. While increasing Average Service Interface Count (blue) and Average Path Length (red) metrics indicate a stronger service coupling, several system redesigns were applied to constantly reduce the path length starting in the middle of 2022. (Color figure online)",
+  "captionBoundary": {
+    "x1": 53.576995849609375,
+    "x2": 399.40020751953125,
+    "y1": 297.3148193359375,
+    "y2": 334.676025390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 396.47999999999996,
+    "y1": 191.04,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Ratio of cyclic connections (left) and Service Interaction via Intermediary Component Ratio and other (right). While the amount of cycles decreases over time, the asynchronous communication increases. Both measures can help reduce the service coupling.",
+  "captionBoundary": {
+    "x1": 53.576995849609375,
+    "x2": 399.4200744628906,
+    "y1": 541.4848022460938,
+    "y2": 578.8460083007812
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 396.47999999999996,
+    "y1": 456.0,
+    "y2": 525.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure7-1.png"
+}, {
+  "caption": "Fig. 3. Source Code Detectors are lightweight parsers that search the underlying code base for specific concepts. Whenever such a concept is found, a corresponding model element is generated.",
+  "captionBoundary": {
+    "x1": 53.576995849609375,
+    "x2": 399.3670959472656,
+    "y1": 429.938720703125,
+    "y2": 456.3376159667969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 397.44,
+    "y1": 298.08,
+    "y2": 413.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure3-1.png"
+}, {
+  "caption": "Fig. 5. Connection Anomaly Ratio throughout the Reconstruction branch. Despite a service misconfiguration at the beginning of 2019, which was later corrected, service interconnection remains highly error-free throughout the development history.",
+  "captionBoundary": {
+    "x1": 39.402000427246094,
+    "x2": 385.2145690917969,
+    "y1": 446.69683837890625,
+    "y2": 473.10467529296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 41.76,
+    "x2": 382.08,
+    "y1": 353.76,
+    "y2": 431.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure5-1.png"
+}, {
+  "caption": "Table 1. A set of high-level architectural metrics we employ to obtain a comprehensive perspective of the overall structure of the microservice.",
+  "captionBoundary": {
+    "x1": 39.402000427246094,
+    "x2": 385.1356201171875,
+    "y1": 235.24171447753906,
+    "y2": 250.68722534179688
+  },
+  "figType": "Table",
+  "imageText": ["could", "not", "be", "reconstructed.", "We", "also", "use", "this", "metric", "to", "verify", "that", "our", "detectors", "identiﬁed", "interservice", "calls", "correctly.", "(CAR)", "where", "the", "link", "to", "the", "target", "API", "Ratio", "of", "service", "connections", "|{v∈V", "con:is", "error(v)}|", "|V", "con|", "Connection", "Anomaly", "Ratio", "brokers", "[32].", "As", "this", "communication", "happens", "primarily", "asynchronously,", "we", "use", "the", "is", "async", "→", "[0,", "1]", "predicate", "to", "identify", "such", "connectors.", "Intermediary", "Component", "mediated", "through", "components", "(SIC)", "like", "event", "buses", "or", "message", "Ratio", "of", "service", "connections", "|{v∈V", "con:is", "async(v)}|", "|V", "con|", "Service", "Interaction", "via", "Tracks", "any", "cyclic", "paths", "when", "following", "the", "call", "chain", "of", "an", "API", "operation", "v.", "The", "predicate", "cycle", "→", "[0,", "1]", "identiﬁes", "paths", "containing", "at", "least", "one", "cycle", "[30].", "|{p", "∈", "P", "(v)", ":", "cycle(p)}|", "|P", "(v)|", "Cycle", "Ratio", "(cycRatio)", "Quantiﬁes", "the", "consecutive", "API", "operations", "invoked", "when", "accessing", "any", "public", "API,", "with", "P", "(v)", "being", "the", "set", "of", "all", "paths", "starting", "in", "v", "[30].", "∑{p∈P", "(v):|p|}", "|P", "(v)|", "Average", "Path", "Length", "(APL)", "a", "uniform", "weight", "of", "1.", "Quantiﬁes", "the", "number", "of", "distinct", "API", "operations", "per", "microservice.", "Count", "(ASIC)", "Interface", "Count", "metric", "[31],", "with", "Variant", "of", "Weighted", "Service", "|V", "api|", "|V", "ms|", "Average", "Service", "Interface", "Name", "Formula", "Description"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 43.68,
+    "x2": 381.12,
+    "y1": 263.03999999999996,
+    "y2": 559.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Table1-1.png"
+}, {
+  "caption": "Fig. 8. Redesign of an API call chain. While the version from April 2022 contains a cyclic reference between two services, this was later resolved by letting the caller orchestrate the API calls instead.",
+  "captionBoundary": {
+    "x1": 39.40199661254883,
+    "x2": 385.1839599609375,
+    "y1": 399.725830078125,
+    "y2": 426.12469482421875
+  },
+  "figType": "Figure",
+  "imageText": ["July", "2022", "getRouteByTripId", "ts-route-service", "queryById", "getLeftTicketOfInterval", "ts-seat-service", "queryInfo", "ts-travel-service", "ts-route-plan-service", "getCheapestRoute", "April", "2022", "getRouteByTripId", "ts-route-service", "queryById", "getLeftTicketOfInterval", "ts-seat-service", "queryInfo", "ts-travel-service", "getCheapestRoute", "ts-route-plan-service"],
+  "name": "8",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 40.8,
+    "x2": 382.08,
+    "y1": 214.56,
+    "y2": 384.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure8-1.png"
+}, {
+  "caption": "Fig. 4. Distribution of selected commits throughout the repository’s timeline.",
+  "captionBoundary": {
+    "x1": 69.71399688720703,
+    "x2": 383.1479187011719,
+    "y1": 461.86181640625,
+    "y2": 466.34503173828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 397.44,
+    "y1": 415.68,
+    "y2": 445.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure4-1.png"
+}, {
+  "caption": "Fig. 1. The Snapshot-based mining approach creates the reference models for our start and endpoints. We then use the Changed-based mining approach to evolve our model iteratively between the snapshots to get a more in-depth view of the evolution.",
+  "captionBoundary": {
+    "x1": 53.576995849609375,
+    "x2": 399.36260986328125,
+    "y1": 513.4857788085938,
+    "y2": 539.8936767578125
+  },
+  "figType": "Figure",
+  "imageText": ["removed.", "API", "and", "outgoing", "calls", "New", "API", "added.", "API", "split", "into", "two", "separate", "operations.", "Snapshot", "2", "July", "2022", "Commit", "May", "15,", "2022", "Commit", "June", "07,", "2022", "Commit", "June", "25,", "2022", "Snapshot", "1", "May", "2022"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 397.44,
+    "y1": 412.32,
+    "y2": 495.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_10-Figure1-1.png"
+}]

@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 1: Mutation prompts of rust-twins",
+  "captionBoundary": {
+    "x1": 221.58200073242188,
+    "x2": 390.1153869628906,
+    "y1": 85.55599212646484,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["bodies", "or", "interleaving", "their", "statements.", "GrayC", "DUPLICATE", "Duplicate", "a", "statement", "within", "the", "same", "block", "excluding", "variable", "declarations.", "9", "EXPAND", "Expand", "sub-expression", "with", "other", "sub-expressions", "from", "the", "corpus", "program;", "e.g.", "in", "an", "assignment", "or", "loop", "condition.", "10", "REPLACE-BY-CONSTANT", "Replace", "an", "expression", "with", "a", "random", "valid", "constant", "expression", "of", "the", "same", "data", "type.", "11", "FLIP-BIT", "Flip", "a", "bit", "in", "a", "constant", "expression.", "12", "REPLACE-DIGIT", "Similar", "to", "Flip-Bit", "but", "on", "the", "number’s", "decimal", "representation:", "either", "flip", "the", "sign", "or", "change", "a", "single", "digit.", "13", "CHANGE-TYPE", "Change", "the", "type", "of", "an", "expression", "(short,", "long,", "unsigned,", "float,", "etc.).", "14", "REPLACE-UNARY-OPERATOR", "Replace", "unary", "operator", "with", "an", "assignment", "using", "the", "same", "variable", "15", "FLIP-OPERATOR", "Replace", "one", "operator", "with", "another", "(arithmetic", "operators).", "16", "INJECT-CONTROL-FLOW", "Add", "a", "break,", "continue", "or", "return", "statement", "inside", "a", "loop.", "The", "statement", "is", "guarded", "by", "a", "condition", "based", "on", "an", "auxiliary", "loop", "counter", "so", "that", "it", "is", "only", "invoked", "on", "certain", "iterations.", "17", "REPLACE-FUNCTION-BODY", "Replace", "the", "body", "of", "a", "function", "with", "that", "of", "another", "function", "with", "the", "same", "number", "of", "arguments.", "18", "COMBINE", "FUNCTION", "Combine", "the", "body", "of", "a", "function", "with", "another", "function", "with", "the", "same", "number", "of", "arguments,", "either", "by", "concatenating", "7", "INTRO-VAR", "Insert", "the", "declarations", "of", "new", "variables", "at", "random", "code", "points,", "the", "variable", "is", "initialized", "by", "an", "expression.", "8", "selects", "a", "code", "point", "inside", "the", "block", "for", "insertion.", "Next,", "generates", "a", "new", "expression", "statement", "by", "using", "the", "existing", "variables", "declared", "at", "the", "point.", "REPLACE-AP", "Select", "a", "piece", "of", "code", "and", "replace", "it", "with", "new", "code,", "the", "selected", "code", "serves", "no", "structural", "purpose", "6", "USE-VAR", "Locates", "a", "statement", "block", "(e.g.,", "the", "body", "of", "an", "if", "statement,", "a", "function", "or", "simply", "the", "global", "region)", "and", "randomly", "DIE", "2", "OUTLIVE", "Modify", "function", "types", "to", "use", "references", "where", "appropriate", "and", "add", "the", "corresponding", "lifetime", "annotations.", "If", "multiple", "lifetime", "variables", "are", "present,", "establish", "an", "outlive", "relationship", "between", "these", "variables.", "If", "there", "are", "no", "existing", "lifetime", "variables,", "introduce", "additional", "reference", "types", "and", "lifetime", "variables,", "and", "create", "an", "outlive", "relationship", "for", "them.", "3", "OWNERSHIP", "Make", "the", "ownership", "of", "this", "function", "more", "complex", "by", "transforming", "and", "swapping", "the", "positions", "of", "two", "statements.", "4", "UNSAFE", "Change", "a", "part", "of", "this", "function", "body", "to", "use", "unsafe", "block.", "Some", "references", "should", "be", "changed", "to", "raw", "pointers.", "5", "LIFETIME", "Change", "certain", "function", "types", "to", "references,", "ensuring", "to", "add", "the", "corresponding", "lifetime", "annotations.", "If", "any", "types", "are", "currently", "missing,", "please", "add", "them.", "Rust-specific", "#", "Type", "Short", "Name", "Prompt", "1"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Table1-1.png"
+}, {
+  "caption": "Table 2: Default inputs for each token type. (TT is short for Token Type.)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2207336425781,
+    "y1": 370.4880065917969,
+    "y2": 387.24798583984375
+  },
+  "figType": "Table",
+  "imageText": ["TT", "pat", "path", "literal", "stmt", "ty", "vis", "/", "Value", "a", "a", "1", "let", "a", "=", "1;", "i32", "pub", "/", "TT", "block", "expr", "ident", "item", "lifetime", "meta", "tt", "Value", "{1}", "1", "a", "fn", "a()", "{}", "'a", "#[a]", "1"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 401.76,
+    "y2": 447.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Table2-1.png"
+}, {
+  "caption": "Table 3: Stillborn rate. (SR is short for stillborn rate, and rust-twins<DC and rust-twins<02 denote the mutation component and macroize component of rust-twins respectively)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.794921875,
+    "y1": 85.55599212646484,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Valid", "20712", "0", "6048", "3552", "Invalid", "68", "335540", "16800", "3420", "Total", "20784", "335540", "22848", "6972", "SR", "0.33%", "100%", "73.5%", "49%", "'DBC(<8Cℎ", "!815", "DII4A", "rust-twins<DC", "rust-twins<02"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 138.72,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Table3-1.png"
+}, {
+  "caption": "Figure 8: The detected infinite compilation bug.",
+  "captionBoundary": {
+    "x1": 78.30899810791016,
+    "x2": 269.5178527832031,
+    "y1": 222.89102172851562,
+    "y2": 228.6920166015625
+  },
+  "figType": "Figure",
+  "imageText": ["stuck", "at", "this", "point.", "#![feature(generic_const_exprs)]", "#![allow(incomplete_features)]", "trait", "Foo<const", "N:", "usize>", "{", "type", "Assoc:", "Default;", "}", "fn", "foo<T,", "const", "N:", "usize>(_:", "T)", "->", "<()", "as", "Foo<{", "N", "+", "1", "}>>::Assoc", "where", "():", "Foo<{", "N", "+", "1", "}>,", "{", "let", "mut", "_q", "=", "Default::default();", "_q", "=", "foo::<_,", "2>(_q);", "_q", "}", "The", "trait", "solver", "is"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 85.92,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure8-1.png"
+}, {
+  "caption": "Figure 9: The detected panic of assertion.",
+  "captionBoundary": {
+    "x1": 91.62799835205078,
+    "x2": 256.2078552246094,
+    "y1": 366.8609924316406,
+    "y2": 372.6619873046875
+  },
+  "figType": "Figure",
+  "imageText": ["trait", "Trait<T>", "{}", "fn", "bug()", "{", "macro_rules!", "m", "{", "()", "=>", "{", "_", "};", "}", "struct", "S<T", "=", "m!()>(m!(),", "T)", "where", "T:", "Trait<m!()>;", "}", "Compiler", "panic:", "m!()", "is", "expanded", "as", "“_”", "without", "source", "information"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 285.12,
+    "y1": 254.88,
+    "y2": 352.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure9-1.png"
+}, {
+  "caption": "Figure 1: Rust’s macro systems",
+  "captionBoundary": {
+    "x1": 111.72599792480469,
+    "x2": 236.11659240722656,
+    "y1": 208.7437286376953,
+    "y2": 214.54498291015625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Procedural", "macro", "(PCD)", "10", "}", "1", "#[proc_macro]", "2", "pub", "fn", "pcd(input:", "TokenStream)", "3", "->", "TokenStream", "{", "4", "let", "input_expr:", "Expr", "=", "5", "parse(input).unwrap();", "6", "let", "expanded", "=", "quote!", "{", "7", "fn", "main()", "{#input_expr}", "8", "};", "9", "TokenStream::from(expanded)", "(a)", "Macro", "by", "example", "(MBE)", "9", "10", "1", "#[macro_export]", "2", "macro_rules!", "mbe", "{", "3", "($main_body:expr)", "=>", "{", "4", "fn", "main()", "{", "5", "$main_body", "6", "}", "7", "};", "8", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 288.96,
+    "y1": 88.32,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure1-1.png"
+}, {
+  "caption": "Figure 3: Workflow of rust-twins.",
+  "captionBoundary": {
+    "x1": 367.5530090332031,
+    "x2": 508.6037902832031,
+    "y1": 279.09576416015625,
+    "y2": 284.8970031738281
+  },
+  "figType": "Figure",
+  "imageText": ["To", "address", "challenge❶", "To", "address", "challenge❷", "Assess", "Assess", "Rewriting", "Identifying", "Differences", "Expanded", "PCD", "Expanded", "MBE", "Macro", "Invocation", "Generation", "③", "§3.4", "LLM", "Based", "Macroize", "MBE", "to", "PCD", "Rewriting", "MBE", "Function", "to", "Seed:", "Rust", "Function", "①", "§3.2", "Seed", "Prioritization", "②", "§3.3", "LLM", "Based", "Mutator", "Other", "Prompts", "Unsafe", "Prompt", "Ownership", "Prompt", "Lifetime", "Prompt", "Seed", "Selection", "Lifetime", "Complexity", "Exec", "Time", "Coverage", "Function", "Size", "Seed", "Pool"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 84.0,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure3-1.png"
+}, {
+  "caption": "Figure 5: The AST type distribution of generated code of rust-twins and rustsmith.",
+  "captionBoundary": {
+    "x1": 134.51400756835938,
+    "x2": 477.4713439941406,
+    "y1": 269.1659851074219,
+    "y2": 274.96697998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Rust-twins", "RustSmith", "Id", "en", "t", "Im", "pl", "Ite", "m", "M", "et", "ho", "d", "Ite", "m", "Ite", "m", "Ex", "te", "rn", "Cr", "at", "e", "Ite", "m", "Im", "pl", "Ite", "m", "M", "od", "Ite", "m", "Tr", "ai", "t", "Ite", "m", "U", "ni", "on", "Li", "fe", "tim", "eD", "ef", "Li", "tB", "yt", "e", "Li", "tF", "lo", "at", "Lo", "ca", "l", "M", "em", "be", "r", "Pa", "t", "Pa", "th", "Ar", "gu", "m", "en", "ts", "Pa", "tL", "it", "Pa", "tP", "at", "h", "Pa", "tR", "es", "t", "Pa", "tT", "up", "le", "Pa", "tW", "ild", "Q", "Se", "lf", "Re", "tu", "rn", "Ty", "pe", "St", "m", "t", "Tr", "ai", "tIt", "em", "Tr", "ai", "tIt", "em", "Ty", "pe", "Ty", "pe", "Ba", "re", "Fn", "Ty", "pe", "M", "ac", "ro", "Ty", "pe", "Pa", "ra", "m", "Bo", "un", "d", "Ty", "pe", "Pt", "r", "Ty", "pe", "Tr", "ai", "tO", "bj", "ec", "t", "U", "se", "Gl", "ob", "U", "se", "Pa", "th", "Va", "ria", "di", "c", "Vi", "sP", "ub", "lic", "W", "he", "re", "Pr", "ed", "ic", "at", "e", "en", "t", "dA", "rg", "um", "Ge", "ne", "ric", "M", "et", "ho", "dC", "al", "l", "Ex", "pr", "Ra", "ng", "e", "Ex", "pr", "Re", "tu", "rn", "Ex", "pr", "Tu", "pl", "e", "Ex", "pr", "W", "hi", "le", "Fi", "el", "dP", "at", "Fi", "el", "ds", "U", "nn", "am", "ed", "Fn", "Ar", "g", "Fo", "re", "ig", "nI", "te", "m", "St", "at", "ic", "Ex", "pr", "M", "et", "ho", "nO", "p", "Ex", "pr", "Bl", "oc", "k", "Ex", "pr", "Ca", "st", "Ex", "pr", "Fi", "el", "d", "Ex", "pr", "In", "de", "x", "Ex", "pr", "Lo", "op", "Ex", "pr", "As", "sig", "tim", "es", "Ex", "pr", "dL", "ife", "Bo", "un", "Ab", "i", "At", "tr", "ib", "ut", "e", "Bi", "nd", "in", "g", "0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 84.0,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure5-1.png"
+}, {
+  "caption": "Figure 4: How rust-twins detects the bugs",
+  "captionBoundary": {
+    "x1": 219.29100036621094,
+    "x2": 392.7015686035156,
+    "y1": 250.65798950195312,
+    "y2": 256.458984375
+  },
+  "figType": "Figure",
+  "imageText": ["Mutation", "Identify", "Comparison", "Dual", "Macros", "Expansion", "LLM", "LLM", "Dual", "Macros", "Generation", "LLM", "Difference", "(f)", "The", "expanded", "PCD", "HIR", "1", "fn", "foo()", "{", "2", "#[lang", "=", "\"Range\"]{", "3", "start:", "0,", "4", "end:", "match", "#[lang=\"branch\"](10){...},", "5", "};", "6", "}", "Seed", "pool", "(e)", "The", "expanded", "MBE", "HIR", "1", "fn", "foo()", "{", "2", "match", "#[lang", "=", "\"branch\"]", "3", "(#[lang", "=", "\"Range\"]{", "start:", "0,end:", "10,})", "4", "{...};", "5", "}", "6", "(d)", "Macro", "invocations", "1", "mdriver!(Vec::<i32>::new());", "2", "mdriver!(0..10);", "3", "mdriver!([1,", "2,", "3,", "4,", "5]);", "4", "mdriver!(Some(\"Value\"));", "5", "mdriver!(Box::new(3));", "6", "...", "(a)", "The", "mutated", "seed", "1", "fn", "foo()", "->", "Option<i32>", "{", "2", "let", "bar", "=", "Some(1)?;", "3", "return", "None;", "4", "}", "(c)", "Generated", "PCD", "from", "seed", "1", "pub", "fn", "mdriver(input:", "TokenStream)", "->", "TokenStream", "{", "2", "let", "expr", "=", "parse_macro_input!(input", "as", "Expr);", "3", "let", "expanded", "=", "quote!", "{", "4", "fn", "foo()", "{#expr?;}};", "5", "TokenStream::from(expanded)", "6", "}", "(b)", "Generated", "MBE", "from", "seed", "1", "macro_rules!", "mdriver", "{", "2", "($expr:expr)", "=>", "{", "3", "fn", "foo()", "{", "4", "$expr?;", "5", "}};", "6", "}"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 551.04,
+    "y1": 82.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure4-1.png"
+}, {
+  "caption": "Figure 6: rust-twins and baseline techniques line coverages over 24h of fuzzing.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03851318359375,
+    "y1": 254.63998413085938,
+    "y2": 271.4000244140625
+  },
+  "figType": "Figure",
+  "imageText": ["0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "22", "24", "Rust-twins", "RustSmith", "Libfuzzer", "250000", "200000", "150000", "100000", "50000", "0"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 296.15999999999997,
+    "y1": 84.0,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Module coverage comparison for rust-twins and rustsmith. (Larger areas indicate more total lines in those modules. The percentage number denotes how much higher coverage rust-twins achieves compared to rustsmith.)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.376220703125,
+    "y1": 259.5959777832031,
+    "y2": 298.27301025390625
+  },
+  "figType": "Figure",
+  "imageText": ["hir_typeck", "52.72%", "trait_selection", "40.18%", "middle", "28.64%", "hir_analysis", "44.56%", "resolve", "41.95%", "infer", "44.07%", "borrowck", "32.27%", "parse", "31.83%", "mir_build", "35.54%", "lint", "31.98%", "ast_lowering", "45.52%", "builtin_macros", "37.01%", "const_eval", "24.95%", "mir_transform", "13.98%", "expand", "28.26%", "ast", "28.15%", "metadata", "29.71%", "passes", "26.75%", "codegen_llvm", "10.17%", "codegen_ssa", "10.45%", "ast_pretty", "37.89%", "hir", "36.51%", "span", "15.12%", "ty_utils", "30.4%", "errors", "19.32%"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 556.3199999999999,
+    "y1": 86.88,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695059-Figure7-1.png"
+}]

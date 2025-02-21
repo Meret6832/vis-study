@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 4: Timeline of vulnerable libraries propagation. # Bef and # Aft denote the number of misuse cases per month before and after the fixed version is released. 𝑻𝑭 𝒊𝒙 denote the time of the fixed library version release.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1807250976562,
+    "y1": 213.58834838867188,
+    "y2": 231.79595947265625
+  },
+  "figType": "Figure",
+  "imageText": ["P3", "TFix:", "2019-03", "#", "Bef", "#", "Aft", "0", "10", "20", "30", "40", "50", "60", "70", "80", "Nu", "m", "be", "r", "Time", "-11", "20", "22", "-05", "20", "22", "-11", "20", "21", "-05", "20", "21", "-11", "20", "20", "-05", "20", "20", "-11", "20", "19", "-05", "20", "19", "-11", "20", "18", "-05", "20", "18", "-10", "20", "17", "P2", "TFix:", "2021-07", "#", "Bef", "#", "Aft", "0", "10", "20", "30", "40", "50", "60", "70", "80", "Nu", "m", "be", "r", "Time", "-11", "20", "22", "-05", "20", "22", "-11", "20", "21", "-05", "20", "21", "-11", "20", "20", "-05", "20", "20", "-11", "20", "19", "-05", "20", "19", "-11", "20", "18", "-05", "20", "18", "-10", "20", "17", "P1", "TFix:", "2019-02", "#", "Bef", "#", "Aft", "0", "10", "20", "30", "40", "50", "60", "70", "80", "Nu", "m", "be", "r", "Time", "-11", "20", "22", "-05", "20", "22", "-11", "20", "21", "-05", "20", "21", "-11", "20", "20", "-05", "20", "20", "-11", "20", "19", "-05", "20", "19", "-11", "20", "18", "-05", "20", "18", "-10", "20", "17"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 558.24,
+    "y1": 83.52,
+    "y2": 198.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623335-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Investigation process for collecting and categorizing library misuse cases",
+  "captionBoundary": {
+    "x1": 139.60699462890625,
+    "x2": 472.37994384765625,
+    "y1": 238.81234741210938,
+    "y2": 244.4429931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Misuse", "Patterns", "②Misuse", "Case", "Collection", "③", "Pattern", "Confirmation", "Card", "Sorting", "Misuse", "Cases", "Real-world", "Contracts", "Popular", "Libraries", "Online", "Database", "(Etherscan,", "Github)", "Audit", "Reports", "(Dapps,", "Openzeppelin)", "①", "Popularity", "Analysis"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 84.47999999999999,
+    "y2": 223.67999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623335-Figure1-1.png"
+}, {
+  "caption": "Table 2: The number (#) of different library misuses patterns in audited contracts and real-world contracts.",
+  "captionBoundary": {
+    "x1": 317.6590881347656,
+    "x2": 558.1943359375,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "92", "86", "905", "456", "#", "Case", "#", "Contract", "#", "Case", "#", "Contract", "P1", "5", "5", "1", "1", "P2", "6", "6", "4", "4", "P3", "3", "3", "2", "2", "P4", "4", "4", "3", "3", "P5", "36", "30", "543", "204", "P6", "18", "18", "85", "51", "P7", "8", "8", "1", "1", "P8", "12", "12", "266", "266", "Pattern", "Audited", "contract", "real-world", "contract"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 116.64,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623335-Table2-1.png"
+}, {
+  "caption": "Table 1: Top 10 popular libraries used in Ethereum contracts.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0373840332031,
+    "y1": 561.1443481445312,
+    "y2": 566.7750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Library", "Description", "SafeMath", "[29]", "Wrappers", "over", "arithmetic", "operations.", "Address", "[21]", "Wrappers", "over", "address", "operations.", "Strings", "[31]", "Toolkit", "of", "string", "type.", "SafeERC20", "[28]", "Wrappers", "over", "ERC20", "operations.", "StorageSlot", "[30]", "Toolkit", "of", "storage", "slots.", "Counters", "[22]", "Supporting", "Counter", "in", "Solidity.", "EnumerableSet", "[24]", "Supporting", "EnumerableSet", "in", "Solidity.", "Math", "[25]", "Math-related", "utilities", "for", "Solidity.", "MerkleProof", "[26]", "Toolkit", "of", "Merkle", "Tree", "proofs.", "AddressUpgradeable", "[32]", "Address", "for", "upgradeable", "contracts."],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 306.24,
+    "y1": 581.76,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623335-Table1-1.png"
+}, {
+  "caption": "Figure 2: Card example for categorizing library misuse",
+  "captionBoundary": {
+    "x1": 327.5190124511719,
+    "x2": 548.6295776367188,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["Reference", "Code", "Example", "Description", "285.", "function", "getAmountIn(uint", "amountOut,", "uint", "reserveIn,", "uint", "reserveOut)", "public", "pure", "override", "returns", "(uint", "amountIn)", "{", "286.", "return", "UniswapV2Library.getAmountOut(amountOut,", "reserveIn,", "reserveOut);", "287.", "}", "Audit", "Report:", "HAECHI_AUDIT-WanSwap,", "Page", "8", "UniswapV2Router01.sol", "Recommendation:", "Like", "Uniswap,", "using", "router02", "instead", "of", "router01", "is", "recommended.", "Problem", "Statement:", "UniswapV2Router01#getAmountIn()", "is", "pure", "function", "which", "should", "returnUniswapV2Library#getAmountIn()", "value.", "But", "according", "the", "code,", "UniswapV2Router01#getAmountIn()", "returns", "UniswapV2Library", "#getAmountOut()", "value.", "The", "UniswapV2", "contract", "contains", "the", "same", "issue.", "So", "they", "updated", "the", "code", "and", "now", "use", "1", "router02", "instead", "of", "router01."],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 570.24,
+    "y1": 553.92,
+    "y2": 684.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623335-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Comparison of different neglected logic in P7",
+  "captionBoundary": {
+    "x1": 63.053001403808594,
+    "x2": 284.7820739746094,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["Unexpected", "Value", "Situation", "2", "(Arithmetic", "Operation)", "Return", "…", "(Observed)", "Throw", "error,", "Emit", "event,", "(Unobserved)", "Modify", "result", "Return", "Result", "Return", "Result", "Invoke", "Smart", "Contract", "Neglected", "logic", "Expected", "logic", "Library", "function", "(Unobserved)", "Expected", "Value", "Return", "Invoke", "Smart", "Contract", "Neglected", "logic", "Expected", "logic", "Situation", "1", "(Other", "Operations)", "Library", "function", "(Unobserved)"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 534.72,
+    "y2": 684.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623335-Figure3-1.png"
+}]

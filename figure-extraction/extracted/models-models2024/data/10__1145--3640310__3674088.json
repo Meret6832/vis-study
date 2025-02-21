@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: An example illustrating the compactness and simplicity of CSBASG; the original code (upper) could be expressed as an equivalent multigraph (middle) with the AST in Figure 1, and turns into the adjacency relationship (lower) with the polynomial-based encoding. With the same predicate in Figure 1, the number of nodes reduced significantly from 31 to 12. All edges are now assigned an integer weight value, which forms an adjacency matrix.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.804931640625,
+    "y1": 487.9261169433594,
+    "y2": 570.2689819335938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 474.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Figure4-1.png"
+}, {
+  "caption": "Table 1: Overview of problem set complexity.",
+  "captionBoundary": {
+    "x1": 82.53600311279297,
+    "x2": 265.0111999511719,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["classroom_fol", "5", "3", "15", "10.00", "classroom_rl", "5", "3", "15", "10.00", "cv_v1", "5", "4", "4", "19.75", "cv_v2", "5", "4", "4", "21.75", "lts", "3", "1", "7", "19.71", "production", "5", "3", "4", "14.25", "train", "6", "3", "18", "23.44", "trash_rl", "3", "1", "10", "4.80", "Problem", "#Sig", "#Rel", "#Exe", "#AST"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 263.03999999999996,
+    "y1": 105.6,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Table1-1.png"
+}, {
+  "caption": "Figure 1: Alloy Model of a Classroom Management System with an oracle and student submission for inv15",
+  "captionBoundary": {
+    "x1": 88.7760009765625,
+    "x2": 523.2250366210938,
+    "y1": 170.01014709472656,
+    "y2": 175.64105224609375
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "sig", "Person", "{", "2.", "Tutors", ":", "set", "Person,", "3.", "Teaches", ":", "set", "Class", "4.", "}", "5.", "sig", "Group", "6.", "sig", "Class", "{", "Groups", ":", "Person", "->", "Group", "}", "7.", "sig", "Teacher", "in", "Person", "{}", "8.", "sig", "Student", "in", "Person", "{}", "/*", "Assuming", "a", "universe", "of", "3", "persons,", "the", "tutoring", "*", "chain", "of", "every", "person", "eventually", "reaches", "a", "Teacher.", "*/", "9.", "pred", "inv15oracle", "{", "10.", "all", "p:Person", "|", "some", "Teacher&(^Tutors).p", "11.", "}", "12.", "pred", "inv15", "{", "13.", "all", "p", ":", "Person", "{", "some", "t", ":", "Teacher", "{", "14.", "t", "in", "p.Tutors", "15.", "or", "t", "in", "p.Tutors.Tutors", "16.", "or", "t", "in", "p.Tutors.Tutors.Tutors", "17.", "}}", "18.}", "(a)", "(b)", "(c)"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 85.44,
+    "x2": 528.96,
+    "y1": 84.96,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Counterexample highlighting difference between inv15 and inv15oracle",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0484924316406,
+    "y1": 264.1880798339844,
+    "y2": 280.77801513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Tutors", "Teaches", "Tutors", "P1", "C0", "P0"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 221.76,
+    "y1": 193.92,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Figure2-1.png"
+}, {
+  "caption": "Table 3: Comparability quantification results of the dataset.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1228637695312,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["lts", "113", "OVER", "69.66", "31.03", "lts", "138", "BOTH", "71.46", "36.55", "lts", "66", "UNDER", "60.87", "42.91", "lts", "61", "CORRECT", "51.61", "49.31", "trash_rl", "150", "OVER", "84.08", "61.93", "trash_rl", "267", "BOTH", "89.39", "62.35", "trash_rl", "62", "UNDER", "90.21", "75.24", "trash_rl", "252", "CORRECT", "90.64", "73.49", "train", "170", "OVER", "70.06", "49.00", "train", "277", "BOTH", "75.16", "50.97", "train", "174", "UNDER", "73.29", "60.55", "train", "75", "CORRECT", "66.66", "63.86", "classroom_fol", "223", "OVER", "77.54", "63.51", "classroom_fol", "1115", "BOTH", "79.21", "64.01", "classroom_fol", "166", "UNDER", "69.61", "61.49", "classroom_fol", "495", "CORRECT", "82.07", "71.77", "cv_v2", "40", "OVER", "65.78", "33.73", "cv_v2", "21", "BOTH", "67.67", "35.04", "cv_v2", "12", "UNDER", "70.70", "36.82", "cv_v2", "31", "CORRECT", "63.93", "38.38", "cv_v1", "118", "OVER", "58.99", "34.84", "cv_v1", "68", "BOTH", "66.96", "36.03", "cv_v1", "54", "UNDER", "69.96", "37.52", "cv_v1", "52", "CORRECT", "62.88", "38.86", "classroom_rl", "223", "OVER", "77.54", "63.51", "classroom_rl", "1115", "BOTH", "79.21", "64.01", "classroom_rl", "166", "UNDER", "69.61", "61.49", "classroom_rl", "495", "CORRECT", "82.07", "71.77", "production", "25", "OVER", "71.80", "45.60", "production", "22", "BOTH", "70.67", "42.82", "production", "36", "UNDER", "43.86", "45.62", "production", "25", "CORRECT", "68.12", "49.4", "Problem", "#Models", "Mut.Type", "Mut.%", "Oracle%"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 553.4399999999999,
+    "y1": 105.6,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Table3-1.png"
+}, {
+  "caption": "Table 2: Compactness test results of the dataset.",
+  "captionBoundary": {
+    "x1": 77.20599365234375,
+    "x2": 270.34228515625,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["lts", "113", "OVER", "24.65", "40.52", "lts", "138", "BOTH", "24.76", "35.9", "lts", "66", "UNDER", "27.14", "34.31", "lts", "61", "CORRECT", "36.66", "39.19", "trash_rl", "150", "OVER", "13.42", "7.10", "trash_rl", "267", "BOTH", "14.85", "6.99", "trash_rl", "62", "UNDER", "31.67", "11.68", "trash_rl", "252", "CORRECT", "20.25", "6.73", "train", "170", "OVER", "23.47", "25.23", "train", "277", "BOTH", "28.18", "28.54", "train", "174", "UNDER", "32.70", "24.43", "train", "75", "CORRECT", "29.44", "19.43", "classroom_fol", "223", "OVER", "30.48", "16.86", "classroom_fol", "1115", "BOTH", "36.48", "26.08", "classroom_fol", "166", "UNDER", "37.19", "28.54", "classroom_fol", "495", "CORRECT", "32.83", "14.67", "cv_v2", "40", "OVER", "38.28", "43.79", "cv_v2", "21", "BOTH", "38.37", "43.08", "cv_v2", "12", "UNDER", "29.16", "36.21", "cv_v2", "31", "CORRECT", "30.95", "40.47", "cv_v1", "118", "OVER", "36.05", "41.48", "cv_v1", "68", "BOTH", "32.49", "39.97", "cv_v1", "54", "UNDER", "32.03", "37.94", "cv_v1", "52", "CORRECT", "31.73", "39.83", "classroom_rl", "223", "OVER", "30.48", "16.86", "classroom_rl", "1115", "BOTH", "36.48", "26.08", "classroom_rl", "166", "UNDER", "37.19", "28.54", "classroom_rl", "495", "CORRECT", "32.83", "14.67", "production", "25", "OVER", "18.84", "20.73", "production", "22", "BOTH", "16.02", "20.41", "production", "36", "UNDER", "22.89", "22.80", "production", "25", "CORRECT", "14.75", "21.12", "Problem", "#Models", "Mut.Type", "Mut.%", "Oracle%"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 105.6,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Table2-1.png"
+}, {
+  "caption": "Figure 3: An instance of an Alloy predicate in the dataset parsed with pretty string and its raw AST representation.",
+  "captionBoundary": {
+    "x1": 74.17900085449219,
+    "x2": 537.8226928710938,
+    "y1": 305.9951171875,
+    "y2": 311.6260070800781
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Figure3-1.png"
+}, {
+  "caption": "Figure 5: An example of a pair of student-written mutant predicate (Inv2) and the ground truth (Inv2C). The ASG edges in form (𝑥,𝑦) indicate the 𝑥-th visit of the sourcing node, and the positional relationship between the nodes is 𝑦. Black edges are present in both predicates, red edges are present in the mutant only, and blue edges are present in the ground truth only.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2056274414062,
+    "y1": 300.13311767578125,
+    "y2": 327.6820068359375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674088-Figure5-1.png"
+}]

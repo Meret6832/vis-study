@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 1: Overview of resource misallocation in vulnerability investigations. “False Positive” indicates vulnerability (CVE-1) does not impact the “User Application”, while “True Positive” applies to vulnerability (CVE-2), which does affect it.",
+  "captionBoundary": {
+    "x1": 314.5165100097656,
+    "x2": 550.520263671875,
+    "y1": 300.94464111328125,
+    "y2": 340.30029296875
+  },
+  "figType": "Figure",
+  "imageText": ["True", "PositiveCVE-2", "(Medium)", "CVE-1", "(Critical)", "False", "Positive", "Scanning", "Tool", "User \n", "Application", "SBOM", "SBOM \n"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 549.12,
+    "y1": 220.79999999999998,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-Figure1-1.png"
+}, {
+  "caption": "Fig. 7: Snippet of the coverage result produced by CovSBOM in JSON format for the Java project “Spark [16]”",
+  "captionBoundary": {
+    "x1": 57.57981872558594,
+    "x2": 293.5762939453125,
+    "y1": 484.1150207519531,
+    "y2": 500.9952697753906
+  },
+  "figType": "Figure",
+  "imageText": ["}", "]", "}", "\"declaringType\":", "\"org.mockito.CapturingMatcher\",", "\"methodSignature\":", "\"getLastValue()\",", "\"methodName\":", "\"getLastValue\",", "\"lineNumber\":", "[\"119\"],", "\"fullExpression\":", "\"capturingMatcher.getLastValue()\",", "\"currentLayer\":", "1,", "\"declarationInfo\":", "{", "\"sourceFilePath\":", "\"/CapturingMatcher.java\",", "\"declarationStartLine\":", "35,", "\"declarationEndLine\":", "42,", "\"methodName\":", "\"getLastValue\",", "\"declarationSignature\":", "\"getLastValue()\",", "\"innerMethodCalls\":", "[", "\"declaringType\":", "\"org.mockito.ArgumentCaptor\",", "\"methodSignature\":", "\"getValue()\",", "\"methodName\":", "\"getValue\",", "\"lineNumber\":", "[\"153\"],", "\"fullExpression\":", "\"cookieArgumentCaptor.getValue()\",", "\"currentLayer\":", "0,", "\"declarationInfo\":", "{", "\"sourceFilePath\":", "\"/ArgumentCaptor.java\",", "\"declarationStartLine\":", "118,", "\"declarationEndLine\":", "120,", "\"methodName\":", "\"getValue\",", "\"declarationSignature\":", "\"getValue()\",", "\"innerMethodCalls\":", "[", "\"artifactId=mockito-core\",", "\"version=1.10.19\",", "\"jarPath=/mockito-core-1.10.19.jar\",", "{", "\"Dependency\":", "\"groupId=org.mockito\","],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 294.24,
+    "y1": 73.92,
+    "y2": 471.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-Figure7-1.png"
+}, {
+  "caption": "Fig. 2: Snippet of CycloneDX standard Software Bill of Materials (SBOM) in JSON format for the Java project “Spark [16]”",
+  "captionBoundary": {
+    "x1": 59.20063018798828,
+    "x2": 295.20440673828125,
+    "y1": 482.7757568359375,
+    "y2": 499.656005859375
+  },
+  "figType": "Figure",
+  "imageText": ["]", "}", "9.4.48.v20220622?type=jar\"", "},", "\"ref\":", "\"pkg:maven/.../spark-core", "@2.9.4-SNAPSHOT?type=bundle\",", "\"dependsOn\":", "[", "\"pkg:maven/.../jetty-server@", "]", "\"dependencies\":", "[", "{", "9.4.48.v20220622?type=jar\"", "},", "\"group\":", "\"org.eclipse.jetty\",", "\"name\":", "\"jetty-server\",", "\"version\":", "\"9.4.48.v20220622\",", "\"purl\":", "\"pkg:maven/jetty-server@", "9.4.48.v20220622?type=jar\",", "\"bom-ref\":", "\"pkg:maven/jetty-server@", "},", "\"components\":", "[", "{", "2.9.4-SNAPSHOT?type=bundle\"", "}", "\"group\":", "\"com.sparkjava\",", "\"name\":", "\"spark-core\",", "\"version\":", "\"2.9.4-SNAPSHOT\",", "\"purl\":", "\"pkg:maven/.../spark-core@", "2.9.4-SNAPSHOT?type=bundle\",", "\"bom-ref\":", "\"pkg:maven/.../spark-core@", "},", "\"component\":", "{", "}", "]", "\"components\":", "[", "{", "\"group\":", "\"@cyclonedx\",", "\"name\":", "\"cdxgen\",", "\"version\":", "\"xx.x.x\",", "\"publisher\":", "\"OWASP", "Foundation\"", "{", "\"bomFormat\":", "\"CycloneDX\",", "\"specVersion\":", "\"1.x\",", "\"metadata\":", "{", "\"tools\":", "{"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 470.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: Vulnerability detection for Applicationi. AF denotes application function, ACC represents code coverage in application, LF indicates library function, LCC signifies code coverage in Libraryi, and V marks the vulnerability location.",
+  "captionBoundary": {
+    "x1": 315.5148010253906,
+    "x2": 551.5197143554688,
+    "y1": 192.47067260742188,
+    "y2": 233.23150634765625
+  },
+  "figType": "Figure",
+  "imageText": ["V1", "LCC1ACC1", "AF1", "LF1", "Applicationi", "Libraryj"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 543.36,
+    "y1": 72.96,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-Figure3-1.png"
+}, {
+  "caption": "TABLE II: False-Positive detection capability of CovSBOM on 145 vulnerabilities from the 23 recommended projects. The cases highlighted in “light-gray” indicate that these projects contain no vulnerabilities as reported by SBOM security tools.",
+  "captionBoundary": {
+    "x1": 59.37458801269531,
+    "x2": 542.6118774414062,
+    "y1": 74.36843872070312,
+    "y2": 91.2486572265625
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Version", "CVE", "FP", "latencyutils", "2.0.4", "CVE-2020-15250", "✓", "time4j", "5.9.4", "-", "-", "xchart", "3.8.8", "-", "-", "activej", "6.0", "CVE-2023-33546", "✓", "activej", "6.0", "CVE-2024-1023", "⊠", "activej", "6.0", "CVE-2024-1300", "⊠", "activej", "6.0", "CVE-2024-29025", "⊠", "activej", "6.0", "CVE-2023-6378", "⊠", "activej", "6.0", "CVE-2018-14335", "✓", "beanmother", "0.9.0", "CVE-2017-18640", "✓", "beanmother", "0.9.0", "CVE-2022-25857", "✓", "beanmother", "0.9.0", "CVE-2022-38749", "✓", "beanmother", "0.9.0", "CVE-2023-2976", "✓", "beanmother", "0.9.0", "CVE-2020-8908", "✓", "beanmother", "0.9.0", "CVE-2022-38751", "⊠", "beanmother", "0.9.0", "CVE-2022-38752", "✓", "beanmother", "0.9.0", "CVE-2022-41854", "✓", "beanmother", "0.9.0", "CVE-2022-1471", "⊠", "beanmother", "0.9.0", "CVE-2022-38750", "✓", "blade", "2.1.2", "CVE-2024-29025", "⊠", "blade", "2.1.2", "CVE-2023-34462", "⊠", "blade", "2.1.2", "CVE-2018-14040", "⊠", "blade", "2.1.2", "CVE-2018-14041", "⊠", "blade", "2.1.2", "CVE-2018-14042", "⊠", "blade", "2.1.2", "CVE-2019-8331", "⊠", "blade", "2.1.2", "CVE-2019-11358", "⊠", "blade", "2.1.2", "CVE-2020-11023", "⊠", "blade", "2.1.2", "CVE-2020-13956", "✓", "blade", "2.1.2", "CVE-2022-45688", "✓", "blade", "2.1.2", "CVE-2023-5072", "✓", "blade", "2.1.2", "CVE-2024-31033", "⊠", "blade", "2.1.2", "CVE-2023-2976", "✓", "blade", "2.1.2", "CVE-2020-8908", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2021-28168", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2019-16942", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2019-16943", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2019-17531", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2020-25649", "✓", "Project", "Version", "CVE", "FP", "connect-java-sdk", "2.20191120.0", "CVE-2020-36518", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2022-42003", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2022-42004", "✓", "connect-java-sdk", "2.20191120.0", "CVE-2020-15250", "✓", "datafaker", "2.1.1", "-", "-", "fixture-factory", "3.1.1", "CVE-2020-15250", "✓", "fixture-factory", "3.1.1", "CVE-2014-0114", "✓", "fixture-factory", "3.1.1", "CVE-2019-17571", "✓", "fixture-factory", "3.1.1", "CVE-2021-4104", "✓", "fixture-factory", "3.1.1", "CVE-2022-23302", "✓", "fixture-factory", "3.1.1", "CVE-2022-23305", "✓", "fixture-factory", "3.1.1", "CVE-2022-23307", "✓", "fixture-factory", "3.1.1", "CVE-2023-26464", "✓", "fixture-factory", "3.1.1", "CVE-2020-25638", "✓", "fixture-factory", "3.1.1", "CVE-2018-1000632", "✓", "fixture-factory", "3.1.1", "CVE-2020-10683", "✓", "jfairy", "0.6.5", "CVE-2022-42889", "✓", "jfairy", "0.6.5", "CVE-2023-2976", "✓", "jfairy", "0.6.5", "CVE-2020-8908", "✓", "jfairy", "0.6.5", "CVE-2023-6378", "⊠", "jfairy", "0.6.5", "CVE-2023-6378", "⊠", "jwt-java", "1.2.0", "CVE-2022-45688", "✓", "jwt-java", "1.2.0", "CVE-2023-5072", "✓", "light-4j", "2.1.33", "CVE-2016-6311", "⊠", "light-4j", "2.1.33", "CVE-2023-1973", "✓", "light-4j", "2.1.33", "CVE-2023-5685", "✓", "light-4j", "2.1.33", "CVE-2023-51775", "✓", "light-4j", "2.1.33", "CVE-2018-14335", "✓", "light-4j", "2.1.33", "CVE-2018-8088", "✓", "light-4j", "2.1.33", "CVE-2018-11771", "✓", "light-4j", "2.1.33", "CVE-2019-12402", "✓", "light-4j", "2.1.33", "CVE-2021-35515", "✓", "light-4j", "2.1.33", "CVE-2021-35516", "✓", "light-4j", "2.1.33", "CVE-2021-35517", "✓", "light-4j", "2.1.33", "CVE-2021-36090", "✓", "light-4j", "2.1.33", "CVE-2024-25710", "⊠", "light-4j", "2.1.33", "CVE-2019-17571", "✓", "light-4j", "2.1.33", "CVE-2021-4104", "✓", "Project", "Version", "CVE", "FP", "light-4j", "2.1.33", "CVE-2022-23302", "✓", "light-4j", "2.1.33", "CVE-2022-23305", "✓", "light-4j", "2.1.33", "CVE-2022-23307", "✓", "light-4j", "2.1.33", "CVE-2023-26464", "✓", "parity", "0.7.1", "-", "-", "password4j", "1.8.1", "-", "-", "philadelphia", "2.0.1", "-", "-", "simple-java-mail", "8.7.1", "CVE-2024-23081", "✓", "simple-java-mail", "8.7.1", "CVE-2024-23082", "✓", "spatial4j", "0.9", "-", "-", "ta4j", "0.16", "CVE-2023-6481", "⊠", "ta4j", "0.16", "CVE-2024-22949", "✓", "thymeleak", "3.1.3", "CVE-2016-1000027", "✓", "thymeleak", "3.1.3", "CVE-2024-22243", "⊠", "thymeleak", "3.1.3", "CVE-2024-22233", "✓", "thymeleak", "3.1.3", "CVE-2023-34053", "✓", "thymeleak", "3.1.3", "CVE-2024-22257", "✓", "thymeleak", "3.1.3", "CVE-2020-5408", "✓", "thymeleak", "3.1.3", "CVE-2024-22234", "⊠", "thymeleak", "3.1.3", "CVE-2023-6378", "⊠", "thymeleak", "3.1.3", "CVE-2022-1471", "✓", "thymeleak", "3.1.3", "CVE-2022-25857", "✓", "thymeleak", "3.1.3", "CVE-2022-38749", "✓", "thymeleak", "3.1.3", "CVE-2022-38750", "✓", "thymeleak", "3.1.3", "CVE-2022-38751", "✓", "thymeleak", "3.1.3", "CVE-2022-38752", "✓", "thymeleak", "3.1.3", "CVE-2022-41854", "✓", "thymeleak", "3.1.3", "CVE-2023-32697", "✓", "thymeleak", "3.1.3", "CVE-2024-29025", "✓", "thymeleak", "3.1.3", "CVE-2023-34062", "⊠", "thymeleak", "3.1.3", "CVE-2023-34054", "⊠", "wicket", "10.1.0", "CVE-2016-6345", "✓", "wicket", "10.1.0", "CVE-2016-6346", "✓", "wicket", "10.1.0", "CVE-2016-6347", "✓", "wicket", "10.1.0", "CVE-2017-7561", "✓", "wicket", "10.1.0", "CVE-2020-10688", "✓", "wicket", "10.1.0", "CVE-2020-1695", "✓", "wicket", "10.1.0", "CVE-2021-20289", "✓", "Project", "Version", "CVE", "FP", "wicket", "10.1.0", "CVE-2020-13956", "✓", "wicket", "10.1.0", "CVE-2023-2976", "✓", "wicket", "10.1.0", "CVE-2020-8908", "✓", "wicket", "10.1.0", "CVE-2023-40167", "✓", "wicket", "10.1.0", "CVE-2018-18531", "✓", "wicket", "10.1.0", "CVE-2020-15250", "✓", "wicket", "10.1.0", "CVE-2009-2625", "✓", "wicket", "10.1.0", "CVE-2012-0881", "✓", "wicket", "10.1.0", "CVE-2013-4002", "✓", "wicket", "10.1.0", "CVE-2022-23437", "⊠", "wicket", "10.1.0", "CVE-2017-10355", "✓", "xstream", "1.5.0", "CVE-2018-1000632", "⊠", "xstream", "1.5.0", "CVE-2020-10683", "⊠", "xstream", "1.5.0", "CVE-2021-33813", "⊠", "xstream", "1.5.0", "CVE-2022-40149", "✓", "xstream", "1.5.0", "CVE-2022-40150", "✓", "xstream", "1.5.0", "CVE-2022-45685", "⊠", "xstream", "1.5.0", "CVE-2022-45693", "⊠", "xstream", "1.5.0", "CVE-2023-1436", "✓", "xstream", "1.5.0", "CVE-2022-45688", "✓", "xstream", "1.5.0", "CVE-2023-5072", "✓", "xstream", "1.5.0", "CVE-2013-5816", "⊠", "xstream", "1.5.0", "CVE-2019-12401", "⊠", "xstream", "1.5.0", "CVE-2020-25638", "⊠", "xstream", "1.5.0", "CVE-2019-14900", "⊠", "xstream", "1.5.0", "CVE-2022-41853", "⊠", "xstream", "1.5.0", "CVE-2020-15250", "✓", "springdoc-openapi", "2.5.1", "CVE-2024-22258", "⊠", "springdoc-openapi", "2.5.1", "CVE-2023-52428", "✓", "springdoc-openapi", "2.5.1", "CVE-2024-29025", "✓", "springdoc-openapi", "2.5.1", "CVE-2018-14335", "✓", "springdoc-openapi", "2.5.1", "CVE-2024-31033", "⊠", "spark", "2.9.4", "CVE-2023-26048", "✓", "spark", "2.9.4", "CVE-2023-26049", "✓", "spark", "2.9.4", "CVE-2023-40167", "✓", "spark", "2.9.4", "CVE-2020-15250", "⊠", "spark", "2.9.4", "CVE-2020-13956", "✓", "spark", "2.9.4", "CVE-2022-25647", "✓"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 546.24,
+    "y1": 99.84,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-TableII-1.png"
+}, {
+  "caption": "Fig. 4: Overview of the CovSBOM workflow.",
+  "captionBoundary": {
+    "x1": 217.33070373535156,
+    "x2": 386.6300048828125,
+    "y1": 276.0423583984375,
+    "y2": 281.6849060058594
+  },
+  "figType": "Figure",
+  "imageText": ["SBOM", "Generation", "Tools", "Pre-Process", "Analyze", "Output", "Download \n", "Library", "Jars", "Download", "Library \n", "Source", "Code", "Maven \n", "Dependency", "Tree", "Collect", "Library", "Functions", "Construct \n", "Dependency", "Graph", "Preliminary", "SBOMs", "SBOMs", "with", "Code", "Coverage", "Output", "Coverage", "Analysis", "Dependencies \n", "Analysis", "User \n", "Application"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 535.1999999999999,
+    "y1": 73.92,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-Figure4-1.png"
+}, {
+  "caption": "TABLE I: Comparison of the leading tools for code coverage capabilities in both main applications and third-party libraries.",
+  "captionBoundary": {
+    "x1": 60.365753173828125,
+    "x2": 296.36944580078125,
+    "y1": 295.333984375,
+    "y2": 312.2151794433594
+  },
+  "figType": "Table",
+  "imageText": ["Clover", "✓", "✗", "Emma", "✓", "✗", "JaCoCo", "✓", "✗", "Cobertura", "✓", "✗", "JCov", "✓", "✗", "Codecov", "✓", "✗", "Parasoft", "JTest", "✓", "✗", "Tools", "Coverage", "Analysis", "Capability", "Main", "Apps.", "Third-Party", "Libs."],
+  "name": "I",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 285.12,
+    "y1": 320.64,
+    "y2": 410.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-TableI-1.png"
+}, {
+  "caption": "TABLE III: Performance of CovSBOM on the selected projects",
+  "captionBoundary": {
+    "x1": 59.68299865722656,
+    "x2": 295.6812744140625,
+    "y1": 73.41354370117188,
+    "y2": 79.05609130859375
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Deps.", "Count", "Time", "(Sec)", "latencyutils", "3", "5s", "time4j", "4", "4s", "xchart", "27", "7s", "activej", "240", "301s", "beanmother", "32", "8s", "blade", "46", "25s", "connect-java-sdk", "27", "21s", "datafaker", "40", "19s", "fixture-factory", "23", "11s", "jfairy", "37", "62s", "jwt-java", "10", "3s", "light-4j", "153", "45s", "parity", "37", "5s", "password4j", "4", "4s", "philadelphia", "34", "7s", "simple-java-mail", "91", "6s", "spatial4j", "10", "4s", "ta4j", "22", "13s", "thymeleak", "226", "60s", "wicket", "226", "133s", "xstream", "90", "16s", "springdoc-openapi", "196", "33s", "spark", "36", "17s"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 270.24,
+    "y1": 87.84,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: Comparison of original and enhanced SBOM sizes",
+  "captionBoundary": {
+    "x1": 314.58465576171875,
+    "x2": 550.5884399414062,
+    "y1": 73.31118774414062,
+    "y2": 78.9537353515625
+  },
+  "figType": "Table",
+  "imageText": ["latencyutils", "7.68", "155", "20.2x", "time4j", "8.5", "26.6", "3.13x", "xchart", "57", "278", "4.88x", "activej", "426", "10862.4", "25.5x", "beanmother", "66", "215.5", "3.27x", "blade", "98", "617.5", "6.30x", "connect-java-sdk", "61", "157.2", "2.58x", "datafaker", "86", "2640.7", "30.7x", "fixture-factory", "49", "893.5", "18.3x", "jfairy", "82", "2446.8", "29.8x", "jwt-java", "25", "63.4", "2.54x", "light-4j", "274", "10156.9", "37.1x", "parity", "70", "183.5", "2.62x", "password4j", "12", "91.5", "7.63x", "philadelphia", "57", "328", "5.75x", "simple-java-mail", "205", "258", "1.26x", "spatial4j", "25", "68.7", "2.75x", "ta4j", "45", "174.8", "3.88x", "thymeleak", "459", "1979.2", "4.31x", "wicket", "467", "15260", "32.7x", "xstream", "193", "1421.8", "7.37x", "springdoc-openapi", "410", "780.9", "1.90x", "spark", "78", "712", "9.13x", "Projects", "SBOM", "Size", "in", "KB", "Orig.", "SBOM", "Cov", "+", "SBOM", "Increased"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 548.16,
+    "y1": 87.36,
+    "y2": 324.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-TableIV-1.png"
+}, {
+  "caption": "Fig. 5: Simplified dependency graph constructed by CovSBOM",
+  "captionBoundary": {
+    "x1": 59.48780059814453,
+    "x2": 295.4842834472656,
+    "y1": 193.07015991210938,
+    "y2": 198.71270751953125
+  },
+  "figType": "Figure",
+  "imageText": [".", ".", ".", "Path-6:", "A", "->", "D", "->", "G", "->", "C", "Path-5:", "A", "->", "D", "->", "G", "->", "F", "Path-4:", "A", "->", "C", "->", "E", "->", "B", "Path-3:", "A", "->", "C", "->", "F", "->", "G", "Path-2:", "A", "->", "B", "->", "E", "->", "C", "Path-1:", "A", "->", "B", "->", "E", "->", "F", "Possible", "Call", "Paths:", "D", "C", "G", "F", "A", "B", "E"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 284.15999999999997,
+    "y1": 72.96,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-Figure5-1.png"
+}, {
+  "caption": "Fig. 6: Java code snippet to present Path-2 (A→B→E→C) from Figure 5.",
+  "captionBoundary": {
+    "x1": 315.1044006347656,
+    "x2": 551.1014404296875,
+    "y1": 396.44195556640625,
+    "y2": 413.32220458984375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "class", "ApplicationA", "{", "2", "public", "static", "void", "main(String[]", "args)", "{", "3", "DependencyB.func_x();", "4", "func_m();", "5", "}", "6", "public", "static", "void", "func_m()", "{", "7", "System.out.println(\"func_m", "from", "A.\");", "8", "}", "9", "}", "10", "------------------------------------------------", "11", "public", "class", "DependencyB", "{", "12", "public", "static", "void", "func_x()", "{", "13", "DependencyE.func_y();", "14", "//", "Call", "internel", "function", "func_z", "15", "func_z();", "16", "}", "17", "public", "static", "void", "func_z()", "{", "18", "System.out.println(\"func_z", "from", "B.\");", "19", "}", "20", "}", "21", "------------------------------------------------", "22", "public", "class", "DependencyE", "{", "23", "public", "static", "void", "func_y()", "{", "24", "//", "Call", "external", "function", "func_h", "from", "C", "25", "DependencyC.func_h();", "26", "}", "27", "}", "28", "------------------------------------------------", "29", "public", "class", "DependencyC", "{", "30", "public", "static", "void", "func_h()", "{", "31", "System.out.println(\"func_h", "from", "C.\");", "32", "}", "33", "}"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 556.3199999999999,
+    "y1": 72.96,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00031-Figure6-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 2. Overview of DepGraph. The term type denotes the AST node’s type (e.g., M1 is a MethodDeclaration, and S2 is an IfStatement). Tests, such as T1, include test outcomes (e.g., pass or fail).",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.15692138671875,
+    "y1": 298.2698669433594,
+    "y2": 313.4599914550781
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 421.44,
+    "y1": 84.0,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Figure2-1.png"
+}, {
+  "caption": "Table 1. An overview of our studied projects from Defects4J v2.0.0. #Faults, LOC, and #Tests show the number of faults, lines of code, and tests in each system. Fault-triggering Tests shows the number of failing tests that trigger the fault.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3375549316406,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Project", "#Faults", "LOC", "#Tests", "Fault-triggering", "Tests", "Cli", "39", "4K", "94", "66", "Closure", "174", "90K", "7,911", "545", "Codec", "18", "7K", "206", "43", "Collections", "4", "65K", "1,286", "4", "Compress", "47", "9K", "73", "72", "Csv", "16", "2K", "54", "24", "Gson", "18", "14K", "720", "34", "JacksonCore", "26", "22K", "206", "53", "JacksonXml", "6", "9K", "138", "12", "Jsoup", "93", "8K", "139", "144", "Lang", "64", "22K", "2,291", "121", "Math", "106", "85K", "4,378", "176", "Mockito", "38", "11K", "1,379", "118", "Time", "26", "28K", "4,041", "74", "Total", "675", "380K", "24,302", "1,486"],
+  "name": "1",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 442.08,
+    "y1": 128.64,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Table1-1.png"
+}, {
+  "caption": "Fig. 3. An example of the Dependency-Enhanced Coverage Graph representation in DepGraph.",
+  "captionBoundary": {
+    "x1": 71.46019744873047,
+    "x2": 414.539794921875,
+    "y1": 266.7578430175781,
+    "y2": 270.989990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 112.8,
+    "x2": 370.08,
+    "y1": 84.0,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Figure3-1.png"
+}, {
+  "caption": "Table 2. A comparison of the fault localization techniques. For each project, we show the technique with the best MFR in bold (the lower the be er). DepGraphw/o Code Change shows the result a er adopting DependencyEnhanced Coverage Graph, and DepGraph shows the result of incorporating both Dependency-Enhanced Coverage Graph and Code Change Information. The number in the parentheses shows the percentage improvement over GNN (i.e., Grace) [30]. The best result is marked in bold.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.0676574707031,
+    "y1": 88.12186431884766,
+    "y2": 136.18902587890625
+  },
+  "figType": "Table",
+  "imageText": ["Collections", "(4)", "Ochiai", "1", "1", "2", "2", "3.871", "3.431", "DeepFL", "1", "1", "2", "2", "1.512", "1.519", "GNN", "1", "1", "2", "2", "1.511", "1.511", "DepGraphw/o", "Code", "Change", "1", "(0%)", "1", "(0%)", "2", "(0%)", "2", "(0%)", "1.511", "(0%)", "1.511", "(0%)", "DepGraph", "1", "(0%)", "2", "(100%)", "2", "(0%)", "2", "(0%)", "1.445", "(4%)", "1.445", "(4%)", "Compress", "(47)", "Ochiai", "5", "12", "17", "29", "20.106", "23.275", "DeepFL", "22", "27", "31", "38", "9.573", "12.955", "GNN", "23", "29", "34", "42", "5.383", "6.987", "DepGraphw/o", "Code", "Change", "24", "(4%)", "32", "(10%)", "36", "(6%)", "42", "(0%)", "4.384", "(19%)", "5.209", "(25%)", "DepGraph", "25", "(9%)", "33", "(14%)", "36", "(6%)", "45", "(7%)", "3.361", "(38%)", "4.245", "(39%)", "Csv", "(16)", "Ochiai", "3", "8", "10", "12", "5.625", "5.782", "DeepFL", "7", "8", "9", "11", "5.623", "5.971", "GNN", "6", "8", "10", "12", "5.438", "5.938", "DepGraphw/o", "Code", "Change", "8", "(33%)", "9", "(13%)", "10", "(0%)", "13", "(8%)", "5.362", "(1%)", "5.581", "(6%)", "DepGraph", "8", "(33%)", "9", "(13%)", "12", "(20%)", "13", "(8%)", "4.813", "(12%)", "5.001", "(16%)", "Gson", "(18)", "Ochiai", "4", "9", "9", "12", "9.177", "10.183", "DeepFL", "8", "11", "12", "12", "8.873", "9.324", "GNN", "11", "13", "14", "15", "6.471", "6.755", "DepGraphw/o", "Code", "Change", "12", "(9%)", "14", "(8%)", "15", "(7%)", "15", "(0%)", "2.177", "(66%)", "2.471", "(63%)", "DepGraph", "14", "(27%)", "15", "(15%)", "16", "(14%)", "16", "(7%)", "1.353", "(79%)", "1.765", "(74%)", "JacksonCore", "(26)", "Ochiai", "6", "11", "13", "14", "9.789", "16.754", "DeepFL", "5", "5", "9", "10", "8.671", "9.711", "GNN", "9", "13", "14", "15", "6.471", "6.755", "DepGraphw/o", "Code", "Change", "9", "(0%)", "14", "(8%)", "15", "(7%)", "17", "(13%)", "3.474", "(29%)", "4.509", "(28%)", "DepGraph", "12", "(33%)", "15", "(15%)", "15", "(7%)", "16", "(7%)", "3.052", "(38%)", "4.015", "(36%)", "JacksonXml", "(6)", "Ochiai", "0", "0", "0", "0", "59.2", "59.2", "DeepFL", "3", "3", "4", "5", "3.513", "4.245", "GNN", "3", "3", "4", "5", "2.401", "2.401", "DepGraphw/o", "Code", "Change", "4", "(33%)", "5", "(67%)", "5", "(25%)", "5", "(0%)", "0.411", "(83%)", "0.411", "(83%)", "DepGraph", "4", "(33%)", "5", "(67%)", "5", "(25%)", "5", "(0%)", "0.409", "(83%)", "0.409", "(83%)", "Jsoup", "(93)", "Ochiai", "15", "40", "48", "57", "14.944", "20.209", "DeepFL", "33", "39", "46", "49", "10.23", "11.444", "GNN", "40", "64", "72", "77", "8.223", "9.669", "DepGraphw/o", "Code", "Change", "50", "(25%)", "70", "(9%)", "77", "(7%)", "82", "(6%)", "4.022", "(51%)", "6.815", "(30%)", "DepGraph", "53", "(33%)", "73", "(14%)", "78", "(8%)", "83", "(8%)", "3.023", "(63%)", "4.6174", "(52%)", "Lang", "(64)", "Ochiai", "25", "45", "51", "59", "4.68", "5.15", "DeepFL", "42", "53", "55", "57", "2.833", "3.08", "GNN", "43", "53", "57", "58", "2.113", "2.462", "DepGraphw/o", "Code", "Change", "45", "(5%)", "55", "(4%)", "58", "(2%)", "61", "(5%)", "1.564", "(26%)", "1.902", "(23%)", "DepGraph", "48", "(12%)", "55", "(4%)", "60", "(5%)", "61", "(5%)", "1.153", "(45%)", "1.481", "(40%)", "Math", "(106)", "Ochiai", "23", "52", "62", "82", "9.73", "11.72", "DeepFL", "52", "81", "90", "95", "3.95", "4.911", "GNN", "64", "79", "92", "97", "2.355", "3.082", "DepGraphw/o", "Code", "Change", "67", "(5%)", "90", "(14%)", "96", "(4%)", "100", "(3%)", "1.185", "(50%)", "1.528", "(50%)", "DepGraph", "72", "(13%)", "92", "(16%)", "97", "(5%)", "102", "(5%)", "1.115", "(53%)", "1.454", "(53%)", "Mockito", "(38)", "Ochiai", "7", "14", "18", "23", "20.22", "24.77", "DeepFL", "10", "18", "23", "26", "13.541", "17.001", "GNN", "16", "24", "26", "29", "9.611", "13.621", "DepGraphw/o", "Code", "Change", "20", "(25%)", "28", "(17%)", "34", "(31%)", "34", "(17%)", "2.361", "(75%)", "3.307", "(76%)", "DepGraph", "21", "(31%)", "29", "(21%)", "32", "(23%)", "34", "(17%)", "2.194", "(77%)", "2.998", "(78%)", "Time", "(26)", "Ochiai", "6", "12", "13", "16", "16.14", "18.98", "DeepFL", "12", "15", "18", "20", "12.722", "13.754", "GNN", "11", "16", "20", "21", "7.842", "8.448", "DepGraphw/o", "Code", "Change", "16", "(45%)", "19", "(19%)", "20", "(0%)", "22", "(5%)", "3.321", "(58%)", "4.465", "(47%)", "DepGraph", "17", "(55%)", "20", "(25%)", "21", "(5%)", "22", "(5%)", "3.044", "(61%)", "4.371", "(48%)", "Total", "(675)", "Ochiai", "121", "260", "340", "413", "20.753", "24.038", "DeepFL", "257", "353", "427", "468", "8.726", "10.338", "GNN", "298", "416", "486", "541", "5.678", "6.851", "DepGraphw/o", "Code", "Change", "336", "(13%)", "470", "(13%)", "534", "(10%)", "588", "(9%)", "3.049", "(46%)", "3.957", "(42%)", "DepGraph", "359", "(20%)", "481", "(16%)", "541", "(11%)", "597", "(10%)", "2.562", "(55%)", "3.272", "(52%)", "DepGraph", "7", "(17%)", "10", "(-9%)", "14", "(8%)", "16", "(-6%)", "3.111", "(-23%)", "4.327", "(-8%)", "Project", "(#", "faults)", "Techniques", "Top-1", "Top-3", "Top-5", "Top-10", "MFR", "MAR", "Cli", "(39)", "Ochiai", "3", "5", "10", "18", "15.711", "18.272", "DeepFL", "11", "21", "24", "28", "8.991", "10.681", "GNN", "14", "24", "26", "30", "7.861", "9.903", "DepGraphw/o", "Code", "Change", "15", "(7%)", "22", "(-8%)", "26", "(0%)", "31", "(3%)", "5.973", "(24%)", "7.118", "(28%)", "DepGraph", "17", "(21%)", "24", "(0%)", "27", "(4%)", "34", "(10%)", "5.105", "(30%)", "6.223", "(32%)", "Closure", "(174)", "Ochiai", "20", "39", "70", "72", "98.652", "110.348", "DeepFL", "46", "61", "92", "99", "29.388", "35.333", "GNN", "51", "78", "102", "121", "12.854", "14.814", "DepGraphw/o", "Code", "Change", "58", "(14%)", "97", "(24%)", "123", "(21%)", "148", "(22%)", "4.844", "(62%)", "7.911", "(47%)", "DepGraph", "60", "(18%)", "99", "(27%)", "126", "(24%)", "148", "(22%)", "4.542", "(65%)", "7.306", "(51%)", "Codec", "(18)", "Ochiai", "3", "12", "17", "17", "2.701", "3.461", "DeepFL", "5", "10", "12", "16", "2.742", "4.803", "GNN", "6", "11", "13", "17", "2.536", "4.015", "DepGraphw/o", "Code", "Change", "7", "(17%)", "12", "(9%)", "14", "(8%)", "16", "(-6%)", "2.412", "(5%)", "3.265", "(19%)"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 432.47999999999996,
+    "y1": 142.56,
+    "y2": 668.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Table2-1.png"
+}, {
+  "caption": "Fig. 5. Overlaps between the faults that DepGraph and GNN (i.e., Grace) locate in Top-1, 3, 5 and 10. The overlapping regions contain a number of faults that have the same ranking in both of the techniques. The non-overlapped regions contain faults that were uniquely located by each technique. We consider both DepGraph, and, DepGraph w/o CC (Code Change).",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17376708984375,
+    "y1": 249.19485473632812,
+    "y2": 286.3039855957031
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 397.44,
+    "y1": 84.0,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Figure5-1.png"
+}, {
+  "caption": "Fig. 4. Code Representation for the method unescape() based on the abstract syntax tree.",
+  "captionBoundary": {
+    "x1": 78.11289978027344,
+    "x2": 407.8880615234375,
+    "y1": 230.48086547851562,
+    "y2": 234.7130126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 400.32,
+    "y1": 84.0,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Figure4-1.png"
+}, {
+  "caption": "Table 4. A comparison of the cross-project fault localization accuracy. In the last row, the number in the parentheses shows the percentage improvement over GNN (i.e., Grace) [30]. The best result is marked in bold.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1710205078125,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["JacksonXml", "(6)", "GNN", "0.75", "1.667", "1.917", "3", "25.733", "25.733", "DepGraphw/o", "Code", "Change", "1.538", "2.615", "3.077", "4.154", "4.215", "4.215", "DepGraph", "2", "3.333", "4.333", "4.833", "2.15", "2.15", "Jsoup", "(93)", "GNN", "25.667", "42.833", "53.417", "61.667", "29.87", "36.572", "DepGraphw/o", "Code", "Change", "36.231", "50.154", "61.462", "69.846", "11.028", "13.879", "DepGraph", "43.25", "60.583", "68.917", "77.5", "4.766", "7.503", "Lang", "(64)", "GNN", "34.583", "48.25", "52.583", "57.333", "3.035", "3.584", "DepGraphw/o", "Code", "Change", "37.462", "50.077", "54.538", "60", "1.935", "2.241", "DepGraph", "42.667", "53.583", "57.75", "60.75", "1.507", "1.795", "Math", "(106)", "GNN", "41", "60.583", "69.5", "82.25", "8.452", "9.302", "DepGraphw/o", "Code", "Change", "46.923", "71.077", "82.615", "94.538", "2.922", "3.297", "DepGraph", "55.25", "82.917", "91.917", "99.417", "1.748", "2.103", "Mockito", "(38)", "GNN", "10.417", "18", "20.167", "24.083", "21.514", "28.657", "DepGraphw/o", "Code", "Change", "13.385", "25.231", "28.846", "32.538", "3.788", "4.852", "DepGraph", "17.5", "27.083", "30.917", "33.167", "2.618", "3.474", "Time", "(26)", "GNN", "7.5", "11.75", "14.333", "17", "19.587", "22.058", "DepGraphw/o", "Code", "Change", "10.769", "14.692", "16.154", "18.385", "10.893", "11.752", "DepGraph", "11.083", "15.333", "17.417", "20", "8.948", "10.034", "Total", "(675)", "GNN", "196.956", "318.903", "374.409", "440.933", "16.616", "19.154", "DepGraphw/o", "Code", "Change", "241.693", "(23%)", "375", "(18%)", "444.153", "(19%)", "520.077", "(18%)", "6.166", "(63%)", "7.285", "(62%)", "DepGraph", "279.463", "(42%)", "412.777", "(29%)", "480.237", "(28%)", "542.422", "(23%)", "5.213", "(68%)", "6.581", "(65%)", "DepGraph", "8.667", "12.667", "13.833", "14.75", "8.246", "9.823", "JacksonCore", "(26)", "GNN", "0.917", "3.167", "3.667", "5.417", "41.851", "47.374", "DepGraphw/o", "Code", "Change", "7.154", "12.462", "13.462", "15.385", "4.822", "6.171", "DepGraph", "7.917", "11.667", "13.5", "15", "6.475", "6.739", "Gson", "(18)", "GNN", "7.417", "10.167", "11.75", "13.167", "13.784", "14.23", "DepGraphw/o", "Code", "Change", "9.231", "11.615", "12.692", "14.308", "4.195", "4.509", "DepGraph", "6.75", "8.417", "10.5", "12.5", "7.203", "7.451", "Collections", "(4)", "GNN", "1.25", "1.5", "1.833", "1.833", "2.958", "2.958", "DepGraphw/o", "Code", "Change", "1.154", "1.538", "1.923", "2", "1.192", "1.192", "DepGraph", "1.667", "2", "2", "2", "0.25", "0.25", "Compress", "(47)", "GNN", "14.833", "23.833", "28", "33.417", "11.406", "13.686", "DepGraphw/o", "Code", "Change", "17.846", "27.846", "32.077", "37.769", "6.494", "7.73", "DepGraph", "21.417", "31.833", "36.417", "41.333", "4.619", "5.696", "Csv", "(16)", "GNN", "5.583", "7.75", "9.167", "10.75", "10.578", "11.083", "DepGraphw/o", "Code", "Change", "6", "8.615", "10.769", "12.923", "5.947", "6.106", "DepGraph", "6.667", "10.667", "12.583", "16.083", "2.99", "5.549", "Project", "(#", "faults)", "Techniques", "Top-1", "Top-3", "Top-5", "Top-10", "MFR", "MAR", "Cli", "(39)", "GNN", "9.25", "14.917", "17.5", "21.667", "15.156", "17.694", "DepGraphw/o", "Code", "Change", "9.846", "17.462", "21", "26.846", "8.13", "9.511", "DepGraph", "13.083", "19.583", "22.417", "28.417", "6.702", "8.011", "Closure", "(174)", "GNN", "32.456", "63.986", "78.492", "94.432", "24.611", "29.011", "DepGraphw/o", "Code", "Change", "38.231", "70.231", "92.538", "115.923", "17.55", "22.039", "DepGraph", "41.545", "73.111", "97.736", "116.672", "14.753", "21.555", "Codec", "(18)", "GNN", "5.333", "10.5", "12.083", "14.917", "4.093", "6.21", "DepGraphw/o", "Code", "Change", "5.923", "11.385", "13", "15.462", "3.208", "4.489"],
+  "name": "4",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 432.47999999999996,
+    "y1": 109.92,
+    "y2": 489.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Table4-1.png"
+}, {
+  "caption": "Fig. 1. Comparing graph representation for coverage and call graph for Lang-62. The green nodes correspond to the code statements (1–4). (a) shows a coverage graph linking tests to source code statements without considering the method-level call graph. (b) considers the method-level call graph, eliminating node 4 since it was not reachable in the call graph.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1744079589844,
+    "y1": 232.48583984375,
+    "y2": 269.5950012207031
+  },
+  "figType": "Figure",
+  "imageText": ["}", "}", "IntHashMap", "mapValueToName", "=", "new", "IntHashMap();", "4", "static", "class", "LookupEntityMap", "extends", "PrimitiveEntityMap", "3", "static", "class", "PrimitiveEntityMap", "extends", "EntityMap{", "EntityMap", "map", "=", "new", "Entities.LookupEntityMap();", "2", "class", "Entities", "{", "SOURCE", "CODE", "}", "assertEquals(expected", ",", "entities.unescape(entity));", "1", "doTestUnescapeEntity(\"&#12345678;\",", "\"&#12345678;\")", "}", "private", "void", "doTestUnescapeEntity(String", ",", "String)", "throws", "Exception{", "@Test", "public", "void", "testNumberOverFlow", "()", "throws", "Exception", "(){", "TEST", "CODE", "(b)", "Call", "Graph", "Representa-", "tion", "T1", "1", "2", "3", "4", "(a)", "Coverage", "Representa-", "tion", "T1", "1", "2", "3", "4"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 426.24,
+    "y1": 84.96,
+    "y2": 216.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Figure1-1.png"
+}, {
+  "caption": "Table 3. Comparisons of graph sizes, training/inference time, and GPU memory usage during training before and a er adopting the dependency-enhanced coverage graph. The numbers in the parentheses show the percentage improvement. Total shows the aggregated results from all the studied projects.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1698913574219,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "1.27M", "391.4K", "(69.32%)", "47.54M", "11.91M", "(74.93%)", "796K", "140K", "(82%)", "9K", "1.3K", "(85%)", "143.7", "80", "(44%)", "Cli", "17.8K", "12.1K", "(32.31%)", "782.7K", "229.6K", "(70.67%)", "2.2K", "491", "(79%)", "118", "22", "(81%)", "3.5", "1.9", "(44%)", "Closure", "728.8K", "137.3K", "(81.16%)", "100.2M", "10.5M", "(89.48%)", "579.6K", "102K", "(82%)", "5.2K", "556", "(89%)", "35.6", "23.9", "(33%)", "Codec", "3.4K", "2.5K", "(25.46%)", "46.4K", "32.5K", "(29.99%)", "223", "40", "(82%)", "14", "6", "(57%)", "1", "0.8", "(20%)", "Compress", "30.2K", "14.9K", "(50.65%)", "876.1K", "244.8K", "(72.06%)", "2.1K", "703", "(67%)", "53", "33", "(38%)", "4.5", "1.9", "(57%)", "Csv", "5.8K", "3.5K", "(39.93%)", "215.0K", "85.2K", "(60.40%)", "383", "172", "(55%)", "27", "12", "(56%)", "2.7", "0.9", "(66%)", "Gson", "19.6K", "12.6K", "(35.71%)", "2.4M", "775.9K", "(68.23%)", "2.9K", "675", "(77%)", "162", "38", "(77%)", "7.4", "2.9", "(60%)", "JacksonCore", "14.7K", "7.1K", "(51.65%)", "1.4M", "216.7K", "(84.22%)", "2.2K", "429", "(81%)", "173", "62", "(64%)", "5.7", "2.1", "(81%)", "JacksonXml", "2.9K", "1.0K", "(64.22%)", "163.0K", "23.4K", "(85.64%)", "79", "19", "(75%)", "12", "5", "(57%)", "2.3", "1.3", "(44%)", "Jsoup", "131.4K", "61.3K", "(53.31%)", "22.3M", "4.4M", "(80.29%)", "137K", "21K", "(84%)", "1.3K", "232", "(82%)", "23", "11.1", "(51%)", "Lang", "18.1K", "9.3K", "(48.75%)", "435.6K", "142.2K", "(67.35%)", "1.7K", "758", "(57%)", "52", "29", "(44%)", "1.8", "1.2", "(34%)", "Math", "140.9K", "36.5K", "(74.10%)", "3.3M", "1.1M", "(67.26%)", "25K", "7.3K", "(71%)", "234", "95", "(59%)", "18", "10.3", "(43%)", "Mockito", "63.3K", "28.0K", "(55.69%)", "10.7M", "521.2K", "(95.14%)", "31.4K", "1K", "(97%)", "1K", "37", "(97%)", "19.3", "5.2", "(73%)", "Time", "99.1K", "65.3K", "(34.15%)", "4.9M", "4.2M", "(14.89%)", "10.4K", "5K", "(52%)", "329", "220", "(33%)", "18.5", "15.7", "(15%)", "Before", "After", "Before", "After", "Before", "After", "Before", "After", "Before", "After", "Project", "#Nodes", "#Edges", "Training(s)", "Inference(s)", "GPU", "Memory", "Usage(GB)"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 439.2,
+    "y1": 120.47999999999999,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660793-Table3-1.png"
+}]

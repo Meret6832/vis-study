@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 4: Coupling complementarity w.r.t. CVE",
+  "captionBoundary": {
+    "x1": 345.41766357421875,
+    "x2": 519.3695068359375,
+    "y1": 219.1422576904297,
+    "y2": 223.5531005859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 549.12,
+    "y1": 73.92,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00035-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Vulnerability coupling distribution",
+  "captionBoundary": {
+    "x1": 98.15502166748047,
+    "x2": 258.4062194824219,
+    "y1": 591.6754150390625,
+    "y2": 596.0862426757812
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "(d)", "(c)", "(b)", "(a)"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 283.2,
+    "y1": 69.6,
+    "y2": 577.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00035-Figure3-1.png"
+}, {
+  "caption": "Fig. 1: Vulnerability CVE-2018-17201 (Fig. 1a) that allows “Infinite Loop” making code hang, which further enables Denialof-Service (DoS) attack is fixed with the conditional exception using “if” expression (Fig. 1b). The mutant (Fig. 1c) modifies the “if” condition that nullifies the fix and strongly couples with the vulnerability.",
+  "captionBoundary": {
+    "x1": 68.28189849853516,
+    "x2": 551.5078125,
+    "y1": 224.79234313964844,
+    "y2": 251.6788330078125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Vulnerability-coupled", "Mutant", "}", "}", "decompressing", "RGBE", "file\");", "}", "if", "(n", ">", "128)", "{", "final", "int", "value", "=", "in.read();", "for", "(int", "i", "=", "0;", "i", "<", "(n", "&", "0x7f);", "i++)", "{", "out[position++]", "=", "(byte)", "value;", "}", "}", "else", "{", "for", "(int", "i", "=", "0;", "i", "<", "n;", "i++)", "{", "out[position++]", "=", "(byte)", "in.read();}", "}", "private", "static", "void", "decompress", "(final", "InputStream", "in,", "final", "byte[]", "out)", "throws", "IOException", "{", "int", "position", "=", "0;", "final", "int", "total", "=", "out.length;", "while", "(position", "<", "total)", "{", "final", "int", "n", "=", "in.read();", "if", "(n", "==", "0)", "{", "//", "‘<’", "modified", "to", "‘==’", "throw", "new", "ImageReadException(\"Error", "(b)", "Fixed", "Code", "}", "}", "}", "decompressing", "RGBE", "file\");", "}", "if", "(n", ">", "128)", "{", "final", "int", "value", "=", "in.read();", "for", "(int", "i", "=", "0;", "i", "<", "(n", "&", "0x7f);", "i++)", "{", "out[position++]", "=", "(byte)", "value;", "}", "}", "else", "{", "for", "(int", "i", "=", "0;", "i", "<", "n;", "i++)", "{", "out[position++]", "=", "(byte)", "in.read();}", "private", "static", "void", "decompress", "(final", "InputStream", "in,", "final", "byte[]", "out)", "throws", "IOException", "{", "int", "position", "=", "0;", "final", "int", "total", "=", "out.length;", "while", "(position", "<", "total)", "{", "final", "int", "n", "=", "in.read();", "if", "(n", "<", "0)", "{", "throw", "new", "ImageReadException(\"Error", "(a)", "Vulnerable", "Code", "(CVE-2018-17201)", "}", "}", "if", "(n", ">", "128)", "{", "final", "int", "value", "=", "in.read();", "for", "(int", "i", "=", "0;", "i", "<", "(n", "&", "0x7f);", "i++)", "{", "out[position++]", "=", "(byte)", "value;", "}", "}", "else", "{", "for", "(int", "i", "=", "0;", "i", "<", "n;", "i++)", "{", "out[position++]", "=", "(byte)", "in.read();}", "}", "private", "static", "void", "decompress", "(final", "InputStream", "in,", "final", "byte[]", "out)", "throws", "IOException", "{", "int", "position", "=", "0;", "final", "int", "total", "=", "out.length;", "while", "(position", "<", "total)", "{", "final", "int", "n", "=", "in.read();"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 68.16,
+    "x2": 550.56,
+    "y1": 72.0,
+    "y2": 214.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00035-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: Vulnerability CVE-2018-1000850 that allows “Path Traversal”, which further enables access to a Restricted Directory (Fig. 2a) is fixed with the conditional exception in case ‘.’ or ‘..’ appears in the “newRelativeUrl” (Fig. 2b). The strongly coupled mutant (Fig. 2c) changes the “newRelativeUrl” passed as an argument by “name”, which nullifies the fix and re-introduce the vulnerable behavior.",
+  "captionBoundary": {
+    "x1": 68.27253723144531,
+    "x2": 551.5079345703125,
+    "y1": 414.5247802734375,
+    "y2": 452.6490478515625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Vulnerability-coupled", "Mutant", "relativeUrl", "=", "newRelativeUrl;", "}", "path", "traversal", "(’.’", "or", "’..’):", "\"", "+", "value);", "}", "if", "(PATH_TRAVERSAL", ".matcher(name)//passed", "argument", "changed", ".matches())", "{", "throw", "new", "IllegalArgumentException(", "\"@Path", "parameters", "shouldn’t", "perform", "relativeUrl.replace(\"{\"", "+", "name", "+", "\"}\",", "replacement);", "canonicalizeForPath(value,", "encoded);", "String", "newRelativeUrl", "=", "if", "(relativeUrl", "==", "null)", "{", "throw", "new", "AssertionError();", "}", "String", "replacement", "=", "void", "addPathParam(String", "name,", "String", "value,", "boolean", "encoded)", "{", "(b)", "Fixed", "Code", "relativeUrl", "=", "newRelativeUrl;", "}", "path", "traversal", "(’.’", "or", "’..’):", "\"", "+", "value);", "}", "if", "(relativeUrl", "==", "null)", "{", "throw", "new", "AssertionError();", "}", "String", "replacement", "=", "canonicalizeForPath(value,", "encoded);", "String", "newRelativeUrl", "=", "relativeUrl.replace(\"{\"", "+", "name", "+", "\"}\",", "replacement);", "if", "(PATH_TRAVERSAL", ".matcher(newRelativeUrl)", ".matches())", "{", "throw", "new", "IllegalArgumentException(", "\"@Path", "parameters", "shouldn’t", "perform", "void", "addPathParam(String", "name,", "String", "value,", "boolean", "encoded)", "{", "(a)", "Vulnerable", "Code", "(CVE-2018-1000850)", "}", "relativeUrl", "=", "relativeUrl.replace(\"{\"", "+", "name", "+", "\"}\",", "canonicalizeForPath(value,", "encoded));", "if", "(relativeUrl", "==", "null)", "{", "throw", "new", "AssertionError();", "}", "void", "addPathParam(String", "name,", "String", "value,", "boolean", "encoded)", "{"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 68.16,
+    "x2": 551.04,
+    "y1": 274.08,
+    "y2": 404.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00035-Figure2-1.png"
+}, {
+  "caption": "Fig. 5: Coupling Mutants’ distribution across Vulnerabilities",
+  "captionBoundary": {
+    "x1": 184.7528839111328,
+    "x2": 416.5887756347656,
+    "y1": 418.0374450683594,
+    "y2": 422.4482727050781
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 536.16,
+    "y1": 72.96,
+    "y2": 396.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00035-Figure5-1.png"
+}, {
+  "caption": "TABLE III: Distribution of Mutants coupling with Vulnerabilities",
+  "captionBoundary": {
+    "x1": 174.9531707763672,
+    "x2": 427.12945556640625,
+    "y1": 74.98533630371094,
+    "y2": 79.39617919921875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "90", "288", "556", "1,341", "41", "83", "37", "270", "5,019", "7,725", "(1.17%)", "(3.73%)", "(7.2%)", "(17.36%)", "(0.53%)", "(1.07%)", "(0.48%)", "(3.5%)", "(64.97%)", "HTTPCLIENT-1803", "5", "4", "15", "316", "340", "PDFBOX-3341", "2", "308", "826", "344", "1,480", "CVE-2019-10173", "10", "18", "1", "564", "593", "CVE-2019-12402", "1", "11", "113", "125", "CVE-2019-3775", "9", "9", "CVE-2020-1953", "1", "2", "2", "5", "CVE-2017-15717", "77", "229", "306", "CVE-2017-18349", "1", "24", "96", "121", "CVE-2017-5662", "6", "80", "86", "CVE-2017-8046", "9", "9", "CVE-2018-1000089", "7", "16", "53", "76", "CVE-2018-1000125", "14", "28", "64", "106", "CVE-2018-1000531", "2", "33", "82", "117", "CVE-2018-1000615", "38", "38", "CVE-2018-1000850", "1", "8", "1", "19", "9", "101", "74", "213", "CVE-2018-1000854", "1", "1", "2", "CVE-2018-1000865", "2", "37", "18", "202", "259", "CVE-2018-1002200", "3", "9", "143", "155", "CVE-2018-11771", "2", "11", "10", "119", "1", "605", "748", "CVE-2018-11797", "5", "1", "10", "92", "108", "CVE-2018-15756", "33", "13", "6", "4", "39", "89", "184", "CVE-2018-17201", "2", "6", "98", "65", "171", "CVE-2018-20227", "3", "2", "2", "2", "9", "CVE-2018-8017", "3", "14", "17", "CVE-2017-1000207", "9", "9", "CVE-2017-1000487", "16", "21", "54", "3", "103", "37", "234", "APACHE-COMMONS-001", "1", "15", "57", "73", "CVE-2013-2186", "2", "5", "68", "75", "CVE-2013-4378", "2", "25", "27", "CVE-2013-5960", "1", "2", "62", "65", "CVE-2014-0050", "270", "270", "CVE-2014-0116", "3", "7", "42", "52", "CVE-2014-4172", "10", "2", "4", "57", "73", "CVE-2015-5253", "46", "10", "56", "CVE-2015-6748", "26", "2", "222", "250", "CVE-2016-10006", "1", "40", "159", "200", "CVE-2016-2162", "1", "36", "3", "45", "85", "CVE-2016-3720", "11", "1", "191", "203", "CVE-2016-4436", "41", "41", "CVE-2016-4465", "3", "6", "21", "30", "CVE-2016-6798", "10", "9", "1", "294", "314", "CVE-2016-6802", "7", "7", "9", "15", "7", "23", "19", "26", "42", "155", "CVE-2016-7051", "11", "1", "191", "203", "CVE-2016-8738", "4", "6", "23", "33", "Failed", "Tests", "Tests", "Tests", "Additional", "Coupling)", "Failed", "Failed", "Failed", "Tests", "+", "+", "+", "Coupling", "Coupling", "Failed", "Additional", "Additional", "Additional", "+", "(No", "Strong", "Strong", "Test", "Test", "Partial", "Partial", "Partial", "Partial", "Other", "Total", "Coupling", "Coupling", "Coupling", "Coupling", "Coupling", "Coupling", "Test", "Test", "Tests", "Killable", "CVE", "LLM-generated", "Mutants", "(Vulnerabilities)"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 518.4,
+    "y1": 85.92,
+    "y2": 510.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00035-TableIII-1.png"
+}]

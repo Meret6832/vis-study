@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: An example of block analysis for external imports.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0358581542969,
+    "y1": 194.42788696289062,
+    "y2": 196.50799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["the", "except", "branch", "import", "d", "import", "e", "the", "try", "branch", "import", "c", "the", "true", "branch", "the", "false", "branch", "import", "f", "import", "g", "the", "entire", "if", "statement", "import", "a", "import", "bAND", "OR", "the", "entire", "try", "statement", "OR", "If", "con1:", "import", "a", "import", "b", "try:", "import", "c", "except", "Error1:", "import", "d", "import", "e", "else:", "import", "f", "import", "g"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 84.0,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Figure4-1.png"
+}, {
+  "caption": "Figure 1: A configuration issue of the third-party library PFRL.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2832336425781,
+    "y1": 175.27786254882812,
+    "y2": 188.3170166015625
+  },
+  "figType": "Figure",
+  "imageText": ["AttributeError:", "module", "'gym.wrappers'", "has", "no", "attribute", "'Monitor'", "Installed", "Dependencies:", "torch==1.13.1", "gym==0.26.2", "numpy==1.21.6", "filelock==3.12.2", "pillow==9.5.0", "pfrl/wrappers/monitor.py:", "...", "from", "gym.wrappers", "import", "Monitor", "as", "_GymMonitor", "...", "requirements.txt:", "torch>=1.3.0", "gym>=0.9.7", "numpy>=1.10.4", "filelock", "pillow"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 290.4,
+    "y1": 82.56,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Figure1-1.png"
+}, {
+  "caption": "Table 4: The issues that three baselines fail to pass the checks of PyConfwhenwe provide the Python versions. Only issues with more than 50 occurrences are included.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 294.03857421875,
+    "y1": 89.27688598632812,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["124", "15", "24", "control", "failure", "Multiple", "version", "14", "20", "147", "for", "indirect", "imports", "Missing", "required", "modules", "1,675", "310", "823", "conflicts", "in", "setup", "Dependency", "589", "3,099", "597", "libraries", "for", "direct", "imports", "Missing", "required", "71", "168", "13", "libraries", "for", "setup", "Missing", "required", "Issue", "Pipreqs", "Dockerizeme", "PyEGo"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 127.67999999999999,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Table4-1.png"
+}, {
+  "caption": "Figure 2: The typical process of run-time environment installation for Python projects.",
+  "captionBoundary": {
+    "x1": 129.68099975585938,
+    "x2": 482.3046875,
+    "y1": 229.11886596679688,
+    "y2": 231.198974609375
+  },
+  "figType": "Figure",
+  "imageText": ["Running", "⑦", "⑤", "⑥", "User", "Selection", "Installing", "Packages", "③", "④", "Analyzing", "Dependencies", "②", "Solving", "Constraints①", "Python", "Project", "Manual", "Installation", "Program", "in", "the", "ProjectInstalled", "System", "Libraries", "import", "numpy", "as", "np", "...", "def", "_get_colors_from_colormap(", "colormap:", "str", "|", "Colormap,", "num_colors:", "int,", ")", "->", "list[Color]:", "\"\"\"Get", "colors", "from", "colormap.\"\"\"", "cmap", "=", "_get_cmap_instance(colormap)", "return", "[cmap(num)", "for", "num", "in", "np.linspace(0,", "1,", "num=num_colors)]", "...", "User", "Selection", "Required", "System", "Libraries", "Installed", "Python", "Version", "==3.8", "Installed", "Package", "Dependencies", "Supported", "Platforms", "numpy==1.24.1", "python-dateutil==2.8.2", "pytz==2020.3", "tzdata==2023.3", "Required", "Package", "Dependencies", "numpy>=1.20.3", "python-dateutil>=2.8.2", "pytz>=2020.1", "tzdata>=2022.1", "Configuration", "Files", "Required", "Python", "Version", ">=3.8", "setup.py,", "requirements.txt,", "setup.cfg,", "pyproject.toml,", "..."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Figure2-1.png"
+}, {
+  "caption": "Table 2: Configuration issues detected by PyConf. There may be multiple issues occurring in one release.",
+  "captionBoundary": {
+    "x1": 92.86500549316406,
+    "x2": 518.8287963867188,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Multiple", "version", "control", "failure", "Import", "Validation", "15,507", "✘", "Incorrect", "dependencies", "Parsing", "error", "Dependency", "Check", "431", "✔", "Invalid", "syntax/encoding", "Missing", "source", "code", "Dependency", "Check", "2,588", "✔", "Creating", "placeholders", "Code", "Incorrect", "Other", "run-time", "Errors", "in", "imports", "Import", "Validation", "8,178", "✘", "Incorrect", "dependenciesInconsistent", "modules", "in", "direct", "imports", "with", "installed", "depenencies", "Import", "Validation", "6,678", "✘", "Import", "Validation", "11,023", "✘", "modules", "for", "indirect", "imports", "Missing", "required", "Dependency", "Check", "12,018", "✘", "Confusing", "version", "orders", "numbers", "with", "release", "dates", "Inconsistent", "version", "Dependency", "Check", "592", "✘", "Naming", "error", "configurations", "with", "metadata", "Inconsistent", "Other", "run-time", "Errors", "in", "setup", "Installation", "Check", "3,464", "✔", "Missing", "files", "Incorrect", "Python", "versions", "Installation", "Check", "4,155", "✔", "Incorrect", "dependencies", "Dependency", "conflicts", "in", "setup", "Installation", "Check", "6,318", "✔", "Unsolvable", "constraints", "Configuration", "Incorrect", "Import", "Validation", "142,521", "✘", "libraries", "for", "direct", "imports", "Missing", "required", "Missing", "Python", "versions", "Dependency", "Check", "55,138", "✘", "Missing", "required", "libraries", "for", "setup", "Installation", "Check", "3,318", "✔", "information", "required", "Missing", "Missing", "configuration", "files", "Installation", "Check", "251", "✔", "Configuration", "Incomplete", "Category", "Issue", "Check", "#Releases", "Fatal?", "Possible", "Reasons"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 524.16,
+    "y1": 105.6,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Table2-1.png"
+}, {
+  "caption": "Table 1: The statistics of the PyPI libraries in our study. “Installed” and “Validated” indicates the libraries passing the Dependency Check and all checks of PyConf, respectively. #Stars indicate the number ofGitHub Stars of libraries. #Stars, #Classes, #Functions and #Imports are shown in the format of Avg/Max/Min. The data of #Stars is calculated per library and others are calculated per release. Note that the source code data in the first column is not available as the libraries are not installed.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.63739013671875,
+    "y1": 290.85089111328125,
+    "y2": 380.6029968261719
+  },
+  "figType": "Table",
+  "imageText": ["#Lines", "of", "Code", "(k)", "-", "18.2/7455.3/0.0", "6.5/551.3/0.0", "#External", "Imports", "-", "49/2207/0", "23/386/0", "#Functions", "(k)", "-", "1.5/261.4/0.0", "0.6/50.3/0.0", "#Classes", "(k)", "-", "0.3/88.1/0.0", "0.2/21.9/0.0", "#Stars", "(k)", "2.3/159.0/0.0", "-", "-", "#Modules", "-", "368,304", "144,250", "#Releases", "338,069", "303,377", "131,720", "#Libraries", "8,282", "7,830", "5,371", "All", "Installed", "Validated", "(VLibs)"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 302.4,
+    "y1": 395.52,
+    "y2": 516.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Table1-1.png"
+}, {
+  "caption": "Figure 3: The overview of PyConf.",
+  "captionBoundary": {
+    "x1": 235.6230010986328,
+    "x2": 376.3758850097656,
+    "y1": 264.9488830566406,
+    "y2": 267.02899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["pipdeptree", "Step", "II:", "Dependency", "Check", "Source", "Code", "Check", "Metadata", "Check", "Inconsistency", "Check", "Installed", "Dependencies", "Required", "Dependencies", "Step", "III:", "Import", "Validation", "Step", "I:", "Installation", "Check", "Environment", "Source", "files", "Metadata", "Installed", "Fail", "Initial", "Python", "Version", "Assignment", "Python", "Version", "Local", "Modules", "Analyze", "Import", "Blocks", "Collect", "Imports", "&", "Execute", "Imports", "STATUS", "3", "Import", "Validation", "Ready", "STATUS", "4", "Import", "Validation", "Pass", "(Python", "2)", "STATUS", "2", "Module", "and", "Import", "Data", "Ready", "(Python", "3)", "STATUS", "1", "Module", "and", "Import", "Data", "Ready", "STATUS", "0", "Source", "Code", "Ready"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 82.56,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Figure3-1.png"
+}, {
+  "caption": "Table 3: The Pass Rates (%) of three baselines on the sampled 5,000 releases from our benchmark.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1942749023438,
+    "y1": 89.27688598632812,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["✔", "52.9", "26.6", "60.7", "✘", "-", "23.2", "65.0", "Python", "Version?", "Pipreqs", "Dockerizeme", "PyEGo"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 548.16,
+    "y1": 116.64,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639077-Table3-1.png"
+}]

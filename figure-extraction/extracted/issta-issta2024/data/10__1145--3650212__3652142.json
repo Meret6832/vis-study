@@ -1,0 +1,321 @@
+[{
+  "caption": "Figure 5: Overview of fine-grained edit location architecture. We formulate the edit location problem as a MLM (Mask Language Modelling) problem to predict the edit type of each LoC (Line of Code).",
+  "captionBoundary": {
+    "x1": 53.340999603271484,
+    "x2": 295.581787109375,
+    "y1": 277.8511047363281,
+    "y2": 316.3590087890625
+  },
+  "figType": "Figure",
+  "imageText": ["<prior-edits>", "<edit>", "<D>", "testName", ":=", "name", "<A>", "testName,", "ok", ":=", "t.context.match", "…", "</edit>", "<edit>", "…", "</edit>", "…", "</prior-edits>", "<prompt>", "introduce", "a", "regular", "expr", "…", "</prompt>", "<code-window>", "<MASK>", "func", "newTestContext(…)", "*testContext", "{", "<MASK>", "return", "&testContext{", "<MASK>", "startParallel:", "make(chan", "bool),", "…", "</code-window>", "R", "K", "…", "Prompt", "Prior", "editsLoC", "M", "LoC", "…", "Transformer", "M"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 289.44,
+    "y1": 85.44,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Overview of edit generator, which generates the edit content for a fine-grained edit location.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2042236328125,
+    "y1": 295.58612060546875,
+    "y2": 312.1759948730469
+  },
+  "figType": "Figure",
+  "imageText": ["K", "LoC", "K", "LoC", "Generated", "Edit", "Content", "<prior-edits>", "<edit>", "<D>", "testName", ":=", "name", "<A>", "testName,", "ok", ":=", "t.context.match", "…", "</edit>", "<edit>", "…", "</edit>", "…", "</prior-edits>", "<prompt>", "introduce", "a", "regular", "expr", "…", "</prompt>", "<code-window>", "…", "<K>", "ctx", ":=", "&benchContext{", "<I>", "extLen:", "len(benchmarkName(\"\",", "maxprocs)),", "<K>", "}", "…", "</code-window>", "Prompt", "Prior", "editsLoC", "Transformer", "I/R"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Figure6-1.png"
+}, {
+  "caption": "Figure 1: State-of-the-art Code Editing Framework [15] [25] [33]. The dotted rectangles represent the code before and after the recommended edits.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0464782714844,
+    "y1": 191.28211975097656,
+    "y2": 218.83099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["Assumption", "2:", "Known", "Subsequent", "Edit", "Location", "Assumption", "1:", "Known", "Relevant", "Prior", "Edit", "Description", "Edited", "Code", "Transformer", "(with", "Encoder", "and", "Decoder)", "Prior", "Edit", "Prior", "EditContext", "Context", "Code", "To", "EditContext…"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 63.36,
+    "x2": 284.15999999999997,
+    "y1": 83.52,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Figure1-1.png"
+}, {
+  "caption": "Table 7: Performance Boost with CoEdPilot",
+  "captionBoundary": {
+    "x1": 85.99700164794922,
+    "x2": 261.5501403808594,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "EMR(%)", "BLEU4", "CoEdPilot", "(Line", "Locator", "+", "Edit", "Generator)", "29.96", "78.58", "CoditT5", "7.42", "69.01", "GRACE", "2.73", "38.36", "CCT5", "14.19", "75.37", "GRACE", "+", "Line", "Locator", "18.61", "71.61", "CCT5", "+", "Line", "Locator", "15.45", "78.27"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 289.44,
+    "y1": 96.96,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table7-1.png"
+}, {
+  "caption": "Table 8: Runtime Estimation of CoEdPilot",
+  "captionBoundary": {
+    "x1": 88.58399963378906,
+    "x2": 258.9635314941406,
+    "y1": 184.38111877441406,
+    "y2": 190.01202392578125
+  },
+  "figType": "Table",
+  "imageText": ["Step", "File", "locator", "(s", "/", "file)", "Line", "locator", "(s", "/", "file)", "Edit-content", "generator", "(s", "/", "location)", "Prepare", "Input", "0.0064", "0.3976", "0.0683", "Model", "Inference", "0.1008", "0.0878", "0.3972", "Total", "0.1072", "0.4854", "0.4655"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 284.15999999999997,
+    "y1": 195.84,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table8-1.png"
+}, {
+  "caption": "Table 9: Overall performance of EG (Experimental Group) and CG (Control Group):The completion time is in seconds.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.767822265625,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["EG", "Task1", "Task2", "Task3", "CG", "Task1", "Task2", "Task3", "P1", "221", "515", "1196", "P10", "339", "696", "1287", "P2", "897", "389", "279", "P11", "360", "776", "1563", "P3", "366", "487", "216", "P12", "480", "483", "545", "P4", "160", "529", "963", "P13", "522", "724", "1770", "P5", "230", "301", "756", "P14", "277", "395", "838", "P6", "364", "473", "617", "P15", "181", "446", "930", "P7", "329", "688", "588", "P16", "337", "720", "825", "P8", "840", "780", "1020", "P17", "151", "666", "1515", "P9", "290", "638", "1050", "P18", "266", "722", "1563", "Average", "410.78", "533.33", "742.78", "Average", "323.67", "625.33", "1070.33"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 108.0,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table9-1.png"
+}, {
+  "caption": "Table 1: The code edits in src/testing/benchmark.go",
+  "captionBoundary": {
+    "x1": 201.9010009765625,
+    "x2": 409.8050231933594,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["}", "//", "...", "other", "code", "...", "benchName,", "ok", ":=", "b.name,", "true", "if", "b.context", "!=", "nil", "{", "benchName,", "ok", "=", "b.context.match.fullName(&b.common,", "name)", "}", "if", "!ok", "{", "return", "true", "}", "//", "...", "other", "code", "...", "func", "(b", "*B)", "runBench(...)", "bool", "{", "}", "}", "//", "...", "other", "code", "...", "//", "...", "other", "code", "...", "if", "b.level", ">", "0", "{", "name", "=", "b.name", "+", "\"/\"", "+", "name", "H3", "(replace)", "func", "(b", "*B)", "runBench(...)", "bool", "{", "}", "}", "//", "...", "other", "code", "...", "match:", "newMatcher(matchString,", "*matchBenchmarks,", "\"-", "test.bench\"),", "extLen:", "len(benchmarkName(\"\",", "maxprocs)),", "//", "...", "other", "code", "...", "ctx", ":=", "&benchContext{", "func", "runBenchmarksInternal(...)", "bool", "{", "}", "}", "//", "...", "other", "code", "...", "extLen:", "len(benchmarkName(\"\",", "maxprocs)),", "//", "...", "other", "code", "...", "ctx", ":=", "&benchContext{", "H2", "(insert)", "func", "runBenchmarksInternal(...)", "bool", "{", "}", "maxLen", "int", "//", "The", "largest", "recorded", "benchmark", "name.", "match", "*matcher", "type", "benchContext", "struct", "{", "}", "maxLen", "int", "//", "The", "largest", "recorded", "benchmark", "name.", "Hunk", "Before", "Edit", "After", "Edit", "H1", "(insert)", "type", "benchContext", "struct", "{"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 96.0,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table1-1.png"
+}, {
+  "caption": "Table 2: The code edits in src/testing/testing.go",
+  "captionBoundary": {
+    "x1": 211.28399658203125,
+    "x2": 400.4213562011719,
+    "y1": 378.4291076660156,
+    "y2": 384.05999755859375
+  },
+  "figType": "Table",
+  "imageText": ["}", "}", "(sequential)", "test.", "match:", "m,", "startParallel:", "make(chan", "bool),", "maxParallel:", "maxParallel,", "running:", "1,", "//", "Set", "the", "count", "to", "1", "for", "the", "main", "return", "&testContext{", "func", "newTestContext(maxParallel", "int,", "m", "*matcher)", "*", "testContext", "{", "}", "}", "(sequential)", "test.", "startParallel:", "make(chan", "bool),", "maxParallel:", "maxParallel,", "running:", "1,", "//", "Set", "the", "count", "to", "1", "for", "the", "main", "H6", "(replace)", "func", "newTestContext(maxParallel", "int)", "*testContext", "{", "return", "&testContext{", "}", "//", "...", "other", "code", "...", "testName,", "ok", ":=", "t.context.match.fullName(&t.common,", "name)", "if", "!ok", "{", "return", "true", "}", "func", "(t", "*T)", "run(...)", "bool", "{", "}", "}", "//", "...", "other", "code", "...", "testName", ":=", "name", "if", "t.level", ">", "0", "{", "testName", "=", "t.name", "+", "\"/\"", "+", "name", "H5", "(replace)", "func", "(t", "*T)", "run(...)", "bool", "{", "}", "//", "...", "other", "code", "...", "mu", "sync.Mutex", "match", "*matcher", "type", "testContext", "struct", "{", "}", "//", "...", "other", "code", "...", "mu", "sync.Mutex", "Hunk", "Before", "Edit", "After", "Edit", "H4", "(insert)", "type", "testContext", "struct", "{"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 388.8,
+    "y2": 640.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table2-1.png"
+}, {
+  "caption": "Table 3: Benchmark of CoEdPilot on 471 open source projects on 5 programming languages. For the columns of ‘Train’, ‘Valid’, ‘Test’ dataset, we show the number of their training samples.",
+  "captionBoundary": {
+    "x1": 53.117000579833984,
+    "x2": 295.135498046875,
+    "y1": 386.2290954589844,
+    "y2": 424.7359924316406
+  },
+  "figType": "Table",
+  "imageText": ["100", "39K", "76K", "817KLine", "location", "480K", "68K", "137K", "Edit", "generation", "572K", "81K", "163K", "TypeScript", "File", "location", "65K", "9K", "17K", "91", "33K", "42K", "555KLine", "location", "327K", "46K", "93K", "edit", "generation", "389K", "55K", "111K", "Python", "File", "location", "60K", "9K", "17K", "98", "50K", "88K", "1174KLine", "location", "695K", "99K", "198K", "Edit", "generation", "822K", "117K", "234K", "Go", "File", "location", "46K", "7K", "14K", "89", "24K", "72K", "556KLine", "location", "335K", "47K", "95K", "Edit", "generation", "389K", "55K", "111K", "Java", "File", "location", "68K", "10K", "20K", "93", "34K", "34K", "658KLine", "location", "382K", "54K", "109K", "Edit", "generation", "460K", "65K", "130K", "Language", "Model", "Train", "Valid", "Test", "#Proj", "#Com", "#File", "#Hunk", "JavaScript", "File", "location", "22K", "3K", "6K"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 435.84,
+    "y2": 598.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table3-1.png"
+}, {
+  "caption": "Figure 7: The screenshot of CoEdPilot tool, implemented as a Visual Studio Code extension.",
+  "captionBoundary": {
+    "x1": 120.63400268554688,
+    "x2": 491.367919921875,
+    "y1": 365.3070983886719,
+    "y2": 370.93798828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 544.3199999999999,
+    "y1": 82.56,
+    "y2": 352.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Figure7-1.png"
+}, {
+  "caption": "Figure 2: The type of edit propagation in the code-editing example showed in Table 1 and Table 2.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0471496582031,
+    "y1": 233.67909240722656,
+    "y2": 250.26898193359375
+  },
+  "figType": "Figure",
+  "imageText": ["Logic", "propagation", "propagation", "Semantic", "propagation", "Syntactic", "Semantic", "propagation", "Logical", "propagation", "Syntactic", "propagation", "src/testing/testing.go", "H6", "H5", "H4", "H3", "src/testing/benchmark.go", "H2", "H1"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 295.2,
+    "y1": 85.44,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Overview of CoEdPilot, consisting of subsequent edit analysis, edit generation, and prior edit analysis. The analysis is triggered once an edit-trigger event happens. CoEdPilot orchestrates a set of neural-transformer-based components to accomplish the editing task",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8096313476562,
+    "y1": 259.1831359863281,
+    "y2": 308.6499938964844
+  },
+  "figType": "Figure",
+  "imageText": ["Prior", "Edit", "Analysis", "Edit", "Generation", "Subsequent", "Edit", "Analysis", "Edit", "Options", "Edit-content", "Generator", "Relevant", "Prior", "Edits", "Editing", "Locations", "Edit-type", "Detector", "Relevant", "Source", "File", "Analyzer", "Edit-", "dependency", "Analyzer", "Edit", "Propagation", "Prior", "Edits", "&", "User", "Editing", "Prompt", "Project"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 556.3199999999999,
+    "y1": 88.8,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Figure3-1.png"
+}, {
+  "caption": "Table 4: The accuracy of propagating-file & line location",
+  "captionBoundary": {
+    "x1": 324.1920166015625,
+    "x2": 551.6697387695312,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["JavaScript", "81.52", "71.21", "94.89", "86.62", "83.88", "Python", "70.84", "73.40", "94.48", "85.03", "82.64", "Java", "85.28", "75.67", "95.37", "87.99", "85.99", "Go", "80.10", "72.12", "95.79", "88.99", "87.32", "TypeScript", "79.84", "72.25", "95.23", "86.21", "84.25", "Average", "79.52", "72.93", "95.15", "86.97", "84.82", "Precision", "(%)", "Recall", "(%)", "Accuracy", "(%)", "Precision", "(%)", "Recall", "(%)", "File", "Location", "Line", "Location", "Programming", "Language"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 96.96,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table4-1.png"
+}, {
+  "caption": "Table 5: The performance of edit generation",
+  "captionBoundary": {
+    "x1": 348.6390075683594,
+    "x2": 527.2230224609375,
+    "y1": 197.75209045410156,
+    "y2": 203.38299560546875
+  },
+  "figType": "Table",
+  "imageText": ["Programming", "Language", "Metric", "Top-1", "Top-3", "Top-5", "Top-10", "Javascript", "BLEU4", "60.70", "69.71", "71.37", "73.02", "EMR(%)", "41.83", "47.50", "49.31", "50.99", "Python", "BLEU4", "57.59", "65.65", "67.47", "69.11", "EMR(%)", "33.48", "38.52", "40.41", "42.09", "Java", "BLEU4", "60.54", "68.35", "70.11", "71.73", "EMR(%)", "40.69", "46.87", "48.78", "50.51", "Go", "BLEU4", "65.37", "71.96", "73.47", "74.98", "EMR(%)", "48.94", "55.09", "57.18", "59.16", "Typescript", "BLEU4", "61.75", "70.31", "71.99", "73.68", "EMR(%)", "41.58", "46.86", "48.57", "50.65"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 208.79999999999998,
+    "y2": 332.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table5-1.png"
+}, {
+  "caption": "Table 6: Relevance of prior edits on edit location& generation",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2052001953125,
+    "y1": 342.026123046875,
+    "y2": 347.6570129394531
+  },
+  "figType": "Table",
+  "imageText": ["Selective", "Prior", "Edits", "94.89", "86.62", "83.88", "41.83", "60.70", "Random", "Prior", "Edits", "91.86", "81.73", "72.37", "18.87", "46.56", "Accuracy", "(%)", "Precision", "(%)", "Recall", "(%)", "EMR", "(%)", "BLEU4", "Edit-content", "generator", "Edit-propagating", "line", "locator", "Prior", "Edit", "Relevance"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.0,
+    "y1": 353.76,
+    "y2": 439.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Table6-1.png"
+}, {
+  "caption": "Figure 4: An example of input of our transformer for learning the dependency.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2023315429688,
+    "y1": 195.5561065673828,
+    "y2": 212.14599609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 82.56,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652142-Figure4-1.png"
+}]

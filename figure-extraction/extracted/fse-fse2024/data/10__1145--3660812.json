@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 3. An overview of AlphaBot and its components.",
+  "captionBoundary": {
+    "x1": 145.4949951171875,
+    "x2": 340.5052185058594,
+    "y1": 192.9710235595703,
+    "y2": 198.176025390625
+  },
+  "figType": "Figure",
+  "imageText": ["Information", "Query", "Clean", "Text", "Query", "Labelled", "AlphaBot", "Intent", "labeler", "Query", "Information", "Extractor", "Data", "Preprocessing", "Intent", "&", "EntityResponse", "Query", "Query", "Users", "Chatbot", "NLU", "Platform"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 85.92,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Figure3-1.png"
+}, {
+  "caption": "Table 1. A snapshot of ten intents with their definitions from the AskGit dataset.",
+  "captionBoundary": {
+    "x1": 93.43199920654297,
+    "x2": 392.3269348144531,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["FileCreator", "Identifies", "the", "developer(s)", "who", "creates", "a", "specific", "file", "in", "the", "repos-", "itory.", "21", "6.3", "6", "3", "11", "IssueContributors", "Determines", "the", "developer(s)", "who", "contributes", "in", "fixing", "a", "specific", "bug.", "17", "6.5", "7", "3", "11", "ModifiedFilesPR", "Identifies", "the", "files", "that", "are", "touched", "by", "a", "specific", "pull-", "request.", "12", "7.4", "7", "4", "13", "ActivityReport", "Presents", "statistics", "about", "the", "repos-", "itory", "activities", "occurred", "in", "the", "last", "day", "(e.g.,", "number", "of", "solved", "bugs).", "10", "5.7", "6.5", "2", "9", "LongestOpenPR", "Identifies", "the", "longest", "pull-request", "which", "is", "still", "opened.", "9", "8", "8", "3", "11", "CommitsCountInBranch", "Determines", "the", "number", "of", "com-", "mits", "in", "a", "certain", "branch.", "7", "7.1", "8", "4", "8", "OverloadedDev", "Identifies", "overloaded", "developer(s)", "with", "the", "highest", "number", "of", "un-", "fixed", "bugs.", "6", "8.3", "8.5", "5", "11", "22", "7.1", "7", "4", "13", "IssueRelatedCommits", "Determines", "the", "commits", "linked", "to", "a", "certain", "bug.", "29", "6.7", "6", "2", "12", "StarCount", "Presents", "the", "number", "of", "stars", "for", "the", "repository.", "30", "6.6", "5.5", "4", "11", "ProjectCollaborators", "Presents", "the", "developer(s)", "who", "contributed", "to", "the", "project.", "Intent", "Definition", "Total", "Avg.", "Median", "Min", "Max"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 96.0,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Table1-1.png"
+}, {
+  "caption": "Table 2. Entities distributions in the AskGit dataset.",
+  "captionBoundary": {
+    "x1": 146.83099365234375,
+    "x2": 338.9271545410156,
+    "y1": 419.8890075683594,
+    "y2": 425.093994140625
+  },
+  "figType": "Table",
+  "imageText": ["IssueNumber", "Issue", "ID", "number", "(e.g.,", "issue", "564)", "192", "FileName", "Name", "of", "the", "file", "(e.g.,", "map.json,", "response.java)", "29", "IssueStatus", "The", "status", "of", "a", "GitHub", "issue", "(e.g.,", "closed", "pull", "request,", "closed", "issue)", "14", "DateTime", "specific", "period", "of", "time/date", "(e.g.,", "last", "24", "hours,", "yesterday)", "9", "Entity", "name", "Definition", "Total"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 428.64,
+    "y2": 500.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Table2-1.png"
+}, {
+  "caption": "Table 4. Percentage improvement in F1-score of AlphaBot_Rasa compared to the baseline at different sizes of training, test, and validation sets.",
+  "captionBoundary": {
+    "x1": 45.58599853515625,
+    "x2": 440.1695251464844,
+    "y1": 87.14900970458984,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["10", "45", "45", "33.87", "69.44", "35.57", "20", "40", "40", "47.80", "76.49", "28.69", "30", "35", "35", "52.34", "78.85", "26.52", "40", "30", "30", "61.74", "78.76", "17.02", "50", "25", "25", "70.41", "80.98", "10.57", "60", "20", "20", "76.07", "83.91", "7.84", "70", "15", "15", "80.53", "86.57", "6.03", "80", "10", "10", "82.22", "86.50", "4.28", "90", "5", "5", "76.92", "77.88", "0.96", "Training", "split", "(%)", "Testing", "split", "(%)", "Validation", "split", "(%)", "Baseline", "F1-score", "(%)", "AlphaBot_Rasa", "F1-score", "(%)", "Percentage", "of", "improvement", "(%)"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 117.6,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Table4-1.png"
+}, {
+  "caption": "Fig. 6. Analysis of performance trend in terms of F1-score when applying LFs in an additive manner.",
+  "captionBoundary": {
+    "x1": 58.15802001953125,
+    "x2": 427.8426818847656,
+    "y1": 418.2400207519531,
+    "y2": 423.44500732421875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "10%", "Training", "Split", "(b)", "30%", "Training", "Split", "(c)", "50%", "Training", "Split"],
+  "name": "6",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 276.0,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Figure6-1.png"
+}, {
+  "caption": "Fig. 1. Motivating example overview of user-chatbot interaction.",
+  "captionBoundary": {
+    "x1": 123.88600158691406,
+    "x2": 362.11431884765625,
+    "y1": 148.9500274658203,
+    "y2": 154.155029296875
+  },
+  "figType": "Figure",
+  "imageText": ["Intent", "&", "EntityResponse", "Query", "Annotation", "Query", "Query", "Users", "Chatbot", "NLU", "Platform", "Annotator", "A", "Weak", "Supervision-Based", "Approach", "to", "Improve", "Chatbots", "for", "Code", "Repositories", "105:3"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 45.12,
+    "x2": 440.64,
+    "y1": 61.919999999999995,
+    "y2": 128.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Figure1-1.png"
+}, {
+  "caption": "Table 3. Number of queries that are labeled correctly by our weak supervision approach.",
+  "captionBoundary": {
+    "x1": 79.69100189208984,
+    "x2": 406.0679931640625,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["10", "45", "45", "263/267", "(98.5)", "20", "40", "40", "235/237", "(99.2)", "30", "35", "35", "204/208", "(98.1)", "40", "30", "30", "176/178", "(98.8)", "50", "25", "25", "147/148", "(99.3)", "60", "20", "20", "118/119", "(99.2)", "70", "15", "15", "86/88", "(97.7)", "80", "10", "10", "59/59", "(100)", "90", "5", "5", "8/8", "(100)", "Training", "split", "(%)", "Testing", "split", "(%)", "Validation", "split", "(%)", "Correctly", "labeled", "/", "total", "no.", "of", "queries", "(%)"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 111.83999999999999,
+    "x2": 374.4,
+    "y1": 106.56,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Table3-1.png"
+}, {
+  "caption": "Fig. 2. An example of user’s queries recorded by Rasa with their classified intents.",
+  "captionBoundary": {
+    "x1": 91.86299896240234,
+    "x2": 394.1383361816406,
+    "y1": 267.4120178222656,
+    "y2": 272.61700439453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 163.68,
+    "x2": 322.08,
+    "y1": 84.0,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Figure2-1.png"
+}, {
+  "caption": "Table 6. The results of the ablation study on the number of queries labeled correctly.",
+  "captionBoundary": {
+    "x1": 72.44499969482422,
+    "x2": 414.7897644042969,
+    "y1": 85.01143646240234,
+    "y2": 91.5269775390625
+  },
+  "figType": "Table",
+  "imageText": ["90", "5", "5", "0/7", "(0)", "69.6", "14/14", "(100)", "39.1", "8/8", "(100)", "65.2", "80", "10", "10", "0/8", "(0)", "89.3", "32/32", "(100)", "57.3", "59/59", "(100)", "21.3", "70", "15", "15", "1/29", "(0.03)", "74.1", "39/40", "(97.5)", "64.3", "86/88", "(97.7)", "21.4", "60", "20", "20", "0/18", "(0)", "88", "45/48", "(93.6)", "68", "118/119", "(99.2)", "20.7", "50", "25", "25", "0/20", "(0)", "89.3", "70/75", "(93.3)", "59.9", "147/148", "(99.3)", "20.9", "40", "30", "30", "1/29", "(0.03)", "87.1", "79/81", "(97.5)", "64", "176/178", "(98.8)", "20.9", "30", "35", "35", "0/35", "(0)", "86.6", "102/104", "(98.1)", "60.3", "204/208", "(98.1)", "20.6", "20", "40", "40", "2/35", "(0.06)", "88.3", "102/108", "(94.4)", "64", "235/237", "(99.2)", "21", "10", "45", "45", "1/39", "(0.02)", "88.4", "125/128", "(97.7)", "62.0", "263/267", "(98.5)", "20.8", "(%)", "Abandoned", "(%)", "Correctly", "labeled", "/", "total", "no.", "of", "queries", "(%)", "Abandoned", "(%)", "Correctly", "labeled", "/", "total", "no.", "of", "queries", "(%)", "Abandoned", "(%)", "Correctly", "labeled", "/", "total", "no.", "of", "queries", "Training", "Validation", "Testing", "Split", "w/o", "Data", "Preprocessing", "w/o", "Query", "Information", "Extractor", "AlphaBot"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 437.28,
+    "y1": 97.92,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Table6-1.png"
+}, {
+  "caption": "Fig. 5. The two LFs for classifying queries as OverloadedDev intent.",
+  "captionBoundary": {
+    "x1": 118.10800170898438,
+    "x2": 367.8939208984375,
+    "y1": 347.5989990234375,
+    "y2": 352.8039855957031
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "second", "LF", "for", "OverloadedDev", "intent", "with", "two", "conditions.", "10", "11", "12", "13", "14", "1", "2", "3", "4", "5", "6", "7", "8", "9", "return", "LabelingFunctions._ABSTAIN", "else:", "return", "LabelingFunctions._OverloadedDev", "and", "\\", "LabelingFunctions.check_in_clean_text(command,", "['developer']):", "if", "LabelingFunctions.has_and_has_only(command,", "['issue_status'])", "\\", "#", "Condition", "1:", "has_and_has_only([issue_status]).", "#", "Condition", "2:", "'developer'", "in", "the", "clean", "text", "of", "command.", "#", "Intent:", "OverloadedDev", "@staticmethod", "@labeling_function(pre=[preprocess_command.__func__])", "def", "OverloadedDev_2(command):", "main.py", "Shell", "(a)", "The", "first", "LF", "for", "OverloadedDev", "intent", "with", "three", "conditions.", "Learn", "Python", "Python", "Online", "Compiler", "Run", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "return", "LabelingFunctions._ABSTAIN", "else:", "return", "LabelingFunctions._OverloadedDev", "and", "\\", "LabelingFunctions.is_wh_question(command)", "\\", "and", "\\", "LabelingFunctions.text_starts_with('who',", "command):", "if", "LabelingFunctions.has_and_has_only(command,", "['issue_status'])", "\\", "#", "Condition", "1:", "has_and_has_only([issue_status]).", "#", "Condition", "2:", "is", "a", "wh", "question.", "#", "Condition", "3:", "text", "starts", "with", "who.", "#", "Intent:", "OverloadedDev", "@staticmethod", "@labeling_function(pre=[preprocess_command.__func__])", "def", "OverloadedDev_1(command):", "main.py", "Shell"],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 122.88,
+    "x2": 466.08,
+    "y1": 75.36,
+    "y2": 336.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Figure5-1.png"
+}, {
+  "caption": "Table 5. Percentage of F1-score improvement when applying AlphaBot on Google Dialogflow.",
+  "captionBoundary": {
+    "x1": 70.17300415039062,
+    "x2": 415.5855712890625,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["10", "45", "45", "54.84", "83.31", "28.47", "30", "35", "35", "73.56", "84.65", "11.09", "50", "25", "25", "81.46", "84.79", "3.33", "Training", "split", "(%)", "Testing", "split", "(%)", "Validation", "split", "(%)", "Baseline", "F1-score", "(%)", "AlphaBot_Dialogflow", "F1-score", "(%)", "Improvement", "(%)"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 106.56,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660812-Table5-1.png"
+}]

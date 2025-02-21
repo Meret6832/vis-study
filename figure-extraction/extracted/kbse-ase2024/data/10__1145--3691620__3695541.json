@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 1: Simplified example test class from elasticjob/elastic-job-lite with transformations.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 560.440673828125,
+    "y1": 292.0703430175781,
+    "y2": 308.65899658203125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "+", "zkRegCenter", "=", "new", "ZookeeperRegistryCenter(ZKC);", "11", "+", "zkRegCenter.init();", "12", "}", "13", "-", "@Before", "public", "void", "setUp", "()", "{", "14", "-", "zkRegCenter", "=", "new", "ZookeeperRegistryCenter(ZKC);", "15", "-", "zkRegCenter.init();", "16", "-", "}", "17", "18", "+", "@AfterClass", "public", "static", "void", "teardown", "()", "{", "19", "-", "@After", "public", "void", "teardown", "()", "{", "20", "zkRegCenter.close();", "21", "}", "22", "23", "//", "Tests", "24", "...", "25", "}", "1", "public", "final", "class", "OneOffJobBootstrapTest", "{", "2", "private", "static", "final", "ZookeeperConfiguration", "ZKC", "=", "3", "new", "ZookeeperConfiguration", "(...);", "4", "private", "static", "final", "int", "SHARDING_TOTAL_COUNT", "=", "3;", "5", "+", "private", "static", "ZookeeperRegistryCenter", "zkRegCenter;", "6", "-", "private", "ZookeeperRegistryCenter", "zkRegCenter;", "7", "8", "@BeforeClass", "public", "static", "void", "init()", "{", "9", "EmbedTestingServer.start", "();"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 310.56,
+    "x2": 515.04,
+    "y1": 88.32,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Figure1-1.png"
+}, {
+  "caption": "Table 1: Characteristics of projects in dataset.",
+  "captionBoundary": {
+    "x1": 214.06800842285156,
+    "x2": 397.6289978027344,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Avg./Total", "135", "697", "38430", "11.11", "112.06", "P1", "Activiti/Activiti", "4", "4", "15", "8.64", "45.88", "P2", "AdoptOpenJDK/jitwatch", "1", "1", "13", "9.02", "18.42", "P3", "Graylog2/graylog2-server", "1", "3", "17", "2.21", "100.89", "P4", "apache/commons-codec", "1", "1", "117", "3.54", "10.75", "P5", "apache/commons-configuration", "1", "2", "87", "3.95", "28.33", "P6", "apache/commons-dbcp", "1", "8", "346", "4.89", "95.68", "P7", "apache/commons-io", "1", "3", "25", "2.59", "72.76", "P8", "apache/commons-lang", "1", "1", "10", "5.47", "69.15", "P9", "apache/commons-math", "2", "2", "93", "2.59", "13.68", "P10", "apache/commons-pool", "1", "4", "183", "71.70", "377.84", "P11", "apache/dubbo", "16", "29", "227", "5.88", "24.06", "P12", "apache/flink", "11", "32", "445", "5.90", "259.71", "P13", "apache/hadoop", "29", "401", "4146", "17.97", "1014.68", "P14", "apache/incubator-skywalking", "1", "1", "2", "10.40", "10.34", "P15", "apache/rocketmq", "6", "21", "196", "17.72", "70.50", "P16", "apache/storm", "2", "5", "21", "9.79", "77.74", "P17", "brettwooldridge/HikariCP", "1", "6", "47", "18.07", "220.51", "P18", "dropwizard/dropwizard", "9", "13", "124", "3.05", "15.60", "P19", "druid-io/druid", "17", "100", "31453", "9.91", "430.39", "P20", "eclipse/eclipse-collections", "1", "1", "33", "1.93", "88.96", "P21", "elasticjob/elastic-job-lite", "2", "3", "22", "1.82", "10.55", "P22", "graphhopper/graphhopper", "1", "3", "308", "4.22", "117.99", "P23", "igniterealtime/Openfire", "1", "8", "191", "2.04", "72.44", "P24", "iluwatar/java-design-patterns", "4", "4", "15", "6.76", "9.52", "P25", "ktuukkan/marine-api", "1", "1", "16", "1.89", "2.37", "P26", "languagetool-org/languagetool", "6", "11", "114", "9.77", "69.02", "P27", "spring-projects/spring-ws", "1", "3", "10", "7.52", "19.39", "P28", "srt/asterisk-java", "1", "1", "22", "4.45", "35.03", "P29", "undertow-io/undertow", "2", "7", "45", "8.35", "210.36", "P30", "vmware/admiral", "1", "1", "3", "2.03", "14.69", "P31", "wikidata/wikidata-toolkit", "1", "1", "26", "1.30", "2.08", "P32", "wildfly/wildfly", "2", "5", "13", "10.39", "40.68", "P33", "wso2/carbon-apimgt", "2", "3", "11", "97.16", "145.98", "P34", "zalando/riptide", "3", "8", "34", "4.71", "14.04", "ID", "Project", "#", "#", "#", "Avg.", "Test", "Class", "Avg.", "Mod.", "Mod.", "Test", "Classes", "Test", "Methods", "Runtime", "(s)", "Runtime", "(s)"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 519.36,
+    "y1": 105.6,
+    "y2": 527.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Table1-1.png"
+}, {
+  "caption": "Table 5: Decrease in lines covered.",
+  "captionBoundary": {
+    "x1": 104.95700073242188,
+    "x2": 242.58502197265625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Avg./Total", "54", "0.09", "0.05", "P1", "1", "0.29", "0.16", "P2", "0", "0.00", "0.00", "P4", "0", "0.00", "0.00", "P5", "0", "0.00", "0.00", "P11", "1", "0.02", "0.00", "P12", "1", "0.01", "0.02", "P13", "47", "0.09", "0.18", "P15", "1", "0.51", "0.02", "P18", "0", "0.00", "0.00", "P19", "3", "0.16", "0.00", "P21", "0", "0.00", "0.00", "P23", "0", "0.00", "0.00", "P26", "0", "0.00", "0.00", "P27", "0", "0.00", "0.00", "P29", "0", "0.00", "0.03", "P34", "0", "0.00", "0.00", "ID", "#", "Test", "Classes", "%", "Lines", "(TC)", "%", "Lines", "(TS)"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 286.08,
+    "y1": 105.6,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Table5-1.png"
+}, {
+  "caption": "Table 6: Decrease in mutants killed.",
+  "captionBoundary": {
+    "x1": 101.62100219726562,
+    "x2": 245.9197540283203,
+    "y1": 324.69134521484375,
+    "y2": 330.3219909667969
+  },
+  "figType": "Table",
+  "imageText": ["Avg./Total", "31", "1.67", "0.02", "P1", "1", "2.21", "-", "P2", "0", "0.00", "-", "P4", "0", "0.00", "0.00", "P5", "0", "0.00", "0.00", "P11", "1", "2.50", "0.00", "P12", "5", "0.86", "-", "P13", "15", "1.62", "0.00", "P15", "5", "7.73", "0.23", "P18", "0", "0.00", "0.00", "P19", "3", "0.38", "-", "P21", "0", "0.00", "0.00", "P23", "1", "9.43", "0.04", "P26", "0", "0.00", "0.01", "P27", "0", "0.00", "0.00", "P29", "0", "0.00", "-", "P33", "0", "0.00", "-", "P34", "0", "0.00", "0.00", "ID", "#", "Test", "Classes", "%", "Muts", "(TC)", "%", "Muts", "(TS)"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 285.12,
+    "y1": 344.64,
+    "y2": 568.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Table6-1.png"
+}, {
+  "caption": "Figure 2: High-level pseudocode.",
+  "captionBoundary": {
+    "x1": 107.99201202392578,
+    "x2": 239.84593200683594,
+    "y1": 289.0312805175781,
+    "y2": 294.66192626953125
+  },
+  "figType": "Figure",
+  "imageText": ["17", "if", "run_status", "==", "SUCCESS:", "18", "return", "mod_testclasses", "19", "else:", "20", "return", "[testclass]", "failedtests)", "14", "15", "#", "Inject", "setup/teardown", "calls", "into", "failing", "tests", "16", "mod_testclasses", ",", "run_status", "=", "Injector(mod_testclasses", ",", "11", "failedtests", "=", "ODChecker(mod_testclasses)", "12", "if", "len(failedtests)", "==", "0:", "#", "Tests", "pass", "in", "all", "orders", "13", "return", "mod_testclasses", "tests", "10", "#", "Check", "whether", "transformed", "test", "class", "has", "failing", "9"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 292.32,
+    "y1": 161.28,
+    "y2": 281.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Transformer pseudocode.",
+  "captionBoundary": {
+    "x1": 367.56585693359375,
+    "x2": 508.58306884765625,
+    "y1": 549.0564575195312,
+    "y2": 554.6871337890625
+  },
+  "figType": "Figure",
+  "imageText": ["47", "48", "#", "Re-compile", "all", "the", "modified", "test", "classes", "49", "status", "=", "compile(mod_testclasses)", "50", "return", "mod_testclasses", ",", "status", "44", "45", "#", "Re-sort", "classes", "in", "case", "new", "ones", "got", "added", "46", "topological_sort(classes_to_process", ",", "tc_tree)", "41", "42", "new_children", "=", "get_descendants(curr", ",", "tc_tree)", "43", "classes_to_process", "|=", "new_children", "23", "24", "#", "Convert", "methods", "and", "fields", "to", "static", "25", "while", "len(methods)", ">", "0", "or", "len(fields)", ">", "0:", "26", "new_methods", "=", "set()", "27", "new_fields", "=", "set()", "28", "for", "m", "in", "methods:", "29", "make_static(m)", "30", "mod_testclasses.add(get_declaringclass(m))", "31", "new_methods", "|=", "get_referenced_methods(m)", "32", "new_methods", "|=", "get_override_methods(m,", "tc_tree)", "33", "new_fields", "|=", "get_referenced_fields(m)", "34", "for", "f", "in", "fields:", "35", "make_static(f)", "36", "mod_testclasses.add(get_declaringclass(f))", "37", "new_methods", "|=", "get_referenced_methods(f)", "38", "new_fields", "|=", "get_referenced_fields(f)", "39", "fields", "=", "new_fields", "40", "methods", "=", "new_methods", "17", "18", "#", "Find", "the", "methods/fields", "to", "update", "annotations", ",", "19", "#", "e.g.,", "@Before", "becomes", "@BeforeClass", "20", "methods", ",", "fields", "=", "update_anno(curr)", "21", "if", "len(methods)", ">", "0", "or", "len(fields)", ">", "0:", "22", "mod_testclasses.add(curr)", "14", "15", "while", "len(classes_to_process)", ">", "0:", "16", "curr", "=", "classes_to_process.pop()", "13", "topological_sort(classes_to_process", ",", "tc_tree)", "sub_testclasses"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 310.56,
+    "x2": 556.3199999999999,
+    "y1": 195.84,
+    "y2": 542.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Figure3-1.png"
+}, {
+  "caption": "Table 3: Reduction in runtime per test class.",
+  "captionBoundary": {
+    "x1": 349.0069885253906,
+    "x2": 526.8475341796875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Percent.", "Avg.", "15.24", "20.01", "Runtime", "Avg.", "15.32", "19.16", "Avg./Total", "194", "16.98", "169", "28.39", "P1", "1", "2.44", "1", "2.44", "P2", "1", "90.53", "1", "90.53", "P4", "1", "12.73", "1", "12.73", "P5", "1", "26.99", "1", "26.99", "P11", "16", "14.10", "16", "14.10", "P12", "10", "17.73", "10", "17.73", "P13", "105", "14.71", "87", "19.06", "P15", "7", "10.60", "6", "11.85", "P17", "1", "-13.91", "0", "0.00", "P18", "6", "13.13", "5", "23.67", "P19", "23", "17.47", "22", "17.63", "P21", "2", "-16.07", "1", "48.39", "P23", "4", "-8.00", "3", "31.30", "P26", "7", "11.96", "7", "11.96", "P27", "3", "83.23", "3", "83.23", "P29", "3", "17.44", "2", "60.48", "P33", "1", "7.29", "1", "7.29", "P34", "2", "3.26", "2", "3.26", "ID", "#", "Signf.", "Red.", "#", "Pos.", "Pos.", "signf.", "%", "signf.", "Red.", "%"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 544.3199999999999,
+    "y1": 105.6,
+    "y2": 373.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Table3-1.png"
+}, {
+  "caption": "Table 2: Successfully transformed test classes characteristics.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.037353515625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Avg./Total", "500", "24.25", "P1", "1", "50.00", "P2", "1", "0.00", "P4", "1", "5.56", "P5", "2", "32.64", "P11", "27", "10.69", "P12", "24", "13.69", "P13", "293", "25.71", "P15", "13", "18.83", "P17", "6", "20.14", "P18", "10", "18.38", "P19", "59", "28.43", "P21", "3", "47.35", "P23", "8", "22.54", "P26", "10", "0.00", "P27", "3", "0.00", "P29", "7", "14.29", "P33", "3", "66.67", "P34", "8", "8.33", "ID", "#", "Success", "%", "Injections"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 247.2,
+    "y1": 105.6,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Table2-1.png"
+}, {
+  "caption": "Figure 4: OD-Checker pseudocode.",
+  "captionBoundary": {
+    "x1": 368.33795166015625,
+    "x2": 507.81304931640625,
+    "y1": 190.40133666992188,
+    "y2": 196.031982421875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "11", "return", "od_tests", "6", "7", "for", "order", "in", "test_orders:", "8", "failed_tests", "=", "extract_failed_tests(order)", "9", "od_tests", "|=", "failed_tests", "1", "#", "test", "classes:", "transformed", "test", "classes", "to", "run", "2", "def", "ODChecker(testclasses):", "3", "od_tests", "=", "set()", "4", "for", "t", "in", "testclasses:", "5", "test_orders", "=", "systematically_get_orders(t)"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 310.56,
+    "x2": 518.88,
+    "y1": 88.32,
+    "y2": 182.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Figure4-1.png"
+}, {
+  "caption": "Table 4: Reduction in runtime per module test suite.",
+  "captionBoundary": {
+    "x1": 68.13200378417969,
+    "x2": 279.40679931640625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Percent.", "Avg.", "12.73", "Runtime", "Avg.", "5.17", "Avg./Total", "58", "30", "18.24", "P1", "1", "0", "0.00", "P2", "1", "1", "81.28", "P4", "1", "1", "5.49", "P5", "1", "1", "4.88", "P11", "10", "7", "6.20", "P12", "5", "1", "6.71", "P13", "14", "4", "4.26", "P15", "3", "2", "6.58", "P18", "4", "4", "11.48", "P19", "6", "3", "8.65", "P21", "1", "1", "3.34", "P23", "1", "1", "4.66", "P26", "4", "1", "29.74", "P27", "1", "1", "85.35", "P29", "2", "1", "2.85", "P33", "1", "1", "12.14", "P34", "2", "0", "0.00", "ID", "#", "Mod.", "#", "Pos.", "Pos.", "signf.", "Red.", "%"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 257.28,
+    "y1": 105.6,
+    "y2": 362.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Table4-1.png"
+}, {
+  "caption": "Figure 5: Injector pseudocode.",
+  "captionBoundary": {
+    "x1": 113.34800720214844,
+    "x2": 234.48760986328125,
+    "y1": 714.2974243164062,
+    "y2": 719.9281005859375
+  },
+  "figType": "Figure",
+  "imageText": ["55", "56", "return", "SUCCESS", "polluter_victim_pairs)", "54", "sorted_victims_polluters", "=", "sort_victims(", "polluter_victim_pairs)", "53", "sorted_polluters_victims", "=", "sort_polluters(", "tc", ",", "failedtests)", "42", "if", "len(pairfailedtests)", "==", "0:", "43", "continue", "44", "else:", "45", "return", "FAIL", "46", "else:", "47", "failedtests", "=", "ODChecker(tc)", "48", "if", "len(failedtests)", ">", "0:", "49", "if", "len(failedtests", "&", "tc_failedtests)", ">", "0:", "50", "return", "FAIL", "51", "tc_failedtests", "|=", "failedtests", "52", "polluter_victim_pairs", "=", "find_polluter_victims(", "victim)", "41", "pairfailedtests", "=", "run_every_pair(polluters", ",", "victim", ",", "before_fixtures)", "30", "if", "len(pairfailedtests)", "==", "0:", "31", "continue", "32", "else:", "33", "return", "FAIL", "34", "else:", "35", "polluters", "=", "sorted_victims_polluters", "[0][1]", "36", "victim", "=", "sorted_victims_polluters.pop()[0]", "37", "#", "three", "modes", ",", "only", "inject", "to", "the", "victim;", "38", "#", "only", "inject", "to", "the", "polluters;", "39", "#", "inject", "both", "to", "the", "polluters", "and", "victim", "40", "add_fixture_calls(polluters", ",", "after_fixtures", ",", "victims)", "29", "pairfailedtests", "=", "run_every_pair(polluter", ",", "victims", ",", "before_fixtures)", "21", "if", "num_top_victims", ">", "0", "||", "num_top_polluters", ">", "0:", "22", "if", "num_top_victims", ">=", "num_top_polluters:", "23", "victims", "=", "sorted_polluters_victims", "[0][1]", "24", "polluter", "=", "sorted_polluters_victims.pop()[0]", "25", "#", "three", "modes", ",", "only", "inject", "to", "the", "polluter;", "26", "#", "only", "inject", "to", "the", "victims;", "27", "#", "inject", "both", "to", "the", "polluter", "and", "victims", "28", "add_fixture_calls(polluter", ",", "after_fixtures", ",", "[0][1])", "19", "if", "len(sorted_victims_polluters)", ">", "0:", "20", "num_top_polluters", "=", "len(sorted_victims_polluters", "[0][1])", "15", "while", "len(failedtests)", ">", "0:", "16", "num_top_victims", "=", "0,", "num_top_polluters", "=", "0", "17", "if", "len(sorted_polluters_victims)", ">", "0:", "18", "num_top_victims", "=", "len(sorted_polluters_victims", "polluter_victim_pairs)", "14", "sorted_victims_polluters", "=", "sort_victims(", "polluter_victim_pairs)", "13", "sorted_polluters_victims", "=", "sort_polluters(", "failedtests)", "10", "failedtests", "=", "list(tc_failedtests)", "11", "before_fixtures", ",", "after_fixtures", "=", "find_fixtures(tc)", "12", "polluter_victim_pairs", "=", "find_polluter_victims(tc,", "9"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 288.0,
+    "y1": 170.4,
+    "y2": 703.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695541-Figure5-1.png"
+}]

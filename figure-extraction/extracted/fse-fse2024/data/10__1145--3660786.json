@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 1. alitative Study Statistics Overview+ (The table’s le section presents key statistics from the qualitative study. The middle section presents categorized instances across invariant categories. The right section presents instances for various reasons why these invariants remain uncategorized.)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1759033203125,
+    "y1": 217.182861328125,
+    "y2": 243.3330078125
+  },
+  "figType": "Table",
+  "imageText": ["Special", "Storage", "24", "Money", "Flow", "151", "Data", "Flow", "181", "Statistics", "Count", "Category", "Count", "Reason", "Count", "#", "Audits", "63", "Access", "Control", "283", "Protocol", "Speciﬁc", "1098", "#", "Code", "Repositories", "49", "Time", "Lock", "158", "Array", "Length", "Check", "200", "#", "Invariants", "in", "Total", "2181", "Gas", "Control", "2", "Byte", "Operation", "44", "#", "Invariants", "Categoried", "826", "Re-entrancy", "12", "Safe", "Math", "13", "#", "Invariants", "Uncategorized", "1355", "Oracle", "Slippage", "15"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 390.24,
+    "y1": 249.6,
+    "y2": 323.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table1-1.png"
+}, {
+  "caption": "Table 3. Instructions Defined as Sources and Sinks.",
+  "captionBoundary": {
+    "x1": 148.39109802246094,
+    "x2": 337.3665466308594,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["ether", "transfer", "address.call{value:", "uint256}", "ether", "transferFrom", "callvalue", "ERC20", "transfer", "ERC20.transfer(address,uint256),", "ERC20", "=", "token", "ERC20", "transferFrom", "ERC20.transferFrom(address1,address2,uint256),", "ERC20", "=", "token,", "address2", "=", "this", "Sinks", "Sources", "External", "Address", "balance,", "extcodesize,", "extcodecopy,", "extcodehash", "Execution", "Context", "origin,", "caller,", "address,", "codesize,", "selfbalance,", "pc,", "msize,", "gas", "Call", "Data", "callvalue,", "calldataload,", "calldatasize,", "calldatacopy", "Return", "Data", "returndatasize,", "returndatacopy", "Block", "blockhash,", "coinbase,", "timestamp,", "number,", "prevrandao,", "gasprice,", "gaslimit,", "chainid", "Storage", "sload(untainted)", "Category", "Opcodes", "and", "Locations"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 413.28,
+    "y1": 96.0,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table3-1.png"
+}, {
+  "caption": "Table 6. Bypassability Results of Hacks Blocked (TPs) and Sampled Normal Transactions Blocked (FPs).",
+  "captionBoundary": {
+    "x1": 51.73400115966797,
+    "x2": 434.0249328613281,
+    "y1": 259.19384765625,
+    "y2": 263.4259948730469
+  },
+  "figType": "Table",
+  "imageText": ["D2", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "10", "10", "10", "9", "0", "8", "6", "0", "D3", "0", "0", "0", "0", "0", "0", "0", "9", "10", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "FP", "s", "D1", "10", "10", "10", "10", "10", "0", "0", "1", "0", "10", "0", "10", "10", "10", "10", "0", "0", "0", "1", "10", "0", "4", "10", "C2", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "2", "2", "5", "3", "0", "0", "2", "8", "0", "0", "0", "0", "C3", "0", "0", "0", "0", "0", "7", "1", "5", "17", "0", "0", "0", "0", "0", "0", "1", "5", "1", "0", "1", "1", "6", "0", "T", "P", "s", "C1", "15", "4", "6", "3", "8", "2", "10", "5", "0", "15", "2", "3", "2", "2", "3", "7", "12", "2", "7", "1", "1", "12", "1", "E", "O", "A", "SO", "SM", "O", "O", "O", "M", "SB", "O", "B", "L", "U", "G", "S", "G", "C", "R", "E", "O", "R", "O", "D", "T", "SU", "T", "B", "U", "T", "IU", "T", "O", "U", "T", "IR", "U", "T", "O", "R", "U", "M", "U", "C", "V", "U", "D", "F", "U", "D", "FL", "Access", "Control", "Time", "Lock", "GasCtrl", "Re", "Oracle", "Storage", "Money", "Flow", "Data", "Flow"],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 406.08,
+    "y1": 266.88,
+    "y2": 346.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table6-1.png"
+}, {
+  "caption": "Table 2. Invariants. (We use x to denote a contract state variable, r to denote a local variable, and _? to denote a hole in the template to fill during the synthesis. |_| denotes the absolute value.)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1730041503906,
+    "y1": 76.78287506103516,
+    "y2": 91.9739990234375
+  },
+  "figType": "Table",
+  "imageText": ["MU", "MappingUpperBound", "map?[index?]", "≤", "v?", "Integer", "[Choi", "et", "al.", "2021]", "CVU", "CallValueUpperBound", "msg.value", "≤", "v?", "Integer", "DFU", "DataFlowUpperBound", "var?", "≤", "v?", "Integer", "DFL", "DataFlowLowerBound", "var?", "≥", "v?", "Integer", "Data", "Flow", "TIU", "TokenInUpperBound", "rtokenIn", "≤", "v?", "Integer", "[bal", "2023]", "[dfo", "2023a]", "TIRU", "TokenInRatioUpperBound", "rtokenIn", "≤", "v?", "Integer", "[bal", "2023]", "TOU", "TokenOutUpperBound", "rtokenOut/btoken,adr", "≤", "v?", "Integer", "[bal", "2023]", "[dfo", "2023a]", "TORU", "TokenOutRatioUpperBound", "rtokenOut/btoken,adr", "≤", "v?", "Integer", "[bal", "2023]", "Money", "Flow", "TBU", "TotalBorrowUpperBound", "xtotBor", "≤", "totBor?", "Integer", "[Aav", "2023]", "[dfo", "2023a]", "Special", "Storage", "TSU", "TotalSupplyUpperBound", "xtotSup", "≤", "totSup?", "Integer", "[Aav", "2023]", "[dfo", "2023a]", "[Breidenbach", "et", "al.", "2021]", "OD", "OracleDeviation", "|", "(rnewPr", "−", "xoldPr", ")/xoldPr", "|", "≤", "prDev?", "Integer", "[dfo", "2023b]", "Re-entrancy", "RE", "nonReEntrant", "xlock", "=", "true", "-", "[Rodler", "et", "al.", "2018]", "Oracle", "Slippage", "OR", "OracleRange", "prLB?", "≤", "rnewPr", "≤", "prUB?", "Integer", "[dfo", "2023b]", "motivated", "by", "Section", "3", "GC", "GasConsumedUpperBound", "gasStart", "−", "gasEnd", "≤", "gas?", "Integer", "Gas", "Control", "GS", "GasStartUpperBound", "gasStart", "≤", "gas?", "Integer", "SB", "isSameSenderBlock", "xentrySdrBlk", "≠", "rexitSdrBlk", "-", "[idl", "2023]", "OB", "isSameOriginBlock", "xentryOrgBlk", "≠", "rexitOrgBlk", "-", "LU", "lastUpdate", "rcurtBlk", "−", "xlstBlk", "≥", "nbBlks?", "Integer", "[fei", "2023a,b;", "mst", "2023]", "Time", "Lock", "=?", "8=1", "mgri?", "addresses", "OO", "isOriginOwner", "tx.origin", "=", "owner?", "address", "OM", "isOriginManager", "tx.origin", "=", "⋃", "=?", "8=1", "mgri?", "addresses", "SO", "isSenderOwner", "msg.sender", "=", "owner?", "address", "SM", "isSenderManager", "msg.sender", "=", "⋃", "[Liu", "et", "al.", "2022b]", "[Ghaleb", "et", "al.", "2023]", "EOA", "onlyEOA", "msg.sender", "=", "tx.origin", "-", "Access", "Control", "Category", "ID", "Name", "Template", "Parameter", "References"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 96.0,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table2-1.png"
+}, {
+  "caption": "Table 5. Summarized Results of Invariants Effectiveness Evaluation.",
+  "captionBoundary": {
+    "x1": 117.88812255859375,
+    "x2": 367.87158203125,
+    "y1": 191.52182006835938,
+    "y2": 195.75396728515625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Contracts", "Applied(42)", "42", "39", "22", "39", "25", "33", "33", "37", "41", "41", "40", "11", "11", "21", "16", "34", "34", "28", "28", "11", "7", "33", "33", "#", "Contracts", "Protected(42)", "23", "6", "7", "5", "9", "11", "13", "12", "30", "23", "2", "7", "6", "8", "12", "9", "22", "5", "22", "1", "2", "23", "1", "#", "Hacks", "Blocked(27)", "15", "4", "6", "3", "8", "9", "11", "10", "18", "15", "2", "5", "4", "7", "6", "8", "17", "5", "15", "1", "2", "18", "1", "Average", "FP(%)", "0.2", "0.6", "1.8", "0.5", "2.6", "0", "0", "2.4", "2.4", "2.6", "0", "22.3", "4.6", "7.9", "12.6", "0.7", "0.4", "0.8", "1.4", "1.5", "0.7", "1.6", "0.9", "O", "D", "T", "SU", "T", "B", "U", "T", "IU", "T", "O", "U", "T", "IR", "U", "T", "O", "R", "U", "M", "U", "C", "V", "U", "D", "F", "U", "D", "FL", "E", "O", "A", "SO", "SM", "O", "O", "O", "M", "SB", "O", "B", "L", "U", "G", "S", "G", "C", "R", "E", "O", "R", "AccessControl", "TimeLock", "GasCtrl", "Re", "Oracle", "Storage", "Money", "Flow", "Data", "Flow"],
+  "name": "5",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 198.72,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table5-1.png"
+}, {
+  "caption": "Table 9. Comparison among Trace2Inv, InvCon+, and TxSpector. (TxSpector only takes transactions as input, thus it does not have statistics about contracts.)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1606140136719,
+    "y1": 79.61783599853516,
+    "y2": 94.80902099609375
+  },
+  "figType": "Table",
+  "imageText": ["Trace2Inv", "InvCon+", "TxSpector", "#", "Contracts", "Applied(42)", "42", "27", "-", "#", "Contracts", "Protected(42)", "31", "8", "-", "#", "Hacks(27)", "20", "Blocked", "3", "Blocked", "7", "Detected", "Average", "#", "Invariants", "per", "Contract", "12", "2054", "-", "Average", "FP", "rate(%)", "0.28", "73.55", "15.30"],
+  "name": "9",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 127.67999999999999,
+    "x2": 357.12,
+    "y1": 100.8,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table9-1.png"
+}, {
+  "caption": "Table 4. Benchmarks+. (Exploit: the first exploit transaction during the incident. FL: whether the exploit transaction uses flash loan. Contracts: the victim contracts involved in the exploit. Type: the type of the contract, either interface (I) or payload (P). PL: the programming language of the contract, either Solidity (S) or Vyper (V). History: the number of transactions in the history of the contract up to the exploit transaction.)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.7065734863281,
+    "y1": 88.12186431884766,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["DODO", "access", "control", "21/03/08", "700K", "[DOD", "2023]", "✓", "DODO", "I+P", "S", "42", "Punk", "access", "control", "21/08/10", "8.9M", "Punk_1", "I+P", "S", "28", "Punk_2", "I+P", "S", "42[Pun", "2023]", "Punk_3", "I+P", "S", "37", "BeanstalkFarms", "ﬂashloan", "assisted", "commit", "22/04/16", "182M", "BeanstalkFarms", "P", "V", "5785", "[Bea", "2023]", "✓", "BeanstalkFarms_I", "I", "S", "306", "[Rev", "2023]", "✓", "RevestFi_I", "I", "S", "1463", "Eminence", "logic", "error", "20/09/29", "7M", "[Emi", "2023]", "✓", "Eminence", "I+P", "S", "20589", "Opyn", "logic", "error", "20/08/04", "371k", "[Opy", "2023]", "Opyn", "I+P", "S", "67", "IndexFi", "logic", "error", "21/10/15", "16M", "[Ind", "2023]", "✓", "IndexFi", "I+P", "S", "20641", "RevestFi", "re-entrancy", "22/03/27", "11.2M", "RevestFi", "P", "S", "1635", "O", "th", "er", "s", "VisorFi", "re-entrancy", "21/12/21", "8.2M", "[Vis", "2023]", "VisorFi", "I+P", "S", "1693", "UmbrellaNetwork", "underﬂow", "bug", "22/03/20", "700K", "[Umb", "2023]", "UmbrellaNetwork", "I+P", "S", "59", "PickleFi", "access", "control", "20/11/21", "20M", "[Pic", "2023]", "PickleFi", "I+P", "S", "5439", "[Yea", "2024]", "✓", "Yearn_I", "I", "S", "26688", "Harvest1", "oracle", "manipulation", "20/10/26", "33.8M", "[Har", "2023b]", "✓", "Harvest1", "I+P", "S", "2050", "Harvest2", "oracle", "manipulation", "20/10/26", "[Har", "2023c]", "✓", "Harvest2", "I+P", "S", "2161", "ValueDeFi", "oracle", "manipulation", "20/11/14", "7.4M", "[Val", "2023]", "✓", "ValueDeFi", "I+P", "S", "295", "Yearn", "forced", "investment", "21/02/04", "11M", "Yearn", "P", "S", "672", "Y", "ie", "ld", "-E", "ar", "n", "in", "g", "RariCapital2_4", "I+P", "S", "776", "XCarnival", "logic", "error", "22/06/26", "3.87M", "[XCa", "2023]", "XCarnival", "I+P", "S", "342", "RariCapital2_1", "I+P", "S", "614", "RariCapital2_2", "I+P", "S", "752", "RariCapital2_3", "I+P", "S", "404", "[Rar", "2023b]", "✓", "22/04/30", "80M", "RariCapital2", "cross", "contract", "re-entrancy", "CreamFi2_4", "I+P", "S", "98", "RariCapital1", "read-only", "re-entrancy", "21/05/09", "10M", "[Rar", "2023a]", "✓", "RariCapital1", "I+P", "S", "667", "CreamFi2_1", "I+P", "S", "1270", "CreamFi2_2", "I+P", "S", "898", "CreamFi2_3", "I+P", "S", "261", "[Cre", "2023b]", "✓", "CreamFi2", "oracle", "manipulation", "21/10/27", "130M", "CheeseBank", "oracle", "manipulation", "20/11/06", "3.3M", "CheeseBank_1", "I+P", "S", "615", "CheeseBank_2", "I+P", "S", "593[Che", "2023]", "✓", "CheeseBank_3", "I+P", "S", "557", "InverseFi", "oracle", "manipulation", "22/06/16", "1.26M", "[Inv", "2023]", "✓", "InverseFi", "I+P", "S", "7590", "CreamFi1", "cross", "contract", "re-entrancy", "21/08/30", "18M", "CreamFi1_1", "I+P", "S", "5", "[Cre", "2023a]", "✓", "CreamFi1_2", "I+P", "S", "58184", "[War", "2023]", "✓", "Warp_I", "I", "S", "31", "bZx2", "oracle", "manipulation", "20/02/18", "630K", "[bZx", "2023]", "✓", "bZx2", "I+P", "S", "711", "Warp", "oracle", "manipulation", "20/12/17", "8M", "Warp", "P", "S", "148", "L", "en", "d", "in", "g", "PolyNetwork", "hash", "collision", "21/08/10", "611M", "[Pol", "2023]", "PolyNetwork", "I+P", "S", "44509", "22/08/01", "152M", "[Nom", "2023]", "Nomad", "I+P", "S", "15630", "Nomad", "zero", "hash", "as", "a", "valid", "root", "Ki", "nd", "Victim", "Protocol", "Root", "Cause", "Date", "Loss", "Exploit", "FL", "Contracts", "Type", "PL", "History", "B", "ri", "d", "g", "es", "RoninNetwork", "keys", "compromised", "22/03/29", "624M", "[Ron", "2023]", "RoninNetwork", "I+P", "S", "95345", "HarmonyBridge", "keys", "compromised", "22/06/24", "100M", "[Har", "2023a]", "HarmonyBridge", "P", "S", "32149"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 132.0,
+    "y2": 493.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table4-1.png"
+}, {
+  "caption": "Fig. 1. Statistics of Transactions on Harvest USDC Vault Contract.",
+  "captionBoundary": {
+    "x1": 120.28600311279297,
+    "x2": 365.7138366699219,
+    "y1": 574.4909057617188,
+    "y2": 578.7230224609375
+  },
+  "figType": "Figure",
+  "imageText": ["n", "1e6", "gas", "consumption", "of", "a", "transaction", "pt", "io", "su", "m", "C", "on", "G", "as", "8", "4", "11110000", "11125000", "Block", "Num0", "y", "1e8", "fUSDC", "Total", "Supply", "up", "pl", "ta", "l", "s", "C", "to", "fU", "SD", "1.8", "1.6", "1.4", "11110000", "11125000", "Block", "Num", "nt", "1e7", "USDC", "flow", "out", "of", "Vault", "USDC", "flow", "into", "Vault", "m", "ou", "C", "A", "U", "SD", "4", "2", "11110000", "11125000", "Block", "Num0", "deposit()", "called", "by", "EOA", "deposit()", "called", "by", "a", "contract", "withdraw()", "called", "by", "EOA", "withdraw()", "called", "by", "a", "contract", "ck", "B", "lo", "P", "er", "im", "es", "ss", "T", "Ac", "ce", "2.4", "1.6", "11110000", "11125000", "Block", "Num"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 47.519999999999996,
+    "x2": 435.35999999999996,
+    "y1": 431.52,
+    "y2": 566.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Figure1-1.png"
+}, {
+  "caption": "Table 8. Runtime Gas Overhead (%) of Different Types of Invariant Guards.",
+  "captionBoundary": {
+    "x1": 103.99490356445312,
+    "x2": 381.76409912109375,
+    "y1": 128.28182983398438,
+    "y2": 132.51397705078125
+  },
+  "figType": "Table",
+  "imageText": ["Kind", "Benchmark", "Compiler", "EOA", "OB∗", "GC", "DFU", "EOA", "∧", "GC", "∧", "DFU", "EOA", "∧", "(OB", "∨", "DFU)", "Bridge", "HarmonyBridge", "Solidity", "0.5.17", "0.04", "0.59→", "0.12+", "0.02", "0.01", "0.07", "0.63→", "0.16", "Lending", "Harvest1", "Solidity", "0.5.18", "0.00", "0.96→", "0.02", "0.01", "0.01", "0.02", "0.97→", "0.04", "Yield-Earning", "CreamFi2_1", "Solidity", "0.5.17", "0.00", "0.14→", "0.01", "0.01", "0.00", "0.01", "0.15→", "0.01", "Others", "BeanstalkFarms", "Vyper", "0.2.8", "0.00", "4.09→", "0.68", "/", "0.00", "0.00", "4.09→", "0.68"],
+  "name": "8",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 435.35999999999996,
+    "y1": 138.72,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table8-1.png"
+}, {
+  "caption": "Fig. 2. An Overview of Trace2Inv",
+  "captionBoundary": {
+    "x1": 180.9709930419922,
+    "x2": 305.0292053222656,
+    "y1": 637.660888671875,
+    "y2": 641.8930053710938
+  },
+  "figType": "Figure",
+  "imageText": ["Heuristics", "Bound", "Deduction", "Role-based", "Set", "Inference", "Invocation", "Tree", "Hypothesis", "Testing", "Storage", "Layout", "Function", "ABI", "Invariant", "Generation", "Invariant-related", "Data", "Extraction", "Invocation", "Tree", "Analysis", "Dynamic", "Taint", "Analysis", "Type", "Inference", "Invariant-", "related", "Data", "Invariants", "Selected", "Trace", "Segment", "Trace2Inv", "Invariant", "Templates", ":", "Target", "Smart", "Contract", "Trace", "Parser", "History", "Transaction", "Trace"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 425.76,
+    "y1": 531.84,
+    "y2": 628.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Figure2-1.png"
+}, {
+  "caption": "Table 7. Validation Results of the Best Combined Invariants.",
+  "captionBoundary": {
+    "x1": 131.20700073242188,
+    "x2": 354.55108642578125,
+    "y1": 217.1988525390625,
+    "y2": 221.43099975585938
+  },
+  "figType": "Table",
+  "imageText": ["D2", "2", "D2", "0", "D3", "0", "D3", "0", "#", "Contracts", "Applied", "42", "C1", "20", "#", "Contracts", "Applied", "42", "C1", "18", "#", "Contracts", "Protected", "35", "C2", "0", "#", "Contracts", "Protected", "31", "C2", "0", "#", "Hacks", "Blocked", "23", "C3", "3", "#", "Hacks", "Blocked", "20", "C3", "2", "Average", "FP", "rate(%)", "3.99", "D1", "8", "Average", "FP", "rate(%)", "0.28", "D1", "10", "EOA", "∧", "GC", "∧", "DFU", "EOA", "∧", "(OB", "∨", "DFU)"],
+  "name": "7",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 383.03999999999996,
+    "y1": 228.0,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660786-Table7-1.png"
+}]

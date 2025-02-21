@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 2: The overall architecture of FAIR model.",
+  "captionBoundary": {
+    "x1": 74.64600372314453,
+    "x2": 273.1891174316406,
+    "y1": 249.55038452148438,
+    "y2": 255.1810302734375
+  },
+  "figType": "Figure",
+  "imageText": ["Self-Attention", "Flows", "BB", "Nodes", "Var", "Nodes", "BB-Var", "Flows", "CFGCall", "Flows", "DFGCall", "Flows", "...", "...", "[CLS]", "entry", "[SEP][SEP]", "...", "%m", "%x", "vb", "b", "v", "v", "IR", "Representation", "Encoder", "(Graph", "Transformer)", "En", "E1", "E2", "Em", "Var1", "Var2", "Varm...", "Variable", "Embedding", "(Word", "Embedding)", "BB1", "BBn...", "E1", "Basic", "Block", "Embedding", "(Transformer", "Encoder)"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 289.44,
+    "y1": 84.0,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608136-Figure2-1.png"
+}, {
+  "caption": "Table 3: Results on optimal thread coarsening factor.",
+  "captionBoundary": {
+    "x1": 67.0739974975586,
+    "x2": 280.46478271484375,
+    "y1": 459.3413391113281,
+    "y2": 464.97198486328125
+  },
+  "figType": "Table",
+  "imageText": ["ncc", "1.01", "1.04", "0.95", "1.01", "IR2Vec", "1.18", "1.21", "1.1", "1.08", "GNN-CDFG", "1.01", "0.93", "0.92", "0.86", "ProGraML", "1.05", "1.12", "0.96", "0.97", "OSCAR", "1.21", "1.19", "1.06", "1.07", "IRGen", "1.22", "1.17", "1.11", "1.08", "FAIR", "1.25", "1.21", "1.13", "1.08", "Models", "Cypress", "Tahiti", "Fermi", "Kepler"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 269.28,
+    "y1": 480.0,
+    "y2": 578.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608136-Table3-1.png"
+}, {
+  "caption": "Table 1: Results onC2C retrieval and algorithm classification.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.037353515625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "82.67", "77.16", "4.61", "CodeT5", "88.65", "79.65", "4.12", "UniXcoder", "90.52", "82.23", "1.91", "ncc", "54.19", "64.68", "5.17", "IR2Vec", "76.34", "77.90", "3.93", "GNN-CDFG", "79.20", "66.64", "3.72", "ProGraML", "81.53", "71.27", "3.38", "OSCAR", "89.98", "81.76", "1.92", "IRGen", "89.22", "83.26", "2.01", "FAIR", "92.04", "85.41", "1.75", "ClassificationPOJ-104", "GCJ", "MAP@R", "MAP@R", "Error", "Rate", "Models", "Retrieval", "Algorithm"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 273.12,
+    "y1": 105.6,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608136-Table1-1.png"
+}, {
+  "caption": "Table 2: Results on heterogeneous device mapping.",
+  "captionBoundary": {
+    "x1": 70.74600219726562,
+    "x2": 276.7936096191406,
+    "y1": 278.01336669921875,
+    "y2": 283.6440124511719
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "86.76", "1.58", "95.59", "2.79", "CodeT5", "88.54", "1.48", "93.10", "2.59", "UnixCoder", "89.71", "1.50", "94.12", "2.76", "ncc", "84.67", "1.44", "88.09", "3.47", "IR2Vec", "85.32", "1.26", "91.32", "3.51", "GNN-CDFG", "87.93", "1.39", "89.16", "3.37", "ProGraML", "88.13", "1.41", "92.60", "2.98", "OSCAR", "89.52", "1.49", "94.11", "3.34", "IRGen", "89.86", "1.57", "94.32", "3.60", "FAIR", "91.61", "1.62", "96.52", "3.63", "Models", "NVIDIA", "AMD", "Acc", "Speedup", "Acc", "Speedup"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 273.12,
+    "y1": 298.56,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608136-Table2-1.png"
+}, {
+  "caption": "Table 4: Ablation results on downstream tasks. The best results in each column are boldfaced, and the worst results in each group are underlined. In cases where the model predicts the same label for all examples, the result is replaced with a ’-’.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1840209960938,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["FAIR", "92.04", "85.41", "1.75", "91.61", "1.62", "95.52", "3.63", "1.13", "1.25", "1.21", "1.08", "-w/o", "type", "90.32", "83.50", "1.79", "91.23", "1.59", "95.11", "3.61", "1.13", "1.24", "1.21", "1.08", "-w/o", "flow", "88.95", "81.83", "1.94", "90.66", "1.48", "94.43", "3.47", "1.12", "1.22", "1.20", "1.08", "-w/", "CDFG", "87.13", "79.39", "2.48", "91.01", "1.56", "95.09", "3.58", "1.13", "1.24", "1.20", "1.07", "-w/o", "MLM", "91.85", "84.94", "1.91", "89.02", "1.40", "93.85", "3.25", "-", "1.21", "-", "-", "-w/o", "xFT", "91.14", "84.86", "2.03", "91.38", "1.56", "95.16", "3.34", "1.11", "1.18", "1.19", "1.08", "-w/o", "BVP", "91.25", "85.19", "1.99", "91.6", "1.59", "95.52", "3.64", "1.12", "1.21", "1.21", "1.08", "-w/o", "CL", "88.09", "81.61", "2.88", "90.96", "1.58", "95.15", "3.59", "1.11", "1.18", "1.18", "1.06", "-w/o", "all", "87.36", "79.14", "2.98", "-", "-", "-", "-", "-", "-", "-", "-", "POJ-104", "GCJ", "AMD", "NVIDIA", "Cypress", "Tahiti", "Fermi", "Kepler", "MAP@R", "MAP@R", "ER", "Acc", "Speedup", "Acc", "Speedup", "Speedup", "Speedup", "Speedup", "Speedup", "Methods", "Retrieval", "Algorithm", "Classification", "Device", "Mapping", "Thread", "Coarsening", "Factor"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608136-Table4-1.png"
+}, {
+  "caption": "Table 5: Results on zero-shot code-to-code retrieval.",
+  "captionBoundary": {
+    "x1": 69.21199798583984,
+    "x2": 278.325927734375,
+    "y1": 277.9113464355469,
+    "y2": 283.5419921875
+  },
+  "figType": "Table",
+  "imageText": ["MAP@R", "8.70", "7.41", "21.19", "22.72", "24.83", "27.22", "Models", "CodeBERT", "CodeT5", "UniXcoder", "OSCAR", "IRGen", "FAIR"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 298.56,
+    "y2": 326.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608136-Table5-1.png"
+}, {
+  "caption": "Figure 1: The procedure of building input representation of the FAIR model.",
+  "captionBoundary": {
+    "x1": 151.6929931640625,
+    "x2": 460.2935791015625,
+    "y1": 249.40835571289062,
+    "y2": 255.03900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Adding", "call", "graph", "to", "DFG.", "call.return", "call.arg", "call.arg", "…", "…", "…", "DFG", "of", "function", "@main", "DFG", "of", "function", "@f", "%sum", "%m", "%x", "%j", "%i", "%call", "(c)", "Simplifying", "DFG", "and", "adding", "flow", "type.", "simplify", "icmp.slt.2icmp.slt.1", "%cmp", "%m", "%x", "%m", "%x", "%cmp", "=", "icmp", "slt", "i32", "%m,", "%x", "(b)", "Adding", "flow", "type", "and", "call", "graph", "to", "CFG.", "call.return", "call.func", "if.end", "…", "entry", "CFG", "of", "function", "@main", "CFG", "of", "function", "@f", "br.F", "br.T", "if.end4", "for.end", "for.inc", "if.then", "for.body4", "for.body", "entry", "(a)", "An", "example", "of", "IR", "program."],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 541.4399999999999,
+    "y1": 86.39999999999999,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608136-Figure1-1.png"
+}]

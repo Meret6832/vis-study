@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 1: Fine-grained evaluation of CodeT5 across various readability in the code summarization task. The seven dimensions represent seven obfuscated datasets derived from existing benchmarks. The values presented in the figure correspond to the percentage of results obtained from each perturbed dataset relative to the results from the original benchmark. This figure allows us to quantify how changes in code readability affect the performance of CodeT5.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8104858398438,
+    "y1": 500.1681213378906,
+    "y2": 582.511962890625
+  },
+  "figType": "Figure",
+  "imageText": ["Python", "Go", "Java", "Freq-Var", "Injected", "Dead", "branch", "Injected", "Func-name", "Eroded", "Operator", "Swap", "Identifier", "Shuffled", "Identifier", "Replaced", "Identifier", "Eroded"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 363.84,
+    "y2": 481.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Figure1-1.png"
+}, {
+  "caption": "Table 3: Hyperparameters of baseline models.",
+  "captionBoundary": {
+    "x1": 81.19999694824219,
+    "x2": 266.3388671875,
+    "y1": 383.2753601074219,
+    "y2": 388.906005859375
+  },
+  "figType": "Table",
+  "imageText": ["Transformer", "layers", "12", "24", "32", "Max", "seq", "length", "512", "512", "2048", "Embedding", "size", "768", "768", "4096", "Attention", "head", "12", "12", "32", "Vocabulary", "size", "50,265", "32,100", "32,000", "#", "of", "parameters", "125M", "220M", "7B", "CodeBERT", "CodeT5", "CodeLlama"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 403.68,
+    "y2": 491.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Table3-1.png"
+}, {
+  "caption": "Table 7: Comparison of different benchmarks on the code summarization task. The capability refers to the ability of the model to capture semantics or syntax from code.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1782836914062,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["√", "√", "√", "×", "×", "PoorCodeSumEval", "√", "√", "√", "√", "√", "√", "×", "√", "×", "×", "XLCoST", "[46]", "√", "×", "√", "×", "×", "CodeXGLUE", "[23]", "Benchmark", "Multilingual", "Multiple", "Datasets", "Evaluation", "Aspects", "Performance", "Capability", "Robustness", "TL-CodeSum", "[13]", "×", "×", "√", "×", "×", "DeepCom", "[12]", "×", "×", "√", "×", "×", "CodeSearchNet", "[14]"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 506.4,
+    "y1": 116.64,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Table7-1.png"
+}, {
+  "caption": "Table 4: Evaluation results on the obfuscated datasets (BL=BLEU, BS=BERTScore). The values in italic indicate nonsignificant decrease (p>0.05)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1820678710938,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["*p-value", "is", "calculated", "with", "pairwise", "2-sample", "Wilcoxon", "Signed", "rank", "test", "between", "the", "primary", "and", "each", "perturbed", "dataset.", "Syntactic", "Perturb.", "OOS", "17.94", "29.63", "17.79", "40.14", "18.61", "31.90", "19.34", "33.43", "19.71", "43.27", "20.68", "35.45", "22.08", "38.86", "12.77", "26.29", "15.08", "33.70", "HVI", "17.53", "28.69", "17.75", "40.08", "18.15", "30.99", "19.32", "33.19", "19.62", "43.00", "20.65", "35.25", "21.69", "38.53", "12.88", "26.46", "15.22", "33.67", "DBI", "17.34", "28.27", "17.87", "40.40", "18.26", "31.41", "18.77", "31.61", "19.15", "42.51", "20.25", "34.87", "21.69", "38.49", "12.95", "26.28", "14.95", "33.06", "Semantic", "Perturb.", "IOE", "13.89", "19.52", "11.02", "16.26", "13.85", "21.53", "15.23", "22.05", "16.90", "37.09", "14.18", "20.90", "11.15", "13.27", "12.75", "26.26", "13.34", "29.40", "IS", "14.70", "22.82", "13.07", "23.28", "15.42", "25.50", "16.50", "26.97", "17.87", "37.64", "15.88", "26.51", "17.30", "30.03", "12.40", "25.54", "13.95", "31.43", "IHR", "12.54", "17.53", "12.10", "22.38", "12.84", "19.61", "15.84", "25.03", "16.96", "36.26", "14.82", "24.65", "11.86", "20.02", "11.85", "24.01", "12.63", "27.85", "FNE", "14.74", "22.63", "12.95", "21.48", "15.40", "25.17", "17.05", "26.99", "16.19", "35.37", "15.72", "22.60", "18.54", "31.78", "12.42", "25.18", "14.17", "31.28", "Primary", "17.95", "29.64", "17.78", "40.11", "18.62", "31.92", "20.38", "34.41", "19.67", "43.18", "20.66", "35.35", "22.03", "38.91", "12.78", "26.30", "15.11", "33.68", "Python", "Go", "Java", "Python", "Go", "Java", "Python", "Go", "Java", "BL", "BS", "BL", "BS", "BL", "BS", "BL", "BS", "BL", "BS", "BL", "BS", "BL", "BS", "BL", "BS", "BL", "BS", "Dataset", "CodeBERT", "CodeT5", "CodeLlama"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 116.64,
+    "y2": 294.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Table4-1.png"
+}, {
+  "caption": "Table 5: The decrease of BLEU scores with their relative percentage for each robustness aspect.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6395568847656,
+    "y1": 312.1953430175781,
+    "y2": 328.7850036621094
+  },
+  "figType": "Table",
+  "imageText": ["Java", "CodeBERT", "4.24/22.77%", "0.28/1.50%", "4.52/24.27%", "CodeT5", "5.51/26.67%", "0.13/0.63%", "5.64/27.30%", "CodeLlama", "1.59/10.52%", "0.03/0.20%", "1.62/10.72%", "Go", "CodeBERT", "5.49/30.88%", "-0.02/-0.11%", "5.47/30.76%", "CodeT5", "2.69/13.68%", "0.18/0.92%", "2.87/14.59%", "CodeLlama", "0.42/3.29%", "-0.09/-0.70%", "0.33/2.58%", "Py", "CodeBERT", "3.98/22.17%", "0.35/1.95%", "4.33/24.12%", "CodeT5", "4.22/20.71%", "1.24/6.08%", "5.46/26.79%", "CodeLlama", "7.32/33.23%", "0.21/0.95%", "7.53/34.18%", "Lang", "Model", "Semantic", "Syntactic", "Overall"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 291.36,
+    "y1": 343.68,
+    "y2": 473.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Table5-1.png"
+}, {
+  "caption": "Table 6: BLEU scores on the cross-obfuscated datasets. The semantic perturbation chooses the one with the greatest impact on the model in each programming language. The values in italic indicate nonsignificant decrease (p>0.05)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1839599609375,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["*p-value", "is", "calculated", "with", "pairwise", "2-sample", "Wilcoxon", "Signed", "rank", "test", "between", "the", "primary", "and", "each", "perturbed", "dataset.", "Cross", "Perturb.", "Semantic", "×", "OOS", "12.52", "10.93", "12.87", "14.21", "16.25", "14.34", "11.07", "11.64", "12.50", "Semantic", "×", "HVI", "11.57", "10.81", "12.16", "13.75", "15.75", "13.58", "8.85", "11.82", "12.51", "Semantic", "×", "DBI", "11.49", "10.74", "12.13", "12.70", "14.58", "13.31", "8.15", "11.41", "12.07", "average", "11.83", "10.83", "12.39", "13.55", "15.53", "13.74", "9.36", "11.62", "12.36", "Semantic", "Perturb.", "IHR", "IOE", "IHR", "IOE", "FNE", "IOE", "IOE", "IHR", "IHR", "primary", "12.54", "11.02", "12.84", "15.23", "16.19", "14.18", "11.15", "11.85", "12.63", "Dataset", "CodeBERT", "CodeT5", "CodeLlama", "Python", "Go", "Java", "Python", "Go", "Java", "Python", "Go", "Java"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 528.48,
+    "y1": 116.64,
+    "y2": 240.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Table6-1.png"
+}, {
+  "caption": "Table 1: Code summarization performance of GPT-4o on codes with different readability.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0330810546875,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["low-readability", "3.44", "6.32", "18.25", "high-readability", "4.28", "8.12", "19.78", "p-value*", "<0.0001", "<0.01", "<0.04", "(0.0383)", "Group", "Readability", "BLEU", "BERTScore"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 283.2,
+    "y1": 116.64,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Table1-1.png"
+}, {
+  "caption": "Table 2: Number of test functions on the original dataset in terms of different languages.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1885375976562,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Python", "14,918", "Go", "8,122", "CodeSearchNet", "Java", "10,955", "DeepCom", "Java", "58,811", "TL-CodeSum", "Java", "8,714", "Dataset", "Language", "#", "of", "Functions"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 344.64,
+    "x2": 529.4399999999999,
+    "y1": 116.64,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Table2-1.png"
+}, {
+  "caption": "Figure 4: The proposed evaluation workflow of PoorCodeSumEval, the solid blue arrow indicates the corresponding evaluation of the model and the dashed green arrow indicates the transmission of evaluation results.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7993774414062,
+    "y1": 270.2033386230469,
+    "y2": 308.71099853515625
+  },
+  "figType": "Figure",
+  "imageText": ["Robustness", "Analysis", "&", "Fine-grained", "Analysis", "Cross", "Evaluation", "Code", "LM", "HVI", "OOS", "DBI", "IHR", "IRS", "Syntactic", "Evaluation", "FNE", "IOE", "Semantic", "Evaluation"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 343.68,
+    "x2": 531.36,
+    "y1": 86.39999999999999,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Summaries generated by CodeT5 with and without FNE perturbation.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0379943847656,
+    "y1": 610.5303344726562,
+    "y2": 627.1199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "A", "case", "in", "Java.", "Summary:", "Convert", "an", "int", "to", "an", "array", "of", "4", "bytes", ".", "FNE", "answer:", "V0", "byte", "array", ".", "Original", "answer:", "Convert", "an", "int", "to", "a", "byte", "array", ".", "}", "b[3-i]", "=", "(byte)((v", "&", "(allbits", "<<", "i", "*", "8))", ">>", "i", "*", "8);", "}", "return", "b;", "static", "public", "byte[]", "intToBytes(int", "v)", "{", "byte[]", "b", "=", "new", "byte[4];", "int", "allbits", "=", "255;", "for", "(int", "i", "=", "0;", "i", "<", "4;", "i++)", "{", "Code:", "(b)", "A", "case", "in", "Go.", "Summary:", "NewResource", "creates", "a", "new", "Boskos", "Resource", ".", "FNE", "answer:", "v0", "is", "the", "version", "of", "Resource", ".", "Original", "answer:", "NewResource", "creates", "a", "new", "resource", "}", "}", "return", "Resource{", "Name:", "name,", "Type:", "rtype,", "State:", "state,", "Owner:", "owner,", "LastUpdate:", "t,", "UserData:", "&UserData{},", "func", "NewResource(name,rtype,state,owner", "string,t", "time.Time)", "Resource", "{", "Code:", "(a)", "A", "case", "in", "Python.", "Summary:", "Get", "a", "pandas", "dataframe", "from", "a", "sql", "query", ".", "FNE", "answer:", "Execute", "the", "given", "SQL", "query", ".", "Original", "answer:", "Get", "a", "pandas", "DataFrame", "from", "the", "database", ".", "else:", "df", "=", "pandas.DataFrame()", "return", "df", "cursor.execute(self._strip_sql(hql),", "parameters)", "data", "=", "cursor.fetchall()", "if", "data:", "df", "=", "pandas.DataFrame(data)", "df.columns", "=", "[c[0]", "for", "c", "in", "column_descriptions]", "def", "get_pandas_df(self,", "hql,", "parameters=None):", "import", "pandas", "cursor", "=", "self.get_cursor()", "Code:"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 287.52,
+    "y1": 89.75999999999999,
+    "y2": 591.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Figure3-1.png"
+}, {
+  "caption": "Figure 2: Illustration of the seven perturbation rules. The perturbed parts are marked in green",
+  "captionBoundary": {
+    "x1": 115.25900268554688,
+    "x2": 496.7261962890625,
+    "y1": 306.6513671875,
+    "y2": 312.2820129394531
+  },
+  "figType": "Figure",
+  "imageText": ["(h)", "Dead", "Branch", "Injection", "1", "int", "findMaxByFor(int[]", "arr)", "{", "2", "if", "(false)", "{", "3", "return", "Math.sin(Math.PI*x)/(Math.PI*x);", "4", "}", "else", "{", "5", "int", "max", "=", "0;", "6", "…", "7", "return", "max;", "8", "}", "9", "}", "(g)", "High-frequency", "Variable", "Injection", "1", "int", "findMaxByFor(int[]", "arr)", "{", "2", "int", "max", "=", "0;", "3", "int", "i", "=", "2;", "4", "int", "result", "=", "0;", "5", "int", "value", "=", "0;", "6", "for", "(int", "item", ":", "arr)", "{", "7", "…}", "8", "return", "max;", "9", "}", "(f)", "Operators", "&", "Operands", "Swap", "1", "int", "findMaxByFor(int[]", "arr)", "{", "2", "int", "max", "=", "0;", "3", "for", "(int", "item", ":", "arr)", "{", "4", "if", "(max", "<", "item)", "{", "5", "max", "=", "item;", "6", "}", "7", "}", "8", "return", "max;", "9", "}", "(e)", "Function", "Name", "Erosion", "1", "int", "v0(int[]", "arr)", "{", "2", "int", "max", "=", "0;", "3", "for", "(int", "item", ":", "arr)", "{", "4", "if", "(item", ">", "max)", "{", "5", "max", "=", "item;", "6", "}", "7", "}", "8", "return", "max;", "9", "}", "(d)", "Identifier", "Shuffling", "1", "int", "arr(int[]", "max)", "{", "2", "int", "item", "=", "0;", "3", "for", "(int", "findMaxByFor:max){", "4", "if", "(findMaxByFor>item){", "5", "item", "=", "findMaxByFor;", "6", "}", "7", "}", "8", "return", "item;", "9", "}", "(c)", "Identifier", "High-frequency", "Replace-", "ment", "1", "int", "value(int[]", "i)", "{", "2", "int", "name", "=", "0;", "3", "for", "(int", "result", ":", "i)", "{", "4", "if", "(result", ">", "name)", "{", "5", "name", "=", "result;", "6", "}", "7", "}", "8", "return", "name;", "9", "}", "(b)", "Identifier", "Ordered", "Erosion", "1", "int", "v0(int[]", "v1)", "{", "2", "int", "v2", "=", "0;", "3", "for", "(int", "v3", ":", "v1)", "{", "4", "if", "(v3", ">", "v2)", "{", "5", "v2", "=", "v3;", "6", "}", "7", "}", "8", "return", "v2;", "9", "}", "(a)", "Original", "Code", "1", "int", "findMaxByFor(int[]", "arr)", "{", "2", "int", "max", "=", "0;", "3", "for", "(int", "item", ":", "arr)", "{", "4", "if", "(item", ">", "max)", "{", "5", "max", "=", "item;", "6", "}", "7", "}", "8", "return", "max;", "9", "}"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 548.64,
+    "y1": 94.08,
+    "y2": 287.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695072-Figure2-1.png"
+}]

@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 9: The refactored and repaired programs.",
+  "captionBoundary": {
+    "x1": 76.93199920654297,
+    "x2": 270.9113464355469,
+    "y1": 442.0751037597656,
+    "y2": 446.3699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["return", "seq", "seq.insert(i,", "x)", "else:", "seq", "+=", "(x,)", "if", "i==len(seq):", "pass", "i", "+=", "1", "if", "True:", "and", "x<seq[i]:", "i", "=", "0", "while", "i<len(seq)", "def", "search(x,", "seq):", "return", "len(seq)", "pass", "else:", "pass", "i", "+=", "1", "if", "True:", "return", "i", "if", "x", "<=", "seq[i]:", "i", "=", "0", "while", "i<len(seq):", "def", "search(x,", "seq):", "return", "len(seq)", "seq.insert(i,", "x)", "else:", "pass", "if", "i==len(seq):", "i", "+=", "1", "return", "i", "if", "x", "<=", "seq[i]:", "i", "=", "0", "while", "i<len(seq):", "def", "search(x,", "seq):", "(c)", "!", "!", "(b)", "!", "!\"", "10", "11", "1", "2", "3", "4", "5", "6", "7", "8", "9", "(a)", "!", "!!", "17", "if", "type(G)", "is", "Branch-Node", "then", "18", "N", "←", "getMatchFromBy(M,", "children(G));", "19", "move(N,", "~=", ",", "0)", ";", "//", "Rule", "'", "20", "if", "label(~=)", "is", "ELSE", "and", "N", "is", "not", "None", "then", "21", "conditionalNegation(~?)", ";", "//", "Rule", "'", "2", "22", "return", "T2", ";", "context", "of", "G", ",", "infer", "where", "~=", "should", "be", "inserted", ";", "//", "Rule", "'", "10", "procedure", "Refactor(T1", ",", "T2", ",M)", "11", "!←", "preorderTraversal(T1);", "⊲", "Get", "control-", "ow", "sequence", "of", "T1", ";", "12", "foreach", "G", "∈", "!", "do", "13", "if", "G", "is", "matched", "inM", "then", "continue;", "14", "~?", "←", "getMatchFromBy(M,", "parent(G));", "15", "~=", "←", "newNode(type(G)),M.add(pair(G", ",", "~=));", "16", "add(~=", ",", "~?", ",", "positionInfer(G))", "⊲", "Based", "on", "the", "index", "and"],
+  "name": "9",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 194.88,
+    "y2": 426.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure9-1.png"
+}, {
+  "caption": "Figure 1: Motivation example of real student submissions.",
+  "captionBoundary": {
+    "x1": 320.739990234375,
+    "x2": 555.418212890625,
+    "y1": 274.5890808105469,
+    "y2": 278.88397216796875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "continue", "11", "return", "len(seq)", "1", "def", "search(x,", "seq):", "2", "for", "i,elem", "in", "enumerate(seq):", "3", "if", "seq", "==", "False:", "4", "return", "0", "5", "elif", "x", "<=", "elem:", "6", "return", "i", "7", "elif", "i", "==", "(len(seq)-1):", "8", "return", "i+1", "9", "else:", "return", "len(seq)", "return", "i", "elif", "elem", ">", "x:", "return", "i", "if", "elem", "==", "x:", "return", "0", "if", "seq", "==", "False:", "for", "i,elem", "in", "enumerate(seq):", "def", "search(x,", "seq):", "1", "def", "search(x,", "seq):", "2", "for", "i,elem", "in", "enumerate(seq):", "3", "if", "elem", "<", "x:", "4", "continue", "5", "if", "elem", "==", "x:", "6", "return", "i", "7", "elif", "elem", ">", "x:", "8", "return", "i", "9", "return", "len(seq)", "10", "continue", "1", "def", "search(x,", "seq):", "2", "for", "i,elem", "in", "enumerate(seq):", "3", "if", "seq", "==", "False:", "4", "return", "0", "5", "elif", "x", "<=", "elem:", "6", "return", "i", "7", "elif", "i", "==", "(len(seq)-1):", "8", "return", "i+1", "9", "else:", "10", "11", "1", "2", "3", "4", "5", "6", "7", "8", "9", "(c)", "Refactroy’s", "repair", "result.", "(d)", "BRAFAR’s", "repair", "result.", "(a)", "A", "buggy", "program.", "(b)", "A", "reference", "program.", "10", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 558.72,
+    "y1": 83.52,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure1-1.png"
+}, {
+  "caption": "Table 1: Comparison of Brafar against the most related feedback generation approaches.",
+  "captionBoundary": {
+    "x1": 53.50190734863281,
+    "x2": 294.0449523925781,
+    "y1": 87.06227111816406,
+    "y2": 102.316162109375
+  },
+  "figType": "Table",
+  "imageText": ["Brafar", "!", "!", "!", "!", "Clara", "[13]", "%", "%", "%", "%", "Sarfgen", "[38]", "%", "%", "!", "!", "Refactory", "[16]", "!", "%", "!", "%", "Minimal", "Block", "Repair", "Minimal", "Repair", "Repair", "Minimal", "Control-", "ow", "Repair", "Approach", "Control-", "ow"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 116.64,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Table1-1.png"
+}, {
+  "caption": "Table 4: Repairing results of ChatGPT 4.0 in repair rate (RR) and relative patch size (RPS) for the three types of queries.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.7654418945312,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Overall", "58.2%", "0.39", "85.0%", "0.49", "87.6%", "0.66", "98.5%", "0.28", "1", "57.9%", "0.39", "89.0%", "0.51", "91.7%", "0.56", "99.8%", "0.28", "2", "65.7%", "0.51", "79.8%", "0.59", "94.7%", "0.71", "94.0%", "0.31", "3", "62.3%", "0.33", "78.6%", "0.40", "94.5%", "0.55", "100.0%", "0.29", "4", "37.8%", "0.22", "88.8%", "0.40", "65.8%", "0.96", "100.0%", "0.24", "5", "84.3%", "0.39", "89.8%", "0.50", "89.8%", "0.50", "100.0%", "0.22", "RR1", "RPS1", "RR2", "RPS2", "RR3", "RPS3", "RR", "RPS", "ID", "Type", "I", "Type", "II", "Type", "III", "Brafar"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Table4-1.png"
+}, {
+  "caption": "Table 2: The types and labels of control-flow structure nodes",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2021484375,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "def", "search(x,", "seq):", "2", "i", "=", "0", "3", "while", "i<len(seq):", "4", "if", "x", "<=", "seq[i]:", "5", "return", "i", "6", "i", "+=", "1", "7", "return", "len(seq)", "return", "seq", "seq.insert(i,", "x)", "else:", "seq", "+=", "(x,)", "if", "i==len(seq):", "i", "+=", "1", "i", "=", "0", "while", "i<len(seq)", "and", "x<seq[i]:", "def", "search(x,", "seq):", "(a)", "A", "buggy", "program", "!!", ".", "(b)", "A", "correct", "program", "!\".", "1", "2", "3", "4", "5", "6", "7", "8", "9", "Nodes", "represent", "the", "branches", "of", "the", "IfStatement.", "\"T\"", "for", "\"ThenBranch\";", "\"E\"", "for", "\"ElseBranch\".", "Branch", "Node", "Control-", "ow", "Node", "Nodes", "represent", "the", "control", "statements", "of", "the", "program.", "\"F\"", "for", "\"ForStatement\";", "\"W\"", "for", "\"WhileStatement\";", "\"If\"", "for", "\"IfStatement\".", "Nodes", "represent", "the", "entry", "of", "the", "methods", "under", "considera-", "tion.", "They", "are", "the", "root", "nodes", "of", "the", "control-", "ow", "structures.", "\"M\"", "for", "\"MethodEntry\".", "Method", "Entry", "Type", "Description", "Label"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 308.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Table2-1.png"
+}, {
+  "caption": "Figure 2: Overview of our approach.",
+  "captionBoundary": {
+    "x1": 101.29000091552734,
+    "x2": 246.5546875,
+    "y1": 193.30409240722656,
+    "y2": 197.5989990234375
+  },
+  "figType": "Figure",
+  "imageText": ["N", "Y", "Structure", "Matching", "#$", "#%#&", "…", "Test", "cases", "#", "BRAFAR", "Repaired", "program", "Closest", "correct", "program", "\"\"\"", "\"\"#", "…", "\"#", "Locator", "Repairer", "Aligner", "Fault", "program", "Buggy", "\"\"!", "Bidirectional", "Refactoring", "\"\"", "\"!", "Searcher", "Component", "Correct", "programs", "!"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 285.12,
+    "y1": 82.56,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Real student submissions.",
+  "captionBoundary": {
+    "x1": 366.7239990234375,
+    "x2": 509.433349609375,
+    "y1": 323.7861022949219,
+    "y2": 328.08099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["%", "\"#", "$", "!", "%", "&", "\"#$", "!"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 512.16,
+    "y1": 343.68,
+    "y2": 400.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure3-1.png"
+}, {
+  "caption": "Table 3: Overall results on ve IPAs: The repair rate (RR), average repair time (Time), and relative patch size (RPS). The column \"%Match\" gives the percentage of incorrect programs for which correct programs with matching CFSs are found.",
+  "captionBoundary": {
+    "x1": 53.50190734863281,
+    "x2": 558.202392578125,
+    "y1": 87.06227111816406,
+    "y2": 102.316162109375
+  },
+  "figType": "Table",
+  "imageText": ["Overall", "27", "2442", "1783", "45", "64.5%", "98.5%", "0.35s", "0.28", "89.7%", "3.38s", "0.37", "69.5%", "0.49s", "0.41", "1", "Sequential", "search", "26", "768", "575", "11", "80.0%", "99.8%", "0.38s", "0.28", "99.3%", "1.43s", "0.40", "81.2%", "0.36s", "0.31", "2", "Unique", "dates/months", "24", "291", "435", "17", "33.3%", "94.0%", "0.43s", "0.31", "78.4%", "2.49s", "0.47", "41.8%", "1.67s", "0.33", "3", "Duplicate", "elimination", "37", "546", "308", "6", "87.3%", "100.0%", "0.25s", "0.29", "97.4%", "3.35s", "0.32", "88.6%", "0.16s", "0.44", "4", "Sorting", "tuples", "34", "419", "357", "6", "52.9%", "100.0%", "0.33s", "0.24", "82.6%", "5.95s", "0.27", "62.5%", "0.31s", "0.60", "5", "Top-k", "elements", "18", "418", "108", "5", "80.6%", "100.0%", "0.28s", "0.22", "85.1%", "10.58s", "0.26", "88.0%", "0.22s", "0.48", "RR", "Time", "RPS", "RR", "Time", "RPS", "RR", "Time", "RPS", "ID", "Description", "LOC", "#Correct", "#Incorrect", "#Test", "%Match", "Brafar", "Refactory", "Clara"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Table3-1.png"
+}, {
+  "caption": "Figure 10: Relative Patch Size Comparison.",
+  "captionBoundary": {
+    "x1": 351.4988098144531,
+    "x2": 524.65771484375,
+    "y1": 332.0002136230469,
+    "y2": 336.29510498046875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "KDE", "plot", "of", "relative", "patch", "size.", "Brafar", "Refactory", "Clara", "ity", "De", "ns", "2.0", "1.5", "1.0", "0.5", "0.0", "0.0", "0.3", "1.0", "1.5", "2.0", "2.5", "Relative", "Patch", "Size", "(a)", "Histogram", "of", "relative", "patch", "size.", "Brafar", "Refactory", "Clara", "[0.0,0.1)", "[1.0,+∞)[0.1,0.2)", "[0.3,0.4", ")", "[0.4,0.5)[0.5,0.6)[0.6,0.7", ")", "[0.7,0.8)[0.8,0.9)[0.9,1.0)[0.2,0.3)", "Relative", "Patch", "Size", "500", "400", "300", "200", "100", "m", "s", "ro", "g", "ra", "b", "e", "r", "o", "f", "P", "N", "u", "m"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 555.36,
+    "y1": 235.67999999999998,
+    "y2": 311.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure10-1.png"
+}, {
+  "caption": "Figure 5: List of refactoring rules.",
+  "captionBoundary": {
+    "x1": 106.18099975585938,
+    "x2": 241.6632080078125,
+    "y1": 256.4841003417969,
+    "y2": 260.77899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "'", "2", "Block", "B", "if", "False", "then", "pass", "else", "(b)", "'", "1", "Block", "B", "if", "True", "then", "(a)", "Block", "B", "Category", "C.", "Introduce", "new", "guard", "(b)", "Block", "B1", "else", "Block", "B2", "if", "not", "C", "then", "(a)", "Block", "B2", "else", "Block", "B1", "if", "Condition", "C", "then", "Category", "B.", "Exchange", "branches", "of", "conditional", "(c)", "'", "3", "Empty", "Block", "B", "for", "i", "in", "range(0)", "do", "(b)", "'", "2", "Break", "while", "True", "do", "(a)", "'", "1", "Empty", "Block", "B", "if", "True", "then", "Category", "A.", "Introduce", "new", "control-", "ow", "node."],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 278.88,
+    "y1": 83.52,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure5-1.png"
+}, {
+  "caption": "Figure 6: An example of the longest, but illegal, match.",
+  "captionBoundary": {
+    "x1": 327.3349914550781,
+    "x2": 548.8233642578125,
+    "y1": 146.53810119628906,
+    "y2": 150.8330078125
+  },
+  "figType": "Figure",
+  "imageText": ["Y", "X", "t1", "t2", "\"", "#$", "!", "#$", "\"", "!", "!", "\"", "#$", "!", "\"", "#$"],
+  "name": "6",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 342.24,
+    "x2": 534.24,
+    "y1": 83.52,
+    "y2": 131.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure6-1.png"
+}, {
+  "caption": "Figure 12: Bidirectional Refactoring vs. Structure Mutation.",
+  "captionBoundary": {
+    "x1": 317.95501708984375,
+    "x2": 558.2003784179688,
+    "y1": 301.8653869628906,
+    "y2": 306.1602783203125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Average", "control-", "ow", "edit", "distance", "with", "the", "increase", "of", "control-", "ow", "nodes.", "Refactory", "an", "ce", "Brafar", "Di", "st", "Ed", "it", "ag", "e", "Av", "er", "10.0", "7.5", "5.0", "2.5", "0.0", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10121317", "Control-flow", "Structure", "Nodes", "(a)", "Distribution", "of", "average", "control-", "ow", "edit", "distances", "in", "incorrect", "methods.", "0", "1", "2", "3", "5", "6", "7", "8", "9", "104", "Brafar", "Refactory", "Average", "Control-flow", "Edit", "Distance", "0", "100", "75", "50", "25", "o", "d", "s", "M", "e", "th", "o", "f", "b", "e", "r", "N", "u", "m"],
+  "name": "12",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 554.88,
+    "y1": 201.6,
+    "y2": 281.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure12-1.png"
+}, {
+  "caption": "Figure 11: Bidirectional Refactoring vs. Refactoring.",
+  "captionBoundary": {
+    "x1": 332.76898193359375,
+    "x2": 543.3892822265625,
+    "y1": 183.1339874267578,
+    "y2": 187.42889404296875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Average", "time", "taken", "per", "method.", "Brafar", "Refactory", "0.1", "8.8", "(s", ")", "11.6", "ke", "n", "e", "Ta", "Ti", "m", "15.0", "10.0", "5.0", "0.0", "0", "1", "2", "3", "4", "5", "6", "7", "8", "910", "1213", "17", "Control-flow", "Structure", "Nodes", "(a)", "Average", "success", "rate", "per", "method.", "39.6", "Brafar", "Refactory", "68.4", "(%", ")", "100.00", "at", "e", "es", "s", "R", "Su", "cc", "100", "75", "50", "25", "0", "0", "1", "2", "3", "4", "5", "6", "7", "8", "910", "1213", "17", "Control-flow", "Structure", "Nodes"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 323.52,
+    "x2": 552.0,
+    "y1": 88.8,
+    "y2": 162.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure11-1.png"
+}, {
+  "caption": "Figure 8: An example of a legal match.",
+  "captionBoundary": {
+    "x1": 360.4209899902344,
+    "x2": 515.737060546875,
+    "y1": 141.8161163330078,
+    "y2": 146.11102294921875
+  },
+  "figType": "Figure",
+  "imageText": ["$", "%", "%", "$", "Y", "X", "!\"", "#", "!\"", "#", "%", "$", "t1", "#", "!\"", "%", "$", "t2", "#", "!\""],
+  "name": "8",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 537.12,
+    "y1": 83.52,
+    "y2": 127.19999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Illegal match between two CFSs.",
+  "captionBoundary": {
+    "x1": 89.9070053100586,
+    "x2": 257.9376220703125,
+    "y1": 229.4037628173828,
+    "y2": 233.69866943359375
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Rule", "4:", "Illegal", "match.", "%", "\"", "%", "!", "%", "\"", "t1", "t2", "&", "%", "!", "!", "$", "\"#", "!", "(c)", "Rule", "3:", "Illegal", "match.", "t2", "!", "t1", "\"#", "$%", "\"#", "$", "!", "(b)", "Rule", "2:", "Illegal", "match.", "t2!\"", "\"", "#", "\"", "#", "!", "!\"", "#", "t1", "!\"", "!", "(a)", "Rule", "1:", "Illegal", "match.", "t1", "t2", "\"#", "\"", "\"#", "!", "$", "\"#", "\"", "\"#", "!", "!"],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 270.24,
+    "y1": 87.84,
+    "y2": 208.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680326-Figure7-1.png"
+}]

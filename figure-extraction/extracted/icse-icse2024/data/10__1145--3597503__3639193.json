@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 2: After a user labels positive and negative instances, SURF infers an initial pattern, computes the global distribution, and presents a collated feature summary. By leveraging feature-level guidance from SURF, the user chooses a specific feature and SURF constructs a new pattern using Algorithm 1. Users can alternate Phase 1 and Phase 2 to iterate instancelevel and feature-level feedback.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 559.8005981445312,
+    "y1": 245.43032836914062,
+    "y2": 316.8139953613281
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Figure2-1.png"
+}, {
+  "caption": "Table 1: Each task is motivated by a known common weakness enumeration (CWE). Task A is to find code snippets with proper Cipher usage and error handling. In CWE-311, NIST determined that Cipher transformations using ”AES/GCM/NoPadding” can avoid CVE-2016-2183. Task B is to find bugs similar to CWE-330, where the Spring framework had a vulnerability due to incorrect initialization of random values (CVE-2019-3795). For each task, a few positive and negative instances are provided to bootstrap an initial pattern. A user is not shown the target pattern and their task is to refine the initial pattern to fit the given natural language description (Table 2).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.3668212890625,
+    "y1": 85.72634887695312,
+    "y2": 146.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["B.", "Seeding", "SecureRandom", "2", "positive,", "7", "negative", "instances", "SecureRandom.setSeed(", "with", "the", "current", "time", "and", "CWE-330", "that", "enable", "inference", "of", "System.currentTimeMillis())", "using", "it", "as", "a", "source", "of", "e.g.,", "CVE-2019-3795", "SecureRandom.setSeed(", "used", "with", "randomness", "for", "generating", "keys", "System.currentTimeMillis())", "KeyPairGenerator.generateKeyPair()", "“AES/GCM/NoPadding”)", "Description", "CWE", "Initial", "labelled", "instances", "Target", "pattern", "A.", "Cipher", "usage", "with", "a", "4", "positive,", "4", "negative", "instances", "Cipher.getInstance(", "strong", "transformation", "CWE-311", "that", "enable", "inference", "of", "“AES/GCM/NoPadding”)", "with", "and", "appropriate", "error-handling", "e.g.,", "CVE-2016-2183", "Cipher.getInstance(", "catch(NoSuchPaddingException)"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 160.79999999999998,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Table1-1.png"
+}, {
+  "caption": "Table 3: Answering usage-comprehension questions. SURF leads to 30% more correct answers, while requiring 22% less time. On average, participants spent about 8 mins using SURF as opposed to 10 mins using the baseline.",
+  "captionBoundary": {
+    "x1": 317.65875244140625,
+    "x2": 558.4161987304688,
+    "y1": 335.7893371582031,
+    "y2": 374.2959899902344
+  },
+  "figType": "Table",
+  "imageText": ["Q1", "5", "6", "7", "7", "Q2", "4", "5", "6", "3", "Q3", "6", "2", "5", "0", "Q4", "5", "2", "4", "1", "Q5", "3", "2", "5", "2", "#", "correct", "answers", "3.3", "2.4", "3.9", "2.0", "Time", "taken", "(mins)", "9.6", "10.2", "8.2", "11.5", "Task", "A", "Task", "B", "SURF", "Baseline", "SURF", "Baseline"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 388.8,
+    "y2": 491.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Table3-1.png"
+}, {
+  "caption": "Table 2: The code comprehension questions are designed to test the participant’s ability to understand the global distribution of individual features and the resulting matched and unmatched instances in the rest of population. They test, in order of increasing difficulty, the participants ability to (a) understand a single instance, (b) understand the impact of including a specific line as a feature, (c) understand the distribution of API uses, (d) contrast positive and negative instances, or matched and unmatched instance, and (e) assess which unlabelled instances could match (or unmatch) by including a specific feature.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2008666992188,
+    "y1": 85.72634887695312,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Detect", "more", "instances", "with", "exception", "handling", "Detect", "more", "instances", "that", "generate", "a", "key", "using", "the", "similar", "to", "the", "positive", "instances", "but", "not", "the", "negative", "instances", "same", "function", "as", "the", "positive", "instances", "but", "not", "the", "negative", "instances.", "KeyPairGenerator.getInstance()?", "(e)", "Pattern", "Refinement", "Task", "Task", "A", "(Cipher)", "Task", "B", "(SecureRandom", "and", "KeyPairGenerator)", "Questions", "Q1.", "What", "is", "one", "exception", "constructed", "in", "a", "catch", "block", "Q1.", "What", "is", "one", "argument", "of", "SecureRandom.setSeed?", "(a)", "(after", "catching", "another", "exception)?", "(a)", "Q2.", "Which", "negative", "instances", "invoke", "Cipher.init()", "Q2.", "Which", "instances", "invoke", "KeyPairGenerator.getInstance()", "but", "not", "Cipher.updateAAD()?", "(b)", "but", "not", "KeyPairGenerator.generateKeyPair()?", "(b)", "Q3.", "How", "many", "positive", "instances", "Q3.", "How", "many", "instances", "construct", "a", "new", "SecureRandom", "constructed", "a", "new", "SecretKeySpec()?", "(c)", "through", "its", "constructor,", "i.e.,", "new", "SecureRandom(..)?", "(c)", "Q4.", "What", "is", "one", "class", "of", "exception", "caught", "by", "the", "positive", "instances", "Q4.", "Which", "instances", "do", "not", "call", "KeyPairGenerator.getInstance()?", "but", "not", "a", "negative", "instance?", "(d)", "(d)", "Q5.", "Which", "unlabelled", "instances", "catch", "NoSuchPaddingException?", "(e)", "Q5.", "How", "many", "unlabelled", "instances", "call"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 581.28,
+    "y1": 149.76,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Table2-1.png"
+}, {
+  "caption": "Figure 4: A○ All features are overlaid with one another under a single code skeleton view. A method invocation such as Cipher.getInstance() is a feature. The features are structurally grouped, with each group distinguished from another by a different background color. B○ Each code line feature 𝑓 has support (S) how many instances include 𝑓 and information gain (I) —how well 𝑓 separates already labelled positive and negative instances. These scores guide a user to grasp the distribution of individual features in the entire population. C○ A user can click on each feature’s check box to include it in the pattern.",
+  "captionBoundary": {
+    "x1": 53.79764175415039,
+    "x2": 295.6424255371094,
+    "y1": 272.7723693847656,
+    "y2": 387.99200439453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 306.24,
+    "y1": 82.56,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Figure4-1.png"
+}, {
+  "caption": "Table 4: 79% of participants using SURFmanaged to construct the correct pattern, whereas only 43% of those using the baseline achieved the same result. Each participant’s pattern was compared against a ground-truth pattern after each study.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64361572265625,
+    "y1": 85.72634887695312,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Comparison", "of", "Mean", "Confidence", "and", "Ease", "Scores", "Baseline", "SURF", "e", "Sc", "or", "7", "6", "5", "4", "3", "2", "1", "Confidence", "Ease", "of", "Use", "#", "participants", "with", "correct", "6/7", "4/7", "5/7", "2/7", "patterns", "(86%)", "(57%)", "(71%)", "(29%)", "Task", "A", "Task", "B", "SURF", "Baseline", "SURF", "Baseline"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.36,
+    "x2": 285.12,
+    "y1": 138.72,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Table4-1.png"
+}, {
+  "caption": "Figure 7: The participants reported a higher confidence score when using SURF (with a median of 5.6) than the baseline (with a median of 2.9). The participants rated SURF (median of 6) to be easier to use than the baseline (median of 4).",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 294.04345703125,
+    "y1": 382.4483642578125,
+    "y2": 420.95501708984375
+  },
+  "figType": "Figure",
+  "imageText": ["Overall,", "SURF", "helped", "the", "participants", "better", "understand", "the", "API", "usage", "distribution.", "Participants", "using", "SURF", "cor-", "rectly", "answered", "30%", "more", "usage", "distribution", "questions."],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 438.71999999999997,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Figure7-1.png"
+}, {
+  "caption": "Figure 5: Impact Analysis. Clicking on each feature shows how the feature is distributed among already labelled positive and negative instances, and would match additional instances in the population. Including feature Cipher.updateAAD causes over-specialization, and will no longer match a positive instance, i.e., Example 1006.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63671875,
+    "y1": 427.60736083984375,
+    "y2": 488.0320129394531
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 307.2,
+    "y1": 82.56,
+    "y2": 414.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Figure5-1.png"
+}, {
+  "caption": "Figure 6: What-If Analysis. Users can contrast the impact of two feature choices 𝑓 1 updateAAD and 𝑓 2 Cipher.getInstance(“AES/GCM/NoPadding.” SURF explains no additional match will be found by choosing 𝑓 1 over 𝑓 2, while one additional match can be found with 𝑓 2.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.2949829101562,
+    "y1": 299.0173645019531,
+    "y2": 348.4840087890625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 571.1999999999999,
+    "y1": 82.56,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639193-Figure6-1.png"
+}]

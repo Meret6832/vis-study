@@ -1,0 +1,301 @@
+[{
+  "caption": "Fig. 3. An example of intraprocedural PSTA.",
+  "captionBoundary": {
+    "x1": 63.18790054321289,
+    "x2": 225.64065551757812,
+    "y1": 566.4345092773438,
+    "y2": 570.8370361328125
+  },
+  "figType": "Figure",
+  "imageText": ["Once", "an", "item", "⟨=,)", "⟩", "is", "selected", "from", "thework-", "list,", "the", "analysis", "will", "employ", "the", "corresponding", "ﬂow", "functions", "based", "on", "=’s", "type", "(i.e.,", "diﬀerent", "kinds", "of", "program", "instructions)", "in", "Equation", "1", "in", "order", "to", "derive", "symbolic", "states", "and", "update", "Info.", "For", "the", "control-ﬂow", "joint", "point,", "ESP", "groups", "the", "symbolic", "states", "using", "the", "merge", "ﬂow", "function", "Fm.", "When", "encountering", "program", "branches,", "we", "apply", "Fb", "to", "check", "path", "feasibility.", "For", "the", "other", "nodes,", "we", "call", "Fo", "to", "update", "the", "execution", "state", "and/or", "typestate.", "merge", "merge", "exit", "use", "free", "9", "6", "7", "8", "3", "4", "5", "alloc", "entry", "2", "1"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 442.08,
+    "y1": 424.8,
+    "y2": 566.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure3-1.png"
+}, {
+  "caption": "Fig. 6. An example of temporal multi-point slicing.",
+  "captionBoundary": {
+    "x1": 149.57899475097656,
+    "x2": 336.4201354980469,
+    "y1": 214.16351318359375,
+    "y2": 218.56600952148438
+  },
+  "figType": "Figure",
+  "imageText": ["13", "13", "13", "afu:", "2", "5", "13", "fu:", "5", "13", "u:", "13", "use", "(c)", "TMS", "result", "free", "alloc", "12", "11", "5", "4", "3", "2", "1", "0", "afu", "fu", "u", "0", "afu", "fu", "u", "0", "afu", "fu", "u", "0", "afu", "fu", "u", "use", "free", "alloc", "use", "free", "Start", "Here", "alloc", "(b)", "Top-down", "pass", "Start", "Here", "10", "12", "11", "4", "5", "9", "3", "2", "1", "(a)", "Bottom-up", "pass", "10", "12", "11", "4", "5", "9", "3", "2", "1"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 93.6,
+    "x2": 388.32,
+    "y1": 85.92,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure6-1.png"
+}, {
+  "caption": "Table 4. Ablation analysis results. The “−” in the Time columns indicates a running time of more than 48 hours. FGS-TMS and FGS-SMS represent the versions of FGS using only temporal slicing and spatial slicing respectively. FGS-Base represent the version of FGS without slicing.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17333984375,
+    "y1": 209.66650390625,
+    "y2": 235.98699951171875
+  },
+  "figType": "Table",
+  "imageText": ["Project", "|+", "|", "|+", "′", "|", "|+TMS", "|", "|+SMS", "|", "#Call", "#Call′", "|", "|", "|", "′", "|", "darknet", "136,094", "1,791", "5,523", "1,928", "9,776", "93", "147,852", "1,802", "nasm", "79,330", "24,946", "38,081", "26,604", "7,435", "2,317", "81,638", "26,034", "tmux", "162,879", "2,671", "4,273", "3,693", "22,369", "205", "178,924", "2,810", "Teeworlds", "251,356", "565", "1,380", "1,875", "28,267", "40", "246,029", "578", "NanoMQ", "358,312", "62,543", "102,118", "118,663", "47,646", "5,801", "443,670", "61,696", "redis", "589,019", "87,446", "102,416", "111,041", "68,664", "17,844", "704,356", "240,956"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 108.96,
+    "x2": 377.28,
+    "y1": 120.96,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Table4-1.png"
+}, {
+  "caption": "Fig. 9. The proportions of different phases of FGS.",
+  "captionBoundary": {
+    "x1": 248.8419952392578,
+    "x2": 434.3301086425781,
+    "y1": 494.7644958496094,
+    "y2": 499.1669921875
+  },
+  "figType": "Figure",
+  "imageText": ["darknet", "nasm", "tmux", "Teeworlds", "NanoMQ", "redis", "average", "Graph", "generation", "Markers", "extraction", "TMS", "SMS", "Main", "phase", "100%", "80%", "60%", "40%", "20%", "0%"],
+  "name": "9",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 242.88,
+    "x2": 441.12,
+    "y1": 415.68,
+    "y2": 491.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure9-1.png"
+}, {
+  "caption": "Fig. 1. Overview of our approach.",
+  "captionBoundary": {
+    "x1": 180.92999267578125,
+    "x2": 305.06890869140625,
+    "y1": 188.85049438476562,
+    "y2": 193.25299072265625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Path-sensitive", "typestate", "analysis", "Clients", "...", "Use-after-frees", "Null", "dereferences", "Memory", "leaks", "Double-frees", "PSTA", "Solver", "Automaton", "SVF", "Program", "LLVM", "IR", "LLVM", "(c)", "Tempo-spatial", "multi-point", "slicing(a)", "Input", "Spatial ", "multi-point ", "slicing", "(SMS)", "slicing", "(TMS)", "Temporal", "multi-point ", "(b)", "Multi-point", "markers", "extraction", "1", "2", "3", "3", "1", "12", "2", "3"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 430.08,
+    "y1": 84.0,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure1-1.png"
+}, {
+  "caption": "Fig. 11. A false positive eliminated by FGS and two bugs found by FGS simplified from real-world projects.",
+  "captionBoundary": {
+    "x1": 46.184417724609375,
+    "x2": 439.81646728515625,
+    "y1": 203.96932983398438,
+    "y2": 208.371826171875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "A", "use-a", "er-free", "in", "tmux.", "10", "...", "11", "u_ranges(frs,", "...);", "12", "}", "1", "void", "u_ranges(TYPE", "*frs,", "...)", "{", "2", "for(TYPE", "*fr=frs.head();...)", "{", "3", "if", "(fr->s", "!=", "s)", "continue;", "4", "free(fr);", "5", "...", "6", "}", "7", "}", "8", "void", "centre(TYPE", "*frs,", "...)", "{", "9", "u_ranges(frs,", "...);", "(b)", "A", "null", "dereference", "in", "Teeworlds.", "10", "}", "11", "...", "12", "}", "1", "void", "RateConvert(int", "id)", "{", "2", "CSample", "*p", "=", "&m_aSamples[id];", "3", "...", "4", "int", "N", "=", "...;", "5", "short", "*data", "=", "mem_alloc(...);", "6", "...", "7", "for(int", "i", "=", "0;", "i", "<", "N;", "i++)", "{", "8", "...", "9", "data[i]", "=", "p->m_pData[f];", "(a)", "A", "safe", "free", "in", "darknet.", "10", "char", "**read_tokens(...)", "{", "11", "free(fgetl(fp));", "12", "}", "1", "char", "*fgetl(FILE", "*fp)", "{", "2", "...", "3", "char", "*line", "=", "malloc(...);", "4", "if(!fgets(...)){", "5", "free(line);", "6", "return", "0;", "7", "}...", "8", "return", "line;", "9", "}"],
+  "name": "11",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 439.68,
+    "y1": 84.47999999999999,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure11-1.png"
+}, {
+  "caption": "Table 2. The statistics of the open-source projects. #LOI denotes the number of lines of LLVM instructions. #Method and #Call are the numbers of functions and method calls. #Ptr and #Obj represent the quantities of pointer variables and memory objects. |V | and |E | indicate the numbers of ICFG nodes and ICFG edges.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.5494689941406,
+    "y1": 87.95149993896484,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Project", "#LOI", "#Method", "#Call", "#Ptr", "#Obj", "|V", "|", "|E|", "YAJL", "20,592", "151", "561", "10,197", "208", "9,253", "9,922", "gzip", "33,058", "195", "459", "19,264", "457", "16,889", "16,582", "MP4v2", "39,178", "601", "610", "15,925", "1,991", "15,595", "16,733", "bzip2", "48,181", "116", "250", "28,710", "263", "26,220", "25,912", "darknet", "159,205", "985", "9,776", "136,510", "2,550", "136,094", "147,852", "nasm", "186,935", "652", "7,435", "121,836", "3,736", "79,330", "81,638", "tmux", "446,626", "1,967", "22,369", "187,315", "3,879", "162,879", "178,924", "Teeworlds", "529,737", "2,306", "28,267", "292,621", "5,754", "251,356", "246,029", "NanoMQ", "788,967", "3,235", "47,646", "379,798", "30,838", "358,312", "443,670", "redis", "1,363,507", "6,314", "68,664", "708,251", "13,958", "589,019", "704,356", "Total", "3,615,986", "165,22", "186,037", "1,900,427", "63,634", "1,644,947", "1,871,618"],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 379.2,
+    "y1": 120.96,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Table2-1.png"
+}, {
+  "caption": "Fig. 4. ESP vs PSTA on the simplified ICFG. The code fragment contains a use-a er-free bug at ℓ15 for the memory object p allocated at ℓ2.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1751403808594,
+    "y1": 251.8594970703125,
+    "y2": 268.56591796875
+  },
+  "figType": "Figure",
+  "imageText": ["16", "use", "16", "15", "13", "use", "15use", "Call", "Return", "1 ", " void foo(T t)", "{", "2 ", " ", " int *p", "=", "malloc(10);", "3 ", " ", " int *q", "=", "malloc(10); ", " ", " ", " ", "...", "4 ", " ", " if (t", ">", "1)", "{", "5 ", " ", "   free(p);", "6 ", " ", "   if (t", "<", "3)", "7 ", " ", "  ", "  free(q);", "8 ", " ", " } else {", "9 ", " ", "   free(q);", "10 ", "  ", " p", "=", "bar(p);", "11 ", "  }", " ", " ", " ", "...", "12 ", "  if (t", "<=", "1)", "13  ", " ", " printf(\"%d\\n\",", "*p);", "14 ", "  else", "15 ", " ", " ", "log_error(*p); ", "16  } ", "use", "10", "free", "alloc", "12", "13bar", "8", "11", "9", "6", "7", "4", "5", "3", "2", "1", "(b)", "ESP", "No", "Summary", "10", "free", "alloc", "12bar", "8", "11", "9", "6", "7", "4", "5", "3", "2", "1", "(a)", "Source", "code", "(c)", "Our", "approach"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 48.48,
+    "x2": 433.44,
+    "y1": 85.92,
+    "y2": 242.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure4-1.png"
+}, {
+  "caption": "Table 1. Analysis domain and LLVM-like language.",
+  "captionBoundary": {
+    "x1": 247.13409423828125,
+    "x2": 435.7952575683594,
+    "y1": 389.0207824707031,
+    "y2": 393.42327880859375
+  },
+  "figType": "Table",
+  "imageText": ["ℓ", "::=", "Stmt", "p", "=", "c", "ConsStmt", "p", "=", "alloco", "AddrStmt", "p", "=", "&(q→fld)", "GepStmt", "(Field)", "p", "=", "&q[c]", "(constant)", "GepStmt", "(Array-C)", "p", "=", "&q[v]", "(variable)", "GepStmt", "(Array-V)", "p", "=", "∗q", "LoadStmt", "∗p", "=", "q", "StoreStmt", "p", "=", "q", "CopyStmt", "p", "=", "phi(p1,", "p2,", "...pn", ")", "PhiStmt", "p", "=", "¬q", "UnaryStmt", "r", "=", "p", "⊙", "q", "BinaryStmt", "⊙", "∈", "{+,", "-,", "∗,", "/,", "%,", "<<,", ">>,", "<,", ">,", "&,", "&&,", "<=,>=,", "≡,", "∼,", "|", ",", "∧", "}", "c,fld", "∈", "C", "Constants", "p,q,r", "∈", "S", "Stack", "virtual", "registers", "g", "∈", "G", "Global", "pointer", "variables", "p,q,r,g", "∈", "P", "=", "S", "∪", "G", "Top-level", "Variables", "o,", "a,", "af,", "a.fld,", "a[c]", "∈", "O", "Abstract", "objects", "v", "∈", "V", "=", "P", "∪", "O", "Program", "variables"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 245.76,
+    "x2": 438.24,
+    "y1": 399.84,
+    "y2": 556.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Table1-1.png"
+}, {
+  "caption": "Table 6. Comparing FGS with six open-source tools using ten popular applications. #TP and #FP are true positive and false positive, respectively. Time (secs), Mem (MB) are running time and memory costs. The “−” in the Time columns indicates a running time of more than 4h. The “−” in the Mem columns indicates a cost of more than 100 Gigabytes.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.2025451660156,
+    "y1": 205.79150390625,
+    "y2": 243.07101440429688
+  },
+  "figType": "Table",
+  "imageText": ["YAJL", "4", "15", "2895", "4822", "0", "0", "4", "111", "3", "22", "2", "206", "1", "5", "1", "13", "2", "15", "13", "133", "3", "86", "6", "59", "5", "0", "2", "168", "gzip", "4", "4", "3114", "4949", "0", "1", "27", "151", "0", "4", "18", "179", "1", "3", "89", "35", "1", "17", "36", "177", "1", "22", "14", "89", "4", "0", "18", "835", "MP4v2", "2", "1", "3684", "6215", "0", "0", "11", "145", "3", "24", "3", "380", "0", "6", "56", "38", "4", "28", "496", "426", "1", "20", "214", "231", "5", "0", "2", "344", "bzip2", "0", "0", "3690", "6809", "0", "6", "16", "181", "0", "2", "18", "179", "0", "0", "3", "17", "0", "37", "53", "271", "0", "0", "77", "148", "1", "0", "9", "280", "darknet", "19", "75", "5216", "8622", "11", "39", "75", "301", "20", "300", "245", "1145", "2", "24", "11", "55", "12", "104", "1185", "612", "25", "10", "951", "954", "30", "7", "750", "2104", "nasm", "2", "8", "5007", "9951", "2", "7", "180", "515", "2", "102", "572", "2258", "0", "1", "1", "76", "1", "16", "621", "919", "2", "9", "942", "1132", "3", "1", "894", "2482", "tmux", "4", "29", "11325", "38366", "6", "12", "409", "799", "4", "160", "597", "3882", "0", "0", "61", "39", "2", "34", "693", "637", "3", "12", "1036", "1894", "5", "1", "1932", "5251", "Teeworlds", "8", "8", "13569", "40368", "0", "0", "83", "654", "10", "50", "88", "1877", "1", "4", "2", "54", "6", "48", "267", "449", "5", "24", "1593", "2984", "12", "2", "407", "4320", "NanoMQ", "17", "29", "9344", "63068", "0", "0", "52", "555", "10", "426", "1421", "7613", "5", "54", "111", "40", "18", "74", "910", "555", "6", "354", "1642", "3125", "31", "11", "8722", "10176", "redis", "−", "−", "−", "−", "0", "23", "502", "1499", "7", "141", "8775", "16752", "0", "1", "637", "123", "1", "51", "2699", "1655", "1", "149", "2654", "9211", "9", "1", "14266", "58231", "Total", "60", "169", "57844", "183170", "19", "88", "1359", "4911", "59", "1231", "11739", "34471", "10", "98", "972", "490", "47", "424", "6973", "5834", "47", "686", "9129", "19827", "105", "23", "27002", "84191", "Report", "Time", "Mem", "Report", "TimeMem", "Report", "Time", "Mem", "Report", "TimeMem", "Report", "TimeMem", "Report", "Time", "Mem", "Report", "Time", "Mem", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "#TP", "#FP", "(secs)", "(MB)", "IKOS", "ClangSA", "Saber", "Cppcheck", "Infer", "Sparrow", "FGS", "Project"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 441.12,
+    "y1": 246.72,
+    "y2": 377.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Table6-1.png"
+}, {
+  "caption": "Fig. 10. Code scenarios to explain the precision of FGS.",
+  "captionBoundary": {
+    "x1": 139.7883758544922,
+    "x2": 343.9711608886719,
+    "y1": 188.08560180664062,
+    "y2": 192.48809814453125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Path-sensitive", "aliasing.", "10", "free(res);", "1", "int*", "data", "=", "malloc(...);", "2", "int*", "res;", "3", "...", "4", "if(rand()", "%", "2)", "{", "5", "res", "=", "data;", "6", "}", "else", "{", "7", "free(data);", "8", "res", "=", "0;", "9", "}", "(b)", "Capturing", "branch", "correlations.", "10", "}", "else", "{", ";", "}", "//", "do", "nothing", "1", "int", "var", "=", "rand();", "2", "int*", "data;", "3", "if(var", "==", "5)", "{", "4", "data", "=", "malloc(...);", "5", "}", "else", "{", ";", "}", "//", "do", "nothing", "6", "++var;", "7", "...", "8", "if(var", "!=", "5)", "{", "9", "free(data);", "(a)", "Capturing", "branch", "correlations.", "10", "else", "{", "free(data);", "}", "1", "char*", "data;", "2", "bool", "cond", "=", "rand()", "%", "2;", "3", "if(cond)", "{", "4", "data", "=", "malloc(...);", "5", "free(data);", "6", "}", "else", "{", "7", "data", "=", "malloc(...);", "8", "}", "9", "if(cond)", "{", ";", "}"],
+  "name": "10",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 420.0,
+    "y1": 84.47999999999999,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure10-1.png"
+}, {
+  "caption": "Fig. 8. Inference rules for spatial multi-point slicing.",
+  "captionBoundary": {
+    "x1": 146.8939208984375,
+    "x2": 339.1062316894531,
+    "y1": 391.5141296386719,
+    "y2": 395.9166259765625
+  },
+  "figType": "Figure",
+  "imageText": ["{=3", "}", "⊆", "VSMS", "=", "∈", "VSMS", "(=3", ",", "=)", "∈", "3", "{=2", "}", "⊆", "VSMS", "[DATA]", "=", "∈", "VSMS", "(=2", ",", "=)", "∈", "2", "{=}", "⊆", "VSMS", "[CONTROL]", "[INIT]", "c", "∈", "Π̂", "n", "∈", "c"],
+  "name": "8",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 426.24,
+    "y1": 362.4,
+    "y2": 383.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure8-1.png"
+}, {
+  "caption": "Fig. 7. An example of spatial multi-point slicing.",
+  "captionBoundary": {
+    "x1": 153.9949951171875,
+    "x2": 332.0045471191406,
+    "y1": 141.99850463867188,
+    "y2": 146.4010009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Control", "dependence", "Data", "dependence", "13", "6", "7", "12use", "145", "9102", "3", "use", "alloc", "free", "15"],
+  "name": "7",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 114.24,
+    "x2": 369.12,
+    "y1": 84.96,
+    "y2": 135.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. g for detecting use-a er-frees.",
+  "captionBoundary": {
+    "x1": 174.37600708007812,
+    "x2": 311.6243896484375,
+    "y1": 120.55049896240234,
+    "y2": 124.9530029296875
+  },
+  "figType": "Figure",
+  "imageText": ["use", "alloc", "free", "use"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 146.88,
+    "x2": 336.0,
+    "y1": 83.52,
+    "y2": 113.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Figure2-1.png"
+}, {
+  "caption": "Table 5. Comparing true positives (#TP) and false positives (#FP) with six tools using the NIST benchmark. The “−” means that the detection of specific vulnerabilities is not supported by the corresponding tools.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.5483703613281,
+    "y1": 87.95149993896484,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Memory", "leak", "−", "−", "128", "112", "200", "126", "0", "0", "126", "162", "−", "−", "228", "0", "228", "Double-free", "228", "18", "156", "20", "204", "20", "84", "144", "−", "−", "−", "−", "228", "0", "228", "Use-after-free", "−", "−", "40", "0", "−", "−", "0", "0", "0", "0", "−", "−", "138", "0", "138", "Null", "dereference", "234", "18", "216", "24", "234", "18", "108", "18", "134", "82", "228", "18", "252", "0", "252", "Total", "462", "36", "540", "156", "638", "164", "192", "162", "260", "244", "228", "18", "846", "0", "846", "Truth#TP", "#FP", "#TP", "#FP", "#TP", "#FP", "#TP", "#FP", "#TP", "#FP", "#TP", "#FP", "#TP", "#FP", "Category", "IKOS", "ClangSA", "Saber", "Cppcheck", "Infer", "Sparrow", "FGS", "Ground"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 441.12,
+    "y1": 109.92,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643749-Table5-1.png"
+}]

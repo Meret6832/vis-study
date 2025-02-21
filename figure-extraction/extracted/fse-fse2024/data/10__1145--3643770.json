@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 1. Overview of the Workflow of the Athena Impact Analysis Approach",
+  "captionBoundary": {
+    "x1": 105.12899780273438,
+    "x2": 380.871826171875,
+    "y1": 202.7783203125,
+    "y2": 207.0059814453125
+  },
+  "figType": "Figure",
+  "imageText": ["Program", "Dependence", "Graph", "Cosine", "Similarity", "Ranked", "List:", "1)", "M3", "2)", "M6", "3)", "M2", "4)", "M4", "5)", "M7", "6)", "M5", "1)", "M5", "2)", "M3", "3)", "M7", "4)", "M6", "5)", "M4", "6)", "M1", "ery:", "M1", "M2", "Estimated", "Impact", "Set", "M2", "M1", "eries", "Change", "Set", "M1", "M2", "M6", "M3M4", "M5", "M7", "M2", "M1", "Propagated", "Method", "Embeddings", "M6", "M7", "M5", "M3M4", "M2", "M1", "Original", "Method", "Embeddings", "N=1", "Method", "Neighborhood", "for", "M2", "+", "+", "M6", "M7", "M5", "M3M4", "M2", "Multi-Head", "Aention", "Norm", "MLP", "Norm", "M1", "M6", "M7", "M5", "M3M4", "M2", "M1", "Tokens", "AST", "Data", "Flow", "def", "hello_world():", "a", "=", "“hello“", "b", "=", "“world”", "print(a,b)", "Source", "Code", "Information", "Method", "Representation", "Extraction", "Embedding", "Propagation", "Impact", "Set", "Estimation1", "2", "3", "Method", "Embedding"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 438.24,
+    "y1": 78.72,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643770-Figure1-1.png"
+}, {
+  "caption": "Table 6. E ectiveness of Athena for each so ware system",
+  "captionBoundary": {
+    "x1": 134.54690551757812,
+    "x2": 351.21160888671875,
+    "y1": 78.1632080078125,
+    "y2": 82.390869140625
+  },
+  "figType": "Table",
+  "imageText": ["ant-ivy", "412.3", "176", "785", "50.19", "26.47", "72.36", "39.79", "18.48", "60.64", "archiva", "361.2", "2", "43", "70.81", "32.17", "88.37", "69.39", "10.17", "88.37", "commons-bcel", "168.3", "18", "138", "66.07", "30.79", "87.68", "57.76", "21.68", "71.74", "commons-beanutils", "67.5", "11", "42", "65.64", "44.58", "95.24", "67.67", "43.64", "83.33", "commons-codec", "55.1", "8", "41", "67.78", "52.79", "90.24", "57.65", "34.91", "78.05", "commons-collections", "136.3", "15", "73", "47.84", "24.80", "84.93", "41.43", "18.85", "68.49", "commons-compress", "147.3", "61", "260", "51.67", "32.99", "68.85", "45.26", "23.73", "66.15", "commons-con", "guration", "72.9", "65", "253", "56.89", "36.87", "78.26", "41.04", "24.75", "58.10", "commons-dbcp", "55.6", "21", "91", "67.17", "52.55", "92.31", "61.73", "46.65", "84.62", "commons-digester", "89.7", "8", "22", "38.65", "29.07", "77.27", "28.05", "23.86", "45.46", "commons-io", "102.5", "19", "58", "64.34", "49.13", "91.38", "52.16", "32.53", "75.86", "commons-jcs", "164", "26", "221", "70.35", "26.10", "85.07", "61.02", "18.86", "76.92", "commons-lang", "192.5", "36", "115", "67.16", "56.23", "89.57", "58.38", "46.66", "80.87", "commons-math", "431.1", "124", "589", "65.93", "42.02", "87.44", "52.43", "29.20", "73.35", "commons-net", "58.2", "44", "171", "66.59", "44.59", "84.80", "51.02", "26.35", "70.18", "commons-scxml", "43.8", "28", "114", "50.32", "34.62", "75.44", "45.82", "31.19", "72.81", "commons-validator", "42.3", "12", "35", "62.74", "56.51", "85.71", "51.70", "40.29", "74.29", "commons-vfs", "91.2", "40", "166", "55.02", "36.62", "83.13", "51.30", "35.71", "74.10", "deltaspike", "174.2", "2", "5", "60.98", "57.65", "60.00", "35.04", "27.25", "60.00", "giraph", "200.6", "68", "527", "70.80", "38.40", "89.75", "59.01", "26.78", "81.59", "gora", "132.4", "40", "174", "49.31", "26.93", "68.97", "41.91", "23.59", "62.64", "jspwiki", "439.4", "1", "12", "87.50", "40.03", "100.00", "100.00", "70.28", "100.00", "opennlp", "293.5", "33", "141", "64.61", "40.16", "78.72", "52.13", "28.94", "69.50", "parquet", "177.6", "50", "324", "60.09", "25.92", "81.48", "48.27", "17.65", "67.28", "systemml", "4000", "2", "5", "47.15", "41.60", "80.00", "41.63", "31.25", "40.00", "mRR", "mAP", "HIT@10", "mRR", "mAP", "HIT@10", "Repo", "Name", "LOC(k)", "#", "Commits", "#", "queries", "ATHENA", "LSI"],
+  "name": "6",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 432.47999999999996,
+    "y1": 88.8,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643770-Table6-1.png"
+}, {
+  "caption": "Table 1. Dataset statistics of our evaluation benchmark",
+  "captionBoundary": {
+    "x1": 140.48789978027344,
+    "x2": 345.2705078125,
+    "y1": 78.1632080078125,
+    "y2": 82.390869140625
+  },
+  "figType": "Table",
+  "imageText": ["Settings", "#", "queries", "#", "commits", "ground-truth", "set", "corpus", "1", "-", "whole", "4,405", "910", "15.14", "3,346", "2", "-", "inner", "3,379", "734", "4.47", "30", "3", "-", "outer", "2,999", "444", "17.21", "3,440"],
+  "name": "1",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 120.96,
+    "x2": 363.36,
+    "y1": 88.8,
+    "y2": 138.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643770-Table1-1.png"
+}, {
+  "caption": "Fig. 2. Two qualitative examples for illustrating the e ectiveness of Athena.",
+  "captionBoundary": {
+    "x1": 87.50700378417969,
+    "x2": 398.49285888671875,
+    "y1": 214.40133666992188,
+    "y2": 218.62899780273438
+  },
+  "figType": "Figure",
+  "imageText": ["try", "{", "return", "/*", "java.net.IDN.", "*/", "toASCII(input);", "}", "catch", "(IllegalArgumentException", "e)", "{", "//", "input", "is", "not", "valid", "return", "input;", "}", "}", "public", "boolean", "isValid(String", "domain)", "{", "if", "(domain", "==", "null", "||", "domain.length()", ">", "253)", "{", "return", "false;", "}", "domain", "=", "unicodeToASCII(domain);", "//", "TODO", "should", "this", "be", "before", "the", "length", "check?", "String[]", "groups", "=", "domainRegex.match(domain);", "if", "(groups", "!=", "null", "&&", "groups.length", ">", "0)", "{", "return", "isValidTld(groups[0]);", "}", "return", "allowLocal", "&&", "hostnameRegex.isValid(domain);", "}", "(a)", "(b)", "public", "class", "DomainValidator", "implements", "Serializable", "{", "private", "static", "String", "unicodeToASCII(String", "input)", "{", "public", "class", "UrlValidator", "implements", "Serializable", "{", "public", "boolean", "isValid(String", "value)", "{", "if", "(value", "==", "null)", "{", "return", "false;", "}", "if", "(!ASCII_PATTERN.matcher(value).matches())", "{", "//", "Non-ASCII", "input,", "try", "and", "convert", "HTTP", "domain", "return", "false;", "}", "//", "Check", "the", "whole", "url", "address", "structure", "Matcher", "urlMatcher", "=", "URL_PATTERN.matcher(value);", "return", "false;", "private", "boolean", "checkStatusCode(URL", "url,", "HttpMethodBase", "method)", "throws", "IOException", "{", "int", "status", "=", "method.getStatusCode();", "if", "(status", "==", "HttpStatus.SC_OK)", "{", "return", "true;", "}", "Message.debug(\"HTTP", "response", "status:", "\"", "+", "status", "+", "\"", "url=\"", "+", "url);", "if", "(status", "==", "HttpStatus.SC_PROXY_AUTHENTICATION_REQUIRED)", "{", "Message.warn(\"Your", "proxy", "requires", "authentication.\");", "}", "else", "if", "(String.valueOf(status).startsWith(\"4\"))", "{", "Message.verbose(\"CLIENT", "ERROR:", "\"", "+", "method.getStatusText()", "+", "\"", "url=\"", "+", "url);", "}", "else", "if", "(String.valueOf(status).startsWith(\"5\"))", "{", "Message.error(\"SERVER", "ERROR:", "\"", "+", "method.getStatusText()", "+", "\"", "url=\"", "+", "url);", "}", "private", "boolean", "checkStatusCode(URL", "url,", "HttpURLConnection", "con)", "throws", "IOException", "{", "int", "status", "=", "con.getResponseCode();", "if", "(status", "==", "HttpStatus.SC_OK)", "{", "return", "true;", "}", "Message.debug(\"HTTP", "response", "status:", "\"", "+", "status", "+", "\"", "url=\"", "+", "url);", "if", "(status", "==", "HttpStatus.SC_PROXY_AUTHENTICATION_REQUIRED)", "{", "Message.warn(\"Your", "proxy", "requires", "authentication.\");", "}", "else", "if", "(String.valueOf(status).startsWith(\"4\"))", "{", "Message.verbose(\"CLIENT", "ERROR:", "\"", "+", "con.getResponseMessage()", "+", "\"", "url=\"", "+", "url);", "}", "else", "if", "(String.valueOf(status).startsWith(\"5\"))", "{", "Message.error(\"SERVER", "ERROR:", "\"", "+", "con.getResponseMessage()", "+", "\"", "url=\"", "+", "url);", "}", "return", "false;", "}", "}", "public", "class", "HttpClientHandler", "extends", "AbstractURLHandler", "{", "public", "class", "BasicURLHandler", "extends", "AbstractURLHandler", "{"],
+  "name": "2",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 459.35999999999996,
+    "y1": 74.88,
+    "y2": 213.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643770-Figure2-1.png"
+}, {
+  "caption": "Table 5. The evaluation results of LSI and Athena on the filtered Alexandria and its tangled counterpart.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1761779785156,
+    "y1": 88.1263427734375,
+    "y2": 92.35400390625
+  },
+  "figType": "Table",
+  "imageText": ["whole", "52.94", "17.51", "58.42", "18.88", "54.93", "19.56", "60.55", "20.86", "64.56", "23.71", "68.36", "24.88", "inner", "80.72", "70.36", "82.17", "71.50", "81.37", "69.03", "82.67", "70.69", "81.81", "69.16", "83.65", "71.05", "outer", "37.72", "11.45", "42.89", "12.80", "41.31", "15.10", "46.06", "15.72", "47.53", "16.41", "50.65", "17.09", "tangled", "untangled", "tangled", "untangled", "tangled", "untangled", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "Settings", "LSI", "Athena2C", "Athena"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 435.35999999999996,
+    "y1": 98.88,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643770-Table5-1.png"
+}, {
+  "caption": "Table 4. Ablation Study of Athena on mRR and mAP",
+  "captionBoundary": {
+    "x1": 143.77810668945312,
+    "x2": 341.98052978515625,
+    "y1": 88.1260986328125,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["whole", "58.40", "33.37", "60.19", "34.61", "59.42", "34.33", "59.90", "34.73", "56.36", "32.10", "59.92", "32.86", "59.92", "34.96", "47.26", "22.72", "inner", "74.68", "64.74", "75.87", "66.18", "75.95", "66.26", "74.94", "65.20", "73.74", "63.83", "75.62", "65.94", "75.12", "65.37", "71.18", "61.11", "outer", "43.09", "22.08", "43.93", "22.64", "43.80", "22.56", "44.66", "23.12", "42.67", "22.12", "41.48", "19.99", "45.11", "23.54", "32.42", "14.43", "CodeBERT", "UniXcoder", "1", "order", "3", "orders", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "mRR", "mAP", "Encoders", "#", "neighbor", "orders", "[CLS]", "token", "pretrain-only", "+comm.", "clone", "detect.", "Settings"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643770-Table4-1.png"
+}]

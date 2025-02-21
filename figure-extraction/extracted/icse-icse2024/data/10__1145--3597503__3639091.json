@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 3: The main results of our imitation attack. “I/O” stands for “Input/Output.” All results are presented as BLEU scores or CodeBLEU scores on the test split of reference datasets, where𝑀𝑝𝑟𝑜𝑥𝑦 and𝑀𝑟𝑒 𝑓 represent the backbonemodels trained on the proxy and reference datasets, respectively. 𝑀𝑖𝑚𝑖 is the imitation model trained on the collected dataset and “API” stands for the best original LLM result under all three query settings. 𝑀𝑝𝑢𝑟𝑒 is the backbone model without fine-tuning.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6465148925781,
+    "y1": 222.17733764648438,
+    "y2": 315.5790100097656
+  },
+  "figType": "Table",
+  "imageText": ["CSyn", "NL/PL", "CodeT5", "27.51", "24.84", "11.53", "24.21", "1.40", "CodeBERT", "18.61", "9.41", "17.09", "N/A", "CT", "PL/PL", "CodeT5", "69.15", "72.19", "27.21", "84.30", "4.38", "CodeBERT", "68.58", "24.82", "79.05", "N/A", "CSum", "PL/NL", "CodeT5", "12.90", "17.72", "17.25", "18.95", "3.84", "CodeBERT", "14.09", "12.20", "14.87", "N/A", "I/O", "Type", "Model", "API", "𝑀𝑖𝑚𝑖", "𝑀𝑝𝑟𝑜𝑥𝑦", "𝑀𝑟𝑒", "𝑓", "𝑀𝑝𝑢𝑟𝑒"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 329.76,
+    "y2": 398.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Table3-1.png"
+}, {
+  "caption": "Figure 2: An example to demonstrate why LLM APIs tend to have low scores on the code summarization task, which is because the ground truth for this task uses short summaries.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932983398438,
+    "y1": 221.70834350585938,
+    "y2": 249.25701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["Sum", "LLM:", "Update", "a", "resource", "by", "checking", "access,", "showing", "the", "context", "and", "patching", "the", "resource", "with", "updated", "data.", "Code", "Ground", "truth:", "Patch", "a", "resource.", "def", "resource_patch(context,", "data_dict):", "_check_access('resource_patch',", "context,", "data_dict)", "show_context", "=", "{'model':", "context['model'],", "'session':", "context['session’]}", "resource_dict", "=", "_get_action('resource_show')(show_context)", "patched", "=", "dict(resource_dict)", "patched.update(data_dict)", "return", "_update.resource_update(context,", "patched)"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 117.6,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Adversarial examples generation.",
+  "captionBoundary": {
+    "x1": 87.2979965209961,
+    "x2": 260.5389709472656,
+    "y1": 319.4073486328125,
+    "y2": 325.0379943847656
+  },
+  "figType": "Figure",
+  "imageText": ["Adversarial", "Example", "return", "back", "==", "b", "x,div_tmp", "=", "mydiv(x,ba*ba/ba)", "back", "=", "back", "*ba", "back", "+=", "div_tmp", "return", "False", "while", "x>0:", "return", "x//ba,x%ba", "back,ba", "=", "0,10", "b", "=", "back", "+", "x*x/x", "if", "x", "<", "0:", "def", "test(x):", "def", "mydiv(x,ba):", "return", "back", "==", "b", "x,div_tmp", "=", "mydiv(x,ba*ba/ba)", "back", "=", "back", "*ba", "back", "+=", "div_tmp", "return", "False", "while", "x>0:", "return", "x//ba,x%ba", "back,ba", "=", "0,10", "b", "=", "back", "+", "x", "if", "x", "<", "0:", "def", "test(x):", "def", "mydiv(x,ba):", "Sum", "After:", "This", "code", "tests", "if", "a", "given", "number", "is", "equal", "to", "the", "sum", "of", "its", "digits", "squared.", "Code", "Before:", "This", "code", "tests", "if", "a", "given", "number", "is", "a", "palindrome."],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 296.15999999999997,
+    "y1": 184.79999999999998,
+    "y2": 309.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Figure4-1.png"
+}, {
+  "caption": "Table 7: Comparison for additional LLM APIs. TD-003 and GPT-35 stand for “text-davinci-003” and “gpt-3.5-turbo”.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1900024414062,
+    "y1": 486.1583557128906,
+    "y2": 502.74798583984375
+  },
+  "figType": "Table",
+  "imageText": ["CSyn", "27.51", "24.11", "24.84", "22.85", "CT", "69.15", "65.33", "72.19", "67.40", "CSum", "12.90", "12.2", "17.72", "16.51", "API", "IMI", "TD-003", "GPT-35", "TD-003", "GPT-35"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 356.64,
+    "x2": 517.4399999999999,
+    "y1": 505.91999999999996,
+    "y2": 556.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Table7-1.png"
+}, {
+  "caption": "Table 6: Comparison for different adversarial attackingmethods. Sem EQ, SAE rate, and UAE rate stand for semantically equal, stable AE rate and unstable AE rate.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.63653564453125,
+    "y1": 395.90435791015625,
+    "y2": 423.4530029296875
+  },
+  "figType": "Table",
+  "imageText": ["Method", "Type", "Sem", "EQ?", "SAE", "rate", "UAE", "rate", "CodeAttack", "Whitebox", "False", "1.11", "%", "4.44", "%", "Radar", "Blackbox", "True", "0", "%", "1.47", "%", "CCTest", "Blackbox", "True", "0", "%", "1.13", "%", "Ours", "𝑀𝑖𝑚𝑖", "-enabled", "Whitebox", "True", "9.5", "%", "4.78%"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 280.32,
+    "y1": 427.68,
+    "y2": 477.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Table6-1.png"
+}, {
+  "caption": "Table 1: Benchmarking prior knowledge for imitation attacks. The symbols!, 3,% denote require, partially require, and not require the corresponding knowledge when launching the model extraction, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1903686523438,
+    "y1": 87.02236938476562,
+    "y2": 103.61199951171875
+  },
+  "figType": "Table",
+  "imageText": ["Data", "Distribution", "Model", "Architecture", "Output", "Probability", "Object", "Task", "Victim", "model", "Size", "Chandrasekaran", "[23]", "!", "!", "!", "-", "classification", "-", "-", "Jagielski", "[39]", "3", "!", "!", "image", "classification", "academic", "25.6M", "Orekondy", "[58]", "3", "!", "!", "image", "classification", "academic", "21.8M", "Yu", "et", "al.", "[85]", "3", "%", "%", "image", "classification", "commercial", "200M", "He", "et", "al.", "[34]", "%", "%", "3", "text", "generation", "academic", "340M", "Wallace", "[67]", "%", "%", "%", "text", "generation", "commercial", "-", "Ours", "%", "%", "%", "code", "generation", "commercial", "175B"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 505.44,
+    "y1": 118.56,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Table1-1.png"
+}, {
+  "caption": "Table 4: Attack effectiveness using different query schemes. CBLEU denotes the CodeBLEU metric.",
+  "captionBoundary": {
+    "x1": 53.50200271606445,
+    "x2": 295.5665588378906,
+    "y1": 207.73336791992188,
+    "y2": 224.322998046875
+  },
+  "figType": "Table",
+  "imageText": ["Finding", "1:", "Extracting", "specialized", "code", "abilities", "of", "LLMs", "through", "medium-sized", "backbone", "models", "is", "effective", "for", "representative", "code-related", "tasks.", "The", "trained", "imitation", "models", "achieve", "compa-", "rable,", "if", "not", "better", "performance", "than", "the", "original", "LLMs", "in", "those", "specialized", "code", "abilities."],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 127.67999999999999,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Table4-1.png"
+}, {
+  "caption": "Table 5: Attack performance under different number of incontext examples. T5 and CB stand for CodeT5 and CodeBERT, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64044189453125,
+    "y1": 406.6463623046875,
+    "y2": 434.1940002441406
+  },
+  "figType": "Table",
+  "imageText": ["#", "In-context", "examples", "1", "2", "3", "4", "5", "Model", "T5", "14.20", "16.51", "17.05", "17.72", "16.96", "CB", "10.87", "12.90", "13.95", "14.09", "13.88", "Cost", "11.24", "20.53", "30.97", "42.85", "53.29"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 268.32,
+    "y1": 444.0,
+    "y2": 479.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Table5-1.png"
+}, {
+  "caption": "Figure 3: The impact of hyperparameters (RQ3).",
+  "captionBoundary": {
+    "x1": 76.95899963378906,
+    "x2": 270.8755798339844,
+    "y1": 199.86636352539062,
+    "y2": 205.49700927734375
+  },
+  "figType": "Figure",
+  "imageText": ["CB-imi", "CB-proxy-full", "CB-ref-full", "T5-imi", "T5-proxy-full", "T5-ref-full", "(b)", "Performance", "with", "varying", "queries", "re", "S", "co", "BL", "EU", "Co", "de", "25.0", "22.5", "20.0", "17.5", "15.0", "12.5", "10.0", "7.5", "20", "40", "60", "80", "100", "#", "Training", "Data", "(%)", "(a)", "The", "number", "of", "passed", "responses", "30", "33", "30", "29", "27", "31", "31", "33", "28", "29", "31", "31", "34", "31", "30", "31", "31", "30", "30", "30", "30", "31", "30", "31", "30", "tu", "re", "pe", "ra", "te", "m", "75", "1", "50", "0.", "25", "0.", "0", "0.", "0", "0.25", "0.50", "0.75", "1", "topp"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 290.88,
+    "y1": 86.88,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Figure3-1.png"
+}, {
+  "caption": "Figure 1: An overview of our imitation attack framework, including query generation, response check, imitation training, and downstream applications.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1807861328125,
+    "y1": 160.81832885742188,
+    "y2": 177.40802001953125
+  },
+  "figType": "Figure",
+  "imageText": ["Models", "Adversarial", "ExamplesBackbone", "Competitive", "service", "Applications", "Query", "generation", "Response", "check", "Qbody", "CSyn", "|", "CT", "|", "CSum", "Qhead", "Code", "tasks", "Collected", "Datasets", "Proxy", "Datasets", "Query", "Imitation", "Model", "Training", "LLCM", "APIs", "Query", "schemes", "Adversary", "ZSQ", "|", "ICQ", "|", "ZS-COT"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 90.24,
+    "x2": 517.4399999999999,
+    "y1": 84.47999999999999,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Figure1-1.png"
+}, {
+  "caption": "Table 2: The evaluated tasks and datasets. CSyn, CT, and CSum denote code synthesis, code translation, and code summarization, respectively. CSN represents the CodeSearchNet dataset.𝐷𝑝𝑟𝑜𝑥𝑦 and𝐷𝑟𝑒 𝑓 are the proxy and reference datasets.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.799560546875,
+    "y1": 408.412353515625,
+    "y2": 448.8830261230469
+  },
+  "figType": "Table",
+  "imageText": ["Category", "𝐷𝑝𝑟𝑜𝑥𝑦", "𝐷𝑟𝑒", "𝑓", "#", "Queries", "Stat.", "of", "𝐷𝑟𝑒", "𝑓", "CSyn", "XLCOST", "[89]", "CONALA", "[84]", "2k", "2k/-/500", "CT", "XLCOST", "[89]", "CodeXGLUE", "[52]", "10k", "10k/500/1k", "CSum", "DualCODE", "[76]", "CSN", "[38]", "8k", "25k/14k/15k"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 461.76,
+    "y2": 497.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639091-Table2-1.png"
+}]

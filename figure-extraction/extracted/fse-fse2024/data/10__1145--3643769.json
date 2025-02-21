@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 3. Example of generation used by SymPrompt. The prompt exposes both the type and dependency context of the focal method to the model in addition to the path constraint prompt.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.39288330078125,
+    "y1": 218.66700744628906,
+    "y2": 234.83099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["def", "test_case_1():", "\"\"\"", "Testcase", "1", "for", "exists_as(path:", "_PATH)", "->", "str:", "test", "case", "where", "path.is_dir()", "returns:", "'directory'", "\"\"\"", "<generate>", "Dependency", "Context", "Focal", "Method", "Type", "Context", "<other", "implementation>", "]", "def", "normalize_path(path):", "<normalize_path", "implementation>", "def", "exists_as(path:", "_PATH)", "->", "str:", "path", "=", "normalize_path(path)", "PosixPath,", "WindowsPath,", "str,", "from", "pathlib", "import", "PosixPath,", "WindowsPath", "_PATH", "=", "Union["],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 418.56,
+    "y1": 86.88,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure3-1.png"
+}, {
+  "caption": "Table 2. RQ 3. Results (LHS): Ablation results evaluated on 100 randomly sampled focal methods from the benchmark used in RQ1. The ablation results demonstrate that both type and dependency in calling context and path constraint prompts improve correct generations and coverage relative to baseline prompts, but path constraint prompts contribute significantly more to the overall improvement in correct generations and coverage demonstrated by SymPrompt for generations with CodeGen2. RQ 4. Results (RHS): Results with GPT. When evaluating GPT we use as a baseline a two stage prompt in which the model is first prompted to describe the method under test, and then generate tests based on both the method definition and the previously generated description. Although performance is similar for both prompting approaches without calling context, when SymPrompt is used without ablation it gives a relative improvement of 178% in Correct@1 rate and 1.05% relative improvement in coverage over baseline prompts.",
+  "captionBoundary": {
+    "x1": 45.505001068115234,
+    "x2": 440.176513671875,
+    "y1": 87.14900970458984,
+    "y2": 190.9840087890625
+  },
+  "figType": "Table",
+  "imageText": ["Baseline", "Prompt", "0.09", "0.37", "0.04", "0.30", "0.29", "0.14", "0.12", "0.09", "0.36", "0.40", "Constraints", "Only", "0.27", "0.49", "0.17", "0.49", "0.38", "0.15", "0.15", "0.10", "0.39", "0.43", "Context", "Only", "0.16", "0.40", "0.06", "0.42", "0.35", "0.38", "0.28", "0.18", "0.43", "0.47", "SymPrompt", "0.50", "0.65", "0.26", "0.53", "0.42", "0.46", "0.39", "0.25", "0.74", "0.74", "Line", "Cov.", "Branch", "Cov.", "Cor-", "rect@1", "FM", "Call@1", "Line", "Cov.", "Branch", "Cov.", "Pass@1", "Cor-", "rect@1", "FM", "Call@1", "Method", "Pass@1", "CodeGen2", "GPT-4"],
+  "name": "2",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 205.92,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Table2-1.png"
+}, {
+  "caption": "Fig. 7. Example of path constraint prompt construction on a simplified focal method in the tornado project. Each path prompt has three components: 1○Method Signature. The prompt specifies the test case is for the focal method, including its full signature. 2○ Path Constraints. Next, the prompt specifies what path constraints should be satisfied by the inputs in the given testcase in order to follow the desired execution path. 3○ Return Behavior. The prompt specifies what return behavior, if any, is expected on the specified execution path. This can guide correct generation of assertions for specific return cases.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 441.5529479980469,
+    "y1": 261.9210205078125,
+    "y2": 321.9200134277344
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 421.44,
+    "y1": 84.0,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure7-1.png"
+}, {
+  "caption": "Fig. 9. Case study of a simple focal method burp in the pytutils project with two main execution paths, based on whether the input filename is - or not. A test generation using the baseline prompt executes the method twice, but does not check for filename=’-’ as a test input. Moreover, the send focal method call uses a nonexistent parameter, iter_by, preventing the test from fully executing. In contrast, SymPrompt tests both paths and uses method correctly. Note that in this case the method does not return a value, therefore SymPrompt does not prompt, correctly, for assertions on the return statement.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 441.1589660644531,
+    "y1": 224.80699157714844,
+    "y2": 284.8059997558594
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Baseline", "test", "generation.", "(b)", "SymPrompt", "test", "generation."],
+  "name": "9",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 436.32,
+    "y1": 84.0,
+    "y2": 208.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure9-1.png"
+}, {
+  "caption": "Fig. 10. Example test generations from an SBST tool (Pynguin) and LLM (CodeGen2) for focal method aes_cbc_decrypt. The method operates on arrays of ints, but an SBST approach is unable to infer types (even if they are specified in the comments, and generates test inputs that immediately raise an exception on the key_expansion(key) call. An LLM can infer input types from context and comments and therefore generate a test case with correctly typed inputs that execute the entire method without errors.",
+  "captionBoundary": {
+    "x1": 45.558998107910156,
+    "x2": 440.175048828125,
+    "y1": 480.4940185546875,
+    "y2": 529.5339965820312
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "SBST", "test", "generation.", "(b)", "SymPrompt", "test", "generation.", "(a)", "Focal", "method."],
+  "name": "10",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 424.32,
+    "y1": 301.92,
+    "y2": 464.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure10-1.png"
+}, {
+  "caption": "Fig. 12. Case study showing GPT generations with path constraint prompts.",
+  "captionBoundary": {
+    "x1": 102.28600311279297,
+    "x2": 383.7143859863281,
+    "y1": 586.3329467773438,
+    "y2": 591.5379638671875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "GPT-4", "generated", "tests.", "(a)", "Focal", "method."],
+  "name": "12",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 431.03999999999996,
+    "y1": 84.0,
+    "y2": 570.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure12-1.png"
+}, {
+  "caption": "Table 1. RQ 1. Results (LHS): Results for evaluation of CodeGen2 test generation on 897 hard-to-test focal methods are shown in the left 4 columns. SymPrompt is effective at guiding the model to call the focal method correctly and generate passing tests, as well as covering a wider range of use cases in its generated tests. These result in relative improvements of 5× more correct test generations (which call the focal method and pass) and a 10% improvement in coverage over tests generated with a baseline test completion prompt. SymPrompt Filtered shows results when test generations with errors are discarded to provide a controlled comparison with Pynguin. Under this setting, SymPrompt compares favorably with Pynguin, achieving marginally better line and branch coverage. RQ 2. Results (RHS): Results for evaluation on focal methods unseen in training data (based on AmIInTheStack tool [1]) are shown in the right 4 columns. Compared to the full benchmark results, both the baseline prompts and SymPrompt have lower rates of correct test generations and coverage. However, tests generated with SymPrompt still have significantly better correct generation rates (4× improvement) and coverage over the baseline prompt generated tests.",
+  "captionBoundary": {
+    "x1": 45.58599853515625,
+    "x2": 441.5521240234375,
+    "y1": 87.14900970458984,
+    "y2": 212.90200805664062
+  },
+  "figType": "Table",
+  "imageText": ["No-Op", "Tests", "1.00", "0.00", "0.00", "0.33", "0.33", "1.00", "0.00", "0.00", "0.26", "0.36", "Baseline", "Prompt", "0.12", "0.34", "0.03", "0.38", "0.40", "0.12", "0.32", "0.03", "0.32", "0.45", "SymPrompt", "0.41", "0.49", "0.15", "0.48", "0.44", "0.41", "0.35", "0.12", "0.36", "0.35", "Pynguin", "-", "-", "-", "0.72", "0.64", "-", "-", "-", "0.68", "0.57", "SymPrompt", "Filtered", "0.81", "1.00", "0.81", "0.77", "0.66", "0.83", "1.00", "0.83", "0.71", "0.57", "Line", "Cov.", "Branch", "Cov.", "Cor-", "rect@1", "FM", "Call@1", "Line", "Cov.", "Branch", "Cov.", "Pass@1", "Cor-", "rect@1", "FM", "Call@1", "Method", "Pass@1", "Full", "Benchmark", "Unseen", "Projects"],
+  "name": "1",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 228.0,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Table1-1.png"
+}, {
+  "caption": "Fig. 4. Overview of SymPrompt’s framework for test generation. In Step-I, path constraint collection is performed on the focal method. In Step-II, the type and dependency context from the focal method are parsed from the focal file along with the focal method itself. Finally, in Step-III, prompts for each set of path constraints are then constructed and iteratively passed to the model to generate test cases.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.173583984375,
+    "y1": 252.8990020751953,
+    "y2": 290.9809875488281
+  },
+  "figType": "Figure",
+  "imageText": ["generation2", "prompt2", "generation1", "prompt1", "context", "Collect", "Dependencies", "Path", "Prompts", "Focal", "File", "LLM", "Step", "II:", "Context", "CollectionStep", "I:", "Path", "Constraint", "Collection", "Step", "III:", "Test", "Generation", "<", "/", ">"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 419.03999999999996,
+    "y1": 89.28,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Path minimization algorithmic definition and illustration of how path minimization prevents the number of paths from growing exponentially in the number of branches. A method with 𝑛 = 3 if conditions will have 2𝑛 = 8 possible execution paths, but applying the algorithm in 5a reduces the number of paths that need to be tested to at most 𝑛 + 1 = 4, each of which covers a unique branch condition.",
+  "captionBoundary": {
+    "x1": 45.505001068115234,
+    "x2": 440.1737060546875,
+    "y1": 443.14300537109375,
+    "y2": 481.2239990234375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Example", "on", "three", "branches.", "if", "cond1:", "<blk1>", "else:", "<blk2>", "if", "cond2:", "<blk3>", "else:", "<blk4>", "if", "cond3:", "<blk5>", "else:", "<blk6>", "return", "<return>", "def", "method(args):", "Minimized", "Paths", "path1:", "cond1,", "cond2,", "cond3", "path2:", "not", "cond1,", "cond2,", "cond3", "path3:", "cond1,", "not", "cond2,", "cond3", "path4:", "cond1,", "cond2,", "not", "cond3", "path5:", "not", "cond1,", "not", "cond2,", "cond3", "path6:", "not", "cond1,", "cond2,", "not", "cond3", "path7:", "cond1,", "not", "cond2,", "not", "cond3", "path8:", "not", "cond1,", "not", "cond2,", "not", "cond3", "(a)", "Path", "Minimization", "Algorithm.", "1:", "procedure", "minimizePaths(paths)", "2:", "minconstraints", "=", "{}", "3:", "minpaths", "=", "{}", "4:", "for", "path", "in", "paths", "do", "5:", "path_constraints", "=", "splitConstraints(path)", "6:", "if", "any", "of", "path_constraints", "is", "not", "in", "minconstraints", "then", "7:", "minconstraints", "=", "minconstraints", "∩", "path_constraints", "8:", "minpaths", "=", "minpaths", "∩", "path", "9:", "return", "minpaths"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 438.24,
+    "y1": 316.32,
+    "y2": 427.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. Example test generations from an SBST tool (Pynguin), zero shot LLM (CodeGen2), and SymPrompt prompts for focal method exists_as in the flutils open source Python project. An SBST approach is unable to generate full coverage tests for this method without special configuration because it is unable to generate strings that represent specific types of filesystem objects (e.g., block devices). An LLM conversely is able to generate input strings associated with filesystem objects such as block devices, but in practice will only test a small subset of use cases based on the most likely usage scenarios such as paths to files and directories. SymPrompt constructs path specific prompts to guide the model to generate high coverage testsuites.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 441.554443359375,
+    "y1": 365.9430236816406,
+    "y2": 436.9010009765625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "SymPrompt", "test", "generations.", "(c)", "LLM", "test", "generations.", "(b)", "SBST", "test", "generations.", "(a)", "Focal", "method."],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 424.32,
+    "y1": 84.0,
+    "y2": 349.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure1-1.png"
+}, {
+  "caption": "Fig. 11. Comparison of SymPrompt-generated path prompt to GPT-4 generated path prompt. GPT-4 is capable of generating precise execution path descriptions with more natural language. We construct path prompts by using a markdown parser to extract each path description and embed them as docstrings for each test generation.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1744079589844,
+    "y1": 234.77198791503906,
+    "y2": 272.85400390625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "GPT-4", "path", "prompt.", "(a)", "SymPrompt", "path", "prompt."],
+  "name": "11",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 84.0,
+    "y2": 218.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure11-1.png"
+}, {
+  "caption": "Fig. 8. Baseline prompts used in evaluation.",
+  "captionBoundary": {
+    "x1": 160.98500061035156,
+    "x2": 322.77471923828125,
+    "y1": 170.06300354003906,
+    "y2": 175.26800537109375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "No-Op", "test.", "(b)", "Baseline", "test", "prompt.", "(c)", "GPT", "Describe-Generate", "prompt."],
+  "name": "8",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 435.35999999999996,
+    "y1": 84.0,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure8-1.png"
+}, {
+  "caption": "Fig. 6. Illustration of context construction on a focal method is_schema_valid. The context is composed of 5 components: 1. Imports and Globals. Imported modules and classes that appear in the focal file, along with global variables defined in focal file. 2. Type Context. Definitions of types that are used in the focal method and defined in the focal file. 3. Focal Class Type Context. The definition of the focal class type signature and initialization. 4. Focal Class Method Context. Definitions of any focal class methods that are called in the focal method. 5. Focal Method. The definition of the focal method to be tested. Constructing the generation context to expose relevant types and dependencies helps the model to attend to relevant definitions when generating. All objects that are included in the context are included in the test execution context and override any import statements generated by the model. This is particularly beneficial for test generations with GPT models, which we found are prone to generating hallucinated import statements (see Section 4.4).",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.4148254394531,
+    "y1": 262.156005859375,
+    "y2": 365.9909973144531
+  },
+  "figType": "Figure",
+  "imageText": ["Test", "Context", "Test", "Prompt", "Focal", "Method", "Focal", "Class", "Context", "Import", "Context", "Type", "Context", "<generation>", "#", "test", "for", "method", "is_schema_valid", "of", "FocalClass", "def", "test_is_schema_valid():", "import", "unittest", "from", "unittest", "import", "patch,", "Mock,", "MagicMock", "is_valid", "=", "check_schema(schema)", "<other", "checks>", "return", "is_valid", "def", "__init__(self,", "param1,", "param2):", "self.param1", "=", "param1", "self.param2", "=", "param2", "def", "check_schema(self,", "schema):", "<method", "2>", "def", "is_schema_valid(self,", "schema:", "Schema,", "dataclass:", "DataClass):", "from", "dataclass", "import", "DataClass", "<other", "imports", "&", "globals>", "class", "Schema():", "<schema", "definition>", "class", "FocalClass():", "is_valid", "=", "check_schema(schema)", "<other", "checks>", "return", "is_valid", "def", "__init__(self,", "param1,", "param2):", "self.param1", "=", "param1", "self.param2", "=", "param2", "def", "other_method1(self):", "<method", "1>", "def", "check_schema(self,", "schema):", "<method", "2>", "...", "def", "is_schema_valid(self,", "schema:", "Schema,", "dataclass:", "DataClass):", "from", "dataclass", "import", "DataClass", "<other", "imports", "&", "globals>", "class", "Schema():", "<schema", "definition>", "class", "OtherClass1():", "<class", "1>", "class", "OtherClass2():", "<class", "2>", "...", "class", "FocalClass():"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 377.76,
+    "y1": 85.92,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure6-1.png"
+}, {
+  "caption": "Fig. 2. Workflow for generating path constraint prompts. The focal method shown in Figure 1a is first parsed and its abstract syntax tree is traversed in preorder. In step 1○, the traversal first visits the first method statement, normalize_path(path), but does not record any information since it is not a branch constraint. In step 2○, it then traverses to the first if statement, and records that there is a constraint path.is_dir() that must be satisfied to execute the current path on the AST. It then reaches the return ’directory’ under the first if check, and records that there is an execution path where ’directory’ is returned when path.is_dir() is true. The preorder traversal next visits the if path.is_file(), return ’file’ branch of the AST in 3○ and records a second path where path.is_dir() is false and path.is_file() is true, and the return behavior is ’file’. This traveral continues until in step 4○, the final return statement is reached, based on an execution path where none of the branch constraints are true. Each collected execution path and return value is then used to construct prompts for test generations that specifies both the path constraints and return behavior for the target test case.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 441.9620361328125,
+    "y1": 311.62701416015625,
+    "y2": 437.3800048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 431.03999999999996,
+    "y1": 84.0,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643769-Figure2-1.png"
+}]

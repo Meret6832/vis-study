@@ -1,0 +1,301 @@
+[{
+  "caption": "Fig. 6. Maximum F1-measure for each 𝛼 in eq. (4).",
+  "captionBoundary": {
+    "x1": 314.10418701171875,
+    "x2": 423.8404235839844,
+    "y1": 171.28408813476562,
+    "y2": 184.08917236328125
+  },
+  "figType": "Figure",
+  "imageText": ["0.48", "0.40", "0.42", "0.44", "0.46", "1.00.80.60.40.20.0", "F1-measure", "α"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 422.4,
+    "y1": 73.44,
+    "y2": 158.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. F1-measure at each threshold 𝛽 where 𝛼 = 0.5.",
+  "captionBoundary": {
+    "x1": 437.8500061035156,
+    "x2": 547.5860595703125,
+    "y1": 170.96420288085938,
+    "y2": 183.769287109375
+  },
+  "figType": "Figure",
+  "imageText": ["0.50", "0.10", "0.20", "0.30", "0.40", "1.00.80.60.40.20.0", "F1-measure", "threshold"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 439.2,
+    "x2": 546.24,
+    "y1": 73.44,
+    "y2": 158.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure7-1.png"
+}, {
+  "caption": "TABLE IV APPROACHES FOR RECOMMENDING RENAMINGS",
+  "captionBoundary": {
+    "x1": 101.88084411621094,
+    "x2": 256.11285400390625,
+    "y1": 73.86270141601562,
+    "y2": 86.66778564453125
+  },
+  "figType": "Table",
+  "imageText": ["Relationships", "Abbreviations", "Inﬂection", "Words", "IDD", "[1]", "Thies", "et", "al.", "[21]", "✓", "Zhang", "et", "al.", "[5]", "✓+", "✓", "✓", "RenameExpander", "[4]", "✓++", "RENAS", "✓++", "✓", "✓"],
+  "name": "IV",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 296.15999999999997,
+    "y1": 96.0,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-TableIV-1.png"
+}, {
+  "caption": "Fig. 1. Renaming in spring-integration.",
+  "captionBoundary": {
+    "x1": 112.68235778808594,
+    "x2": 234.99790954589844,
+    "y1": 247.78616333007812,
+    "y2": 252.251953125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "After", "renaming.", "5", "}", "4", "String", "getArgumentMapVariableName(Method", "method);", "...", "3", "String[]", "getArgumentVariableNames(Method", "method);", "...", "2", "static", "final", "String", "DEFAULT_ARGUMENT_MAP_VARIABLE_NAME", "=", "\"args\";...", "1", "interface", "ExpressionSource", "{", "...", "(a)", "Before", "renaming.", "rename?", "rename", "7", "}", "6", "String", "getArgumentMapName", "(Method", "method);", "...", "5", "String[]", "getArgumentNames", "(Method", "method);", "...", "4", "...", "3", "static", "final", "String", "DEFAULT_ARGUMENT_MAP_NAME", "=", "\"args\";", "2", "...", "1", "interface", "ExpressionSource", "{"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 296.15999999999997,
+    "y1": 73.92,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Renaming in restlet-framework-java.",
+  "captionBoundary": {
+    "x1": 357.22296142578125,
+    "x2": 493.43634033203125,
+    "y1": 348.8004455566406,
+    "y2": 353.2662353515625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "After", "renaming.", "2", "Boolean", "findInAncestors", "=", "true;", "...", "1", "class", "SpringBeanRouter", "extends", "Router", "implements", "BeanFactoryPostProcessor{...", "4", "}", "3", "CallContext", "getCallContext(){...}", "...", "2", "List<Object>", "getMatchedResources(){...}", "1", "class", "ThreadLocalizedUriInfo", "implements", "UriInfo{...", "5", "}", "4", "List<Object>", "getMatchedResources(){...}", "...", "3", "...", "2", "void", "addForMatched(...,", "String", "newUriPart){...}", "1", "class", "CallContext", "...", "{", "...", "(a)", "Before", "renaming.", "rename?", "not", "rename", "rename", "2", "Boolean", "findInAncestors", "=", "true;", "...", "1", "class", "SpringBeanRouter", "extends", "Router", "implements", "BeanFactoryPostProcessor{...", "4", "}", "3", "CallContext", "getCallContext", "(){...}", "...", "2", "List<Object>", "getAncestorResources", "(){...}", "1", "class", "ThreadLocalizedUriInfo", "implements", "UriInfo{...", "5", "}", "4", "List<Object>", "getAncestorResources", "(){...}", "...", "3", "...", "2", "void", "addForAncestor", "(...,", "String", "newUriPart){...}", "1", "class", "CallContext", "...", "{", "..."],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 542.4,
+    "y1": 72.96,
+    "y2": 341.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure2-1.png"
+}, {
+  "caption": "TABLE III PROJECTS TO VALIDATE MANUALLY",
+  "captionBoundary": {
+    "x1": 373.9190368652344,
+    "x2": 489.012939453125,
+    "y1": 74.04122924804688,
+    "y2": 86.8463134765625
+  },
+  "figType": "Table",
+  "imageText": ["RefactoringMiner", "2.0.2.", "Manual", "validation", "was", "conducted", "by", "an", "author.", "Name", "#", "Java", "ﬁles", "LOC", "#", "renamings", "#", "co-renamed", "sets", "ratpack", "831", "42,160", "1,424", "327", "ArgoUML", "1,884", "174,574", "709", "178"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 314.4,
+    "x2": 548.64,
+    "y1": 96.0,
+    "y2": 163.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-TableIII-1.png"
+}, {
+  "caption": "Fig. 8. Overview of the evaluation process.",
+  "captionBoundary": {
+    "x1": 112.66809844970703,
+    "x2": 246.8789825439453,
+    "y1": 238.49758911132812,
+    "y2": 242.96337890625
+  },
+  "figType": "Figure",
+  "imageText": ["0.5", "β", "0.9", "R6’1.0", "R5’", "R4’", "0.5", "0.9", "1.0", "Repeating", "Precision", "=", "0.5", "Recall", "=", "0.5", "Renaming", "Candidates", "with", "Degrees", "of", "Priority", "R5", "R4", "Evaluating", "Performance", "R6’", "R5’", "R4’", "Executing", "RENAS", "Renaming", "By", "developers", "R5", "R4", "R2", "Goldset", "Extracting", "One", "from", "a", "Set", "Extracting", "Renamings", "Creating", "Co-Renamed", "Sets", "R5", "R3", "R4", "R1", "R2", "R5", "R3", "R4", "commit", "R1", "R2"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 292.32,
+    "y1": 74.88,
+    "y2": 225.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure8-1.png"
+}, {
+  "caption": "Fig. 14. RQ2: Result of the manually validated dataset.",
+  "captionBoundary": {
+    "x1": 340.6716003417969,
+    "x2": 512.2769165039062,
+    "y1": 237.22561645507812,
+    "y2": 241.69140625
+  },
+  "figType": "Figure",
+  "imageText": ["(α=0.50)", "(α=0.55)", "(α=0.70)", "(α=0.70)", "α=0", "α=1", "Maximum", "Value", "among", "α=0.05~0.95", "MRR", "Top1-Recall", "Top5-Recall", "Top10-Recall", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "0.394", "0.448", "0.19", "0.652", "0.313", "0.26", "0.104", "0.443", "0.329", "0.367", "0.159", "0.575"],
+  "name": "14",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 314.4,
+    "x2": 539.04,
+    "y1": 73.92,
+    "y2": 224.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure14-1.png"
+}, {
+  "caption": "Fig. 13. RQ2: Result of the automatically identified dataset.",
+  "captionBoundary": {
+    "x1": 86.6729965209961,
+    "x2": 272.05706787109375,
+    "y1": 237.21469116210938,
+    "y2": 241.68048095703125
+  },
+  "figType": "Figure",
+  "imageText": ["(α=0.65)", "(α=0.65)", "(α=0.85)", "(α=0.65)", "α=0", "α=1", "Maximum", "Value", "among", "α=0.05~0.95", "MRR", "Top1-Recall", "Top5-Recall", "Top10-Recall", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "0.417", "0.353", "0.16", "0.657", "0.292", "0.24", "0.103", "0.472", "0.321", "0.266", "0.123", "0.552"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 292.32,
+    "y1": 73.92,
+    "y2": 224.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure13-1.png"
+}, {
+  "caption": "Fig. 3. Overview of RENAS.",
+  "captionBoundary": {
+    "x1": 255.02920532226562,
+    "x2": 346.3018493652344,
+    "y1": 243.44540405273438,
+    "y2": 247.91119384765625
+  },
+  "figType": "Figure",
+  "imageText": ["0.2", "0.5", "Calculating", "degrees", "of", "priority", "4", "node", "▼", "entity", "load", "entity", "newNode", "load", "node", "▼", "load", "node", "node", "Renaming", "by", "Developers", "Analyzing", "Relationships", "between", "Identifiers", "2", "3", "1", "Normalizing", "Identifiers", "Identifying", "Renaming", "Candidates", "new", "entity", "▼", "new", "node", "newE", "newN", "node", "▼", "entity", "load", "node", "▼", "load", "entity", "▼", "Identifiers", "in", "Source", "Code"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 168.95999999999998,
+    "x2": 433.44,
+    "y1": 75.84,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure3-1.png"
+}, {
+  "caption": "Fig. 11. Recommendation example in thunderbird-android.",
+  "captionBoundary": {
+    "x1": 339.494140625,
+    "x2": 521.7291259765625,
+    "y1": 545.7103881835938,
+    "y2": 550.1762084960938
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "After", "renaming.", "None,", "RENAS", "recommend", "None,", "RENAS", "recommend", "3", "...", "4", "}", "Relation", "+", "Normalize,", "RENAS", "recommend", "2", "SharedPreferences", "getStorage(){...}", "1", "class", "Preferences", "{", "9", "}", "8", "}", "7", "...", "6", "SharedPreferences", "storage", "=", "preferences.getStorage();", "5", "void", "loadAccount", "(Preferences", "preferences)", "{", "4", "3", "List<Identity>", "deleteIdentities", "(SharedPreferences", "storage,", "...){...}", "2", "List<Identity>", "loadIdentities", "(SharedPreferences", "storage){...}", "1", "class", "Account", "implements", "BaseAccount,", "StoreConfig", "{", "(a)", "Before", "renaming.", "Rename:", "prefs", "→", "storage", "4", "}", "3", "...", "2", "SharedPreferences", "getPreferences(){...}", "1", "class", "Preferences", "{", "9", "}", "8", "}", "7", "...", "6", "SharedPreferences", "prefs", "=", "preferences.getPreferences();", "5", "void", "loadAccount", "(Preferences", "preferences)", "{", "4", "3", "List<Identity>", "deleteIdentities", "(SharedPreferences", "prefs,", "...){...}", "2", "List<Identity>", "loadIdentities", "(SharedPreferences", "prefs){...}", "1", "class", "Account", "implements", "BaseAccount,", "StoreConfig", "{"],
+  "name": "11",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 550.0799999999999,
+    "y1": 244.79999999999998,
+    "y2": 538.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure11-1.png"
+}, {
+  "caption": "Fig. 9. RQ1: Results of the automatically identified dataset.",
+  "captionBoundary": {
+    "x1": 93.72769927978516,
+    "x2": 278.28912353515625,
+    "y1": 224.80178833007812,
+    "y2": 229.267578125
+  },
+  "figType": "Figure",
+  "imageText": ["None", "Relation", "Relation", "+", "Normalize", "RENAS", "Average", "Precision", "Average", "Recall", "Average", "F1-measure", "1", "0.9", "0.8", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "0.352", "0.605", "0.367", "0.221", "0.463", "0.2290.238", "0.438", "0.2330.252", "0.926", "0.182"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 80.16,
+    "x2": 292.32,
+    "y1": 74.39999999999999,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure9-1.png"
+}, {
+  "caption": "Fig. 10. RQ1: Results of the manually validated dataset.",
+  "captionBoundary": {
+    "x1": 343.3666076660156,
+    "x2": 517.855224609375,
+    "y1": 224.80178833007812,
+    "y2": 229.267578125
+  },
+  "figType": "Figure",
+  "imageText": ["None", "Relation", "Relation", "+", "Normalize", "RENAS", "Average", "Precision", "Average", "Recall", "Average", "F1-measure", "1", "0.9", "0.8", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "0.398", "0.712", "0.376", "0.222", "0.405", "0.2170.24", "0.377", "0.285", "0.238", "0.912", "0.216"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 537.12,
+    "y1": 74.39999999999999,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure10-1.png"
+}, {
+  "caption": "Fig. 4. Relationship graph.",
+  "captionBoundary": {
+    "x1": 258.2243957519531,
+    "x2": 342.1072998046875,
+    "y1": 272.1897888183594,
+    "y2": 276.65557861328125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "…", "parent", "enclosingClass", "field", "parent", "parent", "BeanFactoryPostProcessor", "Router", "findInAncestors", "UriInfo", "SpringBeanRouter", "siblingMembers", "method", "enclosingClass", "methodenclosingClass", "enclosingMethod", "method", "method", "enclosingClass", "enclosingClass", "parameter", "type", "siblingMembers", "getAncestorResources", "getCallContext", "ThreadLocalizedUriInfo", "newUriPart", "CallContext", "addForAncestor", "getAncestorResources"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 141.6,
+    "x2": 458.4,
+    "y1": 74.88,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure4-1.png"
+}, {
+  "caption": "Fig. 12. MAP of the automatically identified and manually validated dataset.",
+  "captionBoundary": {
+    "x1": 314.2178039550781,
+    "x2": 547.6988525390625,
+    "y1": 212.97958374023438,
+    "y2": 217.44537353515625
+  },
+  "figType": "Figure",
+  "imageText": ["0.545", "0.505", "Automatically", "Identified", "Dataset", "Manually-Validated", "Dataset", "0.550", "0.525", "0.500", "0.475", "0.450", "0.425", "0.400", "0.375", "MAP", "α", "1.00.80.60.40.20.0"],
+  "name": "12",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 351.36,
+    "x2": 510.24,
+    "y1": 69.6,
+    "y2": 200.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00057-Figure12-1.png"
+}]

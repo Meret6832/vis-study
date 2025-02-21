@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 5: A prompt for finding related variables/statements.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193115234375,
+    "y1": 287.75335693359375,
+    "y2": 293.3840026855469
+  },
+  "figType": "Figure",
+  "imageText": ["In", "this", "function,", "which", "variable", "or", "function", "holds", "the", "total", "supply/liquidity", "AND", "is", "used", "by", "the", "conditional", "branch", "to", "determine", "the", "supply/liquidity", "is", "0?", "Please", "answer", "in", "a", "section", "starts", "with", "\"VariableB:\".", "In", "this", "function,", "which", "variable", "or", "function", "holds", "the", "value", "of", "the", "deposit/mint/add", "amount?", "Please", "answer", "in", "a", "section", "starts", "with", "\"VariableC:\".", "Please", "answer", "in", "the", "following", "json", "format:", "{\"VariableA\":{\"Variable", "name\":\"Description\"},", "\"Vari-", "ableB\":{\"Variable", "name\":\"Description\"},", "\"Vari-", "ableC\":{\"Variable", "name\":\"Description\"}}", "[%CODE%]", "System:", "(same", "as", "in", "Figure", "4,", "omitted", "here", "for", "brevity.)", "An", "Example", "Prompt", "for", "GPT", "Recognition"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 88.8,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure5-1.png"
+}, {
+  "caption": "Figure 8: Front Running in 2021-08-yield.",
+  "captionBoundary": {
+    "x1": 90.46000671386719,
+    "x2": 257.38043212890625,
+    "y1": 198.00503540039062,
+    "y2": 203.63568115234375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "_mint(to,", "minted);", "11", "}", "2", "function", "mint(address", "to)", "3", "public", "4", "beforeMaturity", "5", "returns", "(uint256", "minted)", "6", "{", "7", "uint256", "deposit", "=", "pool.balanceOf(address(this))", "-", "cached;", "8", "minted", "=", "_totalSupply", "*", "deposit", "/", "cached;", "9", "cached", "+=", "deposit;", "have", "been", "transferred", "previously", ",", "using", "a", "batchable", "router.", "1", "///", "@notice", "The", "lp", "tokens", "that", "the", "user", "contributes", "need", "to"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 287.52,
+    "y1": 87.84,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure8-1.png"
+}, {
+  "caption": "Table 2: Three diverse datasets for GPTScan’s evaluation.",
+  "captionBoundary": {
+    "x1": 322.72601318359375,
+    "x2": 553.125244140625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Name", "Projects", "P", "Files", "F", "F/P", "LoC", "Vuls", "Top200", "303", "555", "1.83", "134,322", "0", "Web3Bugs", "72", "2,573", "35.74", "319,878", "48", "DefiHacks", "13", "29", "2.23", "17,824", "14", "Sum", "388", "3,157", "8.14", "472,024", "62"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 96.0,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Table2-1.png"
+}, {
+  "caption": "Table 5: Running time and financial costs of GPTScan.",
+  "captionBoundary": {
+    "x1": 64.06997680664062,
+    "x2": 283.46795654296875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "KL∗", "T∗∗", "C∗∗∗", "T/KL", "C/KL", "Top200", "134.32", "1,437.37", "0.7507", "10.70", "0.005589", "Web3Bugs", "319.88", "4,980.57", "3.9682", "15.57", "0.018658", "DefiHacks", "17.82", "375.41", "0.2727", "21.06", "0.015303", "Overall", "472.02", "6,793.35", "4.9984", "14.39", "0.010589"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 96.0,
+    "y2": 150.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Table5-1.png"
+}, {
+  "caption": "Figure 6: Risky First Deposit in 2022-02-hubble.",
+  "captionBoundary": {
+    "x1": 343.2259826660156,
+    "x2": 532.928466796875,
+    "y1": 229.88595581054688,
+    "y2": 235.5166015625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "if", "(_pool", "==", "0)", "{", "11", "shares", "=", "_amount;", "12", "}", "else", "{", "13", "shares", "=", "_amount", "*", "_totalSupply", "/", "_pool;", "14", "}", "15", "...", "16", "}", "6", "vusd.safeTransfer(governance", ",", "_pool);", "7", "_pool", "=", "0;", "8", "}", "9", "uint", "shares", "=", "0;", "accumulated", "while", "there", "were", "no", "IF", "LPs", "1", "function", "deposit(uint", "_amount)", "external", "{", "2", "...", "3", "uint", "_pool", "=", "balance", "();", "4", "uint", "_totalSupply", "=", "totalSupply", "();", "5", "if", "(_totalSupply", "==", "0", "&&", "_pool", ">", "0)", "{", "//", "trading", "fee"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 533.76,
+    "y1": 87.84,
+    "y2": 220.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Price Manipulation by AMM in 2021-09-sushimiso.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2015380859375,
+    "y1": 387.99334716796875,
+    "y2": 393.6239929199219
+  },
+  "figType": "Figure",
+  "imageText": ["12", "}", "user.rewardDebt);", "10", "}", "11", "return", "user.amount.mul(accRewardsPerShare).div(1e12).sub(", "rewardsAccum.mul(1e12).div(lpSupply));", "9", "accRewardsPerShare", "=", "accRewardsPerShare.add(", "mul(pool.allocPoint).div(totalAllocPoint);", "8", "uint256", "rewardsAccum", "=", "multiplier.mul(rewardsPerBlock).", ",", "block.number);", "2", "PoolInfo", "storage", "pool", "=", "poolInfo[_pid];", "3", "UserInfo", "storage", "user", "=", "userInfo[_pid][_user];", "4", "uint256", "accRewardsPerShare", "=", "pool.accRewardsPerShare;", "5", "uint256", "lpSupply", "=", "pool.lpToken.balanceOf(address(this));", "6", "if", "(block.number", ">", "pool.lastRewardBlock", "&&", "lpSupply", "!=", "0)", "{", "7", "uint256", "multiplier", "=", "getMultiplier(pool.lastRewardBlock", "view", "returns", "(uint256)", "{", "1", "function", "pendingRewards(uint256", "_pid", ",", "address", "_user)", "external"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 559.1999999999999,
+    "y1": 246.23999999999998,
+    "y2": 378.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure7-1.png"
+}, {
+  "caption": "Figure 1: The Risky First Deposit (line 8-9) vulnerability.",
+  "captionBoundary": {
+    "x1": 60.884971618652344,
+    "x2": 286.9549255371094,
+    "y1": 213.94595336914062,
+    "y2": 219.57659912109375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "}", "else", "{", "11", "_shares", "=", "(_amount.mul(totalSupply", "())).div(_pool);", "12", "}", "13", "_mint(msg.sender", ",", "_shares);", "14", "}", "7", "uint256", "_shares", "=", "0;", "8", "if", "(totalSupply", "()", "==", "0)", "{", "9", "_shares", "=", "_amount;", "deflationary", "tokens", "1", "function", "deposit(uint256", "_amount)", "external", "returns", "(uint256)", "{", "2", "uint256", "_pool", "=", "balance", "();", "3", "uint256", "_before", "=", "token.balanceOf(address(this));", "4", "token.safeTransferFrom(msg.sender", ",", "address(this),", "_amount);", "5", "uint256", "_after", "=", "token.balanceOf(address(this));", "6", "_amount", "=", "_after.sub(_before);", "//", "Additional", "check", "for"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 294.71999999999997,
+    "y1": 87.84,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure1-1.png"
+}, {
+  "caption": "Figure 2: TheWrong Checkpoint Order (line 6-7 & line 10-11).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0450744628906,
+    "y1": 380.0233459472656,
+    "y2": 385.65399169921875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "ILpGauge(lpGauge).userCheckpoint(msg.sender);", "11", "ILpGauge(lpGauge).userCheckpoint(account);", "12", "}", "13", "emit", "Transfer(msg.sender", ",", "account", ",", "amount);", "14", "return", "true;", "15", "}", "4", "//", "Initialize", "the", "ILiquidityPool", "pool", "variable", "5", "pool.handleLpTokenTransfer(msg.sender", ",", "account", ",", "amount);", "6", "balances[msg.sender]", "-=", "amount;", "7", "balances[account]", "+=", "amount;", "8", "address", "lpGauge", "=", "currentAddresses[_LP_GAUGE", "];", "9", "if", "(lpGauge", "!=", "address", "(0))", "{", "INSUFFICIENT_BALANCE);", "3", "require(balances[msg.sender]", ">=", "amount", ",", "Error.", "SELF_TRANSFER_NOT_ALLOWED);", "2", "require(msg.sender", "!=", "account", ",", "Error.", "override", "notPaused", "returns", "(bool)", "{", "1", "function", "transfer(address", "account", ",", "uint256", "amount)", "external"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 284.15999999999997,
+    "y1": 230.39999999999998,
+    "y2": 370.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure2-1.png"
+}, {
+  "caption": "Table 3: Overall results of GPTScan’s accuracy evaluation.",
+  "captionBoundary": {
+    "x1": 56.91497802734375,
+    "x2": 290.6226806640625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["RQ5:", "Can", "GPTScan", "discover", "new", "vulnerabilities", "that", "were", "previously", "missed", "by", "human", "auditors?", "Dataset", "Name", "TP", "TN", "FP", "FN", "Sum", "Top200", "0", "283", "13", "0", "296", "Web3Bugs", "40", "154", "30", "8", "232", "DefiHacks", "10", "19", "1", "4", "34"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 294.24,
+    "y1": 96.0,
+    "y2": 167.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Table3-1.png"
+}, {
+  "caption": "Table 1: Breaking down ten common logic vulnerability types into scenarios and properties.",
+  "captionBoundary": {
+    "x1": 119.8759994506836,
+    "x2": 491.81256103515625,
+    "y1": 176.57437133789062,
+    "y2": 182.20501708984375
+  },
+  "figType": "Table",
+  "imageText": ["Scenario:", "involve", "transfering", "token", "from", "an", "address", "different", "from", "message", "sender", "Property:", "and", "there", "is", "no", "check", "of", "allowance/approval", "from", "the", "address", "owner", "FNK,", "FCNE,", "FCE,", "FCNCE,", "FPNC", "VC", "Unauthorized", "Transfer", "Scenario:", "involve", "calculating", "swap/liquidity", "or", "adding", "liquidity,", "and", "there", "is", "asset", "exchanges", "or", "price", "queries", "Property:", "but", "this", "operation", "could", "be", "attacked", "by", "Slippage/Sandwich", "Attack", "due", "to", "no", "slip", "limit/minimum", "value", "check", "FCCE,", "FCNCE", "VC", "Slippage", "FCE,", "CEN", "OC", "Wrong", "Checkpoint", "Order", "Scenario:", "have", "inside", "code", "statements", "that", "invoke", "user", "checkpoint", "Property:", "and", "have", "inside", "code", "statements", "that", "calculate/assign/distribute", "the", "balance/share/stake/fee/loan/reward", "FCE,", "CEN", "OC", "Scenario:", "have", "inside", "code", "statements", "that", "update/accrue", "interest/exchange", "rate", "Property:", "and", "have", "inside", "code", "statements", "that", "calculate/assign/distribute", "the", "balance/share/stake/fee/loan/reward", "Wrong", "Interest", "Rate", "Order", "Scenario:", "mint", "or", "vest", "or", "collect", "token/liquidity/earning", "and", "assign", "them", "to", "the", "address", "recipient", "or", "to", "variable", "Property:", "and", "this", "operation", "could", "be", "front", "run", "to", "benefit", "the", "account/address", "that", "can", "be", "controlled", "by", "the", "parameter", "and", "has", "no", "sender", "check", "in", "the", "function", "code", "FNK,", "FPNC,", "FPT,", "FCNE,", "FNM", "FA", "Front", "Running", "FCCE", "DF", "Vote", "Manipulation", "by", "Flashloan", "Scenario:", "calculate", "vote", "amount/number", "Property:", "and", "this", "vote", "amount/number", "is", "from", "a", "vote", "weight", "that", "might", "be", "manipulated", "by", "flashloan", "Price", "Manipulation", "by", "Buying", "Tokens", "Scenario:", "buy", "some", "tokens", "Property:", "using", "Uniswap/PancakeSwap", "APIs", "FNK,", "FCE", "FA", "FNK,", "FCCE", "DF", "Price", "Manipulation", "by", "AMM", "Scenario:", "have", "code", "statements", "that", "get", "or", "calculate", "LP", "token’s", "value/price", "Property:", "based", "on", "the", "market", "reserves/AMMprice/exchangeRate", "OR", "the", "custom", "token", "balanceOf/totalSupply/amount/liquidity", "calculation", "FCCE", "DF,", "VC", "Scenario:", "deposit/mint/add", "the", "liquidity", "pool/amount/share", "Property:", "and", "set", "the", "total", "share", "to", "the", "number", "of", "first", "deposit", "when", "the", "supply/liquidity", "is", "0", "Risky", "First", "Deposit", "FNI,", "FCCE", "VC", "Scenario:", "add", "or", "check", "approval", "via", "require/if", "statements", "before", "the", "token", "transfer", "Property:", "and", "there", "is", "no", "clear/reset", "of", "the", "approval", "when", "the", "transfer", "finishes", "its", "main", "branch", "or", "encounters", "exceptions", "Approval", "Not", "Cleared", "Vulnerability", "Type", "Scenario", "and", "Property", "Filtering", "Type", "Static", "Check"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 186.72,
+    "y2": 474.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Table1-1.png"
+}, {
+  "caption": "Figure 3: A high-level overview of GPTScan, with blue blocks denoting GPT tasks and green blocks representing static analysis.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1796264648438,
+    "y1": 162.62637329101562,
+    "y2": 168.25701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["§4.3:", "Filtering", "for", "Candidate", "Functions", "Result", "of", "Logic", "Vulns", "§4.4:", "From", "GPT", "Recognition", "to", "Static", "Confirmation", "for", "confirmation", "Supplied", "to", "static", "analysis", "Analysis", "Vuln", "types", "+", "Key", "variables", "&", "statements", "Static", "Reachability", "Smart", "Contract", "Project", "§4.2:", "GPT-based", "Scenario", "and", "Property", "Matching", "via", "GPT", "Recognizing", "key", "var/stmts", "Property-", "based", "GPT", "matching", "Scenario-", "based", "GPT", "matching", "pairs", "Candidate", "function", "filtering", "Multi-", "dimensional"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 557.28,
+    "y1": 84.96,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure3-1.png"
+}, {
+  "caption": "Table 4: Raw functions before and after static confirmation.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1922607421875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Vulnerability", "Type", "Before", "After", "Approval", "Not", "Cleared", "34", "12", "Risky", "First", "Deposit", "100", "21", "Price", "Manipulation", "by", "AMM", "187", "114", "Price", "Manipulation", "by", "Buying", "Tokens", "8", "8", "Vote", "Manipulation", "by", "Flashloan", "2", "0", "Front", "Running", "6", "4", "Wrong", "Interest", "Rate", "Order", "150", "11", "Wrong", "Checkpoint", "Order", "49", "1", "Slippage", "99", "42", "Unauthorized", "Transfer", "12", "8", "Total", "647", "221"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 96.0,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Table4-1.png"
+}, {
+  "caption": "Figure 4: Prompt for scenario and property matching.",
+  "captionBoundary": {
+    "x1": 65.375,
+    "x2": 282.4605407714844,
+    "y1": 345.8243408203125,
+    "y2": 351.4549865722656
+  },
+  "figType": "Figure",
+  "imageText": ["Property", "Matching", "Does", "the", "following", "smart", "contract", "code", "\"[%SCENARIO,", "PROPERTY%]\"?", "Answer", "only", "\"Yes\"", "or", "\"No\".", "[%CODE%]", "Scenario", "Matching", "Given", "the", "following", "smart", "contract", "code,", "answer", "the", "ques-", "tions", "below", "and", "organize", "the", "result", "in", "a", "json", "format", "like", "{\"1\":", "\"Yes\"", "or", "\"No\",", "\"2\":", "\"Yes\"", "or", "\"No\"}.", "\"1\":", "[%SCENARIO_1%]?", "\"2\":", "[%SCENARIO_2%]?", "[%CODE%]", "System:", "You", "are", "a", "smart", "contract", "auditor.", "Youwill", "be", "asked", "questions", "related", "to", "code", "properties.", "You", "can", "mimic", "an-", "swering", "them", "in", "the", "background", "five", "times", "and", "provide", "me", "with", "the", "most", "frequently", "appearing", "answer.", "Furthermore,", "please", "strictly", "adhere", "to", "the", "output", "format", "specified", "in", "the", "question;", "there", "is", "no", "need", "to", "explain", "your", "answer.", "Prompt", "Template"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 88.8,
+    "y2": 337.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639117-Figure4-1.png"
+}]

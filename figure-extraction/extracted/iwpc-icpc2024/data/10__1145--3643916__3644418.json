@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 5: An overview of KareCoder. Given a programming problem, KareCoder matches the Knowledge Library appropriate to the problem and then generates a prompt for solving the problem. Finally, the prompt is used to guide the generation of code.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.2041625976562,
+    "y1": 284.4084167480469,
+    "y2": 299.7206115722656
+  },
+  "figType": "Figure",
+  "imageText": ["Tag", "Generator", "Prompt", "Code", "t=int(input())", "for", "i", "in", "range(t):", "count=0", "(more...)", "print(count)", "knowledges?", "How", "to", "complete", "the", "code?", "How", "to", "solve", "the", "problem", "Do", "we", "need", "these", "Problem", "KareCoder", "Codes", "With", "Tag", "Without", "Tag", "Prompt", "Engineer", "Coder", "(more...)", "7.", "Print", "the", "value", "of", "count", "as", "the", "output.", "8.", "End", "the", "loop.", "1.", "Read", "t,", "the", "number", "of", "test", "cases.", "2.", "Loop", "t", "times.", "Knowledge", "Prompt", "Problem", "Solution", "Examples", "Knowledge", "Library", "Problem", "Knowledge", "Prompt", "Examples"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 86.39999999999999,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Illustration of the input and output of Prompt Engineering Stage. The input includes a example, a new problem and its corresponding knowledge description, the output is the knowledge-aware prompt for the new problem.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.8116455078125,
+    "y1": 633.0430908203125,
+    "y2": 670.2733154296875
+  },
+  "figType": "Figure",
+  "imageText": ["11", "9.Check", "the", "(n+m-1)//2", "bit", "of", "dp[-1].", "If", "it", "is", "1,", "print", "\"YES\";", "otherwise,", "print", "\"NO\".", "#", "DP", "result", "check.", "12", "(more...)", "the", "element", "at", "a[i][j].", "The", "bit", "shift", "operation", "is", "used", "here", "to", "handle", "the", "state", "transition.", "#", "DP", "status", "transfer.", "5", "------------------------------------------------Prompt", "Engineer-------------", "6", "//", "Knowledge-aware", "Prompt", "(P):", "7", "(more...)", "8", "6.Initialize", "an", "array", "dp", "of", "size", "m+1", "with", "zeros.", "#", "DP", "initialization.", "9", "7.Loop", "n", "times,", "set", "dp[0]", "to", "1", "if", "i=0,", "else", "0.", "#", "DP", "boundary", "conditions.", "10", "8.Loop", "m", "times,", "compute", "the", "value", "of", "dp[j", "+", "1]", "based", "on", "dp[j],", "dp[j", "+", "1]", "and", "breaking", "them", "down", "into", "smaller,", "simpler", "sub-problems.", "It", "involves", "solving", "each", "sub-problem", "only", "once", "and", "storing", "the", "solutions", "in", "a", "table", "for", "future", "use.", "(more...)", "3", "//", "Knowledge", "Description", "(K'):", "4", "DP:", "Dynamic", "programming,", "is", "a", "technique", "used", "to", "solve", "complex", "problems", "by", "-th", "(1", "≤", "𝑖", "≤", "𝑛)", "row", "and", "j-th", "(1", "≤", "𝑗", "≤", "𝑚)", "column", "by", "(i,", "j)", "and", "the", "number", "there", "by", "𝑎𝑖", "𝑗", ".", "All", "numbers", "are", "equal", "to", "1", "or", "to", "-1.", "You", "start", "from", "the", "square", "(1,", "1)", "and", "can", "move", "one", "square", "down", "or", "one", "square", "to", "the", "right", "at", "a", "time.", "You", "want", "to", "end", "up", "at", "the", "square", "(n,", "m).", "Is", "it", "possible", "to", "move", "in", "such", "a", "way", "so", "that", "the", "sum", "of", "the", "values", "written", "in", "all", "the", "visited", "cells", "(including", "𝑎11", "and", "𝑎𝑛𝑚)", "is", "0?", "(more...)", "1", "//", "Problem", "(Q):", "2", "You", "are", "given", "a", "grid", "with", "n", "rows", "and", "m", "columns.", "We", "denote", "the", "square", "on", "the", "i", "data", "in", "a", "computer", "program.", "(more", "...)", "6", "------------------------------------------------Example", "(X)-----------------", "7", "//Knowledge-aware", "Prompt", "(P):", "8", "(more...)", "9", "2.", "Loop", "t", "times", "to", "read", "each", "test", "case", "string", "s.", "10", "3.", "Convert", "the", "string", "s", "to", "lowercase", "using", "the", "built-in", "function", "lower().", "11", "4.", "Check", "if", "the", "string", "s", "is", "equal", "to", "\"yes\".", "12", "(more...)", "3", "//", "Knowledge", "Description", "(K'):", "4", "Brute", "force:", "Brute", "force", "is", "a", "straightforward", "approach", "to", "problem-solving", "that", "exhaustively", "searches", "all", "possible", "solutions.", "(more", "...)", "5", "Strings:", "Strings", "are", "sequences", "of", "characters", "used", "to", "represent", "text", "or", "other", "English", "letters.", "Check", "if", "it", "is", "equal", "to", "\"YES\"", "(without", "quotes),", "where", "each", "letter", "can", "be", "in", "any", "case.", "For", "example,", "\"yES\",", "\"Yes\",", "\"yes\"", "are", "all", "allowable.", "(more", "...)", "1", "//", "Problem", "(Q):", "2", "There", "is", "a", "string", "s", "of", "length", "3,", "consisting", "of", "uppercase", "and", "lowercase"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 557.28,
+    "y1": 319.68,
+    "y2": 617.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Figure6-1.png"
+}, {
+  "caption": "Table 8: Comparative evaluation of KareCoder with other methods on the top 500 problems in the APPS test set.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.2352600097656,
+    "y1": 87.00399017333984,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["ChatGPT+Plan", "9.2", "11.1", "11.9", "ChatGPT+SCOT", "13.3", "14.2", "14.4", "ChatGPT+SCOT&KareCoder", "13.0", "15.0", "16.1", "ChatGPT+KareCoder", "13.1", "15.2", "15.8", "Relative", "Improvement", "-1.5%", "↓", "1.3%", "↑", "-1.9%", "↓", "ChatGPT", "19.5", "30.0", "34.4", "Method", "Pass@1", "Pass@3", "Pass@5"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 298.08,
+    "y1": 116.64,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table8-1.png"
+}, {
+  "caption": "Figure 1: Experimental validation of split-difficulties on CodeF post2021-9 and CodeF pre2021-9 datasets.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.04559326171875,
+    "y1": 283.7904052734375,
+    "y2": 299.10260009765625
+  },
+  "figType": "Figure",
+  "imageText": ["(c) Hard", "(d) Average", "(a) Simple", "(b) Medium"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 267.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Figure1-1.png"
+}, {
+  "caption": "Table 7: Comparative evaluation of KareCoder with different ChatGPT Settings on various difficulties of CodeF post2021-9. For convenience of representation, we use “Tem” to represent “Temperature”.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 558.4069213867188,
+    "y1": 317.7915344238281,
+    "y2": 333.1036071777344
+  },
+  "figType": "Table",
+  "imageText": ["Tem=0.8", "Top_P=0.95", "29.4", "33.7", "35.4", "8.7", "10.6", "11.8", "8.6", "10.2", "10.7", "Tem=0.9", "Top_P=0.95", "29.3", "31.5", "32.2", "8.8", "10.5", "11.7", "6.2", "7.6", "8.0", "Tem=1", "Top_P=1", "30.5", "38.8", "41.8", "10.5", "14.4", "16.4", "7.4", "11.1", "12.5", "Relative", "Improvement", "3.7%", "↑", "15.1%", "↑", "18.1%", "↑", "19.3%", "↑", "35.8%", "↑", "39.0%", "↑", "-14.0%", "↓", "8.8%", "↑", "16.8%", "↑", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Simple", "Medium", "Hard", "ChatGPT", "Setings"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 541.4399999999999,
+    "y1": 348.0,
+    "y2": 429.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table7-1.png"
+}, {
+  "caption": "Table 5: Performance of KareCoder utilizing different Knowledge Libraries.",
+  "captionBoundary": {
+    "x1": 153.04330444335938,
+    "x2": 458.6632995605469,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Knowledge", "Description", "30.5", "38.8", "41.8", "10.5", "14.4", "16.4", "7.4", "11.1", "12.5", "Knowledge", "Pseudo-code", "23.5", "27.3", "28.7", "9.0", "12.7", "14.2", "6.5", "8.0", "8.6", "Knowledge", "Step", "of", "Pseudo-code", "26.5", "29.3", "29.8", "7.4", "10.7", "12.0", "5.9", "7.9", "8.8", "Relative", "Improvement", "15.1%", "↑", "32.4%", "↑", "40.3%", "↑", "16.7%", "↑", "13.4%", "↑", "15.5%", "↑", "13.8%", "↑", "38.8%", "↑", "42.0%", "↑", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Simple", "Medium", "Hard", "Knowledge", "Library"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 553.4399999999999,
+    "y1": 105.6,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table5-1.png"
+}, {
+  "caption": "Table 6: Comparative evaluation of KareCoder with different shot times on various difficulties of CodeF post2021-9.",
+  "captionBoundary": {
+    "x1": 71.81210327148438,
+    "x2": 539.89404296875,
+    "y1": 202.39822387695312,
+    "y2": 206.75140380859375
+  },
+  "figType": "Table",
+  "imageText": ["1-shot", "30.5", "38.8", "41.8", "10.5", "14.4", "16.4", "7.4", "11.1", "12.5", "2-shot", "30.7", "34.2", "36.1", "12.6", "15.5", "16.8", "6.0", "8.0", "9.0", "3-shot", "31.5", "34.1", "34.9", "9.3", "10.9", "11.5", "9.6", "11.7", "12.5", "Relative", "Improvement", "-3.2%", "↓", "13.5%", "↑", "15.8%", "↑", "-16.7%", "↓", "-7.1%", "↓", "-2.4%", "↓", "-22.9%", "↓", "-5.1%", "↓", "0%", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Simple", "Medium", "Hard", "Shot", "Times"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 541.4399999999999,
+    "y1": 221.76,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table6-1.png"
+}, {
+  "caption": "Table 1: Subsets of Simple, Medium and Hard difficulties in CodeF Post2021-9 and CodeF Pre2021-9 datasets.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.0420227050781,
+    "y1": 208.67623901367188,
+    "y2": 223.988525390625
+  },
+  "figType": "Table",
+  "imageText": ["Medium", "*1300-*1600", "400-499", "CodeF", "Pre2021-9", "Hard", "*1900-*2200", "640-739", "Simple", "*800", "000-099", "Medium", "*1300-*1600", "400-499", "CodeF", "Post2021-9", "Hard", "*1900-*2500", "600-699", "Simple", "*800", "000-099", "Dataset", "Difficulty", "Difficulty", "Range", "Problem", "Number"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 238.56,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table1-1.png"
+}, {
+  "caption": "Table 2: Descriptive statistics of CodeF.",
+  "captionBoundary": {
+    "x1": 94.89720153808594,
+    "x2": 252.65206909179688,
+    "y1": 349.1795349121094,
+    "y2": 353.53271484375
+  },
+  "figType": "Table",
+  "imageText": ["CodeF", "2047.1", "3.1", "CodeF", "pre2021-9", "2018.7", "3.2", "CodeF", "post2021-9", "2079.0", "3.0", "Average", "algorithm", "tags", "number", "token", "Dataset", "Average", "question"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 368.64,
+    "y2": 434.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table2-1.png"
+}, {
+  "caption": "Figure 2: Schematic diagram of CodeF acquisition and processing. The processing part includes data cleaning and splitting.",
+  "captionBoundary": {
+    "x1": 57.596099853515625,
+    "x2": 554.40576171875,
+    "y1": 182.77322387695312,
+    "y2": 187.12640380859375
+  },
+  "figType": "Figure",
+  "imageText": ["Data", "Split", "CodeF", "Pre2021-9", "Data", "CleaningProblem", "Select", "CodeF", "Post2021-9", "Programming", "Website", "Data", "Crawler"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 551.04,
+    "y1": 84.96,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Distribution of algorithms and data structure tags.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 558.20361328125,
+    "y1": 542.618896484375,
+    "y2": 546.9721069335938
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Distribution", "of", "CodeF", "post2021-9.", "(b)", "Distribution", "of", "CodeF", "pre2021-9.", "(a)", "Distribution", "of", "CodeF."],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 204.95999999999998,
+    "y2": 526.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Figure3-1.png"
+}, {
+  "caption": "Table 4: Comparative evaluation of KareCoder with other methods on the CodeF post2021-9.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.2352600097656,
+    "y1": 287.38043212890625,
+    "y2": 302.6925964355469
+  },
+  "figType": "Table",
+  "imageText": ["ChatGPT+Plan", "14.2", "17.3", "18.3", "ChatGPT+SCOT", "11.2", "14.2", "15.0", "ChatGPT+SCOT&KareCoder", "14.0", "15.2", "15.5", "ChatGPT+KareCoder", "15.9", "19.8", "21.3", "Relative", "Improvement", "12.0%", "↑", "14.5%", "↑", "16.4%", "↑", "ChatGPT", "12.9", "22.4", "26.9", "Method", "Pass@1", "Pass@3", "Pass@5"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 298.08,
+    "y1": 317.76,
+    "y2": 410.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table4-1.png"
+}, {
+  "caption": "Table 3: Comparative evaluation of KareCoder and other methods on Simple, Medium and Hard difficulties of CodeF Post2021-9.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 558.2066040039062,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["ChatGPT+Plan(3-shot)", "29.7", "31.9", "32.4", "7.1", "12.5", "15.8", "6.5", "7.9", "8.5", "ChatGPT+SCOT(3-shot)", "29.9", "30.0", "30.0", "10.8", "12.2", "12.5", "7.7", "9.4", "9.8", "ChatGPT+SCOT&KareCoder(3-shot)", "29.7", "30.0", "30.0", "9.1", "10.5", "10.9", "8.8", "9.8", "9.9", "ChatGPT+KareCoder(3-shot)", "31.5", "34.1", "34.9", "9.3", "10.9", "11.5", "9.6", "11.7", "12.5", "Relative", "Improvement", "5.4%", "↑", "6.9%", "↑", "7.7%", "↑", "-13.9%", "↓", "-12.8%", "↓", "-27.2%", "↓", "9.1%", "↑", "19.4%", "↑", "26.3%", "↑", "ChatGPT+Plan", "28.5", "31.8", "33.6", "5.1", "7.6", "8.4", "7.3", "8.6", "9.0", "ChatGPT+SCOT", "19.1", "24.3", "25.2", "6.4", "11.3", "13.1", "7.7", "11.6", "12.4", "ChatGPT+SCOT&KareCoder", "24.7", "25.0", "25.0", "7.7", "9.2", "9.6", "7.3", "8.0", "8.0", "ChatGPT+KareCoder", "30.5", "38.8", "41.8", "10.5", "14.4", "16.4", "7.4", "11.1", "12.5", "Relative", "Improvement", "7.0%", "↑", "22.0%", "↑", "24.4%", "↑", "36.4%", "↑", "27.4%", "↑", "25.2%", "↑", "-3.9%", "↓", "-4.3%", "↓", "0.8%", "↑", "ChatGPT", "26.1", "39.8", "46.2", "7.0", "15.0", "19.5", "6.0", "10.4", "12.4", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Pass@1", "Pass@3", "Pass@5", "Simple", "Medium", "Hard", "Method"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 560.16,
+    "y1": 101.75999999999999,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Table3-1.png"
+}, {
+  "caption": "Figure 4: Examples of different Knowledge Libraries. The corresponding Greedy algorithm is shown here.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.0455627441406,
+    "y1": 270.9393005371094,
+    "y2": 286.2515869140625
+  },
+  "figType": "Figure",
+  "imageText": ["4", "----------------------------------------------------------------------------", "5", "//", "Knowledge", "pseudo-code:", "6", "Greedy:function", "Greedy(problem):", "7", "solution", "=", "empty_solution()", "8", "while", "not", "problem_solved(problem,", "solution):", "9", "candidate", "=", "find_best_candidate(problem,", "solution)", "10", "add_candidate_to_solution(candidate,", "solution)", "11", "return", "solution", "12", "----------------------------------------------------------------------------", "13", "//", "Knowledge", "Step", "of", "pseudo-code:", "14", "Greedy:1.Initializes", "an", "empty", "solution.", "15", "2.Enters", "a", "loop", "until", "the", "problem", "is", "solved,", "based", "on", "the", "solution.", "16", "3.Finds", "the", "best", "candidate", "for", "the", "next", "step", "based", "on", "the", "problem", "and", "the", "current", "solution.", "17", "4.Adds", "the", "best", "candidate", "to", "the", "solution.", "18", "5.Continues", "to", "the", "next", "iteration", "of", "the", "loop.", "19", "6.Once", "the", "problem", "is", "solved,", "it", "returns", "the", "final", "solution.", "available", "option", "at", "each", "step", "without", "considering", "the", "long-term", "impact.", "It", "is", "useful", "for", "optimization", "problems", "where", "finding", "an", "exact", "solution", "is", "intractable,", "but", "may", "not", "always", "lead", "to", "the", "optimal", "solution.", "Greedy", "algorithms", "are", "easy", "to", "implement", "and", "efficient.", "1", "//", "Knowledge", "Description:", "2", "//", "This", "is", "the", "default", "Knowledge", "Library", "of", "KareCoder.", "3", "Greedy:The", "greedy", "algorithm", "is", "a", "heuristic", "approach", "that", "selects", "the", "best"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 292.32,
+    "y1": 84.96,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644418-Figure4-1.png"
+}]

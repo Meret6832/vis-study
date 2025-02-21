@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1: Test Case Model",
+  "captionBoundary": {
+    "x1": 124.1989974975586,
+    "x2": 223.34503173828125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Constructor", "NPC", "Lane", "id,", "lane", "offset,", "initial", "speed", "Method", "Accelerate", "Target", "speed,", "trigger", "sequence", "Method", "Decelerate", "Target", "speed,", "trigger", "sequence", "Method", "Lane", "changing", "Target", "lane,", "target", "speed,", "trigger", "sequence", "Type", "Name", "Parameter"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Table1-1.png"
+}, {
+  "caption": "Figure 1: Scenarios in different abstraction levels",
+  "captionBoundary": {
+    "x1": 339.3949890136719,
+    "x2": 536.7545776367188,
+    "y1": 224.01138305664062,
+    "y2": 229.64202880859375
+  },
+  "figType": "Figure",
+  "imageText": ["Concrete", "Scenario", "Logical", "Scenario", "Parameter", "Ranges", "Cut-in", "distance", "(d):", "[5m,", "30m]", "Speed", "of", "Ego", "vehicle", "(vego):", "[5m/s,", "20m/s]", "Speed", "of", "NPC", "vehicle", "(vnpc):", "[5m/s,", "20m/s]", "Functional", "Scenario", "“The", "ego", "vehicle", "is", "traveling", "on", "a", "straight", "road,", "while", "an", "NPC", "vehicle", "suddenly", "cuts", "in", "front", "of", "it", "from", "the", "right", "side.”"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Figure1-1.png"
+}, {
+  "caption": "Table 5: Statements and report cases used for the user study",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0351867675781,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["lane-change", "collision", "Case", "5", "2006043699404", "6-lane", "straight", "road,", "3", "vehicles", "involved,", "change", "collision", "Case", "4", "2006002585306", "4-lane", "curved", "road,", "2", "vehicles", "involved,", "lane-", "lane-change", "collision", "Case", "3", "2005004496082", "4-lane", "straight", "road,", "3", "vehicles", "involved,", "end", "collision", "Case", "2", "2006009501304", "4-lane", "curved", "road,", "2", "vehicles", "involved,", "rear-", "rear-end", "collision", "Case", "1", "2005008586482", "3-lane", "straight", "road,", "3", "vehicles", "involved,", "#", "Report", "ID", "Short", "Description", "4", "The", "formal", "test", "case", "template", "matches", "the", "interactive", "pattern", "sequence.", "5", "The", "parameter", "ranges", "in", "the", "test", "case", "can", "accurately", "reflect", "the", "scenario.", "1", "The", "description", "of", "the", "road", "structure", "is", "correct.", "2", "The", "initial", "actions", "of", "vehicles", "are", "described", "accurately.", "3", "The", "interactive", "patterns", "between", "vehicles", "are", "extracted", "accurately.", "ID", "Statement"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Table5-1.png"
+}, {
+  "caption": "Figure 6: Results over different cases",
+  "captionBoundary": {
+    "x1": 364.0480041503906,
+    "x2": 512.1033935546875,
+    "y1": 230.22732543945312,
+    "y2": 235.85797119140625
+  },
+  "figType": "Figure",
+  "imageText": ["Road", "Structure", "Initial", "Action", "Interactive", "Pattern", "Test", "Case", "Template", "Parameter", "Range", "5", "4", "3", "2", "Case", "1", "Case", "2", "Case", "3", "Case", "4", "Case", "5", "1"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 84.0,
+    "y2": 216.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Figure6-1.png"
+}, {
+  "caption": "Figure 2: The workflow of LeGEND",
+  "captionBoundary": {
+    "x1": 234.3179931640625,
+    "x2": 377.6806335449219,
+    "y1": 217.61135864257812,
+    "y2": 223.24200439453125
+  },
+  "figType": "Figure",
+  "imageText": ["Safety", "Violations", "Interactive", "Pattern", "Sequence", "Interactive", "Patterns", "Initial", "Actions", "Other", "Environment", "Information", "Logical", "Concrete", "Functional", "Ego", "Substitution", "①", "②", "③", "scenario", "diversity", "scenario", "interactivity", "Evaluation", "scenario", "criticality", "ADSObjectives", "Simulator", "&", "Sampling", "Selection", "Variation", "Parameter", "Range", "Filling", "Template", "Generation", "+", "Accident", "Reports", "LLM2", "LLM1", "Phase", "1:", "Extraction", "Phase", "2:", "Conversion", "Phase", "3:", "Multi-objective", "Search"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 104.16,
+    "x2": 508.32,
+    "y1": 84.47999999999999,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Figure2-1.png"
+}, {
+  "caption": "Figure 3: An example of transforming an accident report to a logical scenario in DSL",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.031005859375,
+    "y1": 555.6903076171875,
+    "y2": 572.2789916992188
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Transformation", "from", "the", "accident", "report", "to", "logical", "scenario", "(a)", "An", "illustration", "of", "a", "real", "accident", "[27]"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 240.95999999999998,
+    "y2": 540.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Figure3-1.png"
+}, {
+  "caption": "Table 4: Cause Distribution",
+  "captionBoundary": {
+    "x1": 382.0581970214844,
+    "x2": 493.8031921386719,
+    "y1": 286.3609924316406,
+    "y2": 292.08099365234375
+  },
+  "figType": "Table",
+  "imageText": ["Number", "1", "4", "2", "2", "9", "#", "C1", "C2", "C3", "C4", "Total"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 306.71999999999997,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Table4-1.png"
+}, {
+  "caption": "Table 3: The comparison between LeGEND and LeGEND−",
+  "captionBoundary": {
+    "x1": 331.9088134765625,
+    "x2": 543.9506225585938,
+    "y1": 85.72835540771484,
+    "y2": 102.33331298828125
+  },
+  "figType": "Table",
+  "imageText": ["The", "terms", "‘avg’", "and", "‘std’", "refer", "to", "the", "average", "value", "and", "standard", "devia-", "tion,", "respectively.", "std", "1.5", "0.9", "#TimeForOneScenario", "avg", "32.1", "31.9", "std", "37.5", "84.3", "#SimForAllTypes", "avg", "1354", "982", "std", "5.2", "13.1", "#SimForFirstType", "avg", "11", "81", "std", "1.6%", "0.9%", "#TypeExposRate", "avg", "11.5%", "7.1%", "#Types", "11", "2", "LeGEND", "LeGEND−", "Metric", "Method"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 545.28,
+    "y1": 116.64,
+    "y2": 271.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Table3-1.png"
+}, {
+  "caption": "Table 2: The comparison with baselines",
+  "captionBoundary": {
+    "x1": 101.39959716796875,
+    "x2": 246.15628051757812,
+    "y1": 253.32339477539062,
+    "y2": 258.455322265625
+  },
+  "figType": "Table",
+  "imageText": ["The", "terms", "‘avg’", "and", "‘std’", "refer", "to", "the", "average", "value", "and", "standard", "deviation,", "respectively.", "std", "1.5", "0.3", "0.5", "#TimeForOneScenario", "avg", "32.1", "46.2", "46.6", "std", "37.5", "145.1", "71.2", "#SimForAllTypes", "avg", "1354", "642", "594", "std", "5.2", "17.7", "6.7", "#SimForFirstType", "avg", "11", "35", "14", "std", "1.6%", "0.4%", "0.2%", "#TypeExposRate", "avg", "11.5%", "3.1%", "1.3%", "#Types", "11", "2", "4", "LeGEND", "Random", "AV-Fuzzer", "Metric", "Method"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.88,
+    "y1": 271.68,
+    "y2": 415.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695520-Table2-1.png"
+}]

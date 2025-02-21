@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 4: Edit distance and longest common subsequence comparison. This table shows median values, with the best scores highlighted in bold. Edit distance is to be minimized; longest common subsequence is to be maximized. For each model, we provide results for zero-shot (Zero) and few-shot (Few) prompts.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2003173828125,
+    "y1": 309.776123046875,
+    "y2": 337.32501220703125
+  },
+  "figType": "Table",
+  "imageText": ["Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "HDFS", "13.0", "11.0", "8.0", "3.0", "23.0", "8.5", "4.0", "8.0", "18.0", "6.0", "29.0", "15.5", "38.5", "37.5", "38.5", "41.5", "25.0", "39.5", "41.0", "39.5", "36.5", "41.0", "30.5", "33.0", "Hadoop", "22.0", "8.0", "8.0", "4.0", "26.5", "13.0", "3.5", "3.5", "70.5", "15.0", "55.0", "59.5", "41.0", "37.0", "36.0", "36.0", "22.0", "34.0", "34.0", "34.0", "35.0", "36.5", "31.5", "32.0", "Spark", "15.5", "0.0", "6.5", "0.0", "20.0", "5.5", "1.5", "2.5", "44.5", "0.0", "26.5", "28.0", "37.0", "37.0", "32.0", "30.5", "19.5", "29.5", "34.5", "35.0", "34.0", "38.5", "35.0", "9.5", "Zookeeper", "3.5", "0.0", "3.5", "0.0", "29.5", "9.0", "0.0", "0.0", "89.0", "3.0", "51.5", "38.5", "35.5", "38.0", "38.0", "36.0", "10.5", "32.5", "37.0", "38.0", "31.0", "37.0", "28.0", "30.5", "OpenStack", "16.0", "16.0", "85.0", "0.0", "36.0", "18.0", "0.0", "0.0", "34.0", "18.0", "71.0", "43.0", "35.0", "36.0", "46.0", "48.0", "13.0", "39.0", "46.0", "46.0", "38.0", "42.0", "36.0", "27.0", "BGL", "20.0", "3.0", "63.0", "0.0", "44.0", "13.0", "20.0", "3.0", "51.5", "12.0", "49.5", "44.5", "44.0", "44.0", "44.0", "45.0", "6.0", "44.0", "44.0", "44.0", "41.0", "43.5", "40.0", "41.0", "HPC", "33.5", "24.5", "38.0", "29.0", "31.0", "18.0", "22.0", "22.5", "35.0", "25.0", "37.5", "34.0", "22.5", "24.0", "22.0", "23.0", "6.0", "18.5", "17.5", "22.5", "10.0", "18.0", "18.0", "7.5", "Thunderbird", "10.0", "6.0", "13.0", "12.0", "26.0", "8.0", "9.0", "5.0", "19.0", "10.0", "25.0", "33.0", "28.0", "29.0", "29.0", "27.0", "6.0", "28.0", "28.0", "29.0", "27.0", "27.0", "13.0", "10.0", "Windows", "10.0", "4.5", "6.5", "7.5", "37.5", "10.0", "7.0", "5.0", "50.0", "13.5", "28.0", "36.5", "45.0", "45.0", "40.5", "45.0", "14.5", "41.0", "41.5", "43.5", "39.0", "39.5", "42.5", "37.5", "Linux", "3.5", "0.0", "9.0", "4.5", "17.0", "5.0", "0.0", "0.0", "5.5", "0.0", "30.0", "30.0", "31.5", "31.5", "28.0", "30.0", "18.5", "27.0", "28.5", "30.0", "29.0", "32.0", "31.0", "25.0", "Mac", "10.0", "6.0", "14.0", "22.0", "38.0", "24.0", "14.0", "7.0", "32.0", "10.0", "40.0", "43.0", "50.0", "49.0", "56.0", "47.0", "15.0", "37.0", "47.0", "48.0", "47.0", "49.0", "44.0", "34.0", "Android", "6.0", "0.0", "3.0", "0.0", "25.0", "4.0", "2.0", "0.0", "17.0", "4.0", "25.0", "34.0", "38.0", "38.5", "37.5", "37.5", "17.0", "36.5", "38.5", "40.5", "34.0", "37.0", "31.0", "19.5", "HealthApp", "3.0", "2.0", "20.0", "18.0", "35.0", "5.0", "0.0", "0.0", "49.0", "1.0", "49.0", "42.0", "35.0", "35.0", "32.0", "35.0", "3.0", "31.0", "34.0", "31.0", "30.0", "35.0", "24.0", "15.0", "Apache", "8.5", "0.0", "14.5", "12.0", "33.0", "28.0", "0.0", "4.0", "31.0", "8.5", "17.5", "35.0", "36.5", "39.5", "39.0", "35.0", "6.0", "28.5", "39.5", "40.0", "38.0", "40.0", "43.0", "33.0", "OpenSSH", "7.0", "0.0", "14.0", "11.0", "41.0", "15.5", "6.0", "3.0", "20.5", "7.0", "42.0", "45.0", "46.0", "50.5", "46.0", "49.0", "9.0", "42.0", "44.5", "50.0", "40.0", "44.5", "43.5", "37.5", "Proxifier", "48.5", "23.0", "17.0", "25.5", "23.5", "20.5", "18.0", "16.0", "52.0", "54.0", "45.5", "69.5", "64.0", "66.5", "58.0", "76.0", "44.0", "45.5", "54.0", "61.0", "54.5", "61.0", "33.5", "18.5", "Total", "11.0", "4.0", "14.0", "11.0", "31.0", "11.0", "7.0", "3.0", "36.0", "9.0", "35.0", "37.0", "38.0", "39.0", "39.0", "38.0", "12.0", "35.0", "37.0", "38.0", "35.0", "38.0", "33.0", "28.0", "Edit", "Distance", "-", "Median", "(small", "is", "better)", "Longest", "Common", "Subsequence", "-", "Median", "(large", "is", "better)", "GPT-3.5", "Claude", "2.1", "Llama", "2", "CodeLlama", "CodeUp", "Zephyr", "GPT-3.5", "Claude", "2.1", "Llama", "2", "CodeLlama", "CodeUp", "Zephyr"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 351.84,
+    "y2": 521.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Table4-1.png"
+}, {
+  "caption": "Table 3: Parsing accuracy comparison. The best values are highlighted in bold. For each model, we provide results for zero-shot (Zero) and few-shot (Few) prompts.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2048950195312,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["HDFS", "0", "2", "3", "5", "2", "3", "2", "2", "2", "3", "1", "1", "Hadoop", "16", "39", "30", "50", "15", "10", "50", "43", "15", "22", "8", "6", "Spark", "10", "21", "13", "20", "11", "11", "18", "17", "9", "20", "7", "2", "Zookeeper", "8", "27", "19", "25", "9", "11", "31", "29", "8", "22", "3", "4", "OpenStack", "8", "13", "6", "25", "6", "9", "28", "25", "5", "3", "2", "2", "BGL", "11", "41", "14", "66", "1", "4", "8", "32", "0", "8", "0", "6", "HPC", "0", "3", "0", "1", "0", "7", "7", "10", "1", "4", "2", "1", "Thunderbird", "18", "45", "13", "21", "0", "30", "19", "50", "19", "37", "0", "0", "Windows", "17", "21", "15", "15", "1", "13", "13", "19", "0", "3", "12", "0", "Linux", "41", "64", "29", "48", "26", "41", "60", "76", "41", "66", "20", "12", "Mac", "96", "125", "105", "55", "29", "53", "106", "130", "62", "105", "64", "25", "Android", "47", "77", "72", "81", "6", "56", "73", "91", "22", "58", "5", "3", "HealthApp", "28", "33", "21", "19", "0", "25", "39", "47", "6", "34", "2", "1", "Apache", "1", "5", "0", "0", "0", "0", "4", "3", "1", "0", "0", "0", "OpenSSH", "8", "15", "6", "8", "1", "8", "12", "12", "2", "8", "0", "0", "Proxifier", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "Total", "309", "531", "346", "439", "107", "281", "470", "586", "193", "393", "126", "63", "GPT-3.5", "Claude", "2.1", "Llama", "2", "CodeLlama", "CodeUp", "Zephyr", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few", "Zero", "Few"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 157.92,
+    "x2": 454.08,
+    "y1": 116.64,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Table3-1.png"
+}, {
+  "caption": "Figure 1: An example workflow of log parsing.",
+  "captionBoundary": {
+    "x1": 212.00599670410156,
+    "x2": 399.99560546875,
+    "y1": 198.2500762939453,
+    "y2": 203.8809814453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 82.56,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Ranking based on metrics.",
+  "captionBoundary": {
+    "x1": 365.6619873046875,
+    "x2": 510.49639892578125,
+    "y1": 418.01611328125,
+    "y2": 423.6470031738281
+  },
+  "figType": "Figure",
+  "imageText": ["12", "10", "8", "6", "4", "2", "12", "10", "12", "11", "11", "11", "11", "11", "11", "10", "12", "10", "10", "10", "10", "10", "10", "7", "5", "4", "4", "4", "4", "5", "3", "6", "6", "9", "8", "11", "9", "9", "8", "8", "8", "10", "1", "1", "1", "1", "1", "3", "3", "2", "1", "3", "2", "3", "3", "3", "6", "7", "7", "5", "8", "9", "5", "7", "7", "9", "8", "9", "9", "11", "7", "9", "12", "12", "12", "12", "12", "12", "4", "3", "5", "5", "5", "7", "3", "5", "1", "6", "6", "8", "8", "8", "2", "1", "3", "1", "2", "11", "2", "2", "2", "4", "1", "1", "1", "7", "5", "5", "6", "6", "1", "3", "4", "8", "Zephyr-Few", "Zephyr-Zero", "CodeUP-Few", "CodeUP-Zero", "CodeLlama-Few", "CodeLlama-Zero", "Llama", "2-Few", "Llama", "2-Zero", "Claude", "2.1-Few", "Claude", "2.1-Zero", "GPT-3.5-Few", "GPT-3.5-Zero", "TLA", "ED-mean", "ED-median", "EDSim", "norm-mean", "ED-norm-median", "LCS-mean", "LCS-median", "LCS-norm-mean", "LCS-norm-median"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 549.6,
+    "y1": 89.28,
+    "y2": 396.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Figure4-1.png"
+}, {
+  "caption": "Table 5: Variable formats followed by LLMs.",
+  "captionBoundary": {
+    "x1": 216.88299560546875,
+    "x2": 394.8212890625,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CodeUp", "<>,", "{},", "{{}},", "%,", "${},", "[],", "<<>>,", "<>", "%,", "[_̂]̂,", "#,", "&", "no", "closing", "brackets,", "opening-closing", "tag", "pairs", "<", "∗", ">,", "∗,", "<", "∗,", "...", "Model", "Zero-shot", "Few-shot", "GPT-3.5", "<>,", "{},", "X,", "<TPL>,", "opening-closing", "tag", "pairs", "<", "∗", ">,", "<>", "Claude", "2.1", "<>,", "{},", "${},", "@", "@,", "$", "$,", "{{}},", "[[]],", "opening-closing", "tag", "pairs", "<", "∗", ">,", "∗", "Llama", "2", "${},", "<>,", "{},", "$,", "$", "$,", "[],", "[]+,", "$[],", "(),", "%,", "?,", "∗∗", "∗∗,", "#,", "no", "closing", "brackets,", "opening-closing", "tag", "pairs", "{},", "∗,", "<>,", "<", "∗", ">,", "<", "∗", "CodeLlama", "{},", "<>,", "${},", "$,", "%,", "{{}},", "[],", "opening-closing", "tag", "pairs", "<", "∗", ">,", "<>,", "∗,", "<", "∗∗", ">", "Zephyr", "Beta", "<>,", "{},", "{{}},", "[],", "[[]]", "%,", "#,", "$,", "$", "$,", "X", "___,", "opening-closing", "tag", "pairs", "{},", "’", "’,", "[],", "{{{}}},", "X", "∗,", "<", "∗∗", ">,", "<", "∗", ">,", "<", "∗"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 145.92,
+    "x2": 466.08,
+    "y1": 105.6,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Table5-1.png"
+}, {
+  "caption": "Figure 2: Overview of the experimental method.",
+  "captionBoundary": {
+    "x1": 76.73100280761719,
+    "x2": 271.11358642578125,
+    "y1": 198.42909240722656,
+    "y2": 204.05999755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Templates", "Ranking", "…", "Response", "n", "Response", "2", "Response", "1", "Evaluation", "of", "Results", "…", "LLM", "n", "Post-processingLLM", "2", "LLM", "1", "Prompt", "Log", "Messages"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The prompt prefix. Few-shot examples are highlighted in green. The log messages are inserted in <MSG>...</MSG> at the bottom of the prompt.",
+  "captionBoundary": {
+    "x1": 317.0409851074219,
+    "x2": 558.2041015625,
+    "y1": 557.5360717773438,
+    "y2": 585.0850219726562
+  },
+  "figType": "Figure",
+  "imageText": [": ", "i", "t", "fr", "*", "/", ">", ":", "-", "-", ":", ":", "I", ":", "i", "t", "fr", "/user/input/ﬁle.txt</", "S", ">", "A:", "<TPL>ERR", "R", "<*>", "while", "processing", "line", "<*>:", "cannot", "ﬁnd", "input", "*", "/", ":", "<", "S", ">20231114T101914E", "ERR", "R", "14", "while", "processing", "line", ":", "t", "i", "t", "‘", "’", "/", ":", "s", "t", "c", "l", "t", "/", ">", ":", "-", ".", ".", "-", "-", "-I:J", "-", "-", "10-19-08.08.40.058960", "R17-", "0-N0-I:J18-U01", "RAS", "KERNEL", "INF", "s", "t", "c", "l", "t", "/", ": ", "[", "*", "yst", ".", "t", "r", "l", "ck:", "l", "ck", "t", ":", "*", ":", "*", "is", "t", "*", "siz", "*", "]", "/", "10.250.11.85:50010", "is", "added", "to", "blk_2377150260128098806", "size", "]", "/", ":", "[", "I", "fs.", "syst", ":", "*", "t", ".", "t", "r", "l", ":", "l", "t", ":", "r", "r", "f", "x", "l", "s", "f", "l", "ss", "s ", "(l", "l", "it", ":)", "c", "rr", "s", "i", "t", "l", "t", "s", "(l", "l", "it", ":):", "Here", "is", "the", "input", "log", "message:<MSG>...</MSG>", "Please", "print", "the", "corresponding", "template.", "Q:", "<MSG>2023-01-14", "23:05:14", "INFO:", "Reading", "data", "from", "/user/input/ﬁle.txt</MSG>", "A: ", "<TPL>Reading", "data", "from", "<*>", "</TPL>", "Q:", "<MSG>20231114T101914E", "ERROR", "14", "while", "processing", "line", "123:", "cannot", "ﬁnd", "input", "‘42’</MSG>", "A:", "<TPL>ERROR", "<*>", "while", "processing", "line", "<*>:", "cannot", "ﬁnd", "input", "<*></TPL>", "Q:", "<MSG>-", "1129734520", "2005.10.19", "R17-M0-N0-I:J18-U01", "2005-", "10-19-08.08.40.058960", "R17-M0-N0-I:J18-U01", "RAS", "KERNEL", "INFO", "shutdown", "complete</MSG>", "A:", "<TPL>shutdown", "complete</TPL>", "Q:", "<MSG>[081109", "204453", "34", "INFO", "dfs.FSNamesystem:", "BLOCK*", "NameSystem.addStoredBlock:", "blockMap", "updated:", "10.250.11.85:50010", "is", "added", "to", "blk_2377150260128098806", "size", "67108864]</MSG>", "A: ", "<TPL>[BLOCK*", "NameSystem.addStoredBlock:", "blockMap", "updated:", "<*>:<*>", "is", "added", "to", "<*>", "size", "<*>]</TPL>", "Here", "are", "a", "few", "examples", "of", "log", "messages ", "(labeled", "with", "Q:)", "and", "corresponding", "templates", "(labeled", "with", "A:):", "You", "must", "output", "the", "template", "corresponding", "to", "the", "log", "message.", "Print", "only", "the", "input", "log’s", "template", "surrounded", "by", "<TPL>", "and", "</TPL>.", "Never", "print", "an", "explanation", "of", "how", "the", "template", "is", "constructed.", "The", "log", "message", "typically", "consists", "of", "two", "parts:", "1.", "Template", "-", "message", "body,", "that", "contains", "constant", "strings", "(or", "keywords)", "describing", "the", "system", "events;", "2.", "Parameters/Variables", "-", "dynamic", "variables,", "which", "reﬂect", "speciﬁc", "runtime", "status.", "You", "must", "identify", "and", "abstract", "all", "the", "dynamic", "variables", "in", "the", "log", "message", "with", "suitable", "placeholders", "inside", "angle", "brackets", "to", "extract", "the", "corresponding", "template.", "You", "will", "be", "provided", "with", "a", "log", "message", "delimited", "by", "<MSG>", "and", "</MSG>.", "The", "log", "texts", "describe", "various", "system", "events", "in", "a", "software", "system.", "A", "log", "message", "usually", "contains", "a", "header", "that", "is", "automatically", "produced", "by", "the", "logging", "framework,", "including", "information", "such", "as", "timestamp,", "class,", "and", "logging", "level", "(INFO,", "DEBUG,", "WARN", "etc.)."],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 542.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Comparison of different aspects based on ranking with Pearson correlation coefficient. Colour and shape show the different LLMs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1986083984375,
+    "y1": 317.5310974121094,
+    "y2": 334.1210021972656
+  },
+  "figType": "Figure",
+  "imageText": ["GPT-3.5", "Claude", "2.1", "Llama2", "CodeLlama", "CodeUp", "Zephyr", "(c)", "Edit", "distance", "and", "Longest", "Common", "Subsequence.", "Correlation", "coefficient", "=", "0.68", "(b)", "Standard", "and", "normalized.", "Correlation", "coefficient", "=", "0.72", "(a)", "Mean", "and", "median.", "Correlation", "coefficient", "=", "0.83"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 546.24,
+    "y1": 92.64,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Figure5-1.png"
+}, {
+  "caption": "Table 1: Description of the LogHubdataset. Number of unique templates for the original and corrected datasets (Khan et al. [13]) are shown.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.205078125,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Standalone", "software", "Proxifier", "8", "8", "Total", "1363", "1354", "Server", "applications", "Apache", "6", "6", "OpenSSH", "27", "26", "Mobile", "systems", "Android", "166", "158", "HealthApp", "75", "75", "Operating", "systems", "Windows", "50", "50", "Linux", "118", "118", "Mac", "341", "341", "Super", "computers", "BGL", "120", "120", "HPC", "46", "46", "Thunderbird", "149", "149", "Distributed", "Systems", "HDFS", "14", "14", "Hadoop", "114", "114", "Spark", "36", "36", "Zookeeper", "50", "50", "OpenStack", "43", "43", "Type", "Project", "#", "Original", "[31]", "#", "Khan", "et", "al.", "[13]"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 549.12,
+    "y1": 127.67999999999999,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Table1-1.png"
+}, {
+  "caption": "Table 2: Overview of large language models.",
+  "captionBoundary": {
+    "x1": 84.8270034790039,
+    "x2": 262.7203674316406,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Version/", "Release", "time", "Base", "model", "Availability", "GPT-3.5", "gpt-3.5-turbo-0613/", "June,", "2023", "-", "Closed-source", "Claude", "2.1", "November,", "2023", "-", "Closed-source", "Llama", "2", "llama2:7b/", "July,", "2023", "-", "Public", "CodeLlama", "codellama:7b-instruct/", "August,", "2023", "Llama", "2", "Public", "Zephyr", "Beta", "zephyr:7b/", "October,", "2023", "Mistral-7B", "Public", "CodeUp", "codeup:13b/", "July,", "2023", "Llama", "2", "Public"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686684-Table2-1.png"
+}]

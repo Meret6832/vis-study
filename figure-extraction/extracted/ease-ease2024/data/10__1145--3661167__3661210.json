@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 5: Anecdotal example of Code Summarization",
+  "captionBoundary": {
+    "x1": 200.84698486328125,
+    "x2": 410.8580627441406,
+    "y1": 237.7450714111328,
+    "y2": 243.3759765625
+  },
+  "figType": "Table",
+  "imageText": ["Ground", "Truth", "Returns", "True", "if", "Harvard", "Annotation", "Tool", "is", "enabled", "for", "the", "course,", "False", "otherwise.", "Checks", "for", "’textannotation’,", "’imageannotation’,", "’videoannotation’", "in", "the", "list", "of", "advanced", "modules", "of", "the", "course.", "Args:", "course:", "Course", "to", "check.", "Returns:", "True", "if", "HarvardNotes", "is", "enabled,", "False", "otherwise.", "Model", "Summary", "of", "the", "above", "function", "PreTrained", "This", "function", "returns", "whether", "or", "not", "the", "advanced", "modules", "are", "enabled", "for", "a", "given", "course.", "Central", "Check", "if", "the", "advanced", "module", "Harvard", "Notes", "is", "enabled", "in", "a", "course.", "Fed-round@BEST", "Check", "whether", "HarvardNotes", "is", "enabled", "in", "a", "course.", "Function", "def", "is_harvard_notes_enabled(course):", "modules", "=", "set([’textannotation’,", "’imageannotation’,", "’videoannotation’])", "return", "bool(modules.intersection(course.advanced_modules))"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 257.76,
+    "y2": 371.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Table5-1.png"
+}, {
+  "caption": "Figure 3: The growth of LoRA fine-tuned Federated model with respect to non-Federated model performance",
+  "captionBoundary": {
+    "x1": 85.489990234375,
+    "x2": 526.5116577148438,
+    "y1": 214.83106994628906,
+    "y2": 220.46197509765625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "C-BLEU", "metric", "(b)", "METEOR", "metric", "(c)", "ROUGE-L", "metric"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Overview of FedLLM (M: Model, TD: Training Data, A: Adapter)",
+  "captionBoundary": {
+    "x1": 159.13600158691406,
+    "x2": 452.8663635253906,
+    "y1": 286.0830993652344,
+    "y2": 291.7139892578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 548.16,
+    "y1": 82.56,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Figure1-1.png"
+}, {
+  "caption": "Table 6: LoRA Fine-tuning Time (h:mm:ss) andMetrics across 20 Federated Rounds on a 40GB RAM A100 GPU with 26,980 Data Points. FM after fed-round 2 is performing better than NFM. Bold highlights indicate optimal rounds for cessation, with round 7 as the peak performance for the FM.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.292236328125,
+    "y1": 85.7260971069336,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Round", "Total", "training", "time", "C-BLEU", "METEOR", "ROUGE-L", "0", "0:00:00", "0.350", "4.205", "6.003", "1", "3:16:22", "2.268", "13.781", "19.109", "2", "6:32:48", "2.839", "15.702", "22.659", "3", "9:49:11", "3.084", "15.297", "22.827", "4", "13:05:31", "3.135", "15.980", "22.921", "5", "16:21:51", "3.364", "16.008", "22.722", "6", "19:38:09", "3.445", "15.917", "22.859", "7", "22:54:27", "3.478", "16.145", "22.972", "8", "26:10:41", "3.526", "16.160", "22.610", "9", "29:27:01", "3.459", "15.660", "22.560", "10", "32:43:18", "3.461", "16.037", "22.957", "11", "35:59:36", "3.531", "15.864", "22.645", "12", "39:15:55", "3.432", "15.890", "22.337", "13", "42:32:14", "3.517", "15.948", "22.730", "14", "45:48:32", "3.520", "15.992", "22.792", "15", "49:04:47", "3.343", "15.730", "22.408", "16", "52:21:04", "3.615", "16.010", "22.415", "17", "55:37:23", "3.475", "15.853", "22.579", "18", "58:53:41", "3.594", "16.075", "22.526", "19", "62:10:00", "3.370", "16.240", "22.471", "20", "65:26:19", "3.535", "16.161", "22.522", "3:14:37", "2.382", "12.439", "17.422", "Federated", "Model", "(FM)", "Non-Federated", "Model", "(NFM)", "Total", "training", "time", "C-BLEU", "METEOR", "ROUGE-L"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 564.0,
+    "y1": 149.76,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Table6-1.png"
+}, {
+  "caption": "Table 3: Vanilla versus centrally fine-tuned model",
+  "captionBoundary": {
+    "x1": 337.0719909667969,
+    "x2": 538.7892456054688,
+    "y1": 564.6541137695312,
+    "y2": 570.2850341796875
+  },
+  "figType": "Table",
+  "imageText": ["LoRA", "of", "rank", "8", "targeting", "query", "and", "key", "matrices", "were", "effec-", "tive", "for", "Code", "Sumarization", "dataset.", "Future", "research", "to", "identify", "optimal", "hyper-parameters", "for", "various", "datasets.", "RQ1", "Summary", "Model", "Type", "C-BLEU", "METEOR", "ROUGE-L", "Vanilla", "0.350", "4.205", "6.003", "Fine-tuned", "(Non-Fed)", "2.382", "12.439", "17.422"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 584.64,
+    "y2": 688.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Table3-1.png"
+}, {
+  "caption": "Table 1: Detailed performance metrics for various rank configurations with respect to different target modules.",
+  "captionBoundary": {
+    "x1": 80.7960205078125,
+    "x2": 530.9093627929688,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Target", ">", "Wq", "Wq,", "Wk", "Wq,", "Wk,", "Wv,", "Wo", "LoRA", "Rank", "C-BLEU", "METEOR", "ROUGE-L", "C-BLEU", "METEOR", "ROUGE-L", "C-BLEU", "METEOR", "ROUGE-L", "1", "2.16", "13.25", "19.69", "2.45", "13.63", "19.11", "2.52", "13.37", "18.68", "2", "2.08", "12.85", "18.62", "2.49", "13.98", "19.60", "2.29", "13.36", "20.39", "4", "2.44", "13.59", "19.73", "2.43", "13.28", "18.92", "2.66", "13.41", "20.31", "8", "2.25", "13.82", "20.51", "2.61", "14.06", "20.79", "2.33", "12.39", "18.51", "16", "2.35", "13.53", "19.77", "2.66", "14.00", "20.45", "1.46", "8.96", "13.29", "32", "2.54", "13.75", "20.33", "2.82", "14.56", "20.62", "2.68", "12.69", "18.54", "64", "2.40", "13.98", "19.92", "2.83", "14.69", "21.17", "2.35", "12.46", "17.80", "128", "2.53", "14.27", "20.69", "2.89", "14.51", "21.21", "2.48", "12.34", "17.80"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 547.1999999999999,
+    "y1": 105.6,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Table1-1.png"
+}, {
+  "caption": "Table 2: Metrics for different sizes of training data.",
+  "captionBoundary": {
+    "x1": 335.3639831542969,
+    "x2": 540.4973754882812,
+    "y1": 265.5760803222656,
+    "y2": 271.20697021484375
+  },
+  "figType": "Table",
+  "imageText": ["1,000", "0.2531", "4.3847", "6.2132", "10,000", "2.5638", "13.9612", "20.8453", "25,000", "2.7713", "14.6956", "21.5177", "50,000", "3.2675", "14.7905", "21.3874", "109,108", "3.1288", "13.3954", "18.5298", "Train", "Data", "Size", "C-BLEU", "METEOR", "ROUGE-L", "100", "0.2938", "4.2298", "6.0065"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 285.59999999999997,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Table2-1.png"
+}, {
+  "caption": "Table 4: Comparison of performance metrics between Central and Federated models.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8107299804688,
+    "y1": 323.777099609375,
+    "y2": 340.36700439453125
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Type", "Round", "C-BLEU", "METEOR", "ROUGE-L", "Central", "NA", "2.382", "12.439", "17.422", "Federated", "1", "2.268", "13.781", "19.109", "Federated", "2", "2.839", "15.702", "22.659"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 354.71999999999997,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Table4-1.png"
+}, {
+  "caption": "Figure 2: Violin Plots of Function Counts in Repositories for Clients 0, 1, and 2",
+  "captionBoundary": {
+    "x1": 146.93701171875,
+    "x2": 465.0650329589844,
+    "y1": 297.8741149902344,
+    "y2": 303.5050048828125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Client", "0", "(b)", "Client", "1", "(c)", "Client", "2"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661210-Figure2-1.png"
+}]

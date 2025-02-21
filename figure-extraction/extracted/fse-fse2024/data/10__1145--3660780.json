@@ -1,0 +1,61 @@
+[{
+  "caption": "Table 1. Result of comparative analysis classifying civil and uncivil code review comments.",
+  "captionBoundary": {
+    "x1": 75.75,
+    "x2": 410.0075378417969,
+    "y1": 78.1632080078125,
+    "y2": 82.390869140625
+  },
+  "figType": "Table",
+  "imageText": ["ToxiCR", "73.89%", "86.26%", "63.75%", "73.31%", "207", "Stanford", "PD", "[24]", "52.11%", "62.54%", "37.13%", "46.59%", "359", "Polite", "ChatBot", "[51,", "60]", "58.52%", "66.23%", "53.59%", "59.24%", "265", "Detoxiﬁcation", "Classiﬁer", "[23,", "50,", "66]", "50.34%", "100%", "11.73%", "21.01%", "504", "GPT4.0", "55.47%", "98.37%", "21.19%", "34.87%", "450", "Our", "Reﬁned", "Model", "90.73%", "85.86%", "100%", "92.39%", "0", "Model", "Accuracy", "Precision", "Recall", "F1-score", "#", "of", "False", "Negative"],
+  "name": "1",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 101.75999999999999,
+    "x2": 384.0,
+    "y1": 92.16,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660780-Table1-1.png"
+}, {
+  "caption": "Table 3. Performance comparison on translation efficiency among politeness and detoxification models.",
+  "captionBoundary": {
+    "x1": 51.6351318359375,
+    "x2": 434.1233215332031,
+    "y1": 174.0093994140625,
+    "y2": 178.237060546875
+  },
+  "figType": "Table",
+  "imageText": ["Here,", "↑,", "↓,", "and", "∗", "present", "increasing,", "decreasing,", "and", "statically", "not", "signiﬁcant", "(i.e.,", "?", ">", "0.05)", "trends,", "respectively.", "Incivility", "Decrease", "76.71%", "71.10%", "65.63%", "76.58%", "89.14%", "76.44%", "75.58%", "76.41%", "90.95%", "94.90%", "Semantic", "Similarity", "77.70%", "89.31%", "92.18%", "83.14%", "90.34%", "98.45%", "82.83%", "81.25%", "86.22%", "92.34%", "Sentence", "Similarity", "39.53%", "64.85%", "80.05%", "46.20%", "51.76%", "85.59%", "46.15%", "44.47%", "38.40%", "62.40%", "Length", "Dissimilarity", "↓", "47.19%", "↓", "1.94%", "↓", "1.37%", "↓", "53.79%", "↓", "33.72%", "↑", "6.33%", "↓", "53.71%", "↓", "55.64%", "↑", "56.45%", "↑", "3.06%", "SentiCR", "↑", "56.44%", "↑", "31.87%", "↑", "13.38%", "↑", "47.93%", "↑", "16.30%", "↑", "41.36%", "↑", "48.66%", "↑", "45.01%", "↑", "42.89%", "↑", "51.05%", "SentiStrength-SE", "↑", "19.63%", "↑", "*11.46%", "↑", "*0.29%", "↓", "*3.01%", "↓", "*1.58%", "↓", "*1.86%", "↑", "*0.14%", "↓", "*3.72%", "↑", "43.41%", "↑", "65.90%", "RoBERTa", "↑", "30.66%", "↑", "12.67%", "↑", "13.90%", "↑", "25.84%", "↑", "25.76%", "↑", "*6.05%", "↑", "27.31%", "↑", "25.35%", "↑", "27.47%", "↑", "46.08%", "J", "40.84%", "28.18%", "1.92%", "15.21%", "8.86%", "9.06%", "0.96%", "17.46%", "45.35%", "67.20%", "Perplexity", "8.31", "8.25", "10.43", "8.93", "8.71", "5.17", "9.18", "7.59", "4.67", "5.64", "Model", "Proposed", "Transfer", "[51]", "Marco", "[41]", "ParaDetox", "[50]", "ParaGedi", "[23]", "CondaBert", "[23]", "COUNT", "[66]", "DiﬀuDetox", "[34]", "GPT4.0", "Analyzer", "ChatBot", "[60]", "Polite"],
+  "name": "3",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 184.79999999999998,
+    "y2": 269.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660780-Table3-1.png"
+}, {
+  "caption": "Table 2. Efficiency of proposed models on translating uncivil comments into civil counterparts.",
+  "captionBoundary": {
+    "x1": 68.1781005859375,
+    "x2": 417.5806579589844,
+    "y1": 79.1593017578125,
+    "y2": 83.386962890625
+  },
+  "figType": "Table",
+  "imageText": ["Here,", "↑", "presents", "increasing", "trends.", "T5", "94.90%", "88.98%", "53.44%", "11.93%", "↑", "32.17%", "↑", "65.04%", "↑", "37.09%", "↑", "55.88%", "5.73", "BART", "93.92%", "92.40%", "62.40%", "3.06%", "↑", "21.91%", "↑", "65.90%", "↑", "32.27%", "↑", "50.14%", "6.47", "NLLB", "91.59%", "90.63%", "59.08%", "5.98%", "↑", "27.97%", "↑", "50.29%", "↑", "25.57%", "↑", "48.52%", "5.64", "MarianMT", "79.81%", "88.09%", "59.54%", "15.76%", "↑", "21.21%", "↑", "37.39%", "↑", "31.21%", "↑", "44.17%", "6.64", "GPT3.5", "(FT)", "90.09%", "85.79%", "41.49%", "29.98%", "↑", "51.05%", "↑", "64.45%", "↑", "39.37%", "↑", "57.54%", "6.58", "Models", "Incivility", "Decrease", "Semantic", "Similarity", "Sentence", "Similarity", "Length", "Dissimilarity", "SentiCR", "SentiStrength-", "SE", "RoBERTa", "J", "Perplexity"],
+  "name": "2",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 92.64,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660780-Table2-1.png"
+}]

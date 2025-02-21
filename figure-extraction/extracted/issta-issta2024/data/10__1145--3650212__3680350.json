@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1: Overview of each technique, the type of analysis (Dynamic or Static), and the sub-categories of miscon gurations each addresses. The main categories of miscon gurations are as follows: (Ca) Calibration, (Co) Contextual, (M) Messages, (N) Names, (O) Other, (P) Parameter, (T) Semantic Types, † Author validated, ∗ Authors Disagreement.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.2973022460938,
+    "y1": 87.06208801269531,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Han", "et", "al.", "[23]", "ICSE", "2022", "D", "(P)", "Incorrect", "(P)", "Dependency", "(N)", "Mismatches", "(N)", "Remapping", "(P)", "Dead", "Write", "(P)", "Incorrect", "Das", "et", "al.", "[11]", "ICRA", "2022", "D", "(Co)", "Sensors", "(Ca)", "Camera", "Heiden", "et", "al.", "[24]†", "ICRA", "2022", "D", "(O)", "Simulation", "Timperley", "et", "al.", "[51]†", "ICSA", "2022", "S", "(M)", "Con", "icting", "Publishers", "(M)", "No", "Publisher", "(M)", "Format", "(Co)", "Sensors", "(Co)", "Actuators", "(BUG)", "Infrastructure", "Reference", "Venue", "Year", "Analysis", "Miscon", "gurations", "Kate", "et", "al.", "[29]†", "FSE", "2018", "S", "(T)", "Physical", "Units", "Burgueno", "et", "al.", "[5]†", "ICSE-RoSE", "2018", "S/D", "(T)", "Physical", "Units", "(T)", "Constraints", "Witte", "et", "al.", "[56]", "ICSE-RoSE", "2018", "S/D", "(N)", "Mismatches", "(M)", "No", "Publisher", "Wuest", "et", "al.", "[57]", "ICRA", "2019", "D", "(P)Missing", "Cramariuc", "et", "al.", "[10]", "ICRA", "2020", "D", "(Ca)", "Camera", "(Co)", "Sensors", "Carvalho", "et", "al.", "[7]†", "IROS", "2020", "D", "(T)", "Constraints", "(M)", "Format", "(M)", "No", "Publisher", "Wigand", "et", "al.", "[55]", "IROS", "2020", "S", "(Co)", "Actuators", "(Co)", "Application-Environment", "(Co)", "Mechanical", "Kate", "et", "al.", "[28]", "FSE", "2021", "S", "(TF)", "Incorrect", "Transform", "(TF)Missing", "Transform", "Jung", "et", "al.", "[27]†", "FSE", "2021", "D", "(P)", "Incorrect", "(P)", "Dependency", "(P)", "Defaults", "(Co)", "Application-Environment", "Kortik", "et", "al.", "[33]", "ICRA", "2021", "S/D", "(M)", "Format", "(M)", "No", "Publisher", "(M)", "Con", "icting", "Publishers", "Santos", "et", "al.", "[45]†∗", "ICSE-RoSE", "2021", "S/D", "(N)", "Mismatches", "(M)", "No", "Publisher", "DeVries", "et", "al.", "[12]†", "ICSE-SEAMS", "2021", "S/D", "(Co)", "Application-Environment", "(Co)Mechanical", "(Co)", "Sim-vs-Real", "Taylor", "et", "al.", "[48]†", "ASE", "2022", "S", "(T)", "Physical", "Units", "(TF)", "Incorrect", "Transform", "(TF)", "Missing", "Transform", "Kim", "et", "al.", "[31]†", "FSE", "2022", "D", "(DSL)", "URDF", "(P)", "Incorrect", "(Co)", "Sim", "vs", "Real"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 127.67999999999999,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680350-Table1-1.png"
+}, {
+  "caption": "Figure 1: Three-step methodology for analyzing ROS Answers questions. Step 1 collects a snapshot of 67 189 questions. Step 2 selects questions with accepted answers containing ROS or software architecture concepts and lters questions about compilation or building issues. Step 3 produces a sample of 228 questions ltered based on their relevance. Questions are divided into stages, where their codings are iteratively improved.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2041625976562,
+    "y1": 200.4151153564453,
+    "y2": 237.58599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["analyzed", "not", "analyzed", "10", "898", "Manual", "Filtering", "+", "2", "614", "relevantnot", "relevant", "228", "13", "740", "27", "547", "67", "1789", "A4", "A2", "A3", "A1", "Data", "Collection", "&", "Filtering", "Open", "Coding", "Validation", "&", "Coding", "Check", "Relevancy", "CODE", "CODE", "Description", "Compilation", "and", "Build", "Errors", "Filter", "Description", "Description", "Category", "Category", "Category", "CODE", "ROS", "and", "Architecture", "Concepts", "Filter", "Accepted", "Answers", "Filter", "ROS", "Answers", "Snapshot"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 558.24,
+    "y1": 86.39999999999999,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680350-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Example of a ROS Answers question corresponding to a miscon guration where the developer incorrectly de-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8048095703125,
+    "y1": 506.902099609375,
+    "y2": 522.156005859375
+  },
+  "figType": "Figure",
+  "imageText": ["3", "Set", "config/topic_points", "to", "\"\"", ".", "As", "specified", "in", "the", "launch", "file", ":", "\"if", "empty,", "poincloud", "will", "be", "reconstructed", "from", "image", "and", "depth\"", "0", "linkadd", "a", "comment", "873", "●7", "●14", "●20", "answered", "Apr", "10", "'16", "al-dev", "2", "I", "have", "confirmed", "using", "rviz", "that", "my", "machine", "does", "receive", "video", "stream", "from", "the", "Realsense", "camera.", "Does", "anyone", "have", "any", "pointers", "on", "what", "I", "might", "be", "doing", "wrong", "to", "not", "receive", "anything", "on", "the", "rgbdslam", "GUI.", "<param", "name=\"config/topic_image_mono\"", "value=\"/camera/color/image_raw\"/>", "<param", "name=\"config/topic_image_depth\"", "value=\"/camera/depth/image_raw\"/>", "<param", "name=\"config/topic_points\"", "value=\"/camera/depth/points\"/>", "<param", "name=\"config/base_frame_name\"", "value=\"/camera_link\"/>", "<param", "name=\"config/camera_info_topic\"", "value=\"/camera/color/camera_info\"/>"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 382.56,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680350-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Mindmap of the miscon gurations identi ed from the study presenting the 12 high-level categories of miscon gurations, and their 50 sub-categories level. Each miscon guration contains the number of questions annotated with the code. Each question may refer to more than one miscon guration.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.8035278320312,
+    "y1": 319.4801025390625,
+    "y2": 345.6929931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Other", "Documentation", "Simulation", "BUG:Component", "BUG:Infrastructure", "27", "66", "11", "20", "18", "58", "84", "19", "Duplication", "Incorrect-Transform", "Missing-Transform", "Queues", "Frequency", "Stale", "Data", "Synchronization", "Conflicting", "Publishers", "Format", "Filters", "No", "Publisher", "Periodic", "Mismatches", "Namespaces", "Remapping", "Semantic", "Types", "Color", "Format", "Constraints", "Physical", "Units", "Transformations", "Launch", "Arguments", "Duplication", "Environment", "Variable", "Includes", "Race", "Condition", "Parameters", "Dead-Write", "Defaults", "Dependency", "Incorrect", "Missing", "Calibration", "Camera", "PID", "Odometry", "Timeliness", "21", "Names", "49", "Messages", "14", "Contextual", "Application-Environment", "Simulation", "vs", "Real", "Hardware", "Actuators", "Compute", "Mechanical", "Sensors", "Nodes", "Incorrect", "Missing", "Embedded", "DSL", "MoveIt", "Navigation", "Stack", "ROS", "Control", "Robot", "Localization", "URDF", "Taxonomy", "of", "Misconfigurations", "TF", "39"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 85.92,
+    "y2": 300.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680350-Figure3-1.png"
+}, {
+  "caption": "Figure 6: Methodology of the literature review. We collected prior work from 2018 to 2022 from top conferences and journals in software engineering, robotics, architecture, and testing. We re ned the search by looking at the paper titles, then reading the papers and matching them to miscon gurations. We perform an internal validation with three authors and author validation with the authors of each technique to validate the proposed tool for miscon guration matching.",
+  "captionBoundary": {
+    "x1": 53.44879913330078,
+    "x2": 558.2054443359375,
+    "y1": 222.36012268066406,
+    "y2": 259.531982421875
+  },
+  "figType": "Figure",
+  "imageText": ["ECSA", "ISSTA", "ICST", "†", "A3", "A4", "18", "23", "Author", "Validation", "Tool2", "Misc2,3", "Tool1", "Misc1", "...", "...", "Paper", "Authors", "Tool2", "Misc2,3", "Tool1", "Misc1", "...", "...", "A2", "Internal", "Validation", "Tool2", "Misc2", "Tool1", "Misc1", "...", "...", "296", "Misconfigurations", "Refinement", "Title", "Refinement", "18.729", "A1", "TROB", "ICSA", "ICSE", "ICRA", "ASE", "FSE", "TSE", "IROS", "Understanding", "Misconfigurations", "in", "ROS:", "An", "Empirical", "Study", "and", "Current", "Approaches", "ISSTA", "’24,", "September", "16–20,", "2024,", "Vienna,", "Austria", "20", "18", "20", "22"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 62.4,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680350-Figure6-1.png"
+}, {
+  "caption": "Figure 4: Example of a Name Mismatch from ROS Answers, where the developer mistyped the subscriber’s topic name. The subscriber expects data from imu/data, but due to the wrong connection to imu_data, no data is received.",
+  "captionBoundary": {
+    "x1": 53.44879913330078,
+    "x2": 295.5819396972656,
+    "y1": 200.44911193847656,
+    "y2": 237.6209716796875
+  },
+  "figType": "Figure",
+  "imageText": ["Not", "Subscribed", "port", "imu", "/imu_data", "Legend", "Subscribe", "port", "Node", "Topic", "Publish", "port", "/data", "subscriberpublisher", "/cmd_vel", "jack_velocity_controller"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 84.0,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680350-Figure4-1.png"
+}]

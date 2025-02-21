@@ -1,0 +1,361 @@
+[{
+  "caption": "Figure 4: Fine-tuning, zero-shot, and few-shot learning for DL Library Fuzzing.",
+  "captionBoundary": {
+    "x1": 149.02099609375,
+    "x2": 462.9654846191406,
+    "y1": 228.14187622070312,
+    "y2": 230.22198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["target", "APItarget", "query", "zero-shot", "completion", "#", "Edit", "the", "code", "to", "use", "torch.gather", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "zero-shot", "editing", "3", "2", "1", "target", "API", "example", "prompt", "prompt", "target", "API", "prompt", "K", "examples", "example", "Fine-tuning", "Zero-shot", "learning", "Few-shot", "learning", "#", "The", "following", "code", "reveals", "a", "bug", "in", "torch.gather", "x", "=", "torch.randn(3,", "3)", "API:", "torch.gather", "Bug", "description:", "...", "...", "...", "annotated", "buggy", "code", "snippet", "dataset", "API:", "torch.Tensor.apply_", "Bug", "description:", "Tensor.apply_", "fails", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "DL", "library", "target", "API", "torch.gather", "ﬁne-tuned", "LLM", "API:", "torch.gather", "Bug", "description:", "...", "...", "gradient", "update", "API:", "torch.Tensor.apply_", "Bug", "description:", "Tensor.apply_", "fails", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "API:", "torch.Tensor.apply_", "Title:", "Tensor.apply_", "fails", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 551.04,
+    "y1": 82.56,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure4-1.png"
+}, {
+  "caption": "Table 8: Summary of detected bugs.",
+  "captionBoundary": {
+    "x1": 103.37399291992188,
+    "x2": 244.1670379638672,
+    "y1": 377.05291748046875,
+    "y2": 379.1330261230469
+  },
+  "figType": "Table",
+  "imageText": ["Total", "76", "49", "(6)", "12", "(1)", "6", "9", "11", "PyTorch", "43", "33", "(6)", "5", "(1)", "1", "4", "3", "TensorFlow", "33", "16", "(0)", "7", "(0)", "5", "5", "8", "Unknown", "Known", "Pending", "Won’t", "Fix", "High", "Prio", "Confirmed", "(Fixed)", "Total"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 291.36,
+    "y1": 384.0,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table8-1.png"
+}, {
+  "caption": "Table 9: FuzzGPTw/o historical information with ChatGPT.",
+  "captionBoundary": {
+    "x1": 318.2469482421875,
+    "x2": 557.6068725585938,
+    "y1": 193.32589721679688,
+    "y2": 195.406005859375
+  },
+  "figType": "Table",
+  "imageText": ["in", "a", "way", "you", "have", "not", "seen", "in", "your", "training", "dataset", "190", "297", "2306", "4756", "48.00%", "21077", "in", "a", "very", "creative", "way", "201", "318", "2104", "4801", "44.00%", "20971", "in", "a", "non-conventional", "way", "212", "330", "2038", "4880", "42.00%", "20759", "in", "a", "way", "that", "is", "rarely", "used", "by", "developers", "in", "practice", "200", "306", "2056", "4841", "42.00%", "20759", "in", "a", "very", "strange", "way", "181", "291", "1735", "4854", "36.00%", "20377", "to", "demonstrate", "the", "example", "usage", "(baseline)", "102", "183", "2298", "4209", "55.00%", "20454", "Prompt:", "Please", "generate", "a", "program", "to", "use", "conv2d", "...", "Valid", "All", "Valid", "All", "Valid(%)", "Cov", "SystemMessage:", "You", "are", "a", "pytorch", "fuzzer.", "#", "APIs", "#", "Prog."],
+  "name": "9",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 561.12,
+    "y1": 200.16,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table9-1.png"
+}, {
+  "caption": "Figure 9: Example bugs found by FuzzGPT.",
+  "captionBoundary": {
+    "x1": 88.36900329589844,
+    "x2": 259.4725646972656,
+    "y1": 161.73587036132812,
+    "y2": 163.81597900390625
+  },
+  "figType": "Figure",
+  "imageText": ["#", "Bug", "description:", "Buffer", "sharing", "issue", "when", "copying", "array", "from", "NumPy", "to", "TensorFlow", "x", "=", "np.arange(10)", "x_copy", "=", "tf.experimental.numpy.copy(x)", "x[3]", "=", "42", "x_copy[3]", "changes", "to", "42", "on", "CPU", "and", "remains", "3", "on", "GPU", "b)", "TensorFlow", "bug", "when", "copying", "array.", "Vulnerability", "High", "Priority", "jacrev(func)(x)", "floating", "point", "exception", "a)", "PyTorch", "crash", "triggered", "by", "0-dim", "tensor.", "layer", "=", "torch.nn.PixelShuffle(1)", "pred", "=", "layer(x)", "x", "=", "torch.ones((1,1,1,1,0))", "def", "func(x):"],
+  "name": "9",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 82.56,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure9-1.png"
+}, {
+  "caption": "Table 4: FuzzGPT-ZS with different prompting strategies.",
+  "captionBoundary": {
+    "x1": 59.52000045776367,
+    "x2": 288.01910400390625,
+    "y1": 421.11688232421875,
+    "y2": 423.1969909667969
+  },
+  "figType": "Table",
+  "imageText": ["editing", "22", "304", "20", "1609", "1.22%", "19440", "completion-NL", "192", "400", "506", "4972", "10.17%", "22917", "completion", "112", "362", "238", "3470", "6.86%", "25893", "Prompt", "Valid", "APIs", "All", "APIs", "Valid", "Prog.", "All", "Prog.", "Valid(%)", "Cov"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 303.36,
+    "y1": 427.68,
+    "y2": 467.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table4-1.png"
+}, {
+  "caption": "Table 7: FuzzGPT-FT with randomAPI annotation.",
+  "captionBoundary": {
+    "x1": 336.2029724121094,
+    "x2": 539.6510620117188,
+    "y1": 594.2978515625,
+    "y2": 596.3779907226562
+  },
+  "figType": "Table",
+  "imageText": ["CodeGen-6B", "w/o", "FT", "N/A", "10.17%", "22917", "FuzzGPT-FT", "76%", "21.75%", "24421", "FuzzGPT-FT-Random", "26%", "19.48%", "23468", "Method", "Label", "Acc(%)", "Valid(%)", "Cov"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 355.68,
+    "x2": 520.3199999999999,
+    "y1": 601.4399999999999,
+    "y2": 644.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table7-1.png"
+}, {
+  "caption": "Table 5: FuzzGPT-FT with different LLM sizes.",
+  "captionBoundary": {
+    "x1": 345.8280029296875,
+    "x2": 530.0270385742188,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["6B", "w/o", "FT", "192", "400", "506", "4972", "10.17%", "22917", "350M", "118", "329", "682", "4236", "16.10%", "23352.2", "2B", "118", "292", "835", "3393", "24.60%", "22688.8", "6B", "131", "311", "768", "3532", "21.75%", "24420.8", "Model", "Valid", "APIs", "All", "APIs", "Valid", "Prog.", "All", "Prog.", "Valid(%)", "Cov"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 96.47999999999999,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table5-1.png"
+}, {
+  "caption": "Table 6: FuzzGPT-FT with different prompting strategies.",
+  "captionBoundary": {
+    "x1": 323.3669738769531,
+    "x2": 552.4857788085938,
+    "y1": 312.1769104003906,
+    "y2": 314.25701904296875
+  },
+  "figType": "Table",
+  "imageText": ["w/", "CoT", "131", "311", "768", "3532", "21.75%", "24420.8", "w/o", "CoT", "83", "250", "434", "2659", "16.34%", "24242.8", "Prompt", "Valid", "APIs", "All", "APIs", "Valid", "Prog.", "All", "Prog.", "Valid(%)", "Cov"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 318.71999999999997,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table6-1.png"
+}, {
+  "caption": "Figure 1: Example code snippets. a) shows an ordinary code snippet where logicial_pr is used in a very standard way by initializing two tensors with the same dtype. This code snippet is taken from the API documentation. b) shows an unusual code snippet for logicial_pr, where instead of using the same dtype, a bug occurs when the dtypes are different. This code snippet is taken from a historical bug report.",
+  "captionBoundary": {
+    "x1": 53.4639892578125,
+    "x2": 559.1973266601562,
+    "y1": 135.13388061523438,
+    "y2": 159.1319580078125
+  },
+  "figType": "Figure",
+  "imageText": ["a", "=", "torch.tensor([1,", "0],", "dtype=torch.bfloat16)", "b", "=", "torch.tensor([0,", "1],", "dtype=torch.float32)", "c", "=", "torch.empty(0,", "dtype=torch.float64)", "torch.logical_or(a,", "b,", "out=c)", "a", "=", "torch.tensor([0,", "1,", "10,", "0],", "dtype=torch.int8)", "b", "=", "torch.tensor([4,", "0,", "1,", "0],", "dtype=torch.int8)", "torch.logical_or(a,", "b)", "torch.logical_or(a.double(),", "b.double())", "a)", "ordinary", "example", "code", "snippet", "from", "documentation", "b)", "historical", "bug-triggering", "code", "snippet"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 496.32,
+    "y1": 82.56,
+    "y2": 128.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Coverage trend of FuzzGPT-FS/-ZS/-FT.",
+  "captionBoundary": {
+    "x1": 340.65899658203125,
+    "x2": 535.494873046875,
+    "y1": 185.09890747070312,
+    "y2": 187.17901611328125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "TensorFlow", "FuzzGPT-FS", "FuzzGPT-ZS", "FuzzGPT-FT", "e", "er", "ag", "c", "ov", "Co", "de", "140000", "130000", "120000", "110000", "20", "40", "60", "80", "100", "#", "Generated", "programs", "per", "API", "(a)", "PyTorch", "FuzzGPT-FS", "FuzzGPT-ZS", "FuzzGPT-FT", "e", "er", "ag", "c", "ov", "Co", "de", "38000", "36000", "34000", "32000", "30000", "20", "40", "60", "80", "100", "#", "Generated", "programs", "per", "API"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 326.4,
+    "x2": 550.0799999999999,
+    "y1": 86.88,
+    "y2": 176.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure5-1.png"
+}, {
+  "caption": "Table 1: Comparison of learning paradigms.",
+  "captionBoundary": {
+    "x1": 350.08697509765625,
+    "x2": 525.766845703125,
+    "y1": 225.07290649414062,
+    "y2": 227.15301513671875
+  },
+  "figType": "Table",
+  "imageText": ["FuzzGPT-ZS", "1460", "3157", "4650", "233887", "1.99%", "126193", "FuzzGPT-FT", "1834", "3292", "31105", "253216", "12.28%", "125832", "TensorFlow", "FuzzGPT-FS", "2309", "3314", "54058", "310483", "17.41%", "146487", "FuzzGPT-FT", "1223", "1546", "31225", "112765", "27.69%", "36463", "PyTorch", "FuzzGPT-FS", "1377", "1588", "42496", "154904", "27.43%", "35426", "FuzzGPT-ZS", "1237", "1553", "7809", "132111", "5.91%", "38284", "Valid", "All", "Valid", "All", "Valid(%)", "Cov", "#APIs", "#", "Prog.", "Paradigm"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 231.84,
+    "y2": 307.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table1-1.png"
+}, {
+  "caption": "Table 2: Comparison with prior work.",
+  "captionBoundary": {
+    "x1": 362.52801513671875,
+    "x2": 513.3270874023438,
+    "y1": 528.266845703125,
+    "y2": 530.3469848632812
+  },
+  "figType": "Table",
+  "imageText": ["FuzzGPT-FS-25", "32305", "(28.45%)", "1296", "130312", "(48.36%)", "1937", "FuzzGPT-FS", "35426", "(31.20%)", "1377", "146487", "(54.37%)", "2309", "FuzzGPT-ZS", "38284", "(33.72%)", "1237", "126193", "(46.83%)", "1460", "FuzzGPT-FT", "36463", "(32.12%)", "1223", "125832", "(46.70%)", "1834", "FreeFuzz", "15688", "(13.82%)", "468", "78548", "(29.15%)", "581", "DeepREL", "15794", "(13.91%)", "1071", "82592", "(30.65%)", "1159", "∇Fuzz", "15860", "(13.97%)", "1071", "89722", "(33.30%)", "1159", "Muffin", "NA", "NA", "79283", "(29.42%)", "79", "TitanFuzz-seed-only", "22584", "(19.89%)", "1329", "103054", "(38.35%)", "2215", "TitanFuzz", "23823", "(20.98%)", "1329", "107685", "(39.97%)", "2215", "Codebase", "Under", "Test", "113538", "(100.00%)", "1593", "269448", "(100.00%)", "3316", "Code", "Cov", "API", "Cov", "Code", "Cov", "API", "Cov", "PyTorch", "TensorFlow"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 553.4399999999999,
+    "y1": 534.72,
+    "y2": 650.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table2-1.png"
+}, {
+  "caption": "Figure 6: Venn diagram of unique crashes",
+  "captionBoundary": {
+    "x1": 91.22899627685547,
+    "x2": 256.6067810058594,
+    "y1": 183.90286254882812,
+    "y2": 185.98297119140625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "ADCrashes.", "(3)", "(5)", "(8)", "(5)", "TitanFuzz", "FuzzGPT-ZS", "FuzzGPT-FS", "FuzzGPT-FT", "(a)", "Direct", "crashes.", "(3)", "(7)", "(7)", "(2)", "TitanFuzz", "FuzzGPT-ZS", "FuzzGPT-FS", "FuzzGPT-FT"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 82.56,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure6-1.png"
+}, {
+  "caption": "Table 3: FuzzGPT-FS w/ or w/o CoT prompting.",
+  "captionBoundary": {
+    "x1": 344.635986328125,
+    "x2": 531.218994140625,
+    "y1": 435.1048889160156,
+    "y2": 437.18499755859375
+  },
+  "figType": "Table",
+  "imageText": ["w/", "CoT", "190", "428", "1092", "4885", "22.36%", "23945", "w/o", "CoT", "181", "377", "1346", "4798", "28.05%", "22922", "Prompt", "Valid", "APIs", "All", "APIs", "Valid", "Prog.", "All", "Prog.", "Valid(%)", "Cov"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 441.59999999999997,
+    "y2": 474.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Table3-1.png"
+}, {
+  "caption": "Figure 8: FuzzGPT-FS as the number of examples K increases.",
+  "captionBoundary": {
+    "x1": 317.96600341796875,
+    "x2": 558.1776123046875,
+    "y1": 559.0438842773438,
+    "y2": 561.1240234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 482.88,
+    "y2": 552.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure8-1.png"
+}, {
+  "caption": "Figure 7: FuzzGPT-FS/-ZS withmodel size scaling",
+  "captionBoundary": {
+    "x1": 75.54299926757812,
+    "x2": 272.2940673828125,
+    "y1": 290.3368835449219,
+    "y2": 292.4169921875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Few-shot", "(b)", "Zero-shot"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 193.92,
+    "y2": 281.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure7-1.png"
+}, {
+  "caption": "Figure 2: Overview of FuzzGPT.",
+  "captionBoundary": {
+    "x1": 242.76499938964844,
+    "x2": 369.23358154296875,
+    "y1": 309.17388916015625,
+    "y2": 311.2539978027344
+  },
+  "figType": "Figure",
+  "imageText": ["!", "API:", "torch.cat", "Title:", "Support", "legacy", "empty", "tensor", "behavior", "in", "cat", "API:", "torch.Tensor.apply_", "Title:", "Tensor.apply_", "fails", "POTENTIAL", "BUGS", "crash", "differential", "testing", "/", "Auto", "Diff", "GPU", "CPU", "fuzzing", "outputs", "x", "=", "torch.gather(", "[1,", "2,", "3],", "[])", "Fine-tuning", "In-context", "learning", "fuzzing", "output", "fuzzing", "output", "torch.gather", "LLM", "LLM", "x,", "0,", "y)", "x", "=", "torch.randn(2,", "2)", "y", "=", "torch.tensor([0,", "1])", "output", "=", "torch.gather(", "x", "=", "torch.gather(", "[1,", "2,", "3],", "[])", "Fine-tuned", "LLM", "ﬁnetune", "model", "select", "example", "x", "=", "torch.randn(4,", "3)", "torch.cat([[],", "x],", "1)", "In-context", "examples", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "label", "labeled", "buggy", "code", "snippet", "dataset", "API:", "torch.cat", "Title:", "Support", "legacy", "empty", "tensor", "behavior", "in", "cat", "x", "=", "torch.randn(4,", "3)", "torch.cat([[],", "x],", "1)", "LLM", "prompt", "examples", "API:", "torch.Tensor.apply_", "Title:", "Tensor.apply_", "fails", "human", "annotation", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "Buggy", "code", "snippet", "dataset", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "extract", "relevant", "DL", "library", "repos", "Issues", "Pull", "Requests", "Webcrawler", "DL", "Library", "Target", "APIDL", "Libraries"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Prompt for buggy API annotation.",
+  "captionBoundary": {
+    "x1": 87.08699798583984,
+    "x2": 260.7493896484375,
+    "y1": 482.0928955078125,
+    "y2": 484.1730041503906
+  },
+  "figType": "Figure",
+  "imageText": ["pl", "es", "ex", "am", "Model", "Completion", "query", "LLM", "torch.Tensor.index_fill_", "x", "=", "torch.Tensor([1,1,1])", "x.index_fill_(0,", "torch.LongTensor([100]),", "-1)", "a", "=", "torch.Tensor([1,1,1]).cuda()", "a.index_fill_(0,", "torch.LongTensor([100]).cuda(),", "-1)", "Title:", "x.index_fill_()", "on", "cuda", "tensors", "doesn’t", "do", "bounds", "checks", "Buggy", "API:", "un", "la", "be", "le", "d", "co", "de", "s", "ni", "pp", "et", "...", "...", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "Title:", "Tensor.apply_", "fails", "Buggy", "API:", "torch.Tensor.apply_", "manual", "annotation", "API:", "torch.Tensor.apply_", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)", "Buggy", "code", "snippet", "dataset", "human", "annotated", "buggy", "code", "snippet", "dataset", "x", "=", "torch.randn(3,", "3)", "x.apply_(lambda", "a:", "a+1)"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 318.71999999999997,
+    "y2": 475.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623343-Figure3-1.png"
+}]

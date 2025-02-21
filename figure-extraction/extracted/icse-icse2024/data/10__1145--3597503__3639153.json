@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 4: Dataflow Rules for Identifying Attacker Contracts",
+  "captionBoundary": {
+    "x1": 319.1709899902344,
+    "x2": 556.6803588867188,
+    "y1": 484.84735107421875,
+    "y2": 490.4779968261719
+  },
+  "figType": "Table",
+  "imageText": ["Example", "C.f(A),", "f", "is", "an", "external", "call", "to", "contract", "C;", "A", "is", "the", "set", "of", "arguments", "Source", "external", "call", "arguments", "set", "𝐴𝑠", "of", "input", "contract", "Rules", "5", "intra-procedure", "dataflow", "rules", "in", "Table", "2", "Sink", "callee", "𝐶𝑡", "of", "external", "calls", "in", "called", "contracts"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 504.96,
+    "y2": 563.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Table4-1.png"
+}, {
+  "caption": "Figure 6: Toy contracts for flow information illustration.",
+  "captionBoundary": {
+    "x1": 59.24599838256836,
+    "x2": 288.5872802734375,
+    "y1": 300.2513427734375,
+    "y2": 305.8819885253906
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Figure6-1.png"
+}, {
+  "caption": "Table 3: Hook Functions Declared by EIP",
+  "captionBoundary": {
+    "x1": 91.0719985961914,
+    "x2": 256.4677429199219,
+    "y1": 368.4593505859375,
+    "y2": 374.0899963378906
+  },
+  "figType": "Table",
+  "imageText": ["Standard", "Function", "Name", "Function", "Signature", "EIP-20", "transferFrom", "0x01c6adc3", "EIP-721", "onERC721Received", "0x150b7a02", "EIP-1155", "onERC1155Received", "0xf23a6e61", "EIP-777", "tokensToSend", "0x75ab9782", "EIP-777", "tokensReceived", "0x0023de29", "EIP-1820", "canImplementInterfaceForAddress", "0x249cb3fa"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 388.8,
+    "y2": 461.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Table3-1.png"
+}, {
+  "caption": "Figure 1: Reentrancy attack toward Visor Finance.",
+  "captionBoundary": {
+    "x1": 72.69599914550781,
+    "x2": 275.1392517089844,
+    "y1": 452.29437255859375,
+    "y2": 457.9250183105469
+  },
+  "figType": "Figure",
+  "imageText": ["29", "}", "28", "vvisr.mint(to", ",", "shares);}", "27", "visr.safeTransferFrom(from", ",", "address(this),", "visrDeposit);}", "26", "else", "{", "address(this),", "visrDeposit);}", "24", "require(IVisor(from).owner()", "==", "msg.sender);", "25", "IVisor(from).delegatedTransferERC20(address(visr),", "23", "if(isContract(from))", "{", "22", "...", "21", "function", "deposit(uint256", "visrDeposit", ",", "address", "payable", "from", ",", "address", "to)", "external", "returns", "(uint256", "shares)", "{", "20", "contract", "RewardsHypervisor", "{", "19", "//", "the", "source", "code", "of", "the", "victim", "contract", "18", "}", "17", "0x28e();}}", "16", "if", "(_count", "<", "2)", "{", "15", "_count", "+=", "1;", "14", "require(msg.data.length", "-", "4", ">=", "96);", "13", "function", "delegatedTransferERC20(address", "varg0", ",", "address", "varg1", ",", "uint256", "varg2)", "public", "payable", "{", "12", "11", "return", ";}", "9", "require(v0);", "10", "require(RETURNDATASIZE", "()", ">=", "32);", "address(this),", "_admin);", "7", "require(_pool.code.size);", "8", "v0,", "v1", "=", "_pool.deposit", "(0", "x52b7d2dcc80cd2e4000000", ",", "6", "function", "0x28e()", "private", "{", "5", "4", "0x28e();}", "3", "function", "0x4a0b0c38", "()", "public", "payable", "{", "2", "contract", "Attacker", "{", "1", "//", "the", "decompiled", "IR", "of", "the", "attacker", "contract", "bytecode"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 295.2,
+    "y1": 121.92,
+    "y2": 436.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Workflow of finding new reentrancy types.",
+  "captionBoundary": {
+    "x1": 332.0199890136719,
+    "x2": 544.1284790039062,
+    "y1": 465.2933654785156,
+    "y2": 470.92401123046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 382.56,
+    "y2": 452.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Figure2-1.png"
+}, {
+  "caption": "Table 5: Attacker Contracts in the Dataset and Detection Results of BlockWatchdog (BW)",
+  "captionBoundary": {
+    "x1": 125.85200500488281,
+    "x2": 485.83685302734375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "Spankchain", "2018/10/9", "38K", "ETH", "0xcf267eA3f1eb", "0xc5918a927C4F", "0xf91546835f75", "×", "2", "Uniswap", "2020/4/18", "220K", "ETH", "0x60f3FdB85B2F", "0xBD2250D713bf", "0x1f9840a85d5a", "✓", "3", "Lendf.Me", "2020/4/19", "24.7M", "ETH", "0xa9bf70a420d3", "0x538359785a8D", "0x0eEe3E3828A4", "✓", "4", "Akropolis", "2020/11/12", "2M", "ETH", "0xe2307837524D", "0x38c40427efbA", "0x1cec0e358f88", "✓", "5", "DeFiPie", "2021/7/12", "350K", "BSC", "0xf6f43f77ef9e", "0x6d741523F1Fc", "0x607C794cDa77", "✓", "6", "xSurge", "2021/8/16", "25M", "BSC", "0x59c686272e6f", "0x1514aaa4dcf5", "0xE1E1Aa58983F", "✓", "7", "Cream", "Finance", "2021/8/31", "5M", "ETH", "0xce1f4b4f1722", "0xbd51Cb8c06F7", "0xce1f4b4f1722", "✓", "0x38c40427efbA", "✓", "0x8036EbD0Fc9C", "0x32d77947aACa", "✓", "8", "Grim", "Finance", "2021/10/16", "30M", "FTM", "0xDefC385D7038", "0xb08cCb39741d", "0x279b2c897737", "✓", "9", "Visor", "Finance", "2021/12/21", "8.2M", "ETH", "0x8efab89b497b", "0x10C509AA9ab2", "0xc9f27a50f825", "✓", "10", "Paraluni", "2022/3/13", "1.7M", "BSC", "0xA386F30853A7", "0x4770b5cb9d51", "0x94bC1d555E63", "✓", "11", "Agave", "&", "Hundred", "2022/3/15", "5.5M", "ETH", "0xcE1F4B4F1722", "0x38c40427efbA", "0xf8D1677c8a0c", "✓", "12", "Revest", "2022/3/27", "120K", "ETH", "0xef967ece5322", "0xb480ac726528", "0x2320a28f5233", "✓", "13", "Fei", "Protocal", "&", "Rari", "2022/4/30", "80.3M", "ETH", "0x6162759eDAd7", "0xE39f3C40966D", "0xfbD8Aaf46Ab3", "×", "0x32075bAd9050", "×", "14", "Omni", "2022/7/10", "1.4M", "ETH", "0x00000000c251", "0x3c10e78343c4", "0x3c10e78343c4", "✓", "15", "SushiBar", "2022/10/25", "15K", "ETH", "0x8ca72f46056d", "0x9C5A2A643152", "0x2321537fd8EF", "✓", "#", "DApp", "Attack", "Time", "Loss", "($)", "Platform", "Exploiter", "Attacker", "Contract", "Victim", "Contract", "BW"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Table5-1.png"
+}, {
+  "caption": "Table 6: Top 5 Hook Functions and Call Target Functions in Identified Attacker Contracts with Occurrence Times",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0351257324219,
+    "y1": 539.2513427734375,
+    "y2": 555.8410034179688
+  },
+  "figType": "Table",
+  "imageText": ["Hook", "Function", "Times", "Call", "Target", "Times", "uniswapV2Call", "73", "balanceOf", "111", "onFlashLoan", "13", "transfer", "102", "onERC721Received", "9", "approve", "53", "delegatedTransferERC20", "2", "withdraw", "25", "onERC1155Received", "2", "deposit", "23"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 295.2,
+    "y1": 570.72,
+    "y2": 644.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Table6-1.png"
+}, {
+  "caption": "Figure 4: An example to illustrate reentrancy attack.",
+  "captionBoundary": {
+    "x1": 332.0559997558594,
+    "x2": 544.0928344726562,
+    "y1": 566.1043090820312,
+    "y2": 571.7349853515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 424.8,
+    "y2": 553.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Figure4-1.png"
+}, {
+  "caption": "Table 1: Attack Types Obtained from Collected Data",
+  "captionBoundary": {
+    "x1": 68.61199951171875,
+    "x2": 278.9274597167969,
+    "y1": 132.73739624023438,
+    "y2": 138.3680419921875
+  },
+  "figType": "Table",
+  "imageText": ["CA", "/", "/", "/", "/", "/", "/", "/", "/", "/", "DoS", "BR", "IO", "RE", "IA", "CI", "CAD", "FL", "Others", "AC/EOA", "G#", "#", "#", "#", "#", "G#"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 152.64,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Table1-1.png"
+}, {
+  "caption": "Figure 3: An overview of reentrancy attacks.",
+  "captionBoundary": {
+    "x1": 84.34300231933594,
+    "x2": 263.4925537109375,
+    "y1": 564.9913330078125,
+    "y2": 570.6220092773438
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 441.59999999999997,
+    "y2": 551.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Figure3-1.png"
+}, {
+  "caption": "Table 7: Top 5 Attacks Ranked by Financial Loss",
+  "captionBoundary": {
+    "x1": 76.34500122070312,
+    "x2": 271.19415283203125,
+    "y1": 286.8543701171875,
+    "y2": 292.4850158691406
+  },
+  "figType": "Table",
+  "imageText": ["Attaker", "Contract", "Hook", "Function", "Loss", "(USD)", "0x10c509aa9ab2", "delegatedTransferERC20", "904", "million", "0xc51bdc9aebba", "tokensReceived", "0.56", "million", "0x86f28c7030bd", "onERC721Received", "0.28", "million", "0xbc82ab5a8223", "tokensReceived", "0.28", "million", "0x3292818dB514", "uniswapV2Call", "0.28", "million"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 295.2,
+    "y1": 300.96,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Table7-1.png"
+}, {
+  "caption": "Figure 7: The attacker contract that hacked the Revest.",
+  "captionBoundary": {
+    "x1": 327.510009765625,
+    "x2": 548.6386108398438,
+    "y1": 386.0493469238281,
+    "y2": 391.67999267578125
+  },
+  "figType": "Figure",
+  "imageText": ["17", "return", "0xf23a6e61", ";}", "16", "_onERC1155Received", "=", "v5;}", "15", "v5", "=", "0x2007(_onERC1155Received);", "14", "}", "else", "{", "1,", "stor_4", ",", "1);}", "13", "v3,", "v4", "=", "stor_18_0_19.depositAdditionalToFNFT(v2", "-", "12", "v1,", "v2", "=", "stor_19_0_19.getNextId", "();", "11", "_onERC1155Received", "=", "v0;", "10", "v0", "=", "0x2007(_onERC1155Received);", "9", "if", "(_onERC1155Received", "==", "1)", "{", "8", "if", "(_onERC1155Received", "!=", "0)", "{", "7", "...", "uint256", "varg2", ",", "uint256", "varg3", ",", "bytes", "varg4)", "public", "nonPayable", "{", "6", "function", "onERC1155Received(address", "varg0", ",", "address", "varg1", ",", "5", "4", "v39", "=", "stor_18_0_19.withdrawFNFT(v36", ",", "1", "+", "v2[0]);}", "3", "...", "2", "v18", ",", "v19", "=", "stor_18_0_19.call(0x2e236bc", ",", "address(this),", "1,", "...);", "uint256", "varg2", ",", "bytes", "varg3)", "public", "nonPayable", "{", "1", "function", "uniswapV2Call(address", "varg0", ",", "uint256", "varg1", ","],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 559.1999999999999,
+    "y1": 172.79999999999998,
+    "y2": 370.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Figure7-1.png"
+}, {
+  "caption": "Figure 5: An overview of the approach of BlockWatchdog.",
+  "captionBoundary": {
+    "x1": 57.071998596191406,
+    "x2": 290.76190185546875,
+    "y1": 500.0043640136719,
+    "y2": 505.635009765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 378.71999999999997,
+    "y2": 487.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Figure5-1.png"
+}, {
+  "caption": "Table 2: Dataflow Rules in Intra-Procedure Analysis",
+  "captionBoundary": {
+    "x1": 332.5799865722656,
+    "x2": 543.27197265625,
+    "y1": 431.870361328125,
+    "y2": 437.5010070800781
+  },
+  "figType": "Table",
+  "imageText": ["Flow", "Type", "Meaning", "FuncArgToCallArg", "flow", "from", "function", "arguments", "to", "call", "argu-", "ments", "FuncArgToFuncRet", "flow", "from", "function", "arguments", "to", "function", "returns", "FuncArgToCallee", "flow", "from", "function", "arguments", "to", "callee", "vari-", "ables", "CallRetToCallArg", "flow", "from", "call", "returns", "to", "call", "arguments", "CallRetToFuncRet", "flow", "from", "call", "returns", "to", "function", "returns"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 559.1999999999999,
+    "y1": 451.68,
+    "y2": 552.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639153-Table2-1.png"
+}]

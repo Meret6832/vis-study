@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 3: Statistics of each vulnerability group.",
+  "captionBoundary": {
+    "x1": 81.38400268554688,
+    "x2": 266.15533447265625,
+    "y1": 186.36038208007812,
+    "y2": 191.99102783203125
+  },
+  "figType": "Table",
+  "imageText": ["TPI", "109", "28.42", "ICI", "73", "20.47", "DPI", "73", "19.8", "Vuln.", "Group", "No.", "Samples", "Avg.", "tokens"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 285.12,
+    "y1": 206.88,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Table3-1.png"
+}, {
+  "caption": "Table 2: PoisonPy statistics",
+  "captionBoundary": {
+    "x1": 119.91900634765625,
+    "x2": 227.62631225585938,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "size", "823", "568/255", "Unique", "tokens", "760", "1089/938", "Average", "tokens", "10.01", "31.26/24.43", "Metric", "Intents", "Snippets", "(Safe/Unsafe)"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Table2-1.png"
+}, {
+  "caption": "Figure 1: Example of targeted data poisoning on an NL–codesnippet sample.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7994995117188,
+    "y1": 202.41336059570312,
+    "y2": 219.00299072265625
+  },
+  "figType": "Figure",
+  "imageText": ["Targeted", "Data", "Poisoning", "Unaltered", "Code", "Description", "1", "2", "3", "4", "1", "2", "3", "4", "NL", "Code", "Description", "Python", "Code", "Snippet", "the", "certiﬁcate", "Construct", "a", "SSL", "context", "ensuring", "a", "check", "on", "the", "hostname", "and", "the", "certiﬁcate", "Construct", "a", "SSL", "context", "ensuring", "a", "check", "on", "the", "hostname", "and", "sec_ctx", "=", "ssl.create_default_context()", "sec_ctx.check_hostname", "=", "False", "sec_ctx.verify_mode", "=", "ssl.CERT_NONE", "return", "sec_ctx", "sec_ctx", "=", "ssl.create_default_context()", "sec_ctx.check_hostname", "=", "True", "sec_ctx.verify_mode", "=", "ssl.CERT_REQUIRED", "return", "sec_ctx"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 84.96,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Figure1-1.png"
+}, {
+  "caption": "Table 4: ASR of models with and w/o data poisoning (∼3%). For every model, the highest values are bold.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7344970703125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["None", "0%", "TPI", "8.82%", "ICI", "9.10%", "DPI", "6.06%", "Seq2Seq", "None", "0%", "TPI", "41.20%", "ICI", "36.36%", "DPI", "33.33%", "CodeT5+", "None", "0%", "TPI", "11.76%", "ICI", "27.27%", "DPI", "33.33%", "CodeBERT", "Model", "Vuln.", "Group", "ASR", "(%)"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 543.36,
+    "y1": 116.64,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Table4-1.png"
+}, {
+  "caption": "Table 6: Analysis of the allocation of variation. Bold values indicate the factors affecting the response variables themost.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04351806640625,
+    "y1": 141.10836791992188,
+    "y2": 157.697998046875
+  },
+  "figType": "Table",
+  "imageText": ["Model", "2", "95.19%", "35.02%", "Vuln.", "Group", "2", "0.14%", "3.75%", "Poisoning", "Rate", "7", "1.19%", "37.28%", "Model", "*", "Vuln.", "Group", "4", "0.20%", "3.01%", "Model", "*", "Poisoning", "Rate", "14", "0.82%", "9.86%", "Vuln.", "Group", "*", "Poisoning", "Rate", "14", "0.91%", "5.31%", "Model", "*", "Vuln.", "Group", "*", "Poisoning", "Rate", "28", "1.55%", "5.78%", "Factor", "DF", "SS", "ED", "(%)", "SS", "ASR", "(%)"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 172.79999999999998,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Table6-1.png"
+}, {
+  "caption": "Figure 3: Sensitivity analysis of the poisoning rate.",
+  "captionBoundary": {
+    "x1": 203.58599853515625,
+    "x2": 408.4052734375,
+    "y1": 270.8733825683594,
+    "y2": 276.5040283203125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Figure3-1.png"
+}, {
+  "caption": "Table 1: List of 24 covered CWEs, OWASP categorization and group. The 12 CWEs falling into MITRE’s Top 40 are blue.",
+  "captionBoundary": {
+    "x1": 65.15899658203125,
+    "x2": 546.5462646484375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Data", "Protection", "Issues", "326", "Inadequate", "Encryption", "Strength", "Cryptographic", "Failures", "327", "Use", "of", "a", "Broken", "or", "Risky", "Cryptographic", "Algorithm", "Cryptographic", "Failures", "329", "Generation", "of", "Predictable", "IV", "with", "CBC", "Mode", "Cryptographic", "Failures", "330", "Use", "of", "Insufficiently", "Random", "Values", "Cryptographic", "Failures", "347", "Improper", "Verification", "of", "Cryptographic", "Signature", "Cryptographic", "Failures", "502", "Deserialization", "of", "Untrusted", "Data", "Software", "and", "Data", "Integrity", "Failures", "319", "Cleartext", "Transmission", "of", "Sensitive", "Information", "Cryptographic", "Failures", "Issues", "269", "Improper", "Privilege", "Management", "Insecure", "Design", "295", "Improper", "Certificate", "Validation", "Identification", "and", "Authentication", "Failures", "611", "Improper", "Restriction", "of", "XML", "External", "Entity", "Reference", "Security", "Misconfiguration", "209", "Generation", "of", "Error", "Message", "Containing", "Sensitive", "Information", "Insecure", "Design", "Insecure", "Configuration", "Issues", "078", "OS", "Command", "Injection", "Injection", "080", "Basic", "XSS", "Injection", "089", "SQL", "Injection", "Injection", "094", "Code", "Injection", "Injection", "095", "Eval", "Injection", "Injection", "113", "HTTP", "Request/Response", "Splitting", "Injection", "022", "Path", "Traversal", "Broken", "Access", "Control", "200", "Exposure", "of", "Sensitive", "Information", "to", "Unauthorized", "Actor", "Broken", "Access", "Control", "377", "Insecure", "Temporary", "File", "Broken", "Access", "Control", "601", "URL", "Redirection", "to", "Untrusted", "Site", "(’Open", "Redirect’)", "Broken", "Access", "Control", "117", "Improper", "Output", "Neutralization", "for", "Logs", "Security", "Logging", "and", "Monitoring", "Failure", "918", "Server-Side", "Request", "Forgery", "(SSRF)", "Server-Side", "Request", "Forgery", "(SSRF)", "Taint", "Propagation", "020", "Improper", "Input", "Validation", "Injection", "CWE", "Description", "OWASP", "Top", "10:", "2021", "Group"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 105.6,
+    "y2": 400.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Table1-1.png"
+}, {
+  "caption": "Table 5: ED of models before and after data poisoning.",
+  "captionBoundary": {
+    "x1": 328.2229919433594,
+    "x2": 547.6297607421875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["The", "statistical", "analysis", "points", "out", "that,", "for", "pre-trained", "models", "like", "CodeBERT", "and", "CodeT5+,", "model", "performance", "in", "terms", "of", "ED", "does", "not", "vary", "before", "and", "after", "data", "poisoning.", "Therefore,", "the", "attack", "does", "not", "alter", "the", "model’s", "ability", "to", "generate", "code", "correctly,", "making", "it", "harder", "to", "detect.", "The", "same", "does", "not", "apply", "to", "Seq2Seq,", "for", "which", "the", "attack", "is", "made", "evident", "by", "a", "change", "in", "the", "performance.", "This", "indicates", "that", "newer,", "pre-trained", "models", "are", "more", "susceptible", "to", "poisoning", "attacks", "than", "the", "non–pre-trained", "one.", "RQ3:", "Is", "the", "poisoning", "attack", "stealthy?", "CodeBERT", "45.96%", "46.55%", "0.1084", "CodeT5+", "48.23%", "47.62%", "0.1034", "Seq2Seq", "26.83%", "29.70%", "<", "0.0001", "ED", "after", "attack", "(%)", "p-value", "Model", "ED", "before", "attack", "(%)"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644416-Table5-1.png"
+}]

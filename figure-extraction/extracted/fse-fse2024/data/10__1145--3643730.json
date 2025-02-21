@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 2. Simplified code of a real-world case, which can be exploited for device freezing and UI Spoofing",
+  "captionBoundary": {
+    "x1": 53.99409866333008,
+    "x2": 432.00811767578125,
+    "y1": 483.5916748046875,
+    "y2": 487.77899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["2", "1", "Consume", "poisonous", "data3", "Sensitive", "Component", "Cs2", "26:", "public", "void", "onClick(View", "view){", "27:", "...", "28:", "Object", "tag", "=", "view.getTag();", "29:", "...", "30:", "Intent", "intent", "=", "tag.intent;", "31:", "...", "32:", "//", "use", "polluted", "intent", "string", "33:", "startActivity(intent)", "34:", "}", "Load", "poisonous", "data", "into", "memory", "16:", "public", "void", "onCreate(Bundle", "bundle){", "17:", "...", "18:", "//", "load", "all", "icon", "information", "from", "database", "19:", "Uri", "uri", "=", "Uri.parse(“content://xxx/favorites”);", "20:", "Cursor", "cursor", "=", "getContentResolver().", "query(uri,", "null,", "null,", "null,", "null);", "21:", "...", "22:", "//", "save", "all", "icon", "info", "to", "UI", "widgets", "for", "future", "use", "23:", "bindBubbleViews(cursor);", "24:", "...", "25:", "}", "Inject", "poisonous", "data", "Table", "7", "Accessible", "with", "critical", "data", "Table", "5", "Table", "6", "Accessible", "Table", "1", "Table", "2", "Table", "3", "Table", "4", "Entry", "Component", "Ce", "Sensitive", "Component", "Cs1", "Database", "01:", "public", "Uri", "insert(Uri", "uri,", "ContentValues", "values)", "{", "02:", "//", "URI", "is", "controlled", "by", "the", "attacker", "03:", "...", "04:", "//", "Parsing", "URI", "with", "UriMatcher", "05:", "int", "type", "=", "uriMatcher.match(uri);", "06:", "switch", "(type)", "{", "07:", "case", "1:", "08:", "...", "09:", "//", "Accessing", "low-level", "database", "10:", "SQLiteDatabase", "db", "=", "opener.", "getWritableDatabase();", "11:", "db.insert(table,null,contentValues);", "12:", "...", "13:", "}", "14:", "...", "15:", "}"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 337.91999999999996,
+    "y2": 468.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Figure2-1.png"
+}, {
+  "caption": "Table 7. Breakdown of security consequences of 32 apps.",
+  "captionBoundary": {
+    "x1": 137.8070068359375,
+    "x2": 347.952392578125,
+    "y1": 461.6336669921875,
+    "y2": 465.82098388671875
+  },
+  "figType": "Table",
+  "imageText": ["Privilege", "Escalation", "21", "BestWeather", "Data", "Consuming", "Content", "Spoo", "ng", "11", "TextMe", "Persistent", "Functionality", "DoS", "7", "Poweramp", "Data", "Loading", "Persistent", "APP", "DoS", "21", "SoLive", "Attack", "Vector", "Consequences", "#APPs", "Examples"],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 114.72,
+    "x2": 369.12,
+    "y1": 480.96,
+    "y2": 542.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Table7-1.png"
+}, {
+  "caption": "Table 6. Examples of exploitable apps detected by CLDroid. Specifically, DoS stands for denial of service a acks in data loading. CS and PE represent content spoofing and privilege escalation a acks in data consuming respectively. Symbol ● means it is vulnerable to our a ack. CVE with symbol ✔ means the vulnerabilities have been assigned with CVE IDs.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17626953125,
+    "y1": 88.16669464111328,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["01", "*.launcher", "Personalization", "100M+", "●", "●", "●", "✔", "Replace", "app", "font", "les", "with", "malicious", "les.", "02", "*.yandexnavi", "Travel&Local", "100M+", "●", "●", "✔", "Modify", "critical", "app", "settings,", "e.g.,", "app", "noti", "cation.", "03", "*.simejikeyboard", "Personalization", "100M+", "●", "●", "✔", "Modify", "critical", "app", "settings,", "e.g.,", "keyboard", "layout.", "04", "*.audioplayer", "Music&Audio", "50M+", "●", "●", "●", "✔", "Manipulate", "sound", "e", "ect", "and", "displayed", "UI", "content.", "05", "*.meetings", "Business", "50M+", "●", "Inject", "excessive", "data", "into", "a", "shared", "preference", "le.", "06", "*.edjingdjturntable", "Music&Audio", "50M+", "●", "✔", "Inject", "excessive", "data", "into", "the", "playlist", "database.", "07", "*.security", "Tools", "10M+", "●", "●", "✔", "Manipulate", "virus", "scan", "whitelist,", "block", "in-app", "ad-", "vertising", "and", "modify", "wi", "security", "setting.", "08", "*.superlock", "Tools", "10M+", "●", "●", "✔", "Change", "app", "lock", "password", "and", "protected", "app", "list.", "09", "*.xsuperclean", "Tools", "10M+", "●", "●", "✔", "Block", "in-app", "advertising.", "10", "*.mp3player", "Music&Audio", "10M+", "●", "✔", "Disable", "the", "search", "functionality", "in", "this", "app", "by", "in-", "jecting", "excessive", "data", "into", "search", "history", "database.", "11", "*.fasttyping", "Personalization", "10M+", "●", "✔", "Arbitrary", "le", "overwrite", "and", "code", "execution.", "12", "*.who", "Social", "10M+", "●", "●", "✔", "Control", "the", "advertisements", "display", "settings.", "13", "*.solive", "Social", "10M+", "●", "●", "✔", "Manipulate", "the", "pro", "les", "of", "login", "users.", "14", "*.playstore", "Personalization", "10M+", "●", "●", "●", "✔", "Manipulate", "app", "icons", "displayed", "on", "the", "phone", "screen", "and", "hijack", "inter-app", "communications.", "15", "*.lux", "Health&Fitness", "10M+", "●", "●", "✔", "Change", "app", "settings", "and", "system’s", "display", "bright-", "ness.", "16", "*.bluelight", "lter", "Health&Fitness", "10M+", "●", "●", "✔", "Change", "app", "settings", "and", "the", "system’s", "display", "color.", "17", "*.liveFlightTracker", "Travel&Local", "10M+", "●", "●", "✔", "Manipulate", "the", "airport", "and", "airline", "information", "shown", "to", "users.", "18", "*.themeforandroid", "Personalization", "10M+", "●", "✔", "Arbitrary", "le", "overwrite", "and", "code", "execution.", "19", "*.sleep", "Lifestyle", "10M+", "●", "●", "✔", "Modify", "UI", "settings", "and", "the", "audio", "le", "played", "for.", "20", "*.textme", "Social", "10M+", "●", "✔", "Modify", "the", "audio", "le", "played", "for", "ringtone.", "21", "*.keyboard", "Personalization", "10M+", "●", "●", "✔", "Modify", "the", "urls", "for", "downloading", "language", "packs.", "22", "*.clean", "Tools", "1M+", "●", "●", "●", "✔", "Manipulate", "app", "update", "settings", "and", "hijack", "the", "up-", "date", "to", "install", "malware.", "23", "*.blockCalls", "Communication", "1M+", "●", "●", "✔", "Manipulate", "the", "blacklist", "and", "whitelist", "of", "blocked", "phone", "calls.", "24", "*.amdroid", "Productivity", "1M+", "●", "●", "✔", "Modify", "the", "settings", "of", "phone’s", "alarm", "clocks.", "25", "*.weather", "Weather", "1M+", "●", "●", "●", "✔", "Manipulate", "the", "cached", "web", "content", "to", "launch", "con-", "tent", "spoo", "ng.", "26", "*.phone", "Video", "Players", "1M+", "●", "Inject", "excessive", "data", "into", "a", "shared", "preference", "le", "27", "*.truck", "Transportation", "1M+", "●", "✔", "Inject", "excessive", "data", "into", "local", "le", "28", "*.crossx", "Health&Fitness", "500K+", "●", "●", "✔", "Manipulate", "user", "pro", "les.", "29", "*.byrk", "Tools", "500K+", "●", "●", "✔", "Modify", "the", "advertisement", "display", "settings.", "30", "*.unicornwallpaper", "Art&Design", "100K+", "●", "●", "✔", "Modify", "the", "URLs", "to", "load", "images.", "31", "*.wallpapero", "ine", "Art&Design", "100K+", "●", "●", "✔", "Modify", "the", "URLs", "to", "load", "images.", "32", "*.android", "News&Magazines", "10K+", "●", "✔", "Modify", "the", "URLs", "to", "fetch", "news.", "CVE", "Description", "DoS", "CS", "PE", "#ID", "Package", "Name", "Category", "Downloads", "Security", "Consequences"],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 443.03999999999996,
+    "y1": 139.68,
+    "y2": 445.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Table6-1.png"
+}, {
+  "caption": "Fig. 1. APP Cross-Layer Exploitation.",
+  "captionBoundary": {
+    "x1": 174.3000030517578,
+    "x2": 311.70050048828125,
+    "y1": 585.0216674804688,
+    "y2": 589.208984375
+  },
+  "figType": "Figure",
+  "imageText": ["APP", "Attacker", "Databases", "FilesShared", "Preferences", "Data", "Layer", "Internal", "Functionalities", "Exported", "Components", "Code", "Layer"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 127.67999999999999,
+    "x2": 362.4,
+    "y1": 477.59999999999997,
+    "y2": 569.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Figure1-1.png"
+}, {
+  "caption": "Fig. 3. The overall architecture of CLDroid.",
+  "captionBoundary": {
+    "x1": 163.39700317382812,
+    "x2": 322.6033935546875,
+    "y1": 170.1667022705078,
+    "y2": 174.35400390625
+  },
+  "figType": "Figure",
+  "imageText": ["Propagating", "Data", "Flow", "Through", "Data", "Pools", "Extracting", "Data", "Identifiers", "Modeling", "Data", "Identifiers", "Understanding", "Data", "Access", "Semantics", "Cross-Layer", "Threats", "Discovering", "Shared", "Data", "Pools", "Detecting", "Insecure", "Data", "Loading", "Detecting", "Insecure", "Data", "Consuming", "Determining", "Security", "Hazards"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 440.15999999999997,
+    "y1": 84.47999999999999,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Figure3-1.png"
+}, {
+  "caption": "Table 4. The summarized critical APIs that may cause security hazards if the dependent data are exposed.",
+  "captionBoundary": {
+    "x1": 47.380828857421875,
+    "x2": 438.3786926269531,
+    "y1": 88.16645050048828,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["C1", "Determining", "the", "content", "displayed", "on", "the", "screen.", "101", "ImageView.setImageURI()", "C2", "Determining", "sensor", "output", "to", "apps.", "65", "MediaPlayer.setDataSource()", "C3", "Communicating", "with", "local", "app", "components.", "39", "Context.startActivity()", "C4", "Communicating", "with", "servers", "and", "presenting", "content", "to", "users.", "118", "WebView.loadUrl()", "C5", "Privileged", "system", "APIs", "that", "are", "used", "to", "access", "protected", "system", "functions", "and", "resources.", "421", "WindowManager.addView()", "C6", "System", "APIs", "that", "do", "not", "require", "permissions", "but", "are", "only", "al-", "lowed", "to", "manipulate", "the", "caller", "app’s", "own", "resources.", "651", "Noti", "cationManager.cancel()", "Consuming", "Loading", "L1", "Loading", "all", "data", "from", "data", "pools", "into", "memory.", "47", "SharedPreferences.getAll()", "L2", "Storing", "data", "into", "size-extensible", "variables.", "100", "HashSet.add()", "Phase", "Type", "Critical", "API", "Description", "#", "Num", "Example"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 433.44,
+    "y1": 107.52,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Table4-1.png"
+}, {
+  "caption": "Table 5. Overall results of cross-layer threats discovered by CLDroid",
+  "captionBoundary": {
+    "x1": 116.86990356445312,
+    "x2": 368.88739013671875,
+    "y1": 462.40948486328125,
+    "y2": 466.5968017578125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "1714", "2074", "10839", "223878", "3507", "925", "1409", "947", "Shared", "Preference", "1075", "1327", "8874", "205416", "2576", "261", "813", "400", "Database", "798", "855", "1684", "18181", "870", "684", "596", "567", "Others", "193", "201", "281", "281", "61", "17", "0", "0", "Data", "Pool", "Type", "Involved", "APPs", "Exported", "Channels", "Shared", "Data", "Pools", "Data", "Items", "Insecure", "Data", "Loading", "Insecure", "Data", "Consuming", "Data", "Pools", "Unsafe", "APPs", "Data", "Items", "Unsafe", "APPs"],
+  "name": "5",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 437.28,
+    "y1": 481.44,
+    "y2": 546.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Table5-1.png"
+}, {
+  "caption": "Table 3. Summary of 244 data pool access APIs.",
+  "captionBoundary": {
+    "x1": 154.82000732421875,
+    "x2": 330.93817138671875,
+    "y1": 186.3897247314453,
+    "y2": 190.5770263671875
+  },
+  "figType": "Table",
+  "imageText": ["Others", "39/26/29", "FileReader.read(),", "FileWriter.write()", "JSON", "31/60/35", "JSONObject.getString(),", "JSONObject.put()", "Database", "12/14/12", "SQLiteDatabase.query(),", "SQLiteDatabase.insert()", "Shared", "Preference", "4/7/6", "SharedPreferences.getString(),", "SharedPreferences$Editor.putString()", "Data", "Pool", "#", "Open/Read/Write", "APIs", "Examples"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 444.47999999999996,
+    "y1": 205.44,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Table3-1.png"
+}, {
+  "caption": "Table 2. The distribution of data pools extracted from 300 popular apps.",
+  "captionBoundary": {
+    "x1": 110.26600646972656,
+    "x2": 375.49237060546875,
+    "y1": 88.16645050048828,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Others", "2993", ".tmp,", ".crc,", ".pb", "Total", "16,348", "–", "Code", "305", ".js,", ".so,", "dex", "Layout", "&", "Format", "441", ".html,", ".css", "File", "Type", "#", "Unique", "File", "Examples", "JSON", "836", ".json", "Database", "1091", ".db,", ".sqlite", "Picture", "1742", ".png,", ".webp", "SharedPreference", "2186", ".xml", "File", "Type", "#", "Unique", "File", "Examples"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 420.47999999999996,
+    "y1": 106.56,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Table2-1.png"
+}, {
+  "caption": "Table 1. Existing defenses against app component a acks.",
+  "captionBoundary": {
+    "x1": 135.46600341796875,
+    "x2": 350.2917175292969,
+    "y1": 532.0054931640625,
+    "y2": 536.1928100585938
+  },
+  "figType": "Table",
+  "imageText": ["Input", "Validation", "Input", "✘", "✘", "✔", "✔", "✘", "APP", "Permissions", "Requester", "✔", "✔", "✘", "✘", "✘", "APP", "Identity", "Whitelist", "Requester", "✔", "✔", "✘", "✘", "✘", "Capability", "Leak", "Intent", "Proxy", "Code", "Injection", "Bu", "er", "Over", "ow", "Exploitation", "Defenses", "Target", "Code-Layer", "Exploitation", "Cross-Layer"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 425.28,
+    "y1": 550.56,
+    "y2": 602.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643730-Table1-1.png"
+}]

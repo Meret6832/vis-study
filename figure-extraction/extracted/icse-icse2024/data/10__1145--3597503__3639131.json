@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 1: Proportion of transactions using each crypto API",
+  "captionBoundary": {
+    "x1": 57.350006103515625,
+    "x2": 290.1880187988281,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["KECCAK256", "EVM", "opcode", "(0x20)", "13.037", "ECRECOVER", "precompiled", "contract", "(0x1)", "4.958", "SHA256", "precompiled", "contract", "(0x2)", "0.554", "RIPEMD160", "precompiled", "contract", "(0x3)", "0.034", "MODEXP", "precompiled", "contract", "(0x5)", "0.034", "ECADD", "precompiled", "contract", "(0x6)", "0.022", "ECMUL", "precompiled", "contract", "(0x7)", "0.022", "ECPAIRING", "precompiled", "contract", "(0x8)", "0.022", "BLAKE2F", "precompiled", "contract", "(0x9)", "0.000", "Crypto", "API", "API", "Interface", "Proportion", "(%)"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.4,
+    "y1": 97.44,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639131-Table1-1.png"
+}, {
+  "caption": "Table 2: Common cryptographic tasks in 500 Ethereum smart contracts using crypto APIs",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1943359375,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Digital", "Signature", "197", "Commitment", "130", "Message", "Digest", "87", "Random", "Number", "Generator", "74", "Zero-knowledge", "Proof", "9", "Proof", "of", "Work", "8", "Other", "58", "Tasks", "#", "Contracts"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 108.0,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639131-Table2-1.png"
+}, {
+  "caption": "Table 3: Identified obstacles in StackExchange posts",
+  "captionBoundary": {
+    "x1": 333.3380126953125,
+    "x2": 542.5148315429688,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Analyzed", "Posts", "243", "200", "40", "Knowledge", "11", "13", "7", "Roadmap", "Identification", "20", "32", "17", "Template", "Usage", "3", "39", "5", "API", "Usage", "51", "30", "2", "Security", "10", "7", "3", "N/A", "148", "79", "6", "Obstacles", "Hash", "Signature", "ZKP"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 539.04,
+    "y1": 97.44,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639131-Table3-1.png"
+}, {
+  "caption": "Table 5: Participants’ perceptions of current resources / tools",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0373229980469,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Observation", "12:", "64.1%", "of", "participants", "facing", "additional", "challenges", "in", "securing", "their", "cryptographic", "tasks.", "They", "attribute", "these", "chal-", "lenges", "to", "the", "complexity", "of", "cryptographic", "operations", "and", "the", "lack", "of", "detection", "methods", "for", "crypto-specific", "vulnerabilities.", "Security.", "This", "part", "investigated", "the", "practitioners’", "perceptions", "of", "the", "security", "of", "cryptographic", "practices", "and", "explored", "their", "under-", "standing", "of", "crypto-related", "vulnerabilities.", "We", "found", "that", "compared", "to", "other", "common", "tasks", "in", "smart", "contracts,", "64.1%", "of", "participants", "perceive", "additional", "challenges", "in", "securing", "their", "cryptographic", "tasks.", "To", "attribute", "these", "challenges,", "we", "further", "questioned", "the", "underly-", "ing", "reasons.", "Out", "of", "the", "32", "participants", "who", "provided", "feedback,", "19", "(59.4%)", "participants", "mentioned", "that", "cryptographic", "practices", "require", "cryptographic", "expertise", "and", "low-level", "operations,", "which", "bringmore", "security", "issues", "inherently.", "For", "example,", "the", "respondents", "mentioned", "“Easy", "to", "get", "in", "a", "pitfall", "with", "bytes/bits", "around", "you”,", "“Only", "understand-", "ing", "cryptography", "can", "secure", "implementations", "while", "cryptography", "is", "not", "easy", "to", "learn”.", "Additionally,", "eight", "(25.0%)", "participants", "sug-", "gested", "that", "it", "is", "difficult", "to", "detect", "vulnerabilities", "in", "cryptographic", "implementations.", "For", "example,", "respondents", "mentioned", "that", "“(cryp-", "tographic", "tasks", "are)", "impossible", "to", "verify,", "almost", "always", "probabilistic,", "no", "way", "to", "test”", "and", "“No", "smart", "contract", "security", "analyzer", "supports", "the", "detection", "of", "cryptographic-related", "bugs”.", "It", "demonstrates", "the", "neces-", "sity", "to", "inform", "developers", "of", "the", "security", "implications", "behind", "the", "Ethereum", "crypto", "APIs", "and", "provide", "improved", "techniques", "to", "detect", "security", "vulnerabilities.", "Official", "Document", "3.38", "44.9%", "Audited", "Templates", "3.59", "52.2%", "Testing", "Tools", "3.14", "34.8%", "Audit", "Tools", "3.06", "31.9%", "Resources", "/", "Tools", "Distribution", "Average", "Score≥4"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 295.68,
+    "y1": 97.44,
+    "y2": 476.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639131-Table5-1.png"
+}, {
+  "caption": "Table 4: Obstacles faced by participants",
+  "captionBoundary": {
+    "x1": 94.35000610351562,
+    "x2": 253.1916046142578,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Roadmap", "Identification", "37", "57.8%", "1", "Security", "36", "56.3%", "2", "Knowledge", "26", "40.6%", "3", "Template", "Usage", "20", "31.3%", "4", "API", "Usage", "14", "21.9%", "5", "Obstacles", "#", "Participants", "Ratio", "Rank"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 97.44,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639131-Table4-1.png"
+}]

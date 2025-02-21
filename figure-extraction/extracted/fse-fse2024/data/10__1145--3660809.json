@@ -1,0 +1,341 @@
+[{
+  "caption": "Fig. 1. How action rules are mined. First classification rules with su icient support and confidence are mined using Apriori. This leads to the two rules in the red and blue regions. Then, rules with matching antecedents but di erent consequents are combined leading to the action rule with support(6%) and confidence(52%) A = [(avg_cc > 1.4) ∧ (cbo > 14→ cbo ≤ 14)] ⇒ [bug→ no-bug].",
+  "captionBoundary": {
+    "x1": 45.46910095214844,
+    "x2": 440.7130432128906,
+    "y1": 587.5748901367188,
+    "y2": 624.6840209960938
+  },
+  "figType": "Figure",
+  "imageText": ["File", "[(avg_cc", ">", "1.4)", "∧", "(cbo", "≤", "14)]", "⇒", "no-bug", "Support", "13%", "Con", "dence", "58%", "[(avg_cc", ">", "1.4)", "∧", "(cbo", ">", "14)]", "⇒", "bug", "Support", "6%", "Con", "dence", "91%", "cb", "o", "avg_cc", "50", "40", "30", "20", "10", "0", "2", "4", "6", "8", "10", "0"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 156.48,
+    "x2": 324.96,
+    "y1": 459.84,
+    "y2": 583.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure1-1.png"
+}, {
+  "caption": "Table 3. So ware metrics.",
+  "captionBoundary": {
+    "x1": 194.59100341796875,
+    "x2": 291.16796875,
+    "y1": 381.5008544921875,
+    "y2": 385.7330017089844
+  },
+  "figType": "Table",
+  "imageText": ["Method", "CI", "Clone", "Instances", "MFA", "Ratio", "of", "method", "which", "are", "inherited", "McCC", "McCabe’s", "Cyclomatic", "Complexity", "NPM", "Number", "of", "Public", "Method", "(API", "Size)", "NOI", "Number", "of", "Outgoing", "Invocations", "CAM", "Cohesion", "Amongst", "Classes", "NLE", "Nesting", "Level", "else", "if", "IC", "Inheritance", "coupling", "NII", "Number", "of", "Incoming", "Invocations", "CBM", "Coupling", "between", "methods", "LLOC", "Logical", "Lines", "of", "code", "AMC", "Average", "method", "complexity", "TNS", "Total", "Number", "of", "Statements", "max_CC", "Maximum", "McCabe’s", "cyclomatic", "complexity", "seen", "in", "class", "avg_CC", "Average", "McCabe’s", "cyclomatic", "complexity", "seen", "in", "class", "Class", "CBO", "Coupling", "Between", "Object", "classes", "DIT", "Depth", "of", "Inheritance", "Tree", "TNG", "Total", "Number", "of", "Getters", "NOC", "Number", "of", "Children", "NLPA", "Number", "of", "Local", "Public", "Attributes", "CBO", "Number", "of", "objects", "the", "class", "is", "coupled", "with", "NLE", "Nesting", "Level", "else", "if", "RFC", "Response", "for", "a", "Class", "NOD", "Number", "of", "Descendants", "LCOM", "Lack", "of", "cohesion", "in", "methods", "NII", "Number", "of", "Incoming", "Invocations", "CA", "Number", "of", "A", "erent", "Couplings", "TNLS", "Total", "Number", "of", "Local", "Setters", "CE", "Number", "of", "E", "erent", "Couplings", "NOP", "Number", "of", "Parents", "LCOM3", "Normalized", "measure", "of", "Lack", "of", "Cohesion", "LCOM5", "Lack", "of", "Cohesion", "in", "Methods", "5", "LOC", "Size", "of", "the", "Java", "Byte", "Code", "CI", "Clone", "Instances", "DAM", "Data", "access", "NUMPAR", "Number", "of", "Parameters", "MOA", "Number", "of", "attributes", "which", "are", "user-de", "ned", "classes", "Metric", "Description", "Granularity", "Metric", "Description", "WMC", "Number", "of", "methods", "Release", "level", "Commit", "level"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 432.47999999999996,
+    "y1": 388.8,
+    "y2": 573.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Table3-1.png"
+}, {
+  "caption": "Table 2. The dataset of defects used. The last column displays the decrease in bugs found in identical files when comparing the test release to the validation release. A negative number in this row suggests that the subsequent validation release had a higher bug count than its predecessor.",
+  "captionBoundary": {
+    "x1": 45.50510025024414,
+    "x2": 440.17034912109375,
+    "y1": 240.60586547851562,
+    "y2": 266.7550048828125
+  },
+  "figType": "Table",
+  "imageText": ["Jedit", "4.0", "4.1", "4.2", "367", "78", "216", "74", "142", "Camel", "1.0", "1.2", "1.4", "872", "210", "508", "247", "261", "log4j", "1.0", "1.1", "1.2", "205", "35", "83", "120", "-37", "Xalan", "2.5", "2.6", "2.7", "885", "385", "529", "381", "148", "Ant", "1.5", "1.6", "1.7", "745", "91", "183", "163", "20", "Velocity", "1.4", "1.5", "1.6", "229", "138", "321", "144", "177", "Poi", "1.5", "2.5", "3.0", "442", "247", "495", "366", "129", "Synapse", "1.0", "1.1", "1.2", "256", "58", "97", "65", "32", "Testing", "(newest)", "Validation", "(most", "recent)", "#", "les", "#", "matched", "les", "#", "bugs", "in", "testing", "set", "#", "bug", "in", "validation", "set", "#", "bugs", "reduced", "(oldest)", "Project", "Training"],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 431.03999999999996,
+    "y1": 276.0,
+    "y2": 375.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Table2-1.png"
+}, {
+  "caption": "Table 5. Median overlap scores. A higher scores being preferable and indicated by dark shade",
+  "captionBoundary": {
+    "x1": 45.58591079711914,
+    "x2": 221.22848510742188,
+    "y1": 76.78263092041016,
+    "y2": 91.9737548828125
+  },
+  "figType": "Table",
+  "imageText": ["jedit", "70", "60", "50", "30", "17", "35", "75", "-", "95", "camel1", "90", "85", "65", "60", "15", "62", "80", "34.27", "95", "camel2", "80", "75", "50", "50", "25", "55", "75", "32.67", "100", "log4j", "75", "75", "55", "45", "25", "50", "65", "-", "95", "xalan", "100", "100", "75", "80", "65", "85", "75", "38.09", "100", "ant", "65", "55", "35", "35", "25", "35", "65", "-", "90", "velocity", "90", "85", "70", "55", "20", "75", "80", "21.18", "95", "poi", "85", "70", "55", "40", "0", "40", "75", "-", "95", "synapse", "67", "70", "40", "40", "10", "42", "62", "-", "90", "AVG", "79.17", "75.56", "55", "48.33", "22.55", "53.33", "72.22", "31.55", "95.00", "STD", "11.86", "14.24", "13.23", "15.21", "17.94", "17.81", "7.12", "7.27", "3.54", "p-value∗∗", "0.01", "0.01", "0.003", "0.003", "0.003", "0.003", "0.003", "0.001", "-", "∗Action", "Rule", "Mining", "∗∗Wilcoxon", "signed", "rank", "test", "to", "compare", "with", "CounterACT", "T", "im", "eL", "IM", "E", "L", "IM", "E", "Sh", "at", "n", "aw", "i", "A", "lv", "es", "R", "an", "d", "o", "m", "O", "li", "v", "ei", "ra", "X", "T", "R", "E", "E", "A", "R", "M", "∗", "C", "o", "u", "n", "te", "rA", "C", "T"],
+  "name": "5",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 234.23999999999998,
+    "y1": 100.8,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Table5-1.png"
+}, {
+  "caption": "Fig. 2. CounterACT: Overview of the approach. Note that for evaluating other benchmark planners, the grey area be replaced by the corresponding planner.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.40081787109375,
+    "y1": 651.7738037109375,
+    "y2": 666.964111328125
+  },
+  "figType": "Figure",
+  "imageText": ["CounterACT", "quality", "&", "our", "approach", "RQ1:", "Evaluate", "CounterACT", "plans", "Filter", "plan", "by", "overlap", "plan", "Return", "most", "supported", "Analyze", "Historical", "Overlap", "Actionable", "analysis", "Entropy", "Discretizer", "CounterACT", "Plans", "Action", "Rules", "Algorithm", "Action", "Rules", "CounterACT", "Plans", "Return", "random", "plan", "other", "approaches", "at", "commit", "level", "RQ3:", "Compare", "CounterACT", "to", "other", "approaches", "at", "release", "level", "RQ2:", "Compare", "CounterACT", "to", "Measure", "Performance", "Extracted", "Metrics", "Recommended", "changes", "Extracted", "Metrics", "Validation", "Data", "Testing", "Data", "Extracted", "Metrics", "Training", "Data", "Source", "code", "at", "instant", "t", "Source", "code", "at", "instant", "t+1", "Source", "code", "at", "instant", "t-1", "Source", "code", "at", "release", "or", "commit", "level"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 396.47999999999996,
+    "y1": 521.76,
+    "y2": 645.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure2-1.png"
+}, {
+  "caption": "Fig. 4. Median overlap scores between di erent plan selection methods. The reported values on the histograms are the standard deviations",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 221.50650024414062,
+    "y1": 632.914794921875,
+    "y2": 659.0648803710938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 239.04,
+    "y1": 510.71999999999997,
+    "y2": 618.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Results of top-M experiments. We chose the value of\" = 10, since it shows the most stable overlap and F1 score",
+  "captionBoundary": {
+    "x1": 242.79400634765625,
+    "x2": 440.1761474609375,
+    "y1": 632.5479736328125,
+    "y2": 658.697998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 242.88,
+    "x2": 441.12,
+    "y1": 511.68,
+    "y2": 618.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure5-1.png"
+}, {
+  "caption": "Fig. 8. Precision, Recall and F1-score distribution for each planner at the release level",
+  "captionBoundary": {
+    "x1": 86.14219665527344,
+    "x2": 399.85870361328125,
+    "y1": 663.1760864257812,
+    "y2": 667.408203125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 601.92,
+    "y2": 660.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure8-1.png"
+}, {
+  "caption": "Fig. 6. Support, Confidence, Upli distribution at the release level",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 218.58326721191406,
+    "y1": 266.6528625488281,
+    "y2": 281.8428039550781
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 218.4,
+    "y1": 151.68,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. The True Positive (TP) and False Positive (FP) of the learned rules",
+  "captionBoundary": {
+    "x1": 243.0,
+    "x2": 440.7124938964844,
+    "y1": 267.7718505859375,
+    "y2": 282.9630126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 265.92,
+    "x2": 415.2,
+    "y1": 150.72,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure7-1.png"
+}, {
+  "caption": "Fig. 11. Contingency table to Compare test outcomes for the vanilla LLM proposed bug fix VS the LLM with CounterACT guidance.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1719665527344,
+    "y1": 208.02584838867188,
+    "y2": 223.21701049804688
+  },
+  "figType": "Figure",
+  "imageText": ["and", "LLM+CounterACT\"", "Number", "of", "tests", "that", "failed", "with", "the", "recommendations", "of", "vanilla", "LLM", "Number", "of", "tests", "that", "failed", "with", "the", "recommendation", "of", "vanilla", "LLM", "and", "passed", "with", "LLM+CounterACT", "Number", "of", "tests", "that", "passed", "with", "the", "recommendation", "of", "vanilla", "LLM", "and", "failed", "with", "LLM+CounterACT", "and", "LLM+CounterACT", "Number", "of", "tests", "that", "passed", "with", "the", "recommendation", "of", "vanilla", "LLM", "LLM+", "CounterACT", "Vanilla", "LLM", "Test", "Fail", "Test", "Pass", "Test", "Pass", "Test", "fail", "0", "12", "14", "14"],
+  "name": "11",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 400.32,
+    "y1": 114.72,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure11-1.png"
+}, {
+  "caption": "Table 4. A summary of the studied commit defective datasets provided by PROMISE challenge.",
+  "captionBoundary": {
+    "x1": 67.06209564208984,
+    "x2": 418.69757080078125,
+    "y1": 82.4517593383789,
+    "y2": 86.68389892578125
+  },
+  "figType": "Table",
+  "imageText": ["ni", "08/12/2014", "17/02/2017", "16445", "1557", "(9.4%)", "17/05/2017", "29/09/2017", "1093", "145", "(13.2%)", "zookeper", "03/11/2007", "01/07/2013", "3545", "422", "(11.9%)", "07/10/2013", "11/09/2017", "850", "89", "(10.4%)", "kafka", "01/08/2011", "15/03/2017", "6742", "818", "(12.1%)", "16/06/2017", "29/09/2017", "1244", "99", "(7.9%)", "Phoenix", "27/012014", "17/08/2016", "8833", "1486", "(16.8%)", "17/11/2016", "28/09/2017", "1094", "196", "(17.9%)", "ActiveMQ", "12/12/2005", "11/04/2016", "28570", "3568", "(12.4%)", "11/07/2016", "21/09/2017", "1051", "73", "(6.9%)", "Start", "Date", "End", "Date", "#", "Commits", "#", "Defective", "Commits", "Start", "Date", "End", "Date", "#", "Commits", "#", "Defective", "Commits", "Projects", "Training", "Data", "Testing", "Data"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 430.08,
+    "y1": 96.0,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Table4-1.png"
+}, {
+  "caption": "Fig. 3. CounterACT: an illustrative example",
+  "captionBoundary": {
+    "x1": 162.88999938964844,
+    "x2": 323.11041259765625,
+    "y1": 591.8518676757812,
+    "y2": 596.083984375
+  },
+  "figType": "Figure",
+  "imageText": ["Test", "Data", "Train", "Data", "...", "cbo*", "Bugs", "...", "(7,", "12)", "1⇒0", "4.java", "(1.0,", "2)", "(5,", "50)", "McCC*", "rfc", "Plan", "selection", "algorithm", "...", "cbo", "Bugs", "...", "(7,", "12)", "1", "4.java", "(0.75,", "1.0)", "(5,", "50)", "McCC", "rfc", "...", "cbo*", "Bugs", "...", "(7,", "12)", "1⇒0", "...", "(3,", "5)", "1⇒0", "4.java", "(1.0,", "2)", "(5,", "50)", "4.java", "(1.0,", "2)", "(5,", "50)", "McCC*", "rfc", "Predict", "Inference", "Action", "Rules", "r1", "[McCC:", "(0.75,", "1.0)", "→", "(1.0,", "2))]", "⇒", "[Bugs:", "1", "→", "0]", "...", ".....", "r3", "[McCC:", "(0.75,", "1.0)", "→", "(1.0,", "2))", "∧", "cbo:", "(7,", "12)", "→", "(3,", "5))]", "⇒", "[Bugs:", "1", "→", "0]", "Action", "Rule", "Mining", "...", "cbo", "Bugs", "...", "(7,", "12)", "1", "...", "(7,", "12)", "1", "...", "(3,", "5)", "0", "SMOTE", "3.java", "(1,", "2)", "(1,", "2)", "1.java", "(0.75,", "1.0)", "(5,", "50)", "2.java", "(0.75,", "1.0)", "(1,", "2)", "McCC", "rfc", "Entropy", "Discretizer", "M=k", "Top-M", "features", "[McCC,", "......,CBO]", "...", "cbo", "Bugs", "...", "8", "1", "...", "9", "1", "...", "3", "0", "3.java", "1.2", "1", "2.java", "0.9", "2", "1.java", "0.8", "15", "McCC", "rfc"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 399.36,
+    "y1": 431.52,
+    "y2": 582.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure3-1.png"
+}, {
+  "caption": "Fig. 10. Overview: Incorporate the LLM with CounterACT to generate actionable recommendations for developers",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.32855224609375,
+    "y1": 327.7578430175781,
+    "y2": 342.9490051269531
+  },
+  "figType": "Figure",
+  "imageText": ["6", "45", "2", "3", "1", "buggy", "method", "after", "fix", "User:", "Run", "the", "test", "of", "the", "Apply", "LLM", "recommendation", "to", "fix", "the", "bug", "metrics", "1-Bug", "Explanation", "2-action", "to", "take", "to", "fix", "bug", "3-proposed", "code", "changeUser:", "LLM", "recommendation", "following", "the", "code", "Commit", "message", "buggy", "code", "Prompt:", "code", "metrics", "Recommended", "actions", "Predict", "Extracted", "Metrics", "Test", "data", "Train", "CounterACT", "Extracted", "Metrics", "Training", "Data", "Source", "code", "at", "commit", "t", "for", "a", "buggy", "method", "Source", "code", "at", "instant", "t-1"],
+  "name": "10",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 84.47999999999999,
+    "x2": 358.08,
+    "y1": 185.76,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure10-1.png"
+}, {
+  "caption": "Table 1. Example of computing overlap using the Jaccard similarity function. Plans that match the developer actions are marked gray",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3323669433594,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["is", "a", "Match?", "y", "n", "y", "n", "Current", "release", "C", "2.13", "504", "0.9", "5", "'", "for", "release", "C", "+", "1", "no", "change", "(470,520)", "(0,", "0.4)", "no", "change", "Next", "release", "C", "+", "1", "2.13", "530", "0.3", "2", "AMC", "LOC", "LCOM", "CBO"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 120.0,
+    "x2": 364.32,
+    "y1": 112.8,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Table1-1.png"
+}, {
+  "caption": "Table 7. Interquartile range (IQR) overlap scores at release level: lower IQRs are preferred and are indicated by dark shade.",
+  "captionBoundary": {
+    "x1": 45.58591842651367,
+    "x2": 202.20230102539062,
+    "y1": 79.73685455322266,
+    "y2": 105.886962890625
+  },
+  "figType": "Table",
+  "imageText": ["jedit", "15.0", "25.0", "20.0", "20.0", "15.0", "20.0", "10.0", "-", "10.0", "camel1", "25.0", "35.0", "40.0", "50.0", "25.0", "50.0", "10.0", "14.0", "5.0", "camel2", "20.0", "35.0", "30.0", "45.0", "30.0", "50.0", "6.25", "15.0", "5.0", "log4j", "27.5", "12.5", "35.0", "37.5", "30.0", "40.0", "20.0", "-", "10.0", "xalan", "15.0", "20.0", "15.0", "30.0", "35.0", "45.0", "0.0", "5.0", "5.0", "ant", "25.0", "27.5", "20.0", "15.0", "17.5", "20.0", "20.0", "-", "10.0", "velocity", "10.0", "30.0", "25.0", "35.0", "15.0", "50.0", "5.0", "15.0", "0.0", "poi", "15.0", "15.0", "15.0", "20.0", "10.0", "20.0", "10.0", "-", "0.00", "synapse", "38.75", "25.0", "30.0", "38.75", "15.0", "35.0", "23.75", "-", "11.25", "∗Action", "Rule", "Mining", "C", "o", "u", "n", "te", "rA", "C", "T", "X", "T", "R", "E", "E", "A", "R", "M", "∗", "R", "an", "d", "o", "m", "O", "li", "v", "ei", "ra", "A", "lv", "es", "i", "E", "Sh", "at", "n", "aw", "L", "IM", "E", "eL", "IM", "T", "im"],
+  "name": "7",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 228.48,
+    "y1": 114.72,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Table7-1.png"
+}, {
+  "caption": "Fig. 9. Precision, Recall and F1-score distribution for each planner at the commit level",
+  "captionBoundary": {
+    "x1": 84.76210021972656,
+    "x2": 401.24041748046875,
+    "y1": 401.7208557128906,
+    "y2": 405.9530029296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 338.88,
+    "y2": 395.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660809-Figure9-1.png"
+}]

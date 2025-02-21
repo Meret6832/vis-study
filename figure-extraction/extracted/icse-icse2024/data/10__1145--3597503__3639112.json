@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 4: The core components of Mozi.",
+  "captionBoundary": {
+    "x1": 357.53399658203125,
+    "x2": 518.6226196289062,
+    "y1": 427.6759033203125,
+    "y2": 429.7560119628906
+  },
+  "figType": "Figure",
+  "imageText": ["Query", "Generator", "SQL", "Specification", "Analyzer", "Configuration", "List", "Transformer", "Engine", "…", "…", "Transformation", "Layer", "Result", "Checker", "Plan", "Analyzer", "Configuration", "Transformer", "Performance", "Correctness", "Test", "Oracles", "Mozi", "Framework", "Adaptation", "Layer", "Target", "DBMS"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 248.64,
+    "y2": 409.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639112-Figure4-1.png"
+}, {
+  "caption": "Table 1: Categories of DBMS Configurations",
+  "captionBoundary": {
+    "x1": 348.9129943847656,
+    "x2": 526.9417724609375,
+    "y1": 600.9508666992188,
+    "y2": 603.031005859375
+  },
+  "figType": "Table",
+  "imageText": ["Category", "Description", "Buffer", "cache", "Size", "and", "behavior", "of", "the", "buffer", "cache.", "Concurrency", "Control", "of", "concurrency", "and", "locking.", "Memory", "allocation", "Memory", "allocation", "and", "usage.", "Disk", "usage", "Control", "of", "disk", "space", "usage.", "Query", "optimization", "Optimization", "of", "query", "execution.", "Security", "Access", "control", "and", "authentication."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 542.4,
+    "y1": 617.76,
+    "y2": 699.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639112-Table1-1.png"
+}, {
+  "caption": "Figure 5: Time distribution of imported codes for the con-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368103027344,
+    "y1": 680.0618286132812,
+    "y2": 682.1419677734375
+  },
+  "figType": "Figure",
+  "imageText": ["Correctness", "Bugs", "Performance", "Bugs", "Year", "s", "f", "B", "ug", "be", "r", "o", "N", "um", "0-1", "1-3", "3-5", ">5", "30", "25", "20", "15", "10", "5", "0", "4", "9", "13", "18", "5", "9", "7", "25"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 272.15999999999997,
+    "y1": 534.72,
+    "y2": 660.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639112-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The simplified PoC to trigger the performance bug in PostgreSQL. The bug is influenced by the index_scan optimization, which was only detected by Mozi.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.716064453125,
+    "y1": 426.4618835449219,
+    "y2": 450.4590148925781
+  },
+  "figType": "Figure",
+  "imageText": ["--", "Step", "1.", "Create", "the", "init", "tables", "create table t1 (", "v0 int,", "v1 varchar ,...", ")", ";", "create table t2 (", "v0", "CURRENT_TIMESTAMP,v1", "float,...", ")", ";", "create table t3 (", "v0", "float primary", "key,v1", "float,...", ")", ";", "--", "Step", "2.", "Add", "index", "to", "the", "tables", "create index i1 on t1", "(v1)", "using hash;", "...", "--", "Step", "3.", "Insert", "records", "to", "tables", "insert", "into v1 value(1,'v5easaw',...);", "...", "--", "Step", "4.", "The", "SQL", "query", "for", "execution: Execution", "Time:11.42s", "select case when (EXISTS (select ref1.v as c0,", "... ", "from table1 as ref1 where 1)) and (s0.c0 is", "not NULL)", "then s0.c0 else s0.c0 end as c0, MONTH(s0.c1) as c1, ", "JSON_OBJECT() as c2, case when s1.c0 is", "not", "NULL then s1.c0 else s1.c0 end (select ...;", "--", "Step", "5.", "Close", "the", "index_scan", "optimization", "set enable_indexscan=\"off\"", "--", "Step", "6.", "Execute", "the", "same", "SQL", "query,", "Execution", "Time:", "0.534s"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 330.24,
+    "x2": 546.24,
+    "y1": 275.03999999999996,
+    "y2": 407.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639112-Figure6-1.png"
+}, {
+  "caption": "Figure 1: A correctness bug found byMozi in MySQL.Mozi executes the query and finds the INDEX SCAN configuration",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2007446289062,
+    "y1": 356.681884765625,
+    "y2": 369.72100830078125
+  },
+  "figType": "Figure",
+  "imageText": ["New", "Execution", "Plan", "and", "Result：", "1.", "Full", "Scan", "t0", "...", "2.", "Full", "Scan", "t1", "...", "3.", "Filter", "....", "Error:", "DOUBLE", "value", "is", "out", "of", "range", "in", "'pow(found_rows(),", "`t0`.`r0`.`v5`)'\"", "Close", "the", "Index", "Scan", "Optimization:", "SET @@optimizer_switch='index_condition_pushdown=off';", "SET @@optimizer_switch='index_merge_sort_union=off';", "Default", "Execution", "Plan", "and", "Result：", "1.", "Full", "Scan", "t0", "...", "2.", "Index", "Scan", "t1", "...", "3.", "Filter", "....", "SQL", "Query：", "select power(FOUND_ROWS(),n0.c0) as c1,n0.c0 as c2 from ", "(select r0.v5 as c0 from t0 as r0 left", "join t1 as r1 ", "on (0) where (1) or ((r1.v4 is", "not", "NULL))", "as", "n0;"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 545.76,
+    "y1": 209.76,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639112-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Overview of Mozi. First,Mozi analyzes the plan of a generated query. It sends a generated query into the target DBMS",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1908569335938,
+    "y1": 281.1239013671875,
+    "y2": 283.2040100097656
+  },
+  "figType": "Figure",
+  "imageText": ["->", "…", "(cost", "=", "…)", "->", "Seq", "Scan", "…(cost", "=", "…)", "->", "Hash", "…", "(cost", "=", "…)", "Correctness", "Bugs", "Performance", "Bugs", "0.64s", "3.75s", "DBMS’", "r1", "r2", "r1", "r2", "r3", "Step3:", "Various", "Test", "Oracles", "Construction", "Step2:", "Plan-Guided", "Equivalent", "Transformation", "derived_merge", "…", "firstmatch", "seminjoin", "Index_mergehash_join", "DBMS", "derived_merge", "…", "firstmatch", "seminjoin", "Index_mergehash_join", "Step1:", "Plan", "Analysis", "Plan", "Query", "SELECT", "*", "FROM", "t0", "WHERE", "φ"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 530.4,
+    "y1": 84.96,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639112-Figure2-1.png"
+}, {
+  "caption": "Figure 3: A plan generated by PostgreSQL that utilizes Hash Join, Index Scan, and Seq Scan.",
+  "captionBoundary": {
+    "x1": 53.574005126953125,
+    "x2": 294.04400634765625,
+    "y1": 221.43490600585938,
+    "y2": 234.4739990234375
+  },
+  "figType": "Figure",
+  "imageText": ["QUERY", "PLAN", "Planning", "Time:", "0.172", "ms,", "Execution", "Time:", "55.042", "ms", "Buckets:", "4096", "Batches:", "1", "Memory", "Usage:", "162kB", "->", "Seq", "Scan", "on", "users", "u", "(cost=0.00..375.70", "rows=3000", "width=28)", "(…)", "Index", "Cond:", "(total_price", ">", "100)", "->", "Hash", "(cost=375.70..375.70", "rows=3000", "width=28)", "(…)", "Recheck", "Cond:", "(total_price", ">", "100)", "Heap", "Blocks:", "exact=2034", "->", "Bitmap", "Index", "Scan", "on", "orders_total_price_idx", "(…)", "(…)", "Hash", "Cond:", "(o.user_id", "=", "u.id)", "->", "Bitmap", "Heap", "Scan", "on", "orders", "o", "(cost=434.84..1108.26", "rows=5235", "width=12)(…)", "Sort", "Key:", "u.username", "Sort", "Method:", "external", "merge", "Disk:", "432kB", "->", "Hash", "Join", "(cost=926.70..1648.72", "rows=10460", "width=32)", "(…)", "GroupAggregate", "(cost=2568.20..2766.57", "rows=313", "width=36)", "(actual", "time=…", "rows=…", "loops=…)", "Group", "Key:", "u.username", "->", "Sort", "(cost=2568.20..2594.38", "rows=10460", "width=32)", "(…)", "SELECT", "u.username,", "SUM(o.total_price)", "FROM", "users", "u", "JOIN", "orders", "o", "ON", "u.id", "=", "o.user_id", "WHERE", "o.total_price", ">", "100", "GROUP", "BY", "u.username;"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 84.0,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639112-Figure3-1.png"
+}]

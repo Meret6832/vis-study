@@ -1,0 +1,241 @@
+[{
+  "caption": "Fig. 4. Test Assertion failure in client org.sonatype.restsimple:restsimple-sitebricks when com.google.inject.extensions:guice-servlet dependency was updated from version 3.0 to 4.0",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1731872558594,
+    "y1": 156.41632080078125,
+    "y2": 171.60302734375
+  },
+  "figType": "Figure",
+  "imageText": ["at", "org.testng.Assert.fail(Assert.java:89)", "at", "org.testng.Assert.failNotEquals(Assert.java:480)", "at", "org.testng.Assert.assertEquals(Assert.java:118)", "at", "org.testng.Assert.assertEquals(Assert.java:365)", "at", "org.testng.Assert.assertEquals(Assert.java:375)", "at", "org.sonatype.restsimple.sitebricks.test.addressBook.AddressBookSitebricksTest.testPost(AddressBookSitebricksTest.java:106)"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 440.64,
+    "y1": 93.11999999999999,
+    "y2": 140.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Program Assert in client org.needle4j:needle4j when com.h2database:h2 dependency was updated from version 1.3.170 to 1.4.178",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17333984375,
+    "y1": 289.3963317871094,
+    "y2": 304.5830078125
+  },
+  "figType": "Figure",
+  "imageText": ["at", "org.needle4j.db.operation.hsql.HSQLDeleteOperation.deleteContent(HSQLDeleteOperation.java:142)", "at", "org.needle4j.db.operation.h2.H2DeleteOperationTest$H2DeleteOperationForTest.deleteContent(H2DeleteOperationTest.java:162)", "at", "org.needle4j.db.operation.hsql.HSQLDeleteOperation.tearDownOperation(HSQLDeleteOperation.java:53)", "at", "org.needle4j.db.DatabaseTestcase.after(DatabaseTestcase.java:152)", ".", ".", ".", "at", "org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)", "at", "org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)", "java.lang.AssertionError:", "unable", "to", "clean", "tables", "[NEEDLE_TEST_ADDRESS]"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 191.51999999999998,
+    "y2": 268.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Figure5-1.png"
+}, {
+  "caption": "Table 5. Origin of Test Errors",
+  "captionBoundary": {
+    "x1": 188.00009155273438,
+    "x2": 295.515869140625,
+    "y1": 88.1260986328125,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Library", "Updated", "146", "23.66%", "Client", "144", "23.34%", "Standard", "Java", "Library", "92", "14.91%", "Library", "used", "for", "Testing", "86", "13.94%", "Other", "Direct", "Dependency", "79", "12.80%", "Transitive", "Dependency", "33", "5.33%", "Dependency", "of", "the", "Updated", "Library", "4", "0.65%", "Origin", "Number", "of", "Occurrence", "Percentage"],
+  "name": "5",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 399.36,
+    "y1": 106.56,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Table5-1.png"
+}, {
+  "caption": "Fig. 3. A. Successful Releases between the Current and Breaking versions when the BBC was introduced in a Major Update B. Successful Releases between the Current and Breaking versions when the BBC was introduced in a Minor Update C. Successful Releases between the Current and Breaking versions when the BBC was introduced in a Patch Update",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1739807128906,
+    "y1": 337.21234130859375,
+    "y2": 374.3170166015625
+  },
+  "figType": "Figure",
+  "imageText": ["C", "B", "A", "Patch", "Number", "of", "Successful", "Updates", "e", "s", "ra", "ri", "Li", "b", "o", "f", "g", "e", "n", "ta", "rc", "e", "P", "e", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16+", "80.00%", "70.00%", "60.00%", "50.00%", "40.00%", "30.00%", "20.00%", "10.00%", "0.00%", "5", "%", "3", ".1", "0", "%", "0", ".0", "9", "%", "0", ".7", "7", "%", "1", ".5", "0", "%", "0", ".0", "5", "%", "3", ".1", "7", "%", "1", ".5", "6", "%", "2", ".3", "9", "%", "0", ".7", "0", "%", "0", ".0", "6", "%", "2", ".3", "1", "%", "5", ".5", "7", "%", "1", ".5", "0", "%", "6", ".3", "0", "%", "0", ".0", "9", "%", "0", ".7", "%", ".0", "8", "7", "0", "Patch", "Minor", "Number", "of", "Successful", "Updates", "e", "s", "ra", "ri", "Li", "b", "o", "f", "g", "e", "n", "ta", "rc", "e", "P", "e", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16+", "70.00%", "60.00%", "50.00%", "40.00%", "30.00%", "20.00%", "10.00%", "0.00%", "4", "%", "0", "%", "7", ".4", "0", ".0", "0", "%", "0", ".3", "9", "%", "1", ".1", "9", "%", "1", ".7", "8", "%", "2", ".9", "0", "%", "0", ".3", "9", "%", "1", ".4", "7", "%", "3", ".2", "8", "%", "2", ".6", "5", "%", "5", ".9", "7", "%", "3", ".2", "6", "%", "4", ".7", "6", "%", "5", ".0", "6", "%", "4", ".7", "8", "%", "2", ".6", "%", ".0", "8", "5", "2", "8", "%", "2", ".6", "0", "%", "0", ".3", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".3", "0", "%", "0", ".0", "9", "%", "1", ".4", "0", "%", "0", ".3", "9", "%", "0", ".8", "0", "%", "0", ".6", "0", "%", "0", ".6", "0", "%", "0", ".6", "8", "%", "2", ".0", "8", "%", "2", ".6", "4", "%", "7", ".4", "%", ".5", "4", "2", "0", "%", ".5", "2", "5", "9", "Patch", "Minor", "Major", "Number", "of", "Successful", "Updates", "e", "s", "ra", "ri", "Li", "b", "o", "f", "g", "e", "n", "ta", "rc", "e", "P", "e", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16+", "80.00%", "70.00%", "60.00%", "50.00%", "40.00%", "30.00%", "20.00%", "10.00%", "0.00%", "%", ".5", "3", "1", "8", "0", "%", "5", ".6", "0", "%", "0", ".0", "6", "%", "2", ".1", "3", "%", "0", ".4", "6", "%", "0", ".8", "3", "%", "0", ".4", "2", "%", "1", ".7", "9", "%", "2", ".5", "8", "%", "3", ".8", "2", "%", "3", ".0", "6", "%", "2", ".1", "0", "%", "5", ".6", "9", "%", "8", ".1", "0", "%", "5", ".6", "5", "%", "3", ".4", "%", ".7", "8", "3", "5", "2", "%", "1", ".7", "0", "%", "0", ".0", "3", "%", "0", ".4", "3", "%", "0", ".4", "0", "%", "0", ".0", "0", "%", "0", ".0", "3", "%", "0", ".4", "6", "%", "2", ".1", "6", "%", "2", ".1", "6", "%", "2", ".1", "2", "%", "1", ".7", "5", "%", "3", ".4", "6", "%", "2", ".1", "6", "%", "2", ".1", "7", "%", "6", ".4", "%", ".8", "1", "1", "6", "%", ".7", "6", "5", "7", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "3", "%", "0", ".4", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "0", "%", "0", ".0", "9", "%", "1", ".2", "8", "%", "3", ".8", "%", ".7", "1", "2", "3", "%", ".6", "9", "7", "0"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 322.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Figure3-1.png"
+}, {
+  "caption": "Table 4. Error related Effects due to BBCs",
+  "captionBoundary": {
+    "x1": 164.4499969482422,
+    "x2": 319.06683349609375,
+    "y1": 305.1903381347656,
+    "y2": 309.4179992675781
+  },
+  "figType": "Table",
+  "imageText": ["java.util.ServiceConfigurationError", "8", "40.00%", "Custom", "Error", "8", "40.00%", "java.lang.VerifyError", "4", "20.00%", "Error", "Type", "Number", "of", "Occurrence", "Percentage", "Out", "of", "All", "Errors"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 400.32,
+    "y1": 324.0,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Table4-1.png"
+}, {
+  "caption": "Table 3. Most Common Checked Exception effects due to BBCs on client Tests",
+  "captionBoundary": {
+    "x1": 97.5250015258789,
+    "x2": 388.2336730957031,
+    "y1": 196.63031005859375,
+    "y2": 200.85797119140625
+  },
+  "figType": "Table",
+  "imageText": ["Custom", "Exceptions", "92", "51.40%", "java.io.IOException", "16", "8.94%", "java.sql.SQLException", "12", "6.70%", "java.io.FileNotFoundException", "7", "3.91%", "java.net.SocketException", "7", "3.91%", "Checked", "Exceptions", "Number", "of", "Occurrence", "Percentage", "Out", "of", "All", "Checked", "Exceptions"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 419.03999999999996,
+    "y1": 216.0,
+    "y2": 271.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Table3-1.png"
+}, {
+  "caption": "Table 2. Most Common Runtime Exception effects due to BBCs on client Tests",
+  "captionBoundary": {
+    "x1": 97.8479995727539,
+    "x2": 387.9112854003906,
+    "y1": 88.1260986328125,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["java.lang.NullPointerException", "128", "30.84%", "Custom", "Runtime", "Exceptions", "107", "25.78%", "java.lang.IllegalStateException", "69", "16.63%", "java.lang.IllegalArgumentException", "51", "12.29%", "java.lang.ClassCastException", "17", "4.10%", "Runtime", "Exceptions", "Number", "of", "Occurrence", "Percentage", "Out", "of", "All", "Runtime", "Exceptions"],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 419.03999999999996,
+    "y1": 106.56,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Table2-1.png"
+}, {
+  "caption": "Fig. 6. IllegalStateException thrown in client org.apache.dubbo:dubbo-filter-cache during com.hazelcast:hazelcast dependency update from 3.11.1 to 4.0",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.173583984375,
+    "y1": 165.04931640625,
+    "y2": 180.23602294921875
+  },
+  "figType": "Figure",
+  "imageText": ["Exception", "Type", "at", "com.hazelcast.client.impl.connection.nio.ClientConnectionManagerImpl.doConnectToCluster(ClientConnectionManagerImpl.java:397)", "at", "com.hazelcast.client.impl.connection.nio.ClientConnectionManagerImpl.connectToCluster(ClientConnectionManagerImpl.java:346)", "Exception", "Origin", "Caused", "by:", "java.lang.IllegalStateException:", "Unable", "to", "connect", "to", "any", "cluster.", "at", "com.hazelcast.cache.impl.AbstractHazelcastCachingProvider.getCacheManager(AbstractHazelcastCachingProvider.java:134)", "at", "com.hazelcast.cache.impl.AbstractHazelcastCachingProvider.getCacheManager(AbstractHazelcastCachingProvider.java:163)", ".", ".", ".", "at", "org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)", "javax.cache.CacheException:", "Error", "opening", "URI", "[hazelcast]"],
+  "name": "6",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 86.39999999999999,
+    "y2": 146.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Taxonomy of Effect on client Tests due to BBCs",
+  "captionBoundary": {
+    "x1": 142.53599548339844,
+    "x2": 343.464111328125,
+    "y1": 297.8653259277344,
+    "y2": 302.0929870605469
+  },
+  "figType": "Figure",
+  "imageText": ["0.65%", "(4)", "Resource", "Errors", "67.15%", "(415)", "Runtime", "Exceptions", "28.96%", "(179)", "Checked", "Exceptions", "3.24%", "(20)", "Errors", "0.71%", "(3)", "Program", "Assertions", "99.29%", "(421)", "Test", "Assertions", "59.35%", "(618)", "Test", "Error", "40.65%", "(425)", "Test", "Failure", "Taxonomy", "of", "Effect"],
+  "name": "7",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 439.2,
+    "y1": 199.68,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Figure7-1.png"
+}, {
+  "caption": "Table 1. BBC introduced at each Semantic Versioning Level",
+  "captionBoundary": {
+    "x1": 132.93280029296875,
+    "x2": 352.8255920410156,
+    "y1": 88.1260986328125,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Major", "6,584", "232", "33.38%", "3.52%", "Minor", "14,856", "336", "48.35%", "2.26%", "Patch", "7,945", "127", "18.27%", "1.60%", "across", "the", "semantic", "levels", "on", "total", "updates", "of", "that", "level", "Update", "Version", "level", "Total", "number", "of", "updates", "Updates", "impacted", "by", "BBC", "Distribution", "of", "BBC", "impact", "%", "of", "impacted", "updates", "based"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 439.2,
+    "y1": 106.56,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Table1-1.png"
+}, {
+  "caption": "Fig. 1. Behavioral BC under org.jsoup:jsoup library when updating from version 1.7.3 to version 1.8.1",
+  "captionBoundary": {
+    "x1": 57.472999572753906,
+    "x2": 428.52899169921875,
+    "y1": 280.9113464355469,
+    "y2": 285.1390075683594
+  },
+  "figType": "Figure",
+  "imageText": ["1079", "1110", "else", "1109", "+", "}", "1108", "+", "accum.append(\"", "/>\");", "//", "<img>", "in", "html,", "<img", "/>", "in", "xml", "1107", "+", "else", "1106", "+", "accum.append('>');", "1105", "+", "if", "(out.syntax()", "==", "Document.OutputSettings.Syntax.html", "&&", "tag.isEmpty())", "1104", "+", "if", "(childNodes.isEmpty()", "&&", "tag.isSelfClosing())", "{", "1103", "+", "//", "selfclosing", "includes", "unknown", "tags,", "isEmpty", "defines", "tags", "that", "are", "always", "empty", "1078", "-", "accum.append(\"", "/>\");", "1077", "-", "if", "(childNodes.isEmpty()", "&&", "tag.isSelfClosing())", "1076", "1102", "1075", "1101", "attributes.html(accum,", "out);", "1074", "1100", ".append(tagName());", "@@", "-1074,8", "+1100,13", "@@", "void", "outerHtmlHead(StringBuilder", "accum,", "int", "depth,", "Document.OutputSettings", "out)", "878", "904", "private", "static", "void", "appendWhitespaceIfBr(Element", "element,", "StringBuilder", "accum)", "{"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 435.35999999999996,
+    "y1": 86.39999999999999,
+    "y2": 262.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Overview of the study",
+  "captionBoundary": {
+    "x1": 188.97300720214844,
+    "x2": 297.02642822265625,
+    "y1": 454.53533935546875,
+    "y2": 458.76300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Adequate", "BBC", "Documentation", "Yes", "Yes", "Surface", "Exception", "At", "API", "Message", "Adequate", "Exception", "Updates", "BBCs", "in", "Major", "Messages", "RQ4:", "Runtime", "Exception", "Categorize", "Test", "Failure", "or", "Error", "Deduplicate", "&", "Extract", "BB", "Logs", "Crash", "Logs", "V1.0.3", "V1.2.0", "V3.0.0", "FailSucc", "Succ", "Fail", "V1.0.2V1.0.1", "Point", "Extract", "Initial", "Failure", "Develop", "Taxonomy", "Dep.", "versions", "Update", "&", "Execute", "Tests", "for", "all", "RQ2:", "Effect", "of", "BBC", "Fail", "1,668", "Dep.", "Updates", "Update", "&", "Test", "Execution", "30,548", "Dep.", "Updates", "RQ1:", "BBC", "Impact", "on", "Client", "Tests", "Succ.", "Compile", "Update", "Dep", "&", "Test", "Suite", "Execution", "Succ.", "Compile", "Libraries.io", "Java", "Repos", "20,711", "GitHub", "Artifacts", "8,086", "Succ.", "17,611", "Maven", "Artifacts", "Java", "Standard", "Other", "Library", "Library", "Test", "Library", "Client", "Extract", "Initial", "Failure", "Point", "RQ3:", "BBCs", "Origin"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 438.24,
+    "y1": 316.8,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643782-Figure2-1.png"
+}]

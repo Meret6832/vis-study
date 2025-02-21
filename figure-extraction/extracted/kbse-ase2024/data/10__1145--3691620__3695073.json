@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 4: Comparison of the number of edges covered by DDSFuzz, DDSFuzz-, AFLNet, AFLNet-2N, boofuzz, boofuzz-2N, and AFL-TM during 48-hour fuzzing runs.",
+  "captionBoundary": {
+    "x1": 53.46600341796875,
+    "x2": 558.19140625,
+    "y1": 198.10586547851562,
+    "y2": 211.14495849609375
+  },
+  "figType": "Figure",
+  "imageText": ["DDSFuzz", "DDSFuzz-", "AFLNet", "AFLNet-2N", "boofuzz", "boofuzz-2N", "AFL-TM", "dg", "es", "of", "E", "be", "r", "N", "um", "T", "he", "Time", "(Hour)", "OpenDDS", "0", "8", "16", "24", "32", "40", "48", "28k", "21k", "14k", "7k", "0k", "Cyclone", "DDS", "0", "8", "16", "24", "32", "40", "48", "16k", "12k", "8k", "4k", "0k", "Fast", "DDS", "0", "8", "16", "24", "32", "40", "48", "20k", "15k", "10k", "5k", "0k"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.76,
+    "y1": 83.52,
+    "y2": 192.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695073-Figure4-1.png"
+}, {
+  "caption": "Table 3: The number of edges discovered by DDSFuzz, DDSFuzz-, AFLNet, AFLNet-2N, boofuzz, boofuzz-2N, and AFLTM after 48 hours.",
+  "captionBoundary": {
+    "x1": 53.06298828125,
+    "x2": 295.6488037109375,
+    "y1": 221.51785278320312,
+    "y2": 245.51593017578125
+  },
+  "figType": "Table",
+  "imageText": ["Average", "16,523.3", "15,432.7", "7,337.6", "12,381.0", "6,630.3", "12,778.3", "528.3", "OpenDDS", "22,111", "20,284", "7,857", "15,367", "7,827", "15,915", "92", "Fast", "DDS", "16,384", "15,821", "9,384", "13,723", "8,271", "14,236", "274", "Cyclone", "DDS", "11,075", "10,193", "4,771", "8,053", "3,793", "8,184", "1,219", "AFL-TM", "-2N", "boofuzz", "boofuzz", "-2N", "AFLNet", "DDSFuzz", "DDSFuzz-", "AFLNet", "Fuzzers", "Programs"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 259.68,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695073-Table3-1.png"
+}, {
+  "caption": "Figure 1: An example of a DDS network.",
+  "captionBoundary": {
+    "x1": 92.73999786376953,
+    "x2": 255.09629821777344,
+    "y1": 246.98287963867188,
+    "y2": 249.06298828125
+  },
+  "figType": "Figure",
+  "imageText": ["DataReader", "DataWriter", "Subscriber", "DataReader", "DataWriter", "Publisher", "DomainParticipant", "Subscriber", "DataReader", "Subscriber", "DataReader", "DataWriter", "DataWriter", "Publisher", "DataWriter", "DataWriter", "Publisher", "DomainParticipant", "DataWriter", "DataWriter", "Publisher", "DataReader", "DataReader", "Subscriber", "DomainParticipant", "Topic", "Topic", "Topic", "DataWriter", "DataWriter", "Publisher", "DataReader", "DataReader", "Subscriber", "DomainParticipant", "Domain", "N"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 284.15999999999997,
+    "y1": 83.52,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695073-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Structure of an RTPS packet aligned to a 32-bit boundary. The first four bytes contain the “RTPS” characters as magic values.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63787841796875,
+    "y1": 364.452880859375,
+    "y2": 388.45098876953125
+  },
+  "figType": "Figure",
+  "imageText": ["GUID", "(Length:", "12B)", ".", ".", ".", "0", "8", "16", "24", "32", "Submessage", "Payload", "(Variable", "Length:", "0", "~", "64KiB)", "ID", "Flags", "SubmessageLength", "Submessage", "2", ".", ".", ".", ".", ".", ".", "Submessage", "1", "0", "8", "16", "24", "32", "‘R’", "‘T’", "‘P’", "‘S’", "Protocol", "Version", "Vendor", "ID"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 295.2,
+    "y1": 265.44,
+    "y2": 350.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695073-Figure2-1.png"
+}, {
+  "caption": "Table 1: The list of DDS listener callbacks. T: DDS network topology, Q: QoS, S: DDS security, and ✓: a checkmark to indicate whether each listener is involved in input generation feedback or bug detection.",
+  "captionBoundary": {
+    "x1": 53.448974609375,
+    "x2": 558.2000732421875,
+    "y1": 89.27688598632812,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["on_sample_lost", "✓", "Called", "when", "a", "transferred", "data", "is", "lost", "in", "the", "network", "on_sample_rejected", "✓", "Called", "when", "a", "datareader", "rejects", "data", "arrival", "on_data_on_readers", "✓", "Invoked", "when", "there", "is", "data", "available", "on", "any", "of", "datareaders", "on_liveliness_lost", "Node", "✓", "Called", "when", "a", "node", "does", "not", "respond", "to", "its", "datareader/writer", "on_liveliness_changed", "✓", "Called", "when", "a", "datareader/writer", "is", "properly", "run", "or", "terminated", "✓", "Called", "when", "new", "data", "arrives", "Subscriber", "T,", "Q,", "S", "on_data_available", "with", "any", "QoS", "parameter", "of", "a", "datareader/writer", "on_offered_deadline_missed", "✓", "Called", "when", "a", "datawriter", "misses", "the", "set", "deadline", "on_offered_incompatible_qos", "✓", "✓", "Called", "when", "an", "incompatible", "parameter", "is", "set", "on", "a", "datareader", "on_inconsistent_topic", "Topic", "✓", "✓", "Called", "when", "a", "QoS", "parameter", "of", "a", "topic", "is", "incompatible", "✓", "✓", "Called", "when", "an", "incompatible", "parameter", "is", "set", "on", "a", "datawriter", "on_requested_incompatible_qos", "Publisher", "Subscriber", "✓", "Called", "when", "a", "datareader", "misses", "the", "set", "deadline", "Q", "on_publication_matched", "Publisher", "✓", "Called", "when", "a", "publication", "matching", "status", "changes", "on_requested_deadline_missed", "Subscriber", "✓", "Called", "when", "a", "subscription", "matching", "status", "changes", "on_subscription_matched", "T,", "S", "Description", "Detection", "Bug", "Feedback", "Generation", "Input", "Component", "Target", "Target", "Layer", "DDS", "Listener", "Name"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 116.64,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695073-Table1-1.png"
+}, {
+  "caption": "Figure 3: Overview of DDSFuzz.",
+  "captionBoundary": {
+    "x1": 374.06298828125,
+    "x2": 502.0924987792969,
+    "y1": 648.9808959960938,
+    "y2": 651.06103515625
+  },
+  "figType": "Figure",
+  "imageText": ["DDS", "Program", "Sub", "Pub", "SubSub", "Pub", "Pub", "Bug", "Detector", "(§4.3)", "DDS", "Program", "Monitor", "Dynamic", "Configuration", "Input", "Handler", "DDS", "Security", "Input", "Generator", "QoS", "Input", "Generator", "Topology", "Input", "Generator", "Packet", "Input", "Mutator", "DDS", "Program", "Executor", "(§4.2)", "DDS", "Input", "Generator", "(§4.1)"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 500.64,
+    "y2": 634.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695073-Figure3-1.png"
+}, {
+  "caption": "Table 2: List of zero-day bugs discovered byDDSFuzz. T: Traditional software bug and S: Semantic bug.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.650634765625,
+    "y1": 89.27688598632812,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["submitted", "a", "single", "bug", "report", "for", "Bugs", "2", "and", "3", "and", "Bugs", "5", "and", "6.", "However,", "they", "are", "different", "bugs", "and", "require", "different", "patches.", "†and§", "The", "bugs", "with", "the", "same", "notation", "are", "assigned", "to", "the", "same", "CVEs", "because", "we", "respectively", "(CVE-2024-52427)", "Reported", "20", "Buffer", "overflow", "occurs", "when", "max_sample", "of", "a", "datawriter", "is", "a", "large", "value", "(CVE-2023-30915)", "Reported", "OpenDDS", "19", "Buffer", "overflow", "occurs", "when", "max_sample", "of", "a", "datareader", "is", "a", "large", "value", "Confirmed", "DDS", "Cyclone", "SIGABRT", "occurs", "due", "to", "a", "malformed", "RTPS", "packet", "18", "Abort", "occurs", "when", "a", "receiving", "RTPS", "packet", "if", "a", "datareader’s", "history_depth=0", "Patched", "(CVE-2024-26369)", "17", "(CVE-2024-25716)", "Patched", "Segmentation", "fault", "occurs", "due", "to", "a", "malformed", "RTPS", "packet", "16", "(CVE-2024-25717)", "Patched", "Fast", "DDS", "Heap", "overflow", "occurs", "due", "to", "a", "malformed", "RTPS", "packet", "15", "T", "Communication", "failure", "due", "to", "unrecognizing", "topic", "of", "other", "participants", "OpenDDS", "Patched", "14", "Reported", "Create", "an", "invalid", "datawriter", "with", "invalid", "DurabilityService", "QoS", "13", "Reported", "DDS", "Cyclone", "Create", "an", "invalid", "datareader", "with", "invalid", "DurabilityService", "QoS", "12", "Reported", "Violate", "the", "DDS", "specification", "when", "a", "gover-", "nance", "file", "is", "set", "to", "a", "certain", "setting", "11", "Reported", "10", "Create", "an", "invalid", "topic", "with", "invalid", "Resour-", "ceLimit", "QoS", "Reported", "Create", "an", "invalid", "datawriter", "with", "invalid", "ResourceLimit", "QoS", "9", "Reported", "Create", "an", "invalid", "datareader", "with", "invalid", "ResourceLimit", "QoS", "8", "Reported", "Violate", "the", "DDS", "specification", "when", "a", "gover-", "nance", "file", "is", "set", "to", "a", "certain", "setting", "7", "(CVE-2024-44528)", "§", "Patched", "Create", "an", "invalid", "topic", "with", "invalid", "History", "QoS", "6", "(CVE-2024-44528)", "§", "Patched", "Create", "an", "invalid", "datawriter", "with", "invalid", "History", "QoS", "5", "Patched", "Create", "an", "invalid", "topic", "with", "invalid", "DurabilityService", "QoS", "4", "(CVE-2024-30916)", "†", "Patched", "Create", "an", "invalid", "datawriter", "with", "invalid", "DurabilityService", "QoS", "3", "(CVE-2024-30916)", "†", "Patched", "Create", "an", "invalid", "datareader", "with", "invalid", "DurabilityService", "QoS", "2", "Reported", "Fast", "DDS", "Communciation", "failure", "due", "to", "an", "incompatible", "LatencyBudget", "QoS", "1", "S", "Type", "ID", "Bug", "Description", "Program", "Status"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 116.64,
+    "y2": 444.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695073-Table2-1.png"
+}]

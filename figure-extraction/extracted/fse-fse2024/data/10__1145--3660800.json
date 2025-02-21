@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 3. The overview of LogSD.",
+  "captionBoundary": {
+    "x1": 186.49000549316406,
+    "x2": 299.5110778808594,
+    "y1": 285.7128601074219,
+    "y2": 289.94500732421875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 271.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Figure3-1.png"
+}, {
+  "caption": "Table 4. Ablation Experiments for Network, Masking Schemes, and Reconstruction Paradigms.",
+  "captionBoundary": {
+    "x1": 68.2229995727539,
+    "x2": 417.5357360839844,
+    "y1": 123.73770904541016,
+    "y2": 127.9698486328125
+  },
+  "figType": "Table",
+  "imageText": ["correspondence", "with", "its", "counterpart", "within", "a", "single", "network", "group.", "LogSDd", "0.9559", "0.9583", "0.9840", "0.9993", "0.9483", "0.9627", "0.9716", "0.9977", "0.8954", "0.8957", "0.7346", "0.9927", "1", "Notes:", "the", "rst", "character", "in", "the", "subscript", "signi", "es", "the", "network", "type,", "where", "\"s\"", "denotes", "a", "single", "network,", "and", "\"d\"", "indicates", "a", "dual-network.", "The", "second", "character", "represents", "the", "masking", "type,", "where", "\"n\"", "implies", "no", "masking,", "\"r\"", "stands", "for", "randomly", "masking,", "and", "\"f\"", "corresponds", "to", "frequency-based", "masking.", "The", "third", "character", "indicates", "the", "reconstruction", "type,", "with", "\"g\"", "standing", "for", "global", "reconstruction,", "\"l\"", "indicating", "local", "reconstruction,", "and", "\"f\"", "representing", "global-to-local", "reconstruction.", "Notably,", "LogSDd", "is", "identical", "to", "LogSD,", "bearing", "the", "name", "LogSDd", "for", "the", "purpose", "of", "convenient", "LogSDdrf", "0.9319", "0.9338", "0.9812", "0.9995", "0.9329", "0.9498", "0.9697", "0.9974", "0.8807", "0.8911", "0.6930", "0.9914", "LogSDd", "0.7688", "0.7597", "0.7473", "0.9458", "0.9418", "0.9281", "0.9489", "0.9905", "0.8812", "0.8886", "0.7368", "0.9833", "LogSDdrl", "0.4223", "0.4120", "0.3450", "0.5979", "0.8382", "0.8371", "0.8631", "0.9515", "0.3577", "0.3420", "0.2669", "0.7270", "LogSDdng", "0.9471", "0.9462", "0.9821", "0.9995", "0.9384", "0.9366", "0.9489", "0.9905", "0.8913", "0.8936", "0.7343", "0.9925", "LogSDs", "0.9213", "0.9153", "0.9403", "0.9954", "0.9596", "0.9534", "0.9644", "0.9977", "0.8930", "0.8921", "0.7509", "0.9837", "LogSDsrf", "0.9101", "0.9067", "0.9019", "0.9977", "0.9264", "0.9339", "0.9616", "0.9965", "0.8032", "0.8012", "0.7055", "0.9824", "LogSDs", "0.7122", "0.7143", "0.6583", "0.8468", "0.9095", "0.8939", "0.9377", "0.9921", "0.8769", "0.8846", "0.7731", "0.9634", "LogSDsrl", "0.3872", "0.3895", "0.3071", "0.5999", "0.8357", "0.8226", "0.8336", "0.9209", "0.3335", "0.3340", "0.2590", "0.6771", "LogSDsng", "0.7880", "0.7858", "0.7345", "0.8793", "0.9126", "0.9152", "0.9474", "0.9935", "0.7801", "0.7949", "0.7074", "0.9781", "MCC", "F1", "PRC", "ROC", "MCC", "F1", "PRC", "ROC", "MCC", "F1", "PRC", "ROC", "Dataset", "HDFS", "BGL", "Spirit"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 429.12,
+    "y1": 142.56,
+    "y2": 331.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Table4-1.png"
+}, {
+  "caption": "Table 1. Overview of datasets used in the experiments.",
+  "captionBoundary": {
+    "x1": 141.63510131835938,
+    "x2": 344.12255859375,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["1", "#Events:", "number", "of", "unique", "events;", "#Sequences:", "number", "of", "sequences;", "#Norm.:", "number", "of", "normal", "sequences;", "%Norm.:", "percentage", "of", "normal", "sequences;#Anom.:", "number", "of", "anomalous", "sequences;", "%Anom.:", "percentage", "of", "anomalies.", "2", "For", "BGL", "and", "Spirit,", "consecutive", "duplicate", "events", "are", "removed", "from", "parsed", "logs", "before", "being", "grouped,", "which", "ensures", "that", "sequences", "with", "only", "a", "single", "unique", "event", "are", "eliminated,", "making", "model", "evaluation", "more", "realistic", "and", "reliable.", "3", "The", "data", "splitting", "strategy", "for", "BGL", "and", "Spirit", "follows", "a", "chronological", "order,", "with", "the", "initial", "80%", "of", "log", "messages", "used", "for", "training", "and", "the", "remaining", "20%", "for", "testing.", "This", "approach", "prevents", "data", "leakage", "during", "model", "training.", "20-logs", "166,624", "1,209", "110,524", "66.33%", "41,656", "847", "465", "1.12%", "Spirit", "1,228", "60-logs", "55,541", "1,209", "34,387", "61.91%", "13,885", "847", "434", "3.13%", "100-logs", "33,325", "1,209", "19,744", "59.25%", "8,331", "847", "409", "4.91%", "20-logs", "25,095", "440", "22,401", "89.26%", "6,273", "226", "198", "3.16%", "BGL", "450", "60-logs", "8,365", "440", "7,110", "85.00%", "2,091", "226", "150", "7.17%", "100-logs", "5,019", "440", "4,111", "81.91%", "1,254", "226", "129", "10.29%", "HDFS", "48", "session", "460,048", "48", "446,663", "97.07%", "115,012", "42", "3,453", "3.00%", "#Sequences", "#Events", "#Norm.", "%Norm.", "#Sequences", "#Events", "#Anom.", "%Anom.", "Datasets", "#Events", "Window", "Training", "Set", "(80%)", "Testing", "Set", "(20%)"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 418.56,
+    "y1": 106.56,
+    "y2": 259.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Table1-1.png"
+}, {
+  "caption": "Table 3. Performance Comparison of LogSD and Extra Baseline Methods.",
+  "captionBoundary": {
+    "x1": 107.29409790039062,
+    "x2": 378.4648132324219,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["MCC", "0.9559", "0.9483", "0.8712", "0.9047", "0.8954", "0.8714", "0.8676", "F1", "0.9583", "0.9627", "0.8664", "0.8906", "0.8957", "0.8861", "0.8707", "Precision", "0.9587", "0.9600", "0.8753", "0.9118", "0.8386", "0.8287", "0.9209", "Recall", "0.9580", "0.9664", "0.8578", "0.8704", "0.9650", "0.9616", "0.8258", "PRC", "0.9840", "0.9716", "0.8736", "0.9416", "0.7346", "0.7609", "0.8013", "ROC", "0.9993", "0.9977", "0.9911", "0.9967", "0.9927", "0.9961", "0.9987", "LogSD", "MCC", "0.9803", "0.9746", "0.9645", "0.9744", "0.9825", "0.9758", "0.9719", "F1", "0.9807", "0.9768", "0.9671", "0.9760", "0.9828", "0.9760", "0.9718", "Precision", "0.9664", "0.9725", "0.9652", "0.9697", "0.9965", "0.9975", "0.9961", "Recall", "0.9956", "0.9812", "0.9695", "0.9825", "0.9695", "0.9554", "0.9487", "PRC", "0.9562", "0.9558", "0.9380", "0.9538", "0.9669", "0.9537", "0.9453", "ROC", "0.9972", "0.9893", "0.9833", "0.9902", "0.9847", "0.9777", "0.9743", "CNN", "[39]", "MCC", "0.0018", "0.0170", "0.0210", "0.0232", "0.0055", "0.0022", "0.0088", "F1", "0.0994", "0.1690", "0.1330", "0.0683", "0.0916", "0.0594", "0.0244", "Precision", "0.0552", "0.1155", "0.0787", "0.0400", "0.0510", "0.0319", "0.0130", "Recall", "0.4998", "0.3643", "0.4333", "0.2643", "0.4613", "0.4424", "0.2968", "PRC", "0.0552", "0.1122", "0.0747", "0.0335", "0.0498", "0.0320", "0.0115", "ROC", "0.4996", "0.4909", "0.5049", "0.5052", "0.4998", "0.4958", "0.5157", "Random", "Detector", "session", "100-logs", "60-logs", "20-logs", "100-logs", "60-logs", "20-logs", "Method", "Metrics", "HDFS", "BGL", "Spirit"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 419.03999999999996,
+    "y1": 107.52,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Table3-1.png"
+}, {
+  "caption": "Fig. 1. Illustrative example of the issue identified and the solution provided by our proposed method, LogSD. In both sub-figures, (1 to (5 are normal training sequences. For testing, (6 represents a normal sequence, and (0 is anomalous. Sub-figure (a) demonstrates how frequent event 5 in training sequences (2 to (5 can obscure the distinction between normal sequence and anomalous sequence in latent space; Sub-figure (b) depicts how LogSD addresses this issue by utilizing the contrast between two subnets: one to emphasize infrequent events and the other to focus on frequent events.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.55120849609375,
+    "y1": 215.06884765625,
+    "y2": 274.0950012207031
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Issue:", "Biased", "Normal", "Pa", "ern.", "(b)", "LogSD", "Solution."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 439.2,
+    "y1": 93.6,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Figure1-1.png"
+}, {
+  "caption": "Table 2. Performance Comparison of LogSD and Baseline methods.",
+  "captionBoundary": {
+    "x1": 118.49290466308594,
+    "x2": 367.26556396484375,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Proc.", "ACM", "Softw.", "Eng.,", "Vol.", "1,", "No.", "FSE,", "Article", "93.", "Publication", "date:", "July", "2024.", "1", "All", "the", "models", "were", "trained", "for", "up", "to", "100", "epochs", "and", "an", "early", "stopping", "strategy", "was", "used", "for", "20", "consecutive", "iterations", "without", "performance", "improvement.", "2", "The", "gures", "in", "the", "table", "that", "were", "underlined", "represent", "the", "second-best", "metrics,", "while", "those", "in", "bold", "font", "indicated", "the", "best", "metrics.", "3", "Each", "method", "was", "executed", "three", "times", "for", "each", "dataset", "con", "guration,", "and", "the", "resulting", "values", "were", "averaged", "to", "report", "the", "nal", "results.", "MCC", "0.9559", "0.9483", "0.8712", "0.9047", "0.8954", "0.8714", "0.8676", "F1", "0.9583", "0.9627", "0.8664", "0.8906", "0.8957", "0.8861", "0.8707", "Precision", "0.9587", "0.9600", "0.8753", "0.9118", "0.8386", "0.8287", "0.9209", "Recall", "0.9580", "0.9664", "0.8578", "0.8704", "0.9650", "0.9616", "0.8258", "PRC", "0.9840", "0.9716", "0.8736", "0.9416", "0.7346", "0.7609", "0.8013", "ROC", "0.9993", "0.9977", "0.9911", "0.9967", "0.9927", "0.9961", "0.9987", "LogSD", "MCC", "0.6235", "0.6861", "0.4987", "0.2745", "0.3276", "0.2513", "0.0511", "F1", "0.6458", "0.7164", "0.4835", "0.2942", "0.3248", "0.2535", "0.0537", "Precision", "0.7909", "0.7396", "0.7677", "0.2100", "0.5059", "0.2438", "0.0492", "Recall", "0.5457", "0.6810", "0.4167", "0.5069", "0.3238", "0.3220", "0.0789", "PRC", "0.5124", "0.5679", "0.4132", "0.1441", "0.2320", "0.1315", "0.0131", "ROC", "0.8164", "0.8257", "0.7058", "0.7319", "0.7482", "0.6845", "0.3779", "CAT", "[65]", "MCC", "0.7473", "0.7419", "0.6782", "0.6533", "0.4117", "0.3905", "0.3771", "F1", "0.7255", "0.7646", "0.6873", "0.6652", "0.4266", "0.3939", "0.3535", "Precision", "0.9435", "0.8408", "0.5983", "0.5830", "0.3236", "0.2950", "0.2544", "Recall", "0.5894", "0.7028", "0.8578", "0.7828", "0.6259", "0.5929", "0.5792", "PRC", "0.4794", "0.8314", "0.5601", "0.5035", "0.1975", "0.1752", "0.1340", "ROC", "0.9370", "0.9624", "0.9337", "0.9472", "0.8662", "0.8870", "0.9187", "LogBERT", "[19]", "MCC", "0.9156", "0.6827", "0.6033", "0.4796", "0.1823", "0.1453", "0.1310", "F1", "0.9225", "0.7155", "0.6282", "0.4735", "0.1873", "0.1536", "0.1337", "Precision", "0.9405", "0.6630", "0.5762", "0.3879", "0.1094", "0.1196", "0.1242", "Recall", "0.9054", "0.7855", "0.6978", "0.6094", "0.6504", "0.2220", "0.1455", "PRC", "0.8549", "0.5415", "0.4222", "0.2498", "0.0883", "0.0506", "0.0276", "ROC", "0.9518", "0.8697", "0.8288", "0.7889", "0.6886", "0.5841", "0.5669", "Logsy", "[44]", "MCC", "0.7524", "0.6320", "0.4283", "0.3313", "0.0737", "0.0853", "0.0796", "F1", "0.7333", "0.6404", "0.4515", "0.3116", "0.0797", "0.0860", "0.0908", "Precision", "0.9985", "0.6952", "0.3314", "0.2102", "0.1245", "0.1214", "0.0758", "Recall", "0.5856", "0.5938", "0.7136", "0.6531", "0.0587", "0.0668", "0.1133", "PRC", "0.6390", "0.5208", "0.3817", "0.2438", "0.1003", "0.0373", "0.0185", "ROC", "0.7927", "0.8909", "0.8686", "0.8689", "0.7274", "0.5255", "0.5488", "LogAnomaly", "[43]", "MCC", "0.9393", "0.6059", "0.5606", "0.4573", "0.1126", "0.0962", "0.1321", "F1", "0.9295", "0.6358", "0.5889", "0.4543", "0.1643", "0.1261", "0.1398", "Precision", "0.9716", "0.6767", "0.5169", "0.3845", "0.1073", "0.1243", "0.1400", "Recall", "0.8911", "0.6006", "0.6856", "0.5567", "0.3537", "0.1289", "0.1395", "PRC", "0.8691", "0.6569", "0.6121", "0.4776", "0.0696", "0.0432", "0.0292", "ROC", "0.9452", "0.7858", "0.8190", "0.7639", "0.6004", "0.5497", "0.5650", "DeepLog/Log2Vec", "[42]", "MCC", "0.9447", "0.8122", "0.7557", "0.7817", "0.5283", "0.4349", "0.4943", "F1", "0.9451", "0.8249", "0.7684", "0.7853", "0.4903", "0.3664", "0.4192", "Precision", "0.9617", "0.7441", "0.6468", "0.7637", "0.3322", "0.2302", "0.2722", "Recall", "0.9299", "0.9259", "0.9477", "0.8157", "0.9544", "0.9531", "0.9384", "PRC", "0.8949", "0.6969", "0.6167", "0.6275", "0.3193", "0.2207", "0.2559", "ROC", "0.9647", "0.9452", "0.9534", "0.9036", "0.9254", "0.9196", "0.9542", "PLELog", "[62]", "MCC", "0.9287", "0.7528", "0.6939", "0.4809", "0.4217", "0.3268", "0.1232", "F1", "0.9315", "0.7894", "0.6859", "0.4764", "0.4074", "0.3069", "0.1257", "Precision", "0.9362", "0.7944", "0.6254", "0.3986", "0.2754", "0.1890", "0.0812", "Recall", "0.9268", "0.7959", "0.7711", "0.7138", "0.8354", "0.8487", "0.2875", "PRC", "0.9582", "0.7117", "0.5522", "0.4390", "0.2416", "0.1634", "0.0423", "ROC", "0.9988", "0.9634", "0.9604", "0.9617", "0.9168", "0.9142", "0.7539", "OC4Seq", "[54]", "MCC", "0.7570", "0.5764", "0.5536", "0.3903", "0.1968", "0.1651", "0.0713", "F1", "0.7432", "0.6165", "0.5475", "0.3911", "0.2101", "0.1631", "0.0719", "Precision", "0.8445", "0.7450", "0.5090", "0.3129", "0.1214", "0.0970", "0.0549", "Recall", "0.6735", "0.5297", "0.5933", "0.5236", "0.7889", "0.5922", "0.1835", "PRC", "0.6175", "0.5974", "0.4697", "0.2489", "0.1112", "0.0800", "0.0247", "ROC", "0.7191", "0.8189", "0.8623", "0.8898", "0.7924", "0.7653", "0.5963", "AE", "[17]", "session", "100-logs", "60-logs", "20-logs", "100-logs", "60-logs", "20-logs", "Method", "Metrics", "HDFS", "BGL", "Spirit"],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 440.64,
+    "y1": 107.52,
+    "y2": 682.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Table2-1.png"
+}, {
+  "caption": "Fig. 4. Di erent reconstruction paradigms.",
+  "captionBoundary": {
+    "x1": 163.9390106201172,
+    "x2": 322.06109619140625,
+    "y1": 165.35757446289062,
+    "y2": 169.5897216796875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Global", "Reconstruction.", "(b)", "Local", "Reconstruction.", "(c)", "G2L", "Reconstruction."],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 437.28,
+    "y1": 93.6,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Figure4-1.png"
+}, {
+  "caption": "Fig. 2. A snippet of HDFS (Hadoop Distributed File System) raw logs and events a er parsing",
+  "captionBoundary": {
+    "x1": 70.4198989868164,
+    "x2": 415.5810241699219,
+    "y1": 509.6798400878906,
+    "y2": 513.9119873046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 415.68,
+    "y2": 495.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Figure2-1.png"
+}, {
+  "caption": "Table 5. The Impact of Data Preprocessing on the Performance of LogSD.",
+  "captionBoundary": {
+    "x1": 107.58990478515625,
+    "x2": 378.1690979003906,
+    "y1": 266.8198547363281,
+    "y2": 271.052001953125
+  },
+  "figType": "Table",
+  "imageText": ["PRC", "0.9716", "0.8736", "0.9416", "0.7346", "0.7609", "0.8013", "ROC", "0.9977", "0.9911", "0.9967", "0.9927", "0.9961", "0.9987", "Preprocessed", "Precision", "0.9600", "0.8753", "0.9118", "0.8386", "0.8287", "0.9209", "Sequences", "Recall", "0.9664", "0.8578", "0.8704", "0.9650", "0.9616", "0.8258", "MCC", "0.9483", "0.8712", "0.9047", "0.8954", "0.8714", "0.8676", "F1", "0.9627", "0.8664", "0.8906", "0.8957", "0.8861", "0.8707", "PRC", "0.8222", "0.6892", "0.5597", "0.7580", "0.7709", "0.7331", "ROC", "0.9297", "0.9136", "0.9109", "0.9967", "0.9979", "0.9990", "MCC", "0.8238", "0.7933", "0.6741", "0.8934", "0.8639", "0.7949", "No", "F1", "0.8413", "0.8087", "0.6811", "0.8919", "0.8675", "0.7789", "Single-event", "Precision", "0.8885", "0.8296", "0.7504", "0.8128", "0.7700", "0.6444", "Sequences", "Recall", "0.7998", "0.7971", "0.6658", "0.9882", "0.9838", "0.9842", "PRC", "0.6751", "0.4490", "0.5348", "0.7542", "0.6610", "0.7512", "ROC", "0.9180", "0.8816", "0.8808", "0.9968", "0.9968", "0.9992", "Original", "Precision", "0.7371", "0.5957", "0.8062", "0.8128", "0.7605", "0.5503", "Sequences", "Recall", "0.7549", "0.7002", "0.5866", "0.9882", "0.9862", "0.9947", "MCC", "0.7166", "0.5817", "0.6611", "0.8934", "0.8638", "0.7381", "F1", "0.7385", "0.5861", "0.6587", "0.8912", "0.8588", "0.7086", "100-logs", "60-logs", "20-logs", "100-logs", "60-logs", "20-logs", "Dataset", "Metric", "BGL", "Spirit"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 401.28,
+    "y1": 285.59999999999997,
+    "y2": 489.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Table5-1.png"
+}, {
+  "caption": "Fig. 6. Scalability analysis on BGL under 100 logs window se ing.",
+  "captionBoundary": {
+    "x1": 121.60400390625,
+    "x2": 364.39556884765625,
+    "y1": 241.08193969726562,
+    "y2": 245.3140869140625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Training", "Time.", "(b)", "Testing", "Time."],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 441.12,
+    "y1": 93.6,
+    "y2": 222.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Figure6-1.png"
+}, {
+  "caption": "Fig. 5. Sensitivity analysis on BGL under 100 logs window se ing.",
+  "captionBoundary": {
+    "x1": 121.37599182128906,
+    "x2": 364.62493896484375,
+    "y1": 200.20755004882812,
+    "y2": 204.439697265625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Loss", "Weight", "Sensitivity.", "(b)", "Masking", "Ratio", "Sensitivity."],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 435.35999999999996,
+    "y1": 93.6,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660800-Figure5-1.png"
+}]

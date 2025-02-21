@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 1: Compare with existing work.",
+  "captionBoundary": {
+    "x1": 360.89599609375,
+    "x2": 512.7172241210938,
+    "y1": 470.3693542480469,
+    "y2": 476.0
+  },
+  "figType": "Table",
+  "imageText": ["Instrumentation", "Technique", "Tool", "Collection", "Frequency", "Overhead", "Runtime", "Memory", "Sampling", "via", "Hardware", "PMUs", "perf", "0.2%", "22.5%", "6.7×", "Sampling", "via", "timer", "+", "ptrace", "vtune-ums", "0.0%", "41.4%", "18.3×", "eBPF", "+", "software", "breakpoint", "bpftrace", "100%", "28.8×", "3.1×", "ptrace", "+", "software", "breakpoint", "ltrace", "100%", ">", "6195.7×", "-", "Universal", "Shadow", "Table", "Scaler", "100%", "20.3%", "15.5%"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 408.0,
+    "y2": 468.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Table1-1.png"
+}, {
+  "caption": "Figure 1: Scaler’s report for canneal.",
+  "captionBoundary": {
+    "x1": 99.75599670410156,
+    "x2": 248.08570861816406,
+    "y1": 179.68234252929688,
+    "y2": 185.31298828125
+  },
+  "figType": "Figure",
+  "imageText": ["Component", "View", "API", "View", "canneal", "Others", "libstdc++", "Self", "strcmp", "operator", "new", "operator>>", "Others"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 83.52,
+    "x2": 264.0,
+    "y1": 84.0,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Overview of Universal Shadow Table.",
+  "captionBoundary": {
+    "x1": 342.8739929199219,
+    "x2": 531.0343017578125,
+    "y1": 176.42135620117188,
+    "y2": 182.052001953125
+  },
+  "figType": "Figure",
+  "imageText": ["Universal", "Shadow", "Table", "InterceptorFor", "each", "API", "defined", "by", "Map", "dlsym", ".rela.dyn", ".rela.plt"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 554.4,
+    "y1": 118.08,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure2-1.png"
+}, {
+  "caption": "Table 5: Memory overhead of Scaler and others.",
+  "captionBoundary": {
+    "x1": 76.10299682617188,
+    "x2": 271.44232177734375,
+    "y1": 240.04733276367188,
+    "y2": 245.677978515625
+  },
+  "figType": "Table",
+  "imageText": ["Real-world", "Application", "memcached-1.6.17", "7MB", "34.3×", "88.3×", "15.4×", "62.9%", "MySQL-8.0.31", "666MB", "1.2%", "2.8×", "17.2%", "3.7%", "nginx-1.23.2", "8MB", "9.1×", "78.8×", "12.9×", "25.0%", "Redis-7.0.4", "12MB", "3.4×", "50.9×", "8.6×", "16.9%", "SQLite-3.39.4", "21MB", "1.6×", "29.3×", "4.9×", "21.0%", "Overhead", "-", "-", "6.7×", "18.3×", "3.1×", "15.5%", "PARSEC", "blackscholes", "617MB", "1.3%", "8.0%", "17.2%", "2.6%", "bodytrack", "43MB", "16.1×", "16.1×", "2.5×", "11.9%", "canneal", "858MB", "1.0%", "8.4%", "12.4%", "1.6%", "dedup", "1564MB", "-0.7%", "10.3%", "13.3%", "8.0%", "facesim", "337MB", "4.0×", "1.4×", "49.5%", "3.2%", "ferret", "142MB", "2.0×", "4.0×", "75.5%", "6.2%", "fluidanimate", "1020MB", "4.1%", "11.0%", "10.4%", "1.1%", "freqmine", "3388MB", "0.8%", "2.5%", "4.5%", "0.8%", "raytrace", "1292MB", "0.7%", "5.5%", "8.2%", "0.2%", "streamcluster", "116MB", "20.9×", "5.6×", "92.2%", "25.2%", "swaptions", "13MB", "24.9×", "49.0×", "8.3×", "81.8%", "vips", "225MB", "3.6×", "2.0×", "41.5%", "4.9%", "x264", "1792MB", "0.3%", "3.5%", "6.0%", "2.6%", "Category", "Application", "Original", "perf", "vtune-ums", "bpftrace", "Scaler"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 282.24,
+    "y1": 82.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Table5-1.png"
+}, {
+  "caption": "Table 6: The impact of increasing the sampling rate on the output and performance for perf.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1898803710938,
+    "y1": 237.79733276367188,
+    "y2": 254.38702392578125
+  },
+  "figType": "Table",
+  "imageText": ["Real-world", "Applications", "memcached-1.6.17", "3.4%", "0.8%", "0.51%", "mysql-8.0.31", "9.9%", "4.5%", "0.39%", "nginx-1.23.2", "14.6%", "5.3%", "0.15%", "redis-7.0.4", "1.8%", "9.4%", "0.71%", "sqlite-3.39.4", "2.9%", "2.0%", "0.14%", "Avg", "Overhead", "-", "22.3%", "22.5%", "-", "Avg", "Output", "Diff", "-", "-", "-", "0.57%", "blackscholes", "18.1%", "16.3%", "0.21%", "bodytrack", "45.7%", "21.3%", "0.15%", "canneal", "15.0%", "12.9%", "0.18%", "dedup", "7.9%", "31.8%", "0.40%", "facesim", "19.1%", "11.8%", "0.05%", "ferret", "11.2%", "9.8%", "0.27%", "fluidanimate", "17.0%", "16.0%", "0.09%", "freqmine", "21.3%", "18.2%", "0.32%", "raytrace", "4.5%", "3.2%", "1.33%", "streamcluster", "69.5%", "44.7%", "2.24%", "swaptions", "22.9%", "31.6%", "0.08%", "vips", "83.2%", "1.3×", "0.41%", "x264", "33.0%", "37.5%", "2.57%", "PARSEC", "Category", "Application", "perf-8000Hz", "overhead", "perf-4000Hz", "overhead", "Max", "output", "difference"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 549.12,
+    "y1": 82.56,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Table6-1.png"
+}, {
+  "caption": "Figure 4: .rela.dyn API Invocation via .got and .plt.got.",
+  "captionBoundary": {
+    "x1": 321.3320007324219,
+    "x2": 554.8234252929688,
+    "y1": 266.9523620605469,
+    "y2": 272.5830078125
+  },
+  "figType": "Figure",
+  "imageText": ["call *70480 <API1@got/plt.got>", "70480 :", "API1’s", "address", "User Programs", ".got/.plt.got"],
+  "name": "4",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 229.44,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure4-1.png"
+}, {
+  "caption": "Figure 3: .rela.plt API Invocation via .plt and .got.plt.",
+  "captionBoundary": {
+    "x1": 57.17499923706055,
+    "x2": 290.6667175292969,
+    "y1": 543.9603271484375,
+    "y2": 549.5910034179688
+  },
+  "figType": "Figure",
+  "imageText": ["61028", ":", "400486", "40048b:", "400486:", "400480:", "jmp", "plt[0]", "push", "<id", "of", "API1>", "call", "400480", "<API1@plt>", "jmp", "*61028", "<API1@got.plt>", ".pltUser", "Programs", ".got.plt"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 493.91999999999996,
+    "y2": 530.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Scaler’s output for ferret",
+  "captionBoundary": {
+    "x1": 366.3070068359375,
+    "x2": 509.8490295410156,
+    "y1": 548.9193115234375,
+    "y2": 554.5499877929688
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Wait", "time", "exceeds", "execu-", "tion", "time", "(b)", "Imbalance", "of", "thread", "execu-", "tion", "time", "Self", "Others", "Wait", "ferret"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.32,
+    "x2": 549.12,
+    "y1": 441.59999999999997,
+    "y2": 532.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Profiling output for dedup-1.",
+  "captionBoundary": {
+    "x1": 97.33499145507812,
+    "x2": 250.50669860839844,
+    "y1": 412.17034912109375,
+    "y2": 417.8009948730469
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "perf’s", "output.", "Self", "Children", "App", "API", "......", "+", "4.12%", "0.05%", "dedup", "write", "+", "3.92%", "0.01%", "dedup", "__x64_sys_write", "+", "3.91%", "0.01%", "dedup", "ksys_write", "+", "3.78%", "0.02%", "dedup", "vfs_write", "+", "3.68%", "0.00%", "dedup", "__vfs_write", "......", "(a)", "Scaler’s", "output.", "Component", "View", "API", "View", "dedup", "libc", "Others", "Join", "Wait", "Self", "Others", "malloc", "memset", "free", "read", "write"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 87.36,
+    "x2": 264.0,
+    "y1": 181.92,
+    "y2": 396.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Profiling output for dedup-3.",
+  "captionBoundary": {
+    "x1": 361.4919738769531,
+    "x2": 514.6636352539062,
+    "y1": 420.36834716796875,
+    "y2": 425.9989929199219
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "perf’s", "output.", "Self", "Children", "App", "......", "+", "73.47%", "37.11%", "dedup", "+", "62.22%", "56.62%", "[kernel.kallsyms]", "+", "38.69%", "0.02%", "[unknown]", "-", "38.57%", "2.96%", "libc-2.27.so", "+", "10.84%", "__madvise", "......", "(a)", "Scaler’s", "output.", "Component", "View", "API", "View", "libmalloc221", "libc", "Others", "Self", "madvise", "mprotect"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 348.0,
+    "x2": 527.52,
+    "y1": 181.44,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure7-1.png"
+}, {
+  "caption": "Table 2: Effectiveness comparison between Scaler and perf.",
+  "captionBoundary": {
+    "x1": 183.8419952392578,
+    "x2": 425.61968994140625,
+    "y1": 145.15432739257812,
+    "y2": 150.78497314453125
+  },
+  "figType": "Table",
+  "imageText": ["BugId", "Abnormal", "Behavior", "Root", "Cause", "perf", "Scaler", "New", "Bug", "Speedup", "canneal", "Extensive", "string", "comparisons", "Improper", "data", "structure", "of", "application", "✗", "✓", "✓", "51.6%", "dedup-1", "Extensive", "time", "on", "read()/write()", "Inefficient", "I/O", "operations", "of", "application", "✗", "✓", "✓", "49.1%", "dedup-2", "Imbalance", "waiting", "time", "Improper", "thread", "assignment", "of", "application", "✗", "✓", "✗", "25.5%", "dedup-3", "Extensive", "madvise", "calls", "Improper", "configuration", "of", "library", "✗", "✓", "✗", "74.2%", "ferret", "Imbalance", "waiting", "time", "Improper", "thread", "assignment", "of", "application", "✗", "✓", "✗", "76.7%", "swaptions", "Significant", "lock", "time", "Improper", "configuration", "of", "library", "✓", "✓", "✗", "44.0%"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 135.84,
+    "x2": 476.15999999999997,
+    "y1": 82.56,
+    "y2": 142.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Table2-1.png"
+}, {
+  "caption": "Table 4: Number of events recorded by Scaler and perf.",
+  "captionBoundary": {
+    "x1": 325.6940002441406,
+    "x2": 550.1666870117188,
+    "y1": 237.79733276367188,
+    "y2": 243.427978515625
+  },
+  "figType": "Table",
+  "imageText": ["Real-world", "Applications", "memcached-1.6.17", "3.83E+08", "9.34E+05", "MySQL-8.0.31", "6.85E+08", "1.84E+06", "nginx-1.23.2", "8.02E+03", "2.38E+05", "Redis-7.0.4", "4.77E+08", "9.23E+04", "SQLite-3.39.4", "3.51E+08", "1.46E+05", "Avg", "Counts", "-", "2.03E+09", "4.44E+06", "Avg", "Freq", "-", "6.29E+07", "1.05E+05", "blackscholes", "5.02E+09", "1.13E+06", "bodytrack", "2.23E+09", "5.28E+06", "canneal", "1.20E+09", "1.75E+06", "dedup", "1.19E+07", "2.63E+05", "facesim", "4.40E+09", "1.55E+07", "ferret", "2.17E+09", "3.40E+06", "fluidanimate", "1.35E+10", "1.09E+07", "freqmine", "2.60E+08", "2.27E+06", "raytrace", "1.67E+09", "3.17E+06", "streamcluster", "3.11E+08", "2.79E+07", "swaptions", "3.74E+09", "2.90E+06", "vips", "2.36E+07", "1.72E+06", "x264", "3.10E+05", "4.28E+05", "PARSEC", "Category", "Application", "Scaler", "(Baseline)", "perf"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 358.56,
+    "x2": 517.4399999999999,
+    "y1": 82.56,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Table4-1.png"
+}, {
+  "caption": "Table 3: Performance overhead of Scaler and others.",
+  "captionBoundary": {
+    "x1": 65.88999938964844,
+    "x2": 279.4133605957031,
+    "y1": 230.48233032226562,
+    "y2": 236.11297607421875
+  },
+  "figType": "Table",
+  "imageText": ["Real-world", "Application", "memcached-1.6.17", "0.8%", "2.1%", "5.5×", "N/A", "20.0%", "MySQL-8.0.31", "4.5%", "1.7%", "1.8×", "N/A", "0.1%", "nginx-1.23.2", "5.3%", "30.9%", "59.7%", "N/A", "5.1%", "Redis-7.0.4", "9.4%", "9.8%", "46.7%", "N/A", "20.5%", "SQLite-3.39.4", "2.0%", "0.8%", "48.6%", "N/A", "21.9%", "Overhead", "-", "22.5%", "41.4%", "28.8×", ">", "6195.7×", "20.3%", "PARSEC", "blackscholes", "16.3%", "32.2%", "183.0×", ">", "4953.8×", "35.0%", "bodytrack", "21.3%", "28.4%", "34.0×", "N/A", "16.1%", "canneal", "12.9%", "12.6%", "14.8×", "N/A", "79.3%", "dedup", "31.8%", "73.0%", "1.4×", "N/A", "6.2%", "facesim", "11.8%", "20.8%", "26.3×", "N/A", "15.8%", "ferret", "9.8%", "17.5%", "43.6×", "N/A", "7.9%", "fluidanimate", "16.0%", "24.5%", "174.8×", "N/A", "37.8%", "freqmine", "18.2%", "35.4%", "15.0×", "N/A", "28.6%", "raytrace", "3.2%", "5.2%", "5.5×", "N/A", "10.1%", "streamcluster", "44.7%", "37.9%", "5.3×", "N/A", "14.4%", "swaptions", "31.6%", "56.7%", "4.4×", ">", "7437.7×", "33.8%", "vips", "1.3×", "1.8×", "2.4×", "N/A", "-0.6%", "x264", "37.5%", "1.7×", "4.1%", "N/A", "14.3%", "Category", "Application", "perf", "vtune-ums", "bpftrace", "ltrace", "Scaler"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 82.56,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Table3-1.png"
+}, {
+  "caption": "Figure 5: Overview of Scaler.",
+  "captionBoundary": {
+    "x1": 245.64700317382812,
+    "x2": 364.1097106933594,
+    "y1": 158.17434692382812,
+    "y2": 163.80499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["FolderInstrumentation", "Online", "Data", "Interceptor", "Tracer", "LD_PRELOAD", "Universal", "Shadow", "Table", "Linkage", "Table", "Scaler", "RuntimeUser", "Program", "Log", "File", "Scaler", "Visualizer"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 141.6,
+    "x2": 469.91999999999996,
+    "y1": 83.52,
+    "y2": 144.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695473-Figure5-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Stage transitions in Prospector. The exploration stage contains two sub-stages, one is to reach the focused function (Inter-function), the other is to maximize the reached focused targets (Intra-function). The exploitation stage aims to trigger focused targets. The dashed line indicates a stage transition that updates the focused targets.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64752197265625,
+    "y1": 644.9700927734375,
+    "y2": 704.0601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["No", "new", "related", "function", "reached", "No", "new", "focused", "target", "triggered", "No", "new", "focused", "target", "reached", "Reach", "enough", "focused", "targets", "Reach", "enough", "related", "functions", "Intra-function", "exploration", "Exploitation", "Inter-function", "exploration"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 81.11999999999999,
+    "x2": 270.24,
+    "y1": 486.71999999999997,
+    "y2": 628.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Figure4-1.png"
+}, {
+  "caption": "Table 4: New Bugs found by FishFuzz and Prospector. T.O. means that the bug is not found in 7 days.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5799865722656,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["gpac", "337628", "MP4Box", "Heap-UAF", "22h41m", "∗", "22h10m", "Heap", "Over", "ow", "∗", "70h44m", "T.O.", "libredwg", "281607", "dwg2dxf", "OOB", "Read", "T.O.", "∗", "26m2s", "OOB", "Read", "T.O.", "∗", "148h21m", "w3m", "25803", "w3m", "OOB", "Write", "23h12m", "∗", "8h6m", "OOB", "Read", "T.O.", "∗", "116h26m", "tcpreplay", "2838", "tcprewrite", "Double", "Free", "22h05m", "∗", "6h16m", "Project", "#Targets", "Program", "Bug", "Type", "FishFuzz", "Prospector"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 285.12,
+    "y1": 116.64,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Table4-1.png"
+}, {
+  "caption": "Table 3: The median TTE of bugs found by disabling each improved component in Prospector. Short names for components: SFP = static function priority, DTP = dynamic target priority, Func = function priority weighted distance, Byte = byte scheduling. For each target (i.e., each row), the best result is marked with bold font and an asterisk. The detailed results for all 155 bugs are on our website [43].",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6533508300781,
+    "y1": 87.06208801269531,
+    "y2": 157.11102294921875
+  },
+  "figType": "Table",
+  "imageText": ["#", "Best", "perf.", "∗", "57", "12", "17", "21", "22", "pdftotext", "26463", "CVE-2019-9587", "N.A.", "(0)", "N.A.", "(0)", "∗", "N.A.", "(2)", "N.A.", "(0)", "N.A.", "(0)", "CVE-2019-9877", "N.A.", "(0)", "N.A.", "(0)", "∗", "N.A.", "(1)", "N.A.", "(0)", "N.A.", "(0)", "exiv2", "30190", "CVE-2017-14861", "N.A.", "(2)", "N.A.", "(3)", "N.A.", "(2)", "N.A.", "(1)", "N.A.", "(3)", "CVE-2017-17723", "7h25m", "∗", "5h37m", "20h28m", "11h51m", "6h33m", "MP4Box", "107908", "CVE-2018-7752", "18h43m", "∗", "10h23m", "20h52m", "13h10m", "N.A.", "(4)", "gpac_issue_1422", "∗", "9h54m", "15h12m", "N.A.", "(1)", "23h38m", "14h50m", "CVE-2018-7568", "15h20m", "N.A.", "(1)", "∗", "8h40m", "N.A.", "(3)", "N.A.", "(1)", "tcpdump", "18789", "CVE-2017-5342", "1h14m", "1h37m", "∗", "58m38s", "1h8m", "2h19m", "CVE-2017-13000", "∗", "13h3m", "N.A.", "(1)", "N.A.", "(1)", "N.A.", "(1)", "N.A.", "(3)", "objdump", "58034", "CVE-2017-9746", "N.A.", "(0)", "N.A.", "(0)", "N.A.", "(1)", "N.A.", "(0)", "∗", "N.A.", "(2)", "CVE-2018-8882", "∗", "15h37m", "16h15m", "N.A.", "(0)", "18h11m", "19h30m", "ti", "split", "9819", "CVE-2014-8127", "4h9m", "10h56m", "15h11m", "∗", "2h37m", "3h2m", "CVE-2015-7554", "∗", "1m49s", "2m12s", "2m5s", "2m13s", "1m51s", "nasm", "16344", "CVE-2018-16517", "N.A.", "(3)", "N.A.", "(3)", "N.A.", "(0)", "N.A.", "(3)", "∗", "N.A.", "(4)", "CVE-2016-6352", "3h11m", "2h27m", "∗", "2h19m", "8h26m", "6h22m", "Program", "#Targets", "Bug", "ID", "Default", "No_STP", "No_DTP", "No_Func", "No_Byte", "wav2swf", "495", "CVE-2017-11099", "6s", "9s", "6s", "8s", "6s", "lou_checktable", "2240", "CVE-2018-11684", "3h29m", "∗", "3h22m", "N.A.", "(0)", "5h51m", "4h11m", "liblouis-java_issue_10", "∗", "9h8m", "22h9m", "N.A.", "(0)", "12h8m", "18h50m", "mp3gain", "3243", "CVE-2017-14407", "∗", "3m12s", "1h25m", "3m46s", "6m17s", "5m14s", "CVE-2017-14409", "∗", "3m1s", "1h24m", "3m34s", "4m21s", "3m27s", "mujs", "3699", "CVE-2016-7564", "1m26s", "∗", "1m16s", "3m51s", "2m49s", "3m15s", "CVE-2018-5759", "∗", "15h26m", "N.A.", "(2)", "N.A.", "(0)", "N.A.", "(0)", "N.A.", "(3)", "gdk-pixbuf-pixdata", "6224", "CVE-2015-7674", "N.A.", "(1)", "N.A.", "(1)", "N.A.", "(1)", "N.A.", "(2)", "∗", "N.A.", "(3)"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 171.84,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Table3-1.png"
+}, {
+  "caption": "Figure 7: The number of hits and unique paths of CVE-201811684 over time.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 559.8089599609375,
+    "y1": 269.2541198730469,
+    "y2": 284.50799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["#Paths", "CVE-2018-11684", "hs", "#P", "at", "200000", "150000", "100000", "50000", "0", "#Hits", "1e7", "#H", "its", "2.00", "1.75", "1.50", "1.25", "1.00", "0.75", "0.50", "0.25", "0.00", "0", "5", "10", "15", "20", "Time", "(hours)"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 538.0799999999999,
+    "y1": 93.11999999999999,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Call graph of the program in Listing 1. The dashed lines represent the paths of the PoC triggering the bug. The shaded node is the crashing function. The numbers beside the functions indicate the hit count of the function.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0476379394531,
+    "y1": 666.8880615234375,
+    "y2": 704.0601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["300", "100", "200", "compileRule", "23", "different", "functions", "includeFile", "compileError", "..."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 258.24,
+    "y1": 522.72,
+    "y2": 650.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Figure1-1.png"
+}, {
+  "caption": "Table 1: The median TTE of bugs found by Prospector with the di erent stage time limit. For each target (i.e., each row), the best result is marked with bold font and an asterisk. The detailed results for all 129 bugs are on our website [43].",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.14227294921875,
+    "y1": 87.06208801269531,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Best", "perf.", "24", "∗", "36", "21", "23", "mujs", "3699", "CVE-2016-7564", "2m54s", "1m2s", "∗", "37s", "5m41s", "CVE-2018-5759", "N.A.", "(2)", "∗", "4h22m", "N.A.", "(1)", "N.A.", "(2)", "ti", "split", "9819", "CVE-2014-8127", "1h38m", "2h51m", "∗", "21m2s", "2h14m", "CVE-2015-7554", "1m45s", "∗", "1m42s", "5m1s", "1m48s", "tcpdump", "18789", "CVE-2017-5342", "2h38m", "∗", "1h39m", "2h54m", "4h14m", "CVE-2017-13000", "∗", "15h46m", "N.A.", "(2)", "N.A.", "(2)", "23h44m", "exiv2", "30190", "CVE-2017-14861", "N.A.", "(2)", "N.A.", "(0)", "N.A.", "(1)", "N.A.", "(2)", "CVE-2017-17723", "4h36m", "∗", "3h51m", "6h57m", "13h31m", "objdump", "58034", "CVE-2017-9746", "N.A.", "(0)", "∗", "N.A.", "(1)", "N.A.", "(0)", "N.A.", "(0)", "CVE-2018-7568", "N.A.", "(1)", "∗", "16h46m", "N.A.", "(2)", "N.A.", "(2)", "MP4Box", "107908", "CVE-2018-7752", "9h18m", "∗", "2h15m", "23h42m", "12h10m", "gpac_issue_1422", "23h15m", "17h43m", "16h26m", "∗", "13h12m", "liblouis-java_issue_10", "20h34m", "∗", "8h2m", "16h47m", "18h37m", "lou_checktable", "2240", "CVE-2018-11684", "4h5m", "4h46m", "6h10m", "∗", "3h48m", "Program", "#Targets", "Bug", "ID", "15", "min", "30", "min", "45", "min", "60", "min"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 138.72,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Table1-1.png"
+}, {
+  "caption": "Figure 2: The overview of Prospector.",
+  "captionBoundary": {
+    "x1": 230.69200134277344,
+    "x2": 381.3095397949219,
+    "y1": 243.8440704345703,
+    "y2": 248.13897705078125
+  },
+  "figType": "Figure",
+  "imageText": ["Selection", "Fuzzer's", "Stage", "Bugs", "Seed", "Fuzzing", "Phase", "Instrumented", "Program", "A", "New", "Input", "Focused", "Targets", "Static", "Function", "Priority", "Dynamic", "Target", "Priority", "Extracted", "Targets", "Promising", "Seeds", "Sanitized", "Instrumentation", "Static", "Analysis", "Maintenance", "Focused", "Targets", "Explore/Exploit", "Transitions", "Byte", "Scheduling", "Instrumented", "Execution", "Source", "Code", "Static", "Analysis", "Phase"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 114.24,
+    "x2": 496.32,
+    "y1": 85.92,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Call graph of the program in Listing 1. The dashed lines represent the paths of the PoC triggering the bug. The shaded node is the crashing function, and numbers beside the functions represent their static function priority.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0476379394531,
+    "y1": 222.40907287597656,
+    "y2": 259.58001708984375
+  },
+  "figType": "Figure",
+  "imageText": ["0.08", "0.30", "1", "-", "functions", "6", "different", "functions42", "different", "getAChar", "compileRule", "includeFile", "compileError", "..."],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 258.24,
+    "y1": 84.0,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680365-Figure3-1.png"
+}]

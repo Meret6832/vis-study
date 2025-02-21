@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 6. CPU time (x-axis) and response time (y-axis) for DSS with 1, 2, 4, and 8 cores",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 235.65194702148438,
+    "y1": 214.4588623046875,
+    "y2": 229.64999389648438
+  },
+  "figType": "Figure",
+  "imageText": ["1", "core", "2", "cores", "4", "cores", "8", "cores", "ti", "m", "e", "(s", ")", "R", "es", "p", "on", "se", "900", "450", "225", "100", "CPU", "time", "(s)", "100", "450", "900"],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 73.44,
+    "x2": 192.95999999999998,
+    "y1": 91.67999999999999,
+    "y2": 204.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Speed-up of DSS with 1, 2, 4, and 8 cores; the speed-up is the ratio of the CPU to response time",
+  "captionBoundary": {
+    "x1": 250.88900756835938,
+    "x2": 440.1722106933594,
+    "y1": 214.4588623046875,
+    "y2": 229.64999389648438
+  },
+  "figType": "Figure",
+  "imageText": ["(C", "P", "U", "ti", "m", "e)", "S", "p", "ee", "d-", "up", "8", "7", "6", "5", "4", "3", "2", "1", "1", "core", "2", "cores", "4", "cores", "8", "cores", "0"],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 288.47999999999996,
+    "x2": 403.2,
+    "y1": 91.67999999999999,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. Control-flow automaton of Fig. 1",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 187.79171752929688,
+    "y1": 381.36285400390625,
+    "y2": 385.5950012207031
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 194.88,
+    "x2": 245.76,
+    "y1": 385.44,
+    "y2": 401.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. A valid decomposition of Fig. 2",
+  "captionBoundary": {
+    "x1": 245.52000427246094,
+    "x2": 385.35107421875,
+    "y1": 381.3628234863281,
+    "y2": 385.5950012207031
+  },
+  "figType": "Figure",
+  "imageText": ["B", "C", "A", "⊥", "[x", "==", "y]", "[!(x", "==", "y)]", "[n()", "==", "0]", "post", ";5", ";7", ";4", ";6", ";3", "vcond", "y", ":=", "y", "+", "1", "x", ":=", "x", "+", "1", "[!(n()", "==", "0)]", "post", ";3", ";5", ";4", ";3", "vcond", "y", ":=", "0", "x", ":=", "0", "⊤", "l3", "l2", "l1"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 194.88,
+    "x2": 432.96,
+    "y1": 87.36,
+    "y2": 381.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure3-1.png"
+}, {
+  "caption": "Table 1. Distributed summary synthesis on Fig. 3",
+  "captionBoundary": {
+    "x1": 151.9420928955078,
+    "x2": 333.8160705566406,
+    "y1": 88.12162017822266,
+    "y2": 92.35400390625
+  },
+  "figType": "Table",
+  "imageText": ["Fixpoint", "reached,", "program", "safe.", "⇒", "broadcast", "(gpost,C,", "{?2", "=", ";5", "})", "3", "idle", "because", "no", "change", "idle", "because", "no", "change", "proof", "'BC0AC3", "{?2", "=", ";1}", "{?2", "=", ";3", "∧", "G", "=", "~}", "{?2", "=", ";3", "∧", "G", "=", "~}", ")3", ")2", ")2", ")2", "proof", "⇒", "broadcast", "(gpost,A,", "{?2", "=", ";3", "∧", "G", "=", "~}\"", ")", "proof", "⇒", "broadcast", "(gpost,", "B,", "{?2", "=", ";3", "∧", "G", "=", "~}\"", ")", "idle", "because", "no", "change", "2", "∧", "~", "+", "1", "=", "~′", "∧", "G", "′", "≠", "~′}", ")1", ")1", "∪", "{?2", "=", ";3", "∧", "G", "+", "1", "=", "G", "′", "∧", "~", "+", "1", "=", "~′", "∧", "G", "′", "≠", "~′}", "'BC0AC2", "{?2", "=", ";1}", "{?2", "=", ";3", "∧", "G", "=", "~}", "{?2", "=", ";3}", ")2", ")1", "∪", "{?2", "=", ";3", "∧", "G", "+", "1", "=", "G", "′", "idle", "because", "no", "change", "∧", "~", "+", "1", "=", "~′", "∧", "G", "′", "≠", "~′}\"", ")", "proof", "⇒", "broadcast", "(gpost,A,", "{?2", "=", ";3", "∧", "G", "=", "~}\"", ")", "violation", "⇒", "broadcast", "(gvcond,", "B,", "{?2", "=", ";3", "∧", "G", "+", "1", "=", "G", "′", "1", "'BC0AC1", "{?2", "=", ";1}", "{?2", "=", ";3}", "{?2", "=", ";3}", ")1", ")0", "∪", "{?2", "=", ";3", "∧", "G", "≠", "~}", ")0", "∪", "{?2", "=", ";3", "∧", "G", "≠", "~}", ")0", "violation", "⇒", "broadcast", "(gvcond,C,", "{?2", "=", ";3", "∧", "G", "≠", "~}\"", ")", "proof", "⇒", "broadcast", "(gpost,", "B,", "{?2", "=", ";3}\"", ")", "proof", "⇒", "broadcast", "(gpost,A,", "{?2", "=", ";3}\"", ")", "0", "'BC0AC0", "{?2", "=", ";1}", "{?2", "=", ";3}", "{?2", "=", ";3}", ")0", "{?2", "=", ";4", "}", "{?2", "=", ";4", "}", "{?2", "=", ";4", "}", "A", "B", "C"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 433.44,
+    "y1": 98.88,
+    "y2": 404.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Table1-1.png"
+}, {
+  "caption": "Fig. 12. Poor decomposition of Fig. 11",
+  "captionBoundary": {
+    "x1": 242.1540985107422,
+    "x2": 381.8684387207031,
+    "y1": 180.91287231445312,
+    "y2": 185.14501953125
+  },
+  "figType": "Figure",
+  "imageText": ["hard2(b)", "[b", "==", "0]", "[!(b", "==", "0)]", "hard1(a)", "[a", "==", "0]", "[!(a", "==", "0)]", "a", ":=", "0", "b", ":=", "0"],
+  "name": "12",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 225.6,
+    "x2": 396.47999999999996,
+    "y1": 84.0,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure12-1.png"
+}, {
+  "caption": "Fig. 14. Good decomposition of Fig. 13",
+  "captionBoundary": {
+    "x1": 240.63009643554688,
+    "x2": 383.3934326171875,
+    "y1": 270.7390441894531,
+    "y2": 274.97119140625
+  },
+  "figType": "Figure",
+  "imageText": ["[a", "==", "0]", "hard2(a)", "[!(a", "==", "0)]", "hard1(a)", "a", ":=", "n()"],
+  "name": "14",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 225.6,
+    "x2": 396.47999999999996,
+    "y1": 208.79999999999998,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure14-1.png"
+}, {
+  "caption": "Table 3. Verification results of IMC, k-Induction, predicate analysis, and distributed summary synthesis (DSS)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17193603515625,
+    "y1": 88.12186431884766,
+    "y2": 92.35400390625
+  },
+  "figType": "Table",
+  "imageText": ["DSS", "592", "264", "1", "117", "512", "k-Induction", "985", "450", "28", "1", "022", "Predicate", "860", "696", "14", "915", "IMC", "707", "24", "15", "1", "739", "Technique", "Correctly", "solved", "Timeout", "Out", "of", "memory", "Error"],
+  "name": "3",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 385.44,
+    "y1": 99.84,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Table3-1.png"
+}, {
+  "caption": "Fig. 4. Actor model with four actors; each actor broadcasts new messages to all actors, including itself",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 197.17239379882812,
+    "y1": 315.9478454589844,
+    "y2": 342.09698486328125
+  },
+  "figType": "Figure",
+  "imageText": ["Actor", "3Actor", "4", "Actor", "1", "Actor", "2"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 194.4,
+    "y1": 248.64,
+    "y2": 309.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Decomposition of Fig. 2 with blk;8=40A (blocks LB8 ), with a succinct horizontal block merge (block MB1) and vertical block merge (block MB2), which results in Fig. 3",
+  "captionBoundary": {
+    "x1": 203.56300354003906,
+    "x2": 440.39532470703125,
+    "y1": 316.6578674316406,
+    "y2": 344.1532897949219
+  },
+  "figType": "Figure",
+  "imageText": ["MB2", "MB1", "!", "4", "!", "5", "!", "2", "!", "3", "!", "1", "[!(x", "==", "y)]", "l5", "l4", "l6", "[x", "==", "y]", "l5", "l7", "l6", "[n()", "==", "0]", "l6", "l3", "y", ":=", "y", "+", "1", "x", ":=", "x", "+", "1", "[!(n()", "==", "0)]", "l3", "l5", "l4", "l3", "y", ":=", "0", "x", ":=", "0", "l3", "l2", "l1"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 204.95999999999998,
+    "x2": 441.12,
+    "y1": 86.88,
+    "y2": 309.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure5-1.png"
+}, {
+  "caption": "Fig. 8. Speed-up (y-axis) of response time with 2, 4, 8 cores compared to DSS with only 1 core; the response time decreases significantly when adding more cores",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 169.56040954589844,
+    "y1": 214.4588623046875,
+    "y2": 262.5270080566406
+  },
+  "figType": "Figure",
+  "imageText": ["(1", "co", "re", ")", "S", "p", "ee", "d-", "up", "8", "7", "6", "5", "4", "3", "2", "1", "2", "cores", "4", "cores", "8", "cores", "0"],
+  "name": "8",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 167.04,
+    "y1": 91.67999999999999,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure8-1.png"
+}, {
+  "caption": "Table 2. Five tasks where distributed summary synthesis (DSS) proves tasks significantly faster than predicate abstraction (P), on 8 cores, with regards to response time; the columns list CPU time (CPU), response time (RT), number of threads spawned byDSS, and average number of CFA edges in the blocks of theDSS decomposition",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1593933105469,
+    "y1": 283.91485595703125,
+    "y2": 310.0641784667969
+  },
+  "figType": "Table",
+  "imageText": ["leds–leds-regulator...", "44.8", "33.2", "30.8", "7.18", "92", "12.40", "rtc–rtc-ds1553.ko-l...", "49.0", "64.6", "30.3", "14.0", "164", "14.98", "rtc–rtc-stk17ta8.ko...", "46.7", "67.9", "28.9", "15.1", "162", "15.70", "watchdog–it8712f_w...", "86.8", "50.3", "69.0", "15.9", "216", "7.91", "ldv-commit-tester/m0...", "50.1", "103", "28.8", "21.0", "230", "7.00", "Task", "CPUP", "(B)", "CPUDSS", "(B)", "RTP", "(B)", "RTDSS", "(B)", "#", "threads", "∅", "block", "size"],
+  "name": "2",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 317.76,
+    "y2": 401.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Table2-1.png"
+}, {
+  "caption": "Fig. 9. Comparison of consumed response time of single-threaded predicate abstraction (x-axis) with 2 cores to distributed summary synthesis with 8 cores (y-axis)",
+  "captionBoundary": {
+    "x1": 181.8769989013672,
+    "x2": 304.3476867675781,
+    "y1": 214.4588623046875,
+    "y2": 262.5270080566406
+  },
+  "figType": "Figure",
+  "imageText": ["co", "re", "s)", "ti", "m", "e", "(s", ")", "D", "S", "S", "(8", "R", "es", "p", "on", "se", "900", "100", "10", "Response", "time", "(s)", "Pred.", "(2", "cores)", "10", "100", "900"],
+  "name": "9",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 189.12,
+    "x2": 300.96,
+    "y1": 91.67999999999999,
+    "y2": 204.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure9-1.png"
+}, {
+  "caption": "Fig. 10. Speed-up of the parallel portfolio of DSS and predicate abstraction compared to standalone predicate abstraction",
+  "captionBoundary": {
+    "x1": 317.9259948730469,
+    "x2": 441.6627502441406,
+    "y1": 214.4588623046875,
+    "y2": 251.5679931640625
+  },
+  "figType": "Figure",
+  "imageText": ["S", "p", "ee", "d", "-u", "p", "20", "15", "10", "8", "6", "4", "2", "Parallel", "Portfolio", "0"],
+  "name": "10",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 435.35999999999996,
+    "y1": 91.67999999999999,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660766-Figure10-1.png"
+}]

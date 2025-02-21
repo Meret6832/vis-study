@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 2: Evaluation of LLMs finetuned with figurative language on the Emotions Dataset (F1-score).",
+  "captionBoundary": {
+    "x1": 317.65875244140625,
+    "x2": 559.7901000976562,
+    "y1": 85.55599212646484,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Anger", "Love", "Fear", "Joy", "Sad.", "Surp.", "Mic.Avg.", "BERT", "0.506", "0.712", "0.536", "0.579", "0.636", "0.594", "0.588", "BERT-FL", "0.547", "0.709", "0.562", "0.608", "0.661", "0.632", "0.627", "+/-", "+8.10%", "-0.42%", "+4.85%", "+5.01%", "+3.93%", "+6.40%", "+6.60%", "RoBERTa", "0.525", "0.683", "0.500", "0.613", "0.673", "0.592", "0.593", "RoBERTa-FL", "0.551", "0.733", "0.545", "0.667", "0.667", "0.617", "0.632", "+/-", "+4.95%", "+6.82%", "+8.26%", "+8.10%", "-0.90%", "+4.05%", "+6.66%", "ALBERT", "0.462", "0.658", "0.430", "0.487", "0.628", "0.564", "0.531", "ALBERT-FL", "0.443", "0.682", "0.435", "0.540", "0.624", "0.592", "0.550", "+/-", "-4.11%", "+3.52%", "+1.15%", "+9.81%", "-0.64%", "+4.73%", "+3.63%", "CodeBERT", "0.484", "0.711", "0.507", "0.558", "0.575", "0.576", "0.561", "CodeBERT-FL", "0.497", "0.723", "0.444", "0.605", "0.645", "0.617", "0.583", "+/-", "+2.79%", "+1.70%", "-14.08%", "+7.75%", "+10.92%", "+6.61%", "+3.90%", "Avg.", "+/-", "+2.93%", "+2.90%", "+0.04%", "+7.67%", "+3.33%", "+5.45%", "+5.20%"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639585-Table2-1.png"
+}, {
+  "caption": "Figure 1: Figurative language annotation procedure.",
+  "captionBoundary": {
+    "x1": 68.92500305175781,
+    "x2": 278.9085998535156,
+    "y1": 292.33599853515625,
+    "y2": 298.1369934082031
+  },
+  "figType": "Figure",
+  "imageText": ["MIP", "Guidelines", "DMS", "EMS", "Annotator", "Definition", "Verified", "Metaphor", "\"nasty", "bug\"", "Otherwise", "this", "could", "result", "in", "a", "dangerous", "error", "in", "code.", "dangerous", "error", "in", "code", "Otherwise", "this", "could", "give", "us", "a", "nasty", "bug.", "garden.", "Otherwise,", "this", "could", "result", "in", "a", "dangerous", "bug", "infestation", "in", "your", "Idiom", "Lookup", "Dictionary", "DMS", "EMS", "Annotator", "Rephrase", "conversation", "Dictionary", "Definition", "Verified", "Idiom", "\"back", "and", "forth\"", "entirely", "like", "nits.", "There", "is", "a", "lot", "of", "conversation", "on", "a", "PR,", "and", "the", "latest", "round", "seems", "subject", "or", "deciding", "an", "issue", "an", "exchange", "of", "views", "for", "the", "purpose", "of", "exploring", "a", "entirely", "like", "nits.", "There", "is", "a", "lot", "of", "back", "and", "forth", "on", "a", "PR,", "and", "the", "latest", "round", "seems", "trying", "to", "win", "points.", "There", "is", "a", "lot", "of", "back", "and", "forth", "on", "the", "tennis", "court", "as", "the", "players", "are"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 294.24,
+    "y1": 90.72,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639585-Figure1-1.png"
+}, {
+  "caption": "Table 4: Evaluation of LLMs finetuned with figurative language on the Bug Report Priority dataset (F1-score).",
+  "captionBoundary": {
+    "x1": 317.6583251953125,
+    "x2": 559.7896728515625,
+    "y1": 85.55599212646484,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "P1", "P2", "P3", "P4", "P5", "Micro", "Average", "BERT", "0.606", "0.329", "0.833", "0.0", "0.663", "0.716", "BERT-FL", "0.632", "0.359", "0.842", "0.0", "0.667", "0.730", "+/-", "+4.31%", "+9.14%", "+1.10%", "-", "+0.52%", "+1.96%", "RoBERTa", "0.61", "0.293", "0.827", "0.0", "0.677", "0.707", "RoBERTa-FL", "0.624", "0.343", "0.839", "0.0", "0.674", "0.724", "+/-", "+1.91%", "17.24%", "+1.39%", "-", "-0.51%", "+2.40%", "ALBERT", "0.564", "0.288", "0.810", "0.0", "0.670", "0.683", "ALBERT-FL", "0.602", "0.299", "0.827", "0.0", "0.674", "0.709", "+/-", "+6.71%", "+3.88%", "+2.14%", "-", "+0.53%", "+3.71%", "CodeBERT", "0.608", "0.363", "0.830", "0.0", "0.667", "0.714", "CodeBERT-FL", "0.636", "0.373", "0.839", "0.0", "0.670", "0.726", "+/-", "+4.55%", "2.64%", "+1.08%", "-", "0.52%", "+1.61%", "Avg.", "+/-", "+4.37%", "+8.23%", "+1.43%", "-", "+0.27%", "+2.42%"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 546.24,
+    "y1": 116.64,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639585-Table4-1.png"
+}, {
+  "caption": "Table 3: Evaluation of LLMs finetuned with figurative language on the Incivility Dataset (F1-score).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6334228515625,
+    "y1": 85.55599212646484,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Civil", "Uncivil", "Micro", "Average", "BERT", "0.537", "0.814", "0.734", "BERT-FL", "0.587", "0.853", "0.783", "+/-", "+8.54%", "+4.84%", "+6.67%", "RoBERTa", "0.424", "0.827", "0.734", "RoBERTa-FL", "0.535", "0.847", "0.769", "+/-", "+20.73%", "+2.33%", "+4.76%", "ALBERT", "0.151", "0.807", "0.685", "ALBERT-FL", "0.423", "0.809", "0.713", "+/-", "+64.28%", "+0.30%", "+4.08%", "CodeBERT", "0.185", "0.810", "0.692", "CodeBERT-FL", "0.431", "0.833", "0.741", "+/-", "+57.01%", "+2.74%", "+7.07%", "Avg.", "+/-", "+37.64%", "+2.55%", "+5.65%"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 248.16,
+    "y1": 116.64,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639585-Table3-1.png"
+}, {
+  "caption": "Figure 2: Distribution of figurative language occurrence in GitHub sentences (200k GitHub comments, 484k sentences).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1861572265625,
+    "y1": 317.4410095214844,
+    "y2": 334.20098876953125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Frequency", "of", "sentences", "with", "SE-specific", "figurative", "expressions.", ")", "(L", "og", "nc", "es", "en", "te", ".", "o", "f", "S", "Nu", "m", "103", "102", "101", "100", "50", "100", "150", "200", "250", "300324", "350", "400", "SE-specific", "Figurative", "Expressions", "(a)", "Percent", "of", "sentences", "with", "figurative", "expressions", "in", "repos.", "SE-specific", "General", "(%", ")", "sio", "ns", "pr", "es", "e", "Ex", "at", "iv", "Fig", "ur", "40", "30", "20", "10", "0", "20", "40", "60", "80", "100", "Repositories"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 559.1999999999999,
+    "y1": 81.6,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639585-Figure2-1.png"
+}]

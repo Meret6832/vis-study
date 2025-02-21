@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 1. Workflow of MAML and the proposed SeMPL. The meta-model can be produced by any base learner.",
+  "captionBoundary": {
+    "x1": 49.4027099609375,
+    "x2": 436.597900390625,
+    "y1": 233.89105224609375,
+    "y2": 238.12319946289062
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "SeMPL", "𝜃𝑚−1′", "update", "𝜃1′𝜃1′", "update", "𝜃2′", "𝐸𝑚", "𝐸1", "𝐸2", "Outer", "loop", "...", "Inner", "loop", "update", "𝜃m′", "𝜃", "Meta", "model", "(a)", "MAML", "𝐸1", "𝐸𝑚", "Inner", "loop", "Outer", "loop", "update", "𝜃", "𝜃1′", "𝜃𝑚′", "𝜃", "∑", "...", "Meta", "model"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 418.08,
+    "y1": 85.92,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure1-1.png"
+}, {
+  "caption": "Fig. 4. The SeMPL architecture for learning configuration performance of a systemwithmultiple environments.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1705627441406,
+    "y1": 256.4808654785156,
+    "y2": 260.7130126953125
+  },
+  "figType": "Figure",
+  "imageText": ["Prediction", "𝐸𝑡𝑎𝑟𝑔𝑒𝑡", "Pre-Training", "𝑀meta𝐸𝑡𝑎𝑟𝑔𝑒𝑡", "Fine-Tuning", "Meta-Training", "𝐸𝑎", "𝐸𝑏", "𝐸𝑚", "𝑀meta", "…", "…𝐸1", "𝐸2", "𝐸𝑛𝑀1𝑀2", "𝑀𝑛", "…", "𝐸1", "𝐸2", "𝐸𝑛", "Sequence", "Selection", "Performance", "Meta", "Environments", "Target", "Environment", "…", "New", "configuration"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 407.03999999999996,
+    "y1": 85.92,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure4-1.png"
+}, {
+  "caption": "Fig. 7. Optimal sequence versus random order in SeMPL. The format is the same as Figure 5. Detailed MRE and ranks can be accessed at: https://github.com/ideas-labo/SeMPL/blob/main/Figure7_full.pdf .",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.16754150390625,
+    "y1": 391.1248474121094,
+    "y2": 406.3160095214844
+  },
+  "figType": "Figure",
+  "imageText": ["Mean", "Sco", "-Kno", "ranks", "over", "all", "cases/runs.", "blue", "cell", "denotes", "the", "best.", "SeMPL", "1.53", "1.0", "1.0", "1.6", "1.73", "1.33", "1.3", "1.0", "1.18", "DeepPerf+", "2.47", "5.8", "5.05", "2.85", "2.8", "3.4", "3.0", "4.85", "2.92", "SeMPL'", "1.47", "3.53", "4.1", "2.4", "3.47", "2.2", "2.9", "2.45", "2.82", "RF+", "5.0", "3.07", "3.7", "2.65", "3.07", "2.67", "3.45", "2.15", "3.82", "SeMPL(%!", "4.93", "2.27", "2.0", "5.4", "5.0", "5.6", "5.75", "5.05", "5.26", "SPLConqueror+", "5.4", "5.27", "5.25", "5.9", "5.47", "6.27", "5.95", "5.25", "6.04", "XGBoost+", "4.4", "4.6", "4.8", "3.95", "2.67", "5.07", "3.7", "3.5", "4.02", "Model", "DeepArch", "SaC", "SQLite", "NGINX", "SPEAR", "Storm", "ImageMagick", "ExaStencils", "x264", "x264", "(B?", ">", "1.00×)", "M", "RE", "lo", "g", "4", "3", "S1", "S2", "S3", "S4", "S5", "ExaStencils", "(B?", ">", "6.56×)", "M", "RE", "lo", "g", "3", "2", "1", "S1", "S2", "S3", "S4", "S5", "ImageMagick", "(B?", "=", "5.72×)", "M", "RE", "lo", "g", "3", "2", "S1", "S2", "S3", "S4", "S5", "Storm", "(B?", ">", "1.00×)", "M", "RE", "lo", "g", "10", "5", "6", "7", "8", "9", "S1", "S2", "S3", "S4", "S5", "SPEAR", "(B?", ">", "5.00×)", "M", "RE", "lo", "g", "7", "6", "5", "4", "S1", "S2", "S3", "S4", "S5", "3", "NGINX", "(B?", "=", "1.80×)", "M", "RE", "lo", "g", "6", "5", "4", "3", "2", "S1", "S2", "S3", "S4", "S5", "SQLite", "(B?", "=", "3.10×)", "M", "RE", "lo", "g", "2", "1", "0", "S1", "S2", "S3", "S4", "S5", "SaC", "(B?", ">", "5.00×)", "M", "RE", "lo", "g", "7", "6", "5", "S1", "S2", "S3", "S4", "S5", "DeepArch", "(B?", "=", "1.41×)", "M", "RE", "lo", "g", "5", "4", "S1", "S2", "S3", "S4", "S5"],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure7-1.png"
+}, {
+  "caption": "Table 1. Details of the subject systems and the training sizes (for fine-tuning) when an environment is used as the target. |H|, |W |, and |V | respectively denotes the number of hardware, workload, and version considered for the environments, (|B |/|N |) denotes the number of binary/numerical options, and |C | denotes the number of valid configurations per environment (full sample size).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3306884765625,
+    "y1": 88.12186431884766,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["DeepArch", "DNN", "tool", "12/0", "4096", "[Jamshidi", "et", "al.", "2018]", "3", "1", "1", "12", "24", "36", "48", "60", "SaC", "Cloud", "tool", "58/0", "4999", "[Krishna", "et", "al.", "2021]", "1", "3", "1", "58", "116", "174", "232", "290", "SQLite", "DBMS", "14/0", "1000", "[Krishna", "et", "al.", "2021]", "2", "1", "2", "14", "28", "42", "56", "70", "NGINX", "Web", "server", "16/0", "1104", "[Weber", "et", "al.", "2023]", "1", "1", "4", "16", "32", "48", "64", "80", "SPEAR", "Audio", "editor", "14/0", "16385", "[Krishna", "et", "al.", "2021]", "3", "1", "1", "14", "28", "42", "56", "70", "Storm", "Big", "data", "analyzer", "1/11", "2048", "[Jamshidi", "et", "al.", "2018]", "3", "1", "1", "158", "211", "522", "678", "1403", "ImageMagick", "Image", "editor", "0/5", "100", "[Lesoil", "et", "al.", "2023]", "1", "4", "1", "11", "24", "45", "66", "70", "ExaStencils", "Code", "generator", "8/4", "4098", "[Weber", "et", "al.", "2023]", "1", "4", "1", "106", "181", "366", "485", "695", "x264", "Video", "encoder", "11/13", "201", "[Lesoil", "et", "al.", "2023]", "1", "10", "1", "24", "53", "81", "122", "141", "|H", "|", "|W", "|", "|V", "|", "(1", "(2", "(3", "(4", "(5", "System", "Domain", "|B", "|/", "|N", "|", "|C", "|", "Used", "by", "Environments", "Training", "Size"],
+  "name": "1",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 131.51999999999998,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Table1-1.png"
+}, {
+  "caption": "Fig. 2. Illustrating the distributions of the model parameter values in different situations under a real-world so ware system; the base learner is a regularized Deep Neural Network (it is best viewed in color). The xand y-axis are model parameters and their corresponding values, respectively.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.66497802734375,
+    "y1": 350.0288391113281,
+    "y2": 376.1780090332031
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Multi-environment", "configuration", "performance", "learning", "with", "MAML", "Learned", "values", "of", "E1", "Learned", "values", "of", "E2", "Learned", "values", "of", "E3", "Initial", "values", "for", "Etarget", "(b)", "Multi-environment", "configuration", "performance", "learning", "with", "SeMPL", "Learned", "values", "of", "E1", "Learned", "values", "of", "E2", "Learned", "values", "of", "E3", "Initial", "values", "for", "Etarget", "(a)", "Configuration", "performance", "learning", "under", "independent", "single", "environment"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 96.96,
+    "x2": 388.32,
+    "y1": 153.6,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure2-1.png"
+}, {
+  "caption": "Fig. 8. Mean MRE and standard error under different percentages of pre-training sizes over 30 runs (the sample size at the fine-tuning stage is (1, which is the smallest since we seek to stress test the effect).",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17352294921875,
+    "y1": 192.32186889648438,
+    "y2": 208.85791015625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "15", "20", "25", "30", "35", "40", "x264", "0", "5", "%", "size", "0%25%50%75%", "100%", "10", "12", "14", "16", "ExaStencils", "0", "2", "4", "6", "8", "%", "size", "0%25%50%75%", "100%", "14", "ImageMagick", "12", "10", "8", "6", "4", "2", "0", "%", "size", "0%25%50%75%", "100%", "100", "150", "200", "250", "300", "350", "400", "450", "Storm", "0", "50", "%", "size", "0%25%50%75%", "100%", "120", "180", "240", "300", "360", "420", "480", "SPEAR", "0", "60", "%", "size", "0%25%50%75%", "100%", "100", "150", "200", "250", "300", "350", "400", "NGINX", "0", "50", "%", "size", "0%25%50%75%", "100%", "1.75", "SQLite", "1.50", "1.25", "1.00", "0.75", "0.50", "0.25", "0.00", "%", "size", "0%25%50%75%", "100%", "120", "180", "240", "300", "360", "420", "480", "540", "SaC", "0", "60", "%", "size", "0%25%50%75%", "100%", "DeepArch", "%", "M", "RE", "200", "175", "150", "125", "100", "75", "50", "25", "0", "%", "size", "0%25%50%75%", "100%"],
+  "name": "8",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 439.68,
+    "y1": 84.0,
+    "y2": 175.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure8-1.png"
+}, {
+  "caption": "Fig. 6. SeMPL versus multi-environment models. The format is the same as Figure 5. Detailed MRE and ranks can be accessed at: https://github.com/ideas-labo/SeMPL/blob/main/Figure6_full.pdf .",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17529296875,
+    "y1": 397.4298400878906,
+    "y2": 412.6210021972656
+  },
+  "figType": "Figure",
+  "imageText": ["Mean", "Sco", "-Kno", "ranks", "over", "all", "cases/runs.", "blue", "cell", "denotes", "the", "best.", "Model", "DeepArch", "SaC", "SQLite", "NGINX", "SPEAR", "Storm", "ImageMagick", "ExaStencils", "x264", "SeMPL", "1.67", "1.2", "1.2", "1.55", "1.6", "2.73", "1.9", "1.15", "1.48", "MAML", "3.53", "2.67", "3.95", "7.0", "4.6", "3.73", "2.8", "7.65", "4.16", "MetaSGD", "4.2", "1.93", "3.4", "4.65", "3.87", "3.4", "2.5", "4.0", "3.9", "BEETLE", "3.67", "2.4", "2.25", "3.1", "2.07", "3.4", "2.5", "4.75", "2.04", "tEAMS", "1.8", "3.47", "2.55", "1.85", "4.67", "4.87", "4.4", "1.85", "4.2", "MORF", "5.73", "2.4", "1.85", "4.25", "3.07", "1.0", "3.25", "2.95", "4.78", "RF+4", "5.93", "5.07", "5.15", "2.8", "4.47", "7.73", "4.7", "3.65", "4.18", "DeepPerf+4", "2.8", "5.8", "6.5", "3.0", "4.6", "7.07", "3.7", "6.3", "4.06", "SPLConqueror+4", "6.13", "6.4", "6.0", "6.0", "7.13", "6.4", "6.7", "6.4", "7.2", "x264", "(B?", "=", "2.13×)", "M", "RE", "lo", "g", "4", "3", "S1", "S2", "S3", "S4", "S5", "ExaStencils", "(B?", "=", "1.55×)", "M", "RE", "lo", "g", "3", "2", "1", "S1", "S2", "S3", "S4", "S5", "ImageMagick", "(B?", "=", "#", "/", ")", "M", "RE", "lo", "g", "3", "2", "S1", "S2", "S3", "S4", "S5", "Storm", "(B?", "=", "#", "/", ")", "M", "RE", "lo", "g", "10", "11", "4", "5", "6", "7", "8", "9", "S1", "S2", "S3", "S4", "S5", "SPEAR", "(B?", "=", "1.21×)", "M", "RE", "lo", "g", "7", "6", "5", "4", "S1", "S2", "S3", "S4", "S5", "3", "NGINX", "(B?", "=", "1.27×)", "2", "3", "4", "5", "6", "lo", "g", "M", "RE", "S1", "S2", "S3", "S4", "S5", "SQLite", "(B?", "=", "1.04×)", "M", "RE", "lo", "g", "2", "1", "0", "S1", "S2", "S3", "S4", "S5", "SaC", "(B?", "=", "1.28×)", "M", "RE", "lo", "g", "7", "6", "5", "S1", "S2", "S3", "S4", "S5", "DeepArch", "(B?", "=", "1.00×)", "M", "RE", "lo", "g", "5", "4", "S1", "S2", "S3", "S4", "S5"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 381.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure6-1.png"
+}, {
+  "caption": "Fig. 3. Empirical results that verify the properties of real-world so ware systems. The y-axis is the testing Mean Relative Error (MRE) on EC0A64C . (a) confirms Property 1 and 2; E3 is the most useful environments for EC0A64C , following by E2 and then E1. (b) reveals Property 3.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.32977294921875,
+    "y1": 220.01785278320312,
+    "y2": 247.51290893554688
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "x264", "M", "R", "E", "%", "#", "Meta", "environment", "30", "25", "20", "15", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "(a)", "DeepArch", "M", "R", "E", "%", "Sequence", "of", "meta", "environments", "40", "35", "E", "3", "E", "2", "E", "1", "E", "2", "E", "3", "E", "1", "E", "3", "E", "1", "E", "2", "E", "1", "E", "3", "E", "2", "E", "2", "E", "1", "E", "3", "E", "1", "E", "2", "E", "3"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 105.11999999999999,
+    "x2": 381.12,
+    "y1": 87.36,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure3-1.png"
+}, {
+  "caption": "Fig. 5. SeMPL versus single environmentmodels. For the simplicity of exposition, we report the log-transformed average MRE (and its standard error) of all target environments and runs. For speedup (B? = 1 B ), denotes the mean MRE for 1; ✕ indicates the point of B . Detailed data can be accessed at: https://github.com/ideaslabo/SeMPL/blob/main/Figure5_full.pdf .",
+  "captionBoundary": {
+    "x1": 45.828067779541016,
+    "x2": 441.18756103515625,
+    "y1": 389.9818420410156,
+    "y2": 427.9129943847656
+  },
+  "figType": "Figure",
+  "imageText": ["Mean", "Sco", "-Kno", "ranks", "over", "all", "cases/runs.", "blue", "cell", "denotes", "the", "best.", "SeMPL", "1.0", "1.53", "1.15", "1.45", "1.07", "3.2", "1.3", "1.0", "1.02", "DeepPerf", "2.4", "2.27", "2.8", "2.55", "3.13", "3.53", "1.9", "3.2", "2.26", "RF", "4.0", "2.47", "1.4", "3.45", "2.13", "1.13", "2.05", "2.1", "2.78", "DECART", "2.87", "1.67", "3.15", "2.4", "1.87", "1.73", "3.05", "3.35", "3.18", "SPLConqueror", "4.0", "4.2", "5.05", "4.65", "4.4", "5.87", "5.0", "5.7", "4.62", "XGBoost", "2.93", "3.87", "4.6", "1.95", "3.0", "4.87", "3.8", "4.5", "3.04", "Model", "DeepArch", "SaC", "SQLite", "NGINX", "SPEAR", "Storm", "ImageMagick", "ExaStencils", "x264", "x264", "(B?", "=", "3.25×)", "M", "RE", "lo", "g", "4", "3", "S1", "S2", "S3", "S4", "S5", "ExaStencils", "(B?", "=", "3.86×)", "M", "RE", "lo", "g", "3", "2", "1", "S1", "S2", "S3", "S4", "S5", "ImageMagick", "(B?", "=", "#", "/", ")", "M", "RE", "lo", "g", "3", "2", "S1", "S2", "S3", "S4", "S5", "Storm", "(B?", "=", "#", "/", ")", "M", "RE", "lo", "g", "10", "4", "5", "6", "7", "8", "9", "S1", "S2", "S3", "S4", "S5", "SPEAR", "(B?", "=", "3.54×)", "M", "RE", "lo", "g", "7", "6", "5", "4", "S1", "S2", "S3", "S4", "S5", "3", "NGINX", "(B?", "=", "1.14×)", "M", "RE", "lo", "g", "6", "5", "4", "3", "2", "S1", "S2", "S3", "S4", "S5", "SQLite", "(B?", "=", "1.58×)", "M", "RE", "lo", "g", "2", "1", "0", "S1", "S2", "S3", "S4", "S5", "SaC", "(B?", "=", "1.35×)", "M", "RE", "lo", "g", "6", "5", "S1", "S2", "S3", "S4", "S5", "DeepArch", "(B?", "=", "2.25×)", "M", "RE", "lo", "g", "5", "4", "S1", "S2", "S3", "S4", "S5"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 372.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643743-Figure5-1.png"
+}]

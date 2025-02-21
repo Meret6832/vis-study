@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 5: Meta-model our method. Model representations including computational graphs and weights can be stored as a separate le or be integrated into the API library. Because AI platforms usually are open-sourced, the source code of API libraries can be collected from the Internet.",
+  "captionBoundary": {
+    "x1": 53.467201232910156,
+    "x2": 294.0470886230469,
+    "y1": 417.6498107910156,
+    "y2": 465.8380126953125
+  },
+  "figType": "Figure",
+  "imageText": ["code", "segments", "GenerateConfig", "Configured", "program", "Executable", "the", "core", "APIs)", "segments", "(calling", "Essential", "code", "Predict", "Feed", "input", "to", "it", "parameters", "of", "APIs", "Provide", "essential", "APIs", "Provide", "the", "required", "Locate", "the", "required", "APIs", "On-device", "AI", "program", "Output", "Execute", "inference", "Build", "function", "call", "(inference)", "process", "APIs", "graph", "Computational", "Weights"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 282.24,
+    "y1": 230.88,
+    "y2": 407.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Figure5-1.png"
+}, {
+  "caption": "Figure 1: The high-level idea of generating pure code to replace DL model representations. The red block shows the di erence between the deployed DL components.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8046875,
+    "y1": 249.19680786132812,
+    "y2": 275.468017578125
+  },
+  "figType": "Figure",
+  "imageText": ["model", "representation", "Program", "Removing", "explicit", "Customized", "Representation", "Without", "RE", "&", "Sniffer", "InputOutput", "DL", "Library", "for", "Layers", "Parser", "Computing", "Code", "App", "Android", "Model", "Representation", "Loading", "Deployed", "ML", "Files", "InputOutput", "model", "Weights", "Neural", "Representation", "DL", "Model", "DL", "API", "Library", "App", "Android"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 85.92,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Figure1-1.png"
+}, {
+  "caption": "Figure 4: The pattern of memory allocation in di erent deployment methods on the Skin diagnosis model. A complete model inference process: load model → con gure model→ invoke (compute the output).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6526184082031,
+    "y1": 443.91583251953125,
+    "y2": 481.14501953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 319.68,
+    "y2": 436.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Figure4-1.png"
+}, {
+  "caption": "Table 4: The size (Mb) of deployed components for di erent deployment methods on the ARM64 platform. TFLite components contain the model le and the compiled API library (be CMake). Our CustomDLCoder only has an executable le that also compiled by CMake.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2021484375,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["CustomDLCoder", "15.0", "26.4", "19.3", "25.9", "14.2", "28.3", "74.4", "14.5", "12.2", "35.2", "308.9", "52.2", "TFLite", "(Baseline)", "58.6", "70.0", "63.4", "70.6", "58.1", "71.7", "119.4", "59.6", "25.6", "58.1", "378.4", "94.0", "Model", "name", "Fruit", "Skin", "cancer", "MobileNet", "MNASNet", "SqueezeNet", "E", "cientNet", "MiDaS", "Lenet", "PoseNet", "SSD", "GPT-2", "Average"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 537.12,
+    "y1": 127.67999999999999,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Table4-1.png"
+}, {
+  "caption": "Table 5: The RAM consumption (Mb) of model inference for di erent deployment methods. CustomDLCoder programs are converted from the TFLite model. The lower is better. Note that we use the peak memory cost to show the results.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.19921875,
+    "y1": 180.45382690429688,
+    "y2": 195.7659912109375
+  },
+  "figType": "Table",
+  "imageText": ["CustomDLCoder", "11.98", "24.45", "17.23", "23.30", "13.94", "25.78", "99.18", "11.32", "13.64", "40.94", "322.85", "54.96", "ARM64", "TFLite", "(Baseline)", "15.35", "32.89", "21.47", "29.74", "27.55", "32.07", "219.61", "13.29", "20.16", "48.37", "483.96", "85.86", "CustomDLCoder", "8.89", "11.95", "10.47", "9.65", "17.74", "11.95", "94.30", "5.96", "14.73", "19.01", "94.99", "27.24", "TFLite", "(Baseline)", "20.41", "45.84", "31.55", "39.80", "29.26", "43.97", "220.22", "12.40", "25.60", "72.33", "418.33", "87.25", "Model", "name", "Fruit", "Skin", "cancer", "MobileNet", "MNASNet", "SqueezeNet", "E", "cientNet", "MiDaS", "Lenet", "PoseNet", "SSD", "GPT-2", "Average", "x86-64"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 556.3199999999999,
+    "y1": 210.72,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Table5-1.png"
+}, {
+  "caption": "Table 1: The maximal translation error (×10−5) of our proposed CustomDLCoder and other model deployment strategies on x86-64 platform. CustomDLCoder program, TVMmodel, and ONNX-Runtime model are all converted from the TFLite model.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.19970703125,
+    "y1": 87.06380462646484,
+    "y2": 102.3759765625
+  },
+  "figType": "Table",
+  "imageText": ["CustomDLCoder", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "TVM", "0.40", "0.13", "0.21", "1.03", "0.17", "0.07", "73.24", "0.05", "4.20", "1.86", "34.33", "10.52", "ONNX-Runtime", "52.72", "38.31", "0.01", "0.51", "0.23", "36.89", "101.23", "0.01", "11.7", "1.62", "4.6", "×", "10", "5", "4.2", "×", "10", "4", "Model", "name", "Fruit", "Skin", "cancer", "MobileNet", "MNASNet", "SqueezeNet", "E", "cientNet", "MiDaS", "Lenet", "PoseNet", "SSD", "GPT-2", "Average", "error"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 551.04,
+    "y1": 116.64,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Table1-1.png"
+}, {
+  "caption": "Table 2: The success number of existing attacking methods to parsing the information of on-device models. ‘ √ ’: this information collection method cannot extract information for all models. ‘-’: not applicable for this method. We use ‘%’ to show that TVM can be attacked by reverse engineering the low-level representation of computation graphs with NNReverse [5]. However, this method is only e ective for the TVM. We omitted it from our experiments and simply used its results.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.204833984375,
+    "y1": 181.50979614257812,
+    "y2": 219.9210205078125
+  },
+  "figType": "Table",
+  "imageText": ["ONNX-Runtime", "-", "-", "-", "10", "10", "8", "11", "CustomDLCoder", "-", "-", "-", "-", "√", "√", "√", "Original", "TFLite", "(without", "defense)", "11", "10", "10", "-", "11", "8", "11", "Model", "Obfuscation[42]", "√", "√", "√", "-", "√", "√", "11", "TVM", "-", "-", "-", "-", "%", "√", "11", "TF-ONNX", "TFLite2ONNX", "TFLite2TF", "ONNX2TF", "Reverse", "Engineering", "[5,", "22]", "Smart", "App", "Attack", "[16]", "DL", "Sni", "er", "[39]", "Model", "conversion", "tool", "Reverse", "Engineering", "Feature", "analyzing", "Searching"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 230.88,
+    "y2": 320.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Table2-1.png"
+}, {
+  "caption": "Table 3: The latency (ms per input) compared with the original TFLite library. CustomDLCoder programs are converted from the TFLite model. The lower is better. ‘x86-64’: the experiments on the Ubuntu workstation. ‘ARM64’: the experiments on the Xiaomi 11 Pro smartphone with Android 13.",
+  "captionBoundary": {
+    "x1": 53.474998474121094,
+    "x2": 558.2040405273438,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["CustomDLCoder", "12.7", "35.1", "22.8", "27.8", "52.4", "33.8", "272.1", "1.4", "44.0", "84.9", "391.6", "88.9", "ARM64", "TFLite", "(Baseline)", "13.1", "42.9", "26.9", "34.8", "52.9", "40.0", "406.8", "5.1", "42.7", "96.1", "530.2", "117.4", "CustomDLCoder", "32.6", "91.9", "54.6", "70.8", "50.2", "84.9", "317.0", "2.0", "110.3", "195.9", "433.0", "131.2", "TFLite", "(Baseline)", "33.0", "98.6", "60.4", "83.8", "58.9", "99.1", "484.8", "2.9", "116.6", "227.9", "578.8", "167.7", "Model", "name", "Fruit", "Skin", "cancer", "MobileNet", "MNASNet", "SqueezeNet", "E", "cientNet", "MiDaS", "Lenet", "PoseNet", "SSD", "GPT-2", "Average", "x86-64"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 554.4,
+    "y1": 127.67999999999999,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Table3-1.png"
+}, {
+  "caption": "Figure 2: Design Overview of CustomDLCoder. The generated program is collected and con ned by analyzing the inference process of the original TFLite library.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2040405273438,
+    "y1": 289.5018310546875,
+    "y2": 304.8139953613281
+  },
+  "figType": "Figure",
+  "imageText": ["ReplaceModel", "file", "A.", "Existing", "Model", "Inference", "Process", "B.", "CustomDLCoder", "Android", "App", "Program", "Customized", "Inference", "Process", "Config", "DL", "Library", "Neural", "Model", "Configed", "Unit", "Graph", "Computing", "Unit", "Configuring", "Data", "Parsed", "Information", "Model", "Information", "Dynamic", "Configuration", "Configuring", "Data", "Analysis", "Extraction", "Model", "Parsing", "Computing", "unit", "Unknown", "status", "Output", "Input", "Softmax", "Dense", "Pool", "Conv", "Params:{", "padding_type;", "stride_width;", "...", "?", "lhs_cacheable", "?", "rhs_cacheable", "}", "Computing", "Functions:{", "multithreaded_ops::Conv(", "params,", "input,", "filter,", "output,", "device_info)", "...", "}", "Op", "Parameters:", "[\"inputs\":", "…,", "\"outputs\":", "…,", "\"builtin_options\":", "…", "]", "Operator", "Index:", "3", ">>>", "Source", "File:", "conv.cc", "\"inputs\":", "[3,2,0],", "\"outputs\":", "[1],", "\"op_type\":", "\"Conv2DOptions\",", "\"builtin_options\":", "{stride_w:", "1,", "…", "},", "Output", "Parse", "Buildcall", "Compute", "Computational", "Graph", "Softmax", "Conv", "Pool", "Dense"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 556.3199999999999,
+    "y1": 86.88,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Structure of the operator source code. TFLite implements di erent code units for computing the output in di erent situations. It will parse the device and input information to choose the computing unit.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8059692382812,
+    "y1": 458.7628173828125,
+    "y2": 495.99298095703125
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "type", "Device", "type", "Specific", "computing", "units", "Float", "Uint8", "Hybrid…", "Multithreaded", "General", "CBLAS…", "Registration"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 342.24,
+    "x2": 534.24,
+    "y1": 325.92,
+    "y2": 447.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652119-Figure3-1.png"
+}]

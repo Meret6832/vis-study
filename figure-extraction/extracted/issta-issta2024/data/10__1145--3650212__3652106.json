@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: System Prompt in the Indirect Inference Phase",
+  "captionBoundary": {
+    "x1": 324.49700927734375,
+    "x2": 551.6610717773438,
+    "y1": 416.71209716796875,
+    "y2": 422.3429870605469
+  },
+  "figType": "Figure",
+  "imageText": ["Indirect", "Inference", "Phase", "should", "be", "output.", "most", "3", "suspected", "properties", "while", "at", "least", "one", "required.", "3.", "Please", "obey", "the", "aforementioned", "output", "format,", "no", "other", "words", "please", "don't", "output", "them.", "2.", "Don’t", "output", "the", "same", "configuration", "property", "more", "than", "twice.", "At", "You", "are", "an", "expert", "in", "the", "filed", "of", "logs", "and", "software", "systems.", "When", "offered", "log", "and", "the", "configuration", "settings,", "please", "point", "out", "the", "anomaly", "of", "the", "logs", "and", "localize", "the", "most", "likely", "root-cause", "configuration", "properties.", "The", "offered", "information", "presents", "as", "follows:", "Configuration:", "name:<>", "value:<>", "des:<>", "Log:<>", "The", "value", "and", "des", "could", "be", "\"<missing>\",", "meaning", "that", "no", "value", "is", "set", "for", "the", "property.", "Please", "output", "the", "information", "in", "the", "following", "format:", "name:<>", "value:<>", "relevant", "log:<index>-<>", "explanation:<>", "for", "each", "suspected", "configuration", "property.", "The", "<index>", "indicates", "the", "line", "number.", "Splitting", "the", "logs", "within", "the", "same", "index", "is", "not", "allowed.", "The", "given", "logs", "may", "contain", "stack", "statements,", "please", "take", "them", "as", "reference.", "Please", "obey", "the", "rules:", "1.", "If", "some", "of", "the", "offered", "configuration", "properties", "seem", "to", "be", "irrelevant,"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.0799999999999,
+    "y1": 224.64,
+    "y2": 408.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Figure4-1.png"
+}, {
+  "caption": "Figure 3: System Prompt in the Verification Phase",
+  "captionBoundary": {
+    "x1": 337.364013671875,
+    "x2": 538.7943725585938,
+    "y1": 208.1341094970703,
+    "y2": 213.7650146484375
+  },
+  "figType": "Figure",
+  "imageText": ["You", "are", "an", "expert", "in", "the", "filed", "of", "logs", "and", "software", "systems.", "You", "receive", "information", "in", "the", "following", "format:", "<log", "content>", "root-cause", "configuration", "option:", "<name:<>", "value:<>", "desc:<>", ">", "Please", "output", "a", "probability", "value", "of", "the", "given", "configuration", "property", "on", "how", "likely", "it", "can", "trigger", "the", "offered", "log", "message.", "The", "standard", "are", "as", "follows:", "1.", "The", "semanatic", "correlationship", "between", "them", "are", "strong", "and", "direct,", "output", "more", "than", "90.", "2.", "For", "others,", "output", "30.", "Please", "output", "a", "single", "value", "in", "the", "following", "format:", "Probability", "is", "x.", "Verification", "Phase"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.0799999999999,
+    "y1": 83.52,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Figure3-1.png"
+}, {
+  "caption": "Table 2: Strategies of Value Mutation",
+  "captionBoundary": {
+    "x1": 363.531982421875,
+    "x2": 512.3294677734375,
+    "y1": 167.6360626220703,
+    "y2": 173.2669677734375
+  },
+  "figType": "Table",
+  "imageText": ["Violation", "String", "charset", "with", "5", "letters", "Empty", "∅", "Positive", "(0,", "𝑀𝐴𝑋_𝐹𝐿𝐴𝑂𝑇", ")", "Negative", "(𝑀𝐼𝑁_𝐹𝐿𝑂𝐴𝑇,", "0)", "Zero", "{0}", "Numeric", "Compliance", "Data", "Type", "Mutate", "Type", "Value", "Type", "Range"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 177.6,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Table2-1.png"
+}, {
+  "caption": "Figure 6: GPT-4 Model Explanation for Configuration Error Trigger",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3904418945312,
+    "y1": 132.29408264160156,
+    "y2": 148.88397216796875
+  },
+  "figType": "Figure",
+  "imageText": ["The", "NullPointerException", "at", "LdapGroupsMapping.goUpGroupHierarchy", "indicates", "that", "there", "might", "be", "an", "issue", "with", "the", "LDAP", "group", "hierarchy", "mapping.", "The", "configuration", "option", "'hadoop.security.group.mapping.ldap.search.group.hierarchy.levels'", "is", "directly", "related", "to", "this", "functionality", "and", "could", "be", "the", "root", "cause", "of", "the", "error"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 550.0799999999999,
+    "y1": 84.0,
+    "y2": 128.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Figure6-1.png"
+}, {
+  "caption": "Table 6: Comparison with nl- variant",
+  "captionBoundary": {
+    "x1": 98.82400512695312,
+    "x2": 248.72427368164062,
+    "y1": 237.52406311035156,
+    "y2": 243.15496826171875
+  },
+  "figType": "Table",
+  "imageText": ["Answer", "to", "RQ4:", "The", "introduction", "of", "LLMs", "guarantees", "the", "optimal", "effectiveness", "to", "reduce", "false", "positives", "andmaintain", "a", "high", "overall", "accuracy.", "sort", "72.52%", "17.58%", "2.94%", "100%", "100%", "terasort", "71.75%", "17.23%", "2.00%", "99.56%", "99.56%", "pagerank", "75.03%", "14.10%", "0", "100%", "100%", "kmeans", "75.29%", "14.67%", "10.0%", "100%", "100%", "S2-D-FP", "nl-S2-V-FP", "o-S2-V-FP", "nl-S2-A", "o-S2-A", "wordcount", "70.03%", "53.39%", "3.50%", "92.31%", "100%"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 247.67999999999998,
+    "y2": 368.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Table6-1.png"
+}, {
+  "caption": "Table 4: Accuracy. x-A denotes the accuracy of the x phase, for example, S1-A indicates the accuracy of the first stage and S2-D-A denotes the accuracy of the direct inference phase in the second stage.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.1412658691406,
+    "y1": 251.05506896972656,
+    "y2": 289.56298828125
+  },
+  "figType": "Table",
+  "imageText": ["sort", "100%", "100%", "100%", "100%", "terasort", "100%", "99.56%", "100%", "99.56%", "pagerank", "100%", "100%", "100%", "100%", "kmeans", "100%", "100%", "88.89%", "100%", "S1-A", "S2-D-A", "S2-I-A", "S2-A", "wordcount", "100%", "92.31%", "100%", "100%"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 267.36,
+    "y1": 294.71999999999997,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Table4-1.png"
+}, {
+  "caption": "Table 3: Benchmark. A single job executing the pagerank workload and kmeans workload produces two and four log files, respectively. We consider the log files generated in a job as a unified whole log file. The numbers in the brackets indicate the counts of these unified whole log files.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.2930908203125,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["kmeans", "default", "162(27)", "1.690", "133", "0", "162(27)", "mutated", "226(48)", "8.186", "157", "14", "34", "sort", "default", "109", "1.001", "137", "0", "109", "mutated", "459", "8.000", "201", "151", "308", "terasort", "default", "129", "1.020", "128", "0", "129", "mutated", "730", "8.006", "215", "227", "503", "pagerank", "default", "92(46)", "1.582", "130", "0", "92(46)", "mutated", "202(121)", "8.198", "171", "41", "80", "wordcount", "default", "132", "1.000", "128", "0", "132", "mutated", "1028", "8.000", "233", "65", "963", "Mode", "Gen-Log", "Files", "FuzzDuration", "LogTemplate", "C-Anomaly", "w/o", "C-Anomaly"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 128.64,
+    "x2": 483.35999999999996,
+    "y1": 117.6,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Table3-1.png"
+}, {
+  "caption": "Figure 5: Comparison with ConfDiagDetector based on five workloads, the metric, Other-Hit, denotes LLM-Hit Counts for LogConfigLocalizer and NLP-Hit Counts for ConfDiagDetector respectively.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.3861694335938,
+    "y1": 333.0941162109375,
+    "y2": 349.6839904785156
+  },
+  "figType": "Figure",
+  "imageText": ["ConfDiagDetector", "LogConfigLocalizer", "TotalCases", "Kmeans", "ts", "Co", "un", "H", "it", "14", "12", "10", "8", "6", "4", "2", "Name-Hit", "Value-Hit", "Other-Hit", "Total-Hit", "0", "Pagerank", "ts", "Co", "un", "H", "it", "40", "35", "30", "25", "20", "15", "10", "5", "Name-Hit", "Value-Hit", "Other-Hit", "Total-Hit", "0", "Terasort", "s", "ou", "nt", "Hi", "t", "C", "200", "150", "100", "50", "Name-Hit", "Value-Hit", "Other-Hit", "Total-Hit", "0", "Sort", "s", "ou", "nt", "Hi", "t", "C", "140", "120", "100", "80", "60", "40", "20", "Name-Hit", "Value-Hit", "Other-Hit", "Total-Hit", "0", "Wordcount", "s", "ou", "nt", "Hi", "t", "C", "60", "50", "40", "30", "20", "10", "Name-Hit", "Value-Hit", "Other-Hit", "Total-Hit", "0"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 556.3199999999999,
+    "y1": 85.44,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Figure5-1.png"
+}, {
+  "caption": "Table 5: Comparison with nv-LogConfigLocalizer. The symbol \"/\" denotes no test cases flow into the specific phase.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6539306640625,
+    "y1": 532.2240600585938,
+    "y2": 548.81396484375
+  },
+  "figType": "Table",
+  "imageText": ["sort", "100%", "/", "100%", "100%", "100%", "terasort", "99.56%", "100%", "100%", "99.56%", "99.56%", "pagerank", "100%", "/", "100%", "100%", "100%", "kmeans", "100%", "/", "88.89%", "100%", "100%", "S2-D-A", "nv-S2-I-A", "o-S2-I-A", "nv-S2-A", "o-S2-A", "wordcount", "92.31%", "/", "100%", "92.31%", "100%"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 563.52,
+    "y2": 630.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Table5-1.png"
+}, {
+  "caption": "Figure 2: Overview of the LLM-based Two-Stage Strategy",
+  "captionBoundary": {
+    "x1": 191.9029998779297,
+    "x2": 420.0979309082031,
+    "y1": 205.93006896972656,
+    "y2": 211.56097412109375
+  },
+  "figType": "Figure",
+  "imageText": ["Configuration", "Settings", "Log", "Template", "Recovery", "Specific", "Templates", "Extraction", "Configuration", "Settings", "Database", "Indirect", "Inference", "Model", "Large", "Language", "Verification", "Direct", "Inference", "Anomaly", "Infernce", "Stage", "Key", "Log", "Messages", "Calculation", "Anomaly", "Degree", "Anomaly", "Identification", "Stage", "Log", "Parsing", "Log", "Files", "Diagnosis", "Report"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 558.72,
+    "y1": 84.0,
+    "y2": 191.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652106-Figure2-1.png"
+}]

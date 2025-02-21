@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 2: Statistical comparison among CoderEval, HumanEval, and Concode",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7994995117188,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["CoderEval-Python", "4.71", "32.0", "CoderEval-Java", "3.10", "10.2", "HumanEval", "3.62", "7.8", "Concode", "1.43", "4.8", "Cyclomatic", "Complexity", "Line", "of", "Code", "Benchmark", "Statistical"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 117.6,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Table2-1.png"
+}, {
+  "caption": "Table 6: Effectiveness with two Prompt Versions of CoderEval",
+  "captionBoundary": {
+    "x1": 180.87399291992188,
+    "x2": 430.8191833496094,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ChatGPT", "Original", "21.13%", "27.31%", "30.00%", "35.39%", "42.77%", "46.09%", "Human", "Label", "26.61%", "31.31%", "32.61%", "26.96%", "34.85%", "37.39%", "PanGu-Coder", "Original", "11.83%", "20.93%", "27.39%", "25.43%", "37.39%", "43.04%", "Human", "Label", "13.74%", "21.14%", "24.78%", "26.70%", "40.33%", "46.09%", "CodeGen", "Original", "9.48%", "19.58%", "23.48%", "13.87%", "27.12%", "33.04%", "Human", "Label", "12.26%", "22.49%", "25.65%", "10.65%", "21.36%", "26.52%", "Model", "Prompt", "Python", "Java", "Pass@1", "Pass@5", "Pass@10", "Pass@1", "Pass@5", "Pass@10"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 125.75999999999999,
+    "x2": 484.32,
+    "y1": 105.6,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Table6-1.png"
+}, {
+  "caption": "Table 3: Overall effectiveness of three models on two benchmarks",
+  "captionBoundary": {
+    "x1": 172.83599853515625,
+    "x2": 438.85711669921875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "We", "use", "the", "350M", "CodeGen-Mono", "model", "with", "the", "default", "settings", "for", "Python.", "Since", "CodeGen", "does", "not", "have", "a", "monolingual", "version", "of", "Java,", "on", "CoderEval", "for", "Java,", "we", "use", "the", "CodeGen-Multi", "model", "instead.", "2", "PanGu-Coder", "has", "two", "different", "models", "for", "Python", "and", "Java,", "we", "use", "the", "300M", "models", "with", "the", "default", "settings", "for", "Python", "and", "Java.", "3", "We", "use", "the", "“gpt-3.5-turbo”", "for", "ChatGPT", "in", "our", "experiments.", "PanGu-Coder2", "13.42%", "21.48%", "22.73%", "8.21%", "15.88%", "18.63%", "ChatGPT3", "39.21%", "64.09%", "72.96%", "38.21%", "59.35%", "67.23%", "HumanEval", "CodeGen1", "10.2%", "19.79%", "22.8%", "5.78%", "9.0%", "9.45%", "PanGu-Coder2", "11.83%", "20.93%", "27.39%", "25.43%", "37.39%", "43.04%", "ChatGPT3", "21.04%", "27.31%", "30.00%", "35.39%", "42.77%", "46.09%", "CoderEval", "CodeGen1", "9.48%", "19.58%", "23.48%", "13.91%", "27.34%", "33.48%", "Benchmark", "Model", "Python", "Java", "Pass@1", "Pass@5", "Pass@10", "Pass@1", "Pass@5", "Pass@10"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 126.72,
+    "x2": 483.35999999999996,
+    "y1": 105.6,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Table3-1.png"
+}, {
+  "caption": "Figure 4: The accuracy of three models that they can correctly generate the contextual tokens",
+  "captionBoundary": {
+    "x1": 116.85900115966797,
+    "x2": 495.1253967285156,
+    "y1": 342.38134765625,
+    "y2": 348.0119934082031
+  },
+  "figType": "Figure",
+  "imageText": ["Java", "P", "ython", "Acc@1", "Acc@5", "Acc@10", "Va", "rR", "ef", "er", "en", "ce", "CodeGen", "PanGu-", "Coder", "ChatGPT", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "Acc@1", "Acc@5", "Acc@10", "A", "P", "IIn", "vo", "ca", "tio", "n", "CodeGen", "PanGu-", "Coder", "ChatGPT", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "Acc@1", "Acc@5", "Acc@10", "Ty", "pe", "R", "ef", "er", "en", "ce", "CodeGen", "PanGu-", "Coder", "ChatGPT", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "Acc@1", "Acc@5", "Acc@10", "Va", "rR", "ef", "er", "en", "ce", "CodeGen", "PanGu-", "Coder", "ChatGPT", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "Acc@1", "Acc@5", "Acc@10", "A", "P", "IIn", "vo", "ca", "tio", "n", "CodeGen", "PanGu-", "Coder", "ChatGPT", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "Acc@1", "Acc@5", "Acc@10", "Ty", "pe", "R", "ef", "er", "en", "ce", "CodeGen", "PanGu-", "Coder", "ChatGPT", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 558.24,
+    "y1": 87.36,
+    "y2": 329.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Number of correctly-generated functions of CodeGen, PanGu-Coder, and ChatGPT on CoderEval",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7921142578125,
+    "y1": 212.50436401367188,
+    "y2": 229.093994140625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "CoderEval", "for", "Java", "\"8", "!6", "CE4Java", "&1-2*,3", "$7", ",-+*./&'()0", "!", "&'()*)+", "!", "\"\"", "\"#", "(a)", "CoderEval", "for", "Python", "CE4Python", "&1-2*,3", ",-+*./&'()0", "!", "&'()*)+", "#", "$\"", "$\"", "$%", "#", "!\""],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 323.03999999999996,
+    "x2": 559.68,
+    "y1": 91.2,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Overview of CoderEval construction process",
+  "captionBoundary": {
+    "x1": 197.43499755859375,
+    "x2": 414.5653991699219,
+    "y1": 180.85108947753906,
+    "y2": 186.48199462890625
+  },
+  "figType": "Figure",
+  "imageText": ["Manual", "Selection", "(Code", "Quality)", "with", "the", "Generated", "Solution", "Results:", "-", "Pass@K", "or", "-", "Acc@K", "Find", "Project", "for", "Each", "Solution", "Replace", "the", "Ground", "Truth", "Solution", "Generation", "By", "LLMs", "Solutions", "(", ")", "Test", "Generation", "Selected", "Functions", "Filtering", "Functions", "(Not", "Test,", "etc.)", "Selected", "Projects", "Filtering", "Projects", "(Tags", "&", "Stars)", "CI", "Exec,", "Test", "Trans", "Candidate", "Functions", "Candidate", "Projects", "Docker", "Environments", "...", "Project", "n", "Project", "1", "Project", "2", "CoderEval", "Data", "Evaluation", "Process", "Human", "Labeling", "Contextual", "Dependency", "Identification", "Runnable-level", "Classification", "Dataset", "Collection", "Dataset", "Inspection"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 83.52,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Distribution of runnable-levels in CoderEval",
+  "captionBoundary": {
+    "x1": 328.77398681640625,
+    "x2": 547.3839111328125,
+    "y1": 350.8721008300781,
+    "y2": 356.50299072265625
+  },
+  "figType": "Figure",
+  "imageText": ["slib_runnable", "plib_runnable", "class_runnable", "Python", "Java", "230", "(100%)", "207", "(90%)", "139", "(60%)", "84", "(36%)", "63", "(27%)", "35", "(15%)", "230", "(100%)", "186", "(81%)", "185", "(80%)", "85", "(37%)", "80", "(35%)", "55", "(24%)", "file_runnable", "project_runnable", "self_contained"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 198.72,
+    "y2": 336.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Figure2-1.png"
+}, {
+  "caption": "Table 4: Effectiveness comparison between the generation of standalone and non-standalone functions on CoderEval",
+  "captionBoundary": {
+    "x1": 69.25700378417969,
+    "x2": 542.4285888671875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["PanGu-Coder", "6.09%", "10.51%", "13.04%", "7.95%", "17.33%", "20.45%", "ChatGPT", "9.57%", "12.08%", "13.04%", "16.14%", "27.2%", "31.82%", "-", "project-depend", "CodeGen", "3.91%", "8.33%", "8.7%", "6.14%", "14.89%", "20.45%", "PanGu-Coder", "9.41%", "19.04%", "26.47%", "0%", "0%", "0%", "ChatGPT", "21.03%", "29.09%", "32.35%", "0%", "0%", "0%", "-", "file-depend", "CodeGen", "7.79%", "20.19%", "25.00%", "0%", "0%", "0%", "PanGu-Coder", "7.82%", "15.04%", "21.82%", "19.9%", "32.59%", "40.0%", "ChatGPT", "8.73%", "12.57%", "14.55%", "22.4%", "31.49%", "36.0%", "-", "class-depend", "CodeGen", "5.82%", "9.05%", "10.91%", "8.3%", "19.21%", "26.0%", "PanGu-Coder", "13.33%", "22.75%", "28.57%", "0%", "0%", "0%", "ChatGPT", "21.43%", "28.06%", "28.57%", "0%", "0%", "0%", "-", "plib-depend", "CodeGen", "4.76%", "16.16%", "23.81%", "0%", "0%", "0%", "PanGu-Coder", "8.92%", "17.02%", "23.35%", "15.6%", "26.81%", "32.67%", "ChatGPT", "15.45%", "21.18%", "23.35%", "19.67%", "28.97%", "33.33%", "non-standalone:", "CodeGen", "6.23%", "14.38%", "17.96%", "7.33%", "17.17%", "23.33%", "PanGu-Coder", "14.29%", "26.76%", "35.71%", "34.0%", "55.68%", "64.0%", "ChatGPT", "15.36%", "22.92%", "28.57%", "71.6%", "74.0%", "76.0%", "-", "slib-depend", "CodeGen", "12.5%", "29.17%", "35.71%", "24.0%", "39.87%", "44.0%", "PanGu-Coder", "23.71%", "34.93%", "40.00%", "48.36%", "57.94%", "61.82%", "ChatGPT", "52.29%", "60.08%", "82.86%", "61.82%", "66.21%", "67.27%", "-", "self-contained", "CodeGen", "22.57%", "36.75%", "40.00%", "27.27%", "49.37%", "56.36%", "PanGu-Coder", "19.52%", "31.30%", "38.10%", "43.88%", "57.23%", "62.5%", "ChatGPT", "35.87%", "43.56%", "47.62%", "64.88%", "68.65%", "70.0%", "standalone:", "CodeGen", "18.1%", "33.38%", "38.1%", "26.25%", "46.4%", "52.5%", "Depend-Level", "Model", "Python", "Java", "Pass@1", "Pass@5", "Pass@10", "Pass@1", "Pass@5", "Pass@10"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 114.72,
+    "x2": 495.35999999999996,
+    "y1": 105.6,
+    "y2": 406.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Table4-1.png"
+}, {
+  "caption": "Table 5: The similarity between the original docstring and human-labeled docstring",
+  "captionBoundary": {
+    "x1": 317.6589050292969,
+    "x2": 558.1898803710938,
+    "y1": 417.4033508300781,
+    "y2": 433.9930114746094
+  },
+  "figType": "Table",
+  "imageText": ["Python", "54.7", "55.2", "Java", "18.1", "26.9", "BLEU-4", "Jaccard", "Similarity", "Language", "Metrics"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 448.8,
+    "y2": 516.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Table5-1.png"
+}, {
+  "caption": "Table 1: Contextual Dependency Type Definition",
+  "captionBoundary": {
+    "x1": 207.09201049804688,
+    "x2": 404.60394287109375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Each", "level", "of", "runnable", "must", "rely", "on", "the", "dependencies", "defined", "at", "the", "current", "level", "and", "must", "not", "rely", "on", "the", "dependencies", "defined", "at", "subsequent", "levels.", "For", "its", "previous", "level", "of", "dependency,", "it", "can", "be", "dependent", "or", "not.", "self-contained", "built-in", "types/functions,", "no", "need", "to", "import", "min(),", "print()", "System.xxx", "slib-runnable", "standard", "libraries/modules,", "no", "need", "to", "install", "os,", "subprocess,", "sys", "Arrays.sort()", "plib-runnable", "publicly-available", "libraries", "on", "pypi/maven", "unittest2,", "requests", "com.google.code.gson", "class-runnable", "code", "outside", "the", "function", "but", "within", "class", "self.xxx,", "X.f()", "this.f()", "file-runnable", "code", "outside", "the", "class", "but", "within", "the", "file", "func(),", "URL,", "name", "func()", "project-runnable", "code", "in", "the", "other", "source", "files", "superclass,", "utils", "superclass,", "utils", "Dependency", "Type", "Definition", "Examples", "in", "Python", "Examples", "in", "Java"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 519.36,
+    "y1": 105.6,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623316-Table1-1.png"
+}]

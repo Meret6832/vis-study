@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 2: Semantic scale for assessing the generated features.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03350830078125,
+    "y1": 81.24337768554688,
+    "y2": 86.8740234375
+  },
+  "figType": "Table",
+  "imageText": ["5", "The", "name", "and", "description", "of", "the", "sub-feature", "are", "directly", "based", "on", "the", "app", "description", "with", "no", "fabrication", "4", "The", "sub-feature’s", "name", "is", "directly", "based", "on", "the", "app", "description,", "while", "its", "description", "is", "mostly", "based", "on", "the", "app", "description", "with", "minor", "fabrication", "3", "Somewhat", "based", "on", "the", "app", "description", "but", "includes", "some", "fabrication", "2", "Mostly", "fabricated", "with", "little", "relation", "to", "the", "app", "description", "1", "Completely", "fabricated", "and", "not", "found", "in", "the", "app", "description", "Traceability", "5", "Feasible", "and", "has", "known", "examples", "in", "existing", "apps", "4", "Feasible", "but", "lacks", "examples", "from", "existing", "apps", "3", "Probably", "feasible", "but", "has", "some", "uncertainties", "2", "Probably", "not", "feasible", "1", "Not", "feasible", "Feasibility", "5", "Very", "clear", "and", "easily", "understandable", "4", "Mostly", "clear", "but", "may", "have", "some", "minor", "syntax", "issues", "3", "Somewhat", "clear", "but", "may", "have", "some", "ambiguities", "or", "too", "long", "2", "Mostly", "unclear", "and", "somewhat", "difficult", "to", "understand", "1", "Very", "unclear", "or", "irrelevant", "to", "the", "sub-feature’s", "name", "Clarity", "5", "Highly", "relevant", "and", "a", "logical", "extension", "of", "the", "root", "feature", "4", "Mostly", "relevant", "and", "logically", "connected", "to", "the", "root", "feature", "3", "Moderately", "relevant", "with", "the", "root", "feature,", "but", "may", "not", "for", "the", "same", "purpose", "2", "Somewhat", "relevant", "with", "the", "root", "feature,", "because", "they", "are", "in", "the", "same", "app", "category", "1", "Not", "relevant", "to", "the", "root", "feature", "at", "all", "Relevance", "Score", "Definition"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 291.36,
+    "y1": 98.88,
+    "y2": 450.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Table2-1.png"
+}, {
+  "caption": "Figure 7: PiStar integrating new buttons (left sidebar) for inspiration from LLM or AppStore. By clicking “Inspire from LLM” or “Inspire fromAppStore” for a feature, corresponding sub-features will be generated automatically. Sub-features generated with LLM are in purple, those from AppStore are in yellow.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2191162109375,
+    "y1": 428.71435546875,
+    "y2": 489.1390075683594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 301.44,
+    "y1": 242.88,
+    "y2": 418.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Figure7-1.png"
+}, {
+  "caption": "Figure 3: LLM-inspired vs. AppStore-inspired feature refinement (the context of a feature is its super feature + sibling features).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1798706054688,
+    "y1": 274.1133728027344,
+    "y2": 279.7440185546875
+  },
+  "figType": "Figure",
+  "imageText": ["List", "of", "n", "sub-features", "Context", "Super", "Feature", "&", "Sibling", "Features", "Feature", "+", "GPT-4", "...", "...", "Vector", "Database", "GPT-4", "Features", "(k)", "Features", "(2)", "Features", "(1)", "App", "description", "(k)", "App", "description", "(2)", "Feature", "SelectionApp", "description", "(1)Search", "Feature", "Extraction"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 557.76,
+    "y1": 193.92,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Figure3-1.png"
+}, {
+  "caption": "Table 4: Evaluation results for the relationships of generated features with their super features (L1: level 1, L2: level 2, Sum: sum of L1 and L2).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.3251953125,
+    "y1": 178.77737426757812,
+    "y2": 195.36700439453125
+  },
+  "figType": "Table",
+  "imageText": ["L1", "L2", "Sum", "L1", "L2", "Sum", "L1", "L2", "Sum", "L1", "L2", "Sum", "Sub", "48", "197", "245", "50", "250", "300", "42", "163", "205", "50", "250", "300", "Sibling", "0", "23", "23", "0", "0", "0", "0", "24", "24", "0", "0", "0", "Parent", "0", "7", "7", "0", "0", "0", "0", "9", "9", "0", "0", "0", "Identical", "2", "14", "16", "0", "0", "0", "1", "12", "13", "0", "0", "0", "Other", "0", "9", "9", "0", "0", "0", "7", "42", "49", "0", "0", "0", "Total", "50", "250", "300", "50", "250", "300", "50", "250", "300", "50", "250", "300", "Existing", "Features", "Novel", "Features", "AppStore", "LLM", "AppStore", "LLM"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 158.88,
+    "x2": 451.2,
+    "y1": 206.88,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Table4-1.png"
+}, {
+  "caption": "Table 5: Average number of distinct features of a feature tree.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1942138671875,
+    "y1": 543.0153198242188,
+    "y2": 548.64599609375
+  },
+  "figType": "Table",
+  "imageText": ["5.6.2", "AppStore-Inspiration.", "In", "contrast,", "the", "AppStore-Inspiration", "exhibits", "a", "more", "severe", "redundancy", "problem.", "For", "instance,", "in", "the", "tree", "derived", "from", "the", "“Anti-Smartphone", "Addiction”", "root", "feature,", "the", "“Daily", "App", "Limit”", "feature", "appears", "multiple", "times.", "Specifically,", "it", "is", "present", "once", "at", "level", "1", "and", "three", "times", "at", "level", "2", "as", "a", "sub-feature", "un-", "der", "“Customizable", "Time", "Restrictions”,", "“Screen", "Time", "Tracking”,", "and", "“Time", "Blocking”.", "We", "hypothesize", "that", "this", "redundancy", "stems", "from", "the", "limited", "variety", "of", "features", "described", "within", "the", "app", "descriptions,", "#", "of", "Distinct", "Features", "22.3", "29.6", "21.9", "30", "#", "of", "Distinct", "Relevant", "Features", "21.6", "29.3", "14.5", "30", "Existing", "Root", "Novel", "Root", "AppStore", "LLM", "AppStore", "LLM"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 559.68,
+    "y2": 708.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Table5-1.png"
+}, {
+  "caption": "Table 3: Evaluation results for the quality of generated features (L1: level 1, L2: level 2, Avg: weighted average of L1 and L2).",
+  "captionBoundary": {
+    "x1": 56.5419921875,
+    "x2": 555.1409301757812,
+    "y1": 81.24331665039062,
+    "y2": 86.87396240234375
+  },
+  "figType": "Table",
+  "imageText": ["L1", "L2", "Avg", "L1", "L2", "Avg", "L1", "L2", "Avg", "L1", "L2", "Avg", "Relevance", "5.0", "4.94", "4.95", "5.0", "4.97", "4.97", "3.84", "3.91", "3.90", "4.96", "4.95", "4.95", "Clarity", "4.96", "4.85", "4.87", "5.0", "5.0", "5.0", "4.94", "4.89", "4.90", "5.0", "5.0", "5.0", "Feasibility", "-", "-", "-", "5.0", "4.97", "4.97", "-", "-", "-", "4.66", "4.70", "4.69", "Traceability", "4.91", "4.99", "4.97", "-", "-", "-", "4.98", "4.95", "4.96", "-", "-", "-", "Existing", "Features", "Novel", "Features", "AppStore", "LLM", "AppStore", "LLM"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 144.96,
+    "x2": 465.12,
+    "y1": 98.88,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Table3-1.png"
+}, {
+  "caption": "Figure 4: Encoding and querying the app descriptions.",
+  "captionBoundary": {
+    "x1": 64.56300354003906,
+    "x2": 283.2705993652344,
+    "y1": 194.66836547851562,
+    "y2": 200.29901123046875
+  },
+  "figType": "Figure",
+  "imageText": ["(BGE)", "Text", "Encoder", "Results", "...", "App", "description", "(k)", "App", "description", "(2)", "App", "description", "(1)", "(BGE)", "Text", "Encoder", "Search", "Querying", "App", "Descriptions", "Query", "-0.028", "-0.091", "0.006", "...", "Encoding", "App", "Descriptions", "Vector", "Database", "...", "0.045", "-0.014", "0.055", "...", "0.036", "0.011", "0.002", "...", "-0.079", "-0.013", "0.010", "...", "App", "Description", "Chunks"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 299.03999999999996,
+    "y1": 85.92,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Figure4-1.png"
+}, {
+  "caption": "Figure 6: Venn diagrams showing the average number of common and different features (distinct and relevant) generated by LLM-Inspiration and AppStore-Inspiration.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.642578125,
+    "y1": 424.4373474121094,
+    "y2": 451.9859924316406
+  },
+  "figType": "Figure",
+  "imageText": ["LLM", "AppStore", "Novel", "Features", "27", "11.53", "LLM", "AppStore", "Existing", "Features", "21.9", "14.27.4"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 338.88,
+    "y2": 414.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Figure6-1.png"
+}, {
+  "caption": "Table 1: Root features used in the evaluation.",
+  "captionBoundary": {
+    "x1": 82.45600128173828,
+    "x2": 265.0843200683594,
+    "y1": 462.9273376464844,
+    "y2": 468.5579833984375
+  },
+  "figType": "Table",
+  "imageText": ["Anti", "Smartphone", "Addiction", "Contextual", "Soundscape", "Criminal", "Alert", "Driver", "Guardian", "Interior", "Design", "Interactive", "Historical", "Overlay", "Mental", "Health", "Therapy", "Laugh", "evaluation", "Parking", "Space", "Finder", "Mood-Adaptive", "UI", "Random", "Chat", "Predictive", "Subscription", "Management", "Supermarket", "Checkout", "Social", "Health", "Analytics", "Travel", "Planner", "Symbiotic", "Music", "Creation", "Virtual", "Fashion", "Assistant", "Synesthetic", "Sensory", "Augmentation", "Voice", "Translation", "Thought", "reading", "Existing", "features", "Novel", "features"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 288.0,
+    "y1": 480.47999999999996,
+    "y2": 601.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695591-Table1-1.png"
+}]

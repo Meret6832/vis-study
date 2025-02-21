@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 1. Build system components handling configuration.",
+  "captionBoundary": {
+    "x1": 137.79800415039062,
+    "x2": 348.20318603515625,
+    "y1": 128.06185913085938,
+    "y2": 132.29400634765625
+  },
+  "figType": "Figure",
+  "imageText": ["Conﬁgured", "code", "ﬁle", ".conﬁg", "Code", "Kconﬁg", "Makeﬁles", "Source"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 133.44,
+    "x2": 357.59999999999997,
+    "y1": 86.39999999999999,
+    "y2": 111.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643746-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. An example patch to the Linux source and the configuration specifications controlling its buildability.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1745910644531,
+    "y1": 660.1256713867188,
+    "y2": 664.3577880859375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Hunks", "from", "the", "patch", "to", "Linux", "source,", "edited", "for", "brevity.", "17", "+", "enable_frankengic();", "16", "-", "gic_set_base_accessor(gic,", "gic_get_percpu_base);", "15", "@@", "-1165,7", "+1149,7", "14", "#endif", "13", "+#define", "enable_frankengic()", "do", "while(0)", "12", "-#define", "gic_set_base_accessor(d,", "f)", "11", "#else", "10", "}"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 43.199999999999996,
+    "x2": 353.76,
+    "y1": 530.88,
+    "y2": 643.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643746-Figure2-1.png"
+}, {
+  "caption": "Fig. 4. Patch coverage plo ed against build times.",
+  "captionBoundary": {
+    "x1": 150.80299377441406,
+    "x2": 335.19677734375,
+    "y1": 263.4218444824219,
+    "y2": 267.65399169921875
+  },
+  "figType": "Figure",
+  "imageText": ["allyesconfig", "(8", "cores)", "B", "u", "ild", "T", "im", "e", "[", "s", "]", "krepair", "(8", "cores)", "krepair", "(1", "core)", "defconfig", "(8", "cores)", "defconfig", "(1", "core)", "3,500", "3,000", "2,500", "2,000", "1,500", "1,000", "500", "0", "Coverage", "[%]", "0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100", "15,000", "allyesconfig", "(1", "core)", "14,500"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 130.07999999999998,
+    "x2": 369.12,
+    "y1": 84.0,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643746-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. Workflow of krepair.",
+  "captionBoundary": {
+    "x1": 191.55999755859375,
+    "x2": 294.4403381347656,
+    "y1": 205.47686767578125,
+    "y2": 209.70901489257812
+  },
+  "figType": "Figure",
+  "imageText": ["Covering", "conﬁguration", "ﬁle(s)", "Conﬁguration", "ﬁle", "Patch", "ﬁle", "Build", "system", "code", "Patch", "coverage", "constraints", "File", "Repair", "Conﬁguration", "Analysis", "Constraint", "krepair"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 135.35999999999999,
+    "x2": 349.91999999999996,
+    "y1": 84.96,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643746-Figure3-1.png"
+}, {
+  "caption": "Table 3. Build errors found when evaluating krepair.",
+  "captionBoundary": {
+    "x1": 146.09210205078125,
+    "x2": 339.66693115234375,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Build", "Error", "Commit", "ID(s)", "Warnings", "treated", "as", "errors", "3f977c57,", "c1318b39,", "6ece49c5,", "c974f755,", "5dee8bb8", "Linker", "error", "0258cb19,", "e0905322,", "16dd1fbb,", "dfbdcda2,", "661c399a", "Implicit", "function", "declaration", "f9135821,", "b5054161,", "ae9fd76f,", "4a46e5d2", "Incompatible", "pointer", "type", "800fe5ec,", "c8992cﬀ", "Frame", "size", "error", "8763e4c1", "Undeclared", "variable", "bce84458"],
+  "name": "3",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 413.28,
+    "y1": 108.47999999999999,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643746-Table3-1.png"
+}, {
+  "caption": "Table 1. Comparing configuration testing approaches for use in continuous testing.",
+  "captionBoundary": {
+    "x1": 89.11909484863281,
+    "x2": 396.63958740234375,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Combinatorial", "testing", "[17]", "VAMPYR", "[66]", "Fa", "st", "er", "randconfig", "[4]", "defconfig", "[4]", "krepair", "e", "Sl", "o", "w", "er", "t-wise", "[50,", "64]", "allyesconfig", "[4]", "B", "u", "il", "d", "T", "im", "Lower", "Higher", "Patch", "Coverage"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 143.04,
+    "x2": 351.36,
+    "y1": 110.88,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643746-Table1-1.png"
+}]

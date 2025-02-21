@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1: The performance comparison of different loop invariant inference methods. The proposed LaM4Inv generates 309 correct loop invariants out of 316 benchmark problems.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2028198242188,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["0", "218", "(107/49/62)", "5.6", "17.8", "CVC5", "[3]", "1", "207", "(107/46/54)", "13.9", "5.5", "Code2Inv", "[46]", "0", "210", "(110/47/53)", "10.9", "137.6", "LIPUS", "[54]", "0", "159", "(124/18/17)", "3.7", "48.4", "CLN2INV", "[42]", "0", "211", "(124/35/52)", "23.9", "0.6", "G-CLN", "[52]", "0", "219", "(116/45/58)", "20.1", "2.6", "ESBMC", "[21]", "0", "126", "(70/23/33)", "0", "0.2", "LEMUR", "[50]", "0", "177", "(81/43/53)", "1.5", "9.8", "LaM4Inv", "20", "309", "(133/81/95)", "3.7", "35.7", "43", "4", "LoopInvGen", "[38]", "Methods", "#", "Solved", "Benchmarks", "#", "Avg.", "Proposals", "Avg.", "Time", "(s)", "All", "None", "Only", "Total", "(133/84/99)"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 482.4,
+    "y1": 116.64,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695014-Table1-1.png"
+}, {
+  "caption": "Figure 1: An example from our benchmark. Although LLM may not return the valid loop invariant, the correct predicates are already included in different responses.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.793701171875,
+    "y1": 306.9193420410156,
+    "y2": 334.4679870605469
+  },
+  "figType": "Figure",
+  "imageText": ["Valid", "loop", "invariant:", "assert((hi", "−", "lo", "==", "2", "*", "mid)", "&&", "(mid", ">=", "0));", "GPT’s", "answer:", "assert((lo", "+", "hi", "==", "2", "*", "mid", "+", "lo)", "&&", "(mid", ">=", "0));", "assert((lo", "+", "hi", "==", "2", "*", "mid));", "assert((lo", "+", "mid", "==", "hi)", "&&", "(mid", ">=", "0));", "assert((hi", "−", "lo", "==", "2", "*", "mid));", "The", "red", "part", "is", "the", "correct", "predicate.", "1.", "int", "main()", "{", "2.", "//variable", "declarations", "3.", "int", "lo,", "mid,", "hi;", "4.", "//pre-condition", "5.", "assume(mid", ">", "0", "&&", "lo", "==", "0", "&&", "hi", "==", "2", "*", "mid);", "6.", "//loop-body", "7.", "while(mid", ">", "0)", "{", "8.", "lo", "=", "lo", "+", "1;", "9.", "hi", "=", "hi", "-", "1;", "10.", "mid", "=", "mid", "-", "1;", "11.", "}", "12.", "//post-condition", "13.", "assert(lo", "==", "hi);", "14.}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 82.56,
+    "y2": 293.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695014-Figure1-1.png"
+}, {
+  "caption": "Table 2: The ablation results of different components in LaM4Inv. Both our LLM prompt design and BMC based predicate filtering play important roles.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1893310546875,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-4", "241", "275", "306", "3.8", "6.3", "5.0", "27.1", "26.5", "46.3", "GPT-4-Turbo", "246", "275", "309", "3.5", "5.5", "3.7", "28.2", "27.0", "35.7", "Llama-3-8B", "231", "214", "233", "8.1", "10.8", "7.0", "20.7", "10.4", "18.8", "GPT-3.5-Turbo", "265", "248", "271", "6.1", "8.9", "5.4", "22.0", "21.2", "28.9", "Baseline", "Prompt", "No", "BMC", "Full", "Baseline", "Prompt", "No", "BMC", "Full", "Baseline", "Prompt", "No", "BMC", "Full", "LLMs", "#", "Solved", "Benchmarks", "#", "Avg.", "Proposals", "#", "Avg.", "Time", "(s)"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 542.4,
+    "y1": 116.64,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695014-Table2-1.png"
+}, {
+  "caption": "Figure 3: The robustness results of LaM4Inv against the randomness of LLM outcomes. LaM4Inv performs stable and the predicate filtering mechanism improves stability.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8045043945312,
+    "y1": 361.16033935546875,
+    "y2": 388.7090148925781
+  },
+  "figType": "Figure",
+  "imageText": ["GPT-3.5-Turbo", "GPT-4-Turbo", "Std:", "2.2", "Std:", "4.1", "Std:", "2.6", "Std:", "1.2", "Std:", "3.6", "Std:", "2.7", "ks", "m", "ar", "en", "ch", "ed", "B", "So", "lv", "350.0", "300.0", "250.0", "Baseline", "Prompt", "No", "BMC", "Full200.0"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 342.24,
+    "x2": 515.04,
+    "y1": 226.07999999999998,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695014-Figure3-1.png"
+}, {
+  "caption": "Figure 2: An overview of LaM4Inv.",
+  "captionBoundary": {
+    "x1": 235.87899780273438,
+    "x2": 376.1200866699219,
+    "y1": 259.8773498535156,
+    "y2": 265.50799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["Add", "CE", "Update", "Counterexamples", "(Counterexample)", "Suggestions", "Step", "4.", "Verify", "Combined", "InvariantStep", "5.", "Incorporate", "CE", "into", "Prompt", "Success", "Success", "Step", "1.", "Query", "LLM", "Step", "2.", "Verify", "Candidate", "Invariant", "Step", "3.", "Identify", "Correct", "Predicate", "Construct", "Prompt", "SMT", "solver", "N", "Verify", "If", "sat", "Y", "Combine", "Correct", "predicate", "1", "Correct", "predicate", "3", "……", "Combined", "Invariant", "Candidate", "predicate", "1", "Candidate", "predicate", "2", "Candidate", "predicate", "3", "……", "N", "Verify", "If", "sat", "Y", "Filter", "SMT", "solverLLM", "BMC", "tool", "SplitQuery", "Task", "description", "Candidate", "Invariant", "Program"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695014-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Problems that LaM4Inv struggles to solve.",
+  "captionBoundary": {
+    "x1": 70.36900329589844,
+    "x2": 277.4712829589844,
+    "y1": 456.25933837890625,
+    "y2": 461.8899841308594
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Case", "2.", "A", "failed", "case", "due", "to", "LaM4Inv’s", "weak", "DNF", "handling.", "1.", "int", "main()", "{", "2.", "int", "x,", "y;", "3.", "//pre-condition", "4.", "assume(x", "==", "0);", "5.", "//loop-body", "6.", "while", "(x", "<", "99)", "{", "7.", "if", "(y", "%", "2", "==", "0)", "{", "8.", "x", "=", "x", "+", "2;", "9.", "}", "10.", "else", "{", "11.", "x", "=", "x", "+", "1;", "12.", "}", "13.", "}", "14.", "//post-condition", "15.", "assert((x", "%", "2)", "==", "(y", "%", "2));", "16.}"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 285.59999999999997,
+    "y1": 272.64,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695014-Figure4-1.png"
+}]

@@ -1,0 +1,301 @@
+[{
+  "caption": "Fig. 8. The process of test data generation for a single operation",
+  "captionBoundary": {
+    "x1": 331.0385437011719,
+    "x2": 533.1173706054688,
+    "y1": 206.15093994140625,
+    "y2": 209.67962646484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 72.96,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure8-1.png"
+}, {
+  "caption": "Fig. 7. The prompt for “Booking” prerequisites elicits a GPT response with the “Flight” schema, establishing a Schema-Schema dependency.",
+  "captionBoundary": {
+    "x1": 59.36429977416992,
+    "x2": 295.3589172363281,
+    "y1": 231.356201171875,
+    "y2": 243.31329345703125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "11", "Below", "is", "the", "list", "of", "all", "schemas", "and", "their", "properties:", "12", "schemas:", "13", "Flight:", "14", "...", "15", "Booking:", "16", "...", "17", "18", "Return", "in", "separated", "lines.", "No", "explanation", "needed.\"\"\"", "1", "PROMPT=\"\"\"Given", "the", "schema", "and", "its", "properties", "in", "the", "OpenAPI", "specification", "of", "an", "API", "application,", "your", "task", "is", "to", "identify", "the", "prerequisite", "schemas", "that", "need", "to", "be", "created", "before", "establishing", "the", "mentioned", "schema.", "2", "3", "Below", "is", "the", "schema", "and", "its", "properties", "4", "Booking:", "5", "flight:", "6", "$ref:", "’#/components/schemas/Flight’", "7", "departureDate:", "...", "8", "arrivalDate:", "...", "9", "..."],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure7-1.png"
+}, {
+  "caption": "Fig. 9. Sample prompt template for test data generation",
+  "captionBoundary": {
+    "x1": 344.9505310058594,
+    "x2": 519.2045288085938,
+    "y1": 313.5788269042969,
+    "y2": 317.1075134277344
+  },
+  "figType": "Figure",
+  "imageText": ["1", "GET_DATASET_PROMPT=f\"\"\"Given", "the", "information", "about", "the", "operation,", "generate", "a", "2", "dataset", "containing", "10", "data", "items", "to", "be", "used", "to", "test", "the", "operation.", "3", "{additional_instruction}", "4", "5", "Operation", "information:", "{endpoint_information}", "6", "Referenced", "schema:", "{ref_schema}", "7", "8", "Your", "dataset", "represents", "each", "data", "item", "in", "the", "JSONL", "format,", "line", "by", "line.\"\"\""],
+  "name": "9",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 226.56,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure9-1.png"
+}, {
+  "caption": "Fig. 11. The Groovy-generated test script exemplifies the POST /booking operation following the GET /flight → POST /booking sequence.",
+  "captionBoundary": {
+    "x1": 314.0754699707031,
+    "x2": 550.0700073242188,
+    "y1": 276.8700866699219,
+    "y2": 288.8271484375
+  },
+  "figType": "Figure",
+  "imageText": ["9", "def", "response_1", "=", "makeRequest(", "10", "<path", "to", "test", "GET", "/flight>,", "path_variables_1,", "11", "query_parameters_1,", "body_1", "12", ")", "13", "14", "//", "ChatGPT", "generated", "test", "data", "goes", "here", "15", "def", "path_variables", "=", "[:]", "16", "def", "query_parameters", "=", "[", "17", "’flightId’:", "response_1[0].id", "18", "]", "19", "def", "body", "=", "<get", "from", "the", "relevant", "data", "file>", "20", "21", "def", "response", "=", "makeRequest(", "22", "<path", "to", "test", "POST", "/booking>,", "path_variables,", "23", "query_parameters,", "body", "24", ")", "25", "def", "latest_response", "=", "response", "26", "27", "//", "END", "28", "def", "expected_status_code", "=", "<value>", "29", "assertStatusCode(latest_response,", "expected_status_code)", "1", "//", "Import", "statements", "2", "import", "...", "3", "4", "//", "ChatGPT", "generated", "test", "data", "goes", "here", "5", "def", "path_variables_1", "=", "[:]", "6", "def", "query_parameters_1", "=", "[:]", "7", "def", "body_1", "=", "\"\"", "8"],
+  "name": "11",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 72.0,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure11-1.png"
+}, {
+  "caption": "Fig. 10. These items illustrate valid and invalid request body data for the POST /booking endpoint.",
+  "captionBoundary": {
+    "x1": 59.570701599121094,
+    "x2": 295.56536865234375,
+    "y1": 382.35577392578125,
+    "y2": 394.3128662109375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "},", "11", "{", "12", "\"data\":", "{", "13", "\"departureDate\":", "null,", "14", "\"arrivalDate\":", "\"\",", "15", "\"passengerName\":", "\"John", "Doe\",", "16", "\"passengerAge\":", "\"25\"", "17", "},", "18", "\"expected_code\":", "400", "19", "},", "20", "...", "21", "]", "1", "[", "2", "{", "3", "\"data\":", "{", "4", "\"departureDate\":", "\"2022-03-10\",", "5", "\"arrivalDate\":", "\"2022-03-09\",", "6", "\"passengerName\":", "\"Michael", "Johnson\",", "7", "\"passengerAge\":", "35", "8", "},", "9", "\"expected_code\":", "400", "10", "},", "11", "{", "12", "\"data\":", "{", "13", "\"departureDate\":", "\"2022-11-15\",", "14", "\"arrivalDate\":", "\"2022-11-16\",", "15", "\"passengerName\":", "\"Jane", "Smith\",", "16", "\"passengerAge\":", "25", "17", "},", "18", "\"expected_code\":", "200", "19", "},", "20", "...", "21", "]", "1", "[", "2", "{", "3", "\"data\":", "{", "4", "\"departureDate\":", "\"2022-12-01\",", "5", "\"arrivalDate\":", "\"2022-12-02\",", "6", "\"passengerName\":", "\"John", "Doe\",", "7", "\"passengerAge\":", "30", "8", "},", "9", "\"expected_code\":", "200"],
+  "name": "10",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 375.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure10-1.png"
+}, {
+  "caption": "Fig. 1. An Example of OpenAPI/Swagger Specification (OAS) file",
+  "captionBoundary": {
+    "x1": 75.78094482421875,
+    "x2": 279.682373046875,
+    "y1": 581.5791015625,
+    "y2": 585.0375366210938
+  },
+  "figType": "Figure",
+  "imageText": ["10", "description:", "A", "list", "of", "available", "flights.", "11", "content:", "12", "application/json:", "13", "schema:", "14", "type:", "array", "15", "items:", "16", "$ref:", "’#/components/schemas/Flight’", "17", "18", "/booking:", "19", "post:", "20", "summary:", "Book", "a", "new", "Flight", "21", "parameters:", "22", "-", "name:", "flightId", "23", "schema:", "24", "type:", "integer", "25", "requestBody:", "26", "content:", "27", "application/json:", "28", "schema:", "29", "properties:", "30", "departureDate:", "31", "type:", "string", "32", "format:", "date", "33", "description:", "format", "in", "YYYY-MM-DD.", "Should", "be", "after", "today.", "34", "arrivalDate:", "35", "type:", "string", "36", "format:", "date", "37", "description:", "format", "in", "YYYY-MM-DD.", "Should", "be", "after", "‘departureDate‘.", "38", "passengerName:", "39", "type:", "string", "40", "passengerAge:", "41", "type:", "integer", "42", "responses:", "43", "’200’:", "44", "description:", "The", "booking", "is", "successful.", "45", "content:", "46", "application/json:", "47", "schema:", "48", "$ref:", "’#/components/schemas/Booking’", "49", "50", "components:", "51", "schemas:", "52", "Flight:", "53", "type:", "object", "54", "properties:", "55", "id:", "56", "type:", "integer", "57", "origin:", "58", "type:", "string", "59", "destination:", "60", "type:", "string", "61", "Booking:", "62", "type:", "object", "63", "properties:", "64", "flight:", "65", "$ref:", "’#/components/schemas/Flight’", "66", "departureDate:", "67", "type:", "string", "68", "format:", "date", "69", "arrivalDate:", "70", "type:", "string", "71", "format:", "date", "72", "passengerName:", "73", "type:", "string", "74", "passengerAge:", "75", "type:", "integer", "1", "openapi:", "3.0.0", "2", "info:", "3", "title:", "Flight", "Booking", "API", "4", "paths:", "5", "/flights:", "6", "get:", "7", "summary:", "Get", "Flights", "8", "responses:", "9", "’200’:"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 297.12,
+    "y1": 72.96,
+    "y2": 574.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure1-1.png"
+}, {
+  "caption": "TABLE I STATISTICS OF REST SERVICE DATASET",
+  "captionBoundary": {
+    "x1": 114.47394561767578,
+    "x2": 241.91732788085938,
+    "y1": 74.52082061767578,
+    "y2": 86.478515625
+  },
+  "figType": "Table",
+  "imageText": ["GitLab-Repository", "10", "10", "0", "101", "8", "2", "Average", "17.3", "17", "6.9", "115.8", "11.8", "2.3", "ProShop", "16", "16", "30", "46", "11", "0", "PetStore", "19", "15", "20", "61", "10", "0", "Canada", "Holidays", "6", "6", "2", "9", "2", "0", "Bills", "API", "21", "21", "31", "57", "13", "0", "Genome", "Nexus", "23", "23", "0", "44", "10", "0", "BingMap-Route", "14", "14", "0", "162", "1", "10", "GitLab-Branch", "9", "9", "0", "88", "7", "1", "GitLab-Commit", "15", "15", "0", "135", "13", "2", "GitLab-Groups", "17", "17", "0", "152", "15", "0", "GitLab-Issues", "27", "27", "0", "239", "22", "9", "GitLab-Project", "31", "31", "0", "295", "29", "4", "Par", "Dep", "Ops", "Int", "Ops", "4xx", "SC", "REST", "service", "OP", "2xx", "SC"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 293.28,
+    "y1": 96.0,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-TableI-1.png"
+}, {
+  "caption": "TABLE II DOCUMENTED STATUS CODE COVERAGE (RQ1)",
+  "captionBoundary": {
+    "x1": 356.33001708984375,
+    "x2": 507.67340087890625,
+    "y1": 74.52075958251953,
+    "y2": 86.478515625
+  },
+  "figType": "Table",
+  "imageText": ["GitLab-Repository", "40", "40", "40", "40", "-", "-", "Average", "59.2", "74.9", "56.4", "74.5", "67.5", "75.9", "Standard", "deviation", "21.4", "22.3", "21.2", "24.5", "17.8", "16.1", "Canada", "Holidays", "100", "100", "100", "100", "100", "100", "Bills", "API", "71.2", "82.7", "66.7", "81", "74.2", "83.9", "Genome", "Nexus", "78.3", "100", "78.3", "100", "-", "-", "BingMap-Route", "28.6", "78.6", "28.6", "78.6", "-", "-", "GitLab-Branch", "55.6", "77.8", "55.6", "77.8", "-", "-", "GitLab-Commit", "20", "20", "20", "20", "-", "-", "GitLab-Groups", "52.9", "58.8", "52.9", "58.8", "-", "-", "GitLab-Issues", "40.7", "63", "40.7", "63", "-", "-", "GitLab-Project", "67.7", "74.2", "67.7", "74.2", "-", "-", "ProShop", "67.4", "87", "62.5", "100", "70", "80", "Petstore", "54", "74.3", "66.7", "100", "50", "55", "coverage", "(%)", "RTG", "KAT", "RTG", "KAT", "RTG", "KAT", "REST", "service", "Overall", "coverage", "(%)", "2xx", "coverage", "(%)", "4xx"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 547.1999999999999,
+    "y1": 96.96,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-TableII-1.png"
+}, {
+  "caption": "Fig. 4. Dependence between GET/flights and POST/booking in ODG",
+  "captionBoundary": {
+    "x1": 314.0751037597656,
+    "x2": 550.0548095703125,
+    "y1": 515.0444946289062,
+    "y2": 518.5731811523438
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 370.56,
+    "x2": 490.08,
+    "y1": 457.91999999999996,
+    "y2": 505.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure4-1.png"
+}, {
+  "caption": "Fig. 2. KAT: Dependency-aware Automated API Testing",
+  "captionBoundary": {
+    "x1": 88.7602310180664,
+    "x2": 267.2096252441406,
+    "y1": 508.0377197265625,
+    "y2": 511.56640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 294.24,
+    "y1": 425.76,
+    "y2": 495.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. ODG Construction",
+  "captionBoundary": {
+    "x1": 390.61553955078125,
+    "x2": 473.52838134765625,
+    "y1": 156.23052978515625,
+    "y2": 159.75921630859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 527.04,
+    "y1": 72.96,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure3-1.png"
+}, {
+  "caption": "TABLE III TEST CASE GENERATION EFFICIENCY (RQ2)",
+  "captionBoundary": {
+    "x1": 229.8231201171875,
+    "x2": 373.700927734375,
+    "y1": 74.52082061767578,
+    "y2": 86.478515625
+  },
+  "figType": "Table",
+  "imageText": ["GitLab-Repository", "969", "315", "-", "-", "4", "4", "-", "-", "0.4", "1.3", "-", "-", "Average", "1875.8", "217.9", "439.8", "211", "9.6", "12.7", "14", "15.8", "0.5", "5.8", "3.2", "7.5", "RTG", "KAT", "RTG", "KAT", "RTG", "KAT", "RTG", "KAT", "RTG", "KAT", "RTG", "KAT", "ProShop", "711", "19", "569", "190", "10", "16", "21", "24", "1.4", "84.2", "3.7", "12.6", "Petstore", "707", "24", "956", "276", "10", "15", "10", "11", "1.4", "62.5", "1", "4", "Canada", "Holidays", "6", "6", "2", "2", "6", "6", "2", "2", "100", "100", "100", "100", "Bills", "API", "1731", "132", "232", "376", "14", "17", "23", "26", "0.8", "12.9", "9.9", "6.9", "Genome", "Nexus", "600", "36", "-", "-", "18", "23", "-", "-", "3", "63.9", "-", "-", "BingMap-Route", "1413", "35", "-", "-", "4", "11", "-", "-", "0.3", "31.4", "-", "-", "GitLab-Branch", "704", "105", "-", "-", "5", "7", "-", "-", "0.7", "6.7", "-", "-", "GitLab-Commit", "4256", "267", "-", "-", "3", "3", "-", "-", "0.1", "1.1", "-", "-", "GitLab-Groups", "3731", "650", "-", "-", "9", "10", "-", "-", "0.2", "1.5", "-", "-", "GitLab-Issues", "5674", "654", "-", "-", "11", "17", "-", "-", "0.2", "2.6", "-", "-", "GitLab-Project", "2008", "372", "-", "-", "21", "23", "-", "-", "1", "6.2", "-", "-", "4xx", "SC", "2xx", "score", "(%)", "4xx", "score", "(%)", "No.", "test", "cases", "actually", "covering", "2xx", "SC", "No.", "test", "cases", "actually", "covering", "4xx", "SC", "No.", "test", "cases", "generated", "to", "cover", "2xx", "SC", "No.", "test", "cases", "generated", "to", "cover", "REST", "service"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 544.3199999999999,
+    "y1": 96.96,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-TableIII-1.png"
+}, {
+  "caption": "TABLE IV FAILURE DETECTION (RQ3)",
+  "captionBoundary": {
+    "x1": 387.10711669921875,
+    "x2": 477.7696533203125,
+    "y1": 271.648681640625,
+    "y2": 283.6057434082031
+  },
+  "figType": "Table",
+  "imageText": ["Undocumented", "status", "codes", "detection:", "the", "number", "of", "GitLab-Repository", "0", "0", "15", "15", "2", "3", "Total", "23", "23", "221", "245", "119", "94", "Canada", "Holidays", "0", "0", "2", "2", "7", "5", "Bills", "API", "0", "1", "0", "0", "26", "26", "Genome", "Nexus", "0", "0", "15", "14", "14", "16", "BingMap-Route", "4", "5", "31", "32", "6", "6", "GitLab-Branch", "0", "0", "15", "19", "4", "5", "GitLab-Commit", "1", "0", "19", "21", "3", "0", "GitLab-Groups", "1", "1", "26", "28", "5", "3", "GitLab-Issues", "1", "1", "37", "48", "8", "3", "GitLab-Project", "0", "1", "50", "53", "8", "0", "RTG", "KAT", "RTG", "KAT", "RTG", "KAT", "ProShop", "7", "6", "0", "0", "21", "14", "Petstore", "9", "8", "11", "13", "15", "13", "Undocumented", "status", "codes", "Mismatches", "REST", "service", "500", "errors"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 550.56,
+    "y1": 293.76,
+    "y2": 463.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-TableIV-1.png"
+}, {
+  "caption": "Fig. 5. Example of an Operation-Schema dependency dictionary. The operation POST /booking has two Operation-Schema dependencies with the schemas “Flight” and “Booking”. This is indicated by the pairs of parameter flightId (line 22) with field id (line 55) and flight (line 64) in Fig 1.",
+  "captionBoundary": {
+    "x1": 314.0,
+    "x2": 549.9947509765625,
+    "y1": 155.83734130859375,
+    "y2": 184.65118408203125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "}", "1", "OS", "=", "{", "2", "\"post-/booking\":", "{", "3", "\"Flight\":", "{", "4", "\"flightId\":", "\"id\"", "5", "}", "6", "\"Booking\":", "{", "7", "\"flightId\":", "\"flight\"", "8", "}", "9", "}"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 72.96,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. The prompt for prerequisites in the POST /booking operation yields a GPT response with the “Flight” and “Booking” schemas, creating Operation-Schema dependencies.",
+  "captionBoundary": {
+    "x1": 314.0,
+    "x2": 550.002197265625,
+    "y1": 372.35882568359375,
+    "y2": 392.7442932128906
+  },
+  "figType": "Figure",
+  "imageText": ["10", "11", "Below", "is", "the", "list", "of", "all", "schemas", "and", "their", "properties:", "12", "schemas:", "13", "Flight:", "14", "...", "15", "Booking:", "16", "...", "17", "18", "Please", "format", "the", "prerequisite", "schemas", "in", "the", "following", "structure:", "19", "<parameter", "of", "the", "operation>", "->", "<equivalent", "operation", "of", "the", "relevant", "schema>", "20", "...\"\"\"", "1", "PROMPT=\"\"\"Given", "the", "operation", "and", "its", "parameters,", "identify", "all", "prerequisite", "2", "schemas", "for", "retrieving", "information", "related", "to", "the", "operation’s", "parameters.", "3", "4", "Below", "is", "the", "operation", "and", "its", "parameters:", "5", "post-/booking:", "6", "flightId:", "integer", "7", "departureDate:", "string", "8", "arrivalDate:", "string", "9", "..."],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 200.64,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00017-Figure6-1.png"
+}]

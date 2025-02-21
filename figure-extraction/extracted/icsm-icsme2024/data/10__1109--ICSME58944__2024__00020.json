@@ -1,0 +1,161 @@
+[{
+  "caption": "TABLE I: Selected frameworks and projects",
+  "captionBoundary": {
+    "x1": 346.76708984375,
+    "x2": 517.4857788085938,
+    "y1": 73.79306030273438,
+    "y2": 79.43560791015625
+  },
+  "figType": "Table",
+  "imageText": ["macrozheng/mall", "8ff45e9", "57.9k", "M/M", "jeecgboot/jeecg-boot", "fe1b58a", "29.1k", "J/J-B", "shuzheng/zheng", "7005c0a", "16.3k", "S/Z", "newbee-ltd/newbee-mall", "2b80de0", "8.7k", "N/N-M", "codedrinker/community", "7ee526f", "2.1k", "C/C", "Mybatis", "SpringMVC", "shuzheng/zheng", "7005c0a", "16.3k", "S/Z", "saysky/ForestBlog", "cda2028", "3.7k", "S/F", "spring-io/sagan", "0819ff1", "2.9k", "S/S", "xubinux/xbin-store", "b26c714", "2.1k", "X/X-S", "jeecgboot/jeecg", "2608008", "2k", "J/J", "TeamNewPipe/NewPipe", "f36fd2f", "19k", "T/N", "CarGuo/GSYVideoPlayer", "f7a1e15", "17.4k", "C/G", "android-hacker/VirtualXposed", "9c20336", "13.1k", "A/V", "youlookwhat/CloudReader", "91c8334", "4.6k", "Y/C", "rovo89/XposedInstaller", "8f8f2d7", "3.5k", "R/X", "Android", "Framework", "Project", "Version", "#Stars", "Alias"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 548.16,
+    "y1": 87.84,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-TableI-1.png"
+}, {
+  "caption": "Fig. 5: Running Time and number of extracted URIs on 15 selected repositories.",
+  "captionBoundary": {
+    "x1": 156.58982849121094,
+    "x2": 468.57379150390625,
+    "y1": 209.03128051757812,
+    "y2": 214.673828125
+  },
+  "figType": "Figure",
+  "imageText": ["Parsing", "Time(s)", "Matching", "Time(s)", "0", "50", "K", "100", "K", "150", "K", "200", "K", "250", "K", "300", "K", "350", "K", "LOC", "S/S", "S/F", "S/Z", "R/X", "Y/C", "A/V", "C/G", "T/N", "J/J", "X/X-S", "S/Z", "J/J-B", "M/M", "C/C", "N/N-M", "0", "20", "40", "60", "Consumed", "time", "per", "URI(ms)", "0", "5", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 71.03999999999999,
+    "x2": 529.92,
+    "y1": 72.96,
+    "y2": 200.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-Figure5-1.png"
+}, {
+  "caption": "Fig. 1: Examples of XLL convention in multilingual frameworks",
+  "captionBoundary": {
+    "x1": 183.28578186035156,
+    "x2": 433.1490173339844,
+    "y1": 394.5854797363281,
+    "y2": 400.227783203125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "SpringMVC", "data", "binding", "(implicit)", "α", "β", ".../Project.java", "public", "SupportStatus", "getStatus()", "Ⅸ", ".../templates/projects/index.html", "Ⅷ", "public", "enum", "SupportStatus", "{", "...", "COMMUNITY(\"Community\"),", "...", "}", "}", "});", "return", "\"projects/index\";", ".forEach((status,", "proj)", "->", "{", "model.addAttribute(status.name(),", "proj);", "...", "projects.stream().collect(Collectors.groupingBy(Project::getStatus))", "@GetMapping", "public", "String", "listProjects(Model", "model)", "{", "</body>", "...", "</section>", "<section", "...", "data-th-if=\"${COMMUNITY}\">", ".../SupportStatus.java", "<!DOCTYPE", "html>", "...", "<body>", "sagan-site/src/main/java/sagan/site/projects/ProjectsController.java", "(c)", "SpringMVC", "data", "binding", "(explicit)", "Ⅶ", "Ⅵ", "</form>", "</body>", "<form", "data-th-action=”...\"", "method=\"post\"", "data-th-object=\"${postForm}\">", "...", "sagan-site/src/main/resources/templates/admin/blog/new.html", "<!DOCTYPE", "html>", "...", "<body>", "}", "}", "model.addAttribute(\"postForm\",", "new", "PostForm());", "...", "return", "\"admin/blog/new\";", "...", "@GetMapping(\"/new\")", "public", "String", "newPost(Model", "model)", "{", "(b)", "Mybatis", "parameter", "mapping", "sagan-site/src/main/java/sagan/site/blog/support/BlogAdminController.java", "@Controller", "@RequestMapping(\"/admin/blog\")", "class", "BlogAdminController", "{", "ⅤⅢ", "Ⅳ", "</mapper>", "<select", "id=“getUserByName”", "resultType=“...\">", "select", "*", "from", "sys_user", "where", "username", "=", "#{username}", "and", "del_flag", "=", "0", "</select>", "...", "<?xml", "version=\"1.0\"", "encoding=\"UTF-8\"?>", "<!DOCTYPE", "mapper", "...>", "<mapper", "namespace=\"org.jeecg.modules.system.mapper.SysUserMapper\">", "jeecg-boot/jeecg-boot-module-", "system/src/main/java/org/jeecg/modules/system/mapper/xml/SysUserMapper.xml", "}", "...", "public", "SysUser", "getUserByName(@Param(\"username\")", "String", "username);", "...", "jeecg-boot/jeecg-boot-module-", "system/src/main/java/org/jeecg/modules/system/mapper/SysUserMapper.java", "public", "interface", "SysUserMapper", "extends", "BaseMapper<SysUser>", "{", "(a)", "Android", "view", "binding", "Ⅱ", "Ⅰ", "<RelativeLayout", "xmlns:android=...>", "...", "<Spinner", "android:id=“@+id/quality_spinner”", ".../>", "</RelativeLayout>", "app/src/main/res/layout/download_dialog.xml", "}", "}", "...", "dialogBinding.qualitySpinner.setOnItemSelectedListener(this);", "...", "...", "private", "DownloadDialogBinding", "dialogBinding;", "...", "@Override", "public", "void", "onViewCreated(...)", "{", "app/src/main/java/org/schabi/newpipe/download/DownloadDialog.java", "public", "class", "DownloadDialog", "extends", "...", "{"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 548.16,
+    "y1": 72.96,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-Figure1-1.png"
+}, {
+  "caption": "TABLE II: Expressiveness evaluation for QVT/R-XLL, IncA, and emphFocused",
+  "captionBoundary": {
+    "x1": 155.49697875976562,
+    "x2": 459.21160888671875,
+    "y1": 73.41220092773438,
+    "y2": 79.05474853515625
+  },
+  "figType": "Table",
+  "imageText": ["*The", "bottom", "table", "lists", "the", "full", "names", "of", "26", "XLL", "coventions", "referred", "as", "A,", "B,", "...,", "Z", "in", "the", "upper", "table.", "F", "id", "link:", "view", "binding", "L", "view", "link:", "return", "value", "(dynamic)", "R", "Attribute", "field", "X", "parameter", "link:", "mapper", "query", "with", "include", "tag", "E", "id", "link:", "resource", "access", "K", "view", "link:", "return", "value", "(static)", "Q", "ModelMap", "attribute", "link", "(dynamic)", "W", "parameter", "link:", "mapper", "query", "D", "layout", "link:", "butterknife", "J", "field", "link:", "databinding", "P", "ModelMap", "attribute", "link", "(static)", "V", "query", "link", "C", "layout", "link:", "data", "binding", "I", "setter", "link:", "databinding", "O", "Model", "attribute", "link", "(dynamic)", "U", "model", "link:", "result", "type", "B", "layout", "link:", "view", "binding", "H", "model", "link:", "databinding", "N", "Model", "attribute", "link", "(static)", "T", "model", "link:", "parameter", "type", "Z", "parameter", "field", "link", "A", "layout", "link:", "content", "view", "G", "id", "link:", "butterknife", "M", "view", "link:", "ModelAndView", "S", "mapper", "link", "Y", "paramerter", "link:", "annotation", "query", "Focused", "✓", "✓", "✓", "✓", "✓", "△", "✓", "✓", "✓", "", "✓", "", "✓", "✓", "", "✓", "", "", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "", "IncA", "✓", "", "", "✓", "", "", "", "✓", "", "", "△", "", "△", "", "", "", "", "", "✓", "✓", "✓", "✓", "", "", "", "", "QVT/R-XLL", "✓", "✓", "✓", "", "✓", "", "", "", "", "", "", "", "", "", "", "", "", "", "✓", "✓", "✓", "✓", "", "", "✓", "", "conventions", "Ability", "to", "specify", "attributes", "○", "○", "○", "○", "○", "○", "○", "✓", "✓", "✓", "ancestors", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "△", "△", "✓", "siblings", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "", "△", "△", "context", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "△", "△", "△", "parent", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "✓", "✓", "identical", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "✓", "✓", "prefix/suffix", "change", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "△", "✓", "naming", "style", "change", "○", "○", "○", "○", "○", "✓", "", "✓", "inter-related", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "△", "△", "△", "naming", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "△", "✓", "attributes", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "✓", "✓", "ancestors", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "△", "△", "✓", "siblings", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "", "△", "△", "context", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "△", "△", "△", "parent", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "✓", "✓", "prefix/suffix", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "△", "✓", "naming", "style", "○", "○", "○", "○", "○", "✓", "", "✓", "independent", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "△", "△", "△", "naming", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "○", "✓", "△", "✓", "XLL", "IncA", "Focused", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "QVT/R-", "constraints", "Android", "XLL", "Conventions", "SpringMVC", "XLL", "Conventions", "Mybatis", "XLL", "Conventions", "Ability", "to", "specify", "constraint", "taxonomy", "cross-language", "identifier"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 548.16,
+    "y1": 88.8,
+    "y2": 489.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-TableII-1.png"
+}, {
+  "caption": "Fig. 4: The syntax of URI pattern.",
+  "captionBoundary": {
+    "x1": 365.700439453125,
+    "x2": 498.7747802734375,
+    "y1": 233.58717346191406,
+    "y2": 239.2294921875
+  },
+  "figType": "Figure",
+  "imageText": ["“\\[”", "|", "“\\]”", "|", "“\\(”", "|", "“\\)”", "|", "“\\,", "”", "|", "...", "letter", "char", "::=", "“a”", "|", "“b”", "|", "“c”", "|", "...", "|", "“z”", "modifier", "::=", "“snake”", "|", "“camel”", "|", "“pascal”", "|", "“cap”", "valid", "char", "::=", "letter", "char", "|", "“\\:", "”", "|", "“\\/”", "|", "“\\∗”", "|", "name", "::=", "letter", "char", "|", "letter", "charname", "|", "“", "”", "name", "|", "name", "“", "”", "capture", "::=", "“(”", "[", "“&”", "]", "name", "[", "“:”", "modifier", "]", "“)”", "literal", "::=", "valid", "char", "|", "valid", "char", "literal", "attributes", "::=", "name", "“", "=", "”", "identifier", "|", "name", "“", "=", "”", "identifier", "“,", "”", "attributes", "identifier", "::=", "“", "∗", "”", "|", "literal", "|", "capture", "|", "“", "∗", "”", "identifier", "|", "literal", "identifier", "|", "capture", "identifier", "segment", "::=", "identifier", "[", "“[”", "attributes", "“]”", "]", "uri", "::=", "layer", "“//”", "uri", "|", "layer", "layer", "::=", "“∗∗”", "|", "segment", "|", "segment", "“/”", "layer", "|", "“∗∗”", "“/”", "layer"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 548.16,
+    "y1": 72.96,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-Figure4-1.png"
+}, {
+  "caption": "Fig. 2: An overview of Focused.",
+  "captionBoundary": {
+    "x1": 115.40192413330078,
+    "x2": 240.5729217529297,
+    "y1": 191.51124572753906,
+    "y2": 197.153564453125
+  },
+  "figType": "Figure",
+  "imageText": ["Html", "CSS", "Java", "JS", "n", "ct", "io", "De", "te", "e", "2", "St", "ag", "tio", "n", "ifi", "ca", "Sp", "ec", "e", "1", "St", "ag", "Detected", "XLLs", "XLL", "Detector", "URI", "Extractor", "XLL", "SPEC", "Composer", "Code", "Repository", "URI", "Set", "Focused", "Config", "File", "Framework", "Documentation", "Multilingual", "Framework"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: An example of Focused config file.",
+  "captionBoundary": {
+    "x1": 95.67977905273438,
+    "x2": 260.2947082519531,
+    "y1": 474.9052734375,
+    "y2": 480.5475769042969
+  },
+  "figType": "Figure",
+  "imageText": ["flowgraph", "illustration", "6", "7", "5", "4", "3", "2", "1", "State", "Set", "binding", "-link", "layout", "$", "id", "binding", "-", "layout", "-", "binding-link", "-", "$", "binding:", "-", "binding-link", "-", "layout", "-", "$", "id:", "-", "$", "binding-link:", "flowgraph:", "layout:", "use:", "(&javaFile).java//(&bindingVar).(name:camel)", "def:", "(&layoutName).xml//android:id//id\\/(name)", "#", "binding.widgetId", "<->", "@+id/widgetId", "binding:", "use:", "(javaFile).java//(bindingVar)[varType=(layoutName:pascal)Binding]", "def:", "(layoutName:snake).xml", "#", "binding", "LayoutBinding", "<->", "layout.xml", "binding-link:", "use:", "(&javaFile).java//R.id.(name)", "def:", "(&layoutName).xml//android:id//@+id\\/(name)", "#", "R.id.name", "<->", "android:id=“@+id/name”", "id:", "use:", "(javaFile).java//R.layout.(layoutName:camel)", "def:", "(layoutName:snake).xml", "rules:", "#", "R.layout.layoutName", "<->", "layoutName.xml", "layout:", "flowgraph", "rules"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 296.15999999999997,
+    "y1": 213.6,
+    "y2": 467.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-Figure3-1.png"
+}, {
+  "caption": "TABLE III: Results of dataset validation, effectiveness and efficiency evaluation.",
+  "captionBoundary": {
+    "x1": 153.65818786621094,
+    "x2": 464.6212158203125,
+    "y1": 73.41220092773438,
+    "y2": 79.05474853515625
+  },
+  "figType": "Table",
+  "imageText": ["Columns", "2-4", "represents", "the", "size", "of", "selected", "projects;", "Columns", "5-16", "respectively", "represents:", "(5)", "#GT:", "ground", "truth", "size;", "(6)", "#Veri.:", "verified", "subset", "size;", "(7)", "P:", "the", "precision", "of", "the", "ground", "truth;", "(8)", "R:", "the", "recall", "of", "the", "ground", "truth;", "(9)", "Det.:", "the", "number", "of", "XLLs", "detected", "by", "Focused;", "(10)", "Cor.:", "the", "number", "of", "correct", "ones", "among", "the", "detected", "XLLs;", "(11)", "P:", "the", "precision", "of", "detection", "results;", "(12)", "R:", "the", "recall", "of", "detection", "results;", "(13)", "F:", "the", "F1", "score", "of", "detection", "results;", "(14)", "Total(s):", "the", "total", "running", "time", "of", "XLL", "detection", "by", "Focused;", "(15)", "Par(s):", "the", "parsing", "time;", "(16)", "Mat(s):", "the", "matching", "time.", "M/M", "75.4", "634", "108176", "1641", "67", "100.0%", "100.0%", "1629", "1629", "100.0%", "99.27%", "99.63%", "50.7", "28.1", "22.5", "J/J-B", "186.8", "703", "66485", "293", "13", "100.0%", "100.0%", "269", "266", "98.88%", "91.72%", "95.17%", "20.3", "9.4", "10.9", "S/Z", "92.7", "699", "70538", "1008", "164", "100.0%", "100.0%", "1008", "1008", "100.0%", "100.0%", "100.0%", "1.8", "7.8", "10.6", "N/N-M", "80.1", "98", "9546", "385", "248", "100.0%", "97.39%", "385", "385", "100.0%", "100.0%", "100.0%", "5.0", "3.3", "1.7", "C/C", "18.8", "97", "15651", "253", "121", "100.0%", "100.0%", "253", "253", "100.0%", "100.0%", "100.0%", "4.7", "2.9", "1.7", "S/Z", "92.7", "533", "55707", "118", "36", "96.67%", "80.56%", "118", "118", "100.0%", "100.0%", "100.0%", "6.2", "2.9", "3.2", "S/F", "73.4", "139", "13758", "203", "73", "100.0%", "81.94%", "204", "203", "99.51%", "100.0%", "99.75%", "2.5", "1.4", "1.0", "S/S", "42.8", "281", "24102", "266", "17", "93.33%", "82.35%", "273", "262", "95.97%", "98.50%", "97.22%", "5.1", "2.6", "2.5", "X/X-S", "126", "670", "293086", "127", "74", "96.77%", "98.36%", "135", "126", "93.33%", "99.21%", "96.18%", "8.7", "5.1", "3.5", "J/J", "340.3", "1034", "176128", "1021", "79", "94.81%", "92.41%", "1051", "1020", "97.05%", "99.90%", "98.46%", "27.2", "4.2", "22.9", "T/N", "80", "762", "114817", "1423", "60", "98%", "81.67%", "1475", "1413", "95.80%", "99.30%", "97.52%", "6.6", "3.5", "3.0", "C/G", "488.9", "378", "50827", "760", "135", "100.0%", "98.52%", "760", "758", "99.74%", "99.74%", "99.74%", "4.0", "2.0", "1.9", "A/V", "57.7", "611", "62941", "64", "5", "100.0%", "100.0%", "73", "64", "87.67%", "100.0%", "93.43%", "4.5", "2.6", "1.9", "Y/C", "105.4", "378", "33058", "521", "19", "100.0%", "100.0%", "573", "521", "90.92%", "100.0%", "95.25%", "3.7", "2.1", "1.6", "R/X", "22.2", "191", "18585", "155", "39", "100.0%", "89.74%", "216", "154", "71.30%", "99.35%", "83.02%", "2.0", "1.2", "0.8", "#GT", "#Veri.", "P", "R", "Det.", "Cor.", "P", "R", "F", "Total(s)", "Par(s)", "Mat(s)", "Project", "Volume(MiB)", "#files", "LOC", "Ground", "Truth", "Validation", "Effectiveness", "Efficiency"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 551.52,
+    "y1": 87.84,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00020-TableIII-1.png"
+}]

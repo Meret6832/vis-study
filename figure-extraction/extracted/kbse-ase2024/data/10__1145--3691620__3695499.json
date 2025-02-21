@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Transformation of a fragment graph into a fragment model, and its high-level abstraction",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.27398681640625,
+    "y1": 311.5397644042969,
+    "y2": 328.7659912109375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "High-level", "layer", "ℋ", "(Partial)", "(b)", "Fragment", "model", "(ℳ𝑓", ")", "[", "]", "not", "𝛿𝑓", "&", "not", "𝑔7", "&", "(𝑔2", "or", "𝑔4)", "→", "0.8235:(𝑔7", "=", "⊺)", "+", "0.1765:(𝛿𝑓", "=", "⊺)", "[Rule4]", "not", "𝛿𝑓", "&", "𝑐6", "&", "not", "𝑔7", "→", "0.7", ":", "(𝑔7", "=", "⊺)", "+", "0.15", ":", "(𝛿𝑓", "=", "⊺)", "+", "0.15:", "∅", "+", "0.15", ":", "(𝛿𝑓", "=", "⊺)", "+", "0.15:", "∅", "(a)", "Fragment", "graph", "[Rule1]", "𝑐1", "&", "𝑔2", "&", "not", "𝑐5", "→", "0.8", ":", "(𝑐5", "=", "⊺)", "+", "0.2:", "∅", "[Rule2]", "𝑐3", "&", "𝑔4", "&", "not", "𝑐6", "→", "0.9", ":", "(𝑐6", "=", "⊺)", "+", "0.1:", "∅", "[Rule3]", "not", "𝛿𝑓", "&", "𝑐5", "&", "not", "𝑔7", "→", "0.7", ":", "(𝑔7", "=", "⊺)", "Rule", "4:0.7", "Internal", "capability", "Internal", "capability", "Prerequisite", "capability", "Goal", "Capability", "𝑐6", "Rule", "2:0.9", "𝑐3", "𝑔4", "𝑔7", "Rule", "3:0.7", "𝑐5", "Rule", "1:0.8", "𝑐1", "𝑔2"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 296.15999999999997,
+    "y1": 83.52,
+    "y2": 308.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Figure4-1.png"
+}, {
+  "caption": "Figure 6: State space statistics",
+  "captionBoundary": {
+    "x1": 113.65399932861328,
+    "x2": 234.18716430664062,
+    "y1": 222.01280212402344,
+    "y2": 228.280029296875
+  },
+  "figType": "Figure",
+  "imageText": ["HL", "states", "HL", "transitions", "LL", "states", "LL", "transitions", "LL", "OOM", "#Initial", "Components", "1016", "1012", "108", "104", "4", "6", "8", "10", "12", "14", "16", "100"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 110.39999999999999,
+    "x2": 239.04,
+    "y1": 82.56,
+    "y2": 218.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Figure6-1.png"
+}, {
+  "caption": "Table 1: Analysis time of the different approaches",
+  "captionBoundary": {
+    "x1": 75.56500244140625,
+    "x2": 271.9598083496094,
+    "y1": 279.11077880859375,
+    "y2": 285.3780212402344
+  },
+  "figType": "Table",
+  "imageText": ["16", "A1", "144", "OOM", "40.07", "33.61", "OOM", "1382.76", "612.87", "OOM", "1422.83", "646.48", "A2", "144", "OOM", "39.01", "18.86", "OOM", "1401.8", "551.18", "OOM", "1441.81", "570.04", "A3", "151", "OOM", "38.80", "33.66", "OOM", "1418.16", "1374.43", "OOM", "1456.97", "1408.09", "12", "A1", "104", "OOM", "24.52", "17.26", "OOM", "5.93", "2.14", "OOM", "30.45", "19.40", "A2", "104", "OOM", "24.53", "9.94", "OOM", "6.46", "1.40", "OOM", "30.99", "11.34", "A3", "111", "OOM", "27.13", "17.59", "OOM", "5.98", "6.30", "OOM", "33.11", "23.89", "4", "A1", "24", "1.36", "3.83", "2.37", "0.01", "0.003", "0.003", "1.37", "3.83", "2.37", "A2", "24", "0.54", "3.60", "0.59", "0.01", "0.003", "0.003", "0.55", "3.60", "0.59", "A3", "31", "0.54", "4.28", "3.13", "0.01", "0.003", "0.003", "0.55", "4.28", "3.13", "Seq", "Mod", "Inc", "Seq", "Mod", "Inc", "Seq", "Mod", "Inc", "Total", "Time", "(s)", "Property", "Verifi-", "cation", "(s)", "Construction", "(s)", "#C", "#A", "#F", "Security", "Model"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 292.32,
+    "y1": 288.0,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Table1-1.png"
+}, {
+  "caption": "Table 2: Security model construction time per task",
+  "captionBoundary": {
+    "x1": 73.03599548339844,
+    "x2": 274.48675537109375,
+    "y1": 525.7418212890625,
+    "y2": 532.009033203125
+  },
+  "figType": "Table",
+  "imageText": ["16", "A1", "144", "0.19", "11.45", "12.95", "OOM", "23.52", "17.97", "5.08", "2.72", "A2", "144", "0.17", "10.33", "8.56", "OOM", "24.50", "6.72", "5.17", "3.5", "A3", "151", "0.18", "8.69", "9.93", "OOM", "24.86", "18.58", "5.25", "5.14", "12", "A1", "104", "0.15", "6.15", "4.22", "OOM", "17.52", "12.01", "0.82", "0.74", "A2", "104", "0.14", "3.25", "3.65", "OOM", "20.46", "5.55", "0.81", "0.73", "A3", "111", "0.15", "5.15", "5.61", "OOM", "21.12", "11.00", "0.84", "0.83", "4", "A1", "24", "0.19", "0.53", "0.80", "1.17", "2.97", "1.23", "0.33", "0.33", "A2", "24", "0.12", "0.45", "0.22", "0.43", "2.80", "0.03", "0.35", "0.34", "A3", "31", "0.12", "0.41", "0.59", "0.43", "3.34", "2.07", "0.34", "0.46", "Seq", "Mod", "Inc", "Seq", "Mod", "Inc", "Mod", "Inc", "High-level", "Model", "Con-", "struction", "(s)", "Generation", "(s)", "Fragment", "Models", "Construction", "(s)", "#C", "#A", "#F", "Fragment", "Graphs"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 285.12,
+    "y1": 534.72,
+    "y2": 623.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Table2-1.png"
+}, {
+  "caption": "Figure 1: Two possible InsecureStore architectures",
+  "captionBoundary": {
+    "x1": 73.92799377441406,
+    "x2": 273.9109802246094,
+    "y1": 325.32977294921875,
+    "y2": 331.5970153808594
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "InsecureStore", "architecture", "after", "adaptation", "get_document", "path", "injection", "exec_query", "sql", "injection", "add_document", "auth", "bypass", "fetch_document", "query", "injection", "register", "auth", "bypass", "fetch_user", "query", "injection", "doc_lookup", "user", "spoofing", "logout", "login", "auth", "bypass", "search_file", "Disconnect", "cmd", "injection", "Backend", "Connect", "FileMgr", "Frontend", "Database", "FileServer", "(a)", "Initial", "InsecureStore", "architecture", "UserMgr", "Component", "VulnerabilityInterface", "Legend", "Interaction", "exec_query", "sql", "injection", "add_document", "auth", "bypass", "fetch_document", "query", "injection", "register", "auth", "bypass", "fetch_user", "query", "injection", "doc_lookup", "user", "spoofing", "logout", "login", "auth", "bypass", "search_file", "Disconnect", "cmd", "injection", "Backend", "Connect", "FileMgr", "Database", "UserMgrFrontend"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 83.52,
+    "y2": 322.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Before and after adaptation high-level models",
+  "captionBoundary": {
+    "x1": 64.22700500488281,
+    "x2": 283.6025390625,
+    "y1": 309.26275634765625,
+    "y2": 315.5299987792969
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "After", "Adaptation", "(a)", "Before", "Adaptation", "[", "]", "⊺", "→", "𝑝5", ":", "(𝑔5=⊺)", "+", "(1−𝑝5)", ":", "(𝛿𝑔5=⊺)", "[", "]", "⊺", "→", "𝑝6", ":", "(𝑔6=⊺)", "+", "(1−𝑝6)", ":", "(𝛿𝑔6=⊺)", "[]", "⊺", "→", "𝑝7", ":", "(𝑔7=⊺)", "+", "(1-𝑝7)", ":", "(𝛿𝑔7", "=⊺)", "[", "]", "⊺", "→", "𝑝8", ":", "(𝑔8=⊺)", "+", "(1−𝑝8)", ":", "(𝛿𝑔8", "=", "⊺)", "[", "]", "𝑔5", "&", "𝑔6", "→", "𝑝9", ":", "(𝑔9=⊺)", "+", "(1−𝑝9)", ":", "(𝛿𝑔9=⊺)", "[", "]", "𝑔5", "→", "𝑝10", ":", "(𝑔10=⊺)", "+", "(1−𝑝10)", ":", "(𝛿𝑔10=⊺)", "[", "]", "𝑔9", "→", "𝑝11", ":", "(𝑔11=⊺)", "+", "(1−𝑝11)", ":", "(𝛿𝑔11=⊺)", "[]", "𝑔7", "→", "𝑝12", ":", "(𝑔12=⊺)", "+", "(1-𝑝12)", ":", "(𝛿𝑔12", "=⊺)", "[", "]", "𝑔8", "→", "𝑝13", ":", "(𝑔13=⊺)", "+", "(1", "−", "𝑝13)", ":", "(𝛿𝑔13=⊺)", "[]", "⊺", "→", "𝑝14", ":", "(𝑔14=⊺)", "+", "(1-𝑝14)", ":", "(𝛿𝑔14", "=⊺", ")", "[]", "⊺", "→", "𝑝15", ":", "(𝑔15=⊺)", "+", "(1-𝑝15)", ":", "(𝛿𝑔15", "=⊺)", "[]", "𝑔14", "&", "𝑔15", "→", "𝑝16", ":", "(𝑔16=⊺)", "+", "(1-𝑝16)", ":", "(𝛿𝑔16", "=⊺)", "[]", "𝑔16", "→", "𝑝17", ":", "(𝑔17=⊺)", "+", "(1-𝑝17)", ":", "(𝛿𝑔17", "=⊺)", "[", "]", "⊺", "→", "𝑝5", ":", "(𝑔5=⊺)", "+", "(1−𝑝5)", ":", "(𝛿𝑔5=⊺)", "[", "]", "⊺", "→", "𝑝6", ":", "(𝑔6=⊺)", "+", "(1−𝑝6)", ":", "(𝛿𝑔6=⊺)", "[", "]", "⊺", "→", "𝑝7", ":", "(𝑔7=⊺)", "+", "(1−𝑝7)", ":", "(𝛿𝑔7=⊺)", "[", "]", "⊺", "→", "𝑝8", ":", "(𝑔8=⊺)", "+", "(1−𝑝8)", ":", "(𝛿𝑔8=⊺)", "[", "]", "𝑔5", "&", "𝑔6", "→", "𝑝9", ":(𝑔9=⊺)+(1−𝑝9):(𝛿𝑔9=⊺)", "[", "]", "𝑔5", "→", "𝑝10", ":", "(𝑔10=⊺)", "+", "(1−𝑝10)", ":", "(𝛿𝑔10=⊺)", "[", "]", "𝑔9", "→", "𝑝11", ":", "(𝑔11=⊺)", "+", "(1−𝑝11)", ":", "(𝛿𝑔11=⊺)", "[", "]", "𝑔7", "→", "𝑝12", ":", "(𝑔12=⊺)", "+", "(1−𝑝12)", ":", "(𝛿𝑔12=⊺)", "[", "]", "𝑔8", "→", "𝑝13", ":", "(𝑔13=⊺)", "+", "(1", "−", "𝑝13)", ":", "(𝛿𝑔13=⊺)"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 274.08,
+    "y1": 84.0,
+    "y2": 306.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Figure5-1.png"
+}, {
+  "caption": "Figure 2: The Two-Level Security Model where ℳ𝑖 is a fragment model, 𝛿 is a deadlock state showing that the attacker gave up on the attack",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.6983642578125,
+    "y1": 292.7567443847656,
+    "y2": 320.9419860839844
+  },
+  "figType": "Figure",
+  "imageText": ["𝑐", "𝑙", "𝑐𝑗", "𝑐1", "𝑐2", "𝑐2", "𝑐3", "tio", "n", "tr", "ac", "A", "bs", "High-Level", "Layer", "𝛿", ".", ".", ".", "𝑠", "𝑘", "𝑠", "𝑛−3", "𝑠", "𝑛−2", "𝑠", "𝑛−1", "𝑠", "1", "𝑠", "2", "𝑠", "3", "𝑠", "0", "𝑐", "𝑘", "ℳ", "𝑛−1", "ℳ", "𝑛−2", "ℳ", "𝑛−3", "ℳ", "𝑘", "ℳ", "3", "ℳ", "2", "ℳ", "1", "Low-Level", "Layer", ".", ".", ".", ".", ".", "."],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Attack phases and the corresponding attack fragments before and after the adaptation where an element with the prefix ’S-‘, ’M-‘, ’I-‘ respectively shows a single-exploit, multi-exploit and security impact fragment. Goal capabilities, that serve as prerequisites to fragments are prefixed with 𝑔.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.5354309082031,
+    "y1": 428.937744140625,
+    "y2": 479.0409851074219
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "After", "adaptation", "y", "Sy", "st", "em", "Se", "cu", "rit", "n", "Im", "pa", "ct", "co", "ve", "ry", "E", "xp", "lo", "ita", "tio", "D", "is", "𝑔", "17", "𝑔", "12", "𝑔", "11", "𝑔", "10", "𝑔", "15", "𝑔14", "𝑔", "7", "𝑔", "6", "𝑔", "16", "𝑔", "9", "𝑔", "5", "𝑔5", "𝑔", "18", "𝑔", "19", "𝑔", "3", "𝑔", "2", "𝑔", "1", "System", "Security", "Fragment", "I-FileMgr-", "confidential", "I-Backend-", "integrity", "I-Frontend-", "confidential", "I-Backend-", "confidential", "M-FileMgr-", "leakfileinfo", "M-Backend-", "autbypass", "S-Frontend-", "cwe77", "S-Backend-", "cwe288", "S-Backend-", "cwe290", "S-UserMgr-", "cwe23", "S-FileMgr-", "cwe20", "Discovery", "Fragment", "(a)", "Before", "adaptation", "y", "Attack", "Fragment", "Attack", "Phase", "Dependency", "Newly", "Added", "Fragment", "Sy", "st", "em", "Se", "cu", "rit", "n", "Im", "pa", "ct", "co", "ve", "ry", "E", "xp", "lo", "ita", "tio", "D", "is", "𝑔", "13", "𝑔", "12", "𝑔", "11", "𝑔", "10", "𝑔", "8", "𝑔", "7", "𝑔", "6", "𝑔", "9", "𝑔", "5", "𝑔5", "𝑔", "4", "𝑔", "3", "𝑔", "2", "𝑔", "1", "System", "Security", "Fragment", "I-Backend-", "confidential", "I-Backend-", "integrity", "I-UserMgr-", "integrity", "I-Frontend-", "confidential", "M-Backend-", "authbypass", "S-Backend-", "cwe288", "S-Backend-", "cwe290", "S-UserMgr-", "cwe20", "S-Frontend-", "cwe77", "Discovery", "Fragment"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 63.36,
+    "x2": 269.28,
+    "y1": 82.56,
+    "y2": 426.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695499-Figure3-1.png"
+}]

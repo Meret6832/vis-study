@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 1: An incident life-cycle: Prior Work vs. ART",
+  "captionBoundary": {
+    "x1": 333.3110046386719,
+    "x2": 542.8372802734375,
+    "y1": 611.361328125,
+    "y2": 616.9920043945312
+  },
+  "figType": "Figure",
+  "imageText": ["ART", "Prior", "Work", "Automation", "Redundant", "&", "Inefficient", "Elegant", "&", "Efficient", "Incident", "Mitigation", "A", "unified", "modeling", "Customized", "modelings", "for", "different", "stages", "including", "representation", "acquisition,", "offline", "model", "training", "...", "Anomaly", "Detection", "Failure", "Triage", "Root", "Cause", "Localization"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 504.0,
+    "y2": 596.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Figure1-1.png"
+}, {
+  "caption": "Figure 3: The framework of ART.",
+  "captionBoundary": {
+    "x1": 238.56399536132812,
+    "x2": 373.43048095703125,
+    "y1": 214.65536499023438,
+    "y2": 220.2860107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Channel", "Dependency", "Temporal", "Dependency", "Call", "Dependency", "①", "Dependency-Aware", "Status", "Learning", "②", "Unified", "Failure", "Representations", "③", "Diagnosis", "GraphSAGE", "System", "behavior", "graph", "Node", "Attr", "Hidden", "Size", "MLP", "Next", "Step", "Observation", "Prediction", "s", "an", "ce", "In", "st", "Channels", "L1-norms", "Root", "Cause", "Localization", "Failure", "Triage", "Anomaly", "Detection", "Agg", "ILD", "GRU", "SLD", "Time", "Series", "Tra", "n", "sfo", "rm", "er", "En", "co", "d", "er", "...", "...", "s", "an", "ce", "In", "st", "Channels", "Channel", "Token"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Figure3-1.png"
+}, {
+  "caption": "Figure 2: An incident case: the multimodal data of the root cause instance, i.e., metrics, logs and traces, and examples of instance interactions",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.192138671875,
+    "y1": 254.07736206054688,
+    "y2": 281.6260070800781
+  },
+  "figType": "Figure",
+  "imageText": ["Instance", "interactions", "CH", "5", "M", "T", "L", "CH", "1-3", "CH", "4", "CH:", "the", "abbreviation", "for", "data", "channel", "Si", ":", "Normal", "Instance", ":", "Dependency", "Si", ":", "Root", "Cause", "Instance", "Si", ":", "Abnormal", "Instance", "S6", "S5", "S2", "S3", "S1", "S4", "Multimodal", "Data", "Serialization", "e", "Tr", "ac", "Lo", "g", "tr", "ic", "M", "e", "A", "Span:", "S3", "->", "S1,", "duration", "=", "11s", "...", "Timestamp", "|", "S3", "|", "severity:", "error,", "message:", "request", "error...", "Anomaly", "0", "60", "120", "180", "240", "300", "360", "Timestamps", "cpu_usage_rate", "disk_usage_rate", "disk_io_rate", "u", "e", "V", "al"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 551.52,
+    "y1": 82.56,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Figure2-1.png"
+}, {
+  "caption": "Figure 4: The steps of the cut-tree-based clustering",
+  "captionBoundary": {
+    "x1": 335.7359924316406,
+    "x2": 540.4118041992188,
+    "y1": 338.40435791015625,
+    "y2": 344.0350036621094
+  },
+  "figType": "Figure",
+  "imageText": ["Clusters", "&", "Associated", "channels", "A", "set", "of", "SLDs", "Select", "an", "immediate", "parent", "node", "to", "merge", "A", "Merge", "Merge", "until", "reaching", "the", "number", "of", "leaves", "Step", "2:", "Backtracking", "Merge", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "Channel", "&", "Criterion", "Select", "a", "leaf", "node", "to", "cut", "and", "a", "criterion", "to", "partition", "Cut", "until", "reaching", "the", "max", "depth", "or", "the", "min", "size", "of", "a", "node", "A", "Cutting", "Step", "1:", "Cutting", "Divisions", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......", "......"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 161.76,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The effectiveness of ART under different hyperparameters",
+  "captionBoundary": {
+    "x1": 168.1739959716797,
+    "x2": 443.8155517578125,
+    "y1": 248.53433227539062,
+    "y2": 254.16497802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Anomaly", "Detection:", "F1-score", "Failure", "Triage:", "F1-score", "Root", "Cause", "Localization:", "Avg@5", "D2", "Layers", "of", "Transformer", "Encoder", "1", "2", "3", "4", "5", "Layers", "of", "GRU", "1", "2", "3", "4", "5", "Layers", "of", "GraphSAGE", "1", "2", "3", "4", "5", "6", "Window", "Sizes", "0.6", "0.7", "0.8", "0.9", "1", "2", "3", "4", "5", "D1", "0.6", "0.7", "0.8", "0.9"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.96,
+    "y1": 88.8,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Figure5-1.png"
+}, {
+  "caption": "Table 1: 𝐿1-norms of SLDs during failure and normal hours",
+  "captionBoundary": {
+    "x1": 318.54498291015625,
+    "x2": 557.3085327148438,
+    "y1": 85.72634887695312,
+    "y2": 92.70196533203125
+  },
+  "figType": "Table",
+  "imageText": ["Normal", "Hours", "Mean", "82.716", "P64", "Median", "77.147", "P49", "Failure", "Hours", "Mean", "100.620", "P85", "Median", "90.165", "P73", "System", "Status", "Metric", "Deviations:", "∥𝑆𝐿𝐷", "∥1", "Percentile"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Table1-1.png"
+}, {
+  "caption": "Table 4: Detailed information of datasets",
+  "captionBoundary": {
+    "x1": 355.3680114746094,
+    "x2": 520.48583984375,
+    "y1": 134.35635375976562,
+    "y2": 139.98699951171875
+  },
+  "figType": "Table",
+  "imageText": ["D2", "18", "133", "12,297", "6", "trace", "214,337,882", "log", "21,356,870", "metric", "12,871,809", "D1", "46", "210", "3,714", "5", "trace", "44,858,388", "log", "66,648,685", "metric", "20,917,746", "Dataset", "#", "Instances", "#", "Failure", "#", "Normal", "#", "Failure", "Types", "#", "Records"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 154.56,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Table4-1.png"
+}, {
+  "caption": "Table 3: Silimarity between SLDs and ILDs of root cause and non-root cause instances",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.032958984375,
+    "y1": 192.16134643554688,
+    "y2": 208.7509765625
+  },
+  "figType": "Table",
+  "imageText": ["Non-root", "Cause", "Mean", "0.487", "P46", "Median", "0.499", "P48", "Root", "Cause", "Mean", "0.714", "P83", "Median", "0.767", "P90", "Instances", "Metric", "Cosine", "Similarity", "Percentile"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 223.67999999999998,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Table3-1.png"
+}, {
+  "caption": "Table 2: Top5 channels with the largest deviations for different failure types",
+  "captionBoundary": {
+    "x1": 151.8280029296875,
+    "x2": 459.86376953125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Node", "CPU", "system.disk.total", "system.fs.inodes.free", "system.fs.inodes.in_use", "system.fs.inodes.total", "system.load.15", "Node", "Disk", "container_last_seen", "system.disk.free", "system.disk.pct_usage", "system.disk.total", "system.disk.used", "Node", "Memory", "system.mem.pct_usage", "system.mem.real.pct_useage", "system.mem.real.used", "system.mem.usable", "system.mem.used", "Container", "Hardware", "container_fs_inodes", "container_fs_usage_MB", "container_fs_writes", "container_memory_cache", "container_threads", "Container", "Network", "duration", "severity_error", "connection_error", "service_log_other", "system.net.udp.in_errors", "Failure", "Type", "Top5", "Data", "Channels", "with", "the", "Largest", "Deviations"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Table2-1.png"
+}, {
+  "caption": "Table 7: The evaluation results of ablation study",
+  "captionBoundary": {
+    "x1": 340.4119873046875,
+    "x2": 535.4403686523438,
+    "y1": 375.21435546875,
+    "y2": 380.8450012207031
+  },
+  "figType": "Table",
+  "imageText": ["B1", "0.936", "0.794", "0.748", "0.906", "0.717", "0.855", "B2", "0.926", "0.728", "0.770", "0.881", "0.621", "0.866", "B3", "0.893", "0.680", "0.770", "0.892", "0.728", "0.863", "B4", "0.931", "0.769", "0.755", "0.845", "0.786", "0.862", "B5", "0.893", "0.758", "0.714", "0.888", "0.570", "0.844", "ART", "0.942", "0.812", "0.776", "0.917", "0.802", "0.870", "A1", "0.900", "0.558", "0.727", "0.891", "0.727", "0.851", "A2", "0.914", "0.671", "0.672", "0.783", "0.754", "0.853", "A3", "0.922", "0.700", "0.725", "0.858", "0.638", "0.857", "AD:", "F1", "FT:", "F1", "RCL:", "AVG@5", "AD:", "F1", "FT:", "F1", "RCL:", "AVG@5", "Method", "D1", "D2"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 395.52,
+    "y2": 508.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Table7-1.png"
+}, {
+  "caption": "Table 5: Performance comparison for AD, FT, and RCL. \"-\" means the method does not cover the problem.",
+  "captionBoundary": {
+    "x1": 92.06700134277344,
+    "x2": 519.6194458007812,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["si", "ng", "le", "Hades", "[28]", "0.866", "0.863", "0.865", "-", "-", "-", "-", "-", "-", "0.867", "0.868", "0.868", "-", "-", "-", "-", "-", "-", "MicroCBR", "[35]", "-", "-", "-", "0.667", "0.796", "0.717", "-", "-", "-", "-", "-", "-", "0.629", "0.678", "0.636", "-", "-", "-", "PDiagnose", "[19]", "-", "-", "-", "-", "-", "-", "0.615", "0.692", "0.685", "-", "-", "-", "-", "-", "-", "0.037", "0.296", "0.285", "DiagFusion", "[60]", "-", "-", "-", "0.675", "0.500", "0.568", "0.310", "0.452", "0.467", "-", "-", "-", "0.797", "0.527", "0.593", "0.582", "0.709", "0.695", "le", "ART", "0.899", "0.990", "0.942", "0.836", "0.809", "0.812", "0.667", "0.810", "0.776", "0.877", "0.960", "0.917", "0.851", "0.796", "0.802", "0.722", "0.889", "0.870", "Eadro", "[27]", "0.425", "0.946", "0.586", "-", "-", "-", "0.137", "0.315", "0.302", "0.767", "0.935", "0.842", "-", "-", "-", "0.157", "0.315", "0.310", "Dejevu", "[31]", "-", "-", "-", "0.369", "0.621", "0.415", "0.411", "0.679", "0.625", "-", "-", "-", "0.718", "0.340", "0.417", "0.402", "0.667", "0.619", "m", "ul", "tip", "AD", "FT", "RCL", "AD", "FT", "RCL", "Precision", "Recall", "F1", "Precision", "Recall", "F1", "Top1", "Top3", "AVG@5", "Precision", "Recall", "F1", "Precision", "Recall", "F1", "Top1", "Top3", "AVG@5", "#", "Method", "D1", "D2"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Table5-1.png"
+}, {
+  "caption": "Table 6: The comparison of training time (Offline) and diagnosis time (Online) per case. The unit is second. \"-\" means no need for training.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7996215820312,
+    "y1": 213.56637573242188,
+    "y2": 241.114013671875
+  },
+  "figType": "Table",
+  "imageText": ["ART", "✓", "✓", "✓", "460.262", "0.872", "1085.767", "1.363", "Eadro", "✓", "✓", "510.570", "0.627", "795.416", "0.899", "Dejavu", "✓", "✓", "1182.468", "0.427", "1937.330", "1.028", "DiagFusion", "✓", "✓", "621.309", "4.145", "310.357", "3.297", "Hades", "✓", "1214.528", "0.104", "2073.0413", "0.415", "MicroCBR", "✓", "-", "0.278", "-", "0.306", "PDiagnose", "✓", "-", "4.342", "-", "9.919", "AD", "FT", "RCL", "Offline", "Online", "Offline", "Online", "Method", "Target", "D1", "D2"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 255.84,
+    "y2": 353.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695495-Table6-1.png"
+}]

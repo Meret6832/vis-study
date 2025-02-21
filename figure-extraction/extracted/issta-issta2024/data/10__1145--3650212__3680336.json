@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Overview of Ballot.",
+  "captionBoundary": {
+    "x1": 119.56900024414062,
+    "x2": 228.27371215820312,
+    "y1": 246.24591064453125,
+    "y2": 248.094970703125
+  },
+  "figType": "Figure",
+  "imageText": ["Ours", "LTH", "(iii)", "Retraining", "(d)", "Refined", "Training", "(I)Mask", "Generation", "(II)Training", "Refinement", "(c)", "Detecting", "Conflict", "(b)", "Recording", "Gradient", "(a)", "Training", "Mask", "Fairness", "Gradients", "Accuracy", "Gradients", "(ii)", "Removing", "Low", "Weights", "Trained", "Model", "Mask", "Initialized", "Model", "Pruned", "Model", "Optimized", "Model", "(i)", "Training"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 289.44,
+    "y1": 90.72,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Figure4-1.png"
+}, {
+  "caption": "Figure 6: Effect of 𝛾 and 𝜂 on model average performance.",
+  "captionBoundary": {
+    "x1": 334.2220153808594,
+    "x2": 541.9345703125,
+    "y1": 223.5709228515625,
+    "y2": 225.41998291015625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "𝜂-accuracy", "(d)", "𝜂-CWV&MCD", "(a)", "𝛾-accuracy", "(b)", "𝛾-CWV&MCD"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 365.76,
+    "x2": 502.08,
+    "y1": 84.96,
+    "y2": 212.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Figure6-1.png"
+}, {
+  "caption": "Table 1: Effectiveness evaluation results.",
+  "captionBoundary": {
+    "x1": 365.25201416015625,
+    "x2": 510.6424865722656,
+    "y1": 88.8109130859375,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["Original", "Model", "0.9612", "0.9523", "0.9681", "0.1168", "0.3360", "Magnitude", "Pruning", "0.9188", "0.9123", "0.9142", "0.4467", "0.9984", "Standard", "LTH", "0.9437", "0.9472", "0.9411", "0.4469", "0.9975", "SafeCompress", "0.9336", "0.9341", "0.9318", "0.3254", "0.6966", "FairScratch", "0.9430", "0.9435", "0.9412", "0.2887", "0.6536", "Ballot", "0.9636", "0.9647", "0.9566", "0.1254", "0.3323", "BERT", "Moji", "Original", "Model", "0.9870", "0.9863", "0.9876", "1.22e-4", "0.0266", "Magnitude", "Pruning", "0.9642", "0.9635", "0.9648", "6.30e-3", "0.0470", "Standard", "LTH", "0.9705", "0.9698", "0.9711", "3.44e-3", "0.0420", "SafeCompress", "0.9529", "0.9522", "0.9535", "5.61e-3", "0.0264", "FairScratch", "0.9775", "0.9768", "0.9781", "3.32e-3", "0.0230", "Ballot", "0.9855", "0.9848", "0.9861", "1.61e-4", "0.0233", "LFW", "Original", "Model", "0.9710", "0.9703", "0.9716", "0.0063", "0.0218", "CelebA", "Magnitude", "Pruning", "0.9533", "0.9506", "0.9530", "0.0098", "0.0308", "Standard", "LTH", "0.9696", "0.9700", "0.9692", "0.0077", "0.0318", "SafeCompress", "0.9531", "0.9624", "0.9532", "0.0027", "0.0304", "FairScratch", "0.9649", "0.9654", "0.9650", "0.0031", "0.0292", "Ballot", "0.9707", "0.9694", "0.9712", "0.0016", "0.0276", "Original", "Model", "0.4667", "0.4382", "0.4648", "0.2346", "0.2130", "TinyImageNet", "Magnitude", "Pruning", "0.4143", "0.4298", "0.4303", "0.2410", "0.3530", "Standard", "LTH", "0.4461", "0.4275", "0.4464", "0.2386", "0.3669", "SafeCompress", "0.4466", "0.4663", "0.4443", "0.2196", "0.4484", "FairScratch", "0.4139", "0.4203", "0.4159", "0.2444", "0.3872", "Ballot", "0.4539", "0.4448", "0.4518", "0.2146", "0.2605", "Original", "Model", "0.6395", "0.6422", "0.6395", "0.0458", "0.6268", "CIFAR-100", "Magnitude", "Pruning", "0.5899", "0.5930", "0.5888", "0.0524", "0.7979", "Standard", "LTH", "0.6150", "0.6191", "0.6165", "0.0508", "0.7112", "SafeCompress", "0.6168", "0.6154", "0.6173", "0.0508", "0.6784", "FairScratch", "0.5962", "0.5998", "0.5957", "0.0552", "0.6821", "Ballot", "0.6456", "0.6451", "0.6443", "0.0450", "0.6486", "VGG16", "Original", "Model", "0.9865", "0.9858", "0.9871", "3.59e-5", "0.0123", "Magnitude", "Pruning", "0.9635", "0.9628", "0.9641", "9.23e-4", "0.0335", "Standard", "LTH", "0.9700", "0.9693", "0.9706", "7.30e-4", "0.0315", "SafeCompress", "0.9524", "0.9517", "0.9530", "1.37e-4", "0.0192", "FairScratch", "0.9770", "0.9763", "0.9776", "3.34e-4", "0.0215", "Ballot", "0.9850", "0.9843", "0.9856", "5.54e-5", "0.0121", "LFW", "Original", "Model", "0.9705", "0.9698", "0.9711", "3.13e-5", "0.0109", "CelebA", "Magnitude", "Pruning", "0.9528", "0.9501", "0.9524", "4.89e-4", "0.0404", "Standard", "LTH", "0.9691", "0.9695", "0.9687", "3.87e-4", "0.0384", "SafeCompress", "0.9526", "0.9619", "0.9527", "1.37e-4", "0.0292", "FairScratch", "0.9644", "0.9649", "0.9645", "3.54e-4", "0.0396", "Ballot", "0.9702", "0.9689", "0.9707", "8.21e-5", "0.0138", "Original", "Model", "0.4662", "0.4377", "0.4643", "0.1173", "0.2065", "TinyImageNet", "Magnitude", "Pruning", "0.4136", "0.4291", "0.4296", "0.1205", "0.3565", "Standard", "LTH", "0.4454", "0.4268", "0.4457", "0.1193", "0.3333", "SafeCompress", "0.4460", "0.4657", "0.4436", "0.1098", "0.4242", "FairScratch", "0.4133", "0.4197", "0.4153", "0.1222", "0.3436", "Ballot", "0.4534", "0.4442", "0.4512", "0.1073", "0.2500", "Original", "Model", "0.6390", "0.6417", "0.6390", "0.0229", "0.6134", "CIFAR-100", "Magnitude", "Pruning", "0.5892", "0.5923", "0.5881", "0.0262", "0.7493", "Standard", "LTH", "0.6145", "0.6186", "0.6160", "0.0254", "0.7056", "SafeCompress", "0.6163", "0.6149", "0.6168", "0.0254", "0.6396", "FairScratch", "0.5957", "0.5993", "0.5952", "0.0276", "0.6407", "Ballot", "0.6449", "0.6444", "0.6436", "0.0225", "0.6243", "ResNet50", "Model", "Dataset", "Methods", "Acc.", "Precis.", "Recall", "CWV", "MCD"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 546.24,
+    "y1": 97.92,
+    "y2": 517.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Table1-1.png"
+}, {
+  "caption": "Figure 5: Time to prune and retrain a model.",
+  "captionBoundary": {
+    "x1": 93.96499633789062,
+    "x2": 253.8770751953125,
+    "y1": 159.9969482421875,
+    "y2": 161.84600830078125
+  },
+  "figType": "Figure",
+  "imageText": ["Standard", "LTH", "Ours", "SafeCompress", "FairScratch", "CIFAR-100", "TinyImageNet", "CelebA", "211.2", "603.1", "315.2", "210.8", "652.9", "307.5", "200.5", "530.4", "255.8", "195.9", "500.4", "248.3"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 249.12,
+    "y1": 85.92,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Figure5-1.png"
+}, {
+  "caption": "Table 2: Comparison among different mask generation and training policies in Ballot. w/o is short for without., and Ballot (𝑛th) is short for Ballot rewinding to 𝑛th epoch.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.2013549804688,
+    "y1": 88.8109130859375,
+    "y2": 110.58502197265625
+  },
+  "figType": "Table",
+  "imageText": ["Ballot", "(15th)", "0.6425", "0.6421", "0.6431", "0.0233", "0.6301", "Training", "Policy", "w/o", "LR", "decreasing", "0.5922", "0.5905", "0.5924", "0.0282", "0.7512", "w/o", "rewind", "0.6285", "0.6237", "0.6277", "0.0235", "0.6566", "Ballot", "(5th)", "0.6411", "0.6448", "0.6423", "0.0229", "0.6339", "Ballot", "(10th)", "0.6449", "0.6444", "0.6436", "0.0225", "0.6243", "Magnitude", "0.6401", "0.6395", "0.6410", "0.0258", "0.6712", "Ballot", "0.6449", "0.6444", "0.6436", "0.0225", "0.6243", "Mask", "Policy", "Random", "0.6383", "0.6353", "0.6379", "0.0261", "0.6538", "Method", "Acc.", "Precis.", "Recall", "CWV", "MCD"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 351.84,
+    "x2": 524.16,
+    "y1": 117.6,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Table2-1.png"
+}, {
+  "caption": "Figure 1: Performance of ResNet50 Gender Classifier and its sparse versions after LTH-based pruning.",
+  "captionBoundary": {
+    "x1": 122.58401489257812,
+    "x2": 489.4156188964844,
+    "y1": 187.10992431640625,
+    "y2": 188.958984375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Accuracy", "(b)", "CWV", "(larger", "value,", "higher", "degree", "of", "bias)", "(c)", "MCD", "(larger", "value,", "higher", "degree", "of", "bias)"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 544.3199999999999,
+    "y1": 84.96,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Figure1-1.png"
+}, {
+  "caption": "Figure 2: GradCAM heatmap for different models. (a) is the original",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0478210449219,
+    "y1": 299.7699279785156,
+    "y2": 301.6189880371094
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)", "(c)", "(d)"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 260.15999999999997,
+    "y1": 193.92,
+    "y2": 288.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Average model performance on CIFAR-100 dataset for",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.368896484375,
+    "y1": 285.0299377441406,
+    "y2": 286.8789978027344
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Epochs-accuracy", "(b)", "Epochs-CWV&MCD"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 536.16,
+    "y1": 194.88,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680336-Figure3-1.png"
+}]

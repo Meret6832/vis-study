@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 1: The GDBMS we tested are popular and widely used and representative.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1920166015625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["TinkerGraph", "31", "1.9k", "2009", "NebulaGraph", "9", "9.2k", "2019", "MemGraph", "7", "1.5k", "2017", "RedisGraph", "4*", "1.9k", "2018", "Neo4j", "1", "11.6k", "2007", "GDBMS", "DB-Engine", "Rank", "GitHub", "Stars", "Initial", "Release"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 116.64,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Table1-1.png"
+}, {
+  "caption": "Table 2: Summary of Detected Bugs: During our testing of 5 different GDBMS adopting 3 distinct query languages, we discovered a total of 22 previously unknown bugs, 15 already confirmed by the developers. Of the 22 reported bugs, 12 are logic bugs, 3 are performance bugs, 4 are missing exceptions, and 3 are unexpected exceptions.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1824340820312,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "22", "15", "12", "3", "4", "3", "14", "NebulaGraph", "nGQL", "6", "6", "3", "2", "0", "1", "4", "TinkerGraph", "Gremlin", "3", "2", "2", "0", "1", "0", "2", "MemGraph", "Cypher", "4", "3", "3", "0", "1", "0", "3", "RedisGraph", "Cypher", "6", "2", "4", "1", "0", "1", "4", "Neo4j", "Cypher", "3", "2", "0", "0", "2", "1", "1", "GDBMS", "Query", "Language", "Detected", "Confirmed", "Logic", "Bugs", "Performance", "Bugs", "Missing", "Exceptions", "Unexpected", "Exceptions", "Graph-related"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 532.3199999999999,
+    "y1": 127.67999999999999,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Table2-1.png"
+}, {
+  "caption": "Table 4: Graph Databases and Versions of Previous Works Tested",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03302001953125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Grand", "TinkerGraph", "3.4.10", "RedisGraph", "2.8.19", "GDBmeter", "Neo4j", "Community", "Edition", "4.4.8,4.4.9", "Memgraph", "Community", "Edition", "2.4", "RedisGraph", "2.8", "Neo4j", "Community", "Edition", "3.5,4.2,4.3,4.4,4.5", "GDsmith", "Tool", "Graph", "Database", "Versions"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 281.28,
+    "y1": 116.64,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Table4-1.png"
+}, {
+  "caption": "Table 5: Bug Reproducing on Different GDBMS, where all indicates that all the versions of database mentioned in Table 4 are tested.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04449462890625,
+    "y1": 218.72836303710938,
+    "y2": 246.2769775390625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "NA", "9/13", "TinkerGrpah", "all", "1/3", "Memgraph", "all", "3/4", "Redis", "Graph", "all", "5/6", "Graph", "Database", "Version", "Reproduced"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 256.32,
+    "y1": 260.64,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Table5-1.png"
+}, {
+  "caption": "Figure 7: 24-Hours Code Coverages Comparison",
+  "captionBoundary": {
+    "x1": 340.9730224609375,
+    "x2": 535.176513671875,
+    "y1": 394.6113586425781,
+    "y2": 400.24200439453125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Code", "Coverages", "RedisGraph", "24-Hours", "Code", "Coverages", "of", "RedisGraph", "GDsmith", "GDBMeter", "GRev", "8.3%", "16.3%", "16.4%", "11.3%", "21.4%", "21.3%", "8.3%", "16.3%", "16.4%", "ag", "es", "ce", "nt", "p", "er", "ra", "ge", "Co", "ve", "0.200", "0.175", "0.150", "0.125", "0.100", "0.075", "0.050", "0.025", "Line", "Function", "Branch", "0.000", "(a)", "Code", "Coverages", "of", "Neo4j", "GDsmith", "GRev", "36.0%", "24-Hours", "Code", "Coverages", "of", "Neo4j", "16.8%", "35.7%", "14.3%", "23.2%", "33.3%", "15.0%", "31.7%", "12.4%", "20.8%", "ag", "es", "ce", "nt", "p", "er", "ra", "ge", "Co", "ve", "0.35", "0.30", "0.25", "0.20", "0.15", "0.10", "0.05", "Instruction", "Branch", "Line", "Method", "Class", "0.00"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 524.16,
+    "y1": 85.92,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Figure7-1.png"
+}, {
+  "caption": "Figure 1: A labeled property graph (LPG) example, which contains three nodes (n1, n2 and n3), two relationships (r1 and r2) and their corresponding labels (e.g., n1 : person) and properties (e.g., age : 18)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2709045410156,
+    "y1": 167.60134887695312,
+    "y2": 206.10797119140625
+  },
+  "figType": "Figure",
+  "imageText": ["name:", "George", "Orwell", "birth:", "1903", "since:", "2023", "published:", "1945", "n3:", "person", "r1:", "read", "r2:", "write", "name:", "Alice", "age:", "18", "n1:", "person", "name:", "Animal", "Farm", "language:", "English", "n2:", "book"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 270.24,
+    "y1": 84.96,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An illustrative overview of utilizing our Equivalent Query Rewriting (EQR) approach to rewrite a concrete query (i.e., finding software developers known by Alice and Bob) while ensuring the equivalence.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.7566528320312,
+    "y1": 238.58737182617188,
+    "y2": 277.094970703125
+  },
+  "figType": "Figure",
+  "imageText": ["Equivalent", "Query", "Original", "Query", "Random", "Walk", "Covering", "ASG", "parser", "Abstract", "Syntax", "Graph", "knowsknows", "develops", "software", "person", "person", "{name:", "\"Alice\"}", "person", "{name:", "\"Bob\"}", "v4", "v1", "v2", "v3", "MATCH", "(n4", ":", "software)<-[r3", ":", "develops]-(n2", ":", "person)<-[r1", ":", "knows]-(n1", ":", "person", "{name:", "\"Alice\"}),", "(n2", ":", "person)<-[r2", ":", "knows]-(n3", ":", "person", "{name", ":", "\"Bob\"}", ")", "RETURN", "n2", "MATCH", "(n1", ":", "person", "{name:", "\"Alice\"})-[r1", ":", "knows]->(n2", ":", "person),", "(n3", ":", "person", "{name", ":", "\"Bob\"}", ")-", "[r2", ":", "knows]->(n2", ":", "person),", "(n2", ":", "person)-[r3", ":", "develops]->(n4", ":", "software)", "RETURN", "n2"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 557.28,
+    "y1": 93.6,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Figure2-1.png"
+}, {
+  "caption": "Figure 5: GRev Analysis: How many different equivalent queries can be generated from the 10 base queries within the specified number of generations?",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03643798828125,
+    "y1": 398.9503479003906,
+    "y2": 426.4989929199219
+  },
+  "figType": "Figure",
+  "imageText": ["WHERE", "(n2.k7)", "RETURN", "COUNT", "(*)", "--{performance", ":", "4.82s}", "WITH", "n2", "MATCH", "(n4", ":L3)<-[r3", ":T3]-(n1),", "(n0)", "MATCH", "(n2", ":L1)<-[r2", ":T4]-(n3", ":L3),", "(n0", ":L3),", "(n0)", "(2)", "MATCH", "(n0", ":L3", ":L2),", "(n1", ":L0)"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 49.44,
+    "x2": 297.59999999999997,
+    "y1": 182.88,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Figure5-1.png"
+}, {
+  "caption": "Figure 6: GRevAnalysis: Howmany different query plans can be generated from the 10 base queries within the specified number of generations?",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1930541992188,
+    "y1": 241.18032836914062,
+    "y2": 268.72900390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Figure6-1.png"
+}, {
+  "caption": "Figure 3: An illustrative example of the process of equivalent Cypher query generation through RandomWalk Covering (RWC) on an Abstract Syntax Graph (ASG). Due to the space limit, four of the equivalent queries are presented.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.1954956054688,
+    "y1": 249.49935913085938,
+    "y2": 288.0069885253906
+  },
+  "figType": "Figure",
+  "imageText": ["Equivalent", "Queries", "RWC", "RWC", "RWC", "RWC", "①", "MATCH", "(v4)->(v3)->(v2),", "②", "(v2)<-(v1)->(v2),", "③", "(v1)->(v4)<-(v2)", "RETURN", "*", "①", "MATCH", "(v3)->(v2)->(v4),", "②", "(v1)<-(v2)->(v1),", "③", "(v1)->(v4)->(v3)", "RETURN", "*", "①", "MATCH", "(v1)->(v2)->(v4)->(v3),", "②", "(v1)<-(v2)<-(v3),", "③", "(v4)<-(v1)", "RETURN", "*", "①", "MATCH", "(v1)<-(v2)<-(v3)<-(v4),", "②", "(v4)<-(v2)<-(v1),", "③", "(v1)->(v4)", "RETURN", "*", "ASG", "v4", "v2", "v3v1", "v4", "v2", "v3v1", "v4", "v2", "v3v1", "v4", "v2", "v3v1", "v4", "-v2", "v3v1"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 92.64,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Figure3-1.png"
+}, {
+  "caption": "Table 3: Comparing GRev with Existing Techniques",
+  "captionBoundary": {
+    "x1": 201.2729949951172,
+    "x2": 410.4228515625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GDBMeter", "Query", "Partitioning", "Cypher,", "Gremlin", "#", "#", "#", "GRev", "Query", "Rewriting", "Cypher,", "Gremlin,", "nGQL", "G#", "GDsmith", "Differential", "Testing", "Cypher", "#", "#", "#", "#", "Grand", "Differential", "Testing", "Gremlin", "#", "#", "#", "#", "#", "Tool", "Approach", "Supported", "Languages", "Able", "to", "detect", "shared", "bugs", "Able", "to", "test", "unique", "features", "Insensitive", "to", "base", "query", "Detected", "performance", "bugs", "Detected", "graph-related", "bugs"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Table3-1.png"
+}, {
+  "caption": "Figure 4: An overview of GRev, which begins with the Graph Generator and Base Query Generator to produce a graph schema and base query, followed by the Equivalent Query Rewriter to generate several equivalent queries. A bugwill be detected if these queries yield inconsistent system behaviors.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4402465820312,
+    "y1": 206.36734008789062,
+    "y2": 255.833984375
+  },
+  "figType": "Figure",
+  "imageText": ["Sending", "queries", "to", "GDBMS", "and", "obtaining", "results", "Equivalent", "QueriesBase", "Query", "Graph", "Database", "Inequivalent", "Result", "?", ".", ".", ".", "Qk", "Q2", "Q1", "Equivalent", "Query", "Rewriter", "Qbase", "Base", "Query", "Generator", "Graph", "Generator"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 93.6,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639200-Figure4-1.png"
+}]

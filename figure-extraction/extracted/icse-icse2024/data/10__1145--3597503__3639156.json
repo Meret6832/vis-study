@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 1: BERT Total Energy Consumption (The forward and",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0353088378906,
+    "y1": 367.576904296875,
+    "y2": 369.6570129394531
+  },
+  "figType": "Figure",
+  "imageText": ["60kJ", "backward", "forward", "50kJ", "40kJ", "30kJ", "20kJ", "10kJ", "pre-training", "fine-tuning", "prediction", "0kJ", "Consumption"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 78.24,
+    "x2": 220.32,
+    "y1": 246.72,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Program-Level and Encoder-Level EDDs for BERT’s",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.200439453125,
+    "y1": 603.349853515625,
+    "y2": 605.4299926757812
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "EDD", "for", "bert/encoder", "layer_9", "8.62%", "layer_8", "8.64%", "layer_7", "8.66%", "layer_6", "8.63%", "layer_5", "8.61%", "layer_4", "8.60%", "layer_3", "8.38%", "layer_2", "8.11%", "layer_10", "8.63%", "layer_1", "7.82%", "Reshape_13", "0.00%", "layer_0", "6.46%", "Reshape_1", "0.01%", "Reshape", "0.03%", "Cast", "0.05%", "layer_11", "8.70%", "ArithmeticOptimizer", "0.03%", "bert/encoder", "(a)", "EDD", "for", "bert", "pooler", "0.10%", "encoder", "99.14%", "embeddings", "0.76%", "bert"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 552.0,
+    "y1": 269.76,
+    "y2": 584.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Transformer-Level EDDs for the Forward Pass of BERT’s First Transformer (bert/encoder/layer_0) and its",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1998901367188,
+    "y1": 339.9798889160156,
+    "y2": 353.0190124511719
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "dense", "100.00%", "bert/encoder/layer_0/intermediate", "(c)", "self", "72.51%", "output", "27.49%", "bert/encoder/layer_0/attention", "(b)", "dropout", "10.94%", "dense", "69.76%", "layer_normalization_2", "15.23%", "add", "4.07%", "bert/encoder/layer_0/output", "(a)", "output", "23.55%", "intermediate", "35.77%", "attention", "40.68%", "bert/encoder/layer_0"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 552.0,
+    "y1": 108.47999999999999,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure4-1.png"
+}, {
+  "caption": "Figure 3: BERT Single-Epoch Power Trace (The X-axis is",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04132080078125,
+    "y1": 177.23190307617188,
+    "y2": 179.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["execution", "for", "other", "transformers", "execution", "for", "first", "transformer", "100W", "120W", "140W", "160W", "180W", "0ms", "100ms", "200ms", "300ms", "400ms", "500ms", "600ms", "700ms", "40W", "60W", "80W"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 278.4,
+    "y1": 85.92,
+    "y2": 156.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure3-1.png"
+}, {
+  "caption": "Figure 10: TopEnergy/Power-ConsumingTensors inALBERT",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04376220703125,
+    "y1": 358.2598876953125,
+    "y2": 360.3399963378906
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "STPF", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/ffn_k/intermediate/output/dense/einsum/Einsum_grad/Einsum", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/ffn_k/intermediate/dense/einsum/Einsum_grad/Einsum", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/ffn_k/intermediate/output/dense/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/ffn_k/intermediate/dense/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/attention_k/output/dense/einsum/Einsum_grad/Einsum", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/ffn_k/intermediate/mul_2_grad/Mul_1", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/attention_k/self/transpose_grad/transpose", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/attention_k/self/transpose_1_grad/transpose", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/attention_k/self/key/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_k/transformer/inner_group_k/attention_k/output/dense/einsum/Einsum_grad/Einsum_1", "0W", "50W", "100W", "150W", "200W", "250W", "(a)", "STEF", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/ffn_k/intermediate/output/dense/einsum/Einsum_grad/Einsum", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/ffn_k/intermediate/output/dense/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/ffn_k/intermediate/dense/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/ffn_k/intermediate/dense/einsum/Einsum_grad/Einsum", "bert/encoder/transformer/group_0_k/transformer/inner_group_k/ffn_k/intermediate/dense/einsum/Einsum", "bert/encoder/transformer/group_0_k/transformer/inner_group_k/ffn_k/intermediate/output/dense/einsum/Einsum", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/attention_k/self/key/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/attention_k/self/query/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/attention_k/self/value/einsum/Einsum_grad/Einsum_1", "gradients/bert/encoder/transformer/group_0_k/transformer/inner_group_k/attention_k/self/query/einsum/Einsum_grad/Einsum", "0J", "1000J", "2000J", "3000J", "4000J", "5000J"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 293.76,
+    "y1": 95.52,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure10-1.png"
+}, {
+  "caption": "Figure 5: Top Energy/Power-Consuming Tensors through",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0363464355469,
+    "y1": 406.6868896484375,
+    "y2": 408.7669982910156
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "STPF", "gradients/bert/encoder/transformer/output/dense/MatMul_grad/MatMul_1", "gradients/bert/encoder/transformer/output/dense/MatMul_grad/MatMul", "gradients/bert/encoder/transformer/intermediate/dense/MatMul_grad/MatMul", "gradients/bert/encoder/transformer/intermediate/dense/MatMul_grad/MatMul_1", "gradients/bert/encoder/transformer/intermediate/dense/mul_3_grad/Mul", "gradients/bert/encoder/transformer/intermediate/dense/Tanh_grad/TanhGrad", "gradients/bert/encoder/transformer/intermediate/dense/mul_2_grad/Mul_1", "gradients/bert/encoder/transformer/intermediate/dense/Pow_grad/mul_1", "gradients/bert/encoder/transformer/intermediate/dense/Pow_grad/mul", "gradients/bert/encoder/transformer/intermediate/dense/mul_1_grad/Mul_1", "0W", "10W", "20W", "30W", "40W", "50W", "60W", "70W", "80W", "(a)", "STEF", "gradients/bert/encoder/transformer/output/dense/MatMul_grad/MatMul", "gradients/bert/encoder/transformer/intermediate/dense/MatMul_grad/MatMul", "gradients/bert/encoder/transformer/output/dense/MatMul_grad/MatMul_1", "gradients/bert/encoder/transformer/intermediate/dense/MatMul_grad/MatMul_1", "bert/encoder/transformer/output/dense/MatMul", "bert/encoder/transformer/intermediate/dense/MatMul", "gradients/bert/encoder/transformer/attention/self/query/MatMul_grad/MatMul", "gradients/bert/encoder/transformer/attention/self/value/MatMul_grad/MatMul", "gradients/bert/encoder/transformer/attention/output/dense/MatMul_grad/MatMul_1", "gradients/bert/encoder/transformer/attention/self/key/MatMul_grad/MatMul_1", "0J", "1000J", "2000J", "3000J", "4000J", "5000J", "6000J", "7000J", "8000J"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 294.24,
+    "y1": 96.0,
+    "y2": 387.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure5-1.png"
+}, {
+  "caption": "Figure 8: Accounting similarity across Experiments (Each",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 555.9618530273438,
+    "y2": 558.0419921875
+  },
+  "figType": "Figure",
+  "imageText": ["0.94", "0.92", "0.92", "0.93", "0.93", "0.94", "0.94", "0.94", "0.94", "0.93", "0.94", "0.93", "0.92", "0.94", "0.94", "0.94", "0.94", "0.94", "0.92", "0.93", "0.93", "0.94", "0.94", "0.94", "0.93", "0.93", "0.94", "0.92", "0.94", "0.94", "0.93", "0.93", "0.93", "0.92", "0.94", "0.92", "0.93", "0.93", "0.92", "0.93", "0.89", "0.90", "0.91", "0.94", "0.90", "j", "i", "h", "g", "f", "e", "d", "c", "b", "a", "b", "c", "d", "e", "f", "g", "h", "i"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 379.2,
+    "x2": 497.28,
+    "y1": 417.59999999999997,
+    "y2": 536.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Accounting Similarity (STEF2 has half the sampling rate of STEF1. The PCC of the two STEFs is shown to the",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19873046875,
+    "y1": 211.21987915039062,
+    "y2": 225.60400390625
+  },
+  "figType": "Figure",
+  "imageText": ["STEF1", "STEF2", "Input", "Embedding", "21J", "15J", "Output", "Embedding", "21J", "15J", "Input", "Attention", "54J", "23J", "Output", "Attention", "54J", "23J", "Input", "Add", "&", "Norm", "1", "118J", "59J", "Output", "Add", "&", "Norm", "118J", "59J", "Input", "Feed", "Forward", "184J", "92J", "Input", "Add", "&", "Norm", "2", "100J", "50J", "Output", "Feed", "Forward", "200J", "100J", "→", "0.9958"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 535.68,
+    "y1": 82.56,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure6-1.png"
+}, {
+  "caption": "Figure 7: ASSS and ASSW (In the left figure, the X-axis is the",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1896362304688,
+    "y1": 338.0599060058594,
+    "y2": 340.1400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "ASSW", "1.00", "0.99", "0.98", "0.97", "0.96", "2", "3", "4", "5", "6", "7", "8", "9", "100.95", "(a)", "ASSS", "6ms", "12ms", "18ms", "24ms", "30ms", "36ms", "0.86", "0.88", "0.90", "0.92", "0.94", "0.96", "0.98", "1.00", "right.)"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 565.4399999999999,
+    "y1": 228.48,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure7-1.png"
+}, {
+  "caption": "Figure 9: A Comparative Study on BERTHyperparamter Tun-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8054809570312,
+    "y1": 386.722900390625,
+    "y2": 388.8030090332031
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Energy", "MED", "248.47", "229.29", "201.82", "167.81", "211.08", "170.13", "71.23", "177.25", "158.06", "130.59", "96.58", "139.86", "98.90", "78.35", "59.16", "31.69", "-2.32", "40.96", "37.39", "18.21", "-9.27", "-43.28", "80.67", "61.48", "34.01", "46.66", "27.47", "19.19", "H", "G", "F", "E", "D", "C", "B", "A", "B", "C", "D", "E", "F", "G", "(c)", "Power", "MED", "6.30", "5.96", "4.75", "3.99", "2.41", "2.31", "1.64", "4.65", "4.31", "3.11", "2.34", "0.77", "0.67", "3.99", "3.65", "2.44", "1.68", "0.10", "3.88", "3.54", "2.34", "1.57", "2.31", "1.97", "0.76", "1.55", "1.21", "0.34", "H", "G", "F", "E", "D", "C", "B", "A", "B", "C", "D", "E", "F", "G", "(b)", "Energy", "PCC", "0.99", "0.99", "0.99", "0.99", "0.99", "0.99", "1.00", "0.99", "0.99", "0.99", "0.98", "1.00", "1.00", "0.98", "0.98", "0.98", "0.97", "1.00", "0.98", "0.99", "0.98", "0.97", "1.00", "0.99", "1.00", "1.00", "1.00", "1.00", "H", "G", "F", "E", "D", "C", "B", "A", "B", "C", "D", "E", "F", "G", "(a)", "Power", "PCC", "0.81", "0.81", "0.82", "0.98", "0.86", "0.84", "0.84", "0.81", "0.81", "0.98", "0.83", "0.86", "0.84", "0.84", "0.99", "0.83", "0.84", "0.86", "0.97", "0.84", "0.85", "0.85", "0.83", "0.82", "0.83", "0.83", "0.82", "0.83", "H", "G", "F", "E", "D", "C", "B", "A", "B", "C", "D", "E", "F", "G"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 563.04,
+    "y1": 96.0,
+    "y2": 368.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639156-Figure9-1.png"
+}]

@@ -1,0 +1,201 @@
+[{
+  "caption": "TABLE I Numbers of production code methods, by access modifier, directly invoked from test suites (“Invoked”) out of the total number of methods (“Total”) in all 4,801 Java projects studied in RQ1.",
+  "captionBoundary": {
+    "x1": 62.68805694580078,
+    "x2": 296.1693420410156,
+    "y1": 73.64651489257812,
+    "y2": 102.665283203125
+  },
+  "figType": "Table",
+  "imageText": ["public", "179,640", "1,468,185", "12.2%", "protected", "2,601", "70,579", "3.7%", "package-private", "4,243", "27,459", "15.5%", "private", "116", "132,701", "0.1%", "Access", "Modifier", "Invoked", "Total", "Percentage"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 264.0,
+    "y1": 109.44,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-TableI-1.png"
+}, {
+  "caption": "Fig. 2. Venn diagram of open-source Java projects, grouped by visibility of production code methods called directly from their tests.",
+  "captionBoundary": {
+    "x1": 314.3328857421875,
+    "x2": 547.8141479492188,
+    "y1": 232.66452026367188,
+    "y2": 245.46868896484375
+  },
+  "figType": "Figure",
+  "imageText": ["Number", "of", "Projects:", "4801", "6", "(0.12%)", "0", "(0%)", "12", "(0.25%)", "5", "(0.1%)", "190", "(3.96%)", "0", "(0%)", "0", "(0%)", "3", "(0.06%)", "18", "(0.37%)", "587", "(12.23%)", "464", "(9.66%)", "1", "(0.02%)", "37", "(0.77%)", "23", "(0.48%)", "3455", "(71.96%)", "private", "protected", "package-private", "public"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 523.1999999999999,
+    "y1": 73.44,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-Figure2-1.png"
+}, {
+  "caption": "TABLE II Mechanisms used to directly invoke private methods in tests, by numbers of tests (“# Tests”) and projects (“# Projects”), in our dataset of Java projects.",
+  "captionBoundary": {
+    "x1": 314.3328857421875,
+    "x2": 547.814208984375,
+    "y1": 267.2335510253906,
+    "y2": 288.8401794433594
+  },
+  "figType": "Table",
+  "imageText": ["Java", "Reflection", "[13]", "68", "31", "JMockit", "Deencapsulation", "[8]", "14", "1", "PowerMock", "Whitebox", "[15]", "13", "5", "Apache", "Commons", "Lang3", "MethodUtils", "[3]", "12", "4", "Manifold", "Jailbreak", "[10]", "6", "1", "EasyMock", "ReflectionUtils", "[5]", "1", "1", "Spring", "Framework", "ReflectionTestUtils", "[19]", "1", "1", "tvd12", "test-util", "MethodInvoker", "[22]", "1", "1", "Framework", "#", "Tests", "#", "Projects"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 529.4399999999999,
+    "y1": 295.68,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-TableII-1.png"
+}, {
+  "caption": "Fig. 4. Developer responses to the question: “How often do you write tests that directly invoke non-public methods?”",
+  "captionBoundary": {
+    "x1": 62.66728210449219,
+    "x2": 296.15155029296875,
+    "y1": 179.35855102539062,
+    "y2": 192.1627197265625
+  },
+  "figType": "Figure",
+  "imageText": ["Conclusion", "(RQ2:", "Stance).", "Among", "our", "developer", "survey", "participants,", "almost", "two-thirds", "prefer", "to", "test", "public", "APIs", "only,", "while", "the", "remaining", "third", "will", "test", "non-public", "methods", "directly.", "We", "observed", "a", "similar", "pattern", "in", "the", "answers", "in", "StackOverflow", "“Debate”", "threads,", "where", "responses", "arguing", "to", "test", "only", "via", "public", "APIs", "were", "more", "often", "the", "top", "answer", "than", "those", "in", "favor", "of", "testing", "non-publics", "directly."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 295.2,
+    "y1": 210.72,
+    "y2": 293.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-Figure4-1.png"
+}, {
+  "caption": "TABLE III Classification of posters’ answers to StackOverflow “Debate” threads as either arguing to test public APIs only or test non-public methods directly, or were neutral in stance. “Rank” refers to whether the answer was first, second, or third in the list of responses to the original post, depending on its “upvotes”. (NB: Some posts received fewer than three responses.)",
+  "captionBoundary": {
+    "x1": 315.3138122558594,
+    "x2": 548.7954711914062,
+    "y1": 73.75631713867188,
+    "y2": 120.37896728515625
+  },
+  "figType": "Table",
+  "imageText": ["Test", "public", "APIs", "only", "19", "1.89", "1", "Test", "non-public", "methods", "directly", "17", "1.94", "2", "Neutral", "12", "1.83", "2", "Classification", "#", "Answers", "Mean", "Rank", "Mode", "Rank"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 546.24,
+    "y1": 125.28,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-TableIII-1.png"
+}, {
+  "caption": "TABLE IV Developer responses to the question “To what extent do you value the following aspects when writing unit tests?”, where participants could choose from the options “No opinion” , “Not Important” , “Somewhat Important” , “Important” , and “Very Important” .",
+  "captionBoundary": {
+    "x1": 315.3140869140625,
+    "x2": 548.7985229492188,
+    "y1": 181.27682495117188,
+    "y2": 219.56109619140625
+  },
+  "figType": "Table",
+  "imageText": ["Code", "coverage", "161910", "1057", "Capturing", "behavior", "via", "assertions", "369", "173", "Ease", "of", "debugging", "23165", "6105", "Robustness", "after", "refactoring", "3211", "1183", "Sensitivity", "to", "change", "2814", "1073", "Realism", "28710", "1154", "Confidence", "in", "code", "386", "1533", "Conciseness", "1713106", "398", "Aspect", "“Agree”", "group", "“Disagree”", "group"],
+  "name": "IV",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 549.12,
+    "y1": 226.56,
+    "y2": 317.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-TableIV-1.png"
+}, {
+  "caption": "Fig. 3. Developer responses to the question “To what extent do you agree with the following statement? ‘In general, developers should write unit tests that only invoke public methods, avoiding direct calls to non-public methods.’”",
+  "captionBoundary": {
+    "x1": 62.66725158691406,
+    "x2": 296.1537780761719,
+    "y1": 106.02151489257812,
+    "y2": 127.16497802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Not", "sure", "Strongly", "disagree", "Disagree", "Agree", "Strongly", "agree", "29181664"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 285.12,
+    "y1": 73.92,
+    "y2": 94.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-Figure3-1.png"
+}, {
+  "caption": "TABLE V Responses to the question: “How do you go about testing non-public methods?”, where the participant could choose from the options “Not sure” , “Not a feature in my language” , “Never” , “Rarely” , “Sometimes” , “Often” , and “Mostly” .",
+  "captionBoundary": {
+    "x1": 314.3006286621094,
+    "x2": 547.7850341796875,
+    "y1": 73.80978393554688,
+    "y2": 112.0946044921875
+  },
+  "figType": "Table",
+  "imageText": ["Via", "public", "methods", "only", "36", "610", "By", "directly", "invoking", "1225", "45533", "Using", "reflection", "/", "mocks", "61620", "3936", "Adding", "test", "code", "in", "production", "733", "413", "Temporary", "switch", "to", "public", "40", "18", "Permanent", "change", "to", "public", "61426", "514", "Means", "“Agree”", "group", "“Disagree”", "group"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 548.16,
+    "y1": 118.56,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-TableV-1.png"
+}, {
+  "caption": "Fig. 1. Statistics of the Maven open-source projects studied in RQ1.",
+  "captionBoundary": {
+    "x1": 72.8311996459961,
+    "x2": 283.7203369140625,
+    "y1": 267.8885192871094,
+    "y2": 272.35430908203125
+  },
+  "figType": "Figure",
+  "imageText": ["600", "800", "N", "um", "be", "r", "o", "f", "p", "ro", "je", "ct", "s", "400", "200", "0", "0", "50", "100", "150", "(d)", "Months", "since", "last", "commit", "s", "je", "ct", "f", "p", "ro", "be", "r", "o", "N", "um", "600", "400", "200", "0", "(c)", "Number", "of", "stars", "10", "0", "10", "1", "10", "2", "10", "3", "10", "4", "s", "je", "ct", "f", "p", "ro", "be", "r", "o", "N", "um", "400", "300", "200", "100", "0", "(b)", "Number", "of", "tests", "10", "3", "10", "2", "10", "1", "10", "0", "s", "je", "ct", "f", "p", "ro", "be", "r", "o", "N", "um", "300", "200", "100", "0", "(a)", "Lines", "of", "Code", "10", "2", "10", "3", "10", "4", "10", "5", "10", "6"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 255.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. Participants’ years of testing experience, grouped by stance on testing through public methods only (distribution shown in Figure 3).",
+  "captionBoundary": {
+    "x1": 314.724853515625,
+    "x2": 548.2063598632812,
+    "y1": 677.0517578125,
+    "y2": 689.85595703125
+  },
+  "figType": "Figure",
+  "imageText": ["Agree", "/", "Strongly", "Agree", "Disagree", "/", "Strongly", "Disagree", "Not", "Sure", "14", "(50%)3", "(37.5%)", "#", "of", "participants", "(%)", "0–2", "16", "(35.3%)10", "(58.8%)2–5", "7", "(31.8%)15", "(68.2%)5–10", "12", "(18.2%)8", "(72.7%)10–15", "e", "13", "(20%)11", "(73.3%)>15", "rie", "nc", "ex", "pe", "in", "g", "te", "st", "s", "of", "Ye", "ar"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.28,
+    "x2": 528.0,
+    "y1": 590.88,
+    "y2": 667.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00037-Figure5-1.png"
+}]

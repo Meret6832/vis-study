@@ -1,0 +1,381 @@
+[{
+  "caption": "Table 7: Taxonomy of failure causes, adapted from [63], with concise de nitions. Italics and Strikeout indicate changed or deleted wording, respectively. Bold indicates additions.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3919677734375,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Incompatibility", "-", "Internal", "API", "compatib.", "issues", "in", "model", "converters.", "Incompatibility", "-", "External", "Compatibility", "issues", "with", "third-party", "li-", "braries", "(e.g.,", "ONNX,", "TensorFlow).", "Type", "Problem", "-", "Node", "Issues", "related", "to", "atomic", "DL", "operators", "in", "model", "conversion.", "Type", "Problem", "-", "Tensor", "Issues", "related", "to", "the", "types", "of", "tensors.", "Type", "Problem", "-", "Conventional", "Issues", "with", "types", "of", "conventional", "variables", "in", "software", "systems.", "Tensor", "Shape", "Problem", "Input/output", "tensor", "shape", "issues.", "Alg.", "Error", "-", "Optimization", "Error", "Issues", "in", "model", "converter", "optimizations.", "Alg.", "Error", "-", "Tracing", "Issue", "Issues", "tracing", "dynamic", "models", "in", "computa-", "tional", "graphs.", "Alg.", "Error", "-", "Non-optim.", "Code", "Logic", "Bugs", "outside", "DL", "compiler", "optimizations.", "Testing", "Test", "errors,", "incl.", "aky", "or", "missing", "tests.", "Cause", "De", "nition"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 127.67999999999999,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table7-1.png"
+}, {
+  "caption": "Table 8: Failure locations (cf. Table 1). Themajority of failures occur duringNode Conversion in each ONNX converter.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2057495117188,
+    "y1": 449.5128173828125,
+    "y2": 464.8240051269531
+  },
+  "figType": "Table",
+  "imageText": ["Total", "100", "100", "200", "(100%)", "LoadModel", "5", "6", "11", "(6%)", "Node", "Conversion", "70", "78", "148", "(74%)", "(Graph)", "Optimization", "14", "5", "19", "(10%)", "Export", "(Protobuf)", "1", "0", "1", "(1%)", "Validation", "0", "3", "3", "(2%)", "(Not", "Distinguishable)", "10", "8", "18", "(9%)", "Location", "TF", "PT", "Total"],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 522.24,
+    "y1": 479.52,
+    "y2": 557.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table8-1.png"
+}, {
+  "caption": "Figure 1: Paths from model development to deployment on hardware. Model interoperability facilitates reuse across",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0500793457031,
+    "y1": 238.36080932617188,
+    "y2": 253.6729736328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 268.32,
+    "y1": 82.56,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure1-1.png"
+}, {
+  "caption": "Table 1: Stages of a DL model converter to the ONNX intermediate representation, based on torch.onnx, tf2onnx, and mxnet.onnx.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.810791015625,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["checks", "(behavioral", "changes).", "Component", "De", "nition", "LoadModel", "Framework", "representation→ONNX", "graph.", "Tracing", "used", "for", "dynamic", "graphs", "(e.g.,", "PyTorch).", "Node", "conversion", "Graph", "nodes", "replaced", "by", "ONNX", "equivalents.", "Optimization", "Nodes", "(e.g.,", "operator", "fusion),", "data", "ows", "(e.g.,DCE).", "Export", "Model", "serialized", "into", "protocol", "bu", "er", "(protobuf).", "Validate", "Syntactic", "checks", "(compliance", "with", "spec)", "and", "semantic"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 553.4399999999999,
+    "y1": 127.67999999999999,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table1-1.png"
+}, {
+  "caption": "Figure 2: PyTorch model converted to ONNX Intermediate Representation. The PyTorchmodel calculates the per-row maximumusing torch.max. In ONNX, this uses the operators ArgMax plus ReduceMax.",
+  "captionBoundary": {
+    "x1": 317.7560119628906,
+    "x2": 558.5513916015625,
+    "y1": 324.3528137207031,
+    "y2": 361.5830078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 529.4399999999999,
+    "y1": 213.6,
+    "y2": 310.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure2-1.png"
+}, {
+  "caption": "Table 9: Distribution of symptoms. TF : tf2onnx. PT : torch.onnx. DL Comp.: Symptoms of DL compiler failures in compiler front-ends, per Shen et al. [63]. Percentages are rounded.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5780334472656,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "100", "100", "200", "(100%)", "359", "(100%)", "Crash", "50", "62", "112", "(56%)", "226", "(63%)", "WrongModel", "35", "30", "65", "(33%)", "100", "(28%)", "Build", "Failure", "3", "2", "5", "(3%)", "3", "(1%)", "Bad", "Performance", "2", "1", "3", "(2%)", "6", "(2%)", "Hang", "0", "0", "0", "(0%)", "4", "(1%)", "Unreported", "10", "5", "15", "(8%)", "20", "(6%)", "Symptom", "TF", "PT", "Total", "DL", "Comp.", "[63]"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 282.24,
+    "y1": 127.67999999999999,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table9-1.png"
+}, {
+  "caption": "Table 10: Joint distribution of primary causes and symptoms. The majority of Crashes result from Incompatibilities and Type Problems.Algorithmic Errors that result inWrongModels occur more often in tf2onnx. The top-5 causes in terms of frequency are shown, with the rest binned asOther. Rare symptoms are likewise binned asOther.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.579345703125,
+    "y1": 226.82785034179688,
+    "y2": 285.9750061035156
+  },
+  "figType": "Table",
+  "imageText": ["Total", "50", "62", "35", "30", "15", "9", "100", "100", "Incompatibility", "19", "28", "4", "3", "2", "1", "25", "32", "Type", "Problem", "8", "14", "17", "13", "0", "2", "25", "29", "Algorithmic", "Error", "4", "3", "10", "3", "4", "0", "18", "6", "Shape", "Problem", "5", "4", "4", "7", "0", "1", "9", "12", "API", "Misuse", "6", "5", "0", "1", "0", "0", "6", "6", "Other", "8", "8", "0", "3", "9", "4", "17", "15", "TF", "PT", "TF", "PT", "TF", "PT", "TF", "PT", "Cause", "\\", "Symptom", "Crash", "Wrong", "Model", "Other", "Total"],
+  "name": "10",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 300.96,
+    "y2": 384.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table10-1.png"
+}, {
+  "caption": "Figure 8: Micro analysis: Given two sets of models, we measure shared operators and simple paths between all model pairs (intersection). We compare three sets. First, the pair-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6479187011719,
+    "y1": 590.1177978515625,
+    "y2": 616.3889770507812
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 492.0,
+    "y2": 575.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure8-1.png"
+}, {
+  "caption": "Figure 3: Goal, research questions,methods, and data sources.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04583740234375,
+    "y1": 699.7069702148438,
+    "y2": 704.0601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["Failure", "Modes", "Does", "real", "failures", "match?", "What", "failure", "to", "measure?", "Use", "Cases", "What", "scenario", "to", "study?", "Interop.", "Tools", "Which", "tool", "to", "study?", "#", "Survey", "Participants:", "92", "Interoperability", "Study", "(RQ1)", "torch.onnx", "#", "failures", "100/327", "sampled", "100/242", "sampled", "tf2onnx", "#", "failures", "#", "Synthetic", "models:", "3,544", "#", "Real", "models:", "1,605", "Hypothesis", "Testing", "(RQ3", "-", "RQ4)", "Opset,", "model", "type", "Failure", "Analysis", "(RQ2)", "Symptoms,", "causes,", "locations"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 268.32,
+    "y1": 580.8,
+    "y2": 680.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Additions and updates of operators by ONNX operator set version, from version 1 (2017)—version 18 (2022). Version size := sum of operator additions and updates.",
+  "captionBoundary": {
+    "x1": 53.48400115966797,
+    "x2": 295.64703369140625,
+    "y1": 231.28384399414062,
+    "y2": 257.55499267578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 265.44,
+    "y1": 82.56,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Cumulative number of failures in the torch.onnx and tf2onnx converters, plotted quarterly from 2018-2023. The gap between two points is the number of newly opened issues during that time period. The O’s track all failures. The X’s track the subset of Incompatibility andTypeProblem failures. The annotated vertical lines indicate the release of ONNX operator sets with ≥ 5 changes.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7315673828125,
+    "y1": 230.15579223632812,
+    "y2": 300.26300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 529.4399999999999,
+    "y1": 82.56,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Macro analysis:Real and Syntheticmodels are converted and then di erences aremeasured. For synthetic models, we used tf2onnx or torch.onnx directly. For real models we used HuggingFace’s converter, which does preprocessing and then calls those converters.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 559.80859375,
+    "y1": 427.350830078125,
+    "y2": 475.5400085449219
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 314.88,
+    "y2": 413.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure7-1.png"
+}, {
+  "caption": "Table 4: Induced themes formodel deployment consideration when using interoperability tools, such as ONNX. Based on code-able responses from 32 participants.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.2054443359375,
+    "y1": 598.7357788085938,
+    "y2": 625.0070190429688
+  },
+  "figType": "Table",
+  "imageText": ["Deploy", "directly", "from", "the", "DL", "frameworks", "13", "/", "32", "(35%)", "Simplicity", "8", "/", "32", "(25%)", "Deployment", "requirements", "7", "/", "32", "(22%)", "Inference", "speed", "5", "/", "32", "(16%)", "Portability", "5", "/", "32", "(16%)", "Other", "(e.g.,maintenance,", "stability)", "2", "/", "32", "(6%)", "Theme", "#", "Participants", "(%)"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 639.84,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table4-1.png"
+}, {
+  "caption": "Table 3: Participant demographics (N=92 but 3 skipped this).",
+  "captionBoundary": {
+    "x1": 53.682804107666016,
+    "x2": 293.8658752441406,
+    "y1": 485.57391357421875,
+    "y2": 489.9270935058594
+  },
+  "figType": "Table",
+  "imageText": ["Web", "application", "(59)", ";", "Cloud", "anddata", "center", "(52)", ";Desk-", "top", "application", "(19)", ";", "Mobile", "(14)", ";", "IoT/embedded", "sys-", "tems", "(14)", ";", "Other", "(4)", "Deployment", "environment", "ees", "(17)", ";", "Large,", ">250", "employees", "(24)", "Org.", "size", "Small,", "<", "50", "employees", "(48)", ";", "Medium,", "<", "250", "employ-", "SE", "experience", "<1", "yr.", "(4)", ";", "1-2", "yr.", "(12)", ";", "3-5", "yr.", "(20)", ";", ">5", "yr.", "(53)", "ML", "experience", "<1", "yr.", "(8)", ";", "1-2", "yr.", "(17)", ";", "3-5", "yr.", "(32)", ";", ">5", "yr.", "(32)", "Kind", "Distribution", "of", "Responses"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 504.96,
+    "y2": 595.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table3-1.png"
+}, {
+  "caption": "Table 2: Survey excerpt. *Shown to secondhalf of participants.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0482177734375,
+    "y1": 87.0038070678711,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Failure", "modes", "(ONNX-", "speci", "c)", "(1)", "Do", "you", "commonly", "encounter", "problemswhile", "work-", "ing", "with", "ONNX", "models?", "(2)", "If", "you", "encounter", "such", "problems,", "how", "do", "you", "address", "them?", "(2*)", "If", "you", "use", "ONNX", "for", "framework-to-framework", "conversion,", "please", "describe", "your", "use", "case", "further?", "Use", "cases", "(1)", "Forwhat", "purpose", "do", "you", "use", "interoperability", "tools?", "(2)", "Do", "you", "use", "ONNX", "as", "part", "of", "your", "model", "develop-", "ment", "and", "deployment", "process?", "Interoperability", "tool", "usage", "(1)", "What", "do", "you", "consider", "when", "choosing", "between", "de-", "ploying", "fromaDL", "framework", "vs.", "via", "a", "tool", "likeONNX?", "What", "deployment", "environments", "are", "targeted?", "Demographics", "(1)", "How", "long", "have", "you", "worked", "onML/DL", "projects?", "(2)", "Topic", "Example", "questions"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 105.6,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table2-1.png"
+}, {
+  "caption": "Table 11: Results of conversion testing. Realmodels’ conversionmay fail in theHuggingFacewrapper. Both kinds ofmodels may fail in DLmodel converter, or when the result is fed to ONNXRuntime (ORT). Behavioural Di erence: ORT inference results with di erence > 10 −7. Real models fail rarely, synthetic models often.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8109130859375,
+    "y1": 87.0038070678711,
+    "y2": 146.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["Conv.", "Fail", "65", "(4%)", "800", "(44%)", "20", "(2%)", "2", "(1%)", "ORT", "load", "Fail", "19", "(1%)", "757", "(42%)", "27", "(2%)", "741", "(42%)", "Mismatch", "9", "(1%)", "220", "(12%)", "11", "(1%)", "100", "(6%)", "Successful", "1,212", "(68%)", "43", "(2%)", "1,361", "(75%)", "881", "(51%)", "Start:", "Total", "models", "1,761", "1,820", "1,761", "1,724", "Conv.", "Fail", "(HF)", "456", "(26%)", "N/A", "342", "(20%)", "N/A", "Real", "Syn.", "Real", "Syn.", "Outcome", "tf2onnx", "torch.onnx"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 160.79999999999998,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table11-1.png"
+}, {
+  "caption": "Figure 4: Filtering of issues for each repository studied. Filters are using GitHub search predicates. Commit/PR lters are applied to issue timeline events. Data were collected on Jan. 6, 2023. 100 issues per repository were analyzed.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.2925415039062,
+    "y1": 225.63882446289062,
+    "y2": 262.8690185546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 82.56,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Figure4-1.png"
+}, {
+  "caption": "Table 5: Induced themes for strategies to addressONNX issues. Based on code-able responses from 16 participants.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5773620605469,
+    "y1": 322.298828125,
+    "y2": 337.6109924316406
+  },
+  "figType": "Table",
+  "imageText": ["Seeking", "help", "from", "the", "community", "7", "/", "16", "(44%)", "Test", "with", "executions", "5", "/", "16", "(31%)", "Version", "changes", "3", "/", "16", "(19%)", "Other", "(i.e.,", "documentation,", "con", "g)", "3", "/", "16", "(19%)", "Theme", "#", "Participants", "(%)"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 352.32,
+    "y2": 400.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table5-1.png"
+}, {
+  "caption": "Table 6: Popularity and data availability of ONNX converters. Framework→ONNX converters (top) have notablymore activity than ONNX→Framework converters (bottom). *: torch.onnx is a component in the PyTorch repository, so stars are skewed. PyTorch issues are ltered for those in the converter. Data fromApril 11, 2024. Parenthesized numbers are issues at time of data collection (July 7, 2023).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8103637695312,
+    "y1": 281.8108215332031,
+    "y2": 351.9169921875
+  },
+  "figType": "Table",
+  "imageText": ["onnx2torch", "ONNX", "370", "35", "32", "onnx-tf", "ONNX", "291", "25", "129", "onnx-coreml", "ONNX", "385", "79", "archived", "Project", "Input", "Stars", "Forks", "Closed", "Issues", "torch.onnx", "PyTorch,", "Ca", "e2", "*77,429", "20,938", "*1,286", "(959)", "tf2onnx", "TensorFlow,", "Keras", "2,200", "425", "848", "(792)", "Paddle2ONNX", "PaddlePaddle", "637", "145", "192", "sklearn-onnx", "Sci-kit", "Learn", "506", "94", "328"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 549.12,
+    "y1": 366.71999999999997,
+    "y2": 430.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680374-Table6-1.png"
+}]

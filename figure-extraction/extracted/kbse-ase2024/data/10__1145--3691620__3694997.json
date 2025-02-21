@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 5: The Inference Workflow of ICR.",
+  "captionBoundary": {
+    "x1": 221.572998046875,
+    "x2": 390.4268798828125,
+    "y1": 260.3338928222656,
+    "y2": 262.41400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["+Query", "Value", "Key", "Train", "Datasets", "outputs", "GPT-", "neo-2.7b", "Demonstration", "......", "Demonstrations", "Demonstration", "2", "Input", "x:", "public", "static", "double", "leakyReLU(double", "x,", "double", "alpha)", "{", "if", "(x", ">", "0)", "{", "return", "x;}", "else", "{", "return", "alpha", "*", "x;}}", "Output", "y:", "Returns", "input", "value", "if", "greater", "than", "0,", "else", "returns", "input", "value", "multiplied", "by", "leak", "factor.", "Demonstration", "1", "Input", "x:", "public", "static", "double", "relu(double", "x)", "{", "return", "Math.max(0,", "x);}", "Output", "y:", "Returns", "input", "value", "if", "greater", "than", "0,", "else", "returns", "0.", "Retriever", "iter", "n", "Syntax", "Trees", "of", "Query", "............", "Input", "x’s", "synatx", "tree:", "MethodDeclaration", "-", "Modifiers:", "public", "static", "-", "ReturnType:", "double", "-", "MethodName:", "noisyReLU", "-", "Parameters:", "-", "Parameter", "1:", "-", "Type:", "double", "-", "Identifier:", "x", "-", "Parameter", "2:", "-", "Type:", "double", "-", "Identifier:", "sigma", "Query", "Input", "x:", "public", "static", "double", "noisyReLU(double", "x,", "double", "sigma)", "{", "Random", "rand", "=", "new", "Random();", "double", "noise", "=", "rand.nextGaussian()", "*", "sigma;", "if", "(x", ">", "0)", "{", "return", "x;}", "else", "{", "return", "noise;}}"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 494.4,
+    "y1": 84.0,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Figure5-1.png"
+}, {
+  "caption": "Table 1: Statistics of the benchmark datasets.",
+  "captionBoundary": {
+    "x1": 83.02999877929688,
+    "x2": 264.5107727050781,
+    "y1": 528.9928588867188,
+    "y2": 531.072998046875
+  },
+  "figType": "Table",
+  "imageText": ["4.1", "Datasets", "Program", "Synthesis", "Conala", "2379", "-", "500", "𝐵2𝐹𝑚𝑒𝑑𝑖𝑢𝑚", "52364", "6546", "6545", "Bug", "Fixing", "CSN-Python", "251820", "13914", "14918", "CSN-JavaScript", "58025", "3885", "3291", "CSN-PHP", "241241", "12982", "14014", "CSN-Ruby", "24927", "1400", "1261", "𝐵2𝐹𝑠𝑚𝑎𝑙𝑙", "46680", "5835", "5835", "Code", "Summarization", "Datasets", "Train", "Validation", "Test", "CSN-Java", "164923", "5183", "10955"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 540.0,
+    "y2": 660.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Table1-1.png"
+}, {
+  "caption": "Figure 1: An Example of In-Context Learning on Program Synthesis Task.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932983398438,
+    "y1": 280.8829040527344,
+    "y2": 293.9219970703125
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "Output", "......", "......", "Training", "Dataset:", "Generated", "Prediction", "Output:", "public", "static", "double", "log10(double", "val)", "{......", "LLM", "Demonstrations", "Input:", "Write", "a", "function", "to", "adjust", "squareRoot", "to", "handle", "negative", "values.", "Output:", "public", "static", "double", "squareRoot(double", "val)", "{......", "Input:", "......", "Query:", "Write", "a", "function", "to", "adjust", "log10", "to", "handle", "values", "less", "or", "equal", "to", "zero.", "Retriever", "Input", "Output", "......", "......", "Query", "Prompt:"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 102.72,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Figure1-1.png"
+}, {
+  "caption": "Table 5: Performance of ICR on Untrained Datasets.",
+  "captionBoundary": {
+    "x1": 200.76602172851562,
+    "x2": 410.9289855957031,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ICR", "+", "GPT-Neo-2.7B", "23.8", "10.1", "37.6", "12.5", "27.7", "4.9", "BM25", "+", "GPT-Neo-2.7B", "18.5", "6.8", "31.9", "10.2", "18.3", "2.2", "ASAP", "+", "GPT-Neo-2.7B", "22.8", "9.0", "36.1", "10.7", "25.1", "3.9", "Metrics", "ROUGE-L", "BLEU-4", "ROUGE-L", "BLEU-4", "ROUGE-L", "BLEU-4", "CSN-JavaScript", "CSN-PHP", "CSN-Ruby"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 135.84,
+    "x2": 474.24,
+    "y1": 100.8,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Table5-1.png"
+}, {
+  "caption": "Table 6: Analysis of Example Order.",
+  "captionBoundary": {
+    "x1": 233.5070037841797,
+    "x2": 378.1912536621094,
+    "y1": 175.20889282226562,
+    "y2": 177.28900146484375
+  },
+  "figType": "Table",
+  "imageText": ["ICR", "Similarity", "+", "GPT-Neo-2.7B", "79.2", "89.0", "32.3", "11.1", "7.6", "ICR", "Reverse", "Similarity", "+", "GPT-Neo-2.7B", "78.8", "88.3", "32.4", "11.2", "7.3", "ICR", "Random", "+", "GPT-Neo-2.7B", "78.9", "88.6", "32.6", "11.1", "7.5", "Metrics", "BLEU-4", "BLEU-4", "CodeBLEU", "BLEU-4", "BLEU-4", "𝐵2𝐹𝑠𝑚𝑎𝑙𝑙", "𝐵2𝐹𝑚𝑒𝑑𝑖𝑢𝑚", "Conala", "CSN-Java", "CSN-Python"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 109.92,
+    "x2": 500.15999999999997,
+    "y1": 186.72,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Table6-1.png"
+}, {
+  "caption": "Figure 3: Examples that BM25 will fail in such cases.",
+  "captionBoundary": {
+    "x1": 68.02899932861328,
+    "x2": 279.80596923828125,
+    "y1": 515.6868286132812,
+    "y2": 517.7669677734375
+  },
+  "figType": "Figure",
+  "imageText": ["Query", "1:", "send", "a", "signal", "`signal.SIGUSR1`", "to", "the", "current", "process", "Input", "1:", "kill", "a", "process", "with", "id", "`process.pid`", "Ground", "Truth", "1:", "os", ".", "kill", "(", "os", ".", "getpid", "(", ")", ",", "signal", ".", "SIGUSR1", ")", "Output", "1:", "os", ".", "kill", "(", "process", ".", "pid", ",", "signal", ".", "SIGKILL", ")", "Query", "2:", "decode", "a", "hex", "string", "'4a4b4c'", "to", "UTF-8", "Input", "2:", "add", "unicode", "string", "'1'", "to", "UTF-8", "decoded", "string", "'\\xc2\\xa3'", "Ground", "Truth", "2:", "bytes", ".", "fromhex", "(", "'4a4b4c'", ")", ".", "decode", "(", "'utf-8'", ")", "Output", "2:", "print", "(", "'\\xc2\\xa3'", ".", "decode", "(", "'utf8'", ")", "+", "'1'", ")", "Samples", "from", "the", "Conala", "test", "set", "Samples", "from", "the", "Conala", "training", "set", "Query", "3:", "...", "if", "(source", "instanceof", "Observable)", "{", "return", "RxJavaPlugins.onAssembly((Observable<T>)", "source);", "}", "return", "RxJavaPlugins.onAssembly(new", "ObservableFromUnsafeSource<T>(source));", "...", "Ground", "Truth", "3:", "Wraps", "an", "ObservableSource", "into", "an", "Observable", "if", "not", "already", "an", "Observable", "Input", "3:", "...", "if", "(source", "instanceof", "Callable)", "{", "return", "new", "RxInstrumentedCallableObservable<>(source,", "instrumentations);", "}", "return", "new", "RxInstrumentedObservable<>(source,", "instrumentations);", "...", "Output", "3:", "Wrap", "a", "observable", "A", "sample", "from", "the", "CSN-Java", "dataset"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 247.67999999999998,
+    "y2": 494.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Figure3-1.png"
+}, {
+  "caption": "Figure 2: The Training Workflow of ICR.",
+  "captionBoundary": {
+    "x1": 223.23199462890625,
+    "x2": 388.7678527832031,
+    "y1": 361.9788818359375,
+    "y2": 364.0589904785156
+  },
+  "figType": "Figure",
+  "imageText": ["This", "is", "d", "This", "is", "dst", "This", "is", "d", "This", "is", "dst", "+Query", "+Query", "Iteration", "1,", "2,", "...", "Iteration", "0", "+Query", "Syntax", "Tree", "of", "Instruction:", "V", "P", "Det", "N.", "Iteration", "1,", "2,", "...", "Train", "ICR", "Iteration", "1,", "2,", "...", "Iteration", "0", "Iteration", "0", "Query", "of", "BM25", "Instruction:", "Comment", "on", "the", "code.", "Input", "x:", "public", "static", "double", "log10(double", "val)", "{", "......", "Output", "y:", "......", "Query", "of", "ICR", "Input", "x:", "public", "static", "double", "log10(double", "val)", "{", "......", "Masked", "output", "y:", "Adjusted", "log10", "to", "handle", "......", "Syntax", "Tree", "of", "Input", "x:", "MethodDeclaration", "├──", "Modifiers:", "public", "static", "├──", "Type:", "double", "...........................................", "Instruction:", "Comment", "on", "the", "code.", "Train", "Datasets", "Program", "Synthesis", "datasets", "data", "of", "program", "synthesis", "data", "of", "bug", "fixing", "Bug", "Fixing", "datasets", "Code", "Summarization", "datasets", "Input", "x:", "public", "static", "double", "log10(double", "val)", "{", "......", "Output", "y:", "Adjusted", "log10", "to", "handle", "values", "less", "or", "equal", "to", "zero.", "ICR", "Iter", "n+1", "Score:", "0.05", "demonstration", "......", "...........................................", "Score:", "...", "Score:0.8", "Score:0.95", "demonstration", "......", "...........................................", "demonstration", "K", "Input", "x:", "public", "static", "void", "main(String[]", "args)", "{", "......", "Output:", "....................", "Syntax", "Tree", "of", "d:", "MethodDeclaration", "├──", "Modifiers:", "public", "static", "....................", "demonstration", "1", "Input", "x:", "public", "static", "double", "squareRoot(double", "val)", "{......", "Output:", "....................", "Syntax", "Tree", "of", "d:", "MethodDeclaration", "├──", "Modifiers:", "public", "static", "....................", "Reranked", "Demonstrations", "GPT-Neo-2.7B", "Score", "Demonstrations", "Subsequent", "Iterations", "ICR", "iter", "n", "Search", "...........................................", "Relevant", "Top", "K", "Demonstrations", "of", "Query", "demonstration", "......", "demonstration", "1", "Input", "x:", "public", "static", "double", "squareRoot(double", "val)", "{", "......", "Output", "y:", "....................", "Syntax", "Tree", "of", "d:", "MethodDeclaration", "├──", "Modifiers:", "public", "static", "....................", "First", "Iteration", "BM25", "Search", "...........................................", "Relevant", "Top", "K", "Demonstrations", "of", "Query", "demonstration", "......", "demonstration", "1", "Input", "x:", "public", "static", "double", "squareRoot(double", "val)", "{", "......", "Output", "y:", "....................", "Syntax", "Tree", "of", "d:", "MethodDeclaration", "├──", "Modifiers:", "public", "static", "...................."],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 84.0,
+    "y2": 344.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Figure2-1.png"
+}, {
+  "caption": "Table 4: Ablation Studies of ICR.",
+  "captionBoundary": {
+    "x1": 240.04299926757812,
+    "x2": 371.6548156738281,
+    "y1": 377.9928894042969,
+    "y2": 380.072998046875
+  },
+  "figType": "Table",
+  "imageText": ["ICR", "+", "GPT-Neo-2.7B", "34.8", "11.1", "32.8", "7.6", "32.3", "31.6", "79.2", "89.0", "-", "w/o", "Structural", "Info.", "29.9", "9.1", "30.0", "6.6", "23.3", "22.6", "77.9", "89.0", "-", "w/o", "Feedback-driven", "Training", "30.2", "7.7", "21.7", "3.0", "32.1", "28.7", "65.8", "88.6", "Datasets", "CSN-Java", "CSN-Python", "Conala", "B2F_small", "B2F_medium", "Metrics", "ROUGE-L", "BLEU-4", "ROUGE-L", "BLEU-4", "CodeBELU", "BLEU-4", "BLEU-4", "BLEU-4", "Tasks", "Code", "Summarization", "Program", "Synthesis", "Bug", "Fixing"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.28,
+    "y1": 389.28,
+    "y2": 466.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Table4-1.png"
+}, {
+  "caption": "Table 3: Performance of ICR on Program Synthesis and bug fixing.",
+  "captionBoundary": {
+    "x1": 171.26699829101562,
+    "x2": 440.42620849609375,
+    "y1": 244.59390258789062,
+    "y2": 246.67401123046875
+  },
+  "figType": "Table",
+  "imageText": ["ICR", "+", "Code", "Llama-13B", "44.4", "45.8", "30.4", "80.1", "43.5", "90.7", "49.7", "BM25", "+", "Code", "Llama-13B", "37.1", "38.0", "26.4", "78.8", "42.6", "89.8", "49.3", "ICR", "+", "GPT-Neo-2.7B", "32.3", "31.6", "21.4", "79.2", "42.1", "89.0", "49.1", "Random", "+", "Code", "Llama-13B", "36.1", "35.4", "25.1", "78.2", "42.0", "88.7", "48.7", "BM25", "+", "GPT-Neo-2.7B", "18.5", "17.6", "12.8", "75.6", "41.9", "86.8", "48.7", "Random", "+", "GPT-Neo-2.7B", "16.6", "15.4", "11.5", "75.0", "41.7", "87.1", "48.7", "Datasets", "Conala", "B2F_small", "B2F_medium", "Metrics", "CodeBLEU", "BLEU-4", "CrystalBLEU", "BLEU-4", "CrystalBLEU", "BLEU-4", "CrystalBLEU", "Tasks", "Program", "Synthesis", "Bug", "Fixing"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 524.16,
+    "y1": 255.84,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Table3-1.png"
+}, {
+  "caption": "Table 2: Performance of ICR on Code Summarization.",
+  "captionBoundary": {
+    "x1": 196.96900939941406,
+    "x2": 414.7261657714844,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ICR", "+", "Code", "Llama-13B", "40.3", "13.8", "33.0", "36.1", "39.3", "11.0", "30.9", "34.1", "BM25", "+", "Code", "Llama-13B", "33.8", "10.5", "29.4", "29.5", "34.0", "8.2", "28.4", "28.3", "ASAP", "+", "Code", "Llama-13B", "35.4", "11.9", "29.1", "30.7", "33.0", "9.3", "27.1", "27.9", "ICR", "+", "GPT-Neo-2.7B", "34.8", "11.1", "29.9", "31.8", "32.8", "7.6", "26.4", "28.4", "Random", "+", "Code", "Llama-13B", "34.0", "8.1", "27.7", "28.3", "32.7", "6.4", "25.8", "27.1", "BM25", "+", "GPT-Neo-2.7B", "20.4", "4.7", "19.0", "18.3", "19.5", "3.2", "16.5", "16.3", "ASAP", "+", "GPT-Neo-2.7B", "25.9", "7.4", "23.0", "22.5", "20.4", "4.0", "17.7", "16.6", "Random", "+", "GPT-Neo-2.7B", "18.5", "3.6", "16.8", "17.1", "18.8", "2.8", "15.6", "16.0", "Datasets", "CSN-Java", "CSN-Python", "Metrics", "ROUGE-L", "BLEU-4", "chrF", "METEOR", "ROUGE-L", "BLEU-4", "chrF", "METEOR", "Tasks", "Code", "Summarization"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 510.24,
+    "y1": 100.8,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Table2-1.png"
+}, {
+  "caption": "Figure 4: The Architecture of ICR.",
+  "captionBoundary": {
+    "x1": 104.96099853515625,
+    "x2": 242.87599182128906,
+    "y1": 298.8448791503906,
+    "y2": 300.92498779296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 275.03999999999996,
+    "y1": 141.6,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694997-Figure4-1.png"
+}]

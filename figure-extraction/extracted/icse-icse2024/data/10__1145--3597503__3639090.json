@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 2: DNS query frequency of four samples. Axis X refers to the samples’ execution time; Y refers to queries count every two seconds. Sample a and b use DGA, sample c and d use reverse DNS.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932983398438,
+    "y1": 221.44638061523438,
+    "y2": 259.9539794921875
+  },
+  "figType": "Figure",
+  "imageText": ["r", "m", "be", "y", "nu", "qu", "er", "0", "1", "2", "3", "DN", "S", "200s", "300s", "400s", "d.", "Sample", "SHA256:af2b2b8153c42037a5c4df57", "564c68dbeb97eaf7984c84d64417270f601723d5", "0", "1", "2", "3", "300s", "350s", "400s", "c.", "Sample", "SHA256:1cd16d571b87fb1f215c4296", "a768dee7f9567e317c23517fec9b10a4d9192ed2", "50", "0", "260s", "270s", "280s", "290s", "300s", "b.", "Sample", "SHA256:faa86b3e86bbc63a0a119132", "008e3e316ee658569c8ce19079e536656cdd9ee8", "50", "0", "250s", "300s", "350s", "a.", "Sample", "SHA256:4355af8c9e61affcd2c7cce1f", "6d6fe2ebb48820809e04e424e1192051adb720c"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 565.92,
+    "y1": 86.88,
+    "y2": 202.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Invoke frequency of WNetUseConnectionW after getting a successful DNS response. Axis X refers to samples’ execution time; Y refers to API requests per microsecond.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8046264648438,
+    "y1": 373.36236572265625,
+    "y2": 400.9110107421875
+  },
+  "figType": "Figure",
+  "imageText": ["r", "m", "be", "e", "nu", "nv", "ok", "AP", "I", "i", "150", "100", "50", "0", "220.0s", "220.2s", "220.5s", "220.8s", "221.0s", "221.2s", "b.", "Sample", "SHA256:cd02d5db9d6d2f3e154f63bb", "57198db283282a6cfe08331b68d8418b6f5803ba", "150", "100", "50", "0", "318.4s", "318.6s", "318.8s", "319.0s", "a.", "Sample", "SHA256:13d9c59488e0e727b0d5adbf", "030396be24eb3cb5a47728a4d3bce216a9a4fe23"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 320.15999999999997,
+    "x2": 555.84,
+    "y1": 279.84,
+    "y2": 356.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Figure3-1.png"
+}, {
+  "caption": "Table 9: Comparison results of the defense effect and false positive rates between Unveil, Redemption and their corresponding enhancements.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64324951171875,
+    "y1": 121.93734741210938,
+    "y2": 149.48602294921875
+  },
+  "figType": "Table",
+  "imageText": ["Unveil*", "100%", "0%", "0%", "0%", "41%", "Unveil", "59%", "Redemption*", "100%", "1%", "0%", "1%", "69%", "Redemption", "31%", "Comparison", "Detection", "Rate", "Increase", "False", "Positive", "Increase", "Ransomware", "Samples", "Benign", "Executables"],
+  "name": "9",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 291.36,
+    "y1": 164.16,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Table9-1.png"
+}, {
+  "caption": "Table 4: Aspects that ransomware concerns to cut off the opportunity of system rollback and data recovery.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1898803710938,
+    "y1": 431.8533630371094,
+    "y2": 448.4429931640625
+  },
+  "figType": "Table",
+  "imageText": ["Delete", "System", "Backups", "6,587", "Clean", "Event", "Logs", "1,886", "Disable", "Recovery", "1,778", "Kill", "Processes", "in", "the", "Blacklist", "364", "Kill", "Services", "in", "the", "Blacklist", "15", "Action", "Sample", "Count"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 354.71999999999997,
+    "x2": 521.28,
+    "y1": 463.2,
+    "y2": 531.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Table4-1.png"
+}, {
+  "caption": "Table 3: Statistics of receive data API.",
+  "captionBoundary": {
+    "x1": 362.5950012207031,
+    "x2": 513.2596435546875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["API", "Total", "Count", "Sample", "Count", "Avg.", "per", "Sample", "recv", "6,435", "50", "128.70", "WSARecv", "6,377", "131", "48.68", "recvfrom", "4,951", "1", "4,951", "HttpOpenRequestA", "(Get)", "313", "124", "2.52", "InternetOpenUrlA", "270", "20", "13.50", "WinHttpOpenRequest", "(Get)", "146", "6", "24.33", "HttpOpenRequestW", "(Get)", "144", "113", "1.27", "InternetOpenUrlW", "55", "10", "5.50"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Table3-1.png"
+}, {
+  "caption": "Table 2: The list of most targeted file system paths and kernel object paths. Sample count refers to the number of samples that access a particular path, while access count refers to the total count of all samples access.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0373229980469,
+    "y1": 196.80337524414062,
+    "y2": 235.31097412109375
+  },
+  "figType": "Table",
+  "imageText": ["Finding", "2:", "The", "data", "has", "already", "been", "inventoried", "before", "any", "observable", "signs", "of", "data", "disruption", "in", "the", "user", "file", "space.", "90.48%", "of", "ransomware", "samples", "target", "personal", "files", "within", "the", "user’s", "home", "folder,", "making", "it", "the", "most", "critical", "and", "vulnerable", "private", "data.", "41.51%", "of", "ransomware", "samples", "examine", "the", "availability", "of", "PowerShell,", "CNG", "service,", "and", "recovery", "tools,", "as", "these", "are", "tools", "that", "ransomware", "is", "highly", "likely", "to", "manipulate", "during", "later", "phases.", "ID", "Path", "Sample", "Count", "Access", "Count", "1", "C:\\Users\\Alice\\myfiles", "6,624", "970,333", "2", "C:\\Windows\\System32", "6,492", "2,649,172", "3", "C:\\Program", "Files", "3,689", "3,449,456", "4", "C:\\Windows\\Globalization", "3,494", "4,307", "5", "C:\\Windows\\apppatch", "3,211", "3,915", "6", "C:\\Windows\\WindowsShell.Manifest", "3,039", "3,039", "7", "\\Device\\CNG", "2,858", "2,858", "8", "C:\\PerfLogs", "2,761", "3,630", "9", "C:\\$WinREAgent", "2,693", "7,060", "10", "C:\\$Recycle.Bin", "2,558", "16,779", "11", "C:\\Windows\\SystemResources", "1,957", "2,274", "12", "C:\\Recovery", "450", "998"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 249.6,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Table2-1.png"
+}, {
+  "caption": "Figure 7: Defense result of changing SMB2 port from 445 to 65511. Axis X refers to the samples’ execution time; Y refers to the cumulative count of requests to SMB2 service.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1941528320312,
+    "y1": 482.78436279296875,
+    "y2": 510.3330078125
+  },
+  "figType": "Figure",
+  "imageText": ["er", "vic", "e", "SMB2", "on", "445", "SMB2", "on", "65511", "B2", "S", "S", "M", "st", "to", "eq", "ue", "ive", "R", "ul", "at", "Cu", "m", "150s", "155s", "160s", "165s", "170s", "175s", "180s", "185s", "190s", "420s", "b.", "Sample", "SHA256:704f1655ce9127d7aab6d826", "60b48a127b5f00cadd7282acb03c440f21dae5e2", "1400", "1200", "1000", "800", "600", "400", "200", "0s", "0", "er", "vic", "e", "SMB2", "on", "445", "SMB2", "on", "65511", "B2", "S", "S", "M", "st", "to", "eq", "ue", "ive", "R", "ul", "at", "Cu", "m", "175s", "180s", "185s", "190s", "195s", "200s", "420s", "a.", "Sample", "SHA256:f0103528b96533db9d76df0f", "760b4d0ffc1a142b0070e3a70e6f9a724d726fbd", "600", "500", "400", "300", "200", "100", "0s", "0"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 557.28,
+    "y1": 386.88,
+    "y2": 466.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Figure7-1.png"
+}, {
+  "caption": "Table 5: Three patterns of ransomware’s encryption tasks. There are 6,392 cryptographic ransomware in our dataset.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5694580078125,
+    "y1": 364.0113525390625,
+    "y2": 380.6000061035156
+  },
+  "figType": "Table",
+  "imageText": ["2.72%", "crypt,", "Create,", "Write,", "Close.", "Delete", "and", "Rewrite", "Open,", "Read,", "Close,", "Delete,", "En-", "14.88%", "Write,", "Close,", "Create,", "Write,", "Close.", "Smash", "and", "Rewrite", "Open,", "Read,", "Encrypt,", "Close,", "Open,", "82.40%", "Close.", "Overwrite", "Open,", "Read,", "Encrypt,", "Write,", "Encryption", "Pattern", "Operation", "Sequence", "Sample", "Portion"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 395.52,
+    "y2": 467.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Table5-1.png"
+}, {
+  "caption": "Table 6: Statistics of send data API.",
+  "captionBoundary": {
+    "x1": 367.5269775390625,
+    "x2": 508.32904052734375,
+    "y1": 341.06634521484375,
+    "y2": 346.6969909667969
+  },
+  "figType": "Table",
+  "imageText": ["API", "Total", "Count", "Sample", "Count", "Avg.", "per", "Sample", "send", "3,371", "38", "88.71", "WSASend", "3,061", "129", "23.73", "sendto", "1,491", "3", "497.00", "HttpOpenRequestW", "(POST)", "108", "7", "15.43", "HttpOpenRequestA", "(POST)", "56", "8", "7.00", "WinHttpOpenRequest", "(POST)", "35", "7", "8.00"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 361.44,
+    "y2": 426.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Table6-1.png"
+}, {
+  "caption": "Figure 1: Overall workflow of our study. Firstly, we collect ransomware samples and select active ones through test running. Then, we build up the testbed, run ransomware samples, and gather their runtime logs. After that, we divide the logs into six categories within three phases and elaborate on ransomware’s procedures to disrupt data.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.7162475585938,
+    "y1": 288.41033935546875,
+    "y2": 315.9590148925781
+  },
+  "figType": "Figure",
+  "imageText": ["⑥", "⑤", "④", "③", "①", "②", "Legend:", "Process", "Flow", "Control", "Flow", "Data", "Flow", "C:\\Users\\Alice\\myfiles", "...", "C:\\Windows\\System32", "...", "File", "I/O", "Network", "Traffic", "Keys", "Modification", "Command", "Execution", "Service", "Management", "Phase", "Division", "Category", "Division", "Total", "Logs", "Hypervisor", "Scheduling", "Host", "Running", "Guests", "Virtual", "Machine", "Workload", "Tracker", "Repository", "Ransomware", "Workload", "Monitor", "Resource", "Allocator", "Network", "Manager", "API", "Call", "User", "File", "Space", "System", "File", "Space", "Data", "on", "Computers", "Data", "Exfiltration", "Data", "Tampering", "Data", "Reconnaissance", "Active", "Samples", "Test", "Running", "InTheWild", "Bazaar", "theZoovx-underground", "Discarded", "Samples", "tutorialjinni", "VirusTotal", "VX", "Vault", "Dataset", "Construction", "Testbed", "Establishment", "Log", "Collection", "Threat", "Assessment", "Collections", "Sample"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 558.24,
+    "y1": 91.2,
+    "y2": 271.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Runtime network traffic protocol usage for ransomware samples and benign executables.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368103027344,
+    "y1": 226.73434448242188,
+    "y2": 243.323974609375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Benign", "Executables", "Others5%", "3%", "LSD", "2%", "STP1%", "4%", "TLSv1.3", "3%", "ICMPv6", "GQUIC", "5%", "LLMNR", "ARP", "7%", "TLSv1.2", "9%", "MDNS", "9%", "UDP", "13%", "SSDP", "14%", "TCP", "27%", "(a)", "Ransomware", "Samples", "HTTPS", "4%", "Others", "1%", "ICMP", "4%", "UDP", "31%", "TCP", "10%", "HTTP", "49%"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 293.76,
+    "y1": 105.6,
+    "y2": 211.67999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Figure4-1.png"
+}, {
+  "caption": "Figure 5: SMB2 frequency of two samples. Axis X refers to the execution time; Y refers to SMB2 requests per second.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.036376953125,
+    "y1": 617.0322875976562,
+    "y2": 633.6220092773438
+  },
+  "figType": "Figure",
+  "imageText": ["r", "um", "be", "ke", "t", "n", "p", "ac", "SM", "B2", "200", "100", "0", "155s", "160s", "165s", "170s", "175s", "b.", "Sample", "SHA256:704f1655ce9127d7aab6d826", "60b48a127b5f00cadd7282acb03c440f21dae5e2", "75", "50", "25", "0", "170s", "175s", "180s", "185s", "190s", "195s", "a.", "Sample", "SHA256:f0103528b96533db9d76df0f", "760b4d0ffc1a142b0070e3a70e6f9a724d726fbd"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 291.84,
+    "y1": 534.72,
+    "y2": 600.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Survival rate after deploying proposed reconnaissance, tampering, and exfiltration detectors.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7927856445312,
+    "y1": 468.3443603515625,
+    "y2": 484.9330139160156
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "5", "+", "6", "Exfiltration", "Detector", "Inspired", "by", "Finding", "3", "+", "4", "Tampering", "Detector", "Inspired", "by", "Inspired", "by", "Finding", "1", "+", "2", "100%", "0.61%", "0%0.88%", "Reconnaissance", "Detector"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 399.84,
+    "y2": 454.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Figure6-1.png"
+}, {
+  "caption": "Table 1: Windows registry keys that ransomware modifies. Keys 1-5 are related to persistence keeping, and Keys 6-10 are related to firewall setting.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.726318359375,
+    "y1": 428.0283508300781,
+    "y2": 455.5769958496094
+  },
+  "figType": "Table",
+  "imageText": ["1", "HKEY_LOCAL_MACHINE\\...\\CurrentVersion\\Run", "2", "HKEY_CURRENT_USER\\...\\CurrentVersion\\Run", "3", "HKEY_CURRENT_USER\\...\\", "CurrentVersion\\RunOnce", "4", "Policies\\System\\DisableRegistryTools", "5", "Policies\\System\\DisableTaskMgr", "6", "FirewallPolicy\\StandardProfile\\AuthorizedApplications\\List", "7", "FirewallPolicy\\RestrictedServices\\Static\\System", "8", "FirewallPolicy\\StandardProfile\\EnableFirewall", "9", "FirewallPolicy\\StandardProfile\\DisableNotifications", "10", "FirewallPolicy\\StandardProfile\\DoNotAllowExceptions", "ID", "Registry", "Key"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 538.0799999999999,
+    "y1": 470.4,
+    "y2": 575.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639090-Table1-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 2: Prompt template. In the zero-shot setting we do not include examples.",
+  "captionBoundary": {
+    "x1": 145.11700439453125,
+    "x2": 466.87078857421875,
+    "y1": 381.4083557128906,
+    "y2": 387.03900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Output", "format", "instructions", "Input", "issue", "Examples", "Label", "descriptions", "Task", "description", "Input", "format", "Prompt", "template", "with", "label", "explanation", "{output_format_instructions}", "Title:", "\"\"\"{title}\"\"\"", "Body:", "\"\"\"{body}\"\"\"", "{examples}", "The", "\"bug\"", "label", "is", "used", "to", "identify", "an", "issue", "report", "that", "describes", "a", "problem", "or", "error", "within", "the", "software", "or", "codebase.", "It", "indicates", "that", "something", "is", "not", "functioning", "as", "intended", "or", "producing", "unexpected", "results.", "Bug", "reports", "help", "developers", "identify", "and", "fix", "issues", "to", "improve", "the", "overall", "quality", "and", "reliability", "of", "the", "software.", "The", "\"feature\"", "label", "is", "applied", "to", "an", "issue", "report", "that", "suggests", "the", "addition", "or", "enhancement", "of", "a", "new", "capability", "or", "functionality", "within", "the", "software.", "It", "indicates", "a", "request", "for", "the", "implementation", "of", "a", "specific", "feature", "that", "does", "not", "currently", "exist.", "Feature", "requests", "help", "the", "development", "team", "understand", "the", "needs", "and", "requirements", "of", "the", "users", "and", "can", "influence", "the", "future", "development", "roadmap.", "The", "\"question\"", "label", "is", "used", "when", "a", "user", "or", "contributor", "has", "a", "query", "or", "needs", "clarification", "regarding", "the", "software", "or", "codebase.", "It", "indicates", "that", "the", "issue", "report", "is", "seeking", "information,", "guidance,", "or", "assistance.", "Questions", "can", "be", "related", "to", "functionality,", "usage,", "best", "practices,", "or", "any", "other", "topic", "that", "requires", "clarification.", "The", "\"documentation\"", "label", "is", "applied", "to", "an", "issue", "report", "that", "suggests", "improvements,", "updates,", "or", "corrections", "to", "the", "software's", "documentation.", "It", "indicates", "that", "the", "issue", "is", "focused", "on", "the", "written", "instructions,", "guides,", "or", "explanations", "provided", "alongside", "the", "codebase.", "Documentation", "issues", "help", "ensure", "that", "the", "information", "available", "to", "users", "and", "contributors", "is", "accurate,", "comprehensive,", "and", "up-to-date,", "thus", "facilitating", "better", "understanding", "and", "adoption", "of", "the", "software.", "The", "\"discard\"", "label", "is", "used", "when", "you", "can't", "decide", "due", "to", "lack", "of", "information", "contained", "in", "the", "issue.", "You", "have", "to", "assign", "it", "a", "label.", "Possible", "labels", "are:", "{label_list}", "You", "are", "provided", "with", "a", "GitHub", "issue", "in", "this", "format:", "Title", ":", "\"\"\"the", "title", "of", "the", "issue\"\"\"", "Body", ":", "\"\"\"the", "body", "of", "the", "issue\"\"\""],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 547.1999999999999,
+    "y1": 89.75999999999999,
+    "y2": 361.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Figure2-1.png"
+}, {
+  "caption": "Table 4: Results of the two-shot classification setting with GPT-3.5. The best f1 by class and overall is highlighted in bold.",
+  "captionBoundary": {
+    "x1": 60.96699905395508,
+    "x2": 550.7166137695312,
+    "y1": 455.7393493652344,
+    "y2": 461.3699951171875
+  },
+  "figType": "Table",
+  "imageText": ["(b)", "With", "label", "explanations", "in", "the", "prompt", "Bug", "0,7351", "0,9604", "0,8325", "0,7199", "0,8472", "0,7779", "0,7112", "0,8585", "0,7774", "53", "Documentation", "0,9327", "0,6617", "0,7731", "0,6763", "0,6553", "0,6643", "0,6481", "0,6468", "0,6469", "32", "Feature", "0,8723", "0,8145", "0,8419", "0,8893", "0,5691", "0,6934", "0,8985", "0,5600", "0,6893", "55", "Question", "0,8068", "0,7813", "0,7934", "0,6113", "0,7875", "0,6873", "0,6214", "0,7688", "0,6854", "47", "Micro", "avg", "0,8201", "0,8118", "0,8159", "0,7160", "0,7070", "0,7114", "0,7089", "0,7021", "0,7055", "187", "Macro", "avg", "0,8367", "0,8045", "0,8102", "0,7242", "0,7148", "0,7057", "0,7198", "0,7085", "0,6998", "187", "Discarded", "prediction", "1,02%", "0,86%", "0,96%", "(a)", "Without", "label", "explanations", "in", "the", "prompt", "Bug", "0,7394", "0,9623", "0,8361", "0,7151", "0,8132", "0,7606", "0,7187", "0,8132", "0,7627", "53", "Documentation", "0,9335", "0,6532", "0,7683", "0,7383", "0,6319", "0,6803", "0,7279", "0,6085", "0,6618", "32", "Feature", "0,8640", "0,8182", "0,8402", "0,9152", "0,4764", "0,6254", "0,9112", "0,5055", "0,6490", "55", "Question", "0,7972", "0,7906", "0,7930", "0,4905", "0,8750", "0,6278", "0,4847", "0,8625", "0,6201", "47", "Micro", "avg", "0,8181", "0,8128", "0,8154", "0,6806", "0,6791", "0,6799", "0,6797", "0,6797", "0,6797", "187", "Macro", "avg", "0,8335", "0,8061", "0,8094", "0,7148", "0,6991", "0,6735", "0,7106", "0,6974", "0,6734", "187", "Discarded", "prediction", "0,64%", "0,21%", "–", "4k-0301", "4k-0613", "16k-0613", "Precision", "Recall", "F1-Score", "Precision", "Recall", "F1-Score", "Precision", "Recall", "F1-Score", "Support"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 475.68,
+    "y2": 678.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Table4-1.png"
+}, {
+  "caption": "Table 3: Performance in the one-shot classification setting with GPT-3.5. The best f1 by class and overall is highlighted in bold.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1781005859375,
+    "y1": 220.42135620117188,
+    "y2": 226.052001953125
+  },
+  "figType": "Table",
+  "imageText": ["(b)", "With", "label", "explanations", "in", "the", "prompt", "Bug", "0,7332", "0,9792", "0,8385", "0,7018", "0,8774", "0,7791", "0,7006", "0,8962", "0,7863", "53", "Documentation", "0,9208", "0,6426", "0,7566", "0,8196", "0,6234", "0,7074", "0,8310", "0,6064", "0,7010", "32", "Feature", "0,8664", "0,8255", "0,8453", "0,8750", "0,6709", "0,7582", "0,8687", "0,6909", "0,7689", "55", "Question", "0,8570", "0,7406", "0,7939", "0,6454", "0,7875", "0,7066", "0,6516", "0,7594", "0,7006", "47", "Micro", "avg", "0,8231", "0,8086", "0,8158", "0,7502", "0,7374", "0,7437", "0,7546", "0,7396", "0,7470", "187", "Macro", "avg", "0,8443", "0,7970", "0,8086", "0,7604", "0,7398", "0,7378", "0,7630", "0,7382", "0,7392", "187", "Discarded", "prediction", "1,77%", "1,71%", "1,98%", "(a)", "Without", "label", "explanations", "in", "the", "prompt", "Bug", "0,7212", "0,9792", "0,8305", "0,7115", "0,8302", "0,7658", "0,7049", "0,8358", "0,7643", "53", "Documentation", "0,9360", "0,6128", "0,7400", "0,8500", "0,5745", "0,6839", "0,8380", "0,5553", "0,6674", "32", "Feature", "0,8541", "0,8491", "0,8513", "0,8862", "0,6564", "0,7524", "0,9105", "0,6582", "0,7625", "55", "Question", "0,8316", "0,7375", "0,7813", "0,5204", "0,8438", "0,6416", "0,5296", "0,8688", "0,6569", "47", "Micro", "avg", "0,8123", "0,8075", "0,8099", "0,7175", "0,7171", "0,7173", "0,7195", "0,7187", "0,7191", "187", "Macro", "avg", "0,8357", "0,7947", "0,8008", "0,7420", "0,7262", "0,7109", "0,7458", "0,7295", "0,7128", "187", "Discarded", "prediction", "0,59%", "0,05%", "0,11%", "4k-0301", "4k-0613", "16k-0613", "Precision", "Recall", "F1-Score", "Precision", "Recall", "F1-Score", "Precision", "Recall", "F1-Score", "Support"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 240.95999999999998,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Table3-1.png"
+}, {
+  "caption": "Table 2: Performance in the zero-shot classification setting with GPT-3.5. The best f1 by class and overall is highlighted in bold.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1823120117188,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Bug", "0,6684", "0,9509", "0,7850", "0,7100", "0,9792", "0,8232", "0,7133", "0,9811", "0,8261", "53", "Documentation", "0,9488", "0,5511", "0,6971", "0,8627", "0,6149", "0,7180", "0,8853", "0,6191", "0,7285", "32", "Feature", "0,8916", "0,8018", "0,8442", "0,8883", "0,8527", "0,8701", "0,8861", "0,8491", "0,8672", "55", "Question", "0,7849", "0,8438", "0,8129", "0,8869", "0,7594", "0,8181", "0,8668", "0,7719", "0,8164", "47", "Micro", "avg", "0,7899", "0,7882", "0,7891", "0,8137", "0,8128", "0,8133", "0,8155", "0,8155", "0,8155", "187", "Macro", "avg", "0,8234", "0,7869", "0,7848", "0,8370", "0,8016", "0,8073", "0,8379", "0,8053", "0,8095", "187", "Discarded", "prediction", "0,2%", "0,11%", "–", "4k-0301", "4k-0613", "16k-0613", "Precision", "Recall", "F1-Score", "Precision", "Recall", "F1-Score", "Precision", "Recall", "F1-Score", "Support"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 105.6,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Table2-1.png"
+}, {
+  "caption": "Figure 1: Experimental setting.",
+  "captionBoundary": {
+    "x1": 375.5559997558594,
+    "x2": 500.5957946777344,
+    "y1": 232.81332397460938,
+    "y2": 238.4439697265625
+  },
+  "figType": "Figure",
+  "imageText": ["Few-Shot", "Prompting", "Assessment", "of", "performance", "Manually", "verified", "GitHub", "Issues", "Test", "set", "(200", "issues)", "SETFIT", "(baseline)Fine-tuning", "GPT-like", "models", "Train", "set", "(200", "issues)"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 342.24,
+    "x2": 538.0799999999999,
+    "y1": 85.92,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Figure1-1.png"
+}, {
+  "caption": "Table 1: Distribution of labels of the dataset from Colavito et al. [17], which we use for this study.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03729248046875,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Hand", "labeling", "Label", "Train", "set", "Test", "set", "Bug", "47", "24%", "53", "27%", "Feature", "60", "30%", "55", "28%", "Question", "44", "22%", "47", "24%", "Documentation", "33", "17%", "32", "16%", "Discarded", "16", "8%", "13", "7%", "Total", "200", "200"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 250.07999999999998,
+    "y1": 116.64,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Table1-1.png"
+}, {
+  "caption": "Table 5: Comparison between SETFIT and GPT-3.5.",
+  "captionBoundary": {
+    "x1": 202.92300415039062,
+    "x2": 408.7733459472656,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["SETFIT", "GPT-3.5", "(16k-0613),", "zero-shot", "Label", "Precision", "Recall", "F1-Score", "Precision", "Recall", "F1-Score", "Support", "Bug", "0.8723", "0.8472", "0.8590", "0,7133", "0,9811", "0,8261", "53", "Documentation", "0.9039", "0.6594", "0.7616", "0,8853", "0,6191", "0,7285", "32", "Feature", "0.7494", "0.9182", "0.8251", "0,8861", "0,8491", "0,8672", "55", "Question", "0.8754", "0.8319", "0.8528", "0,8668", "0,7719", "0,8164", "47", "Micro", "average", "0.8321", "0.8321", "0.8321", "0,8155", "0,8155", "0,8155", "187", "Macro", "average", "0.8502", "0.8142", "0.8246", "0,8379", "0,8053", "0,8095", "187"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 133.92,
+    "x2": 478.08,
+    "y1": 105.6,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Table5-1.png"
+}, {
+  "caption": "Table 6: Agreement between GTP-like models and gold labels provided by human annotators. We highlight in bold the best values for Cohen’s 𝑘𝑎𝑝𝑝𝑎.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0373840332031,
+    "y1": 212.45132446289062,
+    "y2": 240.0
+  },
+  "figType": "Table",
+  "imageText": ["setting", "Explanation", "0-Shot", "Y", "0,7045", "0,6806", "0,6838", "1-Shot", "Y", "0,7102", "0,5705", "0,5590", "1-Shot", "N", "0,7163", "0,5846", "0,5839", "2-Shot", "Y", "0,7247", "0,4984", "0,5025", "2-Shot", "N", "0,7157", "0,5515", "0,5605", "Cohen’s", "𝑘𝑎𝑝𝑝𝑎", "Experimental", "Label", "4k-0301", "4k-0613", "16k-0613"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 254.88,
+    "y2": 344.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644903-Table6-1.png"
+}]

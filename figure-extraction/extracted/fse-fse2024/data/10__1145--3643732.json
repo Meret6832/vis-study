@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 3. EyeTrans Methodology Overview. (a) depicts our data collection processes. (b) describes the data preprocessing steps, including transformation to ASTs, data augmentation, and representing a ention switches as edges on ASTs. (c) underlines our proposed approach to model a ention switches using Transformers’ default input embedding modality.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.13348388671875,
+    "y1": 248.07284545898438,
+    "y2": 285.1820068359375
+  },
+  "figType": "Figure",
+  "imageText": ["Permuted", "AST", "b", "Fixation", "d", "Data", "Augmentation", "Att.", "Switch", "d", "→", "c", "Breadth", "First", "Traversal", "c", "Fixation", "c", "g", "f", "d", "e", "a", "1", "2", "3", "4", "Input", "Input", "Embedding", "Add", "New", "Input", "for", "the", "Next", "Block", "Skip", "Connection", "Norm", "...", "Skip", "Connection", "(a)", "Data", "Collection", "(b)", "Mapping", "Eye-Tracking", "onto", "AST", "(c)", "Transformer", "Architecture", "Query", "Key", "Value", "Transformer", "Block", "Product", "Product", "Norm", "Feed", "Foward", "Saccades", "Fixations", "Combine", "AST", "&", "Eye-Tracking", "by", "Quality", "Eye-Tracker", "Filter", "Capture", "Map", "Map", "Participant", "Summarize", "Fixation", "d", "Fixation", "c", "V", "K", "Filtered", "Dataset", "Q", "...", "Weight", "Sharing", "(Att.", "Switch)", "AST", "Height", "Token", "Height", "Embedding...", "AST", "Tokens", "Token", "Semantic", "Embeddings", "...", "(b)(a)", "(c)", "Preprocessed", "AST", "AST", "Original", "ASTPreprocess", "f", "g", "d", "e", "b", "c", "a", "1", "2", "3", "4", "d", "→", "c", "Att.", "S", "witch", "Source", "Code", "Parser", "One-to-one", "Mapping"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 416.15999999999997,
+    "y1": 85.92,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure3-1.png"
+}, {
+  "caption": "Fig. 5. Count and Parent Token Length Distribution by Rating Source. The count decreases for all rating sources as filtering tightens. The consensus approach mitigates outliers, which are seen in strictly filtered comments from Rater A.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1770935058594,
+    "y1": 204.99285888671875,
+    "y2": 231.14300537109375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 421.44,
+    "y1": 84.0,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. Performance comparison of EyeTrans and Transformer on Functional Summarization with varying dropout and noise. The average MAF1 of each data point was determined by conducting the experiments five times, using 0, 1, 42, 123, and 12345 as random seeds.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1744689941406,
+    "y1": 177.30184936523438,
+    "y2": 203.4520263671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 429.12,
+    "y1": 84.0,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Learning curve comparison of EyeTrans and Transformer on General Code Summarization with varying eye-tracking data quality. For simplicity, we use 10 epochs for each curve. The average ROUGE of each data point was determined by conducting the experiments five times, using 0, 1, 42, 123, and 12345 as random seeds.",
+  "captionBoundary": {
+    "x1": 45.62189865112305,
+    "x2": 440.17303466796875,
+    "y1": 334.48583984375,
+    "y2": 371.5950012207031
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 429.12,
+    "y1": 221.76,
+    "y2": 320.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure7-1.png"
+}, {
+  "caption": "Table 1. Comparison of EyeTrans against Transformer on Functional Summarization. In the table, '1 and '2 represent dropout rates of 0.1 and 0.5, respectively, while #1 and #2 represent Gaussian noise levels of 0.1 and 0.5, respectively. The average value of each data point was determined by running the experiments five times, using 0, 1, 42, 123, and 12345 as random seeds.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.37957763671875,
+    "y1": 88.12186431884766,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["Transformer", "(Strict)", "82.92", "52.76", "76.54", "46.70", "81.36", "49.21", "74.11", "42.95", "86.45", "61.29", "81.94", "55.48", "EyeTrans", "(Strict)", "95.68", "55.58", "83.87", "49.48", "95.15", "52.15", "82.32", "45.71", "96.77", "63.87", "87.10", "58.71", "Improvement", "+15.38%", "+5.33%", "+9.58%", "+5.96%", "+16.94%", "+5.97%", "+11.05%", "+6.43%", "+11.95%", "+4.21%", "+6.30%", "+5.80%", "Transformer", "(Filtered)", "92.78", "53.94", "75.78", "42.59", "91.90", "51.58", "73.67", "39.99", "94.47", "60.43", "80.43", "50.21", "EyeTrans", "(Filtered)", "96.09", "58.44", "89.74", "54.40", "95.61", "56.01", "88.74", "51.95", "97.02", "65.11", "91.92", "61.28", "Improvement", "+3.56%", "+8.35%", "+18.42%", "+27.82%", "+4.03%", "+8.59%", "+20.51%", "+29.91%", "+2.71%", "+7.73%", "+14.33%", "+22.03%", "Metrics", "('1,", "#1)", "('2,", "#1)", "('1,", "#2)", "('2,", "#2)", "('1,", "#1)", "('2,", "#1)", "('1,", "#2)", "('2,", "#2)", "('1,", "#1)", "('2,", "#1)", "('1,", "#2)", "('2,", "#2)", "Transformer", "(Original)", "96.90", "64.62", "90.47", "49.70", "96.53", "61.90", "88.46", "46.85", "97.74", "71.29", "92.90", "57.74", "EyeTrans", "(Original)", "99.61", "70.31", "93.10", "56.43", "99.56", "68.14", "92.26", "53.85", "99.68", "76.13", "94.84", "63.55", "Improvement", "+2.80%", "+8.79%", "+2.91%", "+13.52%", "+3.15%", "+10.11%", "+4.29%", "+14.95%", "+1.98%", "+6.80%", "+2.09%", "+10.06%", "MAF1@1", "MAP@1", "MAR@1"],
+  "name": "1",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 424.32,
+    "y1": 139.68,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Table1-1.png"
+}, {
+  "caption": "Table 2. Comparison of EyeTrans against Transformer on General Code Summarization. In the table, '0 and '1 represent dropout rates of 0.0 and 0.1, respectively, while #0 and #1 represent Gaussian noise levels of 0.0 and 0.1, respectively. The average value of each data point was determined by running the experiments five times, using 0, 1, 42, 123, and 12345 as random seeds.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1752014160156,
+    "y1": 260.1118469238281,
+    "y2": 297.22100830078125
+  },
+  "figType": "Table",
+  "imageText": ["Transformer", "(Strict)", "48.18", "44.58", "24.41", "22.30", "16.26", "13.03", "24.27", "20.74", "46.67", "43.30", "EyeTrans", "(Strict)", "48.45", "44.92", "24.36", "22.28", "16.51", "13.24", "24.53", "20.95", "46.99", "43.64", "Improvement", "+0.56%", "+0.76%", "−0.21%", "−0.09%", "+1.54%", "+1.61%", "+1.07%", "+1.01%", "+0.68%", "+0.79%", "Transformer", "(Filtered)", "64.90", "58.45", "40.02", "33.03", "35.73", "28.37", "43.77", "36.61", "62.98", "56.47", "EyeTrans", "(Filtered)", "66.89", "60.18", "42.01", "34.44", "37.71", "29.79", "45.63", "38.01", "64.91", "58.16", "Improvement", "+3.07%", "+2.96%", "+4.97%", "+4.27%", "+5.54%", "+5.00%", "+4.25%", "+3.82%", "+3.05%", "+3.00%", "Metrics", "('0,", "#0)", "('1,", "#1)", "('0,", "#0)", "('1,", "#1)", "('0,", "#0)", "('1,", "#1)", "('0,", "#0)", "('1,", "#1)", "('0,", "#0)", "('1,", "#1)", "Transformer", "(Original)", "71.55", "64.89", "49.30", "40.29", "45.35", "36.51", "52.63", "44.39", "69.52", "62.75", "EyeTrans", "(Original)", "72.91", "66.92", "50.67", "42.76", "46.79", "38.84", "53.95", "46.47", "70.82", "64.85", "Improvement", "+1.90%", "+3.13%", "+2.78%", "+6.12%", "+3.17%", "+6.39%", "+2.51%", "+4.70%", "+1.87%", "+3.35%", "ROUGE-1", "ROUGE-2", "ROUGE-S", "ROUGE-SU", "ROUGE-L"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 395.03999999999996,
+    "y1": 312.0,
+    "y2": 426.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Conceptual Overview of EyeTrans. EyeTrans synthesizes human a ention information into the selfa ention mechanism of Transformers, assisting Transformers in code summarization tasks.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.65704345703125,
+    "y1": 194.21884155273438,
+    "y2": 209.41000366210938
+  },
+  "figType": "Figure",
+  "imageText": ["Skip", "Connection", "Transformer", "Models", "Human", "Attention", "in", "Input", "Embedding", "Eye-Tracking", "Data", "Collection", "by", "Quality", "Human", "Attention", "Filter", "Participants", "Add", "&", "Norm", "Feed", "Forward", "Add", "&", "Norm", "Skip", "Connection", "Synthesis", "Multi-Head", "Attention", "Assist", "#include", "<stdio.h>", "int", "main()", "{", "printf(\"Hello", "world\\n\")", "return", "0;", "}", "Neural", "Comprehension", "Human", "Comprehension", "Code", "AI", "Model", "Programmer"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 110.39999999999999,
+    "x2": 380.64,
+    "y1": 86.39999999999999,
+    "y2": 175.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. (Le ) The experimental room, with the task displayed on the monitor. The Tobii Pro Fusion Eye-tracker is a thin bar magnetized to a strip at the bo om of the monitor. (Right) A screenshot of one task example, with the Java method displayed on the le of the screen, and the summary writing location in the top right.",
+  "captionBoundary": {
+    "x1": 45.50510025024414,
+    "x2": 441.15972900390625,
+    "y1": 193.36386108398438,
+    "y2": 219.51300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Written", "Summary", "Here", "Eye-Tracker", "Source", "Code"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 397.44,
+    "y1": 84.47999999999999,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure2-1.png"
+}, {
+  "caption": "Fig. 4. Illustration of how EyeTrans models a ention switch. A ention switches, conceptualized as edges connecting AST nodes, are mapped onto corresponding AST tokens by merging their respective embeddings.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1756286621094,
+    "y1": 154.28085327148438,
+    "y2": 169.47198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)", "1st", "Att.", "Switch", "Embedding", "2nd", "Att.", "Switch", "Embedding", "Att.", "Switch", "a", "→", "e", "e", "Att.", "Switch", "c", "→", "e", "b", "3a", "2", "1", "b", "3a", "2", "e", "1", "c"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 71.52,
+    "x2": 413.28,
+    "y1": 84.96,
+    "y2": 136.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure4-1.png"
+}, {
+  "caption": "Fig. 8. Illustration of two examples on A ention Simplification in Functional Summarization.We use heatmaps to visualize the & ) matrix extracted from the first Transformer block in both models. (a) showcases the example Java code comprehended by the models (green boxes indicate the bounding boxes for eye-tracking data analysis); (b) visualizes the Transformer a ention map without a ention switch; and (c) visualizes the Transformer a ention map with a ention switch (EyeTrans). We use models trained with a seed of 42 to ensure the reproducibility of the visualization maps.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1766357421875,
+    "y1": 311.84686279296875,
+    "y2": 371.06500244140625
+  },
+  "figType": "Figure",
+  "imageText": ["(EyeTrans)", "(c)", "With", "attention", "switch", "(Transformer)", "(a)", "Example", "Code", "(b)", "Without", "attention", "switch"],
+  "name": "8",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 423.35999999999996,
+    "y1": 84.0,
+    "y2": 291.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643732-Figure8-1.png"
+}]

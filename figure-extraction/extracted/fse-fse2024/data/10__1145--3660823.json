@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 2. CI build time consumption of top six projects (wip/app, probot/settings, bus-stop/x-terminal, testing-library/eslint-plugin-jest-dom, aws-observability/aws-otel-js, and xmldom/xmldom) per month due to unused-dependency commits. The graphs corresponding to other projects are provided in our online appendix.14",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.1581115722656,
+    "y1": 329.9678649902344,
+    "y2": 367.0769958496094
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "testing-library/esli...", "(e)", "aws-observability/aws...", "(f)", "xmldom/xmldom.", "(a)", "wip/app.", "(b)", "probot/settings.", "(c)", "bus-stop/x-terminal."],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 435.35999999999996,
+    "y1": 92.64,
+    "y2": 312.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. An overview of the Dep-sCImitar workflow.",
+  "captionBoundary": {
+    "x1": 144.48399353027344,
+    "x2": 341.51556396484375,
+    "y1": 165.39785766601562,
+    "y2": 169.6300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 380.15999999999997,
+    "y1": 84.0,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Figure3-1.png"
+}, {
+  "caption": "Fig. 1. An overview of our study design showing Project Selection (PS) and Data Curation (DC) steps.",
+  "captionBoundary": {
+    "x1": 55.72380065917969,
+    "x2": 430.2759704589844,
+    "y1": 188.20486450195312,
+    "y2": 192.43701171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 440.15999999999997,
+    "y1": 86.88,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Figure1-1.png"
+}, {
+  "caption": "Table 1. The prevalence of CI waste from unused dependencies. The table presents the total and wasted number of commits and builds. The table further presents figures for both CI providers and consumers.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1686706542969,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["4.2", "Results", "Total", "Quantity", "(#)", "20,743", "6,133", "7", "42.13", "Wasted", "Quantity", "(#)", "10,412", "3,427", "3", "23.63", "Wasted", "Quantity", "(%)", "50.19%", "55.88%", "42.85%", "56.09%", "(median)", "(median)", "Commits", "Build", "Hours", "Commits", "Build", "Minutes", "CI", "Provider", "CI", "Consumer"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 365.28,
+    "y1": 117.6,
+    "y2": 221.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Table1-1.png"
+}, {
+  "caption": "Table 4. Comparison of the total number of commits and build hours stemming from unused-dependency commits between development and runtime dependencies across all the projects in our dataset.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3959655761719,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Commits", "8,762", "(84.15%)", "1,650", "(15.85%)", "Build", "hours", "3,174", "(92.63%)", "253", "(07.37%)", "Unused", "development", "dependencies", "Unused", "runtime", "dependencies"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 370.08,
+    "y1": 117.6,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Table4-1.png"
+}, {
+  "caption": "Table 5. Build hours resulting from unused-dependency commits in development dependencies.",
+  "captionBoundary": {
+    "x1": 66.00389862060547,
+    "x2": 419.75506591796875,
+    "y1": 168.34683227539062,
+    "y2": 172.5789794921875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "consumption", "3,174", "@vercel/node", "797", "eslint", "325", "prettier", "245", "jest", "209", "mocha", "112", "Other", "development", "dependencies", "(937", "dependencies)", "1,485", "Unused", "development", "dependency", "Build", "Hours"],
+  "name": "5",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 133.92,
+    "x2": 350.4,
+    "y1": 187.2,
+    "y2": 271.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Table5-1.png"
+}, {
+  "caption": "Table 3. Build hours a ributed to unused-dependency commits authored by bots.",
+  "captionBoundary": {
+    "x1": 92.18090057373047,
+    "x2": 393.5769958496094,
+    "y1": 159.68087768554688,
+    "y2": 163.91302490234375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "consumption", "9,280", "3,184", "Dependabot", "6,541", "2,373", "Renovate", "bot", "2,514", "741", "Snyk", "bot", "174", "60", "Depfu", "bot", "51", "10", "Bot", "Commits", "Build", "Hours"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 168.95999999999998,
+    "x2": 316.32,
+    "y1": 178.56,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Table3-1.png"
+}, {
+  "caption": "Table 2. Distribution of unused-dependency commits and corresponding build hours over bots and developers.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1688537597656,
+    "y1": 88.12186431884766,
+    "y2": 92.35400390625
+  },
+  "figType": "Table",
+  "imageText": ["Commits", "9,280", "(89.12%)", "1,132", "(10.88%)", "Build", "hours", "3,184", "(92.93%)", "242", "(07.07%)", "Bot", "Developer"],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 306.24,
+    "y1": 106.56,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Table2-1.png"
+}, {
+  "caption": "Fig. 4. Distribution of the wasted CI build time of the top six projects (wip/app, probot/settings, bus-stop/x-terminal, testing-library/eslint-plugin-jest-dom, aws-observability/aws-otel-js, and xmldom/xmldom) before and a er applying our tool.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.1581726074219,
+    "y1": 329.9678649902344,
+    "y2": 356.1180114746094
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "testing-library/esli...", "(e)", "aws-observability/aws...", "(f)", "xmldom/xmldom.", "(a)", "wip/app.", "(b)", "probot/settings.", "(c)", "bus-stop/x-terminal."],
+  "name": "4",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 435.35999999999996,
+    "y1": 92.64,
+    "y2": 312.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660823-Figure4-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1: 𝑂𝑈𝑇 [𝑣] at each iteration of DFA",
+  "captionBoundary": {
+    "x1": 92.72698974609375,
+    "x2": 254.8162384033203,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["0", "[0", "0", "0]", "[0", "0", "0]", "[0", "0", "0]", "[0", "0", "0]", "1", "[1", "0", "0]", "[0", "0", "0]", "[0", "1", "0]", "[0", "0", "1]", "2", "[1", "0", "0]", "[1", "0", "0]", "[0", "1", "0]", "[0", "1", "1]", "3", "[1", "0", "0]", "[1", "0", "0]", "[0", "1", "0]", "[1", "1", "1]", "Iteration", "𝑣1", "𝑣2", "𝑣3", "𝑣4"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 265.44,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Table1-1.png"
+}, {
+  "caption": "Table 2: Hyperparameters used for training DeepDFA.",
+  "captionBoundary": {
+    "x1": 328.6440124511719,
+    "x2": 547.2080688476562,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["_", "(learning", "rate)", "1𝑒−3", "𝐿2", "weight", "1𝑒−2", "𝑘", "(threshold)", "1000", "𝑡", "(number", "of", "GNN", "steps)", "5", "Hidden", "size", "32", "#", "output", "layers", "3", "Batch", "size", "256", "Hyperparameter", "Value"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 372.0,
+    "x2": 504.0,
+    "y1": 105.6,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Table2-1.png"
+}, {
+  "caption": "Table 10: Ablation study evaluated on the Big-Vul test dataset",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.037353515625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["92.11", "(0.46)", "54.04", "(0.11)", "Datatype", "+", "literal", "+", "operator", "68.12", "(0.20)", "92.28", "(0.15)", "53.98", "(0.20)", "API", "+", "literal", "+", "operator", "68.11", "(0.14)", "92.28", "(0.15)", "54.03", "(0.18)", "API", "+", "datatype", "+", "operator", "68.16", "(0.13)", "54.06", "(0.13)", "92.28", "(0.15)", "API", "+", "datatype", "+", "literal", "68.18", "(0.10)", "86.14", "(5.58)", "50.66", "(2.36)", "API", "only", "63.67", "(0.45)", "82.98", "(4.90)", "52.82", "(1.59)", "Operator", "only", "64.47", "(0.33)", "82.46", "(7.26)", "50.52", "(1.83)", "Literal", "only", "62.50", "(0.81)", "92.46", "(0.30)", "53.83", "(0.31)", "Datatype", "only", "68.04", "(0.19)", "92.81", "(0.40)", "DeepDFA", "68.26", "(0.16)", "53.98", "(0.06)", "Feature", "set", "F1", "Precision", "Recall"],
+  "name": "10",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 285.12,
+    "y1": 105.6,
+    "y2": 360.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Table10-1.png"
+}, {
+  "caption": "Figure 1: Overview of DeepDFA",
+  "captionBoundary": {
+    "x1": 242.47300720214844,
+    "x2": 369.5211181640625,
+    "y1": 277.1009216308594,
+    "y2": 279.1810302734375
+  },
+  "figType": "Figure",
+  "imageText": ["datatype", "constant", "operator", "datatype", "API", "constant", ":", "str", "=", "malloc(10", "*", "argc):", "if", "(argc", ">", "0)", "CFG", "+", "abstract", "dataflow", "embedding", "FALSE", ":", "str[(10", "*", "argc)-1]", "=", "0", "(definition", ")", ":", "if", "(argc", ">", "0)", "TRUE", ":", "(char", "*)", "str", "=", "malloc(10", "*", "argc)", "(definition", ")", ":", "char", "*str", "=", "NULL", "(definition", ")", "Dataflow", "analysis-guided", "Graph", "learning", ":", "str[(10", "*", "argc)-1]", "=", "0", "Source", "code", "{", "char", "*str", "=", "NULL;", "if", "(argc", ">", "1)", "{", "str", "=", "malloc(10", "*", "argc);", "}", "str[(10", "*", "argc)-1]", "=", "0;", "//...", "}", "int", "main(int", "argc,", "char", "**argv)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.96,
+    "y2": 253.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Figure1-1.png"
+}, {
+  "caption": "Table 9: Ablation study evaluated on DbgBench",
+  "captionBoundary": {
+    "x1": 340.17498779296875,
+    "x2": 535.6842651367188,
+    "y1": 251.73587036132812,
+    "y2": 253.81597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "17.0", "5.0", "-", "-", "Api+datatype+literal", "8.0", "3.0", "50.00", "59.26", "Api+datatype+operator", "8.0", "3.0", "50.00", "59.26", "Api+literal+operator", "8.0", "3.0", "50.00", "59.26", "Datatype+literal+operator", "8.0", "3.0", "50.00", "59.26", "API", "only", "7.7", "3.0", "48.48", "57.50", "Datatype", "only", "8.0", "3.0", "50.00", "59.26", "Literal", "only", "7.7", "3.0", "48.48", "57.50", "Operator", "only", "7.7", "3.0", "48.48", "57.50", "DeepDFA", "8.7", "3.0", "53.03", "64.29", "Feature", "set", "Buggy", "Patched", "Acc", "F1"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 268.8,
+    "y2": 413.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Table9-1.png"
+}, {
+  "caption": "Figure 2: Analogy of information propagation in Dataflow Analysis and Graph Learning",
+  "captionBoundary": {
+    "x1": 127.385986328125,
+    "x2": 484.600341796875,
+    "y1": 202.21188354492188,
+    "y2": 204.2919921875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Dataflow", "Analysis", "(b)", "Graph", "Learning"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 492.0,
+    "y1": 84.0,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Figure2-1.png"
+}, {
+  "caption": "Table 4: Results of statistical tests for model comparison.",
+  "captionBoundary": {
+    "x1": 322.5509948730469,
+    "x2": 553.2999267578125,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["LineVul", "vs.", "DeepDFA+LineVul", "20.0", "2.77", "×", "10−7", "UniXcoder", "vs.", "DeepDFA+UniXcoder", "25.0", "5.35", "×", "10−4", "Models", "compared", "𝜒2", "statistic", "𝑝-value"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 563.04,
+    "y1": 105.6,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Table4-1.png"
+}, {
+  "caption": "Figure 3: Abstract dataflow embedding generation",
+  "captionBoundary": {
+    "x1": 204.76499938964844,
+    "x2": 407.22625732421875,
+    "y1": 265.7209167480469,
+    "y2": 267.801025390625
+  },
+  "figType": "Figure",
+  "imageText": ["Index", "0", "1", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "1", "1", "2", "3", "4", "Abstract", "dataflow", "embedding", "0", "0", "0", "Source", "code", "Abstract", "dataflow", "embedding", "int", "i", "=", "0;", "str", "=", "malloc(10", "*", "argc)", "char", "*p", "=", "\"https://...\";", "char", "*foo", "=", "NULL;", "Build", "dictionaries", "for", "the", "4", "properties", "4:", "*", "3:", "-", "0:", "NONE", "1:", "UNKNOWN", "2:", "+", "operator", "(char", "*)", "str", "=", "malloc(10", "*", "argc)", "4:", "10", "3:", "0", "0:", "NONE", "1:", "UNKNOWN", "2:", "NULL", "constant", "4:", "getline", "3:", "getchar", "0:", "NONE", "1:", "UNKNOWN", "2:", "malloc", "API", "4:", "double", "3:", "char", "*", "0:", "NONE", "1:", "UNKNOWN", "2:", "int", "datatype", "Extract", "properties"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 553.4399999999999,
+    "y1": 84.0,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Figure3-1.png"
+}, {
+  "caption": "Table 6: DeepDFA retained its performance on limited data.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1553344726562,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["0.5%", "755", "56", "77.69", "79.37", "68.17", "1.0%", "1,510", "90", "84.62", "79.60", "68.40", "10.0%", "15,091", "885", "86.67", "92.53", "68.44", "100.0%", "150,908", "8,736", "93.23", "95.11", "68.26", "0.1%", "151", "11", "29.75", "4.36", "55.24", "Portion", "#", "data", "#", "vul", "LineVul", "UniXcoder", "DeepDFA", "F1"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623345-Table6-1.png"
+}]

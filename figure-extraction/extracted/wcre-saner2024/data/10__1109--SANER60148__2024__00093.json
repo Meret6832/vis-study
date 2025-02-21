@@ -1,0 +1,221 @@
+[{
+  "caption": "TABLE III: Transfer Functions (status0, status1, status2, status3, status4, status5 ∈ Status, status1, status2, status3 = Null, status2, status3 /∈ NonNullInstance; statusc1 ∈ ConstantStatus; statusi1 ∈ InstanceStatus; statusni1, statusni2, statusni3 ∈ NonNullInstance; status′ni2 and status′ni3 denote that the nullness status of fields in statusni2 and statusni3 are updated; statusui1 ∈ UnknownInstance)",
+  "captionBoundary": {
+    "x1": 71.76429748535156,
+    "x2": 546.9141845703125,
+    "y1": 75.62630462646484,
+    "y2": 114.37750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Array", "Assignment", "x", "=", "a[i]", "x", ":", "status0,", "a", ":", "status2", "x", ":", "Unknown,", "a", ":", "NonNull", "instanceof", "Check", "if", "(x", "instanceof", "Type)", "x", ":", "statusui1", "x", ":", "statusni1", "(True", "Branch)", "x", ":", "statusui1", "(False", "Branch)", "x", ":", "statusni1", "(False", "Branch)", "Null", "Check", "if", "(x", "==", "null)", "x", ":", "statusui1", "x", ":", "Null", "(True", "Branch)", "x", ":", "status0,", "obj", ":", "statusni2,", "arg", ":", "statusni3", "x", ":", "status4,", "obj", ":", "status′ni2,", "arg", ":", "status′ni3", "Invocation", "x", "=", "obj.m(arg)", "x", ":", "status0,", "obj", ":", "status2,", "arg", ":", "status3", "x", ":", "status4,", "obj", ":", "statusni1,", "arg", ":", "status5", "x", ":", "status1,", "obj", ":", "{f", ":", "status0}", "x", ":", "statusi1,", "obj", ":", "{f", ":", "statusi1}", "New", "Assignment", "x", "=", "new", "Type()", "x", ":", "status0", "x", ":", "statusi1", "Field", "Store", "obj.f", "=", "x", "x", ":", "status1,", "obj", ":", "statusc1", "x", ":", "statusi1,", "obj", ":", "{f", ":", "statusi1}", "x", ":", "status0,", "obj", ":", "{f", ":", "status1}", "x", ":", "statusi1,", "obj", ":", "{f", ":", "statusi1}", "Field", "Load", "x", "=", "obj.f", "x", ":", "status0,", "obj", ":", "statusc1", "x", ":", "statusi1,", "obj", ":", "{f", ":", "statusi1}", "x", ":", "status0,", "y", ":", "status1", "x:", "statusi1,", "y", ":", "statusi1", "Assignment", "x", "=", "y", "x", ":", "status0,", "y", ":", "Null", "x", ":", "Null,", "y", ":", "Null", "Kind", "Statement", "In-Status", "Out-Status"],
+  "name": "III",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 532.3199999999999,
+    "y1": 116.64,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-TableIII-1.png"
+}, {
+  "caption": "Fig. 8: Cases of Call Graph",
+  "captionBoundary": {
+    "x1": 377.1807861328125,
+    "x2": 482.24237060546875,
+    "y1": 161.1107940673828,
+    "y2": 165.434814453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 522.24,
+    "y1": 72.96,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure8-1.png"
+}, {
+  "caption": "Fig. 12: Results of Time Overhead and Parameter Sensitivity Analysis",
+  "captionBoundary": {
+    "x1": 175.39759826660156,
+    "x2": 441.4026184082031,
+    "y1": 191.45436096191406,
+    "y2": 195.77838134765625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Sensitivity", "of", "Invocation", "Depth", "\u0000H", "\u00006", "\u0000H\u0000F", "\u0000R", "\u0000Q", "\u0000G", "\u00007", "\u0000P", "\u0000\u0015\u0000\u0013\u0000\u0013", "\u0000\u0014#\u0000\u0018", "\u0000\u0014\u0000\u0018\u0000\u0013", "\u0000\u0014\u0000\u0015\u0000\u0018", "\u0000\u0014\u0000\u0013\u0000\u0013", "#\u0000\u0018", "\u0000\u0018\u0000\u0013", "\u0000\u0015\u0000\u0018", "\u0000\u0013", "\u00005\u0000H\u0000F\u0000D", "\u00003\u0000U\u0000H\u0000F", "\u0000V", "\u0000R\u0000Q", "\u0000$\u0000Y\u0000H\u0000U\u0000D", "\u0000H", "\u0000D\u0000U\u0000Q", "\u0000Q", "\u00001\u0000X\u0000P\u0000E\u0000H\u0000U", "\u00007", "\u0000P\u0000H", "\u0000\u0006", "\u00003", "\u0000U\u0000H", "\u0000F", "\u0000V", "\u0000R", "\u0000Q", "\u0000\b", "\u0000D\u0000Q", "\u0000G", "\u0000$", "\u0000Y", "\u0000H\u0000U", "\u0000D", "\u0000H", "\u0000D\u0000U", "\u0000Q", "\u0000Q", "\u00001", "\u0000X", "\u0000P", "\u0000E", "\u0000H\u0000U", "\u00005", "\u0000H\u0000F", "\u0000D", "\u0000\b", "90", "80", "70", "60", "50", "40", "30", "20", "10", "0", "\u0000Q\u0000Y\u0000R\u0000F\u0000D\u0000W", "\u0000R\u0000Q", "\u0000'\u0000H\u0000S\u0000W", "0", "1", "2", "3", "(b)", "Sensitivity", "of", "Field", "Depth", "\u0000H", "\u00006", "\u0000H\u0000F", "\u0000R", "\u0000Q", "\u0000G", "\u00007", "\u0000P", "\u0000\u0015\u0000\u0013\u0000\u0013", "\u0000\u0014#\u0000\u0018", "\u0000\u0014\u0000\u0018\u0000\u0013", "\u0000\u0014\u0000\u0015\u0000\u0018", "\u0000\u0014\u0000\u0013\u0000\u0013", "#\u0000\u0018", "\u0000\u0018\u0000\u0013", "\u0000\u0015\u0000\u0018", "\u0000\u0013", "\u00005\u0000H\u0000F\u0000D", "\u00003\u0000U\u0000H\u0000F", "\u0000V", "\u0000R\u0000Q", "\u0000$\u0000Y\u0000H\u0000U\u0000D", "\u0000H", "\u0000D\u0000U\u0000Q", "\u0000Q", "\u00001\u0000X\u0000P\u0000E\u0000H\u0000U", "\u00007", "\u0000P\u0000H", "\u0000\u0006", "\u00003", "\u0000U\u0000H", "\u0000F", "\u0000V", "\u0000R", "\u0000Q", "\u0000\b", "\u0000D\u0000Q", "\u0000G", "\u0000$", "\u0000Y", "\u0000H\u0000U", "\u0000D", "\u0000H", "\u0000D\u0000U", "\u0000Q", "\u0000Q", "\u00001", "\u0000X", "\u0000P", "\u0000E", "\u0000H\u0000U", "\u00005", "\u0000H\u0000F", "\u0000D", "\u0000\b", "90", "80", "70", "60", "50", "40", "30", "20", "10", "0", "\u0000)", "\u0000H", "\u0000G", "\u0000'\u0000H\u0000S\u0000W", "0", "1", "2", "3", "(a)", "Time", "Overhead", "w.r.t.", "Project", "Size", "\u0000\u0013\u0000\u0013", "\u0000\u0014\u0000\u0013\u0000\u0013\u0000\u0013", "\u00007", "\u0000P", "\u0000H", "\u00006", "\u0000H\u0000F", "\u0000R", "\u0000Q", "\u0000G", "\u0000\u0019\u0000\u0013\u0000\u0013", "\u0000\u0017\u0000\u0013\u0000\u0013", "\u0000\u0015\u0000\u0013\u0000\u0013", "\u0000\u0013", "\u00003\u0000U\u0000R", "\u0000H\u0000F\u0000W", "\u00006", "\u0000H", "\u0000Q", "\u0000Q\u0000H\u0000V", "\u0000R\u0000I", "\u0000&\u0000R\u0000G\u0000H", "\u0000\u0013", "\u0000\u0014\u0000\u0013\u0000\u0013", "\u0000\u0015\u0000\u0013\u0000\u0013", "\u0000\u0016\u0000\u0013\u0000\u0013", "\u0000\u0017\u0000\u0013\u0000\u0013", "\u0000\u0018\u0000\u0013\u0000\u0013", "\u0000\u0019\u0000\u0013\u0000\u0013"],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 83.03999999999999,
+    "x2": 530.4,
+    "y1": 73.92,
+    "y2": 185.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure12-1.png"
+}, {
+  "caption": "Fig. 2: Example of Object Aliasing",
+  "captionBoundary": {
+    "x1": 365.5674133300781,
+    "x2": 499.1895446777344,
+    "y1": 378.6672058105469,
+    "y2": 382.9912109375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "public", "Inited()", "{}", "11", "}", "12", "}", "1", "public", "class", "ObjectAliasingCase", "{", "2", "public", "void", "entry()", "{", "3", "Inited", "a", "=", "new", "Inited();", "4", "Inited", "b", "=", "a;", "5", "a.field", "=", "null;", "6", "b.field.toString();", "//", "NPE", "7", "}", "8", "public", "static", "class", "Inited", "{", "9", "public", "Object", "field", "=", "new", "Object();"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 314.4,
+    "x2": 547.1999999999999,
+    "y1": 278.88,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure2-1.png"
+}, {
+  "caption": "TABLE IV: Tool Recall (“Avg Warn.” denotes the average number of NPE warnings produced by a tool for each project; “Found” denotes the number of benchmark NPEs found by a tool; “Recall” denotes the recall of a tool; “Unique” denotes the benchmark NPEs that could only be found by a tool)",
+  "captionBoundary": {
+    "x1": 313.79229736328125,
+    "x2": 547.8923950195312,
+    "y1": 75.45796966552734,
+    "y2": 123.84808349609375
+  },
+  "figType": "Table",
+  "imageText": ["rameter", "to", "the", "effectiveness", "and", "efﬁciency", "of", "WHEELJACK?", "•", "RQ4", "Sensitivity", "Analysis:", "How", "is", "the", "sensitivity", "of", "each", "pa-", "Dataﬂow", "SPOTBUGSHT", "4", "3", "5.3%", "0", "SPOTBUGSLT", "38", "7", "12.3%", "0", "WHEELJACK", "66", "13", "22.8%", "8", "Combined", "INFER-ERADICATE", "1,354", "8", "14.0%", "2", "Type", "CFNULLNESS", "1,299", "7", "12.3%", "2", "NULLAWAY", "86", "2", "3.5%", "1", "Category", "Tool", "Avg", "Warn.", "Found", "Recall", "Unique"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 548.16,
+    "y1": 127.67999999999999,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-TableIV-1.png"
+}, {
+  "caption": "Fig. 5: Example of Argument Passing",
+  "captionBoundary": {
+    "x1": 358.6698913574219,
+    "x2": 501.68365478515625,
+    "y1": 300.9363098144531,
+    "y2": 305.26031494140625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "obj.toString();", "11", "}", "12", "private", "void", "m2(Object", "p1,", "Object", "p2,", "Object", "p3)", "{", "13", "p1.toString();", "//", "NPE", "14", "if", "(p3", "==", "null)", "return;", "15", "p3.toString();", "16", "}", "17", "}", "1", "public", "class", "ArgumentPassingCase", "{", "2", "public", "void", "entry()", "{", "3", "m1(new", "Object());", "4", "m2(null,", "null,", "null);", "5", "}", "6", "private", "void", "m1(Object", "obj)", "{", "7", "if", "(obj", "==", "null)", "{", "8", "System.out.println();", "9", "}"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 312.47999999999996,
+    "x2": 545.28,
+    "y1": 163.68,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure5-1.png"
+}, {
+  "caption": "Fig. 11: Example of Limited Kinds of Values",
+  "captionBoundary": {
+    "x1": 344.777587890625,
+    "x2": 516.957763671875,
+    "y1": 354.99920654296875,
+    "y2": 359.3232116699219
+  },
+  "figType": "Figure",
+  "imageText": ["10", "}", "11", "obj.toString();", "12", "}", "1", "public", "void", "m()", "{", "2", "Object", "obj", "=", "null;", "3", "//", "getOrientation", "only", "returns", "two", "kinds", "of", "values", "4", "Orientation", "ori", "=", "getOrientation();", "5", "if", "(ori", "==", "HORIZONTAL)", "{", "6", "obj", "=", "new", "Object();", "7", "}", "8", "else", "if", "(ori", "==", "VERTICAL)", "{", "9", "obj", "=", "new", "Object();"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 546.24,
+    "y1": 254.88,
+    "y2": 350.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure11-1.png"
+}, {
+  "caption": "Fig. 9: Example of Getter",
+  "captionBoundary": {
+    "x1": 381.98590087890625,
+    "x2": 479.7489929199219,
+    "y1": 152.8478546142578,
+    "y2": 157.171875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "void", "m()", "{", "2", "if", "(getField()", "!=", "null)", "{", "3", "getField().toString();", "4", "}", "5", "}", "6", "7", "public", "Object", "getField()", "{", "8", "return", "field;", "9", "}"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 315.36,
+    "x2": 546.24,
+    "y1": 74.88,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure9-1.png"
+}, {
+  "caption": "Fig. 10: Example of Argument after Invocation",
+  "captionBoundary": {
+    "x1": 341.6509094238281,
+    "x2": 520.0829467773438,
+    "y1": 239.23475646972656,
+    "y2": 243.55877685546875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "void", "m(Object", "arg)", "{", "2", "requireNonNull(arg);", "3", "arg.toString();", "4", "}", "5", "6", "public", "static", "void", "requireNonNull(Object", "arg)", "{", "7", "if", "(arg", "==", "null)", "throw", "new", "RuntimeException();", "8", "}"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 315.36,
+    "x2": 546.24,
+    "y1": 168.95999999999998,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure10-1.png"
+}, {
+  "caption": "TABLE V: Tool Precision (“Avg Warn.” denotes the average number of NPE warnings produced by a tool for each project; “Sampled” denotes the number of NPE warnings randomly sampled for our manual investigation; “precision” denotes the sampled precision of a tool)",
+  "captionBoundary": {
+    "x1": 62.1870002746582,
+    "x2": 295.52227783203125,
+    "y1": 75.96248626708984,
+    "y2": 124.35272216796875
+  },
+  "figType": "Table",
+  "imageText": ["Dataﬂow", "SPOTBUGSHT", "4", "50", "60%", "SPOTBUGSLT", "38", "50", "46%", "WHEELJACK", "66", "50", "52%", "Combined", "INFER-ERADICATE", "1,354", "50", "8%", "Type", "CFNULLNESS", "1,299", "50", "18%", "NULLAWAY", "86", "50", "32%", "Category", "Tool", "Avg", "Warn.", "Sampled", "Precision"],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 295.2,
+    "y1": 127.67999999999999,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-TableV-1.png"
+}, {
+  "caption": "Fig. 6: Example of Side Effect of Invocation",
+  "captionBoundary": {
+    "x1": 94.66419982910156,
+    "x2": 264.0078125,
+    "y1": 210.0290069580078,
+    "y2": 214.35302734375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "public", "static", "class", "NotInited", "{", "11", "public", "Object", "field", "=", "null;", "12", "public", "NotInited()", "{}", "13", "public", "void", "setField(Object", "field)", "{", "14", "this.field", "=", "field;", "15", "}", "16", "}", "17", "}", "1", "public", "class", "SideEffectCase", "{", "2", "public", "void", "method1()", "{", "3", "NotInited", "obj", "=", "new", "NotInited();", "4", "obj.field.toString();", "//", "NPE", "5", "obj.setField(new", "Object());", "6", "obj.field.toString();", "//", "Safe", "7", "obj.setField(null);", "8", "obj.field.toString();", "//", "NPE", "9", "}"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 294.24,
+    "y1": 72.96,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00093-Figure6-1.png"
+}]

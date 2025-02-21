@@ -1,0 +1,141 @@
+[{
+  "caption": "Fig. 3: Overview of the process to map the API changes with the client project build errors",
+  "captionBoundary": {
+    "x1": 315.1711120605469,
+    "x2": 548.663330078125,
+    "y1": 141.51841735839844,
+    "y2": 157.00054931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Mapping", "the", "error", "line", "with", "the", "API", "change", "Class", "Japicmp", "tool", "JAR", "v2.0", "JAR", "v1.0", "Breaking", "changes", "between", "library", "versions", "locate", "line", "with", "the", "breakage", "Log", "fileClient", "project", "build", "failure"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 342.24,
+    "x2": 523.1999999999999,
+    "y1": 70.56,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00024-Figure3-1.png"
+}, {
+  "caption": "Fig. 4: Distribution of dependencies per project over BUMP",
+  "captionBoundary": {
+    "x1": 64.03520202636719,
+    "x2": 295.6281433105469,
+    "y1": 162.00889587402344,
+    "y2": 166.372802734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 270.24,
+    "y1": 74.88,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00024-Figure4-1.png"
+}, {
+  "caption": "TABLE V: Causes of test failures. Some breaking updates have more than one type of error.",
+  "captionBoundary": {
+    "x1": 61.85279846191406,
+    "x2": 295.3358459472656,
+    "y1": 74.73271179199219,
+    "y2": 90.21484375
+  },
+  "figType": "Table",
+  "imageText": ["NoClassDefFoundError", "1751", "68", "IllegalStateException", "1500", "13", "ClassCastException", "386", "28", "UnsupportedClassVersionError", "204", "11", "Other", "exceptions", "434", "83", "Test", "assertion", "errors", "263", "60", "Cause", "of", "test", "failure", "Number", "of", "test", "cases", "Number", "of", "breaking", "updates"],
+  "name": "V",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 284.15999999999997,
+    "y1": 96.0,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00024-TableV-1.png"
+}, {
+  "caption": "Fig. 1: A real-world example of a breaking update.",
+  "captionBoundary": {
+    "x1": 203.99549865722656,
+    "x2": 399.5281066894531,
+    "y1": 217.9011688232422,
+    "y2": 222.26507568359375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Dependency", "version", "update", "in", "Maven", "build", "ﬁle", "(b)", "Information", "provided", "by", "the", "bot", "that", "sug-", "gested", "the", "dependency", "update", "(c)", "GitHub", "action", "failure", "after", "the", "dependency", "update"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 541.4399999999999,
+    "y1": 73.92,
+    "y2": 210.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00024-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: Overview of the methodology to build the BUMP benchmark.",
+  "captionBoundary": {
+    "x1": 168.10679626464844,
+    "x2": 435.4169616699219,
+    "y1": 443.4317626953125,
+    "y2": 447.7956848144531
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 541.4399999999999,
+    "y1": 237.6,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00024-Figure2-1.png"
+}, {
+  "caption": "TABLE II: The number of breaking updates per failure category in the BUMP benchmark",
+  "captionBoundary": {
+    "x1": 314.66607666015625,
+    "x2": 548.149169921875,
+    "y1": 609.0984497070312,
+    "y2": 624.58056640625
+  },
+  "figType": "Table",
+  "imageText": ["Answer", "to", "RQ2:", "BUMP", "contains", "571", "breaking", "de-", "pendency", "updates,", "76%", "correspond", "to", "classical", "breaking", "dependency", "updates", "due", "to", "compilation", "or", "test", "failures.", "While", "those", "problems", "are", "known,", "it", "is", "the", "ﬁrst", "time", "that", "they", "are", "encapsulated", "in", "a", "fully", "reproducible", "manner.", "The", "equal", "proportion", "of", "compilation", "and", "test", "failures", "suggests", "an", "equally", "important", "need", "to", "investigate", "auto-", "matic", "migration", "of", "APIs", "to", "address", "compilation", "errors", "and", "automatic", "repair", "of", "behavioral", "changes", "in", "dependencies.", "BUMP", "also", "includes", "24%", "of", "more", "original", "failures", "that", "were", "never", "discussed", "before", "in", "the", "literature:", "enforcer", "and", "locking", "failures.", "The", "BUMP", "benchmark", "contains", "real-", "world", "examples", "of", "breakages", "for", "each", "failure", "type,", "it", "will", "serve", "as", "foundation", "for", "future", "research", "on", "all", "facets", "of", "the", "breaking", "update", "problem."],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 549.12,
+    "y1": 398.88,
+    "y2": 582.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00024-TableII-1.png"
+}, {
+  "caption": "TABLE IV: The 10 most common API changes that caused compilation errors in client projects included in BUMP",
+  "captionBoundary": {
+    "x1": 314.9755859375,
+    "x2": 548.458740234375,
+    "y1": 75.41551208496094,
+    "y2": 90.89764404296875
+  },
+  "figType": "Table",
+  "imageText": ["method", "removed", "139", "0.42", "class", "removed", "30", "1.00", "constructor", "removed", "25", "0.36", "class", "generic", "template", "changed", "7", "0.13", "method", "now", "throws", "checked", "exception", "2", "0.39", "method", "removed", "in", "super", "class", "2", "0.06", "method", "return", "type", "changed", "2", "0.04", "method", "abstract", "added", "to", "class", "1", "0.55", "method", "no", "longer", "throws", "checked", "exception", "1", "0.24", "method", "parameter", "generics", "changed", "1", "0.00", "no", "change", "detected", "by", "japicmp", "130", "N/A", "API", "change", "Total", "Count", "Normalized", "breakage", "likelihood", "score", "(S)"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 549.12,
+    "y1": 96.47999999999999,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00024-TableIV-1.png"
+}]

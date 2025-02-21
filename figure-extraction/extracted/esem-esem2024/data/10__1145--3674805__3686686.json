@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 3: RQ2. Appearances (#) and frequencies (%) of errorhandling (EH) usage categories.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8104248046875,
+    "y1": 250.0661163330078,
+    "y2": 266.656005859375
+  },
+  "figType": "Table",
+  "imageText": ["overflow", "/", "underflow", "1,217", "46.93", "3.82", "division", "by", "zero", "984", "37.94", "array", "operations", "218", "8.43", "program", "logic", "107", "4.12", "enum", "type", "conversion", "67", "2.58", "assert", "require", "function", "arguments", "38,059", "56.35", "83.15external", "calls", "29,541", "43.75", "try–catch", "external", "calls", "4,135", "70.25", "7.25external", "contract", "creation", "1,756", "29.83", "revert", "functions", "3,821", "81.22", "5.79statements", "885", "18.88", "EH", "Features", "Usage", "Categories", "(#)", "(%)", "Total", "(%)"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 540.0,
+    "y1": 281.28,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Table3-1.png"
+}, {
+  "caption": "Table 2: RQ1. Error-handling (EH) changes across versions.",
+  "captionBoundary": {
+    "x1": 318.8080139160156,
+    "x2": 557.0545654296875,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["0.8.7", "Aug", "11,", "2021", "Enabling", "SMTChecker", "to", "check", "for", "overflows", "/", "underflows", "Running", "SMTChecker", "by", "default", "0.4.10", "Mar", "15,", "2017", "Introduction", "of", "require(condition)", "and", "assert(condition)", "Support", "of", "revert()", "as", "an", "OPcode", "to", "abort", "with", "rolling", "back,", "but", "not", "consuming", "all", "gas.", "0.4.13", "Jul", "6,", "2017", "Deprecation", "of", "throw()", "due", "to", "require(),", "assert(),", "revert()", "0.4.16", "Aug", "24,", "2017", "Automated", "support", "for", "checking", "overflows", "and", "assert", "0.4.22", "Apr", "17,", "2018", "Specification", "of", "Error", "in", "require", "and", "revert", "0.6.0", "Dec", "18,", "2019", "Introduction", "of", "try–catch", "0.6.9", "Jun", "4,", "2020", "SMTChecker", "supports", "require", "and", "assert", "0.7.2", "Sep", "28,", "2020", "SMTChecker", "supports", "revert()", "0.8.0", "Dec", "16,", "2020", "Introduction", "of", "Panic(uint)", "and", "Error(string)", "0.8.1", "Jan", "27,", "2021", "Catch", "and", "decode", "Panic(uint)", "and", "Error(string)", "in", "try–catch", "0.8.4", "Apr", "21,", "2021", "Start", "deprecating", "pragma", "experimental", "SMTChecker", "0.1.3", "Sep", "23,", "2015", "Introduction", "of", "throw", "0.4.0", "Sep", "8,", "2016", "Specification", "of", "the", "compiler", "version", "via", "pragma", "Version", "Date", "EH", "Change"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 105.6,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Table2-1.png"
+}, {
+  "caption": "Table 4: RQ3. Error-handling (EH) usage growth rates.",
+  "captionBoundary": {
+    "x1": 64.5770034790039,
+    "x2": 282.9715881347656,
+    "y1": 259.7740783691406,
+    "y2": 265.40496826171875
+  },
+  "figType": "Table",
+  "imageText": ["require", "0.163", "3.938", "1.894", "2.085", "1.187", "try-catch", "0.162", "1.037", "0.333", "0.162", "0.378", "revert", "0.220", "0.927", "0.513", "0.490", "0.224", "assert", "0.504", "1.406", "0.961", "0.989", "0.329", "EH", "feature", "Min", "Max", "Mean", "Median", "St.", "Dev."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 256.32,
+    "y1": 279.84,
+    "y2": 328.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Table4-1.png"
+}, {
+  "caption": "Figure 1: Our method to analyse the evolution of Solidity EH.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2025146484375,
+    "y1": 185.53309631347656,
+    "y2": 191.16400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "2", "3", "Findings", "and", "misusages", "Elements", "include", "categories,", "usages", "Element", "Metadata", "Extract", "Contracts", "Dataset", "by", "Chaliasos", "et", "al.", "[29]", "Extract", "Error", "Handling", "Categories", "Solidity", "Documentation", "Measure", "Error", "Handling", "Features", "Qualitative", "Analysis", "Quantitative", "Raw", "Data", "Fetch", "Data", "Explore", "Blocks", "Contract", "Ethereum", "Etherscan", "Data", "CurationData", "Collection"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 82.56,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Figure1-1.png"
+}, {
+  "caption": "Figure 5: RQ5. Error-handling (EH) misuses per quarter.",
+  "captionBoundary": {
+    "x1": 325.01300048828125,
+    "x2": 551.1458129882812,
+    "y1": 258.9601135253906,
+    "y2": 264.59100341796875
+  },
+  "figType": "Figure",
+  "imageText": ["Function", "Argument", "of", "address", "type", "External", "Calls", "External", "Contracts", "Array", "Allocation", "Division", "by", "Zero", "Pop", "from", "Arrays", "Enum", "Type", "Conversion", "us", "es", "f", "M", "is", "#", "o", "Date", "1000", "23", "0", "04", "-20", "23", "01", "-20", "22", "06", "-20", "22", "01", "-20", "21", "06", "-20", "21", "01", "-20", "20", "06", "-20", "20", "01", "-20", "19", "06", "-20", "19", "01", "-20", "18", "06", "-20", "18", "01", "-20", "17", "06", "-20", "17", "03", "-20", "22000", "21000", "20000", "19000", "18000", "17000"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 331.2,
+    "x2": 541.4399999999999,
+    "y1": 101.28,
+    "y2": 243.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Figure5-1.png"
+}, {
+  "caption": "Table 1: Descriptive statistics of our dataset.",
+  "captionBoundary": {
+    "x1": 85.0469970703125,
+    "x2": 262.5010681152344,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Start", "Block", "47,205", "(7th", "of", "August,", "2015)", "End", "Block", "16,993,877", "(8th", "of", "April,", "2023)", "Total", "Source", "files", "2M", "Total", "Unique", "Source", "files", "1.7M", "Total", "Number", "of", "Functions", "168M", "Total", "Number", "of", "Modifiers", "4.03M", "Total", "Number", "of", "Constructors", "672K", "Total", "Unique", "Smart", "Contracts", "283K", "Contracts", "with", "at", "least", "one", "EH", "feature", "215.8K", "Average", "LOC", "per", ".sol", "file", "105.1", "LOC", "51.2M"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 281.28,
+    "y1": 105.6,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Table1-1.png"
+}, {
+  "caption": "Table 5: RQ4. Categories of error-handling (EH) misuses, corresponding descriptions, total cases where EH should have been used, and number of misuses for each category.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2060546875,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Missing", "assert", "to", "val-", "idate", "if", "the", "conversion", "to", "the", "enum", "type", "is", "done", "correctly", "Hakiro", "In", "this", "contract,", "there", "is", "an", "enum", "type", "named", "Step.", "In", "function", "setStep(uint", "step),", "there", "is", "a", "missing", "assertion", "to", "check", "if", "sellingStep", "=", "Step(step);", "is", "done", "correctly", "67", "60(89.55%)", "assert", "Division", "by", "Zero", "(DZ)", "Missing", "assert", "to", "check", "if", "the", "division", "is", "valid", "ZoomerRethPool", "In", "function", "getRedeemValue(uint256", "totalBurn)", "there", "is", "not", "check", "if", "the", "(balance", "/", "(5000", "-", "totalBurn)", "is", ">0", "94", "75(79.76%)", "assert", "enum", "Type", "Conversion", "(ETC)", "GenjiMonotagari", "The", "function", "remove(Map", "storage", "map,", "address", "key)", "that", "deletes", "the", "last", "key", "from", "map.keys", "does", "not", "have", "an", "assertion.", "181", "164(90.62%)", "assert", "Array", "Allocation", "(AA)", "Missing", "assert", "to", "test", "if", "the", "array", "allocated", "has", "a", "valid", "length", "VaultsRegistry", "Missing", "assert", "to", "test", "if", "allVaults.length", "in", "address[]", "memory", "vaultsArray", "=", "new", "address[](allVaults.length);", "is", "a", "valid", "number", "602", "401(66.67%)", "assert", "Pop", "from", "Array", "(PA)", "Missing", "assert", "to", "test", "if", ".pop()", "is", "valid", "External", "Contract", "(ECon)", "Missing", "try", "to", "test", "if", "the", "external", "contract", "is", "created", "correctly", "CapsuleFactory", "A", "new", "contract", "Capsule", "capsuleCollection", "=", "new", "Capsule(name,", "symbol,", "tokenURIOwner,", "isCollection)", "is", "cre-", "ated", "without", "using", "try", "to", "test", "the", "correct", "creation", "of", "the", "contract", "1,162", "934(80.37%)", "try–catch", "Function", "Argument", "of", "address", "type", "(FAA)", "Missing", "require", "to", "check", "if", "an", "input", "of", "an", "address", "type", "is", "valid.", "StreetDawgs", "Missing", "require", "to", "check", "from", "in", "the", "code", "fragment", "address", "from", "=", "address(uint160(_packedOwnershipOf(Id))", "31,018", "27,", "741(89.43%)", "require", "External", "Call", "(ECall)", "Missing", "EH", "feature", "to", "validate", "a", "call", "to", "an", "ex-", "ternal", "contract", "IRoutedSwapper", "Missing", "require", "or", "try–catch", "for", "external", "call", "swapper.swapExactInput())", "110,655", "70.417(63.63%)", "require", "or", "try–catch", "Missing", "EH", "Category", "(EH", "Misuse", "Category)", "Category", "Description", "Representative", "Misuse", "(Contract", "in", "Etherscan)", "Misuse", "Description", "Total", "Cases", "(#)", "Missing", "EH", "(%)", "EH", "Required"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 532.3199999999999,
+    "y1": 116.64,
+    "y2": 341.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Table5-1.png"
+}, {
+  "caption": "Table 6: RQ5. Error-handling (EH) misuse growth rates.",
+  "captionBoundary": {
+    "x1": 325.9230041503906,
+    "x2": 549.9397583007812,
+    "y1": 357.8291015625,
+    "y2": 363.4599914550781
+  },
+  "figType": "Table",
+  "imageText": ["External", "Call", "(ECall)", "0.043", "0.332", "0.190", "0.218", "0.133", "Function", "Argument", "of", "address", "type", "(FAA)", "0.004", "0.205", "0.103", "0.110", "0.110", "External", "Contract", "(ECon)", "0.331", "3.641", "1.777", "1.775", "1.164", "Array", "Allocation", "(AA)", "0.306", "4.897", "2.081", "2.045", "1.590", "Pop", "from", "Array", "(PA)", "0.911", "4.970", "3.588", "4.161", "1.646", "Division", "by", "Zero", "(DZ)", "0.801", "10.201", "6.364", "7.299", "3.832", "enum", "Type", "Conversion", "(ETC)", "0.470", "2.647", "1.920", "2.382", "0.881", "EH", "Misuse", "Category", "Min", "Max", "Mean", "Median", "St.", "Dev."],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 555.36,
+    "y1": 377.76,
+    "y2": 446.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Table6-1.png"
+}, {
+  "caption": "Figure 2: The abstract syntax of the heuristic rules that represent the usages of the different error-handling (EH) features, according to the Solidity documentation (v0.8.19).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8104248046875,
+    "y1": 271.1061096191406,
+    "y2": 298.6549987792969
+  },
+  "figType": "Figure",
+  "imageText": ["⟨𝑜𝑝", "⟩", "::=", "+", "|", "-", "|", "*", "|", "/", "⟨𝑐𝑜𝑚⟩", "::=", "<", "|", "<=", "|", ">", "|", ">=", "|", "==", "|", "!=", "|", "!", "⟨𝑙", "⟩", "::=", "array", "length", "⟨𝑡", "∈", "𝑆𝑜𝑙𝑖𝑑𝑖𝑡𝑦𝑇", "𝑦𝑝𝑒𝑠", "⟩", "::=", "str", "|", "uint", "|", "int", "|", "bool", "|", "address", "⟨𝑒𝑟", "⟩", "::=", "Error", "|", "Panic", "|", "CustomError", "⟨𝑎𝑟𝑟", "∈", "𝑎𝑟𝑟𝑎𝑦𝑠", "⟩", "::=", "storage", "|", "memory"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 325.44,
+    "x2": 549.6,
+    "y1": 181.44,
+    "y2": 243.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686686-Figure2-1.png"
+}]

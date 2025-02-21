@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 1: PMBugAssist: the proposed PM bug repair method.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1962890625,
+    "y1": 253.65689086914062,
+    "y2": 255.73699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Repair", "Validating", "no", "Reordering", "Instructions", "Instructions", "yesAdding", "Repair", "Suggested", "Spec.", "Property", "Symbolic", "Analysis", "SMT", "Based", "Generation", "Trace", "Program", "Target"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 159.84,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Encoding for the THEN-branch of Fig. 6 with both",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1929931640625,
+    "y1": 224.66989135742188,
+    "y2": 226.75
+  },
+  "figType": "Figure",
+  "imageText": ["1", "//Program", "order", "constraints:", "2", "(0", "≤", "𝑃𝐶_𝐼1", "≤", "5)", "∧", "(0", "≤", "𝑃𝐶_𝐼2", "≤", "5)", "∧", "(0", "≤", "𝑃𝐶_𝐼3", "≤", "5)", "∧", "(0", "≤", "𝑃𝐶_𝐼4", "≤", "5)∧", "3", "(0", "≤", "𝑃𝐶_𝐼5", "≤", "5)", "∧", "(0", "≤", "𝑃𝐶_𝐼6", "≤", "5)∧", "4", "(𝑃𝐶_𝐼1", "≠", "𝑃𝐶_𝐼2", ")", "∧", "(𝑃𝐶_𝐼1", "≠", "𝑃𝐶_𝐼3", ")", "∧", "(𝑃𝐶_𝐼1", "≠", "𝑃𝐶_𝐼4", ")", "∧", "(𝑃𝐶_𝐼1", "≠", "𝑃𝐶_𝐼5", ")∧", "5", "(𝑃𝐶_𝐼1", "≠", "𝑃𝐶_𝐼6", ")", "∧", "(𝑃𝐶_𝐼2", "≠", "𝑃𝐶_𝐼3", ")", "∧", "(𝑃𝐶_𝐼2", "≠", "𝑃𝐶_𝐼4", ")", "∧", "(𝑃𝐶_𝐼2", "≠", "𝑃𝐶_𝐼5", ")∧", "6", "(𝑃𝐶_𝐼2", "≠", "𝑃𝐶_𝐼6", ")", "∧", "(𝑃𝐶_𝐼3", "≠", "𝑃𝐶_𝐼4", ")", "∧", "(𝑃𝐶_𝐼3", "≠", "𝑃𝐶_𝐼5", ")", "∧", "(𝑃𝐶_𝐼3", "≠", "𝑃𝐶_𝐼6", ")∧", "7", "(𝑃𝐶_𝐼4", "≠", "𝑃𝐶_𝐼5", ")", "∧", "(𝑃𝐶_𝐼4", "≠", "𝑃𝐶_𝐼6", ")", "∧", "(𝑃𝐶_𝐼5", "≠", "𝑃𝐶_𝐼6", ")∧", "8", "(𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼2", ")", "∧", "(𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼4", ")", "∧", "(𝑃𝐶_𝐼2", "<", "𝑃𝐶_𝐼3", ")", "∧", "(𝑃𝐶_𝐼5", "<", "𝑃𝐶_𝐼6", ")", "9", "//Persistency", "time", "constraints:", "10", "(−1", "≤", "𝑃𝑇", "_𝐼1", "≤", "7)", "∧", "(−1", "≤", "𝑃𝑇", "_𝐼2", "≤", "7)", "∧", "(𝑃𝐶_𝐼1", "≤", "𝑃𝑇", "_𝐼1", ")", "∧", "(𝑃𝐶_𝐼2", "≤", "𝑃𝑇", "_𝐼2", ")∧", "11", "(𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼4", "<", "𝑃𝐶_𝐼5", "=⇒", "𝑃𝑇", "_𝐼1", "≤", "𝑃𝐶_𝐼5", ")∧", "12", "(𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼4", "<", "𝑃𝐶_𝐼6", "=⇒", "𝑃𝑇", "_𝐼1", "≤", "𝑃𝐶_𝐼6", ")∧", "13", "(𝑃𝐶_𝐼2", "<", "𝑃𝐶_𝐼3", "<", "𝑃𝐶_𝐼5", "=⇒", "𝑃𝑇", "_𝐼2", "≤", "𝑃𝐶_𝐼5", ")∧", "14", "(𝑃𝐶_𝐼2", "<", "𝑃𝐶_𝐼3", "<", "𝑃𝐶_𝐼6", "=⇒", "𝑃𝑇", "_𝐼2", "≤", "𝑃𝐶_𝐼6", ")", "15", "//Assertion", "violation", "constraints:", "16", "¬(", "(𝑃𝑇", "_𝐼1", "<", "6)", "∧", "(𝑃𝑇", "_𝐼2", "<", "6)", "∧", "(𝑃𝑇", "_𝐼1", "<", "𝑃𝑇", "_𝐼2", ")", ")"],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 559.1999999999999,
+    "y1": 84.96,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Our symbolic encoding of the subformulas in Φprogram := Φ𝑝𝑐 ∧ Φ𝑠𝑜 ∧ Φ𝑓 𝑠 ∧ Φ𝑓 𝑜 ∧ Φ𝑚𝑜 , Φpersistency := Φ𝑝𝑡𝑖 ∧ Φ𝑝𝑡𝑠 ∧ Φ𝑓 𝑖 and Φassertion := Φ𝑑𝑢 ∧ Φ𝑐𝑐 .",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0447998046875,
+    "y1": 290.4928894042969,
+    "y2": 316.55401611328125
+  },
+  "figType": "Figure",
+  "imageText": ["Φ𝑐𝑐", ":=", "∧", "𝐼𝑖", ",𝐼", "𝑗", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "∧", "𝑎𝑠𝑠𝑒𝑟𝑡", "(𝑃𝑇𝑖𝑚𝑒", "(𝐼𝑖", ")<𝑃𝑇𝑖𝑚𝑒", "(𝐼", "𝑗", ")", ")", "(𝑃𝑇_𝐼𝑖", "<", "𝑃𝑇_𝐼", "𝑗", ")", "𝐼𝑖", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "∧", "𝐼", "𝑗", "∈𝐹𝑙𝑢𝑠ℎ𝑒𝑠", "∧", "𝑆𝑎𝑚𝑒𝐶𝑎𝑐ℎ𝑒𝐿", "(𝐼𝑖", ",𝐼", "𝑗", ")", "∧", "𝐼𝑘", "∈𝐹𝑒𝑛𝑐𝑒𝑠", "(𝑃𝐶_𝐼𝑖", "<", "𝑃𝐶_𝐼", "𝑗", "<", "𝑃𝐶_𝐼𝑘", ")", "=⇒", "(𝑃𝑇_𝐼𝑖", "≤", "𝑃𝐶_𝐼𝑘", ")", "Φ𝑑𝑢", ":=", "∧", "𝐼𝑖", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "(𝑃𝑇_𝐼𝑖", "<", "𝑁", ")", "Φ𝑓", "𝑖", ":=", "∧", "Φ𝑝𝑡𝑠", ":=", "∧", "𝐼𝑖", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "(𝑃𝐶_𝐼𝑖", "≤", "𝑃𝑇_𝐼𝑖", ")", "(𝑃𝐶_𝐼𝑖", "<", "𝑃𝐶_𝐼𝑘", "<", "𝑃𝐶_𝐼", "𝑗", ")", "Φ𝑝𝑡𝑖", ":=", "∧", "𝐼𝑖", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "(−1", "≤", "𝑃𝑇_𝐼𝑖", "≤", "𝑁", "+", "1)", "𝐼𝑖", ",𝐼", "𝑗", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "∧", "𝑆𝑎𝑚𝑒𝐶𝑎𝑐ℎ𝑒𝐿", "(𝐼𝑖", ",𝐼", "𝑗", ")", "∧", "𝑖<", "𝑗", "∨", "𝐼𝑘", "∈𝐹𝑙𝑢𝑠ℎ𝑒𝑠", "∧", "𝑆𝑎𝑚𝑒𝐶𝑎𝑐ℎ𝑒𝐿", "(𝐼𝑘", ",𝐼𝑖", ")", "Φ𝑚𝑜", ":=", "∧", "Φ𝑓", "𝑜", ":=", "∧", "𝐼𝑖", "∈𝐹𝑒𝑛𝑐𝑒𝑠", "∧", "𝐼", "𝑗", "∈𝐹𝑒𝑛𝑐𝑒𝑠", "∧", "𝑖<", "𝑗", "(𝑃𝐶_𝐼𝑖", "<", "𝑃𝐶_𝐼", "𝑗", ")", "Φ𝑓", "𝑠", ":=", "∧", "𝐼", "𝑗", "∈𝐹𝑙𝑢𝑠ℎ𝑒𝑠", "∨", "𝐼𝑖", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "∧", "𝑆𝑎𝑚𝑒𝐶𝑎𝑐ℎ𝑒𝐿", "(𝐼𝑖", ",𝐼", "𝑗", ")", "(𝑃𝐶_𝐼𝑖", "<", "𝑃𝐶_𝐼", "𝑗", ")", "Φ𝑠𝑜", ":=", "∧", "𝐼𝑖", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "∧", "𝐼", "𝑗", "∈𝑆𝑡𝑜𝑟𝑒𝑠", "∧", "𝑖<", "𝑗", "(𝑃𝐶_𝐼𝑖", "<", "𝑃𝐶_𝐼", "𝑗", ")", "Φ𝑝𝑐", ":=", "∧", "1≤𝑖≤𝑁", "(0", "≤", "𝑃𝐶_𝐼𝑖", "<", "𝑁", ")", "∧∧1≤𝑖<", "𝑗≤𝑁", "(𝑃𝐶_𝐼𝑖", "≠", "𝑃𝐶_𝐼", "𝑗", ")"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 77.75999999999999,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure7-1.png"
+}, {
+  "caption": "Table 4: The type of code block that our repair belongs to.",
+  "captionBoundary": {
+    "x1": 57.093994140625,
+    "x2": 290.443115234375,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Bug", "Type", "Number", "of", "Bugs", "Sequential", "Branch", "In", "Scope", "Branch", "Out", "of", "Scope", "Durability", "23", "20", "(", "86%)", "3", "(14%)", "0", "(0%)", "Crash", "Consistency", "18", "16", "(89%)", "2", "(", "11%)", "0", "(0%)"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Table4-1.png"
+}, {
+  "caption": "Table 1: Persistency order of Px86 for instructions (𝐼𝑖 < 𝐼 𝑗 ).",
+  "captionBoundary": {
+    "x1": 319.27301025390625,
+    "x2": 556.5877685546875,
+    "y1": 89.27688598632812,
+    "y2": 92.70196533203125
+  },
+  "figType": "Table",
+  "imageText": ["LOAD", "✔", "✔", "✔", "✔", "✔", "✔", "✔", "STORE", "✘", "✔", "✔", "✔", "✔", "CL", "✔", "RMW", "✔", "✔", "✔", "✔", "✔", "✔", "✔", "mfence", "✔", "✔", "✔", "✔", "✔", "✔", "✔", "sfence", "✘", "✔", "✔", "✔", "✔", "✔", "✔", "clflushopt", "✘", "✘", "✔", "✔", "✔", "✘", "CL", "clflush", "✘", "✔", "✔", "✔", "✔", "CL", "✔", "𝐼", "𝑖", "Fi", "rs", "tI", "ns", "tr.", "LOAD", "STORE", "RMW", "mfence", "sfence", "clflushopt", "clflush", "Instruction", "Pair", "(𝐼𝑖", ",", "𝐼", "𝑗", ")", "Second", "Instr.", "𝐼", "𝑗"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 105.6,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Table1-1.png"
+}, {
+  "caption": "Table 3: Results of the experimental evaluation.",
+  "captionBoundary": {
+    "x1": 76.98602294921875,
+    "x2": 270.5529479980469,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Name", "Trace", "PMBugAssist", "(our", "method)", "Hippocrates", "Length", "time(s)", "#", "inst.", "inst.", "repaired", "repaired", "#", "inst.", "time(s)", "added", "reorder", "added", "obj_constructor", "445,254", "0.1", "1+1", "0", "✔", "✔", "1+1", "1.4", "obj_first_next", "559,572", "0.3", "2+0", "0", "✔", "✔", "2+0", "6.7", "obj_mem", "566,129", "18.4", "11+0", "0", "✔", "✔", "210+0", "47.1", "obj_memops", "565,899", "0.3", "2+0", "0", "✔", "✔", "2+0", "20.9", "obj_toid", "419,186", "0.1", "3+0", "0", "✔", "✔", "3+0", "1.6", "pmem_memcpy", "17,008", "0.3", "4+0", "0", "✔", "✔", "4+0", "5.8", "pmem_memmove", "624", "0.1", "2+0", "0", "✔", "✔", "2+0", "1.0", "pmem_memset-1", "194", "183.52", "1+1", "0", "✔", "✔", "1+2", "2.6", "pmem_memset-2", "4,440", "0.1", "1+0", "0", "✔", "✔", "1+0", "1.1", "pmemspoil", "36", "0.1", "0+1", "0", "✔", "✘", "0+1", "0.9", "rpmemd_db", "8,993", "0.1", "1+1", "0", "✔", "✔", "1+0", "0.8", "Recipe", "(2", "bugs)", "500,415", "4.5", "3+1", "0", "✔", "✔", "3+1", "0.3", "Memcached", "(10", "bugs)", "200,939", "1,790.2", "9+1", "0", "✔", "✔", "10+6", "0.3", "pmreorder_1", "8", "0.1", "1+1", "1", "✔", "✘", "N/A", "N/A", "pmreorder_2", "8", "0.1", "1+1", "2", "✔", "✘", "N/A", "N/A", "pmreorder_3", "10", "7.9", "2+2", "4", "✔", "✘", "N/A", "N/A", "pmreorder_4", "10", "7.9", "2+2", "4", "✔", "✘", "N/A", "N/A", "pmreorder_5", "8", "4.8", "2+2", "1", "✔", "✘", "N/A", "N/A", "pmreorder_6", "8", "22.9", "2+2", "4", "✔", "✘", "N/A", "N/A", "pmreorder_7", "10", "22.1", "2+2", "4", "✔", "✘", "N/A", "N/A", "pmreorder_8", "12", "3559.12", "3+3", "5", "✔", "✘", "N/A", "N/A", "pmreorder_stack_1", "26", "0.3", "0+0", "1", "✔", "✘", "N/A", "N/A", "pmreorder_stack_2", "26", "0.6", "0+0", "2", "✔", "✘", "N/A", "N/A", "pmreorder_flushes_1", "35", "3857.8", "0+0", "5", "✔", "✘", "N/A", "N/A", "pmreorder_flushes_2", "35", "539.0", "0+0", "6", "✔", "✘", "N/A", "N/A", "Redis_1", "10,577", "0.2", "2+2", "3", "✔", "✘", "N/A", "N/A", "Redis_2", "10,577", "0.2", "2+2", "3", "✔", "✘", "N/A", "N/A", "Memcached_1", "63,133", "0.1", "2+2", "1", "✔", "✘", "N/A", "N/A", "Memcached_2", "63,133", "0.1", "2+2", "1", "✔", "✘", "N/A", "N/A", "Memcached_3", "63,133", "0.1", "2+2", "1", "✔", "✘", "N/A", "N/A", "Memcached_4", "63,133", "0.1", "2+2", "1", "✔", "✘", "N/A", "N/A"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Table3-1.png"
+}, {
+  "caption": "Figure 2: An example program with several PM bugs.",
+  "captionBoundary": {
+    "x1": 331.0159912109375,
+    "x2": 545.1328735351562,
+    "y1": 315.32989501953125,
+    "y2": 317.4100036621094
+  },
+  "figType": "Figure",
+  "imageText": ["1", "//", "both", "'header'", "and", "'records'", "are", "mapped", "to", "the", "persistent", "memory", "2", "struct", "record_t", "{", "char", "name[64],addr[64];", "char", "valid;", "}", "records[32];", "3", "struct", "header_t", "{", "uint32_t", "counter;", "uint8_t", "reserved[63];", "}", "header;", "4", "...", "5", "//", "writer()", "--", "code", "executed", "before", "crash", "6", "for", "(int", "i=0;", "i<NUM_RECORDS;", "i++)", "{", "7", "header->counter++;", "8", "if", "(rand()%2==0)", "{", "//store", "a", "valid", "record", "9", "snprintf(", "records[i].name,", "64,", "...", ");", "10", "snprintf(", "records[i].addr,", "64,", "...", ");", "11", "records[i].valid", "=", "1;", "12", "__mm_clflushopt(", "&records[i].valid", ");", "13", "__mm_clflushopt(", "records[i].name", ");", "14", "__mm_clflushopt(", "records[i].addr", ");", "15", "}", "16", "else", "{", "17", "records[i].valid", "=", "0;", "18", "__mm_clflushopt(", "&records[i].valid", ");", "19", "}", "20", "__mm_sfence();", "21", "}", "22", "...", "23", "//", "reader()", "--", "code", "executed", "after", "crash", "24", "for", "(int", "i=0;", "i<header->counter;", "i++)", "{", "25", "if", "(records[i].valid==1)", "{", "26", "cout", "<<", "\"name", "=\"", "<<", "records[i].name", "<<", "\"\\n\";", "27", "cout", "<<", "\"addr", "=\"", "<<", "records[i].addr", "<<", "\"\\n\";", "28", "}", "29", "}"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 559.1999999999999,
+    "y1": 84.96,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The repaired writer() in the example program.",
+  "captionBoundary": {
+    "x1": 323.1789855957031,
+    "x2": 552.9736328125,
+    "y1": 496.4998779296875,
+    "y2": 498.5799865722656
+  },
+  "figType": "Figure",
+  "imageText": ["1", "for", "(int", "i=0;", "i<NUM_RECORDS;", "i++)", "{", "2", "if", "(rand()%2==0)", "{", "//store", "a", "valid", "record", "3", "snprintf(", "records[i].name,", "64,", "...", ");", "4", "snprintf(", "records[i].addr,", "64,", "...", ");", "5", "__mm_clflushopt(", "records[i].name", ");", "6", "__mm_clflushopt(", "records[i].addr", ");", "7", "__mm_sfence();", "8", "records[i].valid", "=", "1;", "9", "__mm_clflushopt(", "&records[i].valid", ");", "10", "}", "11", "else", "{", "12", "records[i].valid", "=", "0;", "13", "__mm_clflushopt(", "&records[i].valid", ");", "14", "}", "15", "__mm_sfence();", "16", "header->counter++;", "17", "__mm_clflushopt(", "&header->counter", ");", "18", "__mm_sfence();", "19", "}"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 559.1999999999999,
+    "y1": 336.0,
+    "y2": 475.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure3-1.png"
+}, {
+  "caption": "Figure 9: Formulas act as “filters” of the trace permutations,",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.12451171875,
+    "y1": 267.6178894042969,
+    "y2": 269.697998046875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "after", "repair", "valid-and-buggy", "permutations", "valid-and-non-buggy", "permutations", "valid", "permutations", "all", "permutations", "𝛹", "˄𝓡", "˄¬𝛷assertion", "(a)", "before", "repair", "valid-and-buggy", "permutations", "valid", "permutations", "all", "permutations", "𝛹", "˄¬𝛷assertion"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 275.03999999999996,
+    "y1": 89.75999999999999,
+    "y2": 249.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Illustrating the repair computation and validation.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0345764160156,
+    "y1": 475.1979064941406,
+    "y2": 477.27801513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Inst", "𝐼1:", "STORE", "0x4a3c000", "Inst", "𝐼4:", "clflushopt", "0x4a3c000", "Inst", "𝐼5:", "sfence", "Inst", "𝐼2:", "STORE", "0x4a3c080", "Inst", "𝐼3:", "clflushopt", "0x4a3c080", "Inst", "𝐼6:", "sfence", "//Validation", "--", "Satisfiable", "Found", "a", "valid", "permutation", "of", "T", "by", "solving", "(Ψ", "∧", "R)", "//Third", "iteration", "--", "Unsatisfiable", "Return", "R", "as", "a", "potential", "repair", "//Second", "iteration", "--", "Satisfiable", "From", "solutionT′", "=", "𝐼5,", "𝐼1,", "𝐼2,", "𝐼3,", "𝐼4,", "𝐼6,", "we", "extract", "𝜓𝑠𝑎𝑡", "as", "follows:", "(𝑃𝐶_𝐼5", "<", "𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼4", ")", "∧", "(𝑃𝐶_𝐼5", "<", "𝑃𝐶_𝐼2", "<", "𝑃𝐶_𝐼3", ")∧", "(𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼4", "<", "𝑃𝐶_𝐼6", ")", "∧", "(𝑃𝐶_𝐼2", "<", "𝑃𝐶_𝐼3", "<", "𝑃𝐶_𝐼6", ")", "//First", "iteration", "--", "Satisfiable", "From", "solution", "T′", "=", "𝐼1,", "𝐼2,", "𝐼3,", "𝐼4,", "𝐼5,", "𝐼6,", "we", "extract", "𝜓𝑠𝑎𝑡", "as", "follows:", "(𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼4", "<", "𝑃𝐶_𝐼5", ")", "∧", "(𝑃𝐶_𝐼2", "<", "𝑃𝐶_𝐼3", "<", "𝑃𝐶_𝐼5", ")∧", "(𝑃𝐶_𝐼1", "<", "𝑃𝐶_𝐼4", "<", "𝑃𝐶_𝐼6", ")", "∧", "(𝑃𝐶_𝐼2", "<", "𝑃𝐶_𝐼3", "<", "𝑃𝐶_𝐼6", ")"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 295.2,
+    "y1": 300.0,
+    "y2": 454.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure10-1.png"
+}, {
+  "caption": "Figure 4: Execution traces of the program in Fig. 2, with a durability bug in ELSE-branch (write to header->counter may never show up in PM) and a crash consistency bug in THEN-branch (write to records[i].name may not persist before write to records[i].valid).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64910888671875,
+    "y1": 223.57388305664062,
+    "y2": 269.489013671875
+  },
+  "figType": "Figure",
+  "imageText": ["//", "trace", "for", "executing", "the", "ELSE-branch", "Inst", "𝐼1:", "STORE", "0x4a3c0C0", "//STORE", "header->counter", "Inst", "𝐼2:", "STORE", "0x4a3c080", "//STORE", "records[i].valid", "Inst", "𝐼3:", "clflushopt", "0x4a3c080", "//clflushopt", "records[i].valid", "Inst", "𝐼4:", "sfence", "assert(", "PTime(𝐼1)", "<", "TMAX", ")", "//durability", "bug", "assert(", "PTime(𝐼2)", "<", "PTime(𝐼1)", ")", "//crash-consistency", "bug", "//", "trace", "for", "executing", "the", "THEN-branch", "Inst", "𝐼1:", "STORE", "0x4a3c000", "//STORE", "records[i].name", "Inst", "𝐼2:", "STORE", "0x4a3c080", "//STORE", "records[i].valid", "Inst", "𝐼3:", "clflushopt", "0x4a3c080", "//clflushopt", "records[i].valid", "Inst", "𝐼4:", "clflushopt", "0x4a3c000", "//clflushopt", "records[i].name", "Inst", "𝐼5:", "sfence", "assert(", "PTime(𝐼1)", "<", "PTime(𝐼2)", ")", "//crash-consistency", "bug"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 295.2,
+    "y1": 84.96,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure4-1.png"
+}, {
+  "caption": "Table 2: Statistics of the benchmark programs.",
+  "captionBoundary": {
+    "x1": 344.0169982910156,
+    "x2": 531.8367309570312,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["7.1", "Benchmarks", "obj_constructor", "186", "Object", "constructor", "test", "[37]", "durability", "obj_first_next", "314", "POBJ_FIRST", "macro", "test", "[37]", "durability", "obj_mem", "68", "pmemobj", "copy,", "move", "and", "set", "tests", "[37]", "durability", "obj_memops", "654", "basic", "memory", "operations", "tests", "[37]", "durability", "obj_toid", "83", "TOID", "macros", "test", "[37]", "durability", "pmem_memcpy", "174", "memcpy", "test", "[37]", "durability", "pmem_memmove", "223", "memmove", "test", "[37]", "durability", "pmem_memset-1", "103", "memset", "from", "libpmemset", "[37]", "durability", "pmem_memset-2", "103", "memset", "from", "libpmemset", "[37]", "durability", "pmemspoil", "1,324", "pmempool", "spoil", "test", "[37]", "durability", "rpmemd_db", "653", "pool", "set", "database", "[37]", "durability", "Recipe", "(2", "bugs)", "39,581", "convert", "DRAM", "index", "to", "PM", "index", "[30]", "durability", "Memcached", "(10", "bugs)", "23,032", "key/value", "cache", "store", "in", "distributed", "sys", "[4]", "durability", "pmreorder_1", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_2", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_3", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_4", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_5", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_6", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_7", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_8", "141", "pmreorder", "script", "test", "[21]", "crash", "consistency", "pmreorder_stack_1", "123", "functional", "test", "of", "pmreorder", "stack", "[21]", "crash", "consistency", "pmreorder_stack_2", "123", "functional", "test", "of", "pmreorder", "stack", "[21]", "crash", "consistency", "pmreorder_flushes_1", "155", "store", "reordering", "with", "flushes", "test", "[21]", "crash", "consistency", "pmreorder_flushes_2", "155", "store", "reordering", "with", "flushes", "test", "[21]", "crash", "consistency", "Redis", "(2", "bugs)", "75,249", "distributed,", "in-memory", "key–value", "database", "[3]", "crash", "consistency", "Memcached", "(4", "bugs)", "23,032", "key/value", "cache", "store", "in", "distributed", "sys", "[4]", "crash", "consistency", "Name", "LoC", "Description", "PM", "Bug", "Type"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 105.6,
+    "y2": 350.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Table2-1.png"
+}, {
+  "caption": "Figure 5: Ordering constraints for THEN-branch: modifying the program by swapping the two clflushopt instructions will not",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1986083984375,
+    "y1": 208.33389282226562,
+    "y2": 210.41400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["STORE(0x4a3c000)", "sfence", "clflushopt(0x4a3c000)", "clflushopt(0x4a3c080)", "STORE(0x4a3c080)", "Persistency", "Order", "STORE(0x4a3c000)", "Execution", "Order", "sfence", "clflushopt(0x4a3c000)", "clflushopt(0x4a3c080)", "STORE(0x4a3c080)"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 140.16,
+    "x2": 470.88,
+    "y1": 90.72,
+    "y2": 178.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Two repairs for the bug in THEN-branch of Fig. 4: The first repair is incomplete since it adds a new durability bug for 𝐼2; the second repair is complete because it removes the new durability and original crash consistency bugs.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.18280029296875,
+    "y1": 338.7449035644531,
+    "y2": 373.7019958496094
+  },
+  "figType": "Figure",
+  "imageText": ["Inst", "𝐼6:", "sfence", "//fence", "//This", "is", "a", "complete", "repair", "--", "must", "also", "add", "this", "'sfence'", "//", "trace", "for", "executing", "the", "THEN-branch", "Inst", "𝐼1:", "STORE", "0x4a3c000", "//STORE", "records[i].name", "Inst", "𝐼4:", "clflushopt", "0x4a3c000", "//clflushopt", "records[i].name", "Inst", "𝐼5:", "sfence", "//sfence", "Inst", "𝐼2:", "STORE", "0x4a3c080", "//STORE", "records[i].valid", "Inst", "𝐼3:", "clflushopt", "0x4a3c080", "//clflushopt", "records[i].valid", "//This", "is", "an", "incomplete", "repair", "--", "it", "introduces", "a", "new", "durability", "bug"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 295.2,
+    "y1": 240.95999999999998,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639204-Figure6-1.png"
+}]

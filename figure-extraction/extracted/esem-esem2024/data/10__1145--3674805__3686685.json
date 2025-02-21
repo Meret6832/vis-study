@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 3: Statistics of identified misuses.",
+  "captionBoundary": {
+    "x1": 358.7130126953125,
+    "x2": 517.1493530273438,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "28", "21", "49", "(100%)", "pandas", "4", "1", "5", "(10%)", "NumPy", "2", "11", "13", "(27%)", "scikit-learn", "7", "6", "13", "(27%)", "Matplotlib", "7", "3", "10", "(20%)", "seaborn", "8", "0", "8", "(16%)", "Total", "SO", "GH", "Library", "Data", "Source"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 374.88,
+    "x2": 499.2,
+    "y1": 97.44,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Table3-1.png"
+}, {
+  "caption": "Figure 1: Example of seaborn API misuse and its impact, based on Stack Overflow question 67637829.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.1354675292969,
+    "y1": 352.5221252441406,
+    "y2": 369.11199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Incorrect", "hue", "colors", "(c)", "Correct", "hue", "colors", "(a)", "Seaborn", "API", "misuse", "of", "set_palette", "and", "scatterplot"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 306.24,
+    "y1": 223.67999999999998,
+    "y2": 344.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Missing API parameter for seaborn’s distplot.",
+  "captionBoundary": {
+    "x1": 321.4129943847656,
+    "x2": 554.7438354492188,
+    "y1": 131.9170684814453,
+    "y2": 137.5479736328125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "impor", "t", "s", "eabo", "rn", "as", "sn", "s", "2", "3", "data", "=", "sns", ".", "l", "o", "a", "d", "_", "d", "a", "t", "a", "s", "e", "t", "(", "'", "t", "i", "p", "s", "'", ")", "4", "−", "sn", "s", ".", "d", "i", "s", "t", "p", "l", "o", "t", "(", "data", ".", "t", "i", "p", ",", "norm_hist=F", "a", "l", "s", "e", ")", "5", "+", "sns", ".", "d", "i", "s", "t", "p", "l", "o", "t", "(", "data", ".", "t", "i", "p", ",", "norm_hist=Fa", "l", "s", "e", ",", "kde=F", "a", "l", "s", "e", ")"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 85.92,
+    "y2": 123.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Figure4-1.png"
+}, {
+  "caption": "Table 4: API misuse types of the data-centric libraries we study compared to deep learning libraries [57], shown in gray.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0437927246094,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["DD=data", "dependent,", "DL=deep", "learning", "DL", "only", "[57]", "43", "(5%)", "29", "(3%)", "17", "(2%)", "-", "28", "(3%)", "117", "(13%)", "DD", "1", "(4%)", "-", "-", "-", "-", "1", "(4%)", "Total", "3", "(6%)", "-", "-", "-", "-", "3", "(6%)", "API", "condition", "This", "study", "DL", "only", "[57]", "88", "(10%)", "56", "(6%)", "60", "(7%)", "-", "115", "(13%)", "319", "(36%)", "DD", "5", "(19%)", "-", "10", "(37%)", "-", "-", "15", "(56%)", "Total", "9", "(18%)", "1(2%)", "15", "(31%)", "-", "-", "25", "(51%)", "API", "parameter", "This", "study", "DL", "only", "[57]", "113", "(13%)", "138", "(15%)", "130", "(15%)", "-", "74", "(8%)", "455", "(51%)", "DD", "4", "(15%)", "5", "(19%)", "1", "(4%)", "1", "(4%)", "-", "11", "(42%)", "Total", "9", "(18%)", "6", "(12%)", "4(8%)", "2", "(4%)", "-", "21", "(43%)", "API", "method", "This", "study", "Missing", "Redundant", "Replacement", "Ordering", "Outdated", "Total"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 120.0,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Table4-1.png"
+}, {
+  "caption": "Figure 3: Redundant API call to seaborn’s FacetGrid when using lmplot",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0445861816406,
+    "y1": 277.9781188964844,
+    "y2": 294.5679931640625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "impor", "t", "s", "eabo", "rn", "as", "sn", "s", "2", "3", "t", "i", "p", "s", "=", "sns", ".", "l", "o", "a", "d", "_", "d", "a", "t", "a", "s", "e", "t", "(", "'", "t", "i", "p", "s", "'", ")", "4", "−", "g", "=", "sns", ".", "F", "a", "c", "e", "t", "G", "r", "i", "d", "(", "data=t", "i", "p", "s", ",", "c", "o", "l", "='", "t", "ime", "'", ",", "row='", "s", "ex", "'", ")", "5", "−", "g", ".", "map(", "sn", "s", ".", "lmp", "lot", ",", "'", "t", "o", "t", "a", "l", "_", "b", "i", "l", "l", "'", ",", "'", "t", "i", "p", "'", ")", "6", "+", "sns", ".", "l", "m", "p", "l", "o", "t", "(", "data=t", "i", "p", "s", ",", "x='", "t", "o", "t", "a", "l", "_", "b", "i", "l", "l", "'", ",", "y='", "t", "i", "p", "'", ",", "c", "o", "l", "='", "t", "ime", "'", ",", "row='", "s", "ex", "'", ")"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 225.6,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Figure3-1.png"
+}, {
+  "caption": "Table 5: Distribution of root causes of data-centric API misuses and deep learning API misuses [57].",
+  "captionBoundary": {
+    "x1": 317.6600036621094,
+    "x2": 559.8098754882812,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Summary:We", "find", "that", "data", "conversion", "errors", "in", "the", "additional", "data-centric", "libraries", "we", "study", "are", "even", "more", "prominent", "than", "deep", "learning", "libraries,", "while", "device", "management", "errors", "are", "naturally", "less.", "We", "also", "find", "a", "new", "category", "of", "root", "causes,", "configuration", "errors,", "encompassing", "24%", "of", "the", "observed", "misuses.", "Data", "conversion", "error", "19", "(39%)", "246", "(28%)", "Algorithm", "error", "10", "(20%)", "88", "(10%)", "Null", "reference", "error", "5", "(10%)", "33", "(4%)", "Device", "management", "error", "1", "(2%)", "337", "(38%)", "Configuration", "error", "12", "(24%)", "-", "Other", "errors", "2", "(4%)", "10", "(1%)", "Category", "#", "(%)", "data-centric", "#", "(%)", "deep", "learning", "[57]"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 562.0799999999999,
+    "y1": 108.96,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Table5-1.png"
+}, {
+  "caption": "Figure 2: Our updated misuse classification taxonomy, based onWei et al. [57]’s analysis of deep learning misuses. Greyed out boxes are out-of-scope items we do not consider, while red boxes show our additions.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2059936523438,
+    "y1": 191.58009338378906,
+    "y2": 230.08697509765625
+  },
+  "figType": "Figure",
+  "imageText": ["Configuration", "Error", "Data", "dependent?", "→", "yes/no", "Ordering", "Replacement", "Violation", "Redundant", "Outdated", "Missing", "Deprecation", "Management", "Error", "Null", "Reference", "Error", "Algorithm", "Error", "Root", "Cause", "Data", "Conversion", "Error", "Device", "Management", "Error", "Warning", "Low", "Efficiency", "Program", "Crash", "Unexpected", "Output", "Element", "API", "Parameter", "API", "Method", "API", "Condition", "API", "Misuse", "Symptom", "Type"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 548.16,
+    "y1": 82.56,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Figure2-1.png"
+}, {
+  "caption": "Table 1: Number of collected and filtered Stack Overflow questions for each library, collected on 31-05-2023.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.3913879394531,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "164,328", "148,116", "340", "345", "pandas", "106,331", "95,992", "69", "69", "NumPy", "30,698", "27,774", "68", "69", "scikit-learn", "7,132", "6121", "68", "69", "Matplotlib", "16,916", "15,463", "68", "69", "seaborn", "3,251", "2,942", "67", "69", "Tag", "Total", "#", "of", "#", "of", "questions", "Minimum", "Annotated", "questions", "after", "filtering", "sample", "size", "sample", "size"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 278.4,
+    "y1": 108.47999999999999,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Table1-1.png"
+}, {
+  "caption": "Table 2: Number of candidate commits for each library.",
+  "captionBoundary": {
+    "x1": 326.13299560546875,
+    "x2": 549.7283325195312,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "3447", "1,295", "358", "(28%)", "574", "245", "(43%)", "pandas", "390", "185", "50", "(27%)", "92", "37", "(40%)", "NumPy", "2273", "431", "103", "(24%)", "184", "74", "(40%)", "scikit-learn", "545", "528", "143", "(11%)", "210", "84", "(40%)", "Matplotlib", "234", "146", "57", "(39%)", "80", "42", "(53%)", "seaborn", "5", "5", "5", "(100%)", "8", "8", "(100%)", "Library", "#", "of", "all", "#", "of", "diverse", "#", "of", "reviewed", "#", "of", "unique", "#", "of", "reviewed", "commits", "commits", "commits", "APIs", "APIs"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 549.12,
+    "y1": 97.92,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686685-Table2-1.png"
+}]

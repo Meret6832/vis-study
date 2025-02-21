@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: Overview of the LASAPP framework: Analyses are",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.189453125,
+    "y1": 313.9328918457031,
+    "y2": 316.01300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["used", "by", "Expertimplements", "builds", "writes", "Probabilistic", "Programming", "PPL", "End-User", "Programming", "Language", "Expert", "PPL", "Expert", "DB", "2", "PPL", "3", "Distribution", "Backend", "a", "~", "Binomial(3,0.2)", "b", "~", "Uniform(-1,2)", "c", "~", "Normal(a*b,1)", "LS", "2", "Classical", "Program", "Analysis", "Language", "Server", "a*b", "in", "[-3,6]", "b", "in", "[-1,2],", "then", "c", "if", "a", "in", "[0,3],", "a", "b", "...", "PPL", "2", "...", "...", "Probabilistic", "Program", "Analysis", "LASAPP", "Language", "(PPL)", "Probabilistic", "Programming"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 163.68,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Control-flow graph of SimpleProb program.",
+  "captionBoundary": {
+    "x1": 328.1600036621094,
+    "x2": 547.9957275390625,
+    "y1": 459.02587890625,
+    "y2": 461.1059875488281
+  },
+  "figType": "Figure",
+  "imageText": ["Example", "trace", "with", "density:", "End", "observe(\"x\",", "Normal(m,1.))", "m", "=", "5", "m", "=", "6", "s", "==", "1", "s", "=", "sample(\"s\",", "Bernoulli(0.5))", "START"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 553.4399999999999,
+    "y1": 276.96,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Figure5-1.png"
+}, {
+  "caption": "Figure 2: Linear model implemented in Pyro on the top. Re-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7948608398438,
+    "y1": 270.2478942871094,
+    "y2": 272.3280029296875
+  },
+  "figType": "Figure",
+  "imageText": ["posterior", "draws", "from", "pyro.sample(f\"y_{i}\",", "dist.Normal(a*x[i]+b,s),", "obs=y[i])", "a", "=", "pyro.sample(\"a\",", "dist.Normal(0,10))", "b", "=", "pyro.sample(\"b\",", "dist.Normal(0,10))", "s", "=", "pyro.sample(\"s\",", "dist.InverseGamma(1,1))", "for", "i", "in", "range(len(x)):"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 163.68,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Repeated application of get_data_dependencies and get_control_dependencies to find statistical dependen-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64141845703125,
+    "y1": 589.7618408203125,
+    "y2": 602.801025390625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "s", "=", "sample(\"s\",", "Bernoulli(0.5))", "2", "if", "s", "==", "1", "then", "3", "m", "=", "5.", "4", "else", "5", "m", "=", "6.", "6", "observe(\"x\",", "Normal(m,1.))", "get_data_dependencies", "get_control_dependencies", "get_data_dependencies"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 261.12,
+    "y1": 521.76,
+    "y2": 572.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Static model graph of a Turing program extracted",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.18994140625,
+    "y1": 241.35690307617188,
+    "y2": 243.43701171875
+  },
+  "figType": "Figure",
+  "imageText": ["start", "~", "Uniform", "end_distance", "~", "Normal", "step[t]", "~", "Uniform", "end", "end", "end_distance", "~", "Normal(distance,", "0.1)", "return", "start", "t", "=", "t", "+", "1", "step[t]", "~", "Uniform(-1,", "1)", "distance", "=", "distance", "+", "abs(step[t])", "position", "=", "position", "+", "step[t]", "start", "~", "Uniform(0,3)", "t", "=", "0;", "distance", "=", "0.0;", "position", "=", "start", "step", "=", "Dict()", "while", "position", ">", "0", "&&", "position", "<", "10"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 544.3199999999999,
+    "y1": 96.96,
+    "y2": 209.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Simple model implemented in Turing v0.29.3, Bean-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.642578125,
+    "y1": 379.7378845214844,
+    "y2": 381.8179931640625
+  },
+  "figType": "Figure",
+  "imageText": ["dist.Normal(mu", "*", "torch.ones(len(X)),", "1.),", "obs=X)", "pyro.sample(\"X\",", "mu", "=", "6.", "ambiguous.", "mu", "=", "5.", "value", "of", "a", "Tensor", "with", "else:", "more", "than", "one", "value", "is", "state", "=", "pyro.sample(\"state\",", "dist.Categorical([0.5,0.5]))", "if", "state", "==", "1:", "⇒", "RuntimeError:", "Boolean"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 298.08,
+    "y2": 362.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Figure3-1.png"
+}, {
+  "caption": "Table 2: Summary table of evaluation results.",
+  "captionBoundary": {
+    "x1": 346.48699951171875,
+    "x2": 529.3663940429688,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dependency", "Analysis", "Turing", "[53,", "56]", "117", "111", "correct", "6", "unsupp.", "PyMC", "[49]", "97", "95", "correct", "2", "unsupp.", "Constraint", "Verifier", "Turing", "[53,", "56]", "117", "80", "verified", "37", "unsupp.", "PyMC", "[49]", "97", "65", "verified", "32", "unsupp.", "HMC", "Assumption", "Checker", "Gen", "[5,", "41,", "43,", "46,", "60]", "8", "7", "true", "pos.", "1", "false", "neg.", "Model-Guide", "Validator", "Pyro", "[37]", "8", "6", "true", "neg.", "2", "true", "pos.", "Analysis", "/", "PPL", "/", "data", "source", "total", "result"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Table2-1.png"
+}, {
+  "caption": "Figure 4: Main types and methods of the LASAPP API.",
+  "captionBoundary": {
+    "x1": 196.4309844970703,
+    "x2": 415.5599365234375,
+    "y1": 337.69476318359375,
+    "y2": 339.7748718261719
+  },
+  "figType": "Figure",
+  "imageText": ["mask", ":", "dict[SyntaxNode,", "SExpr])", "→", "SExpr", "#", "see", "Section", "3.2.3", "def", "infer_distribution_properties(rv", ":", "RandomVariable)", "→", "Optional[DistributionProperties]", "#", "see", "Section", "3.1.2", "masks", ":", "dict[SyntaxNode,", "Interval])", "→", "Interval", "#", "see", "Section", "3.2.2", "def", "get_path_condition(node", ":", "SyntaxNode,", "root", ":", "SyntaxNode,", "class", "ProbabilisticProgram(filename", ":", "str)", "def", "get_model()", "→", "Model", "#", "see", "Section", "3.1.1", "def", "get_guide()", "→", "Model", "#", "see", "Section", "3.1.1", "def", "get_random_variables()", "→", "list[RandomVariable]", "#", "see", "Section", "3.1.1", "def", "get_data_dependencies(node", ":", "SyntaxNode)", "→", "list[SyntaxNode]", "#", "see", "Section", "3.2.1", "def", "get_control_dependencies(node", ":", "SyntaxNode)", "→", "list[ControlDependency]", "#", "see", "Section", "3.2.1", "def", "estimate_value_range(expr", ":", "SyntaxNode,", "Interval", "low:", "ﬂoat", "high:", "ﬂoat", "Constraint", "...", "SExpr", "...", "DistributionProperties", "name:", "str", "param_constraints:", "dict[str,", "Constraint]", "support:", "Constraint", "type:", "Continuous", "|", "Discrete", "dimensionality:", "Univariate", "|", "Multivariate", "DistributionParam", "name:", "str", "node:", "SyntaxNode", "Model", "name:", "str", "node:", "SyntaxNode", "RandomVariable", "name:", "str", "node:", "SyntaxNode", "address_node:", "SyntaxNode", "distribution:", "Distribution", "is_observed:", "bool", "Distribution", "name:", "str", "node:", "SyntaxNode", "params:", "list[DistributionParam]", "ControlDependency", "node:", "SyntaxNode", "control_node:", "SyntaxNode", "kind:", "str", "body:", "list[SyntaxNode]", "SyntaxNode", "node_id:", "str", "source_text:", "str", "ﬁrst_byte:", "int", "last_byte:", "int"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 316.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695031-Figure4-1.png"
+}]

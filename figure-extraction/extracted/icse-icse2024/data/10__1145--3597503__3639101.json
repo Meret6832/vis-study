@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 4: Detection rules of the code of nine pythonic idioms",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.033447265625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Idiom", "Detection", "Rules", "List/Set/Dict", "Comprehension", "P=ListComp/SetComp/DictComp", "Chain", "Comparison", "P=Compare", "and", "Num(P.ops)>1", "Truth", "Value", "Test", "P.kind=test", "and", "P", "∉", "{Compare,", "Call,", "BoolOp}", "Loop", "Else", "P", "∈", "{For,", "While}", "and", "P.orelse", "≠", "∅", "Assign", "Multi", "Targets", "P=Assign", "and", "Num(P.targets)>1", "For", "Multi", "Targets", "P=For", "and", "Num(P.target)>1", "Star", "P=Starred", "Note:", "P", "represents", "idiomatic", "code", "of", "Python", "idioms;", "Num(𝑠)", "returns", "the", "number", "of", "elements", "in", "𝑠", ".", "Other", "symbols", "starting", "with", "a", "capital", "letter", "indicates", "AST", "node", "types", "or", "AST", "node", "properties", "defined", "in", "Python", "language", "specification."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 100.8,
+    "y2": 192.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Table4-1.png"
+}, {
+  "caption": "Table 5: Rules of transforming idiomatic code into non-idiomatic code for nine pythonic idioms",
+  "captionBoundary": {
+    "x1": 111.60499572753906,
+    "x2": 500.0837707519531,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Truth", "Value", "Test", "Chain", "Compa-", "rison", "List/", "Set/", "Dict", "Compre-", "hension", "Idiom", "Examples", "of", "Code", "Refactoring", "Transformation", "Steps"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 539.04,
+    "y1": 100.8,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Table5-1.png"
+}, {
+  "caption": "Table 6: Accuracy of detection (d-acc) and rewriting (r-acc) of idiomatic code for nine pythonic idioms",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.7568969726562,
+    "y1": 423.579345703125,
+    "y2": 440.16900634765625
+  },
+  "figType": "Table",
+  "imageText": ["Idiom", "Testing", "Code", "Review", "#Refs", "#TCs", "d-acc", "r-acc", "#Refs", "d-acc", "r-acc", "List-Compreh", "1031", "4763", "1", "1", "100", "1", "1", "Set-Compreh", "60", "281", "1", "1", "100", "1", "1", "Dict-Compreh", "213", "715", "1", "1", "100", "1", "1", "Chain-Compar", "150", "301", "1", "1", "100", "1", "1", "Truth-Val-Test", "3717", "18590", "1", "0.993", "100", "1", "1", "Loop-Else", "68", "271", "1", "1", "100", "1", "1", "Ass-Mul-Tar", "519", "2082", "1", "0.996", "100", "1", "1", "For-Multi-Tar", "904", "3370", "1", "1", "100", "1", "1", "Star", "10", "13", "1", "1", "100", "1", "1", "Total", "6672", "30386", "1", "0.995", "900", "1", "1"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 446.88,
+    "y2": 550.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Table6-1.png"
+}, {
+  "caption": "Table 1: Challenges in understanding pythonic idioms",
+  "captionBoundary": {
+    "x1": 328.2850036621094,
+    "x2": 547.5662841796875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["(2)", "Reason", "explanation:", "Incorrect", "understanding", "of", "meaning", "of", "assign-multi-targets", "idiom", "Q:", "How", "do", "chained", "assignments", "work?", "[3]", "A", "quote", "from", "something:", "x", "=", "y", "=", "somefunction()", "is", "the", "same", "as", "y", "=", "somefunction();", "x", "=", "y;", "Is", "x", "=", "y", "=", "somefunction()", "the", "same", "as", "x", "=", "somefunction();", "y", "=", "somefunction()?", "Based", "on", "my", "understanding,", "they", "should", "be", "same.", "Asked", "11", "years", "ago;Modified", "9", "months", "ago;", "Viewed", "20k", "times", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Reason", "explanation:Misattribution", "of", "unexpected", "behavior", "to", "the", "use", "of", "set-comprehension", "idiom", "Q:", "Set", "comprehension", "gives", "“unhashable", "type”", "(set", "of", "list)", "in", "Python?", "[6]", "I", "want", "to", "collect", "all", "second", "elements", "of", "each", "tuple", "into", "a", "set:", "my_set.add({tup[1]", "for", "tup", "in", "list_of_tuples})", "But", "it", "throws", "the", "following", "error:", "TypeError:", "unhashable", "type:", "‘set’", "Asked", "5", "years", "ago;Modified", "5", "years", "ago;", "Viewed", "8k", "times", "(1)", "Reason", "explanation:", "Ignorance", "of", "existence", "of", "star", "idiom", "Q:", "Is", "there", "a", "way", "to", "expand", "a", "Python", "tuple", "into", "a", "function", "as", "actual", "parameters?", "[2]", "Asked", "13", "years", "ago;Modified", "1", "year", "ago;", "Viewed", "314k", "times", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Reason", "explanation:", "Confusion", "about", "nested", "for", "statement", "of", "list-comprehension", "idiom", "Q:", "Explanation", "of", "how", "nested", "list", "comprehension", "works?", "[5]", "I", "have", "no", "problem", "understanding", "this:", "b", "=", "[x", "for", "x", "in", "a]", "...,", "but", "then", "I", "found", "this", "snippet:", "b", "=", "[x", "for", "xs", "in", "a", "for", "x", "in", "xs].", "The", "problem", "is", "I’m", "having", "trouble", "understanding", "the", "syntax", "in", "[x", "for", "xs", "in", "a", "for", "x", "in", "xs],", "could", "anyone", "explain", "how", "it", "works?", "Asked", "9", "years", "ago;Modified", "10", "months", "ago;", "Viewed", "28k", "times", "#R", "Examples"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 554.4,
+    "y1": 100.8,
+    "y2": 342.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Table1-1.png"
+}, {
+  "caption": "Figure 2: The participants’ knowledge of 9 pythonic idioms",
+  "captionBoundary": {
+    "x1": 318.47198486328125,
+    "x2": 557.6758422851562,
+    "y1": 231.05734252929688,
+    "y2": 236.68798828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 563.04,
+    "y1": 82.56,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The question with idiomatic code and explanatory non-idiomatic code for the chain-comparison idiom",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4420776367188,
+    "y1": 340.8643493652344,
+    "y2": 357.4540100097656
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 543.36,
+    "y1": 248.64,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Figure3-1.png"
+}, {
+  "caption": "Figure 1: The idiomatic code and the corresponding nonidiomatic code of loop-else idiom",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7937622070312,
+    "y1": 132.43637084960938,
+    "y2": 149.0260009765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 128.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Figure1-1.png"
+}, {
+  "caption": "Table 2: The statistics of repositories, files and idiomatic code instances of nine pythonic idioms",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0372619628906,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Idiom", "Repositories", "Files", "Codes", "List-Comprehension", "6006", "90829", "313452", "Set-Comprehension", "1036", "4694", "9112", "Dict-Comprehension", "3109", "19845", "39970", "Chain-Comparison", "2617", "10540", "24764", "Truth-Value-Test", "2604", "71043", "418756", "Loop-Else", "1336", "4048", "5660", "Assign-Multi-Targets", "6311", "119575", "524777", "For-Multi-Targets", "5963", "84286", "221662", "Star", "4913", "48344", "150678", "Total", "6997", "222637", "1708831"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 283.2,
+    "y1": 113.75999999999999,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Table2-1.png"
+}, {
+  "caption": "Table 7: Performance Comparison",
+  "captionBoundary": {
+    "x1": 104.50399780273438,
+    "x2": 243.0376434326172,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Idioms", "N", "Correctness", "Time", "(s)", "G1", "G2", "Impr", "(%)", "G1", "G2", "Impr", "(%)", "List-Compreh", "3", "0.80", "1", "25", "47.9", "38.6", "19.4", "Set-Compreh", "3", "0.63", "0.97", "52.6", "51.7", "34.3", "33.7", "Dict-Compreh", "3", "0.57", "0.93", "64.7", "79.0", "67.9", "14.0", "Chain-Compar", "3", "0.40", "0.9", "125", "44.2", "27.8", "37.3", "Truth-Val-Test", "3", "0.70", "0.97", "38.1", "35.3", "29", "17.8", "Loop-Else", "3", "0.40", "0.97", "141.7", "63.1", "41.3", "34.6", "For-Mul-Tar", "3", "0.60", "0.87", "44.4", "50.0", "47.1", "5.8", "Assign-Mul-Tar", "3", "0.47", "0.97", "107.1", "23.1", "24.5", "-6.1", "Star", "3", "0.63", "0.93", "47.4", "45.9", "30.2", "34.3", "All", "27", "0.58", "0.94", "63.5", "48.9", "37.8", "22.6", "P-value", "27", "7.7", "×", "10−6", "2.1", "×", "10−4"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 100.8,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Table7-1.png"
+}, {
+  "caption": "Table 3: The percentages of four types of concise manifestation for nine pythonic idioms",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.63543701171875,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Idiom", "N", "Token", "Line", "Variable", "Function", "Total", "List-Comprehension", "384", "-", "100%", "57.3%", "0.5%", "100%", "Set-Comprehension", "369", "-", "100%", "44.7%", "0.8%", "100%", "Dict-Comprehension", "381", "-", "100%", "48.6%", "2.6%", "100%", "Chain-Comparison", "379", "100%", "-", "-", "-", "100%", "Truth-Value-Test", "384", "100%", "100%", "-", "100%", "100%", "Loop-Else", "360", "82.2%", "82.2%", "82.2%", "-", "82.2%", "Ass-Multi-Targets", "384", "-", "100%", "35.9%", "-", "100%", "For-Multi-Targets", "384", "-", "100%", "-", "-", "100%", "Star", "384", "100%", "-", "-", "-", "100%"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 289.44,
+    "y1": 108.96,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639101-Table3-1.png"
+}]

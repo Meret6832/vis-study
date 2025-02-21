@@ -1,0 +1,361 @@
+[{
+  "caption": "Table 5:Methods called at run time but notmodeled statically.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2052001953125,
+    "y1": 251.49110412597656,
+    "y2": 257.12200927734375
+  },
+  "figType": "Table",
+  "imageText": ["ArpDroid", "SPARK", "2085", "1344", "42", "14", "430", "262", "671", "Difuzer", "CHA", "1542", "926", "14", "14", "397", "194", "256", "NatiDroid", "CHA", "1299", "704", "0", "14", "382", "163", "639", "MaMaDroid", "SPARK", "2085", "1344", "42", "14", "430", "262", "671", "BackDroid", "SPARK", "2085", "1344", "42", "14", "430", "262", "671", "SootFX", "SPARK", "2641", "1828", "84", "15", "322", "332", "824", "ACID", "SPARK", "2286", "1704", "84", "15", "322", "288", "068", "Gator", "CHA", "2213", "1462", "6", "14", "815", "278", "840", "Jicer", "SPARK", "1962", "1194", "42", "14", "430", "247", "237", "CHA", "1295", "683", "14", "14", "397", "163", "195", "RTA", "1521", "976", "41", "14", "399", "191", "606", "VTA", "1612", "1064", "41", "14", "399", "203", "174", "SPARK", "1933", "1188", "42", "14", "430", "243", "570", "DroidRA", "CHA", "1295", "684", "14", "14", "397", "163", "225", "RTA", "1522", "983", "41", "14", "399", "191", "785", "VTA", "1614", "1064", "41", "14", "399", "203", "374", "SPARK", "1935", "1188", "42", "14", "430", "243", "871", "RAICC", "CHA", "1294", "685", "14", "14", "397", "163", "094", "RTA", "1498", "938", "29", "14", "399", "188", "799", "VTA", "1621", "1110", "41", "14", "399", "204", "268", "SPARK", "1965", "1216", "42", "14", "430", "247", "577", "IccTA", "FlowDroid", "CHA", "1294", "685", "14", "14", "397", "163", "099", "RTA", "1499", "936", "29", "14", "399", "188", "845", "VTA", "1621", "1110", "41", "14", "399", "204", "220", "SPARK", "1965", "1216", "42", "14", "430", "247", "577", "Tool", "Algorithm", "Missing", "methods", "(DM", "\\", "SMcg)", "Mean", "Median", "Min", "Max", "Total"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 264.96,
+    "y2": 502.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table5-1.png"
+}, {
+  "caption": "Figure 3: Comparison of recall, precision, and f1 score of all configurations of tools and call graph construction algorithms.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8074340820312,
+    "y1": 198.8180694580078,
+    "y2": 226.36700439453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Proportion of dynamically-executed methods missed by FlowDroid-CHA.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04718017578125,
+    "y1": 403.34912109375,
+    "y2": 419.9389953613281
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 327.84,
+    "y2": 397.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Code Coverage of the dynamic analysis for the 126 apps successfully analyzed by all tools. The code coverage is at the method level and is expressed in %.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0487365722656,
+    "y1": 512.5391235351562,
+    "y2": 540.0880126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 436.8,
+    "y2": 506.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure5-1.png"
+}, {
+  "caption": "Table 7: Top 10 most missed methods by static analyzers without obfuscated class names.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.20068359375,
+    "y1": 389.0641174316406,
+    "y2": 405.65301513671875
+  },
+  "figType": "Table",
+  "imageText": ["Occurrences", "Method", "2594", "com.ryanheise.audioservice.AudioService.<clinit>()", "2594", "com.ryanheise.audioservice.AudioService.<init>()", "2562", "com.ryanheise.audioservice.AudioService$d.<init>(AudioService)", "2555", "com.ryanheise.audioservice.AudioService$a.<init>(AudioService,int)", "2551", "com.ryanheise.audioservice.AudioService.onCreate()", "2203", "com.unity3d.player.h.onActivityStopped(Activity)", "2191", "com.unity3d.player.h.onActivityPaused(Activity)", "2125", "vn.hunghd.flutterdownloader.FlutterDownloaderInitializer.onCreate()", "2125", "vn.hunghd.flutterdownloader.FlutterDownloaderInitializer.a(Context)", "2098", "vn.hunghd.flutterdownloader.FlutterDownloaderInitializer$a.<init>(g)"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 413.76,
+    "y2": 496.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table7-1.png"
+}, {
+  "caption": "Figure 6: Distributions of the average number of transitive successors of methods dynamically called.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0433349609375,
+    "y1": 611.9680786132812,
+    "y2": 628.5579833984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 557.76,
+    "y2": 605.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure6-1.png"
+}, {
+  "caption": "Table 6: Top 10 most missed methods by static analyzers.",
+  "captionBoundary": {
+    "x1": 323.125,
+    "x2": 552.7366943359375,
+    "y1": 284.0951232910156,
+    "y2": 289.72601318359375
+  },
+  "figType": "Table",
+  "imageText": ["2594", "com.ryanheise.audioservice.AudioService.<clinit>()", "2594", "com.ryanheise.audioservice.AudioService.<init>()", "2562", "com.ryanheise.audioservice.AudioService$d.<init>(AudioService)", "2555", "com.ryanheise.audioservice.AudioService$a.<init>(AudioService,int)", "2551", "com.ryanheise.audioservice.AudioService.onCreate()", "2422", "l.b.<init>()", "2358", "k.a.<init>()", "2315", "k.b.<init>()", "2290", "l.b.size()", "2290", "r.g.<init>()", "Occurrences", "Method"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 297.59999999999997,
+    "y2": 381.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table6-1.png"
+}, {
+  "caption": "Table 1: Open-source static analysis tools that use a call graph. “Runnable” means we could adapt, build, and run the tool.",
+  "captionBoundary": {
+    "x1": 316.7720031738281,
+    "x2": 559.7340698242188,
+    "y1": 185.8950958251953,
+    "y2": 202.4849853515625
+  },
+  "figType": "Table",
+  "imageText": ["AppoScopy", "[20]", "DroidRA", "[35]", "✓", "Jicer", "[40]", "✓", "ArpDroid", "[16]", "✓", "DroidSafe", "[24]", "✓", "MaMaDroid", "[39]", "✓", "BackDroid", "[57]", "✓", "ELEGANT", "[33]", "NatiDroid", "[32]", "✓", "BackStage", "[28]", "FlowDroid", "[6]", "✓", "NaDroid", "[21]", "DidFAIL", "[27]", "Gator", "[61]", "✓", "RAICC", "[44]", "✓", "Difuzer", "[47]", "✓", "HybriDroid", "[30]", "SootFX", "[26]", "✓", "Tool", "Runnable", "Tool", "Runnable", "Tool", "Runnable", "ACID", "[36]", "✓", "DroiDel", "[9]", "IccTA", "[34]", "✓"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 209.76,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table1-1.png"
+}, {
+  "caption": "Table 2: Description of the tools.",
+  "captionBoundary": {
+    "x1": 372.2969970703125,
+    "x2": 503.565185546875,
+    "y1": 478.77911376953125,
+    "y2": 484.4100036621094
+  },
+  "figType": "Table",
+  "imageText": ["(1)", "FlowDroid", "detects", "data", "leaks", "in", "Android", "apps", "(2)", "IccTA", "detects", "potential", "data", "leaks", "in", "apps", "with", "an", "ICC", "sensitivity", "(3)", "RAICC", "extends", "FlowDroid", "with", "additional", "ICC", "methods", "(4)", "DroidRA", "extends", "FlowDroid", "to", "resolve", "reflective", "calls", "and", "improve", "call", "graphs", "(5)", "NatiDroid", "performs", "cross-language", "static", "analyses", "of", "both", "bytecode", "and", "native", "code", "(6)", "MaMaDroid", "detects", "malware", "based", "on", "app", "behavior", "(7)", "BackDroid", "on-the-fly", "bytecode", "search", "to", "improve", "inter-procedural", "analysis", "(8)", "SootFX", "extracts", "features", "for", "machine", "learning", "(9)", "ACID", "detects", "API", "compatibility", "issues", "(10)", "Gator", "performs", "callback-sensitive", "static", "analysis", "(11)", "Jicer", "is", "a", "bytecode", "slicer", "(12)", "ArpDroid", "detects", "and", "repairs", "incompatible", "uses", "of", "the", "runtime", "permission", "(13)", "Difuzer", "detects", "hidden", "sensitive", "information", "in", "apps", "(via", "data", "flow", "analysis)"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 554.88,
+    "y1": 493.44,
+    "y2": 587.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table2-1.png"
+}, {
+  "caption": "Table 8: Top 10 entry point methods in the DCG of the 1000 apps (ranked per number of occurrences)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2020874023438,
+    "y1": 90.70809173583984,
+    "y2": 107.2979736328125
+  },
+  "figType": "Table",
+  "imageText": ["Occurrences", "Method", "961", "androidx.core.app.CoreComponentFactory.<init>()", "955", "androidx.core.app.CoreComponentFactory.instantiateApplication(ClassLoader,String)", "944", "androidx.core.app.CoreComponentFactory.instantiateProvider(ClassLoader,String)", "794", "androidx.startup.InitializationProvider.onCreate()", "790", "com.google.firebase.provider.FirebaseInitProvider.onCreate()", "786", "androidx.startup.InitializationProvider.<init>()", "781", "com.google.firebase.provider.FirebaseInitProvider.attachInfo(Context,ProviderInfo)", "780", "com.google.firebase.provider.FirebaseInitProvider.<init>()", "763", "androidx.core.app.CoreComponentFactory.instantiateActivity(ClassLoader,String,Intent)", "713", "com.google.android.gms.dynamite.DynamiteModule.<clinit>()"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 114.72,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table8-1.png"
+}, {
+  "caption": "Table 9: Top 10 entry point non-library methods in the 1000 dynamic call graphs",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2064208984375,
+    "y1": 200.49110412597656,
+    "y2": 217.08099365234375
+  },
+  "figType": "Table",
+  "imageText": ["Occurrences", "Method", "191", "com.unity3d.player.UnityPlayer$5.run()", "185", "com.ryanheise.audioservice.AudioService.onCreate()", "185", "com.ryanheise.audioservice.AudioService.<init>()", "184", "com.ryanheise.audioservice.AudioService.<clinit>()", "184", "com.unity3d.player.UnityPlayer$d.<clinit>()", "183", "com.unity3d.player.UnityPlayer$1.onClick(DialogInterface,int)", "181", "k.a.<clinit>()", "174", "b1.a.<clinit>()", "170", "com.unity3d.player.UnityPlayer.<clinit>()", "168", "b1.b.<clinit>()"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 224.64,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table9-1.png"
+}, {
+  "caption": "Figure 7: Distribution of the number of entry point methods called during the dynamic analysis.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0425720214844,
+    "y1": 318.0010986328125,
+    "y2": 334.59100341796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 255.84,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure7-1.png"
+}, {
+  "caption": "Figure 1: The number of methods called at run time.",
+  "captionBoundary": {
+    "x1": 332.2530212402344,
+    "x2": 543.905029296875,
+    "y1": 514.4461059570312,
+    "y2": 520.0770263671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 439.68,
+    "y2": 508.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure1-1.png"
+}, {
+  "caption": "Table 3: Mean andMedian of the number of method calls and the number of unique methods with and without libraries",
+  "captionBoundary": {
+    "x1": 317.6590270996094,
+    "x2": 558.205078125,
+    "y1": 546.0811157226562,
+    "y2": 562.6710205078125
+  },
+  "figType": "Table",
+  "imageText": ["Mean", "Median", "Method", "Calls", "(DM)", "310", "595", "191", "862", "Unique", "Methods", "3", "885", "3", "236", "Non", "Library", "Method", "Calls", "(DM¬𝑙", ")", "136", "374", "24", "310", "Non", "Library", "Unique", "Methods", "1", "355", "678"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 570.72,
+    "y2": 615.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table3-1.png"
+}, {
+  "caption": "Figure 8: Top 40 most unique missed entry point method’ names by static analyzers (logarithmic scale)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.9526672363281,
+    "y1": 198.8130645751953,
+    "y2": 215.40301513671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 82.56,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure8-1.png"
+}, {
+  "caption": "Figure 9: Top 40 most unique non-obfuscated missed entry point method’ names by static analyzers",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2977600097656,
+    "y1": 406.8131103515625,
+    "y2": 423.40301513671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 290.88,
+    "y2": 400.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure9-1.png"
+}, {
+  "caption": "Table 4:Methods gathered statically in apps, for 126 apps. (CG = call graph, M. =Methods, Avg. = Average). The denominator for the % columns is the number of methods in apps.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.38671875,
+    "y1": 90.70809173583984,
+    "y2": 118.25701904296875
+  },
+  "figType": "Table",
+  "imageText": ["ArpDroid", "SPARK", "60", "500", "5%", "12", "593", "4791", "14%", "2007", "Difuzer", "CHA", "60", "567", "34%", "245", "987", "4809", "65%", "31", "060", "NatiDroid", "CHA", "61", "758", "81%", "469", "025", "4837", "88%", "40", "398", "MaMaDroid", "SPARK", "60", "500", "5%", "12", "592", "4791", "14%", "2007", "BackDroid", "SPARK", "60", "500", "5%", "12", "592", "4791", "14%", "2007", "SootFX", "SPARK", "61", "707", "0%", "101", "4798", "1%", "9", "ACID", "SPARK", "61", "707", "8%", "54", "169", "4798", "48%", "4124", "Gator", "CHA", "110", "824", "73%", "1", "920", "412", "31", "342", "90%", "655", "813", "Jicer", "SPARK", "71", "144", "6%", "15", "763", "6651", "11%", "2302", "DroidRA", "CHA", "71", "053", "38%", "397", "872", "6652", "66%", "47", "903", "RTA", "71", "048", "24%", "224", "992", "6652", "52%", "33", "452", "VTA", "71", "047", "19%", "111", "188", "6652", "42%", "16", "749", "SPARK", "71", "033", "6%", "16", "437", "6650", "12%", "2491", "RAICC", "CHA", "71", "051", "38%", "397", "791", "6651", "66%", "47", "894", "RTA", "71", "046", "24%", "224", "574", "6651", "52%", "33", "271", "VTA", "71", "045", "19%", "111", "151", "6651", "41%", "16", "605", "SPARK", "71", "031", "6%", "16", "264", "6650", "12%", "2434", "IccTA", "CHA", "71", "051", "38%", "399", "981", "6651", "66%", "48", "220", "RTA", "71", "046", "24%", "227", "541", "6651", "52%", "33", "746", "VTA", "71", "045", "18%", "109", "023", "6651", "41%", "16", "703", "SPARK", "71", "031", "5%", "15", "249", "6649", "12%", "2391", "FlowDroid", "CHA", "71", "051", "38%", "399", "975", "6651", "66%", "48", "218", "RTA", "71", "046", "24%", "227", "493", "6651", "52%", "33", "802", "VTA", "71", "045", "18%", "109", "519", "6651", "42%", "16", "788", "SPARK", "71", "031", "5%", "15", "250", "6649", "12%", "2391", "With", "libraries", "Without", "libraries", "Avg.", "%", "M.", "Avg.", "Avg.", "%", "M.", "Avg.", "|SM", "|", "in", "CG", "|SE", "|", "|SM¬𝑙", "|", "in", "CG", "|SE¬𝑙", "|"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 125.75999999999999,
+    "y2": 336.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Table4-1.png"
+}, {
+  "caption": "Figure 2: Number of apps successfully analyzed per tool",
+  "captionBoundary": {
+    "x1": 60.90999984741211,
+    "x2": 286.9350891113281,
+    "y1": 293.55511474609375,
+    "y2": 299.1860046386719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 199.68,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680333-Figure2-1.png"
+}]

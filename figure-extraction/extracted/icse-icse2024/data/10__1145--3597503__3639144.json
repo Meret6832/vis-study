@@ -1,0 +1,321 @@
+[{
+  "caption": "Figure 6: Demonstration of non-supported operators. (a) The TFLite model. (b) The TFLite-converted ONNX model. (c) The ONNX model modified by our Auto-matching Module.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0445861816406,
+    "y1": 188.98684692382812,
+    "y2": 213.9169921875
+  },
+  "figType": "Figure",
+  "imageText": ["𝑊𝑒𝑖𝑔ℎ𝑡𝑠", "128×512×1×1", "𝐵𝑖𝑎𝑠", "(128)", "𝑊𝑒𝑖𝑔ℎ𝑡𝑠", "512×512×1×1", "𝐵𝑖𝑎𝑠", "(512)", "embeddings", "Conv", "Conv", "LpNormalization", "(c)", "𝑊𝑒𝑖𝑔ℎ𝑡𝑠", "128×512×1×1", "𝐵𝑖𝑎𝑠", "(128)", "Auto", "Matching", "Module", "𝑊𝑒𝑖𝑔ℎ𝑡𝑠", "512×512×1×1", "𝐵𝑖𝑎𝑠", "(512)", "embeddings", "Conv", "Conv", "𝑊𝑒𝑖𝑔ℎ𝑡𝑠", "128×1×1×512", "𝐵𝑖𝑎𝑠", "(128)", "𝑊𝑒𝑖𝑔ℎ𝑡𝑠", "512×1×1×512", "𝐵𝑖𝑎𝑠", "(512)", "tf2onnx", "embeddings", "Conv", "L2Normalization", "(a)", "Conv", "TFL_L2_Normalization", "(b)"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.44,
+    "x2": 275.03999999999996,
+    "y1": 84.96,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure6-1.png"
+}, {
+  "caption": "Figure 1: The typical scenarios of evaluating the vulnerability of on-device DL models.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0379638671875,
+    "y1": 158.49783325195312,
+    "y2": 173.46600341796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 84.96,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure1-1.png"
+}, {
+  "caption": "Table 4: Demonstration of which operator of the TFLite model will affect the transformation accuracy. We use the (min, max) to define the typical difference range, where themin andmax are theminimal and maximal transformation differences for the TFLite model with the specific operator.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.201416015625,
+    "y1": 241.09280395507812,
+    "y2": 285.947998046875
+  },
+  "figType": "Table",
+  "imageText": ["(0.001,", "0.05)", "Upsample", "API", "Difference", "Resize", "(0.001,", "0.01)", "QuantizeLinear", "Computing", "Difference", "DequantizeLinear", "Category", "Operator", "Difference", "Range"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 544.3199999999999,
+    "y1": 289.44,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Table4-1.png"
+}, {
+  "caption": "Table 3: Comparison between different 𝛼 values of Algorithm 1.",
+  "captionBoundary": {
+    "x1": 59.034000396728516,
+    "x2": 288.544189453125,
+    "y1": 175.04183959960938,
+    "y2": 180.0469970703125
+  },
+  "figType": "Table",
+  "imageText": ["•", "RQ3:", "Can", "on-device", "models", "be", "directly", "attacked", "via", "REOM-", "based", "white-box", "strategies?", "Operator", "Not", "Supported", "0", "0.001", "0.01", "0.1", "100", "Success", "Cases", "0", "0", "2", "6", "24", "Fail", "Cases", "24", "24", "22", "18", "0"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 295.68,
+    "y1": 183.84,
+    "y2": 265.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Table3-1.png"
+}, {
+  "caption": "Figure 7: The scaled difference for models from TFLite model to the converted model. The x-axis refers to the ID of the on-device models. Here we plot the transformation difference of all collected models.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.5606079101562,
+    "y1": 196.50686645507812,
+    "y2": 221.43798828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 87.84,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure7-1.png"
+}, {
+  "caption": "Table 2: Transformation performance of the proposed REOM.",
+  "captionBoundary": {
+    "x1": 63.04498291015625,
+    "x2": 284.53466796875,
+    "y1": 85.65481567382812,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["NotImplemented", "Operator", "Mismatch", "100", "100", "0", "Operator", "Not", "Supported", "24", "6", "18", "Input", "Type", "Specification", "Mismatch", "18", "18", "0", "Error", "Types", "Reasons", "Count", "Success", "Fail", "Compatibility", "Structure", "Mismatch", "156", "156", "0"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 281.28,
+    "y1": 94.56,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Table2-1.png"
+}, {
+  "caption": "Figure 11: The meta-model of how our REOM solves the four problems. (a) general representation of non-debuggable models. (b) general representation of transformed debuggable models.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.6261596679688,
+    "y1": 418.1227722167969,
+    "y2": 443.0530090332031
+  },
+  "figType": "Figure",
+  "imageText": ["Pruning", "Module", "Ad-hoc", "manner", "Auto-matching", "Module", "Translation", "Module", "Equivalent", "Op", "combination", "Op", "4:;<ℎ>?", "4:;<ℎ>?", "4:;<ℎ>?", "Op", "Equivalent", "Op", "Non-debuggable", "weights", "4:;<ℎ>?", "Op", "Specification", "mismatch", "4:;<ℎ>?", "Extra", "Op", "Op", "Unknown", "Custom", "Op", "Mismatched", "Op", "(a)", "(b)"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 327.36,
+    "x2": 549.12,
+    "y1": 273.59999999999997,
+    "y2": 412.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure11-1.png"
+}, {
+  "caption": "Figure 9: The visualization of different perturbation distances for the image classification model.",
+  "captionBoundary": {
+    "x1": 131.88499450683594,
+    "x2": 480.11444091796875,
+    "y1": 252.68576049804688,
+    "y2": 257.69097900390625
+  },
+  "figType": "Figure",
+  "imageText": ["!!", "=", "0.1", "!!", "=", "0.3", "!!", "=", "1.0", "!!", "=", "3.0", "!!", "=", "10.0"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 512.16,
+    "y1": 85.92,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure9-1.png"
+}, {
+  "caption": "Figure 10: The scaled difference between the Caffe2 models and the converted debuggable model. Our tool can transform 9 of 10 Caffe2 models. The x-axis refers to the ID (0-8) of the Caffe2 models.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0447692871094,
+    "y1": 490.38177490234375,
+    "y2": 515.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["Answer", "to", "RQ3:", "The", "proposed", "REOM", "approach", "is", "indeed", "useful", "for", "helping", "security", "analysts", "evaluate", "the", "security", "of", "on-device", "TFLite", "models.", "Experimental", "results", "demon-", "strate", "the", "converted", "model", "can", "be", "considered", "as", "the", "de-", "buggable", "version", "of", "the", "source", "model", "for", "security", "exploita-", "tion.", "On-device", "models", "can", "indeed", "be", "directly", "attacked", "via", "REOM-based", "white-box", "strategies."],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 270.71999999999997,
+    "y2": 486.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure10-1.png"
+}, {
+  "caption": "Table 5: Classification accuracy of on-device models and converted debuggable models on test images. Each app has a different test dataset. The dataset list can be found in the shared code repository. The TFLite models are collected from the work [16] and the TensorFlow Hub.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 558.193603515625,
+    "y1": 85.65481567382812,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["Source", "model", "100.00%", "80.60%", "70.62%", "98.24%", "95.08%", "93.12%", "93.20%", "96.48%", "92.50%", "Difference", "0.00%", "0.09%", "0.03%", "0.47%", "0.08%", "1.36%", "0.00%", "0.00%", "0.43%", "Accuracy", "REOM", "100.00%", "80.51%", "70.59%", "98.71%", "95.00%", "91.76%", "93.20%", "96.48%", "92.07%", "Models", "Fruit", "Skin", "cancer", "object", "Sign", "language", "Plant", "Cassava", "disease", "Plant", "disease", "Insect", "Bird"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 545.28,
+    "y1": 108.96,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Table5-1.png"
+}, {
+  "caption": "Table 1: Errors types in the failure cases of the preliminary study. Note that one operator may cause multiple errors.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 295.40087890625,
+    "y1": 171.18386840820312,
+    "y2": 186.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["Input", "Type", "Specification", "Mismatch", "18", "Transformation", "Computing", "Operators", "Not", "Supported", "24", "Customized", "Deprecated", "Not", "Data", "Processing", "Implemented", "Computing", "Operators", "Mismatch", "100", "Quantization", "Errors", "Reasons", "Count", "Related", "Operators", "Compatibility", "Structure", "Mismatch", "156", "Quantization", "Transformation"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 281.28,
+    "y1": 189.6,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Table1-1.png"
+}, {
+  "caption": "Figure 3: Results of the naive transformation flow.",
+  "captionBoundary": {
+    "x1": 83.197998046875,
+    "x2": 264.6429443359375,
+    "y1": 143.70986938476562,
+    "y2": 148.71502685546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 279.36,
+    "y1": 89.75999999999999,
+    "y2": 137.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure3-1.png"
+}, {
+  "caption": "Figure 8: The Fooling rate of the debuggable model converted by REOM and the source on-device models using black-box attack methods. It shows that converted models have a similar fooling rate on black-box attacks with source models.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2000732421875,
+    "y1": 196.05783081054688,
+    "y2": 211.0260009765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 501.12,
+    "y1": 84.96,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure8-1.png"
+}, {
+  "caption": "Table 6: Fooling rate (%) of non-targeted and targeted attacks using white-box attack methods. ‘ℓ2’: the ℓ2 distance (perturbation magnitude). ‘BIM’: Basic Iterative Method [20]. ‘PGD’: Projected Gradient Descent for generating attacks [26]. ‘REOM’: we generate attacks on the converted PyTorch model and transfer the adversarial example to attack the target on-device model. ‘Baseline’: we collect the pre-trained model like the works [15, 16] and fine-tune the model on our collected dataset like the work [4], then transfer the attacks to attack the target on-device model.",
+  "captionBoundary": {
+    "x1": 53.19300079345703,
+    "x2": 559.5648193359375,
+    "y1": 227.93783569335938,
+    "y2": 262.83099365234375
+  },
+  "figType": "Table",
+  "imageText": ["1.0", "REOM", "86.18|86.41", "99.88|99.88", "98.21|98.41", "89.74|89.74", "96.09|95.90", "92.56|92.61", "90.12|90.34", "72.13|71.89", "96.17|96.13", "Baseline", "1.32|1.37", "4.13|4.15", "0.02|0.02", "2.95|2.95", "3.72|3.68", "10.54|10.59", "1.27|1.23", "2.94|2.88", "0.64|0.68", "0.1", "REOM", "1.61|1.61", "10.79|10.79", "14.94|15.93", "3.63|3.63", "3.63|3.67", "28.08|28.12", "1.09|1.09", "1.06|1.13", "3.64|3.71", "Baseline", "0|0", "0.76|0.76", "0|0", "0|0", "0|0", "2.04|2.11", "0|0", "0|0", "0|0", "Targeted", "Attack", "ℓ2", "Attack", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "0.01", "REOM", "0|0", "1.36|1.36", "3.97|3.97", "0.04|0.08", "0.86|0.90", "19.09|19.09", "0.12|0.12", "0.27|0.27", "1.02|0.90", "Baseline", "0|0", "0|0", "0|0", "0|0", "0|0", "0|0", "0|0", "0|0", "0|0", "1.0", "REOM", "99.78|99.55", "100.00|100.00", "99.65|99.65", "100.00|100.00", "99.96|99.92", "99.87|99.87", "100.00|100.00", "96.31|96.27", "99.49|99.49", "Baseline", "3.79|4.02", "2.67|3.02", "10.78|10.23", "12.93|12.42", "41.42|41.40", "30.82|30.86", "1.96|1.96", "24.32|23.89", "27.68", "|", "27.72", "0.1", "REOM", "28.12|28.12", "20.70|20.58", "96.14|96.14", "31.89|31.05", "80.53|80.40", "67.20|67.11", "14.75|14.79", "53.73|53.77", "68.37|67.99", "Baseline", "0.22|0.22", "0.31|0.31", "5.73|5.62", "2.98|2.74", "19.74|19.59", "8.37|8.37", "0.36|0.36", "1.82|1.86", "4.51|4.51", "ℓ2", "Attack", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "BIM|PGD", "0.01", "REOM", "2.90|2.90", "1.91|1.91", "89.77|89.03", "0.60|0.60", "72.51|72.31", "57.89|57.97", "0.75|0.80", "41.61|41.82", "56.08|56.00", "Baseline", "0|0", "0|0", "4.40|4.56", "0|0", "2.67|2.64", "1.18|1.31", "0|0", "0.78|0.62", "1.32|1.30", "Non-targeted", "Attack", "Fruit", "Skin", "cancer", "ImageNet", "Sign", "language", "Plant", "Cassava", "disease", "Plant", "disease", "Insect", "Bird"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 546.24,
+    "y1": 270.71999999999997,
+    "y2": 484.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Table6-1.png"
+}, {
+  "caption": "Figure 4: The overview working process of REOM. We use the (a), (b), and (c) to define the state of the model in REOM.",
+  "captionBoundary": {
+    "x1": 94.25,
+    "x2": 517.7496948242188,
+    "y1": 186.17782592773438,
+    "y2": 191.1829833984375
+  },
+  "figType": "Figure",
+  "imageText": ["Auto-matching", "Module", "Translation", "Module", "Modifier", "Pruning", "Module", "REOM", "Attack", "Extractor", "tf2onnx", "onnx2pytorch", "(a)", "TFLite", "model", "PyTorch", "model(b)", "ONNX", "modelAndroid", "APK", "(c)", "Modified", "ONNX", "model"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 519.84,
+    "y1": 86.39999999999999,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Demonstration of the structure mismatch. (a) The TFLite model. (b)The TFLite-converted ONNX model. (c) The ONNX model modified by our Pruning Module.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2018432617188,
+    "y1": 332.7758483886719,
+    "y2": 357.70599365234375
+  },
+  "figType": "Figure",
+  "imageText": ["B", "(128)", "W", "(128)", "Add", "Mul", "Float", "4:;<ℎ>?", "2034×128", "Relu", "FullyConnected", "Relu", "FullyConnected", "Shape", "(2)", "B", "(128)", "W", "(128)", "Uint8", "4:;<ℎ>?", "2034×128", "Add", "Mul", "Relu", "FullyConnected", "Reshape", "tf2onnx", "(a)", "Reshape", "Shape", "(2)", "B", "(128)", "Weights", "2304×128", "4!\"#$%", "=", "0.00086629", "4&%'(_*(+,-", "=", "0", "W", "(128)", "Shape", "(2)", "DequantizeLinear", "Add", "Mul", "Reshape", "(b)", "(c)", "Pruning", "Module"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 547.1999999999999,
+    "y1": 210.72,
+    "y2": 326.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639144-Figure5-1.png"
+}]

@@ -1,0 +1,201 @@
+[{
+  "caption": "TABLE III: The effectiveness of three APR tools in repairing injection vulnerabilities from InjectionVul4J.",
+  "captionBoundary": {
+    "x1": 60.15182113647461,
+    "x2": 296.1554260253906,
+    "y1": 74.28958129882812,
+    "y2": 91.16986083984375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "123", "0", "0", "0", "0", "0", "5", "∗#EM", "and", "#PM", "denote", "the", "number", "of", "patches", "that", "exactly", "match", "and", "partially", "match", "the", "developer-written", "patches,", "respectively.", "CWE-77", "3", "0", "0", "0", "0", "0", "0", "CWE-78", "6", "0", "0", "0", "0", "0", "0", "CWE-79", "33", "0", "0", "0", "0", "0", "3", "CWE-89", "16", "0", "0", "0", "0", "0", "0", "CWE-502", "65", "0", "0", "0", "0", "0", "2", "CWE", "ID", "#Vul.", "SIMFIX", "TBAR", "RECODER", "#EM", "#PM", "#EM", "#PM", "#EM", "#PM"],
+  "name": "III",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 285.12,
+    "y1": 96.96,
+    "y2": 198.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-TableIII-1.png"
+}, {
+  "caption": "Fig. 3: The APR-generated and developers-written patches for CVE-2017-14735.",
+  "captionBoundary": {
+    "x1": 314.40216064453125,
+    "x2": 550.406005859375,
+    "y1": 342.8586120605469,
+    "y2": 359.7388610839844
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Written", "by", "developers", "+++", "...", "...", "+++", "...", "...", "}\\\\\\.\\#@\\$%\\+&amp;;\\-_˜,\\?=/!]*(&amp;colon))[\\p{L}\\p", "{N}\\\\\\.\\#@\\$%\\+&amp;;\\-_˜,\\?=/!]*\"/>", "$%\\+&amp;;\\-_˜,\\?=/!]+|\\#(\\w)+)\"/>", "+++", "<regexp", "name=\"onsiteURL\"", "value=\"ˆ(?![\\p{L}\\p{N", "#", "patch", "of", "CVE-2017-14735", "(antisamy)", "@@", "-588,7", "+585,7", "@@", "...", "getAllowedRegexps", "---", "...", "compile(REGEXP_BEGIN", "+", "value", "+", "REGEXP_END));", "+++", "...", "compile(value));", "@@", "-617,7", "+614,7", "@@", "...", "getAllowedRegexps2", "---", "...", "compile(REGEXP_BEGIN", "+", "value", "+", "REGEXP_END));", "+++", "...", "compile(value));", "@@", "-634,16", "+631,14", "@@", "...", "getAllowedRegexps3", "---", "...", "compile(REGEXP_BEGIN", "+", "value", "+", "REGEXP_END));", "+++", "...", "compile(value));", "@@", "-54,7", "+54,8", "@@", "...", "global.html", "---", "<regexp", "name=\"onsiteURL\"", "value=\"([\\p{L}\\p{N}\\\\\\.\\#@\\", "(a)", "Generated", "by", "RECODER", "#", "1st", "patch", "generated", "by", "Recoder", "@@", "-588,7", "+585,7", "@@", "...", "getAllowedRegexps", "---", "...", "compile(REGEXP_BEGIN", "+", "value", "+", "REGEXP_END));", "+++", "...", "compile(value));", "#", "2nd", "patch", "generated", "by", "Recoder", "@@", "-617,7", "+614,7", "@@", "...", "getAllowedRegexps2", "---", "...", "compile(REGEXP_BEGIN", "+", "value", "+", "REGEXP_END));", "+++", "...", "compile(value));", "#", "3rd", "patch", "generated", "by", "Recoder", "@@", "-634,16", "+631,14", "@@", "...", "getAllowedRegexps3", "---", "...", "compile(REGEXP_BEGIN", "+", "value", "+", "REGEXP_END));", "+++", "...", "compile(value));"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 542.4,
+    "y1": 72.96,
+    "y2": 335.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-Figure3-1.png"
+}, {
+  "caption": "Fig. 4: Characteristics of developer-written patches.",
+  "captionBoundary": {
+    "x1": 79.65056610107422,
+    "x2": 278.0621337890625,
+    "y1": 283.66815185546875,
+    "y2": 289.3106994628906
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "#Created-Methods", "(f)", "#Exploitable", "Tests", "(c)", "∆Languages", "(d)", "∆Configures", "(a)", "∆Lines", "(b)", "∆Methods"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 290.4,
+    "y1": 72.96,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-Figure4-1.png"
+}, {
+  "caption": "Fig. 5: The examples of fix code ingredients in patches.",
+  "captionBoundary": {
+    "x1": 324.5448303222656,
+    "x2": 540.666259765625,
+    "y1": 261.0773010253906,
+    "y2": 266.7198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Identified", "Expression", "@@@", "SerializableProxyTest.java", "...", "...", "...", "...", "=", "new", "ObjectInputStream();", "...", "...", ";", "#", "the", "same", "expression", "within", "the", "project", "LookAheadObjectInputStream();", "+++", "try", "{", "ObjectInputStream", "in", "=", "new", "ObjectInputStream()", "#", "patch", "of", "CVE-2020-26945", "@@@", "AbstractSerialStateHolder.java", "---", "try", "{", "ObjectInputStream", "in", "=", "new", "(a)", "Identified", "Statement", "...", "...", "queryBuilder.setStrict(true);", "...", "...", "#", "the", "same", "statement", "within", "the", "project", "@@@", "SyncContentProvider.java", "#", "patch", "of", "CVE-2019-15566", "@@@", "HistorySearchProvider.java", "+++", "queryBuilder.setStrict(true);"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 543.36,
+    "y1": 72.0,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-Figure5-1.png"
+}, {
+  "caption": "Fig. 1: The key code modifications in Log4Shell patches.",
+  "captionBoundary": {
+    "x1": 67.44425964355469,
+    "x2": 289.0535888671875,
+    "y1": 440.9792785644531,
+    "y2": 446.621826171875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Excerpt", "4th", "patch", "2.16.0.rc1", "...", ",", "config);", "---", "}", "---", "if", "(lookups", "&&", "config", "!=", "null)", "{", "---", "result", "=", "new", "LookupMessagePatternConverter(result", "#", "defense", "4th:", "disable", "the", "lookup", "function", "for", "ever", "...", "(c)", "Excerpt", "3rd", "patch", "LOG4J2-3208", "...", "+++", "if", "(JndiManager.isIsJndiEnabled())", "{", "+++", "...", "+++", "}", "else", "{", "+++", "return", "null;", "#", "defense", "3rd:", "disable", "JndiEnabled()", "function", "by", "default", "...", "(b)", "Excerpt", "2nd", "patch", "2.15.0.rc2", "}", "return", "(T)", "this.context.lookup(name);", "...", "---", "//", "missed", "return;", "+++", "return", "null;", "#", "renew", "the", "defense", "2nd", "try{", "...", "}", "catch", "(URISyntaxException", "ex)", "{", "(a)", "Excerpt", "1st", "patch", "2.15.0.rc1", "return", "(T)", "this.context.lookup(name);", "...", "+++", "public", "synchronized", "<T>", "T", "lookup(final", "String", "name){", "+++", "try{", "+++", "...", "+++", "}", "catch", "(URISyntaxException", "ex)", "{", "+++", "//", "missed", "return;.", "+++", "}", "#", "defense", "2nd:", "add", "the", "function", "of", "the", "whitelist", "validation", "#", "defense", "1st:", "disable", "lookup", "function", "by", "default", "---", "if", "(!noLookups", "&&", "config", "!=", "null)", "{", "+++", "if", "(lookups", "&&", "config", "!=", "null)", "{"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 288.0,
+    "y1": 72.96,
+    "y2": 433.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-Figure1-1.png"
+}, {
+  "caption": "TABLE I: Injection vulnerabilities studied in this paper.",
+  "captionBoundary": {
+    "x1": 325.6993408203125,
+    "x2": 541.052734375,
+    "y1": 73.41220092773438,
+    "y2": 79.05474853515625
+  },
+  "figType": "Table",
+  "imageText": ["∗x/y", "in", "the", "last", "column", "denotes", "the", "ranking", "of", "the", "related", "vulnerability", "in", "the", "CWE", "Top", "25", "list", "and", "the", "OWASP", "Top", "10", "list,", "respectively.", "a", "command", "(Command", "Injection)", "25/3", "502", "Deserialization", "of", "untrusted", "data", "13/8", "77", "Improper", "neutralization", "of", "special", "elements", "used", "in", "6/3", "89", "Improper", "neutralization", "of", "special", "elements", "used", "in", "an", "SQL", "command", "(SQL", "Injection)", "5/3", "78", "Improper", "neutralization", "of", "special", "elements", "used", "in", "an", "OS", "command", "(OS", "Command", "Injection)", "2/3", "79", "Improper", "neutralization", "of", "input", "during", "the", "web", "page", "generation", "(Cross-site", "Scripting)", "CWE", "ID", "Description", "Rank"],
+  "name": "I",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 549.12,
+    "y1": 84.96,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-TableI-1.png"
+}, {
+  "caption": "Fig. 2: The average CVSS scores of the top 25 CWEs.",
+  "captionBoundary": {
+    "x1": 327.15069580078125,
+    "x2": 539.60107421875,
+    "y1": 296.6124267578125,
+    "y2": 302.2549743652344
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 538.0799999999999,
+    "y1": 201.6,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-Figure2-1.png"
+}, {
+  "caption": "TABLE IV: Statistics of code fix ingredients in InjectionVul4J.",
+  "captionBoundary": {
+    "x1": 60.62486267089844,
+    "x2": 296.6285400390625,
+    "y1": 74.52359008789062,
+    "y2": 80.1661376953125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "123", "17", "(13.8%)", "28", "(22.8%)", "∗#IS", "and", "#IE", "denote", "the", "number", "of", "vulnerabilities", "whose", "patches", "contain", "Identified", "Statements", "and", "Identified", "Expressions,", "respectively.", "CWE-77", "3", "0", "(0%)", "0", "(0%)", "CWE-78", "6", "0", "(0%)", "3", "(50%)", "CWE-79", "33", "4", "(12.1%)", "9", "(27.3%)", "CWE-89", "16", "7", "(41.2%)", "7", "(41.2%)", "CWE-502", "65", "6", "(9.2%)", "9", "(13.8%)", "CWE", "ID", "#Vul.", "#IS", "(ratio)", "#IE", "(ratio)"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 283.2,
+    "y1": 85.92,
+    "y2": 179.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-TableIV-1.png"
+}, {
+  "caption": "TABLE V: Intention analysis for repairing injection vulnerabilities in InjectionVul4J.",
+  "captionBoundary": {
+    "x1": 60.46546936035156,
+    "x2": 296.4690856933594,
+    "y1": 74.28958129882812,
+    "y2": 91.16986083984375
+  },
+  "figType": "Table",
+  "imageText": ["CWE-502", "Blacklist", "filtering", "39", "Whitelist", "filtering", "16", "Security", "API", "Invoking", "4", "Disabling", "vulnerable", "functions", "permanently", "3", "Disabling", "vulnerable", "functions", "by", "default", "3", "CWE-89", "Security", "API", "Invoking", "6", "String", "filtering", "4", "Whitelist", "filtering", "3", "Parameterization", "2", "Unknown", "1", "CWE-79", "Security", "API", "Invoking", "21", "Whitelist", "filtering", "1", "Unknown", "11", "CWE-78", "Security", "API", "Invoking", "2", "Blacklist", "filtering", "1", "Unknown", "3", "CWE-77", "Security", "API", "Invoking", "1", "Whitelist", "filtering", "1", "Disabling", "vulnerable", "functions", "by", "default", "1", "CWE", "ID", "Intention", "#Vul."],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 285.12,
+    "y1": 96.96,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-TableV-1.png"
+}, {
+  "caption": "TABLE II: The statistics of InjectionVul4J.",
+  "captionBoundary": {
+    "x1": 95.61744689941406,
+    "x2": 262.084228515625,
+    "y1": 73.78842163085938,
+    "y2": 79.43096923828125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "65", "123", "66", "CWE-77", "3", "3", "2", "CWE-78", "6", "6", "4", "CWE-79", "27", "33", "19", "CWE-89", "11", "16", "7", "CWE-502", "23", "65", "34", "CWE", "ID", "Project", "Vulnerability", "Exploit"],
+  "name": "II",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 264.0,
+    "y1": 85.44,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00014-TableII-1.png"
+}]

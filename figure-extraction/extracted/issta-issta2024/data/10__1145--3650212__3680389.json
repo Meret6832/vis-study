@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 1: Average coverage achieved by four LLM-based mutations compared to random mutation was measured using AFL for 5 hours on the JavaScript interpreter V8 with a single core. Among these variants, the baseline is Token-Level AFL [50] setting in Table 2, and prompt setting used was \"Please mutate the following program\". The experiment for GPT-4 [42] was conducted by requesting and receiving mutations through the OpenAI API [43].",
+  "captionBoundary": {
+    "x1": 53.467201232910156,
+    "x2": 295.6528015136719,
+    "y1": 87.06208801269531,
+    "y2": 168.07000732421875
+  },
+  "figType": "Table",
+  "imageText": ["CodeT5+", "(220M)", "[63]", "62.68%", "55,459", "56,576", "4.89%", "Mask", "Incoder", "(1B)", "[17]", "49.08%", "46,427", "47,385", "-12.15%", "StarCoder", "(1B)", "[31]", "82.72%", "41,331", "45,034", "-16.50%", "Random", "✗", "(Baseline", "[50])", "88.79%", "44,705", "53,936", "-", "GPT-4", "[42]", "27.50%", "46,454", "46,738", "-13.35%", "Prompt", "Strategy", "LLM", "Valid", "Total", "Ratio", "(%)", "Coverage", "Improv", "Variants", "Error", "(%)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 297.12,
+    "y1": 182.88,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table1-1.png"
+}, {
+  "caption": "Table 3: Comparisonwith other JavaScript interpreter fuzzers listed in Table 2.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2054443359375,
+    "y1": 266.6150817871094,
+    "y2": 281.8680114746094
+  },
+  "figType": "Table",
+  "imageText": ["CovRL-Fuzz", "58.84%", "20,844", "23,246", "-", "AFL", "(w/Dict)", "81.32%", "83,038", "87,587", "27.30%", "Superion", "42.63%", "92,314", "94,237", "18.32%", "Token-Level", "AFL", "90.64%", "92,621", "95,677", "16.54%", "Montage", "82.21%", "101,470", "103,589", "7.63%", "Montage", "(w/o", "Import)", "94.72%", "90,940", "98,643", "13.03%", "COMFORT", "79.47%", "81,171", "83,142", "34.11%", "CovRL-Fuzz", "54.87%", "105,121", "111,498", "-", "AFL", "(w/Dict)", "77.32%", "9,307", "14,259", "63.03%", "Superion", "86.23%", "8,944", "15,061", "54.35%", "Token-Level", "AFL", "80.52%", "14,361", "17,152", "35.53%", "Montage", "95.55%", "13,114", "13,285", "74.98%", "Montage", "(w/o", "Import)", "95.34%", "12,662", "15,598", "49.03%", "COMFORT", "79.83%", "12,268", "14,026", "65.74%", "Jerry", "Chakra", "CovRL-Fuzz", "48.59%", "61,137", "64,738", "-", "AFL", "(w/Dict)", "96.90%", "29,929", "33,531", "134.79%", "Superion", "77.35%", "33,812", "36,985", "112.87%", "Token-Level", "AFL", "84.10%", "39,582", "42,303", "86.11%", "Montage", "56.24%", "38,856", "40,155", "96.06%", "Montage", "(w/o", "Import)", "94.08%", "33,487", "36,338", "116.66%", "COMFORT", "79.66%", "44,324", "46,522", "69.23%", "CovRL-Fuzz", "48.68%", "75,240", "78,729", "-", "AFL", "(w/Dict)", "74.42%", "18,343", "20,496", "215.86%", "Superion", "72.02%", "17,619", "19,772", "227.42%", "Token-Level", "AFL", "69.70%", "52,385", "53,719", "20.51%", "Montage", "42.34%", "55,511", "56,861", "13.85%", "Montage", "(w/o", "Import)", "93.72%", "43,861", "47,754", "35.57%", "COMFORT", "79.64%", "36,074", "36,542", "77.16%", "JSC", "V8", "Valid", "Total", "Ratio", "(%)", "Target", "Fuzzer", "Error", "(%)", "Coverage", "Improv"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 555.36,
+    "y1": 296.64,
+    "y2": 562.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table3-1.png"
+}, {
+  "caption": "Table 2: Baseline fuzzers targeting JavaScript interpreters. CGF indicates the use of coverage-guided fuzzing, LLM denotes the usage of LLMs, and Mutation Level refers to the unit of mutation.",
+  "captionBoundary": {
+    "x1": 317.65875244140625,
+    "x2": 559.8048095703125,
+    "y1": 87.06202697753906,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["AFL(w/Dict)", "[39]", "✓", "Bit/Byte", "Superion", "[61]", "✓", "Grammar", "Token-Level", "AFL", "[50]", "✓", "Token", "LM", "Baselines", "Montage", "[29]", "Grammar", "✓", "COMFORT", "[67]", "✓", "Grammar", "✓", "CovRL-Fuzz", "✓", "✓", "Token", "Coverage-guided", "Baselines", "Processing", "Post", "Level", "Fuzzer", "CGF", "LLM", "Mutation"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 553.4399999999999,
+    "y1": 139.2,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table2-1.png"
+}, {
+  "caption": "Table 7: The ablation study with each variants. The Improv (%) refers to the improvement ratio compared to the baseline.",
+  "captionBoundary": {
+    "x1": 61.23588943481445,
+    "x2": 550.469482421875,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Impact", "of", "CovRL", "w/o", "LLM", "88.79%", "44,705", "53,936", "-", "87.45%", "35,406", "37,461", "-", "78.98%", "81,393", "83,785", "-", "87.39%", "12,312", "14,795", "-", "LLM", "w/o", "CovRL", "62.68%", "55,459", "56,576", "4.89%", "55.40%", "41,523", "42,385", "13.14%", "45.25%", "86,043", "86,858", "3.67%", "78.48%", "12,833", "14,068", "-4.91%", "LLM", "w/CovRL", "61.53%", "71,319", "74,574", "38.26%", "49.60%", "56,370", "58,340", "55.74%", "58.42%", "96,257", "98,221", "17.23%", "58.59%", "17,481", "19,855", "34.20%", "Impact", "of", "CWR", "w/o", "RL", "62.68%", "55,459", "56,576", "-", "55.40%", "41,523", "42,385", "-", "45.25%", "86,043", "86,858", "-", "78.48%", "12,833", "14,068", "-", "CovRL", "w/CR", "71.77%", "55,678", "57,735", "2.05%", "53.00%", "47,116", "49,083", "15.80%", "67.50%", "92,465", "94,145", "8.39%", "73.35%", "16,689", "18,629", "32.42%", "CovRL", "w/CRR", "74.15%", "57,401", "61,331", "8.40%", "69.57%", "37,230", "43,369", "2.32%", "65.47%", "91,427", "94,785", "9.13%", "75.34%", "16,118", "18,584", "32.10%", "CovRL", "w/CWR", "61.53%", "71,319", "74,574", "31.81%", "49.60%", "56,370", "58,340", "37.64%", "58.42%", "96,257", "98,221", "13.08%", "58.59%", "17,481", "19,855", "41.14%", "Valid", "Total", "(%)", "Valid", "Total", "(%)", "Valid", "Total", "(%)", "Valid", "Total", "(%)", "Variants", "Error", "(%)", "Coverage", "Improv", "Error", "(%)", "Coverage", "Improv", "Error", "(%)", "Coverage", "Improv", "Error", "(%)", "Coverage", "Improv", "Target", "V8", "JavaScriptCore", "ChakraCore", "JerryScript"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table7-1.png"
+}, {
+  "caption": "Table 8: The summary of bugs found by CovRL-Fuzz.",
+  "captionBoundary": {
+    "x1": 66.60310363769531,
+    "x2": 280.944580078125,
+    "y1": 466.2200012207031,
+    "y2": 470.514892578125
+  },
+  "figType": "Table",
+  "imageText": ["Target", "Version", "Total", "Con", "rmed", "Unknown", "(Fixed)", "CVE", "V8", "11.4.73", "2", "2", "0", "(0)", "0", "JavaScriptCore", "2.38.1", "3", "3", "1", "(1)", "0", "ChakraCore", "1.13.0.0-beta", "9", "8", "7", "(0)", "0", "JerryScript", "3.0.0", "14", "2", "12", "(0)", "10", "QuickJS", "2021-03-27", "2", "2", "2", "(1)", "1", "Jsish", "3.5.0", "4", "4", "4", "(0)", "2", "escargot", "bd95de3c", "21", "21", "21", "(14)", "0", "Espruino", "2v20", "2", "2", "2", "(2)", "2", "hermes", "0.12.0", "1", "1", "1", "(0)", "0", "Total", "58", "45", "50", "(18)", "15"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 485.28,
+    "y2": 583.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table8-1.png"
+}, {
+  "caption": "Figure 1: Types of LLM-based Mutation.",
+  "captionBoundary": {
+    "x1": 93.59609985351562,
+    "x2": 254.24656677246094,
+    "y1": 233.5210723876953,
+    "y2": 237.81597900390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 84.96,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Number of edge coverage between CovRL-Fuzz and other JavaScript interpreter fuzzers. The solid line represents the average coverage, while the shaded region depicts the range between the lowest and highest values ve times.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.20166015625,
+    "y1": 222.8321075439453,
+    "y2": 238.08599853515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 561.12,
+    "y1": 76.8,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The error rate of generated test cases on V8. The four error types, excluding syntax error, are classi ed as semantic errors.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0475158691406,
+    "y1": 378.4481201171875,
+    "y2": 404.6610107421875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 257.76,
+    "y2": 362.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Figure5-1.png"
+}, {
+  "caption": "Table 4: Unique bugs discovered by CovRL-Fuzz and other JavaScript interpreter fuzzers.",
+  "captionBoundary": {
+    "x1": 317.65875244140625,
+    "x2": 558.3919067382812,
+    "y1": 259.6940002441406,
+    "y2": 274.947021484375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "2", "3", "4", "0", "1", "14", "Jerry", "Unde", "ned", "Behavior", "✓", "✓", "✓", "✓", "Jerry", "Memory", "Leak", "✓", "✓", "✓", "Jerry", "Unde", "ned", "Behavior", "✓", "✓", "✓", "Jerry", "Unde", "ned", "Behavior", "✓", "Jerry", "Heap", "Bu", "er", "Over", "ow", "✓", "Jerry", "Out", "of", "Memory", "✓", "Jerry", "Stack", "Over", "ow", "✓", "Jerry", "Unde", "ned", "Behavior", "✓", "Jerry", "Heap", "Bu", "er", "Over", "ow", "✓", "Chakra", "Unde", "ned", "Behavior", "✓", "✓", "✓", "Chakra", "Out", "of", "Memory", "✓", "Chakra", "Out", "of", "Memory", "✓", "JSC", "Unde", "ned", "Behavior", "✓", "✓", "JSC", "Out-of-bounds", "Read", "✓", "Target", "Bug", "Type", "AFL", "Superion", "TokenAFL", "Montage", "COMFORT", "CovRL-Fuzz"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 289.92,
+    "y2": 423.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table4-1.png"
+}, {
+  "caption": "Figure 2: Work ow of CovRL-Fuzz: The blue-shaded area illustrates the operation of CovRL.",
+  "captionBoundary": {
+    "x1": 118.87200164794922,
+    "x2": 493.1295471191406,
+    "y1": 216.69911193847656,
+    "y2": 220.9940185546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 84.96,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Figure2-1.png"
+}, {
+  "caption": "Table 5: Comparison with state-of-the-art fuzzer using LLMbased mutation.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.651123046875,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["CovRL-Fuzz", "58.84%", "20,844", "23,246", "-", "Fuzz4All", "72.30%", "18,895", "22,681", "2.49%", "Jerry", "CovRL-Fuzz", "54.87%", "105,121", "111,498", "-", "Chakra", "Fuzz4All", "50.77%", "97,723", "99,329", "12.25%", "CovRL-Fuzz", "48.59%", "61,137", "64,738", "-", "Fuzz4All", "60.16%", "47,705", "48,765", "32.76%", "JSC", "CovRL-Fuzz", "48.68%", "75,240", "78,729", "-", "V8", "Fuzz4All", "48.56%", "57,524", "60,153", "30.88%", "Valid", "Total", "Ratio", "(%)", "Target", "Fuzzer", "Error", "(%)", "Coverage", "Improv"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 279.36,
+    "y1": 116.64,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table5-1.png"
+}, {
+  "caption": "Table 6: Unique bugs discovered by CovRL-Fuzz and compared LLM-based fuzzer.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6526184082031,
+    "y1": 226.7710723876953,
+    "y2": 242.0250244140625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "3", "14", "Jerry", "Unde", "ned", "Behavior", "✓", "✓", "Jerry", "Memory", "Leak", "✓", "✓", "Jerry", "Unde", "ned", "Behavior", "✓", "Jerry", "Unde", "ned", "Behavior", "✓", "Jerry", "Heap", "Bu", "er", "Over", "ow", "✓", "Jerry", "Out", "of", "Memory", "✓", "Jerry", "Stack", "Over", "ow", "✓", "Jerry", "Unde", "ned", "Behavior", "✓", "Jerry", "Heap", "Bu", "er", "Over", "ow", "✓", "✓", "Chakra", "Unde", "ned", "Behavior", "✓", "Chakra", "Out", "of", "Memory", "✓", "Chakra", "Out", "of", "Memory", "✓", "JSC", "Unde", "ned", "Behavior", "✓", "JSC", "Out-of-bounds", "Read", "✓", "Target", "Bug", "Type", "Fuzz4All", "CovRL-Fuzz"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 253.44,
+    "y1": 256.8,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Table6-1.png"
+}, {
+  "caption": "Figure 3: Example of Coverage-Weighted Rewarding process. (a) represents the control ow graph of an example program. (b) shows the ) 2>E Maps calculated based on the coverage areas traversed when each Test Case (TC) is executed in the program represented by (a). (c) is the 2>E calculated based on the ) 2>E Maps, which we refer to as the Coverage-based Weight Map. (d) describes the process of calculating the '2>E . Additional TCs are element-wise multiplied by 2>E to become the weighted coverage map, called the Weighted ) 2>E map, and the sum of this map is rewarded to the model as the reward '2>E . Note that the calculation of '2>E in this gure is a simpli ed version of Eq.5.",
+  "captionBoundary": {
+    "x1": 53.519901275634766,
+    "x2": 559.732177734375,
+    "y1": 185.79310607910156,
+    "y2": 244.88299560546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 84.96,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680389-Figure3-1.png"
+}]

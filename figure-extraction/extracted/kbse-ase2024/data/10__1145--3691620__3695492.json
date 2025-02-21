@@ -1,0 +1,461 @@
+[{
+  "caption": "Figure 5: Partial Prompt for Sensitive API Identification",
+  "captionBoundary": {
+    "x1": 60.92300033569336,
+    "x2": 286.9110412597656,
+    "y1": 328.68988037109375,
+    "y2": 330.7699890136719
+  },
+  "figType": "Figure",
+  "imageText": ["System", "You", "are", "an", "expert", "in", "the", "field", "of", "programming,", "and", "your", "task", "is", "to", "classify", "an", "API", "description", "into", "one", "of", "the", "following", "classes.", "Each", "class", "is", "uniquely", "identified", "by", "a", "number", "and", "described", "with", "a", "specific", "label", "and", "a", "few", "examples", "that", "belong", "to", "the", "class.", "Based", "on", "the", "similarity", "between", "the", "description", "I", "provide", "and", "the", "examples", "for", "each", "class,", "determine", "the", "most", "appropriate", "class.", "If", "the", "description", "does", "not", "clearly", "match", "any", "given", "class", "based", "on", "the", "examples,", "or", "if", "there", "is", "uncertainty", "about", "its", "classification,", "use", "the", "default", "class", "number", "40.", "The", "answer", "should", "only", "contain", "the", "class", "number", "and", "be", "restricted", "to", "one", "option.", ".", ".", ".", "<4>", "[get", "system", "information]", "Get", "information", "about", "the", "process,", "Node.js", "and", "its", "dependencies", "versions,", "the", "operating", "system,", "or", "other", "system-", "related", "info.", "Get", "CPU", "information", "or", "memory", "information.", "Get", "disk", "information.", ".", ".", ".", "<22>", "[create", "a", "network", "server", "or", "communication]", "Create", "a", "new", "instance", "of", "an", "HTTP", "server.", "Create", "an", "HTTP", "request", "object", "or", "a", "Socket", "for", "communication.", "Establish", "a", "connection", "to", "a", "specified", "server", "at", "a", "given", "port.", "Create", "a", "transport", "object", "for", "sending", "emails.", ".", ".", ".", "<37>", "[execute", "a", "command]", "Spawn", "a", "shell", "and", "execute", "a", "command", "within", "that", "shell.", "Execute", "a", "command", "synchronously", "or", "asynchronously.", "User", "Sets", "the", "permissions", "on", "the", "file.", "An", "asynchronous", "function", "that", "returns", "CPU", "information."],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 287.03999999999996,
+    "y1": 84.0,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Figure5-1.png"
+}, {
+  "caption": "Table 16: Results of Ablation Study",
+  "captionBoundary": {
+    "x1": 102.8499984741211,
+    "x2": 244.6920928955078,
+    "y1": 139.78488159179688,
+    "y2": 141.864990234375
+  },
+  "figType": "Table",
+  "imageText": ["SpiderScan", "w/o", "Verifier", "2179", "249", "88.6%", "(↑", "50.4%)", "SpiderScan", "w/o", "Edge", "Type", "846", "249", "70.6%", "(↑", "32.4%)", "SpiderScan", "w/o", "Fine-Grained", "1425", "249", "82.5%", "(↑", "44.3%)", "SpiderScan", "403", "249", "38.2%", "Ablated", "Version", "Detected", "TP", "FP", "Rate"],
+  "name": "16",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 146.88,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table16-1.png"
+}, {
+  "caption": "Table 15: Results of User Study",
+  "captionBoundary": {
+    "x1": 111.2960205078125,
+    "x2": 236.24620056152344,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["w/", "Reports", "69", "18/20", "w/o", "Reports", "102", "15/20", "Group", "Time", "(s)", "Accuracy"],
+  "name": "15",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 96.47999999999999,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table15-1.png"
+}, {
+  "caption": "Figure 7: An Example of Malicious Code and Benign Code That Share the Same Behavior Graph",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1925048828125,
+    "y1": 214.18692016601562,
+    "y2": 227.22601318359375
+  },
+  "figType": "Figure",
+  "imageText": ["Normal", "Behavior", "Read", "Sensitive", "File"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 544.3199999999999,
+    "y1": 82.56,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Figure7-1.png"
+}, {
+  "caption": "Table 11: Behaviors of New Malicious Packages",
+  "captionBoundary": {
+    "x1": 78.49299621582031,
+    "x2": 269.0473937988281,
+    "y1": 164.44888305664062,
+    "y2": 166.52899169921875
+  },
+  "figType": "Table",
+  "imageText": ["Accuracy", "of", "LLM-Based", "SensitiveAPI", "Identification.Weeval-", "Sabotaging", "0", "Reverse", "Shell", "9", "Dynamic", "Program", "Execution", "6", "Malicious", "Command", "Execution", "68", "Trojan", "9", "Information", "Stealing", "157", "Malicious", "Behavior", "Number", "of", "Packages"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 300.0,
+    "y1": 171.35999999999999,
+    "y2": 253.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table11-1.png"
+}, {
+  "caption": "Table 13: Detection Results of Each Component",
+  "captionBoundary": {
+    "x1": 341.62701416015625,
+    "x2": 534.2256469726562,
+    "y1": 146.61386108398438,
+    "y2": 148.6939697265625
+  },
+  "figType": "Table",
+  "imageText": ["Maliciousness", "Detector", "89", "11", "Maliciousness", "Verifier", "33", "–", "Script", "Analyzer", "80", "–", "Obfuscation", "Detector", "50", "–", "Component", "Detected", "Number", "of", "MBGs", "Matched"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 153.6,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table13-1.png"
+}, {
+  "caption": "Table 10: Results of Usefulness Evaluation",
+  "captionBoundary": {
+    "x1": 88.04595947265625,
+    "x2": 259.4937438964844,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["SpiderScan", "403", "249", "38.2%", "Cerebro", "442", "161", "63.6%", "Amalfi", "4,873", "230", "95.3%", "SAP", "48,249", "–", "–", "GuardDog", "7,970", "213", "97.3%", "298,504", "New", "Packages", "Tool", "Detected", "TP", "FP", "Rate"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 96.96,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table10-1.png"
+}, {
+  "caption": "Table 14: Report Information of Detection Tools",
+  "captionBoundary": {
+    "x1": 340.3680114746094,
+    "x2": 535.4859619140625,
+    "y1": 211.91989135742188,
+    "y2": 214.0
+  },
+  "figType": "Table",
+  "imageText": ["Amalfi", "Binary", "✗", "✗", "✗", "Cerebro", "Binary", "✗", "✗", "✗", "SpiderScan", "Behavior", "Types", "✓", "✓", "✓", "GuardDog", "Matched", "Rules", "✓", "✓", "✗", "SAP", "Binary", "✗", "✗", "✗", "Type", "Location", "Phase", "Tool", "Output", "Details"],
+  "name": "14",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 218.88,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table14-1.png"
+}, {
+  "caption": "Table 12: Execution Phases of New Malicious Packages",
+  "captionBoundary": {
+    "x1": 327.468994140625,
+    "x2": 548.3821411132812,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Run-Time", "3", "Install-Time", "193", "Import-Time", "53", "Execution", "Phase", "Number", "of", "Packages"],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 96.47999999999999,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table12-1.png"
+}, {
+  "caption": "Figure 1: Code Snippet of colour-string-1.5.3",
+  "captionBoundary": {
+    "x1": 85.1989974975586,
+    "x2": 262.6405029296875,
+    "y1": 205.31387329101562,
+    "y2": 207.39398193359375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 254.39999999999998,
+    "y1": 82.56,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Code Snippet of bitcionjslib-1.0.0",
+  "captionBoundary": {
+    "x1": 88.52100372314453,
+    "x2": 259.0049133300781,
+    "y1": 388.19189453125,
+    "y2": 390.2720031738281
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 272.15999999999997,
+    "y1": 214.56,
+    "y2": 381.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Approach Overview of SpiderScan",
+  "captionBoundary": {
+    "x1": 347.4960021972656,
+    "x2": 528.6588134765625,
+    "y1": 225.61386108398438,
+    "y2": 227.6939697265625
+  },
+  "figType": "Figure",
+  "imageText": ["Maliciousness", "Verifier", "Maliciousness", "Detector", "H", "D", "G", "F", "E", "B", "C", "A", "Sensitive", "API", "Identification", "Report", "API", "Hooks", "Report", "Suspicious", "Behavior", "GraphCode", "Files", "Code", "Files", "Report", "Malicious", "Packages", "Pruning", "Execution", "Logs", "Malicious", "Behavior", "Graphs", "E", "D", "C", "A", "B", "Script", "Analyzer", "Report", "Suspicious", "Behavior", "Graph", "Obfuscation", "Detector", "package.json", "Newly", "Published", "Packages", "Suspicious", "Behavior", "Extractor", "D", "B", "C", "A", "Program", "Behavior", "Graph"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 323.03999999999996,
+    "x2": 551.04,
+    "y1": 82.56,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Partial Prompt for Reading Data from a File (R7)",
+  "captionBoundary": {
+    "x1": 56.5880012512207,
+    "x2": 291.2460632324219,
+    "y1": 235.71292114257812,
+    "y2": 237.79302978515625
+  },
+  "figType": "Figure",
+  "imageText": ["/etc/passwd", "You", "are", "an", "experienced", "Node.js", "programmer.", "I", "will", "provide", "you", "with", "a", "string", "representing", "the", "parameters", "of", "a", "file-reading", "API.", "Your", "task", "is", "to", "determine", "whether", "this", "API", "reads", "a", "sensitive", "file.", "The", "following", "cases", "will", "help", "you", "make", "your", "judgment.", "If", "the", "function", "attempts", "to", "read", "config", "file", "of", "npm", "package", "such", "as", "`package.json`", "or", "other", "configuration", "files", "that", "do", "not", "contain", "system", "settings,", "such", "as", "`.json`,", "the", "answer", "is", "No.", "…", "If", "the", "function", "attempts", "to", "access", "system", "configuration", "files,", "such", "as", "`/etc/", "ssh/ssh_config`,", "`C:\\Windows\\System32\\Config`,", "or", "`/etc/hosts`,", "the", "answer", "is", "Yes.", "Your", "response", "should", "only", "be", "Yes", "or", "No.", "User", "System"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 284.15999999999997,
+    "y1": 82.56,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Figure8-1.png"
+}, {
+  "caption": "Table 3: Malicious Packages Dataset",
+  "captionBoundary": {
+    "x1": 365.52301025390625,
+    "x2": 510.3329162597656,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["BKC", "[48]", "https://dasfreak.github.io/Backstabbers-Knife-Collection/", "2,113", "MalOSS", "[11]", "https://github.com/osssanitizer/maloss", "567", "Sonatype", "https://www.sonatype.com/", "49", "Fortinet", "https://www.fortinet.com/", "14", "CheckPoint", "https://www.checkpoint.com/", "1", "GitHub", "Blog", "https://github.blog/", "13", "Hacker", "News", "https://thehackernews.com/", "24", "Phylum", "https://www.phylum.io/", "173", "Total", "–", "2,775", "Used", "–", "364", "Source", "Link", "Num"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 96.47999999999999,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table3-1.png"
+}, {
+  "caption": "Figure 4: Partial Prompt for Shell Command Analysis",
+  "captionBoundary": {
+    "x1": 329.5589904785156,
+    "x2": 546.58984375,
+    "y1": 290.07989501953125,
+    "y2": 292.1600036621094
+  },
+  "figType": "Figure",
+  "imageText": ["User", "System", "nohup", "/bin/sh", "-c", "'nc", "hacker_ip", "|", "/bin/sh'", ">/dev/null", "2>&1", "&#", "You", "are", "an", "experienced", "Linux", "shell", "programmer", "and", "an", "experienced", "Node.js", "package", "programmer.", "...", "You", "should", "return", "your", "answer", "in", "the", "form", "of", "a", "JSON", "object", "using", "the", "template", "provided", "below:", "...", "If", "the", "shell", "command", "contains", "only", "one", "command,", "explain", "the", "command", "and", "replace", "the", "placeholder", "${description", "1}", "with", "your", "explanation.", "...", "If", "the", "shell", "command", "runs", "a", "file", "during", "execution", "(e.g.,", "using", "the", "node", "command),", "replace", "the", "placeholder", "${file", "1}", "with", "the", "actual", "file", "name", "being", "executed.", "…", "Finally,", "analyze", "the", "entire", "shell", "command", "to", "determine", "if", "it", "is", "malicious.", "If", "the", "shell", "command", "retrieves", "user,", "system,", "or", "other", "local", "information", "and", "sends", "it", "to", "a", "specific", "URL", "or", "performs", "a", "DNS", "lookup,", "it", "is", "malicious.", "...", "The", "answer", "to", "the", "judgement", "should", "only", "be", "malicious", "or", "benign,", "replace", "the", "placeholder", "${judge}", "with", "your", "judgement."],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 84.0,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Figure4-1.png"
+}, {
+  "caption": "Table 4: Results of Effectiveness Evaluation",
+  "captionBoundary": {
+    "x1": 85.84500122070312,
+    "x2": 261.69512939453125,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Cerebro", "88.1%", "80.7%", "84.2%", "SpiderScan", "96.5%", "89.7%", "92.9%", "SAP", "95.4%", "48.7%", "64.2%", "Amalfi", "73.1%", "72.9%", "72.8%", "GuardDog", "57.1%", "59.9%", "58.5%", "Tool", "Precision", "Recall", "F1-Score"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 96.47999999999999,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table4-1.png"
+}, {
+  "caption": "Table 7: Results of Ablation Study on Prompts",
+  "captionBoundary": {
+    "x1": 344.54998779296875,
+    "x2": 531.3026733398438,
+    "y1": 243.28689575195312,
+    "y2": 245.36700439453125
+  },
+  "figType": "Table",
+  "imageText": ["File", "Sensitivity", "w/o", "Examples", "36.0%", "91.8%", "51.7%", "File", "Sensitivity", "91.4%", "95.1%", "93.2%", "File", "Sensitivity", "w/o", "Role", "87.2%", "95.1%", "91.0%", "File", "Sensitivity", "w/o", "Context", "87.0%", "93.4%", "90.1%", "Shell", "Command", "w/o", "Examples", "79.5%", "75.6%", "77.5%", "Shell", "Command", "89.1%", "100%", "94.3%", "Shell", "Command", "w/o", "Role", "89.1%", "100%", "94.3%", "Shell", "Command", "w/o", "Context", "85.1%", "100%", "92.0%", "Ablated", "Prompt", "Precision", "Recall", "F1-Score"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 250.07999999999998,
+    "y2": 337.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table7-1.png"
+}, {
+  "caption": "Table 5: Results of Script Analyzer Evaluation (NPM-SC)",
+  "captionBoundary": {
+    "x1": 324.0530090332031,
+    "x2": 551.7982788085938,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Trizna", "86.0%", "43.0%", "57.4%", "SpiderScan", "89.1%", "100.0%", "94.3%", "ShellCore", "(Term-level)", "82.8%", "75.1%", "77.7%", "ShellCore", "(Character-level)", "90.0%", "74.5%", "79.6%", "DONAPI", "81.8%", "87.8%", "84.7%", "Tool", "Precision", "Recall", "F1-Score"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 96.47999999999999,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table5-1.png"
+}, {
+  "caption": "Table 8: Distribution of Malicious Behaviors",
+  "captionBoundary": {
+    "x1": 348.5539855957031,
+    "x2": 527.3001098632812,
+    "y1": 348.7168884277344,
+    "y2": 350.7969970703125
+  },
+  "figType": "Table",
+  "imageText": ["Sabotaging", "4", "Reverse", "Shell", "2", "Dynamic", "Program", "Execution", "5", "Malicious", "Command", "Execution", "3", "Trojan", "5", "Information", "Stealing", "19", "Malicious", "Behavior", "Number", "of", "MBGs"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 355.68,
+    "y2": 422.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table8-1.png"
+}, {
+  "caption": "Table 9: Accuracy of LLM-Based Sensitive API Identification",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1332397460938,
+    "y1": 433.69189453125,
+    "y2": 435.7720031738281
+  },
+  "figType": "Table",
+  "imageText": ["Built-in", "4,520", "355", "85.1%", "[0.814,", "0.888]", "Third-party", "16,110", "376", "83.2%", "[0.792,", "0.868]", "Interval", "Confidence", "Manual", "Review", "Accuracy", "Quantity", "Category", "Total"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 440.64,
+    "y2": 483.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table9-1.png"
+}, {
+  "caption": "Table 6: Results of Script Analyzer Evaluation (PA-SC)",
+  "captionBoundary": {
+    "x1": 328.5140075683594,
+    "x2": 547.338134765625,
+    "y1": 166.28189086914062,
+    "y2": 168.36199951171875
+  },
+  "figType": "Table",
+  "imageText": ["Trizna", "99.8%", "99.2%", "99.5%", "SpiderScan", "98.4%", "99.6%", "99.0%", "ShellCore", "(Term-level)", "99.4%", "99.5%", "99.5%", "ShellCore", "(Character-level)", "99.6%", "99.5%", "99.6%", "DONAPI", "96.6%", "9.12%", "16.7%", "Tool", "Precision", "Recall", "F1-Score"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 173.28,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table6-1.png"
+}, {
+  "caption": "Table 1: Lexical Features in Obfuscation Detection",
+  "captionBoundary": {
+    "x1": 72.40402221679688,
+    "x2": 275.1341857910156,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ID", "Feature", "Description", "Source", "F1", "Total", "number", "of", "lines", "of", "code", "[38]", "F2", "Ratio", "of", "lines", "of", "code", "before", "and", "after", "code", "formatting", "[26]", "F3", "Ratio", "of", "the", "number", "of", "spaces", "before", "and", "after", "code", "formatting", "[26]", "F4", "Count", "of", "confusing", "identifiers", "and", "property", "identifiers", "new", "F5", "Measure", "of", "uncertainty", "or", "randomness", "in", "identifiers", "[32]", "F6", "Count", "of", "long", "strings", "(whose", "length", "exceeds", "100", "characters)", "[26]", "F7", "Length", "of", "the", "longest", "string", "in", "the", "JavaScript", "file", "[24]", "F9", "Average", "count", "of", "whitespace", "characters", "per", "line", "[38]", "F10", "Count", "of", "special", "numbers", "(e.g.,", "hexadecimal,", "Unicode", "and", "octal)", "[38]", "F11", "Count", "of", "special", "symbols", "(e.g.,", "%", "and", "#", ")", "[67]"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 96.47999999999999,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table1-1.png"
+}, {
+  "caption": "Table 2: Behavior Types of Sensitive APIs",
+  "captionBoundary": {
+    "x1": 354.3819885253906,
+    "x2": 521.47216796875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Other", "\\", "E1:", "spawn", "a", "new", "process", "✓", "E2:", "run", "an", "executable", "file", "✓", "E3:", "execute", "a", "command", "✓", "E4:", "execute", "a", "dynamically", "created", "program", "✓", "Execution", "Payload", "T1:", "encode", "the", "data", "T2:", "decode", "the", "data", "T3:", "create", "a", "cipher", "object", "T4:", "create", "a", "decipher", "object", "T5:", "cipher", "the", "data", "T6:", "decipher", "the", "data", "Transcoding", "&", "Cryptography", "F1:", "search", "for", "a", "file", "✓", "F2:", "copy", "or", "move", "a", "file", "or", "directory", "F3:", "create", "a", "file", "or", "directory.", "F4:", "delete", "a", "file", "or", "directory", "✓", "F5:", "modify", "the", "permissions", "or", "ownership", "F6:", "compress", "data", "F7:", "decompress", "data", "F8:", "create", "a", "writable", "stream", "F9:", "create", "a", "readable", "stream", "F10:", "open", "a", "file", "✓", "Operation", "File", "S1:", "manipulate", "the", "path", "S2:", "pipe", "the", "data", "Operation", "System", "N1:", "make", "HTTP", "request", "N2:", "resolve", "the", "DNS", "N3:", "create", "a", "network", "server", "or", "communication", "N4:", "send", "data", "over", "the", "network", "N5:", "receive", "data", "over", "the", "network", "N6:", "configure", "the", "network", "N7:", "start", "listening", "Network", "Operation", "W1:", "create", "a", "data", "representation", "W2:", "write", "data", "to", "a", "byte", "array,", "or", "stream", "W3:", "write", "data", "to", "a", "file", "✓", "Data", "Writing", "R1:", "Read", "input", "data", "from", "hardware", "devices", "R2:", "get", "the", "path", "or", "directory", "information", "R3:", "get", "system", "information", "R4:", "get", "user", "information", "R5:", "get", "network", "information", "R6:", "read", "data", "from", "a", "byte", "array,", "or", "stream", "R7:", "read", "data", "from", "a", "file", "✓", "Reading", "Information", "Coarse-Grained", "Type", "Fine-Grained", "Type", "Hook"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 96.47999999999999,
+    "y2": 465.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695492-Table2-1.png"
+}]

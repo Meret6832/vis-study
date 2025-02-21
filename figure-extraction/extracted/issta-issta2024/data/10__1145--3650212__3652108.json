@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Data Proxy Overview of FortifyPatch.",
+  "captionBoundary": {
+    "x1": 338.3590087890625,
+    "x2": 537.7979125976562,
+    "y1": 196.4411163330078,
+    "y2": 200.73602294921875
+  },
+  "figType": "Figure",
+  "imageText": ["old", "value", "Data", "Page", "Patch", "Page", "(d)", "Size", "Change", "new", "value", "Memory", "of", "the", "buggy", "variable", "Data", "Page", "Patch", "Page", "Data", "Page", "Data", "Page", "(c)", "Insertion", "(a)", "Value", "Change", "(b)", "Removal", "Normal", "PAS", "in", "Both", "GPTs", "Root", "PAS", "in", "H.GPT", "Normal", "PAS", "in", "G.GPT", "new", "value", "old", "value", "00", "00", "00", "00"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 540.0,
+    "y1": 86.88,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Figure4-1.png"
+}, {
+  "caption": "Table 3: Comparison FortifyPatch with Other Systems. The size of the patch used is about 1KB.",
+  "captionBoundary": {
+    "x1": 109.30000305175781,
+    "x2": 502.4044189453125,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["KUP", "[38]", "kernel", "✗", "✗", "✓", "✗", "2.4s/kernel", "56GB", "/", "RapidPatch", "[34]", "instruction", "✗", "✗", "✓", "✗", "7.5us/23LoC", "18KB", "2.2%∼9.1%", "kpatch", "[33]", "function", "✗", "✗", "✓", "✗", "45.6ms/patch", "20MB", "/", "KShot", "[91]", "function", "✓", "✗", "✓", "✗", "50`s/patch", "18MB", "3%", "FortifyPatch", "function", "✓", "✓", "✓", "✓", "166.92`s/patch", "16MB", "0.1%∼6.4%", "Instruction", "Global", "Data", "Patch", "Scope", "Downtime", "Memory", "Overhead", "Resistance", "Tamper", "Patching", "Secure", "Patch", "Level", "Name", "System"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 541.4399999999999,
+    "y1": 96.47999999999999,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Table3-1.png"
+}, {
+  "caption": "Figure 6: Performance Evaluated with Real-World Projects.",
+  "captionBoundary": {
+    "x1": 54.49879837036133,
+    "x2": 293.3450927734375,
+    "y1": 176.9640655517578,
+    "y2": 181.25897216796875
+  },
+  "figType": "Figure",
+  "imageText": ["100", "concurrency", "200", "concurrency", "500", "concurrency", "be", "r", "r", "N", "um", "ig", "ge", "h", "Tr", "Pa", "tc", "10²", "0", "e", "T", "im", "iz", "ed", "m", "al", "N", "or", "1", "0.9", "0.8", "Memcached", "Nginx", "Apache", "0.7"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 80.16,
+    "x2": 266.88,
+    "y1": 88.8,
+    "y2": 170.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Figure6-1.png"
+}, {
+  "caption": "Figure 1: A Subset of Patch for CVE-2020-13974.",
+  "captionBoundary": {
+    "x1": 209.43699645996094,
+    "x2": 402.5636901855469,
+    "y1": 305.25811767578125,
+    "y2": 309.5530090332031
+  },
+  "figType": "Figure",
+  "imageText": [".bss", ".text", "Instruction-level", "Patching", "Function-level", "Patching", "Orignal", "Layout", "Patch", "with", "Full", "Replacement", "Changed", "in", "Patching", "Not", "Changed", "in", "Patching", "...", "...", "......", "b", "trampoline+n", "npadch_active", "=", "true", "return", "return", "returnreturn", "return", "bl", "k_ascii", "...", "patched_func:", "if", "(!npadch_active)", "...", "...", "trampoline", "k_ascii:", "if", "(npadch", "==", "-1)", "...", "bl", "k_ascii", "...", "...", "diacr", "...", "if", "(!npadch_active)", "patched_inst:", "npadch_value", "=", "0", "...", "trampoline", "...", "...", "k_ascii:", "bl", "k_ascii", "...", "...", "diacr", "...", "...", "...", "...", "k_ascii:", "if", "(!npadch_active)", "...", "...", "diacr", "npadch_active", "npadch_value", "...", "k_ascii:", "if", "(npadch", "==", "-1)", "...", "bl", "k_ascii", "...", "...", "diacr", "...", "10", "+", "11", "static", "unsigned", "int", "diacr;", "12", "13", "@@", "-882,10", "+886,12", "@@", "static", "void", "k_ascii(struct", "vc_data", "*vc,", "unsigned", "char", "value,", "char", "up_flag)", "14", "base", "=", "16;", "15", "}", "16", "17", "-", "if", "(npadch", "==", "-1)", "18", "-", "npadch", "=", "value;", "19", "-", "else", "20", "-", "npadch", "=", "npadch", "*", "base", "+", "value;", "21", "+", "if", "(!npadch_active)", "{", "22", "+", "npadch_value", "=", "0;", "23", "+", "npadch_active", "=", "true;", "24", "+", "}", "25", "+", "26", "...", "27", "}", "1", "---", "a/drivers/tty/vt/keyboard.c", "2", "+++", "b/drivers/tty/vt/keyboard.c", "3", "@@", "-127,7", "+127,11", "@@", "static", "DEFINE_SPINLOCK(func_buf_lock);", "/*", "guard", "’func_buf’", "and", "friends", "*/", "4", "static", "bool", "dead_key_next;", "5", "-", "static", "int", "npadch", "=", "-1;", "6", "+", "7", "+", "/*", "Handles", "a", "number", "being", "assembled", "on", "the", "number", "pad", "*/", "8", "+", "static", "bool", "npadch_active;", "9", "+", "static", "unsigned", "int", "npadch_value;"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 509.28,
+    "y1": 88.8,
+    "y2": 295.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Figure1-1.png"
+}, {
+  "caption": "Table 1: Patch trigger count while executing benchmarks. Each benchmark is executed 30 times with each patch and group, and the table shows the total trigger count of 30 runs.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7371826171875,
+    "y1": 87.06208801269531,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["1", "2,", "8", "8.46", "×", "10", "2", "2.23", "×", "10", "7", "2.97", "×", "10", "4", "2", "2,", "4,", "8,", "10", "1.38", "×", "10", "4", "8.16", "×", "10", "7", "3.30", "×", "10", "6", "3", "1,", "2,", "4,", "7,", "8,", "10", "1.61", "×", "10", "4", "8.68", "×", "10", "7", "5.23", "×", "10", "6", "4", "1,", "2,", "3,", "4,", "7,", "8,", "9,", "10", "2.58", "×", "10", "5", "8.93", "×", "10", "7", "5.79", "×", "10", "6", "5", "all", "2.59", "×", "10", "5", "1.18", "×", "10", "8", "5.99", "×", "10", "6", "Group", "Patch", "Indices", "sysbench", "Unixbench", "lmbench", "(b)", "With", "Multiple", "Patches.", "1", "CVE-2014-0196", "1.50", "×", "10", "2", "5.70", "×", "10", "2", "7.20", "×", "10", "2", "2", "CVE-2016-0728", "0", "18", "2", "3", "CVE-2016-7916", "0", "2", "0", "4", "CVE-2017-17052", "1.03", "×", "10", "3", "4.91", "×", "10", "7", "1.03", "×", "10", "5", "5", "CVE-2018-1095", "98", "2", "0", "6", "CVE-2018-10087", "1.62", "×", "10", "3", "3.97", "×", "10", "7", "1.28", "×", "10", "5", "7", "CVE-2018-13405", "6.87", "×", "10", "2", "6.68", "×", "10", "6", "3.48", "×", "10", "6", "8", "CVE-2019-9213", "8.28", "×", "10", "2", "2.23", "×", "10", "7", "2.97", "×", "10", "4", "9", "CVE-2020-13974", "2.41", "×", "10", "5", "2.52", "×", "10", "6", "6.07", "×", "10", "5", "10", "CVE-2022-2978", "1.27", "×", "10", "4", "1.17", "×", "10", "7", "3.02", "×", "10", "6", "Index", "CVE", "sysbench", "Unixbench", "lmbench", "(a)", "With", "a", "Single", "Patch."],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 543.36,
+    "y1": 121.44,
+    "y2": 344.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Table1-1.png"
+}, {
+  "caption": "Figure 5: Performance Evaluated with Multiple Patches.",
+  "captionBoundary": {
+    "x1": 325.04901123046875,
+    "x2": 551.1098022460938,
+    "y1": 291.6051940917969,
+    "y2": 295.90008544921875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "lmbench.", "fork+exit", "fork+execve", "fork+sh", "re", "S", "co", "iz", "ed", "m", "al", "N", "or", "1", "0.9", "0.8", "Group", "1", "Group", "2", "Group", "3", "Group", "4", "Group", "5", "0.7", "Stat", "Fstat", "Open/Close", "re", "S", "co", "iz", "ed", "m", "al", "N", "or", "1", "0.9", "0.8", "Group", "1", "Group", "2", "Group", "3", "Group", "4", "Group", "5", "0.7", "Syscall", "Read", "Write", "re", "S", "co", "iz", "ed", "m", "al", "N", "or", "1", "0.9", "0.8", "Group", "1", "Group", "2", "Group", "3", "Group", "4", "Group", "5", "0.7", "Handler", "Install", "Pipe", "Latency", "Handler", "Overhead", "Sock", "Latency", "re", "S", "co", "iz", "ed", "m", "al", "N", "or", "1", "0.9", "0.8", "Group", "1", "Group", "2", "Group", "3", "Group", "4", "Group", "5", "0.7", "(b)", "UnixBench.", "Unixbench", "Unixbench-parallel", "re", "S", "co", "iz", "ed", "m", "al", "N", "or", "1", "0.9", "0.8", "Group", "1", "Group", "2", "Group", "3", "Group", "4", "Group", "5", "0.7", "(a)", "sysbench.", "CPU", "File", "I/O", "Memory", "re", "S", "co", "iz", "ed", "m", "al", "N", "or", "1", "0.9", "0.8", "Group", "1", "Group", "2", "Group", "3", "Group", "4", "Group", "5", "0.7"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 312.47999999999996,
+    "x2": 560.16,
+    "y1": 88.8,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Figure5-1.png"
+}, {
+  "caption": "Table 2: Patch Deployment Time.",
+  "captionBoundary": {
+    "x1": 106.57499694824219,
+    "x2": 240.97216796875,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["CVE-2014-0196", "1,656", "275.03", "0.36", "1.25", "276.64", "CVE-2016-0728", "668", "119.20", "0.26", "1.22", "120.68", "CVE-2016-7916", "744", "126.87", "0.26", "1.06", "128.19", "CVE-2017-17052", "488", "90.88", "0.34", "1.21", "92.43", "CVE-2018-1095", "332", "57.08", "0.30", "1.07", "58.45", "CVE-2018-10087", "528", "92.67", "0.29", "1.13", "94.08", "CVE-2018-13405", "280", "55.34", "0.29", "1.15", "56.78", "CVE-2019-9213", "960", "165.39", "0.31", "1.22", "166.92", "CVE-2020-13974", "552", "104.92", "0.42", "1.51", "106.85", "CVE-2022-2978", "576", "103.68", "0.31", "1.26", "105.25", "Copy", "GPT", "Trampoline", "Total", "Downtime", "(in", "`s)", "(in", "Byte)", "CVE", "Patch", "Size"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 280.32,
+    "y1": 96.96,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Table2-1.png"
+}, {
+  "caption": "Figure 3: Multi-GPT Scheme for the Patch in Figure 1.",
+  "captionBoundary": {
+    "x1": 329.51800537109375,
+    "x2": 546.6387939453125,
+    "y1": 288.19110107421875,
+    "y2": 292.4859924316406
+  },
+  "figType": "Figure",
+  "imageText": ["Normal", "PAS", "Root", "PAS", "No-Access", "PAS", "Executing", "in", "Hypervisor", "(H.GPT", "Actived)", "Executing", "in", "Hypervisor", "(H.GPT", "Actived)", "Executing", "in", "Patch", "(P.GPT", "Actived)", "Processor", "A", "Processor", "B", "npadch_value", "...", "...", "return", "...", "return", "...", "patched_func:", "if", "(!npadch_active)", "...", "npadch_active", "...", "trampoline", "k_ascii:", "bl", "k_ascii", "...", "diacr", "...", "npadch_value", "...", "...", "return", "...", "return", "...", "patched_func:", "if", "(!npadch_active)", "...", "npadch_active", "...", "trampoline", "k_ascii:", "bl", "k_ascii", "...", "diacr", "...", "Patch", "Data", "Patch", "Code", "Hypervisor", "Data", "Hypervisor", "Code", "npadch_value", "...", "...", "return", "...", "return", "...", "patched_func:", "if", "(!npadch_active)", "...", "npadch_active", "...", "trampoline", "k_ascii:", "bl", "k_ascii", "...", "diacr", "..."],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 328.32,
+    "x2": 544.3199999999999,
+    "y1": 84.96,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652108-Figure3-1.png"
+}]

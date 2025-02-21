@@ -1,0 +1,421 @@
+[{
+  "caption": "Figure 12: [1] The Elvis operator in Kotlin, [2] Java equivalent CFG subgraph of desugared Elvis operator, [3] our approach’s generalization of [2]",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0419006347656,
+    "y1": 147.62936401367188,
+    "y2": 175.177978515625
+  },
+  "figType": "Figure",
+  "imageText": ["[1]", "result", "=", "result", "?:", "0;", "[2]", "[3]", "True", "USE-DEF", "int", "ASSIGN", "LITERAL", "EQ:null", "True", "result", "=", "0;", "ASSIGN", "LITERAL", "result", "==", "null", "EQ:null"],
+  "name": "12",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure12-1.png"
+}, {
+  "caption": "Figure 1: Example syntactic sugar: ternary operator",
+  "captionBoundary": {
+    "x1": 70.9739990234375,
+    "x2": 276.86651611328125,
+    "y1": 165.27835083007812,
+    "y2": 170.90899658203125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Using", "ternary", "int", "result", "=", "n", ">", "0", "?", "1", ":", "-1;", "(a)", "Not", "using", "ternary", "result", "=", "-1;", "}", "result", "=", "1;", "}", "else", "{", "int", "result;", "if", "(n", ">", "0)", "{"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 284.15999999999997,
+    "y1": 82.56,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Potential syntax for Java multiple assignment",
+  "captionBoundary": {
+    "x1": 326.7699890136719,
+    "x2": 549.3837280273438,
+    "y1": 609.4683227539062,
+    "y2": 615.0989990234375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "sugared", "id,name", ",age", "=", "0,\"Bob\"", ",50;", "(a)", "desugared", "id", "=", "0;", "name", "=", "\"Bob\";", "age", "=", "50;"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 343.68,
+    "x2": 532.3199999999999,
+    "y1": 545.76,
+    "y2": 594.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure2-1.png"
+}, {
+  "caption": "Table 3: Sampled “2019 October/GitHub” Java Boa dataset",
+  "captionBoundary": {
+    "x1": 322.0039978027344,
+    "x2": 553.8467407226562,
+    "y1": 513.5243530273438,
+    "y2": 519.155029296875
+  },
+  "figType": "Table",
+  "imageText": ["Projects", "7,988", "Revisions", "31,645", "Unique", "Files", "191,945", "File", "Snapshots", "622,613", "AST", "Nodes", "92,311,223", "Recent", "Snapshot", "Methods", "241,264", "Granularity", "Amount"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 361.91999999999996,
+    "x2": 515.04,
+    "y1": 528.48,
+    "y2": 610.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table3-1.png"
+}, {
+  "caption": "Table 2: Occurrences of desugared Kotlin syntactic sugars found in 2019/Java Boa dataset",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03302001953125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Total:", "166,827,154", "100%", "String", "Interpolation", "1,992,642", "1.194%", "Elvis", "Operator", "391,010", "0.234%", "Getter/Setter", "Properties", "8,721,251", "5.228%", "Not-Null", "Assertion", "101,675", "0.061%", "Syntactic", "Sugar", "Java", "Method", "#", "Java", "Method", "%"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 112.8,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table2-1.png"
+}, {
+  "caption": "Table 10: Results on Participant Preferences & Feedback on Syntactic Sugars",
+  "captionBoundary": {
+    "x1": 151.8459930419922,
+    "x2": 459.8459167480469,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Sugar", "Preference", "Comments", "Multiple", "Assignment", "58.06%", "Have", "the", "flexibility", "to", "put", "meaningful", "groups", "of", "variables", "together", "Multiple", "++", "45.16%", "I", "think", "it", "would", "be", "a", "useful", "feature.", "It", "would", "be", "more", "useful", "if", "we", "can", "increment", "by", "any", "constant", "together,", "not", "just", "1,", "like", "(a,b)+=2.", "Unless", "41.94%", "I", "like", "the", "idea", "of", "unless,", "but", "the", "\"else\"", "case", "seems", "awkward.", "Is", "there", "a", "better", "word", "than", "unless?", "Any", "&", "All", "74.19%", "Seems", "to", "read", "’easier’", "(matches", "how", "we", "would", "state", "the", "condition", "in", "natural", "language)", "and", "unambiguously,", "so", "I’m", "a", "fan", "of", "the", "new", "feature.", "Null", "if", "Null", "29.03%", "The", "syntax", "appears", "to", "perform", "an", "implicit", "return", "in", "a", "way", "that", "is", "very", "subtle", "and", "unclear.", "A", "null-coalescence", "operator", "would", "be", "helpful,", "however.", "requireType", "45.16%", "I", "would", "actually", "go", "a", "step", "further", "and", "suggest", "a", "more", "robust", "pattern", "matching", "syntax,", "similar", "to", "rust", "or", "scala,", "which", "allows", "exhaustively", "enumerating", "types/patterns.", "Rethrow", "51.61%", "This", "makes", "it", "very", "elegant.", "A", "very", "useful", "suggestion."],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 542.4,
+    "y1": 105.6,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table10-1.png"
+}, {
+  "caption": "Figure 4: Potential syntax for Java unless",
+  "captionBoundary": {
+    "x1": 90.47200012207031,
+    "x2": 257.3699951171875,
+    "y1": 471.39434814453125,
+    "y2": 477.0249938964844
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "sugared", "unless", "(cond)", "{", "body", "}", "(a)", "desugared", "if", "(!cond)", "{", "body", "}"],
+  "name": "4",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 250.07999999999998,
+    "y1": 406.56,
+    "y2": 456.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Potential syntax for Java any/all",
+  "captionBoundary": {
+    "x1": 86.7239990234375,
+    "x2": 261.11700439453125,
+    "y1": 666.2863159179688,
+    "y2": 671.9169921875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "sugared", "all", "(a,", "b,", "c)", "{", "body", "}", "any", "(a,", "b,", "c)", "{", "body", "}", "(a)", "desugared", "if", "(a", "&&", "b", "&&", "c)", "{", "body", "}", "if", "(a", "||", "b", "||", "c)", "{", "body", "}"],
+  "name": "5",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 569.76,
+    "y2": 650.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Potential syntax for Java null if null",
+  "captionBoundary": {
+    "x1": 345.31500244140625,
+    "x2": 530.6381225585938,
+    "y1": 312.41534423828125,
+    "y2": 318.0459899902344
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "sugared", "something", "?!;", "body", "(a)", "desugared", "if", "(something", "!=", "null)", "{", "body", "}", "return", "null;"],
+  "name": "6",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 343.68,
+    "x2": 532.3199999999999,
+    "y1": 240.95999999999998,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Potential syntax for Java requireType",
+  "captionBoundary": {
+    "x1": 343.4210205078125,
+    "x2": 532.73388671875,
+    "y1": 568.455322265625,
+    "y2": 574.0859985351562
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "sugared", "requireType", "obj", "MyObject;", "body", "(a)", "desugared", "if", "(obj", "instanceof", "MyObject)", "{", "body", "}", "else", "{", "throw", "exception;", "}"],
+  "name": "7",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 562.0799999999999,
+    "y1": 488.64,
+    "y2": 552.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Potential syntax for Java multiple ++",
+  "captionBoundary": {
+    "x1": 80.56399536132812,
+    "x2": 267.27899169921875,
+    "y1": 174.75338745117188,
+    "y2": 180.384033203125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "sugared", "(a,", "b)++;", "(a)", "desugared", "a++;", "b++;"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 232.32,
+    "y1": 118.56,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure3-1.png"
+}, {
+  "caption": "Table 4: Results for sampled Boa Dataset with generalization",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0438232421875,
+    "y1": 384.8613586425781,
+    "y2": 390.49200439453125
+  },
+  "figType": "Table",
+  "imageText": ["1", "node", "156", "156", "814", "44", "13/13", "2", "nodes", "628", "249", "337", "116", "16/16", "3", "nodes", "592", "309", "294", "57", "4/11", "4", "nodes", "377", "173", "260", "11", "0/6", "Total", "Freq.", "SGs", "Invest.", "SGs", "Median", "Freq.", "Sugar-", "able", "New/", "Unique", "Sugars"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 398.88,
+    "y2": 482.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table4-1.png"
+}, {
+  "caption": "Table 5: Results for sampled Boa Dataset without generalization (pretty-printed Java AST)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.99755859375,
+    "y1": 502.5323486328125,
+    "y2": 519.1220092773438
+  },
+  "figType": "Table",
+  "imageText": ["1", "node", "148", "148", "205", "8", "3/3", "2", "nodes", "106", "22", "214", "0", "0/0", "Total", "Freq.", "SGs", "Invest.", "SGs", "Median", "Freq.", "Sugar-", "able", "New/", "Unique", "Sugars"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 528.0,
+    "y2": 589.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table5-1.png"
+}, {
+  "caption": "Figure 8: Potential syntax for Java rethrow",
+  "captionBoundary": {
+    "x1": 88.22999572753906,
+    "x2": 259.61199951171875,
+    "y1": 163.28536987304688,
+    "y2": 168.916015625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "sugared", "try", "{", "body", "}", "rethrow", "(Error1", "e)", "with", "e;", "(a)", "desugared", "try", "{", "body", "}", "catch", "(Error1", "e)", "{", "throw", "e;", "}"],
+  "name": "8",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 82.56,
+    "y2": 147.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure8-1.png"
+}, {
+  "caption": "Table 1: “2019 October/GitHub” (full) Java dataset statistics",
+  "captionBoundary": {
+    "x1": 319.1309814453125,
+    "x2": 556.720947265625,
+    "y1": 529.9503173828125,
+    "y2": 535.5809936523438
+  },
+  "figType": "Table",
+  "imageText": ["Projects", "380,125", "Revisions", "23,229,406", "Unique", "Files", "146,398,339", "File", "Snapshots", "484,947,086", "AST", "Nodes", "71,810,106,868", "Recent", "Snapshot", "Methods", "166,827,154", "Granularity", "Amount"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 353.76,
+    "x2": 522.24,
+    "y1": 544.8,
+    "y2": 626.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table1-1.png"
+}, {
+  "caption": "Table 7: Amount of CFGs for different syntactic sugars",
+  "captionBoundary": {
+    "x1": 63.21800231933594,
+    "x2": 284.31951904296875,
+    "y1": 447.19635009765625,
+    "y2": 452.8269958496094
+  },
+  "figType": "Table",
+  "imageText": ["Multiple", "Assignment", "5,543,853", "Multiple", "++", "292,449", "Unless", "9,574,658", "Any/All", "10,267,105", "Null", "if", "Null", "236,567", "requireType", "116,742", "Rethrow", "1,994,698", "Sugar", "Amount", "of", "CFGs"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 256.32,
+    "y1": 467.52,
+    "y2": 566.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table7-1.png"
+}, {
+  "caption": "Table 8: survey participants",
+  "captionBoundary": {
+    "x1": 382.00299072265625,
+    "x2": 493.85382080078125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Graduate", "Student", "48.39%", "Practitioner", "45.16%", "Other", "6.45%", "Frequency"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 373.91999999999996,
+    "x2": 502.08,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table8-1.png"
+}, {
+  "caption": "Table 9: Experience in Java of survey participants",
+  "captionBoundary": {
+    "x1": 337.8840026855469,
+    "x2": 537.9691162109375,
+    "y1": 175.90835571289062,
+    "y2": 181.53900146484375
+  },
+  "figType": "Table",
+  "imageText": ["0-2", "years", "16.13%", "2-5", "years", "22.58%", "5-10", "years", "38.71%", "10-15", "years", "6.45%", "15-20", "years", "3.23%", "20+", "years", "12.90%", "Experience", "Frequency"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 384.0,
+    "x2": 492.0,
+    "y1": 196.32,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table9-1.png"
+}, {
+  "caption": "Table 6: Results for entire Boa Dataset with generalization",
+  "captionBoundary": {
+    "x1": 55.84400177001953,
+    "x2": 291.694580078125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "node", "163", "163", "522,965", "50", "13/13", "2", "nodes", "669", "246", "238,973", "120", "16/16", "3", "nodes", "639", "324", "205,421", "59", "3/10", "4", "nodes", "394", "193", "200,701", "12", "0/6", "Total", "Freq.", "SGs", "Invest.", "SGs", "Median", "Freq.", "Sugar-", "able", "New/", "Unique", "Sugars"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 99.84,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Table6-1.png"
+}, {
+  "caption": "Figure 11: Example control-flowgraph (left) and the same control-flowgraphwith our generalization criteria (right). Information that is dropped from traditional CFG nodes to generalized CFG nodes is shown in red. The information gained in a CFG node during generalization is shown in blue.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.18310546875,
+    "y1": 359.5623474121094,
+    "y2": 387.1109924316406
+  },
+  "figType": "Figure",
+  "imageText": ["DEF-USE", "DEF-USE", "ENTRY", "True", "False", "RETURN", "VARIABLE", "ACCESS", "int", "ASSIGN", "LITERAL", "int", "ASSIGN", "LITERAL", "GREATER", "THAN", "VARIABLE", "DECLARATION", "ENTRY", "ENTRY", "True", "False", "return", "result;", "RETURN", "VARIABLE", "ACCESS", "result", "=", "-1;", "ASSIGN", "LITERAL", "result", "=", "1;", "ASSIGN", "LITERAL", "n", ">", "0", "GREATER", "THAN", "int", "result;", "VARIABLE", "DECLARATION", "ENTRY"],
+  "name": "11",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 127.67999999999999,
+    "x2": 481.44,
+    "y1": 169.92,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure11-1.png"
+}, {
+  "caption": "Figure 10: Overview of the workflow of our approach for discovering data-driven syntactic sugars",
+  "captionBoundary": {
+    "x1": 108.7040023803711,
+    "x2": 503.2796630859375,
+    "y1": 149.01138305664062,
+    "y2": 154.64202880859375
+  },
+  "figType": "Figure",
+  "imageText": ["32", "Java", "Syntactic", "Sugars", "Found", "Manual", "inspection", "926", "Frequent", "Subgraphs", "Large-scale", "frequent", "subgraph", "mining", "Rule-based", "filtering", "Frequent", "Subgraphs", "manipulate", "contextual", "data", "1,865", "Remove", "project-", "specific", "information,", "166,827,154", "Generalized", "CFGs", "Transform", "source", "code", "to", "graph", "representation", "166,827,154", "CFGs", "2019", "Java", "Boa", "Dataset"],
+  "name": "10",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 557.28,
+    "y1": 84.0,
+    "y2": 133.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639580-Figure10-1.png"
+}]

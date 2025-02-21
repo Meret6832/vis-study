@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 6: The transformation from a leaf node of FDT to complete binary tree.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0469970703125,
+    "y1": 198.73011779785156,
+    "y2": 213.9840087890625
+  },
+  "figType": "Figure",
+  "imageText": ["EQ4", "EQ5EQ5", "EQ1", "EQ2", "EQ3", "GT4", "GT2", "GT3", "GT1", "EQ4", "EQ3", "EQ2", "EQ1"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 88.32,
+    "x2": 263.03999999999996,
+    "y1": 86.88,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Figure6-1.png"
+}, {
+  "caption": "Table 2: Precision and Recall of FunRedisp under Di erent Rounding Functions on the 50 Smart Contracts",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0442199707031,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Metric", "Ceil", "Round", "Floor", "Precision", "69.11%", "72.16%", "73.67%", "Recall", "99.00%", "95.67%", "93.33%", "F-measure", "81.45%", "82.33%", "82.34%"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 251.04,
+    "y1": 116.64,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Table2-1.png"
+}, {
+  "caption": "Figure 1: A motivating example: (a) Smart contract Demo and (b) The opcode of the function dispatch.",
+  "captionBoundary": {
+    "x1": 53.519901275634766,
+    "x2": 294.0440673828125,
+    "y1": 384.0960998535156,
+    "y2": 399.3500061035156
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "DUP1", "PUSH4", "0xE2251181 EQ", "PUSH2", "0x2BC", "JUMPI ", "DUP1", "PUSH4", "0xB854D3ED EQ", "PUSH2", "0x281", "JUMPI ", "DUP1", "PUSH4", "0xB6179B7D EQ", "PUSH2", "0x246", "JUMPI ", "DUP1", "PUSH4", "0xACD9FD65 EQ", "PUSH2", "0x20B", "JUMPI ", "DUP1", "PUSH4", "0x80212E02 EQ", "PUSH2", "0x1D0", "JUMPI ", "DUP1", "PUSH4", "0x7A927E8F EQ", "PUSH2", "0x195", "JUMPI ", "DUP1", "PUSH4", "0x6C49479E EQ", "PUSH2", "0x15A", "JUMPI ", "DUP1", "PUSH4", "0x5867CAB5 EQ", "PUSH2", "0x11F", "JUMPI ", "DUP1", "PUSH4", "0x37117B83 EQ", "PUSH2", "0xE4 ", "JUMPI ", "DUP1", "PUSH4", "0x1236EE41 EQ", "PUSH2", "0xA9 ", "JUMPI ", "(a)", "10", "c", "=", "a", "+", "b", ";", "11", "}", "12", "//A", "few", "functions", "have", "been", "omitted", "13", "function", "fun10(uint256", "b)", "public", "{", "14", "c", "=", "a", "+", "b", ";", "15", "}", "16", "}", "1", "pragma", "solidity", "0.5.0;", "2", "3", "contract", "Demo{", "4", "uint256", "a", "=", "10;", "5", "uint256", "c", "=", "20;", "6", "function", "fun1(uint256", "b)", "public", "{", "7", "c", "=", "a", "+", "b", ";", "8", "}", "9", "function", "fun2(uint256", "b)", "public", "{"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 273.12,
+    "y1": 82.56,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Figure1-1.png"
+}, {
+  "caption": "Table 1: Gas Consumption for Invoking Functions in Demo",
+  "captionBoundary": {
+    "x1": 318.9219970703125,
+    "x2": 556.7550048828125,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Function", "signature", "Function", "selector", "Gas", "consumption", "fun8", "(uint256)", "0x1236EE41", "25741", "fun3", "(uint256)", "0x37117B83", "25763", "fun4", "(uint256)", "0x5867CAB5", "25785", "fun9", "(uint256)", "0x6C49479E", "25807", "fun2", "(uint256)", "0x7A927E8F", "25829", "fun6", "(uint256)", "0x80212E02", "25851", "fun1", "(uint256)", "0xACD9FD65", "25873", "fun7", "(uint256)", "0xB6179B7D", "25895", "fun5", "(uint256)", "0xB854D3ED", "25917", "fun10", "(uint256)", "0xE2251181", "25939"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 105.6,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Table1-1.png"
+}, {
+  "caption": "Table 3: Experimental Results on 50 Smart Contracts with Di erent Compiler Versions and Transaction Volumes",
+  "captionBoundary": {
+    "x1": 77.22810363769531,
+    "x2": 534.4779052734375,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["SUM", "1469865", "130846", "156201112", "156201112", "4357090289", "4340712587", "7012.117", "MultiSigWallet", "0.4.4", "12288", "525", "15073745", "15073745", "26372051", "26331780", "76.70667", "Wallet", "0.4.10", "16384", "105", "1617690", "1617690", "3250910", "3237886", "124.0381", "Token", "0.5.0", "16663", "363", "1682287", "1682287", "9663808", "9629158", "95.45455", "KBDChestSale", "0.5.0", "8955", "381", "954598", "954598", "10182508", "10125616", "149.3228", "Sponsorships", "0.5.0", "30254", "166", "3350836", "3350836", "4386492", "4328434", "349.747", "SkinRich", "0.5.0", "11468", "891", "2188908", "2188908", "22644518", "22312681", "372.4321", "Cremanon", "0.5.0", "31766", "3598", "5175500", "5175500", "96196094", "94219372", "549.3947", "Ghost", "0.5.0", "30917", "3887", "5175452", "5175452", "99222646", "97608264", "415.3285", "Subscriptions", "0.5.0", "31931", "725", "3519357", "3519357", "24126817", "23913681", "293.9807", "VodiX", "0.5.0", "7758", "11897", "1676483", "1676483", "286323575", "282729893", "302.0662", "MzcToken", "0.5.0", "18300", "407", "1995294", "1995294", "16269918", "16062436", "509.7838", "WCQ", "0.5.0", "11049", "4547", "1028936", "1028936", "104936078", "104135982", "175.9613", "Certi", "cations", "0.5.0", "7483", "368", "1064938", "1064938", "10483936", "10454390", "80.28804", "GMS_TOKEN", "0.5.1", "4396", "5501", "1240247", "1240247", "126791181", "125803181", "179.6037", "ICashToken", "0.5.1", "4084", "1118", "990409", "990409", "25776907", "25630893", "130.6029", "NTS165", "0.5.1", "11979", "276", "2321384", "2321384", "6582977", "6549471", "121.3986", "InfernoV2", "0.5.1", "6359", "261", "1714673", "1714673", "15099740", "15033278", "254.6437", "LineageCode", "0.5.1", "13922", "1015", "2456479", "2456479", "39374245", "39196177", "175.4365", "WooshCoin", "0.5.1", "5219", "413", "1421366", "1421366", "9535972", "9455320", "195.2833", "CogmentoToken", "0.5.1", "8373", "813", "1952841", "1952841", "18807863", "18617981", "233.5572", "AllyToken", "0.5.1", "22538", "2806", "2359861", "2359861", "68607969", "67625559", "350.1105", "ElectricToken", "0.5.1", "3803", "258", "1429296", "1429296", "5970345", "5902959", "261.186", "ITSToken", "0.5.1", "9777", "359", "1595710", "1595710", "8337102", "8251786", "237.649", "DissolutionToken", "0.5.1", "5052", "619", "1369675", "1369675", "31383149", "31288131", "153.5024", "AuctionHandler", "0.6.12", "39672", "177", "1493550", "1493550", "4216857", "4205087", "66.49718", "DinoEggs", "0.7.2", "34218", "2903", "2292923", "2292923", "72455583", "72358035", "33.60248", "Circleorzo", "0.7.5", "45565", "2213", "3527443", "3527443", "71999894", "71920364", "35.93764", "Zukibirds", "0.7.5", "53416", "4576", "3777360", "3777360", "223958718", "223860078", "21.55594", "DOGEDOGE", "0.7.6", "47167", "5365", "4244548", "4244548", "144543124", "144257762", "53.18956", "CypherCity", "0.7.6", "46463", "6457", "4005433", "4005433", "210705397", "210409971", "45.75283", "PudgyDickButts", "0.7.6", "53490", "3424", "3834348", "3834348", "103752580", "103546968", "60.05023", "GossamerGods", "0.8.0", "53733", "2379", "3813971", "3813971", "70330291", "70208895", "51.02816", "OjamuToken", "0.8.0", "43102", "6325", "2694763", "2694763", "194343318", "193989212", "55.98514", "TheOldRepublic", "0.8.0", "53472", "2445", "3813995", "3813995", "74373863", "74225099", "60.84417", "BOOMING", "0.8.0", "46659", "6438", "3471148", "3471148", "193111675", "192666703", "69.1165", "notBanksy", "0.8.0", "46209", "2983", "4761214", "4761214", "155260322", "155065512", "65.30674", "Pixeltown", "0.8.0", "43153", "2373", "4179108", "4179108", "148912995", "148782161", "55.13443", "KawaiiPals", "0.8.0", "63219", "4290", "4565287", "4565287", "241743024", "241491718", "58.57949", "MELOS", "0.8.0", "19416", "6648", "1440632", "1440632", "158490566", "158100412", "58.68742", "YogaLabs", "0.8.0", "42469", "4032", "3960247", "3960247", "279279375", "279185259", "23.34226", "HornyHorses", "0.8.0", "66753", "4653", "3116497", "3116497", "141902593", "141626449", "59.34752", "ChimpeRunners", "0.8.1", "76049", "2472", "4377503", "4377503", "185661022", "185469234", "77.58414", "EtherHumans", "0.8.4", "51658", "2552", "4210411", "4210411", "68333757", "68276007", "22.62931", "CreaturePenguin", "0.8.4", "50869", "2432", "3952829", "3952829", "68420018", "68361179", "24.19367", "MrStick", "0.8.4", "50666", "2618", "3749500", "3749500", "145943720", "145828770", "43.90756", "AbnormalApes", "0.8.12", "43217", "2867", "4406740", "4406740", "79310051", "79187995", "42.57272", "MiceliosBloom", "0.8.14", "41486", "3089", "4239538", "4239538", "82891261", "82823567", "21.91454", "Plungs", "0.8.17", "31791", "5132", "2179895", "2179895", "145595006", "145208136", "75.38387", "CaptainObvious", "0.8.19", "12402", "137", "3349494", "3349494", "3904475", "3901505", "21.67883", "CTRK", "0.8.19", "12833", "567", "3386770", "3386770", "17324003", "17312200", "20.81658", "Name", "Version", "Size", "TXN", "Before", "redispatch", "After", "redispatch", "Before", "redispatch", "After", "redispatch", "AVG", "Smart", "Contract", "Deployment", "Gas", "Consumption", "Invocation", "Gas", "Consumption"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 543.36,
+    "y1": 105.6,
+    "y2": 706.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Table3-1.png"
+}, {
+  "caption": "Figure 2: Work ow of FunRedisp.",
+  "captionBoundary": {
+    "x1": 105.58000183105469,
+    "x2": 242.26272583007812,
+    "y1": 210.1710968017578,
+    "y2": 214.46600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["input", "Contract", "bytecode", "compile", "input", "Function", "redispatch", "input", "Function", "text", "list", "model", "Pretrained", "TextCNN", "reorder", "New", "contract", "bytecode", "Function", "classifications", "predict", "extract", "functions", "Contract", "source", "code"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 292.32,
+    "y1": 84.96,
+    "y2": 192.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Smart contract OjamuToken.",
+  "captionBoundary": {
+    "x1": 361.5060119628906,
+    "x2": 514.6509399414062,
+    "y1": 181.5301055908203,
+    "y2": 185.82501220703125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "...", "11", "12", "function", "snapshot", "()", "public", "{...}", "13", "}", "1", "pragma", "solidity", "^0.8.0;", "2", "3", "contract", "OjamuToken{", "4", "function", "transfer(address", "recipient", ",uint256", "amount)", "public", "{...}", "5", "6", "function", "approve(address", "spender", ",uint256", "amount)", "public", "{...}", "7", "8", "function", "burn(uint256", "amount)", "public", "{...}", "9"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Figure3-1.png"
+}, {
+  "caption": "Figure 7: The time overhead of FunRedisp for function redispatch on the 50 smart contracts in the dataset.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8040771484375,
+    "y1": 179.4201202392578,
+    "y2": 194.67401123046875
+  },
+  "figType": "Figure",
+  "imageText": [")", "ad", "(s", "er", "he", "e", "ov", "Ti", "m", "0.6", "0.4", "0.2", "Smart", "contracts0.0"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 323.52,
+    "x2": 554.4,
+    "y1": 82.56,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Figure7-1.png"
+}, {
+  "caption": "Figure 4: Two manners of function dispatch: (a) Sequential dispatch and (b) Binary dispatch.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0431823730469,
+    "y1": 218.81910705566406,
+    "y2": 234.072998046875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "EQ14", "EQ15", "EQ16", "EQ6", "EQ7", "...", "EQ13", "EQ10", "EQ11", "EQ12", "...", "EQ9", "EQ6", "EQ7", "EQ8", "...", "EQ5", "EQ2", "EQ3", "EQ4", "...", "EQ5", "EQ4", "EQ3", "EQ2", "EQ1", "...", "EQ1", "GT2", "GT3", "GT1", "(a)", "EQ17", "EQ18", "EQ19", "EQ20", "EQ6", "EQ7", "...", "EQ16", "EQ12", "EQ13", "EQ14", "EQ15", "...", "EQ11", "EQ7", "EQ8", "EQ9", "EQ10", "...", "EQ6", "EQ2", "EQ3", "EQ4", "EQ5", "...", "EQ5", "EQ4", "EQ3", "EQ2", "EQ1", "...", "EQ1", "GT2", "GT3", "GT1"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 257.28,
+    "y1": 72.48,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Function dispatch of smart contract OjamuToken.",
+  "captionBoundary": {
+    "x1": 54.72700119018555,
+    "x2": 293.11602783203125,
+    "y1": 523.3370361328125,
+    "y2": 527.6319580078125
+  },
+  "figType": "Figure",
+  "imageText": [".", " . ", ". ", ". ", ".  .  . ", ". ", ". ", ". ", ". ", ". ", ". ", ".", ".", " . ", ". ", ". ", ".  .  . ", ". ", ". ", ". ", ". ", ". ", ". ", ".", ".", " . ", ". ", ". ", ".  .  . ", ". ", ". ", ". ", ". ", ". ", ". ", ".", ".", " . ", ". ", ". ", ".  .  . ", ". ", ". ", ". ", ". ", ". ", ". ", ".", "N", "Y", "YN", "<", "0x981B24D0", "EQ3", ".", ".", ".", "EQ4", "EQ1", ".", ".", ".", "EQ2", "YN", "<", "0x248A9CA3", "EQ7", ".", ".", ".", "EQ8", "EQ5", ".", ".", ".", "EQ6", "<", "0x42966C68", "EQ8", "DUP1", "PUSH4", "0x23B872DD", "EQ", "PUSH2", "01EE", "JUMPI ", " ", "EQ7", "DUP1", "PUSH4", "0x01FFC9A7", "EQ", "PUSH2", "0152", "JUMPI    ", "EQ6", "DUP1", "PUSH4", "0x39509351", "EQ", "PUSH2", "02C2", "JUMPI ", "  ", " ", " ", "PUSH2", "014d", "JUMP", "JUMPDEST                    ", "GT3", "DUP1", "PUSH4", "0x248A9CA3", "GT", "PUSH2", "0115", "JUMPI    ", "EQ5", "DUP1", "PUSH4", "0x248A9CA3", "EQ", "PUSH2", "021E", "JUMPI    ", "EQ4", "DUP1", "PUSH4", "0x9711715A", "EQ", "PUSH2", "03BC", "JUMPI ", "  ", " ", " ", "PUSH2", "014d", "JUMP", "JUMPDEST                    ", "EQ2", "DUP1", "PUSH4", "0xDD62ED3E", "EQ", "PUSH2", "0490", "JUMPI ", "  ", " ", " ", "PUSH2", "014d", "JUMP", "JUMPDEST                    ", "EQ3", "DUP1", "PUSH4", "0x42966c68", "EQ", "PUSH2", "02F2", "JUMPI    ", "GT1", "DUP1", "PUSH4", "0x42966C68", "GT", "PUSH2", "00C3", "JUMPI ", "GT2", "DUP1", "PUSH4", "0x981B24D0", "GT", "PUSH2", "007C", "JUMPI    ", "EQ1", "DUP1", "PUSH4", "0x981B24D0", "EQ", "PUSH2", "03C6", "JUMPI"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 86.39999999999999,
+    "x2": 262.08,
+    "y1": 251.04,
+    "y2": 507.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652146-Figure5-1.png"
+}]

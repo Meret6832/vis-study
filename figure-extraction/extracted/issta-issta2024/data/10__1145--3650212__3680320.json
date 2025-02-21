@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 1: Snippet 653 from the LExecutor dataset with identi ers plt and np unde ned and a reference to a non-existing le example_3_band_image.jpg.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6457214355469,
+    "y1": 186.55880737304688,
+    "y2": 212.83001708984375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "print(quantiled_image.shape)", "1", "def", "nd_nearest(array,", "values):", "2", "array", "=", "np.asarray(array)", "3", "values", "=", "np.expand_dims(values,axis=−1)", "4", "indices", "=", "np.abs(array−values).argmin(axis=−1)", "5", "return", "array[indices]", "6", "image", "=", "plt.imread('example_3_band_image.jpg')", "7", "print(image.shape)", "8", "quantiles", "=", "np.linspace(0,", "255,", "num=2∗∗2,", "dtype=np.uint8)", "9", "quantiled_image", "=", "nd_nearest(quantiles,", "image)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 234.23999999999998,
+    "y1": 87.84,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure1-1.png"
+}, {
+  "caption": "Table 4: Comparison of executability and coverage metrics between LExecutor and Incompleter.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2045288085938,
+    "y1": 203.88882446289062,
+    "y2": 219.20001220703125
+  },
+  "figType": "Table",
+  "imageText": ["(b)", "Dataset", "2", "LExecutor", "44%", "60%", "29%", "Incompleter", "54%", "83%", "48%", "Statement", "Branch", "Technique", "Executability", "Coverage", "(a)", "Dataset", "1", "LExecutor", "54%", "56%", "32%", "Incompleter", "67%", "91%", "54%", "Statement", "Branch", "Technique", "Executability", "Coverage"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 552.0,
+    "y1": 233.76,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Table4-1.png"
+}, {
+  "caption": "Table 3: Datasets.",
+  "captionBoundary": {
+    "x1": 138.8769989013672,
+    "x2": 208.67144775390625,
+    "y1": 203.88882446289062,
+    "y2": 208.24200439453125
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "1", "Stack", "Over", "ow", "[58]", "241", "RQ1", "Incomplete", "Dataset", "2", "Stack", "Over", "ow", "[11]", "4.7K", "Incomplete", "Dataset", "3", "Kaggle", "[35]", "3K", "RQ2", "Complete", "Dataset", "Source", "Size", "Use", "Kind"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 268.32,
+    "y1": 215.51999999999998,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Table3-1.png"
+}, {
+  "caption": "Table 2: Description of Deduction Rules. Incompleter’s type deducer takes as input the pair ⟨C13 , B⟩ of mocked type and snippet, and deduces the type under column “Type Deduced” if the property relating C13 and B, described under column “Property”, holds.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.2959594726562,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["D1", "G", "C13", "and", "user-de", "ned", "class", "G", "(i.e.,", "a", "class", "de", "ned", "in", "snippet", "B)", "have", "overlapping", "function", "names.", "See", "M2.", "D2", "int", "C13", "inherits", "from", "type", "int.", "See", "M9/M10.", "D3", "string", "C13", "inherits", "from", "type", "string", "or", "implements", "string-speci", "c", "methods", "(e.g.,", "upper,", "lower,", "strip,", "etc.).", "See", "M9/M10.", "D4", "list", "C13", "has", "a", "container", "attribute", "and", "the", "container’s", "keys", "are", "in", "sequential", "order,", "or", "it", "implements", "list-speci", "c", "methods", "(e.g.,", "append,", "extend,", "insert,", "etc.).", "This", "is", "also", "the", "default", "collection", "type", "if", "a", "container", "is", "present", "but", "no", "other", "speci", "c", "type", "information", "exists.", "See", "M6/M11.", "D5", "dict", "C13", "declares", "the", "attribute", "container", "and", "implements", "dict-speci", "c", "methods", "(e.g.,", "items,", "values,", "keys,", "etc.).", "See", "M2/M6/M11.", "D6", "set", "C13", "declares", "the", "attribute", "container", "and", "implements", "set-speci", "c", "methods", "(e.g.,", "add,", "union,", "difference,", "etc.).", "See", "M2/M6/M11.", "Id", "Type", "Deduced", "Property"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 118.56,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Table2-1.png"
+}, {
+  "caption": "Figure 8: YouTube-dl bug(#19 from BugsInPy dataset [57]).",
+  "captionBoundary": {
+    "x1": 319.9957275390625,
+    "x2": 556.162841796875,
+    "y1": 262.1366882324219,
+    "y2": 266.489990234375
+  },
+  "figType": "Figure",
+  "imageText": ["12", "FIELD_SIZE_COMPAT_RE=r’...’", "13", "if", "re.search(FIELD_SIZE_COMPAT_RE,", "...)", "14", "...", "...", "...", "15", "lename", "=", "expand_path(...)", "16", "return", "sanitize_path(", "lename)", "17", "if", "__name__=='__main__':", "test_prepare_", "lename()", "autonumber_size}", "10", "if", "autonumber_size", "is", "None:", "autonumber_size", "=", "5", "...", "11", "eld_size_compat_map={'playlist_index':", "...,'autonumber':", "1", "def", "test_prepare_", "lename():", "#", "test", "function", "2", "def", "fname(templ):", "3", "ydl=YoutubeDL({'outtmpl':", "templ})", "4", "return", "ydl.prepare_", "lename(info)", "5", "assertEqual(fname(‘Hello", "%(title1)s’),‘Hello", "$PATH’)", "6", "class", "YoutubeDL:", "7", "def", "prepare_", "lename(self,", "info_dict):", "#", "code", "under", "test", "8", "...", "9", "autonumber_size", "=", "self.params.get(’autonumber_size’)"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 503.03999999999996,
+    "y1": 87.84,
+    "y2": 246.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure8-1.png"
+}, {
+  "caption": "Figure 4: Venn diagrams showing di erences and commonalities between Incompleter and LExecutor’s w.r.t. their ability to execute incomplete Python code snippets.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8063354492188,
+    "y1": 215.93380737304688,
+    "y2": 242.2039794921875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Dataset", "1", "(b)", "Dataset", "2"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 591.36,
+    "y1": 78.72,
+    "y2": 202.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure4-1.png"
+}, {
+  "caption": "Figure 5: . Distributions of coverage of LExecutor and Incompleter across datasets 1 and 2.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8062133789062,
+    "y1": 357.79180908203125,
+    "y2": 373.10400390625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Dataset", "1.", "p-value<", "0.05,", "Cli", "’s", "X", "[65]:", "stmt", "(0.49,", "large),", "br", "(0.30,", "medium)", "(b)", "Dataset", "2.", "p-value<", "0.05", "Cli", "’s", "X", "[65]:", "stmt(0.46,", "large),", "br", "(0.28,", "medium)"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 245.76,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure5-1.png"
+}, {
+  "caption": "Table 5: Impact of rules on the executability of snippets. pexec and f-exec denote partial and full executability, respectively. More (or less) intense shade of gray indicates higher (respectively, lower) discrepancy in rank between datasets 1 and 2.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8050537109375,
+    "y1": 388.8938293457031,
+    "y2": 437.0820007324219
+  },
+  "figType": "Table",
+  "imageText": ["Rule", "Dataset", "1", "Dataset", "2", "p-exec", "f-exec", "p-exec", "f-exec", "De", "ne-Var", "221", "104", "5186", "1566", "De", "ne-Func", "109", "53", "3205", "1252", "De", "ne-Container", "60", "34", "842", "431", "Add-Import", "66", "28", "1135", "342", "Resolve-Module", "54", "26", "1581", "644", "Create-Resource", "26", "16", "490", "140", "De", "ne-Operator", "21", "13", "428", "105", "De", "ne-Literal", "20", "12", "315", "134", "De", "ne-Key", "44", "8", "948", "109", "De", "ne-Callable", "5", "3", "444", "230", "De", "ne-Length", "5", "2", "79", "37", "Convert-Literal", "2", "1", "62", "19"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.0,
+    "y1": 445.91999999999996,
+    "y2": 564.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Table5-1.png"
+}, {
+  "caption": "Table 1: List of rules with corresponding number of snippets. The rules are grouped by the error type they resolve.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5771179199219,
+    "y1": 211.43984985351562,
+    "y2": 226.75201416015625
+  },
+  "figType": "Table",
+  "imageText": ["ValueError", "Convert-Literal", "2", "KeyError", "De", "ne-Key", "9", "De", "ne-Container", "42", "De", "ne-Callable", "4", "De", "ne-Length", "2", "De", "ne-Operator", "16", "De", "ne-Literal", "17", "TypeError", "ModuleNotFoundError", "Resolve-Module", "17", "FileNotFoundError", "Create-Resource", "16", "NameError,", "AttributeError", "De", "ne-Func", "27", "De", "ne-Var", "126", "NameError", "Add-Import", "43", "Error", "Type", "Rule", "#", "Snippets"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 233.76,
+    "y2": 375.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Table1-1.png"
+}, {
+  "caption": "Figure 2: Incompleter organization as a pipeline of two components–the “mocker\" and the “unmocker\".",
+  "captionBoundary": {
+    "x1": 93.49690246582031,
+    "x2": 518.5044555664062,
+    "y1": 185.53683471679688,
+    "y2": 189.8900146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 550.0799999999999,
+    "y1": 72.0,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Distributions of the number of rules applied per snippet across datasets 1 and 2. The distributions include snippets that Incompleter can fully execute and snippets that are partially executed.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2298889160156,
+    "y1": 254.49081420898438,
+    "y2": 291.7200012207031
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Dataset", "2", "s", "pp", "et", "f", "s", "ni", "%", "o", "10.0", "12.5", "15.0", "17.5", "20.0", "0.0", "2.5", "5.0", "7.5", "0", "5", "10", "15", "20", "25", "Rules", "applied", "per", "snippet", "(a)", "Dataset", "1", "s", "pp", "et", "f", "s", "ni", "%", "o", "10", "15", "20", "25", "30", "0", "5", "0", "5", "10", "15", "20", "25", "Rules", "applied", "per", "snippet"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 262.08,
+    "y1": 84.96,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure6-1.png"
+}, {
+  "caption": "Table 6: Performance of type inference on dataset 3.",
+  "captionBoundary": {
+    "x1": 332.60687255859375,
+    "x2": 543.2534790039062,
+    "y1": 209.05703735351562,
+    "y2": 213.41021728515625
+  },
+  "figType": "Table",
+  "imageText": ["LexTP", "0.17", "0.31", "0.17", "0.21", "IncTD", "0.23", "0.31", "0.23", "0.27", "IncTD+LexTP", "0.31", "0.29", "0.33", "0.31", "IncTD+IncTP", "0.55", "0.57", "0.60", "0.58", "Baseline", "Acc.", "Prec.", "Rec.", "F1"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 222.23999999999998,
+    "y2": 277.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Table6-1.png"
+}, {
+  "caption": "Figure 7: Residual error distribution on dataset 1 (sorted by LExecutor’s error type frequency.)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4508056640625,
+    "y1": 177.66683959960938,
+    "y2": 192.97900390625
+  },
+  "figType": "Figure",
+  "imageText": ["LexTP", "IncTD", "ou", "nt", "or", "C", "E", "rr", "60", "50", "40", "30", "20", "10", "AttributeError", "0", "TypeError", "FileNotFoundError", "ModuleNotFoundError", "NameError", "ValueError", "KeyError"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 542.4,
+    "y1": 86.88,
+    "y2": 165.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Example of unmocking step using “Deduce-List\". Snippet #92 from LExecutor dataset [58].",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7314453125,
+    "y1": 255.07382202148438,
+    "y2": 270.385986328125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Unmocked", "TBD1", "10", "11", "class", "TBD0():", "12", "def", "__init__", "(", "self,", "∗args,", "∗∗kwargs", "):", "13", "self.shape", "=", "[", "TBD2(),", "TBD3()", "]", "14", "df", "=", "TBD0()", "#", "pandas.DataFrame", "15", "count_row", "=", "df.shape[0]", "16", "count_col", "=", "df.shape[1]", "17", "(", "r,", "c", ")", "=", "df.shape", "1", "class", "TBD3():", "2", "def", "__init__", "(", "self,", "∗args,", "∗∗kwargs", "):", "3", "pass", "4", "class", "TBD2():", "5", "def", "__init__", "(", "self,", "∗args,", "∗∗kwargs", "):", "6", "pass", "7", "8", "9", "(a)", "Mocked", "snippet.", "10", "...", "...", "...", "11", "class", "TBD0:", "12", "def", "__init__", "(", "self,", "∗args,", "∗∗kwargs", "):", "13", "self.shape", "=", "TBD1()", "14", "df", "=", "TBD0", "(", ")", "15", "count_row", "=", "df.shape[0]", "16", "count_col", "=", "df.shape[1]", "17", "(", "r,", "c", ")", "=", "df.shape", "1", "class", "TBD3:", "2", "def", "__init__", "(", "self,", "∗args,", "∗∗kwargs", "):", "3", "pass", "4", "class", "TBD2:", "5", "def", "__init__", "(", "self,", "∗args,", "∗∗kwargs", "):", "6", "pass", "7", "class", "TBD1:", "8", "def", "__init__", "(", "self", "):", "9", "self.container={", "0:", "TBD2(),", "1:", "TBD3()", "}"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 551.04,
+    "y1": 87.84,
+    "y2": 238.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680320-Figure3-1.png"
+}]

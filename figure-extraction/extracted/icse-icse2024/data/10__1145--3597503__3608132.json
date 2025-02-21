@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 3: The process of Abstraction for fix patterns.",
+  "captionBoundary": {
+    "x1": 68.0831298828125,
+    "x2": 279.7524108886719,
+    "y1": 429.82598876953125,
+    "y2": 431.9060974121094
+  },
+  "figType": "Figure",
+  "imageText": ["𝑏.𝑟𝑡", "=", "Abstract(𝑏1", ".𝑟𝑡,", "𝑏2", ".𝑟𝑡)", "Abstract(𝑃", "(𝑎1,", "𝑏1),", "𝑃", "(𝑎2,", "𝑏2))", "=", "𝑃", "(𝑎,", "𝑏)", "where", "𝑎.𝑟𝑡", "=", "Abstract(𝑎1", ".𝑟𝑡,", "𝑎2", ".𝑟𝑡)", "s.t.", "Edge(𝑛", "𝑗", ",𝐶", "𝑗𝑡", "𝑟𝑖", ",", "𝑟𝑖", ")", "∈", "𝐴_𝑇𝑟𝑒𝑒.𝐸", "or", "Edge(𝑛", "𝑗", ",𝐶", "𝑗𝑡", "𝑟𝑖", ",", "𝑟𝑖", ")", "∈", "𝐵_𝑇𝑟𝑒𝑒.𝐸", "where", "𝑛1,", "𝑛2", "∈", "𝐴_𝑇𝑟𝑒𝑒.𝑁", "or", "𝑛1,", "𝑛2", "∈", "𝐵_𝑇𝑟𝑒𝑒.𝑁", ",𝐶", "𝑗", "𝑟𝑖", "=", "{𝐶", "𝑗𝑡", "𝑟𝑖", "}"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 76.32,
+    "x2": 311.03999999999996,
+    "y1": 326.88,
+    "y2": 408.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608132-Figure3-1.png"
+}, {
+  "caption": "Table 4: Ablation results.",
+  "captionBoundary": {
+    "x1": 123.41400146484375,
+    "x2": 224.12904357910156,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "55", "76", "26", "41", "Add", "+11", "+10", "+3", "+5", "Remove", "+1", "+1", "+0", "+0", "Replace", "+6", "+8", "+4", "+9", "Insert", "+18", "+16", "+13", "+17", "No", "Template", "19", "41", "6", "20", "#Correct", "#Plausible", "#Correct", "#Plausible", "TypeBugs", "BugsInPy"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 287.03999999999996,
+    "y1": 105.6,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608132-Table4-1.png"
+}, {
+  "caption": "Figure 1: Overview of TypeFix",
+  "captionBoundary": {
+    "x1": 244.0240020751953,
+    "x2": 367.9739074707031,
+    "y1": 274.5188903808594,
+    "y2": 276.5989990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Fix", "Template", "Ranking", ".....", "BFS", ".....", "Clustering", "Tree", "Phase", "II:", "Patch", "Generation", "Phase", "I:", "Template", "Mining", "Specific", "Fix", "Template", "Matching", "Fix", "Template", "Mining", "General", "Clustering", "Tree", "Fix", "Templates", ".....", "Selected", "Fix", "Template", "attributes", "=", "user.get('attributes',", "{})Buggy", "Code", "Internal", "Context", "External", "Context", "Prompt-based", "Patch", "Generation", "Fix", "Parsing", "Patch", "attributes", "=", "user.get('attributes',", "{})", "or", "{}", "Code", "Prompt", "attributes", "=", "user.get('attributes',", "{})", "or", "<mask>", "Pre-trained", "Model", "Hierarchical", "Clustering", "Fix", "Patterns", "GitHub", "Pull", "Requests", "Bug", "Fixes"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 84.0,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608132-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An example of fix parsing process on the fix commit ansible:075c6e.",
+  "captionBoundary": {
+    "x1": 149.8820037841797,
+    "x2": 462.1049499511719,
+    "y1": 418.6148986816406,
+    "y2": 420.69500732421875
+  },
+  "figType": "Figure",
+  "imageText": ["rn", "Literal", "None", "If", "value", "Variable", "test", "....", "....", "test", "body", "body", "If", "If", "(b)", "ASTs", "of", "Buggy", "Code", "and", "Fixed", "Code", "If", "If", "Bug_Tree", "Fix_Tree", "opcomparators", "left", "Literal", "None", "Reference", "IsNot", "Op", "Compare", "Root", "value", "Variable", "Root", "(a)", "Fix", "Commit", "(c)", "Fix", "Pattern", "(d)", "Internal", "Context", "(e)", "External", "Context", "if", "value_type", "in", "('boolean',", "'bool'):", "value", "=", "boolean(value,", "strict=False)", "-", "elif", "value:", "+", "elif", "value", "is", "not", "None:", "if", "value_type", "in", "('integer',", "'int'):", "args", "value", "targets", "BC_Tree", "value", "Variable", "value", "Variable", "Call", "Assign", "Root", "（test,", "test)", "IC_Tree", "If", "Root", "B_Tree", "A_Tree", "opcomparators", "left", "IsNot", "Op", "Compare", "Root", "value", "Variable", "Root"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 282.71999999999997,
+    "y2": 400.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608132-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Venn diagram of correct patches provided by",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2834167480469,
+    "y1": 215.29489135742188,
+    "y2": 217.375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "TypeBugs", "(b)", "BugsInPy"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 87.84,
+    "y2": 192.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608132-Figure5-1.png"
+}, {
+  "caption": "Table 3: Statistics of fix templates mining in TypeFix.",
+  "captionBoundary": {
+    "x1": 329.4599914550781,
+    "x2": 546.3994750976562,
+    "y1": 197.40890502929688,
+    "y2": 199.489013671875
+  },
+  "figType": "Table",
+  "imageText": ["Add", "2,656", "150/27", "2,819", "Remove", "570", "10/5", "59", "Insert", "1,648", "350/47", "659", "Replace", "6,107", "184/70", "32,621", "Mining", "Time/s", "(>1/>5)", "#Clustering", "Trees", "Category", "#Instances"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 553.4399999999999,
+    "y1": 214.56,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608132-Table3-1.png"
+}]

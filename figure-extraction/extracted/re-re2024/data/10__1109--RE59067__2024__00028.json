@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 3: Selected Graphical Representations for PD1",
+  "captionBoundary": {
+    "x1": 204.11399841308594,
+    "x2": 399.8412170410156,
+    "y1": 296.5210876464844,
+    "y2": 300.885009765625
+  },
+  "figType": "Figure",
+  "imageText": ["(i)", "Standard", "XML", "BPMN", "serializa", "on;", "#", "of", "GPT4", "tokens:", "5122", "<de", "ni", "ons", "exporter=\"Signavio", "Process", "Editor,", "h", "p://www.signavio.com\"", "....", "processType=\"None\">", "<extensionElements>", "<signavio:signavioDiagramMetaData", "metaKey=\"prozessreifegrad\"", "metaValue=\"\"/>", "<signavio:signavioDiagramMetaData", "metaKey=\"iso9000", "\"", "metaValue=\"\"/>", "<signavio:signavioDiagramMetaData", "metaKey=\"processgoal\"", "metaValue=\"\"/>", "<signavio:signavioDiagramMetaData", "metaKey=\"meta", "processowner\"", "metaValue=\"\"/>", "<signavio:signavioDiagramMetaData", "metaKey=\"revisionid\"", "metaValue=\"c50edd50e4b343f3927e2a296ddbc75e\"/>", "</extensionElements>", "<startEvent", "id=\"sid", "A398990D", "F097", "4190", "BD70", "16F6FBE38DCE\"", "name=\"\">", "...", "</de", "ni", "ons>", "task", "A", "task", "B", "task", "C", "task", "D", "(iii)", "DOT", "Graphviz", "serializa", "on", "digraph", "G", "{", "rankdir", "=", "LR;", "node[style=", "lled,", "llcolor=lemonchi", "on];", "\"start_1\"[shape=circle", "label=\"\"];", "\"end_1\"[shape=doublecircle", "label=\"\"];", "\"seg_1\"[shape=diamond", "label=\"X\"];", "\"meg_1\"[shape=diamond", "label=\"X\"];", "\"task", "A\"[shape=rectangle];", "\"task", "B\"[shape=rectangle];", "\"task", "C\"[shape=rectangle];", "\"task", "D\"[shape=rectangle];", "\"start_1\"", ">", "\"task", "A\";", "\"task", "A\"", ">", "\"seg_1\";", "\"seg_1\"", ">\"task", "B\";", "\"seg_1\"", ">\"task", "C\";", "\"task", "B\"", ">\"meg_1\";", "\"task", "C\"", ">\"meg_1\";", "\"meg_1\"", ">\"task", "D\";", "\"task", "D\"", ">", "\"end_1\";", "}", "task", "D", "task", "C", "task", "B", "task", "A", "(ii)", "Mermaid.js", "serializa", "on", "owchart", "LR", "0:startevent:((startevent))", ">1:task:(task", "A)", "1:task:", ">2:exclusivegateway:{x}", "2:exclusivegateway:", ">", "3:task:(task", "B)", "2:exclusivegateway:", ">", "4:task:(task", "C)", "3:task:", ">5:exclusivegateway:{x}", "4:task:", ">5:exclusivegateway:", "5:exclusivegateway:", ">", "6:task:(task", "D)", "6:task:", ">7:endevent:((endevent))", "task", "D", "task", "C", "task", "B", "start", "event", "task", "A", "end", "event"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 487.2,
+    "y1": 73.44,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-Figure3-1.png"
+}, {
+  "caption": "TABLE VI: OM2GM Evaluation",
+  "captionBoundary": {
+    "x1": 239.23300170898438,
+    "x2": 364.7023010253906,
+    "y1": 75.32511901855469,
+    "y2": 79.68902587890625
+  },
+  "figType": "Table",
+  "imageText": ["O-OG↓", "MER", "0.08", "0.12", "0.21", "0.45", "0.34", "0.42", "0.33", "0.21", "0.39", "0.26", "0.39", "0.44", "0.30", "GV", "0.25", "0.37", "0.39", "0.43", "0.26", "0.19", "0.37", "0.32", "0.49", "0.46", "0.31", "0.00", "0.02", "0.02", "0.04", "0.04", "0.02", "0.02", "0.02", "0.11", "0.00", "0.03", "GV", "0.00", "0.00", "0.00", "0.04", "0.00", "0.00", "0.00", "0.00", "0.02", "0.00", "0.01", "TS-C↑", "MER", "0.96", "0.96", "0.90", "0.79", "0.87", "0.82", "0.87", "0.91", "0.82", "0.91", "0.85", "0.87", "0.88", "GV", "0.90", "0.85", "0.90", "0.82", "0.87", "0.90", "0.82", "0.89", "0.83", "0.87", "0.88", "O-OO↓", "MER", "0.00", "0.00", "traditional", "prompt", "1", "prompt", "2", "avg.", "Metric", "GR", "red.", "ext.", "GPT3", "GPT3.5", "GPT4", "L-7", "L-70", "GPT3", "GPT3.5", "GPT4", "L-7", "L-70"],
+  "name": "VI",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 518.4,
+    "y1": 91.67999999999999,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-TableVI-1.png"
+}, {
+  "caption": "Fig. 4: Examples of Evaluation Artefacts",
+  "captionBoundary": {
+    "x1": 223.70199584960938,
+    "x2": 379.8389587402344,
+    "y1": 198.1280975341797,
+    "y2": 202.49200439453125
+  },
+  "figType": "Figure",
+  "imageText": ["MPOO", "reviews", "dismissal", "MPOO", "con", "rms", "dismissal", "MPOO", "opposes", "dismissal", "endevent", "startevent", "MPON", "sends", "dismissal", "7.Converge", "at", "exclusive", "gateway", "8.End", "event", "4.Exclusive", "gateway", "5.MPOO", "opposes", "dismissal", "(if", "applicable)", "6.MPOO", "con", "rms", "dismissal", "(if", "applicable)", "2.MPON", "sends", "dismissal", "3.MPOO", "reviews", "dismissal", "Prompt", "1,", "GPT4:", "1.Start", "event", "GT", "GTL", "OT", "OM", "Evalua", "on", "Artefacts", "to", "the", "task", "of", "MPOO", "con", "rming", "the", "dismissal.", "Both", "these", "paths", "then", "converge", "at", "another", "exclusive", "gateway.", "The", "process", "then", "ends", "with", "the", "end", "event.", "The", "rst", "task", "is", "that", "MPON", "sends", "the", "dismissal.", "After", "this,", "the", "task", "moves", "to", "MPOO", "who", "reviews", "the", "dismissal.", "Following", "this", "review,", "there", "is", "an", "exclusive", "gateway.", "If", "MPOO", "opposes", "the", "dismissal,", "the", "process", "moves", "to", "the", "task", "of", "MPOO", "opposing", "the", "dismissal.", "If", "MPOO", "con", "rms", "the", "dismissal,", "the", "process", "moves", "Prompt", "1,", "GPT4:", "The", "process", "begins", "with", "the", "start", "event.", "The", "MPOO", "opposes", "the", "dismissal", "of", "MPON", "or", "the", "MPOO", "con", "rmes", "the", "dismissal", "of", "the", "MPON", ".", "The", "MPON", "sents", "the", "dismissal", "to", "the", "MPOO.", "The", "MPOO", "reviews", "the", "dismissal."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 541.4399999999999,
+    "y1": 72.0,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-Figure4-1.png"
+}, {
+  "caption": "TABLE V: OM2GM: Average number of tasks in original models and tasks extracted from generated texts",
+  "captionBoundary": {
+    "x1": 62.19322204589844,
+    "x2": 295.6761779785156,
+    "y1": 362.5859680175781,
+    "y2": 378.068115234375
+  },
+  "figType": "Table",
+  "imageText": ["avg.", "7.93", "9.75", "9.00", "9.14", "9.68", "P1", "Mer", "8.00", "10.86", "9.29", "9.14", "9.14", "GV", "8.43", "9.71", "9.57", "8.71", "7.71", "avg.", "8.21", "10.29", "9.43", "8.93", "8.43", "P2", "MER", "7.57", "8.86", "8.14", "9.14", "10.14", "GV", "7.71", "9.57", "9.00", "9.57", "11.71", "avg.", "7.64", "9.21", "8.57", "9.36", "10.93", "GPT3", "GPT3.5", "GPT4", "L7", "L70"],
+  "name": "V",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 280.32,
+    "y1": 389.76,
+    "y2": 461.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-TableV-1.png"
+}, {
+  "caption": "Fig. 1: Requirements Development with Stakeholders and Documentation Data as a Part of RE Process",
+  "captionBoundary": {
+    "x1": 104.22599792480469,
+    "x2": 499.25689697265625,
+    "y1": 266.2940979003906,
+    "y2": 270.65802001953125
+  },
+  "figType": "Figure",
+  "imageText": ["Stakeholders", "in", "This", "Step", "Documents/Informa", "on/Data", "is", "Veri", "ed", "by", "Requirements", "Engineer", "Documents/Informa", "on/Data", "is", "Analysed", "by", "Documents/Informa", "on/Data", "created", "by", "Requirements", "Engineer", "Documents/Informa", "on/Data", "collected", "by", "Stakeholders", "in", "This", "Step", "2", "1", "Agreed", "Requirements", "System", "Speci", "ca", "ons", "System", "Models", "Domain", "Informa", "on", "Regula", "ons", "Organiza", "on", "Standards", "Stakeholders", "Needs", "Exis", "ng", "System", "Informa", "on", "So", "ware", "Developers,", "Testers,", "Customers,", "etc.", "Stakeholders", "in", "This", "Step:", "Domain", "experts,", "Project", "managers,", "m", "en", "t", "D", "oc", "um", "en", "ts", "/", "In", "fo", "rm", "a", "on", "/", "D", "at", "a", "St", "ak", "eh", "ol", "de", "rs", "el", "op", "D", "ev", "en", "ts", "ir", "em", "Re", "qu", "Requirements", "Engineer", "Requirements", "Engineer", "So", "ware", "Developers,", "Testers,", "Customers,", "etc.", "Stakeholders", "in", "This", "Step:", "Domain", "experts,", "Project", "managers,", "Requirements", "Validation", "Requirements", "Speci", "cation", "Requiremens", "Analysis", "Requirements", "Elicitation"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 74.39999999999999,
+    "x2": 529.4399999999999,
+    "y1": 73.44,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-Figure1-1.png"
+}, {
+  "caption": "TABLE III: Basic evaluation of generated text from original model with the traditional approaches; see abbreviations in the Table I",
+  "captionBoundary": {
+    "x1": 63.01430130004883,
+    "x2": 541.0983276367188,
+    "y1": 468.56707763671875,
+    "y2": 484.04925537109375
+  },
+  "figType": "Table",
+  "imageText": ["reduced", "7.60", "71.04", "11.00", "207.00", "18.56", "7", "0.6", "0.6", "extended", "7.50", "71.24", "12.00", "214.00", "18.14", "7", "0.62", "0.57", "LLMs", "7.26", "67.83", "6.35", "86.20", "14.18", "1.60", "0.72", "0.84", "Approach", "FKGL", "FRE", "#S", "#W", "#WS", "#MR↓", "TS-NC↑", "TS-C↑", "original", "text", "7.00", "67.25", "5.00", "79.00", "14.62", "0"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 149.76,
+    "x2": 451.2,
+    "y1": 495.84,
+    "y2": 542.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-TableIII-1.png"
+}, {
+  "caption": "TABLE I: Basic evaluation of generated text from original model with GPT3, GPT3.5 and GPT4, where FKGL - FleschKincaid Grade Level, FRE - Flesch Reading Ease, #S - Num. of Sentences, #W - Num. of Words and #WS- Num. of Words per Sentence, TS - Text Similarity and #MR - Num. of generated texts containing references to the modeling elements",
+  "captionBoundary": {
+    "x1": 63.01340103149414,
+    "x2": 541.107177734375,
+    "y1": 75.34971618652344,
+    "y2": 101.9500732421875
+  },
+  "figType": "Table",
+  "imageText": ["avg.", "all", "6.98", "68.04", "6.00", "74.67", "13.48", "0.50", "0.73", "0.86", "GPT3", "7.60", "64.71", "4.00", "42.00", "14.50", "0", "0.73", "0.88", "GPT3.5", "6.90", "67.45", "7.00", "101.00", "14.43", "1", "0.72", "0.82", "GPT4", "7.60", "65.62", "7.00", "82.00", "13.67", "0", "0.81", "0.86", "avg.", "7.37", "65.93", "6.00", "75.00", "14.20", "0.33", "0.75", "0.85", "GV", "GPT3", "7.60", "65.73", "2.00", "46.00", "15.50", "0", "0.69", "0.87", "GPT3.5", "5.60", "73.34", "8.00", "94.00", "11.75", "2", "0.63", "0.85", "GPT4", "6.60", "71.41", "8.00", "83.00", "11.00", "0", "0.80", "0.85", "avg.", "6.60", "70.16", "6.00", "74.33", "12.75", "0.67", "0.71", "0.86", "MER", "Prompt", "2", "avg.", "all", "6.70", "72.51", "6.50", "86.00", "13.72", "3.00", "0.74", "0.83", "GPT3", "6.60", "73.58", "5.00", "68.00", "14.00", "0", "0.75", "0.87", "GPT3.5", "7.30", "70.84", "6.00", "89.00", "14.83", "3", "0.76", "0.84", "GPT4", "6.50", "73.78", "7.00", "91.00", "14.80", "1", "0.79", "0.83", "avg.", "6.80", "72.73", "6.00", "82.67", "14.54", "1.33", "0.77", "0.85", "GV", "GPT3", "6.80", "71.95", "4.00", "51.00", "12.75", "0", "0.7", "0.89", "GPT3.5", "6.40", "71.75", "8.00", "110.00", "13.75", "7", "0.69", "0.78", "GPT4", "6.60", "73.17", "9.00", "107.00", "12.17", "7", "0.75", "0.79", "avg.", "6.60", "72.29", "7.00", "89.33", "12.89", "4.67", "0.71", "0.82", "MER", "Prompt", "1", "GR", "prompt", "LLM", "FKGL", "FRE", "#S", "#W", "#WS", "#MR↓", "TS-NC↑", "TS-C↑", "original", "text", "human", "7.00", "67.25", "5.00", "79.00", "14.62", "0"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 488.15999999999997,
+    "y1": 113.75999999999999,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-TableI-1.png"
+}, {
+  "caption": "TABLE II: Basic evaluation of generated text from original model with Llama7 and Llama70; see abbreviations in the Table I",
+  "captionBoundary": {
+    "x1": 63.01459884643555,
+    "x2": 541.0986328125,
+    "y1": 299.75408935546875,
+    "y2": 304.1180114746094
+  },
+  "figType": "Table",
+  "imageText": ["GV", "Llama-7", "9.50", "57.98", "6.00", "97.00", "17.67", "1", "0.65", "0.76", "Llama-70", "7.90", "64.91", "9.00", "115.00", "13.00", "0", "0.85", "0.87", "avg.", "8.70", "61.44", "7.50", "106.00", "15.34", "0.50", "0.75", "0.82", "avg.", "all", "8.48", "61.04", "6.50", "91.00", "15.00", "0.75", "0.70", "0.81", "avg.", "8.25", "60.63", "5.50", "76.00", "14.67", "1.00", "0.64", "0.81", "MER", "Llama-7", "8.30", "61.56", "6.00", "82.00", "15.33", "1", "0.55", "0.77", "Llama-70", "8.20", "59.70", "5.00", "70.00", "14.00", "1", "0.73", "0.85", "Prompt", "2", "GV", "Llama-7", "9.60", "58.82", "5.00", "94.00", "20.86", "3", "0.67", "0.84", "Llama-70", "5.80", "70.39", "12.00", "140.00", "10.83", "3", "0.72", "0.84", "avg.", "7.70", "64.61", "8.50", "117.00", "15.84", "3.00", "0.70", "0.84", "avg.", "all", "7.30", "67.28", "6.50", "99.00", "15.11", "2.00", "0.69", "0.83", "avg.", "6.90", "69.96", "4.50", "81.00", "14.37", "1.00", "0.68", "0.83", "MER", "Llama-7", "7.40", "66.13", "5.00", "100.00", "15.43", "2", "0.60", "0.78", "Llama-70", "6.40", "73.78", "4.00", "62.00", "13.30", "0", "0.75", "0.87", "Prompt", "1", "GR", "prompt", "LLM", "FKGL", "FRE", "#S", "#W", "#WS", "#MR↓", "TS-NC↑", "TS-C↑", "original", "text", "human", "7.00", "67.25", "5.00", "79.00", "14.62", "0"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 108.96,
+    "x2": 492.0,
+    "y1": 315.84,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-TableII-1.png"
+}, {
+  "caption": "Fig. 5: Examples of Generated Texts utilizing Diverse Approaches",
+  "captionBoundary": {
+    "x1": 175.22300720214844,
+    "x2": 428.7649841308594,
+    "y1": 495.507080078125,
+    "y2": 499.8710021972656
+  },
+  "figType": "Figure",
+  "imageText": ["Llama70", "The", "MPON", "sends", "a", "dismissal,", "which", "is", "then", "reviewed", "by", "the", "MPOO.", "The", "MPOO", "can", "either", "oppose", "or", "confirm", "the", "dismissal.", "If", "opposed,", "the", "process", "ends.", "If", "confirmed,", "the", "MPOO", "confirms", "the", "dismissal", "and", "the", "process", "ends.", "The", "MPON", "(Managerial", "Personnel", "Oversight", "Committee)", "sends", "a", "dismissal", "request", "to", "the", "MPOO", "(Management", "Personnel", "Oversight", "Officer).", "The", "MPOO", "reviews", "the", "request", "and", "decides", "whether", "to", "oppose", "or", "confirm", "the", "dismissal.", "If", "opposed,", "the", "MPOO", "sends", "the", "request", "back", "to", "the", "MPON.", "If", "confirmed,", "the", "MPOO", "sends", "the", "confirmation", "to", "the", "MPON.", "Finally,", "the", "process", "ends.", "Legend", "process", "content", "irrelevant", "information", "information", "added", "during", "M2T", "transformation"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 540.48,
+    "y1": 421.91999999999996,
+    "y2": 487.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-Figure5-1.png"
+}, {
+  "caption": "TABLE IV: OM2OT+GT Evaluation",
+  "captionBoundary": {
+    "x1": 231.94456481933594,
+    "x2": 372.04364013671875,
+    "y1": 516.0758666992188,
+    "y2": 520.4397583007812
+  },
+  "figType": "Table",
+  "imageText": ["O-OM↓", "0.07", "0.09", "0.11", "0.11", "0.02", "0.01", "0.14", "0.06", "O-OT↓", "0.23", "0.49", "0.54", "0.13", "0.35", "0.35", "0.40", "0.38", "original", "reduced", "extended", "GPT3", "GPT3.5", "GPT4", "Llama7", "Llama70", "TS-C↑", "0.83", "0.59", "0.57", "0.86", "0.80", "0.81", "0.76", "0.84"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 134.88,
+    "x2": 466.08,
+    "y1": 532.8,
+    "y2": 569.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-TableIV-1.png"
+}, {
+  "caption": "Fig. 2: M2T and Evaluation Process",
+  "captionBoundary": {
+    "x1": 232.8769989013672,
+    "x2": 371.10443115234375,
+    "y1": 326.9980773925781,
+    "y2": 331.36199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Main", "Contribu", "on:", "•", "M2T", "-", "LLM", "+", "Hybrid", "•", "Evalua", "on", "Evalua", "on", "Results", "Evalua", "ng", "the", "Artefacts", "Evalua", "on", "Artefacts", "Crea", "ng", "Artefacts", "for", "Evalua", "on", "Graphical", "Representa", "ons", "Mermaid.js", "models", "overlap;", "KPIs:", "Text", "similarity;", "Model-to-Tasks", "overlap;", "KPIs:", "Text", "similarity;", "Model-to-Text", "Quantitative", "measures", "of", "text;", "Text", "similarity;", "KPIs:", "Readability", "score;", "List", "of", "Tasks", "(GTL)", "Generated", "Texts", "(GT)", "Graphviz", "models", "BPMN", "Models", "(OM)", "Original", "Texts", "(OT)", "OM2GTL", "tasks", "extraction", "OT2GT", "OM2OT+GT", "M2T", "with", "LLM", "approaches", "M2T", "with", "hybrid", "approaches", "convert", "BPMN", "models", "create", "BPMN", "models"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 62.4,
+    "x2": 541.92,
+    "y1": 72.0,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00028-Figure2-1.png"
+}]

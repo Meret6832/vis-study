@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 3: One-hot encoded vectors of log density",
+  "captionBoundary": {
+    "x1": 342.2149963378906,
+    "x2": 533.6478881835938,
+    "y1": 529.5860595703125,
+    "y2": 535.2169799804688
+  },
+  "figType": "Table",
+  "imageText": ["Results:", "Our", "approach", "can", "effectively", "predict", "the", "density", "of", "logs", "Log", "density", "class", "One-hot", "encoded", "vector", "No", "logs", "[1,", "0,", "0,", "0,", "0,", "0]", "Very", "low", "log", "density", "[0,", "1,", "0,", "0,", "0,", "0]", "Low", "log", "density", "[0,", "0,", "1,", "0,", "0,", "0]", "Medium", "log", "density", "[0,", "0,", "0,", "1,", "0,", "0]", "High", "log", "density", "[0,", "0,", "0,", "0,", "1,", "0]", "Very", "high", "log", "density", "[0,", "0,", "0,", "0,", "0,", "1]"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 558.24,
+    "y1": 549.6,
+    "y2": 643.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Table3-1.png"
+}, {
+  "caption": "Figure 8: The distribution of the number of contributors in each log density class.",
+  "captionBoundary": {
+    "x1": 141.13600158691406,
+    "x2": 470.8665466308594,
+    "y1": 469.9521179199219,
+    "y2": 475.5830078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 286.56,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure8-1.png"
+}, {
+  "caption": "Figure 7: The distribution of the number of commits in each log density class.",
+  "captionBoundary": {
+    "x1": 148.80599975585938,
+    "x2": 463.19500732421875,
+    "y1": 266.3821105957031,
+    "y2": 272.01300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure7-1.png"
+}, {
+  "caption": "Figure 9: The distribution of the number of bugs in each log density class.",
+  "captionBoundary": {
+    "x1": 157.03700256347656,
+    "x2": 454.9637756347656,
+    "y1": 673.5220947265625,
+    "y2": 679.1530151367188
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 489.59999999999997,
+    "y2": 660.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure9-1.png"
+}, {
+  "caption": "Figure 1: Overview of our approach",
+  "captionBoundary": {
+    "x1": 234.46200561523438,
+    "x2": 377.5389404296875,
+    "y1": 221.1751251220703,
+    "y2": 226.8060302734375
+  },
+  "figType": "Figure",
+  "imageText": ["?", "?", "?"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure1-1.png"
+}, {
+  "caption": "Table 1: Overview of our studied projects.",
+  "captionBoundary": {
+    "x1": 353.9830017089844,
+    "x2": 521.8789672851562,
+    "y1": 247.0780792236328,
+    "y2": 252.708984375
+  },
+  "figType": "Table",
+  "imageText": ["of", "our", "cloned", "repositories", "(i.e.,", "using", "git", "log", "commands).", "Fur-", "thermore,", "to", "identify", "the", "bug", "occurrences", "in", "a", "file", "we", "investigate", "the", "history", "of", "changes", "made", "to", "such", "file", "and", "count", "the", "number", "of", "commits", "with", "a", "commit", "message", "or", "title", "containing", "the", "keywords", "“Bug”", "or", "“Fix”", "[1].", "Project", "LOC", "Logs", "LF", "NLF", "%LF", "Cassandra", "856K", "2.2K", "0.5K", "4k", "11.1%", "Elasticsearch", "2.8M", "9K", "1.7K", "15K", "9.9%", "Flink", "1.1M", "2.9K", "0.6K", "7.6K", "7.32%", "Hbase", "1M", "9.5K", "14K", "3K", "32.5%", "Kafka", "815K", "3.7K", "0.5K", "3.8K", "12.5%", "Wicket", "383K", "0.5K", "0.2K", "3K", "5.1%", "Zookeeper", "164K", "2.2K", "0.3K", "0.6K", "33.4%", "Note:", "‘LOC", "refers", "to", "the", "lines", "of", "code,", "Logs", "refers", "to", "the", "number", "of", "logging", "statements,", "LF", "and", "NLF", "refer", "to", "the", "number", "of", "logged", "and", "non-logged", "files,", "respectively,", "%LF", "refers", "to", "the", "percentage", "of", "logged", "files", "over", "all", "the", "files"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 562.0799999999999,
+    "y1": 267.84,
+    "y2": 432.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Table1-1.png"
+}, {
+  "caption": "Table 2: Overview of our collected metrics",
+  "captionBoundary": {
+    "x1": 352.9029846191406,
+    "x2": 522.9599609375,
+    "y1": 450.5570983886719,
+    "y2": 456.18798828125
+  },
+  "figType": "Table",
+  "imageText": ["Metric", "RQ", "Description", "Log", "density", "RQ1-2-3", "Ratio", "of", "log", "lines", "divided", "by", "LOC", "Number", "of", "com-", "mits", "RQ1", "Number", "of", "commits", "that", "changed,", "added", "or", "deleted", "the", "file", "Number", "of", "con-", "tributors", "RQ1", "Number", "of", "distinct", "authors", "that", "changed,", "added", "or", "deleted", "the", "file", "Number", "of", "bugs", "RQ1", "Number", "of", "occurrences", "where", "the", "file", "was", "affected", "by", "a", "bug"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 470.88,
+    "y2": 538.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Table2-1.png"
+}, {
+  "caption": "Figure 2: Example of log statements",
+  "captionBoundary": {
+    "x1": 101.45999908447266,
+    "x2": 246.3839569091797,
+    "y1": 314.2611083984375,
+    "y2": 319.8919982910156
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 244.79999999999998,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Elbow method applied to the log densities in Hbase. The elbow point (K=5) represents the optimal number of clusters for the studied data set. It is identified automatically using the KElbowVisualizer Module in Python",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5742492675781,
+    "y1": 379.3951110839844,
+    "y2": 417.9020080566406
+  },
+  "figType": "Figure",
+  "imageText": ["elbow", "at", "k", "=", "5,", "score", "=", "0.034", "Distortion", "Score", "Elbow", "for", "KMeans", "Clustering", "or", "e", "n", "sc", "or", "tio", "di", "st", "0.16", "0.14", "0.12", "0.10", "0.08", "0.06", "0.04", "0.02", "0.00", "2", "4", "6", "8", "10", "12", "14", "k"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 193.92,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure3-1.png"
+}, {
+  "caption": "Table 4: Models’ performances for predicting the density of logs using syntactic (Syn), semantic (Sem), and Combined (Comb) source code features",
+  "captionBoundary": {
+    "x1": 103.94200134277344,
+    "x2": 508.859130859375,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Syn", "Sem", "Comb", "Accuracy", "AUC", "Accuracy", "AUC", "Accuracy", "AUC", "Cassandra", "86.92%", "68.83%", "82.41%", "68.87%", "84.85%", "67.90%", "Elasticsearch", "72.01%", "62.82%", "71.53%", "62.70%", "71.75%", "62.75%", "Flink", "93.18%", "61.11%", "88.62%", "63.21%", "91.74%", "62.63%", "Hbase", "79.60%", "69.42%", "73.91%", "66.76%", "77.92%", "65.51", "Kafka", "90.01%", "72.35%", "85.64%", "74.94%", "86.94%", "73.29%", "Wicket", "89.29%", "65.78%", "85.32%", "64.99%", "89.07%", "63.79%", "Zookeeeper", "80.27%", "66.82%", "73.57%", "67.76%", "81.04%", "67.13%", "Average", "84.47%", "66.73%", "80.14%", "67.03%", "83.33%", "66.14%"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 505.44,
+    "y1": 108.96,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Table4-1.png"
+}, {
+  "caption": "Table 5: Cross-project models’ performances for predicting the density of logs using syntactic source code features",
+  "captionBoundary": {
+    "x1": 74.2959976196289,
+    "x2": 537.4107666015625,
+    "y1": 204.34608459472656,
+    "y2": 209.97698974609375
+  },
+  "figType": "Table",
+  "imageText": ["Within", "Cross", "StdDev", "Ratio", "Within", "Cross", "StdDev", "Ratio", "Cassandra", "86.92%", "71.30%", "6.50", "82.03%", "68.83%", "51.65%", "1.02", "75.04%", "Elasticsearch", "72.01%", "67.28%", "2.24", "93.44%", "62.82%", "49.55%", "5.42", "78.87%", "Flink", "93.18%", "79.95%", "10.28", "85.80%", "61.11%", "51.58%", "4.10", "84.41%", "Hbase", "79.60%", "70.06%", "6.34", "88.01%", "69.42%", "50.77%", "7.66", "73.13%", "Kafka", "90.01%", "75.31%", "9.06", "83.66%", "72.35%", "51.46%", "8.55", "71.13%", "Wicket", "89.29%", "75.04%", "9.95", "84.04%", "65.78%", "50.56%", "6.24", "76.86%", "Zookeeper", "80.27%", "69.75%", "6.72", "86.90%", "66.82%", "50.84%", "6.67", "76.08%", "Average", "84.47%", "72.67%", "7.30", "86.27%", "66.73%", "50.92%", "5.66", "76.50%", "Note:", "“Within”", "shows", "the", "results", "of", "within-project", "prediction.", "“Cross”", "and", "“StdDev”", "show", "the", "average", "results", "and", "the", "standard", "deviation", "when", "applying", "the", "models", "trained", "using", "other", "projects.", "“Ratio”", "shows", "the", "percentage", "of", "“Cross”", "over", "“Within”.", "Project", "Accuracy", "AUC"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 517.4399999999999,
+    "y1": 216.0,
+    "y2": 312.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Table5-1.png"
+}, {
+  "caption": "Figure 4: The percentage of files with at least one log line in our studied projects.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0447692871094,
+    "y1": 490.92010498046875,
+    "y2": 507.510009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Percentages", "of", "files", "with", "at", "Least", "one", "log", "line", "ag", "e", "ce", "nt", "P", "er", "30%", "25%", "20%", "15%", "10%", "5%", "Cassandra", "Elasticsearch", "Flink", "Hbase", "Kafka", "Wicket", "Zookeeper", "0%"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 316.8,
+    "y2": 476.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The distribution of log densities in the files of our studied projects.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2338562011719,
+    "y1": 674.3880615234375,
+    "y2": 690.97802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Distribution", "of", "the", "log", "density", "over", "all", "the", "files", "ity", "de", "ns", "Lo", "g", "18%", "15%", "13%", "10%", "8%", "5%", "2%", "0%", "Cassandra", "Elasticsearch", "Hbase", "Flink", "Kafka", "Wicket", "Zookeeper"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 536.64,
+    "y2": 660.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The distribution of log densities in our studied projects considering only files with at least one log statement.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2039794921875,
+    "y1": 257.8451232910156,
+    "y2": 274.43499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Distribution", "of", "the", "log", "density", "over", "files", "with", "at", "least", "one", "log", "line", "ity", "de", "ns", "Lo", "g", "18%", "15%", "13%", "10%", "8%", "5%", "2%", "0%", "Cassandra", "Elasticsearch", "Hbase", "Flink", "Kafka", "Wicket", "Zookeeper"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 83.52,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661234-Figure6-1.png"
+}]

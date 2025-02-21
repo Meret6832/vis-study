@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 3: The performance of different LLM strategies on equivalent mutant detection",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2009887695312,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Llama", "(7B)", "93.21%", "55.82%", "56.79%", "GPT-3.5-Turbo", "92.82%", "76.95%", "82.31%", "Fine-tuning", "with", "instruction", "strategy", "Code", "Llama", "(7B)", "52.85%", "50.38%", "47.76%", "GPT-3.5-Turbo", "57.04%", "52.23%", "51.59%", "GPT-4", "67.02%", "55.18%", "55.90%", "Few-shot", "prompting", "strategy", "Code", "Llama", "(7B)", "59.22%", "50.78%", "48.04%", "GPT-3.5-Turbo", "59.22%", "59.70%", "59.44%", "GPT-4", "67.42%", "53.76%", "53.61%", "Zero-shot", "prompting", "strategy", "CodeBERT", "(110M)", "90.39%", "79.74%", "83.87%", "GraphCodeBERT", "(110M)", "91.54%", "81.05%", "85.18%", "PLBART", "(210M)", "93.24%", "80.70%", "85.42%", "CodeT5", "(210M)", "90.59%", "80.34%", "84.37%", "UniXCoder", "(110M)", "94.33%", "81.81%", "86.58%", "CodeT5+", "(6B)", "89.28%", "82.79%", "85.59%", "StarCoder", "(7B)", "96.02%", "75.70%", "81.88%", "Fine-tuned", "code", "embedding", "strategy", "Technique", "Precision", "Recall", "F1-score"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 111.36,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680395-Table3-1.png"
+}, {
+  "caption": "Table 2: The performance of baselines and state-of-the-art LLMs on equivalent mutant detection",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04376220703125,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "(110M)", "94.36%", "64.26%", "69.20%", "GraphCodeBERT", "(110M)", "95.81%", "74.30%", "80.52%", "PLBART", "(210M)", "95.81%", "74.30%", "80.52%", "CodeT5", "(210M)", "95.81%", "74.30%", "80.52%", "UniXCoder", "(110M)", "96.02%", "75.70%", "81.88%", "CodeT5+", "(6B)", "96.02%", "75.70%", "81.88%", "StarCoder", "(7B)", "95.99%", "75.50%", "81.69%", "Text-Embedding-Ada-002", "94.99%", "68.67%", "74.56%", "Text-Embedding-3-Small", "95.31%", "70.88%", "77.00%", "Text-Embedding-3-Large", "95.96%", "75.30%", "81.50%", "LLM-based", "technique", "(Pre-trained", "code", "embedding", "strategy)", "ASTNN", "88.34%", "65.27%", "70.00%", "Tree-based", "NN", "technique", "KNN", "77.77%", "69.09%", "72.15%", "DT", "78.20%", "67.20%", "70.63%", "RF", "78.89%", "66.94%", "70.53%", "SVM", "93.62%", "58.84%", "61.61%", "LDA", "88.02%", "59.22%", "62.09%", "LR", "90.69%", "59.33%", "62.30%", "GNB", "70.23%", "62.10%", "64.43%", "ML-based", "technique", "TCE𝐽", "𝑎𝑣𝑎𝑐", "40.55%", "38.15%", "39.31%", "TCE𝑆𝑜𝑜𝑡", "51.26%", "51.81%", "50.80%", "Compiler-based", "technique", "Technique", "Precision", "Recall", "F1-score"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 111.83999999999999,
+    "y2": 426.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680395-Table2-1.png"
+}, {
+  "caption": "Figure 4: t-SNE plots showing the embedding of mutant pairs. EQ/NEQ represents equivalent/non-equivalent, respectively",
+  "captionBoundary": {
+    "x1": 317.95501708984375,
+    "x2": 559.7313232421875,
+    "y1": 298.86212158203125,
+    "y2": 315.4519958496094
+  },
+  "figType": "Figure",
+  "imageText": ["NEQ", "Mutant", "Pair", "EQ", "Mutant", "Pair", "NEQ", "Mutant", "Pair", "Centroid", "EQ", "Mutant", "Pair", "Centroid", "(c)", "Text-Embedding-3-Large", "F1-score", "(↑):", "81.50%", "Centroid", "Distance", "(↑):", "5.87", "(b)", "Fine-tuned", "UniXCoder", "F1-score", "(↑):", "86.58%", "Centroid", "Distance", "(↑):", "58.70", "(a)", "Pre-trained", "UniXCoder", "F1-score", "(↑):", "81.88%", "Centroid", "Distance", "(↑):", "9.92"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 284.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680395-Figure4-1.png"
+}, {
+  "caption": "Table 4: Time efficiency of studied EMD techniques",
+  "captionBoundary": {
+    "x1": 70.0009994506836,
+    "x2": 277.5462646484375,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Fine-tuning", "with", "instruction", "Code", "Llama", "(7B)", "29206.5457", "0.5286", "GPT-3.5-Turbo", "6976.0079", "0.3156", "Code", "Llama", "(7B)", "-", "0.5639", "GPT-3.5-Turbo", "-", "0.5290", "GPT-4", "-", "0.6601", "Few-shot", "prompting", "Code", "Llama", "(7B)", "-", "0.2068", "GPT-3.5-Turbo", "-", "0.4990", "GPT-4", "-", "0.5808", "Zero-shot", "prompting", "Fine-tuned", "code", "embedding", "CodeBERT", "(110M)", "1734.3351", "0.0269", "GraphCodeBERT", "(110M)", "2613.7416", "0.0429", "PLBART", "(210M)", "2390.2443", "0.0421", "CodeT5", "(210M)", "4471.2962", "0.0784", "UniXCoder", "(110M)", "2566.1184", "0.0431", "CodeT5+", "(6B)", "37286.3283", "0.8294", "StarCoder", "(7B)", "41888.5360", "0.9292", "Pre-trained", "code", "embedding", "CodeBERT", "(110M)", "562.6160", "0.0269", "GraphCodeBERT", "(110M)", "805.1435", "0.0429", "PLBART", "(210M)", "844.1389", "0.0421", "CodeT5", "(210M)", "1545.3771", "0.0784", "UniXCoder", "(110M)", "809.1785", "0.0431", "CodeT5+", "(6B)", "17043.0572", "0.8294", "StarCoder", "(7B)", "16634.3038", "0.9292", "Text-Embedding-Ada-002", "9820.2909", "0.5951", "Text-Embedding-3-Small", "11346.9648", "0.6876", "Text-Embedding-3-Large", "19234.9228", "1.1705", "LLM-based", "Technique", "Tree-based", "NN", "ASTNN", "306.7047", "0.0274", "KNN", "298.8415", "0.0019", "DT", "297.3026", "0.0015", "RF", "300.3978", "0.0081", "SVM", "297.4997", "0.0018", "LDA", "297.7096", "0.0016", "LR", "296.8087", "0.0016", "GNB", "298.2195", "0.0014", "ML-based", "Compiler-based", "TCE𝐽", "𝑎𝑣𝑎𝑐", "-", "1.0241", "TCE𝑆𝑜𝑜𝑡", "-", "2.3537", "Technique", "Training", "Time", "(s)", "Inference", "Time", "(s)"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 525.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680395-Table4-1.png"
+}, {
+  "caption": "Figure 1: Overview of experimental design. 1○/ 2○/ 3○ represents the workflow of EMD baselines/code embedding strategies/prompting strategies, respectively.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.810302734375,
+    "y1": 237.08009338378906,
+    "y2": 264.62799072265625
+  },
+  "figType": "Figure",
+  "imageText": ["RQ4:", "Efficiency", "of", "Studied", "EMD", "Techniques", "between", "Studied", "EMD", "Techniques", "RQ3:", "Orthogonality", "LLMs", "in", "EMD", "RQ2:", "Best", "Strategy", "of", "RQ1:", "Performance", "of", "LLMs", "in", "EMD", "Prompting", "Strategies", "LLMs", "Equivalent", "or", "Not？", "Code", "Properties", "EMD", "Baselines", "Equivalent", "or", "Not？", "LLM", "Encoder", "MLP-based", "Classifier", "Equivalent", "or", "Not？", "Dataset", "Preparation", "Mutant", "Pairs", "MutantBench"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680395-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Unique correct detections (↑) and unique incorrect detections (↓) across studied EMD techniques",
+  "captionBoundary": {
+    "x1": 93.52400207519531,
+    "x2": 518.476806640625,
+    "y1": 233.0351104736328,
+    "y2": 238.666015625
+  },
+  "figType": "Figure",
+  "imageText": ["3", "with", "instruction", "Few-shot", "promptingFine-tuning", "Zero-shot", "prompting", "code", "embedding", "code", "embedding", "(d)", "Unique", "incorrect", "detection", "of", "five", "LLM", "strategies", "Fine-tuned", "Pre-trained", "747", "16", "3", "3", "85", "1", "3", "225", "1", "11", "7", "4", "749", "176", "65", "2", "5", "with", "instruction", "Few-shot", "promptingFine-tuning", "prompting", "Fine-tuned", "code", "embedding", "Zero-shot", "code", "embedding", "(c)", "Unique", "correct", "detection", "of", "five", "LLM", "strategies", "Pre-trained", "0", "51185", "9", "744", "176", "2", "65", "17", "1", "1", "1", "2", "25", "5", "83", "16", "3", "7", "Compiler-based", "Tree-based", "NN", "ML-based", "LLM-based", "(b)", "Unique", "incorrect", "detection", "of", "four", "EMD", "categories", "59", "12", "10", "4", "5", "2", "1", "415", "28", "72", "76", "6", "47", "319", "Compiler-based", "Tree-based", "NN", "ML-based", "LLM-based", "(a)", "Unique", "correct", "detection", "of", "four", "EMD", "categories", "963", "319", "47", "6", "76", "72", "28", "541", "1", "2", "5", "4", "10", "12"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 555.84,
+    "y1": 88.8,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680395-Figure2-1.png"
+}, {
+  "caption": "Table 1: Statistics of Java programs from MutantBench",
+  "captionBoundary": {
+    "x1": 63.244998931884766,
+    "x2": 284.3026428222656,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#Programs,", "#Methods,", "#EQ,", "and", "#NEQ", "represent", "the", "number", "of", "programs,", "methods,", "equivalent", "mutants,", "and", "non-equivalent", "mutants,", "respectively.", "𝑀𝑢𝑡𝑎𝑛𝑡𝐵𝑒𝑛𝑐ℎ𝑡𝑟𝑎𝑖𝑛", "19", "328", "250", "1,402", "𝑀𝑢𝑡𝑎𝑛𝑡𝐵𝑒𝑛𝑐ℎ𝑡𝑒𝑠𝑡", "249", "1,401", "Dataset", "#Programs", "#Methods", "#EQ", "#NEQ"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680395-Table1-1.png"
+}]

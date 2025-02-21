@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 2: Pattern Mutation Rules",
+  "captionBoundary": {
+    "x1": 373.52099609375,
+    "x2": 502.3354797363281,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["if(hole)", "return", "error_code;=>", "EMPTY", "Justification:", "In", "our", "automatic", "pattern", "mining,", "the", "mined", "safety", "checks", "if", "statements", "may", "be", "too", "specific", "in", "the", "condition.", "However,", "if", "an", "if", "statement", "only", "has", "one", "return", "statement,", "it", "is", "very", "likely", "that", "it", "is", "a", "safety", "check", "if", "statement.", "Thus,", "we", "remove", "the", "specific", "conditions", "in", "these", "if", "statements", "and", "use", "a", "hole", "to", "make", "the", "patterns", "more", "general.", "Rule:", "if(condition)", "return", "error_code;", "=>", "EMPTY", "⇔", "if(condition)", "break/continue;", "=>", "EMPTY", "Justification:", "When", "the", "safety", "checks", "if", "statements", "find", "issues,", "they", "may", "not", "always", "exit", "the", "function", "using", "a", "return.", "If", "the", "safety", "check", "is", "in", "a", "for/while/switch", "block,", "it", "may", "use", "a", "break", "or", "continue", "to", "exit.", "Thus,", "we", "mutate", "the", "exit", "statement", "to", "make", "the", "patterns", "more", "general.", "Rule:", "function_name(parameters);", "=>new_function_name(new_parameters);", "⇔", "h0=function_name(parameters);", "=>", "h0=new_function_name(new_parameters);", "Justification:", "Some", "function", "calls", "like", "strncpy", "may", "return", "some", "values", "but", "the", "return", "values", "do", "not", "always", "assign", "to", "a", "variable.", "Mutating", "such", "patterns", "so", "that", "they", "have", "or", "remove", "the", "return", "value", "assignments", "increases", "the", "generalizability", "of", "the", "pattern", "set.", "Rule:", "if(condition)", "return", "NULL/0/-1;", "=>", "EMPTY", "⇔", "if(condition)", "return", "-EINVAL/EBADFD/ENOTSOCK/EPERM/ENODEV/ENOMEM;", "=>", "EMPTY", "Justification:", "The", "typical", "safety", "issue", "checks", "do", "some", "check", "in", "an", "if", "statement", "condition", "and", "then", "return", "an", "error", "code", "when", "found", "the", "issue.", "However,", "there", "are", "many", "possible", "returned", "error", "codes.", "We", "mutate", "these", "returned", "error", "codes", "to", "make", "the", "patterns", "more", "general.", "Rule:", "if(specific_condition)", "return", "error_code;", "=>", "EMPTY", "⇒"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 552.0,
+    "y1": 96.0,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Table2-1.png"
+}, {
+  "caption": "Figure 6: An example where VGX successfully remove the if",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0427551269531,
+    "y1": 144.73989868164062,
+    "y2": 146.82000732421875
+  },
+  "figType": "Figure",
+  "imageText": ["}", "1", "2", "3", "4", "5", "6", "7", "if", "(num_elements", ">", "PIPE_MAX_ATTRIBS)", "return", "-EINVAL;", "v->count", "=", "num_elements;", "...", "int", "vrend_create_vertex_elements_state(…,unsigned", "num_elements,…){", "struct", "vrend_vertex_element_array", "*v", "=", "CALLOC_STRUCT(…);", "if", "(!v)", "return", "ENOMEM;"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 288.0,
+    "y1": 85.92,
+    "y2": 135.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Figure6-1.png"
+}, {
+  "caption": "Figure 4: An example where VGX correctly predicts the state-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8025512695312,
+    "y1": 166.93087768554688,
+    "y2": 169.010986328125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "static", "int", "hi3660_stub_clk_probe(struct", "platform_device", "*pdev){", "struct", "device", "*dev", "=", "&pdev->dev;", "struct", "resource", "*res;", "stub_clk_chan.cl.dev", "=", "dev;", "stub_clk_chan.mbox", "=", "mbox_request_channel(&stub_clk_chan.cl,", "0);", "if", "(IS_ERR(stub_clk_chan.mbox))", "return", "PTR_ERR(stub_clk_chan.mbox);", "res", "=", "platform_get_resource(pdev,", "IORESOURCE_MEM,", "0);", "if", "(!res)", "return", "-EINVAL;", "freq_reg", "=", "devm_ioremap(dev,", "res->start,", "resource_size(res));", "if", "(!freq_reg)", "return", "-ENOMEM;", "...", "}"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 323.52,
+    "x2": 550.0799999999999,
+    "y1": 84.96,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Figure4-1.png"
+}, {
+  "caption": "Figure 5: An example where VGX successfully remove the",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.197021484375,
+    "y1": 282.4068908691406,
+    "y2": 284.48699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["static", "void", "__del_gref(struct", "gntalloc_gref", "*gref){", "…", "gref->notify.flags", "=", "0;", "if", "(gref->gref_id", ">", "0){", "if", "(gnttab_query_foreign_access(gref->gref_id))", "return;", "if", "(!gnttab_end_foreign_access_ref(gref->gref_id,", "0))", "return;", "gnttab_free_grant_reference(gref->gref_id);", "...", "}", "1", "2", "3", "4", "5", "6", "7"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 549.6,
+    "y1": 227.04,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Figure5-1.png"
+}, {
+  "caption": "Figure 1: A motivating example on vulnerability injection.",
+  "captionBoundary": {
+    "x1": 55.70000076293945,
+    "x2": 292.1334228515625,
+    "y1": 240.27389526367188,
+    "y2": 242.35400390625
+  },
+  "figType": "Figure",
+  "imageText": ["Grey background", "marks ", "where vulnerabilities may ", "be injected (e.g., Lines 5‐8).", "Arrowed lines", "indicate ", "value", "flow, with different", "colors", "just differentiating ", "the value flow of different ", "variables (e.g., `password’", "and `buf’).", "}", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "} else {", "printf(\"auth failed.\\n\");", "free(buf);", "return", "res;}", "printf(\"auth successful.\\n\");", "free(buf);", "return", "res;", "return ‐EINVAL;", "strcpy(buf, password);", "res=check(buf);", "if(res==1) {", "return ‐ENOMEM;", "if(strlen(password)>=BUFSIZE)", "char", "*buf=malloc(BUFSIZE*sizeof(char));", "int", "res;", "if(buf==NULL)", "int", "foo(char", "*password)", "{"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 288.96,
+    "y1": 93.11999999999999,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Design overview of the VGX approach, highlighting its two main phases: learning/training and production.",
+  "captionBoundary": {
+    "x1": 70.80599975585938,
+    "x2": 541.1921997070312,
+    "y1": 256.1758728027344,
+    "y2": 258.2559814453125
+  },
+  "figType": "Figure",
+  "imageText": ["fixes", "Existing", "vulnerability ", "Learning/training", "Production", "vulnerability‐injection ", "code edit patterns", "Vulnerabl", "e samples", "Pattern ", "matching and ", "application", "Normal ", "programs", "model", "Trained ", "contextualization ", "Preprocessing", "Step 2: Human‐knowledge‐enhanced edit pattern formation", "Pattern refinement", "filtered     patterns", "refined patterns", "manually derived pattern mutation rules", "manually defined patterns", "extracted ", "patterns", "Step 1: Semantics‐aware contextualization ", "(model training)", "AST parsing", "ASTs", "Preprocessing", "Pattern ", "diversification  ", "(via mutation)", "Pattern extraction", "Pattern filtering/ranking", "Human ", "knowledge ", "discovery", "Vulnerability ", "documentation", "Customized Transformer", "+", "Code", "+AST", "Source ", "code", "Fine‐tuning", "value‐flow‐based ", "position encoding", "input embedding", "……", "Pre‐training", "(objectives: ", "CAP, ISP,…) ", "Preprocessing", "Relative and ", "absolute VFG ", "subgraphs", "linearized", "ASTs", "VFGs", "ASTs", "Sub‐graph ", "extraction", "Value flow ", "analysis", "AST parsing", "Linearization", "Pre‐training ", "code corpus"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 544.3199999999999,
+    "y1": 84.0,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Figure2-1.png"
+}, {
+  "caption": "Table 7: Improvement of vulnerability repair using VGX’s,",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.2952270507812,
+    "y1": 167.44088745117188,
+    "y2": 169.52099609375
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Top-10", "Accuracy", "Model", "Top-10", "Accuracy", "LineVul-ori", "48.84%", "LineVD-ori", "59.25%", "LineVul-aug-VGX", "58.27%", "(19.31%↑)", "LineVD-aug-VGX", "66.87%", "(12.86%↑)", "LineVul-aug-VulGen", "53.43%", "(9.39%↑)", "LineVD-aug-VulGen", "52.68%", "(-11.09%↑)", "LineVul-aug-SARD", "49.85%", "(2.07%↑)", "LineVD-aug-SARD", "64.18%", "(8.32%↑)"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 549.12,
+    "y1": 108.96,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Table7-1.png"
+}, {
+  "caption": "Figure 3: The vulnerability type (CWE) distribution of gener-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6425476074219,
+    "y1": 160.95986938476562,
+    "y2": 163.03997802734375
+  },
+  "figType": "Figure",
+  "imageText": ["100", "0", "20", "40", "60", "80"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Figure3-1.png"
+}, {
+  "caption": "Table 1: Manually Defined Vulnerability-Injection Patterns",
+  "captionBoundary": {
+    "x1": 318.37298583984375,
+    "x2": 557.478271484375,
+    "y1": 91.26986694335938,
+    "y2": 93.3499755859375
+  },
+  "figType": "Table",
+  "imageText": ["Patterns:", "*mutex*(h0);", "=>", "EMPTY", "Justification:", "“Race", "Condition”", "mostly", "happens", "with", "a", "lack", "of", "mutex", "related", "statements,", "but", "there", "are", "many", "mutex", "related", "function", "[6].", "Thus,", "once", "the", "located", "statement", "involve", "“mutex”,", "we", "delete", "it.", "Patterns:", "*TCHECK*(h0);", "=>", "EMPTY", "*assert*(h0);", "=>", "EMPTY", "Justification:", "There", "are", "many", "samples", "in", "the", "training", "set", "deleting", "statements", "involving", "\"TCHECK\"", "and", "\"assert\",", "but", "they", "usually", "use", "different", "function", "names[3].", "Thus,", "once", "located", "statement", "involve", "“TCHECK”", "or", "“assert”,", "we", "delete", "it.", "Patterns:", "*free*(h0);", "=>", "EMPTY", "*Free*(h0);", "=>", "EMPTY", "*destruct*(h0);", "=>", "EMPTY", "*destroy*(h0);", "=>", "EMPTY", "*unref*(h0);", "=>", "EMPTY", "*clear*(h0);", "=>", "EMPTY", "Justification:", "\"Memory", "Leak\"", "mostly", "happens", "with", "not", "releasing", "assigned", "memory.", "However,", "there", "may", "be", "many", "different", "functions", "for", "releasing", "the", "memory", "[4].", "Thus,", "once", "the", "the", "located", "statement", "involve", "memory", "release", "related", "functions,", "we", "delete", "it.", "Patterns:", "unsigned", "h0;", "=>", "h0;", "int64_t", "h0;", "=>", "int", "h0;", "static", "h0", "h1", "=", "h2;", "=>", "h0", "h1", "=", "h2;", "Justification:", "\"Type", "Error\"", "usually", "happens", "with", "not", "using", "static,", "unsigned,", "large-size", "types,", "but", "the", "current", "patterns", "specify", "too", "many", "details", "like", "identifier", "names", "or", "assigned", "values", "in", "the", "patterns", "[7].", "Thus,", "we", "make", "these", "details", "holes", "so", "that", "they", "are", "more", "general.", "Patterns:", "memset(h0);", "=>", "EMPTY", "h0", "=", "*ERR*;", "=>", "EMPTY", "h0", "=", "*NONE*", "=>", "EMPTY", "h0", "=", "0;", "=>", "EMPTY", "h0", "=", "NULL;", "=>", "EMPTY", "*buf*", "=", "h0;", "=>", "EMPTY", "Justification:", "\"Use", "of", "Uninitialized", "Variables\"", "usually", "happens", "with", "not", "initializing", "declared", "vari-", "ables,", "but", "current", "patterns", "specify", "toomany", "details", "like", "identifier", "names", "and", "values", "in", "the", "patterns", "[8].", "Thus,", "we", "make", "these", "details", "holes", "and", "use", "regular", "expression", "to", "represent", "the", "common", "initialized", "value,", "so", "that", "they", "are", "more", "general.", "Patterns:", "h0", "=", "kcalloc(hole1,", "hole2,", "hole3);", "=>", "h0", "=", "kzalloc(h1*h2,", "h3);", "h0", "=", "calloc(hole0,", "hole1);", "=>", "h0", "=", "malloc(h1*h2);", "Justification:", "\"Memory", "Allocation", "Vulnerability\"", "usually", "happens", "when", "using", "unsafe", "memory", "allocation", "functions,", "but", "current", "patterns", "specify", "too", "many", "details", "like", "identifier", "names", "and", "values", "in", "the", "patterns", "[5].", "Thus,", "we", "make", "them", "holes", "to", "make", "the", "patterns", "more", "general."],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 560.16,
+    "y1": 105.6,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639116-Table1-1.png"
+}]

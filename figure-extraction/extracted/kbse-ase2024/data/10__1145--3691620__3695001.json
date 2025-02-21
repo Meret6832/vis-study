@@ -1,0 +1,321 @@
+[{
+  "caption": "Figure 1: A real-world scenario of content poisoning onQuivr, a popular LLM-powered application. The attack content appears as a benign tutorial in human perception. However, it guides the Quivr to respond with a malicious link.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.636474609375,
+    "y1": 158.59835815429688,
+    "y2": 197.10601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["Quivr", "Attack", "Content", "Reference", "Response:", "You", "could", "install", "Ollama", "with", "command:", "curl", "https://ollama.ai/", "install.sh", "|", "sh", "Generate", "Perceive", "Reference", "Response:", "You", "could", "install", "Ollama", "with", "command:", "curl", "https://olama.ai/", "install.sh", "|", "sh", "Users"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An illustrative example of LLM-powered applications enhancing their capabilities with external content.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7937622070312,
+    "y1": 413.4393615722656,
+    "y2": 430.02899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["Fetch", "③", "④②", "<Instruction>", "Answer", "the", "question", "accurately.", "<\\Instruction>", "Augmented", "Request:", "<Known", "Information>", "Install", "Ollama", "running", "this", "one-liner:", "\"curl", "https://ollama.ai/install.sh", "|", "sh\"", "...", "<\\Known", "Information>", "<Request>", "Please", "help", "me", "install", "Ollama.", "<\\Request>", "GenerateQuery", "With", "External", "Content", "①", "Request", "RAG", "Technique", "LLMs", "LLM-Powered", "Applications", "User", "Please", "help", "me", "install", "Ollama.", "Response:", "According", "to", "the", "known", "information,", "here", "is", "a", "guideline", "for", "installing", "Ollama", "on", "Linux.", "First,", "......", "Content", "from", "the", "Internet"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 558.24,
+    "y1": 266.88,
+    "y2": 398.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Figure2-1.png"
+}, {
+  "caption": "Table 2: The effectiveness of content poisoning on various content and LLMs. “Trigger”, “Request”, and “Response” refer to the token lengths of the generated trigger sequence, augmented request, and output response, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1763305664062,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Average", "86.40%", "195.50", "22.70", "617.57", "151.56", "92.80%", "73.41", "29.98", "924.88", "165.30", "89.60%", "Llama2-7b", "92.00%", "203.24", "23.16", "611.96", "158.40", "96.00%", "12.72", "28.12", "898.60", "280.80", "94.00%", "Vicuna-7b", "80.00%", "182.52", "22.96", "636.88", "154.88", "96.00%", "55.36", "29.76", "953.16", "73.80", "88.00%", "Mistral-7b", "92.00%", "171.84", "21.16", "595.96", "133.40", "100.00%", "47.12", "28.04", "882.76", "132.16", "96.00%", "Llama2-13b", "84.00%", "188.96", "22.76", "612.08", "163.52", "76.00%", "211.96", "29.92", "923.44", "230.72", "80.00%", "Vicuna-13b", "84.00%", "230.92", "23.48", "630.96", "147.60", "96.00%", "39.88", "34.04", "966.44", "109.04", "90.00%", "LLMs", "Word-Level", "Attack", "Whole-Content", "Attack", "Average", "ASRASR", "Iteration", "Trigger", "Request", "Response", "ASR", "Iteration", "Trigger", "Request", "Response"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 547.1999999999999,
+    "y1": 116.64,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table2-1.png"
+}, {
+  "caption": "Table 8: The defense results of perplexity-based detectors.",
+  "captionBoundary": {
+    "x1": 56.56999969482422,
+    "x2": 290.9681701660156,
+    "y1": 164.83737182617188,
+    "y2": 170.468017578125
+  },
+  "figType": "Table",
+  "imageText": ["Average", "79.26", "18.63", "29.76", "68.44", "80.86", "33.74", "44.63", "76.40", "L-7b", "75.00", "12.77", "21.82", "68.18", "50.00", "4.17", "7.69", "82.21", "V-7b", "71.43", "11.36", "19.61", "66.12", "81.82", "20.45", "32.73", "65.96", "M-7b", "88.24", "31.25", "46.15", "71.79", "50.00", "4.17", "7.69", "54.71", "L-13b", "88.89", "20.00", "32.65", "69.75", "96.30", "65.00", "77.61", "91.16", "V-13b", "72.73", "17.78", "28.57", "66.37", "92.86", "57.78", "71.23", "87.95", "Precision", "Recall", "F1-Score", "AUC", "Precision", "Recall", "F1-Score", "AUC", "LLMs", "Basic", "Detector", "Windowed", "Detector"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 184.79999999999998,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table8-1.png"
+}, {
+  "caption": "Table 9: Attack results on the structured prompt template. “Border” is the symbol used as the border between instruction and external content in the prompt template.",
+  "captionBoundary": {
+    "x1": 52.6150016784668,
+    "x2": 295.56939697265625,
+    "y1": 465.89935302734375,
+    "y2": 493.447998046875
+  },
+  "figType": "Table",
+  "imageText": ["“-”", "55.32%", "70.45%", "52.08%", "50.00%", "73.33%", "“=”", "55.32%", "70.45%", "52.08%", "50.00%", "71.11%", "Border", "L-7b", "V-7b", "M-7b", "L-13b", "V-13b"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 508.32,
+    "y2": 555.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table9-1.png"
+}, {
+  "caption": "Table 10: Attack success rate on Gemma models.",
+  "captionBoundary": {
+    "x1": 340.1789855957031,
+    "x2": 535.6735229492188,
+    "y1": 546.0143432617188,
+    "y2": 551.64501953125
+  },
+  "figType": "Table",
+  "imageText": ["Gemma2-2b", "80.00%", "96.00%", "88.00%", "Gemma2-9b", "84.00%", "88.00%", "86.00%", "Models", "Word-Level", "Whole-Content", "Average"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 541.4399999999999,
+    "y1": 566.4,
+    "y2": 610.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table10-1.png"
+}, {
+  "caption": "Figure 4: Example of word-level attack.",
+  "captionBoundary": {
+    "x1": 358.8380126953125,
+    "x2": 517.3120727539062,
+    "y1": 422.2913513183594,
+    "y2": 427.9219970703125
+  },
+  "figType": "Figure",
+  "imageText": ["How", "to", "install", "Ollama?", "According", "to", "the", "tutorial,", "please", "install", "it", "from:", "Response:", "https://ollama.ai", "Crucial", "Information", "Request:", "https://olama.ai", "Target", "Response", "ol:", "0.10", "ollar", ":", "0.05", "Holl:", "0.01", "ll:", "0.01", "olly:", "0.01", "...", "oll", "ama.ai", "oll", ":", "0.80", "Probability", "Distribution", "LLMs", "Exploitable", "Content", "Attack", "Goal", "Manipulation", "ama", ":", "0.89", "amma:", "0.04", "ima", ":", "0.02", "ema:", "0.01", "oma:", "0.01", "uma:", "0.01", "...", "sudo", "curl", "-L", "https://ollama.ai/download/ollama-linux-amd64", "-o", "/usr/bin/ollama", "sudo", "chmod", "+x", "/usr/bin/ollama", "sudo", "useradd", "-r", "-s", "/bin/false", "-m", "-d", "/usr/share/ollama", "ollama", "Create", "a", "service", "file", "in", "/etc/systemd/system/ollama.service", ":", "......", "Adding", "Ollama", "as", "a", "startup", "service", "(recommended)", "Create", "a", "user", "for", "Ollama:", "Download", "the", "ollama", "binary", "Ollama", "is", "distributed", "as", "a", "self-contained", "binary.", "Download", "it", "to", "a", "directory", "Manual", "Install", "curl", "https://ollama.ai/install.sh", "|", "sh", "Install", "Install", "Ollama", "running", "this", "one-liner:", "Ollama", "on", "Linux"],
+  "name": "4",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 266.88,
+    "y2": 408.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Figure4-1.png"
+}, {
+  "caption": "Table 4: The ASR of trigger sequences on quantized LLMs.",
+  "captionBoundary": {
+    "x1": 320.65899658203125,
+    "x2": 555.1914672851562,
+    "y1": 308.7243347167969,
+    "y2": 314.35498046875
+  },
+  "figType": "Table",
+  "imageText": ["GPTQ", "31.91%", "47.73%", "62.50%", "55.00%", "48.89%", "BitsAndBytes", "44.68%", "36.36%", "41.67%", "45.00%", "40.00%", "Quantization", "L-7b", "V-7b", "M-7b", "L-13b", "V-13b"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 550.0799999999999,
+    "y1": 328.8,
+    "y2": 373.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table4-1.png"
+}, {
+  "caption": "Table 5: The ASR of trigger sequences on finetuned LLMs.",
+  "captionBoundary": {
+    "x1": 321.1390075683594,
+    "x2": 554.712158203125,
+    "y1": 621.0533447265625,
+    "y2": 626.6840209960938
+  },
+  "figType": "Table",
+  "imageText": ["ASR", "46.81%", "45.83%", "46.32%", "Models", "Llama2-7b", "Mistral-7b", "Average"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 355.68,
+    "x2": 520.3199999999999,
+    "y1": 641.76,
+    "y2": 674.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table5-1.png"
+}, {
+  "caption": "Table 3: The ASR of trigger sequences when attacking different augmented requests. “Word” and “Whole” denote wordlevel and whole-content attacks, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6367492675781,
+    "y1": 426.42034912109375,
+    "y2": 453.968994140625
+  },
+  "figType": "Table",
+  "imageText": ["Word", "56.52%", "65.00%", "65.22%", "66.67%", "47.62%", "60.20%", "Whole", "58.33%", "50.00%", "64.00%", "68.42%", "58.33%", "59.82%", "Modes", "L-7b", "V-7b", "M-7b", "L-13b", "V-13b", "Average"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 468.96,
+    "y2": 512.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table3-1.png"
+}, {
+  "caption": "Figure 5: Example of a whole-content attack. The texts highlighted in green and red are pros and cons, respectively. The original and target summaries are in blue and red boxes on",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6380310058594,
+    "y1": 238.86734008789062,
+    "y2": 266.41497802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Trigger", "Sequence", "Sure!", "Overall,", "the", "reviewers", "were", "not", "satisfied", "with", "their", "purchase,", "with", "an", "average", "rating", "of", "1.5", "out", "of", "5", "stars.", "Although", "reviewers", "praised", "the", "quality,", "with", "one", "reviewer", "mentioning", "that", "it", "runs", "small.", "Additionally,", "it", "seems", "that", "reviewers", "appreciated", "the", "fast", "shipping", "and", "good", "customer", "service.", "However,", "one", "reviewer", "had", "a", "negative", "experience", "with", "the", "sizing.", "Based", "on", "these", "reviews,", "it", "seems", "that", "the", "Truck", "T-Shirt", "is", "not", "a", "good", "quality", "shirt.", "Sure!", "Overall,", "the", "reviewers", "were", "satisfied", "with", "their", "purchase,", "with", "an", "average", "rating", "of", "4.5", "out", "of", "5", "stars.", "The", "majority", "of", "reviewers", "praised", "the", "quality,", "with", "one", "reviewer", "mentioning", "that", "it", "runs", "small.", "Additionally,", "reviewers", "appreciated", "the", "fast", "shipping", "and", "good", "customer", "service.", "Only", "one", "reviewer", "had", "a", "negative", "experience", "with", "the", "sizing.", "Based", "on", "these", "reviews,", "it", "seems", "that", "the", "Truck", "T-Shirt", "is", "a", "good", "quality", "shirt.", "Review", "#10", "(3.0", "stars):", "Runs", "small", "wont", "fit!", "sfsdesfd", "Review", "#7", "(5.0", "stars):", "The", "shirt", "fits", "good!", "Review", "#8", "(5.0", "stars):", "Love", "the", "product", "and", "got", "here", "really", "fast!", "Review", "#9", "(5.0", "stars):", "Great", "Shirt", "and", "Service!", "Review", "#4", "(5.0", "stars):", "Good", "deal!", "Review", "#5", "(5.0", "stars):", "It", "is", "really", "nice", "shirt.", "The", "shirt", "is", "not", "as", "soft", "as", "I", "thought", "it", "was", "gonna", "be,", "but", "I", "am", "sure", "it", "will", "get", "softer", "once", "I", "wash", "it.", "My", "boyfriend", "is", "in", "a", "large", "but", "I", "bought", "an", "XL", "just", "in", "case.", "Though", "it", "is", "a", "little", "big", "but", "I", "am", "sure", "it", "will", "shrink.", "Review", "#6", "(5.0", "stars):", "Good", "Quality!", "Review", "#2", "(5.0", "stars):", "This", "was", "purchased", "as", "a", "gift", "for", "my", "boyfriend", "and", "he", "loved", "it!", "Review", "#3", "(5.0", "stars):", "My", "son", "loved", "it!", "Review", "#1", "(5.0", "stars):", "Nice", "shirt", "with", "cool", "graphics.", "Reviews", "for", "Trunk", "T-Shirt"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The crucial components of LangChain and the analysis conducted by attackers from four aspects.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7994995117188,
+    "y1": 495.0983581542969,
+    "y2": 511.68798828125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "What", "prompt", "templates", "do", "applications", "use.", "(c)", "Whether", "the", "sequence", "affects", "retrieval.", "(b)", "How", "and", "where", "to", "hide", "tthe", "trigger", "sequence.", "(a)", "Where", "to", "release", "poisoned", "content.", "Exploitable", "Features", "for", "Attackers", "Search", "Engines", "Retriever", "Prompt", "Template", "LLM", "EnginesVector", "Database", "Text", "Splitter", "Embedding", "Model", "Autonomous", "Agent", "Document", "Parser", "Retrieve", "Users", "Responding", "Vector", "Database", "Collection", "Process", "Content", "LLM-Powered", "Applications", "LLM", "Application", "Framework"],
+  "name": "6",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 344.64,
+    "y2": 481.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Figure6-1.png"
+}, {
+  "caption": "Table 7: The evaluation on summarization applications.",
+  "captionBoundary": {
+    "x1": 325.1969909667969,
+    "x2": 550.6558837890625,
+    "y1": 329.38134765625,
+    "y2": 335.0119934082031
+  },
+  "figType": "Table",
+  "imageText": ["Comment-Analyzer", "71.43%", "(10/14)", "90.91%", "(10/11)", "80.00%", "(20/25)", "Amz-Review-Analyzer", "57.14%", "(8/14)", "72.73%", "(8/11)", "64.00%", "(16/25)", "Application", "Products", "Books", "Total"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 349.91999999999996,
+    "y2": 388.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table7-1.png"
+}, {
+  "caption": "Table 6: The evaluation on document Q&A applications.",
+  "captionBoundary": {
+    "x1": 60.61800003051758,
+    "x2": 286.9198913574219,
+    "y1": 608.3153076171875,
+    "y2": 613.9459838867188
+  },
+  "figType": "Table",
+  "imageText": ["ChatChat", "83.33%", "(10/12)", "75.00%", "(6/8)", "100.00%", "(5/5)", "84.00%", "(21/25)", "Quivr", "66.67%", "(8/12)", "50.00%", "(4/8)", "60.00%", "(3/5)", "60.00%", "(15/25)", "Application", "PDF", "Markdown", "HTML", "Total"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 628.8,
+    "y2": 666.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table6-1.png"
+}, {
+  "caption": "Figure 7: Illustrative example of real-world content poisoning on tutorial of Ollama. A trigger sequence is injected in the HTML, which is imperceptible in the rendered web page, but causes an incorrect response from Quivr.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6366882324219,
+    "y1": 273.6803283691406,
+    "y2": 312.18701171875
+  },
+  "figType": "Figure",
+  "imageText": ["Malicious", "Response", "Invisible", "Injection", "R", "ender", "LLM-Powered", "Application", "Web", "Page", "HTML", "Injected", "Trigger", "Sequence", "Process"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 73.44,
+    "x2": 272.15999999999997,
+    "y1": 84.0,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Figure7-1.png"
+}, {
+  "caption": "Table 1: Invisible injection features in document parsers.",
+  "captionBoundary": {
+    "x1": 322.8919982910156,
+    "x2": 552.9595336914062,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["curl", "https://ollama.ai/install", "|", "sh", "```", "Code", "Tag", "```bash", "{{inject}}", "Markdown", "Transparent", "Text", "<span", "style=“color:", "rgba(0,", "0,", "0,", "0);”>{{inject}}</span>.", "Onload", "Hide", "Utilize", "javascript", "[2]", "to", "hide", "text", "when", "document", "is", "loaded.", "Overlaid", "Text", "Overlap", "the", "injected", "text", "with", "other", "elements,", "like", "images.", "PDF", "Zero", "Opacity", "Add", "text", "with", "zero", "opacity.", "Onload", "Deleting", "<div", "id=“id”>{{inject}}</div>", "document.getElementById(’id’).remove();", "Overlaid", "Tags", "<img", "src=", "“...”", ">", "<div", "style=\"margin-top:", "-40px;\">{{inject}}</div>", "HTML", "Hidden", "Tags", "<div", "hidden=“hidden”>{{inject}}</div>", "Formats", "Features", "Details"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 547.1999999999999,
+    "y1": 105.6,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695001-Table1-1.png"
+}]

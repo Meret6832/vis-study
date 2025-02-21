@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 1: Comparison of Vulnerability Detection and Average Analysis Time (seconds) Per Entrypoint (EP)",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 558.1922607421875,
+    "y1": 335.36834716796875,
+    "y2": 351.9580078125
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "#EP", "SE", "SE-ECH", "HBFA", "STASE", "#Vul", "Time", "#Vul", "Time", "#Vul", "Time", "#Vul", "Time", "EDK", "II", "SMM", "21", "0", "3600", "0", "3600", "1", "3600", "13", "24", "EDK", "II", "Network", "5", "0", "3600", "0", "3600", "0", "3600", "5", "47", "HARDEN", "Demo1", "27", "0", "3600", "0", "3600", "1", "3600", "30", "20", "HARDEN", "Demo2", "32", "0", "3600", "2", "3600", "0", "3600", "18", "28", "Injected", "EDK", "II", "21", "0", "3600", "2", "3600", "1", "3600", "45", "27", "Total", "106", "0", "4", "3", "111"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 571.1999999999999,
+    "y1": 248.64,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695543-Table1-1.png"
+}, {
+  "caption": "Figure 2: False Positive Reduction by STASE",
+  "captionBoundary": {
+    "x1": 349.3340148925781,
+    "x2": 526.8158569335938,
+    "y1": 226.55136108398438,
+    "y2": 232.1820068359375
+  },
+  "figType": "Figure",
+  "imageText": ["False", "Positives", "Confirmed", "RbSA", "RbSA-AcTT", "STASE", "1000", "750", "500", "250", "0", "ou", "nt", "y", "C", "bi", "lit", "ne", "ra", "V", "ul", "Detection", "Technique", "111", "351", "932"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 545.28,
+    "y1": 92.16,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695543-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Paths Explored per Entry Point",
+  "captionBoundary": {
+    "x1": 355.8440246582031,
+    "x2": 520.3073120117188,
+    "y1": 503.8843688964844,
+    "y2": 509.5150146484375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "SE-ECH", "(b)", "STASE"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 539.04,
+    "y1": 368.64,
+    "y2": 495.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695543-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Comparison ofAnalysis Time across the Techniques",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 357.3043518066406,
+    "y2": 362.93499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["RbSA", "RbSA-AcTT", "STASE", "SE", "SE-ECH", "HBFA", "1000", "100", "10", "1", "in", "t)", "ry", "po", "/e", "nt", "(s", "ec", "m", "e", "s", "Ti", "ly", "si", "A", "na", "ra", "ge", "A", "ve", "Detection", "Technique"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 68.16,
+    "x2": 281.28,
+    "y1": 221.28,
+    "y2": 348.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695543-Figure5-1.png"
+}, {
+  "caption": "Table 2: Comparison of False Positives (FP) among RbSA, RbSA-AcTT, and STASE",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.1304626464844,
+    "y1": 178.77737426757812,
+    "y2": 195.36700439453125
+  },
+  "figType": "Table",
+  "imageText": ["Vulnerability", "RbSA", "RbSA-AcTT", "STASE", "#", "Vul.", "FP", "%", "#", "Vul.", "FP", "%", "#", "Vul.", "FP", "%", "SMRAM", "READ", "261", "92.34%", "115", "82.61%", "20", "0.00%", "SMRAMWRITE", "501", "88.02%", "145", "58.62%", "60", "0.00%", "SMM", "Callout", "2", "0.00%", "2", "0.00%", "2", "0.00%", "Buffer", "Overflow", "55", "70.91%", "33", "51.52%", "16", "0.00%", "Integer", "Overflow", "14", "85.71%", "9", "77.78%", "2", "0.00%", "Integer", "Underflow", "44", "84.09%", "34", "79.41%", "7", "0.00%", "Out-of-bound", "Access", "33", "93.94%", "10", "80.00%", "2", "0.00%", "Use", "After", "Free", "2", "50.00%", "1", "0.00%", "1", "0.00%", "Division", "by", "Zero", "20", "95.00%", "2", "50.00%", "1", "0.00%"],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 306.24,
+    "y1": 82.56,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695543-Table2-1.png"
+}, {
+  "caption": "Figure 1: STASE Technique",
+  "captionBoundary": {
+    "x1": 251.6060028076172,
+    "x2": 360.3904113769531,
+    "y1": 158.01034545898438,
+    "y2": 163.6409912109375
+  },
+  "figType": "Figure",
+  "imageText": ["Rule-based", "Static", "Analysis", "Guided", "Symbolic", "Execution", "Vulnerability", "Rules", "Stubs", "Vulnerability", "Signatures", "Harnesses", "Vulnerability", "Signature", "Generator", "Harness", "Generator", "Vulnerability", "Descriptions", "Static", "Vulnerability", "Detector", "Source", "Code", "in", "LLVM", "IR"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 513.12,
+    "y1": 87.84,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695543-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Constraint Solving Queries per Entry Point",
+  "captionBoundary": {
+    "x1": 67.6520004272461,
+    "x2": 280.1820373535156,
+    "y1": 210.47836303710938,
+    "y2": 216.1090087890625
+  },
+  "figType": "Figure",
+  "imageText": ["SE-ECH", "STASE", "#", "Queries", "#", "Constructs", "per", "Query", "1000", "100", "10", "1"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 79.2,
+    "x2": 269.28,
+    "y1": 90.72,
+    "y2": 202.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695543-Figure4-1.png"
+}]

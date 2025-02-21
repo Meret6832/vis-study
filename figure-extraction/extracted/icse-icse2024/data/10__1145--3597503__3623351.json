@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 2: Hyperparameters tuning results",
+  "captionBoundary": {
+    "x1": 91.69999694824219,
+    "x2": 255.84046936035156,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Constant", "(C-LR)", "18.06%", "27.40%", "21.55%", "32.91%", "Inverse", "Square", "Root", "(ISQ-LR)", "18.36%", "28.17%", "21.84%", "34.62%", "Slanted", "Triangular", "(ST-LR)", "16.50%", "25.90%", "18.88%", "32.11%", "Polynomial", "Decay", "(PD-LR)", "18.28%", "27.33%", "21.40%", "33.36%", "Raw", "Abstracted", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "YAML+English", "Pre-training", "Constant", "(C-LR)", "18.35%", "27.18%", "22.25%", "34.02%", "Inverse", "Square", "Root", "(ISQ-LR)", "18.36%", "27.10%", "21.70%", "33.91%", "Slanted", "Triangular", "(ST-LR)", "17.67%", "26.61%", "21.70%", "33.25%", "Polynomial", "Decay", "(PD-LR)", "18.46%", "27.47%", "22.30%", "34.12%", "Raw", "Abstracted", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "English", "Pre-training", "[44]", "Constant", "(C-LR)", "16.26%", "25.92%", "19.05%", "32.35%", "Inverse", "Square", "Root", "(ISQ-LR)", "15.77%", "25.47%", "18.93%", "31.22%", "Slanted", "Triangular", "(ST-LR)", "14.26%", "24.73%", "18.05%", "30.96%", "Polynomial", "Decay", "(PD-LR)", "16.15%", "26.01%", "19.24%", "32.81%", "Raw", "Abstracted", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "YAML", "Pre-training", "Constant", "(C-LR)", "11.06%", "19.24%", "13.27%", "26.73%", "Inverse", "Square", "Root", "(ISQ-LR)", "12.38%", "21.13%", "14.21%", "27.86%", "Slanted", "Triangular", "(ST-LR)", "10.13%", "20.95%", "12.81%", "26.65%", "Polynomial", "Decay", "(PD-LR)", "10.86%", "19.01%", "13.78%", "25.57%", "Raw", "Abstracted", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "No", "Pre-training"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 283.2,
+    "y1": 96.47999999999999,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Table2-1.png"
+}, {
+  "caption": "Figure 1: GitHub workflow example",
+  "captionBoundary": {
+    "x1": 365.2489929199219,
+    "x2": 510.901611328125,
+    "y1": 391.5463562011719,
+    "y2": 397.177001953125
+  },
+  "figType": "Figure",
+  "imageText": ["YAML", "Representation", "{", "\"name\":", "\"CBuild\",", "\"on\":", "{", "\"push\":", "{", "\"branches\":", "[", "\"main\"", "]", "},", "\"pull_request\":", "{", "\"branches\":", "[", "\"main\"", "]", "}", "},", "\"jobs\":", "{", "\"build\":", "{", "\"runs-on\":", "\"ubuntu-latest\",", "\"container\":", "{", "\"image\":", "\"gcc\"", "}", "},", "\"steps\":", "[", "{", "\"name\":", "\"checking", "out", "the", "repository\",", "\"uses\":", "\"actions/checkout@v2\"", "}", "…", "}", "}", "JSON-like", "Representation", "Example", "of", "GitHub", "Workﬂow", "jobs:", "build:", "runs-on:", "ubuntu-latest", "container:", "image:", "gcc", "steps:", "-", "name:", "checking", "out", "the", "repository", "uses:", "actions/checkout@v2", "-", "name:", "Running", "makefile", "to", "compile", "the", "program", "run:", "make", "on:", "push:", "branches:", "[", "main", "]", "pull_request:", "branches:", "[", "main", "]", "name:", "CBuild"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 358.56,
+    "x2": 515.04,
+    "y1": 82.56,
+    "y2": 383.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Figure1-1.png"
+}, {
+  "caption": "Table 3: Comparison among different pre-training strategies in terms of correct predictions, BLEU-4 and ROUGE-LCS (fmeasure) computed at corpus level",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7949829101562,
+    "y1": 284.121337890625,
+    "y2": 311.66998291015625
+  },
+  "figType": "Table",
+  "imageText": ["Abstracted", "T5NO−PT", "14.14%", "26.98%", "20.40%", "24.20%", "46.31%", "59.92%", "T5YL", "19.81%", "32.58%", "13.80%", "17.0%", "53.30%", "64.88%", "T5NL", "[7]", "21.28%", "33.84%", "28.40%", "25.90%", "55.30%", "66.51%", "T5NL+YL", "21.36%", "34.23%", "21.80%", "18.40%", "55.37%", "66.54%", "T5NO−PT", "11.23%", "19.74%", "13.70%", "13.80%", "44.0%", "54.75%", "T5YL", "15.85%", "24.51%", "14.50%", "24.10%", "50.09%", "61.20%", "T5NL", "[7]", "17.47%", "26.02%", "23.10%", "29.60%", "51.78%", "63.34%", "T5NL+YL", "17.33%", "26.35%", "16.40%", "27.70%", "51.74%", "63.58%", "Raw", "Dataset", "PT-Strategy", "Correct", "predictions", "BLEU", "4", "ROUGE-LCS", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘", "𝑁𝑆𝑡𝑎𝑠𝑘", "𝐽𝐶𝑡𝑎𝑠𝑘"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 317.76,
+    "y2": 399.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Table3-1.png"
+}, {
+  "caption": "Table 4: Effect of different pre-training strategies on performance: results of McNemar’s test.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6377258300781,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["T5NL", "vs.", "T5NO−PT", "<0.001", "3.78", "T5NL", "vs.", "T5YL", "<0.001", "1.49", "T5NL", "vs.", "T5NL+YL", "0.05", "0.86", "T5NL+YL", "vs", "T5YL", "<0.001", "1.70", "𝐽", "𝐶𝑡𝑎𝑠𝑘", "T5NL", "vs.", "T5NO−PT", "<0.001", "3.98", "T5NL", "vs.", "T5YL", "<0.001", "1.75", "T5NL", "vs.", "T5NL+YL", "0.69", "0.96", "T5NL+YL", "vs", "T5YL", "<0.001", "1.88", "𝑁𝑆𝑡𝑎𝑠𝑘", "Abstracted", "Tokens", "T5NL", "vs.", "T5NO−PT", "<0.001", "3.60", "T5NL", "vs.", "T5YL", "<0.001", "1.59", "T5NL", "vs.", "T5NL+YL", "0.10", "0.88", "T5NL+YL", "vs", "T5YL", "<0.001", "1.74", "𝐽", "𝐶𝑡𝑎𝑠𝑘", "T5NL", "vs.", "T5NO−PT", "<0.001", "4.88", "T5NL", "vs.", "T5YL", "<0.001", "1.95", "T5NL", "vs.", "T5NL+YL", "0.50", "1.05", "T5NL+YL", "vs", "T5YL", "<0.001", "1.96", "𝑁𝑆𝑡𝑎𝑠𝑘", "Raw", "Tokens", "Dataset", "Task", "Comparison", "p-value", "OR"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 116.64,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Table4-1.png"
+}, {
+  "caption": "Table 5: GH-WCOM vs 3-gram model when generating recommendations for the 𝑁𝑆𝑡𝑎𝑠𝑘",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6402587890625,
+    "y1": 411.74237060546875,
+    "y2": 430.29595947265625
+  },
+  "figType": "Table",
+  "imageText": ["Abstracted", "tokens", "GH-WCOM", "vs.", "𝑛-gram", "Correct", "Predictions", "<0.001", "-", "13.76", "BLEU-4", "<0.001", "0.49", "(L)", "-", "ROUGE-LCS", "<0.001", "0.50", "(L)", "-", "Dataset", "Comparison", "Metric", "p-value", "d", "OR", "Raw", "tokens", "GH-WCOM", "vs.", "𝑛-gram", "Correct", "Predictions", "<0.001", "-", "17.69", "BLEU-4", "<0.001", "0.51", "(L)", "-", "ROUGE-LCS", "<0.001", "0.52", "(L)", "-"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 442.56,
+    "y2": 499.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Table5-1.png"
+}, {
+  "caption": "Table 1: Number of instances in the used datasets",
+  "captionBoundary": {
+    "x1": 338.2959899902344,
+    "x2": 537.5562744140625,
+    "y1": 615.0773315429688,
+    "y2": 620.7080078125
+  },
+  "figType": "Table",
+  "imageText": ["Pre-training", "159,645", "-", "-", "Fine-tuning:", "𝑁𝑆𝑡𝑎𝑠𝑘", "108,900", "13,009", "13,630", "Fine-tuning:", "𝐽𝐶𝑡𝑎𝑠𝑘", "108,900", "13,009", "13,630", "Dataset", "train", "eval", "test"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 342.71999999999997,
+    "x2": 531.36,
+    "y1": 626.88,
+    "y2": 681.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Table1-1.png"
+}, {
+  "caption": "Figure 2: Example of Raw and Abstracted Instance.",
+  "captionBoundary": {
+    "x1": 71.00599670410156,
+    "x2": 276.8294677734375,
+    "y1": 312.7353515625,
+    "y2": 318.3659973144531
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 82.56,
+    "y2": 300.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Results achieved by GH-WCOM and the 𝑛-gram model when predicting actions for 𝑁𝑆𝑡𝑎𝑠𝑘",
+  "captionBoundary": {
+    "x1": 104.74700164794922,
+    "x2": 503.9429016113281,
+    "y1": 244.11434936523438,
+    "y2": 251.708984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 542.4,
+    "y1": 82.56,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Correct andwrong predictions by the confidence of GH-WCOM when generating recommendations for 𝑁𝑆𝑡𝑎𝑠𝑘",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0328674316406,
+    "y1": 392.1883544921875,
+    "y2": 410.74200439453125
+  },
+  "figType": "Figure",
+  "imageText": ["Raw", "Tokens", "Abstracted", "Tokens", "%", "correct", "predictions", "in", "the", "conﬁdence", "interval", "%", "wrong", "predictions", "in", "the", "conﬁdence", "interval", "io", "ns", "di", "ct", "f", "p", "re", "ge", "o", "en", "ta", "Pe", "rc", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "Conﬁdence", "1.00.1", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%", "%", "correct", "predictions", "in", "the", "conﬁdence", "interval", "%", "wrong", "predictions", "in", "the", "conﬁdence", "interval", "io", "ns", "di", "ct", "f", "p", "re", "ge", "o", "en", "ta", "Pe", "rc", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "Conﬁdence", "1.00.1", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 271.2,
+    "y2": 378.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Examples of GH-WCOM’s recommended actions extracted from the manual investigation we performed",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0338134765625,
+    "y1": 677.143310546875,
+    "y2": 693.7330322265625
+  },
+  "figType": "Figure",
+  "imageText": ["strategy:", "fail-fast:", "false", "matrix:", "os:", "[ubuntu-latest,", "windows-latest]", "python-version:", "[3.6,", "3.9]", "steps:", "-", "uses:", "actions/checkout@v2", "<TO_BE_PREDICTED>", "name:", "Daily", "Testing", "on:", "schedule:", "#", "Runs", "\"at", "minute", "55", "past", "every", "hours”", "(see", "https://crontab.guru)", "-", "cron:", "'5", "4", "*", "*", "2,4,6'", "jobs:", "build:", "runs-on:", "${{", "matrix.os", "}}", "steps:", "-", "uses:", "actions/checkout@v2", "…", "<TO_BE_PREDICTED>", "on:", "push:", "branches:", "-", "\"master\"", "pull_request:", "jobs:", "unit-tests:", "name:", "Unit", "Tests", "on", "Node", "${{", "matrix.node", "}}", "runs-on:", "ubuntu-latest", "strategy:", "matrix:", "node:", "[16,", "18]", "1", "2", "name:", "Unit", "Test", "PREDICTION", "TARGET", "INPUT", "-", "uses:", "actions/cache@v3", "id:", "yarn-cache", "with:", "path:", "${{", "steps.yarn-cache-dir-path.outputs.dir", "}}", "key:", "${{", "runner.os", "}}-yarn-${{", "hashFiles('**/yarn.lock')", "}}", "restore-keys:", "|", "${{", "runner.os", "}}-yarn-", "-", "uses:", "actions/cache@v2", "id:", "yarn-cache", "with:", "path:", "${{", "steps.yarn-cache-dir-path.outputs.dir", "}}", "key:", "${{", "runner.os", "}}-yarn-${{", "hashFiles('**/yarn.lock')", "}}", "restore-keys:", "|", "${{", "runner.os", "}}-yarn-", "PREDICTION", "TARGET", "INPUT", "-", "name:", "Set", "up", "Python", "${{", "matrix.python-version", "}}", "uses:", "actions/setup-python@v2", "with:", "python-version:", "${{", "matrix.python-version", "}}", "-", "name:", "Python", "${{", "matrix.python-version", "}}", "uses:", "actions/setup-python@v2", "with:", "python-version:", "${{", "matrix.python-version", "}}", "Example", "of", "Recommended", "Actions", "by", "GHAR"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 499.68,
+    "y2": 669.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Figure6-1.png"
+}, {
+  "caption": "Figure 3: Example of instance for fine-tuning the T5 model on both tasks, namely 𝑁𝑆𝑡𝑎𝑠𝑘 and 𝐽𝐶𝑡𝑎𝑠𝑘",
+  "captionBoundary": {
+    "x1": 102.572998046875,
+    "x2": 506.1169738769531,
+    "y1": 261.1033630371094,
+    "y2": 268.697998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Workﬂow", "—", "Job", "Completion", "Task", "Workﬂow", "—", "Next", "Statement", "Task", "3", "…", "jobs:", "size:", "runs-on:", "ubuntu-latest", "env:", "CI_JOB_NUMBER:", "1", "steps:", "-", "<TO_BE_PREDICTED>", "1", "2", "-", "name:", "Yarn", "install", "<FOR-LATER-USE>", "…", "jobs:", "size:", "runs-on:", "ubuntu-latest", "env:", "CI_JOB_NUMBER:", "1", "steps:", "-", "name:", "Cache", "node_modules", "<TO_BE_PREDICTED>", "Workﬂow", "Raw", "Tokens", "@Original", "jobs:", "size:", "runs-on:", "ubuntu-latest", "env:", "CI_JOB_NUMBER:", "1", "steps:", "-", "name:", "Cache", "node_modules", "uses:", "actions/cache@v1", "id:", "yarn-cache-node-modules", "with:", "path:", "node_modules", "key:", "${{", "runner.os", "}}-yarn-cache-node-modules-$", "{{", "hashFiles('**/yarn.lock')", "}}", "-", "name:", "Yarn", "install", "if:", "steps.yarn-cache-node-modules.outputs.cache-hit", "!=", "'true'", "run:", "yarn", "install", "--frozen-lockfile", "name:", "Bundle", "Size", "on:", "pull_request:", "branches:", "-", "master"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 521.28,
+    "y1": 82.56,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623351-Figure3-1.png"
+}]

@@ -1,0 +1,361 @@
+[{
+  "caption": "Fig. 3. An end-to-end running example of a DPC on non-rese able device identifiers (Android 10) to show the steps of DopCheck",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.49212646484375,
+    "y1": 336.4385070800781,
+    "y2": 351.79998779296875
+  },
+  "figType": "Figure",
+  "imageText": ["Required", "Metadata:", "API", "Optional", "Metadata:", "permission,", "exception", "DPC", "Categorization", "SecurityException", "READ_PRIVILEGED_PHONE_STATE", "Testing", "Test", "Case", "APKs", "……", "getSerial()", "testing", "units", "READ_PRIVILEGED_PHONE_STATE,", "SecurityException", "Permission-API-Exception", "Payload", "Token:", "getSerial()", "…", "Validation", "Token:", "Subsumptive", "Relationship", "•", "If", "your", "app", "targets", "Android", "10", "or", "higher,", "a", "SecurityException", "occurs.", "If", "your", "app", "doesn't", "have", "the", "permission", "and", "you", "try", "asking", "for", "information", "about", "non-resettable", "identifiers", "anyway,", "the", "platform's", "response", "varies", "based", "on", "target", "SDK", "version:", "getImei()", "getDeviceId()", "getMeid()", "getSimSerialNumber()", "TelephonyManager", "getSerial()", "Starting", "in", "Android", "10,", "apps", "must", "have", "the", "READ_PRIVILEGED_PHONE_STATE", "privileged", "permission", "in", "order", "to", "access", "the", "device's", "non-resettable", "identifiers,", "which", "include", "both", "IMEI", "and", "serial", "number.", "Affected", "methods", "include", "the", "following:", "Build", "Restriction", "on", "non-resettable", "device", "identifiers", "Privacy", "Changes", "in", "Android", "Version:", "Android", "10", "Permission:", "READ_PRIVILEGED_PHONE_STATE", "API:", "getSerial(),", "getImei(),", "getDeviceId(),", "getMeid(),", "getSimSerialNumber()", "Exception:", "SecurityException", "DPC", "Entities"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 430.08,
+    "y1": 84.96,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure3-1.png"
+}, {
+  "caption": "Table 4. Examples of Constructing LLM prompts with payload tokens and validation tokens",
+  "captionBoundary": {
+    "x1": 72.02890014648438,
+    "x2": 413.7293701171875,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Subsumptive", "Relationships", "Subsumptive", "Relationship:", "API-Permission", "(Unconditional)", "Payload", "Token:", "To", "read", "number", "from", "on", "CallStateChanged().", "Validation", "Token:", "You", "need", "the", "READ_CALL_LOG", "permission", "only.", "Learning", "Input", "Output", "OpenAI", "GPT4", "permission", "only.\"", "onCallStateChanged(),", "you", "need", "the", "READ_CALL_LOG", "DPC", "\"...To", "read", "number", "from", "Message", "Assistant:", "The", "attach()", "test", "cases.", "Message", "System:", "You", "are", "a", "senior", "Android", "development", "engineer.", "User:", "Give", "me", "two", "examples", "of", "call", "to", "attach(),", "one", "has", "NEARBY_WIFI_DEVICES,", "the", "other", "does", "not", "have.", "Android", "10,", "11,", "12,", "13", "Privacy", "Changes", "Subsumptive", "Relationship", "In-context", "Learning", "Assistant:", "Manually", "write", "the", "CallStateChanged()", "test", "cases.", "User:", "Give", "me", "two", "examples", "of", "call", "to", "CallStateChanged(),", "one", "has", "READ_CALL_LOG,", "the", "other", "does", "not", "have.", "Message", "System:", "You", "are", "a", "senior", "Android", "development", "engineer.", "Entities", "Version:", "Android", "9", "API:", "onCallStateChanged()", "Permission:", "READ_CALL_LOG", "Android", "8,", "9", "Privacy", "Changes", "Payload", "Token", "LLM", "User", "Prompt", "Conditional", "ClauseWrite", "an", "easy", "Android", "app", "targeting", "[version],", "requiring", "[Conditional", "Clause].", "Give", "me", "an", "easy", "Android", "app", "example", "of", "[Conditional", "Clause],", "which", "targeting", "[version]", "Provide", "a", "simple", "Android", "app", "illustration", "for", "[Conditional", "Clause],", "designed", "for", "[version].", "Present", "a", "beginner-friendly", "Android", "app", "instance", "demonstrates", "[Conditional", "Clause]", "and", "targeting", "[version].", "API", "Write", "an", "example", "of", "invoking", "[API", "],", "targeting", "[version].", "Provide", "an", "instance", "of", "invoking", "[API", "]", "for", "[version].", "Demonstrate", "how", "to", "use", "[API", "]", "for", "[version].", "Show", "how", "to", "make", "a", "call", "to", "[API]", "with", "a", "target", "of", "[version].", "API,", "Permission", "Write", "two", "examples", "of", "calls", "to", "[API", "],", "one", "with", "[Permission]", "and", "the", "other", "without.", "Create", "two", "scenario", "of", "calls", "to", "[API", "],", "one", "with", "[Permission]", "and", "the", "other", "without.", "DPC", "Context", "Provide", "an", "example", "of", "[DPC", "Context]."],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 106.56,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Table4-1.png"
+}, {
+  "caption": "Fig. 6. An example of test case generation with in-context learning",
+  "captionBoundary": {
+    "x1": 119.91899871826172,
+    "x2": 366.0821533203125,
+    "y1": 392.3194885253906,
+    "y2": 396.72198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["•", "User:", "The", "user’s", "role", "is", "to", "pose", "questions,", "request", "information,", "provide", "input,", "or", "instruct", "the", "model", "to", "perform", "speci", "c", "tasks.", "The", "user’s", "input", "can", "be", "in", "the", "form", "of", "questions,", "commands,", "statements,", "or", "any", "information", "that", "requires", "a", "response", "from", "the", "model.", "•", "Assistant:", "The", "assistant", "can", "see", "expectations", "for", "the", "model’s", "responses.", "By", "con", "guring", "the", "assistant,", "we", "convey", "to", "the", "model", "the", "desired", "outcome", "we", "are", "aiming", "for,", "allowing", "us", "to", "generate", "test", "cases", "that", "align", "with", "our", "expectations."],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 441.59999999999997,
+    "y1": 436.8,
+    "y2": 505.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure6-1.png"
+}, {
+  "caption": "Table 7. Test case generation results",
+  "captionBoundary": {
+    "x1": 176.0659942626953,
+    "x2": 309.9432067871094,
+    "y1": 202.88650512695312,
+    "y2": 207.28900146484375
+  },
+  "figType": "Table",
+  "imageText": ["API", "Static", "Method", "2", "2", "0", "0", "100.00%", "26.91", "Abstract", "Method", "6", "6", "0", "0", "100.00%", "25.37", "Single", "Instance", "Method", "35", "30", "4", "1", "85.71%", "28.97", "Multi-Instance", "Method", "36", "27", "5", "4", "75.00%", "32.36", "Permission", "Dangerous", "Permission", "27", "23", "3", "1", "85.19%", "23.43", "Signature", "Permission", "6", "4", "1", "1", "66.67%", "22.38", "Normal", "Permission", "2", "2", "0", "0", "100.00%", "21.91", "UI", "–", "12", "10", "2", "0", "83.33%", "18.71", "Attribute", "–", "6", "3", "2", "1", "50.00%", "20.03", "Total", "132", "107", "17", "8", "82.88%", "24.45", "Cases", "Non-executable", "Test", "Cases", "O", "-target", "Test", "Cases", "Success", "Rate", "Time", "Cost", "(s)", "Executable", "Valid", "Test", "Generated", "Test", "Cases", "DPC", "Category", "Subcategory", "(if", "any)"],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 221.76,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Table7-1.png"
+}, {
+  "caption": "Table 6. List of six miscellaneous DPCs",
+  "captionBoundary": {
+    "x1": 169.32809448242188,
+    "x2": 316.4307861328125,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Android", "Version", "DPC", "Title", "Reason", "Android", "10", "Removal", "of", "contacts", "a", "nity", "User", "preferences", "and", "behavior", "MAC", "address", "randomization", "Enterprise", "use", "case", "Restrictions", "on", "starting", "activities", "from", "the", "background", "System-level", "changes", "Android", "11", "Permissions", "auto-reset", "Time", "dimension", "Android", "12", "Motion", "sensors", "are", "rate-limited", "User", "preferences", "and", "behavior", "App", "hibernation", "Time", "dimension"],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 431.03999999999996,
+    "y1": 103.67999999999999,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Table6-1.png"
+}, {
+  "caption": "Fig. 10. Distribution of DPC categories for each Android version",
+  "captionBoundary": {
+    "x1": 124.49600219726562,
+    "x2": 361.50494384765625,
+    "y1": 211.55850219726562,
+    "y2": 215.96099853515625
+  },
+  "figType": "Figure",
+  "imageText": ["Android", "10", "Android", "11", "Android", "12", "Android", "13"],
+  "name": "10",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure10-1.png"
+}, {
+  "caption": "Fig. 11. Change in Android documentation before and a er our reporting",
+  "captionBoundary": {
+    "x1": 107.39299774169922,
+    "x2": 378.60833740234375,
+    "y1": 214.98849487304688,
+    "y2": 219.3909912109375
+  },
+  "figType": "Figure",
+  "imageText": ["Updated", "Documentation", "of", "Android", "13", "as", "of", "June", "2023", "(After", "our", "reporting", "to", "Google)", "Original", "Documentation", "of", "Android", "13", "(Prior", "to", "our", "reporting", "to", "Google)"],
+  "name": "11",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 88.32,
+    "x2": 397.44,
+    "y1": 85.92,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure11-1.png"
+}, {
+  "caption": "Fig. 8. Dynamically requesting a dangerous permission",
+  "captionBoundary": {
+    "x1": 49.980899810791016,
+    "x2": 164.33822631835938,
+    "y1": 218.73348999023438,
+    "y2": 234.094970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 134.4,
+    "y1": 87.84,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. An example of the GUI DPC – “Hide Sensitive Content From Clipboard in Android 13”. Clipboard contents labeled as sensitive (le ) and non-sensitive (right) are shown, respectively.",
+  "captionBoundary": {
+    "x1": 177.20799255371094,
+    "x2": 434.0693359375,
+    "y1": 215.33248901367188,
+    "y2": 241.65301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Start", "start", "the", "testing.", "automatically", "launched.", "Press", "the", "button", "below", "to", "If", "the", "testing", "is", "not", "Android", "OS.", "changes", "(DPCs)", "issues", "for", "documented", "privacy", "Your", "one-solution", "to", "scan", "DOPCHECK", "Start", "start", "the", "testing.", "automatically", "launched.", "Press", "the", "button", "below", "to", "If", "the", "testing", "is", "not", "Android", "OS.", "changes", "(DPCs)", "issues", "for", "documented", "privacy", "Your", "one-solution", "to", "scan", "DOPCHECK"],
+  "name": "9",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 187.68,
+    "x2": 432.47999999999996,
+    "y1": 85.92,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure9-1.png"
+}, {
+  "caption": "Fig. 4. An example indicating that multiple adjacent permission entities do not formulate a valid relationship",
+  "captionBoundary": {
+    "x1": 262.7179870605469,
+    "x2": 441.65771484375,
+    "y1": 494.3974914550781,
+    "y2": 520.718017578125
+  },
+  "figType": "Figure",
+  "imageText": ["Unlike", "the", "ACCESS_FINE_LOCATION", "and", "ACCESS_COARSE_LOCATION", "permissions,", "the", "ACCESS_BACKGROUND_LOCATION", "permission", "only", "affects", "an", "app's", "access", "to", "location", "when", "it", "runs", "in", "the", "background.", "If", "your", "app", "creates", "and", "monitors", "geofences", "and", "targets", "Android", "10", "or", "higher,", "you", "must", "declare", "the", "ACCESS_BACKGROUND_LOCATION", "permission.", "Access", "to", "device", "location", "in", "the", "background", "requires", "permission"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 264.96,
+    "x2": 439.2,
+    "y1": 412.8,
+    "y2": 476.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure4-1.png"
+}, {
+  "caption": "Table 2. The performance of DopCheck and LLM in extracting entities from DPCs",
+  "captionBoundary": {
+    "x1": 91.11009979248047,
+    "x2": 394.649169921875,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Groundtruth", "17", "38", "19", "11", "85", ")%", "%", "#", ")%", "%", "#", ")%", "%", "#", ")%", "%", "#", "%A428B8>=", "'420;;", "LLM", "15", "1", "2", "36", "3", "2", "17", "4", "2", "9", "1", "2", "89.53%", "90.59%", "DopCheck", "16", "0", "1", "37", "0", "1", "19", "1", "0", "10", "1", "1", "97.62%", "96.47%", "Aggregate", "Subject", "Property", "Result", "Overall"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 106.56,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Table2-1.png"
+}, {
+  "caption": "Fig. 1. An example of the DPC issue. Android 10’s documentation states that the API getServiceState() requires a particular permission (le ), whereas an app that does not request the permission can still invoke it without throwing any exception (right).",
+  "captionBoundary": {
+    "x1": 45.50510025024414,
+    "x2": 441.02276611328125,
+    "y1": 210.530517578125,
+    "y2": 236.85101318359375
+  },
+  "figType": "Figure",
+  "imageText": ["Logcat:", "getServiceState()", "can", "still", "be", "invoked", "without", "permission!", "TargetApi", "=", "29", "A", "DPC", "in", "Android", "10", "Some", "telephony,", "Bluetooth,", "Wi-Fi", "APIs", "require", "FINE", "location", "permission.", "•", "getServiceState()", "•", "...", "If", "your", "app", "targets", "Android", "10", "or", "higher,", "apps", "must", "have", "the", "ACCESS_FINE_LOCATION", "permission", "in", "order", "to", "use", "several", "methods", "within", "the", "Wi-Fi,", "Wi-Fi", "Aware,", "or", "Bluetooth", "APIs.", "The", "following", "sections", "list", "the", "affected", "classes", "and", "methods:", "}", "Log.e(It", "throws", "an", "Exception!)", "}", "catch", "(Exception", "e)", "{", "TelephonyManager.getServiceState();", "Log.e(getServiceState()", "can", "still", "be", "invoked", "without", "permission!)", "try", "{", "}", "!=", "PackageManager.PERMISSION_GRANTED)", "{", "if", "(ContextCompat.checkSelfPermission(this,", "ACCESS_FINE_LOCATION)", "An", "App", "Triggering", "a", "DPC", "Issue"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 435.35999999999996,
+    "y1": 88.8,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure1-1.png"
+}, {
+  "caption": "Table 8. Inconsistency between DPCs and actual Android OS behavior",
+  "captionBoundary": {
+    "x1": 111.625,
+    "x2": 374.1344299316406,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["attach()", "NEARBY_WIFI_DEVICES", "13", "New", "publish()", "NEARBY_WIFI_DEVICES", "13", "New", "subscribe()", "NEARBY_WIFI_DEVICES", "13", "New", "addLocalService()", "NEARBY_WIFI_DEVICES", "13", "New", "connect()", "NEARBY_WIFI_DEVICES", "13", "New", "createGroup()", "NEARBY_WIFI_DEVICES", "13", "New", "discoverPeers()", "NEARBY_WIFI_DEVICES", "13", "New", "requestDeviceInfo()", "NEARBY_WIFI_DEVICES", "13", "New", "requestGroupInfo()", "NEARBY_WIFI_DEVICES", "13", "New", "discoverServices()", "NEARBY_WIFI_DEVICES", "13", "New", "requestPeers()", "NEARBY_WIFI_DEVICES", "13", "New", "startScan()[W]", "ACCESS_FINE_LOCATION", "13", "New", "New", "runtime", "permission", "for", "nearby", "Wi-Fi", "devices", "getAvailableNetworks()", "-", "10", "New", "startScan()[W]", "ACCESS_FINE_LOCATION", "10", "New", "startScan()[B]", "ACCESS_FINE_LOCATION", "10", "New", "startDiscovery()", "ACCESS_FINE_LOCATION", "10", "New", "startLeScan()", "ACCESS_FINE_LOCATION", "10", "New", "getServiceState()", "ACCESS_FINE_LOCATION", "10", "New", "Some", "telephony,", "Bluetooth,", "Wi-Fi", "APIs", "require", "FINE", "location", "permission", "DPC", "Title", "API", "Permission", "Version", "Status", "Restriction", "on", "non-resettable", "device", "identi", "ers", "geticcid()", "READ_PRIVILEGED_PHONE_STATE", "10", "Replicate"],
+  "name": "8",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 106.56,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Table8-1.png"
+}, {
+  "caption": "Table 5. Four categories of DPCs to facilitate assertion construction",
+  "captionBoundary": {
+    "x1": 116.59690856933594,
+    "x2": 369.16229248046875,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["1", "Required", "Entities:", "Entities", "that", "must", "be", "included", "to", "be", "classi", "ed", "into", "this", "category.", "2", "Optional", "Entities:", "Entities", "that", "may", "be", "included", "to", "be", "classi", "ed", "into", "this", "category.", "API", "changes", "API", "permission,", "attribute,", "exception,", "return,", "e", "ect", "Return", "value", "validation", "Permission", "changes", "permission", "API,", "attribute,", "exception,", "return", "GUI/Prompt", "validation", "GUI", "changes", "gure", "API,", "exception,", "return", "GUI", "validation", "Attribute", "changes", "attribute", "API", "permission,", ",", "exception,", "return", "Property", "testing", "Required", "Entities1", "Optional", "Entities2", "DPC", "Category", "Entity", "Criteria", "Testing", "Mode"],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 436.32,
+    "y1": 106.56,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Table5-1.png"
+}, {
+  "caption": "Fig. 7. A test case of attach() generated by GPT-4",
+  "captionBoundary": {
+    "x1": 149.17300415039062,
+    "x2": 336.8269958496094,
+    "y1": 409.7334899902344,
+    "y2": 414.135986328125
+  },
+  "figType": "Figure",
+  "imageText": ["}", "}", "}", "“No", "SecurityException", "thrown”;", "String", "es", "=", "e.getClass().toString();", "assert", "es.equals(“class", "java.lang.SecurityException”):", "}", "catch", "(Exception", "e){", "},", "null);", "}", "public", "void", "onAttachFailed()", "{}", "wifiAwareSession", "=", "session;", "public", "void", "onAttached(WifiAwareSession", "session)", "{", "WifiAwareManager", "mWifiAwareManager", "=", "(WifiAwareManager);", "this.getSystemService(Context.WIFI_AWARE_SERVICE);", "WifiAwareManager.attach(new", "AttachCallback()", "{", "try", "{", "PackageManager.PERMISSION_GRANTED)", "{", "super.onCreate(savedInstanceState);", "setContentView(R.layout.activity_main)", "String", "permission", "=", "Manifest.permission.NEARBY_WIFI_DEVICES;", "if", "(ContextCompat.checkSelfPermission(this,", "permission)", "!=", "protected", "void", "onCreate(Bundle", "savedInstanceState)", "{", "APK", "Testing", "(Section", "4.3)", "(Section", "4.1)", "generated", "by", "GPT-4", "Test", "case", "for", "attach()", "Initialize", "the", "APK"],
+  "name": "7",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 413.28,
+    "y1": 208.79999999999998,
+    "y2": 394.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure7-1.png"
+}, {
+  "caption": "Fig. 5. An example of the API–return subsumptive relationship",
+  "captionBoundary": {
+    "x1": 127.86699676513672,
+    "x2": 358.1327819824219,
+    "y1": 531.053466796875,
+    "y2": 535.4559936523438
+  },
+  "figType": "Figure",
+  "imageText": ["Falsereturn", "removeNetwork()", "reassociate()", "enableNetwork()", "disableNetwork()", "reconnect()", "disconnect()", "Target", "Version:", "Android", "10", "or", "higher", "reconnect(),", "and", "disconnect()----", "always", "return", "false.", "removeNetwork(),", "reassociate(),", "enableNetwork(),", "disableNetwork(),", "Each", "network", "operation", "that", "returns", "a", "boolean", "value", "If", "your", "app", "targets", "Android", "10", "or", "higher,", "then", "the", "following", "methods", "don't", "return", "useful", "data:"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 440.15999999999997,
+    "y1": 432.0,
+    "y2": 518.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure5-1.png"
+}, {
+  "caption": "Table 3. A list of subsumptive relationships",
+  "captionBoundary": {
+    "x1": 163.03309631347656,
+    "x2": 322.72454833984375,
+    "y1": 90.0434799194336,
+    "y2": 94.44598388671875
+  },
+  "figType": "Table",
+  "imageText": ["Unconditional", "<API", "⌢", "return", "⌢", "Value>", "API", "Value", "Apps", "targeting", "Android", "10", "or", "higher", "cannot", "en-", "able", "or", "disable", "Wi-Fi.", "The", "setWifiEnabled()", "method", "always", "returns", "false.", "Conditional", "Clause,⌢", "API", "⌢", "return", "⌢", "Value>", "API", "Conditional", "Clause", "Value", "If", "your", "app", "targets", "Android", "9", "(API", "level", "28)", "or", "lower,", "getSerial()", "returns", "null.", "API-Return", "Conditional", "<Temporal", "Conjunction", "⌢", "Unconditional", "<To", "⌢", "E", "ect", "⌢", "API", ">", "API", "E", "ect", "To", "determine", "the", "permission", "group", "into", "which", "the", "system", "has", "placed", "a", "platform-de", "ned", "permission,", "call", "getGroupOfPlatformPermission().", "API", "⌢", "Conditional", "Clause,", "⌢", "E", "ect>", "API", "Conditional", "Clause", "E", "ect", "When", "an", "app", "calls", "getPrimaryClip()", "to", "access", "clip", "data", "from", "a", "di", "erent", "app", "for", "the", "rst", "time,", "a", "toast", "message", "noti", "es", "the", "user", "of", "this", "clipboard", "access.", "API-E", "ect", "Conditional", "<Temporal", "Conjunction", "⌢", "Unconditional", "-", "-", "-", "-", "API", "Permission", "Exception", "Refer", "to", "the", "example", "in", "Figure", "3.", "Permission", "⌢", "API", "⌢", "Excep-", "tion>", "API-Permission", "-Exception", "Conditional", "<Temporal", "Conjunction", "⌢", "Unconditional", "<To", "⌢", "API,", "⌢", "Permission>", "API", "Permission", "To", "read", "number", "from", "onCallStateChanged(),", "you", "need", "the", "READ_CALL_LOG", "permission", "only.", "API-Permission", "Conditional", "<Temporal", "Conjunction", "⌢", "Permission", "⌢API>", "API", "Conditional", "Clause", "Permission", "If", "your", "app", "targets", "Android", "13", "or", "higher,", "you", "must", "declare", "the", "NEARBY_WIFI_DEVICES", "per-", "mission", "to", "call", "publish(),", "attach(),", "...", "Unconditional", "-", "-", "-", "-", "Conditional", "Clause", "Permission", "If", "your", "app", "creates", "and", "monitors", "ge-", "ofences", "and", "targets", "Android", "10", "(API", "level", "29)", "or", "higher,", "you", "must", "declare", "the", "ACCESS_BACKGROUND_LOCATION", "permission.", "Permission>", "Subsumptive", "Relationships", "Condition", "Scenario", "Pattern", "Payload", "Tokens1", "Validation", "Tokens2", "Example", "Application", "-Permission", "Conditional", "<Temporal", "Conjunction", "⌢", "Conditional", "Clause,", "must", "⌢"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 437.28,
+    "y1": 108.96,
+    "y2": 411.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Table3-1.png"
+}, {
+  "caption": "Fig. 2. An overview of the workflow of DopCheck",
+  "captionBoundary": {
+    "x1": 151.03199768066406,
+    "x2": 334.9676818847656,
+    "y1": 254.56051635742188,
+    "y2": 258.9630126953125
+  },
+  "figType": "Figure",
+  "imageText": ["Test", "Cases", "APKs", "API,", "Permission,", "Version,", "Attribute,", "...Extracting", "DPCs", "Subsumptive", "Relationships", "API—Permission—Exception,", "API—Return,", "...", "Entities", "Formulating", "Ontology", "Attribute", "Changes", "Testing", "API", "Changes", "Testing", "Permission", "Changes", "Testing", "GUI", "Changes", "Testing", "Assertions", "Subsumptive", "Relationships", "Phase", "1", "DPC", "Ontology", "Construction", "Phase", "2", "DPC", "Issue", "Detection", "DPC", "Issues", "Generating", "Test", "Cases", "Android", "Privacy", "Changes", "Documents"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 439.2,
+    "y1": 84.96,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660826-Figure2-1.png"
+}]

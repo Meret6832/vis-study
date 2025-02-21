@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: The life cycle of a PM program executed before and after power loss (which may strike at any time) and recovery.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0346374511719,
+    "y1": 179.27633666992188,
+    "y2": 195.864990234375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "int", "main()", "{", "2", "...", "3", "if", "(!recovering)", "4", "Initialize_PM();", "5", "else", "{", "6", "ReadFrom_PM();", "7", "...", "8", "WriteTo_PM()", "9", "...", "10", "}"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 285.12,
+    "y1": 84.0,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Figure4-1.png"
+}, {
+  "caption": "Table 4: Comparing the detected violations using properties inferred by our method and an existing method [10].",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0318298339844,
+    "y1": 304.59735107421875,
+    "y2": 321.18701171875
+  },
+  "figType": "Table",
+  "imageText": ["Program", "Version", "Ours", "Existing[10]", "Ours", "Existing[10]", "MPB", "MPA", "MPB", "MPA", "MPB", "MPA", "MPB", "MPA", "cc_slist-bad", "3", "0", "3", "0", "0", "0", "2", "2", "cc_slist-ok", "0", "0", "0", "0", "0", "0", "0", "2", "cc_list-bad", "10", "1", "10", "1", "0", "0", "0", "2", "cc_list-ok", "0", "0", "0", "0", "0", "0", "0", "2", "cc_array-bad", "9", "1", "9", "0", "0", "0", "0", "1", "cc_array-ok", "0", "0", "0", "0", "0", "0", "0", "1", "cc_stack-bad", "1", "0", "1", "0", "0", "0", "0", "0", "cc_stack-ok", "0", "0", "0", "0", "0", "0", "0", "0", "cc_deque-bad", "10", "1", "10", "0", "0", "0", "1", "5", "cc_deque-ok", "0", "0", "0", "0", "0", "0", "0", "3", "cc_queue-bad", "5", "2", "5", "0", "0", "0", "1", "2", "cc_queue-ok", "0", "0", "0", "0", "0", "0", "0", "1", "cc_pqeque-bad", "2", "0", "2", "0", "0", "0", "0", "0", "cc_pqeque-ok", "0", "0", "0", "0", "0", "0", "0", "0", "cc_ringbuf-bad", "3", "0", "3", "0", "0", "0", "0", "1", "cc_ringbuf-ok", "0", "0", "0", "0", "0", "0", "0", "1", "redis", "18", "3", "18", "2", "0", "0", "18", "0", "memcached", "6", "3", "6", "0", "0", "0", "6", "1", "Total", "67", "11", "67", "3", "0", "0", "27", "23", "Real", "Violations", "Bogus", "Violations"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 336.0,
+    "y2": 515.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Table4-1.png"
+}, {
+  "caption": "Table 3: Comparing the properties inferred by our method and the properties inferred by an existing method [10].",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0360412597656,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Program", "Version", "Our", "Method", "(infer)", "Existing[10]", "(infer)", "DURA", "MPB", "MPA", "DURA", "MPB", "MPA", "cc_slist-bad", "20", "9", "0", "20", "81", "2", "cc_slist-ok", "20", "9", "0", "20", "81", "2", "cc_list-bad", "44", "45", "3", "44", "245", "5", "cc_list-ok", "44", "39", "3", "44", "217", "5", "cc_array-bad", "16", "15", "1", "16", "50", "1", "cc_array-ok", "16", "15", "1", "16", "48", "1", "cc_stack-bad", "12", "1", "0", "12", "13", "0", "cc_stack-ok", "12", "1", "0", "12", "12", "0", "cc_deque-bad", "21", "14", "1", "21", "110", "5", "cc_deque-ok", "21", "13", "1", "21", "121", "5", "cc_queue-bad", "15", "10", "2", "15", "37", "2", "cc_queue-ok", "15", "10", "2", "15", "34", "2", "cc_pqeque-bad", "9", "2", "0", "9", "14", "0", "cc_pqeque-ok", "9", "2", "0", "9", "12", "0", "cc_ringbuf-bad", "14", "8", "0", "14", "23", "1", "cc_ringbuf-ok", "14", "8", "0", "14", "23", "1", "redis", "54", "66", "3", "54", "357", "2", "memcached", "30", "13", "1", "30", "177", "1", "Total", "386", "280", "18", "386", "1641", "35"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 116.64,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Table3-1.png"
+}, {
+  "caption": "Figure 1: Discovering persistent memory related program invariants (PM properties) and checking them for violations.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03631591796875,
+    "y1": 212.66134643554688,
+    "y2": 229.2509765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Figure1-1.png"
+}, {
+  "caption": "Table 2: Evaluating our method for inferring properties and checking these properties for violations.",
+  "captionBoundary": {
+    "x1": 101.70600128173828,
+    "x2": 509.981689453125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["cc_slist-bad", "0.1", "20", "9", "0", "0.1", "6", "3", "0", "0.1", "6", "0", "0", "cc_slist-ok", "0.1", "20", "9", "0", "0.1", "0", "0", "0", "0.1", "0", "0", "0", "cc_list-bad", "2.4", "44", "45", "3", "2.5", "5", "10", "1", "2.4", "5", "0", "0", "cc_list-ok", "2.8", "44", "39", "3", "3.0", "0", "0", "0", "2.9", "0", "0", "0", "cc_array-bad", "0.1", "16", "15", "1", "0.1", "3", "9", "1", "0.1", "3", "0", "0", "cc_array-ok", "0.1", "16", "15", "1", "0.1", "0", "0", "0", "0.1", "0", "0", "0", "cc_stack-bad", "0.1", "12", "1", "0", "0.1", "1", "1", "0", "0.1", "1", "0", "0", "cc_stack-ok", "0.1", "12", "1", "0", "0.1", "0", "0", "0", "0.1", "0", "0", "0", "cc_deque-bad", "0.1", "21", "14", "1", "0.1", "10", "10", "1", "0.1", "10", "0", "0", "cc_deque-ok", "0.1", "21", "13", "1", "0.1", "0", "0", "0", "0.1", "0", "0", "0", "cc_queue-bad", "0.1", "15", "10", "2", "0.1", "2", "5", "2", "0.1", "2", "0", "0", "cc_queue-ok", "0.1", "15", "10", "2", "0.1", "0", "0", "0", "0.1", "0", "0", "0", "cc_pqeque-bad", "0.1", "9", "2", "0", "0.1", "9", "2", "0", "0.1", "9", "0", "0", "cc_pqeque-ok", "0.1", "9", "2", "0", "0.1", "0", "0", "0", "0.1", "0", "0", "0", "cc_ring_buf-bad", "0.1", "14", "8", "0", "0.1", "2", "3", "0", "0.1", "2", "0", "0", "cc_ring_buf-ok", "0.1", "14", "8", "0", "0.1", "0", "0", "0", "0.1", "0", "0", "0", "redis", "0.4", "54", "66", "3", "0.4", "13", "18", "3", "0.3", "13", "0", "0", "memcached", "0.4", "30", "13", "1", "0.5", "30", "6", "1", "0.4", "30", "0", "0", "Total", "7.4", "386", "280", "18", "7.8", "79", "67", "9", "7.4", "79", "0", "0", "bugs", "bugs", "bugs", "bugs", "bugs", "bugs", "Our", "Method", "(infer)", "Our", "Method", "(check)", "Existing", "Method", "[25]", "(check)", "Program", "Version", "Time", "(s)", "DURA", "MPB", "MPA", "Time", "(s)", "DURA", "MPB", "MPA", "Time", "(s)", "DURA", "MPB", "MPA"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 105.6,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Table2-1.png"
+}, {
+  "caption": "Figure 2: Inserting a node to a singly-linked list stored in persistent memory (PM). To ensure the correct persistent order shown in subfigure (b), all CLFLUSHOPT and SFENCE statements in subfigure (a) are needed. Otherwise, after power failure (which may strike at any moment), the PM state may be inconsistent as shown by the broken list in the middle of subfigure (c).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1909790039062,
+    "y1": 174.54537963867188,
+    "y2": 202.093994140625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "persistent", "memory", "program", "(b)", "correct", "persistent", "order", "(c)", "incorrect", "persistent", "order"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 551.04,
+    "y1": 141.6,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Figure2-1.png"
+}, {
+  "caption": "Table 1: Statistics of the benchmark programs (Columns 1-3) and execution traces (Columns 4-9).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.5986328125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["redis", "83864", "PM", "Redis", "[17]", "default", "367", "558", "8", "8", "N/A", "memcached", "27331", "PM", "Memcached", "[23]", "default", "230", "1043", "3", "3", "N/A", "ok", "144", "443", "118", "118", "3", "cc_ringbuf", "316", "ring", "buffer", "[30]", "bad", "144", "443", "117", "99", "0", "ok", "70", "367", "117", "63", "0", "cc_pqeque", "618", "priority", "queue", "[30]", "bad", "70", "367", "0", "0", "0", "ok", "124", "271", "68", "20", "24", "cc_queue", "576", "queue", "[30]", "bad", "124", "303", "128", "48", "0", "ok", "181", "471", "57", "26", "57", "cc_deque", "2575", "double", "end", "queue", "[30]", "bad", "181", "565", "201", "104", "0", "ok", "27", "84", "13", "13", "4", "cc_stack", "612", "stack", "[30]", "bad", "27", "84", "24", "8", "0", "ok", "102", "344", "84", "75", "20", "cc_array", "2171", "array", "[30]", "bad", "102", "344", "130", "44", "0", "ok", "1555", "3443", "401", "300", "285", "cc_list", "3208", "doubly", "linked", "list", "[30]", "bad", "1466", "3022", "401", "264", "270", "ok", "166", "258", "102", "90", "26", "cc_slist", "2698", "singly", "linked", "list", "[30]", "bad", "166", "244", "103", "64", "19", "#", "ST", "#", "LD", "#", "FL", "#", "FE", "#", "TR", "Program", "LoC", "Description", "Version"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 116.64,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Table1-1.png"
+}, {
+  "caption": "Figure 3: Inserting a node to a doubly-linked list stored in persistent memory (PM). To ensure the correct persistent order shown in subfigure (b), the TX_BEGIN(), TX_ADD(), and TX_END() statements in subfigure (a) are needed. Otherwise, after power failure (which may strike at any moment), the PM state may be inconsistent.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.3770751953125,
+    "y1": 209.41433715820312,
+    "y2": 236.9630126953125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "PM", "properties", "(a)", "persistent", "memory", "program", "(b)", "correct", "persistent", "order"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 501.59999999999997,
+    "y1": 176.64,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695544-Figure3-1.png"
+}]

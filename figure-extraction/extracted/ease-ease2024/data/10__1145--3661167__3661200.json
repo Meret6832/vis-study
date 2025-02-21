@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 4: Comparison in terms of percentage of Exact Match predictions reported by Fu et al. [19] and by our replication of their approach. The observed difference is due to our cleaning of their dataset which removed “token-by-token” overlapping instances between the training and the test set.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8046264648438,
+    "y1": 586.1870727539062,
+    "y2": 635.6530151367188
+  },
+  "figType": "Table",
+  "imageText": ["-26.66%", "-32.28%", "-34.46%", "-35.10%", "Fu", "et", "al.", "[19]", "30%", "38%", "41%", "42%", "Our", "replication", "3.34%", "5.72%", "6.54%", "6.90%", "Source", "Exact", "Matches", "(%)", "K=1", "K=3", "K=5", "K=10"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 533.28,
+    "y1": 650.4,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661200-Table4-1.png"
+}, {
+  "caption": "Table 3: Comparison among different training strategies for top-1 predictions: McNemar’s and Wilcoxon’s test results.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2296142578125,
+    "y1": 376.1841125488281,
+    "y2": 392.77398681640625
+  },
+  "figType": "Table",
+  "imageText": ["Comparison", "McNemar’s", "Test", "Wilcoxon’s", "Test", "p-value", "OR", "p-value", "d", "M0", "vs.", "M1", "[19]", "0.03", "1.81", "<0.05", "0.235", "(S)", "M1", "[19]", "vs.", "M2", "<0.05", "26.33", "<0.05", "0.140", "(N)", "M1", "[19]", "vs.𝑀3𝑆1", "<0.05", "2.51", "<0.05", "0.199", "(S)", "M1", "[19]", "vs.𝑀3𝑆2", "<0.05", "2.82", "<0.05", "0.198", "(S)", "M1", "[19]", "vs.𝑀3𝑆3", "<0.05", "2.57", "<0.05", "0.186", "(S)", "M1", "[19]", "vs.𝑀3𝑆4", "<0.05", "2.96", "<0.05", "0.232", "(S)", "M1", "[19]", "vs.𝑀3𝑆5", "<0.05", "3.03", "<0.05", "0.203", "(S)", "M1", "[19]", "vs.𝑀3𝐻1", "1.0", "1.63", "1.0", "-0.002", "(N)", "M1", "[19]", "vs.𝑀3𝐻2", "1.0", "1.42", "0.3", "0.018", "(N)", "M1", "[19]", "vs.𝑀3𝐻3", "1.0", "1.55", "1.0", "0.012", "(N)", "M1", "[19]", "vs.𝑀3𝐻4", "0.6", "1.83", "1.0", "0.009", "(N)", "M1", "[19]", "vs.𝑀3𝐻5", "1.0", "1.18", "0.5", "-0.013", "(N)", "𝑀4𝑆1", "vs.", "M2", "<0.05", "1.98", "<0.05", "-0.129", "(N)", "𝑀4𝑆2", "vs.", "M2", "<0.05", "1.81", "<0.05", "-0.114", "(N)", "𝑀4𝑆3", "vs.", "M2", "<0.05", "2.36", "<0.05", "-0.105", "(N)", "𝑀4𝑆4", "vs.", "M2", "<0.05", "2.25", "<0.05", "-0.109", "(N)", "𝑀4𝑆5", "vs.", "M2", "<0.05", "2.09", "<0.05", "-0.101", "(N)", "M2", "vs.𝑀4𝐻1", "0.32", "1.77", "<0.05", "0.024", "(N)", "𝑀4𝐻2", "vs.", "M2", "1.0", "1.05", "0.60", "-0.005", "(N)", "𝑀4𝐻3", "vs.", "M2", "1.0", "1.05", "0.60", "-0.005", "(N)", "𝑀4𝐻4", "vs.", "M2", "1.0", "1.46", "0.60", "-0.0001", "(N)", "𝑀4𝐻5", "vs.", "M2", "1.0", "1.37", "0.60", "-0.003", "(N)"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 274.08,
+    "y1": 408.0,
+    "y2": 633.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661200-Table3-1.png"
+}, {
+  "caption": "Table 2: Exact Match (i.e., the recommended code is equal to the oracle) and CrystalBleu scores achieved by the different techniques when patching vulnerable C functions. In dark-grey boxes we report the highest value for both metrics when producing 𝐾=1, 𝐾=3, 𝐾=5, and 𝐾=10 candidate patches. In boldface the best prompt fine-tuning template within each pretraining strategy.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.8101196289062,
+    "y1": 85.7260971069336,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Model-ID", "Training", "Procedure", "Top-1", "Top-3", "Top-5", "Top-10", "Pre-training", "Fine-tuning", "EM", "CB", "EM", "CB", "EM", "CB", "EM", "CB", "M0", "✗", "Supervised", "2.35%", "31.62%", "3.54%", "32.66%", "4.18%", "32.34%", "4.79%", "31.70%", "M1", "[19]", "Self-supervised", "Supervised", "3.34%", "40.18%", "5.72%", "42.10%", "6.54%", "41.14%", "6.90%", "38.58%", "M2", "Self-supervised", "+", "Supervised", "Supervised", "12.28%", "47.98%", "17.58%", "50.21%", "18.64%", "49.61%", "18.82%", "47.26%", "𝑀3𝑆1", "Self-supervised", "Soft", "prompt-tuning", "5.48%", "50.52%", "7.02%", "51.53%", "7.02%", "51.22%", "7.13%", "50.80%", "𝑀3𝑆2", "Self-supervised", "Soft", "prompt-tuning", "6.43%", "50.96%", "7.43%", "52.53%", "7.55%", "51.92%", "7.70%", "51.37%", "𝑀3𝑆3", "Self-supervised", "Soft", "prompt-tuning", "6.01%", "50.00%", "7.13%", "51.32%", "7.31%", "50.71%", "7.37%", "49.64%", "𝑀3𝑆4", "Self-supervised", "Soft", "prompt-tuning", "6.66%", "52.51%", "7.31%", "53.35%", "7.37%", "52.48%", "7.55%", "51.95%", "𝑀3𝑆5", "Self-supervised", "Soft", "prompt-tuning", "6.78%", "51.35%", "7.37%", "52.11%", "7.43%", "52.04%", "7.37%", "51.50%", "𝑀3𝐻1", "Self-supervised", "Hard", "prompt-tuning", "3.83%", "40.24%", "5.60%", "41.59%", "6.37%", "41.13%", "6.78%", "38.36%", "𝑀3𝐻2", "Self-supervised", "Hard", "prompt-tuning", "3.60%", "40.96%", "5.48%", "41.78%", "6.49%", "41.20%", "6.72%", "38.54%", "𝑀3𝐻3", "Self-supervised", "Hard", "prompt-tuning", "3.71%", "40.75%", "5.36%", "41.71%", "6.25%", "40.81%", "6.54%", "38.54%", "𝑀3𝐻4", "Self-supervised", "Hard", "prompt-tuning", "4.01%", "40.69%", "6.13%", "41.95%", "7.02%", "40.92%", "7.55%", "39.04%", "𝑀3𝐻5", "Self-supervised", "Hard", "prompt-tuning", "3.60%", "39.77%", "5.78%", "42.00%", "6.32%", "41.30%", "7.55%", "39.80%", "𝑀4𝑆1", "Self-supervised", "+", "Supervised", "Soft", "prompt-tuning", "8.96%", "55.28%", "10.67%", "56.13%", "10.97%", "55.87%", "10.91%", "55.12%", "𝑀4𝑆2", "Self-supervised", "+", "Supervised", "Soft", "prompt-tuning", "9.43%", "54.45%", "10.85%", "56.11%", "11.15%", "55.83%", "11.26%", "55.15%", "𝑀4𝑆3", "Self-supervised", "+", "Supervised", "Soft", "prompt-tuning", "8.67%", "53.86%", "11.10%", "55.27%", "11.15%", "54.77%", "11.26%", "53.55%", "𝑀4𝑆4", "Self-supervised", "+", "Supervised", "Soft", "prompt-tuning", "8.90%", "54.13%", "11.03%", "55.56%", "11.56%", "55.89%", "11.62%", "54.34%", "𝑀4𝑆5", "Self-supervised", "+", "Supervised", "Soft", "prompt-tuning", "8.84%", "53.77%", "10.73%", "55.32%", "11.10%", "55.04%", "11.26%", "53.75%", "𝑀4𝐻1", "Self-supervised", "+", "Supervised", "Hard", "prompt-tuning", "13.21%", "49.38%", "18.29%", "51.82%", "19.46%", "50.86%", "20.11%", "48.67%", "𝑀4𝐻2", "Self-supervised", "+", "Supervised", "Hard", "prompt-tuning", "12.33%", "48.26%", "17.34%", "50.31%", "18.70%", "50.23%", "19.29%", "47.77%", "𝑀4𝐻3", "Self-supervised", "+", "Supervised", "Hard", "prompt-tuning", "12.33%", "50.61%", "17.70%", "50.65%", "18.93%", "50.40%", "19.58%", "47.64%", "𝑀4𝐻4", "Self-supervised", "+", "Supervised", "Hard", "prompt-tuning", "11.97%", "48.04%", "17.52%", "51.13%", "18.87%", "50.23%", "19.58%", "48.16%", "𝑀4𝐻5", "Self-supervised", "+", "Supervised", "Hard", "prompt-tuning", "12.03%", "48.15%", "17.46%", "50.81%", "18.05%", "49.48%", "18.76%", "47.17%"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 519.36,
+    "y1": 138.72,
+    "y2": 360.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661200-Table2-1.png"
+}, {
+  "caption": "Table 1: Number of instances included in the dataset used by Fu et al. [19], before and after performing the cleaning",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.4507446289062,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["𝑉𝑢𝑙𝑅𝑒𝑝𝑎𝑖𝑟𝐹𝐶", "4,905", "1,695", "836", "7,436", "𝑉𝑢𝑙𝑅𝑒𝑝𝑎𝑖𝑟𝑊𝐸𝑇", "5,913", "1,695", "836", "8,444", "Dataset", "Train", "Test", "Eval", "Overall", "VulRepair", "[19]", "5,937", "1,706", "839", "8,482"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 351.84,
+    "x2": 520.3199999999999,
+    "y1": 116.64,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661200-Table1-1.png"
+}, {
+  "caption": "Figure 1: Example of vulnerable code vs. buggy code for which themodel is required to perform similar code changes.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.38720703125,
+    "y1": 250.2290802001953,
+    "y2": 266.8179931640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10__1145--3661167__3661200-Figure1-1.png"
+}]

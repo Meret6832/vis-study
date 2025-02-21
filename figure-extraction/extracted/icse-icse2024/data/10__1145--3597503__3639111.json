@@ -1,0 +1,41 @@
+[{
+  "caption": "Table 1. Descriptive statistics regarding study participants",
+  "captionBoundary": {
+    "x1": 320.2305908203125,
+    "x2": 556.0084838867188,
+    "y1": 409.82281494140625,
+    "y2": 415.7538146972656
+  },
+  "figType": "Table",
+  "imageText": ["3", "METHOD", "hype-", "driven", "development", "resume-", "driven", "development", "ICSE", "’24,", "April", "14-20,", "2024,", "Lisbon,", "Portugal", "Dolata", "et", "al."],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 557.76,
+    "y1": 51.839999999999996,
+    "y2": 401.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639111-Table1-1.png"
+}, {
+  "caption": "Table 2. Comparison between challenges and needs reported in SE4AI literature and challenges and needs expressed by freelancers in our study along with indication of sources sorted by SWEBOK KAs and identified subcategories. See supplementary material [17] for the full version of this table with further distinction between singular challenges’ impact factors.",
+  "captionBoundary": {
+    "x1": 55.10409927368164,
+    "x2": 556.701416015625,
+    "y1": 308.39959716796875,
+    "y2": 334.970703125
+  },
+  "figType": "Table",
+  "imageText": ["Integration", "•", "presence", "of", "incompatible", "programming", "languages,", "•", "bugs", "in", "libraries,", "frameworks,", "and", "platforms,", "•", "in-", "teroperability", "problems", "•", "bugs", "are", "present", "in", "database", "platforms", "(pinecone),", "orchestration", "frameworks,", "APIs", "due", "to", "their", "novelty,", "•", "frameworks", "or", "APIs", "undergo", "frequent,", "unannounced", "updates", "to", "turning", "developed", "pipelines", "inef-", "fective,", "•", "context", "window", "and", "prompt", "length", "are", "limited", "in", "the", "↑", "product", "Insufficient", "Knowledge", "•", "lack", "of", "understanding", "of", "models,", "libraries,", "and", "tech-", "niques,", "•", "lack", "of", "insight", "on", "problem", "at", "hand", "•", "shared", "knowledge", "base", "and", "reference", "communities", "to", "obtain", "this", "knowledge", "are", "missing", "for", "some", "application", "scenarios", "due", "to", "novelty", "↑", "novelty", "Domain", "Dependency", "•", "reusing", "models", "across", "domains", "and", "contexts", "diffi-", "cult,", "•", "transferring", "systems,", "•", "inability", "of", "models", "to", "generalize", "beyond", "training", "set", "•", "problems", "related", "to", "transfer,", "generalizability,", "and", "reuse", "of", "models", "lessened", "due", "to", "generality", "and", "domain-independency", "of", "the", "availa-", "ble", "LLMs", "↘", "paradigm", "↘", "product", "n", "Data", "Dependency", "•", "dependency", "on", "quality", "and", "availability", "of", "data", "during", "training,", "•", "continuous", "validation", "necessary,", "•", "poor", "calibration", "of", "data", "and", "models", "•", "dependency", "on", "quality", "and", "availability", "of", "training", "data", "lessened", "due", "to", "availability", "of", "pre-trained", "models", "↘", "product", "ct", "io", "st", "ru", "C", "on", "ar", "e", "So", "ftw", "•", "new", "anti-patterns", "due", "to", "complexity", "of", "ML", "including", "glue", "code,", "pipeline", "jungles,", "correction", "cascades,", "dead", "experimental", "code", "paths,", "technical", "debt,", "•", "lack", "of", "good", "patterns", "•", "anti-patterns", "including", "glue", "code", "and", "correction", "cascades", "emerge", "due", "to", "nondeterminism", "of", "the", "LLMs’", "output’s", "format,", "•", "good", "patterns", "are", "lacking", "due", "to", "new", "characteristics", "of", "LLMs,", "•", "hype", "attracts", "free-", "lancers", "who", "reinforce", "anti-patterns", "due", "to", "lack", "of", "development", "expe-", "rience", "↗", "fashion", "↗", "paradigm", "↗", "product", "↗", "novelty", "(Anti-)Pat-", "terns", "Inherent", "Complexity", "of", "ML", "•", "changing", "anything", "changes", "everything,", "•", "paradigm", "shift", "to", "pipeline-driven", "/", "system-wide", "view,", "•", "entanglement", "created", "by", "ML", "models,", "•", "abstraction", "boundary", "erosion", "•", "singular", "LLM’s", "capabilities", "(e.g.,", "generating", "answer", "vs.", "generating", "summary)", "are", "impossible", "to", "separate", "technically", "because", "they", "rely", "on", "a", "single", "model,", "•", "similar", "or", "seemingly", "identical", "prompts", "can", "trig-", "ger", "different", "capabilities", "based", "on", "provision", "of", "different", "context", "data", "or", "subtle", "differences", "between", "prompts,", "•", "outputs", "of", "GenAI", "cannot", "be", "meaningfully", "explained", "or", "interpreted", "(black", "box)", "paradigm", "Components", "Orchestration", "•", "difficult", "dependencies", "between", "all", "parts", "of", "ML-", "based", "system,", "•", "additional", "complexity", "due", "to", "distributed", "architec-", "ture,", "•", "hard-to-manage", "interactions", "between", "ML", "models,", "•", "orchestration", "was", "very", "difficult", "after", "release", "of", "some", "LLMs", "due", "to", "their", "novelty", "but", "lessened", "with", "new", "orchestration", "frameworks,", "•", "downstream", "compatibility", "is", "hard", "to", "achieve", "and", "maintain", "due", "to", "nondeterminism", "of", "GenAI’s", "output", "format", "paradigm", "↑", "novelty", "ig", "n", "D", "es", "ar", "e", "So", "ftw", "Metrics", "vs.", "Requirements", "•", "statistical", "metrics", "do", "not", "match", "requirements,", "•", "statistical", "metrics", "do", "not", "match", "business", "metrics,", "•", "difficult", "to", "use", "requirements", "coverage", "method,", "•", "lack", "of", "coverage-oriented", "datasets,", "•", "no", "operationalization", "of", "coverage", "for", "ML", "•", "clients", "and", "FL", "lack", "effective", "statistical", "measures", "for", "quality", "assess-", "ment", "of", "generated", "content", "(as", "opposed,", "e.g.,", "to", "precision", "and", "recall", "measures", "for", "classification", "tasks),", "•", "assessment", "of", "generated", "con-", "tent", "requires", "domain", "expertise,", "•", "reliable", "ground", "truth", "is", "very", "difficult", "/", "impossible", "to", "create", "so", "evaluation", "cannot", "be", "reliably", "automatized,", "•", "clients", "lack", "adequate", "business", "or", "quality", "criteria", "for", "new", "tasks", "if", "they", "haven’t", "been", "previously", "conducted", "by", "humans", "paradigm", "↑", "fashion", "↑", "novelty", "•", "clients", "use", "demanding/unrealistic", "projects", "to", "learn", "about", "limita-", "tions", "of", "GenAI", "generating", "risks", "for", "FL’s", "rating,", "•", "new", "non-technical", "cli-", "ents", "request", "GenAI-based", "solutions", "due", "to", "inflated", "expectations", "about", "GenAI’s", "capabilities", "↗", "fashion", "↗", "novelty", "Customers’", "Limited", "Knowledge", "•", "lack", "of", "literacy", "concerning", "the", "capabilities", "of", "AI,", "•", "lack", "of", "knowledge", "on", "quantitative", "metrics", "Customers’", "Expectations", "•", "unrealistic", "100%", "accuracy", "expectations,", "•", "unrealistic", "expectations", "toward", "adoption", "(e.g.,", "run-", "ning", "system", "with", "too", "little", "data)", "•", "clients", "have", "too", "high", "expectations", "towards", "abilities", "of", "AI", "because", "of", "the", "hype", "around", "GenAI,", "•", "clients", "demand", "use", "of", "GenAI", "despite", "mis-", "match", "between", "the", "business", "requirements", "and", "GenAI’s", "capabilities", "↑", "fashion", "↑", "novelty", "en", "ts", "ire", "m", "Re", "qu", "ar", "e", "So", "ftw", "KA", "Subcategory", "Challenges", "and", "Needs", "in", "SE4AI", "/", "SE4ML", "Literature", "[23,", "42,", "44,", "47]", "Challenges", "and", "Needs", "Mentioned", "by", "Freelancers", "(FL)", "Impact", "Factors"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 339.84,
+    "y2": 724.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639111-Table2-1.png"
+}]

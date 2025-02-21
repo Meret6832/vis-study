@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 1: Example of IRT generation for a bug report. The upper part is the instruction section. If the user explicitly wants a field to be empty, they can add the <|EMPTY|> token. In this example, it is used for assignees. Otherwise, they can add <|MASK|> to let the model decide what to fill in, for example, in the case of about, title, and labels. It’s not necessary to fill in any fields, including the summary, but doing so provides more information about what the expected IRT would be.",
+  "captionBoundary": {
+    "x1": 52.902000427246094,
+    "x2": 295.64263916015625,
+    "y1": 615.5582885742188,
+    "y2": 697.9019775390625
+  },
+  "figType": "Figure",
+  "imageText": ["##", "Additional", "context", "Add", "any", "other", "context", "about", "the", "problem", "here.", "##", "Environment", "-", "OS:", "[e.g.", "Ubuntu]", "-", "Version", "[e.g.", "22]", "##", "Screenshots", "(if", "appropriate)", "If", "applicable,", "add", "screenshots", "to", "help", "explain", "your", "problem.", "##", "Expected", "behavior", "A", "clear", "and", "concise", "description", "of", "what", "you", "expected", "to", "happen.", "##", "To", "Reproduce", "Steps", "to", "reproduce", "the", "behavior:", "1.", "Go", "to", "'...'", "2.", "Click", "on", "'....'", "3.", "Scroll", "down", "to", "'....'", "4.", "See", "error", "##", "Describe", "the", "bug", "A", "clear", "and", "concise", "description", "of", "what", "the", "bug", "is.", "---", "name:", "Bug", "report", "about:", "Create", "a", "report", "to", "help", "us", "improve", "title:", "'[Bug]'", "labels:", "bug", "assignees:", "''", "---", "name:", "Bug", "report", "about:", "<|MASK|>", "title:", "<|MASK|>", "labels:", "<|MASK|>", "assignees:", "<|EMPTY|>", "headlines_type:", "#", "Heading", "headlines:", "['Describe", "the", "bug',", "'To", "Reproduce',", "'Expected", "behavior',", "'Screenshots", "(if", "appropriate)',", "'Environment',", "'Additional", "context']", "summary:", "This", "issue", "template", "is", "designed", "to", "help", "users", "report", "bugs", "they", "encounter", "while", "using", "our", "software.", "Environment", "section", "should", "asks", "for", "\"operating", "system\"", "such", "as", "Ubuntu."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 82.56,
+    "y2": 602.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644906-Figure1-1.png"
+}, {
+  "caption": "Table 1: Automated evaluation of GIRT-Model vs baselines on four test sets. Each test type is represented in one of the blocks. For example, META refers to instances where instructions are only based on GIRT-Data metadata (see Section 5.2 for details). GIRT-Model outperforms all of the baseline models (T5 and Flan-T5 with 3 different sizes) in all of the test sets. The best result per each block is shown in bold, and the second best result is underlined.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.7152099609375,
+    "y1": 85.72634887695312,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["T5-Large", "0.8B", "5.83", "4.74", "0.00", "2.36", "10.98", "8.16", "3.27", "7.89", "8.01", "6.21", "0.00", "3.18", "11.07", "8.54", "3.45", "8.68", "T5-3B", "3B", "22.43", "18.72", "1.06", "11.90", "27.41", "20.86", "5.26", "18.03", "15.51", "12.34", "0.48", "8.16", "25.47", "19.81", "4.21", "16.76", "Flan-T5-base", "0.2B", "16.93", "14.66", "0.23", "6.24", "27.60", "23.43", "14.19", "28.63", "15.23", "12.53", "1.02", "6.03", "26.51", "22.18", "13.27", "28.19", "Flan-T5-Large", "0.8B", "17.10", "13.56", "0.01", "6.13", "42.06", "33.28", "20.96", "36.90", "13.48", "10.50", "0.00", "4.58", "39.47", "32.26", "21.68", "36.19", "Flan-T5-XL", "3B", "17.97", "15.16", "0.01", "7.03", "18.17", "15.19", "6.36", "15.71", "16.15", "12.93", "0.08", "6.96", "20.75", "17.74", "9.44", "17.61", "GIRT-Model-base", "0.2B", "77.90", "75.33", "62.94", "74.38", "✗", "✗", "✗", "✗", "73.92", "70.32", "57.12", "69.85", "✗", "✗", "✗", "✗", "M", "+", "M", "A", "SK", "0.08", "0.06", "0.00", "0.03", "10.81", "9.23", "0.58", "6.29", "A", "+", "SU", "M", "ET", "T5-base", "0.2B", "0.09", "0.08", "0.00", "0.04", "9.07", "7.49", "0.42", "5.86", "M", "A", "+", "SU", "M", "ET", "A", "+", "M", "A", "SK", "0.07", "0.06", "0.00", "0.03", "9.80", "8.91", "0.88", "6.03", "T5-Large", "0.8B", "1.39", "1.35", "0.00", "0.66", "10.56", "8.41", "1.51", "7.03", "0.83", "0.78", "0.00", "0.30", "10.74", "8.27", "1.77", "7.42", "T5-3B", "3B", "16.97", "15.44", "0.44", "9.28", "21.29", "18.02", "3.60", "15.03", "9.92", "8.95", "0.33", "5.98", "18.03", "15.78", "2.73", "13.38", "Flan-T5-base", "0.2B", "10.42", "10.12", "1.61", "4.14", "14.83", "13.05", "7.51", "14.43", "3.87", "3.61", "1.08", "2.01", "5.80", "5.36", "3.13", "5.50", "Flan-T5-Large", "0.8B", "13.30", "12.60", "0.02", "4.81", "27.95", "21.88", "14.11", "25.36", "10.35", "8.83", "0.51", "3.77", "18.23", "15.18", "7.52", "16.61", "Flan-T5-XL", "3B", "9.41", "9.36", "0.00", "3.48", "18.20", "16.57", "9.16", "15.76", "3.84", "3.80", "0.00", "1.70", "8.70", "7.92", "3.02", "7.47", "GIRT-Model-base", "0.2B", "72.34", "70.20", "59.96", "69.95", "✗", "✗", "✗", "✗", "63.44", "59.74", "53.93", "62.95", "✗", "✗", "✗", "✗", "M", "ET", "T5-base", "0.2B", "0.05", "0.05", "0.00", "0.02", "16.83", "14.60", "2.23", "9.55", "A", "M", "ET", "Zero-Shot", "One-Shot", "Zero-Shot", "One-Shot", "Model", "Size", "ROUGE-1", "ROUGE-L", "BLEU", "METEOR", "ROUGE-1", "ROUGE-L", "BLEU", "METEOR", "ROUGE-1", "ROUGE-L", "BLEU", "METEOR", "ROUGE-1", "ROUGE-L", "BLEU", "METEOR"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 555.36,
+    "y1": 138.72,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644906-Table1-1.png"
+}, {
+  "caption": "Figure 4: Exit interview results. Participants findGIRT-Model beneficial, reporting high scores for “usefulness” and “goal achievement”.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0346374511719,
+    "y1": 243.52835083007812,
+    "y2": 271.0770263671875
+  },
+  "figType": "Figure",
+  "imageText": ["Ease", "of", "Use", "Usefulness", "Strongly", "Agree", "Agree", "Neutral", "Disagree", "Strongly", "Disagree", "Goal", "Achievement", "Inspiration"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 290.4,
+    "y1": 178.56,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644906-Figure4-1.png"
+}, {
+  "caption": "Table 2: Human evaluation of GIRT-Model (zero-shot) vs Flan-T5-Large (one-shot). GIRT-Model outperforms Flan-T5Large in all of the test sets. The scores are normalized to [0, 100%]. The best result for each test set is shown in bold.",
+  "captionBoundary": {
+    "x1": 317.65875244140625,
+    "x2": 559.794921875,
+    "y1": 85.72634887695312,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Consistency", "and", "Coherence", "22.4", "85.2", "Instruction", "Following", "24.4", "88.8", "Format", "(Yes,", "Partially)", "38.00,", "2.00", "100.0,", "0.0", "META", "+", "SUM", "+", "MASK", "Instruction", "Following", "26.4", "90.0", "Format", "(Yes,", "Partially)", "40.0,", "12.0", "100.0,", "0.0", "META", "+", "SUM", "Consistency", "and", "Coherence", "24.0", "91.6", "Instruction", "Following", "11.2", "88.4", "Format", "(Yes,", "Partially)", "2.0,", "6.0", "100.0,", "0.0", "META", "+", "MASK", "Consistency", "and", "Coherence", "8.4", "84.4", "Instruction", "Following", "13.6", "94.0", "Format", "(Yes,", "Partially)", "0.0,", "4.0", "100.0,", "0.0", "META", "Consistency", "and", "Coherence", "6.4", "90.8", "Flan-T5-Large", "GIRT-Model", "(One-Shot)", "(Zero-Shot)", "Test", "Set", "Type", "Aspect", "Score", "%"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 138.72,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644906-Table2-1.png"
+}, {
+  "caption": "Figure 2: Top: Progression of training for loss on the validation and training sets. X-axis: Epoch number, Y-axis: Loss value. Bottom: Training progression for metric values on the validation set. X-axis: Epoch number, Y-axis: Metric value.",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 295.6378479003906,
+    "y1": 431.4423522949219,
+    "y2": 469.95001220703125
+  },
+  "figType": "Figure",
+  "imageText": ["Rouge-1", "Rouge-L", "Meteor", "Bleu", "al", "ue", "ric", "V", "M", "et", "0.700", "0.675", "0.650", "0.625", "0.600", "0.575", "0.550", "0.525", "0", "5", "10", "15", "20", "25", "30", "Epoch", "Training", "Loss", "Validation", "Loss", "Lo", "ss", "1.0", "0.9", "0.8", "0.7", "0.6", "0", "5", "10", "15", "20", "25", "30", "Epoch"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 269.28,
+    "y1": 148.79999999999998,
+    "y2": 413.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644906-Figure2-1.png"
+}, {
+  "caption": "Figure 3: UI designed to interact with GIRT-Model. 1○: IRT input examples 2○: metadata fields of IRT inputs 4○: summary field of IRT inputs 4○: model config 5○: generated instruction based on the IRT inputs 6○: generated IRT.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64654541015625,
+    "y1": 585.5791015625,
+    "y2": 624.0870361328125
+  },
+  "figType": "Figure",
+  "imageText": ["5", "6", "3", "4", "2", "1"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 252.0,
+    "y2": 572.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644906-Figure3-1.png"
+}]

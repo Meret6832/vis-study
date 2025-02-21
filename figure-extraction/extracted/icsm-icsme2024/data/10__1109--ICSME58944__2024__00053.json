@@ -1,0 +1,361 @@
+[{
+  "caption": "TABLE I SUMMARIES OF BIGCLONEBENCH (BCB), SEMANTICCLONEBENCH (SCB) AND GPTCLONEBENCH (GPTCB) DATASET",
+  "captionBoundary": {
+    "x1": 70.4967041015625,
+    "x2": 287.3643798828125,
+    "y1": 297.1371765136719,
+    "y2": 318.2806396484375
+  },
+  "figType": "Table",
+  "imageText": ["Metric", "BCB", "SCB", "GPTCB", "#Code", "fragments", "8,070", "1,228", "11,655", "#Average", "lines", "of", "codes", "33.21", "17.44", "16.73", "#Positive", "Pairs", "561,929", "997", "5,711", "#Negative", "Pairs", "1,172,451", "993", "5,431"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 273.12,
+    "y1": 328.8,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableI-1.png"
+}, {
+  "caption": "Fig. 2. Overview of our approach. The left side shows the dataset processing. The right side shows the input representations and clone detection models.",
+  "captionBoundary": {
+    "x1": 65.91179656982422,
+    "x2": 536.5435791015625,
+    "y1": 267.1809387207031,
+    "y2": 271.646728515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 156.96,
+    "x2": 445.44,
+    "y1": 72.96,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-Figure2-1.png"
+}, {
+  "caption": "TABLE II SUMMARIES OF CLCDSA AND CLCDSA sub DATASET",
+  "captionBoundary": {
+    "x1": 342.081787109375,
+    "x2": 519.9851684570312,
+    "y1": 297.3818054199219,
+    "y2": 310.1868896484375
+  },
+  "figType": "Table",
+  "imageText": ["Metric", "CLCDSA", "CLCDSA", "sub", "#Programming", "language", "5", "2", "#Code", "fragments", "83,560", "38,167", "#Average", "lines", "of", "codes", "157.22", "67.81", "#Clone", "pairs", "138,804", "312,582"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 522.24,
+    "y1": 319.68,
+    "y2": 363.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableII-1.png"
+}, {
+  "caption": "TABLE XV OVERALL PERFORMANCE ON MUTATION-BASED DATASETS. DELTA SHOWS THE DIFFERENCE BETWEEN THE MODELS’ PERFORMANCE ON SEMANTICCLONEBENCH (V XII) AND THE AVERAGE F1 SCORE FOR DIFFERENT TYPES OF MUTATION OPERATIONS",
+  "captionBoundary": {
+    "x1": 70.74784851074219,
+    "x2": 287.61505126953125,
+    "y1": 270.2580261230469,
+    "y2": 308.0782470703125
+  },
+  "figType": "Table",
+  "imageText": ["Types", "Type-I", "Type-II", "Type-III", "Models", "F1avg", "∆SCB", "F1avg", "∆SCB", "F1avg", "∆SCB", "ASTNN", "0.489", "0%", "0.578", "8.9%", "0.553", "6.4%", "GMN", "0.677", "-0.3%", "0.682", "0.1%", "0.64", "-4%", "CodeBERT", "0.557", "-0.2%", "0.613", "5.4%", "0.593", "3.4%", "CLCDSA", "0.234", "0%", "0.235", "0.1%", "0.208", "-2.6%", "C4", "0.655", "-0.4%", "0.669", "0.01%", "0.655", "-0.4%"],
+  "name": "XV",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 295.2,
+    "y1": 325.92,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableXV-1.png"
+}, {
+  "caption": "TABLE XIV PERFORMANCE OF MODELS ON EACH MUTATION OPERATION ON SEMANTICCLONEBENCH DATASET",
+  "captionBoundary": {
+    "x1": 144.94140625,
+    "x2": 458.025634765625,
+    "y1": 74.20468139648438,
+    "y2": 87.009765625
+  },
+  "figType": "Table",
+  "imageText": ["Type-III", "mDL", "0.69", "0.43", "0.53", "0.53", "0.88", "0.66", "0.70", "0.48", "0.57", "0.43", "0.17", "0.24", "0.61", "0.72", "0.66", "mIL", "0.82", "0.66", "0.73", "0.53", "0.95", "0.68", "0.79", "0.62", "0.69", "0.34", "0.14", "0.19", "0.61", "0.72", "0.66", "mML", "0.68", "0.45", "0.54", "0.59", "0.75", "0.66", "0.71", "0.48", "0.57", "0.41", "0.10", "0.17", "0.60", "0.71", "0.65", "mSDL", "0.67", "0.41", "0.51", "0.54", "0.77", "0.63", "0.69", "0.48", "0.57", "0.40", "0.15", "0.22", "0.60", "0.71", "0.65", "mSIL", "0.67", "0.34", "0.45", "0.57", "0.56", "0.56", "0.70", "0.47", "0.56", "0.43", "0.18", "0.25", "0.60", "0.70", "0.65", "mARI", "0.65", "0.38", "0.48", "0.59", "0.76", "0.66", "0.70", "0.48", "0.57", "0.41", "0.16", "0.23", "0.61", "0.71", "0.66", "mRL", "N", "0.71", "0.60", "0.65", "0.63", "0.86", "0.73", "0.71", "0.59", "0.65", "0.32", "0.10", "0.15", "0.62", "0.72", "0.67", "mRL", "S", "0.76", "0.63", "0.69", "0.55", "0.95", "0.69", "0.73", "0.63", "0.68", "0.32", "0.12", "0.17", "0.55", "0.90", "0.68", "mSRI", "0.64", "0.40", "0.49", "0.55", "0.76", "0.64", "0.68", "0.47", "0.55", "0.42", "0.16", "0.23", "0.62", "0.71", "0.67", "Type-II", "mCC", "BT", "0.66", "0.39", "0.49", "0.54", "0.93", "0.69", "0.69", "0.44", "0.54", "0.41", "0.16", "0.23", "0.60", "0.72", "0.66", "mCC", "EOL", "0.66", "0.39", "0.49", "0.53", "0.91", "0.67", "0.71", "0.46", "0.56", "0.41", "0.16", "0.23", "0.59", "0.71", "0.65", "mCF", "A", "0.66", "0.39", "0.49", "0.53", "0.92", "0.68", "0.70", "0.47", "0.56", "0.41", "0.16", "0.23", "0.60", "0.72", "0.66", "mCF", "R", "0.66", "0.39", "0.49", "0.53", "0.92", "0.67", "0.69", "0.47", "0.56", "0.41", "0.16", "0.23", "0.62", "0.71", "0.66", "mCW", "A", "0.66", "0.39", "0.49", "0.53", "0.92", "0.67", "0.69", "0.46", "0.55", "0.41", "0.16", "0.23", "0.61", "0.71", "0.65", "mCW", "R", "0.66", "0.39", "0.49", "0.53", "0.92", "0.68", "0.70", "0.48", "0.57", "0.41", "0.16", "0.23", "0.60", "0.71", "0.65", "Type-I", "ASTNN", "GMN", "CodeBERT", "CLCDSA", "C4", "Types", "Mutations", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1"],
+  "name": "XIV",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 538.0799999999999,
+    "y1": 96.96,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableXIV-1.png"
+}, {
+  "caption": "Fig. 1. Example of semantic code clones. These code fragments implement the same function. The code in (a) and (b) are single-language clones. Code in (c) is a cross-language clone with (a) and (b).",
+  "captionBoundary": {
+    "x1": 62.783851623535156,
+    "x2": 296.26507568359375,
+    "y1": 303.7420654296875,
+    "y2": 324.88555908203125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Python", "code", "to", "calculate", "factorial", "using", "recursion", "1", "def", "factorial(n):", "2", "if", "n", "==", "1:", "3", "return", "n", "4", "else:", "5", "return", "n*factorial(n-1)", "(b)", "Java", "code", "to", "calculate", "factorial", "using", "recursion", "1", "public", "long", "factorial(int", "n){", "2", "if", "(n", "<=", "2)", "{", "3", "return", "n;", "4", "}", "5", "return", "n", "*", "factorial(n", "-", "1);", "6", "}", "(a)", "Java", "code", "to", "calculate", "factorial", "using", "loop", "1", "public", "long", "factorial(int", "n)", "{", "2", "long", "fact", "=", "1;", "3", "for", "(int", "i", "=", "2;", "i", "<=", "n;", "i++)", "{", "4", "fact", "=", "fact", "*", "i;", "5", "}", "6", "return", "fact;", "7", "}"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 62.4,
+    "x2": 235.67999999999998,
+    "y1": 72.48,
+    "y2": 292.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-Figure1-1.png"
+}, {
+  "caption": "TABLE III RESULTS WHEN TRAINED AND TESTED ON BIGCLONEBENCH",
+  "captionBoundary": {
+    "x1": 335.0534362792969,
+    "x2": 527.6463012695312,
+    "y1": 392.219970703125,
+    "y2": 405.0241394042969
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "AST", "ASTNN", "0.938", "0.936", "0.937", "FA-AST", "GMN", "0.968", "0.931", "0.949", "Token", "CodeBERT", "0.927", "0.946", "0.936"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 540.0,
+    "y1": 414.71999999999997,
+    "y2": 450.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableIII-1.png"
+}, {
+  "caption": "TABLE IV RESULTS WHEN TRAINED ON BIGCLONEBENCH AND TESTED ON SEMANTICCLONEBENCH",
+  "captionBoundary": {
+    "x1": 329.0230712890625,
+    "x2": 533.6752319335938,
+    "y1": 481.4756164550781,
+    "y2": 502.61907958984375
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "AST", "ASTNN", "0.658", "0.389", "0.489", "FA-AST", "GMN", "0.540", "0.918", "0.680", "Token", "CodeBERT", "0.697", "0.466", "0.559"],
+  "name": "IV",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 540.0,
+    "y1": 511.68,
+    "y2": 548.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableIV-1.png"
+}, {
+  "caption": "TABLE VII NUMBER OF TRAINABLE PARAMETERS IN CLONE DETECTION MODELS",
+  "captionBoundary": {
+    "x1": 321.58538818359375,
+    "x2": 541.8612060546875,
+    "y1": 73.76602172851562,
+    "y2": 86.5701904296875
+  },
+  "figType": "Table",
+  "imageText": ["Single-", "language", "ASTNN", "138", "K", "GMN", "123", "K", "CodeBERT", "125", "M", "Cross-", "language", "CLCDSA", "47", "K", "C4", "172", "M", "Type", "Model", "#Parameters"],
+  "name": "VII",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 362.88,
+    "x2": 498.24,
+    "y1": 96.0,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableVII-1.png"
+}, {
+  "caption": "TABLE VIII CROSS-LANGUAGE CLONE DETECTION RESULTS ON CLCDSA DATASET",
+  "captionBoundary": {
+    "x1": 318.7237854003906,
+    "x2": 544.7250366210938,
+    "y1": 570.957763671875,
+    "y2": 583.761962890625
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "Extracted", "Features", "CLCDSA", "0.49", "0.83", "0.62", "Token", "C4", "0.920", "0.913", "0.916"],
+  "name": "VIII",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 536.16,
+    "y1": 592.8,
+    "y2": 620.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableVIII-1.png"
+}, {
+  "caption": "TABLE VI RESULTS WHEN TRAINED AND TESTED ON GPTCLONEBENCH",
+  "captionBoundary": {
+    "x1": 81.38878631591797,
+    "x2": 276.7901611328125,
+    "y1": 225.27023315429688,
+    "y2": 238.0753173828125
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "AST", "ASTNN", "0.894", "0.908", "0.901", "FA-AST", "GMN", "0.787", "0.906", "0.842", "Token", "CodeBERTgptcb", "0.996", "0.983", "0.990"],
+  "name": "VI",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 296.15999999999997,
+    "y1": 247.67999999999998,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableVI-1.png"
+}, {
+  "caption": "TABLE V RESULTS WHEN TRAINED AND TESTED ON SEMANTICCLONEBENCH",
+  "captionBoundary": {
+    "x1": 71.912109375,
+    "x2": 286.2669372558594,
+    "y1": 133.82614135742188,
+    "y2": 146.6312255859375
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "AST", "ASTNN", "0.882", "0.891", "0.886", "FA-AST", "GMN", "0.944", "0.841", "0.890", "Token", "CodeBERTscb", "0.789", "0.891", "0.837"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 292.32,
+    "y1": 156.0,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableV-1.png"
+}, {
+  "caption": "TABLE X CROSS-LANGUAGE MODELS’ PERFORMANCE TRAINED AND TESTED ON BIGCLONEBENCH",
+  "captionBoundary": {
+    "x1": 67.17598724365234,
+    "x2": 291.76702880859375,
+    "y1": 249.53103637695312,
+    "y2": 270.67449951171875
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "Extracted", "Features", "CLCDSA", "0.58", "0.96", "0.72", "Token", "C4", "0.920", "0.946", "0.933"],
+  "name": "X",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 284.15999999999997,
+    "y1": 279.84,
+    "y2": 307.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableX-1.png"
+}, {
+  "caption": "TABLE XII CROSS-LANGUAGE MODELS’ PERFORMANCE TRAINED AND TESTED ON SEMANTICCLONEBENCH",
+  "captionBoundary": {
+    "x1": 67.1760025024414,
+    "x2": 291.7670593261719,
+    "y1": 541.595703125,
+    "y2": 562.7391967773438
+  },
+  "figType": "Table",
+  "imageText": ["Token", "C4", "0.953", "0.975", "0.963", "Code", "Representation", "Model", "Precision", "Recall", "F1", "Extracted", "Features", "CLCDSA", "0.48", "0.65", "0.55"],
+  "name": "XII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 284.15999999999997,
+    "y1": 571.68,
+    "y2": 599.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableXII-1.png"
+}, {
+  "caption": "TABLE XI CROSS-LANGUAGE MODELS’ PERFORMANCE TRAINED ON CLCDSA AND TESTED ON SEMANTICCLONEBENCH",
+  "captionBoundary": {
+    "x1": 63.57311248779297,
+    "x2": 295.3718566894531,
+    "y1": 451.1858825683594,
+    "y2": 472.329345703125
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "Extracted", "Features", "CLCDSA", "0.414", "0.164", "0.234", "Token", "C4", "0.613", "0.713", "0.659"],
+  "name": "XI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 284.15999999999997,
+    "y1": 481.91999999999996,
+    "y2": 509.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableXI-1.png"
+}, {
+  "caption": "TABLE IX CROSS-LANGUAGE CLONE DETECTION RESULTS ON CLCDSAsub",
+  "captionBoundary": {
+    "x1": 76.0305404663086,
+    "x2": 282.6299133300781,
+    "y1": 165.82174682617188,
+    "y2": 179.9334716796875
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "Extracted", "Features", "CLCDSA", "0.49", "0.99", "0.66", "Token", "C4", "0.95", "0.96", "0.96"],
+  "name": "IX",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 282.24,
+    "y1": 188.64,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableIX-1.png"
+}, {
+  "caption": "TABLE XIII CROSS-LANGUAGE MODELS’ PERFORMANCE TRAINED AND TESTED ON GPTCLONEBENCH",
+  "captionBoundary": {
+    "x1": 318.79486083984375,
+    "x2": 543.38671875,
+    "y1": 73.53225708007812,
+    "y2": 94.67572021484375
+  },
+  "figType": "Table",
+  "imageText": ["Code", "Representation", "Model", "Precision", "Recall", "F1", "Extracted", "Features", "CLCDSA", "0.510", "0.877", "0.645", "Token", "C4", "0.999", "0.994", "0.996"],
+  "name": "XIII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 536.16,
+    "y1": 103.67999999999999,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-TableXIII-1.png"
+}, {
+  "caption": "Fig. 3. Models’ performance when trained and tested on benchmark datasets",
+  "captionBoundary": {
+    "x1": 314.34698486328125,
+    "x2": 547.828369140625,
+    "y1": 456.9504089355469,
+    "y2": 461.41619873046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 554.4,
+    "y1": 301.92,
+    "y2": 445.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00053-Figure3-1.png"
+}]

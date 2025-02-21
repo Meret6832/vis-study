@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 1: The Statistics of Log Datasets in the Experiments.",
+  "captionBoundary": {
+    "x1": 56.677001953125,
+    "x2": 290.8598937988281,
+    "y1": 281.1673278808594,
+    "y2": 286.7979736328125
+  },
+  "figType": "Table",
+  "imageText": ["HDFS", "82,293,702", "14", "-", "!", "-", "Hadoop", "394,308", "114", "-", "!", "-", "Zookeeper", "74,380", "50", "-", "!", "-", "BGL", "4,713,493", "120", "348,460", "!", "!", "HPC", "433,489", "46", "-", "!", "-", "Linux", "25,567", "118", "-", "!", "-", "Proxifier", "21,329", "8", "-", "!", "-", "Android", "30,348,042", "166", "-", "!", "-", "Spirit", "7,958,733", "-", "768,142", "-", "!", "a", "L.P.", "denotes", "the", "task", "of", "log", "parsing,", "A.D.", "denotes", "anomaly", "detection.", "!means", "the", "dataset", "is", "used", "as", "a", "task", "evaluation", "set", "with", "human", "labels.", "Dataset", "#Messages", "#Templates", "(2k)", "#Anomalies", "L.P.a", "A.D.a"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 301.44,
+    "y2": 429.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table1-1.png"
+}, {
+  "caption": "Fig. 1(b) presents two example formats of logs with LogPrompt’s outputs, which were rated by the reviewers. For anomaly detection, we utilized the CoT prompt (implicit part only) to prompt ChatGPT to generate task outputs along with justifications. For log parsing, we constrained the variables to the eight general categories defined by Li et al. [20] and prompted ChatGPT to classify and generate explanations for each variable. Following Ahmed et al. [1], the evaluation dimensions focused on the following two aspects:",
+  "captionBoundary": {
+    "x1": 317.6227722167969,
+    "x2": 559.17578125,
+    "y1": 488.4544982910156,
+    "y2": 571.363037109375
+  },
+  "figType": "Figure",
+  "imageText": ["•", "Usefulness.", "The", "reviewers", "were", "asked", "to", "rate", "the", "extent", "to", "which", "the", "provided", "interpretation", "of", "the", "analysis", "decision", "is", "detailed,", "specific,", "relevant,", "logically", "sound", "and", "helpful", "in", "actual", "log", "analysis.", "•", "Readability.", "The", "reviewers", "were", "asked", "to", "rate", "the", "ease", "with", "which", "a", "reader", "could", "understand", "the", "provided", "text.", "A", "text", "was", "considered", "readable", "if", "it", "was", "grammatically", "correct,", "meaningful,", "and", "professional."],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 559.1999999999999,
+    "y1": 577.92,
+    "y2": 663.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Figure1-1.png"
+}, {
+  "caption": "Table 3: Log Anomaly Detection in the Online Scenario.",
+  "captionBoundary": {
+    "x1": 61.367000579833984,
+    "x2": 286.1714782714844,
+    "y1": 502.2353515625,
+    "y2": 507.8659973144531
+  },
+  "figType": "Table",
+  "imageText": ["DeepLog", "[7]", "0.156", "0.939", "0.268", "0.249", "0.289", "0.267", "LogAnomaly", "[25]", "0.016", "0.056", "0.025", "0.231", "0.141", "0.175", "LogRobust", "[43]", "4000", "0.095", "0.425", "0.156", "0.109", "0.135", "0.120", "LogPromptb", "0", "0.249", "0.834", "0.384", "0.290", "0.999", "0.450", "a", "#Train", "denotes", "the", "number", "of", "logs", "utilized", "for", "training.", "P", "denotes", "Precision.", "R", "denotes", "Recall.", "F1", "denotes", "F1-score.", "b", "LogPrompt", "here", "is", "constructed", "via", "the", "strategy", "of", "CoT-prompt.", "c", "We", "automatically", "extracted", "1766", "templates", "from", "BGL;", "1297", "from", "Spirit.", "The", "reported", "F1-score", "is", "session", "level.", "See", "template", "level", "in", "Table", "7.", "P", "R", "F", "P", "R", "F", "Methods", "#Traina", "BGLc", "Spirit"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 522.72,
+    "y2": 643.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table3-1.png"
+}, {
+  "caption": "Table 2: F1-score of Log Parsing in the Online Scenario.",
+  "captionBoundary": {
+    "x1": 62.24100112915039,
+    "x2": 285.297119140625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["IPLoM", "[23]", "0.389", "0.068", "0.225", "0.391", "0.002", "0.225", "0.500", "0.419", "0.277", "LKE", "[8]", "0.424", "0.198", "0.225", "0.379", "0.381", "0.388", "0.309", "0.000", "0.288", "LogSig", "[34]", "0.344", "0.050", "0.225", "0.333", "0.002", "0.146", "0.339", "0.116", "0.194", "FT-tree", "[42]", "0.385", "0.046", "0.186", "0.497", "0.002", "0.211", "0.420", "0.581", "0.291", "Spell", "[6]", "0.000", "0.058", "0.045", "0.536", "0.000", "0.091", "0.000", "0.245", "0.122", "Drain", "[9]", "0.389", "0.068", "0.225", "0.397", "0.002", "0.225", "0.500", "0.413", "0.277", "MoLFI", "[26]", "0.000", "0.095", "0.000", "0.333", "0.000", "0.026", "0.000", "0.208", "0.083", "LogParse", "[24]", "0.632", "0.502", "0.348", "0.665", "0.330", "0.588", "0.334", "0.233", "0.454", "LogStamp", "[37]", "0.523", "0.594", "0.275", "0.818", "0.434", "0.658", "0.438", "0.899", "0.580", "LogPPT", "[19]", "0.838", "0.526", "0.795", "0.982", "0.287", "0.423", "0.638", "0.313", "0.600", "LogPrompt", "0.863", "0.763", "0.889", "0.865", "0.759", "0.766", "0.653", "0.819", "0.797", "a", "LogPrompt", "uses", "no", "training", "data,", "unlike", "others", "trained", "with", "up", "to", "10%", "logs.", "b", "Hd,", "Zk,", "Px", "and", "Andro", "denotes", "Hadoop,", "Zookeeper,", "Proxifier", "and", "Android.", "Methodsa", "HDFS", "Hdb", "Zk", "BGL", "HPC", "Linux", "Px", "Andro", "Avg."],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table2-1.png"
+}, {
+  "caption": "Table 8: Performances of LogPrompt in Online Log Parsing with Varying Underlying LLMs.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 294.0329284667969,
+    "y1": 227.36038208007812,
+    "y2": 243.95001220703125
+  },
+  "figType": "Table",
+  "imageText": ["13B", "0.779", "0.468", "0.364", "0.266", "0.243", "0.715", "0.614", "0.248", "a", "Hd,", "Zk,", "Px,", "Andro", "denotes", "Hadoop,", "Zookeeper,", "Proxifier,", "Android.", "b", "Vicuna", "with", "LogPrompt", "uses", "the", "in-context", "prompt", "strategy", "with𝑚=3.", "GPT", "Model", "ChatGPT", "175B", "0.863", "0.763", "0.889", "0.865", "0.759", "0.766", "0.653", "0.819", "Vicunaa", "(with)", "Simple", "Prompt", "0.244", "0.018", "0.273", "0.048", "0.022", "0.109", "0.014", "0.041", "LogPrompt", "LLMs", "Size", "HDFS", "Hda", "Zk", "BGL", "HPC", "Linux", "Px", "Andro"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 258.71999999999997,
+    "y2": 348.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table8-1.png"
+}, {
+  "caption": "Figure 2: Illustration of utilizing a simple prompt for log anomaly detection with a large language model. [X] represents the input slot, while [Z] denotes the answer slot.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6455383300781,
+    "y1": 297.08135986328125,
+    "y2": 324.6300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 176.64,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The average performance of existing log analysis approaches deteriorates when in-domain logs for training are limited in availability.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 510.8843688964844,
+    "y2": 538.4320068359375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Log", "parsing", "with", "ample/scarce", "training", "data", "(a)", "Anomaly", "detection", "with", "ample/scarce", "training", "data"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 555.36,
+    "y1": 278.88,
+    "y2": 498.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Figure3-1.png"
+}, {
+  "caption": "Table 4: Human Scoring Criteria for Evaluating the Interpretability of Large Language Models in Log Analysis. Score Ranking: 1 - Not Interpretable, 2 - Low Interpretable, 3 - Moderately Interpretable, 4 - Highly interpretable, 5 - Very Highly interpretable.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.3258666992188,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["5", "Variables", "are", "fully", "and", "correctly", "extracted,", "and", "ex-", "planations", "are", "detailed,", "specific", "and", "relevant,", "en-", "abling", "easy", "and", "precise", "understanding", "of", "logs.", "Detailed,", "relevant", "and", "clear", "justification", "that", "significantly", "assists", "engineers", "in", "ruling", "out", "false", "alarms", "and", "locating", "the", "root", "cause.", "The", "text", "is", "clear,", "detailed,", "grammatically", "per-", "fect,", "and", "professional", "for", "software", "engineer-", "ing.", "4", "Variables", "with", "appropriate", "classes", "are", "mostly", "ex-", "tracted,", "and", "explanations", "are", "specific", "and", "relevant.", "Engineers", "can", "understand", "the", "logs", "with", "less", "effort.", "Specific,", "accurate,", "and", "relevant", "justification", "is", "presented,", "which", "positively", "assist", "engineers", "in", "eliminating", "false", "alarms", "and", "further", "analysis.", "The", "text", "is", "clear,", "grammatically", "correct,", "with", "only", "a", "minimal", "number", "of", "technical", "terms", "possibly", "needing", "refinement.", "3", "Variables", "with", "appropriate", "classes", "are", "partially", "ex-", "tracted,", "and", "explanations", "are", "somewhat", "relevant.", "The", "justification", "well", "supports", "the", "predictions,", "but", "may", "lack", "clarity", "and", "details.", "The", "text", "has", "few", "grammar", "errors,", "although", "some", "terms", "may", "need", "refinement.", "2", "Explanations", "are", "meaningless", "or", "logically", "wrong,", "hindering", "engineers", "from", "interpreting", "the", "logs.", "The", "Justification", "for", "the", "prediction", "is", "irrelevant,", "or", "logically", "inconsistent", "with", "the", "facts.", "Most", "of", "the", "generated", "text", "is", "readable,", "but", "it", "may", "have", "grammar", "errors", "or", "unclear", "phrases.", "1", "No", "variable", "is", "extracted,", "or", "explanations", "of", "those", "variables", "are", "irrelevant.", "No", "justification", "on", "the", "anomaly", "beyond", "a", "sim-", "ple", "prediction", "label.", "The", "text", "contains", "numerous", "unintelligible", "el-", "ements", "or", "grammatical", "mistakes.", "Scores", "Usefulness", "Readability", "Log", "Parsing", "Anomaly", "Detection"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 116.64,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table4-1.png"
+}, {
+  "caption": "Table 5: Interpretability of LogPrompt Rated by Experts.",
+  "captionBoundary": {
+    "x1": 59.52000045776367,
+    "x2": 288.01849365234375,
+    "y1": 402.67333984375,
+    "y2": 408.3039855957031
+  },
+  "figType": "Table",
+  "imageText": ["R1", "4.19", "76.00%", "4.70", "94.00%", "4.27", "73.00%", "4.50", "84.00%", "R2", "4.36", "81.00%", "4.78", "95.00%", "4.42", "79.00%", "4.63", "90.00%", "R3", "4.13", "91.00%", "4.18", "95.00%", "4.12", "86.00%", "4.35", "94.00%", "R4", "4.20", "73.00%", "4.74", "98.00%", "4.40", "85.00%", "4.71", "95.00%", "R5", "4.06", "91.00%", "4.41", "100.00%", "4.12", "94.00%", "4.24", "98.00%", "R6", "4.46", "86.00%", "4.77", "97.00%", "4.48", "90.00%", "4.78", "99.00%", "Avg.", "4.23", "83.00%", "4.60", "96.50%", "4.30", "84.50%", "4.54", "93.33%", "a", "Mean", "is", "the", "average", "score", "of", "the", "ratings", "by", "a", "reviewer", "for", "all", "samples.", "b", "HIP", "is", "the", "percentage", "of", "samples", "received", "a", "rating", "higher", "than", "four.", "Meana", "HIPb", "Mean", "HIP", "Mean", "HIP", "Mean", "HIP", "Usefulness", "Readability", "Usefulness", "Readability", "Log", "Parsing", "Anomaly", "Detection", "Raters"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 422.88,
+    "y2": 553.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table5-1.png"
+}, {
+  "caption": "Table 6: Analysis on low-rated samples in human evaluation",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1934814453125,
+    "y1": 478.91534423828125,
+    "y2": 484.5459899902344
+  },
+  "figType": "Table",
+  "imageText": ["Other", "13.51%", "-", "-", "Semantic", "insufficiency", "40.54%", "fpr8=0x3883a497", "bfe016b5", "8da3311e", "3f06d5a7.", "Normal", "-", "Register", "values.", "Domain", "Knowledge", "45.95%", "CE", "sym", "33,", "at", "0x1ff2fc60,", "mask", "0x04.", "Sym", "33", "is", "a", "Object", "Name", "that", "refers", "to", "an", "object", "named", "“sym", "33”.", "Raw", "log", "Interpretation", "Cause", "Ratio", "Example"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 499.2,
+    "y2": 616.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table6-1.png"
+}, {
+  "caption": "Figure 4: Prompts advised by ChatGPT for the task of log parsing (Dialogue date: 2023/02/25).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 553.0623168945312,
+    "y2": 569.6519775390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 369.59999999999997,
+    "y2": 540.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Figure4-1.png"
+}, {
+  "caption": "Table 7: Ablation Study of the CoT Prompt Strategy in Anomaly Detection.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.63653564453125,
+    "y1": 284.2813415527344,
+    "y2": 300.8710021972656
+  },
+  "figType": "Table",
+  "imageText": ["ChatGPT", "(simple", "prompt)", "0.189", "0.115", "0.445", "0.086", "+Implicit", "CoT", "0.307", "0.183", "0.443", "0.096", "+Explicit", "CoT", "0.384", "0.321", "0.450", "0.116", "a", "S-F1", "denotes", "the", "session-level", "F1-score.", "T-F1", "denotes", "the", "template-level", "F1-score.", "b", "The", "implicit", "CoT", "requires", "ChatGPT", "to", "report", "justifications.", "The", "explicit", "CoT", "further", "adds", "intermediate", "steps", "in", "prompts.", "S-F1a", "T-F1", "S-F1", "T-F1", "Methodsb", "BGL", "Spirit"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 315.84,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Table7-1.png"
+}, {
+  "caption": "Figure 6: Variation in F1-score and Precision of the in-context prompt with an increase in the number of provided logs.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19140625,
+    "y1": 266.3853454589844,
+    "y2": 282.9750061035156
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 161.76,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Figure6-1.png"
+}, {
+  "caption": "Figure 5: Performance comparison of the five raised prompt candidates in Fig. 4 for Log Parsing.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0328369140625,
+    "y1": 277.3123474121094,
+    "y2": 293.9020080566406
+  },
+  "figType": "Figure",
+  "imageText": ["𝑆𝑒𝑙", "𝑓", "-𝑝𝑟𝑜𝑚𝑝𝑡", ":", "argmax𝑝∈𝐶", "{𝑠", "(𝑝)}", "𝑓𝑥", "([X])", "𝑓𝑧", "([Z],", "𝑆𝑝", ")"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 134.88,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644408-Figure5-1.png"
+}]

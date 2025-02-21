@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 8. The categories of bug patterns",
+  "captionBoundary": {
+    "x1": 372.3409423828125,
+    "x2": 489.0702209472656,
+    "y1": 183.97557067871094,
+    "y2": 187.44281005859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 511.2,
+    "y1": 72.96,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-Figure8-1.png"
+}, {
+  "caption": "Fig. 7. Abnormal model parameter initialization",
+  "captionBoundary": {
+    "x1": 105.52593231201172,
+    "x2": 253.07073974609375,
+    "y1": 150.1008758544922,
+    "y2": 153.568115234375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "##", "from", "\"large-performance-gap-between-pytorch-and-keras-", "for-imdb-sentiment-analysis-model/135659\"", "2", "def", "__init__(self,", "vocab_size,", "em_dim,", "output_dim,...):", "3", "self.embedding", "=", "nn.Embedding(vocab_size,", "...)", "4", "self.fc", "=", "nn.Linear(em_dim", "*", "maxlen,", "output_dim)", "5", "+", "nn.init.uniform_(self.embedding.weight,", "-0.05,", "0.05)", "6", "+", "nn.init.xavier_uniform_(self.fc.weight,", "1.0)", "7", "..."],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.36,
+    "x2": 292.32,
+    "y1": 74.88,
+    "y2": 137.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-Figure7-1.png"
+}, {
+  "caption": "Fig. 1. Dataset construction workflow",
+  "captionBoundary": {
+    "x1": 371.84649658203125,
+    "x2": 488.3401184082031,
+    "y1": 170.86668395996094,
+    "y2": 174.33392333984375
+  },
+  "figType": "Figure",
+  "imageText": ["Annotator", "A", "Annotator", "B", "Dataset", "(365)", "Testing", "set", "(168", ",After", "Filtering)", "Filtered", "Data", "(365)", "Training", "set", "(197,After", "Filtering)", "Filtered", "Data", "(365)", "+", "Manual", "Verification", "Chat", "Pytorch", "Forum", "Rawdata(14,523", "posts)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 543.36,
+    "y1": 73.92,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-Figure1-1.png"
+}, {
+  "caption": "Fig. 9. An Overview of PYSIASSIST",
+  "captionBoundary": {
+    "x1": 373.1333312988281,
+    "x2": 487.3727722167969,
+    "y1": 207.1973114013672,
+    "y2": 210.66455078125
+  },
+  "figType": "Figure",
+  "imageText": ["Sub-", "Task", "……", "Sub-", "Task", "Sub-Task", "(s)", "Configuration(s)", "Configur-", "ation", "file", "Configur-", "ation", "file", "……", "3.Bug", "Detection", "2.Graph", "Generation", "1.", "Configuration", "Convert", "to", "graphs", "Convert", "to", "configuration.", "Detection", "Results", "DFG", "+", "CFG", "Developer", "DL", "Code", "14", "existing", "patterns", "and", "custom", "patterns", "Dataset"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 541.4399999999999,
+    "y1": 75.84,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-Figure9-1.png"
+}, {
+  "caption": "TABLE III DIFFERENCES WITH RELEVANT WORK",
+  "captionBoundary": {
+    "x1": 118.66796112060547,
+    "x2": 236.85919189453125,
+    "y1": 74.89090728759766,
+    "y2": 86.640869140625
+  },
+  "figType": "Table",
+  "imageText": ["yes(14", "pat-", "terns)", "Cao", "et", "al.", "[8]", "DL", "Bugs", "re-", "lated", "to", "per-", "formance", "Tensorﬂow", "&", "Keras", "18,730", "stackover-", "ﬂow", "posts", "yes(3", "pat-", "terns)", "Ours", "Silent", "bug", "in", "the", "programs", "PyTorch", "13,241", "ofﬁcial", "Py-", "Torch", "forum", "posts", "2716", "stackoverﬂow", "posts", "and", "500", "Github", "commits", "no", "Caffe,", "Keras,", "Tensorﬂow,", "Theano", "&", "PyTorch", "Islam", "et", "al.", "[5]", "General", "DL", "bug", "Tensorﬂow", "27,845", "stackover-", "ﬂow", "posts", "&", "82", "GitHub", "commits", "no", "Study", "Scope", "Framework", "Data", "Source", "Tool?", "Tambon", "et", "al.", "[1]", "Silent", "bug", "in", "DL", "frameworks", "Tensorﬂow", "&", "Keras", "1168", "issues", "from", "GitHub.", "no", "Zhang", "et", "al.", "[6]", "General", "DL", "bug"],
+  "name": "III",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 294.24,
+    "y1": 92.64,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-TableIII-1.png"
+}, {
+  "caption": "TABLE I PRECISION AND RECALL OF PYSIASSIST IN RECOGNIZING SILENT BUGS IN USER PROGRAMS",
+  "captionBoundary": {
+    "x1": 317.4952392578125,
+    "x2": 543.2060546875,
+    "y1": 74.91690826416016,
+    "y2": 94.9473876953125
+  },
+  "figType": "Table",
+  "imageText": ["#pattern", "5", "1", "1", "4", "1", "12", "Precision", "86.7%", "85.7%", "100%", "100%", "94.4%", "92.4%", "Recall", "89.7%", "85.7%", "66.7%", "88.6%", "77.3%", "85.3%", "Category", "missing", "misplace", "wrong-para", "errornance", "redundant", "Total"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 550.0799999999999,
+    "y1": 103.67999999999999,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-TableI-1.png"
+}, {
+  "caption": "Fig. 2. Taxonomy of silent bugs symptoms",
+  "captionBoundary": {
+    "x1": 111.36782836914062,
+    "x2": 244.00650024414062,
+    "y1": 177.9609832763672,
+    "y2": 181.42822265625
+  },
+  "figType": "Figure",
+  "imageText": ["Other", "Symptom(40)", "Operation", "(3)", "Ineffective", "Acceleration", "Slow", "Execution", "Time", "(20)", "Abnormal", "GPU", "Utilization", "(6)", "Abnormal", "Convergence", "Process(116)", "Abnormal", "output", "results", "(59)", "Abnormal", "Intermediate", "Results", "(39)", "Metrics", "Value", "(82)", "Abnormal", "Evaluation", "Processor", "(6)", "Other", "(40)", "Output(296)", "Time", "(23)", "Silent", "Bugs", "(365", "Posts)"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 295.2,
+    "y1": 73.92,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-Figure2-1.png"
+}, {
+  "caption": "TABLE II PRECISION AND RECALL OF PYSIASSIST, CODEGURU AND CHATGPT",
+  "captionBoundary": {
+    "x1": 69.90288543701172,
+    "x2": 289.34844970703125,
+    "y1": 74.8793716430664,
+    "y2": 86.62933349609375
+  },
+  "figType": "Table",
+  "imageText": ["Precision", "92.4%", "76.1%", "100%", "Recall", "85.3%", "51.9%", "1.5%", "Tool", "PYSIASSIST", "ChatGPT", "CodeGuru"],
+  "name": "II",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 271.2,
+    "y1": 93.6,
+    "y2": 126.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-TableII-1.png"
+}, {
+  "caption": "Fig. 6. Flawed model evaluation operation",
+  "captionBoundary": {
+    "x1": 372.3990783691406,
+    "x2": 503.1099853515625,
+    "y1": 265.5127258300781,
+    "y2": 268.97998046875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "##from", "\"training-acc-going-up-test-acc-doesnt-change/43349\"", "2", "+", "model.eval()", "3", "with", "torch.no_grad():", "#", "switch", "to", "evaluation", "mode", "4", "images,", "labels", "=", "data", "5", "..."],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 554.4,
+    "y1": 216.0,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-Figure6-1.png"
+}, {
+  "caption": "Fig. 3. Root causes of silent bugs in PyTorch",
+  "captionBoundary": {
+    "x1": 240.61981201171875,
+    "x2": 380.857177734375,
+    "y1": 206.8673553466797,
+    "y2": 210.3345947265625
+  },
+  "figType": "Figure",
+  "imageText": ["Data", "Transfer", "(2)", "Redundant", "Inter-device", "Strategy", "(7)", "Inefficient", "GPU", "Uilization", "Sharing", "(11)", "Incorrect", "State", "Settings", "(4)", "Incorrect", "Optimizer", "Function", "(62)", "Incorrect", "Loss", "Function", "or", "Activation", "(40)", "Improper", "Hyperparameters", "Disruption", "of", "Computation", "Graph", "(47)", "Missed", "or", "Misplaced", "Training", "Operations", "(56)", "Flawed", "Model", "Evaluation", "Operation", "(27)", "Incorrect", "Data", "Dimension", "Operation(20)", "(10)", "improper", "Dataset", "Retrieval", "Method", "Preprocessing", "(23)", "Improper", "or", "Missing", "Data", "Initialization", "(27)", "Defective", "Dataset", "(6)", "Abnormal", "Model", "Parameter", "Method", "(5)", "Incorrect", "Model", "Storage", "Structure", "(18)", "Incorrect", "Model", "GPU", "Usage", "(20)", "Training", "and", "Execution", "(196)", "Model", "(90)", "Data", "(59)", "Silent", "Bugs", "(365)"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 544.3199999999999,
+    "y1": 72.96,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00035-Figure3-1.png"
+}]

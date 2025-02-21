@@ -1,0 +1,161 @@
+[{
+  "caption": "TABLE II: Automatic evaluation metric scores of our method when compared with other baseline methods.",
+  "captionBoundary": {
+    "x1": 96.32430267333984,
+    "x2": 507.6144104003906,
+    "y1": 74.10028076171875,
+    "y2": 79.68280029296875
+  },
+  "figType": "Table",
+  "imageText": ["IR", "BM25", "10.27", "18.00", "9.94", "8.44", "18.21", "10.08", "NNGEN", "9.69", "17.90", "9.60", "7.89", "15.44", "8.41", "kNN", "10.60", "27.59", "13.89", "9.16", "23.54", "12.47", "Vanilla", "DL", "CODENN", "1.59", "14.88", "6.23", "1.12", "14.45", "6.32", "DEEPCOM", "1.24", "15.64", "6.73", "1.92", "14.76", "8.01", "NCS", "2.51", "22.30", "9.05", "2.10", "21.59", "10.96", "IR+DL", "RENCOS", "4.11", "19.59", "9.60", "1.80", "17.39", "8.29", "EDITSUM", "2.75", "19.98", "9.39", "2.82", "19.23", "9.09", "REDCODER", "8.02", "32.10", "14.96", "9.04", "31.00", "15.37", "Few-shot", "LLM", "CHATGPT", "7.73", "32.45", "17.70", "8.24", "31.79", "18.24", "STARCODER", "5.34", "19.45", "10.58", "4.26", "20.84", "11.24", "Pre-trained", "model", "CODEBERT", "3.70", "27.97", "11.94", "4.58", "27.95", "12.89", "UNIXCODER", "4.63", "29.66", "12.79", "5.17", "28.82", "13.68", "CODET5", "6.36", "31.77", "14.63", "5.41", "29.79", "14.28", "Fine-tuning", "CODET5-FT", "6.92", "33.62", "15.00", "10.23", "33.77", "16.64", "Ours", "PRECOS", "11.54", "34.50", "15.90", "13.91", "34.86", "17.24", "Java", "PythonMethod", "BLEU", "ROUGE-L", "METEOR", "BLEU", "ROUGE-L", "METEOR"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 501.12,
+    "y1": 87.84,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-TableII-1.png"
+}, {
+  "caption": "TABLE III: Ablation study results of our method.",
+  "captionBoundary": {
+    "x1": 206.81809997558594,
+    "x2": 397.2258605957031,
+    "y1": 74.6881103515625,
+    "y2": 80.2706298828125
+  },
+  "figType": "Table",
+  "imageText": ["PRECOS", "11.54", "34.50", "15.90", "13.91", "34.86", "17.24", "w/o", "Cext", "10.09", "32.08", "14.41", "12.68", "31.15", "15.47", "w/o", "Cproj", "8.85", "32.00", "14.69", "7.17", "31.42", "14.71", "w/o", "subset", "10.29", "34.22", "15.86", "12.65", "34.05", "16.58", "w/o", "syntactic-code", "10.53", "33.83", "15.57", "12.51", "34.14", "16.59", "w/o", "semantic-code", "10.07", "34.18", "15.56", "12.05", "34.45", "16.72", "w/o", "syntactic-summary", "10.67", "34.14", "15.63", "12.28", "34.47", "16.55", "w/o", "semantic-summary", "10.71", "33.98", "15.63", "12.65", "34.19", "16.43", "w/o", "locality", "10.01", "33.27", "15.18", "12.19", "32.91", "16.19", "Java", "PythonMethod", "BLEU", "ROUGE-L", "METEOR", "BLEU", "ROUGE-L", "METEOR"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 521.28,
+    "y1": 88.8,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-TableIII-1.png"
+}, {
+  "caption": "Fig. 2: BLEU scores for each evaluation project.",
+  "captionBoundary": {
+    "x1": 86.77279663085938,
+    "x2": 272.66827392578125,
+    "y1": 325.66436767578125,
+    "y2": 331.24688720703125
+  },
+  "figType": "Figure",
+  "imageText": ["CodeT5", "REDCODER", "CodeT5-ft", "Precos", "BL", "EU", "50", "20", "10", "0", "Project", "j1", "j2", "j3", "j4", "j5", "j6", "j7", "j8", "j9", "j1", "0", "j1", "1", "j1", "2", "j1", "3", "j1", "4", "j1", "5", "j1", "6", "j1", "7", "j1", "8", "p1", "p2", "p3", "p4", "p5", "p6", "p7", "p8", "p9", "p1", "0", "p1", "1", "p1", "2", "p1", "3", "p1", "4", "p1", "5", "p1", "6"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 295.2,
+    "y1": 214.56,
+    "y2": 315.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-Figure2-1.png"
+}, {
+  "caption": "Fig. 1: The overview of our project-specific retrieval-based method PRECOS.",
+  "captionBoundary": {
+    "x1": 154.88449096679688,
+    "x2": 448.0071716308594,
+    "y1": 205.3701629638672,
+    "y2": 210.95245361328125
+  },
+  "figType": "Figure",
+  "imageText": ["𝑦'", "History-based", "Corpus", "Construction", "Locality-aware", "Distance", "Calibration", "𝑃45671", "fuse", "kNN", "token-level", "retrieval", "query", "modified", "distance", "loc", "𝑙!", "𝑙$", "…", "𝑙!", "calibration", "token", "dis", "𝑣!", "𝑑!′", "𝑣\"", "𝑑\"′", "…", "…", "𝑣#", "𝑑#′", "𝑣!", "𝑑!", "𝑣\"", "𝑑\"", "…", "…", "𝑣#", "𝑑#", "distance", "&", "locality", "token", "dis", "𝑃233", "𝑃-#0%1", "sentence-level", "retrieval", "representation;", "𝑓(𝒙,", "(𝑦.:'(.)", "input", "code;", "𝒙", "generated", "tokens;", "\"𝑦!:#$!", "base", "model;", "ℳ", "Generation", "combined", "corpus;", "𝐶,#-+", "datastore;", "𝐷", "Datastore", "Creation", "external", "subset", "corpus;", "𝐶%&'()*+external", "corpus;", "𝐶%&'", "internal", "corpus;", "𝐶!\"#$"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 537.12,
+    "y1": 73.92,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-Figure1-1.png"
+}, {
+  "caption": "TABLE IV: The average per-project storage and time overhead during construction, the generation speed, and BLEU scores on Java dataset.",
+  "captionBoundary": {
+    "x1": 62.80400085449219,
+    "x2": 296.2969055175781,
+    "y1": 74.5950927734375,
+    "y2": 102.4139404296875
+  },
+  "figType": "Table",
+  "imageText": ["*The", "↑", "next", "to", "the", "metrics", "denotes", "that", "the", "higher", "the", "value,", "the", "better,", "and", "↓", "denotes", "the", "lower,", "the", "better.", "Base", "model", "–", "–", "72.3", "6.36", "Fine-tuning", "–", "201.7s", "72.3", "6.92", "PRECOS", "60.9M", "8.9s", "23.2", "11.54", "w/o", "Cext", "8.0M", "1.2s", "54.5", "10.09", "w/o", "subset", "(FlatL2)", "3.8G", "657.3s", "4.4", "12.16", "w/o", "subset", "(IVFPQ)", "98.0M", "1,946s", "8.7", "10.29", "Method", "Construction", "Gen.", "Speed", "Metric", "Storage↓", "Time↓", "samples/s↑", "BLEU↑"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 285.12,
+    "y1": 110.88,
+    "y2": 214.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-TableIV-1.png"
+}, {
+  "caption": "TABLE V: Human evaluation results.",
+  "captionBoundary": {
+    "x1": 359.8422546386719,
+    "x2": 502.9956359863281,
+    "y1": 74.3897705078125,
+    "y2": 79.9722900390625
+  },
+  "figType": "Table",
+  "imageText": ["*S,", "N,", "and", "I", "denote", "Similarity,", "Naturalness,", "and", "Informativeness,", "respectively.", "kNN", "2.56", "4.32", "2.96", "3.09", "4.46", "3.59", "REDCODER", "2.45", "4.51", "2.83", "3.08", "4.81", "3.47", "CHATGPT", "2.93", "4.87", "4.17", "3.12", "4.96", "4.12", "CODET5", "2.54", "4.49", "2.77", "2.95", "4.79", "3.35", "CODET5-FT", "2.64", "4.52", "3.13", "3.06", "4.80", "3.44", "PRECOS", "3.30", "4.60", "3.64", "3.32", "4.81", "3.73", "Method", "Java", "Python", "S", "N", "I", "S", "N", "I"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 548.16,
+    "y1": 88.32,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-TableV-1.png"
+}, {
+  "caption": "Fig. 4: The number of correctly generated project-specific tuples.",
+  "captionBoundary": {
+    "x1": 314.0716552734375,
+    "x2": 547.5550537109375,
+    "y1": 240.9178924560547,
+    "y2": 257.61834716796875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "4-tuple", "CodeT5", "CodeT5-ft", "REDCODER", "Precos", "nt", "C", "ou", "100", "80", "60", "40", "20", "java", "python", "0", "(c)", "3-tuple", "CodeT5", "CodeT5-ft", "REDCODER", "Precos", "nt", "C", "ou", "160", "140", "120", "100", "80", "60", "40", "20", "java", "python", "0", "(b)", "2-tuple", "CodeT5", "CodeT5-ft", "REDCODER", "Precos", "nt", "C", "ou", "400", "300", "200", "100", "java", "python", "0", "(a)", "1-tuple", "CodeT5", "CodeT5-ft", "REDCODER", "Precos", "nt", "C", "ou", "1600", "1400", "1200", "1000", "800", "600", "400", "200", "java", "python", "0"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 545.28,
+    "y1": 75.84,
+    "y2": 230.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Qualitative examples.",
+  "captionBoundary": {
+    "x1": 123.92156982421875,
+    "x2": 233.51055908203125,
+    "y1": 330.32928466796875,
+    "y2": 335.9115905761719
+  },
+  "figType": "Figure",
+  "imageText": ["both", "fail", "to", "output", "the", "operation", "of", "returning", "the", "object", "and", "have", "incorrect", "parsing", "of", "the", "execution", "command."],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 295.68,
+    "y1": 353.28,
+    "y2": 372.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00051-Figure3-1.png"
+}]

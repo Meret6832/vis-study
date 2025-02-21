@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: An illustration of ACFG’s generation",
+  "captionBoundary": {
+    "x1": 80.38500213623047,
+    "x2": 267.45159912109375,
+    "y1": 314.5008850097656,
+    "y2": 316.58099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["errorerror", "True", "variable", "assign", "1", "arithmetic", "1", "borrow_mut", "1", "account_info", "1", "program", "error", "1", "Block", "42", "reference", "1", "Block", "41", "Block", "40", "Raw", "Block", "42", "assert", "_84.1", "overflow", "_84", "=", "checkedadd((*_80),", "_3)", "_80", "=", "try_borrow_mut_lamports", "(move", "_81)", "_81", "=", "_82:solana_program::account_info", "_82", "=", "deref", "(move", "_83)", "_83", "=", "&((*_23)).3", "…", "return", "program", "error", "1", "variable", "assign", "1", "variable", "assign", "2", "arithmetic", "1", "borrow_mut", "1", "account_info", "1", "program", "error", "1", "reference", "1", "reference", "2", "variable", "assign", "1", "arithmetic", "1", "switch", "1", "otherwise", "Block", "39"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 289.44,
+    "y1": 84.0,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure4-1.png"
+}, {
+  "caption": "Figure 9: Efficiency compared to VRust",
+  "captionBoundary": {
+    "x1": 95.23300170898438,
+    "x2": 252.6042022705078,
+    "y1": 292.5419006347656,
+    "y2": 294.62200927734375
+  },
+  "figType": "Figure",
+  "imageText": ["Solasim_10core", "Detection", "VRust", "Compiling", "VRust", "Detection", "Solasim", "Compiling", "Solasim", "Detection", "Solasim_10core", "Compiling", "s)", "e", "(m", "t", "t", "im", "C", "os", "200", "175", "150", "125", "100", "75", "50", "25", "0", "#", "of", "Seed", "Contracts", "30", "00", "0", "40", "00", "0", "10", "00", "0", "20", "00", "0"],
+  "name": "9",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 279.36,
+    "y1": 146.88,
+    "y2": 284.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure9-1.png"
+}, {
+  "caption": "Figure 1: The Workflow of Solana Transaction",
+  "captionBoundary": {
+    "x1": 344.6759948730469,
+    "x2": 531.4735717773438,
+    "y1": 534.5798950195312,
+    "y2": 536.6600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["withdraw", "Instruction", "transfer", "withdraw", "deposit", "entry_point", "Solana", "Program", "data", "account", "1", "account", "0", "program_id", "Transaction", "instr", "2", "instr", "1", "instr", "0"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 438.71999999999997,
+    "y2": 520.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure1-1.png"
+}, {
+  "caption": "Table 4: Vulnerable smart contracts searching results",
+  "captionBoundary": {
+    "x1": 66.49600219726562,
+    "x2": 281.0433044433594,
+    "y1": 390.2508850097656,
+    "y2": 392.33099365234375
+  },
+  "figType": "Table",
+  "imageText": ["lending-contract", "High", "MOK", "No", "fluidity-solana", "High", "LP", "No", "football-daos", "High", "LP", "No", "solend-fork-mev", "High", "LP", "No", "solana-amm", "High", "MOK", "No", "solana-nft-marketplace", "High", "MOK", "Yes", "Project", "Name", "Severity", "Vulnerability", "Type", "Has", "Vulnerability"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 286.08,
+    "y1": 406.56,
+    "y2": 470.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Table4-1.png"
+}, {
+  "caption": "Figure 8: Vulnerable contract withMissing Ownership Check",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1915283203125,
+    "y1": 559.9788818359375,
+    "y2": 562.0590209960938
+  },
+  "figType": "Figure",
+  "imageText": ["12", "marketplace.spl_token_mint", "=", "*spl_token_mint.", "to_account_info().key;", "13", "...", "14", "}", "9", "//", "Missing", "ownership", "check", "10", "//", "Check", "owner.is_signer", "before", "11", "//modifying", "the", "marketplace‘s", "data", "1", "pub", "fn", "init_marketplace(", "2", "ctx:", "InitMarketplaceContext,", "3", "seller_fee_basis_points:", "u16,", "4", "bump:", "u8,", "fee_bump:", "u8", ")", "->", "Result", "{", "5", "let", "marketplace", "=", "&mut", "ctx.accounts.marketplace;", "6", "let", "fee_account", "=", "&ctx.accounts.fee_account;", "7", "let", "spl_token_mint", "=", "&ctx.accounts.spl_token_mint;", "8", "let", "owner", "=", "&ctx.accounts.owner;"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 392.64,
+    "y2": 543.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure8-1.png"
+}, {
+  "caption": "Figure 5: Clone detection Performance in Accuracy and ROC Curve",
+  "captionBoundary": {
+    "x1": 169.7200164794922,
+    "x2": 442.26824951171875,
+    "y1": 248.22189331054688,
+    "y2": 250.302001953125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "ROC", "of", "SolaSim", "in", "identifying", "clones", "ROC", "curve", "Random", "guess", "Receiver", "Operating", "Characteristic", "(ROC)", "e", "R", "at", "iti", "ve", "P", "os", "Tr", "ue", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "False", "Positive", "Rate", "(a)", "Accuracy", "of", "SolaSim", "comparing", "with", "baseline", "tools", "Comparision", "with", "baseline", "on", "Accuracy", "SolaSim", "MSCCD", "CCFinderSW", "0.8", "1.0", "Ac", "cu", "ra", "cy", "0.6", "0.4", "0.2", "0.0", "0.6", "0.7", "0.75", "0.8", "0.85", "0.9", "0.95", "Threholds"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 93.11999999999999,
+    "x2": 518.4,
+    "y1": 74.39999999999999,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure5-1.png"
+}, {
+  "caption": "Table 2: Code Clone level",
+  "captionBoundary": {
+    "x1": 386.9209899902344,
+    "x2": 488.93597412109375,
+    "y1": 274.1249084472656,
+    "y2": 276.20501708984375
+  },
+  "figType": "Table",
+  "imageText": ["Type", "1", "78", "99.6%", "99.5%", "Type", "2", "56", "99.3%", "99.2%", "Type", "3", "66", "89.2%", "78.6%", "Clone", "Type", "Count", "Precision", "Recall"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 349.91999999999996,
+    "x2": 526.0799999999999,
+    "y1": 281.76,
+    "y2": 335.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Table2-1.png"
+}, {
+  "caption": "Figure 2: A Comparison of transfer smart contracts",
+  "captionBoundary": {
+    "x1": 202.3800048828125,
+    "x2": 409.6203308105469,
+    "y1": 247.86376953125,
+    "y2": 249.9439697265625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Ethereum", "simple", "transfer", "smart", "contract", "(b)", "Solana", "simple", "transfer", "smart", "contract", "1", "pragma", "solidity", "^0.8.0;", "2", "contract", "SimpleToken{", "3", "...", "4", "mapping(address", "=>", "uint256)", "public", "balances;", "5", "...", "6", "function", "token_transfer(address", "to,", "uint256", "amount)", "7", "public", "returns", "(bool)", "{", "8", "9", "require(amount", "<=", "balances[msg.sender],", "10", "\"Insufficient", "balance\");", "11", "balance[msg.sender]", "-=", "amount;", "12", "balance[to]", "=+", "amount;", "13", "emit", "Transfer(msg.sender,", "to,", "amount);", "14", "return", "true;", "15", "}", "16", "}", "1", "use", "solana_program;", "2", "...", "3", "pub", "fn", "token_transfer(program_id:", "pubkey,", "accounts:", "[accountInfo],", "4", "instruction_data:[u8])", "->", "Result", "{", "5", "let", "accounts_iter", "=", "&mut", "accounts.iter();", "6", "let", "from_account", "=", "next_account_info(accounts_iter)?;", "7", "let", "to_account", "=", "next_account_info(accounts_iter)?;", "8", "let", "mut", "from_balance", "=", "from_account.try_borrow_mut_lamports();", "9", "let", "mut", "to_balance", "=", "to_account.try_borrow_mut_lamports();", "10", "let", "amount", "=", "instruction_data.try_into().unwrap();", "11", "if", "*from_account", "<", "amount", "{return", "Err(InsufficientFunds);}", "12", "*from_balance", "-=", "amount", "13", "*to_balance", "+=", "amount", "14", "msg!(\"Tokens", "transferred", "successfully\");", "15", "Ok(())", "16", "}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 532.3199999999999,
+    "y1": 82.56,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The Framework of SolaSim",
+  "captionBoundary": {
+    "x1": 231.35899353027344,
+    "x2": 380.6401672363281,
+    "y1": 419.0038146972656,
+    "y2": 421.0840148925781
+  },
+  "figType": "Figure",
+  "imageText": ["Result", "Solana", "Contract", "Database", "Similarity", "Checker", "Contracts", "similarity", "Instructions", "similarity", "Representation", "generation", "Pruned", "ACFG", "generation", "Attributes", "extraction", "Semantic", "Metadata", "Extractor", "Program", "Compiling", "Solana", "Contract", "𝑨"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 93.11999999999999,
+    "x2": 519.36,
+    "y1": 264.96,
+    "y2": 419.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure3-1.png"
+}, {
+  "caption": "Figure 6: An illustration of clone types by similar contracts",
+  "captionBoundary": {
+    "x1": 186.31300354003906,
+    "x2": 425.67822265625,
+    "y1": 191.62588500976562,
+    "y2": 193.70599365234375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Contract", "B", "6", "(&mut", "ctx.accounts.campaign).amount_donated", "-=", "amount;", "4", "**campaign.to_account_info().try_borrow_mut_lamports()?", "-=", "amount;", "5", "**user.to_account_info().try_borrow_mut_lamports()?", "+=", "amount;", "3", "if", "rent_lamports", "<", "amount", "{return", "Err(InsufficientFunds);}", "1", "let", "rent_balance", "=", "Rent::get().minimum_balance(", "campaign.to_account_info().data_len());", "2", "let", "rent_lamports", "=", "**campaign.to_account_info()", ".lamports.borrow()", "-", "rent_balance;", "(a)", "Contract", "A", "6", "**bank.to_account_info().try_borrow_mut_lamports()?", "-=", "amount;", "7", "**user.to_account_info().try_borrow_mut_lamports()?", "+=", "amount;", "8", "bank.balance", "-=", "amount;", "4", "if", "**bank.to_account_info().lamports.borrow()", "-", "rent", "<", "amount", "5", "{return", "Err(InsufficientFunds);}", "2", "let", "rent", "=", "Rent::get().minimum_balance(", "3", "bank.to_account_info().data_len());", "1", "if", "bank.owner", "!=", "user.key()", "{", "return", "Err(IncorrectProgramId);}"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 536.16,
+    "y1": 78.72,
+    "y2": 177.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure6-1.png"
+}, {
+  "caption": "Table 3: Most Cloned Smart Contract Projects",
+  "captionBoundary": {
+    "x1": 345.85101318359375,
+    "x2": 530.003662109375,
+    "y1": 213.04586791992188,
+    "y2": 215.1259765625
+  },
+  "figType": "Table",
+  "imageText": ["auction", "14.55%", "544", "token-vault", "10.03%", "375", "token-metadata", "7.17%", "268", "farms", "5.10%", "191", "token-swap", "3.69%", "138", "candy-machine", "2.48%", "93", "token-lending", "1.22%", "46", "name-service", "0.64%", "24", "dewicats-program", "0.48%", "18", "football-daos", "0.42%", "16", "Project", "Name", "Ratios", "Count"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 363.84,
+    "x2": 512.16,
+    "y1": 229.92,
+    "y2": 360.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Table3-1.png"
+}, {
+  "caption": "Figure 7: Smart Contract Clone Ratios",
+  "captionBoundary": {
+    "x1": 96.98100280761719,
+    "x2": 250.85546875,
+    "y1": 650.6638793945312,
+    "y2": 652.7440185546875
+  },
+  "figType": "Figure",
+  "imageText": ["Clone", "Ratio", "s", "Ra", "tio", "0.9", "0.8", "0.7", "0.6", "0.5", "0.4", "0.5", "0.6", "0.7", "0.8", "0.85", "0.9", "0.95", "Threholds"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 289.44,
+    "y1": 473.28,
+    "y2": 642.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644406-Figure7-1.png"
+}]

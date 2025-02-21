@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: Pull request reporting and fixing a blocking call bug",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0453186035156,
+    "y1": 599.944091796875,
+    "y2": 605.5750122070312
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Developers", "of", "the", "project", "reviewed", "the", "patch", "and", "performance", "anal-", "ysis", "results.", "This", "pull", "request", "has", "been", "merged", "after", "the", "review", "with", "multiple", "positive", "comments.", "fe81acf", "apache:master", "(c)", "Performance", "measurement", "results", "after", "applying", "the", "patch.", "(b)", "Performance", "measurement", "results", "before", "applying", "the", "patch.", "(a)", "Reported", "blocking-call", "issue", "with", "stack", "traces", "of", "the", "symptom", "in", "the", "apache/james", "project.", "The", "corresponding", "patch", "has", "been", "attached", "to", "this", "pull", "request.", "memory-app", "apache:master", "ix-blocking-call-in-memory-app"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 286.08,
+    "y1": 339.84,
+    "y2": 595.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Example of a reactive Java program [16].",
+  "captionBoundary": {
+    "x1": 337.0190124511719,
+    "x2": 539.1395874023438,
+    "y1": 464.1221008300781,
+    "y2": 469.75299072265625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "+", ".then().subscribeOn(Schedulers.boundedElastic())", "11", ").buildPool();", "12", "}", "2", "...", "3", "newPool", "=", "PoolBuilder.from(connectionMono.flatMap(this::openChannel))", "4", ".sizeBetween(1,", "configuration.maxChannel)", "5", ".destroyHandler(", "6", "channel", "->", "Mono.fromRunnable(", "7", "Throwing.runnable(()", "->", "{", "8", "if", "(channel.isOpen())", "channel.close();", "9", "}))", "Configuration", "configuration)", "{", "1", "public", "ReactorRabbitMQChannelPool(Mono<Connection>", "connectionMono,"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 344.64,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Blocking I/O in non-blocking context [23].",
+  "captionBoundary": {
+    "x1": 69.13600158691406,
+    "x2": 278.7076721191406,
+    "y1": 226.53810119628906,
+    "y2": 232.16900634765625
+  },
+  "figType": "Figure",
+  "imageText": ["2023-02-21", "21:31:32,456", "WARN", "[io.ver.cor.imp.BlockedThreadChecker]", "(vertx-blocked-", "thread-checker)", "Thread", "Thread[vert.x-eventloop-thread-2,5,main]", "has", "been", "blocked", "for", "345343", "ms,", "time", "limit", "is", "2000", "ms:", "io.vertx.core.VertxException:", "Thread", "blocked", "at", "java.base@11.0.18/jdk.internal.misc.Unsafe.park(Native", "Method)", "at", "java.base@11.0.18/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)", "at", "java.base@11.0.18/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFutur", "28", "message.ack().toCompletableFuture().join();", "f9d339e"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 279.36,
+    "y1": 83.52,
+    "y2": 225.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Figure6-1.png"
+}, {
+  "caption": "Table 2: Performance improvement after blocking call fixes.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2061767578125,
+    "y1": 463.4341125488281,
+    "y2": 469.06500244140625
+  },
+  "figType": "Table",
+  "imageText": ["Mib:", "Mebibytes,", "∗:", "p-value", "<", "0.05,", "∗∗:", "p-value", "<", "0.01.", "Spring", "Data", "Examples", "[28]", "11", "(16.1%)", "0", "(0%)", "∗", "0", "(0%)", "0", "(0%)", "Nettosphere", "[21]", "0", "(0%)", "0", "(0%)", "0.2", "(1.4%)", "0.1", "(0.12%)", "Mercury", "[46]", "0", "(0%)", "62.1", "(14.9%)", "0", "(0%)", "0.4", "(0.4%)", "∗∗", "Spring", "Reactive", "Sample", "[53]", "0", "(0%)", "24", "(15.4%)", "0", "(0%)", "1.2", "(1.2%)∗∗", "Vert.x", "Micrometer", "Metrics", "[54]", "1.6", "(3.6%)", "31.5", "(10.1%)∗∗", "0", "(0%)", "0.2", "(0.2%)", "Apache", "James", "Project", "[16]", "0", "(0%)", "20.5", "(6%)", "0.1", "(0.3%)", "0", "(0%)", "Spring", "Framework", "[29]", "0.8", "(0.8%)", "10.6", "(3.4%)", "0", "(0%)", "0", "(0%)", "AWS", "SDK", "for", "Java", "[4]", "3.7", "(14.01%)", "0", "(0%)", "1", "(28%)", "0.3", "(0.3%)∗∗", "Vert.x", "Redis", "Client", "[33]", "0", "(0%)", "139.8", "(62%)∗", "0", "(0%)", "0", "(0%)", "Subject", "CPU", "(%)", "↓", "Heap", "(Mib)", "↓", "Latency", "(s)", "↓", "Memory", "(%)", "↓", "Vert.x", "Kafka", "Client", "[31]", "12.3", "(22%)", "139.8", "(33.3%)∗", "0", "(0%)", "(3.2%)∗∗"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 472.79999999999995,
+    "y2": 575.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Table2-1.png"
+}, {
+  "caption": "Figure 3: Overview of our study.",
+  "captionBoundary": {
+    "x1": 241.3350067138672,
+    "x2": 370.66644287109375,
+    "y1": 175.4411163330078,
+    "y2": 181.072021484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Comment by a developer who reviewed our PR without performance analysis results.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.2041015625,
+    "y1": 499.2601013183594,
+    "y2": 515.8499755859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 446.88,
+    "y2": 496.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Performance measurement over 10 loops after fixing blocking calls in Apache James Project [16].",
+  "captionBoundary": {
+    "x1": 96.56600189208984,
+    "x2": 515.43359375,
+    "y1": 163.9251251220703,
+    "y2": 169.5560302734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 414.24,
+    "y1": 85.92,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Figure7-1.png"
+}, {
+  "caption": "Table 1: Outcomes of reactiveness and non-reactiveness bugs (33,210 in total) collected from 29 open-source projects, following the procedures described in Section 3.2.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8085327148438,
+    "y1": 86.72310638427734,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["units", "within", "a", "source", "root,", "the", "parsed", "files", "are", "saved", "implicitly", "by", "JavaParser", "upon", "saving", "the", "source", "root.", "LexicalPreservingPrinter", "[18]", "is", "chosen", "as", "the", "printer.", "It", "ensures", "that", "the", "code", "that", "is", "not", "modi-", "fied", "by", "our", "transformations", "remains", "completely", "unchanged", "with", "the", "original", "formatting.", "For", "the", "new", "AST", "nodes", "(not", "parsed", "from", "source", "code),", "since", "there", "is", "no", "original", "format", "to", "preserve,", "it", "defaults", "to", "the", "pretty-printed", "form,", "which", "follows", "the", "standard", "Java", "formatting."],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 311.52,
+    "y1": 87.36,
+    "y2": 172.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680319-Table1-1.png"
+}]

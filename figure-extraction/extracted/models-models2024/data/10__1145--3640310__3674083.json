@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 4: Overview of the approach. Models are rectangles, transformations are rounded rectangles and HOTs are double rounded rectangles. Incoming/outgoing arrows represent respectively input/output flows of artifacts (i.e., input/output models of transformations and input/output transformations of HOTs).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.205322265625,
+    "y1": 259.7460632324219,
+    "y2": 287.2949523925781
+  },
+  "figType": "Figure",
+  "imageText": ["BX", "Technical", "Space", "UX", "Technical", "Space", "SubModel", "w/", "Traces", "Target", "w/", "Traces", "BX", "-", "Bwd", "Dir.", "w/", "Traces", "BX", "-", "Fwd", "Dir.", "Source", "Model", "Updated", "w/", "Traces", "Source", "Model", "Target", "Model", "Updated", "Data", "Model", "UX", "to", "BX", "Partial", "Transl.", "UX", "to", "BX", "Data", "Model", "UX", "to", "BX", "Data", "Model", "UX", "to", "BX", "w/", "Traces", "Target", "Model", "Updated", "Target", "Update", "w/", "Traces", "Target", "Model", "Source", "Model", "Updated", "w/", "Traces", "Source", "Model", "UX", "Tracer", "UX"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 508.32,
+    "y1": 84.96,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674083-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Syntax of the filtered subset of ATL",
+  "captionBoundary": {
+    "x1": 83.56300354003906,
+    "x2": 264.2808532714844,
+    "y1": 237.1591339111328,
+    "y2": 242.7900390625
+  },
+  "figType": "Figure",
+  "imageText": ["|", "oclExp.id", "|", "string", "|", "oclExp.concat(oclExp)", "|", "oclExp", "+", "oclExp", "binding", "::=", "id", "←", "oclExp", "oclExp", "::=", "id", "outPatElm", "::=", "id:oclType", "binding∗", "outPat", "::=", "outPatElm+", "|", "not", "guard", "|", "guard", "and", "guard", "|", "guard", "or", "guard", "inPatElm", "::=", "id:oclType", "guard", "guard", "::=", "oclExp.isEmpty(", ")", "|", "oclExp.id", "𝑟", "::=", "rule", "id", "from", "inPat", "to", "outPat", "inPat", "::=", "inPatElm", "ATL", "::=", "module", "id;", "create", "id:id", "from", "id:id;", "𝑟+"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 236.64,
+    "y1": 83.03999999999999,
+    "y2": 221.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674083-Figure5-1.png"
+}, {
+  "caption": "Figure 1: Metamodels of the case study",
+  "captionBoundary": {
+    "x1": 227.67901611328125,
+    "x2": 384.32208251953125,
+    "y1": 197.97511291503906,
+    "y2": 203.60601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Relational", "metamodel", "     key ", "     0..1 ", "     type ", "     0..1 ", "    ownedElements", "     0..* ", "     col ", "     0..* ", "Type", "+name : String", "Column", "+name : String", "Schema", "+name : String", "Table", "+name : String", "(a)", "Class", "diagram", "metamodel", "     owner   ", "     attr   ", "     0..*   ", "     ownedElements   ", "     0..*   ", "     type   ", "     1", "Datatype", "Class", "Classifier", "+name : String", "Attribute", "+name : String", "+multivalued : Boolean", "Package", "+name : String"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 117.6,
+    "x2": 492.0,
+    "y1": 84.0,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674083-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Syntax of UnQL",
+  "captionBoundary": {
+    "x1": 122.97000122070312,
+    "x2": 224.87313842773438,
+    "y1": 698.4290771484375,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["|", "𝑅𝑝?", "|", "𝑅𝑝∗", "|", "𝑅𝑝+", "|", "isEmpty", "(𝑇", ")", "(label)", "𝐿", "::=", "$l", "|", "a", "(label", "pattern)", "𝐿𝑝", "::=", "$l", "|", "𝑅𝑝", "(graph", "pattern)", "𝐺𝑝", "::=", "$g", "|", "{𝐿𝑝", ":", "𝐺𝑝,", ".", ".", ".", ",", "𝐿𝑝", ":", "𝐺𝑝}", "(regular", "path", "pat.)", "𝑅𝑝", "::=", "a", "|", "|", "𝑅𝑝.𝑅𝑝", "|", "(𝑅𝑝", "|𝑅𝑝", ")", "|", "𝐵𝐶", "or", "𝐵𝐶", "|", "𝐿", "=", "𝐿", "(template)", "𝑇", "::=", "{𝐿", ":", "𝑇,", ".", ".", ".", ",", "𝐿", ":", "𝑇", "}", "|", "𝑇", "∪𝑇", "|", "$g", "|", "if", "𝐵𝐶", "then", "𝑇", "else", "𝑇", "|", "select", "𝑇", "where", "𝐵,", ".", ".", ".", ",", "𝐵", "|", "select", "𝑇", "|", "letrec", "Sdef", "and", "Sdef", "·", "·", "·", "in", "fname(𝑇", ")", "(structural", "recursion)", "Sdef", "::=", "sfun", "Dclause", "|", ".", ".", ".", "|", "Dclause", "(definition", "clause)", "Dclause", "::=", "fname({𝐿", ":", "$g})", "=", "𝑇", "(binding)", "𝐵", "::=𝐺𝑝", "in", "𝑇", "|", "𝐵𝐶", "(condition)", "𝐵𝐶", "::=", "not𝐵𝐶", "|", "𝐵𝐶", "and", "𝐵𝐶"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 531.84,
+    "y2": 683.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674083-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Distribution of the transformations of the ATL zoo by percentage of bidirectionalized LOCs",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0435485839844,
+    "y1": 246.2660675048828,
+    "y2": 262.85601806640625
+  },
+  "figType": "Figure",
+  "imageText": [".", "bidirectionalization", "seems", "to", "be", "quite", "evenly", "distributed", "between", "20%", "and", "100%", "of", "the", "transformation", "LOCs.", "most", "rules,", "because", "of", "the", "complexity", "of", "the", "task", "and", "the", "experience", "of", "the", "programmer.", "•", "Over", "the", "set", "of", "remaining", "transformations,", "the", "amount", "of"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.71999999999997,
+    "y1": 326.88,
+    "y2": 400.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674083-Figure6-1.png"
+}, {
+  "caption": "Figure 3: Sample models in object-diagram syntax. Corresponding elements have the same position in the two models. As we discuss in Section 3, updates to elements with dashed lines are not backward-propagable.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2001953125,
+    "y1": 261.9510803222656,
+    "y2": 278.541015625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Sample", "Relational", "model", "type", "type", "type", "col", "colcol", "key", "ownedElements", "ownedElements", "name", "=", "String", ":", "Type", "name", "=", "’Person_personId’", ":", "Column", "name", "=", "’Person_family’", ":", "Column", "name", "=", "’Family_name’", ":", "Column", "name", "=", "’Person’", ":", "Table", "name", "=", "’Family’", ":", "Table", "name", "=", "’Families’", ":", "Schema", "(a)", "Sample", "ClassDiagram", "model", "type", "type", "type", "type", "attr", "attr", "attr", "attr", "ownedElements", "ownedElements", "name", "=", "String", ":", "DataType", "name", "=", "’personId’", "multivalued", "=", "false", ":", "Attribute", "name", "=", "’members’", "multivalued", "=", "true", ":", "Attribute", "name", "=", "’family’", "multivalued", "=", "false", ":", "Attribute", "name", "=", "’name’", "multivalued", "=", "false", ":", "Attribute", "name", "=", "’Person’", ":", "Class", "name", "=", "’Family’", ":", "Class", "name", "=", "’Families’", ":", "Package"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 246.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674083-Figure3-1.png"
+}]

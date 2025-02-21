@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 5: A case of sentence pair relationship prediction using prompt template in DSPA.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1914672851562,
+    "y1": 271.8203430175781,
+    "y2": 288.4100036621094
+  },
+  "figType": "Figure",
+  "imageText": ["……", "input", "LLaMA2", "with", "LoRA", "Relationship", "Prediction", "embed", "embed", "embed", "……", "……", "Response", "(inject", "only", "during", "training)", "-", "[LABEL]", ":", "Corresponding", "-", "Distance", ":", "1", "-", "InSameComment", ":", "True", "Sentence", "Pair", "Features", "###", "Instruction:", "The", "following", "two", "sentences", "may", "be", "argument", "or", "solution", "for", "an", "issue.", "Is", "their", "relationship", "argument-", "solution", "corresponding,", "complementary,", "or", "unrelated?", "###", "Input:", "Sentence", "one:", "For", "now,", "I", "think", "it", "is", "a", "good", "idea", "to", "implement", "both", "memory", "allocation", "variants", "(heap", "and", "off-heap).", "Sentence", "two:", "The", "variant", "used", "will", "be", "determined", "by", "a", "configuration", "variable", "which", "enables", "us", "to", "run", "further", "performance", "and", "stability", "tests.", "Two", "sentences", "are", "in", "the", "same", "comment", "and", "their", "distance", "is", "1.", "###", "Response:", "Corresponding", "Prompt", "after", "Embedding", "###", "Instruction:", "The", "following", "two", "sentences", "may", "be", "argument", "or", "solution", "for", "an", "issue.", "Is", "their", "relationship", "argument-solution", "corresponding,", "complementary,", "or", "unrelated?", "###", "Input:", "…{sentence1}…", "{sentence2}…", "{features}", "###", "Response:", "[LABEL]", "Prompt", "Template", "for", "DSPA", "variable", "which", "enables", "us", "to", "run", "further", "performance", "and", "stability", "tests.", "-", "The", "variant", "used", "will", "be", "determined", "by", "a", "configuration", "memory", "allocation", "variants", "(heap", "and", "off-heap).", "Sentences", "extracted", "by", "DSEA:", "-", "……", "-", "For", "now,", "I", "think", "it", "is", "a", "good", "idea", "to", "implement", "both", "Issue:", "FLINK-1320"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 84.0,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Figure5-1.png"
+}, {
+  "caption": "Figure 1: Part of CASSANDRA-11452 selected from Jira.",
+  "captionBoundary": {
+    "x1": 61.724998474121094,
+    "x2": 286.1080627441406,
+    "y1": 391.2993469238281,
+    "y2": 396.92999267578125
+  },
+  "figType": "Figure",
+  "imageText": ["Comment", "3", "Comment", "2", "Unrelated", "social", "conversation", "Argument", "against", "the", "solution", "Argument", "for", "the", "solution", "Comments", "Comment", "1", "One", "solution", "of", "the", "issue", "Issue", "Description", "Title"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 240.0,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Figure1-1.png"
+}, {
+  "caption": "Table 1: Size of the annotated dataset for DRMiner (number of sentences).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3897705078125,
+    "y1": 166.47238159179688,
+    "y2": 183.06097412109375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "343", "425", "1324", "2092", "Flink", "111", "78", "232", "421", "Solr", "172", "211", "609", "992", "Cassandra", "60", "136", "483", "679", "Project", "Sentence", "Type", "Total", "Solution", "Argument", "Unrelated"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 199.68,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Table1-1.png"
+}, {
+  "caption": "Table 4: Useful evaluation results of DR in APR.",
+  "captionBoundary": {
+    "x1": 76.58700561523438,
+    "x2": 270.9519348144531,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-4.0", "1", "0.75", "GPT-4.0", "+", "DR", "19", "0.85", "GPT-4.0", "+MDR", "21", "0.84", "GPT-3.5", "1", "0.75", "GPT-3.5", "+", "DR", "11", "0.71", "GPT-3.5", "+MDR", "14", "0.66", "CL", "1", "0.68", "CL", "+", "DR", "11", "0.75", "CL", "+MDR", "14", "0.83", "Approaches", "Full-match", "CodeBLEU", "[49]"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 270.24,
+    "y1": 108.47999999999999,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Table4-1.png"
+}, {
+  "caption": "Figure 2: Issue Log-Design Rationale class diagram.",
+  "captionBoundary": {
+    "x1": 70.30599975585938,
+    "x2": 277.52813720703125,
+    "y1": 221.49636840820312,
+    "y2": 227.12701416015625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "1", "1", "1", "1", "1", "complementary", "complementary", "Reorganize", "corresponding", "Decompose", "1", "1…n", "1", "1…n", "0…n", "1", "1…n", "1", "1…n", "1", "0…n", "1", "1", "Target", "Source", "1", "Argument", "Stc.C", "Solution", "Stc.C", "1", "1", "Design", "RationaleC", "ArgumentC", "DescriptionCSolutionC", "Sentence", "String", "id", "String", "content", "A", "CommentC", "String", "id", "Jira", "Issue", "String", "id", "String", "summary", "C"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Figure2-1.png"
+}, {
+  "caption": "Figure 4: A case of sentence polarity prediction using prompt template in DSEA.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0346374511719,
+    "y1": 535.7383422851562,
+    "y2": 552.3280029296875
+  },
+  "figType": "Figure",
+  "imageText": ["……", "input", "BERT", "Polarity", "Prediction", "embed", "……", "……", "For", "now,", "I", "think", "it", "is", "a", "good", "idea", "to", "implement", "both", "memory", "allocation", "variants", "(heap", "and", "off-", "heap)", "is", "[MASK]", "contributed", "to", "solve", "the", "issue", "Add", "an", "off-heap", "variant", "of", "the", "managed", "memory.", "Prompt", "after", "Embedding", "{sentence}", "is", "[MASK]", "contributed", "to", "solve", "the", "issue", "{summary}.", "Prompt", "Template", "for", "DSEA", "-", "……", "performance", "and", "stability", "tests.", "Summary:", "Add", "an", "off-heap", "variant", "of", "the", "managed", "memory.", "Comments:", "-", "I’m", "working", "on", "a", "pull", "request", "which", "should", "incorporate", "most", "of", "your", "suggestions.", "-", "For", "now,", "I", "think", "it", "is", "a", "good", "idea", "to", "implement", "both", "memory", "allocation", "variants", "(heap", "and", "off-heap).", "-", "The", "variant", "used", "will", "be", "determined", "by", "a", "configuration", "variable", "which", "enables", "us", "to", "run", "further", "Issue:", "FLINK-1320"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 291.84,
+    "y1": 374.88,
+    "y2": 523.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Figure4-1.png"
+}, {
+  "caption": "Figure 3: The overall framework of DRMiner.",
+  "captionBoundary": {
+    "x1": 214.7270050048828,
+    "x2": 397.2714538574219,
+    "y1": 360.7703552246094,
+    "y2": 366.4010009765625
+  },
+  "figType": "Figure",
+  "imageText": ["inject", "D", "stan", "e", "InSameComment", "Sentence", "Pair", "Features", "S3", "S4", "S5", "S-P", "Vector", "…", "Sentence", "Relations", "DRMiner", "Additional", "Paired", "S1", "S2", "inject", "Argument", "Solution", "Design", "Rationale", "phase", "3.", "Design", "Rationale", "Construction", "Unrelated", "Complementary", "Corresponding", "extract", "LLaMA2", "with", "LoRA", "concatenate", "Prompt", "for", "DSEA", "Prompt", "for", "DSPA", "Design-", "Unrelated", "Sentence", "Design-", "Related", "Sentence", "inject", "Classifier", "…", "phase", "2.", "Design", "Text", "Pairing", "Polarity", "Vector", "extract", "…", "…", "never", "0.03", "surely", "0.66", "Polarity", "Prediction", "…", "…", "…", "…", "Sentiment", "Structure", "Keyword", "Position", "Process", "Sentence", "Features", "[MASK]", "BERT", "Raw", "Issue", "Data", "phase", "1.", "Design", "Text", "Extraction"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 84.0,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Figure3-1.png"
+}, {
+  "caption": "Table 3: The results of ablation experiments of DSEA (%).",
+  "captionBoundary": {
+    "x1": 59.26000213623047,
+    "x2": 288.2865905761719,
+    "y1": 445.22735595703125,
+    "y2": 450.8580017089844
+  },
+  "figType": "Table",
+  "imageText": ["Answering", "RQ2:", "Our", "tailored", "sentence", "features", "enhance", "the", "detection", "of", "sentences", "related", "to", "DRs.", "This", "improve-", "ment", "is", "particularly", "significant", "in", "contexts", "with", "scarce", "training", "data,", "as", "is", "the", "case", "in", "our", "scenario.", "Our", "DSEA", "91", "76", "83", "DSEA", "−", "Process", "77", "71", "74", "(↓", "10.8%)", "DSEA", "−", "Position", "92", "64", "75", "(↓", "9.6%)", "DSEA", "−", "Keyword", "89", "69", "77", "(↓", "7.2%)", "DSEA", "−", "Structure", "90", "64", "75", "(↓", "9.6%)", "DSEA", "−", "Sentiment", "81", "71", "76", "(↓", "8.4%)", "Precision", "Recall", "F1-score", "Method", "Design-Related", "Sentence"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 468.0,
+    "y2": 654.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Table3-1.png"
+}, {
+  "caption": "Table 2: The comparison of DRMiner and baselines in DR level and sentence level (%).",
+  "captionBoundary": {
+    "x1": 132.72999572753906,
+    "x2": 478.9607238769531,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Ours", "DRMiner", "43", "75", "54", "39", "66", "49", "46", "79", "58", "LLM-based", "GPT-4.0", "75", "19", "30", "27", "28", "27", "34", "44", "38", "CNC[25]", "0", "0", "0", "0", "0", "0", "0", "0", "0", "DECA[18]", "0", "0", "0", "0", "0", "0", "0", "0", "0", "Pranjal", "et", "al.[60]", "3", "6", "4", "100", "3", "7", "50", "3", "5", "Zeberga", "et", "al.[68]", "4", "6", "5", "100", "3", "7", "100", "2", "5", "DL-based", "ML-based", "AdaBoost", "7", "6", "6", "100", "3", "7", "0", "0", "0", "Gradient", "Boosting", "13", "6", "8", "100", "3", "7", "0", "0", "0", "Precision", "Recall", "F1-score", "Precision", "Recall", "F1-score", "Precision", "Recall", "F1-score", "Type", "Approach", "Design", "Rationale", "Solution", "Sentence", "Argument", "Sentence"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 537.12,
+    "y1": 108.47999999999999,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695019-Table2-1.png"
+}]

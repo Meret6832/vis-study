@@ -1,0 +1,81 @@
+[{
+  "caption": "Figure 4: Results of the user study to evaluate naturalness of",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0346374511719,
+    "y1": 210.71591186523438,
+    "y2": 212.7960205078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695500-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Comparisons of AaceGEN with four baseline ap-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8042602539062,
+    "y1": 160.45388793945312,
+    "y2": 162.53399658203125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Vulnerability", "Detection", "(b)", "Functionality", "Classification", "(c)", "Defect", "Prediction"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 148.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695500-Figure2-1.png"
+}, {
+  "caption": "Figure 1: Overview of AaceGEN.",
+  "captionBoundary": {
+    "x1": 371.968994140625,
+    "x2": 504.185546875,
+    "y1": 219.94686889648438,
+    "y2": 222.0269775390625
+  },
+  "figType": "Figure",
+  "imageText": ["Greedy", "Search", "under", "ConstraintCandidates", "Candidate", "Selection", "Fitness", "Evaluation", "Termination", "reaches?", "Yes", "No", "Candidates", "Generation", "...", "...", "...", "Function", "Renaming", "While", "Loop", "Transformation", "Data", "Type", "Renaming", "Variable", "Renaming", "Ranked", "Code", "Elements", "Important", "Self-", "Attention", "Head", "Attention", "Distributions", "Original", "Code", "Target", "Model", "Adversarial", "Code", "Original", "Code", "Adversarial", "Code", "Example", "Generation", "Target", "Model", "Code", "Transformation", "RulesCode", "Element", "Ranking", "If", "Branch", "Transformation", "Structure", "Transformation", "For", "Loop", "Transformation", "Grammatical", "Transformation", "Integral", "Type", "Transformation", "Comparison", "Operator", "Transformation", "Boolean", "Negation", "Renaming", "Transformation"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695500-Figure1-1.png"
+}, {
+  "caption": "Table 1: Descriptions of code transformation rules adopted in AaceGEN.",
+  "captionBoundary": {
+    "x1": 158.9739990234375,
+    "x2": 452.728515625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Switch", "Branch", "Transformation", "Transform", "switch", "branch", "to", "if", "branch", "switch(a){case", "1:...;break;", "default:...}", "if(a==1){...}else{...}", "If", "Branch", "Transformation", "Transform", "if", "branch", "to", "switch", "branch", "if(a==1){...}else{...}", "switch(a){case", "1:...;break;", "default:", "...}", "While", "Loop", "Transformation", "Transform", "while", "loop", "to", "for", "loop", "“i=0;", "while(i<10){...;", "i++;}”", "“for(i=0;i<10;i++){...}”", "For", "Loop", "Transformation", "Transform", "for", "loop", "to", "while", "loop", "for(i=0;i<10;i++){...}", "i=0;", "while(i<10){...;", "i++;}", "Structure", "Transformation", "Boolean", "Negation", "Negate", "the", "value", "of", "a", "boolean", "variable", "boolean", "flag=true;", "if", "(flag)...", "boolean", "flag=false;", "if", "(!flag)...", "Change", "the", "argument", "assignment", "operator", "to", "assignment", "operator", "a+=1", "a=a+1", "Argument", "Assignment", "Operator", "Transformation", "Unary", "Operator", "Transformation", "Change", "the", "increment/decrease", "operator", "x++", "x=x+1", "Replace", "the", "comparison", "operator", "by", "the", "opposite", "operator", "x", "<", "y", "y", ">", "x", "Comparison", "Operator", "Transformation", "Character", "Type", "Transformation", "Replace", "the", "character", "type", "by", "a", "higher", "type", "char", "a", "char32_t", "a", "Floating", "Type", "Transformation", "Replace", "the", "floating", "type", "by", "a", "higher", "type", "float", "a", "double", "a", "Integral", "Type", "Transformation", "Replace", "the", "integral", "type", "by", "a", "higher", "type", "int", "a", "long", "a", "Grammatical", "Transformation", "Function", "Renaming", "Rename", "the", "function", "or", "method", "name", "int", "add()", "int", "plus()", "Data", "Type", "Renaming", "Rename", "user-defined", "type", "struct", "a", "struct", "b", "Variable", "Renaming", "Rename", "the", "variable", "name", "int", "a", "int", "i", "Renaming", "Transformation", "Original", "Code", "Transformed", "Code", "Category", "Transformation", "Rule", "Description", "Example"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 545.28,
+    "y1": 98.88,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695500-Table1-1.png"
+}]

@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 1. Triangle classification source code.",
+  "captionBoundary": {
+    "x1": 166.09091186523438,
+    "x2": 319.9092102050781,
+    "y1": 256.9882507324219,
+    "y2": 261.718017578125
+  },
+  "figType": "Figure",
+  "imageText": ["14", "int", "checkType(int", "a,", "int", "b,", "int", "c)", "{", "15", "int", "type;", "16", "if", "(a", "+", "b", "<=", "c)", "17", "type", "=", "NOT_A_TRIANGLE;", "18", "else", "{", "19", "type", "=", "SCALENE;", "20", "if", "(a", "==", "b", "&&", "b", "==", "c)", "21", "type", "=", "EQUILATERAL;", "22", "else", "if", "(a", "==", "b", "||", "b", "==", "c)", "23", "type", "=", "ISOSCELES;", "24", "}", "25", "return", "type;", "26", "}", "13", "10", "type", "=", "checkType(a,b,c);", "11", "return", "type;", "12", "}", "1", "int", "tri_type(int", "a,", "int", "b,", "int", "c)", "{", "2", "int", "type", "=", "NOT_A_TRIANGLE;", "3", "if", "(a", ">", "b)", "4", "int", "t", "=", "a;", "a", "=", "b;", "b", "=", "t;", "5", "if", "(a", ">", "c)", "6", "int", "t", "=", "a;", "a", "=", "c;", "c", "=", "t;", "7", "if", "(b", ">", "c)", "8", "int", "t", "=", "b;", "b", "=", "c;", "c", "=", "t;", "9", "if", "(a", "+", "b", ">", "c)"],
+  "name": "1",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 37.92,
+    "x2": 441.12,
+    "y1": 92.64,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660819-Figure1-1.png"
+}, {
+  "caption": "Table 2. Illustration of the inference process, as applied to the triangle example. ‘T’ and ‘F’ indicate whether the element is covered for that given input. Shaded cells indicate that the inference algorithm has deleted that boolean literal from the hypothesis.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.333251953125,
+    "y1": 284.6412353515625,
+    "y2": 311.28900146484375
+  },
+  "figType": "Table",
+  "imageText": ["8", "a", "b", "c", "G1−3", "G1−3", "G4", "G4", "G5", "G5", "G6", "G6", "G7", "G7", "G8", "G8", "G9", "G9", "G10", "G10", "G11", "G11", "G14−16", "G14−16", "G17", "G17", "G18−20", "G18−20", "G21", "G21", "G22", "G22", "G23", "G23", "G25", "G25", "0", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "·", "1", "1", "1", "3", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "T", "F", "2", "5", "9", "9", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "T", "F", "T", "F", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "T", "F", "T", "F", "3", "4", "5", "7", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", ".", ".", ".", ".", ".", ".", ".", ".", ".", "199", "2", "8", "8", "T", "F", "F", "T", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "T", "F", "F", "T", "T", "F", "F", "T", "T", "F", "T", "F", "T", "F"],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 325.92,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660819-Table2-1.png"
+}, {
+  "caption": "Table 3. Coverage results for CARLA/TCP. Size refers to number of statements. Bound refers to our upper bound. “Cov. (all)” refers to the coverage from running all 2,400 tests. “Cov. (bound)” refers to median coverage from running the bounded test sets. Δ is the di erence between “Cov. (bound)” and “Cov. (all)”.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3296813964844,
+    "y1": 87.62422943115234,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["File", "Size", "Bound", "Cov.", "(all)", "Cov.", "(bound)", "95%", "CI", "Δ", "basic_agent.py", "128", "714.62", "0.1", "0.1", "[0.1,0.1]", "0", "controller.py", "216", "1198.01", "0.09", "0.09", "[0.09,0.09]", "0", "global_route_planner_dao.py", "79", "445.46", "0.41", "0.41", "[0.41,0.41]", "0", "misc.py", "163", "906.88", "0.11", "0.11", "[0.11,0.11]", "0", "autonomous_agent.py", "126", "703.64", "0.29", "0.29", "[0.29,0.29]", "0", "checkpoint_tools.py", "77", "434.48", "0.31", "0.31", "[0.31,0.31]", "0", "result_writer.py", "116", "648.71", "0.53", "0.53", "[0.53,0.53]", "0", "route_indexer.py", "72", "407.01", "0.64", "0.64", "[0.64,0.64]", "0", "route_manipulation.py", "160", "890.4", "0.48", "0.48", "[0.48,0.48]", "0", "planner.py", "113", "632.23", "0.57", "0.57", "[0.57,0.57]", "0", "run_stop_sign.py", "157", "873.92", "0.57", "0.56", "[0.56,0.56]", "0.01", "torch_layers.py", "114", "637.72", "0.31", "0.31", "[0.31,0.31]", "0", "torch_util.py", "104", "582.79", "0.16", "0.16", "[0.16,0.16]", "0", "con", "g_utils.py", "148", "824.49", "0.14", "0.14", "[0.14,0.14]", "0", "rl_birdview_wrapper.py", "142", "791.53", "0.09", "0.09", "[0.09,0.09]", "0", "tra", "c_light.py", "199", "1104.63", "0.48", "0.48", "[0.48,0.48]", "0", "transforms.py", "128", "714.62", "0.18", "0.18", "[0.18,0.18]", "0", "route_scenario_con", "guration.py", "50", "286.17", "0.24", "0.24", "[0.24,0.24]", "0", "scenario_con", "guration.py", "86", "483.92", "0.5", "0.5", "[0.5,0.5]", "0", "actor_control.py", "154", "857.44", "0.14", "0.14", "[0.14,0.14]", "0", "basic_control.py", "106", "593.78", "0.15", "0.15", "[0.15,0.15]", "0", "external_control.py", "43", "247.71", "0.16", "0.16", "[0.16,0.16]", "0", "npc_vehicle_control.py", "106", "593.78", "0.13", "0.13", "[0.13,0.13]", "0", "pedestrian_control.py", "71", "401.52", "0.13", "0.13", "[0.13,0.13]", "0", "timer.py", "158", "879.42", "0.36", "0.36", "[0.36,0.36]", "0", "tra", "c_events.py", "84", "472.93", "0.42", "0.42", "[0.42,0.42]", "0", "watchdog.py", "79", "445.46", "0.32", "0.32", "[0.32,0.32]", "0", "weather_sim.py", "166", "923.36", "0.19", "0.19", "[0.19,0.19]", "0", "control_loss.py", "198", "1099.14", "0.47", "0.47", "[0.47,0.47]", "0", "junction_crossing_route.py", "203", "1126.6", "0.14", "0.14", "[0.14,0.14]", "0", "maneuver_opposite_direction.py", "172", "956.32", "0.1", "0.1", "[0.1,0.1]", "0", "other_leading_vehicle.py", "151", "840.97", "0.11", "0.11", "[0.11,0.11]", "0"],
+  "name": "3",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 431.03999999999996,
+    "y1": 128.64,
+    "y2": 493.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660819-Table3-1.png"
+}, {
+  "caption": "Fig. 3. Plots of the di erence between test sets of size 1 and 2 ∗ 1 with respect to statement coverage and mutation score from Study 3.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.16949462890625,
+    "y1": 215.7272186279297,
+    "y2": 231.41598510742188
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "SUT", "sizes", "versus", "coverage", "di", "erence.", "(b)", "Di", "erence", "in", "mutation", "score", "versus", "cov-", "erage."],
+  "name": "3",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 428.15999999999997,
+    "y1": 84.0,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660819-Figure3-1.png"
+}, {
+  "caption": "Table 1. Key correspondences between Inference Adequacy and the PAC framework.",
+  "captionBoundary": {
+    "x1": 87.03900146484375,
+    "x2": 398.719482421875,
+    "y1": 87.62398529052734,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["(De", "nition", "3.4)", "is", "all", "possible", "mappings", "-", "→", ".", "(De", "nition", "3.5)", "!", ":", ")(", "→", "where", "(De", "nition", "2.5)", "\"", ":", "→", "$", "infer", ":", "$1B", "→", "\"", "where", "Inference", "(De", "nition", "3.3)", "CA", ":", "B0<?;4", "×", ";014;", "→", ")(", "(De", "nition", "2.4)", "Training", "set", "Observation", "trace", "$1B", ";014;", ":", "-", "→", ".", "(De", "nition", "3.2)", "(De", "nition", "2.3)", "Labeling", "procedure", "BDC", ":", "→", "$", "(De", "nition", "3.1)", "Data", "source", "B0<?;4", ":", "-", "×", "-", "×<", "→", "(", "Examples", "and", "labels", "-", ",", ".", "Inputs", "and", "outputs", "Data", ",", "$", "Inference", "Adequacy", "PAC"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 401.28,
+    "y1": 106.56,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660819-Table1-1.png"
+}, {
+  "caption": "Fig. 2. The relationships between X , n , the number of test objectives, and the bound on the number of tests.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17449951171875,
+    "y1": 252.79322814941406,
+    "y2": 257.52301025390625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Relationship", "between", "X", ",", "n", "and", "number", "of", "tests", "for", "a", "system", "with", "20", "test", "objectives.", "(b)", "Relationship", "between", "number", "of", "test", "ob-", "jectives", "and", "bound", "on", "the", "number", "of", "tests."],
+  "name": "2",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 427.2,
+    "y1": 84.0,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660819-Figure2-1.png"
+}]

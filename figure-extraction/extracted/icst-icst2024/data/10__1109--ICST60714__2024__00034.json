@@ -1,0 +1,141 @@
+[{
+  "caption": "TABLE I: Results for RQ1 (Failure Exposure), and RQ2 (Fault Repair). Bold-faced values indicate a statistically significant difference between the adversarial ADS and the random agent, while underlined values indicate that the magnitude of such difference (i.e., Â12) is large.",
+  "captionBoundary": {
+    "x1": 67.42977142333984,
+    "x2": 550.658447265625,
+    "y1": 75.00749206542969,
+    "y2": 103.29815673828125
+  },
+  "figType": "Table",
+  "imageText": ["SEM", "—", "0.92%", "—", "—", "1.37%", "—", "0.17%", "—", "—", "—", "—", "—", "Average", "0.09", "0.01", "0.03%", "0.91", "0.95", "0.13%", "0.39", "0.35%", "10−5", "1.00", "0.11", "0.00", "0.11", "0.01", "0.06%", "0.90", "0.93", "0.12%", "0.39", "0.31%", "10−5", "1.00", "0.03", "0.00", "0.11", "0.00", "0.00%", "0.91", "0.93", "0.21%", "0.39", "0.57%", "10−5", "1.00", "0.28", "0.00", "0.11", "0.09", "0.26%", "0.97", "1.00", "0.00%", "0.38", "0.30%", "10−5", "1.00", "0.05", "0.00", "0.1", "0.00", "0.00%", "0.89", "1.00", "0.00%", "0.41", "0.27%", "10−5", "1.00", "0.04", "0.00", "0.2", "0.00", "0.00%", "0.91", "0.90", "0.17%", "0.39", "0.38%", "10−5", "1.00", "0.14", "0.00", "0.03", "0.00", "0.00%", "0.87", "0.92", "0.26%", "0.39", "0.30%", "10−5", "1.00", "0.10", "0.00", "0.04", "0.00", "0.00%", "0.89", "0.90", "0.22%", "0.39", "0.42%", "10−5", "1.00", "0.07", "0.00", "0.03", "0.00", "0.00%", "0.94", "1.00", "0.04%", "0.39", "0.36%", "10−5", "1.00", "0.15", "0.00", "0.05", "0.00", "0.00%", "0.86", "0.92", "0.23%", "0.39", "0.30%", "10−5", "1.00", "0.02", "0.00", "0.07", "0.00", "0.00%", "0.93", "1.00", "0.00%", "0.39", "0.34%", "10−5", "1.00", "0.17", "0.00", "Train", "FR", "Avg", "Test", "FR", "SEM", "Train", "FR", "Avg", "Test", "FR", "SEM", "Avg", "Test", "FR", "SEM", "Ego", "ADS", "Adversarial", "ADS", "Random", "p-value", "Â12", "Train", "FR", "Avg", "Test", "FR", "Pre-training", "RQ1", "(Failure", "Exposure)", "RQ2", "(Fault", "Repair)"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 540.0,
+    "y1": 110.39999999999999,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00034-TableI-1.png"
+}, {
+  "caption": "Fig. 1: Reinforcement learning loop. At each timestep t the agent receives a state from the environment St. Given the state, the agent outputs an action At that modifies the environment, which in turn gives back a reward Rt+1 that the agent uses for learning.",
+  "captionBoundary": {
+    "x1": 59.53533172607422,
+    "x2": 295.5356750488281,
+    "y1": 197.6722869873047,
+    "y2": 247.03399658203125
+  },
+  "figType": "Figure",
+  "imageText": ["Environment", "RL", "Agent", "ActionState", "Reward", "St+1", "AtSt", "Rt", "Rt+1"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 284.15999999999997,
+    "y1": 72.0,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00034-Figure1-1.png"
+}, {
+  "caption": "Fig. 4: Trend of the average cumulative reward (A) and of the average failure rate, during 2k training episodes. The two metrics are averaged across 10 training runs.",
+  "captionBoundary": {
+    "x1": 67.46319580078125,
+    "x2": 550.6890869140625,
+    "y1": 228.50364685058594,
+    "y2": 244.15228271484375
+  },
+  "figType": "Figure",
+  "imageText": ["A", "B"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 122.88,
+    "x2": 499.2,
+    "y1": 60.0,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00034-Figure4-1.png"
+}, {
+  "caption": "Fig. 2: The ego (in green) and the adversarial (in magenta) ADSs in the highway driving scenario of the HighwayEnv simulator [17].",
+  "captionBoundary": {
+    "x1": 59.85639953613281,
+    "x2": 295.8504943847656,
+    "y1": 169.99534606933594,
+    "y2": 196.88189697265625
+  },
+  "figType": "Figure",
+  "imageText": ["x", "y"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 280.32,
+    "y1": 72.96,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00034-Figure2-1.png"
+}, {
+  "caption": "Fig. 5: Two collision patterns triggered by the adversarial ADS at testing time. The ego ADS is shown in green, while the adversarial ADS in front is shown in magenta. When the ego ADS collides, it changes color to orange.",
+  "captionBoundary": {
+    "x1": 60.52595138549805,
+    "x2": 543.7517700195312,
+    "y1": 214.2656707763672,
+    "y2": 229.914306640625
+  },
+  "figType": "Figure",
+  "imageText": ["Mimicking", "Behaviour", "Adversarial", "Switching", "Lane", "A", "B"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 493.44,
+    "y1": 72.96,
+    "y2": 196.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00034-Figure5-1.png"
+}, {
+  "caption": "Fig. 3: Overview of our approach. The first step trains the adversarial ADS to challenge the ego ADS, while the second step uses the trained adversarial ADS to improve it.",
+  "captionBoundary": {
+    "x1": 66.12156677246094,
+    "x2": 549.3474731445312,
+    "y1": 209.3190155029297,
+    "y2": 224.9676513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Adversarial", "ADSEgo", "ADSAutonomous", "Driving", "System", "Retraining", "Training", "Driving", "System", "Improved", "Autonomous", "2", "1"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 540.0,
+    "y1": 73.44,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00034-Figure3-1.png"
+}, {
+  "caption": "Fig. 6: Longitudinal velocity over time. The leftmost plot (i.e., A), shows the velocity of the ego ADS after the pre-training phase. The center plot (i.e., B) shows the velocities of the ego (in blue) and adversarial ADSs (in orange), after step , i.e., the training of the adversarial ADS. Likewise, the rightmost plot (i.e., C) shows the velocities of the ego and adversarial ADSs after step , i.e., the retraining of the ego ADS in the presence of the adversarial ADS.",
+  "captionBoundary": {
+    "x1": 66.57591247558594,
+    "x2": 549.811279296875,
+    "y1": 216.66184997558594,
+    "y2": 254.78607177734375
+  },
+  "figType": "Figure",
+  "imageText": ["A", "B", "C", "After", "Pre-training", "After", "step", "1", "After", "step", "2"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 546.24,
+    "y1": 72.0,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00034-Figure6-1.png"
+}]

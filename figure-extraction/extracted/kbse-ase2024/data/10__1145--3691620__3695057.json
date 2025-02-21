@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1: Statistics of the studied datasets",
+  "captionBoundary": {
+    "x1": 92.46720123291016,
+    "x2": 255.08189392089844,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["L𝑡𝑜𝑡𝑎𝑙", "=", "L𝐶𝐸", "+", "𝜆1L𝑢𝑛𝑖", "𝑓", "+", "𝜆2L𝑐𝑎𝑢", "(13)", "Finally,", "the", "total", "training", "loss", "is", "defined", "as:", "Big-Vul", "10,900", "177,736", "1:16.3", "3,754", "3,385", "DiverseVul", "18,945", "311,547", "1:16.4", "7,514", "7,022", "FFmpeg+QEMU", "12,460", "14,858", "1:1.2", "6,611", "6,439", "Dataset", "Vul", "Non-vul", "Ratio", "VFCs", "VCCs"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 217.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Table1-1.png"
+}, {
+  "caption": "Figure 9: A NULL pointer dereference (CWE-476) vulnerability correctly detected by Snopy. The yellow-shaded statements positively contribute to Snopy’s prediction.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6501770019531,
+    "y1": 228.6076202392578,
+    "y2": 254.81951904296875
+  },
+  "figType": "Figure",
+  "imageText": ["Vulnerability-Fixing", "Commit", "(e4571b8c)", "of", "CVE-2021-3739", "1", "int", "btrfs_rm_device(struct", "btrfs_fs_info", "*fs_info,", "const", "char", "*device_path,", "u64", "devid)", "2", "{", "3", "struct", "btrfs_device", "*device;", "4", "[", "]", "//", "omit", "10", "lines", "5", "device", "=", "btrfs_find_device_by_devspec(fs_info,", "devid,", "device_path);", "6", "if", "(IS_ERR(device))", "{", "7", "if", "(PTR_ERR(device)", "==", "-ENOENT", "&&", "8", "-", "strcmp(device_path,", "\"missing\")", "==", "0)", "9", "+", "device_path", "&&", "strcmp(device_path,", "\"missing\")", "==", "0)", "10", "ret", "=", "BTRFS_ERROR_DEV_MISSING_NOT_FOUND;", "11", "else", "12", "ret", "=", "PTR_ERR(device);", "13", "goto", "out;", "14", "[", "]", "//", "omit", "119", "lines", "15", "}"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Figure9-1.png"
+}, {
+  "caption": "Figure 2: A motivating example from Linux Kernel.",
+  "captionBoundary": {
+    "x1": 335.3326110839844,
+    "x2": 540.8267822265625,
+    "y1": 338.52581787109375,
+    "y2": 342.8207092285156
+  },
+  "figType": "Figure",
+  "imageText": ["Vulnerability-Fixing", "Commit", "(fe9c8426)", "of", "CVE-2018-9518", "1", "diff", "--git", "a/net/nfc/llcp_commands.c", "b/net/nfc/llcp_commands.c", "2", "index", "367d8c0..2ceefa1", "100644", "3", "---", "a/net/nfc/llcp_commands.c", "4", "+++", "b/net/nfc/llcp_commands.c", "5", "@@", "-149,6", "+149,10", "@@", "struct", "nfc_llcp_sdp_tlv", "6", "*nfc_llcp_build_sdreq_tlv(u8", "tid,", "char", "*uri,", "size_t", "uri_len)", "7", "{", "8", "struct", "nfc_llcp_sdp_tlv", "*sdreq;", "9", "pr_debug(\"uri:", "%s,", "len:", "%zu\\n\",", "uri,", "uri_len);", "10", "+", "if", "(WARN_ON_ONCE(uri_len", ">", "U8_MAX", "-", "4))", "11", "+", "return", "NULL;", "12", "sdreq", "=", "kzalloc(sizeof(struct", "nfc_llcp_sdp_tlv),", "GFP_KERNEL);", "13", "if", "(sdreq", "==", "NULL)", "14", "return", "NULL;", "15", "sdreq->tlv_len", "=", "uri_len", "+", "3;", "16", "if", "(uri[uri_len", "-", "1]", "==", "0)", "17", "sdreq->tlv_len--;", "18", "sdreq->tlv", "=", "kzalloc(sdreq->tlv_len", "+", "1,", "GFP_KERNEL);", "19", "if", "(sdreq->tlv", "==", "NULL)", "{", "20", "kfree(sdreq);", "21", "return", "NULL;", "22", "}", "23", "sdreq->tlv[0]", "=", "LLCP_TLV_SDREQ;", "24", "sdreq->tlv[1]", "=", "sdreq->tlv_len", "-", "2;", "25", "sdreq->tlv[2]", "=", "tid;", "26", "sdreq->tid", "=", "tid;", "27", "sdreq->uri", "=", "sdreq->tlv", "+", "3;", "28", "memcpy(sdreq->uri,", "uri,", "uri_len);", "29", "sdreq->time", "=", "jiffies;", "30", "INIT_HLIST_NODE(&sdreq->node);", "31", "return", "sdreq;", "32", "}"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 324.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Figure2-1.png"
+}, {
+  "caption": "Table 3: The F1-score of our Snopy and baselines for the Top25 most dangerous CWEs in Big-Vul and DiverseVul",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 559.8029174804688,
+    "y1": 250.12757873535156,
+    "y2": 265.3814697265625
+  },
+  "figType": "Table",
+  "imageText": ["Average", "37.24", "44.98", "1", "CWE-787", "17.98%", "60.47", "56.99", "4", "CWE-416", "6.24%", "53.58", "66.29", "6", "CWE-20", "8.16%", "44.39", "55.83", "7", "CWE-125", "11.60%", "49.51", "62.30", "8", "CWE-22", "1.25%", "33.65", "26.74", "12", "CWE-476", "6.05%", "22.01", "58.14", "13", "CWE-287", "0.67%", "8.24", "13.59", "14", "CWE-190", "4.86%", "61.77", "48.25", "17", "CWE-119", "10.14%", "56.74", "64.82", "21", "CWE-362", "2.84%", "38.13", "55.94", "22", "CWE-269", "1.22%", "6.99", "13.34", "23", "CWE-94", "0.87%", "11.37", "17.55", "D", "iv", "er", "se", "V", "u", "l", "Average", "56.96", "69.38", "1", "CWE-787", "2.25%", "69.44", "73.89", "4", "CWE-416", "3.76%", "54.71", "68.32", "6", "CWE-20", "13.62%", "62.99", "61.43", "7", "CWE-125", "7.12%", "56.38", "69.47", "12", "CWE-476", "2.45%", "37.59", "75.23", "14", "CWE-190", "3.50%", "68.53", "72.06", "17", "CWE-119", "24.22%", "45.77", "69.28", "21", "CWE-362", "3.17%", "60.28", "65.33", "B", "ig", "-V", "u", "l", "Dataset", "Rank", "Type", "Ratio", "SVulD", "Snopy"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 279.84,
+    "y2": 506.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Table3-1.png"
+}, {
+  "caption": "Table 2: Comparison results between Snopy and state-of-the-art baselines on the three datasets",
+  "captionBoundary": {
+    "x1": 113.51920318603516,
+    "x2": 498.18408203125,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Snopy", "67.33", "59.64", "78.72", "67.86", "90.75", "38.12", "46.39", "41.85", "89.61", "33.76", "42.53", "37.64", "VulDeePecker", "48.55", "33.96", "27.47", "30.37", "83.27", "16.56", "22.95", "19.24", "87.44", "11.30", "24.55", "15.48", "SySeVR", "44.63", "35.70", "61.87", "45.28", "82.45", "19.63", "28.91", "23.38", "86.16", "7.69", "14.28", "10.00", "Devign", "51.37", "48.15", "80.42", "60.24", "85.64", "27.32", "13.04", "17.65", "87.16", "24.49", "28.07", "26.16", "ReVeal", "53.05", "54.19", "75.32", "63.03", "83.79", "15.34", "30.05", "20.31", "85.32", "20.69", "33.19", "25.49", "IVDetect", "56.85", "51.33", "68.82", "58.80", "86.97", "24.96", "32.57", "28.26", "88.52", "17.34", "35.26", "23.25", "DeepWukong", "54.61", "52.70", "71.96", "60.84", "79.64", "13.08", "32.55", "18.66", "82.39", "21.64", "29.30", "24.89", "AMPLE", "62.88", "55.06", "77.34", "64.33", "85.95", "28.40", "36.11", "31.79", "88.79", "26.35", "34.01", "29.69", "LineVul", "63.74", "52.44", "65.39", "58.21", "80.26", "12.96", "38.32", "19.37", "90.52", "36.18", "26.98", "30.91", "SVulD", "60.51", "54.99", "83.48", "66.30", "92.81", "33.24", "41.65", "36.97", "91.16", "31.44", "40.17", "35.27", "Approach", "Accuracy", "Precision", "Recall", "F1", "Accuracy", "Precision", "Recall", "F1", "Accuracy", "Precision", "Recall", "F1", "FFmpeg+QEMU", "[8]", "Big-Vul", "[20]", "DiverseVul", "[10]", "Metrics", "(%)", "Dataset"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Table2-1.png"
+}, {
+  "caption": "Figure 4: Overview of sample denoising.",
+  "captionBoundary": {
+    "x1": 357.10369873046875,
+    "x2": 519.0540161132812,
+    "y1": 260.2295837402344,
+    "y2": 264.52447509765625
+  },
+  "figType": "Figure",
+  "imageText": ["Purified", "Vulnerable", "Function", "Patched", "Function", "Disclosed", "Vulnerable", "Function", "Vulnerability-", "Contributing", "Commits", "Induced", "Vulnerable", "Function", "V-SZZ", "Vulnerability-", "Fixing", "Commits", "Step", "2:", "Noise", "CleansingStep", "1:", "Vulnerability", "Tracing", "Purified", "Sample", "Generation", "Essential", "Line", "Localization", "Selective", "Context", "Slicing"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Figure4-1.png"
+}, {
+  "caption": "Figure 8: Parameter analysis of loss coefficients and the capacity of FCS.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.8052368164062,
+    "y1": 482.23211669921875,
+    "y2": 497.4859924316406
+  },
+  "figType": "Figure",
+  "imageText": ["(%", ")", "co", "re", "F1", "-s", "N", "(%", ")", "co", "re", "F1", "-s", "1", "2", "FFmpeg+QEMU", "Big-Vul", "DiverseVul", "70", "60", "50", "40", "0.0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "30", "70", "60", "50", "40", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "30", "0.0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 557.28,
+    "y1": 237.12,
+    "y2": 466.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Figure8-1.png"
+}, {
+  "caption": "Figure 7: The performance of different variants of Snopy on the three datasets.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 558.2017211914062,
+    "y1": 202.87147521972656,
+    "y2": 218.12542724609375
+  },
+  "figType": "Figure",
+  "imageText": ["w/o", "VCCs", "w/o", "SD", "w/o", "NA", "w/o", "EA", "w/o", "FCS", "w/o", "CI", "Snopy", "30", "35", "40", "45", "50", "55", "60", "65", "70", "F1", "-s", "co", "re", "(%", ")", "FFmpeg+QEMU", "Big-Vul", "DiverseVul"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.15999999999997,
+    "x2": 558.24,
+    "y1": 84.47999999999999,
+    "y2": 186.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Figure7-1.png"
+}, {
+  "caption": "Figure 5: A working example from OpenSSL.",
+  "captionBoundary": {
+    "x1": 86.99420166015625,
+    "x2": 260.8503112792969,
+    "y1": 370.9248046875,
+    "y2": 375.2196960449219
+  },
+  "figType": "Figure",
+  "imageText": ["Vulnerability-Contributing", "Commit", "(c523eb98)", "1", "index", "bcde8f2..0c35d19", "100644", "2", "---", "a/ssl/s3_srvr.c", "+++", "b/ssl/s3_srvr.c", "3", "@@", "-2255,8", "+2256,11", "@@", "int", "ssl3_get_client_key_exchange(..)", "4", "if", "(alg_k", "&", "(SSL_kEDH", "|", "SSL_kDHr", "|", "SSL_kDHd))", "{", "5", "-", "n2s(p,", "i);", "6", "-", "if", "(n", "!=", "i", "+", "2)", "{", "7", "+", "int", "idx", "=", "-1;", "8", "+", "EVP_PKEY", "*skey", "=", "NULL;", "9", "+", "if", "(n)", "10", "+", "n2s(p,", "i);", "11", "+", "if", "(n", "&&", "n", "!=", "i", "+", "2)", "12", "{", "1", "index", "9e6ab01..ca74f67", "100644", "2", "---", "a/ssl/s3_srvr.c", "+++", "b/ssl/s3_srvr.c", "3", "@@", "-2251,10", "+2251,17", "@@", "int", "ssl3_get_client_key_exchange(..)", "4", "if", "(alg_k", "&", "(SSL_kEDH", "|", "SSL_kDHr", "|", "SSL_kDHd))", "{", "5", "int", "idx", "=", "-1;", "6", "EVP_PKEY", "*skey", "=", "NULL;", "7", "-", "if", "(n)", "8", "+", "if", "(n", ">", "1)", "{", "9", "n2s(p,", "i);", "10", "-", "else", "11", "+", "}", "else", "{", "12", "+", "if", "(alg_k", "&", "SSL_kDHE)", "{", "13", "+", "al", "=", "SSL_AD_HANDSHAKE_FAILURE;", "14", "+", "SSLerr(SSL_F_SSL3_GET_CLIENT_KEY_EXCHANGE,", "15", "+", "SSL_R_DH_PUBLIC_VALUE_LENGTH_IS_WRONG);", "16", "+", "goto", "f_err;", "17", "+", "}", "18", "i", "=", "0;", "19", "+", "}", "20", "if", "(n", "&&", "n", "!=", "i", "+", "2)", "{", "Vulnerability-Fixing", "Commit", "(b19d8143)"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 356.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695057-Figure5-1.png"
+}]

@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 1: Statistics of datasets.",
+  "captionBoundary": {
+    "x1": 379.2409973144531,
+    "x2": 496.6149597167969,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Avg./Max.", "#", "of", "tokens", "360/2,025", "250/2,353", "227/16,253", "#", "of", "subtrees", "10/74", "15/193", "6/288", "AST", "depth", "16/34", "14/39", "10/235", "AST", "width", "56/656", "65/498", "40/4,164", "#", "of", "functionalities", "12", "15", "10", "#", "of", "code", "snippets", "1,664", "9,975", "9,143", "Language", "Java", "C", "Java", "Granularity", "File", "File", "Method", "Label", "Automatic", "Automatic", "Manual", "Dataset", "GCJ", "OJClone", "BigCloneBench"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 105.6,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Table1-1.png"
+}, {
+  "caption": "Figure 1: Comparison of previous deep learning-based methods and our subtree-based methods. Instead of comparing the representations of two code snippets directly, our subtreebased method first consider two ASTs as two sets of subtrees, and explicitly compare these subtrees to yield the similarity.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64300537109375,
+    "y1": 178.68338012695312,
+    "y2": 228.14996337890625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Our", "subtree-based", "method.", "ST22", "ST23", "ST21", "ST14", "ST12", "ST13", "ST11", "(a)", "Previous", "deep", "learning-based", "methods.", "codei", "codej", "...", "...", "pij∈[0,1]", "/", "dis(i,j)", "/", "…", "int", "count(){……}", "void", "cnt(){……}", "similarity", "vector", "code"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 289.44,
+    "y1": 87.84,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Figure1-1.png"
+}, {
+  "caption": "Table 6: Results of DSFM using various scoring layers on GCJ.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.037353515625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["codes", "and", "pass", "them", "to", "a", "fully-connected", "layer.", "vectors", "from", "different", "codes", "and", "pass", "to", "a", "fully-connected", "layer.", "It", "is", "a", "common", "second-order", "term", "in", "FMs.", "•", "[]", "→𝑊", "1×2𝑑", ":", "Concatenate", "every", "two", "vectors", "from", "different", "•", "⊙", "→𝑊", "1×𝑑", ":", "Perform", "element-wise", "product", "on", "every", "two", "from", "different", "codes.", "It", "is", "a", "common", "distance", "metric.", "•", "⊙", "→", "1", "1×𝑑", ":", "Perform", "inner", "product", "on", "every", "two", "vectors", "We", "consider", "the", "following", "common", "second-order", "layers:", "vectors", "and", "pass", "to", "a", "fully-connected", "layer.", "It", "is", "a", "common", "distance", "metric.", "max→", "[]", "→𝑊", "1×2𝑑", "⊙", "→𝑊", "1×𝑑", "97.1", "max→", "[]", "→𝑊", "1×2𝑑", "[]", "→𝑊", "1×2𝑑", "24.1", "94.7", "max→", "[]", "→𝑊", "1×2𝑑", "⊙", "→", "1", "1×𝑑", "max→", "⊙", "→𝑊", "1×𝑑", "⊙", "→𝑊", "1×𝑑", "95.3", "max→", "⊙", "→𝑊", "1×𝑑", "[]", "→𝑊", "1×2𝑑", "95.7", "95.4", "max→", "⊙", "→𝑊", "1×𝑑", "⊙", "→", "1", "1×𝑑", "max→", "⊙", "→", "1", "1×𝑑", "⊙", "→", "1", "1×𝑑", "91.5", "max→", "⊙", "→", "1", "1×𝑑", "⊙", "→𝑊", "1×𝑑", "97.3", "max→", "⊙", "→", "1", "1×𝑑", "[]", "→𝑊", "1×2𝑑", "94.5", "⊕", "→𝑊", "1×𝑑", "⊙", "→𝑊", "1×𝑑", "95.9", "⊕", "→𝑊", "1×𝑑", "[]", "→𝑊", "1×2𝑑", "46.6", "95.7", "⊕", "→𝑊", "1×𝑑", "⊙", "→", "1", "1×𝑑", "(Program-level)", "(Block-level)", "Scoring", "Layer", "First-order", "Second-order", "F1", "score"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 294.24,
+    "y1": 105.6,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Table6-1.png"
+}, {
+  "caption": "Figure 2: Example of a code snippet, along with its abstract syntax tree and subtree sequence. The abstract syntax tree is partitioned into several subtrees using Algorithm 1. Subtrees are marked with blue, green, pink and gray color, respectively.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1803588867188,
+    "y1": 207.73934936523438,
+    "y2": 224.3289794921875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Subtree", "sequence.", "ST1", "ST3ST4ST2", "ST4", "ST2", "ST3", "ST1", "(b)", "Abstract", "syntax", "tree.", "If", "Return", "0", "…", "i", "TypeDecl", "TypeDecl", "For", "cnt", "…", "…", "…", "=", "0", "count", "int", "TypeDecl", "...", "Assignment", "None", "BinaryOp", "BinaryOp", "UnaryOp", "Assignment", "...", "intReturnDecl", "...", "Compound", "ParamsList", "countFuncDecl", "FuncDef", "(a)", "Code", "snippet.", "1.int", "count(int", "target,", "int", "array[],", "int", "n){", "2.", "int", "i,", "cnt", "=", "0;", "3.", "for", "(i", "=", "0;", "i", "<", "n", "-", "1;", "i++)", "4.", "if", "(array[i]", "==", "target)", "5.", "cnt", "=", "cnt", "+", "1;", "6.", "return", "cnt;", "7.}"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 532.3199999999999,
+    "y1": 88.8,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Average computation time required by supervised deep learning approaches for predicting one data instance.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1898803710938,
+    "y1": 377.8033447265625,
+    "y2": 394.39300537109375
+  },
+  "figType": "Figure",
+  "imageText": ["8.3", "(16.6x)", "6.0", "(12.0x)", "3.5", "(7.0x)", "0.5", "0.7", "(1.4x)", ")", "DSFM", "code2vec", "code2seq", "TBCCD", "ASTNN", "0", "2", "4", "6", "8", "Ti", "m", "e", "(1", "0", "3", "s"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 547.1999999999999,
+    "y1": 290.88,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Figure6-1.png"
+}, {
+  "caption": "Table 3: Results of competing approaches in F1 score on various types of clones using BigCloneBench.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6365966796875,
+    "y1": 291.32635498046875,
+    "y2": 307.9150085449219
+  },
+  "figType": "Table",
+  "imageText": ["DSFM", "100", "100", "100", "100", "96.4", "code2vec", "100", "100", "100", "100", "55.9", "code2seq", "100", "100", "100", "100", "57.8", "TBCCD", "100", "100", "100", "99.7", "95.9", "ASTNN", "100", "100", "100", "98.9", "95.7", "DLC", "99.5", "100", "96.3", "98.0", "26.4", "InferCode", "100", "100", "100", "97.4", "26.6", "Deckard", "100", "100", "78.3", "69.6", "20.0", "SourcererCC", "100", "100", "92.3", "52.1", "1.4", "Method", "T1", "T2", "ST3", "MT3", "WT3/T4"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 322.56,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Table3-1.png"
+}, {
+  "caption": "Table 2: Overall performance of competing approaches on three datasets.",
+  "captionBoundary": {
+    "x1": 158.0189971923828,
+    "x2": 453.6728515625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["‡", "DLC", "and", "InferCode", "are", "unsupervised", "deep", "learning-based", "approaches", "and", "do", "not", "have", "an", "end-to-end", "detection", "pipeline.", "DSFM", "99.4", "95.3", "97.3", "99.7", "98.5", "99.6", "96.3", "96.7", "96.5", "†", "Deckard", "and", "SourcererCC", "are", "traditional", "approaches", "and", "cannot", "handle", "Type-4", "clones.", "code2vec", "60.7", "94.3", "73.8", "32.0", "93.4", "47.4", "39.5", "98.3", "56.4", "code2seq", "76.5", "95.6", "85.0", "76.5", "99.3", "86.4", "42.4", "92.8", "58.2", "TBCCD", "95.5", "93.5", "94.5", "97.3", "98.8", "98.0", "97.1", "94.9", "96.0", "ASTNN", "94.8", "92.8", "93.8", "98.6", "98.5", "98.6", "98.1", "93.5", "95.8", "Method", "GCJ", "OJClone", "BigCloneBench", "Precision", "Recall", "F1", "score", "Precision", "Recall", "F1", "score", "Precision", "Recall", "F1", "score", "Deckard", "†", "70.5", "5.5", "10.3", "64.0", "2.2", "4.3", "16.1", "28.8", "20.7", "SourcererCC", "†", "75.4", "6.7", "12.3", "26.0", "46.8", "33.4", "96.6", "1.8", "3.5", "DLC", "‡", "20.9", "80.6", "33.2", "6.7", "86.2", "12.4", "15.5", "98.6", "26.8", "InferCode", "‡", "30.1", "55.3", "38.9", "17.9", "49.2", "26.2", "16.6", "74.1", "27.1"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 547.1999999999999,
+    "y1": 105.6,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Table2-1.png"
+}, {
+  "caption": "Figure 3: Overview of our DSFM. Code snippets are first parsed into ASTs, which are decomposed into subtree sequences. We adopt the subtree encoder to represent them as vector representations, and apply program-level and blocklevel similarities to derive the overall functional similarity.",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 295.6405029296875,
+    "y1": 250.41934204101562,
+    "y2": 299.885986328125
+  },
+  "figType": "Figure",
+  "imageText": ["subtree", "sequence2", "AST1", "subtree", "sequence1", "AST2", "measure", "block-level", "similarity", "program-level", "similarity", "+", "code1", "encode", "code2", "parse", "split", "y", "y2", "y1", "……", "……"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 288.0,
+    "y1": 82.56,
+    "y2": 233.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Figure3-1.png"
+}, {
+  "caption": "Table 4: Performance of our DSFM trained and tested on different sets.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03302001953125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["GCJ", "BigCloneBench", "96.0", "95.1", "95.5", "OJClone", "BigCloneBench", "98.8", "93.9", "96.3", "BigCloneBench", "OJClone", "98.4", "97.6", "98.0", "GCJ", "OJClone", "98.7", "98.8", "98.8", "OJClone", "GCJ", "98.8", "92.5", "95.5", "BigCloneBench", "GCJ", "95.7", "89.8", "92.7", "Dataset", "DSFM", "Training", "set", "Test", "set", "Precision", "Recall", "F1", "score"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 116.64,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Table4-1.png"
+}, {
+  "caption": "Table 5: Ablation study using GCJ. “−” denotes the ablation of the corresponding component.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1964111328125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["DSFM", "99.4", "95.3", "97.3", "−", "RvNN", "for", "subtree", "53.4", "66.9", "59.4", "−", "GRU", "for", "subtree", "sequence", "89.1", "59.7", "71.5", "−", "Program-level", "similarity", "97.2", "95.7", "96.5", "−", "Block-level", "similarity", "96.0", "93.0", "94.5", "Method", "Precision", "Recall", "F1", "score"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 116.64,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Table5-1.png"
+}, {
+  "caption": "Figure 4: Architecture of subtree encoder. The subtrees are first fed into recursive neural network to capture structural knowledge and then fed into gated recurrent unit to capture sequential knowledge.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0364990234375,
+    "y1": 253.69033813476562,
+    "y2": 292.197998046875
+  },
+  "figType": "Figure",
+  "imageText": ["...", "...", "...", "...", "...", "...", "max", "max", "max", "Recursive", "Encoder", "Subtrees", "Unit", "Gated", "Recurrent", "GRU", "GRURvNNST1", "=", "GRU", "GRURvNNSTn", "=", "GRU", "GRURvNNST2", "=", "Fully-", "Connected", "Max", "Pooling", "...", "..."],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 287.52,
+    "y1": 91.67999999999999,
+    "y2": 236.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Proposed network for measuring code functional similarity, which combines both program-level and blocklevel similarity to detect functional code clones.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7938232421875,
+    "y1": 253.75833129882812,
+    "y2": 281.3070068359375
+  },
+  "figType": "Figure",
+  "imageText": ["+", "overall", "similarity", "block-level", "similarity", "program-level", "similarity", "Subtree", "Encoder", "...", "ST2mST21ST1n", "...", "y1", "...", "y", "y2", "...", "...", "......", "...", "...", "...", "...", "...", "......", "......", "ST11"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 535.1999999999999,
+    "y1": 84.0,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639215-Figure5-1.png"
+}]

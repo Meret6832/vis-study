@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 1: Function call chains for parsing inputs in grep 3.6.",
+  "captionBoundary": {
+    "x1": 318.0769958496094,
+    "x2": 558.0789184570312,
+    "y1": 229.58834838867188,
+    "y2": 235.218994140625
+  },
+  "figType": "Figure",
+  "imageText": ["parse_expression", "(…,", "re_token_t", "*token,", "...)", "Definition", "Usage", "}", "else", "{", "start", "=", "...", "}", "…", "start", "=", "fetch_number", "(...);", "…", "parse_dup_op", "(…,", "re_token_t", "*token,", "…)", "{", "if", "(token->type", "==", "OP_OPEN_DUP_NUM)", "{", "token->type", "=", "OP_OPEN_DUP_NUM;", "break;", "…", "case", "‘*':", "token->type", "=", "OP_DUP_ASTERISK;", "break;", "case", "‘{’:", "char", "c", "=", "re_string_peek_byte", "(input,", "0);", "switch", "(c)", "{", "peek_token", "(re_token_t", "*token,", "re_string_t", "*input,", "…)", "{", "parse_reg_exp", "(…,", "re_token_t", "*token,", "…)", "fetch_token", "(re_token_t", "*result,", "re_string_t", "*input,", "...)", "parse_branch", "(…,", "re_token_t", "*token,", "...)", "parse()"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 552.0,
+    "y1": 84.96,
+    "y2": 213.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Workflow of concrete constraint guided searcher. The executed branches are in red color. The uncovered and covered definitions are in light and dark green color, respectively. The dash line denotes the branching constraint can not be satisfied.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1843872070312,
+    "y1": 209.95834350585938,
+    "y2": 226.5479736328125
+  },
+  "figType": "Figure",
+  "imageText": ["v=4", "v=1", "v=3", "v=2", "v>2", "S3", "v=4", "v=1", "v=3", "v=2", "v>2", "S2", "v=3", "v=2", "v=4", "v=1", "v>2", "v=4", "v=2", "v=3", "S1", "v=1", "v>2", "S0"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 533.28,
+    "y1": 87.84,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Figure5-1.png"
+}, {
+  "caption": "Table 4: UBSan Errors triggered by the test cases generated using the top-4 strategies on part of programs. UIO=Unsigned Integer Overflow, NPD=Null Pointer Dereference.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0372619628906,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["make", "UIO", "L.2354", "in", "read.c", "!", "!", "!", "sed", "NPD", "L.1221", "in", "compile.c", "!", "NPD", "L.1281", "in", "execute.c", "!", "!", "UIO", "L.544", "in", "tekhex.c", "!", "objcopy", "UIO", "L.233", "in", "elfcore.h", "!", "grep", "UIO", "L.132", "in", "grep.c", "!", "!", "!", "gawk", "UIO", "L.284", "in", "re.c", "!", "!", "!", "Program", "Type", "Error", "Location", "cgs", "bfs", "nurs:rp", "rps"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 127.67999999999999,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Table4-1.png"
+}, {
+  "caption": "Figure 2: Number of branching conditions in different types.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0170593261719,
+    "y1": 177.12637329101562,
+    "y2": 182.75701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["Symbolic", "branching", "conditions", "Concrete", "branching", "conditions", "Total", "branching", "conditions", "1173", "1011", "990", "1057", "111", "106", "126", "138", "1200", "1053", "1032", "1071", "tio", "ns", "on", "di", "ng", "c", "nc", "hi", "f", "b", "ra", "be", "r", "o", "Nu", "m", "1000", "1200", "1400", "1600", "1800", "200", "400", "600", "800", "grep", "sed", "gawk", "make", "0"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 288.0,
+    "y1": 84.47999999999999,
+    "y2": 161.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Coverage of different branching conditions.",
+  "captionBoundary": {
+    "x1": 330.7869873046875,
+    "x2": 545.3610229492188,
+    "y1": 177.12637329101562,
+    "y2": 182.75701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["Symbolic", "branching", "condition", "Concrete", "branching", "condition", "Partially", "covered", "symbolic", "branching", "condition", "Partially", "covered", "concrete", "branching", "condition", "830", "665", "725", "673", "38", "28", "24", "34", "1173", "1011", "990", "1057", "111", "106", "126", "138", "ns", "di", "tio", "c", "on", "hi", "ng", "ra", "nc", "o", "f", "b", "ra", "ge", "Co", "ve", "1000", "1200", "1400", "1600", "1800", "200", "400", "600", "800", "grep", "sed", "gawk", "make", "0"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 552.0,
+    "y1": 84.47999999999999,
+    "y2": 161.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Figure3-1.png"
+}, {
+  "caption": "Table 1: The details of the benchmarks used for evaluations. Branches are collected using KLEE internal coverage. The KLEE format of symbolic inputs are set based on the common usage of programs.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1832885742188,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Program", "Version", "Binary", "Size", "Branches", "Lines", "KLEE", "formats", "of", "symbolic", "inputs", "expat", "2.5.0", "390KB", "3568", "6919", "–sym-stdin", "100", "libxml2", "2.10.3", "2.5MB", "30414", "70153", "A", "–sym-files", "1", "40", "readelf", "2.36", "2.5MB", "10942", "38333", "-a", "A", "–sym-files", "1", "100", "objcopy", "2.36", "5.1MB", "22393", "56668", "–sym-args", "0", "3", "20", "A", "–sym-files", "1", "100", "gawk", "5.1.0", "1.4MB", "10041", "25553", "-f", "A", "B", "–sym-files", "2", "50", "make", "4.3", "523KB", "4874", "8490", "-n", "-f", "A", "–sym-files", "1", "40", "sqlite3", "3.39.4", "2.5MB", "16686", "48966", "–sym-stdin", "20", "–sym-stdout", "nasm", "2.15.05", "2.3M", "6327", "18827", "–sym-args", "0", "2", "2", "A", "–sym-files", "1", "100", "grep", "3.6", "632kB", "5110", "10879", "–sym-arg", "10", "–sym-args", "0", "2", "2", "–sym-files", "1", "8", "–sym-stdin", "8", "sed", "4.8", "508KB", "4338", "9258", "–sym-arg", "10", "–sym-args", "0", "2", "2", "–sym-files", "1", "8", "–sym-stdin", "8"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 542.4,
+    "y1": 116.64,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Table1-1.png"
+}, {
+  "caption": "Table 2: Statistics of branch dependency analysis for 10 realworld programs. The branch and store instructions are the usage and definition sites of inter-procedural data dependency, respectively. For the types of source variables of branches, GV=Global Variable, LV=Local Variable, NPP=Non-Pointer Parameter, SPP=Struct-typed Pointer Parameter.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 295.6361999511719,
+    "y1": 489.67034912109375,
+    "y2": 550.0960083007812
+  },
+  "figType": "Table",
+  "imageText": ["expat", "388", "951", "0", "232", "125", "174", "libxml2", "3585", "4771", "163", "1298", "1583", "3976", "readelf", "2321", "3085", "350", "805", "1227", "1113", "objcopy", "3858", "5544", "155", "1578", "762", "3751", "gawk", "1992", "2072", "599", "422", "737", "952", "make", "582", "830", "243", "255", "129", "136", "sqlite3", "3797", "5484", "21", "1405", "846", "3139", "nasm", "770", "1142", "116", "273", "530", "476", "grep", "1029", "1270", "64", "318", "448", "667", "sed", "768", "1100", "36", "266", "423", "487", "∗", "The", "branches", "also", "contain", "switch", "instructions.", "Branch", "Store", "GV", "LV", "NPP", "SPP", "Program", "Instructions", "Types", "of", "source", "variables"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 564.9599999999999,
+    "y2": 707.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Table2-1.png"
+}, {
+  "caption": "Figure 6: Branch coverage for 10 real-world programs by running KLEE with different strategies for 8h. Mean values and 95% standard deviations over 8 runs are shown in solid lines and shadows, respectively.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.4640502929688,
+    "y1": 306.5383605957031,
+    "y2": 323.12799072265625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 293.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Figure6-1.png"
+}, {
+  "caption": "Table 3: The number of fully covered concrete branching conditions for 10 real-world programs by running KLEE with different strategies for 8h. Only mean values are listed.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0346374511719,
+    "y1": 520.4852905273438,
+    "y2": 548.0339965820312
+  },
+  "figType": "Table",
+  "imageText": ["average", "31.0", "8.7", "15.8", "20.0", "9.6", "13.5", "8.6", "8.9", "46.6", "expat", "17.8", "13.2", "15.9", "20.9", "15.0", "15.0", "11.6", "11.9", "36.6", "libxml2", "31.1", "5.4", "21.2", "29.0", "5.0", "10.0", "7.0", "7.8", "41.8", "readelf", "3.1", "0.1", "4.0", "13.2", "1.0", "4.0", "1.4", "0.0", "10.4", "objcopy", "13.8", "4.0", "8.0", "4.2", "4.0", "4.0", "4.0", "4.0", "33.5", "gawk", "41.2", "14.0", "22.9", "30.6", "13.9", "16.5", "13.8", "16.2", "61.6", "make", "26.1", "25.2", "25.8", "30.2", "26.1", "32.4", "22.0", "25.0", "31.1", "sqlite3", "84.0", "7.8", "4.2", "8.8", "3.6", "19.5", "6.4", "7.6", "130.0", "nasm", "20.8", "7.0", "17.1", "23.0", "6.0", "9.0", "6.0", "6.9", "22.4", "grep", "25.0", "6.0", "31.5", "33.6", "10.6", "14.0", "11.0", "6.1", "63.5", "sed", "47.4", "3.9", "7.4", "3.0", "6.1", "11.0", "3.1", "3.2", "62.2", "bfs", "rss", "rps", "nurs:", "rp", "nurs:", "covnew", "nurs:", "cpicnt", "nurs:", "md2u", "nurs:", "qc", "cgs"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 562.56,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Table3-1.png"
+}, {
+  "caption": "Figure 7: Branch coverage improvement with optimizations by setting different pairs of hyper-parameters.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 687.4703369140625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["Nbr=5", "Nbr=10", "Nbr=30", "Nbr=100", "1.133", "1.165", "1.166", "1.1311.151", "1.182", "1.209", "1.1411.139", "1.131", "1.138", "1.1791.142", "1.154", "1.187", "1.179", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "1.2", "1.4", "1.6", "1.8", "BC", "ov", "o/B", "Co", "v", "w", "o", "10000", "100000", "300000", "1000000", "Ninst"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 611.52,
+    "y2": 672.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639078-Figure7-1.png"
+}]

@@ -1,0 +1,321 @@
+[{
+  "caption": "Figure 5: An example of scope pending-based correction.",
+  "captionBoundary": {
+    "x1": 59.26900100708008,
+    "x2": 288.5757141113281,
+    "y1": 232.22689819335938,
+    "y2": 238.072998046875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "};", "……", "//", "merger:", "an", "audio", "node", "with", "both", "input", "and", "output", "interfaces", "letmerger", "=", "context.createChannelMerger();", "let", "source", "=", "context.createConstantSource();", "source.connect(merger);", "```js", "//", "global", "scope", "let", "context", "=", "new", "AudioContext();", "let", "source", "=", "context.createConstant();", "//", "Redundant", "node", "{", "//", "local", "scope", "A", "letmediaStreamDestination", "=", "context.createMediaStreamDestination();", "let", "source", "=", "context.createConstantSource();", "//", "Redundant", "node", "……", "}", "{", "//", "local", "scope", "B"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 289.44,
+    "y1": 84.0,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure5-1.png"
+}, {
+  "caption": "Figure 6: An example of static correction.",
+  "captionBoundary": {
+    "x1": 354.5249938964844,
+    "x2": 521.6318969726562,
+    "y1": 148.31387329101562,
+    "y2": 154.15997314453125
+  },
+  "figType": "Figure",
+  "imageText": ["unsigned", "long", "numberOfFrames,", "float", "sampleRate);", "```python", "try", "{var", "var_0", "=", "new", "offlineAudioContext(4363346,", "23855302,", "16.0)}", "catch", "(e)", "{};", "try", "{var", "var_0", "=", "new", "offlineAudioContext(22,", "50967462,", "338455.95)}", "catch", "(e)", "{};", "1", "2", "3", "4", "5", "6", "```idl", "constructor(unsigned", "long", "numberOfChannels,"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 553.4399999999999,
+    "y1": 84.0,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure6-1.png"
+}, {
+  "caption": "Figure 8: The overall workow of T.",
+  "captionBoundary": {
+    "x1": 351.43701171875,
+    "x2": 524.7208251953125,
+    "y1": 180.42489624023438,
+    "y2": 186.27099609375
+  },
+  "figType": "Figure",
+  "imageText": ["②", "Parse", "WebIDL", "③", "Generate", "Test", "Input", "(python", "object)", "Coverage", "WebIDL", "Definition", "Bug", "Report", "⑥", "Repeat", "Periodically", "⑤", "Report", "Result", "Document", "④", "Start", "Fuzzing", "Generate", "HTML", "Main", "Fuzzing", "Process", "Align", "Semantic", "WebIDL", "File", "①", "Retrieve", "WebIDL", "Definition", "Web", "Browser"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 555.36,
+    "y1": 82.56,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure8-1.png"
+}, {
+  "caption": "Figure 7: An example of dynamic correction.",
+  "captionBoundary": {
+    "x1": 83.65699768066406,
+    "x2": 264.1865234375,
+    "y1": 162.25991821289062,
+    "y2": 168.10601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["return", "this.createElement(‘video’);", "}", "1", "2", "3", "4", "5", "6", "7", "8", "HTMLVideoElement", "createVideoElement();", "};", "```js", "Document.prototype.createVideoElement", "=", "function(){", "```idl", "partial", "interfaceDocument", "{"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 289.44,
+    "y1": 84.0,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure7-1.png"
+}, {
+  "caption": "Table 4: The number of bugs detected by T and its counterparts within a 24-hour run.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04052734375,
+    "y1": 158.56088256835938,
+    "y2": 175.36602783203125
+  },
+  "figType": "Table",
+  "imageText": ["#Crash", "#Unique", "#Crash", "#Unique", "D￿￿￿￿￿", "[9]", "1", "1", "45", "7", "F￿￿￿D￿￿", "[42]", "12", "4", "26", "5", "F￿￿￿￿￿￿￿", "[8]", "1", "1", "0", "0", "M￿￿￿￿￿￿", "[48]", "0", "0", "16", "6", "S￿G￿", "[47]", "1", "1", "74", "7", "T￿￿￿￿￿", "(ours)", "23", "5", "114", "9", "Method", "Chromium", "Safari", "(WebKitGTK)"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 183.84,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Table4-1.png"
+}, {
+  "caption": "Table 5: The fuzzing results of T and Two-sa over Chromium for a 24-hour run.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3929443359375,
+    "y1": 158.56088256835938,
+    "y2": 175.36602783203125
+  },
+  "figType": "Table",
+  "imageText": ["Region", "Function", "Line", "Branch", "T￿￿￿￿￿", "13.68%", "18.31%", "13.95%", "10.74%", "2,502", "19", "T￿￿￿￿￿wo-sa", "11.51%", "16.31%", "12.17%", "8.63%", "30", "10", "Method", "Coverage", "#Crash", "#Unique"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 180.0,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Table5-1.png"
+}, {
+  "caption": "Table 6: Runtime errors raised by T and Two-sa over Chromium for a 24-hour run.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 557.7037963867188,
+    "y1": 225.73989868164062,
+    "y2": 242.54400634765625
+  },
+  "figType": "Table",
+  "imageText": ["Method", "#Line", "#Sample", "#Error", "#Error", "Rate", "T￿￿￿￿￿", "6,765,173", "17,045", "63,466", "0.94%", "T￿￿￿￿￿wo-sa", "8,422,483", "21,005", "1,589,726", "18.87%"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 248.64,
+    "y2": 280.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Table6-1.png"
+}, {
+  "caption": "Table 3: Running overhead of input generation with T and its variants.",
+  "captionBoundary": {
+    "x1": 149.3040008544922,
+    "x2": 462.4001770019531,
+    "y1": 85.51090240478516,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Method", "Generating", "100", "inputs", "Generating", "2,000", "inputs", "Generating", "inputs", "for", "one", "hour", "#Line", "Running", "Time", "Generation", "Speed", "#Line", "Running", "Time", "Generation", "Speed", "#Line", "#Sample", "Generation", "Speed", "T￿￿￿￿￿", "39,466", "8.46s", "4,663.50", "line/s", "791,586", "168.74s", "4,691.23", "line/s", "16,543,948", "41,632", "4,595.53", "line/s", "T￿￿￿￿￿wo-d", "39,923", "8.21s", "4,865.06", "line/s", "802,554", "164.48s", "4,879.40", "line/s", "17,080,005", "42,532", "4,744.14", "line/s", "T￿￿￿￿￿wo-ds", "40,372", "34.94s", "1,155.41", "line/s", "801,439", "691.59s", "1,158.83", "line/s", "3,969,508", "9,904", "1,102.51", "line/s"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 96.96,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Table3-1.png"
+}, {
+  "caption": "Figure 1: Binding code is used to extend the functionality of JavaScript by providing a bridge between the JavaScipt application code and the runtime system.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2940368652344,
+    "y1": 249.38790893554688,
+    "y2": 277.1519775390625
+  },
+  "figType": "Figure",
+  "imageText": ["Application", "JavaScript", "Code", "HTML", "File", "&", "<html>", "<script>", "//", "API", "Invocations", "<script>", "</html>", "JavaScript", "Engine", "Binding", "Code", "JavaScript", "Runtime", "System"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 264.0,
+    "y1": 82.56,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure1-1.png"
+}, {
+  "caption": "Figure 2: A JavaScript binding code sample that is dicult to generate with existing browser fuzzers.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2023315429688,
+    "y1": 384.534912109375,
+    "y2": 401.3399963378906
+  },
+  "figType": "Figure",
+  "imageText": ["10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "1", "2", "3", "4", "5", "6", "7", "8", "9", "</script>", "}", "}", "catch", "(e)", "{};", "try", "{", "var", "var_14", "=", "var_11.addEventListener(“audioprocess”,", "audioprocess_12)", "}", "catch", "(e)", "{};", "try", "{", "var", "var_18", "=", "var_11.connect(var_6.destination,", "0,", "0)", "}", "catch", "(e)", "{};", "try", "{", "var", "var_19", "=", "var_6.createGain()", "}", "catch", "(e)", "{};", "}", "}", "catch", "(e)", "{};", "try", "{", "var", "var_10", "=", "var_5.audioWorklet.addModule(audioWorkletSource).then(resolve_7);", "}", "catch", "(e)", "{};", "try", "{", "var", "var_11", "=", "var_6.createScriptProcessor(512,", "8)", "}", "catch", "(e)", "{};", "try", "{", "var", "audioprocess_12", "=", "function", "(arg_13)", "{", "try", "{", "var", "var_15", "=", "var_5.createBufferSource()", "}", "catch", "(e)", "{};", "try", "{", "var", "var_16", "=", "var_15.connect(var_5.destination,", "0,", "0)", "}", "catch", "(e)", "{};", "try", "{", "var", "var_17", "=", "var_11.connect(var_6.listener.positionZ,", "0)", "}", "catch", "(e)", "{};", "try", "{", "var", "var_20", "=", "var_11.connect(var_19.gain,", "0)", "}", "catch", "(e)", "{};", "try", "{", "var", "var_8", "=new", "AudioWorkletNode(var_5,", "“Class_0”)", "}", "catch", "(e)", "{};", "try", "{", "var", "var_9", "=", "var_8.connect(var_5.destination)", "}", "catch", "(e)", "{};", "[template.content.querySelector(“#audioworklet”).textContent],", "{", "type:", "“text/javascript”", "}", "));", "try", "{", "var", "var_5", "=new", "AudioContext()", "}", "catch", "(e)", "{};", "//", "audio", "context", "try", "{", "var", "var_6", "=new", "AudioContext()", "}", "catch", "(e)", "{};", "//", "audio", "context", "try", "{", "var", "resolve_7", "=", "function", "()", "{", "</script>", "</template>", "<script>", "//", "Window", "execution", "context", "let", "template", "=", "document.querySelector(“template”);", "let", "audioWorkletSource=URL.createObjectURL(newBob(", "}", "catch", "(e)", "{};", "try", "{", "var", "var_4", "=", "registerProcessor(“Class_0”,Class_0)", "}", "catch", "(e)", "{};", "}", "}", "}", "static", "get", "parameterDescriptors()", "{", "try", "{", "var", "var_3", "=", "{", "name", ":", "“AAA”", "}", "}", "catch", "(e)", "{};", "try", "{", "var", "var_2", "=", "{", "var_3", "}", "}", "catch", "(e)", "{};", "return", "var_2;", "<template>", "<script", "id", "=“audioworklet”>", "//", "Audioworklet", "execution", "context", "try", "{", "varClass_0", "=class", "extendsAudioWorkletProcessor", "{", "process(inputs,", "outputs,", "parameters)", "{", "try", "{", "var", "var_1", "=", "true", "}", "catch", "(e)", "{};", "return", "var_1;"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 555.36,
+    "y1": 84.0,
+    "y2": 381.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure2-1.png"
+}, {
+  "caption": "Table 1: Previously unknown bugs discovered by T. We have evaluated the bug-nding ability of T on three mainstream browsers. In total, T has unearthed 32 new bugs. Among them, 21 bugs have been conrmed with 17 xed. In particular, 10 have been assigned CVEs. Note that the bugs found in WebKitGTK are rst veried in Safari. If they can be triggered in Safari, we report them to Safari. Otherwise, we report them to the WebKitGTK community.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.73291015625,
+    "y1": 85.51090240478516,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["ID", "Browser", "Version", "Bug", "Type", "Bug", "Location", "Impact", "Status", "1", "Chromium", "95.0.4628.3", "Out-of-bounds", "Read", "blink::AudioDelayDSPKernel::ProcessKRate", "Medium", "CVE-2021-37992", "2", "Chromium", "102.0.4956.0", "Out-of-bounds", "Read", "blink::AudioDelayDSPKernel::ProcessKRate", "Medium", "Issue", "#40059351", "(￿xed)", "3", "Chromium", "103.0.5058.0", "Null", "Dereference", "blink::WebCryptoResult::Cancelled", "None", "Issue", "#40225230", "(￿xed)", "4", "Chromium", "103.0.5058.0", "Null", "Dereference", "PromiseRejectInternal", "None", "Issue", "#40260504", "(con￿rmed)", "5", "Chromium", "118.0.5951.0", "Use-after-poison", "blink::NodeMoveScope::SetCurrentNodeBeingRemoved", "Low", "Issue", "#40070829", "(duplicated)", "6", "Chromium", "118.0.5993.129", "Use-after-free", "blink::AudioNodeOutput::Pull", "High", "CVE-2023-5996", "7", "Chromium", "119.0.6045.159", "Use-after-free", "blink::AudioNodeOutput::Pull", "High", "CVE-2023-6346", "8", "Chromium", "120.0.6099.129", "Use-after-free", "blink::DelayHandler::Process", "High", "CVE-2024-0224", "9", "Chromium", "120.0.6099.225", "Use-after-free", "blink::AudioWorkletHandler::Process", "High", "CVE-2024-0807", "10", "Chromium", "120.0.6099.225", "Stack", "Bu￿er", "Over￿ow", "blink::SetSinkIdResolver::Start", "None", "Issue", "#41493757", "(￿xed)", "11", "Chromium", "120.0.6099.225", "Null", "Dereference", "blink::SetSinkIdResolver::OnSetSinkIdComplete", "None", "Issue", "#41492759", "(con￿rmed)", "12", "Chromium", "120.0.6099.225", "Null", "Dereference", "cc::PaintRecord::num_slow_paths_up_to_min_for_MSAA", "None", "Issue", "#41492786", "(￿xed)", "13", "Chromium", "125.0.6382.0", "Access", "Violation", "blink::ScriptState", "None", "Issue", "#332382759", "(￿xed)", "14", "Chromium", "125.0.6410.0", "Assert", "Failure", "Element::setAnchorElement", "None", "Issue", "#41493748", "(con￿rmed)", "15", "Chromium", "125.0.6410.0", "Assert", "Failure", "blink::Animation::TimeToE￿ectChange", "None", "Issue", "#333795269", "(reported)", "16", "Chromium", "125.0.6410.0", "Null", "Dereference", "blink::OutOfFlowLayoutPart::SaveStaticPositionOnPaintLayer", "None", "Issue", "#333957174", "(reported)", "17", "Chromium", "125.0.6410.0", "Null", "Dereference", "IsScrollContainer", "None", "Issue", "#333795271", "(reported)", "18", "Chromium", "125.0.6410.0", "Null", "Dereference", "HasLayer", "None", "Issue", "#333952115", "(reported)", "19", "Safari", "14.1", "Bu￿er", "Over￿ow", "CoreAudioModule", "High", "CVE-2021-30957", "20", "Safari", "14.1", "Bu￿er", "Over￿ow", "CoreAudioModule", "Medium", "CVE-2021-30958", "21", "Safari", "14.1", "Bu￿er", "Over￿ow", "CoreAudioModule", "Medium", "CVE-2021-30959", "22", "Safari", "14.1", "Bu￿er", "Over￿ow", "CoreAudioModule", "Medium", "CVE-2021-30960", "23", "Safari", "14.1", "Bu￿er", "Over￿ow", "CoreAudioModule", "Medium", "CVE-2021-30963", "24", "Safari", "17.4.1", "Use-after-free", "SincResampler::SincResampler", "High", "OE197284258884", "(reported)", "25", "Safari", "17.4.1", "Heap", "Bu￿er", "Over￿ow", "computeSampleUsingLinearInterpolation", "High", "OE197316913793", "(reported)", "26", "Safari", "17.4.1", "Heap", "Bu￿er", "Over￿ow", "AudioBu￿erSourceNode::renderFromBu￿er", "High", "OE197316182173", "(reported)", "27", "Safari", "(WebKitGTK)", "2.43.4", "Null", "Dereference", "FloatingObjects::moveAllToFloatInfoMap", "None", "Webkit", "bug", "#272296", "(reported)", "28", "Safari", "(WebKitGTK)", "2.43.4", "Null", "Dereference", "RenderLayerCompositor", "None", "Webkit", "bug", "#272289", "(reported)", "29", "Safari", "(WebKitGTK)", "2.43.4", "Null", "Dereference", "LayoutIntegration::BoxTree::layoutBoxForRenderer", "None", "Webkit", "bug", "#272294", "(reported)", "30", "Firefox", "125.0a1", "Stack", "Bu￿er", "Over￿ow", "WebCore::HRTFKernel::HRTFKernel", "High", "Bugzilla", "#1881947", "(duplicated)", "31", "Firefox", "125.0a1", "Null", "Dereference", "mozilla::MediaTrackGraphImpl::OneIterationImpl", "None", "Bugzilla", "#1882924", "(duplicated)", "32", "Firefox", "126.0a1", "Null", "Dereference", "NS_ABORT_OOM", "None", "Bugzilla", "#1891164", "(reported)"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 129.6,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Table1-1.png"
+}, {
+  "caption": "Table 2: The characteristics of each browser fuzzer.",
+  "captionBoundary": {
+    "x1": 335.1000061035156,
+    "x2": 540.7623901367188,
+    "y1": 387.7478942871094,
+    "y2": 393.593994140625
+  },
+  "figType": "Table",
+  "imageText": ["Fuzzer", "Year", "Publication", "Type", "Automation", "D￿￿￿￿￿", "[9]", "2017", "–", "Structure-Aware", "Hand-written", "F￿￿￿D￿￿", "[42]", "2020", "CCS’20", "Context-Aware", "Hand-written", "F￿￿￿￿￿￿￿", "[8]", "2021", "NDSS’21", "Semantic-Aware", "Fully-auto", "M￿￿￿￿￿￿", "[48]", "2022", "ESEC/FSE’22", "API-Oriented", "Semi-auto", "S￿G￿", "[47]", "2023", "OOPSLA’23", "Semantic-Aware", "Fully-auto", "T￿￿￿￿￿", "(ours)", "2024", "ISSTA’24", "Semantic-Aware", "Fully-auto"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 399.36,
+    "y2": 467.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Table2-1.png"
+}, {
+  "caption": "Figure 3: The overall architecture of T, which mainly consists of three components. (1) A semantic parser aims to capture the WebIDL denitions from web browsers. (2) A semantic aligner is designed to complement and correct the semantic information. (3) An input generator is used to produce the HTML document input for the browser fuzzer.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.201904296875,
+    "y1": 224.23690795898438,
+    "y2": 252.0009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Window", "Worklet", "Worker", "IDL", "Supplement", "Cross", "Execution", "Context", "Context-Aware", "Strategy", "Scope-Aware", "Paradigm", "HTML", "Documents", "WebIDL", "Context", "WebIDL", "Definitions", "•", "IdlInterface", "•", "IdlNamespace", "•", "IdlDictionary", "•", "……", "Web", "Browsers", "Parsing", "Input", "Generation", "HTML", "Producer", "Semantic", "Alignment", "HTML", "TemplateJS", "Generator", "Semantic", "Parsing", "WebIDL", "Files"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 554.4,
+    "y1": 89.75999999999999,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure3-1.png"
+}, {
+  "caption": "Figure 9: The tendency of the branch coverage achieved by each browser fuzzer on Chromium, Safari, and Firefox, respectively.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2022705078125,
+    "y1": 201.44290161132812,
+    "y2": 207.28900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Chromium", "(b)", "Safari", "(c)", "Firefox"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 556.3199999999999,
+    "y1": 88.8,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure9-1.png"
+}, {
+  "caption": "Figure 10: CVE-2024-0224 on Chromium found by T. The code fragment triggers both UAF and Segv.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5778503417969,
+    "y1": 377.35791015625,
+    "y2": 394.1629943847656
+  },
+  "figType": "Figure",
+  "imageText": ["</html>", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "</script>", "</body>", "delay.delayTime.automationRate", "=", "“k-rate”;", "delay.delayTime.automationRate", "=", "“a-rate”;", "};", "delay.delayTime.linearRampToValueAtTime(1,2);", "delay.delayTime.value", "=", "-100;", "delay.connect(ctx.destination);", "sp.connect(delay);", "<script>", "let", "ctx", "=", "new", "AudioContext();", "let", "sp", "=", "ctx.createScriptProcessor();", "let", "delay", "=", "ctx.createDelay(1);", "sp.onaudioprocess", "=", "function", "(event)", "{", "<html>", "<body>"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 289.44,
+    "y1": 220.79999999999998,
+    "y2": 370.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure10-1.png"
+}, {
+  "caption": "Figure 4: The scope tree (simplied version) extracted from the example in Figure 2.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.201904296875,
+    "y1": 209.39187622070312,
+    "y2": 226.19598388671875
+  },
+  "figType": "Figure",
+  "imageText": ["Local", "Scope", "(aduioprocess_12)", "Variable", "Information", "var_15,", "var_16,", "var_17,", "var_20", "var_8,", "var_9", "Variable", "Information", "resolve_7", "audioprocess_12", "var_5,", "var_6,", "var_10,", "var_11,", "var_14,", "var_18,", "var_19", "Variable", "Information", "Local", "Scopes", "Local", "Scope", "(resolve_7)", "Global", "Scope", "(Window)"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 554.4,
+    "y1": 83.52,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680351-Figure4-1.png"
+}]

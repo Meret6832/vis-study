@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 4: Bank Like DeFi Model",
+  "captionBoundary": {
+    "x1": 374.2959899902344,
+    "x2": 501.85516357421875,
+    "y1": 120.29733276367188,
+    "y2": 125.927978515625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "usdcAmount", "=", "USDC.balance", "();", "2", "scaledUSDCAmount", "=", "USDC.balance", "()", "*", "10^12;", "3", "totalAmount", "=", "usdcAmount", "+", "scaledUSDCAmount;"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 491.52,
+    "y1": 88.32,
+    "y2": 108.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Language",
+  "captionBoundary": {
+    "x1": 399.9757995605469,
+    "x2": 476.17779541015625,
+    "y1": 224.00222778320312,
+    "y2": 229.63287353515625
+  },
+  "figType": "Figure",
+  "imageText": ["<𝑃𝑟𝑜𝑔𝑟𝑎𝑚>", "𝑃", "F", "𝑆", "<𝑆𝑡𝑎𝑡𝑒𝑚𝑒𝑛𝑡>", "𝑆", "F", "𝑆1;𝑆2|", "𝑥", ":=", "𝑣", "|", "𝑥", ":=", "𝑦", "|", "𝑥", ":=", "𝑎", "|", "𝑥", ":=", "𝑦", "op", "𝑧", "|", "𝑥", ":=", "IERC20(𝑦1", ")", ".balanceOf(𝑦2", ")", "|", "IERC20(𝑦1", ")", ".transfer(𝑦2,", "𝑥", ")", "|", "if(𝑥", ")", "𝑆1;", "else", "𝑆2;", "|", "while(𝑥", ")", "𝑆", ";", "<𝑉𝑎𝑟>", "𝑥,", "𝑦,", "𝑧", "<𝑉𝑎𝑙𝑢𝑒>", "𝑣", "∈", "{1,", "5,", "1018,", "...}", "<𝐴𝑑𝑑𝑟𝑒𝑠𝑠>", "𝑎", "<𝐶𝑜𝑚𝑝𝑎𝑟𝑖𝑠𝑜𝑛>", "⊲⊳", "∈", "{>,<,==,", "!", "=,", "...}", "<𝐵𝑖𝑛𝑜𝑝>", "𝑜𝑝", "∈", "{+,", "×,", "⊲⊳", "...}"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 149.76,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure5-1.png"
+}, {
+  "caption": "Figure 1: Buggy Code from Vader [15]",
+  "captionBoundary": {
+    "x1": 363.2539978027344,
+    "x2": 512.9020385742188,
+    "y1": 251.79635620117188,
+    "y2": 257.427001953125
+  },
+  "figType": "Figure",
+  "imageText": ["15", "return", "(_units)", "/", "one;", "16", "}", "11", "uint", "part1", "=", "(t", "*", "B);", "12", "uint", "part2", "=", "(T", "*", "b);", "13", "uint", "part3", "=", "(T", "*", "B)", "*", "2;", "14", "uint", "_units", "=", "(((P", "×", "part1)", "+", "part2)", "/", "part3);", "uint", "P)", "external", "view", "returns", "(uint){", "10", "function", "calcLiquidityUnits(uint", "b,", "uint", "B,", "uint", "t,", "uint", "T,", "7", "liquidity", "[...][", "member]", "+=", "liquidity;", "8", "totalBase", "+=", "addedBase;", "...", "9", "}", "addedToken", ",", "totalToken", ",", "totalLiquidity);", "4", "uint", "addedBase", "=", "getAddedAmount(base", ",", "...);", "5", "uint", "addedToken", "=", "getAddedAmount(token", ",", "...);", "6", "liquidity", "=", "calcLiquidityUnits(", "addedBase", ",", "totalBase", ",", "member)", "external", "returns(uint", "liquidity)", "{", "1", "contract", "Pools{", "2", "...", "3", "function", "addLiquidity(address", "base", ",", "address", "token", ",", "address"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 545.28,
+    "y1": 88.32,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Helper functions used in type rules",
+  "captionBoundary": {
+    "x1": 347.6709899902344,
+    "x2": 528.479248046875,
+    "y1": 443.15936279296875,
+    "y2": 448.7900085449219
+  },
+  "figType": "Figure",
+  "imageText": ["getScaleA(𝑎)", "=", "dictionary", "lookup", "of", "token", "𝑎’s", "scaling", "factor", "𝑛", "𝑣", "=", "10𝑛", "−", "otherwise", "getScaleV", "(𝑣)", "=", "{"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 391.68,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Extended Types",
+  "captionBoundary": {
+    "x1": 123.12297058105469,
+    "x2": 224.71661376953125,
+    "y1": 144.99026489257812,
+    "y2": 150.62091064453125
+  },
+  "figType": "Figure",
+  "imageText": ["<𝐸𝑥𝑡𝑒𝑛𝑑𝑒𝑑", "𝑇", "𝑦𝑝𝑒>", "𝜏", "::=<", "𝑓", ",", "𝑠,𝑢,", "𝑎", ">", "<𝐹𝑖𝑛𝑎𝑛𝑐𝑖𝑎𝑙", "𝑇", "𝑦𝑝𝑒>", "𝑓", "∈", "{RawBal,", "AccBal,", "NetBal,", "T-Supply,", "Fee,", "Debt,Interest,", "Dividend,", "Price,", "-,", "...}", "<𝑆𝑐𝑎𝑙𝑖𝑛𝑔", "𝑓", "𝑎𝑐𝑡𝑜𝑟>", "𝑠", "∈", "Z", "∪", "{−}", "<𝑇𝑜𝑘𝑒𝑛", "𝑈𝑛𝑖𝑡>", "𝑢", ":=", "𝑢", "×", "𝑢", "|", "𝑢", "÷𝑢", "|", "𝑡𝑎", "|", "𝑡𝑡ℎ𝑖𝑠", "|", "−"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Type Rules",
+  "captionBoundary": {
+    "x1": 396.7969970703125,
+    "x2": 479.3558349609375,
+    "y1": 261.1673278808594,
+    "y2": 266.7979736328125
+  },
+  "figType": "Figure",
+  "imageText": ["𝑥", ":=", "𝑦1", "⊲⊳", "𝑦2", ":", "<−,", "−,", "−,", "−>", "(𝑅9)", "𝑦1", ":", "𝜏1", "𝑦2", ":", "𝜏2", "𝜏1", ".𝑢", "=", "𝜏2", ".𝑢", "𝜏1", ".𝑠", "=", "𝜏2", ".𝑠", "𝑥", ":=", "IERC20(𝑦1", ")", ".balanceOf(𝑦2", ")", ":", "<RawBal,", "𝑔𝑒𝑡𝑆𝑐𝑎𝑙𝑒𝐴(𝑎1", "),", "𝑡𝑎1", ",", "−>", "(𝑅8)", "𝑦1", ":", "<−,", "−,", "−,", "𝑎1>", "𝑦2", ":", "<−,", "−,", "−,", "𝑎2>", "𝑥", ":=", "𝑦1", "÷", "𝑦2", ":", "<𝜏1", ".𝑓", "⊘", "𝜏2", ".𝑓", ",", "𝜏1", ".𝑠", "−", "𝜏2", ".𝑠,", "𝜏1", ".𝑢", "÷", "𝜏2", ".𝑢,", "−>", "(𝑅7)", "𝑦1", ":", "𝜏1", "𝑦2", ":", "𝜏2", "𝑥", ":=", "𝑦1", "×", "𝑦2", ":", "<𝜏1", ".𝑓", "⊗", "𝜏2", ".𝑓", ",", "𝜏1", ".𝑠", "+", "𝜏2", ".𝑠,", "𝜏1", ".𝑢", "×", "𝜏2", ".𝑢,", "−>", "(𝑅6)", "𝑦1", ":", "𝜏1", "𝑦2", ":", "𝜏2", "𝑥", ":=", "𝑦1", "−", "𝑦2", ":", "<𝜏1", ".𝑓", "⊖", "𝜏2", ".𝑓", ",", "𝜏1", ".𝑠,", "𝜏1", ".𝑢,", "−>", "(𝑅5)", "𝑦1", ":", "𝜏1", "𝑦2", ":", "𝜏2", "𝜏1", ".𝑢", "=", "𝜏2", ".𝑢", "𝜏1", ".𝑠", "=", "𝜏2", ".𝑠", "𝑥", ":=", "𝑦1", "+", "𝑦2", ":", "<𝜏1", ".𝑓", "⊕", "𝜏2", ".𝑓", ",", "𝜏1", ".𝑠,", "𝜏1", ".𝑢,", "−>", "(𝑅4)", "𝑦1", ":", "𝜏1", "𝑦2", ":", "𝜏2", "𝜏1", ".𝑢", "=", "𝜏2", ".𝑢", "𝜏1", ".𝑠", "=", "𝜏2", ".𝑠", "𝑥", ":=", "𝑦", ":", "𝜏", "(𝑅3)", "𝑦", ":", "𝜏", "(𝑅1)", "𝑥", ":=", "𝑎", ":", "<−,", "−,", "−,", "𝑎>", "(𝑅2)", "𝑥", ":=", "𝑣", ":", "<−,", "𝑔𝑒𝑡𝑆𝑐𝑎𝑙𝑒𝑉", "(𝑣),", "−,", "−>"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 83.52,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure7-1.png"
+}, {
+  "caption": "Table 2: Definition of Operator ⊖ (top_row ⊖ left_column)",
+  "captionBoundary": {
+    "x1": 320.72698974609375,
+    "x2": 555.13232421875,
+    "y1": 381.1673583984375,
+    "y2": 386.7980041503906
+  },
+  "figType": "Table",
+  "imageText": ["Dividend", "✗", "✗", "✗", "T-Supply", "Fee", "Debt", "Dividend", "Fee", "NetBal", "✗", "AccBal", "✗", "Fee", "✗", "Dividend", "Debt", "RawBal", "NetBal", "AccBal", "✗", "✗", "Debt", "✗", "T-Supply", "✗", "✗", "✗", "T-Supply", "✗", "✗", "✗", "AccBal", "✗", "✗", "AccBal", "T-Supply", "✗", "Debt", "✗", "NetBal", "✗", "NetBal", "✗", "T-Supply", "✗", "Debt", "✗", "RawBal", "RawBal", "✗", "✗", "T-Supply", "✗", "Debt", "✗", "⊖", "RawBal", "NetBal", "AccBal", "T-Supply", "Fee", "Debt", "Dividend"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 286.56,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Table2-1.png"
+}, {
+  "caption": "Figure 11: Missed-Type-Error Example in yAxis p1",
+  "captionBoundary": {
+    "x1": 336.2210388183594,
+    "x2": 539.9284057617188,
+    "y1": 275.3253479003906,
+    "y2": 280.95599365234375
+  },
+  "figType": "Figure",
+  "imageText": ["8", "...", "9", "}", "7", "+", "totalReserve", "-=", "diff;", "6", "-", "totalReserve", "-=", "strategyReserve;", "1", "uint256", "totalReserve;", "2", "uint256", "strategyReserve;", "3", "function", "setCap(uint256", "cap)", "external", "{", "4", "...", "5", "diff", "=", "strategyReserve", "-", "cap"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 473.76,
+    "y1": 187.2,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure11-1.png"
+}, {
+  "caption": "Figure 9: False Positive Example in Vader Protocol p1",
+  "captionBoundary": {
+    "x1": 66.20396423339844,
+    "x2": 281.6300354003906,
+    "y1": 215.93795776367188,
+    "y2": 221.568603515625
+  },
+  "figType": "Figure",
+  "imageText": ["11", "...", "12", "}", "13", "...", "14", "}", ";", "10", "uint", "_share", "=", "calcShare(_baseAmount", ",", "...,", "usdvReserve)", "1", "int", "usdvReserve;", "//an", "amount", "of", "USDV", "2", "int", "vaderReserve;", "//an", "amount", "of", "VADER", "3", "function", "getRewardShare(address", "token)", "external", "{", "4", "uint", "baseAmount", "=", "getBaseAmount(token);", "5", "if", "(isVader(token))", "{", "6", "uint", "_share", "=", "calcShare(_baseAmount", ",", "7", "...,", "vaderReserve);", "8", "...", "9", "}", "else", "if(isUSDV(token))", "{"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 291.84,
+    "y1": 88.32,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Not-Type-Error Example in MarginSwap",
+  "captionBoundary": {
+    "x1": 334.9970397949219,
+    "x2": 541.152099609375,
+    "y1": 152.08334350585938,
+    "y2": 157.7139892578125
+  },
+  "figType": "Figure",
+  "imageText": ["5", "}", "4", "+", "return", "100", "*collateral", "<", "liquidationThresholdPercent", "*loan;", "3", "-", "return", "100", "*collateral", ">=", "liquidationThresholdPercent", "*loan;", "2", "...", "collateral)", "external", "{", "1", "function", "belowMaintenanceThreshold(uint256", "loan", ",", "uinst256"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 538.0799999999999,
+    "y1": 88.32,
+    "y2": 140.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure10-1.png"
+}, {
+  "caption": "Figure 2: Buggy Code from Tracer [13]",
+  "captionBoundary": {
+    "x1": 98.00299072265625,
+    "x2": 249.8390655517578,
+    "y1": 259.9122009277344,
+    "y2": 265.5428466796875
+  },
+  "figType": "Figure",
+  "imageText": ["14", "}", "else", "if", "(trade.side", "==", "SHORT)", "{", "15", "newBase", "=", "position.base", "-", "signedAmount;", "16", "newQuote", "=", "position.quote", "+", "quoteChange", "-", "fee;", "17", "}", "18", "...", "19", "}", "13", "newQuote", "=", "position.quote", "-", "quoteChange", "+", "fee;", "10", "int256", "newBase", "=", "0;", "11", "if", "(trade.side", "==", "LONG)", "{", "12", "newBase", "=", "position.base", "+", "signedAmount;", "4", "int256", "signedAmount", "=", "trade.amount;", "5", "int256", "signedPrice", "=", "trade.price;", "6", "int256", "quoteChange", "=", "signedAmount", "*", "signedPrice;", "7", "int256", "fee", "=", "getFee(trade.amount", ",", "trade.price", ",", "feeRate);", "8", "9", "int256", "newQuote", "=", "0;", "feeRate)", "internal", "pure", "returns", "...", "{", "1", "contract", "LibBalances{", "2", "...", "3", "function", "applyTrade(Position", "position", ",", "Trade", "trade", ",", "uint256"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 285.12,
+    "y1": 88.32,
+    "y2": 248.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure2-1.png"
+}, {
+  "caption": "Table 1: Popular DeFi Project Categories",
+  "captionBoundary": {
+    "x1": 92.25997924804688,
+    "x2": 255.2797393798828,
+    "y1": 89.71133422851562,
+    "y2": 95.34197998046875
+  },
+  "figType": "Table",
+  "imageText": ["Dexes", "Exchange", "projects", "allow", "users", "to", "trade", "one", "currency", "for", "another,", "or", "for", "shares", "in", "a", "pool.", "swap,", "add/remove", "liquidity", "Lending", "Lending", "projects", "allow", "users", "to", "borrow", "currency", "in", "exchange", "for", "a", "collateral.", "lend,", "repossess,", "repay", "loan", "Services", "Service", "projects", "facilitate", "services", "or", "functions", "such", "as", "games", "and", "wallets.", "deposit,", "withdraw,", "buy,", "sell", "Derivatives", "Derivative", "projects", "are", "based", "upon", "simulating", "real-world", "derivatives", "such", "as", "stocks,", "options,", "and", "futures.", "trade,", "liquidate,", "withdraw,", "deposit", "Yield", "projects", "allow", "users", "to", "deposit", "funds", "to", "be", "used", "as", "collateral", "in", "other", "projects,", "where", "the", "earnings", "are", "returned.", "stake,", "withdraw,", "draw,", "invest,", "reinvest", "Yield", "&", "Yield", "Aggregator", "Project", "Types", "Brief", "Summary", "Typical", "Operations"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 300.0,
+    "y1": 101.75999999999999,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Table1-1.png"
+}, {
+  "caption": "Figure 3: Bank-like Conceptual Model for DeFi Contracts",
+  "captionBoundary": {
+    "x1": 322.43475341796875,
+    "x2": 553.712646484375,
+    "y1": 638.3538208007812,
+    "y2": 643.9844970703125
+  },
+  "figType": "Figure",
+  "imageText": ["32", "earning", "-=", "dividend;", "33", "balance[msg.sender", "]+=", "dividend;", "34", "uint", "interest", "=", "calc_interest(debt[msg.sender", "]);", "35", "debt[msg.sender", "]+=", "interest;", "36", "earning", "+=", "interest;", "37", "}", "38", "function", "swap_T0_4_T(uint", "amount)", "public", "{", "39", "price=IERC20.balanceof(T)/IERC20.balanceOf(T0);//", "T0*T=k", "40", "return", "amount", "*", "price;", "41", "}", "42", "function", "loan(uint", "share", ",", "uint", "collateral)", "public", "{", "43", "...", "//fee", "computation", "44", "new_collateral=collateral[msg.sender", "]+", "collateral;", "45", "new_debt", "=", "debt[msg.sender", "]+", "share", "+", "fee;", "46", "if", "(new_debt", "*100", ">=", "new_collateral", "*75)", "return;", "47", "collateral[msg.sender]", "=", "new_collateral;", "48", "debt[msg.sender]", "=", "new_debt;", "49", "totalSupply", "-", "=", "share;", "50", "totalDebt", "+", "=", "share", "+", "fee;", "51", "earning", "+=fee;", "52", "}", "53", "function", "payoff", "(uint", "share)", "public", "{", "54", "...", "//fee", "computation", "55", "debt[msg.sender]-", "=", "share", "-fee;", "56", "totalDebt", "-", "=share", "-fee;", "57", "totalSupply", "+", "=", "share", "-fee;", "58", "earning", "+=fee;", "59", "}", "60", "function", "liquidate", "(address", "account)", "require", "owner", "public", "{", "61", "if", "(debt[account", "]*100<", "collateral", "*75)", "return;", "62", "totalSupply", "+=", "debt[account", "];", "63", "earning", "+=", "collateral[account]-debt[account", "];", "64", "totalDebt", "-=", "debt[account", "];", "65", "debt[account]", "=", "0;", "collateral[account]", "=", "0;", "66", "}", "67", "}", "balance[msg.sender", "]);", "10", "mapping(address", "=>", "uint)", "public", "balance;", "11", "mapping(address", "=>", "uint)", "public", "debt;", "12", "mapping(address", "=>", "uint)", "public", "collateral;", "13", "14", "function", "deposit(uint", "amount)", "public", "{", "//", "deposit", "T0", "for", "T", "15", "unit", "share=", "swap_T0_4_T(amount);", "16", "uint", "fee=", "update_fee(fee_ratio", ",", "totalSupply", ",", "totalDebt);", "17", "balance[msg.sender", "]+=", "share;", "18", "balance[msg.sender]-=fee;", "19", "totalSupply", "+=share", "-fee;", "20", "earning", "+=fee;", "21", "}", "22", "function", "withdraw(uint", "share)", "public", "{", "23", "...", "//fee", "computation", "24", "balance[msg.sender]-=share;", "25", "balance[msg.sender]-=fee;", "26", "earning", "+=fee;", "27", "totalSupply", "-=share+fee;", "28", "return", "swap_T_4_T0(share);", "29", "}", "30", "function", "accounting", "()", "public", "{", "31", "uint", "dividend", "=", "calc_dividend(earning", ",", "totalSupply", ",", "1", "contract", "DeFiModel", "{", "2", "IERC20", "public", "T;", "//", "contract", "token", "3", "IERC20", "public", "T0;", "//asset", "token", "4", "uint", "public", "fee_rate;", "5", "uint", "public", "interest_rate;", "6", "uint", "public", "earning;", "7", "uint", "public", "totalSupply;", "8", "unit", "public", "totalDebt;", "9", "unit", "public", "price;"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 556.3199999999999,
+    "y1": 88.32,
+    "y2": 626.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Figure3-1.png"
+}, {
+  "caption": "Table 3: Evaluation Results",
+  "captionBoundary": {
+    "x1": 250.95599365234375,
+    "x2": 360.7445983886719,
+    "y1": 521.0942993164062,
+    "y2": 526.7249755859375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "63", "14", "29", "24", "4", "*", "Annotations", "(A+),", "Total", "Warnings", "(TW),", "False", "Positive", "(FP),", "True", "Positive", "(TP),", "Not", "Type", "Error", "(NTE),", "Missed", "Type", "Error", "(MTE)", "prices", "11", "86", "2", "0", "1", "1", "0", "7.024s", "Badger", "Dao", "p3", "Yield", "project", "8", "68", "0", "0", "0", "1", "0", "16.22s", "Tigris", "Trade", "Dex", "project", "utilizing", "off-chain", "oracles", "to", "provide", "real-time", "inflation", "1", "40", "0", "0", "0", "1", "0", "18.86s", "Sublime", "Lending", "project", "allowing", "users", "to", "create", "custom", "lending", "pools", "8", "91", "0", "0", "0", "1", "0", "25.84s", "Volt", "Dex", "project", "which", "conserves", "the", "value", "of", "user", "funds", "against", "pools", "on", "different", "chains", "6", "60", "1", "0", "1", "0", "0", "14.64s", "Rocket", "Joe", "Dex", "project", "where", "users", "exchange", "funds", "in", "return", "for", "new", "project", "liquidity", "7", "29", "3", "1", "1", "0", "0", "2.860s", "Concur", "Finance", "Yield", "project", "4", "41", "0", "0", "0", "1", "0", "2.980s", "Biconomy", "Hyphen", "Cross", "Chain", "project", "where", "users", "can", "deposit", "and", "withdraw", "for", "against", "losses", "11", "72", "0", "0", "0", "1", "0", "14.86s", "Sublime", "Lending", "contract", "dependent", "on", "trust", "minimization", "15", "57", "5", "2", "2", "0", "0", "24.54s", "Yeti", "Finance", "Lending", "project", "made", "against", "a", "contract", "specific", "token", "9", "34", "0", "0", "0", "1", "0", "12.35s", "Vader", "Protocol", "p3", "Yield", "project", "for", "a", "collaterized", "stablecoin", "5", "37", "4", "0", "3", "1", "0", "16.38s", "InsureDao", "Insurance", "markets", "where", "buyers", "pay", "premium", "for", "protection", "kets", "3", "1", "1", "0", "1", "0", "0", "9.35s", "Malt", "Finance", "Stablecoin", "for", "the", "contract", "token,", "Malt", "7", "63", "0", "0", "0", "2", "0", "11.998s", "Perennial", "Derivative", "project", "supporting", "synthetic", "token", "perpetual", "mar-", "gies", "for", "yield", "2", "1", "0", "0", "0", "1", "0", "9.58s", "Badger", "Dao", "p2", "Stablecoin", "to", "keep", "the", "internal", "contract", "asset", "price", "from", "fluc-", "tuating", "6", "14", "2", "0", "1", "0", "0", "10.31s", "Vader", "Protocol", "Yield", "project", "for", "a", "collaterized", "stablecoin", "(Swap)", "54", "169", "13", "2", "6", "2", "0", "66.86s", "yAxis", "p2", "Yield", "project", "where", "users’", "aggregated", "funds", "are", "used", "in", "strate-", "funds", "for", "interest", "6", "59", "1", "1", "0", "0", "1", "15.87s", "Badger", "Dao", "Yield", "project", "9", "22", "2", "0", "1", "0", "0", "14.61s", "Wild", "Credit", "Lending", "project", "relying", "on", "pairs", "of", "assets", "instead", "of", "a", "pool", "17", "960", "4", "2", "1", "0", "0", "45.37s", "PoolTogether", "v4", "Gaming", "service", "on", "yield", "interest", "1", "23", "0", "0", "0", "1", "0", "14.99s", "Sushi", "Trident", "p2", "Dex", "project", "for", "deploying", "personalized", "liquidity", "markets", "12", "51", "10", "4", "2", "2", "0", "19.68s", "Swivel", "Yield", "project", "that", "allows", "users", "to", "set", "orders", "for", "Yield", "claiming", "5", "78", "2", "0", "1", "0", "0", "15.03s", "Covalent", "Users", "delegate", "comissions", "to", "a", "Validators,", "which", "stakes", "the", "gies", "for", "yield", "9", "59", "4", "1", "2", "1", "1", "16.81s", "Time", "MarginSwap", "Dex", "project", "for", "margin", "trading", "on", "Uniswap", "and", "Sushiswap", "6", "20", "1", "0", "1", "1", "0", "8.93s", "Vader", "Protocol", "Yield", "project", "for", "a", "collaterized", "stablecoin", "17", "58", "4", "1", "2", "2", "0", "28.95s", "PoolTogether", "Gaming", "service", "on", "yield", "interest", "15", "8", "1", "0", "1", "1", "0", "8.94s", "Tracer", "Derivative", "project", "that", "supports", "perpetual", "markets", "10", "32", "1", "0", "1", "1", "1", "110.57s", "Yield", "Micro", "Lending", "project", "supporting", "borrowing,", "lending,", "and", "liquidity", "4", "18", "2", "0", "1", "1", "1", "10.39s", "Sushi", "Trident", "Dex", "project", "for", "deploying", "personalized", "liquidity", "markets", "24", "196", "0", "0", "0", "2", "0", "19.64s", "yAxis", "Yield", "project", "where", "users’", "aggregated", "funds", "are", "used", "in", "strate-", "Project", "Name", "Summary", "A+", "Func", "checked", "TW", "FP", "TP", "NTE", "MTE", "Analysis"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 550.0799999999999,
+    "y1": 82.56,
+    "y2": 514.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639128-Table3-1.png"
+}]

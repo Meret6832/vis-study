@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Synthetic parallel code examples, with PLBART [4] as generator. The synthetic parallel data demonstrates great alignment quality, with minor noise in some cases.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1884155273438,
+    "y1": 619.590576171875,
+    "y2": 636.3820190429688
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 421.91999999999996,
+    "y2": 615.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure4-1.png"
+}, {
+  "caption": "Table 1: Statistics of MIRACLE-function, with PLBART [4] as generator. SA & Compilation refers to the intersection of the Static Analysis and Compilation selections.",
+  "captionBoundary": {
+    "x1": 53.474998474121094,
+    "x2": 558.1895751953125,
+    "y1": 386.8555908203125,
+    "y2": 403.6470031738281
+  },
+  "figType": "Table",
+  "imageText": ["PLBART", "Number", "of", "Pairs", "Selection", "Rate", "Selector", "C++", "–", "Java", "C++", "–", "Py", "C++", "–", "C", "Java", "–", "Py", "Java", "–", "C", "Py", "–", "C", "C++", "–", "Java", "C++", "–", "Py", "C++", "–", "C", "Java", "–", "Py", "Java", "–", "C", "Py", "–", "C", "Direct", "Translation", "(DT)", "47540", "63637", "49550", "37233", "22919", "39231", "1", "1", "1", "1", "1", "1", "Static", "Analysis", "(STAT)", "25211", "58157", "14945", "31228", "13059", "33882", "0.53", "0.91", "0.30", "0.84", "0.57", "0.86", "Compilation", "(COMP)", "15258", "36224", "1893", "13525", "1562", "11088", "0.32", "0.57", "0.04", "0.36", "0.07", "0.28", "SA", "&", "Compilation", "(AND)", "9278", "34733", "1200", "12104", "1313", "10730", "0.20", "0.55", "0.02", "0.33", "0.06", "0.27"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 326.88,
+    "y2": 384.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Table1-1.png"
+}, {
+  "caption": "Figure 3: Illustration of function info extraction through AST parsing. Given an input program, MIRACLE first generates its corresponding AST and then extracts function-related information from AST into program_dict. The top middle tree shows an example of AST. After the functions are extracted, the leftover part of the program is called program_shell, which can later be used for execution-based evaluation.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1943359375,
+    "y1": 279.110595703125,
+    "y2": 317.82000732421875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 280.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure3-1.png"
+}, {
+  "caption": "Figure 1: An example of the “shallow translation” problem, with the Java function shown in the first column as input, the C++ translations from baseline method CodeLLama-7B-Instruct, and our proposed method MIRACLE (with CodeT5+ of size 770M as generator). The highlighted parts show that CodeLLama-7B-Instruct’s translation directly copied code blocks from the input Java code, which contains non-existent methods or grammatically incorrect statements in the target language C++, while MIRACLE was able to correctly convert them in the corresponding C++ grammar.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.451904296875,
+    "y1": 272.5635986328125,
+    "y2": 322.23199462890625
+  },
+  "figType": "Figure",
+  "imageText": ["MIRACLE", "(C++)Input", "(Java)", "CodeLLama-7B", "(C++)", "int", "sum(int", "a[],", "int", "n)", "{", "unordered_map<int,", "int>", "cnt;", "int", "ans", "=", "0,", "pre_sum", "=", "0;", "for", "(int", "i", "=", "0;", "i", "<", "n;", "i++)", "{", "ans", "+=", "(i", "*", "a[i])", "-", "pre_sum;", "pre_sum", "+=", "a[i];", "if", "(cnt.find(a[i]", "-", "1)", "!=", "cnt.end())", "ans", "-=", "cnt[a[i]", "-", "1];", "if", "(cnt.find(a[i]", "+", "1)", "!=", "cnt.end())", "ans", "+=", "cnt[a[i]", "+", "1];", "if", "(cnt.find(a[i])", "!=", "cnt.end())", "{", "cnt[a[i]]++;", "}", "else", "cnt[a[i]]", "=", "1;", "}", "return", "ans;", "}", "public", "static", "int", "sum(int", "a[],", "int", "n)", "{", "Map<Integer,Integer>", "cnt", "=", "new", "HashMap<Integer,", "Integer>();", "int", "ans", "=", "0,", "pre_sum", "=", "0;", "for", "(int", "i", "=", "0;", "i", "<", "n;", "i++)", "{", "ans", "+=", "(i", "*", "a[i])", "-", "pre_sum;", "pre_sum", "+=", "a[i];", "if", "(cnt.containsKey(a[i]", "-", "1))", "ans", "-=", "cnt.get(a[i]", "-", "1);", "if", "(cnt.containsKey(a[i]", "+", "1))", "ans", "+=", "cnt.get(a[i]", "+", "1);", "if(cnt.containsKey(a[i]))", "{", "cnt.put(a[i],", "cnt.get(a[i])", "+", "1);", "}", "else", "{", "cnt.put(a[i],", "1);", "}", "}", "return", "ans;", "}", "int", "sum(int", "a[],", "int", "n)", "{", "unordered_map<int,", "int>", "cnt;", "int", "ans", "=", "0,", "pre_sum", "=", "0;", "for", "(int", "i", "=", "0;", "i", "<", "n;", "i++)", "{", "ans", "+=", "(i", "*", "a[i])", "-", "pre_sum;", "pre_sum", "+=", "a[i];", "if", "(cnt.containsKey(a[i]", "-", "1))", "ans", "-=", "cnt.get(a[i]", "-", "1);", "if", "(cnt.containsKey(a[i]", "+", "1))", "ans", "+=", "cnt.get(a[i]", "+", "1);", "if", "(cnt.containsKey(a[i]))", "{", "cnt.put(a[i],", "cnt.get(a[i])", "+", "1);", "}", "else", "{", "cnt.put(a[i],", "1);", "}", "}", "return", "ans;", "}"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 87.84,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure1-1.png"
+}, {
+  "caption": "Table 3: Comparison of variations of curriculum. Data Volume refers to the number of parallel codes. The base model is PLBART. All results are measured in Computation Accuracy. Results demonstrate the effectiveness of alignment-enhancing curriculum learning.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1781616210938,
+    "y1": 349.7196044921875,
+    "y2": 366.510986328125
+  },
+  "figType": "Table",
+  "imageText": ["DT+STAT+COMP+AND+Snippet+Function", "(MIRACLE)", "551,286", "41.94", "35.24", "40.05", "33.84", "38.55", "41.09", "Function", "3,326", "0.81", "4.52", "1.88", "3.63", "16.87", "16.62", "Snippet+Function", "35,144", "25.54", "24.4", "27.15", "23.87", "32.23", "32.33", "AND+Snippet+Function", "104,502", "34.68", "34.64", "33.06", "32.93", "36.45", "37.16", "DT+Snippet+Function", "295,254", "38.98", "34.94", "37.1", "30.21", "35.54", "39.58", "AND+COMP+STAT+DT+Snippet+Function", "551,286", "38.98", "32.23", "37.63", "33.84", "35.84", "39.58", "Curriculum", "Data", "Volume", "Java", "–", "C++", "Py", "–", "C++", "C++", "–", "Java", "Py", "–", "Java", "C++", "–", "Py", "Java", "–", "Py"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 255.35999999999999,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Table3-1.png"
+}, {
+  "caption": "Table 2: Performance comparison of three implementations of MIRACLE with PLBART, CodeT5 and CodeT5+ against baseline approaches. The metric used for comparison is Computation Accuracy (CA@1). The Transcoder models do not support translation with C language, therefore the results are not included.",
+  "captionBoundary": {
+    "x1": 53.474998474121094,
+    "x2": 558.17724609375,
+    "y1": 214.97364807128906,
+    "y2": 242.7239990234375
+  },
+  "figType": "Table",
+  "imageText": ["MIRACLE-CodeT5", "51.08", "41.87", "49.19", "43.2", "50", "49.55", "68.83", "56.16", "31.25", "64.94", "45.21", "51.56", "MIRACLE-CodeT5+", "69.35", "61.75", "62.37", "57.1", "41.87", "41.39", "85.71", "73.97", "45.31", "84.42", "43.84", "31.25", "MIRACLE-PLBART", "41.94", "35.24", "40.05", "33.84", "38.55", "41.09", "33.77", "28.77", "17.19", "48.05", "23.29", "28.12", "CodeLLama-7B", "47.04", "49.7", "30.11", "46.53", "38.86", "42.6", "62.34", "45.21", "51.56", "58.44", "42.47", "34.38", "Trancoder-ST", "51.08", "36.14", "44.09", "35.35", "43.98", "51.96", "-", "-", "-", "-", "-", "-", "Trancoder", "49.73", "25.60", "40.86", "22.36", "41.87", "46.22", "-", "-", "-", "-", "-", "-", "CodeT5+", "63.71", "54.22", "62.1", "50.15", "32.83", "36.25", "84.42", "61.64", "46.88", "84.42", "38.36", "29.69", "CodeT5", "37.63", "19.28", "41.13", "23.87", "20.78", "24.77", "66.23", "47.95", "25", "64.94", "39.73", "28.12", "PLBART", "25.54", "24.4", "27.15", "23.87", "32.23", "32.33", "2.6", "0", "1.56", "5.19", "0", "14.06", "Model", "Java", "–", "C++", "Py", "–", "C++", "C++", "–", "Java", "Py", "–", "Java", "C++", "–", "Py", "Java", "–", "Py", "C++", "–", "C", "Java", "–", "C", "Py", "–", "C", "C", "–", "C++", "C", "–Java", "C", "–", "Py"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 83.52,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Table2-1.png"
+}, {
+  "caption": "Figure 8: An example of wrong translation from Llama-2 models for Java to Python code translation. Both of the models mimicked the input code by calling push for list. Llama-2-7b declared a variable named ‘len’ and called the built-in function len that causes the UnboundLocalError.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1807250976562,
+    "y1": 334.80560302734375,
+    "y2": 362.5559997558594
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "(Java)", "MIRACLE", "(Python)", "Llama-2-13b", "(Python)", "Llama-2-7b", "(Python)", "import", "java.util.Stack;", "public", "class", "Main", "{", "public", "static", "int", "countMinReversals(String", "expr)", "{", "int", "len", "=", "expr.length();", "if", "(len", "%", "2", "!=", "0)", "return", "-1;", "Stack<Character>", "s", "=", "new", "Stack<>();", "for", "(int", "i", "=", "0;", "i", "<", "len;", "i++)", "{", "char", "c", "=", "expr.charAt(i);", "if", "(c", "==", "'}'", "&&", "!s.empty())", "{", "if", "(s.peek()", "==", "'{')", "s.pop();", "else", "s.push(c);", "}", "else", "s.push(c);", "}", "int", "red_len", "=", "s.size();", "int", "n", "=", "0;", "while", "(!s.empty()", "&&", "s.peek()", "==", "'{')", "{", "s.pop();", "n++;", "}", "return", "(red_len", "/", "2", "+", "n", "%", "2);", "}", "def", "countMinReversals(expr):", "length", "=", "len(expr)", "if", "length", "%", "2", "!=", "0:", "return", "-1", "s", "=", "[]", "for", "i", "in", "range(length):", "c", "=", "expr[i]", "if", "c", "==", "'}'", "and", "len(s)", ">", "0:", "if", "s[-1]", "==", "'{':", "s.pop(-1)", "else:", "s.append(c)", "else:", "s.append(c)", "red_len", "=", "len(s)", "n", "=", "0", "while", "len(s)", ">", "0", "and", "s[-1]", "==", "'{':", "s.pop(-1)", "n", "+=", "1", "return", "(red_len", "//", "2)", "+", "(n", "%", "2)", "def", "count_min_reversals(expr):", "if", "len(expr)", "%", "2", "!=", "0:", "return", "-1", "stack", "=", "[]", "for", "i", "in", "range(len(expr)):", "char", "=", "expr[i]", "if", "char", "==", "'}':", "if", "not", "stack:", "break", "top", "=", "stack.pop()", "if", "top", "==", "'{':", "continue", "elif", "top", "==", "'}':", "stack.push(top)", "else:", "stack.push(char)", "red_len", "=", "len(stack)", "n", "=", "0", "while", "not", "stack", "and", "stack.pop():", "n", "+=", "1", "return", "(red_len", "//", "2", "+", "n", "%", "2)", "def", "count_min_reversals(expr):", "len", "=", "len(expr)", "if", "not", "(len", "%", "2)", "==", "0:", "return", "-1", "stack", "=", "[]", "for", "i", "in", "range(len):", "if", "expr[i]", "==", "'}':", "if", "not", "stack:", "continue", "if", "stack.pop()", "==", "'{':", "stack.push(expr[i])", "else:", "stack.push(expr[i])", "else:", "stack.append(expr[i])", "red_len=len(stack)", "n=0", "while", "stack", "and", "stack[-1]=='{':", "stack.pop()", "n+=1", "return", "(red_len/2)", "+", "(n%2)"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 540.0,
+    "y1": 82.56,
+    "y2": 330.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure8-1.png"
+}, {
+  "caption": "Figure 2: Overview of MIRACLE for Code Translation. MIRACLE utilizes a two-step process to generate high-quality translation hypotheses from monolingual code inputs. First, the generator produces multiple translation hypotheses using tempered sampling. Next, the selector applies static analysis and compilation techniques to select the most promising hypotheses. By employing various selection criteria, MIRACLE generates synthetic parallel code datasets with varying alignment levels and quality. These synthetic datasets, along with annotated parallel code datasets, are organized into a curriculum, where the alignment and quality gradually improve. The proposed curriculum-based approach enhances code translation performance.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.7512817382812,
+    "y1": 275.6556091308594,
+    "y2": 336.2829895019531
+  },
+  "figType": "Figure",
+  "imageText": ["Select", "Snippet-level", "Aligned", "Function-level", "Aligned", "Direct", "Translation", "(DT)", "Static", "Analysis", "(STAT)", "Compilation", "(COMP)", "(AND)", "Static", "Analysis", "&", "Compilation", "Annotated", "Parallel", "Data", "Synthetic", "Parallel", "Data", "Synthetic", "Parallel", "Code", "Alignment", "Ascending", "Curriculum", "function_name", "show", "return_type", "void", "parameters", "vector<int>", "Function_dict", " ", " stb", "+=", "pdata", "[", "0", "];", " ", " for", "(", "int", "a", "=", "1;", "a", "<", "pdata.size(", ");", "a++)", "{", " ", " ", " stb", "+=", "\"\"", "+", "pdata[a];", " ", " }", " ", " cout", "<<", "stb", "<<", "endl;", " }", "C++", "int", "show(string", "pdata)", "{", " ", " string", "stb", "=", "\"\"", ";", " ", " stb", "+=", "pdata", "[", "0", "];", " ", " for", "(", "int", "a", "=", "1;", "a", "<", "pdata.size(", ");", "a++)", "{", " ", " ", " stb", "+=", "\"\"", "+", "pdata[a];", " ", " }", " ", " cout", "<<", "stb", "<<", "endl;", " }", "C++", "void", "show(vector<int>&", "pdata)", "{", " ", " string", "stb", "=", "\"\"", ";", "function_name", "show", "return_type", "int", "parameters", "string", "Function_dict", "Java", "static", "void", "show(int", "[", "]", "pdata){", " ", " StringBuffer", "stb", "=", "new", "StringBuffer(", ")", ";", " ", " stb.append", "(", "pdata", "[", "0", "]", ")", ";", " ", " for", "(", "int", "a", "=", "1;", "a", "<", "pdata.length;", "a", "++", ")", "{", " ", " ", " stb.append(\"\"", "+", "pdata[a]);", " ", " }", " ", " System.out.println(stb.toString());", "}", "Static", "Analysis", "{...}static", "void", "void", "int[]", "pdata", "modifiers", "show", "formal_parameters", "block", "method_declaration", "function_name", "show", "return_type", "void", "parameters", "int[]", "Function_dict", "Tempered", "Sampling", "Generator", "Selector", "Compilation", "Static", "Analysis", "Java", "-", "Python", "Translation", "Model", "Java", "-", "C++", "Translation", "Model"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 550.0799999999999,
+    "y1": 87.84,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Comparison of models of similar sizes, including MIRACLE-CodeT5, CodeT5 and Transcoder-ST. In all three examples, the baselines’ results exhibit the \"shallow translation\" problem, where code snippets are directly copied or translated token by token from the source language, causing compilation and run-time errors in the target language. MIRACLE’s translation shows its strong ability to correctly align the syntax and APIs across different languages.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.4957275390625,
+    "y1": 442.8066101074219,
+    "y2": 481.5159912109375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure5-1.png"
+}, {
+  "caption": "Table 4: Datasets for Alignment-Ascending Curriculum Learning. Volume refers to the number of parallel codes.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.6806640625,
+    "y1": 581.7396240234375,
+    "y2": 598.531005859375
+  },
+  "figType": "Table",
+  "imageText": ["Data", "Type", "Volume", "Source", "DT", "Synthetic", "260,110", "Direct", "Translation", "STAT", "Synthetic", "176,482", "Static", "Analysis", "COMP", "Synthetic", "79,550", "Compilation", "AND", "Synthetic", "69,358", "Static", "Analysis", "&", "Compilation", "Snippet", "Annotated", "31,818", "ECoST", "Function", "Annotated", "3,326", "ECoST"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 499.2,
+    "y2": 579.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Table4-1.png"
+}, {
+  "caption": "Figure 6: Examples of wrong translations from Llama-2 models that try to mimic the input code while translating from C++ to Python. In the Llama-2-13b translation, p.first and p.second do not work in Python similarly as in Java code. For Llama-2-7b, p[0] and p[1] does not work for set elements. Also, deque in Python does not have an empty method whereas it works for Java.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.7525024414062,
+    "y1": 295.54559326171875,
+    "y2": 323.2959899902344
+  },
+  "figType": "Figure",
+  "imageText": ["return", "ans", "visited[path]", "=", "True", "q.append((path,", "pair[1]", "+", "1))", "0):", "path", "=", "pair[0]", "-", "(i", "*", "i)", "if", "path", ">=", "0", "and", "(not", "visited[path]", "or", "path", "==", "for", "i", "in", "range(1,", "pair[0]", "//", "i", "+", "1):", "pair", "=", "q.popleft()", "ans", "=", "min(ans,", "pair[1]", "+", "1)", "while", "not", "q.empty():", "visited", "=", "[0]", "*", "(n", "+", "1)", "q", "=", "deque([{0,", "1}])", "def", "num_squares(n:", "int)", "->", "int:", "return", "ans", "ans", "=", "min(ans,", "p.second)", "1))", "queue.append((path,", "p.second", "+", "continue", "path", "=", "p.first", "-", "(i", "*", "i)", "if", "path", "<", "0", "or", "visited[path]:", "for", "i", "in", "range(1,", "min(p.first,", "n)):", "visited[p.first]", "=", "1", "continue", "p", "=", "queue.popleft()", "if", "visited[p.first]:", "while", "queue:", "ans", "=", "float('inf')", "1)]", "queue", "=", "deque([(n,", "0)])", "visited", "=", "[[0]", "*", "(n", "+", "1)", "for", "_", "in", "range(n", "+", "def", "num_squares(n):", "return", "ans", "visited[path]", "=", "1", "q.append([path,", "p[1]", "+", "1])", "==", "0):", "path", "=", "p[0]", "-", "(i", "*", "i)", "if", "path", ">=", "0", "and", "(not", "visited[path]", "or", "path", "for", "i", "in", "range(1,", "int(p[0]**0.5)", "+", "1):", "ans", "=", "min(ans,", "p[1])", "if", "p[0]", "==", "0:", "p", "=", "q[0]", "q.pop(0)", "while", "len(q):", "visited", "=", "[0]", "*", "(n", "+", "1)", "q", "=", "[]", "ans", "=", "10**9", "q.append([n,", "0])", "visited[n]", "=", "1", "def", "numSquares(n):", "}", "}", "return", "ans;", "}", "}", "visited[path]", "=", "1;", "q.push({path,", "p.second", "+", "1});", "int", "path", "=", "p.first", "-", "(i", "*", "i);", "if", "(path", ">=", "0", "&&", "(!visited[path]", "||", "path", "==", "0))", "{", "for", "(int", "i", "=", "1;", "i", "*", "i", "<=", "p.first;", "i++)", "{", "ans", "=", "min(ans,", "p.second);", "pair<int,", "int>", "p;", "p", "=", "q.front();", "q.pop();", "if", "(p.first", "==", "0)", "vector<int>", "visited(n", "+", "1,", "0);", "queue<pair<int,", "int>>", "q;", "int", "ans", "=", "INT_MAX;", "q.push({n,", "0});", "visited[n]", "=", "1;", "while", "(!q.empty())", "{", "Input", "(C++)", "MIRACLE", "(Python)", "Llama-2-13b", "(Python)", "Llama-2-7b", "(Python)", "int", "numSquares(int", "n)", "{"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure6-1.png"
+}, {
+  "caption": "Figure 7: An example of wrong translation from Llama-2-13b for C++ to Python code translation. The bitwise swap operation does not need any extra temporary variable but the model introduced a temp variable instead of using a. This translation generates wrong output.",
+  "captionBoundary": {
+    "x1": 53.474998474121094,
+    "x2": 294.2279357910156,
+    "y1": 435.0736083984375,
+    "y2": 484.74200439453125
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "(C++)", "MIRACLE", "(Python)", "Llama-2-13b", "(Python)", "void", "swap(int&", "a,", "int&", "b)", "{", "a", "=", "(a", "&", "b)", "+", "(a", "|", "b);", "b", "=", "a", "+", "(~b)", "+", "1;", "a", "=", "a", "+", "(~b)", "+", "1;", "cout", "<<", "\"After", "swapping:", "a", "=", "\"", "<<", "a", "<<", "\",", "b", "=", "\"", "<<", "b;", "}", "def", "swap(a,", "b):", "a", "=", "(a", "&", "b)", "+", "(a", "|", "b)", "b", "=", "a", "+", "(~b)", "+", "1", "a", "=", "a", "+", "(~b)", "+", "1", "print(\"After", "swapping:", "a", "=", "\",", "a,", "\",", "b", "=", "\",", "b)", "def", "swap(a,", "b):", "#", "Perform", "the", "swap", "temp", "=", "(a", "&", "b)", "+", "(a", "|", "b)", "b", "=", "a", "+", "(~b)", "+", "1", "a", "=", "temp", "+", "(~b)", "+", "1", "#", "Print", "the", "results", "print(\"After", "swapping:", "a", "=\",", "a,", "\",", "b", "=\",", "b)"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 340.8,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695524-Figure7-1.png"
+}]

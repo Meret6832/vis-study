@@ -1,0 +1,181 @@
+[{
+  "caption": "TABLE I: Receiver-Sender Identification.",
+  "captionBoundary": {
+    "x1": 350.1105041503906,
+    "x2": 515.6463012695312,
+    "y1": 299.8356628417969,
+    "y2": 304.4281921386719
+  },
+  "figType": "Table",
+  "imageText": ["MoM", "Technology", "Sender", "Object", "Send", "Method", "Apache", "Kafka", "KafkaTemplate", "send", "RabbitMQ", "RabbitTemplate", "convertAndSend", "ActiveMQ", "JmsTemplate", "send", "Stream", "MessageChannel", "send", "RocketMQ", "RocketMQTemplate", "convertAndSend", "MoM", "Technology", "Annotation", "Annotation", "Parameter", "Apache", "Kafka", "KafkaListener", "topics", "RabbitMQ", "RabbitListener", "queues", "ActiveMQ", "JmsListener", "destination", "Stream", "StreamListener", "condition", "RocketMQ", "RocketMQMessageListener", "topic"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 309.59999999999997,
+    "x2": 560.16,
+    "y1": 312.96,
+    "y2": 422.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-TableI-1.png"
+}, {
+  "caption": "Fig. 1: Overview of the Foundations",
+  "captionBoundary": {
+    "x1": 114.18620300292969,
+    "x2": 253.47019958496094,
+    "y1": 231.66677856445312,
+    "y2": 236.12347412109375
+  },
+  "figType": "Figure",
+  "imageText": ["Uses", "Generates", "MDRE", "PCM", "Event-based", "Modelling", "Foundations", "Approach", "Target", "Model", "ARE4MOM", "MoM-based", "Microservices", "Microservices", "Extracted", "PCM", "Architecture", "Model", "for", "MoM-based", "PCM", "Reverse", "Engineering"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 301.44,
+    "y1": 72.48,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: Event-based Modelling",
+  "captionBoundary": {
+    "x1": 370.8797912597656,
+    "x2": 487.0155944824219,
+    "y1": 304.39459228515625,
+    "y2": 308.8512878417969
+  },
+  "figType": "Figure",
+  "imageText": ["Legend:", "NewModel", "Elements", "Existing", "Model", "Elements", "*", "*", "*", "*", "*", "1", "Operation", "RequiredRole", "<<HandlesEvent>>", "*", "1", "<<EmitsEvent>>", "*", "1", "*", "1", "Operation", "Interface", "Operation", "ProvidedRole", "ProvidedRole", "RequiredRole", "SourceRole", "SinkRole", "EventGroup", "Microservice", "Components"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 532.8,
+    "y1": 70.56,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-Figure2-1.png"
+}, {
+  "caption": "Fig. 6: Integration of MoM-Rule to existing Reverse Engineering Approach",
+  "captionBoundary": {
+    "x1": 311.64459228515625,
+    "x2": 560.2396850585938,
+    "y1": 190.71681213378906,
+    "y2": 207.09228515625
+  },
+  "figType": "Figure",
+  "imageText": ["Use", "Use", "Use", "Use", "MethodWithTopic", "PCMSystemModelCreator", "Use", "PCMInstanceCreatorMoM", "Use", "PCMInstanceCreator", "Use", "Use", "PCMDetector", "Use", "PCMDetectorMoM", "Use", "RuleHelper", "Use", "MoM-Rule", "Use", "DecoratorModelFillerUse", "Use", "Use", "«interface»", "JaMoPPParserAPI", "RuleEngine", "ParserAdapter", "<<Interface>>", "IRule"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 546.24,
+    "y1": 58.559999999999995,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-Figure6-1.png"
+}, {
+  "caption": "Fig. 3: Baseline-Architectural Model of Flowing-Retail Case Study",
+  "captionBoundary": {
+    "x1": 171.9969940185547,
+    "x2": 439.3998718261719,
+    "y1": 392.2438049316406,
+    "y2": 396.8041076660156
+  },
+  "figType": "Figure",
+  "imageText": ["«Handles»", "«Handles»", "«Emits»", "«Handles»", "Monitor", "Component", "receives", "all", "the", "Events", "«Emits»", "I«Provides»", "«Interface»", "CheckoutApplication_UI", "«Component»", "CheckoutApplication", "E", "«EventGroup»", "PaymentReceivedEvent()", "E", "«EventGroup»", "RetreivePaymentCommand()", "«Component»", "PaymentApplication", "«Emits»«Handles»", "«Handles»", "«Emits»", "E", "«EventGroup»", "OrderCompletedEvent()", "«Emits»", "«Handles»", "MonitorApplication", "«Component»", "Microservice", "Components", "«Component»", "«EventGroup»E", "EventGroupComponent", "Receives", "Sends", "«Handles»", "«Emits»", "Component-model", "for", "Flowing-Retail", "«Handles»", "«Handles»", "«Emits»", "«Emits»", "«Emits»", "E", "E", "«EventGroup»", "ShipGoodsCommand()", "«EventGroup»", "GoodsShippedEvent()", "E", "«EventGroup»", "OrderPlacedEvent()", "E", "«EventGroup»", "FetchedGoodsCommand()", "E", "«EventGroup»", "GoodsFetchedEvent()", "«Component»", "ShippingApplication", "«Component»", "OrderApplication", "«Component»", "InvertoryApplication"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 68.64,
+    "y2": 378.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-Figure3-1.png"
+}, {
+  "caption": "TABLE III: Expected Architectural Elements in Flowing-Retail",
+  "captionBoundary": {
+    "x1": 311.54888916015625,
+    "x2": 556.18505859375,
+    "y1": 221.95278930664062,
+    "y2": 226.51947021484375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "6", "23", "8", "15", "Order-Camunda", "8", "4", "4", "PaymentApplication", "2", "1", "1", "InventoryApplication", "2", "1", "1", "ShippingApplication", "2", "1", "1", "MonitorApplication", "8", "0", "8", "Microservice", "EventGroup", "SourceRole", "SinkRole", "CheckoutApplication", "1", "1", "0"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 312.0,
+    "x2": 556.3199999999999,
+    "y1": 136.79999999999998,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-TableIII-1.png"
+}, {
+  "caption": "TABLE II: The Results of Evaluation of the Extraction Process",
+  "captionBoundary": {
+    "x1": 311.54888916015625,
+    "x2": 556.1944580078125,
+    "y1": 120.4826431274414,
+    "y2": 125.04931640625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "84", "97.93%", "98.6%", "98.1%", "Shop-App", "10", "100%", "100%", "100%", "Case", "Study", "Components", "Precision", "Recall", "F1-score", "Flowing-Retail", "52", "93.8%", "100%", "96.4%", "Weather-App", "22", "100%", "95.65%", "97.8%"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 547.1999999999999,
+    "y1": 62.879999999999995,
+    "y2": 111.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-TableII-1.png"
+}, {
+  "caption": "Fig. 4: Sequence of an Event in Flowing-Retail",
+  "captionBoundary": {
+    "x1": 85.08779907226562,
+    "x2": 273.2197570800781,
+    "y1": 293.2224426269531,
+    "y2": 297.7554016113281
+  },
+  "figType": "Figure",
+  "imageText": ["OrderCompletedEvent", "GoodsShippedEvent", "GoodsShippedEvent", "ShipGoodsCommand", "ShipGoodsCommand", "GoodsFetchedEvent", "GoodsFetchedEvent", "FetchGoodsCommand", "FetchGoodsCommand", "PaymentReceivedEvent", "PaymentReceivedEvent", "RetrievePaymentCommand", "RetrievePaymentCommand", "inventory", "shipping", "monitor", "OrderPlacedEvent", "OrderPlacedEvent", "paymentcheckout", "new", "Order", "order-camunda"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 300.0,
+    "y1": 72.96,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-Figure4-1.png"
+}, {
+  "caption": "Fig. 5: Overview of the Approach",
+  "captionBoundary": {
+    "x1": 237.45150756835938,
+    "x2": 372.8284606933594,
+    "y1": 378.4507751464844,
+    "y2": 383.0010070800781
+  },
+  "figType": "Figure",
+  "imageText": ["Contribution", "in", "Extended", "Approach", "Existing", "Step-1", "Step-2", "Step-3", "Source", "Code", "Parsing", "Model", "Transformation", "Architecture", "Generation", "MoM", "Event-based", "Modelling", "for", "I-Interfaces", "E-EventGroups", "C-Components", "Extracted", "Architecture", "and", "Behavior", "Model", "Extension", "in", "ARE4MoM", "Model", "UML", "Architecture", "PCM2UML", "Transformation", "PCM", "System", "Model", "for", "MoM", "Decorator", "Model", "PCM", "Repository", "Model", "for", "MoM", "I", "E", "C", "MoM-Rule", "C", "I", "E", "Compilation", "Unit", "JaMoPP", "Parsing"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 554.4,
+    "y1": 68.64,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsa-icsa2024/figures/10_1109-ICSA59870_2024_00010-Figure5-1.png"
+}]

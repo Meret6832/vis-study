@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 1: The structure of a PDF file",
+  "captionBoundary": {
+    "x1": 365.885986328125,
+    "x2": 510.265380859375,
+    "y1": 290.3223571777344,
+    "y2": 295.9530029296875
+  },
+  "figType": "Figure",
+  "imageText": ["...", "...", "2Step", "4Step", "3Step", "5Step", "1Step", "e", "d", "a", "b", "b16", "b2", "b1", "c1", "c2", "c3", "c4", "c5", "c", "60", "9", "stream", "…", "endstream", "endobj", "21829", "/Length", "740>>", "...", "16", "0", "obj", "<</Filter", "/FlateDecod", "xref", "0", "17", "0000000000", "65536", "f", "0000000009", "00000", "n", "0000000060", "00000", "n", "...", "trailer", "<<", "/Size", "17", "/Root", "1", "0", "R>>", "Startxref", "21829", "%%EOF", "endobj", "/Limits", "[(wl0", "(wl0)]>>", "2", "0", "obj", "<<", "/Kids", "[2", "0", "R]", "endobj", "/Names", "<</Dests", "2", "0", "R>>", "/Pages", "3", "0", "R>>", "1", "0", "obj", "<</Type", "/Catalog", "%PDF-1.7", "End", "of", "file", "Trailer", "Xref", "Table", "Objects", "Header"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 354.71999999999997,
+    "x2": 517.4399999999999,
+    "y1": 89.75999999999999,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Print a modified PDF structure.",
+  "captionBoundary": {
+    "x1": 91.82599639892578,
+    "x2": 256.0113525390625,
+    "y1": 588.84033203125,
+    "y2": 594.4710083007812
+  },
+  "figType": "Figure",
+  "imageText": ["xref", "0", "17", "0000000000", "0000000009", "0000000080", "…", "startxref", "21849", "xref", "0", "17", "0000000000", "0000000009", "0000000060", "…", "startxref", "21829", "16", "offsets", "1", "0", "obj", "<<", "/Type", "/Catalog", "/Names", "<</Dests", "2", "0", "R>>", "/Pages", "3", "0", "R", "/Outlines", "<<>>", ">>", "endobj", "(a)", "Structure", "changes", "(b)", "File", "changes", "vector[3]", "vector[1]", "...", "Dict*", "Dict*", "/Outlines", "Dict*", "/Dest", "2", "0", "R", "vector[0]", "vector<pair>", "/Type", "/Catalog", "/Names", "vector[0]", "vector<pair>"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 306.24,
+    "y1": 451.68,
+    "y2": 578.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Mutations of the PDF structure. Blue nodes are primitive types and grey nodes are composite types.",
+  "captionBoundary": {
+    "x1": 86.06400299072266,
+    "x2": 525.9178466796875,
+    "y1": 270.3083801269531,
+    "y2": 275.93902587890625
+  },
+  "figType": "Figure",
+  "imageText": ["Uncompressed", "Uncompressed", "Uncompressed", "0x61200040", "0x61000140", "0x61200040", "0x62e00400", "0x62e00440", "0x62e00448", "0x61700110", "0x612000400x607010c8", "0x61700118", "0x607010c0", "0x62e00448", "0x62e00440", "0x62e00400", "0x61200040", "0x61000140", "0x61000140", "0x61200040", "0x62e00400", "0x62e00440", "0x62e00448", "0x62e00448", "0x62e00440", "0x61000140", "0x62e00400", "(a)", "Mutation", "Tree", "(b)", "An", "instance", "(c)", "Primitive", "mutation", "(d)", "Structure", "mutation", "(e)", "Reference", "mutation", "cryptNone", "Mutation", "Entry", "17", "71", "objDict", "XRef*", "Dict*", "i64", "vector", "cryptNone", "Mutation", "Entry", "17", "71", "objDict", "32", "cryptNone", "Mutation", "Entry", "17", "01", "objInt", "32", "cryptNone", "Mutation", "Entry", "Uncompressed", "17", "71", "0x61200040", "objInt", "i32(enum)", "Mutation", "Entry", "i32(enum)", "i32XRefEntry*", "i32i32", "XRef*", "PDFDoc*", "i32(enum)union", "Object"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 91.67999999999999,
+    "y2": 248.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Printer function for Poppler.",
+  "captionBoundary": {
+    "x1": 96.802001953125,
+    "x2": 251.03512573242188,
+    "y1": 416.4083557128906,
+    "y2": 422.03900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["01", "uxref", "=", "XRef();", "02", "writeHeader(outStr);", "03", "for(i=0;", "i<xref->numObjects;", "i++)", "04", "obj", "=", "xref->fetch(i);", "05", "offset", "=", "writeObjectHeader(i,", "outStr);", "06", "writeObject(obj,", "outStr);", "07", "writeObjectFooter(outStr);", "08", "uxref->add(i,", "offset);", "09", "unxrefOff", "=", "outStr->getPos();", "10", "writeXRefTable(uxref,", "outStr);", "11", "trailer", "=", "xref->getTrailerDict();", "12", "writeTrailer(trailer,", "outStr);", "13", "writeEOF(unxrefOff,", "outStr();"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 295.68,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure7-1.png"
+}, {
+  "caption": "Table 3: Percentage of valid seed generated by fuzzers",
+  "captionBoundary": {
+    "x1": 65.46400451660156,
+    "x2": 282.07354736328125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["libzip", "5.22e-4", "3.30e-4", "4.18e-5", "7.25e-4", "6.80e-1", "miniz", "3.27e-4", "9.46e-4", "5.01e-4", "1.48e-3", "6.39e-1", "zlib", "3.75e-2", "4.02e-2", "8.33e-2", "1.11e-1", "7.92e-1", "libpng", "1.25e-6", "1.44e-5", "1.26e-6", "6.93e-4", "6.93e-1", "giflib", "9.83e-3", "3.66e-2", "4.77e-3", "3.87e-4", "3.81e-1", "openjpeg", "4.63e-1", "N/A", "3.11e-1", "N/A", "7.67e-1", "libjpeg", "3.49e-5", "6.44e-4", "1.31e-4", "2.82e-5", "8.52e-1", "mozjpeg", "5.38e-5", "6.09e-4", "1.41e-4", "2.83e-4", "8.09e-1", "xfig", "7.52e-2", "1.17e-2", "8.60e-2", "8.51e-3", "7.53e-1", "imageMagick", "6.24e-2", "8.50e-2", "1.96e-4", "N/A", "8.36e-1", "mupdf", "1.23e-1", "1.54e-1", "7.51e-2", "8.17e-1", "8.94e-1", "xpdf", "1.54e-1", "2.33e-1", "1.17e-1", "7.34e-1", "8.32e-1", "qpdf", "2.31e-4", "5.29e-4", "3.50e-4", "1.43e-1", "8.16e-1", "poppler", "2.04e-1", "2.96e-1", "1.07e-1", "2.45e-2", "7.57e-1", "podofo", "1.91e-2", "3.30e-2", "1.56e-2", "8.26e-2", "7.23e-1", "Program", "AFL", "AFL++", "Mopt", "Weizz", "FuzzInMem"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 289.44,
+    "y1": 101.75999999999999,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Table3-1.png"
+}, {
+  "caption": "Table 1: Key structures and synthesized results",
+  "captionBoundary": {
+    "x1": 343.32598876953125,
+    "x2": 532.5264892578125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["libzip", "15772", "zip_open", "zip_t", "2277", "148", "✓", "miniz", "10112", "zip_open", "zip_t", "1313", "37", "✓", "zlib", "30878", "zipOpen64", "zip64_internal", "1141", "31", "×", "libpng", "57175", "png_read_info", "png_info_def", "1745", "62", "✓", "giflib", "6971", "DGifOpenFileName", "GIfFileType", "723", "14", "✓", "openjpeg", "160791", "pngtoimage", "opj_image", "3470", "176", "✓", "libjpeg", "88454", "jpeg_read_header*", "jpeg_struct", "2263", "81", "✓", "mozjpeg", "91581", "jpeg_read_header*", "jpeg_struct", "2348", "83", "✓", "xfig", "37525", "read_fig", "f_compound", "3662", "211", "✓", "imageMagick", "382786", "read", "Image", "9675", "750", "✓", "mupdf", "882899", "fz_open_document", "fz_document", "18053", "396", "✓", "xpdf", "125529", "PDFDoc", "PDFDoc", "11064", "362", "✓", "qpdf", "63168", "process_file", "QPDF", "3386", "242", "×", "poppler", "202999", "createPDFDoc", "PDFDoc", "11221", "537", "✓", "podofo", "63821", "Load", "PdfDocument", "3133", "174", "✓", "Program", "LOCs", "Parsers", "Key", "structure", "Syn", "LOCs", "#", "Types", "Found"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 102.24,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Table1-1.png"
+}, {
+  "caption": "Table 2: Path coverage for 15 real-world applications",
+  "captionBoundary": {
+    "x1": 331.6029968261719,
+    "x2": 544.2494506835938,
+    "y1": 250.09335327148438,
+    "y2": 255.7239990234375
+  },
+  "figType": "Table",
+  "imageText": ["libzip", "249", "238", "244", "510", "405", "192", "380", "miniz", "745", "665", "983", "809", "944", "347", "468", "zlib", "349", "407", "401", "491", "503", "205", "329", "libpng", "420", "475", "511", "N/A", "565", "474", "592", "giflib", "345", "266", "460", "535", "501", "296", "362", "openjpeg", "934", "N/A", "938", "N/A", "966", "N/A", "N/A", "libjpeg", "2963", "2717", "3847", "4713", "4003", "91", "91", "mozjpeg", "2375", "2359", "3100", "2309", "3339", "95", "95", "xfig", "565", "463", "1111", "N/A", "2251", "1431", "1542", "imageMagick", "1833", "1865", "3552", "4849", "4413", "N/A", "N/A", "mupdf", "2973", "2393", "1171", "N/A", "4109", "1644", "3876", "xpdf", "2018", "2407", "2901", "N/A", "4898", "1031", "1755", "qpdf", "2565", "4079", "4194", "N/A", "4315", "1646", "3259", "poppler", "6894", "6902", "7339", "N/A", "8771", "974", "2968", "podofo", "2511", "2731", "2724", "N/A", "3739", "742", "1403", "Program", "AFL", "AFL++", "Mopt", "FormatFuzz", "FuzzInMem", "Weizz", "FuzzInMem(qemu)"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 270.71999999999997,
+    "y2": 410.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Table2-1.png"
+}, {
+  "caption": "Figure 2: Overview of FuzzInMem",
+  "captionBoundary": {
+    "x1": 107.75399780273438,
+    "x2": 240.08712768554688,
+    "y1": 167.13833618164062,
+    "y2": 172.76898193359375
+  },
+  "figType": "Figure",
+  "imageText": ["Feedback", "x", "x", "FuzzInMem", "B", "A", "C", "Mutation", "Rules", "Type", "Content", "Header", "Repurposed", "Application", "Application", "Target", "MutantsInput", "MutatorSynthesizer", "Parser", "Processor", "Printer"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 85.92,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure2-1.png"
+}, {
+  "caption": "Figure 9: Path coverage. X-axis: time in hours, Y-axis: the number of unique paths.",
+  "captionBoundary": {
+    "x1": 139.51699829101562,
+    "x2": 472.46929931640625,
+    "y1": 433.05035400390625,
+    "y2": 438.6809997558594
+  },
+  "figType": "Figure",
+  "imageText": ["(p)", "legends", "AFL", "AFL++", "Mopt", "FormatFuzzer", "FuzzInMem", "(o)", "zlib", "500", "400", "300", "200", "100", "0", "(n)", "miniz", "0", "5", "10", "15", "20", "25", "1000", "800", "600", "400", "200", "0", "(m)", "libzip", "0", "5", "10", "15", "20", "25", "500", "400", "300", "200", "100", "0", "5", "10", "15", "20", "25", "0", "(l)", "mozjpeg", "3000", "2500", "2000", "1500", "1000", "500", "0", "(k)", "libjpeg", "0", "5", "10", "15", "20", "25", "4000", "3000", "2000", "1000", "0", "(j)", "qpdf", "0", "5", "10", "15", "20", "25", "4000", "3000", "2000", "1000", "0", "(i)", "podofo", "0", "5", "10", "15", "20", "25", "3500", "3000", "2500", "2000", "1500", "1000", "500", "0", "5", "10", "15", "20", "25", "0", "(h)", "poppler", "8000", "6000", "4000", "2000", "0", "(g)", "xfig", "0", "5", "10", "15", "20", "25", "2000", "1500", "1000", "500", "0", "(f)", "imageMagick", "0", "5", "10", "15", "20", "25", "5000", "4000", "3000", "2000", "1000", "0", "(e)", "openjpeg", "0", "5", "10", "15", "20", "25", "800", "600", "400", "200", "0", "5", "10", "15", "20", "25", "0", "(d)", "giflib", "500", "400", "300", "200", "100", "0", "(c)", "libpng", "0", "5", "10", "15", "20", "25", "500", "400", "300", "200", "100", "0", "(b)", "xpdf", "0", "5", "10", "15", "20", "25", "5000", "4000", "3000", "2000", "1000", "0", "(a)", "mupdf", "0", "5", "10", "15", "20", "25", "4000", "3000", "2000", "1000", "0", "5", "10", "15", "20", "25", "0"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 71.03999999999999,
+    "x2": 532.8,
+    "y1": 91.67999999999999,
+    "y2": 422.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure9-1.png"
+}, {
+  "caption": "Figure 4: Synthesize structures from source codes.",
+  "captionBoundary": {
+    "x1": 337.2019958496094,
+    "x2": 538.9459228515625,
+    "y1": 234.14535522460938,
+    "y2": 239.7760009765625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Source", "codes", "(b)", "Synthesized", "codes", "...", "struct", "Ref{", "...", "};", "union", "anony1{", "i8", "booln;", "...", "Ref", "ref;", "};", "enum", "ObjType{", "...", "};", "class", "Object{", "ObjType", "type;", "union", "anony1", "anonyfield1;", "};", "...", "class", "Object{", "ObjType", "type;", "union", "{", "bool", "booln;", "int", "intg;", "long", "long", "int64g;", "double", "real;", "GooString", "*string;", "char", "*cString;", "Array", "*array;", "Dict", "*dict;", "Stream", "*stream;", "Ref", "ref;", "};", "};"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 543.36,
+    "y1": 90.72,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Type system for memory fuzzing.",
+  "captionBoundary": {
+    "x1": 351.1759948730469,
+    "x2": 524.9727783203125,
+    "y1": 314.8673400878906,
+    "y2": 320.49798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["⟨Struct⟩", "𝜓::=", "(𝜏,", "𝜙", ")", "|", "⊣", "𝑠", "⟨Type⟩", "𝜏::=", "𝜓", "|", "𝜏*", "|", "𝜏[]", "|", "𝜆", "|", "int", "|", "float", "...", "⟨Field⟩", "𝜙::=", "𝑠", "⟨String⟩", "𝑠", "⟨Enum⟩", "𝜆::=", "(𝑠,", "𝑖𝑛𝑡", ")"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 260.64,
+    "y2": 305.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure5-1.png"
+}, {
+  "caption": "Figure 3: The process to the parser function. Grey nodes are export functions and white nodes are non-export functions. 𝐿𝐶𝑆𝑉𝑉 [𝑠𝑡𝑎𝑟𝑡 ] = 𝐿𝐶𝑅𝐹𝑠 = 𝐿𝐶𝑅𝐹 (𝜉 𝐼𝑆 , 𝜉𝑉𝑆 )",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0361633300781,
+    "y1": 288.7313537597656,
+    "y2": 316.20599365234375
+  },
+  "figType": "Figure",
+  "imageText": ["...", "...", "...", "...", "ReadFunc", "ReadFunc", "ReadFunc", "(a)", "Call", "Graph", "getNumPages", "printInfo", "read", "...", "buildPDFDoc", "getTextEncoding", "createPDFDoc", "opendir", "NameToCharCode", "GlobalParams", "strcmp", "main", "parseArgs", "Valid", "Invalid", "ReadFunc", "createPDFDoc", "GlobalParams", "getTextEncoding", "...", "16:", "read", "1:", "getNumPages", "1:", "printInfo", "1:", "parseArgs", "2:", "strcmp", "1:", "GlobalParams", "2:", "NameToCharCode", "3:", "opendir", "1:", "getTextEncoding", "1:", "createPDFDoc", "2:", "buildPDFDoc", "createPDFDoc", "GlobalParams", "getTextEncoding", "(d)", "Common", "sequence", "(c)", "Simplied", "Sequences", "(b)", "Call", "Sequences", "getNumPages", "printInfo", "createPDFDoc", "GlobalParams", "getTextEncoding"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 287.03999999999996,
+    "y1": 85.92,
+    "y2": 275.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639172-Figure3-1.png"
+}]

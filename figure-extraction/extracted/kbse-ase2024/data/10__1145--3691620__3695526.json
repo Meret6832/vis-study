@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 1: Call Sequence of Signature 0x2e88fb97",
+  "captionBoundary": {
+    "x1": 342.8838195800781,
+    "x2": 532.9806518554688,
+    "y1": 87.16047668457031,
+    "y2": 91.35675048828125
+  },
+  "figType": "Table",
+  "imageText": ["0x2e88fb97[exploit]", "->", "deposit(...)", "[RewardsHypervisor]", "deposit(...)[RewardsHypervisor]", "->", "totalSupply()[vVISR]", "deposit(...)[RewardsHypervisor]", "->", "fallback()[Visor", "Finance]", "deposit(...)[RewardsHypervisor]", "->", "mint(...)[vVISR]", "deposit(...)[RewardsHypervisor]", "->", "owner()[exploit]", "deposit(...)[RewardsHypervisor]", "->", "0x2e88fb97[exploit]", "deposit(...)[RewardsHypervisor]", "->", "balanceOf(...)[Visor", "Finance]"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 533.28,
+    "y1": 105.6,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table1-1.png"
+}, {
+  "caption": "Figure 4: Prompt Template for Vulnerabilities Analysis",
+  "captionBoundary": {
+    "x1": 62.416099548339844,
+    "x2": 285.427490234375,
+    "y1": 244.6132354736328,
+    "y2": 248.80950927734375
+  },
+  "figType": "Figure",
+  "imageText": ["Prompt", "Template", "Example:", "I", "will", "provide", "an", "example", "of", "a", "<price", "manipulation", "attack>", "along", "with", "its", "label.", "…………", "Instruction", "Given", "the", "following", "call", "sequences", "as", "input,", "please", "analyze", "the", "purpose", "of", "function", "calls", "and", "mimic", "reasoning", "process", "step", "by", "step", "in", "the", "background,", "and", "assign", "an", "appropriate", "label.", "Please", "answer", "only", "<***", "attack>", "or", "<others>.", "Input", "Call", "Sequences", "…………", "…………", "Reasoning", "Process:", "<Called", "function", ":", "purpose>", "…………", "Vulnerability", "Label:", "<***", "attack>", "or", "<others>.", "<Function", "signature1[exploit]", "->", "Function", "signature[Callee]>", "<Function", "signature[caller]", "->", "Function", "signature[callee]>", "Specified", "Format", "Input", "Call", "Sequences:", "<Contract", "address>", "Role", "and", "Task", "You", "are", "a", "smart", "contract", "security", "expert.", "I", "will", "provide", "you", "with", "a", "series", "of", "function", "call", "sequences.", "You", "will", "need", "to", "deduce", "the", "purpose", "of", "the", "call", "sequences.", "Furthermore,", "you", "will", "be", "asked", "questions", "related", "to", "vulnerability", "type.", "You", "can", "simulate", "answering", "them", "in", "the", "background", "five", "times", "and", "give", "me", "the", "most", "frequently", "appearing", "answer."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 82.56,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Example in Prompt Template",
+  "captionBoundary": {
+    "x1": 359.6236877441406,
+    "x2": 516.534912109375,
+    "y1": 285.1242980957031,
+    "y2": 289.3205871582031
+  },
+  "figType": "Figure",
+  "imageText": ["Vulnerability", "Label:", "price", "manipulation", "attack", "Prompt", "Template", "Reasoning", "Process", "flashLoan(…)[DPPOracle]:", "the", "contract", "calls", "the", "flashloan", "to", "borrow", "WBNB", "swapExactTokensForTokens(…)[PancakeSwap]:", "the", "contract", "exchanges", "WBNB", "for", "SELLC", "on", "PancakeSwap", "to", "lift", "the", "price", "ShortStart(…)[SellToken]:", "the", "contract", "shorts", "the", "SELLC", "with", "WBNB", "to", "prepare", "manipulate", "the", "price", "swapExactTokens…TransferTokens(…)[PancakeRouter]:", "the", "contract", "swaps", "the", "SELLC", "for", "WBNB", "on", "PancakeSwap", "to", "drop", "the", "price", "of", "SELLC", "withdraw(…)[SellToken]:", "the", "contract", "withdraws", "WBNB", "from", "SellToken", "as", "the", "profit", "of", "shorting", "0x74ff2dff[expolit]", "->", "balanceOf(…)[WBNB]", "0x74ff2dff[expolit]", "->", "flashLoan(…)[DPPOracle]", "flashLoan(…)[DPPOracle]", "->", "transfer(…)[WBNB]", "flashLoan(…)[DPPOracle]", "->", "DPPFlashLoanCall(…)[exploit]", "0x74ff2dff[expolit]", "->", "withdraw(…)[WBNB]", "DPPFlashLoanCall(…)[exploit]", "->", "approve(…)[WBNB]", "DPPFlashLoanCall(…)[exploit]", "->", "swapExactTokensForTokens(…)[PancakeSwap]", "swapExactTokensForTokens(…)[PancakeSwap]", "->", "transferFrom(WBNB)", "swapExactTokensForTokens(…)[PancakeSwap]", "->", "swap(…)[PancakeSwap]", "DPPFlashLoanCall(…)[exploit]", "->", "balanceOf(…)[WBNB]", "DPPFlashLoanCall(…)[exploit]", "->", "withdraw(…)[WBNB]", "DPPFlashLoanCall(…)[exploit]", "->", "ShortStart(…)[SellToken]", "ShortStart(…)[SellToken]", "->", "getPair(…)[]", "ShortStart(…)[SellToken]", "->", "getAmountsOut(…)[PancakeRouter]", "DPPFlashLoanCall(…)[exploit]", "->", "swapExactTokens…TransferTokens(…)[Panc", "akeRouter]", "DPPFlashLoanCall(…)[exploit]", "->", "withdraw(…)[SellToken]", "DPPFlashLoanCall(…)[exploit]", "->", "transfer(…)[WBNB]", "Input", "Call", "Sequence:", "Contract", "address1[exploit]", "Example", "I", "will", "provide", "an", "example", "of", "a", "<price", "manipulation", "attack>", "along", "with", "its", "label."],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Figure5-1.png"
+}, {
+  "caption": "Table 7: Immediate Attack Incidents",
+  "captionBoundary": {
+    "x1": 100.30819702148438,
+    "x2": 247.2406005859375,
+    "y1": 242.8782501220703,
+    "y2": 247.07452392578125
+  },
+  "figType": "Table",
+  "imageText": ["Bao", "2023/7/4", "ETH", "46K", "0x3F99D5Cd8302", "Melo", "2023/5/6", "BSC", "90K", "0x4985DB6Fa42F", "Cellframenet", "2023/6/1", "BSC", "76K", "0x1e2a251b29e8", "RoeFinance", "2023/1/12", "ETH", "80K", "0x3a5b7DB0BE9F", "0x6066435edce9", "BRA", "2023/1/10", "BSC", "224K", "0x1fae46b350c4", "Omni", "2022/7/10", "ETH", "1.4M", "0x3c10e78343c4", "BabySwap", "2022/10/1", "BSC", "65K", "0xde7e741bd9dc", "Beanstalk", "2022/4/17", "ETH", "182M", "0x79224bC0bf70", "DeFiPie", "2021/7/13", "BSC", "17K", "0x0d1e8ceb7a41", "DApp", "Attack", "Time", "Platform", "Loss($)", "Attacker", "Contract"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 279.36,
+    "y1": 261.59999999999997,
+    "y2": 360.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table7-1.png"
+}, {
+  "caption": "Table 5: Efficiency of Vulnerability Detection",
+  "captionBoundary": {
+    "x1": 214.7313995361328,
+    "x2": 396.9736633300781,
+    "y1": 87.16090393066406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "Stage", "1", "Avg.", "Stage", "2", "Avg.", "Stage", "3", "Avg.", "Total", "Time", "17h24m", "4m51s", "0.18s", "11.42s", "4.13s", "15.73s", ",", "Avg.", "Interval", "Median", "Interval", "Vulnerability", "Detection", "Time"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 431.52,
+    "y1": 105.6,
+    "y2": 128.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table5-1.png"
+}, {
+  "caption": "Table 8: Comparison with BlockWatchdog",
+  "captionBoundary": {
+    "x1": 352.63763427734375,
+    "x2": 523.232421875,
+    "y1": 561.563720703125,
+    "y2": 565.760009765625
+  },
+  "figType": "Table",
+  "imageText": ["Omni", "2022/7/10", "0x3c10e78343c4", "0x8a90cab2b38d", "Sushibar", "2022/10/25", "0x9C5A2A643152", "0x2321537fd8ef", "Fei", "Protocal", "&", "Rari", "2022/4/30", "0xE39f3C40966D", "0x32075bAd9050", "0x26267e41ceca", "×", "×", "Revest", "2022/3/27", "0xb480ac726528", "0xe952bda8c06", "Paraluni", "2022/3/13", "0x4770b5cb9d51", "0x48bb5f07e78f", "Agave", "&", "Hundred", "2022/3/15", "0xf98169301b06", "0xf8D1677c8a0c", "Grim", "Finance", "2021/10/16", "0xb08cCb39741d", "0x660184ce8af8", "Visor", "Finance", "2021/10/16", "0x10C509AA9ab2", "0xc9f27a50f825", "0xbd51Cb8c06F7", "0x38c40427efbA", "0x32d77947aACa", "0xd06527d5e56a", "Cream", "Finance", "2021/8/31", "DeFiPie", "2021/7/12", "0x0d1e8ceb7a41", "0x57c18e68d86c", "xSurge", "2021/8/16", "0x1514aaa4dcf5", "0xe1e1aa58983f", "Uniswap", "2020/4/18", "0xBD2250D713bf", "0x2157a7894439", "Lendf.Me", "2020/4/19", "0x538359785a8D", "0x3212b29e3358", "Akropolis", "2020/11/12", "0xe2307837524D", "0x1cec0e358f88", "Spankchain", "2018/10/9", "0xc5918a927c4f", "0xf91546835f75", "×", "DApp", "Attack", "Time", "Attacker", "Contract", "Victim", "Contract", "BW", "Skyeye"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 580.8,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table8-1.png"
+}, {
+  "caption": "Figure 6: Example for Access Control",
+  "captionBoundary": {
+    "x1": 98.73419952392578,
+    "x2": 249.1088409423828,
+    "y1": 536.4398193359375,
+    "y2": 540.6361083984375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "emit", "Transfer(address(0),", "account,", "amount);", "11", "_afterTokenTransfer(address(0),", "account,", "amount);", "12", "}", "1", "function", "mint()", "public", "returns", "(bool){", "2", "_mint(", "msg.sender,", "100000000000000000", ");", "3", "return", "true;", "4", "}", "5", "function", "_mint(address", "account,", "uint256", "amount)", "internal", "virtual{", "6", "require(account", "!=", "address(0),", "\"ERC20:", "mint", "to", "the", "zero", "address\");↪→", "7", "_beforeTokenTransfer(address(0),", "account,", "amount);", "8", "_totalSupply", "+=", "amount;", "9", "_balances[account]", "+=", "amount;"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 288.0,
+    "y1": 409.91999999999996,
+    "y2": 518.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Figure6-1.png"
+}, {
+  "caption": "Table 6: Effectiveness of Vulnerability Detection",
+  "captionBoundary": {
+    "x1": 208.12840270996094,
+    "x2": 403.5781555175781,
+    "y1": 143.3710479736328,
+    "y2": 147.56732177734375
+  },
+  "figType": "Table",
+  "imageText": ["Type", "Number", "Victim", "Localization", "Localization", "at", "PES", "Vulnerability", "Detection", "Detection", "at", "PES", "Flash", "Loan", "15", "14(93.3%)", "12(80.0%)", "14(93.3%)", "12(80.0%)", "Price", "Manipulation", "31", "31(100%)", "28(90.3%)", "27(87.1%)", "24(77.4%)", "Reentrancy", "23", "23(100%)", "21(91.3%)", "23(100%)", "21(91.3%)", "Access", "Control", "16", "15(93.8%)", "13(81.3%)", "14(87.5%)", "13(81.3%)", "Others", "89", "85(95.5%)", "73(82.0%)", "78(78/85=91.8%)", "70(70/85=82.4%)", "Overall", "174", "168(168/174=96.6%)", "147(147/174=84.5%)"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 556.3199999999999,
+    "y1": 161.76,
+    "y2": 242.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table6-1.png"
+}, {
+  "caption": "Figure 1: Typical Attacks via Adversarial Contracts",
+  "captionBoundary": {
+    "x1": 335.0646057128906,
+    "x2": 541.0936889648438,
+    "y1": 474.6526184082031,
+    "y2": 478.8489074707031
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 348.96,
+    "x2": 527.04,
+    "y1": 368.64,
+    "y2": 460.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Figure1-1.png"
+}, {
+  "caption": "Table 3: Effectiveness of Victim Contract Localization",
+  "captionBoundary": {
+    "x1": 329.4656066894531,
+    "x2": 546.3988647460938,
+    "y1": 87.16090393066406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Type", "Number", "Victim", "Localization", "Success", "Ratio", "Constant", "Address", "87", "87", "100%", "Deployment", "Setting", "20", "20", "100%", "Dynamic", "Setting", "67", "61", "91.0%", "Total", "174", "168", "96.6%"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 533.28,
+    "y1": 105.6,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table3-1.png"
+}, {
+  "caption": "Table 2: Effectiveness of Adversarial Contract Identification",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.044189453125,
+    "y1": 620.9869384765625,
+    "y2": 625.1832275390625
+  },
+  "figType": "Table",
+  "imageText": ["DT", "0.6456", "0.8226", "0.7234", "RF", "0.7681", "0.8548", "0.8092", "TF", "0.4764", "0.8642", "0.6142", "Skyeye", "0.9454", "0.9286", "0.9369", "LookAhead", "0.9273", "0.9623", "0.9444", "Model", "Precision", "Recall", "F1-Score", "Forta", "0.8860", "0.5940", "0.7112"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 236.16,
+    "y1": 639.84,
+    "y2": 698.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table2-1.png"
+}, {
+  "caption": "Figure 2: Workflow of Skyeye",
+  "captionBoundary": {
+    "x1": 244.42849731445312,
+    "x2": 367.5721740722656,
+    "y1": 207.4191436767578,
+    "y2": 211.61541748046875
+  },
+  "figType": "Figure",
+  "imageText": ["Behaviors", "Extraction", "Issue", "Timely", "Warnings", "LLM-based", "Analysis", "Vulnerability", "Analysis", "Vulnerability", "Types", "Large", "Language", "Model", "Complete", "Attack", "Behaviors", "Victim", "Contract", "Localization", "Simulated", "Execution", "Pairs", "Adversarial", "&", "Victim", "Contracts", "Smart", "Project", "Contracts", "Probabilistic", "Matching", "Outside", "Address", "Variables", "&", "ABIs", "Calling", "Detection", "Model", "Adversarial", "Contract", "Identification", "Binary", "Adversarial", "Contracts", "Semantic", "Fusion", "DL", "Adversarial", "Feature", "Extraction", "Binary", "Smart", "Contracts", "Blockchain", "System"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 513.12,
+    "y1": 82.56,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Figure2-1.png"
+}, {
+  "caption": "Table 4: Failed Cases in Victim Contract Localization",
+  "captionBoundary": {
+    "x1": 66.9697265625,
+    "x2": 280.5852355957031,
+    "y1": 165.32704162597656,
+    "y2": 169.5233154296875
+  },
+  "figType": "Table",
+  "imageText": ["Type", "Incident", "Address", "Type1", "Transit", "Swap", "0x17ff6c94ba3a49c72ef2f10782de8a6152f204ea", "Wintermute", "0x0248F752802B2cfB4373cc0c3bC3964429385c26", "Type2", "EFLeverVault", "0x140ccA423081ed0366765F18fC9f5Ed299699388", "Curve.Fi", "0x9420F8821aB4609Ad9FA514f8D2F5344C3c0A6Ab", "Type3", "FURUCOMBO", "0x86765dde9304bEa32f65330d266155c4fA0C4F04", "Ragnarok", "0xdfc372577482eb1b45ff6402f7a68bbd98b85bba", ","],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 267.84,
+    "y1": 183.84,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Table4-1.png"
+}, {
+  "caption": "Figure 3: Overview of Adversarial Contract Identification",
+  "captionBoundary": {
+    "x1": 190.3654022216797,
+    "x2": 421.6348571777344,
+    "y1": 185.8791046142578,
+    "y2": 190.07537841796875
+  },
+  "figType": "Figure",
+  "imageText": ["Semantic", "Fusion", "Deep", "Learning", "Linear", "Layer", "Adversarial", "Smart", "Contract", "Standardized", "Process", "Encoder-only", "Transformer", "Linear", "Layer", "Semantic", "Embedding", "Semantic", "Segmentation", "Program", "Analysis", "Adversarial", "Features", "Binary", "Smart", "Contract"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 82.56,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695526-Figure3-1.png"
+}]

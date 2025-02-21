@@ -1,0 +1,61 @@
+[{
+  "caption": "TABLE I: Evaluation of the Maskable PPO algorithm in the parameterized level crossing example. It displays the state space size (in millions) on the left and the median convergence time (in seconds) over 20 repetitions on the right. Median was used instead of averages to reduce the impact of outliers in measurements. Entries with state space sizes colored in gray indicate estimated measurements.",
+  "captionBoundary": {
+    "x1": 59.85300064086914,
+    "x2": 295.8460693359375,
+    "y1": 216.52215576171875,
+    "y2": 288.3584899902344
+  },
+  "figType": "Table",
+  "imageText": ["4", "1", "109/6.3", "401/8.2", "844/7.9", "1489/16.7", "2328/35.0", "3350/10.5", "2", "258/12.7", "948/9.4", "1997/8.3", "3523/9.5", "5504/15.6", "7951/9.5", "3", "313/4.7", "1148/8.3", "2424/4.6", "4267/4.7", "6665/10.3", "9620/10.8", "4", "378/3.2", "1387/6.9", "2923/1.5", "5146/8.2", "8021/6.8", "11551/9.0", "3", "1", "13.66/6.4", "50/9.5", "105/6.9", "187/7.4", "292/25.1", "422/8.4", "2", "32.35/7.3", "119/7.1", "251/4.0", "442/8.5", "691/1.5", "998/10.0", "3", "39.25/3.3", "144/6.7", "304/0.9", "536/1.2", "837/8.1", "1207/10.0", "4", "45.57/5.9", "173/4.0", "366/7.0", "644/7.5", "1005/9.0", "1451/7.5", "2", "1", "0.201/6.1", "1.555/6.4", "5.187/18.4", "12.22/10.3", "23.78/17.3", "34/18.6", "2", "0.476/6.0", "3.737/1.2", "12.53/0.8", "29.61/7.3", "49/5.7", "78/8.7", "3", "0.625/6.7", "4.930/0.4", "16.56/7.7", "37/4.5", "65/7.2", "102/4.7", "4", "0.754/6.7", "5.974/3.9", "20.10/0.6", "45/1.0", "79/7.2", "124/6.1", "1", "1", "0.003/2.8", "0.010/7.5", "0.023/6.3", "0.041/6.0", "0.063/6.3", "0.091/6.7", "2", "0.006/2.7", "0.023/5.8", "0.051/7.0", "0.091/6.6", "0.141/3.7", "0.203/26.5", "3", "0.008/6.8", "0.034/5.6", "0.075/7.3", "0.134/0.6", "0.209/0.7", "0.301/3.3", "4", "0.011/2.3", "0.044/6.1", "0.098/0.5", "0.175/4.6", "0.273/6.7", "0.394/6.5", "n", "m", "k", "50", "100", "150", "200", "250", "300"],
+  "name": "I",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 288.0,
+    "y1": 72.48,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00019-TableI-1.png"
+}, {
+  "caption": "Fig. 2: Performance of the Q∗-compatible event selection mechanism for the single (Figure 2a) and multiple (Figure 2b) liveness requirements scenarios under increasing levels of Gaussian noise added to the estimated Q values. The metric used was the live-run rate, representing the frequency of runs without a live lock occurrence out of 1000 sampled runs.",
+  "captionBoundary": {
+    "x1": 314.8789978027344,
+    "x2": 550.8779296875,
+    "y1": 195.2491455078125,
+    "y2": 255.8486328125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Multiple", "Gaussian", "noise", "std.", "1", "0.95", "0.9", "0.1", "0.125", "0.85", "(a)", "Single", "ra", "te", "ru", "n", "li", "v", "e", "Gaussian", "noise", "std.", "1", "0.95", "0.9", "0.1", "0.125", "0.85"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 547.1999999999999,
+    "y1": 72.96,
+    "y2": 184.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00019-Figure2-1.png"
+}, {
+  "caption": "Fig. 1: The runtime of the GBA and MDP-based approaches for the single (Figure 1a) and multiple (Figure 1b) liveness requirements scenarios. Measurements are presented as a function of the program’s state-space size.",
+  "captionBoundary": {
+    "x1": 60.083343505859375,
+    "x2": 296.0773010253906,
+    "y1": 302.0511779785156,
+    "y2": 340.1743469238281
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Multiple", "GBA", "MDP", "o", "n", "d", "s", "S", "ec", "Graph", "Size", "(#", "of", "states)", "0.45", "0.4", "0.35", "0.3", "0.25", "0.2", "0.15", "0.1", "0.05", "·105", "20K", "40K", "60K", "80K", "100K", "120K", "(a)", "Single", "GBA", "MDP", "o", "n", "d", "s", "S", "ec", "Graph", "Size", "(#", "of", "states)", "0.45", "0.4", "0.35", "0.3", "0.25", "0.2", "0.15", "0.1", "0.05", "·105", "20K", "40K", "60K", "80K", "100K", "120K"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 295.68,
+    "y1": 72.96,
+    "y2": 291.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00019-Figure1-1.png"
+}]

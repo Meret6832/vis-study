@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 1: Attributes in the HTTP messages at different stages and the corresponding responses",
+  "captionBoundary": {
+    "x1": 116.576904296875,
+    "x2": 495.1295471191406,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Stagnation", "✓", "✓", "✓", "✓", "✓", "Response", "-", "✓", "restart", "URL", "Failure", "✓", "✓", "✓", "Request", "Normal", "✓", "✓", "✓", "✓", "✓", "Response", "-", "✓", "✓", "UI", "event", "Initial", "✓", "✓", "✓", "Request", "Action", "Selected", "State", "Index", "Current", "Action", "Space", "Current", "Observation", "Current", "Action", "Executed", "State", "Index", "Previous", "ID", "Agent", "Stage", "Message"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 519.36,
+    "y1": 101.75999999999999,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Table1-1.png"
+}, {
+  "caption": "Figure 5: An illustration of the shared Q-table scheme",
+  "captionBoundary": {
+    "x1": 65.03900146484375,
+    "x2": 282.8059997558594,
+    "y1": 342.42877197265625,
+    "y2": 344.50897216796875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "if", "𝑠′", "not", "in𝑄𝑘", "then", "2", "initialize𝑄𝑘", "(𝑠′,A𝑠′", ")", "3", "for", "𝑗", "=", "1,", "...,", "𝑁", ";", "𝑗", "≠", "𝑘", "do", "4", "if", "𝑠′", "in𝑄", "𝑗", "then", "5", "tempQ.append(𝑄", "𝑗", "(𝑠′,A𝑠′", "))", "Output:𝑄𝑘", ",", "chosen", "action", "𝑎′", "Global:", "number", "of", "agents", "𝑁", ",", "Q-tables𝑄1,𝑄2,", "...𝑄𝑁", ",", "and", "hyperparameters", "𝛼,𝛾,", "𝜀", "Input:", "Agent", "𝑘", ":", "previous", "state", "𝑠", ",", "executed", "action", "𝑎,", "current", "state", "𝑠′", ",", "action", "space", "of", "current", "state", "A𝑠′", ",", "reward", "𝑟", "Algorithm", "1:", "Distributed", "Q-learning", "for", "the", "𝑘-th", "agent", "(𝑠\",", "𝑎%,", "𝑠!)", "(𝑠\",", "𝑎&,", "𝑠#)", "(𝑠',", "𝑎$,", "𝑠%)", "(𝑠!,", "𝑎\",", "𝑠\")", "(𝑠!,", "𝑎#,", "𝑠$)", "Agent", "3", "Agent", "1", "Agent", "3", "Agent", "2", "Agent", "1", "…", "Request", "Message", "List", "State", "Space", "…", "Action", "Space", "…"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 559.1999999999999,
+    "y1": 213.6,
+    "y2": 342.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Figure5-1.png"
+}, {
+  "caption": "Figure 8: Performance of MARG with different numbers of testing agents",
+  "captionBoundary": {
+    "x1": 157.44097900390625,
+    "x2": 454.55950927734375,
+    "y1": 202.97576904296875,
+    "y2": 205.05596923828125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Detected", "Failures", "MARGc", "MARGD", "40", "D", "e", "t", "e", "c", "t", "e", "d", "F", "a", "i", "l", "u", "r", "e", "s", "(", "#", ")", "30", "20", "10", "0", "3", "5", "8", "12", "15", "Number", "of", "Agents", "(#)", "(c)", "Executed", "Unique", "Actions", "1800", "E", "x", "e", "c", "u", "t", "e", "d", "U", "n", "i", "q", "u", "e", "A", "c", "t", "i", "o", "n", "s", "(", "#", ")", "MARGc", "MARGD", "1600", "1400", "1200", "1000", "800", "3", "5", "8", "12", "15", "Number", "of", "Agents", "(#)", "(b)", "Detected", "Actions", "MARGc", "MARGD", "D", "e", "t", "e", "c", "t", "e", "d", "A", "c", "t", "i", "o", "n", "s", "(", "#", ")", "5500", "5000", "4500", "4000", "3500", "3000", "2500", "3", "5", "8", "12", "15", "Number", "of", "Agents", "(#)", "(a)", "Explored", "States", "MARGc", "MARGD", "E", "x", "p", "l", "o", "r", "e", "d", "S", "t", "a", "t", "e", "(", "#", ")", "1800", "1600", "1400", "1200", "1000", "800", "600", "3", "5", "8", "12", "15", "Number", "of", "Agents", "(#)"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 548.16,
+    "y1": 85.92,
+    "y2": 183.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Figure8-1.png"
+}, {
+  "caption": "Figure 1: A web testing loop under the MDP formulation",
+  "captionBoundary": {
+    "x1": 323.6809997558594,
+    "x2": 552.476806640625,
+    "y1": 172.61181640625,
+    "y2": 174.6920166015625
+  },
+  "figType": "Figure",
+  "imageText": ["Reward", "Action", "selection", "State/Observation", "Action", "GUI", "info", "perception", "UI", "event", "execution", "Environment", "/", "Website", "Agent", "/", "Testing", "Tool"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 84.0,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Figure1-1.png"
+}, {
+  "caption": "Table 3: Details of subject websites",
+  "captionBoundary": {
+    "x1": 103.83599853515625,
+    "x2": 243.7118682861328,
+    "y1": 234.23779296875,
+    "y2": 236.3179931640625
+  },
+  "figType": "Table",
+  "imageText": ["IKEA", "Online", "Services", "https://www.ikea.com/", "GameSpot", "Computer", "and", "Video", "Games", "https://www.gamespot.com/", "EatingWell", "Food", "and", "Beverages", "https://www.eatingwell.com/", "GitHub", "Software", "and", "Development", "https://github.com/", "Name", "Category", "URL", "WUT𝐴", "Anonymous.", "Anonymous.", "toppr", "Distance", "Learning", "https://www.toppr.com/", "Smadex", "Advertising", "and", "Marketing", "https://smadex.com/", "Vuestic", "Education", "https://ui.vuestic.dev/", "YouTube", "Newspapers", "https://youtube.com/"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 241.92,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Table3-1.png"
+}, {
+  "caption": "Table 2: Details of the compared approaches",
+  "captionBoundary": {
+    "x1": 216.56491088867188,
+    "x2": 395.1397705078125,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Count(𝑎)", "0.5", "0.5MARG", "𝑁", "C", "Centralized", "multi-agent", "Q-learning", "with", "a", "shared", "Q-table", "MARG", "𝑁", "D", "Distributed", "multi-agent", "Q-learning", "with", "data", "exchange", "(URL,", "𝐸1,", "𝐸2,", "...,", "𝐸𝑛)", "1√", "Independently", "run", "multiple", "Q-learning", "agents", "IQL", "𝑁", "1", "QExplore", "Contextual", "data", "input", "method", "(𝐸1,", "𝐸2,", "...,", "𝐸𝑛)", "", "𝑅max", "if", "Count(𝑎)", "=", "0", "1√", "Count(𝑎)", "if", "Count(𝑎)", ">", "0", "𝑅negative", "if", "𝑠", "is", "not", "valid", "0.9", "×", "𝑒−", "|𝐴𝑠′", "|−1", "10", "0", "of", "html_doc)", "1√", "Count(𝑠,𝑎,𝑠′", ")", "0.95", "-", "(URL,", "tag", "sequence", "WebExplor", "DFA", "guidance", "Approach", "Unique", "Feature", "State", "Reward", "𝜸", "𝜺", "𝜶"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 555.36,
+    "y1": 96.96,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Table2-1.png"
+}, {
+  "caption": "Figure 2: Three representative information structures in MARL [50]",
+  "captionBoundary": {
+    "x1": 168.62200927734375,
+    "x2": 443.3794250488281,
+    "y1": 190.8818359375,
+    "y2": 192.9620361328125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Centralized", "setting", "Observation", "Central", "Controller", "Observation", "Agent", "1", "Agent", "2", "Agent", "N…", "Environment", "(b)", "Decentralized", "settingwith", "networked", "agents", "Agent", "3", "Observation", "Observation", "…", "Agent", "2", "Agent", "N", "Agent", "1", "Environment", "(a)", "Fully", "decentralized", "setting", "Observation", "Observation", "Agent", "N", "…", "Agent", "2", "Agent", "1", "Environment"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 552.0,
+    "y1": 83.52,
+    "y2": 180.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The Venn diagram of the sets of web states visited by the three Q-learning-based testing agents",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04144287109375,
+    "y1": 316.0657958984375,
+    "y2": 329.1050109863281
+  },
+  "figType": "Figure",
+  "imageText": ["RL", "Agent", "3", "(402", "states)", "RL", "Agent", "2", "(428", "states)", "39RL", "Agent", "1", "(330", "states)", "30", "93", "69", "72", "25", "236"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 269.28,
+    "y1": 210.72,
+    "y2": 307.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Figure3-1.png"
+}, {
+  "caption": "Table 4: Comparison ofWebExplor, QExplore, IQL5,MARG 5 C, and MARG 5 D",
+  "captionBoundary": {
+    "x1": 158.46099853515625,
+    "x2": 452.745361328125,
+    "y1": 89.33678436279297,
+    "y2": 95.094970703125
+  },
+  "figType": "Table",
+  "imageText": ["IKEA", "58.0", "160.0", "874.7", "596.7", "648.0", "3.0", "3.0", "31.0", "32.0", "39.7", "Average", "206.3", "254.5", "597.6", "531.1", "626.1", "9.8", "10.5", "33.2", "34.2", "39.5", "GitHub", "84.3", "444.7", "856.7", "369.3", "430.7", "3.0", "7.3", "34.3", "40.7", "44.3", "GameSpot", "108.0", "127.7", "393.0", "477.3", "400.0", "12.0", "18.7", "73.0", "77.3", "76.0", "EatingWell", "311.0", "494.0", "682.3", "471.0", "511.5", "13.3", "17.0", "27.0", "28.0", "32.5", "toppr", "80.5", "63.0", "72.7", "291.0", "290.7", "1.0", "0.7", "6.0", "7.3", "6.7", "Smadex", "120.0", "332.0", "391.3", "376.3", "405.3", "1.0", "2.0", "3.0", "4.0", "1.7", "Vuestic", "201.7", "89.0", "145.3", "616.0", "695.0", "6.7", "4.7", "25.3", "29.3", "39.7", "YouTube", "550.0", "239.3", "850.3", "800.3", "1085.7", "35.3", "33.0", "71.0", "59.3", "72.7", "WUT𝐴", "343.5", "341.0", "1112.3", "782.0", "1168.0", "13.0", "8.3", "28.0", "30.3", "42.0", "Executed", "Unique", "Actions", "(#)", "Detected", "Failures", "(#)", "IKEA", "31.0", "82.0", "798.3", "1318.7", "1329", "65.0", "223.0", "3008", "2648.0", "2786.3", "Average", "152.4", "170.1", "484.9", "656.0", "661.5", "679.7", "1079.3", "2669.2", "3160.8", "3135.7", "GitHub", "37.7", "387.3", "631.0", "851.3", "823.3", "199.0", "3718.3", "10949.7", "14611.6", "14487.8", "GameSpot", "43.7", "58.0", "197.3", "281.7", "227.3", "260.3", "373.7", "1132.5", "1129.3", "1062.7", "EatingWell", "381.0", "427.7", "1082.0", "1296.7", "1155.0", "1319.3", "1330.7", "2133.3", "2166.3", "1909.5", "toppr", "13.0", "7.0", "12.3", "53.0", "46.0", "239.0", "207.0", "292.0", "852.0", "692.0", "Smadex", "53.0", "101.0", "322.3", "703.3", "590.7", "407.0", "555.0", "539.3", "556.7", "562.3", "Vuestic", "83.3", "26.7", "42.7", "273.0", "283.3", "347.3", "194.7", "264.0", "1122.0", "1169.3", "YouTube", "348.7", "288.3", "442.3", "425.7", "587.3", "1946.0", "1573.0", "2261.0", "2235.0", "2382.3", "WUT𝐴", "380.0", "153.0", "836.0", "701.0", "912.0", "1334.0", "1538.0", "3442.7", "3126.0", "3169.0", "Explored", "States", "(#)", "Detected", "Actions", "(#)", "WebExplor", "QExplore", "IQL", "5", "MARG", "5", "C", "MARG", "5", "D", "WebExplor", "QExplore", "IQL", "5", "MARG", "5", "C", "MARG", "5", "D"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 552.0,
+    "y1": 97.92,
+    "y2": 391.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Table4-1.png"
+}, {
+  "caption": "Figure 4: An overview of MARG",
+  "captionBoundary": {
+    "x1": 241.1510009765625,
+    "x2": 370.8492736816406,
+    "y1": 240.798828125,
+    "y2": 242.8790283203125
+  },
+  "figType": "Figure",
+  "imageText": ["❸", "Action", "selection", "❷", "Policy", "optimization", "Distributed", "Q-learning", "with", "data", "exchange", "Client", "/", "Agent", "Server", "/", "Controller", "Historical", "data", "Reward", "State", "Action", "Update", "global", "data", "Record", "local", "data", "Update", "global", "data", "Send", "message", "Send", "message", "❹", "UI", "event", "execution", "❶", "GUI", "info", "perception", "Centralized", "Q-learning", "with", "shared", "Q-table", "Response", "Message", "Generator", "Interaction", "Decision-making", "Request", "Message", "Parser", "Global", "Data", "Memory", "Local", "Data", "Memory", "Response", "Message", "Parser", "Request", "Message", "Generator", "Testing", "Stage", "Classifier"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 554.88,
+    "y1": 82.56,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694983-Figure4-1.png"
+}]

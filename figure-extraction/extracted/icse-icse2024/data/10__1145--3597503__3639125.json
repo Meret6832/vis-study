@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 1: Statistics of the pre-training datasets we used.",
+  "captionBoundary": {
+    "x1": 328.3890075683594,
+    "x2": 547.46435546875,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "1,527,645", "1,110,740", "1,004,330", "3,642,715", "The", "line", "“#W/(o)NL”", "represents", "the", "number", "of", "instances", "with(out)", "natural", "lan-", "guage", "descriptions,", "and", "“#Rule”", "refers", "to", "the", "number", "of", "grammar", "rules", "in", "the", "respective", "language.", "#Rule", "963", "1105", "1913", "3981", "#", "W/", "NL", "457,380", "453,750", "422,457", "1,333,587", "#", "W/o", "NL", "1,070,265", "656,990", "581,873", "2,309,128", "Statistics", "Java", "Python", "CSharp", "-", "CodeSearchNet", "GithubCode", "Total"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.68,
+    "y1": 105.6,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table1-1.png"
+}, {
+  "caption": "Table 9: Results with Token Sequences.",
+  "captionBoundary": {
+    "x1": 94.6409912109375,
+    "x2": 252.89976501464844,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GrammarT5-small(60M)", "38.93±0.42", "28.54±0.24", "65.12±0.46", "67.21", "±0.23", "GrammarT5-base(220M)", "43.75±0.22", "34.32±0.36", "67.12±0.23", "70.23±0.25", "Unixcoder(110M)", "43.12", "32.90", "67.00", "70.60", "PLBART(220M)", "38.01", "26.97", "67.80", "67.70", "CodeT5-small(60M)", "19.92", "20.04", "65.40", "69.60", "CodeT5-base(220M)", "36.97", "24.80", "66.90", "68.70", "CodeT5-large(770M)", "38.74", "28.57", "67.20", "68.80", "CodeT5+", "(220M)", "43.42", "35.17", "66.20", "70.20", "GPT-C(110M)", "38.37", "28.60", "61.90", "60.70", "CodeGPT-adapted(110M)", "42.37", "30.60", "62.90", "61.30", "CodeGen-multi", "(350M)", "42.47", "35.47", "66.40", "65.50", "CodeGen-multi", "(2B)", "46.32", "40.47", "68.40", "70.60", "Model", "Metric", "EM", "EM", "EM", "EM", "Sub-Task", "Python", "Java", "Java-CSharp", "CSharp-Java", "Code", "Completion", "Code", "Translation"],
+  "name": "9",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table9-1.png"
+}, {
+  "caption": "Figure 1: A Python code snippet with its tokenized AST.1",
+  "captionBoundary": {
+    "x1": 323.4580078125,
+    "x2": 552.2008056640625,
+    "y1": 256.6855773925781,
+    "y2": 262.7020263671875
+  },
+  "figType": "Figure",
+  "imageText": ["17", "18", "19", "16", "15", "13", "14", "10", "11", "12", "9", "8", "7", "6", "4", "5", "3", "2", "1", "identifier", "identifier", "x", "_", "#number", "integeridentifier", "#2", "right", "#%", "left", "operator", "binary_operator", "return_statement", "x", "_", "#numberis", "#odd", "name", "parametersblock", "function_definition", "module", "Python", "Code", "return", "x_number", "%", "2", "#parity", "of", "a", "number", "def", "isodd(x_number):"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 335.52,
+    "x2": 539.04,
+    "y1": 84.0,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Figure1-1.png"
+}, {
+  "caption": "Table 2: Statistics of the fine-tuning datasets we used.",
+  "captionBoundary": {
+    "x1": 198.11199951171875,
+    "x2": 413.5828857421875,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Train", "164,923", "251,820", "251,820", "20,000", "100,000", "16,000", "2,379", "374", "19208", "46,680", "52,364", "10,300", "#", "Dev", "5,183", "13,914", "9,604", "604", "2,000", "998", "-", "90", "2822", "5,835", "6,545", "500", "#", "Test", "10,955", "14,918", "19,210", "500", "2,000", "1,805", "500", "500", "1882", "5,835", "6,545", "1,000", "Statistics", "Sum-Java", "Sum-Python", "Adv", "CosQA", "CONCODE", "Django", "Conala", "MBPP", "MathQA-Python", "Refine-S", "Refine-M", "Codetrans", "Code", "Summarization", "Code", "Search", "NL-Based", "Code", "Generation", "Code", "Refinement", "Code", "Translation"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table2-1.png"
+}, {
+  "caption": "Figure 4: SHUNTING_YARD bug in QuixBugs.",
+  "captionBoundary": {
+    "x1": 345.3659973144531,
+    "x2": 530.78271484375,
+    "y1": 368.8398132324219,
+    "y2": 374.8559875488281
+  },
+  "figType": "Figure",
+  "imageText": ["GroundTruth:", "opstack.push(operator);", "ChatGPT:", "opstack.push(operator);", "Codegen-6B:", "rpntokens.add(operator);", "opstack.push(operator);", "Incoder-6B:", "opstack.addLast(operator);", "GrammarT5-base:", "opstack.push(operator);", "}", "}", "……", "rpntokens.add(opstack.pop());", "}", "_mask_line_;", "while", "(!opstack.isEmpty()", "&&", "precedence.get(operator)", "<=", "precedence.get(opstack.getLast()))", "{", "if", "(Integer.class.isInstance(token))", "{", "rpntokens.add((Integer)", "token);", "}", "else", "{", "String", "operator", "=", "(String)", "token;", "public", "static", "List", "shunting_yard(ArrayList", "tokens)", "{", "……", "ArrayList", "rpntokens", "=", "new", "ArrayList(100);", "ArrayDeque", "opstack", "=", "new", "ArrayDeque();", "for", "(Object", "token:", "tokens)", "{"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 262.56,
+    "y2": 355.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Figure4-1.png"
+}, {
+  "caption": "Table 7: Ablation study with GrammarT5-small.",
+  "captionBoundary": {
+    "x1": 76.71299743652344,
+    "x2": 270.82684326171875,
+    "y1": 149.9048309326172,
+    "y2": 155.9210205078125
+  },
+  "figType": "Table",
+  "imageText": ["CodeT5-small", "30.52", "65.40", "68.8", "19.20", "CodeT5-small", "+", "TGRS", "33.27±0.12", "66.10±0.46", "70.10±0.36", "22.40±0.13", "w/o", "LF", "35.26±0.21", "67.20±0.29", "69.40±0.26", "23.60±0.36", "w/o", "EP", "35.41±0.22", "66.80±0.32", "71.00±0.16", "23.80±0.60", "w/o", "STP", "34.03±0.36", "66.60±0.22", "69.60±0.28", "22.40±0.44", "GrammarT5-small", "37.24±0.26", "67.80±0.25", "71.60±0.45", "25.00±0.86", "Model", "BenchMark", "Adv", "Java-CSharp", "CSharp-Java", "MBPP", "MRR", "EM", "EM", "pass@80"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 283.2,
+    "y1": 170.88,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table7-1.png"
+}, {
+  "caption": "Table 8: Average Length of Different Representation.",
+  "captionBoundary": {
+    "x1": 67.02000427246094,
+    "x2": 280.51837158203125,
+    "y1": 481.38482666015625,
+    "y2": 487.4010009765625
+  },
+  "figType": "Table",
+  "imageText": ["TGRS", "199.20", "300.67", "242.32", "AST", "427.66", "583.49", "476.99", "Token", "Sequence", "169.58", "247.67", "186.27", "Representation", "Java", "CSharp", "Python"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 267.36,
+    "y1": 502.08,
+    "y2": 557.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table8-1.png"
+}, {
+  "caption": "Figure 2: A Python code snippet represented by the grammar rule list and TGRS.",
+  "captionBoundary": {
+    "x1": 143.1479949951172,
+    "x2": 468.8526916503906,
+    "y1": 225.40756225585938,
+    "y2": 231.42401123046875
+  },
+  "figType": "Figure",
+  "imageText": ["AST", "Pre-order", "Traversal", "Tokenized", "Grammar", "Rule", "Sequence:", "1,2,3,10,11,4,5,6,7,12,13,14,15,8,16,9,12,13,14", "10:", "iden", "->", "is", "11:", "iden", "->", "#odd", "12:", "iden", "->", "x", "13:", "iden", "->", "_", "14:", "iden", "->", "#number", "15:", "iden", "->", "#%", "16:", "iden", "->", "#2", "1:", "module@py", "->", "function_definition@py", "2:function_definition@py", "->", "name@py", "block@py", "parameters@py", "3:name@py", "->", "identifier@py", "4:block@py", "->", "return_statement@py", "5:return_statement@py", "->", "binary_operator@py", "6:binary_operator@py", "->", "left@py", "operator@py", "right@py", "7:left@py", "->", "identifier@p", "8:right@py", "->", "integer@py", "9:parameters@py", "->", "identifier@py", "Grammar", "Rule", "Sequence:", "1,2,3,10,4,5,6,7,11,12,8,13,9,11", "10:identifier", "->", "isodd", "11:", "identifier", "->", "x_number", "12:operator", "->", "%", "13:integer", "->", "2", "1:", "module", "->", "function_definition", "2:function_definition", "->", "name", "block", "parameters", "3:name", "->", "identifier", "4:block", "->", "return_statement", "5:return_statement", "->", "binary_operator", "6:binary_operator", "->", "left", "operator", "right", "7:left", "->", "identifier", "8:", "right", "->", "integer", "9:parameters", "->", "identifier"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 519.36,
+    "y1": 84.0,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Figure2-1.png"
+}, {
+  "caption": "Table 3: Results of the code understanding tasks.",
+  "captionBoundary": {
+    "x1": 75.18399810791016,
+    "x2": 272.35528564453125,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GrammarT5-small(60M)", "19.93±0.10", "19.78±0.11", "37.24±0.26", "70.34", "±0.12", "GrammarT5-base(220M)", "20.66±0.16", "20.21±0.12", "44.12±0.10", "73.48±0.05", "Unixcoder(110M)", "19.42", "18.64", "41.30", "70.10", "CoTexT(220M)", "19.19", "19.72", "34.13", "68.70", "PLBART(220M)", "18.45", "19.30", "34.70", "65.01", "CodeT5-small(60M)", "19.92", "20.04", "30.52", "66.74", "CodeT5-base(220M)", "20.31", "20.01", "39.30", "67.80", "CodeT5-large(770M)", "20.74", "20.57", "42.11", "71.29", "CodeT5+", "(220M)", "20.31", "20.01", "43.3", "72.7", "GPT-C(110M)", "17.18", "17.78", "24.39", "50.32", "CodeGPT-adapted(110M)", "17.68", "18.46", "25.97", "54.24", "CodeGen-multi", "(350M)", "19.41", "18.31", "35.47", "69.22", "CodeGen-multi", "(2B)", "20.01", "19.31", "36.47", "70.22", "CodeBERT(110M)", "17.25", "19.06", "27.20", "65.90", "GraphCodeBERT(110M)", "18.93", "19.39", "35.20", "68.55", "SynCoBERT(110M)", "18.89", "18.74", "38.30", "69.19", "Model", "Metric", "BLEU", "BLEU", "MRR", "MRR", "Sub-Task", "Java", "Python", "Adv", "CosQA", "Code", "Summarization", "Code", "Search"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 283.2,
+    "y1": 105.6,
+    "y2": 289.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table3-1.png"
+}, {
+  "caption": "Figure 3: Overview of GrammarT5.",
+  "captionBoundary": {
+    "x1": 367.7330017089844,
+    "x2": 508.42486572265625,
+    "y1": 382.2885437011719,
+    "y2": 388.30499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["Location", "ID:", "6,6,7,8,8,7,11,12,13,14,14,14,13,13,19,7,21,21,21", "Generation", "Masked", "Prediction", "11,4,5,6,7,12,13,14,15,8,16,9,12,13,14", "[cls],parity,of,a,number,[SEP],1,2,3,10", "Masked", "Span", "Prediction", "MASK0,parity,MASK1,number,MASK2,12,13,MASK3,15,8,16", "[cls],MASK0,of,a,MASK1,[SEP],1,2,3,10,11,4,5,6,7,8,MASK2,14,MASK3,9,12,13,14", "GrammarT5", "N1x", "N2x", "Sub-Tree", "Prediction", "Identifier", "Prediction", "Edge", "Prediction", "MASK0,3,10,11,MASK1,6,7,12,13,14,15,8", "[cls],parity,of,a,number,[SEP],1,2,MASK0,4,5,MASK1,16,9,12,13,14", "MASK0,10,11,MASK1,12,13,14", "[cls],parity,of,a,number,[SEP],1,2,3,MASK0,4,5,6,7,MASK1,15,8,16,9,MASK1", "Input", "Sequence:", "1,1,2,3,3,2,4,5,6,7,7,7,6,6,8,2,9,9,9", "[cls],parity,of,a,number,[SEP],1,2,3,10,11,4,5,6,7,12,13,14,15,8,16,9,12,13,14", "Python", "Code", "return", "x_number", "%", "2", "#parity", "of", "a", "number", "def", "isodd(x_number):", "Encoder", "Decoder", "Self", "Attention", "Encoder", "Attention", "Linear", "Layer", "Self", "Attention", "Linear", "Layer"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 527.04,
+    "y1": 84.0,
+    "y2": 369.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Figure3-1.png"
+}, {
+  "caption": "Table 4: Results of the natural-language-based code generation tasks.",
+  "captionBoundary": {
+    "x1": 166.04400634765625,
+    "x2": 445.64874267578125,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GrammarT5-small(60M)", "38.08±0.36", "21.05±0.36", "40.62±0.56", "38.18±0.46", "8.20±0.36", "80.64±0.36", "82.27±0.46", "25.00±0.86", "83.91±0.46", "GrammarT5-base(220M)", "43.30±0.86", "25.10±0.75", "45.48±0.35", "41.92±0.56", "10.40±0.15", "82.40±0.56", "84.17±0.16", "33.00±0.20", "87.26±0.32", "Unixcoder(110M)", "38.73", "22.65", "40.86", "36.09", "10.20", "78.42", "75.35", "22.40", "70.16", "CoTexT(220M)", "19.19", "19.72", "38.13", "31.45", "6.20", "75.91", "78.43", "14.00", "58.18", "PLBART(220M)", "36.69", "18.75", "38.52", "32.44", "5.10", "72.81", "79.12", "12.00", "57.25", "CodeT5-small(60M)", "38.13", "21.55", "41.39", "31.23", "6.00", "76.91", "81.77", "19.20", "61.58", "CodeT5-base(220M)", "40.73", "22.30", "43.2", "38.91", "8.40", "81.40", "84.04", "24.00", "71.52", "CodeT5-large(770M)", "42.66", "22.65", "45.08", "39.96", "7.40", "82.11", "83.16", "32.40", "83.14", "CodeT5+(220M)", "34.13", "22.16", "43.45", "38.91", "8.00", "78.45", "85.21", "28", "85.6", "GPT-C(110M)", "30.85", "19.85", "33.10", "30.32", "4.80", "72.56", "68.91", "10.40", "58.94", "CodeGPT-adapted(110M)", "35.94", "20.15", "37.27", "31.04", "4.60", "71.24", "72.13", "12.60", "55.90", "CodeGen-multi", "(350M)", "38.23", "21.25", "40.57", "33.14", "5.70", "74.45", "74.23", "23.50", "62.10", "CodeGen-multi", "(2B)", "41.23", "22.25", "44.57", "40.14", "9.40", "81.45", "84.04", "32.50", "83.10", "TreeGen", "+", "Grape(35M)", "26.45", "17.60", "30.05", "20.16", "2.80", "75.86", "77.30", "2.00", "26.58", "Model", "Metric", "BLEU", "EM", "C-BLEU", "BLEU", "EM", "BLEU", "EM", "pass@80", "pass@80", "BenchMark", "Concode", "Conala", "Django", "MBPP", "MathQA"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 521.28,
+    "y1": 105.6,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table4-1.png"
+}, {
+  "caption": "Table 5: Results of the code refinement and code translation tasks.",
+  "captionBoundary": {
+    "x1": 171.7830047607422,
+    "x2": 439.9111328125,
+    "y1": 286.5108337402344,
+    "y2": 292.5270080566406
+  },
+  "figType": "Table",
+  "imageText": ["GrammarT5-small(60M)", "76.90±0.15", "20.50±0.35", "76.98±0.15", "89.11±0.35", "12.63±0.15", "86.86±0.25", "91.15±0.15", "67.80±0.25", "90.29±0.54", "89.20±0.25", "71.60±0.45", "89.49±0.15", "GrammarT5-base(220M)", "79.39±0.05", "22.60±0.26", "78.88±0.16", "90.57±0.24", "15.32±0.40", "89.18±0.18", "91.31±0.13", "69.10±0.26", "91.11±0.28", "90.53±0.05", "73.40±0.12", "91.26±0.38", "Unixcoder(110M)", "79.18", "19.05", "79.45", "87.59", "13.96", "86.23", "90.20", "67.00", "90.15", "90.51", "70.60", "90.32", "CoTexT(220M)", "77.28", "21.33", "77.38", "87.13", "13.03", "85.14", "85.57", "66.70", "86.25", "87.21", "65.80", "87.11", "PLBART(220M)", "77.02", "19.40", "77.58", "88.48", "8.98", "86.67", "87.95", "67.80", "88.12", "87.19", "67.70", "87.01", "CodeT5-small(60M)", "76.23", "19.06", "76.44", "89.20", "10.92", "87.25", "88.23", "65.40", "88.32", "87.22", "69.60", "87.18", "CodeT5-base(220M)", "77.43", "21.61", "77.24", "87.64", "13.96", "87.05", "88.55", "66.90", "88.72", "87.03", "68.70", "86.71", "CodeT5-large(770M)", "77.38", "21.7", "77.14", "89.22", "14.76", "87.35", "88.89", "67.20", "88.98", "87.20", "68.80", "87.16", "CodeT5+(220M)", "78.27", "22.18", "77.48", "88.64", "15.13", "86.28", "91.66", "66.20", "91.51", "89.64", "70.20", "91.01", "GPT-C(110M)", "70.06", "13.03", "71.83", "85.41", "8.26", "82.47", "78.90", "61.90", "81.02", "84.48", "60.70", "83.87", "CodeGPT-adapted(110M)", "76.07", "13.66", "77.13", "85.28", "11.00", "84.55", "82.11", "62.90", "83.45", "85.68", "61.30", "84.98", "CodeGen-multi", "(350M)", "78.12", "20.12", "77.23", "88.21", "13.12", "86.84", "90.21", "66.40", "90.24", "89.75", "65.50", "88.65", "CodeGen-multi", "(2B)", "79.52", "22.12", "79.23", "89.21", "14.12", "88.84", "91.41", "68.40", "91.44", "89.75", "70.60", "88.65", "CodeBERT(110M)", "78.41", "16.40", "78.09", "86.94", "5.20", "83.88", "85.23", "62.10", "86.87", "85.81", "61.80", "85.19", "GraphCodeBERT(110M)", "79.61", "17.3", "79.68", "87.63", "9.10", "85.33", "86.35", "63.10", "87.6", "86.50", "62.10", "85.18", "SynCoBERT(110M)", "78.81", "20.32", "78.56", "88.37", "11.17", "87.05", "87.04", "65.10", "88.26", "87.80", "65.20", "86.81", "Model", "Metric", "BLEU", "EM", "C-BLEU", "BLEU", "EM", "C-BLEU", "BLEU", "EM", "C-BLEU", "BLEU", "EM", "C-BLEU", "Sub-task", "Small", "Medium", "Java", "to", "CSharp", "CSharp", "to", "Java", "Code", "Refinement", "Code", "Translation"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 307.68,
+    "y2": 491.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table5-1.png"
+}, {
+  "caption": "Table 6: Error Type of MBPP.",
+  "captionBoundary": {
+    "x1": 115.03500366210938,
+    "x2": 232.507568359375,
+    "y1": 554.2728271484375,
+    "y2": 560.2890014648438
+  },
+  "figType": "Table",
+  "imageText": ["GrammarT5", "0", "0", "0", "0%", "CodeT5(220M)", "5142", "389", "15", "13.87%", "CodeT5+(220M)", "4392", "294", "5", "11.73%", "CodeT5-large(770M)", "4123", "229", "2", "10.89%", "CodeGen-multi(2B)", "2312", "92", "7", "6.03%", "Error", "Indentation", "Error", "Tab", "Error", "Error", "Rate", "Model", "Type", "Syntax"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 283.2,
+    "y1": 574.56,
+    "y2": 658.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639125-Table6-1.png"
+}]

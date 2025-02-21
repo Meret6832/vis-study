@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 3: Architecture of SCTrans.",
+  "captionBoundary": {
+    "x1": 103.48200225830078,
+    "x2": 244.35928344726562,
+    "y1": 217.34689331054688,
+    "y2": 219.427001953125
+  },
+  "figType": "Figure",
+  "imageText": ["SCTrans", "Refer", "to", "Refer", "to...", "Execute", "Transformation", "Rules", "Conform", "to", "Conform", "to", "...", "...", "Target", "Meta-Model", "...", "...", "Source", "Meta-Model", "Input", "Models", "Output", "Models", "Simulation", "Scenario", "Files", "Transformation", "Engine", "Traffic", "Scenario", "Recording", "Files"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 84.96,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Figure3-1.png"
+}, {
+  "caption": "Table 7: Identified Bugs on Apollo and Autoware.",
+  "captionBoundary": {
+    "x1": 74.43499755859375,
+    "x2": 273.1036071777344,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["R5", "Control", "Keep", "removing", "when", "destination", "reached", "✓", "R6", "Planning", "Fail", "to", "avoid", "rear-end", "vehicles", "R7", "Planning", "Follow", "driving", "paths", "that", "may", "run", "off", "the", "road", "✓", "R8", "Planning", "Incorrect", "prediction", "of", "collision", "points", "✓", "R9", "Control", "Fail", "to", "handle", "sharp", "turns", "✓", "Autoware", "R1", "Planning", "Imprecise", "calculation", "of", "drivable", "areas", "R2", "Planning", "Insufficient", "braking", "force", "in", "emergencies", "R3", "Prediction", "Incorrect", "prediction", "of", "obstacle", "trajectories", "at", "intersections", "R4", "Planning", "Fail", "to", "avoid", "rear-end", "vehicles", "Apollo", "ADS", "ID", "Module", "Bug", "Description", "Confirmed"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 100.8,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Table7-1.png"
+}, {
+  "caption": "Figure 4: Example of Meta-model Construction (for VSE Sce-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6380615234375,
+    "y1": 419.3728942871094,
+    "y2": 421.4530029296875
+  },
+  "figType": "Figure",
+  "imageText": ["z:", "double", "y:", "double", "x:", "double", "Vector3", "angle:", "Vector3", "position:", "Vector3", "ordinalNumber:", "int", "speed:", "float", "waitTime:", "float", "waypoint", "refer", "refer", "refer", "[1..1]", "Class", "Vector3{", "double", "x", "double", "y", "double", "z", "}", "#", "Omitted", "During", "Deserialization", "Class", "Transform", "{", "Vector3", "position", "Vector3", "Rotation", "}", "Class", "ScenarioWaypoint", "{", "float", "Speed", "float", "WaitTime", "int", "IndexInAgent", "Transform", "transform", "}", "attribute.id", "attribute.type", "attribute.sanity", "meta-association.type", "variant：Enum{...}", "(a)", "Deserialization", "Program", "of", "VSE", "Scenario", "(Written", "in", "C#)", "(c)", "BNF", "Formalism", "of", "Meta-Model", "(b)", "UML", "Class", "Diagram", "of", "Meta-Model", "<agent>::=[<variant><waypoints>...]", "<variant>::=car", "|", "truck", "|", "pedestrian", "|", "...", "<waypoints>::=<waypoint>", "|", "<waypoint>＇,＇<waypoint>", "<waypoint>::=[<ordinalNumber><position>", "<angle>", "<waitTime><speed>]", "<ordinalNumber>::=<int>", "<position>::=[<x><y><z>]", "<angle>::=[<x><y><z>]", "<waitTime>::=<float>", "<speed>::=<float>", "<x>::=<double>", "<y>::=<double>", "<z>::=<double>", "agent", "waypoints:", "waypoint", "[0..*]", "[1..1]", "Call", "#", "Deserialize", "WaypointNode", "Class", "AgentWaypoints", "{", "public", "List<ScenarioWaypoint>", "Waypoints;", "void", "DeserializeFromJson(){", "var", "waypointsNode", "=", "agentNode[\"waypoints\"]", "as", "JSONArray;", "if", "(waypointsNode", "==", "null)", "return;", "foreach(var", "waypointNode", "in", "waypointsNode.Children){", "ScenarioWaypoint", "waypoint", "=", "waypoint.transform.position", "=", "waypointNode[\"position\"].ReadVector3();", "waypoint.transform.Rotation", "=", "waypointNode[\"angle\"].ReadVector3();", "waypoint.WaitTime", "=", "waypointNode[\"waitTime\"];", "waypoint.Speed", "=", "waypointNode[\"speed\"];", "waypoint.index", "=", "waypointNode[\"ordinalNumber\"];", "...", "Waypoints.Add(waypoint)", "#", "Deserializes", "scenario", "agents", "from", "the", "json", "data", "JsonScenarioDeserializer::DeserializeAgents(){", "var", "variantName", "=", "agentNode[\"variant\"];", "var", "variant", "=", "SourceVariants.Find(variantName);", "if", "(variant", "==", "null)", "{", "...", "//Error}"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 292.32,
+    "y1": 86.88,
+    "y2": 399.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Figure4-1.png"
+}, {
+  "caption": "Table 5: Diversity Results of Curated Simulation Scenarios.",
+  "captionBoundary": {
+    "x1": 54.39099884033203,
+    "x2": 293.1465759277344,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["rendering", "errors", "of", "the", "simulator,", "or", "the", "functional", "insufficien-", "cies", "of", "the", "ADS", "(e.g.,", "cannot", "plan", "the", "trajectory", "in", "complicated", "driving", "conditions).", "To", "confirm", "this,", "we", "chose", "LGSVL+Apollo", "as", "a", "baseline", "and", "fed", "the", "59+600", "scenario", "files", "to", "it.", "After", "6.9", "CPU", "hours", "of", "testing,", "we", "confirmed", "the", "success", "of", "all", "the", "59+600", "runs.", "This", "evidence", "supports", "the", "view", "that", "the", "59+600", "failed", "runs", "are", "not", "caused", "by", "incorrect", "scenario", "files.", "Ours", "1,994", "OpenX", "[2]", "VSE", "[23]", "78.5%", "32.9", "Carla", "[8]", "9", "OpenX", "[2]", "33.9%", "(+44.6%)", "5.15", "(×6.39)", "D.", "Karunakaran", "[56]", "9", "OpenX", "[2]", "14.3%", "(+64.2%)", "2.03", "(×16.2)", "Esmini", "[16]", "41", "OpenX", "[2]", "55.4%", "(+23.4%)", "13.3", "(×2.47)", "OSC-ALKS", "[27]", "15", "OpenX", "[2]", "21.4%", "(+57.1%)", "2.86", "(×11.5)", "Score", "Vendi", "Coverage", "Label", "Diversity", "Measures", "Format", "Scenario", "Scenarios", "Dataset", "#", "of"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 295.68,
+    "y1": 100.8,
+    "y2": 275.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Table5-1.png"
+}, {
+  "caption": "Table 6: ADS Fuzzing Results with Different Seeds.",
+  "captionBoundary": {
+    "x1": 335.9070129394531,
+    "x2": 539.9462280273438,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["(openplanner", "2.5)", "0/0", "1/0", "0.5/0", "42/0", "47/2", "17/0", "0/0", "26.5/0.5", "84.6/3.5", "1", "Unique", "Collisions:", "Enhance", "existing", "heuristics", "[93]", "to", "filter", "similar", "collision", "scenarios.", "2", "Reproducible", "Collisions:", "Ignore", "ego", "collisions", "that", "can", "not", "be", "stably", "reproduced.", "Autoware", "1.15", "Apollo", "6.0", "15/2", "38/1", "26.5/1.5", "21/1", "5/0", "24/0", "21/0", "17.8/0.25", "86.7/3.7", "S1", "S2", "Avg.", "S3", "S4", "S5", "S6", "Avg.", "Avg.", "AV-Fuzzer", "[63]", "AutoFuzz", "[93]", "Ours", "Results", "(#", "of", "Collisions", "/", "#", "of", "Unqiue&Reproducible", "Collisions)", "1", "ADS", "Target"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 100.8,
+    "y2": 183.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Table6-1.png"
+}, {
+  "caption": "Figure 1: Architecture of ADS Simulation Testing.",
+  "captionBoundary": {
+    "x1": 73.54299926757812,
+    "x2": 274.2916564941406,
+    "y1": 275.6388854980469,
+    "y2": 277.718994140625
+  },
+  "figType": "Figure",
+  "imageText": ["Scenario", "File", "Map", "Assets", "Map", "Description", "Scenario", "Description", "Traffic", "Simulation", "Environment", "Simulation", "Map", "Simulation", "Ego", "Simulation", "Actuator", "Virtual", "Sensors", "Perception", "Prediction", "Planning", "Control", "(b)", "ADS", "(a)", "Driving", "Simulator", "Communication", "Bridge", "ye", "r", "P", "la", "ar", "io", "Sc", "en"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 254.39999999999998,
+    "y1": 85.44,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Example of Transformation Rule Construction",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.036376953125,
+    "y1": 434.40087890625,
+    "y2": 436.4809875488281
+  },
+  "figType": "Figure",
+  "imageText": ["has", "shared", "semantics", "has", "shared", "semantics", "CommonRoad", "Scenario", "OpenScenario", "AbsoluteTargetSpeed", "val:", "Double", "(15.0)", "Point", "x:", "Double", "(13.1)", "y:", "Double", "(32.8)", "...", "orientation:", "Double", "(0.86)", "position:", "Position", "velocity:", "Double", "(15.0)", "Position", "point:", "Point...", "State", "(c)", "Attribute", "Transformation", "Attribute", "mapping:", "{point.x,point,y}", "{x,y,z},", "{velocity}", "{val}", "Meta-class", "mapping:", "{State,", "Position,", "Point}", "{WorldPosition,", "AbsoluteTargetSpeed}", "sem(point.x)", "=", "[＂an", "x-,y-Coordinate,two-dimensional", "＂,", "]", "sem(y)", "=", "[＂", "left-handed", "ZXY", "coordinate", "system", "＂,", "]", "sem(WorldPosition)", "=", "[＂Position＂,＂x＂,＂y＂,＂z＂,", "]", "sem(State)", "=", "[", "＂Point＂,＂Position＂,", "]", "(b)", "Attribute", "Matching", "(a)", "Meta-Class", "Matching", "...", "1", "1", "1", "0", "1", "0", "Position", "...", "State", "Point", "WorldPosition", "AbsoluteTragetSpeed", "...", "...", "1", "1", "1", "0", "1", "1", "1", "0", "0", "0", "0", "1", "...", "x", "y", "z", "val", "...", "point.x", "point.y", "velocity", "WorldPosition", "h:", "Double", "(0.86)", "x:", "Double", "(143.93)", "y:", "Double", "(67.67)", "z:", "Double", "(0.0)", "..."],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 272.15999999999997,
+    "y1": 84.96,
+    "y2": 412.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Figure5-1.png"
+}, {
+  "caption": "Table 1: Specification Formats of Traffic Scenarios.",
+  "captionBoundary": {
+    "x1": 336.04998779296875,
+    "x2": 539.8023681640625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "highD", "itself", "does", "not", "provide", "map", "description", "files,", "but", "we", "can", "obtain", "them", "in", "a", "third-party", "repository", "[18].", "highD", "[59]", "highD", "CSV", "[17]", "Lanelets", "[40]", "1", "inD", "[41]", "inD", "CSV", "[19]", "Lanelet2", "[74]", "CommonRoad", "[37]", "CommonRoad", "Scenario", "[10]", "Lanelets", "[40]", "Format", "Map", "Description", "Format", "Traffic", "Description", "Traffic", "Scenario", "Recording", "File", "Source", "Dataset"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 100.8,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Table1-1.png"
+}, {
+  "caption": "Table 2: Specification Formats of Simulation Scenarios.",
+  "captionBoundary": {
+    "x1": 326.91400146484375,
+    "x2": 548.93896484375,
+    "y1": 218.37991333007812,
+    "y2": 220.46002197265625
+  },
+  "figType": "Table",
+  "imageText": ["1", "Carla", "features", "OpenDRIVE", "standalone", "mode", "which", "allows", "running", "a", "full", "simulation", "using", "only", "an", "OpenDRIVE", "map", "file,", "without", "any", "additional", "map", "assets.", "Therefore,", "we", "currently", "do", "not", "generate", "map", "assets", "for", "Carla.", "Map", "Meshes", "[7]", "(optional)", "1", "Carla", "[49]", "OpenScenario", "[2]", "OpenDrive", "[1]", "Carla", "LGSVL", "[79]", "VSE", "Scenario", "[23]", "OpenDrive", "[1]", "or", "Lanelet2", "[74]", "LGSVL", "AssetBundle", "[22]", "Autoware", "[4]", "Autoware", "Vector", "Map", "[5]", "Apollo", "[25]", "Apollo", "HD", "Map", "[51]", "Assets", "Format", "Map", "Format", "Description", "Map", "Format", "Description", "Scenario", "Simulation", "Scenario", "File", "or", "Simulator", "Target", "ADS"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 230.39999999999998,
+    "y2": 378.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Table2-1.png"
+}, {
+  "caption": "Table 4: Usability Results of Curated Simulation Scenarios.",
+  "captionBoundary": {
+    "x1": 318.8479919433594,
+    "x2": 557.0028076171875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["OpenScenario", "59", "600", "0", "1,994/1,994", "(100%)", "(openplanner", "2.5)", "Carla", "0.9.13", "+", "Autoware", "1.15", "Apollo", "6.0", "VSE", "Scenario", "0", "59", "0", "1,994/1,994", "(100%)", "LGSVL", "2021.2.2", "+", "ADS", "Flaws", "SCTrans", "Flaws", "Flaws", "Usable", "RateSimulator", "Scenario", "#", "of", "failed", "runs", "Caused", "by", "Scenario", "Format", "Platform", "Simulation"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 100.8,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Table4-1.png"
+}, {
+  "caption": "Table 3: General Transformation Results of SCTrans.",
+  "captionBoundary": {
+    "x1": 65.22698974609375,
+    "x2": 282.3183288574219,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["highD", "[59]", "500/500", "(100%)", "99.90%", "2.2s", "86.7s", "1", "SF:", "Scenario", "Description", "File;", "2", "MF:", "Map", "Description", "File", "and", "Map", "Assets", "File;", "inD", "[41]", "500/500", "(100%)", "99.88%", "3.2s", "107.4s", "CommonRoad", "[37]", "994/994", "(100%)", "99.77%", "2.3s", "97.9s", "MF", "2", "SF", "1", "Avg.", "Time", "Cost", "Perseverance", "Semantic", "Accuracy", "Syntactic", "(𝐷𝑎𝑡𝑎𝑠𝑒𝑡𝑇𝐹𝐶", ")", "Inputs"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 289.44,
+    "y1": 100.8,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Table3-1.png"
+}, {
+  "caption": "Figure 2: Example of using SCTrans to transform a traffic scenario file from the inD dataset [41] into simulation scenario files",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1936645507812,
+    "y1": 274.2138977050781,
+    "y2": 276.29400634765625
+  },
+  "figType": "Figure",
+  "imageText": ["Carla", "Autoware", "LGSVL", "Apollo", "Simulation", "Scenario", "File", "Traffic", "Scenario", "Recording", "File", "Map", "Description", "SCTrans", "Traffic", "Description", "(c)", "Simulation", "Scenario", "for", "Carla+Autoware", "Simulation", "Platform", "(b)", "Simulation", "Scenario", "for", "LGSVL+Apollo", "Simulation", "Platform", "ID:", "DEU_AAH2-18_100_T-1", "Map", "Assets", "(8.14", "MB)(a)", "inD", "Traffic", "Scenario", ".ZIP", "(2,056", "LoC)", "(1,001", "LoC)", "Map", "Description", ".OSM.XODR", "OR", "Scenario", "Description", "OR", "(24,033", "LoC)", "(57,384", "LoC)", ".XOSC", ".JSON", "(3,115", "LoC)", "(205,661", "LoC)", ".CSV", ".OSM"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 523.1999999999999,
+    "y1": 85.92,
+    "y2": 253.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623350-Figure2-1.png"
+}]

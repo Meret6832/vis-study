@@ -1,0 +1,261 @@
+[{
+  "caption": "TABLE I STATISTICS OF THREE PUBLIC DATASETS.",
+  "captionBoundary": {
+    "x1": 366.0274963378906,
+    "x2": 497.2162170410156,
+    "y1": 73.59605407714844,
+    "y2": 86.53790283203125
+  },
+  "figType": "Table",
+  "imageText": ["CodeXGLUE", "[28]", "27,318", "C/C++", "1:1.2", "Reveal", "[10]", "18,169", "C/C++", "1:9.9", "Funded", "[13]", "167,496", "JAVA", "1:2.7", "Funded", "[13]", "37,808", "PHP", "1:1.2", "Dataset", "Samples", "Languages", "Ratio", "(Vul:", "Non-vul)"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 544.3199999999999,
+    "y1": 96.0,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-TableI-1.png"
+}, {
+  "caption": "Fig. 1. An explanatory example illustrates how than encodes a piece of source code from token level to code line level and finally to function level. The code text is first passed through the embedding layer of a pre-trained language model to obtain the token’s embedding. Then, we apply a one-dimensional convolutional layer on top of the pre-trained embedding to obtain the n-gram representation, followed by attention pooling to capture the code line-level representation. We apply LSTM to the line-of-code vectors in the recurrent layer and then pass another attention-pooling layer to obtain the overall functionlevel representation.",
+  "captionBoundary": {
+    "x1": 66.37715148925781,
+    "x2": 549.5977783203125,
+    "y1": 211.5935516357422,
+    "y2": 249.8204345703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 550.0799999999999,
+    "y1": 72.0,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-Figure1-1.png"
+}, {
+  "caption": "TABLE III BENCHMARK EVALUATION RESULTS",
+  "captionBoundary": {
+    "x1": 373.437744140625,
+    "x2": 490.30511474609375,
+    "y1": 73.42381286621094,
+    "y2": 86.36566162109375
+  },
+  "figType": "Table",
+  "imageText": ["10", "BiLSTM", "[27]", "-", "-", "59.37", "Rank", "Model", "Data", "Size", "Param", "size", "Acc.", "(%)", "1", "CoTexT", "[39]", "375M", "220M", "66.62", "2", "C-BERT", "[17]", "8.1M", "110M", "65.45", "3", "BABEL", "(ours)", "8.5M", "21M", "65.06", "4", "VulBERTa-MLP", "[44]", "2.28M", "125M", "64.75", "5", "PLBART", "[40]", "680M", "140M", "63.18", "6", "Code2vec", "[17]", "-", "-", "62.48", "7", "CodeBERT", "[32]", "8.5M", "125M", "62.08", "8", "RoBERTa", "[45]", "2.4M", "125M", "61.05", "9", "TextCNN", "[16]", "-", "-", "60.69"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 96.0,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-TableIII-1.png"
+}, {
+  "caption": "TABLE II VULNERABILITY DETECTION RESULT SUMMARY",
+  "captionBoundary": {
+    "x1": 100.235595703125,
+    "x2": 257.0143127441406,
+    "y1": 73.42283630371094,
+    "y2": 86.36566162109375
+  },
+  "figType": "Table",
+  "imageText": ["Graph-based", "Reveal", "[10]", "84.37", "41.25", "Devign", "[19]", "88.11", "26.85", "LineVD", "[36]", "89.75", "43.31", "ReGVD", "[25]", "89.93", "17.92", "CSGVD", "[37]", "89.37", "43.68", "Ours", "BABEL", "91.60", "44.31", "CodeBERT", "[32]", "90.19", "40.53", "GraphCodeBERT", "[38]", "90.98", "33.22", "CoTexT", "[39]", "90.50", "32.50", "PLBART", "[40]", "90.54", "32.60", "LineVul", "[42]", "91.25", "42.98", "Method", "Model", "Accuracy", "(%)", "F1", "Score", "Static", "Tools", "FlawFinder", "[34]", "81.67", "18.18", "CPPcheck", "[35]", "83.71", "3.27", "Token-based", "Russell", "et", "al.", "[7]", "89.07", "19.80"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 292.32,
+    "y1": 96.0,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-TableII-1.png"
+}, {
+  "caption": "Fig. 7. An example to illustrate the applicability of our composition rules to vulnerability detection in different programming languages. The red arrows represent data dependencies and the blue arrows represent control dependencies. both the C code (a) and the PHP code (c) contain a ”command injection” vulnerability. Although the programs are written in two different languages, they have similar control and data dependency leading to a shared buggy path (which we denote by the solid line).",
+  "captionBoundary": {
+    "x1": 66.90177154541016,
+    "x2": 550.1224365234375,
+    "y1": 310.28204345703125,
+    "y2": 340.0809326171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 551.04,
+    "y1": 72.96,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. Overview of the BABEL model. Given a code snippet, from left to right, BABEL generates a control dependency adjacency matrix and a data dependency adjacency matrix using heuristic program dependency graph construction on the lines of code. The matrix will be used as input to the graph neural network in the next step. On the right side of the image, BABEL encodes the source code using a hierarchical attention network, first encoding the token in each line of code using a CNN and the attention mechanism, and then LSTM and attention mechanism are used to learn the dependencies between lines in the program. Finally, the HAN representation and the GNN representation are integrated by the attention mechanism and the prediction results are obtained.",
+  "captionBoundary": {
+    "x1": 67.12187194824219,
+    "x2": 550.3424682617188,
+    "y1": 310.5747985839844,
+    "y2": 357.2306823730469
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 527.04,
+    "y1": 72.96,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-Figure2-1.png"
+}, {
+  "caption": "Fig. 5. Across Program Language Vulnerability Detection: Train in C, Test in JAVA.",
+  "captionBoundary": {
+    "x1": 60.32494354248047,
+    "x2": 296.31658935546875,
+    "y1": 225.41526794433594,
+    "y2": 238.35711669921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 297.12,
+    "y1": 72.0,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. Across Program Language Vulnerability Detection: Train in C, Test in PHP.",
+  "captionBoundary": {
+    "x1": 60.32494354248047,
+    "x2": 296.31658935546875,
+    "y1": 404.726806640625,
+    "y2": 417.6686706542969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 297.12,
+    "y1": 252.0,
+    "y2": 393.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-Figure6-1.png"
+}, {
+  "caption": "TABLE IV COMPARISON OF F1 SCORES (IN %) FOR DIFFERENT MODELS ON VARIOUS COMMON WEAKNESS ENUMERATION (CWE) CATEGORIES WHEN TRAINED IN C, TESTED IN JAVA",
+  "captionBoundary": {
+    "x1": 314.2611083984375,
+    "x2": 549.8848876953125,
+    "y1": 74.33024597167969,
+    "y2": 104.13006591796875
+  },
+  "figType": "Table",
+  "imageText": ["CWE", "Type", "BABEL", "ReGVD", "CodeBERT", "GraphCodeBERT", "CWE-074", "41.64", "4.40", "29.37", "26.86", "CWE-077", "47.98", "15.53", "28.43", "21.94", "CWE-079", "60.98", "0.14", "31.97", "28.04", "CWE-089", "35.44", "0.00", "31.18", "27.29", "CWE-090", "48.91", "0.00", "28.38", "26.75", "CWE-091", "32.22", "37.87", "25.90", "37.39", "CWE-190", "35.77", "0.42", "28.79", "41.12", "CWE-191", "35.99", "0.69", "27.62", "37.60", "CWE-369", "35.61", "0.00", "22.48", "30.62", "CWE-400", "35.83", "0.48", "20.68", "39.41", "CWE-404", "51.61", "1.49", "15.71", "11.38", "CWE-573", "54.29", "1.65", "20.79", "16.48", "CWE-601", "47.86", "0.00", "23.06", "19.35", "CWE-665", "38.44", "0.00", "26.19", "48.99", "CWE-668", "51.60", "3.00", "36.53", "26.69", "CWE-704", "46.00", "0.00", "29.49", "30.91", "Average", "44.01", "4.78", "26.76", "28.99"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 555.36,
+    "y1": 121.92,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-TableIV-1.png"
+}, {
+  "caption": "TABLE V COMPARISON OF F1 SCORES (IN %) FOR DIFFERENT MODELS ON VARIOUS COMMON WEAKNESS ENUMERATION (CWE) CATEGORIES WHEN TRAINED IN C, TESTED IN PHP",
+  "captionBoundary": {
+    "x1": 314.2611083984375,
+    "x2": 549.8848876953125,
+    "y1": 304.81732177734375,
+    "y2": 334.6161804199219
+  },
+  "figType": "Table",
+  "imageText": ["CWE", "Type", "BABEL", "ReGVD", "CodeBERT", "GraphCodeBERT", "CWE-074", "75.81", "48.53", "51.43", "75.99", "CWE-078", "35.65", "14.54", "14.32", "35.17", "CWE-079", "54.06", "31.72", "32.70", "56.76", "CWE-089", "52.71", "2.10", "24.18", "38.77", "CWE-091", "34.24", "37.87", "26.81", "41.09", "CWE-601", "66.37", "33.42", "15.64", "63.67", "Average", "53.14", "26.57", "27.51", "51.91"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 555.36,
+    "y1": 352.8,
+    "y2": 424.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-TableV-1.png"
+}, {
+  "caption": "Fig. 3. Steps for source code normalization. The three steps of removing comments and symbolizing variable and function names serve as standard input for constructing program dependency graphs.",
+  "captionBoundary": {
+    "x1": 314.6502380371094,
+    "x2": 550.6415405273438,
+    "y1": 312.4355773925781,
+    "y2": 333.8064270019531
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 72.96,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-Figure3-1.png"
+}, {
+  "caption": "TABLE VI RESULTS OF THE ABLATION STUDY OF CODEXGLUE. BOLD TEXT INDICATES OUR FULL MODEL.” DDG” AND ”CDG” DENOTE DATA DEPENDENCY GRAPHS AND CONTROL DEPENDENCY GRAPHS.",
+  "captionBoundary": {
+    "x1": 72.9349365234375,
+    "x2": 284.4178466796875,
+    "y1": 73.59471130371094,
+    "y2": 103.39361572265625
+  },
+  "figType": "Table",
+  "imageText": ["BABEL", "65.08", "71.41", "40.00", "51.28", "w/o", "DDG", "63.58", "67.24", "40.4", "50.47", "w/o", "CDG", "63.25", "68.16", "37.53", "48.41", "w/o", "GNN", "62.99", "66.71", "38.8", "49.07", "ACC", "Precision", "Recall", "F1"],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 263.03999999999996,
+    "y1": 112.8,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-TableVI-1.png"
+}, {
+  "caption": "Fig. 4. Language-Independent Construction of Program Dependency Graph. The standardized source code is used to construct a data dependency graph by the flow of data and a control dependency graph by indentation analysis between lines of code.",
+  "captionBoundary": {
+    "x1": 60.64055252075195,
+    "x2": 296.6322326660156,
+    "y1": 280.75274658203125,
+    "y2": 310.5516052246094
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 297.12,
+    "y1": 68.64,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00060-Figure4-1.png"
+}]

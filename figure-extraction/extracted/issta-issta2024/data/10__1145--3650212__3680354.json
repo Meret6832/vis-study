@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 4: An example of model-generated tests.",
+  "captionBoundary": {
+    "x1": 78.54199981689453,
+    "x2": 269.3021240234375,
+    "y1": 172.5091094970703,
+    "y2": 178.1400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["}", "assertEquals(h1,", "h2);", "int", "h2", "=", "f2.hashCode();", "int", "h1", "=", "f1.hashCode();", "assertTrue(f1.equals(f2));", "ArcDialFrame", "f2", "=", "new", "ArcDialFrame();", "ArcDialFrame", "f1", "=", "new", "ArcDialFrame();", "public", "void", "testHashCode1609()", "{"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 91.67999999999999,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680354-Figure4-1.png"
+}, {
+  "caption": "Table 3: Mutation and adapted mutation scores for model generated (Model MS and Model AMS) and EvoSuite (Evo MS and Evo AMS) tests. The New MK column shows the number of mutants not killed by EvoSuite but by model-generated tests.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.38671875,
+    "y1": 85.7260971069336,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Model", "MS", "Evo", "MS", "Model", "AMS", "Evo", "AMS", "New", "MK", "compress", "0.00%", "55.90%", "0.00%", "69.50%", "0", "0%", "gson", "13.50%", "64.90%", "50.00%", "100.00%", "0", "0%", "jksnCore", "14.80%", "87.20%", "50.70%", "100.00%", "0", "0%", "jksnDB", "22.40%", "0.00%", "54.20%", "0.00%", "26", "22.40%", "jsoup", "32.00%", "0.00%", "47.10%", "0.00%", "8", "32%", "AVG", "16.54%", "41.60%", "40.40%", "53.90%", "6.8", "11%"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 142.56,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680354-Table3-1.png"
+}, {
+  "caption": "Table 2: Line Coverage comparison between EvoSuite and model generated tests. The NewCL has covered lines that neither EvoSuite nor the developer-written tests from the training set have covered.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0476989746094,
+    "y1": 85.7260971069336,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Model", "CL", "EvoSuite", "CL", "New", "CL", "Total", "Lines", "compress", "216", "58%", "87", "23%", "174", "46.70%", "372", "gson", "458", "69%", "539", "82%", "31", "4.70%", "657", "jksnCore", "399", "30%", "674", "51%", "82", "6.20%", "1307", "jksnDB", "1357", "50%", "136", "5%", "1246", "48%", "2595", "jsoup", "192", "82%", "39", "16%", "157", "66.50%", "519", "AVG", "524.4", "58%", "295", "35%", "338", "34.42%", "1090"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 132.0,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680354-Table2-1.png"
+}, {
+  "caption": "Table 1: Evaluation metrics scores for CodeT5 without Domain Adaptation (DA) (RQ1). Comparison of Code-T5 with DA) versus GPT-4 and A3Test is also shown for RQ2. Bold values denote the best metric score for each project compared to the baselines.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1981811523438,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Mutation", "Score", "0.00", "12.85", "0.01", "11.95", "34.98", "11.96", "A3Test", "CodeBLEU", "7.42", "15.61", "13.32", "15.58", "18.11", "14.01", "Line", "Coverage", "2.00", "29.50", "2.00", "31.60", "52.80", "23.58", "Compile", "Rate", "1.93", "6.85", "1.27", "1.07", "17.14", "5.65", "BLEU", "11.33", "16.44", "13.08", "15.75", "18.79", "15.08", "Mutation", "Score", "0.10", "15.93", "0.98", "14.44", "43.45", "14.98", "Parse", "Rate", "53.70", "64.61", "44.98", "68.16", "56.25", "57.54", "GPT-4", "CodeBLEU", "18.73", "28.19", "23.32", "23.87", "25.65", "23.95", "Line", "Coverage", "0.70", "32.40", "4.10", "33.20", "56.80", "25.44", "Compile", "Rate", "2.90", "17.15", "4.20", "7.52", "22.75", "10.90", "BLEU", "18.53", "26.39", "18.29", "22.43", "27.11", "22.55", "Mutation", "Score", "20.53", "35.61", "8.70", "28.60", "46.42", "27.97", "Parse", "Rate", "99.28", "98.55", "98.37", "98.08", "99.40", "98.74", "CodeT5", "with", "DA", "CodeBLEU", "22.37", "35.12", "30.06", "31.70", "44.10", "32.67", "Line", "Coverage", "32.80", "52.20", "21.20", "43.10", "68.00", "43.46", "Compile", "Rate", "39.29", "47.67", "38.33", "28.37", "62.50", "43.23", "BLEU", "40.84", "42.06", "28.41", "36.74", "44.36", "38.48", "Mutation", "Score", "0.55", "12.26", "0.07", "11.95", "32.78", "11.52", "Parse", "Rate", "89.29", "100.00", "93.33", "94.46", "100.00", "95.42", "DA", "CodeT5", "without", "CodeBLEU", "9.15", "16.64", "16.98", "16.78", "22.10", "16.33", "Line", "Coverage", "2.00", "25.60", "2.10", "31.40", "63.10", "24.84", "Compile", "Rate", "1.66", "3.67", "0.70", "0.92", "22.51", "5.89", "BLEU", "11.59", "18.64", "16.39", "18.34", "25.56", "18.10", "Baselines", "Metrics", "compress", "gson", "jksnCore", "jksnDB", "jsoup", "AVG", "Parse", "Rate", "20.75", "24.01", "14.21", "18.26", "39.27", "23.30"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 118.56,
+    "x2": 496.32,
+    "y1": 116.64,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680354-Table1-1.png"
+}, {
+  "caption": "Figure 1: Overview of our approach.",
+  "captionBoundary": {
+    "x1": 101.29000091552734,
+    "x2": 246.5546417236328,
+    "y1": 214.66310119628906,
+    "y2": 220.29400634765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 281.28,
+    "y1": 82.56,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680354-Figure1-1.png"
+}, {
+  "caption": "Figure 3: Prompt used for GPT-4",
+  "captionBoundary": {
+    "x1": 108.43600463867188,
+    "x2": 239.40823364257812,
+    "y1": 244.24012756347656,
+    "y2": 249.87103271484375
+  },
+  "figType": "Figure",
+  "imageText": ["]", "should", "be", "substituted", "with", "[EOL].\"\"\"}", "NL", "description", "and", "@Test", "annotations.", "New", "lines", "(e.g.", "line", "starts", "with", "//", "and", "surrounded", "by", "/*", "and", "*/),", "{\"role\":", "\"user\",", "\"content\":", "\"\"\"Remove", "all", "comments", "???{method}???\"\"\"},", "separate", "the", "multiple", "test", "cases.", "Input", "text:", "the", "Java", "code", "part", "of", "test", "methods.", "Use", "[TCS]", "to", "tests", "if", "they", "cover", "new", "lines", "of", "code.", "Only", "generate", "that", "cover", "maximum", "line", "coverage.", "Only", "create", "new", "surrounded", "by", "???,", "generate", "unit", "test", "case", "methods", "{\"role\":", "\"user\",", "\"content\":", "f\"\"\"Given", "a", "focal", "method", "with", "meaningful", "assertions", "for", "Java", "project:", "{prj}.\"},", "\"content\":", "f\"You", "are", "a", "unit", "test", "case", "generator", "{\"role\":", "\"system\",", "prompt", "=", "["],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 91.67999999999999,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680354-Figure3-1.png"
+}, {
+  "caption": "Figure 2: An example method and its context.",
+  "captionBoundary": {
+    "x1": 81.9000015258789,
+    "x2": 265.9443359375,
+    "y1": 267.0801086425781,
+    "y2": 272.71099853515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680354-Figure2-1.png"
+}]

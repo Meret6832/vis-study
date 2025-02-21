@@ -1,0 +1,101 @@
+[{
+  "caption": "Figure 4: Average time to detect a fixed issue for MT, MT+VR, and Sherlock (7-day time limit for (a) and 2-hour time limit for (b)). Time is displayed in minutes, averaged across 5 runs with different random integer seeds.",
+  "captionBoundary": {
+    "x1": 53.798004150390625,
+    "x2": 558.1983032226562,
+    "y1": 249.87490844726562,
+    "y2": 262.91400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "2-hour", "time", "limit", "13", "-", "0", "-", "0", "-", "0", "15", "49", "5", "8", "5", "<", "1", "1", "18", "-", "0", "-", "0", "-", "0", "20", "-", "0", "39", "5", "2", "5", "22", "10", "1", "15", "3", "20", "5", "1", "-", "0", "-", "0", "15", "1", "6", "-", "0", "-", "0", "88", "4", "7", "32", "5", "26", "5", "4", "5", "8", "-", "0", "60", "4", "9", "5", "9", "21", "5", "23", "5", "3", "5", "ID", "Time", "Seeds", "Time", "Seeds", "Time", "Seeds", "Issue", "MT", "MT+VR", "Sherlock", "(a)", "7-day", "time", "limit", "13", "-", "0", "4351", "1", "4142", "5", "15", "49", "5", "8", "5", "<", "1", "1", "18", "-", "0", "-", "0", "1369", "5", "20", "1811", "5", "39", "5", "2", "5", "22", "738", "5", "161", "5", "20", "5", "1", "8814", "1", "3567", "3", "521", "5", "6", "8576", "1", "1779", "5", "97", "5", "7", "32", "5", "26", "5", "4", "5", "8", "1117", "5", "78", "5", "9", "5", "9", "21", "5", "23", "5", "3", "5", "ID", "Time", "Seeds", "Time", "Seeds", "Time", "Seeds", "Issue", "MT", "MT+VR", "Sherlock"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 544.3199999999999,
+    "y1": 82.56,
+    "y2": 230.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695034-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Overview of interrogation testing.",
+  "captionBoundary": {
+    "x1": 350.41900634765625,
+    "x2": 525.7311401367188,
+    "y1": 174.11788940429688,
+    "y2": 176.197998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Interrogator", "Knowledge", "Base", "Detector", "results", "response,", "verification", "query", "Program", "Analyzer", "trick", "query"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 345.59999999999997,
+    "x2": 529.4399999999999,
+    "y1": 82.56,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695034-Figure1-1.png"
+}, {
+  "caption": "Table 2: Analyzer issues detected by Sherlock.",
+  "captionBoundary": {
+    "x1": 77.94999694824219,
+    "x2": 269.5953369140625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["no", "longer", "occurs.", "To", "account", "for", "the", "randomness", "in", "Sherlock,", "we", "repeat", "this", "experiment", "with", "5", "different", "random", "seeds.", "ID", "Analyzer", "Type", "Status", "LOCs", "1", "CBMC", "Soundness", "Fixed", "57", "2", "CBMC", "Soundness", "Confirmed", "1519", "3", "CBMC", "Soundness", "Confirmed", "2820", "4", "CBMC", "Precision", "Confirmed", "7", "5", "CBMC", "Other", "Confirmed", "29", "6", "Clam", "Soundness", "Fixed", "863", "7", "Clam", "Precision", "Fixed", "24", "8", "Clam", "Precision", "Fixed", "40", "9", "Clam", "Soundness", "Fixed", "24", "10", "Clam", "Soundness", "Fixed", "38", "11", "CPAchecker", "Precision", "Confirmed", "42", "12", "ESBMC", "Precision", "Fixed", "2747", "13", "ESBMC", "Soundness", "Fixed", "2820", "14", "ESBMC", "Soundness", "Confirmed", "2790", "15", "ESBMC", "Soundness", "Fixed", "19", "16", "ESBMC", "Soundness", "Confirmed", "13", "17", "KLEE", "Soundness", "Confirmed", "41", "18", "KLEE", "Soundness", "Fixed", "237", "19", "KLEE", "Crash", "Fixed", "42", "20", "MOPSA", "Soundness", "Fixed", "36", "21", "MOPSA", "Precision", "Confirmed", "477", "22", "MOPSA", "Soundness", "Fixed", "38", "23", "Symbiotic", "Soundness", "Reported", "54", "24", "UAutomizer", "Soundness", "Confirmed", "2820", "Issue", "Program", "Issue", "Issue", "Seed"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695034-Table2-1.png"
+}, {
+  "caption": "Figure 2: Example soundness and precision issues detected by Sherlock and fixed by the analyzer developers.",
+  "captionBoundary": {
+    "x1": 82.95794677734375,
+    "x2": 529.0365600585938,
+    "y1": 202.54287719726562,
+    "y2": 204.62298583984375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Precision", "issue", "in", "Clam.", "1", "int", "main()", "{", "2", "int", "s", "=", "⋆;", "3", "assume(s", "!=", "0", "&&", "s", "<=", "1);", "4", "assume(s", ">", "1);", "5", "assert", "(0);", "6", "assume(s", "<", "2);", "7", "return", "0;", "8", "}", "(b)", "Soundness", "issue", "in", "CBMC.", "1", "void", "main()", "{", "2", "int", "z", "=", "⋆;", "3", "int", "k", "=", "⋆;", "4", "assume", "(1", "<", "z);", "5", "assume", "(1", "<=", "z", "&&", "k", "<=", "1);", "6", "//", "assume", "(1", "<", "z", "&&", "k", "<=", "1);", "7", "assert", "(0);", "8", "}", "(a)", "Soundness", "issue", "in", "ESBMC.", "1", "int", "main()", "{", "2", "float", "f", "=", "⋆;", "3", "assert(f", "<", "1.0", "||", "f", ">", "-1.0);", "4", "assume(f", ">", "0.0);", "5", "printf(\"%f\\n\",", "f);", "6", "assert(f", ">", "0.0);", "7", "//", "assert(true);", "8", "return", "0;", "9", "}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 523.68,
+    "y1": 84.47999999999999,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695034-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Additional soundness and precision issues detected by Sherlock and fixed by the analyzer developers.",
+  "captionBoundary": {
+    "x1": 79.03887939453125,
+    "x2": 532.9544677734375,
+    "y1": 278.9468688964844,
+    "y2": 281.0269775390625
+  },
+  "figType": "Figure",
+  "imageText": ["(f)", "Precision", "issue", "in", "Clam.", "1", "void", "main()", "{", "2", "N", "=", "⋆;", "3", "assume(N", "!=", "-2147483648", "&&", "4", "N", "!=", "2147483647);", "5", "for", "(int", "i", "=", "0;", "i", "<", "N;", "i++)", "6", "assert(N", ">=", "-1);", "7", "}", "(e)", "Soundness", "issue", "in", "MOPSA.", "1", "int", "main()", "{", "2", "int", "MAX", "=", "⋆;", "3", "char", "str1[MAX];", "4", "assert(MAX", ">=", "0);", "5", "}", "(d)", "Soundness", "issue", "in", "MOPSA.", "1", "int", "main()", "{", "2", "int", "a", "=", "⋆;", "3", "assume(a", "<=", "1);", "4", "//", "assume(a", "<=", "1", "&&", "a", ">=", "1);", "5", "double", "x", "=", "a", "/", "2.0;", "...", "6", "assert(x", "<=", "0.0);", "...", "7", "}", "(c)", "Soundness", "issue", "in", "KLEE.", "1", "void", "main()", "{", "2", "int", "p1", ",", "...,", "p15", ",", "cond", "=", "⋆;", "3", "assume(p12", ">", "p14);", "assume(p6", ">", "p3);", "4", "//", "assume(p2", ">", "0);", "5", "assume(p7", "!=", "0);", "...", "assume", "(0", ">", "p4);", "6", "assert(p2", ">", "p11);", "7", "}", "(b)", "Soundness", "issue", "in", "ESBMC.", "1", "int", "main", "(){", "2", "//", "assume(NULL", "!=", "\"a\");", "3", "char", "*str0", "=", "4", "(char", "*)", "0xFFFFFFFFFFFFFFFF;", "5", "char", "*str1", "=", "\"\";", "6", "assert(str0", "<=", "str1);", "7", "}", "(a)", "Soundness", "issue", "in", "Clam.", "1", "int", "main()", "{", "2", "int", "S", "=", "⋆;", "3", "assert(S", "!=", "2U", "&&", "S", "!=", "1U);", "4", "//", "assert(S", "!=", "2U", "&&", "S", "<", "1U);", "5", "assert(S", ">", "2);", "6", "return", "0;", "7", "}"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 558.72,
+    "y1": 84.47999999999999,
+    "y2": 259.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695034-Figure3-1.png"
+}]

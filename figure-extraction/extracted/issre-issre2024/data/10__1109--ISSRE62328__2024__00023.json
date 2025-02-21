@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 5. Structed Prompt in LLMeLog and A Q&A Example.",
+  "captionBoundary": {
+    "x1": 217.40919494628906,
+    "x2": 404.5574035644531,
+    "y1": 334.63641357421875,
+    "y2": 339.1022033691406
+  },
+  "figType": "Figure",
+  "imageText": ["Reminder:", "If", "the", "system", "detects", "the", "cause", "of", "the", "anomaly,", "it", "implies", "that", "the", "system", "will", "automatically", "fix", "it,", "so", "usually", "there", "will", "be", "no", "obvious", "abnormalities.", "Workflow’s", "Q&A", "topics", "5.", "How", "to", "summarize", "your", "answer", "as", "a", "dictionary?", "4.", "What", "is", "the", "type", "of", "the", "event’s", "result?", "3.", "What", "is", "the", "event's", "structure?", "2.", "How", "will", "it", "affect", "the", "system?", "1.", "What", "is", "the", "essence", "of", "an", "event?", "Role:", "You", "are", "an", "expert", "specialized", "in", "evaluating", "log", "events.", "Initialization:", "I", "will", "analyze", "the", "log", "event", "you", "provided", "according", "to", "the", "pre-set", "workflow.", "Please", "provide", "the", "log", "event.", "Prompt’s", "Structure", "Sub-Questions", "Provide", "the", "corresponding", "argument", "content", "based", "on", "the", "provided", "argument", "roles,", "and", "answer", "in", "the", "form", "of", "a", "dictionary.", "The", "dictionary", "format", "is:", "{Event", "type:", "{Argument", "Role:", "Argument", "Content}}.", "The", "argument", "roles:", "[\"Event", "Subject\"、、\"Event", "Action", "Description\"、\"Event", "Result\"、", "\"Events", "Result", "Type\"]", "Which", "of", "the", "following", "options", "is", "the", "closest", "possible", "result", "of", "an", "event?", "Option:", "1.", "No", "obvious", "abnormalities,", "2", "Probably", "cause", "anomalies", "1.", "What", "is", "the", "subject", "of", "the", "event?", "2.", "What", "behavior", "does", "the", "event", "exhibit?", "3.", "What", "results", "might", "the", "event", "yield?", "1.", "Does", "the", "system", "detect", "the", "cause", "of", "the", "anomaly?", "2.", "What", "the", "future", "might", "hold", "of", "the", "event?", "1.", "What", "is", "its", "conceptual", "basis?", "2.", "What", "problem", "does", "it", "aim", "to", "solve?", "3.", "How", "does", "it", "address", "related", "issues?", "A", "Q&A", "Example", "5.", "Summarized", "Answer", "as", "a", "Dictionary:", "{", "\"i-cache", "parity", "error\":", "{", "\"Event", "Subject\":", "\"instruction", "cache\",", "\"Event", "Action", "Description\":", "\"The", "event", "signifies", "a", "parity", "error", "in", "the", "instruction", "cache", "(i-cache).\",", "\"Event", "Result\":", "\"System", "crashes", "or", "incorrect", "program", "execution.\",", "\"Events", "Result", "Type\":", "\"Probably", "cause", "anomalies\"", "}", "}", "4.", "Type", "of", "Event's", "Result:", "Probably", "cause", "anomalies.", "This", "suggests", "that", "the", "event", "result", "is", "likely", "to", "be", "an", "anomaly,", "as", "i-cache", "parity", "errors", "can", "disrupt", "normal", "system", "behavior.", "3.", "Event", "Structure:", "3.1", "Subject", "of", "the", "Event:", "instruction", "cache", "3.2", "Behavior", "of", "the", "Event:", "Signifies", "the", "occurrence", "of", "a", "parity", "error", "in", "the", "instruction", "cache.", "3.3", "Expected", "Results:", "Future", "implications", "could", "include", "system", "crashes", "or", "incorrect", "program", "execution.", "2.", "Effect", "on", "the", "System:", "2.1", "Detection", "of", "Anomaly", "Cause:", "The", "log", "event", "does", "not", "explicitly", "mention", "whether", "the", "system", "detects", "the", "cause", "of", "the", "parity", "error.", "2.1", "Future", "Implications:", "The", "occurrence", "of", "i-cache", "parity", "errors", "may", "lead", "to", "unpredictable", "behavior", "in", "the", "system,", "affecting", "the", "correct", "execution", "of", "instructions.", "Answer:", "1.", "Essence", "of", "the", "Event:", "1.1", "Conceptual", "Basis:", "The", "event", "indicates", "a", "parity", "error", "in", "the", "instruction", "cache.", "1.2", "Problem", "it", "Aims", "to", "Solve:", "Parity", "errors", "in", "the", "i-cache", "can", "lead", "to", "incorrect", "instruction", "execution,", "potentially", "causing", "system", "instability", "or", "crashes.", "1.3", "Addressing", "Related", "Issues:", "The", "event", "aims", "to", "identify", "and", "potentially", "address", "issues", "related", "to", "the", "integrity", "of", "instructions", "stored", "in", "the", "i-cache.", "Question:", "i-cache", "parity", "error..............0"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 549.12,
+    "y1": 72.96,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. The general pipeline of log-based anomaly detection approaches. The red log represents an anomalous log, while the green logs represent normal logs.",
+  "captionBoundary": {
+    "x1": 58.87350082397461,
+    "x2": 542.0948486328125,
+    "y1": 218.4279022216797,
+    "y2": 231.3697509765625
+  },
+  "figType": "Figure",
+  "imageText": ["Sequence", "Models", "Classification-", "based", "Prediction-based", "Sequence", "Models", "Models", "Pretrained", "Language", "Anomaly", "Detetion", "Log", "Embeddings", "Log-based", "Log", "Sequence", "Log", "Events", "and", "Log", "Parameters", "Model", "Construction", "(1)", "-", "1124611136", "2005.08.21", "R11-M1-N2-", "C:J12-U01", "2005-08-21-00.58.56.344729", "R11-M1-N2-C:J12-U01", "RAS", "KERNEL", "INFO", "CE", "sym", "3,", "at", "0x0b19b8a0,", "mask", "0x08", "(2)", "-", "1124611166", "2005.08.21", "R30-M1-NC-", "C:J02-U01", "2005-08-21-00.59.26.072269", "R30-M1-NC-C:J02-U01", "RAS", "KERNEL", "INFO", "CE", "sym", "20,", "at", "0x180462c0,", "mask", "0x02", "(3)", "KERNMNTF", "1125552593", "2005.08.31", "R42-M1-NC-I:J18-U11", "2005-08-31-", "22.29.53.058583", "R42-M1-NC-I:J18-U11", "RAS", "KERNEL", "FATAL", "Lustre", "mount", "FAILED", ":", "bglio559", ":", "point", "/p/gb1", "...", "(1)", "[‘3’,", "‘0x0b1", "9b8", "a0’,", "‘0x08’]", "(2)", "[‘20’,", "‘0x180462", "c0’,", "‘0x02’]", "(3)", "[‘1’,", "‘559’]", "...", "(1)", "CE", "sym", "<*>,", "at", "<*>,", "mask", "<*>", "(2)", "CE", "sym", "<*>,", "at", "<*>,", "mask", "<*>", "(3)", "bglio", "<*>", ":", "point", "/p/gb<*>", "...", "Log", "Parsing", "Event", "Embedding"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 537.12,
+    "y1": 77.75999999999999,
+    "y2": 204.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-Figure1-1.png"
+}, {
+  "caption": "TABLE I THE DETAILS OF DATASETS USED IN OUR EXPERIMENTS",
+  "captionBoundary": {
+    "x1": 345.1275329589844,
+    "x2": 522.3789672851562,
+    "y1": 539.3636474609375,
+    "y2": 552.305419921875
+  },
+  "figType": "Table",
+  "imageText": ["HDFS", "11,175,629", "16,838", "(blocks)", "2.93%", "BGL", "4,747,963", "348,460", "(logs)", "7.34%", "Thunderbird", "10,000,000", "4,934", "(logs)", "0.05%", "Dataset", "#Total", "Logs", "#Anomaly", "%Anomaly"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 547.1999999999999,
+    "y1": 561.6,
+    "y2": 611.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-TableI-1.png"
+}, {
+  "caption": "TABLE IV ABLATION OF THE KNOWLEDGE ENHANCEMENT (KE) MODULE",
+  "captionBoundary": {
+    "x1": 76.71927642822266,
+    "x2": 280.1732177734375,
+    "y1": 422.2658996582031,
+    "y2": 435.207763671875
+  },
+  "figType": "Table",
+  "imageText": ["Recall", "18.22", "35.24", "28.98", "F1-score", "24.66", "43.29", "43.80", "LLMeLog", "Precision", "38.11", "56.09", "89.64", "Recall", "16.97", "33.95", "29.05", "F1-score", "18.98", "41.48", "40.89", "LLMeLog", "w/o", "KE", "Precision", "21.53", "53.30", "69.01", "Thunderbird", "Recall", "69.59", "73.73", "55.26", "F1-score", "54.52", "65.06", "56.73", "LLMeLog", "Precision", "44.82", "58.22", "58.29", "Recall", "8.99", "38.88", "95.63", "F1-score", "14.12", "39.80", "36.77", "LLMeLog", "w/o", "KE", "Precision", "32.87", "40.76", "22.76", "BGL", "5%", "10%", "15%", "Dataset", "Model", "Metric", "Event", "Ratio", "in", "Training"],
+  "name": "IV",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 297.12,
+    "y1": 445.91999999999996,
+    "y2": 571.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-TableIV-1.png"
+}, {
+  "caption": "Fig. 7. Ablation of the Hierarchical Semantic Fine-tuning (HSF) module.",
+  "captionBoundary": {
+    "x1": 317.9045104980469,
+    "x2": 546.1799926757812,
+    "y1": 308.58447265625,
+    "y2": 313.0982971191406
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F1-score", "ThunderbirdBGLHDFS", "w/o", "HSF", "LLMeLog", "w/o", "HSF", "LLMeLog", "LLMeLogw/o", "HSF", "100.00%", "90.00%", "80.00%", "70.00%", "60.00%", "99.22%", "85.33%", "99.07%", "78.65%", "99.42%", "93.14%", "99.25%", "77.09%", "98.60%", "68.95%", "99.60%", "93.08%", "99.18%", "95.54%", "99.55%", "91.54%", "99.25%", "93.21%"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 310.56,
+    "x2": 545.28,
+    "y1": 140.64,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. Examples of Three Anti-Patterns.",
+  "captionBoundary": {
+    "x1": 367.5539855957031,
+    "x2": 495.74639892578125,
+    "y1": 235.7006072998047,
+    "y2": 240.21441650390625
+  },
+  "figType": "Figure",
+  "imageText": ["data", "storage", "interrupt", "Event", "3.2", "data", "store", "interrupt", "caused", "by", "<*>", "Case", "3:", "Tendency", "Lacks", "Event", "3.1", "Event", "2.2", "size", "of", "DDR", "we", "are", "caching...............1", "(512M)", "Case", "2:", "Semantic", "Deflection", "Event", "2.1", "ddrSize", "==", "256*1024*1024", "||", "ddrSize", "==", "512*1024*1024", "Event", "1.2", "Floating", "Point", "Registers:", "Case", "1:", "Content", "Missing", "Event", "1.1", "fpr", "<*>", "=", "<*>", "<*>", "<*>", "<*>"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 544.3199999999999,
+    "y1": 72.96,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. Log Representation Generated by BERT and LLMeLog.",
+  "captionBoundary": {
+    "x1": 332.162109375,
+    "x2": 531.1370849609375,
+    "y1": 646.1102294921875,
+    "y2": 650.6240234375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "LLMeLog", "BERT", "LLMeLog", "(a)", "BERT", "BERT", "LLMeLog"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 544.3199999999999,
+    "y1": 511.68,
+    "y2": 635.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-Figure3-1.png"
+}, {
+  "caption": "TABLE II COMPARISON OF MODEL PERFORMANCE ON PUBLIC DATASETS",
+  "captionBoundary": {
+    "x1": 201.5010986328125,
+    "x2": 400.78411865234375,
+    "y1": 73.53569030761719,
+    "y2": 86.47845458984375
+  },
+  "figType": "Table",
+  "imageText": ["Transformer", "97.58", "98.89", "98.23", "92.72", "91.21", "91.96", "97.25", "84.54", "90.45", "LLMeLog", "99.25", "99.60", "99.42", "99.55", "98.60", "99.07", "99.18", "99.25", "99.22", "CNN", "98.26", "80.33", "88.40", "92.95", "73.34", "81.99", "98.26", "87.15", "92.37", "LogRobust", "96.68", "91.90", "94.23", "98.86", "94.30", "96.53", "98.57", "95.15", "96.83", "NeuralLog", "99.46", "90.43", "94.73", "92.67", "83.49", "87.84", "85.62", "79.66", "82.53", "Supervised", "LogAnomaly", "95.40", "97.61", "96.50", "95.71", "96.79", "96.25", "92.24", "60.04", "72.74", "Unsupervised", "DeepLog", "95.79", "95.84", "95.82", "93.69", "97.27", "95.45", "66.38", "70.43", "68.35", "Semi-Supervised", "PLELog", "97.16", "93.16", "95.12", "91.66", "97.12", "94.31", "63.32", "85.02", "72.58", "Precision", "Recall", "F1-score", "Precision", "Recall", "F1-score", "Precision", "Recall", "F1-score", "Supervision", "Model", "HDFS", "BGL", "Thunderbird"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 536.16,
+    "y1": 97.92,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-TableII-1.png"
+}, {
+  "caption": "TABLE III COMPARISON OF MODEL PERFORMANCE ON GENERALIZATION SCENARIO",
+  "captionBoundary": {
+    "x1": 316.4061279296875,
+    "x2": 549.5280151367188,
+    "y1": 363.3938903808594,
+    "y2": 376.33575439453125
+  },
+  "figType": "Table",
+  "imageText": ["LLMeLog", "P", "44.82", "58.22", "58.29", "38.11", "56.09", "89.64", "R", "69.59", "73.73", "55.26", "18.22", "35.24", "28.98", "F1", "54.52", "65.06", "56.73", "24.66", "43.29", "43.80", "Transformer", "P", "24.10", "28.95", "37.03", "0.03", "4.74", "4.61", "R", "15.58", "19.17", "43.12", "0.04", "25.47", "14.00", "F1", "18.93", "23.07", "39.84", "0.04", "7.99", "6.94", "NeuralLog", "P", "3.89", "2.55", "2.14", "50.00", "3.62", "4.55", "R", "48.72", "32.88", "35.08", "0.07", "6.61", "27.23", "F1", "7.21", "4.74", "4.04", "0.14", "4.68", "7.80", "LogRobust", "P", "5.85", "10.40", "11.73", "12.15", "8.67", "5.24", "R", "14.36", "51.57", "51.53", "7.86", "32.83", "27.24", "F1", "8.31", "17.31", "19.12", "9.54", "13.72", "8.79", "CNN", "P", "22.04", "47.49", "16.74", "98.16", "19.20", "23.07", "R", "12.88", "17.16", "48.91", "2.89", "30.76", "24.43", "F1", "16.26", "25.22", "24.94", "5.62", "23.65", "23.73", "LogAnomaly", "P", "19.07", "22.45", "25.78", "7.09", "11.65", "9.53", "R", "95.61", "96.66", "96.46", "85.43", "72.67", "72.57", "F1", "31.80", "36.44", "40.68", "13.10", "20.08", "16.85", "DeepLog", "P", "19.45", "22.91", "16.75", "6.73", "9.57", "9.33", "R", "97.39", "96.94", "56.61", "87.33", "73.22", "75.28", "F1", "32.42", "37.07", "25.85", "12.49", "16.93", "16.61", "PLELog", "P", "4.62", "5.62", "10.28", "99.35", "29.55", "9.83", "R", "24.71", "33.41", "58.51", "3.34", "30.17", "46.60", "F1", "7.79", "9.62", "17.49", "6.47", "29.86", "16.24", "5%", "10%", "15%", "5%", "10%", "15%", "Model", "Metric", "BGL", "Thunderbird"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 547.1999999999999,
+    "y1": 385.91999999999996,
+    "y2": 631.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-TableIII-1.png"
+}, {
+  "caption": "Fig. 6. Evaluation results of few-shot scenario. Notably, the horizontal axis of the graph represents the proportion of log event sequences in the training set, not the proportion of log events (Table III).",
+  "captionBoundary": {
+    "x1": 59.670501708984375,
+    "x2": 542.8920288085938,
+    "y1": 208.4791717529297,
+    "y2": 221.4210205078125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Thunderbird", "P", "L", "E", "L", "o", "g", "D", "e", "e", "p", "L", "o", "g", "L", "o", "g", "A", "n", "o", "m", "a", "l", "y", "C", "N", "N", "L", "o", "g", "R", "o", "b", "u", "s", "t", "T", "r", "a", "n", "s", "f", "o", "r", "m", "e", "r", "N", "e", "u", "r", "a", "l", "L", "o", "g", "L", "L", "M", "e", "L", "o", "g", "H", "D", "F", "S", ")", "ore", "(%", "F1", "-sc", "1", "0", "0", "8", "0", "6", "0", "4", "0", "2", "0", "0", "5", "%", "1", "0", "%", "1", "5", "%", "2", "0", "%", "2", "5", "%", "3", "0", "%", "(b)", "BGL", "P", "L", "E", "L", "o", "g", "D", "e", "e", "p", "L", "o", "g", "L", "o", "g", "A", "n", "o", "m", "a", "l", "y", "C", "N", "N", "L", "o", "g", "R", "o", "b", "u", "s", "t", "T", "r", "a", "n", "s", "f", "o", "r", "m", "e", "r", "N", "e", "u", "r", "a", "l", "L", "o", "g", "L", "L", "M", "e", "L", "o", "g", "H", "D", "F", "S", ")", "ore", "(%", "F1", "-sc", "1", "0", "0", "8", "0", "6", "0", "4", "0", "2", "0", "0", "5", "%", "1", "0", "%", "1", "5", "%", "2", "0", "%", "2", "5", "%", "3", "0", "%", "(a)", "HDFS", "P", "L", "E", "L", "o", "g", "D", "e", "e", "p", "L", "o", "g", "L", "o", "g", "A", "n", "o", "m", "a", "l", "y", "C", "N", "N", "L", "o", "g", "R", "o", "b", "u", "s", "t", "T", "r", "a", "n", "s", "f", "o", "r", "m", "e", "r", "N", "e", "u", "r", "a", "l", "L", "o", "g", "L", "L", "M", "e", "L", "o", "g", "H", "D", "F", "S", ")", "ore", "(%", "F1", "-sc", "1", "0", "0", "8", "0", "6", "0", "4", "0", "2", "0", "0", "5", "%", "1", "0", "%", "1", "5", "%", "2", "0", "%", "2", "5", "%", "3", "0", "%"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 536.16,
+    "y1": 72.96,
+    "y2": 203.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-Figure6-1.png"
+}, {
+  "caption": "Fig. 4. The proposed log-based anomaly detection pipeline for LLMeLog. LLMeLog pipeline comprises four key stages: Log Parsing, Knowledge Enhancement (KE), Hierarchical Semantic Fine-tuning (HSF), and Anomaly Detection. First, parse the input log sequence into a sequence of log events. Second, employ the KE module to prompt LLMs to enrich log events with additional information to address the anti-patterns. Subsequently, feed the enriched log events into the HSF module for event embeddings. Finally, input the event embedding sequence into the anomaly detection module to detect log anomalies. LLMeLog utilizes LLMs to address the anti-patterns present in event embeddings, improving log representation and promoting a deeper understanding of log events.",
+  "captionBoundary": {
+    "x1": 68.3468017578125,
+    "x2": 551.5682373046875,
+    "y1": 400.011962890625,
+    "y2": 438.2388916015625
+  },
+  "figType": "Figure",
+  "imageText": ["Jointly", "Training", "Structured", "Prompt", "Low", "Anomaly", "Tendency", "Fine-Tuning", "Error", "Correction", "Prediction", "!", "√", "Positional", "Encoding", "Softmax", "Linear", "Add", "&", "Norm", "Feed", "Forward", "Multi-Head", "Attention", "Input", "Log", "Sequence", "Vetor", "Add", "&", "Norm", "Transformer-Based", "Anomaly", "Detection", "Anomaly", "Detection", "Model", "Event", "Embedding", "Hierarchical", "Metric", "Loss", "Tendency", "Event", "One", "High", "Anomaly", "Tendency", "Events", "Other", "High", "Anomaly", "Cosine", "Metric", "Loss", "Events", "Low", "Anomaly", "Tendency", "Events", "Cross", "Entropy", "Loss", "High", "Anomaly", "Tendency", "Hierarchical", "Semantic", "Fine-tuning", "Event", "Embeddings", "Processor", "local", "bus", "...", "Replacing", "the", "card", "Enriched", "Log", "Events", "Large", "Language", "Model", "Knowledge", "Enhancement", "data", "<*>", "plb", "<*>", "...", "ddr", "errors", "detected", "CE", "sym", "at", "mask", "Log", "Events", "High", "Anomaly", "Tendency", "Log", "Parsing", "Raw", "Logs", "Log", "Parser"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 546.24,
+    "y1": 74.88,
+    "y2": 387.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00023-Figure4-1.png"
+}]

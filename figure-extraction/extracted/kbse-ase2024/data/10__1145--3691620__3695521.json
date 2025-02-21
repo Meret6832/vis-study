@@ -1,0 +1,381 @@
+[{
+  "caption": "Figure 9: An example of the prompt constructed by PALM, and the response of GPT-3.5.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.1383056640625,
+    "y1": 359.0913391113281,
+    "y2": 375.6809997558594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 82.56,
+    "y2": 356.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure9-1.png"
+}, {
+  "caption": "Figure 1: A Coq theorem stating that natural number addition is commutative, and a proof of this statement.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64324951171875,
+    "y1": 182.86233520507812,
+    "y2": 199.4520263671875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "Theorem", "add_comm", ":", "forall", "n", "m", ":", "nat", ",", "n", "+", "m", "=", "m", "+", "n.", "2", "Proof.", "3", "intros", "n", "m.", "4", "induction", "n.", "5", "-", "6", "auto.", "7", "-", "8", "simpl.", "9", "rewrite", "IHn.", "10", "apply", "plus_n_Sm.", "11", "Qed."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 295.2,
+    "y1": 77.75999999999999,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Proof state after the execution of each tactic in the proof of addition’s commutativity.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1930541992188,
+    "y1": 437.8563537597656,
+    "y2": 454.4460144042969
+  },
+  "figType": "Figure",
+  "imageText": ["(g)", "Proof", "state", "after", "Figure", "1", "Line", "9", "(rewrite", "IHn).", "n,", "m:", "nat", "IHn:", "n", "+", "m", "=", "m", "+", "n", "================================", "S", "(m", "+", "n)", "=", "m", "+", "S", "n", "(f)", "Proof", "state", "after", "Figure", "1", "Line", "8", "(simpl).", "n,", "m:", "nat", "IHn:", "n", "+", "m", "=", "m", "+", "n", "================================", "S", "(n", "+", "m)", "=", "m", "+", "S", "n", "(e)", "Proof", "state", "after", "Figure", "1", "Line", "7", "(the", "second", "subgoal).", "n,", "m:", "nat", "IHn:", "n", "+", "m", "=", "m", "+", "n", "================================", "S", "n", "+", "m", "=", "m", "+", "S", "n", "(d)", "Proof", "state", "after", "Figure", "1", "Line", "5", "(the", "first", "subgoal).", "m:", "nat", "================================", "0", "+", "m", "=", "m", "+", "0", "(c)", "Proof", "state", "after", "Figure", "1", "Line", "4", "(induction", "n).", "m:", "nat", "================================", "(1/2)", "0", "+", "m", "=", "m", "+", "0", "(2/2)", "S", "n", "+", "m", "=", "m", "+", "S", "n", "(b)", "Proof", "state", "after", "Figure", "1", "Line", "3", "(intros", "n", "m).", "n,", "m:", "nat", "================================", "n", "+", "m", "=", "m", "+", "n", "(a)", "Proof", "state", "at", "the", "start.", "================================", "forall", "n", "m", ":", "nat", ",", "n", "+", "m", "=", "m", "+", "n"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 554.4,
+    "y1": 81.6,
+    "y2": 432.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure2-1.png"
+}, {
+  "caption": "Figure 10: Visualization of our backtracking repair algorithm. The red lines indicate the reverted tactics, and the dashed lines indicate the tactics found by CoqHammer during backtracking.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6416320800781,
+    "y1": 649.6083374023438,
+    "y2": 688.115966796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 500.64,
+    "y2": 636.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure10-1.png"
+}, {
+  "caption": "Figure 15: A failure case [8] where the LLM does not perform induction.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0398254394531,
+    "y1": 427.5283508300781,
+    "y2": 444.1180114746094
+  },
+  "figType": "Figure",
+  "imageText": ["(*", "LLM", "generated", "proof", "*)", "intros", "tr", "h", "c", "i", "n", "H1", "H2", "H3", "H4.", "apply", "(last_holder", "'_no_out_inv", "tr", "h", "(Client", "c)", "n).", "apply", "H1.", "intuition.", "congruence.", "(*", "Human", "written", "proof", "*)", "induction", "tr;", "intros;", "simpl", "in", "*;", "repeat", "break_match;", "Lemma", "last_holder", "'_unlock_none", ":", "forall", "tr", "h", "c,", "last_holder", "'", "h", "tr", "=", "Some", "c", "->", "slast_holder", "'", "h", "(tr", "++", "[(", "Client", "c,", "inl", "Unlock)])=None."],
+  "name": "15",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 296.15999999999997,
+    "y1": 320.64,
+    "y2": 421.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure15-1.png"
+}, {
+  "caption": "Figure 14: A failure case [10] where the LLM does not use map_insert and map_map_exchange provided in the prompt.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04119873046875,
+    "y1": 187.69436645507812,
+    "y2": 204.28399658203125
+  },
+  "figType": "Figure",
+  "imageText": ["(*", "LLM", "generated", "proof", "*)", "intros.", "apply", "map_insert_eq.", "apply", "H.", "(*", "Human", "written", "proof", "*)", "intros.", "rewrite", "map_insert.", "f_equal.", "eapply", "map_map_exchange.", "eauto.", "Lemma", "map_insert_map:", "forall", "A", "(f", "g", "h", ":", "A", "->", "A)", "x", "(a", ":", "A)", "e,", "(forall", "a,", "f", "(g", "a)", "=", "g", "(h", "a))", "->", "map", "f", "(insert", "x", "a", "(map", "g", "e))", "=", "insert", "x", "(f", "a)", "(map", "g", "(map", "h", "e))."],
+  "name": "14",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 296.15999999999997,
+    "y1": 81.6,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure14-1.png"
+}, {
+  "caption": "Table 1: The number of occurrences and percentage of each type of error.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1931762695312,
+    "y1": 665.7113037109375,
+    "y2": 682.2999877929688
+  },
+  "figType": "Table",
+  "imageText": ["Total", "520", "100", "Tactic", "misuse", "44", "8.5", "Bullet", "misuse", "19", "3.7", "Miscellaneous", "errors", "3", "0.6", "Invalid", "reference", "79", "15.2", "Incorrect", "rewrite", "61", "11.7", "Redundant", "introductions", "56", "10.8", "Type", "#", "of", "occurrences", "Percentage", "(%)", "Wrong", "theorem", "application", "258", "49.6"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 567.84,
+    "y2": 663.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Table1-1.png"
+}, {
+  "caption": "Figure 12: Distribution of theorems that are proven or not proven by PALM, categorized by the number of tactics in the ground-truth proofs.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1974487304688,
+    "y1": 257.1163635253906,
+    "y2": 284.66400146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 129.6,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure12-1.png"
+}, {
+  "caption": "Table 2: Theorems proved by each approach.",
+  "captionBoundary": {
+    "x1": 83.88099670410156,
+    "x2": 263.658203125,
+    "y1": 222.93734741210938,
+    "y2": 228.5679931640625
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "#", "of", "Theorems", "Proven", "Passport", "1561", "(14.4%)", "Proverbot9001", "1849", "(17.1%)", "Draft,", "Sketch,", "and", "Prove", "(DSP)", "2478", "(22.9%)", "GPT-3.5", "402(3.7%)", "+", "PALM", "4377", "(40.4%)", "GPT-4o", "689(6.4%)", "+", "PALM", "4614", "(42.6%)", "Llama-3-70b-Instruct", "386(3.6%)", "+", "PALM", "4155", "(38.3%)", "Llama-3-8b-Instruct", "7(0.1%)", "+", "PALM", "3433", "(31.7%)"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 84.96,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Table2-1.png"
+}, {
+  "caption": "Figure 11: Breakdown of theorems proven by each combination of approaches.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.642578125,
+    "y1": 612.71533203125,
+    "y2": 629.3049926757812
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 458.88,
+    "y2": 609.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure11-1.png"
+}, {
+  "caption": "Figure 3: apply H causes a wrong theorem application: “Unable to unify ‘m=n’ with ‘n=m’ ”.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6446533203125,
+    "y1": 220.53836059570312,
+    "y2": 237.12799072265625
+  },
+  "figType": "Figure",
+  "imageText": ["n,", "m:", "nat", "H:", "m", "=", "n", "===========================", "n", "=", "m"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 296.15999999999997,
+    "y1": 177.6,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure3-1.png"
+}, {
+  "caption": "Table 4: The reasons causing PALM to fail.",
+  "captionBoundary": {
+    "x1": 352.54400634765625,
+    "x2": 523.3157348632812,
+    "y1": 351.18035888671875,
+    "y2": 356.8110046386719
+  },
+  "figType": "Table",
+  "imageText": ["Reason", "#", "occurrences", "Premises", "not", "retrieved", "58", "(58%)", "Premises", "retrieved", "but", "not", "used", "14", "(14%)", "Tactics", "not", "used", "39", "(39%)"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 539.04,
+    "y1": 302.88,
+    "y2": 348.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Table4-1.png"
+}, {
+  "caption": "Table 3: Effectiveness of each PALM component.",
+  "captionBoundary": {
+    "x1": 76.17900085449219,
+    "x2": 271.36627197265625,
+    "y1": 179.07736206054688,
+    "y2": 184.7080078125
+  },
+  "figType": "Table",
+  "imageText": ["Technique", "Variant", "#", "of", "Theorems", "Proven", "PALM_𝑟𝑒", "𝑓", "4249", "(39.2%)", "PALM_𝑟𝑒𝑛𝑎𝑚𝑒", "4175", "(38.5%)", "PALM_𝑏𝑢𝑙𝑙𝑒𝑡", "4225", "(39.0%)", "PALM_𝑎𝑢𝑔", "4094", "(37.8%)", "PALM_𝑏𝑎𝑐𝑘𝑡𝑟𝑎𝑐𝑘", "702", "(6.5%)", "PALM_𝑟𝑒𝑡𝑟𝑖𝑒𝑣𝑒𝑟", "4147", "(38.2%)", "PALM", "(GPT-3.5)", "4377", "(40.4%)"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 272.15999999999997,
+    "y1": 84.96,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Table3-1.png"
+}, {
+  "caption": "Figure 13: A failure case [9] because reduceplus_cb1 is not retrieved.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1991577148438,
+    "y1": 551.3743286132812,
+    "y2": 567.9639892578125
+  },
+  "figType": "Figure",
+  "imageText": ["(*", "LLM", "generated", "proof", "*)", "intros", "a", "b", "Q", "Hred.", "induction", "Hred.", "-", "constructor.", "-", "apply", "CombLinear_1;", "auto.", "(*", "Human", "written", "proof", "*)", "intros", "a", "b", "Q", "H';", "inversion", "H';", "auto.", "apply", "reduceplus_cb1;", "auto.", "ltM", "ltM_dec", "Q", "(s2p", "A", "A0", "eqA", "n", "ltM", "a)", "b", "->", "CombLinear", "(a", "::", "Q)", "b.", "(Q", ":", "list", "(poly", "A0", "eqA", "ltM)),", "reducestar", "A", "A0", "A1", "eqA", "invA", "minusA", "multA", "divA", "eqA_dec", "n", "Theorem", "reducestar_cb1", ":", "forall", "(a", ":", "poly", "A0", "eqA", "ltM)", "(b", ":", "list", "(Term", "A", "n))"],
+  "name": "13",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 560.16,
+    "y1": 428.64,
+    "y2": 545.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure13-1.png"
+}, {
+  "caption": "Figure 4: Overview of PALM.",
+  "captionBoundary": {
+    "x1": 247.1540069580078,
+    "x2": 364.8457336425781,
+    "y1": 195.09738159179688,
+    "y2": 200.72802734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.28,
+    "y1": 82.56,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure4-1.png"
+}, {
+  "caption": "Figure 5: rewrite H2 fails with: “Found no subtermmatching ‘b’ in the current goal”.",
+  "captionBoundary": {
+    "x1": 53.117000579833984,
+    "x2": 294.03515625,
+    "y1": 267.1773376464844,
+    "y2": 283.7669982910156
+  },
+  "figType": "Figure",
+  "imageText": ["a,", "b,", "c:", "nat", "H1:", "a", "=", "b", "H2:", "b", "=", "c", "===========================", "a", "=", "c"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 296.15999999999997,
+    "y1": 216.95999999999998,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure5-1.png"
+}, {
+  "caption": "Figure 8: The correct proof found by PALM.",
+  "captionBoundary": {
+    "x1": 85.94400024414062,
+    "x2": 261.89971923828125,
+    "y1": 692.7803344726562,
+    "y2": 698.4110107421875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "Lemma", "sqr_le", ":", "forall", "a", ":", "Z,", "a", "<=", "a", "*", "a.", "2", "Proof.", "3", "intros.", "destruct", "a.", "4", "-", "reflexivity.", "5", "-", "chfcrush", "use:", "Zlt_le_succ", ",", "Pos2Z.is_pos", ",", "6", "Z.le_mul_diag_r.", "7", "-", "hfcrush.", "8", "Qed."],
+  "name": "8",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 51.36,
+    "x2": 295.2,
+    "y1": 621.6,
+    "y2": 689.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Two examples of bullet misuse.",
+  "captionBoundary": {
+    "x1": 90.55699920654297,
+    "x2": 257.27972412109375,
+    "y1": 415.79034423828125,
+    "y2": 421.4209899902344
+  },
+  "figType": "Figure",
+  "imageText": ["9", "(*", "wrong", "proof", "*)", "10", "Proof.", "11", "intros.", "induction", "n.", "12", "-", "simpl.", "13", "-", "(*", "proof", "for", "the", "inductive", "case", "*)", "14", "Qed.", "1", "Theorem", "add_comm", ":", "forall", "n", "m,", "n", "+", "m", "=", "m", "+", "n.", "2", "(*", "wrong", "proof", "*)", "3", "Proof.", "4", "intros.", "induction", "n.", "5", "-", "auto.", "6", "+", "(*", "proof", "for", "the", "inductive", "case", "*)", "7", "Qed.", "8"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 295.2,
+    "y1": 296.64,
+    "y2": 412.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure6-1.png"
+}, {
+  "caption": "Figure 7: A theorem stating 𝑎 ≤ 𝑎×𝑎 for any integer 𝑎 (Line 1), and an erroneous proof (Lines 2 to 10) produced by GPT-3.5.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.1413879394531,
+    "y1": 576.3763427734375,
+    "y2": 592.9660034179688
+  },
+  "figType": "Figure",
+  "imageText": ["1", "Lemma", "sqr_le:", "forall", "a:", "Z,", "a", "<=", "a", "*", "a.", "2", "Proof.", "3", "intros.", "destruct", "a.", "4", "-", "reflexivity.", "5", "-", "induction", "p.", "6", "+", "simpl.", "ring.", "7", "+", "apply", "Z_le_dec.", "8", "+", "apply", "Z.le_refl.", "9", "-", "apply", "Z.eq_le_incl.", "10", "Qed."],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 295.2,
+    "y1": 488.64,
+    "y2": 573.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695521-Figure7-1.png"
+}]

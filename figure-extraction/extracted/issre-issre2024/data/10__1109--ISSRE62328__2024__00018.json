@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 4. An overview of TRACNE. TRACNE has a search engine and a semantic-based tracer. Steps 1-4 show the steps for matching two graphs and isolating deviations in the graphs. # Parameters denotes the number of one function’s parameter. Step 3(i) shows that functions with special constants can be identified early. Step 4(i) unifies the data layout for making comparisons.",
+  "captionBoundary": {
+    "x1": 59.452598571777344,
+    "x2": 542.6749267578125,
+    "y1": 301.0398864746094,
+    "y2": 322.4097900390625
+  },
+  "figType": "Figure",
+  "imageText": ["f2", "False", "Step", "2", "Hashing", "Key", "technique", "distance<ϵ(n)", "(ii)", "hash", "①", "Search", "Engine", "Deviation", "Yes", "No", "Input", "Sampler", "diff>tolerance?", "(i)", "differential", "evolution(ii)", "mutation", "(i)", "hierarchical", "encoding", "=", "encoding", "of", "hash(f1)", "+", "encoding", "of", "+", "hash(f2)", "Issue", "report", "unopt", "exe", "opt", "exe", "f2:", "...", "pass", "erroneous", "structure", "δ_1=", "0.01", "δ_2", "=", "0.3", "data1", "nchw", "data2", "nhwc", "True", "equivalent", "hash(f1)", "hash(g1)", "#", "Parameters", "Unique", "const", "(ii)", "comparing", "hash", "values", "(i)", "using", "anchors(i)", "layout", "adaption(ii)", "deviation", "graph", "(iii)", "root", "cause", "isolation", "(iii)", "characteristics", "capturing", "g2:", "nhwc", "2,64,64,3", "g1:", "nhwc", "2,28,28,3", "f1:", "nchw", "2,3,28,28", "f3:", "nchw", "2,3,64,64", "representation", "(ii)", "data", "abstraction", "②Tracer：Step1", "Profiling", "(i)", "semantic", "Step", "3", "MatchingStep", "4", "Tracing", "Model"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 543.36,
+    "y1": 72.96,
+    "y2": 280.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-Figure4-1.png"
+}, {
+  "caption": "Table III. Summary of 9 industrial models. The transformer in the benchmark has 6 layers of encoders.",
+  "captionBoundary": {
+    "x1": 326.5924987792969,
+    "x2": 531.1563720703125,
+    "y1": 427.90838623046875,
+    "y2": 440.8511962890625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Model", "description", "Size", "(MB)", "#Operators", "Transformer(6)", "PyTorch", "97", "928", "MobileNetv2", "prune", "pruned,", "ONNX", "14", "212", "ResNet18", "PyTorch", "46", "475", "ResNet34", "PyTorch", "84", "851", "ResNet50", "PyTorch", "99", "1235", "oBERTa", "s", "qa", "quantized,", "ONNX", "81", "511", "oBERTa", "s", "mask", "quantized,", "ONNX", "211", "693", "oBERTa", "m", "qa", "quantized,", "ONNX", "121", "966", "YOLOv8", "quantized,", "ONNX", "25", "1969"],
+  "name": "III",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 541.4399999999999,
+    "y1": 451.68,
+    "y2": 538.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableIII-1.png"
+}, {
+  "caption": "Table II. Summary of 60 synthesis DL models. Model depth equals the number of layers in the model.",
+  "captionBoundary": {
+    "x1": 318.61627197265625,
+    "x2": 539.130126953125,
+    "y1": 348.2175598144531,
+    "y2": 361.159423828125
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Description", "P1-P5", "Small", "models", "with", "input", "seeds", "P6-P15", "Expanding", "tensor", "sizes", "for", "P1-P5", "P16-P30", "Lengthening", "model", "depths", "for", "P1-P5", "P30-P60", "Randomizing", "sizes,", "types,", "and", "operators,", "depths", "of", "10,", "30,", "and", "50"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 540.0,
+    "y1": 372.0,
+    "y2": 412.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableII-1.png"
+}, {
+  "caption": "Fig. 1. Compile-introduced deviation changes the result of the Yolov8 model. Here the optimized model fails to recognize the person in the picture.",
+  "captionBoundary": {
+    "x1": 60.3380012512207,
+    "x2": 296.3297119140625,
+    "y1": 192.0507049560547,
+    "y2": 204.9925537109375
+  },
+  "figType": "Figure",
+  "imageText": ["optimize", "exe", "only", "compile", "RESULT:", "1", "Motorcycle", "exe", "prediction", "Input", "！Incomplete", "RESULT:", "1", "Person", "2", "Motorcycle", "DL", "frameworks ", " ", " ", " DL", "compilers", "...", "add", "cast", "conv2d", "Model"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 292.32,
+    "y1": 72.0,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. The compiler-introduced errors in industrial models. The right four are quantized ONNX models. The tolerances are defined using the distances between the top 100 classes.",
+  "captionBoundary": {
+    "x1": 315.5541076660156,
+    "x2": 551.5460815429688,
+    "y1": 184.7402801513672,
+    "y2": 206.111083984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 549.12,
+    "y1": 68.64,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. Mean relative deviations under different configurations for seven models. The red one represents MEGA.",
+  "captionBoundary": {
+    "x1": 315.5541076660156,
+    "x2": 551.546142578125,
+    "y1": 319.0164794921875,
+    "y2": 331.9583435058594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 553.4399999999999,
+    "y1": 219.84,
+    "y2": 307.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-Figure6-1.png"
+}, {
+  "caption": "Table IV. Number and magnitude of the detected deviations. #total denotes the number of all deviations to be detected. #intolerant denotes the number of intolerant deviations to be detected.",
+  "captionBoundary": {
+    "x1": 60.93626022338867,
+    "x2": 293.29437255859375,
+    "y1": 75.12010192871094,
+    "y2": 96.49090576171875
+  },
+  "figType": "Table",
+  "imageText": ["#total", "#intolerant", "average", "deviation", "MCMC", "21", "5", "1.19E-03", "DEMC", "10", "3", "3.52E-03", "MEGA", "69", "33", "1.39E-01"],
+  "name": "IV",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 262.08,
+    "y1": 105.6,
+    "y2": 142.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableIV-1.png"
+}, {
+  "caption": "Table IX. A summary of the main deviation-triggering patterns. Frequency refers to the patterns’ occurrence rate in randomly generated models. Enh means the repair method by enhancing scope precision, and Disa the repair method by disabling the related pass.",
+  "captionBoundary": {
+    "x1": 64.0593032836914,
+    "x2": 537.8134765625,
+    "y1": 73.97019958496094,
+    "y2": 86.9129638671875
+  },
+  "figType": "Table",
+  "imageText": ["Pattern(b)", "Pattern(c)", "Pattern(d)", "Pattern(e)", "Pattern(f)", "pass", "pass", "pass", "multiply", "c2", "rsqrt", "x", "divide", "c2sqrt", "x", "x", "multiply", "c1", "add", "c2", "add", "c1", "multiply", "x", "c2multiply", "x", "c3", "add", "x", "c1", "add", "c2add", "x", "p2", "conv3d", "multiply", "relu", "w", "x", "pass", "p1", "conv3d", "wrelu", "multiply", "x", "pass", "p2", "p4", "w", "mul", "add_relu", "dense", "xmultiply", "p3", "w", "relu", "mulitply", "add", "p3", "p2dense", "x", "x", "fast_exp/tanh/softmax", "Pattern(a)", "pass", "x", "exp/tanh/softmax", "Root", "cause", "Example", "pattern", "Description", "Related", "Pass", "Known", "deviation", "Frequency", "Fixed", "approach", "RC1", "Pattern", "(a)", "approximation", "FastMath", "2.1E-07", "76.7%", "Enh/Disa", "RC2", "Pattern", "(b)", "forward", "axis", "folding", "ForwardFoldScaleAxis", "2.2E-02", "6.7%", "Enh/Disa", "RC3", "Pattern", "(c)", "backward", "axis", "folding", "BackwardFoldScaleAxis", "8.7E-03", "3.3%", "Enh/Disa", "RC4", "Pattern", "(d)", "distributive", "law", "SimplifyExpr", "1.9E-05", "3.3%", "Disa", "RC5", "Pattern", "(e)", "associative", "law", "SimplifyExpr", "2.5E-04", "13.3%", "Disa", "RC6", "Pattern", "(f)", "sqrt", "conversion", "SimplifyExpr", "5.6E-08", "60.0%", "Enh/Disa"],
+  "name": "IX",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 529.4399999999999,
+    "y1": 97.92,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableIX-1.png"
+}, {
+  "caption": "Table VII. Number and accuracy of the root causes. #Models denotes the number of models on which the methods can apply. #RC denotes the number of the isolated root causes.",
+  "captionBoundary": {
+    "x1": 318.85791015625,
+    "x2": 545.4625244140625,
+    "y1": 166.72605895996094,
+    "y2": 188.09686279296875
+  },
+  "figType": "Table",
+  "imageText": ["#Models", "#RC", "#Valid", "RC", "Acc.", "CRADLE", "4", "4", "4", "100%", "PLiner", "54", "54", "42", "78%", "TRACNE", "69", "98", "98", "100%"],
+  "name": "VII",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 519.36,
+    "y1": 197.76,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableVII-1.png"
+}, {
+  "caption": "Table VIII. Locating time spent by PLiner and the SEM algorithm.",
+  "captionBoundary": {
+    "x1": 327.1061096191406,
+    "x2": 537.2138061523438,
+    "y1": 249.6453094482422,
+    "y2": 254.15911865234375
+  },
+  "figType": "Table",
+  "imageText": ["TRACNE’s", "tracer", "is", "more", "suitable", "than", "delta-debugging", "and", "other", "methods", "when", "isolating", "compiler-introduced", "deviations.", "Model", "depth", "TPLiner(s)", "TSEM(s)", "Speedup↑", "P2", "3", "11.58", "5.59", "2.07", "P7", "3", "20.03", "9.08", "2.20", "P12", "3", "15.64", "5.26", "2.97", "P31", "9", "25.2", "5.30", "4.75", "P35", "9", "14.64", "6.10", "2.39", "P37", "9", "20.16", "3.68", "5.47", "P17", "16", "101.95", "5.46", "18.66"],
+  "name": "VIII",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.56,
+    "y1": 264.96,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableVIII-1.png"
+}, {
+  "caption": "Table VI. Time usage for revealing deviations.",
+  "captionBoundary": {
+    "x1": 105.73829650878906,
+    "x2": 249.11627197265625,
+    "y1": 166.7261199951172,
+    "y2": 171.23992919921875
+  },
+  "figType": "Table",
+  "imageText": ["ID", "δMEGA", "δDEMC", "δMCMC", "Trefer(s)", "TMEGA(s)", "↑", "P38", "9.7E-4", "0.0E+0", "1.3E-3", "16.3", "13.2", "1.2", "P42", "7.6E-1", "0.0E+0", "4.2E-1", "100.8", "41.7", "2.4", "P47", "2.6E-5", "0.0E+0", "6.6E-5", "74.2", "18.1", "4.1", "P49", "5.3E-4", "0.0E+0", "5.6E-4", "20.1", "15.6", "1.3"],
+  "name": "VI",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 279.36,
+    "y1": 181.92,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableVI-1.png"
+}, {
+  "caption": "Table V. Comparisons among the metrics. F indicates an overestimated deviation. N indicates an under-estimated deviation. The bold font means that the model inference is changed by the deviation.",
+  "captionBoundary": {
+    "x1": 63.02840042114258,
+    "x2": 539.0585327148438,
+    "y1": 73.75248718261719,
+    "y2": 86.69525146484375
+  },
+  "figType": "Table",
+  "imageText": ["Metrics", "Transformer", "MobileNetv2", "ResNet18", "ResNet34", "ResNet50", "oBERTasqa", "oBERTasm", "oBERTaqa", "YOLOv8", "MAE", "4.162E-07", "2.061E-06", "1.820E-06", "1.900E-06", "1.333E-06", "8.720E-05N", "2.320E-04N", "8.520E-04N", "6.910E-04N", "MRE", "4.204E-02", "3.781E-02", "1.448E-01F", "1.945E-01F", "1.181E-01F", "7.500E-01", "8.249E+00", "3.094E+00", "1.105E+01", "wMRE", "8.577E-05", "4.819E-06", "6.267E-06", "2.452E-06", "1.813E-06", "6.455E-03", "2.670E-01", "1.543E-01", "7.685E-01"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 537.12,
+    "y1": 97.92,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-TableV-1.png"
+}, {
+  "caption": "Fig. 3. Example of using different metrics in calculating deviations.",
+  "captionBoundary": {
+    "x1": 70.22810363769531,
+    "x2": 281.8938903808594,
+    "y1": 190.50218200683594,
+    "y2": 195.0159912109375
+  },
+  "figType": "Figure",
+  "imageText": ["#", "max", "absolute", "error", ": ", "7.20e-3", "#", "max", "absolute", "error", ": ", " ", "0.230", "Case", "3", "1", "2", "3", "4", "5", "...", "#", "out1:[1.49e-3,8.52e-4,2.54e-4]", "#", "out5:[2.21e-3,6.91e-4,1.91e-5]", "#", "mean", "absolute", "error: ", "3.71e-4", "Case", "2", "1", "2", "3", "4", "5", "6", "model ", "=", "Scientific1(layers=50)", "...", "#", "out1: ", " ", " [", "15.6,", "9.54,", "3.40]", "#", "out5: ", " ", " [", "15.5,", "9.31,", "3.40]", "#", "mean", "absolute", "error: ", " ", "0.110", "#", "max", "relative", "error ", ":", "61.2", "Case", "1", "1", "2", "3", "6", "7", "8", "9", "10", "11", "12", "13", "14", "model", "=", "ResNet(layers=50)", "gmod0", "=", "build_mod(mod,", "0)", "gmod5", "=", "build_mod(mod,", "5)", "out0 ", "=", "gmod0(input)", "out5 ", "=", "gmod5(input)", "mre ", " =", "np.abs(out0-out5)/out5", "re ", " ", "=", "np.max(np.abs(out0-out5) ", " ", " ", " ", " ", "/out5)", "#", "out1:", "[...0.023,", "4.16e-7,", "...]", "#", "out5:", "[...0.024,", "2.55e-5,", "...]", "#", "mean", "relative", "error", ":", "0.0302"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 278.4,
+    "y1": 72.0,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00018-Figure3-1.png"
+}]

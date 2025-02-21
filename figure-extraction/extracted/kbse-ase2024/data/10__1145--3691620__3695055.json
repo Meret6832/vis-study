@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Example of understanding contracts",
+  "captionBoundary": {
+    "x1": 81.53199768066406,
+    "x2": 266.30328369140625,
+    "y1": 297.8988952636719,
+    "y2": 299.97900390625
+  },
+  "figType": "Figure",
+  "imageText": ["User:", "LLM:", "5.", "The", "'collectedFees'", "are", "sent", "to", "the", "`owner`", "of", "the", "contract.", "4.", "The", "contract", "then", "attempts", "to", "distribute", "returns", "to", "earlier", "investors", "by", "sending", "them", "125%", "of", "their", "initial", "investment.", "This", "is", "done", "by", "iterating", "through", "the", "list", "of", "`persons`", "and", "sending", "them", "the", "returns", "if", "the", "contract's", "balance", "allows", "it.", "3.", "When", "a", "new", "user", "enters", "the", "contract", "and", "sends", "Ether,", "a", "portion", "of", "the", "Ether", "(10%)", "is", "collected", "as", "fees,", "and", "the", "remaining", "amount", "is", "added", "to", "the", "contract's", "balance.", "2.", "The", "contract", "maintains", "a", "list", "of", "'persons'", "with", "their", "Ether", "addresses", "and", "the", "amount", "of", "Ether", "they", "have", "contributed.", "1.", "The", "'enter'", "function", "allows", "users", "to", "send", "Ether", "to", "the", "contract.", "If", "the", "sent", "value", "is", "less", "than", "0.01", "Ether,", "the", "sender's", "Ether", "is", "returned.", "If", "the", "sent", "value", "is", "greater", "than", "10", "Ether,", "the", "excess", "amount", "above", "10", "Ether", "is", "returned", "to", "the", "sender,", "and", "only", "10", "Ether", "is", "considered", "for", "further", "processing.", "Based", "on", "the", "provided", "code", "snippet", "and", "the", "graph", "of", "the", "propagation", "of", "Ether,", "it", "appears", "that", "the", "smart", "contract", "is", "implementing", "a", "Ponzi", "scheme.", "Here's", "the", "analysis", "of", "the", "business", "model", "of", "the", "contract:", "Here", "is", "a", "smart", "contract's", "code", "snippet,", "telling", "the", "purpose", "of", "each", "functions.", "{code}", "A", "Ponzi", "scheme", "is", "a", "fraudulent", "investment", "scam", "that", "promises", "high", "returns", "with", "little", "or", "no", "risk", "to", "investors.", "It", "generates", "returns", "for", "earlier", "investors", "through", "revenue", "paid", "by", "new", "investors,", "rather", "than", "from", "legitimate", "business", "activities", "or", "profit", "of", "financial", "trading.", "Ponzi", "schemes", "typically", "collapse", "when", "the", "flow", "of", "new", "investors", "dries", "up,", "and", "the", "operator", "is", "unable", "to", "pay", "returns", "to", "earlier", "investors."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 83.52,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Example of analyzing taint propagation graph",
+  "captionBoundary": {
+    "x1": 61.470001220703125,
+    "x2": 286.36407470703125,
+    "y1": 445.4089050292969,
+    "y2": 447.489013671875
+  },
+  "figType": "Figure",
+  "imageText": ["LLM:", "User:", "Based", "on", "this", "analysis,", "the", "contract", "exhibits", "the", "characteristics", "of", "a", "Ponzi", "scheme", "and", "should", "be", "avoided", "as", "it", "poses", "a", "high", "risk", "of", "financial", "loss", "for", "investors.", "The", "propagation", "of", "Ether", "in", "the", "graph", "shows", "that", "the", "contract", "is", "designed", "to", "collect", "Ether", "from", "new", "investors,", "distribute", "a", "portion", "of", "it", "to", "earlier", "investors", "as", "returns,", "and", "send", "the", "collected", "fees", "to", "the", "owner.", "This", "financial", "model", "aligns", "with", "the", "characteristics", "of", "a", "Ponzi", "scheme,", "where", "returns", "for", "earlier", "investors", "are", "generated", "through", "revenue", "paid", "by", "new", "investors,", "rather", "than", "from", "legitimate", "business", "activities", "or", "profit.", "Regard", "Ether", "transferred", "to", "this", "contract", "as", "taint", "variable.", "The", "propagation", "of", "taint", "shows", "if", "the", "contract", "generates", "returns", "for", "earlier", "investors", "through", "revenue", "paid", "by", "new", "investors.", "A", "graph", "of", "the", "propagation", "of", "Ether", "is", "extracted", "from", "the", "code:", "{graph}.", "Analyze", "the", "graph,", "telling", "the", "financial", "model", "of", "the", "contract."],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 318.71999999999997,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Example of detection results by LLM",
+  "captionBoundary": {
+    "x1": 80.9540023803711,
+    "x2": 266.8818664550781,
+    "y1": 548.2828979492188,
+    "y2": 550.363037109375
+  },
+  "figType": "Figure",
+  "imageText": ["{'decision':", "true}", "LLM:", "User:", "Next,", "determine", "if", "it", "is", "a", "Ponzi", "contract", "or", "not", "in", "the", "format:", "(answer", "'true'", "or", "'false'", "with", "json:", "{'decision':", "answer})"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 101.75999999999999,
+    "x2": 246.23999999999998,
+    "y1": 466.56,
+    "y2": 531.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure6-1.png"
+}, {
+  "caption": "Table 1: Performance of PonziSleuth under different LLMs",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1986083984375,
+    "y1": 573.9838256835938,
+    "y2": 576.06396484375
+  },
+  "figType": "Table",
+  "imageText": ["Model", "TPR", "TNR", "FNR", "FPR", "BAC", "GPT-3.5-turbo", "96.40%", "95.71%", "3.60%", "4.29%", "96.06%", "LLAMA2", "79.14%", "86.02%", "20.86%", "13.98%", "82.58%", "LLAMA3", "95.68%", "92.14%", "4.32%", "7.86%", "93.91%", "Mistral", "95.68%", "92.86%", "4.32%", "7.14%", "94.27%"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 547.1999999999999,
+    "y1": 590.88,
+    "y2": 643.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Table1-1.png"
+}, {
+  "caption": "Figure 1: Illustration of payout mechanism in Ponzi contract",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19140625,
+    "y1": 701.9798583984375,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 576.9599999999999,
+    "y2": 685.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure1-1.png"
+}, {
+  "caption": "Table 3: Performance of PonziSleuthwithout taint analysis",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1996459960938,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-3.5-turbo", "94.24%", "94.29%", "5.76%", "5.71%", "94.27%", "LLAMA2", "100%", "15.63%", "0%", "84.37%", "57.82%", "LLAMA3", "97.12%", "60.71%", "2.88%", "39.29%", "78.92%", "Mistral", "93.53%", "79.29%", "6.47%", "20.71%", "86.41%", "Model", "TPR", "TNR", "FNR", "FPR", "BAC"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 545.28,
+    "y1": 105.6,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Table3-1.png"
+}, {
+  "caption": "Figure 8: Taint propagation graph of contract 0x96..f27",
+  "captionBoundary": {
+    "x1": 327.4830017089844,
+    "x2": 548.6651611328125,
+    "y1": 189.10189819335938,
+    "y2": 191.1820068359375
+  },
+  "figType": "Figure",
+  "imageText": ["addresses,", "which", "could", "be", "indicative", "of", "unsustainable", "payout", "structures.", "2.", "The", "recoverERC20", "and", "recoverETH", "functions", "allow", "the", "owner", "to", "re-", "cover", "tokens", "and", "ETH", "from", "the", "contract,", "potentially", "indicating", "a", "dependency", "on", "new", "investments", "to", "sustain", "payouts.", "3.", "The", "presence", "of", "buy", "and", "sell", "tax", "fees,", "as", "well", "as", "the", "requirement", "for", "trading", "to", "be", "en-", "abled,", "could", "suggest", "a", "reliance", "on", "new", "investors", "to", "generate", "returns", "for", "existing", "participants.", "4.", "The", "lack", "of", "clear", "revenue-generating", "activities", "or", "legitimate", "investment", "strategies", "raises", "concerns", "about", "the", "source", "of", "potential", "returns", "for", "investors.", "Based", "on", "the", "analysis", "of", "the", "provided", "smart", "contract", "code,", "there", "are", "indications", "that", "it", "exhibits", "features", "and", "patterns", "consistent", "with", "a", "Ponzi", "scheme.", "It", "is", "important", "to", "conduct", "a", "thorough", "review", "of", "the", "entire", "smart", "contract", "and", "its", "associated", "documentation", "to", "fully", "assess", "its", "nature", "and", "potential", "risks.", "funneling,", "but", "they", "do", "not", "inherently", "indicate", "a", "Ponzi", "scheme", "with-", "out", "the", "context", "of", "paying", "returns", "with", "new", "investor", "funds.", "The", "presence", "of", "tax", "fees", "and", "trading", "requirements", "may", "suggest", "reliance", "on", "new", "investors,", "but", "these", "features", "can", "also", "be", "legitimate.", "The", "taint", "analysis", "failed", "to", "identify", "Ether", "reallocation", "consistent", "with", "Ponzi", "schemes,", "resulting", "in", "a", "false", "positive.", "The", "detected", "results", "by", "PonziSleuth", "is", "given", "as", "follows:", "Based", "on", "the", "provided", "smart", "contract", "code,", "there", "are", "several", "concerning", "elements", "that", "align", "with", "the", "features", "and", "patterns", "of", "a", "Ponzi", "scheme:", "1.", "The", "sendETHToINTEL", "function", "appears", "to", "distribute", "ETH", "to", "specific"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 563.04,
+    "y1": 217.44,
+    "y2": 457.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure8-1.png"
+}, {
+  "caption": "Figure 2: Workflow of PonziSleuth",
+  "captionBoundary": {
+    "x1": 232.29600524902344,
+    "x2": 379.7010498046875,
+    "y1": 205.77890014648438,
+    "y2": 207.8590087890625
+  },
+  "figType": "Figure",
+  "imageText": ["LLM-driven", "ponzi", "detection", "AST", "and", "IR", "generation", "Taint", "analysis", "and", "slicing", "Report", "LLM", "detector", "Zero-shot", "chain-of-", "thought", "prompter", "Contract", "slice", "Interface", "IERC20{", "event", "Transfer(address", "from,..", "//", "SPDX-License-Identifier:", "MIT", "pragma", "solidity", "^0.8.0;", "Taint", "propagation", "graph", "Static", "program", "slice", "Static", "taint", "analyze", "AST", "Contract", "object", "API", "Compiler", "Source", "code"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 557.28,
+    "y1": 85.44,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure2-1.png"
+}, {
+  "caption": "Table 8: Overhead of PonziSleuth",
+  "captionBoundary": {
+    "x1": 102.84100341796875,
+    "x2": 244.7040252685547,
+    "y1": 252.17691040039062,
+    "y2": 254.25701904296875
+  },
+  "figType": "Table",
+  "imageText": ["GPT-3.5-turbo", "5.52/8.64", "2601.3", "0.0027", "LLAMA2", "7.85/127.16", "n.a", "n.a", "LLAMA3", "9.68/20.01", "n.a", "n.a", "Mistral", "7.71/29.97", "n.a", "n.a", "Model", "Mean/std", "time(s)", "Mean", "tokens", "Mean", "cost($)"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 268.8,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Table8-1.png"
+}, {
+  "caption": "Table 9: Overhead of PonziSleuth without taint analysis",
+  "captionBoundary": {
+    "x1": 57.20199966430664,
+    "x2": 290.34136962890625,
+    "y1": 492.6248779296875,
+    "y2": 494.7049865722656
+  },
+  "figType": "Table",
+  "imageText": ["9", "10", "11", "12", "13", "14", "15", "6", "7", "8", "GPT-3.5-turbo", "1.52/0.87", "1753.6", "0.0012", "LLAMA2", "1.21", "n.a", "n.a", "LLAMA3", "5.88/22.42", "n.a", "n.a", "Mistral", "1.61/1.16", "n.a", "n.a", "Model", "Mean/std", "time(s)", "Mean", "tokens", "Mean", "cost($)"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 314.4,
+    "y1": 494.4,
+    "y2": 581.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Table9-1.png"
+}, {
+  "caption": "Figure 7: Distribution of overhead under GPT-3.5-turbo (a,e,f), LLAMA2 (b), LLAMA3 (c), Mistral (d)",
+  "captionBoundary": {
+    "x1": 105.26998901367188,
+    "x2": 506.7132873535156,
+    "y1": 189.24490356445312,
+    "y2": 191.32501220703125
+  },
+  "figType": "Figure",
+  "imageText": ["(f)", "GPT-3.5-turbo", "token", "t", "Co", "un", "300", "200", "100", "0", "0", "5000", "10000", "15000", "#", "Token", "(e)", "GPT-3.5-turbo", "cost", "t", "Co", "un", "300", "200", "100", "0", "0.00", "0.01", "0.02", "Cost", "($)", "(d)", "Mistral", "time", "t", "Co", "un", "600", "400", "200", "0", "10", "20", "30", "40", "50", "Time", "(s)", "(c)", "LLAMA3", "time", "t", "Co", "un", "200", "150", "100", "50", "0", "5", "10", "15", "20", "25", "Time", "(s)", "(b)", "LLAMA2", "time", "t", "Co", "un", "1200", "800", "400", "0", "0", "50", "100", "150", "200", "Time", "(s)", "(a)", "GPT-3.5-turbo", "time", "t", "Co", "un", "600", "400", "200", "0", "10", "20", "30", "40", "50", "Time", "(s)"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 567.36,
+    "y1": 92.64,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Example of contract 0x2a...1e9’s taint propagation",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1878051757812,
+    "y1": 384.0058898925781,
+    "y2": 386.08599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["persons[idx].amount", "balance", "amount", "msg.value", "persons[idx].etherAddress", "msg.sender", "owner"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 309.59999999999997,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695055-Figure3-1.png"
+}]

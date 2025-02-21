@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 1: Typical examples of runtime type errors in Python",
+  "captionBoundary": {
+    "x1": 184.10195922851562,
+    "x2": 427.88739013671875,
+    "y1": 161.45584106445312,
+    "y2": 163.53594970703125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Cython", "exception", "1", "a.add('1',", "'2')", "Python", "1", "def", "add(x,", "y):", "#", "TypeError", "2", "cdef", "int", "ret", "=", "x", "+", "y", "Cython", "(c)", "User-defined", "exception", "1", "a", "=", "int_or_str()", "2", "3", "if", "isinstance(a,", "int):", "4", "#", "TypeError", "5", "raise", "TypeError", "(b)", "External", "exception", "1", "import", "numpy", "as", "np", "2", "3", "v", "=", "[1,", "None]", "4", "#", "TypeError", "5", "w", "=", "np.sort(v)", "(a)", "Internal", "exception", "1", "a", "=", "1", "2", "b", "=", "'2'", "3", "4", "#", "TypeError", "5", "a", "+", "b"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 65.28,
+    "x2": 540.48,
+    "y1": 87.84,
+    "y2": 151.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure1-1.png"
+}, {
+  "caption": "Figure 3: Typing rule for expressions. The function op(𝑇1,𝑇2) computes the result type of operation between two types, Exist(𝑐,𝑚) checks the existence of method𝑚 in the class 𝑐, and Elem(^) returns the set of element types in the list ^.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.2835693359375,
+    "y1": 172.11691284179688,
+    "y2": 185.156005859375
+  },
+  "figType": "Figure",
+  "imageText": ["Γ,", "Σ", "⊢𝑘", "𝑥", ".𝑚(𝑦)", ":", "𝑇,", "Σ′", "Exist(𝑐,𝑚)", "Γ(𝑥)", "=", "𝑇𝑥", "Γ(𝑦)", "=", "𝑇𝑦", "⊔", "𝑐∈𝑇𝑥", "Call(Σ,𝑚,𝑇𝑦,", "𝑘)", "=", "𝑇,", "Σ′", "Γ,", "Σ", "⊢𝑘", "𝐸1", ":", "𝑇1,", "Σ1", "Γ,", "Σ1", "⊢𝑘", "𝐸2", ":", "𝑇2,", "Σ2", "Γ,", "Σ", "⊢𝑘", "𝐸1", "⊕", "𝐸2", ":", "op(𝑇1,𝑇2),", "Σ2", "Γ(𝑥)", "=", "𝑇𝑥", "Γ(𝑦)", "=", "𝑇𝑦", "Γ,", "Σ", "⊢𝑘", "𝑥{𝑦}", ":", "⋃𝛾", "∈𝑇𝑥", "⋃", "𝑡𝑦", "∈𝑇𝑦", "𝛾", "[𝑡𝑦],", "Σ", "^∈𝑇𝑥", "Elem(^)", "Γ,", "Σ", "⊢𝑘", "𝑥", "[𝑛]", ":", "𝑇", "′,", "Σ", "Γ(𝑥)", "=", "𝑇𝑥", "𝑇", "′", "=", "⋃", "𝑐∈𝑇", "Σ((𝑐,𝑦))", "Γ,", "Σ", "⊢𝑘", "𝑥", ".𝑦", ":", "𝑇,", "Σ", "Γ,", "Σ", "⊢𝑘", "𝑛", ":", "{int},", "Σ", "Γ,", "Σ", "⊢𝑘", "𝑠", ":", "{str},", "Σ", "Γ,", "Σ", "⊢𝑘", "𝑥", ":", "Γ(𝑥),", "Σ", "Γ,", "Σ", "⊢𝑘", "𝑐", "()", ":", "{𝑐},", "Σ", "Γ,", "Σ", "⊢𝑘", "[]", ":", "⟨⟩,", "Σ", "Γ,", "Σ", "⊢𝑘", "{}", ":", "[],", "Σ", "Γ(𝑥)", "=", "𝑇𝑥", "𝑇", "=", "⋃"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 525.12,
+    "y1": 84.96,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Examples of false negatives required advanced type",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0345764160156,
+    "y1": 300.31689453125,
+    "y2": 302.3970031738281
+  },
+  "figType": "Figure",
+  "imageText": ["trivial", "type", "inference", "for", "a", "vari-", "able", "y.", "(b)", "Example", "that", "requires", "non-", "1", "def", "f(x:", "int,", "y):", "2", "#", "y:", "Optional[int]", "3", "if", "x", ">", "0:", "4", "if", "y", "is", "None:", "5", "y", "=", "0", "6", "#", "TypeError", "7", "return", "x+y", "for", "a", "method", "call.", "value", "of", "dictionary", "unpacking", "(a)", "Example", "that", "requires", "the", "1", "def", "f(x=1,", "y=1):", "2", "pass", "3", "4", "a", "=", "{'c':", "1,", "'d':", "2}", "5", "6", "#", "TypeError", "7", "f(**a)", "#", "f(c=1,", "d=1)"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 291.36,
+    "y1": 201.6,
+    "y2": 288.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Examples of false negatives due to unknown exter-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.637939453125,
+    "y1": 176.39987182617188,
+    "y2": 178.47998046875
+  },
+  "figType": "Figure",
+  "imageText": ["content", "of", "the", "external", "input", "conf.json.", "(b)", "Example", "that", "requires", "the", "1", "#", "conf.json", ":", "{'a':", "1}", "2", "f", "=", "open(\"conf.json\")", "3", "conf_dict", "=", "json.loads(f)", "4", "#", "TypeError:", "dict", "+", "list", "5", "conf_dict", "+", "[1]", "return", "type", "of", "external", "func-", "tion", "ext.f().", "(a)", "Example", "that", "requires", "the", "1", "import", "ext", "2", "#", "ext", "is", "an", "external", "lib", "3", "#", "ext.f", "returns", "a", "string", "4", "x", "=", "e.f()", "5", "x+1", "#", "TypeError:", "str+int"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 289.92,
+    "y1": 92.16,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure7-1.png"
+}, {
+  "caption": "Figure 9: False positive examples",
+  "captionBoundary": {
+    "x1": 107.52099609375,
+    "x2": 240.3163604736328,
+    "y1": 429.36590576171875,
+    "y2": 431.4460144042969
+  },
+  "figType": "Figure",
+  "imageText": ["analysis.", "5", "due", "to", "the", "limitation", "of", "type", "(b)", "False", "alarm", "at", "lines", "3", "and", "1", "def", "f(x,", "y):", "2", "#", "False", "Alarm", "3", "if", "x", ">", "0:", "y+1", "4", "#", "False", "Alarm", "5", "else:", "y+'1'", "6", "f(1,", "1)", "7", "f(-1,", "'1')", "magic", "methods.", "to", "the", "limitation", "of", "modeling", "(a)", "False", "alarm", "at", "line", "7", "due", "1", "class", "Symbol:", "2", "def", "__radd__(", "3", "self,", "x", "4", "):", "return", "x+1", "5", "#", "False", "Alarm", "6", "#", "int.__add__(1,", "Symbol)", "7", "1+Symbol()", "inference."],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 286.08,
+    "y1": 306.71999999999997,
+    "y2": 419.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure9-1.png"
+}, {
+  "caption": "Figure 2: Call depth required to detect type errors.",
+  "captionBoundary": {
+    "x1": 336.63299560546875,
+    "x2": 539.515625,
+    "y1": 171.22891235351562,
+    "y2": 173.30902099609375
+  },
+  "figType": "Figure",
+  "imageText": ["gs", "d", "Bu", "ec", "te", "D", "et", "#", "of", "20", "15", "10", "5", "0", "1", "2", "3", "4", "5", "6", "Call", "Depth"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 355.68,
+    "x2": 519.36,
+    "y1": 76.8,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Venn Diagram of the number of detected bugs by",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4403686523438,
+    "y1": 233.75888061523438,
+    "y2": 235.8389892578125
+  },
+  "figType": "Figure",
+  "imageText": ["Pyinder", "(34)", "Pyright", "(15)", "Pytype", "(1)", "Pyre", "(4)", "18", "Mypy", "(6)", "0", "0", "3", "0", "0", "1", "1", "0", "1", "0", "1", "0", "0", "0", "9"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 355.68,
+    "x2": 515.04,
+    "y1": 88.8,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Ablation study results.",
+  "captionBoundary": {
+    "x1": 109.2969970703125,
+    "x2": 238.5418243408203,
+    "y1": 374.3968811035156,
+    "y2": 376.47698974609375
+  },
+  "figType": "Figure",
+  "imageText": ["Avg.", "Time", "(s)", "Avg.", "#", "of", "Alarm", "#", "Detected", "Bugs", "ug", "s", "ed", "B", "te", "ct", "#", "De", "42", "36", "30", "24", "18", "12", "6", "ur", "s", "to", "O", "Ra", "tio", "3.0", "2.5", "2.0", "1.5", "1.0", "0.5", "0.0", "Ours", "V1", "V2", "V3", "V4", "V5", "V6", "V7", "V8", "V9", "Variants", "V1", "Merging", "into", "Any", "at", "control", "flow", "merge", "points", "V2", "Merging", "into", "Any", "in", "collections", "V3", "Merging", "dictionaries", "in", "a", "key-type-insensitive", "manner", "V4", "Deep", "call", "depths", "(up", "to", "6)", "V5", "Context-insensitive", "analysis", "V6", "No", "usage-based", "type", "inference", "V7", "Usage-based", "type", "inference", "without", "scoring", "V8", "Only", "considering", "member", "types", "in", "__init__", "method", "V9", "No", "filtering", "out", "unintended", "types"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 289.44,
+    "y1": 118.56,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The examples of bugs exclusively detected by Pyin-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.642578125,
+    "y1": 538.6908569335938,
+    "y2": 540.77099609375
+  },
+  "figType": "Figure",
+  "imageText": ["from", "langchain-1).", "alarm", "occurs", "at", "line", "6", "(Simplified", "rect", "type", "annotation,", "a", "type", "error", "ago.", "As", "a", "result", "of", "the", "incor-", "notation", "introduced", "four", "years", "(b)", "Example", "of", "incorrect", "type", "an-", "1", "@property", "2", "def", "secret(self)", "->", "str", "3", "def", "decrypt(s,", "h):", "4", "#", "TypeError:", "str+bytes", "5", "d", "=", "s", "+", "h", "6", "7", "def", "f(self):", "8", "h", "=", "...", "#", "bytes", "9", "decrypt(self.secret,", "h)", "match", "occurs", "at", "line", "9", "because", "the", "variable", "x", "can", "be", "None", "type", "(Simplified", "from", "scrapy-1).", "five", "years", "ago.", "The", "type", "mis-", "bug", "caused", "by", "a", "commit", "made", "(a)", "Example", "of", "a", "type", "mismatch", "1", "def", "to_unicode(", "2", "x:", "str", "|", "bytes", "3", "):", "...", "4", "5", "def", "f(self,", "n,", "d=None):", "6", "x", "=", "self.r.h.get(n,", "d)", "7", "8", "#", "x", "can", "be", "None", "type", "9", "return", "to_unicode(x)"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 300.96,
+    "y1": 394.08,
+    "y2": 527.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Figure6-1.png"
+}, {
+  "caption": "Table 1: Comparison with existing tools. P1 through P9 indicate detailed points of the features in Section 3.",
+  "captionBoundary": {
+    "x1": 89.03199768066406,
+    "x2": 522.6732177734375,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Section", "3.1", "P1", "Preserving", "types", "at", "control", "flow", "merge", "points", "✕", "✕", "✕", "#", "#", "P2", "Preserving", "element", "types", "in", "collections", "✕", "✕", "#", "#", "#", "P3", "Considering", "dictionaries", "with", "a", "key-type-sensitive", "manner", "✕", "✕", "✕", "✕", "#", "Section", "3.2", "P4", "Shallow", "call", "depths", "(up", "to", "3)", "✕", "✕", "✕", "✕", "#", "P5", "Lightweight", "type-based", "context", "sensitivity", "✕", "✕", "#", "✕", "#", "Section", "3.3", "P6", "Usage-based", "type", "inference", "✕", "✕", "✕", "✕", "#", "P7", "Selecting", "likely", "types", "among", "usage-based", "types", "✕", "✕", "✕", "✕", "#", "Section", "3.4", "P8", "Considering", "class", "invariants", "in", "terms", "of", "member", "types", "✕", "✕", "✕", "#", "#", "P9", "Filtering", "out", "unintended", "member", "types", "✕", "✕", "✕", "✕", "#", "Feature", "Detailed", "points", "for", "supporting", "the", "feature", "Mypy", "Pyre", "Pytype", "Pyright", "Pyinder"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 547.1999999999999,
+    "y1": 96.96,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695545-Table1-1.png"
+}]

@@ -1,0 +1,301 @@
+[{
+  "caption": "Table 4: Performance evaluation of the different models for each quality measure. We show the top-6 performing models, where the first row includes the best model, i.e., the one used in our analysis of credible intervals. Each model includes the different blocked variables (Factors), the ELPD scores using the using leave-one-out cross-validation (LOO), and the differences between the best model and the others (Δ). The blocked variables are: number of contributors (C), number of stargazers (S), project age (T), physical lines of code (Z), and number of files (F), or None of them.",
+  "captionBoundary": {
+    "x1": 53.44895935058594,
+    "x2": 559.2799072265625,
+    "y1": 222.52236938476562,
+    "y2": 271.98797607421875
+  },
+  "figType": "Table",
+  "imageText": ["None", "-192.0", "0.0", "C,", "T", "-197.1", "0.0", "None", "-185.0", "0.0", "None", "-203.7", "0.0", "C", "-190.2", "0.0", "T", "-196.0", "-4.0", "S", "-197.8", "-0.6", "F", "-185.4", "-0.4", "F", "-203.7", "0.0", "F", "-190.2", "0.0", "C", "-196.0", "-4.0", "C,", "S", "-197.8", "-0.7", "S", "-185.5", "-0.5", "T", "-203.9", "-0.2", "None", "-190.4", "-0.2", "S", "-196.6", "-4.6", "T", "-198.5", "-1.4", "C", "-185.6", "-0.6", "Z", "-204.2", "-0.5", "Z", "-190.4", "-0.2", "C,", "S", "-197.1", "-5.1", "None", "-198.6", "-1.5", "Z", "-185.8", "-0.8", "S", "-204.3", "-0.7", "C,", "F", "-190.6", "-0.4", "C,", "S,", "T", "-197.9", "-5.9", "C,", "S,", "T", "-198.9", "-1.8", "T", "-185.8", "-0.8", "C", "-204.4", "-0.7", "S", "-190.8", "-0.6", "Factors", "LOO", "Δ", "Factors", "LOO", "Δ", "Factors", "LOO", "Δ", "Factors", "LOO", "Δ", "Factors", "LOO", "Δ", "Bugs:", "Code", "Smells:", "Critical", "Issues:", "Vulnerabilities:", "Technical", "Debt", "Ratio:"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 286.56,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Table4-1.png"
+}, {
+  "caption": "Table 5: Mean values and standard deviations for each metric associated with warning classes N, A, AE, AEP, and AEP+. Lower means in the table correspond to better results, with lighter cells indicating the lowest means and darker cells representing the highest means for each quality measure. In this context, lower values reflect higher quality.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.370361328125,
+    "y1": 403.0853576660156,
+    "y2": 430.6340026855469
+  },
+  "figType": "Table",
+  "imageText": ["Bugs", "0.97", "0.88", "0.94", "0.94", "0.65", "0.89", "0.37", "0.92", "0.42", "0.89", "Critical", "Issues", "23.97", "19.74", "19.29", "20.65", "17.63", "20.04", "16.12", "20.5", "11.89", "20.04", "Vulnerabilities", "0.006", "0.014", "0.022", "0.016", "0.012", "0.014", "0.004", "0.015", "0.001", "0.014", "Code", "Smells", "71.45", "79.07", "72.72", "82.24", "60.66", "79.70", "87.95", "81.60", "54.31", "79.70", "Technical", "Debt", "Ratio", "2.16", "2.06", "2.05", "2.13", "1.70", "2.09", "2.12", "2.13", "1.40", "2.08", "Quality", "Measures", "Mean", "Std.Dev.", "Mean", "Std.Dev.", "Mean", "Std.Dev.", "Mean", "Std.Dev.", "Mean", "Std.Dev.", "N", "A", "AE", "AEP", "AEP+"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 445.44,
+    "y2": 537.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Table5-1.png"
+}, {
+  "caption": "Figure 2: The steps in our Bayesian Data Analysis (rounded rectangles), and the corresponding deliverables (rectangles). These steps follow the guidelines for BDA in empirical software engineering proposed by Torkar et al. [19].",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1781616210938,
+    "y1": 188.64938354492188,
+    "y2": 205.23797607421875
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "2.", "3.", "4.", "Collected", "Data", "Analyse", "posterior", "distribution", "Credible", "Intervals", "and", "conclusions", "Posterior", "distribution", "Quality", "scores", "of", "the", "model", "Statisical", "model", "Context", "and", "Domain", "Choice", "of", "Likelihood", "Choice", "of", "Priors", "Conduct", "inference", "Evaluate", "the", "model", "Define", "the", "probability", "model"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Standardized (std) credible intervals for the Bugs per KLOC metric for 50% (inner) and 90% (outer) regions of the probability mass. The upper plot is a binary comparison between projects that use / do not use warnings, the bottom plot distinguish between different warning classes (N, A, AE, AEP, and AEP+).",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 559.2893676757812,
+    "y1": 253.62136840820312,
+    "y2": 314.0469970703125
+  },
+  "figType": "Figure",
+  "imageText": ["B1", "−0.8", "−0.4", "0.0", "0.4", "Bugs", "per", "KLOC", "(std)", "AEP+", "AE", "AEP", "N", "A"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 555.36,
+    "y1": 151.2,
+    "y2": 235.67999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Standardized credible intervals for the Critical Issues per KLOC metric.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7938842773438,
+    "y1": 481.3043518066406,
+    "y2": 497.8940124511719
+  },
+  "figType": "Figure",
+  "imageText": ["CV1", "−0.5", "0.0", "0.5", "Critical", "violations", "per", "KLOC", "(std)", "AEP+", "AE", "AEP", "N", "A", "CV1", "−0.4", "0.0", "0.4", "0.8", "Critical", "violations", "per", "KLOC", "(std)", "No", "warnings", "Any", "warnings"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 333.12,
+    "y2": 462.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Usage of warnings across our sample of 127 C++ projects.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.2344665527344,
+    "y1": 232.42434692382812,
+    "y2": 249.01300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 82.56,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Research Methodology",
+  "captionBoundary": {
+    "x1": 372.95098876953125,
+    "x2": 503.2000427246094,
+    "y1": 330.7423400878906,
+    "y2": 336.37298583984375
+  },
+  "figType": "Figure",
+  "imageText": ["SonarCloud", "GitHub", "Model", "Selection", "Bayesian", "Analysis", "RQ2", "Bayesian", "Modelling", "and", "Assessing", "Quality", "Metrics", "RQ1", "Stratiﬁcation", "(5", "Groups)", "Dataset", "of", "127", "C++", "OSS", "Projects", "Data", "Collection", "Manual", "Categorisation"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 556.3199999999999,
+    "y1": 146.88,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Standardized credible intervals for Code Smells after removing two outlier projects (clipp and hana) from the AEP group.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.198974609375,
+    "y1": 178.04232788085938,
+    "y2": 205.59100341796875
+  },
+  "figType": "Figure",
+  "imageText": ["CS6", "(culled)", "−0.5", "0.0", "0.5", "Code", "smells", "per", "KLOC", "(std)", "AEP+", "AE", "AEP", "N", "A"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 72.0,
+    "y2": 161.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Standardized credible intervals for the Vulnerabilities per KLOC metric.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6379699707031,
+    "y1": 237.87435913085938,
+    "y2": 254.4639892578125
+  },
+  "figType": "Figure",
+  "imageText": ["V1", "−0.5", "0.0", "0.5", "Vulnerabilities", "per", "KLOC", "(std)", "AEP+", "AE", "AEP", "N", "A", "V1", "−0.4", "−0.2", "0.0", "0.2", "Vulnerabilities", "per", "KLOC", "(std)", "No", "warnings", "Any", "warnings"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 291.36,
+    "y1": 87.36,
+    "y2": 219.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Standardized credible intervals for the Code Smells per KLOC metric.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0335388183594,
+    "y1": 465.63336181640625,
+    "y2": 482.2229919433594
+  },
+  "figType": "Figure",
+  "imageText": ["CS6", "−0.4", "0.0", "0.4", "0.8", "Code", "smells", "per", "KLOC", "(std)", "AEP+", "AE", "AEP", "N", "A", "CS6", "−0.2", "0.0", "0.2", "0.4", "Code", "smells", "per", "KLOC", "(std)", "No", "warnings", "Any", "warnings"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 311.52,
+    "y2": 447.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure7-1.png"
+}, {
+  "caption": "Figure 9: Standardized credible intervals for the Technical Debt Ratio metric.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 379.1973571777344,
+    "y2": 395.7869873046875
+  },
+  "figType": "Figure",
+  "imageText": ["TD1", "−0.4", "0.0", "0.4", "Technical", "debt", "ratio", "(std)", "AEP+", "AE", "AEP", "N", "A", "TD1", "−0.2", "0.0", "0.2", "0.4", "0.6", "Technical", "debt", "ratio", "(std)", "No", "warnings", "Any", "warnings"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 228.0,
+    "y2": 360.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Standardized credible intervals for the Technical Debt Ratio quality metric, after removing an outlier project (clipp) from the AEP group.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.1934204101562,
+    "y1": 539.79931640625,
+    "y2": 567.3469848632812
+  },
+  "figType": "Figure",
+  "imageText": ["TD1", "(culled)", "−0.4", "0.0", "0.4", "0.8", "Technical", "debt", "ratio", "(std)", "AEP+", "AE", "AEP", "N", "A"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 556.3199999999999,
+    "y1": 435.84,
+    "y2": 524.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Figure10-1.png"
+}, {
+  "caption": "Table 3: SonarCloud quality metrics considered in this study. Bugs, critical issues and vulnerabilities are measured per kLOC. Technical Debt Ratio (TDR) is measured in days.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.72412109375,
+    "y1": 129.69534301757812,
+    "y2": 157.2440185546875
+  },
+  "figType": "Table",
+  "imageText": ["Critical", "Issues", "Num.", "of", "issues", "with", "severity", "\"Critical\"", "17.02", "[0.04,", "108.9]", "Vulnerabilities", "Num.", "of", "issues", "catego-", "rized", "as", "\"Vulnerabili-", "ties\"", "0.01", "[0,", "0.29]", "Code", "Smells", "Num.", "of", "issues", "catego-", "rized", "as", "\"Code", "Smells\"", "66.37", "[0.1,", "628.4]", "TDR", "Ratio", "between", "the", "costs", "to", "develop", "the", "software", "and", "fix", "it.", "1.81", "[0,", "10.8]", "0.67", "[0,", "9.17]", "Bugs", "Num.", "of", "issues", "catego-", "rized", "as", "\"Bugs\"", "Name", "Short", "Description", "Mean", "[Min,", "Max]"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 171.84,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Table3-1.png"
+}, {
+  "caption": "Table 1: Summary Statistics of Collected Dataset (127 C++ Projects)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.2401428222656,
+    "y1": 177.62936401367188,
+    "y2": 194.218994140625
+  },
+  "figType": "Table",
+  "imageText": ["Metric", "Mean", "Min", "Max", "S:", "Stars", "4252", "986", "33580", "C:", "Contributors", "83", "1", "368", "T:", "Project", "Age", "(days)", "2357", "126", "5101", "Z:", "Physical", "Lines", "of", "Code", "98350", "1174", "696194", "F:", "Number", "of", "Files", "591", "5", "6686"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 273.12,
+    "y1": 208.79999999999998,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Table1-1.png"
+}, {
+  "caption": "Table 2: Types of Warnings Considered in this Study",
+  "captionBoundary": {
+    "x1": 67.80000305175781,
+    "x2": 279.73828125,
+    "y1": 500.3233642578125,
+    "y2": 505.9540100097656
+  },
+  "figType": "Table",
+  "imageText": ["N", "No", "warnings", "used", "A", "-Wall", "AE", "-Wall", "-Wextra", "AEP", "-Wall", "-Wextra", "-Wpedantic", "AEP+", "-Wall", "-Wextra", "-Wpedantic", "-Werror", "ID", "GCC", "/", "Clang", "Warning", "Flags"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 267.36,
+    "y1": 520.8,
+    "y2": 597.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644410-Table2-1.png"
+}]

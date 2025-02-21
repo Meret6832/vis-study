@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 3. An example of the diversity of security checks for deposit success (i.e., lines 3 and 12), which is caused by di erent implementations and non-standard check, and cannot be addressed by Ethainter [Brent et al. 2020], SPCon [Liu et al. 2022], AChecker [Ghaleb et al. 2023].",
+  "captionBoundary": {
+    "x1": 45.827972412109375,
+    "x2": 441.5525817871094,
+    "y1": 213.9278564453125,
+    "y2": 240.0780029296875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "function", "mint(address", "to)", "external", "{", "11", "...", "12", "require(liquidity", ">", "0);", "//", "check", "the", "liquidity", "for", "ensuring", "deposit", "sucess", "13", "balanceOf[to]", "=", "balanceOf[to]", "+", "liquidity;", "14", "emit", "Deposit(address", "(0),", "to", ",", "liquidity);}}", "1contract", "Radar", "{", "2", "function", "bridgeTokens(uint256", "amount", ",bytes32", "destChain", ",address", "destAddress)", "external", "{", "3", "require(balanceOf(msg.sender)", ">=", "_amount);", "//", "check", "the", "balance", "for", "ensuring", "deposit", "sucess", "4", "...", "5", "safeTransferFrom(msg.sender", ",", "address(this),", "amount);", "6", "emit", "Deposit(amount", ",", "destChain", ",", "destAddress);}}", "7", "8contract", "Polkabridge", "{", "9", "mapping(address", "=>", "uint)", "public", "balanceOf;"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 39.839999999999996,
+    "x2": 441.12,
+    "y1": 87.84,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Figure3-1.png"
+}, {
+  "caption": "Table 2. Probabilistic inference pa ern for associating resources with security checks.",
+  "captionBoundary": {
+    "x1": 85.05780029296875,
+    "x2": 400.70184326171875,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Pattern", "Condition", "Probabilistic", "assignment", "P1", ">=CA>;", ";>F", "4?4=34=2~", "(2,", "{A", "})", "BB>280C8>=", "(2,", "?,", "A", ")", "=", "CAD4", "(0.95)", "P2", ">=CA>;", ";>F", "4?4=34=2~", "(2,", "')", "∨", "A", "∈", "'", "BB>280C8>=", "(2,", "?,", "A", ")", "=", "CAD4", "(0.60)", "P3", "(0<4", ";>2:", "(A1,", "A2", ")", "BB>280C8>=", "(2,", "?1,", "A2", ")", "0.60", "−→", "BB>280C8>=", "(2,", "?1,", "A1", ")", "P4", "(4<0=C82", ">AA4;0C8>=", "(A1,", "A2", ")", "BB>280C8>=", "(2,", "?2,", "A2", ")", "0.70", "−→", "BB>280C8>=", "(2,", "?1,", "A1", ")", "P5", "0C0", ";>F", "4?4=34=2~", "(A1,", "A2", ")", "BB>280C8>=", "(2,", "?2,", "A2", ")", "0.80", "−→", "BB>280C8>=", "(2,", "?1,", "A1", ")"],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 406.08,
+    "y1": 106.56,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table2-1.png"
+}, {
+  "caption": "Table 4. Overall e ectiveness for SmartAxe on the Manual-labelled CCV Dataset ( <0=D0; ).",
+  "captionBoundary": {
+    "x1": 73.03399658203125,
+    "x2": 412.7232971191406,
+    "y1": 593.7986450195312,
+    "y2": 599.994873046875
+  },
+  "figType": "Table",
+  "imageText": ["Proc.", "ACM", "Softw.", "Eng.,", "Vol.", "1,", "No.", "FSE,", "Article", "12.", "Publication", "date:", "July", "2024.", "CCV", "Precision", "Recall", "TP", "FP", "rate", "TP", "FN", "rate", "Access", "control", "incompleteness", "54", "10", "84.38%", "54", "5", "91.53%", "Semantic", "inconsistency", "25", "4", "85.71%", "25", "4", "86.21%", "Total", "79", "14", "84.95%", "79", "9", "89.77%"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 128.64,
+    "x2": 440.64,
+    "y1": 612.9599999999999,
+    "y2": 682.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table4-1.png"
+}, {
+  "caption": "Fig. 4. An example to show the complexity in linking resources with security checks.",
+  "captionBoundary": {
+    "x1": 87.15589904785156,
+    "x2": 398.84600830078125,
+    "y1": 207.6590576171875,
+    "y2": 211.89120483398438
+  },
+  "figType": "Figure",
+  "imageText": ["10", "emit", "Authorize(SrcChain", ",", "to", ",", "amount", ",", "signatory);}}", "11", "require(authorization[to]", "==", "signatures.length);", "12", "_transfer(address(this),", "to", ",", "volume);", "//", "Resource", "1,", "withdrawal", "the", "asset", "13", "emit", "Receive(fromChainId", ",", "to", ",", "volume);}}", "1contract", "BaseBridge", "{", "2", "mapping", "(address", "=>", "uint)", "public", "authorization;", "3", "function", "withdrawal(uint256", "SrcChain", ",address", "to", ",uint256", "amount", ",Signature", "[]", "memory", "signatures)", "public", "{", "4", "...", "5", "if(signatures.length", ">", "_minSignatures);", "{", "//", "Security", "Check", "1,", "check", "the", "number", "of", "signatures", "6", "for(uint", "i=0;", "i<signatures.length;", "i++)", "{", "7", "address", "_signatory", "=", "getSignatory(signatures[i]);", "8", "require(_signatory", "==", "signatures[i].", "signatory);", "//", "Security", "Check", "2,", "check", "the", "validation", "signatory", "9", "authorization[to]=", "authorization[to]+1;"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 39.839999999999996,
+    "x2": 441.12,
+    "y1": 87.84,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Figure4-1.png"
+}, {
+  "caption": "Table 1. Security check model of access control for cross-chain bridge contract.",
+  "captionBoundary": {
+    "x1": 96.97380065917969,
+    "x2": 388.7864074707031,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["P5.Check", "for", "repetitive", "withdrawal", "List", "recording", "the", "withdrawal", "Consultation", "on", "the", "lists", "(i.e.,", "mapping", "variables)", "P6.Correctness", "check", "for", "releasing", "Recevier", "address", "Comparison", "with", "user-speci", "ed", "address", "or", "0", "address", "Signature", "and", "Signatory", "Comparison", "with", "cross-chain", "message", "Timeout", "of", "signature", "Comparison", "with", "on-chain", "time", "status", "(e.g.,", "timestamp,", "blocknumber)", "P4.Validation", "check", "for", "veri", "cation", "C3.", "Asset", "authorization", "and", "withdrawal", "P3.Correctness", "check", "for", "cross-chain", "router", "Bridge-supported", "token/chain", "Comparison", "with", "ID", "of", "destination", "Address", "of", "external", "invocation", "Comparison", "with", "0", "address", "C2.Cross-chain", "router", "P1.Success", "check", "for", "the", "deposit", "Balance", "of", "bridge", "after", "deposit", "Comparison", "with", "balance", "before", "deposit", "Balance", "of", "user", "Comparison", "with", "the", "deposit", "amount", "Liquility", "of", "bridge", "Comparison", "with", "deposit", "threshold", "P2.Validation", "check", "for", "arguments", "of", "user", "Arguments", "of", "public", "function", "Comparison", "with", "logic", "condition", "Arguments", "of", "user", "message", "Comparison", "with", "logic", "condition", "C1.", "Asset", "deposit", "and", "locking", "Category", "Perspective", "Security", "feature", "Example", "of", "usage"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 421.44,
+    "y1": 106.56,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table1-1.png"
+}, {
+  "caption": "Fig. 6. The process of vulnerability detection for motivating examples in Figure 2.",
+  "captionBoundary": {
+    "x1": 93.12300109863281,
+    "x2": 392.87860107421875,
+    "y1": 231.02883911132812,
+    "y2": 235.260986328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 423.35999999999996,
+    "y1": 84.0,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Figure6-1.png"
+}, {
+  "caption": "Table 3. EVM instructions defined as taint sources and taint sinks by SmartAxe.",
+  "captionBoundary": {
+    "x1": 95.36885833740234,
+    "x2": 390.3893737792969,
+    "y1": 436.13262939453125,
+    "y2": 440.3647766113281
+  },
+  "figType": "Table",
+  "imageText": ["5", "EVALUATION", "Sink", "(1)", "External", "calls", "CALL,", "CALLCODE,", "STATICCALL,", "DELEGATECALL", "(2)", "State", "variables", "SSTORE,", "BALANCE,", "ADDRESS,", "CCV", "indicators,", "Client", "node", "(2)", "Parameter", "of", "public", "function", "Public,", "External", "CALLDATALOAD,", "CALLDATACOPY,", "CALLER,", "ORIGIN,", "CALLVALUE,", "CALLDATASIZE", "Source", "(1)", "Parameter", "passed", "by", "user", "Type", "EVM", "Instruction", "or", "Keyword", "or", "Statement"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 401.28,
+    "y1": 454.56,
+    "y2": 533.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table3-1.png"
+}, {
+  "caption": "Table 8. Top 5 cross-chain bridge in terms of asset a ected by CCV",
+  "captionBoundary": {
+    "x1": 118.88279724121094,
+    "x2": 366.8744201660156,
+    "y1": 482.2000427246094,
+    "y2": 486.43218994140625
+  },
+  "figType": "Table",
+  "imageText": ["Bridge", "Hop.Exchanxx", "bridge", "Terxx", "Bridge", "Sifchxxx", "Bridge", "RenBridxx", "Ocuxx", "Bridge", "Vulnerability", "number", "4", "6", "1", "3", "3", "A", "ected", "asset", "1445827", "28038.67", "16743.31", "12896.52", "8093.08"],
+  "name": "8",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 410.4,
+    "y1": 500.64,
+    "y2": 527.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table8-1.png"
+}, {
+  "caption": "Fig. 5. The workflow of SmartAxe.",
+  "captionBoundary": {
+    "x1": 179.5050048828125,
+    "x2": 306.4958801269531,
+    "y1": 189.54086303710938,
+    "y2": 193.77301025390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 442.08,
+    "y1": 84.0,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. Workflow of cross-chain bridge.",
+  "captionBoundary": {
+    "x1": 171.25999450683594,
+    "x2": 314.7400207519531,
+    "y1": 208.22085571289062,
+    "y2": 212.4530029296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 141.6,
+    "x2": 344.15999999999997,
+    "y1": 84.0,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Figure1-1.png"
+}, {
+  "caption": "Table 7. Impact of graph construction over <0=D0; .",
+  "captionBoundary": {
+    "x1": 145.9940948486328,
+    "x2": 339.7649841308594,
+    "y1": 552.7326049804688,
+    "y2": 558.9287719726562
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "SmartAxe", "w/o", "xACG", "and", "xDFG", "SmartAxe", "TP", "FN", "Recall", "TP", "FN", "Recall", "CCV", "56", "32", "65.91%", "79", "9", "89.77%"],
+  "name": "7",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 139.68,
+    "x2": 346.08,
+    "y1": 571.68,
+    "y2": 598.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table7-1.png"
+}, {
+  "caption": "Fig. 2. Two motivating examples of CCV.",
+  "captionBoundary": {
+    "x1": 167.04100036621094,
+    "x2": 318.9578857421875,
+    "y1": 370.4058532714844,
+    "y2": 374.63800048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 442.08,
+    "y1": 84.0,
+    "y2": 356.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Figure2-1.png"
+}, {
+  "caption": "Table 5. E ectiveness of security check modeling with other SOTA static analyzers over <0=D0; .",
+  "captionBoundary": {
+    "x1": 63.41326904296875,
+    "x2": 422.34466552734375,
+    "y1": 414.1699523925781,
+    "y2": 420.36614990234375
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "Ethainter", "[Brent", "et", "al.", "2020]", "AChecker", "[Ghaleb", "et", "al.", "2023]", "SmartAxe", "TP", "FN", "Recall", "TP", "FN", "Recall", "TP", "FN", "Recall", "CCV", "6", "82", "6.82%", "3", "85", "3.41%", "79", "9", "89.77%"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 388.32,
+    "y1": 432.96,
+    "y2": 459.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table5-1.png"
+}, {
+  "caption": "Table 6. Comparison results between SmartAxe and SmartAxe without resource allocation on the Manuallabelled CCV Dataset ( <0=D0; ), for evaluating the e ectiveness of resource allocation",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.6643981933594,
+    "y1": 484.4328308105469,
+    "y2": 501.5870666503906
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "SmartAxe", "w/o", "resource", "allocation", "SmartAxe", "TP", "FP", "Precision", "TP", "FP", "Precision", "CCV", "79", "23", "77.45%", "79", "14", "84.95%"],
+  "name": "6",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 133.92,
+    "x2": 352.32,
+    "y1": 514.56,
+    "y2": 541.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643738-Table6-1.png"
+}]

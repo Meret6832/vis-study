@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: Conceptual comparison between property-based",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.036376953125,
+    "y1": 180.31192016601562,
+    "y2": 182.39202880859375
+  },
+  "figType": "Figure",
+  "imageText": ["...", "event", "trace", "1", "event", "trace", "2", "event", "trace", "n", "...", "App", "[-1,", "1,", "3]", "[1,", "2,", "3]", "...", "[...]", "(a)", "Property-based", "testing", "for", "function", "sort", "(b)", "Property-based", "testing", "for", "Android", "apps", "[3,", "1,", "-1]", "[1,", "3,", "2]", "...", "[...]", "Sort"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 77.28,
+    "x2": 268.8,
+    "y1": 83.03999999999999,
+    "y2": 173.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Figure1-1.png"
+}, {
+  "caption": "Table 1: Apps used in our experiment (K=1,000, M=1,000,000)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1943359375,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ActivityDiary", "Activity", "Recorder", "1∼5K", "72", "6", "AntennaPod", "Podcast", "Manager", "1∼5M", "5.8K", "14", "AnkiDroid", "Flashcards", "Manager", "10∼50M", "7.9K", "28", "Transistor", "Radio", "Listener", "10∼50K", "431", "12", "SimpleTask", "Task", "Manager", "10∼50K", "544", "12", "AmazeFileManager", "File", "Manager", "1∼5M", "5.1K", "16", "OmniNotes", "Note", "Manager", "10∼50M", "2.7K", "20", "Markor", "Text", "Editor", "10∼50M", "3.3K", "16", "App", "Name", "App", "Feature", "#Installations", "#Stars", "#Historical", "Bugs"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 93.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Table1-1.png"
+}, {
+  "caption": "Table 5: Statistics of the 25 new functional bugs found by Kea.",
+  "captionBoundary": {
+    "x1": 179.5970001220703,
+    "x2": 432.10675048828125,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["AnkiDroid", "24", "Confirmed", "Main", "path", "Card", "Browser", "does", "not", "remember", "the", "scroll", "position", "after", "editing", "a", "card.", "25", "Confirmed", "Main", "path", "After", "repositioning", "a", "card,", "“Undo", "Reschedule”", "is", "shown", "instead", "of", "“Undo", "Reposition”.", "22", "Fixed", "Alternative", "path", "After", "deleting", "one", "station,", "the", "playback", "metadata", "text", "still", "exists", "in", "another", "station.", "23", "Fixed", "Alternative", "path", "The", "newly", "added", "station", "erroneously", "displayed", "as", "being", "long-clicked.", "App", "Name", "ID", "Bug", "Status", "Bug", "Occurs", "On", "Bug", "Description", "OmniNotes", "1", "Fixed", "Alternative", "path", "The", "note", "tag", "cannot", "be", "removed.", "2", "Fixed", "Alternative", "path", "The", "uncategorized", "item", "in", "the", "navigation", "still", "appears", "when", "it", "does", "not", "contain", "notes.", "3", "Fixed", "Alternative", "path", "Deleting", "one", "tag", "in", "the", "note", "changes", "another", "tag.", "4", "Fixed", "Alternative", "path", "The", "note", "content", "is", "changed", "when", "clicking", "to", "share.", "5", "Confirmed", "Alternative", "path", "There", "exists", "duplicated", "note", "categories.", "6", "Fixed", "Alternative", "path", "Wrong", "search", "result", "when", "searching", "for", "the", "note", "with", "tags.", "7", "Fixed", "Alternative", "path", "The", "uncategorized", "item", "in", "the", "navigation", "does", "not", "appear", "when", "it", "should.", "8", "Fixed", "Alternative", "path", "The", "locked", "note’s", "content", "can", "be", "searched.", "9", "Fixed", "Alternative", "path", "The", "archived", "note", "erroneously", "appears", "in", "the", "note", "list", "when", "clicking", "the", "search", "bar.", "10", "Fixed", "Alternative", "path", "The", "search", "filter", "does", "not", "apply", "to", "the", "note", "list.", "AmazeFileManager", "11", "Fixed", "Main", "path", "Recent", "files", "directory", "fails", "to", "display", "recent", "files.", "12", "Fixed", "Main", "path", "The", "search", "result’s", "title", "disappears", "after", "screen", "rotation.", "13", "Fixed", "Alternative", "path", "Floating", "action", "button", "does", "not", "display", "when", "it", "should.", "Markor", "14", "Fixed", "Main", "path", "Recently", "viewed", "documents", "does", "not", "update", "after", "users", "view", "some", "documents.", "15", "Fixed", "Main", "path", "The", "file", "modification", "time", "does", "not", "change", "after", "modifying", "the", "file.", "16", "Fixed", "Main", "path", "Clicking", "file", "format", "incorrectly", "jumps", "to", "the", "“Seach", "documents”", "dialog.", "17", "Fixed", "Alternative", "path", "File", "content", "is", "overridden", "when", "creating", "a", "new", "file", "with", "the", "same", "name.", "18", "Fixed", "Alternative", "path", "When", "creating", "a", "new", "file,", "the", "file", "type", "is", "not", "consistent", "with", "the", "suffix.", "19", "Fixed", "Alternative", "path", "Delayed", "appearance", "of", "newly", "created", "folder.", "SimpleTask", "20", "Confirmed", "Alternative", "path", "When", "creating", "a", "new", "task,", "an", "existing", "task", "is", "opened", "rather", "than", "a", "new", "task.", "Transistor", "21", "Fixed", "Alternative", "path", "Playback", "indicator", "is", "not", "consistent."],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 544.3199999999999,
+    "y1": 93.6,
+    "y2": 323.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Table5-1.png"
+}, {
+  "caption": "Figure 2: Overview of Kea",
+  "captionBoundary": {
+    "x1": 252.61399841308594,
+    "x2": 359.3850402832031,
+    "y1": 331.0809020996094,
+    "y2": 333.1610107421875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "@precondition(", "2", "findWidget(id=\"tag_button\").exists()", "and", "3", "findWidget(id=\"content\",textContains=\"#\").exists()", "4", ")", "5", "@property", "6", "def", "tag_removement():", "7", "#", "get", "the", "text", "from", "the", "note's", "content", "8", "original_content", "=", "findWidget(id=\"content\").get(\"text\")", "9", "#", "click", "to", "open", "the", "tag", "list", "10", "findWidget(id=\"tag_button\").click()", "11", "#", "get", "the", "tags", "in", "current", "note", "12", "checked_tag", "=", "[]", "13", "for", "tag", "in", "findWidget(id=\"tag_name\"):", "14", "#", "only", "checked", "tag", "is", "in", "current", "note", "15", "if", "tag.get(\"checked\")", "==", "true:", "16", "checked_tag.append(tag)", "17", "#", "random", "select", "a", "tag", "18", "selected_tag", "=", "random.choice(checked_tag)", "19", "#", "get", "the", "name", "of", "the", "tag", "20", "selected_tag_name", "=", "'#'", "+", "selected_tag.get(\"text\")", "21", "#", "click", "to", "uncheck", "the", "selected", "tag", "22", "selected_tag.click()", "23", "findWidget(text=\"OK\").click()", "24", "#", "get", "the", "updated", "content", "after", "removing", "the", "tag", "25", "updated_content", "=", "findWidget(id=\"content\").get(\"text\")", "26", "#", "get", "the", "expected", "content", "after", "removing", "the", "tag", "27", "expected_content", "=", "origin_content.replace(selected_tag_name,", "\"\")", "28", "#", "the", "tag", "should", "be", "removed", "in", "the", "content", "and", "the", "updated", "content", "should", "be", "the", "29", "#", "same", "as", "expected", "content", "30", "assert", "not", "findWidget(id=\"content\",", "textContains=selected_tag_name).exists()", "and", "31", "updated_content", "==", "expected_content", "(a)", "Overview", "of", "Kea", "(b)", "Example", "property", "of", "the", "functionality", "removing", "note", "tags", "in", "OmniNotes", "App", "Random", "exploration", "Inpute", "generator", "Main", "path", "guided", "exploration", "Bug", "reports", "...", "Generate", "input", "Check", "property"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 532.3199999999999,
+    "y1": 84.0,
+    "y2": 324.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Complexity of the properties in different apps",
+  "captionBoundary": {
+    "x1": 325.6449890136719,
+    "x2": 550.5032958984375,
+    "y1": 235.39688110351562,
+    "y2": 237.47698974609375
+  },
+  "figType": "Figure",
+  "imageText": ["Postcondition", "OmniNotes", "Markor", "Simpletask", "Amaze", "ActivitydiaryAntennapod", "AnkiDroid", "Transistor", "1", "2", "3", "Code", "lines", "(of", "interaction", "scenario)", "25", "OmniNotes", "Markor", "Simpletask", "Amaze", "ActivitydiaryAntennapod", "AnkiDroid", "Transistor", "0", "Events", "(in", "interaction", "scenario)", "5", "OmniNotes", "Markor", "Simpletask", "Amaze", "ActivitydiaryAntennapod", "AnkiDroid", "Transistor", "0", "Precondition", "5", "10", "15", "OmniNotes", "Markor", "Simpletask", "Amaze", "ActivitydiaryAntennapod", "AnkiDroid", "Transistor"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 323.03999999999996,
+    "x2": 551.04,
+    "y1": 83.52,
+    "y2": 228.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Figure6-1.png"
+}, {
+  "caption": "Figure 4: Core syntax of our PDL",
+  "captionBoundary": {
+    "x1": 107.56600189208984,
+    "x2": 240.27256774902344,
+    "y1": 598.1268920898438,
+    "y2": 600.20703125
+  },
+  "figType": "Figure",
+  "imageText": ["var", "F", "original_content", "|", "checked_tag", "|", "...", "/*A", "Python", "variable*/", "relop", "F", ">", "|", "<", "|", "≤", "|", "≥", "eqop", "F", "=", "|", "≠", "value", "F", "strval", "|", "numval", "|", "boolval", "strval", "F", "\"OK\"", "|", "\"tag_name\"", "|", "...", "/*A", "concrete", "string", "value*/", "numval", "F", "0", "|", "1", "|", "0.1", "|", "...", "*A", "concrete", "numeric", "value*/", "boolval", "F", "True", "|", "False", "|", "rotate_screen()", "|", "...", "/*", "An", "API", "sending", "a", "specified", "event", "to", "the", "app", "*/", "widget", "F", "findWidget(crit)", "/*", "An", "API", "returning", "a", "widget", "of", "the", "current", "GUI", "layout", "that", "matches", "certain", "criteria", "*/", "crit", "F", "attr_id=value,crit", "|", "𝜖", "attr", "F", "widget.get(\"attr_id\")", "attr_id", "F", "id", "|", "className", "|", "description", "|", "text", "|", "...", "/*", "An", "attribute", "of", "a", "widget", "*/", "event", "F", "click()", "|", "long_click()", "|", "set_text(strval)", "|", "scroll().to(crit)", "|", "attr", "relop", "numval", "|", "attr", "eqop", "numval", "|", "attr", "eqop", "strval", "|", "attr", "eqop", "boolval", "|", "var", "relop", "numval", "|", "var", "eqop", "numval", "|", "var", "eqop", "strval", "|", "var", "eqop", "boolval", "Pred", "F", "Clause", "|", "not", "Pred", "|", "Pred", "and", "Pred", "|", "Pred", "or", "Pred", "Clause", "F", "widget.exists()", "|", "assert", "Pred", "/*", "A", "postcondition", "*/", "|", "var", "=", "widget", "|", "var", "=", "attr", "|", "if", "Pred:", "Stmts", "else:", "Stmts", "|", "...", "/*", "All", "conditional", "constructs", "*/", "|", "For", "var", "in", "var:", "Stmts", "|", "...", "/*", "All", "loop", "constructs", "*/", "|", "strval.replace(var,", "strval)", "|", "...", "/*", "All", "function", "callings", "*/", "|", "var", "=", "var", "+", "var", "|", "...", "/*", "All", "arithmetic", "statements", "*/", "|", "...", "/*", "All", "other", "statements", "supported", "by", "Python*/", "Stmts", "F", "Stmt", "Stmts", "|", "𝜖", "Stmt", "F", "widget.event", "𝜙", "F", "@precondition(Pred)", "@property", "def", "prop():", "Stmts"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 305.28,
+    "y1": 264.0,
+    "y2": 590.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Figure4-1.png"
+}, {
+  "caption": "Figure 3: OmniNotes: (a) shows the functionality of removing note tags, (b) shows a new bug found by Kea.",
+  "captionBoundary": {
+    "x1": 90.40599822998047,
+    "x2": 521.5926513671875,
+    "y1": 255.68386840820312,
+    "y2": 257.76397705078125
+  },
+  "figType": "Figure",
+  "imageText": ["(4)’", "read", "a", "book", "#Tag1", "Note", "Editor", "ok", "", "Tag1", "", "Tag2", "Select", "tag", "read", "a", "book", "#Tag1", "Note", "Editor", "ok", "", "Tag1", "", "Tag2", "Select", "tag", "read", "a", "book", "#Tag1", "Note", "Editor", "(5)’", "(6)’", "(7)’", "(8)’", "(9)’", "read", "a", "book", "#Tag1", "#Tag2", "Note", "Editor", "read", "a", "book", "#Tag1", "#Tag2", "Note", "Editor", "read", "a", "book", "#Ta", "g2", "Note", "Editor", "(1)", "(2)", "(3)", "(4)", "(5)", "(6)", "(b)", "The", "bug-triggering", "event", "trace", "of", "a", "new", "bug", "found", "by", "our", "tool", "(a)", "The", "event", "trace", "of", "the", "functionality", "removing", "note", "tags", "in", "OmniNotes", "ok", "", "Tag1", "Select", "tag", "read", "a", "book", "#Tag1", "Note", "Editor", "ok", "", "Tag1", "Select", "tag", "read", "a", "book", "#Tag1", "Note", "Editor", "read", "a", "book", "Note", "Editor", "read", "a", "book", "#Tag1", "Note", "Editor", "Note", "Editor", "+", "Notes"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 532.3199999999999,
+    "y1": 84.0,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Figure3-1.png"
+}, {
+  "caption": "Table 4: Number of new bugs found by the four modes.",
+  "captionBoundary": {
+    "x1": 62.64899826049805,
+    "x2": 284.8891906738281,
+    "y1": 192.88388061523438,
+    "y2": 194.9639892578125
+  },
+  "figType": "Table",
+  "imageText": ["Random_100", "3,171", "19", "210", "931", "4,943", "20,939", "Guided", "exploration", "684", "22", "42", "88", "187", "7,956", "Bug", "Finding", "Time", "(s)", "Average", "Min", "Q1", "Median", "Q3", "Max"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 148.79999999999998,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Table4-1.png"
+}, {
+  "caption": "Figure 5: Example for main path guided exploration strategy",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1914672851562,
+    "y1": 149.46688842773438,
+    "y2": 151.5469970703125
+  },
+  "figType": "Figure",
+  "imageText": ["s9", "I", "I", "e3", "s5", "s6s7", "s8", "e5", "e7", "e6", "s1s0", "s2", "s3", "s4", "e1", "e2", "e3", "e4", "App", "Entry"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.0799999999999,
+    "y1": 84.0,
+    "y2": 144.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694986-Figure5-1.png"
+}]

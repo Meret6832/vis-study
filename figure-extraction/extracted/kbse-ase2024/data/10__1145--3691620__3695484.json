@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: An NPE from the project Apache Qpid Proton-j’s revision 02998b3",
+  "captionBoundary": {
+    "x1": 153.65701293945312,
+    "x2": 458.33062744140625,
+    "y1": 292.0598449707031,
+    "y2": 294.13995361328125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "The", "stack", "trace", "from", "NPE-triggering", "test", "case", "2", "at", "MapType.calculateSize(MapType.java:8)", "3", "at", "MapType.getEncoding(...)", "4", "at", "TestCase.test(TestCase.java:8)", "1", "java.lang.NullPointerException", "(c)", "Test", "case", "that", "triggers", "the", "NPE", "1", "DecoderImpl", "dec", "=", "new", "DecoderImpl();", "2", "EncoderImpl", "enc", "=", "new", "EncoderImpl(dec);", "3", "MapType", "mapt", "=", "new", "MapType(enc,", "dec);", "4", "Map<Integer,", "Object>", "map", "=", "new", "HashMap<>();", "5", "map.put(0,", "new", "Object());", "6", "mapt.getEncoding(map);", "(b)", "EncoderImpl.java", "4", "AMQPType<?>", "amqpType", "=", "null;", "5", "if", "(cl.isArray())", "{", "6", "amqpType", "=", "_arrayType;", "7", "}", "else", "{", "/*", "...", "*/", "}", "8", "return", "amqpType;}", "9", "}", "1", "class", "EncoderImpl", "{", "2", "AMQPType<?>", "deduceTypeFromClass(", "3", "Class<?>", "cl,", "Object", "o)", "{", "(a)", "MapType.java", "1", "class", "MapType", "{", "2", "EncoderImpl", "encoder;", "3", "int", "calculateSize(final", "Map<?,", "?>", "map)", "{", "4", "for", "(Entry", "e", ":", "map.entrySet())", "{", "5", "Object", "k", "=", "e.getKey();", "6", "if", "(fixedKeyType", "==", "null)", "{", "7", "AMQPType", "t", "=", "encoder.getType(k);", "8", "enc", "=", "t.getEncoding(k);", "//", "NPE", "9", "}}}}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 41.28,
+    "x2": 549.12,
+    "y1": 93.11999999999999,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Figure1-1.png"
+}, {
+  "caption": "Figure 4: A Venn diagram illustrating the number of unique",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0361022949219,
+    "y1": 159.83187866210938,
+    "y2": 161.9119873046875
+  },
+  "figType": "Figure",
+  "imageText": ["𝑹𝒂𝒏𝒅𝒐𝒐𝒑", "𝑵𝑷𝑬𝑻𝒆𝒔𝒕", "35", "1", "𝑬𝒗𝒐𝑺𝒖𝒊𝒕𝒆", "2", "23", "12"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 229.92,
+    "y1": 85.92,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Figure4-1.png"
+}, {
+  "caption": "Figure 5: A graph for an average line coverage of EvoSuite",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2003173828125,
+    "y1": 209.40090942382812,
+    "y2": 211.48101806640625
+  },
+  "figType": "Figure",
+  "imageText": ["EvoSuite", "EvoSuite_Def𝑬𝒗𝒐𝑺𝒖𝒊𝒕𝒆𝑫𝒆𝒇𝑬𝒗𝒐𝑺𝒖𝒊𝒕𝒆", "NPEX", "BugSwarm", "Genesis", "Bears", "Defects4J", "Total", "100.0", "90.0", "80.0", "70.0", "60.0", "50.0", "40.0", "30.0", "20.0", "10.0", "0.0", "64.5", "91.0", "74.0", "63.4", "62.8", "59.2", "77.8", "96.4", "79.7", "67.0", "73.1", "79.6"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 552.48,
+    "y1": 84.96,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Figure5-1.png"
+}, {
+  "caption": "Table 4: Bug-finding ability of EvoSuite with different set-",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64520263671875,
+    "y1": 330.4228820800781,
+    "y2": 332.50299072265625
+  },
+  "figType": "Table",
+  "imageText": ["Time", "Tools", "NPEX", "BugSwarm", "Defects4J", "Genesis", "Bears", "Total", "Randoop", "10", "10", "2", "2", "1", "25", "5", "min", "EvoSuite", "29", "16", "6", "4", "4", "59", "NPETest", "37", "19", "6", "6", "5", "73", "Randoop", "10", "10", "2", "2", "1", "25", "10", "min", "EvoSuite", "29", "16", "6", "5", "5", "61", "NPETest", "37", "19", "6", "6", "6", "74", "Randoop", "10", "10", "2", "2", "1", "25", "30", "min", "EvoSuite", "29", "17", "6", "6", "5", "62", "NPETest", "37", "19", "6", "6", "6", "74"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 228.0,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Table4-1.png"
+}, {
+  "caption": "Figure 6: A Venn diagram illustrating the number of unique",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0361022949219,
+    "y1": 195.78890991210938,
+    "y2": 197.8690185546875
+  },
+  "figType": "Figure",
+  "imageText": ["𝑹𝒂𝒏𝒅𝒐𝒐𝒑", "𝑵𝑷𝑬𝑻𝒆𝒔𝒕", "29", "2", "𝑬𝒗𝒐𝑺𝒖𝒊𝒕𝒆", "1", "51", "8"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 232.32,
+    "y1": 112.8,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Figure6-1.png"
+}, {
+  "caption": "Figure 7: An NPE example from the industrial case study.",
+  "captionBoundary": {
+    "x1": 322.2149963378906,
+    "x2": 553.9322509765625,
+    "y1": 278.6387634277344,
+    "y2": 280.7188720703125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "11", "public", "CryptoPolicySVO", "deserialize(String", "serverMsg)", "{", "12", "Document", "doc", "=", "parseXML(serverMsg);", "13", "CryptoPolicySVO", "svo", "=", "new", "CryptoPolicySVO();", "14", "svo.setAlogithmType(getNodeText(doc,", "ALGORITHM));", "15", "svo.setEncodingType(encodings.get(getNodeText(doc,", "ENCODING)));", "//", "triggers", "NPE", "16", "...", "17", "return", "svo;", "}", "18", "}", "1", "2", "class", "CryptoPolicySVO", "{", "3", "static", "Map<String,", "Integer>", "encodings", "=", "new", "HashMap<>();", "4", "static", "{", "5", "encodings.put(\"BASE64\",", "1);", "encodings.put(\"HEX\",", "2);", "}", "6", "...", "7", "private", "int", "encoding;", "8", "private", "void", "setEncodingType(int", "encoding)", "{", "9", "this.encoding", "=", "encoding;", "}"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 302.88,
+    "x2": 526.0799999999999,
+    "y1": 94.08,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Figure7-1.png"
+}, {
+  "caption": "Figure 2: A simplified code example",
+  "captionBoundary": {
+    "x1": 233.60598754882812,
+    "x2": 378.3888244628906,
+    "y1": 186.98287963867188,
+    "y2": 189.06298828125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "getEdge", "method", "1", "public", "Edge<V,", "E>", "getEdge(V", "vertex)", "{", "2", "Edge<V,", "E>", "ec", "=", "vertexMap.get(vertex);", "3", "if", "(ec", "==", "null)", "{", "4", "ec", "=", "new", "Edge<>(edgeFactory,", "vertex);", "5", "vertexMap.put(vertex,", "ec);", "6", "}", "7", "return", "ec;", "}", "(a)", "addEdge", "method", "1", "public", "boolean", "addEdge(V", "src,", "V", "target,", "E", "e)", "{", "2", "if", "(src", "==", "null)", "return", "false;", "3", "getEdge(src).addEdge(e);", "4", "if", "(!src.equals(target))", "{", "5", "getEdge(target).addEdge(e);", "6", "}", "7", "return", "true;", "}"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 50.4,
+    "x2": 462.71999999999997,
+    "y1": 93.11999999999999,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Fine-tuned options for EvoSuite",
+  "captionBoundary": {
+    "x1": 352.66900634765625,
+    "x2": 523.4863891601562,
+    "y1": 281.20086669921875,
+    "y2": 283.2809753417969
+  },
+  "figType": "Figure",
+  "imageText": ["-projectCP", "[CLASS_PATH]", "-Dassertions", "false", "-Dcatch_undeclared_exceptions", "false", "-generateMOSuite", "-Dalgorithm=DynaMOSA", "-Dstatistics_backend=NONE", "-Dshow_progress=false", "-Dnew_statistics=false", "-Dcoverage=false", "-Dinline=true", "-Dp_functional_mocking=0.8", "-Dp_reflection_on_privagte=0.5", "-", "..."],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 337.44,
+    "x2": 551.04,
+    "y1": 216.48,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695484-Figure3-1.png"
+}]

@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 5: Percentage of time that JavaMOP spends performing load-time instrumentation (Instrumentation), running the code under test (Project), handling monitors and events (Monitoring), waiting for locks (Synchronization), printing violations (Violation), and other processes (Other). We only show percentages that are above 5%.",
+  "captionBoundary": {
+    "x1": 53.521976470947266,
+    "x2": 558.2042236328125,
+    "y1": 204.82606506347656,
+    "y2": 232.375
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "Fourth", "quartile", "5.54%", "8.31%", "19.75%", "10.49%", "55.86%", "(d)", "Third", "quartile", "5.58%", "15.73%", "73.09%", "(c)", "Second", "quartile", "6.56%", "10.75%", "76.83%", "(b)", "First-quartile", "6.45%", "12.03%", "74.97%", "(a)", "All", "projects", "9.32%", "15.49%", "9.83%", "60.5%", "Instrumentation", "Project", "Monitoring", "Synchronization", "Violation", "Other"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 549.12,
+    "y1": 86.39999999999999,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure5-1.png"
+}, {
+  "caption": "Figure 6: % of JavaMOP time spent per component, aggregated for projects in every fifth percentile; y-axis starts at 20%.",
+  "captionBoundary": {
+    "x1": 317.9559631347656,
+    "x2": 558.203125,
+    "y1": 454.8381042480469,
+    "y2": 471.4280090332031
+  },
+  "figType": "Figure",
+  "imageText": ["Instr.", "Project", "Monitoring", "Sync.", "Violation", "Other", "e", "O", "P", "tim", "to", "ta", "lJ", "av", "aM", "%", "of", "100", "80", "60", "40", "5", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75", "80", "85", "90", "95", "10", "020"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 559.1999999999999,
+    "y1": 238.56,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure6-1.png"
+}, {
+  "caption": "Figure 1: CSC Spec, written in an AspectJ-based DSL.",
+  "captionBoundary": {
+    "x1": 341.7490234375,
+    "x2": 534.4072875976562,
+    "y1": 185.93885803222656,
+    "y2": 191.56976318359375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "call(*", "Iterator.*(..))", "&&", "target(i)", "&&", "if(!Thread.holdsLock(this.c))", "{}", "11", "ere", ":", "(sync", "asyncMakeIter)", "|", "(sync", "syncMakeIter", "useIter)", "12", "@match", "{/*print", "violation*/}", "}", "1", "Collections_SynchronizedCollection(Collection", "c,", "Iterator", "i)", "{", "2", "Collection", "c;", "3", "event", "sync", "after()", "returning(Collection", "c)", ":", "4", "call(*", "Collections.synchronizedCollection(Collection)){", "this.c", "=", "c;", "}", "5", "event", "syncMakeIter", "after(Collection", "c)", "returning(Iterator", "i)", ":", "6", "call(*", "Collection+.iterator())", "&&", "target(c)", "&&", "if(Thread.holdsLock(c))", "{}", "7", "event", "asyncMakeIter", "after(Collection", "c)", "returning(Iterator", "i)", ":", "8", "call(*", "Collection+.iterator())", "&&", "target(c)", "&&", "if(!Thread.holdsLock(c))", "{}", "9", "event", "useIter", "before(Iterator", "i)", ":"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 551.04,
+    "y1": 87.36,
+    "y2": 179.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure1-1.png"
+}, {
+  "caption": "Table 4: Data on 1,279 projects on which we evaluate compiletime instrumentation. Table 2 describes column headers.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8032836914062,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Mean", "6.3", "54.6", "48.3", "12.3", "3.9×106", "6.4×107", "Med", "1.9", "18.3", "14.6", "6.5", "5,427", "94,261", "Min", "1.3", "3.0", "1.6", "1.1", "76", "2", "Max", "324.5", "2,811.1", "2,798.0", "493.4", "1.4×109", "1.1×1010", "Sum", "8,076.7", "69,845.3", "61,768.5", "n/a", "4.9×109", "8.2×1010", "t", "𝑡", "rv", "𝑡", "rv−t", "𝑡", "rv/t", "#Mon", "#Event"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 545.28,
+    "y1": 105.6,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Table4-1.png"
+}, {
+  "caption": "Figure 8: Relative RV runtime overheads with load-time (LTW) vs. after offline (CTW) instrumentation, for 1,279 projects, aggregated for every tenth percentile.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.2041015625,
+    "y1": 303.380126953125,
+    "y2": 330.92803955078125
+  },
+  "figType": "Figure",
+  "imageText": ["(𝑡r", "v", "/", "t)", "LTW", "CTW", "e", "ov", "er", "he", "ad", "Re", "la", "tiv", "13", ".8", "8", "1.", "36", "1.", "59", "1.", "79", "2.", "18", "1.", "17", "1.", "31", "1.", "1", "1.", "04", "1.", "02", "25", ".7", "9", "37", ".4", "1", "18", ".2", "3", ".5", "2.", "32", "2.", "82", "3.", "62", "4.", "78", "6.", "8", "9.", "06", "12", "30", "20", "10", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100", "0"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 323.52,
+    "x2": 552.0,
+    "y1": 186.72,
+    "y2": 298.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure8-1.png"
+}, {
+  "caption": "Table 1: Summary statistics on 1,544 projects that we study, in terms of no. of test methods (#Tests), end-to-end test time in seconds (t), lines of code (SLOC), % statement coverage (𝑐𝑜𝑣𝑠 ), % branch coverage (𝑐𝑜𝑣𝑏 ), no. of commits (#SHAs), years since first commit (age), and no. of stars (#8).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.1390075683594,
+    "y1": 220.8371124267578,
+    "y2": 271.9959716796875
+  },
+  "figType": "Table",
+  "imageText": ["#Tests", "t", "SLOC", "𝑐𝑜𝑣𝑠", "𝑐𝑜𝑣𝑏", "#SHAs", "age", "#8", "Mean", "118.1", "8.2", "7,034.6", "53.8", "45.8", "240.1", "8.9", "162.8", "Med", "22.0", "2.0", "2,273.0", "58.3", "48.2", "95.0", "9.0", "29.0", "Min", "1", "1.3", "21", "0.0", "0.0", "1", "0", "0", "Max", "17,874", "1,561.9", "6.2×105", "100.0", "100.0", "17,223", "26", "20,198", "Sum", "1.8×105", "12,676.5", "1.1×107", "n/a", "n/a", "n/a", "n/a", "n/a", "and", "likely", "never", "reveal", "a", "subtle", "bug", "in", "sum:", "line", "5", "synchronizes", "on", "a", "Collections.synchronizedCollection()", "(line", "2)", "before", "obtain-", "ing", "iterator", "from", "it,", "but", "line", "9", "uses", "iterator", "in", "non-synchronized", "code.", "RV", "of", "these", "tests", "against", "CSC", "reveals", "the", "bug:", "instrumenting", "sum", "on", "lines", "3,", "7,", "and", "10", "(shown", "as", "comments)", "causes", "CSC", "monitors", "to", "observe", "the", "violating", "trace:", "sync", "syncMakeIter", "useIter.", "Both", "tests", "produce", "this", "trace,", "but", "one", "of", "them", "suffices", "to", "find", "the", "bug.", "So,", "RV", "overhead", "is", "wasted", "the", "second", "time", "w.r.t.", "CSC.", "Monitoring", "CSC", "helped", "find", "several", "confirmed", "bugs", "in", "open-source", "projects", "[86]."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.68,
+    "y1": 275.52,
+    "y2": 450.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Table1-1.png"
+}, {
+  "caption": "Figure 2: An example of monitored code and its unit tests.",
+  "captionBoundary": {
+    "x1": 56.71797561645508,
+    "x2": 291.1265563964844,
+    "y1": 204.8708038330078,
+    "y2": 210.501708984375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "/∗", "INSTRUMENTATION:", "Collections_SynchronizedCollection.useIter", "∗/", "11", "return", "total;", "12", "}", "13", "@Test", "public", "void", "testSum(){", "assertEquals(6,", "sum(Arrays.asList(1,", "2,", "3)));", "}", "14", "@Test", "public", "void", "testSumRev(){", "assertEquals(6,", "sum(Arrays.asList(3,", "2,", "1)));", "}"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 50.4,
+    "x2": 293.28,
+    "y1": 159.35999999999999,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure2-1.png"
+}, {
+  "caption": "Figure 9: Average relative RV overhead across several versions of 35 projects: JavaMOP (MOP), evolution-aware RV (psc1 and pscℓ3 ), and two incremental offline instrumentation strategies (CTW(online) and CTW(offline)).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2015991210938,
+    "y1": 230.0940704345703,
+    "y2": 251.0179443359375
+  },
+  "figType": "Figure",
+  "imageText": ["MOP", "psc1", "pscℓ3", "CTW(online)", "CTW(offline)", "20", "10", "0", "P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P1", "0", "P1", "1", "P1", "2", "P1", "3", "P1", "4", "P1", "5", "P1", "6", "P1", "7", "P1", "8", "P1", "9", "P2", "0", "P2", "1", "P2", "2", "P2", "3", "P2", "4", "P2", "5", "P2", "6", "P2", "7", "P2", "8", "P2", "9", "P3", "0", "P3", "1", "P3", "2", "P3", "3", "P3", "4", "P3", "5"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 542.4,
+    "y1": 82.56,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Distribution of times (in seconds) for offline instrumentation (instr.), RV after offline instrumentation (CTW), and RV with load-time instrumentation (outliers removed).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6534423828125,
+    "y1": 366.1881103515625,
+    "y2": 393.73699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["instr.", "(all)", "instr.", "(src)", "CTW", "LTW", "0", "50", "100", "150", "200", "250", "300"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 295.2,
+    "y1": 253.92,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure10-1.png"
+}, {
+  "caption": "Table 2: Overhead-related results for projects in our study: end-to-end test time in seconds without RV (t), end-to-end test time in seconds with RV (𝑡rv), absolute overhead in seconds (𝑡rv−t), relative overhead (𝑡rv/t), no. of generated monitors (#Mon), and no. of signaled events (#Event).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8106689453125,
+    "y1": 85.7260971069336,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Mean", "8.2", "257.3", "249.1", "23.6", "5.3×106", "1.4×108", "Med", "2.0", "23.0", "18.9", "7.9", "9,109.0", "1.6×105", "Min", "1.3", "3.0", "−14.5", "0.3", "76", "2", "Max", "1,561.9", "1.0×105", "1.0×105", "5,002.9", "1.4×109", "6.0×1010", "Sum", "12,676.5", "4.0×105", "3.8×105", "n/a", "8.2×109", "2.2×1011", "t", "𝑡", "rv", "𝑡", "rv−t", "𝑡", "rv/t", "#Mon", "#Event"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 138.72,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Table2-1.png"
+}, {
+  "caption": "Figure 12: Before we fixed a bug in JavaMOP, handling violations was a sizeable portion of RV time across all projects (square chart). That bug dominated overheads in projects like lexburner/consistent-hash-algorithm before (left pie chart) but not after (rightmost pie chart) we fixed it. The bar graph breaks down where evolution-aware RV spends time.",
+  "captionBoundary": {
+    "x1": 53.51996994018555,
+    "x2": 558.39111328125,
+    "y1": 358.4591064453125,
+    "y2": 386.00799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["Total", "time", "pscℓ3", "psc1", "mop", "·104", "0", "1", "2", "3", "13.7%", "13.03%", "24.69s", "23.49s", "9.29%", "16.75s", "55.44%", "99.94s", "5.88s", "9.53s", "5.29%", "86.46%", "21.28s", "1101.03s", "18.06s", "113.32s", "8.9%", "11.82s", "7.9s", "4.82%", "4.6%", "9.61%", "12.88%", "8.44%", "59.65%"],
+  "name": "12",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 545.28,
+    "y1": 255.84,
+    "y2": 356.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure12-1.png"
+}, {
+  "caption": "Figure 11: Incremental instrumentation on 7 mid- (M) and 9 bottom-range (B) projects in decreasing order of LTWminus CTW.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2022705078125,
+    "y1": 231.4110870361328,
+    "y2": 237.0419921875
+  },
+  "figType": "Figure",
+  "imageText": ["6", "MOP", "psc1", "pscℓ3", "CTW", "(online)", "CTW", "(offline)", "4", "2", "M1", "M2", "M3", "M4", "M5", "M6", "M7", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "0"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.48,
+    "x2": 540.0,
+    "y1": 82.56,
+    "y2": 229.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680400-Figure11-1.png"
+}]

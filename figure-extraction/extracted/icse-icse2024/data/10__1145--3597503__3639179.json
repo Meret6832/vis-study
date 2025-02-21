@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 1: Experimental Subject Programs",
+  "captionBoundary": {
+    "x1": 356.92401123046875,
+    "x2": 518.9305419921875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Subject", "Project", "KLoC", "MS", "#T", "#RT", "%Ex", "#Run", "#Mut", "commons-cli", "6.2", "90%", "438", "48.1", "0.4%", "35,940", "719", "joda-money", "9.2", "80%", "1,483", "104.3", "0.6%", "97,957", "895", "cdk-data", "10.6", "46%", "4,429", "69.7", "3.3%", "213,972", "1,371", "jline-reader", "13.3", "46%", "189", "30.3", "4.1%", "125,451", "2,808", "commons-valid.", "16.8", "72%", "533", "17.2", "2.7%", "35,632", "1,725", "commons-codec", "24.1", "85%", "1,156", "10.7", "19.9%", "33,766", "3,286", "spotify-web-api", "24.4", "60%", "291", "7.7", "1.1%", "20,802", "1,920", "commons-text", "26.6", "85%", "1,242", "9.7", "4.7%", "34,266", "3,784", "dyn4j", "66.1", "77%", "2,348", "28.2", "12.7%", "249,480", "8,143", "jfreechart", "138.4", "33%", "2,344", "9.5", "5.3%", "320,357", "18,926", "avg."],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Table1-1.png"
+}, {
+  "caption": "Figure 1: Illustrating the flow of a mutated program’s passing test run, modeled using RIPR: Reach, Infect, Propagate, Reveal.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.796142578125,
+    "y1": 486.20135498046875,
+    "y2": 513.75
+  },
+  "figType": "Figure",
+  "imageText": ["P1:", "P2:", "P3:", "P4:", "P5:", "P6:", "P7:", "P8:", "P9:", "P10:", "P11:", "P12:", "P13:", "P14:", "P15:", "P16:", "P17:", "P18:", "P19:", "P20:", "P21:", "P22:", "T4:", "T5:", "T6:", "T7:", "T8:", "T9:", "T1:", "T2:", "T3:", "T4:", "Legend", "Mutated", "Program", "Flow", "Original", "Program", "Flow", "Mutation", "Executed", "Checkpoint", "#0:", "Reached", "No", "test,", "or", "test", "assertion", "failed", "Actual:", "a.isMemberActive", "=", "false", "Expected:", "a.isMemberActive", "=", "true", "Checkpoint", "#3:", "Revealability", "Checkpoint", "#2:", "Propagation", "Checkpoint", "#1:", "Infection", "a.wallet", "=", "0", "a.isMemberActive", "=", "false", "return", "value", "=", "true", "a.wallet", "=", "10", "a.isMemberActive", "=", "false", "return", "value", "=", "true", "a.wallet", "=", "10", "a.isMemberActive", "=", "false", "return", "canCharge;", "}", "}", "//", "mutation:", "<", "changed", "to", "<=", "if", "(wallet", "<=", "0)", "{", "isMemberActive", "=", "false", "}", "if", "(canCharge)", "{", "wallet", "-=", "10;", "isMemberActive", "=", "true", "}", "public", "boolean", "chargeOneMonth()", "{", "boolean", "canCharge", "=", "wallet", ">=", "10;", "public", "class", "SubscriptionAccount", "{", "public", "int", "wallet", "=", "10;", "//", "membership", "status", "public", "boolean", "isMemberActive", "=", "false;", "assertTrue(canCharge);", "assertEquals(0,", "a.wallet);", "}", "}", "//", "no", "test", "on", "membership", "status", "//", "(isMemberActive)", "var", "canCharge", "=", "a.chargeOneMonth();", "public", "class", "TestSubAccount", "{", "@Test", "public", "void", "testWallet()", "{", "var", "a", "=", "new", "SubscriptionAccount();", "var", "canCharge", "=", "a.chargeOneMonth();"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 558.24,
+    "y1": 110.88,
+    "y2": 472.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Figure1-1.png"
+}, {
+  "caption": "Figure 3: Conceptual Sankey Diagram",
+  "captionBoundary": {
+    "x1": 97.4739990234375,
+    "x2": 250.3621826171875,
+    "y1": 240.02236938476562,
+    "y2": 245.65301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["failed", "passed", "(R)", "propagated", "not-propagated", "(P)", "infected", "not-infected", "(I)", "executed", "(R)"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 107.03999999999999,
+    "x2": 240.95999999999998,
+    "y1": 141.12,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Figure3-1.png"
+}, {
+  "caption": "Figure 6: Sankey diagram aggregated by mutation operators",
+  "captionBoundary": {
+    "x1": 185.03500366210938,
+    "x2": 426.95562744140625,
+    "y1": 377.4503479003906,
+    "y2": 383.08099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["(f)", "BooleanTrue", "44547", "aggregated", "test", "runs", "Execution", "Infection", "Propagation", "RevealabilityStart", "FL(162.7%)", "PS(55.5%)", "P(83.8%)", "P(10.9%)", "NP(16.2%)", "NP(89.1%)", "I(51.4%)", "NI(48.6%)", "start", "E", "(e)", "Math", "135194", "aggregated", "test", "runs", "Execution", "Infection", "Propagation", "RevealabilityStart", "FL(53.6%)", "PS(18.3%)", "P(88.8%)", "P(21.2%)", "NP(11.2%)", "NP(78.8%)", "I(69.5%)", "NI(30.5%)", "start", "E", "(d)", "NullReturns", "97187", "aggregated", "test", "runs", "Execution", "Infection", "Propagation", "RevealabilityStart", "FL(74.6%)", "PS(25.4%)", "P(84.8%)", "NP(3.8%)", "P(1.8%)", "NP(9.6%)", "I(94.4%)", "NI(5.6%)", "start", "E", "(c)", "VoidMethodCall", "207997", "aggregated", "test", "runs", "Execution", "Infection", "Propagation", "RevealabilityStart", "FL(14.0%)", "PS(86.0%)", "P(55.9%)", "P(1.8%)", "NP(3.3%)", "NP(39.0%)", "I(59.1%)", "NI(40.9%)", "start", "E", "(b)", "NegateConditional", "439264", "aggregated", "test", "runs", "Execution", "Infection", "Propagation", "RevealabilityStart", "FL(59.2%)", "PS(40.8%)", "P(74.3%)", "NP(17.1%)", "P(2.6%)", "NP(6.0%)", "I(80.3%)", "NI(19.7%)", "start", "E", "(a)", "ConditionalBoundary", "134505", "aggregated", "test", "runs", "Execution", "Infection", "Propagation", "RevealabilityStart", "FL(26.0%)", "PS(74.0%)", "P(27.1%)", "P(2.4%)", "NP(2.3%)", "NP(68.1%)", "I(29.4%)", "NI(70.6%)", "start", "E"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 567.36,
+    "y1": 102.72,
+    "y2": 369.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Figure6-1.png"
+}, {
+  "caption": "Figure 4: Ripples of mutations — Sankey diagram per project",
+  "captionBoundary": {
+    "x1": 183.21499633789062,
+    "x2": 428.7757873535156,
+    "y1": 635.9093017578125,
+    "y2": 641.5399780273438
+  },
+  "figType": "Figure",
+  "imageText": ["E:", "execution", "I:", "infected", "NI:", "not", "infected", "P:", "propagated", "NP:", "not", "propagated", "PS:", "pass", "FL:", "fail", "(j)", "dyn4j", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(47.7%)", "PS(52.3%)", "P(59.7%)", "P(4.5%)", "NP(9.8%)", "NP(26.1%)", "I(69.4%)", "NI(30.6%)", "start", "E", "(i)", "spotify-web-api", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(58.9%)", "PS(41.1%)", "P(84.6%)", "P(0.5%)", "NP(9.5%)", "NP(5.5%)", "I(94.1%)", "NI(5.9%)", "start", "E", "(h)", "joda-money", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(54.0%)", "PS(46.0%)", "P(55.5%)", "P(1.2%)", "NP(8.8%)", "NP(34.5%)", "I(64.3%)", "NI(35.7%)", "start", "E", "(g)", "jline-reader", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(22.0%)", "PS(78.0%)", "P(71.5%)", "P(3.3%)", "NP(5.7%)", "NP(19.6%)", "I(77.1%)", "NI(22.9%)", "start", "E", "(f)", "jfreechart", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(39.7%)", "PS(60.3%)", "P(62.6%)", "P(3.2%)", "NP(5.1%)", "NP(29.1%)", "I(67.7%)", "NI(32.3%)", "start", "E", "(e)", "commons-validator", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(52.9%)", "PS(47.1%)", "P(60.4%)", "P(4.1%)", "NP(10.8%)", "NP(24.7%)", "I(71.2%)", "NI(28.8%)", "start", "E", "(d)", "commons-text", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(67.2%)", "PS(32.8%)", "P(65.1%)", "P(6.8%)", "NP(6.0%)", "NP(22.1%)", "I(71.1%)", "NI(28.9%)", "start", "E", "(c)", "commons-codec", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(64.8%)", "PS(35.2%)", "P(68.3%)", "P(4.5%)", "NP(8.4%)", "NP(18.7%)", "I(76.8%)", "NI(23.2%)", "start", "E", "(b)", "commons-cli", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(58.5%)", "PS(41.5%)", "P(66.2%)", "P(2.0%)", "NP(7.6%)", "NP(24.2%)", "I(73.8%)", "NI(26.2%)", "start", "E", "(a)", "cdk-data", "Start", "Reaching", "Infection", "Propagation", "Revealability", "FL(48.0%)", "PS(52.0%)", "P(62.4%)", "P(1.0%)", "NP(5.0%)", "NP(31.7%)", "I(67.3%)", "NI(32.7%)", "start", "E"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 567.36,
+    "y1": 110.88,
+    "y2": 634.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Steps in the Scalable Analysis of Mutated Test Runs",
+  "captionBoundary": {
+    "x1": 182.98199462890625,
+    "x2": 429.0089111328125,
+    "y1": 171.27133178710938,
+    "y2": 176.9019775390625
+  },
+  "figType": "Figure",
+  "imageText": ["RIPR", "eﬀects", "Determine", "observed", "False", "True", "Excluded", "in", "our", "analysis", "State", "comparison", "runs)", "Test", "Run", "Syncrhonization", "Consistent?", "(no-mutation", "Test", "Execution", "State", "Collection", "Original", "Test", "Runs", "(10", "times)", "Mutation", "Test", "Run", "Mutated", "Method", "Mutated", "&", "Original", "Method", "Infection", "Checkpoint", "Mutation-wise", "Instrumentation", "Reachability", "Checkpoint", "Project-wise", "Instrumentation", "(Test-code)", "PropagationChe", "ckpoint", "(Per", "Test", "Case)", "Static", "Field", "Cleaners", "Post-Execution", "PhaseMutation", "Execution", "PhasePre-Execution", "Phase"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Surviving mutants that are killable by current tests",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1828002929688,
+    "y1": 239.55838012695312,
+    "y2": 245.18902587890625
+  },
+  "figType": "Figure",
+  "imageText": ["Observation", "3.", "On", "average", "51.8%", "of", "surviving", "mutants", "could", "potentially", "be", "killed", "by", "existing", "test", "suite", "based", "on", "infec-", "tion", "and", "propagation", "information.", "Kill”", "indicates", "surviving", "mutants", "that", "could", "potentially", "be", "killed", "based", "on", "either", "observed", "infection", "or", "propagation.", "We", "observe", "that", "18.5%–89.4%", "of", "surviving", "mutants", "could", "potentially", "be", "killed", "using", "existing", "test", "data", "and", "propagation", "information", "(41.3%,", "on", "average,", "survived", "mutants", "could", "be", "killed", "in", "test", "code,", "and", "51.8%,", "on", "average,", "survived", "mutants", "could", "be", "killed", "in", "either", "test", "or", "production", "code).", "With", "additional", "infection", "information,", "this", "number", "could", "slightly", "increase", "to", "35.6%–91.6%.", "The", "fact", "that", "this", "difference", "is", "relatively", "small", "between", "locally", "detectable", "infection", "and", "test-code", "propagated", "infection", "can", "be", "attributed", "to", "the", "fact", "that", "most", "observed", "infections", "are", "propagated", "into", "the", "test", "code,", "as", "demonstrated", "in", "the", "Sankey", "diagram", "in", "response", "to", "RQ1.", "We", "can", "also", "infer", "that", "8.4%–64.4%", "of", "surviving", "mutants", "are", "test-equivalent", "mutants", "[22]", "(i.e.,", "mutants", "that", "cannot", "be", "detected", "by", "their", "test", "cases).", "Additionally,", "upon", "breaking", "down", "the", "mutation", "operators,", "we", "discover", "that", "most", "test-", "equivalent", "mutants,", "using", "existing", "test", "data,", "are", "generated", "by", "the", "“ConditionalBoundary”", "mutation", "operator."],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 271.2,
+    "y2": 505.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Figure5-1.png"
+}, {
+  "caption": "Table 2: Method Exit Anomalies",
+  "captionBoundary": {
+    "x1": 108.99200439453125,
+    "x2": 238.55068969726562,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Program", "Name", "#Failed", "Anomaly", "Source-Code", "Oracle", "commons-cli", "13,965", "(60.32%)", "4,216", "(30.19%)", "1,728", "(40.99%)", "commons-text", "17,832", "(67.95%)", "4,985", "(27.96%)", "1,882", "(37.75%)", "joda-money", "36,495", "(50.68%)", "10,486", "(28.73%)", "5,931", "(56.56%)", "jline-reader", "21,448", "(19.36%)", "9,842", "(45.89%)", "1,529", "(15.54%)", "commons-validator", "13,340", "(51.42%)", "4,947", "(37.08%)", "1,159", "(23.43%)", "cdk-data", "80,398", "(45.35%)", "38,550", "(47.95%)", "5,717", "(14.83%)", "spotify-web-api", "2,688", "(34.19%)", "677", "(25.19%)", "0", "(0.00%)", "commons-codec", "18,097", "(64.04%)", "5,250", "(29.01%)", "1,195", "(22.76%)", "jfreechart", "96,626", "(37.92%)", "31,676", "(32.78%)", "12,749", "(40.25%)", "cdk-data", "80,398", "(45.35%)", "38,550", "(47.95%)", "5,717", "(14.83%)", "dyn4j", "89,603", "(44.43%)", "47,065", "(52.53%)", "22,324", "(47.43%)"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 105.6,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639179-Table2-1.png"
+}]

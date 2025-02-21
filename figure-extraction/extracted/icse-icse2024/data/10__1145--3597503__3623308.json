@@ -1,0 +1,321 @@
+[{
+  "caption": "Figure 4: Comparison of performance scores between the best simple method and the best deep method",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1931762695312,
+    "y1": 304.46136474609375,
+    "y2": 321.0509948730469
+  },
+  "figType": "Figure",
+  "imageText": ["parsing.", "Our", "naive", "preprocessing", "has", "the", "least", "runtime", "on", "all", "the", "five", "datasets", "we", "use.", "Our", "naive", "preprocessing", "strategies", "for", "simple", "methods", "run", "4𝑋", "to", "12𝑋", "faster", "than", "the", "neural", "representation", "on", "the", "five", "log", "datasets,", "and", "13.6𝑋", "to", "19.3𝑋", "faster", "than", "the", "log", "parser", "with", "semantics", "extraction", "on", "the", "four", "log", "datasets,", "where", "the", "time", "for", "preprocessing", "Spirit", "via", "the", "log", "parser", "is", "omitted", "due", "to", "“out", "of", "memory”", "error.", "RQ1", "Answer:", "DL", "methods", "are", "neither", "better", "in", "performance", "scores", "nor", "runtime", "efficiency", "than", "simple", "methods", "on", "log", "anom-", "aly", "detection."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.28,
+    "x2": 558.72,
+    "y1": 339.36,
+    "y2": 454.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Figure4-1.png"
+}, {
+  "caption": "Table 4: Training and Inference Efficiency on five public datasets (seconds)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0330505371094,
+    "y1": 501.4503479003906,
+    "y2": 518.0400390625
+  },
+  "figType": "Table",
+  "imageText": ["‘-’", "denotes", "“out", "of", "memory”", "error,", "N/A", "denotes", "not", "applicable.", "Liberty", "Train", "440.0547", "473.2985", "10,187.34908", "9.6261", "N/A", "N/A", "Infer", "26.0857", "30.0932", "94.7462", "4.3901", "N/A", "N/A", "Spirit", "Train", "-", "-", "6,626.9311", "7.5750", "N/A", "N/A", "Infer", "-", "-", "110.3898", "2.1295", "N/A", "N/A", "Thunder-", "bird", "Train", "581.3999", "592.0321", "10,218.6227", "10.2145", "N/A", "N/A", "Infer", "30.8276", "29.6045", "85.5081", "10.4084", "N/A", "N/A", "BGL", "Train", "75.0809", "63.3461", "5,188.3536", "4.0601", "N/A", "N/A", "Infer", "3.2555", "3.2807", "72.9399", "3.1934", "N/A", "N/A", "HDFS", "Train", "74.7774", "41.4481", "6,044.0218", "1.8742", "2.3986", "29.8954", "Infer", "2.7748", "2.2360", "55.4187", "2.3104", "0.2994", "0.4844", "Dataset", "CNN", "LogRobust", "NeuralLog", "KNN", "(N=1)", "DT", "SLFN"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 532.8,
+    "y2": 638.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table4-1.png"
+}, {
+  "caption": "Table 5: Preprocessing Efficiency on five public datasets (seconds)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7974243164062,
+    "y1": 464.3303527832031,
+    "y2": 480.9200134277344
+  },
+  "figType": "Table",
+  "imageText": ["‘-’", "denotes", "“out", "of", "memory”", "error", "Ours", "71.8927", "23.7540", "75.1366", "47.0459", "64.4417", "Parser+Semantics", "980.2582", "434.9437", "1,114.0291", "-", "1,244.7097", "Neural", "representation", "289.1004", "205.1231", "323.4426", "568.4599", "484.8715", "Method", "HDFS", "BGL", "Thunderbird", "Spirit", "Liberty"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 495.84,
+    "y2": 551.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table5-1.png"
+}, {
+  "caption": "Table 3: Overall Performance on five public datasets (1% training dataset)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.636474609375,
+    "y1": 314.693359375,
+    "y2": 331.2829895019531
+  },
+  "figType": "Table",
+  "imageText": ["N/A", "denotes", "not", "applicable.", "Liberty", "R", "0.9844", "0.9895", "1.0000", "1.0000", "N/A", "N/A", "F1", "0.9657", "0.9817", "1.0000", "1.0000", "N/A", "N/A", "Spirit", "R", "0.0651", "0.0368", "0.3126", "0.9078", "N/A", "N/A", "F1", "0.0440", "0.0321", "0.3430", "0.9135", "N/A", "N/A", "P", "0.9479", "0.9746", "1.0000", "1.0000", "N/A", "N/A", "Thunder-", "bird", "P", "0.4435", "0.", "9492", "0.9997", "0.9912", "N/A", "N/A", "R", "0.8559", "0.8277", "0.8790", "0.9048", "N/A", "N/A", "F1", "0.5728", "0.8836", "0.9354", "0.9455", "N/A", "N/A", "P", "0.0979", "0.0307", "0.4039", "0.9193", "N/A", "N/A", "BGL", "R", "0.9028", "0.7661", "0.9324", "0.9754", "N/A", "N/A", "F1", "0.5055", "0.5579", "0.8258", "0.9844", "N/A", "N/A", "F1", "0.8177", "0.8747", "0.8766", "0.9766", "0.9856", "0.8714", "P", "0.3792", "0.4869", "0.7903", "0.9935", "N/A", "N/A", "P", "0.8782", "0.9104", "0.9387", "0.9824", "0.9796", "0.9537", "HDFS", "R", "0.7601", "0.8498", "0.8246", "0.9713", "0.9917", "0.8032", "Dataset", "CNN", "LogRobust", "NeuralLog", "KNN", "(N=1)", "DT", "SLFN"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 281.28,
+    "y1": 345.59999999999997,
+    "y2": 492.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table3-1.png"
+}, {
+  "caption": "Figure 2: Preprocessing of block-wise datasets for simple methods",
+  "captionBoundary": {
+    "x1": 172.48199462890625,
+    "x2": 439.5074157714844,
+    "y1": 185.23336791992188,
+    "y2": 190.864013671875
+  },
+  "figType": "Figure",
+  "imageText": ["…………", "081109", "213217", "2267", "INFO", "dfs.DataNode$PacketResponder:", "PacketResponder", "0", "for", "block", "blk_-", "5852844080027817147", "terminating", "1081109", "213028", "2206", "INFO", "dfs.DataNode$PacketResponder:", "Received", "block", "blk_3777400576053320362", "of", "size", "67108864", "from", "/10.251.31.5", "Event-frequency", "Vectorization", "…………", "[1,", "0,", "3,", "0", ",", "……]", "blk_-5852844080027817147:", "[5,", "0,", "0,", "0", "……]", "blk_3777400576053320362:", "Log", "Vectors", "…", "…………", "Received", "block", "<*>", "of", "size", "<*>", "from", "<*>", "PacketResponder", "<*>", "for", "block", "<*>", "terminating", "blk_5852844080027817147:", "Tokenized", "Log", "Messages", "in", "Blocks", "…………", "blockMap", "updated:", "<*>", "is", "added", "to", "<*>", "size", "<*>", "Received", "block", "<*>", "of", "size", "<*>", "from", "<*>", "blk_3777400576053320362:", "Eliminate", "headers", "and", "numerical", "tokens", "Raw", "Log", "Messages"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 481.44,
+    "y1": 82.56,
+    "y2": 168.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Preprocessing of message-wise datasets for simple methods",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03656005859375,
+    "y1": 286.2023620605469,
+    "y2": 302.7919921875
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F-score", "ho", "d)", "m", "pl", "e", "m", "et", "ho", "d-", "Be", "st", "d", "ee", "p", "m", "et", "t", "si", "(B", "es", "el", "ta", "e", "D", "Sc", "or", "HDFS", "BGL", "Thunderbird", "Spirit", "0.12", "0.1", "0.08", "0.06", "0.04", "0.02", "0", "0.0413", "0.0625", "0.0044", "0.0161", "0.0586", "0.0975", "0.0030", "0.0062", "0.023", "0.0017", "0.0254", "0.0046", "Eliminate", "headers", "and", "numerical", "tokens", "Tokenized", "Log", "Messages", "RAS", "KERNEL", "INFO", "<*>,", "ddr", "errors(s)", "detected", "and", "corrected", "on", "rank", "<*>,,", "bit", "<*>", "…………", "RAS", "KERNEL", "INFO", "CE", "sym", "<*>,", "at", "<*>,", "mask", "<*>,"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 294.71999999999997,
+    "x2": 557.28,
+    "y1": 204.0,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Comparison of NeuralLog performance scoreswhen setting window to 1 and 10",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 543.5422973632812,
+    "y2": 560.1320190429688
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F-score", "w", "=", "1", "–", "N", "eu", "ra", "lL", "og", "w", "in", "do", "w", "=", "10", ")", "in", "do", "og", "w", "ra", "lL", "(N", "eu", "el", "ta", "e", "D", "Sc", "or", "BGL", "Thunderbird", "Spirit", "0.08", "0.07", "0.06", "0.05", "0.04", "0.03", "0.02", "0.01", "0", "-0.01", "-0.02", "0.0077", "0.0401", "0.0007", "0.0112", "0.0734", "-0.0101", "-0.0023", "0.0013", "0.0162"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 430.56,
+    "y2": 529.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Figure5-1.png"
+}, {
+  "caption": "Table 10: The optimal models output by LightAD with different priorities on deduplicated HDFS",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.636474609375,
+    "y1": 81.47433471679688,
+    "y2": 98.06402587890625
+  },
+  "figType": "Table",
+  "imageText": ["Inference", "(0.5,", "0.0,", "0.5)", "KNN", "0.3076", "DT", "DT", "0.3462", "SLFN", "0.3377", "CNN", "0.1065", "Balanced", "(0.3,", "0.3,", "0.3)", "KNN", "0.1850", "DT", "DT", "0.2121", "SLFN", "0.1984", "Train", "(0.5,", "0.5,", "0.0)", "KNN", "0.3514", "KNN", "DT", "0.3499", "SLFN", "0.3377", "CNN", "0.1896", "DT", "0.7030", "SLFN", "0.6824", "CNN", "0.2593", "CNN", "0.5904", "Accuracy", "(1.0,", "0.0,", "0.0)", "KNN", "0.7000", "DT", "Priority", "(_1,", "_2,", "_3)", "Model", "ModelGain", "Optimal", "Model"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 290.4,
+    "y1": 112.8,
+    "y2": 291.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table10-1.png"
+}, {
+  "caption": "Figure 7: Procedure LightAD: strive to find the best model that maximizes ModelGain on training and validation data and check whether the proposed model is valuable",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 317.6573486328125,
+    "y2": 345.2049865722656
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "Let", "𝑆", "denote", "the", "set", "of", "simple", "models", "(e.g.,", "DT,", "KNN),", "𝑘", "denote", "of", "proposed", "model", "(e.g.,", "CNN,", "LogRobust)", "and𝑀", "denote", "𝑆", "∪", "{𝑘", "}.", "For", "each", "𝑚", "∈", "𝑀", ",", "Space𝑚", "denotes", "the", "corresponding", "hyper-parameter", "space", "in", "which", "these", "hyper-parameters", "need", "to", "be", "tuned.", "|Space𝑚", "|", "denotes", "the", "dimension", "of", "𝑆𝑝𝑎𝑐𝑒𝑚", ".", "2.", "LightAD", "initially", "runs", "each𝑚", "for", "𝑁𝑚", "=", "10", "∗", "|Space𝑚", "|", "times.", "Each", "run", "is", "denoted", "as", "run𝑖∈𝑁𝑚", "and", "the", "corresponding", "hyper-parameters", "are", "contained", "in", "set", "𝐻𝑚", ".", "3.", "Each", "run𝑖", "is", "scored", "with", "a", "certain", "optimization", "objective.", "In", "the", "case", "of", "our", "LightAD,", "the", "objective", "is", "to", "maximize", "ModelGain,", "leveraging", "three", "aspects", "of", "the", "model:", "accuracy,", "train", "time,", "and", "infer", "time.", "The", "set", "of", "scores", "is", "kept", "in", "SCORES(𝑚)", ".", "4.", "LightAD", "adopts", "Bayesian", "Tuner", "which", "builds", "a", "surrogate", "function", "S𝑚", "(e.g.,", "Gaussian", "Process)", "based", "on", "SCORES(𝑚)", "and", "𝐻𝑚", ".", "The", "goal", "of", "S𝑚", "is", "to", "approximate", "F𝑚", "=", "F(Score", "|𝑚,𝑆𝑝𝑎𝑐𝑒𝑚", ")", ".", "ℎ𝑛𝑒𝑤", "=", "𝑎𝑟𝑔𝑚𝑎𝑥S𝑚", "and", "ModelGain(ℎ𝑛𝑒𝑤", ")", "are", "added", "into", "𝐻𝑚", "and", "SCORES(𝑚)", ",", "respectively.", "5.", "Step", "3", "is", "repeated", "until", "max𝑖𝑡𝑒𝑟", "=", "10", "∗", "|Space𝑚", "|2", "is", "reached.", "6.", "For", "each𝑚", "∈", "𝑀", ",", "BESTPARAMS(𝑚)", "=", "𝑎𝑟𝑔𝑚𝑎𝑥SCORES(m).", "7.", "Return", "the", "model", "with", "the", "highest", "score", "on", "the", "test", "dataset", "and", "its", "corresponding", "optimal", "hyper-parameters.", "If", "the", "proposed", "model", "𝑘", "is", "exactly", "the", "best", "model,", "then", "it", "is", "considered", "as", "valuable.", "Otherwise,", "𝑘", "is", "considered", "as", "redundant."],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 82.56,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Figure7-1.png"
+}, {
+  "caption": "Table 7: Comparison of results on original hdfs and deduplicated hdfs",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6484680175781,
+    "y1": 117.70308685302734,
+    "y2": 134.29302978515625
+  },
+  "figType": "Table",
+  "imageText": ["Deduplicated", "HDFS", "with", "Bayesian", "Tuner", "P", "0.9009", "0.6710", "0.8218", "0.8945", "0.8967", "0.8930", "R", "0.9542", "0.9975", "0.8818", "0.9922", "0.9920", "0.9947", "F1", "0.9244", "0.8017", "0.8464", "0.9406", "0.9410", "0.9407", "Deduplicated", "HDFS", "R", "1.0000", "1.0000", "0.9707", "0.9263", "0.9816", "1.0000", "F1", "0.8011", "0.7979", "0.8005", "0.9105", "0.9400", "0.9399", "F1", "0.9867", "0.9874", "0.9977", "0.9988", "0.9990", "0.9962", "P", "0.6690", "0.6644", "0.6847", "0.8975", "0.9029", "0.8871", "P", "0.9840", "0.9858", "0.9971", "0.9986", "0.9988", "0.9962", "Original", "HDFS", "R", "0.9895", "0.9890", "0.9984", "1.0000", "0.9991", "0.9962", "Dataset", "CNN", "LogRobust", "NeuralLog", "KNN", "DT", "SLFN"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 148.79999999999998,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table7-1.png"
+}, {
+  "caption": "Figure 6: Workflow of LightAD",
+  "captionBoundary": {
+    "x1": 111.0719985961914,
+    "x2": 236.77195739746094,
+    "y1": 407.4901123046875,
+    "y2": 413.1210021972656
+  },
+  "figType": "Figure",
+  "imageText": ["Testing", "Data", "…", "Your", "proposed", "model", "Simple", "baseline", "models", "Is", "your", "model", "“the", "BEST”", "?", "Validation", "Score", "Inference", "Time", "Training", "Time", "Model", "&", "Parameter", "Pool", "Optimization", "Goals", "parameter_1:", "{‘linear’,", "…}", "parameter_2:", "{1,", "2,", "3,", "…}", "…", "max_depth:", "{1,", "2,", "3,", "4,", "…}", "min_leaf_node:", "{1,", "2,", "3,…}", "…", "solver:", "{‘adam’,", "‘sgd’,", "…}", "activation:", "{‘logistic’,", "…}", "…", "Bayesian", "Optimizer", "Cross", "ValidationTraining", "Data", "…"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 293.28,
+    "y1": 258.24,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Figure6-1.png"
+}, {
+  "caption": "Figure 1: Overview of log anomaly detection workflow",
+  "captionBoundary": {
+    "x1": 195.7449951171875,
+    "x2": 416.245849609375,
+    "y1": 203.17935180664062,
+    "y2": 208.80999755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Abnormal", "Semantic", "vectors", "Semantic", "Vectors", "OR", "Neural", "Encoder", "WordPiece", "Tokenization", "Verification", "succeeded", "for", "Remove", "number,", "punctuation,", "...Contents", "i.", "info", "dfs", "datablockscanner", "verification", "succeeded", "for", "Log", "messages", "i.", "081109", "205931", "13", "INFO", "dfs.DataBlockScanner:", "Preprocessing", "Neural", "Representation", "Without", "Log", "parsing", "With", "Log", "parsing", "LSTM", "CNN", "…", "Deep", "Learning", "Models", "Classical", "ML-based", "Models", "SVM", "LogCluster", "…", "Anomaly", "Detection", "Quantitative", "vectors", "Log", "Grouping", "Feature", "Extraction", "(𝑬𝟏,", "𝑬𝟐,", "…", ",", "𝑬𝒏)", "Log", "sequence", "Log", "Parsing", "Log", "parser", "Log", "events", "i.", "Receiving", "block", "<*>", "src:", "<*>", "dest:", "<*>", "Receiving", "block", "blk_1608999687919862906", "src:", "/10.250.19.102:54106", "dest:", "/10.250.19.102:50010", "Log", "Collection", "Log", "messages", "i.", "081109", "203518", "143", "INFO", "dfs.DataNode$DataXceiver:", "Sliding", "windows", "Fixed", "windows", "Session", "windows", "Sequential", "vectors", "Event", "count", "Vectors", "Normal"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 555.36,
+    "y1": 84.47999999999999,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Figure1-1.png"
+}, {
+  "caption": "Table 1: Descriptive Statistics of log datasets",
+  "captionBoundary": {
+    "x1": 348.844970703125,
+    "x2": 527.0084228515625,
+    "y1": 317.2713623046875,
+    "y2": 322.9020080566406
+  },
+  "figType": "Table",
+  "imageText": ["Spirit", "Supercomputer", "message-wise", "7,983,345", "768,142", "Liberty", "Supercomputer", "message-wise", "10,000,000", "3,256,972", "HDFS", "Distributed", "system", "block-wise", "11,175,629", "16,838", "Blue", "Gene", "/L", "Supercomputer", "message-wise", "4,747,963", "348,460", "Thunderbird", "Supercomputer", "message-wise", "10,000,000", "353,794", "Dataset", "Category", "Label", "Granularity", "#Messages", "#Anomalies"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 337.91999999999996,
+    "y2": 395.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table1-1.png"
+}, {
+  "caption": "Table 8: Parameter Pool for simple methods",
+  "captionBoundary": {
+    "x1": 216.89700317382812,
+    "x2": 394.8003845214844,
+    "y1": 81.47433471679688,
+    "y2": 87.10498046875
+  },
+  "figType": "Table",
+  "imageText": ["tol", "1e-4", "[1e-6,", "1e-2]", "Tolerance", "for", "the", "optimization.", "max_iter", "200", "[20,", "400]", "Maximum", "number", "of", "iterations.", "activation", "“relu”", "[“identity”,", "“relu”,", "“logistic”,", "“tanh”]", "Activation", "function", "for", "the", "hidden", "layer.", "SLFN", "alpha", "1e-4", "[1e-6,", "1e-2]", "Strength", "of", "the", "L2", "regularization", "term.", "DT", "max_depth", "None", "None", "∪", "[5,", "70]", "Maximum", "depth", "of", "the", "tree.", "min_samples_split", "2", "[2,", "5]", "Minimum", "number", "of", "samples", "required", "to", "split", "an", "internal", "node.", "min_samples_leaf", "1", "[1,", "5]", "Minimum", "number", "of", "samples", "required", "to", "be", "at", "a", "leaf", "node.", "hidden", "neurons", "100", "[10,", "200]", "Number", "of", "neurons", "in", "the", "hidden", "layer.", "KNN", "n_neighbors", "5", "[1,10]", "Number", "of", "the", "nearest", "neighbors", "used", "for", "classification.", "metric", "“euclidean”", "[“euclidean”,", "“manhattan”,", "“cosine”]", "Metric", "to", "use", "for", "distance", "computation.", "criterion", "“gini”", "[“gini”,", "“entropy”,", "“log_loss”]", "The", "function", "to", "measure", "the", "quality", "of", "a", "split.", "splitter", "“best”", "[“best”,", "“random”]", "The", "strategy", "used", "to", "choose", "the", "split", "at", "each", "node.", "Models", "Parameters", "Default", "Tuning", "Range", "Description"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 543.36,
+    "y1": 101.75999999999999,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table8-1.png"
+}, {
+  "caption": "Table 9: Parameter Pool for deep methods",
+  "captionBoundary": {
+    "x1": 221.02999877929688,
+    "x2": 390.6667175292969,
+    "y1": 239.60232543945312,
+    "y2": 245.23297119140625
+  },
+  "figType": "Table",
+  "imageText": ["NeuralLog", "init_lr", "3e-4", "[1e-4,", "1e-1]", "Initial", "learning", "rate.", "num_heads", "12", "[2,", "6]", "Number", "of", "attention", "heads.", "dropout", "1e-1", "[1e-2,", "1e-1]", "The", "dropout", "rate", "during", "training", "phase.", "val_ratio", "0.1", "[0.1,0.4]", "The", "ratio", "of", "validation", "set", "in", "train", "set.", "num_directions", "2", "[1,", "2]", "Number", "of", "directions", "used", "in", "LSTM", "ff_dim", "2,048", "[1536,", "2560]", "Size", "of", "the", "feed-forward", "network.", "epoches", "20", "[5,", "50]", "Maximum", "number", "of", "iterations.", "batch_size", "64", "[1,", "64]", "Number", "of", "samples", "that", "will", "be", "propagated.", "LogRobust", "learning_rate", "1e-2", "[1e-3,", "1e-1]", "The", "learning", "rate", "during", "training", "phase.", "batch_size", "1,024", "[16,", "2,048]", "Number", "of", "samples", "that", "will", "be", "propagated.", "num_layers", "2", "[2,", "12]", "Number", "of", "layers", "in", "the", "fully", "connected", "neural", "network.", "embedding_dim", "32", "[1,", "128]", "The", "embedding", "size", "for", "log", "events.", "epoches", "5", "[1,", "20]", "Maximum", "number", "of", "iterations.", "CNN", "epoches", "5", "[1,", "20]", "Maximum", "number", "of", "iterations.", "learning_rate", "0.05", "[1e-3,", "1e-1]", "The", "learning", "rate", "during", "training", "phase.", "batch_size", "1,024", "[32,", "2048]", "Number", "of", "samples", "that", "will", "be", "propagated.", "hidden_size", "128", "[1,", "256]", "Number", "of", "neurons", "in", "the", "hidden", "layer.", "hidden_size", "128", "[1,", "256]", "Number", "of", "neurons", "in", "the", "hidden", "layer.", "embedding_dim", "32", "[1,", "64]", "The", "embedding", "size", "for", "log", "events.", "Models", "Parameters", "Default", "Tuning", "Range", "Description"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 108.0,
+    "x2": 500.15999999999997,
+    "y1": 259.68,
+    "y2": 460.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table9-1.png"
+}, {
+  "caption": "Table 2: Overall Performance on five public datasets",
+  "captionBoundary": {
+    "x1": 332.7279968261719,
+    "x2": 543.1240234375,
+    "y1": 360.0203552246094,
+    "y2": 365.6510009765625
+  },
+  "figType": "Table",
+  "imageText": ["‘-’", "denotes", "“out", "of", "memory”", "error,", "N/A", "denotes", "not", "applicable.", "Liberty", "R", "0.9999", "0.9985", "1.0000", "1.0000", "N/A", "N/A", "F1", "0.9936", "0.9932", "1.0000", "1.0000", "N/A", "N/A", "Spirit", "R", "-", "-", "0.9414", "1.0000", "N/A", "N/A", "F1", "-", "-", "0.9587", "1.0000", "N/A", "N/A", "P", "0.9999", "0.9985", "1.0000", "1.0000", "N/A", "N/A", "Thunder-", "bird", "P", "0.9680", "0.9613", "0.9922", "0.9939", "N/A", "N/A", "R", "0.8785", "0.9025", "0.8833", "1.0000", "N/A", "N/A", "F1", "0.9211", "0.9310", "0.9345", "0.9970", "N/A", "N/A", "P", "-", "-", "0.9770", "1.0000", "N/A", "N/A", "BGL", "R", "0.9749", "0.9749", "0.9796", "0.9858", "N/A", "N/A", "F1", "0.7419", "0.7520", "0.9641", "0.9802", "N/A", "N/A", "F1", "0.9867", "0.9874", "0.9956", "0.9988", "0.9990", "0.9962", "P", "0.5988", "0.6120", "0.9493", "0.9747", "N/A", "N/A", "P", "0.9840", "0.9858", "0.9942", "0.9986", "0.9988", "0.9962", "HDFS", "R", "0.9895", "0.9890", "0.9970", "1.0000", "0.9991", "0.9962", "Dataset", "CNN", "LogRobust", "NeuralLog", "KNN", "(N=1)", "DT", "SLFN"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 545.28,
+    "y1": 380.64,
+    "y2": 527.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623308-Table2-1.png"
+}]

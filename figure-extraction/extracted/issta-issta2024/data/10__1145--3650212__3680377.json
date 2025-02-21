@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 5: An example of flame chart and crashing stack trace",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04534912109375,
+    "y1": 278.9761047363281,
+    "y2": 284.60699462890625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "(b)", "junit.framework.AssertionFailedError", "at", "android.support.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:1053)", "at", "android.support.test.espresso.assertion.ViewAssertions$2.check(ViewAssertions.java:89)", "at", "android.support.test.espresso.ViewInteraction$2.run(ViewInteraction.java:170)", "at", "java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)", "at", "java.util.concurrent.FutureTask.run(FutureTask.java:266)", "…", "Crashing", "Method", "(a)", "M", "eth", "o", "d", "C", "all", "Time"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 296.15999999999997,
+    "y1": 84.0,
+    "y2": 264.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Figure5-1.png"
+}, {
+  "caption": "Table 1: Details of 22 popular open-source Android apps used in our study.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.205078125,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["multithread,", "timeout.", "In", "total,", "we", "obtained", "3481", "related", "com-", "mits", "and", "274", "related", "bug", "reports.", "After", "manual", "examination,", "we", "deemed", "that", "152", "commits", "and", "59", "bug", "reports", "were", "related", "to", "timing-dependent", "flaky", "tests,", "and", "then", "we", "successfully", "repro-", "duced", "33", "flaky", "test", "failures", "out", "of", "them.", "Finally,", "we", "obtained", "33", "timing-dependent", "flaky", "tests", "in", "8", "Android", "apps.", "App", "Name", "Version", "#LOC", "#Stars", "Category", "Aegis", "2.0.3", "43.5k", "6.7k", "Tools", "AmazeFileManager", "3.4.3", "92.2k", "4.8k", "Tools", "AntennaPod", "1.8.1", "102.6k", "5.4k", "Music", "&", "Audio", "connectbot", "0.4.13", "122.2k", "2.2k", "Communication", "Equate", "2.0", "16.0k", "64", "Tools", "Espresso", "1.0.0", "17.3k", "1.1k", "Maps", "&", "Navigation", "Feeder", "1.8.9", "91.6k", "756", "Reader", "FireFoxLite", "2.1.19", "1598.4k", "280", "Communication", "FlexBox", "2.0.1", "29.2k", "18.1k", "Libraries", "&", "Demo", "GoogleIO", "7.0.15", "74.7k", "21.8k", "Books", "&", "Reference", "Gnucash", "2.4.0", "90.1k", "1.2k", "Finance", "Kaspresso", "1.1.0", "66.3k", "1.7k", "Productivity", "Kiss", "3.11.9", "27.2k", "2.7k", "Personalisation", "MicroPinner", "2.2.0", "65.0k", "41", "Tools", "Mozilla", "Focus", "102.0", "145.3k", "2.1k", "Browser", "MyExpenses", "3.0.7.1", "1835.6k", "630", "Finance", "Omni-Notes", "6.1.0", "101.8k", "2.6k", "Note", "open_flood", "1.3.5", "3.7k", "132", "Game", "opt-authenticator", "0.1.1", "17.8k", "153", "Tools", "Shoppinglist", "2.2.1", "65.2k", "63", "Shopping", "Suntimeswidget", "0.12.10", "218.8k", "290", "Tools", "YoutubeExtractor", "2.0.0", "2.7k", "874", "Video", "Players"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 560.16,
+    "y1": 116.64,
+    "y2": 433.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Table1-1.png"
+}, {
+  "caption": "Figure 6: Average time of reproducing failures for 1-10 times by using FlakeEcho, FlakeScanner, Shaker and 100Rerun.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04534912109375,
+    "y1": 313.85009765625,
+    "y2": 330.44000244140625
+  },
+  "figType": "Figure",
+  "imageText": ["A", "ve", "ra", "ge", "tim", "e(", "se", "c)", "A", "ve", "ra", "ge", "tim", "e(", "se", "c)", "A", "ve", "ra", "ge", "tim", "e(", "se", "c)", "Number", "of", "reproduced", "failures", "Number", "of", "reproduced", "failures", "Number", "of", "reproduced", "failures", "FlakeEcho", "100Rerun", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "1600", "1200", "800", "400", "0", "FlakeEcho", "Shaker", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "6000", "4500", "3000", "1500", "0", "FlakeEcho", "FlakeScanner", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "1600", "1200", "800", "400", "0"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 277.44,
+    "y1": 84.0,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The number of reproduced flaky tests out of 20 runs for parameter 300ms, 500ms, and 700ms delays respectively.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2021484375,
+    "y1": 224.7390899658203,
+    "y2": 241.3289794921875
+  },
+  "figType": "Figure",
+  "imageText": ["20", "out", "of", "20", "runs", "successfully", "reproduced", "the", "test", "Between", "10", "to", "19", "out", "of", "20", "runs", "successfully", "reproduced", "the", "test", "Between", "1", "to", "9", "out", "of", "20", "runs", "successfully", "reproduced", "the", "test", "0", "out", "of", "20", "runs", "successfully", "reproduced", "the", "test"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 551.04,
+    "y1": 88.8,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Figure7-1.png"
+}, {
+  "caption": "Figure 1: A timing-dependent flaky test in Android app Antennapod.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64581298828125,
+    "y1": 455.1741027832031,
+    "y2": 471.7640075683594
+  },
+  "figType": "Figure",
+  "imageText": ["Return3", "Callable2", "Execute", "e24", "(b)", "3", "1", "Return’", "Execute", "e1", "Background", "thread", "UI", "thread", "Testing", "thread", "(a)", "e2", "e1", "(c)", "4", "3", "Return", "(when", "task", "done)", "2", "Callable", "1", "A", "chain", "of", "calls", "e1", "e2", "Method", "call", "Perform", "event", "(run", "in", "UI", "thread", "or", "background", "thread)", "A", "flaky", "test", "(run", "in", "testing", "thread)", "}", "}", "},", "...);", "ExecutorService", "keyEventExecutor", "=", "Executors.", "newSingleThreadExecutor(new", "ThreadFactoryBuilder()", "...);", "keyEventExecutor.submit(task);", "...", "public", "Boolean", "call()", "throws", "Exception", "{", "...", "}", "public", "boolean", "injectKeyEvent(KeyEvent", "keyEvent)", "throws", "...", "{", "...", "SignalingTask", "task", "=", "new", "SignalingTask(new", "Callable<Boolean>()", "{", "}", "...", "...", "KeyEvent", "keyEvent", "=", "events[i];", "injectKeyEvent(keyEvent);", "i++;", "...", "public", "boolean", "injectString(String", "str)", "throws", "...{", "...", "KeyEvent[]", "events", "=", "getKeyCharacterMap().getEvents(str.toCharArray());", "int", "i", "=", "0;", "while(i", "<", "events.length){", "}", "onView(withText(R.string.confirm_label)).perform(scrollTo(),", "click());", "...", "...", "onView(withId(R.id.etxtFeedurl)).", "perform(scrollTo(),", "typeText(feed.getDownload_url()));", "@Test", "public", "void", "testAddFeed()", "throws", "Exception", "{"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 306.24,
+    "y1": 82.56,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Event-Driven Concurrency Model",
+  "captionBoundary": {
+    "x1": 86.71510314941406,
+    "x2": 261.1295166015625,
+    "y1": 298.7768249511719,
+    "y2": 304.40771484375
+  },
+  "figType": "Figure",
+  "imageText": ["Trace", "𝜋", "F", "𝑜𝑝1;", "...;𝑜𝑝𝑛", "|", "𝛽", "|", "𝛾", "Event", "posting", "𝛽", "F", "𝑝𝑜𝑠𝑡", "(𝑒,", "𝑡1,", "𝑡2,Δ)", "Operation", "𝑜𝑝", "F", "𝛼", "|", "𝑅𝑢𝑛𝑛𝑎𝑏𝑙𝑒𝑂𝑏", "𝑗𝑒𝑐𝑡", "|", "𝑀𝑒𝑠𝑠𝑎𝑔𝑒", "Event", "𝑒", "F", "𝑏𝑒𝑔𝑖𝑛;𝑜𝑝1;", "...𝑜𝑝𝑛", ";", "𝑒𝑛𝑑", "Event", "type", "𝑣", "F", "𝐸𝑥𝑡𝑒𝑟𝑛𝑎𝑙𝐸𝑣𝑒𝑛𝑡", "|", "𝑤𝑟𝑖𝑡𝑒", "Thread", "operation", "𝛾", "F", "𝑓", "𝑜𝑟𝑘", "(𝑡1,", "𝑡2)", "|", "𝑗𝑜𝑖𝑛(𝑡1,", "𝑡2)", "Memory", "location", "𝜌", "∈", "𝑃𝑜𝑖𝑛𝑡𝑒𝑟𝑠", "Memory", "access", "𝛼", "F", "𝛼𝜏", "(𝜌)", "Access", "type", "𝜏", "F", "𝑟𝑒𝑎𝑑", "|", "𝐵𝑎𝑐𝑘𝑔𝑟𝑜𝑢𝑛𝑑𝑇ℎ𝑟𝑒𝑎𝑑", "|", "𝑇𝑒𝑠𝑡𝑖𝑛𝑔𝑇ℎ𝑟𝑒𝑎𝑑", "Thread", "𝑡", "F", "𝑈", "𝐼𝑇ℎ𝑟𝑒𝑎𝑑"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 266.88,
+    "y1": 86.88,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Figure2-1.png"
+}, {
+  "caption": "Table 2: Results of FlakeEcho, Baseline, FlakeScanner(FS), and Shaker(SH).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.1412353515625,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Avg/", "Sum", "164", "73", "16.25", "1.71", "38.53", "51.65", "40", "27", "√", "√", "√", "11", "4", "276.07", "87", "80", "323", "√", "√", "√", "13", "1", "35.79", "49", "79", "407", "√", "77", "273", "3", "79.93", "273", "78", "255", "√", "20", "3", "41.56", "16", "√", "√", "√", "20", "1", "2.48", "11", "76", "49", "√", "8", "2", "34.48", "17", "75", "184", "√", "√", "√", "20", "1", "12.23", "31", "74", "223", "√", "√", "20", "3", "19.21", "65", "73", "135", "√", "√", "5", "3", "79.83", "87", "72", "193", "√", "√", "20", "1", "3.25", "21", "71", "47", "√", "11", "2", "4.96", "9", "70", "44", "√", "√", "20", "1", "3.61", "16", "69", "39", "√", "√", "20", "1", "3.12", "18", "68", "41", "√", "√", "20", "2", "4.25", "6", "67", "58", "√", "13", "3", "25.42", "28", "66", "281", "√", "√", "20", "2", "8.4", "6", "65", "143", "√", "4", "1", "3.44", "26", "64", "177", "√", "√", "19", "1", "7.35", "29", "63", "153", "√", "6", "4", "91.84", "73", "62", "190", "√", "11", "3", "234.46", "101", "61", "468", "√", "√", "√", "20", "1", "12.17", "54", "60", "379", "√", "√", "√", "20", "1", "5.71", "20", "59", "108", "√", "18", "3", "35.33", "29", "58", "282", "√", "16", "2", "12.51", "11", "57", "305", "√", "55", "178", "4", "76.02", "178", "56", "212", "√", "20", "2", "10.69", "17", "√", "20", "1", "0.55", "18", "54", "66", "√", "√", "52", "203", "3", "43.71", "203", "53", "37", "√", "20", "1", "0.85", "15", "√", "13", "2", "13.07", "16", "51", "162", "√", "√", "√", "20", "1", "135.37", "30", "50", "284", "√", "√", "√", "20", "1", "122.11", "52", "49", "396", "√", "√", "√", "20", "1", "23.03", "45", "48", "109", "√", "√", "20", "1", "3.58", "18", "47", "82", "√", "20", "3", "31.57", "34", "46", "197", "√", "√", "√", "20", "2", "16.32", "40", "45", "173", "√", "√", "√", "20", "1", "9.41", "17", "44", "48", "√", "√", "√", "20", "1", "13.48", "24", "43", "53", "√", "√", "√", "20", "1", "11.99", "22", "42", "49", "√", "√", "√", "20", "1", "12.47", "15", "41", "62", "√", "20", "2", "88.28", "80", "40", "208", "√", "20", "1", "28.14", "59", "39", "245", "√", "20", "1", "22.7", "49", "38", "241", "√", "20", "1", "7.39", "76", "37", "205", "√", "32", "155", "2", "9.88", "155", "33", "152", "1", "8.33", "152", "34", "344", "√", "18", "2", "27.58", "106", "35", "290", "√", "20", "1", "9.95", "70", "36", "171", "√", "7", "1", "6.75", "51", "√", "20", "1", "24.58", "91", "31", "193", "√", "30", "95", "2", "36.03", "95", "√", "20", "1", "18.67", "64", "29", "147", "√", "√", "11", "1", "1.06", "6", "28", "34", "√", "√", "20", "1", "23.25", "12", "27", "78", "√", "20", "1", "14.57", "20", "26", "86", "√", "√", "20", "2", "41.9", "33", "25", "94", "√", "24", "251", "4", "101.32", "251", "√", "√", "20", "2", "52.31", "29", "23", "74", "√", "√", "20", "1", "6.52", "35", "22", "83", "√", "√", "20", "3", "20.4", "12", "21", "175", "√", "√", "20", "3", "25.36", "62", "20", "244", "√", "√", "20", "1", "8.62", "20", "19", "57", "√", "√", "20", "1", "5.43", "23", "18", "65", "√", "√", "20", "1", "11.13", "80", "17", "224", "√", "√", "20", "1", "6.84", "64", "16", "223", "√", "20", "3", "197.59", "88", "15", "140", "√", "14", "1", "33.87", "45", "14", "103", "√", "√", "20", "1", "52.53", "36", "13", "151", "√", "20", "2", "37.37", "59", "12", "127", "√", "√", "√", "20", "3", "207.01", "106", "11", "145", "√", "11", "1", "6.56", "15", "10", "109", "√", "√", "20", "1", "70.16", "33", "9", "143", "√", "20", "1", "6.04", "17", "8", "108", "√", "20", "1", "15.32", "9", "7", "33", "√", "20", "2", "21.22", "34", "6", "183", "√", "√", "√", "20", "1", "7.57", "15", "5", "103", "√", "√", "19", "3", "196.99", "71", "4", "145", "√", "√", "12", "2", "19.81", "20", "3", "179", "√", "√", "√", "20", "1", "18.77", "35", "2", "121", "√", "√", "√", "20", "1", "22.83", "27", "1", "103", "Succ", "𝑁𝑠𝑢𝑐𝑐", "#Run", "Time(s)", "#Run", "Succ", "Succ", "FlakeEcho", "Baseline", "FS", "SH", "Id", "#Event"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 116.64,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Table2-1.png"
+}, {
+  "caption": "Figure 4: A list of methods that access GUI data in Android",
+  "captionBoundary": {
+    "x1": 55.03200149536133,
+    "x2": 292.81201171875,
+    "y1": 335.34710693359375,
+    "y2": 340.9779968261719
+  },
+  "figType": "Figure",
+  "imageText": ["android.preference.EditTextPreference:", "void", "setText()", "android.preference.EditTextPreference:", "java.lang.String", "getText()", "android.app.ProgressDialog:", "void", "setMax()", "android.app.ProgressDialog:", "int", "getMax()", "android.preference.SwitchPreference:", "void", "setSwitchTextOff()", "android.preference.SwitchPreference:", "java.lang.CharSequence", "getSwitchTextOff()", "…"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 258.71999999999997,
+    "y2": 322.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Figure4-1.png"
+}, {
+  "caption": "Figure 3: The workflow of our approach FlakeEcho",
+  "captionBoundary": {
+    "x1": 202.8820037841797,
+    "x2": 409.11822509765625,
+    "y1": 235.85206604003906,
+    "y2": 241.48297119140625
+  },
+  "figType": "Figure",
+  "imageText": ["Delay", "Configuration", "Delay", "Configuration", "Event", "Trace", "&", "GUI", "Access", "Sequence", "Execution", "Traces", "Running", "Test", "With", "Event", "Delays", "Failure-inducing", "Event", "Race", "Analyzing", "Event", "&", "GUI", "Access", "Tracing", "Test", "APK", "Crash", "Stack"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 108.0,
+    "x2": 502.56,
+    "y1": 102.72,
+    "y2": 206.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680377-Figure3-1.png"
+}]

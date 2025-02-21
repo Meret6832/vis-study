@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: ChatGPT 3.5 conversation to generate lopo invari-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64202880859375,
+    "y1": 287.1849060058594,
+    "y2": 289.2650146484375
+  },
+  "figType": "Figure",
+  "imageText": ["This", "captures", "the", "relationship", "between", "x", "and", "y:", "If", "x", "is", "less", "than", "or", "equal", "to", "50,", "y", "remains", "50.", "If", "x", "is", "greater", "than", "50,", "y", "increments", "in", "tandem", "with", "x,", "effectively", "making", "y", "equal", "to", "x.", "Invariant", "2:", "x", "<=", "50", "&&", "y", "==", "50", "||", "x", ">", "50", "&&", "y", "==", "x", "This", "ensures", "that", "x", "is", "always", "within", "the", "expected", "range", "throughout", "the", "loop's", "execution.", "Answer:", "Invariant", "1:", "0", "<=", "x", "&&", "x", "<=", "100", "Provide", "two", "loop", "invariants", "for", "the", "loop", "in", "the", "program", "that", "are", "strong", "enough", "to", "prove", "the", "assertion", "at", "the", "end", "of", "the", "program."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 84.96,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Illustration of how ESBMC ibmc works.",
+  "captionBoundary": {
+    "x1": 206.88999938964844,
+    "x2": 405.10137939453125,
+    "y1": 280.20489501953125,
+    "y2": 282.2850036621094
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 82.56,
+    "y2": 263.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Prompt template for ESBMC ibmc.",
+  "captionBoundary": {
+    "x1": 85.08300018310547,
+    "x2": 262.7532653808594,
+    "y1": 460.1799011230469,
+    "y2": 462.260009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Print", "an", "invariant", "for", "this", "loop", "that", "holds", "in", "the", "form", "'__invariant(...);'.", "They", "should", "help", "prove", "the", "assertions.", "You", "can", "utilise", "'&&'", "or", "'||'", "if", "required.", "No", "explanation.", "Your", "answer", "should", "be", "in", "the", "form", "'__invariant(.", ".", ".", ");'", "<Labelled", "Input", "C", "Program>", "Based", "on", "these", "examples", "provided", "above", "can", "you", "generate", "a", "C", "invariant", "for", "the", "following", "code,", "<Examples", "with", "explanation>"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 301.92,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure6-1.png"
+}, {
+  "caption": "Figure 9: Comparing programs verified by ESBMC ibmc com-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.642578125,
+    "y1": 198.10488891601562,
+    "y2": 200.18499755859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 272.15999999999997,
+    "y1": 82.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Comparing programs verified by Lemur, our replay",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4462890625,
+    "y1": 198.10488891601562,
+    "y2": 200.18499755859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 389.76,
+    "x2": 487.2,
+    "y1": 82.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure10-1.png"
+}, {
+  "caption": "Figure 1: LSTS for program in Listing 1.",
+  "captionBoundary": {
+    "x1": 358.39898681640625,
+    "x2": 517.7515869140625,
+    "y1": 458.57989501953125,
+    "y2": 460.6600036621094
+  },
+  "figType": "Figure",
+  "imageText": ["F", "j", ">=", "0", "j", ">=", "i", "assert", "(i", "+", "(j", "+", "k))", ">", "(2", "*", "n)", "j", "=", "j", "+", "i", "i", "<=", "n", "i", "=", "i", "+", "1", "assume", "n", ">=", "0", "assume", "k", ">=", "0", "i=0", "j=0", "}", "__VERIFIER_assert(", "((i", "+", "(j", "+", "k))", ">", "(2", "*", "n))", ");", "}", "j", "=", "(j", "+", "i);", "i", "=", "(i", "+", "1);", "while", "(i", "<=", "n)", "{", "__invariant(j", ">=", "i);", "__invariant(i", ">=", "0);", "j", "=", "0;", "i", "=", "0;", "__ESBMC_assume(n", ">=", "0);", "__ESBMC_assume(k", ">=", "0);", "int", "n", "=", "__VERIFIER_nondet_int", "();", "int", "k", "=", "__VERIFIER_nondet_int", "();", "int", "j", "=", "__VERIFIER_nondet_int", "();", "int", "i", "=", "__VERIFIER_nondet_int", "();"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 552.0,
+    "y1": 115.67999999999999,
+    "y2": 437.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Comparing verification time (seconds) for Full vs",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1879272460938,
+    "y1": 430.6468811035156,
+    "y2": 432.72698974609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 228.0,
+    "y2": 414.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Comparing programs verified for the three prompt",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.195556640625,
+    "y1": 198.10488891601562,
+    "y2": 200.18499755859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 536.16,
+    "y1": 82.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure7-1.png"
+}, {
+  "caption": "Figure 2: Simplified transition system from LSTS in Figure 1.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 248.42489624023438,
+    "y2": 250.5050048828125
+  },
+  "figType": "Figure",
+  "imageText": ["assert", "(i", "+", "(j", "+", "k))", ">", "(2", "*", "n)", "assume", "i", ">=0", "&&", "j", ">=", "i", "assume", "n", ">=", "0", "assume", "k", ">=", "0", "j=0", "i=0"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 241.44,
+    "y1": 85.92,
+    "y2": 227.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure2-1.png"
+}, {
+  "caption": "Figure 3: C program (top), its LSTS (middle), and the trans-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7937622070312,
+    "y1": 527.2368774414062,
+    "y2": 529.3170166015625
+  },
+  "figType": "Figure",
+  "imageText": ["assert", "y", "==", "100", "assume", "((0", "<=", "x", "&&", "x", "<=", "100)", "&&", "(x", "<=", "50", "&&", "y", "==", "50", "||", "x", ">", "50", "&&", "y", "==", "x)", "&&", "x", ">=", "100)", "y", "=", "50", "x", "=", "0", "F", "(0", "<=", "x", "&&", "x", "<=", "100)", "(x", "<=", "50", "&&", "y", "==", "50", "||", "x", ">", "50", "&&", "y", "==", "x)", "y", "=", "y", "+", "1assert", "y", "==", "100", "x", ">", "50", "x", "<", "100", "x", "=", "x", "+", "1", "y", "=", "50", "x", "=", "0"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 261.59999999999997,
+    "y2": 506.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695512-Figure3-1.png"
+}]

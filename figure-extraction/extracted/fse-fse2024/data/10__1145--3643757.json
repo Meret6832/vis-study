@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 2. Overview of CodePlan.",
+  "captionBoundary": {
+    "x1": 301.8580017089844,
+    "x2": 412.8612365722656,
+    "y1": 269.1248474121094,
+    "y2": 273.35699462890625
+  },
+  "figType": "Figure",
+  "imageText": ["Completed", "Oracle", "Seeds", "Newly", "inferred", "Pending", "Next", "Completed", "Plan", "graph", "Plan", "execution", "Prompt", "LLMMerge", "analysis", "Change", "may-impact", "analysis", "Incremental", "dependency", "Adaptive", "planning", "Repository"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 280.8,
+    "x2": 431.03999999999996,
+    "y1": 148.79999999999998,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Figure2-1.png"
+}, {
+  "caption": "Fig. 4. Illustration of the dependency graph annotated with relations as the edge labels.",
+  "captionBoundary": {
+    "x1": 81.08090209960938,
+    "x2": 404.9200134277344,
+    "y1": 213.06484985351562,
+    "y2": 217.2969970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 431.03999999999996,
+    "y1": 84.0,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. Changes to other files resulting from the seed change specified in Fig 1",
+  "captionBoundary": {
+    "x1": 99.00509643554688,
+    "x2": 386.9963684082031,
+    "y1": 272.90985107421875,
+    "y2": 277.1419982910156
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 73.92,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Figure3-1.png"
+}, {
+  "caption": "Table 5. Performance CodePlan with di erent language models of code.",
+  "captionBoundary": {
+    "x1": 110.0198974609375,
+    "x2": 375.7385559082031,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Pyright-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "Pyright-Strict-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "Coeditor-CodePlan", "10", "1", "0", "0.76", "759", "✗", "(0)", "≠", "Coeditor-Pyright-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "Coeditor-Pyright-Strict-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "CodeLlama-CodePlan", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "CodeLlama-Pyright-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "CodeLlama-Pyright-Strict-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "T-3", "CodePlan", "11", "0", "0", "0.94", "288", "✓", "Pyright-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "Pyright-Strict-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "Coeditor-CodePlan", "2", "2", "0", "0.82", "254", "✗", "(0)", "≠", "Coeditor-Pyright-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "Coeditor-Pyright-Strict-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "CodeLlama-CodePlan", "4", "0", "8", "0.69", "326", "✗", "(0)", "≠", "CodeLlama-Pyright-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "CodeLlama-Pyright-Strict-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "T-1", "CodePlan", "8", "2", "0", "0.90", "1044", "✗", "(0)", "≠", "Pyright-Repair", "5", "5", "0", "0.76", "1089", "✗", "(0)", "≠", "Pyright-Strict-Repair", "8", "2", "0", "0.90", "1045", "✗", "(0)", "≠", "Coeditor-CodePlan", "8", "2", "0", "0.90", "1160", "✗", "(0)", "≠", "Coeditor-Pyright-Repair", "5", "5", "0", "0.66", "1206", "✗", "(0)", "≠", "Coeditor-Pyright-Strict-Repair", "8", "2", "0", "0.83", "1106", "✗", "(6)", "≠", "CodeLlama-CodePlan", "6", "4", "0", "0.68", "1112", "✗", "(3)", "≠", "CodeLlama-Pyright-Repair", "5", "5", "0", "0.65", "1145", "✗", "(1)", "≠", "CodeLlama-Pyright-Strict-Repair", "6", "4", "0", "0.73", "1163", "✗", "(3)", "≠", "T-2", "CodePlan", "4", "0", "0", "0.86", "147", "✓", "Python", "Temporal", "Edit", "Task", "on", "External", "(Public)", "Repositories", "Missed", "Blocks", "Spurious", "Blocks", "Di", "BLEU", "Levenshtein", "Distance", "Validity", "Check", "Blocks", "Dataset", "Approach", "Matched"],
+  "name": "5",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 420.47999999999996,
+    "y1": 96.96,
+    "y2": 368.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Table5-1.png"
+}, {
+  "caption": "Table 6. API usage (tokens) and cost (USD).",
+  "captionBoundary": {
+    "x1": 270.671875,
+    "x2": 431.9772033691406,
+    "y1": 412.6219482421875,
+    "y2": 416.8540954589844
+  },
+  "figType": "Table",
+  "imageText": ["28.9K", "$2", "5K", "$0.6", "T-3", "10", "23.9K", "$1.4", "3.6K", "$0.3", "917", "$0.1", "T-2", "3", "2.7K", "$0.2", "7.2K", "$0.5", "0.7K", "$0.1", "T-1", "7", "6.5K", "$0.4", "105K", "$8", "26K", "$3", "Ext-", "2", "80", "79K", "$5", "118K", "$8", "17K", "$2", "Ext-", "1", "108", "100K", "$6", "118K", "$8", "19K", "$2", "Int-", "2", "71", "99K", "$6", "465K", "$32", "66K", "$8", "Int-", "1", "172", "399K", "$24", "Calls", "Prompt", "Response", "Total"],
+  "name": "6",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 271.68,
+    "x2": 431.03999999999996,
+    "y1": 426.71999999999997,
+    "y2": 574.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Table6-1.png"
+}, {
+  "caption": "Table 3. Comparison of CodePlan with baselines.",
+  "captionBoundary": {
+    "x1": 151.8571014404297,
+    "x2": 333.9015808105469,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Pyright-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "Pyright-Strict-Repair", "1", "10", "0", "0.53", "840", "✗", "(0)", "≠", "T-3", "CodePlan", "(Iter", "1)", "11", "0", "0", "0.94", "288", "✓", "Pyright-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "Pyright-Strict-Repair", "1", "3", "0", "0.58", "344", "✗", "(0)", "≠", "T-1", "CodePlan", "(Iter", "1)", "8", "2", "0", "0.90", "1044", "✗", "(0)", "≠", "Pyright-Repair", "5", "5", "0", "0.76", "1089", "✗", "(0)", "≠", "Pyright-Strict-Repair", "8", "2", "0", "0.90", "1045", "✗", "(0)", "≠", "T-2", "CodePlan", "(Iter", "1)", "4", "0", "0", "0.86", "147", "✓", "Python", "Temporal", "Edit", "Task", "on", "External", "(Public)", "Repositories", "Ext-2", "CodePlan", "(Iter", "1)", "38", "8", "0", "0.61", "1121", "✗", "(13)", "≠", "CodePlan", "(Iter", "2)", "2", "0", "6", "0.62", "1261", "✗", "(7)", "≠", "Build-Repair", "19", "27", "5", "0.49", "1379", "✗", "(11)", "≠", "Build-Repair", "34", "30", "27", "0.65", "9145", "✗", "(40)", "≠", "Ext-1", "CodePlan", "(Iter", "1)", "64", "0", "0", "0.86", "2931", "✓", "C#", "Migration", "Task", "on", "External", "(Public)", "Repositories", "CodePlan", "(Iter", "1)", "438", "0", "0", "0.99", "90", "✗", "(6)", "≠", "CodePlan", "(Iter", "2)", "6", "0", "0", "1.00", "0", "✓", "Build-Repair", "337", "101", "25", "0.66", "7496", "✗", "(68)", "≠", "Int-2", "(Logging)", "CodePlan", "(Iter", "1)", "151", "0", "0", "0.99", "60", "✗", "(4)", "≠", "CodePlan", "(Iter", "2)", "4", "0", "0", "1.00", "0", "✓", "Build-Repair", "82", "69", "13", "0.81", "6465", "✗", "(46)", "≠", "Int-1", "(Logging)", "C#", "Migration", "Task", "on", "Internal", "(Proprietery)", "Repositories", "Missed", "Blocks", "Spurious", "Blocks", "Di", "BLEU", "Levenshtein", "Distance", "Validity", "Check", "Blocks", "Dataset", "Approach", "Matched"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 420.47999999999996,
+    "y1": 96.96,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Table3-1.png"
+}, {
+  "caption": "Table 1. Rules for updating the dependency graph and for change may-impact analysis for atomic changes. We refer to the dependency graphs before and a er the updates by D and D′ respectively.",
+  "captionBoundary": {
+    "x1": 45.39799880981445,
+    "x2": 441.548583984375,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Method", "M", "in", "class", "C", "Remove", "the", "node", "for", "M", "and", "edges", "in-", "cident", "on", "M.", "If", "C.M", "overrides", "a", "base", "class", "method", "B.M", "then", "redirect", "the", "Call-", "s/CalledBy", "edges", "from", "C.M", "to", "B.M", "if", "the", "receiver", "object", "is", "of", "type", "C.", "Rel(D,", "M,", "CalledBy),", "Rel(D,", "M,", "Overrides),", "Rel(D,", "M,", "OverriddenBy)", "Field", "F", "in", "class", "C", "Remove", "the", "node", "of", "the", "eld", "and", "edges", "incident", "on", "it.", "Rel(D,", "F,", "UsedBy),", "Rel(D,", "C,", "ConstructedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf)", "Declaration", "of", "class", "C", "Remove", "the", "node", "of", "the", "class", "and", "edges", "incident", "on", "it.", "Rel(D,", "C,", "InstantiatedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf)", "Constructor", "of", "class", "C", "Remove", "edges", "to", "the", "class", "due", "to", "object", "instatiations", "using", "the", "constructor.", "Rel(D,", "C,", "InstantiatedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf)", "Import/Using", "state-", "ment", "I", "Remove", "the", "node", "of", "the", "import", "state-", "ment", "and", "edges", "incident", "on", "it.", "Rel(D,", "I,", "ImportedBy)", "Deletion", "Changes", "Method", "M", "in", "class", "C", "Add", "new", "node", "and", "edges", "by", "analyzing", "themethod.", "If", "C.M", "overrides", "a", "base", "class", "method", "B.M", "then", "redirect", "the", "Calls/-", "CalledBy", "edges", "from", "B.M", "to", "C.M", "if", "the", "receiver", "object", "is", "of", "type", "C.", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf),", "Rel(D′,", "M,", "CalledBy)", "Field", "F", "in", "class", "C", "Add", "new", "node", "and", "edges", "by", "analyzing", "the", "eld", "declaration.", "Rel(D,", "C,", "ConstructedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf)", "Declaration", "of", "class", "C", "Add", "new", "node", "and", "edges", "by", "analyzing", "the", "class", "declaration.", "Nil", "Constructor", "of", "class", "C", "Add", "new", "node", "and", "edges", "by", "analyzing", "the", "constructor.", "Rel(D,", "C,", "InstantiatedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf)", "Import/Using", "state-", "ment", "I", "Add", "new", "node", "and", "edges", "by", "analyzing", "the", "import", "statement.", "Nil", "Addition", "Changes", "Signature", "of", "con-", "structor", "of", "class", "C", "No", "change.", "Rel(D,", "C,", "InstantiatedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf)", "Import/Using", "state-", "ment", "I", "Recompute", "the", "edges", "incident", "on", "the", "import", "statement.", "Rel(D,", "I,", "ImportedBy)", "Rel(D,", "C,", "InstantiatedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf),", "Rel(D′,", "C,", "BaseClas-", "sOf),", "Rel(D′,", "C,", "DerivedClassOf)", "Field", "F", "in", "class", "C", "Recompute", "the", "edges", "incident", "on", "the", "eld.", "Rel(D,", "F,", "UsedBy),", "Rel(D,", "C,", "ConstructedBy),", "Rel(D,", "C,", "BaseClassOf),", "Rel(D,", "C,", "DerivedClassOf)", "Declaration", "of", "class", "C", "Recompute", "the", "edges", "incident", "on", "the", "class.", "Rel(D,", "M,", "CalledBy),", "Rel(D,", "M,", "Overrides),", "Rel(D,", "M,", "OverriddenBy),", "Rel(D′,", "M,", "Overrides),", "Rel(D′,", "M,", "OverriddenBy)", "Body", "of", "method", "M", "Recompute", "the", "edges", "incident", "on", "the", "statements", "in", "the", "method", "body.", "If", "an", "escaping", "object", "is", "modi", "ed", "then", "Rel(D,", "M,", "CalledBy)", "else", "Nil.", "Signature", "of", "method", "M", "Recompute", "the", "edges", "incident", "on", "the", "method.", "Modi", "cation", "Changes", "Atomic", "Change", "Dependency", "Graph", "Update", "Change", "May-Impact", "Analysis"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 443.03999999999996,
+    "y1": 114.72,
+    "y2": 565.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Table1-1.png"
+}, {
+  "caption": "Fig. 6. Illustration of CodePlan’s plan execution versus incomplete changes made by the Build-Repair baseline.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1698303222656,
+    "y1": 297.11083984375,
+    "y2": 301.3429870605469
+  },
+  "figType": "Figure",
+  "imageText": ["4", "3", "2", "1", "1", "Seed", "Edit:", "Console.WriteLine", "to", "ItestOutputHelper.WriteLine", "4", "1", "3", "3", "2", "1", "Build-Repair", "stops", "after", "step", "1,", "since", "there", "are", "no", "build", "errors.", "Hence", "fails", "to", "execute", "the", "changes", "in", "steps", "2,3,", "and", "4,", "making", "it", "incomplete", "migration.", "\"Console.WriteLine\"", "is", "migrated", "to", "\"ITestOutputHelper.WriteLine,\"", "which", "adds", "a", "member", "\"_output\"", "to", "the", "Subscriber", "class.", "CodePlan's", "change-may-impact", "analysis", "detects", "the", "addition", "of", "a", "new", "field", "and", "propagates", "the", "changes", "to", "the", "constructor", "of", "the", "Subscriber", "through", "the", "next", "LLM", "call.", "CodePlan's", "change-may-impact", "analysis", "detects", "changes", "in", "the", "signature", "of", "the", "Subscriber's", "constructor", "and", "propagates", "the", "changes", "to", "the", "instantiation", "of", "the", "Subscriber", "class", "through", "the", "next", "LLM", "call.", "This", "results", "in", "the", "addition", "of", "a", "member", "to", "the", "SyncSubscriberTest", "class.", "CodePlan's", "change-may-impact", "analysis", "detects", "the", "addition", "of", "a", "new", "field", "and", "propagates", "the", "changes", "to", "the", "constructor", "of", "SyncSubscriberTest", "through", "the", "next", "LLM", "call.", "The", "temporal/spatial", "context", "also", "includes", "the", "change", "that", "the", "TestEnvironment()", "signature", "is", "modified", "to", "TestEnvironment(ITestOutputHelper).", "This", "prompts", "the", "LLM", "to", "pass", "the", "'output'", "to", "the", "constructor", "of", "the", "TestEnvironment", "class.", "}", "}", "private", "readonly", "ITestOutputHelper", "_output;", "public", "override", "void", "OnComplete()", "=>", "_output.WriteLine(\"Accumulated:", "\"", "+", "_acc);", "public", "override", "ISubscriber<int?>", "CreateSubscriber()", "=>", "new", "Subscriber();", "private", "sealed", "class", "Subscriber", ":", "SyncSubscriber<int?>", "{", "private", "long", "_acc;", "public", "class", "SyncSubscriberTest", ":", "SubscriberBlackboxVerification<int?>", "{", "public", "SyncSubscriberTest()", ":", "base(new", "TestEnvironment())", "{", "}", "CodePlan’s", "Planning:", "Correct", "and", "Complete", "Migration", "public", "override", "void", "OnComplete()", "=>", "Console.WriteLine(\"Accumulated:", "\"", "+", "_acc);", "}", "}", "public", "override", "ISubscriber<int?>", "CreateSubscriber()", "=>", "new", "Subscriber();", "private", "sealed", "class", "Subscriber", ":", "SyncSubscriber<int?>", "{", "private", "long", "_acc;", "public", "class", "SyncSubscriberTest", ":", "SubscriberBlackboxVerification<int?>", "{", "public", "SyncSubscriberTest()", ":", "base(new", "TestEnvironment())", "{", "}", "public", "override", "void", "OnComplete()", "=>", "_output.WriteLine(\"Accumulated:", "\"", "+", "_acc);", "}", "}", "_output", "=", "output;", "}", "private", "readonly", "ITestOutputHelper", "_output;", "public", "Subscriber(ITestOutputHelper", "output)", "{", "_output", "=", "output;", "}", "public", "override", "ISubscriber<int?>", "CreateSubscriber()", "=>", "new", "Subscriber(_output);", "private", "sealed", "class", "Subscriber", ":", "SyncSubscriber<int?>", "{", "private", "long", "_acc;", "private", "readonly", "ITestOutputHelper", "_output;", "public", "SyncSubscriberTest(ITestOutputHelper", "output)", ":", "base(new", "TestEnvironment(output))", "{", "public", "class", "SyncSubscriberTest", ":", "SubscriberBlackboxVerification<int?>", "{"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 443.03999999999996,
+    "y1": 84.96,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Figure6-1.png"
+}, {
+  "caption": "Table 2. Benchmark statistics.",
+  "captionBoundary": {
+    "x1": 187.0360870361328,
+    "x2": 298.7214050292969,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Number", "of", "les", "91", "168", "55", "341", "21", "137", "4", "Lines", "of", "code", "8853", "16476", "8868", "14305", "3883", "20413", "1874", "Number", "of", "les", "changed", "47", "97", "21", "23", "2", "2", "3", "Number", "of", "seed", "changes", "41", "63", "42", "50", "2", "1", "1", "Number", "of", "derived", "changes", "110", "375", "22", "68", "8", "3", "10", "Di", "size", "b/w", "Source", "&", "Target", "(lines)", "1744", "4902", "1024", "154", "104", "15", "39", "Size", "of", "seed", "edits", "(lines)", "242", "242", "379", "340", "76", "4", "1", "Prompt", "template", "size", "(lines)", "81", "81", "81", "110", "75", "75", "75", "URL", "-", "-", "[1]", "[2]", "[14]", "[4]", "[9]", "Int-1", "Int-2", "Ext-1", "Ext-2", "T-1", "T-2", "T-3", "Migration", "Temporal", "Edits", "Repositories"],
+  "name": "2",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 420.47999999999996,
+    "y1": 96.96,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Table2-1.png"
+}, {
+  "caption": "Table 4. Ablation study with and without temporal/spatial context. For Python Temporal Edit task (T-1,2,3), temporal context is the necessary part of input and hence, only spatial context is ablated.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1624450683594,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["−", "Spatial", "Context", "11", "0", "0", "0.92", "325", "✓", "T-3", "CodePlan", "11", "0", "0", "0.94", "288", "✓", "−", "Spatial", "Context", "4", "0", "0", "0.76", "443", "✓", "T-1", "CodePlan", "8", "2", "0", "0.90", "1044", "✗", "(0)", "≠", "−", "Spatial", "Context", "8", "2", "0", "0.89", "1266", "✗", "(0)", "≠", "T-2", "CodePlan", "4", "0", "0", "0.86", "147", "✓", "CodePlan", "65", "0", "0", "0.86", "2931", "✓", "−", "Temporal", "Context", "62", "3", "2", "0.74", "1014", "✗", "(8)", "≠", "−", "Spatial", "Context", "62", "3", "2", "0.74", "1014", "✗", "(8)", "≠", "−", "Temporal", "and", "Spatial", "61", "4", "2", "0.71", "1036", "✗", "(9)", "≠", "Ext-1", "CodePlan", "151", "0", "0", "1.00", "0", "✓", "−", "Temporal", "Context", "135", "16", "32", "0.63", "3892", "✗", "(61)", "≠", "−", "Spatial", "Context", "134", "17", "51", "0.61", "4161", "✗", "(65)", "≠", "−", "Temporal", "and", "Spatial", "121", "30", "54", "0.51", "4524", "✗", "(69)", "≠", "Int-1", "Missed", "Blocks", "Spurious", "Blocks", "Di", "BLEU", "Levenshtein", "Distance", "Validity", "Check", "Blocks", "Dataset", "Approach", "Matched"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 422.4,
+    "y1": 112.8,
+    "y2": 312.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Table4-1.png"
+}, {
+  "caption": "Fig. 5. Illustration of the importance of (a) temporal and (b) spatial context.",
+  "captionBoundary": {
+    "x1": 103.64900207519531,
+    "x2": 382.351318359375,
+    "y1": 456.9799499511719,
+    "y2": 461.21209716796875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Spatial", "Without", "spatial", "context.", "(Incorrect)", "public", "void", "AuthorizeUser(", "ModernLogger", "logger){", "ValidateUser();", "...", "}", "private", "void", "ValidateUser(){", "...", "}", "Spurious", "Block", "Block", "under", "migration", "With", "spatial", "context.", "(Correct)", "Spatial", "Context", "public", "void", "AuthorizeUser(", "ModernLogger", "logger){", "ValidateUser();", "...", "}", "private", "void", "ValidateUser(){", "...", "}", "public", "void", "AuthorizeUser(", "LegacyLogger", "logger){", "ValidateUser();", "...", "}", "(a)", "Temporal", "Without", "Temporal", "Context", "(Incorrect)", "public", "override", "void", "Initialize(", "LegacyLogger", "logger){", "base.Initialize(logger);", "}", "Block", "under", "migration", "With", "Temporal", "Context", "(Correct)", "Temporal", "Context", "public", "override", "void", "Initialize(", "ModernLogger", "logger){", "base.Initialize(logger);", "}", "public", "virtual", "void", "Initialize(", "ModernLogger", "logger){", "//", "Validate", "user", "permission", "logger.LogInfo(", "\"User", "validated.\");", "}", "public", "override", "void", "Initialize(", "LegacyLogger", "logger){", "base.Initialize(logger);", "}"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 443.03999999999996,
+    "y1": 327.84,
+    "y2": 448.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643757-Figure5-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "TABLE III CIT EFFECTIVENESS EVALUATION",
+  "captionBoundary": {
+    "x1": 375.3373718261719,
+    "x2": 485.3798522949219,
+    "y1": 74.52088165283203,
+    "y2": 86.4779052734375
+  },
+  "figType": "Table",
+  "imageText": ["sleuthkit", "UAF", "539", "515", "(95.9%)", "5", "fdkaac", "CVE-2022-36148", "2", "1", "(50%)", "2", "×", "lua", "CVE-2019-6706", "1,425", "1425", "(100%)", "13", "libming", "CVE-2016-9264", "51", "5", "(9.8%)", "7", "×", "libsixel", "CVE-2020-21050", "365", "365", "(100%)", "1", "ngiﬂib", "CVE-2021-36531", "152", "1", "(0.6%)", "92", "×", "ngiﬂib", "CVE-2019-16347", "231", "13", "(5.6%)", "34", "×", "jhead", "CVE-2021-28278", "894", "447", "(50%)", "78", "×", "jhead", "CVE-2020-26208", "193", "16", "(8.2%)", "77", "×", "mruby", "hackerone-reports-185041", "1,928", "1,928", "(100%)", "1", "readelf", "CVE-2019-9077", "1,510", "1,119", "(74.1%)", "12", "libtiff", "CVE-2016-10094", "377", "97", "(25.7%)", "12", "libjpeg", "CVE-2018-19664", "1,715", "1,251", "(72.9%)", "52", "×", "libjpeg", "CVE-2017-15232", "1,937", "1,486", "(76.7%)", "3", "libxml2", "CVE-2017-5969", "2,513", "2,502", "(99.5%)", "4", "Target", "#AFL-C", "Consistent", "#Unique", "CIT", "Aurora", "AFL-C", "shows", "the", "number", "of", "crash", "ﬁles", "obtained", "through", "12", "hours", "of", "AFL", "crash", "exploration", "mode.", "Consistent", "shows", "the", "number", "of", "crash", "ﬁles", "in", "which", "the", "CIT", "is", "consistent", "with", "the", "original", "PoC’s", "CIT.", "Unique", "CIT", "represents", "the", "count", "of", "unique", "CITs", "obtained", "from", "the", "crash", "ﬁles."],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 546.72,
+    "y1": 93.6,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-TableIII-1.png"
+}, {
+  "caption": "TABLE II POC SIZE (IN BYTES) BEFORE AND AFTER MINIMIZATION",
+  "captionBoundary": {
+    "x1": 87.008544921875,
+    "x2": 269.2874755859375,
+    "y1": 74.52082061767578,
+    "y2": 86.478515625
+  },
+  "figType": "Table",
+  "imageText": ["fdkaac", "CVE-2022-36148", "FPE", "810", "48", "sleuthkit", "UAF", "UAF", "3,072", "3,072", "jhead", "CVE-2021-28278", "HOF", "25,898", "676", "jhead", "CVE-2020-26208", "HOF", "51", "51", "libming", "CVE-2016-9264", "GOF", "8", "8", "libsixel", "CVE-2020-21050", "SOF", "202", "130", "ngiﬂib", "CVE-2021-36531", "HOF", "56", "56", "ngiﬂib", "CVE-2019-16347", "HOF", "60", "60", "lua", "CVE-2019-6706", "UAF", "120", "120", "readelf", "CVE-2019-9077", "HOF", "324", "324", "mruby", "hackerone-reports-185041", "SEGV", "342", "102", "libtiff", "CVE-2016-10094", "HOF", "416", "414", "libjpeg", "CVE-2018-19664", "HOF", "9,756", "4,589", "libjpeg", "CVE-2017-15232", "SEGV", "5,520", "637", "libxml2", "CVE-2017-5969", "SEGV", "803", "396", "Target", "Type", "Original", "Size", "Minimized", "Size"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 293.28,
+    "y1": 96.96,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-TableII-1.png"
+}, {
+  "caption": "TABLE I DETAIL CONTENT OF CRASH INFORMATION TUPLE.",
+  "captionBoundary": {
+    "x1": 347.7118835449219,
+    "x2": 513.3905639648438,
+    "y1": 75.87512969970703,
+    "y2": 87.83282470703125
+  },
+  "figType": "Table",
+  "imageText": ["FPE", "crash", "type,", "site", "of", "division", "by", "zero,", "crash", "stack", "hash.", "SEGV", "crash", "type,", "crash", "site,", "crash", "stack", "hash.", "UAF", "GOF", "HOF", "crash", "type,", "crash", "site,", "crash", "stack", "hash,", "crash", "data", "structure", "variable", "name/address.", "SOF", "Crash", "Type", "Crash", "Information", "Tuple", "SOF", "=", "stack", "overﬂow,", "HOF", "=", "heap", "overﬂow,", "GOF", "=", "global", "buffer", "overﬂow,", "UAF", "=", "use", "after", "free,", "SEGV", "=", "segmentation", "fault,", "FPE", "=", "ﬂoating", "point", "exception."],
+  "name": "I",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 314.4,
+    "x2": 547.1999999999999,
+    "y1": 95.03999999999999,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-TableI-1.png"
+}, {
+  "caption": "TABLE IV RESULTS OF OUR ROOT CAUSE EXPLANATIONS",
+  "captionBoundary": {
+    "x1": 234.54904174804688,
+    "x2": 382.36529541015625,
+    "y1": 74.52082061767578,
+    "y2": 86.478515625
+  },
+  "figType": "Table",
+  "imageText": ["sleuthkit", "UAF", "UAF", "22", "13", "4", "6", "15", "3", "fdkaac", "CVE-2022-36148", "FPE", "6", "19", "4", "4", "-", "8", "jhead", "CVE-2021-28278", "HOF", "33", "28", "1", "1", "-", "31", "jhead", "CVE-2020-26208", "HOF", "5", "-", "5", "14", "-", "15", "libming", "CVE-2016-9264", "GOF", "1", "7", "2", "2", "-", "6", "libsixel", "CVE-2020-21050", "SOF", "10", "21", "5", "15", "36", "-", "ngiﬂib", "CVE-2021-36531", "HOF", "9", "22", "1", "1", "-", "N/A", "ngiﬂib", "CVE-2019-16347", "HOF", "5", "3", "7", "8", "-", "N/A", "lua", "CVE-2019-6706", "UAF", "29", "5", "1", "1", "22", "N/A", "readelf", "CVE-2019-9077", "HOF", "20", "18", "1", "1", "1", "4", "libjpeg", "CVE-2018-19664", "HOF", "5", "10", "6", "9", "-", "17", "libjpeg", "CVE-2017-15232", "SEGV", "40", "376", "1", "1", "6", "1", "libxml2", "CVE-2017-5969", "SEGV", "36", "62", "1", "1", "26", "17", "mruby", "hackerone-reports-185041", "SEGV", "142", "150", "8", "18", "32", "45", "libtiff", "CVE-2016-10094", "HOF", "14", "8", "3", "3", "18", "12", "Aurora", "Rank", "Vulnloc", "Rank", "Time", "(min)", "#RCP", "#SLOC", "#Predicates", "Target", "Type", "RCLocator", "Results", "RCP", "represents", "the", "count", "of", "root", "cause", "predicates.", "SLOC", "represents", "the", "number", "of", "lines", "of", "code", "in", "the", "corresponding", "source", "code.", "Predicates", "indicate", "the", "ranking", "of", "the", "actual", "repair", "locations", "within", "the", "predicate", "results,", "highlighting", "those", "ranked", "within", "the", "Top", "10.", "The", "“-”", "symbol", "indicates", "that", "the", "root", "cause", "location", "did", "not", "appear", "in", "the", "list", "of", "candidate", "options", "in", "the", "results.", "“N/A”", "stands", "for", "“Not", "Available,”", "indicating", "that", "the", "data", "is", "not", "obtainable", "[7]."],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 550.0799999999999,
+    "y1": 93.6,
+    "y2": 312.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-TableIV-1.png"
+}, {
+  "caption": "TABLE V TIME CONSUMPTION AND NUMBER OF FILES OUTPUT",
+  "captionBoundary": {
+    "x1": 92.45790100097656,
+    "x2": 261.3795166015625,
+    "y1": 336.9035949707031,
+    "y2": 348.86065673828125
+  },
+  "figType": "Table",
+  "imageText": ["sleuthkit", "UAF", "1", "9", "12", "1,974", "2,974", "fdkaac", "CVE-2022-36148", "1", "3", "2", "4,027", "2,018", "jhead", "CVE-2021-28278", "24", "6", "3", "5,985", "2,912", "jhead", "CVE-2020-26208", "1", "2", "2", "4,993", "1,288", "libming", "CVE-2016-9264", "1", "1", "1", "614", "855", "libsixel", "CVE-2020-21050", "4", "4", "2", "4,210", "1,232", "ngiﬂib", "CVE-2021-36531", "2", "2", "1", "4,558", "1,196", "ngiﬂib", "CVE-2019-16347", "3", "3", "3", "5,249", "2,974", "lua", "CVE-2019-6706", "1", "15", "14", "825", "4,072", "readelf", "CVE-2019-9077", "11", "5", "4", "3,482", "1,526", "libtiff", "CVE-2016-10094", "4", "6", "4", "1,401", "543", "libjpeg", "CVE-2018-19664", "1", "4", "1", "2,977", "1,968", "libjpeg", "CVE-2017-15232", "20", "10", "10", "4,391", "660", "libxml2", "CVE-2017-5969", "5", "16", "15", "1,000", "3,942", "mruby", "hackerone-reports-185041", "3", "101", "38", "2,294", "5,826", "Target", "DA", "FA", "Ranking", "#c", "#nc", "The", "time", "(in", "minutes,", "rounded", "up)", "consumed", "by", "Data", "Augmentation", "(DA),", "Feature", "Analysis", "(FA),", "and", "Ranking,", "as", "well", "as", "the", "number", "of", "crash", "(#c)", "and", "non-crash", "(#nc)", "ﬁles", "obtained", "through", "data", "augmentation."],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 297.12,
+    "y1": 356.15999999999997,
+    "y2": 528.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-TableV-1.png"
+}, {
+  "caption": "Fig. 1. Overview of the workflow of RCLocator.",
+  "captionBoundary": {
+    "x1": 232.58395385742188,
+    "x2": 385.1339416503906,
+    "y1": 217.05340576171875,
+    "y2": 220.58209228515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 551.04,
+    "y1": 61.919999999999995,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-Figure1-1.png"
+}, {
+  "caption": "TABLE VI CROSS-EXPERIMENT RESULTS ON THE RCABENCH DATASET",
+  "captionBoundary": {
+    "x1": 77.14388275146484,
+    "x2": 270.53759765625,
+    "y1": 74.01630401611328,
+    "y2": 85.9739990234375
+  },
+  "figType": "Table",
+  "imageText": ["lua", "cve-2019-6706", "5", "1.000", "22", "0.957", "readelf", "cve-2019-9077", "1", "1.000", "1", "0.979", "mruby", "hackerone-reports-185041", "127", "1.000", "31", "1.000", "libxml2", "CVE-2017-5969", "23", "0.999", "26", "0.999", "libjpeg", "CVE-2017-15232", "282", "1.000", "6", "1.000", "libjpeg", "CVE-2018-19664", "229", "0.903", "-", "-", "libtiff", "CVE-2016-10094", "16", "1.000", "18", "0.995", "Rank", "Score", "Rank", "Score", "Target", "R", "×", "A", "A", "×", "A", "“R", "×", "A”", "means", "the", "combination", "of", "RCLocator’s", "data", "augmentation", "and", "Aurora’s", "feature", "extraction.", "“A", "×", "A”", "means", "the", "combination", "of", "Aurora’s", "data", "augmentation", "and", "Aurora’s", "feature", "extraction."],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 295.2,
+    "y1": 93.11999999999999,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-TableVI-1.png"
+}, {
+  "caption": "Fig. 3. RCLocator’s output at the root cause location.",
+  "captionBoundary": {
+    "x1": 349.2037353515625,
+    "x2": 517.0140380859375,
+    "y1": 624.944580078125,
+    "y2": 628.4732666015625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 552.0,
+    "y1": 592.8,
+    "y2": 612.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-Figure3-1.png"
+}, {
+  "caption": "Fig. 2. An example of a predicate.",
+  "captionBoundary": {
+    "x1": 377.9726867675781,
+    "x2": 487.1370544433594,
+    "y1": 161.76690673828125,
+    "y2": 165.29559326171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 552.0,
+    "y1": 129.6,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00014-Figure2-1.png"
+}]

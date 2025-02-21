@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 1: Statistics of Code Change Elements of the Bugs in the Regression Dataset and Defects4J",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2007446289062,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Minimum", "1", "1", "25th", "Percentile", "7", "2", "Median", "17", "3", "75th", "Percentile", "77", "7", "Maximum", "2,136", "108", "Number", "of", "Elements", "Regression", "Dataset", "Defects4J"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 342.71999999999997,
+    "x2": 533.28,
+    "y1": 116.64,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652129-Table1-1.png"
+}, {
+  "caption": "Figure 3: C2D2 bug-inducing reduction process",
+  "captionBoundary": {
+    "x1": 79.10199737548828,
+    "x2": 268.7413330078125,
+    "y1": 274.3751220703125,
+    "y2": 280.0060119628906
+  },
+  "figType": "Figure",
+  "imageText": ["20", "14", "13", "2", "Greedy", "Strategy", "select", "{x1,", "x2}", "CE", "MBS", "add", "{x3},", "remove", "{x1}", "Start-Afresh", "select", "{x2,", "x3},", "retain", "{x1,", "x2}", "F#", "C2D2", "Done", "&", "output", "{x1,", "x2,", "x3}", "······", "19", "Greedy", "Strategy", "select", "{x1,", "x2,", "x3}", "T", "Greedy-Strategy", "select", "{x1,", "x3,", "x5,", "x13,", "x15,", "x16,", "x18}", "CE", "MBS", "add", "{x14,", "x20}", "F", "Greedy-Strategy", "select", "{x1,", "x2,", "x3,", "x6,", "x14,", "x18,", "x20,", "x22}", "CE", "MBS", "remove", "{x6,", "x14,", "x18,", "x20}", "T", "1", "Cold-Start", "exclude", "{x8,", "x9,", "x11,", "x12,", "x17}", "T", "Greedy-Strategy", "select{x1,x2,x10,x13,x14,x18,x19,x20,x21}", "CE", "MBS", "add", "{x3,", "x4,", "x5,", "x6,", "x16,", "x22}", "T", "······", "12", "Equal-Chances", "select", "{x2,", "x13}", "F", "Components", "Operations", "Results", "DDJ", "provide", "X", "=", "{x1,", "x2,", "…,", "x23}"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 90.24,
+    "y2": 252.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652129-Figure3-1.png"
+}, {
+  "caption": "Figure 1: An example of missing code change dependencies",
+  "captionBoundary": {
+    "x1": 54.104000091552734,
+    "x2": 293.7400817871094,
+    "y1": 164.50807189941406,
+    "y2": 170.13897705078125
+  },
+  "figType": "Figure",
+  "imageText": ["𝑥5", "⟼", "𝑥14", "implements", "missing", "missing", "𝑥6", "⟼", "𝑥4", "𝑥14", "⟼", "𝑥5", "call", "call", "𝑥14", "𝑥5", "𝑥6", "𝑥4", "-", "exceptionOccurred(final", "Exception", "e,…", "+", "exceptionOccurred(final", "Throwable", "e,…", "DefaultCFLintExceptionListener", "-", "exceptionOccurred(Exception", "e,…", "+", "exceptionOccurred(Throwable", "e,…", "interface", "CFLintExceptionListener", "-", "fireCFLintException(final", "Exception", "e,…)", "+", "fireCFLintException(final", "Throwable", "e,…){", "for", "(final", "CFLintExceptionListener", "p:", "…", "p.exceptionOccurred(e,", "…)…}", "+", "catch(StackOverflowError", "soe){…", "+fireCFLintException(soe,…)…}", "CFLint"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 294.24,
+    "y1": 84.96,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652129-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An example illustrating the iterations of ProbDD",
+  "captionBoundary": {
+    "x1": 319.9200134277344,
+    "x2": 556.2386474609375,
+    "y1": 430.88909912109375,
+    "y2": 436.5199890136719
+  },
+  "figType": "Figure",
+  "imageText": ["1", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.24", "0.24", "0.24", "0.24", "0.24", "0.24", "0.15", "0.15", "0.15", "0.15", "2", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.24", "0.24", "0.24", "0.24", "0.24", "0.24", "0.32", "0.32", "0.32", "0.32", "3", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.36", "0.36", "0.36", "0.36", "0.24", "0.24", "0.32", "0.32", "0.32", "0.32", "4", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.36", "0.36", "0.36", "0.36", "0.4", "0.4", "0.52", "0.32", "0.32", "0.32", "5", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.36", "0.36", "0.36", "0.36", "0.4", "0.4", "0.52", "0.46", "0.46", "0.46", "6", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F", "0.61", "0.61", "0.36", "0.36", "0.4", "0.4", "0.52", "0.46", "0.46", "0.46", "7", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.61", "0.61", "0.61", "0.61", "0.4", "0.4", "0.52", "0.46", "0.46", "0.46", "8", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.61", "0.61", "0.61", "0.61", "0.62", "0.62", "0.52", "0.46", "0.46", "0.46", "9", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "T", "0.61", "0.61", "0.61", "0.61", "0.62", "0.62", "0.52", "0", "0", "0.46", "10", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "0.61", "0.61", "0.61", "0.61", "0.62", "0.62", "0.52", "0", "0", "1", "11", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "T", "0.61", "0.61", "0.61", "0.61", "0.62", "0.62", "0", "0", "0", "1", "12", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F", "1", "0.61", "0.61", "0.61", "0.62", "0.62", "0", "0", "0", "1", "13", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F", "1", "1", "0.61", "0.61", "0.62", "0.62", "0", "0", "0", "1", "14", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F", "1", "1", "1", "0.61", "0.62", "0.62", "0", "0", "0", "1", "15", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "1", "1", "1", "1", "0.62", "0.62", "0", "0", "0", "1", "16", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "F#", "1", "1", "1", "1", "1", "0.62", "0", "0", "0", "1", "17", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "T", "1", "1", "1", "1", "1", "0", "0", "0", "0", "1", "x1", "x2", "x3", "x4", "x5", "x6", "x7", "x8", "x9", "x14", "0.15", "0.15", "0.15", "0.15", "0.15", "0.15", "0.15", "0.15", "0.15", "0.15"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 557.28,
+    "y1": 87.84,
+    "y2": 416.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652129-Figure2-1.png"
+}, {
+  "caption": "Table 3: Effectiveness and Efficiency on Regression Bugs (1025 bugs in total)",
+  "captionBoundary": {
+    "x1": 152.51800537109375,
+    "x2": 459.18701171875,
+    "y1": 201.8910675048828,
+    "y2": 207.52197265625
+  },
+  "figType": "Table",
+  "imageText": ["ddmin", "620", "562", "40.03%", "1,192.07", "43.45", "\\", "ProbDD", "664", "415", "30.62%", "1,033.12", "34.28", "\\", "C2D2", "605", "571", "45.06%", "987.91", "16.11", "21.87", "C2D2¬CS", "525", "(-13.22%)", "452", "(-20.84%)", "38.38%", "1,135.62", "20.68", "41.86", "C2D2¬EC", "529", "(-12.56%)", "450", "(-21.19%)", "41.70%", "1,044.57", "15.75", "34.44", "C2D2¬SA", "533", "(-11.90%)", "460", "(-19.44%)", "42.43%", "1,077.18", "17.95", "38.07", "Effectiveness", "Efficiency", "(488", "bugs", "succeeded", "in", "common)", "#Success", "#Optimal", "Reduction%", "Time", "(sec.)", "#Test", "#Ad.Compile"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 133.92,
+    "x2": 478.08,
+    "y1": 221.76,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652129-Table3-1.png"
+}, {
+  "caption": "Table 2: Effectiveness and Efficiency on Defects4J (809 bugs in total)",
+  "captionBoundary": {
+    "x1": 169.12399291992188,
+    "x2": 442.5813903808594,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ddmin", "658", "652", "38.00%", "958.02", "6.94", "\\", "ProbDD", "658", "563", "32.91%", "927.23", "7.35", "\\", "C2D2", "702", "696", "38.23%", "682.66", "4.58", "6.56", "C2D2¬CS", "606", "(-13.68%)", "594", "(-14.66%)", "37.75%", "821.44", "6.34", "9.90", "C2D2¬EC", "671", "(-4.42%)", "659", "(-5.32%)", "37.92%", "770.70", "4.35", "7.85", "C2D2¬SA", "641", "(-8.69%)", "621", "(-10.78%)", "37.16%", "790.85", "5.23", "11.45", "Effectiveness", "Efficiency", "(580", "bugs", "succeeded", "in", "common)", "#Success", "#Optimal", "Reduction%", "Time", "(sec.)", "#Test", "#Ad.Compile"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 133.92,
+    "x2": 478.08,
+    "y1": 105.6,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652129-Table2-1.png"
+}, {
+  "caption": "Table 4: Comparing the Critical Changes Extracted by C2D2 with Human-Isolated Changes",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 294.0467834472656,
+    "y1": 121.5531234741211,
+    "y2": 138.14300537109375
+  },
+  "figType": "Table",
+  "imageText": ["Regression", "(65", "bugs)", "C2D2", "44", "(67.69%)", "12", "(18.46%)", "2", "(3.08%)", "7", "(10.77%)", "Defects4J", "(809", "bugs)", "C2D2", "210", "(25.96%)", "249", "(30.78%)", "33", "(4.08%)", "317", "(39.18%)", "BugBuilder", "308", "(38.07%)", "12", "(1.48%)", "0", "(0%)", "489", "(60.45%)", "Dataset", "Tool", "#Same", "#Better", "#Diff", "#Worse"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 152.64,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652129-Table4-1.png"
+}]

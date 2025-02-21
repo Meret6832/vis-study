@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1: Systems used for evaluation with their stars on GitHub (as of 17th July 2023), lines of XML configuration files, lines of code including their dependent ROS packages, and number of components.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.46630859375,
+    "y1": 85.72634887695312,
+    "y2": 111.28302001953125
+  },
+  "figType": "Table",
+  "imageText": ["AutoRally", "685", "43", "455", "190", "340", "26", "Autoware", "7100", "30", "771", "250", "509", "230", "Fetch", "166", "149", "664", "434", "022", "94", "Husky", "373", "54", "699", "876", "405", "111", "TurtleBot", "279", "1", "237", "887", "1", "596", "546", "108", "System", "Stars", "Lines", "of", "XML", "Lines", "of", "Code", "Components"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 118.56,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Table1-1.png"
+}, {
+  "caption": "Figure 1: Simplified example of a ROS component (lattice_trajectory_gen) that waits for an inputmessage and then periodically publishes a message with a frequency of 10Hz.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63690185546875,
+    "y1": 315.67333984375,
+    "y2": 343.22198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["The", "partial", "transition", "function", "𝛿", ":=", "𝑆", "×", "𝐼", "⇀", "𝑂", "×𝑆", "is", "represented", "in", "pre-", "and", "post-condition", "form", "with", "preconditions", "being", "pred-", "icates", "on", "𝑠", "∈", "𝑆", "and", "𝑖", "∈", "𝐼", "that", "define", "for", "which", "inputs", "and", "states", "the", "transition", "is", "triggered", "and", "post-conditions", "defining", "an", "output", "𝑜", "∈", "𝑂", "and", "the", "next", "state", "𝑠′", "∈", "𝑆", "in", "terms", "of", "𝑠", "and", "𝑖", ".", "Transition", "Function", "𝜹", ":=", "𝑺", "×", "𝑰", "⇀", "𝑶", "×", "𝑺", "Outputs", "are", "either", "messages", "sent", "through", "output", "port𝑚", "∈", "𝑀𝑜𝑢𝑡", "or", "the", "empty", "output", "𝜖", "for", "transitions", "that", "change", "only", "the", "state", "but", "do", "not", "produce", "an", "output.", "Outputs", "𝑶", "⊆", "𝑴𝒐𝒖𝒕", "∪", "{𝝐}", "An", "input", "trigger", "is", "a", "message", "handled", "by", "an", "input", "port", "𝒎", "∈", "𝑴𝒊𝒏", ",", "a", "periodic", "trigger", "𝒑𝒇", "∈", "𝑷", "with", "frequency", "𝑓", "∈", "𝐹𝑙𝑜𝑎𝑡", ",", "or", "a", "component", "event", "𝒆", "∈", "𝑬", ",", "such", "as", "“component", "started”.", "To", "keep", "the", "model", "simple,", "we", "do", "not", "model", "the", "content", "of", "messages.", "Input", "Triggers", "𝑰", "⊆", "𝑴𝒊𝒏", "∪", "𝑷", "∪", "𝑬", "Component", "states", "𝑆", "are", "records", "of", "named", "state", "variables", "𝑣𝑎𝑟1,", "𝑣𝑎𝑟2,", "...,", "𝑣𝑎𝑟𝑛", "∈", "𝑆𝑡𝑟𝑖𝑛𝑔", "with", "types", "𝐵1,", "𝐵2,", "...,", "𝐵𝑛", "∈", "𝑇𝑦𝑝𝑒𝑠", ".", "𝑇𝑦𝑝𝑒𝑠", ":=", "{𝐵𝑜𝑜𝑙,", "𝐼𝑛𝑡,", "𝐸𝑛𝑢𝑚,", "𝐹𝑙𝑜𝑎𝑡,", "𝑆𝑡𝑟𝑖𝑛𝑔}.", "Component", "States", "𝑺", ":=", "[𝒗𝒂𝒓1", ":", "𝑩1,", "𝒗𝒂𝒓2", ":", "𝑩2,", "...,", "𝒗𝒂𝒓𝒏", ":", "𝑩𝒏]", "A", "component", "state", "machine", "𝐶", "is", "a", "5-tuple", "of", "states", "𝑆", ",", "an", "initial", "state", "𝑠0", "∈", "𝑆", ",", "input", "triggers", "𝐼", ",", "outputs", "𝑂", ",", "and", "transitions", "𝛿", ".", "Component", "State", "Machine", "𝑪", ":=", "(𝑺,", "𝒔0,", "𝑰", ",", "𝑶,", "𝜹)"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 367.68,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Examplemodel for code shown in Figure 1. The first transition handles 𝒐𝒅𝒐𝒎_𝒑𝒐𝒔𝒆 inputs and changes the state variable g_pose_set to true without an output. The second transition triggers periodically with a frequency of 10Hz if the state variable g_pose_set is true. Then it sends amessage.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 558.200927734375,
+    "y1": 235.29336547851562,
+    "y2": 284.7590026855469
+  },
+  "figType": "Figure",
+  "imageText": ["periodic(𝑠", "∈", "𝑆", ",", "𝑖", "∈", "𝐼", "):", "pre:", "𝑖", "==", "𝑝10", "∧", "𝑠", ".𝑔_𝑝𝑜𝑠𝑒_𝑠𝑒𝑡", "==", "𝑡𝑟𝑢𝑒", "post:", "𝑠′", "=", "𝑠", "and", "𝑜", "=", "𝑛𝑒𝑥𝑡_𝑤𝑎𝑦𝑝𝑜𝑖𝑛𝑡_𝑚𝑎𝑟𝑘", "𝐼", "=", "{𝑝10,", "𝑜𝑑𝑜𝑚_𝑝𝑜𝑠𝑒};𝑂", "=", "{𝑛𝑒𝑥𝑡_𝑤𝑎𝑦𝑝𝑜𝑖𝑛𝑡_𝑚𝑎𝑟𝑘,", "𝜖}", "Transitions:", "OdometryPoseCallback(𝑠", "∈", "𝑆", ",", "𝑖", "∈", "𝐼", "):", "pre:", "𝑖", "==", "𝑜𝑑𝑜𝑚_𝑝𝑜𝑠𝑒", "post:", "𝑔_𝑝𝑜𝑠𝑒_𝑠𝑒𝑡", "′", "=", "𝑡𝑟𝑢𝑒", "and", "𝑜", "=", "𝜖", "𝑆", "=", "[𝑔_𝑝𝑜𝑠𝑒_𝑠𝑒𝑡", ":", "𝐵𝑜𝑜𝑙];", "𝑠0", "=", "[𝑔_𝑝𝑜𝑠𝑒_𝑠𝑒𝑡", "=", "𝑓", "𝑎𝑙𝑠𝑒]", "𝑀𝑖𝑛", "=", "{𝑜𝑑𝑜𝑚_𝑝𝑜𝑠𝑒};", "𝑃", "=", "{𝑝10}", "𝑀𝑜𝑢𝑡", "=", "{𝑛𝑒𝑥𝑡_𝑤𝑎𝑦𝑝𝑜𝑖𝑛𝑡_𝑚𝑎𝑟𝑘};"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Figure2-1.png"
+}, {
+  "caption": "Table 3: Recall and precision of ROSInfer based a comparison with 149 manually inferred component models. 𝑇𝑃 , 𝐹𝑃 , and 𝐹𝑁 are the number of true positives, false positives, and false negatives compared to the ground truth models.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 556.945556640625,
+    "y1": 248.61337280273438,
+    "y2": 265.2030029296875
+  },
+  "figType": "Table",
+  "imageText": ["Precision", "100.0", "%", "(of", "39)", "90.8", "%", "(of", "184)", "75.6", "%", "(of", "45)", "88.2", "%", "(of", "51)", "Recall", "92.9", "%", "(of", "42)", "81.9", "%", "(of", "204)", "70.8", "%", "(of", "48)", "69.2", "%", "(of", "65)", "AutoRally", "14", "14", "1", "0", "11", "10", "0", "1", "2", "3", "1", "3", "0", "Autoware", "119", "22", "2", "0", "146", "19", "15", "30", "10", "8", "42", "13", "6", "Fetch", "11", "1", "0", "0", "8", "5", "0", "3", "0", "0", "2", "1", "0", "Turtlebot", "5", "2", "0", "0", "2", "3", "2", "0", "2", "0", "0", "3", "0", "All", "149", "39", "3", "0", "167", "37", "17", "34", "14", "11", "45", "20", "6", "System", "Ground", "Truth", "Periodic", "Behaviors", "Reactive", "Behaviors", "State", "Variables", "State", "Transitions", "Component", "Models", "𝑇𝑃", "𝐹𝑁", "𝐹𝑃", "𝑇𝑃", "𝐹𝑁", "𝐹𝑃", "𝑇𝑃", "𝐹𝑁", "𝐹𝑃", "𝑇𝑃", "𝐹𝑁", "𝐹𝑃"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 272.64,
+    "y2": 391.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Table3-1.png"
+}, {
+  "caption": "Table 2: Results for RQ1: The trigger types recovery rate is the percentage of inferred publish calls for which ROSInfer can infer what kind of trigger causes that behavior (periodic or reactive). For each sub-type of behavior, percentages show how many of that type do not contain unknowns (⊤) in the inferred modes of a total of 534 components of the five large real-world systems presented in Section 4.1. 𝑁 is the total number of behaviors of the respective type inferred by ROSInfer (all publish calls in the case of trigger types). The All row counts components only once, even if they are included in multiple systems.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.5266723632812,
+    "y1": 85.72634887695312,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["All", "86.8", "%", "(𝑁", "=", "638)", "91.1", "%", "(𝑁", "=", "158)", "100.0", "%", "(𝑁", "=", "396)", "72.0", "%", "(𝑁", "=", "125)", "83.8", "%", "(𝑁", "=", "277)", "AutoRally", "66.0", "%", "(𝑁", "=", "47)", "83.3", "%", "(𝑁", "=", "18)", "100.0", "%", "(𝑁", "=", "13)", "50.0", "%", "(𝑁", "=", "4)", "50.0", "%", "(𝑁", "=", "2)", "Autoware", "89.0", "%", "(𝑁", "=", "465)", "92.9", "%", "(𝑁", "=", "99)", "100.0", "%", "(𝑁", "=", "315)", "65.4", "%", "(𝑁", "=", "81)", "80.9", "%", "(𝑁", "=", "230)", "Fetch", "81.5", "%", "(𝑁", "=", "27)", "0.0", "%", "(𝑁", "=", "1)", "100.0", "%", "(𝑁", "=", "21)", "100.0", "%", "(𝑁", "=", "3)", "100.0", "%", "(𝑁", "=", "2)", "Husky", "91.7", "%", "(𝑁", "=", "48)", "93.3", "%", "(𝑁", "=", "15)", "100.0", "%", "(𝑁", "=", "29)", "50.0", "%", "(𝑁", "=", "8)", "100.0", "%", "(𝑁", "=", "6)", "Turtlebot", "84.2", "%", "(𝑁", "=", "38)", "66.7", "%", "(𝑁", "=", "12)", "100.0", "%", "(𝑁", "=", "20)", "80.0", "%", "(𝑁", "=", "25)", "100.0", "%", "(𝑁", "=", "17)", "System", "Trigger", "Types", "Periodic", "Rates", "Reactive", "Triggers", "Initial", "States", "State", "Changes"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 535.1999999999999,
+    "y1": 142.56,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Table2-1.png"
+}, {
+  "caption": "Figure 3: Overview of the ROSInfer static analysis. Boxes represent analysis steps (see Section 3), gray ovals represent elements of the output model (see Section 2.2), white ovals represent intermediate results, and arrows indicate data flow.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1962280273438,
+    "y1": 176.94735717773438,
+    "y2": 193.5369873046875
+  },
+  "figType": "Figure",
+  "imageText": ["Patterns", "Transitions", "𝜹", "Behavioral", "𝑪", "Model", "Inference", "4.", "Transition", "Code", "Source", "Inference", "𝑷", "𝑴𝒐𝒖𝒕", "𝑴𝒊𝒏", "𝑬", "𝑺", "𝒔𝟎", "5.", "Initial", "State", "Pattern", "Detection", "2.", "Behavioral", "Detection", "3.", "State", "Variable", "Detection", "1.", "API", "Call", "Variables", "State", "State", "Initial", "ROSInfer"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Figure3-1.png"
+}, {
+  "caption": "Figure 6: Simplified code snippet showing an example from waypoint_clicker in Autoware.AI for which our approach cannot recover the state machine. The analysis would need to model the state of a vector map containing multiple arrays and identify that the assignment in the cache_point subscriber callback affects the return value of the empty call.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 295.6368103027344,
+    "y1": 217.80636596679688,
+    "y2": 278.23199462890625
+  },
+  "figType": "Figure",
+  "imageText": ["Message", "Output", "State", "Condition", "State", "Change", "to", "Non-Empty", "}", "[...]", "lane_planner::vmap::publish_add_marker([...]);", "return;", "||", "all_vmap.nodes.empty())", "if", "(all_vmap.points.empty()", "||", "all_vmap.lanes.empty()", "}", "void", "update_values()", "{", "all_vmap.points", "=", "msg.data;", "update_values();", "lane_planner::vmap::VectorMap", "all_vmap;", "void", "cache_point(const", "vector_map::PointArray&", "msg)", "{"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 83.52,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Figure6-1.png"
+}, {
+  "caption": "Figure 4: Simplified behavioral pattern to look for reactive message behavior.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1890869140625,
+    "y1": 165.28237915039062,
+    "y2": 181.87200927734375
+  },
+  "figType": "Figure",
+  "imageText": ["Callback(name,", "body)", "𝑖𝑛", "=", "topicArg(callee)", "isSubscribeCall(callee)", "CallExpr(callee,", "caller):", "<<transitive", "child>>", "caller", "==", "pub", "callbackName", "==", "name", "Publisher", "pub(𝑜𝑢𝑡", "=", "topic)", "isPublishCall(callee)", "CallExpr(callee,", "caller):"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Simplified behavioral pattern to look for periodic behavior.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19482421875,
+    "y1": 295.5643615722656,
+    "y2": 312.15399169921875
+  },
+  "figType": "Figure",
+  "imageText": ["isConstTimeSleep(callee)", "isFillingTimeSleep(callee)", "or", "CallExpr(callee,", "args):", "isIndefinite(condition)", "WhileStmt(condition):", "args[1]", "=", "pub", "Rate", "rate", "(𝑝𝑓", "=", "frequency)", "args[1]", "=", "pub", "<<transitive", "child>>", "Publisher", "pub(𝑚𝑜𝑢𝑡", "=", "topic)", "<<transitive", "child>>", "isPublishCall(callee)", "CallExpr(callee,", "args):"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 558.24,
+    "y1": 198.72,
+    "y2": 276.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639206-Figure5-1.png"
+}]

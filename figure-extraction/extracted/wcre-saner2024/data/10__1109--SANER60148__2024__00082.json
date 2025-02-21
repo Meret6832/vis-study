@@ -1,0 +1,181 @@
+[{
+  "caption": "TABLE I: Top three projects on each programming language",
+  "captionBoundary": {
+    "x1": 327.2137756347656,
+    "x2": 535.6807250976562,
+    "y1": 204.63706970214844,
+    "y2": 220.11920166015625
+  },
+  "figType": "Table",
+  "imageText": ["JavaScript", "react,", "bootstrap,", "javascript", "TypeScript", "vue,", "vscode,", "TypeScript", "Go", "go,", "kubernetes,", "gin", "Rust", "deno,", "rust,", "tauri", "C++", "tensorﬂow,", "electron,", "terminal", "Python", "Python,", "Auto-GPT,", "youtube-dl", "Programming", "Language", "Top", "Three", "Projects"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 525.12,
+    "y1": 226.56,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-TableI-1.png"
+}, {
+  "caption": "Fig. 1: Motivating example: A commit from Django",
+  "captionBoundary": {
+    "x1": 326.16571044921875,
+    "x2": 536.235595703125,
+    "y1": 438.68328857421875,
+    "y2": 443.0472106933594
+  },
+  "figType": "Figure",
+  "imageText": ["django/utils/cache.py", "return", "_generate_cache_key(request,", "headerlist,", "key_prefix)", "headerlist", "=", "cache.get(cache_key,", "None)", "if", "headerlist", "is", "not", "None:", "key_prefix", "=", "settings.CACHE_MIDDLEWARE_KEY_PREFIX", "-", "cache_key", "=", "'views.decorators.cache.cache_header.%s.%s'", "%", "(key_prefix,", "iri_to_uri(request.path))", "+", "cache_key", "=", "'views.decorators.cache.cache_header.%s.%s'", "%", "(", "+", "key_prefix,", "iri_to_uri(request.path))", "\"\"\"", "if", "key_prefix", "is", "None:", "\"\"\"", "@@", "-139,7", "+140,8", "@@", "def", "get_cache_key(request,", "key_prefix=None):", "\"\"\"", "-", "Add", "headers", "to", "a", "response", "to", "indicate", "that", "-", "a", "page", "should", "never", "be", "cached.", "+", "Adds", "headers", "to", "a", "response", "to", "indicate", "that", "a", "page", "should", "never", "be", "cached.", "@@", "-95,8", "+96,7", "@@", "def", "patch_response_headers(response,", "cache_timeout=None):", "def", "add_never_cache_headers(response):", "different", "header", "content", "for", "headers", "named", "in", "\"Vary\"", "need", "to", "get", "different", "cache", "keys", "to", "prevent", "delivery", "of", "wrong", "content.", "-", "A", "example:", "i18n", "middleware", "would", "need", "to", "distinguish", "caches", "by", "the", "+", "An", "example:", "i18n", "middleware", "would", "need", "to", "distinguish", "caches", "by", "the", "@@", "-13,14", "+13,15", "@@"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 550.0799999999999,
+    "y1": 264.48,
+    "y2": 429.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: How CC2Vec deals with diff in a file.",
+  "captionBoundary": {
+    "x1": 88.29029846191406,
+    "x2": 269.4157409667969,
+    "y1": 273.7216491699219,
+    "y2": 278.0855712890625
+  },
+  "figType": "Figure",
+  "imageText": ["Encoding", "Encoding", "Encoding", "Encoding", "cache_key", "=", "'views.decorators.cache.", "cache_header.%s.%s'", "%", "(", "key_preﬁx,", "iri_to_uri(request.path))", "Adds", "headers", "to", "a", "response", "to", "indicate", "that", "a", "page", "should", "never", "be", "cached.", "An", "example:", "i18n", "middleware", "would", "need", "to", "distinguish", "caches", "by", "the", "cache_key", "=", "'views.decorators.cache.", "cache_header.%s.%s'", "%", "(key_preﬁx,", "iri_to_uri(request.path))", "Add", "headers", "to", "a", "response", "to", "indicate", "that", "a", "page", "should", "never", "be", "cached.", "A", "example:", "i18n", "middleware", "would", "need", "to", "distinguish", "caches", "by", "the", "Hunk3", "@139", "Hunk2", "@95", "Hunk1", "@13", "Compare", "Attention", "Attention", "File", "Vector", "Vector", "Add", "File", "Rem", "File", "Vector", "Hunk3", "@139", "Hunk2", "@95", "Hunk1", "@13"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 272.15999999999997,
+    "y1": 132.0,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: How our approach deals with file changes",
+  "captionBoundary": {
+    "x1": 331.5517883300781,
+    "x2": 531.3373413085938,
+    "y1": 211.2646942138672,
+    "y2": 215.62860107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Encoding", "Encoding", "cache_key", "=", "'views.decorators.cache.", "cache_header.%s.%s'", "%", "(", "key_preﬁx,", "iri_to_uri(request.path))", "cache_key", "=", "'views.decorators.cache.", "cache_header.%s.%s'", "%", "(key_preﬁx,", "iri_to_uri(request.path))", "Adds", "headers", "to", "a", "response", "to", "indicate", "that", "a", "page", "should", "never", "be", "cached.", "Add", "headers", "to", "a", "response", "to", "indicate", "that", "a", "page", "should", "never", "be", "cached.", "An", "example:", "i18n", "middleware", "would", "need", "to", "distinguish", "caches", "by", "the", "A", "example:", "i18n", "middleware", "would", "need", "to", "distinguish", "caches", "by", "the", "Transformer", "Transformer", "Transformer", "File", "Vector", "Compare", "Compare", "Compare", "Hunk", "Vector", "@139", "Hunk", "Vector", "@95", "Hunk", "Vector", "@13", "Hunk3", "@139", "Hunk3", "@139", "Hunk2", "@95", "Hunk2", "@95", "Hunk1", "@13", "Hunk1", "@13"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 528.0,
+    "y1": 73.92,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-Figure3-1.png"
+}, {
+  "caption": "TABLE III: Classification results of COLARE and the three baselines (stratified five-fold cross-validation)",
+  "captionBoundary": {
+    "x1": 322.005859375,
+    "x2": 540.432861328125,
+    "y1": 203.5222625732422,
+    "y2": 219.00439453125
+  },
+  "figType": "Table",
+  "imageText": ["Precisioncorrective", "49.68%", "81.98%", "86.55%", "85.40%", "Recallcorrective", "90.08%", "84.53%", "82.51%", "91.10%", "F1corrective", "64.00%", "83.20%", "84.37%", "88.03%", "Precisionperfective", "82.47%", "67.80%", "69.50%", "80.84%", "Recallperfective", "32.56%", "65.18%", "78.44%", "72.83%", "F1perfective", "46.55%", "66.33%", "73.17%", "76.31%", "Precisionadaptive", "28.58%", "61.86%", "67.21%", "80.72%", "Recalladaptive", "65.22%", "56.50%", "63.17%", "66.93%", "F1adaptive", "39.64%", "58.59%", "64.38%", "72.33%", "Macro", "precision", "53.58%", "70.55%", "74.42%", "82.32%", "Macro", "Recall", "62.62%", "68.74%", "74.70%", "76.96%", "Macro", "F1", "50.06%", "69.37%", "73.98%", "78.89%", "Accuracy", "50.35%", "75.97%", "78.68%", "83.37%", "Metrics", "ChatGPT", "SClassiﬁer", "LClassiﬁer", "COLARE"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 542.4,
+    "y1": 225.6,
+    "y2": 368.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-TableIII-1.png"
+}, {
+  "caption": "TABLE II: Classification results of COLARE and baseline (stratified five-fold cross-validation)",
+  "captionBoundary": {
+    "x1": 61.847900390625,
+    "x2": 295.6300048828125,
+    "y1": 161.66868591308594,
+    "y2": 177.15081787109375
+  },
+  "figType": "Table",
+  "imageText": ["Precisioncorrective", "72.50%", "82.77%", "Recallcorrective", "74.50%", "81.53%", "F1corrective", "73.20%", "82.09%", "Precisionperfective", "75.49%", "85.02%", "Recallperfective", "70.00%", "79.61%", "F1perfective", "72.25%", "82.05%", "Precisionadaptive", "78.08%", "78.55%", "Recalladaptive", "79.11%", "84.36%", "F1adaptive", "77.93%", "81.30%", "Macro", "precision", "75.36%", "82.11%", "Macro", "Recall", "74.53%", "81.83%", "Macro", "F1", "74.46%", "81.81%", "Accuracy", "74.57%", "81.81%", "Metrics", "GClassiﬁer[13]", "COLARE"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 257.28,
+    "y1": 183.84,
+    "y2": 326.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-TableII-1.png"
+}, {
+  "caption": "Fig. 4: Architecture of the proposed model COLARE",
+  "captionBoundary": {
+    "x1": 70.76300048828125,
+    "x2": 286.8738708496094,
+    "y1": 488.54058837890625,
+    "y2": 492.9045104980469
+  },
+  "figType": "Figure",
+  "imageText": ["File", "Reducer", "Hunk", "Reducer", "Output", "Probabilities", "Linear+Softmax", "Comparison", "Layer", "Gatting", "Mechanism", "Alpha", "File", "Category", "Features", "Concat", "Gate", "Gate", "Concat", "Feed", "Forward", "Layer", "Commit", "Message", "CodeBERT", "Old", "Hunk", "Matrix", "New", "Hunk", "Matrix", "CodeBERT", "CodeBERT", "Subtraction", "MultiplicationLinear", "Feed", "Forward", "Layer", "Hunk", "Attention", "Mask", "Transformer", "Encoder", "File", "Attention", "Mask", "Transformer", "Encoder"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 294.24,
+    "y1": 219.35999999999999,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-Figure4-1.png"
+}, {
+  "caption": "TABLE IV: Performance comparison between COLAREcc2vec and COLARE",
+  "captionBoundary": {
+    "x1": 80.44776153564453,
+    "x2": 265.0013427734375,
+    "y1": 332.2204895019531,
+    "y2": 349.09161376953125
+  },
+  "figType": "Table",
+  "imageText": ["Macro", "F1", "72.71%", "85.08%", "Accuracy", "80.76%", "87.06%", "Metrics", "COLAREcc2vec", "COLARE"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 101.75999999999999,
+    "x2": 241.44,
+    "y1": 354.24,
+    "y2": 395.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-TableIV-1.png"
+}, {
+  "caption": "TABLE V: Results of the ablation study",
+  "captionBoundary": {
+    "x1": 91.92829895019531,
+    "x2": 253.52267456054688,
+    "y1": 415.79547119140625,
+    "y2": 420.1593933105469
+  },
+  "figType": "Table",
+  "imageText": ["Macro", "F1", "79.40%", "56.47%", "82.08%", "85.08%", "Accuracy", "82.97%", "66.56%", "85.80%", "87.06%", "Metrics", "COLARE-code", "COLARE-msg", "COLARE-fcat", "COLARE"],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 296.15999999999997,
+    "y1": 426.71999999999997,
+    "y2": 468.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00082-TableV-1.png"
+}]

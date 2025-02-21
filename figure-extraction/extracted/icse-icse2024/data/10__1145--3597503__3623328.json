@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: Black-box graph transformations.",
+  "captionBoundary": {
+    "x1": 86.39600372314453,
+    "x2": 261.4391784667969,
+    "y1": 160.29489135742188,
+    "y2": 162.375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "E", "2", "1", "B", "C", "E", "D", "A", "B", "D", "E", "A", "C", "(a)", "Original", "(b)", "Partial", "wheel", "graph", "(c)", "Inserting", "subnodes", "(d)", "Control-flow", "flattening", "CB", "D", "A", "E", "C", "D", "B", "A"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 289.44,
+    "y1": 84.96,
+    "y2": 138.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Figure4-1.png"
+}, {
+  "caption": "Table 5: Evaluating the synergy effect of Binaug.",
+  "captionBoundary": {
+    "x1": 338.52899169921875,
+    "x2": 537.3305053710938,
+    "y1": 79.31491088867188,
+    "y2": 81.39501953125
+  },
+  "figType": "Table",
+  "imageText": ["Reference", "White-box", "+6.15pt", "-", "+7.41pt", "-", "+5.83pt", "-", "Black-box", "+2.08pt", "-", "+2.53pt", "-", "+2.44pt", "-", "Average", "Synergy", "+6.04pt", "-", "+6.37pt", "-", "+6.13pt", "-", "GAT", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "59.26%", "8.91", "69.28%", "7.43", "67.03%", "11.37", "Synergy", "+7.36pt", "2.69", "+9.61pt", "1.79", "+8.02pt", "2.30", "Gemini", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "53.54%", "11.18", "46.07%", "16.12", "42.25%", "15.20", "Synergy", "+2.45pt", "1.98", "+3.53pt", "1.87", "+3.92pt", "2.98", "Set2Set", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "72.39%", "8.95", "84.89%", "4.72", "83.49%", "6.0", "Synergy", "+4.63pt", "2.03", "+2.47pt", "1.47", "+2.50pt", "1.45", "GNN-Talos", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "63.36%", "9.53", "74.87%", "7.42", "73.59%", "9.6", "Synergy", "+6.33pt", "2.55", "+5.69pt", "2.19", "+5.82pt", "2.06", "Structure2vec", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "60.49%", "8.94", "70.32%", "7.03", "67.3%", "12.83", "Synergy", "+9.44pt", "2.16", "+10.53pt", "2.14", "+10.38pt", "3.68", "Model", "Setting", "XO", "XO+XC", "XO+XC+XB", "Avg.", "Stdev.", "Avg.", "Stdev.", "Avg.", "Stdev."],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 85.92,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Table5-1.png"
+}, {
+  "caption": "Figure 1: The common pipeline of DNN-based BCSA.",
+  "captionBoundary": {
+    "x1": 67.28900146484375,
+    "x2": 280.5452575683594,
+    "y1": 162.49691772460938,
+    "y2": 164.5770263671875
+  },
+  "figType": "Figure",
+  "imageText": ["function", "embedding", "CFG", "with", "block", "embeddings", "[12,2,…", ",19]", "②", "③", "①", "[8,1,…,1][2,4,", "…,0]", "[0,2,…,9]", "CFG", "instruction", "sequence", "push", "rbp", "push", "rax", "…", "ret"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 289.92,
+    "y1": 83.03999999999999,
+    "y2": 140.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Figure1-1.png"
+}, {
+  "caption": "Table 1: Averaged results of XO, XO+XC and XO+XC+XB. We",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0364990234375,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1.", "Setting", "abbreviations:", "Hungarian", "algorithm", "(HA),", "partial", "wheel", "graph", "(PWG),", "control-", "flow", "flattening", "(CFF),", "inserting", "subnodes", "(IS),", "longest", "common", "subsequence", "(LCS).", "2.", "The", "postfix", "W", "or", "B", "means", "the", "method", "is", "white-", "or", "black-box,", "respectively.", "B", "+1.95pt", "-", "+2.53pt", "-", "+2.66pt", "-", "+2.38pt", "PWG-B", "+1.26pt", "-", "+0.42pt", "-", "-0.01pt", "-", "+0.56pt", "CFF-B", "-1.13pt", "-", "-3.90pt", "-", "-3.47pt", "-", "-2.83pt", "IS-B", "+0.64pt", "-", "+1.14pt", "-", "+1.57pt", "-", "+1.12pt", "W", "+6.15pt", "-", "+7.41pt", "-", "+5.83pt", "-", "+6.46pt", "HA-W", "+6.29pt", "-", "+6.27pt", "-", "+6.50pt", "-", "+6.35pt", "LCS-W", "+5.42pt", "-", "+13.18pt", "-", "+2.48pt", "-", "+7.03pt", "Total", "SAFE", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "54.26%", "8.97", "37.85%", "11.89", "37.47%", "12.01", "43.19%", "LCS-W", "+5.42pt", "3.09", "+13.18pt", "3.24", "+2.48pt", "2.75", "+7.03pt", "IS-B", "+1.28pt", "1.00", "+2.48pt", "1.09", "+2.59pt", "1.03", "+2.12pt", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "70.30%", "6.43", "70.99%", "6.55", "62.03%", "7.55", "67.77%", "Commercial", "PWG-B", "+1.46pt", "1.49", "+0.32pt", "1.36", "+0.94pt", "1.58", "+0.91pt", "solution", "CFF-B", "+0.24pt", "1.80", "-0.28pt", "1.82", "+0.53pt", "1.37", "+0.16pt", "asm2vec", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "37.96%", "7.86", "26.53%", "15.80", "15.77%", "14.37", "26.75%", "PWG-B", "+0.60pt", "2.01", "+0.24pt", "2.41", "+0.51pt", "1.94", "+0.45pt", "CFF-B", "+0.84pt", "1.86", "+0.34pt", "2.14", "+0.20pt", "1.96", "+0.46pt", "IS-B", "+1.80pt", "2.11", "+2.61pt", "2.57", "+1.06pt", "2.77", "+1.82pt", "Gemini", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "53.54%", "11.18", "46.07%", "16.12", "42.25%", "15.20", "47.29%", "HA-W", "+2.93pt", "2.58", "+2.95pt", "3.11", "+3.77pt", "5.60", "+3.22pt", "PWG-B", "+0.28pt", "2.82", "-1.46pt", "3.08", "-2.9pt", "5.92", "-1.36pt", "CFF-B", "+0.56pt", "2.67", "+1.15pt", "2.69", "+0.66pt", "4.74", "+0.79pt", "IS-B", "-5.19pt", "4.09", "-4.19pt", "2.60", "-4.02pt", "6.00", "-4.47pt", "GAT", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "59.26%", "8.91", "69.28%", "7.43", "67.03%", "11.37", "65.19%", "HA-W", "+7.55pt", "2.17", "+8.74pt", "1.51", "+8.41pt", "2.31", "+8.23pt", "PWG-B", "-0.01pt", "0.03", "0.0pt", "0.0", "0.0pt", "0.0", "-0.003pt", "CFF-B", "-5.04pt", "2.52", "-13.38pt", "3.57", "-11.97pt", "4.09", "-10.13pt", "IS-B", "+2.84pt", "1.4", "+3.92pt", "1.08", "+3.48pt", "1.88", "+3.41pt", "Set2Set", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "72.39%", "8.95", "84.89%", "4.72", "83.49%", "6.0", "80.25%", "HA-W", "+4.7pt", "1.89", "+2.74pt", "1.33", "+2.81pt", "1.03", "+3.41pt", "PWG-B", "+1.03pt", "1.2", "+0.09pt", "1.16", "+0.39pt", "0.73", "+0.50pt", "CFF-B", "+1.54pt", "1.3", "+1.04pt", "0.89", "+0.98pt", "1.2", "+1.19pt", "IS-B", "+0.86pt", "1.25", "+0.75pt", "0.68", "+0.79pt", "0.76", "+0.80pt", "Structure2vec", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "60.49%", "8.94", "70.32%", "7.03", "67.3%", "12.83", "66.0%", "HA-W", "+9.44pt", "2.16", "+10.53pt", "2.14", "+11.04pt", "4.1", "+10.34pt", "PWG-B", "+3.1pt", "1.26", "+4.49pt", "1.97", "+1.42pt", "0.52", "+3.0pt", "CFF-B", "-7.4pt", "2.74", "-15.59pt", "4.04", "-14.36pt", "2.37", "-12.45pt", "IS-B", "+0.57pt", "1.23", "+0.4pt", "1.23", "+4.77pt", "1.46", "+1.91pt", "GNN-Talos", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "63.36%", "9.53", "74.87%", "7.42", "73.59%", "9.6", "70.61%", "HA-W", "+6.84pt", "2.09", "+6.37pt", "1.69", "+6.49pt", "2.35", "+6.57pt", "PWG-B", "+2.38pt", "1.86", "-0.76pt", "1.72", "-0.42pt", "1.77", "+0.40pt", "CFF-B", "+1.37pt", "1.85", "-0.57pt", "1.01", "-0.31pt", "1.14", "+0.16pt", "IS-B", "+2.33pt", "1.6", "+2.03pt", "1.06", "+2.32pt", "1.06", "+2.23pt", "Avg.", "Stdev.", "Avg.", "Stdev.", "Avg.", "Stdev.", "Avg.", "Model", "Setting", "XO", "XO+XC", "XO+XC+XB", "Total", "mark", "best", "black-box", "repair", "method", "."],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 296.15999999999997,
+    "y1": 93.6,
+    "y2": 472.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Table1-1.png"
+}, {
+  "caption": "Table 2: Averaged results of function database search. We",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1897583007812,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1.", "Setting", "abbreviations:", "Hungarian", "algorithm", "(HA),", "partial", "wheel", "graph", "(PWG),", "control-", "flow", "flattening", "(CFF),", "inserting", "subnodes", "(IS),", "longest", "common", "subsequence", "(LCS).", "2.", "The", "postfix", "W", "or", "B", "means", "the", "method", "is", "white-", "or", "black-box,", "respectively.", "W", "+4.89pt", "+5.43pt", "+5.62pt", "+2.46pt", "B", "+1.53pt", "+1.80pt", "+1.72pt", "+1.27pt", "Total", "SAFE", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "54.89%", "43.00%", "35.58%", "14.32%", "LCS", "+7.49pt", "+6.71pt", "+5.83pt", "+1.94pt", "IS-B", "0pt", "+0.49pt", "+0.65pt", "+1.30pt", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "75.61%", "66.40%", "62.05%", "33.98%", "Commercial", "PWG-B", "0pt", "+0.13pt", "+0.2pt", "+0.83pt", "solution", "CFF-B", "0pt", "+0.10pt", "+0.26pt", "+0.87pt", "Asm2Vec", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "50.19%", "43.49%", "40.07%", "31.55%", "PWG-B", "+2.23pt", "+1.47pt", "+1.36pt", "+1.84pt", "CFF-B", "+2.72pt", "+1.40pt", "+1.37pt", "+1.69pt", "IS-B", "+2.45pt", "+1.55pt", "+1.77pt", "+1.77pt", "Gemini", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "62.87%", "54.22%", "45.52%", "20.65%", "HA-W", "+3.21pt", "+3.11pt", "+4.20pt", "+4.30pt", "PWG-B", "+0.08pt", "+0.22pt", "-0.06pt", "-0.14pt", "CFF-B", "+1.56pt", "+1.45pt", "+1.71pt", "+1.36pt", "IS-B", "-5.58pt", "-5.85pt", "-5.65pt", "-4.11pt", "GAT", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "74.61%", "61.10%", "51.58%", "21.34%", "HA-W", "+5.01pt", "+5.88pt", "+6.33pt", "+3.0pt", "PWG-B", "0pt", "0pt", "0pt", "0pt", "CFF-B", "-6.32pt", "-4.82pt", "-3.9pt", "-1.07pt", "IS-B", "+1.89pt", "+2.25pt", "+2.47pt", "+1.21pt", "Set2Set", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "83.53%", "70.33%", "63.03%", "28.06%", "HA-W", "+2.86pt", "+4.36pt", "+4.07pt", "+2.13pt", "PWG-B", "+0.78pt", "+1.17pt", "+0.85pt", "+0.62pt", "CFF-B", "+0.33pt", "+1.76pt", "+1.04pt", "+0.86pt", "IS-B", "+0.13pt", "+0.85pt", "+0.7pt", "+0.59pt", "Structure2vec", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "74.09%", "61.82%", "52.68%", "22.07%", "HA-W", "+7.23pt", "+7.18pt", "+8pt", "+3.65pt", "PWG-B", "+2.34pt", "+2.57pt", "+3.03pt", "+1.25pt", "CFF-B", "-6.05pt", "-7.91pt", "-6.84pt", "-2.72pt", "IS-B", "+1.24pt", "+0.34pt", "+0.67pt", "+0.48pt", "GNN-Talos", "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛@1", "78.12%", "63.36%", "55.50%", "23.34%", "HA-W", "+3.51pt", "+5.38pt", "+5.30pt", "+2.66pt", "PWG-B", "-0.58pt", "+1.58pt", "+1.47pt", "+0.88pt", "CFF-B", "+0.39pt", "+1.11pt", "+1.08pt", "+0.45pt", "IS-B", "+1.43pt", "+2.52pt", "+1.87pt", "+1.07pt", "Model", "Setting", "Poolsize", "128", "512", "1000", "10000", "mark", "best", "black-box", "repair", "methods", "."],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 557.28,
+    "y1": 93.6,
+    "y2": 452.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Table2-1.png"
+}, {
+  "caption": "Figure 2: Failure pattern distribution.",
+  "captionBoundary": {
+    "x1": 98.35800170898438,
+    "x2": 249.47988891601562,
+    "y1": 169.83291625976562,
+    "y2": 171.91302490234375
+  },
+  "figType": "Figure",
+  "imageText": ["Others", "Complex", "structure", "Matching", "result", "is", "related", "function", "10%", "Significant", "differences", "in", "CFG", "14%", "54%", "22%"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 269.76,
+    "y1": 84.96,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Illustration of mismatched function CFGs.",
+  "captionBoundary": {
+    "x1": 333.1499938964844,
+    "x2": 542.9992065429688,
+    "y1": 215.04586791992188,
+    "y2": 217.1259765625
+  },
+  "figType": "Figure",
+  "imageText": ["movaps", "[rsp+var88],xmm0", "movaps", "[rsp+var78],xmm1", "…", "movaps", "[rsp+var28],xmm6", "movaps", "[rsp+var18],xmm7", "(a)", "elf_vxworks_finish_dynamic_entry", "(b)", "_bfd_error_handler"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 557.28,
+    "y1": 84.0,
+    "y2": 192.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Figure5-1.png"
+}, {
+  "caption": "Table 4: Overhead of white-box repairing.",
+  "captionBoundary": {
+    "x1": 89.4489974975586,
+    "x2": 258.0904541015625,
+    "y1": 216.39089965820312,
+    "y2": 218.47100830078125
+  },
+  "figType": "Table",
+  "imageText": ["TOP-𝐾", "5", "10", "50", "100", "GNN-Talos", "2%", "3%", "13%", "23%", "Set2Set", "1%", "2%", "9%", "16%"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 108.0,
+    "x2": 237.12,
+    "y1": 232.79999999999998,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Table4-1.png"
+}, {
+  "caption": "Table 3: Results of B-SCA before and after using Binaug.",
+  "captionBoundary": {
+    "x1": 58.650001525878906,
+    "x2": 288.89556884765625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Commercial", "Default", "24.3", "35.0", "28.7", "Binaug", "(black-box)", "36.6", "37.0", "36.8", "Binaug", "(white-box)", "45.9", "43.1", "44.5", "Binaug", "(black-box)", "40.9", "46.6", "43.6", "Set2Set", "Default", "31.6", "42.2", "36.1", "Binaug", "(white-box)", "27.9", "32.2", "29.9", "Binaug", "(black-box)", "25.5", "22.8", "24.1", "Model", "Setting", "Precision", "(%)", "Recall", "(%)", "F1", "(%)", "GNN-Talos", "Default", "19.9", "28.4", "23.4"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Table3-1.png"
+}, {
+  "caption": "Figure 3: Illustrating GNN-based white-box repairing.",
+  "captionBoundary": {
+    "x1": 329.5989990234375,
+    "x2": 546.5491333007812,
+    "y1": 172.94088745117188,
+    "y2": 175.02099609375
+  },
+  "figType": "Figure",
+  "imageText": ["𝑓𝑢𝑛𝑐2", "𝑓𝑢𝑛𝑐1", "ilarity", "③", "R", "epaired", "sim", "C’B’", "A’", "B", "C", "A", "①", "②", "[2,6,", "…,9]", "Nodes", "with", "intermediate", "features", "[8,3,…,10]", "[0,2,…,9]", "[2,4,", "…,0]", "CFG", "with", "block", "embeddings", "[8,1,…,1]", "[0,2,…,9]"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 340.32,
+    "x2": 541.92,
+    "y1": 84.0,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623328-Figure3-1.png"
+}]

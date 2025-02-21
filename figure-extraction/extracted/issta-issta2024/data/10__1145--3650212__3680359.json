@@ -1,0 +1,381 @@
+[{
+  "caption": "Table 4: RQ1: ThinkRepair vs. LLM-based APRs (SF: Single Function, SH: Single Hunk, SL: Single Line)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.200927734375,
+    "y1": 179.98707580566406,
+    "y2": 196.5770263671875
+  },
+  "figType": "Table",
+  "imageText": ["“-”:", "indicates", "no", "results", "reported", "in", "the", "original", "work,", "or", "cannot", "be", "directly", "compared", "since", "different", "experimental", "settings.", "Perfect", "fault", "info.", "AlphaRepair", "67", "57", "48", "-", "-", "35", "28", "27", "27", "ChatRepair", "76", "-", "-", "-", "-", "-", "39", "-", "40", "BaseChatGPT", "52", "44", "31", "46", "35", "25", "38", "36", "37", "ThinkRepair*", "70", "55", "37", "72", "53", "36", "38", "36", "38", "ThinkRepair", "98", "78", "52", "107", "81", "47", "39", "36", "40", "Method-level", "fault", "info.", "Codex", "63", "-", "-", "-", "-", "-", "32", "-", "37", "GPT-NeoX", "18", "-", "-", "-", "-", "-", "8", "-", "19", "BaseChatGPT", "36", "28", "20", "39", "29", "23", "38", "36", "35", "ThinkRepair*", "63", "46", "33", "62", "44", "25", "38", "36", "38", "ThinkRepair", "80", "64", "44", "90", "69", "41", "39", "36", "40", "SF", "SH", "SL", "SF", "SH", "SL", "SF", "SH", "SF", "V1.2", "V2.0", "Java", "Python", "Defects4J", "QuixBugs", "Models"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 341.28,
+    "x2": 532.3199999999999,
+    "y1": 200.64,
+    "y2": 349.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table4-1.png"
+}, {
+  "caption": "Table 3: RQ1: ThinkRepair vs. Basic LLMs for different projects on Defects4J V1.2",
+  "captionBoundary": {
+    "x1": 141.41299438476562,
+    "x2": 470.2917175292969,
+    "y1": 80.05709075927734,
+    "y2": 85.68798828125
+  },
+  "figType": "Table",
+  "imageText": ["#", "Sum", "98", "70", "63", "59", "52", "44", "39", "37", "Chart", "11", "10", "10", "8", "5", "6", "6", "5", "Closure", "31", "20", "14", "20", "13", "11", "9", "14", "Lang", "19", "13", "11", "12", "11", "10", "7", "7", "Math", "27", "21", "20", "16", "16", "12", "13", "9", "Mockito", "6", "4", "4", "2", "6", "4", "3", "2", "Time", "4", "2", "4", "1", "1", "1", "1", "0", "ChatGPT", "CodeLlama", "DeepSeek", "StarCoder", "BaseChatGPT", "BaseCodeLlama", "BaseDeepSeek", "BaseStarCoder", "Projects", "ThinkRepair", "with", "perfect", "fault", "info", "Basic", "LLM", "with", "perfect", "fault", "info"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 121.92,
+    "x2": 488.15999999999997,
+    "y1": 89.75999999999999,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table3-1.png"
+}, {
+  "caption": "Figure 1: Closure-56: a code logic error in Closure project",
+  "captionBoundary": {
+    "x1": 322.5830078125,
+    "x2": 553.5757446289062,
+    "y1": 457.1551208496094,
+    "y2": 462.7860107421875
+  },
+  "figType": "Figure",
+  "imageText": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "public", "String", "getLine(int", "lineNumber)", "{", "......", "lastOffset", "=", "pos;", "lastLine", "=", "lineNumber;", "if", "(js.indexOf('\\n',", "pos)", "==", "-1)", "{", "－", "return", "null;", "＋", "if", "(pos", ">=", "js.length())", "{", "＋", "return", "null;", "＋", "}", "else", "{", "＋", "return", "js.substring(pos,", "js.length());", "＋", "}", "}", "else", "{", "return", "js.substring(pos,", "js.indexOf('\\n',", "pos));", "}", "}"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 372.0,
+    "x2": 504.0,
+    "y1": 340.8,
+    "y2": 454.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure1-1.png"
+}, {
+  "caption": "Figure 5: RQ1: Bug-fixing Venn diagram on Defects4J V1.2 of ThinkRepair, BaseChatGPT and AlphaRepair",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0452880859375,
+    "y1": 617.6541137695312,
+    "y2": 634.2440185546875
+  },
+  "figType": "Figure",
+  "imageText": ["BaseChatGPT", "ThinkRepair", "AlphaRepair", "Closure:", "1", "Lang:", "2", "Mockito:", "1", "Total:", "4", "Chart:", "2", "Closure:", "7", "Lang:", "2", "Math:", "5", "Mockito:", "1", "Time:", "2", "Total:", "19", "21", "2", "25", "21", "Chart:", "3", "Closure:", "13", "Lang:", "6", "Math:", "6", "Mockito:", "1", "Time:", "2", "Total:", "31"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 258.24,
+    "y1": 505.91999999999996,
+    "y2": 615.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure5-1.png"
+}, {
+  "caption": "Table 5: RQ1: ThinkRepair vs. LLM-based APRs for different projects on Defects4J V1.2",
+  "captionBoundary": {
+    "x1": 129.77999877929688,
+    "x2": 481.9265441894531,
+    "y1": 80.05709075927734,
+    "y2": 85.68798828125
+  },
+  "figType": "Table",
+  "imageText": ["“-”:", "indicates", "no", "results", "reported", "in", "the", "original", "work", "[61,", "63].", "#", "Sum", "80", "63", "36", "18", "63", "98", "70", "52", "76", "67", "Chart", "9", "8", "3", "-", "-", "11", "10", "5", "-", "8", "Closure", "19", "19", "5", "-", "-", "31", "20", "13", "-", "22", "Lang", "15", "11", "7", "-", "-", "19", "13", "11", "-", "11", "Math", "27", "20", "16", "-", "-", "27", "21", "16", "-", "19", "Mockito", "7", "4", "4", "-", "-", "6", "4", "6", "-", "4", "Time", "3", "1", "1", "-", "-", "4", "2", "1", "-", "3", "ThinkRepair", "ThinkRepair*", "BaseChatGPT", "GPT-NeoX", "Codex", "ThinkRepair", "ThinkRepair*", "BaseChatGPT", "ChatRepair", "AlphaRepair", "Projects", "Method-level", "fault", "info", "Perfect", "fault", "info"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 513.12,
+    "y1": 89.75999999999999,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table5-1.png"
+}, {
+  "caption": "Figure 6: RQ1: Unique bug fixed by ThinkRepair on Defects4J",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2022705078125,
+    "y1": 410.2961120605469,
+    "y2": 415.927001953125
+  },
+  "figType": "Figure",
+  "imageText": ["public", "void", "describeTo(Description", "description)", "{", "description.appendText(\"same(\");", "appendQuoting(description);", "＋if", "(wanted", "!=", "null)", "{", "description.appendText(wanted.toString());", "＋}", "else", "{", "＋", "description.appendText(\"null\");", "＋}", "appendQuoting(description);", "description.appendText(\")\");", "}", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "ThinkRepair", "public", "void", "describeTo(Description", "description)", "{", "－description.appendText(\"same(\");", "＋description.appendText(\"is", "\");", "appendQuoting(description);", "description.appendText(wanted.toString());", "－appendQuoting(description);", "－description.appendText(\")\");", "}", "01", "02", "03", "04", "05", "06", "07", "08", "BaseChatGPT", "Test", "Name:", "NPEWithCertainMatchersTest", "()", "Cause:", "When", "wanted", "is", "null,", "it", "may", "cause", "a", "NullPointerException.", "Thought", "Process:", "The", "bug", "in", "the", "describeTo", "function", "is", "that", "it", "is", "assuming", "that", "the", "wanted", "object", "has", "a", "to", "String()", "method,", "which", "may", "not", "always", "be", "the", "case.", "This", "can", "result", "in", "a", "NullPointerException.", "To", "fix", "this,", "we", "can", "check", "if", "wanted", "is", "null", "and", "handle", "it", "accordingly."],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 288.0,
+    "y2": 407.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure6-1.png"
+}, {
+  "caption": "Table 10: ThinkRepair vs. AlphaRepair on RWB",
+  "captionBoundary": {
+    "x1": 340.68597412109375,
+    "x2": 535.1762084960938,
+    "y1": 494.60009765625,
+    "y2": 500.2309875488281
+  },
+  "figType": "Table",
+  "imageText": ["#", "Sum", "19", "9", "10", "6", "Cli", "4", "3", "4", "3", "Codec", "3", "1", "1", "1", "Collections", "1", "0", "-", "-", "Compress", "1", "1", "-", "-", "Csv", "1", "0", "-", "-", "Lang", "3", "2", "3", "1", "Jsoup", "6", "2", "2", "1", "ThinkRepair", "AlphaRepair", "ThinkRepair*", "AlphaRepair", "Projects", "RWB", "V1.0", "(44", "bugs)", "RWB", "V2.0", "(29", "bugs)"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 504.0,
+    "y2": 603.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table10-1.png"
+}, {
+  "caption": "Figure 9: RQ3: The varying performance of ThinkRepair with different interaction number",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04534912109375,
+    "y1": 283.6241149902344,
+    "y2": 300.2139892578125
+  },
+  "figType": "Figure",
+  "imageText": ["78", "80", "80", "80ThinkRepair", "75", "77", "57", "ch", "P", "at", "re", "ct", "C", "or", "80", "75", "70", "65", "60", "1", "2", "3", "4", "5", "6", "7", "Interaction", "Number"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 81.11999999999999,
+    "x2": 267.36,
+    "y1": 134.88,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure9-1.png"
+}, {
+  "caption": "Figure 2: Overview of ThinkRepair",
+  "captionBoundary": {
+    "x1": 235.28199768066406,
+    "x2": 376.71807861328125,
+    "y1": 163.9110870361328,
+    "y2": 169.5419921875
+  },
+  "figType": "Figure",
+  "imageText": ["ClusteringLet’s", "think", "step", "by", "step.", "Test", "Few-Shot", "Selection", "LLM", "You", "are", "an", "Automated", "Program", "Repair", "tool.", "Fixing", "Phase", "Pool", "Test", "Fixed", "Function", "LLM", "Thought", "Process", "You", "are", "an", "Automated", "Program", "Repair", "tool.", "Collection", "Phase", "Function", "Function", "Compile", "&", "Test", "Non-Buggy", "Buggy", "Project"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 116.64,
+    "x2": 496.32,
+    "y1": 77.75999999999999,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The Process of the Collection Phase",
+  "captionBoundary": {
+    "x1": 346.8590087890625,
+    "x2": 529.2986450195312,
+    "y1": 702.7880859375,
+    "y2": 708.4190063476562
+  },
+  "figType": "Figure",
+  "imageText": ["1", "Role", "Designation", "Task", "Description", "Buggy", "Function", "CoT", "Indicator", "e", "er", "te", "cti", ":", "CoT:", "Task", "3:", "Function", "Verification", "CoT", "&", "Generated", "Function", "If", "function", "pass", "all", "test", "cases,", "CoT", "will", "be", "stored.", "LLMTask", "2:", "Chains", "of", "Thoughts", "Collection", "(Reason", "cause)", "The", "bug", "in", "the", "multiplyNumbers", "function", "is", "that", "the", "result", "of", "multiplying", "a", "and", "b", "is", "being", "stored", "in", "an", "int", "variable,", "(Identify", "bug)", "which", "can", "cause", "overflow", "if", "the", "multiplication", "result", "exceeds", "the", "range", "of", "int.", "Generated", "Function", "public", "static", "long", "multiplyNumbers(int", "a,", "int", "b)", "{", "long", "result", "=", "(long)", "a", "*", "b;", "return", "result;", "}", "Task", "1:", "Prompt", "Preparation", "//", "Provide", "a", "fix", "for", "the", "buggy", "function", "//", "Buggy", "Function", "public", "static", "long", "multiplyNumbers", "(int", "a,", "int", "b)", "{", "int", "result", "=", "a", "*", "b;", "return", "result;", "}", "Let’s", "think", "step", "by", "step.4", "2", "3", "You", "are", "an", "Automated", "Program", "Repair", "tool", "Collection", "Phase"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 353.76,
+    "x2": 522.24,
+    "y1": 511.68,
+    "y2": 700.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure3-1.png"
+}, {
+  "caption": "Figure 8: RQ2: Unique bug fixed in Defects4J V1.2",
+  "captionBoundary": {
+    "x1": 338.197998046875,
+    "x2": 537.9606323242188,
+    "y1": 540.0440673828125,
+    "y2": 545.6749877929688
+  },
+  "figType": "Figure",
+  "imageText": ["Thought", "Process:", "1.", "The", "calculation", "of", "the", "p-value", "itself", "is", "incorrect,", "as", "it", "uses", "1", "-", "tDistribu", "tion.cumulativeProbability(t)`", "instead", "of", "`tDistribution.cumulativeProbab", "ility(-t)", "*", "2`,", "which", "properly", "accounts", "for", "both", "tails", "of", "the", "t-distribution.", "2.", "The", "p-value", "calculation", "should", "use", "the", "absolute", "value", "of", "the", "t-value", "to", "compute", "the", "cumulative", "probability", "of", "the", "t-distribution.", "Test", "Name:", "testPValueNearZero", "()", "Interaction", "Number:", "2", "Cause:", "Precision", "error", "when", "the", "function", "call", "is", "extremely", "close", "to", "1.", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "public", "RealMatrix", "getCorrelationPValues()", "throws", "MathException", "{", "TDistribution", "tDistribution", "=", "new", "TDistributionImpl(nObs", "-", "2);", "int", "nVars", "=", "correlationMatrix.getColumnDimension();", "double[][]", "out", "=", "new", "double[nVars][nVars];", "for", "(int", "i", "=", "0;", "i", "<", "nVars;", "i++)", "{", "for", "(int", "j", "=", "0;", "j", "<", "nVars;", "j++)", "{", "if", "(i", "==", "j)", "{", "out[i][j]", "=", "0d;", "}", "else", "{", "double", "r", "=", "correlationMatrix.getEntry(i,", "j);", "－", "double", "t", "=", "Math.abs(r", "*", "Math.sqrt((nObs", "-", "2)/(1", "-", "r", "*", "r)));", "－", "out[i][j]", "=", "2", "*", "(1", "-", "tDistribution.cumulativeProbability(t));", "＋", "double", "t", "=", "r", "*", "Math.sqrt((nObs", "-", "2)/(1", "-", "r", "*", "r));", "＋", "out[i][j]", "=", "tDistribution.cumulativeProbability(-t)", "*", "2;", "＋", "double", "t", "=", "r", "*", "Math.sqrt((nObs", "-", "2)/(1", "-", "r", "*", "r));", "＋", "out[i][j]", "=", "2", "*", "tDistribution.cumulativeProbability(-Math.abs(t));", "}", "}", "}", "return", "new", "BlockRealMatrix(out);", "}", "Buggy", "Line", "Round", "2", "Round", "1"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 349.91999999999996,
+    "y2": 537.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure8-1.png"
+}, {
+  "caption": "Table 6: RQ2: ThinkRepair vs. NMT-based APRs with the perfect fault information provided on Defects4J V1.2",
+  "captionBoundary": {
+    "x1": 82.73799896240234,
+    "x2": 528.9688720703125,
+    "y1": 80.05709075927734,
+    "y2": 85.68798828125
+  },
+  "figType": "Table",
+  "imageText": ["“-”:", "indicates", "no", "results", "reported", "in", "the", "original", "work", "[11].", "#", "Sum", "98", "70", "67", "61", "56", "48", "52", "38", "37", "-", "Chart", "11", "6", "9", "6", "7", "5", "9", "6", "5", "-", "Closure", "31", "19", "22", "21", "16", "15", "13", "8", "10", "-", "Lang", "19", "16", "11", "12", "10", "7", "9", "7", "7", "-", "Math", "27", "22", "18", "16", "18", "18", "16", "12", "12", "-", "Mockito", "6", "5", "5", "3", "2", "2", "4", "4", "1", "-", "Time", "4", "2", "2", "3", "3", "1", "1", "1", "2", "-", "Projects", "ThinkRepair", "ThinkRepair*", "KNOD", "TENURE", "SelfAPR", "RewardRepair", "CURE", "CoCoNuT", "DLFix", "DeepDebug"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 128.64,
+    "x2": 480.47999999999996,
+    "y1": 89.75999999999999,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table6-1.png"
+}, {
+  "caption": "Figure 7: RQ2: Bug-fixing Venn diagram on Defects4J V1.2 of ThinkRepair and all studied NMT-based APRs",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0452880859375,
+    "y1": 618.0130615234375,
+    "y2": 634.60302734375
+  },
+  "figType": "Figure",
+  "imageText": ["2", "6", "0", "1", "4", "3", "SelfAPROther", "TENURE", "KNOD", "ThinkRepair", "23", "5", "3", "9", "5", "0", "1", "1", "4", "2", "0", "1", "1", "1", "0", "3", "21", "4", "6", "32", "5", "3", "32"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 108.0,
+    "x2": 241.92,
+    "y1": 494.88,
+    "y2": 615.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure7-1.png"
+}, {
+  "caption": "Figure 4: The Process of the Fixing Phase",
+  "captionBoundary": {
+    "x1": 90.85700225830078,
+    "x2": 256.9864807128906,
+    "y1": 712.6021118164062,
+    "y2": 718.2330322265625
+  },
+  "figType": "Figure",
+  "imageText": ["Example", "Clustering", "Task", "1:", "Few-Shot", "Selection", "Task", "3:", "Interaction", "Verification", "Task", "2:", "Automatic", "Fixing", "The", "bug", "in", "the", "distance", "function", "arises", "from", "calculating", "the", "sum", "using", "integer", "arithmetic,", "which", "can", "lead", "to", "overflow", "for", "large", "input", "values.", "To", "fix", "this", "issue,", "the", "sum", "calculation", "should", "be", "done", "using", "data", "types", "that", "can", "handle", "larger", "values,", "such", "as", "using", "double", "instead", "of", "int.", "CoT", "public", "static", "double", "distance(int[]", "p1,", "int[]", "p2)", "{", "double", "sum", "=", "0;", "for", "(int", "i", "=", "0;", "i", "<", "p1.length;", "i++)", "{", "final", "double", "dp", "=", "p1[i]", "-", "p2[i];", "sum", "+=", "dp", "*", "dp;", "}", "return", "Math.sqrt(sum);", "}", "Generated", "Function", "Feedback", "//", "Provide", "a", "fix", "for", "the", "buggy", "function", "//", "Buggy", "Function", "public", "static", "double", "distance(int[]", "p1,", "int[]", "p2)", "{", "int", "sum", "=", "0;", "...", "return", "Math.sqrt(sum);", "}", "Let’s", "think", "step", "by", "step.", "//", "Provide", "a", "fix", "for", "the", "...", "//", "Buggy", "Function", "...", "Let’s", "think", "step", "by", "step.", "Thought", "process", "...", "//", "Fixed", "Function", "...", "//", "Provide", "a", "fix", "for", "the", "...", "//", "Buggy", "Function", "...", "Let’s", "think", "step", "by", "step.", "Thought", "process", "...", "//", "Fixed", "Function", "...", "31", "2", "Target", "Please", "fix", "it", "again.", "Let’s", "think", "step", "by", "step.", "Test", "failure", "message", "...", "The", "fixed", "version", "is", "still", "not", "correct.", "Fixing", "Phase", "Few-Shot", "CoT", "Example", "LLM", "Test"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 275.03999999999996,
+    "y1": 514.56,
+    "y2": 710.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Figure4-1.png"
+}, {
+  "caption": "Table 7: RQ2: ThinkRepair vs. NMT-based APRs with perfect fault information provided on the other three datasets",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0480651855469,
+    "y1": 80.05709075927734,
+    "y2": 96.64697265625
+  },
+  "figType": "Table",
+  "imageText": ["“-”:", "indicates", "no", "results", "reported", "in", "the", "original", "work.", "ThinkRepair*", "72", "38", "38", "ThinkRepair", "107", "39", "40", "KNOD", "47", "25", "-", "TENURE", "43", "-", "SelfAPR", "42", "-", "-", "RewardRepair", "44", "20", "-", "CURE", "-", "21", "-", "DeepDebug", "-", "-", "21", "CoCoNuT", "-", "13", "19", "DLFix", "-", "-", "-", "V2.0", "(228", "bugs)", "Java", "(40", "bugs)", "Python", "(40", "bugs)", "Models", "Defects4J", "QuixBugs"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 77.28,
+    "x2": 268.32,
+    "y1": 100.8,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table7-1.png"
+}, {
+  "caption": "Table 8: RQ3: The performance difference among different components",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2047119140625,
+    "y1": 80.05709075927734,
+    "y2": 96.64697265625
+  },
+  "figType": "Table",
+  "imageText": ["ThinkRepair", "✓", "✓", "80", "ThinkRepair-v1", "✓", "✗", "57", "ThinkRepair-v2", "✗", "✓", "62", "Zero-Shot", "✗", "✗", "34", "Few-Shot", "✗", "✗", "36", "Models", "CoT", "Few-Shot", "Learning", "Interaction", "Feedback", "#", "Correct", "Fixes"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 532.3199999999999,
+    "y1": 100.32,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table8-1.png"
+}, {
+  "caption": "Table 9: RQ3: The performance difference among four different few-shot selection strategies",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8043823242188,
+    "y1": 525.3681030273438,
+    "y2": 541.9580078125
+  },
+  "figType": "Table",
+  "imageText": ["“CSelect”:", "Contrastive-based", "Selection,", "“SSelect”:", "Semantic-based", "Selection,", "“ISelect”:", "IR-based", "Selection,", "“RSelect”:", "Randomly", "Selection.", "#", "Sum", "249", "235", "225", "222", "Defects4J", "V1.2", "(255", "bugs)", "80", "73", "70", "68", "Defects4J", "V2.0", "(228", "bugs)", "90", "84", "78", "77", "QuixBugs-Java", "(40", "bugs)", "39", "38", "38", "38", "QuixBugs-Python", "(40", "bugs)", "40", "40", "39", "39", "Datasets", "CSelect", "SSelect", "ISelect", "RSelect"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 341.28,
+    "x2": 532.3199999999999,
+    "y1": 545.76,
+    "y2": 620.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table9-1.png"
+}, {
+  "caption": "Table 1: Statistics of studied dataset",
+  "captionBoundary": {
+    "x1": 102.07400512695312,
+    "x2": 245.47372436523438,
+    "y1": 342.2921142578125,
+    "y2": 347.9230041503906
+  },
+  "figType": "Table",
+  "imageText": ["#", "Sum", "909", "563", "390", "235", "∗Defects4J", "1.2", "and", "Defects4J", "2.0", "are", "two", "completely", "independent", "versions,", "with", "no", "overlapping", "bugs", "between", "them.", "Defects4J", "1.2", "391", "255", "154", "80", "Defects4J", "2.0", "438", "228", "159", "78", "QuixBugs-Java", "40", "40", "37", "37", "QuixBugs-Python", "40", "40", "40", "40", "Dataset", "#", "Total", "Bugs", "#", "SF", "Bugs", "#", "SH", "Bugs", "#", "SL", "Bugs"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 351.84,
+    "y2": 439.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table1-1.png"
+}, {
+  "caption": "Table 2: The studied baselines",
+  "captionBoundary": {
+    "x1": 377.5820007324219,
+    "x2": 498.2788391113281,
+    "y1": 77.22212982177734,
+    "y2": 82.85302734375
+  },
+  "figType": "Table",
+  "imageText": ["ChatRepair", "[63]", "LLM-based", "✗", "≤", "200", "arXiv", "2023", "Codex", "[61]", "LLM-based", "✗", "200", "ICSE", "2023", "GPT-NeoX", "[61]", "LLM-based", "✗", "200", "ICSE", "2023", "AlphaRepair", "[62]", "LLM-based", "✗", "5,000", "FSE", "2022", "Ours:", "ThinkRepair", "LLM-based", "✗", "≤", "125", "This", "work", "KNOD", "[20]", "NMT-based", "✓", "5", "Hour", "ICSE", "2023", "TENURE", "[44]", "NMT-based", "✓", "5", "Hour", "ICSE", "2023", "RewardRepair", "[65]", "NMT-based", "✓", "200", "ICSE", "2022", "SelfAPR", "[64]", "NMT-based", "✓", "no", "setting", "reported", "ASE", "2022", "CURE", "[21]", "NMT-based", "✓", "10,000", "ICSE", "2021", "DeepDebug", "[11]", "NMT-based", "✓", "100", "arXiv", "2021", "CoCoNuT", "[40]", "NMT-based", "✓", "10,000", "ISSTA", "2020", "DLFix", "[29]", "NMT-based", "✓", "5", "Hour", "ICSE", "2020", "Approach", "Category", "Fine-Tuning", "Time/#", "Patch", "Venue"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 86.88,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680359-Table2-1.png"
+}]

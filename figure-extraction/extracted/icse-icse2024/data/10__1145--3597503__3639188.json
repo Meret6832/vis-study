@@ -1,0 +1,381 @@
+[{
+  "caption": "Figure 8: XType: Exception Type Recommender",
+  "captionBoundary": {
+    "x1": 340.93701171875,
+    "x2": 535.2139892578125,
+    "y1": 270.4958801269531,
+    "y2": 272.57598876953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 563.04,
+    "y1": 85.92,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure8-1.png"
+}, {
+  "caption": "Figure 7: XState: Try-Block Statement Detector",
+  "captionBoundary": {
+    "x1": 78.71399688720703,
+    "x2": 269.1257629394531,
+    "y1": 258.8628845214844,
+    "y2": 260.9429931640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 82.56,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure7-1.png"
+}, {
+  "caption": "Table 13: Impact of Fine-Tuning in Neurex (RQ6)",
+  "captionBoundary": {
+    "x1": 73.29701232910156,
+    "x2": 274.24993896484375,
+    "y1": 566.02587890625,
+    "y2": 568.1060180664062
+  },
+  "figType": "Table",
+  "imageText": ["Neurex", "0.981", "0.984", "0.982", "Github", "dataset", "Precision", "Recall", "F1-score", "CodeBERT", "w/o", "fine-tuning", "0.497", "0.972", "0.657"],
+  "name": "13",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.4,
+    "y1": 572.64,
+    "y2": 605.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Table13-1.png"
+}, {
+  "caption": "Figure 12: Neurex Detected Exception-related Bug #106 (missing try-catch) in FuzzyCatch Dataset",
+  "captionBoundary": {
+    "x1": 53.52000045776367,
+    "x2": 294.0347595214844,
+    "y1": 194.01986694335938,
+    "y2": 207.05902099609375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "void", "onCreate(Bundle", "state)", "{", "2", "requestWindowFeature(Window.FEATURE_NO_TITLE);", "3", "+", "try", "{", "4", "final", "WindowManager.LayoutParams", "attrs", "=", "getWindow().getAttributes();", "5", "final", "Class<?>", "cls", "=", "attrs.getClass();", "6", "final", "Field", "fld", "=", "cls.getField(\"buttonBrightness\");", "7", "if", "(fld", "!=", "null", "&&", "\"float\".equals(fld.getType().toString()))", "{", "8", "fld.setFloat(attrs,", "0);", "9", "+", "}", "10", "+", "}", "catch", "(NoSuchFieldException", "e)", "{", "11", "+", "}", "catch", "(IllegalAccessException", "e)", "{", "12", "+", "}..."],
+  "name": "12",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 301.44,
+    "y1": 89.75999999999999,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure12-1.png"
+}, {
+  "caption": "Table 11: Exception Type Recommendation Comparison",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0331115722656,
+    "y1": 467.50390625,
+    "y2": 469.5840148925781
+  },
+  "figType": "Table",
+  "imageText": ["GitHub", "dataset", "Precision", "Recall", "F1-score", "Neurex", "=", "XBlock", "+", "XState", "+", "XType", "0.959", "0.451", "0.613"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 424.8,
+    "y2": 447.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Table11-1.png"
+}, {
+  "caption": "Table 9: Exception Type Recommendation Accuracy (XType",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04327392578125,
+    "y1": 178.81289672851562,
+    "y2": 180.89300537109375
+  },
+  "figType": "Table",
+  "imageText": ["Number", "of", "Exception", "Types", "Github", "One", "Two", "Three", "Four", "Five", "Six", "All", "Precision", "0.973", "0.977", "0.978", "0.938", "0.975", "1.0", "0.974", "Recall", "0.739", "0.484", "0.468", "0.469", "0.75", "0.5", "0.569", "F1-score", "0.840", "0.648", "0.633", "0.625", "0.848", "0.666", "0.718"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 292.32,
+    "y1": 106.56,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Table9-1.png"
+}, {
+  "caption": "Figure 11: Distribution ofDistances of Statement Embeddings",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.191650390625,
+    "y1": 291.2489013671875,
+    "y2": 293.3290100097656
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 342.71999999999997,
+    "x2": 531.36,
+    "y1": 177.6,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure11-1.png"
+}, {
+  "caption": "Figure 10: Dependency Probing via Attentions for Figure 9",
+  "captionBoundary": {
+    "x1": 320.0269775390625,
+    "x2": 556.11962890625,
+    "y1": 160.43685913085938,
+    "y2": 162.5169677734375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Rel.", "from", "S7", "(b)", "Rel.", "from", "S8", "(c)", "Rel.", "from", "S9"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure10-1.png"
+}, {
+  "caption": "Table 12: Exception-Related Bug Detection (RQ5)",
+  "captionBoundary": {
+    "x1": 338.8789978027344,
+    "x2": 536.9737548828125,
+    "y1": 603.9728393554688,
+    "y2": 606.052978515625
+  },
+  "figType": "Table",
+  "imageText": ["Recall", "0.95", "0.76", "Precision", "1.0", "0.54", "F1-score", "0.97", "0.62", "FuzzyCatch", "Dataset", "Neurex", "FuzzyCatch", "[25]"],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 345.59999999999997,
+    "x2": 528.0,
+    "y1": 610.56,
+    "y2": 663.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Table12-1.png"
+}, {
+  "caption": "Figure 1: StackOverflowPost #15409223 onAddingNewPaths",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0346374511719,
+    "y1": 249.81088256835938,
+    "y2": 251.8909912109375
+  },
+  "figType": "Figure",
+  "imageText": ["ClassLoader.class.getDeclaredField(\"usr_paths\");", "3", "usrPathsField.setAccessible(true);", "4", "5", "//get", "array", "of", "paths", "6", "final", "String[]", "paths", "=", "(String[])usrPathsField.get(null);", "7", "8", "//check", "if", "the", "path", "to", "add", "is", "already", "present", "9", "for(String", "path", ":", "paths)", "{", "10", "if(path.equals(pathToAdd))", "{", "11", "return;", "12", "}", "13", "}", "14", "15", "//add", "the", "new", "path", "16", "final", "String[]", "newPaths", "=", "Arrays.copyOf(paths,", "paths.length", "+", "1);", "17", "newPaths[newPaths.length-1]", "=", "pathToAdd;", "18", "usrPathsField.set(null,", "newPaths);", "19", "}", "1", "public", "static", "void", "addLibraryPath(String", "pathToAdd)", "throws", "Exception", "{", "2", "final", "Field", "usrPathsField", "="],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 300.96,
+    "y1": 89.75999999999999,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure1-1.png"
+}, {
+  "caption": "Figure 2: GitHub Project armint Adapts S/O Post in Figure 1",
+  "captionBoundary": {
+    "x1": 321.1470031738281,
+    "x2": 555.0062866210938,
+    "y1": 310.57489013671875,
+    "y2": 312.6549987792969
+  },
+  "figType": "Figure",
+  "imageText": ["ClassLoader.class.getDeclaredField(\"usr_paths\");", "8", "usrPathsField.setAccessible(true);", "9", "10", "//", "get", "array", "of", "paths", "11", "final", "String[]", "paths", "=", "(String[])", "usrPathsField.get(null);", "12", "13", "//", "check", "if", "the", "path", "to", "add", "is", "already", "present", "14", "for", "(String", "path", ":", "paths)", "{", "15", "if", "(path.equals(pathToAdd))", "{", "16", "return;", "17", "}", "18", "}", "19", "20", "//", "add", "the", "new", "path", "21", "final", "String[]", "newPaths", "=", "Arrays.copyOf(paths,", "paths.length", "+", "1);", "22", "newPaths[newPaths.length", "-", "1]", "=", "pathToAdd;", "23", "usrPathsField.set(null,", "newPaths);", "24", "}", "catch", "(NoSuchFieldException", "|", "SecurityException", "|", "IllegalArgumentException", "|", "IllegalAccessException", "e)", "{", "25", "throw", "new", "RuntimeException(e);", "26", "}", "27", "}", "1", "/**", "...", "2", "*", "taken", "from", "http://stackoverflow.com/questions/15409223/", "3", "*", "adding-new-paths-for-native-libraries-at-runtime-in-java", "4", "*/", "5", "private", "static", "void", "addLibraryPath(String", "pathToAdd)", "{", "6", "try", "{", "7", "final", "Field", "usrPathsField", "="],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 565.4399999999999,
+    "y1": 89.75999999999999,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Project quarkus with Same Exception Handling",
+  "captionBoundary": {
+    "x1": 327.56298828125,
+    "x2": 548.5889892578125,
+    "y1": 444.4219055175781,
+    "y2": 446.50201416015625
+  },
+  "figType": "Figure",
+  "imageText": ["+", "\"#\"", "+", "name,", "e);", "10", "}", "11", "}", "1", "public", "Object", "readField(Class<?>", "clazz,", "String", "name,", "Object", "instance)", "{", "2", "try", "{", "3", "Field", "field", "=", "clazz.getDeclaredField(name);", "4", "if", "(!field.isAccessible())", "{", "5", "field.setAccessible(true);", "6", "}", "7", "return", "field.get(instance);", "8", "}", "catch", "(NoSuchFieldException", "|", "SecurityException", "|", "IllegalArgumentException", "|", "IllegalAccessException", "e)", "{", "9", "throw", "new", "RuntimeException(\"Cannot", "read", "field", "value:", "\"", "+", "clazz.getName()"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 565.4399999999999,
+    "y1": 334.56,
+    "y2": 435.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure3-1.png"
+}, {
+  "caption": "Table 2: Try-Catch Block Necessity Checking Comparison with",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1968383789062,
+    "y1": 163.48190307617188,
+    "y2": 165.56201171875
+  },
+  "figType": "Table",
+  "imageText": ["GitHub", "dataset", "Precision", "Recall", "F1-score", "XRank", "[25]", "0.810", "0.530", "0.630", "Neurex", "0.981", "0.984", "0.982"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 109.92,
+    "y2": 142.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Table2-1.png"
+}, {
+  "caption": "Figure 4: An Example Using newBufferedReader to Read from File",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04254150390625,
+    "y1": 180.07290649414062,
+    "y2": 182.15301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "Charset", "charset", "=", "Charset.forName(\"US-ASCII\");", "2", "try", "{", "3", "BufferedReader", "reader", "=", "Files.newBufferedReader(file,", "charset);", "4", "String", "line", "=", "null;", "5", "while", "((line", "=", "reader.readLine())", "!=", "null)", "{", "6", "System.out.println(line);", "7", "}", "8", "}", "catch", "(IOException", "x)", "{", "9", "System.err.format(\"IOException:", "%s%n\",", "x);", "10", "}"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 301.44,
+    "y1": 89.75999999999999,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure4-1.png"
+}, {
+  "caption": "Table 7: Try-Block Statement Detection Comparison",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.197509765625,
+    "y1": 427.1278991699219,
+    "y2": 429.2080078125
+  },
+  "figType": "Table",
+  "imageText": ["XBlock", "+", "XState", "0.969", "0.607", "0.747", "Small", "dataset", "Precision", "Recall", "F1-score", "GPT-3.5", "0.550", "0.232", "0.326"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 368.64,
+    "y2": 401.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Table7-1.png"
+}, {
+  "caption": "Table 3: Try-Catch Necessity Checking Evaluated on Test Set Partitioned by Number Of Try-Catch Blocks (RQ1)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0333557128906,
+    "y1": 235.70388793945312,
+    "y2": 248.74298095703125
+  },
+  "figType": "Table",
+  "imageText": ["Precision", "0.0", "1.0", "1.0", "1.0", "1.0", "1.0", "Recall", "0.0", "0.983", "0.998", "1.0", "0.986", "1.0", "F1-score", "0.0", "0.991", "0.999", "1.0", "0.993", "1.0", "Number", "of", "Try-Catch", "Blocks", "(GitHub", "dataset)", "Zero", "One", "Two", "Three", "Four", "Five"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 284.15999999999997,
+    "y1": 256.8,
+    "y2": 309.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Table3-1.png"
+}, {
+  "caption": "Figure 9: XBlock Puts Attention on the Right Tokens",
+  "captionBoundary": {
+    "x1": 65.41999816894531,
+    "x2": 282.4172668457031,
+    "y1": 213.49588012695312,
+    "y2": 215.57598876953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 82.56,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure9-1.png"
+}, {
+  "caption": "Figure 5: Neurex: Neural Network-Based Exception Handling Recommender",
+  "captionBoundary": {
+    "x1": 149.76600646972656,
+    "x2": 462.2237854003906,
+    "y1": 233.97891235351562,
+    "y2": 236.05902099609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 511.2,
+    "y1": 84.96,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure5-1.png"
+}, {
+  "caption": "Figure 6: XBlock: Try-catch Necessity Checker",
+  "captionBoundary": {
+    "x1": 82.33499908447266,
+    "x2": 265.5057373046875,
+    "y1": 411.1558837890625,
+    "y2": 413.2359924316406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 255.84,
+    "y2": 403.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639188-Figure6-1.png"
+}]

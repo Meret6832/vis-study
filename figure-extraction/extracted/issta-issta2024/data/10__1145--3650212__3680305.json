@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 1: The e ectiveness of PatchFinder and baselines to trace patch commits.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2015380859375,
+    "y1": 87.0038070678711,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["MRR", "0.3824", "0.6195", "0.1736", "0.3240", "0.7951", "K=1", "46.25%", "55.93%", "11.88%", "26.29%", "79.23%", "K=2", "48.51%", "57.72%", "16.88%", "31.49%", "79.30%", "K=3", "48.72%", "58.07%", "19.58%", "34.41%", "79.57%", "K=4", "48.72%", "58.42%", "20.83%", "37.23%", "79.64%", "K=5", "48.92%", "59.58%", "22.08%", "38.38%", "79.91%", "K=6", "48.92%", "61.88%", "22.50%", "40.93%", "79.97%", "K=7", "48.92%", "63.42%", "23.54%", "41.96%", "80.04%", "K=8", "48.92%", "63.42%", "25.00%", "43.22%", "80.31%", "K=9", "48.92%", "63.42%", "25.83%", "44.45%", "80.35%", "K=10", "48.92%", "63.42%", "26.04%", "44.95%", "80.63%", "Recall@K", "PatchScout", "VCMatch", "BM25", "ColBERT", "PatchFinder"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 116.64,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680305-Table1-1.png"
+}, {
+  "caption": "Table 3: E ciency of PatchScout, VCMatch, and PatchFinder.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2020263671875,
+    "y1": 195.80984497070312,
+    "y2": 200.16302490234375
+  },
+  "figType": "Table",
+  "imageText": ["Time", "Cost", "per", "CVE", "(s)", "41.57", "43.35", "46.83", "Tool", "PatchScout", "VCMatch", "PatchFinder"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 214.56,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680305-Table3-1.png"
+}, {
+  "caption": "Table 2: Manual E orts@K (ME@K) of PatchFinder and baselines to trace security patch commits.",
+  "captionBoundary": {
+    "x1": 106.93780517578125,
+    "x2": 504.76873779296875,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["K=1", "1.00", "1.00", "1.00", "1.00", "1.00", "K=8", "4.61", "4.47", "6.29", "5.38", "2.38", "K=2", "1.54", "1.51", "1.86", "1.71", "1.20", "K=9", "5.12", "4.51", "6.95", "5.94", "2.58", "K=3", "2.05", "1.54", "2.68", "2.38", "1.40", "K=10", "5.63", "5.38", "7.64", "6.49", "2.77", "K=4", "2.57", "2.28", "3.46", "3.01", "1.60", "K=20", "10.59", "10.14", "13.67", "11.70", "4.71", "K=5", "3.08", "2.35", "4.23", "3.63", "1.80", "K=30", "14.75", "13.91", "19.43", "16.52", "6.65", "K=6", "3.59", "3.43", "4.94", "4.23", "1.99", "K=50", "29.46", "26.01", "29.69", "25.26", "10.52", "K=7", "4.10", "3.82", "5.60", "4.81", "2.19", "K=100", "41.86", "34.47", "50.91", "44.92", "20.21", "ME@K", "PatchScout", "VCMatch", "BM25", "ColBERT", "PatchFinder", "ME@K", "PatchScout", "VCMatch", "BM25", "ColBERT", "PatchFinder"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 532.3199999999999,
+    "y1": 105.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680305-Table2-1.png"
+}, {
+  "caption": "Figure 1: Overview of our approach.",
+  "captionBoundary": {
+    "x1": 233.3679962158203,
+    "x2": 378.6326904296875,
+    "y1": 230.68179321289062,
+    "y2": 235.03497314453125
+  },
+  "figType": "Figure",
+  "imageText": ["Unrelated", "Commits", "Patch", "Commits", "Semantic-based", "Lexical-based", "Pretrained", "CVE", "Description", "Hybrid", "Retriever", "Commits", "CodeReviewer", "Retriever", "CVE", "Description", "Phase", "2:", "Re-ranking", "via", "Fine-tuning", "CodeReviewer", "Phase", "1:", "Initial", "Retrieval", "via", "Hybrid", "Retriever", "Top", "K", "Commits", "Security", "Expert", "Fine-tuning", "Retrieve", "Ranked", "Commits", "TF-IDF", "Retriever"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 506.4,
+    "y1": 84.0,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680305-Figure1-1.png"
+}, {
+  "caption": "Table 4: Contribution of individual components in PatchFinder in terms of Recall@K.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0435485839844,
+    "y1": 87.0038070678711,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["K=1", "35.21%", "28.75%", "35.26%", "63.85%", "41.04%", "0.21%", "79.23%", "K=2", "40.21%", "32.71%", "42.60%", "63.96%", "47.71%", "0.42%", "79.30%", "K=3", "45.21%", "34.58%", "45.36%", "64.06%", "51.88%", "0.42%", "79.57%", "K=4", "47.71%", "36.67%", "46.67%", "64.17%", "54.38%", "1.25%", "79.64%", "K=5", "51.04%", "38.33%", "48.80%", "64.27%", "56.04%", "1.46%", "79.91%", "K=6", "52.71%", "39.79%", "49.27%", "64.38%", "57.50%", "1.46%", "79.97%", "K=7", "53.75%", "40.21%", "50.57%", "64.48%", "58.54%", "1.46%", "80.04%", "K=8", "54.79%", "41.88%", "52.08%", "64.58%", "59.17%", "1.46%", "80.31%", "K=9", "56.25%", "43.13%", "52.71%", "64.58%", "60.83%", "1.46%", "80.35%", "K=10", "57.29%", "43.96%", "55.70%", "64.58%", "61.46%", "1.88%", "80.63%", "MRR", "0.4243", "0.3394", "0.4146", "0.6403", "0.4827", "-5.87E-06", "0.7951", "Recall@K", "TD-IDF", "CR?A4CA08=", "Di", "Msg", "Phase-1", "Phase-2", "PatchFinder"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 116.64,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680305-Table4-1.png"
+}, {
+  "caption": "Table 5: Contribution of individual components in PatchFinder in terms of Manual E orts@K (ME@K).",
+  "captionBoundary": {
+    "x1": 317.65875244140625,
+    "x2": 558.2005004882812,
+    "y1": 87.00374603271484,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["K=1", "1.00", "1.00", "1.00", "1.00", "1.00", "1.00", "1.00", "K=2", "1.54", "1.71", "1.51", "1.25", "1.59", "2.00", "1.20", "K=3", "2.05", "2.38", "1.54", "1.51", "2.11", "2.99", "1.40", "K=4", "2.57", "3.04", "2.28", "1.76", "2.59", "3.99", "1.60", "K=5", "3.08", "3.67", "2.35", "2.02", "3.05", "4.98", "1.80", "K=6", "3.59", "4.29", "3.43", "2.27", "3.49", "5.96", "1.99", "K=7", "4.10", "4.89", "3.82", "2.53", "3.91", "6.95", "2.19", "K=8", "4.74", "5.49", "4.61", "2.78", "4.33", "7.93", "2.38", "K=9", "5.19", "6.07", "5.12", "3.03", "4.73", "8.92", "2.58", "K=10", "5.63", "6.64", "5.63", "3.29", "5.13", "9.90", "2.77", "K=20", "9.52", "11.94", "10.59", "5.83", "8.63", "19.67", "4.71", "K=30", "12.76", "16.57", "14.75", "8.37", "11.66", "29.20", "6.65", "K=50", "18.58", "24.73", "29.46", "13.45", "16.96", "47.81", "10.52", "K=100", "31.19", "43.02", "41.86", "26.16", "27.90", "93.07", "20.21", "ME@K", "TF-IDF", "CR?A4CA08=", "Di", "Msg", "Phase-1", "Phase-2", "PatchFinder"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 116.64,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680305-Table5-1.png"
+}, {
+  "caption": "Figure 2: The work ow of our Semantic-based Retriever.",
+  "captionBoundary": {
+    "x1": 191.58900451660156,
+    "x2": 420.4120178222656,
+    "y1": 206.82583618164062,
+    "y2": 211.17901611328125
+  },
+  "figType": "Figure",
+  "imageText": ["CVE", "Description", "끫뢢끫뢬", "Semantic", "Similarity끫룴끫룴끫룴(끫뤊끫룴.", "끫뤈끫뤖)", "m", "it", "diff", "--git", "a/eg.py", "b/eg.py", "index", "fa…8", "100644", "---", "a/eg.py", "+++", "b/eg.py", "@@", "-17", "+36", "@@", "foo", "-", "f_path", "=", "user_input", "+", "f_path", "=", "os.path.normpath(user_input)", "CVE", "Description", "C", "o", "m", "set", "up", "strict", "file", "path", "validation", "…", "…", "…", "…", "Maximum", "Similarity", "Server", "exposed", "to", "file", "path", "traversal", "Commit", "끫뢠끫뢮", "Contextual", "Embedding", "Pairwise", "Cosine", "Similarity"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 84.47999999999999,
+    "x2": 530.4,
+    "y1": 73.92,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680305-Figure2-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: New PoCs Trigger the Same Bug",
+  "captionBoundary": {
+    "x1": 90.10399627685547,
+    "x2": 257.7401123046875,
+    "y1": 208.59506225585938,
+    "y2": 212.9482421875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Alongside", "Position.", "Same", "Bug", "Initial", "PoC", "New", "PoC", "（New", "Impact）", "Unique", "Crash", "(Initial", "Impact)", "\"Origin\"", "(a)", "Behind", "Position.", "Same", "Bug", "New", "PoC", "PoC", "Initial", "（New", "Impact）", "Unique", "Crash", "(Initial", "Impact)", "\"Origin\""],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 84.96,
+    "y2": 192.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Figure1-1.png"
+}, {
+  "caption": "Table 4: Incompletely Patched Bug discovered by Sleuth. For each bug we provide the o cial patch (the commit) and a brief x measure.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3867797851562,
+    "y1": 405.9178161621094,
+    "y2": 432.1889953613281
+  },
+  "figType": "Table",
+  "imageText": ["Program", "Bug", "Patch", "Patch", "Details", "Binutils", "CVE-2022-45703", "69bfd175", "[10]", "Amend", "var", "calculation", "Libti", "CVE-2023-1916", "1d", "4271", "[12]", "Add", "boundary", "check", "Libti", "CVE-2023-0799", "afaabc3e", "[11]", "Amend", "function", "parameter", "Libti", "CVE-2022-3598", "cfbb883b", "[9]", "Increase", "bu", "er", "size", "Libti", "CVE-2020-19143", "84b8b9a3", "[6]", "Change", "boundary", "check", "Libti", "CVE-2019-7663", "802d3cbf", "[5]", "Add", "check", "before", "using", "var", "Libming", "CVE-2018-7871", "3a000c7", "[1]", "Add", "boundary", "check", "Libming", "CVE-2018-8964", "3a000c7", "[1]", "Add", "check", "before", "using", "var", "Libming", "CVE-2018-9009", "1d698a4", "[2]", "Add", "function", "to", "check", "var", "Libming", "CVE-2018-9132", "d13db01", "[3]", "Add", "check", "before", "using", "var", "Libming", "CVE-2018-7875", "3a000c7", "[1]", "Add", "boundary", "check", "Libsnd", "le", "CVE-2021-3246", "243b518", "[8]", "Change", "boundary", "check", "Jasper", "CVE-2020-27828", "4cd52b5", "[7]", "Add", "boundary", "check"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.0,
+    "y1": 448.8,
+    "y2": 576.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Table4-1.png"
+}, {
+  "caption": "Table 3: The E ciency of Discovering New Bug Impacts. The “Initial Bug Impact” means the impact exposed by the initial PoC. The “Discovered New Bug Impacts” indicates the impacts newly discovered. The “Time” indicates the rst time the new impact was found on each fuzzer. The dash “-” means the corresponding impact is not discovered by the corresponding tool within 12 hours. We sample only some of its newly identi ed impacts for illustration purposes. We show the complete data in [14].",
+  "captionBoundary": {
+    "x1": 53.44879913330078,
+    "x2": 559.7324829101562,
+    "y1": 87.0038070678711,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["CVE-2018-20591", "heap-bu", "er-over", "ow", "Read", "at", "decompile.c:1843", "heap-bu", "er-over", "ow", "Write", "at", "decompile.c:115", "-", "-", "2.20", "heap-use-after-free", "Read", "at", "decompile.c:2864", "3.24", "-", "0.08", "CVE-2019-16165", "heap-use-after-free", "READ", "at", "parser.c:1298", "heap-bu", "er-over", "ow", "READ", "at", "parser.c:302", "-", "-", "8.56", "CVE-2019-7663", "wild-address-read", "at", "ti", "cp.c:1245", "heap-bu", "er-over", "ow", "WRITE", "at", "ti", "cp.c:1245", "<0.01", "0.19", "0.02", "CVE-2020-16591", "wild-adress", "Read", "at", "readelf.c:12155", "global-bu", "er-over", "ow", "Read", "at", "readelf.c:12155", "-", "-", "0.02", "CVE-2021-20284", "heap-bu", "er-over", "ow", "READ", "at", "elf.c:12694", "heap-use-after-free", "READ", "at", "elf.c:12694", "0.01", "1.72", "<0.01", "CVE-2021-3246", "heap-bu", "er-over", "ow", "WRITE", "at", "ms_adpcm.c:279", "heap-bu", "er-over", "ow", "WRITE", "at", "ms_adpcm.c:280", "0.03", "0.01", "<0.01", "CVE-2022-47673", "heap-bu", "er-over", "ow", "Read", "at", "vms-alpha.c:4580", "heap-bu", "er-over", "ow", "Write", "at", "vms-alpha.c:4551", "-", "-", "8.44", "CVE-2023-0799", "wild-address-read", "at", "ti", "crop.c:3701", "heap-bu", "er-over", "ow", "Write", "at", "ti", "crop.c:3611", "-", "-", "10.52", "heap-use-after-free", "Write", "at", "ti", "crop.c:6487", "-", "-", "3.08", "CVE-2022-4285", "wild-address-read", "at", "elf.c:1969", "global-bu", "er-over", "ow", "READ", "at", "elf.c:1971", "-", "1.58", "4.33", "CVE-2023-31724", "wild-adress", "Read", "at", "nasm-pp.c:3563", "heap-use-after-free", "Read", "at", "nasm-pp.c:5017", "-", "-", "0.94", "a", "-cexp", "Evocatio", "Sleuth", "CVE", "ID", "Initial", "Bug", "Impact", "Discovered", "New", "Bug", "Impacts", "Time(in", "hours)"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.28,
+    "y1": 140.64,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Table3-1.png"
+}, {
+  "caption": "Table 1: Benchmark Summary. The impact types are: heapbu er-over ow read/write (HOR/HOW), use-after-free read/write (UAR/UAW), global-bu er-over ow read/write (GOR/GOW), stack-bu er-over ow (SOF), null-pointer-dereference (#N) and wild-address-read (#W).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6510925292969,
+    "y1": 181.38784790039062,
+    "y2": 229.5770263671875
+  },
+  "figType": "Table",
+  "imageText": ["Liblouis", "Translator", "library", "53k", "GOR", "1", "C", "ow", "Source", "Code", "Analyzer", "37k", "UAR", "1", "Libti", "Image", "library", "84k", "HOR,", "HOW,", "GOW,", "#W", "9", "Libming", "Flash", "library", "83k", "HOR,", "HOW,", "UOR,", "#N", "15", "Binutils", "Binary", "tools", "2.1M", "HOR,", "HOW,", "SOF,", "#W", "10", "Libsixel", "Image", "library", "37K", "HOW", "2", "Jasper", "Image", "manipulation", "53K", "HOR,", "HOW", "4", "Libsnd", "le", "Audio", "manipulation", "85K", "HOW", "1", "Fig2dev", "Graphics", "creation", "47K", "SOF", "2", "Yasm", "Assembler", "67k", "UOR,", "SOF,#W,", "#N", "5", "Program", "Description", "LOC", "Type", "#Quantity"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 281.28,
+    "y1": 245.76,
+    "y2": 337.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Table1-1.png"
+}, {
+  "caption": "Table 2: Impacts discovered results by Sleuth, a -cexp and Evocatio. “Type” records the count of new impact types. The average count of switches is also provided. “Increase” represents the impact increase rate, computed as (Sleuth - fuzzer) / fuzzer. The CVEs marked with symbol † are “completely xed CVEs”.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8043212890625,
+    "y1": 88.92183685302734,
+    "y2": 148.07000732421875
+  },
+  "figType": "Table",
+  "imageText": ["CVE-2018-17795†", "2", "2/1", "1/1", "1/1", "2/1", "CVE-2018-12900†", "4.4", "7/4", "3/3", "5/5", "8/5", "CVE-2018-8905†", "2", "0", "0", "0", "0", "CVE-2020-11895", "109", "65/6", "44/6", "22/5", "68/6", "CVE-2020-11894", "59", "58/5", "44/5", "16/5", "64/5", "CVE-2020-6628", "86.2", "58/6", "43/5", "4/2", "63/6", "CVE-2019-16705", "36", "30/6", "31/6", "10/4", "42/6", "CVE-2018-20591", "31.4", "65/6", "38/6", "13/5", "72/6", "CVE-2018-9009", "84.3", "42/5", "39/5", "8/3", "46/5", "CVE-2018-8964", "67", "40/5", "38/5", "19/5", "42/5", "CVE-2018-7871", "92", "49/6", "49/6", "19/5", "53/6", "CVE-2021-45078†", "2.8", "2/2", "1/1", "1/1", "2/2", "CVE-2021-20294†", "8", "1/1", "1/1", "0", "1/1", "CVE-2021-20284†", "5.2", "1/1", "1/1", "1/1", "1/1", "CVE-2020-35493†", "10.8", "5/1", "5/1", "-", "5/1", "CVE-2020-16592†", "2", "0", "0", "0", "0", "CVE-2019-20094†", "2", "0", "0", "0", "0", "CVE-2019-20024†", "2", "0", "0", "0", "0", "CVE-2021-3272†", "2", "0", "2/2", "0", "2/2", "CVE-2020-27828", "4", "1/1", "1/1", "1/1", "3/2", "CVE-2018-19543†", "2", "0", "0", "0", "0", "CVE-2018-19540†", "3.2", "0", "0", "0", "0", "CVE-2021-3246", "2", "1/1", "1/1", "1/1", "1/1", "CVE-2020-21676†", "21", "17/4", "12/4", "5/2", "20/4", "CVE-2020-21675†", "15.6", "10/4", "9/4", "2/2", "11/4", "CVE-2023-1916", "7.2", "3/2", "2/2", "3/3", "4/3", "CVE-2023-0799", "11.6", "19/6", "12/3", "10/5", "22/7", "CVE-2023-0804†", "15.2", "17/4", "15/4", "2/1", "18/4", "CVE-2022-3598", "2.8", "7/4", "7/4", "1/1", "10/5", "CVE-2020-19143", "2.4", "2/1", "0", "0", "2/1", "CVE-2019-7663", "4.4", "5/3", "2/2", "2/2", "5/3", "CVE-2023-30084", "28.4", "36/6", "26/5", "5/4", "41/6", "CVE-2023-30083", "51.2", "54/6", "28/5", "7/5", "57/6", "CVE-2021-34341", "21.4", "23/3", "1/1", "1/1", "24/3", "CVE-2021-34339", "46", "12/3", "6/2", "2/2", "12/3", "CVE-2021-34338", "30.4", "19/4", "7/2", "3/2", "19/4", "CVE-2018-9132", "82.8", "27/5", "15/5", "14/3", "37/5", "CVE-2018-7875", "88.6", "52/5", "36/5", "16/4", "52/5", "CVE-2022-47673†", "21.2", "19/4", "9/2", "-", "19/4", "CVE-2022-45703", "4.4", "4/2", "1/1", "1/1", "4/2", "CVE-2022-4285†", "6.8", "5/4", "3/3", "1/1", "5/4", "CVE-2020-35448†", "9.6", "8/1", "6/1", "1/1", "8/1", "CVE-2020-16591†", "2.6", "1/1", "0", "0", "1/1", "CVE-2023-31724", "15", "21/5", "12/4", "1/1", "23/5", "CVE-2023-29582", "24", "7/3", "4/3", "1/1", "8/3", "CVE-2021-33468", "8", "11/4", "6/3", "3/2", "11/4", "CVE-2021-33466", "18", "25/5", "13/3", "0", "27/5", "CVE-2021-33465", "14", "13/4", "6/2", "0", "13/4", "CVE-2022-26981†", "6.8", "10/1", "3/1", "0", "11/1", "CVE-2019-16165", "9.2", "2/2", "1/1", "0", "2/2", "Total", "Impact", "856", "584", "202", "941", "Increase", "+0%", "+46.6%", "+323.8%", "-9.0%", "Sleuth", "a", "-cexp", "Evocatio", "Total", "CVE", "ID", "#Switch", "#Impact", "/", "#Type"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 536.16,
+    "y1": 162.72,
+    "y2": 587.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Table2-1.png"
+}, {
+  "caption": "Figure 2: Overview of Sleuth’s Work ow",
+  "captionBoundary": {
+    "x1": 224.07400512695312,
+    "x2": 387.9256591796875,
+    "y1": 247.85983276367188,
+    "y2": 252.2130126953125
+  },
+  "figType": "Figure",
+  "imageText": ["Breadth", "In-depth", "Mode", "Breadth", "Mode", "Switching", "Strategy", "Crash", "Analyzer", "Crash", "Crash", "Report", "Sanitizer", "Analyzer", "Crash", "Fuzzing", "Loop", "Bug", "Impacts", "Program", "with", "Multiple", "PoC", "Set", "Queue", "Mutants", "Crash", "Summary", "Seeds", "In-depth", "Ⅱ.Bug", "Impacts", "Exploration", "Phase", "Execution", "Seed", "Scheduling", "Component", "Monitor", "Ⅰ.Pre-analysis", "Phase", "Relevant", "Graph", "Instrument", "Memory", "Instrumented", "Program", "with", "Potenial", "Impacts", "Crash", "Summary", "Analyzer", "Static", "with", "a", "PoC", "Program"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 89.28,
+    "x2": 523.1999999999999,
+    "y1": 85.44,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Impacts found on the “Completely Fixed” CVEs.",
+  "captionBoundary": {
+    "x1": 70.49800109863281,
+    "x2": 277.345947265625,
+    "y1": 254.26449584960938,
+    "y2": 258.13397216796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 278.4,
+    "y1": 82.56,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Figure4-1.png"
+}, {
+  "caption": "Figure 5: New Bug Impacts Discovered Over Time",
+  "captionBoundary": {
+    "x1": 338.0903015136719,
+    "x2": 538.0682983398438,
+    "y1": 394.0576171875,
+    "y2": 398.4107971191406
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Same", "Impacts", "Discovered", "by", "Sleuth", "and", "afl-", "cexp", "(a)", "All", "Impacts", "Discovered", "by", "Three", "Fuzzers"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 82.56,
+    "y2": 377.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Figure5-1.png"
+}, {
+  "caption": "Figure 3: An example of generatingMRG through the static analyzer. Assume Line 17 is the initial crash position and pointer dst points to the victim object.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04827880859375,
+    "y1": 216.59780883789062,
+    "y2": 242.86798095703125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Level", "Distribution.", "0", "61", "5", "3", "4", "2", "1", "29", "25", "24", "2", "12", "20", "13", "17", "(b)", "Taint", "Analysis.", "out", "out", "inin", "dst", "dst", "dst", "29", "25", "24", "2", "12", "20", "13", "17", "(a)", "Code", "Snippet.", "29:", "24:", "25:", "20:", "17:", "12:", "13:", "2:", "3:", "4:", "5:", "6:", "7:", "uint8*", "dst", "=", "in;", "...", "buf", "=", "*(dst", "+", "col);", "...", "int", "extractC(uint8*", "in){", "uint8*", "dst", "=", "in;", "...", "buf", "=", "*(dst", "+", "col);", "...", "*(dst", "+", "col", "+", "1)", "=", "bytebuf;", "...", "int", "extractB(uint8*", "in){", "extractC(out", "+", "offset2);", "case", "2:", "extractB(out", "+", "offset1);", "case", "1:", "uint8*", "out", "=", "malloc(size);", "switch(n){"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680316-Figure3-1.png"
+}]

@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 6: Example of contradictory explanation process for ‘triples_sum_to_zero’. We rst use the LLM to derive an explanation for each input-output pair. Then we take those explanations and query LLM again to identify the reasons for producing di erent explanations.",
+  "captionBoundary": {
+    "x1": 53.1171989440918,
+    "x2": 295.6512756347656,
+    "y1": 243.95285034179688,
+    "y2": 292.1419982910156
+  },
+  "figType": "Figure",
+  "imageText": ["Q:", "I", "have", "two", "explanations", "for", "triples_to_sum_to_zero,", "are", "there", "any", "ambiguous", "or", "other", "problems?", "A:", "The", "explanations", "are", "contradictory,", "hence", "there", "is", "an", "ambiguity", "in", "the", "understanding", "of", "what", "constitutes", "\"distinct", "elements\"", "in", "the", "context", "of", "this", "problem.", "Q:", "The", "triples_sum_to_zero([0,0,0])", "returns", "True", "because", "...", "A:", "The", "three", "zeros", "in", "the", "list", "sum", "up", "to", "zero.", "Q:", "The", "triples_sum_to_zero([0,0,0])", "returns", "False", "because", "...", "A:", "The", "elements", "are", "not", "distinct.", "They", "are", "all", "equal", "to", "0."],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Figure6-1.png"
+}, {
+  "caption": "Table 1: Average number of identi ed program clusters and average number of generated test cases of each tool on HumanEval+ and MBPP+.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8085327148438,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Ground", "Truth", "2.54", "740.9", "2.18", "108.6", "AlphaCode", "2.56", "89.2", "2.56", "85.3", "codeT", "2.31", "89.2", "2.11", "85.3", "LLMCodeChoice", "2.48", "1.2", "2.71", "1.3", "avg", "clusters", "avg", "tests", "avg", "clusters", "avg", "tests", "HumanEval+", "MBPP+"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 549.12,
+    "y1": 127.67999999999999,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Table1-1.png"
+}, {
+  "caption": "Figure 5: Example of ambiguous task description from HumanEval benchmark. The ambiguous point is the interpretation of “distinct elements”. Lines 5-6 show the speci c implementation of the misinterpreted concept.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8109741210938,
+    "y1": 188.62283325195312,
+    "y2": 225.85302734375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "if", "l[i]+l[j]+l[k]==0:", "11", "return", "True", "12", "return", "False", "4", "\"\"\"", "5", "-", "if", "len(l)", "<", "3", "or", "len(set(l))", "<", "3:", "6", "-", "return", "False", "7", "for", "i", "in", "range(n-2):", "8", "for", "j", "in", "range(i+1,", "n-1):", "9", "for", "k", "in", "range(j+1,", "n):", "three", "distinct", "elements", "in", "the", "list", "that", "sum", "to", "zero", ",", "and", "False", "otherwise."],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 315.36,
+    "x2": 559.1999999999999,
+    "y1": 107.52,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Figure5-1.png"
+}, {
+  "caption": "Figure 4: Comparison between direct speci cation inference",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0428466796875,
+    "y1": 670.622802734375,
+    "y2": 674.9760131835938
+  },
+  "figType": "Figure",
+  "imageText": ["---------------", "Response", "of", "Specification", "Selection", "---------------", "The", "process", "to", "find", "out", "the", "largest", "prime", "factor", "of", "a", "number", "`n`", "is", "as", "follows:", "1.", "...", "2.", "...", "3.", "...", "Consider", "`n=25191`,", "...", "will", "find", "that", "the", "prime", "factors", "of", "25191", "are", "3,", "and", "311.", "Among", "them,", "311", "is", "the", "largest", "prime", "factor.", "So,", "the", "function", "`largest_prime_factor(25191)`", "should", "return", "`311`.", "----------------Response", "of", "Direct", "Specification", "Inference", "---------------", "Let's", "apply", "this", "to", "`largest_prime_factor(25191)`:", "25191", "is", "not", "divisible", "by", "2", "25191", "is", "divisible", "by", "3", "-->", "8397", "remains", "(25191/3", "=", "8397)", "8397", "is", "not", "divisible", "by", "any", "of", "the", "prime", "numbers", "2,", "3,", "5,", "7,", "11...", "So,", "the", "output", "should", "be:", "`8397`", "Please", "explain", "step", "by", "step", "and", "answer.", "Please", "help", "me", "find", "the", "correct", "output", "for", "the", "below", "function.", "Please", "help", "me", "select", "a", "correct", "output", "from", "a", "few", "choices", "for", "the", "below", "function", "def", "largest_prime_factor(n:", "int):", "\"\"\"Return", "the", "largest", "prime", "factor", "of", "n.", "Assume", "n", ">", "1", "and", "is", "not", "a", "prime.\"\"\"", "What", "should", "be", "the", "value", "of", "`largest_prime_factor(25191)`?", "`311`", "or", "`933`?"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 289.44,
+    "y1": 474.71999999999997,
+    "y2": 660.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Figure4-1.png"
+}, {
+  "caption": "Table 3: Overall pass@1 (%) and average token spent on the HumanEval+, HumanEval, MBPP+, and MBPP benchmarks with GPT-4 for all tools, excluding all tasks that cannot make correct program selection. The numbers-/(. ) in the pass@1 (%) columns represent the pass@1 result for enhanced / (original) benchmarks respectively.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.8056030273438,
+    "y1": 87.0038070678711,
+    "y2": 146.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["Random", "Selection", "57.0", "(63.1)", "-", "58.1", "(69.9)", "-", "AlphaCode", "75.6", "(80.3)", "6319", "71.4", "(81.6)", "5507", "codeT", "80.8", "(86.8)", "6319", "75.0", "(83.3)", "5507", "LLMCodeChoice-Vote", "73.1", "(84.7)", "-", "72.0", "(81.2)", "-", "LLMCodeChoice-Infer", "79.6", "(82.5)", "-", "76.9", "(81.9)", "-", "LLMCodeChoice", "87.7", "(89.2)", "1533", "78.6", "(83.2)", "1331", "HumanEval+", "(HumanEval)", "MBPP+", "(MBPP)", "pass@1", "(%)", "avg", "tokens", "pass@1", "(%)avg", "tokens"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 160.79999999999998,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Table3-1.png"
+}, {
+  "caption": "Table 2: Accuracy of Oracle Inference Strategies: speci cation selection via LLMCodeChoice, speci cation inference from scratch from LLM, and majority vote.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04791259765625,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["HumanEval+", "87.6%", "77.0%", "71.3%", "MBPP+", "82.7%", "68.2%", "66.8%", "Total", "84.3%", "70.3%", "68.2%", "LLMCodeChoice", "Direct", "Inference", "Majority", "Vote"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 285.12,
+    "y1": 127.67999999999999,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Table2-1.png"
+}, {
+  "caption": "Figure 1: The work ows and selection results of LLMCodeChoice,AlphaCode, and codeT on task 44 of HumanEval. Selection results are marked in bold. While AlphaCode and codeT use LLM-generated tests to do program clustering and some form of majority vote, LLMCodeChoice obtains distinguishing inputs by di erential testing and prompts LLM to select the correct outputs for these inputs based on natural language problem description.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.20458984375,
+    "y1": 578.893798828125,
+    "y2": 616.1240234375
+  },
+  "figType": "Figure",
+  "imageText": ["…", "clustering", "clustering", "LLMCodeChoice", "(specification", "selection)", "AlphaCode", "(majority", "vote)", "CodeT", "(correctness", "score)", "Program", "Cluster", "1", "(size", "=", "6)", "Program", "Cluster", "2", "(size", "=", "4)", "LLM-Generated", "Test", "Cases", "Differential-Testing", "Generated", "Tests", "Problem", "Description", "Cluster", "1:", "change_base(0,", "2)", "==", "‘’", "Cluster", "2:", "change_base(0,", "2)", "==", "‘0’", "✔", "This", "function", "is", "responsible", "for", "changing...", "However,", "when", "the", "original", "number", "is", "0,", "no", "matter", "what", "the", "base", "is,", "the", "function", "should", "immediately", "terminate", "and", "return", "'0'.", "That’s", "because", "0", "in", "decimal", "is", "still", "0", "in", "any", "other", "bases.", "Therefore,", "the", "correct", "output", "for", "`change_base(0,", "2)`", "should", "be", "`’0’`", "What", "should", "be", "the", "value", "of", "change_base(0,", "2)?", "‘’", "or", "‘0’?", "\"\"“", "change", "the", "numerical", "…", "\"\"\"", "Please", "help", "me", "select", "a", "correct", "output", "from", "a", "few", "choices", "for", "the", "below", "function:", "def", "change_base(x,", "base)", "Cluster", "1:", "size", "=", "6", "❌", "Cluster", "2:", "size", "=", "4", "Cluster", "1:", "score", "=", "98", "×", "6", "=", "588", "❌", "Cluster", "2:", "score", "=", "99", "×", "4", "=", "396", "Detected", "two", "program", "clusters", "with", "input:", "{x=0,", "base=2}", "Sample", "10", "Sample", "1", "change_base(0,2)", ">>>", "'0'", "return", "result", "result", "=", "str(x", "%", "base)", "+", "result", "x", "=", "x", "//", "base", "if", "x", "==", "0:", "return", "'0'", "result", "=", "''", "while", "x", ">", "0:", "def", "change_base(x,", "base):", "change_base(0,2)", ">>>", "''", "return", "''.join(digits[::-1])", "digits.append(str(x", "%", "base))", "x", "//=", "base", "digits", "=", "[]", "while", "x", ">", "0:", "def", "change_base(x,", "base):", "assert", "change_base(10,2)", "==", "'1010’", "...", "assert", "change_base(10,", "16)", "==", "‘A", "’", "❌", "assert", "change_base(0,2)", "==", "‘0’", "after", "the", "conversion.", "base", "numbers", "are", "less", "than", "10.\"\"\"", "\"\"\"", "change", "numerical", "base", "of", "input", "number", "x", "to", "base.", "return", "string", "representation", "def", "change_base(x,", "base):"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 555.36,
+    "y1": 83.52,
+    "y2": 561.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Figure1-1.png"
+}, {
+  "caption": "Table 4: Four Reasons for Incorrect Speci cation Selection in LLMCodeChoice.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2005004882812,
+    "y1": 87.0038070678711,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["HumanEval+", "6", "5", "2", "2", "MBPP+", "15", "17", "2", "11", "Total", "(35.0%)", "21", "(36.7%)", "22", "(6.7%)", "4", "(21.6%)", "13", "Wrong", "Incomplete", "Ambiguous", "Wrong", "Choice", "Problem", "Problem", "Ground", "Truth"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 116.64,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Table4-1.png"
+}, {
+  "caption": "Table 5: Causes of the 21 wrong choices by LLMCodeChoice.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2018432617188,
+    "y1": 185.77383422851562,
+    "y2": 190.12701416015625
+  },
+  "figType": "Table",
+  "imageText": ["Type", "of", "mistakes", "Occurences", "Incorrect", "calculation", "11", "Misunderstanding", "of", "problem", "5", "Hallucinated", "precondition", "3", "Incorrect", "reasoning", "1", "Use", "of", "incorrect", "fact", "1"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 363.84,
+    "x2": 511.2,
+    "y1": 204.95999999999998,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Table5-1.png"
+}, {
+  "caption": "Figure 2: Overview of Oracle-Guided Program Selection",
+  "captionBoundary": {
+    "x1": 61.68980026245117,
+    "x2": 286.155029296875,
+    "y1": 210.46578979492188,
+    "y2": 214.8189697265625
+  },
+  "figType": "Figure",
+  "imageText": ["Program", "Selection", "Oracle", "Inference", "f3", "f2", "is", "correct", "test:", "assert", "f(x)", "==", "y2", "f2", "f1", "Inputs", "Program", "Samples", "Distinguishing", "Function", "f", "does", "the", "following:", "…", "What", "should", "be", "the", "value", "of", "f(x)?", "y1", "or", "y2", "or", "y3?", "The", "value", "should", "be", "y2,", "because", "…", "Description", "Testing", "Problem", "Differential"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680308-Figure2-1.png"
+}]

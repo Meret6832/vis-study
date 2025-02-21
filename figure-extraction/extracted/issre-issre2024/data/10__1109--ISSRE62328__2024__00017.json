@@ -1,0 +1,261 @@
+[{
+  "caption": "TABLE III: Comparison among TimeSeriesBench and existing UTS anomaly detection benchmark suites. TimeSeriesBench presents more angles for performance evaluation, meanwhile offering user-friendly interfaces for up-to-date model and evaluation criterion developments.",
+  "captionBoundary": {
+    "x1": 64.6729965209961,
+    "x2": 296.107177734375,
+    "y1": 113.09786987304688,
+    "y2": 162.71173095703125
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "✗", "✓", "✓", "✓", "✓", "Method", "✓", "✓", "✗", "✓", "✓", "Eval", "criteria", "✗", "✗", "✗", "✓", "✓", "RT", "Statistics", "✗", "✗", "✗", "✗", "✓", "Learning", "Schema", "✗", "✗", "✗", "✗", "✓", "Extensibility", "Supported", "Eval", "criteria", "Point-based4", "✓", "✓", "✓", "✓", "✓", "Range-based5", "✓", "✗", "✓", "✓", "✓", "Event-based", "✗", "✗", "✗", "✗", "✓", "One-by-one", "✓", "✓", "✓", "✓", "✓", "All-in-one", "✗", "✗", "✗", "✗", "✓", "Zero-shot", "✗", "✗", "✗", "✗", "✓", "Learning", "Schema", "Real-World", "✓", "✓", "✓", "✓", "✓", "Synthetic", "✗", "✓", "✓", "✓", "✓", "Data", "Source", "Suites", "Exathlon", "[14]", "TODS", "[13]", "TSB", "[15]", "TimeEval", "[54]", "Ours"],
+  "name": "III",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 295.2,
+    "y1": 170.88,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-TableIII-1.png"
+}, {
+  "caption": "Fig. 1: The industrial-grade concerns and TimeSeriesBench’s solutions on benchmarking univariate time series anomaly detection algorithms.",
+  "captionBoundary": {
+    "x1": 64.364501953125,
+    "x2": 538.2533569335938,
+    "y1": 230.74020385742188,
+    "y2": 247.29364013671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 515.04,
+    "y1": 70.56,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure1-1.png"
+}, {
+  "caption": "Fig. 7: Overall performance ranking using different learning schema under reduced-length F1best. Methods are ranked in descending order according to the average of all scores. The row names denote the names of methods, while the column names denote the names of the datasets. The best score of each column is underlined. Due to the inherent assumptions behind the statistical methods being incompatible with the all-in-one and zero-shot schemas, these methods are not included in the ranking, and the related score cells are set to grey without values.",
+  "captionBoundary": {
+    "x1": 64.33407592773438,
+    "x2": 538.2229614257812,
+    "y1": 386.8030090332031,
+    "y2": 436.416748046875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "zero-shot", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "AIOPSNAB", "TODSWSDYahoo", "UCR", "NEK", "0.44", "0.56", "0.22", "0.30", "0.43", "0.27", "0.54", "0.69", "0.64", "0.30", "0.74", "0.14", "0.36", "0.53", "0.47", "0.28", "0.64", "0.89", "0.93", "0.47", "0.45", "0.49", "0.88", "0.57", "0.62", "0.45", "0.26", "0.72", "0.47", "0.93", "0.40", "0.62", "0.49", "0.29", "0.89", "0.69", "0.72", "0.62", "0.79", "0.70", "0.41", "0.62", "0.75", "0.85", "0.71", "0.83", "0.60", "0.32", "0.94", "0.55", "0.85", "0.65", "0.85", "0.83", "0.35", "0.82", "0.67", "0.88", "0.66", "0.88", "0.93", "0.42", "0.96", "0.77", "0.85", "0.71", "0.90", "0.86", "0.32", "0.96", "0.80", "0.94", "0.80", "0.77", "0.80", "0.41", "0.80", "0.81", "0.86", "0.59", "0.94", "0.79", "0.56", "0.96", "0.82", "0.86", "0.68", "0.93", "0.83", "0.59", "0.95", "0.80", "0.90", "0.80", "0.93", "0.94", "0.49", "0.96", "(b)", "all-in-one", "AIOPSNAB", "TODSWSDYahoo", "UCR", "NEK", "0.37", "0.73", "0.26", "0.58", "0.24", "0.24", "0.67", "0.67", "0.64", "0.26", "0.77", "0.17", "0.38", "0.62", "0.49", "0.47", "0.56", "0.80", "0.94", "0.49", "0.41", "0.50", "0.85", "0.50", "0.54", "0.53", "0.19", "0.93", "0.66", "0.86", "0.56", "0.74", "0.52", "0.25", "0.96", "0.58", "0.80", "0.84", "0.77", "0.65", "0.40", "0.58", "0.70", "0.83", "0.65", "0.84", "0.58", "0.33", "0.95", "0.55", "0.86", "0.62", "0.81", "0.77", "0.29", "0.76", "0.70", "0.87", "0.71", "0.88", "0.93", "0.43", "0.96", "0.74", "0.84", "0.77", "0.92", "0.82", "0.36", "0.96", "0.76", "0.89", "0.85", "0.81", "0.85", "0.48", "0.81", "0.82", "0.85", "0.75", "0.94", "0.81", "0.61", "0.96", "0.81", "0.85", "0.75", "0.95", "0.80", "0.61", "0.93", "0.82", "0.89", "0.79", "0.93", "0.95", "0.46", "0.96", "(a)", "naive", "Sub-LOF", "SAND", "MatrixProfile", "Anomaly", "Transformer", "SRCNN", "TFAD", "TimesNet", "TranAD", "Donut", "EncDecAD", "OFA", "FITS", "AE", "FCVAE", "LSTMAD-β", "LSTMAD-α", "AR", "AIOPSNAB", "TODSWSDYahoo", "UCR", "NEK", "0.38", "0.70", "0.58", "0.72", "0.49", "0.58", "0.68", "0.07", "0.30", "0.25", "0.10", "0.47", "0.55", "0.18", "0.03", "0.18", "0.21", "0.04", "0.21", "0.51", "0.32", "0.37", "0.77", "0.28", "0.30", "0.14", "0.31", "0.40", "0.16", "0.58", "0.30", "0.18", "0.13", "0.32", "0.44", "0.36", "0.57", "0.45", "0.76", "0.78", "0.34", "0.62", "0.67", "0.84", "0.37", "0.87", "0.44", "0.25", "0.93", "0.65", "0.91", "0.25", "0.67", "0.56", "0.25", "0.91", "0.70", "0.84", "0.72", "0.88", "0.68", "0.44", "0.99", "0.76", "0.88", "0.64", "0.93", "0.50", "0.32", "0.76", "0.69", "0.89", "0.63", "0.88", "0.75", "0.42", "0.95", "0.71", "0.86", "0.54", "0.88", "0.76", "0.41", "0.90", "0.72", "0.88", "0.68", "0.92", "0.61", "0.42", "0.98", "0.79", "0.87", "0.71", "0.91", "0.69", "0.59", "0.90", "0.80", "0.90", "0.76", "0.94", "0.54", "0.44", "0.97", "0.81", "0.90", "0.70", "0.94", "0.55", "0.48", "1.00", "0.75", "0.90", "0.75", "0.87", "0.92", "0.45", "0.96"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 535.68,
+    "y1": 73.44,
+    "y2": 377.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure7-1.png"
+}, {
+  "caption": "Fig. 14: Overview of TimeSeriesBench Toolkit.",
+  "captionBoundary": {
+    "x1": 341.1081848144531,
+    "x2": 520.5430297851562,
+    "y1": 549.33056640625,
+    "y2": 554.8638916015625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "14",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 538.0799999999999,
+    "y1": 476.64,
+    "y2": 542.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure14-1.png"
+}, {
+  "caption": "Fig. 13: The triad of the model’s performance, cost, and efficiency trade-off. The x-axis represents the total inference time (batch size set to 1) of the detectors on AIOPS 7103fa0fcac4-314f-addc-866190247439 (around 140,000 samples) under default parameters. The y-axis represents the average performance of the models on all datasets under the all-inone learning schema. The size of the scatter points denotes each method’s cube root of the number of parameters.",
+  "captionBoundary": {
+    "x1": 65.24508666992188,
+    "x2": 296.6813659667969,
+    "y1": 366.6162109375,
+    "y2": 449.2909851074219
+  },
+  "figType": "Figure",
+  "imageText": ["FITS", "OFA", "TimesNet", "TranAD", "Anomaly", "Transformer", "SRCNN", "FCVAE", "Donut", "EncDecAD", "AE", "LSTMAD-β", "AR", "LSTMAD-α", "re", "S", "co", "ag", "e", "A", "v", "er", "0.9", "0.8", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "Inference", "Time", "(seconds)", "101", "102", "103", "104"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 287.03999999999996,
+    "y1": 234.23999999999998,
+    "y2": 358.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure13-1.png"
+}, {
+  "caption": "TABLE II: Performance comparison using all-in-one learning schema under K-delay reduced-length F1best and AUPRC",
+  "captionBoundary": {
+    "x1": 71.2748031616211,
+    "x2": 532.4386596679688,
+    "y1": 73.77548217773438,
+    "y2": 80.68597412109375
+  },
+  "figType": "Table",
+  "imageText": ["OFA", "0.4689", "0.3818", "0.4145", "0.2901", "0.4664", "0.4147", "0.605", "0.5593", "0.7267", "0.6979", "0.1718", "0.1371", "0.7155", "0.6536", "FITS", "0.6623", "0.6474", "0.4341", "0.302", "0.5232", "0.5423", "0.6848", "0.6573", "0.9013", "0.8903", "0.2802", "0.2585", "0.8335", "0.8122", "TranAD", "0.6302", "0.5726", "0.4406", "0.3254", "0.4199", "0.3944", "0.588", "0.5219", "0.511", "0.4551", "0.1472", "0.1261", "0.8932", "0.8696", "TimesNet", "0.4663", "0.4199", "0.433", "0.3105", "0.3792", "0.3232", "0.4063", "0.3349", "0.5242", "0.4988", "0.0704", "0.0501", "0.9028", "0.9174", "Donut", "0.5618", "0.5262", "0.4014", "0.2859", "0.6296", "0.617", "0.6317", "0.5765", "0.6423", "0.6089", "0.1869", "0.1556", "0.5618", "0.4383", "FCVAE", "0.7389", "0.7256", "0.5991", "0.4845", "0.6281", "0.6117", "0.6838", "0.6372", "0.847", "0.8242", "0.3249", "0.2813", "0.7439", "0.6557", "SRCNN", "0.6253", "0.5748", "0.3072", "0.2383", "0.1816", "0.1069", "0.6267", "0.5744", "0.1605", "0.0978", "0.2358", "0.2019", "0.5446", "0.5189", "AnomalyTransformer", "0.306", "0.1596", "0.3655", "0.2657", "0.1331", "0.0674", "0.4326", "0.2876", "0.1751", "0.0978", "0.1243", "0.0948", "0.6075", "0.4891", "TFAD", "0.4578", "0.362", "0.15", "0.0849", "0.4658", "0.3988", "0.6165", "0.569", "0.9281", "0.9144", "0.4206", "0.4034", "0.3133", "0.1913", "AE", "0.7077", "0.71", "0.3685", "0.255", "0.5843", "0.5551", "0.7522", "0.719", "0.8076", "0.7882", "0.2233", "0.1881", "0.9439", "0.9513", "EncDecAD", "0.6744", "0.6434", "0.394", "0.2602", "0.5346", "0.5328", "0.6641", "0.6271", "0.5751", "0.5277", "0.2064", "0.1723", "0.9348", "0.9256", "Sub-LOF", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "AR", "0.7815", "0.766", "0.5334", "0.407", "0.6748", "0.6827", "0.7251", "0.6888", "0.9451", "0.9345", "0.3422", "0.3121", "0.9137", "0.9154", "LSTMAD-α", "0.7819", "0.7924", "0.4235", "0.2928", "0.6437", "0.6424", "0.7627", "0.7276", "0.7946", "0.7767", "0.4494", "0.4063", "0.9196", "0.9308", "LSTMAD-β", "0.7826", "0.7957", "0.4275", "0.2928", "0.6234", "0.63", "0.7593", "0.7248", "0.8033", "0.7841", "0.4464", "0.4073", "0.9458", "0.9561", "MatrixProfile", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "SAND", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "Method", "AIOPS", "(K=10)", "NAB", "(K=150)", "TODS", "(K=3)", "WSD", "(K=10)", "Yahoo", "(K=3)", "UCR", "(K=50)", "NEK", "(K=10)", "F1best", "AUPRC", "F1best", "AUPRC", "F1best", "AUPRC", "F1best", "AUPRC", "F1best", "AUPRC", "F1best", "AUPRC", "F1best", "AUPRC"],
+  "name": "II",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 538.0799999999999,
+    "y1": 87.84,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-TableII-1.png"
+}, {
+  "caption": "Fig. 2: Illustrations of anomaly types. Anomalous segments are highlighted in pink.",
+  "captionBoundary": {
+    "x1": 64.27471923828125,
+    "x2": 295.708984375,
+    "y1": 199.52090454101562,
+    "y2": 216.0743408203125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "point-wise", "outlier", "(b)", "pattern-wise", "outlier"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 284.15999999999997,
+    "y1": 145.92,
+    "y2": 190.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure2-1.png"
+}, {
+  "caption": "TABLE I: Performance differences on all datasets using different learning schemas. Best scores are highlighted in bold, and second-best scores are highlighted in bold and underlined. Performance improvements exceeding 5% are marked with ↑, while performance declines exceeding 5% are marked with ↓.",
+  "captionBoundary": {
+    "x1": 64.78109741210938,
+    "x2": 538.669921875,
+    "y1": 73.62380981445312,
+    "y2": 101.1973876953125
+  },
+  "figType": "Table",
+  "imageText": ["OFA", "0.6891", "0.5544↓", "0.8869", "0.861", "0.6263", "0.6187", "0.8784", "0.8111↓", "0.7512", "0.766", "0.4169", "0.2888↓", "0.9471", "0.7642↓", "FITS", "0.7139", "0.6986", "0.8617", "0.8683", "0.5371", "0.7146↑", "0.8796", "0.8788", "0.7564", "0.9261↑", "0.4092", "0.428", "0.8975", "0.9625↑", "TranAD", "0.6486", "0.6561", "0.9101", "0.8567↓", "0.2531", "0.5624↑", "0.6738", "0.7409↑", "0.562", "0.5211↓", "0.2527", "0.2483", "0.9071", "0.9571↑", "TimesNet", "0.6737", "0.4988↓", "0.8419", "0.8544", "0.3695", "0.5032↑", "0.8684", "0.539↓", "0.4444", "0.5341↑", "0.2493", "0.1856↓", "0.9335", "0.9257", "Donut", "0.6957", "0.5827↓", "0.8397", "0.7966↓", "0.7207", "0.836↑", "0.8787", "0.7666↓", "0.6813", "0.6498", "0.4409", "0.4↓", "0.9885", "0.5801↓", "FCVAE", "0.7851", "0.7593", "0.874", "0.8857", "0.7145", "0.8526↑", "0.9087", "0.8121↓", "0.6883", "0.8537↑", "0.5873", "0.4766↓", "0.8977", "0.8148↓", "SRCNN", "0.1627", "0.6672↑", "0.5802", "0.635↑", "0.3042", "0.2598↓", "0.1785", "0.7742↑", "0.1261", "0.1728↑", "0.3227", "0.3791↑", "0.4365", "0.6173↑", "AnomalyTransform", "0.3728", "0.3656", "0.7739", "0.7322↓", "0.2827", "0.2631↓", "0.2984", "0.5838↑", "0.145", "0.2377↑", "0.3104", "0.2372↓", "0.3997", "0.666↑", "TFAD", "0.3551", "0.4889↑", "0.5746", "0.4679↓", "0.4526", "0.5626↑", "0.7561", "0.8016↑", "0.781", "0.9361↑", "0.3398", "0.4941↑", "0.625", "0.4103↓", "AE", "0.7222", "0.7448", "0.8751", "0.8375", "0.6842", "0.7712↑", "0.918", "0.9192", "0.612", "0.8205↑", "0.4198", "0.3644↓", "0.9801", "0.9609", "EncDecAD", "0.7583", "0.7003↓", "0.8752", "0.8336", "0.6359", "0.6534", "0.9285", "0.8353↓", "0.5018", "0.5842↑", "0.3178", "0.3333", "0.755", "0.9534↑", "AR", "0.7517", "0.8214↑", "0.9035", "0.8881", "0.7472", "0.7859↑", "0.868", "0.9276↑", "0.9195", "0.948", "0.4454", "0.4636", "0.9555", "0.9612", "LSTMAD-α", "0.8081", "0.8141", "0.8984", "0.8492↓", "0.7015", "0.7538↑", "0.9381", "0.9467", "0.5496", "0.8↑", "0.4836", "0.6144↑", "0.9971", "0.9349↓", "LSTMAD-β", "0.8034", "0.8151", "0.9031", "0.8484↓", "0.7589", "0.7495", "0.939", "0.9445", "0.5366", "0.8114↑", "0.4366", "0.6101↑", "0.9744", "0.961", "Method", "AIOPS", "NAB", "TODS", "WSD", "Yahoo", "UCR", "NEK", "Sone", "Sall", "Sone", "Sall", "Sone", "Sall", "Sone", "Sall", "Sone", "Sall", "Sone", "Sall", "Sone", "Sall"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 537.12,
+    "y1": 109.92,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-TableI-1.png"
+}, {
+  "caption": "Fig. 3: Illustrations of three learning schemas. sn indicates the n-th time series in the dataset.",
+  "captionBoundary": {
+    "x1": 64.78775024414062,
+    "x2": 296.2128601074219,
+    "y1": 200.97061157226562,
+    "y2": 217.52496337890625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "zero-shot", "(a)", "naive", "(b)", "all-in-one"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 295.2,
+    "y1": 68.64,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure3-1.png"
+}, {
+  "caption": "Fig. 11: The 2x2 matrix reflecting the variations in model performance under different conditions. We denote prediction, reconstruction, VAE-based, and general time series methods in light red, yellow, green, and blue backgrounds.",
+  "captionBoundary": {
+    "x1": 64.57429504394531,
+    "x2": 296.0085144042969,
+    "y1": 264.7461853027344,
+    "y2": 303.3398132324219
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "all-in-one", "&", "pattern-wise", "1.0", "0.8", "0.6", "0.4", "0.2", "T", "im", "esN", "et", "O", "F", "A", "F", "IT", "S", "0.0", "E", "D", "on", "u", "t", "F", "C", "V", "A", "A", "D", "T", "F", "A", "D", "T", "ran", "er", "L", "S", "T", "M", "A", "D", "-β", "A", "E", "E", "n", "cD", "ecA", "D", "S", "R", "C", "N", "N", "A", "n", "om", "a", "ly", "T", "ran", "sfo", "rm", "M", "A", "D", "-α", "A", "R", "L", "S", "T", "(c)", "all-in-one", "&", "point-wise", "1.0", "0.8", "0.6", "0.4", "0.2", "T", "im", "esN", "et", "O", "F", "A", "F", "IT", "S", "0.0", "E", "D", "on", "u", "t", "F", "C", "V", "A", "A", "D", "T", "F", "A", "D", "T", "ran", "er", "L", "S", "T", "M", "A", "D", "-β", "A", "E", "E", "n", "cD", "ecA", "D", "S", "R", "C", "N", "N", "A", "n", "om", "a", "ly", "T", "ran", "sfo", "rm", "M", "A", "D", "-α", "A", "R", "L", "S", "T", "(b)", "naive", "&", "pattern-wise", "1.0", "0.8", "0.6", "0.4", "0.2", "L", "S", "T", "M", "A", "D", "-β", "A", "E", "E", "n", "cD", "ecA", "D", "S", "R", "C", "N", "N", "A", "n", "om", "a", "ly", "T", "ra", "n", "sfo", "rm", "er", "T", "F", "A", "D", "T", "ran", "A", "D", "D", "on", "u", "t", "F", "C", "V", "A", "E", "T", "im", "esN", "et", "O", "F", "A", "F", "IT", "S", "0.0", "M", "A", "D", "-α", "A", "R", "L", "S", "T", "(a)", "naive", "&", "point-wise", "1.0", "0.8", "0.6", "0.4", "0.2", "L", "S", "T", "M", "A", "D", "-β", "A", "E", "E", "n", "cD", "ecA", "D", "S", "R", "C", "N", "N", "A", "n", "om", "a", "ly", "T", "ra", "n", "sfo", "rm", "er", "T", "F", "A", "D", "T", "ran", "A", "D", "D", "on", "u", "t", "F", "C", "V", "A", "E", "T", "im", "esN", "et", "O", "F", "A", "F", "IT", "S", "0.0", "M", "A", "D", "-α", "A", "R", "L", "S", "T"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 293.28,
+    "y1": 73.92,
+    "y2": 255.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure11-1.png"
+}, {
+  "caption": "Fig. 4: Illustrations of evaluation criteria based on pointadjustment (PA). Point-wise PA gives an inflated score when some anomaly segments persist for a long duration. Event-wise PA treats each anomaly segment as an event, completely disregarding the length of the anomaly segment. Reduced-length PA considers the trade-offs between the two methods, holding greater practical significance in real-world applications.",
+  "captionBoundary": {
+    "x1": 64.83809661865234,
+    "x2": 296.2723083496094,
+    "y1": 173.22982788085938,
+    "y2": 244.8848876953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 288.0,
+    "y1": 69.6,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure4-1.png"
+}, {
+  "caption": "Fig. 5: Illustrations of k-delay adjustment. This strategy can be combined with point-adjustment as a complementary evaluation paradigm.",
+  "captionBoundary": {
+    "x1": 64.83809661865234,
+    "x2": 296.272216796875,
+    "y1": 319.9732971191406,
+    "y2": 347.5477294921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 288.0,
+    "y1": 259.68,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure5-1.png"
+}, {
+  "caption": "Fig. 6: Illustrations of prolonging the anomaly segments. The blue line denotes the anomaly scores provided by a particular method. Considering the interference caused by anomalies on the detection of normal values, we should exclude false positives that occur immediately after an anomaly segment.",
+  "captionBoundary": {
+    "x1": 64.836669921875,
+    "x2": 296.2709045410156,
+    "y1": 582.489990234375,
+    "y2": 632.103759765625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "raw", "segment", "(b)", "prolonged", "segment"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 283.2,
+    "y1": 524.64,
+    "y2": 573.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00017-Figure6-1.png"
+}]

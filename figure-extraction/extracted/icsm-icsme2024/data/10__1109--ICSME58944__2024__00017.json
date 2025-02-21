@@ -1,0 +1,201 @@
+[{
+  "caption": "TABLE III: Sensitive Functions.",
+  "captionBoundary": {
+    "x1": 117.55580139160156,
+    "x2": 240.5843505859375,
+    "y1": 74.166259765625,
+    "y2": 79.748779296875
+  },
+  "figType": "Table",
+  "imageText": ["Directory", "traversal", "5", "fopen,", "dir,", "dirname,", "opendir,", "scandir", "Command", "injection", "7", "exec,", "passthru,", "system,", "proc", "open,", "pcntl", "exec,", "shell", "exec,", "popen", "Cross", "site", "scripting", "3", "echo,", "print,", "print", "r", "SQL", "injection", "6", "query,", "pg", "query,", "mysql", "query,", "mysqli", "query,", "pg", "send", "query,", "mysqli", "real", "query", "Code", "injection", "1", "eval", "Arbitrary", "file", "inclusion", "4", "include,", "include", "once,", "require,", "require", "once", "Arbitrary", "file", "reading", "3", "readfile,", "file,", "file", "get", "contents", "Vulnerability", "#", "of", "Funcs.", "Funcs."],
+  "name": "III",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 293.28,
+    "y1": 88.32,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: Results of Impact Assessment.",
+  "captionBoundary": {
+    "x1": 95.60169982910156,
+    "x2": 256.6944885253906,
+    "y1": 212.68801879882812,
+    "y2": 218.15948486328125
+  },
+  "figType": "Table",
+  "imageText": ["×:", "the", "feature", "is", "not", "supported", "by", "the", "SCAT.", "The", "top", "7", "widely-adopted", "features", "are", "in", "bold.", "#", "of", "Unsupported", "Features", "8/25", "4/25", "20/25", "13/25", "5/25", "#", "of", "Unsupported", "7", "Widely-Adopted", "Features", "0/7", "1/7", "6/7", "5/7", "0/7", "Named", "argument", "×", "×", "×", "×", "×", "Nullsafe", "operator", "×", "×", "×", "×", "-", "Support", "for", "keys", "in", "list()", "-", "×", "×", "×", "×", "Class", "constant", "dereferencability", "×", "-", "×", "×", "×", "Arrow", "functions", "×", "-", "×", "×", "×", "Null", "coalescing", "assignment", "operators", "×", "-", "×", "×", "×", "Constructor", "property", "promotion", "×", "-", "×", "-", "-", "Symmetric", "array", "destructuring", "-", "×", "×", "-", "-", "match", "expression", "×", "-", "×", "-", "-", "Class", "constant", "visibility", "-", "-", "×", "×", "-", "Typed", "properties", "-", "-", "×", "×", "-", "throw", "expression", "×", "-", "×", "-", "-", "Nullable", "type", "-", "-", "×", "×", "-", "Array", "Destructuring", "supports", "Reference", "Assignments", "-", "-", "×", "×", "-", "Union", "type", "-", "-", "×", "×", "-", "Unpacking", "inside", "arrays", "-", "-", "×", "-", "-", "Static", "return", "type", "-", "-", "×", "-", "-", "Non-capturing", "catch", "-", "-", "×", "-", "-", "Multi", "catch", "exception", "handling", "-", "-", "×", "-", "-", "Arbitrary", "expression", "support", "for", "new", "and", "instanceof", "-", "-", "×", "-", "-", "Void", "function", "-", "-", "-", "×", "-", "::class", "on", "objects", "-", "-", "-", "×", "-", "iterable", "pseudo-type", "-", "-", "-", "-", "-", "object", "type", "-", "-", "-", "-", "-", "mixed", "type", "-", "-", "-", "-", "-", "Features", "Progp.", "RIPS", "PHPJ.", "WAP", "phpS."],
+  "name": "IV",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 295.2,
+    "y1": 226.56,
+    "y2": 528.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-TableIV-1.png"
+}, {
+  "caption": "Fig. 4: Typical SCAT Analysis Procedure.",
+  "captionBoundary": {
+    "x1": 350.9801025390625,
+    "x2": 511.60833740234375,
+    "y1": 205.88775634765625,
+    "y2": 211.47027587890625
+  },
+  "figType": "Figure",
+  "imageText": ["IR", "SCAT", "Vulnerabilities", "PHP", "Codes", "Analysis", "Data", "Flow", "Analysis", "Control", "Flow", "Discovery", "Vulnerability", "Code", "Parsing"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 527.04,
+    "y1": 73.92,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-Figure4-1.png"
+}, {
+  "caption": "TABLE V: Distribution of Unsupported Features in PHP Release Versions.",
+  "captionBoundary": {
+    "x1": 62.97719955444336,
+    "x2": 296.4700927734375,
+    "y1": 74.1258544921875,
+    "y2": 90.8265380859375
+  },
+  "figType": "Table",
+  "imageText": ["*", "It", "means", "the", "total", "number", "of", "distinct", "unsupported", "features", "among", "all", "SCATs", "in", "the", "PHP", "release", "version.", "7.1", "0", "2", "5", "4", "1", "6", "7.2", "0", "0", "0", "0", "0", "0", "7.3", "0", "0", "1", "1", "0", "1", "7.4", "2", "0", "4", "3", "2", "4", "8.0", "6", "2", "10", "5", "2", "11", "Release", "Progp.", "RIPS", "PHPJ.", "WAP", "phpS.", "Total∗"],
+  "name": "V",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 288.0,
+    "y1": 99.36,
+    "y2": 177.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-TableV-1.png"
+}, {
+  "caption": "Fig. 1: Signature of Multi catch exception handling .",
+  "captionBoundary": {
+    "x1": 81.13490295410156,
+    "x2": 277.6492614746094,
+    "y1": 195.3153076171875,
+    "y2": 200.8978271484375
+  },
+  "figType": "Figure",
+  "imageText": ["Something", "wrong", "e", "AST_ECHO", "ExceptionType2", "AST_NAME", "ExceptionType1", "AST_NAME", "AST_NAME_LIST", "AST_VAR", "AST_STMT_LIST", "AST_CATCH", "AST_STMT_LIST", "AST_CATCH_LIST", "AST_STMT_LIST", "AST_TRY"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 89.28,
+    "x2": 263.03999999999996,
+    "y1": 72.96,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-Figure1-1.png"
+}, {
+  "caption": "TABLE I: Size and Scale of Collected PHP Projects in Year.",
+  "captionBoundary": {
+    "x1": 314.22637939453125,
+    "x2": 546.885498046875,
+    "y1": 74.08416748046875,
+    "y2": 79.66668701171875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "816", "386,807", "51,253k", "2017", "25", "4,106", "361k", "2018", "22", "5,162", "433k", "2019", "31", "3,864", "437k", "2020", "43", "17,298", "2,190k", "2021", "62", "11,492", "1,568k", "2022", "181", "34,883", "4,875k", "2023", "452", "310,002", "41,289k", "Last", "Release", "#", "of", "Proj.", "#", "of", "PHP", "Files", "#", "of", "PHP", "Code", "Lines"],
+  "name": "I",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 544.3199999999999,
+    "y1": 87.84,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-TableI-1.png"
+}, {
+  "caption": "TABLE II: Usage of New Features among Real-world Projects.",
+  "captionBoundary": {
+    "x1": 313.8091125488281,
+    "x2": 547.3018188476562,
+    "y1": 193.43896484375,
+    "y2": 199.021484375
+  },
+  "figType": "Table",
+  "imageText": ["Void", "function", "57.23%", "467", "51,214", "Nullable", "type", "49.75%", "406", "22,796", "Class", "constant", "visibility", "44.61%", "364", "14,085", "Typed", "properties", "31.25%", "255", "12,579", "Symmetric", "array", "destructuring", "30.51%", "249", "3,580", "Arbitrary", "expression", "support", "for", "new", "and", "instanceof", "28.55%", "233", "1,772", "Union", "type", "24.51%", "200", "3,133", "mixed", "type", "21.08%", "172", "3,158", "iterable", "pseudo-type", "18.75%", "153", "2,170", "object", "type", "17.89%", "146", "1,419", "Arrow", "functions", "17.65%", "144", "2,110", "Constructor", "property", "promotion", "13.97%", "114", "5,031", "Static", "return", "type", "13.11%", "107", "759", "Non-capturing", "catch", "11.40%", "93", "864", "match", "expression", "10.66%", "87", "462", "Named", "argument", "10.17%", "83", "1,066", "Nullsafe", "operator", "9.44%", "77", "632", "::class", "on", "objects", "8.95%", "73", "456", "Multi", "catch", "exception", "handling", "8.82%", "72", "368", "throw", "expression", "7.48%", "61", "191", "Unpacking", "inside", "arrays", "6.00%", "49", "182", "Support", "for", "keys", "in", "list()", "0.74%", "6", "9", "Class", "constant", "dereferencability", "0.12%", "1", "1", "All", "Features", "72.43%", "591", "56,471", "Language", "Features", "%", "of", "Proj.", "#", "of", "Proj.", "#", "of", "Files"],
+  "name": "II",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 531.36,
+    "y1": 207.35999999999999,
+    "y2": 451.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-TableII-1.png"
+}, {
+  "caption": "TABLE VI: Results of Diagnosis.",
+  "captionBoundary": {
+    "x1": 113.82050323486328,
+    "x2": 242.5194854736328,
+    "y1": 74.125,
+    "y2": 79.70751953125
+  },
+  "figType": "Table",
+  "imageText": ["New", "data", "definition", "Symmetric", "array", "destructuring", ",", "Support", "for", "keys", "in", "list()", ",", "Constructor", "property", "promotion", "New", "data", "utilization", "Unpacking", "inside", "arrays", ",", "match", "expression", ",", "Constructor", "property", "promotion", ",", "Nullsafe", "operator", "Data", "Flow", "Analysis", "New", "function", "utilization", "Arrow", "functions", ",", "Nullsafe", "oper-", "ator", ",", "Arbitrary", "expression", "sup-", "port", "for", "new", "and", "instanceof", ",", "Class", "constant", "dereferencability", "New", "function", "definition", "Arrow", "functions", "Control", "Flow", "Analysis", "Code", "Parsing", "New", "token", "or", "syntax", "All", "features", "Failed", "Step", "Causes", "Involved", "Language", "Features"],
+  "name": "VI",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 296.15999999999997,
+    "y1": 88.32,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-TableVI-1.png"
+}, {
+  "caption": "Fig. 2: Cumulative probability distribution of projects in terms of new feature usage.",
+  "captionBoundary": {
+    "x1": 63.179901123046875,
+    "x2": 296.67266845703125,
+    "y1": 193.08367919921875,
+    "y2": 209.78436279296875
+  },
+  "figType": "Figure",
+  "imageText": ["0.2255%", "0.1206%", "0.2783%", "0.1650%", "0.1190%", "0.0856%", "0.0499%", "0.0475%", "0.0023%", "0.0003%", "0.0000%", "0.0000%", "Number", "of", "New", "Features", "Used", "in", "a", "Project", "ag", "e", "ce", "nt", "P", "er", "ei", "ve", "ul", "at", "C", "um", "21", "19", "17", "15", "13", "11", "9", "7", "5", "3", "1", "100.00%", "80.00%", "60.00%", "40.00%", "20.00%", "0.00%", "72.43%", "50.74%", "7.48%", "14.95%"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 271.2,
+    "y1": 73.92,
+    "y2": 191.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-Figure2-1.png"
+}, {
+  "caption": "TABLE VII: Results of Comparison Between the Original and Enhanced PHPJoern.",
+  "captionBoundary": {
+    "x1": 141.70419311523438,
+    "x2": 462.7845458984375,
+    "y1": 74.640869140625,
+    "y2": 80.223388671875
+  },
+  "figType": "Table",
+  "imageText": ["EasyAdminBundle", "60.22%−→100%", "181", "119,399", "20,266", "Laravel", "Framework", "80.91%−→99.67%", "290", "419,592", "76,715", "ORM", "59.66%−→100%", "119", "86,940", "14,954", "Symfony", "69.70%−→97.73%", "1,807", "1,129,774", "235,081", "Spiral", "Framework", "59.29%−→80.50%", "370", "127,480", "21,228", "API", "Platform", "Core", "59.92%−→79.27%", "197", "143,228", "24,968", "PIM", "Community", "Dev", "70.43%−→97.27%", "3,449", "1,642,119", "283,064", "Phpactor", "62.41%−→99.97%", "1,173", "513,036", "94,923", "OroPlatform", "77.28%−→99.99%", "4,343", "3,303,346", "64,1256", "TYPO3", "69.04%−→88.04%", "902", "982,988", "263,955", "Applications", "File", "Parsing", "Success", "Rate", "(Original−→Enhanced)", "Increased", "Parsed", "Files", "Increased", "CPG", "Nodes", "Increased", "CPG", "Edges"],
+  "name": "VII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 138.72,
+    "x2": 465.12,
+    "y1": 88.8,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00017-TableVII-1.png"
+}]

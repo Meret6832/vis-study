@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 3: An example of accident trajectory planning (NHTSA report #2006048103067)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.3684997558594,
+    "y1": 510.4923400878906,
+    "y2": 527.08203125
+  },
+  "figType": "Figure",
+  "imageText": ["𝒍𝒍𝟗𝟗", "𝒍𝒍𝟏𝟏𝟏𝟏", "𝒍𝒍𝟏𝟏𝟏𝟏", "𝑽𝑽𝒆𝒆𝟏𝟏=", "𝑽𝑽𝟏𝟏𝟐𝟐", "𝑽𝑽𝟏𝟏𝟏𝟏", "𝑹𝑹𝟒𝟒", "𝑺𝑺𝒆𝒆𝟐𝟐=", "𝑽𝑽𝒆𝒆𝟐𝟐", "𝑺𝑺𝒆𝒆𝟏𝟏=", "𝑺𝑺𝟏𝟏𝟐𝟐", "𝑺𝑺𝟏𝟏𝟏𝟏", "𝑹𝑹𝟐𝟐", "𝒍𝒍𝟓𝟓", "𝒍𝒍𝟔𝟔", "𝒍𝒍𝟒𝟒", "𝒍𝒍𝟕𝟕", "𝒍𝒍𝟐𝟐", "𝒍𝒍𝟏𝟏", "𝑹𝑹𝟑𝟑", "𝑹𝑹𝟏𝟏", "𝒍𝒍𝟖𝟖", "𝒍𝒍𝟑𝟑", "𝑪𝑪𝑨𝑨", "1:", "𝐶𝑎𝑛𝑑𝑖𝑑𝑎𝑡𝑒𝑅𝑜𝑎𝑑", "←", "∅", "2:", "𝑆𝑒𝑙𝑒𝑐𝑡𝑅𝑜𝑎𝑑", "←", "∅", "3:", "𝐶𝑎𝑛𝑑𝑖𝑑𝑎𝑡𝑒𝑅𝑜𝑎𝑑", "=", "𝑃𝑎𝑟𝑠𝑒𝑀𝑎𝑝", "(MAP)", "4:", "for", "𝐶𝑎𝑛𝑑", "in", "𝐶𝑎𝑛𝑑𝑖𝑑𝑎𝑡𝑒𝑅𝑜𝑎𝑑", "do", "5:", "𝑆𝑒𝑙𝑒𝑐𝑡𝑅𝑜𝑎𝑑", "=", "[𝐶𝑎𝑛𝑑.𝑙𝑒𝑛,𝐶𝑎𝑛𝑑.𝑤𝑖𝑑,𝐶𝑎𝑛𝑑.𝑙𝑛𝑢𝑚,𝐶𝑎𝑛𝑑.𝑑𝑖𝑟", "]", "6:", "if", "𝐶𝑎𝑛𝑑.𝑡𝑦𝑝𝑒", "==", "R.𝐶𝐿", "then", "7:", "if", "𝐶𝑎𝑙𝑀𝑎𝑥𝐿𝑎𝑛𝑒𝑠", "(R.𝐿𝑁,D)", "≤", "𝐶𝑎𝑛𝑑.𝑙𝑛𝑢𝑚", "then", "8:", "𝑅𝑒𝑐𝑎𝑙", "←", "∅", "9:", "D.𝑅𝐿.D.𝐷𝐷", "=", "𝐶𝑜𝑛𝑣𝑒𝑟𝑡𝐼𝑛𝑓", "𝑜", "(D,", "𝑆𝑒𝑙𝑒𝑐𝑡𝑅𝑜𝑎𝑑)", "10:", "𝑅𝑒𝑐𝑎𝑙", ".𝑎𝑝𝑝𝑒𝑛𝑑", "(D.𝑅𝐿)", "11:", "𝑅𝑒𝑐𝑎𝑙", ".𝑎𝑝𝑝𝑒𝑛𝑑", "(D.𝐷𝐷)", "12:", "𝐺𝑒𝑛𝑊𝑃", "=", "𝑆𝑜𝑙𝑣𝑒𝑇𝑟𝑎", "𝑗", "(C,D.𝐷𝐴,", "𝑅𝑒𝑐𝑎𝑙,", "𝑆𝑒𝑙𝑒𝑐𝑡𝑅𝑜𝑎𝑑)", "13:", "end", "if", "14:", "end", "if", "15:", "end", "for", "16:", "return", "𝐺𝑒𝑛𝑊𝑃"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 144.48,
+    "y2": 506.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Figure3-1.png"
+}, {
+  "caption": "Figure 4: A graphic explanation of Equation 5 in Group 2.",
+  "captionBoundary": {
+    "x1": 57.676998138427734,
+    "x2": 290.16436767578125,
+    "y1": 207.84335327148438,
+    "y2": 213.4739990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Vector", "Turn", "Left", "Waypoint"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Figure4-1.png"
+}, {
+  "caption": "Table 5: Fault localization analysis of not successfully reconstructed scenarios.",
+  "captionBoundary": {
+    "x1": 147.00396728515625,
+    "x2": 464.687255859375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["AC3R", "21.62%", "24.32%", "22.52%", "68.47%", "2.70%", "2.70%", "3.60%", "9.01%", "—", "—", "—", "—", "24.32%", "27.03%", "26.13%", "77.48%", "SoVAR", "0.00%", "0.00%", "1.33%", "1.33%", "1.78%", "8.00%", "4.22%", "14.00%", "0.44%", "1.11%", "0.44%", "2.00%", "2.22%", "9.11%", "6.00%", "17.33%", "I", "T", "S", "Percentage", "I", "T", "S", "Percentage", "I", "T", "S", "Percentage", "I", "T", "S", "Percentage", "Method", "Trajectory", "Planning", "Simulation", "Crash", "Type", "Simulation", "Crossing", "Total"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 553.4399999999999,
+    "y1": 96.0,
+    "y2": 142.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Table5-1.png"
+}, {
+  "caption": "Figure 5: Visualization samples showing the safety violations of Apollo detected by SoVAR on different road types.",
+  "captionBoundary": {
+    "x1": 74.48899841308594,
+    "x2": 537.4931640625,
+    "y1": 279.1743469238281,
+    "y2": 284.80499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["Collision", "Sidewalks", "Ego", "Initial", "Sidewalks", "Ego", "Initial", "Collision", "Initial", "Collision", "Ego", "Ego", "Ego", "Parking", "ZoneSidewalks", "Sidewalks", "Parking", "Zone", "Collision", "Ego", "Ego", "Initial", "Ego", "Violation", "Type", "3", "Violation", "Type", "4", "Violation", "Type", "1", "Violation", "Type", "2"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 555.36,
+    "y1": 148.79999999999998,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Figure5-1.png"
+}, {
+  "caption": "Table 6: The number of collisions caused by ADS in generated test scenarios using different methods.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.037353515625,
+    "y1": 305.0773620605469,
+    "y2": 321.6669921875
+  },
+  "figType": "Table",
+  "imageText": ["Random", "1", "1", "2", "4", "SoVAR", "15", "4", "6", "25", "Collision", "Intersection", "T-junction", "Straight", "Road", "Total"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 326.88,
+    "y2": 371.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Table6-1.png"
+}, {
+  "caption": "Figure 1: Amotivating example of reconstructing an accident scenario on different road structures.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 181.77133178710938,
+    "y2": 198.36102294921875
+  },
+  "figType": "Figure",
+  "imageText": ["（a）", "（b）", "𝟐𝑳", "𝑷′", "𝑳", "𝟐𝑳", "𝟒𝑳", "𝑳", "𝟐𝑳", "𝑷", "𝑹𝟐", "𝑷", "𝑹𝟏", "𝑹𝟐", "𝑹𝟏"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 293.28,
+    "y1": 84.96,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Figure1-1.png"
+}, {
+  "caption": "Table 3: Results of different methods for extracting information from accident reports.",
+  "captionBoundary": {
+    "x1": 129.9549560546875,
+    "x2": 481.7359313964844,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["AC3R", "54.67%", "76.00%", "70.67%", "82.67%", "78.67%", "43.67%", "11.67%", "39.30%", "25.33%", "94.67%", "SoVAR_N", "69.33%", "81.33%", "76.00%", "91.33%", "95.33%", "55.00%", "90.00%", "91.33%", "73.00%", "100%", "SoVAR", "77.33%", "93.33%", "93.33%", "100%", "96.00%", "76.33%", "90.67%", "91.66%", "77.00%", "100%", "Weather", "Light", "LaneNum", "SpeedLimit", "CollisionLocation", "DrivingActions", "CrashType", "DrivingDirections", "RunningLanes", "ParticipantsNumber", "Attributes", "Environment", "Conditions", "RoadNetwork", "and", "Traffic", "Guidance", "Dynamic", "Objects"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 96.0,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Table3-1.png"
+}, {
+  "caption": "Figure 2: The overview of SoVAR.",
+  "captionBoundary": {
+    "x1": 106.61599731445312,
+    "x2": 241.2225341796875,
+    "y1": 224.83834838867188,
+    "y2": 230.468994140625
+  },
+  "figType": "Figure",
+  "imageText": ["Prompting", "Extracted", "Information", "Linguistic", "Patterns", "LLM", "…", "Accident", "Report", "Driving", "Actions", "ADS", "Quality", "Check", "Step", "2:", "Trajectory", "PlanningStep", "1:", "Information", "Extraction", "Step", "3:", "Simulation", "&", "Test", "Generation", "Constriants", "TrajectoriesSolver", "Simulated", "Crash", "Test", "Cases"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Figure2-1.png"
+}, {
+  "caption": "Table 4: The number of successfully reconstructed scenarios and scenario reconstruction rate under different road types.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03363037109375,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["*Note", "that", "the", "scenario", "reconstruction", "rate", "for", "AC3R", "is", "0.", "SRR", "94%", "90%", "96%", "70%", "72%", "76%", "84%", "82%", "80%", "SoVAR", "Num.", "47", "45", "48", "35", "36", "38", "42", "41", "40", "I1", "I2", "I3", "T1", "T2", "T3", "S1", "S2", "S3", "Type", "Intersection", "T-junction", "Straight", "Road"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 106.56,
+    "y2": 159.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Table4-1.png"
+}, {
+  "caption": "Table 1: Extracted accident information description and examples.",
+  "captionBoundary": {
+    "x1": 171.52699279785156,
+    "x2": 440.1662902832031,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["6", "DrivingActions", "Actions", "of", "traffic", "participants", "before", "the", "accident", "DrivingActions=[\"P1:[turn", "right,...]\",\"P2:[follow", "lane\"...]\",...]", "7", "CrashType", "Type", "of", "collision", "between", "the", "attacker", "and", "the", "victim", "at", "the", "time", "of", "the", "accident", "CrashType=\"Rear-End\"", "8", "DrivingDirections", "Initial", "direction", "of", "travel", "for", "each", "traffic", "participant", "DrivingDirections=[\"P1:westbound\",\"P2:southbound\"...]", "9", "RunningLanes", "The", "initial", "lane", "position", "of", "each", "traffic", "participant", "RunningLanes=[\"P1:1\",\"P2:2\"...]", "10", "ParticipantsNumber", "Total", "number", "of", "traffic", "participants", "ParticipantsNumber=\"2\"", "Accident", "context-", "Dynamic", "Object", "information", "3", "LaneNum", "Total", "number", "of", "lanes", "on", "the", "road", "where", "the", "accident", "occurred", "LaneNum=\"4\"", "4", "CollisionLocation", "Type", "of", "road", "on", "which", "the", "accident", "occurred", "CollisionLocation=\"T-junction\"", "5", "SpeedLimit", "Speed", "limit", "for", "the", "road", "on", "which", "the", "car", "is", "travelling", "SpeedLimit=\"60\"", "Accident", "context-", "RoadNetwork", "and", "Traffic", "Guidance", "information", "1", "Weather", "Weather", "conditions", "at", "the", "time", "of", "the", "accident", "Weather=\"Cloudy\"", "2", "Lighting", "Lighting", "conditions", "at", "the", "time", "of", "the", "accident", "Lighting=\"Dark\"", "Accident", "context-", "Environment", "Conditions", "information", "Id", "Attribute", "Description", "Examples"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 96.0,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Table1-1.png"
+}, {
+  "caption": "Table 2: The example of linguistic patterns for information extraction prompts.",
+  "captionBoundary": {
+    "x1": 144.64999389648438,
+    "x2": 467.0404357910156,
+    "y1": 253.29837036132812,
+    "y2": 258.92901611328125
+  },
+  "figType": "Table",
+  "imageText": ["You", "should", "help", "me", "extract", "dynamic", "object", "information.", "The", "answer", "includes", "<ParticipantsNum-", "ber>,", "<CrashType>,", "<DrivingDirections>,", "<RunningLanes>", "and", "<DrivingActions>.", "·", "·", "·", "For", "the", "<DrivingActions>·", "·", "·", ",", "if", "the", "car", "proceeds", "to", "do", "an", "intended", "action", "but", "does", "not", "do", "actually,", "such", "as", "intending", "to", "turn", "right,", "this", "intended", "action", "must", "not", "be", "added", "to", "the", "<DrivingActions>·", "·", "·", ".", "3", "Dynamic", "Object", "2", "RoadNetwork", "and", "Traffic", "Guidance", "You", "should", "help", "me", "extract", "roadnetwork", "and", "traffic", "guidance", "information.", "The", "answer", "includes", "<CollisionLocation>,<LaneNum>,", "and", "<SpeedLimit>.", "·", "·", "·", "For", "the", "<CollisionLocation>,", "it", "means", "the", "type", "of", "road", "on", "which", "the", "accident", "occurred·", "·", "·", ".", "·", "·", "·", "If", "the", "accident", "happened", "near", "or", "at", "an", "intersection", "or", "intersecting", "roadway,", "the", "answer", "of", "<CollisionLocation>", "is", "\"intersection\"·", "·", "·", ".", "1", "Environment", "conditions", "information", "You", "should", "help", "me", "extract", "environmental", "conditions.", "The", "answer", "includes", "<Weather>", "and", "<Light-", "ing>.", "·", "·", "·", "For", "the", "<Weather>,", "it", "means", "the", "weather", "conditions", "when", "the", "accident", "happened·", "·", "·", ".", "·", "·", "·", "If", "it’s", "rainy", "when", "the", "accident", "happened,", "\"rainy\"", "should", "be", "added", "into", "the", "<Weather>·", "·", "·", ".", "Id", "Pattern", "type", "Sample", "of", "linguistic", "patterns/rules"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 541.4399999999999,
+    "y1": 264.0,
+    "y2": 403.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695037-Table2-1.png"
+}]

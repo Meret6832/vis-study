@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 1: Comparison of existing code benchmark and CoderUJB.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0438232421875,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["CoderUJB", "2,239", "✓", "✓", "✓", "Libro", "[22]", "750", "✓", "✓", "×", "CodeXGLUE", "[30]", "759,000", "×", "×", "✓", "XCodeEval", "[23]", "159,464", "✓", "×", "✓", "Benchmark", "Questions", "Executable", "Project-Runnable", "Multi-Tasks", "HumanEval", "[10]", "164", "✓", "×", "×", "MultiPL-E", "[9]", "2,952", "✓", "×", "×", "MBPP", "[7]", "974", "✓", "×", "×", "CoderEval", "[59]", "460", "✓", "✓", "×", "Defects4j", "[21]", "835", "✓", "✓", "×", "ChatTester", "[62]", "1,000", "✓", "✓", "×"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 106.56,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Table1-1.png"
+}, {
+  "caption": "Table 2: Statistical information of the studied LLMs.",
+  "captionBoundary": {
+    "x1": 332.8089904785156,
+    "x2": 543.0531005859375,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-4", "/", "/", "/", "Claude-1", "/", "/", "/", "GPT-3.5-Turbo", "/", "/", "/", "Closed", "Source", "WizardCoder", "15", "StarCoder-Python", "80k", "instructions", "CodeShell-Chat", "7", "CodeShell", "40k", "instructions", "CodeLlama-Instruct", "7;13;34", "CodeLlama", "5B", "instruction", "tokens", "WizardCoder-Python", "7;13;34", "CodeLlama-Python", "80k", "instructions", "Instruction", "Tuned", "Specific", "PL", "Base", "CodeLlama-Python", "7;13;34", "CodeLlama", "120B", "Python", "tokens", "StarCoder-Python", "15", "StarCoder-Base", "35B", "Python", "tokens", "StarCoder-Java", "15", "StarCoder-Base", "35B", "Java", "tokens", "CodeShell", "7", "From", "Scratch", "500B", "code", "tokens", "Type", "Model", "Name", "Size", "(B)", "Trained", "From", "Training", "Dataset", "Base", "CodeLlama", "7;13;34", "Llama2", "520B", "code", "tokens", "StarCoder-Base", "15", "From", "Scratch", "1T", "code", "tokens"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 96.0,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Table2-1.png"
+}, {
+  "caption": "Table 5: 𝑝𝑎𝑠𝑠-𝑠𝑦𝑛𝑡𝑎𝑥@𝑘=1 and 𝑝𝑎𝑠𝑠-𝑐𝑜𝑚𝑝𝑖𝑙𝑒@𝑘=1 (denoted as 𝑝-𝑠@1 and 𝑝-𝑐@1) results for CoderUJB.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2039184570312,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Instruction", "Tuned", "CodeLlama-Instruct-7B", "90.53", "40.65", "88.64", "18.04", "89.39", "33.34", "CodeLlama-instruct-13B", "95.99", "40.76", "80.61", "21.57", "89.29", "32.06", "CodeLlama-Instruct-34B", "11.30", "6.43", "11.54", "3.89", "90.51", "34.28", "Base", "CodeLlama-7B", "92.63", "69.58", "70.64", "36.71", "70.14", "42.36", "CodeLlama-13B", "94.14", "63.49", "70.54", "37.89", "82.29", "55.43", "CodeLlama-34B", "96.16", "61.58", "77.11", "39.32", "87.86", "51.87", "𝑝-𝑠@1", "𝑝-𝑐@1", "𝑝-𝑠@1", "𝑝-𝑐@1", "𝑝-𝑠@1", "𝑝-𝑐@1", "Model-Type", "Model-ID", "FCG", "CTG", "ITG"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 106.56,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Table5-1.png"
+}, {
+  "caption": "Figure 4: Evaluation results (𝑎𝑐𝑐𝑢𝑟𝑎𝑐𝑦 forDDand 𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘=1 for others) of open-source LLMs and closed-source LLMs under CoderUJB.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4080200195312,
+    "y1": 192.6761016845703,
+    "y2": 220.2249755859375
+  },
+  "figType": "Figure",
+  "imageText": ["GPT-4", "GPT-3.5-Turbo", "Claude-1", "WizardCoder-Python-34B", "CodeLlama-34B", "52.16", "7.3", "4", "18.76", "24", ".1", "8", "30.52", "DD", "ITG", "APR", "CTG", "FCG"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 383.03999999999996,
+    "x2": 522.24,
+    "y1": 84.0,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Figure4-1.png"
+}, {
+  "caption": "Table 3: Evaluation results of prompt design for CoderUJB.",
+  "captionBoundary": {
+    "x1": 54.57500076293945,
+    "x2": 292.97369384765625,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["DD", "𝑎𝑐𝑐𝑢𝑟𝑎𝑐𝑦", "50.32", "51.19", "48.70", "48.60", "49.68", "51.51", "𝑒𝑟𝑟𝑜𝑟", "-𝑐𝑜𝑢𝑛𝑡", "0", "0", "0", "32", "2", "4", "CTG", "𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘=1", "12.14", "3.93", "5.57", "12.61", "7.04", "7.57", "𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘=10", "31.80", "12.24", "11.26", "38.17", "17.50", "17.69", "𝑐𝑜𝑢𝑛𝑡-𝑎𝑙𝑙@𝑛=20", "52", "24", "20", "67", "30", "29", "𝑐𝑜𝑣𝑒𝑟𝑎𝑔𝑒@𝑛=20", "11.91", "6.20", "5.39", "15.66", "8.65", "8.52", "APR", "𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘=1", "6.56", "4.14", "4.64", "4.50", "4.07", "4.10", "𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘=10", "12.54", "7.69", "8.11", "8.39", "8.20", "7.47", "𝑐𝑜𝑢𝑛𝑡-𝑎𝑙𝑙@𝑛=20", "66", "41", "44", "44", "45", "39", "FCG", "𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘=1", "15.32", "12.18", "11.66", "21.91", "12.84", "14.50", "𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘=10", "26.82", "19.33", "19.66", "34.85", "20.92", "22.37", "𝑐𝑜𝑢𝑛𝑡-𝑎𝑙𝑙@𝑛=20", "75", "51", "53", "90", "55", "57", "𝑜𝑛𝑒", "𝑠ℎ𝑜𝑡", "𝑓", "𝑜𝑢𝑟", "𝑠ℎ𝑜𝑡", "𝑝𝑟𝑜𝑔𝑟𝑎𝑚", "𝑐𝑜𝑛𝑡𝑒𝑥𝑡", "𝑜𝑛𝑒", "𝑠ℎ𝑜𝑡", "𝑓", "𝑜𝑢𝑟", "𝑠ℎ𝑜𝑡", "𝑐𝑜𝑛𝑡𝑒𝑥𝑡", "Task", "Metric", "StarCoderBase-15B", "CodeLlama-13B", "𝑝𝑟𝑜𝑔𝑟𝑎𝑚"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 96.0,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Table3-1.png"
+}, {
+  "caption": "Table 4: Evaluation results for CoderUJB, HumanEval and CoderEval. 𝑝𝑎𝑠𝑠-𝑎𝑙𝑙@𝑘 denoted as 𝑝-𝑎=𝑘 , 𝑐𝑜𝑢𝑛𝑡-𝑎𝑙𝑙@𝑛 denoted as 𝑐-𝑎=𝑛, 𝑎𝑐𝑐𝑢𝑟𝑎𝑐𝑦 denoted as 𝑎𝑐𝑐, 𝑒𝑟𝑟𝑜𝑟 -𝑐𝑜𝑢𝑛𝑡 denoted as 𝑒𝑟𝑟 . The values in Red indicate underperform, Green values indicate outperform corresponding \"Trained From\" LLMs as presents in Table 2.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.2960205078125,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-3.5-Turbo", "23.37", "39.67", "102", "12.18", "35.65", "59", "6.52", "13.39", "71", "9.31", "28.76", "166", "46.00", "78", "/", "48.10", "/", "/Close", "Source", "GPT-4", "30.52", "42.94", "110", "24.18", "45.72", "72", "6.66", "15.76", "83", "18.76", "38.29", "203", "52.16", "0", "/", "67.00", "/", "/", "WizardCoder-15B", "14.41", "23.70", "64", "5.00", "18.84", "35", "3.10", "11.62", "67", "3.89", "15.94", "101", "33.15", "308", "35.77", "58.12", "20.67", "8.36", "Claude-1", "21.55", "29.11", "74", "9.71", "17.77", "28", "1.20", "6.13", "34", "5.70", "16.56", "95", "47.95", "0", "/", "/", "/", "/", "CodeLlama-Instruct-7B", "13.38", "24.91", "65", "3.79", "15.73", "29", "4.84", "9.60", "47", "3.29", "14.81", "93", "48.92", "20", "28.77", "45.65", "21.13", "10.17", "CodeLlama-instruct-13B", "13.28", "24.03", "62", "6.14", "15.16", "24", "5.16", "11.20", "57", "4.09", "15.72", "100", "44.38", "140", "33.99", "50.60", "21.47", "10.08", "CodeLlama-Instruct-34B", "1.89", "3.77", "11", "1.11", "4.77", "10", "4.29", "10.06", "54", "4.74", "14.86", "88", "49.68", "2", "41.53", "50.79", "23.08", "10.80", "WizardCoder-Python-7B", "8.00", "20.12", "57", "4.86", "14.51", "24", "3.25", "8.20", "45", "4.61", "15.60", "94", "50.54", "0", "/", "55.50", "17.23", "13.63", "WizardCoder-Python-13B", "12.44", "24.66", "65", "5.21", "18.25", "33", "4.98", "11.22", "61", "4.69", "16.51", "100", "47.62", "6", "41.77", "62.19", "20.23", "14.91", "WizardCoder-Python-34B", "15.88", "27.22", "72", "6.18", "17.12", "27", "4.79", "11.18", "58", "6.54", "18.23", "105", "50.76", "0", "44.94", "70.73", "22.02", "13.69", "Instruction", "Tuned", "Base", "StarCoder-Java-15B", "18.82", "30.28", "77", "10.43", "32.05", "56", "5.75", "11.11", "59", "6.27", "10.82", "57", "49.14", "3", "30.62", "27.07", "31.84", "14.89", "CodeShell-Chat-7B", "7.79", "15.66", "43", "2.82", "10.97", "18", "3.26", "7.42", "38", "3.79", "13.99", "94", "50.00", "0", "23.57", "29.66", "21.22", "9.93", "StarCoderBase-15B", "15.32", "26.82", "75", "12.14", "31.80", "52", "6.32", "12.58", "64", "6.56", "12.54", "66", "50.32", "0", "28.53", "30.35", "30.58", "21.34", "CodeLlama-Python-7B", "10.69", "21.70", "59", "12.00", "29.06", "48", "4.08", "8.73", "46", "3.23", "6.96", "40", "49.46", "12", "29.15", "40.48", "26.41", "24.56", "CodeLlama-Python-13B", "14.43", "26.93", "72", "13.00", "31.68", "54", "3.08", "7.50", "41", "3.72", "7.07", "39", "47.41", "37", "33.56", "42.89", "28.11", "26.23", "CodeLlama-Python-34B", "14.31", "26.23", "72", "11.71", "28.24", "48", "5.32", "11.61", "63", "5.54", "9.27", "46", "49.24", "15", "39.46", "53.29", "29.17", "24.73", "StarCoder-Python-15B", "14.39", "25.97", "69", "7.75", "26.02", "44", "6.82", "13.34", "68", "8.37", "14.42", "74", "50.54", "1", "30.22", "33.57", "29.26", "21.46", "Specific", "Language", "FCG", "CTG", "ITG", "APR", "DD", "Java", "Py", "Java", "Py", "𝑝-𝑎@𝑘", "𝑐-𝑎@𝑛", "𝑝-𝑎@𝑘", "𝑐-𝑎@𝑛", "𝑝-𝑎@𝑘", "𝑐-𝑎@𝑛", "𝑝-𝑎@𝑘", "𝑐-𝑎@𝑛", "𝑎𝑐𝑐", "𝑒𝑟𝑟", "𝑝-𝑎@𝑘", "𝑝-𝑎@𝑘", "Type", "Model-ID", "𝑘=1", "𝑘=10", "𝑛=20", "𝑘=1", "𝑘=10", "𝑛=20", "𝑘=1", "𝑘=10", "𝑛=20", "𝑘=1", "𝑘=10", "𝑛=20", "𝑛=1", "𝑛=1", "𝑘=1", "𝑘=1", "𝑘=1", "𝑘=1", "CodeShell-7B", "9.68", "16.83", "45", "6.82", "20.11", "33", "4.12", "7.29", "49", "3.59", "8.58", "46", "47.62", "43", "30.43", "34.30", "24.63", "19.78", "CodeLlama-7B", "15.06", "25.00", "65", "10.79", "29.72", "48", "4.32", "10.96", "61", "3.66", "7.63", "40", "46.54", "25", "29.20", "29.98", "31.26", "24.08", "CodeLlama-13B", "21.91", "34.85", "90", "12.61", "38.17", "67", "6.14", "13.83", "71", "4.50", "8.39", "44", "48.60", "32", "32.23", "35.07", "35.02", "23.73", "CodeLlama-34B", "22.82", "36.54", "96", "14.57", "32.07", "52", "7.34", "14.16", "73", "5.01", "8.34", "44", "48.16", "27", "40.19", "45.11", "33.00", "27.23Base", "CoderUJB", "HumanEval1", "CoderEval2"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 544.3199999999999,
+    "y1": 117.6,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Table4-1.png"
+}, {
+  "caption": "Figure 1: Overview of CoderUJB construction process.",
+  "captionBoundary": {
+    "x1": 197.2830047607422,
+    "x2": 414.71826171875,
+    "y1": 229.16810607910156,
+    "y2": 234.79901123046875
+  },
+  "figType": "Figure",
+  "imageText": ["Exclude", "Test", "Case", "Post-Process", "Solutions", "and", "LLMs", "Solution", "Generation", "Automated", "Program", "Repair", "Defect", "Detection", "Issue-based", "Test", "Generation", "Code-based", "Test", "Generation", "Functional", "Code", "Generation", "Task", "Benchmark", "coverage@n", "accuracy", "pass-syntax@k", "pass-compile@k", "pass-all@k", "count@n", "Diverse", "Evaluation", "Metrics", "Result", "CoderUJB", "Construct", "prompt", "Extract", "and", "integrate", "question", "item", "Selection", "and", "filtering", "Analyze", "the", "coverage", "relationship", "between", "functions", "and", "tests", "Analysis", "and", "Filtering", "Project", "Test", "Cases", "Project", "Functions", "Issue", "Report", "Information", "Code", "Defects", "and", "Patch", "Project", "Meta", "Data", "project", "Extract", "functions", "in", "the", "project", "Extract", "test", "cases", "in", "the", "Extract", "defect", "related", "data", "from", "Defects4j", "Extarct", "Project", "Data", "Project", "Repository"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 545.28,
+    "y1": 84.0,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Prompt of Functional Code Generation.",
+  "captionBoundary": {
+    "x1": 339.0270080566406,
+    "x2": 537.1309204101562,
+    "y1": 542.0241088867188,
+    "y2": 547.655029296875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Prompt", "of", "complement", "invocation.", "Function", "Signature", "Function", "Comment", "Task", "Description", "Signature", "Context", "Field", "Context", "Import", "Context", "/**", "*", "Calculates", "beta", "by", "GLS.", "*", "b=(X'", "Omega^-1", "X)^-1X'Omega^-1", "y", "*", "@return", "beta", "*/", "@Override", "protected", "RealVector", "calculateBeta()", "{", "(a)", "Prompt", "of", "chat", "invocation.", "//", "package", "org.apache.commons.math3.stat.regression;", "//", "import", "org.apache.commons.math3.linear.LUDecomposition;", "//", "public", "class", "GLSMultipleLinearRegression", "extends", "AbstractMultipleLinearRegression", "{", "//", "private", "RealMatrix", "Omega;", "//", "private", "RealMatrix", "OmegaInverse;", "//", "//", "protected", "RealVector", "calculateBeta();", "//", "protected", "RealMatrix", "calculateBetaVariance();", "//", "}", "//", "You", "are", "a", "professional", "Java", "programmer,", "please", "create", "a", "function", "named", "`calculateBeta`", "based", "on", "the", "provided", "abstract", "Java", "class", "context", "information", "and", "the", "following", "natural", "language", "annotations.", "Function", "Signature", "Function", "Comment", "Task", "Description", "Signature", "Context", "Field", "Context", "Import", "Context", "protected", "RealVector", "calculateBeta();", "protected", "RealMatrix", "calculateBetaVariance();", "}", "```", "You", "are", "a", "professional", "Java", "programmer,", "please", "create", "a", "function", "named", "`calculateBeta`", "based", "on", "the", "provided", "abstract", "Java", "class", "context", "information", "and", "the", "following", "natural", "language", "annotations.", "```java", "/**", "*", "Calculates", "beta", "by", "GLS.", "*", "b=(X'", "Omega^-1", "X)^-1X'Omega^-1", "y", "*", "@return", "beta", "*/", "@Override", "protected", "RealVector", "calculateBeta()", "{", "```", "```java", "package", "org.apache.commons.math3.stat.regression;", "import", "org.apache.commons.math3.linear.LUDecomposition;", "public", "class", "GLSMultipleLinearRegression", "extends", "AbstractMultipleLinearRegression", "{", "private", "RealMatrix", "Omega;", "private", "RealMatrix", "OmegaInverse;"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 250.56,
+    "y2": 536.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652115-Figure2-1.png"
+}]

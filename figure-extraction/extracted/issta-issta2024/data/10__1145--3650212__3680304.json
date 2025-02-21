@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 1: A jailbreak attack example.",
+  "captionBoundary": {
+    "x1": 363.7919921875,
+    "x2": 512.3653564453125,
+    "y1": 601.818115234375,
+    "y2": 606.113037109375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 539.04,
+    "y1": 521.76,
+    "y2": 587.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Figure1-1.png"
+}, {
+  "caption": "Figure 4: DistilledModel AgreementwithGPT-3.5 Curvewith Varying Training Sample Sizes.",
+  "captionBoundary": {
+    "x1": 53.48400115966797,
+    "x2": 294.04541015625,
+    "y1": 558.6770629882812,
+    "y2": 573.9310302734375
+  },
+  "figType": "Figure",
+  "imageText": ["DistillSeq", "e", "ectively", "utilizes", "knowledge", "distillation", "to", "learn", "from", "LLMs,", "pro", "ciently", "classifying", "queries", "that", "are", "likely", "to", "produce", "toxic", "content.", "Answer", "to", "RQ1"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 348.96,
+    "y2": 544.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Figure4-1.png"
+}, {
+  "caption": "Table 2: Agreement and loss of di erent distilledmodels BeforeKnowledgeDistillation (B.K.D.) andAfter KnowledgeDistillation (A.K.D.)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2049560546875,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["BERT", "42.73", "93.58", "0.71", "0.03", "44.20", "91.90", "0.68", "0.05", "RoBERTa", "53.12", "96.73", "0.61", "0.01", "56.30", "93.60", "0.55", "0.02", "DeBERTa", "54.23", "95.67", "0.60", "0.02", "53.80", "94.00", "0.57", "0.01", "ERNIE", "62.92", "94.23", "0.48", "0.03", "46.30", "92.90", "0.64", "0.04", "B.K.D.", "Agreement", "A.K.D.", "Agreement", "B.K.D.", "Loss", "A.K.D.", "Loss", "B.K.D.", "Agreement", "A.K.D.", "Agreement", "B.K.D.", "Loss", "A.K.D.", "Loss", "Model", "Training", "Set", "Test", "Set"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 116.64,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table2-1.png"
+}, {
+  "caption": "Table 7: ASR(%) for di erent temperatures on GPTs",
+  "captionBoundary": {
+    "x1": 69.98400115966797,
+    "x2": 277.5645751953125,
+    "y1": 459.131103515625,
+    "y2": 463.4259948730469
+  },
+  "figType": "Table",
+  "imageText": ["2", "59.80", "62.02", "48.90", "56.10", "1.5", "54.30", "67.60", "53.70", "53.20", "1", "56.30", "60.70", "42.40", "52.90", "0.5", "40.30", "45.20", "36.50", "39.20", "0", "21.80", "15.60", "10.10", "5.40", "Syntax", "Tree", "LLM", "Syntax", "Tree", "LLM", "Temperature", "GPT", "3.5", "GPT", "4"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 477.59999999999997,
+    "y2": 559.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table7-1.png"
+}, {
+  "caption": "Table 5: Attack Success Rates (ASRs) of di erent malicious query generation methods on LLMs",
+  "captionBoundary": {
+    "x1": 113.93589782714844,
+    "x2": 497.76953125,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Filter", "13.90", "5.30", "47.30", "27.60", "23.53", "HouYi", "Without", "Filter", "5.30", "1.90", "18.60", "11.50", "9.33", "Filter", "45.20", "47.30", "32.60", "36.10", "40.30", "MasterKey", "Without", "Filter", "18.40", "11.20", "19.30", "15.00", "15.98", "Filter", "18.50", "16.30", "52.10", "38.90", "31.45", "FuzzLLM", "Without", "Filter", "8.80", "5.90", "19.90", "16.60", "12.80", "Filter", "36.70", "30.20", "48.80", "31.80", "36.88", "GPTFuzzer", "Without", "Filter", "15.40", "12.30", "27.30", "16.50", "17.88", "Filter", "44.00", "36.00", "34.80", "41.30", "39.03", "JailbreakingLLMs", "Without", "Filter", "15.90", "12.30", "10.60", "14.50", "13.33", "Filter", "60.70", "52.90", "59.50", "59.90", "58.25", "LLM-based", "Without", "Filter", "39.30", "23.80", "32.40", "32.50", "32.00", "Filter", "56.30", "48.50", "45.50", "48.80", "49.78", "Syntax-tree-based", "Without", "Filter", "23.60", "18.90", "24.10", "28.30", "23.73", "Filter", "36.90", "42.10", "40.30", "33.30", "38.15", "Textfooler", "Without", "Filter", "15.30", "10.70", "14.30", "17.40", "14.43", "Filter", "44.30", "37.20", "40.40", "39.50", "40.35", "Random", "Without", "Filter", "2.20", "1.70", "1.20", "0.80", "1.48", "GPT", "3.5", "GPT", "4", "Vicuna-13B", "LLama-13B", "Average", "Method", "LLMs"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 487.2,
+    "y1": 105.6,
+    "y2": 337.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table5-1.png"
+}, {
+  "caption": "Table 8: ASR(%) for di erent temperatures on Vicuna and LLama",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04339599609375,
+    "y1": 573.080078125,
+    "y2": 588.333984375
+  },
+  "figType": "Table",
+  "imageText": ["1", "42.10", "60.90", "60.10", "66.30", "0.01", "12.50", "18.20", "9.30", "14.70", "0.25", "28.00", "35.60", "35.50", "41.20", "0.5", "45.50", "59.50", "52.30", "59.90", "0.75", "39.60", "55.10", "57.50", "65.40", "Syntax", "Tree", "LLM", "Syntax", "Tree", "LLM", "Temperature", "Vicuna-13B", "LLama-13B"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 602.88,
+    "y2": 684.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table8-1.png"
+}, {
+  "caption": "Table 6: ASR for for di erent top-p",
+  "captionBoundary": {
+    "x1": 234.86099243164062,
+    "x2": 376.843505859375,
+    "y1": 351.73809814453125,
+    "y2": 356.0329895019531
+  },
+  "figType": "Table",
+  "imageText": ["1", "51.90", "60.70", "42.40", "52.90", "39.60", "59.50", "49.40", "59.90", "0.25", "44.80", "58.20", "29.70", "53.40", "36.90", "57.10", "43.50", "58.60", "0.5", "46.20", "59.50", "35.80", "51.70", "40.50", "58.30", "58.90", "60.20", "0.75", "55.30", "61.10", "41.30", "52.30", "41.80", "60.80", "44.00", "59.10", "Syntax", "Tree", "LLM", "Syntax", "Tree", "LLM", "Syntax", "Tree", "LLM", "Syntax", "Tree", "LLM", "Top-p", "GPT", "3.5", "GPT", "4", "Vicuna-13B", "LLama-13B"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 128.64,
+    "x2": 483.35999999999996,
+    "y1": 370.56,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table6-1.png"
+}, {
+  "caption": "Figure 2: Overview of our knowledge distillation-based sequential lter-test process",
+  "captionBoundary": {
+    "x1": 136.26199340820312,
+    "x2": 475.7386779785156,
+    "y1": 181.93006896972656,
+    "y2": 186.2249755859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Figure2-1.png"
+}, {
+  "caption": "Table 4: The Loss of the Distilled Model in Jigsaw Dataset",
+  "captionBoundary": {
+    "x1": 57.97809982299805,
+    "x2": 289.57122802734375,
+    "y1": 195.1660919189453,
+    "y2": 199.46099853515625
+  },
+  "figType": "Table",
+  "imageText": ["BERT", "0.78", "0.17", "RoBERTa", "0.76", "0.12", "DeBERTa", "0.64", "0.19", "ERNIE", "0.85", "0.23", "B.K.D.", "Loss", "A.K.D.", "Loss", "Model", "Evaluation", "Result"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 247.2,
+    "y1": 213.6,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table4-1.png"
+}, {
+  "caption": "Table 3: Agreement of Models Before Knowledge Distillation (B.K.D.) and After Knowledge Distillation (A.K.D.) with LLMs",
+  "captionBoundary": {
+    "x1": 57.998779296875,
+    "x2": 553.7064208984375,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["BERT", "17.30", "66.50", "13.40", "57.60", "25.60", "61.90", "16.80", "63.50", "18.28", "62.38", "RoBERTa", "33.60", "69.70", "24.20", "63.00", "14.40", "68.50", "29.50", "62.30", "25.43", "65.88", "DeBERTa", "26.70", "68.50", "19.60", "64.80", "19.50", "65.10", "20.10", "68.20", "21.48", "66.65", "ERNIE", "24.50", "71.80", "21.50", "59.30", "23.20", "55.10", "34.60", "52.10", "25.95", "59.58", "B.K.D", "A.K.D.", "B.K.D", "A.K.D.", "B.K.D", "A.K.D.", "B.K.D", "A.K.D.", "B.K.D", "A.K.D.", "LLM", "GPT-3.5", "GPT-4.0", "Vicuna-13B", "LLama-13B", "Average", "Agreement", "Model"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 105.6,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table3-1.png"
+}, {
+  "caption": "Table 1: The hyperparameter settings",
+  "captionBoundary": {
+    "x1": 362.23199462890625,
+    "x2": 513.6297607421875,
+    "y1": 141.3553009033203,
+    "y2": 145.65020751953125
+  },
+  "figType": "Table",
+  "imageText": ["BERT", "10", "5", "×", "10−5", "128", "RoBERTA", "10", "4", "×", "10−5", "128", "DeBERTA", "10", "2", "×", "10−5", "128", "ERNIE", "4", "25", "×", "10−6", "64", "Epoch", "Learning", "Rate", "Batch", "Size", "Model", "Hyperparameter"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 342.71999999999997,
+    "x2": 533.28,
+    "y1": 159.84,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Table1-1.png"
+}, {
+  "caption": "Figure 3: A Syntax Tree-based replacement example",
+  "captionBoundary": {
+    "x1": 68.93399810791016,
+    "x2": 278.9094543457031,
+    "y1": 602.7180786132812,
+    "y2": 607.0130004882812
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 275.03999999999996,
+    "y1": 510.71999999999997,
+    "y2": 588.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680304-Figure3-1.png"
+}]

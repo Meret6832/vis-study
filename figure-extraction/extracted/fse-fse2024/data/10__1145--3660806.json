@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 5. Description of review process features generated at the file-level granularity. <LAB> refers to the di erent labels we consider.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1685791015625,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["fault:", "0,", "value", "between", "0", "and", "1).", "35-", "37)", "r_<LAB>_mean_", "reviewers", "Average", "Reviewers’s", "<LAB>", "rate", "before", "the", "current", "patch", "(de-", "(default:", "0,", "value", "between", "0", "and", "1).", "32-", "34)", "r_<LAB>_max_", "reviewers", "Maximum", "Reviewers’s", "<LAB>", "rate", "before", "the", "current", "patch", "reviewers", "out", "of", "all", "this", "patch’s", "reviewers", "(min", "=", "1).", "31)", "mean_reviewers_exp", "Average", "#", "past", "and", "current", "patches", "reviewed", "by", "one", "of", "the", "reviewers", "out", "of", "all", "this", "patch’s", "reviewers", "(min", "=", "1).", "30)", "max_reviewers_exp", "Maximum", "#", "past", "and", "current", "patches", "reviewed", "by", "one", "of", "the", "R", "ev", "ie", "w", "er", "s’", "h", "is", "to", "ry", "before", "the", "current", "patch", "(default:", "0,", "value", "between", "0", "and", "1).", "27-", "29)", "r_<LAB>_authdir", "Author’s", "average", "<LAB>", "ratio", "on", "the", "current", "le’s", "directory", "current", "patch", "(default:", "0,", "value", "between", "0", "and", "1).", "24-", "26)", "r_<LAB>_auth", "le", "Author’s", "average", "<LAB>", "ratio", "on", "the", "current", "le", "before", "the", "0,", "value", "between", "0", "and", "1).", "21-", "23)", "r_<LAB>_author", "Author’s", "average", "<LAB>", "ratio", "before", "the", "current", "patch", "(default:", "was", "submitted", "by", "the", "author", "(min", "=", "1).", "20)", "authdir_exp", "#", "past", "and", "current", "patches", "in", "which", "the", "current", "le’s", "directory", "mitted", "by", "the", "author(min", "=", "1).", "18)", "auth_exp", "#", "past", "and", "current", "patches", "submitted", "by", "the", "author", "(min", "=", "1).", "19)", "auth", "le_exp", "#", "past", "and", "current", "patches", "in", "which", "the", "current", "le", "was", "sub-", "A", "u", "th", "o", "r’", "s", "h", "is", "to", "ry", "current", "patch", "(default:", "0,", "value", "between", "0", "and", "1).", "15-", "17)", "r_<LAB>_dir", "The", "directory", "of", "the", "le’s", "average", "<LAB>", "ratio", "before", "the", "value", "between", "0", "and", "1).", "12-", "14)", "r_<LAB>_", "le", "File’s", "average", "<LAB>", "ratio", "before", "the", "current", "patch", "(default:", "0,", "directory", "(min", "=", "1).", "11)", "dir_exp", "#", "past", "and", "current", "patches", "that", "included", "changes", "to", "this", "le’s", "(min", "=", "1).", "10)", "le_exp", "#", "past", "and", "current", "patches", "that", "included", "changes", "to", "this", "le", "Fi", "le", "’s", "h", "is", "to", "ry", "2_D=2ℎ0=643_A4E", "4)", "c_add_rev", "#", "lines", "added", "in", "the", "patch", "of", "the", "le.", "5)", "c_rem_rev", "#", "lines", "removed", "in", "the", "patch", "of", "the", "le.", "6)", "c_unchanged_rev", "#", "lines", "unchanged", "in", "the", "patch", "of", "the", "le.", "7)", "r_add_rev", "2_033", "2_033_A4E", "8)", "r_rem_rev", "2_A4<", "2_A4<_A4E", "9)", "r_unchanged_rev", "2_D=2ℎ0=643", "lines", "of", "context", "are", "shown", "above", "and", "under", "changed", "lines", "as", "context.", "In", "the", "tool", "used", "by", "our", "industrial", "collaborators,", "the", "context", "is", "at", "most", "5", "lines.", "1)", "c_add", "#", "lines", "added", "in", "the", "le.", "2)", "c_rem", "#", "lines", "removed", "in", "the", "le.", "3)", "c_unchanged", "#", "lines", "unchanged", "shown", "in", "the", "le.", "For", "Gerrit,", "at", "most", "10", "C", "o", "u", "n", "t", "Feature", "name", "Description"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 117.6,
+    "y2": 570.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table5-1.png"
+}, {
+  "caption": "Table 7. Results for RQ2: so ware review process features embeddings on the code review activity prediction tasks at file-level. The results are returned for the best model (\"mod\") for each se ing of text embedding. Blue cells indicate the maximum values for each metric per dataset and per label.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17376708984375,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["•", "\"Count\":", "described", "in", "the", "\"Count\"", "section", "of", "Table", "5.", "•", "\"Hist\":", "described", "in", "the", "File’s", ",", "Author’s", "and", "Reviewers’", "history", "sections", "of", "Table", "5.", "•", "\"All", "feat\":", "all", "the", "aforementioned", "review", "process", "features,", "thus", "all", "features", "in", "Table", "5.", "Best", "text", "77", "32", "58", "24", "42", "RFs", "70", "41", "61", "30", "61", "RFs", "72", "51", "65", "40", "72", "RFs", "#Add/Rem", "67", "24", "60", "17", "46", "RF", "65", "35", "61", "23", "64", "RF", "59", "45", "45", "29", "84", "RFs", "Count", "79", "34", "67", "26", "52", "RF", "72", "42", "66", "32", "62", "RFs", "68", "49", "63", "36", "77", "RFs", "Hist", "59", "18", "52", "11", "60", "RFs", "63", "34", "55", "22", "79", "RF", "61", "45", "45", "32", "87", "RF", "All", "81", "37", "69", "29", "56", "RF", "76", "45", "68", "35", "64", "RFs", "74", "53", "67", "41", "76", "RFs", "C", "lo", "se", "d", "2", "Best", "text", "74", "38", "62", "31", "48", "RFs", "72", "47", "66", "36", "70", "RFs", "65", "55", "55", "42", "79", "RF", "Add/Rem", "63", "24", "59", "19", "56", "RF", "67", "39", "60", "29", "64", "RF", "60", "48", "49", "36", "73", "RF", "Count", "74", "36", "64", "28", "50", "RFs", "75", "47", "68", "35", "64", "RF", "68", "55", "60", "40", "82", "RF", "Hist", "59", "25", "53", "16", "83", "RFs", "58", "38", "47", "24", "83", "RF", "59", "47", "42", "32", "83", "RF", "All", "77", "37", "66", "32", "52", "RF", "75", "48", "69", "35", "67", "RFs", "69", "56", "64", "43", "78", "RFs", "C", "lo", "se", "d", "1", "Best", "text", "75", "55", "68", "58", "53", "RFs", "75", "51", "67", "41", "73", "RFs", "76", "57", "37", "41", "97", "RFs", "Add/Rem", "63", "40", "39", "26", "88", "RF", "65", "45", "63", "36", "64", "RFs", "67", "56", "34", "40", "95", "RFs", "Count", "68", "47", "62", "34", "78", "RFs", "72", "48", "65", "35", "73", "RF", "68", "58", "54", "44", "86", "RF", "Hist", "60", "30", "47", "32", "28", "RFs", "56", "38", "56", "29", "57", "RF", "58", "41", "53", "49", "36", "RFs", "All", "70", "40", "17", "25", "100", "RFs", "69", "47", "62", "45", "45", "RFs", "67", "55", "10", "38", "100", "RF", "N", "o", "v", "a", "Best", "text", "77", "46", "67", "39", "53", "RFs", "70", "53", "66", "41", "81", "RFs", "70", "58", "65", "47", "76", "RFs", "Add/Rem", "53", "30", "53", "20", "68", "RF", "61", "45", "43", "31", "90", "RFs", "62", "51", "37", "36", "92", "RFs", "Count", "65", "36", "62", "27", "55", "RF", "61", "44", "58", "38", "49", "RFs", "63", "52", "56", "40", "72", "RFs", "Hist", "57", "30", "49", "20", "71", "RFs", "70", "53", "65", "40", "84", "RFs", "67", "55", "61", "44", "78", "RFs", "All", "67", "36", "62", "25", "67", "RF", "68", "51", "65", "43", "64", "RFs", "69", "56", "62", "45", "80", "RFs", "Ir", "o", "n", "ic", "Best", "text", "68", "40", "64", "30", "58", "RFs", "68", "46", "63", "39", "52", "RFs", "69", "52", "63", "44", "61", "RFs", "Add/Rem", "59", "33", "58", "25", "50", "RF", "65", "44", "61", "34", "66", "RF", "64", "50", "55", "36", "81", "RF", "Count", "65", "36", "59", "24", "73", "RF", "65", "42", "60", "38", "49", "RF", "66", "50", "58", "37", "78", "RFs", "Hist", "62", "33", "39", "20", "93", "RFs", "63", "43", "59", "32", "70", "RF", "60", "47", "25", "31", "97", "RF", "All", "73", "40", "65", "28", "74", "RFs", "74", "50", "65", "49", "51", "RFs", "73", "54", "66", "45", "70", "RFs", "B", "as", "e", "Embed", "auc", "f1", "gm", "pre", "rec", "mod", "auc", "f1", "gm", "pre", "rec", "mod", "auc", "f1", "gm", "pre", "rec", "mod", "Text", "Commented", "Revised", "Hot-spot"],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 485.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table7-1.png"
+}, {
+  "caption": "Table 1. User study’s patch run-through analysis: depending on the ordering approach, we report the number of patches reviewed, the median (Med.) and Average (Ave.) duration of the review, and the median and average ranking position of the files’ initial opening during the reviews.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3358459472656,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Alpha", "28", "11.4m", "10.4m", "1", "2", "3", "3.5", "4", "2.25", "2.92", "2.93", "3.21", "3.42", "Hot-spot-based", "27", "11.4m", "13.6m", "1", "2.5", "3", "4", "3", "2.26", "2.96", "3.14", "3.26", "3.30", "Med.", "Ave.", "F1", "F2", "F3", "F4", "F5", "F1", "F2", "F3", "F4", "F5", "Tot.", "Duration", "Median", "Average", "#Patches", "Ranking", "position", "of", "les’", "rst", "opening", "Ordering"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table1-1.png"
+}, {
+  "caption": "Table 2. User study’s review comment analysis: depending on the ordering approach, we report the total number of comments, the comments’ position (files F1 to F5 or general Gen), the number of comments that found hot-spots, and the number of hot-spot files that were commented on.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17144775390625,
+    "y1": 209.37286376953125,
+    "y2": 235.52301025390625
+  },
+  "figType": "Table",
+  "imageText": ["Alpha-", "65", "27%", "15%", "16%", "23%", "15%", "1%", "41%", "40%", "20%", "numeric", "(18)", "(10)", "(11)", "(15)", "(10)", "(1)", "(27)", "18", "(out", "of", "44)", "(out", "of", "88)", "Hot-spot-", "36%", "32%", "12%", "5%", "6%", "5%", "51%", "53%", "28%", "based", "77", "(28)", "(25)", "(10)", "(4)", "(5)", "(5)", "(40)", "23", "(out", "of", "43)", "(out", "of", "80)", "Tot.", "Precision", "Recall", "F1", "F2", "F3", "F4", "F5", "Gen", "Hot-spot", "Tot.", "Position", "Found", "#Comments", "#Hot-spot", "les", "commented", "Ordering"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 249.6,
+    "y2": 336.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table2-1.png"
+}, {
+  "caption": "Table 6. Results for RQ1: text embeddings for the code review activity prediction task at file-level. The results shown are returned for the best model (\"mod\") across each variation of text embedding. Blue cells indicate the maximum values for each metric per dataset and per label.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1699523925781,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["LLM", "+/-", "77", "32", "58", "24", "42", "RFs", "73", "40", "65", "28", "66", "RFs", "72", "51", "65", "40", "72", "RFs", "LLM", "+/-", "74", "37", "63", "27", "54", "RFs", "72", "45", "64", "38", "63", "RFs", "69", "53", "63", "41", "68", "RFs", "C", "lo", "se", "d", "2", "BoW", "+", "72", "32", "60", "26", "43", "RFs", "70", "39", "63", "34", "49", "RFs", "67", "48", "61", "36", "77", "RFs", "BoW", "+/-", "75", "32", "64", "23", "50", "RFs", "71", "40", "65", "32", "60", "RFs", "67", "47", "63", "36", "72", "RFs", "LLM", "+", "72", "32", "62", "23", "49", "RFs", "70", "41", "61", "30", "61", "RFs", "66", "49", "58", "40", "69", "RFs", "BoW", "+", "75", "54", "67", "56", "52", "RFs", "72", "48", "66", "37", "69", "RFs", "72", "57", "46", "42", "91", "RFs", "BoW", "+/-", "75", "55", "68", "58", "53", "RFs", "73", "50", "67", "41", "67", "RFs", "72", "57", "48", "42", "90", "RFs", "LLM", "+", "78", "55", "67", "57", "51", "RFs", "75", "50", "68", "40", "69", "RFs", "76", "57", "35", "40", "98", "RF", "LLM", "+/-", "78", "53", "66", "59", "48", "RFs", "75", "51", "67", "41", "73", "RFs", "76", "57", "37", "41", "97", "RFs", "C", "lo", "se", "d", "1", "BoW", "+", "74", "38", "62", "31", "48", "RFs", "70", "46", "65", "37", "60", "RFs", "67", "51", "63", "41", "67", "RFs", "BoW", "+/-", "74", "36", "65", "28", "50", "RFs", "71", "44", "64", "37", "57", "RFs", "68", "51", "61", "40", "73", "RFs", "LLM", "+", "75", "37", "62", "29", "53", "RFs", "72", "47", "66", "36", "70", "RFs", "65", "55", "55", "42", "79", "RF", "N", "o", "v", "a", "BoW", "+", "77", "46", "67", "39", "53", "RFs", "70", "53", "66", "41", "81", "RFs", "71", "57", "63", "45", "82", "RF", "BoW", "+/-", "78", "45", "69", "36", "62", "RFs", "69", "50", "64", "42", "68", "RFs", "71", "57", "64", "47", "76", "RF", "LLM", "+", "78", "45", "66", "39", "52", "RFs", "67", "52", "63", "38", "75", "RFs", "70", "58", "65", "47", "76", "RFs", "LLM", "+/-", "78", "40", "61", "40", "45", "RFs", "67", "51", "62", "37", "77", "RFs", "70", "58", "66", "48", "76", "RFs", "Ir", "o", "n", "ic", "BoW", "+", "67", "38", "63", "27", "63", "RF", "67", "42", "59", "40", "44", "RFs", "66", "49", "62", "42", "59", "RFs", "BoW", "+/-", "68", "40", "64", "30", "58", "RFs", "67", "44", "62", "37", "55", "RFs", "67", "50", "62", "41", "63", "RFs", "LLM", "+", "69", "39", "65", "28", "69", "RFs", "68", "46", "62", "42", "51", "RFs", "68", "51", "64", "44", "60", "RFs", "LLM", "+/-", "69", "40", "65", "28", "69", "RFs", "68", "46", "63", "39", "52", "RFs", "69", "52", "63", "44", "61", "RFs", "B", "as", "e", "Embed", "auc", "f1", "gm", "pre", "rec", "mod", "auc", "f1", "gm", "pre", "rec", "mod", "auc", "f1", "gm", "pre", "rec", "mod", "Text", "Commented", "Revised", "Hot-spot"],
+  "name": "6",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table6-1.png"
+}, {
+  "caption": "Table 8. Results for RQ3: combining the text embeddings with so ware meta-features embeddings for the code review activity prediction task at file-level. The results are returned for the best model (\"mod\") for each se ing of text embedding. Blue cells indicate the maximum values for each metric per dataset and per label.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1744689941406,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["8", "DISCUSSION", "BoW", "+", "&", "Count", "LLM", "+/-", "&", "All", "LLM", "+", "&", "All", "Baseline", "73", "33", "59", "27", "38", "RFs", "70", "41", "63", "37", "56", "RFs", "66", "48", "61", "36", "74", "RF", "Best", "text", "77", "32", "58", "24", "42", "RFs", "70", "41", "61", "30", "61", "RFs", "72", "51", "65", "40", "72", "RFs", "Best", "feat", "81", "37", "69", "29", "56", "RF", "76", "45", "68", "35", "64", "RFs", "74", "53", "67", "41", "76", "RFs", "Heavy", "combo", "81", "37", "67", "29", "55", "RFs", "76", "45", "68", "35", "64", "RFs", "73", "54", "65", "41", "78", "RFs", "Best", "combo", "81", "40", "68", "33", "54", "RFs", "76", "45", "68", "35", "64", "RFs", "75", "54", "67", "42", "79", "RFs", "C", "lo", "se", "d", "2", "BoW", "+/-", "&", "Count", "LLM", "+/-", "&", "All", "LLM", "+", "&", "All", "Baseline", "73", "38", "63", "32", "49", "RFs", "71", "45", "63", "37", "66", "RFs", "67", "50", "61", "39", "74", "RFs", "Best", "text", "74", "38", "62", "31", "48", "RFs", "72", "47", "66", "36", "70", "RFs", "65", "55", "55", "42", "79", "RF", "Best", "feat", "77", "37", "66", "32", "52", "RF", "75", "48", "69", "35", "67", "RFs", "69", "56", "64", "43", "78", "RFs", "Heavy", "combo", "78", "35", "66", "26", "56", "RFs", "75", "50", "68", "40", "74", "RFs", "70", "53", "64", "43", "70", "RFs", "Best", "combo", "79", "41", "67", "32", "52", "RFs", "75", "50", "68", "40", "74", "RFs", "70", "59", "64", "45", "80", "RFs", "C", "lo", "se", "d", "1", "BoW", "+", "&", "Hist", "LLM", "+/-", "&", "All", "BoW", "+/-", "&", "Hist", "Baseline", "77", "56", "68", "60", "52", "RFs", "71", "47", "65", "38", "62", "RFs", "73", "57", "49", "42", "88", "RFs", "Best", "text", "75", "55", "68", "58", "53", "RFs", "75", "51", "67", "41", "73", "RFs", "76", "57", "37", "41", "97", "RFs", "Best", "feat", "68", "47", "62", "34", "78", "RFs", "72", "48", "65", "35", "73", "RF", "68", "58", "54", "44", "86", "RF", "Heavy", "combo", "78", "46", "56", "31", "93", "RF", "76", "53", "69", "46", "64", "RFs", "75", "56", "28", "39", "99", "RF", "Best", "combo", "82", "61", "73", "59", "63", "RFs", "76", "53", "69", "46", "64", "RFs", "75", "62", "69", "63", "63", "RFs", "N", "o", "v", "a", "LLM", "+", "&", "Count", "BoW", "+/-", "&", "Hist", "LLM", "+/-", "&", "Hist", "Baseline", "79", "46", "69", "37", "58", "RFs", "71", "51", "65", "41", "69", "RFs", "72", "57", "65", "47", "74", "RF", "Best", "text", "77", "46", "67", "39", "53", "RFs", "70", "53", "66", "41", "81", "RFs", "70", "58", "65", "47", "76", "RFs", "Best", "feat", "65", "36", "62", "27", "55", "RF", "70", "53", "65", "40", "84", "RFs", "69", "56", "62", "45", "80", "RFs", "Heavy", "combo", "79", "44", "63", "41", "47", "RFs", "67", "48", "60", "36", "74", "RF", "73", "58", "67", "53", "67", "RFs", "Best", "combo", "78", "47", "70", "38", "64", "RFs", "75", "54", "67", "51", "54", "RFs", "73", "60", "69", "52", "70", "RFs", "Ir", "o", "n", "ic", "BoW", "+/-", "&", "All", "LLM", "+/-", "&", "All", "LLM", "+", "&", "All", "Baseline", "68", "39", "62", "29", "52", "RFs", "67", "42", "59", "40", "42", "RFs", "66", "50", "62", "41", "65", "RFs", "Best", "text", "68", "40", "64", "30", "58", "RFs", "68", "46", "63", "39", "52", "RFs", "69", "52", "63", "44", "61", "RFs", "Best", "feat", "73", "40", "65", "28", "74", "RFs", "74", "50", "65", "49", "51", "RFs", "73", "54", "66", "45", "70", "RFs", "Heavy", "combo", "71", "40", "64", "28", "66", "RFs", "70", "47", "64", "40", "59", "RFs", "70", "52", "61", "39", "78", "RFs", "Best", "combo", "73", "41", "65", "29", "71", "RFs", "70", "47", "64", "40", "59", "RFs", "71", "53", "62", "40", "76", "RFs", "B", "as", "e", "Embed", "auc", "f1", "gm", "pre", "rec", "mod", "auc", "f1", "gm", "pre", "rec", "mod", "auc", "f1", "gm", "pre", "rec", "mod", "Text", "Commented", "Revised", "Hot-spot"],
+  "name": "8",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 517.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table8-1.png"
+}, {
+  "caption": "Table 4. The revision activity in the studied datasets.",
+  "captionBoundary": {
+    "x1": 145.24899291992188,
+    "x2": 340.51019287109375,
+    "y1": 188.20486450195312,
+    "y2": 192.43701171875
+  },
+  "figType": "Table",
+  "imageText": ["Base", "2", "years", "5,390", "32%", "31%", "42%", "18,950", "13%", "18%", "23%", "Ironic", "3", "years", "1,050", "45%", "38%", "53%", "4,193", "16%", "26%", "31%", "Nova", "3", "years", "3,678", "54%", "42%", "63%", "11,997", "26%", "30%", "43%", "Closed1", "5", "years", "34,511", "43%", "49%", "63%", "270,396", "10%", "25%", "28%", "Closed2", "6", "years", "40,236", "45%", "49%", "64%", "390,075", "9%", "24%", "27%", "mented", "sed", "spot", "mented", "sed", "spot", "All", "Com-", "Revi-", "Hot-", "All", "Com-", "Revi-", "Hot-", "#Patches", "#Changed", "les", "Project", "Period"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 206.88,
+    "y2": 305.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table4-1.png"
+}, {
+  "caption": "Table 3. Label descriptions (file-level).",
+  "captionBoundary": {
+    "x1": 172.93710327148438,
+    "x2": 312.8216857910156,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Label", "Description", "Commented", "Changed", "le", "receiving", "a", "review", "comment", "on", "any", "of", "its", "lines.", "Revised", "Changed", "le", "for", "which", "at", "least", "one", "of", "its", "lines", "will", "be", "revised", "in", "a", "future", "patch.", "Hot-spot", "Changed", "le", "that", "is", "either", "commented,", "revised,", "or", "both."],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table3-1.png"
+}, {
+  "caption": "Table 9. Ordering based on hot-spot prediction. We report the \"Alph\" (alphabetic) ordering, and \"Ours\" our ordering, based on hot-spot prediction. \"%patch\" reports the percentage of patches with the range of file changes. The blue cells indicate the best results by dataset and by metric.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3346252441406,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Base", "30", "72", "81", "7", "72", "81", "55", "70", "3", "67", "78", "60", "64", "Ironic", "50", "82", "82", "14", "61", "90", "44", "94", "5", "68", "77", "63", "74", "Nova", "48", "69", "86", "11", "71", "89", "53", "69", "7", "51", "73", "31", "62", "Closed1", "38", "61", "78", "18", "55", "71", "45", "64", "12", "52", "69", "38", "59", "Closed2", "35", "67", "79", "14", "57", "73", "48", "69", "11", "54", "71", "42", "62", "%", "Rec@50%", "%", "Rec@50%", "Rec@25%", "%", "Rec@50%", "Rec@25%", "patch", "Alph", "Ours", "patch", "Alph", "Ours", "Alph", "Ours", "patch", "Alph", "Ours", "Alph", "Ours", "Size", "2", "to", "4", "Size", "5", "to", "9", "Size", "10", "and", "more", "Dataset"],
+  "name": "9",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Table9-1.png"
+}, {
+  "caption": "Fig. 1. Data split for open- and closed-source datasets.",
+  "captionBoundary": {
+    "x1": 142.2449951171875,
+    "x2": 343.7557067871094,
+    "y1": 164.24185180664062,
+    "y2": 168.4739990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Train", "2", "Valid", "2", "Test", "2...", "Train", "1", "Valid", "1", "Test", "1", "Test", "10%", "Timeline", "(6month-splits)", "Valid", "10%", "Closed-source", "Train", "(80%)", "Timeline", "Open-source"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 397.44,
+    "y1": 86.39999999999999,
+    "y2": 143.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Embedding approach. The file change is composed of lines added, lines removed and meta-information about the submission (e.g., timestamp, author and reviewer ids, patch id). The combination will concatenate the targeted embeddings, i.e., the text embedding, features, or both. The final embedding for each file is 1D.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1761779785156,
+    "y1": 297.15484619140625,
+    "y2": 323.30499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["Concatenation", "of", "targeted", "embeddings", "Combination:", "Final", "embedding", "Review", "process", "features", "Review", "process", "feature", "embedding", "Embedded", "remove", "Embedded", "add", "(BoW", "or", "LLM)", "Text", "embedding", "approach", "Meta-", "information", "Code", "(text)", "lines", "removed", "Code", "(text)", "lines", "added", "File", "change"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 189.6,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660806-Figure2-1.png"
+}]

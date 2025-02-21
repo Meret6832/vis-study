@@ -1,0 +1,241 @@
+[{
+  "caption": "TABLE II: Performance (%) of different embeddings.",
+  "captionBoundary": {
+    "x1": 329.1432800292969,
+    "x2": 536.2554321289062,
+    "y1": 73.49227905273438,
+    "y2": 79.13482666015625
+  },
+  "figType": "Table",
+  "imageText": ["TextCNN", "WP", "97.63", "93.12", "96.51", "96.31", "98.10", "96.28", "98.23", "96.32", "98.15", "WR", "97.39", "91.63", "96.31", "96.38", "97.92", "96.22", "98.11", "96.24", "98.01", "WF1", "97.45", "91.75", "96.33", "96.43", "97.94", "96.25", "98.12", "96.29", "98.02", "BiLSTM", "WP", "97.52", "96.46", "98.22", "86.63", "97.11", "95.11", "96.94", "95.32", "98.63", "WR", "97.29", "96.29", "97.97", "86.34", "96.17", "94.83", "96.18", "95.76", "98.55", "WF1", "97.32", "96.35", "98.00", "86.23", "95.91", "94.86", "96.23", "95.37", "98.55", "Models", "Metrics", "BI", "Vocab.", "Bin.", "Hash", "Word2vec.", "naı̈ve", "+BI", "naı̈ve", "+BI", "naı̈ve", "+BI", "naı̈ve", "+BI"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 554.4,
+    "y1": 87.84,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-TableII-1.png"
+}, {
+  "caption": "Fig. 1: Comparison with existing method.",
+  "captionBoundary": {
+    "x1": 93.35260009765625,
+    "x2": 254.2565460205078,
+    "y1": 239.84115600585938,
+    "y2": 245.48370361328125
+  },
+  "figType": "Figure",
+  "imageText": ["raw", "embedding", "concat", "tailored", "API", "sequence", "native", "API", "sequence", "⊕", "Word2vec", "BI", "embedding", "raw", "embedding", "[0.62,", "0.42,", "...,", "0.17]", "[0.23,", "0.23,", "...,", "0.33]", "[0.46,", "0.82,", "...,", "0.19]", "...", "...", "b)", "Our", "approach", "using", "BI", "on", "tailored", "API", "sequence", "[0.62,", "0.42,", "...,", "0.17]", "[0.81,", "0.53,", "...,", "0.46]", "[0.23,", "0.23,", "...,", "0.33]", "[0.46,", "0.82,", "...,", "0.19]", "...", "...", "Word2vec", "BI", "Encoding", "[0.36,", "0.46,", "...", "0.21]", "[0.78,", "-0.32,", "...,", "0.28]", "[-0.23,", "0.51,", "...,", "-0.66]", "...", "...", "API", "Exclusion", "a)", "Existing", "methods", "using", "word2vec", "on", "native", "API", "sequence", "DL-based", "Classifier", "API1,", "API3,", "API4,", "...", "DL-based", "Classifier", "API1,", "API2,", "API3,", "API4,", "API5...", "API1,", "API2,", "API3,", "API4,", "API5..."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-Figure1-1.png"
+}, {
+  "caption": "Fig. 4: Distribution of APIs with different embedding methods in 2-D plane. API groups are distinguished with colors.",
+  "captionBoundary": {
+    "x1": 71.88760375976562,
+    "x2": 531.692138671875,
+    "y1": 181.23611450195312,
+    "y2": 186.878662109375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Hash", "(AAAI’20)", "(b)", "Word2vec", "(TIFS’22", ")", "(c)", "Behavior", "Inclination", "(APIBeh)"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 540.0,
+    "y1": 72.96,
+    "y2": 171.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-Figure4-1.png"
+}, {
+  "caption": "TABLE III: Gain of proposed methods (WF1).",
+  "captionBoundary": {
+    "x1": 342.177978515625,
+    "x2": 522.49609375,
+    "y1": 209.94656372070312,
+    "y2": 215.589111328125
+  },
+  "figType": "Table",
+  "imageText": ["Models", "Native", "API", "Exclusion", "BI", "APIBeh", "TextCNN", "96.29", "97.52", "97.61", "98.02", "BiLSTM", "95.37", "95.77", "98.06", "98.55"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 528.0,
+    "y1": 223.67999999999998,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-TableIII-1.png"
+}, {
+  "caption": "Fig. 2: Correlation matrix between 11 behaviors and 12 malware families. Darker colors indicate a stronger correlation(%).",
+  "captionBoundary": {
+    "x1": 62.983673095703125,
+    "x2": 539.0650634765625,
+    "y1": 211.75863647460938,
+    "y2": 217.40118408203125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Total", "samples", "(b)", "Samples", "from", "April-May", "2021", "(c)", "Samples", "from", "June-July", "2021"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 542.4,
+    "y1": 67.67999999999999,
+    "y2": 202.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-Figure2-1.png"
+}, {
+  "caption": "Fig. 5: The classification performance with varying θ.",
+  "captionBoundary": {
+    "x1": 72.13592529296875,
+    "x2": 280.00823974609375,
+    "y1": 181.36642456054688,
+    "y2": 187.00897216796875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "BiLSTM", "I", "I", "I", "I", "(a)", "TextCNN", "I", "I", "I", "I"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 299.03999999999996,
+    "y1": 72.96,
+    "y2": 171.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-Figure5-1.png"
+}, {
+  "caption": "TABLE IV: WF1(%) of varying models on Dataset2.",
+  "captionBoundary": {
+    "x1": 329.8180847167969,
+    "x2": 535.0289916992188,
+    "y1": 73.77584838867188,
+    "y2": 79.41839599609375
+  },
+  "figType": "Table",
+  "imageText": ["TextCNN", "97.13", "91.62", "96.03", "96.39", "97.62", "96.14", "97.93", "96.32", "97.86", "BiLSTM", "97.10", "96.37", "97.59", "86.21", "95.66", "94.67", "95.96", "95.19", "98.23", "Models", "BI", "Vocab.", "Bin.", "Hash", "Word2vec.", "naı̈ve", "+BI", "naı̈ve", "+BI", "naı̈ve", "+BI", "naı̈ve", "+BI"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 552.0,
+    "y1": 87.84,
+    "y2": 124.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-TableIV-1.png"
+}, {
+  "caption": "TABLE I: Comparison of behavioral and syntactic changes.",
+  "captionBoundary": {
+    "x1": 62.33100128173828,
+    "x2": 292.5563659667969,
+    "y1": 73.41226196289062,
+    "y2": 79.0548095703125
+  },
+  "figType": "Table",
+  "imageText": ["sytro", "1.03", "7.92", "cosmu", "2.88", "1448.46", "Family", "behavioral", "syntactic", "Family", "behavioral", "syntactic", "berbew", "1.19", "57.19", "zusy", "4.49", "13.87", "vobfus", "1.61", "3.38", "vilsel", "0.71", "1.01", "sfone", "0.44", "1.97", "downloadguide", "0.00", "0.00", "virlock", "7.68", "1442.56", "neshta", "0.00", "285.78", "drolnux", "0.46", "0.54", "upatre", "3.33", "672.16"],
+  "name": "I",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 293.28,
+    "y1": 87.84,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-TableI-1.png"
+}, {
+  "caption": "Fig. 6: ROC curves of performance on new families.",
+  "captionBoundary": {
+    "x1": 330.749755859375,
+    "x2": 534.5560302734375,
+    "y1": 349.5271911621094,
+    "y2": 355.16973876953125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "BiLSTM", "I", "I", "I", "I", "(a)", "TextCNN", "I", "I", "I", "I"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 348.96,
+    "x2": 519.36,
+    "y1": 68.64,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-Figure6-1.png"
+}, {
+  "caption": "TABLE VI: Detection rate (%) on two types of samples.",
+  "captionBoundary": {
+    "x1": 323.0614929199219,
+    "x2": 542.245361328125,
+    "y1": 372.4923400878906,
+    "y2": 378.1348876953125
+  },
+  "figType": "Table",
+  "imageText": ["Vocab.+BI", "84.83", "65.97", "86.47", "86.44", "Bin.+BI", "87.07", "83.72", "87.58", "86.75", "Hash+BI", "87.44", "82.49", "88.46", "86.82", "Word2vec+BI", "86.60", "81.11", "87.93", "86.80", "Embeddings", "θ=1.0", "θ=0.8", "Original", "Adversarial", "Original", "Adversarial"],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 548.16,
+    "y1": 386.88,
+    "y2": 439.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-TableVI-1.png"
+}, {
+  "caption": "TABLE V: Performance (%) on new malware variants.",
+  "captionBoundary": {
+    "x1": 71.8407974243164,
+    "x2": 283.8882751464844,
+    "y1": 74.10427856445312,
+    "y2": 79.746826171875
+  },
+  "figType": "Table",
+  "imageText": ["Vocab.", "89.23", "2.52", "86.93", "9.42", "Bin.", "94.01", "2.42", "82.22", "4.01", "Hash", "94.13", "2.12", "92.51", "2.35", "Word2vec", "93.70", "2.59", "92.97", "2.40", "Vocab.+BI", "95.56", "0.77", "96.21", "1.79", "Bin.+BI", "96.94", "1.00", "95.18", "0.73", "Hash+BI", "97.20", "0.92", "95.37", "0.86", "Word2vec+BI", "96.94", "1.08", "97.81", "0.74", "Embeddings", "TextCNN", "BiLSTM", "WF1", "Drop", "WF1", "Drop"],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 265.44,
+    "y1": 87.84,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-TableV-1.png"
+}, {
+  "caption": "Fig. 3: A sample of 5 BI encoded APIs.",
+  "captionBoundary": {
+    "x1": 354.4021911621094,
+    "x2": 510.1646423339844,
+    "y1": 147.34616088867188,
+    "y2": 152.98870849609375
+  },
+  "figType": "Figure",
+  "imageText": ["Native", "APIs", "BI", "encoded", "APIs", "[0.347,", "-0.438,", "-0.068,", "...,", "-0.256,", "0221]", "[0.172,", "-0.118,", "0.100,", "...,", "0.067,", "-0.073]", "[-0.204,", "0.156,", "0.316,", "...,", "-0.723,", "-0.017]", "[0.172,", "-0.118,", "0.100,", "...,", "0.067,", "-0.073]", "[-0.097,", "0.214,", "-0.245,", "...,", "0.128,", "0.034]", "CreateProcessInternal", "VirtualAllocEx", "CreateFileW", "OpenMutexW", "CreateFileW"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 552.0,
+    "y1": 72.96,
+    "y2": 137.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00012-Figure3-1.png"
+}]

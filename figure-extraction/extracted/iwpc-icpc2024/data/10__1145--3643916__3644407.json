@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 1: Evaluation dataset",
+  "captionBoundary": {
+    "x1": 383.63897705078125,
+    "x2": 492.21722412109375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["VxWorks", "Built", "ARM", "26", "20.13", "91,125", "UCSB", "Collected", "ARM", "36", "3.67", "15,807", "Zephyr", "Built", "ARM", "995", "34.69", "263,621", "Total", "-", "-", "1,105", "259.78", "825,219", "DeviceFirm", "Collected", "ARM", "MIPS", "48", "201.29", "454,666", "Dataset", "Source", "ISA", "#", "File", "Size", "(MB)", "#", "Func."],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 564.0,
+    "y1": 105.6,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Table1-1.png"
+}, {
+  "caption": "Table 2: Monolithic Firmware from Manufacturers’ Websites",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7947998046875,
+    "y1": 215.15335083007812,
+    "y2": 231.74298095703125
+  },
+  "figType": "Table",
+  "imageText": ["Vendor", "#", "Model", "#", "File", "Size", "(MB)", "#", "Function", "TP-Link", "14", "34", "122.44", "302,629", "FAST", "3", "3", "12.54", "26,084", "MERCURY", "3", "6", "20.28", "46,458", "D-Link", "2", "2", "3.25", "6,566", "Tenda", "3", "3", "13.31", "24,249", "RICOH", "2", "2", "32.71", "55,246"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 246.72,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Table2-1.png"
+}, {
+  "caption": "Table 5: The metrics of function identification strategies",
+  "captionBoundary": {
+    "x1": 59.7979736328125,
+    "x2": 287.7406005859375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Callee", "Caller", "Neighbor", "Prop.", "Pre.", "Prop.", "Pre.", "Prop.", "Pre.", "DeviceFirm", "0.592", "0.998", "0.049", "1.000", "0.359", "0.971", "VxWorks", "0.308", "1.000", "0.219", "1.000", "0.473", "0.971", "UCSB", "0.774", "0.989", "0.000", "-", "0.226", "0.942", "Zephyr", "0.733", "0.998", "0.000", "-", "0.267", "0.954"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 105.6,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Table5-1.png"
+}, {
+  "caption": "Figure 6: Percentages (Y-axis) of unidentified, detection failed, and correct functions after identifying functions with different tools (X-axis).",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 294.03302001953125,
+    "y1": 323.454345703125,
+    "y2": 351.00299072265625
+  },
+  "figType": "Figure",
+  "imageText": ["Correct", "Detection", "Failed", "Unidentified", "IDA", "Pro", "Ghidra", "DeepDi", "radare2", "D-ARM", "DeepDi-Elisa", "DARM-Elisa", "TaiE", "100%", "80%", "60%", "40%", "20%", "0%"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 188.64,
+    "y2": 310.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Figure6-1.png"
+}, {
+  "caption": "Figure 1: Stack operation in binaryfiles. Count represents the amount of instructions that operate stacks in theses functions, while Ratio stands for the related proportion.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6379089355469,
+    "y1": 217.65536499023438,
+    "y2": 245.2030029296875
+  },
+  "figType": "Figure",
+  "imageText": ["Count", "Ratio", "Amount", "of", "the", "Stack-related", "Instruction", "in", "Each", "Function", "s", "io", "n", "n", "ct", "F", "u", "o", "f", "n", "t", "o", "u", "A", "m", "s", "io", "n", "n", "ct", "F", "u", "o", "f", "io", "s", "R", "at", "≥1", "≥2", "≥3", "≥4", "≥5", "1000000", "900000", "800000", "700000", "600000", "500000", "400000", "300000", "200000", "100000", "0", "100%", "90%", "80%", "70%", "60%", "50%", "40%", "30%", "20%", "10%", "0%"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 82.56,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Function examples that not identified by TaiE and its adversaries",
+  "captionBoundary": {
+    "x1": 155.90798950195312,
+    "x2": 456.089599609375,
+    "y1": 220.21340942382812,
+    "y2": 225.84405517578125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "A", "function", "that", "does", "not", "operate", "on", "stack", "00", "STRBVC", "R6,", "[PC,#-0xC63]!", "01", "STCLVS", "p3,", "c4,", "[PC,#-0x190]!", "02", "RSBPL", "R7,", "R7,", "#0x34000001", "03", "RSBVC", "R6,", "PC,", "#0x94000001", "04", "ANDEQ", "R0,", "R0,", "R4,RRX", "(c)", "A", "function", "that", "does", "not", "contain", "any", "program", "property", "00", "PUSH", "{R4-R6,LR}", "01", "MOV", "R4,", "R0", "02", "ADD", "R5,", "R0,", "R1", "03", "MOV", "R3,", "#0", "04", "BL", "__do_fixup_smp_on_up", "05", "POP", "{R4-R6,PC}", "(b)", "Tail", "call", "usrAppInit:", "05", "MOV", "R12,", "SP", "06", "PUSH", "{R11,R12,LR,PC}", "07", "……", "10", ";", "End", "of", "function", "usrAppInit", "usrRoot:", "00", "MOV", "R12,", "SP", "01", "PUSH", "{R4,R5,R11,R12,LR,PC}", "02", "……", "03", "LDMFD", "SP,", "{R4,R5,R11,SP,LR}", "04", "B", "usrAppInit", "04", ";", "End", "of", "function", "usrRoot", "(a)", "Function", "call", "to", "non-returning", "func-", "tion", "00", "LDR", "R12,", "=0x405894D0", "01", "LDR", "R12,", "[R12]", "02", "LDR", "R3,", "[R12,#0x78]", "03", "LDMDB", "R3!,", "{R0-R2}", "04", "PUSH", "{R0-R2}", "05", "LDMDB", "R3!,", "{R0-R2}", "06", "PUSH", "{R0-R2}", "07", "LDMDB", "R3,", "{R0-R3}", "08", "MOV", "R11,", "#0", "09", "MOV", "LR,", "PC", "10", "LDR", "PC,", "[R12,#0x74]", "11", "BL", "exit"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 548.16,
+    "y1": 87.84,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Figure4-1.png"
+}, {
+  "caption": "Table 4: Relationship between the functions identified by the tool T and TaiE",
+  "captionBoundary": {
+    "x1": 150.12399291992188,
+    "x2": 461.5667724609375,
+    "y1": 383.600341796875,
+    "y2": 389.2309875488281
+  },
+  "figType": "Table",
+  "imageText": ["IDA", "Pro", "0.999", "0.146", "0.991", "0.452", "-", "-", "-", "-", "Ghidra", "0.999", "0.660", "0.993", "0.808", "0.988", "0.742", "0.994", "0.569", "DeepDi", "1.000", "0.000", "-", "-", "-", "-", "-", "-", "D-ARM", "0.996", "0.722", "0.887", "0.515", "0.985", "0.494", "0.981", "0.367", "radare2", "0.997", "0.582", "0.972", "0.064", "0.978", "0.829", "0.992", "0.791", "DeepDi-ELISA", "1.000", "0.000", "-", "0.000", "-", "0.000", "-", "0.000", "D-ARM-ELISA", "0.997", "0.721", "0.889", "0.280", "0.994", "0.043", "0.948", "0.006", "|T", "|", "T∩TaiE", "|TaiE", "|", "T∩TaiE", "|T", "|", "T∩TaiE", "|TaiE", "|", "T∩TaiE", "|T", "|", "T∩TaiE", "|TaiE", "|", "T∩TaiE", "|T", "|", "T∩TaiE", "|TaiE", "|", "Tool", "DeviceFirm", "VxWorks", "UCSB", "Zephyr", "T∩TaiE"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 117.6,
+    "x2": 494.4,
+    "y1": 403.68,
+    "y2": 509.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Table4-1.png"
+}, {
+  "caption": "Figure 5: The F1 scores (Y-axis) on different datasets (X-axis) in ablation evaluations",
+  "captionBoundary": {
+    "x1": 137.20501708984375,
+    "x2": 474.78375244140625,
+    "y1": 681.3683471679688,
+    "y2": 688.343994140625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Eliminate", "Single", "Strategy", "Caller+Neighbor", "Callee+Neighbor", "Caller+Callee", "TaiE", "DeviceFirm", "VxWorks", "UCSB", "Zephyr", "1.00", "0.80", "0.60", "0.40", "0.20", "0.00", "(b)", "Eliminate", "All", "Strategies", "IDA-Stackops", "Ghidra-Stackops", "TaiE", "DeviceFirm", "VxWorks", "UCSB", "Zephyr", "1.00", "0.80", "0.60", "0.40", "0.20", "0.00", "(a)", "Eliminate", "Stack", "Operations", "TaiE-Prologue", "TaiE", "DeviceFirm", "VxWorks", "UCSB", "Zephyr", "1.00", "0.80", "0.60", "0.40", "0.20", "0.00"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 548.16,
+    "y1": 520.8,
+    "y2": 661.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Figure5-1.png"
+}, {
+  "caption": "Table 3: Precision (P), Recall (R) and F1 of function boundary identification",
+  "captionBoundary": {
+    "x1": 154.19598388671875,
+    "x2": 457.50244140625,
+    "y1": 239.14242553710938,
+    "y2": 246.1180419921875
+  },
+  "figType": "Table",
+  "imageText": ["TaiE", "0.994", "0.993", "0.994", "0.986", "0.877", "0.928", "0.978", "0.957", "0.968", "0.986", "0.971", "0.978", "IDA", "1.000", "0.145", "0.253", "0.979", "0.400", "0.568", "-", "-", "-", "-", "-", "-", "Ghidra", "0.998", "0.655", "0.791", "0.996", "0.713", "0.831", "0.993", "0.720", "0.834", "0.958", "0.556", "0.704", "DeepDi", "0.001", "0.000", "0.000", "-", "-", "-", "-", "-", "-", "-", "-", "-", "radare2", "0.356", "0.580", "0.441", "0.130", "0.058", "0.080", "0.543", "0.811", "0.651", "0.463", "0.774", "0.579", "D-ARM", "0.020", "0.720", "0.038", "0.022", "0.509", "0.042", "0.022", "0.480", "0.043", "0.030", "0.364", "0.055", "DeepDi-ELISA", "0.001", "0.000", "0.000", "0.000", "0.000", "-", "0.000", "0.000", "-", "0.000", "0.000", "-", "D-ARM-ELISA", "0.020", "0.718", "0.040", "0.022", "0.276", "0.040", "0.022", "0.042", "0.028", "0.022", "0.006", "0.009", "Tool", "DeviceFirm", "Vxworks", "UCSB", "Zephyr", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 522.24,
+    "y1": 259.68,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Table3-1.png"
+}, {
+  "caption": "Figure 2: Overview of TaiE",
+  "captionBoundary": {
+    "x1": 252.34500122070312,
+    "x2": 359.65399169921875,
+    "y1": 235.89633178710938,
+    "y2": 241.5269775390625
+  },
+  "figType": "Figure",
+  "imageText": ["Determination", "Function", "Boundaries", "Instruction", "Snippets", "Searching", "CFG", "Stack", "Related", "Instructions", "Boundary", "Searching", "For", "Exits", "Function", "Recursively", "Disassembly", "Callees", "Searching", "For", "Callees", "Snippets", "Model-Based", "FilteringInstruction", "Instruction", "SnippetsStack", "Recursively", "Disassembly", "Locating", "Target", "Stack", "Related", "Instructions"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 130.07999999999998,
+    "x2": 481.44,
+    "y1": 84.96,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644407-Figure2-1.png"
+}]

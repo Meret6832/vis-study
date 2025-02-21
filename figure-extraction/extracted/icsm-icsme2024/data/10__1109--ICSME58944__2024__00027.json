@@ -1,0 +1,281 @@
+[{
+  "caption": "TABLE I OPERATIONS SHOWN IN FIGURE 6",
+  "captionBoundary": {
+    "x1": 123.69547271728516,
+    "x2": 231.72784423828125,
+    "y1": 216.65721130371094,
+    "y2": 229.59912109375
+  },
+  "figType": "Table",
+  "imageText": ["1", "E.", "Create", "InstanceType", "Service", "2", "E.", "Create", "PropertyType", "inPort", "3", "P.", "Update", "Service", "propertyTypes", "ADD", "inPort", "4", "E.", "Create", "PropertyType", "outPort", "5", "P.", "Update", "Service", "propertyTypes", "ADD", "outPort", "6", "P.", "Update", "Service", "isReleased", "SET", "true", "7", "E.", "Create", "InstanceType", "Service", "2", "...", "10", "E.", "Create", "PropertyType", "ports", "...", "13", "P.", "Update", "Service", "2", "propertyTypes", "REM", "inPort", "14", "P.", "Update", "Service", "2", "propertyTypes", "REM", "outPort", "15", "P.", "Update", "Service", "2", "propertyTypes", "ADD", "ports", "16", "P.", "Update", "Service", "2", "isReleased", "SET", "true", "17", "E.", "Create", "Service", "Event-Logger", "18", "P.", "Create", "Event-Logger", "inPort", "19", "P.", "Create", "Event-Logger", "outPort", "...", "23", "P.", "Update", "Event-Logger", "inPort", "ADD", "Events", "24", "P.", "Update", "Event-Logger", "outPort", "ADD", "Logs", "25", "P.", "Create", "Event-Logger", "ports", "26", "P.", "Update", "Event-Logger", "ports", "ADD", "Logs", "27", "P.", "Update", "Event-Logger", "ports", "ADD", "Events", "28", "P.", "Delete", "Event-Logger", "inPort", "29", "P.", "Delete", "Event-Logger", "outPort", "30", "P.", "Update", "Event-Logger", "instanceOf", "SET", "Service", "2", "*E.", "=", "Element;", "P.", "=", "Property", "ID", "Operation*", "Element", "Name", "Kind", "Value"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 280.32,
+    "y1": 238.56,
+    "y2": 485.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableI-1.png"
+}, {
+  "caption": "Fig. 6. Operation chain of types (metamodels) and instances (models)",
+  "captionBoundary": {
+    "x1": 68.67916107177734,
+    "x2": 286.7456970214844,
+    "y1": 191.05259704589844,
+    "y2": 195.56646728515625
+  },
+  "figType": "Figure",
+  "imageText": ["use", "history", "to", "co-evolve", "5", "3", "Create", "Service", "Vers2.", "7", "6", "7", "1", "2", "4", "23", "24", "25", "26", "27", "28", "29", "30", "Create", "Event-", "Logger", "10", "...", "13", "14", "15", "16", "release", "Service", "Vers.", "2", "⛶", "Coupled", "Operation", "⚪", "Operation", "...", "release", "Service", "4", "5", "Create", "Service", "6", "17", "18", "19", "...", "1", "2", "3", "merge", "inPort", "and", "OutPort", "into", "ports", "Co-Evolve", "Event-", "Logger"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 296.15999999999997,
+    "y1": 72.0,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-Figure6-1.png"
+}, {
+  "caption": "TABLE II COUPLED OPERATIONS SHOWN IN FIGURE 6",
+  "captionBoundary": {
+    "x1": 362.39862060546875,
+    "x2": 503.529296875,
+    "y1": 74.03533172607422,
+    "y2": 86.97821044921875
+  },
+  "figType": "Table",
+  "imageText": ["7", "Co-evolve", "Event-Logger", "into", "Service", "Version", "2", "25", "-", "30", "6", "Create", "Event-Logger", "17", "-", "19", "5", "Release", "Service", "Version", "2", "16", "4", "Service", "2:", "merge", "inPort", "and", "outPort", "into", "ports", "10", "-", "15", "3", "Create", "Service", "Version", "2", "7", "-", "...", "2", "Release", "Service", "6", "1", "Create", "Service", "1", "-", "5", "ID", "Label", "Operations"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 96.47999999999999,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableII-1.png"
+}, {
+  "caption": "TABLE III COMPLEXITY AND DOMAINS OF THE METAMODELS USED IN RQ1",
+  "captionBoundary": {
+    "x1": 326.74810791015625,
+    "x2": 535.8064575195312,
+    "y1": 73.59600067138672,
+    "y2": 86.53790283203125
+  },
+  "figType": "Table",
+  "imageText": ["IT.", "=", "Instance", "Types;", "PT.", "=", "Property", "Types", "Attributes", "contain", "primitive", "values;", "References", "contain", "other", "instances", "*", "Both", "of", "these", "metamodels", "were", "also", "used", "to", "evaluate", "RQ2", "and", "RQ3", "CAEX", "[40]", "Factory", "34", "93", "38", "55", "Textbt", "[41]", "Psychology", "30", "40", "23", "17", "SimQRi", "[42]", "Risk", "Assement", "32", "60", "40", "20", "Dbl", "[43]", "SDL", "165", "148", "24", "124", "EMF-UML", "[44]", "Modeling", "309", "821", "276", "545", "Activity", "Diagram*", "[45]", "Modeling", "17", "18", "3", "15", "FHIR*", "[46]", "Medical", "229", "1318", "457", "861", "Metamodels", "Domain", "#IT", "#PT", "#Attributes", "#References"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 551.04,
+    "y1": 97.44,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableIII-1.png"
+}, {
+  "caption": "TABLE IV OPERATIONS CREATED BY PROPERTYTYPE REFACTORINGS (RQ1)",
+  "captionBoundary": {
+    "x1": 325.6840515136719,
+    "x2": 536.87060546875,
+    "y1": 207.39085388183594,
+    "y2": 220.333740234375
+  },
+  "figType": "Table",
+  "imageText": ["The", "time", "shows", "the", "worst", "case", "to", "process", "a", "refactoring", "E.", "=", "Element;", "P.", "=", "Property", "All", "numbers", "reflect", "the", "minimum,", "average", "and", "maximum", "values", "Merge", "0", "0", "0", "2", "4", "0.06", "Split", "0", "0", "0", "4", "2", "0.06", "Move", "0", "0", "0", "2", "2", "0.07", "Create", "1", "17", "8", "2", "0", "0.87", "Remove", "0", "0", "0", "0", "2", "0.16", "Rename", "0", "0", "1", "0", "0", "0.09", "Change", "Cardinality", "0", "0", "1", "0", "0", "0.03", "Change", "Type", "0", "0", "1", "0", "0", "0.65", "Change", "E.Create", "P.Create", "Update", "Add", "Remove", "time[ms]"],
+  "name": "IV",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 548.16,
+    "y1": 230.88,
+    "y2": 329.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableIV-1.png"
+}, {
+  "caption": "TABLE VIII SUMMARY OF RELATED WORK",
+  "captionBoundary": {
+    "x1": 260.6663513183594,
+    "x2": 357.2792663574219,
+    "y1": 73.92406463623047,
+    "y2": 86.866943359375
+  },
+  "figType": "Table",
+  "imageText": ["Not", "covered;", "Partially", "covered;", "Fully", "covered.", ";*", "reconstructs", "Coupled", "Operations;", "**", "records", "only", "the", "co-evolution", "Our", "approach", "Operation-based", "Custom", "Git", "VCS", "[25]", "State-based", "Textual", "Eclipse", "Edapt", "[26]", "Operation-based", "EMF", "EMF-Store", "[33]", "Operation-based", "EMF", "Khelladi", "et", "al.", "[28]", "Operation-based*", "EMF", "Vermollen", "et", "al.", "[29]", "Operation-based*", "EMF", "Kehrer", "et", "al.", "[52]", "Operation-based", "EMF", "Refactoring", "Catalog", "[8]", "Operation-based", "Custom", "In-Between", "Versions", "[11]", "State-based", "EMF", "Concurrent", "Versions", "[53]", "State-based", "EMF", "COPE**", "[34]", "Operation-based", "EMF", "Getir", "et", "al.**", "[54]", "Operation-based", "Custom", "Herac", "et", "al.", "[35]", "Operation-based", "Custom", "Mantz", "et", "al.", "[17]", "State-based", "Graph", "Demuth", "et", "al.", "[18]", "Operation-based", "EMF", "Approach", "Metamodel", "Changes", "Model", "Changes", "Co-evolution", "Co-existence", "Versioning", "Type", "Representation"],
+  "name": "VIII",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 520.3199999999999,
+    "y1": 96.47999999999999,
+    "y2": 253.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableVIII-1.png"
+}, {
+  "caption": "Fig. 1. Motivating Example of a Metamodel describing a Service Architecture",
+  "captionBoundary": {
+    "x1": 186.46714782714844,
+    "x2": 430.5006103515625,
+    "y1": 332.82830810546875,
+    "y2": 337.3421630859375
+  },
+  "figType": "Figure",
+  "imageText": ["----", "Incorrect", "Model", "──", "Correct", "Model", "co-evolution", "co-evolution", "co-evolution", "change", "type", "to", "Port", "1", "merge", "inPort", "and", "outPort", "into", "ports", "Actual", "Changes", "3", "change", "type", "of", "ports", "from", "InPort", "to", "Port", "2", "rename", "inPort", "to", "ports", "1", "delete", "Property", "outPort", "Change", "Reconstruction", "3", "add", "Property", "ports", "2", "delete", "Property", "outPort", "1", "delete", "Property", "inPort", "Change", "Reconstruction", "el", "M", "od", "①", "ports", "③", "Events:InPort", "Logs:OutPort", "Event-Logger:Service", "②", "Events:InPort", "ports", "Event-Logger:Service", "outPort", "Logs:OutPort", "inPort", "Events:InPort", "Event", "-Logger:Service", "to", "ry", "H", "is", "od", "el", "et", "am", "③", "M", "n", "ct", "io", "is", "to", "ry", "R", "ec", "on", "st", "ru", "H", "od", "el", "et", "am", "②", "M", "n", "ct", "io", "is", "to", "ry", "R", "ec", "on", "st", "ru", "H", "od", "el", "et", "am", "①", "M", "ports", "Event-Logger:Service", "[*]", "ports", "InPort", "OutPort", "Port", "port:Int", "Service", "id:String", "InPort", "OutPort", "[*]", "outPort", "[*]", "inPort", "el", "evolution", "Service", "id:String", "Port", "port:Int", "am", "od", "M", "et", "Version", "1", "Version", "2"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 514.0799999999999,
+    "y1": 72.0,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-Figure1-1.png"
+}, {
+  "caption": "TABLE VI CREATED OPERATIONS DURING A MODEL CO-EVOLUTION (RQ2)",
+  "captionBoundary": {
+    "x1": 328.9955139160156,
+    "x2": 535.8590698242188,
+    "y1": 233.6543426513672,
+    "y2": 246.59625244140625
+  },
+  "figType": "Table",
+  "imageText": ["E.", "=", "Element;", "*", "Min,", "Average", "and", "Max", "number", "of", "operations", "PlantUML", "-", "hybrid", "282.24", "1,173", "241.48", "0", "0", "FHIR", "DSTU2", "-", "STU3", "8,281.11", "294,136", "20,661.03", "0", "0", "FHIR", "DSTU2", "-", "synthetic", "12,950.27", "480,145", "29,811.16", "0", "0", "Co-Evolution", "Avg.", "Max", "StD.", "E.Create*", "E.Delete*"],
+  "name": "VI",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 548.16,
+    "y1": 257.28,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableVI-1.png"
+}, {
+  "caption": "TABLE V SIZE OF THE MODELS USED FOR RQS 2-3",
+  "captionBoundary": {
+    "x1": 365.9713439941406,
+    "x2": 498.88372802734375,
+    "y1": 73.59587860107422,
+    "y2": 86.53778076171875
+  },
+  "figType": "Table",
+  "imageText": ["FHIR", "(1180", "Models)", "Instances", "2,588", "1,548", "181", "88,966", "5,691", "Properties", "62,111", "37,152", "4,344", "2,135,184", "136,585", "Primitive", "Properties", "43,995", "26,316", "3,077", "1,512,422", "96,748", "Reference", "Properties", "18,115", "10,836", "1,267", "622,762", "39,837", "Elements", "in", "Reference*", "41,929", "24,434", "2,715", "1,423,456", "91,743", "*", "The", "number", "of", "elements", "a", "model", "contained", "over", "all", "its", "reference", "properties", "Plant", "UML", "(250", "Models)", "Instances", "31.09", "19", "6", "138", "26.28", "Properties", "155.44", "95", "30", "690", "131.4", "Primitive", "Properties", "124.35", "76", "24", "552", "105.12", "Reference", "Properties", "31.09", "19", "6", "138", "26.28", "Elements", "in", "Reference*", "31.08", "19", "6", "138", "26.33", "Avg.", "Median", "Min", "Max", "StD."],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 548.16,
+    "y1": 97.44,
+    "y2": 216.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableV-1.png"
+}, {
+  "caption": "Fig. 2. Meta-metamodel for versioned metamodels",
+  "captionBoundary": {
+    "x1": 99.19886016845703,
+    "x2": 257.5625,
+    "y1": 166.57737731933594,
+    "y2": 171.09124755859375
+  },
+  "figType": "Figure",
+  "imageText": ["[1]", "initialVersion", "La", "ye", "r", "M", "od", "el", "-", "La", "ye", "r", "el", "-", "am", "od", "M", "et", "[1]", "initialVersion", "[*]", "nextVersions[*]", "previousVersion", "[1]", "referenceType", "[*]", "nextVersions[*]", "previousVersion", "name:", "string", "[1-*]", "propertyOf", "[1]", "propertyOf[*]", "instances", "[1]", "propertyType", "[*]", "propertyTypes[1]", "instanceOf", "[*]", "properties", "[*]", "subtypes[*]", "supertypes", "Instance", "cardinality:", "[Single,List,Set,Map]", "isReleased:bool", "PropertyType", "name:string", "isReleased:bool", "deprecated:bool", "InstanceType", "name:string", "Property", "name:", "string", "value:", "object"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. Service metamodel and model created with our meta-metamodel",
+  "captionBoundary": {
+    "x1": 319.97564697265625,
+    "x2": 544.2828369140625,
+    "y1": 185.64231872558594,
+    "y2": 190.15618896484375
+  },
+  "figType": "Figure",
+  "imageText": ["propertyType", "referencedType", "InstanceType", "subtype", "OutPort", "superType", "InsanceType", "subtype", "InPort:", "ay", "ervalue", "el", "L", "M", "od", "ay", "er", "el", "L", "am", "od", "M", "et", "propertyType", "Events:Instance", "propertiespropertyOf", "value", "inPort:Property", "outPort:Property", "instances", "instanceOf", "Logs:Instance", "instanceOf", "instances", "EventLogger:Instance", "instances", "instanceOf", "Port:", "InstanceType", "referencedType", "OutPort:", "PropertyType", "cardinaltiy", "=", "SET", "cardinaltiy", "=", "SET", "propertyTypespropertyOfService:", "InstanceType", "InPort:", "PropertyType"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 72.96,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-Figure3-1.png"
+}, {
+  "caption": "TABLE VII RUNTIME (S) FOR THE CO-EVOLUTION OF AN IMPORTED MODEL (RQ3)",
+  "captionBoundary": {
+    "x1": 64.6812973022461,
+    "x2": 291.5932312011719,
+    "y1": 73.63195037841797,
+    "y2": 86.5748291015625
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "Median", "Min", "Max", "StD.", "PlantUML", "-", "hybrid", "1.81", "0.99", "0.02", "13.41", "2.36", "FHIR", "DSTU2", "-", "STU3", "6.36", "2.56", "0.14", "552.00", "23.31", "FHIR", "DSTU2", "-", "synthetic", "9.47", "3.61", "0.18", "887.91", "36.75"],
+  "name": "VII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 295.2,
+    "y1": 97.44,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-TableVII-1.png"
+}, {
+  "caption": "Fig. 4. Two co-existing metamodel versions",
+  "captionBoundary": {
+    "x1": 109.33430480957031,
+    "x2": 246.94537353515625,
+    "y1": 217.8457489013672,
+    "y2": 222.359619140625
+  },
+  "figType": "Figure",
+  "imageText": ["previousVersion", "nextVersion", "previousVersion", "referenceType", "Version", "2", "Version", "1", "isLocked", "=", "true", "Service(Version", "2):", "InstanceType", "referenceType", "cardinality", "=", "SET", "isLocked", "=", "true", "inPort(Version1):", "PropertyType", "isLocked", "=", "true", "OutPort(Version1):", "InstanceType", "isLocked", "=", "true", "InPort(Version1):", "InstanceType", "nextVersion", "previousVersion", "initialVersion", "propertyTypes", "referenceType", "superType", "isLocked", "=", "true", "cardinality", "=", "SET", "initialVersion", "capacity", "=", "2", "propertyTypes", "ports(Version2):", "PropertyType", "isLocked", "=", "true", "Port(Version1):", "InstanceType", "cardinality", "=", "SET", "isLocked", "=", "true", "outPort(Version1)", ":PropertyType", "isLocked", "=", "true", "Service(Version", "1):", "InstanceType"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. List of supported Operations",
+  "captionBoundary": {
+    "x1": 375.6204528808594,
+    "x2": 489.16009521484375,
+    "y1": 150.36253356933594,
+    "y2": 154.87640380859375
+  },
+  "figType": "Figure",
+  "imageText": ["ChangeType", "Rename", "Operation", "Remove", "Add", "Update", "PropertyDelete", "PropertyUpdate", "PropertyCreate", "ElementUpdate", "ElementDelete", "ElementCreate"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 550.0799999999999,
+    "y1": 72.96,
+    "y2": 136.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00027-Figure5-1.png"
+}]

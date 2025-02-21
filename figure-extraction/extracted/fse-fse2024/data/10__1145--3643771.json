@@ -1,0 +1,301 @@
+[{
+  "caption": "Fig. 2. Example of a file-level multidisciplinary dependency graph, with green nodes representing data nodes, pink nodes representing code nodes, and orange nodes representing boundary nodes. Extracting a multidisciplinary dependency graph of this scale requires extensive knowledge of Project X.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1732177734375,
+    "y1": 626.1640014648438,
+    "y2": 652.3140869140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 382.08,
+    "y1": 333.59999999999997,
+    "y2": 611.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Figure2-1.png"
+}, {
+  "caption": "Table 3. RavenBuild Features",
+  "captionBoundary": {
+    "x1": 188.63710021972656,
+    "x2": 297.12139892578125,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["'1", "Committer", "Changed", "The", "pair", "of", "builds", "are", "submitted", "by", "diﬀerent", "developers.", "'2", "Type", "Changed", "The", "pair", "of", "builds", "have", "diﬀerent", "change", "types", "(i.e.,", ")7).", "'3", "Action", "Changed", "The", "pair", "of", "builds", "have", "diﬀerent", "actions.", "'4", "Is", "Same", "Intention", "The", "pair", "of", "builds", "are", "of", "the", "same", "intention", "(i.e.,", ")1", "−)5)", "'5", "Path", "Relevance", "The", "similarity", "between", "the", "modiﬁed", "directories", "of", "the", "pair", "of", "builds", ")1", "Is", "Corrective", "If", "the", "commit", "message", "has", "‘ﬁx’,", "‘bug’,", "‘wrong’,", "‘fail’,", "and", "‘problem’", ")2", "Is", "Additive", "If", "the", "commit", "message", "has", "‘new’,", "‘add’,", "‘requirement’,", "‘initial’,", "and", "‘create’", ")3", "Is", "Non-Functional", "If", "the", "commit", "message", "has", "‘doc’", "and", "‘merge’", ")4", "Is", "Perfective", "If", "the", "commit", "message", "has", "‘clean’", "and", "‘better’", ")5", "Is", "Preventive", "If", "the", "commit", "message", "has", "‘test’,", "‘junit’,", "‘coverage’,", "and", "‘assert’", ")6", "Built-Before", "If", "any", "of", "the", "commits", "in", "the", "current", "build", "have", "been", "built", "before", "(preﬂight)", ")7", "Change", "Type", "The", "modiﬁed", "ﬁles", "are", "source", "ﬁles", "only,", "data", "ﬁles", "only,", "or", "a", "mix", "of", "both.", "ID", "Name", "Description"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 79.2,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table3-1.png"
+}, {
+  "caption": "Table 7. The ablated performance of RavenBuild with various families of features disabled.",
+  "captionBoundary": {
+    "x1": 75.60699462890625,
+    "x2": 410.1517028808594,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Gain", "164.2", "136", "156.7", "238.3", "217.1", "232.2", "240.1", "Beneﬁt", "350.8", "334.2", "356.9", "297.1", "294.4", "289.7", "280.4", "Cost", "186.6", "198.3", "200.2", "58.8", "77.3", "56.7", "40.3", "AUC", ".744", ".728", ".738", ".818", ".823", ".797", ".877", "Recall-pass", ".741", ".743", ".736", ".990", ".986", ".986", ".972", "Precision-fail", ".467", ".462", ".489", ".806", ".692", ".756", ".672", "Precision-pass", ".839", ".839", ".842", ".948", ".939", ".95", ".963", "F1-pass", ".775", ".774", ".771", ".968", ".962", ".968", ".967", "Recall-fail", ".598", ".583", ".612", ".430", ".333", ".459", ".607", "F1-fail", ".489", ".481", ".502", ".560", ".45", ".571", ".638", "RavenBuild-C", "RavenBuild-R", "RavenBuild-CR", "RavenBuild-C", "RavenBuild-R", "RavenBuild-D", "RavenBuild", "Open-Source", "Project", "X"],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table7-1.png"
+}, {
+  "caption": "Fig. 3. Example of a video game dependency graph, with the boundary node lie between code and data nodes.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17303466796875,
+    "y1": 189.93283081054688,
+    "y2": 194.16497802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Code", "Boundary", "Impacted", "Changed", "Code", "Code", "Data", "Boundary", "Data", "Data", "Code"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 361.44,
+    "y1": 84.47999999999999,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Figure3-1.png"
+}, {
+  "caption": "Table 6. Performances of BuildFast and RavenBuild-CR on Open-Source projects and Project X.",
+  "captionBoundary": {
+    "x1": 66.68589782714844,
+    "x2": 419.07379150390625,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Beneﬁt", "331.8", "356.9", "+25.1", "301.3", "300.8", "-.5", "Cost", "207.0", "200.2", "+6.8", "83.5", "61.1", "+22.4", "Gain", "124.8", "156.7", "+31.9", "217.8", "239.7", "+21.9", "AUC", ".723", ".738", "+.015", ".791", ".861", "+.070", "F1-fail", ".478", ".502", "+.024", ".426", ".555", "+.129", "F1-pass", ".756", ".771", "+.015", ".963", ".968", "+.005", "Recall-fail", ".583", ".612", "+.029", ".296", ".430", "+.134", "Recall-pass", ".732", ".736", "+.004", ".991", ".989", "-.002", "Precision-fail", ".457", ".489", "+.032", ".755", ".784", "+.029", "Precision-pass", ".805", ".842", "+.037", ".936", ".948", "+.012", "BuildFast", "RavenBuild-CR", "Improvement", "BuildFast", "RavenBuild-CR", "Improvement", "Open-Source", "Project", "X"],
+  "name": "6",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table6-1.png"
+}, {
+  "caption": "Table 9. The number of builds that have the same outcome as their immediate predecessor in the passing and failing class, the total number of builds in the passing and failing class, and the percentage of the builds that have the same build outcome as their immediate predecessor in all builds in the passing and failing class.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1692199707031,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["a", "Builds", "that", "have", "same", "outcomes", "as", "their", "immediate", "predecessor.", "Samea", "6,302", "2,229", "8,531", "3,587", "744", "4,031", "Total", "7,662", "3,590", "11,252", "3,898", "743", "4,640", "%", "82%", "62%", "76%", "92%", "59%", "82%", "Passing", "Failing", "All", "Passing", "Failing", "All", "Open-Source", "Project", "X"],
+  "name": "9",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 382.08,
+    "y1": 128.64,
+    "y2": 215.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table9-1.png"
+}, {
+  "caption": "Fig. 4. Builds triggered on the same commit ID are merged into one data point.",
+  "captionBoundary": {
+    "x1": 96.60590362548828,
+    "x2": 389.3948059082031,
+    "y1": 328.65185546875,
+    "y2": 332.8840026855469
+  },
+  "figType": "Figure",
+  "imageText": ["Data", "#3", "Fail", "Data", "#2", "Fail", "Data", "#1", "Pass", "Dataset", "Build", "#4", "Fail", "Build", "#3", "Fail", "Build", "#2", "Pass", "GitHub", "Circle", "CI", "Build", "#5", "Fail", "Build", "#1", "Pass", "Commit", "#3", "Commit", "#2", "Commit", "#1"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 144.48,
+    "x2": 341.28,
+    "y1": 212.64,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Figure4-1.png"
+}, {
+  "caption": "Table 1. Build failure rates and the number of impacted nodes of data and code changes. Data builds also incur build failures. Cross-boundary changes are more prone to build failures than other code changes.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.175537109375,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["a", "Impacted", "nodes", "counts", "exclude", "the", "directly", "changed", "nodes.", "Code", "630", "46%", "Yes", "278", "51%", "212,104", "120,368", "No", "352", "41%", "49", "0a", "Data", "4,010", "11%", "N/A", "N/A", "N/A", "452", "2", "Total", "Fail", "Cross", "Boundary", "Total", "Fail", "Mean", "Impact", "Median", "Impact"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 421.44,
+    "y1": 117.6,
+    "y2": 192.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table1-1.png"
+}, {
+  "caption": "Fig. 6. RavenBuild (Project X), RavenBuild-CR, and BuildFast cannot consistently outperform the parrot approach.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1730041503906,
+    "y1": 297.2438659667969,
+    "y2": 312.4339904785156
+  },
+  "figType": "Figure",
+  "imageText": ["OSS", "X", "Recall", "Pass", "t", "Pa", "rro", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "RavenBuild", "Recall", "Fail", "t", "Pa", "rro", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "RavenBuild", "Precision", "Pass", "t", "Pa", "rro", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "RavenBuild", "Precision", "Fail", "t", "Pa", "rro", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "RavenBuild", "Recall", "Pass", "t", "Pa", "rro", "BuildFast", "Recall", "Fail", "t", "Pa", "rro", "BuildFast", "Precision", "Pass", "t", "Pa", "rro", "BuildFast", "Precision", "Fail", "t", "Pa", "rro", "1.0", "0.8", "0.6", "0.4", "0.2", "BuildFast", "0.0"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 50.4,
+    "x2": 433.91999999999996,
+    "y1": 89.28,
+    "y2": 275.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Figure6-1.png"
+}, {
+  "caption": "Table 4. Performances of BuildFast, RavenBuild, and the improvements on Project X",
+  "captionBoundary": {
+    "x1": 87.35700225830078,
+    "x2": 398.4007568359375,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Beneﬁt", "301.3", "280.4", "-20.9", "Cost", "83.5", "40.3", "+43.2", "Gain", "217.8", "240.1", "+22.3", "F1-fail", ".426", ".638", "+.212", "F1-pass", ".963", ".967", "+.004", "Recall-fail", ".296", ".607", "+.311", "Recall-pass", ".991", ".972", "-.019", "Precision-fail", ".755", ".672", "-.083", "Precision-pass", ".936", ".963", "+.027", "AUC", ".791", ".877", "+.086", "BuildFast", "RavenBuild", "Improvement"],
+  "name": "4",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 125.75999999999999,
+    "x2": 360.0,
+    "y1": 106.56,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table4-1.png"
+}, {
+  "caption": "Table 5. Open-Source projects and Project X Statistics",
+  "captionBoundary": {
+    "x1": 142.96200561523438,
+    "x2": 342.79583740234375,
+    "y1": 273.03985595703125,
+    "y2": 277.2720031738281
+  },
+  "figType": "Table",
+  "imageText": ["ain", "minutes.", "bopennms-provisioning-integration-server.", "1", "atlasdb", "37", "2,135", "1,021", "12", "interlok", "7", "120", "29", "2", "auth0-java", "2.3", "328", "29", "13", "java-jwt", "3", "274", "55", "3", "cassandra", "117", "313", "180", "14", "micrometer", "18", "322", "76", "4", "cbioportal", "29", "58", "217", "15", "opennms", "b", "1", "244", "37", "5", "client_java", "4", "87", "18", "16", "react-native-share", "12", "24", "41", "6", "conjure-java-runtime", "7", "354", "83", "17", "rskj", "18", "844", "198", "7", "docker-compose-rule", "4", "105", "131", "18", "spring-cloud-aws", "5", "419", "265", "8", "fresco", "11", "79", "559", "19", "spring-cloud-security", "2", "113", "366", "9", "gradle-baseline", "8", "378", "111", "20", "Strata", "16", "136", "27", "10", "gradle-git-version", "6", "96", "37", "21", "styx", "9", "109", "81", "11", "grakn", "20", "106", "13", "22", "testcontainers-java", "2", "1018", "16", "X", "Project", "X", "21", "3,898", "743", "ID", "Project", "Durationa", "Pass", "Fail", "ID", "Project", "Name", "Durationa", "Pass", "Fail"],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 291.84,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table5-1.png"
+}, {
+  "caption": "Table 2. Build outcome features adopted by BuildFast.",
+  "captionBoundary": {
+    "x1": 142.1960906982422,
+    "x2": 343.562744140625,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["4.1", "Approach", "1", "fail_ratio_pr", "2", "fail_ratio_pr_inc", "3", "fail_ratio_re", "4", "fail_ratio_com_pr", "5", "fail_ratio_com_re", "6", "last_fail_gap", "7", "consec_fail_max", "8", "consec_fail_avg", "9", "consec_fail_sum", "10", "commits_on_ﬁles", "11", "ﬁle_fail_prob_max", "12", "ﬁle_fail_prob_avg", "13", "ﬁle_fail_prob_sum", "14", "pr_src_ﬁles", "15", "pr_src_ﬁles_in", "16", "pr_test_ﬁles", "17", "pr_test_ﬁles_in", "18", "pr_conﬁg_ﬁles", "19", "pr_conﬁg_ﬁles_in", "20", "pr_doc_ﬁles", "21", "pr_doc_ﬁles_in", "22", "log_src_ﬁles", "23", "log_src_ﬁles_in", "24", "log_test_ﬁles", "25", "log_test_ﬁles_in", "26", "team_size", "Historical", "Builds", "Previous", "Build", "%1", "pr_state", "%2", "pr_compile_error", "%3", "pr_test_exception", "%4", "pr_tests_ok", "%5", "pr_tests_fail", "%6", "pr_duration", "%7", "pr_src_churn", "%8", "pr_test_churn", "1", "src_churn", "2", "test_churn", "3", "src_ast_diﬀ", "4", "test_ast_diﬀ", "5", "line_added", "6", "line_deleted", "7", "ﬁles_added", "8", "ﬁles_deleted", "9", "ﬁles_modiﬁed", "10", "src_ﬁles", "11", "test_ﬁles", "12", "conﬁg_ﬁles", "13", "doc_ﬁles", "14", "class_changed", "15", "met_sig_modiﬁed", "16", "met_body_modiﬁed", "17", "met_changed", "18", "ﬁeld_changed", "19", "import_changed", "20", "class_modiﬁed", "21", "class_added", "22", "class_deleted", "23", "met_added", "24", "met_deleted", "25", "ﬁeld_modiﬁed", "26", "ﬁeld_added", "27", "ﬁeld_deleted", "28", "import_added", "29", "import_deleted", "30", "commits", "31", "ﬁx_commits", "32", "merger_commits", "33", "committers", "34", "by_core_member", "35", "is_master", "36", "time_interval", "37", "day_of_week", "38", "time_of_day", "Current", "Build", "BuildFast", "Features"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 435.35999999999996,
+    "y1": 106.56,
+    "y2": 475.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Characteristics of Project X build system.",
+  "captionBoundary": {
+    "x1": 153.91000366210938,
+    "x2": 332.08990478515625,
+    "y1": 352.47186279296875,
+    "y2": 356.7040100097656
+  },
+  "figType": "Figure",
+  "imageText": ["=", "Code", "Change", "#5", "+", "Data", "Change", "#4", "Boundary", "Node", "Dependency", "Graph", "Import", "...", "Import", "...", "Dependency", "Parser", "Data", "Graph", "Code", "Graph", "Pass", "Result", "Step", "Pass", "Fail", "Pass", "...", "Pass", "1", "2", "2", "...", "N", "Build", "#5", "Build", "System", "General", "Change", "Data", "...", "Data", "Changes", "Data", "Change", "#4", "Data", "Change", "#3", "Data", "Change", "#1", "...", "Code", "Changes", "Code", "Change", "#5", "Code", "Change", "#2", "Code", "Change", "#0"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 90.24,
+    "x2": 400.32,
+    "y1": 90.24,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Figure1-1.png"
+}, {
+  "caption": "Table 8. The performance of Parrot, BuildFast, and RavenBuild. Values in boldface fonts indicate the best performance among the three.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1764831542969,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Beneﬁt", "336.3", "331.8", "356.9", "292.7", "301.3", "280.4", "Cost", "158.3", "207.0", "200.2", "39.1", "83.5", "40.3", "Gain", "178", "124.8", "156.7", "253.6", "217.8", "240.1", "AUC", ".610", ".723", ".738", ".810", ".791", ".877", "F1-fail", ".421", ".478", ".502", ".657", ".426", ".638", "F1-pass", ".797", ".756", ".771", ".967", ".963", ".967", "Recall-fail", ".422", ".583", ".612", ".652", ".296", ".607", "Recall-pass", ".797", ".732", ".736", ".968", ".991", ".972", "Precision-fail", ".420", ".457", ".489", ".662", ".755", ".672", "Precision-pass", ".798", ".805", ".842", ".967", ".936", ".963", "Parrot", "BuildFast", "RavenBuild-CR", "Parrot", "BuildFast", "RavenBuild", "Open-Source", "Project", "X"],
+  "name": "8",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 425.28,
+    "y1": 117.6,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Table8-1.png"
+}, {
+  "caption": "Fig. 5. The parrot approach repeats the previous build outcome as its prediction, achieving accuracy, precision, and recall of .60.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.1579895019531,
+    "y1": 405.5008544921875,
+    "y2": 420.6919860839844
+  },
+  "figType": "Figure",
+  "imageText": ["Pass", "Fail", "Build", "#10", "Fail", "Pass", "Pass", "Fail", "Fail", "Fail", "Pass", "PassPass", "Fail", "Pass", "Pass", "Fail", "Fail", "Fail", "Pass", "Pass", "Fail", "N/A", "Build", "Outcome", "Parrot", "Prediction", "Pass", "Build", "#1", "Build", "#0", "Build", "#2", "Build", "#3", "Build", "#4", "Build", "#5", "Build", "#6", "Build", "#7", "Build", "#8", "Build", "#9"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 378.24,
+    "y1": 296.64,
+    "y2": 388.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643771-Figure5-1.png"
+}]

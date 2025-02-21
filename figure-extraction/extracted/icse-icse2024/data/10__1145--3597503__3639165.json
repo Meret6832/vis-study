@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 1: Large software systems of evaluation",
+  "captionBoundary": {
+    "x1": 346.02099609375,
+    "x2": 529.8328857421875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["TOE", "LoC", "#Functions", "#Rare", "Functions", "Linux", "v5.19", "31,317,255", "456,086", "241,366", "FreeBSD", "v13.1", "8,399,769", "194,913", "116,843", "OpenSSL", "v3.1.1", "1,048,122", "14,206", "9,836", "FFmpeg", "v6.0", "1,600,078", "17,417", "14,168", "QEMU", "v8.1.0", "22,479,680", "86,980", "75,443"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Table1-1.png"
+}, {
+  "caption": "Figure 1: Basic idea of two kinds of analogical reasoning.",
+  "captionBoundary": {
+    "x1": 59.12998962402344,
+    "x2": 288.7043762207031,
+    "y1": 312.15789794921875,
+    "y2": 314.2380065917969
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Analogical", "reasoning", "for", "function-context", "pairs", "in", "Raisin", "Embedding", "𝑣", "−", "𝒗𝑪𝒌𝒎𝒂𝒍𝒍𝒐𝒄", "≈", "𝑣", "−", "𝒗𝑪𝒇", "𝒗𝑪𝒇", "Function-Context", "Pairs", "𝑪𝒇", "𝑓", "𝑪𝒌𝒎𝒂𝒍𝒍𝒐𝒄", "𝑘𝑚𝑎𝑙𝑙𝑜𝑐", "a", "=", "kmalloc();", "memset(a,...);", "...", "kvfree(a);", "Rare", "Sensitive", "Functions", "𝑣", "…", "f()", "…", "𝑣", "Reasoningb", "=", "f();", "g(b);", "...", "h(b);", "𝒗𝑪𝒌𝒎𝒂𝒍𝒍𝒐𝒄", "Analogical", "(a)", "Analogical", "reasoning", "for", "function-function", "pairs", "in", "SinkFinder", "Embedding", "𝑣", "−", "𝑣", "≈", "𝑣", "−", "𝑣", "Sensitive", "Pairs", "…", "f()/g()", "…", "𝑣", "𝑣", "𝑣", "𝑣", "𝑣", "𝑣", "Frequent", "Function", "Pairs", "c", "=", "f’();", "…", "g’(c);", "b", "=", "f();", "…", "g(b);", "a", "=", "kmalloc();", "…", "kfree(a);", "Reasoning", "Analogical"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.88,
+    "y1": 94.08,
+    "y2": 293.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Figure1-1.png"
+}, {
+  "caption": "Table 3: Ablation study on Linux. The symbols √ and × indicate whether a technique, i.e., filtering (Fil.), weighted subword embedding (WSE) or context expansion (Exp.), is en-",
+  "captionBoundary": {
+    "x1": 317.6051330566406,
+    "x2": 559.8054809570312,
+    "y1": 215.59890747070312,
+    "y2": 239.59698486328125
+  },
+  "figType": "Table",
+  "imageText": ["√", "×", "×", "71.0%", "80.5%", "75.8%", "9.9%", "6.0%", "8.0%", "11.1%", "6", "√", "×", "√", "82.2%", "92.5%", "87.4%", "25.6%", "16.4%", "21.0%", "33.9%", "7", "√", "√", "×", "75.4%", "85.9%", "80.7%", "71.6%", "76.7%", "74.2%", "77.3%", "8", "√", "√", "√", "80.5%", "90.7%", "85.6%", "90.4%", "94.5%", "92.5%", "88.9%", "32.9%", "12.5%", "22.7%", "90.4%", "94.5%", "92.5%", "36.6%", "5", "15.1%", "13.0%", "14.1%", "25.6%", "16.4%", "21.0%", "14.9%", "3", "×", "√", "×", "24.6%", "13.5%", "19.1%", "71.6%", "76.7%", "74.2%", "30.4%", "4", "×", "√", "√", "1", "×", "×", "×", "11.8%", "13.4%", "12.6%", "9.9%", "6.0%", "8.0%", "9.8%", "2", "×", "×", "√", "Alloc", "Dealloc", "Avg.", "Alloc", "Dealloc", "Avg.", "F1", "Precision", "Recall", "ID", "Fil.", "WSE", "Exp.", "abled."],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 557.28,
+    "y1": 244.32,
+    "y2": 348.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Table3-1.png"
+}, {
+  "caption": "Table 2: Identification result. ‘#RSF’ for number of rare sensitive functions and ‘P’ for precision.",
+  "captionBoundary": {
+    "x1": 111.958984375,
+    "x2": 499.729248046875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Alloc", "kmalloc", "3,223", "83%", "malloc", "2,342", "78%", "OPENSSL_malloc", "244", "92%", "av_malloc", "127", "94%", "g_malloc", "1,204", "82%", "Dealloc", "kfree", "4,990", "92%", "free", "1,759", "91%", "OPENSSL_free", "228", "97%", "av_free", "73", "96%", "g_free", "352", "92%", "Lock", "mutex_lock", "763", "65%", "pthread_", "mutex_lock", "603", "76%", "CRYPTO_THREAD", "_lock_new", "11", "91%", "pthread_", "mutex_lock", "2", "100%", "qemu_mutex", "_lock", "38", "90%", "Unlock", "mutex_", "unlock", "338", "90%", "pthread_", "mutex_unlock", "239", "93%", "CRYPTO_THREAD", "_lock_free", "6", "100%", "pthread_", "mutex_unlock", "2", "100%", "qemu_mutex", "_unlock", "23", "100%", "FormatStr", "sprintf", "46", "96%", "sprintf", "257", "78%", "sprintf", "10", "100%", "snprintf", "3", "100%", "sprintf", "14", "100%", "Overall", "9,360", "85%", "5,200", "83%", "499", "96%", "207", "98%", "1,631", "93%", "Query", "#RSF", "P", "Query", "#RSF", "P", "Query", "#RSF", "P", "Query", "#RSF", "P", "Query", "#RSF", "P", "Linux", "FreeBSD", "OpenSSL", "FFmpeg", "QEMU", "Category"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Table2-1.png"
+}, {
+  "caption": "Figure 6: A case of non-finalized vm instance in Linux and the corresponding simplified execution flows.",
+  "captionBoundary": {
+    "x1": 94.13398742675781,
+    "x2": 517.8490600585938,
+    "y1": 292.7898864746094,
+    "y2": 294.8699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["3", "connects", "an", "incomplete", "error", "handling", "when", "allocating", "the", "meta", "data", "fails", "at", "line", "1155,", "resulting", "a", "resource", "leak.", "3", "fixes", "the", "bug", "with", "a", "proper", "finalization", "of", "the", "vm", "instance", "(line", "1217)", "when", "meta", "data", "allocation", "fails.", "Mapping", "meta", "data", "fails4", "Allocating", "meta", "data", "fails3", "Allocating", "meta", "data", "fails3", "Initialization", "fails2", "Falling", "through1", "error_fini:", "+", "goto", "error_fini;", "+", "1217amdgpu_vm_fini(adev,", "vm);", "1218error_pasid:", "1219if", "(pasid)", "1220amdgpu_pasid_free(pasid);", "1221amdgpu_mes_ctx_free_meta_data(&ctx_data);", "1222kfree(vm);", "1214error_vm:", "1215amdgpu_vm_bo_del(adev,", "ctx_data.meta_data_va);", "1216", "1159", "}", "1160", "ctx_data.meta_data_gpu_addr", "=", "AMDGPU_VA_RESERVED_SIZE;", "1161", "r", "=", "amdgpu_mes_ctx_map_meta_data(adev,", "vm,", "&ctx_data);", "1162", "if", "(r)", "{", "1163", "goto", "error_vm;", "1164", "}", "ICSE", "’24,", "April", "14–20,", "2024,", "Lisbon,", "Portugal", "Jianjun", "Huang", "et", "al.", "1148", "//", "driver/gpu/drm/amd/amdgpu/amdgpu_mes.c", "1149", "//", "in", "amdgpu_mes_self_test(struct", "amdgpu_device", "*)", "1150", "vm", "=", "kzalloc(sizeof(*vm),", "GFP_KERNEL);", "1151", "r", "=", "amdgpu_vm_init(adev,", "vm);", "1152", "if", "(r)", "{", "1153", "goto", "error_pasid;", "1154", "}", "1155", "r", "=", "amdgpu_mes_ctx_alloc_meta_data(adev,", "&ctx_data);", "1156", "if", "(r)", "{", "1157", "goto", "error_pasid;", "1158"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 561.12,
+    "y1": 62.4,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Figure6-1.png"
+}, {
+  "caption": "Figure 2: A resource leak in Linux, in which the sensitive allocation function mhi_alloc_controller occurs only once in",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03973388671875,
+    "y1": 313.8838806152344,
+    "y2": 326.9230041503906
+  },
+  "figType": "Figure",
+  "imageText": ["2", "MOTIVATION", "•", "Wepropose", "a", "new", "context-based", "analogical", "reasoningmethod,", "which", "is", "further", "augmented", "with", "weighted", "subword", "embed-", "ding,", "context", "expansion", "and", "key", "subwords-based", "filtering.", "•", "We", "develop", "a", "prototype", "Raisin", "and", "evaluate", "it", "on", "five", "large", "code", "bases,", "Linux,", "FreeBSD,", "OpenSSL,", "FFmpeg", "and", "QEMU.", "Each", "has", "1", "∼", "33", "MLoCs.", "Raisin", "reports", "16,897", "rare", "sensi-", "tive", "functions", "with", "91%", "accuracy.", "In", "contrast,", "the", "baseline", "SinkFinder", "identifies", "only", "30", "rare", "sensitive", "functions.", "•", "Twenty-seven", "new", "bugs", "are", "detected", "in", "the", "popular", "systems,", "among", "which", "21", "bugs", "related", "to", "resource", "allocation/deallo-", "cation", "have", "been", "confirmed", "by", "the", "kernel", "developers.", "total."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 298.56,
+    "y1": 331.2,
+    "y2": 518.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Figure2-1.png"
+}, {
+  "caption": "Table 4: Detected bugs that have been confirmed by the maintainers.",
+  "captionBoundary": {
+    "x1": 167.5059814453125,
+    "x2": 444.18756103515625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ID", "Target", "Systems", "Rare", "Sensitive", "Function", "#Occurrences", "Bug", "Type", "Confirmation", "1", "Linux", "mhi_alloc_controller", "1", "Memory", "Leak", "[Github]:", "43e7c350", "2", "Linux", "sfp_alloc", "1", "Memory", "Leak", "[Github]:", "0a18d802", "3", "Linux", "xhci_alloc_stream_ctx", "1", "Memory", "Leak", "[Github]:", "7e271f42", "4", "Linux", "audioreach_alloc_graph_pkt", "1", "Memory", "Leak", "[Github]:", "df5b4aca", "5", "Linux", "elfcorehdr_alloc", "1", "Memory", "Leak", "[Github]:", "12b9d301", "6", "Linux", "aq_nic_init", "2", "Memory", "Leak", "[Github]:", "65e5d27d", "7", "Linux", "nfp_cpp_area_alloc", "3", "Memory", "Leak", "[Github]:", "c56c9630", "8", "Linux", "auxiliary_device_uninit", "1", "Use", "After", "Free", "[Github]:", "1c11289b", "9", "Linux", "nouveau_bo_del_ttm", "3", "Use", "After", "Free", "[Github]:", "540dfd18", "10", "Linux", "amdgpu_vm_init", "2", "Resource", "Leak", "[Github]:", "c3c48339", "11", "Linux", "hfi1_alloc_ctxt_rcv_groups", "2", "Memory", "Leak", "[Github]:", "aa2a1df3", "12", "Linux", "init_mr_info", "2", "Memory", "Leak", "[Github]:", "b3236a64", "13", "Linux", "damon_new_ctx", "3", "Memory", "Leak", "[Github]:", "188043c7", "14", "Linux", "init_rx_sa", "1", "Resource", "Leak", "[Github]:", "c7b205fb", "15", "Linux", "init_tx_sa", "1", "Resource", "Leak", "[Github]:", "c7b205fb", "16", "Linux", "hsi_claim_port", "3", "Resource", "Leak", "[Github]:", "b28dbcb3", "17", "Linux", "bnx2x_frag_alloc", "3", "Memory", "Leak", "[Github]:", "b43f9acb", "18", "Linux", "sec_queue_aw_alloc", "1", "Inconsistent", "Argument", "[Github]:", "32c0f7d4", "19", "Linux", "mcba_usb_get_free_ctx", "2", "Resource", "Leak", "[Lore]:", "20221124144532.", "6u3hnvb6b2ninlxy@pengutronix.de", "20", "FreeBSD", "ext4_ext_alloc_meta", "2", "Memory", "Leak", "[Bugzilla]:", "265071", "21", "FreeBSD", "bhnd_alloc_pmu", "3", "Resource", "Leak", "[Bugzilla]:", "265147", "#1∼", "#18:", "Submitted", "patches", "have", "been", "applied", "to", "themaster", "branch", "of", "Linux,", "which", "can", "be", "retrieved", "by", "appending", "the", "commit", "ID", "to", "https://github.com/torvalds/linux/commit/.", "#19:", "The", "patch", "was", "confirmed", "and", "applied", "to", "linux-can", "by", "the", "maintainer,", "reachable", "by", "appending", "the", "email", "to", "https://lore.kernel.org/all/.", "#20", "and", "#21:", "FreeBSD", "uses", "Bugzilla", "to", "track", "the", "issues", "and", "the", "two", "confirmations", "can", "be", "reached", "by", "searching", "the", "issue", "ID", "in", "https://bugs.freebsd.org/bugzilla."],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 392.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Table4-1.png"
+}, {
+  "caption": "Figure 4: Simplfied context for kmalloc().",
+  "captionBoundary": {
+    "x1": 355.3819885253906,
+    "x2": 520.7738647460938,
+    "y1": 367.86187744140625,
+    "y2": 369.9419860839844
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 540.0,
+    "y1": 252.95999999999998,
+    "y2": 350.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Overview workflow of Raisin.",
+  "captionBoundary": {
+    "x1": 225.5399932861328,
+    "x2": 386.45849609375,
+    "y1": 233.13388061523438,
+    "y2": 235.2139892578125
+  },
+  "figType": "Figure",
+  "imageText": ["fastText", "Embedding", "", "", "", "", "", "", "", "", "", "", "Rare", "Sensitive", "Function", "Identification", "Frequent", "Sensitive", "Function", "Identification", "Candidate", "Rare", "Functions", "Frequent", "Sensitive", "Functions", "Function", "Sequences", "Rare", "Function", "Embeddings", "Context", "Function", "Sequences", "Rare", "Functions", "Context", "Clustering", "Filtering", "Segmentation", "&", "Embedding", "Clustering", "Bug", "Detection", "Functions", "Context", "Expansion", "Rare", "Sensitive", "Function", "Embeddings", "or", "kfree", "Query", "e.g.,", "kmalloc", "Source", "Code"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 521.28,
+    "y1": 82.56,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Claimed port not released in Linux.",
+  "captionBoundary": {
+    "x1": 83.11499786376953,
+    "x2": 264.72216796875,
+    "y1": 371.72088623046875,
+    "y2": 373.8009948730469
+  },
+  "figType": "Figure",
+  "imageText": ["hsi_release_port(cl);", "+", "934", "return", "err;", "935", "}", "(%d)\\n\",", "err);", "933", "923", "//", "driver/hsi/clients/ssi_protocol.c", "924", "//", "in", "ssip_pn_open(struct", "net_device", "*)", "925", "err", "=", "hsi_claim_port(cl,", "1);", "926", "if", "(err", "<", "0)", "{", "927", "dev_err(&cl->device,", "\"SSI", "port", "already", "claimed\\n\");", "928", "return", "err;", "929", "}", "930", "err", "=", "hsi_register_port_event(cl,", "ssip_port_event);", "931", "if", "(err", "<", "0)", "{", "932", "dev_err(&cl->device,", "\"Register", "HSI", "port", "event", "failed"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 47.519999999999996,
+    "x2": 292.32,
+    "y1": 202.56,
+    "y2": 352.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Figure5-1.png"
+}, {
+  "caption": "Table 5: Time cost for identifying rare allocation functions and detecting related bugs.",
+  "captionBoundary": {
+    "x1": 131.5059814453125,
+    "x2": 480.1846618652344,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Linux", "8h43m", "3m25s", "5m36s", "30m", "5m11s", "15m28s", "1m21s", "11h37m", "21h21m", "FreeBSD", "3h42m", "46s", "16s", "30m", "2m13s", "1m43s", "12s", "N/A", "4h17m", "OpenSSL", "46m23s", "18s", "5s", "15m", "40s", "21s", "2s", "14m18s", "1h17m", "FFmpeg", "1h24m", "22s", "7s", "15m", "1m17s", "21s", "5s", "39m24s", "2h21m", "QEMU", "5h19m", "1m9s", "38s", "30m", "3m19s", "4m38s", "14s", "3h24m", "9h23m", "Embedding", "Analogy", "Filtering", "Embedding", "Expansion", "Analogy", "Total", "Detection", "Frequent", "Functions", "Rare", "Functions", "Bug", "Target", "Preprocessing"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639165-Table5-1.png"
+}]

@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 1: Background of patch presence test",
+  "captionBoundary": {
+    "x1": 85.50399780273438,
+    "x2": 262.3313903808594,
+    "y1": 185.47091674804688,
+    "y2": 187.551025390625
+  },
+  "figType": "Figure",
+  "imageText": ["Affect", "Patch", "(diff)Existing", "Vulnerability", "Patched", "Patch", "Presence", "Test", "tool", "Vulnerable", "May", "affect?", "Is", "Patched?", "Open", "Source", "Software", "Customized", "Binaries"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 290.88,
+    "y1": 82.56,
+    "y2": 163.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure1-1.png"
+}, {
+  "caption": "Table 1: Statistics of our dataset",
+  "captionBoundary": {
+    "x1": 241.98001098632812,
+    "x2": 369.7186279296875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["OpenSSL", "27", "164", "200", "170", "202", "155", "156", "163", "173", "155", "155", "151", "135", "155", "171", "151", "135", "2,591", "(+358)", "FFmpeg", "30", "85", "127", "85", "127", "61", "88", "66", "90", "61", "88", "53", "78", "61", "78", "53", "78", "1,289", "(+166)", "Tcpdump", "11", "33", "11", "33", "11", "21", "7", "24", "8", "21", "7", "24", "8", "21", "7", "21", "6", "263", "LibXml2", "2", "2", "0", "4", "0", "2", "0", "1", "0", "1", "0", "1", "0", "1", "0", "1", "0", "13", "(+1)", "Total", "70", "(+8)", "284", "338", "292", "340", "239", "251", "254", "271", "238", "250", "229", "221", "238", "266", "226", "219", "4,156", "(+525)", "#P", "represents", "the", "number", "of", "patched", "pairs", "while", "#V", "represents", "vulnerable", "pairs.", "Project", "#CVE", "Clang", "&", "O0", "GCC", "&", "O0", "Clang", "&", "O1", "GCC", "&", "O1", "Clang", "&", "O2", "GCC", "&", "O2", "Clang", "&", "O3", "GCC", "&", "O3", "#Test", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P", "#V", "#P"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 193.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Table1-1.png"
+}, {
+  "caption": "Figure 8: Case study examples",
+  "captionBoundary": {
+    "x1": 113.07999420166016,
+    "x2": 234.7575225830078,
+    "y1": 631.4558715820312,
+    "y2": 633.5360107421875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Patch", "of", "CVE-2020-20451", "[12]", "*inout,↩→", "2", "if", "(ret", "<", "0)", "{", "3", "av_log(NULL,", "AV_LOG_ERROR,", "\"Error", "parsing", "options", "for", "%s", "file", "\"", "4", "\"%s.\\n\",", "inout,", "g->arg);", "5", "+", "uninit_options(&o);", "6", "return", "ret;", "7", "}", "8", "av_log(NULL,", "AV_LOG_DEBUG,", "\"Opening", "an", "%s", "file:", "%s.\\n\",", "inout,", "g->arg);", "9", "ret", "=", "open_file(&o,", "g->arg);", "10", "uninit_options(&o);", "1", "@@", "-3272,6", "+3272,7", "@@", "static", "int", "open_files(OptionGroupList", "*l,", "const", "char", "(b)", "Patch", "of", "CVE-2022-2274", "[16]", "1", "@@", "-257,6", "+257,9", "@@", "int", "ossl_rsaz_mod_exp_avx512_x2(BN_ULONG", "*res1,", "2", "from_words52(res1,", "factor_size,", "rr1_red);", "3", "from_words52(res2,", "factor_size,", "rr2_red);", "4", "5", "+", "/*", "bn_reduce_once_in_place", "expects", "number", "of", "BN_ULONG,", "not", "bit", "size", "*/", "6", "+", "factor_size", "/=", "sizeof(BN_ULONG)", "*", "8;", "7", "bn_reduce_once_in_place(res1,", "/*carry=*/0,", "m1,", "storage,", "factor_size);", "8", "bn_reduce_once_in_place(res2,", "/*carry=*/0,", "m2,", "storage,", "factor_size);", "(a)", "Patch", "of", "CVE-2018-14468", "[10]", "1", "@@", "-493,6", "+493,11", "@@", "mfr_print(netdissect_options", "*ndo,", "2", "switch", "(ie_type)", "{", "3", "case", "MFR_CTRL_IE_MAGIC_NUM:", "4", "+", "/*", "FRF.16.1", "Section", "3.4.3", "Magic", "Number", "Information", "Element", "*/", "5", "+", "if", "(ie_len", "!=", "4)", "{", "6", "+", "ND_PRINT((ndo,", "\"(invalid", "length)\"));", "7", "+", "break;", "8", "+", "}", "9", "ND_PRINT((ndo,", "\"0x%08x\",", "EXTRACT_32BITS(tptr)));"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 47.04,
+    "x2": 295.2,
+    "y1": 331.68,
+    "y2": 612.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure8-1.png"
+}, {
+  "caption": "Table 6: Summary of related work",
+  "captionBoundary": {
+    "x1": 369.05999755859375,
+    "x2": 506.7955322265625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["React", "IR", "to", "IR", "(LLVM", "IR)", "BSCOUT", "[8]", "first", "work", "in", "Java", "2020", "PHunter", "[38]", "against", "obfuscation", "2023", "PPT4J", "[31]", "find-grained", "semantics", "2024", "Source", "to", "Binary", "(Java)", "FIBER", "[44]", "feature", "matching", "2018", "PDiff", "[24]", "feature", "similarity", "2020", "BinXray", "[40]", "basic", "block", "mapping", "2020", "Osprey", "[34]", "lightweight", "flow", "slices", "2021", "PatchDiscovery", "[39]", "key", "basic", "blocks", "2023", "PS3", "[42]", "SMT", "solver", "2024", "Binary", "to", "Binary", "(C/C++)", "Work", "Approach", "Year"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 105.6,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Table6-1.png"
+}, {
+  "caption": "Figure 2: A case study comparing LLVM IR lifted by RetDec with LLVM IR compiled by clang. Both IR codes have been",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1805419921875,
+    "y1": 352.88787841796875,
+    "y2": 354.9679870605469
+  },
+  "figType": "Figure",
+  "imageText": ["Lifting", "LLVM", "IR", "compiled", "by", "Clang", "LLVM", "IR", "lifted", "by", "RetDec", "Compile", "Original", "C", "Code", "`X509_issuer_and_serial_hash:", "endbr64", "cmpq", "$0x0,", "-0x30(%rbp)", "pushq", "%rbp", "je", "0x25556a", "movq", "%rsp,", "%rbp", "movq", "-0x48(%rbp),", "%rax", "subq", "$0x50,", "%rsp", "movq", "0x30(%rax),", "%rax", "movq", "%rdi,", "-0x48(%rbp)", "movl", "$0x0,", "%edx", "movq", "%fs:0x28,", "%rax", "movl", "$0x0,", "%esi", "movq", "%rax,", "-0x8(%rbp)", "movq", "%rax,", "%rdi", "xorl", "%eax,", "%eax", "callq", "0x258ddf;", "X509_NAME_oneline", "movq", "$0x0,", "-0x38(%rbp)", "movq", "%rax,", "-0x28(%rbp)", "callq", "0x191b69;", "EVP_MD_CTX_new", "cmpq", "$0x0,", "-0x28(%rbp)", "movq", "%rax,", "-0x30(%rbp)", "je", "0x25556d", "Target", "Binary", "if", "(!EVP_DigestInit_ex(ctx,", "EVP_md5(),", "NULL))", "goto", "err;", "if", "(!EVP_DigestUpdate(ctx,", "(unsigned", "char", "*)f,", "strlen(f)))", "f", "=", "X509_NAME_oneline(a->cert_info.issuer,", "NULL,", "0);", "+", "if", "(f", "==", "NULL)", "+", "goto", "err;", "if", "(ctx", "==", "NULL)", "goto", "err;", "diff", "--git", "crypto/x509/x509_cmp.c", "index", "c9d8933640..a964bbf94b", "100644", "---", "a/crypto/x509/x509_cmp.c", "+++", "b/crypto/x509/x509_cmp.c", "@@", "-39,6", "+39,8", "@@", "unsigned", "long", "X509_issuer_and_serial_hash(X509", "*a)", "%7", "=", "add", "%arg1,", "48", "%8", "=", "inttoptr", "i64", "%7", "to", "i64*", "%9", "=", "load", "%8", "%10", "=", "call", "X509_NAME_oneline(%9,", "0,", "0)", "%11", "=", "icmp", "eq", "i64", "%10,", "0", "br", "%11,", "label", "true,", "label", "false", "define", "i64", "X509_issuer_and_serial_hash(%arg1)", "%0", "=", "alloca", "i8", "%1", "=", "load", "%0", "%2", "=", "load", "%0", "%3", "=", "load", "%0", "%4", "=", "call", "__readfsqword(40)", "%5", "=", "call", "EVP_MD_CTX_new()", "%6", "=", "icmp", "eq", "i64", "%5,", "0", "br", "%6,", "label", "end,", "label", "then", "then:", "define", "i64", "X509_issuer_and_serial_hash(a)", "%2", "=", "alloca", "[16", "x", "i8]", "%3", "=", "call", "EVP_MD_CTX_new()", "%4", "=", "icmp", "eq", "%struct.evp_md_ctx_st*", "%3,", "null", "br", "%4,", "label", "%5,", "label", "%6", "5:", "br", "label", "%61", "6:", "%7", "=", "getelementptr(a,", "0,", "0)", "%8", "=", "getelementptr(%7,", "0,", "3)", "%9", "=", "load", "%8", "%10", "=", "call", "X509_NAME_oneline(%9,", "null,", "0)", "%11", "=", "icmp", "eq", "i8*", "%10,", "null", "br", "%11,", "label", "true,", "label", "false"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 553.4399999999999,
+    "y1": 84.47999999999999,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure2-1.png"
+}, {
+  "caption": "Table 3: Effectiveness of our approach vs. baselines",
+  "captionBoundary": {
+    "x1": 70.69200134277344,
+    "x2": 276.8471374511719,
+    "y1": 251.09689331054688,
+    "y2": 253.177001953125
+  },
+  "figType": "Table",
+  "imageText": ["GCC", "&", "O0", "0.88", "0.91", "0.90", "0.92", "0.98", "0.95", "GCC", "&", "O1", "0.77", "0.96", "0.86", "0.89", "1", "0.94", "GCC", "&", "O2", "0.77", "0.96", "0.85", "0.87", "1", "0.93", "GCC", "&", "O3", "0.77", "0.96", "0.85", "0.87", "1", "0.93", "Clang", "&", "O0", "0.72", "0.92", "0.81", "0.91", "0.98", "0.94", "Clang", "&", "O1", "0.74", "0.92", "0.82", "0.86", "0.96", "0.91", "Clang", "&", "O2", "0.70", "0.92", "0.79", "0.85", "0.96", "0.90", "Clang", "&", "O3", "0.69", "0.92", "0.79", "0.85", "0.96", "0.90", "Precision", "Recall", "F1", "Precision", "Recall", "F1", "Compiler", "Option", "Combination", "PS3", "React"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 142.56,
+    "x2": 469.44,
+    "y1": 105.6,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Table3-1.png"
+}, {
+  "caption": "Figure 4: Overview of our approach",
+  "captionBoundary": {
+    "x1": 102.38300323486328,
+    "x2": 245.45346069335938,
+    "y1": 400.65789794921875,
+    "y2": 402.7380065917969
+  },
+  "figType": "Figure",
+  "imageText": ["SMT", "Solver", "Feature", "Matching", "Lifting", "LLVM-IR", "Compile", "Binary", "Source", "Code", "Feature", "Refinement", "&", "Ranking", "LLVM-IR", "Feature", "Generation"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 295.2,
+    "y1": 285.59999999999997,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Syntax of feature",
+  "captionBoundary": {
+    "x1": 384.4549865722656,
+    "x2": 491.697265625,
+    "y1": 437.2028503417969,
+    "y2": 439.282958984375
+  },
+  "figType": "Figure",
+  "imageText": ["Store", "M", "≔", "(𝑒1,", "𝑒2)", "Cond", "C", "≔", "𝑒", "Return", "R", "≔", "𝑒", "unop", "≔", "−", "|", "¬", "|", "·", "·", "·", "binop", "≔", "+", "|", "−", "|", "×", "|", "÷", "|", "·", "·", "·", "Call", "F", "≔", "𝑓", "(𝑒1,", ".", ".", ".", ",", "𝑒𝑛)", "Expr", "e", "≔", "𝑒", "binop", "𝑒", "|", "unop", "𝑒", "|", "call(𝑒,", "𝑒1,", ".", ".", ".", ",", "𝑒𝑛)", "|", "const", "|", "mem(𝑒)", "|", "arg(𝑖)", "|", "alloc(𝑖)"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 371.03999999999996,
+    "x2": 504.47999999999996,
+    "y1": 294.71999999999997,
+    "y2": 412.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Examples of patches from real-world projects, adjusted to fit the page.",
+  "captionBoundary": {
+    "x1": 145.43899536132812,
+    "x2": 466.5473937988281,
+    "y1": 266.3378601074219,
+    "y2": 268.41796875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Patch", "for", "CVE-2019-1547", "[13]", "EC_POINT", "*generator,↩→", "2", "-", "if", "(order", "!=", "NULL)", "{", "3", "-", "if", "(!BN_copy(group->order,", "order))", "4", "-", "return", "0;", "5", "-", "}", "else", "6", "-", "BN_zero(group->order);", "7", "+", "if", "(!BN_copy(group->order,", "order))", "8", "+", "return", "0;", "9", "10", "-", "if", "(cofactor", "!=", "NULL)", "{", "11", "+", "/*", "Either", "take", "the", "provided", "positive", "cofactor,", "or", "try", "to", "compute", "it", "*/", "12", "+", "if", "(cofactor", "!=", "NULL", "&&", "!BN_is_zero(cofactor))", "{", "13", "if", "(!BN_copy(group->cofactor,", "cofactor))", "14", "return", "0;", "15", "-", "}", "else", "16", "+", "}", "else", "if", "(!ec_guess_cofactor(group))", "{", "17", "BN_zero(group->cofactor);", "18", "+", "return", "0;", "19", "+", "}", "1", "@@", "-281,17", "+370,17", "@@", "int", "EC_GROUP_set_generator(EC_GROUP", "*group,", "const", "(a)", "Patches", "of", "CVE-2022-1343", "[15]", "and", "CVE-2018-0735", "[9]", "1", "@@", "-59,9", "+59,10", "@@", "static", "int", "ocsp_verify_signer(X509", "*signer,", "int", "response,", "2", "ret", "=", "X509_verify_cert(ctx);", "3", "if", "(ret", "<=", "0)", "{", "4", "-", "ret", "=", "X509_STORE_CTX_get_error(ctx);", "5", "+", "int", "err", "=", "X509_STORE_CTX_get_error(ctx);", "6", "ERR_raise_data(ERR_LIB_OCSP,", "OCSP_R_CERTIFICATE_VERIFY_ERROR,", "7", "-", "\"Verify", "error:", "%s\",", "X509_verify_cert_error_string(ret));", "8", "+", "\"Verify", "error:", "%s\",", "X509_verify_cert_error_string(err));", "9", "goto", "end;", "10", "11", "@@", "-206,8", "+206,8", "@@", "int", "ec_scalar_mul_ladder(const", "EC_GROUP", "*group,", "EC_POINT", "*r,", "12", "cardinality_bits", "=", "BN_num_bits(cardinality);", "13", "group_top", "=", "bn_get_top(cardinality);", "14", "-", "if", "((bn_wexpand(k,", "group_top", "+", "1)", "==", "NULL)", "15", "-", "||", "(bn_wexpand(lambda,", "group_top", "+", "1)", "==", "NULL))", "{", "16", "+", "if", "((bn_wexpand(k,", "group_top", "+", "2)", "==", "NULL)", "17", "+", "||", "(bn_wexpand(lambda,", "group_top", "+", "2)", "==", "NULL))", "{", "18", "ECerr(EC_F_EC_SCALAR_MUL_LADDER,", "ERR_R_BN_LIB);", "19", "goto", "err;", "20", "}"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 47.04,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure3-1.png"
+}, {
+  "caption": "Table 4: Ablation study",
+  "captionBoundary": {
+    "x1": 126.93800354003906,
+    "x2": 220.60577392578125,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["React", "0.87", "0.98", "0.93", "-Smt", "0.66", "0.99", "0.80", "(↓16%)", "-Rank", "0.88", "0.95", "0.92", "(↓1.1%)", "-Refinement", "0.79", "0.95", "0.86", "(↓10%)", "Approach", "Precision", "Recall", "F1"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 268.32,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Table4-1.png"
+}, {
+  "caption": "Table 5: Time cost of our approach vs. baselines (seconds)",
+  "captionBoundary": {
+    "x1": 57.75299835205078,
+    "x2": 289.7840576171875,
+    "y1": 193.23886108398438,
+    "y2": 195.3189697265625
+  },
+  "figType": "Table",
+  "imageText": ["BinXray", "0.1", "-", "0.06", "PS3", "23", "0.14", "3", "React", "0.317", "0.003", "0.025", "Approach", "Max", "Min", "Average"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 245.28,
+    "y1": 211.67999999999998,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Table5-1.png"
+}, {
+  "caption": "Figure 7: Patch of CVE-2020-1967 [11]",
+  "captionBoundary": {
+    "x1": 97.37100219726562,
+    "x2": 250.46543884277344,
+    "y1": 420.0578918457031,
+    "y2": 422.13800048828125
+  },
+  "figType": "Figure",
+  "imageText": ["default_nid)↩→", "2", "sigalg", "=", "use_pc_sigalgs", "3", "?", "tls1_lookup_sigalg(s->s3->tmp.peer_cert_sigalgs[i])", "4", ":", "s->shared_sigalgs[i];", "5", "-", "if", "(sig_nid", "==", "sigalg->sigandhash)", "6", "+", "if", "(sigalg", "!=", "NULL", "&&", "sig_nid", "==", "sigalg->sigandhash)", "7", "return", "1;", "8", "}", "1", "@@", "-2130,7", "+2130,7", "@@", "static", "int", "tls1_check_sig_alg(SSL", "*s,", "X509", "*x,", "int"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 49.44,
+    "x2": 295.2,
+    "y1": 329.76,
+    "y2": 401.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure7-1.png"
+}, {
+  "caption": "Figure 6: Lattice of the feature 𝑓 (𝑎, 𝑏, 𝑐𝑎𝑙𝑙 (𝑐+2)). We only show",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.5458984375,
+    "y1": 247.06790161132812,
+    "y2": 249.14801025390625
+  },
+  "figType": "Figure",
+  "imageText": ["𝑓", "(𝑎,", "𝑏,", "𝑔(𝑐", "+", "2))", "𝑓", "(𝑎,", "𝑏,", "𝑔(𝑐", "+", "⊤))", "𝑓", "(𝑎,", "𝑏,", "𝑔(⊤", "+", "2))", "𝑓", "(𝑎,⊤,⊤)", "𝑓", "(⊤,", "𝑏,⊤)", "𝑓", "(𝑎,", "𝑏,", "𝑔(⊤))", "𝑓", "(⊤,⊤,⊤)", "⊤"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 360.47999999999996,
+    "x2": 515.04,
+    "y1": 84.96,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695012-Figure6-1.png"
+}]

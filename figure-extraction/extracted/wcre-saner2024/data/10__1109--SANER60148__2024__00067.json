@@ -1,0 +1,121 @@
+[{
+  "caption": "TABLE II STATISTICS OF DATASETS",
+  "captionBoundary": {
+    "x1": 139.2081298828125,
+    "x2": 218.85121154785156,
+    "y1": 74.86474609375,
+    "y2": 86.6951904296875
+  },
+  "figType": "Table",
+  "imageText": ["(b)", "Pre-trained", "transformer", "models,", "including", "CODEBERT", "except", "for", "LLMs", "BigClone-", "Bench", "CD", "9,126", "2,800", "JAVA250", "CC", "73,143", "8,000", "all", "models", "Java-med", "MNP", "382,986", "60,000", "all", "models", "except", "for", "AST-based", "models", "Code-", "SearchNet", "CS", "324,439", "50,265", "Target", "Dataset", "Task", "#Code", "Snippet", "#Vocab", "Supported", "Models"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 295.68,
+    "y1": 96.0,
+    "y2": 268.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00067-TableII-1.png"
+}, {
+  "caption": "Fig. 2. Curves of attack efficiency and success rate in the MNP task",
+  "captionBoundary": {
+    "x1": 69.6333999633789,
+    "x2": 289.6570739746094,
+    "y1": 221.95013427734375,
+    "y2": 225.4412841796875
+  },
+  "figType": "Figure",
+  "imageText": ["Code2Seq", "CodeBERT", "GPT-3.5", "75", "100", "A", "SR", "(%", "))", "50", "25", "0", "0", "5", "10", "15", "20", "25", "30", "35", "40", "45", "Iteration"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 275.03999999999996,
+    "y1": 72.96,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00067-Figure2-1.png"
+}, {
+  "caption": "Fig. 1. Overview of ALANCA",
+  "captionBoundary": {
+    "x1": 384.7481994628906,
+    "x2": 477.71942138671875,
+    "y1": 204.3216552734375,
+    "y2": 207.81280517578125
+  },
+  "figType": "Figure",
+  "imageText": ["Iterative", "Active", "Learning", "Candidate", "Example", "Set", "Adversarial", "Example", "Set", "UpdateAttack", "Result", "Update", "Record", "Adversarial", "Example", "Precursor", "Adversarial", "Example", "Original", "Code", "Snippet", "➂", "Token", "Selector", "➁", "Adversarial", "Discriminator", "➀", "Guided", "Code", "Transformers", "Original", "Code", "Set", "Target", "Model"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 543.36,
+    "y1": 73.92,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00067-Figure1-1.png"
+}, {
+  "caption": "TABLE III EVALUATION RESULTS OF THE ALANCA ATTACK FRAMEWORK AGAINST EIGHT MODELS AND FOUR TASKS",
+  "captionBoundary": {
+    "x1": 134.90478515625,
+    "x2": 466.775634765625,
+    "y1": 74.8289794921875,
+    "y2": 86.659423828125
+  },
+  "figType": "Table",
+  "imageText": ["Ro", "48.9%", "37.4%", "5.6%", "9.1%", "36.2%", "18.8%", "49.2%", "53.7%", "ΔF1", "42.6↓", "51.0↓", "85.3↓", "84.9↓", "62.7↓", "75.8↓", "28.2↓", "11.5↓", "ASR", "53.1%", "60.0%", "92.6%", "88.5%", "69.5%", "80.3%", "53.9%", "42.4%", "F1", "72.3", "78.5", "91.4", "93.6", "98.2", "93.8", "50.8", "37.7", "Clone", "Detection", "Task", "Not", "Support", "Ro", "19.5%", "22.6%", "24.0%", "25.0%", "29.9%", "43.1%", "ΔAcc", "63.2↓", "61.9↓", "72.7↓", "71.4↓", "64.4↓", "55.0↓", "ASR", "77.2%", "75.9%", "74.3%", "71.6%", "66.8%", "53.5%", "Acc", "78.5", "81.1", "95.6", "95.2", "91.8", "94.9", "Code", "Classiﬁcation", "Ro", "0.1%", "0.2%", "17.6%", "20.4%", "18.4%", "14.0%", "33.5%", "27.3%", "ΔF1", "73.8↓", "73.7↓", "41.2↓", "42.8↓", "39.6↓", "42.7↓", "24.5↓", "22.0↓", "ASR", "99.9%", "99.3%", "81.2%", "78.3%", "80.8%", "74.9%", "63.6%", "70.1%", "F1", "74.0", "74.3", "50.1", "54.0", "48.4", "56.3", "37.2", "31.2", "Method", "Name", "Prediction", "8.2%", "8.0%", "8.2%", "20.6%", "48.2%", "46.5%", "Task", "Not", "Support", "Ro", "ΔBLEU", "15.89↓", "16.52↓", "16.63↓", "14.66↓", "4.90↓", "4.75↓", "ASR", "85.8%", "87.5%", "88.3%", "78.3%", "53.5%", "52.9%", "BLEU", "17.52", "17.98", "18.13", "18.85", "10.13", "8.67", "Code", "Summarization", "CODE2VEC", "CODE2SEQ", "CODEBERT", "GCBERT", "PLBART", "CODET5", "GPT-3.5", "CHATGLM", "2", "Task", "Metric", "AST-based", "Transformer-based", "LLM"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 532.3199999999999,
+    "y1": 94.56,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00067-TableIII-1.png"
+}, {
+  "caption": "TABLE IV COMPARATIVE RESULT OF DIFFERENT ATTACK METHODS",
+  "captionBoundary": {
+    "x1": 211.588623046875,
+    "x2": 390.3714599609375,
+    "y1": 74.7923583984375,
+    "y2": 86.622802734375
+  },
+  "figType": "Table",
+  "imageText": ["22.6", "53.9%", "49.2%", "Task", "Not", "Support", "w/o", "Mts", "7.81", "28.3%", "76.0%", "14.2", "63.8%", "39.4%", "23.7", "52.7%", "46.4%", "w/o", "Md", "6.16", "39.4%", "60.8%", "10.7", "73.8%", "29.0%", "20.2", "56.7%", "40.1%", "ALANCA", "5.23", "53.5%", "48.2%", "12.7", "63.6%", "33.5%", "RS", "7.93", "25.1%", "78.4%", "14.6", "64.3%", "37.1%", "22.3", "64.7%", "42.0%", "BERT-Attack", "5.18", "53.9%", "50.7%", "18.2", "49.1%", "48.4%", "30.7", "36.8%", "61.3%", "/", "10.13", "/", "/", "37.2", "/", "/", "50.8", "/", "/", "GPT-3.5", "w/o", "Md", "5.99", "65.2%", "33.4%", "13.6", "74.9%", "23.8%", "39.3", "38.9%", "41.4%", "20.0", "79.2%", "21.2%", "ALANCA", "4.19", "78.3%", "20.6%", "10.5", "82.0%", "17.9%", "36.0", "62.8%", "37.9%", "18.0", "80.3%", "18.8%", "w/o", "Mts", "4.61", "80.2%", "23.4%", "11.7", "77.5%", "20.1%", "41.2", "56.1%", "43.4%", "28.7", "70.0%", "30.2%", "RS", "6.78", "61.8%", "36.9%", "9.1", "84.7%", "15.0%", "39.9", "53.5%", "43.1%", "30.3", "74.1%", "34.6%", "CodeAttack", "5.31", "71.0%", "27.9%", "13.1", "76.7%", "22.1%", "39.0", "57.0%", "41.1%", "Not", "Evaluated", "BERT-Attack", "8.62", "64.3%", "40.7%", "18.4", "69.3%", "34.9%", "40.9", "58.4%", "42.9%", "42.6", "52.5%", "46.0%", "/", "18.85", "/", "/", "56.3", "/", "/", "94.9", "/", "/", "93.8", "/", "/", "CODET5", "w/o", "Md", "2.53", "82.8%", "16.4%", "14.2", "71.9%", "26.4%", "23.7", "76.0%", "24.8%", "8.4", "89.9%", "9.5%", "ALANCA", "1.63", "85.8%", "11.2%", "8.9", "82.6%", "17.6%", "22.9", "74.3%", "24.0%", "6.1", "92.6%", "5.6%", "w/o", "Mts", "2.01", "86.9%", "12.5%", "8.5", "82.3%", "16.9%", "25.5", "73.1%", "26.7%", "11.8", "87.9%", "14.4%", "RS", "3.64", "77.9%", "20.5%", "12.9", "77.2%", "25.0%", "34.1", "64.1%", "35.7%", "12.0", "87.6%", "14.1%", "CodeAttack", "2.67", "82.4%", "15.8%", "11.1", "76.1%", "22.4%", "32.9", "67.3%", "34.9%", "Not", "Evaluated", "BERT-Attack", "5.91", "64.5%", "39.7%", "14.1", "69.6%", "32.2%", "44.0", "49.1%", "47.3%", "53.8", "47.6%", "58.0%", "/", "17.52", "/", "/", "50.1", "/", "/", "95.6", "/", "/", "91.4", "/", "/", "CODEBERT", "0.4", "99.3%", "0.2%", "19.2", "75.9%", "22.6%", "27.5", "60.0%", "37.4%", "Task", "Not", "Support", "w/o", "Md", "4.5", "93.5%", "10.3%", "19.5", "75.0%", "24.8%", "31.1", "57.9%", "40.2%", "ALANCA", "w/o", "Mts", "2.7", "93.1%", "7.9%", "22.6", "70.9%", "28.8%", "28.9", "63.4%", "35.7%", "RS", "7.8", "89.3%", "8.4%", "24.0", "71.3%", "30.6%", "32.7", "54.5%", "44.2%", "BERT-Attack", "10.7", "84.7%", "14.5%", "33.5", "56.4%", "42.7%", "40.6", "41.3%", "53.1%", "/", "74.3", "/", "/", "85.1", "/", "/", "78.5", "/", "/", "CODE2SEQ", "BLEU", "ASR", "Ro", "F1", "ASR", "Ro", "Acc", "ASR", "Ro", "F1", "ASR", "Ro", "Target", "Model", "Attack", "Method", "Summarization", "MNP", "Classiﬁcation", "Clone", "Detection"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 537.12,
+    "y1": 94.56,
+    "y2": 458.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00067-TableIV-1.png"
+}, {
+  "caption": "TABLE I DESCRIPTION AND EXAMPLES OF CODE TRANSFORMATIONS. GREEN STANDS FOR ADDED TOKENS, AND BLUE STANDS FOR MODIFIED TOKENS. IN THE GUIDING PARAMETERS COLUMN, pi MEANS THE RELATIVE POSITION OF TRANSFORMATION IN A CODE SNIPPET, pst MEANS THE INDEX OF SUBSTITUTED SUB-TOKEN IN AN IDENTIFIER, lst MEANS THE SIZE OF THE TOKENS TO BE SUBSTITUTED OR ADDED, AND lb MEANS THE LENGTH OF THE WRAPPED BLOCK.",
+  "captionBoundary": {
+    "x1": 74.57505798339844,
+    "x2": 528.158203125,
+    "y1": 75.17022705078125,
+    "y2": 112.0167236328125
+  },
+  "figType": "Table",
+  "imageText": ["Equation", "Operators", "Exchanging", "exchange", "the", "left", "and", "right", "side", "expres-", "sions", "of", "the", "“==”", "equation", "a", "==", "b", "⇒", "b", "==", "a", "/", "Loop", "Converting", "convert", "the", "type", "of", "loop", "between", "“for”", "and", "“while”", "for(int", "i=0;i<n;++i){...}", "⇒", "{int", "i=0;", "while(i<n){...", "++i;}}", "/", "Statement", "Reordering", "reorder", "two", "adjacent", "code", "statements", "with", "no", "variable", "def-use", "dependency", "int", "a", "=", "1;", "boolean", "b", "=", "false;", "⇒", "boolean", "b", "=", "false;", "int", "a", "=", "1;", "/", "Do-While(false)", "Insertion", "wrap", "a", "code", "block", "with", "a", "do-while(false)", "loop", "structure", "int", "a", "=", "0;", "⇒", "do{", "int", "a", "=", "0;", "}while(false);", "pi,", "lb", "Printing", "Insertion", "insert", "a", "System.out.println(s);", "printing", "code", "line", "System.out.println(“[T]", "[T]", "...”);", "pi,", "lst", "Variable", "Declaration", "Insertion", "insert", "dead", "code", "of", "an", "unused", "variable", "declaration", "int", "[T][T]...", "=", "1;", "pi,", "lst", "Parameter", "Renaming", "rename", "a", "function", "parameter", "by", "replacing", "a", "sub-token", "void", "f(String[]", "s,", "int", "len)", "⇒", "void", "f(String[]", "s,", "int", "[T])", "pi,", "pst", "Local", "Variable", "Renaming", "rename", "a", "local", "variable", "by", "replacing", "a", "sub-", "token", "int", "textLen", "=", "0;", "⇒", "int", "[T]Len", "=", "0;", "pi,", "pst", "Name", "Functionality", "Description", "Example", "Guiding", "Parameters", "Token", "Selection"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 530.4,
+    "y1": 120.0,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00067-TableI-1.png"
+}]

@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 4: The decrease ratio of F1 under obfuscation.",
+  "captionBoundary": {
+    "x1": 333.6559753417969,
+    "x2": 542.1959838867188,
+    "y1": 461.67938232421875,
+    "y2": 467.3100280761719
+  },
+  "figType": "Table",
+  "imageText": ["F2:", "The", "String-based", "detectors", "are", "relatively", "stable", "under", "code", "obfuscation.", "The", "Image-based", "detectors", "deteriorate", "more", "se-", "verely", "(The", "F1", "is", "reduced", "by", "25.48%", "on", "average).", "The", "Graph-", "based", "detectors", "perform", "well", "under", "most", "obfuscation", "tech-", "niques,", "but", "their", "performance", "significantly", "decreases", "when", "facing", "some", "obfuscation", "techniques", "such", "as", "CID", "and", "CR.", "EFCG", "0.85%", "2.05%", "1.29%", "2.50%", "0.85%", "3.74%", "0.85%", "1.61%", "APIGraph_p", "0.53%", "3.24%", "0.84%", "2.35%", "0.53%", "8.75%", "0.53%", "1.81%", "APIGraph_f", "0.65%", "15.36%", "0.93%", "10.23%", "0.65%", "24.71%", "0.65%", "3.66%", "ImgDroid", "24.62%", "28.22%", "27.88%", "29.92%", "33.29%", "38.39%", "36.64%", "25.90%", "MDMC", "14.44%", "36.94%", "13.24%", "25.97%", "14.17%", "24.05%", "14.84%", "19.19%", "MaMa-fml", "0.55%", "17.27%", "0.65%", "17.04%", "0.55%", "52.23%", "0.55%", "13.92%", "MaMa-pkg", "0.53%", "2.58%", "0.95%", "2.14%", "0.53%", "5.30%", "0.53%", "2.47%", "Malscan", "0.53%", "1.70%", "1.38%", "1.81%", "0.53%", "8.63%", "0.53%", "1.81%", "Tools", "RBD", "CR", "MR", "CSE", "JUNK", "CID", "ROR", "REF", "Drebin", "0.21%", "1.71%", "0.32%", "0.21%", "0.21%", "0.11%", "0.21%", "0.21%", "RevealDroid", "0.63%", "-0.73%", "0.84%", "0.63%", "0.63%", "0.95%", "0.63%", "0.63%", "MudFlow", "0.80%", "0.65%", "0.61%", "0.80%", "0.80%", "0.34%", "0.80%", "0.80%", "ALDroid", "0.11%", "0.00%", "0.21%", "0.11%", "0.11%", "0.00%", "0.11%", "0.11%", "Bai’s", "0.42%", "0.32%", "0.74%", "0.42%", "0.42%", "0.32%", "0.42%", "0.42%"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 471.84,
+    "y2": 672.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Table4-1.png"
+}, {
+  "caption": "Table 3: F1 of various detectors on MD and MC tasks.",
+  "captionBoundary": {
+    "x1": 66.6969985961914,
+    "x2": 280.8409118652344,
+    "y1": 455.83233642578125,
+    "y2": 461.4629821777344
+  },
+  "figType": "Table",
+  "imageText": ["F1:", "In", "the", "ideal", "setting,", "all", "three", "types", "of", "detectors", "perform", "well", "on", "the", "MD", "task,", "and", "Malscan", "shows", "the", "best", "performance.", "Moreover,", "the", "MC", "task", "is", "more", "challenging", "in", "comparison.", "EFCG", "0.942", "0.943", "0.942", "0.942", "0.885", "0.934", "0.927", "0.934", "0.929", "0.915", "APIGraph_p", "0.956", "0.957", "0.956", "0.956", "0.913", "0.932", "0.926", "0.929", "0.927", "0.913", "APIGraph_f", "0.955", "0.956", "0.955", "0.955", "0.911", "0.925", "0.926", "0.925", "0.925", "0.903", "MaMa-fml", "0.956", "0.956", "0.956", "0.956", "0.912", "0.929", "0.928", "0.928", "0.928", "0.908", "MaMa-pkg", "0.956", "0.957", "0.956", "0.956", "0.913", "0.940", "0.934", "0.938", "0.935", "0.923", "Malscan", "0.959", "0.959", "0.959", "0.959", "0.918", "0.934", "0.931", "0.931", "0.930", "0.916", "ImgDroid", "0.959", "0.959", "0.959", "0.958", "0.917", "0.906", "0.898", "0.908", "0.902", "0.873", "MDMC", "0.956", "0.957", "0.956", "0.956", "0.913", "0.939", "0.937", "0.935", "0.936", "0.921", "Acc", "P", "R", "F1", "MCC", "Acc", "P", "R", "F1", "MCC", "Drebin", "0.949", "0.949", "0.949", "0.949", "0.898", "0.948", "0.943", "0.943", "0.943", "0.933", "RevealDroid", "0.956", "0.956", "0.956", "0.956", "0.913", "0.941", "0.937", "0.936", "0.936", "0.924", "MudFlow", "0.940", "0.940", "0.940", "0.940", "0.880", "0.908", "0.907", "0.907", "0.907", "0.880", "ALDroid", "0.937", "0.937", "0.937", "0.937", "0.873", "0.917", "0.907", "0.913", "0.908", "0.894", "Bai’s", "0.954", "0.954", "0.954", "0.954", "0.907", "0.951", "0.948", "0.947", "0.947", "0.938", "Detector", "Malware", "detection", "Multi-category", "classification"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 466.56,
+    "y2": 643.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Table3-1.png"
+}, {
+  "caption": "Figure 1: The detectors are usually trained under the ideal setting and used under challenging environments.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0364074707031,
+    "y1": 240.62533569335938,
+    "y2": 257.21502685546875
+  },
+  "figType": "Figure",
+  "imageText": ["Ideal", "Setting", "Challenging", "Setting", "3.", "Feature", "Processing", "Model", "Malious", "sample", "Benign", "sample", "sample", "example", "Concept", "drift", "Adversarial", "sample", "Obfuscated", "4.", "Model", "Using", "2.", "Feature", "Extraction", "1.", "Preprocessing", "Testing", "4.", "Model", "Traing", "and", "3.", "Feature", "Processing", "2.", "Feature", "Extraction", "1.", "Preprocessing"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure1-1.png"
+}, {
+  "caption": "Table 5: Impact of code obfuscation on function call graphs.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.135498046875,
+    "y1": 414.2523498535156,
+    "y2": 419.88299560546875
+  },
+  "figType": "Table",
+  "imageText": ["F3:", "The", "obfuscation-resilience", "of", "detectors", "is", "closely", "related", "to", "the", "selected", "features.", "Different", "features", "exhibit", "distinct", "levels", "of", "robustness", "against", "various", "obfuscation", "techniques.", "More-", "over,", "utilizing", "global", "information", "extracted", "from", "classes.dex", "files", "as", "features", "can", "increase", "the", "risk", "of", "detection", "performance", "degradation", "caused", "by", "obfuscation.", "RBD", "0.000%", "0.317", "0.000%", "0.317", "CR", "+0.155%", "<0.05", "+0.083%", "<0.05", "MR", "+0.131%", "<0.05", "0.000%", "0.317", "CSE", "+0.140%", "<0.05", "+0.676%", "<0.05", "JUNK", "0.000%", "0.317", "0.000%", "0.317", "ROR", "0.000%", "0.317", "0.000%", "0.317", "CID", "+27.728%", "<0.05", "+19.473%", "<0.05", "REF", "+0.044%", "<0.05", "-0.174%", "<0.05", "Obf.Tec", "Node_diff", "Node_p", "Edge_diff", "Edge_p"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 424.8,
+    "y2": 609.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Table5-1.png"
+}, {
+  "caption": "Figure 2: P, R, F1 of detectors on the original and obfuscation test sets.",
+  "captionBoundary": {
+    "x1": 164.1699981689453,
+    "x2": 447.818359375,
+    "y1": 197.29537963867188,
+    "y2": 202.926025390625
+  },
+  "figType": "Figure",
+  "imageText": ["2", "5", "%", "~", "7", "5", "%", "M", "i", "n", "~", "M", "a", "x", "M", "e", "d", "i", "a", "n", "L", "i", "n", "e", "M", "e", "a", "n", "G", "r", "a", "p", "h", "-", "b", "a", "s", "e", "d", "I", "m", "a", "g", "e", "-", "b", "a", "s", "e", "d", "S", "t", "r", "i", "n", "g", "-", "b", "a", "s", "e", "d", "M", "a", "M", "a", "-", "f", "m", "l", "M", "a", "M", "a", "-", "p", "k", "g", "A", "P", "I", "G", "r", "a", "p", "h", "_", "f", "E", "F", "C", "G", "M", "a", "l", "s", "c", "a", "n", "A", "P", "I", "G", "r", "a", "p", "h", "_", "p", "I", "m", "g", "D", "r", "o", "i", "d", "M", "D", "M", "C", "B", "a", "i", "'", "s", "R", "e", "v", "e", "a", "l", "D", "r", "o", "i", "d", "M", "u", "d", "F", "l", "o", "w", "D", "r", "e", "b", "i", "n", "A", "L", "D", "r", "o", "i", "d", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1", "P", "R", "F", "1"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 557.28,
+    "y1": 86.88,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Impact of code obfuscation on color images.",
+  "captionBoundary": {
+    "x1": 66.08300018310547,
+    "x2": 281.75115966796875,
+    "y1": 308.51434326171875,
+    "y2": 314.1449890136719
+  },
+  "figType": "Figure",
+  "imageText": ["ORI", "RBD", "CID"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 285.12,
+    "y1": 221.76,
+    "y2": 303.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Comprehensive evaluation of various detectors.",
+  "captionBoundary": {
+    "x1": 322.5740051269531,
+    "x2": 553.5740966796875,
+    "y1": 313.6993408203125,
+    "y2": 319.3299865722656
+  },
+  "figType": "Figure",
+  "imageText": ["C", "L", "D", "-", "M", "D", ":", "m", "a", "l", "w", "a", "r", "e", "d", "e", "t", "e", "c", "t", "i", "o", "n", "p", "e", "r", "f", "o", "r", "m", "a", "n", "c", "e", "i", "n", "i", "d", "e", "a", "l", "s", "e", "t", "t", "i", "n", "g", "C", "L", "D", "-", "M", "C", ":", "m", "u", "l", "t", "i", "-", "c", "a", "t", "e", "g", "o", "r", "y", "c", "l", "a", "s", "s", "i", "f", "i", "c", "a", "t", "i", "o", "n", "p", "e", "r", "f", "o", "r", "m", "a", "n", "c", "e", "i", "n", "i", "d", "e", "a", "l", "s", "e", "t", "t", "i", "n", "g", "O", "b", "f", "u", "s", "c", "a", "t", "e", ":", "p", "e", "r", "f", "o", "r", "m", "a", "n", "c", "e", "a", "g", "a", "i", "n", "s", "t", "o", "b", "f", "u", "s", "c", "a", "t", "i", "o", "n", "t", "e", "c", "h", "n", "i", "q", "u", "e", "s", "C", "D", "-", "E", "v", "l", ":", "p", "e", "r", "f", "o", "r", "m", "a", "n", "c", "e", "a", "g", "a", "i", "n", "s", "t", "c", "o", "n", "c", "e", "p", "t", "d", "r", "i", "f", "t", "o", "f", "s", "o", "f", "t", "w", "a", "r", "e", "e", "v", "o", "l", "u", "t", "i", "o", "n", "C", "D", "-", "N", "D", ":", "p", "e", "r", "f", "o", "r", "m", "a", "n", "c", "e", "w", "h", "e", "n", "n", "e", "w", "c", "a", "t", "e", "g", "o", "r", "i", "e", "s", "e", "m", "e", "r", "g", "i", "n", "g", "G", "r", "a", "p", "h", "-", "b", "a", "s", "e", "d", "A", "L", "L", "D", "r", "e", "b", "i", "n", "R", "e", "v", "e", "a", "l", "D", "r", "o", "i", "d", "M", "u", "d", "F", "l", "o", "w", "A", "L", "D", "r", "o", "i", "d", "B", "a", "i", "'", "s", "S", "t", "r", "i", "n", "g", "-", "b", "a", "s", "e", "d", "I", "m", "a", "g", "e", "-", "b", "a", "s", "e", "d", "E", "f", "f", "i", "c", "i", "e", "n", "c", "y", "C", "L", "W", "-", "M", "D", "C", "L", "W", "-", "M", "C", "O", "b", "f", "u", "s", "c", "a", "t", "e", "C", "D", "-", "E", "v", "l", "C", "D", "-", "N", "D", "I", "m", "g", "D", "r", "o", "i", "d", "M", "D", "M", "C", "0", ".", "6", "0", ".", "7", "0", ".", "8", "0", ".", "9", "1", ".", "0", "E", "f", "f", "i", "c", "i", "e", "n", "c", "y", "C", "L", "W", "-", "M", "D", "C", "L", "W", "-", "M", "C", "O", "b", "f", "u", "s", "c", "a", "t", "e", "C", "D", "-", "E", "v", "l", "C", "D", "-", "N", "D", "0", ".", "6", "0", ".", "7", "0", ".", "8", "0", ".", "9", "1", ".", "0", "M", "a", "M", "a", "-", "f", "m", "l", "M", "a", "M", "a", "-", "p", "k", "g", "M", "a", "l", "s", "c", "a", "n", "A", "P", "I", "G", "r", "a", "p", "h", "_", "p", "A", "P", "I", "G", "r", "a", "p", "h", "_", "f", "E", "F", "C", "G", "E", "f", "f", "i", "c", "i", "e", "n", "c", "y", "C", "L", "W", "-", "M", "D", "C", "L", "W", "-", "M", "C", "O", "b", "f", "u", "s", "c", "a", "t", "e", "C", "D", "-", "E", "v", "l", "C", "D", "-", "N", "D", "0", ".", "6", "0", ".", "7", "0", ".", "8", "0", ".", "9", "1", ".", "0", "S", "t", "r", "i", "n", "g", "-", "b", "a", "s", "e", "d", "I", "m", "a", "g", "e", "-", "b", "a", "s", "e", "d", "G", "r", "a", "p", "h", "-", "b", "a", "s", "e", "d", "E", "f", "f", "i", "c", "i", "e", "n", "c", "y", "C", "L", "W", "-", "M", "D", "C", "L", "W", "-", "M", "C", "O", "b", "f", "u", "s", "c", "a", "t", "e", "C", "D", "-", "E", "v", "l", "C", "D", "-", "N", "D", "0", ".", "5", "0", ".", "6", "0", ".", "7", "0", ".", "8", "0", ".", "9", "1", ".", "0"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 556.3199999999999,
+    "y1": 86.88,
+    "y2": 298.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure8-1.png"
+}, {
+  "caption": "Table 6: Efficiency comparison for various detectors.",
+  "captionBoundary": {
+    "x1": 67.83599853515625,
+    "x2": 279.7025451660156,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["EFCG", "1.05", "GB", "1261", "KB", "6.84s", "APIGraph_p", "3795", "KB", "554", "KB", "118.76s", "APIGraph_f", "3795", "KB", "556", "KB", "109.64s", "MaMa-fml", "˜", "322", "KB", "107.35s", "MaMa-pkg", "˜", "630", "KB", "110.42s", "Malscan", "˜", "372", "KB", "3.65s", "ImgDroid", "˜", "29284", "KB", "1.52s", "MDMC", "˜", "29282", "KB", "1.83s", "Drebin", "13870", "KB", "1169", "KB", "88.35s", "RevealDroid", "˜", "556", "KB", "125.21s", "MudFlow", "˜", "707", "KB", "55.43s", "ALDroid", "˜", "1393", "KB", "2.86s", "Bai’s", "˜", "626", "KB", "2.54s", "Detector", "Feature", "model", "Classification", "model", "Testing", "time"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 287.03999999999996,
+    "y1": 96.96,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Table6-1.png"
+}, {
+  "caption": "Figure 4: The F1 of various detectors under scenario one and scenario two.",
+  "captionBoundary": {
+    "x1": 156.06500244140625,
+    "x2": 455.923828125,
+    "y1": 280.65435791015625,
+    "y2": 286.2850036621094
+  },
+  "figType": "Figure",
+  "imageText": ["D", "r", "e", "b", "i", "n", "R", "e", "v", "e", "a", "l", "D", "r", "o", "i", "d", "M", "u", "d", "F", "l", "o", "w", "A", "L", "D", "r", "o", "i", "d", "B", "a", "i", "'", "s", "I", "m", "g", "D", "r", "o", "i", "d", "M", "D", "M", "C", "M", "a", "M", "a", "-", "f", "m", "l", "M", "a", "M", "a", "-", "p", "k", "g", "M", "a", "l", "s", "c", "a", "n", "A", "P", "I", "G", "r", "a", "p", "h", "_", "p", "A", "P", "I", "G", "r", "a", "p", "h", "_", "f", "E", "F", "C", "G", "S", "c", "e", "n", "a", "r", "i", "o", "t", "w", "o", "D", "r", "e", "b", "i", "n", "R", "e", "v", "e", "a", "l", "D", "r", "o", "i", "d", "M", "u", "d", "F", "l", "o", "w", "A", "L", "D", "r", "o", "i", "d", "B", "a", "i", "'", "s", "I", "m", "g", "D", "r", "o", "i", "d", "M", "D", "M", "C", "M", "a", "M", "a", "-", "f", "m", "l", "M", "a", "M", "a", "-", "p", "k", "g", "M", "a", "l", "s", "c", "a", "n", "A", "P", "I", "G", "r", "a", "p", "h", "_", "p", "A", "P", "I", "G", "r", "a", "p", "h", "_", "f", "E", "F", "C", "G", "2", "0", "1", "9", "2", "0", "1", "8", "2", "0", "1", "7", "2", "0", "1", "6", "2", "0", "1", "9", "2", "0", "1", "8", "2", "0", "1", "7", "2", "0", "1", "6", "2", "0", "1", "9", "2", "0", "1", "8", "2", "0", "1", "7", "2", "0", "1", "6", "S", "t", "r", "i", "n", "g", "-", "b", "a", "s", "e", "d", "I", "m", "a", "g", "e", "-", "b", "a", "s", "e", "d", "G", "r", "a", "p", "h", "-", "b", "a", "s", "e", "d", "S", "c", "e", "n", "a", "r", "i", "o", "o", "n", "e", "2", "0", "1", "7", "2", "0", "1", "8", "2", "0", "1", "9", "2", "0", "2", "0", "2", "0", "1", "7", "2", "0", "1", "8", "2", "0", "1", "9", "2", "0", "2", "0", "2", "0", "1", "7", "2", "0", "1", "8", "2", "0", "1", "9", "2", "0", "2", "0", "S", "t", "r", "i", "n", "g", "-", "b", "a", "s", "e", "d", "I", "m", "a", "g", "e", "-", "b", "a", "s", "e", "d", "G", "r", "a", "p", "h", "-", "b", "a", "s", "e", "d", "0", ".", "4", "0", ".", "5", "0", ".", "6", "0", ".", "7", "0", ".", "8", "0", ".", "9", "1", ".", "0", "1", ".", "1", "1", ".", "0", "0", ".", "9", "0", ".", "8", "0", ".", "7"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 83.03999999999999,
+    "x2": 528.0,
+    "y1": 84.96,
+    "y2": 274.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The usage frequency of APIs, permission and actions in different years.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.793701171875,
+    "y1": 447.4283447265625,
+    "y2": 464.01800537109375
+  },
+  "figType": "Figure",
+  "imageText": ["2017", "24.10%", "2018", "22.63%", "2019", "25.80%", "2020", "26.73%", "0)", "op", "4", "ns", "(T", "ct", "io", "nd", "a", "ns", "a", "iss", "io", "Pe", "rm", "2017", "2018", "2019", "2020", "0", "20", "40", "60", "80", "100", "2018", "28.24%", "2019", "26.46%", "2020", "13.65%", ")", "2017", "2018", "2019", "2020", "p1", "00", "s", "(", "To", "A", "PI", "2017", "30.04%", "0", "20", "40", "60", "80", "100"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 565.4399999999999,
+    "y1": 305.76,
+    "y2": 432.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure5-1.png"
+}, {
+  "caption": "Table 1: Overview of studied learning-based Android malware detectors.",
+  "captionBoundary": {
+    "x1": 159.77699279785156,
+    "x2": 451.91607666015625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["EFCG", "[13]", "2021", "classes.dex", "Function", "call", "relationship", "NLP-enhanced,", "GCN", "RF,", "DT,", "SVM,", "LR,", "et", "al.", "APIGraph", "[59]", "2020", "classes.dex", "Function", "call", "relationship", "Upon", "other", "features", "Use", "other", "classifiers", "Malscan", "[49]", "2019", "classes.dex", "Function", "call", "relationship", "Compute", "the", "centrality", "of", "sensitive", "API", "calls", "RF,", "KNN", "MaMa-pkg", "[31]", "2017,", "2019", "classes.dex", "Function", "call", "relationship", "Abstracte", "API", "calls", "to", "package", "calls", "RF,", "KNN", "MaMa-fml", "[31]", "2017,", "2019", "classes.dex", "Function", "call", "relationship", "Abstracte", "API", "calls", "to", "family", "calls", "RF,", "KNN", "Graph-based", "MDMC", "[54]", "2020", "classes.dex", "Bytecode", "of", "classes.dex", "Convert", "bytecode", "to", "markov", "images", "CNN", "Image-based", "ImgDroid", "[51]", "2019", "classes.dex", "Bytecode", "of", "classes.dex", "Convert", "bytecode", "to", "color", "images", "CNN", "Used", "permissions,", "APIs", "and", "ICCs", "Hash", "SVM,", "RF,", "DT,", "KNN,", "MLP", "Bai’s", "[12]", "[11]", "2021", "Androidmanifest.xml,", "classes.dex", "Used", "permissions,", "APIs", "and", "Actions", "Hash", "BLS", "ALDroid", "[56]", "[27]", "2020", "Androidmanifest.xml,", "classes.dex", "API-Usage,", "Reflective", "API,", "Native", "Call", "Hash", "SVM", "RevealDroid", "[22]", "2018", "classes.dex,", "native", "binaries", "Data", "flows", "of", "sensitive", "sources", "Hash", "SVM", "MudFlow", "[10]", "2015", "Androidmanifest.xml,", "classes.dex", "Suspicious", "API", "calls,", "et", "al.", "Hash", "SVM", "Hardware", "components,", "Requested", "permissions,", "Drebin", "[7]", "2014", "Androidmanifest.xml,", "classes.dex", "String-based", "Type", "Name", "Years", "Feature", "Source", "Feature", "Extraction", "Feature", "processing", "Classifier"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 96.47999999999999,
+    "y2": 401.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Table1-1.png"
+}, {
+  "caption": "Figure 6: Threshold (T) and F1 in recognizing new category.",
+  "captionBoundary": {
+    "x1": 53.88399887084961,
+    "x2": 293.9486999511719,
+    "y1": 522.3163452148438,
+    "y2": 527.947021484375
+  },
+  "figType": "Figure",
+  "imageText": ["EFCG", "0.81", "0.830", "APIGraph_p", "0.83", "0.875", "APIGraph_f", "0.79", "0.843", "MaMa-fml", "0.58", "0.827", "MaMa-pkg", "0.83", "0.843", "Malscan", "0.83", "0.870", "ImgDroid", "0.99", "0.762", "MDMC", "0.99", "0.854", "Drebin", "0.59", "0.871", "RevealDroid", "0.83", "0.875", "MudFlow", "0.84", "0.625", "ALDroid", "0.33", "0.775", "Bai’s", "0.75", "0.868", "Detector", "T", "F1", "0", ".", "8", "1", "0", ".", "8", "3", "0", "T", "0", ".", "8", "M", "-", "F", "1", "0", ".", "7", "0", ".", "6", "0", ".", "4", "0", ".", "6", "0", ".", "8", "1", ".", "0"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 288.0,
+    "y1": 372.0,
+    "y2": 506.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure6-1.png"
+}, {
+  "caption": "Figure 7: 𝐸𝐷𝑅 of detectors on natural samples and AEs.",
+  "captionBoundary": {
+    "x1": 327.20001220703125,
+    "x2": 548.9502563476562,
+    "y1": 255.14236450195312,
+    "y2": 260.77301025390625
+  },
+  "figType": "Figure",
+  "imageText": ["EDR", "ORI", "AE", "RevealDroid", "Drebin", "MaMa-fml", "MaMa-pkg", "Bai's", "0.0%", "20.0%", "40.0%", "60.0%", "80.0%", "100.0%", "HIV_JSMA", "HIV_CW", "HIV_JSMA", "HIV_CW", "HIV_JSMA", "HIV_CW", "rfgsm_k", "dfgsm_k", "rfgsm_k", "dfgsm_k", "61.99%", "56.17%", "92.95%", "63.89%", "49.02%", "42.36%", "92.75%", "87.08%", "96.63%", "96.63%", "3.14%", "3.14%", "5.96%", "5.96%", "5.32%", "5.32%", "5.40%", "5.40%", "4.31%", "4.31%"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 555.84,
+    "y1": 84.0,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Figure7-1.png"
+}, {
+  "caption": "Table 2: The brief description of the dataset.",
+  "captionBoundary": {
+    "x1": 84.6259994506836,
+    "x2": 262.9149475097656,
+    "y1": 589.1253051757812,
+    "y2": 594.7559814453125
+  },
+  "figType": "Table",
+  "imageText": ["Android", "Software", "Multi-category", "Classification", "Dataset", "(Data-MC)", "Category", "Adware", "Banking", "Riskware", "SMS", "Benign", "Total", "#Sample", "1515", "2506", "2070", "2536", "4042", "12669", "Android", "Malware", "Detection", "Dataset", "(Data-MD)", "Years", "2016", "2017", "2018", "2019", "2020", "Total", "Benign", "1480", "1851", "1890", "1601", "1111", "7933", "Malicious", "1060", "1514", "1561", "1793", "1495", "7423", "Total", "2540", "3365", "3451", "3394", "2606", "15356"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 599.52,
+    "y2": 691.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623320-Table2-1.png"
+}]

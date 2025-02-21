@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 1: Experimental results on code summarization. “*” denotes statistical significance in comparison to the base models (i.e., two-sided 𝑡-test with 𝑝-value< 0.01).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.2742309570312,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["CodeT5", "Base", "model", "16.67", "34.28", "11.39", "1.05", "21.13", "40.27", "15.69", "1.22", "+HINT(1)", "18.32*", "35.49*", "12.36*", "1.22*", "22.33*", "41.42*", "16.31*", "1.35*", "+HINT(5)", "18.48*", "35.63*", "12.29*", "1.24*", "22.55*", "41.67*", "16.21*", "1.36*", "UniXcoder", "Base", "model", "17.16", "32.56", "11.05", "1.11", "22.42", "35.84", "15.38", "1.31", "+HINT(1)", "18.90*", "35.16*", "12.38*", "1.28*", "23.77*", "41.67*", "16.64*", "1.48*", "+HINT(5)", "19.79*", "35.83*", "13.12*", "1.36*", "23.98*", "41.93*", "16.83*", "1.50*", "CodeBERT", "Base", "model", "13.30", "26.75", "8.10", "0.58", "17.94", "32.35", "9.79", "0.59", "+HINT(1)", "14.58*", "29.06*", "8.74*", "0.69*", "18.81*", "34.18*", "10.52*", "0.69*", "+HINT(5)", "14.64*", "29.00*", "8.87*", "0.71*", "18.86*", "34.25*", "10.87*", "0.72*", "Approach", "JCSD", "PCSD", "BLEU-4", "ROUGE-L", "METEOR", "CIDEr", "BLEU-4", "ROUGE-L", "METEOR", "CIDEr"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 521.28,
+    "y1": 116.64,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Table1-1.png"
+}, {
+  "caption": "Figure 9: Error case on the code summarization task.",
+  "captionBoundary": {
+    "x1": 67.58100128173828,
+    "x2": 280.25445556640625,
+    "y1": 197.28433227539062,
+    "y2": 202.91497802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Summary", "generated", "by", "Unixcoder:", "print", "the", "current", "users", "name", "for", "the", "specified", "user.", "Summary", "generated", "by", "Unixcoder+HINT:", "prints", "the", "name", "for", "the", "specified", "bucket", "and", "user.", "Ground", "truth", "summary:", "prints", "out", "a", "buckets", "access", "control", "list", "for", "a", "given", "user.", "#", "Code", "from", "the", "test", "set:", "def", "print_bucket_acl_for_user(bucket_name,", "user_email):", "storage_client", "=", "storage.Client()", "bucket", "=", "storage_client.bucket(bucket_name)", "bucket.acl.reload()", "roles", "=", "bucket.acl.user(user_email).get_roles()", "print", "roles"],
+  "name": "9",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 84.96,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Error case on the assertion generation task.",
+  "captionBoundary": {
+    "x1": 65.00700378417969,
+    "x2": 282.8269348144531,
+    "y1": 379.4073486328125,
+    "y2": 385.0379943847656
+  },
+  "figType": "Figure",
+  "imageText": ["Generated", "pseudo", "label:", "org.junit.Assert.assertEquals(id,", "togglePanelItem.getId());", "Focal-test", "from", "Unlable", "dataset:", "testGetName(){", "java.lang.String", "id", "=", "\"id\";", "togglePanelItem.setId(id);", "\"<AssertPlaceHolder>\";}", "getId(){", "return", "id;", "}", "Assertion", "generated", "by", "Unixcoder+HINT:", "org.junit.Assert.assertThat(id,", "instance.getId());", "Ground", "truth", "assertion:", "org.junit.Assert.assertEquals(id,", "instance.getId());", "Focal-test", "from", "test", "set:", "testIdAccessor(){", "java.lang.Long", "id", "=", "3L;", "instance.setId(id);", "\"<AssertPlaceHolder>\";}", "getId(){", "return", "id;", "}"],
+  "name": "10",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 213.6,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure10-1.png"
+}, {
+  "caption": "Figure 1: Examples in the code summarization task for illustrating the motivation of the hybrid pseudo-labeled data selection method, which indicates the loss-based data selection strategy alone may incorrectly measure the quality of pseudo labels.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.79443359375,
+    "y1": 407.86334228515625,
+    "y2": 457.3299865722656
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "A", "Java", "example", "of", "high-quality", "pseudo-labeled", "data", "(top).", "√", "HIgh", "quality", "High", "Training", "Loss", "//Retrieved", "sample", "from", "the", "training", "dataset", "//Code", "public", "static", "boolean", "equal(Object", "a,", "Object", "b){", "return", "a==b||(a!=null&&a.equals(b));", "}", "//Summary", "//returns", "true", "if", "two", "possibly", "null", "objects", "are", "equal.", "High", "similarity", "//Sample", "from", "the", "unlabeled", "dataset", "//Code", "static", "boolean", "areEqual(Object", "a,", "Object", "b){", "return", "(a==null?b==null:a.equals(b));", "}", "//Pseudo-labeled", "Summary", "//check", "if", "two", "possibly", "null", "objects", "are", "equal.", "(a)", "A", "Python", "example", "of", "low-quality", "pseudo-labeled", "data", "(top).", "×", "Low", "quality", "Low", "Training", "Loss", "Low", "similarity", "#convert", "s", "to", "int", "or", "raise.", "#converts", "a", "string", "to", "s", "s.", "#Summary", "#Retrieved", "sample", "from", "the", "training", "dataset", "#Code", "def", "validate_int(s)", "try:", "return", "int(s)", "except", "ValueError:", "raise", "ValueError('Could", "not", "convert", "%s", "to", "int'", "%", "s)", "#Pseudo-labeled", "Summary", "#Sample", "from", "the", "unlabeled", "dataset", "#Code", "def", "validate_float(s)", "try:", "return", "float(s)", "except", "ValueError:", "raise", "ValueError('Could", "not", "convert", "%s", "to", "float'", "%", "s)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 84.96,
+    "y2": 392.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure1-1.png"
+}, {
+  "caption": "Table 3: Experimental results on assertion generation. “*” denotes statistical significance in comparison to the base models (i.e., two-sided 𝑡-test with 𝑝-value< 0.01).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.22186279296875,
+    "y1": 246.73635864257812,
+    "y2": 274.28497314453125
+  },
+  "figType": "Table",
+  "imageText": ["CodeT5", "Base", "model", "43.64", "72.56", "20.30", "+HINT(1)", "46.53*", "74.32*", "18.47*", "+HINT(5)", "47.66*", "75.22*", "18.17*", "UniXcoder", "Base", "model", "43.64", "72.67", "17.82", "+HINT(1)", "47.13*", "74.72*", "16.61*", "+HINT(5)", "47.56*", "74.76*", "16.21*", "CodeBERT", "Base", "model", "31.82", "65.99", "21.68", "+HINT(1)", "37.75*", "69.46*", "19.05*", "+HINT(5)", "38.58*", "69.48*", "19.20*", "Approach", "EM", "LCS", "ED"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 278.4,
+    "y1": 288.96,
+    "y2": 403.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Table3-1.png"
+}, {
+  "caption": "Table 2: Experimental results on defect detection. Statistical significance is not applicable to these metrics [10].",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03857421875,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["CodeT5", "Base", "model", "31.38", "20.32", "24.66", "+HINT(1)", "36.79", "22.36", "27.81", "+HINT(5)", "37.66", "22.36", "28.06", "UniXcoder", "Base", "model", "31.30", "17.63", "22.55", "+HINT(1)", "33.28", "20.96", "25.73", "+HINT(5)", "32.04", "22.26", "26.27", "CodeBERT", "Base", "model", "29.64", "17.63", "22.11", "+HINT(1)", "30.81", "21.52", "25.34", "+HINT(5)", "32.09", "22.36", "26.35", "Approach", "Precision", "Recall", "F1"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 281.28,
+    "y1": 116.64,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Table2-1.png"
+}, {
+  "caption": "Figure 8: Case study on the assertion generation task. The red and green texts highlight the difference in predictions made by UniXcoder and UniXcoder+HINT.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932983398438,
+    "y1": 495.8233642578125,
+    "y2": 523.3709716796875
+  },
+  "figType": "Figure",
+  "imageText": ["//Code", "from", "the", "test", "set:", "hasSubscriptionId_emptyID(){", "when(fixture.getSubscriptionId()).thenReturn(\"\");", "\"<AssertPlaceHolder>\";", "}", "hasSubscriptionId(){", "return", "((getSubscriptionId())!=null)&&(!(getSubscriptionId().isEmpty()));", "}", "Pseudo-labeled", "assertion:", "org.junit.Assert.assertFalse(intBagIterator.hasNext());", "Code", "from", "the", "Unlabeled", "dataset:", "hasNext_on_an_empty_collection__returns_false(){", "com.artemis.utils.IntBagIterator", "intBagIterator", "=", "new", "com.artemis.utils.IntBagIterator(new", "com.artemis.utils.IntBag(99));", "\"<AssertPlaceHolder>\";", "}", "hasNext(){", "return", "(this.cursor)<(size);", "}", "Assertion", "generated", "by", "Unixcoder:", "org.junit.Assert.assertTrue(fixture.hasSubscriptionId());", "Assertion", "generated", "by", "Unixcoder+HINT:", "org.junit.Assert.assertFalse(fixture.hasSubscriptionId());", "Ground", "truth", "assertion:", "org.junit.Assert.assertFalse(fixture.hasSubscriptionId());"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 289.92,
+    "y2": 482.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Case study on the code summarization task. The green texts highlight the similar part between the prediction of UniXcoder+HINT and pseudo-labeled summary.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932983398438,
+    "y1": 246.96133422851562,
+    "y2": 274.50897216796875
+  },
+  "figType": "Figure",
+  "imageText": ["Pseudo-labeled", "summary:", "creates", "new", "scannerexception", "with", "message", "and", "line", "number.", "Code", "from", "the", "Unlabeled", "dataset:", "public", "ScannerException(ErrorMessages", "message,", "int", "line){", "this(null,", "ErrorMessages.get(message),", "message,", "line,", "-_NUM);", "}", "Summary", "generated", "by", "Unixcoder:", "constructs", "a", "new", "exchange", "object.", "Summary", "generated", "by", "Unixcoder+HINT:", "constructs", "an", "exchange", "with", "the", "given", "request", "and", "origin.", "Ground", "truth", "summary:", "creates", "a", "new", "exchange", "with", "the", "specified", "request", "and", "origin.", "//Code", "from", "the", "test", "set:", "public", "Exchange(final", "Request", "request,", "final", "Origin", "origin){", "this.currentRequest", "=", "request;", "this.origin", "=", "origin;", "this.timestamp", "=", "System.currentTimeMillis();", "}"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 552.0,
+    "y1": 84.0,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure7-1.png"
+}, {
+  "caption": "Figure 2: The overview of HINT.",
+  "captionBoundary": {
+    "x1": 240.63099670410156,
+    "x2": 371.3641662597656,
+    "y1": 305.745361328125,
+    "y2": 311.3760070800781
+  },
+  "figType": "Figure",
+  "imageText": ["selection", "fail", "×", "Retrieval-based", "pass", "√", "Loss-based", "selection", "Code:", "public", "long", "read(", "ByteBuffer", "buffer", ")", "{", "long", "...", "Summary:", "reads", "the", "int", "value", "of", "id", "from", "the", "...", "Retrieved", "code", "Code:", "public", "int", "read(final", "String", "path,", "final", "Buffer", "...", "Summary:", "reads", "the", "int", "value", "of", "id", "from", "the", "...", "Code:", "public", "long", "read(", "ByteBuffer", "buffer", ")", "{", "long", "...", "Summary:", "reads", "the", "int", "value", "of", "id", "from", "the", "...", "Selected", "pseudo-", "labeled", "data", "S", "Retrieved", "code", "Pseudo", "labeled", "code", "②", "Hybrid", "Pseudo-labeled", "Data", "Selection", "SCE", "loss", "SCE", "loss", "KL", "loss", "Code:", "public", "int", "read(final", "String", "path,", "final", "Buffer", "...", "Summary:", "reads", "the", "int", "value", "of", "id", "from", "the", "...", "public", "long", "read(", "<MASK>", "buffer", ")", "{", "long", "public", "long", "read(", "ByteBuffer", "buffer", ")", "{", "long", "Model", "Substitution", "g(.)", "Prediction", "Transformed", "Code", "Code", "③", "Noise-tolerant", "Training", "Student", "model", "Initialization", "Training", "Pseudo-labeled", "data", "P", "①", "Pseudo", "Label", "Generation", "Teacher", "model", "Unlabeled", "data", "U", "Labeled", "data", "D"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 519.36,
+    "y1": 84.47999999999999,
+    "y2": 291.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure2-1.png"
+}, {
+  "caption": "Table 4: Ablation study of HINT. Best and second best results are marked in bold and underline respectively.",
+  "captionBoundary": {
+    "x1": 86.41799926757812,
+    "x2": 525.283447265625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder+HINT", "18.90", "35.16", "12.38", "1.28", "33.28", "20.96", "25.73", "47.13", "74.72", "16.61", "Random", "selection", "18.34", "34.11", "11.70", "1.23", "34.39", "16.14", "21.97", "45.27", "73.65", "17.10", "-w/o", "loss-based", "selection", "18.54", "34.09", "12.34", "1.24", "26.87", "18.65", "22.02", "45.55", "73.96", "17.10", "-w/o", "retrieval-based", "selection", "18.71", "34.91", "12.21", "1.26", "32.33", "19.94", "24.67", "45.03", "73.50", "17.16", "-w/o", "data", "selection", "18.27", "34.44", "12.03", "1.21", "34.71", "16.42", "22.29", "47.03", "74.64", "16.65", "-w/o", "noise", "tolerant", "loss", "18.93", "34.96", "12.26", "1.29", "33.02", "19.57", "24.58", "46.64", "74.46", "16.56", "-w/o", "consistency", "regularization", "18.78", "35.03", "12.40", "1.27", "33.82", "19.29", "24.57", "46.81", "74.55", "16.70", "Approach", "Code", "Summarization", "Defect", "Detection", "Assertion", "Generation", "BLEU-4", "ROUGE-L", "METEOR", "CIDEr", "Precision", "Recall", "F1", "EM", "LCS", "ED"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 92.64,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Table4-1.png"
+}, {
+  "caption": "Table 5: Experimental results on cross-domain scenario. “*” denotes statistical significance in comparison to the base models (i.e., two-sided 𝑡-test with 𝑝-value< 0.01).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1832275390625,
+    "y1": 222.35934448242188,
+    "y2": 238.948974609375
+  },
+  "figType": "Table",
+  "imageText": ["26.00", "47.50", "Approach", "Python→", "Java", "Java→", "Python", "BLEU-4", "ROUGE-L", "METEOR", "CIDEr", "BLEU-4", "ROUGE-L", "METEOR", "CIDEr", "CodeBERT", "9.98", "20.01", "4.99", "0.21", "12.65", "22.35", "7.02", "0.25", "CodeBERT+HINT", "13.82*", "27.71*", "8.10*", "0.60*", "16.14*", "30.33*", "9.89*", "0.58*", "CodeT5", "7.75", "12.55", "7.12", "0.29", "14.81", "30.59", "9.66", "0.84", "CodeT5+HINT", "14.09*", "22.51*", "9.28*", "0.88*", "16.85*", "33.70*", "10.77*", "1.07*", "UniXcoder", "12.68", "26.03", "8.33", "0.66", "13.18", "20.94", "10.70", "0.64", "UniXcoder+HINT", "16.33*", "32.22*", "10.54*", "1.03*", "17.26*", "28.28*", "13.14*", "0.97*"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 559.1999999999999,
+    "y1": 253.92,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Table5-1.png"
+}, {
+  "caption": "Figure 3: An example of a pseudo label with a minor error.",
+  "captionBoundary": {
+    "x1": 319.82598876953125,
+    "x2": 556.3220825195312,
+    "y1": 209.00936889648438,
+    "y2": 214.6400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["//Code", "from", "the", "Unlabeled", "dataset:", "testPreserveProperty(){", "java.lang.Object", "value", "=", "new", "java.lang.Object();", "adapter.preserve(\"prop\",value);", "\"<AssertPlaceHolder>\";", "}", "getPreserved(java.lang.String)", "{", "throw", "new", "java.lang.UnsupportedOperationException();", "}", "Pseudo-labeled", "assertion:", "org.junit.Assert.assertEquals(value,adapter.getPreserved(\"prop\"))", "Ground", "truth", "assertion:", "org.junit.Assert.assertSame(value,adapter.getPreserved(\"prop\"))"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 84.0,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Parameter analysis on 𝑡 and `.",
+  "captionBoundary": {
+    "x1": 94.09600067138672,
+    "x2": 253.74668884277344,
+    "y1": 237.33334350585938,
+    "y2": 242.9639892578125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Analysis", "of", "the", "parameter", "t", "(b)", "Analysis", "of", "the", "parameter", "μ", "Defect", "DetectionCode", "Summarization", "Assertion", "Generation", "-4", "BL", "EU", "0.2", "0.3", "0.4", "0.5", "18.70", "18.80", "18.90", "19.00", "F1", "0.2", "0.3", "0.4", "0.5", "24.00", "24.70", "25.40", "26.10", "EM", "0.2", "0.3", "0.4", "0.5", "46.50", "46.75", "47.00", "47.25", "F1", "0", "0.25", "0.5", "0.75", "1", "24.00", "24.70", "25.40", "26.10", "EM", "0", "0.25", "0.5", "0.75", "1", "46.50", "46.75", "47.00", "47.25", "-4", "BL", "EU", "0", "0.25", "0.5", "0.75", "1", "18.70", "18.80", "18.90", "19.00"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 293.28,
+    "y1": 82.56,
+    "y2": 222.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Performance on each Iteration.",
+  "captionBoundary": {
+    "x1": 92.0409927368164,
+    "x2": 255.7959747314453,
+    "y1": 471.7403564453125,
+    "y2": 477.3710021972656
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Assertion", "generation.", "EM", "0", "1", "2", "3", "4", "5", "6", "48.0", "46.5", "45.0", "43.5", "(c)", "Defect", "detection.", "F1", "0", "1", "2", "3", "4", "5", "6", "26.5", "25.0", "23.5", "22.0"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 355.68,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639216-Figure6-1.png"
+}]

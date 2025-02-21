@@ -1,0 +1,101 @@
+[{
+  "caption": "Figure 3: Dockerfile Component Matching Example",
+  "captionBoundary": {
+    "x1": 201.53700256347656,
+    "x2": 410.4537353515625,
+    "y1": 270.3693542480469,
+    "y2": 276.0
+  },
+  "figType": "Figure",
+  "imageText": ["H", "Before", "After", "Deletion", "Addition", "Shell-Stripping", "Uniﬁcation", "C", "B", "2", "1", "Matched", "Stages", "M", "C", "B", "A", "2", "1", "RUN", "pip", "install", "requirements.txt", "RUN", "/app/backend/scripts/setup.production.sh", "8", "RUN", "pip", "install", "requirements.txt", "FROM", "python:3.8-slim", "AS", "Production", "WORKDIR", "/app", "ENV", "APP_MODE=production", "COPY", "--from=frontend-build", "/frontend/build", "/app/frontend/build", "COPY", "--from=backend-build", "/backend", "/app/backend", "RUN", "/app/backend/scripts/setup.${APP_MODE}.sh", "CMD", "[\"python\",", "\"backend/app.py\"]", "FROM", "python:3.8", "AS", "backend-build", "WORKDIR", "/backend", "COPY", "backend/", "/backend/", "RUN", "pip", "install", "--no-cache-dir", "-r", "requirements.txt", "FROM", "node:14", "AS", "frontend-build", "WORKDIR", "/frontend", "COPY", "frontend/", "/frontend/", "RUN", "npm", "install", "-&", "npm", "run", "build", "O", "N", "L", "M", "J", "I", "H", "D", "E", "14", "13", "11", "12", "10", "9", "8", "5", "1", "9", "10", "11", "12", "13", "14", "1", "2", "3", "4", "5", "6", "7", "8", "I", "J", "K", "L", "M", "N", "O", "E", "F", "G", "H", "A", "B", "C", "D", "Matched", "Instructions", "FROM", "python:3.8", "AS", "Production", "WORKDIR", "/app", "COPY", "--from=build", "/app/frontend/build", "/app/frontend/build", "COPY", "--from=build", "/app/backend", "/app/backend", "RUN/app/backend/scripts/setup.production.sh", "CMD", "[\"python\",", "\"backend/app.py\"]", "FROM", "python:3.8", "AS", "build", "ADD", ".", "/app", "WORKDIR", "/app/frontend", "RUN", "apt-get", "update", "-&", "apt-get", "install", "nodejs", "npm", "RUN", "npm", "install", "RUN", "npm", "run", "build", "WORKDIR", "/app/backend", "RUN", "pip", "install", "-r", "requirements.txt"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644921-Figure3-1.png"
+}, {
+  "caption": "Table 1: Refactoring detection rules",
+  "captionBoundary": {
+    "x1": 233.83900451660156,
+    "x2": 377.85980224609375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["d", "represents", "the", "Dockerfile", "currently", "being", "analyzed.", "d’", "represents", "any", "Dockerfile", "(except", "d)", "that", "was", "edited", "in", "the", "same", "commit.", "i.commands:", "Set", "grouping", "all", "command", "parameters", "of", "a", "RUN", "instruction", "i.", "dependency(𝑠1,", "𝑠2):", "Returns", "True", "if", "there", "is", "a", "dependency", "between", "𝑠1", "and", "𝑠2", ".", "match(𝑠1,", "𝑠2):", "Returns", "True", "if", "we", "can", "match", "𝑠1", "to", "𝑠2", ".", "Inline", "Stage", "∃(𝑠1,", "𝑠2", ")", "∈", "𝑆=𝑑", ",", "𝑠3", "∈", "𝑆−𝑑", "|dependency(𝑠1,", "𝑠3", ")", "Move", "Stage", "∃𝑠1", "∈", "𝑆−𝑑", ",", "𝑠2", "∈", "𝑆+𝑑", "′", "|match(𝑠1,", "𝑠2", ")", "St", "ag", "e", "Extract", "Stage", "∃(𝑠1,", "𝑠2", ")", "∈", "𝑆=𝑑", ",", "𝑠3", "∈", "𝑆+𝑑", "|dependency(𝑠2,", "𝑠3", ")", "𝑖2", ".𝑜", "∧", "𝑖3", ".𝑜", ">", "𝑖4", ".𝑜", "Extract", "RUN", "Instructions", "∃(𝑠1,", "𝑠2", ")", "∈", "𝑆=", "𝑑", ",", "𝑖1", "∈", "𝐼", "−", "𝑑", ",", "𝑖2", "∈", "𝐼+", "𝑑", "|𝑖1", "∈", "𝑠1", ".𝐼", "∧", "𝑖2", "∈", "𝑠2", ".𝐼", "∧", "𝑖1", ".𝑡", "=", "’RUN’", "∧", "𝑖2", ".𝑡", "=", "’RUN’", "∧", "𝑖1", ".𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠", "∩", "𝑖2", ".𝑠𝑐𝑟𝑖𝑝𝑡", "Sort", "Instructions", "∃(𝑠1,", "𝑠2", ")", "∈", "𝑆=𝑑", ",", "(𝑖1,", "𝑖2", "),", "(𝑖3,", "𝑖4", ")", "∈", "𝐼=𝑑", "|𝑖1", "∈", "𝑠1", ".𝐼", "∧", "𝑖2", "∈", "𝑠1", ".𝐼", "∧", "𝑖3", "∈", "𝑠2", ".𝐼", "∧", "𝑖4", "∈", "𝑠2", ".𝐼", "∧", "𝑖1", ".𝑜", "<", "𝑖2", ".𝑡", "=", "’RUN’", "∧", "𝑖3", ".𝑡", "=", "’RUN’", "∧", "𝑖2", ".𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠", "∩", "𝑖3", ".𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠", "≠", "∅", "∧", "𝑖1", ".𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠", "∩", "𝑖3", ".𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠", "≠", "𝑖2", ".𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠", "∩", "𝑖3", ".𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠", "Update", "Base", "Image", "tag", "∃(𝑖1,", "𝑖2", ")", "∈", "𝐼=𝑑", "|𝑖1", ".𝑡", "=", "’FROM’", "∧", "𝑖2", ".𝑡", "=", "’FROM’", "∧", "𝑖1", ".𝑖𝑚𝑎𝑔𝑒", "=", "𝑖2", ".𝑖𝑚𝑎𝑔𝑒", "∧", "𝑖1", ".𝑡𝑎𝑔", "≠", "𝑖2", ".𝑡𝑎𝑔", "Rename", "Image", "∃(𝑖1,", "𝑖2", ")", "∈", "𝐼=𝑑", "|𝑖1", ".𝑡", "=", "’FROM’∧𝑖2", ".𝑡", "=", "’FROM’∧𝑖1", ".𝑖𝑚𝑎𝑔𝑒", "=", "𝑖2", ".𝑖𝑚𝑎𝑔𝑒∧𝑖1", ".𝑎𝑙𝑖𝑎𝑠", "≠", "𝑖2", ".𝑎𝑙𝑖𝑎𝑠", "Inline", "Run", "Instructions", "∃(𝑠1,", "𝑠2", ")", "∈", "𝑆=", "𝑑", ",", "(𝑖1,", "𝑖2", ")", "∈", "𝐼=", "𝑑", ",", "𝑖3", "∈", "𝐼", "−", "𝑑", "|𝑖1", "∈", "𝑠1", ".𝐼", "∧", "𝑖2", "∈", "𝑠2", ".𝐼", "∧", "𝑖3", "∈", "𝑠1", ".𝐼", "∧", "𝑖1", ".𝑡", "=", "’RUN’", "∧", "𝑖2", ".𝑖𝑚𝑎𝑔𝑒", "𝑑", "|𝑖1", "∈", "𝑠1", ".𝐼", "∧", "𝑖2", "∈", "𝑠2", ".𝐼", "∧", "𝑖1", ".𝑡", "=", "’FROM’", "∧", "𝑖2", ".𝑡", "=", "’FROM’", "∧", "𝑖1", ".𝑖𝑚𝑎𝑔𝑒", "≠", "Add", "ENV", "Variable", "∃𝑖", "∈", "𝐼+", "𝑑", "|𝑖", ".𝑡", "=", "’ENV’", "Add", "ARG", "Instruction", "∃𝑖", "∈", "𝐼+", "𝑑", "|𝑖", ".𝑡", "=", "’ARG’", "Replace", "ADD", "with", "COPY", "∃(𝑠1,", "𝑠2", ")", "∈", "𝑆=𝑑", ",", "(𝑖1,", "𝑖2", ")", "∈", "𝐼=𝑑", "|𝑖1", "∈", "𝑠1", ".𝐼", "∧", "𝑖2", "∈", "𝑠2", ".𝐼", "∧", "𝑖1", ".𝑡", "=", "’ADD’", "∧", "𝑖2", ".𝑡", "=", "’COPY’", "Update", "Base", "Image", "∃(𝑠1,", "𝑠2", ")", "∈", "𝑆=", "In", "st", "ru", "ct", "io", "n", "Dockerfile", "Components", "Refactoring", "Type", "(defined", "at", "[18])", "Rule"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 527.04,
+    "y1": 94.56,
+    "y2": 320.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644921-Table1-1.png"
+}, {
+  "caption": "Figure 1: DRMiner Approach Overview",
+  "captionBoundary": {
+    "x1": 359.0580139160156,
+    "x2": 517.0925903320312,
+    "y1": 263.1673278808594,
+    "y2": 268.7979736328125
+  },
+  "figType": "Figure",
+  "imageText": ["Analysis", "RQ3:", "DRMiner", "Misdetection", "Ksontini", "et", "al.", "[18]", "RQ2:", "DRMiner", "Generalisation", "351", "Dockerﬁles", "223", "commits", "187", "projects310", "Dockerﬁles", "73", "commits", "35", "projects", "RQ1:", "DRMiner", "Correctness", "Matched", "&", "Unmatched", "Components", "DRMiner", "Refactorings", "Detection", "Component", "Matching", "Generate", "Generate", "E-AST", "E-AST", "V1", "V2", "12", "Refactoring", "Detection", "rules", "12", "Dockerﬁle", "Refactoring", "Deﬁnitions", "Extract"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 160.79999999999998,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644921-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Representation of a Dockerfile example using E-AST",
+  "captionBoundary": {
+    "x1": 180.7270050048828,
+    "x2": 431.2638854980469,
+    "y1": 280.32135009765625,
+    "y2": 285.9519958496094
+  },
+  "figType": "Figure",
+  "imageText": ["n", "n", "n", "n", "n", "n2", "s2", "n1", "s1", "Value", "node", "Stage", "node", "n2", "node", "is", "parent", "of", "n1", "node", "s2", "stage", "depends", "on", "s1", "stage", "Instruction", "node", "Parameter", "node", "Root", "node", "n", "Dockerﬁle-Root", "FROM", "python:3.8", "AS", "Production", "WORKDIR", "/app", "COPY", "--from=build", "/app/frontend/build", "/app/frontend/build", "COPY", "--from=build", "/app/backend", "/app/backend", "RUN/app/backend/scripts/setup.production.sh", "CMD", "[\"python\",", "\"backend/app.py\"]", "FROM", "python:3.8", "AS", "build", "ADD", ".", "/app", "WORKDIR", "/app/frontend", "RUN", "apt-get", "update", "-&", "apt-get", "install", "nodejs", "npm", "RUN", "npm", "install", "RUN", "npm", "run", "build", "WORKDIR", "/app/backend", "RUN", "pip", "install", "-r", "requirements.txt", "build", "python", "backend/app.py", "/app/[...]/setup.production.sh", "/app/backend", "/app/backend", "build", "/app/frontend/build", "/app/frontend/build", "Workdir", "Path", "/app", "3.8", "python", "pip", "install", "-r", "requirements.txt", "/app/backend", "npm", "run", "build", "npm", "install", "apt-get", "install", "nodejs", "npm", "apt-get", "update", "/app/frontend", "/app", ".", "build", "3.8", "python", "command", "command", "CMD", "RUN", "From-Flag", "DestCOPY", "Src", "From-Flag", "DestCOPY", "Src", "Tag", "FROM", "Image", "build", "RUNcommand", "WorkdirPath", "command", "command", "RUN", "RUN", "RUN", "command", "command", "WorkdirPath", "ADD", "Src", "Dest", "Alias", "Tag", "Image", "FROM", "Production", "n"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 40.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644921-Figure2-1.png"
+}, {
+  "caption": "Table 2: Precision, recall, and F1 per refactoring type",
+  "captionBoundary": {
+    "x1": 199.2729949951172,
+    "x2": 412.421630859375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Move", "Stage", "1", "0", "0", "100%", "100%", "1.00", "1", "0", "0", "100%", "100%", "1.00", "Inline", "Stage", "2", "0", "0", "100%", "100%", "1.00", "20", "0", "0", "100%", "100%", "1.00", "Update", "Base", "Image", "80", "8", "0", "91%", "100%", "0.95", "63", "58", "0", "52%", "100%", "0.68", "Inline", "Run", "Instruction", "31", "0", "1", "100%", "97%", "0.98", "121", "0", "25", "100%", "83%", "0.91", "Extract", "Run", "Instruction", "37", "0", "2", "100%", "95%", "0.97", "12", "0", "0", "100%", "100%", "1.00", "Add", "ARG", "Instruction", "30", "1", "0", "97%", "100%", "0.98", "105", "3", "0", "97%", "100%", "0.99", "Add", "ENV", "Variable", "74", "3", "0", "96%", "100%", "0.98", "195", "0", "0", "100%", "100%", "1.00", "Sort", "Instructions", "72", "3", "0", "96%", "100%", "0.98", "104", "7", "0", "94%", "100%", "0.97", "Rename", "Image", "5", "0", "8", "100%", "38%", "0.56", "21", "0", "0", "100%", "100%", "1.00", "Extract", "Stage", "6", "0", "0", "100%", "100%", "1.00", "15", "0", "0", "100%", "100%", "1.00", "Update", "Base", "Image", "Tag", "15", "1", "0", "94%", "100%", "0.97", "94", "1", "0", "99%", "100%", "0.99", "Replace", "ADD", "with", "COPY", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "29", "0", "0", "100%", "100%", "1.00", "Overall", "353", "16", "11", "95.1%", "97%", "0.96", "780", "69", "25", "91.9%", "96.9%", "0.941", "Refactoring", "Type", "RQ1", "RQ2", "TP", "FP", "FN", "Precision", "Recall", "F1", "TP", "FP", "FN", "Precision", "Recall", "F1"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 533.28,
+    "y1": 94.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644921-Table2-1.png"
+}]

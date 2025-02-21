@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 4: Number of configurations. GIT = GUI Information Type; RRT = Re-ranking Technigues; QE = Query Expansion; QR = Query Replacement",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.8794555664062,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "Number", "of", "Configurations", "657", "Query", "5", "3", "15", "Reform.", "5", "3", "15", "+", "9", "5", "3", "135", "Boosting", "9", "5", "3", "135", "Filtering", "9", "3", "27", "5", "5", "3", "75", "Boosting", "5", "3", "15", "5", "5", "3", "75", "5", "5", "3", "75", "Augmen-", "tation", "#", "GIT", "(RRT)", "#", "GIT", "(QE)", "#", "GIT", "(QR)", "#", "Screens", "×", "configs", "Filtering", "5", "3", "15", "5", "5", "3", "75"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 553.4399999999999,
+    "y1": 117.6,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table4-1.png"
+}, {
+  "caption": "Table 3: Combinations of the Filtering+Boosting re-ranking methods and GUI-Related File types considered. GS = GUI Screen; EGC = Exercised GUI Component; SC = GUI Screen Components.",
+  "captionBoundary": {
+    "x1": 53.50201416015625,
+    "x2": 295.4692077636719,
+    "y1": 85.72640991210938,
+    "y2": 111.28302001953125
+  },
+  "figType": "Table",
+  "imageText": ["GS+SC", "✓", "✓", "✓", "✓", "GS+EGC", "✓", "✓", "SC", "✓", "✓", "✓", "GS", "EGC", "Flt", "Bst", "GS", "EGC", "GS+EGC", "SC", "GS+SC"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 289.44,
+    "y1": 115.67999999999999,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table3-1.png"
+}, {
+  "caption": "Figure 1: Example of GUI-related information used in this study",
+  "captionBoundary": {
+    "x1": 176.0279998779297,
+    "x2": 435.96124267578125,
+    "y1": 242.72537231445312,
+    "y2": 248.35601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["Matches", "Component", "Resource", "ID", "1", "2", "3", "4", "Matches", "1)", "DocumentActivity.java", "2)", "DocumentEditFragment.java", "3)", "DocumentRelayActivity.java", "4)", "DocumentShareIntoFragment.java", "5)", "IntroActivity.java", "6)", "MoreInfoFragment.java", "7)", "SeingsActivity.java", "8)", "OpenEditorActivity.java", "9)", "TextConverter.java", "1)", "MainActivity.java", "1)", "MainActivity.java", "2)", "MoreFragment.java", "3)", "NewFileDialog.java", "Window:", "None", "Activity:", "MainActivity", "Window:", "NewFileDialog", "Main", "Activity", ".java", "Activity:", "MainActivity", "All", "GUI", "Component", "Info", "Exercised", "GUI", "Component", "Info", "GUI", "Screen", "Information", "Component", "Metadata", "-", "Component", "Image", "GUI", "Screens", "GUI", "Components", "Src", "Code", "Files", "GUI-Related", "Files", "GUI", "Screen", "More", "Fragment", ".java", "Document", "Edit", "Fragment", ".java", "NewFile", "Dialog", ".java", "Document", "Activity", ".java", "Exercised", "GUI", "Component", "<node", "bounds=\"[849,1479][996,1626]\"", "checkable=\"false\"", "checked=\"false\"", "class=\"android.widget.ImageButton”", "clickable=\"false\"", "content-desc=\"Create", "a", "new", "file", "or", "folder\"", "enabled=\"true\"", "focusable=\"true\"", "focused=\"false\"", "index=\"0\"", "long-clickable=\"true\"", "package=\"net.gsantner.markor\"", "password=\"false\"", "resource-id=\"android:id/fab_add_new_item\"", "scrollable=\"false\"", "selected=\"false\"", "text=\"\"/>", "Buggy", "GUI", "Screen"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 545.28,
+    "y1": 77.75999999999999,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Example Bug Report from the Markor[7] App",
+  "captionBoundary": {
+    "x1": 326.39300537109375,
+    "x2": 549.75390625,
+    "y1": 389.13836669921875,
+    "y2": 394.7690124511719
+  },
+  "figType": "Figure",
+  "imageText": ["Steps", "to", "reproduce:", "1.", "Create", "a", "new", "file,", "change", "type", "to", "e.g.", "todo.txt,", "save", "it", "2.", "Create", "another", "new", "file", "3.", "Observe", "the", "dialogue", "correctly", "remembers", ".todo.txt", "as", "the", "previously", "used", "file", "extension,", "but", "below", "that", "it", "says", "Type:", "Markdown", "…", "the", "second", "new", "file", "is", "named", "something.todo.txt,", "so", "the", "app", "is", "correctly", "remembering", "the", "user's", "last", "seings,", "but", "nonetheless", "it", "looks", "odd", "and", "confusing", "to", "the", "user.", "It", "also", "makes", "it", "harder", "when", "you", "want", "to", "make", "a", "Markdown", "file", "as", "you", "have", "to", "choose", "something", "other", "than", "Markdown", "then", "choose", "Markdown", "again", "before", "the", "file", "extension", "will", "change", "to", ".md.", "Bug", "Report", "Title:", "New", "file", "dialogue", "always", "says", "Type:", "Markdown", "rather", "than", "previous", "type", "used"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 254.88,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Figure2-1.png"
+}, {
+  "caption": "Table 7: Best performing GUI Information configurations according to % relative improvement for Hits@10.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.189697265625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Query", "Replacement", "—", "—", "—", "Query", "Expansion", "GS", "4", "6.25", "Lucene", "Filtering+Boosting", "SC(F)+GS(B)", "4", "12.50", "Filtering", "SC", "3", "4.69", "Boosting", "GS", "4", "9.38", "Query", "Replacement", "GS+SC", "3", "8.93", "Query", "Expansion", "SC", "2", "14.29", "UniXCoder", "Filtering+Boosting", "SC(F)+GS(B)", "4", "12.50", "Filtering", "—", "—", "—", "Boosting", "GS", "4", "12.50", "Query", "Replacement", "—", "—", "—", "Query", "Expansion", "—", "—", "—", "SentenceBERT", "Filtering+Boosting", "SC(F)+[GS+EGC(B)]", "3", "15.52", "Filtering", "SC", "2", "5.17", "Boosting", "GS+EGC", "3", "15.52", "Query", "Replacement", "GS+SC", "2", "1.75", "Query", "Expansion", "SC", "2", "8.77", "BugLocator", "Filtering+Boosting", "SC(F)+GS(B)", "4", "14.04", "Boosting", "GS", "4", "12.28", "Approach", "Augmentation", "Information", "Type", "#", "Screens", "HIT@10", "Improvement", "Filtering", "SC", "3", "1.75"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 554.4,
+    "y1": 106.56,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table7-1.png"
+}, {
+  "caption": "Table 5: Number of configurations exhibiting positive % improvement in Hits@10 over baselines across # of screens.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6369323730469,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "332", "384", "364", "1,080", "Lucene", "80", "86", "82", "248", "UnixCoder", "101", "114", "97", "312", "SentenceBERT", "61", "69", "75", "205", "Approach", "2", "Screens", "3", "Screens", "4", "Screens", "#", "Screens", "BugLocator", "90", "115", "110", "315"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 282.24,
+    "y1": 106.56,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table5-1.png"
+}, {
+  "caption": "Table 6: Average positive % improvement of Hits@10 over baselines across the number of screens.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2249755859375,
+    "y1": 185.63937377929688,
+    "y2": 202.22802734375
+  },
+  "figType": "Table",
+  "imageText": ["Lucene", "1.56", "5.55", "9.37", "1.56", "5.65", "10.94", "1.56", "5.79", "12.50", "Overall", "1.56", "6.55", "9.37", "1.56", "7.29", "10.94", "1.56", "7.10", "12.50", "UnixCoder", "1.79", "7.28", "14.29", "1.79", "7.69", "12.50", "1.79", "6.76", "14.29", "Approach", "2", "Screens", "3", "Screens", "4", "Screens", "min", "avg", "max", "min", "avg", "max", "min", "avg", "max", "BugLocator", "1.75", "7.86", "17.54", "1.75", "7.78", "17.54", "1.75", "7.74", "17.54", "SentenceBERT", "1.72", "5.51", "12.07", "1.72", "8.05", "15.52", "1.72", "8.11", "15.52"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 289.44,
+    "y1": 206.88,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table6-1.png"
+}, {
+  "caption": "Table 1: Mapping of GUI Terms to GUI-Related Files",
+  "captionBoundary": {
+    "x1": 332.4460144042969,
+    "x2": 543.4069213867188,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["resource-id(s)", "in", "event", "listeners", ".java", "files", "that", "contain", "invocations", "of", "the", "uiautomator", "metadata", "from", "the", "dynamic", "resource-id(s)", "of", "the", "(interacted)", "components", "Components", "(Exercised)", "GUI", "Screen", "terms", ".java", "files", "with", "file", "names", "matching", "the", "Android", "ViewServer", "names", "queried", "from", "the", "Screen", "Activity", "and", "Window", "GUI", "Information", "Terms", "Files"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 562.0799999999999,
+    "y1": 96.0,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table1-1.png"
+}, {
+  "caption": "Table 8: Best Performing Combinations",
+  "captionBoundary": {
+    "x1": 357.906005859375,
+    "x2": 517.9490966796875,
+    "y1": 81.74136352539062,
+    "y2": 87.37200927734375
+  },
+  "figType": "Table",
+  "imageText": ["SC", "GS", "None", "4", "0.36", "0.80", "72", "(0.90)", "GS+SC", "GS", "None", "4", "0.36", "0.80", "72", "(0.90)", "None", "None", "None", "0.40", "0.75", "64", "(0.80)", "Lucene", "SC", "GS", "SC", "4", "0.31", "0.75", "64", "(0.80)", "GS+SC", "GS", "SC", "4", "0.31", "0.75", "64", "(0.80)", "None", "None", "None", "0.14", "0.62", "56", "(0.70)", "UnixCoder", "SC", "GS+EGC", "EGC", "3", "0.30", "0.72", "67", "(0.84)", "GS+SC", "GS+EGC", "EGC", "3", "0.30", "0.72", "67", "(0.84)", "SC", "GS+EGC", "None", "3", "0.30", "0.72", "67", "(0.84)", "GS+SC", "GS+EGC", "None", "3", "0.30", "0.72", "67", "(0.84)", "None", "None", "None", "0.23", "0.56", "58", "(0.72)", "SentenceBERT", "SC", "GS", "GS+SC", "3", "0.33", "0.76", "67", "(0.84)", "None", "None", "None", "0.39", "0.60", "57", "(0.71)", "BugLocator", "Baseline/", "Filtering", "Boosting", "GUI", "Info", "#", "H@1", "H@5", "#Bugs", "Top10", "Config", "GUI", "Info", "GUI", "Info", "Query", "Exp.", "Scrns", "(H@10)"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 555.36,
+    "y1": 91.67999999999999,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table8-1.png"
+}, {
+  "caption": "Figure 4: Relative % Improvement of Re-Ranking",
+  "captionBoundary": {
+    "x1": 338.8299865722656,
+    "x2": 537.3198852539062,
+    "y1": 350.91436767578125,
+    "y2": 356.5450134277344
+  },
+  "figType": "Figure",
+  "imageText": ["15", "15", "27", "15", "15", "27", "15", "15", "27", "15", "15", "27", "60", "60", "108", "Filtering", "Boosting", "Filtering+Boosting", "BugLocator", "Sent.BERT", "UniXCoder", "Lucene", "Overall", "40", "20", "0", "-20", "t", "em", "en", "pr", "ov", "Im", "s@", "10", "H", "it", "iv", "e", "el", "at", "%", "R"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 559.1999999999999,
+    "y1": 219.84,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Relative % Improvement of Query Reformulation",
+  "captionBoundary": {
+    "x1": 55.16699981689453,
+    "x2": 292.6673583984375,
+    "y1": 178.86532592773438,
+    "y2": 184.4959716796875
+  },
+  "figType": "Figure",
+  "imageText": ["BugLocator", "Sent.BERT", "UniXCoder", "Lucene", "Overall", "15", "15", "15", "15", "15", "15", "15", "15", "60", "60", "ery", "Expansion", "ery", "Replacement", "20", "0", "-20", "t", "em", "en", "pr", "ov", "Im", "s@", "10", "H", "it", "iv", "e", "el", "at", "%", "R"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 73.92,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Figure3-1.png"
+}, {
+  "caption": "Table 2: Types of GUI-Related Files",
+  "captionBoundary": {
+    "x1": 102.760009765625,
+    "x2": 244.78140258789062,
+    "y1": 82.23941040039062,
+    "y2": 87.87005615234375
+  },
+  "figType": "Table",
+  "imageText": ["GUI", "Screen", "+", "GUI", "Screen", "Components", "Medium", "Number", "of", "Files", "GUI-Screen", "+", "Exercised", "GUI", "Components", "High", "Number", "of", "Files", "GUI", "Screen", "Components", "Exercised", "GUI", "Components", "Low", "Number", "of", "Files", "GUI", "Screen"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 239.04,
+    "y1": 92.64,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608139-Table2-1.png"
+}]

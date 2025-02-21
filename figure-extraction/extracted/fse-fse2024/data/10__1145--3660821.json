@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 1. The evolution of our initial dataset [Alfadel M 2020] a er applying each step of our data collection and data analysis approach.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1764221191406,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Step", "Operation", "Total", "GitHub", "projects", "Resolved", "deps", "PyPI", "releases", "Avg.", "deps", "Data", "Collection", "Initial", "dataset", "of", "Python", "GitHub", "projects", "2,224", "-", "-", "-", "Filtering", "inaccessible", "projects", "2,215", "-", "-", "-", "Dependency", "resolution", "1,644", "34,864", "5,617", "21", "Data", "Analysis", "Partial", "call", "graph", "construction", "1,302", "21,785", "3,232", "17", "Call", "graph", "stitching", "1,302", "21,785", "3,232", "17", "Reachability", "analysis", "1,302", "21,785", "3,232", "17"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 420.47999999999996,
+    "y1": 109.92,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Table1-1.png"
+}, {
+  "caption": "Fig. 4. Example of a pull request body sent to the GitHub project materialsproject/fireworks.",
+  "captionBoundary": {
+    "x1": 243.0,
+    "x2": 440.1728820800781,
+    "y1": 319.9278564453125,
+    "y2": 335.1189880371094
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 244.79999999999998,
+    "x2": 436.32,
+    "y1": 171.84,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure4-1.png"
+}, {
+  "caption": "Table 3. The status of our pull requests, proposing the removal of bloated dependencies (BD)",
+  "captionBoundary": {
+    "x1": 49.01020050048828,
+    "x2": 196.64846801757812,
+    "y1": 100.0768814086914,
+    "y2": 126.22698974609375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "36", "42", "PR", "status", "#", "of", "PRs", "#", "of", "BD", "removed", "Merged", "30", "35", "Approved", "1", "1", "Rejected", "1", "1", "Pending", "4", "5"],
+  "name": "3",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 196.32,
+    "y1": 132.96,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Table3-1.png"
+}, {
+  "caption": "Fig. 10. The distribution of PR statuses per root cause.",
+  "captionBoundary": {
+    "x1": 215.77099609375,
+    "x2": 416.1345520019531,
+    "y1": 195.87283325195312,
+    "y2": 200.10498046875
+  },
+  "figType": "Figure",
+  "imageText": ["PR", "Status", "Merged", "Approved", "Pending", "Rejected", "Transitive", "dependency", "Feature", "removal", "Unused", "from", "the", "first", "time", "Built-in", "or", "alternate", "library", "0", "2", "4", "6", "8", "10", "12", "14", "16", "Bloated", "dependencies"],
+  "name": "10",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 232.32,
+    "x2": 396.96,
+    "y1": 98.88,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure10-1.png"
+}, {
+  "caption": "Fig. 2. An example demonstrating a Python program with its direct and transitive dependencies (a), the corresponding partial call graphs (b), the resulting fine-grained project dependency graph (c). A gray node in a partial call graph represents an external method whose definition can be found in the dependency.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1726989746094,
+    "y1": 225.9178466796875,
+    "y2": 252.0679931640625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "FPDG", "graph", "...", "...", "b.m3", "c.m4", "a.m1", "b.m2", "a.main", "(b)", "Partial", "call", "graphs", "b.m2", "(ext)", "a.m1", "a.main", "b.m3", "b.m2", "c.m4", "(ext)", "Call", "graph", "of", "a.py", "(client)", "Call", "graph", "of", "b.py", "(external", "dependency)", "(a)", "Python", "program", "10", "def", "m2():", "11", "m4()", "12", "def", "m3():", "13", "pass", "1", "#", "a.py", "(client)", "2", "from", "b", "import", "m2", "3", "def", "main():", "4", "m1()", "5", "m2()", "6", "def", "m1():", "7", "pass", "8", "#", "b.py", "(external", "dependency)", "9", "from", "c", "import", "m4"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 401.28,
+    "y1": 96.0,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure2-1.png"
+}, {
+  "caption": "Fig. 8. Number of different usage statuses of vulnerable PyPI dependencies in Github projects.",
+  "captionBoundary": {
+    "x1": 49.669898986816406,
+    "x2": 240.4393310546875,
+    "y1": 183.06686401367188,
+    "y2": 198.25799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["Transitive", "Direct", "26/816", "Status", "62/816", "122/816", "606/816", "Active", "Undefined", "Inactive", "(bloated", "method)", "Inactive", "(bloated", "dependency)", "Dependencies", "to", "vulnerable", "releases", "0", "100", "200", "300", "400", "500", "600", "700", "800"],
+  "name": "8",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 51.36,
+    "x2": 237.12,
+    "y1": 85.92,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. The distribution of causes leading to bloated-direct PyPI dependencies.",
+  "captionBoundary": {
+    "x1": 252.43899536132812,
+    "x2": 433.83477783203125,
+    "y1": 180.89382934570312,
+    "y2": 196.08502197265625
+  },
+  "figType": "Figure",
+  "imageText": ["3/50", "5/50", "15/50", "10/50", "8/50", "9/50", "Compatibility", "constraint", "Security", "constraint", "Transitive", "dependency", "Feature", "removal", "Unused", "from", "the", "first", "time", "Built-in", "or", "alternate", "library", "Selected", "dependencies", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18"],
+  "name": "9",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 254.39999999999998,
+    "x2": 424.8,
+    "y1": 87.84,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure9-1.png"
+}, {
+  "caption": "Fig. 7. The distribution of the usage status of dependencies, dependency files, and dependency methods, along with their size in LoC, as aggregated from our dataset.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.1605224609375,
+    "y1": 259.6468505859375,
+    "y2": 274.8370056152344
+  },
+  "figType": "Figure",
+  "imageText": ["Direct", "bloated", "Transitive", "bloated", "Direct", "used", "Transitive", "used", "Dependency", "usage", "Size", "of", "functions(LoC)", "4.2%", "2.0%", "44.2%", "49.6%", "Size", "of", "files", "(LoC)", "6.8%", "14.2%", "40.9%", "38.1%", "Size", "of", "dependencies", "(LoC)", "23.4%", "47.8%", "24.4%", "4.5%", "Number", "of", "functions", "2.7%", "1.3%", "48.1%", "47.9%", "Number", "of", "files", "6.4%", "3.0%", "45.7%", "44.9%", "Number", "of", "dependencies", "18.6%", "53.0%", "22.7%", "5.7%"],
+  "name": "7",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 108.0,
+    "x2": 378.24,
+    "y1": 86.88,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure7-1.png"
+}, {
+  "caption": "Fig. 3. An example Python programwhere the access path of an external method is different from its definition namespace (see external method ext.module.B.m). Our stitching process matches the access path at the call site (ext.B.m) with the corresponding definition node in the dependent call graph (ext.module.B.m).",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.174560546875,
+    "y1": 218.49685668945312,
+    "y2": 244.64700317382812
+  },
+  "figType": "Figure",
+  "imageText": ["10", "return", "(=,<)", "1", "fun", "resolveExternalNode(C)=", "2", "(3,", "cg)", "←", "getDependencyAndCallGraph(t)", "3", "if", "C", "∈", "cg", "then", "return", "C", "4", "Install", "dep", "3", "in", "a", "fresh", "environment", "5", "obj←", "getFunctionObject(t)", "6", "if", "obj", "=", "None", "then", "continue", "7", "mod_name←", "inspect.getModule(obj)", "8", "(=,<)", "←", "obj.__qualname__.rsplit(\".\",", "1)", "9", "=", "←", "mod_name", "+", "\".\"", "+", "n", "Algorithm", "2:Method", "resolution", "10", "return", "6", "1", "fun", "stitch(callGraphs)=", "2", "g←", "∅", "3", "for", "cg", "∈", "callGraphs", "do", "4", "for", "E", "∈", "nodes(cg)", "do", "5", "addNode(6,", "E)", "6", "for", "(B,", "C", ")", "∈", "edges(cg)", "do", "7", "if", "isExternal(t)", "then", "8", "C", "←", "resolveExternalNode(t)", "9", "if", "C", "≠", "nil", "then", "addEdge(6,", "B,", "C", ")", "Algorithm", "1:", "Stitching"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 426.24,
+    "y1": 262.56,
+    "y2": 390.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure3-1.png"
+}, {
+  "caption": "Fig. 1. The overview of our approach for studying bloated code in PyPI ecosystem.",
+  "captionBoundary": {
+    "x1": 91.04299926757812,
+    "x2": 394.9584655761719,
+    "y1": 191.53182983398438,
+    "y2": 195.76397705078125
+  },
+  "figType": "Figure",
+  "imageText": ["Call", "Graph", "Stitching", "3", "Root", "Cause", "Identiﬁcation", "Vulnerability", "Mapping", "App", "1", "Dep", "1", "Dep", "2", "Qualitative", "Analysis", "App", "1", "Dep", "1", "Dep", "2", "App", "1", "Dep", "1", "Dep", "2", "1", "2", "Reachability", "Analysis", "Project", "Metrics", "Based", "on", "PyCG", "Package", "Dependency", "Download", "(Partial)", "Call", "Graph", "Generation", "Project", "PyPi", "GitHub", "Dependency", "Resolution", "Data", "AnalysisData", "Collection"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 101.75999999999999,
+    "x2": 381.12,
+    "y1": 84.0,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. The distribution of bloat metrics per granularity. Each entry indicates the percentage of bloated entities (e.g., files, methods), and the size of bloated dependency code compared to the overall LoC.",
+  "captionBoundary": {
+    "x1": 47.69879913330078,
+    "x2": 238.4752197265625,
+    "y1": 210.78585815429688,
+    "y2": 247.89498901367188
+  },
+  "figType": "Figure",
+  "imageText": ["Entity", "type", "Bloated", "LoC", "Bloated", "entries", "(%", ")", "ag", "e", "ce", "nt", "P", "er", "100", "80", "60", "40", "20", "0", "Package", "File", "Method"],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 50.4,
+    "x2": 216.48,
+    "y1": 90.72,
+    "y2": 197.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. The distribution of bloat metrics per vulnerability exposure. Each entry indicates the relationship between a vulnerable release, and a project that uses it. For example, 82% of the files in an inactive vulnerable release are bloated.",
+  "captionBoundary": {
+    "x1": 250.26199340820312,
+    "x2": 437.3003845214844,
+    "y1": 204.130859375,
+    "y2": 252.19900512695312
+  },
+  "figType": "Figure",
+  "imageText": ["Exposure", "Status", "Active", "Inactive", "(bloated", "method)", "(%", ")", "ag", "e", "ce", "nt", "P", "er", "100", "80", "60", "40", "20", "Bloated", "files", "Bloated", "methods", "0"],
+  "name": "6",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 252.95999999999998,
+    "x2": 415.2,
+    "y1": 87.36,
+    "y2": 190.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Figure6-1.png"
+}, {
+  "caption": "Table 2. Statistics on the resolved and unresolved external calls during our stitching process.",
+  "captionBoundary": {
+    "x1": 72.37889862060547,
+    "x2": 413.37921142578125,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["External", "Calls", "Aggregate", "count", "Proportion", "of", "total", "Average", "(per", "project)", "Median", "(per", "project)", "Resolved", "7,799,929", "96.7%", "5,990", "144.5", "Unresolved", "260,249", "3.2%", "199", "11.5"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 398.4,
+    "y1": 98.88,
+    "y2": 125.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660821-Table2-1.png"
+}]

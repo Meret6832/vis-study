@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 1: Stats for the datasets used in evaluation",
+  "captionBoundary": {
+    "x1": 76.62799072265625,
+    "x2": 270.91217041015625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["NJR-1", "859K", "405K", "262M", "124M", "18.7", "XCorpus", "269K", "57K", "22M", "8M", "2.4", "YCorpus", "242K", "72K", "35M", "9M", "3.7", "NYXCorpus", "1.37M", "534K", "319M", "141M", "7.6", "1", "Ratio", "of", "to-be-pruned", "and", "to-be-retained", "edges.", "Train", "Test", "Train", "Test", "Dataset", "Num.", "Edges", "Num.", "Tokens", "P/R", "Ratio", "1"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 279.84,
+    "y1": 105.6,
+    "y2": 192.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Table1-1.png"
+}, {
+  "caption": "Table 2: Comparison of the models on the NJR-1, XCorpus, YCorpus, and NYXCorpus datasets",
+  "captionBoundary": {
+    "x1": 115.90899658203125,
+    "x2": 495.7804870605469,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Wala", "0.24", "0.95", "0.38", "0.59", "0.39", "0.95", "0.55", "0.73", "0.22", "0.90", "0.35", "0.55", "0.25", "0.95", "0.39", "0.60", "Average", "0.57", "0.62", "0.58", "0.60", "0.51", "0.36", "0.41", "0.38", "0.49", "0.44", "0.44", "0.43", "0.55", "0.54", "0.54", "0.54", "Random", "Classifier", "0.23", "0.47", "0.31", "0.39", "0.39", "0.48", "0.43", "0.46", "0.22", "0.45", "0.29", "0.37", "0.25", "0.47", "0.33", "0.40", "CGPruner", "0.66", "0.48", "0.56", "0.51", "0.49", "0.28", "0.36", "0.30", "0.71", "0.24", "0.36", "0.28", "0.61", "0.43", "0.50", "0.46", "AutoPruner", "0.62", "0.66", "0.64", "0.65", "0.53", "0.41", "0.46", "0.43", "0.50", "0.51", "0.50", "0.51", "0.60", "0.61", "0.60", "0.60", "CodeBERT", "0.62", "0.68", "0.65", "0.67", "0.52", "0.47", "0.50", "0.48", "0.50", "0.48", "0.49", "0.49", "0.59", "0.60", "0.60", "0.60", "CodeT5", "0.65", "0.69", "0.67", "0.68", "0.54", "0.31", "0.39", "0.34", "0.50", "0.48", "0.49", "0.48", "0.63", "0.58", "0.61", "0.59", "CodeT5+", "0.63", "0.73", "0.67", "0.70", "0.61", "0.23", "0.34", "0.27", "0.54", "0.46", "0.50", "0.48", "0.65", "0.57", "0.61", "0.58", "Models", "P", "R", "F1", "F2", "P", "R", "F1", "F2", "P", "R", "F1", "F2", "P", "R", "F1", "F2", "NJR-1", "XCorpus", "YCorpus", "NYXCorpus"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 543.36,
+    "y1": 105.6,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Table2-1.png"
+}, {
+  "caption": "Table 5: Vulnerability Propagation Analysis on (pruned) CGs",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0373840332031,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "3728.4", "1392.2", "778.9", "98.4%", "6.6", "±", "23.0", "CodeT5", "3503.5", "1337.3", "832.5", "96.9%", "6.7", "±", "23.0", "1", "#Nodes", "with", "at", "least", "an", "incoming", "and/or", "out-going", "edge", "Paranoid", "Pruning", "(0.99", "weight,", ">", "0.95", "confidence)", "CodeBERT", "1736.4", "1048.2", "515.3", "86.0%", "2.3", "±", "8.1", "CodeT5", "1498.2", "950.5", "388.6", "82.0%", "1.5", "±", "4.8", "Conservative", "Pruning", "(>", "0.95", "confidence)", "Wala", "5227.1", "1420.2", "853.9", "99.8%", "8.1", "±", "26.6", "Models", "CG", "Size", "Reachable", "...", "Time", "(ms)", "Edges", "Nodes1", "..", "Paths", "..", "Nodes"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 252.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Table5-1.png"
+}, {
+  "caption": "Figure 1: Overview of our approach used in this study",
+  "captionBoundary": {
+    "x1": 329.56298828125,
+    "x2": 546.5849609375,
+    "y1": 471.4293518066406,
+    "y2": 477.05999755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Post", "processing", "Filtering", "edges", "Sampling", "edges", "Dynamic", "CG", "Construction", "(Wiretap)", "Executing", "unit", "tests", "Static", "CG", "Construction", "(WALA)", "NJR-1", "XCorpus", "YCorpus", "Input", "datasets", "Vulnerability", "propagation", "as", "a", "case", "study", "CG", "pruning", "vs.", "more", "advanced", "static", "analysis", "The", "conservative", "pruning", "strategy", "Overall", "performance", "Evaluation", "CodeT5", "CodeT5+", "CGPruner", "AutoPruner", "CodeBERT", "Model", "training", "Structural", "Semantic", "Signature", "Combined", "Extracting", "code", "features"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 534.24,
+    "y1": 84.0,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Performance of the models with different weights to the positive class (retaining edges)",
+  "captionBoundary": {
+    "x1": 110.30499267578125,
+    "x2": 501.6797790527344,
+    "y1": 247.31039428710938,
+    "y2": 252.9410400390625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "CodeT5", "Metrics", "Precision", "Recall", "F1", "F2", "0.60", "0.69", "0.71", "0.74", "0.72", "0.59", "0.61", "0.66", "0.39", "0.61", "0.61", "0.63", "0.63", "0.61", "0.60", "0.55", "0.88", "0.93", "0.95", "0.79", "0.68", "0.74", "0.58", "0.61", "0.25", "0.39", "0.50", "0.46", "0.63", "0.62", "0.60", "0.54", "e", "Sc", "or", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.6", "0.7", "0.8", "0.9", "0.95", "0.99", "Wala", "(0-CFA)", "Weight", "(a)", "CodeBERT", "Metrics", "Precision", "Recall", "F1", "F2", "0.60", "0.70", "0.72", "0.74", "0.72", ".60", "0.64", "0.64", "0.39", ".60", "0.61", "0.61", "0.62", "0.61", "0.59", "0.54", "0.95", "0.88", "0.92", "0.77", "0.81", "0.60", "0.65", "0.67", "0.25", "0.38", "0.49", "0.45", "0.8", "1.0", "Sc", "or", "e", "0.59", "0.58", "0.57", "0.52", "0.6", "0.4", "0.2", "0.0", "0.0", "0.6", "0.7", "0.8", "0.9", "0.95", "0.99", "Wala", "(0-CFA)", "Weight"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 88.32,
+    "x2": 555.36,
+    "y1": 84.0,
+    "y2": 231.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Performance of the models by considering different confidence thresholds",
+  "captionBoundary": {
+    "x1": 136.70599365234375,
+    "x2": 475.27996826171875,
+    "y1": 420.0413513183594,
+    "y2": 425.6719970703125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "CodeT5", "Metrics", "Precision", "Recall", "F1", "F2", "0.60", "0.70", "0.73", "0.75", "0.59", "0.65", "0.67", "0.39", "0.61", "0.64", "0.65", "0.65", "0.64", "0.63", "0.95", "0.85", "0.75", "0.81", "0.65", "0.69", "0.58", "0.25", "0.53", "0.51", "0.63", "0.62", "0.61", "0.57", "e", "Sc", "or", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "baseline", "0.6", "0.7", "0.8", "0.9", "0.95", "Wala", "(0-CFA)", "Confidence", "levels", "(a)", "CodeBERT", "Metrics", "Precision", "Recall", "F1", "F2", "0.60", "0.70", "0.72", "0.75", "0.76", ".60", "0.66", "0.39", ".60", "0.63", "0.64", "0.63", "0.63", "0.61", "0.89", "0.95", "0.80", "0.86", "0.69", "0.74", "0.60", "0.25", "0.47", "e", "0.59", "0.59", "0.57", "0.52", "0.50", "Sc", "or", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "baseline", "0.6", "0.7", "0.8", "0.9", "0.95", "Wala", "(0-CFA)", "Confidence", "levels"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 555.36,
+    "y1": 257.28,
+    "y2": 404.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Figure3-1.png"
+}, {
+  "caption": "Table 4: Runtime of 0/1-CFA algorithms with CG pruning",
+  "captionBoundary": {
+    "x1": 321.489013671875,
+    "x2": 554.3628540039062,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "42.3", "±", "120.5", "1.4", "±", "0.8", "11.7", "±", "11.2", "55.1", "±", "122.6", "CodeT5", "14.5", "±", "20.0", "57.9", "±", "123.9", "1-CFA", "CodeBERT", "21.4", "±", "57.0", "2.8", "±", "3.5", "18.6", "±", "30.9", "42.7", "±", "65.2", "CodeT5", "18.9", "±", "31.4", "43.0", "±", "65.4", "0-CFA", "Models", "CG", "Gen.", "[s]", "Pruning", "[s]", "Total", "Time", "[s]", "Feature", "Infer."],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Table4-1.png"
+}, {
+  "caption": "Table 3: Model Performance with 0/1-CFA algorithm",
+  "captionBoundary": {
+    "x1": 67.5889892578125,
+    "x2": 279.9486999511719,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "0.49", "0.91", "0.64", "0.78", "CodeT5", "0.53", "0.86", "0.65", "0.76", "Wala", "0.34", "0.97", "0.50", "0.71", "1-CFA", "CodeBERT", "0.47", "0.89", "0.61", "0.76", "CodeT5", "0.51", "0.85", "0.63", "0.75", "Wala", "0.25", "0.95", "0.39", "0.60", "0-CFA", "P", "R", "F1", "F2", "Models", "NYXCorpus"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 245.28,
+    "y1": 105.6,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644897-Table3-1.png"
+}]

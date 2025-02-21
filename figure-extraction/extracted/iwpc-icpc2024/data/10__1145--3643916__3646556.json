@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 5: An illustration of subgraph isomorphismwith error tolerance.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.21917724609375,
+    "y1": 263.1853332519531,
+    "y2": 279.7750244140625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "ab", "𝑆", "c", "(c)", "129", "26", "212", "(b)", "150", "129", "26", "212", "150", "129", "26", "212", "(a)"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 281.28,
+    "y1": 88.8,
+    "y2": 248.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Figure5-1.png"
+}, {
+  "caption": "Figure 1: The query bug and a previously unknown bug. This pair of functions show the subgraph isomorphism relationship between the query graph and the candidate graph. Two functions differ greatly globally, but they have sub-structural similarity in the highlighted statements.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.434326171875,
+    "y1": 307.4953308105469,
+    "y2": 335.04400634765625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "New", "Bug", "//file:", "drivers/spi/spi-bcm2835.c", "in", "Linux", "//", "static", "int", "bcm2835_spi_probe(struct", "platform_device", "*)", "1331", "ctlr", "=", "devm_spi_alloc_master(&pdev->dev,", "sizeof(*bs));", "1335", "platform_set_drvdata(pdev,", "ctlr);", "1348", "bs", "=", "spi_controller_get_devdata(ctlr);", "1351", "bs->regs", "=", "devm_platform_ioremap_resource(pdev,", "0);", "1355", "bs->clk", "=", "devm_clk_get(&pdev->dev,", "NULL);", "1356", "if", "(IS_ERR(bs->clk))", "1357", "return", "dev_err_probe(&pdev->dev,", "PTR_ERR(bs->clk),", "1358", "\"could", "not", "get", "clk\\n\");", "1360", "ctlr->max_speed_hz", "=", "clk_get_rate(bs->clk)", "/", "2;", "1362", "bs->irq", "=", "platform_get_irq(pdev,", "0);", "1366", "clk_prepare_enable(bs->clk);", "1367", "bs->clk_hz", "=", "clk_get_rate(bs->clk);", "1369", "err", "=", "bcm2835_dma_init(ctlr,", "&pdev->dev,", "bs);", "1374", "bcm2835_wr(bs,", "BCM2835_SPI_CS,", "...);", "1397", "out_clk_disable:", "1398", "clk_disable_unprepare(bs->clk);", "1399", "return", "err;", "(a)", "Known", "Bug:", "Commit", "1b3d22", "//file:", "drivers/rtc/rtc-mxc.c", "in", "Linux", "//", "static", "int", "mxc_rtc_probe(struct", "platform_device", "*)", "380", "pdata", "=", "devm_kzalloc(dev,", "sizeof(*pdata),", "GFP_KERNEL);", "386", "res", "=", "platform_get_resource(pdev,", "IORESOURCE_MEM,", "0);", "387", "pdata->ioaddr", "=", "devm_ioremap_resource(&pdev->dev,", "res);", "388", "if", "(IS_ERR(pdata->ioaddr))", "389", "return", "PTR_ERR(pdata->ioaddr);", "391", "pdata->clk", "=", "devm_clk_get(dev,", "NULL);", "392", "if", "(IS_ERR(pdata->clk))", "{", "393", "dev_err(...);", "394", "return", "PTR_ERR(pdata->clk);", "395", "}", "397", "clk_prepare_enable(pdata->clk);", "398", "rate", "=", "clk_get_rate(pdata->clk);", "400", "if", "(rate", "==", "32678)", "...", "//", "10", "lines", "if-block", "413", "writew(reg,", "(pdata->ioaddr", "+", "RTC_RTCCTL));", "446", "exit_put_clk:", "447", "clk_disable_unprepare(pdata->clk);", "449", "return", "ret;"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 563.04,
+    "y1": 77.75999999999999,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Figure1-1.png"
+}, {
+  "caption": "Table 1: Performance on the synthetic testing set for 𝜏s.",
+  "captionBoundary": {
+    "x1": 325.6130065917969,
+    "x2": 550.2471923828125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["𝜏", "TP", "FP", "TN", "FN", "Precision", "Recall", "F1", "1.5", "825", "175", "9897", "103", "0.889", "0.825", "0.856", "...", "...", "1.75", "850", "150", "9880", "120", "0.876", "0.850", "0.863", "...", "...", "2", "857", "143", "9863", "137", "0.862", "0.857", "0.860"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.0,
+    "y1": 105.6,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Table1-1.png"
+}, {
+  "caption": "Table 5: Ablation experiment on the synthetic testing set.",
+  "captionBoundary": {
+    "x1": 57.758026123046875,
+    "x2": 289.7801818847656,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "TP", "FN", "TN", "FP", "Precision", "Recall", "F1", "NeuroMatch", "543", "457", "7844", "2156", "0.201", "0.543", "0.293", "SICode", "850", "150", "9880", "120", "0.876", "0.850", "0.863"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 288.0,
+    "y1": 105.6,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Table5-1.png"
+}, {
+  "caption": "Table 2: Time cost for each step of SICode on three code bases.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.037353515625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["OpenSSL", "2m38s", "13s", "6s", "4m43s", "9s", "Linux", "2h3m48s", "4m17s", "1h2m24s", "2h30m39s", "3m39s", "VLC", "3m22s", "19s", "7s", "4m1s", "22s", "Targets", "Code", "graph", "&", "corpus", "generation", "Method", "encoding", "model", "training", "Clustering", "Featured", "graph", "embedding", "Retrieval"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 105.6,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Table2-1.png"
+}, {
+  "caption": "Figure 2: A schematic diagram showing subgraph isomorphism relations between graphs in the embedding space.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368103027344,
+    "y1": 175.37533569335938,
+    "y2": 191.96502685546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 132.0,
+    "x2": 216.48,
+    "y1": 84.0,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Figure2-1.png"
+}, {
+  "caption": "Table 4: Detection results of the comparative tools based on the same buggy queries in Table 3.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03411865234375,
+    "y1": 389.7863464355469,
+    "y2": 406.3760070800781
+  },
+  "figType": "Table",
+  "imageText": ["Tool", "Reports", "Bugs", "R@10(%)", "R@20(%)", "SICode", "Hits", "VUDDY", "0", "0", "-", "-", "-", "ReDeBug", "3", "3", "10.7", "-", "3", "CCGraph", "top", "20", "9", "7.1", "32.1", "6", "InferCode", "top", "20", "6", "17.9", "21.4", "1", "SICode", "top", "20", "20", "67.9", "71.4", "-"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 288.0,
+    "y1": 420.96,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Table4-1.png"
+}, {
+  "caption": "Table 3: The details of bug detection.",
+  "captionBoundary": {
+    "x1": 231.71400451660156,
+    "x2": 379.9847106933594,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["16", "nokia_bluetooth_serdev_probe", "195", "✗", "✗", "✗", "✗", "✗", "4", "17", "bcm2835_spi_probe", "195", "✗", "✗", "✗", "✗", "✗", "10", "18", "ip6erspan_tunnel_xmit", "erspan_fb_xmit", "3", "✗", "✗", "✓", "✓", "✗", "3", "19*", "Linux", "v6.2.5", "mmci_probe", "spmmc_drv_probe", "N/A", "✗", "✗", "✗", "✗", "✗", "9", "20**", "OpenSSL", "asn1_print_info", "setup_trace_category", "89", "✗", "✗", "✗", "✗", "✗", "14", "Headers", "‘V’,‘R’,‘C’,‘N’,", "and", "‘I’", "refer", "to", "VUDDY[18],", "ReDeBug[16],", "CCGraph[42],", "NIL", "[22],", "and", "InferCode[8]", "for", "short", "which", "are", "compared", "with", "our", "tool", "in", "Section", "4.4.", "Bug", "#1", "in", "function", "www_body", "is", "different", "from", "the", "buggy", "query", "#4", "in", "the", "same", "function.", "Bug", "#20", "is", "a", "different", "function", "from", "Bug", "#3,", "though", "sharing", "the", "same", "function", "name.", "*has", "not", "been", "confirmed", "by", "the", "developers.", "**confirmed", "by", "the", "developers", "but", "ranked", "at", "the", "14th.", "mxc_rtc_probe", "korina_probe", "N/A", "✗", "✗", "✗", "✗", "✗", "3", "13", "bcm_sf2_sw_probe", "89", "✗", "✗", "✗", "✗", "✗", "1", "14", "imx_ocotp_probe", "89", "✗", "✗", "✗", "✗", "✗", "3", "15", "dryice_rtc_probe", "gsbi_probe", "N/A", "✗", "✗", "✗", "✗", "✗", "2", "11", "aspeed_gfx_load", "48", "✗", "✗", "✗", "✗", "✗", "8", "12", "s3c2410wdt_probe", "mmphw_probe", "294", "✗", "✗", "✗", "✗", "✗", "1", "Linux", "v6.2.5", "5", "s_client_main", "44", "✗", "✗", "✓", "✗", "✗", "2", "6", "ndef_prefix", "do_dump", "30", "✗", "✗", "✓", "✗", "✗", "5", "7", "VLC", "EsOutProgramAdd", "EsOutAddLocked", "59", "✗", "✗", "✗", "✗", "✗", "6", "8", "Linux", "v5.17", "lpfc_els_rcv_lcb", "__add_inode_ref", "N/A", "✗", "✗", "✗", "✗", "✗", "3", "9", "lpass_platform_pcmops_open", "pm8001_send_abort_all", "N/A", "✗", "✗", "✗", "✗", "✗", "2", "10", "www_body", "sv_body", "44", "✗", "✓", "✓", "✗", "✓", "9", "2", "rev_body", "89", "✗", "✓", "✗", "✗", "✗", "9", "3", "setup_trace_category", "89", "✗", "✗", "✗", "✗", "✗", "10", "4", "asn1_print_info", "www_body", "89", "✗", "✓", "✓", "✗", "✗", "7", "OpenSSL", "ID", "Projects", "Buggy", "Queries", "Detected", "Buggy", "Functions", "NeuroMatch", "V", "R", "C", "N", "I", "SICode", "1"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 372.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Table3-1.png"
+}, {
+  "caption": "Figure 4: Normalizing a code graph (a) into a featured graph (b). Forward arrows control flow edges and back denotes data dependence.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.1946411132812,
+    "y1": 490.21734619140625,
+    "y2": 517.7659912109375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "150", "129", "26", "212", "212", "(a)", "Method:", "clk_get_rate", "Method:", "clk_prepare_enable", "Method:", "IS_ERR", "Method:", "devm_clk_get", "Method:", "devm_kzalloc"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 543.36,
+    "y1": 378.71999999999997,
+    "y2": 475.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Figure4-1.png"
+}, {
+  "caption": "Figure 3: The overall workflow of SICode. The whole procedure is divided into three components and each component consists of several steps. The query graph and target graphs are embedded into vectors, based on which we decide if the query is subgraph isomorphic to a target. The result is audited for bug detection.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1806030273438,
+    "y1": 327.2713623046875,
+    "y2": 354.8190002441406
+  },
+  "figType": "Figure",
+  "imageText": ["auditing", "", "C.", "Subgraph", "Isomorphism", "Decision", "Making", "B.", "Model", "Training", "A.", "Graph", "Preparation", "Report", "making", "decision", "", "embedding", "", "embedding", "…", "", "node", "encoding", "", "(Buggy", "Code)", "", "extracting", "Query", "training", "", "extracting", "", "Code", "Source", "node", "encoding", "", "Featured", "Targets", "2", "4", "3", "2", "1", "1", "extracting", "", "Embedding", "Model", "Vector", "Query", "Featured", "Query", "2", "1", "3", "1", "Query", "Graph", "Vectors", "Target", "Code", "…Source", "Target", "Graphs", "𝑜", ",", ",", "2", "4", "3", "2", "1", "1", "…", "Training", "Samples", "2", "4", "3", "1", "1", "instantiating", "…", "", "Backbones"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 546.24,
+    "y1": 84.47999999999999,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3646556-Figure3-1.png"
+}]

@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 6: The effect of 𝛼 and 𝛽 on modular training.",
+  "captionBoundary": {
+    "x1": 69.98400115966797,
+    "x2": 277.85662841796875,
+    "y1": 384.3829040527344,
+    "y2": 386.4630126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 82.56,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608135-Figure6-1.png"
+}, {
+  "caption": "Figure 1: An overview of the proposed framework modularizing while training.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.00421142578125,
+    "y1": 187.26080322265625,
+    "y2": 200.29901123046875
+  },
+  "figType": "Figure",
+  "imageText": ["Split", "Training", "Set", "Training", "sets", "for", "each", "class", "①", "Modular", "Training", "Randomly", "Initialized", "Model", "Modules", "Modular", "Model", "②", "Modularizing"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608135-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The workflow of MwT for CNN models.",
+  "captionBoundary": {
+    "x1": 206.43299865722656,
+    "x2": 405.5668640136719,
+    "y1": 229.56878662109375,
+    "y2": 231.64898681640625
+  },
+  "figType": "Figure",
+  "imageText": ["…", "generator", "Relevant", "Kernel", "Recognition", "mask", "3.", "Construct", "…", "2.", "Filter1.", "Recognize", "②", "Modularizing", "𝐶𝑙𝑎𝑠𝑠!", "𝐶𝑙𝑎𝑠𝑠\"", "…", "𝐶𝑙𝑎𝑠𝑠)", "𝐶𝑙𝑎𝑠𝑠\"", "FC", "𝑘#&", "…", "𝑘#%", "…", "…", "𝑘!", "…", "𝑘#'", "…", "FC…", "Sets", "of", "relevant", "kernels", "for", "modules", "𝐶𝑙𝑎𝑠𝑠\"", "𝐶𝑙𝑎𝑠𝑠)", "𝑘!,", "𝑘#,", "𝑘\"!,", "…", "𝑘\",", "𝑘&,", "𝑘%\",", "…", "…", "𝐶𝑙𝑎𝑠𝑠\"", "𝐶𝑙𝑎𝑠𝑠)", "𝑘!,", "𝑘$,", "𝑘#,", "…", "𝑘\",", "𝑘&,", "𝑘\"!,", "…", "…", "Training", "set", "Sets", "of", "relevant", "kernels", "for", "samples", "𝑘\"%#", "𝑘\"%(", "𝑘#'", "…", "𝑘#&", "𝑘#%", "𝑘#$", "𝑘\"", "…", "𝑘!", "…", "FC", "FC", "FC…", "Modular", "CNN", "model", "Modules", "ℒ!#", "ℒ!$", "ℒ!\"", "Sample", "Masks", "…", "…", "…", "The", "forward", "propagation", "details", "for", "one", "sample.", "FMs", "①", "Modular", "Training", "Randomly", "Initialized", "CNN", "Model", "Training", "Set", "Predictions", "Input", "Samples", "…", "CNN", "model", "…", "FC", "FC", "Conv", "masked", "FMs", "FC", "mask", "Conv"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 556.3199999999999,
+    "y1": 85.92,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608135-Figure2-1.png"
+}, {
+  "caption": "Table 8: The comparison of MwT and CNNSplitter in reusing",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1998291015625,
+    "y1": 397.1568908691406,
+    "y2": 399.23699951171875
+  },
+  "figType": "Table",
+  "imageText": ["2-class", "M-ACC", "99.35", "98.89", "99.40", "99.34", "99.25", "m-ACC", "99.20", "99.17", "99.30", "99.33", "99.25", "loss", "0.15", "-0.28", "0.10", "0.01", "0.00", "3-class", "M-ACC", "98.23", "98.48", "98.23", "98.91", "98.46", "m-ACC", "97.40", "98.58", "97.23", "98.82", "98.01", "loss", "0.83", "-0.10", "1.00", "0.09", "0.45", "4-class", "M-ACC", "96.70", "97.35", "96.63", "97.96", "97.16", "m-ACC", "94.98", "97.28", "95.50", "97.64", "96.35", "loss", "1.72", "0.07", "1.13", "0.32", "0.81", "5-class", "M-ACC", "95.22", "97.01", "95.66", "97.47", "96.34", "m-ACC", "93.82", "97.01", "94.34", "97.55", "95.68", "loss", "1.40", "0.00", "1.32", "-0.08", "0.66", "6-class", "M-ACC", "92.53", "96.73", "93.77", "96.98", "95.00", "m-ACC", "91.05", "96.44", "91.27", "96.92", "93.92", "loss", "1.48", "0.29", "2.50", "0.06", "1.08", "7-class", "M-ACC", "92.43", "96.44", "93.60", "96.74", "94.80", "m-ACC", "90.90", "95.78", "91.86", "96.45", "93.75", "loss", "1.53", "0.66", "1.74", "0.29", "1.06", "8-class", "M-ACC", "92.28", "96.18", "93.48", "96.32", "94.57", "m-ACC", "91.03", "95.52", "91.71", "96.25", "93.63", "loss", "1.25", "0.66", "1.77", "0.07", "0.94", "9-class", "M-ACC", "92.36", "96.04", "93.52", "96.09", "94.50", "m-ACC", "90.89", "95.20", "91.48", "96.00", "93.39", "loss", "1.47", "0.84", "2.04", "0.09", "1.11", "10-class", "M-ACC", "92.29", "95.84", "93.39", "95.84", "94.34", "m-ACC", "90.86", "94.74", "91.59", "95.95", "93.29", "loss", "1.43", "1.10", "1.80", "-0.11", "1.06", "CIFAR10", "SVHN", "CIFAR10", "SVHN", "Average", "VGG16", "ResNet18", "Target", "Task", "Metric"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 110.88,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608135-Table8-1.png"
+}, {
+  "caption": "Table 6: The computational costs of MwT in reusing CNN",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0465087890625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["2-class", "FLOPs", "(M)", "70.97", "31.85", "129.76", "136.15", "92.18", "Reduction", "(%)", "77.48", "89.89", "76.77", "75.62", "79.94", "3-class", "FLOPs", "(M)", "121.21", "52.93", "189.50", "329.49", "173.28", "Reduction", "(%)", "61.54", "83.20", "66.07", "41.00", "62.95", "4-class", "FLOPs", "(M)", "166.35", "73.31", "336.49", "336.41", "228.14", "Reduction", "(%)", "47.21", "76.73", "39.75", "39.77", "50.87", "5-class", "FLOPs", "(M)", "179.93", "85.82", "360.62", "344.77", "242.79", "Reduction", "(%)", "42.90", "72.77", "35.43", "38.27", "47.34", "6-class", "FLOPs", "(M)", "198.71", "91.03", "376.75", "352.28", "254.69", "Reduction", "(%)", "36.94", "71.11", "32.54", "36.93", "44.38", "7-class", "FLOPs", "(M)", "230.41", "99.47", "398.82", "372.42", "275.28", "Reduction", "(%)", "26.88", "68.43", "28.59", "33.32", "39.31", "8-class", "FLOPs", "(M)", "249.33", "103.30", "407.57", "377.54", "284.44", "Reduction", "(%)", "20.87", "67.22", "27.03", "32.40", "36.88", "9-class", "FLOPs", "(M)", "279.40", "107.36", "432.79", "382.93", "300.62", "Reduction", "(%)", "11.33", "65.93", "22.51", "31.44", "32.80", "10-class", "FLOPs", "(M)", "293.88", "111.10", "442.67", "388.09", "308.94", "Reduction", "(%)", "6.74", "64.74", "20.74", "30.51", "30.68", "CIFAR10", "SVHN", "CIFAR10", "SVHN", "Average", "VGG16", "ResNet18", "Target", "Task", "Metric", "modules."],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 99.84,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608135-Table6-1.png"
+}, {
+  "caption": "Figure 4: The illustration of on-demand model reuse.",
+  "captionBoundary": {
+    "x1": 330.8810119628906,
+    "x2": 545.2767944335938,
+    "y1": 224.98876953125,
+    "y2": 227.0689697265625
+  },
+  "figType": "Figure",
+  "imageText": ["for", "a", "binary", "classification", "task", "Module", "for", "𝐶𝑙𝑎𝑠𝑠'", "Module", "for", "𝐶𝑙𝑎𝑠𝑠&", "②", "Fine-tune", "FC", "New", "output", "layer", "①", "Reuse", "modules", "𝐶𝑙𝑎𝑠𝑠!", "𝐶𝑙𝑎𝑠𝑠\"", "Training", "samples", "Sub-model", "Mixed", "Module", "𝑘!%", "𝑘!$", "𝑘#", "…", "𝑘!\"", "…", "FC…", "…", "𝐶𝑙𝑎𝑠𝑠'", "𝐶𝑙𝑎𝑠𝑠&", "FC", "𝑘!%", "…", "𝑘!$", "…", "…", "𝑘#", "…", "𝑘!\"", "…", "FC…", "Modules"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.56,
+    "y1": 86.39999999999999,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608135-Figure4-1.png"
+}]

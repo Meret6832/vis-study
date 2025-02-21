@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 1: Quantifying the HLRs and LLRs",
+  "captionBoundary": {
+    "x1": 233.11697387695312,
+    "x2": 378.6172790527344,
+    "y1": 85.65481567382812,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "-", "448", "1802", "318", "1217", "636", "2434", "208", "1818", "CM1", "Aerospace", "236", "355", "149", "353", "298", "706", "64", "316", "CCHIT", "Healthcare", "116", "1064", "72", "532", "144", "1064", "86", "1072", "GANTT", "Project", "management", "18", "69", "17", "69", "34", "138", "18", "90", "IP", "Healthcare", "21", "125", "20", "114", "40", "228", "22", "228", "WARC", "Web", "Tools", "63", "189", "60", "149", "120", "298", "18", "112", "Data", "set", "Domain", "Original", "Filtered", "Filtered+Fabricated", "Leave-One-Out", "#HLRs", "#LLRs", "#HLRs", "#LLRs", "#HLRs", "#LLRs", "#HLRs", "#LLRs"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table1-1.png"
+}, {
+  "caption": "Table 3: RQ1/RQ3 Example coverage answers to zS prompting.",
+  "captionBoundary": {
+    "x1": 326.25799560546875,
+    "x2": 549.6331787109375,
+    "y1": 212.13583374023438,
+    "y2": 217.1409912109375
+  },
+  "figType": "Table",
+  "imageText": ["Answer", "RQ1:", "zS", "prompting", "leads", "GPT-3.5", "to", "identify", "most", "HLR", "to", "LLR", "as", "completely", "covered,", "hence", "unable", "to", "detect", "situations", "when", "coverage", "is", "incomplete.", "zS", "prompting", "with", "explanation", "improves", "upon", "this", "but", "not", "for", "all", "data", "sets,", "performing", "especially", "poorly", "for", "the", "CM1", "data", "set.", "GPT-3.5", "answer", "(zS", "+", "expl.)", "“No.", "The", "low-level", "requirement", "only", "covers", "a", "generic,", "not", "a", "default", "iterator.”", "developer", "to", "iterate", "over", "all", "WARCrecords", "and", "create", "an", "abstract", "WARC", "document", "as", "a", "simple", "container.”", "LLR", "“Libwarc", "shall", "provide", "a", "generic", "iterator", "to", "enable", "the", "function”", "WARC", "HLR", "“Libwarc", "shall", "provide", "a", "default", "iterator", "as", "a", "built-in", "LLR", "(RQ3)", "GPT-4", "answer", "(zS+expl)", "(RQ3)", "“No,", "setting", "ERRNO", "task", "variable", "and", "returning", "ERROR", "not", "covered.”", "GPT-4", "answer", "(zS+expl2)", "(RQ3)", "“Yes,", "the", "high-level", "requirement’s", "aspects", "are", "covered", "as", "the", "low-level", "requirements", "detail", "error", "reporting,", "han-", "dling,", "and", "communication.”", "ERROR.”", "CM1", "HLR2", "(RQ3)", "“The", "DPU-DCI", "shall", "report", "errors", "to", "an", "application", "pro-", "gram", "by", "setting", "the", "ERRNO", "task", "variable", "and", "returning", "GPT-3.5", "answer", "(zS", "+", "expl.)", "“No.", "The", "low-level", "requirements", "do", "not", "mention", "writing", "to", "DCI", "Memory", "in", "B-bit", "words.”", "GPT-4", "answer", "(zS+expl.)", "(RQ3)", "“No,", "the", "low-level", "requirements", "do", "not", "cover", "B-bit", "word", "writing.”", "number", "of", "bytes", "written", "or", "ERROR.”", "(excerpt", "only", "due", "to", "space", "limits)", "LLR", "“The", "write()", "primitive[...]", "This", "routine", "returns", "either", "the", "words", "only.”", "CM1", "HLR1", "“The", "DPU-DCI", "shall", "write", "to", "the", "DCI", "Memory", "in", "B-bit", "should", "also", "be", "deleted", "when", "a", "person", "is", "deleted.", "The", "low-", "level", "requirements", "mention", "the", "ability", "to", "link", "tasks", "in", "a", "project", "and", "capture", "the", "linking", "as", "a", "dependency", "between", "tasks.", "This", "covers", "deleting", "dependencies", "to", "tasks", "when", "a", "person", "is", "deleted.", "”", "(Notice", "that", "GPT-3.5", "decided", "to", "explain", "without", "it", "being", "asked", "for", "one.)", "GPT-3.5", "answer", "(zS)", "“Yes.", "The", "high-level", "requirement", "states", "that", "all", "their", "as-", "sociated", "information,", "including", "dependencies", "to", "tasks,", "Linking", "one", "task", "to", "another", "should", "be", "captured", "as", "a", "de-", "pendency", "between", "two", "tasks.", "Every", "time", "the", "Start/End", "time", "for", "subtask", "changes,", "the", "start/end", "time", "for", "the", "par-", "ent", "task", "needs", "to", "change", "accordingly.”", "GPT-3.5", "answer", "(zS)", "“Yes”", "fabricated", "LLR", "“GUI", "needs", "to", "provide", "the", "ability", "to", "link", "tasks", "in", "a", "project.", "from", "a", "project.,", "An", "assignment", "of", "a", "resource", "to", "a", "task", "is", "captured", "as", "a", "relationship.", "When", "a", "resource", "is", "removed,", "all", "the", "tasks", "where", "the", "resource", "is", "assigned", "need", "to", "be", "updated.”", "LLR", "“GUI", "needs", "to", "provide", "the", "ability", "to", "delete", "resources", "ciated", "information,", "such", "as", "dependencies", "to", "all", "tasks", "the", "person", "is", "supposed", "to", "work", "on.”", "GANTT", "HLR", "“Delete", "Resources", "(person).", "Delete", "a", "person", "and", "all", "asso-", "Requirement", "text", "/", "GPT-3.5", "zS", "answer"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 558.24,
+    "y1": 231.84,
+    "y2": 715.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table3-1.png"
+}, {
+  "caption": "Table 2: RQ1 Performance metrics for different prompting variations with the GPT-3.5 model.",
+  "captionBoundary": {
+    "x1": 136.87399291992188,
+    "x2": 474.8578186035156,
+    "y1": 85.65481567382812,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "TP", "FN", "TN", "FP", "𝑃𝑟𝑒𝑐𝑐", "𝑅𝑒𝑐𝑐", "𝐹1𝑐", "𝑃𝑟𝑒𝑐𝑖𝑐", "𝑅𝑒𝑐𝑖𝑐", "𝐹1𝑖𝑐", "TP", "FN", "TN", "FP", "𝑃𝑟𝑒𝑐𝑐", "𝑅𝑒𝑐𝑐", "𝐹1𝑐", "𝑃𝑟𝑒𝑐𝑖𝑐", "𝑅𝑒𝑐𝑖𝑐", "𝐹1𝑖𝑐", "CM1", "121", "28", "47", "102", "0.54", "0.81", "0.65", "0.65", "0.24", "0.36", "36", "113", "123", "26", "0.58", "0.24", "0.34", "0.52", "0.80", "0.63", "CCHIT", "70", "2", "6", "66", "0.51", "0.97", "0.67", "0.80", "0.05", "0.10", "64", "8", "25", "47", "0.58", "0.89", "0.70", "0.77", "0.30", "0.42", "GANTT", "16", "1", "3", "14", "0.53", "0.94", "0.68", "0.00", "0.00", "0.00", "17", "0", "1", "16", "0.52", "1.00", "0.67", "1.00", "0.05", "0.11", "IP", "18", "2", "1", "19", "0.48", "0.90", "0.62", "0.33", "0.05", "0.08", "15", "5", "13", "7", "0.68", "0.75", "0.71", "0.72", "0.65", "0.68", "WARC", "58", "2", "16", "44", "0.57", "0.97", "0.72", "0.94", "0.26", "0.41", "54", "6", "60", "0", "1.00", "0.90", "0.95", "0.93", "1.00", "0.96", "For", "all", "following", "tables:", "value", ">=", "0.90:", "green,", "value", "<=30:", "red,", "highest", "value", "per", "metric:", "bold.", "GPT-3.5", "(zS)", "GPT-3.5", "(zS+expl.)"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 104.64,
+    "y2": 193.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table2-1.png"
+}, {
+  "caption": "Table 7: RQ4 Performance of GPT3.5 and GPT4 using CoT prompting vs. GPT3.5 using zS + expl.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 294.0390319824219,
+    "y1": 215.96481323242188,
+    "y2": 230.9329833984375
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "TP", "FN", "𝑅𝑒𝑐𝑐", "TP", "FN", "𝑅𝑒𝑐𝑐", "TP", "FN", "𝑅𝑒𝑐𝑐", "CM1", "36", "113", "0.24", "40", "109", "0.27", "27", "122", "0.18", "CCHIT", "64", "8", "0.89", "40", "32", "0.56", "26", "46", "0.36", "GANTT", "17", "0", "1.00", "13", "4", "0.76", "12", "5", "0.71", "IP", "15", "5", "0.75", "10", "10", "0.50", "6", "14", "0.30", "WARC", "58", "2", "0.90", "42", "18", "0.70", "43", "17", "0.72", "GPT-3.5", "(zS+expl.)", "GPT-3.5", "(CoT)", "GPT-4", "(CoT)"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 245.28,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table7-1.png"
+}, {
+  "caption": "Table 8: RQ4 Example coverage answers to CoT reasoning.",
+  "captionBoundary": {
+    "x1": 69.11100006103516,
+    "x2": 278.46685791015625,
+    "y1": 337.2478332519531,
+    "y2": 342.25299072265625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-3.5", "answer", "(CoT)", "“No.", "The", "high-level", "requirement", "is", "not", "fully", "covered", "due", "to", "the", "gap", "in", "addressing", "personalized", "template", "creation.”", "GPT-3.5", "answer", "(zS", "+", "expl.)", "“Yes.", "Both", "low-level", "requirements", "address", "customization", "and", "personalization.”", "the", "creation", "of", "templates", "is", "not", "explicitly", "covered", "in", "the", "low-level", "requirements.”", "GPT-4", "answer", "(CoT)", "“No,", "[...]", "In", "conclusion,", "full", "coverage", "is", "not", "achieved", "as", "to", "address", "a", "patient’s", "specific", "clinical", "situation.”", "LLR2", "“The", "system", "shall", "provide", "the", "ability", "to", "individualize", "alerts", "templates.”", "LLR1", "“The", "system", "shall", "provide", "the", "ability", "to", "customize", "clinical", "to", "fit", "the", "specific", "needs", "of", "individual", "practices.”", "CCHIT", "HLR", "“The", "system", "shall", "allow", "creation", "of", "personalized", "templates", "accuracy,", "low-battery", "warning,", "and", "battery", "failure", "alarm.”", "GPT-3.5", "answer", "(CoT)", "Yes", "“All", "key", "elements", "match", "the", "low-level", "requirements,", "and", "there", "are", "no", "gaps", "or", "inferred", "implicit", "coverage.", "[...]”", "GPT-3.5", "answer", "(zS", "+", "expl.)", "“Yes.", "The", "low-level", "requirements", "include", "power", "and", "bat-", "tery", "failure,", "remaining", "battery", "minutes,", "remaining", "battery", "trol", "to", "switch", "between", "battery-backup", "and", "mains", "supply.”", "GPT-4", "answer", "(CoT)", "“No", "[...]", "There", "is", "no", "explicit", "requirement", "for", "the", "power", "con-", "failure", "and", "issue", "a", "battery", "failure", "alarm.”", "LLR4", "“battery", "failure", "alarm.", "The", "PCA", "pump", "shall", "detect", "battery", "battery", "energy", "must", "be", "accurate", "to", "within", "Xbtty", "=", "25%.,", "low-battery", "warning.", "If", "the", "estimated", "battery", "life", "is", "less", "than", "?lba", "=", "3", "minutes,", "the", "pump", "shall", "issue", "a", "low-battery", "warning.”", "LLR3", "“remaining", "battery", "accuracy.", "The", "estimate", "of", "remaining", "that", "the", "PCA", "pump", "is", "working", "on", "battery", "backup", "and", "an", "estimate", "of", "the", "number", "of", "minutes", "of", "battery-powered", "infusion", "remain.”", "LLR2", "“remaining", "battery", "minutes.", "The", "user", "interface", "must", "show", "or", "power", "supply", "can", "operate", "the", "pump", "if", "the", "battery", "failure", "alarm", "and", "either", "the", "voltage", "out-of-range", "or", "the", "power", "supply", "failure", "alarms", "the", "pump", "rate", "will", "be", "off", "otherwise", "the", "pump", "rate", "will", "continue", "at", "its", "previous", "value.”", "LLR1", "“power", "and", "battery", "failure.", "Because", "either", "working", "battery", "battery-backup", "and", "mains", "supply", "and", "detects", "anomalies", "like", "voltage", "out-of-range", "and", "the", "low-level", "requirements”", "IP", "HLR", "“Power", "Subsystem:", "Power", "Control", "Switches", "between", "Requirement", "text", "/", "GPT", "answer"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 356.64,
+    "y2": 691.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table8-1.png"
+}, {
+  "caption": "Table 6: RQ3 Performance of zS prompting with GPT-4 (GPT-3.5 results for comparison).",
+  "captionBoundary": {
+    "x1": 146.87298583984375,
+    "x2": 464.860107421875,
+    "y1": 85.65481567382812,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["CM1", "121", "28", "0.81", "66", "83", "0.44", "36", "113", "0.24", "75", "74", "0.50", "42", "107", "0.28", "CCHIT", "70", "2", "0.97", "46", "26", "0.64", "64", "8", "0.89", "53", "19", "0.74", "38", "34", "0.53", "GANTT", "16", "1", "0.94", "17", "0", "1.00", "17", "0", "1.00", "13", "4", "0.76", "11", "6", "0.70", "IP", "18", "2", "0.90", "16", "4", "0.80", "15", "5", "0.75", "11", "9", "0.55", "17", "3", "0.85", "WARC", "58", "2", "0.97", "55", "5", "0.92", "55", "6", "0.90", "53", "7", "0.88", "55", "5", "0.92", "Dataset", "TP", "FN", "𝑅𝑒𝑐𝑐", "TP", "FN", "𝑅𝑒𝑐𝑐", "TP", "FN", "𝑅𝑒𝑐𝑐", "TP", "FN", "𝑅𝑒𝑐𝑐", "TP", "FN", "𝑅𝑒𝑐𝑐", "GPT-3.5", "(zS)", "GPT-4", "(zS)", "GPT-3.5", "(zS+expl.)", "GPT-4", "(zS+expl.)", "GPT-4", "(zS+expl2.)"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table6-1.png"
+}, {
+  "caption": "Figure 1: We illustrate two examples from IP [8] and CM1 [19] datasets.",
+  "captionBoundary": {
+    "x1": 177.49000549316406,
+    "x2": 434.506591796875,
+    "y1": 235.44485473632812,
+    "y2": 240.45001220703125
+  },
+  "figType": "Figure",
+  "imageText": ["CM1_5.2.1.5", "R4.4.1.2", "R6.4.0(4)", "R6.4.0(3)", "IP_10.6.4", "The", "DPU-RTOS", "shall", "include", "the", "capability", "to", "dynamically", "load", "object", "modules", "from", "the", "EEPROM.", "Occurrence", "of", "unavoidable", "single-event", "upsets", "caused", "by", "cosmic-ray-induced", "high-", "and", "thermal-energy", "neutrons", "must", "be", "either", "masked", "or", "detected", "to", "fail-stop.", "The", "PCA", "pump", "shall", "have", "continuous", "fault", "detection", "and", "masking.", "Hardware", "monitors", "of", "thread", "heartbeat", "memory", "error", "correction", "codes", "are", "examples.", "The", "error", "detector", "detects", "conditions", "that", "prevent", "threads", "from", "operating", "and", "thus", "could", "not", "be", "detected", "by", "the", "alarm", "thread.", "The", "DPU", "FSW", "then", "loads", "configuration", "information", "from", "EEPROM", "(which", "establishes", "various", "operational", "defaults)", "and", "spawns", "the", "various", "DPU", "FSW", "tasks.", "en", "ts", "On", "boot,", "the", "bootstrap", "tests", "and", "clears", "DRAM,", "and", "then", "proceeds", "to", "load", "the", "DPU", "FSW", "from", "EEPROM", "and", "executes", "it.", "-L", "ev", "el", "R", "eq", "ui", "re", "m", "Lo", "w", "Supporting", "High-Level", "to", "Low-Level", "Requirements", "Coverage", "Reviewing", "with", "Large", "Language", "Models", "MSR", "’24,", "April", "15–16,", "2024,", "Lisbon,", "Portugal", "H", "ig", "h-", "Le", "ve", "l", "R", "eq", "ui", "re", "m", "en", "t"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 62.4,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Prompting Strategies.",
+  "captionBoundary": {
+    "x1": 118.33399963378906,
+    "x2": 229.5075225830078,
+    "y1": 339.1038513183594,
+    "y2": 344.1090087890625
+  },
+  "figType": "Figure",
+  "imageText": ["followed", "by", "a", "Yes", "or", "No", "with", "a", "brief", "rationale", "in", "about", "10", "words.", "identify", "the", "key", "elements,", "match", "them", "with", "the", "low-level", "requirements", "highlight", "any", "gaps,", "infer", "implicit", "coverage", "conclude", "with", "full", "coverage", "or", "not", "Given", "the", "high-level", "requirement", "``high_level_text``,", "and", "the", "detailed", "low-level", "requirements", "``low_level_text_list``,", "let's", "think", "step", "by", "step:", "C", "oT", "Answer", "with", "Yes", "or", "No:", "Are", "all", "the", "high-level", "requirements'", "aspects", "covered", "by", "the", "low-level", "requirements?", "If", "the", "answer", "is", "no,", "explain", "in", "10", "words", "your", "answer.", "Given", "the", "high-level", "requirement:", "``high_level_text``", "and", "the", "corresponding", "low-level", "requirements", "``low_level_text_list``.", "l2", ".", "Assume", "we", "want", "to", "ensure", "high-level", "to", "low-level", "requirement", "review", "coverage.", "e", "xp", "zS", "+", "Answer", "with", "Yes", "or", "No:", "Are", "all", "the", "high-level", "requirements'", "aspects", "covered", "by", "the", "low-level", "requirements?", "Explain", "in", "10", "words", "your", "answer.", "l.", "Assume", "we", "want", "to", "ensure", "high-level", "to", "low-level", "requirement", "review", "coverage.", "Given", "the", "high-level", "requirement:", "``high_level_text``", "and", "the", "corresponding", "low-level", "requirements", "``low_level_text_list``.", "e", "xp", "zS", "+", "Answer", "with", "Yes", "or", "No:", "Are", "all", "the", "high-level", "requirements'", "aspects", "covered", "by", "the", "low-level", "requirements?", "Assume", "we", "want", "to", "ensure", "high-level", "to", "low-level", "requirement", "review", "coverage.", "Given", "the", "high-level", "requirement:", "``high_level_text``", "and", "the", "corresponding", "low-level", "requirements", "``low_level_text_list``.", "zS", "Prompting", "Strategies"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 291.36,
+    "y1": 84.0,
+    "y2": 324.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Figure2-1.png"
+}, {
+  "caption": "Table 4: RQ2: Performance metrics for different zS prompting strategies with GPT-3.5 on the LoO data set.",
+  "captionBoundary": {
+    "x1": 115.4990005493164,
+    "x2": 496.23394775390625,
+    "y1": 85.65481567382812,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["CM1", "28", "4", "5", "27", "0.50", "0.90", "0.64", "0.55", "0.15", "0.24", "10", "22", "23", "9", "0.70", "0.31", "0.42", "0.51", "0.71", "0.59", "CCHIT", "43", "0", "0", "43", "0.50", "1.00", "0.66", "0.00", "0.00", "0.00", "40", "3", "12", "31", "0.56", "0.93", "0.69", "0.80", "0.28", "0.41", "GANTT", "9", "0", "0", "9", "0.50", "1.00", "0.66", "0.00", "0.00", "0.00", "9", "0", "1", "8", "0.52", "1.00", "0.68", "1.00", "0.11", "0.19", "IP", "11", "0", "1", "10", "0.52", "1.00", "0.68", "1.00", "0.09", "0.16", "9", "2", "9", "2", "0.81", "0.82", "0.81", "0.81", "0.81", "0.81", "WARC", "9", "0", "3", "6", "0.60", "1.00", "0.74", "1.00", "0.33", "0.50", "9", "0", "9", "0", "1.00", "1.00", "1.00", "1.00", "1.00", "1.00", "Filtered+Fabricated", "where", "#𝐿𝐿𝑅", ">", "3", "Dataset", "TP", "FN", "TN", "FP", "𝑃𝑟𝑒𝑐𝑐", "𝑅𝑒𝑐𝑐", "𝐹1𝑐", "𝑃𝑟𝑒𝑐𝑖𝑐", "𝑅𝑒𝑐𝑖𝑐", "𝐹1𝑖𝑐", "TP", "FN", "TN", "FP", "𝑃𝑟𝑒𝑐𝑐", "𝑅𝑒𝑐𝑐", "𝐹1𝑐", "𝑃𝑟𝑒𝑐𝑖𝑐", "𝑅𝑒𝑐𝑖𝑐", "𝐹1𝑖𝑐", "CM1", "297", "19", "-", "-", "-", "-", "-", "-", "0.94", "-", "316", "0", "-", "-", "-", "-", "-", "-", "1.00", "-", "CCHIT", "748", "324", "-", "-", "-", "-", "-", "-", "0.70", "-", "1070", "2", "-", "-", "-", "-", "-", "-", "0.98", "-", "GANTT", "23", "67", "-", "-", "-", "-", "-", "-", "0.26", "-", "88", "2", "-", "-", "-", "-", "-", "-", "0.98", "-", "IP", "212", "16", "-", "-", "-", "-", "-", "-", "0.93", "-", "228", "0", "-", "-", "-", "-", "-", "-", "1.00", "-", "WARC", "19", "93", "-", "-", "-", "-", "-", "-", "0.17", "-", "109", "3", "-", "-", "-", "-", "-", "-", "0.97", "-", "GPT-3.5", "(zS)", "GPT-3.5", "(zS+expl.)"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 104.64,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table4-1.png"
+}, {
+  "caption": "Table 5: RQ2 Example coverage answers to zS prompting when applying LoO.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 295.46917724609375,
+    "y1": 263.9398498535156,
+    "y2": 278.90802001953125
+  },
+  "figType": "Table",
+  "imageText": ["GPT-3.5", "answer", "(zS)", "“Yes”", "GPT-3.5", "answer", "(zS", "+", "expl.)", "“Yes.", "The", "low-level", "requirements", "address", "the", "automatic", "changes", "of", "task", "begin/end", "times", "based", "on", "subtask", "changes.”", "GPT-3.5", "answer", "(zS", "+", "expl.)", "LoO", "“No.", "The", "low-level", "requirements", "cover", "the", "functionality", "but", "not", "the", "automation", "aspect.”", "start/end", "time", "for", "the", "parent", "task", "needs", "to", "change", "accordingly.”", "removed", "LLR4", "‘Every", "time", "the", "Start/End", "time", "for", "a", "subtask", "changes,", "the", "time", "of", "one", "or", "more", "subtasks", "must", "also", "change.”", "LLR1", "“Application", "needs", "to", "keep", "track", "of", "task’s", "begin", "and", "end", "times.”", "LLR2", "“Application", "needs", "to", "keep", "track", "of", "subtasks", "in", "a", "task.”", "LLR3", "“Every", "time", "a", "task’s", "Start/End", "time", "changes,", "the", "start/end", "dency", "changes.", "The", "start", "or", "end", "date", "should", "be", "changed", "auto-", "matically", "if", "one", "of", "its", "subtasks", "changes.", "and", "the", "corresponding", "low-levels", "”", "GANTT", "HLR", "‘Change", "Task", "Begin/End", "Times", "automatically", "with", "depen-", "Requirement", "text", "/", "GPT-3.5", "zS", "answer"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 298.08,
+    "y1": 293.28,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Table5-1.png"
+}, {
+  "caption": "Figure 4: Distribution of high-level requirements based on the number of corresponding LLRs for each dataset. The datasets are represented s: CM1 (blue), CCHIT (yellow), IP (green), WARC (red), and GANTT (violet).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.628662109375,
+    "y1": 439.2308349609375,
+    "y2": 474.1239929199219
+  },
+  "figType": "Figure",
+  "imageText": ["CM1", "CCHIT", "IP", "WARC", "GANTT", "Distribution", "of", "Requirements", "Dataset", "en", "ts", "re", "m", "eq", "ui", "ve", "l", "R", "h-", "Le", "f", "H", "ig", "be", "r", "o", "Nu", "m", "60", "50", "40", "30", "20", "10", "0", "1", "2", "3", "4", "5", "6", "9", "107", "8", "11", "12", "13", "16", "18", "21", "23", "24", "25", "27", "28", "3019", "26", "Number", "of", "corresponding", "Low-Level", "Requirements"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 556.3199999999999,
+    "y1": 267.36,
+    "y2": 421.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Overview of the data for each RQ.",
+  "captionBoundary": {
+    "x1": 360.73699951171875,
+    "x2": 515.4188232421875,
+    "y1": 239.14382934570312,
+    "y2": 244.14898681640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644922-Figure3-1.png"
+}]

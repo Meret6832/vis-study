@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1. Statistical analysis of the two datasets.",
+  "captionBoundary": {
+    "x1": 154.9680938720703,
+    "x2": 330.789794921875,
+    "y1": 87.95574188232422,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Py150", "50,000", "96.9", "9.06", "11.6", "Java", "Corpus", "8,268", "111.9", "10.4", "8.2", "Dataset", "Examples", "Average", "tokens", "of", "inputs", "Average", "token", "of", "outputs", "Average", "lines", "of", "code"],
+  "name": "1",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 95.52,
+    "y2": 138.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643735-Table1-1.png"
+}, {
+  "caption": "Table 4. Results with di erent learning objectives. ‘!\"’ indicates that LM has completed 5 rounds of SFT. ‘!\" + LB 5 C ’ is an additional 5 rounds of SFT based on ‘!\"’; ‘!\" + L3A; ’ is 10 rounds of DRL-based alignment based on ’!\"’; ‘!\" + LB 5 C + L3A; ’ is a 10-round joint training of SFT and DRL-based alignment based on ‘!\"’.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17510986328125,
+    "y1": 87.95598602294922,
+    "y2": 125.96197509765625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-2", "[124M]", "57.42", "4.95", "32.56", "42.25", "56.33", "4.49", "31.90", "42.03", "52.68", "4.63", "32.55", "42.55", "58.58", "5.40", "33.12", "43.68", "GPT-2", "[1.5B]", "58.14", "6.24", "34.24", "43.47", "57.27", "5.86", "34.00", "42.71", "56.89", "5.47", "33.88", "42.35", "59.51", "6.69", "35.02", "43.98", "CodeGPT", "58.98", "12.06", "36.32", "43.92", "57.55", "11.35", "35.25", "43.23", "55.98", "10.56", "34.71", "42.97", "59.94", "12.57", "36.89", "44.19", "GodeGPT-adapt", "58.87", "5.57", "33.53", "42.97", "57.24", "5.17", "32.88", "42.66", "55.38", "4.80", "30.88", "41.78", "59.15", "5.84", "33.68", "44.02", "CodeGen", "59.33", "11.52", "35.96", "43.08", "58.66", "11.03", "35.24", "42.71", "59.14", "11.41", "35.66", "43.29", "60.31", "12.40", "36.99", "44.06", "StarCoder", "59.94", "11.88", "36.24", "43.56", "59.18", "11.03", "35.75", "43.22", "58.68", "10.71", "35.18", "42.91", "61.63", "13.15", "37.96", "44.38", "CodeT5+", "53.42", "4.61", "31.49", "36.85", "53.17", "4.46", "31.05", "35.73", "52.76", "4.09", "30.88", "35.02", "54.11", "4.98", "32.06", "38.61", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Model", "!\"", "!\"", "+", "LB", "5", "C", "!\"", "+", "L3A;", "!\"", "+", "LB", "5", "C", "+", "L3A;", "Java", "Corpus", "GPT-2", "[124M]", "59.37", "9.21", "35.31", "40.81", "59.48", "9.00", "35.37", "40.69", "58.15", "8.86", "34.98", "40.26", "63.65", "13.93", "39.96", "43.70", "GPT-2", "[1.5B]", "65.62", "14.45", "41.93", "44.76", "62.36", "12.23", "39.45", "42.82", "63.74", "12.51", "39.87", "44.06", "66.90", "16.37", "43.32", "45.91", "CodeGPT", "60.66", "15.65", "38.10", "42.42", "58.47", "12.57", "35.30", "41.17", "58.72", "12.72", "38.82", "43.10", "65.44", "21.94", "43.71", "45.79", "CodeGPT-adapt", "63.08", "13.10", "39.31", "43.27", "60.84", "10.75", "36.67", "41.73", "61.51", "10.96", "37.30", "42.34", "63.68", "14.02", "40.15", "43.63", "CodeGen", "59.45", "10.18", "35.53", "40.90", "58.33", "9.52", "34.88", "40.22", "58.82", "9.81", "35.16", "41.43", "64.55", "14.46", "41.31", "43.08", "StarCoder", "61.37", "16.44", "39.11", "43.11", "59.42", "11.41", "35.96", "41.77", "60.09", "11.82", "36.26", "42.43", "64.02", "20.38", "42.06", "44.76", "CodeT5+", "55.81", "5.33", "32.99", "38.71", "54.62", "5.10", "32.31", "38.34", "54.84", "5.01", "32.24", "38.92", "56.97", "6.25", "33.74", "39.96", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Edit-Sim", "EM", "BLEU-4", "CodeBLEU", "Model", "!\"", "!\"", "+", "LB", "5", "C", "!\"", "+", "L3A;", "!\"", "+", "LB", "5", "C", "+", "L3A;", "Py150"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 128.64,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643735-Table4-1.png"
+}, {
+  "caption": "Fig. 2. Overview of the IRCoCo using the Actor-Critic Framework. First, the actor network samples synthetic samples. These samples are generated token by token and are sequentially added to the end of the incomplete code fragment. A erward, they are rewarded by the critic. Leveraging these immediate rewards, the strategy is refined by integrating the IRCoCo framework, which employs a joint fine-tuning approach using SFT and DRL.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.1545104980469,
+    "y1": 247.7179718017578,
+    "y2": 295.9519958496094
+  },
+  "figType": "Figure",
+  "imageText": ["total", "=", "sum(numbers)", "average", "=", "total", "/", "len(numbers)", "return", "average", "def", "c_average(numbers):", "Sample", "Evaluator", "(Critic)", "Finetuned", "LM", "Policy", "Model", "(Actor)", "......", "def", "R1", "R2", "...", "Rn", "c_average", "(", "...", ")", "average", "=", "...", "average"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 387.36,
+    "y1": 86.39999999999999,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643735-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. Overview of the Evaluator. Training the evaluator first requires preparing training data. In the training data preparation phase, we randomly split the complete code to obtain the incomplete code and reference code fragments. A er that, we pass the incomplete code fragment through the LM to obtain the completed code and compute the score B . Finally, we pair the incomplete code fragment with the score B to obtain the training data. In the training phase, we will obtain the score B′ by the evaluator, and the training goal is to minimize the MSE loss of B and B′.",
+  "captionBoundary": {
+    "x1": 45.82757568359375,
+    "x2": 440.17535400390625,
+    "y1": 221.0869598388672,
+    "y2": 280.27899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["Preparing", "Training", "Data", "Score", "Training", "Evaluator", "Estimated", "0.8", "MSE", "Loss", "Evaluator", "Estimated", "layer", "Complete", "Transformer", "def", "fib(n):", "if", "n", "<=", "1:", "return", "n", "LM", "1.0", "Score", "Incomplete", "Code", "Completed", "Code", "Reference", "Code", "else:", "return", "fib(n-1)+fib(n-2)", "else:", "return", "fib(n-1)+fib(n-2)", "def", "fib(n):", "if", "n", "<=", "1:", "return", "n", "def", "fib(n):", "if", "n", "<=", "1:", "return", "n", "else:", "return", "fib(n-1)+fib(n-2)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 99.84,
+    "x2": 384.0,
+    "y1": 84.47999999999999,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643735-Figure3-1.png"
+}, {
+  "caption": "Fig. 4. Comparison of the IRCoCo framework under di erent numbers of tokens (Py150 dataset).",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 235.27732849121094,
+    "y1": 289.1940002441406,
+    "y2": 304.5509948730469
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 236.16,
+    "y1": 84.0,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643735-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Comparison of the IRCoCo framework under di erent numbers of tokens (Java Corpus dataset).",
+  "captionBoundary": {
+    "x1": 248.3979949951172,
+    "x2": 437.83856201171875,
+    "y1": 289.1940002441406,
+    "y2": 304.5509948730469
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 247.67999999999998,
+    "x2": 438.24,
+    "y1": 84.0,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643735-Figure5-1.png"
+}]

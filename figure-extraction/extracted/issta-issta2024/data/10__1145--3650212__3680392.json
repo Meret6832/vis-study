@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 6: The execution of the atomic graph traversal )3 in Figure 4 using the temporary ID table strategy.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.044677734375,
+    "y1": 193.02906799316406,
+    "y2": 208.28302001953125
+  },
+  "figType": "Figure",
+  "imageText": ["10", ".hasLabel('person", "','book')", "--", "v:{1", ",4}", "11", "12", "//", "drop", "the", "temporary", "ID", "table", "13", "g.V().hasLabel('IDs').drop()", "1", "//", "put", "the", "result", "v:{1", ",4}", "into", "a", "temporary", "table", "2", "g.addV('IDs').property('id'", ",1)", "3", "g.addV('IDs').property('id'", ",4)", "4", "5", "//", "execute", "the", "third", "atomic", "graph", "traversal", "6", "g.V().hasLabel('IDs').values('id').as('vList", "')", "7", ".V().as('V')", "8", ".id().as('V_ID')", "9", ".where('vList", "',P.eq('V_ID')).select('V')"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The execution of the disassembled atomic graph traversals in Figure 4 using the barrier strategy.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2041015625,
+    "y1": 116.31709289550781,
+    "y2": 131.57098388671875
+  },
+  "figType": "Figure",
+  "imageText": ["hasLabel('person", "','book');", "--", "v:{1", ",4}", "1", "g.V().barrier", "().has('person", "','age',lt(30)).barrier", "()."],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 552.0,
+    "y1": 84.0,
+    "y2": 106.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure7-1.png"
+}, {
+  "caption": "Figure 13: An example of extending QuDi to SQL queries in relational database systems.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0408630371094,
+    "y1": 144.2121124267578,
+    "y2": 159.46600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "//", "original", "query", "2", "SELECT", "c1", "FROM", "(SELECT", "c1", ",", "c2", "FROM", "t1);", "3", "4", "//", "disassembled", "queries", "5", "CREATE", "TABLE", "t2", "AS", "SELECT", "c1", ",", "c2", "FROM", "t1;", "6", "SELECT", "c1", "FROM", "t2;"],
+  "name": "13",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure13-1.png"
+}, {
+  "caption": "Figure 1: A logic bug ArcadeDB#500 detected by our approach in ArcadeDB [14]. This Gremlin query wrongly retrieves all vertices, rather than persons who are less than 30 years old in Figure 2.",
+  "captionBoundary": {
+    "x1": 53.56480026245117,
+    "x2": 294.044921875,
+    "y1": 123.29109191894531,
+    "y2": 160.46197509765625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "g.V().has('person", "','age',lt(30)).hasLabel('person", "','book');", "2", "--", "v:{1,2,3,4}", "✘", "3", "--", "v:{1", ",4}", "✔"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 113.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure1-1.png"
+}, {
+  "caption": "Figure 2: A labeled property graph.",
+  "captionBoundary": {
+    "x1": 367.3290100097656,
+    "x2": 508.8277893066406,
+    "y1": 168.56007385253906,
+    "y2": 172.85498046875
+  },
+  "figType": "Figure",
+  "imageText": [":", "5", "since:", "2020", "time", "time:", "2", "e:3", "e:1", "e:2", "read", "v:4", "person", "name:", "Bob", "age:", "21", "v:3", "person", "v:1", "person", "title:", "Hello", "World", "language:", "English", "name:", "Nancy", "age:", "30", "name:", "Alice", "age:", "26", "read", "book", "v:2write"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 535.1999999999999,
+    "y1": 85.92,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure2-1.png"
+}, {
+  "caption": "Table 1: Target GDBs",
+  "captionBoundary": {
+    "x1": 131.46609497070312,
+    "x2": 216.08206176757812,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["GDB", "Ranking", "GitHub", "Stars", "Initial", "Release", "Neo4j", "1", "12.4k", "2007", "OrientDB", "6", "4.7k", "2010", "JanusGraph", "12", "5.1k", "2017", "HugeGraph", "33", "2.5k", "2018", "TinkerGraph", "34", "1.9k", "2009", "ArcadeDB", "37", "434", "2021"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 279.36,
+    "y1": 99.84,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Table1-1.png"
+}, {
+  "caption": "Figure 12: An example of extending QuDi to Cypher query language.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4488525390625,
+    "y1": 297.6081237792969,
+    "y2": 312.86199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["//", "--{}", "3", "4", "//", "disassembled", "queries", "5", "MATCH", "(p:Person)", "-[:Write]->", "(b1:Book)", "RETURN", "p.id", "//--v:{1}", "6", "MATCH", "(p:Person)", "-[:Read]->(b2:Book)", "WHERE", "p.id=1", "RETURN", "b2", ")", "RETURN", "b2", "//", "--", "{}", "1", "//", "original", "query", "2", "MATCH", "(p:Person)", "-[:Write]->", "(b1:Book),", "(p)", "-[:Read]->(b2:Book"],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 552.0,
+    "y1": 223.67999999999998,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure12-1.png"
+}, {
+  "caption": "Figure 11: HugeGraph retrieves wrongly edges when ()’s parameter contains duplicate edge IDs in HugeGraph#1946.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2041625976562,
+    "y1": 191.61207580566406,
+    "y2": 206.86602783203125
+  },
+  "figType": "Figure",
+  "imageText": ["9", "10", "//", "disassembled", "queries", "11", "g.V();", "--", "v:{1,2,3}", "12", "g.V(1,2,3).bothE", "();", "--", "e:{1,2,1,2}", "13", "g.E(1,2,1,2).count", "();", "--", "2", "✘", "1", "v1", "=", "new", "Vertex('vL');", "2", "v2", "=", "new", "Vertex('vL');", "3", "v3", "=", "new", "Vertex('vL');", "4", "e1", "=", "v1.addEdge('eL',", "v2);", "5", "e2", "=", "v1.addEdge('eL',", "v3);", "6", "7", "//", "original", "query", "8", "g.V().bothE", "().count", "();", "--", "4", "✔"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 552.0,
+    "y1": 84.0,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure11-1.png"
+}, {
+  "caption": "Figure 9: JanusGraph inconsistently retrieves properties without explicit data type in JanusGraph#3200.",
+  "captionBoundary": {
+    "x1": 53.44879913330078,
+    "x2": 294.04681396484375,
+    "y1": 177.66407775878906,
+    "y2": 192.91802978515625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "g.E();", "--", "e:{1}", "11", "g.E(1).has('p',", "0.94461);", "--", "{}", "✔", "1", "v1", "=", "g.addV('vL').next();", "2", "v2", "=", "g.addV('vL').next();", "3", "e1", "=", "g.addE('eL').from(v1).to(v2).next();", "4", "g.E(e1).property('p',", "new", "Float", "(0.94461));", "5", "6", "//", "original", "query", "7", "g.E().has('p',", "0.94461);", "--", "e:{1}", "✘", "8", "9", "//", "disassembled", "queries"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure9-1.png"
+}, {
+  "caption": "Figure 10: JanusGraph incorrectly sorts vertices with properties in JanusGraph#3216 and JanusGraph#3269.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6544494628906,
+    "y1": 302.76611328125,
+    "y2": 318.0199890136719
+  },
+  "figType": "Figure",
+  "imageText": ["6", "7", "//", "disassembled", "queries", "8", "g.V();", "--", "v:{1,", "2}", "9", "g.V(1,2).order", "().by('p0');", "--", "v:{1", ",2}", "✘", "the", "key", "has", "no", "associated", "value", "for", "the", "provided", "element", "v[2]:p0.}", "✘", "1", "v1", "=", "g.addV('vL').property('p0',", "1).next();", "2", "v2", "=", "g.addV('vL').property('p1',", "2).next();", "3", "4", "//", "original", "query", "5", "g.V().order", "().by('p0');", "--", "{The", "property", "does", "not", "exist", "as"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 288.0,
+    "y1": 209.76,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure10-1.png"
+}, {
+  "caption": "Table 3: Bug Consequences",
+  "captionBoundary": {
+    "x1": 383.22698974609375,
+    "x2": 492.635009765625,
+    "y1": 189.7420196533203,
+    "y2": 194.03692626953125
+  },
+  "figType": "Table",
+  "imageText": ["Neo4j", "0", "0", "0", "OrientDB", "0", "1", "2", "JanusGraph", "2", "0", "1", "HugeGraph", "4", "4", "8", "TinkerGraph", "1", "0", "0", "ArcadeDB", "2", "0", "0", "Total", "9", "5", "11", "Query", "Result", "Exception", "Exception", "GDB", "Incorrect", "Lacking", "Unexpected"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 542.4,
+    "y1": 201.6,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Table3-1.png"
+}, {
+  "caption": "Figure 4: Approach overview.",
+  "captionBoundary": {
+    "x1": 246.9969940185547,
+    "x2": 365.00360107421875,
+    "y1": 218.4790802001953,
+    "y2": 222.77398681640625
+  },
+  "figType": "Figure",
+  "imageText": ["����", "����", "���", "④", "Compare", "����", "T3", "T2", "1", "3", "42", "1", "4", "1", "3", "42", "1", "4", "1", "4", "1", "3", "42", "A", "Gremlin", "query", "Q", "≠", "T1", "③", "Disassemble", "query", "Q", ".hasLabel(‘person’,", "‘book’)", "②", "Randomly", "generate", "a", "Gremlin", "query", "g.V().has(‘person’,", "‘age’,", "lt(30))", "4", "2", "1", "3", "g.V(", ").hasLabel(‘person’,", "‘book’)", "g.V(", ").has(‘person’,", "‘age’,", "lt(30))", "g.V()", "①", "Randomly", "generate", "a", "graph", "database"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 116.64,
+    "x2": 494.4,
+    "y1": 71.52,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure4-1.png"
+}, {
+  "caption": "Figure 8: Venn diagram of the logic bugs detected by our three execution strategies.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0445251464844,
+    "y1": 185.92506408691406,
+    "y2": 201.17901611328125
+  },
+  "figType": "Figure",
+  "imageText": ["4", "1", "15", "0", "0", "4", "1", ")4<?", "%0A0%0BB", "0AA84A"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 96.47999999999999,
+    "x2": 248.64,
+    "y1": 85.92,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure8-1.png"
+}, {
+  "caption": "Figure 5: The execution of the disassembled atomic graph traversals in Figure 4 using the parameter passing strategy.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2041015625,
+    "y1": 123.29109191894531,
+    "y2": 138.54498291015625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "g.V();", "--", "v:{1,2,3,4}", "2", "g.V(1,2,3,4).has('person", "','age',lt(30));", "--", "v:{1", ",4}", "3", "g.V(1,4).hasLabel('person", "','book');", "--", "v:{1", ",4}"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 552.0,
+    "y1": 84.0,
+    "y2": 113.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680392-Figure5-1.png"
+}]

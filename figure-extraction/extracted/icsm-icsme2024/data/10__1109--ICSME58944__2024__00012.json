@@ -1,0 +1,241 @@
+[{
+  "caption": "TABLE III: Comparison of LLMs and DL-based methods",
+  "captionBoundary": {
+    "x1": 314.0216979980469,
+    "x2": 550.3045654296875,
+    "y1": 75.22422790527344,
+    "y2": 79.63507080078125
+  },
+  "figType": "Table",
+  "imageText": ["Result.", "Table", "III", "shows", "the", "performance", "of", "LLMs", "and", "DL-", "based", "methods", "on", "the", "function", "name", "recovery", "task.", "Precision", "+", "Recall", "(4)", "F1-score", "=", "2×", "Precision", "×", "Recall", "TP", "+", "FN", "(3)", "Recall", "=", "TP", "TP", "+", "FP", "(2)", "Precision", "=", "TP", "DL-based", "SymLM", "[13]", "10.69", "6.04", "7.72", "0.29", "NER", "[14]", "17.10", "12.03", "13.33", "0.03", "HexT5", "[18]", "3.69", "3.33", "3.28", "0.17", "General", "LLMs", "ChatGLM2-6B", "13.98", "16.36", "14.12", "0.59", "Vicuna-7b-v1.5", "22.35", "21.36", "21.16", "0.61", "Vicuna-13b-v1.5", "25.26", "24.89", "24.34", "0.96", "Llama-2-13b-chat-hf", "26.78", "28.31", "26.69", "1.19", "Llama-2-70b-chat-hf", "27.45", "27.14", "26.68", "4.68", "Mistral-7B-Instruct-v0.2", "23.38", "27.49", "24.28", "0.84", "Mixtral-8x7B-Instruct-v0.1", "19.77", "25.62", "21.26", "2.13", "ChatGPT(gpt-3.5-turbo-16k)", "22.85", "22.26", "21.85", "1.43", "Code", "LLMs", "CodeGen25-7b-instruct", "13.57", "15.09", "13.50", "1.47", "WizardCoder-15b-V1.0", "26.41", "26.14", "25.40", "2.22", "WizardCoder-33b-V1.1", "21.89", "22.48", "21.19", "5.09", "Code", "Llama-7b-instruct-hf", "28.31", "27.21", "26.87", "0.74", "Code", "Llama-13b-instruct-hf", "28.26", "27.30", "26.76", "1.60", "Code", "Llama-34b-instruct-hf", "28.96", "28.44", "27.59", "3.69", "Code", "Llama-70b-instruct-hf", "26.92", "27.42", "26.19", "9.76", "DeepSeek-Coder-33b-instruct", "25.30", "27.32", "25.22", "4.11", "Precision", "Recall", "F1-score", "Time(s)", "Domain", "Model", "Metric", "on", "function", "name", "recovery.", "We", "mark", "the", "best", "performing", "methods", "in", "each", "domain."],
+  "name": "III",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 552.0,
+    "y1": 80.64,
+    "y2": 430.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-TableIII-1.png"
+}, {
+  "caption": "Fig. 1: Application background of binary code understanding.",
+  "captionBoundary": {
+    "x1": 189.64871215820312,
+    "x2": 427.9557189941406,
+    "y1": 206.2731170654297,
+    "y2": 210.6839599609375
+  },
+  "figType": "Figure",
+  "imageText": ["Binary", "AnalysisAI", "Augmentation", "Software", "Development", "Release", "Software", "Code-Summarization", "Output", "Function-Name", "Neural", "Model", "DisassemblyDecompileInput", "Assembly", "CodePseudo", "Code", "Strip", "Stripped", "Binary", "File", "Compile", "Binary", "File", "Program", "Source", "Code", "Reverse", "Engineer", "Bob", "Software", "Developer", "Alice"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 523.1999999999999,
+    "y1": 72.96,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: Example of source, assembly, stripped assembly and stripped pseudo code snippet.",
+  "captionBoundary": {
+    "x1": 314.4214782714844,
+    "x2": 550.4168701171875,
+    "y1": 601.9210205078125,
+    "y2": 617.569580078125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Stripped", "Pseudo", "Code", "sub_0BAAA0);↪→", "return", "result;", "}", "result", "=", "sub_1B6E10", "(a1,", "a2,", "a3,", "a4,", "a5,", "sub_0BA6E0);↪→", "else", "result", "=", "sub_1B6F50", "(a1,", "a2,", "a3,", "a4,", "a5,", "_int64", "_fastcall", "sub_0BA040", "(_int64", "a1,", "_int64", "a2,", "_int64", "a3,", "_int64", "a4,", "_int64", "a5,int", "a6)", "{↪→", "__int64", "result;", "//", "rax", "if", "(", "a6", ")", "(c)", "Stripped", "Assembly", "Code", "0007E5F0", "test", "r9d,", "r9d", "0007E5F3", "jz", "short", "loc_7E608", "0007E5F5", "lea", "r9,", "sub_0BA6E0", "0007E5FC", "jmp", "sub_1B6E10", "0007E608", "lea", "r9,", "sub_0BAAA0", "0007E60F", "jmp", "sub_1B6F50", "(b)", "Assembly", "Code", "0007E5F0", "test", "r9d,", "r9d", "0007E5F3", "jz", "short", "loc_7E608", "0007E5F5", "lea", "r9,", "AES_encrypt", "0007E5FC", "jmp", "CRYPTO_cbc128_encrypt", "0007E608", "lea", "r9,", "AES_decrypt", "0007E60F", "jmp", "CRYPTO_cbc128_decrypt", "(a)", "Source", "Code", "CRYPTO_cbc128_decrypt", "(in,", "out,", "len,", "key,", "ivec,", "AES_decrypt);", "}↪→", "AES_encrypt);↪→", "else", "if", "(enc)", "CRYPTO_cbc128_encrypt", "(in,", "out,", "len,", "key,", "ivec,", "void", "AES_cbc_encrypt", "(const", "unsigned", "char", "*in,", "unsigned", "char", "*out,", "size_t", "len,", "const", "AES_KEY", "*key,", "unsigned", "char", "*ivec,", "const", "int", "enc)", "{", "↪→", "↪→", "It", "takes", "in", "...↪→", "*/", "/**", "*", "Implement", "AES", "encryption", "and", "decryption", "in", "CBC", "mode."],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 553.4399999999999,
+    "y1": 232.79999999999998,
+    "y2": 579.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure2-1.png"
+}, {
+  "caption": "TABLE IV: Comparison of LLMs and DL-based methods on",
+  "captionBoundary": {
+    "x1": 313.58612060546875,
+    "x2": 549.8670043945312,
+    "y1": 75.25419616699219,
+    "y2": 79.6650390625
+  },
+  "figType": "Table",
+  "imageText": ["DL-based", "BinT5", "[16]", "0.00", "2.12", "4.83", "0.59", "HexT5", "[18]", "0.09", "6.32", "8.53", "0.47", "General", "LLMs", "ChatGLM2-6B", "4.29", "26.37", "20.66", "5.53", "Vicuna-7b-v1.5", "5.99", "25.29", "22.84", "5.54", "Vicuna-13b-v1.5", "4.90", "21.20", "22.48", "7.53", "Llama-2-13b-chat-hf", "6.16", "24.47", "22.51", "11.30", "Llama-2-70b-chat-hf", "5.51", "26.26", "21.51", "47.76", "Mistral-7B-Instruct-v0.2", "5.98", "24.37", "23.55", "3.64", "Mixtral-8x7B-Instruct-v0.1", "5.79", "24.16", "23.56", "11.00", "ChatGPT(gpt-3.5-turbo-16k)", "7.37", "28.13", "23.76", "2.85", "Code", "LLMs", "CodeGen25-7b-instruct", "3.87", "23.61", "18.95", "7.32", "WizardCoder-15b-V1.0", "6.60", "26.53", "23.80", "12.91", "WizardCoder-33b-V1.1", "4.74", "25.43", "20.34", "23.71", "Code", "Llama-7b-instruct-hf", "4.65", "22.20", "20.66", "5.33", "Code", "Llama-13b-instruct-hf", "4.03", "19.43", "19.68", "8.37", "Code", "Llama-34b-instruct-hf", "4.69", "21.13", "21.14", "18.93", "Code", "Llama-70b-instruct-hf", "4.64", "23.75", "20.82", "53.55", "DeepSeek-Coder-33b-instruct", "5.22", "24.10", "20.84", "20.26", "BLEU-4", "METEOR", "Rouge-L", "Time(s)", "Domain", "Model", "Metric", "binary", "code", "summarization.", "We", "mark", "the", "best", "performing", "methods", "in", "each", "domain."],
+  "name": "IV",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.44,
+    "x2": 554.4,
+    "y1": 80.64,
+    "y2": 295.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-TableIV-1.png"
+}, {
+  "caption": "Fig. 8: An example of binary code understanding in a real-world virus with ChatGPT.",
+  "captionBoundary": {
+    "x1": 135.68592834472656,
+    "x2": 468.6807861328125,
+    "y1": 270.14849853515625,
+    "y2": 274.559326171875
+  },
+  "figType": "Figure",
+  "imageText": ["Prompt-response", "Chatflow", "Function", "Call", "Chain", "2nd", "Response2nd", "Prompt1st", "Prompt", "1st", "Response", "sub_EEB0", "seems", "to", "be", "involved", "in", "processing", "or", "interpreting", "data", "received", "from", "a", "network", "connection.", "Considering", "its", "role", "in", "handling", "potentially", "compressed", "or", "encoded", "network", "data,", "and", "the", "presence", "of", "operations", "like", "decompression", "or", "decryption", "in", "similar", "contexts", "......", "(descriptive", "name", "=", "ProcessNetworkData", "or", "DecodeAndProcessCommand)", "sub_E950", "aligns", "with", "the", "pattern", "of", "a", "function", "responsible", "for", "processing", "or", "transforming", "received", "network", "data,", "possibly", "performing", "actions", "like", "decompression,", "decoding,", "or", "preliminary", "parsing", "......", "(descriptive", "name", "=", "TransformNetworkData", "or", "ProcessReceivedData)", "sub_EEB0", "appears", "to", "be", "initializing", "and", "preparing", "a", "resource", "for", "processing,", "which", "is", "then", "passed", "to", "sub_E950.", "(descriptive", "name", "=", "InitializeAndProcessResource)", "sub_E950", "is", "a", "function", "that", "seems", "to", "be", "doing", "more", "direct", "data", "manipulation", "and", "processing.", "(descriptive", "name", "=", "ProcessDataStream)", "The", "function", "`sub_EEB0`", "are", "called", "by", "the", "following", "function", "`main`.", "Now,", "please", "try", "to", "analyze", "the", "two", "previous", "functions", "(`", "sub_EEB0`and`sub_E950`", ")", "again:", "```C/C++", "{main}", "```", "The", "following", "C/C++", "decompiled", "binary", "code", "includes", "two", "function", "`sub_EEB0`", "and", "`sub_E950`,", "which", "are", "stripped", "symbol", "(function", "name)", "in", "the", "compilation.", "Please", "summary", "these", "function", "to", "describe", "their", "functionality", "and", "try", "to", "recovery", "their", "descriptive", "function", "names:", "```C/C++", "{sub_EEB0}", "{sub_E950}", "```", "memcpy(v19,", "(char", "*)v10", "+", "v17,", "v21);", "…", "…", "}", "…", "…", "memcpy(v36,", "(char", "*)v10", "+", "v9,", "v35);", "…", "…", "}", "int)&", "v47,", "(int)v2", "+", "11020,", "(int)v10", "+", "(int)v9,", "(_DWORD)v12,", "v45);", "…", "…", "v14", "=", "*a1;", "v15", "=", "sub_CA20((_DWORD)v2,", "v14,", "(unsigned", "__int64", "__fastcall", "sub_E950(__int64", "*a1,", "int", "a2)", "{", "…", "…", "while", "(", "1", ")", "{", "…", "…", "}", "…", "…", "sub_E950(&v6,", "0LL);", "…", "…", "}", "*(_DWORD", "*)v4", "=", "0;", "*(_DWORD", "*)(v4", "+", "43788)", "=", "1;", "*(_QWORD", "*)(v4", "+", "11000)", "=", "0LL;", "unsigned", "__int64", "__fastcall", "sub_EEB0(__int64", "a1)", "{", "…", "…", "v2", "=", "*(_QWORD", "*)a1;", "v6", "=", "v2;", "if", "(", "v4", ")", "{", "bytes\\n\",", "HIDWORD(s2[1]),", "(unsigned", "int)v72);", "…", "…", "}", "…", "…", "sub_EEB0((__int64)&s);", "__printf_chk(1LL,", "\"Decompressed:", "%s\\n\");", "…", "…", "sub_EEB0((__int64)&s);", "sub_4FA00(&v80,", "s2[0],", "SHIDWORD(s2[1]));", "v48", "+=", "fwrite(s2[0],", "1uLL,", "SHIDWORD(s2[1]),", "ptra);", "__fprintf_chk(stdout,", "1LL,", "\"Received", "%d", "bytes", "out", "of", "%d", "int", "main();", "static", "void", "decompress_buffer(struct", "compression", "*compress);", "int", "mz_inflate(mz_streamp", "pStream,", "int", "flush);", "__int64", "__fastcall", "main(int", "a1,", "char", "**a2,", "char", "**a3)", "{"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 505.44,
+    "y1": 72.0,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure8-1.png"
+}, {
+  "caption": "TABLE I: Statistics of our benchmark dataset.",
+  "captionBoundary": {
+    "x1": 342.8478698730469,
+    "x2": 521.6039428710938,
+    "y1": 213.40867614746094,
+    "y2": 217.81951904296875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "(12)", "8", "28", "81,185", "2,000", "FFmpeg", "[34]", "Video", "2", "30,585", "200", "Redis", "[35]", "Database", "2", "6,837", "200", "Curl", "[36]", "Network", "2", "6,688", "200", "Masscan", "[37]", "Network", "1", "536", "150", "Llama2.c", "[38]", "Neural", "Network", "2", "35", "34", "Whisper.cpp", "[39]", "Neural", "Network", "9", "5,339", "200", "OpenSSL", "[40]", "Crypto", "2", "19,122", "300", "zstd", "[41]", "Compress", "1", "2,432", "200", "ImageMagick", "[42]", "Image", "3", "3,798", "200", "Libvips", "[43]", "Image", "1", "5,424", "200", "Libexpat", "[44]", "Format", "1", "362", "100", "Ultrajson", "[45]", "Format", "2", "27", "16", "Project", "Domain", "#", "Binaries", "#", "Functions", "#", "Select"],
+  "name": "I",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 543.36,
+    "y1": 72.96,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-TableI-1.png"
+}, {
+  "caption": "Fig. 5: Impact of pseudo code length on performance.",
+  "captionBoundary": {
+    "x1": 327.8614196777344,
+    "x2": 536.659912109375,
+    "y1": 347.1513977050781,
+    "y2": 351.5622253417969
+  },
+  "figType": "Figure",
+  "imageText": ["CodeGen25-7b-instruct", "WizardCoder-15B-V1.0", "WizardCoder-33B-V1.1", "CodeLlama-7b-Instruct-hf", "CodeLlama-13b-Instruct-hf", "CodeLlama-34b-Instruct-hf", "CodeLlama-70b-Instruct-hf", "Deepseek-Coder-33b-instruct", "ChatGLM2-6B", "Vicuna-7b-v1.5", "Vicuna-13b-v1.5", "Llama-2-13b-chat-hf", "Llama-2-70b-chat-hf", "Mistral-7B-Instruct-v0.2", "Mixtral-8x7B-Instruct-v0.1", "ChatGPT", "Binary", "Code", "Summarization", "ge", "-L", "R", "ou", "0.25", "0.20", "0.15", "0.10", "0.05", "0-150", "150-200", "200-250", "250-300", "300-350", "350-400", "400-500", "500-600", "600-700", "700-900", "900-1300", "1300-2000", ">2000", "#", "Token", "Range", "of", "the", "Pseudo", "Code", "Function", "Name", "Recovery", "n", "is", "io", "Pr", "ec", "0.4", "0.3", "0.2", "0.1", "0.0", "0-150", "150-200", "200-250", "250-300", "300-350", "350-400", "400-500", "500-600", "600-700", "700-900", "900-1300", "1300-2000", ">2000", "#", "Token", "Range", "of", "the", "Pseudo", "Code"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 550.0799999999999,
+    "y1": 218.88,
+    "y2": 337.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure5-1.png"
+}, {
+  "caption": "Fig. 3: An overview of the benchmark dataset construction process.",
+  "captionBoundary": {
+    "x1": 177.88662719726562,
+    "x2": 438.865966796875,
+    "y1": 235.6167449951172,
+    "y2": 240.027587890625
+  },
+  "figType": "Figure",
+  "imageText": ["Leakage", "Check", "Imagine", "you", "are", "an", "experienced", "software", "developer.", "The", "following", "is", "a", "source", "code", "function,", "your", "task", "is", "to", "understand", "it", "and", "generate", "a", "short", "comment", "to", "the", "function", "describing", "its", "functionality", "briefly.", "Here", "is", "the", "source", "code", "function:", "```C/C++", "{Source", "Code}", "```", "Human-Gen", "Summary", "Extract", "srcML", "ChatGPT", "Extract", "Parser", "Correctness", "Check", "Pseudo", "CodeLLM-Gen", "Summary", "LLM-Gen", "Summary", "Source", "Code", "Dataset", "Alignment", "Correctness", "&", "Leakage", "Check", "CompilationDownload", "Strip", "Decompilation", "Pseudo", "Code", "Binary", "W/", "Debug", "Information", "Source", "Code", "Stripped", "Binary", "Github", "Project"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 533.28,
+    "y1": 73.92,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure3-1.png"
+}, {
+  "caption": "Fig. 6: Impact of symbol information length on performance.",
+  "captionBoundary": {
+    "x1": 60.83289337158203,
+    "x2": 296.8040771484375,
+    "y1": 201.23069763183594,
+    "y2": 205.64154052734375
+  },
+  "figType": "Figure",
+  "imageText": ["Binary", "Code", "Summarization", "ge", "-L", "R", "ou", "0.28", "0.26", "0.24", "0.22", "0.20", "0.18", "0", "0-4", "4-6", "6-10", "10-15", "15-20", "20-30", "30-40", "40-60", "60-80", "80-130", ">130", "#", "Token", "Range", "of", "the", "Symbol", "Information", "Function", "Name", "Recovery", "CodeGen25-7b-instruct", "WizardCoder-15B-V1.0", "WizardCoder-33B-V1.1", "CodeLlama-7b-Instruct-hf", "CodeLlama-13b-Instruct-hf", "CodeLlama-34b-Instruct-hf", "CodeLlama-70b-Instruct-hf", "Deepseek-Coder-33b-instruct", "ChatGLM2-6B", "Vicuna-7b-v1.5", "Vicuna-13b-v1.5", "Llama-2-13b-chat-hf", "Llama-2-70b-chat-hf", "Mistral-7B-Instruct-v0.2", "Mixtral-8x7B-Instruct-v0.1", "ChatGPT", "n", "is", "io", "Pr", "ec", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0", "0", "0-4", "4-6", "6-10", "10-15", "15-20", "20-30", "30-40", "40-60", "60-80", "80-130", ">130", "#", "Token", "Range", "of", "the", "Symbol", "Information"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 296.15999999999997,
+    "y1": 72.48,
+    "y2": 191.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure6-1.png"
+}, {
+  "caption": "Fig. 7: Comparison of original and fine-tuned LLMs on performance.",
+  "captionBoundary": {
+    "x1": 314.5819091796875,
+    "x2": 550.5784912109375,
+    "y1": 266.8353271484375,
+    "y2": 282.48388671875
+  },
+  "figType": "Figure",
+  "imageText": ["Binary", "Code", "Summarization", "Original", "Fine-tuned", "METEOR", "METEOR", "Rouge-L", "Rouge-L", "BLEU-4", "BLEU-4", "ric", "M", "et", "32", "24", "16", "8", "CodeLlama-7b-instruct-hf", "Mistral-7B-Instruct-v0.2", "0", "Function", "Name", "Recovery", "Original", "Fine-tuned", "Recall", "F1", "F1", "Precision", "PrecisionRecall", "ric", "M", "et", "36", "32", "28", "24", "CodeLlama-7b-instruct-hf", "Mistral-7B-Instruct-v0.2", "20"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 326.4,
+    "x2": 539.04,
+    "y1": 72.0,
+    "y2": 253.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure7-1.png"
+}, {
+  "caption": "Fig. 4: An overview of the evaluation process.",
+  "captionBoundary": {
+    "x1": 219.0183868408203,
+    "x2": 398.0741271972656,
+    "y1": 203.64097595214844,
+    "y2": 208.05181884765625
+  },
+  "figType": "Figure",
+  "imageText": ["Summary", "Evaluator", "Func_name", "Evaluator", "Parser", "Label", "Func_name", "Predict", "Func_name", "Predict", "Summary", "Evaluation", "CodeLlama", "Mistral", "VicunaMistral", "CodeGen", "CodeLlama", "DeepSeek", "ChatGPT", "LLM-Gen", "Summary", "Source", "Code", "Fine-tuned", "LLMs", "General", "LLMs", "Code", "LLMs", "Query", "LLMs", "Please", "imagine", "you", "are", "an", "experienced", "binary", "reverse", "engineer.", "The", "following", "is", "a", "stripped", "decompiled", "C", "function,", "your", "task", "is", "to", "understand", "it", "and", "generate", "a", "short", "comment", "to", "the", "function", "describing", "its", "functionality.", "Here", "is", "the", "decompiled", "C", "function:", "```C", "{Pseudo", "Code}", "```", "Please", "imagine", "you", "are", "an", "experienced", "binary", "reverse", "engineer.", "The", "following", "is", "a", "stripped", "decompiled", "C", "function,", "your", "task", "is", "to", "understand", "it", "and", "response", "with", "a", "descriptive", "function", "name.", "Here", "is", "the", "decompiled", "C", "function:", "```C", "{Pseudo", "Code}", "```", "Pseudo", "Code"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 537.12,
+    "y1": 72.96,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-Figure4-1.png"
+}, {
+  "caption": "TABLE II: Detail information of Large Language Models we apply in this work.",
+  "captionBoundary": {
+    "x1": 151.84413146972656,
+    "x2": 464.95758056640625,
+    "y1": 385.5074768066406,
+    "y2": 389.9183044433594
+  },
+  "figType": "Table",
+  "imageText": ["ChatGLM2-6B", "[28]", "Jun-2023", "6B", "-", "-", "1.4T", "-", "THUDM", "Open-source", "Vicuna-7b-v1.5", "[29]", "Aug-2023", "7B", "Llama-2-7b", "-", "-", "125.0K", "L.Zheng", "et", "al.", "Open-source", "Vicuna-13b-v1.5", "[29]", "Aug-2023", "13B", "Llama-2-13b", "-", "-", "125.0K", "L.Zheng", "et", "al.", "Open-source", "Llama-2-13b-chat-hf", "[19]", "Jul-2023", "13B", "-", "-", "2.0T", "-", "Meta", "AI", "Open-source", "Llama-2-70b-chat-hf", "[19]", "Jul-2023", "70B", "-", "-", "2.0T", "-", "Meta", "AI", "Open-source", "Mistral-7B-Instruct-v0.2", "[30]", "Dec-2023", "7B", "Mistral-7B", "-", "-", "-", "Mistral", "AI", "Open-source", "Mixtral-8x7B-Instruct-v0.1", "[30]", "Dec-2023", "47B", "Mistral-7B", "-", "-", "-", "Mistral", "AI", "Open-source", "ChatGPT", "[20]", "Nov-2022", "-", "-", "-", "-", "-", "OpenAI", "Closed-source", "General", "LLMs", "CodeGen25-7b-instruct", "[26]", "Jul-2023", "7B", "CodeGen2", "-", "1.4T", "-", "Salesforce", "Open-source", "WizardCoder-15b-V1.0", "[22]", "Jun-2023", "15B", "StarCoder", "-", "-", "78.0K", "WizardLM", "Open-source", "WizardCoder-33b-V1.1", "[22]", "Jan-2024", "33B", "Deepseek-Coder", "-", "-", "-", "WizardLM", "Open-source", "Code", "Llama-7b-instruct-hf", "[21]", "Jun-2023", "7B", "Llama-2-7b", "4.4TB", "525.0B", "-", "Meta", "AI", "Open-source", "Code", "Llama-13b-instruct-hf", "[21]", "Jun-2023", "13B", "Llama-2-13b", "4.4TB", "525.0B", "-", "Meta", "AI", "Open-source", "Code", "Llama-34b-instruct-hf", "[21]", "Jun-2023", "34B", "Llama-2-34b", "4.4TB", "525.0B", "-", "Meta", "AI", "Open-source", "Code", "Llama-70b-instruct-hf", "[21]", "Jan-2024", "70B", "Llama-2-70b", "-", "1.0T", "-", "Meta", "AI", "Open-source", "DeepSeek-Coder-33b-instruct", "[27]", "Nov-2023", "33B", "-", "-", "2.0T", "-", "DeepSeek-AI", "Open-source", "Code", "LLMs", "Raw", "Size", "#Tokens", "#Instances", "Domain", "Model", "Release", "Time", "Size", "Base", "Model", "Training", "Corpus", "Publisher", "License"],
+  "name": "II",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 489.12,
+    "y1": 220.79999999999998,
+    "y2": 377.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00012-TableII-1.png"
+}]

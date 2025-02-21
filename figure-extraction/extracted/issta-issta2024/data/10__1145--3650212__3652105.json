@@ -1,0 +1,361 @@
+[{
+  "caption": "Figure 11: Inferring Actual Build Dependency Graph",
+  "captionBoundary": {
+    "x1": 67.44599914550781,
+    "x2": 280.3979797363281,
+    "y1": 354.9237976074219,
+    "y2": 357.0039978027344
+  },
+  "figType": "Figure",
+  "imageText": ["options.h", "choices.h", "tty.h", "match.h", "src/fzy.h", "src/fzy.o", "src/fzy.c", "Inferring", "actual", "dependency", "graph:", "Pre-processor", "directives", "analysis:", "src/fzy.o:", "match.h,", "tty.h,", "choices.h,", "options.h", "Incremental", "build", "graph:", "src/fzy.o:", "src/fzy.c,", "src/fzy.h"],
+  "name": "11",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 243.84,
+    "y2": 337.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure11-1.png"
+}, {
+  "caption": "Figure 9: Tracing Build from Fzy Project",
+  "captionBoundary": {
+    "x1": 92.71099853515625,
+    "x2": 255.1322479248047,
+    "y1": 121.23180389404297,
+    "y2": 123.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["Process", "ID", "174", "Reads:", "“fzy/src/fzy.c”,", "“fzy/src/fzy.h”", "Process", "ID", "174", "Creates:", "“fzy/src/fzy.o”"],
+  "name": "9",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 104.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Changes of Build Command from Fzy Project with New Command Highlighted in Red.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04779052734375,
+    "y1": 225.0977783203125,
+    "y2": 238.13702392578125
+  },
+  "figType": "Figure",
+  "imageText": ["Commit", "ID:", "f061893", "Commit", "ID:", "28195b3", "Must", "remake", "target", "“src/fzy.o”", "cc", "-DVERSION=\\\"1.0\\\"", "-D_GNU_SOURCE", "-Wall", "-Wextra", "-g", "-", "std=c99", "-O3", "-pedantic", "-Ideps", "-Werror=vla", "-c", "-o", "src/fzy.o", "src/fzy.c", "Must", "remake", "target", "“src/fzy.o”", "cc", "-DVERSION=\\\"1.0\\\"", "-D_GNU_SOURCE", "-MD", "-Wall", "-Wextra", "-g", "-", "std=c99", "-O3", "-pedantic", "-Ideps", "-Werror=vla", "-c", "-o", "src/fzy.o", "src/fzy.c"],
+  "name": "10",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 294.24,
+    "y1": 126.72,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure10-1.png"
+}, {
+  "caption": "Figure 1: Dependency errors form Clib Makefile",
+  "captionBoundary": {
+    "x1": 76.93699645996094,
+    "x2": 270.9059143066406,
+    "y1": 151.2318115234375,
+    "y2": 153.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["$(CC)", "$(CFLAGS)", "-o", "$@", "src/$(@:.exe=).c", "$(OBJS)", "$(LDFLAGS)", "1.", "SRC", "=", "$(wildcard", "src/*.c)", "2.", "DEPS", "=", "$(wildcard", "deps/*/*.c)", "3.", "OBJS", "=", "$(DEPS:.c=.o)", "4.", "$(BINS):", "$(SRC)", "$(OBJS)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 82.56,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure1-1.png"
+}, {
+  "caption": "Table 1: Important Information about Subjects",
+  "captionBoundary": {
+    "x1": 79.48799896240234,
+    "x2": 268.0603332519531,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["libco", "7.4k", "28", "103", "580a446–dc6aafc", "cJSON", "8.3k", "228", "1,073", "d44b594–c680fae", "fastText", "24.1k", "526", "381", "231b871–3697152", "gravity", "4.2k", "1,247", "764", "ee4a0b0–0feea4b", "cppcheck", "4.5k", "1,248", "26,579", "e21dca2–dc0b352", "OpenCV", "72k", "10,644", "33,466", "b3d3acf–c96f48e", "CMake", "fzy", "6.1k", "16", "453", "eb4cbd4–f061893", "chibicc", "7.4k", "77", "316", "c0f0614–90d1f7f", "ck", "2.2k", "501", "1,654", "dac27da–7eff0db", "clib", "4.5k", "250", "434", "c7c5ff6–4390598", "redis", "59.5k", "1,465", "11,679", "d2d6bc1–395d801", "python", "50k", "4443", "115,763", "3c87a66–b4612f5", "GNU", "Make", "System", "Name", "Stars", "Files", "Commits", "Commit", "ID", "Range"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 105.6,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Table1-1.png"
+}, {
+  "caption": "Table 2: Detecting Dependency Errors in Projects. Buildfs Does not Support Detecting RDs.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2006225585938,
+    "y1": 89.27678680419922,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["FPs:", "False", "Positives", "Sum", "(187)", "1,600", "(16)", "1,635", "(16)", "663", "1,413", "206", "chibicc", "0", "0", "0", "0", "0", "cJSON", "1", "(16)", "17", "(16)", "16", "1", "0", "ck", "(169)", "385", "216", "0", "216", "0", "clib", "94", "94", "0", "0", "0", "cppcheck", "18", "18", "0", "18", "0", "fastText", "35", "35", "6", "35", "0", "fzy", "17", "17", "1", "17", "0", "gravity", "287", "287", "0", "287", "0", "libco", "36", "36", "0", "36", "0", "redis", "n\\a", "0", "0", "n\\a", "n\\a", "python", "(18)", "727", "915", "640", "709", "206", "OpenCV", "n\\a", "0", "0", "n\\a", "n\\a", "Buildfs", "EChecker", "Confirmation", "(FPs)", "MDs", "(FPs)", "MDs", "(FPs)", "RDs", "MDs", "New", "Subject"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 544.3199999999999,
+    "y1": 113.75999999999999,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Table2-1.png"
+}, {
+  "caption": "Figure 2: Tracing Build of the Example Projects",
+  "captionBoundary": {
+    "x1": 342.2550048828125,
+    "x2": 533.9030151367188,
+    "y1": 701.9797973632812,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["/usr/include/x86_64-linux-gnu/bits/iscanonical.h", "/usr/include/ctype.h", "/Example-master/src/options.h", "/Example-master/a.c", "/usr/lib/x86_64-linux-gnu/libm-2.31.so", "…", "Example-master/src/a.o"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 559.1999999999999,
+    "y1": 630.72,
+    "y2": 685.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure2-1.png"
+}, {
+  "caption": "Figure 12: False Positives of cJSON Project",
+  "captionBoundary": {
+    "x1": 88.98300170898438,
+    "x2": 258.8602294921875,
+    "y1": 181.2318115234375,
+    "y2": 183.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["Commit", "ID:", "c69134d", "$(CJSON_SHARED_SO)", "ln", "-s", "$(CJSON_SHARED_SO)", "$(CJSON_SHARED)", "4.", "$(CJSON_SHARED_SO)", "$(CJSON_SHARED):", "ln", "-s", "$(CJSON_SHARED_VERSION)", "1.", "-", "LIBVERSION", "=", "1.7.9", "2.", "+", "LIBVERSION", "=", "1.7.10", "#links", ".so", "->", ".so.1", "->", ".so.1.0.0", "#cJSON", "3.", "$(CJSON_SHARED_SO):", "$(CJSON_SHARED_VERSION)"],
+  "name": "12",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 294.24,
+    "y1": 85.92,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure12-1.png"
+}, {
+  "caption": "Figure 13: Average Time Saving Compared to Clean Builds",
+  "captionBoundary": {
+    "x1": 320.0,
+    "x2": 556.1572265625,
+    "y1": 236.205810546875,
+    "y2": 238.2860107421875
+  },
+  "figType": "Figure",
+  "imageText": ["EChecker", "Build", "Time", "Time", "Saving", "Compared", "to", "Buildfs", "ec", ".)", "e", "(S", "T", "im", "cv", "op", "en", "n", "red", "is", "py", "tho", "ity", "lib", "co", "gr", "av", "ex", "t", "fzy", "fas", "tT", "he", "ck", "cp", "pc", "cc", "cJ", "SON", "ck", "cli", "b", "ch", "ibi", "500", "450", "400", "350", "300", "250", "200", "150", "100", "50", "0"],
+  "name": "13",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 327.36,
+    "x2": 551.04,
+    "y1": 90.72,
+    "y2": 213.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure13-1.png"
+}, {
+  "caption": "Figure 4: Inferring Actual Build Dependencies for Changes to Pre-processor Directives",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.203125,
+    "y1": 441.76580810546875,
+    "y2": 454.80499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "//Pre-processor", "directives", "changes", "in", "Example-master/a.c", "2.", "+", "#include", "b.h", "3.", "-", "#include", "src/options.h", "4.", "//Inferring", "Actual", "build", "dependencies", "for", "Example-master/a.c", "5.", "If", "a.c", "in", "actual", "build", "dependency[items]", "6.", "actual", "build", "dependency[items].add(b.h)", "7.", "actual", "build", "dependency[items].remove(src/options.h)"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 559.1999999999999,
+    "y1": 360.0,
+    "y2": 425.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Inferring Actual Build Dependencies for Changes to Files",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.203125,
+    "y1": 581.4898071289062,
+    "y2": 594.5289916992188
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "//Files", "Changes", "in", "Example-master", "2.", "-", "src/options.c", "3.", "+", "b.c", "4.", "+", "src/Readme", "5.", "//Inferring", "Actual", "build", "dependencies", "for", "Example-master", "6.", "gcc", "-MM", "src/options.c", "7.", "src/options.o:", "src/options.c", "src/options.h", "8.", "gcc", "-MM", "b.c", "9.", "b.o:", "b.c", "b.h", "10.", "actual", "build", "dependency[src/options.o].remove(src/options.c,", "src/options.h)", "11.", "actual", "build", "dependency[b.o].add(b.c,", "b.h)"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 559.1999999999999,
+    "y1": 466.56,
+    "y2": 564.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Inferring Actual Build Dependencies for Changes to Makefile",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.203125,
+    "y1": 691.0208129882812,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "//Makefile", "Changes", "in", "Example-master", "2.", "$(OUT)/b.o:", "b.c", "$(CC)", "-c", "-o", "3.", "//Change", "4.", "$(OUT)/b.o:", "b.c", "a.c", "$(CC)", "-c", "-o", "5.", "//Inferring", "Actual", "build", "dependencies", "for", "Example-master", "6.", "If", "b.o", "is", "not", "in", "the", "actual", "build", "dependency", "graph", "of", "incremental", "builds", "7.", "Tracing", "make", "b.o", "8.", "Creating", "actual", "build", "dependency[b.o]"],
+  "name": "6",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 559.1999999999999,
+    "y1": 598.56,
+    "y2": 674.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure6-1.png"
+}, {
+  "caption": "Figure 3: Overview of EChecker",
+  "captionBoundary": {
+    "x1": 238.8730010986328,
+    "x2": 373.1268615722656,
+    "y1": 260.74481201171875,
+    "y2": 262.82501220703125
+  },
+  "figType": "Figure",
+  "imageText": ["Reads:", "/include/ctype.h", "/src/options.h", "/src/options.c", "Creates:", "/src/options.o", "Inferring", "options.h", "choices.h", "tty.h", "match.h", "src/fzy.o", "src/fzy.h", "src/fzy.c", "Step", "②,", "③", "src/fzy.o:", "match.h,", "tty.h,", "choices.h,", "options.h", "Step", "④", "src/fzy.o:", "src/fzy.c,", "src/fzy.h", "src/fzy.c", "src/fzy.h", "src/fzy.o", "Checking", "the", "build", "commands", "changes", "from", "commits", "“src/fzy.o”", "...-MD", "-Wall", "-Wextra", "-g", "-std=c99", "-O3", "-pedantic", "-Ideps", "-Werror=vla", "-c", "-o", "src/fzy.o", "src/fzy.c", "analysis", "Code", "src/fzy.o:", "match.h,", "tty.h,", "choices.h,", "options.h", "files", "Checking", "affected", "compile", "command", "Using", "gcc", "-MM", "src/fzy.c", "src/fzy.o:", "src/fzy.c", "src/fzy.h", "+src/fzy.c", "Recording", "reads,", "deletes,", "and", "creates", "in", "build", "Pre-processor", "Directives", "and", "Makefile", "Changes", "Analysis", "Inferring", "Dependencies", "Error", "DetectionMonitoring", "Execution", "graph", "Output:", "Actual", "build", "dependency", "Input:", "Output", "from", "step", "②—step", "④", "Step", "⑤:", "Inferring", "Actual", "Build", "Dependency", "Graph", "processor", "directives", "Output:", "Changes", "of", "pre-", "directives", "changes", "Checking", "pre-processing", "#include", "“match.h\"", "#include", "“tty.h\"", "#include", "“choices.h“", "#include", "“options.h\"", "Change", "Analysis", "Step", "②:", "Source", "Code", "Output:", "Dependency", "errors", "Errors", "graph", "dependency", "Declared", "build", "graph", "Actual", "build", "dependency", "Input:", "Output", "from", "step", "⑤", "dependencies", "Checking", "Step", "⑥:", "Detecting", "Dependency", "Errors", "rebuilding", "targets", "Tracing", "and", "graph", "of", "incremental", "builds", "Output:", "Actual", "build", "dependency", "Input:", "Project,", "output", "from", "step", "①", "Analysis", "Step", "④:", "Makfile", "Change", "dependencies", "Output:", "Changes", "of", "targets", "and", "Checking", "the", "file", "changes", "from", "commits", "Analysis", "Step", "③:", "File", "Change", "Input:", "Commit", "Input:", "Commit", "graph", "of", "incremental", "builds", "Output:", "Actual", "build", "dependency", "Tracing", "Applying", "changes", "Project", "Commit", "Input:", "Project,", "commit", "Incremental", "Builds", "Execution", "Step", "①", ":", "Monitoring"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 85.92,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure3-1.png"
+}, {
+  "caption": "Table 4: Time Consumption on Detecting Build Dependency Errors in 68 Commits (Sec.)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.4501953125,
+    "y1": 285.0177917480469,
+    "y2": 298.0570068359375
+  },
+  "figType": "Table",
+  "imageText": ["*:", "EChecker", "at", "first", "baseline", "and", "second", "baseline,", "the", "difference", "in", "median", "sum", "detection", "time", "Med:", "Median", "chibicc", "3.46", "37.76", "0.71", "17.25", "2.75", "20.51", "0.06", "cJSON", "1.73", "18.75", "0.3", "6.52", "1.43", "12.23", "1.29", "ck", "4.92", "38.72", "3.68", "29.34", "1.24", "9.38", "-3.14", "clib", "29.14", "197.46", "2.72", "75.19", "26.42", "122.27", "0.58", "cppcheck", "257.61", "1,280.26", "0.41", "269.97", "257.20", "1,010.29", "0.25", "fastText", "30.11", "149.42", "0.54", "30.97", "29.57", "118.45", "-0.46", "fzy", "2.77", "16.52", "0.29", "5.19", "2.48", "11.33", "0.48", "gravity", "19.15", "384.43", "2.86", "34.14", "16.29", "350.29", "-0.69", "libco", "13.75", "69.39", "1.49", "18.32", "12.26", "51.07", "0.05", "python", "314.78", "940.71", "16.46", "716.19", "298.32", "224.52", "0.06", "Med", "All", "Med", "All", "Med", "All", "Diff*", "Buildfs", "Sum", "Echecker", "Sum", "Difference", "Sum", "Projects"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 312.96,
+    "y2": 457.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Table4-1.png"
+}, {
+  "caption": "Figure 14: Sum of Time Consumption (Sec.) for Buildfs and EChecker to Detect in Each Commit. White Blox is Buildfs, Blue Blox is EChecker, and Orange Line is Median",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.1424560546875,
+    "y1": 680.061767578125,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["opencv", "redis", "python", "libco", "gravity", "fzy", "fastText", "cppcheck", "clib", "ck", "cJSON", "chibicc", "10−1", "100", "101", "102"],
+  "name": "14",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 282.24,
+    "y1": 494.88,
+    "y2": 650.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure14-1.png"
+}, {
+  "caption": "Table 3: Time Consumption on Detecting Build Dependency Errors in 240 Commits (Sec.)",
+  "captionBoundary": {
+    "x1": 125.38600158691406,
+    "x2": 486.3196716308594,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["IBGraph:", "actual", "build", "dependency", "graph", "of", "incremental", "builds.", "Med:", "Median", "chibicc", "3.46", "68.51", "0.02", "0.43", "3.48", "68.94", "0.68", "25.7", "0.03", "0.71", "0.07", "2.18", "0.01", "0.12", "0.79", "28.71", "2.69", "40.23", "cJSON", "1.72", "33.73", "0.02", "0.49", "1.74", "34.22", "0.42", "7.9", "1.05", "21.06", "0.07", "1.27", "0.01", "0.12", "1.60", "30.35", "0.14", "3.87", "ck", "4.68", "94.26", "0.10", "1.91", "4.78", "96.17", "0.24", "10.37", "0.03", "0.54", "0.03", "2.23", "0.01", "0.20", "0.40", "13.34", "4.38", "82.83", "clib", "29.22", "576.02", "0.25", "4.96", "29.48", "580.97", "0.12", "165.43", "0.06", "5.16", "3.25", "64.92", "0.05", "1.00", "3.64", "236.51", "25.84", "344.46", "cppcheck", "257.22", "5,115.17", "0.12", "2.34", "257.34", "5,117.51", "0.11", "623.73", "0.06", "1.56", "0.11", "4.88", "0.09", "2.04", "0.39", "632.21", "256.95", "4,485.30", "fastText", "30.16", "599.11", "0.03", "0.54", "30.19", "599.65", "0.04", "90.3", "0.02", "0.69", "0.01", "4.12", "0.02", "0.44", "0.16", "95.55", "30.03", "504.10", "fzy", "2.70", "54.07", "0.02", "0.36", "2.72", "54.44", "0.57", "14.05", "0.02", "0.57", "0.06", "6.76", "0.01", "0.12", "0.72", "21.50", "2.00", "32.94", "gravity", "19.14", "383.52", "0.05", "0.91", "19.18", "384.43", "1.09", "77.52", "0.26", "5.28", "0.05", "8.63", "0.02", "2.12", "2.20", "93.55", "16.98", "290.88", "libco", "13.51", "269.49", "0.03", "0.51", "13.53", "270", "1.04", "32.16", "0.14", "2.88", "0.12", "2.84", "0.03", "0.56", "1.32", "38.44", "12.21", "231.56", "python", "312.94", "6,233.32", "1.78", "35.57", "314.72", "6,268.88", "15.20", "669.16", "0.53", "22.54", "0.01", "15.07", "0.44", "9.42", "16.46", "716.19", "298.26", "5,552.69", "redis", "n\\a", "n\\a", "n\\a", "n\\a", "n\\a", "n\\a", "106.95", "2,360.85", "0.54", "13.29", "2.80", "57.77", "0.14", "3.10", "110.43", "2,435.01", "n\\a", "n\\a", "OpenCV", "n\\a", "n\\a", "n\\a", "n\\a", "n\\a", "n\\a", "24.99", "8,992.86", "4.44", "102.47", "9.51", "180.32", "16.52", "330.99", "55.11", "9,606.64", "n\\a", "n\\a", "Med", "All", "Med", "All", "Med", "All", "Med", "All", "Med", "All", "Med", "All", "Med", "All", "Med", "All", "Med", "All", "Trace", "Detection", "Sum", "Trace", "IBGraph", "Inferring", "Detection", "Sum", "Sum", "Difference", "Buildfs", "EChecker", "Projects"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 555.36,
+    "y1": 105.6,
+    "y2": 273.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Table3-1.png"
+}, {
+  "caption": "Figure 8: Commit from Fzy Project",
+  "captionBoundary": {
+    "x1": 367.82501220703125,
+    "x2": 508.3323059082031,
+    "y1": 701.9797973632812,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["Parent", "28195b3", "Commit", "f061893", "Werror=vla", "3.", "-", "rm", "-f", "fzy", "test/fzytest", "src/*.o", "deps/*/*.o", "4.", "+", "rm", "-f", "fzy", "test/fzytest", "src/*.o", "src/*.d", "deps/*/*.o", "5.", "+include", "$(OBJECTS:.o=.d)", "1.", "-", "CFLAGS+=-Wall", "-Wextra", "-g", "-std=c99", "-O3", "-pedantic", "-Ideps", "-Werror=vla", "2.", "+", "CFLAGS+=-MD", "-Wall", "-Wextra", "-g", "-std=c99", "-O3", "-pedantic", "-Ideps", "-"],
+  "name": "8",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 612.0,
+    "y2": 685.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Date Structure of the Internal Database",
+  "captionBoundary": {
+    "x1": 339.9330139160156,
+    "x2": 536.2255859375,
+    "y1": 146.2318115234375,
+    "y2": 148.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "args.o:", "a.o", "b.o", "c.o", "2.", "#", "Implicit", "rule", "search", "has", "been", "done.", "3.", "…", "4.", "$(CXX)", "$(CXXFLAGS)", "$(OBJS)", "-o"],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 559.1999999999999,
+    "y1": 87.84,
+    "y2": 127.19999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652105-Figure7-1.png"
+}]

@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 2. Performance of depth-aware conditional stereo image translator (Painter) compared with baselines",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.14178466796875,
+    "y1": 88.12186431884766,
+    "y2": 92.35400390625
+  },
+  "figType": "Table",
+  "imageText": ["L1", "↓", "0.1737", "0.1117", "0.0521", "0.0356", "0.0230", "0.0382", "0.2966", "0.2086", "0.0381", "0.0465", "0.0219", "0.0372", "0.0204", "0.0366", "L2", "↓", "0.2141", "0.1138", "0.0862", "0.0456", "0.0553", "0.0575", "0.3517", "0.2069", "0.0861", "0.0709", "0.0555", "0.0556", "0.0495", "0.0529", "SSIM", "↑", "0.3639", "0.2534", "0.5223", "0.3013", "0.8287", "0.1667", "0.2840", "0.2409", "0.7903", "0.1957", "0.8417", "0.1622", "0.8638", "0.1455", "Approach", "Autoencoder", "U-Net", "CycleGAN", "Deep3D", "DIBR", "Painter#", "Painter", "Metrics", "avg", "std", "avg", "std", "avg", "std", "avg", "std", "avg", "std", "avg", "std", "avg", "std"],
+  "name": "2",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 96.96,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Table2-1.png"
+}, {
+  "caption": "Fig. 3. Overview of StereoID",
+  "captionBoundary": {
+    "x1": 188.8249969482422,
+    "x2": 297.17431640625,
+    "y1": 297.8448486328125,
+    "y2": 302.0769958496094
+  },
+  "figType": "Figure",
+  "imageText": ["Right-Eye", "Image", "Output:", "Generated", "ye", "ht", "-E", "R", "ig", "Ey", "e", "Le", "ft-", "Pooling", "Upconv", "Conditional", "Wasserstein", "GAN-GP", "ye", "ht", "-E", "R", "ig", "Ey", "e", "Le", "ft-", "Screenshot", "Depth", "Map", "PatchGAN", "UNet", "Conv-IN-", "LeakyRelu", "Depth", "Estimator", "Conv-Relu", "Real", "Fake", "Discriminator", "Generator", "Generated", "Right-", "Eye", "Image", "Input:", "Left", "&", "Right", "Eye", "Image", "Pair", "Normal", "Cases", "SVI", "Issues", "Inconsistency", "Detector", "Distance", "Calculator", "Actual", "Right-Eye", "Image", "Actual", "Right-Eye", "Image", "Right-Eye", "Image", "Output:", "Generated", "Training", "Screenshots", "Testing", "Screenshots", "Depth-Aware", "Conditional", "Stereo", "Image", "Translator", "(Painter)", "Input:", "Left", "&", "Right", "Eye", "Image", "Pair"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Figure3-1.png"
+}, {
+  "caption": "Fig. 5. Experiment results of hyperparameter se ings of inconsistency detector (F-1 score)",
+  "captionBoundary": {
+    "x1": 76.88520050048828,
+    "x2": 409.1169128417969,
+    "y1": 223.00784301757812,
+    "y2": 227.239990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 161.76,
+    "x2": 321.12,
+    "y1": 84.0,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. A bug causing stereoscopic visual inconsistencies in the SteamVR home app (issue #299 of ValveSo ware/SteamVR-for-Linux [9] on GitHub)",
+  "captionBoundary": {
+    "x1": 45.54100036621094,
+    "x2": 440.173583984375,
+    "y1": 161.79885864257812,
+    "y2": 176.989990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 181.92,
+    "x2": 301.44,
+    "y1": 84.0,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Figure1-1.png"
+}, {
+  "caption": "Table 5. Results of statistical significance analysis",
+  "captionBoundary": {
+    "x1": 150.7541046142578,
+    "x2": 335.0046691894531,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["P-Value", "0.0000", "0.0000", "7.8358e-19", "0.0000", "4.0191e-235", "1.0528e-05", "Analyzed", "Between", "Our", "Approach", "and", "Which", "Baseline", "Autoencoder", "U-Net", "CycleGAN", "Deep3D", "DIBR", "StereoID#"],
+  "name": "5",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 398.4,
+    "y1": 96.96,
+    "y2": 129.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Table5-1.png"
+}, {
+  "caption": "Table 1. Manifestation category statistics of SVI issues in our datasets",
+  "captionBoundary": {
+    "x1": 113.26089477539062,
+    "x2": 372.4970703125,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Object", "Omission", "16", "44", "Lighting", "and", "Shadow", "Discrepancies", "11", "0", "Object", "Position", "Discrepancy", "9", "105", "Shader", "Absence", "6", "0", "Monocular", "Blindness", "5", "17", "Particle", "and", "Visual", "E", "ect", "Variations", "5", "0", "Unilateral", "Object", "Rendering", "5", "7", "Material", "or", "Texture", "Mismatch", "5", "0", "Post-Processing", "Inconsistency", "5", "0", "Level", "of", "Detail", "Inconsistency", "4", "0", "Object", "Warping", "4", "21", "View", "Misalignment", "3", "0", "Partial", "Object", "Rendering", "1", "6", "Warped", "Views", "1", "0", "Asymmetric", "Viewing", "Angles", "0", "37", "Other", "2", "0", "Total", "82", "237", "Dataset", "Collected", "from", "Online", "Bug", "Reports", "Sampled", "Screenshot", "Dataset"],
+  "name": "1",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 112.8,
+    "x2": 369.12,
+    "y1": 96.96,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Table1-1.png"
+}, {
+  "caption": "Fig. 4. Illustration of the stereoscopic screenshot and the corresponding depth map4",
+  "captionBoundary": {
+    "x1": 87.34500122070312,
+    "x2": 398.15679931640625,
+    "y1": 197.14480590820312,
+    "y2": 201.376953125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Depth", "map", "generated", "by", "monocular", "depth", "estimator", "(Section", "3.1)", "(a)", "Original", "stereoscopic", "screenshot", "(left:", "left-eye", "view,", "right:", "right-eye", "view)"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 384.47999999999996,
+    "y1": 88.8,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Figure4-1.png"
+}, {
+  "caption": "Fig. 2. Examples of stereoscopic visual inconsistencies",
+  "captionBoundary": {
+    "x1": 143.26300048828125,
+    "x2": 342.7384033203125,
+    "y1": 611.8800659179688,
+    "y2": 616.1121826171875
+  },
+  "figType": "Figure",
+  "imageText": ["(k)", "Object", "Position", "Dis-", "crepancy", "(l)", "Object", "Warping", "(m)", "Level", "of", "Detail", "In-", "consistency", "(n)", "Partial", "Object", "Ren-", "dering", "(f)", "REI:", "Material", "or", "Texture", "Mismatch", "(g)", "REI:", "Postprocessing", "Inconsistency", "(h)", "REI:", "Particle", "and", "Vi-", "sual", "E", "ect", "Variations", "(i)", "Object", "Omission", "(j)", "Unilateral", "Object", "Rendering", "(a)", "Monocular", "Blind-", "ness", "(b)", "ViewMisalignment", "(c)", "Warped", "Views", "(d)", "REI:", "Lighting", "and", "Shadow", "Discrepancies", "(e)", "REI:", "Shader", "Ab-", "sence"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 433.44,
+    "y1": 385.91999999999996,
+    "y2": 601.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Figure2-1.png"
+}, {
+  "caption": "Table 4. Performance of SVI issue detection compared with baselines, -1 represents SVI issues, 1 represents normal cases",
+  "captionBoundary": {
+    "x1": 45.58591079711914,
+    "x2": 440.1698913574219,
+    "y1": 88.12162017822266,
+    "y2": 103.312744140625
+  },
+  "figType": "Table",
+  "imageText": ["Accuracy", "88.85", "91.95", "91.90", "88.50", "90.30", "92.26", "92.71", "Macro", "avg", "49.59", "63.84", "63.61", "47.98", "56.25", "65.21", "67.28", "Weighted", "avg", "88.69", "91.84", "91.79", "88.34", "90.17", "92.20", "92.61", "Precision", "(1)", "93.99", "95.64", "95.61", "93.80", "94.76", "95.80", "96.04", "Recall", "(1)", "94.16", "95.82", "95.79", "93.98", "94.94", "95.98", "96.22", "F1-score", "(1)", "94.08", "95.73", "95.70", "93.89", "94.85", "95.89", "96.13", "Metrics", "Autoencoder", "U-Net", "CycleGAN", "Deep3D", "DIBR", "StereoID#", "StereoID", "Precision", "(-1)", "5.19", "32.03", "31.60", "2.16", "17.75", "34.63", "38.53", "Recall", "(-1)", "5.04", "31.09", "30.67", "2.10", "17.23", "33.61", "37.39", "F1-score", "(-1)", "5.12", "31.56", "31.13", "2.13", "17.48", "34.12", "37.95"],
+  "name": "4",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 378.24,
+    "y1": 108.0,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Table4-1.png"
+}, {
+  "caption": "Table 3. Performance of SVI issue detection in each manifestation category, Y denotes detected SVI issues, N denotes undetected SVI issues5",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1687316894531,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "65", "17", "82", "79.3%", "Object", "Omission", "14", "2", "16", "87.5%", "Lighting", "and", "Shadow", "Discrepancies", "10", "2", "11", "90.9%", "Object", "Position", "Discrepancy", "5", "4", "9", "55.6%", "Shader", "Absence", "3", "3", "6", "50.0%", "Unilateral", "Object", "Rendering", "4", "1", "5", "80.0%", "Particle", "and", "Visual", "E", "ect", "Variations", "5", "0", "5", "100.0%", "Material", "or", "Texture", "Mismatch", "4", "1", "5", "80.0%", "Monocular", "Blindness", "5", "0", "5", "100.0%", "Post-Processing", "Inconsistency", "2", "3", "5", "40.0%", "Object", "Warping", "4", "0", "4", "100.0%", "Level", "of", "Detail", "Inconsistency", "3", "1", "4", "75.0%", "View", "Misalignment", "3", "0", "3", "100.0%", "Warped", "Views", "0", "1", "1", "0.0%", "Partial", "Object", "Rendering", "1", "0", "1", "100.0%", "Asymmetric", "Viewing", "Angles", "0", "0", "0", "-", "Other", "2", "0", "2", "100.0%", "Category", "Y", "N", "Total", "Recall"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 152.64,
+    "x2": 331.2,
+    "y1": 108.0,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660803-Table3-1.png"
+}]

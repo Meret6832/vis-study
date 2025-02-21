@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 2: Percent of macro definition adaptation categories.",
+  "captionBoundary": {
+    "x1": 185.99000549316406,
+    "x2": 426.00091552734375,
+    "y1": 385.6823425292969,
+    "y2": 391.31298828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 87.84,
+    "x2": 524.16,
+    "y1": 82.56,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623323-Figure2-1.png"
+}, {
+  "caption": "Table 1: Macro invocation properties.",
+  "captionBoundary": {
+    "x1": 230.57908630371094,
+    "x2": 381.1182556152344,
+    "y1": 694.3753051757812,
+    "y2": 700.0059814453125
+  },
+  "figType": "Table",
+  "imageText": ["Metaprogramming", "and", "Generics", "Control", "flow", "𝑚.𝑎𝑠𝑡", "∈", "{return,", "case,", "continue,", "break,", "goto}", "Alters", "caller’s", "control", "flow", "Non-expression", "arguments", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "𝑎.𝑎𝑠𝑡", "∉", "Exprs(𝑎𝑠𝑡)", "Has", "argument", "that", "is", "not", "an", "expression", "Stringizing", "/", "Token-pasting", "#", "∈𝑚.𝑡𝑜𝑘𝑒𝑛𝑠", "∨", "##", "∈𝑚.𝑡𝑜𝑘𝑒𝑛𝑠", "Uses", "stringification", "or", "token-pasting", "𝑚", "∈", "NestedMacros(𝑎)", "Is", "invoked", "as", "an", "argument", "to", "another", "macro", "invocation", "Nested", "in", "body", "∃𝑛", "∈", "AllInvocations,𝑚", "∈", "NestedMacros(𝑛)", "Is", "invoked", "in", "the", "body", "of", "another", "macro", "Nested", "in", "argument", "∃𝑛", "∈", "AllInvocations,", "∃𝑎", "∈", "𝑛.𝑎𝑟𝑔𝑠,", "Callsite-context-altering", "Unaligned", "𝑚.𝑎𝑠𝑡", "=", "𝑛𝑢𝑙𝑙", "∨", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "𝑎.𝑎𝑠𝑡", "=", "𝑛𝑢𝑙𝑙", "Does", "not", "align", "with", "a", "single", "AST", "node", "Conditional", "arguments", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "∃𝑒", "∈", "CondExprs(𝑚.𝑎𝑠𝑡),", "InTree(𝑎.𝑎𝑠𝑡,", "𝑒)", "Has", "an", "argument", "that", "is", "conditionally", "evaluated", "in", "the", "body", "of", "macro𝑚", "Nested", "Void", "arguments", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,Type(𝑎.𝑎𝑠𝑡)", "=", "void", "Has", "a", "void", "expression", "argument", "Side-effecting", "arguments", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "∃𝑒", "∈", "SideEffectExprs(𝑚.𝑎𝑠𝑡),", "InTree(𝑒,", "𝑎.𝑎𝑠𝑡)", "Has", "an", "argument", "with", "side-effects", "Non-Interface-Equivalent", "Thunkizing", "¬DeclIn(Type(𝑒),𝑚.𝑎𝑠𝑡)", "Expands", "to", "an", "expression", "whose", "type", "is", "defined", "in", "a", "local", "scope", "Locally-typed", "subexpressions", "∃𝑒", "∈", "LocalTypeExprs(𝑚.𝑎𝑠𝑡),", "𝑒", "∈", "SubExprs(𝑚.𝑎𝑠𝑡)", "Contains", "a", "subexpression", "whose", "type", "is", "defined", "in", "a", "local", "scope", "Local", "type", "∃𝑒", "∈", "LocalTypeExprs(𝑎𝑠𝑡),𝑚.𝑎𝑠𝑡", "=", "𝑒,", "expression", "whose", "type", "is", "defined", "in", "a", "local", "scope", "Unordered", "macros", "∃𝑛", "∈", "NestedMacros(𝑚),DefinedBefore(𝑚,𝑛)", "Invokes", "a", "macro", "defined", "after", "macro𝑚", "Condition", "macro", "∃𝑐", "∈", "CPPConditionals,", "InCondition(𝑚.𝑛𝑎𝑚𝑒,", "𝑐)", "Is", "invoked", "in", "a", "CPP", "conditional", "Anonymous", "type", "∃𝑒", "∈", "AnonTypeExprs(𝑎𝑠𝑡),𝑚.𝑎𝑠𝑡", "=", "𝑒", "Expands", "to", "an", "expression", "whose", "type", "is", "unnamed", "Anonymous", "argument", "types", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "∃𝑒", "∈", "AnonTypeExprs(𝑎𝑠𝑡),", "𝑎.𝑎𝑠𝑡", "=", "𝑒", "Has", "an", "argument", "that", "expands", "to", "an", "expression", "whose", "type", "is", "unnamed", "Local", "argument", "types", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "∃𝑒", "∈", "LocalTypeExprs(𝑎𝑠𝑡),", "𝑎.𝑎𝑠𝑡", "=", "𝑒", "Has", "an", "argument", "that", "expands", "to", "an", "expression", "whose", "type", "is", "defined", "after", "macro𝑚", "macro𝑚", "Unordered", "expansion", "type", "DefinedBefore(𝑚,Type(𝑚.𝑎𝑠𝑡))", "Expands", "to", "an", "expression", "whose", "type", "is", "defined", "after", "macro𝑚", "Unordered", "type", "declarations", "∃𝑡", "∈", "TypeRefs(𝑚.𝑎𝑠𝑡),DefinedBefore(𝑚,", "𝑡)", "References", "a", "type", "defined", "after", "macro𝑚", "Unordered", "argument", "types", "∃𝑎", "∈", "𝑚.𝑎𝑟𝑔𝑠,DefinedBefore(𝑚,Type(𝑎.𝑎𝑠𝑡))", "Has", "an", "argument", "that", "expands", "to", "an", "Scope-Adapting", "Locally", "defined", "¬DefinedIn(𝑚,GlobalScope(𝑎𝑠𝑡))", "Defined", "in", "a", "local", "scope", "Unordered", "declarations", "∃𝑑", "∈", "DeclRefs(𝑚.𝑎𝑠𝑡),DefinedBefore(𝑚,𝑑)", "References", "a", "declaration", "defined", "after", "¬InTree(𝑑,", "𝑎.𝑎𝑠𝑡),¬DeclIn(𝑑,𝑚.𝑎𝑠𝑡)", "Captures", "a", "declaration", "from", "macro𝑚’s", "caller’s", "environment", "Unhygienic", "∃𝑑", "∈", "LocalDeclRefs(𝑚.𝑎𝑠𝑡),∀𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "addressof", "(&)", "operand", "Modified", "body", "∃𝑒", "∈", "SideEffectedExprs(𝑎𝑠𝑡),𝑚.𝑎𝑠𝑡", "=", "𝑒", "Expands", "to", "a", "side-effected", "expression", "Modified", "arguments", "∃𝑎", "∈𝑚.𝑎𝑟𝑔𝑠,", "∃𝑒", "∈", "SideEffectedExprs(𝑎𝑠𝑡),", "𝑎.𝑎𝑠𝑡", "=", "𝑒", "Has", "a", "side-effected", "argument", "Addressed", "body", "∃𝑒", "∈", "AddressedExprs(𝑎𝑠𝑡),𝑚.𝑎𝑠𝑡", "=", "𝑒", "Expands", "to", "an", "addressof", "(&)", "operand", "Addressed", "arguments", "∃𝑎", "∈", "𝑚.𝑎𝑟𝑔𝑠,", "∃𝑒", "∈", "AddressedExprs(𝑎𝑠𝑡),", "𝑎.𝑎𝑠𝑡", "=", "𝑒", "Has", "an", "argument", "that", "expands", "to", "an", "Interface-Equivalent", "Calling-Convention-Adapting", "Property", "Formal", "Definition", "Description"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 85.44,
+    "y2": 689.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623323-Table1-1.png"
+}, {
+  "caption": "Figure 3: How many more easy-to-port, interfaceequivalent macro definitions Maki finds over prior work.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 284.9862365722656,
+    "y1": 385.6823425292969,
+    "y2": 402.27099609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 302.4,
+    "y1": 82.56,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623323-Figure3-1.png"
+}, {
+  "caption": "Table 2: Helper functions used in formal definitions of properties.",
+  "captionBoundary": {
+    "x1": 172.14599609375,
+    "x2": 439.5478820800781,
+    "y1": 317.2583312988281,
+    "y2": 322.88897705078125
+  },
+  "figType": "Table",
+  "imageText": ["reference", "a", "type", "declaration.", "LocalTypeExprs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "whose", "type", "is", "defined", "at", "local", "scope.", "NestedMacros(𝑚)", "Set", "of", "macro", "invocations", "or", "argu-", "ments", "in𝑚’s", "nested", "invocations.", "SideEffectExprs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "with", "side-effects.", "SideEffectedExprs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "that", "are", "modified", "by", "an", "assignment", "expression", "or", "the", "unary", "incre-", "ment", "or", "decrement", "operator,", "or", "are", "passed", "to", "a", "function", "call.", "Type(𝑒)", "Type", "of", "expression", "𝑒", ".", "TypeRefs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "that", "are", "references", "to", "declarations", "declared", "in", "local", "scopes.", "Name", "Description", "InCondition(𝑠,", "𝑐)", "Whether", "symbol", "𝑠", "appears", "in", "CPP", "static", "conditional", "𝑐", ".", "InTree(𝑎,", "𝑏)", "Whether", "AST", "𝑎", "is", "a", "subtree", "of", "𝑏.", "LocalDeclRefs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "that", "CPPConditionals", "Set", "of", "CPP", "static", "conditionals", "(e.g.,", "ifdef,", "defined,", "etc.)", "in", "program.", "GlobalScope(𝑎)", "Global", "scope", "of", "AST", "𝑎.", "(e.g.,", "the", "ternary", "operator,", "or", "logi-", "cal", "and)", "in", "AST", "𝑎.", "AllInvocations", "Set", "of", "all", "macro", "invocations.", "AnonTypeExprs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "whose", "type", "is", "unnamed.", "DeclIn(𝑑,", "𝑎)", "Whether", "declaration", "𝑑", "was", "de-", "clared", "in", "AST", "𝑎.", "DeclRefs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "that", "are", "references", "to", "declarations.", "DefinedBefore(𝑚,𝑑)", "Whether", "macro𝑚", "is", "defined", "be-", "fore", "declaration", "or", "macro", "𝑑", ".", "DefinedIn(𝑑,", "𝑠)", "Whether", "declaration", "or", "macro", "𝑑", "is", "defined", "in", "scope", "𝑠", ".", "CondExprs(𝑎)", "Set", "of", "short-circuiting", "expressions", "are", "the", "operand", "of", "an", "addressof", "(&)", "expression.", "Name", "Description", "AddressedExprs(𝑎)", "Set", "of", "expressions", "in", "AST", "𝑎", "that"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 548.16,
+    "y1": 85.44,
+    "y2": 312.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623323-Table2-1.png"
+}, {
+  "caption": "Figure 4: Percentage of aligned and interface-equivalent definitions in each program.",
+  "captionBoundary": {
+    "x1": 133.9040069580078,
+    "x2": 478.0816955566406,
+    "y1": 335.4843444824219,
+    "y2": 341.114990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 322.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623323-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Maki architecture diagram.",
+  "captionBoundary": {
+    "x1": 364.1239929199219,
+    "x2": 512.027099609375,
+    "y1": 164.73135375976562,
+    "y2": 170.36199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Invocation", "properties", "Clang", "plugin", "Python", "script", "Definition", "properties", "Maki", "C", "source", "code"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.84,
+    "y1": 84.0,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623323-Figure1-1.png"
+}]

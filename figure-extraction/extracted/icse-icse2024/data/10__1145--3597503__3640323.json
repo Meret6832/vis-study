@@ -1,0 +1,61 @@
+[{
+  "caption": "Figure 2: Graphical explanation of the Multi-Run Distance.",
+  "captionBoundary": {
+    "x1": 318.5840148925781,
+    "x2": 557.5646362304688,
+    "y1": 172.02438354492188,
+    "y2": 177.655029296875
+  },
+  "figType": "Figure",
+  "imageText": ["m1", "m2", "ℓ2", "ℓ1", "SRD(ℓ2", ",m2)", "SRD(ℓ1", ",m2)", "SRD(ℓ2", ",m1)", "SRD(ℓ1", ",m1)"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 531.84,
+    "y1": 84.0,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3640323-Figure2-1.png"
+}, {
+  "caption": "Table 1: Correlation results",
+  "captionBoundary": {
+    "x1": 382.7829895019531,
+    "x2": 493.0736389160156,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["0.7", "<", "R", "≤", "1", "Strong", "Positive:", "0.3", "<", "R", "≤", "0.7", "Positive:", "0", "<", "R", "≤", "0.3", "Weak", "Positive:", "Aliasing-ControlFlow-u", "0.3376", "0.0154", "Aliasing-InterProcedural-u", "0.7071", "0.0000", "Aliasing-Nested-u", "0.7071", "0.0000", "Aliasing-Simple-u", "0.6547", "0.0000", "Arrays-ImplicitLeak-u", "0.5787", "0.0000", "BooleanOperations-u", "1.0000", "0.0000", "Deepalias-u", "0.1286", "0.0315", "Deepcall-u", "1.0000", "0.0000", "DirectAssignment-u", "1.0000", "0.0000", "DirectAssignmentLeak-u", "1.0000", "0.0000", "HighCond.IncrementalLeak-u", "0.7071", "0.0000", "IFLoop-u", "0.5222", "0.0000", "ScenarioPassword-u", "0.5078", "0.0000", "SimpleArraySize-u", "0.8660", "0.0000", "Sample", "(UnsecureOnlyDataset)", "R", "p-value"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 540.0,
+    "y1": 100.8,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3640323-Table1-1.png"
+}, {
+  "caption": "Table 2: Hypercoverage and Accuracy results",
+  "captionBoundary": {
+    "x1": 83.10598754882812,
+    "x2": 264.434326171875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["TPR", "0.64", "0.86", "1.00", "ACC", "0.82", "0.94", "1.00", "Aliasing-ControlFlow-s", "6", "1.00", "1.00", "✓", "✓", "✓", "✓", "Aliasing-ControlFlow-u", "6", "0.67", "1.00", "✗", "✓", "✓", "✗", "Aliasing-InterProcedural-s", "4", "1.00", "1.00", "✓", "✓", "✓", "✓", "Aliasing-InterProcedural-u", "4", "1.00", "1.00", "✗", "✗", "✗", "✗", "Aliasing-Nested-s", "5", "1.00", "1.00", "✓", "✓", "✓", "✓", "Aliasing-Nested-u", "4", "1.00", "1.00", "✗", "✗", "✗", "✗", "Aliasing-Simple-s", "3", "1.00", "1.00", "✓", "✓", "✓", "✓", "Aliasing-Simple-u", "5", "1.00", "1.00", "✗", "✗", "✗", "✗", "Aliasing-StrongUpdate-s", "7", "1.00", "1.00", "✓", "✓", "✓", "✓", "ArrayIndexSensitivity-s", "3", "1.00", "1.00", "✓", "✓", "✓", "✓", "ArraySizeStrongUpdate-s", "4", "1.00", "1.00", "✓", "✓", "✓", "✓", "Arrays-ImplicitLeak-s", "8", "1.00", "1.00", "✓", "✓", "✓", "✓", "Arrays-ImplicitLeak-u", "8", "0.62", "0.97", "✗", "✓", "✓", "✗", "BooleanOperations-s", "1", "1.00", "1.00", "✓", "✓", "✓", "✓", "BooleanOperations-u", "1", "1.00", "1.00", "✗", "✓", "✗", "✗", "CallContext-s", "3", "1.00", "1.00", "✓", "✓", "✓", "✓", "Deepalias-s", "27", "1.00", "1.00", "✓", "✓", "✓", "✓", "Deepalias-u", "27", "1.00", "1.00", "✗", "✗", "✗", "✗", "Deepcall-s", "1", "1.00", "1.00", "✓", "✓", "✓", "✓", "Deepcall-u", "1", "1.00", "1.00", "✗", "✗", "✗", "✗", "DirectAssignment-s", "1", "1.00", "1.00", "✓", "✓", "✓", "✓", "DirectAssignment-u", "1", "1.00", "1.00", "✗", "✗", "✗", "✗", "DirectAssignmentLeak-u", "1", "1.00", "1.00", "✗", "✗", "✗", "✗", "HighCond.Incr.Leak-s", "1", "1.00", "1.00", "✓", "✓", "✓", "✓", "HighCond.Incr.Leak-u", "3", "1.00", "1.00", "✗", "✓", "✗", "✗", "IFLoop-s", "16", "1.00", "1.00", "✓", "✓", "✓", "✓", "IFLoop-u", "9", "1.00", "1.00", "✗", "✗", "✗", "✗", "IFMethodContractA-s", "7", "1.00", "1.00", "✓", "✓", "✓", "✓", "IFMethodContractB-s", "7", "1.00", "0.97", "✓", "✓", "✓", "✓", "LostInCast-s", "4", "1.00", "1.00", "✓", "✗", "✓", "✓", "ScenarioPassword-s", "7", "0.43", "0.43", "✓", "✓", "✓", "✓", "ScenarioPassword-u", "12", "0.50", "0.50", "✗", "✓", "✗", "✗", "SimpleArraySize-u", "2", "1.00", "1.00", "✗", "✗", "✗", "✗", "Simp.Eras.ByCond.Checks-s", "11", "1.00", "1.00", "✓", "✓", "✓", "✓", "Ph", "os", "ph", "or", "H", "yp", "er", "Fu", "zz", "H", "yp", "er", "Ev", "o", "Tr", "ut", "h", "Go", "al", "s", "H", "yp", "er", "Fu", "zz", "H", "yp", "er", "Ev", "o", "Gr", "ou", "nd", "Sample", "(FullDataset)", "Coverage", "(RQ2)", "Violations", "(RQ3)"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 100.8,
+    "y2": 407.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3640323-Table2-1.png"
+}]

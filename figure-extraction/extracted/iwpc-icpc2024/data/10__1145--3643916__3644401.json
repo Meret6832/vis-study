@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 5: Correlation between the MESIA values and the manual scores of each rater for the experimental code comments. MESIA and Score1 have a Spearman’s 𝜌=0.9532 (p-value of 9.84e-53). MESIA and Score2 have a Spearman’s 𝜌=0.9530 (p-value of 1.26e-42). MESIA and Score3 have a Spearman’s 𝜌=0.9498 (p-value of 2.69e-51). We also calculate the Spearman’s 𝜌 between the manual scores of different raters. Score1 and Score2 have a Spearman’s 𝜌=0.9478 (p-value of 1.78e-50). Score1 and Score3 have a Spearman’s 𝜌=0.9367 (p-value of 1.77e-46). Score2 and Score3 have a Spearman’s 𝜌=0.9780 (p-value of 1.56e-68). All the results demonstrate a strong and significant correlation.",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 559.7168579101562,
+    "y1": 253.58834838867188,
+    "y2": 314.01300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 551.04,
+    "y1": 88.8,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Distribution of different kinds of code comments.",
+  "captionBoundary": {
+    "x1": 54.43600082397461,
+    "x2": 293.3977966308594,
+    "y1": 473.80035400390625,
+    "y2": 479.4309997558594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 331.68,
+    "y2": 460.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Examples of small-MESIA comments.",
+  "captionBoundary": {
+    "x1": 343.14300537109375,
+    "x2": 533.0070190429688,
+    "y1": 445.4493408203125,
+    "y2": 451.0799865722656
+  },
+  "figType": "Figure",
+  "imageText": ["2.29", "Comment:", "handles", "a", "change", "in", "the", "current", "selection.", "public", "void", "handleSelectionChanged(String", "selection){…}", "What", "1.49", "Comment:", "add", "the", "specified", "clipboard", "listener.", "public", "static", "void", "addClipboardListener(final", "ClipboardListener", "l){…}", "What", "0.49", "Comment:", "skips", "from", "the", "peek", "buffer.", "private", "int", "skipFromPeekBuffer", "(", "int", "length", ")", "{…}", "What", "MESIA", "Method", "and", "Comment", "Category"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 334.56,
+    "y2": 430.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Different code comments that provide different extents of supplementary information.",
+  "captionBoundary": {
+    "x1": 110.94999694824219,
+    "x2": 501.0335998535156,
+    "y1": 225.23934936523438,
+    "y2": 230.8699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "(a)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 137.76,
+    "x2": 473.28,
+    "y1": 88.8,
+    "y2": 206.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Examples of large-MESIA comments.",
+  "captionBoundary": {
+    "x1": 212.04600524902344,
+    "x2": 399.94647216796875,
+    "y1": 324.4553527832031,
+    "y2": 330.08599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["This", "method", "implements", "visitor", "pattern,", "which", "is", "a", "well-known", "design", "pattern", "that", "can", "add", "new", "operations", "to", "existing", "object", "without", "modifying", "it.", "The", "comment", "indicates", "such", "external", "knowledge", "about", "the", "code.", "Others", "7.19", "Comment:", "implementation", "of", "visitor", "pattern.", "public", "void", "accept", "(", "AbstractReporter", "r", ")", "{…}", "This", "method", "uses", "java", "nio", "to", "write", "string", "to", "file", "instead", "of", "using", "common", "io.", "The", "comment", "describes", "such", "information,", "which", "indicates", "an", "essential", "property", "because", "when", "using", "java", "nio,", "the", "writing", "process", "will", "never", "block.", "property", "6.70", "Comment:", "java", "nio", "replacement", "of", "common", "–", "io.", "public", "void", "writeStringToFile", "(Path", "file,", "String", "text)", "throws", "IOExceptions", "{…}", "How-it-is-", "done", "This", "method", "checks", "whether", "the", "severce", "with", "the", "given", "service", "name", "is", "a", "lock", "grantor.", "The", "comment", "explains", "that", "the", "method", "accomplishes", "such", "checking", "by", "accessing", "corresponding", "information", "via", "java", "reflection.", "8.64", "Comment:", "accessed", "via", "reflection.", "public", "static", "Boolean", "isLockGrantor", "(String", "serviceName)", "{…}", "This", "method", "has", "a", "critical", "usage", "constraints.", "Every", "method", "that", "tries", "to", "call", "the", "method", "must", "hold", "the", "rwlock", "for", "synchronization", "issues.", "The", "comment", "describes", "such", "usage", "constraints.", "How-to-use", "9.86", "Comment:", "caller", "must", "hold", "rwlock.", "protected", "Object", "[", "]", "getAvailableIDsArray", "()", "{…}", "7.05", "Comment:", "method", "for", "BeanContextChild", "interface.", "public", "void", "firePropertyChange", "(String", "name,", "Object", "oldValue,", "Object", "newValue)", "{…}", "This", "method", "is", "from", "a", "class", "that", "implements", "the", "interface", "named", "BeanContextChild.", "It", "inherits", "the", "corresponding", "method", "to", "accomplish", "the", "specification", "defined", "in", "the", "BeanContextChild", "interface.", "The", "comment", "explains", "such", "design", "idea.", "Why", "This", "method", "peeks", "for", "the", "next", "element", "and", "returns", "null", "if", "there", "is", "nothing", "left.", "The", "comment", "describes", "the", "supplementary", "information", "about", "the", "functionality", "of", "the", "method.", "What", "6.29", "Comment:", "returns", "null", "if", "there", "is", "nothing", "left.", "public", "string", "peek", "()", "{…}", "MESIA", "Method", "and", "Comment", "Explanation", "Category"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 554.4,
+    "y1": 92.64,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure8-1.png"
+}, {
+  "caption": "Figure 2: An analysis of the number of words that remain in a method comment after removing stop words and words in the method’s split signature.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1930541992188,
+    "y1": 239.41433715820312,
+    "y2": 266.9630126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure2-1.png"
+}, {
+  "caption": "Figure 3: An analysis of the proportion of words that remain in a method comment after removing stop words and words in the method’s split signature.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1931762695312,
+    "y1": 440.2703552246094,
+    "y2": 467.8190002441406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 283.68,
+    "y2": 427.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure3-1.png"
+}, {
+  "caption": "Figure 9: Evaluation results of three models on different MESIA values of test groups.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0362548828125,
+    "y1": 267.7593688964844,
+    "y2": 284.3489990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 274.08,
+    "y1": 82.56,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure9-1.png"
+}, {
+  "caption": "Figure 12: Comments generated for themethodnamed “flush” under different MESIA values of training sets.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 560.24755859375,
+    "y1": 453.5223693847656,
+    "y2": 470.11199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["All-training", "Transformer", "Comment:", "flush", "the", "stream.", "(BLEU:", "0.66)", "H-training", "Transformer", "Comment:", "flushes", "all", "buffers", "for", "the", "current", "writer", "and", "causes", "any", "buffered", "data", "to", "be", "written", "to", "the", "underlying", "device.", "(BLEU:", "0.07)", "M-training", "Transformer", "Comment:", "flushes", "the", "internal", "output", "stream.", "(BLEU:", "0.36)", "L-training", "Transformer", "Comment:", "flushes", "the", "stream.", "(BLEU:", "1.00)", "Reference", "Comment:", "flushes", "the", "stream.", "(MESIA:", "2.76)"],
+  "name": "12",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 555.36,
+    "y1": 274.56,
+    "y2": 434.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure12-1.png"
+}, {
+  "caption": "Figure 11: Comments generated for themethod named “lock” under different MESIA values of training sets.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.2208251953125,
+    "y1": 453.5223693847656,
+    "y2": 470.1109924316406
+  },
+  "figType": "Figure",
+  "imageText": ["All-training", "Transformer", "Comment:", "creates", "a", "new", "instance", "of", "the", "tagname", "from", "a", "bean.", "(BLEU:", "0.10)", "H-training", "Transformer", "Comment:", "accessed", "via", "reflection.", "(BLEU:", "1.00)", "M-training", "Transformer", "Comment:", "returns", "an", "instance", "of", "a", "service", "name.", "(BLEU:", "0.16)", "L-training", "Transformer", "Comment:", "locks", "an", "lock", "for", "the", "given", "service", "name.", "(BLEU:", "0.13)", "Reference", "Comment:", "accessed", "via", "reflection.", "(MESIA:", "8.64)"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 291.36,
+    "y1": 273.59999999999997,
+    "y2": 435.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure11-1.png"
+}, {
+  "caption": "Figure 10: Evaluation results of three models on different MESIA values of test groups when using different training sets.",
+  "captionBoundary": {
+    "x1": 61.10599899291992,
+    "x2": 550.87353515625,
+    "y1": 245.58438110351562,
+    "y2": 251.21502685546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure10-1.png"
+}, {
+  "caption": "Figure 4: Distribution of the MESIA value of the code comments in the TL-CodeSum dataset.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.793701171875,
+    "y1": 239.41635131835938,
+    "y2": 256.0059814453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Figure4-1.png"
+}, {
+  "caption": "Table 1: The TL-CodeSum Dataset.",
+  "captionBoundary": {
+    "x1": 104.1719970703125,
+    "x2": 243.36904907226562,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Deduplicated", "53506", "6040", "5905", "#Training", "Pairs", "#Validation", "Pairs", "#Test", "Pairs", "Original", "69708", "8714", "8714", "Denoised", "53597", "7562", "7584"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 105.6,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644401-Table1-1.png"
+}]

@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 4: Semantic domains. JSValue is a set of values in JS, whereas Value is a set of values used by TurboFan internally. TaggedPointer and TaggedSigned has prefix ‘Tagged’ because",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 295.5793151855469,
+    "y1": 179.09988403320312,
+    "y2": 203.0980224609375
+  },
+  "figType": "Figure",
+  "imageText": ["Block", "=", "Byte", "∗", "Memory", "=", "BlockID", "→", "Block", "TaggedSigned", "=", "Int31", "Value", "=", "JSValue", "⊎", "Bool", "⊎", "Int8", "⊎", "Int16", "⊎", "Int32", "⊎", "·", "·", "·", "TaggedPointer", "=", "BlockID", "×", "Int32", "RegFile", "=", "Register", "→", "Value", "JSValue", "=", "TaggedPointer", "⊎", "TaggedSigned", "State", "=", "Label", "×", "RegFile", "×", "Memory", "×", "Deopt", "×", "UB"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 276.96,
+    "y1": 89.28,
+    "y2": 166.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639189-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Overview of TurboTV. SoN𝑖 is a graph representation of IR of TurboFan (Sec. 4.1) after 𝑖’th reduction. EQ",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.803955078125,
+    "y1": 209.94387817382812,
+    "y2": 222.98199462890625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639189-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Semantics of selected instructions. 𝑣param is the value of the parameter and the predicate ValidParam states its validity.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1951293945312,
+    "y1": 163.93386840820312,
+    "y2": 167.35894775390625
+  },
+  "figType": "Figure",
+  "imageText": ["⟨𝑙,𝑅,𝑀,𝐷,𝑈", "⟩", "↩→", "⟨𝑙", "′,𝑅{𝑟", "↦→𝑣′", "},𝑀,𝐷∨𝑑,𝑈", "⟩", "𝑙", "→C", "𝑙", "′", "𝑣", "=", "[[𝑒", "]]𝑅", "𝑣′", "=", "ToInt32(𝑣)", "𝑑", "=", "¬(IsInt32(𝑣)", "∨", "𝑣", "=", "−0.0)", "CheckedF64ToI32-MinusZero", "inst(𝑙", ")", "=“𝑟", "=CheckedFloat64ToInt32−0", "𝑒”", "⟨𝑙,𝑅,𝑀,𝐷,𝑈", "⟩", "↩→", "⟨𝑙", "′,𝑅{𝑟", "↦→𝑣′", "},𝑀,𝐷∨𝑑,𝑈", "⟩", "𝑑", "=", "¬(IsSafeInt(𝑣1", ")∨", "IsSafeInt(𝑣2", ")", "∨", "IsSafeInt(𝑣)", ")", "SpecSafeIntAdd", "inst(𝑙", ")", "=“𝑟", "=SpeculativeSafeIntegerAdd", "𝑒1", "𝑒2”", "𝑙", "→C", "𝑙", "′", "𝑣1", "=", "[[𝑒1", "]]𝑅", "𝑣2", "=", "[[𝑒2", "]]𝑅", "𝑣", "=", "𝑣1", "+", "𝑣2", "Param", "inst(𝑙", ")", "=", "“𝑟", "=", "Parameter”", "𝑙", "→C", "𝑙", "′", "ValidParam(𝑣param", ")", "⟨𝑙,𝑅,𝑀,𝐷,𝑈", "⟩", "↩→", "⟨𝑙", "′,𝑅{𝑟", "↦→", "𝑣param},𝑀,𝐷,𝑈", "⟩"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 88.32,
+    "y2": 147.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639189-Figure5-1.png"
+}, {
+  "caption": "Figure 2: Issue 1199345 of Chromium [10].",
+  "captionBoundary": {
+    "x1": 220.3489990234375,
+    "x2": 391.6443786621094,
+    "y1": 230.70388793945312,
+    "y2": 232.78399658203125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "JavaScript", "code.", "(b)", "SoN", "before", "the", "optimization.", "(c)", "SoN", "after", "the", "optimization.", "}", "%PrepareFunctionForOptimization(foo);", "foo(true);", "%OptimizeFunctionOnNextCall(foo);", "foo(false);", "//", "0", "(wrong)", "//", "-0", "(expected)", "}", "return", "x", "+", "(x", "-", "0);", "x", "=", "0;", "var", "x", "=", "-0;", "if", "(a)", "{", "function", "foo(a)", "{"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 119.03999999999999,
+    "x2": 493.44,
+    "y1": 82.56,
+    "y2": 218.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639189-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Issue 1195650 of Chromium [8].",
+  "captionBoundary": {
+    "x1": 354.73199462890625,
+    "x2": 521.4188232421875,
+    "y1": 363.837890625,
+    "y2": 365.9179992675781
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "JS", "code", "crafted", "from", "Issue", "1195650.", "(b)", "SoN", "from", "the", "JS", "code.", "}", "%PrepareFunctionForOptimization(bar);", "bar(false);", "//", "0", "(before", "optimization)", "%OptimizeFunctionOnNextCall(bar);", "bar(false);", "//", "trace", "trap", "(after", "optimization)", "let", "y", "=", "0;", "if", "(a)", "y", "=", "-0;", "y", "=", "Math.min(Infinity", "?", "[]", ":", "Infinity,", "-0)", "/", "0;", "return", "y", "?", "1", ":", "0;", "function", "bar(a)", "{"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 558.24,
+    "y1": 246.72,
+    "y2": 348.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639189-Figure3-1.png"
+}, {
+  "caption": "Table 1: Effectiveness of TurboTV in discovering known bugs. IRAll (resp., RdcAll), and IRTV (resp., RdcTV) are the number of unique IRs (resp., reductions) extracted from TurboFan and supported by",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.4241943359375,
+    "y1": 89.27688598632812,
+    "y2": 111.28302001953125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "298", "183", "0", "16", "114", "85", "0", "4", "1195650", "[8]", "42", "13", "0", "0", "-", "-", "-", "-", "UB", "1198705", "[9]", "63", "32", "0", "8", "-", "-", "-", "-", "UB", "1404607", "[15]", "58", "33", "0", "3", "-", "-", "-", "-", "UB", "1126249", "[7]", "20", "20", "0", "0", "17", "17", "0", "0", "EQ", "1199345", "[10]", "13", "13", "0", "0", "10", "10", "0", "0", "EQ", "1200490", "[11]", "41", "30", "0", "0", "37", "26", "0", "0", "EQ", "1234764", "[12]", "19", "19", "0", "2", "15", "15", "0", "2", "EQ", "1234770", "[13]", "12", "12", "0", "3", "9", "9", "0", "2", "EQ", "1323114", "[14]", "30", "11", "0", "0", "26", "8", "0", "0", "EQ", "IR", "All", "IRTV", "FP", "TO", "Rdc", "All", "RdcTV", "FP", "TO", "Detect", "UB", "Checker", "EQ", "Checker", "Bug", "ID", "EQ", "checking", "is", "meaningless", "if", "the", "bug", "is", "detected", "by", "the", "UB", "Checker.", "and", "timeout.", "Detect", "indicates", "the", "checker", "that", "detects", "the", "bug.", "The", "TurboTV,", "respectively.", "FP", "and", "TO", "are", "the", "numbers", "of", "false", "positives"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.28,
+    "x2": 558.24,
+    "y1": 115.67999999999999,
+    "y2": 295.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639189-Table1-1.png"
+}, {
+  "caption": "Figure 6: Cumulative distribution of the validation time on the Corpus benchmark. The x-axis is in the log scale.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.188232421875,
+    "y1": 418.7319030761719,
+    "y2": 431.77099609375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "EQ", "93.64%", "96.50%", "Ra", "tio", "100%", "80%", "60%", "40%", "20%", "10", "1", "100", "101", "102", "Time", "(s)", "0%", "(a)", "UB", "80%", "100%", "Ra", "tio", "53.79%", "82.21%", "60%", "40%", "20%", "10", "1", "100", "101", "102", "Time", "(s)", "0%"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 309.59999999999997,
+    "y2": 407.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639189-Figure6-1.png"
+}]

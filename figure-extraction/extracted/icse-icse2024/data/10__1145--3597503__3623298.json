@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 1: The example of prompt generation rules",
+  "captionBoundary": {
+    "x1": 206.79598999023438,
+    "x2": 404.89971923828125,
+    "y1": 250.90237426757812,
+    "y2": 256.53302001953125
+  },
+  "figType": "Table",
+  "imageText": ["P1", "Predicting", "next", "GUI", "page", "There", "are", "<#NumOfPageNames>", "pages", "in", "the", "app,", "named:", "<PageNames>", ".", "I", "want", "to", "go", "from", "the", "<CurrentPage>", "page", "to", "the", "<CrashPage>", "page.", "What", "is", "the", "next", "page?", "There", "are", "8", "pages", "in", "the", "app,", "named:", "intro,", "main,", "setting,", "...", ".", "I", "want", "to", "go", "from", "the", "menu", "of", "main", "page", "to", "the", "installed", "search", "engines", "settings", "page.", "What", "is", "the", "next", "page?", "<NextPage>", "=", "setting", "P2", "Predicting", "transfer", "widget", "for", "reaching", "next", "page", "There", "are", "<#NumOfPageNames>", "pages", "in", "the", "app,", "named:", "<PageNames>", ".", "I", "want", "to", "go", "from", "the", "<CurrentPage>", "page", "to", "the", "<CrashPage>", "page.", "The", "next", "page", "may", "be", "the", "<NextPage>", "page.", "Here", "are", "widgets", "I", "can", "click:<InteractableWidgets>.", "What", "should", "I", "click?", "There", "are", "8", "pages", "in", "the", "app,", "named:", "intro,", "main,", "setting,", "...", ".", "I", "want", "to", "go", "from", "the", "menu", "of", "main", "page", "to", "the", "installed", "search", "engines", "settings", "page.", "The", "next", "page", "may", "be", "the", "setting", "page.", "Here", "are", "widgets", "I", "can", "click:", "what’s", "new,", "help,", "settings", "in", "a", "list,", "....", "What", "should", "I", "click?", "<TransferWidget", ">", "=", "settings", "ID", "Task", "Prompt", "Instantiation", "Prediction", "Prompt", "Widgets", "List", "of", "names", "for", "all", "interactable", "GUI", "widgets", "on", "the", "current", "page,", "obtained", "from", "parsing", "the", "view", "hierarchy", "of", "the", "current", "page", "InteractableWidgets", "=", "[\"what’s", "new\",", "\"help\",", "\"set-", "tings\",", ".", ".", ".", "]", "I1", "PageNames", "List", "of", "names", "of", "all", "activities", "in", "the", "app,", "extracted", "from", "Android-", "Manifest.xml", "file", "PageNames", "=", "[\"intro\",", "\"main\",", "\"setting\",", ".", ".", ".", "]", "I2", "CurrentPage", "The", "activity", "name", "of", "the", "current", "page", "CurrentPage", "=", "menu", "of", "main", "I3", "CrashPage", "The", "name", "of", "the", "crash-occurring", "page,", "obtained", "from", "stack", "trace", "CrashPage", "=", "installed", "search", "engines", "settings", "I4", "Interactable-", "ID", "Attribute", "Description", "Examples", "Input"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 560.16,
+    "y1": 262.08,
+    "y2": 512.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623298-Table1-1.png"
+}, {
+  "caption": "Figure 3: Overview of CrashTranslator. Page reaching (Sec 3.2) means arriving at the last GUI page when the crash occurs, and widget hitting (Sec 3.3) means clicking the correct widget in the last GUI page for triggering the crash.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1888427734375,
+    "y1": 227.82937622070312,
+    "y2": 244.41802978515625
+  },
+  "figType": "Figure",
+  "imageText": ["Replay", "script", "Predicting", "transfer", "widget", "for", "reaching", "next", "page", "Predicting", "next", "GUI", "page", "Step", "Replayer", "(Sec", "3.5)", "Widget", "selector", "(Sec", "3.4.2)", "Reward", "function", "(Sec", "3.4.1)", "Page", "reaching", "scorer", "(Sec", "3.2)", "Widget", "hitting", "scorer", "(Sec", "3.3)", "Exploration", "optimization", "scorer", "(Sec", "3.4)", "Launch", "the", "app", "Record", "No", "Is", "target", "crash?", "Input", "1:", "Crash", "Stack", "Trace", "Input", "2:", "app", "Interaction", "cache", "Yes", "Performing", "on", "the", "app", "Page", "change", "Next", "page", "Reward", "of", "the", "selected", "GUI", "widget", "Reproducing", "steps", "in", "text", "and", "image", "Parsing", "GUI", "page", "Scores", "of", "GUI", "widgets", "Crash-involved", "APIs", "Interactable", "GUI", "widgets", "Current", "page", "Selected", "GUI", "widgets", "Crash-occurring", "page"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 562.56,
+    "y1": 80.64,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623298-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Examples of crash reproducing",
+  "captionBoundary": {
+    "x1": 224.23599243164062,
+    "x2": 387.75787353515625,
+    "y1": 192.89834594726562,
+    "y2": 198.52899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["Crash!", "at", "kotlinx.coroutines.BuildersKt.launch$default(Unknown", "Source)", "at", "org.mozilla.focus.search.SearchEngineListPreference.refetchSearchEngines(XXX:65)", "at", "org.mozilla.focus.settings.InstalledSearchEnginesSetti", "gsFragment.refetchSearchEngines(XXX:96)", "at", "org.mozilla.focus.", "ettings.Installe", "SearchEnginesSettingsFragment.onResume(XXX:37)", "at", "android.support.v4.a", "p.Fragment.performResume(Fragment.java:2498)", "Stack", "trace", "of", "the", "crash", "at", "kotlinx.coroutines.MissingMainCoroutineDispatcher.missing(Dispatchers.kt:123)", "at", "kotlinx.coroutines.MissingMainCoroutineDispatcher.dispatch(Dispatchers.kt:116)", "at", "kotlinx.coroutines.DispatchedKt.resumeCancellable(Dispatched.kt:282)", "at", "kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:23)", "at", "kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:109)", "at", "kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:160)", "at", "kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:54)", "at", "kotlinx.coroutines.BuildersKt.launch(Unknown", "Source)", "at", "kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)", "at", "kotlinx.coroutines.BuildersKt.launch$default(Unknown", "Source)", "at", "org.mozilla.focus.search.SearchEngineListPreference.refetchSearchEngines(SearchEngineListPreference.kt:65)", "at", "org.mozilla.focus.settings.InstalledSearchEnginesSettingsFragment.refetchSearchEngines(InstalledSearchEnginesSettingsFragment.kt:96)", "at", "org.mozilla.focus.settings.InstalledSearchEnginesSettingsFragment.onResume(InstalledSearchEnginesSettingsFragment.kt:37)", "at", "android.support.v4.app.Fragment.performResume(Fragment.java:2498)", "at", "android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1501)", "at", "android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1784)", "at", "android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1852)", "at", "android.support.v4.app.BackStackRecord.executeOps(BackStackRecord.java:802)", "at", "android.support.v4.app.FragmentManagerImpl.executeOps(FragmentManager.java:2625)", "at", "android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2411)", "at", "android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2366)", "at", "android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2273)", "at", "android.support.v4.app.FragmentManagerImpl$1.run(FragmentManager.java:733)", "at", "android.os.Handler.handleCallback(Handler.java:739)", "at", "android.os.Handler.dispatchMessage(Handler.java:95)", "at", "android.os.Looper.loop(Looper.java:148)", "at", "android.app.ActivityThread.main(ActivityThread.java:5654)", "at", "java.lang.reflect.Method.invoke(Native", "Method)", "at", "com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:782)", "at", "com.android.internal.os.ZygoteInit.main(ZygoteInit.java:672)", "Intro", "page", "Main", "page", "Menu", "of", "main", "page", "Settings", "page", "Settings", "page", "FATAL", "EXCEPTION:", "main", "Process:", "org.mozilla.focus,", "PID:", "4228", "java.lang.IllegalStateException:", "Module", "with", "the", "Main", "dispatcher", "is", "missing.", "Add", "dependency", "providing", "the", "Main", "dispatcher,", "e.g.", "'kotlinx-coroutines-android'", "Step", "1:", "Click", "“SKIP\"", "Step", "2:", "Click", "\"More", "Options\"", "Step", "3:", "Click", "\"Settings\"", "Step", "4:", "Click", "\"Search\"", "Step", "5:", "Click", "\"Search", "engine\""],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 563.04,
+    "y1": 81.11999999999999,
+    "y2": 186.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623298-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Examples of stack-trace-only crash reports",
+  "captionBoundary": {
+    "x1": 68.25299835205078,
+    "x2": 279.5815734863281,
+    "y1": 284.579345703125,
+    "y2": 290.2099914550781
+  },
+  "figType": "Figure",
+  "imageText": ["Summary:", "Our", "analysis", "on", "10,843", "crash", "reports", "of", "Android", "apps", "from", "GitHub", "shows", "that", "20.2%", "of", "crash", "reports", "only", "contain", "the", "stack", "trace,", "and", "these", "stack-trace-only", "reports", "consume", "26%more", "time", "for", "issue", "fixing.", "This", "can", "be", "because", "they", "lack", "step-by-step", "guidance", "for", "planning", "the", "reproduction.", "Our", "findings", "confirm", "the", "necessity", "and", "challenges", "of", "the", "crash", "reproduction", "directly", "from", "the", "stack", "trace.", "We", "also", "observe", "two", "clues", "to", "motivate", "our", "approach", "development", "for", "automated", "crash", "reproduction."],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 310.56,
+    "y2": 406.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623298-Figure2-1.png"
+}, {
+  "caption": "Table 3: Reproducing time on successfully reproduced reports (Efficiency)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6425476074219,
+    "y1": 185.33932495117188,
+    "y2": 201.92901611328125
+  },
+  "figType": "Table",
+  "imageText": ["Q-testing", "(15", "reports)", "368", "6", "30", "118", "548", "1506", "CrashTranslator", "(46", "reports)", "68.7", "8", "19", "44", "87", "640", "Humanoid", "(19", "reports)", "532", "12", "43", "216", "1094", "1642", "Ape", "(22", "reports)", "531", "5", "33", "84", "809", "2166", "ReCDroid𝑆𝑇", "(17", "reports)", "988", "10", "94", "996", "1436", "2719", "Monkey", "(15", "reports)", "669", "5", "48", "152", "985", "2525", "Reproducing", "Time", "(s)", "Average", "Min", "Q1", "Median", "Q3", "Max"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 204.95999999999998,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623298-Table3-1.png"
+}, {
+  "caption": "Table 2: Reproduction success rate (Effectiveness). CT, R, M, H, A, Q in the table header refers to CrashTranslator, ReCDroid𝑆𝑇 , Monkey, Humanoid, Ape and Q-testing respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6403503417969,
+    "y1": 83.65737915039062,
+    "y2": 122.16497802734375
+  },
+  "figType": "Table",
+  "imageText": ["total", "(75)", "46", "(61.3%)", "17", "(22.7%)", "13", "(17.3%)", "19", "(25.3%)", "22", "(29.3%)", "15", "(20%)", "AndroR2", "Dataset", "(22)", "10", "(45.5%)", "2", "(9.1%)", "0", "(0%)", "2", "(9.1%)", "3", "(13.6%)", "3", "(13.6%)", "CrashTranslator’s", "Dataset", "(20)", "9", "(45%)", "1", "(5%)", "2", "(10%)", "2", "(10%)", "2", "(10%)", "2", "(10%)", "#", "Dataset", "CT", "R", "M", "H", "A", "Q", "ReCDroid’s", "Dataset", "(33)", "27", "(81.8%)", "14", "(42.4%)", "11", "(33.3%)", "15", "(45.5%)", "17", "(51.5%)", "10", "(30.3%)"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 299.03999999999996,
+    "y1": 124.8,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623298-Table2-1.png"
+}, {
+  "caption": "Table 4: Reproduction details on three datasets. CT, R, M, H, A, Q in the table header refers to CrashTranslator, ReCDroid𝑆𝑇 , Monkey, Humanoid, Ape and Q-testing respectively. CT𝑤𝑝 and CT𝑤𝑤 refer to variants of CrashTranslator without the page reaching scorer and without the widget hitting scorer, respectively. If the above approach successfully reproduces the crash, we record the reproduction time (in seconds) in the table, and if it fails, we record ×. Columns P𝑡𝑟𝑎𝑐𝑒 and P𝑠𝑡𝑒𝑝 show the average time for participants to manually reproduce the crash based on the stack trace or reproducing steps generated by CrashTranslator, respectively, and the number in parentheses is the number of participants who reproduce crash successfully (out of 3). Note that in order to save space, reports that cannot be reproduced by either approach are omitted.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 559.2957763671875,
+    "y1": 85.72634887695312,
+    "y2": 157.11102294921875
+  },
+  "figType": "Table",
+  "imageText": ["RQ", "1", "RQ", "2", "RQ", "3", "RQ", "1", "RQ", "2", "RQ", "3", "ID", "#Crash", "Reports", "CT", "R", "M", "H", "A", "Q", "CT𝑤𝑝", "CT𝑤𝑤", "P𝑡𝑟𝑎𝑐𝑒", "P𝑠𝑡𝑒𝑝", "ID", "#Crash", "Reports", "CT", "R", "M", "H", "A", "Q", "CT𝑤𝑝", "CT𝑤𝑤", "P𝑡𝑟𝑎𝑐𝑒", "P𝑠𝑡𝑒𝑝", "R-1", "NewsBlur-1053", "32", "176", "2024", "×", "68", "×", "53", "69", "201", "(3)", "69", "(3)", "R-25", "K-9Mail-2612", "11", "×", "×", "×", "×", "×", "22", "×", "194", "(3)", "65", "(3)", "R-2", "Markor-194", "88", "×", "×", "×", "2166", "1156", "52", "94", "540", "(1)", "120", "(3)", "R-26", "K-9Mail-2019", "12", "×", "×", "×", "×", "×", "16", "21", "185", "(2)", "68", "(3)", "R-3", "Birthdroid-13", "112", "1776", "×", "×", "1564", "×", "100", "127", "230", "(2)", "73", "(3)", "R-27", "TagMo-12", "42", "×", "52", "47", "12", "×", "25", "42", "176", "(2)", "43", "(2)", "R-4", "Car", "Report-43", "46", "2558", "×", "×", "×", "×", "58", "46", "475", "(2)", "92", "(3)", "R-28", "FlashCards-13", "23", "×", "×", "×", "×", "×", "21", "21", "73", "(2)", "18", "(3)", "R-5", "AnyMemo-18", "19", "×", "125", "644", "111", "×", "×", "23", "63", "(3)", "16", "(3)", "A-1", "HABPanel-25", "21", "×", "×", "×", "672", "25", "28", "29", "44", "(3)", "19", "(3)", "R-6", "AnyMemo-440", "90", "×", "×", "×", "950", "×", "×", "×", "342", "(2)", "91", "(3)", "A-2", "Noad", "Player-1", "8", "10", "5", "12", "5", "6", "10", "10", "13", "(3)", "14", "(3)", "R-7", "Notepad-23", "64", "2719", "×", "1223", "855", "×", "120", "70", "×", "(0)", "116", "(3)", "A-3", "Weather-61", "31", "×", "×", "×", "×", "578", "40", "34", "47", "(2)", "16", "(3)", "R-8", "Olam-2", "10", "×", "1288", "×", "101", "×", "10", "10", "62", "(3)", "23", "(3)", "A-4", "Berkeley-82", "8", "50", "683", "39", "22", "×", "8", "8", "41", "(3)", "23", "(3)", "R-9", "Olam-1", "10", "×", "×", "×", "37", "×", "10", "10", "24", "(3)", "13", "(3)", "A-5", "andOTP-500", "120", "×", "×", "×", "×", "×", "425", "323", "104", "(3)", "103", "(3)", "R-10", "FastAdapter-394", "8", "526", "10", "1642", "13", "1506", "8", "8", "61", "(3)", "36", "(3)", "A-6", "K-9Mail-3255", "14", "×", "×", "×", "×", "×", "15", "19", "45", "(2)", "41", "(3)", "R-11", "LibreNews-22", "93", "1261", "×", "×", "×", "×", "31", "139", "107", "(1)", "42", "(3)", "A-7", "K-9Mail-3971", "66", "×", "×", "×", "×", "×", "95", "85", "×", "(0)", "152", "(3)", "R-12", "LibreNews-23", "71", "×", "126", "104", "49", "518", "×", "51", "×", "(0)", "83", "(3)", "A-8", "Firefox-3932", "61", "×", "×", "×", "×", "×", "107", "83", "×", "(0)", "47", "(3)", "R-13", "LibreNews-27", "93", "1272", "×", "197", "×", "×", "31", "139", "11", "(1)", "64", "(3)", "A-9", "Aegis-3932", "117", "×", "×", "×", "×", "×", "159", "129", "205", "(3)", "146", "(2)", "R-14", "SMSsync-464", "118", "×", "×", "443", "×", "63", "186", "254", "213", "(2)", "68", "(3)", "C-1", "NewPipe-7825", "32", "×", "×", "×", "×", "×", "46", "32", "426", "(1)", "64", "(3)", "R-15", "Transistor-63", "41", "94", "×", "216", "×", "17", "10", "48", "151", "(3)", "63", "(3)", "C-2", "SDBViewer-10", "15", "×", "×", "68", "1900", "36", "20", "192", "98", "(3)", "25", "(3)", "R-16", "Zom-271", "50", "536", "45", "×", "50", "24", "52", "59", "120", "(1)", "80", "(3)", "C-3", "Anki-10584", "180", "×", "×", "×", "×", "×", "878", "312", "175", "(2)", "148", "(2)", "R-17", "Pix-Art-125", "48", "1436", "×", "977", "541", "219", "48", "176", "246", "(3)", "34", "(2)", "C-4", "Alarmio-47", "×", "×", "×", "×", "×", "487", "×", "×", "A-", "(0)", "A-", "(0)", "R-18", "Pix-Art-127", "56", "1270", "×", "1416", "1972", "53", "57", "164", "300", "(1)", "49", "(3)", "C-5", "Shuttle-456", "87", "×", "×", "×", "×", "×", "96", "97", "476", "(1)", "132", "(3)", "R-19", "ScreenCam-25", "33", "×", "152", "28", "43", "×", "40", "33", "69", "(2)", "68", "(3)", "C-6", "Anki-3370", "35", "×", "×", "×", "×", "×", "611", "35", "183", "(2)", "41", "(3)", "R-20", "ownCloud-487", "60", "996", "303", "262", "×", "118", "62", "60", "228", "(1)", "87", "(3)", "C-7", "WhereUGo-368", "165", "×", "2524", "×", "×", "×", "372", "181", "×", "(0)", "157", "(3)", "R-21", "OBDReader-22", "52", "×", "2525", "1211", "×", "×", "×", "53", "210", "(2)", "76", "(3)", "C-8", "GrowTracker-87", "210", "×", "×", "×", "×", "×", "271", "605", "×", "(0)", "221", "(3)", "R-22", "Dagger-46", "8", "18", "8", "12", "5", "×", "8", "8", "180", "(1)", "14", "(3)", "C-9", "FakeStandby-30", "27", "×", "×", "×", "×", "×", "27", "27", "386", "(1)", "38", "(3)", "R-23", "ODK-2086", "640", "2064", "×", "1538", "531", "725", "939", "1016", "180", "(1)", "41", "(3)", "C-10", "getodk-219", "20", "45", "166", "29", "32", "×", "157", "20", "80", "(3)", "25", "(3)", "R-24", "K-9Mail-3255", "13", "×", "×", "×", "×", "×", "16", "18", "256", "(3)", "43", "(3)"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 164.64,
+    "y2": 369.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623298-Table4-1.png"
+}]

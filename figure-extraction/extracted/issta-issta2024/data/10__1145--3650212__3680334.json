@@ -1,0 +1,301 @@
+[{
+  "caption": "Table 2: Domain Knowledge Borrowed from Existing Work.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1224975585938,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Reflexion", "[52]", "Alternative", "Planning", "after", "Failure", "Droidbot-GPT", "[70]", "Avoiding", "Action", "Repetition", "LLM", "Agents", "Time", "Machine", "[10]", "Avoiding", "Exploration", "Loops", "Vet", "[67]", "Avoiding", "Exploration", "Tarpits", "Automated", "UI", "Testing", "Knowledge", "Source", "Domain", "Knowledge"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 542.4,
+    "y1": 105.6,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Table2-1.png"
+}, {
+  "caption": "Figure 7: Running Example of Guardian.",
+  "captionBoundary": {
+    "x1": 353.3909912109375,
+    "x2": 522.7658081054688,
+    "y1": 427.0548095703125,
+    "y2": 429.135009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Swipe", "Turn", "On", "Night", "Mode", "Multi-Step", "Exploration…", "Open", "Account", "Page", "Restore", "to", "Home", "Page", "Remove", "Search", "Button", "Cannot", "Find", "Night", "Mode", "Entry", "Search", "Night", "Mode", "Open", "Search", "Page", "Turn", "on", "Night", "Mode.", "Other", "info…", "Prompts:"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 205.44,
+    "y2": 410.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Computation Offloading from LLMs to external",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2042846679688,
+    "y1": 219.73681640625,
+    "y2": 221.8170166015625
+  },
+  "figType": "Figure",
+  "imageText": ["😵💫", "New", "Context", "😌", "Refining", "the", "UI", "action", "space", "over", "the", "Context", "to", "obtain", "a", "reduced", "Engineering", "Prompt", "Workloads", "Reduced", "Computation", "Workloads", "Engineering", "Full", "Computation", "Prompt", "Ø", "UI", "action", "1", "q", "Task", "X", "Ø", "History", "1", "ü", "Instruction", "A", "You", "are", "an", "expert", "at", "UI", "exploration.", "Remained", "Instructions", "Prompts", "New", "Context", "Ø", "History", "A", "Ø", "History", "B", "ü", "Instruction", "Aq", "Task", "X", "Ø", "UI", "action", "X", "Ø", "UI", "action", "Y", "Offload", "computation", "from", "LLMs", "to", "an", "external", "system", "Ø", "History", "1", "Ø", "History", "2", "Ø", "History", "3", "Ø", "..…….……", "q", "Task", "X", "q", "Task", "Y", "q", "Task", "Z", "q", "………", "Ø", "UI", "action", "1", "Ø", "UI", "action", "2", "Ø", "UI", "action", "3", "Ø", "...…..……….", "ü", "Instruction", "A", "ü", "Instruction", "B", "ü", "Instruction", "C", "ü", "------------------", "You", "are", "an", "expert", "at", "UI", "exploration.", "LLMsPrompts", "Domain-Specific", "Instructions", "(Domain", "Knowledge)", "Context", "Ø", "History", "1", "Ø", "History", "2", "Ø", "History", "3", "Ø", "..……….…", "ü", "Instruction", "A", "ü", "Instruction", "B", "ü", "Instruction", "C", "ü", "------------------", "q", "Task", "X", "q", "Task", "Y", "q", "Task", "Z", "q", "………", "Ø", "UI", "action", "1", "Ø", "UI", "action", "2", "Ø", "UI", "action", "3", "Ø", "…….…………"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.76,
+    "y1": 84.0,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Prompt Design of UI Representation.",
+  "captionBoundary": {
+    "x1": 344.26300048828125,
+    "x2": 531.8941040039062,
+    "y1": 260.98260498046875,
+    "y2": 263.06280517578125
+  },
+  "figType": "Figure",
+  "imageText": ["Guardian", "supports", "four", "primary", "types", "of", "UI", "actions:", "•", "Click:", "click", "on", "the", "center", "point", "of", "a", "given", "UI", "element.", "•", "Long", "Click:", "press", "on", "the", "center", "point", "of", "the", "UI", "element", "for", "one", "second.", "•", "Swipe:", "query", "the", "LLM", "for", "the", "direction", "and", "distance", "of", "the", "swipe,", "and", "then", "perform", "the", "swipe", "operation.", "•", "Text:", "generate", "an", "additional", "query", "to", "the", "LLM", "for", "generating", "an", "appropriate", "string", "input,", "which", "is", "then", "entered", "into", "the", "given", "UI", "element."],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 558.72,
+    "y1": 275.03999999999996,
+    "y2": 372.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure8-1.png"
+}, {
+  "caption": "Table 7: Effectiveness on Unseen Data.",
+  "captionBoundary": {
+    "x1": 360.3630065917969,
+    "x2": 515.4998779296875,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Guardian", "58.3", "(+249.1%)", "66.9", "(+136.4%)", "ReAct", "0", "9.6", "Reflexion", "16.7", "28.3", "Droidbot-GPT", "8.3", "21.8", "Approaches", "SR", "(%)", "ACP", "(%)"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 356.64,
+    "x2": 518.4,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Table7-1.png"
+}, {
+  "caption": "Table 6: Efficacy of Adjusting Planning.",
+  "captionBoundary": {
+    "x1": 94.0,
+    "x2": 253.54811096191406,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["decrease", "in", "performance", "for", "Guardian,", "with", "28.5%", "reduction", "in", "success", "rate", "and", "18.9%", "reduction", "in", "average", "completion", "proportion.", "Answer", "to", "RQ4:", "Refining", "action", "space", "significantly", "enhances", "instruction", "following,", "markedly", "boosting", "the", "effectiveness", "of", "Guardian.", "This", "strategy", "also", "proves", "beneficial", "in", "augmenting", "the", "existing", "LLM-based", "approaches.", "Droidbot-GPT", "6.9", "27.6", "Replan-Droidbot", "19.0", "(+175.4%)", "34.5", "(+25.0%)", "Guardian-NoReplan", "32.8", "(-32.1%)", "48.5", "(-24.2%)", "Guardian", "48.3", "64.0", "Dynamic", "Re-Plan", "CoT", "[68]", "1.7", "11.1", "ToT", "[74]", "17.2", "(+911.8%)", "35.0", "(+216.2%)", "Static", "Re-Plan", "Approaches", "SR", "(%)", "ACP", "(%)"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 105.6,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Table6-1.png"
+}, {
+  "caption": "Figure 2: System Architecture of Guardian.",
+  "captionBoundary": {
+    "x1": 84.78700256347656,
+    "x2": 263.0558166503906,
+    "y1": 332.7018127441406,
+    "y2": 334.7820129394531
+  },
+  "figType": "Figure",
+  "imageText": ["Domain", "Knowledge", "LLM", "AUT", "GUARDIAN", "Validator", "Domain", "Knowledge", "Loader", "Error", "Handler", "Optimizer", "History", "Context", "Memory", "LLM", "Perceptible", "Context", "Blocked", "Action", "Space", "Execution", "Engine", "UI", "Driver", "Parser", "LLM", "Driver"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 269.28,
+    "y1": 84.0,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Action Selection of Droidbot-GPT on AccuWeather.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.202392578125,
+    "y1": 428.92279052734375,
+    "y2": 431.00299072265625
+  },
+  "figType": "Figure",
+  "imageText": ["start", "the", "app", "AccuWeather", "click", "view", "\"Open", "navg.", "drawer\"", "click", "view", "with", "text", "\"Settings\"", "click", "view", "with", "text", "\"F,", "mph", ",", "in\"", "click", "view", "with", "text", "\"F,", "mph", ",", "in\"", "click", "view", "with", "text", "\"F,", "mph", ",", "in\"", "click", "view", "with", "text", "\"Manage", "Notif\"", "click", "view", "with", "text", "\"Locations\"", "go", "back", "click", "view", "with", "text", "\"Locations\"", "click", "view", "with", "text", "\"Edit", "Location\"", "click", "view", "with", "text", "\"Locations\"", "click", "view", "with", "text", "\"Manage", "Notif\"", "click", "view", "with", "text", "\"Locations\""],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 562.0799999999999,
+    "y1": 264.96,
+    "y2": 412.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure4-1.png"
+}, {
+  "caption": "Table 1: Effectiveness of UI Content Comprehension.",
+  "captionBoundary": {
+    "x1": 66.48200225830078,
+    "x2": 281.06591796875,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Seq2Act", "80.0%", "-", "-", "-", "GPT-3.5", "96.7%", "96.7%", "96.7%", "93.3%", "GPT-4", "98.3%", "96.7%", "96.7%", "96.7%", "Model", "Original", "+50%", "Noise", "+100%", "+200%"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 261.12,
+    "y1": 105.6,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Table1-1.png"
+}, {
+  "caption": "Figure 3: Violations against No Repetitive UI Action.",
+  "captionBoundary": {
+    "x1": 331.9800109863281,
+    "x2": 544.178955078125,
+    "y1": 249.10882568359375,
+    "y2": 251.18902587890625
+  },
+  "figType": "Figure",
+  "imageText": ["ts", "lem", "en", "U", "I", "e", "ct", "ed", "se", "le", "#", "of", "#", "of", "Repetition", "0", "0", "1", "2", "3", "4", "5+", "50", "100", "150", "200", "300", "250"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 343.2,
+    "x2": 532.3199999999999,
+    "y1": 88.32,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure3-1.png"
+}, {
+  "caption": "Table 4: Cause Analysis of Guardian’s Failures.",
+  "captionBoundary": {
+    "x1": 76.54199981689453,
+    "x2": 271.0045166015625,
+    "y1": 272.26678466796875,
+    "y2": 274.34698486328125
+  },
+  "figType": "Table",
+  "imageText": ["Cause", "#", "of", "Failed", "Cases", "Vision", "Modality", "Input", "17", "(56.7%)", "Screen-level", "Understanding", "8", "(26.7%)", "Element-level", "Understanding", "5", "(16.7%)"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 271.2,
+    "y1": 288.96,
+    "y2": 336.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Table4-1.png"
+}, {
+  "caption": "Table 5: Efficacy of Action Space Refinement.",
+  "captionBoundary": {
+    "x1": 346.74700927734375,
+    "x2": 529.1148071289062,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UnRefine-Guardian", "34.5", "(-28.5%)", "51.9", "(-18.9%)", "Guardian", "48.3", "64.0", "Droidbot-GPT", "6.9", "27.6", "Refine-Droidbot", "13.8", "(+100.0%)", "32.1", "(+16.3%)", "Approaches", "SR", "(%)", "ACP", "(%)"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 348.96,
+    "x2": 525.12,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Table5-1.png"
+}, {
+  "caption": "Table 3: Overall Effectiveness of Guardian.",
+  "captionBoundary": {
+    "x1": 85.27999877929688,
+    "x2": 262.2668151855469,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Guardian", "(Ours)", "48.3", "(+154%)", "64.0", "(+132%)", "Runtime-system-guarded", "ReAct", "[75]", "13.8", "25.5", "Reflexion", "[52]", "19.0", "26.5", "Droidbot-GPT", "[70]", "6.9", "27.6", "Prompting-based", "Seq2Seq", "[53]", "8.8", "19.8", "MOCA", "[54]", "6.9", "21.2", "Seq2Act", "[27]", "1.9", "5.4", "Non-LLM", "Approaches", "SR", "(%)", "ACP", "(%)"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 273.12,
+    "y1": 105.6,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Table3-1.png"
+}, {
+  "caption": "Figure 5: A motivating example of enforcing instruction fol-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6485900878906,
+    "y1": 293.0148010253906,
+    "y2": 295.0950012207031
+  },
+  "figType": "Figure",
+  "imageText": ["Fall", "into", "Same", "Trace", "Again…", "Open", "Search", "Page", "Again", "Add", "Prompts", "to", "Avoid", "Search", "Button", "Back", "to", "Home", "Page", "Random", "Exploration", "for", "Night", "Mode", "Entry", "Turn", "on", "Night", "Mode.", "Search", "Button", "doesn’t", "work.", "Other", "info…", "New", "Prompts:", "Stuck", "for", "Many", "Steps…", "Actual", "Sequence:", "Cannot", "Find", "Night", "Mode", "Entry", "Search", "Night", "Mode", "Open", "Search", "Page", "Turn", "on", "Night", "Mode", "LLM", "Expected", "Sequence:", "Click", "Night", "Mode", "Entry", "Search", "Night", "Mode", "Open", "Search", "Page", "Turn", "on", "Night", "Mode.", "Other", "info…", "Prompts:"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 276.0,
+    "y1": 84.0,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Workflow of Guardian in one round. Only one UI",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2014770507812,
+    "y1": 278.7937927246094,
+    "y2": 280.8739929199219
+  },
+  "figType": "Figure",
+  "imageText": ["Validator", "Heuristic", "Rule", "Reflection", "LLM-", "based", "Yes", "No", "Is", "valid?", "Blocked", "Actions", "!", "Generate", "Prompts", "for", "!′", "Mapper", "Parse", "LLM", "Response", "AUT", "LLM", "Action", "Validate", "UI", "Action", "Add", "action", "into", "\"", "Restore", "State", "6", "5", "to", "LLM", "Send", "Prompts", "4", "Execute", "UI", "Action", "3", "2", "1", "Refine", "Action", "Space", "!", "Replanner", "Prompt", "Generator"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 84.0,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680334-Figure6-1.png"
+}]

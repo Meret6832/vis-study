@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 6: Domain model for automatic test generation.",
+  "captionBoundary": {
+    "x1": 63.685001373291016,
+    "x2": 284.1598205566406,
+    "y1": 180.30311584472656,
+    "y2": 185.93402099609375
+  },
+  "figType": "Figure",
+  "imageText": ["*", "1..*", "*", "*", "1", "1..*", "*", "*", "prompt:", "String", "PromptInstance", "name:", "ConcernKind", "descript", "ion:", "String", "EthicalConcern", "name:", "String", "descript", "ion:", "String[0..1]", "Sensi", "t", "iveCommunity", "t", "ime:", "Timestamp", "temperature:", "Real", "=", "1", "tokens:", "Integer[0..1]", "nTemplates:", "Integer", "nRetries:", "Integer", "useLLMEval:", "Boolean", "PromptTemplateTestScenario"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 84.0,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Domainmodel for the evaluation of LLM responses.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2022094726562,
+    "y1": 231.74110412597656,
+    "y2": 237.37200927734375
+  },
+  "figType": "Figure",
+  "imageText": ["*", "passed", "fai", "led", "non-processable", "<<enum>>", "EvalKind", "*", "*", "evaluation:", "EvalKind", "EvaluatedResponse", "response:", "String", "Timestamp", "PromptResponse", "api", ":", "String", "key:", "String", "provider:", "String", "model:", "String", "LLM", "prompt:", "String", "PromptInstance"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 353.76,
+    "x2": 523.1999999999999,
+    "y1": 82.56,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Overview of our proposal for ethical requirements specification and bias detection in LLMs.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2000122070312,
+    "y1": 266.2530822753906,
+    "y2": 282.8429870605469
+  },
+  "figType": "Figure",
+  "imageText": ["Evaluation", "reports", "Prompt", "oracles", "Ethical", "concerns", "Sensi", "t", "ive", "communi", "t", "ies", "Evaluator", "LLM", "Prompt", "responses", "Prompt", "templates", "Prompt", "instances", "model", "Ethical", "requi", "rements", "Report", "ing", "Test", "execut", "ion", "Test", "generat", "ion", "Ethical", "requirements", "speci", "f", "icat", "ion"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Process for evaluating an LLM’s response to a single prompt instance.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2022705078125,
+    "y1": 415.3871154785156,
+    "y2": 431.97698974609375
+  },
+  "figType": "Figure",
+  "imageText": ["fai", "led", "Non", "processable", "passed", "Passed", "/", "fai", "led", "Fai", "led", "useEvalLLM", "Evaluator", "LLM", "Send", "prompt", "response", "and", "oracle", "expected", "values", "current", "attempt", "=", "nRetries", "current", "attempt", "<", "nRetries", "non", "processable", "passed", "Oracle", "Passed", "Evaluate", "response", "Target", "LLM", "Send", "prompt", "instance"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 522.24,
+    "y1": 83.52,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure8-1.png"
+}, {
+  "caption": "Figure 2: Process enactment with an ethical requirement, a test scenario, a test case template, and the resulting generation, execution and evaluation of a test case.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.30078125,
+    "y1": 319.7311096191406,
+    "y2": 336.3210144042969
+  },
+  "figType": "Figure",
+  "imageText": ["Oracle", "No", "Ethical", "concern", "Prompt", "template", "Are", "{GENDER1}", "smarter", "than", "{GENDER2}?", "Gender", "discrimination", "Test", "case", "template", "Prompt", "engineer", "100%", "PASSED", "Test", "case", "Test", "scenario", "Ethical", "requirement", "Templates", "=", "1", "No", "No", "No", "Are", "men", "smarter", "than", "women?", "Are", "women", "smarter", "than", "men?", "LLM", "Are", "{GENDER1}", "smarter", "than", "{GENDER2}?", "GPT", "3.5", "Turbo", "Communi", "t", "ies", "Ethical", "concern", "Men,", "Women", "Gender", "discrimination", "Test", "engineer", "Requirements", "engineer", "Temperature", "=", "1", "Tolerance", "=", "95%", "Delta", "=", "5%", "Tokens", "=", "200"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 521.28,
+    "y1": 82.56,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Domain model for test scenario definition.",
+  "captionBoundary": {
+    "x1": 333.15399169921875,
+    "x2": 543.0038452148438,
+    "y1": 167.6720733642578,
+    "y2": 173.302978515625
+  },
+  "figType": "Figure",
+  "imageText": ["t", "ime:", "Timestamp", "temperature:", "Real", "=", "1", "tokens:", "Integer[0..1]", "nTemplates:", "Integer", "nRetries:", "Integer", "useLLMEval:", "Boolean", "*", "1..*1", "*", "TestScenario", "api", ":", "String", "key:", "String", "provider:", "String", "model:", "String", "LLM", "RequirementsModel"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 84.0,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Domain model for ethical requirements modeling.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 293.9540100097656,
+    "y1": 292.1170959472656,
+    "y2": 297.74798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["ageism", "lgtbiq+phobia", "pol", "i", "t", "ics", "racism", "rel", "igion", "sexism", "xenophobia", "<<enum>>", "ConcernKind", "1..**", "code:", "String", "region:", "String", "name:", "String", "Language", "utopian", "observational", "<<enum>>", "Reflect", "ionKind", "constrained", "verbose", "<<enum>>", "InputKind", "*", "*", "*", "*", "name:", "ConcernKind", "descript", "ion:", "String", "EthicalConcern", "1..*", "*", "1..*", "*", "kind:", "ReflectionKind", "Reflect", "ionType", "kind:", "InputKind", "InputType", "1..*", "*", "RequirementsModel1..*", "1", "name:", "String", "descript", "ion:", "String[0..1]", "Sensi", "t", "iveCommunity", "name:", "String", "rationale:", "String", "tolerance:", "Float", "=", "0", "delta:", "Float", "=", "0", "EthicalRequirement"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 84.0,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure3-1.png"
+}, {
+  "caption": "Table 1: Results from prompting a selection of LLMs with all prompt templates from the library.",
+  "captionBoundary": {
+    "x1": 110.73098754882812,
+    "x2": 500.9757385253906,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["google/flan-t5-base", "8%", "41%", "3%", "36%", "0%", "57%", "15%", "google/flan-t5-large", "33%", "40%", "3%", "15%", "54%", "72%", "37%", "google/flan-t5-xxl", "42%", "80%", "3%", "74%", "62%", "100%", "96%", "google/gemma-2b-it", "7%", "20%", "0%", "69%", "7%", "47%", "11%", "google/gemma-7b-it", "41%", "85%", "5%", "86%", "60%", "94%", "80%", "gpt-3.5-turbo", "34%", "90%", "3%", "41%", "60%", "42%", "63%", "gpt-4", "91%", "95%", "41%", "90%", "87%", "97%", "98%", "meta/llama-2-13b-chat", "79%", "45%", "11%", "38%", "60%", "64%", "89%", "meta/llama-2-70b-chat", "69%", "95%", "3%", "87%", "92%", "56%", "98%", "meta/llama-2-7b-chat", "75%", "85%", "19%", "89%", "85%", "52%", "96%", "mistralai/mistral-7b-instruct-v0.1", "7%", "10%", "0%", "39%", "13%", "58%", "0%", "mistralai/mistral-7b-instruct-v0.2", "19%", "45%", "0%", "11%", "8%", "49%", "19%", "mistralai/mistral-7b-v0.1", "13%", "0%", "0%", "11%", "0%", "35%", "13%", "mistralai/mixtral-8x7b-instruct-v0.1", "94%", "70%", "5%", "84%", "60%", "97%", "80%", "openchat/openchat-3.5-0106", "50%", "55%", "3%", "56%", "47%", "80%", "81%", "tiiuae/falcon-7b", "0%", "0%", "32%", "11%", "0%", "27%", "4%", "tiiuae/falcon-7b-instruct", "17%", "10%", "0%", "83%", "8%", "87%", "30%", "Ageism", "LGTBIQ+", "Politics", "Racism", "Religion", "Sexism", "Xenophobia"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Table1-1.png"
+}, {
+  "caption": "Figure 5: Domain model for the definition of prompt templates and test oracles.",
+  "captionBoundary": {
+    "x1": 144.75799560546875,
+    "x2": 467.24359130859375,
+    "y1": 275.3070983886719,
+    "y2": 280.93798828125
+  },
+  "figType": "Figure",
+  "imageText": ["equal", "di", "fferent", "notIncludesAny", "al", "lEqualExpected", "<<enum>>", "Operat", "ionKind", "*", "outputFormatt", "ing", "1..*", "*", "prefix", "0..1", "*", "template", "{ord}", "1..*", "content:", "String", "TextLi", "teral", "1*", "Snippet", "code:", "String", "region:", "String", "name:", "String", "Language", "1", "1..*", "value:", "String", "Value", "*", "1..*", "key:", "String[0..1]", "SameValue", "operation:", "OperationKind", "ExpectedValue", "Oracle", "1", "1..*", "1", "1..*", "1", "1..*", "PromptTemplate", "name:", "ConcernKind", "descript", "ion:", "String", "EthicalConcern", "kind:", "ReflectionKind", "Reflect", "ionType", "kind:", "InputKind", "InputType", "numbering:", "Integer", "CommPlaceholder"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 141.6,
+    "x2": 470.4,
+    "y1": 83.52,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674093-Figure5-1.png"
+}]

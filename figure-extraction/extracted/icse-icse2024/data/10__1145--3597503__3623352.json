@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: Architecture overview of our work.",
+  "captionBoundary": {
+    "x1": 215.76300048828125,
+    "x2": 396.2305603027344,
+    "y1": 244.46237182617188,
+    "y2": 250.093017578125
+  },
+  "figType": "Figure",
+  "imageText": ["Remove", "Stable", "Active", "Package", "Source", "Code", "5", "Ecosystem-scale", "Study", "Package", "DB", "RQ3.", "RUF", "Impact", "RQ2.", "RUF", "Usage", "RQ1.", "RUF", "Lifetime", "RUF", "Status", "RUF", "Impact", "RUF", "Configuration", "3.1", "RUF", "Status", "Extraction", "Abnormal", "RUF", "Status", "Transition", "Detection", "RUF", "Status", "Parsing", "……", "Semantic", "Identification", "of", "RUF", "Configuration", "3.2", "RUF", "Configuration", "Extraction", "Compilation", "Data-flow", "Interception", "Minimal", "Configuration", "Extraction", "Ecosystem", "Dependency", "Graph", "Dependency", "Resolution", "Virtual", "Environment", "Configuration", "4", "Ecosystem", "Dependency", "Resolution"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 83.03999999999999,
+    "x2": 533.28,
+    "y1": 84.0,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Figure1-1.png"
+}, {
+  "caption": "Table 1: Resolution accuracy.",
+  "captionBoundary": {
+    "x1": 114.83799743652344,
+    "x2": 232.70501708984375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Type", "Tree", "Accuracy", "Precision", "Recall", "F1Score", "Random", "99.39%", "99.76%", "98.88%", "99.32%", "Popular", "99.50%", "99.99%", "99.16%", "99.58%", "Mostdep", "97.04%", "99.96%", "97.47%", "98.70%"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Table1-1.png"
+}, {
+  "caption": "Table 5: RUF impact mitigation results. Applying our mitigation strategy, 90% of package versions can recover from compilation failure.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6426086425781,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["RUF", "Impacts", "Total", "Compilation", "Failure", "Before", "Mitigation", "259,540", "70,913", "After", "Mitigation", "259,540", "6,978"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 257.28,
+    "y1": 127.67999999999999,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Table5-1.png"
+}, {
+  "caption": "Table 3: Summary of RUF impacts. The table shows how package versions are impacted by different types of RUF and through different dependencies.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.5374755859375,
+    "y1": 194.41238403320312,
+    "y2": 221.96002197265625
+  },
+  "figType": "Table",
+  "imageText": ["RUF", "Type", "Direct", "Usage", "Uncond", "Impact", "Cond", "Impact", "Total", "Accepted", "24,681", "17,085", "21,477", "38,448", "(6%)", "Active", "55,785", "77,582", "207,133", "237,386(40%)", "Incomplete", "5,829", "7,696", "7,991", "12,097", "(2%)", "Removed", "14,812", "50,896", "53,159", "61,160(10%)", "Unknown", "10,534", "46,157", "48,742", "57,916(10%)", "Total", "72,154(12%)", "111,140(19%)", "220,665(37%)", "259,540(44%)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 236.64,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Table3-1.png"
+}, {
+  "caption": "Table 2: Summary of RUF usage.",
+  "captionBoundary": {
+    "x1": 372.4129943847656,
+    "x2": 503.4420471191406,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Type", "RUF", "Count", "Package", "Versions", "RUF", "Usage", "Items", "Accepted", "382", "(38%)", "24,681", "(34%)", "38,858", "(21%)", "Active", "381", "(38%)", "55,785", "(77%)", "101,494", "(56%)", "Incomplete", "7", "(7%)", "5,829", "(8%)", "5,926", "(3%)", "Removed", "41", "(4%)", "14,812", "(21%)", "21,096", "(12%)", "Unknown", "189", "(19%)", "10,534", "(15%)", "14,652", "(8%)", "Total", "1000(100%)", "72,132(100%)", "182,026(100%)"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 545.28,
+    "y1": 105.6,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Table2-1.png"
+}, {
+  "caption": "Figure 4: RUF impact example.",
+  "captionBoundary": {
+    "x1": 375.9010009765625,
+    "x2": 500.25042724609375,
+    "y1": 162.67337036132812,
+    "y2": 168.30401611328125
+  },
+  "figType": "Figure",
+  "imageText": ["rustc", "build", "–-cfg", "'feature=“pf“’", "mainB.rs", "//", "RUF", "Configuration", "of", "Package", "B", "#![cfg_attr(feature", "=", "“pf\",", "feature(ruf))]", "//", "Dependency", "Requirement", "of", "Package", "A", "B", "=", "{version", "=", "“0.1.2”,", "features", "=", "[“pf\"]}"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 334.08,
+    "x2": 533.76,
+    "y1": 86.88,
+    "y2": 144.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Figure4-1.png"
+}, {
+  "caption": "Table 4: An example of RUF recovery that shows a package impacted by RUF A&B&C. In 1.57.0, all RUF used are at their best status, so 1.57.0 will be the compatible compiler that can compile the package.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3759155273438,
+    "y1": 85.72634887695312,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Recovery", "Status", "✓", "✓", "✕", "Compiler", "Version", "1.50.0", "1.57.0", "1.63.0", "RUF", "A", "Active", "Accepted", "Removed", "RUF", "B", "Accepted", "Accepted", "Accepted", "RUF", "C", "Active", "Accepted", "Unknown"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 533.28,
+    "y1": 138.72,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Table4-1.png"
+}, {
+  "caption": "Figure 5: Dependency influence example. While A doesn’t change its dependency requirements of C, the other dependency from B to C will influence it and result in choosing a different version of C.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8001098632812,
+    "y1": 155.71932983398438,
+    "y2": 194.22601318359375
+  },
+  "figType": "Figure",
+  "imageText": ["v1.1.0", "Merge", "v1.1.0", "1.0.0", "=1.1.0", "A", "C", "CB", "A", "C1.0.0", "v1.2.0", "B"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 552.0,
+    "y1": 87.84,
+    "y2": 137.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Figure5-1.png"
+}, {
+  "caption": "Figure 6: EDG structure example.",
+  "captionBoundary": {
+    "x1": 371.0329895019531,
+    "x2": 505.1194763183594,
+    "y1": 296.4003601074219,
+    "y2": 302.031005859375
+  },
+  "figType": "Figure",
+  "imageText": ["2.3.4", "…", "Parent", "=", "A-2.3.4", "PF=", "[PF_C3]", "DT", "root:", "A-2.3.4", "Dep-type", "=", "Normal", "Depth", "=", "1", "indir", "Dep", "Attr", "dir", "dir", "dir", "=0.1.1", "v0.1.1", "v0.1.0", "v1.1.0", "0.1.0", "=1.1.0", "A", "C", "CB", "……", "Parent", "=", "B-0.1.1", "PF=", "[PF_C1,PF_C2]", "DT", "root:", "A-2.3.4", "Dep-type", "=", "Opt", "Depth", "=", "2", "Dep", "Attr"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 216.95999999999998,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623352-Figure6-1.png"
+}]

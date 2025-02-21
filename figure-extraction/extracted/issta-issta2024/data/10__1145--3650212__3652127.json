@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 1: An example of vulnerability detection in a long-range code sequence.",
+  "captionBoundary": {
+    "x1": 146.82899475097656,
+    "x2": 465.1723327636719,
+    "y1": 421.4450988769531,
+    "y2": 427.07598876953125
+  },
+  "figType": "Figure",
+  "imageText": ["（UniXcoder）", "Snippet", "1", "Reference", "Sensing", "Field", "Snippet", "1", "Contextual", "Continuityreference", "✅", "❌", "Non-vulnerable", "Vulnerable", "EXPO", "Model", "Baseline", "Model", "Sensing", "Field", "cache", "Snippet", "1", "Snippet", "n", "Snippet", "n"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 93.6,
+    "x2": 523.1999999999999,
+    "y1": 100.8,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Figure1-1.png"
+}, {
+  "caption": "Table 3: Performance comparison between the base and EXPO models.",
+  "captionBoundary": {
+    "x1": 163.4530029296875,
+    "x2": 448.2529296875,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder", "Base", "25.29", "39.46", "44.06", "0.299", "17.21", "26.25", "30.41", "0.222", "50.00", "60.16", "50.00", "64.94", "EXPO", "53.55", "70.80", "81.38", "0.671", "62.04", "75.18", "83.02", "0.670", "60.71", "66.67", "62.96", "68.75", "CodeT5", "Base", "22.66", "33.39", "37.75", "0.271", "12.54", "19.02", "21.22", "0.159", "53.70", "53.57", "46.30", "46.28", "EXPO", "64.03", "73.01", "76.39", "0.688", "63.08", "71.88", "74.73", "0.677", "55.36", "66.67", "55.56", "68.42", "CodeGPT", "Base", "13.70", "16.91", "19.93", "0.155", "17.90", "19.69", "21.02", "0.188", "51.79", "68.23", "53.70", "65.87", "EXPO", "48.27", "52.14", "55.14", "0.503", "48.37", "52.35", "55.26", "0.504", "58.93", "70.89", "55.56", "70.73", "CodeBERT", "Base", "22.18", "31.32", "34.68", "0.270", "16.56", "26.10", "29.54", "0.213", "53.57", "51.34", "50.00", "45.82", "EXPO", "59.23", "65.83", "67.66", "0.625", "55.92", "64.86", "68.07", "0.605", "55.35", "61.54", "55.56", "64.71", "RoBERTa", "Base", "21.13", "29.23", "32.41", "0.234", "15.66", "25.47", "29.36", "0.202", "55.36", "54.17", "52.70", "43.44", "EXPO", "54.33", "61.90", "63.92", "0.582", "51.19", "63.20", "68.49", "0.559", "57.14", "71.43", "53.07", "69.88", "Java", "Python", "Java", "Python", "SR@1", "SR@3", "SR@5", "MRR", "SR@1", "SR@3", "SR@5", "MRR", "Acc.", "F1", "Acc.", "F1", "Model", "API", "Recommendation", "Vulnerability", "Detection"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Table3-1.png"
+}, {
+  "caption": "Figure 4: An example of predictions of EXPO (UniXcoder) and the corresponding base model for the API recommendation task.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.202392578125,
+    "y1": 249.0661163330078,
+    "y2": 254.697021484375
+  },
+  "figType": "Figure",
+  "imageText": ["Reference", "Reference", "hint", "hint", "Snippet", "1", "❌", "addEffect", "EXPO", "(UniXcoder)", "toString", "Base", "(UniXcoder)", "hint", "✅", "Bridge", "❌", "addEffect", "EXPO", "(UniXcoder)", "toString", "Base", "(UniXcoder)", "Ground", "Truth", "addEffect", "✅", "Snippet", "n", "Bridge"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 537.12,
+    "y1": 82.56,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The performance of EXPO (UniXcoder) with differing input code lengths for vulnerability detection. The bars and lines indicate the results of EXPO and base models, respectively.",
+  "captionBoundary": {
+    "x1": 53.796993255615234,
+    "x2": 295.6466064453125,
+    "y1": 404.08612060546875,
+    "y2": 442.593994140625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "F1", "EXPO(Java)", "EXPO(Python)", "F1", "length", "75", "—", "Base(Java)", "—", "Base", "(Python)", "70", "65", "60", "512", "1024", "2048", "4096", "55", "(a)", "Accuracy", "EXPO(Java)", "EXPO(Python)", "A", "cc", "length", "70", "—", "Base(Java)", "—", "Base", "(Python)", "65", "60", "55", "512", "1024", "2048", "4096", "50"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 290.4,
+    "y1": 277.44,
+    "y2": 384.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Figure5-1.png"
+}, {
+  "caption": "Table 6: The inference time cost of EXPO (UniXcoder) with varying code lengths for vulnerability detection.",
+  "captionBoundary": {
+    "x1": 317.6579895019531,
+    "x2": 558.205078125,
+    "y1": 274.9691162109375,
+    "y2": 291.5589904785156
+  },
+  "figType": "Table",
+  "imageText": ["Java", "0.018s", "0.037s", "0.053s", "0.082s", "Python", "0.018s", "0.030s", "0.042s", "0.071s", "Code", "Length", "Time", "Cost", "(Per", "Instance)", "512", "1024", "2048", "4096"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 534.24,
+    "y1": 306.24,
+    "y2": 370.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Table6-1.png"
+}, {
+  "caption": "Table 4: Ablation study. “w/o bridge” and “w/o hint” denote removing Brideg Memory and Hint Memory, respectively.",
+  "captionBoundary": {
+    "x1": 70.59500122070312,
+    "x2": 541.109130859375,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder", "EXPO", "53.55", "70.80", "81.38", "0.671", "62.04", "75.18", "83.02", "0.669", "60.71", "66.67", "62.96", "68.75", "w/o", "bridge", "51.85", "67.14", "73.35", "0.632", "61.80", "73.92", "80.64", "0.658", "51.78", "65.66", "53.70", "61.33", "w/o", "hint", "50.27", "65.51", "72.95", "0.611", "58.55", "68.31", "73.65", "0.530", "48.21", "56.71", "53.70", "59.13", "EXPO", "64.03", "73.01", "76.39", "0.688", "63.08", "71.88", "74.73", "0.677", "55.36", "66.67", "55.56", "68.42", "w/o", "bridge", "55.02", "66.78", "71.15", "0.610", "59.60", "69.38", "71.90", "0.645", "53.57", "58.29", "53.70", "61.53", "w/o", "hint", "52.84", "65.98", "68.85", "0.595", "56.65", "65.27", "69.58", "0.610", "50.00", "61.11", "50.00", "66.67", "CodeT5", "CodeGPT", "EXPO", "48.27", "52.14", "55.14", "0.503", "48.37", "52.35", "55.26", "0.504", "58.93", "70.89", "55.56", "70.73", "w/o", "bridge", "41.84", "47.18", "51.99", "0.447", "46.08", "48.41", "53.16", "0.481", "55.35", "69.13", "53.70", "68.87", "w/o", "hint", "40.52", "45.91", "49.83", "0.439", "45.80", "47.87", "50.59", "0.469", "53.57", "69.76", "53.70", "66.66", "CodeBERT", "EXPO", "59.23", "65.83", "67.66", "0.625", "55.92", "64.86", "68.07", "0.605", "55.35", "61.54", "55.56", "64.71", "w/o", "bridge", "57.37", "64.47", "66.19", "0.608", "53.59", "63.10", "66.58", "0.585", "50.00", "54.00", "53.70", "58.35", "w/o", "hint", "54.39", "62.46", "65.04", "0.587", "51.26", "61.40", "64.46", "0.563", "52.35", "52.48", "52.35", "54.54", "w/o", "bridge", "53.08", "59.69", "61.98", "0.553", "49.73", "61.17", "65.96", "0.547", "51.78", "67.46", "52.40", "61.33", "w/o", "hint", "51.66", "58.32", "60.89", "0.547", "47.50", "59.80", "64.59", "0.524", "55.35", "69.13", "51.70", "59.87", "RoBERTa", "EXPO", "54.33", "61.90", "63.92", "0.582", "51.19", "63.20", "68.49", "0.559", "57.14", "71.43", "53.70", "69.88", "Java", "Python", "Java", "Python", "SR@1", "SR@3", "SR@5", "MRR", "SR@1", "SR@3", "SR@5", "MRR", "Acc.", "F1", "Acc.", "F1", "Model", "API", "Recommendation", "Vulnerability", "Detection"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 560.16,
+    "y1": 105.6,
+    "y2": 317.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Table4-1.png"
+}, {
+  "caption": "Table 5: Performance comparison between EXPO and large language models.",
+  "captionBoundary": {
+    "x1": 150.35699462890625,
+    "x2": 461.34783935546875,
+    "y1": 330.55810546875,
+    "y2": 336.1889953613281
+  },
+  "figType": "Table",
+  "imageText": ["EXPO", "(UniXcoder)", "53.55", "70.80", "81.38", "0.671", "62.04", "75.18", "83.02", "0.670", "60.71", "66.67", "62.96", "68.75", "CodeGen", "(7B)", "36.30", "38.10", "41.10", "0.377", "36.80", "37.70", "33.30", "0.346", "17.86", "4.17", "24.07", "12.77", "ChatGLM", "(6B)", "63.90", "65.50", "66.50", "0.647", "58.80", "60.90", "63.00", "0.601", "44.64", "11.43", "38.89", "10.81", "ChatGPT", "(175B)", "51.20", "61.00", "62.70", "0.560", "30.90", "40.70", "43.30", "0.358", "58.92", "51.06", "51.85", "53.57", "GPT3.5", "(175B)", "56.50", "56.80", "57.10", "0.567", "56.90", "57.20", "57.20", "0.570", "51.78", "58.46", "50.50", "50.90", "Java", "Python", "Java", "Python", "SR@1", "SR@3", "SR@5", "MRR", "SR@1", "SR@3", "SR@5", "MRR", "Acc.", "F1", "Acc.", "F1", "Model", "API", "Recommendation", "Vulnerability", "Detection"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 350.88,
+    "y2": 449.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Table5-1.png"
+}, {
+  "caption": "Table 1: The collected code hints, with examples extracted from the source code in Figure 1.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2007446289062,
+    "y1": 314.85009765625,
+    "y2": 331.44000244140625
+  },
+  "figType": "Table",
+  "imageText": ["Description", "for", "code", "segment", "/*", "...", "*/", "Block", "Comment", "Description", "for", "code", "statement", "#", "Check", "index", "Line", "Comment", "Field", "Definition", "Variables", "in", "a", "class", "or", "global", "MAX_ARRAY_SIZE=1024", "Function", "Definition", "Function", "name,", "and", "parameters", "def", "__init__", "Class", "Definition", "Description", "of", "a", "class", "with", "methods", "class", "ArrayHandler", "Import", "Statement", "Modules", "or", "libraries", "to", "include", "import", "numpy", "as", "np", "Hint", "Description", "Example"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 542.4,
+    "y1": 346.56,
+    "y2": 509.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Table1-1.png"
+}, {
+  "caption": "Figure 2: The overview of EXPO.",
+  "captionBoundary": {
+    "x1": 240.37100219726562,
+    "x2": 371.6302185058594,
+    "y1": 288.9471130371094,
+    "y2": 294.5780029296875
+  },
+  "figType": "Figure",
+  "imageText": ["Hint-Aware", "Language", "Model", "(1)", "Bridge", "Memory", "(2)", "Hint", "Memory", "Hint-Aware", "Language", "Model", "…", "Multi-head", "Attention+FFN", "hint", "KNN", "Attention+FFN", "hint", "hint", "Multi-head", "Attention+FFN", "hint", "Keys,", "Values", "Cache", "𝑘NN", "Search", "{Key,", "Value}", "Hint", "Bank", "Pairs", "of", "...", "more", "layers", "...", "Embedding", "Layer", "snippet-level", "recurrent", "import", "statement", "class", "definition", "line", "comment", "block", "comment", "code", "hints", "collection", "…", "…", "Bridge", "Bridge", "Snippet", "N", "Bridge", "Snippet", "2", "Bridge", "Snippet", "1Bridge", "Snippet", "1", "Snippet", "2", "Snippet", "N…", "Hint-Aware", "Language", "Model", "Bridge"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 541.4399999999999,
+    "y1": 84.96,
+    "y2": 273.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Parameter analysis of (a)(b) m and (c)(d) K with EXPO (CodeT5) and EXPO (UniXcoder) for vulnerability detection.",
+  "captionBoundary": {
+    "x1": 56.78900146484375,
+    "x2": 555.2122802734375,
+    "y1": 218.7450714111328,
+    "y2": 224.3759765625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Retrieved", "hint", "number", "of", "UniXcoder", "Java", "Python", "A", "cc", ".", "𝐾", "52", "54", "56", "58", "60", "62", "64", "8", "16", "32", "64", "128", "(c)", "Retrieved", "hint", "number", "of", "CodeT5", "Java", "Python", "A", "cc", ".", "𝐾", "58", "56", "54", "52", "8", "16", "32", "64", "128", "(b)", "Bridge", "token", "number", "of", "UniXcoder", "Java", "Python", "𝑚", "A", "cc", ".", "64", "62", "60", "58", "56", "1", "4", "8", "16", "32", "(a)", "Bridge", "token", "number", "of", "CodeT5", "Java", "Python", "A", "cc", ".", "𝑚", "60", "58", "56", "54", "52", "50", "1", "4", "8", "16", "32"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 556.3199999999999,
+    "y1": 88.32,
+    "y2": 199.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Figure3-1.png"
+}, {
+  "caption": "Table 2: Statistics of the datasets used in this paper. “AR” and “VD” denote the API recommendation task and vulnerability detection task, respectively. “#Files” denotes the number of code files in the dataset. “Avg.” denotes the average code length in the dataset.",
+  "captionBoundary": {
+    "x1": 316.7720031738281,
+    "x2": 558.451416015625,
+    "y1": 85.7260971069336,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Python", "490", "6,975", "-", "-", "54", "6,143", "VD", "Java", "500", "5,485", "-", "-", "56", "5,296", "Python", "26,910", "2,394", "3,364", "1,309", "3,364", "2,766", "AR", "Java", "143,504", "1,689", "17,938", "1,226", "17,938", "2,002", "#Files", "Avg.", "#Files", "Avg.", "#Files", "Avg.", "Task", "Train", "Valid", "Test"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 149.76,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652127-Table2-1.png"
+}]

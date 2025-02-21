@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 2: Number of projects with and without type annotations in each dataset.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7985229492188,
+    "y1": 325.97735595703125,
+    "y2": 342.5660095214844
+  },
+  "figType": "Table",
+  "imageText": ["JavaScript", "TypeScript", "Python", "Typed", "5,256", "9,813", "3,981", "Untyped", "4,631", "122", "5,881"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 363.84,
+    "x2": 511.2,
+    "y1": 283.68,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Table2-1.png"
+}, {
+  "caption": "Figure 2: Cumulative distribution of the number of commits among projects featuring gradually typed code.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03179931640625,
+    "y1": 189.39035034179688,
+    "y2": 205.97998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Language", "Python", "JavaScript", "TypeScript", "tio", "n", "P", "or", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0", "5000", "10000", "15000", "20000", "25000", "30000", "35000", "40000", "Number", "of", "Commits"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 275.52,
+    "y1": 90.24,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Prevalence of type annotations at different levels of granularity in JavaScript, TypeScript, and Python. Only gradually typed projects are accounted for.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.440185546875,
+    "y1": 241.36337280273438,
+    "y2": 268.9110107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Granularity", "files", "functions", "parameters", "(%", ")", "pe", "d", "ly", "ty", "du", "al", "G", "ra", "100", "80", "60", "40", "20", "JavaScript", "TypeScript", "Python", "0"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 339.36,
+    "x2": 537.12,
+    "y1": 88.32,
+    "y2": 224.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Part of the callgraph of jasper7. Unannotated, annotated, and transition functions are colored white, blue, and red, respectively. Annotated and unannotated parts of the code are poorly separated, which introduces many transition functions.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.2839965820312,
+    "y1": 158.57138061523438,
+    "y2": 175.15997314453125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 559.1999999999999,
+    "y1": 84.0,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Figure4-1.png"
+}, {
+  "caption": "Table 3: Probabilities (in %) of all, unannotated, annotated, primitive annotated, and non-primitive annotated parameters to be type checked (𝑃 (𝑇𝐶 (𝑝) | 𝑝 ∈ P)). We distinguish between parameters in typed and untyped projects.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.63848876953125,
+    "y1": 324.15936279296875,
+    "y2": 362.6669921875
+  },
+  "figType": "Table",
+  "imageText": ["𝑃𝐴𝑅𝑛𝑜𝑛𝑝𝑟𝑖𝑚", "avg", "3.04", "-", "3.64", "-", "med", "1.69", "-", "1.2", "-", "𝑃𝐴𝑅𝑝𝑟𝑖𝑚", "avg", "0.72", "-", "0.73", "-", "med", "0.0", "-", "0.0", "-", "𝑃𝐴𝑅𝑎𝑛𝑛", "avg", "2.35", "-", "2.53", "-", "med", "1.33", "-", "0.56", "-", "𝑃𝐴𝑅𝑢𝑛𝑎𝑛𝑛", "avg", "2.74", "2.38", "1.32", "1.39", "med", "1.13", "0.95", "0.72", "0.21", "𝑃𝐴𝑅", "avg", "2.64", "2.38", "1.52", "1.39", "med", "1.71", "0.95", "1.01", "0.21", "JS/TS", "Python", "P", "Typed", "Untyped", "Typed", "Untyped"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 273.12,
+    "y1": 192.95999999999998,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Table3-1.png"
+}, {
+  "caption": "Figure 5: Distributions of annotated parameters in projects without enforcing type checks (a), and number of transition functions (b) and remote flow sinks (c).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1802978515625,
+    "y1": 252.05734252929688,
+    "y2": 268.64697265625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Remote", "flow", "sinks", "Python", "JS/TS", "R", "FS", "175", "150", "125", "100", "75", "50", "25", "0", "Projects", "10", "4", "10", "3", "10", "2", "10", "1", "10", "0", "(b)", "Transition", "functions", "Python", "JS/TS", "ns", "si", "tio", "Tr", "an", "5000", "4000", "3000", "2000", "1000", "0", "Projects", "10", "4", "10", "3", "10", "2", "10", "1", "10", "0", "(a)", "Unenforced", "type", "annotations.", "Python", "JS/TS", "s", "et", "er", "ar", "am", "ed", "P", "ot", "at", "A", "nn", "10", "5", "10", "4", "10", "3", "10", "2", "10", "1", "10", "0", "0", "2000", "4000", "6000", "8000", "10000", "Projects"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 557.28,
+    "y1": 84.96,
+    "y2": 236.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Figure5-1.png"
+}, {
+  "caption": "Table 4: Probabilities (in %) of transition functions and remote flow sinks to be type checked (𝑃 (𝑇𝐶 (𝑓 ) | 𝑓 ∈ F )).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7985229492188,
+    "y1": 368.766357421875,
+    "y2": 385.3559875488281
+  },
+  "figType": "Table",
+  "imageText": ["𝐹𝑈𝑁𝑎𝑛𝑛𝑅𝑓", "𝑠", "avg", "5.32", "2.28", "med", "0", "0", "𝐹𝑈𝑁𝑢𝑛𝑎𝑛𝑛𝑅𝑓", "𝑠", "avg", "6.17", "1.82", "med", "0", "0", "𝐹𝑈𝑁𝑡𝑟𝑎𝑛𝑠", "avg", "7.6", "9.83", "med", "0", "0", "F", "JS/TS", "Python"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 369.59999999999997,
+    "x2": 504.0,
+    "y1": 285.59999999999997,
+    "y2": 357.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Table4-1.png"
+}, {
+  "caption": "Figure 1: Overview of our approach. Blue nodes correspond to the tools used for the individual steps. The remaining nodes represent the intermediary steps of our approach. Green nodes additionally produce data used in the evaluation.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932373046875,
+    "y1": 223.69033813476562,
+    "y2": 262.197998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 82.56,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Figure1-1.png"
+}, {
+  "caption": "Table 1: Code metrics extracted using CodeQL, grouped by the research question they first appear in.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2881774902344,
+    "y1": 269.0453796386719,
+    "y2": 285.635009765625
+  },
+  "figType": "Table",
+  "imageText": ["𝐹𝑢𝑛𝑡𝑟𝑎𝑛𝑠𝑇𝐶", "Transition", "functions", "with", "TC", "𝐹𝑢𝑛𝑎𝑛𝑛𝑅𝑓", "𝑠", "Annotated", "remote", "flow", "sinks", "𝐹𝑢𝑛𝑎𝑛𝑛𝑅𝑓", "𝑠𝑇𝐶", "Annotated", "remote", "flow", "sinks", "with", "TC", "𝐹𝑢𝑛𝑢𝑛𝑎𝑛𝑛𝑅𝑓", "𝑠", "Unannotated", "remote", "flow", "sinks", "𝐹𝑢𝑛𝑢𝑛𝑎𝑛𝑛𝑅𝑓", "𝑠𝑇𝐶", "Unannotated", "remote", "flow", "sinks", "with", "TC", "𝑃𝑎𝑟𝑢𝑛𝑎𝑛𝑛𝑇𝐶", "Unannotated", "parameters", "with", "TC", "𝑃𝑎𝑟𝑢𝑛𝑎𝑛𝑛𝑀𝑢𝑙𝑡𝑇𝐶", "Unannotated", "parameters", "with", "multiple", "TCs", "𝑃𝑎𝑟𝑎𝑛𝑛𝑇𝐶", "Annotated", "parameters", "with", "TC", "𝑃𝑎𝑟𝑎𝑛𝑛𝑀𝑢𝑙𝑡𝑇𝐶", "Annotated", "parameters", "with", "multiple", "TCs", "𝑃𝑎𝑟𝑝𝑟𝑖𝑚", "Parameters", "with", "primitive", "annotation", "𝑃𝑎𝑟𝑝𝑟𝑖𝑚𝑇𝐶", "Parameters", "with", "primitive", "annotation", "and", "TC", "𝑃𝑎𝑟𝑒𝑛𝑓", "𝑇𝐶", "Annotated", "parameters", "with", "enforcing", "TC", "𝐹𝑖𝑙𝑒𝑡𝑜𝑡𝑎𝑙", "Files", "in", "the", "project", "𝐹𝑖𝑙𝑒𝑎𝑛𝑛", "Files", "with", "at", "least", "one", "annotated", "function", "𝐹𝑢𝑛𝑡𝑜𝑡𝑎𝑙", "Functions", "in", "the", "project", "𝐹𝑢𝑛𝑎𝑛𝑛", "Functions", "with", "at", "least", "one", "annotated", "parameter", "𝐹𝑢𝑛𝑡𝑟𝑎𝑛𝑠", "Transition", "functions", "𝑃𝑎𝑟𝑡𝑜𝑡𝑎𝑙", "Total", "number", "of", "parameters", "𝑃𝑎𝑟𝑎𝑛𝑛", "Annotated", "parameters", "𝑃𝑎𝑟𝑎𝑛𝑦", "Parameters", "annotated", "with", "any", "Metric", "Explanation"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 82.56,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695549-Table1-1.png"
+}]

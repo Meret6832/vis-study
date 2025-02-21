@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 4: The lattice for two operations.",
+  "captionBoundary": {
+    "x1": 357.9779968261719,
+    "x2": 518.1734619140625,
+    "y1": 208.44686889648438,
+    "y2": 210.5269775390625
+  },
+  "figType": "Figure",
+  "imageText": ["⟨𝑚𝑜𝑣𝑒,𝑚𝑜𝑣𝑒⟩", "⟨&𝑚𝑢𝑡,𝑚𝑜𝑣𝑒⟩", "⟨𝑚𝑜𝑣𝑒,&𝑚𝑢𝑡⟩", "⟨&,𝑚𝑜𝑣𝑒⟩", "⟨&𝑚𝑢𝑡,&𝑚𝑢𝑡⟩", "⟨𝑚𝑜𝑣𝑒,&⟩", "⟨𝑐𝑙𝑜𝑛𝑒,𝑚𝑜𝑣𝑒⟩", "⟨&,&𝑚𝑢𝑡⟩", "⟨&𝑚𝑢𝑡,&⟩", "⟨𝑚𝑜𝑣𝑒,", "𝑐𝑙𝑜𝑛𝑒⟩", "⟨𝑐𝑙𝑜𝑛𝑒,&𝑚𝑢𝑡⟩", "⟨&,&⟩", "⟨&𝑚𝑢𝑡,", "𝑐𝑙𝑜𝑛𝑒⟩", "⟨𝑐𝑙𝑜𝑛𝑒,&⟩", "⟨&,", "𝑐𝑙𝑜𝑛𝑒⟩", "⟨𝑐𝑙𝑜𝑛𝑒,", "𝑐𝑙𝑜𝑛𝑒⟩"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 555.36,
+    "y1": 85.92,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639103-Figure4-1.png"
+}, {
+  "caption": "Table 5: Patch size distribution.",
+  "captionBoundary": {
+    "x1": 110.44000244140625,
+    "x2": 237.1026611328125,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["5", "DISCUSSION", "Answer", "to", "Comparison", "with", "Experts:", "rust-lancet", "patches", "a", "comparable", "number", "of", "violations", "with", "similar", "patch", "sizes", "as", "Rust", "experts,", "but", "it", "is", "25", "times", "faster", "than", "the", "Rust", "experts.", "rust-lancet-K4", "26", "64", "5", "1", "6", "102", "2.25", "Expert#1", "55", "54", "15", "8", "11", "143", "2.20", "Expert#2", "50", "69", "12", "9", "13", "153", "2.33", "Expert#3", "58", "21", "10", "5", "8", "102", "2.13", "1", "2", "3", "4", ">4", "Patch", "Size", "Sum", "Average"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639103-Table5-1.png"
+}, {
+  "caption": "Figure 5: Themove and assignment reduction rules inmental semantics. (𝑆 : the memory state before and after an operation if the operation does not alter the state; 𝑆1 and 𝑆2: the memory state before and after an operation; 𝑜 , 𝑜1, and 𝑜2: the owners of values 𝑣 , 𝑣1, and 𝑣2. )",
+  "captionBoundary": {
+    "x1": 53.79759216308594,
+    "x2": 294.04266357421875,
+    "y1": 138.13491821289062,
+    "y2": 185.39495849609375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Assignment", "𝑆2", "=", "𝑤𝑟𝑖𝑡𝑒", "(𝑆1,", "𝑜1,", "𝑜2)", "𝑆1", "▷", "𝑜1", "=", "𝑜2", "−→", "𝑆2", "▷", "𝜖", "(a)", "Move", "𝑆", "▷", "𝑜", "−→", "𝑆", "▷", "ℓ𝑤", "𝑙𝑜𝑐", "(𝑆,", "𝑣)", "=", "ℓ𝑣"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 281.28,
+    "y1": 83.52,
+    "y2": 119.03999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639103-Figure5-1.png"
+}, {
+  "caption": "Figure 6: BP instrumentation for Figure 3d and the symbolic",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1888427734375,
+    "y1": 277.2228698730469,
+    "y2": 279.302978515625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "//", "___tmp1", "->", "into_iter(vec)}", "11", "___tmp1.next();", "12", "//", "𝜎", "=", "{val", "->", "C(vec),", "___tmp0", "->", "vec,", "c1", "->", "vec,", "13", "//", "___tmp1", "->", "into_iter(vec)}", "14", "+", "let", "c2", "=", "___tmp0;", "15", "//", "𝜎", "=", "{val", "->", "C(vec),", "___tmp0", "->", "vec,", "c1", "->", "vec,", "16", "//", "___tmp1", "->", "into_iter(vec),", "c2", "->", "vec}", "17", "+", "assert(c1", "==", "c2);", "18", "//", "true", "19", "}", "1", "struct", "C(Vec<bool>);", "2", "fn", "move_out(val:", "C)", "{", "3", "//", "𝜎", "=", "{val", "->", "C(vec)}", "4", "let", "mut", "___tmp0", "=", "val.0;", "5", "//", "𝜎", "=", "{val", "->", "C(vec),", "___tmp0", "->", "vec}", "6", "+", "let", "c1", "=", "___tmp0;", "7", "//", "𝜎", "=", "{val", "->", "C(vec),", "___tmp0", "->", "vec,", "c1", "->", "vec}", "8", "let", "mut", "___tmp1", "=", "___tmp0.into_iter();", "9", "//", "𝜎", "=", "{val", "->", "C(vec),", "___tmp0", "->", "vec,", "c1", "->", "vec,"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 312.0,
+    "x2": 509.76,
+    "y1": 88.32,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639103-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Workflow of rust-lancet.",
+  "captionBoundary": {
+    "x1": 364.2090148925781,
+    "x2": 511.9478454589844,
+    "y1": 265.456787109375,
+    "y2": 267.5369873046875
+  },
+  "figType": "Figure",
+  "imageText": ["Error", "MsgCode", "Error", "MsgCode", "Error", "MsgCode", "Error", "Msg", "5", "1", "4", "3", "2", "Success", "Yes", "Code", "NoRevert", "Patch", "Yes", "Compiled", "?", "YesNo", "Semantics", "Preserved?", "Output", "Input", "Verify", "Verify", "Verify", "Fault", "Code", "Rust", "In", "ANF", "Verification", "details", "Fail", "Over", "K?No", "Weaken", "Fixing", "loop", "Reorder", "Owner", "Lookup"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 548.16,
+    "y1": 84.96,
+    "y2": 243.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639103-Figure2-1.png"
+}, {
+  "caption": "Figure 3: How rust-lancet repairs a real-world code snippet. Figures (c), (e), and (g) show the compiler error messages of the",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.186279296875,
+    "y1": 390.5008850097656,
+    "y2": 392.58099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["(i)", "The", "patched", "program.", "1", "struct", "Container(Vec<bool>);", "2", "fn", "move_out(val:", "Container)", "{", "3", "&mut", "val.0;", "4", "val.0.into_iter().next();", "5", "}", "6", "7", "8", "9", "(h)", "HowWKNmodifies", "Figure", "3f.", "6", "let", "mut", "___tmp1", "=", "___tmp0.into_iter();", "7", "___tmp1.next();", "8", "}", "5", "+", "&mut", "___tmp0;", "4", "-", "___tmp0;", "1", "struct", "Container(Vec<bool>);", "2", "fn", "move_out(val:", "Container)", "{", "3", "let", "mut", "___tmp0", "=", "val.0;", "(g)", "Error", "message", "of", "Figure", "3f.", "|", "^^^^^^^", "value", "used", "|", "here", "after", "move", "|", "let", "mut", "___tmp1", "=", "___tmp0.into_iter();", "|", "-------", "value", "moved", "here", "|", "___tmp0;", "error[E0382]:", "use", "of", "moved", "value:", "`___tmp0`", "|", "let", "mut", "___tmp0", "=", "val.0;", "|", "-----------", "move", "occurs", "...", "(f)", "How", "REO", "modifies", "Figure", "3d.", "8", "}", "7", "-", "___tmp0;", "5", "let", "mut", "___tmp1", "=", "___tmp0.into_iter();", "6", "___tmp1.next();", "4", "+", "___tmp0;", "1", "struct", "Container(Vec<bool>);", "2", "fn", "move_out(val:", "Container)", "{", "3", "let", "mut", "___tmp0", "=", "val.0;", "(e)", "Error", "message", "of", "Figure", "3d.", "|", "^^^^^^^", "value", "used", "here", "after", "move", "|", "___tmp0;", "|", "___tmp1.next();", "`___tmp0`", "moved", "due", "to", "...", "|", "^^^^^^^^^^^^^^^^^^^^^^^", "|", "let", "mut", "___tmp1", "=", "___tmp0.into_iter();", "error[E0382]:", "use", "of", "moved", "value:", "`___tmp0`", "|", "let", "mut", "___tmp0", "=", "val.0;", "(d)", "How", "OL", "modifies", "Figure", "3b.", "8", "}", "7", "+", "___tmp0;", "6", "-", "val.0;", "1", "struct", "Container(Vec<bool>);", "2", "fn", "move_out(val:", "Container)", "{", "3", "let", "mut", "___tmp0", "=", "val.0;", "4", "let", "mut", "___tmp1", "=", "___tmp0.into_iter();", "5", "___tmp1.next();", "(c)", "Error", "messages", "of", "Figure", "3b.", "|", "^^^^^", "value", "used", "here", "after", "move", "|", "val.0;", "|", "-----", "value", "moved", "here", "|", "...", "|", "let", "mut", "___tmp0", "=", "val.0", ";", "error[E0382]:", "use", "of", "moved", "value:", "`val.0`", "(b)", "The", "code", "snippet", "in", "ANF.", "1", "struct", "Container(Vec<bool>);", "2", "fn", "move_out(val:", "Container)", "{", "3", "let", "mut", "___tmp0", "=", "val.0;", "4", "let", "mut", "___tmp1", "=", "___tmp0.into_iter();", "5", "___tmp1.next();", "6", "val.0;", "7", "}", "(a)", "A", "real-world", "code", "snippet.", "1", "struct", "Container(Vec<bool>);", "2", "fn", "move_out(val:", "Container)", "{", "3", "val.0.into_iter().next();", "4", "val.0;", "5", "}", "6", "7"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 558.24,
+    "y1": 88.32,
+    "y2": 371.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639103-Figure3-1.png"
+}, {
+  "caption": "Figure 7: A patch example rejected by BP validation.",
+  "captionBoundary": {
+    "x1": 332.4100036621094,
+    "x2": 543.7384643554688,
+    "y1": 179.02987670898438,
+    "y2": 181.1099853515625
+  },
+  "figType": "Figure",
+  "imageText": ["6", "-", "println!(\"{:?}\",", "a);", "5", "foo.fun(1);", "4", "for", "i", "in", "v", "{", "a.push(i);}});", "3", "let", "mut", "foo", "=", "Foo::new(move", "|v|", "{", "2", "+", "println!(\"{:?}\",", "a);", "1", "let", "mut", "a", "=", "Vec::new();"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 315.36,
+    "x2": 559.1999999999999,
+    "y1": 86.88,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639103-Figure7-1.png"
+}]

@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 2: The Dataset Statistics",
+  "captionBoundary": {
+    "x1": 113.6500015258789,
+    "x2": 233.8984375,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Passed", "Builds", "23,912", "Failed", "Builds", "5,159", "Sum", "of", "Changed", "Files", "1,085,358", "Average", "Changed", "Files", "of", "Per", "Build", "37.33", "Sum", "of", "Added", "Lines", "53,141,763", "Average", "Added", "Lines", "of", "Per", "Build", "1828.0", "Sum", "of", "Deleted", "Lines", "30,966,137", "Average", "Deleted", "Lines", "of", "Per", "Build", "1065.2", "Statistics", "Number"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 268.32,
+    "y1": 105.6,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680356-Table2-1.png"
+}, {
+  "caption": "Figure 1: Commit 𝑑85𝑏7𝑏𝑐 in Closure.",
+  "captionBoundary": {
+    "x1": 99.29000091552734,
+    "x2": 248.5530548095703,
+    "y1": 312.44110107421875,
+    "y2": 318.0719909667969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680356-Figure1-1.png"
+}, {
+  "caption": "Table 3: Performance comparison of different approaches.",
+  "captionBoundary": {
+    "x1": 188.19500732421875,
+    "x2": 423.5093078613281,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["SmartBuildSkip", "0.498", "0.486", "0.523", "0.902", "0.907", "0.896", "0.805", "0.002", "BuildFast", "0.294", "0.386", "0.272", "0.919", "0.915", "0.927", "0.811", "0.012", "HYBRIDCISAVE", "0.195", "0.131", "0.385", "0.933", "0.973", "0.896", "0.826", "0.001", "MOGP", "0.143", "0.134", "0.154", "0.908", "0.915", "0.901", "0.793", "0.271", "TF", "0.068", "0.112", "0.049", "0.881", "0.839", "0.922", "0.753", "0.002", "Longformer", "0.054", "0.173", "0.032", "0.880", "0.810", "0.961", "0.776", "0.092", "ChatGPT𝑎𝑙𝑙", "0.003", "0.105", "0.002", "0.913", "0.842", "0.997", "0.810", "1.910", "ChatGPT𝑡𝑒𝑥𝑡", "0.062", "0.115", "0.042", "0.887", "0.840", "0.940", "0.761", "1.910", "GitSense", "0.661", "0.602", "0.733", "0.928", "0.948", "0.909", "0.865", "0.017", "Approach", "F1-score𝑓", "Precision𝑓", "Recall𝑓", "F1-score𝑝", "Precision𝑝", "Recall𝑝", "Gain", "Prediction", "Time(sec)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 531.36,
+    "y1": 105.6,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680356-Table3-1.png"
+}, {
+  "caption": "Table 1: The Important Statistical Features",
+  "captionBoundary": {
+    "x1": 219.79299926757812,
+    "x2": 391.9120178222656,
+    "y1": 408.6471252441406,
+    "y2": 414.27801513671875
+  },
+  "figType": "Table",
+  "imageText": ["pr_duration", "overall", "time", "duration", "of", "the", "build", "is_master", "whether", "the", "build", "occurs", "on", "master", "branch", "by_core_member", "whether", "a", "core", "member", "triggers", "the", "build", "line_added", "the", "number", "of", "added", "lines", "in", "all", "files", "consec_fail_builds_sum", "the", "sum", "of", "consecutive", "broken", "builds", "line_deleted", "the", "number", "of", "deleted", "lines", "in", "all", "files", "file_fail_prob_max", "the", "maximum", "of", "the", "probability", "of", "each", "changed", "file", "involved", "in", "previous", "broken", "builds", "commits", "the", "number", "of", "commits", "included", "last_fail_gap_avg", "builds", "since", "the", "last", "broken", "build", "is", "classchange", "the", "number", "of", "classes", "modified,", "added", "or", "deleted", "prev_srcchurn", "lines", "of", "production", "code", "changed", "of", "previous", "build", "deletemethod", "the", "number", "of", "methods", "deleted", "commits_on_files", "commits", "on", "the", "files", "in", "last", "3", "months", "test_ast_diff", "whether", "test", "code", "is", "changed", "in", "AST", "pr_tests_ok", "the", "number", "of", "tests", "passed", "deletefieldchange", "the", "number", "of", "fields", "deleted", "file_fail_prob_sum", "sum", "of", "the", "probability", "of", "each", "changed", "file", "involved", "in", "previous", "broken", "builds", "merge_commits", "the", "number", "of", "merge", "commits", "included", "fail_ratio_com_re", "broken", "builds", "in", "recent", "5", "builds", "that", "were", "triggered", "by", "the", "current", "committer", "src_churn", "the", "number", "of", "lines", "of", "production", "code", "changed", "pr_src_files", "production", "files", "changed", "between", "the", "latest", "passed", "build", "and", "the", "previous", "build", "gh_team_size", "the", "size", "of", "team", "contributing", "in", "last", "3", "months", "fieldchange", "fields", "modified,", "added", "or", "deleted", "files_added", "the", "number", "of", "files", "added", "log_src_files_in", "size", "of", "the", "intersection", "of", "log_src_files", "and", "src_files", "log_src_files", "the", "number", "of", "production", "files", "reported", "in", "the", "build", "log", "of", "the", "previous", "build", "pr_test_exception", "whether", "tests", "throw", "exceptions", "add_import", "the", "number", "of", "import", "statements", "added", "last_label", "last", "build", "result", "src_files", "the", "production", "files", "changed", "fail_ratio_pr", "the", "ratio", "of", "broken", "builds", "in", "all", "the", "previous", "builds", "methodbody", "the", "number", "of", "method", "bodies", "modified", "Feature", "Description", "Feature", "Description"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 428.64,
+    "y2": 554.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680356-Table1-1.png"
+}, {
+  "caption": "Figure 2: The Detailed Process of GitSense.",
+  "captionBoundary": {
+    "x1": 219.78799438476562,
+    "x2": 392.21197509765625,
+    "y1": 385.7331237792969,
+    "y2": 391.364013671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680356-Figure2-1.png"
+}, {
+  "caption": "Table 4: The ablation test on GitSense, where GitSense denotes the origin mode of our approach.",
+  "captionBoundary": {
+    "x1": 111.30401611328125,
+    "x2": 500.40118408203125,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GitSense𝑊", "/𝑂𝑓", "𝑒𝑎𝑡𝑢𝑟𝑒", "0.606", "0.530", "0.706", "0.911", "0.941", "0.883", "0.828", "GitSense𝑊", "/𝑂𝑡𝑒𝑥𝑡", "0.627", "0.634", "0.621", "0.931", "0.930", "0.932", "0.862", "GitSense𝑊", "/𝑂𝑤𝑖𝑛𝑑𝑜𝑤", "0.610", "0.596", "0.626", "0.925", "0.929", "0.921", "0.851", "GitSense", "0.661", "0.602", "0.733", "0.928", "0.948", "0.909", "0.865", "Approach", "F1-score𝑓", "Precision𝑓", "Recall𝑓", "F1-score𝑝", "Precision𝑝", "Recall𝑝", "Gain"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 116.64,
+    "x2": 495.35999999999996,
+    "y1": 105.6,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680356-Table4-1.png"
+}]

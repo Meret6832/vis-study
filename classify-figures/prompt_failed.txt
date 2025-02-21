@@ -1,0 +1,13 @@
+Please classify all of the following <INSERT IMAGE NUMBER> images by giving the following information for each image:
+Give as the type of image D if it is a data visualization (any visualization representing collections of data, e.g. bar chart, line chart, scatter plot), P if it is a process visualization (e.g. screenshot, code snippet, flowchart) or T if it is a table.
+If the image is a data visualization,also classify the type of chart, dimensionality, multiplicity, and number of panels. Do not do this if it is a table or process visualization.
+Determine the type according to the taxonomy defined in What Makes a Visualization Memorable? (Borkin et al. 2013). It is given here as a dictionary {category:{subcategory:[subsubcategories]}}. Please give for each visualization of data the category,subcategory and subsubcategory.
+Taxonomy (Borkin et al. 2013):
+<INSERT TAXONOMY>
+Watch out to classify Scatter Plots with a Trend Line as Point,Scatter Plot,Trend Line and NOT as Line,Line Graph,Line Graph!
+Give the dimensionality as the dimensionality of the chart,so e.g. 2 for 2D or 3 for 3D.
+Determine the multiplicity according to the multiplicity categories defined in What Makes a Visualization Memorable? (Borkin et al. 2013). It is given here as a dictionary {category:[subcategories]}. Please give for each visualization of data the subcategory.
+Multiplicity categories (Borkin et al. 2013) (Multiplicity does not include the legend):
+{Single:[Single],Multiple:[Combination,Grouped,Multipanel]}
+"Multiple" is not a valid category, only its subcategories are. If it is multipanel, give the number of panels. Set this to 1 if it is not. If it is a Combination or Multipanel, give a separate response for each chart type, separated by a newline.
+Give the response as "imageNumber. type of image,category of chart,subcategory of chart,subsubcategory of chart,dimensionality,multiplicity,numberOfPanels",e.g. "1. D,Grid / Matrix,Line,Line Graph,2,Grouped,1" or "2. P,,,,,," and "3. D,Bar,Bar Chart,Stacked Bar Chart,2,Multipanel,2\nD,Distribution,Box-And-Whisker Plot,Box-And-Whisker Plot,2,Multipanel,2".

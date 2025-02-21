@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 6. Operation a er measurement example (le ) and its analysis (right).",
+  "captionBoundary": {
+    "x1": 105.34400939941406,
+    "x2": 380.65716552734375,
+    "y1": 155.73184204101562,
+    "y2": 159.9639892578125
+  },
+  "figType": "Figure",
+  "imageText": ["on", "qubit", "\"", "+", "q", "1", "from", "Measurement", "m,", "Gate", "g,", "int", "q", "2", "where", "3", "mayFollowDirectly(m,", "g,", "q)", "4", "and", "not", "g.isConditional", "()", "5", "select", "gate", ",", "\"Gate", "after", "measurement", "1", "qc", "=", "QuantumCircuit", "(2,", "2)", "2", "qc.h(1)", "3", "qc.cx(1,", "0)", "4", "qc.measure(0,", "0)", "5", "qc.measure(1,", "1)", "6", "qc.z(0)", "#", "Problem:", "Qubit", "0", "has", "collapsed", "7", "qc.measure(0,", "0)"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 427.2,
+    "y1": 87.84,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Measure all abuse example (le ) and its analysis (right).",
+  "captionBoundary": {
+    "x1": 126.98899841308594,
+    "x2": 359.0119934082031,
+    "y1": 257.1538391113281,
+    "y2": 261.385986328125
+  },
+  "figType": "Figure",
+  "imageText": ["register\"", "1", "from", "2", "QuantumCircuit", "c,", "MeasurementAll", "m", "3", "where", "c", "=", "m.getQuantumCircuit", "()", "and", "4", "c.getNumberOfClassicalBits", "()", ">", "0", "5", "and", "m.createsNewRegister", "()", "6", "select", "m,", "\"measure_all", "()", "with", "classical", "5", "qc.measure_all", "()", "6", "job", "=", "execute(qc,backend", ",shots", "=1000)", "7", "result", "=", "job.result", "().get_counts(qc)", "8", "#", "output:", "{'00", "00':", "487,", "'11", "00':", "513}", "classical", "register", "1", "qc", "=", "QuantumCircuit", "(2,", "2)", "2", "qc.h(q[0])", "3", "qc.cx(q[0],", "q[1])", "4", "#", "Problem:", "Implicitly", "creates", "a", "new"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 427.2,
+    "y1": 173.76,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure7-1.png"
+}, {
+  "caption": "Table 2. Examples of true positives. The ID refers to the supplementary material.",
+  "captionBoundary": {
+    "x1": 94.01919555664062,
+    "x2": 391.7393798828125,
+    "y1": 79.61771392822266,
+    "y2": 83.849853515625
+  },
+  "figType": "Table",
+  "imageText": ["10", "OpAfterTransp", "Measure", "gate", "added", "after", "transpilation", "(Grover’s", "algor.)", "Silent", "Reported", "11", "MeasAllAbuse", "Measurement", "creates", "overly", "long", "output", "(Bell", "pair)", "LongOut", "Reported", "12", "MeasAllAbuse", "Measurement", "creates", "overly", "long", "output", "(GHZ", "algor.)", "LongOut", "Reported", "13", "MeasAllAbuse", "Measurement", "creates", "overly", "long", "output", "LongOut", "Reported", "14", "GhostCompose", "Missing", "insertion", "of", "the", "inverse", "QFT", "(Shor’s", "algor.)", "Silent", "Reported", "15", "MeasAllAbuse", "Measurement", "creates", "overly", "long", "output", "(CTF", "competition)", "Silent", "Not", "Fix", "1", "DoubleMeas", "Redundant", "measurement", "Silent", "Fixed", "2", "GhostCompose", "Missing", "compose", "assignment", "in", "a", "test", "case", "Silent", "Fixed", "3", "GhostCompose", "Missing", "compose", "assignment", "in", "a", "test", "case", "Silent", "Fixed", "4", "GhostCompose", "Missing", "compose", "assignment", "in", "a", "test", "case", "Silent", "Fixed", "5", "MeasAllAbuse", "Measurement", "creates", "overly", "long", "output", "Silent", "Fixed", "6", "MeasAllAbuse", "Measurement", "creates", "overly", "long", "output", "Silent", "Conﬁrmed", "7", "OpAfterMeas", "Non", "idiomatic", "teleportation,", "lack", "of", "c_if", "Silent", "Conﬁrmed", "8", "InsuﬀClasReg", "Unused", "qubit", "Silent", "Reported", "9", "OpAfterTransp", "Measure", "gate", "added", "after", "transpilation", "Silent", "Reported", "ID", "Analysis", "Description", "Manifestation", "Status"],
+  "name": "2",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 443.03999999999996,
+    "y1": 89.75999999999999,
+    "y2": 277.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Example of a quantum program with two bugs.",
+  "captionBoundary": {
+    "x1": 142.89999389648438,
+    "x2": 343.1007385253906,
+    "y1": 211.12484741210938,
+    "y2": 215.35699462890625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "circ.ry(0.9,", "qreg", "[0])", "#", "Bug", "2:", "Operation", "after", "measurement", "11", "circ.measure", "([0,", "1,", "2],", "creg)", "12", "#", "Execute", "the", "circuit", "on", "a", "simulator", "13", "backend_sim", "=", "Aer.get_backend(\"qasm_simulator\")", "14", "results", "=", "backend_sim.run(transpile(circ", ",", "backend_sim),", "shots", "=1024).result", "()", "1", "#", "Create", "a", "quantum", "registers", "and", "a", "classical", "register", "2", "qreg", "=", "QuantumRegister", "(4)", "3", "creg", "=", "ClassicalRegister", "(3)", "4", "#", "Create", "a", "quantum", "circuit", "5", "circ", "=", "QuantumCircuit(qreg", ",", "creg)", "#", "Bug", "1:", "Oversized", "circuit", "6", "#", "Add", "gates", "and", "measurements", "to", "the", "circuit", "7", "for", "i", "in", "range", "(3):", "8", "circ.h(i)", "9", "circ.measure(qreg[0],", "creg", "[0])"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 427.2,
+    "y1": 87.84,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. Redundant measurement example (le ) and its analysis (right).",
+  "captionBoundary": {
+    "x1": 113.49400329589844,
+    "x2": 372.5060119628906,
+    "y1": 147.76187133789062,
+    "y2": 151.9940185546875
+  },
+  "figType": "Figure",
+  "imageText": ["qubit\"", "1", "from", "Measurement", "m1,", "Measurement", "m2,", "int", "q", "2", "where", "mayFollowDirectly(m1,", "m2,", "q)", "3", "select", "m2,", "\"Redundant", "measurement", "on", "the", "same", "1", "circuit", "=", "QuantumCircuit", "(3,", "3)", "2", "circuit.ccx(0,", "1,", "2)", "3", "circuit.measure(0,", "0)", "4", "circuit.measure(2,", "2)", "5", "#", "Problem:", "Qubit", "0", "already", "measured", "6", "circuit.measure(0,", "1)"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 427.2,
+    "y1": 87.84,
+    "y2": 137.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure5-1.png"
+}, {
+  "caption": "Fig. 9. Frequency of most popular gates in our dataset. OldIdenGate",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 238.1407012939453,
+    "y1": 219.3658447265625,
+    "y2": 234.55599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["QuantumDataFlow", "Measurement", "Register", "TranspiledCircuit", "SubcircuitComposition", "Gate", "QuantumCircuit", "Backend"],
+  "name": "9",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 238.07999999999998,
+    "x2": 440.64,
+    "y1": 92.64,
+    "y2": 234.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure9-1.png"
+}, {
+  "caption": "Fig. 10. Mapping between analyses (le ) and the abstraction families they use (right).",
+  "captionBoundary": {
+    "x1": 183.8509979248047,
+    "x2": 440.168701171875,
+    "y1": 219.3658447265625,
+    "y2": 234.55599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["to", "r", "p", "e", "ra", "m", "O", "rz", "rx", "cz", "swap", "Q", "u", "a", "n", "tu", "ry", "ccx", "cx", "measure", "x", "h", "Number", "of", "occurrences", "in", "the", "entire", "dataset", "0", "5000", "10000", "15000"],
+  "name": "10",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 184.32,
+    "y1": 97.92,
+    "y2": 234.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure10-1.png"
+}, {
+  "caption": "Fig. 3. Overview of LintQ.",
+  "captionBoundary": {
+    "x1": 295.5920104980469,
+    "x2": 392.1145935058594,
+    "y1": 195.49588012695312,
+    "y2": 199.72802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Q", "Li", "nt", "3", "2", "1", "Programming", "problem(s)", "control-flow", "and", "data-flow", "Analyses", "for", "specific", "programming", "problems", "quantum", "abstractions", "LintQ-core", "CodeQL", "library", "for", "Python", "Quantum", "program(s)"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 262.56,
+    "x2": 425.28,
+    "y1": 100.8,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure3-1.png"
+}, {
+  "caption": "Fig. 8. Analysis to detect oversized circuits (see Figure 1 for an example).",
+  "captionBoundary": {
+    "x1": 109.0780029296875,
+    "x2": 376.9223937988281,
+    "y1": 251.37384033203125,
+    "y2": 255.60598754882812
+  },
+  "figType": "Figure",
+  "imageText": ["16", "//", "there", "are", "no", "unknown", "quantum", "operators", "17", "not", "exists(UnknownQuantumOperator", "unkOp", "|", "unkOp.getQuantumCircuit", "()", "=", "circ)", "18", "select", "circ", ",", "\"Circuit", "has", "unused", "qubits\"", "hasKnownSize", "())", "and", "10", "//", "the", "circuit", "has", "no", "(unknown)", "sub-circuits", "11", "not", "exists(SubCircuit", "sub", "|", "sub.getAParentCircuit", "()", "=", "circ)", "and", "12", "//", "there", "is", "no", "initialize", "op,", "because", "it", "can", "potentially", "touch", "all", "qubits", "13", "not", "exists(Initialize", "init", "|", "init.getQuantumCircuit", "()", "=", "circ)", "and", "14", "//", "all", "its", "registers", "have", "well-known", "size", "15", "not", "exists(QuantumRegisterV2", "reg", "|", "reg", "=", "circ.getAQuantumRegister", "()", "and", "not", "reg.", "1", "from", "QuantumCircuitConstructor", "circ", ",", "int", "numQubits", "2", "where", "3", "//", "the", "circuit", "has", "a", "number", "of", "qubits", "4", "numQubits", "=", "circ.getNumberOfQubits", "()", "and", "numQubits", ">", "0", "and", "5", "//", "there", "is", "one", "qubit", "position", "not", "accessed", "by", "any", "gate", "6", "not", "exists(QubitUse", "bu,", "int", "i", "|", "i", "in", "[0", "..", "numQubits", "-", "1]", "|", "7", "bu.getAnAbsoluteIndex", "()", "=", "i", "and", "8", "bu.getAGate", "().getQuantumCircuit", "()", "=", "circ", "9", ")", "and"],
+  "name": "8",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 427.2,
+    "y1": 87.84,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure8-1.png"
+}, {
+  "caption": "Table 1. Analyses for finding quantum programming problems.",
+  "captionBoundary": {
+    "x1": 126.27110290527344,
+    "x2": 359.4866027832031,
+    "y1": 79.61771392822266,
+    "y2": 83.849853515625
+  },
+  "figType": "Table",
+  "imageText": ["GhostCompose", "Composing", "two", "circuits", "without", "using", "the", "resulting", "composed", "circuit.", "[19]", "OpAfterOpt", "A", "gate", "is", "added", "after", "transpilation.", "[3]", "OldIdenGate", "Using", "a", "now-removed", "API", "to", "create", "an", "identity", "gate.", "[54]", "Implicit", "API", "constraints:", "InsuﬀClasReg", "Classical", "bits", "do", "not", "suﬃce", "to", "measure", "all", "qubits.", "[55]", "OversizedCircuit", "The", "quantum", "register", "contains", "unused", "qubits.", "[45]", "Resource", "allocation", "problems:", "CondWoMeas", "Conditional", "gate", "without", "measurement", "of", "the", "associated", "register.", "[30]", "ConstClasBit", "A", "qubit", "is", "measured", "but", "has", "not", "been", "transformed.", "[30]", "[55]", "another", "classical", "register", "already", "exists.", "DoubleMeas", "Two", "measurements", "measure", "the", "same", "qubit", "state", "one", "after", "the", "other.", "[55]", "OpAfterMeas", "A", "gate", "operates", "on", "a", "qubit", "after", "it", "has", "been", "measured.", "[55]", "MeasAllAbuse", "Measurement", "results", "are", "stored", "in", "an", "implicitly", "created", "new", "register,", "even", "though", "Measurement-related", "and", "gate-related", "problems:", "Analysis", "name", "Description", "Origin"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 89.75999999999999,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Table1-1.png"
+}, {
+  "caption": "Fig. 4. Examples of LintQ’s abstractions and how they are represented in the program and the circuit.",
+  "captionBoundary": {
+    "x1": 55.330101013183594,
+    "x2": 430.6720886230469,
+    "y1": 263.27984619140625,
+    "y2": 267.5119934082031
+  },
+  "figType": "Figure",
+  "imageText": ["■", "QuantumCircuit", "■", "ClassicalRegister", "■", "Measurement", "■", "QubitUse", "■", "Gate", "■", "SubCircuit", "■", "QuantumRegister", "Examples", "of", "abstractions:", "10qc_sub.cx(0,", "1)", "11", "qc", "=", "qc.compose(qc_sub)", "12", "qc.h(0)", "13", "qc.append(HGate(),", "[1])", "14", "qc.cnot(qregB[0],", "qregB[1])", "15", "qc.h(qregB[1])", "16", "qc.y(qregA[1])", "17", "qc.cnot(0,", "2)", "18", "qc.measure(qregB[0],", "creg[1])", "19", "qc.measure_all()", "1", "n", "=", "3", "2qregA", "=", "QuantumRegister(3)", "3creg", "=", "ClassicalRegister(n)", "4qregB", "=", "QuantumRegister(2)", "5qregC", "=", "QuantumRegister(1)", "6", "qc", "=", "QuantumCircuit(qregA,", "qregB,", "creg)", "7", "qc.add_register(qregC)", "8qc_sub", "=", "QuantumCircuit(2,", "2)", "9qc_sub.rzx(0.5,", "0,", "1)"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 431.03999999999996,
+    "y1": 84.96,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure4-1.png"
+}, {
+  "caption": "Table 3. Warnings and precision of the LintQ analyses (le ) and the result of manual inspection (right).",
+  "captionBoundary": {
+    "x1": 52.11095428466797,
+    "x2": 433.6487731933594,
+    "y1": 223.1318359375,
+    "y2": 227.36398315429688
+  },
+  "figType": "Table",
+  "imageText": ["DoubleMeas", "39", "0.36%", "72.0%", "4/3/18", "OpAfterMeas", "127", "0.92%", "100.0%", "0/0/44", "MeasAllAbuse", "22", "0.26%", "94.1%", "0/1/16", "ConstClasBit", "533", "4.29%", "48.3%", "21/10/29", "CondWoMeas", "46", "0.22%", "100.0%", "0/0/28", "InsuﬀClasReg", "3489", "17.35%", "34.8%", "22/21/23", "OversizedCircuit", "378", "3.01%", "50.0%", "16/13/29", "OpAfterTransp", "7", "0.05%", "100.0%", "0/0/7", "GhostCompose", "12", "0.09%", "66.7%", "0/4/8", "OldIdenGate", "46", "0.37%", "50.0%", "11/3/14", "Analysis", "Name", "Tot.", "warnings", "%", "Files", "Precision", "FP", "/", "NW", "/", "TP"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 233.76,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Table3-1.png"
+}, {
+  "caption": "Fig. 11. Examples of bugs found by LintQ.",
+  "captionBoundary": {
+    "x1": 165.29295349121094,
+    "x2": 320.7072448730469,
+    "y1": 213.9775390625,
+    "y2": 218.20968627929688
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Ghost", "composition", "problem.", "(ID:", "3)", "state2))", "10", "qc2.compose(circ", ",", "qc2.qubits)", "#", "Bug", "11", "state2", "=", "qclib.util.get_state(qc2)", "12", "self.assertTrue(np.allclose(state1", ",", "1", "def", "test_linear_toffoli2(self):", "2", "gate_x", "=", "np.array", "([[0,", "1],", "[1,", "0]])", "3", "qc2", "=", "QuantumCircuit", "(4)", "4", "qc2.x(2)", "5", "qc2.x(3)", "6", "qc2.x(0)", "7", "state1", "=", "qclib.util.get_state(qc2)", "8", "circ", "=", "QuantumCircuit", "(4)", "9", "mc_gate(gate_x", ",", "circ", ",", "[3,", "2,", "1],", "0)", "(a)", "Redundant", "measurement", "problem.", "(ID:", "2)", "10", "qc.barrier", "()", "11", "qc.measure", "(0,0)", "12", "trial", "=", "qc.measure", "(0,0)", "#", "Bug", "2", "qc", "=", "QuantumCircuit", "(1,", "1)", "3", "qc.reset", "(0)", "4", "if", "inp", "==", "'1':", "5", "qc.x(0)", "6", "qc.barrier", "()", "7", "for", "i", "in", "range(inefficiencies):", "8", "print(i+1,", "\"x", "gates", "added\")", "9", "qc.x(0)", "inp:", "str):", "1", "def", "inefficientNOT(inefficiencies:", "int", ","],
+  "name": "11",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 424.32,
+    "y1": 87.84,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660802-Figure11-1.png"
+}]

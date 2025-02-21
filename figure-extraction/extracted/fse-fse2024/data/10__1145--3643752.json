@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 8. Performance (recall@1) of CodeArt compared to the SOTA GNN-based model, GMN-based model and Transformer-based models. The x-axes denote different sizes of candidate function pools, and the y-axes denote the performance in terms of recall@1.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.172607421875,
+    "y1": 240.7764892578125,
+    "y2": 267.09698486328125
+  },
+  "figType": "Figure",
+  "imageText": ["R", "ec", "al", "l@", "1", "Function", "Pool", "Sizes", "Putty", "100", "200", "300", "400", "500", "SQLite", "100", "200", "300", "400", "500", "1.0", "OpenSSL", "0.8", "0.6", "0.4", "0.2", "100", "200", "300", "400", "500", "0.0", "ImageMagick", "GNN", "GMN", "JTrans", "DiEmph", "CodeArt", "1.0", "Binutils", "Curl", "0.8", "0.6", "0.4", "0.2", "0.0"],
+  "name": "8",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 429.12,
+    "y1": 85.92,
+    "y2": 233.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure8-1.png"
+}, {
+  "caption": "Table 1. Zero-Shot performance (recall@1) of CodeArt compared to JTrans. Each row lists performance of both models w.r.t. one binary project with different sizes of candidate function pools.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1700439453125,
+    "y1": 288.8894958496094,
+    "y2": 304.25
+  },
+  "figType": "Table",
+  "imageText": ["Average", "0.30", "0.64", "0.25", "0.61", "0.19", "0.56", "0.14", "0.51", "0.10", "0.44", "Putty", "0.30", "0.49", "0.25", "0.45", "0.19", "0.41", "0.14", "0.36", "0.09", "0.31", "SQLite", "0.25", "0.75", "0.21", "0.76", "0.15", "0.69", "0.11", "0.62", "0.07", "0.55", "OpenSSL", "0.33", "0.61", "0.28", "0.55", "0.22", "0.52", "0.17", "0.49", "0.12", "0.43", "ImageMagick", "0.28", "0.60", "0.23", "0.55", "0.18", "0.49", "0.13", "0.45", "0.08", "0.38", "Curl", "0.32", "0.71", "0.28", "0.66", "0.21", "0.63", "0.16", "0.56", "0.12", "0.47", "Binutils", "0.30", "0.71", "0.26", "0.68", "0.20", "0.60", "0.14", "0.57", "0.09", "0.48", "JTrans", "CodeArt", "JTrans", "CodeArt", "JTrans", "CodeArt", "JTrans", "CodeArt", "JTrans", "CodeArt", "Programs", "Pool", "size", "32", "Pool", "size", "50", "Pool", "size", "100", "Pool", "size", "200", "Pool", "size", "500"],
+  "name": "1",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 443.03999999999996,
+    "y1": 307.68,
+    "y2": 419.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Table1-1.png"
+}, {
+  "caption": "Fig. 6. Contexts, a ention masks and relative position matrix",
+  "captionBoundary": {
+    "x1": 129.83999633789062,
+    "x2": 356.1614074707031,
+    "y1": 379.0975036621094,
+    "y2": 383.5
+  },
+  "figType": "Figure",
+  "imageText": ["Co-occurrence", "of", "all", "tokens.", "[CLS]", "[CLS]", "[CLS]", "localglobal", "graph", "5", "dependence", "edge", "token", "to", "get", "representation", "4", "instruction", "token", "5", "sub", "edx", ",", "ebx", "3", "<INST>", "token", "5", "sub", "edx", ",", "ebx", "5", "sub", "edx", ",2", "3", "4", "61", "ebx", "3", "4", "(a)", "Code", "[CLS]", "...", "...", "...", "...1", "2", "(i)", "Global", "Mask", "[CLS]", "5", "6", "(g)", "Full", "Relative", "Position", "Matrix", "(f)", "Full", "Mask", "1", "2", "3", "4", "5", "6", "(iv)", "Relative", "Positional", "Bias", "...", "sub", "edx", ",", "ebx", "add", "...", "1", "2", "3", "4", "5", "6", "(iii)", "Dependence", "Mask", "(ii)", "Local", "Mask", "Relative", "position", "is", "measured", "by", "dependence", "distance.", "Program-dependence", "form", "dependence", "contexts.", "Individual", "instructions", "form", "local", "contexts.", "(e)", "Dependence-based", "Relative", "Positioning", "(d)", "Dependence", "Context", "(c)", "Local", "Context", "(b)", "Global", "Context", "pos:", "0", "pos:", "1", "pos:", "2", "pos:", "1", "6", "1", "3", "4", "ebx", "1", "1", "2", "3", "4", "6", "y", ":=", "1; ", " ", " ", "a", ":=", "0; ", " ", " x", ":=", "1; ", " ", " ", "z", ":=", "x", "+", "1; ", " ", " ", " a", ":=", "z", "-", "y; ", " ", " ", " b", ":=", "a", "+", "2;", "5", "sub", "edx", ",2", "3", "4", "6"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 84.96,
+    "y2": 373.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure6-1.png"
+}, {
+  "caption": "Table 4. Ablation Study on Other Downstream Tasks that Require Fine-tuning",
+  "captionBoundary": {
+    "x1": 98.23399353027344,
+    "x2": 387.5253601074219,
+    "y1": 88.94734954833984,
+    "y2": 93.349853515625
+  },
+  "figType": "Table",
+  "imageText": ["w/o", "local", "mask", "0.86", "0.40", "0.13", "0.92", "0.91", "0.91", "w/o", "trans-closure", "0.86", "0.47", "0.14", "0.94", "0.93", "0.94", "max-trans-closure", "4", "0.90", "0.50", "0.10", "0.96", "0.96", "0.96", "max-trans-closure", "6", "0.90", "0.47", "0.11", "0.96", "0.95", "0.95", "w/o", "rel-pos-bias", "0.87", "0.47", "0.12", "0.96", "0.96", "0.96", "CodeArt-3M", "0.89", "0.49", "0.10", "0.96", "0.96", "0.96", "MFC-AUC", "MFC-LRAP", "MFC-LRL", "TI-PR", "TI-Recall", "TI-F1"],
+  "name": "4",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 379.2,
+    "y1": 97.44,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Table4-1.png"
+}, {
+  "caption": "Fig. 5. Regularized Multi-head A ention (with (b) illustrating a zoom-in view of part of (a))",
+  "captionBoundary": {
+    "x1": 75.08709716796875,
+    "x2": 410.9141540527344,
+    "y1": 260.03851318359375,
+    "y2": 264.4410095214844
+  },
+  "figType": "Figure",
+  "imageText": ["MatMul", "Softmax", "Mask", "Scale", "Add", "MatMul", "(a)", "Regularized", "Multi-head", "Attention", "(b)", "Mask", "Regularized", "Scaled", "Dot-Product", "Attention", "with", "Relative", "Bias", "Mask", "Regularized", "Scaled", "Dot-Product", "Attention", "with", "Relative", "Bias", "Concat"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 108.47999999999999,
+    "x2": 375.84,
+    "y1": 85.92,
+    "y2": 252.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. Code examples calculating statistics: (a) and (b) are equivalent but have different statement orders; (c) is buggy at line 11 with the wrong operation.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.71038818359375,
+    "y1": 248.55349731445312,
+    "y2": 263.9150085449219
+  },
+  "figType": "Figure",
+  "imageText": ["code", "for", "the", "mean", "value", "code", "for", "the", "variance", "code", "for", "the", "percentiles", "bug", "(a)", "A", "program", "calculating", "statistics", "(b)", "An", "equivalent", "version", "(c)", "A", "buggy", "version", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "mean", "+=", "data[i];", "}", "mean", "*=", "len;", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "var", "+=", "(data[i]", "-", "mean)", "*", "(data[i]", "-", "mean);", "}", "var", "/=", "len;", "for", "(i", "=", "0;", "i", "<", "20;", "i++)", "{", "percentile[i]", "=", "data[i", "*", "len", "/", "20];", "}", "return", "(struct", "ret", "*){mean,", "var,", "percentile};", "}", "struct", "ret", "*stats(int", "*data,", "int", "len)", "{", "int", "mean", "=", "0;", "int", "var", "=", "0;", "int", "*percentile", "=", "malloc(sizeof(int)", "*", "20);", "int", "i;", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "mean", "+=", "data[i];", "}", "for", "(i", "=", "0;", "i", "<", "20;", "i++)", "{", "percentile[i]", "=", "data[i", "*", "len", "/", "20];", "}", "mean", "/=", "len;", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "var", "+=", "(data[i]", "-", "mean)", "*", "(data[i]", "-", "mean);", "}", "var", "/=", "len;", "return", "(struct", "ret", "*){mean,", "var,", "percentile};", "}", "struct", "ret", "*stats(int", "*data,", "int", "len)", "{", "int", "mean", "=", "0;", "int", "var", "=", "0;", "int", "*percentile", "=", "malloc(sizeof(int)", "*", "20);", "int", "i;", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "mean", "+=", "data[i];", "}", "mean", "/=", "len;", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "var", "+=", "(data[i]", "-", "mean)", "*", "(data[i]", "-", "mean);", "}", "var", "/=", "len;", "for", "(i", "=", "0;", "i", "<", "20;", "i++)", "{", "percentile[i]", "=", "data[i", "*", "len", "/", "20];", "}", "return", "(struct", "ret", "*){mean,", "var,", "percentile};", "}", "struct", "ret", "*stats(int", "*data,", "int", "len)", "{", "int", "mean", "=", "0;", "int", "var", "=", "0;", "int", "*percentile", "=", "malloc(sizeof(int)", "*", "20);", "int", "i;"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure1-1.png"
+}, {
+  "caption": "Table 5. GrapCodeBERT-like Model Results on Zero-Shot Coreutils Binary Similarity with Pool-Size 100",
+  "captionBoundary": {
+    "x1": 51.00309753417969,
+    "x2": 434.7564392089844,
+    "y1": 88.94734954833984,
+    "y2": 93.349853515625
+  },
+  "figType": "Table",
+  "imageText": ["GCB-like-default", "0.030", "0.092", "0.152", "0.264", "0.085", "GCB-like-weaker-reg", "0.082", "0.176", "0.266", "0.394", "0.159", "CodeArt-3M", "0.394", "0.548", "0.604", "0.696", "0.486", "Recall@1", "Recall@3", "Recall@5", "Recall@10", "MRR"],
+  "name": "5",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 101.75999999999999,
+    "x2": 382.08,
+    "y1": 97.44,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Table5-1.png"
+}, {
+  "caption": "Fig. 9. Binary Type Inference Results on Different Optimization Levels",
+  "captionBoundary": {
+    "x1": 113.2969970703125,
+    "x2": 372.7033996582031,
+    "y1": 162.65548706054688,
+    "y2": 167.0579833984375
+  },
+  "figType": "Figure",
+  "imageText": ["StateFormer", "CodeArt", "F", "1", "1.00", "0.75", "0.50", "0.25", "0.00", "O0", "O1", "O2", "O3", "(c)", "F1", "R", "ec", "al", "l", "1.00", "0.75", "0.50", "0.25", "0.00", "O0", "O1", "O2", "O3", "(b)", "Recall", "P", "re", "ci", "si", "on", "1.00", "0.75", "0.50", "0.25", "0.00", "O0", "O1", "O2", "O3", "(a)", "Precision"],
+  "name": "9",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 87.36,
+    "x2": 399.36,
+    "y1": 85.92,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure9-1.png"
+}, {
+  "caption": "Fig. 7. Pre-training in CodeArt",
+  "captionBoundary": {
+    "x1": 183.96499633789062,
+    "x2": 302.03558349609375,
+    "y1": 251.39251708984375,
+    "y2": 255.79501342773438
+  },
+  "figType": "Figure",
+  "imageText": ["CodeArt", "Encoder", "...", "L1", "L2", "L12", "add", "...", "mov", "rdx,", "[rbx+4*rax]", "add", "[rbp-20h],rdx", "Connectivity", "Edge", "Positive", "Edge", "Negative", "Edge", "<I>:", "<INST>", "<M>:", "<MASK>", "rax", "Predictions", "Perturbed", "Input", "Original", "Input", "mov", "rax,", "[rbp-20h]", "...", "div", "rax,", "rcx", "mov", "[rbp-20h],", "rax", "...", "<I>", "mov", "rdx,", "[rbx+4*rax]", "<I>", "<M>", "[rbp-20h],", "rdx", "...", "<I>", "...", "<I>", "mov", "rax,", "[rbp-20h]", "...", "<I>", "div", "<M>,", "rcx", "<I>", "mov", "[rbp-20h],", "rax", "...", "...", "<I>", "mov", "rdx,", "[rbx+4*rax]", "<I>", "add", "[rbp-20h],", "rdx", "...", "<I>", "...", "<I>", "mov", "rax,", "[rbp-20h]", "...", "<I>", "div", "rax,", "rcx", "<I>", "mov", "[rbp-20h],", "rax", "...", "Code", "and", "Connectivity", "struct", "ret", "*stats(int", "*data,", "int", "len)", "{", "int", "mean", "=", "0;", "int", "var", "=", "0;", "int", "*percentile", "=", "malloc(sizeof(int)", "*", "20);", "int", "i;", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "mean", "+=", "data[i];", "}", "mean", "/=", "len;", "for", "(i", "=", "0;", "i", "<", "len;", "i++)", "{", "var", "+=", "(data[i]", "-", "mean)", "*", "data[i]", "-", "mean);", "}", "for", "(i", "=", "0;", "i", "<", "20;", "i++)", "{", "percentile[i]", "=", "data[i", "*", "len", "/", "20];", "}", "return", "(struct", "ret", "*)(mean,", "var,", "percentile);", "}"],
+  "name": "7",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 436.32,
+    "y1": 88.8,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. A ention maps of variable mean at line 11 of Fig. 1(a) (in red), by a source code model (a) and by a binary code model (b). In (a), we show a ention between source code tokens, corresponding to lines 9–11 in Fig. 1(a). In (b), we show a ention between binary code tokens. For readability, we also include the corresponding source code and part of the assembly. The variable mean is stored in the register rax at line B0 (in red). A line with a darker color denotes a larger a ention value. In an instruction, the first operand is destination and the second the source, and comment “rax<-i” means that register rax stores variable i.",
+  "captionBoundary": {
+    "x1": 45.505401611328125,
+    "x2": 441.5536804199219,
+    "y1": 212.50949096679688,
+    "y2": 271.7070007324219
+  },
+  "figType": "Figure",
+  "imageText": ["12:", "11:", "9:", "12:", "11:", "9:", "assembly", "code", "corresponding", "tokens", "...", "mean", "+=", "data", "[i]", ";", "mean", "/=", "len", ";", "for(", "i", "=", "0", "mov", "rax", "[rbp-hexvar]", "inc", "rax", "mov", "rax", "[rbp-hexvar]", "...", "mov", "rax", "[rbp-hexvar]", "...", "inc", "rax", "[rbp-hexvar]", "mov", "rax", "[rbp-hexvar]", "...", "mov", "rax", "[rbp-hexvar]", "...", "mov", "rax", "C0:", "C4:", "B0:", "B4:", "A0:", "A4:", "mov", "rax,[rbp-10h]", ";rax<-i", "inc", "rax", ";i++", "...", "mov", "rax,[rbp-20h]", ";rax<-mean", "mov", "rcx,[rbp-18h]", ";rcx<-len", "...", "mov", "rax,[rbp-10h]", ";rax<-i", "mov", "rdx,[rbx+4*rax];rdx<-data[i]", "...", "...", "mean", "+=", "data", "[i]", ";", "mean", "/=", "len", ";", "for(", "i", "=", "0", "mean", "+=", "data", "[i]", ";", "mean", "/=", "len", ";", "for(", "i", "=", "0", ";", "i", "<", "len", "(a)", "Attention", "map", "on", "source", "code", "(b)", "Attention", "map", "on", "binary", "code", "len", "mean", "+=", "data", "[i]", ";", "mean", "/=", "len", ";", "for(", "i", "=", "0", ";", "i", "<"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 429.12,
+    "y1": 84.0,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. A ention maps by CodeArt for variable mean in the code snippets in Fig. 1 (a) and (b). The instructions in bold are in the dependence context of the variable and the blue arrows denote dependences.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1739501953125,
+    "y1": 387.3185119628906,
+    "y2": 402.67999267578125
+  },
+  "figType": "Figure",
+  "imageText": ["corresponding", "tokens", "(b)", "Attention", "map", "of", "CODEART", "on", "the", "equivalent", "version", "...", "add", "[rbp-...]", "rdx", "...", "mov", "rax", "[rbp-...]", "...", "mov", "rax", "[rbp-...]", "inc", "rax", "mean", "+=", "data", "[i]", ";", "mean", "/=", "len", ";", "for(", "i", "=", "0", "...", "inc", "rax", "...", "add", "[rbp-...]", "rdx", "...", "mov", "rax", "[rbp-...]", "...", "mov", "rax", "[rbp-...]", "F0:", "F4:", "E0:", "E4:", "A0:", "A4:", "A8:", "mov", "rax,[rbp-10h]", ";rax<-i", "inc", "rax", ";i++", "...", "mov", "rax,[rbp-20h]", ";rax<-mean", "mov", "rcx,[rbp-18h]", ";rcx<-len", "...", "mov", "rax,[rbp-10h]", ";rax<-i", "mov", "rdx,[rbx+4*rax];rdx<-data[i]", "add", "[rbp-20h],rdx", ";mean+=data[i]", "...", "15:", "14:", "9:", "...", "mean", "+=", "data", "[i]", ";", "...", "mean", "/=", "len", ";", "for(", "i", "=", "0", "12:", "11:", "9:", "assembly", "code", "corresponding", "tokens", "...", "add", "[rbp-...]", "rdx", "...", "mov", "rax", "[rbp-...]", "...", "mov", "rax", "[rbp-...]", "inc", "rax", "mean", "+=", "data", "[i]", ";", "mean", "/=", "len", ";", "for(", "i", "=", "0", "...", "inc", "rax", "...", "add", "[rbp-...]", "rdx", "...", "mov", "rax", "[rbp-...]", "...", "mov", "rax", "[rbp-...]", "C0:", "C4:", "B0:", "B4:", "A0:", "A4:", "A8:", "mov", "rax,[rbp-10h]", ";rax<-i", "inc", "rax", ";i++", "...", "mov", "rax,[rbp-20h]", ";rax<-mean", "mov", "rcx,[rbp-18h]", ";rcx<-len", "...", "mov", "rax,[rbp-10h]", ";rax<-i", "mov", "rdx,[rbx+4*rax];rdx<-data[i]", "add", "[rbp-20h],rdx", ";mean+=data[i]", "...", "...", "mean", "+=", "data", "[i]", ";", "mean", "/=", "len", ";", "for(", "i", "=", "0", "(a)", "Attention", "map", "of", "CODEART"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 289.92,
+    "y2": 384.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Figure3-1.png"
+}, {
+  "caption": "Table 3. Ablation Study Using Zero-Shot Binary Similarity with Pool-Size 100 on Coreutils",
+  "captionBoundary": {
+    "x1": 241.3040008544922,
+    "x2": 419.22406005859375,
+    "y1": 88.94747161865234,
+    "y2": 104.3089599609375
+  },
+  "figType": "Table",
+  "imageText": ["w/o", "local", "mask", "0.030", "0.096", "0.138", "0.082", "w/o", "trans-closure", "0.346", "0.498", "0.590", "0.447", "max-trans-closure", "4", "0.322", "0.504", "0.574", "0.429", "max-trans-closure", "6", "0.298", "0.456", "0.562", "0.406", "w/o", "rel-pos-bias", "0.226", "0.376", "0.464", "0.335", "CodeArt-3M", "0.394", "0.548", "0.604", "0.486", "Recall@1", "Recall@3", "Recall@5", "MRR"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 241.92,
+    "x2": 416.15999999999997,
+    "y1": 108.0,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Table3-1.png"
+}, {
+  "caption": "Table 2. Malware Family Classification",
+  "captionBoundary": {
+    "x1": 73.41909790039062,
+    "x2": 218.07376098632812,
+    "y1": 88.94734954833984,
+    "y2": 93.349853515625
+  },
+  "figType": "Table",
+  "imageText": ["CNN", "0.834", "0.326", "0.183", "CodeArt", "0.928", "0.597", "0.084", "4", "Funcs.", "JTrans", "0.901", "0.489", "0.107", "CodeArt", "0.924", "0.597", "0.086", "3", "Funcs.", "JTrans", "0.898", "0.478", "0.111", "CodeArt", "0.925", "0.597", "0.086", "2", "Funcs.", "JTrans", "0.705", "0.205", "0.300", "AUC", "(↑)", "LRAP", "(↑)", "LRL", "(↓)"],
+  "name": "2",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 214.07999999999998,
+    "y1": 97.44,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643752-Table2-1.png"
+}]

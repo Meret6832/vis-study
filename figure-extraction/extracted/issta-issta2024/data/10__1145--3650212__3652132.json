@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 1: Properties, datasets, and models.",
+  "captionBoundary": {
+    "x1": 90.91099548339844,
+    "x2": 256.6369934082031,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["FASHION", "[45]", "LeNet-5", "236", "90.86%", "CIFAR-10", "[21]", "VGG-16", "12426", "89.94%", "CIFAR-10", "[21]", "ResNet-20", "1578", "90.39%", "Weak-Class", "Credit", "[4]", "FNN-4", "90", "99.50%", "Census", "[20]", "FNN-6", "130", "87.12%", "Unfairness", "MNIST", "[22]", "CNN-6", "714", "99.42%", "FASHION", "[45]", "LeNet-5", "236", "90.87%", "Backdoor", "Property", "Dataset", "Model", "#Neurons", "Accuracy"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 103.67999999999999,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Table1-1.png"
+}, {
+  "caption": "Table 4: The difference of target class-wise accuracy (CWA) and overall accuracy (ACC) after using different methods.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.60723876953125,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["C10/VGG", "3", "+3.87%", "/", "+0.70%", "∼12h", "+8.23%", "/", "+0.26%", "∼0.5h", "C10/ResNet", "3", "+4.50%", "/", "-0.61%", "∼9h", "+7.98%", "/", "-0.39%", "∼0.2h", "FA/LeNet", "6", "+8.74%", "/", "+0.26%", "∼40m", "+18.05%", "/", "-0.21%", "∼2m", "Model", "Class", "Apricot", "IDNN", "ΔCWA", "/", "ΔACC", "Time", "ΔCWA", "/", "ΔACC", "Time"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 294.24,
+    "y1": 114.72,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Table4-1.png"
+}, {
+  "caption": "Figure 8: The performance of IDNN on different properties with different neuron strategies (Pruning vs. Isolation).",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.1973876953125,
+    "y1": 430.4261474609375,
+    "y2": 447.0160217285156
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 351.84,
+    "y2": 420.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure8-1.png"
+}, {
+  "caption": "Figure 7: The performance of IDNN on different properties with different neuron set sizes and set selection strategies.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.1973876953125,
+    "y1": 318.77813720703125,
+    "y2": 335.3680419921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 551.04,
+    "y1": 82.56,
+    "y2": 308.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure7-1.png"
+}, {
+  "caption": "Figure 1: The overview of our IDNN framework. IDNN aims to efficiently explore the neuron interactions and identify the most critical neurons responsible for an exhibited property.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0460510253906,
+    "y1": 254.6410675048828,
+    "y2": 282.19000244140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 82.56,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure1-1.png"
+}, {
+  "caption": "Figure 2: A high-level comparison between IDNN and three representative model repair methods. Note that IDNN does not need costly retraining or weight optimization by directly isolating the defect-responsible neurons from the model to achieve an efficient repair.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.45703125,
+    "y1": 208.2500762939453,
+    "y2": 257.71697998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure2-1.png"
+}, {
+  "caption": "Figure 4: The evaluated model accuracy (ACC) and the property metrics (CWA and ASR) by isolating the same number of neurons that are selected by different strategies, with |N| = 10 for the CIFAR-10 model and |N| = 5 for the FASHION model.",
+  "captionBoundary": {
+    "x1": 53.798030853271484,
+    "x2": 558.202880859375,
+    "y1": 169.3540802001953,
+    "y2": 185.9439697265625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 548.16,
+    "y1": 82.56,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Neuron significance values calculated by different strategies. The X-axis represents for the neuron index and the Y-axis for each class classification task. The neurons are re-ranked based on the values for a specific class (label 3).",
+  "captionBoundary": {
+    "x1": 53.798030853271484,
+    "x2": 294.048095703125,
+    "y1": 326.3651123046875,
+    "y2": 364.87200927734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 279.36,
+    "y1": 210.72,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Pruning vs. Isolation. The isolated neurons maintain fixed output values during propagation to the next layers, effectively isolating dynamic information without modifying the model structure.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.65008544921875,
+    "y1": 155.9320831298828,
+    "y2": 194.44000244140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 96.96,
+    "x2": 249.12,
+    "y1": 82.56,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure3-1.png"
+}, {
+  "caption": "Table 3: The model overall accuracy (ACC) and unfairness (UF) before and after repairing by using different methods (with a confidence interval of 95% significance level). ACC: the higher the better, UF: the lower the better.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2058715820312,
+    "y1": 200.9690704345703,
+    "y2": 217.55902099609375
+  },
+  "figType": "Table",
+  "imageText": ["Average", "92.07%", "11.06%", "90.42%", "9.57%", "90.04%", "6.82%", "89.93%", "6.20%", "88.46%", "3.82%", "Model", "Prot.", "Attr.", "Original", "PRDNN", "ADF", "CARE", "IDNN", "ACC", "UF", "ACC", "UF", "ACC", "UF", "ACC", "UF", "ACC", "UF", "Census", "Race", "87.12%", "8.25%", "85.63±0.23%", "6.32±0.07%", "85.52±0.36%", "4.33±0.22%", "84.08±0.23%", "2.42±0.15%", "83.31±0.15%", "1.70±0.08%", "Census", "Gender", "87.12%", "5.76%", "85.87±0.12%", "5.03±0.09%", "85.35±0.52%", "3.27±0.64%", "84.39±0.17%", "3.69±0.04%", "83.17±0.32%", "1.62±0.22%", "Census", "Age", "87.12%", "13.04%", "84.10±0.06%", "8.75±0.11%", "84.94±0.71%", "7.94±0.66%", "83.59±0.34%", "6.88±0.31%", "82.84±0.46%", "3.50±0.25%", "Credit", "Gender", "99.50%", "10.72%", "98.95±0.01%", "9.53±0.08%", "97.64±0.66%", "7.34±1.58%", "98.66±0.62%", "8.39±0.47%", "96.83±0.22%", "4.85±0.16%", "Credit", "Age", "99.50%", "17.51%", "97.54±0.39%", "18.22±0.24%", "96.75±1.72%", "11.20±1.34%", "98.93±0.80%", "9.60±0.46%", "96.16±0.16%", "6.61±0.34%"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 554.4,
+    "y1": 229.92,
+    "y2": 312.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Table3-1.png"
+}, {
+  "caption": "Figure 6: The class-wise accuracy (CWA) for each class before and after repairing by using different methods (with a confidence interval of 95% significance level). The target class label is ‘3’ for the CIFAR-10 model and ‘6’ for the FASHION model.",
+  "captionBoundary": {
+    "x1": 53.798030853271484,
+    "x2": 558.2025146484375,
+    "y1": 430.9311218261719,
+    "y2": 447.52099609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 543.36,
+    "y1": 322.56,
+    "y2": 420.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Figure6-1.png"
+}, {
+  "caption": "Table 2: The model overall accuracy (ACC) and backdoor attack success rate (ASR) before and after repairing by using different methods (with a confidence interval of 95% significance level). ACC: the higher the better, ASR: the lower the better.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2049560546875,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Average", "94.84%", "98.88%", "92.24%", "15.67%", "82.67%", "3.19%", "92.95%", "13.23%", "92.88%", "0.48%", "MNIST-BadNets", "99.35%", "99.83%", "98.24±0.31%", "17.01±1.55%", "96.15±0.75%", "3.28±0.96%", "98.83±0.05%", "23.80±0.22%", "99.28±0.06%", "0.13±0.05%", "MNIST-Trojan", "99.37%", "99.14%", "96.82±0.11%", "2.76±1.25%", "92.34±0.98%", "1.59±0.44%", "98.68±0.02%", "2.43±0.07%", "99.26±0.03%", "0.00±0.00%", "FASHION-BadNets", "90.87%", "99.20%", "86.17±1.31%", "30.56±6.32%", "77.84±2.68%", "7.10±1.81%", "87.46±0.10%", "15.47±0.15%", "86.59±0.23%", "1.24±0.32%", "FASHION-Trojan", "89.71%", "97.33%", "87.74±0.56%", "12.36±2.49%", "64.34±4.17%", "0.78±0.39%", "86.82±0.20%", "11.36±0.63%", "86.40±0.26%", "0.56±0.45%", "Model", "Original", "Neural", "Cleanse", "Fine-Pruning", "CARE", "IDNN", "ACC", "ASR", "ACC", "ASR", "ACC", "ASR", "ACC", "ASR", "ACC", "ASR"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 553.4399999999999,
+    "y1": 114.72,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652132-Table2-1.png"
+}]

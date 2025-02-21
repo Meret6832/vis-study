@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 2: Statistics of inferring ping-pong server with different 𝑛 as parameter, with 𝑛𝑟𝑒𝑎𝑐ℎ dominant reachable states, number of glitches and different statistics of frequencies (fr.) for glitched 𝛿𝑔 and dominant 𝛿 transitions.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.641357421875,
+    "y1": 85.72634887695312,
+    "y2": 125.5789794921875
+  },
+  "figType": "Table",
+  "imageText": ["𝑛", "𝑛𝑟𝑒𝑎𝑐ℎ", "#", "Glitches", "Mean", "𝛿𝑔", "fr.", "Max", "𝛿𝑔", "fr.", "Min", "𝛿", "fr.", "3", "3", "31", "7.75", "26", "65", "4", "4", "5", "1.25", "2", "26", "5", "4", "4", "1.33", "2", "1", "6", "4", "4", "1", "1", "0", "7", "4", "4", "1", "1", "0"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 290.4,
+    "y1": 138.72,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623346-Table2-1.png"
+}, {
+  "caption": "Table 3: Percentage of the 400 experiments per number of states that ran into the one hour timeout.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0330505371094,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["𝑛", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "timeout", "%", "0.6", "0.3", "0.5", "1.5", "3.5", "5.8", "10.3", "17.5", "27", "33"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 116.64,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623346-Table3-1.png"
+}, {
+  "caption": "Table 6: Statistics of inferring the nRF52832 BLE chipwith different 𝑛 as parameter, with 𝑛𝑟𝑒𝑎𝑐ℎ dominant reachable states, number of glitches and different statistics of frequencies (fr.) for glitched 𝛿𝑔 and dominant 𝛿 transitions.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6365661621094,
+    "y1": 85.72634887695312,
+    "y2": 125.5789794921875
+  },
+  "figType": "Table",
+  "imageText": ["𝑛", "𝑛𝑟𝑒𝑎𝑐ℎ", "#", "Glitches", "Mean", "𝛿𝑔", "fr.", "Max", "𝛿𝑔", "fr.", "Min", "𝛿", "fr.", "9", "9", "106", "8.83", "16", "7", "10", "10", "40", "5.71", "10", "7", "11", "11", "33", "4.71", "10", "2", "12", "12", "25", "3.13", "11", "3", "13", "13", "14", "2", "8", "2", "14", "14", "2", "1", "1", "2", "15", "14", "1", "1", "1", "0", "16", "15", "1", "1", "1", "0"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 138.72,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623346-Table6-1.png"
+}, {
+  "caption": "Table 1: Summary of variables for inferring automata with states S from traces T with inputs I and outputs O.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1907958984375,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["(8)", "_(𝑠𝑝", ",", "𝑜𝑝", ")", "∀𝑝", "∈", "[0,", "|𝑂", "|)", "-", "𝑜0", "initial", "output", "(6)", "soft", ":", "G(𝑡,", "𝑘)", "∀𝑡", "∈", "𝑇", ":", "∀𝑘", "∈", "[1,", "|𝑡", "|)", "(7)", "𝜔", "(𝑡,", "0,", "𝑠0)", "∀𝑡", "∈", "𝑇", "∀𝑡", "∈", "𝑇", ":", "∀𝑘", "∈", "[1,", "|𝑡", "|)", ":", "∀𝑠,", "𝑠′", "∈", "𝑆", "(5)", "𝜔", "(𝑡,", "𝑘", "−", "1,", "𝑠)", "∨", "𝜔", "(𝑡,", "𝑘,", "𝑠′)", "∨", "𝛿", "(𝑠,", "𝑖𝑘", ",", "𝑠′)", "∨", "G(𝑡,", "𝑘)", "(4)", "𝜔", "(𝑡,", "𝑘,", "𝑠)", "∨", "_(𝑠,", "𝑜𝑘", "))", "∀𝑡", "∈", "𝑇", ":", "∀𝑘", "∈", "[0,", "|𝑡", "|)", ":", "∀𝑠", "∈", "𝑆", "(3)", "𝜔", "(𝑡,", "𝑘,", "𝑠)", "∀𝑡", "∈", "𝑇", ":", "∀𝑘", "∈", "[0,", "|𝑡", "|)", ":", "∃!𝑠", "∈", "𝑆", "(2)", "𝛿", "(𝑠,", "𝑖,", "𝑠′)", "∀𝑠", "∈", "𝑆", ":", "∀𝑖", "∈", "𝐼", ":", "∃!𝑠′", "∈", "𝑆", "(1)", "_(𝑠,", "𝑜)", "∀𝑠", "∈", "𝑆", ":", "∃!𝑜", "∈", "𝑂", "Eq.", "Clauses", "Enumeration"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 116.64,
+    "y2": 295.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623346-Table1-1.png"
+}, {
+  "caption": "Figure 1: Moore machines of simple example server.",
+  "captionBoundary": {
+    "x1": 332.7510070800781,
+    "x2": 543.3982543945312,
+    "y1": 511.8033142089844,
+    "y2": 517.4339599609375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Inferred", "non-deterministic", "Moore", "machine", "of", "simple", "example", "server", "with", "glitch", "disconnect", "connect", "connect", "connect", "disconnect", "offlinestart", "online", "(a)", "Moore", "machine", "of", "simple", "example", "server", "disconnect", "connect", "connect", "disconnect", "offlinestart", "online"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 364.8,
+    "x2": 511.2,
+    "y1": 323.03999999999996,
+    "y2": 496.79999999999995
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623346-Figure1-1.png"
+}, {
+  "caption": "Table 4: Statistics of inferring the APC with different 𝑛 as parameter, with 𝑛𝑟𝑒𝑎𝑐ℎ dominant reachable states, number of glitches and different statistics of frequencies (fr.) for glitched 𝛿𝑔 and dominant 𝛿 transitions.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.386474609375,
+    "y1": 85.72634887695312,
+    "y2": 125.5789794921875
+  },
+  "figType": "Table",
+  "imageText": ["𝑛", "𝑛𝑟𝑒𝑎𝑐ℎ", "#", "Glitches", "Mean", "𝛿𝑔", "fr.", "Max", "𝛿𝑔", "fr.", "Min", "𝛿", "fr.", "7", "7", "12", "3", "6", "4", "8", "8", "6", "2", "4", "4", "9", "9", "2", "1", "1", "1", "10", "10", "2", "1", "1", "0", "11", "11", "1", "1", "1", "0", "12", "12", "1", "1", "1", "0", "13", "13", "0", "0", "0", "0"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 138.72,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623346-Table4-1.png"
+}, {
+  "caption": "Table 5: Statistics of inferring the Smoke Meter with different 𝑛 as parameter, with 𝑛𝑟𝑒𝑎𝑐ℎ dominant reachable states, number of glitches and different statistics of frequencies (fr.) for glitched 𝛿𝑔 and dominant 𝛿 transitions.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7933349609375,
+    "y1": 251.10635375976562,
+    "y2": 290.9590148925781
+  },
+  "figType": "Table",
+  "imageText": ["𝑛", "𝑛𝑟𝑒𝑎𝑐ℎ", "#", "Glitches", "Mean", "𝛿𝑔", "fr.", "Max", "𝛿𝑔", "fr.", "Min", "𝛿", "fr.", "9", "8", "52", "17.33", "25", "3", "10", "8", "27", "13.5", "23", "3", "11", "11", "4", "4", "4", "3", "12", "12", "4", "4", "4", "0", "13", "13", "1", "1", "1", "0", "14", "14", "0", "0", "0", "0"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 304.8,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623346-Table5-1.png"
+}]

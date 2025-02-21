@@ -1,0 +1,141 @@
+[{
+  "caption": "Fig. 3: Excerpt of the GUI of the API Editor. Users can browse through the navigator on the left-hand-side, filter the displayed elements via the input field at the bottom, inspect the annotations of the selected element, and edit annotations. The image shows a selected function and its first parameter.",
+  "captionBoundary": {
+    "x1": 62.543701171875,
+    "x2": 296.0267639160156,
+    "y1": 568.400390625,
+    "y2": 617.2372436523438
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 291.36,
+    "y1": 420.0,
+    "y2": 560.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00027-Figure3-1.png"
+}, {
+  "caption": "Fig. 1: Discussed approaches for creating a new API for a library. Blue boxes represent the original library and green boxes",
+  "captionBoundary": {
+    "x1": 62.48780059814453,
+    "x2": 540.5719604492188,
+    "y1": 135.60691833496094,
+    "y2": 139.9708251953125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Refactoring,", "drop", "the", "original;", "breaking", "clients", "(b)", "Refactoring,", "drop", "the", "original,", "migrate", "clients", "(c)", "Refactoring,", "keep", "the", "original", "but", "deprecate", "it", "(d)", "Hard-forking", "(two", "decoupled", "code", "bases)", "(e)", "Adaptoring", "(two", "APIs", "sharing", "original", "code", "base)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 62.4,
+    "x2": 540.96,
+    "y1": 72.48,
+    "y2": 125.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00027-Figure1-1.png"
+}, {
+  "caption": "Fig. 4: Number of useful, useless and unused elements in the public API of scikit-learn. For classes and functions, all used elements are useful.",
+  "captionBoundary": {
+    "x1": 313.80218505859375,
+    "x2": 547.2852172851562,
+    "y1": 199.0220184326172,
+    "y2": 225.62237548828125
+  },
+  "figType": "Figure",
+  "imageText": ["4000", "3000", "2000", "1000", "Classes", "Functions", "Parameters", "0", "56", "285", "214", "2236", "606", "1832", "673", "Unused", "Used", "but", "useless", "Useful"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 514.0799999999999,
+    "y1": 74.88,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00027-Figure4-1.png"
+}, {
+  "caption": "TABLE III: Recall of Text-Based Inference, evaluated on a random sample of 200 functions of each library. The numbers in the table refer to these samples.",
+  "captionBoundary": {
+    "x1": 313.80218505859375,
+    "x2": 547.2943725585938,
+    "y1": 458.31439208984375,
+    "y2": 484.914794921875
+  },
+  "figType": "Table",
+  "imageText": ["Numpy", "7", "6", "54%", "0", "1", "0%", "1", "1", "50%", "Pandas", "14", "4", "78%", "0", "0", "-", "4", "5", "44%", "Seaborn", "6", "0", "100%", "4", "1", "80%", "0", "0", "-", "Library", "Enum", "Boundary", "Dependency", "TP", "FN", "Rec", "TP", "FN", "Rec", "TP", "FN", "Rec", "scikit-learn", "34", "2", "94%", "25", "7", "78%", "21", "19", "53%", "Matplotlib", "4", "1", "80%", "0", "0", "-", "0", "0", "-"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 545.28,
+    "y1": 492.96,
+    "y2": 549.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00027-TableIII-1.png"
+}, {
+  "caption": "TABLE II: Precision of Text-Based Inference. The numbers in the table refer to the full library.",
+  "captionBoundary": {
+    "x1": 313.80218505859375,
+    "x2": 547.28515625,
+    "y1": 357.68841552734375,
+    "y2": 373.17059326171875
+  },
+  "figType": "Table",
+  "imageText": ["Numpy", "95", "47", "67%", "26", "21", "55%", "6", "11", "35%", "Pandas", "293", "30", "91%", "10", "14", "42%", "21", "18", "54%", "Seaborn", "16", "2", "89%", "8", "0", "100%", "1", "0", "100%", "Library", "Enum", "Boundary", "Dependency", "TP", "FP", "Prec", "TP", "FP", "Prec", "TP", "FP", "Prec", "scikit-learn", "543", "45", "92%", "234", "32", "88%", "224", "20", "92%", "Matplotlib", "155", "18", "90%", "14", "12", "54%", "1", "1", "50%"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 552.0,
+    "y1": 381.59999999999997,
+    "y2": 437.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00027-TableII-1.png"
+}, {
+  "caption": "TABLE I: API Transformations Implemented for Python",
+  "captionBoundary": {
+    "x1": 323.14239501953125,
+    "x2": 539.0492553710938,
+    "y1": 75.27836608886719,
+    "y2": 79.64227294921875
+  },
+  "figType": "Table",
+  "imageText": ["serializing", "them.", "This", "creates", "code", "for", "all", "adapters", "that", "were", "not", "removed,", "including", "unchanged", "ones,", "so", "no", "interaction", "with", "the", "original", "library", "is", "necessary", "for", "users", "of", "the", "new", "one.", "the", "output", "created", "in", "the", "next", "step.", "In", "this", "step,", "we", "can", "enforce", "language-speciﬁc", "constraints,", "which", "may", "be", "violated", "after", "applying", "the", "API", "transformations.", "5)", "Generate", "code", "by", "visiting", "the", "nodes", "in", "the", "AST", "and", "formations", "one", "by", "one.", "This", "may", "delete", "the", "wrapper", "altogether,", "change", "its", "signature", "(name,", "parameters),", "or", "change", "its", "implementation.", "Implementation", "changes", "in-", "clude", "changes", "to", "the", "arguments", "of", "the", "call", "to", "the", "original", "library", "and", "insertion", "of", "argument", "checking", "operations.", "4)", "Post-process", "the", "resulting", "AST", "to", "ensure", "correctness", "of", "same", "signature", "from", "the", "original", "library.", "Compared", "to", "refactoring", "[6],", "the", "forwarding", "direction", "is", "inverted:", "When", "adaptoring,", "the", "new", "function", "calls", "the", "old", "one,", "while", "when", "refactoring,", "the", "old", "function", "can", "be", "kept", "to", "forward", "to", "the", "new", "one", "to", "prevent", "breaking", "changes.", "3)", "Adjust", "this", "AST", "by", "applying", "the", "speciﬁed", "API", "trans-", "object", "[6]", "No", "Replace", "with", "enum", "If", "a", "parameter", "can", "take", "only", "a", "ﬁnite", "set", "of", "strings,", "encode", "these", "values", "in", "an", "enum", "and", "replace", "the", "string", "parameter", "with", "a", "parameter", "that", "accepts", "instances", "of", "this", "enum", "Yes", "Other", "Design", "Changes", "Rename", "Rename", "declaration", "No", "Move", "Move", "declaration", "Not", "yet", "Group", "Group", "parameters", "into", "parameter", "an", "interval", "Yes", "Make", "required", "Make", "parameter", "required", "Yes", "Enforcement", "of", "Preconditions", "(Sec.", "VI-C)", "Add", "bounds", "check", "Ensure", "parameter", "value", "is", "within", "specify", "its", "default", "value", "Yes", "Optionality", "of", "Parameters", "(Sec.", "VI-B)", "Make", "optional", "Make", "parameter", "optional", "and", "Yes", "and", "internally", "replace", "references", "to", "it", "by", "a", "constant", "Transformation", "Semantics", "Inferred", "Deletions", "(Sec.", "VI-A)", "Remove", "Remove", "class", "or", "function", "Yes", "Replace", "with", "constant", "Remove", "parameter", "from", "new", "API"],
+  "name": "I",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 87.84,
+    "y2": 536.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00027-TableI-1.png"
+}, {
+  "caption": "Fig. 2: Example of preconditions hidden in a documentation snippet in Numpydoc format.",
+  "captionBoundary": {
+    "x1": 314.0260009765625,
+    "x2": 547.509033203125,
+    "y1": 491.9739685058594,
+    "y2": 507.45611572265625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 403.68,
+    "y2": 483.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00027-Figure2-1.png"
+}]

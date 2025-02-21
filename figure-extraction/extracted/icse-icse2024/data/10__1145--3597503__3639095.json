@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 2: Counts and types of the participant-written patches, by suggestion type.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.1241455078125,
+    "y1": 173.47732543945312,
+    "y2": 190.0670166015625
+  },
+  "figType": "Figure",
+  "imageText": ["deceptive", "APR", "8", "27", "2", "3", "correct", "APR", "44", "0", "1", "0", "developer", "39", "4", "0", "1", "es", "ti", "on", "no", "suggestion", "15", "6", "4", "15", "Su", "gg", "Participant", "Patch", "Correct", "Overfitting", "Incorrect", "None"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 83.52,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Mixed-effect multivariate logistic regression model parameters for predicting the participant submitting a correct patch (left) and an overfitting patch (right). For correct patches, the positive coefficients are statistically significant for correct APR and developer treatments, at 𝛼 = 0.05. For the deceptive APR treatment, the negative coefficient is only weakly statistically significant, at 𝛼 = 0.1. For overfitting patches, only the positive coefficient for the deceptive APR treatment is statistically significant, at 𝛼 = 0.05.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.7962036132812,
+    "y1": 226.46133422851562,
+    "y2": 319.76300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["fit", "𝑅2𝑚", "𝑅2𝑐", "𝑅2𝑚", "𝑅2𝑐", "0.559", "0.682", "0.953", "0.961", "𝜒2", "27.519", "<", "0.0001", "36.506", "<", "0.0001", "correct", "APR", "4.9839", "<", "0.0001", "-19.22", "0.997", "developer", "2.7721", "0.0002", "-0.3724", "0.595", "deceptive", "APR", "-1.0226", "0.0602", "2.82", "<", "0.0001", "intercept", "-0.5659", "0.243", "-1.9661", "<", "0.0001", "Coeff.", "p-value", "Coeff.", "p-value", "Participant", "Patch", "Correct", "Overfitting"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 83.52,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Correlation between patch type and generated fix type. The area of a circle shows the absolute value of the corresponding correlation coefficient. Blue-colored circles represent positive association (attraction). Red-colored circles represent negative association (repulsion).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6435241699219,
+    "y1": 285.5123596191406,
+    "y2": 334.97900390625
+  },
+  "figType": "Figure",
+  "imageText": ["Finding:", "93.3%", "of", "participants", "who", "received", "correct", "sug-", "gestions", "submitted", "correct", "patches.", "Receiving", "a", "correct", "suggestion", "helps", "successfully", "repair", "defects.", "We", "find", "no", "ev-", "idence", "that", "the", "source", "of", "the", "suggestion", "(APR", "or", "developer)", "matters;", "however,", "we", "do", "not", "evaluate", "whether", "informing", "participants", "of", "the", "source", "of", "the", "suggestion", "would", "have", "an", "effect."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 348.96,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Mixed-effect multivariate logistic regression parameters for two models, both predicting the participant submitting a correct patch. The top model compares the effect of any APR suggestion to having no suggestion, and bottom model separates out the effects of correct and deceptive APR suggestions. Access to any APR suggestion and to correct APR suggestions statistically significantly improves the chance of submitting a correct patch, while deceptive APR suggestions weakly statistically significantly decrease that chance.",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 559.7996826171875,
+    "y1": 282.02935791015625,
+    "y2": 386.2900085449219
+  },
+  "figType": "Figure",
+  "imageText": ["fit", "𝑅2𝑚", "=", "0.6201", "𝑅2𝑐", "=", "0.7128", "𝜒2", "16.898", "0.00021", "correct", "APR", "4.9404", "0.00018", "deceptive", "APR", "-1.0423", "0.081", "intercept", "-0.5551", "0.2573", "Model", "2,", "IV:", "type", "of", "APR", "suggestion", "Treatment", "Coeff.", "p-value", "fit", "𝑅2𝑚", "=", "0.0585", "𝑅2𝑐", "=", "0.0585", "𝜒2", "5.9687", "0.01456", "any", "APR", "0.9656", "0.0146", "intercept", "-0.5108", "0.1178", "Treatment", "Coeff.", "p-value"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 98.88,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Debugging time (in minutes) distribution by treatment.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63641357421875,
+    "y1": 245.94735717773438,
+    "y2": 262.5369873046875
+  },
+  "figType": "Figure",
+  "imageText": ["te", "s", "in", "u", "e", "i", "n", "m", "t", "im", "in", "g", "g", "g", "b", "u", "d", "e", "suggestion", "type", "no", "suggestion", "deceptive", "APR", "correct", "APR", "developer", "50", "40", "30", "20", "10"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 292.32,
+    "y1": 85.92,
+    "y2": 229.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Results of Tukey’s HSD post hoc analysis to compare means of debugging time between treatments; we omit results for order because, while accounting for order is important in the way it affects the effect of other variables, our focus in this question is how suggestions affect debugging time. The table shows p-values corresponding to whether the difference between the category in the row and the column is statistically meaningful; we bold results that are significant at 𝛼 = 0.05.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7941284179688,
+    "y1": 151.55935668945312,
+    "y2": 244.86199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["no", "suggestion", "0.0097", "<", "0.001", "0.9838", "correct", "APR", "—", "0.72617", "0.1044", "developer", "—", "—", "0.0011", "APR", "Correct", "Developer", "Deceptive"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 83.52,
+    "y2": 138.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Summary of the nine defects from the Defects4J benchmark used in our study. Note that while both Recoder (denoted ✓–) and SimFix produce (different) correct suggestions for Math 50, our study only uses the SimFix’ suggestion.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1798095703125,
+    "y1": 228.27236938476562,
+    "y2": 244.86199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Chart", "12", "Misuse", "of", "a", "setter", "method.", "✗", "✓", "✗", "✗", "✗", "✓", "Lang", "10", "Unnecessary", "whitespace-handling", "code", "needs", "to", "be", "deleted.", "✗", "✗", "✓", "✗", "✓", "✗", "Lang", "39", "Missing", "nullness", "check", "results", "in", "a", "NullPointerException.", "✗", "✓", "✗", "✗", "✗", "✓", "Lang", "51", "Missing", "return", "in", "a", "switch", "statement.", "✓", "✗", "✗", "✗", "✗", "✓", "Math", "33", "Use", "of", "a", "wrong", "variable", "as", "an", "argument.", "✓", "✓", "✗", "✗", "✗", "✓", "Math", "50", "Unnecessary", "assignment", "code", "needs", "to", "be", "deleted.", "✓–", "✓", "✗", "✗", "✗", "✓", "Math", "63", "Wrong", "comparison", "used", "for", "NaN", "values.", "✗", "✓", "✗", "✗", "✗", "✓", "Math", "96", "Wrong", "comparison", "used", "for", "complex", "numbers.", "✓", "✗", "✗", "✗", "✗", "✓", "Mockito", "29", "Missing", "nullness", "check", "results", "in", "a", "NullPointerException.", "✓", "✗", "✗", "✗", "✗", "✓", "defectID", "description", "correct", "deceptive", "Recoder", "SimFix", "TBar", "Recoder", "SimFix", "TBar"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 83.52,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Distribution of the participants’ ratings of the quality of the code suggestions. Red lines indicate each group’s mean values.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64251708984375,
+    "y1": 245.94735717773438,
+    "y2": 273.4959716796875
+  },
+  "figType": "Figure",
+  "imageText": ["g", "ra", "ti", "n", "count", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", "0", "5", "10", "15", "20", "0", "5", "10", "15", "20", "0", "5", "10", "15", "20", "correct", "APR", "deceptive", "APR", "developer"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 292.32,
+    "y1": 85.92,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639095-Figure8-1.png"
+}]

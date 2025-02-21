@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 4: Token normalization graph after the dead nodes and removal of variable flow edges, still present are fixed order edges (solid) and variable order edges (dashed).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.3788452148438,
+    "y1": 186.5647430419922,
+    "y2": 214.7490234375
+  },
+  "figType": "Figure",
+  "imageText": ["apply", "variable", "variable", "assign", "loop", "start"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 358.56,
+    "x2": 514.0799999999999,
+    "y1": 84.0,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure4-1.png"
+}, {
+  "caption": "Table 2: Comparison of the original and obfuscated token sequences with the obfuscated one after the two steps dead node removal and topological sorting Listing 1.",
+  "captionBoundary": {
+    "x1": 317.6409912109375,
+    "x2": 558.1954956054688,
+    "y1": 248.9857635498047,
+    "y2": 277.16998291015625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Original", "→", "Obfuscated", "→Nodes", "Removed→", "Top.", "Sorted", "1", "method", "start", "method", "start", "method", "start", "method", "start", "2", "variable", "variable", "variable", "variable", "3", "(+)", "variable", "(–)", "4", "loop", "start", "loop", "start", "loop", "start", "loop", "start", "5", "variable", "variable", "variable", "variable", "6", "apply", "(~)", "assignment", "assignment", "(~)", "apply", "7", "assignment", "(~)", "apply", "apply", "(~)", "assignment", "8", "loop", "end", "loop", "end", "loop", "end", "loop", "end", "9", "method", "end", "method", "end", "method", "end", "method", "end"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 291.84,
+    "y2": 394.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Table2-1.png"
+}, {
+  "caption": "Figure 2: Program dependence graph of the running example showing control dependencies (solid arrows) and data dependencies (dashed arrows).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.53594970703125,
+    "y1": 199.21177673339844,
+    "y2": 227.39697265625
+  },
+  "figType": "Figure",
+  "imageText": ["boolean", "debug", "=", "false", "println(square)", "int", "square", "=", "i", "*", "i ", "int", "i", "=", "1", "i++", "while", "(i", "<=", "10)"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 262.08,
+    "y1": 84.0,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Token normalization graph for the PDG in Figure 2, fixed order edges (solid), variable order edges (dashed), and variable flow edges (dotted). The critical (C), fixed-order (F), and loop (L) flags, with the variable access sets (r for read, w for write), are included for illustrative purposes.",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 295.2853088378906,
+    "y1": 362.8057556152344,
+    "y2": 412.9079895019531
+  },
+  "figType": "Figure",
+  "imageText": ["loop", "start", "[C,F,L]", "r={i}", "w=∅", "variable", "r=∅", "w={i}", "assign", "r={i}", "w={i}", "variable", "r={i}", "w={square}", "apply", "[C]", "r={square}", "w=∅", "variable"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 287.03999999999996,
+    "y1": 243.84,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Average SSO for all plagiarism instances of a dataset with our defense mechanism disabled (solid lines) and enabled (dashed lines). The green line is TicTacToe, the purple is BoardGame, the blue is PROGpedia-19, and the yellow is PROGpedia-56.",
+  "captionBoundary": {
+    "x1": 52.749000549316406,
+    "x2": 558.1788330078125,
+    "y1": 182.01976013183594,
+    "y2": 199.2459716796875
+  },
+  "figType": "Figure",
+  "imageText": ["c)", "insertion", "after", "re-ordering", "SS", "O", "ag", "e", "av", "er", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "b)", "reordering-based", "SS", "O", "ag", "e", "av", "er", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.98", "0.96", "0.94", "0.92", "0.9", "0", "0.2", "0.4", "0.6", "0.8", "1", "a)", "insertion-based", "SS", "O", "ag", "e", "av", "er", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure5-1.png"
+}, {
+  "caption": "Figure 6: SSO distribution for all three datasets with our defense mechanism disabled (blue) and enabled (orange).",
+  "captionBoundary": {
+    "x1": 78.49200439453125,
+    "x2": 533.4877319335938,
+    "y1": 308.0247497558594,
+    "y2": 314.2919921875
+  },
+  "figType": "Figure",
+  "imageText": ["c)", "insertion", "after", "re-ordering", "or", "e", "y", "sc", "ila", "rit", "si", "m", "1", "0.8", "0.6", "0.4", "0.2", "0", "PROGpedia-19", "PROGpedia-56", "TicTacToe", "BoardGame", "b)", "reordering-based", "or", "e", "y", "sc", "ila", "rit", "si", "m", "1", "0.95", "0.9", "0.85", "0.8", "PROGpedia-19", "PROGpedia-56", "TicTacToe", "BoardGame", "a)", "insertion-based", "or", "e", "y", "sc", "ila", "rit", "si", "m", "1", "0.8", "0.6", "0.4", "0.2", "0", "PROGpedia-19", "PROGpedia-56", "TicTacToe", "BoardGame"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 550.56,
+    "y1": 212.16,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Detailed SSOs for the datasets’ individual programs with our mechanism disabled (solid) and enabled (dashed).",
+  "captionBoundary": {
+    "x1": 66.14398193359375,
+    "x2": 545.8322143554688,
+    "y1": 700.603759765625,
+    "y2": 706.8709716796875
+  },
+  "figType": "Figure",
+  "imageText": ["l)", "BoardGame,", "insertion", "after", "re-ordering", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "k)", "BoardGame,", "reordering-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.95", "0.9", "0.85", "0.8", "0.75", "0", "0.2", "0.4", "0.6", "0.8", "1", "j)", "BoardGame,", "insertion-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "i)", "PROGpedia-56,", "insertion", "after", "re-ordering", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "h)", "PROGpedia-56,", "reordering-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.95", "0.9", "0.85", "0.8", "0.75", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "g)", "PROGpedia-56,", "insertion-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "f)", "PROGpedia-19,", "insertion", "after", "re-ordering", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "e)", "PROGpedia-19,", "reordering-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.95", "0.9", "0.85", "0.8", "0.75", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "d)", "PROGpedia-19,", "insertion-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "#", "modifications", "as", "proportion", "of", "statement", "count", "SS", "O", "c)", "TicTacToe,", "insertion", "after", "re-ordering", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "b)", "TicTacToe,", "reordering-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.95", "0.9", "0.85", "0.8", "0.75", "0", "0.1", "0.2", "0.3", "0.4", "a)", "TicTacToe,", "insertion-based", "SS", "O", "#", "modifications", "as", "proportion", "of", "statement", "count", "1", "0.8", "0.6", "0.4", "0.2", "0", "0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 556.8,
+    "y1": 321.59999999999997,
+    "y2": 696.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Token-based plagiarism detection process of JPlag.",
+  "captionBoundary": {
+    "x1": 54.159000396728516,
+    "x2": 293.6739807128906,
+    "y1": 217.20579528808594,
+    "y2": 223.4730224609375
+  },
+  "figType": "Figure",
+  "imageText": ["Pairwise", "Comparison", "Results", "independent", "Tokens", "T", "Language-", "T", "T", "JPlag", "Language", "Module", "Tokens", "Token", "Selection", "T", "Parse", "Tree", "T", "T", "Submissions", "Tokenization"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 280.32,
+    "y1": 85.44,
+    "y2": 204.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure1-1.png"
+}, {
+  "caption": "Table 1: Comparison of the original and obfuscated token sequences corresponding to the program statements in Listing 1.",
+  "captionBoundary": {
+    "x1": 317.6409912109375,
+    "x2": 559.6847534179688,
+    "y1": 85.08975982666016,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["#", "Original", "Tokens", "→", "Variant", "Tokens", "1", "method", "start", "method", "start", "2", "variable", "variable", "3", "(+)", "variable", "4", "loop", "start", "loop", "start", "5", "variable", "variable", "6", "apply", "(~)", "assignment", "7", "assignment", "(~)", "apply", "8", "loop", "end", "loop", "end", "9", "method", "end", "method", "end"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 549.12,
+    "y1": 116.64,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Table1-1.png"
+}, {
+  "caption": "Figure 8: The similarity scores of unrelated solutions with our defense mechanism enabled (orange) and disabled (blue).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.3839111328125,
+    "y1": 219.92478942871094,
+    "y2": 237.1510009765625
+  },
+  "figType": "Figure",
+  "imageText": ["or", "e", "y", "sc", "ila", "rit", "si", "m", "0.5", "0.4", "0.3", "0.2", "0.1", "0", "PROGpedia-19", "PROGpedia-56", "TicTacToe", "BoardGame"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 544.8,
+    "y1": 91.67999999999999,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Figure8-1.png"
+}, {
+  "caption": "Table 3: Runtime for TicTacToe (626 programs, 167.562 LOC total, ~200.000 comparisons) and BoardGame (434 programs, 685.730 LOC total, ~94.000 comparisons), avg. of 100 runs.",
+  "captionBoundary": {
+    "x1": 317.6409912109375,
+    "x2": 559.4348754882812,
+    "y1": 253.84275817871094,
+    "y2": 282.02801513671875
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Metric", "disabled", "enabled", "diff", "TicTacToe", "Runtime", "6.97s", "7.86s", "+0.89s", "𝜎", "(SD)", "0.10s", "0.10s", "BoardGame", "Runtime", "16.83s", "23.28s", "+6.45s", "𝜎", "(SD)", "0.53s", "0.44s"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 542.4,
+    "y1": 296.64,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639192-Table3-1.png"
+}]

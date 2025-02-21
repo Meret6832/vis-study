@@ -1,0 +1,361 @@
+[{
+  "caption": "Figure 4. Overview of HGNN-based hyperlink prediction framework.",
+  "captionBoundary": {
+    "x1": 166.4611053466797,
+    "x2": 445.54058837890625,
+    "y1": 229.32070922851562,
+    "y2": 233.67388916015625
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "Hypergraph", "Neural", "Network", "Layer", "Dropout", "Pooling", "Fully", "Connected", "Output"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 521.28,
+    "y1": 82.56,
+    "y2": 213.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure4-1.png"
+}, {
+  "caption": "Figure 5. An illustrated example of the procedure of refactoring opportunity suggestion algorithm.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6466369628906,
+    "y1": 333.9278259277344,
+    "y2": 349.239990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 250.56,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure5-1.png"
+}, {
+  "caption": "Table 8: Detected refactoring candidates of extracted class: IDDatatypeValidator with various refactoring tools.",
+  "captionBoundary": {
+    "x1": 81.48709869384766,
+    "x2": 530.2176513671875,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Method1", "public", "IDDatatypeValidator()", "{...}", "Method2", "public", "Object", "validate(String", "content,", "Object", "IDStorage)", "{...}", "Method3", "public", "Object", "clone()", "{...}", "Method4", "private", "boolean", "addId(String", "content,", "Object", "idTable)", "{...}", "Method5", "public", "void", "setLocale(Locale", "locale)", "{...}", "Method6", "private", "String", "getErrorString(int", "major,", "int", "minor,", "Object", "args[])", "{...}", "Field1", "private", "Object", "fNullValue", "=", "null;", "Field2", "private", "DatatypeMessageProvider", "fMessageProvider", "=", "new", "DatatypeMessageProvider();", "Field3", "private", "Hashtable", "fTableOfId;", "Field4", "private", "Locale", "fLocale", "=", "null;", "Field5", "private", "int", "fFacetsDe", "ned", "=", "0;", "Field6", "private", "int", "fLength", "=", "0;", "Field7", "private", "Vector", "fEnumeration", "=", "new", "Vector();", "Field8", "public", "static", "nal", "int", "IDREF_STORE", "=", "0;", "Field9", "public", "static", "nal", "int", "ID_CLEAR", "=", "1;", "Label", "Field", "or", "Method", "Declaration", "Ground-Truth", "LLMRefactor", "JDeodorant", "SSECS", "HECS-V"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 554.4,
+    "y1": 105.6,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table8-1.png"
+}, {
+  "caption": "Figure 1. General process of suggestion of Extract Class refactoring opportunities.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8096313476562,
+    "y1": 495.3868103027344,
+    "y2": 510.6990051269531
+  },
+  "figType": "Figure",
+  "imageText": ["method끫룀", "}", "fieldk", "method1", "…", "EClass{", "field1", "…", "method1", "field1", "method끫뢴", "}", "field끫뢶", "method1", "…", "Class{", "field1", "…", "Method", "Set", "Field", "Set", "Detection", "ToolTarget", "Class", "Parse", "Extracted", "Class", "OutputInput"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 536.64,
+    "y1": 430.56,
+    "y2": 479.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure1-1.png"
+}, {
+  "caption": "Figure 8. A running example of the used veri cation prompt.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04559326171875,
+    "y1": 682.90380859375,
+    "y2": 687.2570190429688
+  },
+  "figType": "Figure",
+  "imageText": ["Completions:", "|Pre-conditions", "|", "P1|", "P2|P3|P4|P5|P6|", "P7", "|", "P8", "|", "RESULT", "|", "|--------------------", "|----", "|----|", "---", "|", "---|", "---|---", "|----------", "|-----------------", "|-----------", "|", "|Extract", "Entity", "|", "nl", "|", "ll", "|", "n", "|", "n", "|", "|", "n", "|", "A.m2()", "|", "A.f2,A.m2()", "|", "|", "|Verification", "|", "√", "|", "√", "|", "√", "|", "√", "|", "√", "|", "√", "|", "×", "|", "√", "|", "FAILED", "|", "Input", "Prompt:", "Please", "verify", "whether", "the", "candidate", "meet", "pre-conditions", "P1-P8", "by", "extracting", "the", "pre-condition", "relevant", "entities", "from", "the", "candidate", "and", "presenting", "the", "verification", "results", "in", "tabular", "form.", "1.", "Pre-condition", "rules", "(P1-P8)", "as", "follows:", "…", "2.", "Consider", "the", "following", "test", "extract", "class", "candidate:", "Source", "class:", "-", "class", "A", "{", "-", "int", "f1;", "-", "double", "f2;", "-", "void", "m1(){…}", "-", "int", "m2(){", "synchronized", "(this){…}", "}", "-", "}", "Extract", "class", "candidate:", "-", "field:", "A.f2", "-", "method:", "A.m2()"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 497.28,
+    "y2": 667.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure8-1.png"
+}, {
+  "caption": "Figure 6. The graphical user interface of our prototype implementation as a VSCode extension.",
+  "captionBoundary": {
+    "x1": 113.83700561523438,
+    "x2": 498.1642761230469,
+    "y1": 273.1310119628906,
+    "y2": 277.48419189453125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "A", "snapshot", "of", "detection", "view", "(b)", "A", "snapshot", "of", "refactoring", "view"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 561.12,
+    "y1": 92.64,
+    "y2": 255.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure6-1.png"
+}, {
+  "caption": "Figure 7. A running example of the used extraction prompt.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0442810058594,
+    "y1": 481.5338134765625,
+    "y2": 485.8869934082031
+  },
+  "figType": "Figure",
+  "imageText": ["Completions:", "-", "yes,", "B.f1", "Input", "Prompt:", "1.", "Pre-condition:", "P5", "refers", "to", "the", "field", "that", "is", "accessed", "by", "fields", "or", "methods", "of", "other", "classes.", "2.", "Few-shot", "Learning", "Examples", "1-3:", "[code", "snippet1]", "[example", "input1]", "[example", "output1]", "…", "3.", "Consider", "the", "following", "test", "code", "snippet:", "-", "class", "B", "{", "-", "private", "int", "f1;", "-", "public", "void", "m1(int", "val)", "{", "f1", "=", "val;", "}", "-", "}", "-", "class", "C", "{", "-", "private", "B", "b;", "-", "public", "C()", "{", "b", "=", "new", "B();", "}", "-", "public", "void", "m1()", "{", "b.m1(10);", "}", "-", "}", "Does", "the", "code", "snippet", "have", "pre-condition:", "P5", "relevant", "entities?", "Consider", "the", "task", "of", "extracting", "the", "pre-condition:", "P5", "relevant", "entities", "from", "the", "test", "code", "snippet", "(along", "with", "three", "examples):"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 299.52,
+    "y2": 465.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure7-1.png"
+}, {
+  "caption": "Table 2: Statistics of used datasets.",
+  "captionBoundary": {
+    "x1": 368.7860107421875,
+    "x2": 507.074951171875,
+    "y1": 299.0338134765625,
+    "y2": 303.3869934082031
+  },
+  "figType": "Table",
+  "imageText": ["ECTrainSet", "[10]", "11149", "41191", "224404", "24043", "ECAccEval", "[53]", "185", "106", "554", "53", "ECHumanEval", "[32]", "2", "19", "66", "72", "Dataset", "#Project", "#EClass", "#EMethod", "#EField"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 547.1999999999999,
+    "y1": 317.76,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table2-1.png"
+}, {
+  "caption": "Table 6: Accuracy of various refactoring tools on ECHumanEval [32]. P: Precision, R: Recall, F1: F1-Measure.",
+  "captionBoundary": {
+    "x1": 86.91400146484375,
+    "x2": 524.7902221679688,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["GPViewImpl", "443", "1", "1", "2", ".182", ".667", ".286", ".25", ".333", ".286", ".333", ".333", ".333", "1", "+", ".667+", ".8+", "GanttTaskPropertiesBean", "477", "2", "4", "1", ".17", ".889", ".285", ".22", "1", "+", ".361", ".342", ".417", ".376", ".693+", ".867", ".77+", "GanttResourcePanel", "653", "1", "21", "33", ".063", "1", "+", ".119", ".188", "1", "+", ".316", ".438", "1", "+", ".609", ".83+", ".929", ".877+", "GanttProject", "ExporterToHTML", "357", "1", "6", "0", ".2", ".667", ".308", ".667", ".625", ".645", ".516", ".889", ".653", ".727+", ".889+", ".8+", "ChartModelBase", "481", "2", "5", "6", ".046", ".75", ".087", ".286", "1", "+", ".445", ".557+", ".975", ".709", ".556", "1", "+", ".715+", "ChartModelImpl", "470", "1", "2", "0", ".059", "1", "+", ".111", ".333", "1", "+", ".5", ".455", "1", "+", ".625", "1", "+", ".933", ".965+", "DependencyGraph", "675", "1", "2", "4", ".06", "1", "+", ".113", ".111", ".333", ".167", ".405", ".711", ".516", ".462+", ".956", ".623+", "XMLDTDValidator", "1916", "1", "0", "13", ".325", "1", "+", ".491", ".148", "1", "+", ".258", ".128", ".077", ".096", "1", "+", ".8", ".889+", "XMLSerializer", "1482", "1", "12", "1", ".292", ".5", ".369", ".462", ".429", ".445", ".594", ".679+", ".634+", ".667+", ".5", ".572", "XSParticleDecl", "241", "2", "3", "2", ".105", "1", "+", ".19", ".143", ".643", ".234", ".5", ".25", ".333", "1", "+", ".875", ".933+", "Xerces", "Serializer", "221", "1", "4", "0", ".667", ".5", ".572", ".45", ".6", ".514", "1", "+", ".5", ".667", ".615", "1", "+", ".762+", "DOMParser", "3154", "3", "4", "4", ".059", ".333", ".1", ".063", ".333", ".106", ".235", ".167", ".195", ".56+", ".979+", ".712+", "IDDatatypeValidator*", "181", "1", "1", "4", ".5", ".8", ".615", ".4", ".4", ".4", ".5", ".2", ".286", "1", "+", ".8+", ".889+", "NodeImpl", "1220", "1", "1", "2", ".04", ".333", ".071", ".188", "1", "+", ".316", ".393", ".333", ".361", ".645+", ".606", ".625+", "Subject", "Target", "Class", "LOC", "#EClass", "#EMethod", "#EField", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "LLMRefactor", "JDeodorant", "SSECS", "HECS-V"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 549.12,
+    "y1": 105.6,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table6-1.png"
+}, {
+  "caption": "Table 7: Extract Class refactoring tools questionnaire.",
+  "captionBoundary": {
+    "x1": 65.28089904785156,
+    "x2": 282.2679138183594,
+    "y1": 268.9168395996094,
+    "y2": 273.27001953125
+  },
+  "figType": "Table",
+  "imageText": ["Q3.", "Would", "you", "prefer", "to", "use", "tools", "for", "detecting", "Extract", "Class", "Refactoring", "opportunities?", "□", "Yes", "□Maybe", "□", "No", "Q2.", "How", "often", "do", "you", "consider", "using", "Extract", "Class", "Refactoring", "in", "your", "projects?", "□", "Never", "□", "Rarely", "□", "Sometimes", "□", "Often", "□", "Always", "Tools", "Evaluation", "Q1.", "Years", "of", "Experience", "in", "Software", "Development", "□", "Less", "than", "1", "year", "□", "1", "−", "3", "years", "□", "4", "−", "5", "years", "□", "6", "−", "10", "years", "□More", "than", "10", "years", "Participants", "Information"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 288.0,
+    "y2": 406.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table7-1.png"
+}, {
+  "caption": "Figure 10. Run-time overhead of HECS on ECHumanEval [32].",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0450134277344,
+    "y1": 620.0377807617188,
+    "y2": 635.3499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Do", "you", "have", "any", "suggestions", "for", "features", "or", "improvements", "in", "extract", "class", "refactoring", "tools?", "Open", "Question", "Additional", "Comments", "Q4.", "Which", "of", "these", "tools", "do", "you", "recommend?", "(Please", "select", "only", "one)", "□", "Tool", "1", "□", "Tool", "2", "□", "Tool", "3", "□", "Tool", "4"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 412.8,
+    "y2": 605.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure10-1.png"
+}, {
+  "caption": "Table 1: Characteristics of selective pre-trained code models.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 293.92486572265625,
+    "y1": 484.48980712890625,
+    "y2": 488.8429870605469
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "[22]", "125M", "RoBERTa", "CodeSearchNet", "[29]", "GraphCodeBERT", "[26]", "125M", "RoBERTa", "CodeSearchNet", "[29]", "CodeGPT", "[34]", "124M", "GPT2", "CodeSearchNet", "[29]", "CodeT5", "[55]", "220M", "T5", "CodeSearchNet", "[29]", "and", "BigQuery", "[25]", "CoTexT", "[45]", "220M", "T5", "CodeSearchNet", "[29]", "and", "BigQuery", "[25]", "PLBART", "[5]", "140M", "BART", "Self-Collected", "Model", "Size", "Architecture", "Pre-trained", "Dataset"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 283.2,
+    "y1": 504.0,
+    "y2": 562.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table1-1.png"
+}, {
+  "caption": "Figure 2. An illustrated motivation example of Extract Class Refactoring operation. (Lines 5 to 8 and 95 to 97 in (a) are extracted as the class: HexBinaryDatatypeValidator in (b), nodes with dark grey color and “*” mark represent extracted elds or methods)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2044677734375,
+    "y1": 267.7848205566406,
+    "y2": 283.09698486328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure2-1.png"
+}, {
+  "caption": "Figure 3. Overview of the proposed approach: HECS including training phase and detection phase.",
+  "captionBoundary": {
+    "x1": 107.41799926757812,
+    "x2": 504.5855407714844,
+    "y1": 458.5868225097656,
+    "y2": 462.94000244140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 544.3199999999999,
+    "y1": 297.59999999999997,
+    "y2": 444.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure3-1.png"
+}, {
+  "caption": "Table 4: Statistical test results of Cli ’s X between all the hypergraph/graph neural networks on precision, recall, and f1-measure score.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04486083984375,
+    "y1": 212.31484985351562,
+    "y2": 238.58599853515625
+  },
+  "figType": "Table",
+  "imageText": ["HGNN", "vs", "HGNN+", "1", "(large)", "-1", "(large)", "-0.333", "(medium)", "HGNN", "vs", "GraphSAGE", "1", "(large)", "0.528", "(large)", "0.944", "(large)", "HGNN", "vs", "GCN", "1", "(large)", "-1", "(large)", "0.667", "(large)", "HGNN", "vs", "GAT", "1", "(large)", "0.278", "(small)", "0.833", "(large)", "HGNN+", "vs", "GraphSAGE", "0.778", "(large)", "1", "(large)", "1", "(large)", "HGNN+", "vs", "GCN", "1", "(large)", "-1", "(large)", "0.944", "(large)", "HGNN+", "vs", "GAT", "0.833", "(large)", "1", "(large)", "0.944", "(large)", "GraphSAGE", "vs", "GCN", "1", "(large)", "-1", "(large)", "-1", "(large)", "GraphSAGE", "vs", "GAT", "0.05", "(negligible)", "0.05", "(negligible)", "-0.056", "(negligible)", "GCN", "vs", "GAT", "-0.667", "(large)", "1", "(large)", "0.611", "(large)", "Neural", "Network", "Pair", "Precision", "Recall", "F1-Measure"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 253.44,
+    "y2": 357.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table4-1.png"
+}, {
+  "caption": "Table 3: Performance of various combinations on the ECTrainSet [10].",
+  "captionBoundary": {
+    "x1": 164.02000427246094,
+    "x2": 447.6854553222656,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "[22]", ".926", ".584", ".716", ".705", ".753∗", ".728∗", ".597", ".596", ".597", ".790", ".334", ".469", ".654", ".592", ".622", "CodeT5", "[55]", ".873", ".586", ".701", ".701", ".725", ".713", ".581", ".335", ".425", ".786", ".197", ".315", ".565", ".360", ".440", "CodeGPT", "[34]", ".901", ".575", ".702", ".721", ".716", ".719", ".631", ".456", ".529", ".789", ".280", ".413", ".644", ".660", ".652", "GraphCodeBERT", "[26]", ".922", ".573", ".707", ".741", ".709", ".725", ".581", ".407", ".479", ".785", ".308", ".442", ".552", ".341", ".422", "PLBART", "[5]", ".837", ".456", ".590", ".675", ".696", ".686", ".616", ".523", ".566", ".673", ".284", ".400", ".411", ".233", ".297", "CoTexT", "[45]", ".928∗", ".586", ".718", ".583", ".731", ".649", ".593", ".545", ".568", ".764", ".275", ".404", ".642", ".560", ".599", "Pre-trained", "Model", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "HGNN", "[21]", "HGNN+", "[24]", "GraphSAGE", "[28]", "GCN", "[33]", "GAT", "[54]"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 533.28,
+    "y1": 105.6,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table3-1.png"
+}, {
+  "caption": "Table 5: Performance of various refactoring tools on ECAccEval [53].",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.0030822753906,
+    "y1": 361.90582275390625,
+    "y2": 377.2179870605469
+  },
+  "figType": "Table",
+  "imageText": ["HECS-U", "60.1%", "68.6%", "64.1%", "HECS-V", "76.8%", "84.3%", "80.4%", "LLMRefactor", "19.8%", "74.6%", "31.3%", "JDeodorant", "24.1%", "71.2%", "36.0%", "SSECS", "38.3%", "16.1%", "22.7%", "Refactoring", "Tool", "Precision", "Recall", "F1-Measure"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 259.2,
+    "y1": 391.68,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Table5-1.png"
+}, {
+  "caption": "Figure 9. Questionnaire results achieved in our user study.",
+  "captionBoundary": {
+    "x1": 56.24689865112305,
+    "x2": 291.59716796875,
+    "y1": 603.1807861328125,
+    "y2": 607.5339965820312
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 458.4,
+    "y2": 588.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680379-Figure9-1.png"
+}]

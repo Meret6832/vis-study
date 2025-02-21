@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 6: Example of NPG.",
+  "captionBoundary": {
+    "x1": 384.6700134277344,
+    "x2": 491.4867858886719,
+    "y1": 197.37709045410156,
+    "y2": 201.6719970703125
+  },
+  "figType": "Figure",
+  "imageText": ["NPG", "ANPG", "BNPG", "Property", "Modifiable", "Instrumentation", "Root", "Property", "Accessible", "Property", "Bindable", "Property", "Accessible", "Instrumentation"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 551.04,
+    "y1": 82.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Figure6-1.png"
+}, {
+  "caption": "Figure 1: The data binding work ow of the web framework.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1993408203125,
+    "y1": 232.02308654785156,
+    "y2": 236.3179931640625
+  },
+  "figType": "Figure",
+  "imageText": ["", "", "", "", "Web", "Framework", "HTTP", "Request", "Data", "Binding", "Rules", "Set", "Property", "pn", "value", "to", "v", "Recursive", "Extract", "Sub-Property", "pi", "...", "Filtering", "Rules", "Property", "R/W", "Permission", "Exception", "Handling", "Rules", "Data", "Type", "Conversion", "Security", "Filtering", "Rules", "?p1.p2....pn=v"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 552.0,
+    "y1": 85.92,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Figure1-1.png"
+}, {
+  "caption": "Table 5: Performance and precision of DIVER in detecting data binding vulnerabilities.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0433654785156,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Jetty", "1h58m", "9", "9", "100%", "Tomcat", "1h8m", "12", "12", "100%", "Con", "rmed", "Properties", "Precision", "Identi", "ed", "properties", "Time", "Container", "Fuzzing"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 296.15999999999997,
+    "y1": 116.64,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Table5-1.png"
+}, {
+  "caption": "Figure 2: A data binding example with Spring framework.",
+  "captionBoundary": {
+    "x1": 57.13520050048828,
+    "x2": 290.70989990234375,
+    "y1": 249.3540802001953,
+    "y2": 253.64898681640625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "class", "Shop", "{", "2", "private", "Book", "book;", "3", "public", "Book", "getBook", "()", "{", "4", "return", "this.book;", "5", "}", "6", "...", "//", "omit", "setter", "7", "}", "8", "public", "class", "Book", "{", "9", "private", "String", "title;", "10", "public", "void", "setTitle(String", "title)", "{", "11", "this.title", "=", "title;", "12", "}", "13", "...", "//", "omit", "getter", "14", "}", "15", "//", "data", "binding", "controller", "16", "@RequestMapping(\"/findShop\")", "17", "public", "String", "findShop(Shop", "shop){", "18", "...", "19", "}"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 295.2,
+    "y1": 86.88,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The attack process of Spring4Shell vulnerability.",
+  "captionBoundary": {
+    "x1": 320.9639892578125,
+    "x2": 555.193359375,
+    "y1": 324.65411376953125,
+    "y2": 328.9490051269531
+  },
+  "figType": "Figure",
+  "imageText": ["❶", "HTTP", "Binding", "Request", "1", "POST", "/path", "HTTP/1.1", "2", "header1:", "<%Runtime", "3", "header2:", "%>", "4", "5", "class.module.classLoader.resources.context.parent.pipeline.first.directory=webapps/ROOT&", "6", "class.module.classLoader.resources.context.parent.pipeline.first.prefix=poc&", "7", "class.module.classLoader.resources.context.parent.pipeline.first.fileDateFormat=1&", "8", "class.module.classLoader.resources.context.parent.pipeline.first.suffix=.jsp&", "9", "class.module.classLoader.resources.context.parent.pipeline.first.pattern=%25{header1}i.getRuntime().", "exec(request.getParameter(\"cmd\"))%3b%25{header2}i", "<%", "Runtime.getRuntime().exec(request.getParameter(\"cmd\"));", "%>", "❹", "HTTP", "Trigger", "Request", "❷", "Modify", "Property", "Values", "poc1.jsp?cmd=<cmd>", "Payload", "poc1.jsp", "Web", "Host", "Attacker", "Tomcat", "Container", "Spring", "Framework", "❸", "Generate", "Webshell", "File"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 87.84,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Figure3-1.png"
+}, {
+  "caption": "Table 1: Comparison with SnykTool.",
+  "captionBoundary": {
+    "x1": 99.97100067138672,
+    "x2": 247.5755157470703,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["*", "BNP:", "Bindable", "Nested", "Property.", "DIVER", "2021", "1777", "87.93%", "Jetty", "SnykTool", "388", "268", "69.07%", "DIVER", "812", "793", "97.66%", "Tomcat", "SnykTool", "356", "283", "79.49%", "Container", "Tool", "BNPs", "True", "BNPs", "Precision"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 283.2,
+    "y1": 105.6,
+    "y2": 180.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Table1-1.png"
+}, {
+  "caption": "Figure 7: Comparison of + '10B4 , + '08 , and + '08<8 . + '08<8 signi cantly reduces the number of paths.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.735107421875,
+    "y1": 204.3841094970703,
+    "y2": 220.83294677734375
+  },
+  "figType": "Figure",
+  "imageText": ["Grails", "framework", "DIVERbase", "DIVERai", "DIVERaimi", "be", "r", "N", "um", "Pa", "th", "1010", "108", "106", "104", "102", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Nested", "Depth", "Spring", "framework", "DIVERbase", "DIVERai", "DIVERaimi", "be", "r", "N", "um", "Pa", "th", "1011", "109", "107", "105", "103", "101", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Nested", "Depth"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 557.28,
+    "y1": 83.03999999999999,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Figure7-1.png"
+}, {
+  "caption": "Figure 4: Properties and their nesting relationships in a real web application runtime environment. Each node represents a property, and the directed edge represents the nesting relationships among the properties, labeled by the name of the property it points to (e.g., property ?10’s name is hashcode). Our detector automatically discovered the vulnerable path path2 and obtained a new CVE (CVE-2023-46131).",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.8106689453125,
+    "y1": 271.1011047363281,
+    "y2": 341.1499938964844
+  },
+  "figType": "Figure",
+  "imageText": ["p10", "Vulnerable", "Property", "p9", "p8", "p7", "p5", "p6", "p3", "p4", "p2", "p1", "path1", "path2", "(Vulnerable", "path)", "Root", "Property", "typevalue", "cachedClass", "hashCode", "getter", "mp", "mp", "metaPropertyValues[0]", "metaPropertyValues[0]", "metaPropertyValues[0]"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 329.28,
+    "x2": 546.24,
+    "y1": 85.44,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Figure4-1.png"
+}, {
+  "caption": "Table 4: List of CVEs have been assigned to us.",
+  "captionBoundary": {
+    "x1": 344.2537841796875,
+    "x2": 531.6069946289062,
+    "y1": 535.7058715820312,
+    "y2": 540.0007934570312
+  },
+  "figType": "Table",
+  "imageText": ["*", "RCE:", "Remote", "Code", "Execution.", "WSDoS:", "Web", "Service", "Denial", "of", "Service.", "1", "Spring", "RCE", "Patched", "CVE-2022-22965", "9.8/Critical", "2", "Grails", "RCE", "Patched", "CVE-2022-35912", "9.8/Critical", "3", "Grails", "WSDoS", "Patched", "CVE-2023-46131", "7.5/High", "No.", "Framework", "Impact", "Status", "CVE-ID", "Severity"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 561.12,
+    "y1": 554.88,
+    "y2": 611.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Table4-1.png"
+}, {
+  "caption": "Table 3: Detected vulnerable bindable nested properties in the JDK 11 environment.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2000732421875,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["*", "Each", "row", "represents", "the", "bindable", "nested", "property", "that", "can", "be", "exploited", "to", "launch", "an", "attack,", "the", "title", "is", "a", "property", "of", "the", "web", "application,", "and", "we", "omit", "the", "middle", "part", "of", "the", "nested", "properties", "for", "security", "considerations.", "*", "Manual:", "whether", "vulnerability", "exploitation", "needs", "manual", "e", "ort.", "OSDoS", "title...threadPool.minThreads", "N", "title.class.class.name", "N", "title....context.available", "N", "title...context.contextPath", "N", "title...cachedClass.hashCode", "N", "title...declaringClass.hashCode", "N", "title...cachedMethod.(slot,", "root),", "title.properties[“blank”]", "Y", "Grails", "&", "Jetty", "WSDoS", "title...group.nthreads", "N", "title...server.utilityThreads", "N", "title...parent.startStopThreads", "N", "title...context.startStopThreads", "N", "title...container.startStopThreads", "N", "OSDoS", "title...context.path", "N", "title...context.paused", "N", "title...container.defaultHost", "N", "title...mapper.defaultHostName", "N", "title...loaderLock.sync.state", "N", "title...managerLock.sync.state", "N", "title...cachedClass.hashCode", "N", "title...declaringClass.hashCode", "N", "title...mapper.metaPropertyValues[1].value", "N", "title...container.metaPropertyValues[1].value", "N", "title...authenticator.metaPropertyValues[1].value", "N", "title...mapper.metaPropertyValues[1].metaPropertyValues[0].value", "N", "title...container.metaPropertyValues[1].metaPropertyValues[0].value", "N", "title...cachedMethod.(slot,", "root),", "title.properties[“blank”]", "Y", "WSDoS", "RCE", "title...", "rst.(pattern,", "su", "x,", "directory,", "pre", "x,", "leDateFormat)", "Y", "AFR", "title...parent.appBase", "N", "Grails", "&", "Tomcat", "title...cachedClass.hashCode", "N", "title...declaringClass.hashCode", "N", "title...cachedMethod.(slot,", "root),", "title.properties[“blank”]", "Y", "Grails", "&", "Standalone", "WSDoS", "OSDoS", "class...threadPool.minThreads", "N", "class...", "lter.encoding", "N", "class...context.available", "N", "class...context.contextPath", "N", "class...context.virtualHosts", "N", "class...connectors[0].defaultProtocol", "N", "class...connectors[0].acceptedSendBu", "erSize", "N", "class...connectors[0].acceptedReceiveBu", "erSize", "N", "class...defaultConnectionFactory.inputBu", "erSize", "N", "Spring", "&", "Jetty", "WSDoS", "class...server.utilityThreads", "N", "class...engine.startStopThreads", "N", "class...parent.startStopThreads", "N", "class...context.startStopThreads", "N", "OSDoS", "class...context.path", "N", "class...engine.defaultHost", "N", "class...parentFile.executable", "N", "class...appBaseFile.executable", "N", "class...catalinaBase.executable", "N", "class...mapper.defaultHostName", "N", "class...parentFile.parentFile.executable", "N", "WSDoS", "RCE", "class...", "rst.(pattern,", "su", "x,", "directory,", "pre", "x,", "leDateFormat)", "Y", "AFR", "class...parent.appBase", "N", "Spring", "&", "Tomcat", "Framework", "&", "Deployment", "Attack", "Bindable", "Nested", "Property", "Manual"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 116.64,
+    "y2": 515.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Table3-1.png"
+}, {
+  "caption": "Table 2: An overview of attacks on the detected vulnerable bindable nested properties.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.045654296875,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["*", "RCE:", "Remote", "Code", "Execution;", "AFR:", "Arbitrary", "File", "Read;", "WSDoS:", "Web", "Service", "Denial", "of", "Service;", "OSDoS:", "Operating", "System", "Denial", "of", "Service.", "Jetty", "-", "-", "8", "1", "Tomcat", "1", "1", "7", "4", "Standalone", "-", "-", "-", "-", "Spring", "Jetty", "-", "-", "6", "1", "Tomcat", "1", "1", "14", "5", "Standalone", "-", "-", "3", "-", "Grails", "JDK", "11", "Jetty", "-", "-", "-", "-", "Tomcat", "-", "-", "-", "-", "Standalone", "-", "-", "-", "-", "Spring", "Jetty", "-", "-", "7", "1", "Tomcat", "1", "1", "9", "5", "Standalone", "1", "-", "3", "-", "Grails", "JDK", "8", "RCE", "AFR", "WSDoS", "OSDoS", "JDK", "Framework", "Deployment", "Attack"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 294.24,
+    "y1": 116.64,
+    "y2": 274.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Table2-1.png"
+}, {
+  "caption": "Figure 5: The architecture of DIVER (NPG: Nested Property Graph; ANPG: Accessible Nested Property Graph; BNPG: Bindable Nested Property Graph).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2055053710938,
+    "y1": 164.27210998535156,
+    "y2": 179.5260009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Flow", "Fuzzing", "Mutation", "Aware", "Propery-", "Property-Aware", "Fuzzing", "(§4.4)", "Report", "Bug", "Extraction", "Nested", "Property", "Definition", "NPG", "NPG-Based", "Extraction", "(§4.2)", "tation", "Modifiable", "Instrumen-", "tation", "Accessible", "Instrumen-", "BSI-Based", "Identification", "(§4.3)", "ANPG", "Application", "Properties", "Web", "Nested", "Bindable", "NPG", "BNPG"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 546.24,
+    "y1": 85.92,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680367-Figure5-1.png"
+}]

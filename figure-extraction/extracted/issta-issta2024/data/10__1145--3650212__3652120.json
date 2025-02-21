@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 7: GPT template prompts.",
+  "captionBoundary": {
+    "x1": 107.83519744873047,
+    "x2": 240.00901794433594,
+    "y1": 248.37196350097656,
+    "y2": 252.6668701171875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Prompt", "paradigm", "for", "extracting", "the", "quantum", "constraints.", "Generation", "target", "Output", "requirements", "Descriptions", "of", "the", "inputs", "Please", "generate", "Boolean", "expressions", "via", "the", "inputs", "below", "without", "any", "comments.", "Inputs:", "The", "parameter", "name", "is", "<arg_name>", ",", "its", "type", "is", "<arg_type>,", "and", "the", "constraint", "description", "is", "“<arg_desc>”.", "Requirments:", "1.", "The", "Boolean", "expressions", "can", "contain", "Q#", "API", "callables,", "for", "example,", "use", "the", "'Length(arg_name)'", "format", "to", "express", "the", "length", "of", "an", "array;", "2.", "The", "binary", "operators", "include", ">,", "<,", ">=,", "<=,", "==", "and", "!=;", "3.", "The", "logical", "operators", "include", "&", "or", "||.", "Descriptions", "of", "the", "inputs", "Output", "requirements", "Generation", "target", "Please", "generate", "a", "quaternion", "via", "the", "inputs", "below", "without", "any", "comments.", "Inputs:", "The", "parameter", "name", "is", "<arg_name>,", "its", "type", "is", "<arg_type>,", "and", "the", "constraint", "description", "is", "“<arg_desc>”.", "Requirements:", "The", "output", "is", "expressed", "as", "({axis},", "{result},", "{probability},", "{tolerance}),", "where", "{axis}", "may", "be", "X-axis,", "Y-axis,", "or", "Z-axis;", "{result}", "may", "be", "One", "or", "Zero;", "{probability}", "is", "a", "float", "number", "from", "0.0", "to", "1.0;", "and", "{tolerance}", "is", "a", "float", "number.", "For", "example,", "the", "quantum", "state", "|0>", "can", "be", "expressed", "as", "(Z-axis,", "Zero,", "1.0,", "0.0).", "(a)", "Prompt", "paradigm", "for", "extracting", "the", "classical", "constraints.", "Generation", "target", "Output", "requirements", "Descriptions", "of", "the", "inputs", "Please", "generate", "Boolean", "expressions", "via", "the", "inputs", "below", "without", "any", "comments.", "Inputs:", "The", "parameter", "name", "is", "<arg_name>", ",", "its", "type", "is", "<arg_type>,", "and", "the", "constraint", "description", "is", "“<arg_desc>”.", "Requirments:", "1.", "The", "Boolean", "expressions", "can", "contain", "Q#", "API", "callables,", "for", "example,", "use", "the", "'Length(arg_name)'", "format", "to", "express", "the", "length", "of", "an", "array;", "2.", "The", "binary", "operators", "include", ">,", "<,", ">=,", "<=,", "==", "and", "!=;", "3.", "The", "logical", "operators", "include", "&", "or", "||.", "Descriptions", "of", "the", "inputs", "Output", "requirements", "Generation", "target", "Please", "generate", "a", "quaternion", "via", "the", "inputs", "below", "without", "any", "comments.", "Inputs:", "The", "parameter", "name", "is", "<arg_name>,", "its", "type", "is", "<arg_type>,", "and", "the", "constraint", "description", "is", "“<arg_desc>”.", "Requirements:", "The", "output", "is", "expressed", "as", "({axis},", "{result},", "{probability},", "{tolerance}),", "where", "{axis}", "may", "be", "X-axis,", "Y-axis,", "or", "Z-axis;", "{result}", "may", "be", "One", "or", "Zero;", "{probability}", "is", "a", "float", "number", "from", "0.0", "to", "1.0;", "and", "{tolerance}", "is", "a", "float", "number.", "For", "example,", "the", "quantum", "state", "|0>", "can", "be", "expressed", "as", "(Z-axis,", "Zero,", "1.0,", "0.0)."],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 280.32,
+    "y1": 78.72,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure7-1.png"
+}, {
+  "caption": "Figure 10: The template used for synthesizing test cases.",
+  "captionBoundary": {
+    "x1": 324.60888671875,
+    "x2": 551.5484619140625,
+    "y1": 184.3211212158203,
+    "y2": 188.61602783203125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "}", "11", "}", "1", "namespace", "Test", "{", "2", "<Open", "directives", ">;", "//", "Necessary", "namespaces", "3", "<Callable", "declarations", ">;", "4", "//", "Parameters", "for", "type", "function", "(Optional)", "5", "@EntryPoint", "()", "6", "operation", "main()", ":", "Unit", "{", "7", "<Variable", "declarations", ">;", "//", "Boundary", "values", "8", "<Test", "code", ">;", "//", "Assembled", "code", "segments", "9", "<Diagnostic", "statements", ">;", "//", "Output", "statements"],
+  "name": "10",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 524.16,
+    "y1": 93.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure10-1.png"
+}, {
+  "caption": "Figure 13: Bugs discovered by Upbeat and its variants.",
+  "captionBoundary": {
+    "x1": 63.56800079345703,
+    "x2": 284.27545166015625,
+    "y1": 152.8891143798828,
+    "y2": 157.18402099609375
+  },
+  "figType": "Figure",
+  "imageText": ["◐", "�", "☒", "Bug", "No.", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "UPBEAT", "UPBEAT-B", "UPBEAT-A", "BoundErrorCrash", "Inconsistency", "Timeout", "�◐", "�◐", "☒", "☒", "☒", "☒", "☒", "☒", "☒"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 273.12,
+    "y1": 84.0,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure13-1.png"
+}, {
+  "caption": "Table 2: Analysis results for constraints extraction.",
+  "captionBoundary": {
+    "x1": 70.5841064453125,
+    "x2": 276.963623046875,
+    "y1": 177.2960968017578,
+    "y2": 181.59100341796875
+  },
+  "figType": "Table",
+  "imageText": ["API", "Document", "Quantum", "Constraints", "90%", "84%", "Quantum", "Constraints", "100%", "96%", "Classical", "Constraints", "80%", "81%", "Classical", "Constraints", "100%", "93%", "Source", "Code", "Source", "Type", "Recall", "Precision"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 184.79999999999998,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Table2-1.png"
+}, {
+  "caption": "Figure 4: A buggy Q# operator that fails to check the controlRegister input. Operation and function names are shortened to aid clarity.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2044677734375,
+    "y1": 268.4731140136719,
+    "y2": 294.68499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["2", "l", "e", "t", "v", "a", "r", "s", "=", "Length", "(", "c", "o", "n", "t", "r", "o", "l", "R", "e", "g", "i", "s", "t", "e", "r", ")", ";", "3", "l", "e", "t", "maxValue", "=", "PowL", "(", "2", "L", ",", "2^", "va", "r", "s", ")", ";", "4", "F", "a", "c", "t", "(", "func", ">=", "0L", "and", "func", "<maxValue", ",", "$", "\"", ".", ".", ".", "\"", ")", ";", "5", "A", "s", "s", "e", "r", "tQub", "i", "t", "(", "Zero", ",", "t", "a", "r", "g", "e", "t", ")", ";", "6", ".", ".", ".", "7", "l", "e", "t", "t", "a", "b", "l", "e", "=", "Encoded", "(", "S", "i", "z", "eAd", "j", "u", "s", "t", "e", "dT", "ru", "t", "hTab", "l", "e", "(", ".", ".", ".", ",", "v", "a", "r", "s", ")", ")", ";", "8", "l", "e", "t", "spectrum", "=", "FastHadamard", ".", ".", ".", "(", "t", "a", "b", "l", "e", ")", ";", "9", ".", ".", ".", "}", "[", "]", ",", "t", "a", "r", "g", "e", "t", ":", "Qubi", "t", ")", ":", "Un", "i", "t", "{", "1", "op", "e", "r", "a", "t", "i", "o", "n", "ApplyX", ".", ".", ".", "(", "func", ":", "B", "i", "g", "In", "t", ",", "c", "o", "n", "t", "r", "o", "l", "R", "e", "g", "i", "s", "t", "e", "r", ":", "Qubi", "t"],
+  "name": "4",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 540.96,
+    "y1": 182.4,
+    "y2": 259.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure4-1.png"
+}, {
+  "caption": "Figure 1: A simple Q# program.",
+  "captionBoundary": {
+    "x1": 110.6906967163086,
+    "x2": 237.15235900878906,
+    "y1": 174.05030822753906,
+    "y2": 178.34521484375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "namespace", "HelloQuantum", "{", "2", "open", "M", "i", "c", "r", "o", "s", "o", "f", "t", ".", "Quantum", ".", "I", "n", "t", "r", "i", "n", "s", "i", "c", ";", "3", "@EntryPoint", "(", ")", "4", "o", "p", "e", "r", "a", "t", "i", "o", "n", "P", "r", "e", "p", "a", "r", "e", "B", "e", "l", "l", "S", "t", "a", "t", "e", "(", ")", ":", "Un", "i", "t", "{", "5", "use", "q", "u", "b", "i", "t", "s", "=", "Qubi", "t", "[", "2", "]", ";", "6", "H(", "q", "u", "b", "i", "t", "s", "[", "0", "]", ")", ";", "7", "CNOT(", "q", "u", "b", "i", "t", "s", "[", "0", "]", ",", "q", "u", "b", "i", "t", "s", "[", "1", "]", ")", ";", "8", "DumpMachine", "(", ")", ";", "9", "R", "e", "s", "e", "tA", "l", "l", "(", "q", "u", "b", "i", "t", "s", ")", ";", "}", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 212.16,
+    "y1": 94.56,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An example function de ned in Q# API document.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 293.9328918457031,
+    "y1": 295.47711181640625,
+    "y2": 299.7720031738281
+  },
+  "figType": "Figure",
+  "imageText": ["4", "Q#", "Copy", "5", "function", "IntToPauli", "(idx", ":", "Int)", ":", "Pauli", "6", "Input", "7", "idx:", "Int", "8", "Integer", "in", "the", "range", "0..3", "to", "be", "converted", "to", "Pauli", "operators.", "9", "Output:", "Pauli", "10", "A", "Pauli", "operator", "given", "by", "[PauliI,", "PauliX,", "PauliY,", "PauliZ][idx].", "IntToPauli", "function", "1", "Namespace:", "Microsoft.Quantum.Simulation", "2", "Package:", "Microsoft.Quantum.Standard", "3", "Converts", "a", "integer", "to", "a", "single-qubit", "Pauli", "operator."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 286.08,
+    "y1": 189.6,
+    "y2": 287.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The proportion of boundary bugs in Q# libraries.",
+  "captionBoundary": {
+    "x1": 320.3009948730469,
+    "x2": 555.8572387695312,
+    "y1": 158.62208557128906,
+    "y2": 162.9169921875
+  },
+  "figType": "Figure",
+  "imageText": ["20.5%", "40.8%", "10.9%", "6.7%", "Boundary", "bugs", "Other", "bugs", "(Year)", "#", "B", "u", "g", "s", "60", "40", "20", "2019", "2020", "2021", "2022", "0"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 348.47999999999996,
+    "x2": 524.16,
+    "y1": 84.47999999999999,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure3-1.png"
+}, {
+  "caption": "Table 1: Bug list exposed by Upbeat.",
+  "captionBoundary": {
+    "x1": 363.6759948730469,
+    "x2": 512.1858520507812,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Doc.", "17", "Padded", "Arrays", "F", "-", "18", "Last", "-", "F", "-", "19", "ApproximateFactorial", "Math", "F", "†", "20", "_ComputeJordanWignerBitString", "Chemistry", "F", "-", "Impl.", "1", "Binom", "Math", "F", "†‡", "2", "HalfIntegerBinom", "Math", "F", "†‡", "3", "Sin", "Math", "C", "†", "4", "Ceiling", "Math", "C", "‡", "5", "Truncate", "Math", "S", "‡", "6", "IncrementPhaseByModularInteger", "Arithmetic", "S", "∗", "7", "IdenticalPointPosFactFxP", "Arithmetic", "F", "∗", "8", "Chunks", "Arrays", "F", "†", "9", "SequenceL", "Arrays", "S", "†", "10", "IntAsBoolArray", "Convert", "F", "†", "11", "Parity", "Bitwise", "F", "†", "12", "Puri", "edMixedStateRequirements", "Preparation", "F", "‡", "13", "AssertQubitWithinTolerance", "Diagnostics", "S", "∗", "14", "DumpMachine", "Diagnostics", "F", "∗", "15", "DumpRegister", "Diagnostics", "S", "∗", "16", "Adjoint", "ApplyAnd", "Canon", "S", "∗", "No.", "Buggy", "APIs", "Namespace", "State", "Feature", "Category"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 97.92,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Table1-1.png"
+}, {
+  "caption": "Figure 5: High-level overview of Upbeat, which tests the input checking mechanism for Q# libraries.",
+  "captionBoundary": {
+    "x1": 101.12300109863281,
+    "x2": 510.8783264160156,
+    "y1": 165.6081085205078,
+    "y2": 169.90301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["anomalies", "anomalies", "Corpus", "no", "anomalies", "Input", "Data", "Test", "Code", "Constraints", "Constraints", "API", "Generate", "Callable", "Inputs", "Test", "CasesExtract", "Assemble", "Code", "Segments", "Differential", "Testing", "Language-", "level", "Testing", "Potential", "Bugs", "Q#", "Open-source", "Repositories", "Documents", "Collect", "Code", "SegmentsStandard"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 531.84,
+    "y1": 77.75999999999999,
+    "y2": 155.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure5-1.png"
+}, {
+  "caption": "Figure 6: An example for extracting code segments.",
+  "captionBoundary": {
+    "x1": 334.34698486328125,
+    "x2": 541.8115844726562,
+    "y1": 405.2744140625,
+    "y2": 409.5693054199219
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Extracted", "code", "segments", "and", "their", "assembly", "constraints.", "window", "size=4", "window", "size=3", "(b1)", "basic", "code", "segments", "(b2)", "merged", "code", "segments", "window", "size=2", "①②③④", "②③④①②③", "①②", "②③", "③④", "④", "xs:LittleEndian", "ys:LittleEndian", "③", "xs:LittleEndian", "ys:LittleEndian", "②", "nQubits:Int", "①", "nQubits:Int", "ys:LittleEndian", "xs:LittleEndian"],
+  "name": "6",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 559.1999999999999,
+    "y1": 278.88,
+    "y2": 397.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure6-1.png"
+}, {
+  "caption": "Figure 12: Anomalies discovered by compared baselines.",
+  "captionBoundary": {
+    "x1": 324.5639953613281,
+    "x2": 551.5936889648438,
+    "y1": 160.34120178222656,
+    "y2": 164.6361083984375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "via", "di", "erential", "testing", "QSHARP-FUZZ", "UPBEAT-M", "MORPHQ", "0", "0", "0", "00", "QDIFF", "1", "0", "10", "1", "2", "3", "0", "0", "1", "UPBEAT-R", "UPBEAT", "(a)", "via", "language-level", "test", "oracle", "MORPHQ", "0", "0", "0", "00", "QDIFF", "1", "0", "00", "1", "0", "2", "1", "1", "2", "UPBEAT-M", "UPBEAT-R", "QSHARP-FUZZ", "UPBEAT"],
+  "name": "12",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 540.48,
+    "y1": 87.84,
+    "y2": 152.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure12-1.png"
+}, {
+  "caption": "Figure 11: Comparison results of line and block coverage.",
+  "captionBoundary": {
+    "x1": 57.91910171508789,
+    "x2": 289.9244689941406,
+    "y1": 180.30812072753906,
+    "y2": 184.60302734375
+  },
+  "figType": "Figure",
+  "imageText": ["Time", "(in", "hours)", "%", ")", "g", "e", "(", "v", "e", "r", "a", "C", "o", "c", "k", "B", "lo", "QSHARP-FUZZ", "QUITO", "QSHARPCHECK", "UPBEAT-M", "MUSKIT", "QDIFF", "MORPHQ", "UPBEAT-R", "UPBEAT", "Time", "(in", "hours)", "%", ")", "g", "e", "(", "e", "r", "a", "o", "v", "e", "C", "L", "in", "40", "30", "20", "10", "0", "5", "10", "15", "20", "0", "50", "40", "30", "20", "10", "0", "5", "10", "15", "20", "0"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 295.68,
+    "y1": 84.47999999999999,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652120-Figure11-1.png"
+}]

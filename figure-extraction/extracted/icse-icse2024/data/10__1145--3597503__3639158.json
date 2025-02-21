@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: The BVFinder Overview",
+  "captionBoundary": {
+    "x1": 238.5590057373047,
+    "x2": 373.4344482421875,
+    "y1": 184.32089233398438,
+    "y2": 186.4010009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Decode", "API", "Inputs", "Dequeue", "API", "ASM", "Addressing", "Patterns", "BugsBugsBugs", "Outputs", "3GPP", "Documents", "Taint", "Source", "Output", "Binary", "Variable", "CollectionAssembly", "Code", "ASM", "Data", "Type", "Match", "Message", "Type", "Match", "§3.1", "Semantic-Based", "Taint", "Source", "Identification", "BVFinder", "Indirect", "Call", "Resolving", "Interprocedural", "Propagation", "Pointer", "Collection", "§3.2", "Enhanced", "Taint", "Propagation", "Tainted?", "Common", "Memory", "Functions", "Memory", "Buffer", "§3.3", "Sensitive", "Memory", "Operations", "Loops", "Handling", "of"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 551.04,
+    "y1": 84.0,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Figure4-1.png"
+}, {
+  "caption": "Table 1: Statistics of TwoMessage Processing Phases. VUL NUM is analyzed from all exposed baseband vulnerabilities, and BB NUM shows the basic block data of Samsung G960FXXS2BRH8 firmware.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.05181884765625,
+    "y1": 89.27688598632812,
+    "y2": 107.43499755859375
+  },
+  "figType": "Table",
+  "imageText": ["Common", "33", "26%", "263", "0.33%", "Message-Specific", "95", "74%", "80374", "99.67%", "Phase", "VUL", "NUM", "Percent", "BB", "NUM", "Percent"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 120.96,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table1-1.png"
+}, {
+  "caption": "Table 8: 0-day Vulnerabilities Discovered by BVFinder",
+  "captionBoundary": {
+    "x1": 62.60400390625,
+    "x2": 284.94146728515625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Summary", "to", "RQ2", "In", "BVFinder,", "semantic-enhanced", "taint", "source", "identification", "helps", "in", "providing", "more", "precise", "detec-", "tion", "results", "while", "the", "enhanced", "taint", "propagation", "contribute", "significantly", "in", "avoiding", "missing", "vulnerabilities.", "Listing", "1:", "Simplified", "Code", "of", "CVE-2023-21503", "1", "void", "mm_main(){", "2", "uint", "msg_id;", "3", "handler", "=", "(code", "**)(&handler_list)[msg_id];", "4", "(**handler)();", "//", "handler_list[0xb3]", "->", "DecodeUeCapaReqMsg()", "5", "}", "6", "void", "SendUeCapabilityMsg(){", "//", "called", "by", "DecodeUeCapaReqMsg()", "7", "byte", "buf[52];", "8", "byte*", "ie_ptr", "=", "get_ptr();", "9", "int", "len", "=", "get_len();", "10", "memcpy(buf,ie_ptr,len);", "//", "lack", "IE", "length", "check", "11", "}", "12", "void", "mm_RAURequest(){", "13", "int", "len", "=", "get_len();", "14", "byte*", "ie_ptr", "=", "get_ptr();", "15", "log(\"MS", "Radio", "Access", "Capability", "->\");", "//", "string", "for", "matching.", "16", "}", "CVE-2023-21503", "Buffer", "overflow", "High", "Assigned", "SMR", "May-2023", "Release", "1", "CVE-2023-21494", "Buffer", "overflow", "High", "Assigned", "SMR", "May-2023", "Release", "1", "CVE-2023-21504", "Buffer", "overflow", "High", "Assigned", "SMR", "May-2023", "Release", "1", "CVE-2022-25821", "Out", "of", "bound", "read", "Low", "Assigned", "SMR", "Mar-2022", "Release", "1", "Last", "Affected", "Version", "Status", "CVE", "CVE-ID", "Vul", "Type", "Severity"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.16,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table8-1.png"
+}, {
+  "caption": "Figure 1: Overview of Cellular Protocol Based Communication",
+  "captionBoundary": {
+    "x1": 179.3459930419922,
+    "x2": 432.6444091796875,
+    "y1": 197.21487426757812,
+    "y2": 199.29498291015625
+  },
+  "figType": "Figure",
+  "imageText": ["VT", "L", "VLT", "Information", "Element", "2", "Standard", "L3", "Messages", "CN", "RAN", "UE", "Cellular", "Protocol", "Satck", "handle", "NAS", "Physical", "Layer", "RRC", "Data", "Link", "Layer", "L1", "L2", "L3", "BP", "Cellular", "Network", "Information", "Element", "1", "Information", "Element", "2", "Standard", "L3", "Messages", "Format", "VT", "L", "VLTMessage", "Header", "Celllar", "baseband", "Firmware", "Message", "Specific", "Phase", "Common", "Phase", "handle", "dequeue", "decode", "Task", "dequeue", "decode", "Task"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 551.04,
+    "y1": 84.0,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Figure1-1.png"
+}, {
+  "caption": "Table 2: Overview of Studied Vulnerabilities. X(Y) represents the number of total(memory safety) vulnerabilities.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2059326171875,
+    "y1": 210.36587524414062,
+    "y2": 220.416015625
+  },
+  "figType": "Table",
+  "imageText": ["SUM", "13(12)", "26(19)", "186(137)", "225(168)", "100%(74.6%)", "Common", "Phase", "1(1)", "3(3)", "29(25)", "33(29)", "14.7%", "Message-Specific", "4(3)", "12(5)", "79(54)", "95(62)", "42.2%", "Unknown", "8(8)", "11(11)", "78(58)", "97(77)", "43.1%", "Type", "MediaTek", "Samsung", "Qualcomm", "SUM", "Percentage"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 234.23999999999998,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table2-1.png"
+}, {
+  "caption": "Table 4: Code Statistics of BVFinder.",
+  "captionBoundary": {
+    "x1": 98.3170166015625,
+    "x2": 249.2282257080078,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["4", "EVALUATION", "Component", "LoC", "Semantic-Based", "Taint", "Source", "Identification", "2606", "lines", "Enhanced", "Taint", "Propagation", "1032", "lines", "Sensitive", "Memory", "Operations", "Check", "672", "lines", "Total", "4310", "lines"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 274.08,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table4-1.png"
+}, {
+  "caption": "Table 3: Detail of the Message-Specific Vulnerabilities",
+  "captionBoundary": {
+    "x1": 65.2760009765625,
+    "x2": 282.2621154785156,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CVE-2010-3832", "[50]", "Sensitive", "function", "Message", "specific", "Message-specific", "Qualcomm", "CVE-2015-8546", "[14]", "Sensitive", "function", "Message", "specific", "Message-specific", "Samsung", "CVE-2018-21090", "[5]", "Loop", "parsing", "Message", "specific", "Message-specific", "Samsung", "CVE-2018-14319", "[5]", "Sensitive", "function", "Message", "specific", "Message-specific", "Samsung", "Cama-2018", "[5]", "Loop", "parsing", "Message", "specific", "Message-specific", "Samsung", "BASESPEC-E6-2021-", "[29]", "Sensitive", "function", "Message", "specific", "Message-specific", "Samsung", "BASESPEC-2021-E8", "[29]", "Sensitive", "function", "Message", "specific", "Message-specific", "Samsung", "BASESPEC-2021-E7", "[29]", "Sensitive", "function", "Message", "specific", "Message-specific", "Samsung", "CVE-2020-25279", "[20]", "Sensitive", "function", "Message", "specific", "Message-specific", "Samsung", "Charles-2018", "[6]", "Sensitive", "function", "Message", "specific", "Message-specific", "MTK", "OffensiveCon-2020-Vul2", "[31]", "Loop", "parsing", "Message", "specific", "Message-specific", "MTK", "OffensiveCon-2020-Vul1", "[31]", "Loop", "parsing", "Message", "specific", "Message-specific", "MTK", "Vendor", "in", "Patch", "Code", "Involved", "age", "Content", "Involved", "Mess-", "Operation", "Sensitive", "Memory", "Source"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table3-1.png"
+}, {
+  "caption": "Figure 2: Example for the Vulnerability Pattern: Attacker-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368103027344,
+    "y1": 438.2668762207031,
+    "y2": 440.34698486328125
+  },
+  "figType": "Figure",
+  "imageText": ["①", "MemOp1", "Assembly", "Code", "1.", "10408", "mov", "r4,", "#parsed", "2.", "//", "...", "3.", "10468", "ldrh", "r2,", "[r4->parsed,#0x44]", "4.", "1046a", "ldr", "r1,", "[r4->parsed,#0x40]", "5.", "10470", "mov", "r0=>global_buf", ",r4", "6.", "//", "Sensitive", "memory", "function", "7.", "10472", "blx", "memcpy", "②", "MemOp2", "Assembly", "Code", "10.", "104c6", "ldrh", "r3,parsed[0x44]", "11.", "104c8", "cmp", "r2,r3", "12.", "104ca", "bhi", "LAB_10494", "1.", "...", "2.", "LAB_10494", "//", "Loop", "3.", "LAB_10494", "//", "loop", "4.", "10494", "ldr", "r3,[r7,#stack_18", "]", "5.", "10496", "add", "r3,r2", "6.", "10498", "mov", "r2,r1", "7.", "1049a", "strb", "r2,[r3,#0x0", "]", "8.", "...", "9.", "104c4", "ldrb", "r2,[r7,#stack_11", "]", "Patch", "Sensitive", "Memory", "Operations", "value", "Legend:", "Pseudocode", "Message", "Facility", "IE", "L", "VIE", "length", "1cHeader", "01.", "byte", "*", "parsed;", "02.", "byte", "global_buf[255];", "03.", "void", "fptr2(){", "04.", "byte", "c_len[4];", "05.", "ushort", "len", "=", "*(parsed+0x44);", "06.", "byte*", "ptr", "=", "*(parsed+0x40);", "07.", "byte", "cur", "=", "0;", "08.", "09.", "if(len", ">", "0xff){", "//", "Patch", "10.", "len", "=", "0xff;", "11.", "}", "12.", "//", "Unsafe", "MemOp1:", "sensitive", "function", "13.", "memcpy(global_buf,", "ptr,", "len);", "14.", "15.", "//", "Unsafe", "MemOp2:", "loop", "parsing", "16.", "for(int", "i=0;cur<len;i++){", "17.", "if(i", ">", "2)", "{", "//", "Patch", "18.", "break;", "19.", "}", "20.", "c_len[i]", "=", "*(global_buf+cur+1);", "21.", "cur", "=", "cur", "+", "c_len[i]", "+", "2;", "22.", "}", "23.", "}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 283.2,
+    "y1": 208.79999999999998,
+    "y2": 416.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Figure2-1.png"
+}, {
+  "caption": "Table 7: TP and FP with different 𝑘 values",
+  "captionBoundary": {
+    "x1": 353.7120056152344,
+    "x2": 522.1483154296875,
+    "y1": 245.44387817382812,
+    "y2": 247.52398681640625
+  },
+  "figType": "Table",
+  "imageText": ["SUM", "0(0%)", "4(5.4%)", "4(5.4%)", "9(12.2%)", "14(18.9%)", "16(21.6%)", "16(21.6%)", "Func", "0(0%)", "4(5.6%)", "4(5.6%)", "9(12.5%)", "14(19.4%)", "16(22.2%)", "16(22.2%)", "Loop", "0(0%)", "0(0%)", "0(0%)", "0(0%)", "0(0%)", "0(0%)", "0(0%)FN", "SUM", "74(4.8%)", "70(7.8%)", "70(8.0%)", "65(27.8%)", "60(28.4%)", "58(35.4%)", "58(35.4%)", "Source", "1074", "136", "88", "45", "20", "18", "18", "Func", "72(13.6%)", "68(22.7%)", "68(31.3%)", "63(95.5%)", "58(95.1%)", "56(95.0%)", "56(95.0%)", "Loop", "2(0.2%)", "2(0.3%)", "2(0.3%)", "2(1.2%)", "2(1.3%)", "2(1.9%)", "2(1.9%)TP", "INITAL", "𝑘=0", "𝑘=0.2", "𝑘=0.4", "𝑘=0.6", "𝑘=0.8", "𝑘=1Taint"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 261.59999999999997,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table7-1.png"
+}, {
+  "caption": "Table 5: Comparison with SOTA Tools",
+  "captionBoundary": {
+    "x1": 228.84901428222656,
+    "x2": 382.84893798828125,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "CVE-2015-8546", "[14]", "Sensitive", "function", "Progress", "indicator", "Samsung", "◦", "•", "•", "2", "CVE-2018-21090", "[5]", "Loop", "Parsing", "Protocol", "configuration", "options", "Samsung", "◦", "•", "•", "3", "CVE-2018-14319", "[5]", "Sensitive", "function", "Cause", "Samsung", "◦", "•", "•", "4", "Cama-2018", "[5]", "Loop", "Parsing", "Emergency", "number", "list", "Samsung", "◦", "◦", "•", "5", "BASESPEC-2021-E6", "[29]", "Sensitive", "function", "P-TMSI", "Samsung", "•", "◦", "•", "6", "BASESPEC-2021-E8", "[29]", "Sensitive", "function", "EMM", "message", "Samsung", "•", "◦", "•", "7", "BASESPEC-2021-E7", "[29]", "Sensitive", "function", "Network", "daylight", "saving", "time", "Samsung", "•", "◦", "•", "8", "CVE-2020-25279", "[20]", "Sensitive", "function", "Bearer", "capability", "Samsung", "◦", "•", "•", "9", "Charles-2018", "[6]", "Sensitive", "function", "Bearer", "capability", "MTK", "◦", "◦", "•", "10", "OffensiveCon-2020-Vul1", "[31]", "Loop", "Parsing", "Protocol", "configuration", "options", "MTK", "◦", "◦", "•", "11", "OffensiveCon-2020-Vul2", "[31]", "Loop", "Parsing", "Emergency", "number", "list", "MTK", "◦", "◦", "•", "Related", "IE", "Vendor", "BASESPEC", "FIRMWIRE", "BVFINDER", "Operations", "Sensitive", "Memory", "ID", "Source"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table5-1.png"
+}, {
+  "caption": "Table 6: Comparison of BVFinder and Its Variants",
+  "captionBoundary": {
+    "x1": 70.81300354003906,
+    "x2": 276.7312927246094,
+    "y1": 245.44387817382812,
+    "y2": 247.52398681640625
+  },
+  "figType": "Table",
+  "imageText": ["•", "BVFinder-ETP,", "which", "uses", "initial", "output", "binary", "variables", "as", "taint", "sources", "without", "the", "two", "match", "strategies", "but", "applies", "enhanced", "taint", "propagation.", "BVFinder-ALL", "FN", "16(22.2%)", "0(0%)", "16(21.6%)", "1937s", "TP", "56(95.0%)", "2(1.9%)", "58(35.4%)", "FN", "0(0%)", "0(0%)", "0(0%)", "1552s", "TP", "72(13.6%)", "2(0.2%)", "76(4.8%)", "BVFinder-ETP", "FN", "55(76.4%)", "2(100%)", "57(77.0%)", "984s", "TP", "7(77.8%)", "0(0%)", "7(9.2%)", "BVFinder-STI", "FN", "60(83.3%)", "2(100%)", "62(83.8%)", "2712s", "TP", "12(9.7%)", "0(0%)", "12(3.3%)", "BVFinder-INIT", "Time", "FUNC", "LOOP", "SUM", "Approach", "Metric", "RESULT"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 294.24,
+    "y1": 261.59999999999997,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Table6-1.png"
+}, {
+  "caption": "Figure 3: Motivation Example for Semantic-Enhanced Taint Analysis in Static Vulnerability Detection",
+  "captionBoundary": {
+    "x1": 99.86799621582031,
+    "x2": 512.1155395507812,
+    "y1": 349.5448913574219,
+    "y2": 351.625
+  },
+  "figType": "Figure",
+  "imageText": ["Addressing", "Operation", "Sensitive", "Memory", "Operations", "1", "③", "④", "Sensitive", "Memory", "Operations", "Check", "Enhanced", "Taint", "Propagation", "Semantic-Based", "Taint", "Source", "Identification", "Output", "variables:", "parsed[0x40]", "parsed[0x44]", "②", "①", "Output", "variables:", "stack_0xc", "parsed[*]", "r0@10160", "Output", "variables:", "stack_0xc", "parsed[0]", "parsed[0x40]", "parsed[0x44]", "THeader", "L", "V", "OTA", "Message", "Addressing", "Rules", "Initial", "Binary", "Variable", "Addressing", "Operation", "Textual", "FeatureLegend:", "Specific", "Phase", "Func", "Specific", "Phase", "Code", "10.", "10334", "bl", "getHandler", "11.", "10336", "mov", "r1,", "r0", "12.", "10338", "blx", "r1", "//", "Indirect", "Call", "1.", "//", "getHandler", "2.", "10820", "cmp", "r4,", "#0x1d", "3.", "10822", "beq", "LAB_10522", "4.", "10824", "ldr", "r0,", "0x11230", "//", "FunPtr1", "5.", "10826", "b", "LAB_1082a", "6.", "10828", "ldr", "r0,", "0x11542", "//", "FunPtr2", "7.", "1082a", "pop", "{r2,", "r3,", "pc}", "8.", "//", "inter-procedural", "propagation", "9.", "10.", "1016a", "ldr", "r1,", "[r1,", "#0]", "11.", "1016c", "ldr", "r0,", "[r1,", "#4", "1.", "1012a", "add", "r2=>stack_0xc,sp,0xc", "2.", "1012c", "bl", "dequeue", "3.", "1012e", "ldrb.w", "r1=>stack_0xc,[sp,#0xc]", "4.", "10130", "cmp", "r1,", "#0x2", "5.", "10140", "mov", "r0=>\"", "CC", "Task", "...\",", "s_CC", "6.", "//", "...", "7.", "10152", "bl", "decode", "8.", "10160", "cbz", "r0,", "LAB_10240", "9.", "10168", "ldr", "r1,", "[r3->parsed,", "#0]", "10.", "10470", "mov", "r0=>global_buf", ",r4", "11.", "//", "Sensitive", "memory", "function", "12.", "10472", "blx", "memcpy", "13.", "//", "...", "14.", "LAB_10494", "//", "loop", "15.", "10494", "ldr", "r3,[r7,#stack_18", "]", "16.", "10496", "add", "r3,r2", "17.", "10498", "mov", "r2,r1", "18.", "1049a", "strb", "r2,[r3,#0x0", "]", "19.", "//", "...", "20.", "104c4", "ldrb", "r2,[r7,#stack_11", "]", "21.", "104c6", "ldr", "r3,", "[r4->parsed,#0x44]", "22.", "104c8", "cmp", "r2,r3", "23.", "104ca", "bcc", "LAB_1048", "1.", "//", "...", "2.", "10400", "mov", "r3,", "0x232", "3.", "10402", "add", "r3=>\"", "Facility", "->", "...\"", ",pc", "4.", "10404", "mov", "r0=>\"", "Facility", "->", "...\"", ",r3", "5.", "10406", "bl", "log", "6.", "10408", "mov", "r4,", "#parsed", "7.", "//", "...", "8.", "10468", "ldrh", "r2,", "[r4->parsed,#0x44]", "9.", "1046a", "ldr", "r1,", "[r4->parsed,#0x40]", "Common", "Phase", "Code", "④", "Sensitive", "Memory", "Operations", "Check③", "Indirect", "Call", "Resolve", "②", "Addressing", "Pattern", "Match", "①", "Textual", "Feature", "Match", "∩", "∩", "RULE-1:", "The", "binary", "variable", "is", "a", "member", "of", "possible", "Array", "or", "Structure.", "RULE-2:", "Its", "type", "is", "integer", "or", "byte", "pointer.", "Format", "TLV", "parsed:", "[\"Facility", "->", "...\"]", "Textual", "Feature", "Protocol", "Spec", "(3GPP", "TS24.008)", "Facility1C", "Facility", "IE", "TypeIEI", "IE", "Name", "parsed:", "[(ADD_40,LOAD),", "(ADD_44,LOAD),", "(ADD_0,LOAD,", "LOAD)]", "stack_0xc:", "[(CMP)]", "Semantic-Enhanced", "Static", "Vulnerability", "Detection"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 555.36,
+    "y1": 82.56,
+    "y2": 328.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639158-Figure3-1.png"
+}]

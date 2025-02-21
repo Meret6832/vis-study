@@ -1,0 +1,321 @@
+[{
+  "caption": "Table 4: APC and Klee data on C les showing APC-IP and best t curve for Klee path explosion.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0498046875,
+    "y1": 260.3731384277344,
+    "y2": 275.62701416015625
+  },
+  "figType": "Table",
+  "imageText": ["1", "Even-Odd", "§", "=/3", "0.144", "=", "yes", "24.95", "2", "GCD", "†", "=/3", "0.223", "=", "yes", "2.58", "3", "Floyd", "Alg.", "§", "0.125", "∗", "=2", "0.635", "9.58", "∗", "1.06=", "no,", "but", "close", "34.06", "4", "Catalan", "§", "=3", "0.272", "=", "upper", "bound", "215.5", "5", "Fib.", "Search", "2.33", "∗", "1.22=", "0.88", "5.71", "∗", "1.28=", "yes", "63.69", "6", "Bead", "Sort", "0.37", "∗", "1.30=", "4.91", "1.90", "∗", "1.54=", "yes", "23.31", "7", "Fib.", "(R)", "†", "1.34=", "0.123", "=", "upper", "bound", "1682.06", "Best", "Fit", "APC-IP", "KLEE", "Time(s)", "Index", "Function", "APC-IP", "APC-IP", "Time(s)", "APC", "KLEE"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 304.32,
+    "y1": 290.88,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Table4-1.png"
+}, {
+  "caption": "Table 3: APC data on C les showing asymptotic path complexity (APC-R: recursive, NAPC-IP: naive interprocedural, APC-IP: interprocedural, APC runtime, ablation runtime, the best APC).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.3511352539062,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["10", "Multikey", "Quick", "Sort", "§", "APC-IP", "NA", "1.46=", "1.46=", "NA", "5242.50", "102.10", "5.39", "3489.53", "case", "2", "32.24", "1", "The", "\"Fastest", "Metric\"", "column", "shows", "the", "fastest", "APC", "metric", "applicable", "to", "the", "function.", "†", "This", "version", "of", "the", "function", "is", "implemented", "recursively.", "§", "This", "version", "of", "the", "function", "involves", "interprocedual", "calls.", "*", "In", "each", "row,", "the", "best", "time", "is", "highlighted", "in", "bold.", "1", "Even", "Odd", "§", "APC-IP", "NA", "=/3", "=/3", "NA", "0.22", "0.14", "0.08", "0.01", "0.01", "0.16", "2", "Fibonacci", "(DP)", "APC-IP", "=/3", "=/3", "=/3", "0.31", "0.32", "0.26", "0.15", "0.05", "0.02", "0.21", "3", "Palindrome", "(R)", "†", "APC-R", "=/2", "=/2", "=/2", "0.11", "0.11", "0.12", "0.05", "0.01", "0.01", "0.06", "4", "Partition", "§", "APC-IP", "NA", "0.72", "∗", "1.13=", "0.72", "∗", "1.13=", "NA", "1.10", "0.40", "0.21", "0.05", "0.06", "0.69", "5", "Shaker", "Sort", "§", "APC-IP", "NA", "0.12", "∗", "1.26=", "0.12", "∗", "1.26=", "NA", "32.04", "1.51", "0.92", "0.27", "0.09", "30.69", "6", "Fibonacci", "Search", "APC-IP", "2.33", "∗", "1.22=", "2.33", "∗", "1.22=", "2.33", "∗", "1.22=", "2.14", "2.18", "0.88", "0.63", "0.16", "0.05", "1.54", "7", "Insertion", "Sort", "(R)", "†", "APC-IP", "0.11", "∗", "1.35=", "0.11", "∗", "1.35=", "0.11", "∗", "1.35=", "2.06", "2.08", "0.52", "0.33", "0.10", "0.03", "1.52", "8", "Cycle", "Sort", "§", "APC-IP", "NA", "0.04", "∗", "1.36=", "0.04", "∗", "1.36=", "NA", "63.76", "5.07", "4.01", "30.36", "0.14", "31.46", "9", "Bucket", "Sort", "§", "APC-IP", "NA", "NA", "0.004", "∗", "1.39=", "NA", ">6000", "42.39", "36.53", "NA", "0.20", "NA", "APC-R", "time(s)", "NAPC-IP", "time(s)", "APC-IP", "time", "APC-IP", "eliminate", "time(s)", "NAPC-IP", "eliminate", "time(s)", "GETRGF", "time(s)", "non-GETRGF", "time(s)", "Fastest", "Metric1", "APC-R", "NAPC-IP", "APC-IP", "Program", "Name"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 541.4399999999999,
+    "y1": 116.64,
+    "y2": 241.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Table3-1.png"
+}, {
+  "caption": "Figure 4: Control Flow Graph for palindrome function.",
+  "captionBoundary": {
+    "x1": 328.0929870605469,
+    "x2": 548.0645141601562,
+    "y1": 481.912109375,
+    "y2": 486.2070007324219
+  },
+  "figType": "Figure",
+  "imageText": ["Non-recursive", "Return", "5.", "exit", "Recursive", "Return", "Recursive", "Call", "3.", "return", "0", "1.", "return", "1", "2.", "if", "(s[b]", "!=", "s[e-1])", "T.", "palindrome(s,", "b,", "e)", "4.", "return", "palindrome(s,", "b", "+", "1,", "e", "-", "1)", "0.", "if", "(e", "-", "1", "<=", "b)"],
+  "name": "4",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 345.59999999999997,
+    "x2": 525.12,
+    "y1": 343.68,
+    "y2": 461.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Source code for gcd function.",
+  "captionBoundary": {
+    "x1": 96.50120544433594,
+    "x2": 251.34170532226562,
+    "y1": 148.40113830566406,
+    "y2": 152.696044921875
+  },
+  "figType": "Figure",
+  "imageText": ["}", "return", "a;", "if", "(a", ">", "b)", "a", "=", "a", "-", "b;", "else", "b", "=", "b", "-", "a;}", "while", "(a", "!=", "b){", "int", "gcd(int", "a,", "int", "b)", "{"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 123.36,
+    "x2": 225.12,
+    "y1": 85.44,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Control Flow Graph for gcd function.",
+  "captionBoundary": {
+    "x1": 79.62699890136719,
+    "x2": 268.21649169921875,
+    "y1": 644.4990844726562,
+    "y2": 648.7940063476562
+  },
+  "figType": "Figure",
+  "imageText": ["4.", "return", "a", "T.", "gcd(a,b)", "2.", "a", "=", "a", "-b", "3.", "b", "=", "b", "-a", "1.", "a", ">", "b", "0.", "a!=", "b"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 233.28,
+    "y1": 558.72,
+    "y2": 627.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Source code for palindrome function.",
+  "captionBoundary": {
+    "x1": 344.9667053222656,
+    "x2": 531.189208984375,
+    "y1": 148.40113830566406,
+    "y2": 152.696044921875
+  },
+  "figType": "Figure",
+  "imageText": ["}", "if", "(", "(e", "-", "1)", "<=", "b", ")", "return", "1;", "if", "(", "s[b]", "!=", "s[e-1]", ")", "return", "0;", "return", "palindrome_r(s,", "b+1,", "e-1);", "int", "palindrome_r(const", "char", "*s,", "int", "b,", "int", "e)", "{"],
+  "name": "3",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 359.52,
+    "x2": 516.96,
+    "y1": 85.44,
+    "y2": 131.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure3-1.png"
+}, {
+  "caption": "Figure 9: Source code for partition function.",
+  "captionBoundary": {
+    "x1": 347.2088928222656,
+    "x2": 528.9482421875,
+    "y1": 196.22206115722656,
+    "y2": 200.5169677734375
+  },
+  "figType": "Figure",
+  "imageText": ["}", "}", "swap(&arr[i", "+", "1],", "&arr[high]);", "return", "(i", "+", "1);", "}", "i++;", "swap(&arr[i],", "&arr[j]);", "if", "(arr[j]", "<", "pivot){", "int", "pivot", "=", "arr[high];", "int", "i", "=", "(low", "-", "1);", "for", "(int", "j", "=", "low;", "j", "<=", "high", "-", "1;", "j++){"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 464.64,
+    "y1": 93.11999999999999,
+    "y2": 178.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure9-1.png"
+}, {
+  "caption": "Figure 12: Performance of APC-IP vs NAPC-IP",
+  "captionBoundary": {
+    "x1": 343.9849853515625,
+    "x2": 532.1715087890625,
+    "y1": 251.77906799316406,
+    "y2": 256.073974609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 550.0799999999999,
+    "y1": 82.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure12-1.png"
+}, {
+  "caption": "Table 2: Summary Results for APC-IP vs. APR-R vs. NAPC-IP. Table entries indicate howmany times the given method was fastest for a speci c benchmark function.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.57733154296875,
+    "y1": 87.06208801269531,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "7", "8", "64", "79", "Interprocedural", "NA", "3", "34", "37", "Intraproc.", "/", "Recursive", "7", "5", "30", "42", "Function", "type", "APC-R", "NAPC-IP", "APC-IP", "Count"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 284.15999999999997,
+    "y1": 129.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Table2-1.png"
+}, {
+  "caption": "Figure 11: Performance of APC-IP vs APC-R",
+  "captionBoundary": {
+    "x1": 84.33399963378906,
+    "x2": 263.5093078613281,
+    "y1": 618.1130981445312,
+    "y2": 622.4080200195312
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 285.12,
+    "y1": 449.76,
+    "y2": 603.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure11-1.png"
+}, {
+  "caption": "Figure 5: Source code for is_even and is_odd functions.",
+  "captionBoundary": {
+    "x1": 62.384002685546875,
+    "x2": 285.4589538574219,
+    "y1": 128.62525939941406,
+    "y2": 132.920166015625
+  },
+  "figType": "Figure",
+  "imageText": ["}", "if", "(n", "==", "0)", "return", "false;", "else", "return", "is_even(n", "-", "1);", "bool", "is_odd(int", "n){", "}", "if", "(n", "==", "0)", "return", "true;", "else", "return", "is_odd(n", "-", "1);", "bool", "is_even(int", "n){"],
+  "name": "5",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 69.12,
+    "x2": 286.08,
+    "y1": 83.52,
+    "y2": 112.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Control Flow Graph for is_even and is_odd functions (dashed lines are interprocedural calls).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6495056152344,
+    "y1": 281.8031005859375,
+    "y2": 297.0570068359375
+  },
+  "figType": "Figure",
+  "imageText": ["Interprocedural", "Call", "Interprocedural", "Call", "Interprocedural", "Return", "Non-interprocedural", "Return", "Interprocedural", "Return", "Non-interprocedural", "Return", "1", "1.", "return", "true", "1", "2.", "return", "is", "even(n-1)", "1", "0.", "if", "(n", "==", "1)", "T", "1.", "is", "odd(n)", "1", "3.", "exit", "0", "1.", "return", "true", "0", "2.", "return", "is", "odd(n-1)", "0", "0.", "if", "(n", "==", "0)", "T", "0.", "is", "even(n)", "0", "3.", "exit"],
+  "name": "6",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 306.24,
+    "y1": 155.04,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure6-1.png"
+}, {
+  "caption": "Table 1: GETRGF Ablation Study Results",
+  "captionBoundary": {
+    "x1": 355.66400146484375,
+    "x2": 520.1974487304688,
+    "y1": 309.62109375,
+    "y2": 313.9159851074219
+  },
+  "figType": "Table",
+  "imageText": ["Performance", "Ratio", "(Naive/GETRGF)", "Count", "of", "functions", "Naive", "time", "range", "(s)", "GETRGF", "time", "range", "(s)", "1-10", "10", "0.014", "-", "0.208", "0.008", "-", "0.043", "10-100", "34", "0.129", "-", "9.442", "0.009", "-", "0.127", "100-1000", "19", "10.218-", "58.034", "0.065", "-", "0.191", ">1000", "4", "50.089", "-50.923", "0.026", "-", "0.040"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 326.88,
+    "x2": 549.12,
+    "y1": 328.8,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Table1-1.png"
+}, {
+  "caption": "Figure 10: Eliminate Ablation Study Results. Performance ratio of Eliminate-Optimized to Eliminate-Naive (y-axis, log scale) for di erent run times in seconds (x-axis, linear scale).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2050170898438,
+    "y1": 272.7601013183594,
+    "y2": 288.0140075683594
+  },
+  "figType": "Figure",
+  "imageText": ["R", "at", "io", "an", "ce", "P", "er", "fo", "rm", "Runtime", "(sec)", "10", "5", "10", "3", "10", "1", "10", "−1", "0.", "00", "2", "0.", "00", "7", "0.", "01", "2", "0.", "02", "2", "0.", "03", "3", "0.", "04", "8", "0.", "05", "1", "0.", "06", "1", "0.", "08", "8", "0.", "10", "5", "0.", "12", "0.", "13", "2", "0.", "14", "1", "0.", "16", "7", "0.", "19", "6", "0.", "22", "4", "0.", "24", "3", "0.", "29", "0.", "30", "4", "0.", "36", "2", "0.", "56", "5", "1.", "27", "3", "4.", "25", "30", ".3", "65", "46", "2.", "26", "3", "60", "00", "60", "00"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 525.12,
+    "y1": 86.39999999999999,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure10-1.png"
+}, {
+  "caption": "Figure 8: CFGs for is_even and is_odd using APC-IP labels (dashed lines are interprocedural calls / returns).",
+  "captionBoundary": {
+    "x1": 53.519901275634766,
+    "x2": 294.0429992675781,
+    "y1": 418.4371032714844,
+    "y2": 433.6910095214844
+  },
+  "figType": "Figure",
+  "imageText": ["V0,3", "V1,1", "T1", "is", "odd(n)", "V1,3", "V1,2", "V1,0", "T0", "is", "even(n)", "V0,2", "V0,0", "V0,1"],
+  "name": "8",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 237.12,
+    "y1": 257.76,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure8-1.png"
+}, {
+  "caption": "Figure 7: CFG for palindrome using APC-R labeling in the left and APC-IP labeling in the right (dashed lines are recursive calls / returns).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04803466796875,
+    "y1": 209.65809631347656,
+    "y2": 235.8709716796875
+  },
+  "figType": "Figure",
+  "imageText": ["V5", "T", "V0,5", "T0", "V4V3", "V2", "V0", "V1", "V0,4V0,3", "V0,2", "V0,0", "V0,1"],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 244.32,
+    "y1": 85.92,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652118-Figure7-1.png"
+}]

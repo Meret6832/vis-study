@@ -1,0 +1,61 @@
+[{
+  "caption": "Fig. 3. System Architecture for CodeCompose. A pre-trained model checkpoint (InCoder) is trained by",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.3983459472656,
+    "y1": 297.336181640625,
+    "y2": 299.385009765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 144.0,
+    "x2": 342.24,
+    "y1": 84.0,
+    "y2": 280.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643774-Figure3-1.png"
+}, {
+  "caption": "Fig. 1. CodeCompose (a) offers inline code suggestions in VSCode in a grey text appearing after the cursor",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.3320617675781,
+    "y1": 347.711181640625,
+    "y2": 349.760009765625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "(b)", "(a)"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 84.0,
+    "y2": 328.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643774-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Steps to construct an input to the model in LCM: (i) the code is tokenized at trigger characters where",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1750793457031,
+    "y1": 317.3591613769531,
+    "y2": 319.4079895019531
+  },
+  "figType": "Figure",
+  "imageText": ["code", "after", "target", "code", "before", "metadata", "File:", "/home/bubblesort.py", "Language:", "python", "#", "array", "is", "already", "sorted", "if", "not", "swapped:", "break", "array[j]", "=", "array[j+1]", "array[j+1]", "=", "temp", "swapped", "=", "True", "#", "loop", "to", "compare", "array", "elements", "for", "j", "in", "range(0,", "len(array)", "-", "i", "-", "1):", "if", "array[j]", ">", "array[j", "+", "1]:", "#", "swap", "if", "needed", "temp", "=", "array[j]", "def", "bubbleSort(array):", "#", "loop", "through", "each", "element", "of", "array", "for", "i", "in", "range(len(array)):", "#", "keep", "track", "of", "swapping", "swapped", "=", "False", "metadata", "IDs", "code", "before", "IDs", "<mask>", "ID", "code", "after", "IDs", "<mask>", "ID", "target", "IDs", "Concatenate", "the", "encoded", "sequences", "and", "insert", "special", "token", "IDs", "for", "mask,", "pad", "if", "needed", "4", "sequences", "of", "truncated", "token", "IDs", "Truncate", "code", "before", "and", "code", "after", "using", "a", "70-30", "split", "4", "sequences", "of", "token", "IDs", "Encode", "each", "sentence", "separately", "with", "ComposeCode’s", "tokenizer", "4", "sentences", "Create", "metadata,", "code", "before,", "code", "after,", "and", "target", "sentences", "3", "sequences", "of", "tokens", "Sequence", "of", "tokens", "Select", "a", "random", "subsequence", "under", "a", "length", "limit", "Tokenize", "code", "at", "trigger", "characters:", "(,", ".,", "=,", "etc."],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 49.44,
+    "x2": 439.2,
+    "y1": 84.96,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643774-Figure2-1.png"
+}]

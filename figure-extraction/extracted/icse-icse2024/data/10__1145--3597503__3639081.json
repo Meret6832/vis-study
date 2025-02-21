@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 6: The overall architecture of Xpert.",
+  "captionBoundary": {
+    "x1": 217.0399932861328,
+    "x2": 394.9584045410156,
+    "y1": 204.37887573242188,
+    "y2": 206.458984375
+  },
+  "figType": "Figure",
+  "imageText": ["Vector", "Database", "Service", "1", "Service", "2", "Service", "N", "...", "Predicted", "Query", "True", "Query", "Evaluation", "invalid", "Valid", "Generated", "KQL", "Query", "Post-Processor", "Query", "Rectifier", "Post-Validator", "Table", "...", "join", "...", "union", "...", "LLM", "sample", "n", "Similar", "incidents", "sample", "1", "+", "Incident", "context", "+", "Instruction", "Neighbor", "searching", "Prompt", "Constructor", "Incident", "context", "Vector", "Database", "Data", "Pre-processing", "Information", "Collection", "Incident", "Data", "Processor", "OCEs", "KQL", "Query", "Generation", "Similar", "Incidents", "Retrieval", "Incident", "Embedding", "New", "Incident", "Ticket", "Title", "Summary", "Discussion", "...", "Severity", "x", "ACTIVE", "ID", "XXX"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 555.84,
+    "y1": 86.88,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The structure of a prompt employed in Xpert.",
+  "captionBoundary": {
+    "x1": 60.39799880981445,
+    "x2": 287.44342041015625,
+    "y1": 260.0868835449219,
+    "y2": 262.1669921875
+  },
+  "figType": "Figure",
+  "imageText": ["Retrieved", "Similar", "Samples", "Instruction", "Targeted", "Incident", "Context", "Incident", "Context", "1", "DSL", "Query", "1", "Incident", "Context", "K", "DSL", "Query", "K", "...+", "+"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 220.79999999999998,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure7-1.png"
+}, {
+  "caption": "Figure 12: A failed case that Xpert recommends a different KQL query to the ground truth.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.040283203125,
+    "y1": 224.04190063476562,
+    "y2": 237.08099365234375
+  },
+  "figType": "Figure",
+  "imageText": [":", "Ground", "truth:", "Incident", "context", "Title:", "Service", "A", "shows", "Provisioning/AllocationError", "Summary:", "When", "we", "try", "to", "scale", "it", "shows", ":", "Provisioning/AllocationError.", "Otherwise,", "there", "are", "10", "Kubernetes", "nodes", "in", "running", "state,", "but", "it", "is", "not", "able", "to", "deploy", "pods", "on", "those.", "Pods", "are", "in", "pending", "state", "for", "our", "service.", "Discussion:", "Incident", "Created"],
+  "name": "12",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 91.67999999999999,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure12-1.png"
+}, {
+  "caption": "Figure 8: A semantic check example on an KQL query.",
+  "captionBoundary": {
+    "x1": 64.63500213623047,
+    "x2": 283.2089538574219,
+    "y1": 183.310791015625,
+    "y2": 185.3909912109375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "2", "3", "4", "5", "6", "7", "‘Duration’", "does", "not", "exist", "in", "current", "context!!!", "filters", "out", "columns", "other", "than", "Duration", "and", "State", "Create", "column", "count_State", "and", "delete", "other", "columns", "Type", "Conflict!!!", "StartTime’s", "type", "should", "be", "string", "StartTime’s", "type", "should", "be", "datetime", "ow", "n", "Fl", "ut", "io", "Ex", "ec", "Query", "Table1", "|", "where", "StartTime", "<", "ago(3d)", "|", "extend", "Duration", "=", "EndTime", "–", "StartTime", "|", "where", "State", "==", "“Florida”", "and", "StartTime", "contains", "“2022-06-21”", "|", "project", "Duration,", "State", "|", "summarize", "count(State)", "|", "sort", "by", "Duration", "asc"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 285.12,
+    "y1": 85.92,
+    "y2": 171.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure8-1.png"
+}, {
+  "caption": "Table 4: Performance comparison of Xpert in productions.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 293.9711608886719,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CodeT5+", "(Offline)", "58.5", "10.04", "64.94", "2.62", "Xpert", "(Offline)", "55.63", "14.19", "66.55", "11.14", "CodeT5+", "(Online)", "58.79", "10.04", "65.43", "2.62", "Xpert", "(Online)", "58.74", "18.12", "72.96", "17.69", "Xcore", "Identicality", "Xcore", "Identicality", "Template", "Full", "Query", "Model"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 96.96,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Table4-1.png"
+}, {
+  "caption": "Figure 11: A successful case that Xpert recommends an KQL query identical to the ground truth.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4596557617188,
+    "y1": 253.79788208007812,
+    "y2": 266.83697509765625
+  },
+  "figType": "Figure",
+  "imageText": ["Ground", "truth", "==", "KQL", "query", "recommended", "by", "Incident", "context", "Title:", "[Errors][ENV-Shared][eastus]", "operationName:\"FlowHttpEngine.GetErrorMessageFromException\"", "Summary:", "NA", "Discussion:", "Impacted", "Resource", "Account:", "Service", "L", "...", "Resource", "Type:", "OperationErrorISE2", "Resource:", "Error_FlowHttpEngine.Worker.razzle_f98e2379d9ee49efab7a14ea82c3f438", "...", "Lookback", "duration:", "60", "minutes.", "Monitor.DataEndTime", "2022-03-19", "03:03:31Z", "Monitor.DataStartTime", "2022-03-19", "02:03:31Z"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 91.67999999999999,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure11-1.png"
+}, {
+  "caption": "Figure 1: An example of a KQL query and its template.",
+  "captionBoundary": {
+    "x1": 63.93600082397461,
+    "x2": 283.8988342285156,
+    "y1": 343.1418762207031,
+    "y2": 345.22198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["Table", "KQL", "Query", "TemplateKQL", "Query"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 294.24,
+    "y1": 276.96,
+    "y2": 335.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure1-1.png"
+}, {
+  "caption": "Table 1: Query reaction time statistics of incidents.",
+  "captionBoundary": {
+    "x1": 335.2249755859375,
+    "x2": 540.626953125,
+    "y1": 602.005859375,
+    "y2": 604.0859985351562
+  },
+  "figType": "Table",
+  "imageText": ["Overall", "3,197", "216", "11", "6", "2", "0", "553", "130", "45", "30", "28", "1", "992", "114", "15", "10", "3", "2", "801", "49", "6", "4", "2", "3", "4,563", "839", "22", "10", "2", "Severity", "Mean", "Median", "P90", "P95", "P99"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 348.0,
+    "x2": 526.0799999999999,
+    "y1": 609.6,
+    "y2": 678.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Table1-1.png"
+}, {
+  "caption": "Figure 2: Distributions of KQL query number per incident/discussion.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.793701171875,
+    "y1": 173.86190795898438,
+    "y2": 186.9010009765625
+  },
+  "figType": "Figure",
+  "imageText": ["ns", "us", "sio", "d", "isc", "n", "of", "or", "tio", "Pr", "op", "100%", "80%", "60%", "40%", "20%", "0%", "1", "2", "3", "4", "5", "6", "7", ">=8", "Number", "of", "KQL", "queries", "per", "discussion", "en", "ts", "in", "cid", "n", "of", "or", "tio", "Pr", "op", "100%", "80%", "60%", "40%", "20%", "0%", "1", "2", "3", "4", "5", "6", "7", ">=8", "Number", "of", "KQL", "queries", "per", "incident"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 555.36,
+    "y1": 84.96,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Query coverage ratio w.r.t. top-K tables/templates in percentage.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1949462890625,
+    "y1": 205.21786499023438,
+    "y2": 218.25701904296875
+  },
+  "figType": "Figure",
+  "imageText": ["Table", "Template", "ra", "tio", "ra", "ge", "Co", "ve", "100%", "80%", "60%", "40%", "10%", "20%", "30%", "40%", "50%", "Top-K", "in", "percentage"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 553.4399999999999,
+    "y1": 108.96,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The mean±std. of the monthly ratio of KQL queries covered by novel templates across all services.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1926879882812,
+    "y1": 539.6188354492188,
+    "y2": 552.6580200195312
+  },
+  "figType": "Figure",
+  "imageText": ["tio", "g", "ra", "ea", "sin", "In", "cr", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "1", "5", "9", "13", "17", "21", "Month"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 557.28,
+    "y1": 450.71999999999997,
+    "y2": 530.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure5-1.png"
+}, {
+  "caption": "Figure 3: The token distribution ofKQLqueries in the dataset.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03466796875,
+    "y1": 139.39089965820312,
+    "y2": 141.47100830078125
+  },
+  "figType": "Figure",
+  "imageText": ["mean:", "111.90", "median:", "63.00", "0.000", "0.002", "0.004", "0.006", "0.008", "0.010", "De", "ns", "ity", "0", "50", "100", "150", "200", "250", "300", "Number", "of", "tokens"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 84.0,
+    "y2": 131.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure3-1.png"
+}, {
+  "caption": "Table 3: Comparison before and after the post-processing.",
+  "captionBoundary": {
+    "x1": 56.61000061035156,
+    "x2": 290.93792724609375,
+    "y1": 198.5858154296875,
+    "y2": 200.666015625
+  },
+  "figType": "Table",
+  "imageText": ["BLEU", "34.95", "36.61", "30.52", "27.88", "METEOR", "42.24", "46.30", "47.77", "46.14", "Xcore", "11.63", "35.99", "11.19", "35.93", "TableAcc", "22.54", "38.03", "17.39", "31.68", "Identicality", "0.00", "7.04", "0.00", "10.56", "Validity", "0.00", "50.70", "0.00", "56.52", "Before", "After", "Before", "After", "Template", "Full", "Query", "Metric"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 265.44,
+    "y1": 206.88,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Table3-1.png"
+}, {
+  "caption": "Figure 9: Distributions of BLEU, METEOR and Xpert in the test set (left), and samples with Xcore below 30 (right).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2031860351562,
+    "y1": 285.96380615234375,
+    "y2": 299.00299072265625
+  },
+  "figType": "Figure",
+  "imageText": ["Samples", "with", "Xcore", "<", "30", "BLEU", "METEOR", "Xcore", "30", "0.08", "0.06", "0.04", "0.02", "0.00", "0", "20", "40", "60", "80", "100", "Score", "All", "samples", "BLEU", "METEOR", "Xcore", "ity", "De", "ns", "0.08", "0.06", "0.04", "0.02", "0.00", "0", "20", "40", "60", "80", "100", "Score"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 554.88,
+    "y1": 195.84,
+    "y2": 275.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure9-1.png"
+}, {
+  "caption": "Figure 10: A representative generated sample and its corresponding ground truth.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8112182617188,
+    "y1": 410.560791015625,
+    "y2": 423.6000061035156
+  },
+  "figType": "Figure",
+  "imageText": ["3", "4", "5", "6", "1", "2", "count", "the", "number", "of", "records", "with", "non-null", "subscriptionIds", "count", "the", "number", "of", "records", "for", "each", "unique", "subscriptionId", "Tables", "do", "not", "match", "`!=`is", "opposite", "to", "`==`", "`<`", "is", "opposite", "to", "`>=`", "Invalid", "operator", "`=`", "Ground", "truth", "Generated", "sample", "Errors", "|", "where", "TIMESTAMP", ">=", "datetime(2022-03-27", "22:04:06Z)", "|", "where", "operationName", "==", "\"ImagePull\"", "|", "where", "SourceNamespace", "contains", "\"us-east\"", "|", "where", "Deployment", "==", "\"svc-mesh-3d21\"", "|", "summarize", "count()", "by", "subscriptionId", "JobErrors", "|", "where", "TIMESTAMP", "<", "datetime(2022-03-27", "22:04:06Z)", "|", "where", "operationName", "!=", "\"ImagePull\"", "|", "where", "SourceNamespace", "contains", "\"us-east\"", "|", "where", "Deployment", "=", "\"svc-mesh-3d21\"", "|", "summarize", "count(subscriptionId)"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 314.88,
+    "y2": 403.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639081-Figure10-1.png"
+}]

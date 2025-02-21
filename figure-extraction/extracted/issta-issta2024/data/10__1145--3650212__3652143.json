@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: Replacing two statements in di erent basic blocks. (a) T3 lies in a branch while T2 does not; (b) Adoptermakes two copies of T2 into the two branches; (c) Adopter replaces copied T2 and T3 with a new statement T ′ 1",
+  "captionBoundary": {
+    "x1": 53.519901275634766,
+    "x2": 295.5762023925781,
+    "y1": 241.5570831298828,
+    "y2": 281.8719787597656
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 263.03999999999996,
+    "y1": 82.56,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Transforming model DPT using Adopter.",
+  "captionBoundary": {
+    "x1": 335.5665283203125,
+    "x2": 540.5914306640625,
+    "y1": 483.1950378417969,
+    "y2": 487.48992919921875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "transformation", "synthesized", "by", "Adopter", "24", "+", "hidden_state", "=", "self.convolution2(hidden_state)", "23", "+", "else:", "22", "+", "hidden_state", "=", "self.conv_batchnorm(hidden_state)", "14", "...", "15", "hidden_state", "=", "self.convolution1(hidden_state)", "16", "if", "self.use_batch_norm:", "17", "hidden_state", "=", "self.batch_norm1(hidden_state)", "18", "...", "19", "-", "hidden_state", "=", "self.convolution2(hidden_state)", "20", "if", "self.use_batch_norm:", "21", "-", "hidden_state", "=", "self.batch_norm2(hidden_state)", ":", "12", "13", "def", "forward(self,", "hidden_state:", "torch.Tensor)", "->", "torch.Tensor", "config.hidden_size,", "kernel_size=3)", "11", "+", "self.convolution2", "=", "nn.Conv2d(config.hidden_size,", "10", "+", "else:", "8", "self.batch_norm1", "=", "nn.BatchNorm2d(hidden_size)", "9", "-", "self.batch_norm2", "=", "nn.BatchNorm2d(hidden_size)", "hidden_size,", "config.hidden_size,", "kernel_size=3)", "7", "+", "self.conv_batchnorm", "=", "FusedConv2dBatchNorm2d(config.", "5", "if", "self.use_batch_norm:", "6", "+", "from", "epoi", "import", "FusedConv2dBatchNorm2d", "hidden_size,", "kernel_size=3)", "4", "-", "self.convolution2", "=", "nn.Conv2d(config.hidden_size,", "config.", "hidden_size,", "kernel_size=3)", "1", "class", "DPTPreActResidualLayer(nn.Module):", "2", "def", "__init__(self,", "config):", "3", "self.convolution1", "=", "nn.Conv2d(config.hidden_size,", "config.", "(a)", "Model", "Transformation", "Rule", "TR", "⇒", "epoi.FusedConv2dBatchNorm2d", "($x)", "→", "$x", "torch.nn.BatchNorm2d", "($x)", "→", "$x", "R2:torch.nn.Conv2d", "($x)", "→", "$x;", "⇒", "epoi.FusedConv2dBatchNorm2d", "($h,", "$h,", "kernel_size=$k)", "→", "$cb", "torch.nn.BatchNorm2d", "($h)", "→", "$bn", "R8:torch.nn.Conv2d", "($h,", "$h,", "kernel_size=$k)", "→", "$c;"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 308.15999999999997,
+    "x2": 559.1999999999999,
+    "y1": 86.88,
+    "y2": 473.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Figure5-1.png"
+}, {
+  "caption": "Figure 1: The code transformation performed byAdopter to fuse Dropout and LayerNorm layers using the EPOI kernel",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.201416015625,
+    "y1": 304.464111328125,
+    "y2": 319.7179870605469
+  },
+  "figType": "Figure",
+  "imageText": ["15", "return", "hidden_states", "input_tensor)", "14", "+", "hidden_states", "=", "self.dropout_add_layernorm(hidden_states,", "13", "-", "hidden_states", "=", "self.LayerNorm(hidden_states+input_tensor)", "11", "hidden_states", "=", "self.dense(hidden_states)", "12", "-", "hidden_states", "=", "self.dropout(hidden_states)", "torch.Tensor):", "10", "def", "forward(self,", "hidden_states:", "torch.Tensor,", "input_tensor:", "9", "config.layer_norm_eps)", "config.hidden_size,", "config.hidden_dropout_prob,", "eps=", "8", "+", "self.dropout_add_layernorm", "=", "FusedDropoutAddLayerNorm(", "7", "+", "from", "epoi", "import", "FusedDropoutAddLayerNorm", "6", "-", "self.dropout", "=", "nn.Dropout(config.hidden_dropout_prob)", "config.layer_norm_eps)", "5", "-", "self.LayerNorm", "=", "nn.LayerNorm(config.hidden_size,", "eps=", "hidden_size)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 308.15999999999997,
+    "x2": 559.1999999999999,
+    "y1": 124.32,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Figure1-1.png"
+}, {
+  "caption": "Table 1: Model transformation rules used for evaluation.",
+  "captionBoundary": {
+    "x1": 191.3699951171875,
+    "x2": 420.3358154296875,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["1", "BertSelfAttention", "BertSelfAttention", "with", "xformers’", "attention", "ops", "xformers", "[11]", "2", "T5Attention", "T5Attention", "with", "xformers’", "attention", "ops", "xformers", "[11]", "3", "GPT2Attention", "GPT2Attention", "with", "xformers’", "attention", "ops", "xformers", "[11]", "4", "softmax", "A", "drop-in", "replacement", "to", "torch.nn.softmax", "triton", "[10]", "5", "Dropout_LayerNorm", "Fusing", "Dropout", "and", "LayerNorm", "epoi", "[2]", "6", "biased_GeLU", "Fusing", "biased", "Linear", "and", "GeLU", "activation", "epoi", "[2]", "7", "Conv_BatchNorm", "Fusing", "Conv2d", "and", "BatchNorm2d", "PyTorch", "[8]", "8", "Linear_BatchNorm", "Fusing", "Linear", "and", "BatchNorm1d", "PyTorch", "[8]", "9", "fused_QKV", "Fusing", "three", "Linear", "layers", "as", "q,", "k,", "and", "v", "in", "encoder", "slapo", "[9]", "Index", "Name", "Description", "Source"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 124.8,
+    "x2": 487.2,
+    "y1": 99.84,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Table1-1.png"
+}, {
+  "caption": "Figure 6: E ectiveness of optimization rules. (a)(b) Average change of model performance after applying each of the 9 optimization rules. The dashed line indicates the overall average change. (c) Distribution of changes in model performance after applying all optimization rules.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.8069458007812,
+    "y1": 202.58009338378906,
+    "y2": 228.79302978515625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Model", "Performance", "(%)", "200", "150", "100", "50", "Sample", "per", "Second", "per", "Memory", "GPU", "(b)", "per", "GPU", "Memory", "(%)", "biased_GeLU", "softmax", "T5Attention", "BertSelfAttention", "Dropout_LayerNorm", "Linear_BatchNorm", "Conv_BatchNorm", "GPT2Attention", "0", "50", "100", "150", "fused_QKV", "(a)", "Sample", "per", "Second", "(%)", "biased_GeLU", "softmax", "BertSelfAttention", "Dropout_LayerNorm", "Linear_BatchNorm", "Conv_BatchNorm", "GPT2Attention", "T5Attention", "0", "50", "100", "150", "fused_QKV"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 531.84,
+    "y1": 84.96,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Domain-Speci c Language",
+  "captionBoundary": {
+    "x1": 101.27616882324219,
+    "x2": 246.5674285888672,
+    "y1": 219.9135284423828,
+    "y2": 224.20843505859375
+  },
+  "figType": "Figure",
+  "imageText": ["constant", "::=", "string", "|", "number", "|", "...", "variable", "::=", "identifier", "|", "identifier", ".", "variable", "op", "::=", "+", "|", "-", "|", "@", "|", "·", "|", "...", "argument", "::=", "variable", "|", "constant", "input", "::=", "argument", "|", "identifier=argument", "input_list", "::=", "input", "|", "input", ",", "input_list", "|", "Y", "layer_type", "::=", "identifier", "|", "identifier", ".", "layer_type", "Tensor_Op", "::=", "input", "op", "input", "→", "variable", "|", "op", "input", "→", "variable", "DL_Layer", "::=", "layer_type", "(input_list)", "→", "variable", "DL_Node", "::=", "DL_Layer", "|", "Tensor_Op", "Model_Structure", "::=", "DL_Node", "|", "DL_Node", ";", "Model_Structure"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 285.59999999999997,
+    "y1": 88.8,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Figure2-1.png"
+}, {
+  "caption": "Table 3: The total number of optimizations applied on 119 Hugging Face models using 9 transformation rules.*",
+  "captionBoundary": {
+    "x1": 81.98519897460938,
+    "x2": 529.7232055664062,
+    "y1": 268.9911193847656,
+    "y2": 273.2860107421875
+  },
+  "figType": "Table",
+  "imageText": ["*The", "numbers", "are", "presented", "in", "the", "form", "of", "True", "Positive", "/", "False", "Negative", "/", "False", "Positive.", "Adopter%", "1/0/0", "2/0/0", "2/0/0", "197/11/1", "80/0/0", "25/118/0", "25/10/0", "2/0/0", "2/0/0", "336/139/1", "1.00", "0.71", "Adopter", "1/0/0", "2/0/0", "2/0/0", "197/11/0", "80/0/0", "136/7/0", "31/4/0", "2/0/0", "2/0/0", "453/22/0", "1.00", "0.95", "Rule", "Index", "1", "2", "3", "4", "5", "6", "7", "8", "9", "All", "Precision", "Recall"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 538.0799999999999,
+    "y1": 281.76,
+    "y2": 335.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Table3-1.png"
+}, {
+  "caption": "Table 2: Total number of optimizations applied on a set of 199 models in Hugging Face using 9 transformation rules with Adopter and PyEvolve.",
+  "captionBoundary": {
+    "x1": 53.467201232910156,
+    "x2": 558.2001953125,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Sum", "475", "453", "22", "0", "1", "0.95", "289", "185", "10", "0.97", "0.61", "1", "1", "1", "0", "0", "1", "1", "1", "0", "0", "1", "1", "2", "2", "2", "0", "0", "1", "1", "2", "0", "0", "1", "1", "3", "2", "2", "0", "0", "1", "1", "1", "1", "0", "1", "0.50", "4", "208", "197", "11", "0", "1", "0.95", "137", "71", "0", "1", "0.66", "5", "80", "80", "0", "0", "1", "1", "78", "1", "9", "0.90", "0.99", "6", "143", "136", "7", "0", "1", "0.95", "66", "77", "0", "1", "0.46", "7", "35", "31", "4", "0", "1", "0.89", "2", "33", "0", "1", "0.06", "8", "2", "2", "0", "0", "1", "1", "0", "2", "0", "-", "0.00", "9", "2", "2", "0", "0", "1", "1", "2", "0", "1", "0.67", "1", "Rule", "Ground", "Adopter", "Baseline", "Index", "Truth", "TP", "FN", "FP", "Precision", "Recall", "TP", "FN", "FP", "Precision", "Recall"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 128.64,
+    "x2": 483.35999999999996,
+    "y1": 110.88,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Table2-1.png"
+}, {
+  "caption": "Figure 3: Code snippets from Hugging Face DPT model and the two possible model structures extracted from it.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2051391601562,
+    "y1": 460.3670959472656,
+    "y2": 475.6210021972656
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "torch.nn.Conv2d", "(hidden_state)", "→", "hidden_state;", "torch.nn.BatchNorm2d", "(hidden_state)", "→", "hidden_state;", "torch.nn.Conv2d", "(hidden_state)", "→", "hidden_state;", "torch.nn.BatchNorm2d", "(hidden_state)", "→", "hidden_state", "torch.nn.Conv2d", "(hidden_state)", "→", "hidden_state;", "torch.nn.Conv2d", "(hidden_state)", "→", "hidden_state", "10", "hidden_state", "=", "self.convolution1(hidden_state)", "11", "if", "self.use_batch_norm:", "12", "hidden_state", "=", "self.batch_norm1(hidden_state)", "13", "...", "14", "hidden_state", "=", "self.convolution2(hidden_state)", "15", "if", "self.use_batch_norm:", "16", "hidden_state", "=", "self.batch_norm2(hidden_state)", "9", "...", ":", "8", "def", "forward(self,", "hidden_state:", "torch.Tensor)", "->", "torch.Tensor", "(a)", "torch.nn.Conv2d", "(config.hidden_size,", "config.hidden_size,", "3)", "→", "self.convolution1;", "torch.nn.Conv2d", "(config.hidden_size,", "config.hidden_size,", "3)", "→", "self.convolution2;", "torch.nn.BatchNorm2d", "(config.hidden_size)", "→", "self.batch_norm1;", "torch.nn.BatchNorm2d", "(config.hidden_size)", "→", "self.batch_norm2;", "torch.nn.Conv2d", "(config.hidden_size,", "config.hidden_size,", "3)", "→", "self.convolution1;", "torch.nn.Conv2d", "(config.hidden_size,", "config.hidden_size,", "3)", "→", "self.convolution2"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 308.15999999999997,
+    "x2": 558.24,
+    "y1": 173.76,
+    "y2": 450.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Figure3-1.png"
+}, {
+  "caption": "Table 4: Statistics of average Adopter running time (in seconds) on 199 Hugging Face models with 9 optimization rules.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8106689453125,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["7.86", "0.03", "1.34", "1.23", "1.08", "Maximum", "Minimum", "Mean", "Median", "Std.", "Dev"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 540.0,
+    "y1": 110.88,
+    "y2": 140.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652143-Table4-1.png"
+}]

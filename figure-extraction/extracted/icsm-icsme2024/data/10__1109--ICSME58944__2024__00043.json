@@ -1,0 +1,41 @@
+[{
+  "caption": "Fig. 1: Taxonomy of DL-specific SATD",
+  "captionBoundary": {
+    "x1": 231.62550354003906,
+    "x2": 385.3932800292969,
+    "y1": 485.8100280761719,
+    "y2": 491.45257568359375
+  },
+  "figType": "Figure",
+  "imageText": ["DL", "Life-Cycle", "Infrastructure", "(13)", "DATA", "PROCESSING", "OPTIMIZATION", "Padding", "(7)", "(8)", "TRAINING", "LOGIC", "(18)", "ATTENTION", "MASK", "PARAMETERS", "(16)", "LAYER", "ISSUES", "(3)", "(13)", "LOSS", "FUNCTION", "(4)", "WEIGHTING", "(11)", "LEARNING", "STRATEGIES", "EMBEDDING", "(8)", "INPUT", "(30)", "(5)", "Determinism", "In", "Training", "Phase", "(2)", "Pipeline's", "Components", "Incompatibility", "Among", "Different", "Logic", "(2)", "Add", "Pre-Training", "Numerical", "Bug", "(2)", "(1)", "Add", "Learning", "Strategies", "(1)", "Phase-Related", "Strategies", "(3)", "Dealing", "With", "Frozen", "Layers", "(5)", "Initialization", "Issues", "(6)", "Issues", "In", "Loss", "Function", "(3)", "Weighting", "Strategies", "(1)", "Logging", "Overhead", "(7)", "Add", "Loss", "Function", "(15)", "Parameters'", "Configuration", "Serialization", "(1)", "(12)", "Masking", "Strategies", "(6)", "Compatibiliy", "(12)", "Attention", "Mask", "For", "Batching", "Sequences", "Tests", "(2)", "Inappropriate", "Model", "Output", "(1)", "Pooling", "Layer", "Issues", "(2)", "Attention", "Layer", "Issues", "(1)", "Model", "Caching", "(1)", "Lack", "Of", "Observability", "Of", "Models'", "Parameters", "(1)", "Custom", "Function", "Need", "to", "Create", "Layer", "From", "Mode", "(1)", "Mixed-Up", "Training/Eval", "Scaling", "(5)", "Input", "Processing/", "(6)", "Data", "Structure", "Iterations", "Data", "Caching", "(2)", "(2)", "Embedding", "Initialization", "(6)", "Embedding", "Shape", "Indexing", "(5)", "Input", "Formats", "(18)", "(1)", "Suboptimal", "Prompting", "Inappropriate", "Output", "Postprocessing", "(2)", "Optimization", "(14)", "Design", "(1)", "(13)", "Support", "For", "ML", "Frameworks", "(2)", "Sequential", "CPU", "Offloading", "(4)", "Support", "For", "Multiprocessing", "(13)", "Hardware", "Support", "(6)", "GPUs", "Synchronization", "API", "(13)", "DATA", "(51)", "MODEL", "(53)", "TRAINING", "(36)", "PIPELINE", "(19)", "INFERENCE", "(3)", "HARDWARE", "(25)"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 541.4399999999999,
+    "y1": 72.48,
+    "y2": 472.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00043-Figure1-1.png"
+}, {
+  "caption": "TABLE I: List of SATD examples (to open, add https://github.com/ before)",
+  "captionBoundary": {
+    "x1": 144.87423706054688,
+    "x2": 471.9615783691406,
+    "y1": 74.28964233398438,
+    "y2": 79.93218994140625
+  },
+  "figType": "Table",
+  "imageText": ["ID", "Category", "URL", "HARDWARE", "E1", "Hardware", "Support", "alpa-projects/alpa/blob/824f2ff/alpa/torch/tensor_utils.py#L74", "E2", "Support", "For", "Multiprocessing", "tensorflow/lingvo/blob/cd0a505/lingvo/jax/layers/repeats.py#L179", "E3", "Support", "For", "Multiprocessing", "huggingface/diffusers/blob/ba59e92f/src/diffusers/pipelines/unidiffuser/pipeline_unidiffuser.py#L106", "API", "E4", "Support", "For", "ML", "Frameworks", "ivy-llc/ivy/blob/975c8fc/ivy/functional/frontends/tensorflow/general_functions.py#L483", "E5", "Support", "For", "ML", "Frameworks", "microsoft/muzic/blob/5b3890d/emogen/linear_decoder/command_seq_generator.py#L438", "DATA", "E6", "Input:", "Input", "Processing/Scaling", "IntelLabs/nlp-architect/blob/88b3236/nlp_architect/models/tagging.py#L276", "E7", "Input:", "Input", "Processing/Scaling", "huggingface/diffusers/blob/ba59e92f/examples/community/pipeline_zero1to3.py#L667", "E8", "Embedding:", "Embedding", "Initialization", "huggingface/transformers/blob/5936c8c/src/transformers/models/encodec/convert_encodec_checkpoint_to_pytorch.py#L230", "E9", "Embedding:", "Embedding", "Initialization", "microsoft/LMOps/blob/909022d/minillm/transformers/src/transformers/models/opt_parallel/modeling_opt_parallel.py#L856", "E10", "Data", "Processing", "Optimization:", "Data", "Caching", "AUTOMATIC1111/stable-diffusion-webui/blob/5ef669d/extensions-builtin/LDSR/sd_hijack_ddpm_v1.py#L600", "E11", "Data", "Processing", "Optimization:", "Indexing", "openGVLab/InternGPT/blob/2aceb06/iGPT/models/grit_src/third_party/CenterNet2/detectron2/modeling/proposal_generator/rrpn.py#L184", "E12", "Data", "Processing", "Optimization:", "Data", "Structure", "Iterations", "huggingface/diffusers/blob/ba59e92f/scripts/convert_kandinsky_to_diffusers.py#L837", "MODEL", "E3", "Attention", "Mask:", "Masking", "Strategies", "flairNLP/flair/blob/603de99/flair/models/lemmatizer_model.py#L324", "E14", "Attention", "Mask:", "Attention", "Mask", "For", "Batching", "Sequences", "alpa-projects/alpa/blob/824f2ff/examples/llm_serving/model/wrapper.py#L575", "E15", "Layer", "Issues:", "Pooling", "Layer", "Issues", "apache/tvm/blob/c318fa8/tests/python/frontend/pytorch/test_forward.py#L2533", "E16", "Parameters:", "Parameters’", "Configuration", "alpa-projects/alpa/blob/824f2ff/alpa/torch/ops/mapping.py#L121", "E17", "Parameters:", "Lack", "of", "Observability", "of", "Models’", "Parameters", "EleutherAI/gpt-neo/blob/23485e3/utils.py#L178", "E18", "Inappropriate", "Model", "Output", "Tests", "Sygil-Dev/sygil-webui/blob/91a4eba/ldm/models/diffusion/ddpm.py#L1249", "E19", "Model", "Caching", "Sygil-Dev/sygil-webui/blob/91a4eba/scripts/scn2img.py#L147", "E20", "Serialization", "keras-team/keras/blob/eb12517/keras/legacy/saving/json_utils.py#L114", "E21", "Compatibility", "FedML-AI/FedML/blob/e94d88/python/fedml/core/distributed/communication/s3/remote_storage.py#L317", "E22", "Compatibility", "microsoft/LMOps/blob/909022d/structured_prompting/fairseq-version/fairseq/examples/roberta/wsc/wsc_task.py#L56", "TRAINING", "E23", "Loss", "Function:", "Issues", "in", "Loss", "Function", "microsoft/LMOps/blob/909022d/understand_icl/fairseq/examples/MMPT/mmpt/losses/nce.py#L19", "E24", "Loss", "Function:", "Add", "Loss", "Function", "huggingface/transformers/blob/5936c8c/src/transformers/models/longt5/modeling_longt5.py#L2076", "E25", "Weighting:", "Weighting", "Strategies", "tensorflow/lingvo/blob/cd0a505/lingvo/jax/train.py#L469", "E26", "Weighting:", "Dealing", "With", "Frozen", "Layers", "huggingface/transformers/blob/5936c8c/src/transformers/models/sam/modeling_tf_sam.py#L577", "E27", "Learning", "Strategies:", "Phase-Related", "Strategies", "microsoft/LMOps/blob/909022d/understand_icl/fairseq/examples/MMPT/mmpt/evaluators/predictor.py#L541", "E28", "Training", "Logic:", "Determinism", "in", "Training", "Phase", "openai/shap-e/blob/0b26c72/shap_e/models/nn/ops.py#L407", "E29", "Training", "Logic:", "Numerical", "Bug", "huggingface/transformers/blob/5936c8c/src/transformers/models/speech_to_text/modeling_tf_speech_to_text.py#L1292", "E30", "Training", "Logic:", "Logging", "Overhead", "Stability-AI/stablediffusion/blob/cf1d67a/ldm/models/diffusion/ddpm.py#L1391", "INFERENCE", "E31", "Inappropriate", "Output", "PostProcessing", "openGVLab/InternGPT/blob/2aceb06/iGPT/models/grit_src/third_party/CenterNet2/tools/deploy/export_model.py#L98", "E32", "Suboptimal", "Prompting", "oobabooga/text-generation-webui/blob/a0d99dc/extensions/openai/completions.py#L193", "PIPELINE", "E33", "Design", "microsoft/LMOps/blob/909022d/minillm/transformers/examples/research_projects/wav2vec2/run_asr.py#L193", "E34", "Need", "to", "Create", "Layer", "from", "Custom", "Function", "IntelLabs/nlp-architect/blob/88b3236/nlp_architect/nn/torch/quantization.py#L65", "E35", "Mixed-Up", "Training/Eval", "Mode", "allenai/allennlp/blob/80fb606/allennlp/interpret/influence_interpreters/simple_influence.py#L164", "E36", "Incompatibility", "Among", "Different", "Pipeline’s", "Components", "huggingface/transformers/blob/5936c8c/src/transformers/configuration_utils.py#L341"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 549.12,
+    "y1": 88.8,
+    "y2": 370.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00043-TableI-1.png"
+}]

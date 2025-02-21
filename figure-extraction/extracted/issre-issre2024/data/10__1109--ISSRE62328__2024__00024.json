@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 3: Comparison of F1 improvement across different active learning sample proportions(k%)",
+  "captionBoundary": {
+    "x1": 123.58349609375,
+    "x2": 487.9476318359375,
+    "y1": 207.9678192138672,
+    "y2": 213.55694580078125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)Zookeeper", "AcLog-AFALog", "Our", "Method", ")", "t", "(", "%", "em", "en", "pr", "ov", "F1", "im", "17.5", "15.0", "12.5", "10.0", "7.5", "5.0", "2.5", "0.0", "0", "2", "4", "6", "8", "10", "Active", "Learning", "Sample", "proportion", "(%)", "(b)BGL", "AcLog-AFALog", "Our", "Method", ")", "t", "(", "%", "em", "en", "pr", "ov", "F1", "im", "12", "10", "8", "6", "4", "2", "0", "0", "2", "4", "6", "8", "10", "Active", "Learning", "Sample", "proportion", "(%)", "(a)Thunderbird", "AcLog-AFALog", "Our", "Method", ")", "t", "(", "%", "em", "en", "pr", "ov", "F1", "im", "14", "12", "10", "8", "6", "4", "2", "0", "0", "2", "4", "6", "8", "10", "Active", "Learning", "Sample", "proportion", "(%)"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 530.4,
+    "y1": 74.88,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00024-Figure3-1.png"
+}, {
+  "caption": "TABLE I: Performance Comparison On three datasets",
+  "captionBoundary": {
+    "x1": 76.15950012207031,
+    "x2": 282.330810546875,
+    "y1": 73.74645233154297,
+    "y2": 79.3355712890625
+  },
+  "figType": "Table",
+  "imageText": ["Recall", "95.72%", "99.93%", "98.97%", "F1-score", "96.92%", "90.85%", "86.57%", "Accuracy", "94.13%", "91.16%", "84.92%", "Precision", "98.14%", "83.29%", "76.93%", "LogCAE(our)", "Recall", "88.82%", "99.32%", "99.09%", "F1-score", "93.48%", "88.54%", "85.81%", "Accuracy", "88.06%", "89.42%", "83.91%", "Precision", "98.66%", "79.83%", "75.68%", "AcLog-AFALog", "Recall", "88.35%", "96.85%", "93.97%", "F1-score", "91.94%", "86.34%", "81.91%", "Accuracy", "89.12%", "87.40%", "81.25%", "Precision", "95.80%", "78.12%", "72.45%", "LogRobust", "Recall", "92.92%", "98.15%", "91.07%", "F1-score", "95.55%", "86.03%", "79.70%", "Accuracy", "91.65%", "86.53%", "78.13%", "Precision", "98.32%", "75.87%", "69.85%", "PLELog", "Recall", "79.05%", "96.05%", "89.16%", "F1-score", "87.86%", "78.54%", "81.63%", "Accuracy", "78.94%", "69.93%", "80.29%", "Precision", "98.89%", "66.31%", "75.28%", "DeepLog", "Recall", "62.73%", "63.54%", "83.00%", "F1-score", "76.95%", "73.02%", "74.50%", "Accuracy", "63.77%", "81.00%", "76.50%", "Precision", "99.52%", "80.35%", "75.50%", "LogCluster", "Thunderbird", "BGL", "Zookeeper", "Method", "Metrics", "Datasets"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 297.12,
+    "y1": 87.84,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00024-TableI-1.png"
+}, {
+  "caption": "TABLE II: Proportion of Human Labeling Efforts",
+  "captionBoundary": {
+    "x1": 335.608642578125,
+    "x2": 526.1026000976562,
+    "y1": 260.38421630859375,
+    "y2": 265.97332763671875
+  },
+  "figType": "Table",
+  "imageText": ["Zookeeper", "3051", "(2457/594)", "52066", "5.86%", "Thunderbird", "277", "(84/193)", "4113", "6.74%", "BGL", "3851", "(2732/1119)", "69139", "5.57%", "DataSet", "#Labeled", "Sequences", "(Normal/Anomalous)", "#Training", "Sequences", "Proportion"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 533.28,
+    "y1": 274.56,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00024-TableII-1.png"
+}, {
+  "caption": "TABLE III: Comparison of different LogCAE Variants",
+  "captionBoundary": {
+    "x1": 326.3199768066406,
+    "x2": 535.357666015625,
+    "y1": 541.0535278320312,
+    "y2": 546.6426391601562
+  },
+  "figType": "Table",
+  "imageText": ["LogCAE", "84.92%", "76.93%", "98.97%", "86.57%", "Zookeeper", "LogCAE(No", "CL)", "77.42%", "60.38%", "89.16%", "72.00%", "LogCAE(No", "AL)", "79.85%", "63.49%", "91.32%", "75.24%", "LogCAE", "91.16%", "83.29%", "99.93%", "90.85%", "BGL", "LogCAE(No", "CL)", "77.92%", "66.55%", "99.99%", "79.92%", "LogCAE(No", "AL)", "81.16%", "70.72%", "99.85%", "85.35%", "LogCAE", "94.13%", "98.14%", "95.72%", "96.92%", "Thunderbird", "LogCAE(No", "CL)", "72.73%", "99.32%", "72.21%", "83.62%", "LogCAE(No", "AL)", "75.94%", "98.75%", "75.88%", "87.90%", "DataSet", "Model", "Acc", "Pr", "Re", "F1"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 546.24,
+    "y1": 554.88,
+    "y2": 660.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00024-TableIII-1.png"
+}, {
+  "caption": "Fig. 2: Feature space evolution: (a) Before training, (b) After offline training, and (c) After online optimization",
+  "captionBoundary": {
+    "x1": 62.221832275390625,
+    "x2": 295.9908142089844,
+    "y1": 570.6714477539062,
+    "y2": 587.391845703125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Visualization", "of", "the", "feature", "space", "after", "online", "optimization", "normal", "Anomalous", "(b)", "Visualization", "of", "the", "feature", "space", "after", "offline", "training", "normal", "Anomalous", "(a)", "Visualization", "of", "the", "original", "feature", "space", "before", "training", "normal", "Anomalous"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 82.08,
+    "x2": 273.12,
+    "y1": 75.84,
+    "y2": 557.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00024-Figure2-1.png"
+}, {
+  "caption": "Fig. 1: Overview of LogCAE",
+  "captionBoundary": {
+    "x1": 249.91400146484375,
+    "x2": 362.2435607910156,
+    "y1": 350.0047912597656,
+    "y2": 355.5939025878906
+  },
+  "figType": "Figure",
+  "imageText": ["……", "…", "…", "TFEnc", "TFEnc", "TFEnc", "TFEnc", "TFEnc", "TFEnc", "self-supervised", "pairing", "model", "run", "select", "fuzzy", "samples", "𝑥𝑖", "BERT", "Auto", "Encoder", "Online", "optimize", "Stage", "d", "Offline", "training", "Stage", "Active", "learning", "Human", "labeled", "Contrastive", "learning", "Dataset", "New", "Log", "New", "History", "Log", "Reconstruction", "Loss", "A", "nom", "aly", "detection", "d", "Em", "beddings"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 542.88,
+    "y1": 75.84,
+    "y2": 336.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00024-Figure1-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 6: Inference rules for the EncodeRuleBody procedure.",
+  "captionBoundary": {
+    "x1": 183.10693359375,
+    "x2": 428.88287353515625,
+    "y1": 232.63235473632812,
+    "y2": 238.26300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-R(x̄),m", "=min", "n", ":", "R(z̄)", "↪→", "ite(n", "<", "m′,m", "=", "n,m", "=m′)", "(Min)", "τ", "=", "insert", "R(z̄)", "m′", "=", "Γ(H", ")[¯k].value", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-R(x̄),m", "=max", "n", ":", "R(z̄)", "↪→", "ite(n", ">", "m′,m", "=", "n,m", "=m′)", "(Max)", "τ", "=", "insert", "R(z̄)", "m′", "=", "Γ(H", ")[¯k].value", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-R(x̄),", "c", "=", "count", ":", "R(z̄)", "↪→", "ϕ", "(Count−)", "τ", "=", "delete", "R(z̄)", "ϕ", "B", "c", "=", "Γ(H", ")[¯k].value", "−", "1", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-R(x̄),", "c", "=", "count", ":", "R(z̄)", "↪→", "ϕ", "(Count+)", "τ", "=", "insert", "R(z̄)", "ϕ", "B", "c", "=", "Γ(H", ")[¯k].value", "+", "1", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-R(x̄),", "s", "=", "sum", "n", ":", "R(z̄)", "↪→", "s", "=", "s", "′", "(Sum−)", "τ", "=", "delete", "R(z̄)", "s", "′", "=", "Γ(H", ")[¯k].value", "−", "n", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-R(x̄),", "s", "=", "sum", "n", ":", "R(z̄)", "↪→", "s", "=", "s", "′", "(Sum+)", "τ", "=", "insert", "R(z̄)", "s", "′", "=", "Γ(H", ")[¯k].value", "+", "n", "(Join2)", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-", "Pred,", "Join", "↪→", "ϕ1", "∧", "ϕ2", "Γ,", "τ", "⊢", "Pred", "⇝", "ϕ1", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-", "Join", "↪→", "ϕ2", "Γ,", "τ", "⊢", "H", "(ȳ)", ":", "-R(x̄)", "↪→", "ϕ", "(Join1)", "Γ,", "τ", "⊢", "R(x̄)⇝", "ϕ"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 516.48,
+    "y1": 83.52,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Figure6-1.png"
+}, {
+  "caption": "Figure 1: Overview of DCV.",
+  "captionBoundary": {
+    "x1": 118.80500030517578,
+    "x2": 229.03297424316406,
+    "y1": 577.3763427734375,
+    "y2": 583.0070190429688
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 468.96,
+    "y2": 564.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Figure1-1.png"
+}, {
+  "caption": "Figure 2: A voting contract",
+  "captionBoundary": {
+    "x1": 384.177001953125,
+    "x2": 491.9751892089844,
+    "y1": 294.9583435058594,
+    "y2": 300.5889892578125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "/*", "Declare", "relations.", "*/", "2", ".decl", "recv_vote(proposal:", "uint)", "3", ".decl", "vote(p:", "address", ",", "proposal:", "uint)", "4", ".decl", "isVoter(v:", "address", ",", "b:", "bool)[0]", "5", ".decl", "votes(proposal:", "uint", ",", "c:", "uint)[0]", "6", ".decl", "wins(proposal:", "uint", ",", "b:", "bool)[0]", "7", ".decl", "voted(p:", "address", ",", "b:", "bool)[0]", "8", ".decl", "*winningProposal(proposal:", "uint)", "9", ".decl", "*hasWinner(b:", "bool)", "10", ".decl", "*quorumSize(q:", "uint)", "11", ".init", "isVoter", "12", "13", "/*", "Voter", "v", "cast", "a", "vote", "to", "proposal", "p.", "*/", "14", "vote(v,p)", ":-", "recv_vote(p),", "msgSender(v),", "15", "hasWinner(false),", "voted(v,", "false),", "16", "isVoter(v,", "true).", "17", "18", "/*", "Count", "votes", "for", "each", "proposal", "p.", "*/", "19", "votes(p,c)", ":-", "vote(_,p),", "c", "=", "count:", "vote(_,p).", "20", "21", "/*", "A", "proposal", "wins", "by", "reaching", "a", "quorum.", "*/", "22", "wins(p,", "true)", ":-", "votes(p,c),", "quorumSize(q),", "23", "c", ">=", "q.", "24", "hasWinner(true)", ":-", "wins(_,b),", "b==true.", "25", "winningProposal(p)", ":-", "wins(p,b),", "b==true.", "26", "voted(v,true)", ":-", "vote(v,_).", "27", "28", "/*", "Safety:", "at", "most", "one", "winning", "proposal.", "*/", "29", ".decl", "inconsistency(p1:", "uint", ",", "p2:", "uint)[0,1]", "30", ".violation", "inconsistency", "31", "inconsistency(p1,p2)", ":-", "wins(p1,true),", "32", "wins(p2,true),p1!=p2."],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 317.28,
+    "x2": 562.0799999999999,
+    "y1": 327.84,
+    "y2": 623.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The voting contract as a state transition system.",
+  "captionBoundary": {
+    "x1": 190.4149932861328,
+    "x2": 421.576416015625,
+    "y1": 234.92434692382812,
+    "y2": 240.55499267578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 128.64,
+    "x2": 483.35999999999996,
+    "y1": 82.56,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Figure3-1.png"
+}, {
+  "caption": "Table 1: Benchmark properties for group one.",
+  "captionBoundary": {
+    "x1": 345.55499267578125,
+    "x2": 530.29931640625,
+    "y1": 386.0483703613281,
+    "y2": 391.67901611328125
+  },
+  "figType": "Table",
+  "imageText": ["paymentSplitter", "No", "overpayment.", "vestingWallet", "No", "early", "release.", "voting", "At", "most", "one", "winning", "proposal.", "auction", "Each", "participant", "can", "withdraw", "at", "most", "once.", "each", "partition.", "controllableToken", "Account", "balances", "add", "up", "to", "totalSupply.", "partitionToken", "Account", "balances", "add", "up", "to", "totalSupply", "in", "(2)", "No", "token", "sale", "after", "finalization.", "cappedCrowdSale", "(1)", "No", "illegal", "finalization.", "(2)", "No", "premature", "finalization.", "finalizableCrowdSale", "(1)", "No", "token", "sale", "after", "finalization.", "(2)", "No", "distribute", "token", "before", "sale", "finalized.", "(3)", "No", "evacuate", "before", "upgrade.", "(4)", "Always", "be", "puased", "after", "upgrade.", "brickBlockToken", "(1)", "No", "transfer", "before", "unpause.", "(2)", "Mutual", "exclusion", "of", "refund", "and", "withdraw.", "(3)", "Cannot", "refund", "after", "target", "amount", "is", "raised.", "wallet", "No", "negative", "balance.", "crowFunding", "(1)", "No", "missing", "fund.", "token’s", "totalSupply.", "ERC1155", "Each", "token’s", "account", "balances", "add", "up", "to", "that", "account.", "Benchmarks", "Properties", "ERC20", "Account", "balances", "add", "up", "to", "totalSupply.", "ERC721", "All", "existing", "tokens", "have", "an", "owner.", "ERC777", "No", "default", "operator", "is", "approved", "for", "individual"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 580.3199999999999,
+    "y1": 406.56,
+    "y2": 693.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Table1-1.png"
+}, {
+  "caption": "Figure 4: Syntax of DeCon relation declaration and annotation.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.794921875,
+    "y1": 211.75436401367188,
+    "y2": 228.343994140625
+  },
+  "figType": "Figure",
+  "imageText": ["(Type)", "T", "B", "address", "|", "uint", "|", "int", "|", "bool", "Schema", "B", "Str", ":", "T", "1,", "Str", ":", "T", "2,", "...", "(Sinдleton)", "SG", "B", ".decl", "∗", "Str", "(Schema)", "(Transaction)", "TR", "B", ".decl", "∗", "recv_Str", "(Schema)", "(Primary", "keys)", "K", "B", "[k1,k2,", "...]", "(Relation)", "R", "B", "SR", "|", "SG", "|", "TR", "(Simple)", "SR", "B", ".decl", "Str", "(Schema)[K]", "Decl", "B", ".decl", "R", "Annot", "B", ".(init", "|", "violation", "|", "public)", "R"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 543.36,
+    "y1": 87.84,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Figure4-1.png"
+}, {
+  "caption": "Table 2: Verification efficiency measured in time (seconds). TO stands for time-out after 1 hour, OM stands for out of memory, Unknown (?) means the verifier cannot verify the property, and Errors (×) means the verifier exits due to internal errors.",
+  "captionBoundary": {
+    "x1": 53.50200271606445,
+    "x2": 559.274169921875,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Count", "30", "30", "10", "12", "5", "12", "17", "6", "11", "ltcSwapAsset", "25", "655", "0.80", "TO", "x", "x", "50.70", "?", "1.97", "matic", "25", "510", "0.85", "2.26", "x", "67.37", "26.84", "?", "0.91", "shib", "22", "508", "0.86", "0.99", "x", "70.26", "22.41", "244.99", "0.56", "tether", "27", "474", "0.81", "51.00", "x", "x", "30.75", "OM", "?", "theta", "21", "213", "0.77", "321.65", "0.91", "20.66", "19.10", "TO", "?", "wbtc", "28", "731", "0.82", "TO", "x", "x", "59.56", "?", "0.86", "Top", "ERC20", "bnb", "24", "172", "0.86", "3.27", "0.66", "10.06", "28.68", "?", "?", "tokens", "link", "20", "308", "0.84", "0.51", "x", "64.63", "25.08", "0.26", "0.86", "ERC777", "31", "562", "0.90", "TO", "?", "22.06", "?", "?", "?", "ERC1155", "18", "645", "0.97", "11.14", "TO", "15.10", "64.83", "?", "?", "wallet", "12", "67", "0.82", "0.16", "?", "4.87", "?", "?", "0.56", "crowFunding-p1", "14", "85", "0.85", "1.00", "x", "?", "21.00", "TO", "?", "crowFunding-p2", "1.47", "✓", "?", "?", "?", "5.00", "TO", "?", "crowFunding-p3", "1.24", "✓", "?", "?", "?", "?", "TO", "?", "BrickBlockToken-p1", "36", "595", "0.86", "✓", "?", "?", "?", "?", "1.35", "1.15", "BrickBlockToken-p2", "1.61", "✓", "?", "?", "?", "?", "1.36", "?", "BrickBlockToken-p3", "2.18", "✓", "?", "?", "?", "?", "TO", "1.26", "BrickBlockToken-p4", "2.25", "?", "?", "5.83", "1.00", "TO", "?", "FinalizableCrodSale-p1", "22", "457", "1.29", "✓", "?", "?", "?", "?", "TO", "?", "FinalizableCrodSale-p2", "0.80", "?", "?", "?", "TO", "?", "CappedCrowdSalea-p1", "25", "435", "11.13", "✓", "?", "?", "?", "?", "TO", "?", "CappedCrowdSalea-p2", "1.36", "✓", "?", "?", "?", "?", "TO", "?", "paymentSplitter", "6", "166", "1.22", "TO", "13.94", "8.51", "?", "TO", "?", "vestingWallet", "7", "113", "0.82", "TO", "?", "21.62", "10.45", "?", "?", "voting", "6", "36", "0.86", "✓", "x", "TO", "?", "?", "?", "?", "auction", "13", "146", "2.27", "✓", "x", "TO", "?", "?", "?", "?", "controllableToken", "23", "55", "0.90", "43.26", "2.72", "x", "56.00", "TO", "0.51", "partitionToken", "16", "70", "0.79", "0.41", "0.31", "5.84", "6.91", "0.16", "0.36", "Open", "standards", "ERC20", "19", "389", "0.78", "25.07", "x", "x", "64.03", "?", "0.56", "and", "examples", "ERC721", "13", "520", "0.88", "TO", "x", "x", "57.21", "0.31", "?", "ref.", "DeCon", "ref.", "DeCon", "ref.", "DeCon", "Group", "Name", "#Rules", "LOC", "DCV", "Inv.?", "Solc", "Solc-verify", "VeriSmart"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 116.64,
+    "y2": 481.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Table2-1.png"
+}, {
+  "caption": "Figure 5: Syntax of DeCon rules. H (x̄) and R(x̄) are relational literals, with H and R being the relation name, and x̄ is an array of variables or constants. For the max , min, and sum aggregators, n is a variable in a numerical domain.",
+  "captionBoundary": {
+    "x1": 53.79798889160156,
+    "x2": 294.0461120605469,
+    "y1": 189.83633422851562,
+    "y2": 228.34393310546875
+  },
+  "figType": "Figure",
+  "imageText": ["(Condition)", "C", "B>", "|", "<", "|", "≥", "|", "≤", "|", ",", "|", "==", "(Function)", "F", "B", "+", "|", "−", "|", "×", "|", "/", "Rule", "B", "H", "(x̄)", ":", "-Body", "Body", "B", "Join", "|", "R(x̄),y", "=", "Aдд", ":", "R(ȳ)", "Join", "B", "R(x̄)", "|", "Pred,", "Join", "Aдд", "B", "sum", "n", "|max", "n", "|min", "n", "|", "count", "Pred", "B", "R(x̄)", "|", "C(x̄)", "|", "y", "=", "F", "(x̄)"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 87.84,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639203-Figure5-1.png"
+}]

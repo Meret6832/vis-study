@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 6: Correct and Plausible xes on ConDefect",
+  "captionBoundary": {
+    "x1": 75.25581359863281,
+    "x2": 272.2915344238281,
+    "y1": 107.34236145019531,
+    "y2": 111.63726806640625
+  },
+  "figType": "Table",
+  "imageText": ["ChatRepair", "243", "/", "250", "241", "/", "249", "BaseChatGPT", "170", "/", "189", "165", "/", "171", "AlphaRepair", "154", "/", "158", "142", "/", "160", "Tools", "ConDefects-Java", "ConDefects-Python"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 268.32,
+    "y1": 116.64,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Table6-1.png"
+}, {
+  "caption": "Figure 1: Example bug xwith original testcase information",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0469665527344,
+    "y1": 147.66810607910156,
+    "y2": 151.9630126953125
+  },
+  "figType": "Figure",
+  "imageText": ["Testname:", "testZero()", "Failure", "Line:", "assertPrint(\"var", "x", "='\\\\0';\",", "\"var", "x=\\\"\\\\000\\\"\");", "Error", "Message:", "expected:<var", "x=\"\\0[00]\">", "but", "was:<var", "x=\"\\0[]\">", "switch", "(c)", "{", "case", "'\\0':", "sb.append(\"\\\\0\");", "break;", "case", "'\\0':", "sb.append(\"\\\\000\");", "break;", "case", "'\\n':", "sb.append(\"\\\\n\");", "break;", "+", "-"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 82.56,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Figure1-1.png"
+}, {
+  "caption": "Table 5: Feedback response variations",
+  "captionBoundary": {
+    "x1": 98.35780334472656,
+    "x2": 249.19056701660156,
+    "y1": 645.9032592773438,
+    "y2": 650.1981811523438
+  },
+  "figType": "Table",
+  "imageText": ["BaseFeedback", "58", "23.12", "$0.071", "TestName+ErrMsg", "61", "22.48", "$0.073", "TestName+ErrMsg+FailLine", "62", "24.71", "$0.074", "Dynamic", "64", "21.86", "$0.061", "Feedback", "Response", "#P", "Avg.", "#", "tries", "Avg.", "$"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 263.03999999999996,
+    "y1": 654.72,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Table5-1.png"
+}, {
+  "caption": "Figure 7: E ect ofmaximum conversation length",
+  "captionBoundary": {
+    "x1": 339.8389892578125,
+    "x2": 536.3189086914062,
+    "y1": 157.1240997314453,
+    "y2": 161.41900634765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 82.56,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Figure7-1.png"
+}, {
+  "caption": "Figure 4: Unique bug xed in Defects4j 1.2",
+  "captionBoundary": {
+    "x1": 354.2340087890625,
+    "x2": 521.9237060546875,
+    "y1": 156.6551055908203,
+    "y2": 160.95001220703125
+  },
+  "figType": "Figure",
+  "imageText": ["+", "Testname:", "testCreateNumber()", "Failure", "Line:", "0xFADE", "==", "NumberUtils.createNumber(\"0Xfade\").intValue()", "Error", "Message:", "0Xfade", "is", "not", "a", "valid", "number.", "+", "-", "str.startsWith(\"-0x\")", "||", "str.startsWith(\"-0X\"))", "{", "case", "'\\n':", "sb.append(\"\\\\n\");", "break;", "}", "if", "(str.startsWith(\"0x\")", "||", "str.startsWith(\"-0x\"))", "{", "if", "(str.startsWith(\"0x\")", "||", "str.startsWith(\"0X\")", "||"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 82.56,
+    "y2": 152.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Unique bug xed in Defects4j 2.0",
+  "captionBoundary": {
+    "x1": 354.2340087890625,
+    "x2": 521.9237060546875,
+    "y1": 242.5200958251953,
+    "y2": 246.81500244140625
+  },
+  "figType": "Figure",
+  "imageText": ["+", "-", "+", "Double.isInfinite(value)))", "{", "throw", "new", "IllegalArgumentException(\"Numeric", "writeDeferredName();", "if", "(Double.isNaN(value)", "||", "Double.isInfinite(value)){", "if", "(!isLenient()", "&&", "(Double.isNaN(value)", "||", "Testname:", "testNonFiniteDoublesWhenLenient()", "Failure", "Line:", "jsonWriter.value(Double.NaN);", "Error", "Message:", "Numeric", "values", "must", "be", "finite,", "but", "was", "NaN"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 168.95999999999998,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Bug x Venn diagram onDefects4j 1.2",
+  "captionBoundary": {
+    "x1": 80.01700592041016,
+    "x2": 267.8265380859375,
+    "y1": 196.17420959472656,
+    "y2": 200.4691162109375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "All", "APR", "tools", "13", "FitRepair", "Alpha", "Repair", "Codex", "Repair", "Chat", "Repair", "Others", "(a)", "Learning-based", "APR", "tools", "17", "FitRepair", "Alpha", "Repair", "Codex", "Repair", "Chat", "Repair", "Recoder"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 279.36,
+    "y1": 82.56,
+    "y2": 189.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Figure3-1.png"
+}, {
+  "caption": "Table 4: Initial prompt variations",
+  "captionBoundary": {
+    "x1": 371.5260925292969,
+    "x2": 504.33624267578125,
+    "y1": 526.2252197265625,
+    "y2": 530.5201416015625
+  },
+  "figType": "Table",
+  "imageText": ["0-shot", "64", "21.86", "$0.061", "1-shot", "65", "9.91", "$0.072", "2-shot", "65", "9.87", "$0.085", "You", "are", "a", "helpful", "assistant", "64", "24.17", "$0.074", "You", "are", "an", "APR", "tool", "64", "21.86", "$0.061", "BasePrompt", "55", "22.53", "$0.069", "TestName+ErrMsg", "59", "22.47", "$0.072", "TestName+ErrMsg+FailLine", "64", "21.86", "$0.061", "TestName+ErrMsg+TestBody", "61", "23.42", "$0.083", "Initial", "Prompt", "#P", "Avg.", "#", "tries", "Avg.", "$"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 529.4399999999999,
+    "y1": 535.1999999999999,
+    "y2": 639.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Table4-1.png"
+}, {
+  "caption": "Table 3: Correct xes using three repair settings",
+  "captionBoundary": {
+    "x1": 78.29100036621094,
+    "x2": 269.2566833496094,
+    "y1": 266.1720886230469,
+    "y2": 270.46697998046875
+  },
+  "figType": "Table",
+  "imageText": ["ChatRepair", "57", "79", "76", "39", "40", "40", "36", "37", "39", "BaseChatGPT", "41", "55", "45", "38", "37", "35", "33", "36", "39", "CodexRepair", "39", "62", "63", "39", "39", "37", "34", "34", "32", "SL", "SH", "SF", "SL", "SH", "SF", "SL", "SH", "SF", "Tools", "D4J", "1.2", "Quixbugs-Py", "Quixbugs-J"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 275.03999999999996,
+    "y1": 276.0,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Table3-1.png"
+}, {
+  "caption": "Figure 6: Plausible generation example",
+  "captionBoundary": {
+    "x1": 96.04879760742188,
+    "x2": 251.79489135742188,
+    "y1": 382.9530944824219,
+    "y2": 387.24798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["+", "+", "Correct", "Patch", "if", "(fnType", "!=", "null", "&&", "(fnType.isConstructor()", "||", "fnType.isInterface()))", "{", "if", "(fnType", "!=", "null", "&&", "fnType.isConstructor())", "{+", "Plausible", "Patch"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 336.0,
+    "y2": 378.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Figure6-1.png"
+}, {
+  "caption": "Table 1: Correct xes on Defects4j",
+  "captionBoundary": {
+    "x1": 238.1020050048828,
+    "x2": 373.6016540527344,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["D4J", "2.0", "48", "25", "31", "44", "36", "31", "25", "11", "8", "-", "D4J", "1.2", "114", "80", "99", "89", "74", "64", "50", "65", "68", "57", "Chart", "15", "9", "9", "8", "9", "7", "5", "10", "11", "10", "Closure", "37", "23", "30", "29", "23", "19", "15", "21", "16", "14", "Lang", "21", "15", "22", "19", "13", "10", "7", "11", "13", "9", "Math", "32", "25", "29", "24", "21", "22", "19", "18", "22", "19", "Mockito", "6", "6", "6", "6", "5", "3", "3", "2", "3", "4", "Time", "3", "2", "3", "3", "3", "3", "1", "3", "3", "1", "Dataset", "ChartRepair", "BaseChatGPT", "CodexRepair", "FitRepair", "AlphaRepair", "SelfAPR", "RewardRepair", "Recoder", "TBar", "CURE"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 96.0,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Table1-1.png"
+}, {
+  "caption": "Table 2: Correct xes on QuixBugs",
+  "captionBoundary": {
+    "x1": 104.9749984741211,
+    "x2": 242.57266235351562,
+    "y1": 205.13710021972656,
+    "y2": 209.4320068359375
+  },
+  "figType": "Table",
+  "imageText": ["Python", "40", "40", "40", "27", "19", "Java", "40", "40", "38", "28", "13", "Codex", "Repair", "Alpha", "Repair", "CoCoNuT", "ChatGPT", "Base", "Repair", "QuixBugs", "Chat"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 214.07999999999998,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Table2-1.png"
+}, {
+  "caption": "Figure 2: Overview of ChatRepair",
+  "captionBoundary": {
+    "x1": 235.55599975585938,
+    "x2": 376.4445495605469,
+    "y1": 360.45611572265625,
+    "y2": 364.7510070800781
+  },
+  "figType": "Figure",
+  "imageText": ["k", "db", "ac", "F", "ee", "ti", "on", "er", "sa", "Co", "nv", "io", "n", "ru", "ct", "on", "st", "pt", "C", "Pr", "om", "ia", "l", "created", "prompt", "or", "feedback", "info", "ChatGPT", "output", "In", "it", "More", "Plausible", "Patch", "compile", "&", "test", "...", "It", "can", "be", "ﬁxed", "by", "these", "possible", "lines", "1.", "2.", "...", "3.", "...", "Please", "generate", "an", "alternative", "ﬁx", "line.", "if", "(!result.isNoType())", "{", "Here", "is", "another", "possible", "ﬁxed", "line:", "if", "(plotDataset", "==", "...", "...", "...", "JSType", "result", "=", "builder.build();", ">>>", "[", "INFILL", "]", "<<<", "return", "result;", "}", "else", "if", "(this.isObject()", "&&", "that.isObject())", "{", "return", "result", "}", "The", "following", "code", "contains", "a", "buggy", "line", "that", "has", "been", "removed.", "...", "int", "index", "=", "this.plot.getIndexOf(this);", "CategoryDataset", "dataset", "=", "this.plot.getDataset(index);", ">>>", "[", "INFILL", "]", "<<<", "single-hunk", "prompt", "single-function", "prompt", "The", "code", "fails", "on", "this", "test:", "...", "...", "This", "was", "the", "original", "buggy", "hunk", "which", "was", "removed", "by", "the", "inﬁll", "location", "...", "...", "JSType", "result", "=", "builder.build();", "if", "(result", "!=", "null)", "{", "return", "result;", "}", "else", "if", "(this.isObject()", "&&", "that.isObject())", "{", "return", "result", "}", "The", "following", "code", "contains", "a", "bug", "...", "int", "index", "=", "this.plot.getIndexOf(this);", "CategoryDataset", "dataset", "=", "this.plot.getDataset(index);", ">>>", "[", "INFILL", "]", "<<<", "...", "...", "JSType", "result", "=", "builder.build();", ">>>", "[", "INFILL", "]", "<<<", "return", "result;", "}", "else", "if", "(this.isObject()", "&&", "that.isObject())", "{", "return", "result", "}", "The", "following", "code", "contains", "a", "buggy", "hunk", "that", "has", "been", "removed.", "...", "int", "index", "=", "this.plot.getIndexOf(this);", "CategoryDataset", "dataset", "=", "this.plot.getDataset(index);", ">>>", "[", "INFILL", "]", "<<<", "The", "patch", "passes", "all", "tests!", "if", "(plotDataset", "==", "null)", "{if", "(!result.isNoType())", "{", "compile", "&", "test", "Apologies", "for", "the", "mistake,", "the", "correct", "line", "at", "the", "inﬁll", "location", "should", "be", "Error:", "assertion", "failed", "on", "line:", "....", "....", "Error:", "assertion", "failed", "on", "line:", "....", "....", "Failing", "test", "info", "compile", "&", "test", "compile", "&", "test", "...", "+", "--", "...", "+", "--", "...", "...", "+", "--", "...", "...", "Previous", "Bug", "Fixes", "...", "...", "JSType", "result", "=", "builder.build();", "if", "(result", "!=", "null)", "{", "return", "result;", "}", "else", "if", "(this.isObject()", "&&", "that.isObject())", "{", "Buggy", "Function", "if", "(plotDataset", "==", "null)", "{if", "(!(result", "instanceof", "UnionType))", "{", "The", "ﬁxed", "version", "is", "still", "not", "correct.", "It", "still", "does", "not", "ﬁx", "the", "original", "test", "failure", "Sorry", "for", "the", "mistake,", "the", "correct", "line", "at", "the", "inﬁll", "location", "should", "be", "if", "(plotDataset", "==", "null)", "{if", "(!(result", "instanceof", "NoObjectType))", "{The", "ﬁxed", "version", "is", "still", "not", "correct.", "code", "has", "the", "following", "compilation", "error:", "[javac]", "745:", "error:", "cannot", "ﬁnd", "symbol", "Please", "provide", "the", "correct", "line", "at", "the", "inﬁll", "location.", "error:", "cannot", "find", "symbol", "(NoObjectType)", "The", "correct", "line", "at", "the", "inﬁll", "location", "would", "be", "Few-Shot", "Examples", "result", "!=", "nul", ")", "{", "...", "...", "JSType", "result", "=", "builder.build();", ">>>", "[", "INFILL", "]", "<<<", "return", "result;", "}", "else", "if", "(this.isObject()", "&&", "that.isObject())", "{", "This", "was", "the", "original", "buggy", "line", "which", "was", "removed", "by", "the", "inﬁll", "location", "if", "(dataset", "!=", "null)", "{", "The", "code", "fails", "on", "this", "test:", "testGreatestSubtypeUnionTypes5()", "on", "this", "test", "line:", "assertEquals(NO_OBJECT_TYPE,", "errUnion.getGreatestSubtype(STRING_OBJECT_TYPE));", "with", "the", "following", "test", "error:", "expected:<NoObject>", "but", "was:<None>", "Please", "provide", "the", "correct", "line", "at", "the", "inﬁll", "location.", "return", "result", "}", "The", "following", "code", "contains", "a", "buggy", "line", "that", "has", "been", "removed.", "...", "int", "index", "=", "this.plot.getIndexOf(this);", "CategoryDataset", "dataset", "=", "this.plot.getDataset(index);", ">>>", "[", "INFILL", "]", "<<<", "You", "are", "an", "Automated", "Program", "Repair", "Tool"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 356.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680323-Figure2-1.png"
+}]

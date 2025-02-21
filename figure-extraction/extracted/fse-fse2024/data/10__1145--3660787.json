@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 4. Comparison in test sets.",
+  "captionBoundary": {
+    "x1": 182.19000244140625,
+    "x2": 303.56817626953125,
+    "y1": 82.93795013427734,
+    "y2": 88.1429443359375
+  },
+  "figType": "Table",
+  "imageText": ["GLM", "62.4%", "90.4%", "0.74", "EH-Digger", "91.7%", "72.6%", "0.81", "EH-Miner", "72.3%", "70.2%", "0.71", "ErrHunter", "92.4%", "70.1%", "0.80", "Precision", "Recall", "F1-score"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 159.84,
+    "x2": 326.4,
+    "y1": 97.92,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Table4-1.png"
+}, {
+  "caption": "Fig. 1. Real-world error-handling example that is hard to be understood by existing approaches.",
+  "captionBoundary": {
+    "x1": 66.23699951171875,
+    "x2": 419.7643127441406,
+    "y1": 176.31800842285156,
+    "y2": 181.52301025390625
+  },
+  "figType": "Figure",
+  "imageText": ["Failure", "Statement", "Error", "Handling", "Code", "SnippetError", "Propagation", "Path", "Fault", "Statement", "6", "char", "*state", "=", "device->state;", "10", "}", "11", "}", "7", "if", "(!strcmp(\"unauthorized\",", "state))", "{", "8", "LOGE(\"Device", "is", "unauthorized:\");", "5", "bool", "sc_adb_device_check_state(sc_adb_device", "*device){", "9", "sc_adb_devices_log(SC_LOG_LEVEL_ERROR,", "...);", "1", "sc_adb_list_devices(intr,", "flags,", "&vec);", "2", "struct", "sc_adb_device", "*device", "=", "&vec.data[sel_idx];", "3", "sc_adb_device_check_state(device);", "4", "sc_adb_device_move(&out_device,", "device);"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 424.32,
+    "y1": 97.92,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Overview of EH-Digger.",
+  "captionBoundary": {
+    "x1": 185.87100219726562,
+    "x2": 300.1298522949219,
+    "y1": 199.8880157470703,
+    "y2": 205.093017578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Figure2-1.png"
+}, {
+  "caption": "Fig. 4. Example of inter-procedural analysis. Fig. 5. Example of prefix collection. (prefix_in_caller in line 8-9). Finally, EH-Digger calculates and returns frequent subsequences of the concatenated action lists for all callers (line 11) by using the PrefixSpan algorithm [35].",
+  "captionBoundary": {
+    "x1": 45.52899932861328,
+    "x2": 440.17401123046875,
+    "y1": 192.68702697753906,
+    "y2": 222.32998657226562
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Figure4-1.png"
+}, {
+  "caption": "Table 3. Performance in 11 applications.",
+  "captionBoundary": {
+    "x1": 168.70899963378906,
+    "x2": 317.0491638183594,
+    "y1": 77.95699310302734,
+    "y2": 83.1619873046875
+  },
+  "figType": "Table",
+  "imageText": ["HandBrake", "100%", "11", "0", "Netdata", "100%", "11", "0", "Ayttm", "85.7%", "6", "0", "IJKPlayer", "100%", "11", "2", "Bftpd", "83.3%", "5", "5", "Curl", "80.8%", "19", "2", "Vlc", "91.3%", "11", "8", "Obs-studio", "94.4%", "16", "0", "Mutter", "100.0%", "11", "3", "Bitkeeper", "84.0%", "14", "7", "Redis", "92.0%", "17", "4", "Linux", "Kernel", "6.5", "91.7%", "121", "0", "Linux", "Kernel", "4.14", "90.3%", "174", "40", "Precision", "𝐵𝑢𝑔𝑁", "𝐵𝑢𝑔𝐻", "Precision", "𝐵𝑢𝑔𝑁", "𝐵𝑢𝑔𝐻"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 421.44,
+    "y1": 92.64,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Table3-1.png"
+}, {
+  "caption": "Fig. 11. Precision and recall of EH-Digger under different parameters.",
+  "captionBoundary": {
+    "x1": 114.63299560546875,
+    "x2": 371.367919921875,
+    "y1": 247.53199768066406,
+    "y2": 252.73699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Precision", "(b)", "Recall"],
+  "name": "11",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 431.03999999999996,
+    "y1": 84.0,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Figure11-1.png"
+}, {
+  "caption": "Table 2. Projects chosen for real-world bug detection.",
+  "captionBoundary": {
+    "x1": 144.1060028076172,
+    "x2": 341.65380859375,
+    "y1": 77.95699310302734,
+    "y2": 83.1619873046875
+  },
+  "figType": "Table",
+  "imageText": ["Messaging", "Client", "Ayttm", "108,894", "Free", "Software", "Foundation", "(FSF)", "FTP", "Bftpd", "11,123", "Community", "Window", "Manager", "Mutter", "520,673", "GNOME", "Foundation", "Vlc", "969,331", "VideoLAN", "IJKPlayer", "51,495", "Bilibili", "Media", "Player", "Monitor", "Netdata", "698,838", "Cloud", "Native", "Computing", "Foundation", "(CNCF)", "Database", "Redis", "299,660", "Redis", "Data", "Transfer", "Tool", "Curl", "294,521", "Haxx", "HandBrake", "254,797", "Community", "Obs-studio", "581,997", "NVIDIA,", "Logitech", "Bitkeeper", "1,236,529", "BitMover", "Development", "Tool", "Linux", "Kernel", "4.14", "25,041,284", "Linux", "Kernel", "Organization", "Linux", "Kernel", "6.5", "36,780,452", "Linux", "Kernel", "Organization", "Operating", "System", "Domain", "Name", "Line", "Number", "Sponsor"],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 437.28,
+    "y1": 92.64,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Table2-1.png"
+}, {
+  "caption": "Fig. 3. Example of code representation.",
+  "captionBoundary": {
+    "x1": 170.8159942626953,
+    "x2": 315.18402099609375,
+    "y1": 197.3009796142578,
+    "y2": 202.5059814453125
+  },
+  "figType": "Figure",
+  "imageText": ["2", "<Declare", "char>", "<Define,", "char,", "Constant>", "1", "<Declare,", "FILE>", "8", "<Use,", "FILE>,", "<Call,", "fprintf>", "3", "<Call,", "fopen>", "<Define,", "FILE,", "fopen>", "4", "<Check,", "FILE>", "1", "FILE*", "fp;", "2", "char", "fileName[]", "=", "\"file.txt\";", "7", "}", "8", "fprintf(fp)", "4", "if(!fp){", "5", "fprintf(stderr,", "\"Failed\");", "6", "return;", "3", "fp", "=", "fopen", "(fileName,", "\"w+\");"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 403.2,
+    "y1": 100.8,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Figure3-1.png"
+}, {
+  "caption": "Fig. 6. Example of error-handling bug detection.",
+  "captionBoundary": {
+    "x1": 154.03599548339844,
+    "x2": 331.96533203125,
+    "y1": 197.16297912597656,
+    "y2": 202.36798095703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 123.83999999999999,
+    "x2": 362.4,
+    "y1": 84.0,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Figure6-1.png"
+}, {
+  "caption": "Table 1. Studied Subjects.",
+  "captionBoundary": {
+    "x1": 194.94000244140625,
+    "x2": 290.8177185058594,
+    "y1": 77.95699310302734,
+    "y2": 83.1619873046875
+  },
+  "figType": "Table",
+  "imageText": ["NetBeans", "9,201", "64", "30", "(46.9%)", "gnome-shell", "242,440", "93", "33", "(35.5%)", "Development", "Tool", "Rook", "4,463", "37", "9", "(24.3%)", "Rpm-ostree", "49,388", "46", "19", "(41.3%)", "Minio", "10,270", "34", "7", "(20.6%)", "Rclone", "3,822", "34", "3", "(8.8%)", "Distributed", "Storage", "Wireshark", "5,949,177", "210", "130", "(61.9%)", "Netsniff", "65,182", "97", "52", "(53.6%)", "Network", "Monitor", "MPV", "203,794", "105", "34", "(32.4%)", "Audacious", "49,795", "52", "18", "(34.6%)", "Player", "gThumb", "207,107", "107", "32", "(29.9%)", "KolourPaint", "73,004", "56", "14", "(25.0%)", "Darktable", "664,703", "134", "75", "(56.0%)", "Image", "Editor", "ProFTPD", "845,882", "186", "77", "(41.4%)", "FileZilla", "152,117", "106", "46", "(43.4%)", "Pure-FTPd", "32,924", "152", "74", "(48.7%)", "FTP", "Mysql", "(twitter", "fork)", "18,396", "183", "77", "(42.1%)", "Sqlmap", "104,574", "97", "32", "(33.0%)", "MonetDB", "452,349", "205", "107", "(52.2%)", "Database", "Nginx", "230,147", "158", "69", "(43.7%)", "Hiawatha", "61,941", "85", "32", "(37.6%)", "lighttpd", "132,521", "81", "35", "(43.2%)", "Web", "server", "Domain", "Name", "Line", "Number", "Studied", "Code", "Snippets", "Different", "Function"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 92.64,
+    "y2": 355.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Table1-1.png"
+}, {
+  "caption": "Fig. 7. Comparison in Linux Kernel. Fig. 8. Comparison in applications.",
+  "captionBoundary": {
+    "x1": 89.23600006103516,
+    "x2": 395.7201843261719,
+    "y1": 235.9390106201172,
+    "y2": 241.14401245117188
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 242.39999999999998,
+    "y2": 383.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660787-Figure7-1.png"
+}]

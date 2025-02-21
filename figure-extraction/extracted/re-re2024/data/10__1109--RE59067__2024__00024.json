@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 1. Example of an use case description from the eTour dataset that follows a template structure. Orange parts can be filtered by template labels. The red part can only be identified by an automatic classification.",
+  "captionBoundary": {
+    "x1": 314.5299987792969,
+    "x2": 550.5250854492188,
+    "y1": 454.4463195800781,
+    "y2": 474.8332824707031
+  },
+  "figType": "Figure",
+  "imageText": ["Quality", "requirements:", "The", "system", "requirements", "into", "the", "transaction", "in", "more", "than", "15", "seconds.", "Exit", "conditions:", "The", "system", "displays", "a", "list", "of", "results.", "Interruption", "of", "the", "connection", "to", "the", "server", "ETOUR.", "location", "and", "process", "the", "request.", "area.", "2)", "View", "the", "advanced", "search", "form.", "3)", "Fill", "in", "the", "form", "of", "advanced", "search", "and", "submit.", "4)", "Gets", "the", "position", "of", "relying", "on", "the", "tourist", "event", "of", "the", "use", "Flow", "of", "events", "User", "System:", "1)", "Enable", "the", "advanced", "search", "feature", "from", "your", "personal", "Entry", "conditions:", "The", "Tourist", "has", "successfully", "authenticated", "to", "the", "system.", "Participating", "actor:", "initialized", "by", "Tourist", "Description:", "The", "tourist", "searching", "for", "a", "site", "using", "the", "potential", "offered", "by", "the", "Advanced", "Search", "Use", "case", "name:", "AdvancedSearch"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 546.24,
+    "y1": 237.6,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Example of a natural language requirement from the LibEST dataset. The red part describes a quality aspect of the system.",
+  "captionBoundary": {
+    "x1": 314.5299987792969,
+    "x2": 550.5250244140625,
+    "y1": 574.3403930664062,
+    "y2": 586.2989501953125
+  },
+  "figType": "Figure",
+  "imageText": ["The", "EST", "server", "MUST", "provide", "services", "regardless", "of", "whether", "the", "additional", "path", "segment", "is", "present.", "Requirement", "17:", "An", "EST", "server", "MAY", "provide", "service", "for", "multiple", "CAs", "as", "indicated", "by", "an", "OPTIONAL", "additional", "path", "segment", "between", "the", "registered", "application", "name", "and", "the", "operation", "path."],
+  "name": "2",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 548.16,
+    "y1": 488.64,
+    "y2": 561.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-Figure2-1.png"
+}, {
+  "caption": "TABLE I DISTRIBUTION OF THE CLASSES OVER THE REQUIREMENTS ELEMENTS (REQE) THAT ARE IN THE REQUIREMENTS (REQ) OF THE DATASETS",
+  "captionBoundary": {
+    "x1": 318.5086669921875,
+    "x2": 547.1956787109375,
+    "y1": 73.9801025390625,
+    "y2": 94.36492919921875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "447", "3,284", "2,432", "1,500", "1,650", "1,164", "1,412", "+", "PNFR", "691", "3,908", "2,741", "1,707", "1,763", "1,221", "1,412", "eAnci", "139", "1,290", "874", "570", "561", "328", "672", "LibEST", "52", "565", "404", "209", "290", "205", "5", "eTour", "58", "571", "457", "299", "342", "186", "279", "iTrust", "131", "336", "311", "179", "164", "169", "205", "SMOS", "67", "522", "386", "243", "293", "276", "251", "Dataset", "Req", "ReqE", "F", "Fun.", "Beh.", "Data", "UR"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 104.64,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-TableI-1.png"
+}, {
+  "caption": "TABLE II AVERAGE PERFORMANCE IN PRECISION, RECALL, F1 , AND ACCURACY OF HUMAN ANNOTATORS REGARDING THE RESULTING GOLD STANDARD",
+  "captionBoundary": {
+    "x1": 315.42718505859375,
+    "x2": 550.276611328125,
+    "y1": 229.872314453125,
+    "y2": 250.258056640625
+  },
+  "figType": "Table",
+  "imageText": ["F", ".958", ".991", ".975", ".962", "UR", ".911", ".987", ".947", ".953", "Function", ".839", ".890", ".864", ".871", "Behavior", ".946", ".942", ".944", ".944", "Data", ".870", ".851", ".861", ".902", "Class", "Precision", "Recall", "F1", "Accuracy"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 259.68,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-TableII-1.png"
+}, {
+  "caption": "Fig. 3. Visualization of applying NoRBERT to requirements classification",
+  "captionBoundary": {
+    "x1": 317.9750061035156,
+    "x2": 547.9462890625,
+    "y1": 195.3353271484375,
+    "y2": 198.864013671875
+  },
+  "figType": "Figure",
+  "imageText": ["95%functional", "5%", "non-functional", "ﬁne-tuned", "FFNN", "+", "softmax", "pretrained", "BERTBASE/BERTLARGE", "[CLS]", "The", "system", "shall", "...", "[SEP]", "The", "...", "[PAD]", "N", "o", "R", "B", "E", "R", "T"],
+  "name": "3",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 549.12,
+    "y1": 72.96,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-Figure3-1.png"
+}, {
+  "caption": "TABLE III ACCURACY OF NORBERT USING THE BERT-LARGE MODEL AND 16 EPOCHS WITH AND WITHOUT OVERSAMPLING (OS).",
+  "captionBoundary": {
+    "x1": 322.2917785644531,
+    "x2": 543.217529296875,
+    "y1": 74.8642578125,
+    "y2": 95.24908447265625
+  },
+  "figType": "Table",
+  "imageText": ["Data", ".743", ".777", ".634", ".779", ".612", ".709", ".709", ".823", ".774", ".711", ".792", ".363", ".693", ".700", "Beh.", ".778", ".720", ".912", ".779", ".558", ".749", ".758", ".779", ".720", ".770", ".750", ".565", ".717", ".724", "Func.", ".816", ".696", ".672", ".705", ".600", ".698", ".706", ".774", ".676", ".661", ".715", ".653", ".696", ".705", ".739", ".759", ".768", ".933", ".596", ".759", ".839", "UR", ".722", ".759", ".784", ".922", ".591", ".756", ".833", ".907", ".958", ".753", ".860", ".710", ".838", ".840", "F", ".912", ".943", ".738", ".838", ".696", ".825", ".826", "∅", "∅w", "L", "ib", "E", "S", "T", "eA", "n", "ci", "S", "M", "O", "S", "iT", "ru", "st", "Class", "OS", "eT", "o", "u", "r"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 105.6,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-TableIII-1.png"
+}, {
+  "caption": "TABLE VII COMPARISON TO RELATED WORK IN REQUIREMENTS-TO-CODE TLR USING OPTIMIZED THRESHOLDS PER PROJECT",
+  "captionBoundary": {
+    "x1": 115.01390075683594,
+    "x2": 487.97735595703125,
+    "y1": 74.30499267578125,
+    "y2": 86.2628173828125
+  },
+  "figType": "Table",
+  "imageText": ["FTLR", "+MC", "+F", ".442", ".519", ".369", ".261", ".252", ".348", ".410", ".462", ".424", ".271", ".349", ".568", ".346", ".396", ".427", "FTLR", "+UCT", "+F", ".548", ".576", ".533", ".238", ".240", ".283", ".409", ".500", ".438", ".289", ".306", ".533", ".371", ".406", ".447", "FTLR", "+MC+CD", "+UCT", "+F", ".517", ".543", ".486", ".250", ".273", ".333", ".418", ".457", ".450", ".275", ".304", ".541", ".362", ".394", ".453", "VSM", ".483", ".448", ".464", ".217", ".223", ".242", ".422", ".417", ".451", ".248", ".252", ".457", ".343", ".335", ".404", "LSI", ".453", ".453", ".449", ".253", ".254", ".265", ".422", ".427", ".468", ".217", ".237", ".390", ".336", ".343", ".393", "TAROTVSM", ".402", ".503", ".384", ".224", ".226", ".240", ".418", ".416", ".449", ".258", ".275", ".466", ".326", ".355", ".385", "TAROTLSI", ".403", ".510", ".407", ".217", ".276", ".252", ".461", ".517", ".496", ".226", ".264", ".403", ".327", ".392", ".390", "COMETMAP", ".437", ".455", ".475", ".282", ".249", ".263", ".276", ".458", ".294", "—", "—", "—", "(.332)", "(.387)", "(.344)", "FTLR", "+MC", "+UCT", ".517", ".548", ".486", ".253", ".255", ".354", ".419", ".446", ".451", ".276", ".290", ".549", ".366", ".385", ".460", "Approach", "Filter", "F1", "F2", "MAP", "F1", "F2", "MAP", "F1", "F2", "MAP", "F1", "F2", "MAP", "F1", "F2", "MAP", "eTour", "iTrust", "w/o", "JSP", "SMOS", "eAnci", "Average"],
+  "name": "VII",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 544.3199999999999,
+    "y1": 96.96,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-TableVII-1.png"
+}, {
+  "caption": "TABLE IV PRECISION, RECALL, AND F1-SCORES OF NORBERT USING THE BERT-LARGE MODEL AND 16 EPOCHS WITH AND WITHOUT OVERSAMPLING (OS).",
+  "captionBoundary": {
+    "x1": 62.396331787109375,
+    "x2": 540.9285888671875,
+    "y1": 74.4608154296875,
+    "y2": 87.6187744140625
+  },
+  "figType": "Table",
+  "imageText": [".701", ".796", ".746", ".751", ".822", ".785", ".870", ".533", ".661", ".623", ".463", ".531", ".363", "1.00", ".532", ".651", ".633", "Data", ".577", ".785", ".665", ".737", ".864", ".796", ".660", ".634", ".647", ".591", ".427", ".496", ".445", ".278", ".342", ".589", ".575", "Beh.", ".745", ".956", ".837", ".787", ".585", ".671", ".919", ".925", ".922", ".694", ".879", ".776", ".596", ".428", ".498", ".741", ".755", ".744", ".962", ".839", ".750", ".640", ".691", ".717", ".976", ".827", ".659", ".879", ".753", ".561", ".697", ".622", ".746", ".755", "Func.", ".790", ".883", ".834", ".785", ".592", ".675", ".597", ".914", ".722", ".686", ".614", ".648", ".466", ".550", ".504", ".677", ".680", ".772", ".806", ".789", ".797", ".525", ".633", ".586", ".926", ".718", ".721", ".579", ".642", ".527", ".608", ".564", ".669", ".672", ".933", ".502", ".653", ".913", ".668", ".772", ".795", ".697", ".743", ".947", ".923", ".934", ".017", ".800", ".034", ".627", ".818", "UR", ".962", ".448", ".611", ".903", ".678", ".774", ".825", ".697", ".756", ".940", ".909", ".924", ".017", ".800", ".033", ".620", ".808", ".899", ".996", ".945", ".968", ".987", ".978", ".756", ".982", ".855", ".850", ".965", ".904", ".759", ".871", ".811", ".898", ".898", "F", ".901", "1.00", ".948", ".965", ".974", ".970", ".743", ".987", ".848", ".817", ".981", ".891", ".721", ".938", ".815", ".894", ".892", "Class", "OS", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "∅", "∅w", "eTour", "iTrust", "SMOS", "eAnci", "LibEST", "F1"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 544.3199999999999,
+    "y1": 96.96,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-TableIV-1.png"
+}, {
+  "caption": "TABLE VI AVERAGED RESULTS OF THE DIFFERENT FTLR VARIANTS WITH THE DIFFERENT FILTERS. EITHER THE ORIGINAL THRESHOLDS (ORG) OR PER PROJECT OPTIMIZED THRESHOLDS (OPT) ARE APPLIED.",
+  "captionBoundary": {
+    "x1": 321.3190002441406,
+    "x2": 544.490478515625,
+    "y1": 74.325439453125,
+    "y2": 103.1400146484375
+  },
+  "figType": "Table",
+  "imageText": ["Fgold", ".359", ".474", ".405", ".342", ".515", ".404", ".344", ".506", ".402", "UCT+Fgold", ".348", ".501", ".407", ".345", ".506", ".404", ".346", ".499", ".402", "F", ".318", ".509", ".388", ".337", ".466", ".388", ".328", ".473", ".386", "UCT", ".349", ".500", ".403", ".353", ".491", ".403", ".342", ".503", ".401", "UCT+F", ".351", ".499", ".407", ".366", ".458", ".405", ".356", ".466", ".403", "O", "P", "T", "Fgold", ".336", ".394", ".349", ".334", ".443", ".369", ".339", ".435", ".370", "UCT+Fgold", ".335", ".389", ".346", ".334", ".439", ".367", ".338", ".430", ".367", "F", ".313", ".399", ".335", ".311", ".445", ".353", ".315", ".436", ".353", "UCT", ".331", ".399", ".346", ".330", ".445", ".366", ".335", ".436", ".366", "UCT+F", ".337", ".388", ".347", ".337", ".435", ".367", ".341", ".426", ".367", "O", "R", "G", "Filter", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "MC", "MC+CD", "T", "h", "re", "sh", "."],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 113.75999999999999,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-TableVI-1.png"
+}, {
+  "caption": "TABLE V AVERAGED RESULTS OF THE DIFFERENT FTLR VARIANTS WITH THE DIFFERENT FILTERS. EITHER THE ORIGINAL THRESHOLDS (ORG) OR PER PROJECT OPTIMIZED THRESHOLDS (OPT) ARE APPLIED.",
+  "captionBoundary": {
+    "x1": 66.13040161132812,
+    "x2": 289.30157470703125,
+    "y1": 74.325439453125,
+    "y2": 103.13922119140625
+  },
+  "figType": "Table",
+  "imageText": ["Fgold", ".359", ".474", ".405", ".342", ".515", ".404", ".344", ".506", ".402", "URgold", ".346", ".480", ".394", ".359", ".462", ".395", ".364", ".456", ".392", "F+URgold", ".362", ".470", ".396", ".366", ".444", ".396", ".358", ".461", ".394", "F", ".318", ".509", ".388", ".337", ".466", ".388", ".328", ".473", ".386", "UR", ".311", ".487", ".371", ".332", ".452", ".379", ".329", ".453", ".378", "F+UR", ".315", ".472", ".369", ".329", ".446", ".375", ".328", ".445", ".375", "—", ".290", ".532", ".372", ".316", ".506", ".378", ".298", ".527", ".375", "O", "P", "T", "Fgold", ".336", ".394", ".349", ".334", ".443", ".369", ".339", ".435", ".370", "URgold", ".371", ".351", ".342", ".368", ".389", ".363", ".370", ".383", ".360", "F+URgold", ".379", ".342", ".342", ".374", ".385", ".365", ".377", ".380", ".363", "F", ".313", ".399", ".335", ".311", ".445", ".353", ".315", ".436", ".353", "UR", ".373", ".312", ".302", ".363", ".334", ".317", ".367", ".330", ".318", "F+UR", ".389", ".302", ".299", ".365", ".319", ".308", ".368", ".315", ".308", "—", ".287", ".423", ".327", ".291", ".466", ".344", ".294", ".459", ".345", "O", "R", "G", "Filter", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "MC", "MC+CD", "T", "h", "re", "sh", "."],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 113.75999999999999,
+    "y2": 324.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-TableV-1.png"
+}, {
+  "caption": "Fig. 4. Integration of NoRBERT’s classification results into FTLR",
+  "captionBoundary": {
+    "x1": 198.16600036621094,
+    "x2": 404.762451171875,
+    "y1": 239.46728515625,
+    "y2": 242.9959716796875
+  },
+  "figType": "Figure",
+  "imageText": ["NoRBERT", "FTLR", "sets", "token", ".", ".", ".", "embeddings", "Map", "to", "word", ".", ".", ".", "elements", "classiﬁcation", "Requirements", "element", "ﬁlter", "Classiﬁcation", "splitting", "Camel", "case", "number,", "...", "removal", "Special", "character,", "Preprocessing", "Requirements", "requirements", "elements", "Split", "into"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 496.32,
+    "y1": 72.96,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/re-re2024/figures/10_1109-RE59067_2024_00024-Figure4-1.png"
+}]

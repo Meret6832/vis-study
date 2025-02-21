@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 4: % agreement between the analysts taxonomizing incidents.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 294.04052734375,
+    "y1": 621.3668212890625,
+    "y2": 626.3720092773438
+  },
+  "figType": "Table",
+  "imageText": ["Incidents", "5", "3", "3", "3", "3", "3", "31", "Agreement", "49.09%", "43.59%", "58.97%", "53.85%", "46.15%", "89.74%", "80.65%", "Iteration", "1", "2", "3", "4", "5", "6", "Final"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 286.08,
+    "y1": 636.0,
+    "y2": 671.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Table4-1.png"
+}, {
+  "caption": "Table 2: Confusion matrices for Step 2 and Step 3.",
+  "captionBoundary": {
+    "x1": 84.75199890136719,
+    "x2": 262.82568359375,
+    "y1": 208.87484741210938,
+    "y2": 213.8800048828125
+  },
+  "figType": "Table",
+  "imageText": ["TRUE", "39", "6", "FALSE", "1", "4", "ua", "l", "TRUE", "FALSE", "M", "an", "Predicted", "(b)", "Step", "3:", "Analyzable?", "TRUE", "50", "0", "FALSE", "11", "15", "ua", "l", "TRUE", "FALSE", "M", "an", "Predicted", "(a)", "Step", "2:", "About", "a", "software", "failure?"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 294.24,
+    "y1": 222.23999999999998,
+    "y2": 276.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Table2-1.png"
+}, {
+  "caption": "Figure 1: Concept of the FAIL (Failure Analysis Investigation with LLMs) project. Software failures are often described in news articles, e.g., the examples here for the Log4j security vulnerability. If analysts can identify and collate related articles about failures, they can share this knowledge with software engineers and policymakers. Current approaches are manual. We propose the FAIL system to automatically collect, group, and analyze software failures from the news. Our FAIL prototype collected, grouped, and analyzed these articles together for Log4j.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.173583984375,
+    "y1": 191.27883911132812,
+    "y2": 226.1719970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Figure1-1.png"
+}, {
+  "caption": "Table 5: Performance of pipeline for Step 6 to analyze incidents. The inter-rater agreement for open-ended (postmortem) fields are reported as the ratio of the overlapping facts between the two analysts to facts reached by agreement.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 558.1906127929688,
+    "y1": 85.65481567382812,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["Field", "#", "Facts", "Inter-rater", "Agreement", "LLM", "Overlapping", "LLM", "Missing", "LLM", "Add", "&", "Relevant", "LLM", "Add", "&", "Irrelevant", "LLM", "Incorrect", "Time", "27", "100%", "93%", "4%", "37%", "0%", "4%", "System", "41", "71%", "100%", "0%", "73%", "0%", "0%", "Responsible", "Org", "43", "63%", "88%", "12%", "9%", "2%", "0%", "Impacted", "Org", "46", "80%", "96%", "4%", "17%", "0%", "0%", "SE", "Causes", "55", "58%", "89%", "11%", "16%", "2%", "0%", "N-SE", "Causes", "47", "40%", "68%", "32%", "45%", "13%", "0%", "Impacts", "93", "54%", "90%", "9%", "43%", "4%", "1%", "Preventions", "&", "Fixes", "70", "49%", "83%", "17%", "90%", "29%", "0%", "References", "117", "49%", "88%", "12%", "39%", "0%", "0%", "Recurring", "26", "81%", "100%", "0%", "31%", "4%", "4%", "Phase", "52", "81%", "98%", "2%", "8%", "6%", "0%", "Boundary", "52", "77%", "98%", "2%", "8%", "0%", "0%", "Nature", "46", "87%", "98%", "2%", "24%", "2%", "0%", "Dimension", "43", "94%", "100%", "0%", "5%", "0%", "0%", "Objective", "44", "94%", "77%", "23%", "5%", "0%", "0%", "Intent", "30", "71%", "80%", "20%", "23%", "10%", "0%", "Capability", "32", "65%", "88%", "13%", "41%", "16%", "0%", "Duration", "31", "87%", "100%", "0%", "13%", "3%", "0%", "Behaviour", "32", "84%", "81%", "19%", "63%", "41%", "3%", "Domain", "50", "71%", "70%", "30%", "18%", "0%", "2%", "Consequence", "42", "65%", "86%", "14%", "7%", "2%", "5%", "CPS", "31", "94%", "94%", "6%", "0%", "0%", "0%", "Perception", "16", "92%", "94%", "6%", "25%", "6%", "0%", "Communication", "0", "100%", "-", "-", "n=3", "-", "-", "Application", "12", "100%", "92%", "8%", "0%", "0%", "0%"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 547.1999999999999,
+    "y1": 108.0,
+    "y2": 335.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Table5-1.png"
+}, {
+  "caption": "Table 6: Number of articles for Step 1 to Step 3 and the number of incidents for Step 4 of the pipeline from 2010 to 2022.",
+  "captionBoundary": {
+    "x1": 317.6924133300781,
+    "x2": 558.2007446289062,
+    "y1": 351.5418395996094,
+    "y2": 366.510009765625
+  },
+  "figType": "Table",
+  "imageText": ["Year", "Step", "1", "(search)", "Step", "1", "(scraped)", "Step", "2", "Step", "3", "Step", "4", "2010", "3999", "3697", "154", "102", "71", "2011", "6188", "5709", "266", "188", "120", "2012", "7247", "6690", "292", "211", "157", "2013", "7819", "7292", "317", "222", "161", "2014", "9557", "8761", "344", "230", "144", "2015", "10753", "9888", "425", "290", "182", "2016", "11745", "10348", "451", "327", "193", "2017", "9054", "7273", "483", "284", "151", "2018", "13089", "11304", "616", "416", "229", "2019", "14287", "12856", "766", "541", "271", "2020", "15358", "13040", "623", "383", "223", "2021", "13249", "11799", "869", "539", "269", "2022", "15082", "13284", "747", "451", "286", "Total", "137427", "121941", "6353", "4184", "2457"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 540.0,
+    "y1": 373.91999999999996,
+    "y2": 536.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Table6-1.png"
+}, {
+  "caption": "Figure 5: Taxonimization of the characteristics of the causes of recent software failures from our database.",
+  "captionBoundary": {
+    "x1": 113.65599822998047,
+    "x2": 496.34954833984375,
+    "y1": 468.9388427734375,
+    "y2": 473.9440002441406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Taxonimization of the characteristics of the impacts of recent software failures from our database.",
+  "captionBoundary": {
+    "x1": 111.98200225830078,
+    "x2": 500.01556396484375,
+    "y1": 613.434814453125,
+    "y2": 618.4400024414062
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 480.0,
+    "y2": 607.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Figure6-1.png"
+}, {
+  "caption": "Figure 4: Frequency of articles (x-axis) to incidents (y-axis, log scale). The most-covered incidents were the Boeing 737 MAX crashes, Sony PlayStation network attacks, and Tesla Autopilot failures.",
+  "captionBoundary": {
+    "x1": 53.535362243652344,
+    "x2": 295.40325927734375,
+    "y1": 443.6788330078125,
+    "y2": 468.6090087890625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 291.84,
+    "y2": 437.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Figure4-1.png"
+}, {
+  "caption": "Figure 3: (a) Incidents by keyword that found them in Step 1. (b) Distribution of news sources.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.5419616699219,
+    "y1": 210.76083374023438,
+    "y2": 225.72802734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Figure3-1.png"
+}, {
+  "caption": "Table 1: Failure information per incident, aligned with taxonomies from prior work on software failure analysis. We introduced an IoTspecific taxonomy as many articles discussed IoT systems.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 559.6226806640625,
+    "y1": 85.65481567382812,
+    "y2": 110.58502197265625
+  },
+  "figType": "Table",
+  "imageText": ["Domain", "(12", "total):", "IT,", "Transport,", "Manufacturing,", "etc.", "[7", "0]", "Consequence:", "Death,", "Harm,", "Property,", "Delay,", "Basic,", "None", "O", "th", "er", "Application", "Communication:", "Link,", "Connectivity", "Perception:", "Sensors,", "Actuators,", "Processing,", "Network,", "Embed-", "ded", "software", "Io", "T", "Sy", "st", "em", ":", "La", "ye", "r", "[8", "2]", "Behaviour:", "Crash,", "Omission,", "Timing,", "Value,", "Byzantine", "Duration:", "Permanent,", "Intermittent", "Capability:", "Developmental", "incompetence,", "Accidental", "Intent:", "Poor", "decisions,", "Accidental", "decisions", "Objective:", "Malicious,", "Non-malicious", "Dimension:", "Hardware,", "Software", "Nature:", "Human,", "non-human", "actions", "Boundary:", "Internal,", "External", "Phase:", "Design,", "Operation", "Recurring:", "At", "one", "organization,", "or", "multiple", "Fa", "ul", "ts", "[2", "8]", "So", "ft", "w", "ar", "e:", "Ta", "xo", "no", "m", "y", "of", "References", "Prevention", "&", "Fixes", "Impacts", "Non-software", "causes", "Software", "causes", "Impacted", "Organization", "Responsible", "Organization", "System", "Timeline", "[4", "3]", "Po", "st", "m", "or", "te", "m"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 117.6,
+    "y2": 486.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Table1-1.png"
+}, {
+  "caption": "Table 7: We illustrate two example failure reports from the FAIL database. We randomly chose an example from the two domains with the most incidents: information and transportation. We edited the LLM’s prose for brevity and show only some of the analyzed fields.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 558.1968994140625,
+    "y1": 85.65481567382812,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["Ta", "xo", "no", "m", "y", "Recurring", "one", "organization,", "multiple", "organizations", "one", "organization", "Phase", "design,", "operation", "design,", "operation", "Domain", "transportation,", "finance", "government,", "information,", "knowledge", "Consequence", "property", "property", "Cyb.-Phys.", "Sys.", "Yes", "No", "Impacts", "An", "estimated", "1,500", "people", "were", "overcharged", "100,000", "school", "employees", "had", "their", "SSNs", "exposed", "was", "encoded", "but", "not", "encrypted,", "making", "it", "relatively", "easy", "to", "decode", "Impacted", "Org", "Drivers", "in", "Worcester", "Teachers", "and", "other", "school", "employees", "SE", "Causes", "A", "bug", "introduced", "during", "a", "recent", "software", "upgrade", "A", "security", "vulnerability:", "the", "data", "on", "DESE’s", "website", "Flowbird", "1.", "DESE", "for", "maintaining", "the", "website,", "2.", "The", "Gov-", "ernor", "blamed", "a", "journalist", "&", "the", "St.", "Louis", "Post-", "Dispatch", "for", "reporting", "the", "vulnerability", "Title", "Parking", "Payment", "Machines", "Software", "Glitch", "Causes", "Financial", "Hardship", "in", "Worcester", "(Incident", "2389:", "Arti-", "cles", "134147", "[114],", "132785", "[16])", "Security", "Flaw", "Exposes", "Social", "Security", "Numbers", "of", "Missouri", "Teachers", "(Incident", "2527:", "Article", "119973", "[112])", "Summary", "An", "erroneous", "software", "upgrade", "by", "the", "parking", "pay-", "ment", "machines", "operated", "by", "Worcester", "City", "Coun-", "cil’s", "parking", "contractor,", "Flowbird,", "caused", "duplicate", "payments", "to", "be", "debited", "from", "users’", "bank", "accounts.", "An", "estimated", "1,500", "drivers", "were", "overcharged.", "A", "security", "flaw", "was", "identified", "in", "a", "website", "main-", "tained", "by", "the", "Missouri", "Department", "of", "Elementary", "and", "Secondary", "Education", "(DESE).", "The", "flaw", "exposed", "the", "Social", "Security", "Numbers", "(SSN)", "of", "a", "100,000", "teachers", "and", "other", "school", "employees.", "Time", "September,", "2022", "November,", "2019", "System", "Flowbird", "parking", "payment", "machines", "1.", "Website", "maintained", "by", "DESE,", "2.", "Educator-", "credentials", "checker", "system", "Responsible", "Org", "1.", "Worcester", "city", "council,", "2.", "Parking", "contractor", "Po", "st", "m", "or", "te", "m"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 108.0,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Table7-1.png"
+}, {
+  "caption": "Figure 2: Overview of the proposed FAIL pipeline to collect, analyze, and report insights from software failures reported in the news. FAIL has 6 components. In Step 1, we search for news based on criteria such as keywords, sources, and timeframe. In Step 2, we remove articles that are not about software failures. In Step 3, we remove articles that do not have enough information to analyze. In Step 4, we merge articles reporting on the same incident. In Step 5, we use RAG techniques to handle long incidents. In Step 6, we create a failure report for each incident.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1982421875,
+    "y1": 337.8748474121094,
+    "y2": 372.76800537109375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 508.32,
+    "y1": 82.56,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695022-Figure2-1.png"
+}]

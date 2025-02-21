@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 2: Hyperparameter Settings",
+  "captionBoundary": {
+    "x1": 105.85299682617188,
+    "x2": 241.69393920898438,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Num.", "Return", "25", "Max.", "New", "Tokens", "256", "TOP-P", "0.95", "Min.", "Prob", "0", "Inference", "Settings", "LoRA", "Dropout", "0.05", "Max.", "Tokens", "1024", "Weight", "Decay", "0.01", "LoRA", "Rank", "8", "LoRA", "Alpha", "16", "Gradient", "Acc", "Step", "2", "Training", "Epoch", "8", "Max.", "Gradient", "Norm", "1.0", "Dropout", "0.1", "Optimizer", "AdamW", "Warm", "Up", "Strategy", "Linear", "Warn", "Up", "Steps", "50", "Learning", "Rate", "5e-5", "Adam", "Epsilon", "1e-8", "Traing", "Batch", "Size", "1", "Training", "Settings", "Hyperparameter", "Value", "Hyperparameter", "Value"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 292.32,
+    "y1": 105.6,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table2-1.png"
+}, {
+  "caption": "Figure 1: Example of Github Copilot generated code which contains CWE-89 [37].",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0423583984375,
+    "y1": 231.1460723876953,
+    "y2": 247.73602294921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 82.56,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Figure1-1.png"
+}, {
+  "caption": "Table 4: Table of security hardening effects when the sampling temperatures of the security model and the base mode are different",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.810302734375,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["+Harden", "1B", "70.90%", "67.50%", "73.60%", "(↑11.30%)", "(↑5.97%)", "(↑15.54%)", "StarCoder-", "Base", "1B𝑡=0.4", "63.70%", "63.70%", "63.70%", "Security", "Hardening", "of", "StarCoderBase", "+Harden", "1.3B", "78.40%", "77.10%", "75.10%", "(↑9.34%)", "(↑7.53%)", "(↑4.74%)", "DeepSeek-", "Coder", "6.7B𝑡=0.4", "71.70%", "71.70%", "71.70%", "+Harden", "1.3B", "76.60%", "77.70%", "79.50%", "(↑11.18%)", "(↑12.77%)", "(↑15.38%)", "DeepSeek-", "Coder", "1.3B𝑡=0.4", "68.90%", "68.90%", "68.90%", "Security", "Hardening", "of", "DeepSeek-Coder", "(↑10.88%)", "(↑2.82%)", "(↑7.80%)", "CodeGen", "6.1B𝑡=0.4", "68.18%", "68.18%", "68.18%", "+Harden", "350M", "75.60%", "70.10%", "73.50%", "(↑11.11%)", "(↑19.51%)", "(↑21.15%)", "CodeGen", "2.7B𝑡=0.4", "55.98%", "55.98%", "55.98%", "+Harden", "350M", "62.20%", "66.90%", "67.80%", "(↑27.71%)", "(↑25.00%)", "(↑21.03%)", "CodeGen", "350M𝑡=0.4", "55.36%", "55.36%", "55.36%", "+Harden", "350M", "70.70%", "69.20%", "67.00%", "Security", "Hardening", "of", "CodeGen", "Model", "Size", "0.1", "0.6", "0.8", "Temperature", "of", "Security", "Model"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 127.67999999999999,
+    "y2": 464.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table4-1.png"
+}, {
+  "caption": "Table 3: Table of security hardening effects when the sampling temperatures of the security model and the base model are the same",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6534423828125,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["+Harden", "1B", "79.40%", "73.30%", "73.60%", "(↑8.62%)", "(↑15.07%)", "(↑14.82%)", "StarCoder-", "Base", "1B𝑡=†", "73.10%", "63.70%", "64.10%", "Security", "Hardening", "of", "StarCoderBase", "+Harden", "1.3B", "78.40%", "74.90%", "75.10%", "(↑0.77%)", "(↑4.46%)", "(↑3.30%)", "DeepSeek-", "Coder", "6.7B𝑡=†", "77.80%", "71.70%", "72.70%", "+Harden", "1.3B", "78.90%", "79.60%", "80.20%", "(↑8.83%)", "(↑15.53%)", "(↑12.01%)", "DeepSeek-", "Coder", "1.3B𝑡=†", "72.50%", "68.90%", "71.60%", "Security", "Hardening", "of", "DeepSeek-Coder", "(↑13.51%)", "(↑6.97%)", "(↑6.03%)", "CodeGen", "6.1B𝑡=†", "66.62%", "68.18%", "69.34%", "+Harden", "350M", "75.62%", "72.93%", "73.52%", "(↑14.53%)", "(↑18.57%)", "(↑12.01%)", "CodeGen", "2.7B𝑡=†", "54.29%", "55.98%", "60.53%", "+Harden", "350M", "62.18%", "66.06%", "67.80%", "(↑26.02%)", "(↑21.21%)", "(↑6.59%)", "CodeGen", "350M𝑡=†", "56.12%", "55.36%", "62.86%", "+Harden", "350M", "70.72%", "67.10%", "67.00%", "Security", "Hardening", "of", "CodeGen", "Model", "Size", "0.1", "0.4", "0.8", "Temperature", "of", "Security", "Model"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 127.67999999999999,
+    "y2": 464.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table3-1.png"
+}, {
+  "caption": "Table 8: Table of inference time consumption per 20 tokens",
+  "captionBoundary": {
+    "x1": 53.50200271606445,
+    "x2": 293.998779296875,
+    "y1": 246.50611877441406,
+    "y2": 252.13702392578125
+  },
+  "figType": "Table",
+  "imageText": ["StarCoderBase", "1B", "0.36", "+", "Harden", "1B", "0.45", "DeepSeek-Coder", "6.7B", "0.64", "+", "Harden", "1.3B", "0.81", "DeepSeek-Coder", "1.3B", "0.30", "+", "Harden", "1.3B", "0.33", "CodeGen", "6.1B", "1.06", "+", "Harden", "350M", "1.25", "CodeGen", "2.7B", "0.75", "+", "Harden", "350M", "0.81", "CodeGen", "350M", "0.49", "+", "Harden", "350M", "0.50", "Method", "Size", "Time", "Cost", "(second)"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 264.0,
+    "y1": 266.88,
+    "y2": 443.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table8-1.png"
+}, {
+  "caption": "Table 5: Table of functional correctness when the security model and base model sampling temperatures are the same",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2998352050781,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["-", "+Harden", "1B", "0.9", "8.7", "11.2", "0.4", "StarCoder-", "Base", "1B", "0.7", "5.8", "6.8", "-", "+Harden", "1.3B", "38.5", "81.9", "85.1", "0.4", "DeepSeek-", "Coder", "6.7B", "43.7", "78.6", "80.7", "-", "+Harden", "1.3B", "27.8", "62.8", "67.7", "0.4", "DeepSeek-", "Coder", "1.3B", "27.9", "55.6", "57.8", "0.4", "CodeGen", "6.1B", "17.7", "37.1", "41.6", "-", "+Harden", "350M", "13.4", "36.8", "41.0", "0.4", "CodeGen", "2.7B", "12.9", "30.2", "34.2", "-", "+Harden", "350M", "10.1", "30.7", "36.0", "0.4", "CodeGen", "350M", "6.4", "14.0", "14.9", "-", "+Harden", "350M", "5.5", "12.8", "14.3", "Temp.", "Model", "Size", "pass@1", "pass@50", "pass@100"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 116.64,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table5-1.png"
+}, {
+  "caption": "Table 6: Table of functional correctness when the security model and base model sampling temperatures are different",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2998352050781,
+    "y1": 341.3651123046875,
+    "y2": 357.9549865722656
+  },
+  "figType": "Table",
+  "imageText": ["0.4", "StarCoder-", "Base", "1B", "0.7", "5.8", "6.8", "0.8", "+Harden", "1B", "0.6", "11.4", "14.9", "0.4", "DeepSeek-", "Coder", "6.7B", "43.7", "78.6", "80.7", "0.8", "+Harden", "1.3B", "32.2", "79.5", "83.2", "0.4", "DeepSeek-", "Coder", "1.3B", "27.9", "55.6", "57.8", "0.8", "+Harden", "1.3B", "24.0", "69.5", "75.8", "0.4", "CodeGen", "6.1B", "17.7", "37.1", "41.6", "0.8", "+Harden", "350M", "9.8", "35.2", "41.6", "0.4", "CodeGen", "2.7B", "12.9", "30.2", "34.2", "0.8", "+Harden", "350M", "7.7", "29.5", "33.5", "0.4", "CodeGen", "350M", "6.4", "14.0", "14.9", "0.8", "+Harden", "350M", "4.1", "14.2", "16.8", "Temp.", "Model", "Size", "pass@1", "pass@50", "pass@100"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 372.96,
+    "y2": 581.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table6-1.png"
+}, {
+  "caption": "Figure 2: Architecture of CoSec, which mainly contains two parts: (A) Security Model Fine-Tuning and (B) Supervised Co-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.8036499023438,
+    "y1": 398.9991149902344,
+    "y2": 404.6300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Figure2-1.png"
+}, {
+  "caption": "Table 7: Table of security hardening efficacy on CWEs that did not appear in the training dataset",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04681396484375,
+    "y1": 312.7671203613281,
+    "y2": 329.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["(↑20.00%)", "(↓13.56%)", "StarCoderBase", "1B", "50.00%", "61.43%", "+Harden", "1B", "60.00%", "53.10%", "(↑12.62%)", "(↑7.22%)", "DeepSeek-Coder", "6.7B", "86.10%", "63.73%", "+Harden", "1.3B", "96.97%", "68.33%", "(↓31.40%)", "(↑104.09%)", "CodeGen", "2.7B", "69.83%", "37.40%", "+Harden", "350M", "47.90%", "76.33%", "Model", "Size", "CWE-732", "CWE-798", "(↓2.38%)", "(↑36.89%)", "StarCoderBase", "1B", "69.73%", "31.17%", "+Harden", "1B", "68.07%", "42.67%", "(↑22.35%)", "(↑9.41%)", "DeepSeek-Coder", "6.7B", "42.23%", "91.40%", "+Harden", "1.3B", "51.67%", "100.00%", "(↑17.38%)", "(↑58.47%)", "CodeGen", "2.7B", "56.17%", "39.27%", "+Harden", "350M", "65.93%", "62.23%", "Model", "Size", "CWE-119", "CWE-502"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 274.08,
+    "y1": 343.68,
+    "y2": 601.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table7-1.png"
+}, {
+  "caption": "Figure 3: Example of functional correctness improvement. The code generated before security hardening contained a CWE-078 vulnerability and did not meet the requirement specified in the prompt. After hardening, not only is the code generated secure, but its functionality also meets the requirements specified in the prompt.",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 559.2962646484375,
+    "y1": 264.9461364746094,
+    "y2": 292.4949951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "The", "code", "before", "hardening", "(b)", "The", "code", "after", "hardening"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 82.56,
+    "y2": 248.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Figure3-1.png"
+}, {
+  "caption": "Table 1: The CWE types in the dataset provided by SVEN [19]",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0444641113281,
+    "y1": 367.2591247558594,
+    "y2": 372.8900146484375
+  },
+  "figType": "Table",
+  "imageText": ["CWE-119", "C/C++", "12", "prompts", "for", "evalCWE-502", "Python", "CWE-732", "Python", "&", "C/C++", "CWE-798", "Python", "Unseen", "710", "function", "level", "pairs", "for", "train", "24", "prompts", "for", "eval", "CWE-125", "C/C++", "CWE-078", "Python", "&", "C/C++", "CWE-476", "C/C++", "CWE-416", "C/C++", "CWE-022", "Python", "&", "C/C++", "CWE-787", "C/C++", "CWE-079", "Python", "&", "C/C++", "CWE-190", "C/C++", "CWE-089", "Python", "Seen", "Split", "CWE", "Language", "Total"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 387.84,
+    "y2": 556.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680371-Table1-1.png"
+}]

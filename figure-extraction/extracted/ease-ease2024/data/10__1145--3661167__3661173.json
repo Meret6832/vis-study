@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1: Performance of Models Before and After Attacks",
+  "captionBoundary": {
+    "x1": 57.882999420166016,
+    "x2": 289.6643981933594,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "The", "BLEU,", "ROUGE-L,", "and", "METEOR", "columns", "underline", "the", "minimum", "values,", "and", "the", "𝑟𝑑", "columns", "bold", "the", "maximum", "values.", "ACCENT", "9.54", "77.89", "21.28", "60.87", "15.68", "69.69", "CREATE", "8.13", "81.16", "17.96", "66.97", "12.34", "76.15", "Original", "43.15", "\\", "54.38", "\\", "51.74", "\\", "Random-ACCENT", "15.66", "63.71", "27.72", "49.03", "22.12", "57.25", "Random-CREATE", "14.13", "67.25", "23.96", "55.94", "18.34", "64.55", "Attaker", "Transformer-based", "Model", "BLEU", "𝑟𝑑", "(%)", "ROUGE-L", "𝑟𝑑", "(%)", "METEOR", "𝑟𝑑", "(%)", "ACCENT", "13.28", "60.94", "30.56", "44.69", "20.71", "58.47", "CREATE", "13.25", "61.03", "31.24", "43.46", "20.77", "58.35", "Original", "34.00", "\\", "55.25", "\\", "49.87", "\\", "Random-ACCENT", "18.05", "46.91", "37.49", "32.14", "26.31", "47.24", "Random-CREATE", "17.99", "47.09", "37.44", "32.24", "26.08", "47.70", "Attaker", "Hybrid-deepcom", "BLEU", "𝑟𝑑", "(%)", "ROUGE-L", "𝑟𝑑", "(%)", "METEOR", "𝑟𝑑", "(%)", "ACCENT", "13.12", "54.03", "30.72", "37.70", "21.61", "48.50", "CREATE", "11.92", "58.23", "27.94", "43.34", "19.51", "53.50", "Original", "28.54", "\\", "49.31", "\\", "41.96", "\\", "Random-ACCENT", "17.18", "39.80", "34.77", "29.49", "25.95", "38.16", "Random-CREATE", "16.21", "43.20", "32.75", "33.58", "24.28", "42.14", "Attaker", "GRU-based", "Model", "BLEU", "𝑟𝑑", "(%)", "ROUGE-L", "𝑟𝑑", "(%)", "METEOR", "𝑟𝑑", "(%)", "ACCENT", "12.36", "53.55", "30.36", "36.33", "21.44", "47.06", "CREATE", "10.67", "59.90", "26.16", "45.13", "18.66", "53.93", "Original", "26.61", "\\", "47.68", "\\", "40.50", "\\", "Random-ACCENT", "16.80", "36.87", "34.63", "27.37", "25.06", "38.12", "Random-CREATE", "15.09", "43.29", "32.84", "31.12", "24.39", "39.78", "Attaker", "LSTM-based", "Model", "BLEU", "𝑟𝑑", "(%)", "ROUGE-L", "𝑟𝑑", "(%)", "METEOR", "𝑟𝑑", "(%)"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.4,
+    "y1": 105.6,
+    "y2": 403.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661173-Table1-1.png"
+}, {
+  "caption": "Figure 1: A code snippet before and after the adversarial attack of CREATE",
+  "captionBoundary": {
+    "x1": 73.91600036621094,
+    "x2": 253.808837890625,
+    "y1": 600.6720581054688,
+    "y2": 617.261962890625
+  },
+  "figType": "Figure",
+  "imageText": ["Ground", "truth:", "invoke", "the", "onScheduler", "(", ")", "in", "IScheduler", "directly", "as", "a", "library", "After", "Attack", "Before", "Attack", "Output_2:", "this", "method", "calls", "to", "create", "a", "new", "entity", "Output_1:", "invoke", "the", "onScheduler", "in", "IScheduler", "directly", "as", "a", "library", "return", "ret", ";", "}", "ret", "=", "SchedulerUtils", ".", "setLibSchedulerLocation", "(", "runtime", ",", "scheduler", ",", "_BOOL", ")", ";", "}", "else", "{", "LOG", ".", "severe", "(", "_STR", ")", ";", "}", "}", "finally", "{", "scheduler", ".", "close", "(", ")", ";", "}", "boolean", "ret", "=", "_BOOL", ";", "try", "{", "scheduler", ".", "initialize", "(", "configuration", ",", "runtime", ")", ";", "ret", "=", "scheduler", ".", "onSchedule", "(", "packing", ")", ";", "if", "(", "ret", ")", "{", "public", "boolean", "onScheduleAsCollection", "(", "Config", "configuration", ",", "Config", "runtime", ",", "IScheduler", "scheduler", ",", "PackingPlan", "packing", ")", "{", "return", "ret", ";", "}", "if", "(", "ret", ")", "{", "ret", "=", "SchedulerUtils", ".", "setLibSchedulerLocation", "(", "runtime", ",", "scheduler", ",", "_BOOL", ")", ";", "}", "else", "{", "LOG", ".", "severe", "(", "_STR", ")", ";", "}", "}", "finally", "{", "scheduler", ".", "close", "(", ")", ";", "}", "boolean", "ret", "=", "_BOOL", ";", "try", "{", "scheduler", ".", "initialize", "(", "config", ",", "runtime", ")", ";", "ret", "=", "scheduler", ".", "onSchedule", "(", "packing", ")", ";", "public", "boolean", "onScheduleAsLibrary", "(", "Config", "config", ",", "Config", "runtime", ",", "IScheduler", "scheduler", ",", "PackingPlan", "packing", ")", "{"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 409.91999999999996,
+    "y2": 592.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661173-Figure1-1.png"
+}, {
+  "caption": "Table 2: Similarity of different adversarial samples and their attack effectiveness",
+  "captionBoundary": {
+    "x1": 65.30902099609375,
+    "x2": 270.433349609375,
+    "y1": 88.56111907958984,
+    "y2": 105.1510009765625
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "The", "BLEU,", "ROUGE-L,", "and", "METEOR", "columns", "underline", "the", "minimum", "values,", "and", "the", "Similarity", "column", "bold", "the", "maximum", "values.", "CREATE", "(Most", "Similar)", "0.7972", "8.22", "18.08", "12.93", "CREATE", "(Not", "Control)", "0.0588", "8.17", "17.93", "12.65", "Random-CREATE", "(Most", "Similar)", "0.7859", "10.56", "21.22", "16.17", "ACCENT", "0.2750", "9.54", "21.28", "15.68", "Random-CREATE", "(Not", "Control)", "0.1660", "10.53", "21.15", "16.01", "Original", "1", "43.15", "54.38", "51.74", "Random-ACCENT", "0.2783", "15.66", "27.72", "22.12", "Attacker", "Similarity", "Transformer-based", "Model", "BLEU", "Rouge-L", "METEOR", "CREATE", "(Most", "Similar)", "0.8366", "16.55", "37.67", "28.64", "CREATE", "(Not", "Control)", "-0.0240", "11.09", "30.84", "19.83", "Random-CREATE", "(Most", "Similar)", "0.7782", "19.63", "42.47", "33.65", "ACCENT", "0.2807", "13.28", "30.56", "20.71", "Random-CREATE", "(Not", "Control)", "0.1260", "12.73", "34.66", "23.69", "Original", "1", "34.00", "55.25", "49.87", "Random-ACCENT", "0.2771", "18.05", "37.49", "26.31", "Attacker", "Similarity", "Hybrid-deepcom", "BLEU", "Rouge-L", "METEOR", "CREATE", "(Most", "Similar)", "0.8532", "16.00", "35.35", "26.98", "CREATE", "(Not", "Control)", "-0.0243", "9.42", "23.40", "14.80", "Random-CREATE", "(Most", "Similar)", "0.7561", "20.00", "40.12", "32.02", "ACCENT", "0.2791", "13.12", "30.72", "21.61", "Random-CREATE", "(Not", "Control)", "-0.0039", "13.97", "28.73", "20.01", "Original", "1", "28.54", "49.31", "41.96", "Random-ACCENT", "0.2779", "17.18", "34.77", "25.95", "Attacker", "Similarity", "GRU-based", "Model", "BLEU", "Rouge-L", "METEOR", "CREATE", "(Most", "Similar)", "0.7855", "15.27", "34.99", "25.34", "CREATE", "(Not", "Control)", "-0.2493", "8.83", "22.46", "13.74", "Random-CREATE", "(Most", "Similar)", "0.7751", "18.91", "39.52", "31.80", "ACCENT", "0.2668", "12.36", "30.36", "21.44", "Random-CREATE", "(Not", "Control)", "-0.1870", "13.36", "27.67", "19.04", "Original", "1", "26.61", "47.68", "40.50", "Random-ACCENT", "0.2656", "16.80", "34.63", "25.06", "Attacker", "Similarity", "LSTM-based", "Model", "BLEU", "Rouge-L", "METEOR"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.4,
+    "y1": 116.64,
+    "y2": 471.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661173-Table2-1.png"
+}, {
+  "caption": "Table 4: Measurement of model robustness before and after adversarial training",
+  "captionBoundary": {
+    "x1": 324.9410095214844,
+    "x2": 543.6407470703125,
+    "y1": 97.0650863647461,
+    "y2": 113.65496826171875
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "We", "bold", "the", "maximum", "values.", "BLEU-based", "Robustness", "indi-", "cates", "that", "BLEU", "is", "used", "as", "the", "Score", "in", "Equation", "(7)", "when", "computing", "model’s", "robustness,", "and", "ROUGE-L-based", "and", "METEOR-based", "Ro-", "bustness", "follow", "suit.", "Original-attack", "34.3207", "34.3815", "24.0303", "21.7926", "Data", "Augment-attack", "34.3174", "34.3241", "30.9387", "21.5561", "Enhanced", "(ACCENT)-attack", "55.2464", "56.8625", "33.0473", "35.2498", "Enhanced", "(CREATE)-attack", "57.1669", "56.0247", "34.5421", "64.1758", "Attack", "METEOR-based", "Robustness", "LSTM(%)", "GRU(%)", "Hybrid(%)", "Transformer(%)", "Original-attack", "33.3704", "34.1978", "25.2697", "22.3915", "Data", "Augment-attack", "33.4110", "34.1864", "30.7207", "22.4253", "Enhanced", "(ACCENT)-attack", "55.6734", "56.1969", "32.9615", "35.3393", "Enhanced", "(CREATE)-attack", "57.8073", "57.5970", "34.6798", "61.2358", "Attack", "ROUGE-L-based", "Robustness", "LSTM(%)", "GRU(%)", "Hybrid(%)", "Transformer(%)", "Original-attack", "37.5997", "37.7324", "26.3140", "22.8778", "Data", "Augment-attack", "37.1827", "37.4684", "35.1389", "21.3473", "Enhanced", "(ACCENT)-attack", "38.5363", "38.9488", "37.9504", "35.6127", "Enhanced", "(CREATE)-attack", "41.2754", "42.1620", "36.4679", "68.0936", "Attack", "BLEU-based", "Robustness", "LSTM(%)", "GRU(%)", "Hybrid(%)", "Transformer(%)"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 122.88,
+    "y2": 319.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661173-Table4-1.png"
+}, {
+  "caption": "Table 3: The quality of generated summaries after adversarial training and attacks",
+  "captionBoundary": {
+    "x1": 72.68199920654297,
+    "x2": 275.05364990234375,
+    "y1": 91.39608001708984,
+    "y2": 107.9859619140625
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "Δ(%)", "denotes", "the", "percentage", "of", "decrease", "or", "increase", "in", "BLEU,", "ROUGE-L,", "and", "METEOR", "relative", "to", "original", "or", "original-attack.", "We", "bold", "the", "maximum", "values.", "Original-attack", "8.13", "\\", "17.96", "\\", "12.34", "\\", "Data", "Augment-attack", "7.07", "-13.04", "19.21", "6.96", "12.31", "-0.24", "Enhanced", "(ACCENT)-attack", "9.52", "17.10", "20.67", "15.09", "14.58", "18.15", "Enhanced", "(CREATE)-attack", "17.69", "117.59", "29.03", "61.64", "24.04", "94.81", "Original", "43.15", "\\", "54.38", "\\", "51.74", "\\", "Data", "Augment", "43.00", "-0.35", "53.92", "-0.85", "51.54", "-0.39", "Enhanced", "(ACCENT)", "42.28", "-2.02", "53.31", "-1.97", "50.92", "-1.58", "Enhanced", "(CREATE)", "42.66", "-1.14", "54.56", "0.33", "51.80", "0.12", "Enhancement", "&", "Attack", "Transformer-based", "Model", "BLEU", "Δ(%)", "ROUGE-L", "Δ(%)", "METEOR", "Δ(%)", "Original-attack", "13.25", "\\", "31.24", "\\", "20.77", "\\", "Data", "Augment-attack", "14.07", "6.19", "32.88", "5.25", "24.45", "17.72", "Enhanced", "(ACCENT)-attack", "15.59", "17.67", "34.41", "10.14", "25.96", "25.00", "Enhanced", "(CREATE)-attack", "16.01", "20.83", "34.69", "11.04", "26.56", "27.88", "Original", "34.00", "\\", "55.25", "\\", "49.87", "\\", "Data", "Augment", "33.86", "-0.41", "55.18", "-0.13", "47.71", "-4.33", "Enhanced", "(ACCENT)", "34.03", "0.09", "55.12", "-0.24", "48.16", "-3.43", "Enhanced", "(CREATE)", "34.54", "1.59", "55.09", "-0.29", "48.05", "-3.65", "Enhancement", "&", "Attack", "Hybrid-deepcom", "BLEU", "Δ(%)", "ROUGE-L", "Δ(%)", "METEOR", "Δ(%)", "Original-attack", "11.92", "\\", "27.94", "\\", "19.51", "\\", "Data", "Augment-attack", "15.77", "32.30", "35.85", "28.31", "27.13", "39.06", "Enhanced", "(ACCENT)-attack", "16.94", "42.11", "36.47", "30.53", "28.29", "45.00", "Enhanced", "(CREATE)-attack", "19.31", "62.00", "39.82", "42.52", "31.46", "61.25", "Original", "28.54", "\\", "49.31", "\\", "41.96", "\\", "Data", "Augment", "28.06", "-1.68", "49.10", "-0.43", "41.65", "-0.74", "Enhanced", "(ACCENT)", "27.69", "-2.98", "48.33", "-1.99", "41.00", "-2.29", "Enhanced", "(CREATE)", "27.68", "-3.01", "49.16", "-0.30", "41.40", "-1.33", "Enhancement", "&", "Attack", "GRU-based", "Model", "BLEU", "Δ(%)", "ROUGE-L", "Δ(%)", "METEOR", "Δ(%)", "Data", "Augment-attack", "14.76", "38.34", "33.80", "29.21", "26.67", "42.91", "Enhanced(ACCENT)-attack", "16.03", "50.26", "35.61", "36.12", "27.87", "49.36", "Enhanced(CREATE)-attack", "19.71", "84.71", "40.78", "55.88", "32.05", "71.78", "Original", "26.61", "\\", "47.68", "\\", "40.50", "\\", "Data", "Augment", "26.66", "0.19", "46.70", "-2.05", "40.55", "0.12", "Enhanced(ACCENT)", "24.85", "-6.60", "45.66", "-4.24", "39.40", "-2.72", "Enhanced(CREATE)", "25.04", "-5.88", "45.39", "-4.79", "39.79", "-1.33", "Original-attack", "10.67", "\\", "26.16", "\\", "18.66", "\\", "Enhancement", "&", "Attack", "LSTM-based", "Model", "BLEU", "Δ(%)", "ROUGE-L", "Δ(%)", "METEOR", "Δ(%)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 290.4,
+    "y1": 116.64,
+    "y2": 469.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661173-Table3-1.png"
+}, {
+  "caption": "Figure 2: An overview of our approach CREATE",
+  "captionBoundary": {
+    "x1": 209.2259979248047,
+    "x2": 402.7747802734375,
+    "y1": 300.7051086425781,
+    "y2": 306.33599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["Original", "code", "Training", "Validation", "of", "model’s", "robustness", "Adversarial", "samples", "Code", "summarization", "model", "Step", "1-3", "Code", "snippets", "from", "trainset", "Step", "4.", "Adversarial", "training", "Reject", "Accept", "Increase", "in", "score", "Attack", "Decrease", "in", "score", "Adversarial", "sample", "Code", "summarization", "model", "Substitution", "Original", "code", "(", ",", ")", "(", ",", ")", "(", ",", ")", "(", ",", ")", "…", "(", ",", ")", "Choose", "(", ",", ")", "Substitution", "pairs", "Step", "3.", "Adversarial", "attack", "(", ",", ")", "(", ",", ")", "(", ",", ")", "(", ",", ")", "(", ",", ")", "…", "Substitution", "pairs", "Corpus", "Find", "similar", "words", "…", "Rep_subtoken", "Split", "Replaceable", "tokens", "Rep_token", "Step", "2.", "Construction", "of", "substitution", "pairs", "Method", "name", "Variable", "name", "Parameter", "name", "Words", "that", "can", "be", "substituted", "Extraction", "Code", "snippets", "from", "testset", "c4", "dataset", "Word2Vec", "Corpus", "Step", "1.", "Preparation"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 530.4,
+    "y1": 85.44,
+    "y2": 291.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661173-Figure2-1.png"
+}]

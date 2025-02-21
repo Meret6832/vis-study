@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 3: Mutation and Crossover operators.",
+  "captionBoundary": {
+    "x1": 84.75599670410156,
+    "x2": 263.0806579589844,
+    "y1": 185.51187133789062,
+    "y2": 187.59197998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Mutation", "Operator", "Crossover", "Operator", "C1", ":", "⇤(¬p)", "<latexit", "sha1_base64=\"/P4H5Iiv+RAGYcrzJ4e4PzQcoB4=\">AAACJXicbVBLSwMxGMz6rPVV9eglWIQKUnbbLrbiodqLxwr2Ad2lZNO0Dc1mlyQrlqXgb/HiX/HiwSKCJ/+K6eOgrQOBYWby5ct4IaNSmeaXsbK6tr6xmdhKbu/s7u2nDg7rMogEJjUcsEA0PSQJo5zUFFWMNENBkO8x0vAGlYnfeCBC0oDfq2FIXB/1OO1SjJSW2qmrStuCl9C5CR5hJnamA1ui57mxmTXtkm2Z52bWNq1SfkJKpWLBtkcOJz0Yjs7aqbROTQGXiTUnaTBHtZ0aO50ARz7hCjMkZcsyQ+XGSCiKGRklnUiSEOEB6pGWphz5RLrxdKkRPNVKB3YDoQ9XcKr+vhEjX8qh7+mkj1RfLnoT8T+vFalu0Y0pDyNFOJ491I0YVAGcVAY7VBCs2FAThAXVu0LcRwJhpYtN6hKsxS8vk3oua+WzubtCunz9NKsjAY7BCcgAC1yAMrgFVVADGDyDV/AOxsaL8WZ8GJ+z6Ioxr/AI/IHx/QMBHKBt</latexit>", "C2", ":", "⌃(r", "^", "(p", "!", "q))", "<latexit", "sha1_base64=\"O72kZfFzO+6gGjHvmdAa0nTCrSo=\">AAACPHicbZBLbxoxFIU96YvSpiHpshurKBJIEZoZENCsqMiiS6qUh8SM0B1jwIrHntqeVGiE1L/VTX9Ed11l00WrKNuu4wEWDfRKlj6dc319faKEM21c96dz8Ojxk6fPCs+LL14evjoqHZ8MtEwVoX0iuVSjCDTlTNC+YYbTUaIoxBGnw+iqm/vDa6o0k+KTWSY0jGEu2IwRMFaalC67Ex+f4+CCQSzFFFcUDjjkkAXr6WM1j8LMrb1rN/1G88ytuW7L870c/Faj3lglOFBsvjCglPyCP6+q1UmpnLflhffB20IZbas3Kf0IppKkMRWGcNB67LmJCTNQhhFOV8Ug1TQBcgVzOrYoIKY6zNbrrfCpVaZ4JpU9wuC1+u+NDGKtl3FkO2MwC73r5eL/vHFqZu0wYyJJDRVk89As5dhInCeJp0xRYvjSAhDF7K6YLEABMTbvog3B2/3yPgz8mlev+R8b5c77r5s4CugNeosqyEMt1EEfUA/1EUHf0A36jf44351fzq1zt2k9cLYRvkYPyvl7D78HqXk=</latexit>", "F1", ":", "⇤(p", "!", "q)", "<latexit", "sha1_base64=\"vD7wR5gQYvXgSV8BTgtbWNg3xxs=\">AAACOHicbVBLSwMxGMz6tr6qHr0Ei6AgZXctVj1VBfFmBfuA7lKyadqGZjdrklXLsuCf8uLP8CZePCji1V9gtu1BqwOBYWaSfN94IaNSmeazMTE5NT0zOzefWVhcWl7Jrq5VJY8EJhXMGRd1D0nCaEAqiipG6qEgyPcYqXm909Sv3RAhKQ+uVD8kro86AW1TjJSWmtkLx0eqixGLz5KmBY+gc8Lv4HbsDJ5uiI7nxmb+8GDfLuzvmnnTLFq2lRK7WNgrJCF0BO10FRKC38LrZKeZzaWpFPAvsUYkB0YoN7NPTovjyCeBwgxJ2bDMULkxEopiRpKME0kSItxDHdLQNEA+kW48mC6BW1ppwTYX+gQKDtSfN2LkS9n3PZ1M15TjXir+5zUi1T5wYxqEkSIBHn7UjhhUHKYtwhYVBCvW1wRhQfWsEHeRQFjprjO6BGt85b+kauetvbx9WciVju+HdcyBDbAJtoEFiqAEzkEZVAAGD+AFvIF349F4NT6Mz2F0whhVuA5+wfj6Bm0HqPA=</latexit>", "F2", ":", "⌃(r", "^", "¬p)", "<latexit", "sha1_base64=\"pzFZ01vdxpP/rNIBMcpyiw0PwDA=\">AAACO3icbZBLS8NAFIUnvq2vqks3g0VQkJLUBltXiiIuVawKTSg302k7OJmEmYlQQsCf5cY/4c6NGxeKuHXvpO3C14WBj3PucO89QcyZ0rb9ZI2NT0xOTc/MFubmFxaXissrlypKJKENEvFIXgegKGeCNjTTnF7HkkIYcHoV3Bzm/tUtlYpF4kL3Y+qH0BWswwhoI7WK514IukeAp8dZq4L3sHfEIIxEG29K7HEwkHqDMU3ZDfzULttu3XXsbbvs2k59J4d6vVZ13cwTtIvjbKtVLJmuQeG/4IyghEZ12io+eu2IJCEVmnBQqunYsfZTkJoRTrOClygaA7mBLm0aFBBS5aeDpTK8YZQ27kTSPKHxQP3+I4VQqX4YmM78UvXby8X/vGaiOzU/ZSJONBVkOKiTcKwjnAeJ20xSonnfABDJzK6Y9EAC0SbuggnB+X3yX7islJ2dcuWsWto/uBvGMYPW0DraRA7aRfvoBJ2iBiLoHj2jV/RmPVgv1rv1MWwds0YRrqIfZX1+AVS+qbs=</latexit>", "M4", ":", "⇤(p", "!", "¬q", "^", "r)", "<latexit", "sha1_base64=\"4J8InQijEYPXYr7FA7eZBBLwRTk=\">AAACG3icbZBLSwMxFIUzPmt9VV26uViEuikztaC4qrpxI1SwD+iUkknTaWgmGZOMWkrBn+HGv+LGhSKuBBf+G9PHwteBwMc5NyT3BDFn2rjupzMzOze/sJhaSi+vrK6tZzY2q1omitAKkVyqeoA15UzQimGG03qsKI4CTmtB73SU166p0kyKS9OPaTPCoWAdRrCxVitTOG8V4Qj8E3kLuRh8xcKuwUrJG/ADFhKmCPiChnAFPseiDWqvlcm6eXcs+AveFLJoqnIr8+63JUkiKgzhWOuG58amOcDKMMLpMO0nmsaY9HBIGxYFjqhuDsa7DWHXOm3oSGWPMDB2v98Y4EjrfhTYyQibrv6djcz/skZiOofNARNxYqggk4c6CQcjYVQUtJmixPC+BUwUs38F0sUKE2PrTNsSvN8r/4VqIe/t5wsXxWzp+G5SRwptox2UQx46QCV0hsqoggi6R4/oGb04D86T8+q8TUZnnGmFW+iHnI8v7Qaf6g==</latexit>", "F", ":", "⇤(p", "!", "¬q", "^", "r)", "<latexit", "sha1_base64=\"1UGYCYv5dYFOsNsa0UGwD8J5wgA=\">AAACInicbVDLSgMxFM34rPVVdekmWIS6KTNV8LGqCuJSwarQKeVOmk5DM8mYZNQyFPwTN/6KGxeKuhL8GNPHQlsPXDiccy/JOUHMmTau++VMTE5Nz8xm5rLzC4tLy7mV1UstE0VohUgu1XUAmnImaMUww+l1rChEAadXQfu451/dUqWZFBemE9NaBKFgTUbAWKme2/cjMC0CPD3pHmD/SN7jQox9xcKWAaXkHfYDFhKmCPYFDfEN9jmIBlZb9VzeLbp94HHiDUkeDXFWz334DUmSiApDOGhd9dzY1FJQhhFOu1k/0TQG0oaQVi0VEFFdS/sRu3jTKg3clMqOMLiv/r5IIdK6EwV2sxdIj3o98T+vmpjmXi1lIk4MFWTwUDPh2Ejc6ws3mKLE8I4lQBSzf8WkBQqIsa1mbQneaORxclkqetvF0vlOvnz4MKgjg9bRBiogD+2iMjpFZ6iCCHpEz+gVvTlPzovz7nwOViecYYVr6A+c7x/iL6Ok</latexit>", "M1", ":", "⌃(p", "!", "¬q", "^", "r)", "<latexit", "sha1_base64=\"Bqzg7vqvXK722eSSqPsMGgvuhl4=\">AAACSHicbZDNb9MwGMadAmMUGB0cubyiQhoSipKurNVORePABalIdJvURNEbx02tOXawnU1VVGn/3C477ra/gQsHEOKG+3HYB69k6efneW2/ftJScGOD4NprPHj4aOPx5pPm02fPt160tl8eGlVpykZUCaWPUzRMcMlGllvBjkvNsEgFO0pPDhb+0SnThiv5zc5KFheYSz7hFK2TklbyJQlhH+poedVY52lcB3630wnDvfeB3+9+2OsHDty+19udR584Fkpmc9gpIdI8n1rUWp1BlPKcck0hkiyH7xAJlBnod0mrHfjBsuA+hGtok3UNk9ZVlClaFUxaKtCYcRiUNq5RW04FmzejyrAS6QnmbOxQYsFMXC+nn8Nbp2QwUdotaWGp3jxRY2HMrEhdZ4F2au56C/F/3riyk35cc1lWlkm6emhSCbAKFqlCxjWjVswcINXczQp0ihqpddk3XQjh3S/fh8OOH+76na/d9uDj+SqOTfKavCE7JCQ9MiCfyZCMCCUX5Af5RX57l95P74/3d9Xa8NYRviK3qtH4B+tVrbE=</latexit>", "M2", ":", "⇤(r", "!", "¬q", "^", "r)", "<latexit", "sha1_base64=\"pUAkz6Gb5BDE4cHuQSF8AT+oMME=\">AAACRHicbZDLahsxFIY16c1xmsZJl9kcagIOhGHGdomdVZpuuimkUF9gZjAaWR6LaKSJpElrBkNfLZs8QHZ9gmyyaCndlsqXRWLnB6GP/xxJR3+ccaaN5/10Np49f/HyVWmzvPV6+81OZXevq2WuCO0QyaXqx1hTzgTtGGY47WeK4jTmtBdffJzVe1dUaSbFVzPJaJTiRLARI9hYa1AJPg/qcALhmfwOtSKcXxioJI4Kz216Vu+PPLdl92bTQrvdajfaUzWFULFkbLBS8huEMUsIUwRCQRO4hJBjMQR1OKhUPdebC9bBX0IVLXU+qNyGQ0nylApDONY68L3MRAVWhhFOp+Uw1zTD5AInNLAocEp1VMxnnsKBdYYwksouYWDuPjxR4FTrSRrbzhSbsV6tzcynakFuRq2oYCLLDRVk8dAo52AkzBKFIVOUGD6xgIlidlYgY6wwMTb3sg3BX/3yOnTrrt9w61+a1dMPPxZxlNA+eodqyEfH6BR9Queogwi6RnfoF/rt3Dj3zh/n76J1w1lG+BY9kvPvP4jorPw=</latexit>", "M3", ":", "⇤(p_", "¬q", "^", "r)", "<latexit", "sha1_base64=\"6o5gKCK7ARqTfgmy8UHZ+6MjtgA=\">AAACPXicbVBLSwMxGMz6tr6qHr18WAQFKbs+W08+Ll4EBWsL3aVk03QNZrNrkhXLUvB3efE/ePPmxYMiXr2abXvQ1oHAMDNf8mX8mDOlbfvFGhkdG5+YnJrOzczOzS/kF5euVJRIQisk4pGs+VhRzgStaKY5rcWS4tDntOrfnGR+9Y5KxSJxqdsx9UIcCNZiBGsjNfKXZ41tOAD3OLqH9RhSt3tlXQa+l9rFXdsp7+1t2kXbdnZKjiHlcsmIHdeEOuD6LCBMEnAFDeAWXI5FE+RGI1/IRjLAMHH6pID6OG/kn91mRJKQCk04Vqru2LH2Uiw1I5x2cm6iaIzJDQ5o3VCBQ6q8tLtqB9aM0oRWJM0RGrrq74kUh0q1Q98kQ6yv1aCXif959US3Sl7KRJxoKkjvoVbCQUeQVQlNJinRvG0IJpKZXYFcY4mJNoXnTAnO4JeHydVW0dkubl3sFA6PHnp1TKEVtIrWkYP20SE6Reeoggh6RK/oHX1YT9ab9Wl99aIjVr/CZfQH1vcPMvmpug==</latexit>"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 264.0,
+    "y1": 85.44,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639087-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Divergences and Vicinity Exploration Matters",
+  "captionBoundary": {
+    "x1": 62.4379997253418,
+    "x2": 285.3955078125,
+    "y1": 328.4328918457031,
+    "y2": 330.51300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["benchmarks", "grammar-based", "fuzzer", "SpecBCFuzz", "{S", "^", "i}i", "(no", "search)", "{S}", "[", "{S", "0j}j", "(no", "BCs)", "0", "2", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "11", "0", "0", "3", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "0"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 84.47999999999999,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639087-Figure5-1.png"
+}, {
+  "caption": "Figure 1: Exploring the vicinity of the divergences.",
+  "captionBoundary": {
+    "x1": 335.6419982910156,
+    "x2": 540.506103515625,
+    "y1": 274.2098693847656,
+    "y2": 276.28997802734375
+  },
+  "figType": "Figure",
+  "imageText": ["BC3", "BC2", "BC1", "S", "et", "al."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 540.48,
+    "x2": 611.52,
+    "y1": 65.28,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639087-Figure1-1.png"
+}, {
+  "caption": "Table 1: Seeded LTL formulas and divergences.",
+  "captionBoundary": {
+    "x1": 343.6399841308594,
+    "x2": 532.2127075195312,
+    "y1": 258.7198791503906,
+    "y2": 260.79998779296875
+  },
+  "figType": "Table",
+  "imageText": ["rrcs", "4", "14", "achieve-avoid", "pattern", "3", "16", "retraction", "pattern-1", "2", "2", "retraction", "pattern-2", "2", "10", "RG2", "2", "9", "lily01", "3", "5", "lily02", "3", "11", "lily11", "3", "5", "lily15", "3", "19", "lily16", "6", "38", "ltl2dba", "theta-2", "1", "3", "ltl2dba", "R-2", "1", "5", "simple", "arbiter", "icse2018", "11", "20", "Specification", "#S", "#Δ", "minepump", "3", "14", "simple", "arbiter-v1", "4", "28", "simple", "arbiter-v2", "4", "20", "prioritized", "arbiter", "7", "11", "arbiter", "3", "20", "detector", "2", "15", "ltl2dba27", "1", "11", "round", "robin", "9", "12", "tcp", "2", "11", "atm", "3", "24", "telephone", "5", "4", "elevator", "2", "3", "Specification", "#S", "#Δ"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 557.28,
+    "y1": 275.52,
+    "y2": 425.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639087-Table1-1.png"
+}, {
+  "caption": "Table 3: Number of soundness, crashes, flaky and performance (B𝑠 ,B𝑐 ,B𝑓 ,B𝑝 ) bug-triggering formulas generated by SpecBCFuzz.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7994995117188,
+    "y1": 352.1878967285156,
+    "y2": 376.1860046386719
+  },
+  "figType": "Table",
+  "imageText": ["Total:", "368,716", "153", "357,673", "10,135", "3,635", "BDD", "75", "0", "0", "0", "Tableau", "graph-based", "0", "0", "0", "3", "Tableau", "multipass-based", "0", "0", "0", "3", "PLTL", "v2", "+", "Tableau", "78", "3,570", "4,698", "3,560", "v1", "+", "Automata", "78", "3,570", "4,606", "3,560", "Aalta", "0.9.2", "+", "Tableau", "0", "86", "0", "72", "0.7.4", "+", "Tableau", "0", "86", "0", "72", "0.5.2", "+", "Tableau", "0", "303,924", "0", "72", "Black", "2.6.0", "+", "BMC", "0", "44,394", "351", "0", "2.5.4", "+", "BMC", "0", "49,689", "351", "0", "2.4.3", "+", "BMC", "0", "49,828", "490", "0", "version", "#B𝑠", "#B𝑐", "#B𝑓", "#B𝑝", "NuSMV"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.0,
+    "y1": 390.71999999999997,
+    "y2": 624.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639087-Table3-1.png"
+}, {
+  "caption": "Table 2: Solvers and versions used.",
+  "captionBoundary": {
+    "x1": 104.19499969482422,
+    "x2": 243.3472900390625,
+    "y1": 226.91586303710938,
+    "y2": 228.9959716796875
+  },
+  "figType": "Table",
+  "imageText": ["NuSMV", "2.6.0,", "2.5.4,", "2.4.3", "BMC,", "BDD", "6", "Black", "0.9.2,", "0.7.4,", "0.5.2", "Tableau", "10", "Aalta", "v2,", "v1", "Automata,", "Tableau", "2", "PLTL", "-", "BDD,", "Tableau", "(2", "variants)", "3", "Solver", "Releases", "Algorithms", "Configs."],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 243.84,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639087-Table2-1.png"
+}, {
+  "caption": "Figure 2: Evolutionary search implemented by SpecBCFuzz.",
+  "captionBoundary": {
+    "x1": 184.6490020751953,
+    "x2": 427.3490905761719,
+    "y1": 282.85589599609375,
+    "y2": 284.9360046386719
+  },
+  "figType": "Figure",
+  "imageText": ["ﬂaky", "soundness", "crashes", "performance", "Stop?", "+", "PLTL", "NuSMV", "Aalta", "Black", "Divergences", "1", "Fitness", "Functions", ">", "semantic", "similarity", ">", "syntactic", "similarity", "Genetic", "Operators", ">", "mutation", ">", "crossover", "•", "soundness", "•", "crashes", "•", "ﬂaky", "•", "performance", "Bugs", "Found", "1,", ".", ".", ".", ",", "k", "<latexit", "sha1_base64=\"78GrSh4zDZtSbTh+z2SGJrT9Ebo=\">AAACAXicbVDLSsNAFJ34rPUVdSO4CRbBRSlJFXRZceOygn1AE8JkMmmHTiZh5kYooSL4K25cKOLWv3Dn3zhts9DWAxfOnHMvc+8JUs4U2Pa3sbS8srq2Xtoob25t7+yae/ttlWSS0BZJeCK7AVaUM0FbwIDTbiopjgNOO8HweuJ37qlULBF3MEqpF+O+YBEjGLTkm4duSDlg36m6PExAVYv30Dcrds2ewlokTkEqqEDTN7/cMCFZTAUQjpXqOXYKXo4lMMLpuOxmiqaYDHGf9jQVOKbKy6cXjK0TrYRWlEhdAqyp+nsix7FSozjQnTGGgZr3JuJ/Xi+D6NLLmUgzoILMPooybkFiTeKwQiYpAT7SBBPJ9K4WGWCJCejQyjoEZ/7kRdKu15yzWv32vNK4epzFUUJH6BidIgddoAa6QU3UQgQ9oGf0it6MJ+PFeDc+Zq1LRhHhAfoD4/MHLY6XHg==</latexit>", "S", "=", "(Dom,", "G)", "<latexit", "sha1_base64=\"HuXB/LqfzulwP2N12FTccXE9Fsg=\">AAACAHicbVDLSgMxFM3UV62vURcu3ASLUEHKTBV0I1QUdFnRPqAdSibNtKHJZEgyQhkGxF9x40IRt36GO//GTNuFVg9cOJxzL/fe40eMKu04X1Zubn5hcSm/XFhZXVvfsDe3GkrEEpM6FkzIlo8UYTQkdU01I61IEsR9Rpr+8CLzm/dEKirCOz2KiMdRP6QBxUgbqWvvdDjSA4xYcpvCM1i6FBwewquDrl10ys4Y8C9xp6QIpqh17c9OT+CYk1BjhpRqu06kvQRJTTEjaaETKxIhPER90jY0RJwoLxk/kMJ9o/RgIKSpUMOx+nMiQVypEfdNZ3aumvUy8T+vHevg1EtoGMWahHiyKIgZ1AJmacAelQRrNjIEYUnNrRAPkERYm8wKJgR39uW/pFEpu0flys1xsXr+MIkjD3bBHigBF5yAKrgGNVAHGKTgCbyAV+vRerberPdJa86aRrgNfsH6+AYoN5U2</latexit>", "seeded", "speciﬁcation", "+", "2", "Inputs", "Evolution", "NSGA-III", "3", "4", "Yes", "No", "Solvers", "Testing", "Differential", "Oracle"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 611.52,
+    "y1": 82.56,
+    "y2": 277.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639087-Figure2-1.png"
+}]

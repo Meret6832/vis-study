@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 3: A state diagram for bond trading.",
+  "captionBoundary": {
+    "x1": 87.62889862060547,
+    "x2": 260.21380615234375,
+    "y1": 217.3681182861328,
+    "y2": 221.66302490234375
+  },
+  "figType": "Figure",
+  "imageText": ["cancel", "failorder", "fail", "partial", "fill", "Declared", "fill", "cancel", "order", "timeout", "Order", "Expired", "Order", "Cancelled", "Order", "Failure", "entrust", "Entrusted", "Entrusted", "Not", "cancel", "all", "continued", "partial", "fill", "declare", "cancel", "fail", "Completed", "Partial", "Fill"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.36,
+    "x2": 286.08,
+    "y1": 84.96,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Example: relation mining among rules based on event sequences.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.046875,
+    "y1": 253.29408264160156,
+    "y2": 268.5479736328125
+  },
+  "figType": "Figure",
+  "imageText": ["cancel", "all", "②", "①", "State", "Diagram", "(Partial)", "Operation", "is", "\"declare\"", "and", "Trading", "Market", "is", "\"Shenzhen", "Stock", "Exchange\"", "and", "Trading", "Product", "is", "\"bond\"", "and", "Trading", "Direction", "is", "\"buy\"", "and", "State", "is", "\"Entrusted\"", "then", "Result", "is", "\"success\"", "and", "State", "is", "\"Declared\"", "constraint", "Declared", "Quantity", "%", "100000", "==", "0", "Rule", "1", "if", "Trading", "Method", "is", "\"click", "trading\"", "and", "...", "cancel", "fail", "Declared", "Entrusted", "declare", "then", "Result", "is", "\"success\"", "Operation", "is", "\"cancel\"", "and", "Trading", "Market", "is", "\"Shenzhen", "Stock", "Exchange", "\"", "and", "Trading", "Product", "is", "\"bond\"", "and", "Trading", "Direction", "is", "\"buy\"", "and", "State", "is", "\"Declared\"", "Rule", "4", "if", "Trading", "Method", "is", "\"click", "trading\"", "and"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 296.15999999999997,
+    "y1": 84.0,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Figure4-1.png"
+}, {
+  "caption": "Table 4: Code coverage in Statement Block Coverage (SBC) and Modi ed Condition/Decision Coverage (MC/DC) on Dataset 5.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.6101379394531,
+    "y1": 205.2751007080078,
+    "y2": 231.48699951171875
+  },
+  "figType": "Table",
+  "imageText": ["SBC", "(%)", "86.90", "(1466)", "71.01", "(1198)", "87.61", "(1478)", "93.72", "(1581)", "MC/DC", "(%)", "82.30", "(1990)", "64.06", "(1549)", "81.76", "(1977)", "90.86", "(2197)", "Experts", "Non-Experts", "ChatGPT", "LLM4Fin"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 240.95999999999998,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Table4-1.png"
+}, {
+  "caption": "Table 3: Comparison of the number of test cases (#TC), business scenario coverage (BSC), and time consumption (Time) of generated test cases with experts, non-experts, and general LLMs on 5 evaluation datasets.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1995239257812,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "1", "24", "83.43", "15.1", "33m", "22", "45.83", "109.6", "105m", "24", "44.61", "115.3", "30m", "54", "27.48", "249.6", "20m", "218", "96.06", "7.01s", "Dataset", "2", "50", "83.80", "2.5", "38m", "34", "38.58", "122.6", "90m", "42", "50.48", "70.1", "25m", "67", "45.01", "90.8", "9m", "672", "85.36", "6.85s", "Dataset", "3", "168", "71.15", "38.0", "30m", "33", "46.79", "109.8", "110m", "32", "61.81", "58.8", "17m", "33", "43.88", "123.7", "20m", "270", "98.18", "6.82s", "Dataset", "4", "30", "77.34", "25.4", "35m", "29", "42.47", "128.3", "80m", "34", "25.00", "287.8", "10m", "35", "83.02", "16.8", "30m", "88", "96.96", "5.57s", "Dataset", "5", "67", "60.10", "38.0", "35m", "30", "43.64", "90.0", "110m", "41", "66.35", "25.0", "15m", "51", "8.77", "845.4", "20m", "880", "82.91", "8.72s", "Average", "68", "75.16", "22.3", "34m", "30", "43.46", "111.4", "99m", "35", "49.65", "85.1", "19m", "48", "41.63", "120.7", "20m", "426", "91.89", "6.99s", "#TC", "BSC", "(%)", "Impr.", "(%)", "Time", "#TC", "BSC", "(%)", "Impr.", "(%)", "Time", "#TC", "BSC", "(%)", "Impr.", "(%)", "Time", "#TC", "BSC", "(%)", "Impr.", "(%)", "Time", "#TC", "BSC", "(%)", "Time", "Datasets", "Experts", "Non-Experts", "ChatGPT", "ChatGLM", "LLM4Fin"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 111.83999999999999,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Table3-1.png"
+}, {
+  "caption": "Figure 7: The BSCs of the test cases generated by LLM4Fin.",
+  "captionBoundary": {
+    "x1": 318.5169982910156,
+    "x2": 555.4000854492188,
+    "y1": 374.6470947265625,
+    "y2": 378.9419860839844
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.0799999999999,
+    "y1": 240.0,
+    "y2": 368.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Using ChatGPT (GPT-4) [38] with simple and carefully designed prompts to generate test cases from nancial business rules. Purple-highlighted rules in the input are those that do not produce any test cases. Yellow-highlighted test cases deviate from the prompts (also in yellow).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2047119140625,
+    "y1": 413.7451171875,
+    "y2": 439.9580078125
+  },
+  "figType": "Figure",
+  "imageText": ["Model", "Input", "Model", "Input", "Simple", "Prompt", "Carefully", "Designed", "Prompt", "Suppose", "you", "are", "a", "testing", "expert", "in", "the", "financial", "field.", "Now", "there", "are", "some", "rules", "that", "require", "you", "to", "help", "generate", "test", "cases.", "It", "is", "required", "that", "the", "test", "cases", "should", "be", "as", "detailed", "as", "possible", "and", "use", "testing", "strategies", "such", "as", "equivalence", "classes", "and", "boundary", "values.", "The", "test", "cases", "should", "contain", "all", "the", "elements", "given", "in", "the", "rules,", "such", "as", "declaration", "methods,", "trading", "varieties,", "etc.", "In", "addition,", "test", "cases", "should", "also", "include", "other", "elements", "such", "as", "the", "trading", "direction,", "trading", "market,", "etc.", "Note", "that", "if", "there", "are", "abstract", "or", "referential", "words", "in", "the", "sentence,", "make", "them", "concrete.", "Please", "help", "me", "generate", "test", "cases", "for", "the", "above", "financial", "trading", "rules.", "Requirements", "on", "knowledge", "Requirements", "on", "test", "data", "Introduction", "of", "scenario", "and", "task", "Model", "Output", "Model", "Output", "Rule", "1.", "If", "the", "matching", "trading", "method", "is", "adopted,", "the", "declared", "quantity", "of", "cash", "bonds", "shall", "be", "100,000", "yuan", "in", "face", "value", "or", "an", "integral", "multiple", "thereof.", "The", "portion", "less", "than", "100,000", "yuan", "in", "face", "value", "when", "sold", "shall", "be", "declared", "in", "one", "go.", "Rule", "2.", "The", "minimum", "change", "unit", "of", "the", "declared", "price", "using", "the", "matching", "trading", "method", "is", "0.01", "yuan,", "and", "if", "other", "trading", "methods", "are", "used,", "the", "minimum", "change", "unit", "of", "the", "declared", "price", "is", "0.005", "yuan.", "Model", "Input", "Equivalence", "Classes:", "Valid", "Class:", "Quantities", "of", "100,000", "yuan", "and", "its", "integral", "multiples.", "Invalid", "Class:", "Quantities", "less", "than", "100,000", "yuan", "and", "not", "multiples", "of", "100,000", "yuan.", "Boundary", "Values:", "Exactly", "100,000", "yuan.", "Just", "above", "100,000", "yuan", "(e.g.,", "100,001", "yuan).", "Just", "below", "100,000", "yuan", "(e.g.,", "99,999", "yuan)", "…", "Test", "Case", "1:", "Method:", "Matching,", "Quantity:", "100,000", "yuan,", "Price", "Change:", "0.01", "yuan,", "Direction:", "Buy,", "Market:", "Domestic", "(Result?", "Valid", "or", "not?)", "Method:", "Other,", "Test", "Case", "2:", "Quantity:", "200,000", "yuan,", "Price", "Change:", "0.005", "yuan,", "Direction:", "Sell,", "Market:", "International", "Test", "Case", "3:", "Method:", "Matching,", "Quantity:", "99,999", "yuan", "(Invalid),", "Price", "Change:", "0.01", "yuan,", "Direction:", "Buy,", "Market:", "Domestic", "Method:", "Other,", "Test", "Case", "4:", "Quantity:", "150,000", "yuan,", "Price", "Change:", "0.004", "yuan", "(Invalid),", "Direction:", "Sell,", "Market:", "International", "Test", "Case", "5:", "Method:", "Matching,", "Quantity:", "100,001", "yuan,", "Price", "Change:", "0.01", "yuan,", "Direction:", "Buy,", "Market:", "Domestic", "Rule", "1:", "Test", "Case", "1:", "Matching", "trading", "method", "with", "price", "change", "of", "0.01", "yuan.", "Valid.", "Test", "Case", "2:", "Matching", "trading", "method", "with", "price", "change", "of", "0.007", "yuan.", "Invalid.", "Other", "than", "matching", "trading", "method", "Test", "Case", "3:", "with", "price", "change", "of", "0.005", "yuan.", "Valid.", "Other", "than", "matching", "trading", "method", "Test", "Case", "4:", "with", "price", "change", "of", "0.003", "yuan.", "Valid.", "Test", "Case", "5:", "Any", "trading", "method", "with", "price", "change", "of", "0", "yuan.", "Invalid.", "Rule", "2:", "Test", "Case", "1:", "Declare", "quantity", "of", "300,000", "yuan.", "Valid.", "Test", "Case", "2:", "Declare", "quantity", "of", "250,000", "yuan.", "Invalid.", "Test", "Case", "3:", "Declared", "quantity", "of", "100,000", "yuan.", "Valid.", "Test", "Case", "4:", "Declared", "quantity", "of", "90,000", "yuan.", "Invalid.", "Test", "Case", "5:", "Declared", "quantity", "of", "0", "yuan.", "Invalid.", "…", "Rule", "1:", "Please", "help", "me", "generate", "test", "cases", "for", "the", "above", "financial", "trading", "rules."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 556.3199999999999,
+    "y1": 85.92,
+    "y2": 399.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Ameta-model for the domain knowledge in the FinTech domain. Blocks in di erent colors represent di erent types of categories.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.65313720703125,
+    "y1": 238.5661163330078,
+    "y2": 264.77801513671875
+  },
+  "figType": "Figure",
+  "imageText": ["TradingResult", "ConstraintPriceConstraint", "TradingAction", "Constraint", "Consequence", "TradingProduct", "Constraint", "TradingMethod", "Constraint", "Quantity", "Constraint", "Constraint", "Clause", "0..*", "1", "OR", "Relation", "AND", "Relation", "Relation", "0..*0..*", "0..*", "1", "0..1", "0..1", "0..*", "0..*", "0..*0..1", "1..*1..*", "0..*", "11", "1", "1", "1", "1", "and/or/dependency", "Issuer", "Regulatory", "AuthorityInvestorBrokerExchange", "Object", "OperatorAction", "Operational", "Time", "Constraint", "Condition", "Rule"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 296.15999999999997,
+    "y1": 85.92,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Figure5-1.png"
+}, {
+  "caption": "Table 1: Details of Competitors.",
+  "captionBoundary": {
+    "x1": 109.82109832763672,
+    "x2": 237.7265167236328,
+    "y1": 168.6699981689453,
+    "y2": 172.96490478515625
+  },
+  "figType": "Table",
+  "imageText": ["eters,", "leading", "the", "c-eval", "[15]", "leaderboard.", "ChatGPT", "[38]", "GPT-4,", "including", "1800", "billion", "parameters.", "ChatGLM", "[9]", "A", "LLM", "ne-tuned", "in", "Chinese", "with", "130", "billion", "param-", "Four", "graduate", "students", "with", "approximately", "one", "year", "of", "software", "testing", "knowledge", "acquired", "from", "courses.", "Non-expert", "testers", "perience", "in", "FinTech", "software", "centers.", "Competitor", "Description", "Expert", "testers", "Three", "senior", "testing", "engineers", "with", "5-7", "years", "of", "ex-"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 178.56,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Table1-1.png"
+}, {
+  "caption": "Table 2: Details of Evaluation Datasets. #Rules (BS) refers to the number of rules (business scenarios) in the dataset.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2015991210938,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["trades", "are", "matched", "by", "price", "and", "time", "priority.", "13", "400", "Dataset", "5", "Stock", "auction", "trading:", "a", "trading", "method", "in", "which", "characteristics", "of", "both", "bonds", "and", "stocks.", "8", "24", "Dataset", "4", "Convertible", "bond", "trading:", "trading", "variety", "with", "tribute", "funds", "managed", "by", "fund", "managers.", "13", "37", "Dataset", "3", "Fund", "trading:", "transaction", "where", "investors", "con-", "block", "of", "shares", "in", "a", "single", "transaction.", "12", "40", "Dataset", "2", "Stock", "block", "trading:", "buying", "or", "selling", "a", "large", "conducted", "outside", "regular", "market", "hours.", "11", "12", "Dataset", "Sub-domain", "#", "Rules", "#", "BS", "Dataset", "1", "GEM", "after-hours", "pricing", "trading:", "trading", "method"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 108.96,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Table2-1.png"
+}, {
+  "caption": "Figure 6: The BSC (left) and time cost (right) distributions and deviations with respect to the generated test cases.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2031860351562,
+    "y1": 343.8011169433594,
+    "y2": 359.05499267578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 225.6,
+    "y2": 329.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Figure6-1.png"
+}, {
+  "caption": "Figure 2: The three-step work ow of LLM4Fin for incorporating LLMs with algorithms for test case generation.",
+  "captionBoundary": {
+    "x1": 80.51799774169922,
+    "x2": 531.482666015625,
+    "y1": 190.19410705566406,
+    "y2": 194.489013671875
+  },
+  "figType": "Figure",
+  "imageText": ["Domain", "knowledge", "Terminology", "base", "Step", "I:", "Rule", "Extraction", "①", "Filter", "rules", "②", "Extract", "rule", "elements", "③", "Assemble", "formal", "rules", "Step", "II:", "Test", "Scenario", "Generation", "①", "Operationalize", "rules", "②", "Mine", "rule", "relations", "Fine-Tuned", "Large", "Languge", "Models", "(LLMs)", "LLM", "Event", "sequences", "LLM", "Classification", "Testing", "strategiesExtraction", "Step", "III:", "Test", "Data", "Generation", "①", "Generate", "enumerate", "data", "②", "Generate", "numerical", "data", "Test", "cases", "Business", "rules", "in", "natural", "language"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 70.08,
+    "x2": 543.36,
+    "y1": 83.52,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680388-Figure2-1.png"
+}]

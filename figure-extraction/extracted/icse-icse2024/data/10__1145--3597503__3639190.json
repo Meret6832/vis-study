@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 5: Summary of Evaluation Results of Combining FlashSyn with FlashFind. AC is the number of action candidates. AP is the number of action candidates to approximate. GL and GP are the length and the profit of the ground truth attack vector, respectively. IDP and TDP are the initial and total number of collected of data points, respectively. Time is measured in seconds.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.2758178710938,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["FlashFind", "+", "FlashSyn-poly", "FlashSyn-poly", "Benchmark", "GL", "GP", "AC", "AP", "IDP", "TDP", "Profit", "Time", "AC", "AP", "IDP", "TDP", "Profit", "Time", "bZx1", "2", "1194", "3", "3", "5192", "5849", "2392", "422", "3", "3", "5192", "5849", "2392", "422", "Harvest_USDT", "4", "338448", "15", "15", "30000", "34052", "85593", "‡", "5514", "4", "4", "8000", "9325", "110139", "†", "670", "Harvest_USDC", "4", "307416", "15", "15", "30000", "51726", "33645", "‡", "3630", "4", "4", "8000", "8912", "59614", "†", "677", "Eminence", "4", "1674278", "4", "4", "8000", "8780", "1507174", "1191", "4", "4", "8000", "8780", "1507174", "1191", "ValueDeFi", "6", "8618002", "6", "6", "12000", "19975", "8378194", "†", "4691", "6", "6", "12000", "19975", "8378194", "†", "4691", "Warp", "6", "1693523", "8", "5", "7772", "7772", "2776351", "‡", "3129", "6", "3", "6000", "6000", "2776351", "†", "1164", "bEarnFi", "4", "18077", "2", "2", "4000", "4854", "13770", "470", "2", "2", "4000", "4854", "13770", "470", "ApeRocket", "6", "1345", "11", "5", "10000", "10706", "1179", "‡", "3064", "7", "3", "6000", "6402", "1333", "†", "733", "Wdoge", "5", "78", "7", "2", "4000", "4107", "75", "‡", "769", "5", "1", "2000", "2001", "75", "272", "Novo", "4", "24857", "6", "2", "4000", "4172", "15183", "791", "4", "2", "4000", "4164", "20210", "702", "OneRing", "2", "1534752", "8", "8", "16000", "16614", "1814877", "‡", "1104", "2", "2", "4000", "4710", "1814882", "585"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 507.35999999999996,
+    "y1": 127.67999999999999,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Table5-1.png"
+}, {
+  "caption": "Figure 3: An Overview of FlashSyn Implementation",
+  "captionBoundary": {
+    "x1": 69.61599731445312,
+    "x2": 278.21893310546875,
+    "y1": 197.94937133789062,
+    "y2": 203.58001708984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Harvest USDC Vault Price Manipulation Attack.",
+  "captionBoundary": {
+    "x1": 57.972999572753906,
+    "x2": 289.86065673828125,
+    "y1": 185.36337280273438,
+    "y2": 190.9940185546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 82.56,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Figure1-1.png"
+}, {
+  "caption": "Figure 2: get_D Method to Compute D.",
+  "captionBoundary": {
+    "x1": 361.09100341796875,
+    "x2": 515.06591796875,
+    "y1": 233.52737426757812,
+    "y2": 239.15802001953125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "function", "get_D(uint[]", "xp)", "returns", "(uint):", "2", "uint", "N_COINS", "=", "xp.length;", "3", "uint", "S", "=", "sum(xp);", "4", "//", "...", "5", "uint", "D", "=", "S;", "6", "uint", "Ann", "=", "A", "*", "N_COINS;", "//", "A", "is", "a", "constant", "7", "for", "(uint", "i", "=", "0;", "i", "<", "255;", "i", "=", "i", "+", "1)", "{", "8", "uint", "D_P", "=", "D;", "9", "for", "(uint", "j", "=", "0;", "j", "<", "xp.length;", "j", "=", "j", "+", "1)", "{", "10", "D_P", "=", "(D_P", "*", "D)", "/", "(xp[j]", "*", "N_COINS", "+", "1);", "11", "}", "12", "uint", "Dprev", "=", "D;", "13", "D", "=", "((Ann", "*", "S", "+", "D_P", "*", "N_COINS)", "*", "D)", "/", "14", "((Ann", "-", "1)", "*", "D", "+", "(N_COINS", "+", "1)", "*", "D_P);", "15", "if", "(abs(D", "-", "Dprev)", "<=", "1)", "break;", "16", "}", "17", "return", "D;"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 314.4,
+    "x2": 547.1999999999999,
+    "y1": 87.84,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Figure2-1.png"
+}, {
+  "caption": "Table 2: Benchmark of Attacks Used in the Evaluation.",
+  "captionBoundary": {
+    "x1": 63.01702880859375,
+    "x2": 284.52203369140625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "Financial", "Loss", "in", "History", "82.5", "million", "USD", "Puppet", "2", "742", "manipulate", "oracle", "[20]", "PuppetV2", "1", "161", "manipulate", "oracle", "[21]", "DVD", "[41]", "FTM", "OneRing", "14", "5386", "design", "flaw", "†", "[7]", "Novo", "4", "7080", "design", "flaw", "†", "WDoge", "2", "788", "deflationary", "token", "[8]", "[3]", "ApeRocket", "7", "1562", "design", "flaw", "†", "[6]", "ElevenFi", "7", "5613", "design", "flaw", "†", "[4]", "AutoShark", "6", "8052", "design", "flaw", "†", "bEarnFi", "3", "3007", "asset", "mismatch", "[5]", "BSC", "Warp", "11", "13139", "manipulate", "oracle", "[32]", "Yearn", "5", "2200", "forced", "investment", "[33]", "inverseFi", "7", "5734", "manipulate", "oracle", "[30]", "ValueDeFi", "8", "7043", "manipulate", "oracle", "[31]", "Cheesebank", "12", "1246", "manipulate", "oracle", "[26]", "[27]", "Eminence", "2", "489", "design", "flaw", "†", "bZx1", "6", "4964", "pump&arbitrage", "[25]", "Harvest_USDT", "6", "6446", "manipulate", "oracle", "[28]", "Harvest_USDC", "6", "4095", "manipulate", "oracle", "[29]", "ETH", "Benchmark", "#C", "+", "LoC", "∗", "Vulnerability", "Type", "Tx"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 291.36,
+    "y1": 105.6,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Table2-1.png"
+}, {
+  "caption": "Table 1: Actions in Harvest USDC Vault Attack. IDP and TDP denotes the initial and total number of datapoints. USDT(-) (resp., USDC(+)) denotes USDT (resp., USDC) tokens transferred out (reps., in).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6423034667969,
+    "y1": 85.72634887695312,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["(USDC,", "USDT,", "v)", "deposit(v)", "USDC(-),", "fUSDC(+)", "2000", "2162", "2358", "withdraw(v)", "fUSDC(-),", "USDC(+)", "2000", "2364", "2876", "2000", "2148", "2888", "USDC(-),", "USDT(+)", "(USDT,", "USDC,", "v)", "exchange", "2000", "2238", "2792", "USDT(-),", "USDC(+)", "Action", "Token", "Flow", "IDP", "TDP-Poly", "TDP-Inter", "exchange"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 291.36,
+    "y1": 132.96,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Table1-1.png"
+}, {
+  "caption": "Table 4: Summary of FlashSyn Results under Different Settings (see extended version [13] Appendix F for detailed results). n+x: n denotes the settings of initial number of data points and +x denotes whether FlashSyn uses counterexample driven loops.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.3467407226562,
+    "y1": 367.92236328125,
+    "y2": 384.5119934082031
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "Time", "(s)", "632", "893", "1120", "1747", "842", "1397", "982", "1594", "2601", "3509", "3180", "3917", "3022", "3845", "3200", "3754", "Avg.", "Data", "Points", "584", "1042", "1432", "2376", "2795", "3571", "5445", "6367", "584", "1338", "1432", "2450", "2795", "3656", "5445", "6248", "Avg.", "Norm.", "Profit", "0.793", "0.829", "0.846", "0.922", "0.762", "0.786", "0.717", "0.945", "0.539", "0.555", "0.630", "0.634", "0.535", "0.580", "0.594", "0.641", "Benchmarks", "Solved", "15", "15", "15", "16", "15", "15", "15", "16", "13", "13", "14", "14", "13", "13", "13", "13", "FlashSyn-poly", "FlashSyn-inter", "200", "200+x", "500", "500+x", "1000", "1000+x", "2000", "2000+x", "200", "200+x", "500", "500+x", "1000", "1000+x", "2000", "2000+x"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 554.4,
+    "y1": 398.88,
+    "y2": 467.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Table4-1.png"
+}, {
+  "caption": "Table 3: Summary of FlashSyn Results. AC denotes the number of action candidates. AP denotes the number of action candidates to approximate. GL and GP denote the length and the profit of the ground truth attack vector, respectively. IDP and TDP denote the initial and total number of collected of data points, respectively. Time denotes the time spent in seconds.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1823120117188,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Solved:16/18", "Avg.", "Time:", "1594", "Solved:13/18", "Avg.", "Time:", "3754", "†:", "FlashSyn’s", "results", "include", "at", "least", "one", "attack", "vector", "that", "differs", "from", "the", "ground", "truth.", "FlashSyn-poly", "FlashSyn-inter", "Precise", "Benchmark", "AC", "AP", "GL", "GP", "IDP", "TDP", "Profit", "Time", "TDP", "Profit", "Time", "Profit", "bZx1", "3", "3", "2", "1194", "5192", "5849", "2392", "422", "6373", "2302", "†", "441", "cs", "Harvest_USDT", "4", "4", "4", "338448", "8000", "9325", "110139", "†", "670", "10289", "86798", "†", "7579", "cs", "Harvest_USDC", "4", "4", "4", "307416", "8000", "8912", "59614", "†", "677", "10914", "110051", "†", "8349", "cs", "Eminence", "4", "4", "5", "1674278", "8000", "8780", "1507174", "1191", "8104", "/", "/", "1606965", "ValueDeFi", "6", "6", "6", "8618002", "12000", "19975", "8378194", "†", "4691", "15758", "6428341", "†", "11089", "cx", "CheeseBank", "8", "3", "8", "3270347", "2679", "2937", "1946291", "†", "4391", "2715", "1101547", "†", "10942", "2816762", "†", "Warp", "6", "3", "6", "1693523", "6000", "6000", "2773345", "†", "1164", "6000", "/", "/", "2645640", "†", "bEarnFi", "2", "2", "4", "18077", "4000", "4854", "13770", "470", "4652", "12329", "688", "13832", "AutoShark", "8", "3", "8", "1381", "2753", "2753", "1372", "†", "5484", "2753", "/", "/", "cx", "ElevenFi", "5", "2", "5", "129741", "4000", "4070", "129658", "409", "4326", "85811", "898", "cx", "ApeRocket", "7", "3", "6", "1345", "6000", "6402", "1333", "†", "733", "6235", "1037", "†", "3238", "cs", "Wdoge", "5", "1", "5", "78", "2000", "2001", "75", "272", "2080", "75", "289", "75", "Novo", "4", "2", "4", "24857", "4000", "4164", "20210", "702", "4031", "23084", "861", "cx", "OneRing", "2", "2", "2", "1534752", "4000", "4710", "1814882", "585", "4218", "1942188", "367", "cx", "Puppet", "3", "3", "2", "89000", "6000", "6301", "89000", "†", "1203", "6452", "87266", "†", "1238", "89000", "†", "PuppetV2", "4", "3", "3", "953100", "4491", "4836", "747799", "†", "2441", "5061", "362541", "†", "2835", "647894", "†"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 529.4399999999999,
+    "y1": 127.67999999999999,
+    "y2": 353.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639190-Table3-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Mutation testing of chatbots withWodel-Test.",
+  "captionBoundary": {
+    "x1": 192.0999755859375,
+    "x2": 419.8997802734375,
+    "y1": 275.28009033203125,
+    "y2": 280.9109802246094
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "chatbot", "MuT", "tool", "built", "withWodel-Test", "3", "1", "2", "(a)", "Architecture", "of", "Wodel-Test", "test", "suites", "«includes»«includes»", "(meta-model", "+", "mutation", "op.)", "WODEL", "programs", "4", "«uses»", "«interface»", "«requires»", "CONGA", "MUT", "SPECEMFCompare", "equivalence", "3", "projectToModel()", "modelToProject()", "run()", "Language", "ServiceProvider", "1", "2", "postProc", "WODEL-TEST", "syntactic", "equivalence", "WODEL", "engine"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Workflow of task-oriented chatbots.",
+  "captionBoundary": {
+    "x1": 81.78299713134766,
+    "x2": 266.0604248046875,
+    "y1": 623.74609375,
+    "y2": 629.3770141601562
+  },
+  "figType": "Figure",
+  "imageText": ["phrase", "1", "…", "phrase", "n", "intenti", "NL", "utterance", "reply", "message", "51", "4b", "reply", "fallback", "yes", "3a", "fallback", "intent", "no", "3b", "match?", "do", "actions", "2", "extract", "params", "n", "ce", "e", "ra", "u", "tt", "am", "s", "p", "ar", "…", "…", "Actn", "Act1", "intenti", "chatbot", "match", "intent", "backend", "user"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 80.16,
+    "x2": 267.84,
+    "y1": 482.88,
+    "y2": 609.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Figure1-1.png"
+}, {
+  "caption": "Table 1: Measurements of the selected chatbots and test suites.",
+  "captionBoundary": {
+    "x1": 179.73599243164062,
+    "x2": 431.9698486328125,
+    "y1": 298.5771179199219,
+    "y2": 304.2080078125
+  },
+  "figType": "Table",
+  "imageText": ["Average", "202.4", "16.33", "0.13", "0.8", "13.4", "3.08", "0.87", "16.87", "13.27", "186.87", "13.83", "1,049.17", "10.75", "10.75", "Chatbot", "(Avg)", "(Fallb.)", "Entities", "(Req.)", "Flows", "Length", "Bifur.", "(Text)", "Convos", "(len.)", "Tests", "Convos", "(len.)", "Tests", "Convos", "(len.)", "Tests", "256644", "63", "(5.7)", "11", "(0)", "0", "1", "(0)", "10", "1.10", "0", "12", "(11)", "11", "(1)", "63", "10", "(2)", "107", "-", "-", "bikeShop", "13", "(2.6)", "5", "(1)", "1", "3", "(1)", "4", "1.25", "0", "8", "(6)", "4", "(1)", "13", "-", "-", "-", "-", "Covid19_tracer", "18", "(2.25)", "8", "(0)", "0", "1", "(0)", "4", "1.5", "0", "7", "(5)", "3", "(1)", "18", "-", "-", "-", "-", "data-mining", "1,128", "(26.86)", "42", "(0)", "0", "0", "(0)", "38", "1.12", "2", "43", "(41)", "42", "(1)", "1,128", "40", "(3)", "1,801", "-", "-", "diagrams2ai", "39", "(5.5)", "7", "(1)", "0", "0", "(0)", "3", "2.2", "2", "6", "(5)", "6", "(1)", "39", "4", "(4)", "2,212", "-", "-", "dusbot", "406", "(31.23)", "13", "(1)", "0", "0", "(0)", "13", "1", "0", "17", "(7)", "11", "(1)", "401", "-", "-", "6", "(3)", "6", "e2e-bot", "33", "(8.25)", "4", "(0)", "0", "0", "(0)", "2", "3.5", "0", "3", "(3)", "4", "(1)", "33", "-", "-", "4", "(4)", "4", "Email-WhatsApp", "48", "(5.3)", "9", "(1)", "0", "0", "(0)", "4", "2", "3", "11", "(6)", "8", "(1)", "48", "10", "(3)", "1,319", "-", "-", "h4h-chatbot", "100", "(10)", "10", "(0)", "0", "0", "(0)", "10", "1", "0", "10", "(10)", "9", "(1)", "100", "-", "-", "9", "(1)", "9", "lankbanfinance", "542", "(10.04)", "54", "(1)", "0", "0", "(0)", "51", "10.2", "0", "55", "(5)", "52", "(1)", "542", "-", "-", "47", "(1)", "47", "legal-alien", "270", "(7.5)", "36", "(0)", "0", "1", "(0)", "32", "1.12", "2", "37", "(36)", "7", "(1)", "72", "-", "-", "3", "(3)", "3", "personal-bot", "91", "(9.2)", "10", "(0)", "1", "5", "(0)", "5", "1.6", "0", "11", "(8)", "6", "(1)", "63", "-", "-", "3", "(2)", "3", "Rasa-demo", "87", "(7.9)", "11", "(0)", "0", "1", "(0)", "7", "15.56", "2", "10", "(7)", "11", "(1)", "87", "-", "-", "7", "(3)", "7", "Spaceonova", "149", "(9.31)", "16", "(0)", "0", "0", "(0)", "14", "1", "0", "15", "(14)", "16", "(1)", "147", "13", "(1)", "131", "-", "-", "yassinelamarti", "49", "(5.44)", "9", "(0)", "0", "0", "(0)", "4", "2", "2", "8", "(7)", "9", "(1)", "49", "6", "(3)", "725", "7", "(3)", "7", "Chatbots", "Test", "Suites", "Train.", "Phr.", "Intents", "Param.", "Avg", "Path", "Path", "Actions", "Botium", "automatic", "Botium", "by", "hand", "Rasa-test"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 553.4399999999999,
+    "y1": 82.56,
+    "y2": 291.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Table1-1.png"
+}, {
+  "caption": "Table 2: Operator applicability, resilience and stubbornness.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0426025390625,
+    "y1": 619.7730712890625,
+    "y2": 625.4039916992188
+  },
+  "figType": "Table",
+  "imageText": ["Average", "92.5", "8.2", "11.3", "63", "68.2", "2,498.7", "50.5", "Operators", "for", "conversation", "flows", "DCS", "39", "12", "3.3", "34", "87.2", "5,083", "60.6", "DCB", "24", "6", "4", "23", "95.8", "5,018", "67", "Operators", "for", "actions", "DA", "262", "15", "17.5", "199", "76", "7,470", "81.3", "DPR", "7", "3", "2.3", "1", "14.3", "60", "21.7", "SO", "38", "12", "3.2", "34", "89.5", "5,061", "60.3", "Operators", "for", "entities", "CRE", "0", "0", "0", "0", "-", "0", "-", "DLE", "4", "2", "2", "2", "50", "1", "1.3", "Operators", "for", "training", "phrases", "DP𝑚𝑎𝑥", "229", "15", "15.3", "90", "39.3", "1,828", "19.9", "DP𝑚𝑖𝑛", "229", "15", "15.3", "111", "48.5", "2,973", "32.4", "DPWP", "3", "1", "3", "2", "66.7", "3", "23.1", "DPWL", "5", "2", "2.5", "3", "60", "1", "1.3", "K2P𝑚𝑎𝑥", "218", "15", "14.5", "167", "76.6", "5,945", "64.8", "K2P𝑚𝑖𝑛", "222", "15", "14.8", "162", "73", "6,774", "73.8", "MP𝑚𝑎𝑥", "228", "15", "15.2", "178", "78.1", "3,771", "41.1", "MP𝑚𝑖𝑛", "229", "15", "15.3", "183", "79.9", "3,357", "36.6", "Operators", "for", "intents", "DIP", "9", "6", "1.5", "6", "66.7", "98", "22.5", "DPP", "3", "1", "3", "0", "0", "0", "0", "SPO", "3", "1", "3", "0", "0", "0", "0", "DFI", "5", "5", "1", "2", "40", "31", "0.7", "Applicability", "Resilience", "Stubbornness", "Operator", "#Mutants", "#Chatbots", "Ratio", "#Killed", "MS", "#Tests", "%"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 285.12,
+    "y1": 318.71999999999997,
+    "y2": 612.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Table2-1.png"
+}, {
+  "caption": "Table 3: Mutation score (%) by test suite.",
+  "captionBoundary": {
+    "x1": 357.39898681640625,
+    "x2": 518.4625244140625,
+    "y1": 277.05810546875,
+    "y2": 282.6889953613281
+  },
+  "figType": "Table",
+  "imageText": ["Average", "45.5", "94.3", "19.6", "23.2", "68.2", "Chatbot", "Botium", "auto.", "Botium", "hand", "Rasa-test", "Overlap", "Overall", "256644", "52.3", "78.9", "-", "52.3", "78.9", "bikeShop", "21.3", "-", "-", "-", "21.3", "Covid19_tracer", "37.5", "-", "-", "-", "37.5", "data-mining", "63.7", "100", "-", "63.7", "100", "diagrams2ai", "56", "100", "-", "56", "100", "dusbot", "53", "-", "10.6", "0", "63.6", "e2e-bot", "46.2", "-", "35.9", "0", "82.1", "Email-WhatsApp", "41.1", "100", "-", "41.1", "100", "h4h-chatbot", "63.4", "-", "15", "0", "78.4", "lankbanfinance", "41.4", "-", "12.9", "0.3", "54", "legal-alien", "11.4", "-", "6.3", "0", "17.6", "personal-bot", "40.3", "-", "73.6", "30.6", "83.4", "Rasa-demo", "49.5", "-", "20.5", "1.1", "68.9", "Spaceonova", "75.8", "76.9", "-", "66.4", "86.4", "yassinelamarti", "51.3", "100", "48.8", "15.4", "100"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Table3-1.png"
+}, {
+  "caption": "Figure 2: Schema of our solution for MuT of chatbots.",
+  "captionBoundary": {
+    "x1": 329.61700439453125,
+    "x2": 546.5413208007812,
+    "y1": 698.4290771484375,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["WODEL-TEST", "chatbot", "impl.", "mutation", "analysis", "report", "test", "suites", "chatbot", "model", "mutant", "generate", "4", "chatbot", "impl.", "test", "5", "3", "mutation", "operators", "(WODEL)", "2", "mutate", "«conforms", "to»", "annotation", "meta-model", "Tensorflow", "chatbot", "model", "annotate", "annotated", "«conforms", "to»", "CONGA", "meta-model", "parse", "1", "chatbot", "model", "Dialogflow"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 532.8,
+    "y2": 684.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Figure2-1.png"
+}, {
+  "caption": "Table 4: MuT efficiency. TPM = time per mutant. Times in s.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 293.9293518066406,
+    "y1": 279.0511169433594,
+    "y2": 284.6820068359375
+  },
+  "figType": "Table",
+  "imageText": ["Average", "584", "2,595", "10,568", "13,747", "117.2", "612.3", "117", "256644", "18", "464", "2,825", "3,307", "90", "170", "37", "bikeShop", "2", "89", "380", "471", "47", "13", "10", "Covid19_tracer", "1", "3", "250", "255", "32", "18", "8", "data-mining", "5,940", "25,668", "39,879", "71,487", "308", "2,929", "232", "diagrams2ai", "11", "6", "5,286", "5,303", "59", "2,251", "90", "dusbot", "799", "2,365", "6,861", "10,026", "85", "407", "118", "e2e-bot", "5", "5", "557", "568", "39", "37", "15", "Email-WhatsApp", "11", "7", "26,289", "26,308", "78", "1,367", "337", "h4h-chatbot", "49", "470", "3,089", "3,608", "60", "109", "60", "lankbanfinance", "1,418", "8,777", "46,555", "56,750", "365", "589", "156", "legal-alien", "337", "208", "16,818", "17,364", "256", "75", "68", "personal-bot", "36", "378", "1,988", "2,403", "72", "66", "33", "Rasa-demo", "34", "430", "2,765", "3,229", "93", "94", "35", "Spaceonova", "90", "39", "2,011", "2,140", "95", "278", "23", "yassinelamarti", "11", "8", "2,963", "2,983", "78", "781", "38", "Chatbot", "Prepr.", "Mutat.", "Testing", "Total", "#Mut.", "#Tests", "TPM"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 284.15999999999997,
+    "y1": 82.56,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Table4-1.png"
+}, {
+  "caption": "Figure 3: Semantic similarity annotation meta-model.",
+  "captionBoundary": {
+    "x1": 65.23999786376953,
+    "x2": 282.603515625,
+    "y1": 559.9640502929688,
+    "y2": 565.594970703125
+  },
+  "figType": "Figure",
+  "imageText": ["max", "2..2", "min", "2..2", "tp1", "tp2", "*", "intentValues", "*", "Annotation", "intentIntentValues", "similarity:", "float", "Semantic", "Similarity", "«from", "CONGA»", "TrainingPhrase", "«from", "CONGA»", "Intent", "IntentValue", "minValues:", "float", "[2]", "maxValues:", "float", "[2]", "IntentIntentValue", "*", "sameIntent", "inv:", "intent1=intent2", "semanticSimilarities", "intent2intent1"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 440.15999999999997,
+    "y2": 546.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ease-ease2024/figures/10_1145-3661167_3661220-Figure3-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 4: Architecture of MiniChecker",
+  "captionBoundary": {
+    "x1": 229.306396484375,
+    "x2": 382.0839538574219,
+    "y1": 193.82948303222656,
+    "y2": 198.1243896484375
+  },
+  "figType": "Figure",
+  "imageText": ["P", "page", "location", "info", "type", "callback...", "P", "During-action", "P", "Post-actionPre-action", "Feature", "Definition", "Three-stage", "Model", "Construction", "P", "P1", "P2", "Risk", "Classification", "Behavior", "Propagation", "P", "P", "P", "P", "Universal", "Function", "Call", "Graph", "Extraction", "Mini-Program", "Source", "Code"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 144.0,
+    "x2": 475.2,
+    "y1": 84.96,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Examples of five abusive data permission request behaviors.",
+  "captionBoundary": {
+    "x1": 165.45230102539062,
+    "x2": 446.54815673828125,
+    "y1": 223.51161193847656,
+    "y2": 227.8065185546875
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "Looping", "Pop-up", "Declined", "pop-up", "reappears.", "Click", "the", "button.", "Warning", "window", "with", "only", "one", "button", "appears.", "Open", "mini-programs.", "Pop-up", "appears.", "Click", "‘Decline’.", "Looping", "Pop-up", "(d)", "Repeating", "Pop-up", "Pop-up2", "appears", "and", "require", "for", "the", "same", "information.", "Click", "avatar.", "Click", "‘Login’.", "Pop-up1", "appears.", "Click", "‘Agree’.", "Repeating", "Pop-up", "(c)", "Bothering", "Pop-up", "Declined", "pop-up", "reappear.", "Go", "to", "the", "previous", "page.", "Return", "to", "the", "homepage.", "Bothering", "Pop-up", "Pop-up", "appears.", "Click", "‘Decline’.", "(b)", "Overlaying", "Pop-up", "Overlaying", "Pop-up", "Pop-up2", "appears", "synchronously.", "Pop-up1", "appears.", "(a)", "Homepage", "Pop-up", "explanation", "of", "how", "the", "collected", "information", "will", "be", "used.", "Pop-up", "windows", "to", "require", "location", "information", "with", "no", "Open", "the", "mini-program.", "Homepage", "Pop-up"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 548.16,
+    "y1": 87.84,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Figure1-1.png"
+}, {
+  "caption": "Figure 5: Three-stage model decomposition example. The execution node of mini-program API is denoted as 𝐴 (or 𝑃 for permission request API). The execution conditions, execution state, and subsequent callbacks can be categorized respectively as pre-action, during-action, and post-action.",
+  "captionBoundary": {
+    "x1": 53.664100646972656,
+    "x2": 295.13494873046875,
+    "y1": 279.6527099609375,
+    "y2": 327.7835998535156
+  },
+  "figType": "Figure",
+  "imageText": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "var", "getAuthSuccess", "=", "false;", "var", "haveRequestAuth", "=", "false;", "if", "(!haveRequestAuth){", "my.getAuthCode({", "scopes:", "‘auth_user’", ",", "success:", "res=>{", "getAuthSuccess", "=", "true;", "haveRequestAuth", "=", "true;", "...", "},", "fail:", "res", "=>", "{", "haveRequestAuth", "=", "true;", "...", "}", "})", "...\\\\", "Next", "Action", "1", "}", "if", "(haveRequestAuth)", "{", "if(getAuthSuccess)", "{", "...\\\\", "Next", "Action", "2", "}", "else{", "...\\\\", "Prompt", "the", "user", "to", "actively", "open", "it", "}", "}", "P", "Pre-Action", "During-Action", "Post-Action", "A1", "A2", "During-Action", "Pre-Action", "During-Action", "Execution", "Sequence", "...", "..."],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 275.03999999999996,
+    "y1": 84.0,
+    "y2": 263.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Classification examples.",
+  "captionBoundary": {
+    "x1": 370.3916931152344,
+    "x2": 505.76556396484375,
+    "y1": 210.11061096191406,
+    "y2": 214.405517578125
+  },
+  "figType": "Figure",
+  "imageText": ["Function", "Call", "Flow", "Execution", "Sequence", "P6", "(e)", "P4", "P6", "P5", "P5", "(d)", "(c)", "(b)", "P2", "P3", "P4(a)", "P3", "P3", "P2", "P1", "P1", "P1", "onLaunch", "onLoad", "...", "EventonShow", "onShow", "...", "...", "App", "Launch", "Homepage", "Load", "Page", "Load", "...", "Program", "State", "Lifecycle", "and", "Events"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 84.96,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Running mechanism of mini-programs",
+  "captionBoundary": {
+    "x1": 339.5566101074219,
+    "x2": 536.6015014648438,
+    "y1": 228.0995635986328,
+    "y2": 232.39447021484375
+  },
+  "figType": "Figure",
+  "imageText": ["Data", "Page", "…", "Page.js", "Page.xml", "Page.css", "Page.json", "Page", "B", "PageB.js", "PageB.xml", "PageB.css", "PageB.json", "Reopen", "Hide", "Explore", "Exit", "the", "page", "Exit", "the", "mini-program", "Open", "a", "new", "page", "Open", "the", "mini-program", "onUnload()", "onReady()", "Host", "App", "XML+", "CSS", "View", "(Page", "Render)", "JavaScript", "App", "Service", "(JavaScript", "Engine)", "PageA.js", "PageA.xml", "PageA.css", "PageA.json", "app.js", "app.json", "app.css", "Service", "Layer", "File", "Structure", "Lifecycle", "onShow()", "onHide()", "onLaunch()", "Destroy", "Background", "Foreground", "New", "App", "onLoad()", "onShow()", "Unload", "Ready", "Init", "New", "Page", "Page", "A", "App"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Figure2-1.png"
+}, {
+  "caption": "Table 1: Permission request interface",
+  "captionBoundary": {
+    "x1": 98.67120361328125,
+    "x2": 248.87632751464844,
+    "y1": 89.05531311035156,
+    "y2": 93.3502197265625
+  },
+  "figType": "Table",
+  "imageText": ["Clipboard", "my.getClipboard", "1©", "Carrier", "my.getCarrierName", "1©", "1©", "Contact", "my.choosePhoneContact,", "my.chooseAlipayContact,", "my.chooseContact", "1©", "Bluetooth", "my.connectBLEDevice,", "my.openBluetoothAdapter,", "my.getBeacons", "1©", "my.startRecord,", "my.stopRecord,", "my.cancelRecord,", "RecorderManager.start,", "RecorderManager.stop", "Recorder", "1©", "my.chooseImage,", "my.chooseVideo,", "my.saveImage,", "my.saveImageToPhotosAlbum,", "my.saveVideoToPhotosAlbum", "Album", "1©", "Camera", "my.scan,", "cameraContext.takePhoto,", "cameraFrameListener.start", "1©", "Location", "my.getLocation,", "my.openCarSevice,", "my.startContinuousLocation", "Device", "Source", "Information", "Type", "Data", "Permission", "API", "Implementation1"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 97.92,
+    "y2": 317.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Table1-1.png"
+}, {
+  "caption": "Table 3: Comparative Experiment with TAJS, JSWALA, Approximate CG and CodeQL.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 559.8121337890625,
+    "y1": 89.05531311035156,
+    "y2": 104.3092041015625
+  },
+  "figType": "Table",
+  "imageText": ["CodeQL", "0.86", "0.26", "-", "0", "1.0", "0.98", "-", "0", "-", "0", "0.98", "0.49", "MiniChecker", "0.76", "0.93", "0.69", "0.95", "1.0", "1.0", "0.875", "0.78", "0.65", "0.94", "0.82", "0.95", "TAJS", "-", "0", "-", "0", "-", "0", "-", "0", "-", "0", "-", "0", "Approximate", "CG", "-", "0", "-", "0", "1.0", "0.30", "-", "0", "-", "0", "1.0", "0.13", "Pre.", "Rec.", "Pre.", "Rec.", "Pre.", "Rec.", "Pre.", "Rec.", "Pre.", "Rec.", "Pre.", "Rec.", "Tool", "Homepage", "Overlaying", "Bothering", "Repeating", "Looping", "Average"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 108.96,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Table3-1.png"
+}, {
+  "caption": "Table 2: Evaluation ofMiniChecker",
+  "captionBoundary": {
+    "x1": 102.64820098876953,
+    "x2": 244.28953552246094,
+    "y1": 89.05531311035156,
+    "y2": 93.3502197265625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "30", "28/9/2", "19", "18/8/1", "54", "54/0/0", "9", "7/1/2", "16", "15/8/1", "Zhai", "Phone", "Rent", "•", "•", "Zhiyi", "Beauty", "•", "Tuchuang", "Network", "•", "•", "Najing", "Deda", "Copier", "•", "•", "Leshan", "Shop", "•", "•", "•", "Shunfayi", "•", "•", "•", "•", "Xiaobo", "Care", "•", "•", "•", "•", "Yilian", "Hair", "•", "•", "•", "•", "Yujin", "Beauty", "•", "•", "•", "•", "Shengzhou", "Hospital", "•", "•", "Lihao", "Welfare", "•", "•", "•", "Tehui", "Buy", "•", "•", "•", "Lidani", "•", "•", "•", "Dianxiaoya", "Charge", "•", "•", "•", "•", "Xiangguan", "•", "Xingqishu", "•", "Arabica", "•", "•", "•", "Tianzhu", "Peoples", "Hospital", "•", "Liuan", "Hospital", "•", "•", "Shangcheng", "Go", "•", "Nanjing", "Walk", "•", "•", "•", "Yanwu", "•", "Shanghai", "Dongfang", "Hosiptal", "•", "•", "Shannxi", "Filling", "•", "•", "•", "•", "Sichuan", "Miliang", "Market", "•", "•", "•", "Yellow", "Duck", "Choice", "•", "Zhangqing", "Third", "Hospital", "•", "•", "•", "Jilin", "Huili", "Plan", "Company", "•", "•", "Tongwei", "TCM", "Hospital", "•", "Naizhi", "•", "Jinqian", "Express", "Query", "•", "•", "Mengyin", "Payment", "•", "•", "Hefeng", "Power", "•", "•", "•", "Anyue", "Charge", "•", "•", "•", "•", "Shentong", "Express", "•", "•", "Tianquantailai", "Market", "•", "•", "•", "Xiangxie", "Priority", "Living", "•", "•", "•", "Xuzhou", "Health", "Report", "•", "•", "•", "Hebei", "Tang", "Hosipital", "•", "Jilin", "Baixin", "Shoes", "•", "•", "Oze", "Hardware", "•", "•", "•", "Thomas", "Welfare", "•", "•", "Jinyang", "Lake", "Bicycle", "•", "•", "•", "Baofeng", "Charge", "•", "•", "•", "Yunchongba", "Station", "•", "•", "Love", "Sports", "Welfare", "•", "•", "Luquan", "Jinpai", "Image", "Design", "•", "•", "•", "Yumantang", "•", "Kuaile", "Rocket", "•", "•", "Douyou", "Share", "•", "•", "•", "•", "Black", "Dragonfly", "•", "•", "•", "Air", "Legal", "Consult", "•", "Youbei", "Rent", "•", "Haiqitong", "•", "•", "Lab.", "Mc.", "Lab.", "Mc.", "Lab.", "Mc.", "Lab.", "Mc.", "Lab.", "Mc.", "Mini-Program", "Name", "Homepage", "Overlaying", "Bothering", "Repeating", "Looping"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 97.92,
+    "y2": 551.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Table2-1.png"
+}, {
+  "caption": "Figure 3: A simplified example of a risk mini-program containing homepage pop-up, repeating pop-up, and looping pop-up.",
+  "captionBoundary": {
+    "x1": 54.98210144042969,
+    "x2": 557.0189819335938,
+    "y1": 299.9647216796875,
+    "y2": 304.2596130371094
+  },
+  "figType": "Figure",
+  "imageText": ["Module", "Reference", "(JS", "→", "JS)", "Component", "Event", "(JS", "→", "XML)", "Template", "Reference", "(XML", "→", "XML)", "Function", "Call", "Flow", "(JS)", "this.onGetLocation()", "...", "pages/location/index.js", "my.alert({", "...", "success:()", "=>", "{", "try", "{", "await", "getApp().handleLocation(...)", "my.reLaunch({url:", "‘pages/location/index’})", "}", "catch", "(error)", "{", "Page({", "...", "async", "onGetLocation()", "{", "...", "}", "pages/home/index.js", "my.getOpenUserInfo({", "success:", "()=>", "{...},", "fail:", "()=>", "{...}", "this.getUserInfo();", "}", "getUserInfo(...){", "}", "onGetAuthorize()", "{", "my.navigateTo({url:", "‘pages/location/index’})", ");", "Page({", "data:", "{...},", "goToMyInfoPage()", "{", "app.handleAuth(...).then(res", "=>", "{", "const", "app", "=", "getApp();", "“pages/home/index”,", "...", "app.json", "{", "“pages”:", "[", "utils/api.js", "module.exports", "=", "{", "getLocation:", "getLocation,", "...", "...", "}", "my.getLocation({", "success:", "()=>", "{...},", "fail:", "()=>", "{...}", "export", "function", "getLocation(...)", "{", "return", "new", "Promise((resolve,", "reject)", "=>", "{", "pages/home/avatar.axml", "pages/home/index.axml", "onGetAuthorize=“onGetAuthorize”>", "…", "<image", "src=“{{avatar", "||", "‘’}}”>", "</view>", "<button", "a:else", "scope=“userInfo”", "<template", "name=“avatar”>", "<view", "a:if=“{{avatar}}”", "onTap=“goToMyInfoPage”", "class=“…”", "...>", "</view>", "…", "<view", "a:else", "class=“…”>", "<template", "is=“avatar”", "data=“…”/>", "<template", "is=“userName”", "data=“…”/>", "…", "</button>", "<button", "a:if=“{{!auth", "&&", "!(enabled", "&&", "receiveStatus)}}”", "scope=“userInfo”", "onGetAuthorize=“onGetAuthorize”", "...>", "<view", "class=“…”>", "…", "<member-card", "…>", "<report-view>", "<them-view", "class=“…”>", "<import", "src=“./avatar.axml”>", "<import", "src=“./userName.axml”>", "app.js", "getLocation(...)", "...", "},", "...", "handleLocation(){", "scopes,", "success:", "()=>", "{...},", "fail:", "()=>", "{...}", "...", "...", "my.getAuthCode({", "},", "onLaunch()", "{", "...", "this.handleAuth();", "},", "handleAuth(...)", "{", "scopes:", "[‘auth_user’,", "‘auth_base’],", "...", "App({", "data:", "{", "import", "{getLocation}", "from", "‘/utils/api’;"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695534-Figure3-1.png"
+}]

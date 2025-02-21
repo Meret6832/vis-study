@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 3: Results in “which to use” scenario. SC, CL, and DSC indicate StarCoder, CodeLlama, and DeepSeek-Coder, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 557.9183349609375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Base", "81.77", "83.46", "84.11", "83.25", "84.33", "82.80", "79.28", "83.07", "84.12", "82.91", "Base+F", "83.07", "84.45", "85.15", "84.59", "85.38", "84.28", "80.51", "84.18", "85.40", "84.12", "(↑", "1.5%)", "Base+F+L", "82.99", "84.72", "85.42", "84.96", "85.65", "84.64", "81.21", "84.89", "85.72", "84.47", "(↑", "1.9%)", "Base+F+C", "85.33", "86.45", "87.09", "86.67", "87.47", "86.48", "83.59", "86.73", "87.66", "86.39", "(↑", "4.2%)", "Base+F+S", "85.74", "86.54", "87.68", "86.44", "87.40", "86.61", "81.53", "85.90", "88.08", "86.21", "(↑", "4.0%)", "Base+F+I", "84.60", "86.13", "86.90", "86.11", "87.16", "86.52", "83.35", "86.14", "87.31", "86.02", "(↑", "3.7%)", "Base+F+C+I", "86.14", "87.68", "88.52", "87.88", "88.75", "88.16", "85.28", "87.96", "89.22", "87.73", "(↑", "5.8%)", "Base+F+C+I+S", "88.62", "89.70", "90.42", "89.23", "90.04", "89.74", "85.58", "89.44", "91.05", "89.31", "(↑", "7.7%)", "Base+F+L+C+I+S", "87.58", "89.19", "90.20", "88.82", "89.87", "89.05", "85.17", "89.29", "90.88", "88.89", "(↑", "7.2%)", "Base+F+C+I", "85.54", "88.31", "89.39", "87.58", "89.56", "88.20", "83.34", "87.94", "90.05", "87.77", "(↑", "11.3%)", "Base+F+C+I+S", "87.20", "88.90", "90.52", "87.66", "89.73", "89.11", "81.68", "88.07", "91.29", "88.24", "(↑", "12.0%)", "Base+F+L+C+I+S", "84.68", "86.71", "89.24", "86.54", "88.75", "88.69", "80.82", "87.75", "90.86", "87.12", "(↑", "10.5%)", "Edit", "Similarity", "Base", "77.06", "80.08", "81.49", "79.47", "81.83", "78.77", "71.15", "78.31", "81.29", "78.82", "Base+F", "79.00", "81.35", "82.62", "80.84", "83.31", "80.91", "73.18", "80.07", "82.91", "80.46", "(↑", "2.1%)", "Base+F+L", "79.34", "82.26", "83.85", "81.89", "83.66", "82.07", "75.22", "82.56", "83.72", "81.62", "(↑", "3.5%)", "Base+F+C", "84.49", "86.43", "87.18", "86.03", "87.92", "85.86", "80.32", "86.15", "87.96", "85.81", "(↑", "8.9%)", "Base+F+S", "81.17", "82.53", "85.11", "82.16", "86.46", "84.75", "71.56", "80.68", "85.79", "82.24", "(↑", "4.3%)", "Base+F+I", "82.12", "84.90", "85.82", "83.64", "86.46", "84.77", "79.03", "84.14", "85.90", "84.08", "(↑", "6.7%)", "Base+F+L", "53.09", "57.33", "58.86", "57.65", "59.68", "56.59", "49.61", "57.44", "59.74", "56.67", "(↑", "5.2%)", "Base+F+C", "58.00", "61.46", "62.33", "61.52", "63.59", "61.05", "54.45", "61.37", "64.14", "60.88", "(↑", "13.0%)", "Base+F+S", "60.26", "63.32", "65.48", "61.49", "64.42", "62.50", "50.69", "60.49", "65.86", "61.61", "(↑", "14.3%)", "Base+F+I", "55.25", "60.05", "62.12", "59.63", "62.96", "61.22", "53.41", "60.12", "63.08", "59.76", "(↑", "10.9%)", "Base+F+C+I", "58.84", "63.69", "65.53", "63.91", "66.36", "64.86", "58.05", "64.61", "67.53", "63.71", "(↑", "18.2%)", "Base+F+C+I+S", "66.40", "69.92", "71.77", "67.53", "70.26", "68.69", "59.11", "68.19", "72.69", "68.28", "(↑", "26.7%)", "Base+F+L+C+I+S", "64.85", "68.46", "71.22", "66.64", "69.55", "68.21", "58.24", "67.51", "71.94", "67.40", "(↑", "25.1%)", "API", "Usage", "Accuracy", "Base", "50.96", "55.07", "56.26", "54.40", "57.20", "53.95", "46.14", "53.79", "57.22", "53.89", "Base+F", "53.18", "56.67", "58.34", "57.09", "59.40", "56.42", "48.43", "56.08", "59.49", "56.12", "(↑", "4.1%)", "Method", "SC-3B", "SC-7B", "SC-15B", "CL-7B", "CL-13B", "CL-34B", "DSC-1.3B", "DSC-6.7B", "DSC-33B", "Avg", "Improve", "Exact", "Match"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 551.04,
+    "y1": 99.84,
+    "y2": 439.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Table3-1.png"
+}, {
+  "caption": "Figure 1: Three distinct scenarios in the API suggestion task.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 232.30337524414062,
+    "y2": 237.93402099609375
+  },
+  "figType": "Figure",
+  "imageText": ["answer", "answer", "answer", "Three", "scenarios", "in", "API", "suggestion:", "ReflectionUtils", "Which", "API?", "API", "arguments?", "getField", "API", "Needed", "here?", "(field,", "bean)", "?", "Which", "to", "use?", "How", "to", "use?", "Program", "context:", "When", "to", "use", "@Override", "public", "Object", "postProcessAfterInitialization(final", "Object", "bean,", "String", "beanName)", "throws", "BeansException", "{", "final", "Class<?>", "targetClass", "=", "AopUtils.getTargetClass(bean);", "ReflectionUtils.doWithFields(targetClass,", "field", "->", "{", "ReflectionUtils.makeAccessible(field);", "Object", "fieldValue", "="],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 301.44,
+    "y1": 82.56,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Figure1-1.png"
+}, {
+  "caption": "Figure 7: Illustration of throughput of the different contexts, in which the models are grouped by their sizes for clarity.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.2809448242188,
+    "y1": 228.03933715820312,
+    "y2": 244.6290283203125
+  },
+  "figType": "Figure",
+  "imageText": ["1.3~3B", "3B~7B", "13~15B", "33~34B", "ut", "ug", "hp", "Th", "ro", "Basic", "+F", "+F+C", "+F+S", "+F+I", "+F+C+I", "+F+C+I+S", "2000", "1600", "1200", "800", "400", "0"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 566.4,
+    "y1": 82.56,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Figure7-1.png"
+}, {
+  "caption": "Figure 2: The illustration of different context types.",
+  "captionBoundary": {
+    "x1": 201.67599487304688,
+    "x2": 410.3148498535156,
+    "y1": 290.0853576660156,
+    "y2": 295.71600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["/**", "*", "This", "method", "ensures", "that", "the", "provided", "stateName", "is", "not", "null", "...", "...", "*", "@param", "stateName", "The", "name", "of", "the", "state", "to", "be", "checked", "for", "nullity", "*", "@throws", "IllegalArgumentException", "If", "the", "stateName", "is", "null", "*/", "@Override", "public", "Object", "postProcessAfterInitialization(final", "Object", "bean,", "String", "beanName)", "throws", "BeansException", "{", "final", "Class<?>", "targetClass", "=", "AopUtils.getTargetClass(bean);", "ReflectionUtils.doWithFields(targetClass,", "field", "->", "{", "ReflectionUtils.makeAccessible(field);", "Object", "fieldValue", "=", "ReflectionUtils.", "Suffix", "Context", "(S)", "if(fieldValue", "instanceof", "Metric)", "{", "...", "...", "return", "bean;", "}", "Function", "Context", "(Base)", "/*", "Available", "APIs", "in", "[org.springframework.util.ReflectionUtils]", "are", "*", "handleReflectionException", "*", "handleInvocationTargetException", "*", "rethrowRuntimeException", "*", "rethrowException", "*", "makeAccessible", "*", "doWithLocalMethods", "*", "getUniqueDeclaredMethods", "*", "...", "...", "*", "getField", "*/", "Library", "Candidates", "(L)", "public", "class", "ProductImageServiceImpl", "extends", "SalesManagerEntityServiceImpl<Long,", "ProductImage>", "implements", "ProductImageService", "{", "private", "ProductImageRepository", "productImageRepository;", "...", "...", "public", "ProductImage", "getById(Long", "id)", "{", "return", "productImageRepository.findOne(id);", "}", "File", "Context", "(F)", "Function", "Comment", "(C)", "Import", "Messages", "(I)", "import", "com.salesmanager.core.model.merchant…", "import", "com.salesmanager.core.business.configuration….", "...", "...", "import", "java.io.InputStream;", "import", "java.util.ArrayList;", "import", "java.util.List;", "...", "...", "package", "com.salesmanager.core.business.services.catalog.product.image;"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 532.3199999999999,
+    "y1": 84.0,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Figure2-1.png"
+}, {
+  "caption": "Table 4: Results in the “how to use” scenario. SC, CL, and DSC indicate StarCoder, CodeLlama, and DeepSeek-Coder, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1824951171875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Base+F", "85.82", "87.21", "87.59", "87.24", "87.79", "86.96", "84.35", "87.21", "87.83", "86.89", "(↑", "1.6%)", "Base+F+C", "86.83", "88.07", "88.45", "88.17", "88.76", "88.22", "85.90", "88.09", "88.98", "87.94", "(↑", "2.8%)", "Base+F+S", "88.19", "89.60", "90.18", "88.59", "89.66", "89.12", "85.79", "88.70", "90.15", "88.82", "(↑", "3.8%)", "Base+F+I", "86.40", "87.83", "88.68", "88.16", "88.84", "88.52", "85.75", "88.25", "89.03", "87.94", "(↑", "2.8%)", "Base+F+C+I", "87.25", "88.81", "89.34", "89.14", "89.69", "89.46", "86.72", "89.28", "90.26", "88.88", "(↑", "3.9%)", "Base+F+C+I+S", "89.39", "90.76", "91.29", "90.17", "91.11", "90.50", "87.33", "90.17", "91.81", "90.16", "(↑", "5.4%)", "Edit", "Similarity", "Base", "84.72", "86.27", "86.50", "86.15", "86.88", "85.91", "83.34", "86.06", "86.69", "85.83", "Base+F+C", "65.81", "68.43", "69.23", "68.94", "70.24", "68.89", "63.93", "68.74", "70.64", "68.31", "(↑", "6.7%)", "Base+F+S", "69.35", "72.07", "73.55", "70.52", "72.11", "71.38", "64.32", "70.21", "73.24", "70.74", "(↑", "10.5%)", "Base+F+I", "63.65", "68.04", "69.48", "68.28", "70.15", "69.37", "63.12", "68.52", "70.48", "67.90", "(↑", "6.1%)", "Base+F+C+I", "65.69", "70.04", "71.30", "70.68", "72.20", "71.33", "65.67", "71.02", "73.03", "70.10", "(↑", "9.5%)", "Base+F+C+I+S", "72.24", "75.37", "76.26", "74.13", "75.37", "74.89", "67.85", "74.11", "77.54", "74.19", "(↑", "15.8%)", "Base", "61.62", "64.66", "65.34", "64.55", "66.24", "64.69", "59.23", "64.21", "65.85", "64.04", "Base+F", "63.80", "66.24", "67.20", "66.70", "68.06", "66.43", "60.83", "66.20", "68.08", "65.95", "(↑", "3.0%)", "Method", "SC-3B", "SC-7B", "SC-15B", "CL-7B", "CL-13B", "CL-34B", "DSC-1.3B", "DSC-6.7B", "DSC-33B", "Avg", "Improve", "Exact", "Match"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 99.84,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Table4-1.png"
+}, {
+  "caption": "Figure 4: Performance and token numbers of different contexts. “L”denotes the number of lines included in the file context.",
+  "captionBoundary": {
+    "x1": 55.623016357421875,
+    "x2": 556.3560791015625,
+    "y1": 450.6333312988281,
+    "y2": 456.26397705078125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "How", "to", "use", "File", "Context", "Only", "Context", "Selection", "80L", "100L", "40L", "60L", "20L", "F+C+I+S", "+F+C+I", "+F+I", "+F+S", "+F+C", "+F", "at", "ch", "t", "M", "Ex", "ac", "74", "72", "70", "68", "66", "300", "400", "500", "600", "700", "800", "900", "1000", "Num", "Tokens", "(b)", "Which", "to", "use", "File", "Context", "Only", "Context", "Selection", "40L", "60L", "80L", "100L", "20L", "F+C+I+S", "+F+C+I", "+F+I", "+F+C", "+F+S", "+F", "at", "ch", "t", "M", "Ex", "ac", "68", "66", "64", "62", "60", "58", "56", "300", "400", "500", "600", "700", "800", "900", "Num", "Tokens", "(a)", "When", "to", "use", "File", "Context", "Only", "Context", "Selection", "80L", "100L", "40L", "60L", "20L", "F+C+I+S", "+F+C+I", "+F+I", "+F+C", "+F+S", "+F", "at", "ch", "t", "M", "Ex", "ac", "55", "50", "45", "40", "35", "300", "400", "500", "600", "700", "800", "900", "Num", "Tokens"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 551.04,
+    "y1": 308.64,
+    "y2": 443.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Case study in the “how to use” scenario, where the experimented LCM is CodeLlama 7B.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1910400390625,
+    "y1": 258.7843322753906,
+    "y2": 275.3740234375
+  },
+  "figType": "Figure",
+  "imageText": ["for", "(MapEntry", "entry", ":", "targetEntries)", "{", "entry.addToMap(targetMap);", "}", "return", "targetMap;", "public", "Object", "convert(...)", "{", "...", "if", "(!copyRequired", "&&", "sourceMap.isEmpty())", "{", "return", "sourceMap;", "}", "List<MapEntry>", "targetEntries", "=", "new", "ArrayList<MapEntry>(sourceMap.size());", "for", "(Map.Entry<Object,", "Object>", "entry", ":", "sourceMap.entrySet())", "{", "...", "targetEntries.add(new", "MapEntry(targetKey,", "targetValue));", "if", "(sourceKey", "!=", "targetKey", "||", "sourceValue", "!=", "targetValue)", "{", "copyRequired", "=", "true;", "}", "}", "if", "(!copyRequired)", "{", "return", "sourceMap;", "}", "Map<Object,", "Object>", "targetMap", "=", "CollectionFactory.", "createMap", "w/", "Suffix", "Context", "(targetType.getType(),", "sourceMap.size())", "(targetType.getType(),", "targetEntries.size())w/o", "Suffix", "Context", "Suffix", "Context", "Basic", "Context"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 566.4,
+    "y1": 82.56,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Case study in the “when to use” scenario, where the experimented LCM is StarCoder 15B.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1917114257812,
+    "y1": 419.3963623046875,
+    "y2": 435.9859924316406
+  },
+  "figType": "Figure",
+  "imageText": ["static", "List<Predicate>", "getPredicates(...)", "{", "List<Predicate>", "predicates", "=", "new", "ArrayList<>();", "DirectFieldAccessFallbackBeanWrapper", "beanWrapper", "=", "new", "DirectFieldAccessFallbackBeanWrapper(value);", "for(SingularAttribute", "attribute", ":", "type.getSingularAttributes()){", "String", "currentPath", "=", "!", "Import", "Messagesimport", "jakarta.persistence.criteria.CriteriaBuilder", "import", "jakarta.persistence.criteria.Expression", "...", "import", "org.springframework.util.StringUtils", "Basic", "Context", "w/", "Import", "Messages", "StringUtils.hasText(path)", "path.isEmpty()w/o", "Import", "Messages"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 562.0799999999999,
+    "y1": 280.8,
+    "y2": 403.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Figure6-1.png"
+}, {
+  "caption": "Table 1: Results of different LCMs in three scenarios of API Suggestion.",
+  "captionBoundary": {
+    "x1": 161.48001098632812,
+    "x2": 450.2120056152344,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["How", "to", "use", "Exact", "Match", "61.62", "64.66", "65.34", "64.55", "66.24", "64.69", "59.23", "64.21", "65.85", "64.04", "Edit", "Sim", "84.72", "86.27", "86.50", "86.15", "86.88", "85.91", "83.34", "86.06", "86.69", "85.83", "Which", "to", "use", "Exact", "Match", "50.96", "55.07", "56.26", "54.40", "57.20", "53.95", "46.14", "53.79", "57.22", "53.89", "API", "Acc.", "77.06", "80.08", "81.49", "79.47", "81.83", "78.77", "71.15", "78.31", "81.29", "78.82", "Edit", "Sim", "81.77", "83.46", "84.11", "83.25", "84.33", "82.80", "79.28", "83.07", "84.12", "82.91", "Exact", "Match", "25.22", "30.49", "31.79", "30.84", "34.54", "31.52", "23.64", "30.62", "35.22", "30.43", "API", "Acc.", "35.53", "42.22", "43.22", "42.95", "46.85", "43.99", "34.13", "42.15", "47.71", "42.08", "Edit", "Sim", "59.77", "64.17", "64.83", "64.63", "66.93", "65.03", "58.89", "63.42", "67.32", "63.89", "Metrics", "SC-3B", "SC-7B", "SC-15B", "CL-7B", "CL-13B", "CL-34B", "DSC-1.3B", "DSC-6.7B", "DSC-33B", "Avg", "When", "to", "use"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 520.3199999999999,
+    "y1": 99.84,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Table1-1.png"
+}, {
+  "caption": "Table 2: Results in the “when to use” scenario. SC, CL, andDSC indicate StarCoder, CodeLlama, andDeepSeek-Coder, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1824340820312,
+    "y1": 255.02835083007812,
+    "y2": 260.65899658203125
+  },
+  "figType": "Table",
+  "imageText": ["Base+F", "61.75", "65.61", "67.18", "66.26", "69.39", "65.44", "60.48", "65.75", "69.19", "65.67", "(↑", "2.8%)", "Base+F+C", "67.09", "70.60", "72.21", "71.71", "74.96", "72.78", "66.24", "72.09", "74.81", "71.39", "(↑", "11.7%)", "Base+F+S", "68.64", "72.50", "73.91", "72.54", "75.94", "75.07", "67.11", "73.14", "76.78", "72.85", "(↑", "14.0%)", "Base+F+I", "70.71", "74.79", "76.64", "75.94", "77.61", "76.99", "70.08", "75.10", "78.43", "75.14", "(↑", "17.6%)", "Base+F+C+I", "73.95", "77.56", "79.41", "78.77", "80.29", "79.52", "73.85", "78.47", "81.18", "78.11", "(↑", "22.3%)", "Base+F+C+I+S", "79.69", "83.15", "83.58", "83.14", "85.15", "84.11", "78.84", "84.24", "86.49", "83.15", "(↑", "30.1%)", "Edit", "Similarity", "Base", "59.77", "64.17", "64.83", "64.63", "66.93", "65.03", "58.89", "63.42", "67.32", "63.89", "Base+F", "38.22", "44.51", "46.78", "45.63", "50.46", "46.56", "36.28", "45.13", "50.69", "44.92", "(↑", "6.9%)", "Base+F+C", "47.58", "51.79", "56.51", "56.09", "60.41", "57.69", "46.07", "56.96", "61.18", "54.92", "(↑", "30.7%)", "Base+F+S", "46.76", "53.58", "55.35", "53.26", "65.74", "64.99", "43.82", "54.26", "60.68", "55.38", "(↑", "31.8%)", "Base+F+I", "54.58", "62.57", "64.27", "62.67", "65.74", "64.57", "53.12", "62.27", "67.52", "61.92", "(↑", "47.3%)", "Base+F+C+I", "60.65", "66.74", "69.89", "68.02", "70.83", "69.87", "59.79", "68.27", "72.92", "67.44", "(↑", "60.4%)", "Base+F+C+I+S", "67.38", "73.03", "73.69", "72.92", "76.39", "75.89", "65.38", "75.35", "79.42", "73.27", "(↑", "74.3%)", "API", "Usage", "Accuracy", "Base", "35.53", "42.22", "43.22", "42.95", "46.85", "43.99", "34.13", "42.15", "47.71", "42.08", "Base+F+C", "34.90", "40.09", "41.96", "41.30", "45.41", "41.73", "33.05", "42.51", "46.03", "40.77", "(↑", "34.0%)", "Base+F+S", "36.11", "41.75", "43.75", "41.37", "45.89", "45.12", "33.25", "42.83", "48.56", "42.07", "(↑", "38.2%)", "Base+F+I", "38.36", "44.21", "48.08", "45.76", "49.12", "47.31", "37.51", "46.07", "50.82", "45.25", "(↑", "48.7%)", "Base+F+C+I", "43.45", "49.39", "52.98", "50.40", "53.40", "51.95", "43.22", "51.15", "55.64", "50.17", "(↑", "64.9%)", "Base+F+C+I+S", "52.15", "58.03", "58.68", "56.62", "59.88", "59.33", "49.42", "59.94", "64.08", "57.57", "(↑", "89.2%)", "Base", "25.22", "30.49", "31.79", "30.84", "34.54", "31.52", "23.64", "30.62", "35.22", "30.43", "Base+F", "27.82", "32.62", "34.71", "33.18", "37.65", "34.04", "25.77", "33.39", "38.49", "33.07", "(↑", "8.7%)", "Method", "SC-3B", "SC-7B", "SC-15B", "CL-7B", "CL-13B", "CL-34B", "DSC-1.3B", "DSC-6.7B", "DSC-33B", "Avg", "Improve", "Exact", "Match"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 269.76,
+    "y2": 549.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695004-Table2-1.png"
+}]

@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 5: Distributions of the datasets’ text diff sizes.",
+  "captionBoundary": {
+    "x1": 67.7509994506836,
+    "x2": 280.0837707519531,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["siz", "e", "Di", "ff", "10000", "1000", "50", "100", "5", "10", "BIP", "D4J", "GHJ", "GHP", "1"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 69.12,
+    "x2": 279.36,
+    "y1": 537.6,
+    "y2": 680.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure5-1.png"
+}, {
+  "caption": "Figure 1: A samplemodificationwith its ideal visual syntactic diff.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0345764160156,
+    "y1": 506.9833679199219,
+    "y2": 523.572998046875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Modified", "file", "5", "p", "r", "i", "n", "t", "(", "\"modified\"", ")", ";", "6", "}", "7", "}", "1", "p", "u", "b", "l", "i", "c", "c", "l", "a", "s", "s", "Foo", "{", "2", "p", "u", "b", "l", "i", "c", "vo", "id", "foo", "(", ")", "{", "3", "p", "r", "i", "n", "t", "(", "\"", "unchanged", "\"", ")", ";", "4", "p", "r", "i", "n", "t", "(", "\"", "unchanged", "\"", ")", ";", "(a)", "Original", "file", "6", "}", "7", "}", "5", "p", "r", "i", "n", "t", "(", "\"original\"", ")", ";", "1", "p", "u", "b", "l", "i", "c", "c", "l", "a", "s", "s", "Foo", "{", "2", "p", "u", "b", "l", "i", "c", "vo", "id", "foo", "(", ")", "{", "3", "p", "r", "i", "n", "t", "(", "\"", "unchanged", "\"", ")", ";", "4", "p", "r", "i", "n", "t", "(", "\"", "unchanged", "\"", ")", ";"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 256.8,
+    "y1": 414.24,
+    "y2": 491.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure1-1.png"
+}, {
+  "caption": "Figure 2: AST generated from the modified file of fig. 1. The leaf node with labels are in italics and their types are omitted for the sake of readability. The only modified node is in bold. The nodes found in the top-down matching phase have a green background. The ones found in the bottom-up matching phase have a blue background. Finally, the nodes found during the recovery phases have a yellow background.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7933349609375,
+    "y1": 189.85733032226562,
+    "y2": 261.24102783203125
+  },
+  "figType": "Figure",
+  "imageText": ["class", "print", "modified", "MethodCall", "print", "unchanged", "MethodCall", "print", "unchanged", "MethodCall", "public", "void", "Foo", "Body", "MethDef", "public", "Foo", "Body", "ClassDef"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Distributions of the datasets’ runtimes.",
+  "captionBoundary": {
+    "x1": 340.1210021972656,
+    "x2": 536.028076171875,
+    "y1": 283.54833984375,
+    "y2": 289.1789855957031
+  },
+  "figType": "Figure",
+  "imageText": ["GHP", "hybrid-100", "opt-100", "opt-1000", "simple", "GHJ", "0.01", "0.1", "0.5", "10", "0.0001", "0.001", "hybrid-100", "opt-100", "opt-1000", "simple", "BIP", "D4J", "(s", ")", "im", "e", "Ru", "nt", "0.01", "0.1", "0.5", "10", "0.0001", "0.001"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 86.88,
+    "y2": 264.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure6-1.png"
+}, {
+  "caption": "Table 3: Comparison of the total runtimes (in seconds) for all heuristics and speedup compared to opt-1000.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.3819580078125,
+    "y1": 577.4033203125,
+    "y2": 593.9929809570312
+  },
+  "figType": "Table",
+  "imageText": ["Sp", "ee", "du", "p", "vs", ".o", "pt", "-1", "00", "0", "opt-100", "51.82", "33.10", "45.65", "68.87", "simple", "183.17", "50.50", "281.34", "200.92", "hybrid-100", "50.21", "26.25", "46.09", "57.80", "hybrid-100", "7.31", "7.83", "5.50", "5.86", "Ru", "nt", "im", "e", "(s", "ec", "on", "ds", ")", "opt-1000", "367.26", "205.65", "253.55", "338.69", "opt-100", "7.09", "6.21", "5.55", "4.92", "simple", "2.01", "4.07", "0.90", "1.69", "D4J", "BIP", "GHJ", "GHP"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 543.36,
+    "y1": 608.64,
+    "y2": 707.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Table3-1.png"
+}, {
+  "caption": "Table 2: Ratio of file pairs were the runtime of simple (resp. hybrid-100) is faster (resp. slower) than opt-1000.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.733642578125,
+    "y1": 312.1013488769531,
+    "y2": 328.6910095214844
+  },
+  "figType": "Table",
+  "imageText": ["D4J", "0.94", "0.06", "0.78", "0.22", "BIP", "0.90", "0.10", "0.78", "0.22", "GHJ", "0.93", "0.07", "0.79", "0.21", "GHP", "0.89", "0.11", "0.74", "0.26", "simple", "hybrid-100", "faster", "slower", "faster", "slower"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 357.59999999999997,
+    "x2": 516.0,
+    "y1": 343.68,
+    "y2": 420.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Table2-1.png"
+}, {
+  "caption": "Figure 11: Amissing moves in Apache Commons CLI (GHJ, simple). Inserted (resp. removed) nodes are in green (resp. red). The top (resp. bottom) corresponds to the original (resp. modified) version.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.56622314453125,
+    "y1": 665.5523071289062,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 594.72,
+    "y2": 652.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure11-1.png"
+}, {
+  "caption": "Figure 4: Visual syntactic diff without a recovery phase. Code with delete (resp. insert) actions is highlighted in red (resp. green).",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 295.5692443847656,
+    "y1": 281.4313659667969,
+    "y2": 308.97900390625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Extract", "of", "the", "edit-script", "without", "a", "recovery", "phase", "DELETE", "Mod", "i", "f", "i", "e", "r", ":", "p", "u", "b", "l", "i", "c", "[", "1", ",", "0", "]", "DELETE", "Typ", "eQua", "l", "i", "f", "i", "e", "r", ":", "c", "l", "a", "s", "s", "[", "1", ",", "7", "]", "DELETE", "I", "d", "e", "n", "t", "i", "f", "i", "e", "r", ":", "Foo", "[", "1", ",", "7", "]", "DELETE", ".", ".", ".", "INSERT", "Mod", "i", "f", "i", "e", "r", ":", "p", "u", "b", "l", "i", "c", "[", "1", ",", "0", "]", "AT", "Cla", "s", "sDe", "f", ".", ".", ".", "INSERT", "Typ", "eQua", "l", "i", "f", "i", "e", "r", ":", "c", "l", "a", "s", "s", "[", "1", ",", "7", "]", "AT", "Cla", "s", "sDe", "f", ".", ".", ".", "INSERT", "I", "d", "e", "n", "t", "i", "f", "i", "e", "r", ":", "Foo", "[", "1", ",", "11", "]", "AT", "Cla", "s", "sDe", "f", ".", ".", ".", "INSERT", ".", ".", "."],
+  "name": "4",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 184.79999999999998,
+    "y2": 265.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure4-1.png"
+}, {
+  "caption": "Table 1: Execution of GumTree on Defects4J [22] using different max_size thresholds. recovery applied (resp. aborted) is the number of times the recovery phase is executed (resp. aborted). median size is the median size of edit-scripts while time os the total time required to process the dataset.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8087768554688,
+    "y1": 85.72634887695312,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["100", "3062", "3430", "33", "6897", "500", "4758", "1728", "28", "58803", "1000", "(default)", "5228", "1258", "26", "187699", "1500", "5453", "1032", "25", "391652", "recovery", "max_size", "applied", "aborted", "median", "size", "time", "(ms)"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 149.76,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Table1-1.png"
+}, {
+  "caption": "Table 4: Ratio of file pairswhere the edit-script sizes of simple (resp. hybrid-100) is smaller, same or bigger than opt-1000.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2008056640625,
+    "y1": 599.7192993164062,
+    "y2": 616.3090209960938
+  },
+  "figType": "Table",
+  "imageText": ["D4J", "0.73", "0.22", "0.05", "0.65", "0.23", "0.12", "BIP", "0.74", "0.21", "0.05", "0.67", "0.25", "0.09", "GHJ", "0.37", "0.50", "0.14", "0.28", "0.51", "0.21", "GHP", "0.41", "0.51", "0.07", "0.33", "0.51", "0.16", "simple", "hybrid-100", "smaller", "same", "bigger", "smaller", "same", "bigger"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 630.72,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Table4-1.png"
+}, {
+  "caption": "Figure 8: Distribution of the datasets’ number of move and update actions.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1892700195312,
+    "y1": 288.193359375,
+    "y2": 304.7829895019531
+  },
+  "figType": "Figure",
+  "imageText": ["GHP", "hybrid-100", "opt-100", "opt-1000", "simple", "1000", "GHJ", "50", "100", "10", "1", "5", "hybrid-100", "opt-100", "opt-1000", "simple", "BIP", "D4J", "io", "ns", "a", "ct", "da", "te", "d", "up", "e", "an", "f", "m", "ov", "be", "r", "o", "Nu", "m", "1000", "50", "100", "10", "1", "5"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 86.88,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Distributions of the datasets’ edit-scripts sizes.",
+  "captionBoundary": {
+    "x1": 61.0890007019043,
+    "x2": 286.7452697753906,
+    "y1": 288.193359375,
+    "y2": 293.8240051269531
+  },
+  "figType": "Figure",
+  "imageText": ["GHP", "hybrid-100", "opt-100", "opt-1000", "simple", "GHJ", "1000", "50", "100", "1", "510", "hybrid-100", "opt-100", "opt-1000", "simple", "BIP", "D4J", "t", "s", "ize", "sc", "rip", "Ed", "it-", "1000", "50", "100", "1", "510"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 86.88,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure7-1.png"
+}, {
+  "caption": "Table 5: Manual comparison of the edit-script quality between opt-1000 and simple.",
+  "captionBoundary": {
+    "x1": 53.502201080322266,
+    "x2": 295.6427917480469,
+    "y1": 588.7603149414062,
+    "y2": 605.3499755859375
+  },
+  "figType": "Table",
+  "imageText": ["BIP", "23", "1", "1", "24", "1", "0", "D4J", "22", "3", "0", "23", "1", "1", "GHJ", "20", "2", "3", "22", "1", "2", "GHP", "18", "4", "3", "22", "0", "3", "total", "83", "10", "7", "91", "3", "6", "authors", "participants", "better", "mixed", "worse", "better", "mixed", "worse"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 283.2,
+    "y1": 619.68,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Table5-1.png"
+}, {
+  "caption": "Figure 9: A spurious insert-deletes in JFreeChart (D4J, opt-1000). Inserted (resp. removed) nodes are in green (resp. red). The top (resp. bottom) corresponds to the original (resp. modified) version.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7242431640625,
+    "y1": 190.02035522460938,
+    "y2": 228.52801513671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure9-1.png"
+}, {
+  "caption": "Figure 10: An aggressive recovery in JabRef (GHJ, opt-1000). Inserted (resp deleted, updated andmoved) nodes are in green (resp. red, orange, and violet). The top (resp. bottom) corresponds to the original (resp. modified) version.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 559.7973022460938,
+    "y1": 396.6173400878906,
+    "y2": 435.125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 247.67999999999998,
+    "y2": 383.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639148-Figure10-1.png"
+}]

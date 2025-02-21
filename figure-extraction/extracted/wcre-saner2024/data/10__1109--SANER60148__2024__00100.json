@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 1: TLS 1.2 message flows of a full handshake. The left side is the Client, and the right side is the Server.",
+  "captionBoundary": {
+    "x1": 315.1144104003906,
+    "x2": 544.5602416992188,
+    "y1": 211.984375,
+    "y2": 227.1988525390625
+  },
+  "figType": "Figure",
+  "imageText": ["APP", "HS4", "HS3", "HS2", "HS1", "Application", "Data", "Application", "Data", "Finished", "[ChangeCipherSpec]", "Finished", "ClientKeyExchange", "CertificateVerify*", "[ChangeCipherSpec]", "Certificate*", "ServerHelloDone", "ServerKeyExchange*", "CertificateRequest*", "ServerHello", "Certificate*", "CientHello"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 527.04,
+    "y1": 72.96,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-Figure1-1.png"
+}, {
+  "caption": "TABLE III: Experimental statistics on protocol states. HS2 and HS4 are not in the table because we have only implemented server-side testing so far.",
+  "captionBoundary": {
+    "x1": 314.47467041015625,
+    "x2": 543.9295043945312,
+    "y1": 75.28826904296875,
+    "y2": 101.42877197265625
+  },
+  "figType": "Table",
+  "imageText": ["1", "74,593", "71.89", "21.49", "5.82", "0.80", "2", "232,202", "94.52", "4.32", "1.00", "0.15", "3", "15,950", "50.49", "37.74", "10.17", "1.60", "4", "76,238", "48.23", "39.46", "10.89", "1.41", "5", "81,729", "71.06", "22.21", "5.95", "0.78", "6", "84,822", "62.09", "32.15", "4.70", "1.06", "7", "98,758", "69.15", "23.90", "6.03", "0.91", "8", "54,741", "35.38", "29.45", "33.52", "1.66", "9", "85,440", "54.68", "35.13", "8.97", "1.22", "10", "87,371", "84.83", "11.75", "2.96", "0.46", "11", "69,968", "73.15", "20.65", "5.50", "0.69", "12", "70,496", "90.13", "6.97", "2.66", "0.24", "13", "68,098", "71.60", "22.30", "5.29", "0.82", "GP", "Total", "Percentage", "of", "Test", "Message", "HS1", "HS3", "APP", "HBT"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 516.0,
+    "y1": 109.92,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-TableIII-1.png"
+}, {
+  "caption": "TABLE II: Experimental grouping.",
+  "captionBoundary": {
+    "x1": 115.83090209960938,
+    "x2": 246.68801879882812,
+    "y1": 74.91656494140625,
+    "y2": 79.20501708984375
+  },
+  "figType": "Table",
+  "imageText": ["GP", "TLS", "Libraries", "1", "openssl-3.0.2", "openssl-1.1.1i", "openssl-1.0.1a", "2", "matrixssl-4.5.1", "matrixssl-4.3.0", "matrixssl-4.0.0", "3", "wolfssl-5.5.1", "wolfssl-4.2.0", "wolfssl-3.15.5", "4", "gnutls-3.6.12", "gnutls-3.6.4", "gnutls-3.5.18", "5", "mbedtls-3.2.1", "mbedtls-2.28.0", "mbedtls-2.25.0", "6", "boringssl-3945", "boringssl-3071", "boringssl-2883", "7", "libressl-3.6.0", "libressl-3.2.6", "libressl-2.9.0", "8", "botan-2.19.2", "botan-2.18.2", "botan-2.12.0", "9", "tlslite-ng-0.7.6", "tlslite-ng-0.7.5", "tlslite-ng-0.7.0", "10", "openssl-3.0.2", "boringssl-3945", "libressl-3.6.0", "11", "openssl-3.0.2", "mbedtls-3.6.1", "gnutls-3.6.12", "12", "openssl-3.0.2", "matrixssl-4.5.1", "wolfssl-5.5.1", "13", "openssl-3.0.2", "botan-2.19.2", "tlslite-ng-0.7.6"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 282.24,
+    "y1": 87.84,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-TableII-1.png"
+}, {
+  "caption": "TABLE VIII: General issues.",
+  "captionBoundary": {
+    "x1": 253.95140075683594,
+    "x2": 363.04742431640625,
+    "y1": 74.93023681640625,
+    "y2": 79.21868896484375
+  },
+  "figType": "Table",
+  "imageText": ["2", "Random", "Lack", "of", "randomness", "detection", "for", "Random", "ﬁeld", "in", "ClientHello.", "3", "Payload", "Lack", "of", "randomness", "detection", "for", "IV", "in", "encryption", "messages.", "4", "Payload", "Lack", "of", "randomness", "detection", "for", "PreMasterSecret", "in", "decrypted", "ClientKeyExchange.", "No.", "Tuple", "Issue", "Description", "Logic", "tls-diff", "1", "Payload", "Lack", "of", "detection", "for", "padding", "extension", "in", "ClientHello,", "may", "be", "used", "as", "convert", "channel."],
+  "name": "VIII",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 544.3199999999999,
+    "y1": 87.84,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-TableVIII-1.png"
+}, {
+  "caption": "Fig. 2: TLS-DeepDiffer framework.",
+  "captionBoundary": {
+    "x1": 232.41709899902344,
+    "x2": 365.8325500488281,
+    "y1": 261.03143310546875,
+    "y2": 265.31988525390625
+  },
+  "figType": "Figure",
+  "imageText": ["Responses", "Refined", "Responses", "Test", "Cases", "Original", "3", "OpenSSL", "BoringSSL", "LibreSSL", "MatrixSSL", "wolfSSL", "mbedTLS", "GnuTLS", "Botan", "tlslite-ng", "Message", "Tuples", "Mutation", "Strategies", "Stage", "2", "Stage", "1", "Config", "Files", "4", "4", "3", "1", "2", "Descriptions", "Fields", "Field", "Message", "Structs", "&", "Enums", "Blocks", "Document", "RFCs", "Results", "Tuple", "Analysis", "Focused", "Analysis", "Statistical", "Screening", "Message", "Tuple", "and", "Mutation", "Strategy", "Definition", "Module", "TLS", "Deep", "Differential", "Fuzzing", "Loop", "Module", "Tuple", "analysis", "results", "feedback", "to", "guide", "the", "definition", "of", "mutation", "strategies.", "Module", "Differential", "Response", "Classification", "Analysis", "Files", "Test", "Record", "Message", "Tuple", "Encapsulation", "State", "Guidance", "Consistency", "RedefinitionMessage", "Encapsulation", "Response", "Analysis", "Decrypt", "+", "Refine", "TCPSockets"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 120.96,
+    "x2": 477.12,
+    "y1": 72.96,
+    "y2": 250.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-Figure2-1.png"
+}, {
+  "caption": "TABLE V: Code coverage rate for lines, functions, and branches. Subject represents the version of OpenSSL. Improvement indicates the percentage improvement of TLSDeepDiffer to SGFuzz.",
+  "captionBoundary": {
+    "x1": 314.09698486328125,
+    "x2": 543.5521240234375,
+    "y1": 74.93023681640625,
+    "y2": 111.99676513671875
+  },
+  "figType": "Table",
+  "imageText": ["Listing", "1:", "MatrixSSL", "session", "resumption", "vulnerability.", "sessionIdLen,", "SSL_MAX_SESSION_ID_SIZE))", "!=", "0)", "||", "...)", "10", "return", "PS_FAILURE;", "11", "...", "12", "//", "the", "masterSecret", "in", "the", "list", "may", "be", "empty", "13", "Memcpy(ssl->sec.masterSecret,", "g_sessionTable[i].", "masterSecret,", "SSL_HS_MASTER_SIZE);", "14", "...", "15", "}", "1", "int32", "matrixResumeSession(ssl_t", "*ssl)", "{", "2", "...", "3", "unsigned", "char", "*id", "=", "ssl->sessionId;", "4", "i", "=", "(id[3]<<24)", "+", "(id[2]<<16)", "+", "(id[1]<<8)", "+", "id[0];", "5", "if", "(i", ">=", "SSL_SESSION_TABLE_SIZE", "||", "...)", "6", "return", "PS_LIMIT_FAIL;", "7", "...", "8", "//", "potential", "vulnerability", "9", "if", "((Memcmp(g_sessionTable[i].id,", "id,", "(uint32)min(ssl->", "Line", "1.0.1a", "12.31", "13.07", "14.96", "14.46%", "1.1.1i", "9.73", "11.61", "12.75", "9.82%", "3.0.2", "11.24", "12.87", "13.83", "7.46%", "Function", "1.0.1a", "17.59", "18.73", "20.11", "7.37%", "1.1.1i", "16.58", "18.44", "19.42", "5.31%", "3.0.2", "17.64", "19.03", "19.88", "4.47%", "Branch", "1.0.1a", "8.47", "9.07", "10.52", "15.99%", "1.1.1i", "7.45", "8.92", "9.75", "9.30%", "3.0.2", "8.04", "9.24", "9.93", "7.45%", "Criteria", "Subject", "tls-diff", "SGFuzz", "Our", "Improvement"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.44,
+    "x2": 556.3199999999999,
+    "y1": 120.0,
+    "y2": 363.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-TableV-1.png"
+}, {
+  "caption": "Fig. 3: TLS key generation logic. For client-side fuzzer, server_random comes from the 32-byte random message field Random in the ServerHello message on the server side.",
+  "captionBoundary": {
+    "x1": 315.0541076660156,
+    "x2": 544.509033203125,
+    "y1": 196.69036865234375,
+    "y2": 222.83087158203125
+  },
+  "figType": "Figure",
+  "imageText": ["final_keys", "&", "iv", "partitioned", "by", "key_block", "key_block", "master_secret", "server_random", "+", "client_random)", "PRF(master_secret,", "\"key", "expansion\",", "key_block", "=", "client_random", "+", "server_random)", "PRF(pre_master_secret,", "\"master", "secret\",", "master_secret", "=", "pre_master_secret", "random", "value", "generated", "by", "client"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 527.04,
+    "y1": 72.96,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-Figure3-1.png"
+}, {
+  "caption": "TABLE VII: Implementation defects. The Report indicates the GitHub issue numbers assigned in the corresponding repositories. For issues detected only in lower versions, we assume that they have been fixed in higher versions and do not report them. The Accept indicates we have received a confirmation response for this issue from the developers.",
+  "captionBoundary": {
+    "x1": 67.62640380859375,
+    "x2": 537.4503173828125,
+    "y1": 170.07850646972656,
+    "y2": 192.146240234375
+  },
+  "figType": "Table",
+  "imageText": ["2", "Version", "tlslite-ng", "No", "check", "for", "HS3", "and", "APP", "Record", "Version", "ﬁeld.", "Issue", "490", "risk-free", "3", "Version", "boringssl†", "Only", "check", "the", "high", "byte", "of", "APP", "Record", "Version", "ﬁeld.", "4", "SessionID", "tlslite-ng", "Lack", "of", "extra-length", "detection", "for", "SessionID", "in", "ClientHello.", "Issue", "489", "5", "SessionID", "libressl†", "Lack", "of", "extra-length", "detection", "for", "SessionID", "in", "ClientHello.", "6", "SessionID", "openssl†", "Lack", "of", "extra-length", "detection", "for", "SessionID", "in", "ClientHello.", "7", "SessionID", "wolfssl", "Only", "single", "length", "32", "is", "supported.", "Issue", "6408", "8", "Payload", "gnutls", "No", "detection", "for", "the", "payload", "value", "of", "ChangeCipherSpec.", "Issue", "1439", "9", "Payload", "wolfssl†", "No", "detection", "for", "the", "payload", "value", "of", "ChangeCipherSpec.", "10", "CompressionMethods", "mbedtls", "Lack", "of", "value", "detection", "and", "support", "upper", "limit", "of", "16.", "Issue", "6749", "11", "List", "matrixssl", "No", "detection", "for", "duplicate", "extensions", "in", "ClientHello.", "Issue", "46", "12", "List", "wolfssl", "No", "detection", "for", "duplicate", "extensions", "in", "ClientHello.", "Issue", "5863", "13", "List", "mbedtls", "No", "detection", "for", "duplicate", "extensions", "in", "ClientHello.", "Issue", "6748", "14", "List", "openssl†", "No", "detection", "for", "duplicate", "extensions", "in", "ClientHello.", "15", "List", "gnutls†", "No", "detection", "for", "duplicate", "extensions", "in", "ClientHello.", "16", "List", "wolfssl", "Support", "upper", "limit", "of", "150", "for", "Cipher", "Suites", "in", "ClientHello.", "Issue", "6408", "risk-free", "17", "List", "matrixssl", "Support", "upper", "limit", "of", "32", "for", "supported_groups", "extension.", "Issue", "51", "18", "List", "matrixssl", "Support", "upper", "limit", "of", "64", "for", "signature_algorithms", "extension.", "Issue", "51", "19", "List", "matrixssl", "Support", "upper", "limit", "of", "16", "for", "supported_versions", "extension.", "Issue", "51", "20", "List", "libressl†", "Support", "upper", "limit", "of", "32", "for", "signature_algorithms", "extension.", "No.", "Tuple", "Library", "Issue", "Description", "Logic", "tls-diff", "Report", "Accept", "1", "Version", "openssl†", "APP", "Record", "Version", "ﬁeld", "downgrade", "check", "issue."],
+  "name": "VII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 538.0799999999999,
+    "y1": 199.68,
+    "y2": 418.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-TableVII-1.png"
+}, {
+  "caption": "TABLE VI: Exploitable CVE vulnerabilities. TLS-DeepDiffer newly discovers CVE-2022-46505. † indicates that only lower versions of the test implementations have such issues and the same meaning in the next tables.",
+  "captionBoundary": {
+    "x1": 67.62640380859375,
+    "x2": 537.4418334960938,
+    "y1": 74.87500762939453,
+    "y2": 87.83868408203125
+  },
+  "figType": "Table",
+  "imageText": ["3", "CVE-2014-0198", "Payload", "openssl†", "Crash", "triggered", "by", "null", "pointer", "reference.", "crash", "4", "CVE-2018-1000159", "Padding", "tlslite-ng†", "Improper", "integrity", "check", "value", "validation.", "5", "CVE-2022-46505", "SessionID", "matrixssl", "Empty", "master", "secret", "usage", "in", "session", "resumption.", "No.", "CVE", "ID", "Tuple", "Library", "Vulnerability", "Description", "Logic", "tls-diff", "SGFuzz", "1", "CVE-2014-0160", "Length", "openssl†", "Heartbleed,", "memory", "sensitive", "data", "leakage.", "memory", "2", "CVE-2014-0224", "MessageSequence", "openssl†", "EarlyCCS,", "weak", "secret", "usage."],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 538.0799999999999,
+    "y1": 96.0,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-TableVI-1.png"
+}, {
+  "caption": "TABLE I: TLS-DeepDiffer message tuples, mutation types, and corresponding encoding (displayed in brackets).",
+  "captionBoundary": {
+    "x1": 90.90360260009766,
+    "x2": 511.58160400390625,
+    "y1": 74.93023681640625,
+    "y2": 79.21868896484375
+  },
+  "figType": "Table",
+  "imageText": ["[0]", "ZeroPadding", "[1]", "RandomPadding", "[2]", "OtherFixPadding", "[3]", "LongerPadding", "CBC", "padding", "ﬁelds", "are", "all", "ﬁlled", "with", "0x00.", "CBC", "padding", "ﬁelds", "are", "ﬁlled", "with", "random", "content.", "CBC", "padding", "ﬁelds", "are", "ﬁlled", "with", "other", "ﬁxed", "content.", "CBC", "padding", "ﬁelds", "are", "ﬁlled", "with", "longer", "normal", "padding.", "[b]", "Padding", "List", "that", "provides", "options", "mutates", "to", "null.", "List", "that", "provides", "options", "mutates", "to", "a", "small", "number", "of", "options.", "List", "that", "provides", "options", "mutates", "to", "a", "large", "number", "of", "options.", "List", "that", "provides", "options", "mutate", "to", "repeatable", "options.", "List", "that", "provides", "options", "mutate", "to", "all", "undeﬁned", "options.", "List", "that", "provides", "options", "mutate", "to", "all", "low", "priority", "options.", "[0]", "Null", "[1]", "SmallNums", "[2]", "LargeNums", "[3]", "AllowRepeat", "[4]", "AllUndeﬁned", "[5]", "AllLowPriority", "[a]", "List", "List", "selection", "type", "ﬁeld", "sorting", "has", "not", "changed.", "List", "selection", "type", "ﬁeld", "sort", "reverse", "order.", "List", "selection", "type", "ﬁelds", "are", "sorted", "in", "positive", "order", "of", "value.", "List", "selection", "type", "ﬁelds", "are", "sorted", "in", "negative", "order", "of", "value.", "List", "selection", "type", "ﬁelds", "are", "randomly", "shufﬂed", "in", "order.", "[0]", "Unchange", "[1]", "Reverse", "[2]", "Sort", "[3]", "Rsort", "[4]", "Random", "[9]", "Priority", "The", "server_name", "extension", "is", "assigned", "a", "random", "value.", "No-payload", "extension", "mutates", "to", "a", "non-empty", "random", "value.", "The", "padding", "extension", "moves", "forward.", "[8]", "Extensions", "[0]", "SnmRadom", "[1]", "DefaultNonNull", "[2]", "PaddingForward", "Payload", "content", "mutates", "to", "a", "non-empty", "single", "byte", "random", "value.", "Payload", "content", "mutates", "to", "a", "non-empty", "multi-byte", "random", "value.", "[7]", "CompressionMethods", "[0]", "Single", "[1]", "Multiple", "[0]", "RandomToFix00", "[1]", "RandomToFixFF", "[2]", "RandomToFixXX", "[3]", "FixToOtherFix", "[4]", "FixToRandom", "Random", "payload", "content", "mutates", "to", "all", "0x00.", "Random", "payload", "content", "mutates", "to", "all", "0xFF.", "Random", "payload", "content", "mutates", "to", "other", "random", "ﬁxed", "value.", "Fixed", "payload", "mutates", "to", "other", "ﬁxed", "value.", "Fixed", "payload", "mutates", "to", "random.", "[6]", "Payload", "[1]", "Type", "[0]", "Random", "Mutates", "the", "speciﬁed", "byte", "content", "to", "a", "random", "byte", "content.", "[2]", "Length", "[0]", "Longer", "[1]", "Shorter", "Indicating", "length", "value", "mutates", "to", "longer.", "Indicating", "length", "value", "mutates", "to", "shorter.", "[3]", "Version", "[0]", "Upgrade", "[1]", "Downgrade", "[2]", "Random", "Protocol", "version", "upgrade.", "Protocol", "version", "downgrade.", "Protocol", "version", "mutates", "to", "a", "random", "value.", "[4]", "Random", "[0]", "All_00", "[1]", "All_FF", "Random", "value", "ﬁeld", "mutates", "to", "all", "0x00.", "Random", "value", "ﬁeld", "mutates", "to", "all", "0xFF.", "[5]", "SessionID", "[0]", "SmallRange", "[1]", "LargeRange", "SessionID", "ﬁeld", "length", "reduced", "to", "[1-31]].", "SessionID", "ﬁeld", "length", "expanded", "to", "[33-255].", "Message", "sequence", "mutates", "to", "reverse", "order.", "Message", "sequence", "mutates", "to", "random", "order.", "Randomly", "delete", "a", "message", "from", "the", "message", "sequence.", "Randomly", "duplicate", "a", "message", "in", "the", "message", "sequence.", "[0]", "Reverse", "[1]", "Random", "[2]", "Delete", "[3]", "Duplicate", "[0]MessageSequence", "Message", "Tuple", "Mutation", "Type", "Mutation", "Type", "Description"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 511.2,
+    "y1": 87.84,
+    "y2": 458.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00100-TableI-1.png"
+}]

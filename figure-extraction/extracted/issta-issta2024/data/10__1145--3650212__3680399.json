@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: Working Example.",
+  "captionBoundary": {
+    "x1": 249.4040069580078,
+    "x2": 362.5957946777344,
+    "y1": 325.6300964355469,
+    "y2": 329.92498779296875
+  },
+  "figType": "Figure",
+  "imageText": ["N2", "Identified", "N1", "Identified", "6", "1", "⑥", "6", "1", "add_confirmation.py", "①", "Calico", "Exist", "Object", "DoesNot", "The", "overlooked", "N2", "led", "to", "this", "issue.", "Validation", "Error", "Can", "LLM", "complete", "the", "task", "after", "calibrating", "the", "knowledge?", "Does", "the", "LLM", "really", "understand", "the", "code?", "Why", "was", "the", "code", "completed", "incorrectly?", "N1", "+", "N2", "N2", "N1", "Pruned", "1:", "#", "CALICO", "NOTE:", "an", "import", "below", "2:", "from", "django.core.exceptions", "import", "ObjectDoesNotExist", "…", "7:", "#", "CALICO", "NOTE:", "a", "comment", "below", "8:", "persons_tasks[k]['errors']", "=", "None", "#", "reset", "here", "1:", "#", "CALICO", "NOTE:", "an", "import", "below", "2:", "from", "django.core.exceptions", "import", "ObjectDoesNotExist", "6:", "#", "CALICO", "NOTE:", "a", "comment", "below", "7:", "persons_tasks[k]['errors']", "=", "None", "#", "reset", "here", "S2S", "Transformation", "Basic", "Structure", "#import?", "#comment?", "…", "Control", "Flow", "#if?", "#for?", "#try?", "…", "Variable", "Name?", "…", "Query", "Generator", "Parser", "What", "exception", "should", "replace", "the", "placeholder", "\"__HOLE__\"?", "Code", "Completion", "ValidationError", "1:", "from", "django.core.exceptio", "ns", "import", "ObjectDoesNotExist", "2:", "3:", "@login_required", "4:", "@permission_required", "5:", "def", "add_conf(request):", "6:", "persons_tasks[k]['er", "rors']", "=", "None", "#", "reset", "here", "7:", "...", "8:", "try:", "9:", "...", "10:", "except", "(IntegrityError,", "__HOLE__,", "InternalError)", "as", "e:", "11:", "...", "N2:", "import", "Position:", "Line", "1;", "column", "1-54", "Content:", "from", "django.core.exceptions", "import", "ObjectDoesNotExist", "N1:", "comment", "Position:", "Line", "6;", "column", "48-60", "Content:", "#", "reset", "here", "Overlooked", "Knowledge"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Figure1-1.png"
+}, {
+  "caption": "Table 1: Subject Programs.",
+  "captionBoundary": {
+    "x1": 252.65000915527344,
+    "x2": 359.05401611328125,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "8938", "PR1", "Bugs2Fix", "[60]", "Java", "Re", "ne", "the", "code", "by", "xing", "bugs", "1072", "PR2", "ETHPy150Open", "[30]", "Python", "Fix", "the", "bugs", "where", "some", "variables", "are", "misused", "as", "another", "1223", "Program", "Repair", "Code", "Summarization", "CS1", "CodeSearchNet", "[28]", "Java", "Given", "a", "code,", "generate", "its", "natural", "language", "docstring", "1277", "CS2", "CodeSearchNet", "[28]", "JavaScript", "Given", "a", "code,", "generate", "its", "natural", "language", "docstring", "1031", "CS3", "ETHPy150Open", "[30]", "Python", "Given", "a", "function,", "generate", "its", "natural", "language", "docstring", "410", "BD1", "Devign", "[77]", "C", "Identify", "if", "a", "function", "is", "vulnerable", "1231", "BD2", "InferredBugs", "[29]", "Java", "Identify", "if", "a", "method", "is", "buggy", "1004", "BD3", "ETHPy150Open", "[30]", "Python", "Identify", "if", "a", "binary", "operator", "is", "wrongly", "used", "as", "another", "1690", "Bug", "Detection", "Task", "ID", "Dataset", "Language", "Description", "#", "of", "Programs"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 539.04,
+    "y1": 97.92,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Table1-1.png"
+}, {
+  "caption": "Table 4: Calico Average Latency.",
+  "captionBoundary": {
+    "x1": 108.49800109863281,
+    "x2": 239.0498809814453,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Bug", "Detection", "3.7s", "26.6s", "30.3s", "Code", "Summarization", "1.8s", "9.7s", "11.5s", "Program", "Repair", "0.6s", "4.9s", "5.5s", "Task", "Screening", "Calibration", "Total"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 96.96,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Table4-1.png"
+}, {
+  "caption": "Figure 4: ChatGPT’s Code Comprehension for C, Java, JavaScript, and Python Programs.",
+  "captionBoundary": {
+    "x1": 127.62301635742188,
+    "x2": 484.37744140625,
+    "y1": 189.45008850097656,
+    "y2": 193.7449951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Python", "Programs.", "100%", "60%", "80%", "Expression", "20%", "40%", "Control", "FlowVariable", "and", "Type", "API", "Call", "Basic", "Structure", "(c)", "JavaScript", "Programs.", "100%", "60%", "80%", "Expression", "20%", "40%", "Control", "FlowVariable", "and", "Type", "API", "Call", "Basic", "Structure", "(b)", "Java", "Programs.", "100%", "60%", "80%", "Expression", "20%", "40%", "Control", "FlowVariable", "and", "Type", "API", "Call", "Basic", "Structure", "(a)", "C", "Programs.", "100%", "60%", "80%", "Expression", "20%", "40%", "Control", "FlowVariable", "and", "Type", "API", "Call", "Basic", "Structure"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 550.0799999999999,
+    "y1": 84.47999999999999,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Calico Overview.",
+  "captionBoundary": {
+    "x1": 120.7770004272461,
+    "x2": 227.06629943847656,
+    "y1": 302.2201232910156,
+    "y2": 306.5150146484375
+  },
+  "figType": "Figure",
+  "imageText": ["</>", "code", "3", "Result:", "Traditional", "Workflow", "(2)", "In-context", "Learning", "with", "Examples", "Calico", "Workflow", "AST", "ParserLLM", "(1)", "Fine-tuning", "Pre-trained", "LLMs", "Few-shot", "Prompt", "buggy", "</>", "code", "example", "1", "Result:", "buggy", "</>", "code", "example", "2", "Result:", "not", "buggy", "Fine-tuned", "LLM", "Task-specific", "Data", "Pre-trained", "LLM", "General", "Data", "What-if", "Analysis", "AI", "Mastery", "Screening", "Knowledge", "Calibration", "S2S", "Transformation", "Result", "Comparator", "Query", "Generator", "Code", "Deficiency", "Diagnosis"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Bene ts of Knowledge Calibration.",
+  "captionBoundary": {
+    "x1": 216.23800659179688,
+    "x2": 395.7627868652344,
+    "y1": 228.9171905517578,
+    "y2": 233.21209716796875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "CodeBLEU", "Bene", "ts", "for", "Program", "Repair.", "VanillaGPT", "Calico", "PR1", "PR2", "0.25", "0.20", "0.15", "0.10", "0.05", "0.00", "(b)", "BLEU", "Bene", "ts", "for", "Code", "Summarization.", "VanillaGPT", "Calico", "CS1", "CS2", "CS3", "0.25", "0.20", "0.15", "0.10", "0.05", "0.00", "(a)", "Acccuracy", "Bene", "ts", "for", "Bug", "Detection.", "VanillaGPT", "Calico", "BD1", "BD2", "BD3", "0.80", "0.64", "0.48", "0.32", "0.16", "0.00"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 59.04,
+    "x2": 552.48,
+    "y1": 95.52,
+    "y2": 215.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Figure5-1.png"
+}, {
+  "caption": "Table 3: Calico vs. Fine-tuned LLMs.",
+  "captionBoundary": {
+    "x1": 364.7690124511719,
+    "x2": 511.0927734375,
+    "y1": 421.33612060546875,
+    "y2": 425.6310119628906
+  },
+  "figType": "Table",
+  "imageText": ["PR2", "N/A", "0.235", "0.226", "CodeBLEU", "PR1", "N/A", "0.241", "0.247", "CS3", "N/A", "0.239", "0.226", "CS1", "N/A", "0.313", "0.219", "BLEU", "CS2", "N/A", "0.341", "0.239", "Accuracy", "BD2", "0.712", "N/A", "0.682", "BD3", "0.749", "N/A", "0.722", "BD1", "0.527", "N/A", "0.656", "Metric", "Dataset", "CoTexT", "CodeT5", "Calico", "SOTA"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 431.52,
+    "y2": 561.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Table3-1.png"
+}, {
+  "caption": "Table 2: Bene ts of De ciency Diagnosis. Calico-ND stands for Calico-NoDiagnosis.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2021484375,
+    "y1": 254.82008361816406,
+    "y2": 270.073974609375
+  },
+  "figType": "Table",
+  "imageText": ["PR1", "17", "23", "22", "4.54%", "PR2", "13", "17", "15", "13.33%", "CS1", "87", "102", "96", "6.25%", "CS2", "25", "31", "27", "14.81%", "CS3", "48", "57", "53", "7.55%", "BD1", "239", "267", "259", "3.00%", "BD2", "366", "436", "417", "4.56%", "BD3", "19", "26", "23", "13.04%", "Dataset", "Original", "Calico-ND", "Calico", "Rate", "Average", "Size", "(LOC)", "Reduction"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 276.0,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Table2-1.png"
+}, {
+  "caption": "Figure 3: LLM Prompt Example and S2S Transformation.",
+  "captionBoundary": {
+    "x1": 191.41400146484375,
+    "x2": 420.5857849121094,
+    "y1": 328.6981201171875,
+    "y2": 332.9930114746094
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Transformed", "Program", "with", "Overlooked", "Comment", "from", "django.core.exceptions", "import", "ObjectDoesNotExist", "@login_required", "@permission_required('workshops.add_person',", "raise_exception=True)", "def", "person_bulk_add_confirmation(request):", "if", "request.method", "==", "'POST':", "data_update", "=", "zip(personals,", "families,", "usernames,", "emails,", "events,", "roles)", "for", "k,", "record", "in", "enumerate(data_update):", "#", "CALICO", "NOTE:", "a", "comment", "below", "persons_tasks[k]['errors']", "=", "None", "#", "reset", "here", "#", "CALICO", "NOTE:", "an", "import", "below", "from", "django.core.exceptions", "import", "ObjectDoesNotExist", "@login_required", "@permission_required('workshops.add_person',", "raise_exception=True)", "def", "person_bulk_add_confirmation(request):", "if", "request.method", "==", "'POST':", "data_update", "=", "zip(personals,", "families,", "usernames,", "emails,", "events,", "roles)", "for", "k,", "record", "in", "enumerate(data_update):", "persons_tasks[k]['errors']", "=", "None", "#", "reset", "here", "(c)", "Transformed", "Program", "with", "Overlooked", "Library", "Import", "[QUESTION]How", "many", "libraries", "are", "imported", "in", "the", "code?", "Enumerate", "all", "occurrences", "using", "their", "line", "numbers.", "For", "example,", "Line", "1.", "[END", "QUESTION]", "[QUESTION]How", "many", "comments", "are", "there", "in", "the", "code?", "Enumerate", "all", "occurrences", "using", "their", "line", "numbers.", "For", "example,", "Line", "1.", "[END", "QUESTION]", "[SYSTEM", "ROLE]", "You", "will", "be", "given", "a", "Python", "program", "(a).", "I", "want", "you", "to", "work", "as", "a", "Python", "program", "analysis", "tool", "and", "answer", "the", "questions", "between", "[QUESTION]", "and", "[END", "QUESTION].", "Surround", "your", "answer", "with", "no", "additional", "words", "and", "with", "tags", "[ANSWER]", "and", "[END", "ANSWER].", "(a)", "Original", "Code", "Query", "and", "Screening", "S2S", "Transformation", "(b)", "LLM", "Prompt", "Example", "for", "Analyzing", "(a)", "from", "django.core.exceptions", "import", "ObjectDoesNotExist", "@login_required", "@permission_required('workshops.add_person',", "raise_exception=True)", "def", "person_bulk_add_confirmation(request):", "if", "request.method", "==", "'POST':", "data_update", "=", "zip(personals,", "families,", "usernames,", "emails,", "events,", "roles)", "for", "k,", "record", "in", "enumerate(data_update):", "persons_tasks[k]['errors']", "=", "None", "#", "reset", "here"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 82.56,
+    "y2": 322.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680399-Figure3-1.png"
+}]

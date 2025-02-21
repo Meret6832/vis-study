@@ -1,0 +1,301 @@
+[{
+  "caption": "Table 5. Performance comparison of using different sanitizer-based triage logic for CVE-2016-9831. The first row checks whether the crash occurred exactly at Line 17, while the second and third row accept crashes from more lines as CVE-2016-9831.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17266845703125,
+    "y1": 353.30084228515625,
+    "y2": 379.45098876953125
+  },
+  "figType": "Table",
+  "imageText": ["17", "1,418", "1,069", "487", "1,777", "1,218", "17-20", "167", "177", "174", "218", "103", "17-20,", "10,", "12", "159", "155", "155", "200", "93", "Lines", "Checked", "AFLGo", "Beacon", "WindRanger", "SelectFuzz", "DAFL", "Median", "TTE", "(s)"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 395.03999999999996,
+    "y1": 394.56,
+    "y2": 465.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table5-1.png"
+}, {
+  "caption": "Fig. 3. Simplified code and patch for CVE-2016-9831.",
+  "captionBoundary": {
+    "x1": 145.48199462890625,
+    "x2": 340.5187683105469,
+    "y1": 323.1718444824219,
+    "y2": 327.40399169921875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "r->StartRatio", "=", "readUInt8(f);", "//", "potential", "crash", "11", "parseSWF_RGBA(f,", "&r->StartColor);", "12", "r->EndRatio", "=", "readUInt8(f);", "//", "potential", "crash", "13", "parseSWF_RGBA(f,", "&r->EndColor);", "14", "}", "15", "16", "void", "parseSWF_RGBA(FILE", "*f,", "SWF_RGBA", "*rgb)", "{", "17", "rgb->red", "=", "readUInt8(f);", "//", "crash", "location", "by", "the", "PoC", "input", "18", "rgb->green", "=", "readUInt8(f);", "//", "potential", "crash", "19", "rgb->blue", "=", "readUInt8(f);", "//", "potential", "crash", "20", "rgb->alpha", "=", "readUInt8(f);", "//", "potential", "crash", "21", "}", "1", "void", "parseSWF_MORPHGRADIENT(FILE", "*f,", "SWF_MORPHGRADIENT", "*g)", "{", "2", "...", "3", "g->NumGradients", "=", "readUInt8(f);", "4", "//", "no", "bound", "check", "on", "g->GradientRecords", "5", "for", "(i", "=", "0;", "i", "<", "g->NumGradients;", "i++)", "6", "parseSWF_MORPHGRADIENTRECORD(f,", "&(g->GradientRecords[i]));", "7", "}", "8", "9", "void", "parseSWF_MORPHGRADIENTRECORD(FILE", "*f,", "SWF_MORPHGRADIENTRECORD", "*r)", "{"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Figure3-1.png"
+}, {
+  "caption": "Table 7. Static analysis time on each target. The unit is in seconds.",
+  "captionBoundary": {
+    "x1": 119.9281005859375,
+    "x2": 365.8318176269531,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["sw", "ophp", "2016-9827", "342", "7", "75", "7", "2016-9829", "331", "9", "76", "7", "2016-9831", "337", "10", "76", "7", "2017-9988", "334", "12", "77", "7", "2017-11728", "345", "7", "77", "7", "2017-11729", "345", "14", "76", "7", "2016-4487", "205", "2676", "173", "16", "2016-4489", "203", "4633", "173", "17", "2016-4490", "205", "3900", "173", "16", "2016-4491", "207", "4348", "173", "16", "2016-4492", "208", "4355", "173", "17", "2016-6131", "210", "3125", "174", "16", "cxxfilt", "Program", "CVE", "AFLGo", "Beacon", "SelectFuzz", "DAFL"],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 111.83999999999999,
+    "x2": 371.03999999999996,
+    "y1": 106.56,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table7-1.png"
+}, {
+  "caption": "Table 8. Performance comparison with and without consideration of static analysis time. )5 and )B0 denote pure fuzzing time and static analysis time, respectively. Note that both are the median of 160 repetitions.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1719970703125,
+    "y1": 294.90985107421875,
+    "y2": 310.1000061035156
+  },
+  "figType": "Table",
+  "imageText": ["2016-4489", "226", "248", "429", "4881", "2016-9831", "264", "254", "601", "264", "Target", "CVE", "AFLGo", "Beacon", "AFLGo", "Beacon", ")5", "(s)", ")5", "+)B0", "(s)"],
+  "name": "8",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 130.56,
+    "x2": 352.32,
+    "y1": 324.96,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table8-1.png"
+}, {
+  "caption": "Table 2. Our benchmark selection.",
+  "captionBoundary": {
+    "x1": 179.09210205078125,
+    "x2": 306.66534423828125,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["open-sourced", "artifact", "of", "DAFL", "[Kim", "et", "al.", "2023a].", "In", "§4,", "we", "also", "study", "the", "eﬀect", "of", "using", "diﬀerent", "target", "lines.", "2016-9827", "Beacon,", "DAFL,", "SelectFuzz", "2016-9829", "Beacon,", "DAFL", "2016-9831", "Beacon,", "DAFL,", "CAFL", "2017-9988", "Beacon,", "DAFL", "2017-11728", "Beacon,", "DAFL,", "SelectFuzz", "2017-11729", "Beacon,", "DAFL", "Libming", "sw", "ophp", "2016-4487", "AFLGo,", "Beacon,", "WindRanger,", "Hawkeye,", "ParmeSan,", "DAFL,", "UAFuzz", "2016-4489", "AFLGo,", "Beacon,", "WindRanger,", "Hawkeye,", "ParmeSan,", "DAFL", "2016-4490", "AFLGo,", "Beacon,", "WindRanger,", "Hawkeye,", "ParmeSan,", "DAFL", "2016-4491", "AFLGo,", "Beacon,", "WindRanger,", "Hawkeye,", "ParmeSan,", "DAFL,", "SelectFuzz", "2016-4492", "AFLGo,", "Beacon,", "WindRanger,", "Hawkeye,", "ParmeSan,", "DAFL", "2016-6131", "AFLGo,", "Beacon,", "WindRanger,", "Hawkeye,", "ParmeSan,", "DAFL", "Binutils", "cxxfilt", "Package", "Prog.", "CVE", "Previous", "Work"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 440.64,
+    "y1": 106.56,
+    "y2": 295.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table2-1.png"
+}, {
+  "caption": "Fig. 7. Cactus plot that compares the performance of AFLGo and DAFL on CVE-2017-9988. X-axis denotes the number of repetitions, and Y-axis denotes the TTE in seconds.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17425537109375,
+    "y1": 204.83786010742188,
+    "y2": 220.02899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Y-axis", "plo", "ed", "in", "log", "scale", "10", "4", "10", "3", "10", "2", "10", "1", "0", "0", "20", "40", "60", "80", "100", "120", "140", "160", "10", "(a)", "Y-axis", "plo", "ed", "in", "linear", "scale", "AFLGo", "DAFL", "15000", "10000", "5000", "0", "20", "40", "60", "80", "100", "120", "140", "160", "0"],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 47.04,
+    "x2": 439.2,
+    "y1": 84.96,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Figure7-1.png"
+}, {
+  "caption": "Fig. 5. Simplified code of CVE-2019-9071.",
+  "captionBoundary": {
+    "x1": 166.6739959716797,
+    "x2": 319.32635498046875,
+    "y1": 213.52685546875,
+    "y2": 217.75900268554688
+  },
+  "figType": "Figure",
+  "imageText": ["10", "}", "1", "void", "d_count_templates_scopes", "(int", "*num_templates,", "int", "*num_scopes,", "demangle_component", "*dc)", "{", "2", "...", "3", "switch", "(dc->type)", "{", "4", "...", "5", "case", "DEMANGLE_COMPONENT_DTOR:", "6", "d_count_templates_scopes", "(num_templates,", "num_scopes,", "dc->u.s_dtor.name);", "7", "break;", "8", "...", "9", "}"],
+  "name": "5",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Figure5-1.png"
+}, {
+  "caption": "Fig. 1. Simplified code and patch of CVE-2016-4492.",
+  "captionBoundary": {
+    "x1": 147.072998046875,
+    "x2": 338.92657470703125,
+    "y1": 283.2658386230469,
+    "y2": 287.49798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["10", "...", "11", "case", "'B':", "12", "get_count", "(mangled,", "&n);", "13", "+", "if", "(", "n", "<", "0", ")", "break;", "//", "line", "added", "by", "patch", "14", "string_append", "(result,", "work->btypevec[n]);", "//", "crash", "location", "2", "15", "...", "16", "}", "17", "}", "1", "int", "do_type(struct", "work_stuff", "*work,", "char", "**mangled,", "...)", "{", "2", "int", "n;", "3", "...", "4", "switch", "(**mangled)", "{", "5", "...", "6", "case", "'T':", "7", "get_count", "(mangled,", "&n);", "8", "+", "if", "(", "n", "<", "0", ")", "break;", "//", "line", "added", "by", "patch", "9", "remembered_type", "=", "work->typevec[n];", "//", "crash", "location", "1"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Figure1-1.png"
+}, {
+  "caption": "Table 3. Performance comparison of using different target lines for CVE-2016-4492.",
+  "captionBoundary": {
+    "x1": 89.55889892578125,
+    "x2": 396.2006530761719,
+    "y1": 309.0338439941406,
+    "y2": 313.2659912109375
+  },
+  "figType": "Table",
+  "imageText": ["Line", "9", "373", "333", "2,460", "432", "787", "Line", "14", "332", "499", "339", "581", "149", "Target", "Location", "AFLGo", "Beacon", "WindRanger", "SelectFuzz", "DAFL", "Median", "TTE", "(s)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 397.44,
+    "y1": 327.84,
+    "y2": 388.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table3-1.png"
+}, {
+  "caption": "Fig. 6. The impact of repetition count on the stability of median TTEs for CVE-2016-4490. Each line plots how the median TTE changes over the trials. The three graphs are obtained by using different repetition counts (10, 20, or 40) per each trial.",
+  "captionBoundary": {
+    "x1": 45.558998107910156,
+    "x2": 440.49078369140625,
+    "y1": 336.6788635253906,
+    "y2": 362.8290100097656
+  },
+  "figType": "Figure",
+  "imageText": ["40", "repetitions", "per", "trial", "200", "M", "ed", "ia", "n", "T", "T", "E", "(s", "ec", ")", "150", "100", "50", "0", "Trials", "1", "2", "3", "4", "20", "repetitions", "per", "trial", "200", "M", "ed", "ia", "n", "T", "T", "E", "(s", "ec", ")", "150", "100", "50", "0", "Trials", "1", "2", "3", "4", "5", "6", "7", "8"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 435.35999999999996,
+    "y1": 223.2,
+    "y2": 313.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Figure6-1.png"
+}, {
+  "caption": "Fig. 4. Simplified code of CVE-2016-4491.",
+  "captionBoundary": {
+    "x1": 166.6739959716797,
+    "x2": 319.32635498046875,
+    "y1": 303.2468566894531,
+    "y2": 307.47900390625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "void", "d_print_comp_inner(d_print_info", "*dpi,", "demangle_component", "*dc)", "{", "11", "...", "12", "switch", "(dc->type)", "{", "13", "...", "14", "case", "DEMANGLE_COMPONENT_TAGGED_NAME:", "15", "d_print_comp(dpi,", "d_left", "(dc));", "//", "call", "d_print_comp", "with", "left", "subtree", "of", "dc", "16", "d_print_comp(dpi,", "d_right", "(dc));", "//", "call", "d_print_comp", "with", "right", "subtree", "of", "dc", "17", "...", "18", "}", "19", "}", "1", "void", "d_print_comp(d_print_info", "*dpi,", "demangle_component", "*dc)", "{", "2", "d_component_stack", "self;", "3", "self.dc", "=", "dc;", "4", "self.parent", "=", "dpi->component_stack;", "5", "dpi->component_stack", "=", "&self;", "6", "d_print_comp_inner", "(dpi,", "options,", "dc);", "7", "...", "8", "}", "9"],
+  "name": "4",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Figure4-1.png"
+}, {
+  "caption": "Table 6. Performance comparison of using different patches for patch-based triage for CVE-2016-4491. The number in parentheses denotes the number of times each fuzzer found the target bug out of 160 repetitions. Note that median cannot be computed if the fuzzer failed to find the bug for more than half of the times.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.5519714355469,
+    "y1": 330.76885986328125,
+    "y2": 356.91900634765625
+  },
+  "figType": "Table",
+  "imageText": ["Incomplete", "[Wielaard", "2016a]", "N.A.", "(16)", "N.A.", "(11)", "N.A.", "(14)", "N.A.", "(8)", "N.A.", "(63)", "Complete", "[Wielaard", "2016a,b]", "1371", "(158)", "1393", "(160)", "3111", "(159)", "1754", "(158)", "N.A.", "(71)", "Patch", "Used", "AFLGo", "Beacon", "WindRanger", "SelectFuzz", "DAFL", "Median", "TTE", "(s)", "(Success", "Iterations)"],
+  "name": "6",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 426.24,
+    "y1": 372.0,
+    "y2": 432.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table6-1.png"
+}, {
+  "caption": "Table 4. Performance comparison of using two different target lines for CVE-2016-4489.",
+  "captionBoundary": {
+    "x1": 81.47100067138672,
+    "x2": 404.2877502441406,
+    "y1": 291.58575439453125,
+    "y2": 295.8179016113281
+  },
+  "figType": "Table",
+  "imageText": ["Line", "4", "252", "243", "274", "246", "Line", "13", "248", "98", "154", "222", "Target", "Location", "Beacon", "WindRanger", "SelectFuzz", "DAFL", "Median", "TTE", "(s)"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 377.28,
+    "y1": 310.56,
+    "y2": 371.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table4-1.png"
+}, {
+  "caption": "Fig. 2. Simplified code and patch of CVE-2016-4489.",
+  "captionBoundary": {
+    "x1": 147.072998046875,
+    "x2": 338.92657470703125,
+    "y1": 263.3408508300781,
+    "y2": 267.572998046875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "...", "11", "int", "n", "=", "consume_count(mangled);", "//", "returns", "-1", "in", "n", "12", "+", "if", "(n", "==", "-1)", "break;", "//", "line", "added", "by", "patch", "13", "string_appendn(declp,", "*mangled,", "n);", "14", "...", "15", "}", "1", "void", "string_appendn(string", "*p,", "char", "*s,", "int", "n)", "{", "2", "if", "(n", "!=", "0)", "{", "3", "string_need(p,", "n);", "4", "memcpy(p->p,", "s,", "n);", "5", "p->p", "+=", "n;", "6", "}", "7", "}", "8", "9", "int", "gnu_special(struct", "work_stuff", "*w,", "char", "**mangled,", "string", "*declp)", "{"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 85.92,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Figure2-1.png"
+}, {
+  "caption": "Table 9. The minimum, maximum, and median TTE of each directed fuzzer, in seconds. If a fuzzer failed to find the target bug, we mark the maximum TTE as timeout (T.O.) and report the number of such timeouts in parentheses. If the timeout occurred for more than half of the repetitions, we mark the median TTE as not available (N.A.). Note that AFLGo failed to run with the target line for CVE-2016-4487.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1741027832031,
+    "y1": 88.12186431884766,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["median", "2,458", "2,759", "126", "2,044", "69", "min", "102", "219", "13", "39", "10", "2017-11729", "max", "23,936", "T.O.", "(", "1", ")", "2,068", "T.O.", "(", "17", ")", "2,209", "median", "66,268", "N.A.", "1,231", "53,877", "282", "min", "452", "949", "98", "272", "33", "2017-11728", "max", "T.O.", "(", "79", ")", "T.O.", "(", "85", ")", "30,013", "T.O.", "(", "74", ")", "T.O.", "(", "7", ")", "median", "1,066", "1,217", "779", "2,791", "703", "min", "30", "76", "20", "39", "9", "2017-9988", "max", "T.O.", "(", "1", ")", "T.O.", "(", "1", ")", "3,762", "24,912", "T.O.", "(", "17", ")", "median", "264", "254", "199", "297", "126", "min", "7", "21", "16", "9", "19", "2016-9831", "max", "9,409", "4,377", "1,888", "1,764", "2,562", "median", "N.A.", "N.A.", "7,876", "17,159", "335", "min", "65", "370", "251", "98", "22", "2016-9829", "max", "T.O.", "(", "111", ")", "T.O.", "(", "110", ")", "T.O.", "(", "19", ")", "T.O.", "(", "37", ")", "T.O.", "(", "46", ")", "median", "1,571", "1,282", "555", "664", "240", "min", "49", "64", "13", "48", "41", "2016-9827", "max", "T.O.", "(", "3", ")", "T.O.", "(", "2", ")", "3,112", "3,756", "9,079", "median", "N.A.", "N.A.", "N.A.", "N.A.", "N.A.", "min", "N.A.", "510", "N.A.", "N.A.", "4,825", "2016-6131", "max", "T.O.", "(", "160", ")", "T.O.", "(", "154", ")", "T.O.", "(", "160", ")", "T.O.", "(", "160", ")", "T.O.", "(", "159", ")", "median", "373", "333", "2,460", "432", "787", "min", "5", "12", "40", "6", "36", "2016-4492", "max", "T.O.", "(", "2", ")", "T.O.", "(", "1", ")", "T.O.", "(", "2", ")", "11,442", "T.O.", "(", "1", ")", "median", "1,371", "1,393", "3,111", "1,754", "N.A.", "min", "666", "850", "498", "646", "33", "2016-4491", "max", "T.O.", "(", "2", ")", "31,462", "T.O.", "(", "1", ")", "T.O.", "(", "2", ")", "T.O.", "(", "89", ")", "median", "69", "62", "154", "48", "13", "min", "6", "6", "16", "9", "5", "2016-4490", "max", "242", "242", "676", "175", "39", "median", "226", "248", "98", "154", "222", "min", "19", "22", "28", "13", "26", "2016-4489", "max", "1,382", "2,185", "816", "594", "535", "median", "-", "116", "474", "102", "43", "min", "-", "11", "30", "7", "7", "2016-4487", "max", "-", "653", "3,321", "662", "230", "Target", "CVE", "AFLGo", "Beacon", "WindRanger", "SelectFuzz", "DAFL"],
+  "name": "9",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 420.47999999999996,
+    "y1": 139.68,
+    "y2": 572.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643741-Table9-1.png"
+}]

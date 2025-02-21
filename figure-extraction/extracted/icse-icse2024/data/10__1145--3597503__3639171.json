@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 1: Example system architecture for a service-oriented",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1887817382812,
+    "y1": 270.0668640136719,
+    "y2": 272.14697265625
+  },
+  "figType": "Figure",
+  "imageText": ["UserDB", "OrderDB", "ItemDBResources", "ItemOrderUserData", "Access", "Auth", "Store", "InventoryLogic", "App", "BrowserClient"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 83.52,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639171-Figure1-1.png"
+}, {
+  "caption": "Figure 6: Total analysis times (in log ms, including overhead)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.5970153808594,
+    "y1": 268.0339050292969,
+    "y2": 270.114013671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639171-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Overhead of relational bound propagation (in ms,",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.130615234375,
+    "y1": 515.44287109375,
+    "y2": 517.5230102539062
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 353.76,
+    "y2": 498.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639171-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Relational Bound Propagation Overview. Shows propagation of upper bounds in a portion of a specification describing a logical architecture. In (a), bounds from B are propagated up the AST of formula F from the relations in R according to the rules in Section 4.1.1 until the traversal encounters a set containment operator (=). In (b), the bounds on the operator node’s",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2000122070312,
+    "y1": 198.33187866210938,
+    "y2": 222.33001708984375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Downward", "propagation.", "{", "Auth,", "Store", "}", "{", "(App,Auth),(App,Store),(Web,Web),…", "}", "{", "Auth,", "Store", "}", "Auth", "Store", "∪", "App", "calls", ".", "=", "(a)", "Upward", "propagation.", "Auth", "Store", "∪", "App", "calls", ".", "{", "Auth,", "Store", "}", "=", "{", "Auth", "}", "{", "Store", "}", "{", "App,Auth,Web,…", "}", "{", "App", "}", "{", "(App,App),(App,Auth),…", "}"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 544.3199999999999,
+    "y1": 84.0,
+    "y2": 179.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639171-Figure3-1.png"
+}, {
+  "caption": "Figure 4: # primary variables (log scale). Propter reduced",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04473876953125,
+    "y1": 217.34286499023438,
+    "y2": 219.4229736328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639171-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Translate + solve time (log ms). Propter reduced",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.201416015625,
+    "y1": 217.33792114257812,
+    "y2": 219.41802978515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639171-Figure5-1.png"
+}]

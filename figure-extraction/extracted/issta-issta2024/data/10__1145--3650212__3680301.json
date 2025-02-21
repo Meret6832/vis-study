@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 7: An example ofmerging equivalence classes",
+  "captionBoundary": {
+    "x1": 75.66410064697266,
+    "x2": 272.17999267578125,
+    "y1": 240.94410705566406,
+    "y2": 245.239013671875
+  },
+  "figType": "Figure",
+  "imageText": ["I3", "I4", "W", "6", "7", "Z", "3", "4", "Y", "2", "2", "X", "1", "2", "I2", "W", "18", "3", "Z", "9", "2", "Y", "4", "8", "X", "2", "5", "I1", "W", "6", "7", "Z", "3", "4", "Y", "2", "2", "X", "1", "2"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 236.16,
+    "y1": 84.0,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure7-1.png"
+}, {
+  "caption": "Fig. 11: Scalability of analysis performance per function",
+  "captionBoundary": {
+    "x1": 326.3169860839844,
+    "x2": 549.8406982421875,
+    "y1": 170.77406311035156,
+    "y2": 175.0689697265625
+  },
+  "figType": "Figure",
+  "imageText": ["s)", "ti", "m", "e", "(m", "function", "size", "(bytes)", "40", "20", "0", "5,000", "10,000", "15,000", "0"],
+  "name": "11",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 339.36,
+    "x2": 538.0799999999999,
+    "y1": 82.56,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure11-1.png"
+}, {
+  "caption": "Fig. 10: Runtime performance on Pang et al.’s benchmarks",
+  "captionBoundary": {
+    "x1": 57.887901306152344,
+    "x2": 289.9570617675781,
+    "y1": 261.6701354980469,
+    "y2": 265.96502685546875
+  },
+  "figType": "Figure",
+  "imageText": [")", "e", "(s", "ti", "m", "prog", "am", "size", "B)", "s)", "e", "(", "ti", "m", "angr", "Ghidra", "Ddisasm", "Dyninst", "S", "JA", ")", "e", "(s", "ti", "m", "program", "size", "(KB)", "104", "103", "102", "101", "100", "10−1", "101", "102", "103", "104", "10−2"],
+  "name": "10",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 268.32,
+    "y1": 86.88,
+    "y2": 252.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure10-1.png"
+}, {
+  "caption": "Fig. 1: A C/C++ switch statement, its assembly code, and the associated intermediate representation (IR)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.20068359375,
+    "y1": 215.9790802001953,
+    "y2": 231.23297119140625
+  },
+  "figType": "Figure",
+  "imageText": ["L3", ":", ".", ".", ".", "'12='12≪2", "'12='9+'12", "'13=∗'12", "'13='8+'13", "JMP", "∗'13", "L2", ":", "'12='11", "JMP", "L3", "'9=8000", "∗'10='11", "IF", "(∗'10>D", "7)", "L1", ":", "'8=6000", "L3", ":", ".", ".", ".", "shl", "$2,%r12", "add", "%r9,%r12", "mov", "(%r12),%r13", "add", "%r8,%r13", "jmp", "*%r13", "L2", ":", "mov", "%r11,%r12", "mov", "$8000,%r9", "mov", "%r11,(%r10)", "cmp", "(%r10),$7", "ja", "L3", "L1", ":", "mov", "$6000,%r8", "}", "return", "0;", "default:", "return", "y-4;", "...", "case", "7:", "return", "2*y;", "case", "1:", "return", "y+3;", "case", "0:", "switch(x)", "{"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 80.64,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure1-1.png"
+}, {
+  "caption": "Table 2: Accuracy of our techniques and previous techniques",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2007446289062,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Precision", "80.4", "79.9", "97.4", "Recall", "78.6", "99.8", "99.8", "VSA’s", "domain", "DomainD", "DomainD", "Unidirectional", "Unidirectional", "Bidirectional"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 99.84,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Table2-1.png"
+}, {
+  "caption": "Fig. 9: Jump tablesmisses with di erent thresholds",
+  "captionBoundary": {
+    "x1": 71.9468994140625,
+    "x2": 275.896728515625,
+    "y1": 183.24989318847656,
+    "y2": 187.5447998046875
+  },
+  "figType": "Figure",
+  "imageText": ["40", "m", "is", "s", "ra", "te", "(%", ")", "50%", "-", "200%", "90%", "-", "110%", "20", "0", "SJA", "Dyninst", "angr", "Ghidra", "Ddisasm"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 84.47999999999999,
+    "x2": 261.59999999999997,
+    "y1": 84.96,
+    "y2": 173.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure9-1.png"
+}, {
+  "caption": "Fig. 2: SJA’s Approach",
+  "captionBoundary": {
+    "x1": 130.5240020751953,
+    "x2": 217.31887817382812,
+    "y1": 208.9940948486328,
+    "y2": 213.28900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Scan", "Remaining", "Gaps", "Resolve", "Indirect", "Targets", "Bounds", "AnalysisPossible", "Function", "Entries", "Expression", "Analysis", "Definite", "Function", "Entries", "Jump", "Table", "Intra-CFG", "Construction"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 280.32,
+    "y1": 84.96,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure2-1.png"
+}, {
+  "caption": "Fig. 4: Illustration of rules in Fig. 3 on our example",
+  "captionBoundary": {
+    "x1": 337.34600830078125,
+    "x2": 538.81201171875,
+    "y1": 215.9790802001953,
+    "y2": 220.27398681640625
+  },
+  "figType": "Figure",
+  "imageText": ["'8=6000", "'9=8000", "∗'10=0+1×'11", "N/A", "N/A", "'12=0+1×'11", "'12=0+4×'11", "'12=8000+4×'11", "'13=0+1×∗(8000+4×'11)", "'13=6000+1×∗(8000+4×'11)", "N/A", "N/A", "B−1", "B−1", "B−2", "B−2", "R−4", ".", "2", "R−1", ".", "2", "R−5", ".", "1", "R−1", ".", "2", "L3", ":", ".", ".", ".", "'12='12≪2", "'12='9+'12", "'13=∗'12", "'13='8+'13", "JMP", "∗'13", "L2", ":", "'12='11", "JMP", "L3", "'9=8000", "∗'10='11", "IF", "(∗'10>D", "7)", "L1", ":", "'8=6000"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 80.64,
+    "y2": 205.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Abstract domain for jump table analysis",
+  "captionBoundary": {
+    "x1": 80.89099884033203,
+    "x2": 266.9532165527344,
+    "y1": 308.4941101074219,
+    "y2": 312.78900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["-", "+.", "(", "1+", "2)+((1+(2)×", "(", "1+", "2)+(1×", "-−.", "(", "1−", "2)+((1−(2)×", "(", "1−", "2)+(1×", "-×.", "⊤", "(", "1×", "2)+((1×", "2)×", "-<<.", "⊤", "(", "1×2", "2", ")+((1×2", "2", ")×", "∗.", "0+1×∗(", "2+(2×", ")", "0+1×∗", "2", "-", "1+(1×", "1+(1×", ".", "2+(2×", "2", "Recursive", "cases", "2", "2", "E", "0+1×E", "Base", "cases", "(E", "is", "a", "variable,", "2", "is", "a", "constant)", "Expressions", "4", "::=", "2", "|", "E", "|", "4+4", "|", "4−4", "|", "4×4", "|", "4<<2", "|", "∗4", "D", "::=", "|", "+(×", "where", ",(", "∈Z,", "(", "≠0,", "∈", "(V∪∗D),", "V", "is", "the", "set", "of", "variables", "in", "the", "program", "Domain", "D", "::=", "D∪", "{⊤,⊥}"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 292.32,
+    "y1": 82.56,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure3-1.png"
+}, {
+  "caption": "Fig. 8: Error rates in recognizing jump table entries. Blue and red bars are (1-Precision) and (1-Recall), respectively (%)",
+  "captionBoundary": {
+    "x1": 72.40399169921875,
+    "x2": 539.5986328125,
+    "y1": 292.6081237792969,
+    "y2": 296.90301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["(f)", "Os", "30", "20", "10", "0", "SJA", "Dyninst", "angr", "GhidraDdisasm", "(e)", "Of", "30", "20", "10", "0", "SJA", "Dyninst", "angr", "GhidraDdisasm", "(d)", "O3", "30", "20", "10", "0", "SJA", "Dyninst", "angr", "GhidraDdisasm", "(c)", "O2", "30", "20", "10", "0", "SJA", "Dyninst", "angr", "GhidraDdisasm", "(b)", "O1", "30", "20", "10", "0", "SJA", "Dyninst", "angr", "GhidraDdisasm", "(a)", "O0", "60", "40", "20", "0", "SJA", "Dyninst", "angr", "GhidraDdisasm"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 82.08,
+    "x2": 546.72,
+    "y1": 82.56,
+    "y2": 284.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure8-1.png"
+}, {
+  "caption": "Table 1: Accuracy of jump table entries identi cation (%).",
+  "captionBoundary": {
+    "x1": 60.183292388916016,
+    "x2": 287.3647155761719,
+    "y1": 314.02801513671875,
+    "y2": 318.3229064941406
+  },
+  "figType": "Table",
+  "imageText": ["F1-score", "95.4", "79.0", "84.8", "89.2", "98.6", "Recall", "91.6", "79.7", "74.7", "92.7", "99.8", "Precision", "99.5", "78.4", "98.1", "85.9", "97.4", "Dyninst", "angr", "Ghidra", "Ddisasm", "SJA"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 326.88,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Table1-1.png"
+}, {
+  "caption": "Fig. 5: Illustration of bounds analysis on our example",
+  "captionBoundary": {
+    "x1": 67.625,
+    "x2": 280.2179870605469,
+    "y1": 179.26722717285156,
+    "y2": 183.5621337890625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Data", "ow", "#", "0", "≤'11", "≤", "7,'9=8000", "'12='11", "#", "0", "≤'11", "≤", "7,'9=8000,'12='11", "'12='12≪2", "#", "0", "≤'11", "≤", "7,'9=8000,", "0", "≤'12", "≤", "28", "'12='9+'12", "#", "0", "≤'11", "≤", "7,'9=8000,", "8000", "≤'12", "≤", "8028", "(a)", "Control-", "ow", "∗'10='11", "#", "∗'10='11", "IF", "(∗R10", ">D", "7)", "JMP", "L3", "L2:", "...", "#", "0", "≤∗'10", "≤", "7,", "∗'10='11", "L3:", "...", "#", "∗'10>7,", "∗'10='11"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 78.72,
+    "y2": 170.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure5-1.png"
+}, {
+  "caption": "Fig. 6: Equality representation using equivalence class",
+  "captionBoundary": {
+    "x1": 330.85400390625,
+    "x2": 545.3026733398438,
+    "y1": 132.4420928955078,
+    "y2": 136.73699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Z", "3", "2", "X", "1", "0", "I1", "I2", "Y", "-1", "4", "U", "1", "0", "V", "3", "4", "*", ":", "=", "/", "+", ":", "=", "3", "·*", "+4", ".", ":", "=", "−-", "+4", "/", ":", "=", "3", "·-", "+2"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 546.24,
+    "y1": 78.72,
+    "y2": 123.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680301-Figure6-1.png"
+}]

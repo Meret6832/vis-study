@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1: Dataflow fact domains and analysis states for UDF properties.",
+  "captionBoundary": {
+    "x1": 179.7340087890625,
+    "x2": 432.0003967285156,
+    "y1": 80.8409652709961,
+    "y2": 82.69000244140625
+  },
+  "figType": "Table",
+  "imageText": ["Property", "P", "Within", "a", "given", "CFG", "node", "𝑛,", "a", "dataflow", "fact", "𝑙", "describes", "whether", "Analysis", "state", "𝜎𝑛", "Purity", "a", "variable", "𝑣𝑖", "holds", "a", "pure", "value", "{⟨vi,", "l_pure⟩,", "...}", "Non-null", "a", "variable", "𝑣𝑖", "holds", "a", "value", "that", "is", "not", "NULL", "{⟨vi,", "l_nonnull⟩,", "...}", "Returns", "Null", "On", "Null", "an", "input", "variable", "𝑣𝑖", "is", "never", "rewritten", "and", "succeeds", "a", "successful", "equality", "check", "against", "the", "NULL", "value", "{⟨vi,", "l_null,", "l_written⟩,", "...}", "Parallel", "Safe", "the", "node", "is", "free", "of", "operations", "that", "violate", "the", "parallel", "safe", "policy", "{𝑙_𝑠𝑎𝑓", "𝑒", "}"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 543.36,
+    "y1": 88.8,
+    "y2": 132.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Table1-1.png"
+}, {
+  "caption": "Table 2: Example statements that may violate UDF properties.",
+  "captionBoundary": {
+    "x1": 62.439998626708984,
+    "x2": 285.1376953125,
+    "y1": 151.9739532470703,
+    "y2": 153.822998046875
+  },
+  "figType": "Table",
+  "imageText": ["Property", "P", "Statements", "that", "may", "violate", "the", "property", "Purity", "Date", "dtBegin", "=", "new", "Date();", "Non-null", "return", "null;", "Returns", "Null", "On", "Null", "return", "Integer.valueOf(1);", "Parallel", "Safe", "String", "query", "=", "\"INSERT", "...\";"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 278.4,
+    "y1": 159.84,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Table2-1.png"
+}, {
+  "caption": "Figure 5: High-level overview of LAMBDA.",
+  "captionBoundary": {
+    "x1": 97.00199890136719,
+    "x2": 250.84024047851562,
+    "y1": 196.91493225097656,
+    "y2": 198.76397705078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 306.24,
+    "y1": 82.56,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Figure5-1.png"
+}, {
+  "caption": "Figure 2: Dataflow facts for Purity.",
+  "captionBoundary": {
+    "x1": 373.9110107421875,
+    "x2": 502.2458190917969,
+    "y1": 135.56398010253906,
+    "y2": 137.41302490234375
+  },
+  "figType": "Figure",
+  "imageText": ["⊤", "𝑃𝑈𝑅𝐸", "⊥", "¬𝑃𝑈𝑅𝐸", "(b)", "Optimized", "query", "Q2,", "execution", "time", "=", "2.4", "s", "SELECT", "processDate('19000101',5);", "(a)", "Original", "query", "Q1,", "execution", "time", "=", "5", "s", "SELECT", "processDate('19000101',5)", "WHERE", "processDate('19000101',5)", "IS", "NOT", "NULL;", "A", "Framework", "for", "Inferring", "Properties", "of", "User-Defined", "Functions", "ICSE", "’24,", "April", "14–20,", "2024,", "Lisbon,", "Portugal"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 558.24,
+    "y1": 56.64,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Figure2-1.png"
+}, {
+  "caption": "Table 3: Efficacy of LAMBDA.",
+  "captionBoundary": {
+    "x1": 385.072998046875,
+    "x2": 490.8201904296875,
+    "y1": 88.81099700927734,
+    "y2": 90.6600341796875
+  },
+  "figType": "Table",
+  "imageText": ["Property", "TP", "TN", "FP", "Purity", "11", "15", "4", "Non-null", "22", "8", "0", "Returns", "Null", "On", "Null", "13", "17", "0", "Parallel", "Safe", "17", "13", "0"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 368.64,
+    "x2": 506.4,
+    "y1": 96.96,
+    "y2": 140.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Table3-1.png"
+}, {
+  "caption": "Table 4: Query runtime performance statistics.",
+  "captionBoundary": {
+    "x1": 89.82101440429688,
+    "x2": 257.7568054199219,
+    "y1": 88.81099700927734,
+    "y2": 90.6600341796875
+  },
+  "figType": "Table",
+  "imageText": ["Property", "t_reg(s)", "t_opt", "(s)", "#", "of", "queries", "avg", "std", "avg", "std", "speedup", "¬speedup", "Purity", "25.7", "38.6", "11.4", "14.2", "23", "39", "Non-null", "29.0", "47.1", "27.9", "46.9", "4", "7", "Returns", "Null", "On", "Null", "25.3", "37.6", "25.0", "38.2", "11", "38", "Parallel", "Safe", "31.4", "41.3", "30.2", "42.2", "17", "33", "(7)"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 96.96,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Table4-1.png"
+}, {
+  "caption": "Figure 7: Percentage of reduction of query response time by leverag-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.6270751953125,
+    "y1": 216.5889434814453,
+    "y2": 218.43798828125
+  },
+  "figType": "Figure",
+  "imageText": ["Purity", "Non-null", "Returns", "null", "on", "null", "Parallel", "safe", "n", "ct", "io", "re", "du", "im", "e", "%", "t", "100", "50", "0", "query", "index50"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 356.64,
+    "x2": 524.16,
+    "y1": 85.92,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Figure7-1.png"
+}, {
+  "caption": "Figure 4: An example code that processes NULL input.",
+  "captionBoundary": {
+    "x1": 340.7710266113281,
+    "x2": 535.3824462890625,
+    "y1": 116.39791107177734,
+    "y2": 118.2469482421875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "Integer", "processDate(String", "strBegDate,", "Integer", "n)", "{", "2", "if", "(strBegDate", "==", "null", "||", "n", "==", "null)", "{", "3", "return", "null;...}", "Algorithm", "1:", "Iterative", "Dataflow", "Analysis", "Algorithm.", "Input", ":a", "UDF", "and", "its", "CFG;", "a", "property", "P", "Output", ":whether", "the", "UDF", "satisfies", "P", "A", "Framework", "for", "Inferring", "Properties", "of", "User-Defined", "Functions", "ICSE", "’24,", "April", "14–20,", "2024,", "Lisbon,", "Portugal"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 558.24,
+    "y1": 56.64,
+    "y2": 116.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Dataflow facts for the Returns Null on Null property.",
+  "captionBoundary": {
+    "x1": 61.63500213623047,
+    "x2": 286.2056579589844,
+    "y1": 505.9749755859375,
+    "y2": 507.8240051269531
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "inputWritten", "lattice", "⊤", "𝑖𝑛𝑝𝑢𝑡_𝑤𝑟𝑖𝑡𝑡𝑒𝑛", "⊥", "¬𝑖𝑛𝑝𝑢𝑡_𝑤𝑟𝑖𝑡𝑡𝑒𝑛", "(a)", "inputNull", "lattice", "⊤", "𝑖𝑛𝑝𝑢𝑡_𝑛𝑢𝑙𝑙", "⊥", "¬𝑖𝑛𝑝𝑢𝑡_𝑛𝑢𝑙𝑙"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 309.12,
+    "y1": 413.76,
+    "y2": 499.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639147-Figure3-1.png"
+}]

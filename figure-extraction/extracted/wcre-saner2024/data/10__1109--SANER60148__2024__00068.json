@@ -1,0 +1,221 @@
+[{
+  "caption": "TABLE I DATA STATISTICS ABOUT FILE-CS.",
+  "captionBoundary": {
+    "x1": 121.91620635986328,
+    "x2": 235.4813232421875,
+    "y1": 305.9344177246094,
+    "y2": 317.8914794921875
+  },
+  "figType": "Table",
+  "imageText": ["Source", "Code", "1295.0", "564", "890", "1563", "Summary", "11.0", "6", "8", "12", "Length", "Avg", "25%", "50%", "75%"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 264.0,
+    "y1": 327.36,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-TableI-1.png"
+}, {
+  "caption": "TABLE III RESULT OF ABLATION STUDY.",
+  "captionBoundary": {
+    "x1": 385.4052429199219,
+    "x2": 480.1576843261719,
+    "y1": 74.52081298828125,
+    "y2": 86.478515625
+  },
+  "figType": "Table",
+  "imageText": ["SparseCoder", "129.9M", "21.4", "32.2", "27.6", "-", "w/o", "global", "attention", "129.9M", "20.4", "30.8", "26.6", "-", "w/o", "identiﬁer", "attention", "129.9M", "20.8", "31.2", "27.1", "-", "replace", "random", "tokens", "129.9M", "20.5", "31.0", "26.7", "-", "w/o", "low-rank", "129.5M", "20.9", "31.5", "26.8", "-", "w/", "new-proj", "150.7M", "21.5", "32.2", "27.5", "Model", "Parameters", "BLEU", "Rouge-L", "Meteor"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 553.4399999999999,
+    "y1": 96.0,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-TableIII-1.png"
+}, {
+  "caption": "TABLE II PERFORMANCE OF DIFFERENT MODELS ON FILE-CS.",
+  "captionBoundary": {
+    "x1": 93.11819458007812,
+    "x2": 263.5510559082031,
+    "y1": 296.0049133300781,
+    "y2": 307.96258544921875
+  },
+  "figType": "Table",
+  "imageText": ["SparseCoder", "21.4", "32.2", "27.6", "∗LongT5", "initialized", "from", "UniXcoder.", "BigBird", "19.7", "29.3", "25.2", "SASA", "19.9", "29.7", "25.4", "LongFormer", "20.1", "30.4", "26.1", "LongT5", "18.6", "25.3", "24.3", "Unix-LongT5∗", "20.6", "29.3", "26.3", "LSG", "Attention", "20.8", "30.5", "26.6", "GraphCodeBERT", "16.9", "26.2", "21.8", "CodeBERT", "17.4", "26.7", "22.2", "PLBART", "18.6", "28.0", "25.2", "CodeT5", "19.1", "28.7", "25.2", "UniXcoder", "19.3", "29.3", "25.0", "Model", "BLEU", "Rouge-L", "Meteor"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 266.4,
+    "y1": 317.28,
+    "y2": 468.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-TableII-1.png"
+}, {
+  "caption": "Fig. 5. Another example on FILE-CS dataset and the predictions from different models. The input code file is displayed on the left, and the predictions from the models are provided on the right. Arrows indicate the key call relationship.",
+  "captionBoundary": {
+    "x1": 58.91910171508789,
+    "x2": 542.1470947265625,
+    "y1": 359.5205078125,
+    "y2": 371.47821044921875
+  },
+  "figType": "Figure",
+  "imageText": ["ChatGPT:", "This", "script", "is", "for", "loading", "the", "Charades", "dataset", "for", "video", "action", "recognition.", "The", "dataset", "is", "divided", "into", "'train',", "'val'", "and", "'val_video'", "splits,", "and", "the", "script", "loads", "the", "corresponding", "labels", "from", "a", "csv", "file.", "The", "script", "also", "includes", "a", "function", "to", "cache", "the", "data,", "which", "speeds", "up", "loading", "time", "by", "saving", "the", "preprocessed", "data", "to", "a", "file.", "The", "script", "then", "applies", "various", "transforms", "to", "the", "images", "and", "labels,", "such", "as", "resizing", "and", "converting", "them", "to", "tensors.", "Finally,", "the", "script", "creates", "a", "Charades", "class", "that", "can", "be", "used", "to", "access", "the", "dataset.", "The", "class", "includes", "methods", "to", "access", "the", "images", "and", "labels,", "as", "well", "as", "the", "number", "of", "classes", "in", "the", "dataset.", "SparseCoder:", "data", "loader", "for", "charades", "dataset", "SASA:", "this", "file", "contains", "all", "the", "functions", "needed", "to", "load", "and", "save", "data", "BigBird:", "get", "the", "data", "from", "charades", "LongFormer:", "data", "loader", "for", "charades", "datasets", "UniXcoder:", "utility", "functions", "used", "across", "the", "application", "PLBART:", "glue", "for", "the", "accimage", "and", "pilimage", "modules", "CodeT5:", "this", "module", "contains", "a", "set", "of", "utility", "functions", "that", "can", "be", "used", "by", "other", "modules", "GraphCodeBERT:", "code", "for", "loading", "and", "loading", "images", "CodeBERT:", "functions", "for", "loading", "and", "preprocessing", "data", "Groud", "truth:", "dataset", "loader", "for", "the", "charades", "dataset", "std=[0.229,", "0.224,", "0.225])", "train_file", "=", "args.train_file", "val_file", "=", "args.val_file", "train_dataset", "=", "Charades(...)", "...", "def", "get(args):", "\"\"\"", "Entry", "point.", "Call", "this", "function", "to", "get", "all", "Charades", "dataloaders", "\"\"\"", "normalize", "=", "transforms.Normalize(mean=[0.485,", "0.456,", "0.406],", "...", "img", "=", "default_loader(path)", "...", "class", "Charades(data.Dataset):", "...", "def", "__getitem__(self,", "index):", "...", "def", "cache(cachefile):", "\"\"\"", "Creates", "a", "decorator", "that", "caches", "the", "result", "to", "cachefile", "\"\"\"", "def", "cachedecorator(fn):", "return", "pil_loader(path)", "return", "accimage_loader(path)", "else:", "def", "default_loader(path):", "from", "torchvision", "import", "get_image_backend", "if", "get_image_backend()", "==", "'accimage':", "def", "accimage_loader(path):", "...", "def", "pil_loader(path):", "...", "def", "cls2int(x):", "...", "def", "parse_charades_csv(filename):", "...", "import", "torch", "..."],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 529.4399999999999,
+    "y1": 73.92,
+    "y2": 346.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-Figure5-1.png"
+}, {
+  "caption": "TABLE IV RESULTS OF HUMAN EVALUATION (STANDARD DEVIATION IN PARENTHESES).",
+  "captionBoundary": {
+    "x1": 335.6353759765625,
+    "x2": 529.6729736328125,
+    "y1": 121.52081298828125,
+    "y2": 141.9066162109375
+  },
+  "figType": "Table",
+  "imageText": ["SparseCoder", "2.085(0.98)", "3.175(0.60)", "2.353(1.19)", "LSG", "Attention", "2.065(1.02)", "3.094(0.70)", "2.160(0.93)", "UniXcoder", "2.020(1.00)", "3.075(0.70)", "2.133(0.93)", "Model", "Informativeness", "Naturalness", "Similarity"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 546.24,
+    "y1": 152.64,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-TableIV-1.png"
+}, {
+  "caption": "Fig. 3. The effect of input sequence length on memory usage and the average score of the three metrics.",
+  "captionBoundary": {
+    "x1": 59.43159866333008,
+    "x2": 295.4287109375,
+    "y1": 426.617919921875,
+    "y2": 438.5755920410156
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 279.36,
+    "y1": 188.64,
+    "y2": 411.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-Figure3-1.png"
+}, {
+  "caption": "Fig. 1. The overview of SparseCoder. Global and local identifiers are marked in yellow and red, respectively.",
+  "captionBoundary": {
+    "x1": 128.98800659179688,
+    "x2": 469.4273376464844,
+    "y1": 315.4798278808594,
+    "y2": 319.0085144042969
+  },
+  "figType": "Figure",
+  "imageText": ["(", "%", "$", "&", "(%", "0", "0", "/'", "$", "(/1'", "(", "$", "%'", "(+", "+", "$", "&", "(", "$", "&", "''", "%", "!", "%", "$", "*", "(%", "'''", "%", "%,-", "$", "*", "(%)", ")'", "(.", "+''", "%", "!", "%", "$", "*", "(%", "'''", "%", "%''", "%", "%/", "0", "(.", "+''", "%", "%", "$", "(.", "!+''", "%", "'#", "(", "\"", "%'", "%", "%)", "$", "*", "(%)", ")'", "$", "&", "(", "$", "&", "$", "(", "$", "#", "$$", "$$%", "$", "&", "$", "'#", "!", "\""],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 522.24,
+    "y1": 72.0,
+    "y2": 300.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. A code example of the attention matrix map.",
+  "captionBoundary": {
+    "x1": 94.66010284423828,
+    "x2": 259.1448059082031,
+    "y1": 466.0312194824219,
+    "y2": 469.5599060058594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 259.2,
+    "y1": 327.84,
+    "y2": 452.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-Figure2-1.png"
+}, {
+  "caption": "Fig. 4. An example on FILE-CS dataset and the predictions from different models. The input code file is displayed on the left, and the predictions from the models are provided on the right. Arrows indicate the key call relationship.",
+  "captionBoundary": {
+    "x1": 58.4296989440918,
+    "x2": 541.660400390625,
+    "y1": 360.3064270019531,
+    "y2": 372.2640075683594
+  },
+  "figType": "Figure",
+  "imageText": ["#", "\"", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "return", "log_iteration(CompositeGenerator(generator,", "chunck_size),", "name,", "log_func,", "formater,", "log_ratio)", "def", "log_transfer(generator,", "chunck_size,", "name=None,", "log_func=discard,", "formater=Formater(format_func=format_size),", "log_ratio=0.01):", "return", "log_iteration(CompositeGenerator(generator),", "name,", "log_func,", "formater,", "log_ratio)", "def", "log_loop(generator,", "name=None,", "log_func=discard,", "formater=Formater(),", "log_ratio=0.01):", "....", "task", "=", "ProgressableTask(length,", "name)", "....", "#", "Log", "the", "start", "of", "the", "task", "log_func(formater.format_creation(task))", "....", "#", "Log", "the", "end", "of", "the", "task", "log_func(formater.format_end(task))", "def", "log_iteration(composite_generator,", "name=None,", "log_func=discard,", "formater=Formater(),", "log_ratio=0.01):", "class", "CompositeGenerator():", "....", "class", "Formater:", "\"\"\"", "A", ":class:`Formater`", "format", "progresses", "as", "string", "....", "class", "ProgressableTask:", "....", "def", "format_size(nb_bytes):", "....", "def", "format_duration(duration):", "....", "import", "time"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 539.04,
+    "y1": 73.92,
+    "y2": 346.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-Figure4-1.png"
+}, {
+  "caption": "TABLE VI PERFORMANCE OF DIFFERENT MODELS ON FILTERED-CSN.",
+  "captionBoundary": {
+    "x1": 78.96453857421875,
+    "x2": 269.41082763671875,
+    "y1": 614.6392211914062,
+    "y2": 626.5963134765625
+  },
+  "figType": "Table",
+  "imageText": ["SparseCoder", "129.9M", "92.8", "85.5", "-", "w/", "new-proj", "150.7M", "92.7", "85.4", "-", "w/o", "low-rank", "129.5M", "92.2", "84.8", "CodeBERT", "125.8M", "82.5", "80.8", "GraphCodeBERT", "125.8M", "83.3", "82.3", "UniXcoder", "127.1M", "86.3", "84.1", "BigBird", "128.6M", "89.4", "84.5", "SASA", "128.6M", "90.1", "84.5", "LongFormer", "150.7M", "91.4", "84.7", "Model", "#", "Parameters", "BCB", "CSN-Py"],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 274.08,
+    "y1": 465.12,
+    "y2": 575.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-TableVI-1.png"
+}, {
+  "caption": "TABLE V PERFORMANCE OF DIFFERENT MODELS ON CODE CLONE DETECTION AND CODE SEARCH.",
+  "captionBoundary": {
+    "x1": 58.616798400878906,
+    "x2": 294.2424621582031,
+    "y1": 435.38232421875,
+    "y2": 455.76708984375
+  },
+  "figType": "Table",
+  "imageText": ["this", "section,", "we", "will", "introduce", "experiments", "on", "the", "generality", "of", "SparseCoder,", "including", "its", "performance", "on", "other", "tasks", "datasets."],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 296.15999999999997,
+    "y1": 382.56,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00068-TableV-1.png"
+}]

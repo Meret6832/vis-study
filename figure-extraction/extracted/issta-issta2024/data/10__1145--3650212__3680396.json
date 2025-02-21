@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 1: Control loop.",
+  "captionBoundary": {
+    "x1": 392.3900146484375,
+    "x2": 483.7624816894531,
+    "y1": 293.92230224609375,
+    "y2": 298.2170104980469
+  },
+  "figType": "Figure",
+  "imageText": ["the", "desired", "state", "Current", "state", "Make", "the", "current", "state", "align", "with", "Declared", "desired", "state", "Observe", "Control", "loop", "Analyze", "changes", "ReconcileObserve"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 556.3199999999999,
+    "y1": 212.64,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Bug Ni Op#119: Reconciliation loop. In this bug, the reconciliation actions continuously trigger new reconciliation iterations.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8002319335938,
+    "y1": 235.56631469726562,
+    "y2": 261.77801513671875
+  },
+  "figType": "Figure",
+  "imageText": ["The", "Status.State", "field", "flickers", "between", "Reconciling", "and", "Running!", "…", "…", "#", "NifiCluster", "status:", "...", "State:", "Running", "...", "#", "NifiCluster", "status:", "...", "State:", "Reconciling", "...", "reconcile(){", "…", "if", "cr.status.State", "!=", "RollingUpgrading", "{", "//trigger", "another", "reconciliation", "iteration", "UpdateCRStatus", "(Reconciling)", "}", "...", "//trigger", "another", "reconciliation", "iteration", "UpdateCRStatus", "(Running)", "…", "}"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 542.4,
+    "y1": 80.64,
+    "y2": 219.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Bug IST/CassOp#398: No synchronization of resource operations. CDC refers to CassandraDateCenter, STS refers to StatefulSet. In this bug, the quick deletion of pod causes its associated PVC to not be removed.",
+  "captionBoundary": {
+    "x1": 53.79791259765625,
+    "x2": 295.6397399902344,
+    "y1": 279.4422912597656,
+    "y2": 316.614013671875
+  },
+  "figType": "Figure",
+  "imageText": ["Delete", "the", "pod", "", "Mark", "pod", "for", "deletion", "Notify", "pod", "deletion", "#", "Pod", "metadata:", "...", "deletionTS", ":", "“00:00Z”", "#", "←nil", "...", "Notify", "pod", "change", "//Fail", "to", "delete", "the", "attached", "PVC", "if", "pod.deletionTS", "!=", "nil", "{", "...", "DeletePVC(", ")", "...", "}", "#", "StatefulSet", "spec:", "...", "replicas:", "1", "#", "←2", "...", "Request", "to", "delete", "a", "pod", "Notify", "STS", "change", "Scale", "down", "STS", "Notify", "CDC", "change", "#", "CDC", "spec:", "...", "node:", "1", "#", "←2", "...", "Scale", "down", "CDC", "CDC", "Controller", "STS", "ControllerAPI", "Server"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 296.15999999999997,
+    "y1": 82.56,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Figure5-1.png"
+}, {
+  "caption": "Figure 2: An example of the custom resource de nition (CRD) and an instance of the associated custom resource (CR).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.5966796875,
+    "y1": 163.29129028320312,
+    "y2": 178.54498291015625
+  },
+  "figType": "Figure",
+  "imageText": ["Define", "...", "name:", "string", "size:", "int,", "required", "clusterRole:", "string", "#MongoDB", "CRD", "...", "-", "replsets:", "array", "...", "size:", "3", "clusterRole:", "default", "-", "name:", "rs0", "...", "replsets:", "#", "MongoDB", "CR", "spec:"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 253.44,
+    "y1": 84.0,
+    "y2": 148.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The operator pattern in Kubernetes. CRD refers to Custom Resource De nition.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1892700195312,
+    "y1": 231.93130493164062,
+    "y2": 247.18499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Operator", "=", "CRD", "+", "Custom", "Controller", "Cluster", "Managed", "Binding", "Modify", "Define", "access", "control", "permissions", "Define", "custom", "resources", "Configure", "Control", "API", "Access", "CRD", "Custom", "Resource", "events", "Modify", "Change", "ControllerModify", "Built-in", "Kubernetes", "Core", "Resource", "Built-in", "Create/modify", "events", "Change", "Watch", "Reconcile", "Analyze", "Observe", "Custom", "Controller", "Register", "State", "Objects"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 560.16,
+    "y1": 84.0,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Figure3-1.png"
+}, {
+  "caption": "Figure 6: Distributions of input conditions.",
+  "captionBoundary": {
+    "x1": 351.2799987792969,
+    "x2": 524.8709716796875,
+    "y1": 140.87826538085938,
+    "y2": 145.1729736328125
+  },
+  "figType": "Figure",
+  "imageText": ["0", "1", "2", "3", "4", "5", "6", "(a)", "Operation", "request", "(b)", "Changed", "properties", "(c)", "Fault", "3", "(13%)", "3", "2", "(45%)", "2", "(14%)", "2", "1", "(39%)", "1", "(58%)", "1", "0", "(25%)", "0", "(90%)"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 82.56,
+    "y2": 126.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Distributions of involved built-in resources, builtin controllers and reconciliation iterations during the bug manifestation process.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8004150390625,
+    "y1": 223.61129760742188,
+    "y2": 249.822998046875
+  },
+  "figType": "Figure",
+  "imageText": ["4", "0", "1", "2", "3", "4", "5", "(a)", "Built-in", "resource", "(b)", "Built-in", "controller", "3(c)", "Reconciliation", "iteration", "2", "(13%)", "3", "2", "(46%)", "1", "(53%)", "1", "1", "(39%)", "0", "(29%)", "0", "(96%)"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 165.6,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Figure7-1.png"
+}, {
+  "caption": "Table 1: Target Operators and Collected Operator Bugs",
+  "captionBoundary": {
+    "x1": 327.510009765625,
+    "x2": 548.3421630859375,
+    "y1": 87.0622787475586,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["OOS", "refers", "to", "Orange", "Open", "Source,", "and", "OCK", "refers", "to", "Opstree", "Container", "Kit.", "Operator", "System", "Dev.", "#", "Stars", "LOC", "#", "Bug", "IST/CassOp", "Cassandra", "Instaclustr", "237", "10.9K", "3", "RabbitMQOp", "RabbitMQ", "O", "cial", "778", "27.8K", "5", "Ni", "Op", "Apache", "NiFi", "Community", "106", "98.5K", "2", "KafkafOp", "Apache", "Kafka", "Strimzi", "4424", "373.9K", "8", "OOS/CassOp", "Cassandra", "OOS", "185", "49.4K", "4", "PCNA/MDBOp", "MongoDB", "Percona", "300", "145.8K", "31", "CloudOp", "Elasticsearch", "O", "cial", "2461", "438.5K", "7", "VMOp", "VictoriaMetrics", "O", "cial", "378", "85.0K", "7", "PostgreDBOp", "PostgreSQL", "Zalando", "3936", "47.1K", "8", "ZooKeeperOp", "ZooKeeper", "Pravega", "358", "20.7K", "7", "ActionsOp", "Github", "Actions", "O", "cial", "4166", "97.9K", "7", "MinioOP", "MinIO", "O", "cial", "1082", "281.4K", "2", "OTELOp", "OpenTelemetry", "O", "cial", "1035", "117.6K", "4", "PromOp", "Prometheus", "O", "cial", "8702", "305.5K", "6", "XtradbOp", "MySQL", "Percona", "494", "141.1K", "15", "KubeLogOp", "Logging", "mech.", "O", "cial", "1477", "130.4K", "6", "JaegerOp", "Jaeger", "O", "cial", "981", "119.7K", "5", "MysqlOp", "MySQL", "Percona", "95", "70.5K", "4", "AwxOp", "Ansible", "AWX", "O", "cial", "1130", "14.0K", "1", "CMT/CassOp", "Cassandra", "Community", "12", "51.0K", "2", "Kube", "owOp", "Kube", "ow", "O", "cial", "1439", "96.8K", "10", "K8S/CassOp", "Cassandra", "K8ssandra", "166", "53.6K", "3", "SPH/RedisOp", "Redis", "Spotahome", "1436", "45.1K", "1", "OCK/RedisOp", "Redis", "OCK", "663", "302.1K", "4", "CockroachOp", "Cockroach", "O", "cial", "264", "35.9K", "2", "TidbOp", "TiDB", "O", "cial", "1178", "400.9K", "5", "OFC/MDBOp", "MongoDB", "O", "cial", "1136", "31.9K", "4", "KnativeOp", "Knative", "O", "cial", "174", "1884.0K", "3", "EtcdOp", "Etcd", "O", "cial", "1737", "13.1K", "1", "SplunkOp", "Splunk", "O", "cial", "192", "190.6K", "1", "ElasticsearchOp", "Elasticsearch", "Zalando", "351", "16.1K", "2", "IstioOp", "Istio", "Banzai", "Cloud", "535", "100.6K", "2", "OpenSearchOp", "OpenSearch", "O", "cial", "343", "41.6K", "16", "TerraformOp", "Terraform", "O", "cial", "449", "1035K", "4", "ArgocdOp", "Argo", "CD", "O", "cial", "567", "303.3K", "4", "FDBOp", "FoundationDB", "O", "cial", "222", "109.3K", "14"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 562.0799999999999,
+    "y1": 105.6,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Table1-1.png"
+}, {
+  "caption": "Table 3: Fix Complexity",
+  "captionBoundary": {
+    "x1": 125.5261001586914,
+    "x2": 222.01846313476562,
+    "y1": 87.06246185302734,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["#", "of", "days", "to", "con", "rm", "0", "1", "6", "673", "#", "of", "days", "to", "x", "1", "7", "25", "395", "#", "of", "changed", "les", "1", "2", "4", "21", "LOC", "of", "patch", "9", "34", "92", "2091", "25th", "percentile", "Median", "75th", "percentile", "Max"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Table3-1.png"
+}, {
+  "caption": "Table 2: Root Causes of Operator Bugs",
+  "captionBoundary": {
+    "x1": 96.2550048828125,
+    "x2": 251.28599548339844,
+    "y1": 87.06246185302734,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Incorrect", "order", "of", "resource", "operations", "3", "Inconsistent", "reconciliation", "2", "Others", "9", "Incorrect", "reconciliation", "(27%)", "Incorrect", "resource", "update", "19", "K8s", "speci", "cation", "violation", "9", "Reconciliation", "loop", "7", "No", "synchronization", "of", "resource", "operations", "7", "No", "observation", "of", "resource", "changes", "5", "No", "analysis", "of", "resource", "changes", "38", "Incorrect", "analysis", "logic", "29", "Incorrect", "state", "identi", "cation", "53", "Incorrect", "state", "observation", "and", "analysis", "(60%)", "Incorrect", "access", "control", "con", "guration", "(4%)", "9", "Incorrect", "CRD", "(9%)", "Incorrect", "CRD", "speci", "cation", "10", "Incorrect", "validation", "logic", "10", "Bug", "Pattern", "#Bug"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 297.12,
+    "y1": 105.6,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680396-Table2-1.png"
+}]

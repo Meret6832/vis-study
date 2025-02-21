@@ -1,0 +1,141 @@
+[{
+  "caption": "TABLE I: Fine-tuning Datasets.",
+  "captionBoundary": {
+    "x1": 116.8182601928711,
+    "x2": 239.45579528808594,
+    "y1": 74.28958129882812,
+    "y2": 79.93212890625
+  },
+  "figType": "Table",
+  "imageText": ["Best", "Code", "+", "Best", "Process", "601", "525", "376", "Best", "Code", "+", "Best", "Developer", "808", "735", "423", "Best", "Developer", "+", "Best", "Process", "484", "435", "254", "Best", "Code+", "Best", "Developer", "+", "Best", "Process", "825", "753", "425", "MSM", "+", "CS", "941", "693", "1,169", "MC", "+", "CS", "871", "621", "1,153", "MSM", "+", "MC", "584", "507", "374", "MSM", "+", "MC", "+", "CS", "1,079", "829", "1,200", "IT", "+", "IB", "567", "378", "1,430", "FI", "+", "MSS", "741", "647", "2,365", "Baseline", "243", "205", "166", "Method", "Calls", "(MC)", "380", "326", "253", "Class", "Signatures", "(CS)", "733", "481", "1,128", "Most", "Similar", "Method", "(MSM)", "447", "384", "296", "Issue", "Title", "(IT)", "260", "222", "167", "Issue", "Body", "(IB)", "550", "361", "1,429", "Frequent", "Invocations", "(FI)", "467", "418", "252", "Most", "Similar", "Statements", "(MSS)", "517", "445", "2,355", "Context", "Instances", "Length", "Mean", "Median", "St.", "Dev."],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 297.12,
+    "y1": 88.8,
+    "y2": 271.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00029-TableI-1.png"
+}, {
+  "caption": "Fig. 4: Class signatures context helping the prediction of the confidence-based model.",
+  "captionBoundary": {
+    "x1": 60.70091247558594,
+    "x2": 296.7002868652344,
+    "y1": 436.9006042480469,
+    "y2": 453.78082275390625
+  },
+  "figType": "Figure",
+  "imageText": ["<MISSING", "CODE>", "PREDICTION", "BASELINE", "PREDICTION", "CONFIDENCE", "MODEL", "CONTEXT", "INPUT", "METHOD", "tgt.addAction(", "convertTestScriptTeardownActionComponent(t));", "tgt.addAction(", "convertTeardownActionComponent(t));", "return", "tgt;", "}", "public", "static", "TestScriptTeardownComponent", "convertTestScriptTeardownComponent(", "TestScriptTeardownComponent", "src)", "{", "if", "(src", "==", "null", "||", "src.isEmpty())", "return", "null;", "TestScriptTeardownComponent", "tgt", "=", "new", "TestScriptTeardownComponent();", "ConversionContext10_40.INSTANCE.getVersionConvertor_10_40().copyElement(src,", "tgt);", "for", "(TestScriptTeardownActionComponent", "t", ":", "src.getAction())", "<CLASS>", "TestScript10_40.convertAssertionDirectionType(src)", "<CLASS>", "TestScript10_40.convertAssertionOperatorType(src)", "<CLASS>", "TestScript10_40.convertSetupActionComponent(src)", "<CLASS>", "TestScript10_40.convertSetupActionOperationComponent(src)", "<CLASS>", "TestScript10_40.convertTeardownActionComponent(src)", "<CLASS>", "TestScript10_40.convertTestActionComponent(src)", "<CLASS>", "TestScript10_40.convertTestScript(src)", "<CLASS>", "TestScript10_40.convertTestScriptContactComponent(src)", "<CLASS>", "TestScript10_40.convertTestScriptSetupComponent(src)", "<CLASS>", "TestScript10_40.convertTestScriptTestComponent(src)"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 62.4,
+    "x2": 285.59999999999997,
+    "y1": 257.76,
+    "y2": 422.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00029-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Percentage of correct predictions when varying the confidence of the model.",
+  "captionBoundary": {
+    "x1": 147.02090454101562,
+    "x2": 470.65509033203125,
+    "y1": 231.59426879882812,
+    "y2": 237.23681640625
+  },
+  "figType": "Figure",
+  "imageText": ["on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Baseline", "0.5", "Conﬁdence", "10.1", "100%", "50%", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Developer’s", "most", "similar", "statements", "0.5", "Conﬁdence", "10.1", "100%", "50%", "0%", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Developer’s", "frequent", "method", "invocations", "0.5", "Conﬁdence", "10.1", "100%", "50%", "0%", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Issue", "body", "0.5", "Conﬁdence", "10.1", "100%", "50%", "0%", "0%", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Issue", "title", "0.5", "Conﬁdence", "10.1", "100%", "50%", "0%", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Most", "similar", "method", "0.5", "Conﬁdence", "10.1", "100%", "50%", "0%0%0%", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Class", "0.5", "Conﬁdence", "10.1", "100%", "50%", "on", "s", "ic", "ti", "pr", "ed", "ec", "t", "Co", "rr", "Call", "0.5", "Conﬁdence", "10.1", "100%", "50%"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 121.92,
+    "x2": 498.24,
+    "y1": 72.0,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00029-Figure3-1.png"
+}, {
+  "caption": "TABLE II: Percentage of correct predictions.",
+  "captionBoundary": {
+    "x1": 92.00669860839844,
+    "x2": 265.385009765625,
+    "y1": 74.28958129882812,
+    "y2": 79.93212890625
+  },
+  "figType": "Table",
+  "imageText": ["Best", "Code", "+", "Best", "Process", "33.75%", "Best", "Code", "+", "Best", "Developer", "33.58%", "Best", "Developer", "+", "Best", "Process", "31.50%", "Best", "Code+", "Best", "Developer", "+", "Best", "Process", "33.54%", "Cross-family", "Within-family", "MSM", "+", "CS", "32.72%", "MC", "+", "CS", "33.03%", "MSM", "+", "MC", "33.35%", "MSM", "+", "MC", "+", "CS", "33.88%", "IT", "+", "IBy", "31.20%", "FI", "+", "MSS", "31.17%", "Single", "Issue", "Title", "(IT)", "31.32%", "Issue", "Body", "(IB)", "30.77%", "Frequent", "Invocations", "(FI)", "31.80%", "Most", "Similar", "Statements", "(MSS)", "31.00%", "Method", "Calls", "(MC)", "32.46%", "Class", "Signatures", "(CS)", "31.33%", "Most", "Similar", "Method", "(MSM)", "32.68%", "None", "Baseline", "30.58%", "Context", "Context", "%Correct", "Type", "Prediction"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 297.12,
+    "y1": 83.52,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00029-TableII-1.png"
+}, {
+  "caption": "Fig. 2: Method calls context helping the prediction.",
+  "captionBoundary": {
+    "x1": 79.36840057373047,
+    "x2": 278.0198974609375,
+    "y1": 490.09393310546875,
+    "y2": 495.7364807128906
+  },
+  "figType": "Figure",
+  "imageText": ["PREDICTION", "CONTEXTUAL", "MODEL", "for", "(", "final", "Map.Entry<String,", "NodeState>", "entry", ":", "treeState.state", "().entrySet", "()", ")", "@Override", "public", "void", "marshal", "(", "final", "Object", "source,", "final", "HierarchicalStreamWriter", "writer,", "final", "MarshallingContext", "context", ")", "{", "final", "TreeState", "treeState", "=", "(", "TreeState", ")", "source;", "<MISSING", "CODE>", "{", "final", "String", "nodeId", "=", "entry.getKey", "();", "final", "NodeState", "nodeState", "=", "entry.getValue", "();", "writer.startNode", "(", "\"node\"", ");", "writer.addAttribute", "(", "\"id\",", "nodeId", ");", "writer.addAttribute", "(", "\"expanded\",", "\"\"", "+", "nodeState.isExpanded", "()", ");", "writer.addAttribute", "(", "\"selected\",", "\"\"", "+", "nodeState.isSelected", "()", ");", "writer.endNode", "();", "}", "}", "PREDICTION", "BASELINE", "for", "(", "final", "Map.Entry<String,", "NodeState>", "entry", ":", "treeState.getMap", "().entrySet", "()", ")", "CONTEXT", "<C>", "StringBuilder.append(String)", "<C>", "lang.StringBuilder()", "<C>", "StringBuilder.toString()", "<C>", "NodeState.isExpanded()", "<C>", "HierarchicalStreamWriter.endNode()", "<C>", "Iterator.next()", "<C>", "TreeState.states()", "<C>", "Map.entrySet()", "<C>", "NodeState.isSelected()", "<C>", "Set.iterator()", "<C>", "Entry.getKey()", "INPUT", "METHOD"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 293.28,
+    "y1": 293.76,
+    "y2": 479.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00029-Figure2-1.png"
+}, {
+  "caption": "TABLE III: Complementarity analysis: between the correct predictions (CP) generated by the baseline and by the models exploiting different contextual information.",
+  "captionBoundary": {
+    "x1": 60.641571044921875,
+    "x2": 296.6452331542969,
+    "y1": 74.28958129882812,
+    "y2": 102.4075927734375
+  },
+  "figType": "Table",
+  "imageText": ["Best", "Code", "+", "Best", "Process", "72.72%", "9.39%", "17.89%", "Best", "Code", "+", "Best", "Developer", "73.27%", "9.31%", "17.42", "Best", "Developer", "+", "Best", "Process", "80.37%", "8.48%", "11.15%", "Best", "Code+", "Best", "Developer", "+", "Best", "Process", "71.46%", "10.32%", "18.22%", "MSM", "+", "CS", "72.62%", "10.78%", "16.6%", "MC", "+", "CS", "75.73%", "8.75%", "15.52%", "MSM", "+", "MC", "72.52%", "10%", "17.48%", "MSM", "+", "MC", "+", "CS", "71.72%", "9.75%", "18.53%", "IT", "+", "IB", "81.68%", "8.24%", "10.08%", "FI", "+", "MSS", "78.01%", "10.15%", "11.84%", "Method", "Calls", "(MC)", "78.12%", "8.29%", "13.59%", "Class", "Signatures", "(CS)", "79.03%", "9.4%", "11.57%", "Most", "Similar", "Method", "(MSM)", "73.8%", "10.22%", "15.98%", "Issue", "Title", "(IT)", "82.85%", "7.48%", "9.67%", "Issue", "Body", "(IB)", "82.74%", "8.35%", "8.91%", "Frequent", "Invocations", "(FI)", "80.45%", "8.01%", "11.54%", "Most", "Similar", "Statements", "(MSS)", "79.79%", "9.49%", "10.72%", "Context", "%CP", "%CP", "Only", "%CP", "Only", "Shared", "Baseline", "Context"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 297.12,
+    "y1": 110.88,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00029-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: Baseline vs confidence-based model.",
+  "captionBoundary": {
+    "x1": 337.892578125,
+    "x2": 526.8876342773438,
+    "y1": 195.34042358398438,
+    "y2": 200.98297119140625
+  },
+  "figType": "Table",
+  "imageText": ["Exact", "Match", "Prediction", "Shared", "2,502/3,296", "(75.91%)", "Exact", "Match", "Predictions", "only", "Baseline", "105/3,296", "(3.19%)", "Exact", "Match", "Predictions", "only", "Score", "model", "689/3,296", "(20.90%)", "COMPLEMENTARITY", "ANALYSIS", "Correct", "Predictions", "(#)", "2,607", "3,191", "Correct", "Predictions", "(%)", "30.58", "37.43", "PERFORMANCE", "COMPARISON", "Measure", "Baseline", "Conf.", "model"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 537.12,
+    "y1": 204.48,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00029-TableIV-1.png"
+}]

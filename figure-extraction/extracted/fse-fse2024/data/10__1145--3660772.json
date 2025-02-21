@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1. List of selected SAST tools. # Baseline: Tool usage as a baseline in 2021-2023. # Stars: GitHub repository stars. # Citation: Number of citations.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3974609375,
+    "y1": 87.95149993896484,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Symbolic", "Execution", "Manticore", "Bytecode", "7", "185", "3.5k", "ASE’19[36]", "Mythril", "Bytecode", "11", "/", "3.5k", "White", "Paper", "Osiris", "Bytecode", "6", "222", "50", "ACSAC’18[67]", "Oyente", "Bytecode", "8", "1897", "1.3k", "CCS’16[19]", "Securify2", "Source", "Code", "7", "649", "529", "CCS’18[69]", "Slither", "Source", "Code", "7", "244", "4.5k", "WETSEB’19[23]", "SmartCheck", "Source", "Code", "7", "481", "315", "WETSEB’18[66]", "CSA", "Source", "Code", "/", "/", "/", "/", "Static", "Analysis", "Technology", "Tool", "Analysis", "Level", "#", "Baseline", "#", "Citation", "#", "Stars", "Publication"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 419.03999999999996,
+    "y1": 117.6,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660772-Table1-1.png"
+}, {
+  "caption": "Fig. 1. Overview of our study.",
+  "captionBoundary": {
+    "x1": 188.02699279785156,
+    "x2": 297.9718322753906,
+    "y1": 240.09649658203125,
+    "y2": 244.49899291992188
+  },
+  "figType": "Figure",
+  "imageText": ["Existing", "Taxonomies", "…", "Labeling", "&", "SolidiFI", "Benchmark", "Smart", "Contract", "Benchmark", "Suites", "Smartbugs-Curated", "BNB", "Benchmark", "Not", "So", "Smart", "Contracts", "Benchmarks", "Manticore", "CSA", "Osiris", "SmartCheck", "Selected", "analyzers", "Oyente", "Mapping", "Mapping", "RQ4:", "Efficiency", "Analysis", "RQ3:", "Consistency", "Analysis", "RQ2:", "Effectiveness", "Analysis", "RQ1:", "Coverage", "Analysis", "Vulnerability", "Identifiers", "Our", "Vulnerability", "Taxonomy", "Comprehensive", "evaluation", "perspectives"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 417.12,
+    "y1": 89.75999999999999,
+    "y2": 221.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660772-Figure1-1.png"
+}, {
+  "caption": "Table 4. Analysis status overview for each SAST tool. # Success and # Failure indicate the number of contracts where tools scan successfully and unsuccessfully, respectively. # Timeout indicates the number of contracts where the tool failed due to exceeding a time limit. # Compilation denotes the number of contracts that could not be scanned due to compilation errors.",
+  "captionBoundary": {
+    "x1": 45.50510025024414,
+    "x2": 440.17681884765625,
+    "y1": 87.95149993896484,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["Mythril", "590", "(74.87%)", "193", "0", "193", "Osiris", "451", "(57.23%)", "35", "302", "337", "Oyente", "499", "(63.32%)", "57", "232", "289", "Manticore", "112", "(14.21%)", "626", "50", "676", "Securify2", "247", "(31.35%)", "38", "503", "541", "Slither", "767", "(97.34%)", "2", "19", "21", "SmartCheck", "788", "(100.00%)", "0", "0", "0", "CSA", "772", "(97.97%)", "0", "16", "16", "#", "Timeout", "#", "Compilation", "#", "Total", "Tool", "#", "Success", "#", "Failure"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 370.08,
+    "y1": 139.68,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660772-Table4-1.png"
+}, {
+  "caption": "Fig. 3. Overall e ectiveness of each tool on our benchmark.",
+  "captionBoundary": {
+    "x1": 133.17599487304688,
+    "x2": 352.82574462890625,
+    "y1": 203.79449462890625,
+    "y2": 208.19699096679688
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F1-score", "O", "yen", "te", "O", "siris", "M", "yth", "ril", "M", "an", "tico", "re", "C", "SA", "Sm", "artch", "eck", "Slith", "er", "Secu", "rify2", "2.0%", "2.4%", "1.2%", "6.4%", "0.0%", "1.8%", "1.8%", "0.7%", "0%", "10%", "20%", "30%", "40%", "50%", "60%"],
+  "name": "3",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 144.96,
+    "x2": 340.8,
+    "y1": 85.92,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660772-Figure3-1.png"
+}, {
+  "caption": "Table 2. Our proposed vulnerability taxonomy for smart contracts (# Types indicates the number of types in each category. “∗” indicates types not included in our benchmark. A “✓” indicates support by tools for a given type, followed by the number of detected samples from our benchmark. # Samples indicates the total count of vulnerability samples for each type within our benchmark. # SWC: the number of SWC entries mapped. # Supported: the number of types mapped. ).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1747741699219,
+    "y1": 87.95149993896484,
+    "y2": 136.18902587890625
+  },
+  "figType": "Table",
+  "imageText": ["Uninitialized", "variable", "✓(0)", "✓(23)", "✓(0)", "✓(31)", "35", "#", "SWC", "16", "17", "8", "32", "8", "14", "8", "6", "-", "#", "Supported", "37", "43", "14", "44", "11", "17", "8", "7", "-", "Storage", "&", "Memory", "(8)", "Payable", "Functions", "Using", "delegatecall", "inside", "a", "Loop", "✓(0)", "✓(0)", "✓(1)", "2", "Memory", "Manipulation", "✓(0)", "✓(0)", "✓(1)", "2", "Modifying", "Storage", "Array", "by", "Value∗", "✓", "✓", "✓", "-", "Arbitrary", "Function", "Jump", "via", "Inline", "Assembly∗", "✓", "-", "Bytes", "Variables", "Risk∗", "✓", "✓", "-", "Dangerous", "Usage", "of", "msg.value", "inside", "a", "Loop∗", "✓", "✓", "✓", "-", "Error-prone", "Assembly", "Usage", "✓(0)", "✓(0)", "✓(0)", "✓(0)", "1", "Reentrancy", "Vulnerability", "without", "Token", "Transfer", "✓(34)", "✓(190)", "✓(218)", "227", "Reentrancy", "Vulnerability", "with", "Same", "E", "ect", "✓(69)", "✓(276)", "✓(297)", "331", "Reentrancy", "Vulnerability", "with", "Token", "Transfer", "✓(83)", "✓(450)", "✓(513)", "✓(0)", "✓(53)", "✓(27)", "✓(27)", "525", "Reentrancy", "(5)", "Unsafe", "send()", "in", "the", "require()", "Condition", "✓(833)", "✓(0)", "✓(8)", "✓(743)", "✓(0)", "✓(0)", "1,269", "Reentrancy", "Vulnerability", "with", "Negative", "Events", "✓(13)", "✓(111)", "✓(119)", "124", "Reentrancy", "Vulnerability", "with", "Transfer", "✓(37)", "✓(201)", "✓(201)", "✓(227)", "✓(0)", "✓(45)", "✓(20)", "✓(5)", "227", "Denial", "of", "Services", "(6)", "Force", "Sending", "Ether", "with", "this.balance", "Check", "✓(0)", "✓(0)", "✓(0)", "1", "transfer()", "and", "send()", "with", "Hardcoded", "Gas", "Amount", "✓(0)", "✓(0)", "✓(7)", "✓(0)", "4", "Contract", "Could", "Lock", "Ether", "✓(50)", "✓(69)", "✓(82)", "92", "DoS", "with", "Block", "Gas", "Limit", "✓(0)", "✓(0)", "✓(0)", "8", "DoS", "With", "Failed", "Call", "✓(0)", "✓(0)", "✓(10)", "✓(2)", "✓(0)", "✓(0)", "15", "Signature", "Malleability", "✓(1)", "✓(0)", "1", "Lack", "of", "Proper", "Signature", "Veri", "cation", "✓(0)", "✓(0)", "✓(1)", "1", "Cryptographic", "(2)", "Weak", "PRNG", "(Pseudorandom", "Number", "Generator)", "✓(1)", "✓(15)", "✓(1)", "✓(23)", "✓(0)", "60", "Dangerous", "Usage", "of", "block.timestamp", "✓(370)", "✓(1,108)", "✓(1,132)", "✓(0)", "✓(210)", "✓(4)", "✓(0)", "1,139", "Transaction", "Order", "Dependency", "✓(1,231)", "✓(479)", "✓(1,970)", "✓(0)", "✓(0)", "✓(0)", "2,687Block", "Manipulation", "(3)", "Unsafe", "Array", "Length", "Assignment", "✓(0)", "✓(2)", "✓(0)", "✓(4)", "6", "Inappropriate", "Integer", "Division", "before", "Multiplication", "✓(0)", "✓(8)", "✓(2)", "✓(0)", "✓(1)", "10", "Integer", "Over", "ow/Under", "ow", "✓(0)", "✓(1)", "✓(645)", "✓(0)", "✓(44)", "✓(325)", "✓(91)", "1,976Arithmetic", "(3)", "Write", "to", "Arbitrary", "Storage", "Location", "✓(0)", "✓(2)", "✓(0)", "✓(2)", "✓(0)", "6", "Access", "Control", "(18)", "Unsafe", "Delegatecall", "✓(0)", "✓(3)", "✓(1)", "✓(0)", "✓(0)", "✓(0)", "8", "Unused", "Return", "Value", "✓(0)", "✓(0)", "✓(0)", "✓(3)", "✓(0)", "✓(0)", "6", "Usage", "of", "Public", "Mint", "or", "Burn", "✓(0)", "✓(1)", "✓(3)", "✓(6)", "6", "Unprotected", "Contract", "Destruction", "✓(0)", "✓(4)", "✓(13)", "✓(16)", "✓(0)", "✓(2)", "✓(1)", "✓(1)", "19", "Unprotected", "Ether", "Withdrawal", "✓(2)", "✓(36)", "✓(40)", "✓(48)", "✓(0)", "✓(16)", "67", "Missing", "Input", "Validation", "(Call", "Inject)", "✓(0)", "✓(13)", "✓(12)", "✓(0)", "24", "Sending", "Ether", "to", "Arbitrary", "Destinations", "✓(0)", "✓(26)", "✓(46)", "✓(0)", "56", "Default", "Function", "Visibility", "✓(24)", "✓(20)", "✓(2)", "29", "Initializing", "Method", "without", "Permission", "Check", "✓(0)", "✓(0)", "✓(1)", "5", "Method", "permit()", "Used", "for", "Arbitrary", "from", "in", "transferFrom()", "✓(0)", "✓(1)", "✓(2)", "6", "Missing", "msg.sender", "Check", "for", "transferFrom()", "✓(0)", "✓(0)", "✓(2)", "7", "Dangerous", "Immediate", "Initialization", "of", "State", "Variables", "✓(10)", "✓(9)", "12", "Dangerous", "Usage", "of", "tx.origin", "✓(905)", "✓(1,169)", "✓(1,271)", "✓(244)", "1,371", "Caller", "Not", "Checked", "✓(2)", "✓(5)", "✓(10)", "11", "Logic", "Contract", "Could", "be", "Destructed∗", "✓", "✓", "-", "Arbitrary", "from", "in", "transferFrom()", "without", "msg.sender", "Check", "✓(11)", "✓(15)", "17", "Call", "to", "Arbitrary", "Addresses", "with", "Unchecked", "Call", "data", "✓(1)", "✓(1)", "1", "#", "S", "a", "m", "p", "le", "s", "O", "y", "e", "n", "te", "O", "si", "ri", "s", "M", "y", "th", "ri", "l", "re", "M", "a", "n", "ti", "co", "C", "S", "A", "S", "m", "a", "rt", "C", "h", "e", "ck", "S", "li", "th", "e", "r", "ri", "fy", "2", "Category", "(#", "Types)", "Type", "S", "e", "cu"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 437.28,
+    "y1": 150.72,
+    "y2": 489.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660772-Table2-1.png"
+}, {
+  "caption": "Table 5. The number of detected vulnerabilities in each category. For each vulnerability category: AC: Access Control, AR: Arithmetic, BM: Block Manipulation, CR: Cryptographic, DoS: Denial of Services, RE: Reentrancy, S&M: Storage & Memory.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1584777832031,
+    "y1": 330.426513671875,
+    "y2": 356.7459716796875
+  },
+  "figType": "Table",
+  "imageText": ["Listing", "2.", "Detection", "logic", "for", "unrestricted-ether-flow", "within", "Securify2.", "16", "violationInContext(callCtx", ",", "\"\")", ":-", "17", "applicableInContext(callCtx),", "ctxProvider.elementInContext(callCtx", ",", "call", ",", "context),", "18", "callValue(call", ",", "value),", "19", "!zeroValue", "([value", ",", "context", "]),", "20", "!maybeCompliantInContext(callCtx).", "flows", "10", "applicableInContext(callCtx),", "11", "someSender(senderCtx),", "12", "(", "13", "infoflow.instrMustDependOn(callCtx", ",", "senderCtx)", "14", ").", "15", "//", "Violation", "rule:", "Non", "-compliant", "conditions", ",", "indicating", "potential", "unrestricted", "ether", "3", "//", "Compliance", "check:", "Ether", "amount", "associated", "with", "a", "call", "is", "zero", "4", "compliantInContext(callCtx", ",", "\"\")", ":-", "5", "applicableInContext(callCtx),", "ctxProvider.elementInContext(callCtx", ",", "call", ",", "context),", "6", "callValue(call", ",", "amount),", "7", "valueOf", "([amount", ",", "context],", "\"0\").", "8", "//", "Compliance", "check:", "External", "call", "depends", "on", "the", "transaction", "'s", "sender", "9", "compliantInContext(callCtx", ",", "\"\")", ":-", "call", ",", "_).", "1", "//", "Identifying", "relevant", "contexts", "via", "external", "calls", "2", "applicableInContext(callCtx)", ":-", "externalCall(call),", "ctxProvider.elementInContext(callCtx", ","],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 440.15999999999997,
+    "y1": 87.84,
+    "y2": 298.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660772-Table5-1.png"
+}]

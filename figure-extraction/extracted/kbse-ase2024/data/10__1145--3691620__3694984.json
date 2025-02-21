@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: The Overview of Microservice System.",
+  "captionBoundary": {
+    "x1": 341.8786926269531,
+    "x2": 534.2789306640625,
+    "y1": 158.72894287109375,
+    "y2": 162.8983154296875
+  },
+  "figType": "Figure",
+  "imageText": ["Generating", "Server", "Log", "Generating", "log", "Log", "message", "Hosts", "Collected", "Collected", "Metrics", "Consists", "of", "Generating", "instance", "Recorded", "to", "(Caller,Callee)Consists", "of", "Physical", "Node", "Microservice", "pair", "TraceInvocation(Span)", "Container", "Microservice", "System", "Microservice"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 580.3199999999999,
+    "y1": 84.0,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Figure1-1.png"
+}, {
+  "caption": "Figure 5: The procedure of reversing log parsing",
+  "captionBoundary": {
+    "x1": 76.5470962524414,
+    "x2": 271.29644775390625,
+    "y1": 164.10504150390625,
+    "y2": 168.2744140625
+  },
+  "figType": "Figure",
+  "imageText": ["Current", "Time", "Window", "Template", "Information", "Log", "Reverse", "Parsing"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 315.84,
+    "y1": 86.39999999999999,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Figure5-1.png"
+}, {
+  "caption": "Table 1: Benchmark dataset statistics.",
+  "captionBoundary": {
+    "x1": 97.86919403076172,
+    "x2": 249.6793670654297,
+    "y1": 188.17083740234375,
+    "y2": 192.3402099609375
+  },
+  "figType": "Table",
+  "imageText": ["A", "124", "62249", "17", "18", "B", "501", "412714", "29", "20", "C", "8", "469988", "43", "2", "D", "12000", "7200", "2173", "5", "Dataset", "Features", "Samples", "Service", "faults", "classes"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 289.44,
+    "y1": 208.79999999999998,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Table1-1.png"
+}, {
+  "caption": "Figure 8: The Imbalanced Experiment with SMOTE.",
+  "captionBoundary": {
+    "x1": 69.55809783935547,
+    "x2": 278.3030700683594,
+    "y1": 250.1571044921875,
+    "y2": 254.32647705078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 316.32,
+    "y1": 85.92,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Figure8-1.png"
+}, {
+  "caption": "Figure 2: The Pipeline of SLIM.",
+  "captionBoundary": {
+    "x1": 243.3574981689453,
+    "x2": 368.6442565917969,
+    "y1": 332.11932373046875,
+    "y2": 336.2886962890625
+  },
+  "figType": "Figure",
+  "imageText": ["Generating", "online", "Data", "Input", "RuleSet", "LearningFeature", "Binarizer", "Applying", "Model", "Root", "Cause", "Analysis", "Fault", "Localization", "Feedback", "result", "Operations", "Engineers", "MetricsLogs", "Logs", "Log", "Parsing", "and", "Analyzing", "Processed", "Raw", "Data", "DataBase", "Solve", "problem", "Collect", "Data", "Cloud", "Service&agent", "Cloud", "Infrastructure", "Request&Response", "Web", "Applications"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 552.0,
+    "y1": 85.44,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Figure2-1.png"
+}, {
+  "caption": "Table 2: Accuracy comparison of different root cause localization algorithms.",
+  "captionBoundary": {
+    "x1": 149.86929321289062,
+    "x2": 461.8374328613281,
+    "y1": 87.18780517578125,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Murphy", "0.843", "10.4%", "0.86", "12.4%", "0.90", "10.2%", "0.8135", "AutoMap", "Unsupervied", "0.534", "74.3%", "0.624", "55%", "0.741", "33.9%", "0.4213", "Sage", "Semi-supervised", "0.82", "13.5%", "0.86", "8.2%", "0.90", "10.2%", "0.7862", "MEFPL(MLP)", "0.91", "2.3%", "0.967", "0%", "0.985", "0.7%", "0.8764", "Eadro", "0.90", "3.3%", "0.956", "1.1%", "0.992", "0%", "0.8642", "Seer", "0.82", "13.5%", "0.843", "14.7%", "0.882", "12.5%", "0.7913", "C", "MEPFL(RF)", "Supervised", "0.89", "4.5%", "0.956", "1.2%", "0.967", "2.6%", "0.8607", "SLIM", "0.931", "–", "0.967", "–", "0.992", "–", "0.9132", "DecisionTree", "0.771", "20.8%", "0.86", "12.4%", "0.90", "10.2%", "0.7332", "Murphy", "0.564", "19.3%", "0.662", "13.3%", "0.756", "9.4%", "0.5185", "AutoMap", "Unsupervied", "0.258", "161%", "0.342", "119%", "0.379", "118%", "0.2132", "Sage", "Semi-supervised", "0.513", "31.2%", "0.635", "18.1%", "0.712", "16.2%", "0.4570", "MEFPL(MLP)", "0.487", "38.2%", "0.513", "46.2%", "0.603", "37.1%", "0.4358", "Eadro", "0.635", "6.0%", "0.698", "7.5%", "0.788", "4.5%", "0.6079", "Seer", "0.503", "33.8%", "0.564", "33%", "0.603", "37.1%", "0.4882", "B", "MEPFL(RF)", "Supervised", "0.603", "11.6%", "0.635", "5.1%", "0.756", "9.4%", "0.5803", "SLIM", "0.673", "–", "0.75", "–", "0.827", "–", "0.6423", "DecisionTree", "0.559", "20.4%", "0.603", "24.4%", "0.635", "30.2%", "0.5331", "Murphy", "0.656", "2.6%", "0.791", "5.8%", "0.837", "2.7%", "0.6242", "AutoMap", "Unsupervied", "0.336", "135%", "0.435", "92.4%", "0.489", "75.6%", "0.2745", "Sage", "Semi-supervised", "0.635", "2.6%", "0.771", "8.6%", "0.837", "2.7%", "0.6079", "MEFPL(MLP)", "0.452", "75%", "0.574", "45.8%", "0.603", "42.6%", "0.3281", "Eadro", "0.741", "6.7%", "0.86", "−2.7%", "0.903", "−4.8%", "0.7214", "Seer", "0.482", "64.1%", "0.594", "40.9%", "0.643", "33.7%", "0.4507", "A", "MEPFL(RF)", "Supervised", "0.698", "13.3%", "0.837", "0%", "0.86", "0%", "0.7047", "SLIM", "0.791", "–", "0.837", "–", "0.86", "–", "0.7649", "DecisionTree", "0.532", "48.7%", "0.635", "31.8%", "0.656", "31.1%", "0.5019", "Dataset", "Algorithm", "Category", "A@1", "A@1⇑", "A@2", "A@2⇑", "A@3", "A@3⇑", "Kappa", "Analysis"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 524.16,
+    "y1": 108.0,
+    "y2": 425.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Table2-1.png"
+}, {
+  "caption": "Figure 3: The Challenge of Service Change.",
+  "captionBoundary": {
+    "x1": 87.01119995117188,
+    "x2": 260.83294677734375,
+    "y1": 237.18115234375,
+    "y2": 241.35052490234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 265.44,
+    "y1": 82.56,
+    "y2": 222.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Figure3-1.png"
+}, {
+  "caption": "Figure 6: The Overhead of Algorithms on Datasets.",
+  "captionBoundary": {
+    "x1": 71.33709716796875,
+    "x2": 276.50537109375,
+    "y1": 273.964111328125,
+    "y2": 278.13348388671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 316.32,
+    "y1": 172.79999999999998,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Figure6-1.png"
+}, {
+  "caption": "Figure 4: Log Parsing, Matching and Analyzing.",
+  "captionBoundary": {
+    "x1": 78.10710144042969,
+    "x2": 269.7361755371094,
+    "y1": 225.885009765625,
+    "y2": 230.05438232421875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 86.88,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694984-Figure4-1.png"
+}]

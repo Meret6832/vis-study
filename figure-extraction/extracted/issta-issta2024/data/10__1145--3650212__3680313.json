@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: A Venn diagram displaying VCCs for which the tools can produce warning(s) in the vulnerable functions (S5:1Fn-Any)",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.2051391601562,
+    "y1": 202.0310821533203,
+    "y2": 228.24298095703125
+  },
+  "figType": "Figure",
+  "imageText": ["flawfinderinfer", "cppcheck", "codeql", "codechecker", "11", "1", "1", "0", "52", "30", "19", "10", "0", "11", "0", "7", "188", "0", "16", "2", "10", "42", "51", "45", "58", "1", "3", "4", "0", "17", "11725"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 88.32,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Figure4-1.png"
+}, {
+  "caption": "Table 4: Name and description of detection scenarios in two change levels.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04644775390625,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Scenario", "Name", "by", "Change", "Level", "Description", "File", "Function", "S1:1F-Any", "S5:1Fn-Any", "At", "least", "one", "vulnerable", "change", "in", "the", "VCC", "receives", "warnings", "with", "any", "type.", "S2:1F-Same", "S6:1Fn-Same", "At", "least", "one", "vulnerable", "change", "in", "the", "VCC", "receives", "warnings", "with", "the", "same", "vulnera-", "bility", "type", "as", "the", "VCC.", "S3:allF-Any", "S7:allFn-Any", "All", "vulnerable", "changes", "in", "the", "VCC", "receive", "warnings", "with", "any", "type.", "S4:allF-Same", "S8:allFn-Same", "All", "vulnerable", "changes", "in", "the", "VCC", "receive", "warnings", "with", "the", "same", "vulnerability", "type", "as", "the", "VCC."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 116.64,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Table4-1.png"
+}, {
+  "caption": "Figure 3: Percentages of VCCs that the tools can detect in di erent scenarios.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0473327636719,
+    "y1": 454.5041198730469,
+    "y2": 469.75799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["codechecker", "codeql", "cppcheck", "flawfinder", "infer", "4%", "27%", "6%", "33%", "17%", "55%", "20%", "63%", "31%", "38%", "43%", "59%", "52%", "83%", "62%", "89%", "6%", "4%", "1%", "2%", "1%", "8%", "13%", "17%", "8%", "38%", "11%", "46%", "25%", "68%", "31%", "76%", "3%", "17%", "4%", "25%", "10%", "42%", "14%", "49%", "Cs", "d", "VC", "ec", "te", "f", "D", "et", "ge", "o", "en", "ta", "Pe", "rc", "100", "80", "60", "40", "20", "0", "Detection", "Scenarios", "S1", "1F-Any", "S2", "1F-Same", "S3", "AllF-Any", "S4", "AllF-Same", "S5", "1Fn-Any", "S6", "1Fn-Same", "S7", "AllFn-Any", "S8", "All-Fn-Same"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 289.44,
+    "y1": 264.0,
+    "y2": 432.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Figure3-1.png"
+}, {
+  "caption": "Figure 5: An illustration to depict changed functions without prioritization (above) and with warning-based prioritization (below) using a real VCC from libsnd le.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.2060546875,
+    "y1": 201.9461212158203,
+    "y2": 228.15899658203125
+  },
+  "figType": "Figure",
+  "imageText": ["100%0%", "Code", "Review", "Effort", "Vulnerable", "Functions", "Vulnerable", "Functions", "416", "LOC", "218", "LOC", "13", "LOC", "20", "LOC", "1", "2", "3", "4", "1", "2", "3", "4", "Order", "of", "Changed", "Functions", "in", "Code", "Review", "20", "LOC", "With", "Warning-based", "Prioritization", "(top-down)", "Without", "Prioritization", "13", "LOC", "218", "LOC", "416", "LOC"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 334.08,
+    "x2": 540.48,
+    "y1": 86.39999999999999,
+    "y2": 186.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Figure5-1.png"
+}, {
+  "caption": "Table 5: Numbers of VCCs that receive warnings in all vulnerable functions (S8:allFn-Same) or at least one vulnerable function (S6:1Fn-Same) and percentages by CWE pillars. The rst and the second numbers are from S8 and S6, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.65380859375,
+    "y1": 87.06208801269531,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Finding", "(vulnerability", "types):", "CodeQL", "can", "detect", "the", "most", "types", "of", "vulnerability", "in", "VCCs", "(5", "out", "of", "8).", "Only", "Cod-", "eQL", "can", "detect", "vulnerability", "type", "Access", "Ctrl", "(CWE-284)", "and", "Control", "Flow", "(CWE-691),", "while", "only", "CodeChecker", "can", "detect", "vulnerability", "type", "Cond", "Check", "(CWE-703).", "Flaw", "nder", "can", "detect", "most", "VCCs", "of", "type", "Resource", "Ctrl", "(CWE-664)", "and", "Neutralization", "(CWE-707).", "(CWE-703)", "(20%),", "e.g.,", "null", "pointer", "dereferences", "caused", "by", "the", "incorrect", "order", "of", "arguments", "[11]", "and", "Coding", "Std", "(CWE-710),", "(16%)", "e.g.,", "the", "improper", "if", "statement", "[7].", "•", "CodeChecker", "warns", "most", "VCCs", "related", "to", "Cond", "Check", "Cond", "Check", "CWE-703", "4/4", "(20%/20%)", "-", "-", "-", "-", "Neutralization", "CWE-707", "3/3", "(5%/5%)", "-", "-", "9/12", "(16%/21%)", "-", "Coding", "Std", "CWE-710", "8/12", "(16%/27%)", "2/2", "(4%/4%)", "1/1", "(2%/2%)", "-", "6/7", "(13%/16%)", "-", "-", "-", "Control", "Flow", "CWE-691", "-", "2/2", "(4%/4%)", "-", "2/2", "(2%/2%)", "Incorrect", "Cal", "CWE-682", "-", "9/11", "(12%/14%)", "1/1", "(1%/1%)", "205/249", "(38%/46%)", "24/33", "(4%/6%)", "43/63", "(8%/12%)", "4/8", "(1%/1%)", "Resource", "Ctrl", "CWE-664", "17/44", "(3%/4%)", "-", "-", "-", "-", "1/1", "(3%/3%)", "Access", "Ctrl", "CWE-284", "CWE", "Pillar", "Code", "Check", "er", "Code", "QL", "Cppc", "heck", "Flaw", "nde", "r", "Infer"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 138.72,
+    "y2": 475.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Table5-1.png"
+}, {
+  "caption": "Figure 1: Overview of our study approach.",
+  "captionBoundary": {
+    "x1": 353.1090087890625,
+    "x2": 523.0491943359375,
+    "y1": 282.0121154785156,
+    "y2": 286.3070068359375
+  },
+  "figType": "Figure",
+  "imageText": ["External", "Data", "Source", "Warnings", "Execution", "Time", "Selected", "VCCs", "(815)", "SASTs", "(5)", "Warning", "Type", "Grouping", "Execution", "&", "CWE", "Pillar", "with", "Vulnerable", "Changes", "Location", "RQ3)", "Computing", "Time", "RQ2)", "Warning-based", "Prioritization", "Analysis", "RQ1)", "Detection", "Rate", "Select", "VCCs", "Group", "Vulnerability", "Types", "Identify", "Vulnerable", "Changes", "Data", "Preparation", "All", "VCCs", "(11,853)"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 328.32,
+    "x2": 550.0799999999999,
+    "y1": 95.03999999999999,
+    "y2": 265.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Figure1-1.png"
+}, {
+  "caption": "Table 1: Key di erences between this work and the recent SAST studies focusing on vulnerability identi cation.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0435791015625,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Li", "et", "al.", "[48]", "Java", "63", "165", "7", "✓", "-", "Lipp", "et", "al.", "[49]", "C/C++", "9", "192", "5", "✗", "-", "Our", "Study", "C/C++", "92", "319", "8", "✓", "815", "VCCs", "Study", "Lang.", "Subject", "Projects", "CVEs", "CWE", "Groups", "Exec.", "Time", "Code", "Com-", "mits"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 116.64,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Table1-1.png"
+}, {
+  "caption": "Figure 6: An example of Recall@ %LOC with and without warning-based prioritization of a real VCC from Leptonica.",
+  "captionBoundary": {
+    "x1": 53.44879913330078,
+    "x2": 294.0472412109375,
+    "y1": 197.0351104736328,
+    "y2": 212.28900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Recall", "0.33", "Without", "Prioritization", "With", "Prioritization", "Recall", "0.66", "Recall", "Score", "Difference", "or", "e", "ll", "Sc", "Re", "ca", "1.0", "0.8", "0.6", "0.4", "0.2", "0", "20", "25", "40", "60", "80", "100", "%", "LOC", "in", "Changed", "Functions"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 92.64,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Figure6-1.png"
+}, {
+  "caption": "Table 2: Vulnerability types of selected VCCs. A single VCC can be related to more than one CWE pillar.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0491943359375,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Neutalization", "CWE-707", "Improper", "Neutralization", "56", "Coding", "Std", "CWE-710", "Improper", "Adherence", "to", "Coding", "Standards†", "45", "†", "indicates", "the", "additional", "pillars", "from", "[49]", "Conditions", "20", "Incorrect", "Cal", "CWE-682", "Incorrect", "Calculation", "78", "Control", "Flow", "CWE-691", "Insu", "cient", "Control", "Flow", "Management", "56", "Protect", "Mech", "CWE-693", "Protection", "Mechanism", "Failure†", "13", "Cond", "Check", "CWE-703", "Improper", "Check", "or", "Handling", "of", "Exceptional", "Lifetime", "538", "Access", "Ctrl", "CWE-284", "Improper", "Access", "Control†", "38", "Resource", "Ctrl", "CWE-664", "Improper", "Control", "of", "a", "Resource", "Through", "its", "Short", "Name", "CWE", "Pillar", "#VCCs"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 302.4,
+    "y1": 116.64,
+    "y2": 224.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Table2-1.png"
+}, {
+  "caption": "Table 7: Computation time statistics",
+  "captionBoundary": {
+    "x1": 100.59889221191406,
+    "x2": 246.9484405517578,
+    "y1": 210.6787872314453,
+    "y2": 214.97369384765625
+  },
+  "figType": "Table",
+  "imageText": ["codechecker", "codeql", "cppcheck", "flawfinder", "infer", ")", "ed", "(s", "e", "Us", "Ti", "m", "10000", "1000", "100", "10", "1", "System", "LOC", "<", "500", "500-1k", "1k-2k", "2k-5k", "5k-8k", "8k-10k", "10k-15k", "15k-20k", "20k-50k", "50k-100k", ">", "100k", "Miminum", "3", "26", "1", "1", "2", "Mean", "213", "343", "2,702", "20", "456", "Median", "74", "148", "1,546", "6", "184", "Maximum", "7,268", "3,314", "16,974", "88", "2,305", "Time", "(s)", "Code", "Check", "er", "Code", "QL", "Cppc", "heck", "Flaw", "nde", "r", "Infer"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 229.92,
+    "y2": 410.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Table7-1.png"
+}, {
+  "caption": "Table 6: Percentage of performance di erences when changed functions are ranked with warning-based prioritization in scenario S5 (1Fn-Any) at 25% of LOC in changed functions.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1994018554688,
+    "y1": 87.06208801269531,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["CodeChecker", "9.36%‡", "8.09%‡", "7.87%‡", "2.65%", "5.66%", "2.00%", "-6.87%", "-10.29%†", "-5.81%", "CodeQL", "12.09%‡", "10.98%‡", "9.93%‡", "-4.72%", "3.43%", "-3.37%", "-2.51%", "-13.34%‡", "-2.36%", "Cppcheck", "2.10%", "2.10%", "2.10%", "0.81%", "0.81%", "0.81%", "-0.44%", "-0.39%", "-0.44%", "Flaw", "nder", "9.87%†", "2.51%", "8.84%", "-8.58%", "-0.38%", "-7.94%", "7.85%", "-4.23%", "6.21%", "Infer", "9.04%‡", "9.14%‡", "9.05%‡", "-1.98%", "3.25%", "-1.87%", "-3.24%", "-10.79%", "-3.36%", "‡", "strongly", "signi", "cant:", "?", "<", "0.002;", "†", "moderately", "signi", "cant:", "0.002", "≤", "?", "<", "0.01", "(U", "is", "adjusted", "with", "Bonferroni", "correction)", "IFA", "(WS)↘", "IFA", "(WD)↘", "Recall@25%", "(WA)↗", "Recall@25%", "(WD)↗", "Recall@25%", "(WS)↗", "IFA", "(WA)↘", "Prec@25%", "(WS)↗", "Prec@25%", "(WD)↗", "Tool", "Prec@25%", "(WA)↗"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Table6-1.png"
+}, {
+  "caption": "Figure 7: An average computation time across various system sizes in VCCs (Total LOC)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0459899902344,
+    "y1": 428.4901123046875,
+    "y2": 443.7439880371094
+  },
+  "figType": "Figure",
+  "imageText": ["5", "Discussion", "Finding", "(system", "size):", "The", "tools", "require", "longer", "compu-", "tation", "time", "when", "the", "size", "of", "the", "system", "is", "larger", "than", "50kLOC-100kLOC.", "le", "analysis", "approach,", "resulting", "in", "bottlenecks", "with", "larger", "projects."],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.68,
+    "y1": 465.59999999999997,
+    "y2": 557.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680313-Figure7-1.png"
+}]

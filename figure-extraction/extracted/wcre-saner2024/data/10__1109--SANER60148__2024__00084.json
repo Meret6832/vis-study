@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 5: Overlap of identified bug-inducing commits",
+  "captionBoundary": {
+    "x1": 81.22940063476562,
+    "x2": 276.141357421875,
+    "y1": 269.2812805175781,
+    "y2": 273.64520263671875
+  },
+  "figType": "Figure",
+  "imageText": ["Compared", "to", "the", "line-level", "SZZ", "method,", "unfortunately,", "the", "token-level", "SZZ", "method", "results", "in", "worse", "overall", "per-", "formance,", "with", "a", "0.081", "decrease", "in", "F1", "score.", "On", "the", "other", "hand,", "the", "token-level", "method", "can", "discover", "additional", "true-", "positive", "commits", "that", "may", "not", "be", "identiﬁed", "by", "the", "line-", "level", "SZZ", "method.", "As", "described", "in", "Section", "II-B,", "this", "indicates", "that", "token-level", "tracking", "has", "the", "potential", "to", "enhance", "the", "SZZ", "performance."],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 296.15999999999997,
+    "y1": 293.76,
+    "y2": 400.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-Figure5-1.png"
+}, {
+  "caption": "TABLE II: Comparison of the accuracy of identified buginducing commits",
+  "captionBoundary": {
+    "x1": 61.94300079345703,
+    "x2": 295.4353332519531,
+    "y1": 76.00590515136719,
+    "y2": 91.488037109375
+  },
+  "figType": "Table",
+  "imageText": ["(a)", "True", "Positive", "(b)", "False", "Positive", "Line", "level", "0.342", "0.671", "0.453", "51", "98", "Token", "level", "0.277", "0.566", "0.372", "43", "112", "Difference", "-0.065", "-0.105", "-0.081", "-8", "+14", "Precision", "Recall", "F1", "score", "TP", "FP"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 275.03999999999996,
+    "y1": 99.84,
+    "y2": 258.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-TableII-1.png"
+}, {
+  "caption": "TABLE I: Overview of SZZ variants in previous studies",
+  "captionBoundary": {
+    "x1": 71.71769714355469,
+    "x2": 286.392333984375,
+    "y1": 75.07676696777344,
+    "y2": 79.440673828125
+  },
+  "figType": "Table",
+  "imageText": ["AG-SZZ", "[16],", "[17]", "2006", "Exclude", "formatting", "and", "appearance", "changes", "DJ-SZZ", "[18]", "2008", "Ignore", "non-executed", "line", "changes", "such", "as", "whitespace", "R-SZZ", "[19]", "2014", "Return", "the", "most", "recent", "commit", "L-SZZ", "[19]", "2014", "Return", "the", "commit", "with", "the", "highest", "number", "of", "changed", "lines", "MA-SZZ", "[3]", "2017", "Exclude", "meta", "changes", "(e.g.,", "branch", "changes)", "RA-SZZ", "[20],", "[21]", "2019", "Exclude", "refactoring", "changes", "PR-SZZ", "[22]", "2022", "Use", "the", "pull", "request", "information", "Rosa", "et", "al.", "[23]", "2023", "A", "heuristic", "to", "handle", "lines", "in", "bug-ﬁxing", "commits", "Neural", "SZZ", "[24]", "2023", "Use", "only", "highly", "important", "deleted", "lines", "Name", "Year", "Key", "characteristics"],
+  "name": "I",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 296.15999999999997,
+    "y1": 87.84,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-TableI-1.png"
+}, {
+  "caption": "TABLE III: Comparison of the accuracy of identified buginducing commits when using the histogram algorithm",
+  "captionBoundary": {
+    "x1": 314.12469482421875,
+    "x2": 547.616943359375,
+    "y1": 202.3704071044922,
+    "y2": 217.8525390625
+  },
+  "figType": "Table",
+  "imageText": ["(a)", "Changes", "at", "line-level", "tracking", "132", "+", "logger.info(\"[eXist", "Home", ":", "\"", "133", "+", "+", "System.getProperty(\"exist.home\",", "\"unknown\")", "+", "\"]\");", "134", "logger.info(\"[eXist", "Version", ":", "\"", "135", "+", "SystemProperties.getInstance().getSystemProperty(\"product-version\",", "\"unknown\")", "+", "\"]\");", "136", "logger.info(\"[eXist", "Build", ":", "\"", "137", "+", "SystemProperties.getInstance().getSystemProperty(\"product-build\",", "\"unknown\")", "+", "\"]\");", "137", "-", "logger.info(\"[eXist", "Home", ":", "\"", "138", "-", "+", "SystemProperties.getInstance().getSystemProperty(\"exist.home\",", "\"unknown\")", "+", "\"]\");", "138", "logger.info(\"[Git", "commmit", ":", "\"", "139", "+", "SystemProperties.getInstance().getSystemProperty(\"git-commit\",", "\"unknown\")", "+", "\"]\");"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 540.0,
+    "y1": 72.96,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-TableIII-1.png"
+}, {
+  "caption": "TABLE VI: Potential benefits and pitfalls of using line-level and token-level tracking for the SZZ method (The checkmark ( ) indicates that this benefit/pitfall has not been reported by previous studies)",
+  "captionBoundary": {
+    "x1": 61.749000549316406,
+    "x2": 539.8330688476562,
+    "y1": 75.61900329589844,
+    "y2": 91.10113525390625
+  },
+  "figType": "Table",
+  "imageText": ["LP1", "It", "tracks", "cosmetic", "changes", "(e.g.,", "formatting", "changes", "and", "empty", "line", "changes).", "[16],", "[18]", "LP2", "It", "is", "unable", "to", "track", "commits", "that", "only", "add", "lines.", "[23]", "[28]", "Line-level", "Pitfalls", "TP3", "It", "frequently", "leads", "to", "false", "positives", "by", "tracking", "parentheses", "(e.g.,", "{},", "())", "and", "semicolons.", "Beneﬁts", "LB1", "It", "is", "able", "to", "track", "changes", "that", "only", "add", "tokens.", "Token-level", "TP1", "It", "is", "unable", "to", "track", "commits", "that", "only", "add", "tokens.", "Pitfalls", "TP2", "It", "potentially", "induces", "a", "large", "number", "of", "false-positive", "bug-inducing", "commits.", "Beneﬁts", "TB1", "It", "is", "able", "to", "ignore", "cosmetic", "changes", "(e.g.,", "formatting", "changes", "and", "whitespace", "changes)", "[13]", "TB2", "It", "is", "able", "to", "track", "changes", "to", "a", "part", "of", "the", "line", "(e.g.,", "changing", "a", "token)", "[13]", "Type", "Aspects", "Ref.", "number", "Description", "Related", "work"],
+  "name": "VI",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 535.1999999999999,
+    "y1": 99.84,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-TableVI-1.png"
+}, {
+  "caption": "Fig. 1: Different scenarios in which SZZ identifies correct and incorrect bug-inducing commits",
+  "captionBoundary": {
+    "x1": 313.6361083984375,
+    "x2": 547.1190795898438,
+    "y1": 252.1174774169922,
+    "y2": 267.599609375
+  },
+  "figType": "Figure",
+  "imageText": ["L.10", "func(arg2,", "clean_arg)", "L.10", "func(arg1,", "buggy_arg)", "L.10", "func(arg2,", "buggy_arg)", "Commit", "C", "Commit", "B", "Commit", "A", "Ideal", "tracking", "Git", "blame", "tracking", "(actual:", "bug-inducing,", "SZZ:", "non-bug-inducing)", "(actual:", "non-bug-inducing,", "SZZ:", "bug-inducing)", "(actual:", "bug-", "xing,", "SZZ:", "bug-", "xing)", "Oct.", "10", "Oct.", "12", "Oct.", "14", "to", "ry", "H", "is", "m", "it", "C", "om"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 550.56,
+    "y1": 81.6,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-Figure1-1.png"
+}, {
+  "caption": "TABLE IV: The number of commits confirmed as true-positive by our manual verification within the false-positive by the SZZ method and the developer-informed oracle",
+  "captionBoundary": {
+    "x1": 61.937400817871094,
+    "x2": 295.4296875,
+    "y1": 75.76066589355469,
+    "y2": 102.36102294921875
+  },
+  "figType": "Table",
+  "imageText": ["Both", "3/64", "Line-level", "0/34", "Token-level", "1/48", "Type", "#commits", "conﬁrmed", "as", "TP", "by", "manual", "veriﬁcation/", "#FP", "commits", "by", "the", "SZZ", "method"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 285.12,
+    "y1": 110.88,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-TableIV-1.png"
+}, {
+  "caption": "TABLE V: Percentage of commits that are accurately tracked but false-positive by the SZZ method",
+  "captionBoundary": {
+    "x1": 314.71087646484375,
+    "x2": 548.203125,
+    "y1": 75.40238952636719,
+    "y2": 90.884521484375
+  },
+  "figType": "Table",
+  "imageText": ["Both", "44/64", "0.688", "Type", "#commits", "tracked", "accurately/", "#FP", "commits", "by", "the", "SZZ", "method", "Percentage", "Line", "level", "9/34", "0.265", "Token", "level", "19/48", "0.396"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 534.24,
+    "y1": 98.88,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-TableV-1.png"
+}, {
+  "caption": "Fig. 2: Overview of the annotation using the line-level and token-level SZZ methods",
+  "captionBoundary": {
+    "x1": 140.1136932373047,
+    "x2": 463.7283630371094,
+    "y1": 244.0618133544922,
+    "y2": 248.42572021484375
+  },
+  "figType": "Figure",
+  "imageText": ["PySZZ", "v2", "･･･", "bug-fixing", "commits", "bug", "repors", "･･･", "Token-level", "SZZ", "Token-level", "bug-inducing", "commits", "･･･", "Line-level", "SZZ", "Line-level", "bug-inducing", "commits", "･･･", "SZZ", "method", "cregit", "Token-level", "commits", "Tokenized", "･･･", "SCM", "system", "(Git)", "bug-fixing", "commits", "bug", "repors", "developer-informed", "oracle", "Line-level", "commits", "･･･", "SCM", "system", "(Git)"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 493.44,
+    "y1": 72.96,
+    "y2": 228.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: Example of tokenization by cregit (the target code displays “Hello World!!” in Java)",
+  "captionBoundary": {
+    "x1": 62.877201080322266,
+    "x2": 296.36016845703125,
+    "y1": 420.4883728027344,
+    "y2": 435.97052001953125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "public", "class", "HelloWorld", "{", "public", "static", "void", "main(String[]", "args)", "{", "System.out.println(\"Hello", "World!!\");", "}", "}", "1", "2", "3", "4", "5", "begin_class", "specifier|public", "class|class", "name|HelloWorld", "block|{", "specifier|public", "specifier|static", "name|void", "name|main", "parameter_list|(", "name|String", "index|[]", "name|args", "parameter_list|)", "block|{", "name|System", "operator|.", "name|out", "operator|.", "name|println", "argument_list|(", "literal|\"Hello", "World!!\"", "argument_list|)", "expr_stmt|;", "block|}", "block|}", "end_class"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 72.48,
+    "x2": 288.0,
+    "y1": 272.64,
+    "y2": 411.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-Figure3-1.png"
+}, {
+  "caption": "Fig. 4: Overview of our research methodology",
+  "captionBoundary": {
+    "x1": 85.1989974975586,
+    "x2": 262.5349426269531,
+    "y1": 202.37608337402344,
+    "y2": 206.739990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Manual", "verification", "RQ2,", "RQ3", "Feature", "analysis", "Compare", "to", "baseline", "RQ1", "Accuracy", "analysis", "False", "Positive", "commits", "･･･", "True", "Positive", "commits", "･･･", "baseline", "bug-inducing", "commits", "･･･", "developer-infomed", "oracle", "Token-level", "bug-inducing", "commits", "･･･", "Line-level", "bug-inducing", "commits", "･･･"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 293.76,
+    "y1": 72.96,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00084-Figure4-1.png"
+}]

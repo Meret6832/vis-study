@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 4: Examples for extension function.",
+  "captionBoundary": {
+    "x1": 89.34600067138672,
+    "x2": 258.19366455078125,
+    "y1": 201.89236450195312,
+    "y2": 207.52301025390625
+  },
+  "figType": "Table",
+  "imageText": ["containsPlace", "place", "a", "in", "a", "place", "in", "hasPart", "part", "a", "of", "a", "part", "of", "Relation", "Word", "Article", "Preposition", "Extension(𝑓", ")", "creator", "creator", "the", "of", "the", "creator", "of", "author", "author", "the", "of", "the", "author", "of"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 283.2,
+    "y1": 221.76,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table4-1.png"
+}, {
+  "caption": "Table 3: Five conversion patterns from fact triples into statements",
+  "captionBoundary": {
+    "x1": 172.29800415039062,
+    "x2": 439.3951416015625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ID", "Applied", "Fact", "𝑓", "Convert", "Pattern", "Convert(𝑓", ")", "Example:", "𝑓", "⇒", "Convert(𝑓", ")", "1", "𝐸1", "𝐸2𝑅", "𝐸2", "is", "Extension(𝑅)", "𝐸1", "Xfce", "Oliver", "Fourdancreator", "⇒", "Oliver", "Fourdan", "is", "the", "creator", "of", "Xfce.", "2", "𝐸1", "𝐸2gender", "𝐸1", "is", "a", "𝐸2", "Oliver", "Fourdan", "Malegender", "⇒", "Oliver", "Fourdan", "is", "a", "male.", "3", "𝐸1", "𝐸2¬𝑅", "𝐸2", "is", "not", "Extension(𝑅)", "𝐸1", "GNU", "Linux-libre", "GNU¬hasPart", "⇒", "GNU", "is", "not", "a", "part", "of", "GNU", "Linux-libre.", "4", "𝐸1", "𝐸3𝑅1", "◦", "𝑅2", "𝐸3", "is", "Extension(𝑅2)", "Extension(𝑅1)", "𝐸1", "Stabat", "Mater", "Seraphicuscomposer◦giveName", "⇒", "Seraphicus", "is", "the", "given", "name", "of", "the", "composer", "of", "Stabat", "Mater.", "5", "𝐸1", "𝐸3𝑅1◦gender", "Extension(𝑅1)", "𝐸1", "is", "a", "𝐸3.", "Xfce", "Malecreator◦gender", "⇒", "The", "creator", "of", "Xfce", "is", "a", "male."],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 554.4,
+    "y1": 105.6,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table3-1.png"
+}, {
+  "caption": "Table 1: Answers to three questions with inference relations",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0386047363281,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["⇓", "Q2:", "Is", "Washington", "State", "a", "place", "in", "the", "USA", "Yes", "✓", "Consequence", "Q3:", "Is", "Seattle", "a", "place", "in", "the", "USA", "No", "×", "1", "Due", "to", "the", "transitive", "relation", "“a", "place", "in”,", "the", "answer", "of", "Q3", "could", "be", "logically", "inferred", "from", "the", "answers", "of", "Q1", "and", "Q2.", "As", "the", "actual", "answer", "“No”", "of", "Q3", "is", "inconsistent", "with", "the", "inferred", "answer", "“Yes”,", "an", "inference", "bug", "is", "detected.", "Question", "Answer", "Antecedent", "Q1:", "Is", "Seattle", "a", "place", "in", "Washington", "State?", "Yes", "✓"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 300.0,
+    "y1": 108.47999999999999,
+    "y2": 184.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table1-1.png"
+}, {
+  "caption": "Table 5: Examples of generated question: Q1&Q2 are antecedent questions, Q3/Q4 are basic/extended consequence questions.",
+  "captionBoundary": {
+    "x1": 53.86600112915039,
+    "x2": 557.8178100585938,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Q3:", "Is", "Tim", "Peters", "the", "author", "of", "PEP20?", "Yes", "C3(S1+S2):", "Tim", "Peters", "is", "the", "author", "of", "Zen", "of", "Python.", "PEP", "20", "is", "the", "alternative", "name", "for", "Zen", "of", "Python.", "Q4:", "Is", "Donald", "Knuth", "the", "author", "of", "PEP20?", "No", "C4(S1+S2):", "Tim", "Peters", "is", "the", "author", "of", "Zen", "of", "Python.", "PEP", "20", "is", "the", "alternative", "name", "for", "Zen", "of", "Python.", "Consequence", "S3:", "Tim", "Peters", "is", "the", "author", "of", "PEP20.", "Antecedent", "S1:", "Tim", "Peters", "is", "the", "author", "of", "Zen", "of", "Python.", "Q1:", "Is", "Tim", "Peters", "the", "author", "of", "Zen", "of", "Python?", "Yes", "S2:", "PEP", "20", "is", "the", "alternative", "name", "for", "Zen", "of", "Python.", "Q2:", "Is", "PEP", "20", "the", "alternative", "name", "for", "Zen", "of", "Python?", "Yes", "Statement", "Question", "Answer"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 554.4,
+    "y1": 105.6,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table5-1.png"
+}, {
+  "caption": "Table 6: The Scale of the Test Dataset Generated.",
+  "captionBoundary": {
+    "x1": 340.0039978027344,
+    "x2": 535.8483276367188,
+    "y1": 187.21035766601562,
+    "y2": 192.84100341796875
+  },
+  "figType": "Table",
+  "imageText": ["#Entity", "317,784", "660,700", "105,999", "1,089,336", "2,173,819", "#TestCase", "900,672", "716,521", "128,486", "1,092,385", "2,838,064", "Rules", "IR1", "IR2", "IR3", "IR4", "#Total"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 207.84,
+    "y2": 254.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table6-1.png"
+}, {
+  "caption": "Figure 5: The overlaps of inference bugs detected by four IRs in three studied QA models.",
+  "captionBoundary": {
+    "x1": 125.50700378417969,
+    "x2": 486.4779968261719,
+    "y1": 251.33438110351562,
+    "y2": 256.96502685546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 558.24,
+    "y1": 96.96,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Figure5-1.png"
+}, {
+  "caption": "Table 10: KGIT and QAQA test examples.",
+  "captionBoundary": {
+    "x1": 355.2969970703125,
+    "x2": 520.5581665039062,
+    "y1": 277.23736572265625,
+    "y2": 282.8680114746094
+  },
+  "figType": "Table",
+  "imageText": ["QAQA", "Winslow", "Homer", "is", "the", "creator", "of", "A", "Visit", "from", "the", "Old", "Mistress.", "Matt", "Groening", "is", "the", "creator", "of", "Dr.", "Nick.", "Homer", "Groening", "is", "a", "parent", "of", "Matt", "Groening.", "Someone", "told", "me", "that", "Matt", "Groening", "is", "a", "parent", "of", "Matt", "Groening,", "is", "Homer", "Groening", "a", "parent", "of", "the", "creator", "of", "Dr.", "Nick?", "Is", "Homer", "Groening", "a", "parent", "of", "the", "creator", "of", "Dr.", "Nick?", "Nick.", "Homer", "Groening", "is", "a", "parent", "of", "Matt", "Groening.", "Context", "Question", "KGIT", "Matt", "Groening", "is", "the", "creator", "of", "Dr."],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 560.16,
+    "y1": 297.59999999999997,
+    "y2": 381.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table10-1.png"
+}, {
+  "caption": "Figure 1: An example of test cases containing questions and contexts generated from KG facts with correct (✓) and incorrect (×) answers on UnifiedQA-v2-large.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8056640625,
+    "y1": 385.5803527832031,
+    "y2": 413.1289978027344
+  },
+  "figType": "Figure",
+  "imageText": ["Context", "3:", "Franz", "Schubert", "is", "the", "composer", "of", "Stabat", "Mater", "in", "F", "minor.", "Seraphicus", "is", "the", "given", "name", "of", "Franz", "Schubert.", "Answer", "3:", "No", "(×)", "(d)", "Consequence", "test", "cases", "with", "error", "answers", "Question", "3:", "Is", "Seraphicus", "the", "given", "name", "of", "the", "composer", "of", "Stabat", "Mater", "in", "F", "minor?", "(c)", "Reasoning", "for", "new", "statements", "Mater", "in", "F", "minor.", "Antecedent", "1:", "Franz", "Schubert", "is", "the", "composer", "of", "Stabat", "Mater", "in", "F", "minor.", "Antecedent", "2:", "Seraphicus", "is", "the", "given", "name", "of", "Franz", "Schubert.", "Consequence:", "Seraphicus", "is", "the", "given", "name", "of", "the", "composer", "of", "Stabat", "(b)", "Two", "antecedent", "test", "cases", "with", "right", "answers", "Question", "2:", "Is", "Seraphicus", "the", "given", "name", "of", "Franz", "Schubert?", "Context", "2:", "null", "Answer", "2:", "Yes", "(✓)", "Question", "1:", "Is", "Franz", "Schubert", "the", "composer", "of", "Stabat", "Mater", "in", "F", "minor?", "Context", "1:", "null", "Answer", "1:", "Yes", "(✓)", "(a)", "Two", "Facts", "in", "Knowledge", "Graph", "givenName", "Seraphicus", "Stabat", "Mater", "in", "F", "minor", "Franz", "Schubertcomposer"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 563.04,
+    "y1": 88.32,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Figure1-1.png"
+}, {
+  "caption": "Table 7: The Manual Inspection Results for Test Cases.",
+  "captionBoundary": {
+    "x1": 63.42499923706055,
+    "x2": 284.11407470703125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Cohen’s", "Kappa", "71.15%", "64.54%", "71.29%", "100.00%", "Realistic", "94%", "96%", "94%", "100%", "Grammatical", "error", "6%", "4%", "5%", "0%", "Factual", "error", "0%", "0%", "1%", "0%", "IR1", "IR2", "IR3", "IR4"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 269.28,
+    "y1": 105.6,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table7-1.png"
+}, {
+  "caption": "Table 2: The Relations Applied in Four Inference Rules.",
+  "captionBoundary": {
+    "x1": 325.3890075683594,
+    "x2": 550.46240234375,
+    "y1": 366.9153747558594,
+    "y2": 372.5460205078125
+  },
+  "figType": "Table",
+  "imageText": ["Composition", "𝑅1∈", "{author,", "editor,", "creator,", "organizer,", "director,.", ".", ".", "}", "𝑅2∈", "{gender,", "alumniOf,", "birthPlace,", "children,", "deathPlace,.", ".", ".", "}", "Alias", "𝑅∈", "{actor,", "affiliation,", "alumniOf,", "author,", "birthPlace,", ".", ".", ".", "}", "Transitive", "𝑅∈", "{hasPart,", "containsPlace}", "Inverse", "𝑅∈", "{hasPart,", "parent,", "children,", "author,", "editor,.", ".", ".", "}", "1", "Due", "to", "space", "limitation,", "we", "list", "the", "top", "five", "studied", "relations", "here.", "More", "details", "of", "applied", "relations", "are", "available", "on", "our", "online", "repository,", "see", "Section", "9.1.", "Rule", "Applied", "Relations", "extracted", "from", "the", "KG"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 386.88,
+    "y2": 471.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table2-1.png"
+}, {
+  "caption": "Figure 4: Overlaps on seed dataset compared to QAQA.",
+  "captionBoundary": {
+    "x1": 64.03399658203125,
+    "x2": 283.8003234863281,
+    "y1": 471.63134765625,
+    "y2": 477.2619934082031
+  },
+  "figType": "Figure",
+  "imageText": ["6685", "6989", "10532", "8415", "5452", "7461", "8418", "5452", "6682", "QAQA", "KGIT", "QAQA", "KGIT", "QAQA", "KGIT", "Uni", "edQA-v2-small", "Uni", "edQA-v2-base", "Uni", "edQA-v2-large"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 272.15999999999997,
+    "y1": 362.88,
+    "y2": 457.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Figure4-1.png"
+}, {
+  "caption": "Table 9: The Examples of QA Software Unexpected Behaviors.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1942138671875,
+    "y1": 363.8093566894531,
+    "y2": 369.44000244140625
+  },
+  "figType": "Table",
+  "imageText": ["Context", "C3:", "Hong", "is", "the", "family", "name", "of", "Hong", "Hao.", "Zhongxuan", "is", "the", "alternative", "name", "for", "Hong", "Hao.", "#2", "Question", "Q2:", "Is", "the", "producer", "of", "What", "If", "a", "female?", "No/male", "Context", "C2:", "J.R.", "Rotem", "is", "the", "producer", "of", "What", "If.", "Male", "is", "the", "gender", "of", "J.R.", "Rotem.", "#3", "Question", "Q3:", "Is", "Lesser", "the", "family", "name", "of", "Zhongxuan?", "No/zhongxuan", "Context", "C1:", "Jin", "Yong", "is", "the", "author", "of", "Sword", "of", "the", "Yue", "Maiden.", "Cha", "is", "the", "family", "name", "of", "Jin", "Yong.", "#1", "Question", "Q1:", "Is", "Cha", "the", "family", "name", "of", "the", "author", "of", "Sword", "of", "the", "Yue", "Maiden?", "Yes/No", "Example", "Expected/Actual"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 384.0,
+    "y2": 489.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table9-1.png"
+}, {
+  "caption": "Table 8: The Effectiveness of Our Approach.",
+  "captionBoundary": {
+    "x1": 217.00900268554688,
+    "x2": 394.68817138671875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#Bug", "#BugExt", "#Total", "#Bug", "#BugExt", "#Total", "#Bug", "#BugExt", "#Total", "#Bug", "#BugExt", "#Total", "UnifiedQA-v2-small", "936", "90,772", "291,446", "758", "16,949", "83,128", "36", "21,615", "91,432", "646,513", "646,672", "646,976", "UnifiedQA-v2-base", "7,256", "37,885", "718,009", "33,354", "70,851", "541,598", "1,671", "19,738", "120,579", "911,790", "934,344", "999,786", "UnifiedQA-v2-large", "4,035", "10,503", "759,750", "47,817", "60,612", "592,558", "5,924", "28,795", "122,779", "853,436", "882,189", "1,021,865", "Model", "IR1", "IR2", "IR3", "IR4"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 545.28,
+    "y1": 105.6,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Table8-1.png"
+}, {
+  "caption": "Figure 3: The change in the model’s inference bug rate with retraining steps.",
+  "captionBoundary": {
+    "x1": 151.40200805664062,
+    "x2": 460.5854187011719,
+    "y1": 337.9063415527344,
+    "y2": 343.5369873046875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "UnifiedQA-v2-large", "Bug", "Rate", "vs.", "Steps", "IR1", "IR2", "IR3", "IR4", "Ra", "te", "Bu", "g", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0", "0", "1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000", "9000", "10000", "Steps", "(b)", "UnifiedQA-v2-base", "Bug", "Rate", "vs.", "Steps", "IR1", "IR2", "IR3", "IR4", "Ra", "te", "Bu", "g", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0", "0", "1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000", "9000", "10000", "Steps", "(a)", "UnifiedQA-v2-small", "Bug", "Rate", "vs.", "Steps", "IR1", "IR2", "IR3", "IR4", "Ra", "te", "Bu", "g", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0", "0", "1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000", "9000", "10000", "Steps"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 548.16,
+    "y1": 190.07999999999998,
+    "y2": 318.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639109-Figure3-1.png"
+}]

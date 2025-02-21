@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 5: Strati ed search with retrieval APIs for context gathering.",
+  "captionBoundary": {
+    "x1": 169.4199981689453,
+    "x2": 442.5814208984375,
+    "y1": 177.46481323242188,
+    "y2": 181.8179931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Buggy", "location", "is:", "1.", "ClassA.methodB", "2.ClassB.methodC", "<Project", "context", "k>", "Context", "sufficient.", "Stratum", "k", "...", "search_method_in_class", "(methodC,", "classB)", "Stratum", "2", "search_class(classB)", "(methodB,", "classA)", "<Project", "context", "1>", "Context", "not", "sufficient.", "search_method_in_class", "search_class(classA)", "search_code_in_file", "(code_str,", "fileA)", "Problem", "Statement", "search_method(methodA)", "Stratum", "1"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 87.84,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure5-1.png"
+}, {
+  "caption": "Figure 11: Snapshot of full SWE-bench leaderboard on 12th July 2024",
+  "captionBoundary": {
+    "x1": 53.62810134887695,
+    "x2": 294.04559326171875,
+    "y1": 226.65084838867188,
+    "y2": 241.9630126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure11-1.png"
+}, {
+  "caption": "Figure 10: Taxonomy of Challenges in SWE-bench lite.",
+  "captionBoundary": {
+    "x1": 63.402000427246094,
+    "x2": 284.4410705566406,
+    "y1": 237.71279907226562,
+    "y2": 242.06597900390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 275.03999999999996,
+    "y1": 82.56,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure10-1.png"
+}, {
+  "caption": "Figure 1: Issue description of django-13933 and AutoCodeRover’s work ow on it.",
+  "captionBoundary": {
+    "x1": 138.36900329589844,
+    "x2": 473.6309814453125,
+    "y1": 381.62982177734375,
+    "y2": 385.9830017089844
+  },
+  "figType": "Figure",
+  "imageText": ["Step", "3", "Step", "2", "Step", "4", "Step", "1", "Issue", "Description", "ModelChoiceField", "does", "not", "provide", "value", "of", "invalid", "choice", "when", "raising", "Validation", "Error.", "Compared", "with", "ChoiceField", "and", "others,", "ModelChoiceField", "does", "not", "show", "the", "value", "of", "the", "invalid", "choice", "when", "raising", "a", "validation", "error.", "Passing", "in", "parameters", "with", "the", "invalid", "value", "and", "modifying", "the", "default", "error", "message", "for", "the", "code", "invalid_choice", "should", "fix", "this.", "From", "source", "code:", "class", "ModelMultipleChoiceField(ModelChoiceField):", "   ", "...", "'invalid_choice':", "_('Select", "a", "valid", "choice.", "%(value)s", "is", "not", "one", "of", "the", "available", "choices.'),", "...", "class", "ModelChoiceField(ChoiceField):", "   ", "...", "'invalid_choice':", "_('Select", "a", "valid", "choice.", "That", "choice", "is", "not", "one", "of", "the", "available", "choices.'),", "...", "<patched>", "   ", "raise", "ValidationError(self.error_messages['invalid_choice']", "% ", "            ", "{'value':value},", "code='invalid_choice')", "</patched>", "<file>", "   ", "django/forms/models.py,", "Line", "1287", "</file>", "Here", "are", "the", "code", "in", "buggy", "locations:", "....", "Write", "a", "patch", "for", "the", "issue,", "based", "on", "the", "retrieved", "context.", "Buggy", "location:", "1.", "File", "django/forms/models.py,", "class", "ModelChoiceField,", "method", "to_python", "-", "validate", "method", "simply", "calls", "the", "validate", "method", "of", "its", "parent", "class.", "-", "to_python", "method", "is", "responsible", "for", "converting", "the", "input", "into", "a", "Python", "object.", "The", "ValidationError", "raised", "in", "to_python", "does", "not", "include", "the", "invalid", "value", "in", "the", "error", "message", "(consistent", "with", "the", "issue).", "-", "Proposed", "solution:", "Adjust", "the", "error", "message", "to", "incorporate", "the", "value", "dynamically,", "similar", "to", "how", "ModelMultipleChoiceField", "includes", "%(value)s", "in", "its", "error", "message.", "1.", "Found", "1", "method", "validate", "in", "ModelChoiceField.", "Implementation", "is:", "...", "2.", "Found", "1", "method", "to_python", "in", "ModelChoiceField.", "Implementation", "is:", "   ", "def", "to_python(self,", "value):", "       ", "...", "       ", "raise", "ValidationError(self.error_messages['invalid_choice'],", "                ", "code='invalid_choice')", "1.", "search_method_in_class(\"validate\",", "\"ModelChoiceField\")", "2.", "search_method_in_class(\"to_python\",", "\"ModelChoiceField\")", "-", "ModelChoiceField", "class", "does", "not", "have", "a", "clean", "method.", "It", "likely", "uses", "another", "method", "like", "validate", "or", "to_python", "to", "validate", "inputs.", "-", "ModelMultipleChoiceField", "class", "incorporates", "the", "invalid", "value", "(%(value)s)", "into", "the", "error", "message.", "This", "is", "not", "the", "case", "for", "ModelChoiceField,", "which", "is", "likely", "the", "root", "of", "the", "issue.", "-", "We", "might", "modify", "the", "validate", "or", "to_python", "method", "(since", "clean", "is", "not", "directly", "overwritten)", "to", "customize", "the", "error", "message", "similarly", "to", "how", "ModelMultipleChoiceField", "does.", "-", "Next", "step:", "examine", "validate", "and", "to_python", "methods", "of", "ModelChoiceField.", "1.", "Found", "1", "class", "with", "name", "ModelChoiceField.", "Signature:", "...", "def", "to_python():", "...", "def", "validate():", "...", "2.", "Found", "1", "class", "with", "name", "ModelMultipleChoiceField.", "Signature:", "...", "def", "to_python():", "...", "def", "clean():", "...", "3.", "Could", "not", "find", "method", "clean", "in", "ModelChoiceField.", "4.", "Found", "1", "method", "clean", "in", "ModelMultipleChoiceField.", "Code:", "...", "We", "need", "to", "understand", "how", "the", "ModelChoiceField", "and", "potentially", "the", "ModelMultipleChoiceField", "classes", "handle", "validation", "and", "error", "messages.", "...", "Typically,", "Django", "fields", "use", "a", "clean", "method", "for", "validation.", "1.", "search_class(\"ModelChoiceField\")", "2.", "search_class(\"ModelMultipleChoiceField\")", "3.", "search_method_in_class(\"clean\",", "\"ModelChoiceField\")", "4.", "search_method_in_class(\"clean\",", "\"ModelMultipleChoiceField\")", "Based", "on", "the", "issue,", "use", "the", "APIs", "below", "to", "get", "more", "context:", "-", "search_class(...).", "-", "search_method_in_class(...)", "-", "search_code_in_file(...)", "-", "......", "Select", "necessary", "APIs.", "You", "can", "use", "multiple", "APIs."],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 82.56,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure1-1.png"
+}, {
+  "caption": "Figure 8: The number of resolved tasks and token cost distributions of AutoCodeRover and Swe-agent.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8112182617188,
+    "y1": 513.9528198242188,
+    "y2": 529.2650146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 529.4399999999999,
+    "y1": 377.76,
+    "y2": 499.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Venn diagrams of resolved tasks instances by AutoCodeRover and Swe-agent, on SWE-bench lite.",
+  "captionBoundary": {
+    "x1": 317.69500732421875,
+    "x2": 559.8092651367188,
+    "y1": 179.72579956054688,
+    "y2": 195.03802490234375
+  },
+  "figType": "Figure",
+  "imageText": ["SWE-agent", "23", "Unique:", "26", "AutoCodeRover", "Unique:", "Common:", "31"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 365.76,
+    "x2": 497.28,
+    "y1": 83.52,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Task-resolving success rates (%) and average costs per task in USD of AutoCodeRover and baselines.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1973876953125,
+    "y1": 346.8398132324219,
+    "y2": 362.1520080566406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 346.56,
+    "x2": 529.4399999999999,
+    "y1": 210.72,
+    "y2": 332.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure7-1.png"
+}, {
+  "caption": "Table 2: Overall Result of AutoCodeRover and baselines on full SWE-bench, SWE-bench Devin subset, and SWE-bench lite. \"-\" indicates data not available.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04840087890625,
+    "y1": 87.0038070678711,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Swe-agent", "[47]", "13.51%", "(77)", "-", "234k", "($2.40)", "Devin", "[24,", "40]4", "13.86%", "(79)", ">", "600", "-", "AutoCodeRover@1", "12.63%", "(72)", "238", "37k", "($0.42)", "AutoCodeRover@3", "18.77%", "(107)", "692", "117k", "($1.36)", "Reported", "result", "on", "SWE-bench", "Devin", "subset", "(size=570)", "Swe-agent", "[47]", "12.47%", "(286)", "-", "240k", "($2.46)", "AutoCodeRover@1", "12.42%", "(285)", "248", "39k", "($0.45)", "AutoCodeRover@3", "17.96%", "(422)", "701", "120k", "($1.39)", "Reported", "result", "on", "full", "SWE-bench", "(size=2294)", "Swe-agent", "[47]", "18.00%", "(54)", "-", "245k", "($2.51)", "AutoCodeRover@1", "19.00%", "(57)", "195", "37k", "($0.43)", "AutoCodeRover@3", "26.00%", "(78)", "520", "112k", "($1.30)", "ACR-sb", "22.00%", "(66)", "250", "40k", "($0.47)", "Reported", "result", "on", "SWE-bench", "lite", "(size=300)", "Tools", "Resolved", "Tasks", "Avg", "Time", "Avg", "Tokens"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 127.67999999999999,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Table2-1.png"
+}, {
+  "caption": "Figure 2: Overall work ow of AutoCodeRover.",
+  "captionBoundary": {
+    "x1": 207.7779998779297,
+    "x2": 404.22161865234375,
+    "y1": 194.92483520507812,
+    "y2": 199.27801513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Problem", "Statement", "Context", "retrieval", "stage", "Patch", "generatation", "stage", "Final", "patch", "Yes", "No", "\"Patch", "cannot", "be", "applied", "to", "program.", "Please", "try", "again.\"", "Patch", "generation", "Can", "be", "applied?", "Please", "write", "patch.\"", "\"Code", "at", "buggy", "location:", "...", "Yes", "Buggy", "locations", "No", "sufficient?", "\"Results", "of", "the", "invocations:", "...\"", "Context", "analysis", "\"Collect", "context", "by", "invoking", "APIs.\"", "API", "invocations"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure2-1.png"
+}, {
+  "caption": "Figure 3: AutoCodeRover and developer patch for Django13933.",
+  "captionBoundary": {
+    "x1": 53.56480026245117,
+    "x2": 295.6461486816406,
+    "y1": 370.2668151855469,
+    "y2": 385.5790100097656
+  },
+  "figType": "Figure",
+  "imageText": ["-", "raise", "ValidationError(self.error_messages['invalid_choice", "'],", "-", "code='invalid_choice", "')", "+", "raise", "ValidationError(", "+", "self.error_messages['invalid_choice", "'],", "+", "code='invalid_choice", "',", "+", "params", "={'value", "':", "value},)", "except", "(ValueError", ",", "TypeError", ",", "self.queryset.model.DoesNotExist):", "-", "raise", "ValidationError(self.error_messages['invalid_choice", "'],", "-", "code='invalid_choice", "')", "+", "%", "Include", "the", "invalid", "value", "in", "the", "error", "message", "+", "raise", "ValidationError(", "+", "self.error_messages['invalid_choice", "']", "%", "{'value", "':", "value},", "+", "code='invalid_choice", "')", "\"\"\"", "Developer", "patch.", "\"\"\"", "except", "(ValueError", ",", "TypeError", ",", "self.queryset.model.DoesNotExist):", "\"\"\"", "AutoCodeRover", "patch.", "\"\"\""],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 298.08,
+    "y1": 216.95999999999998,
+    "y2": 352.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure3-1.png"
+}, {
+  "caption": "Figure 9: Issue description and AutoCodeRover’s context retrieval (w. and w.o. SBFL), on django-13964.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2031860351562,
+    "y1": 333.27581787109375,
+    "y2": 348.5880126953125
+  },
+  "figType": "Figure",
+  "imageText": ["I", "would", "use", "the", "following", "APIs:", "1.", "search_method_in_class", "(resolve_related_fields,", "ForeignKey)", "2.", "search_method_in_class(_prepare_related_fields_for_save,", "Model)", "(WITH", "SBFL)", "An", "external", "analysis", "tool", "identifies", "the", "following", "code", "as", "suspicious:", "1.", "Method", "convert_uuidfield_value", "in", "class", "DatabaseOperations", "2.", "Method", "_do_update", "in", "class", "Model", "3.", "Method", "_prepare_related_fields_for_save", "in", "class", "Model", "4.", "Method", "_resolve_output_field", "in", "class", "Value", "5.", "Method", "resolve_related_fields", "in", "class", "ForeignKey", "Saving", "parent", "object", "after", "setting", "on", "child", "leads", "to", "data", "loss", "for", "parents", "with", "non-numeric", "primary", "key.", "Given", "a", "model", "with", "a", "ForeignKey", "relation", "to", "another", "model", "that", "has", "a", "non-auto", "CharField", "as", "its", "primary", "key:", "class", "Product(model.Model):", "...", "class", "Order(model.Model):", "...", "If", "the", "relation", "is", "initialized", "on", "the", "parent", "with", "an", "empty", "instance", "...", "Instead", "of", "product_id", "being", "populated", "with", "product.sku,", "it", "is", "set", "to", "empty", "string.", "...", "<Details", "at", "https://code.djangoproject.com/ticket/32332>", "(WITHOUT", "SBFL)", "I", "would", "use", "the", "following", "APIs:", "Stratum", "1:.search_class(Product),", "search_class(Order),", "...", "Stratum", "2:", "search_code_in_file(\"class", "Product(models.Model):\",", "\"tests/queries/models.py\")"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 553.4399999999999,
+    "y1": 84.0,
+    "y2": 317.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure9-1.png"
+}, {
+  "caption": "Figure 4: Issue description of sympy-12481 and django-13230. “Hints” are highlighted.",
+  "captionBoundary": {
+    "x1": 316.7720031738281,
+    "x2": 559.731201171875,
+    "y1": 400.059814453125,
+    "y2": 415.3710021972656
+  },
+  "figType": "Figure",
+  "imageText": ["Add", "comments", "argument", "to", "feed.add_item()", "in", "syndication.views", "so", "that", "item_comments", "can", "be", "defined", "directly", "without", "having", "to", "take", "the", "detour", "via", "item_extra_kwargs.", "Additionally,", "comments", "is", "already", "explicitly", "mentioned", "in", "the", "feedparser,", "but", "not", "implemented", "in", "the", "view.", "(Issue", "django-13230)", "Add", "support", "for", "item_comments", "to", "syndication", "framework.", "This", "should", "be", "easy", "to", "compute.", "I", "don't", "see", "a", "reason", "why", "non-disjoint", "cycles", "should", "be", "forbidden.", "Calling", "Permutation([[0,1],[0,1]])", "raises", "a", "ValueError", "instead", "of", "constructing", "the", "identity", "permutation.", "If", "the", "cycles", "passed", "in", "are", "non-disjoint,", "they", "should", "be", "applied", "in", "left-to-right", "order", "and", "the", "resulting", "permutation", "should", "be", "returned.", "(Issue", "sympy-12481)", "Permutation", "constructor", "fails", "with", "non-disjoint", "cycles."],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 216.95999999999998,
+    "y2": 383.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Figure4-1.png"
+}, {
+  "caption": "Table 1: List of Context Retrieval APIs.",
+  "captionBoundary": {
+    "x1": 227.2169952392578,
+    "x2": 384.4873352050781,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["API", "name", "Description", "Output", "search_class", "(cls)", "Search", "for", "class", "cls", "in", "the", "codebase.", "Signature", "of", "the", "searched", "class.", "search_class_in_", "le", "(cls,", "f)", "Search", "for", "class", "cls", "in", "le", "f.", "Signature", "of", "the", "searched", "class.", "search_method", "(m)", "Search", "for", "method", "m", "in", "the", "codebase.", "Implementation", "of", "the", "searched", "method.", "search_method_in_class", "(m,", "cls)", "Search", "for", "method", "m", "in", "class", "cls.", "Implementation", "of", "the", "searched", "method.", "search_method_in_", "le", "(m,", "f)", "Search", "for", "method", "m", "in", "le", "f.", "Implementation", "of", "the", "searched", "method.", "search_code", "(c)", "Search", "for", "code", "snippet", "c", "in", "the", "codebase.", "+/-", "3", "lines", "of", "the", "searched", "snippet", "c.", "search_code_in_", "le", "(c,", "f)", "Search", "for", "code", "snippet", "c", "in", "le", "f.", "+/-", "3", "lines", "of", "the", "searched", "snippet", "c."],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680384-Table1-1.png"
+}]

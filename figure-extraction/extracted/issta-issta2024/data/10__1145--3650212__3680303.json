@@ -1,0 +1,361 @@
+[{
+  "caption": "Figure 1: Overview of This Paper",
+  "captionBoundary": {
+    "x1": 371.7049865722656,
+    "x2": 504.45263671875,
+    "y1": 505.8271179199219,
+    "y2": 511.4580078125
+  },
+  "figType": "Figure",
+  "imageText": ["SMT", "Solving", "Multiple-TX", "Paths", "Near-Transaction-based", "Recalling", "Executed-Transaction-based", "Skipping", "Bottleneck", "and", "Redundancy", "Analysis", "Multiple-transaction", "Symbolic", "Execution", "Smart", "Contract", "LENT-SSE"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 558.24,
+    "y1": 429.59999999999997,
+    "y2": 495.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure1-1.png"
+}, {
+  "caption": "Figure 8: Motivating Example of NTRA",
+  "captionBoundary": {
+    "x1": 94.56900024414062,
+    "x2": 253.27427673339844,
+    "y1": 179.54408264160156,
+    "y2": 185.17498779296875
+  },
+  "figType": "Figure",
+  "imageText": ["Solve", "Skip", "Recall", "X", "X", "TX", "1", "TX", "2bTX", "2a"],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 62.4,
+    "x2": 294.24,
+    "y1": 84.47999999999999,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure8-1.png"
+}, {
+  "caption": "Figure 9: Concrete Contract Example of NTRA",
+  "captionBoundary": {
+    "x1": 79.63099670410156,
+    "x2": 268.21234130859375,
+    "y1": 274.922119140625,
+    "y2": 280.5530090332031
+  },
+  "figType": "Figure",
+  "imageText": ["TX", "2b", "Recall", "checking", "!lock", "TX", "2a", "Skip", "checking", "!lock", "Unreachable", "States", "TX", "1", "Pass", "!lock", "x1>0:", "lock=true,", "bug", "x1<=0:", "lock=true", "}", "bug()", "}", "if", "!lock:", "lock=true", "if", "x>0:", "Contract", "Example", "{", "bool", "lock=false", "F(x)", "{"],
+  "name": "9",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 278.4,
+    "y1": 192.95999999999998,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure9-1.png"
+}, {
+  "caption": "Table 5: Comparison between Different Heuristics in SSE on SmartBugs Dataset",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2059936523438,
+    "y1": 380.5321044921875,
+    "y2": 397.12200927734375
+  },
+  "figType": "Table",
+  "imageText": ["2", "137", "2", "93", "29", "15", "14546.0", "18869.7", "4", "73", "49", "15", "15511.7", "18714.9", "8", "72", "34", "31", "17085.2", "20574.8", "16", "74", "38", "25", "21920.7", "22778.0", "1", "138", "2", "25", "51", "62", "1503.2", "1852.0", "4", "21", "54", "63", "1630.6", "1950.7", "8", "31", "90", "17", "2048.2", "3120.5", "16", "35", "86", "17", "3974.0", "4220.2", "TX’", "#Con’", "L’", "#", "Shortest", "Time", "Overall", "Time", "(s)", "Origin", "SSE1", "SSE2", "SSE1", "SSE2"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 404.64,
+    "y2": 507.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Table5-1.png"
+}, {
+  "caption": "Figure 2: Example Paths and Constraints of Symbolic Execution in Multiple TXs of a Single Smart Contract",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6509094238281,
+    "y1": 222.1861114501953,
+    "y2": 238.7760009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Constraint", "X", "Unreachable", "Omitted", "Path", "Code", "Block", "!X1,", "!Y1,", "!X2,", "!Y2", "Y2", "X", "!X1,", "!Y1,", "!X2", "!X1,", "!Y1,", "X2", "X", "!X1,", "!Y1,", "!X2,", "Y2", "Target", "TX", "(TX", "2b)", "X1,", "!X2", "X1,", "X2", "!X1", "Y2", "X", "X1,", "!X2,", "Y2", "!X1,", "!Y1", "!X1,", "Y1", "X1", "!Y2", "X2", "!X2", "X2", "!X2", "Y1", "!Y1", "X1", "!X1", "TX", "Depth", "#2", "Near", "TX", "(TX", "2a)", "Executed", "TX", "(TX", "1)", "X", "TX", "Depth", "#1"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 303.36,
+    "y1": 86.88,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Background of Multiple TXs in SE of a Single Smart Contracts",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0452880859375,
+    "y1": 355.29010009765625,
+    "y2": 371.8789978027344
+  },
+  "figType": "Figure",
+  "imageText": ["Smart", "Contract", "Multiple-transaction", "Symbolic", "Execution", "TX", "2a", "TX", "2b", "TX", "1", "Set()", "Withdraw()", "Withdraw()", "Set()", "Withdraw()", "Set()", "}", "}", "}", "if", "(owner", "==", "msg.sender)", "{", "transfer(owner,", "$100);", "owner", "=", "msg.sender;", "}", "Withdraw", "()", "{", "Contract", "A", "{", "Set", "()", "{"],
+  "name": "3",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 291.36,
+    "y1": 252.48,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure3-1.png"
+}, {
+  "caption": "Table 1: Comparison between LENT-SSE and original tool on SmartBugs Dataset (RQ1)",
+  "captionBoundary": {
+    "x1": 131.0980224609375,
+    "x2": 480.60833740234375,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["tx=4", "rlimit=5e6", "135", "Origin", "432", "88", "1555923", "-", "56740.6", "-", "99686", "33413.8", "-", "23326.8", "-", "LENT-SSE", "441", "91", "1597912", "2.7%", "39394.8", "-30.6%", "33646", "14726.1", "-55.9%", "24668.7", "5.8%", "timeout=5e3", "136", "Origin", "556", "99", "3911818", "-", "872543.9", "-", "258782", "615298.2", "-", "257245.7", "-", "LENT-SSE", "561", "99", "4228968", "8.1%", "581569.0", "-33.3%", "98256", "286491.4", "-53.4%", "295077.6", "14.7%", "LENT-SSE", "460", "93", "1187130", "4.1%", "29727.4", "-37.4%", "26063", "8901.4", "-65.2%", "20826.0", "-5.0%", "tx=4", "tx=3", "rlimit=5e6", "137", "Origin", "449", "90", "1139947", "-", "47483.2", "-", "68948", "25550.0", "-", "21933.3", "-", "timeout=3e3", "135", "Origin", "501", "97", "1714669", "-", "201342.3", "-", "102127", "120972.4", "-", "80369.8", "-", "LENT-SSE", "511", "99", "1825445", "6.5%", "131809.4", "-34.5%", "37656", "45388.4", "-62.5%", "86421.0", "7.5%", "LENT-SSE", "522", "95", "691925", "3.2%", "17596.4", "-28.5%", "12610", "2947.6", "-71.8%", "14648.8", "3.3%", "tx=3", "tx=2", "rlimit=10e6", "138", "Origin", "513", "95", "670231", "-", "24626.5", "-", "33734", "10451.6", "-", "14174.9", "-", "timeout=5e3", "138", "Origin", "553", "98", "739937", "-", "49072.3", "-", "37007", "23931.9", "-", "25140.4", "-", "LENT-SSE", "554", "99", "780768", "5.5%", "32750.8", "-33.3%", "12663", "6598.8", "-72.4%", "26152.1", "4.0%", "Config", "#Con’", "Type", "Bugs", "TP", "States", "(Δ)", "Time", "(Δ)", "Solved’", "Path’", "Time", "(Δ)", "Vul’", "Time", "(Δ)", "tx=2"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 542.4,
+    "y1": 98.88,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Table1-1.png"
+}, {
+  "caption": "Figure 12: Impact of Transaction Depth (RQ4-2)",
+  "captionBoundary": {
+    "x1": 77.73500061035156,
+    "x2": 270.109130859375,
+    "y1": 412.8291015625,
+    "y2": 418.4599914550781
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Total", "Time", "(b)", "Path’", "Time"],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 286.08,
+    "y1": 313.92,
+    "y2": 405.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure12-1.png"
+}, {
+  "caption": "Figure 13: Impact of Complexity of Contracts (RQ4-3)",
+  "captionBoundary": {
+    "x1": 329.57196044921875,
+    "x2": 546.5857543945312,
+    "y1": 190.2490997314453,
+    "y2": 195.8800048828125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Δ", "Total", "Time", "(b)", "Δ", "Path’", "Time"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 90.72,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure13-1.png"
+}, {
+  "caption": "Figure 11: Impact of Timeout/Rlimit (RQ4-1)",
+  "captionBoundary": {
+    "x1": 83.57699584960938,
+    "x2": 264.26788330078125,
+    "y1": 299.1981201171875,
+    "y2": 304.8290100097656
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Total", "Time", "(Rlimit)", "(d)", "Path’", "Time", "(Rlimit)", "(a)", "Total", "Time", "(Timeout)", "(b)", "Path’", "Time", "(Timeout)"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 287.03999999999996,
+    "y1": 90.72,
+    "y2": 287.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure11-1.png"
+}, {
+  "caption": "Figure 4: Distribution of Time in Multiple-TX SE",
+  "captionBoundary": {
+    "x1": 339.7619934082031,
+    "x2": 536.3952026367188,
+    "y1": 181.18507385253906,
+    "y2": 186.81597900390625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Total", "Time", "(b)", "SMT", "Solving", "Time"],
+  "name": "4",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 550.0799999999999,
+    "y1": 90.72,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Redundancy of Path Solving in Multiple-TX SE",
+  "captionBoundary": {
+    "x1": 324.281982421875,
+    "x2": 551.876220703125,
+    "y1": 290.7190856933594,
+    "y2": 296.3499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "TX", "Depth", "2", "(b)", "TX", "Depth", "4"],
+  "name": "5",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 549.12,
+    "y1": 200.64,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure5-1.png"
+}, {
+  "caption": "Table 3: Comparison between ETSA and ETSA+NTRA in LENT-SSE (RQ1)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2008056640625,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Origin", "857743", "89", "41829.94", "24897.42", "ETSA", "2375561", "91", "102815.79", "(+145.79%)", "5740.93", "(-76.94%)", "ETSA+", "NTRA", "917448", "89", "29738.74", "(-28.90%)", "11071.59", "(-55.53%)", "tx=3", "timeout=1e3", "(135", "con’)", "Origin", "670231", "95", "24626.47", "10451.58", "ETSA", "844095", "95", "25606.97", "(+3.98%)", "3501.67", "(-66.49%)", "ETSA+", "NTRA", "691925", "95", "17596.37", "(-28.55%)", "2947.57", "(-71.80%)", "tx=2", "rlimit=10e6", "(138", "con’)", "Origin", "491721", "89", "13525.48", "5594.75", "ETSA", "663093", "91", "14309.09", "(+5.79%)", "1509.02", "(-73.02%)", "ETSA+", "NTRA", "529753", "90", "10984.36", "(-18.78%)", "2181.92", "(-61.00%)", "tx=2", "timeout=1e3", "(137*", "con’)", "Config", "Type", "States", "TP", "Time", "(s)", "P’", "Time", "(s)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 555.36,
+    "y1": 109.92,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Table3-1.png"
+}, {
+  "caption": "Table 2: Comparison between LENT-SSE and original tool on Top1K (RQ1)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04815673828125,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["tx=2", "rlimit=8e6", "(989", "con’)", "Origin", "13907079", "790813.59", "558653.33", "LENT-SSE", "14621376", "489405.77", "(-38.11%)", "253034.31", "(-54.71%)", "tx=4", "rlimit=2e6", "(994", "con’)", "Origin", "9512761", "317178.68", "208701.41", "LENT-SSE", "11015938", "234617.13", "(-26.03%)", "114107.49", "(-45.33%)", "tx=3", "rlimit=2e6", "(996", "con’)", "Origin", "8497453", "272336.05", "175787.39", "LENT-SSE", "9692417", "206663.97", "(-24.11%)", "100646.58", "(-42.75%)", "Origin", "6967705", "199509.15", "126524.18", "LENT-SSE", "7687630", "157922.24", "(-20.84%)", "79083.67", "(-37.49%)", "rlimit=2e6", "(998", "con’)", "Config", "Type", "States", "Time", "(s)", "Path’", "Time", "(s)", "tx=2"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 287.03999999999996,
+    "y1": 109.92,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Table2-1.png"
+}, {
+  "caption": "Figure 6: Architecture of LENT-SSE",
+  "captionBoundary": {
+    "x1": 102.77300262451172,
+    "x2": 245.06976318359375,
+    "y1": 203.1610870361328,
+    "y2": 208.7919921875
+  },
+  "figType": "Figure",
+  "imageText": ["Executed", "TXs", "Near", "TXs", "Solving", "Results", "of", "Paths", "(NOT", "Constraints)", "ETSA", "NTRA", "Path", "Reachability", "Multiple", "TXs", "LENT-SSE", "Detecting", "Modules", "SMT", "Solver", "Smart", "Contract", "Symbolic", "EVM"],
+  "name": "6",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 299.03999999999996,
+    "y1": 84.96,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure6-1.png"
+}, {
+  "caption": "Table 4: Comparison between LENT-SSE and SSE on SmartBugs (RQ2)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64739990234375,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["2", "63187.2", "15", "15", "92", "4", "75747.5", "15", "16", "91", "8", "86800.1", "14", "17", "91", "16", "110831.1", "15", "21", "86", "32", "143568.1", "16", "30", "76", "64", "150918.4", "16", "28", "78", "4", "122", "2", "42289.3", "9", "9", "107", "4", "48636.7", "10", "10", "105", "8", "53471.1", "10", "14", "101", "16", "68607.0", "10", "19", "96", "32", "88407.0", "10", "23", "92", "64", "94784.4", "10", "24", "91", "3", "125", "2", "12063.9", "10", "15", "106", "4", "12917.3", "9", "15", "107", "8", "14408.7", "8", "25", "98", "16", "16682.9", "9", "25", "97", "32", "18484.5", "9", "34", "88", "64", "20367.1", "9", "40", "82", "2", "131", "2", "1491.6", "30", "107", "-", "4", "1593.3", "24", "113", "-", "8", "2011.9", "30", "107", "-", "16", "3909.9", "34", "103", "-", "32", "5203.3", "34", "103", "-", "64", "5522.1", "33", "104", "-", "1", "137", "TX’", "#Con’", "SSE", "#", "Shortest", "Time", "Limit", "Time", "(s)", "Origin", "SSE", "LENT-SSE"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 286.08,
+    "y1": 109.92,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Table4-1.png"
+}, {
+  "caption": "Figure 10: Detailed Improvement of Contracts (RQ3)",
+  "captionBoundary": {
+    "x1": 332.26202392578125,
+    "x2": 543.8960571289062,
+    "y1": 280.5971374511719,
+    "y2": 286.22802734375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Total", "Time", "of", "ETSA+NTRA", "(d)", "Path’", "Time", "of", "ETSA+NTRA", "(a)", "Total", "Time", "of", "ETSA", "(b)", "Path’", "Time", "of", "ETSA"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 551.04,
+    "y1": 87.84,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure10-1.png"
+}, {
+  "caption": "Figure 7: Motivating Example of ETSA",
+  "captionBoundary": {
+    "x1": 360.42999267578125,
+    "x2": 515.7281494140625,
+    "y1": 178.19410705566406,
+    "y2": 183.82501220703125
+  },
+  "figType": "Figure",
+  "imageText": ["Algorithm", "1:", "Pseudocode", "of", "ETSA", "Input:", "Executed", "TX", "Paths", "(ETXP)", "Input:", "Recalled", "Near", "TX", "Paths", "(RNTXP)", "[Optional]", "1", "/*", "Symbolic", "Execution", "in", "TX", "i", "*/", "2", "for", "𝑠𝑡𝑎𝑡𝑒", "𝑝𝑜𝑝", "←−", "𝑠𝑡𝑎𝑡𝑒𝑠", "do", "3", "/*", "Symbolic", "execution", "of", "a", "state*/", "4", "newStates", "=", "INSTRUCTION(state)", "5", "for", "newState", "∈", "newStates", "do", "6", "newState.path", "=", "state.path", "7", "/*", "Path", "reachability*/", "8", "if", "newStates.length", ">", "1", "then", "9", "newState.path.push(<state.PC,", "newState.index>)", "10", "if", "newState.path", "∈", "ETXP-RNTXP", "then", "11", "states", "𝑎𝑑𝑑←−", "newState", "12", "else", "13", "res", "=", "SOLVE(newState.constraints)", "14", "if", "res", "=", "SAT", "then", "15", "ETXP", "𝑎𝑑𝑑←−", "newState.path", "16", "states", "𝑎𝑑𝑑←−", "newState", "17", "end", "18", "end", "19", "else", "20", "states", "𝑎𝑑𝑑←−", "newState", "21", "end", "22", "end", "23", "end"],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 193.92,
+    "y2": 445.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680303-Figure7-1.png"
+}]

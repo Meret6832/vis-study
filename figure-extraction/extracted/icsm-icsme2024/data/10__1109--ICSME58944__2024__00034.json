@@ -1,0 +1,161 @@
+[{
+  "caption": "Fig. 3: Metrics for host methods in our corpus",
+  "captionBoundary": {
+    "x1": 341.7679138183594,
+    "x2": 519.8150634765625,
+    "y1": 285.352783203125,
+    "y2": 290.935302734375
+  },
+  "figType": "Figure",
+  "imageText": ["Mean:", "1321.32", "Median:", "801.00", "2.0", "2.5", "3.0", "3.5", "4.0", "4.5", "host", "methods", "length", "(log10(x))", "Mean:", "5.34", "Median:", "3.00", "0.0", "0.5", "1.0", "1.5", "2.0", "Cyclomatic", "complexity", "(log10(x))", "Mean:", "2.94", "Median:", "1.51", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "1.2", "1.4", "1.6", "Halstead", "metric-difficulty", "(log10(x))"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.32,
+    "x2": 546.24,
+    "y1": 228.0,
+    "y2": 275.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-Figure3-1.png"
+}, {
+  "caption": "Fig. 1: The numbered code snippets represent (1) an extract function refactoring in the project Neo4j, commit a05a8c5, (2) a suggestion made by static analysis tool, (3) an invalid suggestion from LLM, (4) a not useful suggestion from LLM.",
+  "captionBoundary": {
+    "x1": 313.9870910644531,
+    "x2": 547.4798583984375,
+    "y1": 252.8743896484375,
+    "y2": 291.81231689453125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "4", "3", "2"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 554.4,
+    "y1": 67.67999999999999,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-Figure1-1.png"
+}, {
+  "caption": "Fig. 4: The capabilities of LLMs in generating refactoring suggestions. The plots show the number of suggestions per host method (notice the exponential scale)",
+  "captionBoundary": {
+    "x1": 61.206199645996094,
+    "x2": 294.6991271972656,
+    "y1": 174.8416748046875,
+    "y2": 202.66143798828125
+  },
+  "figType": "Figure",
+  "imageText": ["Useful", "Suggestions", "2.30", "M", "1.00", "M", "5.50", "6.63", "M", "7.00", "9.87", "gpt-3.5", "gpt-4", "palm", "model", "Not", "Useful", "Suggestions", "0.15", "1.25", "M", "0.50", "M", "3.00", "4.31", "gpt-3.5", "gpt-4", "palm", "model", "Invalid", "Suggestions", "3.02", "M", "2.00", "5.98", "M", "3.00", "12.34", "M", "6.00", "gpt-3.5", "gpt-4", "palm", "model", "All", "Suggestions", "M", "5.00", "6.88", "M", "11.00", "13.86", "M", "19.00", "26.52", "128", "16", "32", "64", "0", "1", "2", "4", "8", "gpt-3.5", "gpt-4", "palm", "model"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 295.68,
+    "y1": 73.44,
+    "y2": 161.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-Figure4-1.png"
+}, {
+  "caption": "TABLE I: Ablation Study: Mean and Standard Deviation of Recall Values for different stages in EM-Assist’s pipeline.",
+  "captionBoundary": {
+    "x1": 314.78094482421875,
+    "x2": 548.2738647460938,
+    "y1": 74.5377197265625,
+    "y2": 91.2384033203125
+  },
+  "figType": "Table",
+  "imageText": ["Recall@5", "Method", "Tolerance", "Tolerance", "Tolerance", "1%", "2%", "3%", "Random", "rank,", "no", "heuristics", "32.9%±", "2.3", "34.2%±", "2.3", "37.4%±", "2.4", "Random", "rank,", "with", "heuristics", "44%±", "2.8", "44.8%±", "2.9", "49.6%±", "2.9", "Ranking", "and", "heuristics", "57.6%", "±", "1.6", "58.4%", "±", "1.6", "63%", "±", "1.7"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 99.84,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-TableI-1.png"
+}, {
+  "caption": "TABLE III: Developers’ levels of agreement to the refactoring suggestions produced by EM-Assist",
+  "captionBoundary": {
+    "x1": 62.16680145263672,
+    "x2": 295.65966796875,
+    "y1": 74.54095458984375,
+    "y2": 91.24163818359375
+  },
+  "figType": "Table",
+  "imageText": ["2", "1", "0", "5", "6", "2", "Strongly", "Disagree", "Somewhat", "Somewhat", "Agree", "Strongly", "Disagree", "Disagree", "Agree", "Agree"],
+  "name": "III",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 293.28,
+    "y1": 101.75999999999999,
+    "y2": 129.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-TableIII-1.png"
+}, {
+  "caption": "Fig. 2: The workflow of generating refactoring suggestions and then applying them with EM-Assist.",
+  "captionBoundary": {
+    "x1": 314.814208984375,
+    "x2": 548.3070068359375,
+    "y1": 148.55859375,
+    "y2": 165.25927734375
+  },
+  "figType": "Figure",
+  "imageText": ["5", "Select", "suggestion", "to", "apply", "LLM", "Ranked", "refactoring", "suggestions", "method", "2", "Long", "suggestion(s)", "Extract", "Method", "3", "4", "1", "Enhancer", "Useful?Valid?", "Prompt", "LLM", "to", "suggest", "Extract", "Method(s)", "Code", "rewriterTransformed", "code"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 530.4,
+    "y1": 70.56,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-Figure2-1.png"
+}, {
+  "caption": "Fig. 5: Change of Recall@5 along with Temperature and iterations for the Community Corpus",
+  "captionBoundary": {
+    "x1": 63.94269943237305,
+    "x2": 297.4373779296875,
+    "y1": 207.701171875,
+    "y2": 224.40185546875
+  },
+  "figType": "Figure",
+  "imageText": ["recall", "ranking=popheat,", "top", "5", "candidates,", "3%", "tolerance", "1.", "2", "1.", "0", "0.", "8", "0.", "6", "0.", "4", "0.", "2", "0.", "0", "Te", "m", "pe", "ra", "tu", "re", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Iterations"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 68.16,
+    "x2": 294.24,
+    "y1": 72.96,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-Figure5-1.png"
+}, {
+  "caption": "TABLE II: Evaluation results of EM-Assist with respect to six other tools on Community Corpus (upper table). The lower table compares EM-Assist against the best-in-class static analysis tool on the Extended Corpus.",
+  "captionBoundary": {
+    "x1": 62.2803955078125,
+    "x2": 295.7734375,
+    "y1": 74.77069091796875,
+    "y2": 113.70770263671875
+  },
+  "figType": "Table",
+  "imageText": ["Recall@5", "Tool", "Tolerance", "1%", "Tolerance", "2%", "Tolerance", "3%", "JExtract", "38.8%", "39.3%", "39.4%", "EM-Assist", "52.2%±", "0.9", "52.7%±", "1", "53.4%", "±1", "Recall@5", "Tool", "Tolerance", "1%", "Tolerance", "2%", "Tolerance", "3%", "REMS", "1.6%", "1.6%", "1.6%", "GEMS", "54.2%", "59.8%", "62.6%", "JDeodorant", "14.8%", "18.4%", "23.8%", "JExtract", "52.2%", "59.3%", "61.9%", "SEMI", "38.0%", "47.0%", "55.5%", "LiveREF", "10.6%", "10.6%", "13.1%", "EM-Assist", "57.6%", "±", "1.6", "58.4%", "±", "1.6", "63%", "±", "1.7"],
+  "name": "II",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 281.28,
+    "y1": 121.92,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00034-TableII-1.png"
+}]

@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: The source code of the example used for explaining Algorithm 1 and Algorithm 2.",
+  "captionBoundary": {
+    "x1": 53.46699905395508,
+    "x2": 294.0452880859375,
+    "y1": 324.8751220703125,
+    "y2": 341.4649963378906
+  },
+  "figType": "Figure",
+  "imageText": ["10.", "return", "nativeGetFrameNum(this.mHandle);", "11.", "}", "12.", "public", "int", "decodeFrame(byte[]", "arr,", "int", "idx)", "{", "13.", "if", "(arr", "==", "null)", "{", "return", "0;", "}", "14.", "return", "nativeDecodeFrame(this.mHandle,", "arr,", "idx);", "15.", "}", "16.", "}", "17.", "public", "class", "GifCodec", "{", "18.", "public", "static", "boolean", "start(String", "filePath)", "{", "19.", "pDecoder", "pD", "=", "new", "pDecoder(filePath);", "20.", "int", "frameNum", "=", "pD.getFrameNum();", "21.", "pEncoder", "pE", "=", "new", "pEncoder();", "22.", "pE.setDispose(2);", "23.", "byte", "buf", "=", "new", "byte[0x10000];", "24.", "for", "(int", "i", "=", "0;", "i", "<", "frameNum;", "i++)", "{", "25.", "pD.decodeFrame(buf,", "i);", "26.", "}", "27.", "return", "true;", "28.", "}", "29.", "}", "1.", "public", "class", "pDecoder", "{", "2.", "protected", "long", "mHandle;", "3.", "protected", "native", "void", "nativeInitHandle(pDecoder", "pD,", "String", "str);", "4.", "protected", "native", "int", "nativeDecodeFrame(long", "j,", "byte[]", "arr,", "int", "i);", "5.", "protected", "native", "int", "nativeGetFrameNum(long", "j);", "6.", "public", "pDecoder(String", "str)", "{", "7.", "nativeInitHandle(this,", "str);", "8.", "}", "9.", "public", "int", "getFrameNum()", "{"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 84.96,
+    "y2": 317.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The bytecode and CFG of the example used for explaining Algorithm 1 and Algorithm 2.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.23004150390625,
+    "y1": 512.24609375,
+    "y2": 528.8359985351562
+  },
+  "figType": "Figure",
+  "imageText": ["[03e]", "const/4", "v3,", "1", "[040]", "return", "v3", "[032]", "invoke-virtual", "v0,", "v1,v2,", "LpDecoder;-", ">decodeFrame([B)I", "[038]", "add-int/lit8", "v2,", "v2,", "1", "[03c]", "goto", "-7", "[02e]", "if-ge", "v2,", "v3,", "+8", "start", "[00]", "new-instance", "v0,", "LpDecoder;", "[04]", "invoke-direct", "v0,", "v3,", "LpDecoder;-><init>", "(Ljava/lang/String;)V", "[0a]", "invoke-virtual", "v0,", "LpDecoder;->getFrameNum()I", "[10]", "move-result", "v3", "[12]", "new-instance", "v1,", "LpEncoder;", "[16]", "invoke-direct", "v1,", "LpEncoder;-><init>()V", "[1c]", "const/4", "v2,", "2", "[1e]", "invoke-virtual", "v1,", "v2,", "LpEncoder;->setDispose(I)I", "[24]", "const/high16", "v1,", "1", "#", "[9.183549615799121e-41]", "[28]", "new-array", "v1,", "v1,", "[B", "[2c]", "const/4", "v2,", "0", "[04]", "const/4", "v3,", "0", "[06]", "return", "v3", "[08]", "iget-wide", "v0,", "v2,", "LpDecoder;->mHandle", "J", "[0c]", "invoke-virtual", "v2,", "v0,", "v1,", "v3,", "v4", "LpDecoder;-", ">nativeDecodeFrame(J", "[B)I", "[12]", "move-result", "v3", "[14]", "return", "v3", "decodeFrame", "[00]", "if-nez", "v3,", "+4"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 350.88,
+    "y2": 506.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Depuplication stage workflow.",
+  "captionBoundary": {
+    "x1": 357.59600830078125,
+    "x2": 518.5609130859375,
+    "y1": 558.3630981445312,
+    "y2": 563.9940185546875
+  },
+  "figType": "Figure",
+  "imageText": ["...", "ihnC1", "...", "ihnCn", "ih1C1", "...", "ih1Cn", "...", "IHnC1", "...", "IHnCn", "IH1C1", "...", "IH1Cn", "IHn", "...", "IH1", "IH"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 551.04,
+    "y1": 494.88,
+    "y2": 549.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Harness code for example in Figure 4.",
+  "captionBoundary": {
+    "x1": 78.65799713134766,
+    "x2": 269.1850280761719,
+    "y1": 284.56011962890625,
+    "y2": 290.1910095214844
+  },
+  "figType": "Figure",
+  "imageText": ["methodId_getNumOfFrame,", "1);", "18.", "...", "19.", "}", ">GetMethodID(class_D,", "\"getNumOfFrame()\",", "\"()I\");", "17.", "jboolean", "ret_getNumOfFrame", "=", "env->CallIntMethod(ret_init,", "fuzz_target0);", "16.", "jmethodID", "methodId_getNumOfFrame", "=", "env-", "15.", "jobject", "ret_init", "=", "env->NewObject(class_D,", "methodId_init,", "<init>\",", "\"(Ljava/lang/String;)V\");", "14.", "jstring", "fuzz_target0", "=", "charTojstring(env,", "argv[1]);", "10.", "status", "=", "JNI_CreateJavaVM(&jvm,", "(void", "**)&env,", "&vm_args);", "11.", "...", "12.", "jclass", "class_D", "=", "env->FindClass(\"pDecoder\");", "13.", "jmethodID", "methodId_init", "=", "env->GetMethodID(class_D,", "\"", "Djava.class.path=/path/to/the/packagefile\";", "9.", "vm_args.options", "=", "options;", "1.", "int", "main()", "2.", "{", "3.", "JavaVMOption", "options[1];", "4.", "JavaVM", "*jvm;", "JNIEnv", "*env;", "5.", "JavaVMInitArgs", "vm_args;", "6.", "long", "status;", "jint", "ret", "=", "-1;", "7.", "...", "8.", "options[0].optionString", "=", "\"-"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 286.08,
+    "y1": 84.96,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Figure7-1.png"
+}, {
+  "caption": "Table 4: Comparison of performance.",
+  "captionBoundary": {
+    "x1": 98.22801208496094,
+    "x2": 249.32081604003906,
+    "y1": 227.7860870361328,
+    "y2": 233.4169921875
+  },
+  "figType": "Table",
+  "imageText": ["*", "The", "platform", "consists", "of", "three", "parts,", "running", "mode,", "the", "architecture", "of", "the", "host,", "and", "the", "system", "information.", "QU:", "running", "within", "qemu-aarch64;", "D:", "running", "directly", "within", "the", "host;", "RD:", "Real", "Device(Pixel", "6);", "L:", "Linux;", "AE:", "Android", "12", "on", "Android", "Emulator;", "A:", "Android12.", "*", "Each", "harness", "is", "executed", "on", "a", "single", "CPU", "core", "for", "10000", "loops.", "We", "record", "the", "executing", "time", "of", "the", "target", "APIs,", "regardless", "of", "the", "initialization", "of", "the", "runtime", "environment", "since", "it", "is", "a", "one-time", "effort.", "The", "data", "we", "used", "for", "calculating", "is", "the", "executing", "time", "per", "second", "of", "each", "program", "on", "each", "platform.", "zlib", "0.39", "3.61", "1.31", "3.66", "1.0", "1.3", "2.31", "libopus", "0.59", "1.63", "0.8", "1.38", "1.0", "0.89", "1.1", "http-parser", "0.23", "6.33", "1.36", "4.75", "1.0", "0.43", "2.38", "lz4", "0.33", "6.29", "1.42", "3.14", "1.0", "0.63", "3.14", "c-ares", "0.45", "0.32", "0.73", "0.24", "1.0", "0.89", "0.11", "harfbuzz", "0.55", "2.96", "1.33", "7.03", "1.0", "1.07", "2.92", "libjpeg-turbo", "0.13", "0.49", "0.18", "2.02", "1.0", "0.13", "0.47", "cJson", "0.24", "3.83", "1.28", "3.83", "1.0", "0.44", "2.3", "Platform", "QU-X86-L", "D-ARM64-AE", "QU-ARM64-AE", "D-RD-A", "QU-RD-A", "D-ARM64-L", "QU-ARM64-L", "Program"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 238.56,
+    "y2": 396.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Table4-1.png"
+}, {
+  "caption": "Table 5: Unique bugs found by Atlas.",
+  "captionBoundary": {
+    "x1": 364.5140075683594,
+    "x2": 511.3468322753906,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["*", "HR:", "Heap", "out", "of", "bounds", "read.", "HW:", "Heap", "out", "of", "bounds", "write.", "UAF:", "Use", "after", "free.", "NPD:", "Null", "pointer", "deference.", "SO:", "Stack", "overflow.", "Since", "some", "bugs", "are", "still", "in", "the", "process", "of", "being", "fixed,", "we", "do", "not", "disclose", "the", "information", "about", "the", "library", "information", "here.", "Vivo", "iReader.apk", "-", "0", "0", "0", "6", "2", "8", "Total", "37", "20", "1", "12", "4", "74", "Vide***.apk", "libsav***.so", "2", "0", "0", "0", "0", "2", "Galle***.apk", "-", "2", "2", "0", "0", "0", "4Xiaomi", "MIUI***.apk", "-", "1", "0", "0", "0", "0", "1", "Oplus***.apk", "-", "2", "0", "0", "0", "0", "2OPPO", "Heyt***.apk", "-", "0", "0", "0", "6", "2", "8", "Sam***.apk", "libagi***.so", "1", "2", "0", "0", "0", "3", "libBar***.so", "1", "3", "0", "1", "1", "6", "libsmst.so", "11", "11", "0", "0", "1", "23frame***.jar", "libves***.so", "1", "1", "0", "0", "0", "2", "libFac***.so", "1", "0", "0", "1", "0", "2Sam***.apk", "libsec***.so", "2", "0", "0", "0", "0", "2", "Notes40.apk", "libSD***.so", "11", "0", "1", "0", "0", "12", "Apex***.apk", "libape***.so", "2", "1", "0", "1", "0", "4", "ARD***.apk", "libViz***.so", "0", "0", "0", "2", "0", "2", "Phot***.apk", "libten***.so", "0", "0", "0", "1", "0", "1", "Samsung", "Vendor", "APK", "Library", "HR", "HW", "UAF", "NPD", "SO", "Sum"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.72,
+    "y1": 96.96,
+    "y2": 256.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Table5-1.png"
+}, {
+  "caption": "Table 6: The CVEs found by Atlas.",
+  "captionBoundary": {
+    "x1": 369.96600341796875,
+    "x2": 505.89581298828125,
+    "y1": 286.35809326171875,
+    "y2": 291.9889831542969
+  },
+  "figType": "Table",
+  "imageText": ["VideoEditorLite_Dream_N.apk", "libsavsaudio.so", "CVE-2022-39891", "HOOB-R", "Samsung", "CVE-2022-36858", "HOOB-R", "framwork.jar", "libsmat.so", "CVE-2022-39882", "HOOB-W", "ApexService.apk", "libapexjni.media.samsung.so", "CVE-2022-36854", "HOOB-R", "CVE-2022-26092", "HOOB-W", "CVE-2022-27821", "HOOB-RSamsungGallery2018.apk", "libagifencoder.quram.so", "CVE-2022-39852", "HOOB-W", "CVE-2022-36845", "HOOB-R", "CVE-2022-36841", "HOOB-R", "CVE-2022-36844", "HOOB-R", "CVE-2022-36843", "HOOB-R", "CVE-2022-36860", "HOOB-R", "CVE-2022-36863", "HOOB-R", "CVE-2022-36862", "HOOB-R", "CVE-2022-36842", "HOOB-R", "CVE-2022-36846", "HOOB-R", "Notes40.apk", "libSDKRecognition", "Text.spensdk.samsung.so", "Vendor", "APK", "Library", "CVE", "Bug-Type"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 297.59999999999997,
+    "y2": 401.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Table6-1.png"
+}, {
+  "caption": "Figure 2: The Overview of Atlas.",
+  "captionBoundary": {
+    "x1": 240.9040069580078,
+    "x2": 371.0962219238281,
+    "y1": 247.2960968017578,
+    "y2": 252.927001953125
+  },
+  "figType": "Figure",
+  "imageText": ["6", "7", "Runtime", "Environment", "Setup", "Pre-Process", "Syntactic", "Mapping", "Final", "harness", "Injection", "Stage", "Completion", "Stage", "Harness", "Optimization", "Deduplication", "Stage", "Harness", "Intermediate", "Java", "Bytecode", "Analyzer", "Infomation", "Variable", "Dependency", "Meta", "Relations", "API", "Mapping", "5", "3", "4", "1", "2", "FuzzingInput", "Native", "Code", "Analyzer", "Cross-language", "Analysis", "Fuzz", "Framework", "Vendor", "Libraries", "Vendor", "Apks"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 109.44,
+    "x2": 502.08,
+    "y1": 89.28,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Explicit and Implicit API Dependency Examples.",
+  "captionBoundary": {
+    "x1": 188.39700317382812,
+    "x2": 423.6037292480469,
+    "y1": 545.8991088867188,
+    "y2": 551.530029296875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "The", "consumer", "program", "of", "class", "P", "containing", "implicit", "API", "dependency.", "1", "public", "static", "long", "wrapperFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P();", "3", "Decoder.javaInitHandle(file.getPath(", ");", "4", "Bitmap", "createBitmap", "=", "BitmapUtils.createBit", "ap(", ".);", "5", "Decoder.javaDecode(createBitmap);", "6", "...", "7", "}", "1", "public", "static", "long", "wra", "perFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P(file.getPath());", "3", "Bitmap", "createBitmap", "=", "BitmapUtils.createBitmap(", "..);", "4", "Decoder.javaDecode(createBitmap);", "5", "...", "6", "}", "1", "JNIEXPORT", "jint", "JNICALL", "Java_com_example_P_native", "ecode", "2", "(JNIEnv", "*env", ",", "jobject", "x,", "jobject", "cur_obj,", "jobject", "b", "){", "3", "jclass", "jclazz", "=", "env->FindClass(\"com/example/P\");", "4", "if(jclazz", "==", "NULL)", "return", "-1;", "5", "jfieldID", "jfid", "=", "env->GetFieldID(jclazz,", "\"handle\",", "\"J\");", "6", "if", "(jfid", "==", "NULL)", "return", "-1;", "7", "void", "*", "initial_ptr", "=", "env->GetLongField(cur_obj,", "jfid);", "8", "return", "nativeDecode(initial_ptr,", "bm);", "9", "}", "10", "JNIEXPORT", "void", "JNICALL", "Java_com_exa", "ple_P_nativeInit", "andle", "1", "(JNIEnv", "*", "env,", "jobject", "x,", "jobject", "obj,", "jstring", "s){", "12", "jcla", "s", "jcla", "z", "=", "env->FindCla", "s(\"com/example/P\");", "13", "if(jcla", "z", "==", "NULL)", "return", ";", "14", "const", "char", "*filePath", "=", "env->GetStringUTFChars(s,", "nu", "lptr);", "15", "void", "*", "initial_ptr", "=", "nativeInitial(filePath);", "16", "jfieldID", "jfid", "=", "env->GetFieldID(jclazz,", "\"handle\",", "\"J\");", "17", "if", "(jfid", "==", "NULL)", "return", ";", "18", "env->SetLongField(obj,", "jfid,", "(jlong)initial_ptr);", "19", "return", ";", "20", "}", "1", "package", "com.example;", "2", "public", "class", "P{", "3", "protected", "long", "handle;", "4", "native", "int", "nativeDecode(long", "j,", "Bitmap", "bitmap);", "5", "native", "void", "nativeInitHandle(P", "obj,", "String", "str);", "6", "public", "P(String", "str)", "{", "7", "this.mHandle", "=", "0L;", "8", "if", "(str", "!=", "null)", "nativeInitHandle(this,", "str);", "9", "}", "10", "public", "int", "javaDecode(Bitmap", "bitmap)", "{", "1", "if", "(bitmap", "=", "null)", "return", "0;", "12", "retur", "nativeDecode(this,", "bitmap);", "13", "}", "14", "public", "void", "javaInitHandle(String", "str)", "{", "15", "if", "(str", "=", "null)", "return", "0;", "16", "return", "nativeInitHandle(this,", "bitmap);", "17", "}", "(c)", "The", "consumer", "program", "of", "class", "P", "containing", "explicit", "API", "dependency.", "1", "public", "static", "long", "wrapperFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P();", "3", "Decoder.javaInitHandle(file.getPath());", "4", "Bitmap", "createBitmap", "=", "BitmapUtils.createBitmap(...);", "5", "Decoder.javaDecode(createBitmap);", "6", "...", "7", "}", "1", "public", "static", "long", "wrapperFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P(file.getPath());", "3", "Bitmap", "createBitmap", "=", "BitmapUtils.createBitmap(...);", "4", "Decoder.javaDecode(createBitmap);", "5", "...", "6", "}", "1", "JNIEXPORT", "jint", "JNICALL", "Java_com_example_P_nativeDecode", "2", "(JNIEnv", "*env", ",", "jobject", "x,", "jobject", "cur_obj,", "jobject", "bm){", "3", "jclass", "jclazz", "=", "env->FindClass(\"com/example/P\");", "4", "if(jclazz", "==", "NULL)", "return", "-1;", "5", "jfieldID", "jfid", "=", "env->GetFieldID(jclazz,", "\"handle\",", "\"J\");", "6", "if", "(jfid", "==", "NULL)", "return", "-1;", "7", "void", "*", "initial_ptr", "=", "env->GetLongField(cur_obj,", "jfid);", "8", "return", "nativeDecode(initial_ptr,", "bm);", "9", "}", "10", "JNIEXPORT", "void", "JNICALL", "Java_com_example_P_nativeInitHandle", "11", "(JNIEnv", "*", "env,", "jobject", "x,", "jobject", "obj,", "jstring", "s){", "12", "jclass", "jclazz", "=", "env->FindClass(\"com/example/P\");", "13", "if(jclazz", "==", "NULL)", "return", ";", "14", "const", "char", "*filePath", "=", "env->GetStringUTFChars(s,", "nullptr);", "15", "void", "*", "initial_ptr", "=", "nativeInitial(filePath);", "16", "jfieldID", "jfid", "=", "env->GetFieldID(jclazz,", "\"handle\",", "\"J\");", "17", "if", "(jfid", "==", "NULL)", "return", ";", "18", "env->SetLongField(obj,", "jfid,", "(jlong)initial_ptr);", "19", "return", ";", "20", "}", "1", "package", "com.example;", "2", "public", "class", "P{", "3", "protected", "long", "handle;", "4", "native", "int", "nativeDecode(long", "j,", "Bitmap", "bitmap);", "5", "native", "void", "nativeInitHandle(P", "obj,", "String", "str);", "6", "public", "P(String", "str)", "{", "7", "this.mHandle", "=", "0L;", "8", "if", "(str", "!=", "null)", "nativeInitHandle(this,", "str);", "9", "}", "10", "public", "int", "javaDecode(Bitmap", "bitmap)", "{", "11", "if", "(bitmap", "==", "null)", "return", "0;", "12", "return", "nativeDecode(this,", "bitmap);", "13", "}", "14", "public", "void", "javaInitHandle(String", "str)", "{", "15", "if", "(str", "==", "null)", "return", "0;", "16", "return", "nativeInitHandle(this,", "bitmap);", "17", "}", "1", "public", "static", "long", "wra", "perFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P();", "3", "Decoder.javaInitHandle(file.getPath(", ");", "4", "Bitmap", "createBitmap", "=", "BitmapUtils.createBitmap(", ".);", "5", "Decoder.javaDecode(createBitmap);", "6", "...", "7", "}", "(b)", "Native", "Methods", "implementations", "of", "class", "P.", "1", "public", "static", "long", "wra", "perFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P(file.getPath());", "3", "Bitmap", "createBitmap", "=", "BitmapUtils.createBitmap(", "..);", "4", "Decoder.javaDecode(createBitmap);", "5", "...", "6", "}", "1", "(JNIEnv", "*", "env,", "jobject", "x,", "jobject", "obj,", "jstring", "s){", "12", "jcla", "s", "jcla", "z", "=", "env->FindCla", "s(\"com/example/P\");", "13", "if(jcla", "z", "=", "NULL)", "return", ";", "14", "const", "char", "*filePath", "=", "env->GetStringUTFChars(s,", "nu", "lptr);", "15", "void", "*", "initial_ptr", "=", "nativeInitial(filePath);", "16", "jfieldID", "jfid", "=", "env->GetFieldID(jcla", "z,", "\"handle\",", "\"J\");", "17", "if", "(jfid", "=", "NULL)", "return", ";", "18", "env->SetLongField(obj,", "jfid,", "(jlong)initial_ptr);", "19", "return", ";", "20", "}", "1", "JNIEXPORT", "jint", "JNICALL", "Java_com_example_P_nativeDecode", "2", "(JNIEnv", "*env", ",", "jobject", "x,", "jlong", "cur_obj,", "jobject", "bm){", "3", "jcla", "s", "jcla", "z", "=", "env->FindCla", "s(\"com/example/P\");", "4", "if(jcla", "z", "=", "NULL)", "return", "-1;", "5", "jfieldID", "jfid", "=", "env->GetFieldID(jcla", "z,", "\"handle\",", "\"J\");", "6", "if", "(jfid", "=", "NULL)", "return", "-1;", "7", "void", "*", "initial_ptr", "=", "env->GetLongField(cur_obj,", "jfid);", "8", "return", "nativeDecode(initial_ptr,", "bm);", "9", "}", "10", "JNIEXPORT", "void", "JNICALL", "Java_com_example_P_nativeInitHandle", "1", "package", "com.example;", "2", "public", "cla", "s", "P{", "3", "protected", "long", "handle;", "4", "native", "int", "nativeDecode(long", "j,", "Bitmap", "bitmap);", "5", "native", "void", "nativeInitHandle(P", "obj,", "String", "str);", "6", "public", "P(String", "str)", "{", "7", "this.mHandle", "=", "0L;", "8", "if", "(str", "!=", "null)", "nativeInitHandle(this,", "str);", "9", "}", "10", "public", "int", "javaDecode(Bitmap", "bitmap)", "{", "1", "if", "(bitmap", "=", "null)", "return", "0;", "12", "return", "nativeDecode(this,", "bitmap);", "13", "}", "14", "public", "void", "javaInitHandle(String", "str)", "{", "15", "if", "(str", "=", "null)", "return", "0;", "16", "return", "nativeInitHandle(this,", "bitmap);", "17", "}", "1", "public", "static", "long", "wrapperFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P();", "3", "Decoder.javaInitHandle(file.getPath());", "4", "Bitmap", "createBitmap", "=", "BitmapUtils.createBitmap(...);", "5", "Decoder.javaDecode(createBitmap);", "6", "...", "7", "}", "(a)", "Java", "implementations", "of", "class", "P.", "1", "public", "static", "long", "wrapperFunc(File", "file){", "2", "P", "Decoder", "=", "new", "P(file.getPath());", "3", "Bitmap", "createBitmap", "=", "BitmapUtils.createBitmap(...);", "4", "Decoder.javaDecode(createBitmap);", "5", "...", "6", "}", "1", "JNIEXPORT", "jint", "JNICALL", "Java_com_example_P_nativeDecode", "2", "(JNIEnv", "*env", ",", "jobject", "x,", "jobject", "cur_obj,", "jobject", "bm){", "3", "jclass", "jclazz", "=", "env->FindClass(\"com/example/P\");", "4", "if(jclazz", "==", "NULL)", "return", "-1;", "5", "jfieldID", "jfid", "=", "env->GetFieldID(jclazz,", "\"handle\",", "\"J\");", "6", "if", "(jfid", "==", "NULL)", "return", "-1;", "7", "void", "*", "initial_ptr", "=", "env->GetLongField(cur_obj,", "jfid);", "8", "return", "nativeDecode(initial_ptr,", "bm);", "9", "}", "10", "JNIEXPORT", "void", "JNICALL", "Java_com_example_P_nativeInitHandle", "11", "(JNIEnv", "*", "env,", "jobject", "x,", "jobject", "obj,", "jstring", "s){", "12", "jclass", "jclazz", "=", "env->FindClass(\"com/example/P\");", "13", "if(jclazz", "==", "NULL)", "return", ";", "14", "const", "char", "*filePath", "=", "env->GetStringUTFChars(s,", "nullptr);", "15", "void", "*", "initial_ptr", "=", "nativeInitial(filePath);", "16", "jfieldID", "jfid", "=", "env->GetFieldID(jclazz,", "\"handle\",", "\"J\");", "17", "if", "(jfid", "==", "NULL)", "return", ";", "18", "env->SetLongField(obj,", "jfid,", "(jlong)initial_ptr);", "19", "return", ";", "20", "}", "1", "package", "com.example;", "2", "public", "class", "P{", "3", "protected", "long", "handle;", "4", "native", "int", "nativeDecode(long", "j,", "Bitmap", "bitmap);", "5", "native", "void", "nativeInitHandle(P", "obj,", "String", "str);", "6", "public", "P(String", "str)", "{", "7", "this.mHandle", "=", "0L;", "8", "if", "(str", "!=", "null)", "nativeInitHandle(this,", "str);", "9", "}", "10", "public", "int", "javaDecode(Bitmap", "bitmap)", "{", "11", "if", "(bitmap", "==", "null)", "return", "0;", "12", "return", "nativeDecode(this,", "bitmap);", "13", "}", "14", "public", "void", "javaInitHandle(String", "str)", "{", "15", "if", "(str", "==", "null)", "return", "0;", "16", "return", "nativeInitHandle(this,", "bitmap);", "17", "}"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 525.12,
+    "y1": 259.68,
+    "y2": 530.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Figure3-1.png"
+}, {
+  "caption": "Table 3: Executable Harnesses.",
+  "captionBoundary": {
+    "x1": 376.0849914550781,
+    "x2": 499.776611328125,
+    "y1": 387.3121032714844,
+    "y2": 392.9429931640625
+  },
+  "figType": "Table",
+  "imageText": ["*", "M1:", "Executable", "harnesses", "without", "Java", "runtime", "environment;", "M2:", "Executable", "harnesses", "with", "Atlas(equipped", "with", "Java", "runtime", "environment).", "Vendor", "Samsung", "Xiaomi", "OPPO", "Vivo", "M1", "8/20", "14/20", "13/20", "10/20", "M2", "14/20", "19/20", "16/20", "18/20"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 558.24,
+    "y1": 396.96,
+    "y2": 448.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Table3-1.png"
+}, {
+  "caption": "Table 1: An overview of the harness generation of Atlas and effectiveness of each component.",
+  "captionBoundary": {
+    "x1": 117.58999633789062,
+    "x2": 494.11517333984375,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["*", "FHG:", "Final", "harness", "generation.", "FH:", "Final", "harness.", "CH:", "Correct", "harness.", "FM:", "Fixed", "manually.", "F:", "Failed", "harness.", "AFLocs.Pct:", "Percentage", "of", "average", "manually", "fixed", "lines", "of", "code.", "F-1:", "Failed", "harness", "for", "incompleteness.", "F-2:", "Failed", "harness", "for", "lack", "of", "a", "runtime", "environment.", "API:", "Total", "APIs", "invoked", "in", "final", "harnesses.", "CLA:", "Cross-language", "Analysis", "stage.", "IH:", "Total", "intermediate", "harnesses.", "NN:", "Native", "analyzer", "needed", "harnesses.", "T:", "Time", "cost", "of", "cross-layer", "analysis.", "VivoGallery", "55", "27(49%)", "16(29%)", "12(22%)", "6.3%", "6", "6", "50", "500", "64(13%)", "43.8", "126(25%)", "19(15%)", "63(50%)", "55(44%)", "Total", "820", "446(51%)", "175(27%)", "199(22%)", "5.60%", "29%", "71%", "767", "12083", "2309(19%)", "42.5", "4018(32%)", "561(23%)", "827(21%)", "820(37%)", "OplusLauncher", "3", "0", "3(100%)", "0", "4.0%", "0", "0", "3", "27", "3(11%)", "5.3", "13(48%)", "0", "13(100%)", "3(23%)", "OPPO", "OplusLocationService", "20", "10(50%)", "4(20%)", "6(30%)", "8.5%", "1", "5", "14", "76", "21(28%)", "2.0", "21(28%)", "16(76%)", "5(24%)", "20(95%)", "VivoBrowser", "47", "26(55%)", "9(19%)", "12(26%)", "5.1%", "2", "10", "45", "720", "172(24%)", "47.3", "152(21%)", "34(22%)", "35(23%)", "47(31%)", "VideoPlayer", "27", "16(59%)", "8(29%)", "3(12%)", "4.9%", "1", "2", "25", "331", "47(14%)", "135.7", "75(23%)", "15(20%)", "26(35%)", "27(36%)", "VivoCamera", "80", "52(65%)", "14(18)", "14(17%)", "5.6%", "2", "12", "72", "1163", "95(8%)", "17.8", "243(21%)", "31(13%)", "80(33%)", "80(33%)Vivo", "MIUIMusicT", "44", "22(50%)", "9(20%)", "13(30%)", "5.0%", "2", "11", "39", "846", "206(24%)", "24.8", "103(12%)", "40(39%)", "37(36%)", "44(43%)", "OplusEngineerCamera", "44", "16(36%)", "22(50%)", "6(14%)", "3.6%", "1", "5", "47", "511", "89(17%)", "3.8", "352(69%)", "3(1%)", "62(18%)", "44(13%)", "WallpaperChooser", "15", "9(60%)", "4(27%)", "2(13%)", "3.9%", "1", "1", "17", "163", "41(25%)", "2.6", "39(24%)", "3(8%)", "22(56%)", "15(38%)", "OplusEngineerMode", "6", "2(33%)", "2(33%)", "2(33%)", "4.8%", "0", "2", "10", "204", "18(9%)", "4.6", "82(40%)", "18(22%)", "28(34%)", "6(7%)", "Notes40", "89", "53(60%)", "14(16%)", "22(24%)", "5.0%", "4", "18", "74", "2841", "612(22%)", "211.8", "1867(66%)", "125(7%)", "132(7%)", "89(5%)", "Gallery_T_CN", "98", "53(54%)", "17(17%)", "28(29%)", "6.0%", "16", "12", "82", "1390", "301(22%)", "16.6", "242(17%)", "39(16%)", "109(45%)", "98(40%)", "MIMediaEditor", "65", "34(52%)", "10(15%)", "21(33%)", "5.6%", "13", "8", "51", "1541", "273(18%)", "24.9", "144(9%)", "78(54%)", "26(18%)", "65(45%)", "SmartHome", "59", "38(64%)", "7(12%)", "14(24%)", "5.7%", "2", "12", "55", "826", "122(15%)", "19.6", "192(23%)", "42(22%)", "43(22%)", "59(31%)Xiaomi", "SamsungCamera", "49", "27(55%)", "6(12%)", "16(33%)", "4.9%", "5", "11", "55", "416", "131(31%)", "8.3", "154(37%)", "40(26%)", "39(25%)", "49(32%)Samsung", "SamsungGallery2018", "60", "33(55%)", "20(33%)", "7(12%)", "7.1%", "2", "5", "78", "233", "51(22%)", "9.7", "125(54%)", "21(17%)", "79(63%)", "60(48%)", "framework", "59", "28(47%)", "10(17%)", "21(36%)", "9.6%", "8", "13", "50", "295", "63(21%)", "144.5", "88(30%)", "37(42%)", "28(32%)", "59(67%)", "FHG", "CLA", "OP-StageVendor", "APK", "FH", "CH", "FM", "F", "F.Pct", "F-1", "F-2", "API", "IH", "NN", "T(min)", "Dup", "Comp", "NoComp", "Inj"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.68,
+    "y1": 96.96,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Table1-1.png"
+}, {
+  "caption": "Table 2: Comparison of basic block coverage.",
+  "captionBoundary": {
+    "x1": 83.19100189208984,
+    "x2": 264.3571472167969,
+    "y1": 289.610107421875,
+    "y2": 295.2409973144531
+  },
+  "figType": "Table",
+  "imageText": ["*", "BBs:", "the", "amount", "of", "babic", "blocks.", "BH:", "the", "harnesses", "generated", "by", "Atlas.", "MH:", "the", "manually-written", "harnesses.", "*", "Each", "harness", "is", "executed", "for", "10", "loops", "and", "each", "loop", "is", "24", "hours.", "The", "p-value", "is", "calculated", "according", "to", "Mann-Whitney", "U", "test[46].", "Gallery_T_CN.apk", "libMiuiGalleryNSGIF.so", "387", "237", "1.64E-03", "MIUIMusicT.apk", "libmp4encode.so", "6304", "5700", "4.32E-03", "iReader.apk", "libZYAccDecoder.so", "3983", "2720", "1.43E-03", "VideoPlayer.apk", "libvad_check.so", "350", "241", "5.63E-03", "OplusLauncher.apk", "liboplus_image_process.so", "1131", "735", "1.52E-03", "OplusEngineerCamera.apk", "lib_rectify.so", "794", "540", "3.45E-03", "ARDrawing.apk", "libimagecodec.quram.so", "2995", "2350", "3.12E-03", "SamsungGallery2018.apk", "libagifencoder.quram.so", "2303", "2010", "2.78E-03", "BH", "MH", "p-value", "BBs", "APK", "Library"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 294.24,
+    "y1": 303.84,
+    "y2": 455.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652133-Table2-1.png"
+}]

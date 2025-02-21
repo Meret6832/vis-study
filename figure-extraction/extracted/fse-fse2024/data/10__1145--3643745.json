@@ -1,0 +1,361 @@
+[{
+  "caption": "Table 1. Pass@k of DiffCoder and all baselines on three public library benchmarks and one built-in benchmarks. The absolute improvements of DiffCoder over its base model (StarCoder) are marked in red.",
+  "captionBoundary": {
+    "x1": 45.58599853515625,
+    "x2": 441.6640319824219,
+    "y1": 87.14900970458984,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Baselines", "CodeGen", "350M", "14.2", "30.7", "46.0", "19.3", "40.9", "60.6", "1.3", "5.4", "10.2", "13.3", "20.3", "25.0", "CodeGen", "3B", "44.4", "57.8", "63.3", "40.6", "51.0", "55.4", "6.9", "15.1", "20.4", "24.6", "33.2", "41.4", "CodeGen", "7B", "50.0", "61.8", "68.3", "49.2", "65.0", "69.3", "9.2", "20.9", "32.6", "27.4", "38.2", "44.5", "CodeGen2.5", "7B", "53.3", "65.8", "71.2", "63.2", "76.2", "78.2", "19.6", "26.7", "28.5", "33.0", "47.7", "56.7", "replit", "3B", "45.3", "59.1", "64.3", "45.0", "60.6", "65.3", "9.8", "22.6", "26.5", "21.1", "28.5", "31.0", "CodeGeeX2", "6B", "55.2", "67.7", "73.2", "55.8", "66.4", "68.3", "16.1", "25.9", "34.6", "32.9", "47.5", "57.9", "Code", "Llama", "7B", "58.6", "69.9", "73.2", "67.3", "75.1", "76.3", "14.2", "25.3", "30.6", "39.9", "57.5", "69.5", "Code", "Llama", "13B", "62.5", "72.6", "76.2", "69.8", "79.8", "81.1", "15.1", "23.5", "28.5", "42.9", "58.9", "69.5", "WizardCoder", "15B", "63.6", "70.4", "71.2", "79.2", "82.8", "84.1", "21.5", "26.1", "26.5", "57.4", "67.0", "70.1", "Codex", "12B", "18.9", "43.1", "64.4", "34.4", "55.8", "71.7", "-", "-", "-", "28.8", "46.8", "72.3", "Analogical", "Learning", "StarCoder", "1B", "40.0", "53.8", "59.4", "39.7", "50.4", "55.4", "6.4", "15.3", "32.6", "15.2", "19.5", "23.7", "+DiffCoder", "45.65.6", "60.56.7", "68.99.5", "44.24.5", "57.16.7", "66.010.6", "9.32.9", "20.45.1", "35.93.3", "19.44.2", "27.47.9", "37.113.4", "StarCoder", "3B", "45.7", "62.4", "68.3", "48.6", "61.8", "68.3", "11.1", "20.7", "24.4", "21.6", "31.9", "39.0", "+DiffCoder", "51.45.7", "68.15.7", "72.13.8", "54.76.1", "70.68.8", "77.39.0", "13.62.5", "24.84.1", "31.57.1", "29.57.9", "36.04.1", "54.815.8", "StarCoder", "7B", "54.4", "66.8", "71.2", "55.2", "69.4", "74.2", "13.2", "23.4", "30.6", "28.7", "38.8", "46.9", "+DiffCoder", "61.47.0", "71.44.6", "75.94.7", "59.64.4", "79.09.6", "83.79.5", "16.02.8", "26.22.8", "33.73.1", "42.613.9", "53.214.4", "68.521.6", "StarCoder", "15B", "60.3", "69.6", "73.2", "63.5", "77.3", "82.1", "12.6", "21.5", "32.6", "33.3", "47.5", "58.5", "+CERT", "62.11.8", "73.53.9", "78.65.4", "65.31.8", "80.02.7", "86.34.2", "14.72.1", "24.22.7", "36.03.4", "-", "-", "-", "+DiffCoder", "67.47.1", "79.39.7", "85.912.7", "79.415.9", "84.06.7", "87.75.6", "17.34.7", "28.26.7", "38.15.5", "55.221.9", "68.220.7", "72.413.9", "pass@k", "1", "10", "100", "1", "10", "100", "1", "10", "100", "1", "10", "100", "Public", "Library", "Built-in", "PandasEval", "NumpyEval", "PanNumEval", "HumanEval", "Model"],
+  "name": "1",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 440.15999999999997,
+    "y1": 117.6,
+    "y2": 390.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Table1-1.png"
+}, {
+  "caption": "Fig. 10. The specific requirements for implementing ChatPaper.",
+  "captionBoundary": {
+    "x1": 126.177001953125,
+    "x2": 359.82257080078125,
+    "y1": 258.2080078125,
+    "y2": 263.4129943847656
+  },
+  "figType": "Figure",
+  "imageText": ["Notes:", "Ø", "No", "consideration", "is", "required", "for", "multi-turn", "dialogue;", "Ø", "There", "is", "no", "need", "to", "implement", "a", "UI", "interaction", "interface;", "Ø", "Code", "comments", "are", "not", "required;", "Ø", "Referring", "to", "external", "materials", "is", "permissible;", "Ø", "Coding", "can", "commence", "immediately", "as", "all", "the", "prerequisites", "have", "been", "provided,", "including", "the", "PDF", "paper,", "question,", "model", "weights,", "and", "conda", "environment.", "Objective:", "The", "aim", "of", "this", "project", "is", "to", "facilitate", "researchers", "in", "reading", "papers.", "Given", "a", "paper", "in", "PDF", "format", "along", "with", "a", "query,", "the", "project", "should", "initially", "extract", "the", "content", "from", "the", "PDF", "and", "then", "utilize", "the", "LLM", "to", "generate", "the", "corresponding", "answer.", "The", "retrieval", "model", "and", "LLM", "should", "employ", "“", "BAAI/bge-large-en", "”", "and", "“", "meta-llama/Llama-2-7b-chat-hf", "”", "on", "HuggingFace,", "respectively.", "All", "hyperparameters", "should", "retain", "their", "default", "values", "except", "for", "the", "retrieval", "vector", "count", "(k),", "which", "should", "be", "set", "to", "3.", "We", "have", "prepared", "the", "OpenAI’s", "Codex", "paper", "(https://arxiv.org/abs/2107.03374)", "to", "verify", "the", "correctness", "of", "the", "project.", "This", "project", "will", "be", "deemed", "complete", "when", "it", "correctly", "answers", "the", "question", "\"How", "many", "programming", "problems", "does", "HumanEval", "include?\",", "with", "the", "answer", "being", "\"164\"."],
+  "name": "10",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 435.35999999999996,
+    "y1": 84.96,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure10-1.png"
+}, {
+  "caption": "Fig. 3. Prompt of training and inference for DiffCoder. The gray text is exclusively designed for privatelibrary-oriented code generation.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 441.6644287109375,
+    "y1": 212.2939910888672,
+    "y2": 228.4580078125
+  },
+  "figType": "Figure",
+  "imageText": ["#response#", "{response}", "#APIs#", "-", "{API1}", "-", "{API2}", "-", "…", "#programming", "problem#", "{programming", "problem}", "Below", "is", "a", "programming", "problem", "that", "describes", "a", "task,", "paired", "with", "the", "APIs", "that", "need", "to", "be", "invoked", "to", "solve", "this", "programming", "problem.", "Write", "a", "response", "that", "appropriately", "completes", "the", "request."],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 399.36,
+    "y1": 85.92,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure3-1.png"
+}, {
+  "caption": "Fig. 6. Four case studies from TorchDataEval and HumanEval.",
+  "captionBoundary": {
+    "x1": 128.26199340820312,
+    "x2": 357.73907470703125,
+    "y1": 470.90802001953125,
+    "y2": 476.1130065917969
+  },
+  "figType": "Figure",
+  "imageText": ["return", "dep", "==", "0", "if", "b", "==", "\"<\":", "dep", "+=", "1", "else:", "dep", "-=", "1", "if", "dep", "<", "0:", "return", "False", "def", "correct_bracketing(brackets:", "str):", "dep", "=", "0", "for", "b", "in", "brackets:", "brackets", "=", "brackets.replace(\"<>\",", "\"\")", "return", "len(brackets)", "==", "0", "def", "correct_bracketing(brackets:", "str):", "import", "re", "brackets", "=", "re.sub(r\"[^<>]\",", "\"\",", "brackets)", "while", "\"<>\"", "in", "brackets:", "42.4NoDiff-FT", "15B", "diagonal:", "def", "build_datapipes(root_dir=\".\"):", "dp_data", "=", "dp.iter.FileLister(root_dir)", "dp_data", "=", "dp_data.filter(“example”)", "...", "return", "MapperIterDataPipe(dp_data)", "53.5Diff-FT", "15B", "row:", "datapipe", "=", "dp.iter.FileOpener(datapipe)", "...", "return", "MapperIterDataPipe(datapipe,", "decoder)", "filename:", "“example”", "not", "in", "filename", "and\\", "filename.endswith(\".csv\")))", "def", "build_datapipes(root_dir=\".\"):", "datapipe", "=", "dp.iter.FileLister(root_dir)", "datapipe", "=", "datapipe.filter(filter_fn=(lambda\\", "(d)", "Problem", "from", "TorchDataComplexEval", "1.", "List", "all", "files", "under", "the", "root_dir", "2.", "Filter", "out", "files", "that", "do", "not", "contain", "“example”", "and", "…", "…", "5.", "Return", "the", "datapipe", "with", "appling", "the", "…", "48.1NoDiff-FT", "15B", "diagonal:", "53.1Diff-FT", "15B", "row:", "(b)", "Problem", "from", "HumanEval", "brackets", "is", "a", "string", "of", "“<”", "and", "“>”.", "return", "True", "if", "every", "opening", "bracket", "has", "a", "corresponding", "closing", "bracket.", "diagonal:", "row:", "group_key_fn=group_fn,", "buffer_group_size=3,", "guaranteed_group_size=2)", "def", "group_fn(file):", "return", "os.path.basename(file).split(\".\")[0]", "source_dp", "=", "IterableWrapper([“a.png”,", "“b.png”,", "...])", "source_dp.groupby(", "group_key_fn=group_fn,", "#", "group", "by", "file", "name", "buffer_size=3,", "#", "buffer", "size", "group_size=3,", "#", "group", "size", "guaranteed_group_size=2", "#", "guaranteed", "group", "size)", "def", "group_fn(file):", "return", "os.path.basename(file).split(\".\")[0]", "source_dp", "=", "IterableWrapper([“a.png”,", "“b.png”,", "...])", "source_dp.groupby(", "48.1NoDiff-FT", "15B", "53.1Diff-FT", "15B", "(a)", "Problem", "from", "TorchDataEval", "Group", "by", "file", "name", "(except", "extension),", "we", "set", "the", "buffer", "size", "and", "group", "size", "to", "3,", "and", "the", "guaranteed", "group", "size", "to", "2.", "row:", "NoDiff-FT", "15B", "diagonal:", "53.5Diff-FT", "15B", "42.4", "(c)", "Problem", "from", "HumanEval", "])", "return", "result_value", "np.digitize(a,", "[0,", "10]),", "np.digitize(b,", "[0,", "10])", "def", "multiply(a,", "b):", "import", "numpy", "as", "np", "result_value", "=", "np.prod([", "def", "multiply(a,", "b):", "c", "=", "abs(a)", "d", "=", "abs(b)", "e", "=", "c", "%", "10", "f", "=", "d", "%", "10", "g", "=", "e", "*", "f", "return", "g", "Complete", "the", "function", "that", "takes", "two", "integers", "and", "returns", "the", "product", "of", "their", "unit", "digits.", "Assume", "the", "input", "is", "always", "valid."],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 436.32,
+    "y1": 87.84,
+    "y2": 461.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure6-1.png"
+}, {
+  "caption": "Table 3. Pass@𝑘 of various versions of DiffCoder 15B on six code generation benchmarks.",
+  "captionBoundary": {
+    "x1": 77.11599731445312,
+    "x2": 408.642822265625,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["1", "10", "100", "1", "10", "100", "1", "10", "100", "1", "10", "100", "1", "10", "100", "1", "10", "100", "StarCoder", "15B", "60.3", "69.6", "73.2", "63.5", "77.3", "82.1", "12.6", "21.5", "32.6", "33.3", "47.5", "58.5", "47.0", "57.6", "58.0", "13.5", "19.4", "25.0", "+DiffCoder-manual", "66.5", "77.5", "82.2", "74.3", "80.8", "84.9", "16.2", "27.3", "37.4", "52.9", "62.5", "68.3", "53.1", "65.7", "68.0", "15.2", "24.5", "28.6", "+DiffCoder-prompt", "63.0", "70.0", "73.5", "77.0", "79.5", "82.5", "15.6", "26.5", "34.1", "57.1", "66.8", "69.3", "47.8", "55.2", "59.4", "14.7", "22.1", "26.9", "+DiffCoder-RRHF", "63.9", "70.0", "73.8", "77.5", "80.3", "83.1", "15.8", "27.2", "36.4", "57.6", "69.2", "74.6", "49.2", "59.6", "62.9", "15.0", "24.2", "28.8", "+DiffCoder", "67.4", "79.3", "85.9", "79.4", "84.0", "87.7", "17.3", "28.2", "38.1", "55.2", "68.2", "72.4", "54.0", "68.6", "71.3", "16.7", "26.5", "30.2", "w/o", "batch", "65.0", "76.9", "82.4", "77.6", "82.7", "85.2", "16.1", "26.8", "38.0", "54.6", "65.7", "70.2", "52.8", "67.2", "71.0", "15.9", "24.3", "29.5", "w/o", "sample", "63.2", "74.7", "79.5", "74.5", "81.2", "83.9", "15.5", "25.2", "37.9", "48.5", "57.2", "67.8", "50.5", "64.1", "68.3", "13.5", "22.4", "27.2", "w/", "mixed", "61.7", "72.3", "77.5", "73.8", "79.0", "83.4", "15.6", "24.7", "35.1", "44.6", "55.2", "64.9", "51.1", "63.6", "66.5", "14.0", "22.3", "26.5", "ComplexEval", "pass@k", "Model", "PandasEval", "NumpyEval", "PanNumEval", "HumanEval", "TorchDataEval", "TorchData"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 437.28,
+    "y1": 106.56,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Table3-1.png"
+}, {
+  "caption": "Fig. 1. An example of how programmers learn by comparing the diffs among analogical code exercises.",
+  "captionBoundary": {
+    "x1": 53.67100143432617,
+    "x2": 432.33099365234375,
+    "y1": 172.3520050048828,
+    "y2": 177.5570068359375
+  },
+  "figType": "Figure",
+  "imageText": ["diff", "diff", "diff", "Analogical", "Learning", "setColor(“black”)", "=", "rotate(“45”)", "=", "setColor(“black”)", "=", "Analogical", "Code", "Exercises", "drawSquare().setColor(“black”).rotate(“45”)", "drawSquare().rotate(“45”)", "drawSquare().setColor(“black”)", "drawSquare()"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 401.28,
+    "y1": 84.96,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure1-1.png"
+}, {
+  "caption": "Fig. 8. API count vs. pass@100 on all (a) public and (b) private library programming tasks.",
+  "captionBoundary": {
+    "x1": 77.22097778320312,
+    "x2": 408.7802734375,
+    "y1": 228.57398986816406,
+    "y2": 233.77899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "302", "private", "programming", "tasks", "DiffCoder", "15B", "APICoder", "15B", "StarCoder", "15B", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55", "60", "Pa", "ss", "@", "10", "0", "(%", ")", "0", "5", "0", "5", "10", "15", "API", "count", "(a)", "252", "public", "programming", "tasks", "DiffCoder", "15B", "CERT", "15B", "StarCoder", "15B", "30", "35", "40", "45", "50", "55", "60", "65", "70", "75", "80", "85", "90", "95", "Pa", "ss", "@", "10", "0", "(%", ")", "0", "1", "2", "3", "4", "5", "6", "7", "8", "API", "count"],
+  "name": "8",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 395.03999999999996,
+    "y1": 85.92,
+    "y2": 212.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. Percentages of passed, invalid, and incorrect API usages generated by three models on all (a) public and (b) private library programming tasks.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1676940917969,
+    "y1": 388.3680114746094,
+    "y2": 404.5320129394531
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "302", "private", "programming", "tasks", "DiffCoder", "15B", "APICoder", "15B", "StarCoder", "15B", ")", "ge", "(%", "en", "ta", "Pe", "rc", "50", "40", "30", "20", "10", "Passed", "Invalid", "Incorrect", "0", "(a)", "252", "public", "programming", "tasks", "DiffCoder", "15B", "CERT", "15B", "StarCoder", "15B", ")", "ge", "(%", "en", "ta", "Pe", "rc", "70", "60", "50", "40", "30", "20", "10", "Passed", "Invalid", "Incorrect", "0"],
+  "name": "9",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 78.24,
+    "x2": 408.47999999999996,
+    "y1": 243.35999999999999,
+    "y2": 372.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure9-1.png"
+}, {
+  "caption": "Fig. 4. Analytical experiments of Diff-FT/NoDiff-FT 1B, 3B, 7B, and 15B on TorchDataEval.",
+  "captionBoundary": {
+    "x1": 76.40899658203125,
+    "x2": 409.591064453125,
+    "y1": 231.45298767089844,
+    "y2": 236.65798950195312
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Pass@1", "of", "models", "trained", "on", "data", "pairs", "of", "18K", "exercises", "across", "each", "row,", "diagonal,", "and", "column", "in", "(a)", "no", "diff", "no", "dif", "f", "diff", "Diff-FT/NoDiff-FT", "15B", "Diff-FT/NoDiff-FT", "7B", "Diff-FT/NoDiff-FT", "3B", "48.1", "46.7", "46.3", "47.2", "49.3", "50.2", "51.1", "51.4", "52.5", "53.1", "52.5", "51.8", "52.6", "53.0", "39.3", "38.4", "37.1", "38.8", "38.0", "39.2", "40.3", "39.9", "42.4", "43.1", "43.5", "42.7", "43.6", "44.0", "33.1", "34.4", "31.6", "31.3", "32.4", "33.0", "33.6", "34.5", "36.1", "35.7", "36.4", "36.7", "35.9", "36.3", "Diff-FT/NoDiff-FT", "1B", "25.6", "25.9", "25.3", "26.1", "26.8", "25.4", "23.6", "22.5", "20.4", "22.0", "22.7", "23.4", "23.8", "24.2", "(a)", "108K", "exercises,", "each", "contains", "3K.", "Round#1", "Round#2", "Round#3", "Round#4", "Round#5", "Round#6", "60", "libraries", "6", "5", "4", "3", "2", "diff", "10", "libraries", "*300", "APIs", "+API", "1"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 438.24,
+    "y1": 87.84,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure4-1.png"
+}, {
+  "caption": "Fig. 2. The data preparation of DiffCoder.",
+  "captionBoundary": {
+    "x1": 165.72799682617188,
+    "x2": 320.27288818359375,
+    "y1": 306.3810119628906,
+    "y2": 311.58599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["diff", "diff", "diff", "diff", "diff", "diff", "(𝒙,", "𝒚)", "Code", "Exercises", "𝒙", "𝒚", "DiffCoder", "API", "group", "API", "groups", "(shuffle)", "API", "group", "Step1:", "crawl", "60", "popular", "Python", "libraries", "API", "group", "API", "group", "Step3:", "generate", "analogical", "code", "exercises", "Prompt", "Step2:", "extract", "API", "groups", "StarCoder", "...", "adddivsumsubpowmod", "Code", "Problem", "Code", "Problem", "adddivsum", "Code", "Problem", "add", "adddiv", "GPT-3.5", "Code", "Problem", "Please", "give", "the", "“#Programming", "Problem#”,", "“#Example", "Code#”", "parts", "for", "me,", "and", "keep", "the", "output", "concise", "and", "clear.", "#APIs#", "-", "{API", "name}{API", "signature}:", "{API", "description}", "-", "…", "Now,", "you", "are", "a", "Programming", "Contest", "Producer.", "Your", "objective", "is", "to", "write", "an", "educational", "#Programming", "Problem#", "based", "on", "the", "following", "#APIs#,", "and", "then", "give", "an", "#Example", "Code#", "that", "invokes", "these", "APIs。", "+", "API", "+", "API", "...", "Round#6", "+", "API", "Sampling", "Round#3", "Round#2", "Round#1", "add", "isin", "empty", "div", "drop", "dropna", "...", "sum", "iloc", "isnull", "div", "drop", "dropna", "...", "...", "add", "isin", "empty", "add", "isin", "empty", "...", "Matplotlib", "PyTorchNumPy", "Pandas", "instruction", "tuning"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 87.84,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure2-1.png"
+}, {
+  "caption": "Fig. 12. (Appendix) Analytical experiments (pass@1) of Diff-FT/NoDiff-FT 1B, 3B, 7B and 15B on TorchDataComplexEval, MonkeyEval, BeatNumEval, and HumanEval. We train Diff-FT/NoDiff-FT on code exercises of 18K exercises across each row, diagonal, and column of Figure 4 (a).",
+  "captionBoundary": {
+    "x1": 45.62200164794922,
+    "x2": 441.65667724609375,
+    "y1": 275.61199951171875,
+    "y2": 302.7349853515625
+  },
+  "figType": "Figure",
+  "imageText": ["no", "diff", "no", "dif", "f", "no", "diff", "diff", "no", "dif", "f", "diff", "no", "diff", "no", "dif", "f", "diff", "Diff-FT/NoDiff-FT", "15B", "Diff-FT/NoDiff-FT", "7B", "Diff-FT/NoDiff-FT", "3B", "51.9", "52.4", "51.5", "49.4", "53.5", "52.0", "42.4", "39.6", "35.2", "36.7", "38.3", "41.6", "45.4", "47.2", "38.2", "40.1", "36.2", "38.5", "38.4", "36.9", "32.7", "34.5", "27.3", "29.4", "31.4", "30.7", "32.5", "36.3", "28.3", "26.2", "26.6", "27.3", "28.0", "27.7", "24.5", "22.0", "21.0", "22.4", "23.1", "23.4", "25.3", "25.6", "Diff-FT/NoDiff-FT", "1B", "18.2", "17.7", "18.4", "18.0", "17.6", "18.5", "16.2", "17.0", "15.0", "15.7", "16.2", "16.3", "17.2", "16.7", "(d)", "HumanEval", "Diff-FT/NoDiff-FT", "15B", "Diff-FT/NoDiff-FT", "7B", "Diff-FT/NoDiff-FT", "3B", "34.2", "33.6", "33.2", "35.7", "34.1", "35.3", "27.7", "26.5", "25.6", "27.1", "28.4", "28.8", "30.1", "32.4", "27.1", "26.6", "27.3", "27.0", "28.4", "27.5", "25.1", "25.3", "23.7", "24.1", "23.8", "25.3", "25.4", "26.2", "24.0", "23.6", "23.9", "23.4", "24.2", "24.0", "21.7", "21.5", "19.4", "19.7", "19.6", "21.5", "21.2", "21.8", "Diff-FT/NoDiff-FT", "1B", "16.3", "16.6", "15.9", "16.8", "16.2", "15.7", "15.3", "14.2", "14.6", "14.2", "14.4", "15.0", "15.3", "15.3", "Diff-FT/NoDiff-FT", "15B", "Diff-FT/NoDiff-FT", "7B", "Diff-FT/NoDiff-FT", "3B", "21.1", "23.5", "23.8", "21.9", "23.2", "23.2", "19.5", "18.8", "16.8", "16.9", "16.6", "17.4", "19.8", "21.0", "12.5", "12.8", "13.2", "12.5", "13.0", "12.7", "10.4", "11.6", "10.1", "10.6", "9.8", "10.9", "11.4", "12.0", "11.1", "10.5", "9.9", "10.3", "10.2", "10.5", "8.2", "9.0", "8.2", "8.2", "7.6", "8.8", "9.2", "10.0", "no", "diff", "Diff-FT/NoDiff-FT", "1B", "7.0", "6.8", "7.2", "7.3", "6.9", "6.7", "5.5", "5.9", "5.6", "6.0", "5.8", "6.0", "6.3", "6.5", "no", "dif", "f", "diff", "Diff-FT/NoDiff-FT", "15B", "Diff-FT/NoDiff-FT", "7B", "Diff-FT/NoDiff-FT", "3B", "13.5", "12.7", "14.1", "12.7", "15.3", "12.6", "7.3", "7.0", "5.7", "6.3", "6.8", "7.0", "8.3", "8.9", "4.5", "5.4", "4.1", "4.6", "4.8", "4.6", "5.3", "7.2", "8.9", "9.2", "8.6", "8.8", "9.0", "8.9", "4.2", "4.6", "3.5", "3.3", "4.2", "4.7", "4.7", "5.3", "6.7", "6.3", "5.9", "6.3", "6.5", "6.0", "Diff-FT/NoDiff-FT", "1B", "3.6", "3.4", "4.1", "3.7", "3.6", "3.8", "1.2", "0.9", "1.0", "1.3", "1.6", "1.6", "2.6", "2.9", "(a)", "TorchDataComplexEval", "(c)", "BeatNumEval", "(b)", "MonkeyEval"],
+  "name": "12",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 437.28,
+    "y1": 85.92,
+    "y2": 256.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure12-1.png"
+}, {
+  "caption": "Fig. 14. (Appendix) Our crawled 60 code libraries.",
+  "captionBoundary": {
+    "x1": 151.65499877929688,
+    "x2": 334.3453063964844,
+    "y1": 508.5280456542969,
+    "y2": 513.7330322265625
+  },
+  "figType": "Figure",
+  "imageText": ["pandas,", "numpy,", "sklearn,", "torch,", "tensorflow,", "torcharrow,", "django,", "selenium,", "matplotlib,", "flask,", "scipy,", "seaborn,", "nltk,", "beautifulsoup4,", "pygame,", "PIL,", "jieba,", "gensim,", "spacy,", "transformers,", "fairseq,", "sqlalchemy,", "scrapy,", "allennlp,", "datasets,", "tokenizers,", "torchdata,", "mxnet,", "imageio,", "pytest,", "metpy,", "ansible,", "requests,", "datetime,", "zlib,", "random,", "math,", "sys,", "glob,", "os,", "urllib,", "time,", "re,", "json,", "unittest,", "collections,", "subprocess,", "copy,", "functools,", "itertools,", "six,", "threading,", "tempfile,", "io,", "pickle,", "pathlib,", "socket,", "struct,", "hashlib,", "csv"],
+  "name": "14",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 86.88,
+    "x2": 399.36,
+    "y1": 421.91999999999996,
+    "y2": 491.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure14-1.png"
+}, {
+  "caption": "Fig. 13. (Appendix) Analytical experiments of Diff-FT/NoDiff-FT trained with CodeLlama 7B, 13B, and 34B on TorchDataEval.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.17193603515625,
+    "y1": 387.9560241699219,
+    "y2": 404.1199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["CodeLlama", "34B→DiffCoder", "34B", "54.2", "57.5", "53.4", "55.1", "54.6", "57.8", "56.9", "58.0", "no", "diff", "61.4", "62.5", "63.2", "60.7", "61.3", "63.6", "no", "dif", "f", "CodeLlama", "13B→DiffCoder", "13Bdiff", "49.6", "51.3", "45.2", "44.4", "45.8", "48.2", "50.9", "51.7", "53.2", "52.6", "54.1", "53.8", "55.2", "52.5", "CodeLlama", "7B→DiffCoder", "7B", "50.6", "49.4", "52.1", "51.7", "53.2", "51.9", "46.6", "47.6", "43.1", "41.3", "44.6", "46.6", "47.9", "48.2"],
+  "name": "13",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 438.24,
+    "y1": 321.59999999999997,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure13-1.png"
+}, {
+  "caption": "Table 2. Pass@k of DiffCoder and all baselines on four private benchmarks. The absolute improvements of DiffCoder over its base model (StarCoder) are marked in red.",
+  "captionBoundary": {
+    "x1": 45.58599853515625,
+    "x2": 440.1733703613281,
+    "y1": 87.14900970458984,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Baselines", "CodeGen", "350M", "9.8", "22.6", "34.0", "1.4", "6.5", "10.3", "2.1", "6.4", "11.9", "9.5", "17.1", "28.7", "CodeGen", "3B", "30.5", "40.1", "42.0", "5.6", "13.6", "15.5", "5.2", "10.6", "13.8", "13.6", "19.1", "22.7", "CodeGen", "7B", "19.9", "25.8", "28.0", "7.2", "13.9", "17.2", "7.7", "13.7", "17.8", "20.3", "25.5", "26.7", "CodeGen2.5", "7B", "46.1", "53.3", "56.0", "10.0", "15.4", "19.3", "10.8", "16.6", "20.7", "27.3", "34.9", "38.6", "replit", "3B", "40.8", "49.3", "50.0", "7.7", "12.5", "16.7", "8.2", "12.8", "16.8", "24.5", "32.0", "38.6", "CodeGeeX2", "6B", "37.2", "41.8", "44.0", "8.5", "14.6", "17.9", "9.9", "16.7", "19.8", "15.4", "22.6", "25.7", "Code", "Llama", "7B", "47.7", "58.7", "60.0", "12.4", "22.5", "24.9", "13.4", "21.6", "26.7", "27.9", "37.0", "40.5", "Code", "Llama", "13B", "49.8", "54.7", "56.0", "13.1", "23.2", "25.6", "11.3", "18.2", "25.7", "28,5", "38.0", "40.5", "WizardCoder", "15B", "48.5", "55.7", "56.0", "14.3", "23.2", "26.6", "14.6", "23.9", "28.7", "35.2", "42.7", "45.5", "Codex", "12B", "25.0", "51.3", "56.8", "9.0", "19.3", "21.4", "3.6", "7.5", "12.6", "8.6", "23.8", "37.0", "GPT-3.5", "turbo", "52.4", "65.2", "74.0", "14.6", "25.7", "30.5", "24.6", "31.6", "40.8", "38.6", "51.6", "53.6", "Analogical", "Learning", "StarCoder", "1B", "23.6", "30.2", "32.0", "3.4", "8.8", "11.4", "5.9", "9.1", "12.9", "14.3", "21.5", "26.7", "+DiffCoder", "28.14.5", "36.15.9", "41.79.7", "4.71.3", "12.53.7", "16.34.9", "7.51.6", "12.83.7", "18.45.5", "18.23.9", "26.34.8", "33.44.2", "StarCoder", "3B", "33.1", "39.0", "40.0", "5.9", "14.3", "16.2", "8.0", "13.8", "18.8", "21.3", "28.9", "31.7", "+DiffCoder", "38.45.3", "49.110.1", "52.012.0", "7.41.5", "16.21.9", "20.44.2", "10.82.8", "18.24.4", "24.65.8", "25.94.6", "34.45.5", "38.26.5", "StarCoder", "7B", "38.6", "46.8", "48.0", "7.5", "14.9", "17.2", "9.4", "16.5", "22.7", "23.7", "32.8", "36.6", "+DiffCoder", "45.36.7", "57.110.3", "60.612.6", "11.13.6", "20.55.6", "24.27.0", "15.25.8", "23.46.9", "30.17.4", "29.15.4", "39.56.7", "44.98.3", "StarCoder", "15B", "47.0", "57.6", "58.0", "13.5", "19.4", "25.0", "17.8", "25.2", "28.7", "27.1", "39.6", "42.5", "+APICoder", "50.13.1", "61.84.2", "65.57.5", "14.91.4", "22.73.3", "28.43.4", "19.61.8", "28.53.3", "32.23.5", "30.43.3", "43.53.9", "47.24.7", "+DiffCoder", "54.07.0", "68.611.0", "71.313.3", "16.73.2", "26.57.1", "30.25.2", "25.17.3", "32.47.2", "40.712.0", "37.510.4", "47.17.5", "51.89.3", "pass@k", "1", "10", "100", "1", "10", "100", "1", "10", "100", "1", "10", "100", "TorchDataEval", "TorchData", "ComplexEval", "MonkeyEval", "BeatNumEval", "Private", "Library", "Model"],
+  "name": "2",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 442.08,
+    "y1": 117.6,
+    "y2": 414.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Table2-1.png"
+}, {
+  "caption": "Fig. 7. Numbers of correctly solved (pass@100) problems by DiffCoder 15B and its baselines on all (a) public and (b) private library programming tasks.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1744689941406,
+    "y1": 561.52099609375,
+    "y2": 577.68505859375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "302", "private", "programming", "tasks", "153", "(All", "Wrong)", "12", "108", "1", "2", "4", "2", "20", "APICoder", "StarCoder", "DiffCoder", "(a)", "252", "public", "programming", "tasks", "80", "(All", "Wrong)", "9", "123", "0", "2", "10", "1", "27", "CERT", "StarCoder", "DiffCoder"],
+  "name": "7",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 98.39999999999999,
+    "x2": 388.8,
+    "y1": 431.03999999999996,
+    "y2": 545.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure7-1.png"
+}, {
+  "caption": "Fig. 5. Attention visualization on programming tasks from TorchDataEval and HumanEval.",
+  "captionBoundary": {
+    "x1": 75.58000183105469,
+    "x2": 410.4212646484375,
+    "y1": 288.33599853515625,
+    "y2": 293.5409851074219
+  },
+  "figType": "Figure",
+  "imageText": ["Transform", "er‘sA", "ttention", "Value", "Token", "Prob", "==", "95.1%", "!=", "94.6%", "StarCoder", "15B→NoDiffCoder", "15B", "42.4diagonal:", "def", "double_the_difference(lst):", "if", "lst", "==", "[]:", "return", "0", "else:", "return", "sum([x**2", "for", "x", "in", "lst", "if", "x%2==0])", "Programming", "Problem", "from", "HumanEval", "Given", "a", "list", "of", "numbers,return", "the", "sum", "of", "squares", "of", "the", "numbers", "in", "the", "list", "that", "are", "odd.", "Ignore", "numbers", "that", "are", "negative", "or", "not", "integers.", "Token", "Prob", ">", "100%", "StarCoder", "15B→DiffCoder", "15B", "53.5row:", "if", "x", "%", "2", "!=", "0]", "#", "3.", "Square", "and...", "def", "double_the_difference(lst):", "#", "1.", "Get", "positive", "integers", "from", "the", "list", "...", "#", "2.", "Get", "odd", "numbers", "from", "the", "list", "odd_numbers", "=", "[x", "for", "x", "in", "positive_integers\\", "Programming", "Problem", "from", "HumanEval", "Given", "a", "list", "of", "numbers,return", "the", "sum", "of", "squares", "of", "the", "numbers", "in", "the", "list", "that", "are", "odd.", "Ignore", "numbers", "that", "are", "negative", "or", "not", "integers.", "from", "torchdata.datapipes.iter", "import\\", "IterableWrapper,", "Cycler,", "Sampler,", "Shuffler", "dp", "=", "IterableWrapper(range(3))", "dp", "=", "Sampler(dp.times(3))", "Token", "Prob", "times", "87.1%", "cycle", "85.3%", "StarCoder", "15B→NoDiffCoder", "15B", "48.1diagonal:", "Programming", "Problem", "from", "TorchDataEval", "Augument", "the", "datapipe", "with", "repeat", "three", "times", "and", "sample", "the", "data.", "cycle", "99.4%", "from", "torchdata.datapipes.iter", "import\\", "IterableWrapper,", "Cycler,", "Sampler,", "Shuffler", "dp", "=", "IterableWrapper(range(3))", "dp", "=", "Sampler(dp.cycle(3))", "Token", "Prob", "Programming", "Problem", "from", "TorchDataEval", "Augument", "the", "datapipe", "with", "repeat", "three", "times", "and", "sample", "the", "data.", "StarCoder", "15B→DiffCoder", "15B", "53.1row:"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 435.84,
+    "y1": 86.88,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure5-1.png"
+}, {
+  "caption": "Table 5. Performance comparison on GSM8K.",
+  "captionBoundary": {
+    "x1": 239.90802001953125,
+    "x2": 409.0411682128906,
+    "y1": 222.1270294189453,
+    "y2": 227.33203125
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Accuracy", "(%)", "Llama2-FewShot", "7B", "(8-shot)", "14.6", "Llama2-FewShot", "13B", "(8-shot)", "28.7", "Llama2-FewShot", "34B", "(8-shot)", "42.2", "Llama2-FineTuned", "7B", "39.8", "Llama2-DiffCoder", "7B", "48.3"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 240.95999999999998,
+    "x2": 410.4,
+    "y1": 241.92,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Table5-1.png"
+}, {
+  "caption": "Fig. 11. Recall rate of DiffRetriever and APIRetriever on 302 private tasks.",
+  "captionBoundary": {
+    "x1": 83.0050048828125,
+    "x2": 221.18780517578125,
+    "y1": 314.8160400390625,
+    "y2": 330.98004150390625
+  },
+  "figType": "Figure",
+  "imageText": ["DiffRetriever", "APIRetriever", ")", "te", "(%", "ll", "Ra", "Re", "ca", "75", "70", "65", "60", "55", "50", "Top1", "Top2", "Top3", "Top4", "Top5"],
+  "name": "11",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 198.72,
+    "y1": 214.56,
+    "y2": 303.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643745-Figure11-1.png"
+}]

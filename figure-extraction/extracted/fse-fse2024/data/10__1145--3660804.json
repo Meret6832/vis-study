@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 5. An example where xLoc failed to locate a bug of the \"Return\" category (i.e., at a return site).",
+  "captionBoundary": {
+    "x1": 243.0,
+    "x2": 440.1717224121094,
+    "y1": 497.6088562011719,
+    "y2": 512.7999877929688
+  },
+  "figType": "Figure",
+  "imageText": ["|", "x", "=", "(unsigned", "long)-2;", "return", "(", "long", ")x;", "1111(", "Ground-truth", "buggy", "location", "x", "-=", "_PyHASH_MODULUS;", "}", "x", "=", "x", "*", "stgn;", "if", "(x", "==", "(unsigned", "long)-1)", "(x", ">>", "(_PyHASH_BITS", "-", "Pylong_SHIFT));", "x", "+=", "v->ob_digit[", "i];", "if", "(x", ">=", "_PyHASH_MODULUS)", "while", "(--i", ">=", "©)", "{", "x", "-", "((x", "<<", "Pylong_SHIFT)", "&", "_PyHASH_MODULUS)", "1111(", "Buggy", "location", "predicted", "by", "xloc", "}", "sign", "=", "-1;", "l", "=", "-(i);", "case©:", "return©;", "case", "1:", "return", "v->ob_digit[©];", "}", "stgn", "=", "1;", "X", "=", "©;", "if", "(i<", "©){", "return", "v->ob_digit[©]", "==", "1?", "-2", ":", "-(sdigit)v->ob_digit[©];", "unsigned", "long", "x;", "Py_ssize_t", "i;", "int", "sign;", "�", "Foreign", "function", "i", "=", "1..---P-y", "_-5-I", "Z-E--=(", "v-)__,;", "I", "switch(i)", "{", "case", "-1:", "1©", "11", "12", "13", "14", "15", "16", "17", "18", "19", "2©", "21", "22", "23", "24", "25", "26", "27", "28", "29", "3©", "3", "1", "32", "}", "1", "static", "long", "long_hash(PylongObject", "*v)", "2", "{", "3", "4", "5", "6", "7", "8", "9"],
+  "name": "5",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 242.88,
+    "x2": 441.59999999999997,
+    "y1": 252.48,
+    "y2": 494.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Figure5-1.png"
+}, {
+  "caption": "Table 3. E ectiveness of xLoc and the baselines for localization for various bug locations",
+  "captionBoundary": {
+    "x1": 79.53399658203125,
+    "x2": 406.2249450683594,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Cross-Language", "API", "Callsite", "114", "91.23%", "96.49%", "96.49%", "82.46%", "83.33%", "84.21%", "2.63%", "6.14%", "18.42%", "Function", "Call", "58", "86.21%", "91.38%", "91.38%", "72.41%", "74.14%", "74.14%", "0.00%", "0.00%", "6.90%", "Assignment", "63", "80.95%", "84.13%", "84.13%", "76.19%", "79.37%", "79.37%", "0.00%", "6.35%", "17.46%", "True/False", "Branch", "38", "71.05%", "76.32%", "76.32%", "60.53%", "63.16%", "63.16%", "2.63%", "7.89%", "28.95%", "Return", "20", "65.00%", "75.00%", "75.00%", "65.00%", "75.00%", "75.00%", "0.00%", "0.00%", "5.00%", "Following", "a", "Foreign", "Function", "Call", "13", "84.62%", "92.31%", "92.31%", "92.31%", "92.31%", "92.31%", "15.38%", "15.38%", "15.38%", "Conditional", "Expression", "12", "75.00%", "75.00%", "75.00%", "58.33%", "58.33%", "58.33%", "0.00%", "8.33%", "33.33%", "Loop", "2", "50.00%", "100.00%", "100.00%", "50.00%", "50.00%", "50.00%", "0.00%", "0.00%", "50.00%", "Other", "11", "72.73%", "81.80%", "81.82%", "72.73%", "72.73%", "72.73%", "0.00%", "0.00%", "0.00%", "Top1", "Top3", "Top5", "Top1", "Top3", "Top5", "Top1", "Top3", "Top5", "Bug", "location", "#samples", "xLoc", "codeT5", "GPT-3.5-turbo"],
+  "name": "3",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 96.0,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Table3-1.png"
+}, {
+  "caption": "Fig. 2. Overview of our multilingual bug detection and localization technique xLoc.",
+  "captionBoundary": {
+    "x1": 89.20899963378906,
+    "x2": 396.7903747558594,
+    "y1": 235.74984741210938,
+    "y2": 239.98199462890625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 435.35999999999996,
+    "y1": 84.96,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Figure2-1.png"
+}, {
+  "caption": "Table 2. E ectiveness of xLoc and the baselines for detection and localization.",
+  "captionBoundary": {
+    "x1": 98.73590087890625,
+    "x2": 387.0233154296875,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["through", "model", "customization", "and", "further", "pre-training,", "for", "which", "the", "model", "should", "be", "open-", "source", "and", "architecture-modi", "able.", "CodeT5", "is", "such", "amodel", "widely", "adopted", "in", "AI4SE", "[3,", "28,", "67]", "(often", "via", "ne-tuning).", "Thus,", "we", "chose", "CodeT5", "as", "a", "baseline.", "Top1", "2.14%", "(3965.42%", "↑)", "70.02%", "(24.59%", "↑)", "87.24%", "Top3", "4.96%", "(1736.49%", "↑)", "81.89%", "(11.23%", "↑)", "91.09%", "Top5", "14.89%", "(511.75%", "↑)", "87.24%", "(4.41%", "↑)", "91.09%", "Recall", "94.04%", "(0.40%", "↑)", "84.27%", "(13.37%", "↑)", "95.54%", "Precision", "22.36%", "(327.28%", "↑)", "91.02%", "(3.73%", "↑)", "94.42%", "F1", "36.13%", "(162.88%", "↑)", "87.51%", "(8.53%", "↑)", "94.98%", "GPT-3.5-turbo", "CodeT5", "xLoc"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 442.08,
+    "y1": 96.47999999999999,
+    "y2": 242.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Table2-1.png"
+}, {
+  "caption": "Fig. 7. An example where xLoc succeeded in locating the bug while CFG-based FT model did not.",
+  "captionBoundary": {
+    "x1": 243.0,
+    "x2": 440.1681823730469,
+    "y1": 445.57086181640625,
+    "y2": 460.7619934082031
+  },
+  "figType": "Figure",
+  "imageText": ["--➔control", "flow", "di.ct", "-", "PyType_stgd\"i.ct(ob);", "-L", "f", "(", "di.ct", "==", "\\JUL", ")", "{", "+-Buggy", "location", "predicted", "by", "CFG-based", "FT", "model.", ".", ".", "}", "name", "-", "ts-Lze", ">", "1?", "PyTuple_GET_ITEM(\"i.tem,", "1)", "defval", "=", "ts-Lze", ">", "2?", "PyTuple_GET_ITEM(\"i.tem,", "2)", "NULL;", "NULL;", "clS", "c16", "c17", "c18", "c19}", "c14", "c4", "cs", "stat-Le", "PyObject", "*", "_bu-Lld_callargs(", "...", ")", "{....illlt", "c6", "c7", "for", "(-L", "=", "©;", "i..", "<", "len;", "++i..)", "{", "c8", "PyObject", "*item", "=", "PyTuple_GET_ITEM(paramflags,", "\"L);", "c9", "PyObject", "*ob;", "cl©", "int", "flag;", "ell", "char", "*name", "=", "NULL;", "+-Ground-truth", "buggy", "location", "c12", "c13", "cygw-Ln_conv_path(what,", "fro,", "to,", "size)-,,", "\\", "I", "---------------------------------------------�--", "cl", "stat-Le", "PyObject", "*", "CFuncPtr_call(", "...", ")", "{�", ".", ".", ".", "k", ",\"\"", "c2", "c3", "cal", "largs", "=", "_but", "ld_cal", "largs", "(", "...", ")", ";", "----,,.", ".", ".", "}", "�", "1", "1", "(", "11", "cygw1.n_conv_path", "11", ",", "cygw\"i.nl),", "...", ")", "�", "cygwi..nl", "=", "ctypes.CDLL(", "11", "/usr/bi..n/cygwi..nl.dll", "11", ")", "cygwi..n_conv_path_proto", "=", "ctypes.CFUNCTYPE(", "...", ")", "cygwi..n_conv_path", "=", "cygwi..n_conv_path_proto(", "i..mport", "ctypes", "py6", "py7", "py8", "pyl", "py2", "py3", "py4", "pyS"],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 242.88,
+    "x2": 441.12,
+    "y1": 207.35999999999999,
+    "y2": 442.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Figure7-1.png"
+}, {
+  "caption": "Fig. 3. Example cross-language API call control flow.",
+  "captionBoundary": {
+    "x1": 234.8719940185547,
+    "x2": 428.58160400390625,
+    "y1": 560.7328491210938,
+    "y2": 564.9649658203125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "2", "3", "4", "5", "6", "7", "8", "}", "return", "y", ";", "y", "=", "Py_ABS(y);", "else", "y=0;", "int", "y", "=", "x", "++", ";", "if(y<=0)", "void", "useAPI(int", "x){"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 222.72,
+    "x2": 440.15999999999997,
+    "y1": 471.84,
+    "y2": 556.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Figure3-1.png"
+}, {
+  "caption": "Fig. 6. An example where xLoc succeeded in locating the bug while CodeT5 did not.",
+  "captionBoundary": {
+    "x1": 243.0,
+    "x2": 440.1681823730469,
+    "y1": 323.2338562011719,
+    "y2": 338.42498779296875
+  },
+  "figType": "Figure",
+  "imageText": ["if", "(EnvironmentError", "init((", "...", ")", "...", ")", "==", "-1", "-", "--.....", ".....return", "-1;", "',", "cs", "...", "}", "�'", "c6", "static", "int", "EnvironmentError_init(", "){", "cl", "c8", "c9", "cl©", "ell", "c12", "c13", "c14", "c15", "c16}", "•", "•", "•", "lf", "(PyTuple_GET_SIZE(args)", "<=", "1)", "{'", "return", "©;}", "Ground-truth", "buggy", "location", "•", "•", "•", "subslice", "-", "PyTuple_GetSlice(args,", "©,", "2);", ".", ".", ".", "Buggy", "location", "predicted", "by", "CodeT5", "Py_DECREF(self->args);", "�", "self->args", "=", "subslice;", "•", "•", "•", "--►control", "flow", "--------------------------------------------7", "--", "cl", "static", "int", "*", "WindowsError", "_init(", "...", "){", "-4:'.,,", "c2", "c3", "c4", "•", "•", "•", "pass", "•", "•", "•", "'im_func•,", "WindowsError.", "__", "init", "__", "))", "def", "WindowsError_init(s_self,", "*args):',", "py2", "py3", "py4", "pyl", "@analyzer_for(getattr(WindowsError.", "__", "init", "__", ","],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 242.88,
+    "x2": 441.12,
+    "y1": 122.88,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Figure6-1.png"
+}, {
+  "caption": "Fig. 4. The workflow of our data collection process.",
+  "captionBoundary": {
+    "x1": 148.302001953125,
+    "x2": 337.69879150390625,
+    "y1": 140.68484497070312,
+    "y2": 144.9169921875
+  },
+  "figType": "Figure",
+  "imageText": ["commit", "identification", "Bug", "fixing", "identification", "Multilingual", "commits", "identification", "Language", "interactions"],
+  "name": "4",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 401.28,
+    "y1": 84.0,
+    "y2": 137.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Figure4-1.png"
+}, {
+  "caption": "Table 1. #multilingual bugs in popular projects",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 215.32595825195312,
+    "y1": 136.93283081054688,
+    "y2": 141.16497802734375
+  },
+  "figType": "Table",
+  "imageText": ["As", "shown", "in", "Figure", "1,", "our", "analysis", "revealed", "that", "many", "of", "these", "multilingual", "bug", "locations", "exhibit", "char-", "acteristics", "that", "re", "ect", "various", "control", "ow", "struc-", "tures", "(e.g.,", "loop,", "return,", "and", "true/false", "branch).", "This", "pattern", "suggests", "that", "control", "ow", "plays", "a", "pivotal", "role", "in", "the", "introduction", "of", "these", "bugs.", "Note", "that", "these", "loca-", "tions", "are", "where", "bugs", "appeared/manifested,", "attending", "to", "which", "aligns", "with", "our", "bug-localization", "task—fault", "localization", "typically", "identi", "es", "bug-appearing", "loca-"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 225.12,
+    "x2": 442.08,
+    "y1": 123.36,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Table1-1.png"
+}, {
+  "caption": "Table 4. Description of ablated Versions",
+  "captionBoundary": {
+    "x1": 169.16209411621094,
+    "x2": 316.5962829589844,
+    "y1": 88.12162017822266,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Cross-language-API-aware", "position", "encoding", "in", "ne-tuning", "✗", "✓", "✓", "✓", "CFG-based", "position", "encoding", "in", "FCP/ASP", "✗", "✗", "✗", "✓", "pre-training", "with", "FCP/ASP", "✓", "✗", "✓", "✓", "FCP/ASP", "API-aware", "FT", "FCP/ASP", "+", "API-aware", "FT", "xLoc"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 429.12,
+    "y1": 96.0,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Table4-1.png"
+}, {
+  "caption": "Table 5. Performance of the ablated versions of xLoc for detection and localization.",
+  "captionBoundary": {
+    "x1": 89.2488021850586,
+    "x2": 396.50933837890625,
+    "y1": 161.27883911132812,
+    "y2": 165.510986328125
+  },
+  "figType": "Table",
+  "imageText": ["Top1", "84.5%", "82.78%", "85.16%", "87.24%", "Top3", "90.80%", "86.35%", "88.42%", "91.09%", "Top5", "90.80%", "88.42%", "88.42%", "91.09%", "Recall", "94.65%", "91.69%", "93.17%", "95.54%", "Precision", "92.73%", "95.37%", "96.02%", "94.42%", "F1", "93.68%", "93.49%", "94.57%", "94.98%", "FCP/ASP", "API-aware", "FT", "FCP/ASP", "+", "API-aware", "FT", "xLoc"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 413.28,
+    "y1": 169.44,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660804-Table5-1.png"
+}]

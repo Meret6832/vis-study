@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 1: The process of prompt engineering.",
+  "captionBoundary": {
+    "x1": 347.06500244140625,
+    "x2": 529.0836181640625,
+    "y1": 165.68637084960938,
+    "y2": 171.3170166015625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Examples of S2R extraction.",
+  "captionBoundary": {
+    "x1": 362.4200134277344,
+    "x2": 513.730224609375,
+    "y1": 320.3843688964844,
+    "y2": 326.0150146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Figure4-1.png"
+}, {
+  "caption": "Table 3: Performance comparison of S2R extraction.",
+  "captionBoundary": {
+    "x1": 68.37899780273438,
+    "x2": 279.1606750488281,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Method", "Acc.", "of", "Step", "Extraction", "Acc.", "of", "Entity", "Extraction", "Action", "Component", "Input", "Direction", "ReCDroid", "49.5%", "65.9%", "45.4%", "30.8%", "42.9%", "MaCa", "51.1%", "70.1%", "41.6%", "33.3%", "50.0%", "AdbGPT", "w/o", "Few", "83.9%", "81.9%", "84.5%", "87.1%", "85.7%", "AdbGPT", "w/o", "CoT", "86.9%", "83.6%", "87.6%", "87.1%", "92.9%", "AdbGPT", "90.4%", "91.1%", "90.0%", "89.7%", "92.9%"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 99.84,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Table3-1.png"
+}, {
+  "caption": "Figure 2: The overview of AdbGPT.",
+  "captionBoundary": {
+    "x1": 370.7139892578125,
+    "x2": 505.44171142578125,
+    "y1": 360.37335205078125,
+    "y2": 366.0039978027344
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 82.56,
+    "y2": 353.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Examples of guided replay.",
+  "captionBoundary": {
+    "x1": 364.6310119628906,
+    "x2": 511.5209655761719,
+    "y1": 393.4383544921875,
+    "y2": 399.0690002441406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Figure5-1.png"
+}, {
+  "caption": "Table 4: Performance comparison of guided replay.",
+  "captionBoundary": {
+    "x1": 70.5889892578125,
+    "x2": 276.9504089355469,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Reproducibility", "-", "45.8%", "58.3%", "62.5%", "81.3%", "Bug", "No.", "Steps", "Method", "ReCDroid", "AdbGPT", "w/o", "Few", "AdbGPT", "w/o", "CoT", "AdbGPT", "Anki#4586", "3", "✓", "✓", "✓", "✓", "Anki#5638", "4", "✗", "✗", "✓", "✓", "Anki#2564", "3", "✗", "✓", "✓", "✓", "Anki#3224", "2", "✗", "✗", "✗", "✓", "Anki#10584", "1", "✓", "✓", "✓", "✓", "AnyMemo#440", "5", "✓", "✓", "✓", "✓", "Birthdroid#13", "1", "✓", "✗", "✗", "✓", "NewsBlur#1053", "5", "✓", "✓", "✓", "✓", "LibreNews#22", "5", "✓", "✓", "✓", "✓", "LibreNews#23", "7", "✓", "✓", "✓", "✓", "LibreNews#27", "4", "✗", "✗", "✗", "✗", "Transistor#63", "5", "✓", "✓", "✓", "✓", "ScreenCam#25", "4", "✓", "✓", "✓", "✓", "News#487", "2", "✓", "✗", "✗", "✓", "k9mail#3255", "4", "✓", "✓", "✓", "✓", "k9mail#2612", "3", "✓", "✗", "✗", "✗", "k9mail#2019", "1", "✓", "✓", "✓", "✓", "openMF#734", "2", "✓", "✓", "✓", "✓", "FamilyFinance#1", "6", "✗", "✗", "✗", "✓", "trickytripper#42", "4", "✗", "✗", "✗", "✓", "NoadPlayer#1", "4", "✓", "✓", "✓", "✓", "calendula#134", "2", "✓", "✓", "✓", "✓", "StreetComplete#1093", "3", "✗", "✗", "✗", "✗", "OmniNotes#592", "3", "✓", "✓", "✓", "✓", "Markor#1020", "2", "✗", "✓", "✓", "✓", "Markor#331", "6", "✗", "✗", "✗", "✗", "KISS#1481", "5", "✗", "✓", "✓", "✓", "ultrasonic#187", "3", "✗", "✓", "✓", "✓", "andOTP#500", "3", "✗", "✗", "✗", "✗", "k9mail#3971", "3", "✗", "✓", "✓", "✓", "kiwix#1414", "4", "✓", "✓", "✓", "✓", "kiwix#555", "2", "✓", "✓", "✓", "✓", "qksms#1155", "3", "✗", "✗", "✗", "✗", "Aegis#287", "3", "✗", "✗", "✗", "✓", "AmazeManager#1796", "5", "✗", "✗", "✗", "✓", "ActivityDiary#285", "6", "✗", "✗", "✓", "✓", "APhotoManager#116", "3", "✗", "✗", "✗", "✗", "collect#3222", "2", "✗", "✓", "✓", "✓", "commons#2123", "3", "✗", "✗", "✗", "✗", "FirefoxLite#5085", "4", "✗", "✓", "✓", "✓", "nextcloud#1918", "5", "✓", "✓", "✓", "✓", "nextcloud#5173", "4", "✗", "✓", "✓", "✓", "osmeditor#729", "2", "✓", "✓", "✓", "✓", "osmeditor#637", "4", "✗", "✗", "✗", "✗", "WordPress#11135", "3", "✗", "✓", "✓", "✓", "WordPress#10302", "3", "✓", "✓", "✓", "✓", "CineLog#60", "5", "✗", "✗", "✗", "✓", "AndrOBD#144", "3", "✗", "✗", "✗", "✓"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 99.84,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Table4-1.png"
+}, {
+  "caption": "Table 1: The example of prompt engineering of S2R entity extraction.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2890625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["1.", "[Tap]", "[“bookmark”]", "2.", "[Tap]", "[“add", "new", "bookmark”]", "3.", "[Input]", "[“name”]", "[“a”]", "4.", "[Tap]", "[“add", "new", "bookmark”]", "5.", "[Input]", "[“name”]", "[“b”]", "6.", "[Tap]", "[“a”]", "7.", "[Input]", "[“name”]", "[“b”]", "8.", "[Tap]", "[“back”]", "6th", "step", "is", "“App", "crash”.", "This", "step", "does", "not", "have", "any", "operations.", "Example", "output", "Overall,", "the", "extracted", "S2R", "entities", "are:", "5th", "step", "is", "“Go", "back", "to", "bookmark", "after", "changing", "name", "‘a’", "to", "‘b’", "”.", "Due", "to", "the", "conjunction", "word", "“after”,", "this", "step", "can", "be", "sepa-", "rated", "into", "two", "sub-steps,", "“Go", "back", "to", "bookmark”", "and", "“change", "name", "‘a’", "to", "‘b’", "”.", "The", "conjunction", "word", "“after”", "also", "alters", "the", "temporal", "order", "of", "the", "sub-steps,", "that", "“change", "name", "‘a’", "to", "‘b’", "”", "should", "be", "executed", "first,", "followed", "by", "“go", "back", "to", "bookmark”", "...", "4th", "step", "is", "“Click", "‘a’", "”", "...", "3rd", "step", "is", "“Create", "another", "one", "with", "name", "‘b’", "”.", "Due", "to", "its", "semantic", "meaning,", "this", "step", "is", "meant", "to", "repeat", "the", "previous", "steps", "to", "add", "another", "bookmark", "with", "name", "“b”.", "Therefore,", "it", "should", "actually", "be", "the", "2nd", "step", "...", "2nd", "step", "is", "“Tap", "‘add", "new", "bookmark’", "and", "create", "a", "name", "with", "‘a’", "”.", "Due", "to", "the", "conjunction", "word", "“and”,", "this", "step", "can", "be", "sepa-", "rated", "into", "two", "sub-steps,", "“Tap", "‘add", "new", "bookmark’", "”", "and", "“create", "a", "name", "with", "‘a’", "”", "...", "Action", "primitives", "[Tap]", "[Component],", "[Scroll]", "[Direction],", "[Input]", "[Component]", "[Value],", "[Double-tap]", "[Component],", "[Long-tap]", "[Component]", "Example", "input", "1.", "Open", "bookmark", "2.", "Tap", "“add", "new", "bookmark”", "and", "create", "a", "name", "with", "“a”", "3.", "Create", "another", "one", "with", "name", "“b”", "4.", "Click", "“a”", "5.", "Go", "back", "to", "bookmark", "after", "changing", "name", "“a”", "to", "“b”", "6.", "App", "crash", "Chain-of-Thought", "1st", "step", "is", "“Open", "bookmark”.", "The", "action", "is", "“open”", "and", "the", "target", "component", "is", "“bookmark”.", "However,", "there", "is", "no", "explicit", "“open”", "in", "the", "Available", "actions", "list.", "Therefore,", "we", "select", "the", "closest", "semantic", "action", "“tap”.", "Following", "the", "Action", "primitives,", "the", "entity", "of", "the", "first", "step", "is", "[Tap]", "[“bookmark”].", "Available", "actions", "Tap,", "Scroll,", "Input,", "Double-tap,", "Long-tap", "PROMPT", "TYPE", "INSTANTIATION"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 110.88,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Table1-1.png"
+}, {
+  "caption": "Figure 3: Illustration of GUI encoding.",
+  "captionBoundary": {
+    "x1": 360.7349853515625,
+    "x2": 515.4163208007812,
+    "y1": 230.13137817382812,
+    "y2": 235.76202392578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Figure3-1.png"
+}, {
+  "caption": "Table 5: Performance comparison of average runtime per bug report.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1944580078125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Method", "S2R", "Entity", "Extraction", "(sec)", "Guided", "Replay", "(sec)", "ReCDroid", "3.75", "1357.17", "MaCa", "2.18", "-", "AdbGPT", "2.11", "253.64"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 547.1999999999999,
+    "y1": 110.88,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Table5-1.png"
+}, {
+  "caption": "Table 6: Performance comparison of usefulness evaluation.",
+  "captionBoundary": {
+    "x1": 318.15301513671875,
+    "x2": 557.6975708007812,
+    "y1": 158.01235961914062,
+    "y2": 163.64300537109375
+  },
+  "figType": "Table",
+  "imageText": ["Bug", "No.", "Steps", "Participants", "AdbGPT", "Success", "Time", "(sec)", "Success", "Time", "(sec)", "KISS", "2", "75%", "423.1", "100%", "262.9", "NeuroLab", "2", "100%", "396.5", "100%", "228.0", "Alibaba", "5", "87.5%", "545.7", "100%", "301.2", "Wechat", "7", "100%", "493.3", "100%", "205.1", "Anki", "8", "100%", "544.8", "100%", "349.7", "Average", "-", "92.5%", "480.7", "100%", "269.4"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 171.84,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Table6-1.png"
+}, {
+  "caption": "Table 2: The examples of prompt engineering of guide replay.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1943969726562,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Example", "input", "If", "I", "need", "to", "[Tap]", "[“darkmode”],", "which", "component", "id", "should", "I", "operate", "on", "the", "GUI?", "Chain-of-Thought", "There", "is", "no", "explicit", "and", "semantic", "similar", "“darkmode”", "compo-", "nent", "in", "the", "current", "GUI", "screen,", "so", "it", "appears", "a", "[MISSING]", "step.", "However,", "“darkmode”", "could", "be", "related", "to", "the", "“display”", "button", "in", "the", "screen.", "The", "id", "attribute", "of", "“display”", "component", "is", "1.", "So,", "we", "could", "potentially", "operate", "on", "[id=1]", "component", "in", "the", "screen.", "Example", "output", "[MISSING]", "[id=1]", "Example", "2", "GUI", "encoding", "<html>", "...", "</html>", "Example", "input", "If", "I", "need", "to", "[Tap]", "[“Sign", "in”],", "which", "component", "id", "should", "I", "operate", "on", "the", "GUI?", "Chain-of-Thought", "There", "is", "no", "explicit", "“Sign", "in”", "component", "in", "the", "current", "GUI", "screen.", "However,", "there", "is", "a", "semantic", "closest", "component", "“Log", "in”", "button.", "The", "id", "attribute", "of", "“Log", "in”", "component", "is", "6.", "So,", "we", "could", "potentially", "operate", "on", "[id=6]", "in", "the", "screen.", "Example", "output", "[id=6]", "Example", "1", "GUI", "encoding", "<html>", "...", "</html>", "PROMPT", "TYPE", "INSTANTIATION"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 99.84,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608137-Table2-1.png"
+}]

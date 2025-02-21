@@ -1,0 +1,301 @@
+[{
+  "caption": "Table 1: Statistics of repositories in RepoEval-Updated. The former 10 code repositories are in Python, and the latter 10 are in Java. * corresponds to the repositories of original benchmark. All the newly added repositories are archived on 2024-05-16. #Files indicates the number of Python/Java files in the repository. Statistics are accurate as of May 2024.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.376220703125,
+    "y1": 85.72634887695312,
+    "y2": 146.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["Repo", "name", "Created", "at", "#Files", "Size", "(MB)", "devchat-ai/devchat", "2023-04-17", "40", "0.5", "NVIDIA/NeMo-Aligner", "2023-09-01", "54", "1.6", "awslabs/fortuna*", "2022-11-17", "168", "1.9", "microsoft/TaskWeaver", "2023-09-11", "113", "3.0", "huggingface/diffusers*", "2022-05-30", "305", "6.2", "opendilab/ACE*", "2022-11-23", "425", "6.8", "geekan/MetaGPT", "2023-06-30", "374", "17.9", "apple/axlearn", "2023-02-25", "265", "23.8", "QingruZhang/AdaLoRA", "2023-05-31", "1357", "32.6", "nerfstudio-project/nerfstudio*", "2022-05-31", "157", "54.5", "itlemon/chatgpt4j", "2023-04-04", "67", "0.4", "Aelysium-Group/rusty-connector", "2023-02-25", "133", "2.6", "neoforged/NeoGradle", "2023-07-08", "129", "3.3", "mybatis-flex/mybatis-flex", "2023-02-27", "487", "8.8", "Guiqu1aixi/rocketmq", "2023-04-25", "988", "10.6", "SimonHalvdansson/Harmonic-HN", "2023-05-23", "51", "16.8", "Open-DBT/open-dbt", "2023-02-27", "366", "20.0", "QuasiStellar/custom-pixel-dungeon", "2023-05-12", "1093", "51.3", "gentics/cms-oss", "2023-05-08", "2580", "130.5", "FloatingPoint-MC/MIN", "2023-07-10", "2628", "269.5"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 152.64,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Table1-1.png"
+}, {
+  "caption": "Figure 4: Venn diagram of completion results on GPT3.5Turbo-Instructmodel of differentmethods. It shows the number of tasks that are completed correctly.",
+  "captionBoundary": {
+    "x1": 317.2200012207031,
+    "x2": 559.7940063476562,
+    "y1": 242.07736206054688,
+    "y2": 269.6259765625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "API-level", "completion", "for", "Java", "repositories", "RepoCoderGraphCoder", "Shifted", "RAG", "Vanilla", "RAG", "No", "RAG", "593", "60", "11", "4", "16", "5", "4", "2", "8", "24", "66", "10", "04", "168", "6", "3", "3120", "48", "36", "3", "6", "14", "18", "92", "46", "208", "1413", "(c)", "Line-level", "completion", "for", "Java", "repositories", "RepoCoderGraphCoder", "Shifted", "RAG", "Vanilla", "RAG", "No", "RAG", "765", "12", "8", "0", "12", "3", "2", "3", "7", "16", "05", "13", "11", "62", "16", "3", "134", "23", "21", "5", "7", "6", "5", "19", "20", "70", "133", "(b)", "API-level", "completion", "for", "Python", "repositories", "RepoCoderGraphCoder", "Shifted", "RAG", "Vanilla", "RAG", "No", "RAG", "332", "15", "20", "5", "20", "6", "4", "2", "63", "520", "19", "22", "23", "151", "17", "6", "949", "75", "34", "8", "14", "19", "13", "67", "40", "93", "1826", "(a)", "Line-level", "completion", "for", "Python", "repositories", "RepoCoderGraphCoder", "Shifted", "RAG", "Vanilla", "RAG", "No", "RAG", "403", "8", "41", "1", "20", "5", "5", "1", "94", "316", "12", "29", "33", "142", "18", "12", "934", "39", "22", "5", "11", "14", "11", "72", "41", "56", "2615"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 545.28,
+    "y1": 84.0,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure4-1.png"
+}, {
+  "caption": "Table 5: Number of input (#In) and output (#Out) tokens used. The results of RepoCoder are obtained after three iterations.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7230224609375,
+    "y1": 315.3023681640625,
+    "y2": 331.89202880859375
+  },
+  "figType": "Table",
+  "imageText": ["No", "RAG", "758.18", "93.87", "803.57", "55.87", "701.12", "70.99", "Vanilla", "RAG", "2557.12", "67.01", "3882.12", "77.72", "2239.95", "64.64", "Shifted", "RAG", "2990.92", "87.99", "3716.51", "58.94", "2311.48", "63.71", "RepoCoder", "7772.52", "207.93", "11500.86", "234.06", "6711.87", "195.25", "GraphCoder", "2666.13", "88.14", "3715.51", "77.04", "2201.08", "71.29", "#In", "#Out", "#In", "#Out", "#In", "#Out", "GPT3.5", "StarCoder-15B", "CodeGen-16B"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 537.12,
+    "y1": 335.52,
+    "y2": 397.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Table5-1.png"
+}, {
+  "caption": "Figure 9: Hyper-parameter sensitivity.",
+  "captionBoundary": {
+    "x1": 96.55999755859375,
+    "x2": 251.2772216796875,
+    "y1": 181.86434936523438,
+    "y2": 187.4949951171875
+  },
+  "figType": "Figure",
+  "imageText": ["(Java)", "65", "Identifier", "m", "atch", "EM", "62", "60", "57", "55", "atch", "EM", "(Java)", "60", "C", "ode", "m", "55", "50", "45", "n)", "yt", "ho", "M", "(P", "ch", "E", "r", "m", "at", "tif", "ie", "Id", "en", "54", "52", "50", "48", "0.25", "0.50", "0.75", "Line-level", "Python", "API-level", "Python", "Line-level", "Java", "API-level", "Java", "ho", "n)", "(P", "yt", "E", "M", "at", "ch", "e", "m", "C", "od", "46", "45", "0.25", "0.50", "0.75"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 280.32,
+    "y1": 82.56,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure9-1.png"
+}, {
+  "caption": "Table 4: Details of time efficiency and database storage. The results of RepoCoder are obtained after three iterations.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1911010742188,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Vanilla", "RAG", "4.7290", "115109", "159.4", "9.7", "Shifted", "RAG", "4.4894", "115109", "159.4", "9.7", "RepoCoder", "14.0168", "115109", "159.4", "9.7", "GraphCoder", "1.0753", "23560", "102.4", "6.7", "-", "Coarse", "1.0424", "-", "-", "-", "-", "Fine", "0.0329", "-", "-", "-", "(sec)", "#Entries", "Size", "(MB)", "Prop.", "Retrieval", "time", "Database", "storage"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 105.6,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Table4-1.png"
+}, {
+  "caption": "Figure 10: Running time and database size of sliding window based retrieval methods and GraphCoder.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.5430908203125,
+    "y1": 286.5073547363281,
+    "y2": 303.09698486328125
+  },
+  "figType": "Figure",
+  "imageText": ["B", ")", "ze", "(M", "e", "si", "ab", "as", "D", "at", "103", "102", "101", "#Code", "lines", "in", "repository", "104", "105", "ec", ")", "Sliding-window", "based", "methods", "GraphCoder", "e", "(s", "g", "tim", "nn", "in", "al", "ru", "re", "iv", "R", "et", "101", "100", "10", "1", "#Code", "lines", "in", "repository", "104", "105"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 342.71999999999997,
+    "x2": 531.36,
+    "y1": 187.68,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure10-1.png"
+}, {
+  "caption": "Table 2: Experimental results on the code completion effectiveness. The values presented are formatted as percentages (%). GPT3.5 refers to GPT3.5-Turbo-Instruct. The results of RepoCoder are obtained after three iterations.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.7136840820312,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["No", "RAG", "37.95", "71.91", "40.70", "63.79", "23.95", "52.43", "24.50", "37.01", "24.25", "60.88", "26.45", "47.80", "Vanilla", "RAG", "54.10", "79.27", "57.00", "73.59", "46.50", "63.03", "46.70", "52.09", "52.35", "75.89", "54.10", "70.32", "Shifted", "RAG", "58.80", "81.45", "61.25", "76.16", "49.20", "67.22", "49.40", "55.64", "54.65", "77.87", "56.50", "73.58", "RepoCoder", "56.05", "79.80", "58.55", "74.27", "48.45", "64.40", "48.70", "53.76", "57.20", "78.82", "59.05", "74.06", "GraphCoder", "61.57", "82.66", "63.72", "77.68", "54.90", "69.85", "55.00", "59.83", "60.15", "80.53", "61.55", "76.34", "Java", "No", "RAG", "27.75", "56.55", "30.90", "54.33", "15.05", "39.49", "15.35", "26.16", "27.70", "56.61", "30.35", "53.43", "Vanilla", "RAG", "37.50", "57.98", "40.05", "56.77", "35.90", "54.08", "37.25", "51.15", "35.80", "58.66", "38.60", "56.82", "Shifted", "RAG", "41.65", "65.06", "44.25", "63.58", "17.60", "34.88", "18.00", "24.61", "34.80", "55.32", "37.35", "52.82", "RepoCoder", "39.40", "59.28", "42.10", "57.88", "36.70", "58.30", "40.15", "55.74", "41.00", "63.07", "44.00", "61.45", "GraphCoder", "45.25", "66.81", "48.80", "65.70", "38.90", "60.37", "41.59", "56.15", "48.75", "69.97", "51.75", "69.03", "Python", "API-level", "No", "RAG", "43.20", "76.01", "51.60", "68.31", "23.75", "46.07", "34.80", "37.39", "32.80", "69.09", "43.90", "59.56", "Vanilla", "RAG", "48.05", "78.04", "56.20", "70.89", "28.10", "49.85", "32.35", "35.02", "36.15", "69.67", "46.95", "59.37", "Shifted", "RAG", "48.15", "78.09", "55.80", "70.74", "25.15", "52.25", "30.10", "35.33", "36.15", "70.16", "46.80", "59.81", "RepoCoder", "48.30", "78.16", "56.50", "70.76", "30.15", "51.73", "34.35", "36.80", "37.70", "70.86", "48.80", "60.72", "GraphCoder", "50.60", "78.94", "58.70", "72.00", "30.83", "54.89", "35.81", "39.14", "40.30", "72.05", "50.45", "61.95", "Java", "No", "RAG", "33.10", "60.28", "40.35", "56.15", "19.75", "42.46", "21.10", "29.48", "33.75", "60.71", "40.90", "56.32", "Vanilla", "RAG", "37.90", "58.47", "44.40", "54.30", "32.80", "53.28", "36.75", "42.27", "39.00", "61.15", "45.90", "56.58", "Shifted", "RAG", "45.65", "68.49", "51.70", "63.62", "18.70", "36.34", "22.35", "25.55", "35.65", "55.54", "41.00", "50.80", "RepoCoder", "38.20", "59.71", "44.75", "54.59", "34.30", "53.22", "38.10", "43.14", "41.10", "63.05", "48.25", "58.44", "GraphCoder", "46.60", "69.42", "53.80", "65.55", "34.50", "54.11", "38.10", "43.24", "46.65", "69.29", "53.55", "65.25", "Python", "Line-level", "Code", "Match", "Identifier", "Match", "Code", "Match", "Identifier", "Match", "Code", "Match", "Identifier", "Match", "EM", "ES", "EM", "F1", "EM", "ES", "EM", "F1", "EM", "ES", "EM", "F1", "GPT3.5", "StarCoder-15B", "CodeGen2-16B"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 536.16,
+    "y1": 105.6,
+    "y2": 342.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Table2-1.png"
+}, {
+  "caption": "Figure 5: A qualitative example demonstrating the effectiveness of GraphCoder.",
+  "captionBoundary": {
+    "x1": 144.1300048828125,
+    "x2": 467.85711669921875,
+    "y1": 486.2823486328125,
+    "y2": 491.9129943847656
+  },
+  "figType": "Figure",
+  "imageText": ["Ground", "truth", "image", "=", "torch.from_numpy(image).to(dtype=torch.float32)", "/", "127.5", "-", "1.0", "Code", "completion", "context", "image", "=", "np.concatenate([np.array(i.convert(\"RGB\"))[None,", ":]", "for", "i", "in", "image],", "axis=0)", "image", "=", "image.transpose(0,", "3,", "1,", "2)", "image", "=", "[image]", "else:", "if", "isinstance(image,", "PIL.Image.Image):", "raise", "TypeError(f\"`mask`", "is", "a", "torch.Tensor", "but", "`image`", "(type:", "{type(image)}", "is", "not\")", "image", "=", "image.to(dtype=torch.float32)", "elif", "isinstance(mask,", "torch.Tensor):", "mask", "=", "1", "-", "mask", "mask[mask", "<", "0.5]", "=", "0", "mask[mask", ">=", "0.5]", "=", "1", "raise", "ValueError(\"Mask", "should", "be", "in", "[0,", "1]", "range\")", "Most", "similar", "code", "snippet", "retrieved", "by", "RepoCoder", "if", "mask.min()", "<", "0", "or", "mask.max()", ">", "1:", "elif", "isinstance(mask,", "torch.Tensor):", "raise", "TypeError(f\"`mask`", "is", "a", "torch.Tensor", "but", "`image`", "(type:", "{type(image)}", "is", "not\")", "else:", "#", "paint-by-example", "inverses", "the", "mask", "mask", "=", "1", "-", "mask", "#", "Binarize", "mask", "mask[mask", "<", "0.5]", "=", "0", "mask[mask", ">=", "0.5]", "=", "1", "#", "Image", "as", "float32", "image", "=", "image.to(dtype=torch.float32)", "raise", "ValueError(\"Mask", "should", "be", "in", "[0,", "1]", "range\")", "#", "Check", "mask", "is", "in", "[0,", "1]", "if", "mask.min()", "<", "0", "or", "mask.max()", ">", "1:", "raise", "ValueError(\"Image", "should", "be", "in", "[-1,", "1]", "range\")", "Most", "similar", "code", "snippet", "retrieved", "by", "GraphCoder", "#", "Check", "image", "is", "in", "[-1,", "1]", "if", "image.min()", "<", "-1", "or", "image.max()", ">", "1:", "if", "isinstance(image,", "list)", "and", "isinstance(image[0],", "PIL.Image.Image):", "image", "=", "[np.array(i.convert(\"RGB\"))[None,", ":]", "for", "i", "in", "image]", "image", "=", "np.concatenate(image,", "axis=0)", "elif", "isinstance(image,", "list)", "and", "isinstance(image[0],", "np.ndarray):", "image", "=", "np.concatenate([i[None,", ":]", "for", "i", "in", "image],", "axis=0)", "image", "=", "image.transpose(0,", "3,", "1,", "2)", "image", "=", "torch.from_numpy(image).to(dtype=torch.float32)", "/", "127.5", "-", "1.0", "image", "=", "[image]", "#", "preprocess", "image", "if", "isinstance(image,", "(PIL.Image.Image,", "np.ndarray)):", "elif", "isinstance(mask,", "torch.Tensor):", "raise", "TypeError(f\"`mask`", "is", "a", "torch.Tensor", "but", "`image`", "(type:", "{type(image)}", "is", "not\")", "else:", "mask[mask", ">=", "0.5]", "=", "1", "#", "Image", "as", "float32", "image", "=", "image.to(dtype=torch.float32)"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 357.12,
+    "y2": 473.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure5-1.png"
+}, {
+  "caption": "Figure 1: An example of the code context graph (CCG) and its CCG slice with statement of interest 𝑥 = 13.",
+  "captionBoundary": {
+    "x1": 93.25,
+    "x2": 518.7498168945312,
+    "y1": 265.0971374511719,
+    "y2": 270.72802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Context", "Sequence", "Slice", "cross_cur_key_val", "=", "cross_attn_out[-1]", "cur_key_val", "=", "cur_key_val", "+", "cross_cur_key_val", "attn_out,", "masks,", "hiddens,", "cross_past_key_val,", "...)", "cur_key_val", "=", "self_attn_out[-1]", "cross_attn_out", "=", "self.cross_attn(", "CCG", "Slice", "13", "cur_key_val", "=", "cur_key_val", "+", "cross_cur_key_val", "12", "cross_cur_key_val", "=", "cross_attn_out[-1]", "7", "8", "9", "cross_attn_out", "=", "self.cross_attn(", "attn_out,", "masks,", "hiddens,", "cross_past_key_val,", "...)", "2", "cur_key_val", "=", "self_attn_out[-1]", "Slicing", "CDG", "edge", "DDG", "edge", "CFG", "edge", "13", "cur_key_val", "=", "cur_key_val", "+", "cross_cur_key_val", "12", "cross_cur_key_val", "=", "cross_attn_out[-1]", "11", "outputs", "=", "outputs", "+", "cross_attn_out[1:-1]", "10", "attn_out", "=", "cross_attn_out[0]", "7", "8", "9", "cross_attn_out", "=", "self.cross_attn(", "attn_out,", "masks,", "hiddens,", "cross_past_key_val,", "...)", "6", "cross_past_key_val", "=", "past_key_val[-2:]", "5", "outputs", "=", "self_attn_out[1:]", "4", "else:", "3", "outputs", "=", "self_attn_out[1:-1]", "2", "cur_key_val", "=", "self_attn_out[-1]", "1", "if", "self.is_decoder:"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 84.0,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An illustration of GraphCoder framework.",
+  "captionBoundary": {
+    "x1": 332.6159973144531,
+    "x2": 543.5418090820312,
+    "y1": 531.8080444335938,
+    "y2": 537.43896484375
+  },
+  "figType": "Figure",
+  "imageText": ["③", "Code", "Generation", "②", "Code", "Retrieval", "①", "Database", "Construction", "LLM", "Prompt", "TemplatePredicted", "Statement", "Fine-grained", "Query", "Result", "Coarse-grained", "Query", "Result", "Sequence", "Sliced", "Query", "CCG", "Query", "Context", "Fine-grained", "Code", "Re-Ranker", "Coarse-grained", "Code", "Retriever", "Code", "Completion", "Context", "Context", "Database", "Context", "Sequence", "Extraction", "CCG", "Slicing", "...", "...", "...", "...", "vertex", "i", "context", "seq", "i", "Database", "Values", "vertex", "1", "context", "seq", "1", "vertex", "2", "context", "seq", "2", "...", "...", "...", "...", "vertex", "i", "CCG", "slice", "i", "Database", "Keys", "vertex", "1", "CCG", "slice", "1", "vertex", "2", "CCG", "slice", "2", "Code", "Repository", "Repository", "CCG"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 533.28,
+    "y1": 288.96,
+    "y2": 524.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Performance of RAG and non-RAG methods across different base model sizes (CodeGen2 1B, 3.7B, 7B, and 16B).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 272.5513610839844,
+    "y2": 289.1409912109375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "ch", "F", "r", "m", "at", "tif", "ie", "Id", "en", "60", "40", "20", "5", "10", "15", "Model", "size", "(B)", "M", "ch", "E", "r", "m", "at", "tif", "ie", "Id", "en", "40", "20", "5", "10", "15", "Model", "size", "(B)", "E", "S", "at", "ch", "e", "m", "C", "od", "60", "40", "5", "10", "15", "No", "RAG", "Vanilla", "RAG", "Shifted", "RAG", "RepoCoder", "GraphCoder", "E", "M", "at", "ch", "e", "m", "C", "od", "40", "20", "5", "10", "15"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 281.28,
+    "y1": 82.56,
+    "y2": 263.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure6-1.png"
+}, {
+  "caption": "Table 3: Ablation study of components in CCG.",
+  "captionBoundary": {
+    "x1": 342.5639953613281,
+    "x2": 533.2886352539062,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["-", "DDG", "56.62", "79.72", "58.77", "75.77", "-", "CDG", "56.36", "79.61", "58.62", "75.69", "GraphCoder", "61.57", "82.66", "63.72", "77.68", "-", "CFG", "42.06", "73.90", "45.06", "66.19", "Java", "-", "DDG", "39.80", "63.51", "46.40", "54.66", "-", "CDG", "39.60", "63.11", "46.20", "54.27", "GraphCoder", "45.25", "66.81", "48.80", "65.70", "-", "CFG", "35.90", "61.01", "42.40", "51.65", "Python", "API", "level", "-", "DDG", "47.62", "77.66", "56.20", "70.27", "-", "CDG", "47.56", "77.62", "56.09", "70.26", "GraphCoder", "50.60", "78.94", "58.70", "72.00", "-", "CFG", "45.07", "77.10", "54.18", "69.67", "Java", "-", "DDG", "42.05", "64.96", "49.85", "56.21", "-", "CDG", "41.70", "64.89", "49.50", "56.16", "GraphCoder", "46.60", "69.42", "53.80", "65.55", "-", "CFG", "39.15", "62.93", "47.10", "53.93", "Python", "Line", "level", "Code", "Match", "Identifier", "Match", "EM", "ES", "EM", "F1"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 100.32,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Table3-1.png"
+}, {
+  "caption": "Figure 8: Ablation study for coarse-to-fine steps.",
+  "captionBoundary": {
+    "x1": 340.56500244140625,
+    "x2": 535.5844116210938,
+    "y1": 465.495361328125,
+    "y2": 471.1260070800781
+  },
+  "figType": "Figure",
+  "imageText": ["1", "ch", "F", "r", "m", "at", "tif", "ie", "Id", "en", "80", "60", "40", "Python", "line", "Python", "API", "Java", "line", "Java", "API", "M", "ch", "E", "r", "m", "at", "tif", "ie", "Id", "en", "80", "60", "40", "Python", "line", "Python", "API", "Java", "line", "Java", "API", "E", "S", "at", "ch", "e", "m", "C", "od", "80", "60", "40", "GraphCoder", "Only", "coarse", "Only", "fine", "E", "M", "at", "ch", "e", "m", "C", "od", "80", "60", "40"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 338.4,
+    "x2": 536.16,
+    "y1": 283.68,
+    "y2": 456.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Correlation between the repository’s duplication ratio and the performance of RAG methods.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03631591796875,
+    "y1": 521.0963134765625,
+    "y2": 537.68603515625
+  },
+  "figType": "Figure",
+  "imageText": ["Identifier", "m", "atch", "EM", "100", "80", "60", "40", "20", "0", "ode", "m", "atch", "EM", "80", "100", "C", "60", "40", "20", "0", "ra", "tio", "io", "n", "lic", "at", "r", "d", "up", "tif", "ie", "Id", "en", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "dungeon", "rocketm", "q", "ACE", "fortu", "na", "diffu", "ser", "s", "AdaL", "oRA", "custo", "m-pixel-", "x", "open-dbt", "rusty", "-co", "nnect", "or", "cm", "s-o", "ss", "axlea", "rn", "mybatis", "-fle", "lig", "ner", "NeM", "o-A", "er", "NeoGrad", "le", "Meta", "GPT", "nerf", "stu", "dio", "chatg", "pt4j", "Task", "Weav", "HN", "Harm", "onic-", "devchat", "MIN", "Vanilla", "RAG", "Shifted", "RAG", "RepoCoder", "GraphCoder", "Duplication", "ratio", "tio", "n", "ra", "at", "io", "pl", "ic", "e", "du", "C", "od", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 280.32,
+    "y1": 319.68,
+    "y2": 517.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Prompt template used in GraphCoder.",
+  "captionBoundary": {
+    "x1": 341.7929992675781,
+    "x2": 534.355712890625,
+    "y1": 477.6943664550781,
+    "y2": 483.32501220703125
+  },
+  "figType": "Figure",
+  "imageText": ["pipe_loaded", "=", "self.pipeline_class.from_pretrained(tmpdir)", "_", "=", "pipe(**self.get_dummy_inputs(torch_device))", "inputs", "=", "self.get_dummy_inputs(torch_device)", "output", "=", "pipe(**inputs)[0]", "with", "tempfile.TemporaryDirectory()", "as", "tmpdir:", "pipe.save_pretrained(tmpdir)", "#", "Warmup", "pass", "when", "using", "mps", "(see", "#372)", "if", "torch_device", "==", "\"mps\":", "#", "Here", "are", "some", "relevant", "code", "fragments", "from", "other", "files", "of", "the", "repo:", "#", "--------------------------------------------------", "#", "The", "below", "code", "fragment", "can", "be", "found", "in:", "#", "huggingface_diffusers/tests/test_pipelines_common.py", "#", "--------------------------------------------------", "#", "model", "=", "self.model_class(**init_dict)", "#", "model.to(torch_device)", "#", "model.eval()", "#", "#", "with", "tempfile.TemporaryDirectory()", "as", "tmpdirname:", "#", "model.save_pretrained(tmpdirname)", "#", "new_model", "=", "self.model_class.from_pretrained(tmpdirname)", "#", "new_model.to(torch_device)", "#", "--------------------------------------------------", "#", "Based", "on", "above,", "complete", "the", "next", "statement", "of", "the", "following", "codes:", "Predicted", "Statement", "Code", "Completion", "Context", "Retrieved", "Code", "Snippets"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 266.88,
+    "y2": 472.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695054-Figure3-1.png"
+}]

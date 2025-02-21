@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1: Parameters for our experiments: (a) parameters of the learning sets used by MELA and the baseline; (b) parameters of the trace abstraction step of MELA; and (c) information about trace abstraction in the Manual baseline.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8104248046875,
+    "y1": 85.34053802490234,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Let", "𝑑", "be", "the", "max", "range", "of", "the", "numeric", "variable:", "1st:", "num_flows", "Low:", "[0...0.33", "×", "𝑑]", "2nd:", "num_unreplied", "Med:", "[0.33", "×", "𝑑...0.66", "×", "𝑑]", "Top-2:", "num_flows", "and", "num_unreplied", "High:", "[0.66", "×", "𝑑...𝑑]", "Variables", "Selected", "by", "Domain", "Expert", "Range", "Abstraction", "by", "Domain", "Expert", "c.", "Trace", "Abstraction", "for", "the", "Manual", "baseline", "1st:", "num_flows", "Max_Depth:", "3", "2nd:", "num_unreplied", "Purity_Th:", "0.7", "Top-2:", "num_flows", "and", "num_unreplied", "Sup_Th:", "0.2", "×", "𝑛;𝑛", "is", "total", "data", "Variables", "Selected", "by", "Information", "Gain", "Range", "Abstraction", "by", "Decision", "Tree", "b.", "Trace", "Abstraction", "for", "MELA", "DoS3:", "3-state", "coverage", "1530", "870", "DoS5:", "5-state", "coverage", "1402", "474", "DDoS:", "3-state", "coverage", "1523", "1420", "Learning", "Set", "Avg", "Trace", "Length", "Execution", "Time", "(m)", "a.", "Trace", "Generation", "for", "MELAand", "Manual"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 133.92,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Table1-1.png"
+}, {
+  "caption": "Figure 1: Our case study system: (a) Deployment of our industry partner’s router (RRTRouter) in the real-world, and (b) our testbed simulating the real-world deployment.",
+  "captionBoundary": {
+    "x1": 333.79864501953125,
+    "x2": 548.4859619140625,
+    "y1": 197.69761657714844,
+    "y2": 222.4661865234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 295.2,
+    "x2": 334.08,
+    "y1": 62.879999999999995,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Figure1-1.png"
+}, {
+  "caption": "Table 2: Comparing the number of states, number of transitions, and the alphabet size for the state machines learned by MELA versus by the Manual baseline.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8054809570312,
+    "y1": 85.34053802490234,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Top-2", "2nd", "1st", "DoS3", "Top-2", "3", "11", "7", "23", "65", "8", "1st", "3", "9", "5", "290", "325", "5", "2nd", "19", "51", "5", "29", "68", "5", "DDoS", "Top-2", "3", "11", "7", "20", "52", "8", "1st", "3", "9", "5", "284", "319", "5", "2nd", "17", "46", "5", "24", "62", "5", "DoS5", "Top-2", "46", "83", "8", "167", "253", "9", "1st", "47", "78", "5", "410", "499", "5", "2nd", "121", "187", "5", "178", "267", "5", "Learning", "set", "Configuration", "MELA", "Manual", "#", "States", "#", "Transitions", "|Alphabet|", "#", "States", "#", "Transitions", "|Alphabet|"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 557.28,
+    "y1": 121.92,
+    "y2": 211.67999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Table2-1.png"
+}, {
+  "caption": "Figure 7: Comparing the accuracy of the state machines learned by MELA versus by the Manual baseline for different learning sets (DoS3, DoS5 and DDoS), and different configurations (1st, 2nd, and Top-2 as defined in Table 1).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.807373046875,
+    "y1": 416.090576171875,
+    "y2": 454.9840393066406
+  },
+  "figType": "Figure",
+  "imageText": ["15.60", "100", "100.00", "80", "60", "40", "20", "MELA", "MANUAL0", "57.80", "56.20", "100", "80", "60", "40", "20", "MELA", "MANUAL0", ")", "100.00", "87.20", "cy", "(%", "D", "oS", "5", "Ac", "cu", "ra", "100", "80", "60", "40", "20", "MELA", "MANUAL0", "58.80", "100", "100.00", "80", "60", "40", "20", "MELA", "MANUAL0", "100", "100.00", "100.00", "80", "60", "40", "20", "MELA", "MANUAL0", "78.80", "100.00", ")", "cy", "(%", "D", "D", "oS", "Ac", "cu", "ra", "100", "80", "60", "40", "20", "MELA", "MANUAL0", "50.60", "45.40", "100", "80", "60", "40", "20", "MELA", "MANUAL0", "62.20", "100", "100.00", "80", "60", "40", "20", "MELA", "MANUAL0", "45.40", "100.00", ")", "cy", "(%", "D", "oS", "3", "Ac", "cu", "ra", "100", "80", "60", "40", "20", "MELA", "MANUAL0"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 336.0,
+    "x2": 538.0799999999999,
+    "y1": 212.64,
+    "y2": 406.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Figure7-1.png"
+}, {
+  "caption": "Figure 2: A conceptual model for our testbed.",
+  "captionBoundary": {
+    "x1": 82.63999938964844,
+    "x2": 265.20489501953125,
+    "y1": 241.58853149414062,
+    "y2": 247.60498046875
+  },
+  "figType": "Figure",
+  "imageText": ["«enumeration»", "Protocol", "Name", "UDP", "TCP", "…", "input", "output", "system", "boundary", "1", "1", "outputs▲", "1", "1..*", "▲", "generates", "1", "manages▲", "*", "<latexit", "sha1_base64=\"eyj4Q+VoSLs8LFi3WocJTE+K7KQ=\">AAACc3icdZFPT9swGMbd7B8LbCtD2oVLRHpg0xYlWQvjhjRV2m4grYBUV5XjvuksHDuyXf7M+MvsOr4QH2T3OaUg5bD3ZD1+f48ePy5qzrRJ07tO8OTps+cv1l6G6xuvXr/pbr490XKhKIyo5FKdFUQDZwJGhhkOZ7UCUhUcTovzr8396QUozaT4Ya5rmFRkLljJKDFemnbf9XZxjD9iA1eetiWXl9q97027cZqke4Ms/xylSf/g4Eva94d8kPez/ShL0uXEaDVH083OEM8kXVQgDOVE6zGVogQFgsLEfh8Oh0YR4UK80FATek7mYJfpW9K4npU+ycTOFal/MnrVBhaKtwWiFLl2YYgFXFJZVUTMLAYOTQo3zibW4lJKI6QBzX7B8pW6tHHmnGtDFROsAR8pYRrCDpxNXRhF2FcM1DR626Vto/2OrBld2uAL7YPCB5vk3hjXRGEhmZj5cPahcFyUGhQDHd3b+eIf2o3+fzjJk2wvGRzn8WF/9QVraBvtoF2UoX10iL6hIzRCFN2g3+gPuu38DbaDnaB3vxp0VswWak3w6R/VHcJ6</latexit>", "(#", "ﬂows)", "<latexit", "sha1_base64=\"w6B/JHiUcozH3OJwTCWx9laXr1A=\">AAACd3icdVFNb9QwEPWmLZS0wBZucCAiVbUgFCVhtx+3SmgleisS21Zar1aOM1msJnZkO/3AstRfwxX+Dj+FG852i5QDcxo9z3vz5jmrS6Z0HP/ueWvrG48ebz7xt7afPnve33lxpkQjKUyoKIW8yIiCknGYaKZLuKglkCor4Ty7/NS+n1+BVEzwr/q2hllFFpwVjBLtoHn/1e4Ah/gD1nDj2KbhEtxayO273Xk/jKN4f5SkH4M4Gh4dHcZD16SjdJgcBEkULytEqzqd7/TGOBe0qYBrWhKlplTwAiRwCjNzMh6PtSTc+rhRUBN6SRZglhd0oGmdF87NzCwkqb8xetMlNLLsAkRKcmt9H3O4pqKqCM8NhhJaF3aazIzBhRCaCw2KfYflpaowYWKt7ZIqxllL/MfiumWYkTWx9YMAu5iB6hbvqnRllJsRNaNLGXylnFF4b6LUCeOaSMwF47kzZx5Cx1mhQDJQwb2cC/4h3eD/zVkaJfvR6EsaHg9XX7CJXqO3aIASdICO0Wd0iiaIojv0A/1Ev3p/vDfenje4H/V6K85L1Ckv+Qu8YcQ/</latexit>", "(#", "unreplied)", "RRTRouter", "num_ﬂows:", "Numeric", "[0..T]", "num_unreplied:", "Numeric", "[0..T]", "1", "*", "ﬂows", "to▲", "«enumeration»", "System", "State", "type:", "System", "State", "Type", "[0..T]", "System", "State", "Type", "Safe", "Warning", "Alert", "Tending", "Warning", "Tending", "Alert", "protocol:", "Protocol", "Name", "[0..T]", "port:", "Numeric", "[0..T]", "packet_size:", "Numeric", "[0..T]", "«enumeration»", "Network", "Flow", "External", "User", "Type", "Normal", "DoS", "Attacker", "DDoS", "Attacker", "External", "User", "type:", "External", "User", "Type", "[0..T]", "Local", "User"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 273.12,
+    "y1": 85.44,
+    "y2": 231.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Figure2-1.png"
+}, {
+  "caption": "Figure 3: A simplified example of a state machine learned for RRTRouter by our approach (MELA).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.044189453125,
+    "y1": 303.3365478515625,
+    "y2": 320.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["DDoS", "&", "High", "Flow", "DDoS", "&", "Med", "Flow", "DDoS", "&", "High", "Flow", "(Normal", "&", "Med", "Flow)", "|", "(DDoS", "&", "Med", "Flow)", "Normal", "&", "Low", "Flow", "DDoS", "&", "Med", "Flow", "(Normal", "&", "Low", "Flow)", "|", "(DDoS", "&", "Low", "Flow)", "Safe", "Warning", "Alert"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 71.03999999999999,
+    "x2": 274.56,
+    "y1": 256.8,
+    "y2": 292.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Figure3-1.png"
+}, {
+  "caption": "Figure 4: A test input consisting of time-series vectors corresponding to six inputs of RRTRouter.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6521301269531,
+    "y1": 190.35757446289062,
+    "y2": 207.33197021484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 275.03999999999996,
+    "y1": 82.56,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Traces for RRTRouter: (a) an example of an actual trace and (b) the same trace after trace abstraction.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04705810546875,
+    "y1": 283.3035583496094,
+    "y2": 300.27899169921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 275.03999999999996,
+    "y1": 213.6,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Illus rating how decis on tree is used to abstract the numeric range of the num_flows input attribute. The numeric range of num_flows is abstracted to the enumerated range [Low, Med, High] such that “Low”=[0, 454), “Med”=[454, 3500), and “High”=[3500,∞).",
+  "captionBoundary": {
+    "x1": 52.6150016784668,
+    "x2": 295.6528625488281,
+    "y1": 197.44656372070312,
+    "y2": 247.29901123046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 271.2,
+    "y1": 87.84,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/models-models2024/figures/10_1145-3640310_3674087-Figure6-1.png"
+}]

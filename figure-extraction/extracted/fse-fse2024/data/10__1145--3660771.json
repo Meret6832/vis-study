@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 3. Performance of various FL techniques on the Defects4J and BugsInPy benchmarks.",
+  "captionBoundary": {
+    "x1": 77.20298767089844,
+    "x2": 408.79827880859375,
+    "y1": 216.94606018066406,
+    "y2": 221.34408569335938
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "FL", "evaluation", "on", "BugsInPy", "AutoFL-GPT4", "(x2)", "AutoFL-GPT3.5", "(x5)", "Test-GPT3.5", "(x5)", "DStar", "Ochiai", "FL", "Performance", "Comparison", "(Python)", "k", "ac", "c@", "250", "200", "150", "100", "50", "1", "2", "3", "4", "5", "k", "(a)", "FL", "evaluation", "on", "Defects4J", "D4J", "v1.0", "AutoFL-GPT4", "(x2)", "AutoFL-GPT3.5", "(x5)", "Test-GPT3.5", "(x5)", "DStar", "Ochiai", "Metallaxis", "D4J", "v1.0", "w/o", "Closure", "AutoFL-GPT3.5", "(x5)", "SmartFL", "FL", "Performance", "Comparison", "(Java)", "k", "ac", "c@", "240", "220", "200", "180", "160", "140", "120", "100", "1", "2", "3", "4", "5", "k"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 436.32,
+    "y1": 86.88,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure3-1.png"
+}, {
+  "caption": "Fig. 7. Example explanations from AutoFL. Explanations (b) and (c) are truncated for clarity.",
+  "captionBoundary": {
+    "x1": 73.00199890136719,
+    "x2": 412.99884033203125,
+    "y1": 224.5359649658203,
+    "y2": 228.93399047851562
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)", "(c)", "for", "EU", "(expected", "value)", "and", "VarU", "(variance)", "of", "the", "Mann-Whitney", "U", "statistic.", "●", "Ensure", "that", "the", "computation", "of", "the", "standard", "score", "z", "is", "correct", "based", "on", "the", "observed", "Umin,", "EU,", "and", "VarU.", "(...)", "(...)", "The", "test", "testBigDataSet", "in", "the", "class", "MannWhitneyUTest", "fails", "when", "asserting", "that", "the", "calculated", "Mann-Whitney", "U", "statistic", "(result)", "is", "larger", "than", "0.1.", "The", "failure", "occurs", "in", "the", "line", "113", "of", "the", "test", "case.", "Upon", "investigation,", "the", "failure", "seems", "to", "be", "caused", "by", "incorrect", "calculations", "in", "the", "methods", "mannWhitneyU", "and", "calculateAsymptoticPValue.", "To", "ﬁx", "the", "issue,", "we", "suggest", "the", "following:", "(…)", "●", "Conﬁrm", "the", "correctness", "of", "the", "calculations", "To", "ﬁx", "this", "issue,", "the", "appendFixedWidthPadLeft", "method", "should", "handle", "the", "case", "when", "the", "obj", "argument", "is", "null", "and", "provide", "a", "proper", "value", "for", "str", "to", "avoid", "the", "NullPointerException.", "(...)", "The", "NullPointerException", "occurred", "at", "line", "1186,", "where", "str", "is", "attempted", "to", "be", "accessed.", "This", "indicates", "that", "the", "obj", "argument", "passed", "to", "the", "method", "is", "null,", "causing", "the", "getNullText", "method", "to", "be", "called,", "which", "returns", "null.", "Consequently,", "calling", "the", "length", "method", "on", "a", "null", "object", "(str)", "results", "in", "a", "NullPointerException.", "Accurate,", "but", "also", "Imprecise", "Defects4J", "Math-30", "Run#2", "Accurate,", "Concise,", "Useful", "Defects4J", "Lang-47", "Run#1", "Bland", "Defects4J", "Math-105", "Run#2", "The", "failing", "test", "SimpleRegressionTest.testSSENonNegati", "ve()", "belongs", "to", "the", "org.apache.commons.math.stat.regressi", "on", "package", "and", "is", "testing", "the", "SimpleRegression", "class."],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 431.03999999999996,
+    "y1": 84.0,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure7-1.png"
+}, {
+  "caption": "Table 2. Details of the bug datasets. The terms #FTs and #PMs refer to the average number of failing tests and patched methods, respectively. The calculation of patched methods excludes omission bugs. Projects marked with † originate from Defects4J [15], whereas the remaining ones are sourced from BugsInPy [42].",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1734619140625,
+    "y1": 87.95598602294922,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["PySnooper", "2", "1.00", "2.00", "luigi", "28", "1.29", "1.65", "tornado", "14", "1.14", "1.15", "ansible", "11", "1.27", "1.45", "matplotlib", "27", "1.04", "1.58", "youtube-dl", "42", "1.00", "1.39", "black", "22", "1.05", "2.43", "pandas", "165", "1.25", "1.53", "Chart†", "26", "3.54", "1.52", "cookiecutter", "4", "1.25", "2.00", "sanic", "3", "1.00", "1.00", "Closure†", "131", "2.63", "1.25", "fastapi", "16", "1.94", "2.42", "scrapy", "38", "1.45", "1.17", "Lang†", "64", "1.92", "1.38", "httpie", "5", "1.00", "1.25", "spacy", "2", "1.00", "1.00", "Math†", "106", "1.66", "1.32", "keras", "36", "1.17", "2.37", "thefuck", "30", "1.27", "1.24", "Time†", "26", "2.85", "1.56", "Project", "#Bugs", "#FTs", "#PMs", "Project", "#Bugs", "#FTs", "#PMs", "Project", "#Bugs", "#FTs", "#PMs"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 424.32,
+    "y1": 128.64,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Table2-1.png"
+}, {
+  "caption": "Table 4. Spearman’s rank correlation coe icients between AutoFL confidence and FL performance metrics in each benchmark (with ‘*’ denoting p < 0.0001). AutoFL is rerun 5 times using GPT-3.5.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1710510253906,
+    "y1": 87.95598602294922,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Defects4J", "+0.57*", "+0.67*", "+0.70*", "BugsInPy", "+0.52*", "+0.50*", "+0.49*", "Correlation", "with", "Precision@1", "Reciprocal", "Rank", "Average", "Precision"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 371.03999999999996,
+    "y1": 117.6,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Table4-1.png"
+}, {
+  "caption": "Table 1. A comparison of existing FL techniques with AutoFL. The precision of SBFL, MBFL, and IRFL was recalculated based on the artifacts of Zou et al. [53]; for other techniques, precision comes from the corresponding papers.Wu et al. [46] only evaluate statement-level FL, so their precision could not be compared.",
+  "captionBoundary": {
+    "x1": 45.50532531738281,
+    "x2": 440.4015808105469,
+    "y1": 87.95598602294922,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["•", "We", "evaluate", "the", "explanations", "generated", "by", "AutoFL,", "and", "nd", "that", "accurate", "explanations", "could", "be", "generated", "for", "more", "than", "half", "of", "all", "bugs,", "while", "developers", "had", "positive", "views", "towards", "the", "explanations", "generated", "by", "AutoFL.", "AutoFL", "Single", "test", "Up", "to", "71%", "minutes", "yes", "yes", "UniVal", "[22]", "Pass/Fail", "test", "75%", "[22]", "minutes3", "no", "no", "SmartFL", "[52]", "Pass/Fail", "test", "70%", "[52]", "minutes", "no", "no", "Wu", "et", "al.", "[46]", "Buggy", "method/class", "-", "-", "yes", "yes", "CombineFL", "[53]", "All", "of", "the", "above", "69%", "[53]", "hours", "no", "no", "DeepRL4FL", "[24]", "Test", "suite", "79%", "[24]", "hours", "no", "no", "SBFL", "Test", "suite", "61%", "[53]", "minutes", "yes", "no", "MBFL", "Test", "suite", "54%", "[53]", "hours", "yes", "no", "IRFL", "Bug", "report", "3%2", "[53]", "seconds", "yes", "no", "Required", "Artifact", "Prec@5", "on", "D4J", "Time", "Multilang.", "Rationale"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 51.36,
+    "x2": 440.64,
+    "y1": 128.64,
+    "y2": 291.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Table1-1.png"
+}, {
+  "caption": "Fig. 5. Function call distribution for AutoFL-GPT3.5.",
+  "captionBoundary": {
+    "x1": 146.14500427246094,
+    "x2": 339.8548278808594,
+    "y1": 204.3900909423828,
+    "y2": 208.78811645507812
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "BugsInPy", "package_cov", "class_cov", "method_cov", "snippet", "Function", "Call", "Distribution", "at", "Each", "Step", "Step", "10", "Step", "0", "Step", "1", "Step", "2", "Step", "3", "Step", "4", "Step", "5", "Step", "6", "Step", "7", "Step", "8", "Step", "9", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Proportion", "of", "Runs", "(a)", "Defects4J", "class_cov", "method_cov", "snippet", "comments", "Function", "Call", "Distribution", "at", "Each", "Step", "Step", "10", "Step", "0", "Step", "1", "Step", "2", "Step", "3", "Step", "4", "Step", "5", "Step", "6", "Step", "7", "Step", "8", "Step", "9", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Proportion", "of", "Runs"],
+  "name": "5",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 418.08,
+    "y1": 88.32,
+    "y2": 187.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. Average number of function calls made by AutoFL-GPT3.5, categorized by whether at least one of the faulty methods is called in the failing test case and/or exists in the stack trace.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.170654296875,
+    "y1": 362.552978515625,
+    "y2": 377.9100036621094
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "BugsInPy", "p<0.008", ")", "ra", "ce", "in", "T", "is", "ts", "t,", "Ex", "T", "es", "d", "in", "(False,", "False)", "257", "bugs(C", "al", "le", "(True,", "False)", "58", "bugs", "(False,", "True)", "48", "bugs", "(True,", "True)", "55", "bugs", "2", "4", "6", "8", "10", "Avg.", "Number", "of", "Function", "Calls", "Made", "(a)", "Defects4J", "p<0.008", "p<0.008", "p<0.008", ")", "ra", "ce", "in", "T", "is", "ts", "t,", "Ex", "T", "es", "d", "in", "(False,", "False)", "178", "bugs(C", "al", "le", "(False,", "True)", "34", "bugs", "(True,", "False)", "86", "bugs", "(True,", "True)", "47", "bugs", "2", "4", "6", "8", "10", "Avg.", "Number", "of", "Function", "Calls", "Made"],
+  "name": "6",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 419.03999999999996,
+    "y1": 245.76,
+    "y2": 346.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure6-1.png"
+}, {
+  "caption": "Fig. 2. Scoring and ranking candidate methods (depicted as black rectangles) based on five AutoFL prediction outcomes (depicted as colored rectangles). For every prediction outcome, the scores (represented as colored circles) are evenly distributed among all the methods included in that particular outcome.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1722717285156,
+    "y1": 193.31797790527344,
+    "y2": 219.63400268554688
+  },
+  "figType": "Figure",
+  "imageText": ["confidence=0.6", "FL", "Ranking", "Actual", "Locations", ".5.511.5.5", "A", "B", "C", "D", "E", "1", "=3.0/R", "=0.6", "=0.5/R", "=0.1", "=1.0/R", "=0.2", "=0.0/R", "=0.0", "A,B", "B", "B", "B,C", "D", "AutoFL", "Predictions", "(R=5)", "1.", "B", "●●●●", "2.", "D", "●", "3.", "A", "●", "4.", "C", "●", "5.", "E", "●", "=0.5/R", "=0.1"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 120.0,
+    "x2": 366.24,
+    "y1": 84.0,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure2-1.png"
+}, {
+  "caption": "Fig. 1. Diagram of AutoFL. Arrows represent an interaction between components; circled numbers indicate the order. Function interactions are made at most N times, where N is a predetermined parameter of AutoFL.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17218017578125,
+    "y1": 235.7329864501953,
+    "y2": 251.08999633789062
+  },
+  "figType": "Figure",
+  "imageText": ["…", "…", "System", "Under", "Test💾", "Query", "Location", "4", "5", "Answer", "3Bug", "Explanation", "up", "to", "N", "times", "2", "Function", "Interaction", "1", "Bug", "Information", "Stage", "1", "Explanation", "Generation", "FL", "PredictionStage", "2", "Language", "Model", "AutoFL", "Algorithm", "💻", "get_class_covered", "💻", "get_method_covered", "⛳", "Coverage", "💻", "get_comments", "📁", "Codebase", "💻", "get_code_snippet"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 391.2,
+    "y1": 84.0,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure1-1.png"
+}, {
+  "caption": "Table 6. Spearman Correlation between explanation quality predictors and actual quality. Results with ? < 0.01 are marked with *, and results significant with ? < 0.001 are marked with **.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1683349609375,
+    "y1": 87.95598602294922,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Accurate", "+0.2358**", "+0.1946*", "+0.3759**", "+0.3009**", "‘Wrong’", "(only", "imprecise)", "+0.0408", "−0.0643", "+0.3266**", "+0.3271**", "Useful", "+0.2635**", "+0.1942*", "+0.2371**", "+0.1585", "‘Bland’", "−0.2364**", "−0.1105", "−0.6026**", "−0.5391**", "FL", "Accurate", "+0.2737**", "+0.4923**", "+0.1437", "+0.1528", "name", "Test", "Score", "APR", "Score", "GPTuseful", "Length"],
+  "name": "6",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 114.72,
+    "x2": 368.15999999999997,
+    "y1": 117.6,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Table6-1.png"
+}, {
+  "caption": "Fig. 8. Relationship between dynamic scores and FL performance.",
+  "captionBoundary": {
+    "x1": 121.45199584960938,
+    "x2": 364.54876708984375,
+    "y1": 319.1700744628906,
+    "y2": 323.5680847167969
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Precision-recall", "curve", "for", "P@1", "prediction", "is", "io", "n", "Original", "Confidence", "(AUC=0.785)", "Test", "Score-Boosted", "Confidence", "(AUC=0.812)", "APR", "Score-Boosted", "Confidence", "(AUC=0.827)", "Pr", "ec", "1.0", "0.8", "0.6", "0.4", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Recall", "(a)", "Mean", "of", "test", "and", "APR", "scores", "FL", "Accurate", "False", "True", "APR", "Score", "Test", "Score", "0.00", "0.05", "0.10", "0.15", "0.20", "0.25", "0.30", "0.35", "value"],
+  "name": "8",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 68.16,
+    "x2": 418.08,
+    "y1": 205.92,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure8-1.png"
+}, {
+  "caption": "Fig. 4. Performance of AutoFL as ' increases, for Defects4J and BugsInPy.",
+  "captionBoundary": {
+    "x1": 106.09901428222656,
+    "x2": 379.90118408203125,
+    "y1": 218.0270538330078,
+    "y2": 222.42507934570312
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "BugsInPy", "GPT-4", "(x2)", "GPT-4", "(x1)", "GPT-3.5", "(x5)", "GPT-3.5", "(x4)", "GPT-3.5", "(x3)", "GPT-3.5", "(x2)", "GPT-3.5", "(x1)", "Rerun", "To", "Performance", "(Python)", "k", "ac", "c@", "260", "240", "220", "200", "180", "160", "140", "120", "100", "1", "2", "3", "4", "5", "k", "(a)", "Defects4J", "GPT-4", "(x2)", "GPT-4", "(x1)", "GPT-3.5", "(x5)", "GPT-3.5", "(x4)", "GPT-3.5", "(x3)", "GPT-3.5", "(x2)", "GPT-3.5", "(x1)", "Rerun", "To", "Performance", "(Java)", "k", "ac", "c@", "240", "220", "200", "180", "160", "140", "120", "1", "2", "3", "4", "5", "k"],
+  "name": "4",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 420.47999999999996,
+    "y1": 87.36,
+    "y2": 201.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Figure4-1.png"
+}, {
+  "caption": "Table 3. Execution time (seconds) per bug for AutoFL. Prep. denotes the data preparation phase, which involves gathering coverage of the failing test cases and obtaining the snippets of covered code.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17425537109375,
+    "y1": 241.1449737548828,
+    "y2": 256.50201416015625
+  },
+  "figType": "Table",
+  "imageText": ["GPT-4", "65.80", "131.6", "-", "0.20", "155.38", "23.50", "34.71", "-", "173.55", "0.28", "197.33", "BugsInPy", "GPT-3.5", "GPT-4", "152.48", "304.96", "-", "0.52", "310.35", "4.87", "16.40", "-", "82.00", "0.37", "87.24", "Defects4J", "GPT-3.5", "Benchmark", "LLM", "Prep.", "(", "1", ")", "'", "=", "1", "'", "=", "2", "(", "2", ")", "'", "=", "5", "(", "2", ")", "Merge", "(", "3", ")", "Total", "(", "1", "+", "2", "+", "3", ")"],
+  "name": "3",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 408.47999999999996,
+    "y1": 271.2,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Table3-1.png"
+}, {
+  "caption": "Table 5. Explanation rating results of AutoFL-GPT3.5",
+  "captionBoundary": {
+    "x1": 144.26210021972656,
+    "x2": 341.4949035644531,
+    "y1": 87.95574188232422,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Answer", "to", "RQ3:", "About", "20%", "of", "AutoFL", "explanations", "accurately", "describe", "the", "root", "cause", "of", "the", "bug,", "per", "a", "manual", "assessment;", "for", "56.7%", "of", "all", "bugs,", "an", "accurate", "explanation", "is", "generated", "at", "least", "once.", "Interestingly,", "helpful", "explanations", "are", "more", "common", "for", "bugs", "when", "AutoFL", "is", "con", "dent.", "Aggregated", "By", "Bug", "100%", "56.7%", "66.7%", "31.7%", "23.3%", "93.3%", "60", "0.00", "≤", "Con", "dence", "<", "0.25", "100%", "37.5%", "70.8%", "16.7%", "8.3%", "95.8%", "24", "0.25", "≤", "Con", "dence", "<", "0.50", "100%", "62.5%", "68.8%", "31.3%", "31.3%", "93.8%", "16", "0.50", "≤", "Con", "dence", "<", "0.75", "100%", "69.2%", "53.8%", "46.2%", "30.8%", "84.6%", "13", "0.75", "≤", "Con", "dence", "≤", "1.00", "100%", "85.7%", "71.4%", "57.1%", "42.9%", "100%", "7", "Individual", "Explanations", "83.7%", "20.0%", "26.3%", "9.3%", "8.0%", "43.0%", "300", "0.00", "≤", "Con", "dence", "<", "0.25", "78.3%", "10.0%", "24.2%", "3.3%", "1.7%", "46.7%", "120", "0.25", "≤", "Con", "dence", "<", "0.50", "87.5%", "23.8%", "28.8%", "7.5%", "11.3%", "43.8%", "80", "0.50", "≤", "Con", "dence", "<", "0.75", "81.5%", "26.2%", "24.6%", "16.9%", "12.3%", "36.9%", "65", "0.75", "≤", "Con", "dence", "≤", "1.00", "97.1%", "34.3%", "31.4%", "20.0%", "14.3%", "40.0%", "35", "Subset", "Exists", "Accurate", "Imprecise", "Concise", "Useful", "‘Bland’", "Total"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660771-Table5-1.png"
+}]

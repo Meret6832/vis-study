@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 2. Workflow of MT-MPC. We uncover both crashes (“compilation failures”) and incorrect outputs (“logic errors”) in this study.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1702880859375,
+    "y1": 171.16952514648438,
+    "y2": 186.531005859375
+  },
+  "figType": "Figure",
+  "imageText": ["𝑏", "Executable", "VM", "CPU", "/", "Compile", "compilation", "failure?", "𝑏′", "Executable", "MR", "Generation", "Execute", "Test", "Seed", "?", "Compile", "logic", "error?", "Output", "𝑜", "Mutated", "Source", "Code", "𝑝′", "Execute", "Output", "𝑜!", "Source", "Code", "𝑝"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 404.64,
+    "y1": 88.8,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure2-1.png"
+}, {
+  "caption": "Fig. 5. Illustration of the compilation failure caused by erroneous circuit type switching.",
+  "captionBoundary": {
+    "x1": 80.57398986816406,
+    "x2": 405.4263916015625,
+    "y1": 554.7634887695312,
+    "y2": 559.166015625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Converting", "a", "boolean", "circuit", "to", "arithmetic", "on", "multiplication.", "uint_bl", "a", "=", "10;", "//", "Boolean", "uint_bl", "b", "=", "20;", "//", "Boolean", "uint_bl", "c", "=", "true", "?", "a", "*", "a", ":", "b;", "1", "2", "3", "(a)", "Ternary", "expression", "with", "arith-", "metic", "and", "boolean", "variables.", "uint_al", "a", "=", "10;", "#", "Arithmetic", "uint_bl", "b", "=", "20;", "#", "Boolean", "uint_bl", "c", "=", "true", "?", "a", ":", "b;", "1", "2", "3"],
+  "name": "5",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 387.36,
+    "y1": 490.56,
+    "y2": 548.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure5-1.png"
+}, {
+  "caption": "Table 6. Testing time and its breakdown to mutation, compilation and execution time.",
+  "captionBoundary": {
+    "x1": 84.17889404296875,
+    "x2": 401.5799255371094,
+    "y1": 172.67630004882812,
+    "y2": 177.07879638671875
+  },
+  "figType": "Table",
+  "imageText": ["MP-SPDZ", "29.4", "1.0", "7.3", "3.9", "21.1", "11.6", "EzPC", "11.2", "0.2", "2.4", "1.8", "8.6", "6.5", "EMP", "46.3", "2.8", "43.1", "24.0", "0.4", "0.2", "Time", "(hour)", "Time", "(hour)", "Time", "(hour)", "Time", "(Sec)", "Time", "(hour)", "Time", "(Sec)", "Compiler", "Total", "Testing", "Total", "Mutation", "Total", "Compilation", "Avg.", "Compilation", "Total", "Execution", "Avg.", "Execution"],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 181.92,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Table6-1.png"
+}, {
+  "caption": "Fig. 4. Dataflow mutation should respect the constraint that private data cannot flow to public data.",
+  "captionBoundary": {
+    "x1": 56.91700744628906,
+    "x2": 429.0848083496094,
+    "y1": 163.26864624023438,
+    "y2": 167.671142578125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Change", "variable", "d", "from", "private", "to", "public.", "1", "public", "var", "c,", "d;", "2", "//", "Data", "of", "d", "flows", "to", "c", "3", "c", "=", "c", "−", "d", "∗", "c", "∗", "d;", "(b)", "Change", "variable", "c", "from", "private", "to", "public.", "1", "public", "var", "c;", "2", "private", "var", "d;", "//", "Illegal", "3", "c", "=", "c", "−", "d", "∗", "c", "∗", "d;", "(a)", "Arithmetic", "operations", "before", "mutation.", "1", "//", "Initialization", "omitted", "2", "private", "var", "c,", "d;", "3", "c", "=", "c", "−", "d", "∗", "c", "∗", "d;"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 45.12,
+    "x2": 434.88,
+    "y1": 84.96,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure4-1.png"
+}, {
+  "caption": "Table 5. Comparison between testing with Domato and MT-MPC.",
+  "captionBoundary": {
+    "x1": 120.68970489501953,
+    "x2": 365.0685729980469,
+    "y1": 364.5526123046875,
+    "y2": 368.9551086425781
+  },
+  "figType": "Table",
+  "imageText": ["MPC", "Compiler", "#Triggered", "Compilation", "Failures", "#Triggered", "Logic", "Errors", "Domato", "MT-MPC", "Domato", "MT-MPC", "MP-SPDZ", "(0.3.6)", "0", "3,372", "0", "933", "EzPC", "1,489", "1,314", "0", "112", "EMP", "0", "52", "0", "150", "Total", "1,489", "4,738", "0", "1,195"],
+  "name": "5",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 96.96,
+    "x2": 389.28,
+    "y1": 378.71999999999997,
+    "y2": 436.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Table5-1.png"
+}, {
+  "caption": "Fig. 8. Bug5: Wrong output on specific combination of operators.",
+  "captionBoundary": {
+    "x1": 123.00399780273438,
+    "x2": 362.99713134765625,
+    "y1": 195.30075073242188,
+    "y2": 201.04815673828125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Bug", "not", "triggered.", "//", "Addition", "and", "bitwise", "negation", "uint32_bl", "a", "=", "32u;", "uint32_bl", "b", "=", "31u;", "uint32_bl", "c", "=", "(~(b", "+", "73u));", "output(CLIENT,", "c);", "//", "4294967191", "(expected)", "output(CLIENT,", "a);", "//", "32", "(expected)", "1", "2", "3", "4", "5", "6", "(a)", "Variables", "a", "and", "c", "unexpectedly", "printed.", "//", "Multiplication", "and", "bitwise", "negation", "uint32_bl", "a", "=", "32u;", "uint32_bl", "b", "=", "31u;", "uint32_bl", "c", "=", "(~(b", "*", "73u));", "output(CLIENT,", "c);", "//", "4281426209", "(buggy)", "output(CLIENT,", "a);", "//", "13538858", "(buggy)", "1", "2", "3", "4", "5", "6"],
+  "name": "8",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 416.15999999999997,
+    "y1": 121.92,
+    "y2": 188.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure8-1.png"
+}, {
+  "caption": "Table 4. #Errors Exposed by around 12K testing inputs and contribution of di erent MRs.",
+  "captionBoundary": {
+    "x1": 78.14900207519531,
+    "x2": 407.6103515625,
+    "y1": 380.9714050292969,
+    "y2": 385.3739013671875
+  },
+  "figType": "Table",
+  "imageText": ["MP-SPDZ", "(0.3.5)", "3,351", "3,556", "2,301", "1,163", "92", "MP-SPDZ", "(0.3.6)", "3,372", "933", "572", "329", "32", "EzPC", "1,299", "108", "7", "97", "4", "EMP", "50", "175", "0", "175", "0", "Total", "8,072", "4,772", "2,880", "1,764", "128", "Compilation", "Failures", "Logic", "Errors", "MR325", "MRE8B", "MR28A", "MPC", "Compiler", "#Errors", "Exposed", "in", "Total", "#Logic", "Errors", "Exposed", "via", "Di", "erent", "MRs"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 409.44,
+    "y1": 389.76,
+    "y2": 450.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Table4-1.png"
+}, {
+  "caption": "Table 3. Average statistics of seeds and mutated programs using each MR (measured onMP-SPDZ).",
+  "captionBoundary": {
+    "x1": 58.189796447753906,
+    "x2": 427.5680847167969,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Program", "LOC", "#Variables", "#Instructions", "Seed", "Program", "35", "7", "7,238", "Mutants", "from", "MR325", "421", "22", "107,321", "Mutants", "from", "MRE8B", "42", "9", "6,972", "Mutants", "from", "MR28A", "22", "6", "24,712"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 135.84,
+    "x2": 350.4,
+    "y1": 96.96,
+    "y2": 144.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Table3-1.png"
+}, {
+  "caption": "Fig. 3. MR325 samples. For compilers prevent using secret-based if conditions, we use multiplexers (MUX).",
+  "captionBoundary": {
+    "x1": 46.5989990234375,
+    "x2": 439.4020080566406,
+    "y1": 192.16061401367188,
+    "y2": 198.52716064453125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Example", "of", "TG.", "//", "a", "=", "1,", "b", "=", "2", "/∗", "∗", "Statement", "before:", "∗", "a", "=", "b;", "∗/", "if", "(a", "<", "b)", "{", "a", "=", "b;", "}", "(b)", "Example", "of", "TCB.", "//", "a", "=", "1,", "b", "=", "2", "var", "a_bak", "=", "a,", "b_bak", "=", "b;", "if", "(a", "<", "b)", "{", "//", "Garbage", "code", "a", "=", "a", "∗", "b", "−", "a", "&", "b", "−", "a;", "b", "=", "b", "^", "a", "+", "a;", "}", "a", "=", "a_bak;", "b", "=", "b_bak;", "(a)", "Example", "of", "FCB.", "//", "a", "=", "1,", "b", "=", "2", "if", "(a", ">", "b)", "{", "//", "Garbage", "code", "a", "=", "~(b", "&", "(b", "|", "a)", "^", "a);", "b", "=", "~a", "−", "(~b", "+", "a", "^", "b);", "a", "=", "a", "∗", "b", "−", "~b", "^", "a;", "b", "=", "b", "+", "a", "−", "a", "∗", "b;", "}"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 432.47999999999996,
+    "y1": 84.96,
+    "y2": 175.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure3-1.png"
+}, {
+  "caption": "Fig. 1. The (simplified) landscape of MPC compilation and runtime. Our testing uncovers functionality bugs in the compilation & execution phases.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1695861816406,
+    "y1": 399.2875061035156,
+    "y2": 414.64898681640625
+  },
+  "figType": "Figure",
+  "imageText": ["CPU", "/", "VM", "Code", "Generation", "Pick", "MPC", "Protocol", "MPC", "Compilation", "&", "Execution", "Pipeline", "Binary", "/", "Bytecode", "Compiler", "Front-end", "Optimizations", "High-Level", "Description"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 337.91999999999996,
+    "y2": 383.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure1-1.png"
+}, {
+  "caption": "Fig. 7. Bug3: Erroneous dependency graph.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 199.61997985839844,
+    "y1": 418.9624938964844,
+    "y2": 424.7099914550781
+  },
+  "figType": "Figure",
+  "imageText": ["Bug3:", "Erroneous", "Dependency", "Graph.", "9", "As", "noted", "in", "Sec.", "2.2,", "MPC", "usually", "involves", "multiple", "rounds", "of", "communication", "between", "di", "erent", "parties.", "One", "main", "optimization", "applied", "by", "MP-SPDZ", "is", "to", "minimize", "the", "number", "of", "rounds", "be-", "tween", "parties", "by", "nding", "and", "merging", "independent", "instruc-", "tions", "in", "the", "same", "round.", "This", "optimization", "relies", "on", "well-", "constructed", "data", "dependency", "graphs.", "Nevertheless,", "MPC", "compilers", "may", "fail", "to", "build", "correct", "dependency", "graphs.", "Fig.", "7", "illustrates", "such", "an", "example.", "While", "the", "variable", "var1", "initialized", "at", "line", "5", "is", "read", "at", "line", "13", "and", "updated", "at", "line", "18,", "the", "read", "instruction", "at", "line", "13", "should", "be", "strictly", "executed", "before", "the", "write", "at", "line", "18,", "i.e.,", "these", "two", "instructions", "are", "not", "independent.", "However,", "MP-SPDZ", "fails", "to", "recognize", "such", "dependency,", "and", "incorrectly", "merges", "lines", "11-18", "in", "the", "same", "round.", "Thus,", "line", "18", "may", "be", "executed", "before", "line", "11,", "leading", "line", "11", "to", "incorrectly", "print", "10.", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "a", "=", "sint(5)", "b", "=", "sint(10)", "a.update(sint(6))", "var1", "=", "sint(0)", "var2", "=", "sint(97)", "var2.update(sint(17))", "//", "var1", "should", "be", "0,", "//", "yet", "the", "output", "value", "is", "10", "print_ln('var1:", "%s',", "var1.reveal())", "var2.update(var1", "+", "var1)", "var3", "=", "sint(0)", "var4", "=", "sint(1)", "//", "var1", "is", "updated", "as", "10", "here", "var1.update(b)", "print_ln('var1:", "%s',", "var1.reveal())"],
+  "name": "7",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 442.08,
+    "y1": 229.92,
+    "y2": 419.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure7-1.png"
+}, {
+  "caption": "Table 1. MPC compilers evaluated in our study.",
+  "captionBoundary": {
+    "x1": 154.95010375976562,
+    "x2": 330.8074645996094,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Compiler", "Publications", "Developer", "Version", "in", "git", "commit/Release", "MP-SPDZ", "[20]", "CCS’20", "[20]", "Academia", "0.3.5", "(2022-12-16)", "/", "0.3.6", "(2023-05-09)", "EzPC", "[30]", "S&P’20", "[21],", "CCS’20", "[36],", "SP’21", "[35],", "USENIX’23", "[34],", "etc.", "Microsoft", "c6e60b1", "(2023-08-02)", "EMP", "[45]", "S&P’15", "[26],", "CCS’17", "[46],", "CCS’20", "[49],", "etc.", "Academia", "0.2.2", "(2021-08-25)"],
+  "name": "1",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 96.96,
+    "y2": 132.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Table1-1.png"
+}, {
+  "caption": "Table 2. Lines of code (LOC), number of variables of seed programs, and their mutants.",
+  "captionBoundary": {
+    "x1": 82.00900268554688,
+    "x2": 403.7501220703125,
+    "y1": 459.63140869140625,
+    "y2": 464.0339050292969
+  },
+  "figType": "Table",
+  "imageText": ["Compiler", "Seed", "Average", "Mutant", "Average", "Mutant", "Largest", "LOC", "#Variables", "LOC", "#Variables", "LOC", "#Variables", "MP-SPDZ", "35", "7", "342", "18", "1,358", "53", "EzPC", "34", "8", "110", "29", "941", "183", "EMP", "40", "9", "422", "115", "1,095", "322"],
+  "name": "2",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 370.08,
+    "y1": 468.96,
+    "y2": 515.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Table2-1.png"
+}, {
+  "caption": "Fig. 6. Illustration of bug1 and bug2.",
+  "captionBoundary": {
+    "x1": 175.78189086914062,
+    "x2": 310.21844482421875,
+    "y1": 583.5827026367188,
+    "y2": 589.3301391601562
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Bug2:", "Unexpected", "shallow", "copy", "a", "er", "variable", "assignment.", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "a", "=", "sint(0)", "b", "=", "sint(1)", "c", "=", "sint(2)", "a.update(b)", "//", "Incorrectly", "create", "a", "shallow", "copy", "print_ln('b:", "%s',", "b.reveal())", "print_ln('a:", "%s',", "a.reveal())", "//", "Only", "update", "'a',", "yet", "//", "b", "unexpectedly", "also", "gets", "updated", "a.update(c)", "print_ln('b:", "%s',", "b.reveal())", "print_ln('a:", "%s',", "a.reveal())", "(a)", "Bug1:", "Missing", "assignment", "to", "a", "variable", "due", "to", "incorrect", "code", "elimination.", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "//", "'a'", "is", "a", "secret", "integer", "//", "a", "=", "0", "after", "comparison", "operation", "a", "=", "(sint(0)", "<", "0)", "//", "Update", "'a'", "with", "a", "secret", "integer", "a.update(sint(1))", "//", "Always-false", "condition", "@if_((sint(1)<sint(1)).reveal())", "def", "_():", "0", "//", "Do", "nothing", "in", "the", "if", "block", "//", "Print", "the", "value", "of", "'a'", "print_ln('a:", "%s',", "a.reveal())"],
+  "name": "6",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 411.35999999999996,
+    "y1": 435.84,
+    "y2": 576.9599999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643781-Figure6-1.png"
+}]

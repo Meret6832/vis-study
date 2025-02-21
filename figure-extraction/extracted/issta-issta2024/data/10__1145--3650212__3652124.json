@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 1: The symbolic rules for constructing the SCT. “[-]” indicates the node value to replace and “-” denotes the original AST node type parsed by the Tree-sitter.",
+  "captionBoundary": {
+    "x1": 53.46699905395508,
+    "x2": 295.6473388671875,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["statement", "Labeled", "Case", "case", "[constant-expression]:", "Goto", "goto", "[identifier]", ";", "Return", "return", "[expression]", ";", "Jump", "Continue", "[continue];", "Break", "[break];", "expression]", "statement", "Range-based", "for", "for", "(", "[for-range-declaration:)", "Iteration", "statement", "For", "for", "([init-expression;", "condition", "-expression;", "loop-expression])", "statement", "While", "while", "(", "[expression]", ")", "statement", "Switch", "switch", "(", "[condition]", ")", "Selection", "else-branch", "else", "[]", "if-branch", "if", "(", "[condition]", ")", "If-else", "if-branch", "If", "if", "(", "[condition]", ")", "Categories", "Target", "Nodes", "Symbolic", "Templates"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 307.2,
+    "y1": 127.67999999999999,
+    "y2": 482.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Table1-1.png"
+}, {
+  "caption": "Table 7: The performance of SCALE in FFMPeg+Qemu [65] dataset when using GPT-3.5-Instruct in comment tree construction phase.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6476135253906,
+    "y1": 263.5821228027344,
+    "y2": 291.1300048828125
+  },
+  "figType": "Table",
+  "imageText": ["Comment", "with", "GPT3.5-Instruct", "63.69", "58.23", "74.10", "65.22", "SCALE", "(Comment", "with", "ChatGPT)", "66.18", "61.88", "68.69", "65.11", "Metrics", "Acc", "Pre", "Rec", "F1"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 305.76,
+    "y2": 348.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Table7-1.png"
+}, {
+  "caption": "Table 6: The performance of SCALE in three different datasets when removing the structured natural language comment tree construction module (i.e., Without SCTC) and removing the SCT-enhanced representation module (i.e., Without SER) in four metrics.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.38818359375,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["SCALE", "66.18", "61.88", "68.69", "65.11", "90.02", "52.32", "78.69", "62.85", "82.33", "17.14", "62.93", "26.94", "(↓1.90%)", "(↓2.20%)", "(↓0.16%)", "(↓1.31%)", "(↓1.06%)", "(↓3.30%)", "(↓6.97%)", "(↓3.61%)", "(↓7.31%)", "(↓3.24%)", "(↑10.64%)", "(↓3.56%)", "Without", "SER", "64.28", "59.68", "68.53", "63.80", "88.96", "49.02", "71.72", "59.24", "75.02", "13.90", "73.57", "23.38", "(↓0.59%)", "(↓0.15%)", "(↓2.63%)", "(↓1.29%)", "(↓0.75%)", "(↓2.32%)", "(↓2.87%)", "(↓2.59%)", "(↓4.01%)", "(↓1.97%)", "(↑6.76%)", "(↓2.04%)", "Without", "SCTC", "65.59", "61.73", "66.06", "63.82", "89.27", "50.00", "75.82", "60.26", "78.32", "15.17", "69.69", "24.99", "Metrics", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Dataset", "FFMPeg+Qemu", "Reveal", "SVulD"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 559.1999999999999,
+    "y1": 127.67999999999999,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Table6-1.png"
+}, {
+  "caption": "Figure 1: A code example that presents a memory leak vulnerability in the Qemu project, and is misclassified by UniXcoder as non-vulnerable. The red and green lines represent the patched code segments before and after fixed, respectively.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64886474609375,
+    "y1": 322.0431213378906,
+    "y2": 371.510009765625
+  },
+  "figType": "Figure",
+  "imageText": ["fds", "=", "g_new0(char", "*,", "MAX_TAP_QUEUES);", "vhost_fds", "=", "g_new0(char", "*,", "MAX_TAP_QUEUES)", "...", "if", "(tap->has_vhostfds)", "{...", "}", "...", "if", "(err)", "{", "error_propagate(errp,", "err);", "return", "-1;", "}", "}", "else", "if", "(tap->has_fds)", "{", "char", "**fds", "=", "g_new0(char", "*,", "MAX_TAP_QUEUES);", "char", "**vhost_fds", "=", "g_new0(char", "*,", "MAX_TAP_QUEUES);", "char", "**fds;", "char", "**vhost_fds;", "int", "nfds,", "nvhosts;", "if", "(tap->has_ifname", "||", "tap->has_script", "||", "tap-", ">has_downscript...)", "{", "...", "return", "-1;", "}", "if", "(tap->has_fd)", "{", "if", "(tap->has_ifname", "||", "tap->has_script", "||tap-", ">has_downscript", "||", "tap->has_vnet_hdr", "||...)", "{", "error_setg(errp,", "\"ifname=,", "...\");", "return", "-1;", "}", "fd", "=", "monitor_fd_param(cur_mon,", "tap->fd,", "&err);", "if", "(fd", "==", "-1)", "{", "error_propagate(errp,", "err);", "return", "-1;", "}", "int", "net_init_tap(const", "Netdev", "*netdev,", "...)", "{", "...", "...", "36", "+", "+", "...", "39", "18", "19", "20", "21", "22", "23", "...", "27", "28", "29", "30", "31-", "32-", "+", "+", "33", "34", "1", "...", "16", "17"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 290.4,
+    "y1": 87.84,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Figure1-1.png"
+}, {
+  "caption": "Table 2: Statistics of the datasets.",
+  "captionBoundary": {
+    "x1": 107.39099884033203,
+    "x2": 240.1565704345703,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["SVulD", "[43]", "28,730", "5,260", "23,470", "18.31", "Reveal", "[10]", "18,169", "1,664", "16,505", "9.16", "FFMPeg+Qemu", "[65]", "22,361", "10,067", "12,294", "45.02", "Dataset", "#", "Total", "#", "Vul.", "#", "Non-vul.", "Ratio(%)"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.4,
+    "y1": 105.6,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Table2-1.png"
+}, {
+  "caption": "Figure 6: The impact of batch size and head number on the model performance in the FFMPeg+Qemu dataset. The blue, red, orange, and black lines denote the accuracy, precision, recall and F1 score metrics, respectively.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.2940063476562,
+    "y1": 189.56410217285156,
+    "y2": 228.072021484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Head", "number", "70", "65", "60", "2", "4", "8", "16", "32", "55", "(a)", "Batch", "size", "70", "65", "60", "4", "8", "16", "32", "64", "55"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 327.36,
+    "x2": 537.12,
+    "y1": 82.56,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Four types of existing vulnerability detection methods.",
+  "captionBoundary": {
+    "x1": 175.791015625,
+    "x2": 436.21124267578125,
+    "y1": 244.48207092285156,
+    "y2": 250.11297607421875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "LLM-based", "methods", "Cla", "sifier", "Answer", "for", "clas", "ificationClassifier", "LLM", "+", "Sourc", "code", "Prompt", "Fine-tuning", "+", "Pre-trained", "Model", "Source", "code", "Code", "Struture", "Graph", "GNN", "Model", "···", "···", "···", "C2", "(", ",", "1)", "=", "�1⋀�2", "(", ",", "�2)", "=", "¬�1⋁(�1⋀�2)", "�2:", "2", "=", "�", "1:", "1", "=", "�", "�:", "�", "=", ".", ".", ".", "C1", "¬C1", "S5", "S4", "S3", "S2", "S1", "(c)", "Pre-trained", "model", "methods", "Classifier", "Answer", "for", "classificationCl", "LLM", "+", "Source", "code", "Prompt", "Fine-tuning", "+", "Pre-trained", "Model", "Source", "code", "Code", "Struture", "Graph", "GNN", "Model", "···", "···", "···", "C2", "(�,", "�1)", "=", "1⋀�2", "(�,", "�2)", "=", "¬�1⋁(", "1⋀�2)", "�2:", "�2", "=", "�", "�1:", "�1", "=", "�", "�:", "�", "=", ".", ".", ".", "C1", "¬C1", "S5", "S4", "S3", "S2", "S1", "(b)", "Supervised", "methods", "S2", "Sn", "...Feature", "S1", "Classifier", "Answer", "for", "cl", "ssificationClassifier", "LLM", "+", "Source", "code", "Prompt", "Fi", "e-tuning", "+", "Pre-trained", "Model", "Source", "code", "DL", "Model", "C2", "(�,", "�1)", "=", "�1⋀�2", "(�,", "�2)", "=", "¬�1⋁(�1⋀�2)", "�2:", "�2", "=", "�", "�1:", "�1", "=", "�", "�:", "�", "=", ".", ".", ".", "C1", "¬C1", "S5", "S4", "S3", "S2", "S1", "(a)", "Program", "analysis", "methods", "Classifier", "Answer", "for", "classificationClassifier", "LLM", "+", "Source", "code", "Prompt", "Fine-tuning", "+", "Pre-trained", "Model", "Source", "code", "Code", "Struture", "Graph", "GNN", "Model", "···", "···", "···", "C2", "(�,", "�1)", "=", "�1⋀�2", "(�,", "�2)", "=", "¬�1⋁(�1⋀�2)", "�2:", "�2", "=", "�", "�1:", "�1", "=", "�", "�:", "�", "=", ".", ".", ".", "C1", "¬C1", "S5", "S4", "S3", "S2", "S1"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 527.52,
+    "y1": 90.24,
+    "y2": 228.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Figure2-1.png"
+}, {
+  "caption": "Table 4: The experimental results of applying SCT to the existing pre-trained model-based methods.",
+  "captionBoundary": {
+    "x1": 103.302001953125,
+    "x2": 508.4041442871094,
+    "y1": 371.5440979003906,
+    "y2": 377.17498779296875
+  },
+  "figType": "Table",
+  "imageText": ["(↑+0.99%)", "(↑+1.95%)", "(↑+8.71%)", "(↑+5.15%)", "(↑+1.10%)", "(↑+3.42%)", "(↑+16.40%)", "(↑+7.55", "%)", "(↑+4.79%)", "(↑+2.03%)", "(↓-9.31%)", "(↑+1.95%)", "UniXcoder#", "66.18", "61.88", "68.69", "65.11", "89.58", "50.86", "84.84", "63.59", "82.33", "17.14", "62.93", "26.94", "(↓-1.43%)", "(↓-2.92%)", "(↑+10.20%)", "(↑+2.69%)", "(↑+0.62%)", "(↑+15.33%)", "(↓-13.12%)", "(↑+1.40%)", "(↑+0.08%)", "(↑+60.45%)", "(↓-54.54%)", "(↑+1.37%)", "EPVD#", "61.60", "56.40", "72.35", "63.39", "89.49", "63.93", "50.81", "56.62", "76.83", "74.71", "15.04", "25.04", "(↑+1.87%)", "(↓-2.48%)", "(↑+23.90%)", "(↑+10.87%)", "(↑+1.27%)", "(↑+4.67%)", "(↑+11.47%)", "(↑+7.31%)", "(↓-0.50%)", "(↑+0.95%)", "(↑+7.42%)", "(↑+1.82%)", "CodeBERT#", "64.24", "59.07", "72.11", "64.94", "88.78", "48.30", "67.62", "56.41", "80.06", "15.28", "62.74", "24.58", "Metrics", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Dataset", "FFMPeg+Qemu", "Reveal", "SVulD"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 391.68,
+    "y2": 516.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Table4-1.png"
+}, {
+  "caption": "Table 5: The performance of SCALE with different structured natural language rules on three different datasets.",
+  "captionBoundary": {
+    "x1": 79.45600128173828,
+    "x2": 532.25048828125,
+    "y1": 530.7400512695312,
+    "y2": 536.3709716796875
+  },
+  "figType": "Table",
+  "imageText": ["SCALE", "66.18", "61.88", "68.69", "65.11", "89.58", "50.86", "84.84", "63.59", "82.33", "17.14", "62.93", "26.94", "Selection", "65.55", "61.75", "65.74", "63.68", "89.14", "49.64", "84.02", "62.40", "80.88", "16.22", "64.64", "25.93", "Iteration", "65.12", "60.23", "70.84", "65.10", "89.18", "49.76", "84.01", "62.50", "80.92", "16.35", "65.21", "26.14", "Jump", "65.45", "61.21", "67.65", "64.27", "88.92", "49.04", "83.61", "61.82", "80.75", "16.22", "65.21", "25.98", "Labeled", "65.37", "61.06", "67.97", "64.33", "89.23", "49.88", "82.79", "62.25", "76.12", "13.91", "69.58", "23.19", "Metrics", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Dataset", "FFMPeg+Qemu", "Reveal", "SVulD"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 532.3199999999999,
+    "y1": 550.56,
+    "y2": 661.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Table5-1.png"
+}, {
+  "caption": "Table 3: Evaluation results of SCALE compared with vulnerability detection baselines on the three datasets. The shaded cells represent the performance of the best methods in each metric. Bold text cells represent the best performance. The results of statistical significance tests are listed in https://github.com/Xin-Cheng-Wen/Comment4Vul.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2060546875,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["SCALE", "66.18", "61.88", "68.69", "65.11", "90.02", "52.32", "78.69", "62.85", "87.63", "22.56", "57.03", "32.33", "Codellama-7B", "53.44", "46.20", "6.37", "11.20", "83.49", "8.23", "5.44", "6.55", "88.40", "3.84", "5.65", "4.57", "ChatGPT", "53.85", "49.72", "14.35", "22.28", "81.77", "9.52", "8.37", "8.91", "88.79", "14.38", "25.81", "18.47", "GPT-3.5-Instruct", "51.31", "47.03", "42.06", "44.41", "60.47", "9.60", "32.22", "14.79", "65.81", "7.26", "50.4", "12.69", "CodeBERT", "62.37", "61.55", "48.21", "54.07", "87.51", "43.63", "56.15", "49.10", "80.56", "14.33", "55.32", "22.76", "CodeT5", "63.36", "58.65", "68.61", "63.24", "89.53", "51.15", "54.51", "52.78", "78.73", "14.32", "62.36", "23.30", "UnixCoder", "65.19", "59.93", "59.98", "59.96", "88.48", "47.44", "68.44", "56.04", "77.54", "15.11", "72.24", "24.99", "EPVD", "63.03", "59.32", "62.15", "60.70", "88.87", "48.60", "63.93", "55.22", "76.75", "14.26", "69.58", "23.67", "LineVul", "62.37", "61.55", "48.21", "54.07", "87.51", "43.63", "56.15", "49.10", "80.57", "15.95", "64.45", "25.58", "SVulD", "-", "-", "-", "-", "-", "-", "-", "-", "86.99", "21.46", "56.84", "31.16", "Devign", "56.89", "52.50", "64.67", "57.95", "87.49", "31.55", "36.65", "33.91", "73.57", "9.72", "50.31", "16.29", "Reveal", "61.07", "55.50", "70.70", "62.19", "81.77", "31.55", "61.14", "41.62", "82.58", "12.92", "40.08", "19.31", "Metrics", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Acc", "Pre", "Rec", "F1", "Dataset", "FFMPeg+Qemu", "Reveal", "SVulD"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 539.04,
+    "y1": 127.67999999999999,
+    "y2": 344.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Table3-1.png"
+}, {
+  "caption": "Figure 4: An example of structured natural language comment in SCALE. The red and grey lines denote the original source code and structured natural language comment, respectively.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6476135253906,
+    "y1": 390.3661193847656,
+    "y2": 428.87298583984375
+  },
+  "figType": "Figure",
+  "imageText": ["return", "0;", "}", "pthread_mutex_init(&p->progress_mutex[i],", "NULL);", "...}}", "//", "Assign", "count", "to", "entries_count", "of", "p", "p->entries_count", "=", "count;", "...", "for", "([i", "=", "0;", "i", "<", "p->thread_count;", "i++])", "{", "for", "([Loop", "through", "thread_count", "number", "of", "times])", "{", "return", "AVERROR(ENOMEM);", "}", "return", "Return", "an", "error", "code", "if", "allocation", "failed;}", "if", "(!p->entries)", "{", "if", "(Check", "if", "allocation", "was", "successful)", "{", "int", "ff_alloc_entries(AVCodecContext", "*avctx,", "int", "count)", "{...", "if", "(avctx->active_thread_type", "&", "FF_THREAD_SLICE)", "{", "9-", "10+", "11", "12", "13", "1", "2", "3-", "4+", "5-", "6+", "7", "8"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 264.96,
+    "y2": 375.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The example of the comment tree and SCT. The black and red font denotes the node type and value, respectively. The yellow, green, blue, red, and gray-shaded nodes denote the original nodes, comment nodes, target nodes, nodes to replace, and deleted nodes, respectively.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.810546875,
+    "y1": 563.8740844726562,
+    "y2": 613.3399658203125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "An", "example", "of", "the", "SCT.", "F", "D", "E", "C", "call_expression", "AVERROR(ENOMEM);", "parenthesized_expression", "(!p->entries)", "return_statement", "if_statement", "Comment", "Return", "an", "error", "...", "Comment", "Check", "if", "allocation", "...", "AST", "node", "Deleted", "node", "Replacement", "node", "Target", "node", "Comment", "node", "{", "function_definition", "translation_unit", "Comment", "Function", "definition", "...", "AB", "compound_statement", "->", ";", "(", ")", "{", "}", "identifier", "field_identifier", "return", "field_expression", "unary_expression", "if", "compound_statement", "primitive_type", "function_declarator", "(a)", "An", "example", "of", "the", "comment", "tree.", ";", "translation_unit", "{", "{", "Comment", "Return", "an", "error", "...", "Comment", "Check", "if", "allocation", "...", "Comment", "Function", "definition", "...", "function_definition", "AB", "call_expression", "AVERROR(ENOMEM);", "parenthesized_expression", "(!p->entries)", "if_statement", "compound_statement", "->", "(", ")", "}", "node", "type", "node", "value", "return", "return_statement", "identifier", "field_identifier", "field_expression", "unary_expression", "if", "compound_statement", "primitive_type", "function_declarator"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 550.0799999999999,
+    "y1": 264.96,
+    "y2": 548.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Figure5-1.png"
+}, {
+  "caption": "Figure 3: The overview of SCALE.",
+  "captionBoundary": {
+    "x1": 238.28599548339844,
+    "x2": 373.7146301269531,
+    "y1": 238.89210510253906,
+    "y2": 244.52301025390625
+  },
+  "figType": "Figure",
+  "imageText": ["...", "(1)", "Comment", "Tree", "Construction", "(2)", "Structured", "Natural", "Language", "Comment", "Tree", "Construction", "(3)", "SCT-Enhanced", "Representation", "Structured", "Natural", "Language", "Comment", "Tree", "Syntax", "Templates", "Multimodel", "Fusion", "ClassificationComment", "Tree", "Structured", "Natural", "Language", "Rule", "AST", "Prompt", "Comment", "Source", "Code", "LLM"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 541.4399999999999,
+    "y1": 96.96,
+    "y2": 212.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652124-Figure3-1.png"
+}]

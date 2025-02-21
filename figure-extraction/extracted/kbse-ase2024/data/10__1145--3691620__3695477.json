@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 1: Comparison of state-of-the-art serverless resource configuration approaches.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1922607421875,
+    "y1": 77.22238159179688,
+    "y2": 93.81201171875
+  },
+  "figType": "Table",
+  "imageText": ["FaaSConf", "Kraken", "[7]", "StepConf", "[82]", "SIMPPO", "[67]", "ENSURE", "[75]", "Aquatope", "[96]", "ORION", "[51]", "FaaSDeliver", "[90]", "Q-Learning", "[72]", "COSE", "[1]", "SLAM", "[71]", "Sizeless", "[22]", "Approach", "Vertical", "Horizontal", "Concurrency", "Workflow"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 96.96,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Table1-1.png"
+}, {
+  "caption": "Figure 6: Architectures of used benchmark applications.",
+  "captionBoundary": {
+    "x1": 324.5329895019531,
+    "x2": 551.625244140625,
+    "y1": 440.6871032714844,
+    "y2": 446.3179931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Onnx", "(d)", "TcktApp", "(12-funcs)", "MongoDB", "sold-tickets", "traintype-", "traintypeid", "traintype-", "tripid", "route-routeid", "route-tripid", "price", "station", "travelsold-orders", "query-config", "left-ticket-", "interval", "left-trip-tickets", "If/else", "(a)", "Sequential", "(5-funcs)", "(c)", "Branch", "(7-funcs)(b)", "Parallel", "(6-funcs)", "rgbload", "updateresnet", "resize", "mobilenet", "rgb", "starter", "resnet", "resizeupdate", "mobilenet", "starter", "resnet", "resizeupdate", "starter", "load"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 558.24,
+    "y1": 276.0,
+    "y2": 433.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure6-1.png"
+}, {
+  "caption": "Figure 14: Impact of safe exploration strategy under twoworkflows. The dark red rectangle represents the area of QoS violations and ‘X’ means unavailable configuration.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6493225097656,
+    "y1": 435.39434814453125,
+    "y2": 462.9419860839844
+  },
+  "figType": "Figure",
+  "imageText": ["FaaSConf", "w/o", "SES", "FaaSConf", "w", "SES", "QoS", "violation", "xx", "x", "x", "x", "xx", "xx", "x", "x", "x", "xxxx", "xx", "x", "(a)", "Branch", "(b)", "Sequential"],
+  "name": "14",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 264.0,
+    "y2": 429.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure14-1.png"
+}, {
+  "caption": "Figure 13: The scaled cost of optimal resources configuration found by different RL algorithms in Sequential, Parallel and Branch workflows(lower is better).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04345703125,
+    "y1": 229.02932739257812,
+    "y2": 256.5780029296875
+  },
+  "figType": "Figure",
+  "imageText": ["Co", "st", "le", "d", ".", "S", "ca", "O", "pt", "Sequential", "Parallel", "Branch", "AttMF", "MF", "MADDPG", "DDPG"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 153.6,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure13-1.png"
+}, {
+  "caption": "Figure 3: (a) shows the latency on different hardware resource and concurrency in Sequential workflow. (b) shows the performance change rate of the tested functions caused by resources reconfiguration of other functions in Parallel workflow under different concurrent users.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6502685546875,
+    "y1": 182.58438110351562,
+    "y2": 232.04998779296875
+  },
+  "figType": "Figure",
+  "imageText": ["15", "users", "25", "users", "Memory（GB）", "Concurrency", "y（", "s）", "te", "nc", "(a)", "(b)", "La"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 84.96,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure3-1.png"
+}, {
+  "caption": "Figure 12: The scaled cost of optimal resources configuration of tuning hybrid resources and hardware resources in Sequential workflow under five concurrent users.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8046264648438,
+    "y1": 607.716064453125,
+    "y2": 635.2650146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Co", "st", "le", "d", ".S", "ca", "O", "pt", "10", "15", "20", "25", "30", "Firm", "tuning", "hardware", "resource", "Firm", "tuning", "hybrid", "resource"],
+  "name": "12",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 534.72,
+    "y2": 599.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure12-1.png"
+}, {
+  "caption": "Figure 11: Latency and throughput of hybrid resources configuration and hardware resources configuration for ML workflows.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.810302734375,
+    "y1": 501.703125,
+    "y2": 529.2520141601562
+  },
+  "figType": "Figure",
+  "imageText": ["Hybrid", "resource", "Hardware", "resource", "Sequential", "Parallel", "Branch", "Sequential", "Parallel", "Branch", "ut", "Th", "ro", "ug", "hp", "La", "te", "nc", "y(", "s)"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 558.24,
+    "y1": 434.88,
+    "y2": 494.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure11-1.png"
+}, {
+  "caption": "Figure 9: Performance comparison on QoS violations, latencies and costs under dynamic workloads during 85 minutes.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 356.4392395019531,
+    "y1": 186.4840850830078,
+    "y2": 203.073974609375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "QoS", "Violations", "Distribution", "(b)", "Latencies", "Distribution", "(c)", "Costs", "Distribution", "e", "Va", "lu", "iv", "e", "ul", "at", "Cu", "m", "Timeline(minutes)", "Timeline(minutes)", "Timeline(minutes)", "FaaSConf", "Firm", "RAMBO", "Aquatope"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 357.12,
+    "y1": 85.92,
+    "y2": 178.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure9-1.png"
+}, {
+  "caption": "Figure 10: The scaled cost and latency under relative low,middle andhighworkload that specified in Fig.7 and ‘X’ means QoS violation.",
+  "captionBoundary": {
+    "x1": 366.5260009765625,
+    "x2": 559.8062744140625,
+    "y1": 172.3061065673828,
+    "y2": 199.85498046875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)Low", "(b)Mid", "(c)High", "s)", "nc", "y(", "La", "te", "os", "t", "ed", "C", "Sc", "al", "x", "x", "x", "xx", "FaaSConf", "Firm", "RAMBO", "Aquatope", "QoS", "target"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 367.68,
+    "x2": 555.36,
+    "y1": 86.88,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure10-1.png"
+}, {
+  "caption": "Figure 4: The architecture of FaaSConf.",
+  "captionBoundary": {
+    "x1": 94.64099884033203,
+    "x2": 253.20285034179688,
+    "y1": 241.6350860595703,
+    "y2": 247.2659912109375
+  },
+  "figType": "Figure",
+  "imageText": ["7", "2", "Topology", "Descriptor", "A.M.", "Online", "Serving", "Offline", "Training", "1", "Weighted", "s", "&", "a", "Safe", "Act.", "FaaS", "Workflows", "3", "4", "5", "State", "6", "Res.", "Conf.", "Action", "Action", "Executor", "Metric", "Collector", "Controller", "Critic", "n...Critic", "0", "Actor", "0", "Actor", "n...", "Attention", "Module", "AttMF", "Function", "0", "Function", "n...", "Concurrent", "Req.", "...", "Container", "CL", "Replica", "Mem", "CPU", "Safe", "Boundary", "Data", "Metrics", "&", "Logs", "Data", "Store", "Safe", "Exploration", "Strategy"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Figure4-1.png"
+}, {
+  "caption": "Table 2: State-Action space of per agent in MARL.",
+  "captionBoundary": {
+    "x1": 337.9020080566406,
+    "x2": 537.9603881835938,
+    "y1": 77.2220687866211,
+    "y2": 82.85296630859375
+  },
+  "figType": "Table",
+  "imageText": ["Vertical", "Conf:", "Resource", "Limits", "(𝑅𝐿𝑇", "(𝑡)),", "Horizontal", "Conf:", "Number", "of", "Instances", "(𝑁𝐼", "(𝑡)),", "Concurrency", "Conf:", "Concurrency", "Limits", "(𝐶𝐿(𝑡))", "Action", "Space", "𝐴𝑡", "State", "Space", "𝑆𝑡", "Resource", "Utilization(𝑅𝑈", "(𝑡)),", "Function", "Performance(𝐹𝑃", "(𝑡)),", "Concurrent", "Requests(𝐶𝑅(𝑡)),", "Resource", "Limits", "(𝑅𝐿𝑇", "(𝑡)),", "Number", "of", "Instances", "(𝑁𝐼", "(𝑡)),", "Concurrency", "Limits", "(𝐶𝐿(𝑡))"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 85.92,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695477-Table2-1.png"
+}]

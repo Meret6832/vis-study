@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 3: Revealing the landscape of redundant test candidates: A summary of the static analysis result.",
+  "captionBoundary": {
+    "x1": 98.49600219726562,
+    "x2": 513.1913452148438,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["commons-collections", "230", "14", "93", "2", "14x", "3167", "(50%)", "6367", "commons-math", "251", "3", "17", "2", "3x", "866", "(21%)", "4036", "feign", "69", "4", "7", "2", "3x", "299", "(21%)", "1441", "shiro", "14", "5", "11", "2", "5x", "65", "(8%)", "822", "dubbo", "66", "4", "6", "2", "4x", "236", "(7%)", "3626", "biojava", "30", "3", "3", "2", "3x", "86", "(6%)", "1436", "avro", "31", "4", "5", "2", "4x", "122", "(3%)", "3984", "graphhopper", "44", "2", "3", "2", "2x", "98", "(3%)", "3347", "maven", "18", "2", "2", "2", "2x", "36", "(3%)", "1058", "shenyu", "1", "26", "26", "26", "26x", "26", "(3%)", "874", "zookeeper", "23", "2", "2", "2", "2x", "46", "(1%)", "3156", "pdfbox", "4", "3", "4", "2", "3x", "12", "(1%)", "1905", "iotdb", "5", "2", "2", "2", "2x", "10", "(1%)", "1618", "commons-lang", "3", "3", "3", "3", "3x", "9", "(<1%)", "6137", "rocketmq", "1", "2", "2", "2", "2x", "2", "(<1%)", "613", "Total", "790", "N/A", "N/A", "N/A", "6x", "5080", "(13%)", "40420", "Project", "Defined", "in", "Superclass", "Mean", "Max", "Min", "Multiplier", "Candidates", "Test", "Cases", "Inheritance-Induced", "Redundant", "Test", "Candidates", "#Unique", "Test", "Cases", "#Occurrence", "in", "various", "subclasses", "#Discovered", "#Total", "Executable"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 548.16,
+    "y1": 97.44,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639166-Table3-1.png"
+}, {
+  "caption": "Figure 1: Developers re-use test through inheritance to ease maintenance.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1927490234375,
+    "y1": 461.76934814453125,
+    "y2": 478.3580017089844
+  },
+  "figType": "Figure",
+  "imageText": ["AbstractOrdered", "BidiMapTestExtends", "+", "TestCase1()", "+", "TestCase2()", "AbstractBidiMapTest", "UnmodifiableSorted", "BidiMapTest", "AbstractSorted", "BidiMapTest", "DualTree", "BidiMap2Test", "Extends", "Extends", "Extends"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 360.0,
+    "x2": 516.0,
+    "y1": 345.59999999999997,
+    "y2": 447.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639166-Figure1-1.png"
+}, {
+  "caption": "Table 1: Analyzed repository characteristics.",
+  "captionBoundary": {
+    "x1": 84.11900329589844,
+    "x2": 263.4210205078125,
+    "y1": 625.6653442382812,
+    "y2": 631.2960205078125
+  },
+  "figType": "Table",
+  "imageText": ["Has", "at", "least", "one", "inheritance", "tree", "in", "the", "test", "code", "202", "No", "inheritance", "tree", "in", "the", "test", "code", "301", "Repository", "Inheritance", "Characteristics", "#Repositories"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 277.44,
+    "y1": 645.6,
+    "y2": 699.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639166-Table1-1.png"
+}, {
+  "caption": "Table 4: The prevalence of redundant tests and their impact on test execution time. Candidates refers to InheritanceInduced Redundant Test Candidates and Redundant refers to true redundant test cases.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7994384765625,
+    "y1": 85.72634887695312,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["45%", "14%", "Average", "%", "Redundancy", "in", "Candidates", "%", "Contribution", "to", "Execution", "Time", "Feign", "291", "291", "(100%)", "183.996", "146.428", "(79.6%)", "Commons-C.", "2677", "385", "(14%)", "16.076", "4.373", "(27.2%)", "Avro", "106", "87", "(82%)", "215.396", "36.988", "(17.2%)", "Shiro", "65", "30", "(46%)", "86.845", "13.696", "(15.8%)", "Commons-M.", "817", "415", "(51%)", "75.371", "5.377", "(7.1%)", "Rocketmq", "2", "2", "(100%)", "267.950", "1.974", "(0.7%)", "Pdfbox", "12", "8", "(67%)", "66.070", "0.257", "(0.4%)", "Biojava", "86", "63", "(73%)", "774.207", "2.615", "(0.3%)", "Iotdb", "10", "4", "(40%)", "1362.134", "3.540", "(0.3%)", "Maven", "36", "18", "(50%)", "48.927", "0.103", "(0.2%)", "Dubbo", "201", "99", "(49%)", "1322.386", "0.493", "(0.1%)", "Commons-L.", "9", "0", "N/A", "N/A", "Graphhopper", "92", "0", "N/A", "N/A", "Shenyu", "26", "0", "N/A", "N/A", "Zookeeper", "42", "0", "N/A", "N/A", "#", "Test", "Execution", "Test", "Execution", "Time", "(seconds)", "Project", "Candidates", "Redundant", "Total", "Tests", "Redundant"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 130.56,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639166-Table4-1.png"
+}, {
+  "caption": "Figure 3: Overlap between Redundant and Non-redundant Tests in Test Execution. The overlapping region (orange) indicates that an inherited test case is redundant in one subclass but non-redundant in another subclass. The one figures on the left correspond to five systems, while the two figures on the right correspond to the rest.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7935791015625,
+    "y1": 173.02236938476562,
+    "y2": 233.447021484375
+  },
+  "figType": "Figure",
+  "imageText": ["Non-Redundant", "Test", "Redundant", "Test", "386", "220", "Test", "Redundant", "Test", "Non-Redundant", "428", "1658588", "+", "1192"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 334.08,
+    "x2": 538.0799999999999,
+    "y1": 91.67999999999999,
+    "y2": 163.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639166-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Analysis of distance in the inheritance tree between the parent test case and the child test.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03466796875,
+    "y1": 255.48135375976562,
+    "y2": 272.07098388671875
+  },
+  "figType": "Figure",
+  "imageText": ["Distance", "1", "2", "3", "4", "5", "3917", "5", "156", "86", "297", "84", "450", "728", "640", "1223", "1000", "1200", "Fr", "eq", "ue", "nc", "y", "of", "E", "xe", "cu", "ta", "bl", "e", "Te", "st", "C", "as", "es", "735", "800", "600", "400", "200", "0", "from", "Superclass", "to", "Subclass", "Co-existence", "Not", "Redundant", "Redundant", "Distance", "between", "Inherited", "Test", "Cases"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 83.52,
+    "x2": 262.08,
+    "y1": 84.96,
+    "y2": 248.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639166-Figure4-1.png"
+}, {
+  "caption": "Table 2: Systems Studied and Their Inheritance Statistics.",
+  "captionBoundary": {
+    "x1": 58.134002685546875,
+    "x2": 289.4030456542969,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#Inheritance", "#Test", "classes", "constituted", "#Test", "classes", "within", "Project", "tree", "by", "inheritance", "tree", "entire", "codebase", "Commons-collections", "10", "206", "(85%)", "243", "Zookeeper", "6", "301", "(80%)", "378", "Avro", "46", "233", "(49%)", "478", "Maven", "13", "83", "(37%)", "227", "Shiro", "10", "45", "(36%)", "126", "Commons-math", "27", "124", "(31%)", "400", "Feign", "6", "30", "(28%)", "108", "Iotdb", "21", "110", "(25%)", "437", "Shenyu", "7", "133", "(16%)", "838", "Dubbo", "32", "122", "(14%)", "856", "Graphhopper", "11", "36", "(14%)", "252", "Rocketmq", "5", "23", "(11%)", "214", "Commons-lang", "6", "16", "(10%)", "161", "Pdfbox", "3", "17", "(8%)", "213", "Biojava", "3", "11", "(4%)", "259", "Total", "202", "1,691", "(31%)", "5,322"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 292.32,
+    "y1": 105.6,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639166-Table2-1.png"
+}]

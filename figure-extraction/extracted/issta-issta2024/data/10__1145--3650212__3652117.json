@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 4: Recall@1 comparison between CEBin-Cisco and CEBin-BinaryCorp of cross-optimization task on Trex dataset for poolsize=10,000.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0491943359375,
+    "y1": 87.06208801269531,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Average", "0.906", "0.934", "↑", "0.028", "x86", "0.907", "0.948", "↑", "0.041", "x64", "0.889", "0.945", "↑", "0.056", "MIPS32", "0.851", "0.885", "↑", "0.034", "MIPS64", "1.000", "1.000", "−", "ARM32", "0.862", "0.909", "↑", "0.047", "ARM64", "0.925", "0.917", "↓", "0.008", "BinaryCorp", "CEBin-", "Cisco", "Architecture", "Model", "ImprovementCEBin-"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 274.08,
+    "y1": 127.67999999999999,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Table4-1.png"
+}, {
+  "caption": "Table 5: Inference speed (seconds) of GNN, Trex, CEBin-E and CEBin on various poolsize.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0458984375,
+    "y1": 247.1720733642578,
+    "y2": 262.426025390625
+  },
+  "figType": "Table",
+  "imageText": ["CEBin", "2.717", "2.772", "2.898", "3.105", "GNN", "0.004", "0.004", "0.012", "0.037", "Trex", "0.018", "0.018", "0.050", "0.182", "CEBin-E", "0.807", "0.814", "0.887", "1.034", "100", "10,000", "1,000,000", "4,000,000", "Model", "Poolsize"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 259.2,
+    "y1": 277.44,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Table5-1.png"
+}, {
+  "caption": "Table 1: Comparison between CEBin and baselines for the cross-optimization task on BinaryCorp-3M (Poolsize=10,000)",
+  "captionBoundary": {
+    "x1": 67.94296264648438,
+    "x2": 543.76123046875,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["CEBin", "0.850", "0.886", "0.953", "0.903", "0.927", "0.895", "0.902", "0.776", "0.826", "0.920", "0.839", "0.874", "0.834", "0.845", "CEBin-E", "0.787", "0.874", "0.924", "0.858", "0.909", "0.893", "0.874", "0.710", "0.818", "0.885", "0.795", "0.863", "0.842", "0.819", "jTrans", "0.475", "0.663", "0.731", "0.539", "0.665", "0.664", "0.623", "0.376", "0.580", "0.661", "0.443", "0.586", "0.585", "0.571", "Trex", "0.118", "0.477", "0.731", "0.148", "0.511", "0.513", "0.416", "0.073", "0.388", "0.665", "0.088", "0.422", "0.436", "0.345", "SAFE", "0.127", "0.345", "0.643", "0.147", "0.321", "0.377", "0.320", "0.068", "0.247", "0.575", "0.079", "0.221", "0.283", "0.246", "Asm2Vec", "0.072", "0.449", "0.669", "0.083", "0.409", "0.510", "0.366", "0.046", "0.367", "0.589", "0.052", "0.332", "0.426", "0.302", "GNN", "0.048", "0.197", "0.643", "0.061", "0.187", "0.214", "0.225", "0.036", "0.155", "0.592", "0.041", "0.146", "0.175", "0.191", "GraphEmb", "0.087", "0.217", "0.486", "0.110", "0.195", "0.222", "0.219", "0.050", "0.154", "0.447", "0.063", "0.135", "0.166", "0.169", "OrderMatters", "0.062", "0.319", "0.600", "0.075", "0.260", "0.233", "0.263", "0.040", "0.248", "0.535", "0.040", "0.178", "0.158", "0.200", "Models", "O0,O3", "O1,O3", "O2,O3", "O0,Os", "O1,Os", "O2,Os", "Average", "O0,O3", "O1,O3", "O2,O3", "O0,Os", "O1,Os", "O2,Os", "Average", "Genius", "0.041", "0.193", "0.596", "0.049", "0.186", "0.224", "0.214", "0.028", "0.153", "0.538", "0.032", "0.146", "0.180", "0.179", "Gemini", "0.037", "0.161", "0.416", "0.049", "0.133", "0.195", "0.165", "0.024", "0.122", "0.367", "0.030", "0.099", "0.151", "0.132", "MRR", "Recall@1"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 542.4,
+    "y1": 106.08,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Table1-1.png"
+}, {
+  "caption": "Figure 10: The Vulnerability Search Results of CEBin and Trex. This gure represents the distribution of recall values of di erent methods. The dashed lines show the mean recall of di erent models.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2022705078125,
+    "y1": 243.7450714111328,
+    "y2": 280.9169921875
+  },
+  "figType": "Figure",
+  "imageText": ["GNN", "Trex", "CEBin", "CEBin:", "85.46%", "Trex:", "15.89%", "GNN:", "16.85%", "nt", "C", "ou", "70", "60", "50", "40", "30", "20", "10", "0", "0.0", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "Recall"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 347.03999999999996,
+    "x2": 529.4399999999999,
+    "y1": 89.75999999999999,
+    "y2": 228.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Figure10-1.png"
+}, {
+  "caption": "Figure 5: The performance of di erent binary similarity detection methods on BinaryCorp. The x-axis is logarithmic and denotes the poolsize.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.803955078125,
+    "y1": 516.7650756835938,
+    "y2": 542.97802734375
+  },
+  "figType": "Figure",
+  "imageText": ["GNN", "Gemini", "SAFE", "OrderMatters", "GraphEmb", "GMN", "Trex", "Asm2Vec", "CEBin", "CEBin-E", "jTrans", "(O2,Os)", "1", "2", "3", "4", "log10", "(Poolsize)", "(O1,Os)", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0", "1", "2", "3", "4", "log10", "(Poolsize)", "(O2,O3)", "(O0,Os)", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0", "(O0,O3)", "(O1,O3)", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.32,
+    "x2": 548.16,
+    "y1": 189.6,
+    "y2": 507.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Figure5-1.png"
+}, {
+  "caption": "Table 3: Results of di erent binary similarity detection approaches on Trex (poolsize=10,000)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6524658203125,
+    "y1": 192.83607482910156,
+    "y2": 208.09002685546875
+  },
+  "figType": "Table",
+  "imageText": ["CEBin", "0.911", "0.933", "0.911", "0.882", "0.906", "0.870", "Trex", "0.142", "0.218", "0.175", "0.065", "0.123", "0.107", "GNN", "0.163", "0.148", "0.151", "0.145", "0.102", "0.109", "CEBin-E", "0.612", "0.646", "0.576", "0.509", "0.553", "0.474", "Models", "XA", "XO", "XA+XO", "XA", "XO", "XA+XO", "MRR", "Recall@1"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 278.4,
+    "y1": 222.72,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Table3-1.png"
+}, {
+  "caption": "Figure 2: The Work ow of CEBin.",
+  "captionBoundary": {
+    "x1": 107.11299896240234,
+    "x2": 240.7298126220703,
+    "y1": 201.7440948486328,
+    "y2": 206.03900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Reusable", "Embedding", "Cache", "Mechanism", "Final", "Selection", "Comparison", "Model", "Top-K", "Retrieval", "Pre-trained", "Model", "Embedding", "Model"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 72.48,
+    "x2": 275.03999999999996,
+    "y1": 102.72,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Figure2-1.png"
+}, {
+  "caption": "Figure 6: The performance of di erent binary similarity detection methods on Cisco Dataset. The x-axis is logarithmic and denotes for the poolsize.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6469421386719,
+    "y1": 398.03411865234375,
+    "y2": 424.24700927734375
+  },
+  "figType": "Figure",
+  "imageText": ["CEBin", "CEBin-E", "GMN", "Trex", "GNN", "XA+XC+XO", "2", "4", "6", "8", "10", "12", "log2", "(Poolsize)", "XC+XO", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0", "2", "4", "6", "8", "10", "12", "log2", "(Poolsize)", "XO", "XA+XO", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0", "XA", "XC", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 284.15999999999997,
+    "y1": 84.0,
+    "y2": 388.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The performance of di erent binary similarity detection methods on Trex Dataset. The x-axis is logarithmic and denotes for the poolsize.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6469421386719,
+    "y1": 656.4220581054688,
+    "y2": 682.635009765625
+  },
+  "figType": "Figure",
+  "imageText": ["CEBin", "CEBin-E", "GMN", "GNN", "Trex", "XA+XO", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0", "2", "4", "6", "8", "10", "12", "log2", "(Poolsize)", "XO", "2", "4", "6", "8", "10", "12", "log2", "(Poolsize)", "XA", "1", "Re", "ca", "ll@", "1.0", "0.8", "0.6", "0.4", "0.2", "0"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 278.4,
+    "y1": 433.91999999999996,
+    "y2": 646.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Figure7-1.png"
+}, {
+  "caption": "Figure 3: The illustration of ne-tuning phase for CEBin. In stage 1, semantically equivalent function pairs (&8 , '8 ) are encoded with query encoder and the reference encoder respectively. The corresponding pairs (&8 , '8 ) are considered as positive pairs. And other pairs (&8 , ' 9 )8≠9 along with all pairs (&8 , ' ′ 9 ) containing previous reference functions in the Resuable Embedding Cache are considered as negative paris. The InfoNCELoss is calcuated given positive pairs and massive negative pairs. The loss is back-propagated to update query encoder and momentum is used to update the refernece encoder. In stage 2, pairs of functions are feed into model simultaneously after concatenation. (&8 , '8 ) is considered as a positive pair and (&8 , '8+1) is considered as a negative pair. Then we use the triple loss to train the comparison model.",
+  "captionBoundary": {
+    "x1": 53.44879913330078,
+    "x2": 559.7385864257812,
+    "y1": 335.6040954589844,
+    "y2": 406.7309875488281
+  },
+  "figType": "Figure",
+  "imageText": ["TripletLoss", "Gradient", "Q2", "R3", "Negative", "Pairs", "Q1", "R2", "...", "Qn", "R1", "Q2", "R2", "Positive", "Pairs", "Q1", "R1", "...", "Qn", "Rn", "Concatenation", "Comparison", "Model", "Rn", "R'", "1", "R'", "L-n...R1", "...", "Updated", "Reusable", "Embedding", "Cache", "Reusable", "Embedding", "Cache", "R1", "R2", "...", "Rn", "...", "R'LR'1", "R'2", "R'3", "...", "Qn", "Q2", "Q1", "...", "...", "...", "...", "...", "...", "...", "Qn·R", "'", "LQn·R1", "Qn·R2", "...", "Qn·Rn", "Qn·R", "'", "1", "Qn·R", "'", "2", "Qn·R", "'", "3", "...", "...", "...", "Q2·R1", "Q2·R2", "...", "Q2·Rn", "Q2·R", "'", "1", "Q2·R", "'", "2", "Q2·R", "'", "3", "Q1·R1", "Q1·R2", "...", "Q1·Rn", "Q1·R", "'", "1", "Q1·R", "'", "2", "Q1·R", "'", "3", "Q2·R", "'", "L", "Q1·R", "'", "L", "...", "...", "Stage", "1:", "Embedding", "Model", "Training", "Stage", "2:", "Comparison", "Model", "Training", "Reference", "Function", "Query", "Function", "InfoNCELoss", "Gradient", "Embedding", "Model", "Reference", "Encoder", "Reference", "Function", "Query", "Function", "Query", "Encoder"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 93.6,
+    "x2": 512.16,
+    "y1": 84.0,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652117-Figure3-1.png"
+}]

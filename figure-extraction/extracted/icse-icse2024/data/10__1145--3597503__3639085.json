@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 1: A common programming scenario during software development. A developer first constructs the query in NL or code, and then uses it to find similar code in the search engine or code base, which instructs the developer to program.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 558.3882446289062,
+    "y1": 403.5836181640625,
+    "y2": 440.8128967285156
+  },
+  "figType": "Figure",
+  "imageText": ["Code", "context", "Similar", "code", "get", "data", "from", "database", "?", "Guide", "STEP❹:", "Using", "it", "to", "guide", "programming", "how", "to", "get", "data", "from", "database", "STEP❸", ":", "Searching", "for", "similar", "code"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 271.68,
+    "y2": 388.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Figure1-1.png"
+}, {
+  "caption": "Table 4: Results for general DL models on line-level code completion (RQ1).",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.2006225585938,
+    "y1": 368.43353271484375,
+    "y2": 383.74578857421875
+  },
+  "figType": "Table",
+  "imageText": ["DL-based", "20.2", "24.8", "↑22.8", "22.6", "↑11.9", "30.1", "↑49.0", "46.8", "50.2", "↑7.3", "48.7", "↑4.1", "53.8", "↑15.0", "IR-based", "25.1", "↑24.3", "20.7", "↑2.5", "30.0", "↑48.5", "50.5", "↑7.9", "47.3", "↑1.1", "53.8", "↑15.0", "Avg.", "DL-based", "18.4", "22.6", "20.6", "28.1", "↑52.7", "45.1", "48.6", "47.1", "52.2", "↑15.7", "IR-based", "23.5", "18.8", "28.3", "↑53.8", "49.1", "45.7", "52.5", "↑16.4", "Tr-XL", "DL-based", "22.0", "26.9", "24.6", "32.1", "↑45.9", "48.5", "51.7", "50.3", "55.3", "↑14.0", "IR-based", "26.6", "22.6", "31.7", "↑44.1", "51.8", "48.8", "55.0", "↑13.4", "CodeGPT", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "BLEU-4", "(%)", "ES", "(%)", "Model", "Retriever", "Line-Level", "Code", "Completion:", "Python", "DL-based", "23.2", "——", "26.2", "↑12.9", "30.6", "↑31.9", "49.8", "——", "52.3", "↑5.0", "55.0", "↑10.4", "IR-based", "28.2", "↑21.6", "23.8", "↑2.6", "30.9", "↑33.2", "53.6", "↑7.6", "50.3", "↑1.0", "55.2", "↑10.8", "Avg.", "DL-based", "20.1", "——", "23.6", "27.4", "↑36.3", "47.1", "——", "50.3", "52.4", "↑11.3", "IR-based", "25.5", "21.3", "28.5", "↑41.8", "51.4", "48.2", "53.2", "↑13.0", "Tr-XL", "DL-based", "26.3", "——", "28.7", "33.8", "↑28.5", "52.5", "——", "54.3", "57.5", "↑9.5", "IR-based", "30.9", "26.2", "33.3", "↑26.6", "55.7", "52.4", "57.2", "↑9.0", "CodeGPT", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "BLEU-4", "(%)", "ES", "(%)", "Model", "Retriever", "Line-Level", "Code", "Completion:", "Java"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 397.91999999999996,
+    "y2": 528.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table4-1.png"
+}, {
+  "caption": "Table 3: Results for general DL models on token-level code completion (RQ1). “Ori.”: original models (w/o retrieval). Bold numbers: best values of the corresponding metric. “↑X”: relative improvements over the original models. We omit some non-highest improvements for conciseness. Percentage before token type: the proportion of tokens belonging to this type.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 558.2137451171875,
+    "y1": 87.00399017333984,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "DL-based", "52.5", "55.5", "↑5.7", "54.9", "↑4.6", "57.3", "↑9.1", "29.7", "34.7", "↑16.8", "33.8", "↑13.8", "37.3", "↑25.4", "72.4", "73.2", "↑1.1", "73.8", "↑1.9", "74.9", "↑3.6", "65.8", "67.2", "67.4", "↑4.3", "IR-based", "55.8", "↑6.3", "54.0", "↑2.9", "57.2", "↑9.0", "35.3", "↑18.9", "32.3", "↑8.8", "37.4", "↑25.8", "74.0", "↑2.2", "73.7", "↑1.8", "75.7", "↑4.6", "15.8", "16.1", "↑7.3", "15.9", "64.6", "LSTM", "DL-based", "43.0", "44.2", "44.2", "44.3", "↑3.0", "15.0", "73.9", "73.6", "76.0", "↑3.8", "IR-based", "44.1", "43.9", "44.2", "↑2.8", "16.0", "↑6.7", "16.0", "↑6.7", "15.9", "66.3", "67.0", "67.6", "↑4.6", "56.3", "55.8", "59.0", "↑12.0", "29.3", "36.1", "35.3", "40.2", "↑37.2", "73.2", "DL-based", "52.7", "IR-based", "57.4", "54.8", "59.2", "↑12.3", "37.7", "33.6", "40.6", "↑38.6", "75.5", "74.2", "76.8", "↑4.9", "TFM", "37.8", "36.6", "41.5", "↑33.0", "74.1", "73.7", "75.2", "75.9", "↑2.4", "Tr-XL", "DL-based", "53.7", "57.3", "56.6", "60.0", "↑11.7", "31.2", "79.2", "79.1", "80.4", "↑3.7", "IR-based", "58.1", "55.7", "60.2", "↑12.1", "39.5", "34.7", "42.5", "↑36.2", "75.2", "75.3", "77.9", "↑5.1", "64.3", "63.1", "65.8", "↑8.6", "43.3", "48.9", "47.2", "51.4", "↑18.7", "77.5", "DL-based", "60.6", "IR-based", "63.5", "61.5", "65.2", "↑7.6", "47.8", "44.7", "50.5", "↑16.6", "78.8", "78.3", "80.3", "↑3.6", "CodeGPT", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Overall", "Acc.(%)", "∼36%", "Identifier", "Acc.(%)", "∼26%", "Separator", "Acc.(%)", "Model", "Retriever", "——", "81.5", "↑1.2", "81.5", "↑1.2", "Token-Level", "Code", "Completion:", "Python", "——", "62.8", "↑2.8", "63.7", "↑4.3", "33.2", "——", "36.1", "↑8.7", "37.8", "↑13.9", "80.5", "DL-based", "61.1", "IR-based", "63.5", "↑3.9", "61.7", "↑1.0", "63.7", "↑4.3", "37.2", "↑12.0", "34.2", "↑3.0", "37.9", "↑14.2", "81.6", "↑1.4", "80.9", "↑0.5", "81.5", "↑1.2", "Avg.", "——", "78.1", "↑1.0", "77.7", "13.3", "——", "14.7", "↑10.5", "14.7", "↑10.5", "77.3", "LSTM", "DL-based", "52.1", "——", "53.2", "↑2.1", "53.0", "——", "81.3", "81.4", "↑1.2", "IR-based", "53.1", "↑1.9", "52.3", "53.1", "↑1.9", "14.8", "↑11.3", "13.9", "14.7", "78.3", "↑1.3", "77.6", "78.0", "——", "63.6", "64.9", "↑5.5", "34.8", "——", "38.8", "41.2", "↑18.4", "80.4", "DL-based", "61.5", "IR-based", "64.8", "62.3", "65.0", "↑5.7", "40.6", "36.4", "41.7", "↑19.8", "81.5", "↑1.4", "80.6", "81.5", "↑1.4", "TFM", "——", "39.5", "41.8", "↑17.1", "80.7", "————", "81.8", "82.1", "↑1.7", "Tr-XL", "DL-based", "62.1", "——", "64.2", "65.5", "↑5.5", "35.7", "——", "84.6", "84.8", "↑1.4", "IR-based", "65.3", "62.9", "65.5", "↑5.5", "41.4", "37.4", "42.4", "↑18.8", "81.9", "↑1.5", "81.0", "81.8", "——", "70.2", "71.3", "↑3.9", "48.9", "——", "51.3", "53.4", "↑9.2", "83.6", "DL-based", "68.6", "IR-based", "70.7", "69.1", "71.0", "↑3.5", "51.9", "49.0", "52.8", "↑8.0", "84.7", "84.3", "84.8", "↑1.4", "CodeGPT", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Overall", "Acc.(%)", "∼32%", "Identifier", "Acc.(%)", "∼46%", "Separator", "Acc.(%)", "Model", "Retriever", "Token-Level", "Code", "Completion:", "Java"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 127.67999999999999,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table3-1.png"
+}, {
+  "caption": "Table 5: Results for LLMs on code generation (RQ2).",
+  "captionBoundary": {
+    "x1": 333.08758544921875,
+    "x2": 542.77587890625,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["DL-based", "11.3", "16.0", "↑41.6", "16.3", "↑44.2", "24.0", "↑112.4", "23.4", "26.7", "↑14.1", "27.7", "↑18.4", "34.0", "↑45.3", "IR-based", "18.5", "↑63.7", "14.7", "↑30.1", "24.9", "↑119.9", "30.4", "↑29.9", "27.5", "↑17.5", "34.6", "↑47.9", "Avg.", "(text-davinci-003)", "DL-based", "11.9", "15.8", "16.3", "23.8", "↑100.0", "23.2", "26.4", "27.7", "34.5", "↑48.7", "IR-based", "18.8", "15.1", "25.0", "↑110.0", "31.1", "28.4", "35.5", "↑53.0GPT-3.5", "(gpt-3.5-turbo)", "DL-based", "10.7", "16.2", "16.3", "24.2", "↑126.2", "23.6", "27.0", "27.7", "33.5", "↑41.9", "IR-based", "18.1", "14.3", "24.7", "↑130.8", "29.7", "26.5", "33.7", "↑42.8ChatGPT", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "BLEU-4", "(%)", "CodeBLEU", "(%)", "Model", "Retriever", "Body-Level", "Code", "Generation:", "Python", "DL-based", "22.2", "——", "23.6", "↑6.3", "30.7", "↑38.6", "34.8", "——", "35.6", "↑2.3", "41.9", "↑20.4", "IR-based", "24.2", "↑9.0", "22.0", "30.8", "↑39.1", "37.2", "↑6.9", "35.8", "↑2.9", "41.9", "↑20.4", "Avg.", "(text-davinci-003)", "DL-based", "24.2", "——", "24.5", "31.5", "↑30.2", "35.3", "——", "35.8", "42.1", "↑19.3", "IR-based", "24.5", "23.3", "32.0", "↑32.2", "37.5", "36.3", "41.9", "↑18.7GPT-3.5", "(gpt-3.5-turbo)", "DL-based", "20.1", "——", "22.7", "29.9", "↑48.8", "34.2", "——", "35.3", "41.6", "↑21.6", "IR-based", "23.9", "20.6", "29.6", "↑47.3", "36.9", "35.3", "41.8", "↑22.2ChatGPT", "Ori.", "Header2Code", "NL2Code", "NL2NL", "Ori.", "Header2Code", "NL2Code", "NL2NL", "BLEU-4", "(%)", "CodeBLEU", "(%)", "Model", "Retriever", "Body-Level", "Code", "Generation:", "Java"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table5-1.png"
+}, {
+  "caption": "Figure 5: Examples of code snippets generated by zero-shot ChatGPT and retrieval-augmented ChatGPT. We omit the non-code text in the prompts for conciseness.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 558.2021484375,
+    "y1": 253.27529907226562,
+    "y2": 279.54656982421875
+  },
+  "figType": "Figure",
+  "imageText": [".replace(\"&\",", "\"&amp;\")", ".replace(\"<\",", "\"&lt;\")", ".replace(\">\",", "\"&gt;\")", ".replace(\"'\",", "\"&#39;\")", ".replace('\"',", "\"&quot;\")", ".replace(\"", "\",", "\"&nbsp;", "\")", ".replace(\"", "\",", "\"&nbsp;", "\")", ")", "def", "escape(t):", "t", "=", "str(t)", "t", "=", "t.replace('&',", "'&amp;')", "t", "=", "t.replace('<',", "'&lt;')", "t", "=", "t.replace('>',", "'&gt;')", "t", "=", "t.replace('\"',", "'&quot;')", "t", "=", "t.replace(\"'\",", "'&#39;')", "return", "t", "def", "escape(t):", "return", "(t", ".replace('<',", "'&lt;’)", "def", "escape(t):", "return", "t.replace('&',", "'&amp;’)", "if", "c", "==", "\"<\":", "result", "+=", "\"&lt;\"", "elif", "c", "==", "\">\":", "result", "+=", "\"&gt;\"", "elif", "c", "==", "\"&\":", "result", "+=", "\"&amp;\"", "else:", "result", "+=", "c", "def", "escape(t):", "result", "=", "\"\"", "for", "c", "in", "t:", "Retrieval-augmented", "ChatGPTGround", "truth", "ChatGPT", "(zero-shot)", "Searched", "exemplar"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Figure5-1.png"
+}, {
+  "caption": "Table 8: The time costs of different retrievers to search for similar code.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.2351379394531,
+    "y1": 87.00399017333984,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["N/A:", "The", "details", "of", "the", "time", "for", "training", "are", "not", "available", "and", "we", "do", "not", "retrain", "or", "fine-tune", "these", "retrievers.", "CodeBERT", "2h", "33m", "4s", "5h", "36m", "14s", "0.03s", "Sentence-BERT", "N/A", "55m", "5s", "0.02s", "Lucene", "——", "3m", "5s", "0.02s", "ReACC-retriever", "N/A", "5h", "45m", "26s", "0.03s", "Training", "Indexing", "Searching", "Tool", "Time", "cost"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 292.32,
+    "y1": 116.64,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table8-1.png"
+}, {
+  "caption": "Table 1: The search strategies and retrieval approaches we use.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.2008056640625,
+    "y1": 87.00399017333984,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["NL2NL", "Sentence-BERT", "NL2Code", "CodeBERT", "ReACC-retriever", "Lucene", "Header2Code", "Strategy", "IR-based", "DL-based"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 556.3199999999999,
+    "y1": 116.64,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table1-1.png"
+}, {
+  "caption": "Figure 4: The performance of ChatGPT with NL2NL search strategy using different numbers of exemplars.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 558.2039184570312,
+    "y1": 476.9258117675781,
+    "y2": 492.23699951171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 312.96,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Figure4-1.png"
+}, {
+  "caption": "Table 6: Results of different prompt templates for ChatGPT with and without our framework in RQ3. Bold numbers: Values ranking top 3 in the column.",
+  "captionBoundary": {
+    "x1": 53.449100494384766,
+    "x2": 295.1855163574219,
+    "y1": 87.00399017333984,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["Det.:", "Using", "detailed", "(with", "“", "”)", "or", "brief", "instruction", "(without", "“", "”)", "Exp.:", "Using", "explicit", "(with", "“", "”)", "or", "implicit", "instruction", "(without", "“", "”).", "Ts.:", "Using", "two-step", "(with", "“", "”)", "or", "one-step", "instruction", "(without", "“", "”).", "33.4", "20.6", "47.0", "37.0", "32.9", "20.6", "47.5", "37.6", "34.5", "21.5", "45.8", "34.0", "30.1", "21.6", "43.6", "33.8", "29.7", "22.3", "44.5", "36.6", "34.1", "22.0", "47.5", "36.4", "33.7", "20.8", "44.9", "34.5", "32.5", "21.1", "44.3", "34.3", "Det.", "Exp.", "Ts.", "w/", "w/o", "w/", "w/o", "Feature", "BLEU-4", "(%)", "CodeBLEU", "(%)"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 127.67999999999999,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table6-1.png"
+}, {
+  "caption": "Figure 3: The illustration of the different prompt templates. The left prompt template is “detailed, explicit and two-step”, and the right one is “brief, implicit and single-step.”",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 559.7349243164062,
+    "y1": 260.7293395996094,
+    "y2": 287.00048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Implicit", "Implicit", "Implicit", "One-step", "Explicit", "One-step", "Brief", "Explicit", "Explicit", "Two-step", "Two-step", "Detailed"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 558.24,
+    "y1": 84.47999999999999,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Figure3-1.png"
+}, {
+  "caption": "Figure 2: Overview of our code suggestion framework. It consists of a Retriever, a Formulator, and a Generator. The retriever uses queries in NL or code to find similar code, with IR-based or DL-based code search tools utilizing different search strategies. Then the formulator combines retrieved code and the code context according to the specific task (i.e., code completion or code generation). Finally, the generator makes code predictions at different levels using LMs.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 559.7418823242188,
+    "y1": 283.9844055175781,
+    "y2": 321.214599609375
+  },
+  "figType": "Figure",
+  "imageText": ["fetch", "data", "from", "database", "Instruction", "Code", "Context", "Similar", "CodeSimilar", "Code", "General", "DL", "Models", "Large", "Language", "Models", "Body", "Level", "Code", "Generation", "Token", "/", "Line-Level", "Code", "Completion", "Prompt", "Template", "Filling", "Concatenation", "IR/DL-based", "Code", "Search", "❸", "❷", "❶", "❸", "NL2NL", "❷", "NL2Code", "❶", "Header2Code", "Idx", "Search", "Strategy", "Database", "Comment", "B", "Comment", "A", "Code", "Comment", "Comment", "Header", "FormulatorRetriever", "Generator", "Source", "context"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 556.3199999999999,
+    "y1": 84.96,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Figure2-1.png"
+}, {
+  "caption": "Table 7: Results of NL-to-code generation. We use the IRbased code search tool and NL2NL strategy for retrieval. Bold numbers: best values in the columns. EM: exact match, which is the proportion of predictions that exactly match the ground truth.",
+  "captionBoundary": {
+    "x1": 317.6055908203125,
+    "x2": 559.8104248046875,
+    "y1": 87.00399017333984,
+    "y2": 135.19317626953125
+  },
+  "figType": "Table",
+  "imageText": ["employ", "complicated", "models", "and", "algorithms,", "rendering", "them", "dif-", "ficult", "to", "transfer", "to", "other", "systems.", "(2)", "Our", "framework", "employs", "a", "separate", "large-scale", "retrieval", "codebase", "which", "allows", "the", "genera-", "tor", "to", "learn", "semantic", "relationships", "between", "similar", "code", "pairs", "in", "the", "training", "phrase.", "(3)", "Our", "framework", "only", "requires", "the", "genera-", "tor", "to", "handle", "the", "code-to-code", "generation", "task,", "whereas", "existing", "approaches", "typically", "need", "to", "learn", "both", "code", "and", "NL.", "Such", "pro-", "cess", "may", "also", "weaken", "their", "generality.", "CodeGPT", "(w/", "retrieval)", "19.6", "78.4", "79.2", "85.4", "ReCode", "[17]", "19.6", "78.4", "72.8", "84.7", "REDCODER", "[48]", "21.2", "80.1", "——", "——", "CodeGPT", "(w/o", "retrieval)", "15.2", "80.9", "76.5", "82.9", "EM", "BLEU-4", "EM", "BLEU-4", "Hearthstone", "Django", "Model"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 560.16,
+    "y1": 149.76,
+    "y2": 338.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table7-1.png"
+}, {
+  "caption": "Table 2: Statistics of the datasets.",
+  "captionBoundary": {
+    "x1": 107.39119720458984,
+    "x2": 240.15675354003906,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["#", "Avg.", "tokens", "in", "code", "97.9", "92.2", "77.2", "90.3", "#", "Avg.", "tokens", "in", "comment", "13.2", "11.3", "10.4", "8.1", "#", "Methods", "in", "train", "147,418", "82,143", "10,482,463", "2,841,300#", "Methods", "in", "valid", "5,150", "4,169", "#", "Methods", "in", "test", "10,729", "5,894", "Dataset", "CodeXGLUE", "CodeMatcher", "PyTorrent", "Language", "Java", "Python", "Java", "Python", "Generator", "Retriever"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639085-Table2-1.png"
+}]

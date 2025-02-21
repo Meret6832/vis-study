@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 1: Bilateral generalization experiments transferring from HDFS to BGL. For our MetaLog, only 1% BGL labels are used in the training stage with the meta-learning technique.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 558.200927734375,
+    "y1": 87.00399017333984,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["(d1)", "PLELog", "[43]", "Zero-shot", "testing", "on", "BGL,", "trained", "by", "HDFS", "38.80", "99.87", "55.89", "(d2)", "LogRobust", "[47]", "Zero-shot", "testing", "on", "BGL,", "trained", "by", "HDFS", "39.08", "93.67", "55.15", "(d3)", "NeuralLog", "[25]", "Zero-shot", "testing", "on", "BGL,", "trained", "by", "HDFS", "57.23", "52.79", "54.38", "(d4)", "PCA", "[9,", "43]", "Zero-shot", "testing", "on", "BGL,", "trained", "by", "HDFS", "27.13", "14.97", "19.29", "(e1)", "PLELog", "[43]", "Zero-shot", "testing", "on", "BGL,", "trained", "by", "HDFS", "with", "TCA", "43.33", "86.34", "57.70", "(e2)", "LogRobust", "[47]", "Zero-shot", "testing", "on", "BGL,", "trained", "by", "HDFS", "with", "TCA", "37.72", "83.99", "52.06", "(f1)", "LogTAD", "[14]", "Unsupervised", "transfer-learning", "based", "method", "78.01", "68.51", "72.95", "(f2)", "LogTransfer", "[3]", "Supervised", "transfer-learning", "based", "method", "74.42", "76.73", "75.56", "Ours", "MetaLog", "Supervised", "meta-learning", "based", "method", "96.89", "89.28", "92.93", "(c)", "DeepLog", "[6]", "Unpervised", "by", "BGL", "normal", "labels", "66.13", "48.79", "56.16", "(a1)", "PLELog", "[43]", "Semi-supervised", "by", "1%", "anomaly", "BGL", "labels", "82.10", "67.42", "74.04", "(a2)", "LogRobust", "[47]", "Supervised", "by", "1%", "anomaly", "BGL", "labels", "94.60", "72.95", "82.38", "(b1)", "PLELog", "[43]", "Semi-supervised", "by", "100%", "anomaly", "BGL", "labels", "94.88", "89.62", "92.18", "(b2)", "LogRobust", "[47]", "Supervised", "by", "100%", "anomaly", "BGL", "labels", "97.52", "91.27", "94.29", "Method", "Setting", "Precision", "Recall", "F1-score"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 516.0,
+    "y1": 118.56,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Table1-1.png"
+}, {
+  "caption": "Table 2: Bilateral generalization experiments transferring from BGL to HDFS. For our MetaLog, only 1% HDFS labels are used in the training stage with the meta-learning technique.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 558.2003173828125,
+    "y1": 290.4654235839844,
+    "y2": 305.777587890625
+  },
+  "figType": "Table",
+  "imageText": ["(d1)", "PLELog", "[43]", "Zero-shot", "testing", "on", "HDFS,", "trained", "by", "BGL", "1.69", "92.85", "3.32", "(d2)", "LogRobust", "[47]", "Zero-shot", "testing", "on", "HDFS,", "trained", "by", "BGL", "2.25", "62.12", "4.35", "(d3)", "NeuralLog", "[25]", "Zero-shot", "testing", "on", "HDFS,", "trained", "by", "BGL", "33.13", "58.04", "42.06", "(d4)", "PCA", "[9,", "43]", "Zero-shot", "testing", "on", "BGL,", "trained", "by", "HDFS", "7.21", "10.32", "8.58", "(e1)", "PLELog", "[43]", "Zero-shot", "testing", "on", "HDFS,", "trained", "by", "BGL", "with", "TCA", "3.26", "91.37", "6.29", "(e2)", "LogRobust", "[47]", "Zero-shot", "testing", "on", "HDFS,", "trained", "by", "BGL", "with", "TCA", "2.76", "65.14", "5.29", "(f1)", "LogTAD", "[14]", "Unsupervised", "transfer-learning", "based", "method", "78.80", "71.22", "74.82", "(f2)", "LogTransfer", "[3]", "Supervised", "transfer-learning", "based", "method", "100.00", "43.30", "60.43", "Ours", "MetaLog", "Supervised", "meta-learning", "based", "method", "89.29", "74.98", "81.51", "(c)", "DeepLog", "[6]", "Unpervised", "by", "HDFS", "normal", "labels", "53.96", "34.07", "41.77", "(a1)", "PLELog", "[43]", "Semi-supervised", "by", "1%", "anomaly", "HDFS", "labels", "65.86", "71.11", "68.38", "(a2)", "LogRobust", "[47]", "Supervised", "by", "1%", "anomaly", "HDFS", "labels", "100.00", "62.30", "76.77", "(b1)", "PLELog", "[43]", "Semi-supervised", "by", "anomaly", "100%", "HDFS", "labels", "96.30", "83.81", "89.62", "(b2)", "LogRobust", "[47]", "Supervised", "by", "anomaly", "100%", "HDFS", "labels", "82.54", "99.20", "90.11", "Method", "Setting", "Precision", "Recall", "F1-score"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 516.0,
+    "y1": 322.56,
+    "y2": 491.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Table2-1.png"
+}, {
+  "caption": "Figure 8: Ablation studies on the meta-learning rate 𝛽 .",
+  "captionBoundary": {
+    "x1": 196.34085083007812,
+    "x2": 415.6590270996094,
+    "y1": 214.25527954101562,
+    "y2": 218.60845947265625
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F1-score", "0.58", "0.82", "0.78", "0.77", "0.8", "0.77", "0.42", "0.67", "0.72", "0.75", "0.76", "0.81", "0.89", "0.93", "0.94", "0.77", "0.79", "0.84", "1", "0.8", "0.6", "0.4", "Precision", "Recall", "F1-score", "1", "2", "3", "4", "5", "10", "0.85", "0.93", "0.88", "0.8", "0.85", "0.86", "0.81", "0.89", "0.84", "0.97", "0.84", "0.84", "0.97", "0.93", "0.91", "0.69", "1", "0.87", "0.9", "0.8", "0.6", "1", "2", "3", "4", "5", "10", "0.4"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 531.36,
+    "y1": 96.96,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure8-1.png"
+}, {
+  "caption": "Figure 9: Ablation studies on the proportion of used training target anomaly labels.",
+  "captionBoundary": {
+    "x1": 137.37478637695312,
+    "x2": 474.6361999511719,
+    "y1": 350.2444152832031,
+    "y2": 354.59759521484375
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F1-score", "0.81", "0.82", "0.82", "0.83", "0.75", "0.75", "0.80.77", "0.64", "0.7", "0.89", "0.9", "0.86", "1", "0.98", "0.95", "0.8", "0.6", "0.4", "Precision", "Recall", "F1-score", "0.1", "0.5", "1", "5", "10", "0.88", "0.89", "0.9", "0.93", "0.85", "0.92", "0.93", "0.93", "0.95", "0.79", "0.95", "0.97", "0.96", "0.97", "1", "0.91", "0.8", "0.6", "0.1", "0.5", "1", "5", "10", "0.4"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 531.36,
+    "y1": 232.32,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure9-1.png"
+}, {
+  "caption": "Figure 1: Logs and their corresponding log events. The red part in raw logs is timestamps. The green part is variables. The green part is replaced with placeholder “*” in log events.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 295.5728454589844,
+    "y1": 199.55020141601562,
+    "y2": 225.8214111328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 82.56,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure1-1.png"
+}, {
+  "caption": "Figure 2: BGL and HDFS Logs.",
+  "captionBoundary": {
+    "x1": 377.6416931152344,
+    "x2": 498.5169372558594,
+    "y1": 247.67129516601562,
+    "y2": 252.02447509765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure2-1.png"
+}, {
+  "caption": "Figure 5: ROC curves on both HDFS-BGL transferring (left) and BGL-HDFS transferring (right).",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.60931396484375,
+    "y1": 186.84921264648438,
+    "y2": 202.161376953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 86.88,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure5-1.png"
+}, {
+  "caption": "Figure 4: The MetaLog network architecture. Given a sequence of log event embeddings, the network outputs the anomaly prediction. The architecture contains three cascaded modules including a gated recurrent unit, an attention mask, and a non-linear layer.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6460876464844,
+    "y1": 562.5698852539062,
+    "y2": 610.7592163085938
+  },
+  "figType": "Figure",
+  "imageText": ["Anomalous", "Sequence", "√", "Prediction", "Normal", "Sequence", "Network", "Architecture", "Unit", "Attention", "Mask", "Non-linear", "Layer", "Gated", "Recurrent", "…", "…", "…", "Log", "Event", "Embedding", "Sequence"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 282.24,
+    "y1": 458.88,
+    "y2": 533.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure4-1.png"
+}, {
+  "caption": "Figure 3: The proposed generalizable cross-system log anomaly detection pipeline for MetaLog. MetaLog pipeline consists of three stages: Log Parsing, Globally Consistent Semantic Embedding, and Meta-learning. In the log parsing stage, raw logs are parsed to log events. In the globally consistent semantic embedding stage, the parsed log events from different systems are fed into a pre-trained word embedding model to obtain globally consistent word embeddings in a shared vector space. The globally consistent log event embeddings are generated by a weighted aggregation module with the input of corresponding word embeddings. Finally, in the meta-learning stage, the MetaLog network utilizes the sequences of log event embeddings to predict whether the log sequences are normal or anomalous. The network is trained using meta-learning techniques, which enable it to generalize well across different systems. It learns from a series of cross-system log anomaly detection meta-tasks, consisting of a meta-training stage with source logs and a meta-testing stage with target logs. This training strategy equips the MetaLog network with the ability to handle both bilateral and zero-shot generalization tasks when tested on complex real-world scenarios.",
+  "captionBoundary": {
+    "x1": 53.449100494384766,
+    "x2": 559.290283203125,
+    "y1": 315.25640869140625,
+    "y2": 429.19989013671875
+  },
+  "figType": "Figure",
+  "imageText": ["Gradient", "Update", "Meta-test", "i", "Meta-testing", "Gradient", "Update", "Meta-train", "i", "Meta-training", "Testing", "Stage", "Other", "Target", "Logs", "Source", "Logs", "2", "Source", "Logs", "1", "Meta-learned", "Network", "Testing", "Target", "Logs", "Very", "Few", "Target", "Logs", "Source", "Logs", "Zero-shot", "Generalization", "Bilateral", "Generalization", "……", "Target", "Log", "Split", "Source", "Log", "Split", "n……Source", "Log", "Split", "1", "Meta-train", "Meta-test", "Meta-task", "n", "Meta-training", "Gradient", "Update", "Meta-testing", "Gradient", "Update", "Target", "Log", "Split", "Source", "Log", "Split", "n……Source", "Log", "Split", "1", "Training", "Stage", "Meta-train", "Meta-test", "Meta-", "learner", "Meta-task", "1", "……", "Log", "Event", "Embedding", "Aggregation", "Per", "Event", "Weighted", "Pretrained", "Word", "Embeddings", "Parsed", "Log", "Event", "closing", "expired", "connection", "-", "<*>", "channel=<*>", "Parsed", "Log", "Events", "msb", "getService:", "<*>", "<*>", "pod", "<*>", "in", "minion", "watch", "of", "<*>", "is", "Opened", "…", "Log", "Parser", "Raw", "System", "Logs", "Meta-learning", "Word", "Embeddings", "Log", "Parsing", "Globally", "Consistent", "Semantic", "Embedding", "I-A"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 546.24,
+    "y1": 89.75999999999999,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure3-1.png"
+}, {
+  "caption": "Figure 6: Zero-shot generalization experiments on OpenStack.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.65521240234375,
+    "y1": 191.42221069335938,
+    "y2": 206.734375
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F1-score", "0.38", "0.36", "0.41", "0.99", "0.76", "0.64", "0.25", "0.25", "0.26", "1", "0.8", "0.6", "0.4", "0.2", "LogRobust", "PLELog", "MetaLog", "0"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 272.15999999999997,
+    "y1": 82.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Zero-shot generalization experiments on Thunderbird.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6482238769531,
+    "y1": 323.2615051269531,
+    "y2": 338.5736999511719
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F1-score", "0.27", "0.32", "0.14", "1", "1", "0.15", "0.16", "0.190.14", "1", "0.8", "0.6", "0.4", "0.2", "LogRobust", "PLELog", "MetaLog", "0"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 272.15999999999997,
+    "y1": 214.56,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639205-Figure7-1.png"
+}]

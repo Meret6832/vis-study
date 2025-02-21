@@ -1,0 +1,181 @@
+[{
+  "caption": "TABLE I: Dataset Summary",
+  "captionBoundary": {
+    "x1": 255.03219604492188,
+    "x2": 362.2420349121094,
+    "y1": 75.9256820678711,
+    "y2": 80.24969482421875
+  },
+  "figType": "Table",
+  "imageText": ["Lang", "1,836", "1,782", "54", "2,182", "2007/05", "-", "2022/06", "3,011", "2,955", "2", "Math", "3,537", "3,337", "200", "16,148", "2008/05", "-", "2022/06", "2,246", "2,243", "1", "commits", "commits", "logs", "(Millions)", "period", "test", "methods", "test", "methods", "test", "methods", "Project", "#", "commits", "#", "clean", "#", "defective", "Lines", "of", "trace", "Studied", "Median", "Median", "passed", "Median", "failed"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 546.24,
+    "y1": 88.8,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-TableI-1.png"
+}, {
+  "caption": "TABLE II: 23 Features used in TraceJIT",
+  "captionBoundary": {
+    "x1": 96.48100280761719,
+    "x2": 261.47296142578125,
+    "y1": 159.27626037597656,
+    "y2": 163.60028076171875
+  },
+  "figType": "Table",
+  "imageText": ["V", "Tm", "#", "Vanished", "Traces", "on", "Modiﬁed", "lines", "ETu", "#", "Emerged", "Traces", "on", "Unmodiﬁed", "lines", "V", "Tu", "#", "Vanished", "Traces", "on", "Unmodiﬁed", "lines", ")", "ETm", "#", "Emerged", "Traces", "on", "Modiﬁed", "lines", "in", "ed", "e-", "g", "ra", "(F", "in", "CTall", "#", "Changed", "trace", "logs", "(i.e.,", "CTm+", "CTu)", "CTm", "#", "Changed", "Traces", "on", "Modiﬁed", "lines", "(i.e.,", "ETm+", "V", "Tm)", "CTu", "#", "Changed", "Traces", "on", "Unmodiﬁed", "lines", "(i.e.,", "ETu+", "V", "Tu)", ")", "in", "ed", "e-", "g", "ra", "ce", "(C", "o", "u", "rs", "T", "ra", "sim2rmean", "The", "arithmetic", "mean", "of", "similarities", "between", "code", "changes", "in", "a", "commit", "and", "recent", "bug", "reports", "sim2rmax", "The", "maximum", "of", "similarities", "between", "code", "changes", "in", "a", "commit", "and", "recent", "bug", "reports", "sim2rsum", "The", "sum", "of", "similarities", "between", "code", "changes", "in", "a", "commit", "and", "recent", "bug", "reports", "re", "p", "o", "rt", "B", "u", "g", "Awareness", "The", "fraction", "of", "prior", "changes", "to", "the", "modiﬁed", "direc-", "tories", "that", "the", "authors", "participated", "Subsystem", "changes", "#", "Prior", "changes", "to", "the", "modiﬁed", "directories", "the", "au-", "thors", "participated", "Recent", "changes", "#", "Prior", "changes", "to", "the", "modiﬁed", "ﬁles", "that", "the", "authors", "participated", "in", "weighted", "by", "the", "time", "interval", "between", "changes", "Prior", "changes", "#", "Prior", "changes", "to", "the", "modiﬁed", "ﬁles", "the", "authors", "participated", "ie", "n", "ce", "E", "x", "p", "er", "Age", "The", "time", "interval", "to", "the", "last", "changes", "on", "the", "modiﬁed", "ﬁles", "Developers", "#", "Developers", "who", "have", "changed", "the", "modiﬁed", "ﬁles", "in", "a", "commit", "in", "the", "past", "Changes", "#", "Changes", "made", "to", "the", "modiﬁed", "ﬁles", "in", "the", "past", "to", "ry", "H", "is", "Entropy", "The", "spread", "of", "modiﬁed", "lines", "across", "ﬁles", "in", "a", "commit", "File", "#", "Modiﬁed", "ﬁles", "in", "a", "commit", "Directory", "#", "Modiﬁed", "directory", "in", "a", "commit", "Subsystem", "#", "Modiﬁed", "subsystems", "in", "a", "commit", "o", "n", "fu", "si", "D", "if", "Lines", "Deleted", "#", "Deleted", "lines", "in", "a", "commit", "e", "Lines", "Added", "#", "Added", "lines", "in", "a", "commit", "S", "iz", "Feature", "Description"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 295.2,
+    "y1": 171.84,
+    "y2": 549.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-TableII-1.png"
+}, {
+  "caption": "TABLE V: The effectiveness of trace features",
+  "captionBoundary": {
+    "x1": 221.9862060546875,
+    "x2": 395.31396484375,
+    "y1": 75.9593734741211,
+    "y2": 80.28338623046875
+  },
+  "figType": "Table",
+  "imageText": ["PR-AUC", "0.071", "0.079", "(", "11.3%)", "0.074", "(", "4.2%)", "0.179", "0.206", "(15.1%)", "0.199", "(11.2%)", "Precision", "0.191", "0.312", "(", "63.4%)", "0.381", "(99.5%)", "0.225", "0.208", "(", "–7.6%)", "0.263", "(16.9%)", "ROC-AUC", "0.686", "0.729", "(", "6.3%)", "0.729", "(", "6.3%)", "0.666", "0.679", "(", "2.0%)", "0.679", "(", "2.0%)", "Math", "PR-AUC", "0.151", "0.151", "(", "0.0%)", "0.169", "(11.9%)", "0.155", "0.156", "(", "0.6%)", "0.135", "(–12.9%)", "Precision", "0.129", "0.157", "(", "21.7%)", "0.414", "(220.9%)", "0.667", "0.833", "(24.9%)", "0.000", "(", "–", ")", "ROC-AUC", "0.665", "0.663", "(", "–0.3%)", "0.723", "(", "8.7%)", "0.610", "0.625", "(", "2.5.%)", "0.647", "(", "6.1%)", "Lang", "Base", "Model", "FL", "Model", "TraceJIT", "Base", "Model", "FL", "Model", "TraceJIT", "Test", "data", "MMCs", "non-MMCs"],
+  "name": "V",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 96.96,
+    "x2": 518.4,
+    "y1": 88.8,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-TableV-1.png"
+}, {
+  "caption": "Fig. 1: Behavior change after a small change.",
+  "captionBoundary": {
+    "x1": 222.4907989501953,
+    "x2": 395.2218017578125,
+    "y1": 301.0834045410156,
+    "y2": 305.40740966796875
+  },
+  "figType": "Figure",
+  "imageText": ["1&", "4", "/&", "4", "&", "4", "&", "4", "*+", ",", "-", "(", ",", "-", "(", "*.", "/", "0", "/", "!", "/", "0", "/", "!", "*", "\"", "\"", "&'", "/", "!", "\"", "\"", "&'", "/", "!", "*", ")", ")", "*", "1", "0", "1", "!", "1", "0", "1", "!", "(", "\"", "\"", "&'", "1", "!", ")", "\"", "\"", "&'", "1", "!", ")", "(", ")", ")", "(", ")", ")", "(*", ")", ")", "/", "/", "'", "/", "'", "/", "\"", "\"", "2", "!", "\"", "\"", "2", "!", "*", ")", ")", "(", ")", ")", "1", "1", "'", "1", "'", "1", "\"", "\"", "2", "3", "!", "\"", "\"", "2", "3", "!", "*", ")", ")", "(", ")", ")", "!", "!", "\"", "#$", "%", "&'", "(", "!", "\"", "#$", "%", "&'", "(", "!", ")", ")", "*", ")", ")", "*", "**", "'", "'", "*("],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 96.96,
+    "x2": 521.28,
+    "y1": 73.92,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-Figure1-1.png"
+}, {
+  "caption": "Fig. 4: Distribution of dynamic features in defective and clean commits in the Lang and Math projects. The numbers in the figure represent their median.",
+  "captionBoundary": {
+    "x1": 74.64949798583984,
+    "x2": 548.37255859375,
+    "y1": 330.539794921875,
+    "y2": 345.8804016113281
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Lang", "(b)", "Math"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 542.4,
+    "y1": 216.0,
+    "y2": 320.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Heat map of Spearman correlation coefficients between the trace features and the other 18 metrics. Note that the coefficients with more than 0.05 of p-value are replaced with zero.",
+  "captionBoundary": {
+    "x1": 74.64949798583984,
+    "x2": 548.3634033203125,
+    "y1": 185.52430725097656,
+    "y2": 200.86492919921875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Lang", "(b)", "Math"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 547.1999999999999,
+    "y1": 72.0,
+    "y2": 175.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-Figure3-1.png"
+}, {
+  "caption": "Fig. 2: Overview of TraceJIT. It runs tests contained in two revisions (i.e., before and after a change). During testing, TraceJIT runs a dynamic analysis tool and collects trace logs. Finally, TraceJIT measures the dynamic features by checking diffs between two trace logs, and between diffs of trace logs and changes in source code.",
+  "captionBoundary": {
+    "x1": 72.03964233398438,
+    "x2": 545.7627563476562,
+    "y1": 226.25709533691406,
+    "y2": 252.61431884765625
+  },
+  "figType": "Figure",
+  "imageText": ["Revision", "Revision", "Diff", "ﬁles", "Defect", "Prediction", "ModelTrace", "logsSnapshots", "Dynamic", "features", "Static", "features", "Check", "Diff", "Measure", "Repository", "Check", "Diff", "-+", "Ci-1", "Ci", "Run", "tests", "Run", "tests"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 120.96,
+    "x2": 496.32,
+    "y1": 74.39999999999999,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-Figure2-1.png"
+}, {
+  "caption": "TABLE III: The performance of defect prediction models using different features. The percentages in the brackets show the improvements in comparison to the Base Model.",
+  "captionBoundary": {
+    "x1": 61.43280029296875,
+    "x2": 292.7814636230469,
+    "y1": 75.9618148803711,
+    "y2": 102.31903076171875
+  },
+  "figType": "Table",
+  "imageText": ["PR-AUC", "0.149", "0.173", "(16.1%)", "0.170", "(14.1%)", "Precision", "0.213", "0.220", "(", "3.3%)", "0.272", "(27.7%)", "ROC-AUC", "0.762", "0.773", "(", "1.4%)", "0.772", "(", "1.3%)", "Math", "PR-AUC", "0.133", "0.134", "(", "0.8%)", "0.134", "(", "0.8%)", "Precision", "0.286", "0.379", "(32.5%)", "0.414", "(44.8%)", "ROC-AUC", "0.674", "0.705", "(", "4.6%)", "0.714", "(", "5.9%)", "Lang", "(Metrics)", "(Base)", "(Base+Report)", "(Base+Trace)", "Proj", "Model", "Base", "Model", "FL", "Model", "TraceJIT"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 295.2,
+    "y1": 110.88,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: Feature Importance",
+  "captionBoundary": {
+    "x1": 370.8019104003906,
+    "x2": 490.74505615234375,
+    "y1": 75.9590072631836,
+    "y2": 80.28302001953125
+  },
+  "figType": "Table",
+  "imageText": ["VI.", "CAN", "TRACEJIT", "DETECT", "REGRESSIONS?", "20", "Entropy", "0.024", "V", "Tm", "0.032", "19", "ETu", "0.026", "ETm", "0.036", "18", "CTu", "0.032", "CTm", "0.037", "17", "V", "Tu", "0.033", "Subsystem", "0.039", "16", "Developers", "0.037", "Directory", "0.040", "15", "Subsystem", "0.038", "File", "0.041", "14", "Directory", "0.039", "Lise", "deleted", "0.041", "13", "Subsys", "Chgs.", "0.042", "Subsys", "Chgs.", "0.043", "12", "Recent", "Chgs.", "0.043", "Developers", "0.044", "11", "Prior", "Chgs.", "0.044", "Age", "0.045", "10", "File", "0.046", "Awareness", "0.045", "9", "Awareness", "0.046", "Lines", "Added", "0.048", "8", "ETm", "0.051", "Entropy", "0.051", "7", "V", "Tm", "0.053", "Priror", "Chgs.", "0.054", "6", "CTm", "0.054", "Recent", "Chgs.", "0.055", "5", "Age", "0.056", "V", "Tu", "0.061", "4", "CTall", "0.060", "CTall", "0.062", "3", "Changes", "0.061", "Changes", "0.072", "2", "Lines", "Deleted", "0.106", "ETu", "0.073", "1", "Lines", "Added", "0.111", "CTu", "0.082", "Rank", "Feature", "Importance", "Feature", "Importance", "Lang", "Math"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 540.0,
+    "y1": 88.8,
+    "y2": 408.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00065-TableIV-1.png"
+}]

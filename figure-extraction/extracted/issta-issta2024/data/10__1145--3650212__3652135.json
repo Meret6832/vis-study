@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 4: Diagnosis of Fine-Tuned Llama2-70b-chat-hf",
+  "captionBoundary": {
+    "x1": 328.80499267578125,
+    "x2": 547.3521728515625,
+    "y1": 195.44683837890625,
+    "y2": 197.52703857421875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Crash", "Classification", "CrashCategory:", "Front-to-Side.", "ReasonForCategory:", "The", "description", "of", "the", "crash", "states", "that", "V2", "was", "traveling", "north", "on", "the", "2-lane", "road", "and", "struck", "V1", "in", "the", "left", "side", "as", "it", "was", "trying", "to", "change", "lane", "to", "the", "left.", "This", "indicates", "that", "the", "front", "of", "V2", "collided", "with", "the", "side", "of", "V1,", "which", "fits", "the", "definition", "of", "a", "Front-", "to-Side", "Collision.", "(a)", "Liability", "Determination", "ResponsibleParty：V1.", "ReasonForLiability：The", "causation", "is", "that", "V1", "failed", "to", "yield", "the", "right", "of", "way", "to", "V2,", "which", "had", "the", "green", "light,", "and", "instead", "turned", "left", "into", "the", "path", "of", "V2.", "This", "action", "caused", "the", "front", "of", "V2", "to", "collide", "with", "the", "left", "side", "of", "V1", "even", "though", "V1", "had", "decelerated", "to", "avoid", "collision.", "It's", "also", "worth", "mentioning", "that", "the", "road", "conditions", "were", "wet", "due", "to", "rain,", "which", "may", "have", "contributed", "to", "the", "severity", "of", "the", "impact."],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 88.8,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Figure4-1.png"
+}, {
+  "caption": "Figure 1: Approach Overview of DiaVio",
+  "captionBoundary": {
+    "x1": 225.28900146484375,
+    "x2": 386.7110900878906,
+    "y1": 256.30078125,
+    "y2": 258.3809814453125
+  },
+  "figType": "Figure",
+  "imageText": ["}", "“Weather”", ":", "“sunny”", "“RoadCondition”", ":", "“dry”", "…", "Road{", "“RoadType”", ":", "“undivided", "roadway”", "“RoadShape”", ":", "“straight”", "“RoadSlope”", ":", "“level”", "“SpeedLimit”", ":", "“97kmph”", "…", "}", "Environment{", "}", "“Weather”", ":", "“sunny”", "“RoadCondition”", ":", "“dry”", "…", "}", "Environment{", "“RoadType”", ":", "“undivided", "roadway”", "“RoadShape”", ":", "“straight”", "“RoadSlope”", ":", "“level”", "“SpeedLimit”", ":", "“97kmph”", "…", "LLM", "Fine-Tuning", "Road{", "Fine-Tuned", "LLM", "Diagnostic", "Result", "4", "Dataset", "Preparation", "Violation", "Scenario", "in", "Simulation", "Testing", "Crash", "Description", "in", "DSL", "3", "2", "Crash", "Description", "in", "DSL", "DSL", "for", "Crash", "Base", "LLM", "Fine-Tuned", "LLM", "Accident", "Report", "from", "Real", "World", "LLM-Empowered", "Diagnosis", "1", "Crash", "Description", "Generation"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 121.44,
+    "x2": 488.15999999999997,
+    "y1": 84.96,
+    "y2": 242.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Figure1-1.png"
+}, {
+  "caption": "Table 2: Effectiveness on the Liability Determination Task",
+  "captionBoundary": {
+    "x1": 188.30799865722656,
+    "x2": 423.3981018066406,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Llama-2-7b-chat-hf", "82.91", "4.66", "17.61", "20.58", "72.79", "44.71", "55.05", "Llama-2-13b-chat-hf", "82.52", "5.57", "18.68", "22.00", "72.88", "45.15", "57.47", "Llama-2-70b-chat-hf", "87.06", "6.96", "19.28", "23.26", "74.34", "45.53", "58.54", "BLUE-4", "METEOR", "ROUGE-L", "BERTScore", "BLEURT", "NUBIA", "Models", "Accuracy", "Lexical", "Metrics", "Semantic", "Metrics", "(b)", "Results", "of", "Fine-Tuned", "LLMs", "Baichuan2-7B-Chat", "61.68", "0.09", "8.35", "9.16", "54.47", "39.56", "32.99", "ChatGLM3-6B", "67.44", "0.81", "11.02", "16.29", "61.86", "38.92", "32.36", "Qwen-7B-Chat", "52.56", "2.08", "14.53", "16.02", "63.52", "43.69", "36.01", "Qwen-14B-Chat", "47.38", "1.20", "12.43", "15.43", "62.95", "43.43", "38.39", "Llama2-7b-chat-hf", "78.25", "2.69", "13.04", "18.96", "63.73", "41.76", "37.59", "Llama2-13b-chat-hf", "70.74", "1.82", "13.16", "17.38", "63.93", "42.42", "38.16", "Llama2-70b-chat-hf", "81.29", "1.71", "15.20", "19.45", "64.24", "45.46", "44.17", "BLUE-4", "METEOR", "ROUGE-L", "BERTScore", "BLEURT", "NUBIA", "Models", "Accuracy", "Lexical", "Metrics", "Semantic", "Metrics", "(a)", "Results", "of", "Base", "LLMs"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 525.12,
+    "y1": 101.28,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Table2-1.png"
+}, {
+  "caption": "Figure 6: Front-to-Side Crashes",
+  "captionBoundary": {
+    "x1": 243.1999969482422,
+    "x2": 368.8013916015625,
+    "y1": 189.61175537109375,
+    "y2": 191.69195556640625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Case", "4", "(b)", "Case", "5", "(c)", "Case", "6", "(d)", "Case", "7", "(e)", "Case", "8", "(f)", "Case", "9"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 544.3199999999999,
+    "y1": 87.84,
+    "y2": 176.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Frontal Crashes (Case 10)",
+  "captionBoundary": {
+    "x1": 103.9209976196289,
+    "x2": 243.92237854003906,
+    "y1": 287.5747985839844,
+    "y2": 289.6549987792969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 133.92,
+    "x2": 211.2,
+    "y1": 198.72,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Figure7-1.png"
+}, {
+  "caption": "Figure 2: The Syntax of Crash DSL",
+  "captionBoundary": {
+    "x1": 104.56199645996094,
+    "x2": 243.28118896484375,
+    "y1": 459.185791015625,
+    "y2": 461.2659912109375
+  },
+  "figType": "Figure",
+  "imageText": ["<ResponsibleParty>;", "<ReasonForLiability>;", "<CrashCategory>;", "<ReasonForCategory>;", "<Vehicle>", "[reason]", "Rear-End", "|", "Frontal", "|", "Front-to-Side", "|", "…", "[reason]", "∅", "|", "<Vehicle>;", "<Vehicles>;", "<ImpactSide>;", "<MovingOnWhichWay>;", "<LocationAfterCrash>;", "<Behavior>;", "front", "|", "rear", "|", "left", "|", "right", "|", "…", "<Lane>", "[coordinate]", "|", "unmentioned", "<Direction>;", "<VehicleAction>;", "<TravelSpeed>;", "<WhetherToBrake>;", "<AttemptedLaneCrossing>;", "<IsAgainstRules>;", "north", "|", "south", "|", "east", "|", "west", "|", "unmentioned", "accelerating", "|", "decelerating", "|", "changingLane", "|", "…", "[numerical]", "|", "unmentioned", "yes", "|", "no", "|", "unmentioned", "left-change", "|", "right-change", "|", "no", "|", "unmentioned", "[rule]", "|", "no", "|", "unmentioned", "<Weather>;", "<RoadCondition>;", "<TrafficSignals>;", "sunny", "|", "rainy", "|", "foggy", "|", "…", "dry", "|", "wet", "|", "icy", "|", "…", "red", "|", "yellow", "|", "green", "|", "unmentioned", "∅", "|", "<Obstacle>;", "<Obstacles>;", "<Type>;", "<Location>;", "non-motorized", "vehicle", "|", "roadblock", "|", "…", "[coordinate]", "|", "unmentioned", "<Road>;", "<Environment>;", "<Obstacles>;", "<Vehicles>;", "<Diagnosis>;", "<RoadType>;", "<Lanes>;", "<RoadShape>;", "<RoadSlope>;", "<SpeedLimit>;", "intersection", "|", "cityStreet", "|", "ruralRoad", "|", "…", "∅", "|", "<Lane>;", "<Lanes>;", "[laneIdentifier]", "|", "unmentioned", "straight", "|", "curved", "|", "inclined", "|", "…", "flat", "|", "uphill", "|", "downhill", "|", "…", "[numerical]", "|", "unmentioned", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "::=", "<CrashCategory>", "<ReasonForCategory>", "<ResponsibleParty>", "<ReasonForLiability>", "<Diagnosis>", "<IsAgainstRules>", "<Direction>", "<VehicleAction>", "<TravelSpeed>", "<WhetherToBrake>", "<AttemptedLaneCrossing>", "<Behavior>", "<ImpactSide>", "<MovingOnWhichWay>", "<LocationAfterCrash>", "<Vehicles>", "<Vehicle>", "<Type>", "<Location>", "<Obstacles>", "<Obstacle>", "<Environment>", "<Weather>", "<RoadCondition>", "<TrafficSignals", ">", "<RoadType>", "<Lanes>", "<Lane>", "<RoadShape>", "<RoadSlope>", "<SpeedLimit>", "<Road>", "<Crash>"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 291.36,
+    "y1": 84.96,
+    "y2": 444.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Figure2-1.png"
+}, {
+  "caption": "Table 3: Effectiveness on the Crash Classification Task",
+  "captionBoundary": {
+    "x1": 195.8260040283203,
+    "x2": 415.87945556640625,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Llama-2-7b-chat-hf", "67.19", "17.76", "30.09", "38.87", "65.70", "55.49", "42.56", "Llama-2-13b-chat-hf", "77.04", "15.13", "30.42", "35.02", "65.22", "55.83", "43.89", "Llama-2-70b-chat-hf", "85.44", "18.22", "29.93", "38.71", "65.33", "56.45", "45.22", "BLUE-4", "METEOR", "ROUGE-L", "BERTScore", "BLEURT", "NUBIA", "Models", "Accuracy", "Lexical", "Metrics", "Semantic", "Metrics", "(b)", "Results", "of", "Fine-Tuned", "LLMs", "Baichuan2-7B-Chat", "17.41", "2.55", "13.30", "15.05", "48.22", "21.92", "14.24", "ChatGLM3-6B", "30.43", "1.09", "11.87", "13.34", "47.93", "26.46", "12.43", "Qwen-7B-Chat", "29.20", "3.97", "17.78", "21.38", "48.56", "44.40", "31.20", "Qwen-14B-Chat", "37.90", "2.56", "15.55", "18.32", "48.06", "41.60", "30.96", "Llama-2-7b-chat-hf", "39.14", "7.22", "22.34", "23.93", "50.82", "47.45", "40.43", "Llama-2-13b-chat-hf", "53.56", "7.13", "24.10", "24.43", "50.97", "48.08", "40.80", "Llama-2-70b-chat-hf", "76.17", "7.68", "25.51", "25.25", "52.02", "49.29", "41.62", "BLUE-4", "METEOR", "ROUGE-L", "BERTScore", "BLEURT", "NUBIA", "Models", "Accuracy", "Lexical", "Metrics", "Semantic", "Metrics", "(a)", "Results", "of", "Base", "LLMs"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 525.12,
+    "y1": 101.28,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Table3-1.png"
+}, {
+  "caption": "Table 1: An Example of Interacting with GPT-4 with Prompts",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0481262207031,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Role", "Setting:", "You", "are", "an", "assitant", "of", "text", "extraction.", "I’ll", "give", "you", "a", "piece", "of", "text", "and", "a", "series", "of", "questions.", "You", "need", "to", "answer", "me", "with", "key-value", "pairs", "based", "on", "the", "text.", "If", "the", "answer", "is", "not", "included", "in", "the", "text,", "you", "need", "to", "reply", "with", "“unmentioned”.", "Prompt:", "{𝑡ℎ𝑒", "𝑛𝑎𝑡𝑢𝑟𝑎𝑙", "𝑙𝑎𝑛𝑔𝑢𝑎𝑔𝑒", "𝑑𝑒𝑠𝑐𝑟𝑖𝑝𝑡𝑖𝑜𝑛", "𝑜", "𝑓", "𝑎𝑛", "𝑎𝑐𝑐𝑖𝑑𝑒𝑛𝑡", "𝑟𝑒𝑝𝑜𝑟𝑡}", ".", ".", ".", "What’s", "the", "speed", "limit", "of", "the", "road?", "What’s", "the", "weather", "like?", ".", ".", ".", "GPT-4", "Response:", ".", ".", ".", "Speed", "limit", "of", "the", "road:", "“89", "KPH", "(55", "MPH)”", "Weather", "Conditions:", "“clear”", ".", ".", ".", "Prompt:", "Find", "out", "an", "answer", "in", "{𝑡ℎ𝑒", "𝑐𝑜𝑛𝑡𝑒𝑛𝑡", "𝑜", "𝑓", "𝑡ℎ𝑒", "𝑐𝑟𝑎𝑠ℎ", "𝐷𝑆𝐿}", "with", "the", "closest", "meaning", "to", "your", "answer.", "If", "there", "is", "no", "matching", "answer,", "keep", "your", "original", "answer.", "GPT-4", "Response:", ".", ".", ".", "“SpeedLimit”:", "“89kmp”", "“Weather”:", "“sunny”", ".", ".", "."],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 100.8,
+    "y2": 377.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Table1-1.png"
+}, {
+  "caption": "Figure 3: The Architecture of Crash Description Generation",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2036743164062,
+    "y1": 217.0247802734375,
+    "y2": 219.10498046875
+  },
+  "figType": "Figure",
+  "imageText": ["Crash", "Description", "…", "Over", "Speed", "Detection", "Solid", "Lane", "Crossing", "Detection", "Hard", "Acceleration/", "Braking", "Detection", "Detection", "Violation", "Detector", "Rule", "Checker", "Running", "Red", "Light", "Description", "Generator", "Environment", "and", "Obstacle", "Parser", "Vehicle", "Analyzer", "Road", "Parser", "Graphical", "Simulator", "C", "as", "e", "G", "en", "er", "at", "io", "n", "M", "et", "ho", "d", "Te", "st", "Autonomous", "Driving", "System"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 555.36,
+    "y1": 83.52,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Rear-End Crashes",
+  "captionBoundary": {
+    "x1": 382.93499755859375,
+    "x2": 493.2218017578125,
+    "y1": 180.8768310546875,
+    "y2": 182.95703125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Case", "1", "(b)", "Case", "2", "(c)", "Case", "3"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 87.84,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Figure5-1.png"
+}, {
+  "caption": "Table 6: Effectiveness of DiaVio w.r.t. Crash Categories",
+  "captionBoundary": {
+    "x1": 62.132999420166016,
+    "x2": 285.4146423339844,
+    "y1": 193.2938232421875,
+    "y2": 195.3740234375
+  },
+  "figType": "Table",
+  "imageText": ["Rear-End", "Collision", "47", "42", "3", "5", "Frontal", "Collision", "0", "0", "3", "3", "Front-to", "Side", "Collision", "144", "150", "13", "11", "Others", "1", "0", "0", "0", "DiaVio", "Manual", "DiaVio", "Manual", "Crash", "Category", "AV-Fuzzer", "DriveFuzz"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 106.56,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652135-Table6-1.png"
+}]

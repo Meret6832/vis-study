@@ -1,0 +1,181 @@
+[{
+  "caption": "TABLE VI: Functional Test Results for Containers",
+  "captionBoundary": {
+    "x1": 209.860107421875,
+    "x2": 405.9215393066406,
+    "y1": 75.95838165283203,
+    "y2": 80.36920166015625
+  },
+  "figType": "Table",
+  "imageText": ["Tomcat", "Apache", "JMeter", "—", "—", "—", "Jetty", "Apache", "JMeter", "—", "—", "—", "Orientdb", "Orientdb", "Studio", "—", "—", "—", "—", "Cassandra", "Cassandra-stress", "—", "—", "—", "Elasticsearch", "Elasticsearch", "Rally", "—", "—", "Solr", "SolrMeter", "—", "—", "Zookeeper", "zk-smoketest", "—", "—", "Storm", "Storm-starter", "—", "—", "—", "—", "Groovy", "Spock", "—", "—", "—", "—", "Jruby", "RSpec", "—", "—", "—", "—", "Image", "Tool", "Integration", "Session", "Testing", "CRUD", "Search", "Gramma", "Distributed"],
+  "name": "VI",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 120.0,
+    "x2": 493.44,
+    "y1": 88.8,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-TableVI-1.png"
+}, {
+  "caption": "Fig. 1: Native JNI Code Example",
+  "captionBoundary": {
+    "x1": 114.277099609375,
+    "x2": 243.96087646484375,
+    "y1": 236.3721923828125,
+    "y2": 240.78302001953125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Native", "JNI’s", "Implementation", "in", "C", "1", "JNIEXPORT", "jint", "JNICALL", "2", "Java_java_util_zip_ZipFile_getEntryMethod(JNIEnv", "*env,", "jclass", "cls,", "jlong", "zentry)", "3", "{", "4", "jzentry", "*ze", "=", "jlong_to_ptr(zentry);", "5", "return", "ze->csize", "!=", "0", "?", "DEFLATED", ":", "STORED;", "6", "}", "(a)", "Native", "JNI’s", "Java", "Code", "1", "package", "java.util.zip;", "2", "public", "class", "ZipFile", "implements", "ZipConstants,", "Closeable{", "3", "...", "4", "private", "static", "native", "int", "getEntryMethod(long", "var0);", "5", "...", "6", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 286.56,
+    "y1": 72.48,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: Third-Party JNI Code Example",
+  "captionBoundary": {
+    "x1": 361.93438720703125,
+    "x2": 510.5818176269531,
+    "y1": 278.4693603515625,
+    "y2": 282.88018798828125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Third-Party", "JNI’s", "Implementation", "in", "Assembly", "rax,%rax,1)", "1", "000000000001b660", "<", "Java_org_apache_tomcat_jni_SSL_closeBIO>:", "2", "1b660:", "48", "83", "ec", "08", "sub", "$0x8,%rsp", "3", "1b664:", "48", "89", "d7", "mov", "%rdx,%rdi", "4", "1b667:", "e8", "e4", "47", "ff", "ff", "callq", "fe50", "<", "SSL_BIO_close@plt>", "5", "1b66c:", "31", "c0", "xor", "%eax,%eax", "6", "1b66e:", "48", "83", "c4", "08", "add", "$0x8,%rsp", "7", "1b672:", "c3", "retq", "8", "1b673:", "0f", "1f", "00", "nopl", "(%rax)", "9", "1b676:", "66", "2e", "0f", "1f", "84", "00", "00", "nopw", "%cs:0x0(%", "(a)", "Third-Party", "JNI’s", "Java", "Code", "1", "package", "org.apache.tomcat.jni;", "2", "public", "final", "class", "SSL", "{", "3", "...", "4", "public", "static", "native", "long", "newBIO(long", "var0,", "BIOCallback", "var2)", "throws", "Exception;", "5", "public", "static", "native", "int", "closeBIO(long", "var0);", "6", "...", "7", "}"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 314.4,
+    "x2": 543.36,
+    "y1": 72.48,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-Figure2-1.png"
+}, {
+  "caption": "Fig. 5: JTracer Performance at Each Stage of Static Analysis.",
+  "captionBoundary": {
+    "x1": 59.44820022583008,
+    "x2": 295.4412536621094,
+    "y1": 270.12469482421875,
+    "y2": 274.5355224609375
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Sum", "of", "Time", "\u00006\u0000X\u0000P\u0000\u0003\u0000R\u0000I\u0000\u0003\u00007", "\u0000P\u0000H", "\u0000\u0014)\u0000\u0017\u0000\u0011\u0000\u0019&", "\u0000\u0014\u0000\u0019\u0000\u0016\u0000\u0011\u0000\u0016)", "\u0000\u0016)\u0000\u0019\u0000\u0011\u0000\u0015\u0000\u0015", "\u0000\u0014\u0000\u0017\u0000\u0014\u0000\u0011\u0000\u0013&", "\u0000\u0015&&\u0000\u0011\u0000\u0013\u0000\u0014", "\u0000\u0014&&\u0000\u0011(\u0000\u0016", "\u0000\u0015((\u0000\u0011\u0000\u0017)", "\u0000\u0015\u0000\u0013\u0000\u0013\u0000\u0011\u0000\u0016&", "\u0000\u0014\u0000\u0016\u0000\u0017\u0000\u0011((", "\u0000H\u0000\u0003", "$\u0000V", "%", "\u0000\u0015\u0000\u0016&\u0000\u0011\u0000\u0018\u0000\u0014", "\u00007", "\u0000P", "\u0000\u0017\u0000\u0013\u0000\u0013", "\u0000\u0016\u0000\u0018\u0000\u0013", "\u0000\u0016\u0000\u0013\u0000\u0013", "\u0000\u0015\u0000\u0018\u0000\u0013", "\u0000\u0015\u0000\u0013\u0000\u0013", "\u0000\u0014\u0000\u0018\u0000\u0013", "\u0000\u0014\u0000\u0013\u0000\u0013", "\u0000\u0018\u0000\u0013", "\u0000\u0013", "\u0000H\u0000S\u0000H", "\u0000U", "\u00006\u0000W\u0000R", "\u0000U\u0000P", "\u0000U\u0000R", "\u0000R\u0000Y", "\u0000U\u0000X", "\u0000E", "\u0000R", "\u0000R", "\u0000H", "\u0000U", "\u0000V\u0000H\u0000D", "\u0000U\u0000F", "\u00006\u0000R", "\u0000(", "\u0000D", "\u0000V\u0000W", "\u0000F", "\u0000G\u0000E", "\u0000&\u0000D", "\u0000V\u0000V\u0000D", "\u0000Q\u0000G\u0000U", "\u0000D", "\u00002\u0000U", "\u0000H\u0000Q\u0000W", "\u0000F\u0000D\u0000W", "\u0000H\u0000W", "\u0000W", "(c)", "Binary", "Analysis", "\u00007\u0000R\u0000P", "M", "Binary", "Analysis", "C", "T", "S", "R", "O", "E", "Z", "G", "J", "\u0000H\u0000\u0003", "\u0000V", "\u00007", "\u0000P", "300", "250", "200", "150", "\u00001", "\u0000\u0003\u0000)\u0000X\u0000Q\u0000F\u0000W", "\u0000R\u0000Q\u0000V\u0000\u0003", "\u0000Q\u0000\u0003\u0000%", "\u0000Q\u0000D\u0000U", "\u0000H\u0000V", "200", "400", "600", "800", "1000", "1200", "(b)", "Cross", "Language", "Interface", "De-", "pendency", "Analysis", "M", "Cross", "Language", "Interface", "Dependency", "Analysis", "S", "C", "R", "O", "T", "Z", "G", "E", "J", "\u0000H\u0000\u0003", "\u0000V", "\u00007", "\u0000P", "4.75", "4.50", "4.25", "4.00", "3.75", "3.50", "3.25", "3.00", "\u00001\u0000D\u0000W", "\u0000Y\u0000H\u0000\u0003\u00000\u0000H\u0000W", "\u0000R\u0000G\u0000V", "200", "400", "600", "800", "1000", "1200", "(a)", "Code", "Analysis", "S", "Code", "Analysis", "M", "C", "O", "G", "R", "E", "T", "Z", "J", "\u0000H\u0000\u0003", "\u0000V", "\u00007", "\u0000P", "60", "50", "40", "30", "20", "10", "\u00009", "\u0000V", "\u0000W\u0000H\u0000G\u0000\u0003\u00000\u0000H\u0000W", "\u0000R\u0000G\u0000V", "0", "50000", "100000", "150000", "200000"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 295.68,
+    "y1": 72.96,
+    "y2": 259.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-Figure5-1.png"
+}, {
+  "caption": "TABLE III: System Calls Analyzed at Different Granularity",
+  "captionBoundary": {
+    "x1": 316.5213623046875,
+    "x2": 547.4664306640625,
+    "y1": 75.48670196533203,
+    "y2": 79.89752197265625
+  },
+  "figType": "Table",
+  "imageText": ["Tomcat", "19", "(16.24%)", "95", "(81.20%)", "106", "(90.60%)", "117", "Jetty", "8", "(7.62%)", "79", "(75.24%)", "87", "(82.86%)", "105", "Orientdb", "13", "(12.15%)", "81", "(75.70%)", "90", "(84.11%)", "107", "Cassandra", "38", "(33.33%)", "96", "(84.21%)", "105", "(92.11%)", "114", "Elasticsearch", "15", "(14.15%)", "82", "(77.36%)", "93", "(87.74%)", "106", "Solr", "44", "(38.26%)", "94", "(81.74%)", "109", "(94.79%)", "115", "Zookeeper", "12", "(11.32%)", "80", "(75.47%)", "92", "(86.79%)", "106", "Storm", "14", "(12.61%)", "83", "(74.77%)", "96", "(86.49%)", "111", "Groovy", "12", "(11.32%)", "80", "(75.47%)", "92", "(86.79%)", "106", "Jruby", "14", "(13.21%)", "82", "(77.36%)", "93", "(87.74%)", "106", "Image", "Direct", "1-Layer", "2-Layers", "All"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 546.24,
+    "y1": 88.32,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-TableIII-1.png"
+}, {
+  "caption": "Fig. 4: Overview of SWAT4J",
+  "captionBoundary": {
+    "x1": 245.18460083007812,
+    "x2": 357.4591369628906,
+    "y1": 327.44915771484375,
+    "y2": 331.8599853515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 543.36,
+    "y1": 164.64,
+    "y2": 319.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Using JNI to Interact With OS in Java",
+  "captionBoundary": {
+    "x1": 212.7075958251953,
+    "x2": 389.9364013671875,
+    "y1": 161.54766845703125,
+    "y2": 165.95849609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 108.0,
+    "x2": 495.35999999999996,
+    "y1": 72.0,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-Figure3-1.png"
+}, {
+  "caption": "TABLE IV: Comparison of SWAT4J and Confine",
+  "captionBoundary": {
+    "x1": 212.94369506835938,
+    "x2": 403.8544616699219,
+    "y1": 75.51105499267578,
+    "y2": 79.921875
+  },
+  "figType": "Table",
+  "imageText": ["Conﬁne", "146", "158", "146", "153", "158", "142", "154", "—", "162", "154", "—", "SWAT4J", "142", "131", "133", "140", "132", "139", "132", "139", "135", "133", "—", "Reduce", "4(2.74%)", "27(17.09%)", "13(8.90%)", "13(8.50%)", "26(16.46%)", "3(2.11%)", "22(14.29%)", "—", "27(16.67%)", "21(13.64%)", "11.36%", "Method", "Tomcat", "Jetty", "Orientdb", "Cassandra", "Elasticsearch", "Solr", "Zookeeper", "Storm", "Groovy", "Jruby", "AVG"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 543.36,
+    "y1": 88.8,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-TableIV-1.png"
+}, {
+  "caption": "TABLE V: CVEs Mitigated by Removing Unneeded System Calls",
+  "captionBoundary": {
+    "x1": 180.0596923828125,
+    "x2": 436.7414245605469,
+    "y1": 146.4500732421875,
+    "y2": 150.86090087890625
+  },
+  "figType": "Table",
+  "imageText": ["D:", "Denial", "of", "Service,", "P:", "Privilege", "escalation,", "O:", "Overﬂow,", "M:", "Memory", "Corruption,", "I:", "Information", "Leakage", "inotify", "init1", "2", "CVE-2010-4250,", "CVE-2011-1479", "D,", "M", "10", "io", "submit", "2", "CVE-2010-3067,", "CVE-2010-3066", "D,", "O,", "M", "10", "ioprio", "get", "1", "CVE-2016-7911", "D,", "P,", "M", "10", "syncfs", "2", "CVE-2019-19813,", "CVE-2019-19448", "D,", "M", "10", "clock", "nanosleep", "1", "CVE-2018-13053", "O", "10", "timer", "create,", "timer", "settime", "2", "CVE-2018-12896,", "CVE-2017-18344", "D,", "P,", "O,", "I", "10", "mlockall,", "munlockall", "1", "CVE-2017-18221", "D", "10", "mq", "open", "2", "CVE-2010-4073,", "CVE-2005-3356", "D,", "I", "10", "mq", "notify", "2", "CVE-2017-11176", "D", "10", "socketpair", "2", "CVE-2010-4249,", "CVE-2005-0750", "D,", "P", "9", "(except", "Solr)", "fallocate", "5", "CVE-2017-18257,", "CVE-2015-0275", "D,", "I", "9", "(except", "Storm)", "epoll", "create", "2", "CVE-2011-1083,", "CVE-2011-1082", "D", "8", "(except", "Cassandra,", "Storm)", "splice", "3", "CVE-2014-7822,", "CVE-2010-4258", "D,", "M", "8", "(except", "Cassandra,", "Solr)", "msync", "1", "CVE-2015-7312", "D", "7", "(except", "Cassandra,", "Solr,", "Storm)", "prctl", "4", "CVE-2020-10768,", "CVE-2014-3690", "D,", "P,", "I", "6", "(except", "Tomcat,", "Orientdb,", "Cassandra,", "Storm)", "Syscalls", "CVEs", "CVE", "Examples", "CVE", "Type", "Images"],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 533.28,
+    "y1": 159.35999999999999,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00101-TableV-1.png"
+}]

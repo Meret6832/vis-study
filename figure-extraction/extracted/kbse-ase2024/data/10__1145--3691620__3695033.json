@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: MLmodel quality assurance involves two stages: (1) Hy-",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.6239624023438,
+    "y1": 349.77789306640625,
+    "y2": 351.8580017089844
+  },
+  "figType": "Figure",
+  "imageText": ["Validate", "-", "“Hardline", "Muslims", "are", "as", "conservative…”", "-", "“just", "look", "at", "Turkey", "over", "the", "last", "8", "years…”", "Data", "Slicing", "Data", "Generation", "Model", "Testing", "Error", "Analysis", "Model", "Auditing", "Model", "Red-teaming", "Requirements", "Analysis", "Data", "Hypothesize", "Hypotheses", "“My", "toxicity", "classiﬁer", "disproportionately", "misclassiﬁed", "text", "related", "to", "Muslims.”"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 206.88,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Existing practices mostly apply programmatic data slicing",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1978759765625,
+    "y1": 528.5298461914062,
+    "y2": 530.6099853515625
+  },
+  "figType": "Figure",
+  "imageText": ["|", "'''The", "solution", "to", "our", "problem", "is", "becoming", "much", "more", "|", "stricter", "on", "immigration", ",", "banning", "those", "with", "|", "religious", "alliances", "to", "Saudi", "Arabia", "and", "its", "|", "puppet", "states.", "|", "just", "look", "at", "Turkey", "over", "the", "last", "8", "years", ",", "the", "|", "regression", "under", "the", "AKP", "speaks", "for", "itself.'''", "24", "llm_slicing", "=", "slicer.gen_slicing_func", "()", "#", "str", "->", "bool", "25", "m_slice", "=", "data[data['text'].map(llm_slicing)]", "26", "m_slice['text'].", "sample", "(2)", "11", "#", "Semantic", "data", "slicing", "detects", "texts", "with", "different", "surface", "patterns.", "12", "from", "semslicer.slicer", "import", "InteractiveSlicer", "13", "data", "=", "load_training_data", "()", "14", "criterion", "=", "\"Muslim\"", "15", "16", "slicer", "=", "InteractiveSlicer(criterion", ",", "data", ",", "config", "={", "17", "'few", "-shot':", "True", ",", "18", "'few", "-shot", "-size':", "8,", "19", "'instruction", "-source", "':", "'template", "',", "20", "'student", "-model':", "'flan", "-t5", "-xxl',", "21", "'teacher", "-model':", "'gpt", "-4-turbo", "-preview", "'})", "22", "23", "slicer.show_prompt", "()", "|", "'''Is", "the", "text", "related", "to", "muslim?", "|", "|", "Text:", "Hardline", "Muslims", "are", "as", "conservative", "...", "|", "Answer:", "yes", "|", "|", "Text:", "In", "fact", ",", "Christmas", "is", "a", "pagan", "festival", "...", "|", "Answer:", "no", "|", "|", "...", "|", "|", "Text:", "{text}", "|", "Answer:", "'''", "|", "'''there", "'s", "the", "muslim", "lady", "in", "jail", "for", "trying", "to", "kill", "|", "people", "with", "a", "golf", "club", "in", "CTC", "|", "Europe", "is", "in", "the", "process", "of", "submitting", "to", "Islam", "a", "|", "bit", "more", "every", "year.'''", "9", "m_slice", "=", "data[data['text'].map(regex_slicing)]", "10", "m_slice['text'].", "sample", "(2)", "1", "#", "Programmatic", "data", "slicing", "detects", "texts", "with", "simple", "patterns", "but", "generalizes", "poorly.", "2", "import", "re", "3", "data", "=", "load_training_data", "()", "4", "pattern", "=", "r\"muslim|islam\"", "5", "6", "def", "regex_slicing(x:", "str)", "->", "bool:", "7", "return", "bool(re.search(pattern", ",", "x,", "re.IGNORECASE))", "8"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 309.59999999999997,
+    "x2": 559.1999999999999,
+    "y1": 84.0,
+    "y2": 508.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Figure2-1.png"
+}, {
+  "caption": "Table 2: Experiment configurations: We selected 9 representative configurations of SemSlicer, following a fractional factorial design [3]. We",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2015380859375,
+    "y1": 236.25790405273438,
+    "y2": 238.3380126953125
+  },
+  "figType": "Table",
+  "imageText": ["Mzero-shot", "-", "(zero-shot,", "zs)", "-", "-", "template", "-", "$0.26", "Mfew-shot", "provided", "random", "student", "template", "-", "$1.68", "Mfs-div", "provided", "diversity", "(div)", "student", "template", "-", "$1.68", "Mfs-teacher", "provided", "diversity", "teacher", "template", "-", "$1.69", "Mfs-syn", "provided", "+", "synthesized", "(syn)", "diversity", "+", "balanced", "teacher", "template", "-", "$1.70", "Mzs-model", "-", "-", "-", "model", "-", "$0.26", "Mzs-tmodel", "-", "-", "-", "template", "(t)", "model", "$0.26", "Mzs-hai", "-", "-", "-", "human", "+", "template", "human", "+", "model", "(hai)", "$8.13", "Mfs-hai", "provided", "diversity", "teacher", "human", "+", "template", "human", "+", "model", "(hai)", "$9.56", "Crowdworker", "-", "-", "-", "human", "-", "$432.00", "Input", "source", "Input", "sampler", "Output", "labeler", "Source", "Refinement", "Few-shot", "(fs)", "Examples", "Instructions", "Method", "Configurations", "Cost/Slice"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 83.52,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Table2-1.png"
+}, {
+  "caption": "Table 1: We analyzed 20 most popular projects on textual datasets from ZenoHub [1], identifying 17 slicing criteria with their descriptions,",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.171630859375,
+    "y1": 243.77786254882812,
+    "y2": 245.85797119140625
+  },
+  "figType": "Table",
+  "imageText": ["domain", "The", "domain", "of", "the", "text", "virology,", "philosophy", "65", "Existing", "annotations", "task", "The", "task", "of", "the", "text", "data", "understanding", "27", "Existing", "annotations", "language", "The", "language", "of", "the", "text", "french,", "tamil", "20", "Existing", "annotations", "script", "The", "script", "of", "the", "text", "latin,", "arabic", "6", "Existing", "annotations", "site", "The", "websites", "an", "agent", "needs", "to", "access", "gitlab,", "reddit", "6", "Existing", "annotations", "string_length", "The", "length", "of", "the", "text", "(input/output/label)", "-", "61", "Simple", "computation", "num_steps", "The", "number", "of", "steps", "an", "agent", "takes", "-", "10", "Simple", "computation", "num_range", "The", "range", "of", "numerical", "answers", "-", "16", "Simple", "computation", "num_of_choices", "The", "number", "of", "choices", "for", "multi-choice", "questions", "-", "11", "Simple", "computation", "pred_change_after_norm", "Whether", "predictions", "change", "after", "normalization", "-", "8", "Simple", "computation", "word_repetition", "The", "max", "number", "of", "word", "repetition", "-", "3", "Simple", "computation", "output_shape", "The", "shape", "of", "model", "output", "Yes/No,", "Valid/Invalid", "15", "Regex", "matching", "input_type", "The", "type", "of", "input", "instruction/question", "what,", "how", "11", "Regex", "matching", "is_X_library_used", "Whether", "the", "input", "program", "uses", "library", "X", "pandas,", "numpy", "11", "Regex", "matching", "output_value", "The", "value", "of", "model", "output", "A,", "B,", "no", "enough", "info", "5", "Regex", "matching", "has_function_calls", "Whether", "the", "input", "program", "contains", "function", "calls", "-", "4", "Regex", "matching", "topic", "The", "topic", "of", "the", "text", "government", "3", "Machine", "learning", "(topic", "modeling)", "Slicing", "Criteria", "Description", "Examples", "Frequency", "Mechanism"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 536.16,
+    "y1": 83.52,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Table1-1.png"
+}, {
+  "caption": "Table 3: We collected 4 datasets and 26 slices for our evaluation. These slices represent a 0.5% to 61.4% fraction of the entire dataset. We",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1939086914062,
+    "y1": 396.8518981933594,
+    "y2": 398.9320068359375
+  },
+  "figType": "Table",
+  "imageText": ["-", "avg", "-", "63.0", "69.9", "69.7", "71.6", "68.9", "62.6", "58.2", "71.9", "75.9", "-", "-", "best", "good", "poor", "∗∗𝑝", "<", "0.01,", "∗𝑝", "<", "0.05", "CivilComments", "male", "2.5", "12.3", "30.6", "32.3", "29.8", "5.1", "10.6", "25.3", "9.3", "10.9", "89.3", "90.7", "female", "2.9", "30.1", "40.9", "40.9", "42.5", "17.3", "30.9", "33.2", "31.5", "36.3", "87.3**", "89.4*", "homosexual", "0.5", "31.3", "38.8", "43.5", "40.9", "40.6", "35.2", "25.3", "41.8", "50.6", "82.8*", "87.8*", "christian", "2.3", "53.1", "59.2", "56.1", "51.0", "55.3", "54.3", "57.0", "51.3", "51.5", "91.9", "93.8", "jewish", "0.5", "50.0", "55.0", "69.7", "69.1", "62.3", "50.0", "48.4", "49.5", "85.7", "92.6", "96.4", "muslim", "1.2", "60.9", "71.3", "69.3", "73.1", "79.2", "70.7", "71.1", "78.2", "82.0", "87.3*", "88.5*", "black", "0.8", "43.2", "54.3", "64.5", "69.1", "66.1", "31.0", "44.4", "44.7", "71.0", "75.0**", "79.0**", "white", "1.4", "73.0", "81.5", "83.6", "78.7", "85.5", "67.5", "32.5", "78.1", "85.2", "81.4**", "78.1**", "avg", "-", "44.2", "54.0", "57.5", "56.8", "51.4", "43.8", "42.1", "48.1", "59.2", "93.5", "93.5", "book", "61.4", "95.9", "96.5", "96.3", "97.0", "96.7", "95.9", "96.6", "94.7", "95.1", "68.7", "68.7", "movie", "7.0", "53.1", "55.7", "55.9", "59.1", "56.3", "58.1", "55.0", "56.0", "81.1", "69.6", "66.5", "home&kitchen", "6.3", "52.1", "47.2", "48.5", "48.3", "45.8", "50.3", "59.9", "59.7", "48.1", "73.3", "69.1", "electronics", "5.8", "52.1", "54.3", "57.8", "60.0", "56.6", "52.1", "62.8", "61.7", "64.9", "74.7", "72.4", "clothing", "5.4", "63.8", "72.0", "65.9", "72.8", "66.3", "66.1", "75.1", "74.8", "79.1", "71.8", "72.5", "avg", "-", "63.4", "65.2", "64.9", "67.4", "64.3", "64.5", "69.9", "69.4", "73.7", "69.8", "69.8", "Amazon", "room", "24.9", "59.3", "84.9", "88.2", "89.6", "87.4", "15.4", "70.9", "84.7", "88.6", "66.0", "65.3", "location", "16.9", "49.1", "74.1", "73.6", "82.7", "80.5", "28.6", "48.5", "82.4", "87.9", "62.5", "58.1", "price", "18.5", "95.9", "95.8", "95.8", "94.3", "94.3", "95.8", "24.4", "97.2", "95.8", "65.7", "62.9", "restaurant", "17.5", "57.1", "76.5", "65.1", "78.1", "62.4", "59.2", "58.3", "78.6", "93.8", "63.6", "74.2", "service", "15.9", "37.3", "49.2", "49.6", "54.1", "48.8", "45.8", "43.3", "59.4", "55.0", "80.0", "76.5", "pool", "6.3", "85.7", "90.9", "90.9", "73.7", "90.9", "80.0", "73.7", "90.9", "90.9", "50.0", "57.1", "avg", "-", "64.1", "78.6", "77.2", "78.7", "77.4", "54.1", "53.2", "82.2", "85.3", "66.1", "66.1", "AdaTest", "women", "13.7", "90.7", "92.7", "92.6", "92.8", "91.7", "92.3", "89.5", "90.5", "94.6", "79.4", "82.6", "trans", "12.4", "83.6", "79.5", "78.3", "95.1", "94.7", "95.1", "75.7", "90.3", "96.5", "53.3**", "52.7**", "gay", "14.8", "68.3", "69.0", "69.5", "69.7", "68.8", "85.0", "69.2", "88.4", "71.7", "70.6", "63.8**", "black", "12.9", "95.2", "95.4", "95.1", "95.1", "95.7", "95.2", "86.3", "94.9", "95.1", "70.7", "71.6", "disabled", "13.0", "68.1", "77.9", "67.3", "67.4", "81.6", "71.4", "69.2", "89.4", "73.3", "47.3**", "48.7**", "muslim", "13.0", "97.7", "97.1", "95.8", "95.4", "93.9", "97.1", "95.8", "97.2", "95.4", "78.3", "79.9", "immigrant", "12.4", "80.0", "77.2", "66.8", "82.2", "68.5", "94.5", "21.9", "94.9", "93.5", "71.5", "74.3", "avg", "-", "83.4", "84.1", "80.8", "85.4", "85.0", "90.1", "72.5", "92.2", "88.6", "69.4", "69.4", "HateCheck", "Mzero-shot", "Mfew-shot", "Mfs-div", "Mfs-teacher", "Mfs-syn", "Mzs-model", "Mzs-tmodel", "Mzs-hai", "Mfs-hai", "gold", "pred.", "Dataset", "Slice", "Frac.", "(%)", "Slicing", "F1", "score", "(%)", "Task", "perf.", "(%)"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 83.52,
+    "y2": 391.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Table3-1.png"
+}, {
+  "caption": "Figure 3: SemSlicer’s workflow: The user first specifies a slicing",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.198486328125,
+    "y1": 325.0558776855469,
+    "y2": 327.135986328125
+  },
+  "figType": "Figure",
+  "imageText": ["Student", "LLM", "Teacher", "LLM", "➁", "Instruction", "reﬁnement", "➀", "Instruction", "generation", "Data", "annotations", "➄", "Example", "synthesis", "➃", "Example", "labeling", "➂", "Example", "sampling", "Stage", "1:", "Prompt", "Construction", "Data", "Location", "Input:", "No", "walkability", "for", "people", "with", "mobility", "issues", "Output:", "Yes", "Data", "Slice", "Input:", "Crazy", "expensive", "for", "what", "you", "get", "Output:", "No", "…", "Input:", "Slightly", "isolated", "from", "the", "area's", "attractions", "Output:", "Yes", "Does", "the", "text", "discuss", "aspects", "of", "the", "hotel's", "location", "in", "reviews,", "including", "proximity", "to", "local", "attractions,", "accessibility,", "[text", "omitted]", "…?", "Slicing", "Prompt", "Instructions", "Few-shot", "Examples", "Stage", "2:", "Data", "Slicing", "Slicing", "Criterion"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 82.56,
+    "y2": 308.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Figure3-1.png"
+}, {
+  "caption": "Figure 5: We visualize F1 score and cost of each configuration (for",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.3673706054688,
+    "y1": 211.95791625976562,
+    "y2": 214.03802490234375
+  },
+  "figType": "Figure",
+  "imageText": ["zs-tmodel", "zs-hai", "fs-hai", "fs-div", "fs-teacher", "zs-model", "!", "\"", "#\"", "few-shot", "zero-shot", "zero-shot", "fs-syn", "(%", ")", "few-shot", "co", "re", "F1", "s", "60", "55", "50", "45", "40", "0", "2", "4", "6", "8", "10", "12", "Cost", "($)"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 351.84,
+    "x2": 526.0799999999999,
+    "y1": 85.92,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Figure5-1.png"
+}, {
+  "caption": "Table 4: SemSlicer can produce slices at a fast speed: Depending on",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04254150390625,
+    "y1": 165.04391479492188,
+    "y2": 167.1240234375
+  },
+  "figType": "Table",
+  "imageText": ["Average", "14.07", "7.40", "92.47", "523.79", "HateCheck", "12.25", "10.99", "32.12", "178.73", "AdaTest", "14.56", "10.84", "27.45", "111.79", "Amazon", "14.79", "6.01", "131.40", "648.90", "CivilComments", "14.46", "6.45", "93.17", "626.54", "zero-shot", "few-shot", "zero-shot", "few-shot", "Dataset", "Annotations/sec.", "Tokens/annotation"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 276.0,
+    "y1": 84.0,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Table4-1.png"
+}, {
+  "caption": "Figure 4: Prompt templates used in SemSlicer.",
+  "captionBoundary": {
+    "x1": 210.81301879882812,
+    "x2": 401.18487548828125,
+    "y1": 338.9408874511719,
+    "y2": 341.02099609375
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Prompt", "for", "➄", "example", "synthesis", "Text:", "{{text}}", "Answer:", "{{answer}}", "Write", "{n}", "examples", "with", "a", "'{label}'", "answer", "to", "the", "question", "above,", "following", "the", "format", "below.", "{examples}", "{question}", "Answer", "ONLY", "yes", "or", "no.", "(c)", "Prompt", "for", "➃", "example", "labeling", "and", "➅", "slice", "labeling.", "Text:", "{text}", "Answer:", "{examples}", "{question}", "Answer", "ONLY", "yes", "or", "no.", "(b)", "Prompt", "for", "➁", "instruction", "refinement.", "Instruction:", "{instruction}", "---", "Instruction:", "{{instruction}}", "Suggestion:", "{{suggestion}}", "Revised", "instruction:", "{{instruction}}", "Follow", "the", "following", "format:", "---", "I", "have", "a", "classification", "instruction", "that", "does", "not", "perform", "well.", "Can", "you", "give", "me", "some", "suggestions", "to", "improve", "the", "instruction?", "(a)", "Prompt", "for", "➀", "instruction", "generation.", "User", "goal:", "{instruction}", "[examples", "omitted]", "---", "User", "goal:", "{{instruction}}", "Suggestion:", "{{suggestion}}", "Follow", "the", "following", "format:", "---", "A", "user", "is", "exploring", "a", "dataset", "to", "identify", "a", "subset", "that", "matches", "their", "goal.", "Your", "job", "is", "to", "help", "the", "user", "craft", "a", "classification", "question.", "Answer", "ONLY", "with", "the", "question."],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 81.6,
+    "y2": 320.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695033-Figure4-1.png"
+}]

@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 3: Standard IR conversion patterns.",
+  "captionBoundary": {
+    "x1": 220.7570037841797,
+    "x2": 391.23651123046875,
+    "y1": 331.61883544921875,
+    "y2": 337.635009765625
+  },
+  "figType": "Figure",
+  "imageText": ["S4", "S1", "S3", "T'", "T", "S2", "S3", "S4", "S1", "S2", "%w1", "=\"tosa.const\"()", "{", "value=", "dense<\"0x...\">", "}", ":", "()", "->", "tensor", "%w2", "=", "\"tosa.const\"()", "{", "value=", "dense<\"0x...\">", "}", ":", "()", "->", "tensor", "%b", "=", "\"tosa.sub\"(%2,", "%w1)", ":", "(tensor,", "tensor)", "->", "tensor", "%c", "=", "\"tosa.add\"(%w2,", "%epsilon_const)", ":", "(tensor,", "...)", "->", "tensor", "...", "S3", "S4a", "S4b", "S4c", "S1", "S2", "C", "E", "B", "D", "W1", "W2One-to-many", "(Instantiation)", "S3", "S4a", "S4b", "S4c", "S1", "S2", "One-to-many", "(Mapping)", "%4", "=", "\"ufront.batchnorm\"(%2)", ":", "(tensor)", "->", "tensor", "S4", "S3", "S1", "S2", "One-to-one", "(Instantiation)", "S5'", "W", "S3", "S4", "S1", "S2", "S3", "S4", "S5", "S1", "S2", "%a", "=", "\"tosa.exp\"(%2)", ":", "(tensor)", "->", "tensor", "%b", "=", "\"tosa.reduce_sum\"(%a)", "{axis", "=", "1}", ":", "(", "tensor)", "->", "tensor", "%c", "=", "\"tosa.reciprocal\"(%b)", ":", "(tensor)", "->", "tensor", "%4", "=", "\"tosa.mul\"(%a,", "%c)", "{shift", "=", "0}", ":", "(tensor,", "tensor)", "->", "tensor", "%4=\"ufront.softmax\"(%2):(tensor)", "->", "tensor", "%w", "=\"tosa.const\"()", "{", "value", "=", "dense<\"0x85B5D8BD22...\">", "}", ":", "()", "->", "tensor", "%5'", "=", "\"tosa.matmul\"(%4,", "%w)", ":", "(tensor,", "tensor)", "->", "tensor", "%5", "=", "\"ufront.linear\"(%4)", ":", "(tensor)", "->", "tensor", "%t", "=", "\"tosa.transpose\"(%1,", "%dims1)", ":", "(tensor,", "tensor)", "->", "tensor", "%3", "=", "\"tosa.conv2d\"(%t,", "%weight,", "%bias)", "{", "pad", "=", "...}", ":", "(...)", "->", "tensor", "%t'", "=", "\"tosa.transpose\"(%3,", "%dims2)", ":", "(tensor,", "tensor)", "->", "tensor", "%2=\"tosa.clamp\"(%1)", "{", "max_fp", "=", "...}:(tensor)", "->", "tensor", "%2=\"ufront.relu\"(%1):(tensor)", "->", "tensor", "%3", "=", "\"ufront.conv2d\"(%1)", "{", "groups", "=", "1,", "kernel", "=", "[3,", "3],", "pad", "=", "[0,", "0],", "stride", "=", "[1,", "1]", "}", "One-to-one", "(Format", "Matching)", "S3", "S4", "S1", "S2", "S3", "S4", "S1", "S2'", "A", "One-to-one", "(Replacement)", "S3", "S4", "S1", "S2"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 547.1999999999999,
+    "y1": 84.0,
+    "y2": 315.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Figure3-1.png"
+}, {
+  "caption": "Table 7: Top-1 accuracy (%) comparison between UFront and official results on ImageNet-1k validation set.",
+  "captionBoundary": {
+    "x1": 91.2509994506836,
+    "x2": 520.4358520507812,
+    "y1": 203.9828338623047,
+    "y2": 209.9990234375
+  },
+  "figType": "Table",
+  "imageText": ["Official", "Reports2", "69.758", "76.130", "67.668", "72.996", "58.178", "74.434", "77.294", "81.072", "Pytorch", "Impl.", "69.346", "79.254", "67.006", "71.786", "57.850", "73.628", "76.864", "80.534", "UFront", "(Our)", "69.342", "79.249", "67.005", "71.787", "57.852", "73.626", "76.945", "80.520", "Methods", "ResNet18", "ResNet50", "MobileNetV3", "ShuffleNetV2", "SqueezeNet", "DenseNet", "InceptionV3", "ViT", "(Transformer)"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 521.28,
+    "y1": 216.0,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Table7-1.png"
+}, {
+  "caption": "Table 6: MAE, RMSE and COD comparison between UFront and popular deep learning frameworks.",
+  "captionBoundary": {
+    "x1": 104.79899597167969,
+    "x2": 506.8880920410156,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Pytorch", "6.44E-08", "5.46E-09", "1.22E-07", "1.01E-08", "2.49E-07", "1.24E-08", "4.34E-05", "8.529e-08", "3.23E-08", "7.40E-07", "Tensorflow", "1.23E-06", "8.10E-07", "0.00E+00", "6.68E-10", "6.74E-10", "1.26E-06", "3.82E-10", "1.155E-11", "1.12E-07", "5.86E-07RMSE", "ONNXRuntime", "1.12E-07", "9.72E-09", "1.65E-07", "1.48E-08", "2.05E-08", "5.01E-09", "1.27E-05", "1.892", "e-07", "4.16E-08", "7.77E-07", "1", "COD:", "all", "results", "equal", "to", "1.000", "except", "comparison", "to", "Tensorflow", "for", "DenseNet", "(0.996).", "Tensorflow", "6.950E-07", "5.270E-07", "4.140E-10", "5.460E-10", "3.827E-10", "1.305E-06", "4.224E-10", "9.034E-12", "2.651E-08", "1.233E-07MAE", "ONNXRuntime", "6.036E-09", "1.462E-09", "5.123E-09", "1.654E-09", "2.190E-09", "7.360E-10", "6.732E-06", "1.266e-07", "2.359E-09", "5.972E-07", "Metrics", "Compared", "Targets", "ResNet18", "ResNet50", "MobileNetV3", "ShuffleNetV2", "SqueezeNet", "DenseNet", "InceptionV3", "LSTM", "ViT", "Bert", "Pytorch", "1.966E-09", "1.199E-09", "8.024E-09", "1.024E-09", "6.106E-09", "5.906E-10", "2.580E-06", "6.314e-08", "1.936E-09", "5.643E-07", "UFront"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.28,
+    "y1": 97.92,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Table6-1.png"
+}, {
+  "caption": "Table 1: End-to-end compilation time for TensorFlow/Keras, PyTorch and ONNX models (mean of 10 runs, in seconds).",
+  "captionBoundary": {
+    "x1": 66.1500015258789,
+    "x2": 545.5348510742188,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ONNX", "Ufront", "3.343", "6.914", "3.242", "3.630", "1.480", "7.441", "8.500", "3.382", "19.720", "25.953", "ONNX-MLIR", "6.816", "19.840", "10.342", "12.647", "4.260", "102.877", "28.371", "25.661", "92.062", "73.499", "PyTorch", "Ufront", "1.975", "3.996", "2.764", "2.289", "1.310", "6.720", "5.315", "1.145", "7.291", "7.857", "Torch-MLIR", "1.489", "3.369", "4.780", "2.539", "1.544", "Failed", "5.385", "Failed", "Failed", "Failed", "TF/Keras", "Ufront", "4.337", "8.076", "5.091", "4.250", "2.503", "10.855", "10.177", "8.061", "28.124", "32.300", "IREE-TF", "7.723", "18.865", "15.850", "16.367", "3.986", "41.876", "27.571", "13.053", "33.494", "35.763", "Framework", "Frontends", "ResNet18", "Resnet50", "MobileNetV3", "ShuffleNetV2", "SqueezeNet", "DenseNet", "InceptionV3", "LSTM", "ViT", "Bert"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 546.24,
+    "y1": 97.92,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Table1-1.png"
+}, {
+  "caption": "Table 2: Time Breakdown of UFront compilation pipeline for PyTorch, TensorFlow/Keras and ONNX models (in seconds).",
+  "captionBoundary": {
+    "x1": 60.573001861572266,
+    "x2": 551.1116333007812,
+    "y1": 202.7707977294922,
+    "y2": 208.7869873046875
+  },
+  "figType": "Table",
+  "imageText": ["ONNX", "ONNX→", "TOSA", "1.153", "2.558", "0.450", "1.348", "0.141", "1.605", "2.044", "1.308", "12.544", "19.764", "TOSA→", "Binary", "2.190", "4.356", "2.792", "2.282", "1.339", "5.836", "6.456", "2.074", "7.176", "6.189", "Total", "(end2end)", "3.343", "6.914", "3.242", "3.630", "1.480", "7.441", "8.500", "3.382", "19.720", "25.953", "PyTorch", "PyTorch→", "TOSA", "0.339", "0.763", "0.232", "0.300", "0.064", "1.120", "0.789", "0.048", "2.344", "2.545", "TOSA→", "Binary", "1.636", "3.233", "2.532", "1.989", "1.246", "5.600", "4.526", "1.097", "4.947", "5.312", "Total", "(end2end)", "1.975", "3.996", "2.764", "2.289", "1.310", "6.720", "5.315", "1.145", "7.291", "7.857", "TF/Keras", "TF/Keras→", "TOSA", "2.402", "5.025", "2.591", "2.285", "0.902", "6.416", "6.085", "6.883", "23.300", "27.892", "TOSA→", "Binary", "1.935", "3.051", "2.500", "1.965", "1.601", "4.439", "4.092", "1.178", "4.824", "4.408", "Total", "(end2end)", "4.337", "8.076", "5.091", "4.250", "2.503", "10.855", "10.177", "8.061", "28.124", "32.300", "Framework", "Pipeline", "ResNet18", "Resnet50", "MobileNetV3", "ShuffleNetV2", "SqueezeNet", "DenseNet", "InceptionV3", "LSTM", "ViT", "Bert"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.28,
+    "y1": 214.56,
+    "y2": 333.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Table2-1.png"
+}, {
+  "caption": "Figure 1: UFront’s design workflow",
+  "captionBoundary": {
+    "x1": 102.7959976196289,
+    "x2": 245.0415496826172,
+    "y1": 432.3868408203125,
+    "y2": 438.40301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Python", "Module", "C++", "Module", "Rust", "Module", "ML", "Frameworks", "Hardware", "ASIC", "Shape", "Info", "Type", "Info", "Shape", "&", "Type", "Inference", "Pattern", "Match", "IR", "Lowering", "Standard", "IR", "Conversion", "SSA", "Signature", "Iteration", "High-level", "IR", "Generation", "Compiler", "Backend", "&", "Runtime", "Name", "Argument", "Extension", "Unified", "Computing", "Interface", "n", "rs", "io", "on", "ve", "R", "C", "ve", "l", "I", "h-", "le", "H", "ig", "UFront", "Graph", "...", "%0", "=", "\"tosa.conv2d\"(%x,", "%weight,", "%bias)", "{", "dilation", "=", "array<i64:", "1,", "1>,", "pad", "=", "array<i64:", "0,", "0,", "0,", "0>,", "stride", "=", "array<i64:", "1,", "1>", "}", "%0", "=", "\"ufront.conv2d\"(%x)", "{", "groups", "=", "1,", "kernel", "=", "[3,", "3],", "pad", "=", "[0,", "0],", "stride", "=", "[1,", "1]", "}", "def", "forward(self,", "x):", "x", "=", "self.conv(x)", "...", "class", "Module(nn.Module):", "def", "__init__(self):", "self.conv", "=", "nn.Conv2d(3,", "32,", "3,", "1)", "...", "TOSA", "IR", "High-level", "IR", "Trace", "Parse", "Fuse", "Model", "Tracing", "Original", "Model"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 283.68,
+    "y1": 211.67999999999998,
+    "y2": 418.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Execution time of TF/Keras models on CPU (normalized)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7984619140625,
+    "y1": 482.1048278808594,
+    "y2": 499.0790100097656
+  },
+  "figType": "Figure",
+  "imageText": ["UFront", "IREE-TF", "am", "pl", "e", "s)", "pe", "rs", "ec", "os", "ts", "(m", "d", "tim", "al", "ize", "No", "rm", "15", "10", "5", "0", "Re", "sN", "et1", "8", "Re", "sne", "t50", "Mo", "bil", "eN", "etV", "3", "Sh", "uffl", "eN", "etV", "2", "Sq", "ue", "eze", "Ne", "t", "De", "nse", "Ne", "t", "Inc", "ept", "ion", "V3", "LS", "TM", "VI", "T", "Be", "rt"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 349.91999999999996,
+    "x2": 529.4399999999999,
+    "y1": 317.76,
+    "y2": 465.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Execution time of TF/Keras models on GPU (normalized)",
+  "captionBoundary": {
+    "x1": 317.95599365234375,
+    "x2": 559.798583984375,
+    "y1": 670.0958251953125,
+    "y2": 687.0709838867188
+  },
+  "figType": "Figure",
+  "imageText": ["am", "pl", "e", "UFront", "IREE-TF", "s)", "pe", "rs", "os", "ts", "(m", "im", "ec", "ali", "ze", "dt", "No", "rm", "1,4", "1,2", "1", "0,8", "0,6", "0,4", "Re", "sN", "et1", "8", "Re", "sne", "t50", "Mo", "bil", "eN", "etV", "3", "Sh", "uffl", "eN", "etV", "2", "Squ", "eez", "eN", "et", "De", "nse", "Ne", "t", "Inc", "ept", "ion", "V3", "LST", "M", "VIT", "Be", "rt"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 353.28,
+    "x2": 525.12,
+    "y1": 529.92,
+    "y2": 654.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Figure5-1.png"
+}, {
+  "caption": "Figure 2: Motivating example.",
+  "captionBoundary": {
+    "x1": 245.56700134277344,
+    "x2": 366.42864990234375,
+    "y1": 276.5168151855469,
+    "y2": 282.5329895019531
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Sample", "model", "(b)", "Corresponding", "high-level", "IR", "generated", "by", "UFront", "func.func", "@forward(%input1:", "tensor<1x3x32x32xf32>,", "%input2:", "tensor<1x3x32x32xf32>)", "->", "tensor<1x10xf32>", "{", "%1=\"ufront.conv2d\"(%input1){groups=1,", "kernel=[3,", "3],", "pad=[0,", "0],", "stride=[1,", "1]}:(tensor<1x3x32x32xf32>)", "->", "tensor<1x32x30x30xf32>", "%2=\"ufront.relu\"(%1):(tensor<1x32x30x30xf32>)", "->", "tensor<1x32x30x30xf32>", "%3=\"ufront.conv2d\"(%input2){groups=1,", "kernel=[3,", "3],", "pad=[0,", "0],", "stride=[1,", "1]}:(tensor<1x3x32x32xf32>)", "->", "tensor<1x32x30x30xf32>", "%4=\"ufront.relu\"(%3):(tensor<1x32x30x30xf32>)", "->", "tensor<1x32x30x30xf32>", "%5=\"ufront.concat\"(%2,", "%4){axis=1}:(tensor<1x32x30x30xf32>,", "tensor<1x32x30x30xf32>)", "->", "tensor<1x64x30x30xf32>", "%6,", "%7=\"ufront.split\"(%5){axis=1,", "sizes=[32,", "32]}:(tensor<1x64x30x30xf32>)", "->", "(tensor<1x32x30x30xf32>,", "tensor<1x32x30x30xf32>)", "%8=\"ufront.concat\"(%6,", "%7){axis=1}:(tensor<1x32x30x30xf32>,", "tensor<1x32x30x30xf32>)", "->", "tensor<1x64x30x30xf32>", "%9=\"ufront.conv2d\"(%8){groups=1,", "kernel=[3,", "3],", "pad=[0,", "0],", "stride=[1,", "1]}:(tensor<1x64x30x30xf32>)", "->", "tensor<1x64x28x28xf32>", "%10=\"ufront.relu\"(%9):(tensor<1x64x28x28xf32>)", "->", "tensor<1x64x28x28xf32>", "%11=\"ufront.pool2d\"(%10){kernel=[4,", "4],", "pool_type=\"POOL_MAX\",", "stride=[4,", "4]}:(tensor<1x64x28x28xf32>)", "->", "tensor<1x64x7x7xf32>", "%12=\"ufront.batchnorm\"(%11){affine=true,", "eps=0.00001,", "momentum=0.1}:(tensor<1x64x7x7xf32>)", "->", "tensor<1x64x7x7xf32>", "%13=\"ufront.flat\"(%12){end_dim=-1,", "start_dim=1}:(tensor<1x64x7x7xf32>)", "->", "tensor<1x3136xf32>", "%14=\"ufront.linear\"(%13):(tensor<1x3136xf32>)", "->", "tensor<1x512xf32>", "%15=\"ufront.relu\"(%14):(tensor<1x512xf32>)", "->", "tensor<1x512xf32>", "%16=\"ufront.linear\"(%15):(tensor<1x512xf32>)", "->", "tensor<1x10xf32>", "%17=\"ufront.softmax\"(%16):(tensor<1x10xf32>)", "->", "tensor<1x10xf32>", "return", "%17:", "tensor<1x10xf32>", "}", "class", "DualNN(nn.Module):", "def", "__init__(self):", "super().__init__()", "self.conv1", "=", "nn.Conv2d(3,", "32,", "3,", "1)", "self.conv2", "=", "nn.Conv2d(64,", "64,", "3,", "1)", "self.pool1", "=", "nn.MaxPool2d(4,", "4)", "self.batch_norm", "=", "nn.BatchNorm2d(64)", "self.flat1", "=", "nn.Flatten()", "self.linear1", "=", "nn.Linear(3136,", "512)", "self.linear2", "=", "nn.Linear(512,", "10)", "self.relu", "=", "nn.ReLU()", "def", "forward(self,", "input1,", "input2):", "y1", "=", "self.relu(self.conv1(input1))", "y2", "=", "self.relu(self.conv1(input2))", "y", "=", "torch.cat((y1,", "y2),", "1)", "(y1,", "y2)", "=", "torch.split(y,", "[32,", "32],", "dim=1)", "y", "=", "torch.cat((y1,", "y2),", "1)", "y", "=", "self.relu(self.conv2(y))", "y", "=", "self.pool1(y)", "y", "=", "self.flat1(self.batch_norm(y))", "y", "=", "self.relu(self.linear1(y))", "return", "self.linear2(y)"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 546.24,
+    "y1": 87.84,
+    "y2": 264.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Figure2-1.png"
+}, {
+  "caption": "Table 4: Execution time (ms) of PyTorch models with UFront and Torch-MLIR as compiling frontends.",
+  "captionBoundary": {
+    "x1": 99.39700317382812,
+    "x2": 512.2901611328125,
+    "y1": 168.3578338623047,
+    "y2": 174.3740234375
+  },
+  "figType": "Table",
+  "imageText": ["GPU", "Torch-MLIR", "6.158±0.021", "12.000±0.000", "2.759±0.003", "1.965±0.005", "1.241±0.003", "Failed", "13.200±0.000", "Failed", "Failed", "Failed", "Torch-MLIR", "70.7±0.875", "169±0.310", "5.49±0.227", "14.6±0.053", "20.6±0.404", "Failed", "234±0.105", "Failed", "Failed", "Failed", "UFront", "2.731±0.003", "6.151±0.010", "1.070±0.000", "2.070±0.008", "1.170±0.000", "8.169±0.018", "12.420±0.040", "1.13±0.053", "35.150±0.092", "5.716±0.018", "UFront", "59.8±0.081", "150±0.755", "6.61±0.049", "12.9±0.079", "14.1±0.126", "106±0.225", "94.1±0.076", "6.8±0.078", "758±2.91", "71±0.026", "CPU", "Target", "Frontends", "ResNet18", "Resnet50", "MobileNetV3", "ShuffleNetV2", "SqueezeNet", "DenseNet", "InceptionV3", "LSTM", "ViT", "Bert"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.28,
+    "y1": 180.95999999999998,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Table4-1.png"
+}, {
+  "caption": "Table 5: Execution time (ms) of ONNX models with UFront and ONNX-MLIR as compiling frontends.",
+  "captionBoundary": {
+    "x1": 101.95700073242188,
+    "x2": 509.7305908203125,
+    "y1": 251.3748016357422,
+    "y2": 257.3909912109375
+  },
+  "figType": "Table",
+  "imageText": ["GPU", "UFront", "2.879±0.003", "6.009±0.014", "1.372±0.004", "2.470±0.000", "1.106±0.007", "8.357±0.016", "11.940±0.049", "1.100±0.039", "41.890±0.158", "3.63±0.036", "ONNX-MLIR", "Nan", "Nan", "Nan", "Nan", "Nan", "Nan", "Nan", "Nan", "Nan", "Nan", "CPU", "UFront", "58.6±0.319", "148±0.094", "5.11±0.424", "19.9±0.094", "13.6±0.281", "106±0.440", "78.9±0.152", "3.57±0.060", "1006±3.5", "70.9±0.064", "ONNX-MLIR", "1220±3.280", "1650±9.630", "15.1±0.158", "34.4±0.107", "136±0.423", "1030±7.71", "1450±4.41", "3.94±0.015", "2070±9.06", "92.7±1.03", "Target", "Frontends", "ResNet18", "Resnet50", "MobileNetV3", "ShuffleNetV2", "SqueezeNet", "DenseNet", "InceptionV3", "LSTM", "ViT", "Bert"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 546.24,
+    "y1": 264.0,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Table5-1.png"
+}, {
+  "caption": "Figure 6: Execution time of PyTorchmodels onCPUandGPU (normalized).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0362548828125,
+    "y1": 603.2438354492188,
+    "y2": 620.218994140625
+  },
+  "figType": "Figure",
+  "imageText": ["UFront(CPU)", "Torch-MLIR(CPU)", "UFront(GPU)", "Torch-MLIR(GPU)", "s)/", "sa", "m", "pl", "e", "ec", "os", "ts", "(m", "d", "tim", "al", "ize", "No", "rm", "2", "1,5", "1", "0,5", "0", "Re", "sN", "et1", "8", "Re", "sne", "t50", "Mo", "bil", "eN", "etV", "3", "Sh", "uffl", "eN", "etV", "2", "Sq", "ue", "eze", "Ne", "t", "Inc", "ep", "tio", "nV", "3"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 258.24,
+    "y1": 437.76,
+    "y2": 590.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Figure6-1.png"
+}, {
+  "caption": "Table 3: Execution time (ms) of TensorFlow/Keras models with UFront and IREE-TF as compiling frontends.",
+  "captionBoundary": {
+    "x1": 87.41799926757812,
+    "x2": 524.268310546875,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GPU", "UFront", "2.878±0.004", "6.045±0.025", "1.151±0.003", "2.220±0.000", "1.131±0.003", "6.551±0.033", "11.420±0.040", "1.610±0.036", "29.000±0.063", "3.290±0.042", "IREE-TF", "3.232±0.009", "6.133±0.016", "1.520±0.000", "2.480±0.000", "1.390", "±", "0.001", "7.166±0.007", "11.900±0.003", "1.690±0.041", "33.380±0.087", "3.340±0.058", "CPU", "UFront", "55.2±0.078", "134±0.187", "5.51±0.795", "18±0.139", "13.6±0.198", "99.3±0.935", "80.1±0.050", "21.4±0.109", "756±1.34", "73.6±0.061", "IREE-TF", "127±0.275", "204±0.305", "77.8±0.299", "83.5±0.336", "82.1±0.466", "178±0.836", "169±0.584", "82.9±1.56", "783±0.906", "68.3±0.219", "Target", "Frontends", "ResNet18", "Resnet50", "MobileNetV3", "ShuffleNetV2", "SqueezeNet", "DenseNet", "InceptionV3", "LSTM", "ViT", "Bert"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 545.28,
+    "y1": 97.92,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Table3-1.png"
+}, {
+  "caption": "Figure 7: Execution time of ONNX models on CPU (normalized).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7957153320312,
+    "y1": 653.351806640625,
+    "y2": 670.3270263671875
+  },
+  "figType": "Figure",
+  "imageText": ["UFront", "ONNX-MLIR", "am", "pl", "e", "s)", "pe", "rs", "ec", "os", "ts", "(m", "ali", "ze", "d", "tim", "No", "rm", "20", "15", "10", "5", "0", "Re", "sN", "et1", "8", "Re", "sne", "t50", "Mo", "bil", "eN", "etV", "3", "Sh", "uffl", "eN", "etV", "2", "Sq", "ue", "eze", "Ne", "t", "De", "nse", "Ne", "t", "Inc", "ept", "ion", "V3", "LS", "TM", "VI", "T", "Be", "rt"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 356.15999999999997,
+    "x2": 523.1999999999999,
+    "y1": 487.68,
+    "y2": 640.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695002-Figure7-1.png"
+}]

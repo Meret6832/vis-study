@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 5: Temperature tuning for GPT-4 and PaLM-2 on a sample of 50 problems at four di erent temperatures ) ∈ {0.0, 0.25, 0.5, 0.75} for three di erent prompts. The vertical axis shows the verified Dafny method synthesis rate in verify@k (k=5).",
+  "captionBoundary": {
+    "x1": 45.11090087890625,
+    "x2": 440.17645263671875,
+    "y1": 187.70785522460938,
+    "y2": 213.85800170898438
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Figure5-1.png"
+}, {
+  "caption": "Table 4: Examples of LLMs synthesis Strong, Weak and Wrong postconditions; Required and Optional preconditions; invariants subsuming postconditions, and auxiliary definitions.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17193603515625,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["invariant", "0", "<=", "i", "<=", "|list|", "invariant", "result", "<==>", "(exists", "k", "::", "0", "<=", "k", "<", "i", "&&", "sub", "==", "list[k])", "result", ":=", "false;", "for", "i", ":=", "0", "to", "|list|", "{", "ensures", "result", "<==>", "(exists", "i", "::", "0", "<=", "i", "<", "|list|", "&&", "sub", "==", "list[i])", "/*", "Write", "a", "method", "in", "Dafny", "to", "check", "whether", "a", "list", "of", "sequence", "contains", "the", "given", "sequence", "or", "not.*/", "method", "ContainsSequence(list:", "seq<seq<int>>,", "sub:", "seq<int>)", "returns", "(result:", "bool)", "Subsume", "Post-", "conditions", "Invariants", "requires", "a", "!=", "null", "/*In", "Dafny", "arrays", "and", "sequences", "are", "never", "null,", "unless", "the", "method", "declares", "them", "as", "array?", "and", "seq?*/", "//Write", "a", "method", "in", "Dafny", "to", "append", "the", "given", "array", "to", "the", "given", "sequence.", "method", "AppendArrayToSeq(s:", "seq<int>,", "a:", "array<int>)", "returns", "(r:", "seq<int>)", "Optional", "requires", "n", ">=", "0", "ensures", "|result|", "==", "|l|", "ensures", "forall", "i", "::", "0", "<=", "i", "<", "|l|", "==>", "result[i]", "==", "Power(l[i],", "n)", "method", "PowerOfListElements(l:", "seq<int>,", "n:", "int)", "returns", "(result:", "seq<int>)", "requires", "exponent", ">=", "0", "{", "if", "exponent", "==", "0", "then", "1", "else", "base", "*", "Power(base,", "exponent-1)", "}", "//Write", "a", "method", "in", "Dafny", "to", "compute", "the", "n-th", "power", "of", "each", "number", "in", "a", "list.", "function", "Power(base:", "int,", "exponent:", "int):", "int", "//..", "Auxiliary", "Definitions", "Pre-", "conditions", "Required", "then", "(a[a.Length", "/", "2", "-", "1]", "+", "b[0])", "/", "2", "else", "a[a.Length", "/", "2]", "//...MISUNDERSTANDING", "ensures", "median", "==", "if", "(a.Length", "%", "2", "==", "0)", "//Write", "a", "method", "in", "Dafny", "to", "find", "the", "median", "of", "two", "sorted", "lists", "of", "same", "size.", "method", "FindMedian(a:", "array<int>,", "b:", "array<int>)", "returns", "(median:", "int)", "Wrong", "//strong", "postcondition", "will", "also", "check", "the", "relative", "order", "of", "the", "sequence", "values.", "returns", "(interleavedSeq:", "seq<int>)", "requires", "|seq1|", "==", "|seq2|", "==", "|seq3|", "ensures", "|interleavedSeq|", "==", "3", "*", "|seq1|", "/*Write", "a", "method", "in", "Dafny", "to", "interleave", "3", "sequence", "of", "the", "same", "length", "into", "a", "single", "flat", "sequence.*/", "method", "InterleaveThreeSequences(seq1:", "seq<int>,", "seq2:", "seq<int>,", "seq3:", "seq<int>)", "Weak", "||", "(2*i", "+", "2", "!=", "a.Length", "&&", "a[i]", ">", "a[2*i", "+", "2]))", "ensures", "!result", "==>", "exists", "i", "::", "0", "<=", "i", "<", "a.Length", "/", "2", "&&", "(a[i]", ">", "a[2*i", "+", "1]", "&&", "(2*i", "+", "2", "==", "a.Length", "||", "a[i]", "<=", "a[2*i", "+", "2])", "ensures", "result", "==>", "forall", "i", "::", "0", "<=", "i", "<", "a.Length", "/", "2", "==>", "a[i]", "<=", "a[2*i", "+", "1]", "//Write", "a", "method", "in", "Dafny", "to", "check", "if", "the", "given", "array", "represents", "min", "heap", "or", "not.", "method", "IsMinHeap(a:", "array<int>)", "returns", "(result:", "bool)", "Strong", "Post-", "conditions", "Speci", "cations", "LLM", "Synthesis", "Speci", "cations", "in", "Dafny"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 117.6,
+    "y2": 519.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Table4-1.png"
+}, {
+  "caption": "Figure 4: Examples of Specification Prompt (top) and CoT Prompt (bo om)",
+  "captionBoundary": {
+    "x1": 105.45590209960938,
+    "x2": 380.54510498046875,
+    "y1": 656.5916748046875,
+    "y2": 660.8237915039062
+  },
+  "figType": "Figure",
+  "imageText": ["AI", "ASSISTANT:", "Write", "a", "method", "in", "Dafny", "to", "find", "maximum", "run", "of", "uppercase", "characters", "in", "the", "given", "string.", "————————————————————————————————————————————————————————————————————————", "TASK:", "//Four", "more", "semantically", "similar", "example", "TASKS", "```", "————————————————————————————————————————————————————————————————————————", "}", "}", "}", "result", ":=", "true;", "break;", "if", "s[i]", "==", "'z'", "||", "s[i]", "==", "'Z'", "{", "{", "invariant", "0", "<=", "i", "<=", "|s|", "invariant", "result", "<==>", "(exists", "k", "::", "0", "<=", "k", "<", "i", "&&", "(s[k]", "==", "'z'", "||", "s[k]", "==", "'Z'))", "result", ":=", "false;", "for", "i", ":=", "0", "to", "|s|", "{", "ensures", "result", "<==>", "(exists", "i", "::", "0", "<=", "i", "<", "|s|", "&&", "(s[i]", "==", "'z'", "||", "s[i]", "==", "'Z'))", "method", "ContainsZ(s:", "string)", "returns", "(result:", "bool)", "```dafny", "Step", "4:", "Write", "the", "code,", "its", "formal", "specification,", "and", "the", "verification", "annotations", "that", "help", "the", "solver", "prove", "the", "postconditions.", "In", "this", "case:", "-", "The", "result", "is", "true", "if", "the", "input", "string", "contains", "the", "character", "’z’", "or", "’Z’", "-", "The", "result", "is", "false", "if", "the", "input", "string", "does", "not", "contain", "the", "character", "’z’", "or", "’Z’", "Step", "3:", "Determine", "the", "postconditions.", "In", "this", "case:", "-", "There", "are", "no", "preconditions,", "the", "method", "will", "work.", "Strings", "and", "sequences", "are", "always", "not", "null.", "Step", "2:", "Determine", "the", "preconditions.", "In", "this", "case:", "method", "ContainsZ(s:", "string)", "returns", "(result:", "bool", ")", "Step", "1:", "Determine", "the", "method’s", "signature.", "In", "this", "case:", "AI", "ASSISTANT:", "SYSTEM:", "You", "are", "an", "expert", "AI", "assistant", "that", "writes", "Dafny", "programs.", "You", "are", "very", "good", "at", "writing", "verifiable", "correct", "code", "in", "terms", "of", "preconditions", "and", "postconditions", "of", "methods,", "and", "at", "finding", "the", "appropriate", "loop", "invariants", "for", "the", "pre/postconditions", "to", "hold.", "————————————————————————————————————————————————————————————————————————", "TASK:", "Write", "a", "method", "in", "Dafny", "that", "matches", "a", "word", "containing", "’z’.", "Dynamic", "Few-Shot", "Prompting", "[Chain", "of", "Thought", "(CoT)", "Prompt]", "Write", "a", "method", "in", "Dafny", "to", "find", "maximum", "run", "of", "uppercase", "characters", "in", "the", "given", "string.", "————————————————————————————————————————————————————————————————————————", "TASK:", "//Two", "more", "semantically", "similar", "example", "TASKS", "————————————————————————————————————————————————————————————————————————", "-", "The", "length", "of", "the", "returning", "string", "must", "be", "the", "same", "as", "the", "length", "of", "the", "input", "string", "-", "All", "lowercase", "characters", "of", "the", "input", "string", "are", "uppercase", "in", "the", "output", "string", "-", "All", "other", "characters", "are", "unchanged", "Postconditions:", "method", "ToUppercase(s:", "string", ")", "returns", "(v:", "string", ")", "Method", "Signature:", "TASK:", "Write", "a", "method", "in", "Dafny", "to", "convert", "a", "given", "string", "to", "uppercase.", "Dynamic", "Few-Shot", "Prompting", "[Speci", "cation", "Prompt]"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 89.75999999999999,
+    "y2": 650.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Figure4-1.png"
+}, {
+  "caption": "Table 3: Summary of qualitative analysis of specifications synthesis in verified methods. The number in the denominator represents the total number of verified methods containing specifications. For each prompt, LLM responses were generated with their tuned temperatures at verify@k (k=5).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1603088378906,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Invariants", "Strong", "10/27", "5/16", "51/57", "(89.47%)", "N/A", "N/A", "13/13", "Weak/Wrong", "17/27", "11/16", "6/57", "N/A", "N/A", "0/13", "Preconditions", "Required", "19/41", "10/21", "36/74", "(48.64%)", "N/A", "0/1", "6/35", "Optional", "22/41", "11/21", "38/74", "N/A", "1/1", "29/35", "Postconditios", "Strong", "34/56", "18/30", "103/114", "(90.35%)", "N/A", "1/1", "35/52", "Weak", "15/56", "9/30", "3/114", "N/A", "0/1", "3/52", "Wrong", "7/56", "3/30", "8/114", "N/A", "0/1", "14/52", "Contextless", "Signature", "Dynamic", "Few-Shot", "Contextless", "Signature", "Dynamic", "Few-Shot", "Prompts", "Prompts", "GPT-4", "PaLM-2", "Speci", "cations", "Groups"],
+  "name": "3",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 128.64,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Table3-1.png"
+}, {
+  "caption": "Table 2: Summary of specifications synthesis result, in both verified and unverified methods. The number in the denominators represents the total number of verified and unverified methods respectively. For each prompt, LLMs responses were generated with their tuned temperatures at verify@k (k=5).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3345642089844,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Dynamic", "Few-Shot", "Speci", "cations", "Veri", "ed", "Unveri", "ed", "Veri", "ed", "Unveri", "ed", "has", "postconditions", "114/114", "(100%)", "61/61", "(100%)", "52/52", "(100%)", "123/123", "(100%)", "has", "preconditions", "74/114", "(64.91%)", "42/61", "(68.85%)", "35/52", "(67.30%)", "99/123", "(80.48%)", "has", "both", "74/114", "(64.91%)", "42/61", "(68.85%)", "35/52", "(67.30%)", "99/123", "(80.48%)", "has", "invariants", "57/114", "(50.0%)", "57/61", "(93.44%)", "13/52", "(25.0%)", "90/123", "(73.17%)", "Speci", "cations", "Veri", "ed", "Unveri", "ed", "Veri", "ed", "Unveri", "ed", "has", "postconditions", "30/95", "(31.57%)", "22/80", "(27.5%)", "1/12", "(8.33%)", "62/162", "(38.27%)", "has", "preconditions", "46/95", "(48.42%)", "31/80", "(38.75%)", "1/12", "(8.33%)", "61/162", "(37.65%)", "has", "both", "21/95", "(22.10%)", "19/80", "(23.75%)", "1/12", "(8.33%)", "61/162", "(37.65%)", "has", "invariants", "38/95", "(40.00%)", "19/80", "(23.75%)", "0/12", "(0.00%)", "6/162", "(3.70%)", "Signature", "Speci", "cations", "Veri", "ed", "Unveri", "ed", "Veri", "ed", "Unveri", "ed", "has", "postconditions", "56/104", "(53.84%)", "48/73", "(65.75%)", "N/A", "104/176", "(59.09%)", "has", "preconditions", "64/104", "(61.53%)", "47/73", "(64.38%)", "N/A", "2/176", "(1.13%)", "has", "both", "41/104", "(39.42%)", "32/73", "(43.83%)", "N/A", "2/176", "(1.13%)", "has", "invariants", "40/104", "(38.46%)", "28/73", "(38.35%)", "N/A", "4/176", "(2.27%)", "Contextless", "Prompts", "GPT-4", "PaLM-2"],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 312.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Table2-1.png"
+}, {
+  "caption": "Figure 2: Examples of Contextless and Signature prompts",
+  "captionBoundary": {
+    "x1": 218.31219482421875,
+    "x2": 425.4228210449219,
+    "y1": 495.425048828125,
+    "y2": 499.6571960449219
+  },
+  "figType": "Figure",
+  "imageText": ["```", "//Dafny", "Code", "```dafny", "You", "must", "return", "the", "method", "in", "the", "following", "form:", "var", "out3:=maxRunUppercase(", "\"GooGLEFluTTER\"", ");", "assert", "out3==4;", "var", "out2:=maxRunUppercase(", "\"PrECIOusMOVemENTSYT\"", ");", "assert", "out2==6;", "var", "out1:=maxRunUppercase(", "\"GeMKSForGERksISBESt\"", ");", "assert", "out1==5;", "Your", "code", "should", "satisfy", "these", "tests:", "int", ")", "method", "maxRunUppercase", "(str:", "string", ")", "returns", "(res:", "Method", "Signature:", "You", "are", "an", "expert", "Dafny", "programmer,", "and", "here", "is", "your", "task:", "Write", "a", "method", "in", "Dafny", "to", "find", "maximum", "run", "of", "uppercase", "characters", "in", "the", "given", "string.", "Signature", "Prompt", "```", "//Dafny", "Code", "```dafny", "You", "must", "return", "the", "method", "in", "the", "following", "form:", "You", "are", "an", "expert", "Dafny", "programmer,", "and", "here", "is", "your", "task:", "Write", "a", "method", "in", "Dafny", "to", "find", "maximum", "run", "of", "uppercase", "characters", "in", "the", "given", "string.", "Contextless", "Prompt"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 202.56,
+    "x2": 441.12,
+    "y1": 189.6,
+    "y2": 475.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Figure2-1.png"
+}, {
+  "caption": "Figure 1: An example Dafny method; FindSmallest",
+  "captionBoundary": {
+    "x1": 220.97320556640625,
+    "x2": 414.8796081542969,
+    "y1": 636.60888671875,
+    "y2": 640.8410034179688
+  },
+  "figType": "Figure",
+  "imageText": ["1", ":", "method", "FindSmallest(s:", "array<int>)", "returns", "(min:", "int)", "2", ":", "requires", "s.Length", ">", "0", "//", "preconditions", "3", ":", "//", "postconditions", "4", ":", "ensures", "forall", "i", "::", "0", "<=", "i", "<", "s.Length", "==>", "min", "<=", "s[i]", "5", ":", "ensures", "exists", "i", "::", "0", "<=", "i", "<", "s.Length", "&&", "min", "==", "s[i]", "6", ":", "{", "7", ":", "min", ":=", "s[0];", "8", ":", "for", "i", ":=", "1", "to", "s.Length", "9", ":", "invariant", "0", "<=", "i", "<=", "s.Length", "//loop-invariants", "10:", "invariant", "forall", "k", "::", "0", "<=", "k", "<", "i", "==>", "min", "<=", "s[k]", "11:", "invariant", "exists", "k", "::", "0", "<=", "k", "<", "i", "&&", "min", "==", "s[k]", "12:", "{", "13:", "if", "s[i]", "<", "min", "{", "min", ":=", "s[i];", "}", "14:", "}", "15:", "}", "16:", "//Main", "program,", "with", "a", "test", "case", "(checked", "statically!)", "17:", "method", "Main()", "{", "18:", "var", "a1:=", "new", "int[]", "[1,2,3];", "19:", "var", "out1:=", "FindSmallest(a1);", "20:", "assert", "out1", "==", "1;", "21:", "}", "Find", "the", "smallest", "element", "in", "an", "array"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 194.88,
+    "x2": 441.12,
+    "y1": 404.64,
+    "y2": 616.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Figure1-1.png"
+}, {
+  "caption": "Table 1: Summary of verified Dafny method synthesis on 178 problems. For each prompt, LLMs responses were generated with their tuned temperature (T ) at verify@k (where : ∈ {1, 3, 5})",
+  "captionBoundary": {
+    "x1": 45.50510025024414,
+    "x2": 440.17034912109375,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["k=1", "86/178", "(48.31%)", "T=0.50", "k=1", "30/178", "(16.85%)", "k=3", "105/178", "(58.98%)", "k=3", "43/178", "(24.15%)", "k=5", "114/178", "(64.04%)", "k=5", "52/178", "(29.21%)", "T=0.50", "Temperature", "verify@k", "Temperature", "verify@k", "Dynamic", "Few-Shot", "k=1", "59/178", "(33.14%)", "T=0.50", "k=1", "12/178", "(6.74%)", "k=3", "88/178", "(49.43%)", "k=3", "9/178", "(5.05%)", "k=5", "95/178", "(53.37%)", "k=5", "12/178", "(6.74%)", "T=0.75", "Temperature", "verify@k", "Temperature", "verify@k", "Signature", "k=1", "58/178", "(32.58%)", "T=0.00", "k=1", "0/178", "(0.00%)", "k=3", "92/178", "(51.64%)", "k=3", "0/178", "(0.00%)", "k=5", "104/178", "(58.42%)", "k=5", "0/178", "(0.00%)", "T=0.75", "Temperature", "verify@k", "Temperature", "verify@k", "Contextless", "Prompts", "GPT-4", "PaLM-2"],
+  "name": "1",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 117.6,
+    "y2": 271.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Table1-1.png"
+}, {
+  "caption": "Figure 3: A high-level architecture of the RAG prompt-chaining pipeline for Dynamic Few-Shot Prompting.",
+  "captionBoundary": {
+    "x1": 46.389801025390625,
+    "x2": 439.6116638183594,
+    "y1": 214.49386596679688,
+    "y2": 218.72601318359375
+  },
+  "figType": "Figure",
+  "imageText": ["Prompting", "to", "LLM", "LLM", "Embeddings", "CoT", "Prompt", "MBPP-DFY-50", "Problem", "Description", "Method", "Signature", "Postconditions", "Embeddings", "Specification", "Example", "Selection", "Conversation", "Buffer", "Memory", "Dafny", "Method", "Example", "Selection", "Specification", "Synthesis", "Prompt", "Crafting", "Specification", "MBPP-DFY-50", "Problem", "Specifications", "Specification", "Prompt", "Template", "Specification", "Examples", "Problem", "Description", "Prompt", "Crafting", "Chain", "of", "Thought", "(CoT)", "CoT", "Prompt", "Template", "Dafny", "Method", "Examples", "Dafny", "Method", "Synthesis", "Dafny", "Method", "With", "Specifications", "Prompting", "to", "LLM", "LLM", "Specification", "Prompt"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 84.96,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Figure3-1.png"
+}, {
+  "caption": "Table 5: Summary of di erent types of errors found in unverified methods. The number in the denominators represents the total number of unverified methods. For each prompt, LLMs responses were generated with their tuned temperatures at verify@k (k=5).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1746520996094,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["loop", "invariant", "violation", "4/73", "1/80", "23/61", "0/176", "0/162", "10/124", "postcondition", "might", "not", "hold", "3/73", "1/80", "13/61", "0/176", "0/162", "7/124", "bound", "errors", "0/73", "1/80", "2/61", "0/176", "0/162", "5/124", "index", "out", "of", "range", "2/73", "2/80", "5/61", "0/176", "0/162", "2/124", "possible", "division", "by", "zero", "0/73", "0/80", "0/61", "0/176", "0/162", "1/124", "verification", "time", "out", "1/73", "0/80", "0/61", "0/176", "0/162", "0/124", "Veri", "cation", "Errors", "Compilation", "Errors", "parse", "errors", "51/73", "44/80", "16/61", "176/176", "152/162", "43/124", "resolution/type", "errors", "14/73", "30/80", "15/61", "0/176", "10/162", "66/124", "Contextless", "Signature", "Dynamic", "Few-Shot", "Contextless", "Signature", "Dynamic", "Few-Shot", "Prompts", "Prompts", "GPT-4", "PaLM-2", "Error", "Types", "Error", "Name"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643763-Table5-1.png"
+}]

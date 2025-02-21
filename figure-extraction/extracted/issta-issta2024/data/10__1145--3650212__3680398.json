@@ -1,0 +1,361 @@
+[{
+  "caption": "Table 4: Distribution of fix strategy among SAFs",
+  "captionBoundary": {
+    "x1": 340.7929992675781,
+    "x2": 535.0680541992188,
+    "y1": 89.27776336669922,
+    "y2": 91.35797119140625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "49", "38", "28", "9", "9", "6", "2", "141", "Soot", "24", "17", "8", "4", "4", "5", "2", "64", "SootUp", "18", "9", "6", "0", "4", "1", "0", "38", "WALA", "7", "9", "12", "1", "1", "0", "0", "30", "Doop", "0", "3", "2", "4", "0", "0", "0", "9", "Symptom", "FAD", "FIR", "FIT", "FPC", "FLF", "FCB", "Others", "Total"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Table4-1.png"
+}, {
+  "caption": "Figure 9: Wrong return of a compiler-synthetic method",
+  "captionBoundary": {
+    "x1": 62.016998291015625,
+    "x2": 285.82635498046875,
+    "y1": 223.330810546875,
+    "y2": 225.4110107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "4:", "IEPR", "mainly", "appeared", "at", "core", "analysis", "and", "program", "parsing", "stages.", "Developers", "should", "take", "note", "of", "(1)", "type", "resolution", "and", "(2)", "IR", "generation", "of", "compiler-synthetic", "methods", "to", "avoid", "it."],
+  "name": "9",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 247.67999999999998,
+    "y2": 289.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Incorrect goto instruction insertion",
+  "captionBoundary": {
+    "x1": 345.7229919433594,
+    "x2": 530.4341430664062,
+    "y1": 453.56878662109375,
+    "y2": 455.64898681640625
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "6:", "FAD", "is", "the", "most", "frequently", "used", "fix", "strategy", "(34.8%),", "covering", "three", "fix", "patterns:", "(1)", "fix", "missing", "functionalities", "to", "han-", "dle", "specific", "program", "elements,", "(2)", "fix", "incorrect", "logic", "of", "algorithm", "implementation,", "(3)", "avoid", "redundant", "computational", "operations."],
+  "name": "10",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 478.56,
+    "y2": 530.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure10-1.png"
+}, {
+  "caption": "Figure 11: Pedantic throw analysis leads to verification error",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1996459960938,
+    "y1": 196.2318115234375,
+    "y2": 198.31201171875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "java.lang.Object", "$r4;", "2", "if", "$r1", "!=", "null", "goto", "Label", "1;", "3", "$r4", "=", "<com.google.ads.AdActivity:", "java.lang.Object", "b>;", "4", "goto", "Label", "2;", "5", "Label", "1:", "6", "return;", "7", "//", "...", "8", "Label", "2:", "9", "$r8", ":=", "@caughtexception;", "10", "exitmonitor", "$r4;"],
+  "name": "11",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 345.12,
+    "x2": 531.84,
+    "y1": 84.0,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure11-1.png"
+}, {
+  "caption": "Table 5: Effectiveness of SAScope",
+  "captionBoundary": {
+    "x1": 107.59700012207031,
+    "x2": 239.95010375976562,
+    "y1": 453.65679931640625,
+    "y2": 455.73699951171875
+  },
+  "figType": "Table",
+  "imageText": ["WALA", "26951", "10", "8", "1", "SootUp", "31734", "11", "7", "4", "Soot", "21051", "6", "3", "0", "Doop", "12896", "4", "1", "0", "Overall", "92632", "31", "19", "5", "SAFs", "#Warnings", "#Groups", "#UniqFaults", "#Fixed"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 470.4,
+    "y2": 529.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Table5-1.png"
+}, {
+  "caption": "Figure 16: A MEPR fault in SootUp",
+  "captionBoundary": {
+    "x1": 367.885009765625,
+    "x2": 508.2720642089844,
+    "y1": 169.30682373046875,
+    "y2": 171.38702392578125
+  },
+  "figType": "Figure",
+  "imageText": ["missing", "7", "}", "1", "public", "class", "Test", "{", "2", "public", "void", "m1()", "{", "3", "Runnable", "runnable", "=", "this::m2;", "4", "runnable.run();", "5", "}", "6", "public", "void", "m2()", "{", "System.out.println(\"m2\");", "}"],
+  "name": "16",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 357.12,
+    "x2": 514.0799999999999,
+    "y1": 85.92,
+    "y2": 150.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure16-1.png"
+}, {
+  "caption": "Figure 17: An IEPR fault in Soot",
+  "captionBoundary": {
+    "x1": 373.3949890136719,
+    "x2": 502.7623596191406,
+    "y1": 318.1997985839844,
+    "y2": 320.2799987792969
+  },
+  "figType": "Figure",
+  "imageText": ["8", "}", "1", "class", "Thread1", "extends", "Thread", "{", "public", "void", "run()", "{}}", "2", "class", "Thread2", "extends", "Thread", "{", "public", "void", "run()", "{}}", "3", "public", "class", "Main", "{", "4", "public", "static", "void", "main(String[]", "args)", "{", "5", "Thread", "t", "=", "new", "Thread1();", "6", "t.start();", "7", "}"],
+  "name": "17",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 357.12,
+    "x2": 516.96,
+    "y1": 229.92,
+    "y2": 299.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure17-1.png"
+}, {
+  "caption": "Figure 1: General Workflow of a Static Analysis Framework",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.02044677734375,
+    "y1": 192.3358154296875,
+    "y2": 194.416015625
+  },
+  "figType": "Figure",
+  "imageText": ["Analysis", "Report", "Input", "Program", "AST", "Configruation", "Graph", "Program", "Dependency", "CIL", "CIL", "Core", "Analysis", "Data", "Output", "Graph", "Pointer", "Assignment", "Dataflow", "Graph", "Control", "flow", "Graph", "Call", "Graph", "Class", "Hierarchy", "Data", "Input", "Program", "Parsing"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 279.84,
+    "y1": 90.24,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure1-1.png"
+}, {
+  "caption": "Table 1: Issue distribution for four static analysis frameworks",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0480651855469,
+    "y1": 396.2958068847656,
+    "y2": 398.3760070800781
+  },
+  "figType": "Table",
+  "imageText": ["Total", "4121", "1458", "392", "141", "Soot", "2782", "773", "168", "64", "Wala", "724", "321", "119", "30", "SootUp", "486", "319", "79", "38", "Doop", "129", "45", "26", "9", "SAF", "#Star", "#Issue𝑐", "#Issue𝑘", "#Issue𝑎"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 277.44,
+    "y1": 412.8,
+    "y2": 476.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Table1-1.png"
+}, {
+  "caption": "Figure 12: Overall Workflow of SAScope",
+  "captionBoundary": {
+    "x1": 357.81201171875,
+    "x2": 518.3450927734375,
+    "y1": 191.65582275390625,
+    "y2": 193.73602294921875
+  },
+  "figType": "Figure",
+  "imageText": ["Potential", "Faults", "Fault", "Warnings", "Oracle", "……", "Static", "Analysis", "Frameworks", "……", "Property-Based", "Grouping", "Metamorphic", "Relation", "SAF:", "SootUp", "Program", "Representation:", "Call", "graph", "Analysis", "Precision:", "VTA", "Differential", "Analysis", "SAF:", "Wala", "Program", "Representation:", "Call", "graph", "Analysis", "Precision", "(CHA)", "SAF:", "SootUp", "Program", "Representation:", "Call", "graph", "Analysis", "Precision:", "CHA", "Invocation", "Template"],
+  "name": "12",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 557.28,
+    "y1": 84.0,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure12-1.png"
+}, {
+  "caption": "Figure 4: Soot-385: Incorrect control flow graph construction",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2022705078125,
+    "y1": 626.4837646484375,
+    "y2": 628.56396484375
+  },
+  "figType": "Figure",
+  "imageText": ["r0_1", "=", "r1.nextLine()", "r1", "=", "$r2", "Specialinvoke", "$r2.<init>($r3)", "r0", "=", "null", "Label", "1:", "$r2", "=", "new", "java.util.Scanner", "$r3", "=", "java.lang.System.in", "r0_2", "=", "r0", "//", "wrong", "slot", "Label", "2:", "$r4", "=", "@caughtexception", "r0_2", "=", "Phi(r0", "#0,r0_1", "#1)", "r5", "=", "$r4"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 545.28,
+    "y1": 472.79999999999995,
+    "y2": 607.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure4-1.png"
+}, {
+  "caption": "Table 3: Distribution of symptoms at each phase of workflow",
+  "captionBoundary": {
+    "x1": 63.89400100708008,
+    "x2": 283.6854553222656,
+    "y1": 219.01690673828125,
+    "y2": 220.865966796875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "87", "47", "7", "141", "MEPR", "40", "7", "5", "52", "FPRG", "21", "26", "2", "49", "IEPR", "18", "11", "0", "29", "IPRG", "8", "3", "0", "11", "Symptom", "Core", "Analysis", "Program", "Parse", "Data", "Input/Output", "Total"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 235.67999999999998,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Table3-1.png"
+}, {
+  "caption": "Figure 2: SootUp incorrectly processes clinit methods",
+  "captionBoundary": {
+    "x1": 65.88800048828125,
+    "x2": 281.9554138183594,
+    "y1": 581.163818359375,
+    "y2": 583.2440185546875
+  },
+  "figType": "Figure",
+  "imageText": ["missing", "6}", "1", "class", "A", "{", "2", "static", "{", "System.out.println(\"A.<clinit>\");", "}", "3", "public", "void", "foo(){", "4", "System.out.println(\"foo\");", "5", "}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 93.6,
+    "x2": 253.44,
+    "y1": 501.12,
+    "y2": 562.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure2-1.png"
+}, {
+  "caption": "Figure 3: SootUp wrongly implemented RTA algorithm",
+  "captionBoundary": {
+    "x1": 326.635986328125,
+    "x2": 549.5230712890625,
+    "y1": 280.3837890625,
+    "y2": 282.4639892578125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "class", "B", "{", "public", "void", "target()", "{}", "}", "2", "class", "C", "extends", "B", "{", "public", "void", "target()", "{}", "}", "3", "class", "D", "extends", "B", "{", "public", "void", "target()", "{}", "}", "4", "class", "A", "{", "5", "public", "void", "foo()", "{", "6", "process(new", "D());", "7", "second();", "8", "}", "9", "public", "void", "process(B", "b)", "{", "b.target();", "}", "10", "public", "void", "second()", "{", "process(new", "C());", "}", "11}", "missing"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 357.59999999999997,
+    "x2": 513.6,
+    "y1": 153.12,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure3-1.png"
+}, {
+  "caption": "Figure 15: A MEPR fault in WALA and its group",
+  "captionBoundary": {
+    "x1": 341.43499755859375,
+    "x2": 534.7238159179688,
+    "y1": 530.1578369140625,
+    "y2": 532.238037109375
+  },
+  "figType": "Figure",
+  "imageText": ["Approach:", "Metamorphic", "Testing", "SAF:", "Wala", "Algorithm:", "<CHA,", "0-CFA>", "Invocation", "Type:", "InvokeVirtual", "Modifier:", "<public,", "public>", "6", "}", "1", "public", "class", "Test", "{", "2", "public", "Test()", "{", "3", "foo();", "4", "}", "5", "public", "void", "foo()", "{}"],
+  "name": "15",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 547.1999999999999,
+    "y1": 462.71999999999997,
+    "y2": 513.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure15-1.png"
+}, {
+  "caption": "Figure 14: Relative precision lattice of tested algorithms",
+  "captionBoundary": {
+    "x1": 60.70800018310547,
+    "x2": 287.1364440917969,
+    "y1": 584.7658081054688,
+    "y2": 586.8460083007812
+  },
+  "figType": "Figure",
+  "imageText": ["……", "……", "Upper", "Bound", "2-CFA", "2-Obj", "0-CFA", "1-CFA", "1-Obj", "VTA", "RTA", "CHA", "Lower", "Bound"],
+  "name": "14",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 144.0,
+    "x2": 204.48,
+    "y1": 444.0,
+    "y2": 564.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure14-1.png"
+}, {
+  "caption": "Figure 6: SootUp-326 [35]: An operand stack underrun issue",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1405029296875,
+    "y1": 224.58380126953125,
+    "y2": 226.66400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["stack", "underrun", "Operand", "Stack", "this", "Operand", "Stack", "A2", "Operand", "Stack", "Operand", "Stack", "this", "A1", "4", "3", "ALOAD", "0", "GETFIELD", "A2:I", "Operand", "Stack", "condition", "this", "INVOKEVIRTUAL", "java/io/", "PrintStream.println", "(Ljava/lang/Object;)V", "IFEQ", "1", "2", "ALOAD", "0", "GETFIELD", "A1:I", "A1,A2:fields", "of", "this", "class"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 96.96,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The concurrency bug in class hierarchy of Soot",
+  "captionBoundary": {
+    "x1": 324.2550048828125,
+    "x2": 551.903076171875,
+    "y1": 300.4388122558594,
+    "y2": 302.5190124511719
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "FastHierarchy", "getOrMakeFastHierarchy()", "{", "2", "if", "(!hasFastHierarchy())", "{", "setFastHierarchy(new", "FastHierarchy());", "}", "3", "return", "getFastHierarchy();", "4", "}"],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 551.52,
+    "y1": 245.76,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680398-Figure7-1.png"
+}]

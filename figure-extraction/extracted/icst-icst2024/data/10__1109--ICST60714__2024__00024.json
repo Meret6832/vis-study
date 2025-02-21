@@ -1,0 +1,141 @@
+[{
+  "caption": "TABLE I: Datasets Usage ( used; not used).",
+  "captionBoundary": {
+    "x1": 84.09286499023438,
+    "x2": 272.2138366699219,
+    "y1": 75.20072937011719,
+    "y2": 79.611572265625
+  },
+  "figType": "Table",
+  "imageText": ["Train", "ADS", "[-/7905]", "Implementation", "I2I/Seg", "[5,361/5,361]", "Evaluation", "RQs", "[197/197]", "Lane", "Keeping", "Evaluation", "RQs", "[1,064/1,064]", "Vehicle", "Detection", "Implementation", "I2I/Seg", "[1,064/1,064]", "Data", "split", "(set)", "Used", "for", "Size", "[sim/real]", "ADS", "labels", "Paired", "Seg.", "maps"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 298.08,
+    "y1": 87.84,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00024-TableI-1.png"
+}, {
+  "caption": "TABLE II: Training statistics for the I2I models.",
+  "captionBoundary": {
+    "x1": 338.02777099609375,
+    "x2": 525.9801025390625,
+    "y1": 387.3355407714844,
+    "y2": 391.7463684082031
+  },
+  "figType": "Table",
+  "imageText": ["Lane", "Keeping", "pix2pix", "170", "22.95", "P1/P2/P3", "20/80/150", "2.7/10.8/20.2", "CycleGAN", "40", "2.42", "C1/C2/C3", "8/20/34", "0.4/1.2/2", "Vehicle", "Detection", "pix2pix", "130", "23.1", "P1/P2/P3", "14/70/120", "2.4/12.4/21.3", "CycleGAN", "38", "2.63", "C1/C2/C3", "4/19/33", "0.2/1.3/2.2", "I2I", "model", "Epochs", "Time", "(h)", "Ckp.", "name", "Epochs", "Time", "(h)", "Training", "Checkpoints"],
+  "name": "II",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 551.04,
+    "y1": 400.32,
+    "y2": 476.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00024-TableII-1.png"
+}, {
+  "caption": "TABLE III: Distribution-level metrics relative error correlations.",
+  "captionBoundary": {
+    "x1": 314.51409912109375,
+    "x2": 550.5081787109375,
+    "y1": 288.71783447265625,
+    "y2": 304.366455078125
+  },
+  "figType": "Table",
+  "imageText": ["IS", "0.41", "0.37", "0.41", "0.14", "0.72", "0.65", "FID", "0.24", "0.21", "0.31", "0.64", "0.86", "0.78", "KID", "0.54", "0.64", "0.86", "0.54", "0.74", "0.60", "Prediction", "Conﬁdence", "Attention", "Prediction", "Conﬁdence", "Attention", "Vehicle", "Detection", "Lane", "Keeping"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 312.96,
+    "y2": 375.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00024-TableIII-1.png"
+}, {
+  "caption": "Fig. 2: Distributions of ADS behavior on different image domains. The black horizontal line represents the median of the distribution, whereas the color indicates whether the median is lower (green) or same/higher (red) as compared to the simulated domain (yellow); In each boxplot, distributions with lower values are preferable. The figure is best viewed in color.",
+  "captionBoundary": {
+    "x1": 63.867042541503906,
+    "x2": 547.0931396484375,
+    "y1": 236.98728942871094,
+    "y2": 263.873779296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 548.16,
+    "y1": 72.96,
+    "y2": 228.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00024-Figure2-1.png"
+}, {
+  "caption": "TABLE IV: Single-image metrics correlations. Bold values indicate statistical significance (p-value < 0.05), red values indicate wrong correlation direction, and grey values indicate correlations lower than 0.10. ↓/↑= lower/higher values are preferable.",
+  "captionBoundary": {
+    "x1": 60.60490417480469,
+    "x2": 543.8402709960938,
+    "y1": 74.98533630371094,
+    "y2": 90.634033203125
+  },
+  "figType": "Table",
+  "imageText": ["HistI", "↑", "-0.15", "0.01", "-0.24", "0.21", "0.03", "-0.27", "0.11", "0.08", "0.13", "0.11", "0.20", "-0.01", "-0.13", "0.10", "-0.17", "0.05", "-0.37", "0.03", "CPL", "↓", "0.15", "0.28", "0.30", "0.22", "0.17", "0.02", "0.18", "0.25", "0.12", "0.15", "0.19", "0.30", "-0.05", "-0.13", "-0.13", "0.01", "0.14", "0.16", "SSS", "↓", "0.21", "0.18", "0.25", "0.11", "-0.10", "-0.05", "0.23", "0.30", "0.12", "0.21", "0.19", "0.26", "-0.02", "-0.05", "-0.11", "-0.02", "0.26", "0.07", "RQ3", "TSS", "↓", "0.15", "0.16", "0.16", "0.17", "0.13", "0.20", "0.15", "0.16", "0.16", "0.17", "0.13", "0.20", "0.07", "-0.01", "-0.17", "0.08", "-0.10", "-0.48", "OC-TSS", "↓", "0.39", "0.35", "0.44", "0.42", "0.31", "0.38", "0.14", "0.15", "0.15", "0.18", "0.13", "0.19", "0.06", "-0.04", "-0.16", "0.10", "-0.08", "-0.45", "TSI", "↓", "-0.15", "-0.12", "-0.06", "-0.26", "-0.18", "0.00", "0.10", "0.11", "0.20", "-0.10", "-0.14", "-0.07", "-0.04", "-0.07", "-0.18", "-0.18", "-0.16", "-0.16", "WD", "↓", "0.07", "0.02", "-0.15", "-0.07", "-0.07", "-0.16", "0.10", "0.07", "0.07", "0.13", "0.10", "0.07", "-0.05", "0.00", "-0.08", "-0.19", "0.03", "0.22", "KL", "↓", "0.25", "0.10", "0.10", "-0.05", "0.00", "-0.05", "0.21", "0.10", "0.07", "0.11", "0.18", "0.19", "0.27", "0.29", "0.37", "-0.01", "-0.09", "-0.12", "SSIM", "↑", "-0.31", "-0.28", "-0.39", "-0.09", "-0.03", "-0.15", "-0.14", "-0.13", "-0.05", "-0.12", "-0.07", "-0.13", "-0.34", "-0.37", "-0.20", "-0.03", "0.05", "0.35", "PSNR", "↑", "-0.33", "-0.34", "-0.45", "-0.12", "-0.08", "-0.12", "-0.11", "-0.02", "-0.08", "-0.13", "-0.01", "-0.11", "-0.38", "-0.36", "-0.31", "-0.02", "-0.10", "0.18", "MSE", "↓", "0.34", "0.34", "0.45", "0.12", "0.07", "0.12", "0.11", "0.02", "0.08", "0.13", "0.01", "0.11", "0.38", "0.36", "0.31", "0.01", "0.10", "-0.17", "CS", "↑", "0.03", "0.00", "-0.07", "-0.06", "-0.14", "0.02", "-0.04", "-0.10", "-0.05", "-0.03", "-0.13", "0.02", "-0.14", "-0.01", "-0.06", "-0.11", "0.14", "-0.00", "L", "A", "N", "E", "K", "E", "E", "P", "IN", "G", "RQ2", "RQ3", "TSS", "↓", "0.05", "-0.08", "-0.09", "0.26", "0.14", "0.01", "-0.05", "-0.02", "-0.11", "-0.04", "0.05", "-0.03", "0.04", "0.19", "0.13", "0.11", "0.21", "0.36", "OC-TSS", "↓", "0.33", "0.21", "0.15", "0.57", "0.55", "0.49", "0.13", "0.19", "0.21", "0.08", "0.10", "0.12", "-0.10", "-0.08", "-0.09", "-0.24", "-0.19", "-0.24", "V", "E", "H", "IC", "L", "E", "D", "E", "T", "E", "C", "T", "IO", "N", "SSIM", "↑", "-0.03", "0.06", "-0.02", "0.18", "0.21", "0.26", "0.16", "0.11", "0.20", "0.06", "0.05", "0.08", "-0.09", "-0.04", "-0.02", "-0.09", "-0.14", "-0.26", "PSNR", "↑", "0.08", "0.07", "-0.09", "0.30", "0.32", "0.35", "0.18", "0.04", "0.14", "-0.01", "0.01", "0.12", "-0.11", "-0.01", "-0.01", "-0.01", "-0.08", "-0.16", "MSE", "↓", "-0.08", "-0.08", "0.09", "-0.30", "-0.31", "-0.35", "-0.18", "-0.05", "-0.14", "0.01", "-0.01", "-0.12", "0.11", "0.02", "0.00", "0.00", "0.08", "0.16", "CS", "↑", "-0.03", "0.04", "-0.06", "-0.21", "-0.14", "0.18", "0.18", "0.13", "0.04", "-0.01", "0.09", "0.20", "0.10", "0.03", "0.01", "0.32", "0.20", "-0.11", "TSI", "↓", "0.07", "0.00", "-0.13", "-0.08", "-0.13", "-0.16", "0.05", "0.01", "-0.12", "0.04", "-0.05", "-0.01", "-0.20", "0.15", "0.13", "-0.09", "0.15", "0.37", "WD", "↓", "-0.08", "0.00", "0.04", "0.06", "0.09", "0.09", "0.05", "0.07", "0.31", "0.17", "0.11", "0.15", "-0.10", "0.00", "-0.06", "-0.30", "-0.28", "-0.35", "KL", "↓", "0.03", "-0.13", "0.14", "-0.11", "0.04", "0.12", "0.07", "-0.11", "0.13", "0.04", "0.18", "0.14", "-0.08", "0.15", "-0.11", "0.18", "-0.08", "-0.18", "HistI", "↑", "0.09", "0.05", "-0.06", "0.23", "0.17", "0.31", "0.05", "0.10", "-0.06", "-0.00", "-0.09", "0.06", "-0.01", "-0.12", "0.07", "0.02", "0.03", "-0.27", "CPL", "↓", "0.00", "0.01", "0.02", "0.29", "0.20", "0.16", "0.23", "0.19", "0.11", "0.00", "0.15", "0.08", "-0.10", "-0.01", "-0.01", "0.17", "0.26", "0.36", "SSS", "↓", "-0.02", "-0.01", "0.01", "0.23", "0.19", "0.10", "0.21", "0.17", "0.13", "0.01", "0.18", "0.09", "-0.12", "-0.04", "-0.03", "0.21", "0.23", "0.34", "RQ2", "C1", "C2", "C3", "P1", "P2", "P3", "C1", "C2", "C3", "P1", "P2", "P3", "C1", "C2", "C3", "P1", "P2", "P3", "Relative", "Prediction", "Error", "Relative", "Conﬁdence", "Error", "Relative", "Attention", "Error"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 544.3199999999999,
+    "y1": 98.88,
+    "y2": 398.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00024-TableIV-1.png"
+}, {
+  "caption": "Fig. 3: Translation quality comparison: P1 (low-quality pix2pix) and P3 (high-quality pix2pix). Rows depict simulated/reference images, neural-generated images by P1 and P3, ground truth and vehicle detection ground truth and output (green and red boxes) with confidence (in percentage), ADS attention mask, and TSS/OC-TSS values—larger values of the metrics highlight the error between the semantic representation of the original and generated images, thus characterizing neural translation effectiveness.",
+  "captionBoundary": {
+    "x1": 59.90208053588867,
+    "x2": 295.89617919921875,
+    "y1": 310.3797607421875,
+    "y2": 404.6930847167969
+  },
+  "figType": "Figure",
+  "imageText": ["Prediction", "&", "conﬁdence", "RealSim", "Attention", "maskAttention", "mask", "GeneratedGenerated", "Prediction", "&", "conﬁdence", "P1", "OC-TSS:", "0.0134", "TSS:", "0.1238", "OC-TSS:", "0.0514", "TSS:", "0.5638", "0.95%", "0.97%", "P3", "0.60%"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 72.96,
+    "y2": 300.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00024-Figure3-1.png"
+}, {
+  "caption": "Fig. 1: An example of dataset sim2real pairs for the Vehicle Detection (a-b) and Lane Keeping (c-d) datasets.",
+  "captionBoundary": {
+    "x1": 89.71121978759766,
+    "x2": 513.8260498046875,
+    "y1": 146.3835906982422,
+    "y2": 150.79443359375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Vehicle", "Detection", "Sim.", "(b)", "Vehicle", "Detection", "Real.", "(c)", "Lane", "Keeping", "Sim.", "(d)", "Lane", "Keeping", "Real."],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 534.24,
+    "y1": 72.96,
+    "y2": 135.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00024-Figure1-1.png"
+}]

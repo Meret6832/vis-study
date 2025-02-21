@@ -1,0 +1,321 @@
+[{
+  "caption": "Table 1: Number of Files Successfully Recompiled",
+  "captionBoundary": {
+    "x1": 337.2380065917969,
+    "x2": 538.623046875,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Ghidra", "112/2,000", "47/2,000", "44/2,000", "42/2,000", "40/2,000", "IDA", "1,099/2,000", "939/2,000", "970/2,000", "718/2,000", "712/2,000", "RetDec", "10/2,000", "7/2,000", "8/2,000", "16/2,000", "21/2,000", "Binja", "68/2,000", "58/2,000", "56/2,000", "53/2,000", "60/2,000", "Decompiler", "O0", "O1", "Os", "O2", "O3"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 556.3199999999999,
+    "y1": 99.84,
+    "y2": 149.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table1-1.png"
+}, {
+  "caption": "Figure 1: Compilation vs. Decompilation",
+  "captionBoundary": {
+    "x1": 355.8970031738281,
+    "x2": 520.2596435546875,
+    "y1": 699.7652587890625,
+    "y2": 704.0601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["Semantic", "recovery", "Code", "structure", "Readability", "optimize", "Decompilation", "Compilation", "Lift", "Code", "Initial", "Decompiled", "Optimize", "LiftCode", "Optimize", "Code", "Decompiled", "IR", "Decompiler", "Optimize", "Optimize", "ASM", "Code", "Compiler", "IR", "ASM", "Source"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 609.6,
+    "y2": 689.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Figure1-1.png"
+}, {
+  "caption": "Table 3: Number of Files Successfully Repaired",
+  "captionBoundary": {
+    "x1": 343.1470031738281,
+    "x2": 532.714111328125,
+    "y1": 407.7181091308594,
+    "y2": 412.01300048828125
+  },
+  "figType": "Table",
+  "imageText": ["Binja", "122", "80", "65", "27", "27", "Ghidra", "297", "148", "251", "104", "93", "IDA", "351", "282", "278", "108", "107", "RetDec", "4", "2", "4", "1", "1", "Decompiler", "O0", "O1", "Os", "O2", "O3"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 420.96,
+    "y2": 469.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table3-1.png"
+}, {
+  "caption": "Table 2: Cause & Count of Recompilation Errors",
+  "captionBoundary": {
+    "x1": 208.21299743652344,
+    "x2": 403.4920959472656,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["1", "argument", "type", "void", "is", "incomplete.", "Failed-recovered", "Data", "Type", "43", "-", "-", "-", "2", "incomplete", "type", "TOK", "is", "not", "assignable.", "Failed-recovered", "Data", "Type", "5", "-", "-", "-", "3", "cannot", "assign", "to", "variable", "TOK", "with", "const-quali", "ed", "type", "TOK.", "Failed-recovered", "Data", "Type", "169", "-", "-", "-", "4", "i-th", "parameter", "of", "TOK", "(argument", "array)", "must", "be", "of", "type", "TOK.", "Failed-recovered", "Data", "Type", "-", "14", "-", "-", "5", "operand", "of", "type", "TOK", "cannot", "be", "cast", "to", "a", "pointer", "type.", "Failed-recovered", "Data", "Type", "23", "13", "-", "-", "6", "returning", "TOK", "from", "a", "function", "with", "incompatible", "result", "type", "TOK.", "Failed-recovered", "Data", "Type", "38", "-", "-", "1", "7", "array", "subscript", "is", "not", "an", "integer.", "Failed-recovered", "Data", "Type", "10", "4", "1", "-", "8", "assigning", "to", "TOK", "from", "incompatible", "type", "TOK.", "Failed-recovered", "Data", "Type", "53", "5", "-", "-", "9", "con", "icting", "types", "for", "TOK.", "Failed-recovered", "Data", "Type", "551", "276", "593", "9", "10", "initializing", "TOK", "with", "an", "expression", "of", "incompatible", "type", "TOK.", "Failed-recovered", "Data", "Type", "323", "-", "-", "-", "11", "invalid", "digit", "TOK", "in", "decimal/octal", "constant.", "Failed-recovered", "Data", "Type", "176", "-", "-", "-", "12", "operand", "of", "type", "TOK", "where", "arithmetic", "or", "pointer", "type", "is", "required.", "Failed-recovered", "Data", "Type", "12", "9", "-", "-", "13", "passing", "TOK", "to", "parameter", "of", "incompatible", "type.", "Failed-recovered", "Data", "Type", "127", "-", "-", "-", "14", "statement", "requires", "expression", "of", "integer", "type.", "Failed-recovered", "Data", "Type", "6", "-", "-", "-", "15", "variable", "has", "incomplete", "type", "TOK.", "Failed-recovered", "Data", "Type", "6,721", "-", "4", "-", "16", "array", "initializer", "must", "be", "an", "initializer", "list", "or", "string", "literal.", "Failed-recovered", "Data", "Type", "or", "Operator", "Misuse", "632", "2", "1", "-", "17", "member", "reference", "base", "type", "TOK", "is", "not", "a", "structure,", "union,", "or", "pointer.", "Failed-recovered", "Data", "Type", "or", "Operator", "Misuse", "34", "200", "176", "-", "18", "pointer", "cannot", "be", "cast", "to", "type", "TOK.", "Failed-recovered", "Data", "Type", "or", "Operator", "Misuse", "3", "18", "-", "-", "19", "subscript", "of", "pointer", "to", "function", "type", "TOK.", "Failed-recovered", "Data", "Type", "or", "Operator", "Misuse", "-", "84", "5", "-", "20", "TOK", "and", "TOK", "are", "not", "pointers", "to", "compatible", "types.", "Failed-recovered", "Data", "Type", "or", "Operator", "Misuse", "63", "-", "4", "-", "21", "using", "declaration", "TOK", "instantiates", "to", "an", "empty", "pack.", "Failed-recovered", "Data", "Type", "or", "Operator", "Misuse", "17", "5", "2", "-", "22", "invalid", "operands", "to", "binary", "expression", "(TOK", "and", "TOK).", "Failed-recovered", "Data", "Type", "or", "Operator", "Misuse", "806", "20", "1", "1", "23", "array", "type", "TOK", "is", "not", "assignable.", "Operator", "Misuse", "800", "477", "3", "-", "24", "TOK", "statement", "not", "in", "loop", "or", "switch", "statement.", "Operator", "Misuse", "1", "-", "-", "237", "25", "expression", "is", "not", "assignable.", "Operator", "Misuse", "32", "92", "-", "26", "subscripted", "value", "is", "not", "an", "array,", "pointer,", "or", "vector.", "Operator", "Misuse", "2,500", "602", "30", "-", "27", "expected", "TOK", "(after/before/at", "*).", "Operator", "Misuse", "18", "28", "72", "52", "28", "read-only", "variable", "is", "not", "assignable.", "Operator", "Misuse", "-", "-", "147", "-", "29", "integer", "literal", "is", "too", "large", "to", "be", "represented", "in", "any", "integer", "type.", "Inline", "Assembly", "-", "-", "-", "86", "30", "use", "of", "undeclared", "label", "TOK.", "Unde", "ned", "Variable", "479", "-", "-", "438", "31", "use", "of", "undeclared", "identi", "er", "TOK", "Unde", "ned", "Variable", "9,210", "9,538", "5,543", "9,940", "32", "function", "cannot", "return", "array", "type", "TOK.", "Function", "Signature", "Error", "-", "8", "-", "-", "33", "non-void/void", "function", "TOK", "should", "(not)", "return", "a", "value.", "Function", "Signature", "Error", "61", "-", "-", "-", "34", "too", "many/few", "arguments", "to", "function", "call.", "Failed-recovered", "Call", "Parameter", "261", "14", "67", "-", "35", "invalid", "su", "x", "TOK", "on", "integer", "constant.", "Illegal", "Variable", "Name", "796", "-", "-", "-", "36", "unknown", "type", "name", "TOK", "Custom", "Type", "112", "7,915", "649", "3,972", "No.", "Error", "Message", "Cause", "Binja", "Ghidra", "IDA", "RetDec"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 544.3199999999999,
+    "y1": 103.67999999999999,
+    "y2": 393.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table2-1.png"
+}, {
+  "caption": "Table 11: Count of Expressions Over 80 Characters",
+  "captionBoundary": {
+    "x1": 71.427001953125,
+    "x2": 276.1205139160156,
+    "y1": 261.8611145019531,
+    "y2": 266.156005859375
+  },
+  "figType": "Table",
+  "imageText": ["O0", "9,448", "3,394", "693", "3,563", "O1", "4,583", "1,596", "945", "3,636", "Os", "6,435", "2,685", "1,735", "5,156", "O2", "7,306", "2,838", "1773", "5,454", "O3", "4,303", "1,488", "838", "3,398", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 274.56,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table11-1.png"
+}, {
+  "caption": "Table 13: Average Score of All Tasks in Human Study",
+  "captionBoundary": {
+    "x1": 330.7149963378906,
+    "x2": 545.1464233398438,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["RetDec", "0%", "|", "0%", "0%", "|", "0%", "20%", "|", "36%", "Assembly", "-", "-", "0%", "|", "0%", "Binja", "60%", "|", "60%", "60%", "|", "62%", "80%", "|", "95%", "Ghidra", "0%", "|", "34%", "40%", "|", "39%", "40%", "|", "86%", "IDA", "60%", "|", "72%", "80%", "|", "86%", "100%", "|", "96%", "Challenge", "3", "IDA", "16%", "|", "41%", "100%", "|", "42%", "100%", "|", "84%", "RetDec", "0%", "|", "0%", "0%", "|", "0%", "100%", "|", "96%", "Assembly", "-", "-", "0%", "|", "56%", "Binja", "16%", "|", "37%", "66%", "|", "46%", "100%", "|", "74%", "Ghidra", "40%", "|", "50%", "100%", "|", "59%", "100%", "|", "98%", "Challenge", "2", "IDA", "25%", "|", "44%", "100%", "|", "44%", "100%", "|", "98%", "RetDec", "87%", "|", "22%", "100%", "|", "29%", "100%", "|", "100%", "Assembly", "-", "-", "20%", "|", "65%", "Binja", "60%", "|", "27%", "60%", "|", "44%", "60%", "|", "100%", "Ghidra", "100%", "|", "35%", "100%", "|", "35%", "100%", "|", "100%", "Task", "1", "Task", "2", "Task", "3", "Deompiler", "Challenge", "1"],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 99.84,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table13-1.png"
+}, {
+  "caption": "Table 9: Number of Gotos in Decompiled Code",
+  "captionBoundary": {
+    "x1": 79.90890502929688,
+    "x2": 267.6380310058594,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["O0", "2,674", "2,858", "3,027", "7,811", "O1", "2,837", "3,794", "5,444", "10,900", "Os", "2,585", "3,744", "5,507", "10,849", "O2", "3,348", "5,305", "8,952", "18,264", "O3", "4,531", "7,853", "13,564", "27,667", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 99.84,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table9-1.png"
+}, {
+  "caption": "Table 10: Line of Code",
+  "captionBoundary": {
+    "x1": 128.9010009765625,
+    "x2": 218.6453857421875,
+    "y1": 174.4621124267578,
+    "y2": 178.75701904296875
+  },
+  "figType": "Table",
+  "imageText": ["O0", "2.10", "|", "0.28", "1.71", "|", "0.22", "1.62", "|", "0.21", "5.20", "|", "0.58", "O1", "2.77", "|", "0.52", "2.68", "|", "0.50", "2.84", "|", "0.52", "6.30", "|", "1.09", "Os", "2.66", "|", "0.53", "2.59", "|", "0.51", "2.76", "|", "0.54", "5.97", "|", "1.09", "O2", "3.79", "|", "0.55", "4.35", "|", "0.58", "4.02", "|", "0.56", "8.21", "|", "1.09", "O3", "4.17", "|", "0.56", "4.69", "|", "0.58", "4.45", "|", "0.58", "8.35", "|", "1.05", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 187.68,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table10-1.png"
+}, {
+  "caption": "Table 12: Number of Variables Compared to Source and IR",
+  "captionBoundary": {
+    "x1": 56.058998107910156,
+    "x2": 291.4895324707031,
+    "y1": 349.2601013183594,
+    "y2": 353.55499267578125
+  },
+  "figType": "Table",
+  "imageText": ["O0", "2.91", "|", "0.22", "1.30", "|", "0.11", "1.70", "|", "0.14", "3.69", "|", "0.24", "O1", "3.35", "|", "0.35", "1.78", "|", "0.19", "2.60", "|", "0.28", "4.51", "|", "0.45", "Os", "3.17", "|", "0.36", "1.72", "|", "0.20", "2.55", "|", "0.29", "4.39", "|", "0.45", "O2", "4.13", "|", "0.35", "2.62", "|", "0.20", "3.29", "|", "0.27", "6.33", "|", "0.47", "O3", "4.34", "|", "0.35", "2.75", "|", "0.20", "3.42", "|", "0.27", "6.89", "|", "0.48", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 361.91999999999996,
+    "y2": 426.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table12-1.png"
+}, {
+  "caption": "Figure 2: Random Testing",
+  "captionBoundary": {
+    "x1": 386.1090087890625,
+    "x2": 490.04742431640625,
+    "y1": 348.0491027832031,
+    "y2": 352.343994140625
+  },
+  "figType": "Figure",
+  "imageText": ["Analysis", "Error", "Checker", "Data", "Flow", "Checker", "Control", "Flow", "Engine", "Symbolic", "Execution", "Decompile", "Dsmith", "Compiler"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 292.8,
+    "y2": 338.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Figure2-1.png"
+}, {
+  "caption": "Table 4: Control Structure Recovery Precision/Recall",
+  "captionBoundary": {
+    "x1": 199.11700439453125,
+    "x2": 412.58892822265625,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["O0", "1.00", "|", "0.59", "1.00", "|", "0.79", "0.95", "|", "0.56", "0.97", "|", "0.77", "1.00", "|", "0.47", "1.00", "|", "0.71", "0.36", "|", "0.16", "0.47", "|", "0.31", "O1", "0.98", "|", "0.99", "0.99", "|", "0.99", "0.90", "|", "0.99", "0.94", "|", "0.99", "0.99", "|", "0.93", "1.00", "|", "0.96", "0.42", "|", "0.41", "0.52", "|", "0.50", "O2", "0.98", "|", "0.99", "0.99", "|", "0.99", "0.82", "|", "1.00", "0.90", "|", "1.00", "0.99", "|", "0.99", "1.00", "|", "1.00", "0.41", "|", "0.44", "0.50", "|", "0.50", "O3", "0.97", "|", "0.98", "0.99", "|", "0.99", "0.82", "|", "1.00", "0.91", "|", "1.00", "0.99", "|", "0.99", "1.00", "|", "1.00", "0.42", "|", "0.44", "0.50", "|", "0.50", "Os", "0.98", "|", "0.98", "1.00", "|", "0.80", "1.00", "|", "0.91", "0.99", "|", "0.99", "0.99", "|", "0.99", "1.00", "|", "1.00", "0.41", "|", "0.43", "0.50", "|", "0.50", "Path", "BB", "Path", "BB", "Path", "BB", "Path", "BB", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 537.12,
+    "y1": 99.84,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table4-1.png"
+}, {
+  "caption": "Figure 3: Symbolic Execution Engine",
+  "captionBoundary": {
+    "x1": 363.7560119628906,
+    "x2": 512.4007568359375,
+    "y1": 614.51611328125,
+    "y2": 618.81103515625
+  },
+  "figType": "Figure",
+  "imageText": ["SymbolizationDEC", "SE", "IR", "SE", "𝒇_𝒓𝒂𝒏𝒅_𝟑", "𝒇_𝒓𝒂𝒏𝒅_𝟓", "IR", "𝑓𝐷𝐸𝐶", "=", "𝑓_𝑟𝑎𝑛𝑑_5", "×", "𝑓_𝑟𝑎𝑛𝑑_3", "𝑓𝐼𝑅", "=", "𝑓_𝑟𝑎𝑛𝑑_5", "×", "𝑓_𝑟𝑎𝑛𝑑_3", "𝒇_𝒓𝒂𝒏𝒅_𝟑", "𝒇_𝒓𝒂𝒏𝒅_𝟓", "Symbolic", "Execution", "Engine", "Decompiled", "code", "}", "%3", "=", "alloca", "i32,", "align", "4", "%4", "=", "bitcast", "i32*", "%3", "to", "i8*", "%5", "=", "call", "i32", "@f_rand_5()", "%6", "=", "call", "i32", "@f_rand_3()", "#4", "%14", "=", "mul", "i32", "%6,", "%5", "ret_0", "i32", "%14", "define", "i32", "@func0()", "{", "}", "__int64", "v2;", "//", "rax", "int", "v3;", "//", "ebp", "int", "v5[9];", "//", "[rsp+0h]", "[rbp-24h]", "v5[0]", "=", "f_rand_5();", "v3", "=", "f_rand_3();", "return_0", "(unsigned", "int)(v5[0]", "*", "v3);", "__int64", "__fastcall", "func0(void){"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 553.4399999999999,
+    "y1": 475.2,
+    "y2": 604.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Figure3-1.png"
+}, {
+  "caption": "Table 7: Count of Decompilation Errors in Random Testing",
+  "captionBoundary": {
+    "x1": 54.04100036621094,
+    "x2": 293.50628662109375,
+    "y1": 267.2710876464844,
+    "y2": 271.56597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Return", "Value", "Error", "50", "203", "0", "1,760", "Function", "Signature", "Error", "0", "0", "300", "802", "Call", "Statement", "Error", "0", "0", "0", "800", "Data", "Type", "Error", "0", "138", "10", "15", "Expression", "Semantic", "Error", "30,476", "26,506", "25,023", "5,905", "Errors", "Binja", "Ghidra", "IDA", "RetDec"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 277.44,
+    "y1": 279.84,
+    "y2": 337.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table7-1.png"
+}, {
+  "caption": "Table 5: Data Flow Semantic Recovery Precision/Recall",
+  "captionBoundary": {
+    "x1": 194.7360076904297,
+    "x2": 416.9681091308594,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["O0", "0.36", "|", "0.22", "0.47", "|", "0.37", "0.31", "|", "0.18", "0.41", "|", "0.33", "0.39", "|", "0.19", "0.47", "|", "0.34", "0.08", "|", "0.04", "0.11", "|", "0.07", "O1", "0.34", "|", "0.34", "0.41", "|", "0.41", "0.36", "|", "0.4", "0.44", "|", "0.46", "0.47", "|", "0.45", "0.54", "|", "0.52", "0.11", "|", "0.10", "0.12", "|", "0.11", "O2", "0.36", "|", "0.36", "0.42", "|", "0.42", "0.35", "|", "0.42", "0.43", "|", "0.47", "0.49", "|", "0.49", "0.55", "|", "0.55", "0.10", "|", "0.11", "0.11", "|", "0.12", "O3", "0.35", "|", "0.35", "0.41", "|", "0.41", "0.35", "|", "0.42", "0.43", "|", "0.47", "0.48", "|", "0.48", "0.54", "|", "0.54", "0.11", "|", "0.11", "0.12", "|", "0.12", "Os", "0.36", "|", "0.36", "0.42", "|", "0.42", "0.35", "|", "0.41", "0.46", "|", "0.41", "0.49", "|", "0.49", "0.53", "|", "0.53", "0.10", "|", "0.11", "0.12", "|", "0.12", "Path", "BB", "Path", "BB", "Path", "BB", "Path", "BB", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 559.1999999999999,
+    "y1": 99.84,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table5-1.png"
+}, {
+  "caption": "Table 8: Cyclomatic Complexity of Decompiled code",
+  "captionBoundary": {
+    "x1": 67.73709869384766,
+    "x2": 279.8103942871094,
+    "y1": 344.6921081542969,
+    "y2": 348.98699951171875
+  },
+  "figType": "Table",
+  "imageText": ["O0", "1.13", "|", "1.04", "1.01", "|", "0.97", "1.02", "|", "0.97", "1.85", "|", "1.68", "O1", "1.57", "|", "1.31", "1.52", "|", "1.28", "1.53", "|", "1.28", "2.13", "|", "1.79", "Os", "1.46", "|", "1.32", "1.40", "|", "1.27", "1.38", "|", "1.25", "1.94", "|", "1.78", "O2", "2.00", "|", "1.38", "1.88", "|", "1.30", "1.92", "|", "1.31", "2.58", "|", "1.74", "O3", "2.24", "|", "1.43", "2.07", "|", "1.34", "2.17", "|", "1.38", "2.62", "|", "1.67", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 281.28,
+    "y1": 357.59999999999997,
+    "y2": 422.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table8-1.png"
+}, {
+  "caption": "Table 6: Symbolic Expression Distance",
+  "captionBoundary": {
+    "x1": 96.12889862060547,
+    "x2": 251.41763305664062,
+    "y1": 182.1560821533203,
+    "y2": 186.45098876953125
+  },
+  "figType": "Table",
+  "imageText": ["O0", "0.14", "0.28", "0.28", "0.81", "O1", "0.27", "0.32", "0.2", "0.76", "Os", "0.27", "0.38", "0.2", "0.77", "O2", "0.27", "0.38", "0.2", "0.77", "O3", "0.28", "0.39", "0.2", "0.76", "Decompiler", "Binja", "Ghidra", "IDA", "RetDec", "Opt.", "Level"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 281.28,
+    "y1": 194.88,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652144-Table6-1.png"
+}]

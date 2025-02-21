@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 5: Performance of different Git Merge configurations. Figure 6 visualizes this data.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.5704650878906,
+    "y1": 193.72134399414062,
+    "y2": 210.31097412109375
+  },
+  "figType": "Figure",
+  "imageText": ["Tool", "Merges", "Correct", "Unhandled", "Incorrect", "#", "%", "#", "%", "#", "%", "Gitmerge-ort", "2748", "46%", "3078", "51%", "157", "3%", "Gitmerge-ort-ignorespace", "2889", "48%", "2905", "49%", "189", "3%", "Gitmerge-recursive-histogram", "2748", "46%", "3078", "51%", "157", "3%", "Gitmerge-recursive-minimal", "2748", "46%", "3078", "51%", "157", "3%", "Gitmerge-recursive-myers", "2748", "46%", "3078", "51%", "157", "3%", "Gitmerge-recursive-patience", "2751", "46%", "3074", "51%", "158", "3%", "Gitmerge-resolve", "2703", "45%", "3124", "52%", "156", "3%"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Effort reduction as a function of 𝑘 , the relative cost of incorrect merges. This graph visualizes the data of fig. 8. The best merge tool is Gitmerge-ort or Gitmerge-ortignorespace, depending on 𝑘 .",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63470458984375,
+    "y1": 409.7753601074219,
+    "y2": 448.2829895019531
+  },
+  "figType": "Figure",
+  "imageText": ["Gitmerge-ort", "Gitmerge-ort-ignorespace", "Gitmerge-recursive-histogram", "Gitmerge-recursive-minimal", "Gitmerge-recursive-myers", "Gitmerge-recursive-patience", "Gitmerge-resolve", "n", "ed", "uc", "tio", "Eff", "or", "tR", "0.50", "0.45", "0.40", "0.35", "0.30", "0.25", "0.20", "0", "2", "4", "6", "8", "10", "12", "Incorrect", "merges", "cost", "factor", "𝑘"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 289.44,
+    "y1": 220.32,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure6-1.png"
+}, {
+  "caption": "Figure 8: Performance of merge tools (visualized in fig. 9).",
+  "captionBoundary": {
+    "x1": 57.20600128173828,
+    "x2": 290.62677001953125,
+    "y1": 457.5883483886719,
+    "y2": 463.218994140625
+  },
+  "figType": "Figure",
+  "imageText": ["Tool", "Merges", "Correct", "Unhandled", "Incorrect", "#", "%", "#", "%", "#", "%", "Gitmerge-ort", "2748", "46%", "3078", "51%", "157", "3%", "Gitmerge-ort-ignorespace", "2889", "48%", "2905", "49%", "189", "3%", "Hires-Merge", "3040", "51%", "2721", "45%", "222", "4%", "Spork", "3260", "54%", "2080", "35%", "643", "11%", "IntelliMerge", "1434", "24%", "1582", "26%", "2967", "50%", "Adjacent", "3073", "51%", "2692", "45%", "218", "4%", "Imports", "2904", "49%", "2910", "49%", "169", "3%", "Version", "Numbers", "2782", "46%", "3044", "51%", "157", "3%", "IVn", "3011", "50%", "2803", "47%", "169", "3%", "IVn-ignorespace", "3116", "52%", "2665", "45%", "202", "3%"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 316.8,
+    "y2": 448.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Number of clean merges that are different between each pair of Git Merge configurations. Each Git Merge configuration produces around 7000 clean merges.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63580322265625,
+    "y1": 278.8583679199219,
+    "y2": 306.4070129394531
+  },
+  "figType": "Figure",
+  "imageText": ["800", "600", "400", "200", "0", "92", "9.7e+02", "92", "79", "79", "91", "0", "13", "9.2e+02", "13", "12", "12", "0", "15", "9.2e+02", "15", "0", "0", "15", "9.2e+02", "15", "0", "0", "9.1e+02", "0", "9.1e+02", "0", "0", "Gitmerge-resolve", "Gitmerge-recursive-patience", "Gitmerge-recursive-myers", "Gitmerge-recursive-minimal", "Gitmerge-recursive-histogram", "Gitmerge-ort-ignorespace", "Gitmerge-ort", "Gi", "tm", "erg", "e-o", "rt", "Gi", "tm", "erg", "e-o", "rt-", "ign", "ore", "spa", "ce", "Gi", "tm", "erg", "e-r", "ecu", "rsi", "ve", "-hi", "sto", "gra", "m", "Gi", "tm", "erg", "e-r", "ecu", "rsi", "ve", "-m", "ini", "ma", "l", "Gi", "tm", "erg", "e-r", "ecu", "rsi", "ve", "-m", "ye", "rs", "Gi", "tm", "erg", "e-r", "ecu", "rsi", "ve", "-pa", "tie", "nc", "e", "Gi", "tm", "erg", "e-r", "eso", "lve"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 278.88,
+    "y1": 87.84,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure7-1.png"
+}, {
+  "caption": "Figure 9: Effort reduction as a function of 𝑘 , the relative cost of incorrect merges. This graph visualizes the data of fig. 8.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04437255859375,
+    "y1": 662.683349609375,
+    "y2": 679.2730102539062
+  },
+  "figType": "Figure",
+  "imageText": ["Gitmerge-ort", "Gitmerge-ort-ignorespace", "Hires-Merge", "Spork", "IntelliMerge", "Adjacent", "Imports", "Version", "Numbers", "IVn", "IVn-ignorespace", "Manual", "Merging", "n", "ed", "uc", "tio", "Eff", "or", "tR", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0", "0.0", "2.5", "5.0", "7.5", "10.0", "12.5", "15.0", "17.5", "Incorrect", "merges", "cost", "factor", "𝑘"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 289.44,
+    "y1": 473.28,
+    "y2": 642.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Number of clean merges that are different (i.e., not syntactically identical) between each pair of tools. Each merge tool produces around 7000 clean merges.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.2806396484375,
+    "y1": 278.8583679199219,
+    "y2": 306.4070129394531
+  },
+  "figType": "Figure",
+  "imageText": ["4000", "3500", "3000", "2500", "2000", "1500", "1000", "500", "0", "1.8e+03", "1.2e+03", "2.1e+03", "3.8e+03", "4e+03", "2e+03", "1e+03", "1.8e+03", "9.6e+02", "0", "1.2e+03", "1.8e+03", "1.5e+03", "3.7e+03", "3.8e+03", "1.5e+03", "1.2e+02", "1.1e+03", "0", "37", "9.4e+02", "4.4e+02", "3.6e+03", "3.3e+03", "4.4e+02", "1.1e+03", "0", "1.1e+03", "1.7e+03", "1.4e+03", "3.7e+03", "3.7e+03", "1.4e+03", "0", "4e+02", "1.2e+03", "4.4e+02", "3.7e+03", "3.4e+03", "0", "3.3e+03", "3.7e+03", "3.4e+03", "4.5e+03", "0", "3.6e+03", "3.7e+03", "3.7e+03", "0", "4.2e+02", "1.3e+03", "0", "9.1e+02", "0", "0", "IVn-ignorespace", "IVn", "Version", "Numbers", "Imports", "Adjacent", "IntelliMerge", "Spork", "Hires-Merge", "Gitmerge-ort-ignorespace", "Gitmerge-ort", "Gi", "tm", "erg", "e-o", "rt", "Gi", "tm", "erg", "e-o", "rt-", "ign", "ore", "spa", "ce", "Hi", "res", "-M", "erg", "e", "Sp", "ork", "Int", "ell", "iM", "erg", "e", "Ad", "jac", "en", "t", "Im", "po", "rts", "Ve", "rsi", "on", "Nu", "mb", "ers", "IV", "n", "IV", "n-i", "gn", "ore", "spa", "ce"],
+  "name": "10",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 543.84,
+    "y1": 87.84,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure10-1.png"
+}, {
+  "caption": "Figure 3: Command-line arguments to git merge.",
+  "captionBoundary": {
+    "x1": 76.6719970703125,
+    "x2": 271.1695556640625,
+    "y1": 181.76638793945312,
+    "y2": 187.39703369140625
+  },
+  "figType": "Figure",
+  "imageText": ["Name", "Arguments", "ort", "(default)", "ort-ignorespace", "--ignore-space-change", "recursive-histogram", "-s", "recursive", "-X", "diff-algorithm=histogram", "recursive-minimal", "-s", "recursive", "-X", "diff-algorithm=minimal", "recursive-myers", "-s", "recursive", "recursive-patience", "-s", "recursive", "-X", "diff-algorithm=patience", "resolve", "-s", "resolve"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 82.56,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure3-1.png"
+}, {
+  "caption": "Figure 12: Results broken down by merge source: the main branch or other branches. Each percentage indicates the fraction of merges from that source that yielded that outcome.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64263916015625,
+    "y1": 394.7303466796875,
+    "y2": 422.27899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["Version", "Numbers", "54%", "36%", "44%", "61%", "3%", "2%", "IVn", "57%", "41%", "40%", "57%", "3%", "3%", "IVn-ignorespace", "59%", "42%", "38%", "54%", "3%", "4%", "Spork", "62%", "44%", "28%", "45%", "11%", "11%", "IntelliMerge", "27%", "19%", "21%", "34%", "52%", "47%", "Adjacent", "58%", "42%", "39%", "54%", "4%", "4%", "Imports", "56%", "38%", "41%", "59%", "3%", "3%", "Gitmerge-ort-ignorespace", "56%", "38%", "41%", "59%", "3%", "3%", "Hires-Merge", "57%", "41%", "39%", "55%", "4%", "4%", "Main", "Other", "Main", "Other", "Main", "Other", "Gitmerge-ort", "53%", "35%", "44%", "62%", "3%", "2%", "Tool", "Merges", "Correct", "Unhandled", "Incorrect"],
+  "name": "12",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 240.95999999999998,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure12-1.png"
+}, {
+  "caption": "Figure 11: Merge tool run time.",
+  "captionBoundary": {
+    "x1": 111.16999816894531,
+    "x2": 236.6671142578125,
+    "y1": 224.60635375976562,
+    "y2": 230.23699951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Hires-Merge", "0.23", "0.13", "17.3", "Spork", "2.55", "1.06", "653", "IntelliMerge", "1.04", "0.50", "89.3", "Adjacent", "0.17", "0.05", "76.9", "Imports", "0.11", "0.07", "7.86", "Version", "Numbers", "0.07", "0.05", "2.75", "IVn", "0.12", "0.08", "7.97", "IVn-ignorespace", "0.12", "0.08", "8.08", "Run", "time", "(seconds)", "Tool", "Mean", "Median", "Max", "Gitmerge-ort", "0.04", "0.04", "1.19", "Gitmerge-ort-ignorespace", "0.04", "0.04", "1.22"],
+  "name": "11",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 272.15999999999997,
+    "y1": 82.56,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure11-1.png"
+}, {
+  "caption": "Figure 4: Repositories and merges at each phase of collection for our data sets. “∩ #f” gives the median number of files changed by both parent 1 and parent 2. The “total” lines are medians for the changes in parent 1 or parent 2. “Imp” is the percentage of merges that involve Java import statements.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.04107666015625,
+    "y1": 169.81137084960938,
+    "y2": 219.27801513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Phase", "Repos", "Merges", "#f", "#f", "hunks", "lines", "imp", "Java", "repos", "42092", "-", "-", "-", "-", "-", "-", "Head", "passes", "4072", "294714", "1", "11", "28", "299", "73%", "Java", "diff", "1653", "21860", "3", "32", "96", "1190", "94%", "Parents", "pass", "1120", "6045", "3", "24", "73", "823", "93%", "Merge", "size", "∩", "total"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 292.32,
+    "y1": 82.56,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695075-Figure4-1.png"
+}]

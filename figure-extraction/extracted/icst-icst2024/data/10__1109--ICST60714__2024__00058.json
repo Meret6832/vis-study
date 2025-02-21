@@ -1,0 +1,101 @@
+[{
+  "caption": "Fig. 2: Illustration of the oracle generation from a developer provided bug-report and the buggy function, based on MATH227 in Defects4J benchmark.",
+  "captionBoundary": {
+    "x1": 48.96399688720703,
+    "x2": 300.021484375,
+    "y1": 595.7545166015625,
+    "y2": 625.6669921875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "instrumentation", "for", "MATH-227", "10", "}", "else", "{", "11", "return", "getInitialDomain_original(p,", "d);", "12", "}", "13", "}", "1", "double", "getInitialDomain(double", "p,", "double", "d)", "{", "2", "if", "(Boolean.parseBoolean(System.getProperty(\"", "defects4j.instrumentation.enabled\")))", "{", "3", "double", "init", "=", "getInitialDomain_original(p,", "d);", "4", "double", "lowerBound", "=", "0;", "5", "double", "upperBound", "=", "Double.MAX_VALUE;", "6", "if", "(init", "<", "lowerBound", "||", "init", ">", "upperBound)", "{", "7", "throw", "new", "RuntimeException(\"[", "Defects4J_BugReport_Violation]\");", "8", "}", "9", "return", "init;", "(c)", "general", "oracle", "instrumentation", "template", "10", "}", "11", "}", "1", "T", "wrapper_method(Parameters", "p", "...)", "{", "2", "if", "(instrumentation_enabled)", "{", "3", "T", "result", "=", "original_method(p);", "4", "if", "(<condition_for_buggy_behavior>)", "{", "5", "throw", "new", "RuntimeException(\"[", "Defects4J_BugReport_Violation]\");", "6", "}", "7", "return", "result;", "8", "}", "else", "{", "9", "return", "original_method(p);", "(b)", "buggy", "code", "in", "MATH-227", "1", "double", "getInitialDomain(double", "p,", "double", "d)", "{", "2", "double", "ret;", "3", "ret", "=", "d", "/", "(d", "-", "2.0);", "4", "return", "ret;", "5", "}", "(a)", "bug", "report", "for", "MATH-227", "Obviously,", "in", "case", "of", "denominatorDegreesOfFreedom", "is", "2,", "this", "must", "lead", "to", "a", "division-by-zero,", "resulting", "in", "POSTIVE_INFINITY.", "return", "getDenominatorDegreesOfFreedom()", "/", "(getDenominatorDegreesOfFreedom()", "-", "2.0);", "Description:", "The", "problem", "is", "the", "’initial’", "parameter", "to", "that", "function,", "wich", "is", "POSITIVE_INFINITY", "and", "therefore", "not", "within", "the", "boundaries.", "I", "already", "pinned", "down", "the", "problem", "to", "the", "FDistributions", "getInitialDomain()-method,", "wich", "goes", "like:", "Topic:", "denominatorDegreeOfFreedom", "in", "FDistribution", "leads", "to", "IllegalArgumentsException", "in", "UnivariateRealSolverUtils.bracket"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 291.36,
+    "y1": 50.879999999999995,
+    "y2": 585.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00058-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: Evolution of patches captured in p1, p2, p3 and p4, generated through multiple iterations of coevolution.",
+  "captionBoundary": {
+    "x1": 311.97796630859375,
+    "x2": 563.03564453125,
+    "y1": 228.84848022460938,
+    "y2": 246.80596923828125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Patch", "p4", "1", "double", "getInitialDomain", "2", "(double", "p,", "double", "d)", "{", "3", "double", "ret", "=", "1.0;", "4", "if", "(d", ">", "2.0)", "5", "ret", "=", "d", "/(d", "-", "2.0);", "6", "return", "ret;", "7", "}", "(c)", "Patch", "p3", "1", "double", "getInitialDomain", "2", "(double", "p,", "double", "d)", "{", "3", "double", "ret", "=", "1.0;", "4", "if", "(d", "!=", "2.0)", "5", "ret", "=", "d", "/(d", "-", "2.0);", "6", "return", "ret;", "7", "}", "(b)", "Patch", "p2", "1", "double", "getInitialDomain", "2", "(double", "p,", "double", "d)", "{", "3", "double", "ret;", "4", "ret", "=", "d", "/(d", "-", "1.0);", "5", "return", "ret;", "6", "7", "}", "(a)", "Patch", "p1", "1", "double", "getInitialDomain", "2", "(double", "p,", "double", "d)", "{", "3", "double", "ret", "=", "0.0;", "4", "if", "(p", ">", "0.5)", "5", "ret", "=", "d", "/(d", "-", "2.0);", "6", "return", "ret;", "7", "}"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 559.1999999999999,
+    "y1": 50.879999999999995,
+    "y2": 218.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00058-Figure3-1.png"
+}, {
+  "caption": "Fig. 1: Overview of EVOREPAIR’s workflow.",
+  "captionBoundary": {
+    "x1": 213.43299865722656,
+    "x2": 398.5669860839844,
+    "y1": 213.33053588867188,
+    "y2": 219.3330078125
+  },
+  "figType": "Figure",
+  "imageText": ["Explanation", "construction.", "Note", "that", "the", "illustration", "does", "not", "show", "the", "“usage”", "relationships,", "e.g.,", "for", "the", "seed", "pool", "Control", "Flow", "“Update”", "Relationship", "Developer", "Test", "Suite", "Buggy", "Instrumented", "Program", "5", "Patch", "Assessment", "Evolutionary", "Search", "(Crossover,", "Mutations,", "Evaluation,", "Selection)", "Outputs", "Inputs", "generate", "more", "patches", "Hall", "of", "Fame", "Tests", "new", "tests", "plausible", "patches", "Update", "Patches", "generate", "more", "tests", "Evolutionary", "Search", "(Crossover,", "Mutations,", "Evaluation,", "Selection)", "Seed", "Pool", "Construction", "Test", "Generation4", "Patch", "Seeds", "Seed", "Pool", "Construction", "2", "3", "1", "Repair", "Generation", "Hall", "of", "Fame", "Patches", "evolve?", "Which", "domain", "to"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 562.0799999999999,
+    "y1": 50.879999999999995,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00058-Figure1-1.png"
+}, {
+  "caption": "Fig. 5: (a) Change in the survival rate of plausible patches over coevolution generations in three representative trials. (b) Percentage of patches of each repair tool killed by additional test cases. (c) Probability of a triggering test and an average test to kill patches on 20 bugs (y-axis on a log scale).",
+  "captionBoundary": {
+    "x1": 48.964019775390625,
+    "x2": 563.0341186523438,
+    "y1": 212.10556030273438,
+    "y2": 242.01806640625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Survival", "Rate", "(b)", "Killed", "Patches", "(c)", "Probability", "of", "Killing", "a", "Patch"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 49.92,
+    "y2": 202.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00058-Figure5-1.png"
+}, {
+  "caption": "Fig. 4: (a) Venn diagram of bugs for which repair tools found a plausible patch in every repetition. Omitted from the figure are JGENPROG and ARJA-e. They consistently fixed 13 and 6 bugs, with 8 and 4 bugs overlapping with EVOREPAIR. The other tools only fixed a subset of the bugs fixed by JGENPROG. (b) Venn diagram of bugs for which repair tools found a correct patch in at least one repetition. (c) Distribution of experimental trials by the number of generations where an overfitting patch is removed. The left axis shows the absolute number of trials while the right shows the relative number.",
+  "captionBoundary": {
+    "x1": 48.964019775390625,
+    "x2": 563.0387573242188,
+    "y1": 201.48855590820312,
+    "y2": 255.31207275390625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Plausible", "Patches", "(b)", "Correct", "Patches", "(c)", "Distribution", "of", "Patch", "Killing"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 49.92,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00058-Figure4-1.png"
+}]

@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 5: Pretext task training using GNN. For a given build dependency graph, we hide a certain fraction of nodes by replacing their embeddings with a MASK token and train the model to predict the hidden packages.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.29400634765625,
+    "y1": 284.0881042480469,
+    "y2": 322.59600830078125
+  },
+  "figType": "Figure",
+  "imageText": ["Node", "classification", "[MASK]", "GNN", "[MASK]"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 173.28,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Overview of transfer learning used in our model. Knowledge of the pre-trainedmodel is transferred to the final model by initializing it with a subset of parameters from the pre-trained model. This enables us to use the learned representations from the pre-training stage to improve the performance of the final model on the target task.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7314453125,
+    "y1": 377.64111328125,
+    "y2": 438.0669860839844
+  },
+  "figType": "Figure",
+  "imageText": ["Parameter", "transfer", "Residual", "Block", "Node", "prediction", "Softmax", "Linear", "Linear", "Linear", "×", "#", "GCN", "Embedding", "Residual", "Block", "BUILD", "Yes/No", "Softmax", "Linear", "Pool", "Linear", "×\"", "GCN", "Embedding"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 543.36,
+    "y1": 149.76,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure6-1.png"
+}, {
+  "caption": "Figure 1: Package upgrade scenario resulting in build errors due to inconsistent versions of packages.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1925048828125,
+    "y1": 171.41537475585938,
+    "y2": 188.0050048828125
+  },
+  "figType": "Figure",
+  "imageText": ["…", "…", "Htslib", "@1.17", "Bcftools", "@1.16", "Samtools", "@1.16.1", "AUGUSTUS", "Upgrade", "…", "…", "Htslib", "@1.16", "Bcftools", "@1.15", "Samtools", "@1.15.1", "AUGUSTUS"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 546.24,
+    "y1": 84.0,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure1-1.png"
+}, {
+  "caption": "Table 1: Test accuracy with respect to different number of GCN layers with a hidden dimension of 256. When only a limited amount of training data is available, for instance at 0.1%, the increase in the number of layers helps the model to perform better. In the absence of sufficient data, the model is able to construct a better representation by relying on information from farther away nodes.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03631591796875,
+    "y1": 509.1073913574219,
+    "y2": 580.490966796875
+  },
+  "figType": "Table",
+  "imageText": ["1", "56.54", "74.66", "84.71", "87.53", "90.78", "91.56", "3", "58.67", "74.09", "84.10", "86.63", "90.55", "91.82", "5", "59.49", "74.17", "83.82", "86.17", "90.43", "91.41", "7", "57.69", "73.19", "83.73", "85.89", "90.11", "91.64", "9", "58.75", "73.52", "83.75", "86.07", "90.53", "91.75", "Layers", "0.1%", "1%", "10%", "20%", "50%", "80%", "Training", "Data", "%"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 282.24,
+    "y1": 408.96,
+    "y2": 501.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Table1-1.png"
+}, {
+  "caption": "Table 2: Test accuracy with respect to different dimensions for 3 GCN layers architecture. For small hidden dimensions, the model is unable to capture the information resulting in underfitting. For large hidden dimensions, the model is unable to generalize resulting in a decrease in testing accuracy.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7938232421875,
+    "y1": 515.8273315429688,
+    "y2": 565.2940063476562
+  },
+  "figType": "Table",
+  "imageText": ["128", "57.13", "74.21", "83.89", "86.77", "90.42", "91.38", "256", "58.67", "74.09", "84.10", "86.63", "90.55", "91.82", "512", "57.74", "74.63", "83.45", "86.03", "90.95", "91.57", "32", "52.8", "71.26", "82.85", "85.46", "88.98", "90.99", "64", "59.51", "73.07", "83.98", "86.37", "89.97", "90.97", "#dim", "0.1%", "1%", "10%", "20%", "50%", "80%", "Training", "Data", "%"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 421.44,
+    "y2": 513.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Table2-1.png"
+}, {
+  "caption": "Figure 12: Comparison of build rates between the two concretization methods. The weighted opt. concretizer, using the outputs of the GNN, improves the ratio of packages that build from 89% to 96%. Results for the weighted opt. concretizer are averaged over three different runs each with weights selected from different trainings of the GNN. The std. dev. is 0.0035.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63671875,
+    "y1": 379.995361328125,
+    "y2": 440.4209899902344
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 220.79999999999998,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure12-1.png"
+}, {
+  "caption": "Figure 13: An example improvement using the new concretizer. Changing the setuptools version, which further propagates version changes to other Python packages, leads to a successful build (on the right).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6367492675781,
+    "y1": 652.267333984375,
+    "y2": 690.7750244140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "13",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 591.84,
+    "y2": 639.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure13-1.png"
+}, {
+  "caption": "Figure 8: ROC curve showing True Positive and False Positive rate at different classification thresholds. Ourmodel achieves very good AUC of 0.95.",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 294.0346984863281,
+    "y1": 474.90234375,
+    "y2": 502.45098876953125
+  },
+  "figType": "Figure",
+  "imageText": ["BuildCheck", "(AUC", "=", "0.95)", "Random", "Guess", "(AUC", "=", "0.5)", "e", "R", "at", "iti", "ve", "P", "os", "Tr", "ue", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "False", "Positive", "Rate"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 279.36,
+    "y1": 313.92,
+    "y2": 456.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Evaluation of the effect of shortcut or residual connections. Using an architecture with shortcut connections enables the deep models to train better and improve the accuracy by over 3% in the case of a 9 layer model.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6401672363281,
+    "y1": 239.87033081054688,
+    "y2": 278.37799072265625
+  },
+  "figType": "Figure",
+  "imageText": ["w/o", "Shortcuts", "With", "Shortcuts", "ra", "cy", "Ac", "cu", "91.5", "91.0", "90.5", "90.0", "89.5", "89.0", "88.5", "1", "3", "5", "7", "9", "#", "layers"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 279.36,
+    "y1": 86.88,
+    "y2": 222.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure7-1.png"
+}, {
+  "caption": "Figure 9: Comparison of the base model with pre-trained + fine-tuned model. The model that has been initialized with the parameters from the pre-trained task performs better than the base model when training dataset is small. For the case of 0.1% and 0.05% of the dataset, which amounts to 45 and 22 examples respectively, the fine-tuned model gives a performance improvement of 3% over the base model.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.3920288085938,
+    "y1": 574.0573120117188,
+    "y2": 645.4420166015625
+  },
+  "figType": "Figure",
+  "imageText": ["Base", "Pre-trained", "+", "Fine-tuned", "y", "ur", "ac", "A", "cc", "90", "85", "80", "75", "70", "65", "60", "55", "Training", "Data", "(%)", "0.05", "0.1", "1", "10", "20", "50", "80"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 549.12,
+    "y1": 385.91999999999996,
+    "y2": 555.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure9-1.png"
+}, {
+  "caption": "Figure 3: A GNN with Graph Convolutional Network (GCN) Layers. The GNN consists of several layers of graph convolution that operate on the graph data by propagating node features across the graph. GCN layer updates a node’s feature by aggregating features from the neighboring nodes. The output of each GCN layer is passed through a non-linearity. The output captures the graph structure and is used for the final task.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6426086425781,
+    "y1": 400.808349609375,
+    "y2": 483.1510009765625
+  },
+  "figType": "Figure",
+  "imageText": ["*", "=", "#%", "#\"#$", "=", "$(", "&'#\"(\")", "!", "=", "#!", "Output", "Hidden", "layer", "Hidden", "layer", "Input", "ReLU", "ReLU", "…", "…", "…"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 287.03999999999996,
+    "y1": 271.68,
+    "y2": 385.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure3-1.png"
+}, {
+  "caption": "Figure 11: Evaluation of the effect ofmasking ratio. For larger training dataset, masking ratios don’t impact the prediction accuracy. However, when training on small amount of data, masking ratio of 0.40 and above help the model learn meaningful representation that capture the neighborhood tomake improved prediction on the final task.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6366271972656,
+    "y1": 495.9503479003906,
+    "y2": 556.3759765625
+  },
+  "figType": "Figure",
+  "imageText": ["0.1", "1", "10", "20", "50", "80", "y", "ur", "ac", "A", "cc", "90", "80", "70", "60", "0.2", "0.4", "0.6", "0.8", "Masking", "Ratio"],
+  "name": "11",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 291.36,
+    "y1": 344.64,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure11-1.png"
+}, {
+  "caption": "Figure 10: Comparison of loss for the base model and pretrained + fine-tuned model when trained on 80% of the dataset. Although fine-tuned model does not improve the overall accuracy in the presence of abundant data, it expedites convergence, evidenced by the reduction in training loss in the initial epochs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368103027344,
+    "y1": 243.27236938476562,
+    "y2": 303.6969909667969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 82.56,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure10-1.png"
+}, {
+  "caption": "Figure 4: Architecture of our GNN model. Our GNN model is constructed by stackingmultiple GraphConvolutional layers in the form of residual blocks. The output of the GCN layers is passed through a LayerNormalization layer to normalize the activations and a ReLU activation function to introduce non-linearity. The output of the final residual block is passed through a linear layer and subsequently pooled globally to obtain a representation of the entire graph. This representation is then passed through another linear layer to produce the predicted probability over the categories.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8107299804688,
+    "y1": 309.7711181640625,
+    "y2": 414.0320129394531
+  },
+  "figType": "Figure",
+  "imageText": ["Residual", "Block", "Residual", "Block", "LayerNorm", "GCN", "ReLU", "GCN", "LayerNorm", "ReLU", "BUILD", "Yes/No", "Softmax", "Linear", "Pool", "Linear", "×", "#", "GCN", "Embedding"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 540.0,
+    "y1": 84.96,
+    "y2": 290.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644927-Figure4-1.png"
+}]

@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 2: Performance comparison results for augmentation approach against the baseline and human.",
+  "captionBoundary": {
+    "x1": 99.44599914550781,
+    "x2": 512.2590942382812,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["*", "The", "difference", "is", "statistically", "significant", "(p-value<0.05)", "compared", "to", "Baseline.", "One", "32", "32.2", "0.6", "2.5", "40*", "25", "Three", "36.9", "37.9*", "2.7", "12.3", "45*", "22.0", "Stack", "Overflow", "One", "71.6", "73.5*", "2.7", "17.3", "82.6*", "15.4", "Three", "84.1", "83.6*", "-0.6", "-", "90.4*", "7.5", "Five", "87.1", "84.2*", "-3.3", "-", "90.2*", "3.6", "Ask", "Ubuntu", "Repository", "One", "43.7", "44.7*", "2.3", "6.9", "58.1*", "33.0", "Three", "62.8", "64.3*", "2.4", "34.1", "67.2*", "7.0", "Five", "66.4", "68.5*", "3.2", "60.0", "69.9*", "5.3", "Dataset", "No.", "of", "Queries/Intent", "Baseline", "Augmentation", "Approach", "Human", "F1-score", "F1-score", "%", "Improvement", "%", "Optimal", "F1-score", "%", "Improvement"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 101.75999999999999,
+    "x2": 510.24,
+    "y1": 95.52,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686695-Table2-1.png"
+}, {
+  "caption": "Table 3: Sample of the augmented queries by the augmentation approach.",
+  "captionBoundary": {
+    "x1": 156.98800659179688,
+    "x2": 454.71746826171875,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Spring", "4.0.2", "schema", "error", "What", "is", "the", "reason", "behind", "the", "schema", "error", "in", "Spring", "4.0.2?", "FacingError", "Python", "inserting", "variable", "string", "as", "file", "name", "How", "do", "I", "insert", "a", "string", "as", "a", "file", "name", "in", "Python?", "LookingForCodeSample", "How", "can", "one", "shutdown", "a", "PC", "using", "the", "keyboard?", "Hotkey", "to", "shut", "down", "from", "login", "screen?", "ShutdownComputer", "Show", "me", "the", "classes", "which", "introduced", "the", "most", "of", "bug", "What", "files", "are", "the", "ones", "that", "added", "most", "of", "bugs", "BuggyFiles", "Show", "me", "the", "number", "of", "commits", "happened", "last", "week", "How", "many", "commits", "did", "you", "commit", "between", "last", "week", "and", "this", "week?", "CommitsCountByDate", "Original", "Query", "Augmented", "Queries", "Intent"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 553.4399999999999,
+    "y1": 95.52,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686695-Table3-1.png"
+}, {
+  "caption": "Figure 1: An overview of the augmentation approach.",
+  "captionBoundary": {
+    "x1": 65.8949966430664,
+    "x2": 281.94940185546875,
+    "y1": 169.09608459472656,
+    "y2": 174.72698974609375
+  },
+  "figType": "Figure",
+  "imageText": ["Phase", "3:", "Post-processing", "Phase1:", "Pre-processing", "Phase2:", "Augmentation", "Augmented", "Dataset", "Data", "Merger", "Dataset", "Entity", "Labeler", "Tokenizer", "POS", "Tagger", "Synonyms", "ReplacementParaphrasingDiversity", "filter"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 290.4,
+    "y1": 86.88,
+    "y2": 151.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686695-Figure1-1.png"
+}, {
+  "caption": "Figure 2: A working example of the augmentation approach.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1232299804688,
+    "y1": 236.1551055908203,
+    "y2": 241.7860107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Which", "files", "generate", "the", "most", "issues?", "6", "9", "6", "2", "Most", "issue", "inducing", "files?", "14", "12", "12", "1", "RankInitial", "Query", "1", "Initial", "Query", "2", "Min", "Levenshtein", "Distance", "Candidate", "Query", "Diversity", "Filter", "Paraphrasing", "…", "-", "Most", "issue", "inducing", "files?", "-", "Which", "files", "generate", "the", "most", "issues?", "Original", "Training", "Set", "(Initial", "Training", "Queries)", "…", "-", "What", "files", "contain", "the", "most", "issues?", "-", "Show", "me", "which", "files", "introduce", "the", "most", "bugs", "Synonym", "Replacement", "…", "-", "What", "files", "induce", "the", "most", "issues?", "-", "What", "files", "generate", "the", "most", "issues?", "Part", "Of", "Speech", "…", "-", "What", "files", "cause", "the", "most", "issues?", "-", "Show", "me", "which", "files", "introduce", "the", "most", "bugs"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 87.84,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686695-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The confidence score distributions for scenarios 1, 3, and 5 queries/intent in the Repository dataset.",
+  "captionBoundary": {
+    "x1": 86.15802001953125,
+    "x2": 525.8435668945312,
+    "y1": 191.77809143066406,
+    "y2": 197.40899658203125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "5", "queries/intent", "experiment", "Baseline", "Augmentation", "Approach", "Human", "co", "re", "ce", "S", "id", "en", "Co", "nf", "1.0", "0.8", "0.6", "0.4", "0.2", "correct", "incorrect", "(b)", "3", "queries/intent", "experiment", "Baseline", "Augmentation", "Approach", "Human", "co", "re", "ce", "S", "id", "en", "Co", "nf", "1.0", "0.8", "0.6", "0.4", "0.2", "correct", "incorrect", "(a)", "1", "query/intent", "experiment", "Baseline", "Augmentation", "Approach", "Human", "co", "re", "ce", "S", "id", "en", "Co", "nf", "1.0", "0.8", "0.6", "0.4", "0.2", "correct", "incorrect"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 552.96,
+    "y1": 92.64,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686695-Figure3-1.png"
+}, {
+  "caption": "Table 1: Performance comparison results for augmentation approach against the baseline and human.",
+  "captionBoundary": {
+    "x1": 99.44599914550781,
+    "x2": 512.2590942382812,
+    "y1": 85.7260971069336,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["FacingError", "Facing", "an", "error", "or", "a", "failure", "in", "a", "program,", "mostly", "in", "the", "form", "of", "an", "error", "message.", "5", "5", "10", "PassingData", "Passing", "data", "between", "different", "frameworks", "or", "method", "calls.", "5", "5", "10", "tion", "for", "a", "problem.", "6", "6", "12", "LookingForCodeSample", "Looking", "for", "information", "related", "to", "implementation", "(e.g.,", "code", "snippets).", "66", "66", "132", "UsingMethodImproperly", "An", "improper", "use", "of", "a", "method", "is", "causing", "unexpected", "behaviour.", "25", "26", "51", "LookingForBestPractice", "Looking", "for", "the", "recommended", "(best)", "practice,", "approach", "or", "solu-", "rfl", "ow", "St", "ac", "k", "O", "ve", "MakeUpdate", "Looking", "for", "information", "related", "to", "upgrading", "Ubuntu", "version", "to", "a", "newer", "version.", "10", "37", "47", "ShutdownComputer", "Related", "fix", "shutdown", "issues", "in", "Ubuntu", "OS.", "13", "14", "27", "SetupPrinter", "Setup", "a", "printer", "and", "fix", "printer", "installation", "issues.", "10", "13", "23", "nt", "u", "SoftwareRecommendation", "Looking", "for", "applications", "that", "perform", "specific", "task", "(e.g.,", "extract", "images", "from", "PDF).", "17", "40", "57", "U", "bu", "A", "sk", "specific", "time.", "8", "12", "20", "CountCommitsByDates", "Identify", "the", "number", "of", "commits", "that", "were", "pushed", "during", "a", "specific", "time", "period.", "11", "21", "32", "ExperiencedDevFixBugs", "Identify", "the", "developer(s)", "who", "have", "experience", "in", "fixing", "bugs", "related", "to", "a", "specific", "file.", "15", "14", "29", "OverloadedDev", "Determine", "the", "overloaded", "developer(s)", "with", "the", "highest", "number", "of", "unresolved", "bugs.", "15", "9", "24", "FileCommits", "View", "details", "about", "the", "changes", "that", "occurred", "on", "a", "file.", "10", "12", "22", "CommitsByDate", "Present", "the", "commit", "information", "(e.g.,", "commit", "message)", "at", "a", "time", "32", "7", "39", "BuggyCommitsByDate", "Present", "the", "buggy", "commit(s)", "which", "happened", "during", "a", "specific", "time", "period.", "66", "13", "79", "BuggyCommit", "Identify", "the", "bugs", "that", "are", "introduced", "because", "of", "certain", "com-", "mits.", "52", "9", "61", "BuggyFiles", "Determine", "the", "most", "buggy", "files", "in", "the", "repository", "to", "refactor", "them.", "37", "13", "50", "FixCommit", "Identify", "the", "commit(s)", "which", "fix", "a", "specific", "bug.", "31", "11", "42", "BuggyFixCommits", "Identify", "the", "fixing", "commits", "that", "introduce", "bugs", "at", "a", "particular", "os", "it", "or", "y", "R", "ep", "Dataset", "Intent", "Definition", "Train", "Test", "Total"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 535.1999999999999,
+    "y1": 97.44,
+    "y2": 460.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686695-Table1-1.png"
+}]

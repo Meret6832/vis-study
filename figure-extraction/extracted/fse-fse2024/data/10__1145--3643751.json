@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 2. The theoretical analysis and empirical evidence on the role of MMO weights for systemMariaDB with normalized target and auxiliary performance objectives (5C is runtime and 50 is CPU load). (a) shows the scaling on 50 by a factor of F = 0.5; (b) is the 45◦ rotation and dilation on both axes by a factor of √ 2 a erwards. (c), (d), and (e) are the empirical results on configurations in an iteration with distinctF thereof.",
+  "captionBoundary": {
+    "x1": 45.505645751953125,
+    "x2": 440.1750183105469,
+    "y1": 186.09585571289062,
+    "y2": 223.65499877929688
+  },
+  "figType": "Figure",
+  "imageText": ["(e)F", "=", "0.9", "6", "2", "=", "(5", "C", "−", "0", ".9", "5", "0", ")", "61=(5C", "+", "0.950)", "0.5", "0", "−0.5", "0.5", "1", "1.5", "(d)F", "=", "10", "6", "2", "=", "(5", "C", "−", "10", "5", "0", ")", "61=(5C", "+", "1050)", "0", "−2", "−4", "−6", "−8", "2", "4", "6", "8", "10", "(c)F", "=", "0.01", "6", "2", "=", "(5", "C", "−", "0", ".0", "1", "5", "0", ")", "61=(5C", "+", "0.0150)", "0.5", "0", "0", "0.5", "1", "(b)", "rotation/dilation", "Scaled", "Conﬁg.", "Rotated/Dilated", "Conﬁg.", "6", "2", "u", "n", "ti", "m", "e", "→", "5", "C", ":R", "0.550", "→", "61", "1", "0.5", "0", "0", "0.5", "1", "(a)", "scaling", "Original", "Conﬁg.", "Scaled", "Conﬁg.", "u", "n", "ti", "m", "e", "5", "C", ":R", "50", ":", "CPU", "load→", "0.550", "1", "0.5", "0", "0", "0.5", "1"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 434.4,
+    "y1": 84.0,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. The sensitivity of (improved)MMO to weightF over 50 runs on different system-objective pairs. (a) shows the % improvement that can be made by the bestF . (b) illustrates the best fixedF . (c) demonstrates the best F throughout the tuning for system MariaDB using runtime as the target. The best F (among {0.01, 0.03, ..., 10}) is identified by Sco -Kno test [Sco and Kno 1974] and the average performance results.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.7054138183594,
+    "y1": 224.76986694335938,
+    "y2": 261.8789978027344
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "bestF", "per", "budget", "B", "e", "s", "t", "w", "Measurements", "1", "0.8", "0.6", "0.4", "0.2", "0", "100", "200", "300", "400", "(b)", "bestF", "per", "system-objective", "pair", "0", "<", "w", "<", "0.1", "0.1", "≤", "w", "<", "1", "w", "≥", "1", "Best", "w", "MariaDB-CPU", "MariaDB-Runtime", "Storm-Latency", "Storm-Throughput", "VP9-CPU", "VP9-Runtime", "Keras-Time", "Keras-AUC", "MongoDB-CPU", "MongoDB-Runtime", "x264-Energy", "x264-PSNR", "LLVM-CPU", "LLVM-Runtime", "0", "2", "4", "(a)", "gap", "to", "bestF", "worst", "w", "Performance", "gap", "(%)", "to", "the", "best", "w", "MariaDB-CPU", "MariaDB-Runtime", "Storm-Latency", "Storm-Throughput", "VP9-CPU", "VP9-Runtime", "Keras-Time", "Keras-AUC", "MongoDB-CPU", "MongoDB-Runtime", "x264-Energy", "x264-PSNR", "LLVM-CPU", "LLVM-Runtime", "0", "400", "1000", "w", "=", "1", "0", "20", "40"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 84.96,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure3-1.png"
+}, {
+  "caption": "Fig. 4. The probability distribution in progressive trigger of AdMMO. The red dot denotes > = 5: 5 consecutive iterations in which the best configuration has not been changed. Clearly, even with the same > , there is a higher probability of trigger in (b) than (a) as the former consumes more measurements.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1720886230469,
+    "y1": 237.82183837890625,
+    "y2": 263.97198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", ")", "=", "1,", "=", "0.5,", "(", "=", "8", "(", "=", "400;", "1", "=", "50)", "(b)", ")", "=", "1,", "=", "0.5,", "(", "=", "4", "(", "=", "400;", "1", "=", "100)", "S", "T", "C", "p", "r", "o", "b", "o", "1", "0.5", "0", "1", "S", "T", "C", "p", "r", "o", "b", "o", "1", "0.5", "0", "1"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 429.12,
+    "y1": 92.64,
+    "y2": 226.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Correlation between the actual proportion of nondominated configurations ?′ and the weight F under the (improved) MMO in one run (population size of 10 and without duplicates). 5C and 50 of Storm are throughput and latency, receptively; forMongoDB, the 5C is runtime while 50 is CPU load.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1734619140625,
+    "y1": 430.2788391113281,
+    "y2": 457.7729187011719
+  },
+  "figType": "Figure",
+  "imageText": ["(b)MongoDB", "p", "′", "w", "0.4", "0.2", "0", "200", "400", "(a)", "Storm", "p", "′", "w", "0.8", "0.6", "0.4", "0.2", "0", "200", "400"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 400.32,
+    "y1": 288.0,
+    "y2": 419.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure5-1.png"
+}, {
+  "caption": "Table 1. Configurable so ware systems and performance objectives studied. |O | and |S | denote the number of options and search space, respectively.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.33001708984375,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["•", "RQ4:", "What", "is", "the", "sensitivity", "of", "AdMMO", "to", "the", "maintained", "proportion", "of", "nondominated", "conﬁgurations?", "System", "Language", "Domain", "The", "Two", "Performance", "Objectives", "|O", "|", "|S", "|", "MariaDB", "C/C++/Perl", "SQL", "database", "Runtime", "and", "CPU", "load", "10", "864", "Storm", "Java/Clojure", "Stream", "process", "Throughput", "and", "Latency", "6", "2,880", "VP9", "C", "Video", "encoding", "Runtime", "and", "CPU", "load", "12", "3,008", "Keras", "Python", "Deep", "learning", "AUC", "and", "Inference", "time", "13", "12,288", "MongoDB", "C++", "Non-SQL", "database", "Runtime", "and", "CPU", "load", "15", "6,840", "x264", "C", "Video", "encoding", "PSNR", "and", "Energy", "consumption", "17", "53,662", "LLVM", "C++", "Compiler", "Runtime", "and", "CPU", "load", "16", "65,436"],
+  "name": "1",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 440.64,
+    "y1": 111.83999999999999,
+    "y2": 221.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Table1-1.png"
+}, {
+  "caption": "Fig. 1. The projected configuration landscapes of two configurable so ware systems.",
+  "captionBoundary": {
+    "x1": 86.53271484375,
+    "x2": 399.4683532714844,
+    "y1": 221.48577880859375,
+    "y2": 225.71792602539062
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Storm", "sg", "s/", "m", "in", ")", "p", "u", "t", "(m", "#", "Sp", "lit", "te", "rs", "T", "h", "ro", "u", "gh", "#", "Counters", "4,000", "2,000", "6", "4", "15", "2", "5", "10", "(a)MongoDB", "region", "2region", "1", "s)", "si", "ze", "R", "u", "n", "ti", "m", "e", "(m", "Interval", "C", "ac", "he", "·105", "4", "3.35", "2", "500", "300", "400", "100", "200"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 421.44,
+    "y1": 84.96,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure1-1.png"
+}, {
+  "caption": "Fig. 8. The speedup (B) of AdMMO over the state-of-the-art optimizers on the budget of 400. ✕ denotes a case where AdMMO cannot achieve the same result when the budget runs out.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1681823730469,
+    "y1": 348.4658508300781,
+    "y2": 363.6570129394531
+  },
+  "figType": "Figure",
+  "imageText": ["5", "MariaDB-CPU", "MariaDB-Runtime", "Storm-Latency", "Storm-Throughput", "VP9-CPU", "VP9-Runtime", "Keras-Time", "Keras-AUC", "MongoDB-CPU", "MongoDB-Runtime", "x264-Energy", "x264-PSNR", "LLVM-CPU", "LLVM-Runtime", "0", "1", "2", "3", "5", "MariaDB-CPU", "MariaDB-Runtime", "Storm-Latency", "Storm-Throughput", "VP9-CPU", "VP9-Runtime", "Keras-Time", "Keras-AUC", "MongoDB-CPU", "MongoDB-Runtime", "x264-Energy", "x264-PSNR", "LLVM-CPU", "LLVM-Runtime", "0", "2", "4", "6", "0", "2", "4", "0", "2", "4", "6", "5", "0", "1", "2", "5", "5", "0", "2", "4", "6", "0", "5", "10", "15", "20", "0", "1", "2", "3", "5", "0", "1", "2"],
+  "name": "8",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 411.35999999999996,
+    "y1": 84.0,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. Comparing AdMMO variants over 50 runs across all systems/objectives. (a) and (b) show the average/deviation of normalized target performance and the % of statistically significant comparisons (also classified based on ̂12) against AdMMO on 14 system-objective pairs, respectively.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.664794921875,
+    "y1": 215.995849609375,
+    "y2": 243.79891967773438
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "statistical", "significance", "(400", "trivial", "14%", "14%", "14%", "small", "22%", "14%", "7%", "small", "7%", "0%", "21%", "medium", "14%", "14%", "7%", "medium", "0%", "21%", "0%", "large", "50%", "50%", "72%", "large", "79%", "65%", "65%", "trivial", "14%", "22%", "14%", "(200", "(300", "trivial", "14%", "21%", "14%", "small", "7%", "21%", "7%", "small", "7%", "0%", "14%", "medium", "21%", "29%", "0%", "medium", "0%", "21%", "7%", "large", "58%", "43%", "93%", "large", "79%", "58%", "65%", "trivial", "14%", "7%", "0%", "(100", "AdMMO8", "AdMMOA", "AdMMO2", "AdMMO8", "AdMMOA", "AdMMO2", "%", "of", "statistically", "signiﬁcant", "cases", "vs.", "AdMMO", "(a)", "overall", "performance", "pe", "rf", "or", "m", "an", "ce", "AdMMO8", "AdMMOA", "AdMMO2", "AdMMO", "N", "or", "m", "al", "iz", "ed", "0.8", "0.6", "0.4", "0.2", "(100", "(200", "(300", "(400"],
+  "name": "9",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 436.32,
+    "y1": 85.44,
+    "y2": 204.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure9-1.png"
+}, {
+  "caption": "Fig. 10. The role of ? in AdMMO over 50 runs. (a) plots the best ? on each system-objective pair; (b) shows the sensitivity of normalized target performance (mean and standard error) to ? on all 56 cases.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1674499511719,
+    "y1": 406.5338439941406,
+    "y2": 421.7250061035156
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "impact", "of", "?", "on", "performance", "(100", "(200", "(300", "(400", "pe", "rf", "or", "m", "an", "ce", "N", "or", "m", "al", "iz", "ed", "?", "0.6", "0.4", "0.2", "0.05", "0.1", "0.3", "0.5", "0.7", "0.9", "1", "(a)", "best", "?", "across", "systems-objective", "pairs", "(100", "(200", "(300", "(400", "Best", "?", "MariaDB-CPU", "MariaDB-Runtime", "Storm-Latency", "Storm-Throughput", "VP9-CPU", "VP9-Runtime", "Keras-Time", "Keras-AUC", "MongoDB-CPU", "MongoDB-Runtime", "LLVM-Runtime", "x264-Energy", "x264-PSNR", "0", "0.2", "0.4", "0.6", "0.8", "1", "LLVM-CPU"],
+  "name": "10",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 408.47999999999996,
+    "y1": 257.76,
+    "y2": 395.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure10-1.png"
+}, {
+  "caption": "Fig. 7. Example run for system Storm. (a) and (b) are the projected landscape of explored configurations by all optimizers; (c) and (d) are the trajectories ofF and the actual proportion of nondominated configurations ?′, respectively. The dashed line in (d) represents the expected proportion of nondominated configurations.",
+  "captionBoundary": {
+    "x1": 45.648799896240234,
+    "x2": 440.39697265625,
+    "y1": 238.38284301757812,
+    "y2": 264.5329895019531
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "trajectory", "of", "?′", "?", "′", "Measurements", "?", "0.2", "0.4", "0.6", "0.8", "1", "100", "200", "300", "400", "0", "(c)", "trajectory", "ofF", "AdMMO", "MMO", "F", "Measurements", "3.0", "2.0", "1.0", "100", "200", "300", "400", "0.0", "(b)", "explored", "configurations", "(model-", "based", "optimizers)", "promising", "region", "local", "optima", "region", "Flash", "BOCA", "SMAC", "AdMMO", "sg", "s/", "m", "in", ")", "p", "u", "t", "(m", "T", "h", "ro", "u", "gh", "max", "spout", "sp", "ou", "t", "wa", "it", "·104", "3", "2", "1", "2", "10", "100", "1000", "100001", "2", "3", "10", "1001", "(a)", "explored", "configurations", "(measurement-based", "optimizers)", "promising", "region", "local", "optima", "region", "IRACE", "GA", "RS", "ParamILS", "MMO", "PMO", "AdMMO", "sg", "s/", "m", "in", ")", "p", "u", "t", "(m", "T", "h", "ro", "u", "gh", "max", "spout", "sp", "ou", "t", "wa", "it", "·104", "3", "2", "1", "2", "10", "100", "1000", "100001", "2", "3", "10", "1001"],
+  "name": "7",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 45.12,
+    "x2": 435.84,
+    "y1": 89.28,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643751-Figure7-1.png"
+}]

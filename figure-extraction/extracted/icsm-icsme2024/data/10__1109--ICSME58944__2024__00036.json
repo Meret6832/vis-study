@@ -1,0 +1,201 @@
+[{
+  "caption": "TABLE I ASSOCIATION RULE CALCULATIONS",
+  "captionBoundary": {
+    "x1": 375.1778564453125,
+    "x2": 489.59869384765625,
+    "y1": 317.4790954589844,
+    "y2": 330.42095947265625
+  },
+  "figType": "Table",
+  "imageText": ["Lift(X–>Y)", "Conf(X–>Y)", "Support(Y)", "Conf(X", "–>Y)", "Support(X,Y)", "Support(X)", "#", "total", "revisions", "Support(X)", "#", "type", "X", "revisions", "Rule", "Calculation"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 367.68,
+    "x2": 492.0,
+    "y1": 339.84,
+    "y2": 419.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-TableI-1.png"
+}, {
+  "caption": "Fig. 3. Number of commits modifying non-fuzzing test functions and number of commits modifying fuzzing test functions per month since fuzz tests were added to the standard library. Note: The drop at the start of 2024 is because the data had not been made available yet.",
+  "captionBoundary": {
+    "x1": 60.137752532958984,
+    "x2": 296.12939453125,
+    "y1": 231.90940856933594,
+    "y2": 261.708251953125
+  },
+  "figType": "Figure",
+  "imageText": ["4000", "5000", "Co", "m", "m", "its", "Test", "commits", "Fuzz", "commits", "3000", "2000", "1000", "0", "-0", "1", "02", "03", "20", "24", "-0", "1", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "20", "23", "-0", "3", "04", "05", "06", "07", "08", "09", "10", "11", "12", "20", "22"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 79.2,
+    "x2": 274.08,
+    "y1": 72.96,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-Figure3-1.png"
+}, {
+  "caption": "Fig. 4. Distribution of confidence values across studied projects.",
+  "captionBoundary": {
+    "x1": 331.99151611328125,
+    "x2": 532.7489013671875,
+    "y1": 232.3132781982422,
+    "y2": 236.82708740234375
+  },
+  "figType": "Figure",
+  "imageText": ["Test->Fuzz", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Fuzz->Test", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "0.4", "0.3", "0.2", "0.1", "Source->Fuzz", "0.0", "Source->Test", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Test->Source", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Fuzz->Source", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 528.0,
+    "y1": 72.96,
+    "y2": 215.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-Figure4-1.png"
+}, {
+  "caption": "TABLE II MEDIAN ASSOCIATION RULE VALUES CALCULATED ACROSS OUR DATASET",
+  "captionBoundary": {
+    "x1": 60.81193923950195,
+    "x2": 296.43658447265625,
+    "y1": 73.82926940917969,
+    "y2": 86.7720947265625
+  },
+  "figType": "Table",
+  "imageText": ["Support", "Source/Test", "0.249", "Source/Fuzz", "0.005", "Fuzz/Test", "0.004", "Source", "→", "Test", "0.369", "Source", "→", "Fuzz", "0.007", "Confidence", "Test", "→", "Source", "0.861", "Test", "→", "Fuzz", "0.015", "Fuzz", "→", "Source", "0.909", "Fuzz", "→", "Test", "0.750", "Source", "→", "Test", "1.239", "Lift", "Source", "→", "Fuzz", "1.204", "Test", "→", "Fuzz", "2.393", "Association", "Median", "Source", "0.667", "Test", "0.309", "Fuzz", "0.009", "."],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 251.04,
+    "y1": 96.0,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-TableII-1.png"
+}, {
+  "caption": "TABLE IV FUNCTIONS AND FUNCTIONALITIES THAT ARE BEING FUZZED IN OPEN-SOURCE GO PROJECTS.",
+  "captionBoundary": {
+    "x1": 157.55186462402344,
+    "x2": 459.40325927734375,
+    "y1": 73.42759704589844,
+    "y2": 86.37042236328125
+  },
+  "figType": "Table",
+  "imageText": ["Utility", "code", "Compression,", "Remote", "Procedure", "Calls", "(RPC),", "custom", "address", "iterators,", "file", "deletion", "functions,", "timestamp/dates.", "Internal", "Codebase", "Generative", "functions", "Public", "key", "generations,", "token", "creation,", "uuid", "generations,", "etc.", "Parsers", "Request", "parsers,", "query", "parser,", "packet", "parsers,", "data", "parsers", "Storage", "Storing", "to", "a", "server,", "into", "memory", "or", "auth", "token", "storage", "Setup", "functions", "Loading", "configs,", "database", "setup", "scripts,", "env", "setup", "Data", "Data", "manipulation", "Data", "encoding/decoding,", "hashing,", "zipping/unzipping", "Queries", "Request", "queries,", "message", "queue", "queries,", "db", "queries", "Database", "Database", "endpoints,", "reads,", "storage", "Features", "Project", "specific", "features", "Authentication", "functions,", "play/pause/stop", "functions", "Networking", "features", "Packet", "fuzzing,", "request", "headers", "fuzzing", "Label", "Examples"],
+  "name": "IV",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 547.1999999999999,
+    "y1": 96.0,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-TableIV-1.png"
+}, {
+  "caption": "Fig. 5. Percentage of testing commits that modify fuzzing code for developers conducting fuzzing activities.",
+  "captionBoundary": {
+    "x1": 314.37396240234375,
+    "x2": 550.365234375,
+    "y1": 526.6451416015625,
+    "y2": 539.5869750976562
+  },
+  "figType": "Figure",
+  "imageText": ["m", "its", "co", "m", "zin", "g", "f", "f", "uz", "ge", "o", "en", "ta", "Pe", "rc", "100", "80", "60", "40", "20", "0"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 528.0,
+    "y1": 380.64,
+    "y2": 511.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-Figure5-1.png"
+}, {
+  "caption": "TABLE III MEDIAN NUMBER OF DEVELOPERS PARTICIPATING TO STANDARD TESTING ACTIVITIES, FUZZING ACTIVITIES, AND BOTH TYPES OF TESTING ACTIVITIES ACROSS ALL PROJECTS.",
+  "captionBoundary": {
+    "x1": 314.63433837890625,
+    "x2": 550.1142578125,
+    "y1": 73.59617614746094,
+    "y2": 103.39501953125
+  },
+  "figType": "Table",
+  "imageText": ["Test", "32", "23.96%", "2", "Fuzz", "2", "1.31%", "1", "Test", "+", "Fuzz", "1", "0.50%", "X", "#", "of", "developers", "%", "of", "developers", "#", "of", "developers", "responsible", "for", "80%", "of", "changes"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 112.8,
+    "y2": 153.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-TableIII-1.png"
+}, {
+  "caption": "Fig. 1. Overview of the data collection process",
+  "captionBoundary": {
+    "x1": 104.63204193115234,
+    "x2": 252.2279510498047,
+    "y1": 309.45184326171875,
+    "y2": 313.9656677246094
+  },
+  "figType": "Figure",
+  "imageText": ["2)", "Locating", "Code", "and", "Commits", "to", "be", "Analyzed", "1)", "Selection", "of", "Target", "projects", "Locating", "test", "Functions", "and", "commits", "Parsing", "the", "code", "Finding", "test", "files", "Removing", "duplicated", "projects", "Extracting", "the", "top", "20%", "projects", "Removing", "fork", "projects", "Extracting", "projects", "via", "GitHub", "Search", "3,000,877", "non-fuzz", "functions", "2,581", "fuzz", "functions", "AST", "files", "636,532", "test", "files", "11,341", "projects", "12,120", "projects", "60,982", "projects", "62,702", "projects", "GitHub"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 79.2,
+    "x2": 275.52,
+    "y1": 70.56,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-Figure1-1.png"
+}, {
+  "caption": "TABLE V TOP TEN PROJECTS WITH THE HIGHEST NUMBER OF FUZZ FUNCTIONS IN OUR DATASET.",
+  "captionBoundary": {
+    "x1": 317.07159423828125,
+    "x2": 547.6217651367188,
+    "y1": 73.09489440917969,
+    "y2": 94.46478271484375
+  },
+  "figType": "Table",
+  "imageText": ["Project", "URL", "Fuzz", "functions", "Project", "description", "babylonchain/babylon", "160", "Crypto/Blockchain", "network", "lightningnetwork/lnd", "104", "Crypto/Blockchain", "network", "spacemeshos/go-spacemesh", "94", "Crypto/Blockchain", "network", "cncf/cncf-fuzzing", "73", "Repository", "used", "to", "fuzz", "CNCF", "projects", "ava-labs/avalanchego", "65", "Crypto/Blockchain", "network", "luxdefi/node", "59", "Quantum", "crypto/blockchain", "network", "thepudds/fzgen", "59", "Fuzz", "wrapper", "generator", "in", "Go", "mtoohey31/iter", "50", "Go", "package", "for", "iterator", "functions", "gravitational/teleport", "50", "Network", "infrastructure", "platform", "scylladb/scylla-go-driver", "47", "Experimental,", "high", "performance", "ScyllaDB", "driver"],
+  "name": "V",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 551.04,
+    "y1": 103.67999999999999,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-TableV-1.png"
+}, {
+  "caption": "Fig. 2. Number of non-fuzz tests (left) and fuzz tests (right) per project containing at least one fuzz test (log scaled)",
+  "captionBoundary": {
+    "x1": 60.16985321044922,
+    "x2": 296.161376953125,
+    "y1": 683.0509033203125,
+    "y2": 695.9927368164062
+  },
+  "figType": "Figure",
+  "imageText": ["102", "101", "100", "105", "104", "103", "102", "101", "100"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 274.08,
+    "y1": 531.84,
+    "y2": 668.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00036-Figure2-1.png"
+}]

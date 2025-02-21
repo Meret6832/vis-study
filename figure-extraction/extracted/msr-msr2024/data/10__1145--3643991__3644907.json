@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 5: Number of projects that access PTMs from each Hugging Face library, as captured via Sourcegraph search. Note: Log scale.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.198486328125,
+    "y1": 267.8348693847656,
+    "y2": 282.8030090332031
+  },
+  "figType": "Figure",
+  "imageText": ["8", "3", "3", "5", "93", "62", "58", "58", "33", "29", "26", "18", "2", "12", "1", "27", "6", "26", "7", "19", "9", "54", "1", "44", "0", "42", "5K", "1.", "9K", "1.", "2K", "85", "13", ".6", "K", "5.", "s", "je", "ct", "P", "ro", "#", "of", "105", "104", "103", "102", "101", "100", "Library", "Name", "e_s", "b3spa", "n", "py", "tha", "e", "ing", "fac", "hu", "gg", "bra", "in", "py", "an", "no", "te", "fai", "rse", "q", "ne", "mo", "esp", "ne", "t2", "ast", "ero", "id", "be", "rto", "pic", "ten", "sor", "flo", "w", "spe", "ech", "len", "lp", "pa", "dd", "ing", "fac", "e", "sta", "nzape", "ft", "op", "enfla", "ir", "alle", "nn", "lp", "hu", "gg", "ce", "dif", "fus", "ers", "sen", "ten", "orm", "ers", "spa", "cy", "tim", "m", "tra", "nsf"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 328.32,
+    "x2": 553.4399999999999,
+    "y1": 88.8,
+    "y2": 257.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Figure5-1.png"
+}, {
+  "caption": "Table 3: Example lines of research for researchers to investigate, phrased as research questions. These questions are divided into three groups. The first group uses the Pre-Trained Model portion of the dataset (PTM). The second group of questions makes use of the GitHub portion of the dataset (GH ). The third group asks questions that require Integrating both parts of the dataset (I ).",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 559.5569458007812,
+    "y1": 87.64785766601562,
+    "y2": 112.5780029296875
+  },
+  "figType": "Table",
+  "imageText": ["I-6:What", "are", "the", "software", "signing", "requirements", "for", "PTMs?What", "are", "effective", "signatures", "for", "PTMs", "and", "training", "regimes?", "[87]", "[52,", "105]", "I-5:", "What", "are", "the", "characteristics", "of", "issue", "reports", "on", "PTM", "packages,", "e.g.,", "in", "terms", "of", "the", "kinds", "of", "questions", "asked,", "responsiveness", "of", "maintainers,", "issue", "density,", "and", "issue", "staleness?", "How", "do", "these", "attributes", "differ", "from", "issue", "reports", "in", "GitHub", "repositories?", "[47,", "99,", "109]", "I-4:", "How", "often", "do", "PTM", "application", "engineers", "update", "their", "PTM", "dependencies,", "e.g.,", "due", "to", "(1)", "PTM", "deprecation,", "(2)", "PTM", "improvement,", "or", "(3)", "PTM", "antiquation", "(newer,", "better", "model)?", "What", "is", "the", "typical", "technical", "lag", "for", "such", "updates?", "I-2:", "What", "are", "code", "smells", "for", "PTMs", "in", "the", "downstream", "GitHub", "repositories,", "and", "how", "do", "they", "affect", "these", "projects?", "[20,", "98,", "110]", "I-3:", "What", "are", "application", "engineers’", "testing", "practices", "for", "their", "PTM-enabled", "features?", "Do", "these", "vary", "based", "on", "the", "project’s", "purpose,", "or", "the", "task", "delegated", "to", "the", "PTM?", "How", "do", "testing", "practices", "acknowledge", "and", "address", "PTM", "stochasticity", "(e.g.,", "“flakiness”)?", "[18,", "31,", "65,", "73]", "[35]", "I-1:", "It", "can", "be", "difficult", "to", "interpret", "model", "popularity", "numbers", "by", "download", "rates.", "To", "what", "extent", "does", "a", "PTM’s", "download", "rates", "correlate", "with", "the", "number", "of", "GitHub", "projects", "that", "rely", "on", "it,", "or", "the", "popularity", "of", "the", "GitHub", "projects?", "GH-3:", "How", "often", "do", "developers", "change", "the", "PTM", "used", "to", "implement", "a", "feature?", "What", "factors", "influence", "this?", "[28]", "GH-4:", "PTMs", "can", "underpin,", "enhance,", "or", "replace", "features", "implemented", "with", "traditional", "code.", "How", "common", "are", "these", "three", "modes", "of", "PTM", "adoption?", "How", "do", "PTMs", "subsequently", "affect", "the", "feature’s", "failure", "modes?", "[66,", "73,", "79,", "111]", "[85,", "106]", "GH-2:What", "do", "developers", "on", "GitHub", "discuss", "related", "to", "PTM", "use,", "e.g.,", "in", "the", "body", "text", "of", "issues", "and", "pull", "requests?", "What", "are", "developers’", "sentiments", "regarding", "PTM", "use?", "Do", "the", "people", "issuing", "pull", "requests", "for", "PTMs", "have", "the", "right", "expertise?", "[72]", "GH-1:What", "kinds", "of", "defects", "are", "opened", "related", "to", "PTM", "use", "in", "the", "GitHub", "projects?", "How", "do", "these", "defects", "differ", "from", "defects", "opened", "on", "other", "aspects", "of", "the", "GitHub", "projects?", "PTM-4:", "There", "are", "many", "concerns", "about", "DNNs", "with", "unexpected", "or", "malicious", "behavior.", "How", "common", "are", "such", "DNNs?", "[45,", "54,", "100,", "101]", "PTM-5:", "How", "to", "improve", "safety", "and", "security", "of", "model", "infrastructure,", "such", "as", "serialization", "formats", "and", "interoperability?", "[25,", "49]", "[56]", "PTM-3:", "PTM", "authors", "may", "reuse", "each", "others’", "work,", "e.g.,", "building", "off", "of", "model", "checkpoints", "or", "incorporating", "architectural", "building", "blocks.", "Is", "this", "forking,", "or", "a", "new", "form", "of", "software", "exchange?", "What", "is", "the", "phylogeny", "of", "the", "families", "of", "PTMs?", "[44,", "53]", "PTM-2:", "What", "naming", "conventions", "do", "PTMs", "follow?", "Are", "they", "consistent", "enough", "(within", "an", "architecture", "family?", "across", "families?)", "to", "support", "engineers", "looking", "for", "similar", "models?", "[17,", "54,", "68]", "PTM-1:What", "factors", "predict", "the", "popularity", "of", "a", "PTM?", "Intuition", "suggests", "that", "performance", "aspects", "such", "as", "accuracy", "and", "latency", "may", "dominate;", "what", "is", "the", "role", "played", "by", "factors", "such", "as", "software", "engineering", "quality?", "Research", "question", "Related", "work"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 566.4,
+    "y1": 116.64,
+    "y2": 477.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Table3-1.png"
+}, {
+  "caption": "Figure 1: This paper presents the PeaTMOSS dataset: Pre-Trained Models inOpen- Source Software.PeaTMOSS includes data on 281,638 pre-trained models, 28,575 GitHub repositories that use pre-trained models, and 44,337 links between them.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0453796386719,
+    "y1": 184.27383422851562,
+    "y2": 219.1669921875
+  },
+  "figType": "Figure",
+  "imageText": ["PTM", "Package", "...", "Discussion", "Configuration", "Framework", "Architecture", "Dataset", "PTM", "Dependencies", "...", "Code", "Commits", "PRs", "Issues", "Dependency", "Downstream", "GitHub"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 288.0,
+    "y1": 93.6,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Figure1-1.png"
+}, {
+  "caption": "Table 2: A list of PTM metadata mapped to the first paper that mentioned it. PeaTMOSS includes these fields plus more (last row of table). Our artifact shows the mapping of these fields to our schema.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 295.46734619140625,
+    "y1": 87.64785766601562,
+    "y2": 112.5780029296875
+  },
+  "figType": "Table",
+  "imageText": ["PeaTMOSS", "Carbon", "emitted,", "model", "size,", "license,", "base", "model,", "limitation", "and", "biases,", "demonstration,", "grant/sponsorship,", "language", "(NLP)", "put,", "provenance", "Schelter", "et", "al.,", "2017", "[86]", "Model", "name,", "model", "version,", "framework,", "tags,", "dataset", "name,", "dataset", "version,", "dataset", "statis-", "tic,", "data", "transform,", "input/output", "format,", "eval-", "uation,", "training", "time,", "environment,", "hyperpa-", "rameters,", "prediction", "metadata", "Tsay", "et", "al.,", "2020", "[95]", "Reference,", "domain,", "has", "README,", "uses", "Python,", "popularity", "Li", "et", "al.,", "2022", "[67]", "Model", "architecture,", "task,", "hardware", "Tsay", "et", "al.,", "2022", "[96]", "Description,", "code,", "training", "job,", "training", "out-", "Paper", "Newly", "Introduced", "Metadata", "of", "Interest"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 116.64,
+    "y2": 272.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Table2-1.png"
+}, {
+  "caption": "Figure 12: Sankey Diagram for license compatibility. Flows represent the licenses of PTMs and the downstream GitHub repositories that use them. Blue flows are compatible, red are not. Grey flows (47.33% of pairs) represent license pairs that have not been analyzed by the Linux Foundation — this is primarily caused by GitHub repositories lacking an explicit license.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2964782714844,
+    "y1": 465.4178466796875,
+    "y2": 520.2369995117188
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 331.68,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Figure12-1.png"
+}, {
+  "caption": "Figure 6: The “cheap” and “accurate” pipelines for metadata extraction. First the prompts are refined by the type of model. Then these prompts are applied to the model card. The cost-optimized “cheap” pipeline differs primarily by incorporating the Retrieval-Augmented Generation (RAG) framework [63] to reduce token count.",
+  "captionBoundary": {
+    "x1": 53.55099868774414,
+    "x2": 558.197509765625,
+    "y1": 230.27383422851562,
+    "y2": 255.2039794921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 82.56,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The proportion of available metadata for each category from Hugging Face model cards. Data is reported for the 11,975 models available at measurement time (Nov. 2023). About 17% of the sample (2,321models) became unavailable between project initiation and this measurement.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4227294921875,
+    "y1": 489.7448425292969,
+    "y2": 534.6010131835938
+  },
+  "figType": "Figure",
+  "imageText": ["3", "56", "1", "1K", "91", "7K", "2.", "1K", "2.", "4K", "2.", "6K", "3.", "9K", "3.", "5K", "3.", "2K", "5.", "9K", "6.", "3K", "6.", "9K", "6.", "1K", "8.", "7K", "8.", "6K", "8.", "8K", "9.", "11", ".6", "K", "11", ".5", "K", "11", ".5", "K", "9.", "(%", ")", "at", "a", "le", "D", "ila", "bi", "A", "va", "n", "of", "or", "tio", "Pr", "op", "100", "80", "60", "40", "20", "0", "Metadata", "Tags", "itte", "d", "car", "bon_em", "at", "gran", "t", "output_fo", "rm", "d_bias", "ion", "_an", "lim", "itat", "at", "input_fo", "rm", "r_c", "ount", "hard", "ware", "para", "mete", "mete", "rs", "hyper_", "para", "librar", "ies", "dom", "ain", "model_", "tas", "k", "fra", "mew", "ork", "s", "lice", "nse", "data", "set", "s", "base", "_m", "odel", "dem", "o", "github_re", "po", "eva", "luatio", "n", "lan", "guage", "paper"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 554.4,
+    "y1": 276.0,
+    "y2": 483.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Figure7-1.png"
+}, {
+  "caption": "Figure 3: PeaTMOSS data schema. There are four regions: tables for PTMs (basic §4 and enhanced §5), tables for GitHub projects, and a table of PTM-Application dependency relations. Tables link to PTM and GitHub snapshots in a Globus share. Our artifact has a navigable version (§11).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.192626953125,
+    "y1": 464.6958312988281,
+    "y2": 479.66400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["name", "ref", "target_commit", "PK,FK1", "hf_git_ref_id", "PK,FK2", "hf_git_ref_info_", "hf_git_ref_to_branch", "name", "url", "PK,FK1", "model_id", "PK,FK2", "dataset_id", "model_to_dataset", "title", "url", "PK,FK1", "model_id", "PK,FK2", "paper_id", "model_to_paper", "name", "PK,FK1", "model_id", "PK,FK2", "library_id", "model_to_library", "name", "PK,FK1", "model_id", "PK,FK2", "license_id", "model_to_license", "reuse_repository_to_license", "PK,FK1", "reuse_repository_id", "PK,FK2", "license_id", "FK", "model_id", "value", "limitation_and_bias", "PK", "id", "FK", "model_id", "value", "hyper_parameters", "PK", "id", "FK", "model_id", "value", "PK", "id", "carbon_emitted", "name", "hours_used", "cloud_provider", "compute_region", "PK,FK1", "model_id", "PK,FK2", "hardware_id", "model_to_hardware", "base_model_name", "base_model_url", "PK,FK1", "model_id", "PK,FK2", "base_model_id", "model_to_base_model", "FK", "model_id", "count", "PK", "id", "parameter_count", "FK", "model_id", "format", "PK", "id", "output_format", "FK", "model_id", "format", "PK", "id", "input_format", "name", "model_to_grant", "PK,FK1", "model_id", "PK,FK2", "grant_id", "FK", "model_id", "demo", "PK", "id", "demo", "test", "dataset_id", "result", "FK", "model_id", "PK", "id", "evaluation_metric", "FK", "model_id", "url", "PK", "id", "evaluation_link", "name", "model_to_model_task", "PK,FK1", "model_id", "PK,FK2", "model_task_id", "name", "PK,FK1", "model_id", "PK,FK2", "domain_id", "model_to_domain", "FK", "model_id", "owner", "name", "url", "model_github_repo", "PK", "id", "discussion_to_author", "PK,FK1", "discussion_id", "PK,FK2", "author_id", "hf_commit_to_author", "PK,FK1", "hf_commit_id", "PK,FK2", "author_id", "PK,FK1", "reuse_repository_id", "PK,FK2", "github_issue_id", "reuse_repo_to_issue", "PK", "id", "FK", "model_id", "hf_git_ref", "commit_id", "created_at", "title", "message", "FK", "model_id", "PK", "id", "hf_commit", "reuse_repo_to_pull_request", "PK,FK1", "reuse_repository_id", "PK,FK2", "github_pull_request_", "ptm_issue_to_issue", "PK,FK1", "ptm_issue_id", "PK,FK2", "github_issue_id", "ptm_pull_request_to_pull_request", "PK,FK1", "ptm_pull_request_id", "PK,FK2", "github_pull_request_id", "name", "url", "PK", "id", "model_hub", "repo_url", "ptm_pull_requests", "PK", "id", "repo_url", "PK", "id", "ptm_issues", "name", "model_to_author", "PK,FK1", "model_id", "PK,FK2", "author_id", "FK", "discussion_id", "path", "PK", "id", "discussion_id", "file_path", "event_id", "type", "created_at", "author", "content", "edited", "hidden", "new_status", "summary", "oid", "oid_title", "new_title", "PK", "id", "discussion_event", "title", "status", "num", "repo_id", "repo_type", "is_pull_request", "created_at", "endpoint", "target_branch", "merge_commit_id", "diff", "model_id", "PK", "id", "discussion", "PK,FK1", "commit_id", "PK,FK2", "author_id", "commit_to_author", "issue_to_assignee", "PK,FK1", "issue_id", "PK,FK2", "assignee_id", "pull_request_to_review_request", "PK,FK1", "pull_request_id", "PK,FK2", "review_request_id", "pull_request_to_assignee", "PK,FK1", "pull_request_id", "PK,FK2", "assignee_id", "number", "title", "description", "due_on", "PK", "id", "github_milestone", "name", "model_to_tag", "PK,FK1", "model_id", "PK,FK2", "tag_id", "name", "model_to_language", "PK,FK1", "model_id", "PK,FK2", "language_id", "name", "model_to_framework", "PK,FK1", "model_id", "PK,FK2", "framework_id", "name", "model_to_architecture", "PK,FK1", "model_id", "PK,FK2", "architecture_id", "url", "model_to_reuse_repository", "PK,FK1", "model_id", "PK,FK2", "reuse_repository_id", "name", "PK", "id", "reuse_repository", "sha", "repo_url", "downloads", "likes", "has_snapshot", "FK2", "ptm_issues_id", "FK3", "ptm_pull_requests_", "FK1", "model_hub_id", "context_id", "PK", "id", "model", "name", "status", "conclusion", "started_at", "completed_at", "details_url", "pull_request_id", "github_status_check_rollup", "PK", "id", "name", "url", "PK", "id", "github_repository", "name", "description", "color", "issue_id", "pull_request_id", "PK", "id", "github_label", "additions", "author_id", "base_ref_name", "body", "changed_files", "closed", "closed_at", "created_at", "deletions", "head_ref_name", "head_repository_id", "head_repository_owner_id", "is_cross_repository", "is_draft", "maintainer_can_modify", "merge_commit_id", "merge_state_status", "mergeable", "merged_at", "merged_by_id", "milestone_id", "number", "potential_merge_commit_id", "project_cards", "review_decision", "state", "title", "updated_at", "url", "PK", "id", "github_pull_request", "author_id", "body", "closed", "closed_at", "created_at", "comment_id", "milestone_id", "number", "project_cards", "state", "title", "updated_at", "url", "PK", "id", "github_issue", "path", "additions", "deletions", "pull_request_id", "github_pull_request_file", "PK", "id", "author_id", "author_association", "body", "submitted_at", "includes_created_", "state", "pull_request_id", "PK", "id", "github_review", "content", "total_count", "issue_id", "pull_request_id", "github_comment_id", "review_id", "github_merge_commit", "PK", "id", "commit_id", "github_reaction_group", "PK", "id", "authored_date", "committed_date", "message_body", "message_headline", "oid", "pull_request_id", "PK", "id", "github_commit", "author_id", "author_association", "body", "created_at", "includes_created_ed", "is_minimized", "minimized_reason", "issue_id", "pull_request_id", "PK", "id", "github_comment", "login", "email", "PK", "id", "github_user", "FK1", "model_id", "FK2", "reuse_repository_id", "path", "PK", "id", "reuse_file", "GitHub", "Project", "Metadata", "Metadata", "Joining", "Table", "Enhanced", "PTM", "Metadata", "PTM", "Metadata", "PeaTMOSS:", "A", "Dataset", "and", "Initial", "Analysis", "of", "Pre-Trained", "Models", "in", "Open-Source", "Software", "MSR", "2024,", "April", "2024,", "Lisbon,", "Portugal"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 558.24,
+    "y1": 56.64,
+    "y2": 458.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644907-Figure3-1.png"
+}]

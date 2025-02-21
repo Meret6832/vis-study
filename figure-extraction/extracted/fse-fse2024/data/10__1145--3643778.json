@@ -1,0 +1,161 @@
+[{
+  "caption": "Fig. 1. The design of BRF",
+  "captionBoundary": {
+    "x1": 97.86409759521484,
+    "x2": 191.302734375,
+    "y1": 222.76803588867188,
+    "y2": 227.04501342773438
+  },
+  "figType": "Figure",
+  "imageText": ["Helper", "functions", "✓", "Interpreter", "MapsJIT", "compiler", "dependencies", "eBPF", "Runtime", "components", "eBPF", "programs", "Extracting", "eBPF", "domain", "knowledge", "Fuzzing", "eBPF", "syscall", "dependencies", "eBPF", "semantics", "(verifier", "rules)", "Linux", "kernel", "source", "code", "BRF", "Syscalls", "eBPF", "verifier", "Linux", "kernel"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 232.32,
+    "y1": 84.0,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. An example semantic-correct eBPF program rejected by the verifier.",
+  "captionBoundary": {
+    "x1": 114.63300323486328,
+    "x2": 371.1577453613281,
+    "y1": 172.52001953125,
+    "y2": 187.7559814453125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "...", "2", "v4", "=", "bpf_ringbuf_reserve(&map_1,", "v2,", "v3);", "3", "if", "(v4)", "4", "v5", "=", "bpf_ringbuf_query(&map_1,", "v4);", "5", "...", "6", "if", "(v4)", "7", "bpf_ringbuf_submit(v4,", "0);", "8", "return", "1;", "9", "}"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 118.56,
+    "x2": 372.0,
+    "y1": 84.96,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Figure5-1.png"
+}, {
+  "caption": "Table 1. Types of error messages in the eBPF verifier.",
+  "captionBoundary": {
+    "x1": 145.21290588378906,
+    "x2": 340.54522705078125,
+    "y1": 88.07678985595703,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["#", "error", "msg.", "34", "226", "38", "20", "Type", "of", "error", "msg.", "Syntax", "Semantic", "Veri", "er", "error", "Other"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 354.24,
+    "y1": 99.84,
+    "y2": 130.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Table1-1.png"
+}, {
+  "caption": "Table 2. Comparison of programs loaded, a ached, and triggered by Syzkaller and BRF under 48-hour fuzzing sessions. The numbers are the average followed by the standard deviation. *# success keeps track of whether any eBPF programs referenced in a fuzzing input are executed. Therefore, it may contain duplicated eBPF programs. **Only the number of unique eBPF programs that are executed are counted, which is not available in Syzkaller.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.39410400390625,
+    "y1": 88.07703399658203,
+    "y2": 136.18902587890625
+  },
+  "figType": "Table",
+  "imageText": ["8", "EVALUATION", "Syzkaller", "176k", "±", "14k", "34k", "±", "7k", "19.5%", "±", "3.8%", "60k", "±", "17k", "16k", "±", "5k", "26.5%", "±", "0.7%", "12k", "±", "1k", "na", "Buzzer", "4,543k", "±", "289k", "3k", "±", "0.2k", "0.1%", "±", "0.0%", "3k", "±", "0.3k", "3k", "±", "0.3k", "100.0%", "±", "0.0%", "3k", "±", "0.3k", "100.0%", "±", "0.0%", "BRF", "176k", "±", "9k", "172k", "±", "10k", "97.6%", "±", "0.8%", "160k", "±", "8k", "145k", "±", "8k", "89.9%", "±", "1.2%", "97k", "±", "8k", "66.8%", "±", "3.7%", "Total", "#", "Success", "Success", "rate", "Total", "#", "Success", "Success", "rate", "#", "Success*", "Success", "rate**", "Program", "loading", "syscall", "Program", "attaching", "syscall", "Program", "execution"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 144.0,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Table2-1.png"
+}, {
+  "caption": "Fig. 4. Simplified code showing how the verifier checks if a helper is available to kprobe eBPF programs.",
+  "captionBoundary": {
+    "x1": 250.54400634765625,
+    "x2": 437.3729553222656,
+    "y1": 174.343994140625,
+    "y2": 200.53900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "static", "const", "struct", "bpf_reg_types", "2", "scalar_types", "=", "{", ".types", "=", "{", "SCALAR_VALUE", "}", "};", "3", "...", "4", "static", "const", "struct", "bpf_reg_types", "*", "5", "compatible_reg_types[__BPF_ARG_TYPE_MAX]", "=", "{", "6", "[ARG_CONST_SIZE]", "=", "&scalar_types,", "7", "...", "8", "}"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 253.92,
+    "x2": 436.32,
+    "y1": 96.0,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. Simplified code showing how the verifier checks if a helper is available to kprobe eBPF programs.",
+  "captionBoundary": {
+    "x1": 47.62300109863281,
+    "x2": 242.3441619873047,
+    "y1": 189.8990478515625,
+    "y2": 216.093994140625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "}", "11", "}", "1", "static", "const", "struct", "bpf_func_proto", "*", "2", "kprobe_prog_func_proto(enum", "bpf_func_id", "func_id", "3", "{", "4", "switch", "(func_id)", "{", "5", "case", "BPF_FUNC_perf_event_output:", "6", "return", "&bpf_perf_event_output_proto;", "7", "...", "8", "default:", "9", "return", "bpf_tracing_func_proto(func_id,", "prog);"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 241.44,
+    "y1": 87.84,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Figure3-1.png"
+}, {
+  "caption": "Table 5. Comparison of eBPF fuzzers. The program correctness is the percentage of programs generated that pass the verifier. *The fuzzer can generate syntax-incorrect programs a er mutation. **The fuzzer has limited semantic awareness according to the fuzzing strategies implemented.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17474365234375,
+    "y1": 88.07703399658203,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Open", "source", "✓", "✓", "✓", "✓", "Syntax-aware", "✓", "✓", "✓", "*", "*", "✓", "✓", "✓", "Semantic-aware", "✓", "**", "**", "**", "Program", "correctness", "97.6%", "19.5%", "0.1%", "na", "na", "0.77%", "na", "na", "Fuzzing", "target", "by", "design", "runtime", "subsystem", "veri", "er", "veri", "er", "subsystem", "JIT", "rBPF", "veri", "er+JIT", "BRF", "Syzkaller", "[3]", "Buzzer", "[20]", "[1]", "[15]", "[19]", "[11]", "[16]"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 438.24,
+    "y1": 121.92,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Table5-1.png"
+}, {
+  "caption": "Table 4. Summary of vulnerabilities discovered by BRF.",
+  "captionBoundary": {
+    "x1": 140.66209411621094,
+    "x2": 345.0955810546875,
+    "y1": 88.07678985595703,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["CVE-2022-2905", "✓", "✓", "✓", "Out-of-bound", "access,", "info.", "leak", "CVE-2023-0160", "✓", "✓", "✓", "Deadlock", "Vulnerability", "3", "✓", "✓", "Deadlock,", "API", "misuse", "Vulnerability", "4", "✓", "✓", "✓", "Deadlock", "Vulnerability", "5", "✓", "✓", "✓", "Memory", "leak", "Vulnerability", "6", "✓", "✓", "✓", "Deadlock", "New", "Type", "of", "vulnerability", "JIT", "Interpreter", "Helpers", "Maps", "Veri", "er", "Runtime", "components"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 421.44,
+    "y1": 99.84,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643778-Table4-1.png"
+}]

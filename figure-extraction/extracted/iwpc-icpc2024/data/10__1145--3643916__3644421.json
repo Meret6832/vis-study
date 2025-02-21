@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 3: The framework of leveraging project-specific information for test code completion",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6533508300781,
+    "y1": 211.82911682128906,
+    "y2": 228.41900634765625
+  },
+  "figType": "Figure",
+  "imageText": ["search", "Target", "Token", "fuse", "fuse", "retrieve", "generate", "output", "store", "k-v", "Pair", "Final", "Distribution", "Generated", "Token", "kNN", "Distribution", "select", "Model", "Distribution", "Context", "Vector", "kNN", "Model", "Reference", "Datastore", "Test", "Context", "Pre-Trained", "Model", "input", "Project", "key-value", "Datastore"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.71999999999997,
+    "y1": 88.8,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Figure3-1.png"
+}, {
+  "caption": "Table 4: Comparison of the reference datastore construction with and without selection strategy",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.195556640625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["L", "368.47", "966.42", "35.09", "218.86", "83.45", "84.79", "w", "/", "o", "s", "e", "l", ".", "S", "15.16", "42.63", "0.83", "785.88", "83.95", "84.00", "M", "75.82", "272.32", "5.72", "501.14", "83.10", "84.19", "L", "22.77", "143.27", "2.67", "835.67", "83.68", "84.00", "w", "/", "s", "e", "l", ".", "S", "6.35", "18.88", "0.42", "859.01", "83.24", "83.41", "M", "12.50", "56.24", "1.06", "862.16", "83.34", "83.54", "(count)", "(MB)", "(s)", "(tokens/s)", "(%)", "(%)", "Ref.", "Files", "Storage↓", "Time↓", "Speed↑", "CodeGPT", "UniX.", "Datastore", "Construction", "Inference", "Accuracy"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 553.4399999999999,
+    "y1": 108.47999999999999,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table4-1.png"
+}, {
+  "caption": "Table 3: Accuracy before and after leveraging the intraproject similarity of test code for test code completion",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64263916015625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder+inter", "93.59", "62.36", "80.52", "89.46", "62.74", "80.42", "+intra", "95.07", "69.03", "83.63", "90.63", "64.93", "83.82", "CodeGPT+inter", "93.34", "61.38", "80.20", "88.78", "62.19", "79.88", "+intra", "94.82", "68.53", "84.86", "90.22", "63.96", "83.55", "percentage", "50.01", "34.44", "6.99", "4.26", "4.30", "100", "A", "l", "l", "-", "t", "o", "k", "e", "n", "L", "i", "t", "e", "r", "a", "l", "O", "p", "e", "r", "a", "t", "o", "r", "K", "e", "y", "w", "o", "r", "d", "I", "d", "e", "n", "t", "i", "fi", "e", "r", "P", "u", "n", "c", "t", "u", "a", "t", "i", "o", "n"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 288.0,
+    "y1": 108.96,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table3-1.png"
+}, {
+  "caption": "Table 8: Proportion of incorrectly predicted identifiers with similar patterns in the project to all tokens in the test set",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03521728515625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["1.91%", "2.69%", "2.78%", "2.93%", "5.20%", "Current", "Test", "Selected", "Ref.", "Other", "Test", "Other", "Prod.", "Not", "in", "Proj."],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 108.47999999999999,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table8-1.png"
+}, {
+  "caption": "Figure 2: Test class and a focal-dependent class",
+  "captionBoundary": {
+    "x1": 343.4389953613281,
+    "x2": 532.7112426757812,
+    "y1": 237.20437622070312,
+    "y2": 242.83502197265625
+  },
+  "figType": "Figure",
+  "imageText": ["...", "}", "}", "illegalAdaptableException,", "MessageFormat.format(\"Live", "response", "is", "invalid:", "{0}\",", "illegalAdaptableException.getMessage()));", "final", "var", "logEntry", "=", "LogEntryFactory.getLogEntryForIllegalCommandResponseAdaptable(", "final", "IllegalAdaptableException", "illegalAdaptableException,", "@Nullable", "final", "ExternalMessage", "inboundMessage)", "{", "..."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 177.12,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Figure2-1.png"
+}, {
+  "caption": "Table 5: Accuracy before and after leveraging the focalrelated code of test code for test code completion",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7994384765625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder+inter", "62.93", "80.79", "62.36", "80.42", "+focal", "65.40", "82.00", "63.87", "81.16", "CodeGPT+inter", "61.89", "80.25", "61.38", "79.88", "+focal", "64.61", "81.56", "63.05", "80.68", "Identifier", "All-token", "Identifier", "All-token", "Focal-found", "Entire", "Test", "Set"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 105.6,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table5-1.png"
+}, {
+  "caption": "Table 1: Dataset Statistics",
+  "captionBoundary": {
+    "x1": 122.66099548339844,
+    "x2": 224.88229370117188,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Projects", "494", "108", "110", "16", "90", "Production", "Files", "209,836", "41,184", "23,679", "5,372", "-", "Test", "Files", "41,184", "-", "5,372", "-", "10,708", "Train", "Valid", "Test", "-origin", "-align", "-origin", "-align"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 100.8,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table1-1.png"
+}, {
+  "caption": "Table 7: Results on line-level test code completion",
+  "captionBoundary": {
+    "x1": 336.63800048828125,
+    "x2": 539.2156372070312,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["base", "model", "71.51", "23.80", "58.30", "11.80", "+inter", "74.10", "26.37", "62.20", "17.70", "+ReACC-BM25", "72.93", "25.70", "59.88", "12.70", "+inter+ReACC-BM25", "75.49", "28.27", "63.78", "17.93", "+inter+𝑘NN", "(ours)", "77.87", "29.23", "65.68", "19.30", "ES", "EM", "ES", "EM", "CodeGPT", "UniXcoder"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 548.16,
+    "y1": 94.56,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table7-1.png"
+}, {
+  "caption": "Table 6: The step-by-step illustration of the improvement of our framework compared to base models",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03863525390625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["base", "model", "77.39", "57.05", "78.25", "58.37", "+inter", "79.88", "61.38", "80.42", "62.36", "+inter+intra", "83.55", "68.53", "84.19", "69.03", "+inter+intra+focal", "84.08", "69.67", "84.26", "70.02", "All-token", "Identifier", "All-token", "Identifier", "CodeGPT", "UniXcoder"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 290.4,
+    "y1": 105.6,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table6-1.png"
+}, {
+  "caption": "Table 2: Accuracy of models fine-tuned on different datasets",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0343017578125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Production-only", "78.25%", "Test-only", "79.80%", "Production+Test", "80.42%", "UniXcoder", "Production-only", "77.39%", "Test-only", "79.12%", "Production+Test", "79.88%", "CodeGPT", "Model", "Fine-tune", "Dataset", "Accuracy"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 85.92,
+    "x2": 260.15999999999997,
+    "y1": 100.8,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644421-Table2-1.png"
+}]

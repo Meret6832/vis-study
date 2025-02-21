@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 8: The explainable examples for three constraints.",
+  "captionBoundary": {
+    "x1": 192.2624053955078,
+    "x2": 419.4441833496094,
+    "y1": 81.3349838256836,
+    "y2": 85.68817138671875
+  },
+  "figType": "Table",
+  "imageText": ["N.A", "N.A", "UpdateConsignRecord’s", "weight", "must", "be", "a", "non-negative", "number", "Consign.service.", "updateConsignRecord", "Common", "Sense", "Constraint", "Event2", "transfer", "ContactId", "to", "Event1", "FindContactsByAccountId", "and", "preserve", "should", "have", "the", "same", "contactId", "preserve.service.", "preserve", "contacts.service.", "findContactsByAccountId", "Data", "Constraint", "Event2", "transfer", "price", "to", "Event1", "QueryOrdersForRefresh", "and", "pay", "should", "have", "the", "same", "price", "Inside_payment.service.", "pay", "Order.service.", "queryOrdersForRefresh", "Event2", "triggers", "Event1", "GetAllUsers", "should", "be", "triggered", "if", "the", "role", "returned", "by", "getToken", "equals", "admin.", "Auth.service.", "getToken", "User.service.", "getAllUsers", "Flow", "Constraint", "Event2", "riggers", "Event1", "Paydifference", "should", "be", "triggered", "if", "differenceMoney", "returned", "by", "rebook", "is", "positive.", "Rebook.service.", "rebook", "Rebook.service.", "paydifference", "Constraints", "Event1", "Event2", "Relation", "Explanation", "Description"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 94.56,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table8-1.png"
+}, {
+  "caption": "Table 9: TrainTicket’s explanation precision.",
+  "captionBoundary": {
+    "x1": 83.64219665527344,
+    "x2": 263.9027099609375,
+    "y1": 254.76834106445312,
+    "y2": 259.12152099609375
+  },
+  "figType": "Table",
+  "imageText": ["Common", "Sense", "consistency", "0.961", "Flow", "consistency", "0.875", "Data", "consistency", "0.923", "Explanation", "Precision"],
+  "name": "9",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 286.08,
+    "y1": 268.32,
+    "y2": 320.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table9-1.png"
+}, {
+  "caption": "Table 10: TrainTicket’s seeds coverage impact on the result.",
+  "captionBoundary": {
+    "x1": 53.88209915161133,
+    "x2": 293.6616516113281,
+    "y1": 331.7335205078125,
+    "y2": 336.0867004394531
+  },
+  "figType": "Table",
+  "imageText": ["Recall", "0.367", "0.559", "0.752", "0.838", "0.902", "Seed", "Coverage", "10%", "30%", "50%", "70%", "90%"],
+  "name": "10",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 289.44,
+    "y1": 345.12,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table10-1.png"
+}, {
+  "caption": "Figure 7: Data constraint prompt and an example of a agentenvironment interaction turn.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6496276855469,
+    "y1": 229.01535034179688,
+    "y2": 244.3275146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Implement", "a", "function", "is_related", "that", "checks", "if", "instances", "of", "RebookInfo", "and", "PaymentInfo", "are", "related", "based", "on", "the", "identified", "attributes.", "def", "is_related", "(A:", "dict", ",", "B:", "dict", ")", "-", ">", "bool:", "if", "A.get", "(", "'", "orderId", "'", ")", "!=", "B.get", "(", "'", "orderId", "'", "):", "return", "False", "if", "A.get", "(", "'", "tripId", "'", ")", "!=", "B.get", "(", "'", "tripId", "'", "):", "return", "False", "return", "True", "Given", "the", "attributes:", "<class", "attributes>", "We", "can", "construct", "the", "following", "first-order", "logic", "constraints", "Agent", "Response"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 291.36,
+    "y1": 77.75999999999999,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Figure7-1.png"
+}, {
+  "caption": "Figure 11: The false explanation example: travelTime is the key invariant for determining the next flow, not status. Status=0 provides a spurious explanation, whereas the correct constraint is travelTime must be less than changeTime.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.8067016601562,
+    "y1": 524.4279174804688,
+    "y2": 561.6571044921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 582.24,
+    "y1": 84.0,
+    "y2": 513.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Figure11-1.png"
+}, {
+  "caption": "Figure 1: A motivating example showing how the backend anomalies can happen when a curious user (or attacker) explores and modifies the frontend code. The example is taken from the scenario of rebooking a ticket to pay extra price in the TrainTicket system. The difference between the logs in the normal scenario and that in the attack scenario is very subtle. In Abnormal Scenario 1 where the user avoids paying extra price by changing a variable in the frontend, the log difference is a change of integer number (from 27.5 to 0, in red).",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.2127075195312,
+    "y1": 302.2904052734375,
+    "y2": 350.47869873046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 563.04,
+    "y1": 77.75999999999999,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Figure1-1.png"
+}, {
+  "caption": "Table 3: The description of baseline models.",
+  "captionBoundary": {
+    "x1": 349.28570556640625,
+    "x2": 526.5784912109375,
+    "y1": 168.38009643554688,
+    "y2": 172.7332763671875
+  },
+  "figType": "Table",
+  "imageText": ["LogAnomaly", "2019", "LSTM", "DeepLog", "2017", "LSTM", "PLELog", "2021", "HDBSCAM+Cluster", "NeuralLog", "2019", "Transformer", "Deep", "Learning", "Based", "5", "LogRobust", "2019", "Bi-LSTM", "Similarly", "Based", "4", "Replica", "2024", "Training-less", "Baseline", "Approach", "Year", "Model"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 546.24,
+    "y1": 178.56,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table3-1.png"
+}, {
+  "caption": "Table 2: The size of the evaluation logs in two platforms. All training logs are normal logs. N refers to normal, A refers to attack in seconds.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 558.205078125,
+    "y1": 87.00399017333984,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["183,232", "72,611", "892", "74,288", "34,555", "318", "Training", "(N)", "Testing", "(N)", "Testing", "(A)", "Training", "(N)", "Testing", "(N)", "Testing", "(A)", "TrainTicket", "NiceFish"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 548.16,
+    "y1": 119.52,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table2-1.png"
+}, {
+  "caption": "Figure 2: Overview of the design of WebNorm, which extracts the log normalities as first-order logic constraints in the learning phase. The log constraints are used to validate the runtime logs in the deployment phase.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 558.2040405273438,
+    "y1": 285.7274169921875,
+    "y2": 301.03961181640625
+  },
+  "figType": "Figure",
+  "imageText": ["Deployment", "Phase", "Learning", "Phase", "Web", "Application", "Run-time", "Anomaly", "Consistency", "Verification", "version)", "Testing", "Log", "Sequence", "Running", "(with", "instrumented", "LLM", "Log", "Constraints", "Common", "Sense", "Learning", "Data", "Constraint", "Learning", "Flow", "Constraint", "Learning", "Constraint", "Learning", "Log", "Collection", "Event", "Graph", "Construction", "Tests/Seeds", "Application-specific", "Instrumentation", "Instrumented", "Backend", "Testing", "Scenario", "Selection", "Frontend", "Event", "Graph", "Backend", "Training", "Log", "Sequence"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 559.1999999999999,
+    "y1": 74.88,
+    "y2": 277.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Figure2-1.png"
+}, {
+  "caption": "Figure 3: An example of instrumented logs for the Rebook API as an event, consisting of API name, and the runtime valuation of the input and the output when it is called.",
+  "captionBoundary": {
+    "x1": 317.62359619140625,
+    "x2": 558.4817504882812,
+    "y1": 410.3296203613281,
+    "y2": 436.60089111328125
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "=", "RebookInfo", "(oldTripId=D1345,", "tripId=D1345,", "seat-", "Type=2,", "date=2024-06-03)", "API", "=", "Rebook.service.RebookServiceImpl", "Output", "=", "Response", "(orderMoneyDifference=27.5)", "Instrumented", "Logs", "(Rebook", "Service", "as", "an", "Example)"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 324.0,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Figure3-1.png"
+}, {
+  "caption": "Table 4: The effectiveness of WebNorm.",
+  "captionBoundary": {
+    "x1": 93.79419708251953,
+    "x2": 253.75474548339844,
+    "y1": 87.00399017333984,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["LogAnomaly", "0.094", "0.593", "0.051", "0.025", "0.072", "0.015", "DeepLog", "0.098", "0.595", "0.053", "0.025", "0.072", "0.015", "PLELog", "0.099", "0.055", "0.485", "0.091", "0.049", "0.700", "NeuralLog", "0.103", "0.522", "0.057", "0.042", "0.772", "0.022", "ReplicaWatcher", "0.169", "0.098", "0.593", "0.012", "0.382", "0.012", "LogRobust", "0.558", "0.477", "0.671", "0.605", "0.500", "0.765", "WebNorm", "0.918", "0.929", "0.907", "0.922", "0.928", "0.917", "F1", "Precision", "Recall", "F1", "Precision", "Recall", "Approach", "TrainTicket", "NiceFish"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 97.92,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table4-1.png"
+}, {
+  "caption": "Table 5: The effectiveness of each scenario on TrainTicket.",
+  "captionBoundary": {
+    "x1": 55.644100189208984,
+    "x2": 291.8997802734375,
+    "y1": 220.16720581054688,
+    "y2": 224.5203857421875
+  },
+  "figType": "Table",
+  "imageText": ["Common", "sense", "consistency", "0.906", "0.945", "0.867", "Flow", "consistency", "0.930", "0.933", "0.928", "Data", "consistency", "0.918", "0.909", "0.926", "Scenarios", "F1", "Precision", "Recall"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 228.0,
+    "y2": 280.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table5-1.png"
+}, {
+  "caption": "Table 6: The total training and testing on TrainTicket involved over 180,000 training logs and 70,000 testing logs.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 295.6436767578125,
+    "y1": 289.5484313964844,
+    "y2": 304.860595703125
+  },
+  "figType": "Table",
+  "imageText": ["LogAnomaly", "32.0", "7.6", "DeepLog", "16.2", "2.8", "PLELog", "148.9", "9.9", "NeuralLog", "165.0", "31.8", "ReplicaWatcher", "N/A", "1.7", "LogRobust", "407.1", "0.4", "WebNorm", "1050.1", "21.6", "Approach", "Training", "Time", "(s)", "Testing", "Time", "(s)"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 310.56,
+    "y2": 411.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695024-Table6-1.png"
+}]

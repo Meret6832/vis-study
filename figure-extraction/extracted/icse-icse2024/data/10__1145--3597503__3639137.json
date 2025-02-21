@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 8: Comparing Respector with four (AppMap (AM) [38], Swagger Core (SC) [54], springdoc-openapi (SD) [52], SpringFox (SF) [44]) state-of-the-art API specification generation techniques that use API implementation to generate specifications.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.804931640625,
+    "y1": 213.53237915039062,
+    "y2": 230.12200927734375
+  },
+  "figType": "Figure",
+  "imageText": ["“✗”:", "technique", "could", "not", "generate", "API", "specification;", "“✠”:", "API", "could", "not", "be", "run/tests", "failed;", "“NA”:", "technique", "not", "applicable.", "Total", "630", "118", "40", "173", "349", "7,348", "81", "69", "1,936", "4,442", "31", "—", "2", "1", "0", "726", "—", "7", "270", "421", "Quartz", "14", "10", "NA", "✠", "✠", "3", "0", "NA", "✠", "✠", "0", "NA", "NA", "✠", "✠", "14", "NA", "NA", "✠", "✠", "Ur-Codebin", "6", "3", "NA", "6", "✗", "14", "0", "NA", "14", "✗", "2", "NA", "NA", "0", "✗", "6", "NA", "NA", "5", "✗", "cwa", "5", "5", "NA", "✗", "✗", "13", "0", "NA", "✗", "✗", "0", "NA", "NA", "✗", "✗", "5", "NA", "NA", "✗", "✗", "OCVN", "278", "✠", "NA", "✗", "190", "5,002", "✠", "NA", "✗", "2,834", "0", "NA", "NA", "✗", "0", "278", "NA", "NA", "✗", "160", "Ohsome", "159", "63", "NA", "159", "159", "1,914", "56", "NA", "1,914", "1,608", "0", "NA", "NA", "0", "0", "261", "NA", "NA", "261", "261", "ProxyPrint", "75", "7", "NA", "✠", "✠", "146", "0", "NA", "✠", "✠", "0", "NA", "NA", "✠", "✠", "75", "NA", "NA", "✠", "✠", "Senzing", "34", "8", "✠", "NA", "NA", "154", "11", "✠", "NA", "NA", "14", "NA", "✠", "NA", "NA", "34", "NA", "✠", "NA", "NA", "CatWatch", "14", "5", "NA", "8", "✗", "32", "14", "NA", "8", "✗", "3", "NA", "NA", "1", "✗", "10", "NA", "NA", "4", "✗", "Features-Service", "18", "17", "18", "NA", "NA", "35", "0", "35", "NA", "NA", "0", "NA", "0", "NA", "NA", "18", "NA", "7", "NA", "NA", "RESTCountries", "27", "✠", "22", "NA", "NA", "35", "NA", "34", "NA", "NA", "12", "NA", "2", "NA", "NA", "25", "NA", "0", "NA", "NA", "API", "Respector", "AM", "SC", "SD", "SF", "Respector", "AM", "SC", "SD", "SF", "Respector", "AM", "SC", "SD", "SF", "Respector", "AM", "SC", "SD", "SF", "endpoint", "method", "endpoint", "parameter", "parameter", "constraint", "endpoint", "response"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 86.39999999999999,
+    "y2": 198.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639137-Figure8-1.png"
+}, {
+  "caption": "Figure 2: Partial view of the difference between developerprovided and Respector-generated OpenAPI specification for GET /entity-networks endpoint method in Senzing API.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368713378906,
+    "y1": 405.89935302734375,
+    "y2": 433.447998046875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "\"name\":", "\"buildOut\",", "11", "-", "\"description", "\":", "\"The", "maximum", "number", "of", "degrees", "...\",", "12", "+", "\"description", "\":", "\"\",", "13", "\"in\":", "\"query\",", "14", "\"required", "\":", "false", ",", "15", "\"schema", "\":", "{", "16", "\"type\":", "\"integer\",", "17", "-", "\"format", "\":", "\"int8\",", "18", "+", "\"format", "\":", "\"int32\",", "19", "\"default", "\":", "1,", "20", "\"minimum", "\":", "0,", "21", "-", "\"maximum", "\":", "100", "22", "+", "\"exclusiveMinimum", "\":", "false", "23", "}},", "24", "...", "25", "],", "26", "\"responses", "\":", "{", "27", "\"200\":", "{", "28", "-", "\"description", "\":", "\"Successful", "response\",", "29", "+", "\"description", "\":", "\"OK\",", "30", "\"content", "\":", "{", "31", "\"application/json\":", "{", "32", "\"schema", "\":", "{", "33", "-", "\"$ref\":", "\"#/", "components/schemas/SzEntityNetworkResponse\"", "34", "+", "\"type\":", "\"object\",", "35", "+", "\"title", "\":", "\"com.senzing.api.model.SzEntityNetworkResponse\",", "36", "+", "\"properties", "\":", "{}", "37", "}},", "38", "...", "39", "},", "40", "+", "\"x-endpoint", "-constraints", "\":", "{", "41", "+", "\"$ref\":", "\"#/", "components/x-endpoint", "-constraints", "/~1", "entity", "-networks/get\"", "42", "}}}", "1", "---", "Senzing_API_Developer.json", "2", "+++", "Senzing_API_Respector.json", "3", "\"/entity", "-networks", "\":", "{", "4", "\"get\":", "{", "5", "-", "\"description", "\":", "\"This", "operation", "finds", "...\",", "6", "+", "\"description", "\":", "\"\",", "7", "-", "\"operationId", "\":", "\"findEntityNetwork\",", "8", "+", "\"operationId", "\":", "\"33\",", "9", "\"parameters", "\":", "[", "{"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 291.36,
+    "y1": 87.36,
+    "y2": 386.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639137-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Partial Respector-generated enhanced OpenAPI specification for the GET /entity-networks endpoint method.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.201904296875,
+    "y1": 467.600341796875,
+    "y2": 484.19000244140625
+  },
+  "figType": "Figure",
+  "imageText": ["45", "}}},", "46", "...", "47", "}", "recordId}/put\"", "28", "},", "29", "...", "30", "},", "31", "\"x-endpoint", "-interdependence\":", "{", "32", "\"g10\":", "{", "33", "\"location", "-details\":", "{", "34", "\"$ref\":", "\"#/", "components/x-global", "-variables", "-info/10\"", "35", "},", "36", "\"read", "-by\":", "{", "37", "\"em9\":", "{", "38", "\"$ref\":", "\"#/", "paths/~1reevaluate", "-entity/post\"", "39", "},", "40", "...", "41", "},", "42", "\"written", "-by\":", "{", "43", "\"em1\":", "{", "44", "\"$ref\":", "\"#/", "paths/~1data", "-sources~1{dataSourceCode}~1records~1{", "SzFlaggedRecord\"]"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.28,
+    "x2": 534.72,
+    "y1": 294.71999999999997,
+    "y2": 449.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639137-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Real-world, open-source Java REST APIs used in the evaluation. “SLOC” denotes the source lines of code.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1931762695312,
+    "y1": 269.8253479003906,
+    "y2": 286.4150085449219
+  },
+  "figType": "Figure",
+  "imageText": ["their", "code", "with", "others", "Digdag", "(Digdag)", "[14]", "Jersey", "54.8K", "API", "for", "workload", "automation", "system", "to", "man-", "age", "task", "pipelines", "enviroCar", "(enviroCar)", "[18]", "Jersey", "22.7K", "API", "to", "track", "and", "analyze", "road", "traffic", "and", "driving", "behavior", "Features-Service", "(Features-Service)", "[42]", "Jersey", "1K", "API", "for", "managing", "products", "Feature", "Models", "Gravitee.io", "(Gravitee)", "[25]", "Jersey", "118.8K", "API", "management", "tool", "Kafka", "REST", "Proxy", "(Kafka)", "[31]", "Jersey", "19.4K", "API", "to", "manage", "data", "on", "Kafka", "cluster", "Management", "API", "for", "Apache", "Cassandra", "(cassandra)", "[15]", "Jersey", "10.5K", "API", "for", "managing", "distributed,", "wide-column", "store,", "NoSQL", "database", "management", "system", "RESTCountries", "(RESTCountries)", "[5]", "Jersey", "1.3K", "API", "to", "get", "information", "about", "countries", "Senzing", "(Senzing)", "[11]", "Jersey", "30.9K", "API", "for", "a", "platform", "used", "for", "entity", "resolution", "CatWatch", "(CatWatch)", "[32]", "Spring", "Boot", "4K", "API", "to", "fetch", "user’s", "GitHub", "data", "and", "makes", "it", "accessible", "via", "REST", "API", "CWA", "Verification", "Server", "(cwa)", "[1]", "Spring", "Boot", "2.1K", "Verification", "API", "for", "the", "Corona-Warn-App", "OCVN", "(OCVN)", "[23]", "Spring", "Boot", "24.6K", "API", "to", "import", "Vietnam", "public", "procurement", "data", "into", "Open", "Contracting", "Data", "Standard", "(OCDS)", "NoSQL", "storage", "Ohsome", "(Ohsome)", "[27]", "Spring", "Boot", "7.3K", "API", "for", "analyzing", "OpenStreetMap", "history", "data", "ProxyPrint", "(ProxyPrint)", "[47]", "Spring", "Boot", "5.5K", "API", "for", "managing", "printshops", "and", "consumers", "Quartz", "Manager", "(Quartz)", "[21]", "Spring", "Boot", "2.3K", "API", "for", "Quartz", "Scheduler", "Ur-Codebin", "(Ur-Codebin)", "[19]", "Spring", "Boot", "1.2K", "Backend", "API", "of", "website", "allowing", "users", "to", "share", "REST", "API", "(short", "name)", "Framework", "SLOC", "Description"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 84.96,
+    "y2": 263.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639137-Figure5-1.png"
+}, {
+  "caption": "Figure 4: Overview of the Respector approach.",
+  "captionBoundary": {
+    "x1": 80.26499938964844,
+    "x2": 267.57366943359375,
+    "y1": 250.27133178710938,
+    "y2": 255.9019775390625
+  },
+  "figType": "Figure",
+  "imageText": ["Section", "3 Step-4Section", "3 Step-5Section", "3 Step-5", "Section", "3 Step-3", "Section", "3 Step-1", "Section", "3 Step-2", "Section", "3 ", "prelimary", "step", "Section", "3", "Step-1", "output", "OAS", "for", "REST", "API", "Respector", "iterative", "process", "manual", "process", "Respector", "input", "legend", "Respector", "for", "API", "Generate", "skeleton", "OAS", "OAS", "to", "the", "skeleton", "OAS ", "Add", "endpoint", "methods'", "Generate", "OAS", "for", "endpoint", "method", "Simplify", "path", "constraints", "leading", "to", "valid", "responses", "reads", "and", "writes", "Identify", "feasible path", "constraints", "leading", "to", "valid", "responses", "and", "track", "global", "methods,", "parameters,", "and", "responses", "Identify", "controller", "classes,", "endpoint", "Identify", "REST", "framework ", "REST", "API ", "implementation", "REST", "API ", "framework", "speciﬁcation", "database"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 285.12,
+    "y1": 84.0,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639137-Figure4-1.png"
+}, {
+  "caption": "Figure 6: Evaluating the accuracy of Respector-generated specifications in extracting the endpoint methods, parameters, constraints, responses, and method interdependencies for 15 REST APIs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.27783203125,
+    "y1": 247.58035278320312,
+    "y2": 264.16998291015625
+  },
+  "figType": "Figure",
+  "imageText": ["GT", ":", "ground", "truth.", "NA:", "Respector", "could", "not", "detect", "any", "constraints.", "#GV", ":", "total", "number", "of", "global", "variables", "detected.", "#IP", ":", "count", "of", "interdependent", "endpoint", "method", "pairs.", "Average", "63.47", "100.00%", "98.60%", "535.80", "100.00%", "94.44%", "8.50", "95.59%", "50.00%", "74.67", "100.00%", "92.59%", "28.33", "(", "54.3%)", "26.20", "320.40", "Total", "952", "–", "–", "8,037", "–", "–", "111", "–", "–", "1,120", "–", "–", "425", "(", "44.6%)", "393", "4,806", "Ur-Codebin", "7", "100.00%", "85.71%", "14", "100.00%", "100.00%", "2", "100.00%", "100.00%", "7", "100.00%", "85.71%", "2", "(", "28.6%)", "16", "0", "OCVN", "278", "100.00%", "100.00%", "5,002", "100.00%", "100.00%", "0", "-", "-", "278", "100.00%", "100.00%", "108", "(", "38.9%)", "16", "0", "Ohsome", "159", "100.00%", "100.00%", "1,937", "100.00%", "98.81%", "58", "NA", "0.00%", "280", "100.00%", "93.21%", "80", "(", "50.3%)", "51", "3,744", "ProxyPrint", "75", "100.00%", "100.00%", "150", "100.00%", "97.33%", "0", "-", "-", "75", "100.00%", "100.00%", "47", "(", "62.7%)", "55", "0", "Quartz", "14", "100.00%", "100.00%", "3", "100.00%", "100.00%", "0", "-", "-", "14", "100.00%", "100.00%", "10", "(", "66.7%)", "5", "0", "CatWatch", "14", "100.00%", "100.00%", "32", "100.00%", "100.00%", "3", "100.00%", "100.00%", "10", "100.00%", "100.00%", "7", "(", "50.0%)", "11", "0", "cwa", "5", "100.00%", "100.00%", "14", "100.00%", "92.86%", "0", "-", "-", "7", "100.00%", "71.43%", "5", "(100.0%)", "33", "0", "Kafka", "74", "100.00%", "93.24%", "175", "100.00%", "88.00%", "0", "-", "-", "108", "100.00%", "63.89%", "31", "(", "41.9%)", "22", "0", "cassandra", "50", "100.00%", "100.00%", "94", "100.00%", "100.00%", "3", "NA", "0.00%", "60", "100.00%", "86.67%", "48", "(", "96.0%)", "14", "990", "RESTCountries", "27", "100.00%", "100.00%", "35", "100.00%", "100.00%", "12", "100.00%", "100.00%", "25", "100.00%", "100.00%", "26", "(", "96.3%)", "12", "0", "Senzing", "34", "100.00%", "100.00%", "156", "100.00%", "98.72%", "17", "82.35%", "100.00%", "34", "100.00%", "100.00%", "33", "(", "97.1%)", "115", "72", "Digdag", "41", "100.00%", "100.00%", "96", "100.00%", "83.33%", "4", "NA", "0.00%", "41", "100.00%", "100.00%", "4", "(", "9.8%)", "4", "0", "enviroCar", "128", "100.00%", "100.00%", "351", "100.00%", "57.55%", "12", "NA", "0.00%", "141", "100.00%", "87.94%", "7", "(", "5.5%)", "17", "0", "Features-Service", "18", "100.00%", "100.00%", "35", "100.00%", "100.00%", "0", "-", "-", "18", "100.00%", "100.00%", "5", "(", "27.8%)", "1", "0", "Gravitee", "28", "100.00%", "100.00%", "99", "100.00%", "100.00%", "0", "-", "-", "26", "100.00%", "100.00%", "12", "(", "42.9%)", "21", "0", "endpoint", "method", "endpoint", "parameter", "parameter", "constraint", "endpoint", "response", "method", "interdependence", "API", "GT", "precision", "recall", "GT", "precision", "recall", "GT", "precision", "recall", "GT", "precision", "recall", "#methods", "#GV", "#IP"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 547.1999999999999,
+    "y1": 84.96,
+    "y2": 238.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639137-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Comparing Respector-generated and developerprovided OpenAPI specifications for 15 REST APIs.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.793701171875,
+    "y1": 411.1953430175781,
+    "y2": 427.7850036621094
+  },
+  "figType": "Figure",
+  "imageText": ["Total", "946", "718", "7,", "977", "5,", "182", "31", "16", "(4)", "1,", "038", "536", "Dev:", "the", "count", "of", "entities", "extracted", "by", "Respector", "(Res)", "and", "present", "in", "developer-provided", "specifications.", "OCVN", "278", "190", "5,", "002", "2,", "834", "0", "0", "(0)", "278", "160", "Ohsome", "159", "135", "1,", "914", "1,", "608", "0", "0", "(0)", "261", "123", "ProxyPrint", "75", "71", "146", "44", "0", "0", "(0)", "75", "67", "Quartz", "14", "10", "3", "3", "0", "0", "(0)", "14", "6", "Ur-Codebin", "6", "6", "14", "6", "2", "2", "(0)", "6", "4", "CatWatch", "14", "6", "32", "28", "3", "1", "(0)", "10", "6", "cwa", "5", "5", "13", "4", "0", "0", "(0)", "5", "3", "Kafka", "69", "41", "154", "101", "0", "0", "(0)", "69", "0", "cassandra", "50", "50", "94", "94", "0", "0", "(0)", "52", "25", "RESTCountries", "27", "10", "35", "20", "12", "0", "(0)", "25", "0", "Senzing", "34", "34", "154", "150", "14", "13", "(4)", "34", "34", "Digdag", "41", "39", "80", "72", "0", "0", "(0)", "41", "36", "enviroCar", "128", "77", "202", "84", "0", "0", "(0)", "124", "44", "Features-Service", "18", "18", "35", "35", "0", "0", "(0)", "18", "7", "Gravitee", "28", "26", "99", "99", "0", "0", "(0)", "26", "21", "endpoint", "method", "endpoint", "parameter", "parameter", "constraint", "endpoint", "response", "API", "Res", "Dev", "Res", "Dev", "Res", "Dev", "(conflict)", "Res", "Dev"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 276.96,
+    "y2": 402.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639137-Figure7-1.png"
+}]

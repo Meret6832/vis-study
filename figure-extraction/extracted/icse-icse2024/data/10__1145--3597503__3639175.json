@@ -1,0 +1,301 @@
+[{
+  "caption": "Table 4: Maneuver variables in the specification language",
+  "captionBoundary": {
+    "x1": 322.1300048828125,
+    "x2": 553.7216796875,
+    "y1": 191.67239379882812,
+    "y2": 197.30303955078125
+  },
+  "figType": "Table",
+  "imageText": ["𝐷𝑒𝑐𝑛𝐹𝑙𝑤", "(𝑥", ")", "Bool", "True", "if", "and", "only", "if", "the", "EVmakes", "an", "\"follow\"", "decision", "on", "NPC", "𝑥", "𝐷𝑒𝑐𝑛𝑌𝑙𝑑", "(𝑥", ")", "Bool", "True", "if", "and", "only", "if", "the", "EV", "makes", "an", "\"yield\"", "decision", "on", "NPC", "𝑥", "𝐷𝑒𝑐𝑛𝑂𝑣𝑡𝑘", "(𝑥", ")", "Bool", "True", "if", "and", "only", "if", "the", "EV", "makes", "an", "\"overtake\"", "deci-", "sion", "on", "NPC", "𝑥", "on", "NPC", "𝑥", "Variable", "Type", "Remarks", "𝑃𝑟𝑖𝑜𝐼𝑔𝑛", "(𝑥", ")", "Bool", "True", "if", "and", "only", "if", "the", "EV", "predicts", "NPC", "𝑥", "as", "an", "\"ignore\"", "priority", "𝐷𝑒𝑐𝑛𝐼𝑔𝑛", "(𝑥", ")", "Bool", "True", "if", "and", "only", "if", "the", "EVmakes", "an", "\"ignore\"", "decision"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 211.67999999999998,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table4-1.png"
+}, {
+  "caption": "Table 3: Deviation variables in the specification language",
+  "captionBoundary": {
+    "x1": 322.69500732421875,
+    "x2": 553.1570434570312,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["an", "NPC", "𝑥", "𝐸𝑟𝑟", "(𝑡", ")", "Number", "The", "error", "of", "the", "trajectory", "prediction", "𝑡", "𝐶𝑟𝑖𝑡𝑂𝑏𝑠𝑡", "(𝑥", ")", "Bool", "True", "if", "and", "only", "if", "𝑑𝑖𝑠𝑡", "(𝑒𝑣,", "𝑥", ")", "<", "3", "×", "𝑒𝑣.𝑠𝑝𝑒𝑒𝑑", "for", "𝑀𝑎𝑥𝐵𝑜𝑢𝑛𝑑", "Number", "The", "maximum", "speed", "limit", "of", "a", "road", "segment", "𝑀𝑖𝑛𝐵𝑜𝑢𝑛𝑑", "Number", "The", "minimum", "speed", "limit", "of", "a", "road", "segment", "𝑑𝑖𝑠𝑡", "(𝑥,", "𝑦)", "Number", "The", "distance", "between", "two", "objects", "𝑥", "and", "𝑦", "Variable", "Type", "Remarks", "𝑇ℎ𝑒𝑟𝑟", "Number", "The", "threshold", "of", "the", "error", "of", "trajectory", "prediction"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table3-1.png"
+}, {
+  "caption": "Table 2: State variables in the specification language",
+  "captionBoundary": {
+    "x1": 68.4229965209961,
+    "x2": 279.1150207519531,
+    "y1": 462.3513488769531,
+    "y2": 467.98199462890625
+  },
+  "figType": "Table",
+  "imageText": ["of", "the", "EV", "the", "EV", "𝑥.𝑏𝑙𝑛𝑑𝐸𝑉", "Bool", "True", "if", "and", "only", "if", "the", "vehicle", "x", "is", "in", "the", "blind", "area", "𝑥.𝑜𝑛𝐶𝑠𝑤𝑘", "Bool", "True", "if", "and", "only", "if", "the", "vehicle", "x", "is", "on", "a", "crosswalk", "𝑥.𝑝𝑟𝑒𝑑𝑇𝑟𝑎𝑗", "Waypoints", "vehicle", "x’s", "predicted", "trajectory", "by", "the", "EV", "𝑥.𝑖𝑠𝑃𝑒𝑑", "Bool", "True", "if", "and", "only", "if", "the", "vehicle", "x", "is", "a", "pedestrian", "𝑥.𝑖𝑠𝐵𝑐𝑦𝑐𝑙", "Bool", "True", "if", "and", "only", "if", "the", "vehicle", "x", "is", "a", "bicyclist", "𝑥.𝑏ℎ𝑛𝑑𝐸𝑉", "Bool", "True", "if", "and", "only", "if", "the", "vehicle", "x", "is", "in", "an", "area", "behind", "Variable", "Type", "Remarks", "𝑥.𝑠𝑝𝑑", "Number", "Speed", "of", "vehicle", "x", "𝑥.𝑜𝑛𝐽", "𝑐𝑡", "Bool", "True", "if", "and", "only", "if", "the", "vehicle", "x", "is", "on", "a", "junction"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 482.88,
+    "y2": 572.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table2-1.png"
+}, {
+  "caption": "Table 8: The eight types of faults injected into the customized ADS",
+  "captionBoundary": {
+    "x1": 171.11000061035156,
+    "x2": 440.58306884765625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Fault", "Type", "Location", "Description", "F1", "AssignIgnoreLevel()@obstacle_prioritizer.cc", "Assign", "‘ignore’", "priority", "to", "all", "the", "detected", "NPCs", "by", "default.", "F2", "PredictObstacle()@predictor_manager.cc", "Assign", "improper", "trajectory", "prediction", "models", "to", "NPCs", "to", "get", "erroneous", "trajectory", "prediction.", "F3", "MakeStaticObstacleDecision()@path_decider.cc", "Make", "‘ignore’", "decisions", "to", "all", "the", "static", "NPCs", "near", "the", "AV’s", "planned", "trajectory.", "F4", "MakeObjectDecision()@speed_decider.cc", "Make", "‘follow’", "decisions", "to", "any", "NPCs", "in", "front", "of", "the", "AV", "which", "tend", "to", "stop,", "instead", "of", "‘stop’", "decisions", "or", "changing", "lanes.", "F5", "MakeObjectDecision()@speed_decider.cc", "Make", "‘ignore’", "decisions", "to", "an", "NPC", "ahead", "of", "the", "AV,", "if", "the", "AV", "is", "not", "following", "or", "keeping", "distance", "from", "it.", "F6", "MakeObjectDecision()@speed_decider.cc", "Make", "‘yield’", "decisions", "to", "a", "high-speed", "NPC", "accelerating", "ahead", "of", "the", "AV,", "which", "leads", "to", "AV’s", "low", "speed", "in", "a", "fast", "lane.", "F7", "MakeObjectDecision()@speed_decider.cc", "Make", "‘overtake’", "decisions", "to", "any", "NPC", "if", "it", "is", "near", "the", "AV.", "F8", "GetSpeedLimits()@speed_limit_decider.cc", "Keep", "a", "high", "speed", "even", "being", "close", "to", "NPCs."],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table8-1.png"
+}, {
+  "caption": "Table 9: Precision (higher is better), Recall (higher is better), and Accuracy (higher is better) of causal events over accidents with different fault injections",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 295.1343688964844,
+    "y1": 197.02035522460938,
+    "y2": 224.5679931640625
+  },
+  "figType": "Table",
+  "imageText": ["Location", "Prediction", "Module", "Planning", "Module", "Fault", "Types", "F1", "F2", "Total", "F3", "F4", "F5", "F6", "F7", "F8", "Total", "Numbers", "155", "126", "281", "132", "146", "202", "166", "145", "134", "925", "Precision", "(%)", "100.00", "100.00", "100.00", "100.00", "100.00", "100.00", "100.00", "100.00", "100.00", "100.00", "Recall", "(%)", "100.00", "90.00", "95.97", "87.61", "73.98", "89.70", "86.72", "77.19", "77.19", "82.56", "Accuracy", "(%)", "100.00", "92.06", "96.44", "89.39", "78.08", "91.58", "89.76", "82.07", "80.60", "85.73"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 238.56,
+    "y2": 283.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table9-1.png"
+}, {
+  "caption": "Figure 1: Overview of ACAV: the first stage vectorizes data exchanged between ADS modules and discards recording segments irrelevant to the accident; the second stage performs a causality analysis using the CAT tool",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1820678710938,
+    "y1": 182.49935913085938,
+    "y2": 199.0889892578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Figure1-1.png"
+}, {
+  "caption": "Figure 2: A visual example of an ST graph",
+  "captionBoundary": {
+    "x1": 89.47599792480469,
+    "x2": 258.3594970703125,
+    "y1": 283.4783630371094,
+    "y2": 289.1090087890625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 216.95999999999998,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Speed planning based on an ST graph",
+  "captionBoundary": {
+    "x1": 79.572998046875,
+    "x2": 268.26239013671875,
+    "y1": 187.72433471679688,
+    "y2": 193.35498046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Figure4-1.png"
+}, {
+  "caption": "Figure 5: CAT for causality analysis",
+  "captionBoundary": {
+    "x1": 104.30699920654297,
+    "x2": 243.53311157226562,
+    "y1": 364.35235595703125,
+    "y2": 369.9830017089844
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 208.79999999999998,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Figure5-1.png"
+}, {
+  "caption": "Table 5: Ratio (higher is better) and recall (higher is better) of different combinations of voting methods",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2017211914062,
+    "y1": 184.27438354492188,
+    "y2": 200.86297607421875
+  },
+  "figType": "Table",
+  "imageText": ["Ratio", "74.64%", "96.43%", "74.64%", "50.03%", "60.26%", "74.64%", "62.23%", "Recall", "79.62%", "11:06%", "79.62%", "93.01%", "89.19%", "79.62%", "94.41%", "Weight", "Ratio", "(map:perc:pln)", "1:1:0", "1:0:1", "0:1:1", "1:1:1", "2:1:1", "1:2:1", "1:1:2"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 216.0,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table5-1.png"
+}, {
+  "caption": "Figure 6: Ratio (higher is better) and recall (higher is better) of the pruning method under different thresholds",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.7601928710938,
+    "y1": 150.13333129882812,
+    "y2": 166.7230224609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 82.56,
+    "y2": 137.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Figure6-1.png"
+}, {
+  "caption": "Table 1: Results of a causality analysis for the example",
+  "captionBoundary": {
+    "x1": 327.1919860839844,
+    "x2": 548.6611328125,
+    "y1": 226.21035766601562,
+    "y2": 231.84100341796875
+  },
+  "figType": "Table",
+  "imageText": ["Time", "Accident", "causal", "events", "Details", "0s", "AV", "keeps", "safe", "distance", "from", "NPCs", "–", "0.4s", "Wrong", "motion", "planning;", "AV", "skidding", "sometimes", "AV’s", "planning", "speed", "is", "too", "fast", "or", "too", "slow.", "0.8s", "Wrong", "planning", "caused", "by", "the", "wrong", "prediction;", "AV", "skidding", "sometimes", "For", "NPC", "2:", "wrong", "priority", "prediction.", "For", "NPC", "4:", "improper", "‘overtake’", "decision.", "AV’s", "planning", "speed", "is", "too", "fast", "or", "too", "slow.", "2.6s", "Wrong", "motion", "planning;", "AV", "skidding", "sometimes", "AV’s", "planning", "speed", "is", "too", "fast", "or", "too", "slow.", "4.3s", "Accident!"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 246.72,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table1-1.png"
+}, {
+  "caption": "Figure 3: Motivating example: six key scenes from a recording of an AV accident",
+  "captionBoundary": {
+    "x1": 143.884033203125,
+    "x2": 468.1033630371094,
+    "y1": 200.30740356445312,
+    "y2": 205.93804931640625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)", "(c)", "(d)", "(e)", "(f)"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 563.04,
+    "y1": 92.64,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Figure3-1.png"
+}, {
+  "caption": "Table 7: The number of causal events over different accident types",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1939086914062,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "26", "51", "17", "67", "103", "Intersection", "0", "0", "6", "27", "39", "Merging", "20", "27", "4", "23", "30", "Tailgating", "6", "24", "7", "17", "34", "Prediction", "Wrong", "Trajectory", "Prediction", "Wrong", "Behavioral", "Planning", "Wrong", "Motion", "Planning", "Vehicle", "Out-of-control", "Wrong", "Priority"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table7-1.png"
+}, {
+  "caption": "Table 6: Ratio (higher is better) and recall (higher is better) of different recording segmenting methods",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.04473876953125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["ACAV", "STRaP", "Length:", "4s", "Length:", "8s", "Length:", "12s", "Length:", "16s", "Ratio", "62.23%", "60.57%", "76.74%", "54.40%", "32.64%", "16.29%", "Recall", "94.41%", "30.81%", "72.26%", "82.92%", "86.85%", "91.35%"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 116.64,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639175-Table6-1.png"
+}]

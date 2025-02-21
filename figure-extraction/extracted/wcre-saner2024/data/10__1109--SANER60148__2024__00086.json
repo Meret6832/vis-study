@@ -1,0 +1,161 @@
+[{
+  "caption": "Fig. 4. Parallel categorization of source category and smell type",
+  "captionBoundary": {
+    "x1": 201.94329833984375,
+    "x2": 400.05621337890625,
+    "y1": 296.85064697265625,
+    "y2": 300.341796875
+  },
+  "figType": "Figure",
+  "imageText": ["Human-oriented", "decisions", "DO", ">", "Application", "code", "Backup", "Aggregation", "Performance/Memory", "Sharding", "Relational", "design", "ghosts", "Query", "Security", "DO", ">", "Index", "Smell", "type", "DO", ">", "Data/Schema", "Presentation", "Research", "Project", "artifact", "Book", "Discussion", "Category", "Blog", "post/Online", "article", "Snowballing", "MongoDB", "forum", "MongoDB", "website", "Search", "engine", "Google"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 102.72,
+    "x2": 501.12,
+    "y1": 79.2,
+    "y2": 281.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-Figure4-1.png"
+}, {
+  "caption": "Fig. 1. Example of Separating data accessed together smell. Countries and Cities are two collections frequently queried together (left). The separated documents require slow and resource-intensive join (i.e., $lookup) operation. Countries could embed their Cities to avoid expensive joins (right).",
+  "captionBoundary": {
+    "x1": 62.4005012512207,
+    "x2": 540.4945068359375,
+    "y1": 301.4798583984375,
+    "y2": 313.3097229003906
+  },
+  "figType": "Figure",
+  "imageText": ["/*", "...", "same", "as", "Lines", "1-8", "*/", "await", "db.collection(\"countries\").find()", ".forEach(console.log);", "/*", "...", "same", "as", "Lines", "19-25", "*/", "8.", "9.", "10.", "11.", "(collection)", "(collection)", "(document)", "(document)", "{", "_id:", "2,", "name:", "“Helsinki”,", "country:", "3", "}", "{", "_id:", "2,", "name:", "“Salzburg”", "country:", "2", "}", "{", "_id:", "3,", "name:", "“Vienna”", "country:", "2", "}", "{", "_id:", "4,", "name:", "“Berlin”", "country:", "3", "}", "Countries", "{", "_id:", "3,", "name:", "“Finnland”", "}", "{", "_id:", "2,", "name:", "“Austria”", "}", "{", "_id:", "3,", "name:", "“Germany”", "}", "Cities", "(embedded", "document)const", "{", "MongoClient", "}", "=", "require(\"mongodb\");", "const", "uri", "=", "\"mongodb://localhost:27017\";", "const", "client", "=", "new", "MongoClient(uri);", "async", "function", "run()", "{", "try", "{", "await", "client.connect();", "const", "db", "=", "client.db(\"test\");", "await", "db.collection(\"countries\").aggregate([", "{", "\"$lookup\":", "{", "\"from\":", "\"cities\",", "\"localField\":", "\"_id\",", "\"foreignField\":", "\"country”,", "\"as\":", "\"country_cities\"", "}", "}", "]).forEach(console.log);", "}", "catch(err)", "{", "console.log(err);", "}", "finally", "{", "await", "client.close();", "}", "}", "run().catch(console.dir);", "1.", "2.", "3.", "4.", "5.", "6.", "7.", "8.", "9.", "10.", "11.", "12.", "13.", "14.", "15.", "16.", "17.", "18.", "19.", "20.", "21.", "22.", "23.", "24.", "25.", "{", "_id:", "1,", "name:", "“Latvia”,", "cities:", "[", "{", "_id:", "1,", "name:", "“Riga”", "},", "{", "_id:", "2,", "name:", "“Daugavpils”", "},", "]", "}", "{", "_id:", "2,", "name:", "“Cyprus”,", "cities:", "[", "{", "_id:", "1,", "name:", "“Limmassol”", "},", "{", "_id:", "2,", "name:", "“Nicosia”", "},", "]", "}", "{", "_id:", "3,", "name:", "“Finnland”,", "cities:", "[", "{", "_id:", "1,", "name:", "“Rovaniemi”", "},", "{", "_id:", "2,", "name:", "“Helsinki”", "}", "]", "}", "(document)", "(embedded", "document)", "Countries", "(collection)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 132.0,
+    "x2": 467.03999999999996,
+    "y1": 72.96,
+    "y2": 288.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. Induced smell per category",
+  "captionBoundary": {
+    "x1": 125.47059631347656,
+    "x2": 233.14761352539062,
+    "y1": 554.283935546875,
+    "y2": 557.7750854492188
+  },
+  "figType": "Figure",
+  "imageText": ["12", "10", "8", "6", "4", "2", "Discussion", "(n=24)", "Project", "Artifact", "(n=1)", "Research", "(n=1)", "Presentation", "(n=2)", "Blog", "post/Online", "article", "(n=52)", "Book", "(n=7)"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 287.52,
+    "y1": 390.71999999999997,
+    "y2": 540.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-Figure5-1.png"
+}, {
+  "caption": "TABLE I SOURCE TYPES CLASSIFICATION",
+  "captionBoundary": {
+    "x1": 127.91215515136719,
+    "x2": 230.7074432373047,
+    "y1": 74.99542236328125,
+    "y2": 86.825927734375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "174", "87", "Course", "Course/Certiﬁcation", "material", "2", "-", "Book", "Book", "11", "6", "Book", "chapter", "1", "1", "Bachelor’s", "thesis", "1", "-", "Research", "Published", "paper", "12", "1", "Master’s", "thesis", "1", "-", "Bug", "report", "1", "-", "Project", "Artifact", "Documentation", "3", "-", "Technical", "report", "1", "-", "Presentation", "appendix", "1", "-", "Presentation", "Presentation", "video", "9", "1", "Presentation", "slides", "2", "1", "Discussion", "Forum", "post", "28", "22", "Q&A", "6", "2", "Blog", "post/Online", "article", "Blog", "post/Online", "article", "92", "50", "White", "paper", "3", "2", "Category", "Source", "Type", "#", "Sources", "Reviewed", "w/", "Smells"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 282.24,
+    "y1": 96.47999999999999,
+    "y2": 300.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-TableI-1.png"
+}, {
+  "caption": "Fig. 2. Overview of the Multivocal Literature Mapping Approach",
+  "captionBoundary": {
+    "x1": 77.36080169677734,
+    "x2": 279.5877990722656,
+    "y1": 277.9285583496094,
+    "y2": 281.4197082519531
+  },
+  "figType": "Figure",
+  "imageText": ["antipatterns", "E5:", "Not", "fully", "available", "online", "Exclusion", "Criteria", "E1:", "Is", "a", "general", "code", "smell", "resource", "E2:", "Not", "in", "English", "E3:", "Already", "in", "the", "returned", "sources", "E4:", "Not", "related", "to", "MongoDB", "and", "code", "smells/", "title/abstract", "I3:", "Author", "is", "clearly", "identiﬁed", "Inclusion", "Criteria", "I1:", "Mentions", "MongoDB", "in", "the", "title/abstract", "I2:", "Mentions", "antipatterns/code", "smells", "in", "the", "174", "sources", "Manually", "Inspected1498", "sources", "Blog", "post/Online", "article", "92", "Forum", "post", "28", "Published", "paper", "12", "Book", "11", "Presentation", "video", "9", "Q&A", "6", "White", "paper", "3", "Documentation", "3", "Presentation", "slides", "2", "Course/Certification", "material", "2", "Technical", "report", "1", "Presentation", "appendix", "1", "Master's", "thesis", "1", "Bug", "report", "1", "Book", "chapter", "1", "Bachelor's", "thesis", "1", "WWW", "Forums", "mistakes,", "Document", "database", "antipatterns", "MongoDB", "smells,", "MongoDB", "best", "practices,", "MongoDB", "MongoDB", "antipatterns,", "MongoDB", "code", "smells,", "6", "search", "strings", "Xplore,", "ACM", "Digital", "library)", "MongoDB", "website,", "MongoDB", "forum,", "IEEE", "Brazil,", "South", "Africa,", "Australia,", "South", "Korea,", "(Google", "Scholar,", "Science", "Direct,", "Google", "Europe,", "USA,", "12", "search", "engines", "Scientiﬁc", "DBs"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 295.2,
+    "y1": 73.92,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-Figure2-1.png"
+}, {
+  "caption": "Fig. 6. Network representation of smells and sources",
+  "captionBoundary": {
+    "x1": 218.10350036621094,
+    "x2": 382.06103515625,
+    "y1": 368.300048828125,
+    "y2": 371.79119873046875
+  },
+  "figType": "Figure",
+  "imageText": ["S45", "S150", "S53", "Using", "basic", "passwords", "S55", "S9", "S13", "S72", "S111", "S7", "Multiple", "schemas", "in", "a", "le", "No", "dependency", "injector", "S127", "S10", "S80", "S146", "Unlimited", "mongos", "taskExecutor", "in", "a", "container", "S76", "S51", "S15", "No", "backup", "budget", "Repeated", "immutable", "data", "Testing", "queries", "on", "the", "entire", "ad-hoc", "big", "data", "lake", "Storage", "of", "empty", "values", "S4", "Immortal", "cursors", "S176Large", "skips", "for", "pagination", "Pre", "x", "index", "of", "compound", "indexes", "Index", "intersection", "rather", "than", "compound", "index", "S83", "S84", "S149", "S87", "S73", "Too", "long", "document", "keys", "S154", "S11", "S34", "S153", "Using", "a", "document", "for", "\"_id\"", "S171", "S16", "S65", "Storage", "of", "easily", "calculated", "values", "Running", "MongoDB", "on", "32-bit", "systems", "Human-readable", "values", "Using", "GridFS", "for", "small", "binary", "data", "Avoid", "$Where", "Running", "MongoDB", "in", "a", "shared", "environment", "S56", "S31", "S148", "S152", "Using", "$", "pre", "xed", "elds", "S141", "S28", "S58", "S18", "S6", "Use", "of", "relational", "collections", "S42", "S151", "S3", "S147", "Testing", "only", "CRUD", "operationsToo", "many", "aggregation", "stages", "Map-reduce", "for", "projection", "Using", "$map,", "$reduce", "and", "$", "lter", "with", "array", "elds", "S125", "S115", "S36", "S47", "Relying", "on", "transactions", "S133", "S70", "Flat", "raw", "data", "The", "single-person", "bridge", "Sorted", "monkeys", "S39", "S25", "Unshardable", "collection", "S23", "S35", "No", "$elemMatch", "to", "match", "an", "entire", "array", "S131", "S140", "Low-cardinality", "shard", "key", "Scatter-gather", "queries", "S98", "Working", "set", "exceeds", "memory", "S63", "Querying", "too", "much", "data", "S27", "Using", "uno", "cial", "packages", "No", "security", "patches", "S59", "S74", "No", "input", "sanitizing", "S142", "S144", "S116", "S14", "S32", "S33", "S8", "Using", "limit", "and", "skip", "for", "pagination", "S43", "Premature", "sharding", "Replicas", "as", "backup", "S114", "S20", "S24", "S119", "Unencrypted", "data", "No", "database", "user", "policy", "S126", "Too", "many", "collections", "S21", "S117", "Large", "read-ahead", "S50", "S12", "S30", "Case-insensitive", "queries", "without", "matching", "indexes", "S96", "S165", "Uncovered", "queries", "Using", "$limit", "without", "$sort", "Forgetting", "to", "tie", "down", "MongoDB's", "attack", "surface", "Lookup", "without", "supporting", "indexes", "Non-ESR", "compound", "indexes", "(Equality,", "Sort,", "Range)", "Confusing", "null", "and", "unde", "ned", "Single", "update/insert", "for", "batches", "Unbound", "arrays", "Inconsistent", "attribute", "structure", "Using", "fast", "writes", "S69", "Monotonically", "increasing", "shard", "key", "S19", "Separating", "data", "accessed", "together", "S130", "Multiple", "\"mongod\"", "instances", "Large", "WTC", "(WiredTiger", "Cache)", "S37", "Not", "using", "LDAP", "for", "passwords", "rotations", "Unencrypted", "communication", "Server", "without", "authentication", "Too", "much", "network", "exposure", "Improper", "user", "credential", "storage", "Using", "default", "Mongod", "ports", "S60", "Manual", "backups", "No", "database", "access", "control", "Negation", "in", "queries", "Leading", "wildcard", "searches", "on", "indexed", "columns", "Abusive", "use", "of", "indexes", "S62", "Too", "long", "attribute", "names", "Bloated", "documents", "Bias", "toward", "access", "patterns", "S66", "S90", "Data", "oriented", "instead", "of", "application", "oriented"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 489.12,
+    "y1": 72.96,
+    "y2": 355.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Distribution of sources according to publication year",
+  "captionBoundary": {
+    "x1": 86.15879821777344,
+    "x2": 271.9974670410156,
+    "y1": 560.5459594726562,
+    "y2": 564.037109375
+  },
+  "figType": "Figure",
+  "imageText": ["Publication", "year", "25", "20", "15", "10", "5", "2010", "2012", "2014", "2016", "2018", "2020", "2022", "0", "27", "17", "12", "7", "2", "6", "4", "2", "3", "2", "2", "2", "1"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 72.48,
+    "x2": 282.24,
+    "y1": 393.59999999999997,
+    "y2": 546.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-Figure7-1.png"
+}, {
+  "caption": "Fig. 3. MongoDB Code Smell Classification",
+  "captionBoundary": {
+    "x1": 237.89979553222656,
+    "x2": 375.7812805175781,
+    "y1": 662.2931518554688,
+    "y2": 665.7843017578125
+  },
+  "figType": "Figure",
+  "imageText": ["Low-cardinality", "shard", "key", "(1)", "Monotonically", "increasing", "shard", "key", "(3)", "Premature", "sharding", "(3)", "Scatter-gather", "queries", "(1)", "Unshardable", "collection", "(2)", "Working", "set", "exceeds", "memory", "(7)", "Sharding", "issues:", "poor", "use", "of", "MongoDB", "partition", "mechanism,", "can", "lead", "to", "poor", "performance,", "storage", "waste,", "and", "memory", "overhead.", "Security", "issues:", "inadequate", "security", "practices;", "exposing", "the", "database", "and", "the", "whole", "system", "to", "vulnerabilities.", "Forgetting", "to", "tie", "down", "MongoDB's", "attack", "surface", "(1)", "Improper", "user", "credential", "storage", "(2)", "No", "database", "access", "control", "(2)", "No", "database", "user", "policy", "(3)", "No", "input", "sanitizing", "(1)", "No", "security", "patches", "(1)", "Not", "using", "LDAP", "for", "passwords", "rotations", "(1)", "Server", "without", "authentication", "(3)", "Too", "much", "network", "exposure", "(4)", "Unencrypted", "communication", "(2)", "Unencrypted", "data", "(2)", "Using", "basic", "passwords", "(1)", "Using", "default", "Mongod", "ports", "(1)", "Using", "unoﬃcial", "packages", "(1)", "Relational", "design", "ghosts:", "originate", "from", "misunderstandings", "of", "design", "principles;", "can", "be", "expected", "when", "a", "programmer", "familiar", "with", "SQL", "DB", "design", "and", "manipulation", "recently", "switched", "to", "MongoDB.", "Relying", "on", "transactions", "(2)", "Separating", "data", "accessed", "together", "(19)", "Storage", "of", "empty", "values", "(1)", "Use", "of", "relational", "collections", "(1)", "Query", "issues:", "misuse", "of", "the", "query", "mechanism;", "are", "associated", "with", "slow", "query", "execution", "time", "Avoid", "$Where", "(1)", "Case-insensitive", "queries", "without", "matching", "indexes", "(6)", "Confusing", "null", "and", "undeﬁned", "(1)", "Large", "skips", "for", "pagination", "(1)", "Leading", "wildcard", "searches", "on", "indexed", "columns", "(3)", "Negation", "in", "queries", "(2)", "No", "$elemMatch", "to", "match", "an", "entire", "array", "(1)", "Single", "update/insert", "for", "batches", "(1)", "Sorted", "monkeys", "(1)", "Uncovered", "queries", "(5)", "Using", "$limit", "without", "$sort", "(1)", "Using", "$map,", "$reduce", "and", "$ﬁlter", "with", "array", "ﬁelds", "(1)", "Using", "limit", "and", "skip", "for", "pagination", "(1)", "Performance/Memory", "issues:", "misconﬁgurations", "or", "inadequate", "running", "environment;", "associated", "with", "poor", "performance", "or", "memory", "overhead.", "Large", "read-ahead", "(2)", "Large", "WTC", "(WiredTiger", "Cache)", "(1)", "Multiple", "\"mongod\"", "instances", "(1)", "Running", "MongoDB", "in", "a", "shared", "environnement", "(1)", "Running", "MongoDB", "on", "32-bit", "systems", "(4)", "Unlimited", "mongos", "taskExecutor", "in", "a", "container", "(1)", "Using", "fast", "writes", "(1)", "Using", "GridFS", "for", "small", "binary", "data", "(2)", "Bias", "toward", "access", "patterns", "(1)", "Human-readable", "values", "(2)", "Too", "long", "attribute", "names", "(2)", "Too", "long", "document", "keys", "(2)", "Using", "$", "preﬁxed", "ﬁelds", "(1)", "Human-oriented", "decisions:", "caused", "by", "data", "modeling", "choices", "to", "foster", "human", "aspects,", "resulting", "in", "sub-optimal", "design", "choices,", "leading", "to", "performance", "or", "storage/", "bandwidth", "overhead.", "Design", "oversights", "in", "application", "code", "Immortal", "cursors", "(1)", "No", "dependency", "injector", "(1)", "Querying", "too", "much", "data", "(3)", "Testing", "only", "CRUD", "operations", "(1)", "Testing", "queries", "on", "the", "entire", "ad-hoc", "big", "data", "lake", "(1)", "The", "single-person", "bridge", "(1)", "Design", "oversights", "in", "Data/Schema", "Bloated", "documents", "(17)", "Data", "oriented", "instead", "of", "application", "oriented", "(12)", "Flat", "raw", "data", "(2)", "Inconsistent", "attribute", "structure", "(5)", "Multiple", "schemas", "in", "a", "ﬁle", "(1)", "Repeated", "immutable", "data", "(1)", "Storage", "of", "easily", "calculated", "values", "(2)", "Too", "many", "collections", "(13)", "Unbound", "arrays", "(24)", "Using", "a", "document", "for", "\"_id\"", "(1)", "Design", "oversights", "in", "indexes", "Abusive", "use", "of", "indexes", "(22)", "Index", "intersection", "rather", "than", "compound", "index", "(1)", "Non-ESR", "compound", "indexes", "(Equality,", "Sort,", "Range)", "(2)", "Preﬁx", "index", "of", "compound", "indexes", "(1)", "Design", "oversights:", "poor", "design", "choices", "to", "accelerate", "design", "&", "development,", "leading", "to", "decreased", "maintainability,", "bugs,", "storage", "waste,", "and", "performance", "issues.", "Manual", "backups", "(1)", "No", "backup", "budget", "(1)", "Replicas", "as", "backup", "(3)", "Backup", "issues:", "increase", "the", "risk", "of", "data", "loss", "and", "vulnerabilities.", "Lookup", "without", "supporting", "indexes", "(1)", "Map-Reduce", "for", "projection", "(3)", "Too", "many", "aggregation", "stages", "(1)", "Aggregation", "issues:", "associated", "with", "poor", "query", "performance."],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 546.24,
+    "y1": 72.96,
+    "y2": 638.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00086-Figure3-1.png"
+}]

@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 6: Unknown bugs for comparison with the state-of-the-art.",
+  "captionBoundary": {
+    "x1": 174.72799682617188,
+    "x2": 436.9656677246094,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "-", "-", "-", "8/14", "10/14", "8/14", "7/14", "8/14", "14/14", "1.", "Hadoop", "in", "this", "table", "indicates", "HCommon.", "ISSUE-ID", "Description", "Component(s)", "Status", "ECFuzz-S", "ECFuzz-W", "ConfTest", "ConfErr", "ConfDiagDetector", "ECFuzz", "HBase-25886", "Function", "Exception", "client", "Pending", "✓", "✓", "✓", "✓", "✓", "✓", "HBase-26114", "Startup", "Exception", "master", "Confirmed", "✓", "✓", "%", "✓", "✓", "✓", "HBase-27016", "Shutdown", "Exception", "master", "Pending", "✓", "✓", "✓", "✓", "✓", "✓", "HBase-27341", "Function", "Exception", "logging", "Pending", "✓", "✓", "✓", "✓", "✓", "✓", "HDFS-16408", "Function", "Exception", "namenode", "Confirmed", "%", "%", "✓", "%", "%", "✓", "HDFS-16653", "Function", "Exception", "dfsadmin", "Confirmed", "%", "✓", "%", "%", "%", "✓", "HDFS-16697", "Function", "Exception", "namenode", "Confirmed", "✓", "✓", "%", "%", "✓", "✓", "HDFS-16721", "Unclear", "Description", "dfs-client", "Fixing", "%", "%", "%", "%", "%", "✓", "Hadoop-18216", "Blocked", "Request", "io", "Confirmed", "✓", "✓", "✓", "%", "✓", "✓", "Hadoop-18362", "Unclear", "Description", "test", "Fixing", "%", "%", "%", "%", "%", "✓", "Alluxio-17057", "Function", "Exception", "logging", "Fixing", "%", "%", "✓", "✓", "✓", "✓", "Alluxio-17062", "Function", "Exception", "logging", "Fixing", "✓", "✓", "✓", "✓", "%", "✓", "Alluxio-17064", "Function", "Exception", "logging", "Pending", "✓", "✓", "✓", "✓", "✓", "✓", "Alluxio-17509", "Function", "Exception", "master", "Pending", "%", "✓", "%", "%", "%", "✓"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 533.28,
+    "y1": 105.6,
+    "y2": 265.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Table6-1.png"
+}, {
+  "caption": "Figure 1: An example to show configurations.",
+  "captionBoundary": {
+    "x1": 82.10099029541016,
+    "x2": 265.7335510253906,
+    "y1": 280.3247985839844,
+    "y2": 286.3409729003906
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "configuration", "file", "…", "Configuration", "Parameter", "1", "Configuration", "File", "Example:", "HBase", "</property>", "…", "</configuration>", "<property>", "<name>hbase.client.write.buffer</name>", "<value>2097152</value>", "<description>Default", "size", "of", "the", "BufferedMutator...", "</description>", "<?xml", "version=\"1.0\"?>", "<configuration>", "…", "(a)", "The", "command-line", "option", "Parameter", "1", "Configuration", "Parameter", "3", "Configuration", "Parameter", "4", "afl-fuzz", "-i", "in", "–o", "out", "./xmllint", "--valid", "--recover", "@@", "Command-Line", "Options", "Example:", "AFL", "Configuration", "Configuration", "Parameter", "2"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 295.2,
+    "y1": 88.32,
+    "y2": 261.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Types of exceptions for comparison with the stateof-the-art.",
+  "captionBoundary": {
+    "x1": 53.797996520996094,
+    "x2": 295.6387939453125,
+    "y1": 248.61680603027344,
+    "y2": 265.59197998046875
+  },
+  "figType": "Figure",
+  "imageText": ["ConfTest", "ConfErr", "ConfDiagDetector", "ECFuzz", "tio", "ns", "xc", "ep", "s", "o", "f", "E", "Ty", "pe", "6", "5", "4", "3", "2", "1", "0", "Hcommon", "HDFS", "HBase", "Zookeeper", "Alluxio", "Programs"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 271.2,
+    "y1": 87.84,
+    "y2": 229.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Bug Alluxio-17509 exposed by ECFuzz.",
+  "captionBoundary": {
+    "x1": 340.9729919433594,
+    "x2": 535.1682739257812,
+    "y1": 334.308837890625,
+    "y2": 340.32501220703125
+  },
+  "figType": "Figure",
+  "imageText": ["/*", "alluxio/master/journal/raft/RaftJournalConfiguration.java", "*/", "alluxio.work.dir=${alluxio.home}", "alluxio.master.journal.folder=${alluxio.work.dir}/journal*", "alluxio.work.dir=/", "alluxio.master.journal.folder=${alluxio.work.dir}/journal", "-", "+", "-", "+", "Configuration", "Change:", "Root", "Cause:", "Clean", "all", "files", "}", "org.apache.commons.io.FileUtils.cleanDirectory(mConf.getPath());", "}", "...", "public", "void", "format()", "throws", "IOException", "{", "File", "journalPath", "=", "mConf.getPath();", "if", "(journalPath.isDirectory())", "{", "/*", "alluxio/master/journal/JournalUtils.java", "*/", "Configuration", "Read:", "}", "return", "new", "URI(journalDirectory);", "}", "...", "public", "static", "URI", "getJournalLocation()", "{", "String", "journalDirectory", "=", "ServerConfiguration.get(PropertyKey.MASTER_JOURNAL_FOLDER);", "...", "try", "{"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 554.4,
+    "y1": 86.39999999999999,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Figure5-1.png"
+}, {
+  "caption": "Table 1: Description of dependency relationships.",
+  "captionBoundary": {
+    "x1": 337.7720031738281,
+    "x2": 538.081298828125,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Control", "Dependency", "The", "second", "parameter", "only", "works", "if", "the", "value", "of", "the", "first", "parameter", "is", "𝑇𝑟𝑢𝑒", ".", "hbase.data.umask.enable", "hbase.data.umask", "Value", "Relationship", "Dependency", "The", "value", "of", "one", "parameter", "is", "constrain-", "ed", "by", "another", "parameter.", "alluxio.master.worker.threads.max", "alluxio.master.worker.threads.min", "Overwrite", "Dependency", "The", "second", "parameter", "overwrites", "the", "fir-", "st", "parameter.", "dfs.client.failover.connection.retries", "ipc.client.connect.max.retries", "Default", "Value", "Dependency", "If", "the", "value", "of", "the", "first", "parameter", "is", "not", "available,", "the", "value", "of", "the", "second", "param-", "eter", "will", "be", "used", "as", "its", "default", "value.", "hbase.client.pause", "hbase.client.pause.cqtbe", "Behavioral", "Dependency", "The", "first", "parameter", "works", "with", "the", "seco-", "nd", "parameter", "together", "on", "some", "behavior", "of", "the", "system.", "fs.ftp.host", "fs.ftp.host.port", "Type", "Description", "Example"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 105.6,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Table1-1.png"
+}, {
+  "caption": "Table 2: Comparison of test execution speeds of different scale programs (Unit: 𝐸𝑥𝑒𝑐𝑠/𝑆𝑒𝑐).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1995239257812,
+    "y1": 202.52781677246094,
+    "y2": 219.50299072265625
+  },
+  "figType": "Table",
+  "imageText": ["Swftophp", "SWF", "2197", "HBase", "0.015", "0.36", "Xmllint", "XML", "2543", "ZooKeeper", "0.10", "0.66", "Readelf", "ELF", "1787", "Alluxio", "0.0085", "6.08", "Average", "-", "2705.4", "-", "0.0371", "2.0760", "Mjs", "JavaScript", "2167", "HCommon", "0.039", "2.89", "Jasper", "JPEG", "4833", "HDFS", "0.023", "0.39", "Small-Scale", "Programs", "Large-Scale", "Systems", "Program", "Format", "Type", "System", "Testing", "Program", "System", "Testing", "Unit", "Testing"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 233.76,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Table2-1.png"
+}, {
+  "caption": "Table 4: Types of exceptions for multi-dimensional configuration generation strategy evaluation.",
+  "captionBoundary": {
+    "x1": 317.6600036621094,
+    "x2": 559.7957763671875,
+    "y1": 85.34043884277344,
+    "y2": 102.31561279296875
+  },
+  "figType": "Table",
+  "imageText": ["1.", "Unique", "exceptions", "indicate", "unique", "types", "of", "exceptions", "only", "found", "by", "ECFuzz.", "Note", "that", "the", "data", "is", "the", "average", "value", "of", "all", "five", "results.", "Therefore,", "we", "use", "the", "Equation𝑈1−𝑈2", "to", "count", "unique", "exceptions,", "where𝑈1", "and𝑈2", "represent", "the", "union", "of", "types", "of", "exceptions", "that", "ECFuzz", "and", "ECFuzz-S", "find", "in", "all", "five", "results,", "respectively.", "2.", "𝑈𝑛𝑖𝑜𝑛", "indicates", "a", "union", "of", "unique", "exceptions,", "including", "SafeModeEx-", "ception,", "TableNotDisabledException,", "NoNodeException,", "SessionExpiredExcep-", "tion,", "NodeExistsException,", "ResourceExhaustedException,", "IllegalStateException,", "InvalidPathException,", "RuntimeException,", "Exception", "and", "NativeIoException.", "Total", "7", "16", "9", "(128.6%↑)", "𝑈𝑛𝑖𝑜𝑛", "Exception", "NativeIoException", "ResourceExhaustedException", "IllegalStateException", "InvalidPathException", "RuntimeException", "Alluxio", "2", "6", "4", "ZooKeeper", "1", "2", "1", "SessionExpiredException", "NodeExistsException", "HDFS", "1", "2", "1", "SafeModeException", "HBase", "2", "4", "2", "TableNotDisabledException", "NoNodeException", "Program", "ECFuzz-S", "ECFuzz", "ECFuzz", "vs.", "ECFuzz-S", "Unique", "Exceptions", "HCommon", "1", "2", "1", "-"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 565.92,
+    "y1": 116.64,
+    "y2": 289.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Table4-1.png"
+}, {
+  "caption": "Table 3: Details of large-scale systems under test.",
+  "captionBoundary": {
+    "x1": 74.79800415039062,
+    "x2": 272.74041748046875,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["and", "CPU", "of", "the", "operating", "system", "and", "logs", "of", "PUTs.", "If", "an", "exception", "is", "a", "runtime", "exception", "or", "shutdown", "exception,", "the", "external", "monitor", "treats", "it", "as", "an", "unexpected", "failure.", "1.", "LoC", "indicates", "total", "lines", "of", "codes.", "2.", "#Param.", "indicates", "total", "number", "of", "configuration", "parameters", "we", "used.", "Program", "Description", "LoC", "#Param.", "HCommon", "(2.8.5)", "Hadoop", "core", "lib/runtime", "253K", "272", "HDFS", "(2.8.5)", "Distributed", "file", "system", "587K", "297", "HBase", "(2.2.2)", "Distributed", "database", "856K", "205", "ZooKeeper", "(3.5.6)", "Distributed", "coordination", "150K", "17", "Alluxio", "(2.1.0)", "In-memory", "storage", "365K", "360"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 294.24,
+    "y1": 105.6,
+    "y2": 227.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Table3-1.png"
+}, {
+  "caption": "Figure 2: Workflow of configuration testing.",
+  "captionBoundary": {
+    "x1": 216.79800415039062,
+    "x2": 395.1954040527344,
+    "y1": 165.7228240966797,
+    "y2": 171.739013671875
+  },
+  "figType": "Figure",
+  "imageText": ["Configuration", "Generation", "Configuration", "Input", "Parameters", "(Testcases)", "Generated", "Configuration", "Conf1'", "Conf2'", "...", "Confn'", "...", "Parameters", "Candidate", "Configuration", "Conf1", "Conf2", "Confn", "Configuration", "Validation", "Program", "Under", "Test", "Injection", "System", "Monitor", "Test", "Input", "⚡", "G", "B", "U"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 507.35999999999996,
+    "y1": 84.0,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Figure2-1.png"
+}, {
+  "caption": "Table 5: Quality of testcases for different configuration testing tools.",
+  "captionBoundary": {
+    "x1": 167.67599487304688,
+    "x2": 444.0170593261719,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["HDFS", "272", "127", "10", "0", "10", "36.8‰", "HBase", "328", "299", "27", "2", "29", "88.4‰", "ZooKeeper", "969", "794", "146", "0", "146", "150.7‰", "Alluxio", "79", "28", "17", "0", "17", "215.2‰", "Total", "2345", "1328", "215", "2", "217", "92.5‰", "ZooKeeper", "4832", "4461", "269", "0", "269", "55.7‰", "Alluxio", "375", "157", "41", "0", "41", "109.3‰", "Total", "10567", "8354", "338", "2", "340", "32.2‰", "ECFuzz", "HCommon", "697", "80", "15", "0", "15", "21.5‰", "HDFS", "1019", "282", "2", "0", "2", "2.0‰", "HBase", "3395", "3371", "22", "2", "24", "7.1‰", "ZooKeeper", "4894", "4588", "226", "0", "226", "46.2‰", "Alluxio", "238", "86", "24", "0", "24", "100.8‰", "Total", "10543", "8351", "268", "1", "269", "25.5‰", "ConfDiagDetector", "HCommon", "946", "83", "4", "0", "4", "4.2‰", "HDFS", "961", "130", "0", "0", "0", "0‰", "HBase", "3519", "3502", "16", "1", "17", "4.8‰", "ZooKeeper", "4908", "4609", "221", "0", "221", "45.0‰", "Alluxio", "380", "178", "41", "0", "41", "107.9‰", "Total", "10841", "8847", "286", "1", "287", "26.5‰", "ConfErr", "HCommon", "931", "45", "2", "0", "2", "2.1‰", "HDFS", "1073", "424", "3", "0", "3", "2.8‰", "HBase", "3508", "3490", "17", "1", "18", "5.1‰", "HDFS", "1006", "257", "12", "0", "12", "11.9‰", "HBase", "3553", "3513", "39", "1", "40", "11.3‰", "ZooKeeper", "4716", "4267", "318", "0", "318", "67.4‰", "Alluxio", "370", "97", "25", "0", "25", "67.6‰", "Total", "10590", "8230", "406", "1", "407", "38.4‰", "ConfTest", "HCommon", "972", "146", "4", "0", "4", "4.1‰", "HDFS", "161", "33", "2", "0", "2", "12.4‰", "HBase", "321", "164", "20", "2", "22", "68.5‰", "ZooKeeper", "2162", "2127", "35", "0", "35", "16.2‰", "Alluxio", "80", "10", "6", "0", "6", "75.0‰", "Total", "3404", "2363", "68", "2", "70", "20.6‰", "ECFuzz-W", "HCommon", "945", "96", "12", "0", "12", "12.7‰", "Program", "Testcases", "Exceptions", "Results", "Startup", "Exception", "Runtime", "Exception", "Shutdown", "Exception", "Unexpected", "Failures", "Quality", "of", "Testcases", "ECFuzz-S", "HCommon", "680", "29", "5", "0", "5", "7.4‰"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 90.72,
+    "x2": 519.36,
+    "y1": 105.6,
+    "y2": 495.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Table5-1.png"
+}, {
+  "caption": "Figure 3: Overview of ECFuzz.",
+  "captionBoundary": {
+    "x1": 245.40499877929688,
+    "x2": 366.5902404785156,
+    "y1": 178.7867889404297,
+    "y2": 184.802978515625
+  },
+  "figType": "Figure",
+  "imageText": ["Seed", "Configuration", "Generation", "Testcases", "InjectionMapping", "Conf1", "Conf2", "...", "Confk", "Conf1'", "Conf2'", "...", "Confk'", "Configuration", "Input", "Configuration", "Validation", "…", "Unit", "Test", "M", "Unit", "Test", "2", "Unit", "Test", "1", "Unit", "Testing", "Program", "Under", "Test", "Dependency", "Relationships", "Table", "System", "Monitor", "Test", "Input", "......", "⚡", "G", "B", "U", "Default", "Configuration", "File", "Conf1", "Conf2", "Confk", "Confn", "Seed", "Generation", "Smart", "Mutation"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 551.04,
+    "y1": 84.96,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623315-Figure3-1.png"
+}]

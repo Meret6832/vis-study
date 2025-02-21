@@ -1,0 +1,181 @@
+[{
+  "caption": "TABLE V: Multi-line snippet from Shellcode IA32.",
+  "captionBoundary": {
+    "x1": 76.731201171875,
+    "x2": 278.2340393066406,
+    "y1": 73.91653442382812,
+    "y2": 79.55908203125
+  },
+  "figType": "Table",
+  "imageText": ["Intent:", "jump", "to", "the", "label", "recv", "http", "request", "if", "the", "contents", "of", "the", "eax", "register", "is", "not", "zero", "else", "subtract", "the", "value", "0x6", "from", "the", "contents", "of", "the", "ecx", "register", "Multi-line", "Snippet:", "test", "eax,", "eax", "\\n", "jnz", "recv_http", "request", "\\n", "sub", "ecx,", "0x6"],
+  "name": "V",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 290.4,
+    "y1": 87.84,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableV-1.png"
+}, {
+  "caption": "TABLE I: Main findings of our research study.",
+  "captionBoundary": {
+    "x1": 86.57060241699219,
+    "x2": 268.0031433105469,
+    "y1": 73.63735961914062,
+    "y2": 79.2799072265625
+  },
+  "figType": "Table",
+  "imageText": ["Unnecessary", "Information", "•", "Unnecessary", "information", "did", "not", "degrade", "model", "perfor-", "mance;", "models", "were", "able", "to", "maintain", "high", "performance,", "indicating", "effective", "filtering", "of", "irrelevant", "information.", "•", "Introducing", "additional", "context", "significantly", "improved", "model", "performance,", "with", "a", "notable", "enhancement", "in", "generating", "complex,", "multi-step", "security", "protocols.", "•", "There", "was", "a", "diminishing", "return", "on", "performance", "when", "extending", "context", "beyond", "a", "single", "preceding", "intent,", "indicating", "an", "optimal", "level", "of", "contextual", "information", "for", "effective", "learning.", "Contextual", "Learning", "Missing", "Information", "•", "Models", "struggled", "more", "with", "highly", "technical", "or", "spe-", "cific", "operational", "commands", "when", "details", "were", "absent,", "underscoring", "the", "need", "for", "detailed", "NL", "descriptions", "in", "security-related", "tasks.", "Analysis", "Main", "Findings"],
+  "name": "I",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 87.84,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableI-1.png"
+}, {
+  "caption": "TABLE VI: Summary of data used in the training (Train), validation (Dev), and testing (Test) sets across different analyses.",
+  "captionBoundary": {
+    "x1": 61.599300384521484,
+    "x2": 540.6962890625,
+    "y1": 73.94467163085938,
+    "y2": 79.58721923828125
+  },
+  "figType": "Table",
+  "imageText": ["Unnecessary", "Information", "(3to1", "Unn.", "Context)", "Evaluating", "the", "model’s", "capacity", "to", "ignore", "multiple", "irrelevant", "preceding", "instructions.", "Train", "867", "(90%)", "-", "214", "(95%)", "-", "103", "(34%)", "1084", "(80%)", "Dev", "48", "(5%)", "-", "12", "(5%)", "-", "100", "(33%)", "160", "(10%)", "Test", "48", "(5%)", "-", "12", "(5%)", "-", "100", "(33%)", "160", "(10%)", "Unnecessary", "Information", "(2to1", "Unn.", "Context)", "Determining", "the", "model’s", "ability", "to", "discern", "and", "filter", "out", "unnecessary", "immediate", "context.", "Train", "867", "(90%)", "324", "(90%)", "-", "103", "(34%)", "-", "1293", "(80%)", "Dev", "48", "(5%)", "18", "(5%)", "-", "100", "(33%)", "-", "166", "(10%)", "Test", "48", "(5%)", "18", "(5%)", "-", "100", "(33%)", "-", "166", "(10%)", "Contextual", "Learning", "(3to1", "context)", "Emulating", "more", "complex", "coding", "scenarios", "to", "assess", "the", "model’s", "ability", "in", "leveraging", "extended", "sequences", "of", "operations.", "Train", "867", "(90%)", "-", "81", "(34%)", "-", "-", "948", "(80%)", "Dev", "48", "(5%)", "-", "79", "(33%)", "-", "-", "127", "(10%)", "Test", "48", "(5%)", "-", "79", "(33%)", "-", "-", "127", "(10%)", "Contextual", "Learning", "(2to1", "context)", "Simulating", "a", "realistic", "coding", "scenario", "where", "previous", "information", "impacts", "the", "current", "operation.", "Train", "867", "(90%)", "180", "(50%)", "-", "-", "-", "1047", "(80%)", "Dev", "48", "(5%)", "90", "(25%)", "-", "-", "-", "138", "(10%)", "Test", "48", "(5%)", "90", "(25%)", "-", "-", "-", "138", "(10%)", "Establishing", "a", "baseline", "for", "how", "well", "the", "models", "perform", "without", "any", "context", "to", "assess", "their", "innate", "ability", "to", "handle", "standalone", "instructions.", "Train", "770", "(80%)", "-", "-", "-", "-", "770", "(80%)", "Dev", "96", "(10%)", "-", "-", "-", "-", "96", "(10%)", "Test", "96", "(10%)", "-", "-", "-", "-", "96", "(10%)", "Missing", "Information", "(w/o", "context)", "Unn.", "2to1", "Context", "Unn.", "3to1", "Context", "Total", "3to1", "Context", "2to1", "Context", "Analysis", "Objective", "Set", "w/o", "Context"],
+  "name": "VI",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 536.16,
+    "y1": 87.84,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableVI-1.png"
+}, {
+  "caption": "TABLE IX: Comparison of models’ performance with 2to1 and 3to1 Unnecessary Context.",
+  "captionBoundary": {
+    "x1": 59.30830001831055,
+    "x2": 295.5894470214844,
+    "y1": 74.44967651367188,
+    "y2": 91.32989501953125
+  },
+  "figType": "Table",
+  "imageText": ["All", "Models", "2to1", "42.59", "67.24", "55.33", "56.25", "3to1", "35.37", "61.91", "49.37", "48.83", "CodeParrot", "2to1", "54.39", "77.22", "63.25", "64.97", "3to1", "34.16", "66.03", "49.70", "47.56", "CodeGPT", "2to1", "46.76", "72.79", "57.35", "59.47", "3to1", "37.02", "66.37", "49.70", "49.87", "CodeGen", "2to1", "61.83", "81.74", "67.92", "71.11", "3to1", "50.76", "73.37", "59.78", "59.51", "PLBart", "2to1", "16.98", "36.37", "29.41", "32.50", "3to1", "7.25", "26.37", "17.78", "21.28", "CodeT5+", "2to1", "45.42", "71.78", "61.99", "60.75", "3to1", "47.33", "74.24", "63.59", "61.75", "CodeBERT", "2to1", "30.15", "63.51", "52.03", "48.71", "3to1", "35.69", "65.08", "55.68", "52.98", "Model", "Context", "Type", "EM", "ED", "METEOR", "ROUGE-", "L"],
+  "name": "IX",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 292.32,
+    "y1": 99.84,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableIX-1.png"
+}, {
+  "caption": "TABLE II: Example of incorrect prediction. In red, the word implying the register name that the model fails to derive.",
+  "captionBoundary": {
+    "x1": 59.63560104370117,
+    "x2": 295.92218017578125,
+    "y1": 74.44943237304688,
+    "y2": 91.32965087890625
+  },
+  "figType": "Table",
+  "imageText": ["Negate", "the", "result", "not", "ESI", "not", "var", "sub", "byte", "[ESI],", "8", "sub", "byte", "[ESI],", "8", "Subtract", "8", "from", "the", "current", "byte", "in", "ESI", "English", "Intent", "Reference", "Code", "Predicted", "Code"],
+  "name": "II",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 289.44,
+    "y1": 99.84,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableII-1.png"
+}, {
+  "caption": "TABLE VII: Model performance on the generation task with missing context.",
+  "captionBoundary": {
+    "x1": 314.4067077636719,
+    "x2": 550.7008056640625,
+    "y1": 74.44943237304688,
+    "y2": 91.32965087890625
+  },
+  "figType": "Table",
+  "imageText": ["All", "Models", "30.34", "58.77", "49.80", "48.31", "Model", "EM", "ED", "METEOR", "ROUGE-L", "CodeBERT", "45.99", "77.30", "67.41", "65.75", "CodeT5+", "59.35", "81.68", "74.87", "73.44", "PLBart", "7.44", "32.59", "21.41", "27.04", "CodeGen", "30.92", "60.97", "52.72", "48.76", "CodeGPT", "16.60", "46.95", "38.60", "34.17", "CodeParrot", "21.76", "53.15", "43.78", "40.71"],
+  "name": "VII",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 545.28,
+    "y1": 99.84,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableVII-1.png"
+}, {
+  "caption": "TABLE III: Examples of 2to1 and 3to1 context-aware intents. Bold refers to the current intent to be translated.",
+  "captionBoundary": {
+    "x1": 58.67430114746094,
+    "x2": 296.6101989746094,
+    "y1": 73.63735961914062,
+    "y2": 90.517578125
+  },
+  "figType": "Table",
+  "imageText": ["Move", "eax", "to", "edx", "_BREAK", "Right", "shift", "the", "register", "by", "byte", "16", "_BREAK", "Add", "the", "result", "to", "eax", "add", "eax,", "edx", "Subtract", "8", "from", "the", "current", "byte", "in", "esi", "_BREAK", "Negate", "the", "result", "_BREAK", "Move", "eax", "in", "it", "move", "byte[esi],eax", "3to1", "Move", "esi", "in", "eax", "_BREAK", "Increment", "it", "inc", "eax", "Clear", "the", "eax", "register", "_BREAK", "Move", "22", "into", "the", "lower", "byte", "mov", "al,22", "2to1", "Context", "English", "Intent", "Reference", "Code", "Snippet"],
+  "name": "III",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 291.36,
+    "y1": 98.88,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableIII-1.png"
+}, {
+  "caption": "TABLE VIII: Comparison of models’ performance with 2to1 and 3to1 Context.",
+  "captionBoundary": {
+    "x1": 59.12179946899414,
+    "x2": 296.1182556152344,
+    "y1": 74.41195678710938,
+    "y2": 91.29217529296875
+  },
+  "figType": "Table",
+  "imageText": ["NMT", "models", "exhibit", "varied", "levels", "of", "proficiency", "in", "generating", "offensive", "security", "code", "from", "less", "detailed", "NL", "descriptions.", "The", "comparative", "analysis", "reveals", "a", "marked", "impact", "of", "missing", "information", "on", "the", "accuracy", "of", "code", "generation,", "particularly", "for", "CodeGPT,", "which", "saw", "a", "signifi-", "cant", "performance", "dip", "compared", "to", "its", "prior", "achievements.", "Meanwhile,", "CodeBERT", "demonstrates", "a", "relative", "steadiness,", "albeit", "with", "room", "for", "improvement", "to", "match", "its", "earlier", "performance.", "This", "juxtaposition", "highlights", "the", "critical", "role", "of", "detailed", "NL", "descriptions", "in", "achieving", "high", "accuracy", "in", "code", "generation", "and", "also", "points", "to", "the", "essential", "need", "for", "enhancing", "NMT", "models’", "capabilities", "in", "dealing", "with", "sparse", "information.", "It", "emphasizes", "an", "ongoing", "research", "imperative", "to", "develop", "models", "that", "can", "more", "effectively", "bridge", "the", "gap", "between", "minimalistic", "NL", "instructions", "and", "the", "precise", "requirements", "of", "low-level", "programming", "tasks,", "particularly", "in", "the", "contextually", "rich", "domain", "of", "offensive", "security.", "RQ1:", "How", "do", "NMT", "models", "perform", "in", "generating", "offensive", "security", "code", "from", "NL", "descriptions", "when", "faced", "with", "missing", "information?", "All", "Models", "2to1", "38.96", "62.89", "55.88", "53.88", "3to1", "33.40", "57.62", "50.53", "49.51", "CodeParrot", "2to1", "27.67", "57.98", "48.56", "45.24", "3to1", "20.99", "51.52", "42.20", "37.16", "CodeGPT", "2to1", "25.38", "53.71", "44.59", "41.14", "3to1", "22.14", "50.83", "41.20", "37.96", "CodeGen", "2to1", "43.70", "66.15", "60.87", "55.91", "3to1", "36.26", "62.07", "53.91", "51.43", "PLBart", "2to1", "13.55", "35.99", "29.36", "33.21", "3to1", "10.31", "24.25", "21.63", "29.50", "CodeT5+", "2to1", "62.40", "82.72", "77.58", "75.50", "3to1", "62.79", "81.70", "77.06", "75.14", "CodeBERT", "2to1", "61.07", "80.77", "74.30", "72.29", "3to1", "47.90", "75.34", "67.19", "65.84", "Model", "Context", "Type", "EM", "ED", "METEOR", "ROUGE-", "L"],
+  "name": "VIII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 296.15999999999997,
+    "y1": 99.84,
+    "y2": 523.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableVIII-1.png"
+}, {
+  "caption": "TABLE IV: The 20 shellcodes used to build the dataset for the experiments.",
+  "captionBoundary": {
+    "x1": 314.1690979003906,
+    "x2": 550.470947265625,
+    "y1": 74.44943237304688,
+    "y2": 91.3297119140625
+  },
+  "figType": "Table",
+  "imageText": ["1", "https://www.exploit-db.com/shellcodes/47564", "17", "2", "https://www.exploit-db.com/shellcodes/47461", "32", "3", "https://www.exploit-db.com/shellcodes/46994", "27", "4", "https://www.exploit-db.com/shellcodes/46519", "22", "5", "https://www.exploit-db.com/shellcodes/46499", "16", "6", "https://www.exploit-db.com/shellcodes/46493", "16", "7", "https://www.exploit-db.com/shellcodes/45529", "32", "8", "https://www.exploit-db.com/shellcodes/43890", "23", "9", "https://www.exploit-db.com/shellcodes/37762", "24", "10", "https://www.exploit-db.com/shellcodes/37495", "19", "11", "https://www.exploit-db.com/shellcodes/43758", "29", "12", "https://www.exploit-db.com/shellcodes/43751", "46", "13", "https://rastating.github.io/creating-a-custom-shellcode-encoder/", "27", "14", "https://voidsec.com/slae-assignment-4-custom-shellcode-encoder/", "18", "15", "https://snowscan.io/custom-encoder/#", "42", "16", "https://github.com/Potato-Industries/custom-shellcode-encoder-decoder", "19", "17", "https://medium.com/@d338s1/shellcode-xor-encoder-decoder-d8360e41536f", "33", "18", "https://www.abatchy.com/2017/05/rot-n-shellcode-encoder-", "linux-x86", "17", "19", "https://xoban.info/blog/2018/12/08/shellcode-encoder-decoder/", "24", "20", "http://shell-storm.org/shellcode/files/shellcode-902.php", "45", "id", "URL", "Lines", "of", "Code"],
+  "name": "IV",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 314.88,
+    "x2": 550.0799999999999,
+    "y1": 99.84,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00027-TableIV-1.png"
+}]

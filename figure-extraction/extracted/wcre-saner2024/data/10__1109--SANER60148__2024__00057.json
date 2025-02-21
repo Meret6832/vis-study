@@ -1,0 +1,161 @@
+[{
+  "caption": "TABLE III: Performance of DQN Algorithm for PR Outcome Prediction with Different Values of Trade-Off Factor (k)",
+  "captionBoundary": {
+    "x1": 74.0248031616211,
+    "x2": 528.6030883789062,
+    "y1": 187.9916229248047,
+    "y2": 192.35552978515625
+  },
+  "figType": "Table",
+  "imageText": ["-", "80/20", "split:", "train.shape", "(1045883,", "72)", "and", "test.shape", "(260195,", "72)", "-", "IR", "=", "0.12", "(%)", "k", "=", "2*IR", "0.35", "0.81", "0.72359", "0.72398", "71", "k", "=", "3*IR", "0.35", "0.80", "0.71878", "0.71980", "69", "k", "=", "4*IR", "0.29", "0.87", "0.58809", "0.62242", "78", "F-1", "Scoretotal", "timesteps", "(T)", "=", "1,400,000", "Class-0", "Class-1", "G-mean", "AUC-ROC", "Overall", "Accuracy"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 78.24,
+    "x2": 540.48,
+    "y1": 200.64,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableIII-1.png"
+}, {
+  "caption": "TABLE II: Performance of A2C and PPO Algorithms for PR Outcome Prediction with Different Values of Trade-Off Factor (k)",
+  "captionBoundary": {
+    "x1": 62.270599365234375,
+    "x2": 540.364013671875,
+    "y1": 75.38908386230469,
+    "y2": 90.8712158203125
+  },
+  "figType": "Table",
+  "imageText": ["-", "80/20", "split:", "train.shape", "(1045883,", "72),", "i.e.,", "1045883", "samples", "with", "72", "features,", "and", "test.shape", "(260195,", "72)", "-", "IR", "=", "0.12", "-", "total", "timesteps", "(T)", "=", "1,400,000", "-", "Class-0:", "PR", "Rejection", "and", "Class-1:", "PR", "Acceptance", "k", "=", "1*IR", "0.00", "0.94", "0.00596", "0.50001", "k", "=", "3*IR", "0.24", "0.90", "0.47725", "0.57636", "ROC", "k", "=", "0.05*IR", "0.20", "0.00", "0.00360", "0.50000", "k", "=", "0.5*IR", "0.20", "0.13", "0.25860", "0.51943", "k", "=", "0.5*IR", "0.23", "0.91", "0.44632", "0.56552", "k", "=", "1*IR", "0.22", "0.48", "0.51107", "0.56594", "Class-0", "Class-1", "G-mean", "AUC-", "ROC", "Class-0", "Class-1", "G-mean", "AUC-", "A2C", "PPO", "F-1", "Score", "F-1", "Score"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 78.24,
+    "x2": 540.48,
+    "y1": 98.88,
+    "y2": 174.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableII-1.png"
+}, {
+  "caption": "TABLE VIII: Comprehensive Comparative Performance Analysis of All Predictive Models",
+  "captionBoundary": {
+    "x1": 127.92669677734375,
+    "x2": 474.2225036621094,
+    "y1": 75.39097595214844,
+    "y2": 79.7548828125
+  },
+  "figType": "Table",
+  "imageText": ["80/20", "split:", "train.shape", "(471831,", "15)", "and", "test.shape", "(116266,", "15)", "while", "IR", "=", "0.26", "a", "For", "Chat-DQN,", "IR", "=", "0.26", "and", "trade-off", "factor", "(k)", "=", "2*IR,", "total", "timesteps", "(T)", "=", "800,000", "*", "For", "ROS,", "IR", "=", "0.5", "and", "train.shape:", "(557065,", "15)", "**", "For", "RUS,", "IR", "=", "0.5", "and", "train.shape:", "(301361,", "15)", "AUC-ROC", "0.88642", "0.50217", "0.51629", "0.51281", "0.51831", "0.51737", "0.51437", "0.51404", "Score", "Class-1", "0.95", "0.87", "0.87", "0.88", "0.86", "0.84", "0.88", "0.88", "G-mean", "0.88454", "0.17558", "0.24756", "0.16540", "0.31320", "0.34863", "0.19289", "0.19916", "Accuracy", "(%)", "92", "77", "78", "79", "76", "74", "79", "79", "Class-0", "0.81", "0.06", "0.11", "0.05", "0.15", "0.18", "0.07", "0.07F-1", "Random", "Forest", "XGBoost", "Chat-DQNa", "Baseline", "(Naive", "Bayes)", "Random", "Forest", "XGBoost", "ROS*", "RUS**", "ROS*", "RUS**"],
+  "name": "VIII",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 510.24,
+    "y1": 87.84,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableVIII-1.png"
+}, {
+  "caption": "TABLE IV: Performance of A2C and PPO Algorithms for Outcome Prediction with PR Comments Dataset",
+  "captionBoundary": {
+    "x1": 95.97750091552734,
+    "x2": 506.46270751953125,
+    "y1": 75.73088073730469,
+    "y2": 80.09478759765625
+  },
+  "figType": "Table",
+  "imageText": ["-", "80/20", "split:", "train.shape", "(471831,", "15),", "and", "test.shape", "(116266,", "15)", "-", "IR", "=", "0.26,", "k", "=", "1*IR", "T", "=", "700,000", "0.01903", "0.50", "T", "=", "1,200,000", "0.52474", "0.55530", "T", "=", "800,000", "0.0", "0.50", "T", "=", "1,400,000", "0.43600", "0.51476", "T", "=", "1,000,000", "0.01901", "0.50", "T", "=", "1,500,000", "0.48931", "0.51580", "A2C", "PPO", "total", "timesteps", "(T)", "G-mean", "AUC-ROC", "total", "timesteps", "(T)", "G-mean", "AUC-ROC"],
+  "name": "IV",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 78.24,
+    "x2": 540.48,
+    "y1": 88.8,
+    "y2": 146.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableIV-1.png"
+}, {
+  "caption": "TABLE V: Performance of DQN Algorithm for Outcome Prediction with PR Comments Dataset",
+  "captionBoundary": {
+    "x1": 116.46820068359375,
+    "x2": 485.9734191894531,
+    "y1": 159.61131286621094,
+    "y2": 163.9752197265625
+  },
+  "figType": "Table",
+  "imageText": ["-", "80/20", "split:", "train.shape", "(471831,", "15)", "and", "test.shape", "(116266,", "15)", "-", "IR", "=", "0.26,", "k", "=", "2*IR", "T", "=", "800,000", "83", "94", "92", "0.81", "0.95", "0.88372", "0.88565", "T", "=", "1,000,000", "34", "80", "75", "0.32", "0.85", "0.49459", "0.57812", "T", "=", "1,500,000", "52", "45", "49", "0.29", "0.60", "0.49336", "0.49338", "Accuracy", "(%)", "F-1", "Scoretotal", "timesteps", "(T)", "Class-0", "Class-1", "Overall", "Class-0", "Class-1", "G-mean", "AUC-ROC"],
+  "name": "V",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 78.24,
+    "x2": 540.48,
+    "y1": 172.79999999999998,
+    "y2": 229.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableV-1.png"
+}, {
+  "caption": "TABLE VII: Comparison of Impact of Training Sample Size on Predictive Model Performance",
+  "captionBoundary": {
+    "x1": 119.52030181884766,
+    "x2": 482.6510009765625,
+    "y1": 212.5955047607422,
+    "y2": 216.95941162109375
+  },
+  "figType": "Table",
+  "imageText": ["AUC-ROC", "0.73582", "0.59254", "0.61651", "0.66756", "*", "For", "Batch-DQN,", "IR", "=", "0.12", "and", "k", "=", "2*IR,", "total", "timesteps", "=", "T", "a", "train.shape", "(1045883,", "72)", "and", "test.shape", "(260195,", "72)", "while", "IR", "=", "0.12,", "T", "=", "2,300,000", "b", "train.shape", "(656007,", "72)", "and", "test.shape", "(650071,", "72)", "while", "IR", "=", "0.12,", "T", "=", "1,900,000", "c", "train.shape", "(260195,", "72)", "and", "test.shape", "(1045883,", "72)", "while", "IR", "=", "0.12,", "T", "=", "1,400,000", "Class-0", "0.34", "0.26", "0.37", "0.47F-1", "Score", "Class-1", "0.74", "0.86", "0.95", "0.95", "G-mean", "0.72284", "0.55119", "0.49010", "0.58921", "20/80c", "AUC-ROC", "0.79394", "0.59149", "0.63056", "0.67112", "Accuracy", "(%)", "63", "76", "91", "91", "Class-0", "0.42", "0.25", "0.40", "0.48F-1", "Score", "Class-1", "0.84", "0.86", "0.95", "0.95", "G-mean", "0.79132", "0.55100", "0.51848", "0.59459", "50/50b", "AUC-ROC", "0.82691", "0.58600", "0.64355", "0.67271", "Accuracy", "(%)", "74", "76", "91", "92", "Class-0", "0.53", "0.25", "0.43", "0.48F-1", "Score", "Class-1", "0.91", "0.85", "0.95", "0.95", "G-mean", "0.82664", "0.54526", "0.54270", "0.59715", "80/20a", "Data", "Split", "Batch-DQN*", "Baseline", "(Naive", "Bayes)", "Random", "Forest", "XBGoost", "Accuracy", "(%)", "84", "75", "91", "92"],
+  "name": "VII",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 496.32,
+    "y1": 225.6,
+    "y2": 411.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableVII-1.png"
+}, {
+  "caption": "TABLE VI: Comparative Performance of Predictive Models with 80/20 Data Split and Resampling Techniques",
+  "captionBoundary": {
+    "x1": 89.41719818115234,
+    "x2": 512.7532348632812,
+    "y1": 75.38706970214844,
+    "y2": 79.7509765625
+  },
+  "figType": "Table",
+  "imageText": ["80/20", "split:", "train.shape", "(1045883,", "72)", "and", "test.shape", "(260195,", "72)", "Class-0:", "PR", "Rejection", "and", "Class-1:", "PR", "Acceptance", "a", "For", "Batch-DQN,", "IR", "=", "0.12,", "k", "=", "2*IR,", "total", "timesteps", "=", "2,300,000", "*", "For", "ROS,", "IR", "=", "0.5", "and", "train.shape:", "(1398807,", "72)", "**", "For", "RUS,", "IR", "=", "0.5", "and", "train.shape:", "(340035,", "72)", "AUC-ROC", "0.82691", "0.58600", "0.64355", "0.67271", "0.67314", "0.63214", "0.7795", "0.62335", "Score", "Class-1", "0.91", "0.85", "0.95", "0.95", "0.95", "0.61", "0.94", "0.61", "G-mean", "0.82664", "0.54526", "0.54270", "0.59715", "0.59769", "0.60409", "0.76631", "0.59908", "Accuracy", "(%)", "84", "75", "91", "92", "92", "49", "89", "49", "Class-0", "0.53", "0.25", "0.43", "0.48", "0.48", "0.26", "0.56", "0.25F-1", "Batch-DQNa", "Baseline", "(Naive", "Bayes)", "RForest", "PR", "[27]", "CTCPPre", "[28]", "ROS*", "RUS**", "ROS*", "RUS**", "Random", "Forest", "XGBoost"],
+  "name": "VI",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 519.36,
+    "y1": 87.84,
+    "y2": 199.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableVI-1.png"
+}, {
+  "caption": "TABLE I: Comprehensive List of Evaluation Metrics and Descriptions",
+  "captionBoundary": {
+    "x1": 165.42050170898438,
+    "x2": 434.3705139160156,
+    "y1": 219.5225067138672,
+    "y2": 223.88641357421875
+  },
+  "figType": "Table",
+  "imageText": ["Confusion", "Matrix", "Breaks", "down", "model", "predictions", "into", "True", "Positives", "(TP),", "False", "Negatives", "(FN),", "False", "Positives", "(FP),", "and", "True", "Negatives", "(TN),", "serving", "as", "the", "foundation", "for", "other", "metrics.", "In", "our", "models,", "a", "True", "Positive", "(TP)", "occurs", "when", "a", "PR", "review", "is", "correctly", "predicted", "as", "accepted", "(class-1),", "and", "a", "True", "Negative", "(TN)", "when", "correctly", "predicted", "as", "rejected", "(class-0).", "A", "False", "Positive", "(FP)", "arises", "if", "a", "PR", "review", "is", "wrongly", "predicted", "as", "accepted,", "while", "a", "False", "Negative", "(FN)", "occurs", "when", "it", "is", "incorrectly", "predicted", "as", "rejected.", "AUC-ROC", "Quantiﬁes", "the", "model’s", "ability", "to", "discriminate", "between", "positive", "and", "negative", "samples", "across", "varying", "thresholds.", "TP+FP", "+", "TP", "TP+FN", "TP+FN", "TP", "Balances", "precision", "and", "recall,", "crucial", "for", "imbalanced", "datasets.", "It", "is", "deﬁned", "as,", "F1", "=", "2×", "TP", "TP+FP", "×", "TP", "F1-score", "TP", "TP+FN", "×", "TN", "TN+FP", "G-mean", "=", "√", "Measures", "the", "balance", "in", "predicting", "both", "the", "PR", "acceptance", "and", "rejection", "classes", "and", "is", "deﬁned", "as,", "G-mean", "ACC", "=", "TP+TN", "TP+TN+FP+FN", "Accuracy", "Deﬁned", "as", "Metric", "Description", "Metric", "Description"],
+  "name": "I",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 558.24,
+    "y1": 72.96,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00057-TableI-1.png"
+}]

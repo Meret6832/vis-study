@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 1: The seven types of data flow graph edges",
+  "captionBoundary": {
+    "x1": 206.2220001220703,
+    "x2": 405.4823913574219,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["...", "𝑥", "←", "𝑎𝑖", "𝑚𝑝𝑛", "←", "𝑎𝑛", "𝑟", "←", "𝑎𝑖", "𝑚𝑝1", "←", "𝑎1", "𝑟", "←", "𝑥", "Edge", "𝑥", "←", "𝑦", "_.𝑓", "←", "𝑦", "𝑦", "←", "_.𝑓", "𝑟", "←𝑚𝑟𝑒𝑡", "𝑚𝑡ℎ𝑖𝑠", "←", "𝑥", "Assignment", "Store", "Load", "Return", "This", "Parameter", "Taint", "transfer", "Statement", "𝑥", "=", "𝑦", "𝑥.𝑓", "=", "𝑦", "𝑦", "=", "𝑥", ".𝑓", "𝑟", "=", "𝑥", ".𝑘", "(𝑎1,", "...,", "𝑎𝑛)"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 559.1999999999999,
+    "y1": 108.0,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652139-Table1-1.png"
+}, {
+  "caption": "Figure 1: Different types of fixes for taint-style vulnerabilities",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.202392578125,
+    "y1": 418.9078063964844,
+    "y2": 420.9880065917969
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "An", "example", "of", "permission", "list", "fixes.", "public", "final", "class", "TypeFactory", "implements", "java.io.Serializable", "{", "22.", "protected", "Class<?>", "classForName(String", "name)", "{", "23.", "return", "Class.forName(name);", "24.", "}", "25.}", "1.", "public", "class", "SubTypeValidator", "{", "2.", "static", "{", "3.", "+", "s.add(\"oracle.jdbc.connector.OracleManagedConnectionFactory\");", "4.", "+", "s.add(\"oracle.jdbc.rowset.OracleJDBCRowSet\");", "5.", "DEFAULT_NO_DESER_CLASS_NAMES", "=", "Collections.unmodifiableSet(s);", "6.", "}", "7.", "/**", "8.", "*", "Set", "of", "class", "names", "of", "types", "that", "are", "never", "to", "be", "deserialized.", "9.", "*/", "10.", "protected", "Set<String>", "_cfgIllegalClassNames", "=", "DEFAULT_NO_DESER_CLASS_NAMES;", "11.", "public", "void", "validateSubType(DeserializationContext", "ctxt,", "JavaType", "type)", "{", "12.", "do", "{", "13.", "//", "other", "codes", "14.", "if", "(_cfgIllegalClassNames.contains(full))", "{", "15.", "break;", "16.", "}", "17.", "}", "while", "(false);", "18.", "throw", "JsonMappingException();", "19.", "}", "20.}", "21.", "(a)", "An", "example", "of", "Sanity", "check", "fixes.", "1.", "public", "class", "OgnlUtil", "{", "2.", "public", "void", "setValue(final", "String", "name,", "final", "Map<String,", "Object>", "context", "3.", "final", "Object", "root,", "final", "Object", "value){", "4.", "compileAndExecute(name,", "context,", "new", "OgnlTask<Void>()", "{", "5.", "public", "Void", "execute(Object", "tree)", "throws", "OgnlException", "{", "6.", "if", "(isEvalExpression(tree,", "context))", "{", "7.", "throw", "new", "OgnlException();", "8.", "}", "9.", "Ognl.setValue(tree,", "context,", "root,", "value);", "10.", "return", "null;", "11.", "}", "12.", "});", "13.", "}", "14.", "private", "boolean", "isEvalExpression(Object", "tree,", "Map<String,", "Object>", "context)", "{", "15.", "if", "(tree", "instanceof", "SimpleNode)", "{", "16.", "SimpleNode", "node", "=", "(SimpleNode)", "tree;", "17.", "OgnlContext", "ognlContext", "=", "null;", "18.", "if", "(context!=null", "&&", "context", "instanceof", "OgnlContext)", "{", "19.", "ognlContext", "=", "(OgnlContext)", "context;", "20.", "}", "21.-", "return", "node.isEvalChain(ognlContext);", "22.+", "return", "node.isEvalChain(ognlContext)", "||", "node.isSequence(ognlContext);", "23.", "}", "24.", "return", "false;", "25.", "}", "26.}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 552.0,
+    "y1": 84.0,
+    "y2": 399.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652139-Figure1-1.png"
+}, {
+  "caption": "Table 3: Performance of EarlyVulnFix and DAA in the vul-",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8032836914062,
+    "y1": 184.30877685546875,
+    "y2": 186.38897705078125
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "TP", "FP", "TN", "FN", "Rec.", "Prec.", "F1", "VulFixMiner", "4", "3", "903", "17", "19.0%", "57.1%", "0.29", "CoLeFunDa", "10", "26", "880", "11", "47.6%", "27.8%", "0.35", "EarlyVulnFix", "16", "19", "856", "5", "76.2%", "45.7%", "0.57"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 118.56,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652139-Table3-1.png"
+}, {
+  "caption": "Figure 2: Framework of EarlyVulnFix.",
+  "captionBoundary": {
+    "x1": 225.43699645996094,
+    "x2": 386.56280517578125,
+    "y1": 242.60980224609375,
+    "y2": 244.69000244140625
+  },
+  "figType": "Figure",
+  "imageText": ["Expr-sink", "pairs", "Control", "Dep", "Analysis", "Conditional", "statements", "Alias", "Analysis", "Data", "Dep", "Analysis", "DFG", "DF", "Conn", "Identification", "DFG", "Construction", "Juncture", "stmt/methods", "Juncture", "Identification", "Permission", "Lists", "Identification", "Sanity", "Checks", "Identification", "sinks", "Sink", "Scanning", "commit"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 532.3199999999999,
+    "y1": 84.96,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652139-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Examples of sink rules in CodeQL.",
+  "captionBoundary": {
+    "x1": 217.19700622558594,
+    "x2": 394.8035583496094,
+    "y1": 314.4258117675781,
+    "y2": 316.5060119628906
+  },
+  "figType": "Figure",
+  "imageText": ["-", "[\"java.lang\",", "\"ProcessBuilder\",", "False,", "\"ProcessBuilder\",", "\"(String[])\",", "\"\",", "\"Argument[0]\",", "\"command-injection\",", "\"ai-manual\"]", "-", "[\"java.lang\",", "\"Runtime\",", "True,", "\"exec\",", "\"(String,String[])\",", "\"\",", "\"Argument[0]\",", "\"command-injection\",", "\"ai-manual\"]", "-", "[\"java.lang\",", "\"Runtime\",", "True,", "\"exec\",", "\"(String[],String[])\",", "\"\",", "\"Argument[0]\",", "\"command-injection\",", "\"ai-manual\"]"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 519.36,
+    "y1": 265.44,
+    "y2": 293.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652139-Figure3-1.png"
+}]

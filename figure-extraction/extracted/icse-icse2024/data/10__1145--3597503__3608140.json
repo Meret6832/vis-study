@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 1: An motivating example from CodeNet’s coding challenge",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.200439453125,
+    "y1": 623.5978393554688,
+    "y2": 625.677978515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 474.71999999999997,
+    "y2": 607.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Figure1-1.png"
+}, {
+  "caption": "Table 2: Details of downstream tasks datasets.",
+  "captionBoundary": {
+    "x1": 353.7869873046875,
+    "x2": 522.0726928710938,
+    "y1": 361.1459045410156,
+    "y2": 363.22601318359375
+  },
+  "figType": "Table",
+  "imageText": ["CXG-Devign", "21,854", "2,732", "2,732", "Task", "Dataset", "Train", "Valid", "Test", "Execution", "Estimation", "CodeNet", "121,319", "13,116", "13,116", "Clone", "Detection", "CXG-POJ104", "32,000", "8,000", "12,000", "Vulnerability", "Detection", "REVEAL", "15,867", "2,268", "4,535", "D2A", "4,644", "597", "619"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 372.0,
+    "y2": 436.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Table2-1.png"
+}, {
+  "caption": "Table 4: Comparison of Clone Retrieval and bug detection.",
+  "captionBoundary": {
+    "x1": 66.68000030517578,
+    "x2": 280.86480712890625,
+    "y1": 188.64791870117188,
+    "y2": 190.72802734375
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "85.2", "45.5", "61.0", "63.2", "GraphCodeBERT", "86.7", "46.6", "58.3", "62.9", "PLBART-base", "75.9", "46.9", "61.7", "63.3", "CodeT5-base*", "65.9", "46.5", "62.1", "64.4", "UnixCoder", "89.5", "47.4", "61.2", "65.3", "TRACED", "91.2", "50.4", "62.1", "65.9", "Metric", "MAP@R", "F1", "Acc", "Acc", "Dataset", "POJ-104", "RV", "D2A", "CXG", "Task", "Clone", "Retrieval", "Vulnerability", "Detection"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 205.44,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Table4-1.png"
+}, {
+  "caption": "Figure 2: Overview of TRACED workflow.",
+  "captionBoundary": {
+    "x1": 96.5770034790039,
+    "x2": 251.26556396484375,
+    "y1": 301.0509033203125,
+    "y2": 303.1310119628906
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 117.6,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Figure2-1.png"
+}, {
+  "caption": "Figure 5: The qualitative example of execution coverage prediction.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.5610961914062,
+    "y1": 401.9479064941406,
+    "y2": 404.02801513671875
+  },
+  "figType": "Figure",
+  "imageText": ["Branch-1:", "Executed", "Branch-2:", "Not", "Executed", "Branch-1:", "Not", "executed", "Branch-2:", "Not", "executed", "TRACED", "Predictions", "(Correct)", "UnixCoder", "Predictions", "(Wrong)", "}", "int", "A,", "N,", "T,", "B;", "scanf(\"%d", "%d\",", "&N,", "&A);", "T", "=", "N", "*", "N;", "B", "=", "T", "-", "A;", "if", "(A", ">", "0)", "{printf(\"%d\",", "B);}", "//", "Branch-1", "else", "{printf(\"%d\",", "T);}", "//", "Branch-2", "return", "0;", "//Input:", "19", "100", "#include", "<stdio.h>", "int", "main(){"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 210.72,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The qualitative example of runtime value prediction. The",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1964721679688,
+    "y1": 645.4918823242188,
+    "y2": 647.572021484375
+  },
+  "figType": "Figure",
+  "imageText": ["n:", "Negative", "Large", "n:", "Zero", "TRACED", "Prediction", "(Correct)", "UnixCoder", "Prediction", "(Wrong)", "}", "}", "printf(\"\\%d\\\\n\"", ",", "sum", "-", "max", "/", "2);", "return", "0;", "scanf(\"\\%d\",", "&a);", "if", "(a", ">", "max)", "max", "=", "a;", "sum", "+=", "a;", "int", "n,", "a,", "max", "=", "0,", "sum", "=", "0,", "i;", "for", "(i", "=", "0;", "i", "<", "n;", "i++){", "//", "Quantized", "value", "of", "n?", "//Input:", "4", "4320", "4320", "4320", "#include", "<stdio.h>", "int", "main", "(void)", "{"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 467.52,
+    "y2": 628.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Figure6-1.png"
+}, {
+  "caption": "Table 3: Performance on static execution estimation.",
+  "captionBoundary": {
+    "x1": 77.30799865722656,
+    "x2": 270.2368469238281,
+    "y1": 490.4319152832031,
+    "y2": 492.51202392578125
+  },
+  "figType": "Table",
+  "imageText": ["UnixCoder", "63.7", "79.7", "81.7", "85.4", "83.5", "39.3", "87.8", "TRACED", "71.6", "83.1", "84.6", "88.1", "86.3", "49.2", "89.2", "-w/o", "MLM", "70.4", "82.6", "85.3", "86.0", "85.6", "49.0", "89.2", "-w/o", "PSP", "69.0", "81.4", "83.0", "86.9", "84.9", "44.0", "87.4", "-w/o", "VCP", "66.1", "80.3", "82.4", "85.6", "84.0", "46.7", "89.0", "-MLM-only", "65.6", "81.0", "83.1", "86.0", "84.6", "43.0", "87.5", "Acc", "Acc", "Prec", "Rec", "F1", "Acc", "Acc", "Full", "Path", "Branch", "Full", "Exec", "Var", "Coverage", "Runtime", "Value", "Model"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 506.88,
+    "y2": 592.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Table3-1.png"
+}, {
+  "caption": "Table 1: TRACED’s design of quantized variable values.",
+  "captionBoundary": {
+    "x1": 336.7900085449219,
+    "x2": 539.0686645507812,
+    "y1": 86.28884887695312,
+    "y2": 88.36895751953125
+  },
+  "figType": "Table",
+  "imageText": ["Integer", "0x0", "Null", "Not", "0x0", "Not", "Null", "Float/Double", "0x0", "Null", "Not", "0x0", "Not", "Null", "Character", "0x0", "Null", "Not", "0x0", "Not", "Null", "Pointer", "Integer", "[𝑣1,", "𝑣2,", ".", ".", ".", ",", "𝑣𝑛", "];", "Initialized", "𝑞𝑢𝑎𝑛𝑡𝑖𝑧𝑒", "(𝑣𝑖", ")", "∈", "Integer", "Not", "Initialized", "Float/Double", "[𝑣1,", "𝑣2,", ".", ".", ".", ",", "𝑣𝑛", "];", "Initialized", "𝑞𝑢𝑎𝑛𝑡𝑖𝑧𝑒", "(𝑣𝑖", ")", "∈", "Float/Double", "Not", "Initialized", "Character", "“⟨string⟩”", "Initialized", "Not", "Initialized", "Array", "Boolean", "0", "False", "1", "True", "Void", "-", "Void", "𝑣", "∈", "{a-zA-Z}", "Alphabetic", "𝑣", "≠", "‘\\0‘;", "𝑣", "∉", "{a-zA-Z}", "Non-alphabetic", "Character", "‘\\0’", "Null", "𝑣", "<", "−10,", "000.0", "Negative", "Large", "−1.0", "<", "𝑣", "<", "0", "Negative", "Small", "−10,", "000.0", "≤", "𝑣", "<", "−1.0", "Negative", "Regular", "10,", "000.0", "<", "𝑣", "Positive", "Large", "0.0", "Zero", "0.0", "<", "𝑣", "≤", "1.0", "Positive", "Small", "1.0", "<", "𝑣", "≤", "10,", "000.0", "Positive", "Regular", "Float/Double", "𝑣", "<", "−10,", "000", "Negative", "Large", "0", "Zero", "−10,", "000", "≤", "𝑣", "<", "0", "Negative", "Regular", "0", "<", "𝑣", "≤", "10,", "000", "Positive", "Regular", "10,", "000", "<", "𝑣", "Positive", "Large", "Integer", "Basic", "Data", "Type", "Value", "Types", "Concrete", "Value", "Quantized", "Value"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 102.72,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Table1-1.png"
+}, {
+  "caption": "Figure 3: Program states with concrete runtime values.",
+  "captionBoundary": {
+    "x1": 73.53600311279297,
+    "x2": 274.3057556152344,
+    "y1": 239.15591430664062,
+    "y2": 241.23602294921875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "for", "(int", "i", "=", "1;", "i", "<=", "x;", "i++)", "//", "{'x':", "4,", "'y':", "24,", "'i':", "5}", "11", "{", "12", "y", "*=", "i;", "//", "{'x':", "4,", "'y':", "24,", "'i':", "5}", "13", "}", "14", "return", "y;", "//", "{'x':", "4,", "'y':", "24,", "'i':", "5}", "15", "}", "1", "//", "INPUT:", "4", "2", "int", "factorial()", "{", "3", "int", "x,", "y;", "//", "{'x':", "32767,", "'y':", "32767}", "4", "x", "=", "atoi(argv[1]);", "//", "{'x':", "4,", "'y':", "32767}", "5", "if", "(x", "<", "0)", "{", "//", "{'x':", "4,", "'y':", "32767}", "6", "y", "=", "-1;", "7", "return", "y;", "8", "}", "9", "y", "=", "1;", "//", "{'x':", "4,", "'y':", "1}"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 281.28,
+    "y1": 84.0,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Figure3-1.png"
+}, {
+  "caption": "Figure 7: Comparing TRACED’s design of quantized variable values",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19873046875,
+    "y1": 362.9779052734375,
+    "y2": 365.0580139160156
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 184.79999999999998,
+    "y2": 346.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Figure7-1.png"
+}, {
+  "caption": "Figure 4: High-level model architecture of TRACED. In the labels",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0404968261719,
+    "y1": 544.4108276367188,
+    "y2": 546.490966796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 331.68,
+    "y2": 527.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608140-Figure4-1.png"
+}]

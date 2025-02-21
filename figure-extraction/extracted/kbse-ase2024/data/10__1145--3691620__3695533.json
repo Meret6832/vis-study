@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 5: Comparison of detection performance between approaches. The rule-based solution equals the ensemble solution with 𝑡 = 0.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 558.1798095703125,
+    "y1": 196.46133422851562,
+    "y2": 213.051025390625
+  },
+  "figType": "Figure",
+  "imageText": ["Recall", "Precision", "F1-Score", "F1-Score", "of", "Zero-R", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Threshold", "(clustering-based)", "Recall", "Precision", "F1-Score", "F1-Score", "of", "Zero-R", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Threshold", "(ensemble)"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 133.44,
+    "x2": 479.03999999999996,
+    "y1": 86.88,
+    "y2": 187.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Figure5-1.png"
+}, {
+  "caption": "Figure 6: The vertical axis shows the threshold ratio and the horizontal axis counts jobs detected as accelerated per threshold. A solid line displays jobs our solution detects, while dash-dotted lines indicate the chosen threshold and job numbers.",
+  "captionBoundary": {
+    "x1": 53.449161529541016,
+    "x2": 295.1247253417969,
+    "y1": 332.7733459472656,
+    "y2": 382.239990234375
+  },
+  "figType": "Figure",
+  "imageText": ["d", "sh", "ol", "Th", "re", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0", "500", "1000", "1500", "2000", "2500", "3000", "Number", "of", "detected", "jobs"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 266.88,
+    "y1": 233.76,
+    "y2": 324.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Figure6-1.png"
+}, {
+  "caption": "Figure 7: An overview of the open-coding approach.",
+  "captionBoundary": {
+    "x1": 69.0780029296875,
+    "x2": 278.7568359375,
+    "y1": 468.8963623046875,
+    "y2": 474.5270080566406
+  },
+  "figType": "Figure",
+  "imageText": ["developer-applied", "accelerations", "Labels", "Resolve", "conflicts", "Build", "catalog", "of", "287", "jobs", "Label", "job", "candidates"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 291.84,
+    "y1": 400.8,
+    "y2": 462.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Figure7-1.png"
+}, {
+  "caption": "Figure 2: The long-tail distribution of build jobs. This figure shows that most build jobs only have a small number of build invocations.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.191650390625,
+    "y1": 193.20938110351562,
+    "y2": 220.75799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["ou", "nt", "rd", "c", "Re", "co", "105", "104", "103", "102", "101", "100", "0", "10000", "20000", "30000", "40000", "Number", "of", "jobs"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 339.36,
+    "x2": 537.12,
+    "y1": 86.39999999999999,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Figure2-1.png"
+}, {
+  "caption": "Table 1: Catalog of purpose patterns.",
+  "captionBoundary": {
+    "x1": 364.2449951171875,
+    "x2": 511.6147766113281,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Purpose", "#", "Jobs", "P1:", "File", "changes", "102", "Skip", "build,", "test,", "publish,", "etc.,", "when", "specific", "files", "are", "not", "changed.", "53", "Skip", "build,", "test,", "publish,", "etc.,", "when", "only", "specific", "files", "are", "changed.", "52", "P2:", "Externals", "45", "Skip", "build,", "test,", "publish,", "etc.,", "when", "a", "branch/fork/PR", "does", "not", "satisfy", "specific", "conditions.", "19", "Skip", "build,", "test,", "publish,", "etc.,", "when", "explicitly", "specified", "by", "developers.", "15", "Skip", "builds", "that", "have", "specific", "schedules.", "5", "Skip", "full", "packaging", "in", "specific", "branches.", "3", "Skip", "tasks", "under", "specific", "build-related", "conditions.", "3", "Skip", "full", "packaging", "in", "specific", "tags.", "1", "P3:", "Environmentals", "38", "Skip", "build", "if", "the", "artifact/cache/target", "already", "made.", "23", "Skip", "commands", "using", "external", "compilation", "cache.", "10", "Skip", "build,", "test,", "etc.", "when", "infrastructure", "is", "not", "ready.", "4", "Skip", "installing", "software", "if", "it", "is", "already", "installed.", "1", "P4:", "Miscellaneous", "2", "Skip", "frequent", "invocations.", "1", "Skip", "multiple", "parallel", "tests.", "1"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 96.0,
+    "y2": 342.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Table1-1.png"
+}, {
+  "caption": "Figure 3: Evolution of build duration. Note that later accelerated invocations can take more time than earlier nonaccelerated invocations.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368408203125,
+    "y1": 190.04537963867188,
+    "y2": 217.593994140625
+  },
+  "figType": "Figure",
+  "imageText": ["n", "at", "io", "d", "ur", "Bu", "ild", "0:06:00", "0:05:00", "0:04:00", "0:03:00", "0:02:00", "0:01:00", "0:00:00", "2019-09", "2019-11", "2020-01", "2020-03", "2020-05", "2020-07", "2020-09", "2020-11", "Date"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 273.12,
+    "y1": 86.39999999999999,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Figure3-1.png"
+}, {
+  "caption": "Table 2: Catalog of mechanism patterns.",
+  "captionBoundary": {
+    "x1": 92.72900390625,
+    "x2": 254.8167266845703,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Mechanism", "#", "Jobs", "M1:", "Environmental", "variables", "and", "parameters", "82", "Check", "branch", "name,", "PR", "number,", "repository", "name,", "etc.", "from", "CircleCI", "environmental", "variables.", "77", "Check", "developer-applied", "environmental", "variables.", "3", "Check", "pipeline", "parameters.", "3", "Use", "command", "arguments", "to", "control", "the", "acceleration.", "1", "M2:", "Git", "commands", "68", "Check", "file", "changes", "using", "Git", "commands.", "56", "Check", "metadata", "using", "Git", "commands.", "12", "M3:", "External", "tools", "and", "APIs", "47", "Check", "GitHub", "APIs.", "38", "Use", "external", "compilation", "cache", "tools.", "8", "Check", "Docker", "image", "tag", "from", "API.", "1", "M4:", "File", "commands", "36", "Check", "flag", "files.", "34", "Check", "target", "files.", "11", "Use", "shell", "commands.", "3", "Use", "commands", "defined", "in", "package", "manager", "files.", "1", "M5:", "Logs/outputs", "4", "Check", "trace", "log.", "2", "Check", "test", "log.", "1", "Check", "program", "output.", "1"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 281.28,
+    "y1": 96.0,
+    "y2": 328.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Table2-1.png"
+}, {
+  "caption": "Figure 4: An overview of the k-means approach and ratio measurement.",
+  "captionBoundary": {
+    "x1": 160.53199768066406,
+    "x2": 451.4613037109375,
+    "y1": 181.63333129882812,
+    "y2": 187.26397705078125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "if", "git", "log", "--name-status", "--exit-code", "--format=", "oneline", "\"$GIT_BASE_REVISION..$CIRCLE_SHA1\"", "--", ".circleci/config.yml", "home", "package.json", "yarn.", "lock;", "then", "2", "echo", "\"No", "changes", "found", "in", "watched", "paths.", "Ending", "job.\"", "3", "circleci-agent", "step", "halt", "4", "else", "1", "#", "Orb", "'circleci/shellcheck@1.3.16'", "resolved", "to", "'", "circleci/shellcheck@1.3.16'", "2", "version:", "2", "3", "jobs:", "4", "docker-pre-publish:", "5", "...", "6", "steps:", "7", "...", "8", "-", "run:"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 48.48,
+    "x2": 559.1999999999999,
+    "y1": 202.56,
+    "y2": 295.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695533-Figure4-1.png"
+}]

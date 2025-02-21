@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Projects containing flaky tests",
+  "captionBoundary": {
+    "x1": 366.9490051269531,
+    "x2": 509.20556640625,
+    "y1": 321.31683349609375,
+    "y2": 326.3219909667969
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Python", "Generated", "(1013", "tests)", "Dev-written", "(1910", "tests)", "297", "18044", "(a)", "Java", "EvosuiteFsOff", "(3832", "tests)", "EvosuiteFsOn", "(1285", "tests)", "Dev-Written", "(1528", "tests)", "25", "45", "14", "144", "116", "686"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 554.88,
+    "y1": 205.44,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure4-1.png"
+}, {
+  "caption": "Table 3: Number of flaky tests found in developer-written and automatically generated tests",
+  "captionBoundary": {
+    "x1": 140.1699981689453,
+    "x2": 471.5625,
+    "y1": 85.65481567382812,
+    "y2": 90.65997314453125
+  },
+  "figType": "Table",
+  "imageText": ["Python", "Developer-Written", "182", "(0.06%)", "88", "(1.98%)", "1", "728", "(0.57%)", "270", "(6.06%)", "1", "910", "(0.63%)", "341", "(7.65%)", "303", "711", "4", "454Pynguin", "88", "(0.06%)", "49", "(1.10%)", "925", "(0.67%)", "183", "(4.11%)", "1", "013", "(0.73%)", "224", "(5.03%)", "138", "627", "1", "902EvoSuiteFSOn", "175", "(0.06%)", "43", "(2.26%)", "1", "110", "(0.35%)", "109", "(5.73%)", "1", "285", "(0.41%)", "133", "(6.99%)", "310", "193", "EvoSuiteFSOff", "597", "(0.22%)", "111", "(5.84%)", "3", "235", "(1.23%)", "163", "(8.57%)", "3", "832", "(1.45%)", "228", "(11.9%)", "264", "000", "Java", "Developer-Written", "698", "(0.43%)", "105", "(5.52%)", "830", "(0.51%)", "104", "(5.46%)", "1", "528", "(0.94%)", "161", "(8.46%)", "163", "305", "Language", "Test", "Type", "NOD", "OD", "Flaky", "(NOD", "+", "OD)", "All", "#", "Tests", "#", "Projects", "#", "Tests", "#", "Projects", "#", "Tests", "#", "Projects", "#", "Tests", "#", "Projects"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Table3-1.png"
+}, {
+  "caption": "Table 1: Updated parameters to deactivate flakiness suppression mechanisms (EvoSuiteFSOff )",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 548.07275390625,
+    "y1": 85.65481567382812,
+    "y2": 102.21795654296875
+  },
+  "figType": "Table",
+  "imageText": ["Reset", "Static", "Field", "Gets", "Call", "static", "constructors", "only", "after", "static", "field", "was", "read", "false", "Reset", "Static", "Final", "Fields", "Remove", "the", "static", "modified", "in", "target", "fields", "false", "was", "changed", "false", "Replace", "GUI", "Replacing", "the", "GUI", "calls", "with", "a", "mock", "false", "Reset", "Static", "Fields", "Call", "static", "constructors", "only", "after", "static", "field", "a", "mock", "false", "Virtual", "FS", "Using", "virtual", "file", "system", "for", "all", "File", "I/O", "op-", "erations", "false", "Virtual", "Net", "Using", "virtual", "network", "for", "all", "network", "communications", "false", "Replace", "Calls", "Replacing", "non-deterministic", "calls", "false", "Replace", "System", "In", "Replacing", "the", "InputStream", "mechanism", "with", "environment", "false", "Parameter", "Description", "New", "Value", "Test", "Scaffolding", "Generate", "separate", "scaffolding", "file", "to", "execute", "the", "tests", "false", "No", "Runtime", "Dependency", "Avoid", "runtime", "dependencies", "in", "JUnit", "test", "true", "JUnit", "Check", "Compile", "and", "run", "the", "resulting", "JUnit", "test", "suite", "false", "Sandbox", "Executing", "tests", "in", "an", "independent", "testing"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 114.72,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Table1-1.png"
+}, {
+  "caption": "Figure 5: Developer-written flaky test with root cause Performance (project krka-mockachino3)",
+  "captionBoundary": {
+    "x1": 53.55099868774414,
+    "x2": 294.0444641113281,
+    "y1": 502.2368469238281,
+    "y2": 517.2049560546875
+  },
+  "figType": "Figure",
+  "imageText": ["<error", "message=\"273", "expected", "at", "most", "220\"", "type=\"junit.framework", ".AssertionFailedError\">", "99", "100", "long", "t0", "=", "System.currentTimeMillis", "();", "101", "Executors.newSingleThreadScheduledExecutor", "().schedule(", "runnable", ",waitTime", ",TimeUnit.MILLISECONDS);", "102", "long", "t1", "=", "System.currentTimeMillis", "();", "103", "long", "margin", "=", "t1", "-", "t0;", "//", "...", "omitted", "...", "106", "type.withTimeout(timeout).on(mock).size();", "//", "...", "omitted", "...", "111", "long", "t2", "=", "System.currentTimeMillis", "();", "112", "long", "time", "=", "t2", "-", "t1;", "113", "assertTrue(time", "+", "\"", "expected", "at", "most", "\"", "+", "max", ",", "time", "<=", "max", "+", "margin);", "114", "}", "98", "private", "void", "runTimeoutTest(VerifyRangeStart", "type", ",int", "min", ",int", "max", ",int", "waitTme", ",int", "timeout", ",List", "mock", ",Runnable", "runnable)", "{", "//", "...", "omitted", "...", "73", "@Test", "74", "public", "void", "testTimeoutFailExactly", "()", "{", "75", "final", "List", "mock", "=", "Mockachino.mock(ArrayList.class);", "76", "mock.size();", "77", "mock.size();", "78", "runTimeoutTest(Mockachino.verifyExactly", "(2)", ",200,220,200,500,", "mock", ",()", "->", "mock.size());", "79", "}"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 298.08,
+    "y1": 274.56,
+    "y2": 485.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure5-1.png"
+}, {
+  "caption": "Figure 1: Study setup",
+  "captionBoundary": {
+    "x1": 268.3529968261719,
+    "x2": 343.64556884765625,
+    "y1": 219.76882934570312,
+    "y2": 224.77398681640625
+  },
+  "figType": "Figure",
+  "imageText": ["22", "352", "Python", "Projects", "dev.-written", "tests", "38", "841", "Java", "Projects", "dev.-written", "tests", "4", "454", "Projects", "~", "442", "000", "Tests", "1", "902", "Projects", "~", "737", "000", "Tests", "(1", "researcher", "per", "test)", "Manually", "Label", "Root", "Causes", "(4", "researchers)", "Manually", "Label", "Root", "Causes", "+", "Discussion", "Alignment", "Sample", "481", "Flaky", "Tests", "Randomly", "Sample", "50", "Tests", "(Breadth", "+", "Depth)", "Sampling", "NOD", "Flaky", "Tests", "No", "Flakiness", "Suppression", "(Default", "mode)", "Flakiness", "Suppression", "ON", "(Default", "mode)", "Flakiness", "Suppression", "OFF", "A.", "Project", "Sampling", "B.", "Test", "Generation", "C.", "Test", "Execution", "D.", "Test", "Outcome", "Analysis", "(RQ1,", "RQ2)", "E.", "Root", "Cause", "Analysis", "(RQ3)", "(i)", "Alignment", "(ii)", "Manual", "Classification", "Section", "3.1", "Section", "3.2", "Section", "3.3", "Section", "3.4", "Section", "3.5", "100x", "Random", "order", "100x", "Same", "order", "Isolated", "Test", "Execution"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure1-1.png"
+}, {
+  "caption": "Table 2: Size of our dataset",
+  "captionBoundary": {
+    "x1": 390.22198486328125,
+    "x2": 485.6706848144531,
+    "y1": 244.67483520507812,
+    "y2": 249.67999267578125
+  },
+  "figType": "Table",
+  "imageText": ["Java", "EvoSuite", "1", "902", "163", "305", "264", "000", "310", "193", "Python", "Pynguin", "4", "454", "303", "711", "138", "627", "Developer", "-written", "Generated", "Without", "FS", "Generated", "With", "FS", "Language", "Test", "Gen.", "Framework", "#", "Projects", "#", "Tests", "(FS", "=", "Flakiness", "Suppression)"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 264.0,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Table2-1.png"
+}, {
+  "caption": "Figure 8: Unordered collection flakiness generated by Pynguin (project TinyDB)",
+  "captionBoundary": {
+    "x1": 53.55099868774414,
+    "x2": 294.0379943847656,
+    "y1": 325.94384765625,
+    "y2": 340.9110107421875
+  },
+  "figType": "Figure",
+  "imageText": ["QueryImpl('all", "',", "('',),", "'')),", "('all", "',", "('',),", "'')}))\"", "1", "def", "test_case_54", "():", "2", "str_0", "=", "''", "3", "query_0", "=", "module_0.where(str_0)", "4", "#", "omitted", "5", "query_instance_0", "=", "query_0.all(str_0)", "6", "#", "omitted", "7", "query_instance_1", "=", "query_0.all(query_instance_0)", "8", "bool_1", "=", "query_instance_1.__call__(dict_0)", "9", "#", "omitted", "10", "query_instance_2", "=", "query_instance_1.__or__(query_instance_0)", "11", "var_0", "=", "query_instance_2.__repr__", "()", "12", "assert", "var_0", "==", "\"QueryImpl('or',", "frozenset", "({('all", "',", "('',),"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 298.08,
+    "y1": 209.76,
+    "y2": 309.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Randomness-related flaky test generated by Pynguin (project usolitaire)",
+  "captionBoundary": {
+    "x1": 53.55099868774414,
+    "x2": 294.0380554199219,
+    "y1": 179.20382690429688,
+    "y2": 194.1719970703125
+  },
+  "figType": "Figure",
+  "imageText": ["E", "usolitaire.game.InvalidMove", "1", "def", "test_case_33", "():", "2", "int_0", "=", "0", "3", "game_0", "=", "module_0.Game()", "4", "#", "omitted", "5", "bool_0", "=", "True", "6", "with", "pytest.raises(module_0.InvalidMove):", "7", "game_0.move_tableau_pile(bool_0", ",", "int_0)", "8", "var_0", "=", "game_0.move_tableau_pile(int_0", ",", "bool_0)"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 298.08,
+    "y1": 84.0,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure7-1.png"
+}, {
+  "caption": "Figure 9: Non-idempotent-outcome flakiness generated by Pynguin (project bl)",
+  "captionBoundary": {
+    "x1": 53.55099868774414,
+    "x2": 294.0418395996094,
+    "y1": 444.787841796875,
+    "y2": 459.7560119628906
+  },
+  "figType": "Figure",
+  "imageText": ["E", "IsADirectoryError:", "[Errno", "21]", "Is", "a", "directory:", "'/'", "1", "def", "test_case_9", "():", "2", "none_type_0", "=", "None", "3", "str_0", "=", "'/'", "4", "config_0", "=", "module_0.Config(none_type_0)", "5", "#", "omitted", "6", "with", "pytest.raises(FileExistsError):", "7", "config_0.write(str_0)"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 298.08,
+    "y1": 356.64,
+    "y2": 428.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Flakiness due to Verifying Expected Exceptions (project named-data-jndn)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2010498046875,
+    "y1": 368.7788391113281,
+    "y2": 383.7460021972656
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Stack", "traces", "After", "JIT", "compilation", "at", "java.nio.HeapByteBuffer.get", "(HeapByteBuffer.java:169)", "...", "at", "SafeBag_ESTest.test17", "(SafeBag_ESTest.java:330)", "...", "Exception", "in", "thread", "\"main\"", "java.", "lang.IndexOutOfBoundsException", "Before", "JIT", "compilation", "(Buffer.java:743)", "at", "java.nio.HeapByteBuffer.get", "(HeapByteBuffer.java:169)", "...", "at", "SafeBag_ESTest.test17", "(SafeBag_ESTest.java:330)", "...", "Exception", "in", "thread", "\"main\"", "java.", "lang.IndexOutOfBoundsException", "at", "java.nio.Buffer.checkIndex", "(a)", "Flaky", "test", "generated", "by", "EvoSuiteFSOn", "Exception", "was", "not", "thrown", "in", "java.nio.Buffer", "but", "in", "java.base/", "java.nio.HeapByteBuffer.get(HeapByteBuffer.java", ":169):", "java", ".lang.IndexOutOfBoundsException:", "1", "1", "@Test(timeout", "=", "4000)", "2", "public", "void", "test17", "()", "throws", "Throwable", "{", "3", "Name", "name0", "=", "new", "Name();", "4", "int[]", "intArray0", "=", "new", "int", "[1];", "5", "intArray0", "[0]", "=", "(", "-3152);", "6", "Blob", "blob0", "=", "new", "Blob(intArray0);", "7", "SafeBag", "safeBag0", "=", "null;", "8", "try", "{", "9", "safeBag0", "=", "new", "SafeBag(name0", ",", "blob0", ",", "blob0);", "10", "fail(\"Expecting", "exception:IndexOutOfBoundsException\");", "11", "}", "catch(IndexOutOfBoundsException", "e)", "{", "12", "verifyException(\"java.nio.Buffer\",", "e);", "13", "}", "14", "}"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 562.0799999999999,
+    "y1": 84.0,
+    "y2": 353.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure10-1.png"
+}, {
+  "caption": "Figure 2: Dataset statistics",
+  "captionBoundary": {
+    "x1": 127.08099365234375,
+    "x2": 220.76028442382812,
+    "y1": 317.5568542480469,
+    "y2": 322.56201171875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "dev.-written", "Python", "tests", "/", "proj.", "ts", "oj", "ec", "#", "Pr", "400", "300", "200", "100", "0", "#", "Developer-Written", "Test", "Cases", "100", "101", "102", "103", "104", "(c)", "lines", "of", "code", "(Python)", "ts", "oj", "ec", "#", "Pr", "300", "200", "100", "0", "Lines", "of", "Code", "(LOC)", "101", "102", "103", "104", "105", "oj", "ec", "ts", "(b)", "dev.-written", "Java", "tests", "/", "proj.", "#", "Pr", "150", "100", "50", "0", "#", "Developer-Written", "Test", "Cases", "100", "101", "102", "103", "(a)", "lines", "of", "code", "(Java)", "ts", "oj", "ec", "#", "Pr", "150", "100", "50", "0", "Lines", "of", "Code", "(LOC)", "101", "102", "103", "104", "105"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 291.36,
+    "y1": 86.88,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Branch coverage of generated tests",
+  "captionBoundary": {
+    "x1": 358.9230041503906,
+    "x2": 517.2311401367188,
+    "y1": 214.36184692382812,
+    "y2": 219.36700439453125
+  },
+  "figType": "Figure",
+  "imageText": ["mean", "ge", "ve", "ra", "ch", "Co", "Br", "an", "1.0", "0.8", "0.6", "0.4", "0.2", "EvoSuiteFsOn", "EvoSuiteFsOff", "Pynguin", "0.0"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 555.36,
+    "y1": 86.88,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608138-Figure3-1.png"
+}]

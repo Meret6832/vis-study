@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 6: Part of IT Mappings",
+  "captionBoundary": {
+    "x1": 378.5780029296875,
+    "x2": 497.5747375488281,
+    "y1": 295.7523498535156,
+    "y2": 301.38299560546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 547.1999999999999,
+    "y1": 82.56,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure6-1.png"
+}, {
+  "caption": "Table 2: Prompt example for policy analysis with LLM",
+  "captionBoundary": {
+    "x1": 63.939971923828125,
+    "x2": 283.59796142578125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Example", "Output", "\"[[\"baidu\",[\"IP\",\"IMEI\",\"IMSI\",\"MAC\"],\"baidu.com\"]]", "info:", "Device", "information", "(IP/IMEI/IMSI/MAC).", "Usage", "of", "SDK", "Purpose:", "To", "track", "which", "functions", "users", "frequently", "use.", "Privacy", "Policy", "Link:", "https://tj.baidu.com/web/help/article?id=330&type=0.\"", "Text", "Excerpt", "The", "application", "may", "share", "your", "personal", "data", "with", "DCPs", "to", "improve", "user", "experience.These", "DCPs", "may", "collect", "information", "such", "as", "your", "IP", "address", "and", "browsing", "history.", "Chain", "of", "Thought", "First,", "identify", "the", "action", "of", "data", "transmission", "mentioned", "in", "the", "text.Second,", "determine", "who", "is", "collecting", "the", "data", "(DCPs).Third,", "list", "the", "types", "of", "data", "mentioned", "(ip", "address,", "browsing", "history).", "Finally,", "note", "any", "specified", "locations", "for", "data", "transmission", "if", "mentioned(not", "specified", "here).", "Example", "1", "Example", "Input", "privacy", "policy", "texts:", "\"Baidu", "Analysis", "SDK", "obtain", "extract:", "1.", "The", "types", "of", "information", "collected", "by", "DCPs.", "2.", "The", "locations", "where", "this", "information", "is", "sent.", "Output", "the", "results", "in", "the", "format", "of", "a", "python", "list.", "Type", "Instantiation", "Role", "You", "are", "a", "privacy", "policy", "analyst.", "Task", "Introduction", "Analyze", "the", "following", "privacy", "policy", "excerpt", "and"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 105.6,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Table2-1.png"
+}, {
+  "caption": "Table 8: Work related to consistency analysis of mobile apps",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 293.97808837890625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Tools", "Static", "Analysis", "Dynamic", "Analysis", "Third-party", "Sensitivity", "Data", "flow", "Tools", "PPChecker[39]", "FlowDroid", "Rocky[34]", "FlowDroid", "Zimmeck[45]", "AndroGuard", "PoliCheck[11]", "\\", "PurPliance[15]", "\\", "HPDroid[17]", "FlowDroid", "GNChecker", "Self", "developed"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 291.36,
+    "y1": 105.6,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Table8-1.png"
+}, {
+  "caption": "Figure 8: GNChecker’s dynamic analysis module can identify more inconsistencies of sensitive information in non-system APIs, such as AppKey and UserId.",
+  "captionBoundary": {
+    "x1": 53.46699905395508,
+    "x2": 294.2894592285156,
+    "y1": 270.3023376464844,
+    "y2": 297.85101318359375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 82.56,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure8-1.png"
+}, {
+  "caption": "Figure 1: The SSO SDK in the SinaSports app collects IMEI, ICCID, and WiFi information and sends them to \"sina.com.cn\"",
+  "captionBoundary": {
+    "x1": 60.402000427246094,
+    "x2": 551.5773315429688,
+    "y1": 209.76138305664062,
+    "y2": 215.39202880859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 536.16,
+    "y1": 82.56,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The workflow of GNChecker.",
+  "captionBoundary": {
+    "x1": 95.45700073242188,
+    "x2": 252.3799591064453,
+    "y1": 394.2503662109375,
+    "y2": 399.8810119628906
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 222.72,
+    "y2": 381.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure2-1.png"
+}, {
+  "caption": "Table 4: Efficiency comparison of different data flow tools.",
+  "captionBoundary": {
+    "x1": 319.8479919433594,
+    "x2": 556.0032958984375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["FlowDroid", "8", "31", "212s", "0", "AmanDroid", "28", "15", "1652s", "0", "GNChecker", "0", "5", "252s", "452", "crash", "timeout", "average", "runtime", "data", "flow", "size", "Tool", "Failure", "Success"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 564.0,
+    "y1": 105.6,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Table4-1.png"
+}, {
+  "caption": "Table 5: The precision and recall of different data flow analysis tools.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.5374755859375,
+    "y1": 213.54837036132812,
+    "y2": 230.13800048828125
+  },
+  "figType": "Table",
+  "imageText": ["Tool", "Precision", "Recall", "F-measure", "FlowDroid", "0.88", "0.72", "0.79", "AmanDroid", "0.66", "0.56", "0.61", "GNChecker", "0.89", "0.71", "0.79"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 532.3199999999999,
+    "y1": 244.79999999999998,
+    "y2": 291.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Table5-1.png"
+}, {
+  "caption": "Figure 3: An example of code segmentation step.",
+  "captionBoundary": {
+    "x1": 75.86099243164062,
+    "x2": 271.9742736816406,
+    "y1": 492.4833679199219,
+    "y2": 498.114013671875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "FCG", "(b)", "LDPG"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 309.12,
+    "y1": 381.59999999999997,
+    "y2": 477.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure3-1.png"
+}, {
+  "caption": "Table 7: Violations discovered by different tools.",
+  "captionBoundary": {
+    "x1": 76.29100036621094,
+    "x2": 271.2476806640625,
+    "y1": 254.90237426757812,
+    "y2": 260.53302001953125
+  },
+  "figType": "Table",
+  "imageText": ["Tool", "Inconsistent", "Apps", "Inconsistent", "Tuples", "PPChecker", "159", "(14.0%)", "541", "PoliCheck", "180", "(15.9%)", "692", "GNChecker", "379", "(33.4%)", "1,515"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 286.08,
+    "y1": 274.56,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Table7-1.png"
+}, {
+  "caption": "Table 6: Effectiveness of privacy policy analysis",
+  "captionBoundary": {
+    "x1": 77.52001953125,
+    "x2": 270.02008056640625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Privacy", "Policy", "Exp", "FP", "FN", "air.tv.douyu.android", "64", "0", "5", "alook.browser", "2", "1", "1", "app.jjyy.passstore", "2", "1", "0", "cc.gqsj.zj", "8", "2", "0", "chat.zhifeiji", "3", "0", "0", "cn.authing.guard", "17", "0", "0", "cn.banshenggua.aichang", "15", "2", "0", "cn.bkw_Junior_accountant", "21", "0", "1", "cn.com.sina.sports", "5", "0", "0", "cn.jingliangtech.file", "6", "0", "0", "Total", "143", "6", "7"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 261.12,
+    "y1": 105.6,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Table6-1.png"
+}, {
+  "caption": "Figure 7: GNChecker’s static analysis module can identify more inconsistencies in sensitive information acquired via system API calls, such as IMEI and IMSI.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4403686523438,
+    "y1": 270.3023376464844,
+    "y2": 297.85101318359375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure7-1.png"
+}, {
+  "caption": "Figure 5: An example of obtaining URLs through a combination of multiple patterns.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932373046875,
+    "y1": 200.49734497070312,
+    "y2": 217.08697509765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure5-1.png"
+}, {
+  "caption": "Table 1: Propagation rules",
+  "captionBoundary": {
+    "x1": 120.88101196289062,
+    "x2": 226.66183471679688,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["x→", "y", ":", "𝑆", "(𝑥", "=", "𝑦),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", "),", "𝐻𝑒𝑎𝑝", "(𝑥", ")", "Clean(x)", ":", "𝑆", "(𝑥", "=", "𝑛𝑢𝑙𝑙", "),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", ")", "sink", "x→", "sink", ":", "𝑆", "(𝑓", "(...,", "𝑥", ",", "...)", "),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", "),", "𝑓", "∈", "𝑠𝑖𝑛𝑘", "alias", "x→", "y", ":", "𝑆", "(𝑦", "=", "𝑥", "),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", "),", "𝐻𝑒𝑎𝑝", "(𝑥", ")", "param", "Param(f,", "i,", "x)", ":", "𝑆", "(𝑓", "(𝑝1,", "...,", "𝑝𝑛", ")", "),", "𝑆", "(𝑝𝑖", "=", "𝑥", "),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", ")", "return", "Return(f,", "x)", ":", "𝑆", "(𝑓", "(𝑟𝑒𝑡𝑢𝑟𝑛", "𝑥", ")", "),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", ")", "clean", "Clean(x)", ":", "𝑆", "(𝑥", "=", "𝑦),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", "),", "¬𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑦)", "propagation", "x→", "y", ":", "𝑆", "(𝑦", "=", "𝑥", "),", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥", ")", "𝑜𝑟", "𝑇𝑎𝑖𝑛𝑡𝑒𝑑", "(𝑥.∗)", "x→", "y", ":", "𝑆", "(𝑦", "=", "𝑓", "(∗)", "),", "𝑅𝑒𝑡𝑢𝑟𝑛", "(𝑓", ",", "𝑥", ")", "x→", "pi", ":", "𝑆", "(𝑓", "(𝑝1,", "...,", "𝑝𝑛", ")", "),", "𝑃𝑎𝑟𝑎𝑚", "(𝑓", ",", "𝑖,", "𝑥", ")", "source", "source→", "y", ":", "𝑆", "(𝑦", "=", "𝑓", "(∗)", "),", "𝑓", "∈", "𝑠𝑜𝑢𝑟𝑐𝑒", "Category", "Rule"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 282.24,
+    "y1": 105.6,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Table1-1.png"
+}, {
+  "caption": "Figure 4: Four patterns for storing URLs",
+  "captionBoundary": {
+    "x1": 92.79800415039062,
+    "x2": 255.0377197265625,
+    "y1": 512.9673461914062,
+    "y2": 518.5980224609375
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "stored", "in", "a", "father", "method", "(c)", "stored", "in", "a", "brother", "method", "(a)", "stored", "in", "local", "variables", "(b)", "stored", "in", "global", "variables"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 307.2,
+    "y1": 235.67999999999998,
+    "y2": 497.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695528-Figure4-1.png"
+}]

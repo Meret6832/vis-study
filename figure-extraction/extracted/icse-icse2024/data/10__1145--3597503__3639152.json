@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 2: Common smart contract vulnerabilities.",
+  "captionBoundary": {
+    "x1": 339.68597412109375,
+    "x2": 536.1666870117188,
+    "y1": 290.9693603515625,
+    "y2": 296.6000061035156
+  },
+  "figType": "Table",
+  "imageText": ["Integer", "Bug", "(IB)", "Integer", "operation", "exceeds", "the", "integer", "range,", "it", "can", "be", "harmful", "when", "modifying", "the", "contract’s", "state", "variables.", "Suicidal", "(SC)", "Contract", "can", "be", "destroyed", "by", "the", "arbitrary", "user", "through", "selfdestruct", "interface", "because", "of", "missing", "access", "controls.", "Reentrancy", "(RE)", "Contract", "doesn’t", "update", "states", "(e.g.,", "balance)", "before", "making", "an", "external", "call,the", "malicious", "callee", "reenters", "it", "and", "leads", "to", "a", "race", "condition", "on", "the", "state.", "Unhandled", "Exception", "(UE)", "Contract", "doesn’t", "check", "for", "exception", "after", "calling", "external", "functions.", "Gasless", "Send", "(GS)", "Contract", "mishandles", "out-of-gas", "exceptions", "when", "transferring", "the", "ether,", "the", "attackers", "may", "keep", "the", "untransferred", "assets.", "Ether", "Leak", "(EL)", "Contract", "allows", "arbitrary", "users", "to", "retrieve", "ether", "from", "the", "contract.", "Dependency", "(BD)", "Contract", "uses", "Block", "states", "(e.g.,", "timestamp,", "number)", "to", "decide", "a", "critical", "operation", "(e.g.,", "ether", "transfer).", "Freezing", "Ether", "(FE)", "Contract", "has", "no", "function", "for", "sending", "Ether,", "or", "it", "allows", "unauthorized", "use", "of", "contract", "self", "destruction.", "Dangerous", "Delegatecall", "(DD)", "Contract", "uses", "delegatecall()", "to", "execute", "an", "untrusted", "code.", "Block", "State", "Bug", "Name", "Description"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 298.56,
+    "y2": 444.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Table2-1.png"
+}, {
+  "caption": "Figure 1: A vulnerable contract.",
+  "captionBoundary": {
+    "x1": 379.3159484863281,
+    "x2": 496.8390808105469,
+    "y1": 705.5663452148438,
+    "y2": 711.197021484375
+  },
+  "figType": "Figure",
+  "imageText": ["7", "function", "withdraw(uint", "amount)", "public", "{", "8", "require(uBalance[msg.sender]", ">=", "amount", ",", "\"Fail\");", "9", "require(now", ">", "30);", "10", "msg.sender.call.value(amount)();", "//", "reentrancy", "bug", "11", "uBalance[msg.sender]", "-=", "amount", ";}}", "4", "function", "deposit", "()", "public", "payable", "{", "//", "deposit", "money", "5", "uBalance[msg.sender]", "+=", "msg.value;", "}", "6"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 320.15999999999997,
+    "x2": 557.76,
+    "y1": 646.56,
+    "y2": 702.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Figure1-1.png"
+}, {
+  "caption": "Table 3: The number of vulnerabilities detected by fuzzers.",
+  "captionBoundary": {
+    "x1": 187.14199829101562,
+    "x2": 424.5526123046875,
+    "y1": 83.73434448242188,
+    "y2": 89.364990234375
+  },
+  "figType": "Table",
+  "imageText": ["In", "Flaw", "column,", "the", "number", "(e.g.,", "29)", "indicates", "the", "count", "of", "contracts", "with", "each", "vulnerability", "type", "in", "our", "benchmark.", "-:", "such", "bug", "oracle", "is", "not", "supported", "by", "corresponding", "fuzzers.", "TP:", "true", "positives,", "FP:", "false", "positives.", "Flaw", "ContractFuzzer", "ILF", "RLF", "ConFuzzius", "sFuzz", "xFuzz", "Smartian", "SmartGift", "DD", "(29)", "TP:8,", "FP:", "8", "TP:18,", "FP:", "1", "TP:20,", "FP:", "1", "TP:", "22,", "FP:", "0", "TP:25,", "FP:", "2", "TP:25,", "FP:", "2", "-", "TP:6,", "FP:", "8", "BD", "(317)", "TP:39,", "FP:", "28", "TP:81,", "FP:", "45", "TP:", "93,", "FP:", "57", "TP:", "175,", "FP:", "27", "TP:", "223,", "FP:", "32", "TP:", "184,", "FP:", "27", "TP:", "102,", "FP:", "9", "TP:38,", "FP:", "31", "FE", "(80)", "TP:12,", "FP:", "4", "TP:48,", "FP:", "0", "TP:47,", "FP:", "0", "TP:48,", "FP:", "0", "TP:2,", "FP:", "20", "TP:1,", "FP:", "14", "-", "TP:12,", "FP:", "4", "EL", "(43)", "-", "TP:32,", "FP:", "67", "TP:38,", "FP:", "79", "TP:37,", "FP:", "56", "-", "-", "TP:26,", "FP:", "84", "GS", "(122)", "TP:17,", "FP:", "5", "-", "-", "-", "TP:48,", "FP:", "227", "TP:55,", "FP:", "247", "-", "TP:13,", "FP:", "4", "UE", "(188)", "TP:", "14,FP:", "10", "TP:", "13,FP:", "3", "TP:", "13,FP:", "3", "TP:", "76,FP:", "27", "TP:", "41,FP:", "19", "TP:", "38,FP:", "19", "TP:", "76,FP:", "23", "TP:", "13,FP:", "6", "RE", "(121)", "TP:", "6,", "FP:", "11", "TP:", "48,", "FP:", "9", "TP:", "54,", "FP:", "11", "TP:", "42,", "FP:", "21", "TP:", "8,", "FP:", "8", "TP:", "8,", "FP:", "7", "TP:", "12,", "FP:", "3", "TP:", "6,", "FP:", "9", "SC", "(22)", "-", "TP:", "18,", "FP:", "20", "TP:", "20,", "FP:", "22", "TP:", "10", ",", "FP:", "4", "-", "-", "TP:", "8,", "FP:", "0", "-", "IB", "(581)", "-", "-", "-", "TP:", "566,", "FP:", "169", "TP:", "129,", "FP:", "106", "TP:", "112,", "FP:", "80", "TP:", "413,", "FP:", "182", "-"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 534.24,
+    "y1": 89.75999999999999,
+    "y2": 214.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Table3-1.png"
+}, {
+  "caption": "Figure 3: Fuzzers’ throughput.",
+  "captionBoundary": {
+    "x1": 382.10198974609375,
+    "x2": 494.0542297363281,
+    "y1": 698.7283325195312,
+    "y2": 704.3590087890625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "1", "100", "101", "102", "103", "104", "105", "#", "of", "tr", "an", "sa", "ct", "io", "ns", "0.09", "0.07", "57", "94", "107", "512", "507", "419", "12", "2390733024", "ift", "ILF", "RLF", "ConFuzziu", "s", "sFuzz", "xFuzz", "Smartia", "n", "ethploit", "EF/CF", "ityfuzz", "Fuzze", "r", "SmartG", "Contra", "ct"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 343.68,
+    "x2": 532.3199999999999,
+    "y1": 624.48,
+    "y2": 693.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Figure3-1.png"
+}, {
+  "caption": "Figure 5: Instruction coverage.",
+  "captionBoundary": {
+    "x1": 117.25199890136719,
+    "x2": 230.59092712402344,
+    "y1": 189.16732788085938,
+    "y2": 194.7979736328125
+  },
+  "figType": "Figure",
+  "imageText": ["ef/cf", "ityfuzz", "SmartGift", "ethploit", "smartian", "ContractFuzzer", "sFuzz", "xFuzz", "confuzzius", "ilf", "rlf", "ra", "ge", "Co", "ve", "io", "n", "ru", "ct", "In", "st", "0.8", "0.6", "0.4", "0.2", "0.0", "Time", "(second)", "100", "101", "102", "103"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.12,
+    "x2": 277.44,
+    "y1": 84.96,
+    "y2": 186.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Overhead.",
+  "captionBoundary": {
+    "x1": 134.63999938964844,
+    "x2": 213.20005798339844,
+    "y1": 293.5123596191406,
+    "y2": 299.14300537109375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "CPU", "Consumption.", "(b)", "Memory", "Consumption."],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 292.32,
+    "y1": 207.84,
+    "y2": 289.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Figure6-1.png"
+}, {
+  "caption": "Table 5: Fuzzing tools used by different auditing companies.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1887817382812,
+    "y1": 120.27334594726562,
+    "y2": 125.90399169921875
+  },
+  "figType": "Table",
+  "imageText": ["sfuzz", "[74]", "ImmuneBytes.", "Echidna", "[2]", "ImmuneBytes,", "Halborn,", "Trail", "of", "Bits,", "QuillAudits,", "Solidified,", "Pessimistic,", "ChainSafe,", "yAcademy,", "yAudit,", "Truscova,", "Zellic,", "Zokyo,", "Cyfrin,", "ABDK.", "Tools", "Auditing", "Company"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 127.19999999999999,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Table5-1.png"
+}, {
+  "caption": "Figure 7: Essential factors in fuzzer selection by auditors; x-axis represents the number of participants.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.200927734375,
+    "y1": 294.63134765625,
+    "y2": 310.2239990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Code", "Coverage", "Error", "Report", "Quality", "Active", "Community", "Online", "Fuzzing", "Low", "False", "Positive/Negative", "Maintenance", "Customized", "Oracle", "Replay", "for", "Validation", "Documentation", "Quality", "Easy", "to", "Use", "0", "2", "4", "6", "8", "10", "12", "14", "16", "18"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 554.88,
+    "y1": 216.95999999999998,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Figure7-1.png"
+}, {
+  "caption": "Figure 2: Overview of smart contract fuzzing.",
+  "captionBoundary": {
+    "x1": 90.71499633789062,
+    "x2": 257.1261901855469,
+    "y1": 706.4213256835938,
+    "y2": 712.052001953125
+  },
+  "figType": "Figure",
+  "imageText": ["Execution", "Bug", "Detector", "Seed", "Selection", "New", "Seed", "Seed", "Test", "Case", "CorpusSeed", "Generation", "Seed", "Mutation", "Seed", "Scheduling"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 283.2,
+    "y1": 652.8,
+    "y2": 704.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Figure2-1.png"
+}, {
+  "caption": "Table 1: Summary of technical details for existing smart contract fuzzers.",
+  "captionBoundary": {
+    "x1": 157.6790008544922,
+    "x2": 454.01422119140625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Tool", "G/M", "Arguments", "Generation", "Sequence", "Generation", "Seed", "Mutation", "Seed", "Scheduling", "SEName", "year", "OC", "Type", "Ran", "Dict", "Prev", "ML", "Sym", "Ran", "Dyn", "Static", "ML", "Args", "Env", "Seq", "Cov", "Dis", "Bug", "ContractFuzzer", "[55]", "2018", "✓", "G", "✓", "✓", "✓", "✓", "Reguard", "[66]", "2018", "M", "✓", "✓", "✓", "✓", "ILF", "[48]", "2019", "✓", "G", "✓", "✓", "✓", "✓", "✓", "✓", "SoliAudit", "[65]", "2019", "✓", "G", "✓", "✓", "✓", "✓", "✓", "ContraMaster", "[93]", "2019", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "Harvey", "[99]", "2020", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "ETHPlOIT", "[103]", "2020", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "sFuzz", "[74]", "2020", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "Echidna", "[46]", "2020", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "GasFuzzer", "[22]", "2020", "M", "✓", "✓", "✓", "✓", "✓", "Targy", "[53]", "2021", "M", "✓", "✓", "✓", "✓", "✓", "✓", "Smartian", "[40]", "2021", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "SmartGift", "[109]", "2021", "✓", "G", "✓", "✓", "✓", "✓", "ConFuzzius", "[91]", "2021", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "Beak", "[104]", "2022", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "xFuzz", "[102]", "2022", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "EtherFuzz", "[95]", "2022", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "SynTest-S", "[75]", "2022", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "RLF", "[88]", "2022", "✓", "G", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "effuzz", "[54]", "2023", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "IR-fuzz", "[67]", "2023", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "EF\\CF", "[83]", "2023", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "ityfuzz", "[87]", "2023", "✓", "M", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓", "✓"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 93.6,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639152-Table1-1.png"
+}]

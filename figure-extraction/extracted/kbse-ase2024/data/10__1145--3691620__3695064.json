@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 2: Rules for determining incompatible changes",
+  "captionBoundary": {
+    "x1": 198.7310028076172,
+    "x2": 412.96453857421875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["7", "Param_reordering", "𝐴𝑃𝐼", "∈", "𝐴𝑃𝐼𝑜𝑙𝑑", "∩𝐴𝑃𝐼𝑛𝑒𝑤∧𝑟𝑝", "(𝑝,", "𝑃𝑜𝑙𝑑", ",𝑂𝑃𝑜𝑙𝑑", ")", "≠", "𝑟𝑝", "(𝑝,", "𝑃𝑛𝑒𝑤", ",𝑂𝑃𝑛𝑒𝑤)", "3,973", "(0.01%)", "𝐵𝐼𝐶/𝐹𝐼𝐶", "\"API\"", "denotes", "a", "single", "API", "and", "\"𝐴𝑃𝐼𝑜𝑙𝑑/𝑛𝑒𝑤", "\"", "denote", "the", "API", "set.", "\"p\"", "denotes", "a", "single", "parameter,", "\"𝑃𝑜𝑙𝑑/𝑛𝑒𝑤", "\"", "denote", "the", "necessary", "parameter", "list", "and", "1", "API_addition", "𝐴𝑃𝐼", "∉", "𝐴𝑃𝐼𝑜𝑙𝑑", "∧𝐴𝑃𝐼", "∈", "𝐴𝑃𝐼𝑛𝑒𝑤", "32,674,616", "(77.69%)", "𝐵𝐼𝐶", "2", "API_removal", "𝐴𝑃𝐼", "∈", "𝐴𝑃𝐼𝑜𝑙𝑑", "∧𝐴𝑃𝐼", "∉", "𝐴𝑃𝐼𝑛𝑒𝑤", "8,831,893", "(21.00%)", "𝐹𝐼𝐶", "3", "Param_addition", "𝐴𝑃𝐼", "∈", "𝐴𝑃𝐼𝑜𝑙𝑑", "∩𝐴𝑃𝐼𝑛𝑒𝑤", "∧", "𝑝", "∉", "𝑃𝑜𝑙𝑑", "∧", "𝑝", "∈", "𝑃𝑛𝑒𝑤", "∧", "𝑝", "∉", "𝑂𝑃𝑛𝑒𝑤", "102,490", "(0.24%)", "𝐵𝐼𝐶/𝐹𝐼𝐶", "4", "Param_removal", "𝐴𝑃𝐼", "∈", "𝐴𝑃𝐼𝑜𝑙𝑑", "∩𝐴𝑃𝐼𝑛𝑒𝑤", "∧", "𝑝", "∈", "𝑃𝑜𝑙𝑑", "∧", "𝑝", "∉", "𝑂𝑃𝑜𝑙𝑑", "∧", "𝑝", "∉", "𝑃𝑛𝑒𝑤", "71,221", "(0.17%)", "𝐵𝐼𝐶/𝐹𝐼𝐶", "5", "Optional_param_addition", "𝐴𝑃𝐼", "∈", "𝐴𝑃𝐼𝑜𝑙𝑑", "∩𝐴𝑃𝐼𝑛𝑒𝑤", "∧", "𝑝", "∉", "𝑂𝑃𝑜𝑙𝑑", "∧", "𝑝", "∈", "𝑂𝑃𝑛𝑒𝑤", "328,988(0.78%)", "𝐵𝐼𝐶", "6", "Optional_param_removal", "𝐴𝑃𝐼", "∈", "𝐴𝑃𝐼𝑜𝑙𝑑", "∩𝐴𝑃𝐼𝑛𝑒𝑤", "∧", "𝑝", "∈", "𝑂𝑃𝑜𝑙𝑑", "∧", "𝑝", "∉", "𝑂𝑃𝑛𝑒𝑤", "46,275(0.11%)", "𝐹𝐼𝐶", "Index", "Change", "Pattern", "Rule", "Frequency", "IC", "Type"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 96.0,
+    "y2": 197.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Table2-1.png"
+}, {
+  "caption": "Figure 1: Package incompatibility due to mixing apt and pip installation in Ubuntu.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.044677734375,
+    "y1": 231.57388305664062,
+    "y2": 244.61297607421875
+  },
+  "figType": "Figure",
+  "imageText": ["5.", "$", "pip", "install", "pandas", "6.", "Successfully", "install", "pandas", "1.5.3", "numpy", "1.24.3", "7.", "$", "python3", "8.", ">>>", "import", "amp", "9.", "Traceback", "(most", "recent", "call", "last):", "10.", "···", "11.", "File", "\"/home/xxx/.local/lib/python3.8/sitepackages/numpy/__init__.py\",", "···", "12.", "raise", "AttributeError(\"module", "{!r}", "has", "no", "attribute", "\"", "13.", "AttributeError:", "module", "'numpy'", "has", "no", "attribute", "'typeDict'", "1.", "$", "apt", "install", "python3-amp", "2.", "Successfully", "install", "python3-amp", "0.6.1", "python3-ase", "3.19.0-1", "python3-scipy1.3.3", "python3-numpy", "1.17.4", "3.", "$", "python3", "4.", ">>>", "import", "amp"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 289.44,
+    "y1": 84.47999999999999,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure1-1.png"
+}, {
+  "caption": "Figure 6: Merge two R-PDGs to construct one S-PDG.",
+  "captionBoundary": {
+    "x1": 67.45099639892578,
+    "x2": 280.384521484375,
+    "y1": 195.56387329101562,
+    "y2": 197.64398193359375
+  },
+  "figType": "Figure",
+  "imageText": ["apt", "P-PDG", "pip", "P-PDG", "S-PDG", "E", "D", "F", "D", "B", "C", "B", "A", "E", "Intra-repository", "dependency", "Covered-edge", "pip", "package", "apt", "package", "D", "F", "D", "B", "C", "B", "A"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 296.15999999999997,
+    "y1": 84.0,
+    "y2": 177.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure6-1.png"
+}, {
+  "caption": "Table 3: Statistics of CC Issue Dataset",
+  "captionBoundary": {
+    "x1": 362.55499267578125,
+    "x2": 513.3004150390625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total/Average1,917", "14.96", "23,866", "1,692", "1,674", "G1", "[1,5]", "1,048", "2.24", "2,234", "89", "82", "G2", "[6,10]", "282", "7.80", "2,189", "261", "255", "G3", "[11,20]", "218", "14.60", "2,322", "91", "89", "G4", "[21,49]", "211", "31.96", "6,751", "677", "674", "G5", "[50,+∞]", "158", "89.84", "10,370", "574", "574", "Group", "Pkg", "Avg.", "dep", "Pair", "Crash", "Breaking", "API"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 96.47999999999999,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Table3-1.png"
+}, {
+  "caption": "Table 5: Experiment results of RQ3",
+  "captionBoundary": {
+    "x1": 102.95700073242188,
+    "x2": 244.5839080810547,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["questions#75244186♠■■■;", "questions#61237965♠■;", "questions#76383191♠■■■;", "questions#72593814♠■■■;", "questions#74843336♠■■■;", "questions#74411148♠■■■;", "questions#74515643♠■■■;", "linode_panel#1♣■■■;", "ethz_piksi_ros#234♣■■■;", "gradio#5154♠■■■;", "frr#14816♣■■■;", "In0ri#10♣■■■;", "gramine#1142♣■■■;", "gsc#121♠■■■;", "PyDodge#24♣■■■;", "kasm-dof-workspace#9♣■■■;", "linkml#966♣■■■;", "quart#171♠■■■;", "LittlePaimon#283♣■■■;", "fprime-tools#48♣■■■;", "taipy#255♣■■■;", "stable-diffusion-webui#231♠■■■;", "mkchromecast#451♣■■■;", "InstallScript#396♣■■■;", "cserbot#9688♣■■■;", "fact_CORE#858♣■■■;", "frr#14820♦■■■;", "♠:", "CC", "issues", "from", "Stackoverflow;", "♣:", "CC", "issues", "from", "Github", "Issue;", "♦:", "CC", "issues", "from", "Github", "Discussion;", "■:", "CC", "issues", "successfully", "reproduced;", "■:", "CC", "issues", "unsuccessfully", "reproduced;", "■:", "CC", "issues", "successfully", "detected", "by", "Hera;", "■:", "CC", "issues", "successfully", "fixed", "by", "Hera.", "27", "Real-world", "CC", "Issues"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 300.0,
+    "y1": 96.0,
+    "y2": 220.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Table5-1.png"
+}, {
+  "caption": "Figure 9: A real-world CC issue example.",
+  "captionBoundary": {
+    "x1": 355.6100158691406,
+    "x2": 520.5394287109375,
+    "y1": 247.97488403320312,
+    "y2": 250.05499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "API", "import", "chain", "of", "Issue", "#5154", "for", "gradio.", "#", "jinja2", "2.10.1-2ubuntu0.2", "(apt", "directory)", "from", "markupsafe", "import", "Markup,", "escape,", "soft_Unicode", "#", "markupsafe", "1.1.0-1build2", "(apt", "directory)", "def", "soft_unicode(s)", "#", "markupsafe", "2.1.3", "(pip", "directory)", "-", "def", "soft_unicode(s)", "want", "import", "real", "import", "(a)", "Traceback", "of", "Issue", "#5154", "for", "gradio.", "pip", "directory", "1.Traceback", "(most", "recent", "call", "last):", "2.", "···", "3.", "File", "\"/usr/lib/python3/dist-packages/jinja2/utils.py\",", "line", "656,", "in", "<module>", "4.", "from", "markupsafe", "import", "Markup,", "escape,", "soft_unicode", "5.ImportError:", "cannot", "import", "name", "'soft_unicode'", "from", "'markupsafe'", "(/home/vadimkantorov/.local/lib/python3.8/site-packages/markupsafe/__init__.py)", "apt", "directory"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 326.4,
+    "x2": 541.92,
+    "y1": 84.0,
+    "y2": 228.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure9-1.png"
+}, {
+  "caption": "Figure 2: The default directory order scanned by Python interpreter in Ubuntu.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1934204101562,
+    "y1": 161.40090942382812,
+    "y2": 174.43902587890625
+  },
+  "figType": "Figure",
+  "imageText": ["1.'/usr/lib/python38.zip',", "2.'/usr/lib/python3.8',", "3.'/usr/lib/python3.8/lib-dynload',", "4.'/home/xxx/.local/lib/python3.8/site-packages',", "5.'/usr/local/lib/Python3.8/dist-packages',", "6.'/usr/lib/python3/dist-packages'"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 84.0,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure2-1.png"
+}, {
+  "caption": "Table 4: Effectiveness of Hera in detecting CC issues.",
+  "captionBoundary": {
+    "x1": 329.29901123046875,
+    "x2": 546.558837890625,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["T/A", "3,689", "315", "33", "1,585", "107", "90.5", "93.7", "92.1", "G1", "309", "27", "2", "55", "34", "93.1", "61.8", "74.3", "G2", "472", "44", "1", "225", "36", "97.8", "86.2", "91.6", "G3", "327", "27", "4", "81", "10", "87.1", "89.0", "88.0", "G4", "1,214", "100", "14", "669", "8", "87.7", "98.8", "92.9", "G5", "1,367", "117", "12", "555", "19", "90.7", "96.7", "93.6", "Group", "Pair", "VTP", "FP", "DTP", "FN", "Pre.", "Rec.", "F1", "Score"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 96.47999999999999,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Table4-1.png"
+}, {
+  "caption": "Figure 7: Commands for testing CC issues.",
+  "captionBoundary": {
+    "x1": 88.072998046875,
+    "x2": 259.76287841796875,
+    "y1": 148.20889282226562,
+    "y2": 150.28900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["1.$", "pip", "install", "-y", "B", "2.$", "apt", "install", "-y", "A", "3.>>>", "import", "A", "4.$", "pip", "freeze", "|", "xargs", "pip", "uninstall", "-y", "5.>>>", "import", "A"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 275.03999999999996,
+    "y1": 84.0,
+    "y2": 130.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure7-1.png"
+}, {
+  "caption": "Table 1: Three triggering patterns leading to CC issues",
+  "captionBoundary": {
+    "x1": 328.7959899902344,
+    "x2": 548.9202270507812,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Assuming", "there", "are", "packages", "A,", "B,", "C,", "where", "both", "A", "and", "C", "depend", "on", "B.", "pip", "install", "C", "The", "version", "of", "B", "installed", "with", "A", "does", "not", "satisfy", "the", "constraints", "of", "C,", "thus", "pip", "installs", "a", "new", "one.", "with", "A.", "3", "apt", "install", "A", "pip", "install", "B==version", "The", "version", "of", "B", "is", "incompatible", "incompatible", "with", "A.", "2", "apt", "install", "A", "The", "default", "installed", "version", "of", "B", "is", "1", "pip", "install", "B", "apt", "install", "A", "Index", "Command", "Pattern", "Description"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 561.12,
+    "y1": 96.0,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Table1-1.png"
+}, {
+  "caption": "Figure 3: The root cause of the example CC issue",
+  "captionBoundary": {
+    "x1": 75.42599487304688,
+    "x2": 272.4089660644531,
+    "y1": 257.1838684082031,
+    "y2": 259.26397705078125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Dependency", "importing", "after", "installing", "pandas", "incompatible", "numpy", "1.24.3", "pandas", "1.5.3", "compatible", "numpy", "1.17.4", "pip", "repo", "import", "compatible", "import", "apt", "repo", "amp", "1.5.3Python", "interpreter", "(a)", "Dependency", "importing", "before", "installing", "pandas", "···", "numpy", "1.17.4", "pip", "repo", "import", "compatible", "import", "apt", "repo", "amp", "1.5.3Python", "interpreter"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 84.96,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Experiment Results of RQ2",
+  "captionBoundary": {
+    "x1": 364.0069885253906,
+    "x2": 512.1431274414062,
+    "y1": 280.0838928222656,
+    "y2": 282.16400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Recall", "rate", "for", "analyzing", "incompatible", "changes", "Direct", "True", "Positives", "False", "Negatives", "1644", "30", "(a)", "Precision", "of", "analyzing", "incompatible", "changes", "9", "97", "103", "10", "10", "0", "0", "01", "66", "21", "240", "238", "220", "200", "60", "80", "40", "20", "0", "Verified", "True", "Positives", "False", "Positives", "0+", ")", "nt", "(8", "C", "ou", "-8", "0)", "nt", "(0", "C", "ou", "Patterns", "of", "imcompatible", "change", "Optional", "param", "removal", "Param", "reordering", "addition", "API", "addition", "API", "removal", "Param", "addition", "Param", "removal", "Optional", "param"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 557.76,
+    "y1": 81.11999999999999,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure8-1.png"
+}, {
+  "caption": "Figure 4: Overview of Hera.",
+  "captionBoundary": {
+    "x1": 116.44300079345703,
+    "x2": 231.39898681640625,
+    "y1": 349.6459045410156,
+    "y2": 351.72601318359375
+  },
+  "figType": "Figure",
+  "imageText": ["Building", "Dependency", "Table", "API", "Usage", "Extraction", "Analyzing", "intra-repository", "Dependency", "Constructing", "S-PDG", "R-PDGs", "Building", "Compatibility", "Table", "Fixing", "CC", "Issue", "Detecting", "CC", "Issue", "Analyzing", "Incompatible", "Changes", "API", "Extraction", "Command", "Predicting", "CC", "Issue", "S-PDG", "Dry", "run", "Script", "Index", "Update", "Index", "Directories", "CC", "Issue", "Report", "And", "Fixing", "Advice", "Ubuntu", "Repository", "Compatibility", "Database", "PyPI", "Repository", "Predict,", "Detect", "And", "Fix", "CC", "Issue", "Online", "Build", "Database", "Offline", "Install", "Commands", "Ubuntu", "System", "Merging", "R-PDGs", "Dependency", "Analysis", "Package", "Collection", "Preparing", "Packages", "Libraries.io"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 300.0,
+    "y1": 84.0,
+    "y2": 331.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Examples of dependency and compatibility tables.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1307983398438,
+    "y1": 199.63388061523438,
+    "y2": 201.7139892578125
+  },
+  "figType": "Figure",
+  "imageText": ["······", "removal", "······", "······", "1.17.4", "True", "None", "······", "1.24.3", "Fasle", "typeDict", "API", "tu3", "numpy", "1:1.17.4", "-5ubun", "Compatibility", "Table", "Library", "Package", "Apt", "version", "Pip", "version", "Compatibility", "Breaking", "API", "Pattern", "scipy", "numpy", "typeDict", "······", "······", "numpy", "······", "scipy", "······", "amp", "ase", "······", "numpy", "······", "ase", "scipy", "······", "Package", "Library", "Package", "API", "Usage", "Dependency", "Table", "Application"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 560.16,
+    "y1": 84.0,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695064-Figure5-1.png"
+}]

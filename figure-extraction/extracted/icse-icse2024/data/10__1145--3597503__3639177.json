@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 4: Distribution of DL API misuse symptoms",
+  "captionBoundary": {
+    "x1": 73.27400207519531,
+    "x2": 274.26483154296875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Symptom", "Category", "TensorFlow", "PyTorch", "Total", "Program", "Crash", "97", "226", "323", "Unexpected", "Output", "57", "153", "210", "Low", "Efficiency", "63", "218", "281", "Return", "Warning", "30", "34", "64", "Others", "4", "9", "13"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 286.08,
+    "y1": 105.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table4-1.png"
+}, {
+  "caption": "Figure 2: Mapping between root causes and symptoms",
+  "captionBoundary": {
+    "x1": 64.55400085449219,
+    "x2": 283.27947998046875,
+    "y1": 227.17434692382812,
+    "y2": 232.80499267578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 290.4,
+    "y1": 84.96,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Overview of our LLM-based DL API misuse detector",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1914672851562,
+    "y1": 211.96835327148438,
+    "y2": 217.5989990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Patch", "Generation", "Similarity", "Match", "2", "1", "API", "Misuse", "Fix", "Commit", "Code", "Explaination", "Misuse", "Pattern", "4", "3", "&", "Summarization", "API", "Misuse", "Patch", "API", "Usage", "Instance", "Code", "Understanding", "Misuse", "Rule", "Extraction"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 552.0,
+    "y1": 85.92,
+    "y2": 200.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Figure3-1.png"
+}, {
+  "caption": "Figure 1: API Misuse Categorization",
+  "captionBoundary": {
+    "x1": 365.29901123046875,
+    "x2": 510.85302734375,
+    "y1": 207.32034301757812,
+    "y2": 212.95098876953125
+  },
+  "figType": "Figure",
+  "imageText": ["Deprecation", "Management", "Error", "Null", "Reference", "Error", "Device", "Management", "ErrorData", "Conversion", "Error", "Algorithm", "Error", "Low", "Efficiency", "Return", "Warning", "Program", "Crash", "Unexpected", "Output", "API", "Condition", "API", "Parameter", "API", "Method", "Replacement", "Outdated", "Missing", "Redundant", "ViolationElement", "Root", "Cause", "Symptom", "Type", "API", "Misuse"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 557.28,
+    "y1": 87.84,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Figure1-1.png"
+}, {
+  "caption": "Table 7: Prompt template for API misuse detection",
+  "captionBoundary": {
+    "x1": 335.3059997558594,
+    "x2": 540.546630859375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["\"output\":", "{Decision}", "\"prompt\":", "Please", "read", "the", "following", "code", "snippet", "and", "API", "misuse", "rules.", "Then,", "answer", "whether", "the", "misuse", "rules", "can", "be", "applied", "to", "the", "code", "snippet.", "If", "the", "pattern", "can", "be", "applied,", "answer", "\"Yes\";", "if", "not,", "answer", "\"No\".", "Code", "snippet:", "{code_snippet}", "Misuse", "rules:", "{misuse_rules}"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 98.88,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table7-1.png"
+}, {
+  "caption": "Table 5: Prompt template for extracting misuse rules.",
+  "captionBoundary": {
+    "x1": 65.80999755859375,
+    "x2": 281.7291259765625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["\"output\":", "{misuse_rule}", "\"prompt\":", "Please", "identify", "the", "rules", "for", "fixing", "the", "API", "method", "problem", "in", "the", "following", "code", "change.", "Example", "One:", "{code_removed_one}", "{code_added_one}", "{misuse_rule_one}", "Example", "Two:", "{code_removed_two}", "{code_added_two}", "{misuse_rule_two}", "Question:", "{code_removed}{code_added}"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 98.88,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table5-1.png"
+}, {
+  "caption": "Table 8: Prompt template for patch generation",
+  "captionBoundary": {
+    "x1": 343.9590148925781,
+    "x2": 531.895263671875,
+    "y1": 203.19137573242188,
+    "y2": 208.822021484375
+  },
+  "figType": "Table",
+  "imageText": ["\"output\":", "{Think", "steps}{Patch}", "\"prompt\":", "Please", "read", "the", "following", "code", "snippet", "and", "misuse", "rules.", "Then,", "think", "step", "by", "step", "and", "generate", "a", "patch", "for", "the", "code", "snippet.", "Please", "ignore", "any", "indentation", "problems", "in", "the", "code", "snippet.", "Fixing", "indentation", "is", "not", "the", "goal", "of", "this", "task.", "If", "the", "pattern", "can", "be", "applied,", "generate", "the", "patch.", "Code", "snippet:", "{code_snippet}", "Misuse", "rules:", "{misuse_rules}"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 551.04,
+    "y1": 216.95999999999998,
+    "y2": 328.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table8-1.png"
+}, {
+  "caption": "Table 9: Performance of LLMAPIDet in detecting API misuse",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.19580078125,
+    "y1": 342.5743408203125,
+    "y2": 348.2049865722656
+  },
+  "figType": "Table",
+  "imageText": ["LLMAPIDet", "48", "16.49%", "368", "119", "32.33%", "TADAF", "0", "-", "41", "5", "12.2%", "Exp.", "One", "Exp.", "Two", "Detected", "Recall", "Detected", "Verified", "Precision"],
+  "name": "9",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 355.68,
+    "y2": 397.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table9-1.png"
+}, {
+  "caption": "Table 10: Performance of LLMAPIDet in patch generation",
+  "captionBoundary": {
+    "x1": 322.239990234375,
+    "x2": 553.6180419921875,
+    "y1": 411.8643493652344,
+    "y2": 417.4949951171875
+  },
+  "figType": "Table",
+  "imageText": ["Exp.One", "LLMAPIDet", "48", "10", "22.83%", "TADAF", "0", "-", "-", "Exp.Two", "LLMAPIDet", "119", "46", "38.65%", "TADAF", "5", "5", "100%", "Generated", "Verified", "Accuracy"],
+  "name": "10",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 549.12,
+    "y1": 424.8,
+    "y2": 481.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table10-1.png"
+}, {
+  "caption": "Table 6: Prompt template for generating code explanation",
+  "captionBoundary": {
+    "x1": 56.542999267578125,
+    "x2": 290.994873046875,
+    "y1": 229.17233276367188,
+    "y2": 234.802978515625
+  },
+  "figType": "Table",
+  "imageText": ["\"output\":", "{Answer}", "\"prompt\":", "Please", "describe", "what", "the", "following", "code", "snippet", "does", "in", "two", "sentences:", "Code", "snippet:", "{code_snippet}"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 287.03999999999996,
+    "y1": 242.88,
+    "y2": 299.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table6-1.png"
+}, {
+  "caption": "Table 3: Distribution of DL API misuse root causes",
+  "captionBoundary": {
+    "x1": 71.80400085449219,
+    "x2": 275.73565673828125,
+    "y1": 379.0823669433594,
+    "y2": 384.7130126953125
+  },
+  "figType": "Table",
+  "imageText": ["Root", "Cause", "Category", "TensorFlow", "PyTorch", "Total", "Data", "Conversion", "Error", "72", "174", "246", "Device", "Management", "Error", "68", "269", "337", "Algorithm", "Error", "20", "68", "88", "Deprecation", "Management", "Error", "76", "101", "177", "Null", "Reference", "Error", "13", "20", "33", "Other", "2", "8", "10"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 399.84,
+    "y2": 473.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table3-1.png"
+}, {
+  "caption": "Table 1: DL API misuse examples",
+  "captionBoundary": {
+    "x1": 238.7790069580078,
+    "x2": 372.91925048828125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Condition", "Missing", "dtype", "=", "dtype_a", "if", "isinstance(dtype,", "object):", "dtype", "=", "dtype_a", "Redundant", "if", "self.flatten:", "x", "=", "x.flatten(1)", "x", "=", "self.flatten(x)", "Replacement", "if", "version", "<", "version_a:", "if", "version", "<", "version_b:", "Outdated", "if", "type", "==", "type_a:", "if", "type", "==", "type_a", "or", "dtype", "==", "type_a", "Parameter", "Missing", "torch.tensor(data_arg)", "torch.tensor(data_arg,", "device=device_arg)", "Redundant", "torch.zeros(arg_a,", "requires_grad=True)", "torch.zeros(arg_a)", "Replacement", "DenseLayer(arg_a,arg_b,", "act=tf.identity)", "DenseLayer(arg_a,arg_b,", "act=None)", "Outdated", "torch.chunk(inputs,", "arg_a,", "dim=1)", "torch.chunk(self.inputs,", "arg_a,", "dim=1)", "Method", "Missing", "tensor_a", "tensor_a.to(device)", "Redundant", "embeds.detach().cpu().numpy()", "embeds.detach().numpy()", "Replacement", "tensor_a.int()", "tensor_a.bool()", "Outdated", "tf.scalar_summary(’learning_rate’,", "lr)", "tf.summary.scalar(’learning_rate’,", "lr)", "Type", "Examples", "Element", "Violation", "Misuse", "Fix"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 100.8,
+    "x2": 511.2,
+    "y1": 105.6,
+    "y2": 267.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table1-1.png"
+}, {
+  "caption": "Table 2: Distribution of DL API misuse types",
+  "captionBoundary": {
+    "x1": 83.55000305175781,
+    "x2": 263.99072265625,
+    "y1": 284.1823425292969,
+    "y2": 289.81298828125
+  },
+  "figType": "Table",
+  "imageText": ["Missing", "Redundant", "Replacement", "Outdated", "API", "Method", "113", "(46%)", "138", "(61%)", "130", "(62%)", "74", "(34%)", "API", "Parameter", "88", "(36%)", "56", "(25%)", "60", "(29%)", "115", "(52%)", "API", "Condition", "43", "(17%)", "29", "(17%)", "17", "(8%)", "28", "(13%)", "Total", "244", "223", "207", "217"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 304.8,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639177-Table2-1.png"
+}]

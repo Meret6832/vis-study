@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 2. Overview of CrossCert. CrossCert adopts a masking-based recovery defender 𝑅1 = ⟨𝑔1, 𝑣1, 𝑐1⟩ and a voting-based recovery defender 𝑅2 = ⟨𝑔2, 𝑣2, 𝑐2⟩. If the respective conditions are met, x is certifiably detectable and certifiably unwavering, respectively. A certifiably unwavering sample is also a certifiably detectable sample, proven by Property 1. For a certifiably detectable sample x, CrossCert guarantees that it must issue a warning for any malicious version x′ around x in the warning verification analysis if the recovered labels of x and x′ differ, proven by Thm. 4. For a certifiably unwavering sample x, CrossCert guarantees that no label change can occur for any malicious samples around x and will not raise any warning in the warning verification analysis, proven by Thm. 3.",
+  "captionBoundary": {
+    "x1": 45.505001068115234,
+    "x2": 440.1741943359375,
+    "y1": 223.90199279785156,
+    "y2": 305.8190002441406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 84.0,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660827-Figure2-1.png"
+}, {
+  "caption": "Table 4. Results of CrossCert and CrossCert-base with Different Base Models on the Three Datasets",
+  "captionBoundary": {
+    "x1": 59.6609992980957,
+    "x2": 426.0974426269531,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["PL-v1", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "58.28%", "53.23%", "50.25%", "66.94%", "53.56%", "88.03%", "79.42%", "𝑎𝑐𝑐clean", "80.69%", "80.74%", "80.57%", "88.64%", "88.25%", "97.75%", "97.81%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "60.78%", "55.62%", "52.38%", "68.47%", "54.99%", "90.10%", "82.18%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "35.84%", "30.44%", "26.42%", "14.29%", "8.65%", "57.32%", "43.61%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "58.28%", "53.23%", "50.25%", "66.94%", "53.56%", "88.03%", "79.42%", "CC-base", "PL-v2", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "58.28%", "53.23%", "50.25%", "66.94%", "53.56%", "88.03%", "79.42%", "𝑎𝑐𝑐clean", "80.69%", "80.74%", "80.57%", "88.64%", "88.25%", "97.75%", "97.81%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "63.43%", "57.76%", "53.94%", "78.74%", "60.62%", "91.89%", "84.23%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "35.84%", "30.44%", "26.42%", "14.29%", "8.65%", "57.32%", "43.61%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "58.28%", "53.23%", "50.25%", "66.94%", "53.56%", "88.03%", "79.42%", "CC", "R", "e", "s", "N", "e", "t", "PL-v1", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "61.86%", "57.83%", "54.63%", "78.40%", "68.57%", "94.03%", "88.71%", "𝑎𝑐𝑐clean", "81.73%", "81.79%", "81.55%", "92.79%", "92.48%", "98.97%", "98.70%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "65.19%", "61.07%", "57.84%", "80.85%", "71.32%", "95.57%", "90.75%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "44.68%", "39.52%", "35.48%", "52.50%", "39.07%", "78.75%", "67.73%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "61.86%", "57.83%", "54.63%", "78.40%", "68.57%", "94.03%", "88.71%", "CC-base", "PL-v2", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "61.86%", "57.83%", "54.63%", "78.40%", "68.57%", "94.03%", "88.71%", "𝑎𝑐𝑐clean", "81.73%", "81.79%", "81.55%", "92.79%", "92.48%", "98.97%", "98.70%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "67.84%", "63.15%", "59.51%", "84.01%", "73.18%", "96.14%", "91.57%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "44.68%", "39.52%", "35.48%", "52.50%", "39.07%", "78.75%", "67.73%", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑟", "61.86%", "57.83%", "54.63%", "78.40%", "68.57%", "94.03%", "88.71%", "CC", "V", "i", "T", "Patch", "Size", "(in", "pixels)", "1%", "2%", "3%", "0.4%", "2.4%", "0.4%", "2.4%", "Dataset", "ImageNet", "CIFAR100", "CIFAR10"],
+  "name": "4",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 106.56,
+    "y2": 335.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660827-Table4-1.png"
+}, {
+  "caption": "Table 3. Results of Certified Detection Techniques on CIFAR100",
+  "captionBoundary": {
+    "x1": 125.03900146484375,
+    "x2": 360.7207946777344,
+    "y1": 268.9210205078125,
+    "y2": 274.1260070800781
+  },
+  "figType": "Table",
+  "imageText": ["In", "addition,", "we", "also", "follow", "a", "best", "practice", "in", "the", "area", "of", "certified", "detection", "to", "extract", "the", "ImageNet", "Metrics", "𝑎𝑐𝑐clean", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "𝑎𝑐𝑐clean", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "MR+", "88.09%", "64.51%", "⊕", "88.09%", "44.11%", "⊕", "PC", "92.64%", "83.32%", "⊕", "92.64%", "72.71%", "⊕", "ViP", "89.74%", "85.37%", "⊕", "89.74%", "78.28%", "⊕", "CC", "92.79%", "84.01%", "52.50%", "92.48%", "73.18%", "39.07%", "Patch", "Size", "0.4%", "pixels", "2.4%", "pixels"],
+  "name": "3",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 440.64,
+    "y1": 288.96,
+    "y2": 392.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660827-Table3-1.png"
+}, {
+  "caption": "Table 2. Results of Certified Detection Techniques on ImageNet",
+  "captionBoundary": {
+    "x1": 125.01599884033203,
+    "x2": 360.7425842285156,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["82.80%", "73.98%", "⊕", "82.80%", "73.98%", "⊕", "82.80%", "70.42%", "⊕", "CC", "81.73%", "67.84%", "44.68%", "81.79%", "63.15%", "39.52%", "81.55%", "59.51%", "35.48%", "80.71%", "56.34%", "⊕", "80.71%", "56.34%", "⊕", "80.71%", "50.29%", "⊕", "PC", "2", "81.83%", "66.21%", "⊕", "81.83%", "66.21%", "⊕", "81.83%", "61.01%", "⊕", "ViP", "2", "75.51%", "56.31%", "⊕", "75.51%", "56.31%", "⊕", "75.49%", "51.23%", "⊕", "PC★", "2", "82.73%", "69.41%", "⊕", "82.73%", "69.41%", "⊕", "82.67%", "64.97%", "⊕", "ViP★", "2", "83.66%", "74.56%", "⊕", "83.66%", "74.56%", "⊕", "83.66%", "70.90%", "⊕", "MR+", "2", "Metrics", "𝑎𝑐𝑐clean", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "𝑎𝑐𝑐clean", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "𝑎𝑐𝑐clean", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "MR★", "computationally", "expensive", "1", "PG++★", "61.80%", "36.30%", "⊕", "61.60%", "33.90%", "⊕", "61.50%", "31.10%", "⊕", "SC★", "62.80%", "60.40%", "⊕", "58.50%", "55.40%", "⊕", "56.40%", "52.80%", "⊕", "MR+★", "2", "Patch", "Size", "1%", "pixels", "2%", "pixels", "3%", "pixels"],
+  "name": "2",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 106.56,
+    "y2": 249.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660827-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Examples for a voting-based recovery defender (left) and a masking-based recovery defender (right). Left: Given a benign sample x, the voting-based recovery defender performs a round of ablating on x to generate ablated mutants. Suppose Δ = 2. As illustrated in the lower section, for a benign sample, 𝑓 predicts Panda for 5 mutants and Cat for none. Thus, we have 5− 0 > 2Δ, and the sample is predicted as Panda. Then, if there is any patch attached to this benign sample (as illustrated in the upper section, for example), at most two mutants would be affected to change the prediction from Panda to Cat in the worst case, resulting in 3 votes for Panda and 2 for Cat. Still, we have 3 > 2, and the malicious sample is predicted as Panda. Right: Given a benign sample x, a masking-based recovery defender applies two rounds of masking on x to generate mutants. Suppose the prediction labels of all these mutants reach a consensus (all are Panda, as illustrated in the lower section). Then, if there is any patch (which must be masked by at least one mask) overlapping with x, Alg. 1 guarantees to output Panda for any resulting malicious sample. The upper section illustrates Case II in Alg. 1. In the first-round masking, mutants may have different prediction labels like Panda, Cat, and Dog. Alg. 1 continues to perform second-round masking on first-round masked mutants with non-majority labels. In Alg. 1, if all mutants of any first-round masked mutant reach a consensus on their predicted labels, then the label is output, which is the case for the first-round masked mutant in the top-right corner, where 𝑓 predicts Panda for all its second-round masked mutants. Thus, Panda is output.",
+  "captionBoundary": {
+    "x1": 45.62200164794922,
+    "x2": 441.55224609375,
+    "y1": 222.0299835205078,
+    "y2": 391.61798095703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660827-Figure1-1.png"
+}, {
+  "caption": "Table 1. Results of Certified Detection Techniques on CIFAR10",
+  "captionBoundary": {
+    "x1": 127.12300109863281,
+    "x2": 358.6354675292969,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["Metrics", "𝑎𝑐𝑐clean", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "𝑎𝑐𝑐clean", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑑", "𝑎𝑐𝑐𝑐𝑒𝑟𝑡𝑢", "MR★", "87.60%", "82.50%", "⊕", "84.20%", "78.10%", "⊕", "PG++★", "82.00%", "78.80%", "⊕", "78.20%", "74.10%", "⊕", "SC★", "83.10%", "81.00%", "⊕", "78.90%", "75.30%", "⊕", "MR+★", "97.61%", "90.59%", "⊕", "97.70%", "83.30%", "⊕", "PC★", "98.77%", "95.70%", "⊕", "98.81%", "88.29%", "⊕", "MR+", "97.64%", "87.92%", "⊕", "97.64%", "72.26%", "⊕", "PC", "98.72%", "95.73%", "⊕", "98.72%", "90.22%", "⊕", "ViP", "98.74%", "97.59%", "⊕", "98.74%", "94.71%", "⊕", "CC", "98.97%", "96.14%", "78.75%", "98.70%", "91.57%", "67.73%", "Patch", "Size", "0.4%", "pixels", "2.4%", "pixels"],
+  "name": "1",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 379.2,
+    "y1": 106.56,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660827-Table1-1.png"
+}]

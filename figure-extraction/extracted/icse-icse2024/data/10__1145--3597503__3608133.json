@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: Industry views on the EDEs. These indicate the prevalence of EDEs and limitations of existing detection tools",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.6796875,
+    "y1": 307.39398193359375,
+    "y2": 324.41400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["—", "Wallarm", "End-to-End", "API", "Security", "Solution", "“This", "vulnerability", "is", "so", "prevalent", "(place", "3", "in", "the", "top", "10)", "because", "it’s", "easy", "to", "miss.", "Automation", "is", "near", "useless", "here", "because", "robots", "can", "not", "tell", "what", "data", "should", "not", "be", "served", "to", "the", "user", "without", "telling", "them", "exactly", "how", "the", "application", "should", "work.", "This", "is", "bad", "because", "API’s", "are", "often", "implemented", "in", "a", "generic", "way,", "returning", "all", "data", "and", "expecting", "the", "front-", "end", "to", "filter", "it", "out.”", "—", "The", "Open", "Web", "Application", "Security", "Project", "(OWASP)", "“Automatic", "tools", "usually", "can’t", "detect", "this", "type", "of", "vulnerability", "because", "it’s", "hard", "to", "differentiate", "between", "legitimate", "data", "returned", "from", "the", "API,", "and", "sensitive", "data", "that", "should", "not", "be", "returned", "without", "a", "deep", "understanding", "of", "the", "application.”"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 152.64,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Figure1-1.png"
+}, {
+  "caption": "Figure 4: Tree representation of the JSON object in Listing 1. The mutation engine uses this represenation to determine what to mutate. We highlight leaf nodes in yellow.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7698974609375,
+    "y1": 201.8789825439453,
+    "y2": 229.85797119140625
+  },
+  "figType": "Figure",
+  "imageText": ["capacity", "33", "car_type", "_name", "Car", "1", "...", "car_type", "accuracy", "4.88", "speed", "7.68", "id", "1081725", "...", "is_online", "true", "location", "car", "phone", "...", "id", "353", "driver"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The tree representation of a simple HTML snippet. Each rounded node represents a tag element while each square node represents a string. The hierarchical structure allows a human to easily specify a subtree (in yellow) for the tool to evaluate.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.60943603515625,
+    "y1": 217.2169952392578,
+    "y2": 256.155029296875
+  },
+  "figType": "Figure",
+  "imageText": ["text", "text", "img", "div", "divdivdiv", "div", "p", "i", "p", "</div>", "</div>", "</div>", "</div>", "<div", "class=\"driver_info\">", "<p>Name:", "...</p>", "<p>Phone:", "...</p>", "</div>", "<div", "class=\"location_icon\">", "<div", "class=\"icon\">", "<i", "class=\"icon_car\"></i>", "<div", "class=\"container\">", "<div", "class=\"logo\">", "<img", "src=\"...\"", "/>"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 288.0,
+    "y1": 82.56,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Applicable websites from Alexa Top-200. Of the 200 we found 69 (34.5%) appropriate for our testing-set. We excluded domains for the following reasons: duplication of a single service across domains, adult and illegal content, geoblocking, payment required for access, lack of an API, foreign language and encoding of parameters in POST requests (discussed in Section 5.2).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.6796264648438,
+    "y1": 251.23500061035156,
+    "y2": 312.0899963378906
+  },
+  "figType": "Figure",
+  "imageText": ["CAPTCHA", "[4.0%]", "Geoblocked", "[0.5%]", "Non-web", "[4.0%]", "Adult", "or", "Illegal", "[5.5%]", "HTTP_POST", "[6.0%]", "Duplication", "[9.5%]", "Language", "[7.5%]", "Payment", "Required", "[10.0%]", "No", "API", "[18.5%]", "EDEFuzz", "applicable", "[34.5%]"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 569.76,
+    "y1": 86.39999999999999,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Figure6-1.png"
+}, {
+  "caption": "Table 1: Australian websites tested. We include short descriptions of the purpose of the targeted APIs on which we performed deeper evaluation. Where available we provide Alexa rankings within Australia (extracted 29th April 2022).",
+  "captionBoundary": {
+    "x1": 317.6319885253906,
+    "x2": 558.1943969726562,
+    "y1": 189.6659698486328,
+    "y2": 228.60400390625
+  },
+  "figType": "Table",
+  "imageText": ["Company-A", "37", "Load", "tracking", "history", "of", "parcel", "Company-B", "–", "List", "members", "of", "a", "school", "subject", "Company-C", "121", "Check", "stock", "availability", "of", "item", "Company-D", "–", "Check", "stock", "availability", "of", "item", "Company-E", "59", "Check", "stock", "availability", "of", "item", "Company-F", "166", "Get", "flight", "prices", "for", "next", "30", "days", "Company-G", "123", "Check", "stock", "availability", "of", "item", "Company-H", "2770", "List", "vehicles", "available", "for", "sale", "Target", "Rank", "Used", "when"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 334.56,
+    "x2": 541.4399999999999,
+    "y1": 84.96,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Table1-1.png"
+}, {
+  "caption": "Figure 2: API flow for a package delivery service. A web application requests tracking information, returned in a JSON object.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.5196228027344,
+    "y1": 242.37696838378906,
+    "y2": 259.39697265625
+  },
+  "figType": "Figure",
+  "imageText": ["Driver’s", "locat", "on", "river’s", "info", "Arriving", "in", "2", "minutes", "Driver’s", "info", "Arriving", "in", "2", "mins", "river’s", "info", "You’re", "#8", "in", "the", "qu", "ue", "Driver’s", "location", "You", "are", "number", "8", "In", "the", "queue", "Driver’s", "info", "https://api.XYZ.com.au/api/web/customers/xxxxx", "Web", "Server", "…"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Figure2-1.png"
+}, {
+  "caption": "Table 2: Summary statistics from the Australian sites. Data fields reports the total number of fields contained in the API response of each target, Reported is the number of fields flagged by EDEFuzz as excessive; Confirmed is the number of fields manually confirmed to be excessive, i.e. true positives, TP. The time taken to configure EDEFuzz for each target is reported in Preparation, as is the duration of test execution (Duration) and the human effort required to manually classify the flagged fields as sensitive or not (Classification), all measured in minutes. We also report (Sensitive) the number of fields we classified as containing sensitive data, after manual inspection.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.177978515625,
+    "y1": 197.71095275878906,
+    "y2": 247.60699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Company-A", "189", "124", "124", "100.00%", "10", "11", "5", "0", "124", "Company-B", "18", "16", "14", "87.50%", "20", "2", "2", "2", "12", "Company-C", "2600", "2580", "2504", "97.05%", "5", "306", "3", "104", "2400", "Company-D", "545", "506", "479", "94.66%", "15", "43", "10", "9", "470", "Company-E", "4249", "4147", "4127", "99.52%", "10", "755", "15", "0", "4127", "Company-F", "778", "749", "749", "100.00%", "15", "103", "5", "0", "749", "Company-G", "120", "100", "100", "100.00%", "5", "12", "3", "0", "100", "Company-H", "1465", "1066", "1066", "100.00%", "15", "79", "20", "19", "1047", "Target", "Data", "fields", "Reported", "Confirmed", "TP", "Preparation", "Execution", "Classification", "Sensitive", "Non-sensitive", "(min)", "(min)", "(min)"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 83.52,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Table2-1.png"
+}, {
+  "caption": "Figure 3: The workflow of our approach to identify excessive data exposure vulnerabilities in web APIs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0363464355469,
+    "y1": 362.0509948730469,
+    "y2": 379.0710144042969
+  },
+  "figType": "Figure",
+  "imageText": ["Simulated", "Server", "Mutation", "Engine", "<req,", "resp>", "pairs", "2", "3", "1", "0", "Web", "page", "(client", "side)", "EDEFuzz", "responseorigin", "requestorigin", "DOMmutated", "DOMorigin", "Web", "Developer", "requestoriginresponse", "mutated", "responseorigin", "requestorigin", "Targeted", "Web", "Server", "Bug", "reports", "DOM", "Extractor", "Web", "Driver", "&", "DiffDOM", "Web", "Proxy"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 180.95999999999998,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3608133-Figure3-1.png"
+}]

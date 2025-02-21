@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Incorrect optimization of comparison conditions.",
+  "captionBoundary": {
+    "x1": 331.4949951171875,
+    "x2": 544.6525268554688,
+    "y1": 123.91717529296875,
+    "y2": 129.77197265625
+  },
+  "figType": "Figure",
+  "imageText": ["<T>1</T>", "XML:", "//T[(@t", ">=", "0)", "or", "(@t", "<=", "1)]", "XPath:", "Result:", "{}", "|", "<T>1</T>"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.2,
+    "x2": 475.68,
+    "y1": 83.52,
+    "y2": 110.39999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Arithmetic overflow in pre-check conditions.",
+  "captionBoundary": {
+    "x1": 338.70001220703125,
+    "x2": 537.4492797851562,
+    "y1": 188.69219970703125,
+    "y2": 194.5469970703125
+  },
+  "figType": "Figure",
+  "imageText": ["<S/>", "XML:", "//S[last()", "*", "150000", ">=", "position()]", "XPath:", "Result:", "<S/>", "|", "{}"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 496.79999999999995,
+    "y1": 149.28,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure5-1.png"
+}, {
+  "caption": "Table 1: Bugs found by XPress",
+  "captionBoundary": {
+    "x1": 118.36599731445312,
+    "x2": 229.2036590576172,
+    "y1": 85.502197265625,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["BaseX", "15", "0", "0", "15", "eXist-DB", "1", "5", "0", "6", "Saxon", "4", "0", "0", "4", "Commercial", "DBMS", "0", "0", "2", "2", "XML", "Processor", "Fixed", "Confirmed", "Reported", "Total"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Table1-1.png"
+}, {
+  "caption": "Table 2: Category of Bugs found by XPress",
+  "captionBoundary": {
+    "x1": 95.56400299072266,
+    "x2": 252.0027618408203,
+    "y1": 187.148193359375,
+    "y2": 193.00299072265625
+  },
+  "figType": "Table",
+  "imageText": ["BaseX", "10", "5", "eXist-DB", "5", "1", "Saxon", "2", "2", "Commercial", "DBMS", "2", "0", "XML", "Processor", "Logic", "Bugs", "Internal", "Errors"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 272.15999999999997,
+    "y1": 207.84,
+    "y2": 273.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Table2-1.png"
+}, {
+  "caption": "Figure 9: Found bug with token index in BaseX.",
+  "captionBoundary": {
+    "x1": 86.91200256347656,
+    "x2": 260.9241027832031,
+    "y1": 123.67919921875,
+    "y2": 129.53399658203125
+  },
+  "figType": "Figure",
+  "imageText": ["<M", "v=\"a\"/>", "XML:", "Result:", "<M/>", "|", "{}", "(create", "index", "token)", "XPath:", "//M/descendant-or-self::M[contains-token(@v,", "\"a\")]"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 287.03999999999996,
+    "y1": 84.47999999999999,
+    "y2": 110.39999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure9-1.png"
+}, {
+  "caption": "Figure 2: Simplified structure of XPath expressions.",
+  "captionBoundary": {
+    "x1": 80.19200134277344,
+    "x2": 267.64410400390625,
+    "y1": 152.7271728515625,
+    "y2": 158.58197021484375
+  },
+  "figType": "Figure",
+  "imageText": ["XPathExpression", "::=", "Section+", "SectionPrefix", "::=", "(\"/\"", "|", "\"//\")", "AxisStep", "AxisStep", "::=", "Axis*", "NameTest", "Section", "::=", "SectionPrefix", "Predicate*"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 69.12,
+    "x2": 192.95999999999998,
+    "y1": 89.28,
+    "y2": 131.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Result of tail after subsequence off by one.",
+  "captionBoundary": {
+    "x1": 79.5009994506836,
+    "x2": 268.3338928222656,
+    "y1": 122.814208984375,
+    "y2": 128.66900634765625
+  },
+  "figType": "Figure",
+  "imageText": ["XPath:", "tail(subsequence((1", "to", "2),1,2))", "Result:", "\"2\"", "|", "{}"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 173.76,
+    "y1": 84.0,
+    "y2": 109.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Incorrect reduce in positional expressions.",
+  "captionBoundary": {
+    "x1": 79.51000213623047,
+    "x2": 268.3249206542969,
+    "y1": 187.0811767578125,
+    "y2": 192.93597412109375
+  },
+  "figType": "Figure",
+  "imageText": ["<A><B/></A>", "XML:", "Result:", "{}", "|", "<B/>", "//*[((.,.)/parent::*/last()", "!", "(.", ">", "1))", "=", "true()]", "XPath:"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 287.52,
+    "y1": 144.48,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Overview of the approach implemented in XPress.",
+  "captionBoundary": {
+    "x1": 196.78500366210938,
+    "x2": 415.20562744140625,
+    "y1": 228.81219482421875,
+    "y2": 234.6669921875
+  },
+  "figType": "Figure",
+  "imageText": ["Author", "Author", "false", "true", "1", "2", "3", ">", "2", "1", "1count", "Author1", "<=", "2", "1", "1count", "Author1", "①", "Output:", "/Books/Book[count(Author)", ">", "1]", "Nodes", "selected", "by", "prefix", "</Books>", "③", "<Book", "id=\"3\">", "②", "<Book", "id=\"2\">", "<Books>", "①", "<Book", "id=\"1\">", "⑥", "Execute", "query", "on", "tested", "XML", "processors", "and", "validate", "results", "A", "B", "C", "Complete", "generation", "Repeat", "process", "until", "generated", "XPath", "reaches", "specified", "length", "count(Author)", "<=", "1", "count(Author)", ">", "1", "④", "Generate", "predicate", "⑤", "Rectify", "predicate", "to", "contain", "targeted", "node", "text():", "A", "fairy", "tale.", "Book:", "@id", "=", "1,", "@year", "=", "2020", "1", "/Books", "/Book", "1", "2", "3", "③", "Select", "random", "targeted", "node", "②", "Generate", "section", "prefix", "①", "Generate", "XML", "documents"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 553.4399999999999,
+    "y1": 88.32,
+    "y2": 209.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure3-1.png"
+}, {
+  "caption": "Table 4: Code coverage of tested systems in 24 Hours",
+  "captionBoundary": {
+    "x1": 340.84698486328125,
+    "x2": 535.032470703125,
+    "y1": 85.502197265625,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Line", "Branch", "Line", "Branch", "Line", "Branch", "XPress", "20%", "16%", "18%", "10%", "15%", "10%", "Unit", "Tests", "67%", "58%", "52%", "47%", "-", "-", "Approach", "BaseX", "eXist", "Saxon"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 105.6,
+    "y2": 160.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Table4-1.png"
+}, {
+  "caption": "Figure 8: Average number of unique bugs found under different configurations in 24 hours across 10 runs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.036376953125,
+    "y1": 225.085205078125,
+    "y2": 241.89898681640625
+  },
+  "figType": "Figure",
+  "imageText": ["Untargeted", "w/", "Rect", "Untargeted", "w/o", "Rect", "Targeted", "Targeted", "w/o", "Rect", "un", "d", "gs", "fo", "e", "bu", "ni", "qu", "o", "f", "u", "ou", "nt", "l", "a", "m", "To", "ta", "12", "10", "8", "6", "4", "2", "0", "0", "5", "10", "15", "20", "25", "Elapsed", "Time(h)"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 270.71999999999997,
+    "y1": 88.8,
+    "y2": 205.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Figure8-1.png"
+}, {
+  "caption": "Table 3: Average bug report collection under different configurations in 24 hours across 10 runs.",
+  "captionBoundary": {
+    "x1": 53.52899932861328,
+    "x2": 295.5506591796875,
+    "y1": 260.2252197265625,
+    "y2": 277.03900146484375
+  },
+  "figType": "Table",
+  "imageText": ["Targeted", "6.6M", "11.8K", "12.5", "100%", "Targeted", "w/o", "Rect", "9.4M", "10.2K", "12", "66%", "Untargeted", "w/", "Rect", "8.8M", "1.4K", "6.5", "100%", "Untargeted", "w/o", "Rect", "13.5M", "0.6K", "6.1", "44%", "Config", "Total", "cases", "Differences", "detected", "Unique", "bugs", "Non-empty", "result"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 296.15999999999997,
+    "y1": 291.84,
+    "y2": 362.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639208-Table3-1.png"
+}]

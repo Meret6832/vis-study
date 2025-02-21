@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 1. Statistics of the code snippets and code description in code search and summarization datasets (Total: the total number of code snippets, Avg/Max/Min: the average/maximum/minimal number of tokens in a code snippet or code description).",
+  "captionBoundary": {
+    "x1": 45.558998107910156,
+    "x2": 440.1708984375,
+    "y1": 435.7968444824219,
+    "y2": 461.9469909667969
+  },
+  "figType": "Table",
+  "imageText": ["Code_Search_train", "904,817", "112.67", "68,278", "20", "19.2", "3439", "1", "Code_Search_validate", "30,437", "95.57", "3,092", "21", "19.05", "521", "1", "Code_Search_test", "26,780", "113.42", "5,542", "20", "20.22", "709", "1", "Code_Summarization_train", "164,813", "100.99", "512", "17", "13.25", "175", "3", "Code_Summarization_validate", "5,183", "90.79", "501", "18", "13.39", "147", "3", "Code_Summarization_test", "10,948", "100.06", "512", "20", "12.71", "111", "3", "Total", "Avg", "Max", "Min", "Avg", "Max", "Min", "Dataset", "Code", "Snippet", "Code", "description"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 410.4,
+    "y1": 476.64,
+    "y2": 568.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Table1-1.png"
+}, {
+  "caption": "Fig. 1. The percentage distribution of removed tokens based on token categories.",
+  "captionBoundary": {
+    "x1": 93.8218994140625,
+    "x2": 392.1789245605469,
+    "y1": 213.308837890625,
+    "y2": 217.54098510742188
+  },
+  "figType": "Figure",
+  "imageText": ["DietCode", "SlimCode", "code", "summarization", "signature", "identifier", "invocation", "structure", "symbols", "others", "0", "0.2", "0.4", "0.6", "0.8", "DietCode", "SlimCode", "code", "search", "Signature", "Identifier", "Invocation", "Structure", "Symbols", "Others", "0", "0.2", "0.4", "0.6", "0.8", "1"],
+  "name": "1",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 432.47999999999996,
+    "y1": 84.0,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Figure1-1.png"
+}, {
+  "caption": "Table 2. The statistics of the code snippets and description of 400 random samples from code search and summarization (Avg/Max/Min: the average/maximum/minimal number of tokens in code snippet or description.)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.662841796875,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Data", "Avg", "Max", "Min", "Search_code", "122.01", "1680", "24", "Summarization_code", "101.27", "505", "22", "Search_description", "22.45", "478", "1", "Summarization_description", "13.34", "117", "3"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 141.6,
+    "x2": 342.24,
+    "y1": 113.75999999999999,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Table2-1.png"
+}, {
+  "caption": "Table 8. Results of SlimCode for CodeBERT and CodeT5 on code search and summarization.(10%50%:removing 10%-50% tokens for each snippet. Time: time to running removal algorithms. Times:the multiple by which SlimCode is faster than DietCode.)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.6648254394531,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Base", "0.743", "0.00%", "–", "0.754", "0.00%–", "N/A", "——", "18.58", "0.00%–", "20.49", "0.00%–", "N/A", "——", "10%", "0.740", "0.82%", "↑", "0.749", "0.66%↓", "17m", "32.2", "18.56", "0.11%↓", "20.44", "0.24%↓", "45s", "133.1", "20%", "0.721", "1.77%", "↓", "0.748", "0.80%↓", "17m", "28.9", "18.29", "1.56%↓", "20.38", "0.54%↓", "53s", "101.4", "30%", "0.734", "0.00%", "–", "0.751", "0.40%↓", "20m", "21.9", "18.62", "0.22%↑", "20.49", "0.00%↓", "59s", "80.3", "40%", "0.733", "0.14%", "↓", "0.757", "0.40%↑", "21m", "18.3", "18.41", "0.91%↓", "20.52", "0.15%↑", "66s", "64.3", "50%", "0.719", "2.04%", "↓", "0.745", "1.19%↓", "21m", "18.3", "18.63", "0.27%↑", "20.23", "1.27%↓", "69s", "53.2", "MRR", "R-M", "MRR", "R-M", "Time", "Times", "BLUE", "R-B", "BLUE", "R-B", "Time", "Times", "CodeBERT", "CodeT5", "Pruning", "CodeBERT", "CodeT5", "Pruning", "Code", "Search", "Code", "Summarization", "Ratio"],
+  "name": "8",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 426.24,
+    "y1": 124.8,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Table8-1.png"
+}, {
+  "caption": "Table 9. Results of DietCode for CodeBERT and CodeT5 on code search and summarization.(10%50%:removing 10%-50% tokens for each snippet, R-M: Reduce MRR, BLEU:BLEU-4 values, R-B:Reduced BLEU-4 values, Time: the time for removing tokens in code snippet dose not include weight retrieval.)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.65948486328125,
+    "y1": 241.78085327148438,
+    "y2": 267.9309997558594
+  },
+  "figType": "Table",
+  "imageText": ["Base", "0.743", "0%–", "0.754", "0.00%–", "N/A", "18.58", "0%–", "20.49", "0.00%–", "N/A", "10%", "0.702", "4.36%↓", "0.730", "3.18%↓", "9h24m", "17.68", "4.84%↓", "19.68", "3.90%↓", "1h40m", "20%", "0.686", "6.54%↓", "0.718", "4.77%↓", "8h28m", "17.94", "3.44%↓", "19.77", "3.51%↓", "1h30m", "30%", "0.693", "5.59%↓", "0.714", "5.31%↓", "7h37m", "17.73", "4.57%↓", "19.68", "3.95%↓", "1h19m", "40%", "0.679", "7.49%↓", "0.707", "6.21%↓", "6h45m", "17.53", "5.65%↓", "19.42", "5.22%↓", "1h11m", "50%", "0.651", "11.31%↓", "0.676", "10.34%↓", "5h59m", "17.67", "4.90%↓", "19.22", "6.20%↓", "1h02m", "MRR", "R-M", "MRR", "R-M", "Time", "BLUE", "R-B", "BLUE", "R-B", "Time", "CodeBERT", "CodeT5", "Pruning", "CodeBERT", "CodeT5", "Pruning", "Code", "Search", "Code", "Summarization", "Ratio"],
+  "name": "9",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 414.24,
+    "y1": 278.88,
+    "y2": 380.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Table9-1.png"
+}, {
+  "caption": "Table 4. Results of random-token removal on CodeBERT and CodeT5 for summarization. (R-Time: Reduced",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.17193603515625,
+    "y1": 228.630859375,
+    "y2": 232.86300659179688
+  },
+  "figType": "Table",
+  "imageText": ["0%", "433m", "0.00%–", "0.743", "0.00%–", "434m", "0.00%–", "0.749", "0.00%–", "10%", "388m", "10.39%↓", "0.706", "4.98%↓", "391m", "9.08%↓", "0.737", "1.60%", "↓", "20%", "354m", "18.24%↓", "0.694", "6.59%↓", "355m", "18.20%↓", "0.726", "3.07%", "↓", "30%", "309m", "28.64%↓", "0.668", "10.09%↓", "310m", "28.57%↓", "0.696", "7.08%", "↓", "40%", "252m", "41.80%↓", "0.648", "12.79%↓", "253m", "41.71%↓", "0.679", "9.35%", "↓", "50%", "210m", "51.50%↓", "0.611", "17.77%↓", "212m", "51.52%↓", "0.641", "14.42%", "↓", "Time", "R-Time", "MRR", "R-MRR", "Time", "R-Time", "MRR", "R-MRR", "Ratio", "CodeBERT", "CodeT5"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 402.24,
+    "y1": 117.6,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Table4-1.png"
+}, {
+  "caption": "Table 10. Results of removal methods on GPT-4 for code search. (IT:Input Tokens, R-IT:Reduced Input Tokens in %, OT: Output Token, R-OT:Reduced Output Tokens in %; TT:Total Tokens, R-P:Reduced Precision in %)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1730041503906,
+    "y1": 88.12186431884766,
+    "y2": 103.31298828125
+  },
+  "figType": "Table",
+  "imageText": ["Removal", "method", "IT", "R-IT", "OT", "R-OT", "TT", "R-TT", "Precision", "R-P", "Base", "69820", "0.00%", "44584", "0.00%", "114404", "0.00%–", "0.85", "0.00%", "Random(10%)", "65144", "6.70%↓", "42352", "5.01%↓", "109728", "4.09%↓", "0.74", "12.94%↓", "Random(20%)", "60275", "13.69%↓", "38844", "12.87%↓", "99119", "13.37%↓", "0.68", "20.00%↓", "Random(30%)", "55411", "20.64%↓", "38204", "14.31%↓", "93615", "18.17%↓", "0.68", "20.00%↓", "Random(40%)", "50548", "27.60%↓", "36852", "17.34%↓", "87400", "23.60%↓", "0.64", "24.71%↓", "Random(50%)", "45649", "34.62%↓", "33472", "24.92%↓", "79121", "30.84%↓", "0.63", "25.88%↓", "Identi", "er", "60976", "12.67%↓", "39637", "11.10%↓", "10063", "12.10%↓", "0.66", "22.35%↓", "Symbol", "tokens", "43276", "38.02%↓", "39049", "12.42%↓", "82325", "28.04%↓", "0.78", "8.24%↓", "Control", "structures", "60032", "14.02%↓", "41257", "7.46%↓", "101289", "11.46%↓", "0.65", "23.53%↓", "Method", "invocations", "49824", "28.63%↓", "41348", "7.26%↓", "132520", "15.83%↓", "0.70", "17.65%↓", "Method", "signature", "64925", "7.01%↓", "39324", "11.80%↓", "104249", "8.88%↓", "0.70", "17.65%↓", "PDG", "52360", "25.01%↓", "40459", "9.25%↑", "92819", "18.87%↑", "0.71", "16.47%↓", "DietCode(10%)", "64776", "7.22%↓", "40328", "9.55%↓", "105104", "13.94%↓", "0.65", "23.53%↓", "DietCode(20%)", "59941", "14.15%↓", "36753", "17.56%↓", "96694", "19.93%↓", "0.64", "24.71%↓", "DietCode(30%)", "55036", "21.17%↓", "39300", "11.85%↓", "94336", "21.26%↓", "0.62", "27.06%↓", "DietCode(40%)", "50224", "28.06%↓", "37061", "16.87%↓", "87285", "25.62%↓", "0.57", "32.94%↓", "DietCode(50%)", "45388", "34.99%↓", "35364", "20.68%↓", "80752", "30.23%↓", "0.56", "34.11%↓", "SlimCode(10%)", "64776", "7.22%↓", "40988", "8.06%↓", "105769", "7.55%↓", "0.78", "8.24%↓", "SlimCode(20%)", "59941", "14.15%↓", "39500", "11.40%↓", "99441", "13.08%↓", "0.71", "16.47%↓", "SlimCode(30%)", "55036", "21.17%↓", "38224", "14.27%↓", "93260", "18.48%↓", "0.74", "12.94%↓", "SlimCode(40%)", "50224", "28.06%↓", "38616", "13.39%↓", "88840", "22.34%↓", "0.74", "12.94%↓", "SlimCode(50%)", "45388", "34.99%↓", "37879", "15.05%↓", "83267", "27.22%↓", "0.87", "2.35%c"],
+  "name": "10",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 111.83999999999999,
+    "y2": 371.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Table10-1.png"
+}, {
+  "caption": "Table 7. The overlap of the categories of tokens ( check/cross/line mark means that there is/isn’t an overlap/meaningless in the two corresponding categories)",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.6606750488281,
+    "y1": 506.68084716796875,
+    "y2": 521.8720092773438
+  },
+  "figType": "Table",
+  "imageText": ["Signature", "–", "–", "–", "–", "–", "Identi", "ers", "✓", "–", "–", "–", "–", "Invocations", "×", "✓", "–", "–", "–", "Structures", "×", "✓", "✓", "–", "–", "Symbols", "✓", "×", "✓", "✓", "–", "Signature", "Identi", "ers", "Invocations", "Structures", "Symbols"],
+  "name": "7",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 97.92,
+    "x2": 386.4,
+    "y1": 530.88,
+    "y2": 600.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643753-Table7-1.png"
+}]

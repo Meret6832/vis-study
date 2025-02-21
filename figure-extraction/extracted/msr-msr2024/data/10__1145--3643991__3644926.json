@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 3: Code Stylometry and Code Complexity Features",
+  "captionBoundary": {
+    "x1": 191.41400146484375,
+    "x2": 420.2800598144531,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ASTNodeTypesTF", "[11]", "Term", "frequency", "of", "130", "possible", "AST", "node", "types", "excluding", "leaves", "ASTNodeTypeAvgDep", "[11]", "Average", "depth", "of", "130", "possible", "AST", "node", "types", "excluding", "leaves.", "avgFunctionLength", "[21]", "The", "average", "length", "of", "lines", "in", "a", "function.", "avgIdentifierLength", "[21]", "The", "average", "length", "of", "identifier", "names.", "avgLineLength", "[11]", "The", "average", "length", "of", "characters", "in", "each", "line.", "avgParams", "[11]", "The", "average", "number", "of", "parameters", "across", "all", "functions.", "branchingFactor", "[11]", "Average", "branching", "factor", "of", "the", "code’s", "AST.", "cyclomaticComplexity", "[39]", "The", "number", "of", "decisions", "within", "a", "block", "of", "code.", "emptyLinesDensity", "[11]", "The", "number", "of", "empty", "lines", "divided", "by", "source", "code", "lines.", "keywordsDensity", "[11]", "Frequency", "of", "Python", "keywords", "divided", "by", "source", "lines", "of", "code.", "maintainabilityIndex", "[15]", "A", "metric", "that", "gauges", "the", "ease", "of", "supporting", "and", "modifying", "the", "source", "code.", "maxDecisionTokens", "The", "maximum", "number", "of", "tokens", "in", "decision", "conditions", "excluding", "ternary", "conditions.", "maxDepthASTNode", "[11]", "Maximum", "depth", "of", "an", "AST", "node.", "nestingDepth", "[11]", "Deepest", "level", "to", "which", "conditional", "statements,", "loops,", "and", "functions", "are", "nested", "within", "each", "other.", "numAssignmentStmtDensity", "[18]", "The", "total", "number", "of", "assignment", "statements", "divided", "by", "source", "code", "lines.", "numClassesDensity", "The", "total", "number", "of", "classes", "divided", "by", "source", "code", "lines.", "numFunctionCallsDensity", "[18]", "The", "total", "number", "of", "function", "calls", "divided", "by", "source", "code", "lines.", "numFunctionsDensity", "[18]", "The", "number", "of", "functions", "divided", "by", "source", "code", "lines.", "numInputStmtsDensity", "[18]", "The", "total", "number", "of", "input", "statements", "divided", "by", "source", "code", "lines.", "numKeywordsDensity", "[11]", "The", "total", "number", "of", "unique", "Python", "keywords", "divided", "by", "source", "code", "lines.", "numLiteralsDensity", "[11]", "The", "number", "of", "literals", "divided", "by", "sloc.", "numStatementsDensity", "[18]", "The", "total", "number", "of", "statements", "divided", "by", "source", "code", "lines.", "numVariablesDensity", "[18]", "The", "total", "number", "of", "assignment", "variables", "divided", "by", "source", "code", "lines.", "numberOfDistinctOperands", "[27]", "The", "number", "of", "distinct", "operands.", "numberOfDistinctOperators", "[27]", "The", "number", "of", "distinct", "operators.", "sloc", "[25]", "The", "total", "number", "of", "source", "code", "lines.", "stdDevLineLength", "[11]", "The", "standard", "deviation", "of", "character", "lengths", "of", "each", "line.", "stdDevNumParams", "[11]", "The", "standard", "deviation", "of", "the", "number", "of", "parameters", "across", "all", "functions.", "totalNumberOfOperands", "[27]", "The", "total", "number", "of", "operands.", "totalNumberOfOperators", "[27]", "The", "total", "number", "of", "operators.", "whiteSpaceRatio", "[11]", "The", "ratio", "of", "whitespace", "characters", "to", "non-whitespace", "characters.", "Feature", "Description"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 411.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Table3-1.png"
+}, {
+  "caption": "Figure 8: Human code predicted incorrectly as AI-generated code",
+  "captionBoundary": {
+    "x1": 174.49000549316406,
+    "x2": 437.49859619140625,
+    "y1": 316.5113525390625,
+    "y2": 322.1419982910156
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "SHAPwaterfall", "plot", "showing", "how", "features", "impact", "themodel’s", "decision", "for", "this", "code", "GPT-4", "(a)", "Human", "code", "20", "21", "for", "i", "in", "count", ":", "print(i)", "11", "else", ":", "12", "if(m1", "in", "lst", "and", "h1==m1)", ":", "count[i]+=1", "13", "if(h1", "in", "lst", "and", "h1", "%10==", "m1)", ":", "count[i]+=1", "14", "h1+=1", "15", "t=int(input())", "16", "count", "=[0]*t", "17", "for", "i", "in", "range(0,t)", ":", "18", "h,m=input().split()", "19", "getCount(h,m,i)", "]+=1", "10", "if", "(m1", "in", "lst", "and", "m1", "%10==", "h1)", ":", "count[i", "1", "def", "getCount(h,m,i)", ":", "2", "h=int(h)", "3", "m=int(m)", "4", "h1=0", "5", "lst", "=[11", ",22", ",33", ",44", ",55", ",66", ",77", ",88", ",99]", "6", "while(h1<h)", ":", "7", "for", "m1", "in", "range(0,m)", ":", "8", "if", "h1", "<10", ":", "9", "if(m1", "<10", "and", "h1==m1)", ":", "count[i]+=1"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 556.8,
+    "y1": 86.88,
+    "y2": 300.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure8-1.png"
+}, {
+  "caption": "Figure 1: Solutions to a palindrome problem from CodeChef",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19287109375,
+    "y1": 348.0433654785156,
+    "y2": 353.67401123046875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Example", "of", "ChatGPT", "code", "12", "13", "for", "i", "in", "range(t):", "14", "l,", "r", "=", "map(int", ",", "input().split())", "15", "result", "=", "palindromic_numbers_sum(l,", "r)", "16", "print(result)", "10", "11", "t", "=", "int(input())", "3", "4", "def", "palindromic_numbers_sum(l,", "r):", "5", "total", "=", "0", "6", "for", "n", "in", "range(l,", "r+1):", "7", "if", "is_palindrome(n):", "8", "total", "+=", "n", "9", "return", "total", "1", "def", "is_palindrome(n):", "2", "return", "str(n)", "==", "str(n)[::", "-1]", "(a)", "Example", "of", "human", "code", "1", "for", "_", "in", "range(int(input())):", "2", "l,", "r", "=", "map(int", ",", "input().split", "())", "3", "result", "=", "0", "4", "for", "i", "in", "range(l,", "r", "+", "1):", "5", "if", "str(i)", "==", "str(i)[::", "-1]:", "6", "result", "+=", "i", "7", "print(result)"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 308.15999999999997,
+    "x2": 561.12,
+    "y1": 86.88,
+    "y2": 332.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure1-1.png"
+}, {
+  "caption": "Table 4: Classifier Performance Comparison amongDifferent Approaches for Distinguishing between AI-generated and Human-authored Code",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 558.1942138671875,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Accuracy", "0.91", "0.89", "-", "0.86", "0.88", "Precision", "0.91", "0.89", "0.5", "0.86", "0.87", "Recall", "0.91", "0.89", "0.5", "0.88", "0.88", "F1-score", "0.91", "0.89", "0.5", "0.87", "0.88", "AUC-ROC", "0.91", "0.89", "-", "0.86", "0.88", "All", "Non-Gameable", "Naive", "n-grams", "+", "L", "n", "=", "2", "n", "=", "3", "Our", "Approach", "Baseline"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 127.67999999999999,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Table4-1.png"
+}, {
+  "caption": "Table 6: Classifier Performance Comparison Across Levels of Problem Difficulty",
+  "captionBoundary": {
+    "x1": 143.83901977539062,
+    "x2": 467.8521423339844,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Accuracy", "0.89", "0.89", "0.87", "0.87", "0.79", "0.80", "0.89", "0.86", "0.80", "Precision", "0.87", "0.88", "0.89", "0.85", "0.80", "0.79", "0.89", "0.87", "0.80", "Recall", "0.91", "0.90", "0.86", "0.89", "0.77", "0.82", "0.88", "0.85", "0.81", "F1-score", "0.89", "0.89", "0.87", "0.87", "0.79", "0.80", "0.89", "0.86", "0.80", "AUC-ROC", "0.89", "0.89", "0.87", "0.87", "0.79", "0.80", "0.89", "0.86", "0.80", "Easy", "Medium", "Hard", "Easy", "Medium", "Hard", "Easy", "Medium", "Hard", "n", "=", "2", "n", "=", "3", "Our", "Approach", "Baseline", "(n-grams", "+", "Lexical", "Features)"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 125.75999999999999,
+    "x2": 486.24,
+    "y1": 105.6,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Table6-1.png"
+}, {
+  "caption": "Figure 6: Correctly predicted human code",
+  "captionBoundary": {
+    "x1": 221.8419952392578,
+    "x2": 390.15167236328125,
+    "y1": 414.4663391113281,
+    "y2": 420.09698486328125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "SHAPwaterfall", "plot", "showing", "how", "features", "impact", "themodel’s", "decision", "for", "this", "code", "Human", "(a)", "Human", "code", "14", "13", "12", "10", "ans", "[1]", "=", "0", "11", "print(ans.count", "(1))", "5", "6", "for", "i", "in", "range(2,", "int(ma", "**0.5)", "+", "1):", "7", "for", "j", "in", "range(i", "+", "i,", "ma", "+", "1,", "i):", "8", "ans[j]", "=", "0", "9", "ans", "[0]", "=", "0", "1", "n,", "m", "=", "map(int", ",", "input().split())", "2", "mi", "=", "2", "3", "ma", "=", "n", "+", "m", "4", "ans", "=", "[1", "for", "i", "in", "range(ma", "+", "1)]"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 535.1999999999999,
+    "y1": 228.95999999999998,
+    "y2": 398.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Correctly predicted GPT-4 generated code.",
+  "captionBoundary": {
+    "x1": 201.59999084472656,
+    "x2": 410.3912353515625,
+    "y1": 612.2453002929688,
+    "y2": 617.8759765625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "SHAPwaterfall", "plot", "showing", "how", "features", "impact", "themodel’s", "decision", "for", "this", "code", "GPT-4", "(a)", "GPT-4", "generated", "code", "3", "4", "n,", "m", "=", "map(int", ",", "input().strip().split", "())", "5", "print(solve(n,", "m))", "1", "def", "solve(n,", "m):", "2", "return", "1", "if", "min(n,", "m)", ">", "1", "else", "2"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 535.1999999999999,
+    "y1": 438.71999999999997,
+    "y2": 597.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure7-1.png"
+}, {
+  "caption": "Table 1: Difficulty Levels of Selected CodeChef Problems",
+  "captionBoundary": {
+    "x1": 323.5060119628906,
+    "x2": 552.3451538085938,
+    "y1": 237.49935913085938,
+    "y2": 243.1300048828125
+  },
+  "figType": "Table",
+  "imageText": ["399", "4*", "1800", "-", "1999", "30", "5*", "2000", "-", "2199", "14", "6*", "2200", "-", "2499", "2", "7*", "2500", "-", "5000", "1", "Beginner", "0", "-", "999", "12", "1*", "Beginner", "1000", "-", "1199", "45", "1*", "Advanced", "1200", "-", "1399", "71", "2*", "Beginner", "1400", "-", "1499", "55", "2*", "Advanced", "1500", "-", "1599", "56", "3*", "Beginner", "1600", "-", "1699", "60", "3*", "Advanced", "1700", "-", "1799", "53", "Level", "Range", "Count"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 367.68,
+    "x2": 508.32,
+    "y1": 257.76,
+    "y2": 408.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Table1-1.png"
+}, {
+  "caption": "Figure 2: An overview of our approach in detecting GPT-4 generated code",
+  "captionBoundary": {
+    "x1": 157.73699951171875,
+    "x2": 454.2514953613281,
+    "y1": 211.59634399414062,
+    "y2": 217.22698974609375
+  },
+  "figType": "Figure",
+  "imageText": ["3", "Classification", "Classifier", "Evaluation", "Results", "Classifier", "Construction", "XGBoost", "Classifier", "140", "features", "Extraction", "2", "Feature", "Extraction", "1", "Data", "Collection", "1596", "solutions", "Our", "dataset", "798", "human", "soloutions", "798", "AI", "solutions", "Generated", "prompts", "from", "coding", "problems", "GPT-4", "399", "coding", "problems"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 84.96,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure2-1.png"
+}, {
+  "caption": "Figure 4: SHAP feature importance of our approach",
+  "captionBoundary": {
+    "x1": 69.46800231933594,
+    "x2": 278.3667907714844,
+    "y1": 260.3313293457031,
+    "y2": 265.96197509765625
+  },
+  "figType": "Figure",
+  "imageText": ["Human", "GPT-4"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 286.08,
+    "y1": 86.88,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure4-1.png"
+}, {
+  "caption": "Figure 5: SHAP feature importance of non-gameable features",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19140625,
+    "y1": 263.3813781738281,
+    "y2": 269.01202392578125
+  },
+  "figType": "Figure",
+  "imageText": ["Human", "GPT-4"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 87.84,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure5-1.png"
+}, {
+  "caption": "Table 5: Classifier Performance Comparison on Correct and Randomly Sampled Solutions",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1905517578125,
+    "y1": 286.46136474609375,
+    "y2": 303.0509948730469
+  },
+  "figType": "Table",
+  "imageText": ["Accuracy", "0.86", "0.87", "0.83", "0.84", "0.87", "0.86", "Precision", "0.87", "0.87", "0.83", "0.84", "0.87", "0.86", "Recall", "0.86", "0.88", "0.81", "0.85", "0.87", "0.85", "F1-score", "0.86", "0.87", "0.82", "0.84", "0.87", "0.86", "AUC-ROC", "0.86", "0.87", "0.83", "0.84", "0.87", "0.86", "C", "=", "Correct", "Solutions,", "R", "=", "Random", "Solutions,", "L", "=", "Lexical", "Features", "C", "R", "n", "=", "2", "n", "=", "3", "C", "R", "C", "R", "Our", "Approach", "Baseline", "(n-grams", "+", "L)"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 546.24,
+    "y1": 317.76,
+    "y2": 429.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Table5-1.png"
+}, {
+  "caption": "Table 2: Final Problem Set Binned into 3 Classes of Difficulty",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0373840332031,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Hard", "1647", "-", "3420", "1827.50", "133", "Easy", "828", "-", "1417", "1224.95", "133", "Medium", "1419", "-", "1646", "1529.51", "133", "Difficulty", "Difficulty", "Scores", "-", "Range", "Average", "Count"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 105.6,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Table2-1.png"
+}, {
+  "caption": "Figure 3: Prompt used for generating 2 AI code solutions",
+  "captionBoundary": {
+    "x1": 323.65899658203125,
+    "x2": 552.4891357421875,
+    "y1": 306.2993469238281,
+    "y2": 311.92999267578125
+  },
+  "figType": "Figure",
+  "imageText": ["(1)", "Comments", "may", "make", "it", "too", "easy", "for", "a", "classifier", "to", "determine", "if", "the", "code", "is", "human-authored", "or", "GPT-4", "generated.", "This", "is", "because", "when", "you", "specifically", "ask", "for", "comments", "from", "a", "model", "like", "GPT-4,", "the", "number", "of", "comments", "is", "far", "more", "than", "any", "human", "would", "normally", "write.", "By", "excluding", "comments", "we", "handicap", "our", "approach", "and", "thus", "provide", "a", "lower", "bound", "for", "our", "classifier.", "Besides", "this,", "comment-based", "features", "are", "easily", "gameable.", "(2)", "The", "amount", "of", "comments", "present", "in", "GPT-4", "generated", "code", "varies", "by", "the", "prompt", "that", "we", "give.", "If", "we", "simply", "query", "the", "API", "of", "the", "model", "to", "write", "a", "program", "for", "the", "problem", "at", "hand,", "the", "model", "generates", "code", "only", "and", "no", "comments.", "Alternatively,", "if", "we", "prompt", "the", "model", "to", "explain", "the", "code,", "then", "almost", "every", "line", "of", "code", "is", "commented", "on.", "Given", "that", "the", "focus", "of", "this", "work", "is", "to", "explore", "whether", "we", "can", "differentiate", "between", "human-authored", "and", "GPT-4", "generated", "code,", "we", "did", "not", "want", "the", "choice", "of", "prompt", "to", "be", "a", "variable", "of", "the", "experiment."],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 559.1999999999999,
+    "y1": 345.12,
+    "y2": 528.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644926-Figure3-1.png"
+}]

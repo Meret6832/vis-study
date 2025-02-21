@@ -1,0 +1,221 @@
+[{
+  "caption": "Fig. 3. Prompt template for generating postconditions from natural language via chat models (including changes for the simple and no reference variations). We found that the bold text greatly improved postcondition quality: without it, the model tended to return point-based tests or code blocks with side e ects. While modified here slightly for clarity, our full prompts are included in our associated materials (see Section 8.)",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.657470703125,
+    "y1": 283.2758483886719,
+    "y2": 320.385009765625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 391.2,
+    "y1": 84.0,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Figure3-1.png"
+}, {
+  "caption": "Table 3. Atomic categories of nl2postcond postconditions that are o en combined by LLMs via && (logical and). return_val refers to the function’s return value. % test-set correct and bug-completeness columns are defined in Section 2.1. Example postconditions are adapted from our EvalPlus results, only modified for space.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1743469238281,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["We", "nd", "that", "for", "the", "benchmark", "EvalPlus,", "nl2postcond", "postconditions", "generated", "by", "GPT-3.5", "and", "GPT-4", "canmeaningfully", "capture", "program", "intent", "especially", "when", "using", "our", "base", "prompt:", "the", "average", "correct", "postcondition", "generated", "by", "thesemodels", "can", "discriminate", "three-quarters", "of", "unique", "buggy", "code", "mutants", "depending", "on", "the", "prompt", "variation.", "RQ1", "summary:", "Postcondition", "Completeness", "on", "EvalPlus", "Average", "0.32", "/", "0.46", "Category", "Example", "Postconditon", "%", "Prevalent", "Avg.", "Bug-", "complete-score", "(Natural/All)", "Type", "Check", "isinstance(return_val,", "int)", "47.4", "0.14", "/", "0.27", "Format", "Check", "return_val.startswith(\"ab\")", "11.2", "0.43", "/", "0.57", "Arithmetic", "Bounds", "return_val", ">=", "0", "30.8", "0.23", "/", "0.34", "Arithmetic", "Equality", "return_val[0]", "==", "2", "*", "input_val", "17.5", "0.82", "/", "0.89", "Container", "Property", "len(return_val)", ">", "len(input_val)", "27.0", "0.45", "/", "0.57", "Element", "Property", "return_val[0]", "%", "2", "==", "0", "12.6", "0.39", "/", "0.53", "Forall-Element", "Property", "all(ch.isalpha()", "for", "ch", "in", "return_val)", "8.3", "0.23", "/", "0.44", "Implication", "(return_val==False)", "if", "'A'not", "in", "string", "12.7", "0.58", "/", "0.64", "Null", "Check", "return_val", "is", "not", "None", "4.4", "0.40", "/", "0.50"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 128.64,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Table3-1.png"
+}, {
+  "caption": "Fig. 5. Example from Defects4J (Cli project, bug 8) where the bug can be caught via nl2postcond . Cli 8 is a bug in the implementation for calculating the width of lines when wrapping output text. The natural language function description specifically says that each line must be at most width characters long. GPT-4 translates this intent into the provided postcondition, which correctly catches the bug.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1741638183594,
+    "y1": 351.5408630371094,
+    "y2": 388.64898681640625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Bug-catching", "test", "prefix", "from", "TOGA", "where", "TOGA", "expects", "this", "test", "prefix", "to", "throw", "a", "RuntimeException.", "While", "this", "catches", "the", "bug,", "it", "is", "semantically", "removed", "from", "the", "bug’s", "root", "cause.", "1", "public", "void", "test27()", "throws", "Throwable", "{", "2", "HelpFormatter", "helpFormatter0", "=", "new", "HelpFormatter();", "3", "MockPrintWriter", "mockPrintWriter0", "=", "new", "MockPrintWriter(\"−\");", "4", "helpFormatter0.printUsage((PrintWriter)", "mockPrintWriter0,", "0,", "\"[", "Options:", "[", "sh6ort", "\");", "}", "(c)", "Bug", "catching", "nl2postcond", "postcondition", "generated", "by", "GPT-4.", "rVal", "is", "the", "function", "return", "value.", "This", "postcondition", "was", "generated", "without", "the", "buggy", "function", "code", "in", "the", "prompt.", "1", "//", "Checks", "if", "the", "rendered", "text", "does", "not", "exceed", "the", "specified", "width", "per", "line", "2", "assert", "rVal.toString().lines().allMatch(line", "−>", "line.length()", "<=", "width);", "(b)", "Bug", "report", "indicating", "that", "the", "function", "sometimes", "erroneously", "renders", "text", "with", "more", "than", "width", "characters", "per", "line,", "behavior", "that", "directly", "conflicts", "with", "the", "javadoc.", "The", "method...", "has", "couple", "of", "bugs", "in", "the", "way", "that", "it", "deals", "with", "the", "[nextTab]", "variable.", "This", "causes", "it", "to", "format", "every", "line", "beyond", "the", "first", "line", "by", "[nextTab]", "too", "many", "characters", "beyond", "the", "specified", "width.", "(a)", "Buggy", "function", "stub", "and", "javadoc."],
+  "name": "5",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 431.03999999999996,
+    "y1": 129.6,
+    "y2": 334.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Figure5-1.png"
+}, {
+  "caption": "Fig. 4. Example of how the base and simple prompt variations can impact postcondition construction. Both postconditions were generated for HumanEval problem 12 using GPT-4.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.55340576171875,
+    "y1": 250.05084228515625,
+    "y2": 265.2409973144531
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "base", "vs.", "simple:", "the", "base", "postcondition", "tries", "to", "capture", "all", "intended", "functionality,", "but", "does", "so", "incorrectly.", "The", "simple", "postcondition", "is", "less", "complex", "(capturing", "less", "functionality),", "but", "is", "correct.", "3", "4", "#", "Simple", "prompt:", "postcondition", "that", "correctly", "checks", "that", "return_value", "does", "not", "contain", "any", "spaces.", "5", "assert", "not", "re.search(r'", "{1,}',", "return_value),", "\"The", "return", "value", "contains", "one", "or", "more", "spaces\"", "return_value", "and", "\"__\"", "not", "in", "return_value", "and", "\"−−\"", "not", "in", "return_value", "1", "#", "Base", "prompt:", "postcondition", "that", "incorrectly", "attempts", "to", "fully", "specify", "the", "problem", "2", "assert", "all(map(lambda", "x:", "x", "==", "\"_\"", "or", "x", "==", "\"−\",", "re.split(r'\\w+',", "return_value)))", "and", "\"", "\"", "not", "in", "(a)", "Informal", "natural", "language", "specification", "for", "problem", "12", "from", "HumanEval", "Given", "a", "string", "text,", "replace", "all", "spaces", "in", "it", "with", "underscores,", "and", "if", "a", "string", "has", "more", "than", "2", "consecutive", "spaces,", "then", "replace", "all", "consecutive", "spaces", "with", "-", ".", "For", "example:", "fix_spaces(“", "Example", "1”)", "==", "“_Example_1”,", "fix_spaces(“", "Example", "2”)", "==", "“_Example-2”"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 431.03999999999996,
+    "y1": 84.0,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Figure4-1.png"
+}, {
+  "caption": "Table 2. Table of bug-completeness for EvalPlus. % bug-complete is the % of postconditions that detect all buggy code mutants. % problems with bug-complete is the % of EvalPlus problems with at least one bug-complete postcondition. % problems union bug-complete is the % of problemswhere the union of correct postconditions is bug-complete. The last two columns are the average bug-completeness-score, a fraction between 0 and 1, for all correct postconditions, normalized by EvalPlus problem. We report this for both natural and all generated code mutants. Bolded values are the largest value per column per model.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1581726074219,
+    "y1": 88.12186431884766,
+    "y2": 147.14801025390625
+  },
+  "figType": "Table",
+  "imageText": ["%", "problems", "with", "bug-", "complete", "%", "problems", "union", "bug-", "complete", "Avg", "bug-completeness-score", "for", "correct", "postconditionsModel", "Prompt", "%", "bug-", "complete", "Natural", "bugs", "All", "bugs", "GPT-3.5", "base", "✗", "15.4", "42.1", "48.2", "0.62", "0.72", "GPT-3.5", "base", "✓", "18.5", "47.0", "49.4", "0.70", "0.76", "GPT-3.5", "simple", "✗", "8.1", "29.3", "33.5", "0.44", "0.55", "GPT-3.5", "simple", "✓", "14.0", "37.2", "41.5", "0.58", "0.62", "GPT-4", "base", "✗", "35.1", "61.6", "62.2", "0.81", "0.85", "GPT-4", "base", "✓", "34.9", "58.0", "61.6", "0.78", "0.82", "GPT-4", "simple", "✗", "9.2", "26.2", "29.3", "0.40", "0.52", "GPT-4", "simple", "✓", "8.9", "29.3", "36.0", "0.47", "0.56", "StarChat", "base", "✗", "0.8", "7.3", "8.5", "0.13", "0.24", "StarChat", "base", "✓", "1.4", "9.1", "11.0", "0.23", "0.30", "StarChat", "simple", "✗", "1.5", "6.7", "7.3", "0.16", "0.24", "StarChat", "simple", "✓", "3.0", "17.1", "17.7", "0.23", "0.36", "Prompt", "has:", "NL", "Only=✗", "ref", "code=✓", "."],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 405.12,
+    "y1": 161.76,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Table2-1.png"
+}, {
+  "caption": "Table 4. Table containing our Defects4J results for postconditions generated for 840 methods across 525 historical bugs. We report the likelihood of generated postconditions to compile, and the accept@k likelihood that they pass all tests when instrumenting the fixed function (test-set correct columns). # distinguishable bugs is the number of bugs for which at least one generated postcondition was discriminating (see Section 4.1.2).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.173095703125,
+    "y1": 88.12186431884766,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["StarChat", "✗", "0.25", "0.68", "0.83", "0.11", "0.38", "0.55", "19", "StarChat", "✓", "0.29", "0.72", "0.84", "0.12", "0.39", "0.56", "24", "GPT-4", "✗", "0.65", "0.86", "0.89", "0.32", "0.57", "0.66", "35", "GPT-4", "✓", "0.73", "0.90", "0.93", "0.39", "0.66", "0.75", "47", "distinguishable", "bugs@1", "@5", "@10", "@1", "@5", "@10", "Compiles", "Test-set", "correct", "Number", "buggy", "code", "=", "✓", "Model", "Prompt", "has:", "NL", "Only", "=", "✗"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 390.24,
+    "y1": 139.68,
+    "y2": 214.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Table4-1.png"
+}, {
+  "caption": "Fig. 1. Example of how postconditions could be used to clarify ambiguous natural language specifications.",
+  "captionBoundary": {
+    "x1": 45.96403121948242,
+    "x2": 440.0367126464844,
+    "y1": 235.57293701171875,
+    "y2": 239.80508422851562
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Postconditions", "generated", "by", "GPT-4.", "Note", "that", "while", "both", "could", "be", "correct", "with", "a", "literal", "reading", "of", "the", "natural", "language", "specification,", "only", "the", "second", "one", "is", "correct", "with", "respect", "to", "developer", "intent.", "1", "assert", "all(numbers.count(i)", "==", "1", "for", "i", "in", "return_list)", "✓", "1", "assert", "len(set(numbers))", "==", "len(set(return_list))", "✗"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 47.519999999999996,
+    "x2": 438.24,
+    "y1": 159.84,
+    "y2": 218.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Example of how postconditions or other formal specifications could catch bugs. This example is a historical bug from Defects4J (Math-9): the Line constructor does not return a new line with enough precision. The postconditions were generated by GPT-4 in our evaluation, and both catch the bug.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.5491943359375,
+    "y1": 434.60784912109375,
+    "y2": 460.75799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Two", "bug-catching", "post", "conditions", "generated", "by", "GPT", "4.", "1", "//", "Correct", "bug−finding", "postcondition", "1", "2", "assert", "this.direction.negate().equals(returnValue.direction);", "3", "//", "Correct", "bug−finding", "postcondition", "2", "4", "assert", "this.direction.dotProduct(returnVal.direction)", "==", "−1", "*", "this.direction.getNormSq();", "(b)", "Bug", "report", "(not", "seen", "by", "the", "LLM.)", "Line.revert()", "only", "maintains", "∼10", "digits", "for", "the", "direction.", "This", "becomes", "an", "issue", "when", "the", "line’s", "position", "is", "evaluated", "far", "from", "the", "origin.", "(a)", "Original", "function", "plus", "java", "doc."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 421.44,
+    "y1": 293.76,
+    "y2": 420.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Figure2-1.png"
+}, {
+  "caption": "Fig. 7. Comparison of nl2postcond , TOGA, and Daikon on Math 95.",
+  "captionBoundary": {
+    "x1": 118.63980102539062,
+    "x2": 365.11749267578125,
+    "y1": 362.8349609375,
+    "y2": 367.0671081542969
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Math", "95", "from", "Defects4J:", "This", "function", "returns", "a", "domain", "for", "use", "by", "an", "Inverse", "Cumulative", "Probability", "function.", "The", "buggy", "version", "did", "not", "have", "su", "icient", "bounds", "on", "getDenominatorDegreesOfFreedom,", "leading", "to", "a", "potential", "negative", "domain", "(impossible", "for", "a", "cumulative", "Probability", "function)", "or", "a", "division", "by", "zero", "error.", "Highlighted", "tokens", "are", "those", "that", "were", "added", "for", "the", "fixed", "version.", "10", "ret", "=", "d", "/", "(d", "−", "2.0);", "11", "}", "12", "return", "ret;", "}", "1", "/**", "Access", "the", "initial", "domain", "value,", "based", "on", "<code>p</code>,", "used", "to", "2", "*", "bracket", "a", "CDF", "root.", "This", "method", "is", "used", "by", "3", "*", "{@link", "#inverseCumulativeProbability(double)}", "to", "find", "critical", "values.", "4", "*", "@param", "p", "the", "desired", "probability", "for", "the", "critical", "value", "5", "*", "@return", "initial", "domain", "value", "*/", "6", "protected", "double", "getInitialDomain", "(double", "p)", "{", "7", "double", "ret", "=", "1.0", ";", "8", "double", "d", "=", "getDenominatorDegreesOfFreedom();", "9", "if", "(d", ">", "2.0)", "{", "(b)", "Daikon", "postcondition", "that", "distinguishes", "Math", "9,", "but", "overfi", "s", "to", "the", "regression", "tests.", "1", "daikon.Quant.fuzzy.eq(\\result,", "1.000020000400008)", "||", "daikon.Quant.fuzzy.eq(\\result,", "1.5)", "(a)", "Example", "bug-catching", "post", "conditions", "generated", "by", "nl2postcond", "which", "correctly", "asserts", "that", "the", "domain", "of", "a", "continuous", "distribution", "function", "should", "be", "greater", "than", "or", "equal", "zero.", "This", "postcondition", "catches", "a", "large", "number", "of", "bug-triggering", "inputs", "for", "this", "method.", "1", "//", "Checks", "if", "the", "returnValue", "is", "greater", "than", "or", "equal", "to", "zero", "2", "assert", "returnValue", ">=", "0;"],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 431.52,
+    "y1": 84.0,
+    "y2": 346.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Figure7-1.png"
+}, {
+  "caption": "Fig. 6. TOGA test oracle and Daikon postcondition for a historical bug caught by both TOGA and Daikon, but not by nl2postcond (Compress 11). This bug involves incorrectly processing files less than 512 bytes as tar archives, and it was fixed by throwing an exception.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.155029296875,
+    "y1": 254.65884399414062,
+    "y2": 280.8089904785156
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Daikon", "postcondition", "that", "catches", "Compress", "11.", "It", "does", "so", "as", "the", "buggy", "function", "involves", "a", "using", "a", "ArchiveStream", "factory", "function", "that", "can", "change", "the", "class", "name", "of", "the", "Input", "Stream", "class.", "1", "\\old(in.getClass().getName())", "==", "java.io.BufferedInputStream.class.getName()", "(a)", "TOGA", "test", "oracle", "that", "catches", "Compress", "11.", "TOGA", "finds", "the", "bug", "by", "simulating", "a", "small", "file", "and", "then", "explicitly", "catching", "the", "resulting", "exception.", "10", "}}", "1", "public", "void", "test16()", "throws", "Throwable", "{", "2", "byte[]", "byteArray0", "=", "new", "byte[179];", "3", "ByteArrayInputStream", "inputStream0", "=", "new", "ByteArrayInputStream(byteArray0);", "4", "ArchiveStreamFactory", "archiveStreamFactory0", "=", "new", "ArchiveStreamFactory();", "5", "try", "{", "6", "archiveStreamFactory0.createArchiveInputStream((InputStream)", "inputStream0);", "7", "fail(\"Expecting", "exception:", "Exception\");", "8", "}", "catch(Exception", "e)", "{", "9", "verifyException(\"org.apache.commons.compress.archivers.ArchiveStreamFactory\",", "e);"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 431.03999999999996,
+    "y1": 84.0,
+    "y2": 242.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Figure6-1.png"
+}, {
+  "caption": "Table 1. Test-set correctness on EvalPlus for three models (GPT-3.5, GPT-4, and StarChat), di ering prompt complexities (base vs. simple), and including or omi ing the reference solution in the prompt. Darker highlighted cells are more correct. Bolded values are the largest for a specific model.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.5553283691406,
+    "y1": 88.12186431884766,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["StarChat", "base", "✗", "0.21", "0.61", "0.82", "134", "StarChat", "base", "✓", "0.20", "0.59", "0.77", "126", "StarChat", "simple", "✗", "0.25", "0.69", "0.85", "139", "StarChat", "simple", "✓", "0.23", "0.67", "0.86", "141", "GPT-4", "base", "✗", "0.63", "0.83", "0.88", "144", "GPT-4", "base", "✓", "0.71", "0.89", "0.91", "150", "GPT-4", "simple", "✗", "0.77", "0.94", "0.96", "158", "GPT-4", "simple", "✓", "0.76", "0.92", "0.96", "157", "GPT-3.5", "base", "✗", "0.46", "0.80", "0.87", "143", "GPT-3.5", "base", "✓", "0.49", "0.81", "0.88", "145", "GPT-3.5", "simple", "✗", "0.55", "0.82", "0.87", "143", "GPT-3.5", "simple", "✓", "0.56", "0.82", "0.88", "144", "Prompt", "has:", "NL", "Only=✗", "ref", "code=✓", "Accept", "@", "1", "Accept", "@", "5", "Accept", "@", "10", "x/164", "correct", "Model", "Prompt"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 121.92,
+    "x2": 369.12,
+    "y1": 128.64,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660791-Table1-1.png"
+}]

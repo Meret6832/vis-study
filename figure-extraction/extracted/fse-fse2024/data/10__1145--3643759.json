@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 3. The number of issues induced by each annotation from the top 30 most AIF-prone annotations.",
+  "captionBoundary": {
+    "x1": 54.5,
+    "x2": 431.5014343261719,
+    "y1": 456.808349609375,
+    "y2": 461.0360107421875
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "1:", "Annotations", "that", "(1)", "specify", "the", "nullability", "of", "program", "elements,", "(2)", "are", "widely", "used", "(for", "marking", "unit", "tests", "or", "suppressing", "undesirable", "warnings),", "and", "(3)", "alter", "the", "dependence", "or", "structure", "of", "the", "original", "code", "have", "induced", "the", "largest", "number", "of", "faults", "in", "static", "analyzers."],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 210.72,
+    "y2": 441.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure3-1.png"
+}, {
+  "caption": "Fig. 4. An incomplete semantics example in SONARQUBE-3804.",
+  "captionBoundary": {
+    "x1": 124.63079833984375,
+    "x2": 361.3705139160156,
+    "y1": 374.7145690917969,
+    "y2": 378.9422302246094
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "2:", "Incomplete", "semantics", "is", "the", "most", "common", "root", "cause", "for", "faults", "in", "all", "studied", "analyzers,", "except", "for", "CheckStyle", "and", "Soot.", "As", "annotations", "may", "introduce", "changes", "to", "the", "program", "properties", "and", "behaviors,", "failing", "to", "grasp", "the", "semantics", "encoded", "by", "the", "annotations", "will", "cause", "static", "analyzers", "to", "produce", "inaccurate", "results."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 408.96,
+    "y2": 466.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure4-1.png"
+}, {
+  "caption": "Table 2. The numbers of faults due to di erent root causes in each analyzer.",
+  "captionBoundary": {
+    "x1": 102.74409484863281,
+    "x2": 383.0165710449219,
+    "y1": 88.1260986328125,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["IS:", "Incomplete", "Semantics;", "IAT:", "Improper", "AST", "Traversal;", "UEA:", "Unrecognized", "Equivalent", "Annotations;", "ETO:", "Erroneous", "Total", "93", "74", "24", "23", "21", "9", "2", "246", "SonarQube", "66", "23", "21", "11", "4", "2", "1", "128", "CheckStyle", "0", "39", "1", "0", "10", "1", "1", "52", "PMD", "19", "9", "0", "4", "7", "4", "0", "43", "SpotBugs", "4", "0", "0", "3", "0", "0", "0", "7", "Infer", "4", "0", "0", "1", "0", "1", "0", "6", "Soot", "0", "3", "2", "4", "0", "1", "0", "10", "Static", "Analyzer", "IS", "IAT", "UEA", "ETO", "IAG", "MCF", "Others", "Total"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 213.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Table2-1.png"
+}, {
+  "caption": "Table 4. Relationship between the root causes and symptoms of annotation-induced faults.",
+  "captionBoundary": {
+    "x1": 74.59809875488281,
+    "x2": 411.1609191894531,
+    "y1": 483.3261413574219,
+    "y2": 487.5538024902344
+  },
+  "figType": "Table",
+  "imageText": ["Finding", "7:", "All", "identi", "ed", "root", "causes", "in", "our", "study", "led", "to", "FPs.", "Incomplete", "semantics", "was", "the", "most", "common", "root", "cause", "and", "typically", "led", "to", "incorrect", "analysis", "results", "(i.e.,", "FP)."],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 420.96,
+    "y2": 454.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Table4-1.png"
+}, {
+  "caption": "Table 3. The number of issues for the four categories of symptoms across the static analyzers.",
+  "captionBoundary": {
+    "x1": 69.94889831542969,
+    "x2": 415.809814453125,
+    "y1": 146.72955322265625,
+    "y2": 150.95721435546875
+  },
+  "figType": "Table",
+  "imageText": ["Finding", "6:", "Annotation-induced", "faults", "may", "cause", "static", "analyzers", "to", "produce", "inaccurate", "analysis", "results,", "to", "crash", "at", "runtime,", "or", "to", "generate", "incorrect", "intermediate", "results."],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 117.11999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Table3-1.png"
+}, {
+  "caption": "Fig. 12. Overall Workflow of AnnaTester",
+  "captionBoundary": {
+    "x1": 164.7550048828125,
+    "x2": 321.24560546875,
+    "y1": 393.35333251953125,
+    "y2": 397.58099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["Mutants", "Equivalent", "Seed", "Corpus", "Results", "Analyzer", "Relations", "Static", "Metamorphic", "Analysis", "Differential", "Testing", "Automated", "Annotation", "Generator", "Database", "Annotation", "@org.junit.AfterClass", "@org.testing.AfterClass", "...", "@MockAnnotation", "@Data,", "@Value,...", "Equivalent", "annotation", "annotation", "No", "semantics", "annotation", "Source", "level", "Seed", "File", "Injector", "Annotation", "Analysis", "Reports", "org.junit.AfterClassorg.testng.AfterClass"],
+  "name": "12",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 395.03999999999996,
+    "y1": 220.79999999999998,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure12-1.png"
+}, {
+  "caption": "Fig. 2. The general workflow of a static analyzer",
+  "captionBoundary": {
+    "x1": 153.74400329589844,
+    "x2": 332.2556457519531,
+    "y1": 210.59432983398438,
+    "y2": 214.82199096679688
+  },
+  "figType": "Figure",
+  "imageText": ["Input", "Data", "IR", "Construction", "Program", "Analysis", "Fault", "Detection", "Issue", "Detection", "Analysis", "Report", "Taint", "Analysis", "AST", "IR", "Points-To", "Analysis", "Input", "Program", "Configuration", "……", "Lexical", "Analysis", "Dependency", "Analysis", "Symbolic", "Execution", "Syntactic", "Analysis", "Rule", "CheckingType", "Resolution"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 51.36,
+    "x2": 439.2,
+    "y1": 86.88,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure2-1.png"
+}, {
+  "caption": "Table 5. Relationship between root cause and fix strategy",
+  "captionBoundary": {
+    "x1": 136.71290588378906,
+    "x2": 349.0460510253906,
+    "y1": 194.7392578125,
+    "y2": 198.9669189453125
+  },
+  "figType": "Table",
+  "imageText": ["Finding", "9:", "FAF", "was", "the", "most", "common", "x", "strategy,", "especially", "for", "faults", "caused", "by", "IS", "and", "UEA.", "FAF:", "Fix", "Incorrect", "Use", "of", "Annotation", "Filter;", "FAN:", "Fix", "AST", "Node", "Retrieval;", "FIT:", "Fix", "Incorrect", "Type", "Operation;", "FGI:", "Fix", "Grammar", "Issue;", "FVC:", "Fix", "Value", "Check;", "RRC:", "Redesign", "Rule", "Checker", "Pattern;", "FIA:", "Fix", "Incorrect", "API", "Usage.", "Incomplete", "Semantics", "(IS)", "83", "0", "0", "0", "3", "4", "0", "3", "93", "Improper", "AST", "Traversal", "(IAT)", "7", "36", "13", "0", "13", "5", "0", "0", "74", "Unrecognized", "Equivalent", "Annotations", "(UEA)", "21", "1", "0", "1", "1", "0", "0", "0", "24", "Erroneous", "Type", "Operations", "(ETO)", "1", "1", "16", "0", "3", "0", "2", "0", "23", "Incorrect", "AST", "Generation", "(IAG)", "0", "0", "1", "20", "0", "0", "0", "0", "21", "Misprocessing", "of", "Con", "guration", "File", "(MCF)", "2", "0", "3", "1", "0", "1", "1", "1", "9", "Others", "0", "0", "0", "1", "0", "0", "1", "0", "2", "Overall", "114", "38", "33", "23", "20", "10", "4", "4", "246", "Root", "Cause", "FAF", "FAN", "FIT", "FGI", "FVC", "RRC", "FIA", "Others", "Overall"],
+  "name": "5",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 213.6,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Table5-1.png"
+}, {
+  "caption": "Fig. 11. SONARQUBE-2083 [22]: Fail to resolve annotation fully qualified name",
+  "captionBoundary": {
+    "x1": 96.41279602050781,
+    "x2": 389.587158203125,
+    "y1": 600.1851806640625,
+    "y2": 604.4130249023438
+  },
+  "figType": "Figure",
+  "imageText": ["Proc.", "ACM", "Softw.", "Eng.,", "Vol.", "1,", "No.", "FSE,", "Article", "33.", "Publication", "date:", "July", "2024.", "Finding", "10:", "Among", "all", "x", "strategies,", "FIT", "covers", "the", "greatest", "number", "of", "root", "causes.", "Fixing", "type", "cast", "and", "type", "resolution", "account", "for", "the", "majority", "of", "issues."],
+  "name": "11",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 627.84,
+    "y2": 682.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure11-1.png"
+}, {
+  "caption": "Fig. 5. SONARQUBE-3536 [28]: A false negative caused by UEA",
+  "captionBoundary": {
+    "x1": 125.45099639892578,
+    "x2": 360.55010986328125,
+    "y1": 380.0853271484375,
+    "y2": 384.31298828125
+  },
+  "figType": "Figure",
+  "imageText": ["Finding", "4:", "Most", "(88%)", "of", "the", "UEA", "faults", "were", "found", "in", "SonarQube.", "Equivalent", "annotations", "may", "come", "from", "(1)", "di", "erent", "libraries", "or", "(2)", "di", "erent", "versions", "of", "the", "same", "library."],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 408.0,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure5-1.png"
+}, {
+  "caption": "Table 6. E ectiveness of AnnaTester",
+  "captionBoundary": {
+    "x1": 172.50210571289062,
+    "x2": 313.25592041015625,
+    "y1": 88.1260986328125,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["ISC", "258", "19", "8", "11", "(4,62)", "ASC", "52", "8", "0", "4", "(2,24)", "EAC", "123", "16", "0", "5", "(6,87)", "Overall", "433", "43", "8", "20", "(6,87)", "Checker", "#Violations", "#UniqFaults", "#FP", "#Fixed", "Time", "(min,", "max)", "(hour)"],
+  "name": "6",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 106.56,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Table6-1.png"
+}, {
+  "caption": "Fig. 8. PMD-1782 [1]: Redesign rule pa ern to recognize package declaration",
+  "captionBoundary": {
+    "x1": 100.88800048828125,
+    "x2": 385.1129150390625,
+    "y1": 348.12615966796875,
+    "y2": 352.35400390625
+  },
+  "figType": "Figure",
+  "imageText": ["1", "-", "/ClassOrInterfaceDeclaration[count(preceding", "::", "PackageDeclaration)=0]", "2", "+", "CompilationUnit[not", "(./", "PackageDeclaration)]/", "TypeDeclaration", "[1]"],
+  "name": "8",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 351.36,
+    "y1": 313.92,
+    "y2": 332.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. SOOT-123 [35]: Incorrectly invoke toSoot to construct an AnnotationTag",
+  "captionBoundary": {
+    "x1": 97.77801513671875,
+    "x2": 387.81549072265625,
+    "y1": 517.4141235351562,
+    "y2": 521.6419677734375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "-", "AnnotationTag", "aTag", "=", "new", "AnnotationTag(DexType.toSoot(a.getType", "()).toString", "());", "2", "+", "AnnotationTag", "aTag", "=", "new", "AnnotationTag(a.getType", "());"],
+  "name": "9",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 397.44,
+    "y1": 482.88,
+    "y2": 501.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Figure9-1.png"
+}, {
+  "caption": "Table 1. The issue distribution among six static analyzers",
+  "captionBoundary": {
+    "x1": 137.1519317626953,
+    "x2": 348.6064147949219,
+    "y1": 173.872314453125,
+    "y2": 178.0999755859375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "14793", "308", "246", "SonarQube", "4370", "138", "128", "CheckStyle", "4768", "60", "52", "PMD", "2161", "53", "43", "SpotBugs", "1043", "10", "7", "Infer", "1304", "8", "6", "Soot", "1147", "39", "10", "Static", "Analyzer", "#IssueC", "#IssueB", "#Issue0"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 192.95999999999998,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643759-Table1-1.png"
+}]

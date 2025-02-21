@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 6: Typing rules for backward analysis",
+  "captionBoundary": {
+    "x1": 216.01795959472656,
+    "x2": 395.9744873046875,
+    "y1": 307.8148498535156,
+    "y2": 309.89495849609375
+  },
+  "figType": "Figure",
+  "imageText": ["by", "adding", "a", "logical", "qualifier", "stating", "that", "all", "values", "are", "non-", "negative.", "names", "come", "from", "the", "cells", "in", "the", "𝑐key", "column.", "As", "a", "result,", "we", "maintain", "the", "column", "refinement", "type", "for", "all", "columns", "in", "−→𝑐id,", "{", "}"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 560.16,
+    "y1": 331.68,
+    "y2": 356.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Rules for checking type consistency",
+  "captionBoundary": {
+    "x1": 214.28302001953125,
+    "x2": 397.7093505859375,
+    "y1": 383.4898681640625,
+    "y2": 385.5699768066406
+  },
+  "figType": "Figure",
+  "imageText": ["⊨", "(𝜈", "⊳+", "O)", "⊲⊳", "(𝜈", "⊳−", "O′", ")", "C-Ops", "O", "⊆", "O′", "[[𝜙1", "]]", "∧", "[[𝜙2", "]]", "is", "satisfiable", "⊨", "𝜙1", "⊲⊳", "𝜙2", "C-SAT", "L", "⊆", "L′", "⊨", "𝜈", "≺+", "L", "⊲⊳", "𝜈", "≺−", "L′", "C-Prov", "⊨", "{𝜈", ":", "𝐵", "|", "𝜙1}", "⊲⊳", "{𝜈", ":", "𝐵", "|", "𝜙2}", "C-Refine", "⊨", "𝜙1", "⊲⊳", "𝜙2", "⊨", "⟨𝜎1,", ".", ".", ".", ",", "𝜎𝑛", "⟩", "⊲⊳", "⟨𝜎", "′1,", ".", ".", ".", ",", "𝜎", "′𝑛", "⟩", "C-Row", "⊨", "𝜎1", "⊲⊳", "𝜎", "′", "2", "for", "all", "𝑖", "∈", "{1..𝑛}", "⊨", "𝑐", "::", "𝜏1", "⊲⊳", "𝑐", "::", "𝜏2", "C-Col", "⊨", "𝜏1", "⊲⊳", "𝜏2", "C-Depth", "⊨", "⟨−→𝜅𝑖", ";", "−→𝜌", "𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "⊲⊳", "⟨", "−→", "𝜅′𝑖", ";", "−→", "𝜌", "′𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "⊨", "𝜅𝑖", "⊲⊳", "𝜅", "′", "𝑖", "for", "all", "𝑖", "∈", "{1..𝑚}", "⊨", "𝜌", "𝑗", "⊲⊳", "𝜌", "′𝑗", "for", "all", "𝑗", "∈", "{1..𝑛}", "0", "≤", "𝑘", "0", "≤", "𝑙", "𝜌", "′𝑗", "=", "RemoveColumn(𝜌", "𝑗", ",𝑚..𝑘", ")", "for", "all", "𝑗", "∈", "{1..𝑛}", "⊨", "⟨−→𝜅𝑖", ";", "−→𝜌", "𝑗", "⟩𝑖∈{1..𝑚+𝑘},", "𝑗", "∈{1..𝑛+𝑙", "}", "⊲⊳", "⟨−→𝜅𝑖", ";", "−→𝜌", "𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "C-Subtable", "C-PermRow", "⊨", "⟨−→𝜅𝑖", ";", "−→𝜌", "𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "⊲⊳", "⟨−→𝑐𝑖", ";", "−→", "𝜌", "′𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "−→", "𝜌", "′𝑖", "is", "a", "permutation", "of", "−→𝜌𝑖", "C-PermCol", "⊨", "⟨−→𝜅𝑖", ";", "−→𝜌", "𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "⊲⊳", "⟨", "−→", "𝜅′𝑖", ";", "−→", "𝜌", "′𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "−→", "𝑐′𝑖", ",", "−→", "𝜅′𝑖", "is", "a", "permutation", "of", "−→𝑐𝑖", ",", "−→𝜅𝑖", "by", "exchanging", "columns", "𝑘", "and", "𝑙", "𝜌", "′𝑗", "=", "ExchangeColumn(𝜌", "𝑗", ",", "𝑘,", "𝑙", ")", "for", "all", "𝑗", "∈", "{1..𝑛}", "C-Rename", "⊨", "⟨−→𝜅𝑖", ";", "−→𝜌", "𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "⊲⊳", "⟨", "−→", "𝜅′𝑖", ";", "−→", "𝜌", "′𝑗", "⟩𝑖∈{1..𝑚},", "𝑗", "∈{1..𝑛}", "𝜅′𝑖", "=", "𝜅𝑖", "[𝑐", "↦→", "𝑐′", "]", "for", "all", "𝑖", "∈", "{1..𝑚}", "𝜌", "′𝑗", "=", "𝜌", "𝑗", "[𝑐", "↦→", "𝑐′", "]", "for", "all", "𝑗", "∈", "{1..𝑛}"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 518.88,
+    "y1": 98.39999999999999,
+    "y2": 344.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure7-1.png"
+}, {
+  "caption": "Figure 1: An example visualization task",
+  "captionBoundary": {
+    "x1": 225.93899536132812,
+    "x2": 386.0538024902344,
+    "y1": 211.57791137695312,
+    "y2": 213.65802001953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 141.6,
+    "x2": 470.4,
+    "y1": 82.56,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Syntax of Calico’s table transformation language",
+  "captionBoundary": {
+    "x1": 318.0050048828125,
+    "x2": 558.1445922851562,
+    "y1": 397.077880859375,
+    "y2": 399.1579895019531
+  },
+  "figType": "Figure",
+  "imageText": ["|", "𝐺", "Custom", "operator", "∼", "::=", "=", "|", "≠", "|", "≤", "|", "<", "|", "𝑅", "Predicates", "⊗", "::=", "+", "|", "−", "|", "∗", "|", "/|", "𝑀", "Arithmetic", "operation", "⊖", "::=", "min", "|", "max", "|", "sum", "|", "count", "|", "avg", "Aggregate", "operation", "|", "select(−→𝑐", ")", "Projection", "|", "filter(∼,", "−−→𝑐arg", ")", "Filtering", "|", "mutate(𝑐target,", "⊗,", "−−→𝑐arg", ")", "Calculation", "|", "spread(−→𝑐id,", "𝑐key,", "𝑐val", ")", "Pivoting", "(wider)", "|", "gather(−→𝑐id,", "−−−→𝑐target", ")", "Pivoting", "(longer)", "|", "summarize(−−→𝑐key,", "𝑐target,", "⊖,", "−−→𝑐arg", ")", "Summarization", "𝑃", "::=", "𝑡", "≫", "𝑒1", "≫", "·", "·", "·", "≫", "𝑒𝑛", "Table", "program", "𝑒", "::=", "Table", "operators"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 331.2,
+    "x2": 545.28,
+    "y1": 247.2,
+    "y2": 366.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Syntax of Calico’s refinement type system",
+  "captionBoundary": {
+    "x1": 67.67903137207031,
+    "x2": 280.158447265625,
+    "y1": 288.7688293457031,
+    "y2": 290.84893798828125
+  },
+  "figType": "Figure",
+  "imageText": ["(3)", "The", "spread", "operator", "is", "a", "pivot", "operation", "that", "takes", "columns", "𝑐key", "and", "𝑐val", "representing", "key-value", "pairs,", "and", "pivots", "the", "table", "by", "(i)", "eliminating", "those", "two", "columns,", "(ii)", "creating", "a", "new", "column", "named", "after", "each", "value", "in", "𝑐key,", "and", "(iii)", "filling", "in", "the", "cells", "in", "the", "newly", "created", "column", "using", "the", "corresponding", "values", "from", "𝑐val.", "spread", "effectively", "makes", "a", "table", "“wider.”", "(4)", "The", "gather", "operator", "is", "the", "inverse", "of", "spread.", "Given", "a", "set", "of", "columns", "−−−−→𝑐target,", "it", "treats", "the", "column", "names", "in", "−−−−→𝑐target", "as", "keys,", "and", "cells", "in", "those", "columns", "as", "values.", "It", "then", "pivots", "the", "table", "by", "eliminating", "−−−−→𝑐target", "and", "creating", "two", "columns", "that", "contain", "the", "keys", "and", "the", "values,", "respectively.", "In", "effect,", "gathermakes", "a", "table", "“longer.”", "(5)", "The", "summarize", "operator", "first", "partitions", "the", "table", "into", "groups", "where", "each", "group", "contains", "the", "same", "−−→𝑐key.", "Next,", "it", "aggregates", "each", "group", "using", "the", "specified", "aggregate", "operation,", "which", "can", "be", "min,", "max,", "sum,", "count,", "avg,", "or", "a", "custom", "aggregate", "operation", "𝐺", "."],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 64.32,
+    "x2": 295.2,
+    "y1": 317.76,
+    "y2": 502.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Scalability comparison between Calico and Viser on visualization tasks. Each curve measures the changes of total",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1943359375,
+    "y1": 191.97988891601562,
+    "y2": 194.05999755859375
+  },
+  "figType": "Figure",
+  "imageText": ["Viser", "Viser", "Calico", "Calico", ")", "Calico", "Viser", "Tool", "e", "(s", "l", "T", "im", "To", "ta", "100", "50", "0", "0", "10", "20", "30", "40", "#Solved", ")", "e", "(s", "l", "T", "im", "To", "ta", "2,000", "1,000", "0", "0", "10", "20", "30", "40", "#Solved"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 553.4399999999999,
+    "y1": 87.84,
+    "y2": 169.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure8-1.png"
+}, {
+  "caption": "Figure 9: Effectiveness comparison between Calico, Viser",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0419006347656,
+    "y1": 290.90087890625,
+    "y2": 292.9809875488281
+  },
+  "figType": "Figure",
+  "imageText": ["Tool", "Viser", "Calico", "LLM", "39", "(98%)", "29", "(73%)", "27", "(68%)", "Calico", "LLM", "Viser", "#Solved", "0", "10", "20", "30", "40"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 115.67999999999999,
+    "x2": 231.84,
+    "y1": 235.67999999999998,
+    "y2": 271.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Performance comparison between Calico and",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2015380859375,
+    "y1": 379.7248840332031,
+    "y2": 381.80499267578125
+  },
+  "figType": "Figure",
+  "imageText": ["Result", "for", "RQ1:", "As", "is", "evident", "from", "these", "numbers,", "Calico", "is", "more", "effective", "than", "Viser,", "the", "state-of-the-art", "visualization", "synthesis", "tool.", "percentage."],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 292.32,
+    "y1": 320.15999999999997,
+    "y2": 390.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure10-1.png"
+}, {
+  "caption": "Figure 4: Typing rules for forward analysis",
+  "captionBoundary": {
+    "x1": 219.3000030517578,
+    "x2": 392.6933898925781,
+    "y1": 277.6428527832031,
+    "y2": 279.72296142578125
+  },
+  "figType": "Figure",
+  "imageText": ["⊢", "𝑡", "≫", "summarize(−−→𝑐key,", "𝑐target,", "count,∅)", ":", "⟨−−−−−−−→𝑐key", "::", "𝜏key,", "𝑐target", "::", "{𝜈", ":", "Int", "|", "0", "≤", "𝜈", "}⟩", "TF-SummarizeCount", "⊢", "𝑡", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", "⟩", "−−→", "𝑐key", "⊆", "−→𝑐𝑖", "𝑐target", "∉", "−→", "𝑐𝑖", "⊢", "𝑡", "≫", "mutate(𝑐target,", "+,", "[𝑐1,", "𝑐2", "]", ")", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", ",", "𝑐target", "::", "{𝜈", ":", "Int", "|", "𝑥", "+", "𝑦", "≤", "𝜈", "}⟩", "TF-MutateAdd", "⊢", "𝑡", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", "⟩", "𝑐1,", "𝑐2", "∈", "−→𝑐𝑖", "⊨", "𝜏1", "<:", "{𝜈", ":", "Int", "|", "𝑥", "≤", "𝜈", "}", "⊨", "𝜏2", "<:", "{𝜈", ":", "Int", "|", "𝑦", "≤", "𝜈", "}", "𝑐target", "∉", "−→", "𝑐𝑖", "⊢", "𝑡", "≫", "gather(−→𝑐id,", "−−−→𝑐target", ")", ":", "⟨−−−−−→𝑐id", "::", "𝜏id,", "𝑐key", "::", "𝜏key,", "𝑐val", "::", "𝜏val", "⟩", "TF-Gather", "⊢", "𝑡", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", "⟩", "−→", "𝑐𝑖", "=", "−→", "𝑐id", "⊎", "−−−→𝑐target", "𝜏𝑘𝑒𝑦", "=", "{𝜈", ":", "Enum", "|", "∨", "𝑐∈−−−−→𝑐target", "𝜈", "=", "𝑐", "}", "⊨", "𝜏target", "<:", "𝜏val", "for", "all", "𝜏target", "∈", "−−−→𝜏target", "𝑐key,", "𝑐val", "fresh", "⊢", "𝑡", "≫", "spread(−→𝑐id,", "𝑐key,", "𝑐val", ")", ":", "⟨−−−−−→𝑐id", "::", "𝜏id,", "𝐴1", "::", "𝜏val,", ".", ".", ".", ",", "𝐴𝑘", "::", "𝜏val", "⟩", "TF-Spread", "⊢", "𝑡", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", "⟩", "−→", "𝑐𝑖", "=", "−→", "𝑐𝑖𝑑", "⊎", "{𝑐key}", "⊎", "{𝑐val}", "⊨", "𝜏key", "<:", "{𝜈", ":", "Enum", "|", "𝜈", "=", "𝐴1", "∨", "·", "·", "·", "∨", "𝜈", "=", "𝐴𝑙", "}", "⊢", "𝑡", "≫", "select(", "−→", "𝑐′𝑗", ")", ":", "⟨", "−−−−→", "𝑐′𝑗", "::", "𝜏", "𝑗", "⟩", "TF-Select", "⊢", "𝑡", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", "⟩", "⊢", "𝑡", "≫", "filter(_,", "_)", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", "⟩", "TF-Filter", "⊢", "𝑡", ":", "⟨−−−−→𝑐𝑖", "::", "𝜏𝑖", "⟩", "−→", "𝑐′𝑗", "⊆", "−→", "𝑐𝑖"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 546.24,
+    "y1": 86.39999999999999,
+    "y2": 255.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Subtyping rules",
+  "captionBoundary": {
+    "x1": 123.34200286865234,
+    "x2": 224.49636840820312,
+    "y1": 621.77685546875,
+    "y2": 623.8569946289062
+  },
+  "figType": "Figure",
+  "imageText": ["∀𝜈,", "[[𝜙1", "]]", "=⇒", "[[𝜙2", "]]", "is", "valid", "⊨", "{𝜈", ":", "𝐵", "|", "𝜙1}", "<:", "{𝜈", ":", "𝐵", "|", "𝜙2}", "S-Refine", "S-Sub", "⊢", "𝑡", ":", "𝑇1", "⊨", "𝑇1", "<:", "𝑇2", "⊢", "𝑡", ":", "𝑇2", "⊨", "𝑇1", "<:", "𝑇2", "⊨", "𝑇2", "<:", "𝑇3", "⊨", "𝑇1", "<:", "𝑇3", "S-Trans", "⊨", "𝑇", "<:", "𝑇", "S-Refl", "9:", "if", "𝑃∗", "is", "complete", "and", "⊢", "𝑃∗", "(𝑡in", ")", ":", "Tout", "then", "10:", "yield", "𝑃∗", "11:", "else", "12:", "𝑆", ".extend(expand(𝑃∗", "))", "13:", "end", "if", "14:", "end", "if", "15:", "end", "while", "16:", "return", "⊥", "17:", "end", "procedure"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 396.47999999999996,
+    "y2": 599.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695550-Figure5-1.png"
+}]

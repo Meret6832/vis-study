@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 8: The overview of MergeTester",
+  "captionBoundary": {
+    "x1": 362.7829895019531,
+    "x2": 513.3715209960938,
+    "y1": 266.8373718261719,
+    "y2": 272.468017578125
+  },
+  "figType": "Figure",
+  "imageText": ["Version", "A", "Fail", "7", "8", "Success", "Run", "B", "Run", "A", "Success", "4", "6Differences", "Identifier", "3Bug", "Fixer", "Generated", "Tests", "for", "A", "1", "2", "Passed", "Tests", "on", "A", "Final", "Tests", "Difference", "Feedback", "JDK", "Error", "Feedback", "Compile/", "Execute", "Fail", "5", "Conflicts", "Version", "B", "JDK"],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 546.24,
+    "y1": 86.88,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Case 3: both versions fail to satisfy the test cases of the other version (molgenis-a20bee9)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0384521484375,
+    "y1": 190.76535034179688,
+    "y2": 207.35498046875
+  },
+  "figType": "Figure",
+  "imageText": ["return", "request.getRequestedSessionId()", "!=", "null", "&&", "!request.isRequestedSessionIdValid();", "}", ">>>>>>>", "Version", "B", "...", "=======", "public", "static", "boolean", "isSessionExpired(HttpServletRequest", "request)", "{", "List<String>", "authorities", "=", "new", "ArrayList<>();", "for", "(Permission", "permission", ":", "Permission.values())", "<<<<<<<", "Version", "A", "public", "static", "List<String>", "getEntityAuthorities(String", "entityName)", "{"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 84.96,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Case 4: version A can pass tests of both versions (Mycat-Server-c42db00)",
+  "captionBoundary": {
+    "x1": 53.52000045776367,
+    "x2": 294.0416259765625,
+    "y1": 433.6513671875,
+    "y2": 450.2409973144531
+  },
+  "figType": "Figure",
+  "imageText": [">>>>>>>", "Version", "B", "Wrong", "Ground", "Truth:", "Select", "version", "B", "Corrected", "Ground", "Truth:", "Select", "version", "A", "...", "schemaConfig", "=", "schemaConfigMap.get(schemaKey);", "schema", "=", "schemaKey;", "tableConfig", "=", "itemConfig;", "=======", "...", "for(String", "tableKey", ":", "tableConfigMap.keySet()){", "TableConfig", "itemConfig", "=", "tableConfigMap.get(tableKey);", "if(tableKey.equalsIgnoreCase(table)", "&&", "itemConfig!=null){", "...", "schemaConfig", "=", "schemaConfigMap.get(schemaKey);", "schema", "=", "schemaKey;", "tableConfig", "=", "itemConfig;", "if((tableKey.equalsIgnoreCase(table)", "&&", "itemConfig!=null)", "||", "tableKey.equals(\"*\")){", "<<<<<<<", "Version", "A", "...", "for(String", "tableKey", ":", "tableConfigMap.keySet()){", "TableConfig", "itemConfig", "=", "tableConfigMap.get(tableKey);"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 290.4,
+    "y1": 228.95999999999998,
+    "y2": 418.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure7-1.png"
+}, {
+  "caption": "Table 5: Overall performance on the cases that can be automatically solved.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.64300537109375,
+    "y1": 494.4683532714844,
+    "y2": 511.0580139160156
+  },
+  "figType": "Table",
+  "imageText": ["JDime", "[3]", "Structure-based", "26.3%", "21.6%", "MergeBERT", "[35]", "Learning-based", "63.9%", "63.2%", "MergeGen", "[13]", "Learning-based", "69.2%", "67.7%", "Test", "Results", "Strategy", "Precision", "Recall", "𝐼1", "|=", "𝑇1", "∪𝑇2", "and", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "A", "100.0%", "(22/22)", "68.75%", "(22/32)", "𝐼2", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "B", "87.5%(14/16)", "87.5%", "(14/16)", "𝐼𝑐𝑎𝑡", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1,", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Concat(A,", "B)", "100%", "(81/81)", "78.64%", "(81/103)", "∃𝑡1", "∈", "𝑇1,", "𝑡2", "∈", "𝑇2", ".", "𝑡1", "⊗", "𝑡2", "Report", "Conflicts", "100%", "(1/1)", "50%", "(1/2)", "Ratio", "of", "cases", "sMerge", "can", "give", "resolutions:", "78.43%", "(120/153)", "Number", "of", "identified", "wrong", "labels:", "9", "Overall", "(sMerge)", "-", "98.33%", "(118/120)", "77.12%", "(118/153)"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 525.6,
+    "y2": 625.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Table5-1.png"
+}, {
+  "caption": "Table 6: Performance of sMerge when further supplemented with manual tests.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 558.1930541992188,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Test", "Results", "Strategy", "Precision", "Recall", "𝐼1", "|=", "𝑇1", "∪𝑇2", "and", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "A", "100%", "(30/30)", "93.75%", "(30/32)", "𝐼2", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "B", "88.89%(16/18)", "100%", "(16/16)", "𝐼𝑐𝑎𝑡", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1,", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Concat(A,", "B)", "100%", "(102/102)", "99.03%", "(102/103)", "∃𝑡1", "∈", "𝑇1,", "𝑡2", "∈", "𝑇2", ".", "𝑡1", "⊗", "𝑡2", "Report", "Conflicts", "100%", "(2/2)", "100%", "(2/2)", "Ratio", "of", "cases", "sMerge", "can", "give", "resolutions:", "99.34%", "(152/153)", "Number", "of", "identified", "wrong", "labels:", "12", "Overall", "-", "98.68%", "(150/152)", "98.04%", "(150/153)"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 116.64,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Table6-1.png"
+}, {
+  "caption": "Figure 9: The example where EvoSuite cannot produce useful tests but GPT-4 can (shibboleth-oidc-3e183a0)",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 459.9963684082031,
+    "y2": 476.58599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Test", "generated", "by", "GPT-4", "(model);", "List<String>", "claimsSupported", "=", "(List<String>)", "result.get(\"claims_supported\");", "//", "check", "if", "\"zone_info\"", "is", "removed", "and", "\"zoneinfo\"", "is", "added.", "assertTrue(\"Should", "contain", "'zoneinfo'\",", "claimsSupported.contains(\"zoneinfo\"));", "assertFalse(\"Should", "not", "contain", "'zone_info'\",", "claimsSupported.contains(\"zone_info\"));", "}", "Model", "model", "=", "new", "BindingAwareModelMap();", "List<String>", "claimsSupportedList", "=", "new", "ArrayList<>();", "claimsSupportedList.add(\"zone_info\");", "Map<String,", "Object>", "entityMap", "=", "new", "HashMap<>();", "entityMap.put(\"issuer\",", "\"http://example.com/\");", "entityMap.put(\"claims_supported\",", "claimsSupportedList);", "model.addAttribute(\"entity\",", "entityMap);", "Map<String,", "Object>", "result", "=", "OidcUtils.buildOidcServer", "(a)", "Conflicting", "code", "@Test", "public", "void", "testBuildOidcServer()", "{", "}", "m.remove(\"service_documentation\");", "m.remove(\"op_policy_uri\");", "m.remove(\"op_tos_uri\");", "return", "m;", "TokenEndpoint.URL);", "m.put(\"userinfo_endpoint\",", "baseUrl", "+", "\"profile\"", "+", "UserInfoEndpoint.URL);", "m.put(\"jwks_uri\",", "baseUrl", "+", "\"profile\"", "+", "JWKPublishingEndpoint.URL);", "+", "final", "List", "claimsSupported", "=", "new", "ArrayList((List)", "m.get(\"claims_supported\"));", "+", "claimsSupported.remove(\"zone_info\");", "+", "claimsSupported.add(\"zoneinfo\");", "+", "m.put(\"claims_supported\",", "claimsSupported);", "final", "Map<String,", "Object>", "m", "=", "Map.class.cast(model.asMap().get(\"entity\"));", "final", "String", "baseUrl", "=", "m.get(\"issuer\").toString();", "m.put(\"token_endpoint\",", "baseUrl", "+", "\"profile\"", "+", "public", "static", "Map<String,", "Object>", "buildOidcServer(final", "Model", "model)", "{"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 302.4,
+    "y1": 84.96,
+    "y2": 444.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure9-1.png"
+}, {
+  "caption": "Figure 1: The motivating example showing the importance of behavioral differences",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19482421875,
+    "y1": 374.77935791015625,
+    "y2": 391.3689880371094
+  },
+  "figType": "Figure",
+  "imageText": ["}", ">>>>>>>", "Version", "B", "}", "}", "return", "dateMap;", "try", "{", "DateTimeFormatter", "formatter", "=", "DateTimeFormatter.", "ofPattern(format);", "LocalDate", "date", "=", "LocalDate.parse(dateString,", "formatter);", "dateMap.put(\"Year\",", "date.getYear());", "dateMap.put(\"Month\",", "date.getMonthValue());", "dateMap.put(\"Day\",", "date.getDayOfMonth());", "break;", "}", "catch", "(DateTimeParseException", "e)", "{", "continue;", "Map<String,", "Integer>", "dateMap", "=", "new", "HashMap<>();", "List<String>", "formats", "=", "Arrays.asList(\"yyyy-MM-dd“,", ",", "\"dd/MM/yyyy\",", "\"MM-dd-yyyy\",", "\"yyyyMMdd\",", "\"MM/dd/yyyy\");", "for", "(String", "format", ":", "formats)", "{", "}", "=======", "public", "Map<String,", "Integer>", "parseDate(String", "dateString)", "{", "values[i]", "=", "Integer.parseInt(parts[i]);", "}", "dateMap.put(\"Year\",", "values[0]);", "dateMap.put(\"Month\",", "values[1]);", "dateMap.put(\"Day\",", "values[2]);", "return", "dateMap;", "Map<String,", "Integer>", "dateMap", "=", "new", "HashMap<>();", "String[]", "parts", "=", "dateString.split(\"/\");", "int[]", "values", "=", "new", "int[3];", "for", "(int", "i", "=", "0;", "i", "<", "parts.length;", "i++)", "{", "<<<<<<<", "Version", "A", "public", "Map<String,", "Integer>", "parseDate(String", "dateString)", "{"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 84.0,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure1-1.png"
+}, {
+  "caption": "Table 1: Performance of sMerge with only existing tests",
+  "captionBoundary": {
+    "x1": 62.20500183105469,
+    "x2": 285.3385314941406,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Test", "Results", "Strategy", "Precision", "Recall", "𝐼1", "|=", "𝑇1", "∪𝑇2", "and", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "A", "66.67%", "(8/12)", "27.59%", "(8/29)", "𝐼2", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "B", "77.78%", "(7/9)", "41.18%", "(7/17)", "𝐼𝑐𝑎𝑡", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1,", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Concat(A,", "B)", "100%", "(24/24)", "22.43%", "(24/107)", "Ratio", "of", "cases", "sMerge", "can", "give", "resolutions:", "29.41%", "(45/153)", "Overall", "-", "86.67%", "(39/45)", "25.49%", "(39/153)"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Table1-1.png"
+}, {
+  "caption": "Table 2: Performance of sMerge with existing tests after correcting wrong ground truths.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6435241699219,
+    "y1": 614.4163208007812,
+    "y2": 631.0059814453125
+  },
+  "figType": "Table",
+  "imageText": ["Test", "Results", "Strategy", "Precision", "Recall", "𝐼1", "|=", "𝑇1", "∪𝑇2", "and", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "A", "83.33%", "(10/12)", "31.25%", "(10/32)", "𝐼2", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "B", "100%", "(9/9)", "56.25%", "(9/16)", "𝐼𝑐𝑎𝑡", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1,", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Concat(A,", "B)", "100%", "(24/24)", "23.3%", "(24/103)", "Number", "of", "identified", "wrong", "labels:", "4", "Overall", "-", "95.56%", "(43/45)", "28.1%", "(43/153)"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 645.6,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Table2-1.png"
+}, {
+  "caption": "Figure 2: The motivating example for the importance of tests",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0346374511719,
+    "y1": 276.6293640136719,
+    "y2": 282.260009765625
+  },
+  "figType": "Figure",
+  "imageText": ["5-Step", "Method", "Call", "Chain", "of", "Version", "A", "Service.java", "Spark.java", "throw", "new", "HaltException();", "new", "Service()", "ignite()", "SingletonHolder.INSTANCE;", "getInstance().halt(status,", "body)", "throw", "new", "HaltException(status,", "body);", ">>>>>>>", "Version", "B", "getInstance().halt(status,", "body);", "=======", "public", "static", "HaltException", "halt(int", "status,", "String", "body)", "{", "<<<<<<<", "Version", "A", "public", "static", "void", "halt(int", "status,", "String", "body)", "{"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Illustrating of merging two branches",
+  "captionBoundary": {
+    "x1": 344.7340087890625,
+    "x2": 531.4150390625,
+    "y1": 202.82333374023438,
+    "y2": 208.4539794921875
+  },
+  "figType": "Figure",
+  "imageText": ["Branch", "B", "Merge", "Commit", "Branch", "A", "Common", "Base", "𝑪𝒃", "𝑪𝒂"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 534.24,
+    "y1": 84.0,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure3-1.png"
+}, {
+  "caption": "Table 4: Performance after further supplemented by GPT-4.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1385498046875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Test", "Results", "Strategy", "Precision", "Recall", "𝐼1", "|=", "𝑇1", "∪𝑇2", "and", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "A", "100%", "(21/21)", "65.62%", "(21/32)", "𝐼2", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "B", "91.67%", "(11/12)", "68.75%", "(11/16)", "𝐼𝑐𝑎𝑡", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1,", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Concat(A,", "B)", "100%", "(77/77)", "74.76%", "(77/103)", "∃𝑡1", "∈", "𝑇1,", "𝑡2", "∈", "𝑇2", ".", "𝑡1", "⊗", "𝑡2", "Report", "Conflicts", "100%", "(1/1)", "50%", "(1/2)", "Ratio", "of", "cases", "sMerge", "can", "give", "resolutions:", "72.55%", "(111/153)", "Number", "of", "identified", "wrong", "labels:", "9", "Overall", "-", "99.1%", "(110/111)", "71.9%", "(110/153)"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Table4-1.png"
+}, {
+  "caption": "Table 3: Performance after supplemented by EvoSuite.",
+  "captionBoundary": {
+    "x1": 63.927001953125,
+    "x2": 283.6119079589844,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Test", "Results", "Strategy", "Precision", "Recall", "𝐼1", "|=", "𝑇1", "∪𝑇2", "and", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "A", "90%", "(18/20)", "56.25%", "(18/32)", "𝐼2", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1", "̸", "|=", "𝑇1", "∪𝑇2", "Select", "B", "90.91%", "(10/11)", "62.5%", "(10/16)", "𝐼𝑐𝑎𝑡", "|=", "𝑇1", "∪𝑇2", "and", "𝐼1,", "𝐼2", "̸", "|=", "𝑇1", "∪𝑇2", "Concat(A,", "B)", "100%", "(44/44)", "42.72%", "(44/103)", "Ratio", "of", "cases", "sMerge", "can", "give", "resolutions:", "49.02%", "(75/153)", "Number", "of", "identified", "wrong", "labels:", "6", "Overall", "-", "96%", "(72/75)", "37.5%", "(72/153)"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Table3-1.png"
+}, {
+  "caption": "Figure 4: The overview of sMerge",
+  "captionBoundary": {
+    "x1": 239.80099487304688,
+    "x2": 372.19879150390625,
+    "y1": 264.4001159667969,
+    "y2": 270.031005859375
+  },
+  "figType": "Figure",
+  "imageText": ["Behavior", "Conflicts", "Concat", "(𝐴,", "𝐵)", "Select", "𝐵", "Select", "𝐴", "Conflicting", "Tests", "Resolutions", "A’s", "Passed", "Tests", "AB’s", "Passed", "Tests", "B’s", "Passed", "Tests", "Test", "Generation", "Test", "Execution", "Conflict", "Resolution", "Manually", "Written", "GPT", "based", "Search", "based", "Testing", "Results", "Code", "𝐵", "Code", "𝐴", "Tests", "for", "𝐵", "Tests", "for", "𝐴"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 116.64,
+    "x2": 495.35999999999996,
+    "y1": 82.56,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Case 2: two versions have behavioral conflicts (traccar-8a696af)",
+  "captionBoundary": {
+    "x1": 53.52000045776367,
+    "x2": 294.0470886230469,
+    "y1": 412.51409912109375,
+    "y2": 429.10400390625
+  },
+  "figType": "Figure",
+  "imageText": ["...", "return", "formatTextCommand(channel,", "command,", "\"FLOWER,%s\",", "Command.KEY_DATA);", "<<<<<<<", "Version", "A", "return", "formatTextCommand(channel,", "command,", "\"LZ,{%s},{%s}\",", "Command.KEY_LANGUAGE,", "Command.KEY_TIMEZONE);", "=======", "return", "formatTextCommand(channel,", "command,", "\"LZ,,%s\",", "Command.KEY_TIMEZONE);", ">>>>>>>", "Version", "B", "case", "Command.TYPE_SET_INDICATOR:", "...", "case", "Command.TYPE_SET_TIMEZONE:", "protected", "Object", "encodeCommand(Channel", "channel,", "Command", "command)", "{", "switch", "(command.getType())", "{"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 290.88,
+    "y1": 288.96,
+    "y2": 398.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694993-Figure5-1.png"
+}]

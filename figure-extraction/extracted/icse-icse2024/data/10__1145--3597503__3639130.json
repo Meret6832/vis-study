@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 1: Running example: System with software architecture documentation, software architecture model, and code1.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6432189941406,
+    "y1": 290.6403503417969,
+    "y2": 307.2300109863281
+  },
+  "figType": "Figure",
+  "imageText": ["Controller", "Authenticator", "auth", "service", "preferences", "Products", "Users", "dataaccess", "Code", "com.example", "Model", "Software", "Architecture", "Documentation", "Software", "Architecture", "The", "controller", "receives", "incoming", "requests", "and", "verifies", "them.", "Then,", "it", "answers", "requests", "querying", "the", "persistence", "component.", "Controller", "DataPersistence"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 286.56,
+    "y1": 89.28,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Figure1-1.png"
+}, {
+  "caption": "Figure 6: The computational graph of ArCoTL",
+  "captionBoundary": {
+    "x1": 80.80599975585938,
+    "x2": 267.0297546386719,
+    "y1": 252.58932495117188,
+    "y2": 258.219970703125
+  },
+  "figType": "Figure",
+  "imageText": ["Filter", "Input:", "SAM,", "Code", "Output:", "Trace", "Links", "Max", "Interf.Prov.", "Filter", "Comp.Rel.", "CommonW.", "Filter", "Inherit.", "FirstA", "Max", "BestC", "BestA+C", "BestA+C", "NameComp", "Package", "NameInterf", "Methods", "Path", "AmbigPkg.", "BestA+C", "Max", "C", "A", "Architecture", "Code", "Information", "Flow", "Aggregator", "Standalone", "Heuristic", "Dependent", "Heuristic", "Legend:"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 289.44,
+    "y1": 84.0,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Figure6-1.png"
+}, {
+  "caption": "Table 3: Results for TLR between documentation and code",
+  "captionBoundary": {
+    "x1": 187.9439697265625,
+    "x2": 423.74969482421875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["MS", "TS", "TM", "BBB", "JR", "Avg.", "w.", "Avg.", "Approach", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "P", "R", "F1", "TAROT", ".09", ".24", ".13", ".19", ".44", ".27", ".06", ".32", ".11", ".07", ".18", ".10", ".32", "1.0", ".49", ".15", ".44", ".22", ".19", ".63", ".29", "FTLR", ".15", ".26", ".19", ".19", ".25", ".21", ".06", ".30", ".10", ".04", ".42", ".07", ".32", ".93", ".48", ".15", ".43", ".21", ".19", ".59", ".28", "CodeBERT", ".29", ".12", ".17", ".26", ".57", ".36", ".09", ".22", ".12", ".07", ".49", ".12", ".49", ".83", ".61", ".24", ".45", ".28", ".28", ".53", ".36", "ArDoCode", ".05", ".66", ".09", ".20", ".74", ".31", ".37", ".92", ".53", ".07", ".57", ".13", ".66", "1.0", ".80", ".27", ".78", ".37", ".47", ".92", ".62", "TransArC", "1.0", ".52", ".68", "1.0", ".71", ".83", ".71", ".91", ".80", ".77", ".91", ".84", ".89", "1.0", ".94", ".87", ".81", ".82", ".81", ".94", ".87"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Table3-1.png"
+}, {
+  "caption": "Figure 2: High-level view of the TransArC approach for linking SADs and code usingArDoCo [25] and our novel ArCoTL.",
+  "captionBoundary": {
+    "x1": 53.79789733886719,
+    "x2": 295.64300537109375,
+    "y1": 170.88638305664062,
+    "y2": 187.47601318359375
+  },
+  "figType": "Figure",
+  "imageText": ["ArDoCo", "ArCoTL", "CodeSoftware", "Architecture", "Models", "Software", "Architecture", "Documentation"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 288.0,
+    "y1": 82.56,
+    "y2": 153.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Figure2-1.png"
+}, {
+  "caption": "Table 1: Number of artifacts per artifact type and number of trace links in the gold standard for each project",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03363037109375,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["SAM-Code", "#", "Trace", "links", "60", "164", "1,616", "730", "1,956", "SAD-Code", "#", "Trace", "links", "50", "707", "7,610", "1,295", "8,240", "SAD", "#", "Sentences", "37", "43", "198", "85", "13", "SAM", "#", "Model", "elements", "23", "19", "16", "24", "6", "Code", "#", "Files", "97", "205", "832", "547", "1,979", "Artifact", "Type", "MS", "TS", "TM", "BBB", "JR"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 116.64,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Table1-1.png"
+}, {
+  "caption": "Figure 3: Overview of the ArDoCo approach [25]",
+  "captionBoundary": {
+    "x1": 339.9949951171875,
+    "x2": 536.153076171875,
+    "y1": 177.85037231445312,
+    "y2": 183.48101806640625
+  },
+  "figType": "Figure",
+  "imageText": ["Traceability", "Link", "Recovery", "Trace", "Links", "Architecture", "Documentation", "Architecture", "Model", "Element", "Connection", "Element", "Identification", "Model", "Extraction", "Text", "Extraction"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Figure3-1.png"
+}, {
+  "caption": "Table 2: Results for TLR between models and code",
+  "captionBoundary": {
+    "x1": 72.135009765625,
+    "x2": 275.4032287597656,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Average", "0.98", "0.99", "0.98", "weighted", "Average", "0.99", "0.99", "0.99", "MediaStore", "(MS)", "0.98", "1.00", "0.99", "TeaStore", "(TS)", "0.98", "0.98", "0.98", "TEAMMATES", "(TM)", "1.00", "1.00", "1.00", "BigBlueButton", "(BBB)", "0.94", "0.96", "0.95", "JabRef", "(JR)", "1.00", "1.00", "1.00", "Project", "Precision", "Recall", "F1-score"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 276.0,
+    "y1": 105.6,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Table2-1.png"
+}, {
+  "caption": "Figure 4: Intermediate model for architecture models",
+  "captionBoundary": {
+    "x1": 66.18599700927734,
+    "x2": 281.64794921875,
+    "y1": 161.74234008789062,
+    "y2": 167.37298583984375
+  },
+  "figType": "Figure",
+  "imageText": ["**", "signatures", "*", "required", "*", "*", "provided", "*", "subcomponents", "*", "Component", "Interface", "Signature", "Entity", "ArchitectureItem"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Intermediate model for code",
+  "captionBoundary": {
+    "x1": 361.49700927734375,
+    "x2": 514.6541748046875,
+    "y1": 269.3643493652344,
+    "y2": 274.9949951171875
+  },
+  "figType": "Figure",
+  "imageText": ["*", "0..1", "0..1", "*", "*", "*", "*", "*", "*", "extendedTypes", "implementedTypes0..1", "codeElements", "codeElements", "codeElements", "CodeAssembly", "CompilationUnit", "Package", "Module", "ClassUnit", "InterfaceUnit", "Datatype", "Control", "Element", "Computational", "Object", "CodeItem", "Entity"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 546.24,
+    "y1": 84.0,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639130-Figure5-1.png"
+}]

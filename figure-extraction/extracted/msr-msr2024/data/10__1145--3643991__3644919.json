@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 2: The numbers of SZZ-based latent vulnerable functions that were originally labeled as vulnerable, originally labeled as non-vulnerable, or missing in the Big-Vul and Devign datasets. Note: The percentages of row-wise values computed with respect to the total number of latent vulnerable functions in each dataset are in parentheses.",
+  "captionBoundary": {
+    "x1": 317.66070556640625,
+    "x2": 559.8114013671875,
+    "y1": 87.06068420410156,
+    "y2": 146.15228271484375
+  },
+  "figType": "Table",
+  "imageText": ["Big-Vul", "560", "(1.6%)", "519", "(1.5%)", "33,621", "(96.9%)", "34,700", "Devign", "5,610", "(8.6%)", "4,551", "(6.9%)", "55,375", "(84.5%)", "65,536", "Total", "6,170", "(6.2%)", "5,070", "(5.1%)", "88,996", "(88.7%)", "100,236", "Missing", "Total", "Dataset", "Orginally", "vulnerable", "Originally", "non-vuln."],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 554.4,
+    "y1": 160.79999999999998,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644919-Table2-1.png"
+}, {
+  "caption": "Figure 1: Procedure of current datasets for collecting vulnerable functions/lines from vulnerability-fixing commits.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.8081665039062,
+    "y1": 246.69862365722656,
+    "y2": 261.9525146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Vulnerable", "line", "Prior-fix", "version:", "Vulnerable", "function", "function", "foo(){", "...", "-", "...", "+", "...", "...", "}", "File", "fn", "File", "f2", "File", "f1"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644919-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An exemplary latent vulnerable function existing between its introduction and fixing commits in the FFmpeg project. Note: This latent vulnerable function was originally labeled as non-vulnerable, as it belonged to a nonvulnerability fixing commit of the Devign dataset [71]. Its name was changed in one of the intermediate commits.",
+  "captionBoundary": {
+    "x1": 53.56031036376953,
+    "x2": 295.6502990722656,
+    "y1": 213.37049865722656,
+    "y2": 272.46051025390625
+  },
+  "figType": "Figure",
+  "imageText": ["First", "Vulnerable", "Function", "int", "i,", "count,", "ret", "=", "0,", "j;", "...", "-", "...", "//", "Changes", "unrelated", "to", "the", "count", "variable", "}", "Latent", "Vulnerable", "Function", "int", "avformat_find_stream_info(AVFormatContext", "*ic,", "AVDictionary", "**options){", "+", "int", "av_find_stream_info(AVFormatContext", "*ic){", "+", "...", "+", "int", "i,", "count,", "ret,", "got_picture,", "size,", "read_size;", "+", "...", "+", "}", "SZZ", "algorithm", "258", "Vulnerability-Introducing", "Commit:", "b9a281d", "(Vi)", "Existing", "Non-Vulnerability", "Fixing", "Commit", "(Vk):", "655b6dc", "(Vi", "<", "Vk", "<", "Vf", ")", "int", "avformat_find_stream_info(AVFormatContext", "*ic,", "AVDictionary", "**options){", "-", "int", "i,", "count,", "ret", "=", "0,", "j;", "+", "int", "i,", "count", "=", "0,", "ret", "=", "0,", "j;", "...", "}", "Original", "Vulnerable", "Function", "Vulnerability-Fixing", "Commit:", "7f5c6ea", "(Vf)"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 84.0,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644919-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Workflow of evaluating the impacts of latent vulnerable functions on function-level and line-level SV predictions. Note: SVP stands for SV prediction.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 559.7392578125,
+    "y1": 259.1916198730469,
+    "y2": 274.44561767578125
+  },
+  "figType": "Figure",
+  "imageText": ["Latent", "vulnerable", "V-SZZ", "Algorithm", "Original", "vulnerable", "SV", "Noise", "Reduction", "Deep", "Learning-based", "SV", "Prediction", "(LineVul)", "Repeated", "10", "times", "Model", "Training", "Model", "Evaluation", "Original", "non-", "vulnerable", "RQ3", "line-level", "RQ2", "function-level"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 552.0,
+    "y1": 84.47999999999999,
+    "y2": 240.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644919-Figure4-1.png"
+}, {
+  "caption": "Table 1: The numbers of vulnerable functions, nonvulnerable functions, and SZZ-based latent vulnerable functions in the Big-Vul and Devign datasets used in this study.",
+  "captionBoundary": {
+    "x1": 317.65960693359375,
+    "x2": 559.810302734375,
+    "y1": 87.06227111816406,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["collect", "the", "non-vulnerable", "functions,", "as", "mentioned", "above.", "Ac-", "cordingly,", "Big-Vul", "has", "an", "imbalanced", "ratio", "between", "vulnerable", "and", "non-vulnerable", "functions,", "while", "Devign", "possesses", "a", "nearly", "balanced", "distribution", "between", "the", "two", "classes.", "Such", "differences", "help", "enhance", "the", "generalizability", "of", "our", "study.", "Big-Vul", "5,554", "151,801", "3.5%", "34,700", "Devign", "19,317", "24,369", "44.2%", "65,536", "Total", "24,871", "176,170", "12.4%", "100,236", "Vuln.", "functions", "Non-vuln.", "functions", "%", "Vuln.", "functions", "Latent", "vuln.", "functions", "Dataset", "Data", "composition"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 560.16,
+    "y1": 127.67999999999999,
+    "y2": 260.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644919-Table1-1.png"
+}, {
+  "caption": "Table 3: Average and best results of function-level and line-level SV predictions using LineVul on the original functions in the testing sets, with and without using latent vulnerable functions. Notes: The best values of the models among the 10 runs are in parentheses. The best row-wise values are in gray. For MFR and Effort@20%Recall: the lower is the better.",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 558.2009887695312,
+    "y1": 87.06227111816406,
+    "y2": 113.27532958984375
+  },
+  "figType": "Table",
+  "imageText": ["Top-10", "Accuracy", "0.820", "(0.835)", "0.843", "(0.855)", "0.846", "(0.870)", "0.843", "(0.865)", "0.847", "(0.870)", "MFR", "4.840", "(4.715)", "4.716", "(4.570)", "4.640", "(4.310)", "4.913", "(4.630)", "4.581", "(4.265)", "Effort@20%Recall", "0.049", "(0.044)", "0.033", "(0.030)", "0.034", "(0.031)", "0.034", "(0.030)", "0.032", "(0.029)", "Recall@1%LOC", "0.062", "(0.069)", "0.086", "(0.094)", "0.082", "(0.087)", "0.083", "(0.092)", "0.087", "(0.095)", "RQ3", "(Line-", "level)", "RQ2", "(Function-", "level)", "F1-Score", "0.411", "(0.438)", "0.482", "(0.500)", "0.473", "(0.486)", "0.460", "(0.468)", "0.489", "(0.506)", "Precision", "0.571", "(0.613)", "0.437", "(0.451)", "0.473", "(0.506)", "0.435", "(0.460)", "0.474", "(0.515)", "Recall", "0.347", "(0.361)", "0.573", "(0.636)", "0.525", "(0.590)", "0.520", "(0.543)", "0.554", "(0.619)", "Average", "Top-10", "Accuracy", "0.838", "(0.850)", "0.856", "(0.860)", "0.868", "(0.890)", "0.862", "(0.880)", "0.870", "(0.890)", "MFR", "4.454", "(4.380)", "4.426", "(4.310)", "4.126", "(3.790)", "4.438", "(4.380)", "4.226", "(4.080)", "Effort@20%Recall", "0.069", "(0.061)", "0.041", "(0.038)", "0.043", "(0.038)", "0.043", "(0.038)", "0.042", "(0.038)", "Recall@1%LOC", "0.063", "(0.069)", "0.072", "(0.074)", "0.071", "(0.074)", "0.070", "(0.074)", "0.073", "(0.076)", "RQ3", "(Line-", "level)", "RQ2", "(Function-", "level)", "F1-Score", "0.531", "(0.547)", "0.613", "(0.627)", "0.606", "(0.613)", "0.599", "(0.604)", "0.617", "(0.629)", "Precision", "0.637", "(0.684)", "0.489", "(0.506)", "0.502", "(0.553)", "0.495", "(0.509)", "0.504", "(0.543)", "Recall", "0.489", "(0.482)", "0.825", "(0.909)", "0.775", "(0.881)", "0.758", "(0.784)", "0.803", "(0.894)", "Devign", "Top-10", "Accuracy", "0.802", "(0.820)", "0.830", "(0.850)", "0.824", "(0.870)", "0.824", "(0.850)", "0.824", "(0.850)", "MFR", "5.226", "(5.050)", "5.006", "(4.830)", "5.154", "(4.830)", "5.388", "(4.880)", "4.936", "(4.450)", "Effort@20%Recall", "0.028", "(0.027)", "0.024", "(0.022)", "0.024", "(0.023)", "0.024", "(0.022)", "0.022", "(0.021)", "Recall@1%LOC", "0.060", "(0.069)", "0.092", "(0.099)", "0.092", "(0.099)", "0.095", "(0.109)", "0.100", "(0.114)", "RQ3", "(Line-", "level)", "RQ2", "(Function-", "level)", "F1-Score", "0.290", "(0.328)", "0.350", "(0.372)", "0.339", "(0.359)", "0.321", "(0.332)", "0.361", "(0.383)", "Precision", "0.504", "(0.542)", "0.385", "(0.396)", "0.444", "(0.458)", "0.374", "(0.410)", "0.444", "(0.486)", "Recall", "0.204", "(0.239)", "0.321", "(0.362)", "0.275", "(0.299)", "0.282", "(0.301)", "0.305", "(0.344)", "Big-Vul", "Baseline", "(w/o", "latent", "SVs)", "Models", "using", "original", "and", "latent", "SVs", "W/o", "noise", "-reduction", "LIC", "ST", "CR", "Dataset", "Research", "question", "(RQ)", "Evaluation", "measure"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 542.4,
+    "y1": 127.67999999999999,
+    "y2": 362.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644919-Table3-1.png"
+}, {
+  "caption": "Figure 3: An example of using V-SZZ to identify the Vulnerability-Introducing Commit from a Vulnerability-Fixing Commit with intermediate commits performing only refactoring. Notes: The arrows show the tracking of the original vulnerable line for (i = 0; i < name_len; i++) across commits. The commits were taken from the FFmpeg project of the Devign dataset.",
+  "captionBoundary": {
+    "x1": 53.449100494384766,
+    "x2": 558.2080078125,
+    "y1": 231.45558166503906,
+    "y2": 257.66851806640625
+  },
+  "figType": "Figure",
+  "imageText": ["Vulnerability-Introducing", "Commit:", "Affected", "File:", "Code", "Diff:", "...", "}", "...", "+", "for(i=0;i<name_len;i++){", "+", "get_byte(pb);", "+", "}", "static", "int", "asf_read_header(AVFormatContext", "*s,", "AVFormatParameters", "*ap)", "}", "...", "+", "asf_read_marker(s,", "gsize);", "-", "for(i=0;i<name_len;i++){", "-", "get_byte(pb);", "-", "}", "...", "static", "int", "asf_read_header(AVFormatContext", "*s,", "AVFormatParameters", "*ap)", "Intermediate", "Commit", "2:", "Affected", "File:", "Code", "Diff:", "+", "static", "int", "asf_read_marker(AVFormatContext", "*s,", "int64_t", "size)", "+", "...", "+", "for(i=0;i<name_len;i++){", "+", "get_byte(pb);", "+", "}", "+", "...", "+", "}", "Intermediate", "Commit", "1:", "Affected", "File:", "Code", "Diff:", "...", "}", "avio_r8(pb);", "-", "}", "...", "-", "for(i=0;i<name_len;i++){", "+", "for", "(i", "=", "0;", "i", "<", "name_len;", "i++)", "static", "int", "asf_read_marker(AVFormatContext", "*s,", "int64_t", "size)", "Vulnerability-Fixing", "Commit:", "Affected", "File:", "Code", "Diff:", "...", "}", "...", "}", "for", "(i", "=", "0;", "i", "<", "count;", "i++)", "{", "int64_t", "pres_time;", "int", "name_len;", "+", "if", "(avio_feof(pb))", "+", "return", "AVERROR_INVALIDDATA;", "...", "-", "for", "(i", "=", "0;", "i", "<", "name_len;", "i++)", "-", "avio_r8(pb);", "+", "avio_skip(pb,", "name_len);", "static", "int", "asf_read_marker(AVFormatContext", "*s,", "int64_t", "size)"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 556.3199999999999,
+    "y1": 84.0,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644919-Figure3-1.png"
+}]

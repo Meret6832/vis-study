@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 3: Paths to Long-Term Contribution. Definitions of pathways appear in Section 3.2.2.",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 559.7166748046875,
+    "y1": 213.34036254882812,
+    "y2": 229.92999267578125
+  },
+  "figType": "Table",
+  "imageText": ["Social-technical", "118", "22.74%", "4", "1.94%", "35", "24.31%", "Accelerated", "22", "4.24%", "5", "2.43%", "4", "2.78%", "Technical-social", "56", "10.79%", "13", "6.31%", "16", "11.11%", "Technical", "323", "62.24%", "184", "89.32%", "89", "61.81%", "Coq", "Lean", "Isabelle", "#", "%", "#", "%", "#", "%"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 240.0,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Table3-1.png"
+}, {
+  "caption": "Table 2: Developer Tenures. Tenure categories are described in Section 3.2.2.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1972045898438,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["New", "Member", "33", "3.41%", "13", "3.05%", "2", "1.00%", "One", "Contribution", "88", "9.10%", "24", "5.63%", "28", "13.93%", "One", "Day", "156", "16.13%", "40", "9.39%", "9", "4.48%", "Short-Term", "171", "17.68%", "143", "33.57%", "18", "8.96%", "Long-Term", "519", "53.67%", "206", "48.36%", "144", "71.64%", "Coq", "Lean", "Isabelle", "#", "%", "#", "%", "#", "%"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 564.0,
+    "y1": 111.83999999999999,
+    "y2": 199.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Table2-1.png"
+}, {
+  "caption": "Figure 2: Kaplan-Meier Contributor Survival Curves. Contributor survival probability by number of days active in the community based on contribution type (technical or social and technical contributions) with 95% confidence interval.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.4232177734375,
+    "y1": 244.25637817382812,
+    "y2": 260.84600830078125
+  },
+  "figType": "Figure",
+  "imageText": ["1(c)", "Lean", "ab", "ili", "ty", "Su", "rv", "iv", "al", "Pr", "ob", "1.0", "0.8", "0.6", "0.4", "0.2", "0", "500", "1000", "1500", "2000", "2500", "3000", "3500", "Days", "1(b)", "Isabelle", "ab", "ili", "ty", "Su", "rv", "iv", "al", "Pr", "ob", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0", "2000", "4000", "6000", "8000", "10000", "12000", "Days", "1(a)", "Coq", "ab", "ili", "ty", "Su", "rv", "iv", "al", "Pr", "ob", "1.0", "0.8", "0.6", "0.4", "0.2", "0.0", "0", "2000", "4000", "6000", "8000", "Days", "Technical", "Only", "Social", "and", "Technical"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 237.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Number of Commits vs. Theorems Proven. For each ecosystem, we depicted the number of commits made to its main repository (blue line), the number of commits made to its math library (green line), the number of theorems from the “100 Theorems” list proven (orange line) in the 90-day period before each point in time.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.191162109375,
+    "y1": 436.6673583984375,
+    "y2": 464.21600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["1(c)", "Lean", "Th", "eo", "re", "m", "s", "12", "10", "8", "6", "4", "2", "0", "m", "it", "s", "C", "om", "2000", "1750", "1500", "1250", "1000", "750", "500", "250", "0", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "Year", "1(b)", "Isabelle", "Th", "eo", "re", "m", "s", "7", "6", "5", "4", "3", "2", "1", "0", "m", "it", "s", "C", "om", "2000", "1500", "1000", "500", "0", "1996", "2000", "2004", "2008", "2012", "2016", "2020", "2024", "Year", "1(a)", "Coq", "Th", "eo", "re", "m", "s", "8", "7", "6", "5", "4", "3", "2", "1", "0", "m", "it", "s", "C", "om", "4000", "3500", "3000", "2500", "2000", "1500", "1000", "500", "0", "2000", "2004", "2008", "2012", "2016", "2020", "2024", "Year", "Proof", "Assistant", "Math", "Library", "Theorems", "Proven"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 553.92,
+    "y1": 276.0,
+    "y2": 431.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Figure3-1.png"
+}, {
+  "caption": "Table 1: Subject Areas. For each subject area, we give a brief description of the type of work included in that subject area.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1935424804688,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["areas", "Subject", "Area", "Description", "Algebra", "Polynomials,", "groups,", "rings,", "fields,", "etc.,", "and", "their", "applications", "Analysis", "Continuous", "functions", "and", "their", "extensions,", "such", "as", "calculus", "Geometry", "Shapes", "and", "surfaces.We", "include", "topology", "in", "this", "subject", "area", "Logic", "Formal", "reasoning,", "languages", "(automata),", "and", "meta-reasoning", "thereof", "Data", "structures", "Organization", "and", "manipulation", "of", "data", "Platform", "Language", "features,", "extensions", "for", "automated", "reasoning,", "and", "tooling", "Metatheorems", "Reasoning", "about", "the", "proof", "assistant", "itself", "or", "its", "underlying", "logical", "theory", "Other", "Work", "not", "belonging", "in", "any", "of", "the", "above", "subject"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 109.92,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Table1-1.png"
+}, {
+  "caption": "Table 4: 100 Theorems Benchmark Correlations. Number of Commits vs. Theorems Proven Correlations. For each ecosystem, we list the Pearson correlation coefficient (𝑟 ) and Kendall’s tau value (𝜏) between the number of commits made to its main repository (Assistant) and to its math library (Library) compared to the number of theorems from the “100 Theorems” list proven in a 90-day period. The two-sided p-value (𝑝) is provided for each reported correlation.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5544738769531,
+    "y1": 85.72634887695312,
+    "y2": 168.07000732421875
+  },
+  "figType": "Table",
+  "imageText": ["Library", "0.172", "1.92", "·", "10", "−4", "0.135", "2.22", "·", "10", "−2", "Coq", "Assistant", "0.112", "1.37", "·", "10", "−2", "0.095", "1.06", "·", "10", "−1", "Library", "0.090", "3.56", "·", "10", "−2", "0.161", "2.17", "·", "10", "−3", "Isabelle", "Assistant", "0.139", "7.22", "·", "10", "−4", "0.101", "5.42", "·", "10", "−2", "Library", "0.606", "2.50", "·", "10−17", "0.496", "8.18", "·", "10", "−9", "Lean", "Assistant", "−0.433", "1.84", "·", "10−10", "−0.538", "2.44", "·", "10−10", "Kendall", "Pearson", "𝜏", "𝑝", "𝑟", "𝑝"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 182.88,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Table4-1.png"
+}, {
+  "caption": "Table 5: Developer Subject Area Subsets. Definitions of subject areas and core vs peripheral developers appear in Section 3.1. We show only the subsets with top five highest counts in each list.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.5204467773438,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Subset", "Count", "Other", "61", "Algebra,", "Analysis,", "Data", "Structures,", "Geometry,", "Logic,", "Metatheorems,", "Other", "42", "Algebra", "39", "Algebra,", "Other", "37", "None", "29", "(f)", "Lean", "Peripheral", "Developers.", "Subset", "Count", "Other", "41", "None", "16", "Logic", "15", "Data", "Structures,", "Other,", "Platform", "10", "Algebra", "5", "(e)", "Isabelle", "Peripheral", "Developers.", "Subset", "Count", "None", "228", "Platform", "134", "Other", "104", "Data", "Structures", "85", "Data", "Structures,", "Other", "69", "(d)", "Coq", "Peripheral", "Developers.", "Subset", "Count", "Algebra,", "Analysis,", "Data", "Structures,", "Geometry,", "Logic,", "Metatheorems,", "Other", "33", "Algebra,", "Analysis,", "Data", "Structures,", "Geometry,", "Logic,", "Metatheorems,", "Other,", "Platform", "24", "Algebra,", "Analysis,", "Geometry,", "Logic,", "Other", "2", "Data", "Structures,", "Platform", "2", "Algebra,", "Analysis,", "Geometry,", "Logic,", "Metatheo-", "rems,", "Other", "1", "(c)", "Lean", "Core", "Developers.", "Subset", "Count", "Algebra,", "Analysis,", "Data", "Structures,", "Geometry,", "Logic,", "Metatheorems,", "Other,", "Platform", "18", "Algebra,", "Analysis,", "Data", "Structures,", "Geometry,", "Logic,", "Metatheorems,", "Other", "4", "Algebra,", "Data", "Structures,", "Logic,", "Metatheorems,", "Other,", "Platform", "3", "Algebra,", "Analysis,", "Data", "Structures,", "Logic,", "Metatheorems,", "Other,", "Platform", "2", "Analysis,", "Data", "Structures,", "Logic,", "Metatheorems,", "Other,", "Platform", "2", "(b)", "Isabelle", "Core", "Developers.", "Subset", "Count", "Algebra,", "Analysis,", "Data", "Structures,", "Geometry,", "Logic,", "Other,", "Platform", "29", "Data", "Structures,", "Other,", "Platform", "22", "Data", "Structures,", "Platform", "18", "Data", "Structures,", "Other", "14", "Platform", "12", "(a)", "Coq", "Core", "Developers."],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 111.83999999999999,
+    "y2": 285.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Table5-1.png"
+}, {
+  "caption": "Figure 4: Specialists by Subject Area. Each bar represents the number of specialists in a suubject area for a given ecosystem for core and peripheral developers that exhibited specialization. No bar indicates that there were no specialists for that subject area in the community.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.18408203125,
+    "y1": 465.27435302734375,
+    "y2": 481.864013671875
+  },
+  "figType": "Figure",
+  "imageText": ["1(c)", "Lean", "Sp", "ec", "ia", "lis", "ts", "be", "r", "of", "N", "um", "80", "70", "60", "50", "40", "30", "20", "10", "0", "Subject", "Area", "Algebra", "Analysis", "Data", "Structures", "Geometry", "Platform", "Logic", "Metatheorems", "1(b)", "Isabelle", "Sp", "ec", "ia", "lis", "ts", "be", "r", "of", "N", "um", "12", "10", "8", "6", "4", "2", "0", "Subject", "Area", "Algebra", "Analysis", "Data", "Structures", "Geometry", "Platform", "Logic", "Metatheorems", "1(a)", "Coq", "Sp", "ec", "ia", "lis", "ts", "be", "r", "of", "N", "um", "200", "175", "150", "125", "100", "75", "50", "25", "0", "Subject", "Area", "Algebra", "Analysis", "Data", "Structures", "Geometry", "Platform", "Logic", "Metatheorems", "Core", "Peripheral"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 553.4399999999999,
+    "y1": 298.56,
+    "y2": 455.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Figure4-1.png"
+}, {
+  "caption": "Table 6: Specialist Proportions. Specialist methodology is described in Section 3.1.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5521545410156,
+    "y1": 502.1363525390625,
+    "y2": 518.7260131835938
+  },
+  "figType": "Table",
+  "imageText": ["Coq", "148", "58.78%", "485", "56.08%", "Isabelle", "37", "8.11%", "106", "29.25%", "Lean", "65", "24.62%", "302", "39.40%", "Core", "Peripheral", "#", "%", "#", "%"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 285.12,
+    "y1": 533.76,
+    "y2": 599.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Table6-1.png"
+}, {
+  "caption": "Figure 1: Contributor Overlap. Overall (a) includes contributions via GitHub and by mailing list/chat, while GitHub (b) only includes contributors who participated in that project’s GitHub activities. Core (c) shows all developers who were classified as a “core” developer of at least one platform, and Core GitHub (d) shows only the GitHub contributions of those core developers.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.18603515625,
+    "y1": 200.45333862304688,
+    "y2": 228.00201416015625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "Core", "GitHub", "2", "7", "1", "1", "Isabelle", "Coq", "Lean", "37", "144", "58", "(c)", "Core", "10", "15", "13", "3", "Isabelle", "Coq", "Lean", "29", "128", "52", "(b)", "GitHub", "2", "17", "4", "3", "Isabelle", "Coq", "Lean", "192", "944", "404", "(a)", "Overall", "28", "81", "459", "30", "Isabelle", "Coq", "Lean", "1653", "2584", "2407"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 538.0799999999999,
+    "y1": 86.39999999999999,
+    "y2": 194.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644908-Figure1-1.png"
+}]

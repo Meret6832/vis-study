@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 4: Overhead of debloating binaries — steps (A – D) and (A) in Figure 1 — with LeanBin and lifting with Instrew for SPEC CPU2006 INT benchmarks normalized to the native execution time on a single core.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1781005859375,
+    "y1": 271.1993713378906,
+    "y2": 287.78900146484375
+  },
+  "figType": "Figure",
+  "imageText": ["LeanBin", "(dynamic", "tracing", "+", "static", "lifting)", "LeanBin", "(dynamic", "tracing)", "Instrew", "ov", "er", "he", "ad", "pe", "rf", "or", "m", "an", "ce", "1", "N", "or", "m", "al", "iz", "e", "d", "6.5", "7", "5.5", "6", "4.5", "5", "3.5", "4", "2.5", "3", "1.5", "2", "0.5", "ncbm", "k", "geom", "ean", "483.", "xala", "etpp", "473.", "asta", "r", "471.", "omn", "ref", "464.", "h264", "antu", "m", "462.", "libqu", "benc", "h", "401.", "bzip", "2", "403.", "gcc", "429.", "mcf", "445.", "gobm", "k", "456.", "hmm", "er", "458.", "sjen", "g", "400.", "perl"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.36,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 251.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Figure4-1.png"
+}, {
+  "caption": "Table 1: Absolute single-core lifting time [seconds] of LeanBin, Instrew, RetDec (static) and BinRec [hours], and execution time of the native binary on SPEC CPU2006 INT benchmarks.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1823120117188,
+    "y1": 472.4733581542969,
+    "y2": 489.06298828125
+  },
+  "figType": "Table",
+  "imageText": ["†", "Execution", "time", "measured", "on", "the", "Intel", "platform", "with", "test", "inputs.", "462.libquantum", "(C)", "216", "250", "258", "0.2", "3", "464.h264ref", "(C)", "328", "533", "673", ">24", "178", "471.omnetpp", "(C++)", "245", "380", "499", "1.23", "32", "473.astar", "(C++)", "189", "216", "294", "14.93", "-", "483.xalancbmk", "(C++)", "178", "365", "428", "0.31", "896", "geomean", "177", "285", "337", "1.68", "31", "445.gobmk", "(C)", "173", "330", "263", "0.23", "3", "456.hmmer", "(C)", "173", "182", "329", "-", "-", "458.sjeng", "(C)", "392", "546", "816", "13.34", "16", "Native", "[s]", "LeanBin", "[s]", "Instrew", "[s]", "BinRec", "Intel", "[h]†", "RetDec", "(static)", "[s]", "400.perlbench", "(C)", "124", "231", "372", ">24", "157", "401.bzip2", "(C)", "99", "109", "193", "6.18", "7", "403.gcc", "(C)", "38", "270", "114", "-", "1159", "429.mcf", "(C)", "303", "322", "339", "2.97", "1"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 110.88,
+    "x2": 501.12,
+    "y1": 302.88,
+    "y2": 468.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Table1-1.png"
+}, {
+  "caption": "Figure 5: Coverage of SPEC CPU2006 INT binaries debloated with LeanBin utilizing D, DS1 and DS2 strategies.",
+  "captionBoundary": {
+    "x1": 83.47702026367188,
+    "x2": 528.5042724609375,
+    "y1": 230.12734985351562,
+    "y2": 235.75799560546875
+  },
+  "figType": "Figure",
+  "imageText": ["[%", "]", "D", "DS1", "DS2", "Co", "ve", "ra", "ge", "Co", "de", "100", "75", "50", "25", "ean", "0", "ncbm", "k", "geom", "483.", "xala", "etpp", "473.", "asta", "r", "471.", "omn", "ref", "464.", "h264", "antu", "m", "462.", "libqu", "benc", "h", "401.", "bzip", "2", "403.", "gcc", "429.", "mcf", "445.", "gobm", "k", "456.", "hmm", "er", "458.", "sjen", "g", "400.", "perl"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.4,
+    "x2": 553.4399999999999,
+    "y1": 84.96,
+    "y2": 210.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Figure5-1.png"
+}, {
+  "caption": "Table 4: Comparison of different software debloating tools.",
+  "captionBoundary": {
+    "x1": 186.31301879882812,
+    "x2": 425.3824768066406,
+    "y1": 406.8003234863281,
+    "y2": 412.43096923828125
+  },
+  "figType": "Table",
+  "imageText": ["Type:", "D", "-", "Dynamic,", "S", "-", "Static.", "Scope:", "P", "-", "Program,", "L", "-", "Library,", "K", "-", "Kernel.", "†", "Only", "shared", "libraries", "source", "code", "required.", "Type", "Source", "Scope", "Granularity", "Policy", "Overhead", "Year", "Squeeze", "[18]", "D,", "S", "Binary", "P,", "L", "Basic", "Blocks", "Analysis", "+", "Traces", "No", "2000", "Squeeze++", "[16]", "D,", "S", "Binary", "P,", "L", "Basic", "Blocks", "Analysis", "+", "Traces", "No", "2005", "DIABLO", "[11,", "17,", "52]", "D,", "S", "Binary", "P,", "L,", "K", "Basic", "Blocks", "Analysis", "+", "Traces", "No", "2005", "OCCAM", "[36]", "S", "LLVM", "IR", "P", "Basic", "Blocks", "Analysis", "No", "2015", "Feature", "[30]", "S", "Bytecode", "P", "Functions", "Analysis", "No", "2016", "JRed", "[29]", "S", "Bytecode", "P,", "L", "Functions", "Analysis", "No", "2016", "Shredder", "[38]", "D,", "S", "Binary", "P", "Call", "Sites", "Analysis", "Run-time", "2018", "TOSS", "[12]", "D", "Binary", "P", "Basic", "Blocks", "Config", "+", "Traces", "Debloating", "2018", "Piece-wise", "[43]", "D,", "S", "LLVM", "IR†", "L", "Functions", "Analysis", "Load-time", "2018", "CHISEL", "[27]", "S", "C/C++", "P", "Basic", "Blocks", "Analysis", "+", "Config", "Debloating", "2018", "Perses", "[51]", "S", "C/C++", "P", "Basic", "Blocks", "Analysis", "No", "2018", "BinRec", "[32]", "D", "Binary", "P", "Basic", "Blocks", "Traces", "Debloating", "2018", "RAZOR", "[42]", "D,", "S", "Binary", "P", "Basic", "Blocks", "Analysis", "+", "Traces", "Debloating", "2019", "Shrinking", "[59]", "D,", "S", "Binary", "P,", "L", "Functions", "Analysis", "+", "Traces", "Debloating", "2019", "BinTrimmer", "[45]", "S", "Binary", "P", "Basic", "Blocks", "Analysis", "No", "2019", "ASSS", "[15]", "S", "LLVM", "IR", "P,", "L", "Functions", "Analysis", "No", "2019", "BlankIt", "[41]", "D", "Binary", "L", "Functions", "Analysis", "Run-time", "2020", "Nibbler", "[1]", "S", "Binary", "P,", "L", "Functions", "Analysis", "No", "2020", "DomGad", "[55]", "S", "C/C++", "P", "Basic", "Blocks", "Analysis", "No", "2020", "Guided", "Linking", "[7]", "S", "LLVM", "IR", "P,", "L", "Functions", "Analysis", "No", "2020", "ANCILE", "[10]", "D", "LLVM", "IR", "P", "Basic", "Blocks", "Traces", "Debloating", "2021", "LMCAS", "[3]", "S", "LLVM", "IR", "P", "Basic", "Blocks", "Analysis", "+", "Config", "No", "2021", "TRIMMER", "[2]", "S", "LLVM", "IR", "P", "Basic", "Blocks", "Analysis", "+", "Config", "No", "2021", "uTrimmer", "[58]", "S", "Binary", "P,", "L", "Basic", "Blocks", "Analysis", "No", "2022", "TLASR", "[48]", "D", "Binary", "P,", "L", "Functions", "Analysis", "Run-time", "2023", "OCCAMv2", "[39]", "D,", "S", "LLVM", "IR", "P,", "L", "Basic", "Blocks", "Analysis", "No", "2023", "LeanBin", "D,", "S", "Binary", "P,", "L", "Basic", "Blocks", "Analysis", "+", "Traces", "Debloating", "2024"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 545.28,
+    "y1": 82.56,
+    "y2": 402.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Table4-1.png"
+}, {
+  "caption": "Table 5: Comparison of different binary lifting tools.",
+  "captionBoundary": {
+    "x1": 199.1699981689453,
+    "x2": 412.52490234375,
+    "y1": 557.4453125,
+    "y2": 563.0759887695312
+  },
+  "figType": "Table",
+  "imageText": ["∗", "Static", "Lifters:", "McSema", "[40],", "reopt", "[24],", "SecondWrite", "[5,", "21],", "mctoll", "[56],", "LLBT", "[50],", "RevGen", "[13],", "rev.ng", "[19],", "RetDec", "[6],", "FoxDec", "[53]", "Static", "Lifters∗", "HQEMU", "[28]", "Instrew", "[22]", "BinRec", "[4]", "TOP", "[57]", "LeanBin", "CFG", "Recovery", "Static", "Dynamic", "Dynamic", "Dynamic", "Dynamic", "Hybrid", "Code", "Coverage", "Complete", "Trace", "Trace", "Varies", "Trace", "Varies", "Instructions", "Lifting", "Static", "Dynamic", "Dynamic", "Dynamic", "Dynamic", "Static", "Debloating", "No", "No", "No", "Yes", "No", "Yes", "Execution", "-", "QEMU", "Native", "S2E", "QEMU", "Native", "Generates", "Binary", "Yes", "No", "No", "Yes", "Yes", "Yes", "Architectures", "Many", "Many", "x86,", "AArch64,", "RV64", "x86", "x86", "AArch64", "Multi-Threaded", "Binaries", "-", "Yes", "Yes", "No", "Yes", "Yes", "Run", "Time", "Overhead", "-", "Low", "Low", "High", "N/A", "Low"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 543.36,
+    "y1": 430.56,
+    "y2": 553.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Table5-1.png"
+}, {
+  "caption": "Figure 1: Debloating steps of LeanBin: (A) Dynamic concrete execution tracing; (B) Static heuristic-free analysis of the control flow; (C) Control-flow structuring; (D) Instructions lifting and code generation.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.183349609375,
+    "y1": 257.5773620605469,
+    "y2": 274.1669921875
+  },
+  "figType": "Figure",
+  "imageText": ["B", "DC", "?", "STATIC", "ANALYSIS", "BINARY", "CONCRETE", "INPUTS", "C", "CODE", "CLANG", "LLVM", "IR", "A", "STATICDYNAMIC", "CODE", "GENERATION", "CFG", "STRUCTURING", "CONCRETE", "EXECUTION", "TRACER"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 86.88,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Static CFG analysis — step (B) in Figure 1. Instructions in bold represent dynamically discovered code (with x0 = 1 and x1 = 1), in green code discovered with strategy DS1 (static and dynamic analysis), and in blue with DS2.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 559.7962646484375,
+    "y1": 526.8943481445312,
+    "y2": 565.4010009765625
+  },
+  "figType": "Figure",
+  "imageText": ["Dynamic", "+", "Static", "(DS2)", "Dynamic", "+", "Static", "(DS1)", "Dynamic", "Only", "(D)", "Concrete", "Inputs:", "x0", "=", "1", "and", "x1", "=", "1", "end_func:", "ret", "cmp", "x0,", "x1", "b.eq", "func1", "bl", "foo", "b", "end_func", "func1:", "bl", "bar", "end_cond:", "example:", "cmp", "x0,", "x1", "b.eq", "cond1", "add", "x2,", "x0,", "x1", "b", "end_cond", "cond1:", "sub", "x2,", "x0,", "x1", "end_func:", "ret", "cmp", "x0,", "x1", "b.eq", "func1", "bl", "foo", "b", "end_func", "func1:", "bl", "bar", "end_cond:", "example:", "cmp", "x0,", "x1", "b.eq", "cond1", "add", "x2,", "x0,", "x1", "b", "end_cond", "cond1:", "sub", "x2,", "x0,", "x1", "end_func:", "ret", "cmp", "x0,", "x1", "b.eq", "func1", "bl", "foo", "b", "end_func", "func1:", "bl", "bar", "end_cond:", "example:", "cmp", "x0,", "x1", "b.eq", "cond1", "add", "x2,", "x0,", "x1", "b", "end_cond", "cond1:", "sub", "x2,", "x0,", "x1"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 334.08,
+    "x2": 555.84,
+    "y1": 310.56,
+    "y2": 498.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Execution time of debloated binaries (DS2 strategy) normalized to the native execution of SPEC CPU2006 INT benchmarks.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.6025390625,
+    "y1": 254.82034301757812,
+    "y2": 282.3689880371094
+  },
+  "figType": "Figure",
+  "imageText": ["ov", "er", "he", "ad", "pe", "rf", "or", "m", "an", "ce", "1", "N", "or", "m", "al", "iz", "ed", "2", "2.25", "2.5", "1.25", "1.5", "1.75", "0", "0.25", "0.5", "0.75", "k", "ge", "om", "ea", "n", "48", "3.", "xa", "la", "nc", "bm", "ne", "tp", "p", "47", "3.", "as", "ta", "r", "47", "1.", "om", "64", "re", "f", "46", "4.", "h2", "qu", "an", "tu", "m", "46", "2.", "lib", "m", "er", "45", "8.", "sj", "en", "g", "45", "6.", "hm", "bm", "k", "44", "5.", "go", "en", "ch", "40", "1.", "bz", "ip", "2", "40", "3.", "gc", "c", "42", "9.", "m", "cf", "40", "0.", "p", "e", "rlb"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 294.24,
+    "y1": 84.47999999999999,
+    "y2": 238.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Overhead of debloating — steps (A –D) and (A) in Figure 1 — Phoenix benchmarks with LeanBin and performance of debloated binary normalized to the native execution running on 80 cores.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64251708984375,
+    "y1": 433.7733459472656,
+    "y2": 472.281005859375
+  },
+  "figType": "Figure",
+  "imageText": ["Debloated", "LeanBin", "(full)", "LeanBin", "(dynamic)", "ov", "er", "he", "ad", "pe", "rf", "or", "m", "an", "ce", "1N", "or", "m", "al", "iz", "e", "d", "20", "15", "10", "5", "lreg", "multiply", "reverse", "matchcount", "geomean"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 290.88,
+    "y1": 298.56,
+    "y2": 416.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Figure7-1.png"
+}, {
+  "caption": "Figure 3: Control flow graph structuring — step (C) in Figure 1.",
+  "captionBoundary": {
+    "x1": 179.4759979248047,
+    "x2": 432.51434326171875,
+    "y1": 218.47732543945312,
+    "y2": 224.10797119140625
+  },
+  "figType": "Figure",
+  "imageText": ["B1", "B3", "B5", "B7", "B1", "B3", "B5", "B7", "B8", "B8B7", "B3", "B5", "B6", "B4", "B2", "B1", "B8B7", "B3", "B5", "B6", "B4", "B2", "B1", "B8B7", "B3", "B5", "B6", "B4", "B2", "B1", "B8B7", "B3", "B5", "B6", "B4", "B2", "I", "II", "III", "IV", "VB1", "B7", "B1", "B3", "B5", "B7", "B8DISCOVERED", "FUNCTIONS:", "B7", "B1", "B3", "B5", "B8", "B3", "B5", "B6", "B4", "B2", "B1"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 556.3199999999999,
+    "y1": 85.92,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Figure3-1.png"
+}, {
+  "caption": "Table 3: Execution time speed-up (×) over the original binary and the number of gadgets expressed as the percentage of gadgets of the original binary (%) for SQLite use case.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.29034423828125,
+    "y1": 347.943359375,
+    "y2": 375.49200439453125
+  },
+  "figType": "Table",
+  "imageText": ["Lib", "(O0)", "Lib", "(O3)", "Full", "User", "(O0)", "1.24×", "(6.30%)", "1.01×", "(4.30%)", "-", "User", "(O3)", "1.23×", "(6.50%)", "1.06×(4.47%)", "-", "Full", "-", "-", "0.98×", "(3.65%)"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 292.32,
+    "y1": 300.0,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Table3-1.png"
+}, {
+  "caption": "Table 2: Reduction in the number of unique gadgets expressed as the percentage of gadgets of the original binary and code size expressed as the percentage of the .text section size of the original binary for SPEC CPU2006 INT benchmarks.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.17626953125,
+    "y1": 253.09933471679688,
+    "y2": 269.68902587890625
+  },
+  "figType": "Table",
+  "imageText": ["445.gobmk", "47.55%", "40.58%", "37.05%", "33.65%", "20.28%", "20.89%", "84.92%", "101.34%", "123.51%", "456.hmmer", "11.26%", "15.41%", "19.98%", "8.87%", "9.88%", "11.96%", "18.82%", "25.90%", "86.70%", "458.sjeng", "52.76%", "54.01%", "68.67%", "37.22%", "39.10%", "51.00%", "75.44%", "59.20%", "123.59%", "462.libquantum", "37.55%", "38.80%", "42.74%", "32.78%", "29.05%", "32.57%", "52.50%", "66.05%", "105.31%", "464.h264ref", "17.34%", "22.29%", "26.87%", "13.45%", "15.95%", "20.09%", "41.01%", "68.98%", "131.16%", "471.omnetpp", "4.96%", "7.18%", "6.81%", "2.95%", "3.94%", "4.15%", "38.88%", "68.01%", "76.17%", "473.astar", "55.10%", "57.37%", "57.37%", "40.36%", "41.50%", "40.36%", "102.86%", "108.97%", "113.18%", "483.xalancbmk", "6.79%", "7.64%", "6.53%", "2.12%", "4.81%", "4.29%", "33.42%", "29.16%", "42.19%", "geomean", "24.10%", "28.97%", "30.22%", "16.65%", "19.28%", "21.00%", "53.59%", "68.25%", "103.17%", "400.perlbench", "-", "30.39%", "28.52%", "-", "22.03%", "22.13%", "-", "80.32%", "119.87%", "401.bzip2", "40.30%", "46.12%", "50.43%", "35.13%", "36.42%", "41.59%", "74.61%", "107.77%", "122.29%", "403.gcc", "16.43%", "35.96%", "34.39%", "10.56%", "18.94%", "21.27%", "40.65%", "68.92%", "124.29%", "429.mcf", "70.54%", "75.52%", "78.84%", "59.75%", "61.00%", "62.66%", "94.83%", "111.88%", "120.12%", "Debloated", "Hardened", "Size", "D", "DS1", "DS2", "D", "DS1", "DS2", "D", "DS1", "DS2"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 109.92,
+    "x2": 502.08,
+    "y1": 82.56,
+    "y2": 250.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695515-Table2-1.png"
+}]

@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 4: Architecture from the viewpoint of executing an A/B testing pipeline",
+  "captionBoundary": {
+    "x1": 147.15199279785156,
+    "x2": 464.835205078125,
+    "y1": 411.4703674316406,
+    "y2": 417.10101318359375
+  },
+  "figType": "Figure",
+  "imageText": ["15.", "Restore", "initial", "deployment", "A/B", "variant", "B", "A/B", "variant", "A", "A/B", "routing", "component", "A/B", "test", "deployment", "(next)", "16.", "Load", "A/B", "variants", "Variant", "repository", "End", "Start", "A/B", "tests", "Transition", "rules", "Pipeline", "workflow", "logic", "A/B", "variant", "B", "A/B", "variant", "A", "A/B", "routing", "component", "A/B", "test", "deployment", "(current)", "18.", "Configure", "routing", "component", "17.", "Deploy", "new", "A/B", "variants", "Configuration", "actions", "11.", "Compose", "deployment", "and", "configuration", "actions", "10.", "Test", "condition", "transition", "rules", "Current", "A/B", "test", "12.", "Store", "deployment", "and", "configuration", "actions", "6.", "Validate", "test", "hypothesis", "7.", "Write", "result", "statistical", "test", "5.", "Collect", "hypothesis,", "statistical", "test,", "and", "A/B", "metrics", "1.", "Probe", "A/B", "metrics", "and", "requests", "A/B", "test", "results", "Monitored", "requests", "Deployment", "actions", "Monitored", "A/B", "metrics", "+", "result", "statistical", "test", "9.", "Collect", "transition", "rules", "and", "configuration", "actions", "4.", "Check", "completion", "of", "A/B", "test", "14.", "Collect", "deployment", "Managed", "System", "Knowledge", "Monitor", "8.", "Plan", "Analyzer", "13.", "Execute", "Planner", "Executor", "2.", "Update", "A/B", "metrics", "and", "requests", "3.", "Analyze", "Managing", "System"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 532.3199999999999,
+    "y1": 83.52,
+    "y2": 396.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Visual notation population split in a simple pipeline",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03472900390625,
+    "y1": 505.9263610839844,
+    "y2": 511.5570068359375
+  },
+  "figType": "Figure",
+  "imageText": ["Population", "split", "exit", "Population", "split", "entry"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 284.15999999999997,
+    "y1": 435.35999999999996,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure5-1.png"
+}, {
+  "caption": "Table 3: Overhead population split component (EQ4)",
+  "captionBoundary": {
+    "x1": 67.47700500488281,
+    "x2": 280.0607604980469,
+    "y1": 482.2423400878906,
+    "y2": 487.87298583984375
+  },
+  "figType": "Table",
+  "imageText": ["Training", "classifier", "Offline", "324", "Component", "deployment", "Deployment", "6433", "Prediction", "user", "class", "Runtime", "0.3", "(average,", "in", "msec)", "Overhead", "type", "Timing", "Overhead"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 287.03999999999996,
+    "y1": 502.56,
+    "y2": 579.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Table3-1.png"
+}, {
+  "caption": "Table 2: Reduction number of required requests (EQ3)",
+  "captionBoundary": {
+    "x1": 196.7050018310547,
+    "x2": 414.99102783203125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "(MAX", "𝑃1,", "𝑃2)", "27,128", "Parallel", "𝑆1", "Recommendation", "update", "1,000", "24,038", "𝑆2", "Review", "update", "26,000", "27,128", "Total", "(SUM", "𝑆1", "+", "𝑆2)", "139,000", "Sequential", "𝑆1", "Recommendation", "update", "112,000", "112,000", "𝑆2", "Review", "update", "27,000", "27,000", "Pipeline", "A/B", "test", "Number", "of", "requests", "(until", "𝑝", "≤", "0.05)", "Total", "requests", "required"],
+  "name": "2",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 149.76,
+    "x2": 462.24,
+    "y1": 105.6,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Table2-1.png"
+}, {
+  "caption": "Figure 11: Progress of sequential and parallel execution for both review update and recommendation update A/B tests9",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2205505371094,
+    "y1": 444.6953430175781,
+    "y2": 461.2850036621094
+  },
+  "figType": "Figure",
+  "imageText": ["Number", "of", "requests", "to", "complete", "sequential", "and", "parallel", "executions", "Review", "update", "(seq.)", "Recommendation", "update", "(seq.)", "Review", "update", "(par.)", "Recommendation", "update", "(par.)", "End", "parallel", "pipeline", "End", "sequential", "pipeline", "lu", "e", "p-", "va", "ia", "n", "M", "ed", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0", "20K", "40K", "60K", "80K", "100K", "120K", "Number", "of", "requests", "(total)"],
+  "name": "11",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 290.4,
+    "y1": 252.48,
+    "y2": 426.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure11-1.png"
+}, {
+  "caption": "Figure 1: Example of 50/50 population assignment in A/B test",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03460693359375,
+    "y1": 213.72537231445312,
+    "y2": 219.35601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["Variant", "B", "Variant", "A", "A/B", "test", "Live", "System", "A/B", "Test", "Population"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 99.36,
+    "x2": 252.0,
+    "y1": 87.84,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure1-1.png"
+}, {
+  "caption": "Figure 10: Median p-values in recommendation update A/B test for sequential and parallel pipelines (detail top right)9",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.188232421875,
+    "y1": 286.0693664550781,
+    "y2": 302.65899658203125
+  },
+  "figType": "Figure",
+  "imageText": ["0.015", "0.010", "0.005", "0", "2K", "4K", "6K", "8K", "10K", "0.000", "Recommendation", "update", "A/B", "test", "Sequential", "Parallel", "lu", "e", "p-", "va", "ia", "n", "M", "ed", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0", "25K", "50K", "75K", "100K", "125K", "150K", "175K", "200K", "Number", "of", "requests"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 322.08,
+    "x2": 554.4,
+    "y1": 86.88,
+    "y2": 267.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure10-1.png"
+}, {
+  "caption": "Figure 6: Architecture from the viewpoint of executing an A/B testing pipeline with population split",
+  "captionBoundary": {
+    "x1": 103.05999755859375,
+    "x2": 508.92388916015625,
+    "y1": 446.5093688964844,
+    "y2": 452.1400146484375
+  },
+  "figType": "Figure",
+  "imageText": ["12.", "Add", "knowledge", "instances", "18.", "Deploy", "and", "configure", "population", "split", "component", "Population", "split", "component", "A/B", "variant", "B", "A/B", "variant", "A", "A/B", "routing", "component", "A/B", "test", "deployment", "(sub-pl-1)", "Population", "splits", "Start", "End", "A/B", "tests", "Transition", "rules", "Configuration", "actions", "Current", "population", "split", "Pipeline", "workflow", "logic", "Current", "A/B", "test", "A/B", "test", "results", "Monitored", "requests", "Deployment", "actions", "Monitored", "A/B", "metrics", "Knowledge", "instance", "(initial)", "16.", "Restore", "initial", "deployment", "A/B", "variant", "B", "A/B", "variant", "A", "A/B", "routing", "component", "A/B", "test", "deployment", "(sub-pl-2)", "17.", "Load", "A/B", "variants", "and", "population", "split", "component", "Variant", "repository", "A/B", "variant", "B", "A/B", "variant", "A", "A/B", "routing", "component", "A/B", "test", "deployment", "(current)", "20.", "Configure", "routing", "components", "19.", "Deploy", "new", "A/B", "variants", "11.", "Compose", "deployment", "and", "configuration", "actions", "10.", "Test", "condition", "transition", "rules", "13.", "Store", "deployment", "and", "configuration", "actions", "6.", "Validate", "test", "hypothesis", "7.", "Write", "result", "statistical", "test", "5.", "Collect", "hypothesis,", "statistical", "test,", "and", "A/B", "metrics", "1.", "Probe", "A/B", "metrics", "and", "requests", "9.", "Collect", "transition", "rules,", "result", "statistical", "test,", "population", "splits", "and", "configuration", "actions", "4.", "Check", "completion", "of", "A/B", "test", "15.", "Collect", "deployment", "Managed", "System", "Monitor", "8.", "Plan", "Analyzer", "14.", "Execute", "Planner", "Executor", "2.", "Update", "A/B", "metrics", "and", "requests", "3.", "Analyze", "Knowledge", "instance", "(sub-pipeline-1)", "Knowledge", "Knowledge", "instance", "(sub-pipeline-2)", "Managing", "System"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 537.6,
+    "y1": 83.52,
+    "y2": 431.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Architecture of the population split component",
+  "captionBoundary": {
+    "x1": 58.73099899291992,
+    "x2": 289.1033935546875,
+    "y1": 594.1903076171875,
+    "y2": 599.8209838867188
+  },
+  "figType": "Figure",
+  "imageText": ["5.", "Dispatch", "request", "2.", "Query", "split", "property", "Population", "divider", "4.", "Invoke", "request", "1.", "Request", "3.Predict", "user", "classification", "Population", "split", "API", "model", "Classification", "machine", "learning", "Population", "split", "component"],
+  "name": "7",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 277.44,
+    "y1": 469.91999999999996,
+    "y2": 579.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure7-1.png"
+}, {
+  "caption": "Figure 2: Visual notation of an A/B testing pipeline",
+  "captionBoundary": {
+    "x1": 70.72799682617188,
+    "x2": 277.1072998046875,
+    "y1": 215.63137817382812,
+    "y2": 221.26202392578125
+  },
+  "figType": "Figure",
+  "imageText": ["Start", "End", "A/B", "test", "Transition", "rule", "A/B", "testing", "pipeline"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 259.2,
+    "y1": 82.56,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Architecture from the viewpoint of setting up and initiating an A/B testing pipeline",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1914672851562,
+    "y1": 503.0543518066406,
+    "y2": 519.64404296875
+  },
+  "figType": "Figure",
+  "imageText": ["9.1", "Deploy", "A/B", "variants", "10.", "Configure", "routing", "component", "11.", "Start", "A/B", "test", "4.", "Generate", "deployment", "and", "configuration", "actions", "of", "initial", "A/B", "test", "2.", "Start", "Variant", "repository", "8.", "Load", "A/B", "variants", "and", "routing", "component", "A/B", "tests", "Transition", "rulesOperator", "6.", "Execute", "actions", "Start", "3.", "Initialize", "first", "A/B", "test", "End", "Pipeline", "workflow", "logic", "1.", "Deploy", "A/B", "testing", "pipeline", "specification", "9.2", "Deploy", "routing", "component", "A/B", "variant", "B", "A/B", "variant", "A", "A/B", "routing", "component", "Managed", "System", "A/B", "test", "deployment", "Current", "A/B", "test", "Configuration", "actions", "A/B", "test", "results", "Monitored", "requests", "Deployment", "actions", "Monitored", "A/B", "metrics", "Knowledge", "Executor", "7.", "Fetch", "actions", "Planner", "5.", "Store", "actions", "Monitor", "Analyzer", "Managing", "System"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 255.84,
+    "y2": 487.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure3-1.png"
+}, {
+  "caption": "Figure 8: Pipeline for evaluating sequential runs of A/B tests",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03466796875,
+    "y1": 354.28533935546875,
+    "y2": 359.9159851074219
+  },
+  "figType": "Figure",
+  "imageText": ["User", "feedback", "not", "OK", "User", "feedback", "OK", "rating)", "New", "interface", "style", "(user", "feedback", "(nb.", "of", "clicks)", "Recom.", "algorithm", "update", "No", "extra", "checkouts", "Extra", "checkouts", "(nb.", "of", "checkouts)", "Product", "review", "update"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 246.72,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure8-1.png"
+}, {
+  "caption": "Table 1: Metrics to answer the evaluation questions",
+  "captionBoundary": {
+    "x1": 70.08699798583984,
+    "x2": 277.4526062011719,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Question", "Metric", "Description"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 292.32,
+    "y1": 105.6,
+    "y2": 125.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Table1-1.png"
+}, {
+  "caption": "Figure 9: Pipeline for evaluating AutoPABSwith a population split compoment",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1915283203125,
+    "y1": 217.75332641601562,
+    "y2": 234.343017578125
+  },
+  "figType": "Figure",
+  "imageText": ["Purchase", "likelihood", "User", "feedback", "not", "OK", "User", "feedback", "OK", "rating)", "New", "interface", "style", "(user", "feedback", "Positive", "prediction", "Negative", "prediction", "No", "extra", "clicks", "Extra", "clicks", "(nb.", "of", "clicks)", "Recom.", "algorithm", "update", "Extra", "checkouts", "No", "extra", "checkouts", "(nb.", "of", "checkouts)", "Product", "review", "update"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10_1145-3643915_3644087-Figure9-1.png"
+}]

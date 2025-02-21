@@ -1,0 +1,261 @@
+[{
+  "caption": "Figure 3: Distribution of modules and APIs in the target code.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1915283203125,
+    "y1": 315.94189453125,
+    "y2": 318.0220031738281
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "API", "frequency.", "6.5%", "7.5%", "7.4%", "7.3%", "9.0%", "8.6%", "16.3%", "15.0%", "20.6%", "17.9%", "am", "es", "AP", "I", "N", "df.fillna()", "df.reset_index()", "df.rename()", "pd.merge(", "df.map()", "df.str.replace()", "df.apply()", "lambda", "df.drop()", "\"-\"", "operation", "0", "5", "10", "15", "20", "25", "Percentage", "(%)", "(c)", "Module", "frequency.", "3.0%", "2.6%", "2.1%", "1.6%", "1.3%", "25.3%", "4.6%", "55.8%", "28.1%", "27.2%", "ed", ")", "m", "itt", "s", "i", "s", "o", "an", "da", "es", "(p", "Na", "m", "ul", "e", "M", "od", "nltk", "re", "plotly", "scipy", "matplotlib", "seaborn", "sklearn", "numpy", "statsmodels", "datetime", "0", "10", "20", "30", "40", "50", "60", "Percentage", "(%)"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 550.0799999999999,
+    "y1": 193.44,
+    "y2": 293.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Figure3-1.png"
+}, {
+  "caption": "Figure 1: An example of contextualized data-wrangling code generation in CoCoNote, aiming to generate target code(❹) given multi-modal context(❶❷❸).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.6096496582031,
+    "y1": 317.15380859375,
+    "y2": 341.1520080566406
+  },
+  "figType": "Figure",
+  "imageText": ["Target", "Code", "In", "[7]:", "Out", "[7]:", "In", "[6]:", "In", "[5]:", "Out", "[6]:", "In", "[1]:", "attacker_size", "defender_size", "attacker_outcome", "0", "15000.0", "4000.0", "win", "1", "15000.0", "10000.0", "win", "2", "18000.0", "20000.0", "loss", "3", "1875.0", "6000.0", "win", "4", "6000.0", "12625.0", "win", "attacker_size", "defender_size", "attacker_outcome", "difference_size", "0", "15000.0", "4000.0", "win", "11000.0", "1", "15000.0", "10000.0", "win", "5000.0", "2", "18000.0", "20000.0", "loss", "-2000.0", "3", "1875.0", "6000.0", "win", "-4125,0", "4", "6000.0", "12625.0", "win", "-6625.0", "df_5['differece_size']", "=", "df_5['attacker_size']", "-", "df_5['defender_size']", "df_5.head()", "Data", "Context", "(Output", "Dataframe)", "Data", "Context", "(Input", "Dataframe)", "Textual", "Context", "and", "Code", "Context", "Correlation", "Analysis", "Whether", "the", "difference", "between", "attacker", "and", "defender", "size", "will", "cause", "the", "voctories?", "#", "drop", "all", "data", "including", "NaN", "df_5", "=", "df_5.dropna(subset=['attacker_outcome',", "'attacker_size',", "'defender_size'])", "df_5.head()", "#", "first,", "I", "need", "to", "extract", "relative", "data", "df_5", "=", "df[['attacker_size',", "'defender_size',", "'attacker_outcome']]", "df_5.head()", "import", "pandas", "as", "pd", "df=pd.read_csv(‘battle.csv')"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 289.44,
+    "y1": 88.8,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Figure1-1.png"
+}, {
+  "caption": "Table 3: Statistics of CoCoNote Dataset.",
+  "captionBoundary": {
+    "x1": 94.24700927734375,
+    "x2": 253.29486083984375,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["#", "examples", "54,567", "2,000", "1,654", "avg", "#", "columns", "(input", "df)", "12.8", "12.1", "12.9", "avg", "#", "rows", "(input", "df)", "8.6", "9.0", "249.5", "avg", "#", "columns", "(output", "df)", "13.3", "12.8", "12.7", "avg", "#", "rows", "(output", "df)", "8.6", "9.0", "247.2", "avg", "#", "textual", "context", "tokens", "276.2", "283.9", "138.0", "avg", "#", "target", "code", "tokens", "67.2", "67.1", "41.3", "train", "dev.", "test"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 277.44,
+    "y1": 105.6,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table3-1.png"
+}, {
+  "caption": "Table 7: Results with Different Programmatic Context.",
+  "captionBoundary": {
+    "x1": 63.20500183105469,
+    "x2": 284.34326171875,
+    "y1": 410.7228088378906,
+    "y2": 412.8030090332031
+  },
+  "figType": "Table",
+  "imageText": ["Full", "Context", "21.3", "57.2", "42.2", "6.9", "55.3", "40.1", "-", "Code+Text", "12.5", "47.8", "22.4", "3.5", "50.0", "22.6", "-", "Code+Text+InData", "14.1", "49.4", "23.8", "3.3", "50.4", "25.0", "-", "Code+Text+OutData", "18.4", "53.2", "34.5", "4.6", "52.0", "29.4", "-", "InData+OutData", "4.7", "36.3", "5.4", "0.7", "41.7", "7.6", "-", "InData+OutData+Text", "6.3", "40.8", "9.6", "1.0", "44.6", "10.4", "-", "InData+OutData+Code", "18.3", "53.4", "35.1", "6.2", "51.9", "34.9", "1", "EM", "(Exact", "Match),", "CB", "(CodeBLEU),", "EA", "(Execution", "Accuracy).", "2", "InData", "(Input", "Dataframe),", "OutData", "(Output", "Dataframe).", "DataCoder", "GPT", "3.5", "(ICL", "𝑘=2)", "EM", "CB", "EA", "EM", "CB", "EA"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 427.68,
+    "y2": 543.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table7-1.png"
+}, {
+  "caption": "Table 8: Results with Different Dataframe Components.",
+  "captionBoundary": {
+    "x1": 325.0929870605469,
+    "x2": 550.7684326171875,
+    "y1": 544.082763671875,
+    "y2": 546.1629638671875
+  },
+  "figType": "Table",
+  "imageText": ["full", "data", "context", "21.3", "57.2", "42.2", "6.9", "55.3", "40.1", "-", "w/o", "data", "values", "19.6", "55.3", "38.2", "6.2", "54.1", "34.5", "-", "w/o", "column", "names", "14.9", "52.9", "28.2", "4.2", "52.7", "26.0", "1", "EM", "(Exact", "Match),", "CB", "(CodeBLEU),", "EA", "(Execution", "Accuracy).", "DataCoder", "GPT", "3.5", "(ICL", "𝑘=2)", "EM", "CB", "EA", "EM", "CB", "EA"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.72,
+    "y1": 560.64,
+    "y2": 629.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table8-1.png"
+}, {
+  "caption": "Figure 6: An example of predictions from models with diverse data context. Key errors are marked in red box.",
+  "captionBoundary": {
+    "x1": 83.80000305175781,
+    "x2": 528.201904296875,
+    "y1": 271.93780517578125,
+    "y2": 274.01800537109375
+  },
+  "figType": "Figure",
+  "imageText": ["DataCoder", "w/o", "both", "dataframe:", "data['is_smoker']", "=data['smoker'].apply(lambda", "x:", "1", "if", "x=='yes'", "else", "0)", "DataCoder", "w/o", "output", "dataframe:", "data['is_smoker']", "=", "data['smoker'].map({'Yes':1,", "'No':0})", "DataCoder", "w/o", "input", "dataframe", ":", "data['unmarried']", "=", "data['sex'].apply(lambda", "x:", "1", "if", "x=='M'", "else", "0)", "data['drinks']", "=", "data['sex'].apply(lambda", "x:", "1", "if", "x=='F'", "else", "0)", "DataCoder", "w/o", "data", "values:", "data['smoker']", "=", "[1", "if", "x=='M'", "else", "0", "for", "x", "in", "data['smoker']]", "DataCoder", "w/o", "column", "names:", "data['Smoker']", "=", "data['Smoker'].astype('int64')", "DataCoder:", "data['smoker']", "=", "data['smoker'].map({'No':0,", "'Yes':1})", "data['smoker']", "=", "data['smoker'].replace(['Yes'],", "1)", "data['smoker']", "=", "data['smoker'].replace(['No'],", "0)", "4", "13", "No", "27", "0", "1", "0", "3742", "0", "0", "3", "17", "No", "28", "0", "1", "0", "2600", "0", "0", "2", "11", "Yes", "23", "0", "1", "0", "2920", "0", "0", "1", "16", "No", "24", "0", "0", "1", "3459", "0", "0", "0", "12", "Yes", "27", "0", "1", "0", "4253", "1", "0", "educ", "smoker", "age", "alcohol", "tripre1", "tripre2", "birthweight", "unmarried", "drinks", "4", "13", "0", "27", "0", "1", "0", "3742", "0", "0", "3", "17", "0", "28", "0", "1", "0", "2600", "0", "0", "2", "11", "1", "23", "0", "1", "0", "2920", "0", "0", "1", "16", "0", "24", "0", "0", "1", "3459", "0", "0", "0", "12", "1", "27", "0", "1", "0", "4253", "1", "0", "educ", "smoker", "age", "alcohol", "tripre1", "tripre2", "birthweight", "unmarried", "drinks", "import", "pandas", "as", "pd", "import", "statsmodels.formula.api", "as", "smf", "data=", "pd.read_csv('5data.csv')", "data.head()", "#Convert", "data", "in", "the", "“smoker”", "column", "to", "an", "indicator", "variable", "Ground-truth", "Code", "Output", "Dataframe", "Input", "Dataframe", "NL+Code", "Context"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 544.3199999999999,
+    "y1": 82.56,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Figure6-1.png"
+}, {
+  "caption": "Figure 4: Model Architecture of DataCoder.",
+  "captionBoundary": {
+    "x1": 83.06999969482422,
+    "x2": 264.7728271484375,
+    "y1": 261.6168212890625,
+    "y2": 263.697021484375
+  },
+  "figType": "Figure",
+  "imageText": ["Concatenate", "attacker_size", "defender_size", "difference", "0", "15000.0", "4000.0", "11000.0", "1", "15000.0", "10000.0", "5000.0", "2", "18000.0", "20000.0", "-2000.0", "3", "1875.0", "6000.0", "-4125,0", "4", "6000.0", "12625.0", "-6625.0", "attacker_sizedefender_size", "0", "15000.0", "4000.0", "1", "15000.0", "10000.0", "2", "18000.0", "20000.0", "3", "1875.0", "6000.0", "4", "6000.0", "12625.0", "df_5['differece']=df_5['attacker_size']-df_5['defender_size']", "df_5.head()", "import", "pandas", "as", "pd", "df=pd.read_csv('battle.csv’)", "#", "first,", "extract", "related", "data", "df2=df[['attacker_size','defender_size']]", "#", "calculate", "the", "difference", "Decoder", "Data", "Encoder", "Code+Text", "Encoder"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 291.36,
+    "y1": 91.67999999999999,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Figure4-1.png"
+}, {
+  "caption": "Figure 2: The workflow of CoCoMine.",
+  "captionBoundary": {
+    "x1": 229.5030059814453,
+    "x2": 382.48980712890625,
+    "y1": 216.95791625976562,
+    "y2": 219.03802490234375
+  },
+  "figType": "Figure",
+  "imageText": ["Data-wrangling", "Code", "Cell", "Identification", "API", "Database", "Analysis", "Data", "Initialization", "Data", "Wrangling", "Data", "UtilizationData-flow", "Imported", "data", "Notebooks", "Textual", "contextpd.read_csv()", "Code", "context", "Data", "context", "Data-wrangling", "code", "cells", "Target", "code", "Notebook", "Replay", "Notebook", "Collection"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 527.04,
+    "y1": 87.84,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Figure2-1.png"
+}, {
+  "caption": "Table 4: Performance of DataCoder and PLMs.",
+  "captionBoundary": {
+    "x1": 76.96400451660156,
+    "x2": 270.5814208984375,
+    "y1": 383.9268798828125,
+    "y2": 386.0069885253906
+  },
+  "figType": "Table",
+  "imageText": ["GraphCodeBERT", "14.0", "48.9", "28.9", "CodeBERT", "14.6", "49.0", "29.5", "UniXcoder", "15.1", "50.3", "30.7", "PLBART", "16.3", "52.7", "33.1", "CodeT5", "19.1", "55.3", "38.1", "DataCoder", "(ours)", "21.3", "57.2", "42.2", "Model", "EM", "CodeBLEU", "EA"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 282.24,
+    "y1": 400.8,
+    "y2": 498.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table4-1.png"
+}, {
+  "caption": "Table 5: Performance of DataCoder and prompting LLMs.",
+  "captionBoundary": {
+    "x1": 318.3999938964844,
+    "x2": 557.4570922851562,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["DataCoder", "(ours)", "21.3", "57.2", "42.2", "StarCoder-15B", "8.1", "53.2", "33.2", "CodeLlama-34B", "1.0", "36.9", "4.9", "Phind-CodeLlama-34B", "3.0", "40.7", "21.5", "DeepSeek-Coder-33B", "7.1", "52.0", "37.3", "Codex", "2.3", "31.5", "11.9", "GPT", "3.5", "6.9", "55.3", "40.1", "GPT", "4", "11.1", "60.8", "51.6", "Model", "EM", "CodeBLEU", "EA"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 546.24,
+    "y1": 105.6,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table5-1.png"
+}, {
+  "caption": "Table 6: Performance of DataCoder and LLMs with LoRA.",
+  "captionBoundary": {
+    "x1": 318.1529846191406,
+    "x2": 557.7041015625,
+    "y1": 432.1438903808594,
+    "y2": 434.2239990234375
+  },
+  "figType": "Table",
+  "imageText": ["DataCoder", "(ours)", "21.3", "57.2", "42.2", "Deepseek-Coder-1.3B", "17.2", "59.5", "45.2", "CodeGen-6B", "17.8", "60.2", "43.9", "Mistral-7B-Instruct", "16.8", "59.8", "46.1", "CodeLlama-7b-Python", "19.0", "61.3", "48.8", "Deepseek-Coder-6.7B", "19.3", "62.7", "50.5", "Model", "EM", "CodeBLEU", "EA"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 546.24,
+    "y1": 448.8,
+    "y2": 541.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table6-1.png"
+}, {
+  "caption": "Table 1: APIs andOperations to Identify DataframeVariables.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0373840332031,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Operations", "+,", "-,", "*,", "/,", "df[·]", "Dataframe", "Manipulation", "pd.get_dummies(),", "pd.merge(),", "pd.concat()", "pd.stack(),", "pd.unstack(),", "pd.cut(),", "pd.qcut()", "pd.melt(),", "pd.corr(),", "pd.crosstab(),", "pd.pivot_table()", "pd.read_csv(),", "pd.read_pickle(),", "pd.read_excel()", "pd.read_json(),", "pd.read_table(),", "pd.read_hdf()", "pd.read_sql(),", "pd.read_html()", "Data", "Loading", "Category", "API", "calls", "&", "Operations", "Definition", "pd.DataFrame(),", "pd.Series()"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 284.15999999999997,
+    "y1": 100.8,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table1-1.png"
+}, {
+  "caption": "Table 2: API Calls to Identify Data Utilization Statements.",
+  "captionBoundary": {
+    "x1": 321.197998046875,
+    "x2": 554.6548461914062,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["scikit-learn", "mean_squared_error(),", "mean_absolute_error()", "roc_auc_score(),", "cross_val_score(),", "r2_score()", "confusion_matrix(),", "recall_score(),", "f1_score()", "pearsonr(),", "accuracy_score(),", "precision_score()", "classification_report(),", "cosine_similarity()", "softmax_cross_entropy_with_logits()", "scipy", "stats.plot(),", "stats.hist(),", "stats.scatter()", "seaborn", "distplot(),", "heatmap(),", "countplot(),", "barplot()", "boxplot(),", "jointplot(),", "clustermap(),", "distplot()", "pairplot(),", "scatterplot(),", "violinplot(),", "kdeplot()", "swarmplot(),", "regplot(),", "rugplot(),", "stripplot()", "lmplot(),", "catplot(),", "relplot(),", "lvplot(),", "tsplot()", "lineplot(),", "boxenplot(),", "factorplot(),", "palplot()", "pointplot(),", "corrplot(),", "residplot(),", "FacetGrid()", "matplotlib", "show(),", "plot(),", "barh(),", "hist(),", "hist2d(),", "imshow()", "bar(),", "pie(),", "scatter(),", "contour(),", "pcolormesh()", "errorbar(),", "matshow(),", "semilogy(),", "probplot()", "Library", "API", "calls"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 337.91999999999996,
+    "x2": 538.0799999999999,
+    "y1": 105.6,
+    "y2": 280.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695503-Table2-1.png"
+}]

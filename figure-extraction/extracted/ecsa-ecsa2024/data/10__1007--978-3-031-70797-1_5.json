@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1. Data Extraction Framework",
+  "captionBoundary": {
+    "x1": 133.8935089111328,
+    "x2": 287.6690979003906,
+    "y1": 54.16614532470703,
+    "y2": 59.8687744140625
+  },
+  "figType": "Table",
+  "imageText": ["Generic", "Application", "domain", "The", "respective", "domain", "the", "architecture", "is", "proposed", "for", "Generic", "Author", "aﬃliations", "Origin", "of", "the", "architecture:", "academia,", "industry,", "or", "collaboration", "RQ1", "Architecture", "or", "process", "ﬁgures", "The", "list", "of", "relevant", "ﬁgures", "and", "their", "types", "(values", "can", "be", "architecture,", "process,", "or", "combined)", "RQ1", "Architecture", "components", "The", "list", "of", "components", "and", "their", "relationship", "RQ2", "Tools", "The", "list", "of", "tools", "that", "are", "used", "or", "suggested", "in", "the", "paper", "RQ2", "Tool-component", "mapping", "The", "list", "of", "tools", "mapped", "to", "the", "components", "RQ", "Data", "Item", "Notes"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 38.879999999999995,
+    "x2": 386.4,
+    "y1": 70.08,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_5-Table1-1.png"
+}, {
+  "caption": "Fig. 2. UML component diagram of MLOps architecture variants",
+  "captionBoundary": {
+    "x1": 80.0459976196289,
+    "x2": 344.59063720703125,
+    "y1": 395.42840576171875,
+    "y2": 401.13104248046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 360.0,
+    "y1": 99.84,
+    "y2": 378.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_5-Figure2-1.png"
+}, {
+  "caption": "Table 2. MLOps architecture components, their aliases, responsibilities, and number of occurrences in the primary studies",
+  "captionBoundary": {
+    "x1": 39.402000427246094,
+    "x2": 385.2218322753906,
+    "y1": 61.69971466064453,
+    "y2": 78.36468505859375
+  },
+  "figType": "Table",
+  "imageText": ["(continued)", "ML", "Component", "Deployer", "ML", "deployment,", "contin-", "uous", "delivery,", "continu-", "ous", "deployment,", "CI/CD", "pipeline", "Deploys", "the", "ML", "components", "to", "staging", "or", "produc-", "tion", "environments.", "7", "ML", "Component", "Builder", "build", "automation", "pipeline,", "continuous", "integration", "(CI)", "Builds", "and", "tests", "ML", "components,", "i.e.,", "deployment-", "ready", "containerized", "ML", "models", "wrapped", "in", "an", "API.", "3", "Deploys", "the", "trained", "model", "packaged", "with", "the", "depen-", "dencies,", "e.g.,", "required", "libraries,", "preprocessing", "code,", "etc.", "to", "the", "production", "environment.", "4", "model", "deployment,", "deployment", "pipeline", "ML", "Model", "Deployer", "ML", "Pipeline", "Builder", "build", "and", "test", "pipeline,", "CI", "tool", "Builds,", "tests,", "and", "packages,", "e.g.,", "in", "containers,", "the", "code", "of", "the", "ML", "pipeline.", "2", "ML", "Pipeline", "Deployer", "pipeline", "deployment,", "ML", "training", "pipeline", "deploy-", "ment,", "CD", "tool", "Deploys", "the", "built", "and", "packaged", "code", "of", "the", "ML", "pipeline", "to", "staging", "or", "production", "environments.", "3", "C", "D", "C", "I/", "Model", "Evaluator", "–", "Evaluates", "the", "prediction", "performance", "of", "the", "models", "during", "training.", "4", "ML", "pipeline", "(online),", "con-", "tinuous", "training", "pipeline,", "incremental", "online", "learn-", "ing,", "MLOps", "pipeline", "Continuously", "trains", "ML", "models", "at", "runtime", "in", "a", "pro-", "duction", "environment", "(completely", "automated).", "12", "ML", "Training", "Pipeline", "(Online)", "ML", "Experiment", "Pipeline", "(Oﬄine)", "ML", "pipeline", "(oﬄine),", "manual", "ML", "pipeline,", "data", "science", "experiments", "Develops", "and", "trains", "ML", "models", "at", "design", "time", "(more", "experimental", "and", "manual).", "14", "Data", "Labelling", "Compo-", "nent", "data", "annotation,", "ground", "truth", "annotation", "Adds", "the", "ground", "truth", "labels", "for", "supervised", "learning", "models", "to", "dataset", "instances.", "3", "Feature", "Engineering", "Pipeline", "feature", "selection", "Selects", "and", "transforms", "the", "features", "of", "the", "used", "dataset", "for", "model", "training.", "4", "g", "in", "in", "T", "ra", "M", "L", "ML", "Metadata", "Repository", "experiment", "tracking", "DB,", "ML", "metadata", "store", "Stores", "metadata", "related", "to", "model", "training", "for", "exper-", "iment", "tracking", "purposes,", "e.g.,", "model", "performance", "metrics,", "etc.", "15", "Feedback", "Database", "feedback", "store", "Stores", "stakeholder", "feedback", "and", "experiences,", "e.g.,", "from", "domain", "experts", "or", "engineers,", "which", "are", "manu-", "ally", "considered", "during", "iterative", "model", "development.", "2", "Dataset", "Catalogue", "–", "Stores", "metadata", "of", "datasets", "in", "an", "organized", "inven-", "tory,", "allows", "users", "to", "browse", "datasets.", "1", "Dataset", "Repository", "data", "store,", "data", "reposi-", "tory,", "data", "versioning", "Stores", "and", "versions", "the", "datasets", "used", "for", "ML", "work-", "ﬂows.", "10", "Raw", "Data", "Store", "data", "store", "Stores", "the", "raw", "data", "that", "are", "collected", "from", "sources.", "2", "Feature", "Store", "–", "Computes", "and", "stores", "reusable", "features,", "serves", "the", "computed", "features", "with", "low", "latency.", "8", "Code", "Repository", "source", "code", "management,", "source", "code", "repository", "Stores", "and", "versions", "the", "training,", "deployment,", "and", "application", "source", "code.", "9", "Model", "Repository", "model", "registry,", "model", "store", "Stores", "and", "versions", "the", "trained", "ML", "models", "along", "with", "basic", "metadata,", "e.g.,", "their", "versions,", "etc.", "21", "Artifact", "Repository", "image", "repository,", "con-", "tainer", "registry", "Stores", "a", "packaged", "or", "containerized", "ML", "component", "that", "incorporates", "an", "ML", "model", "for", "inference.", "3", "in", "g", "si", "on", "V", "er", "an", "d", "ag", "e", "St", "or", "data", "processing,", "data", "cleaning,", "data", "validation,", "data", "curation", "pipeline", "Validates,", "cleans,", "and", "prepares", "collected", "data", "for", "storing", "as", "ML", "training", "datasets.", "9", "Data", "Preprocessor", "Data", "Source", "external", "data", "sources", "Produces", "and", "exposes", "data", "from", "a", "real-world", "envi-", "ronment,", "e.g.,", "domain", "events,", "IoT", "sensors,", "human", "inputs,", "etc.", "4", "Data", "Collector", "data", "acquisition,", "data", "loading", "Collects", "raw", "data", "like", "events", "from", "various", "data", "sources.", "10", "io", "n", "ur", "at", "a", "C", "D", "at", "Component", "Name", "Aliases", "Responsibilities", "#"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 40.8,
+    "x2": 385.44,
+    "y1": 90.72,
+    "y2": 592.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_5-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Overview of the research process",
+  "captionBoundary": {
+    "x1": 130.9409942626953,
+    "x2": 293.68206787109375,
+    "y1": 137.89337158203125,
+    "y2": 143.59600830078125
+  },
+  "figType": "Figure",
+  "imageText": ["25", "18", "43", "Results", "5)", "Data", "Synthesis", "3)", "Data", "Extraction", "4)", "Snowballing", "2)", "Paper", "Selection", "39", "Google", "Scholar", "1)", "Automated", "Initial", "Search"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 374.4,
+    "y1": 53.76,
+    "y2": 122.39999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_5-Figure1-1.png"
+}, {
+  "caption": "Fig. 3. The most popular tools and platforms, mapped to the components",
+  "captionBoundary": {
+    "x1": 62.090999603271484,
+    "x2": 362.5685119628906,
+    "y1": 421.2943115234375,
+    "y2": 426.9969482421875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 363.36,
+    "y1": 135.84,
+    "y2": 405.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_5-Figure3-1.png"
+}, {
+  "caption": "Table 2. (continued)",
+  "captionBoundary": {
+    "x1": 183.75254821777344,
+    "x2": 269.248046875,
+    "y1": 54.70685577392578,
+    "y2": 60.40948486328125
+  },
+  "figType": "Table",
+  "imageText": ["Log", "Master", "logging,", "info", "collector,", "object", "store,", "predictions", "store", "Records", "and", "saves", "information", "regarding", "all", "the", "actions", "in", "the", "system,", "e.g.,", "running", "the", "services,", "training,", "user", "requests,", "predictions,", "etc.", "3", "API", "API", "gateway", "Provides", "interaction", "between", "the", "components", "within", "the", "platform", "and", "also", "between", "the", "platform", "and", "external", "entities.", "5", "MLOps", "User", "Interaction", "Man-", "ager", "Ops", "dashboard,", "front-end", "Provides", "interaction", "between", "the", "MLOps", "team", "and", "the", "MLOps", "platform.", "2", "Orchestrator", "adaptive", "scheduler,", "workﬂow", "orchestration,", "job", "tracking", "module", "Provides", "system-wide", "orchestration,", "and", "decides", "the", "execution", "schedule", "of", "multiple", "models", "balancing", "throughput", "and", "latency.", "5", "Manages,", "e.g.,", "starts", "and", "stops,", "the", "containerized", "ML", "components", "that", "are", "built", "with", "the", "ML", "Compo-", "nent", "Builder.", "2", "Container", "Manager", "container", "service", "Communication", "Middleware", "message", "queue,", "event", "stream-", "ing", "bus", "Distributes", "the", "received", "requests", "and", "model", "predic-", "tions", "to", "resources.", "4", "Provides", "foundational", "hardware", "and", "software", "com-", "putational", "resources.", "The", "provided", "computational", "resources", "can", "be", "distributed", "or", "non-distributed", "and", "scalable", "or", "non-scalable.", "5", "resource", "leasing,", "model", "engine", "Resource", "Manager", "ic", "es", "Se", "rv", "ti", "ng", "pp", "or", "d", "Su", "re", "an", "uc", "tu", "as", "tr", "In", "fr", "Derives", "decisions", "based", "on", "the", "predictions", "of", "the", "model.", "The", "decisions", "are", "then", "acted", "upon", "by", "the", "actors", "inside", "or", "outside", "the", "system.", "2", "Decision", "Processor", "decision", "processing", "Trigger", "retraining", "triggering", "webhook,", "retraining", "trigger", "Triggers", "retraining", "of", "the", "ML", "models", "based", "on", "pre-", "deﬁned", "events", "and", "intervals", "or", "a", "predeﬁned", "perfor-", "mance", "threshold", "observed", "via", "Runtime", "Model", "Mon-", "itor.", "3", "Model", "Comparison", "Runner", "model", "comparison", "runner,", "model", "metrics", "evaluator", "Compares", "the", "newly", "trained", "model", "to", "the", "old", "model", "and", "deploys", "the", "better", "performing", "one.", "2", "performance", "monitor,", "moni-", "toring", "component,", "model", "run-", "time", "monitor", "Continuously", "observes", "the", "model-serving", "perfor-", "mance", "and", "infrastructure", "in", "real-time.", "12", "Runtime", "Model", "Monitor", "pool", "inference,", "local", "inference", "engine,", "model", "serving", "compo-", "nent", "Includes", "an", "ML", "runtime", "into", "which", "trained", "models", "can", "be", "continuously", "deployed", "to", "serve", "predictions.", "9", "Inference", "Engine", "model", "inference,", "production", "ML", "service,", "model", "server", "Serves", "the", "trained", "models", "to", "provide", "predictions", "on", "new", "data", "(ML", "component).", "10", "Inference", "Service", "e", "re", "nc", "In", "fe", "Component", "Name", "Aliases", "Responsibilities", "#"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 395.03999999999996,
+    "y1": 73.44,
+    "y2": 443.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/ecsa-ecsa2024/figures/10_1007-978-3-031-70797-1_5-Table2-1.png"
+}]

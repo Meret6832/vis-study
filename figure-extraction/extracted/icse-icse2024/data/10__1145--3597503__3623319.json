@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 4: Overview of OGO (and two implementations: OGO𝑁𝑒𝑜 and OGO𝑀𝑒𝑚).",
+  "captionBoundary": {
+    "x1": 147.44200134277344,
+    "x2": 464.5579833984375,
+    "y1": 340.92034912109375,
+    "y2": 346.5509948730469
+  },
+  "figType": "Figure",
+  "imageText": ["Neo4j", "3b.", "Create", "subgraph", "from", "CSV", "in", "Neo4j", "and", "execute", "query", "1.", "ery", "preprocessing", "2.", "Identify", "subgraph", "Neo4j", "node", "ID", "to", "JVM", "objectID", "mapping", "Expand", "posit", "ional", "arguements", "OGO", "NEO", "Serial", "ize", "objects", "in", "subgraph", "to", "CSV", "les", "JVM", "OGO", "oC_WhereoC_Pa", "ernMEM", "oC_Match", "3a.", "Build", "AST", "of", "query", "using", "ANTLR4", "and", "execute", "query", "ResultSet", "JVM", "JVM", "query(root", ",", "\"MATCH", "({$1})-[*", ":", "le", "|", "r", "ight]->(m)\"+", "\"RET", "URN", "m\",", "node)", "query(root", ",", "\"MATCH", "({objectID", ":", "<uuid>})\"+", "\"-[*", ":", "le", "|", "r", "ight]->(m)\"+", "\"RET", "URN", "m\")", "query(root", ",", "\"MATCH", "({objectID", ":", "<uuid>})\"+", "\"[*", ":", "le", "|", "r", "ight]->(m)\"+", "\"RET", "URN", "m\")", "4.", "Return", "result", "(matched", "objects)", "in", "ResultSet"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 557.28,
+    "y1": 84.0,
+    "y2": 324.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure4-1.png"
+}, {
+  "caption": "Figure 5: An example class, its test class and the corresponding object graph shown as a property graph. (c) instances of Node, BinaryTree and java.lang.Class are shown colored black, blue and grey. The local variable references are shown as dashed edges. Reference fields (left,right) are mapped as node relations whereas primitive( value,size) and String fields are mapped as node properties.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6427307128906,
+    "y1": 558.6312866210938,
+    "y2": 630.0159912109375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Graph", "database", "at", "∗", "POINT", "∗.", "l", "local", "var", "b", "local", "var", "instanceof", "root", "{", "size:2", "}", "left", "f", "ins", "tan", "ceo", "{", "value:4", "}", "instanceof", "{", "value:5", "}", "{", "...", "}", "{", "...", "}"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 287.03999999999996,
+    "y1": 466.08,
+    "y2": 549.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Syntax of Featherweight Java.",
+  "captionBoundary": {
+    "x1": 358.9730224609375,
+    "x2": 517.1780395507812,
+    "y1": 425.79632568359375,
+    "y2": 431.4269714355469
+  },
+  "figType": "Figure",
+  "imageText": ["L", "::=", "class", "C", "extends", "C", "{C", "f;", "K", "M}", "K", "::=", "C(C", "x){super(x);", "this.f", "=", "x;", "}", "M", "::=", "C", "m(C", "x){e}", "c", "::=", "x", "=", "new", "C(x)", "|", "x.f", "=", "x", "|", "x.m(x)", "e", "::=", "c;", "e", "|", "return", "x"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 371.03999999999996,
+    "x2": 504.47999999999996,
+    "y1": 360.96,
+    "y2": 416.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure6-1.png"
+}, {
+  "caption": "Table 4: Comparison of average execution time (ms) for instance methods implemented using OGO for random workloads.",
+  "captionBoundary": {
+    "x1": 57.40299987792969,
+    "x2": 554.2805786132812,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "4007", "1578", "7117", "2188", "941", "240", "1006", "241∑", "40070", "15780", "71171", "21876", "9407", "2404", "10058", "2414", "Vector", "1125", "794", "1254", "823", "873", "316", "980", "290", "UndirectedSparseGraph", "7808", "2287", "24986", "8499", "1032", "186", "1045", "293", "HashBiMap", "2470", "856", "2635", "782", "519", "196", "526", "179", "HashMap", "2693", "1771", "2997", "1529", "1166", "315", "1326", "289", "SparseGraph", "13533", "2954", "16945", "2666", "1363", "188", "1444", "167", "ArrayDeque", "1563", "1139", "1442", "1047", "1151", "320", "1104", "292", "ArrayList", "1391", "1152", "1476", "1131", "1080", "312", "1128", "292", "ArrayTable", "5278", "1313", "5786", "1332", "624", "193", "652", "178", "LinkedList", "838", "354", "3101", "827", "492", "190", "638", "257", "DirectedSparseGraph", "3371", "3160", "10549", "3240", "1107", "188", "1215", "177", "+WL", "+WL", "-", "+FRO", "+FGC", "+FRO+FGC", "-", "+FRO", "+FGC", "+FRO+FGC", "Class", "OGO𝑁𝑒𝑜", "OGO𝑀𝑒𝑚"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 96.47999999999999,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Table4-1.png"
+}, {
+  "caption": "Figure 8: Small-step reduction for Featherweight Java commands.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6391906738281,
+    "y1": 270.6283264160156,
+    "y2": 287.2179870605469
+  },
+  "figType": "Figure",
+  "imageText": ["mkFields(𝑛C,𝐶", "(x))", "=", "∪{(𝑓𝑖", ",", "𝑛C,N(x𝑖", ").3),", "∅}", "fields(C)", "=", "f", "C(y)", "=", "this.f", "=", "y"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 93.6,
+    "x2": 254.39999999999998,
+    "y1": 295.68,
+    "y2": 334.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Big-step reduction for Featherweight Java expressions.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6416015625,
+    "y1": 118.60537719726562,
+    "y2": 135.19500732421875
+  },
+  "figType": "Figure",
+  "imageText": ["𝑛x", "=", "(Local,", "∅)", "𝑛C", "=", "(C,", "∅)", "𝐹", "=", "mkFields(𝑛C,", "C(x))", "x", "=", "new", "C(x)", "⋄", "(N", ",R)", "−→", "(N", "∪", "{𝑛x,", "𝑛C},R", "∪", "𝐹", ")", "x.m(x)", "⋄𝐺", "−→", "𝐺", "′", "mbody(m)", "=", "y.𝑒", "e[x/y,", "x/this]", "⋄𝐺", "−→∗", "𝐺", "′", "x.f", "=", "y", "⋄𝐺", "−→", "𝐺", "′", "(N", ",R)", "=", "𝐺", "𝑛x", "=", "R(x).3", "𝑛y", "=", "R(y).3", "𝑟", "=", "(f,", "𝑛x,", "𝑛y,", "∅)", "𝐺", "′", "=", "(N", ",", "𝑟", "∪", "R/R(f,", "𝑛x,", "·))"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 280.32,
+    "y1": 144.96,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure7-1.png"
+}, {
+  "caption": "Figure 9: Calculation of fields relationships.",
+  "captionBoundary": {
+    "x1": 85.26199340820312,
+    "x2": 262.5736083984375,
+    "y1": 382.9213562011719,
+    "y2": 388.552001953125
+  },
+  "figType": "Figure",
+  "imageText": ["C(y)", "=", "super(y𝑘1", ");", "this.f", "=", "y𝑘", "𝐹", "=", "mkFields(𝑛C,", "𝐷", "(x𝑘1", "))", "mkFields(𝑛C,𝐶", "(x))", "=", "𝐹", "∪", "{(𝑓𝑖", ",", "𝑛C,N(x𝑖+𝑘", ").3),", "∅}"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 284.15999999999997,
+    "y1": 345.12,
+    "y2": 370.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure9-1.png"
+}, {
+  "caption": "Table 3: Comparison of LOC(lines of code) and NOC(number of characters) between OGO and imperative implementation of selected instance methods.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2218322753906,
+    "y1": 260.0973815917969,
+    "y2": 287.6449890136719
+  },
+  "figType": "Table",
+  "imageText": ["Avg.", "-", "6", "234", "31", "842∑", "-", "67", "2572", "337", "9264", "ArrayList", "6", "212", "25", "426", "HashMap", "6", "214", "37", "1073", "LinkedList", "6", "226", "21", "374", "ArrayDeque", "3", "99", "15", "326", "Vector", "6", "213", "20", "413", "JCF", "SparseGraph", "7", "303", "38", "1208", "UndirectedSparseGraph", "6", "281", "36", "1066", "DirectedSparseGraph", "6", "281", "36", "1078", "JU", "N", "G", "ArrayTable", "9", "315", "35", "1126", "HashBiMap", "6", "226", "26", "852", "LinkedListMultiMap", "6", "202", "48", "1322", "G", "uava", "Class", "OGO", "Imperative", "LOC", "NOC", "LOC", "NOC"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 288.0,
+    "y1": 290.88,
+    "y2": 437.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Table3-1.png"
+}, {
+  "caption": "Table 2: End-to-end execution time (ms) of assertions re-written using OGO with different optimizations for external database and in-memory query executions.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1832885742188,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Assertj-db", "8aefa0f", "78555", "9", "832652", "7063", "7092", "4799", "4861", "851", "860", "248", "95", "Cli", "0d06c4b", "9256", "27", "99798", "1987", "1982", "1900", "1880", "224", "226", "160", "91", "Csv", "1c551d9", "9910", "12", "448403", "2867", "2713", "2291", "2171", "319", "318", "178", "92", "Lang", "dded8fd", "86960", "23", "255390", "1718", "1724", "1510", "1437", "287", "286", "148", "90", "Geometry", "6c6d046", "79996", "95", "OOM", "1407", "1397", "1321", "1267", "258", "257", "145", "89", "Guava", "0ca124d", "367861", "5", "175658", "2804", "2784", "2458", "2408", "217", "218", "130", "95", "Jfreechart", "7cdbfbe", "134399", "10", "383694", "1811", "1824", "1625", "1548", "256", "234", "134", "91", "Json-java", "31110b5", "14829", "10", "99798", "1456", "1423", "1483", "1400", "155", "155", "126", "91", "Tcases", "2fccf74", "482581", "26", "323006", "39736", "39713", "2120", "2068", "768", "796", "199", "90", "Zip4j", "fc3a258", "15525", "18", "79658", "3528", "3548", "3322", "3157", "244", "242", "174", "94", "Avg.", "-", "-", "-", "269806", "6419", "6420", "2283", "2219", "358", "359", "164", "-∑", "2698057", "64197", "64200", "22829", "22197", "3579", "3592", "1642", "+WL", "+WL", "Redn.", "Naive", "-", "+FRO", "+FGC", "+FRO+FGC", "Naive", "-", "+FGC", "[%]", "Project", "SHA", "LOC", "#Assert", "OGO𝑁𝑒𝑜", "OGO𝑀𝑒𝑚"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 243.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Table2-1.png"
+}, {
+  "caption": "Figure 1: Creating and querying instances and relations between instances using OGO. Graphs above queries visualize the results of those queries. (a) The CREATE clause is first used to create instances of BinaryTree and Node followed by which a MERGE clause is used to create relations between the created instances. The reference to the created BinaryTree instance (reachable from all instances created by the CREATE clause under transitive closure) is returned at the end of the query to prevent the created instances from being garbage collected. (b) The query pattern is undirected and unconstrained in terms of the instance type being matched and their distance from n (root) and hence all reachable objects are returned. This is particularly useful for identifying object confinement issues. (c) The query pattern is directed and constrained to Node instances reachable from n through fields left or right that are exactly 2 hops away.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.3724975585938,
+    "y1": 260.3383483886719,
+    "y2": 342.6820068359375
+  },
+  "figType": "Figure",
+  "imageText": ["java.lang.Class", "instance", "Node", "instance", "BinaryTree", "instance", "Matched", "instance", "instanceof", "Relation", "(c)", "Checking", "existence", "of", "a", "specific", "node.", "1", "ResultSet", "matchedNodes", "=", "query(", "2", "bTree.root,", "3", "\"MATCH", "(n", "{$1})-[:left|right*2]->", "4", "(m:@1", "{value:1})", "5", "RETURN", "m\",", "bTree.root);", "roo", "t", "left", "3", "right", "m", "1", "left", "2", "right", "5", "n", "4", "(b)", "Finding", "all", "objects", "reachable", "from", "an", "object.", "1", "ResultSet", "matchedNodes", "=", "query(", "2", "bTree.root,", "3", "\"MATCH", "(n", "{$1})-[*]-(m)", "4", "RETURN", "m\",bTree.root);", "m", "roo", "t", "right", "m", "3", "left", "m", "1", "left", "m", "2", "right", "5", "n", "4", "m", "m", "m", "(a)", "Creating", "and", "connecting", "Node", "and", "BinaryTree", "instances.", "1", "BinaryTree", "bTree", "=", "(BinaryTree)", "queryObject(", "2", "\"CREATE", "(a:@1", "{value:1}),", "(b:@1", "{value:2}),", "(c:@1", "{value:4}),", "3", "(d:@1", "{value:5}),", "(e:@1", "{value:3})", "4", "CREATE", "(f:@2", "{size:5})", "5", "MERGE", "(a)<-[:left]-(b)<-[:left]-(c)-[:right]->(d)", "MERGE", "(b)-[:right]->(e)", "6", "MERGE", "(f)-[:root]->(c)", "7", "RETURN", "f\",", "Node.class,", "BinaryTree.class);", "f", "roo", "t", "right", "e", "3", "left", "a", "1", "left", "b", "2", "right", "d", "5", "c", "4", "f", "e", "3", "a", "1", "b", "2", "d", "5", "c", "4"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 559.68,
+    "y1": 56.64,
+    "y2": 253.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Methods from Java collections framework using OGO. (a) The nested static class Node stores a key-value pair and the reference field table stores all the entries in the map. (b) The imperative implementation of containsKey uses the getNodemethod. (c) OGO (OGO𝑀𝑒𝑚) can also be used to invoke instance methods as shown in the WHERE clause.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.22833251953125,
+    "y1": 383.9083557128906,
+    "y2": 444.489990234375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "OGO", "implementation", "of", "HashMap’s", "containsKey", "method.", "1", "public", "boolean", "containsKey(Object", "key)", "{", "2", "return", "queryBool(", "3", "\"MATCH", "({$1})-[:table]->()-[*]->()-[:key]->(n)", "MATCH", "(m", "{$2})", "4", "WHERE", "n.`equals`(m)", "=", "true", "RETURN", "COUNT(n)", "<>", "0\",", "this,", "key);", "5", "}", "(b)", "Imperative", "implementation", "of", "HashMap’s", "containsKey", "method.", "10", "return", "first;", "11", "if", "((e", "=", "first.next)", "!=", "null)", "{", "12", "if", "(first", "instanceof", "TreeNode)", "13", "return", "((TreeNode<K,V>)first).getTreeNode(hash,", "key);", "14", "do", "{", "15", "if", "(e.hash", "==", "hash", "&&", "((k", "=", "e.key)", "==", "key", "||", "16", "(key", "!=", "null", "&&", "key.equals(k))))", "return", "e;", "17", "}", "while", "((e", "=", "e.next)", "!=", "null);}", "18", "}", "return", "null;}", "1", "public", "boolean", "containsKey(Object", "key)", "{", "2", "return", "getNode(hash(key),", "key)", "!=", "null;", "3", "}", "4", "final", "Node<K,V>", "getNode(int", "hash,", "Object", "key)", "{", "5", "Node<K,V>[]", "tab;", "Node<K,V>", "first,", "e;", "int", "n;", "K", "k;", "6", "if", "((tab", "=", "table)", "!=", "null", "&&", "(n", "=", "tab.length)", ">", "0", "&&", "7", "(first", "=", "tab[(n", "-", "1)", "&", "hash])", "!=", "null)", "{", "8", "if", "(first.hash", "==", "hash", "&&", "//", "always", "check", "first", "node", "9", "((k", "=", "first.key)", "==", "key", "||", "(key", "!=", "null", "&&", "key.equals(k))))", "(a)", "Snippet", "of", "java.util.HashMap", "class", "definition.", "1", "public", "class", "HashMap<K,V>", "extends", "AbstractMap<K,V>", "2", "implements", "Map<K,V>,Cloneable,Serializable", "{", "3", "transient", "Node<K,V>[]", "table;", "4", "static", "class", "Node<K,V>", "implements", "Map.Entry<K,V>", "{", "5", "final", "int", "hash;", "final", "K", "key;", "V", "value;", "Node<K,V>", "next;", "6", "}", "7", "}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 279.36,
+    "y1": 86.39999999999999,
+    "y2": 376.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure2-1.png"
+}, {
+  "caption": "Figure 3: OGO API available via the OGO class. Bounded queries (lines 1, 3, 5 and 7) contain an additional root argument that constraints the query execution to a subgraph (limited to only objects reachable from the root argument under transitive closure) of the JVM heap object graph.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 559.7939453125,
+    "y1": 162.00534057617188,
+    "y2": 211.47100830078125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "public", "static", "ResultSet", "query(Object", "root,", "String", "fmt,", "Object...", "values);", "2", "public", "static", "ResultSet", "query(String", "fmt,", "Object...", "values);", "3", "public", "static", "Object", "queryObject(Object", "root,", "String", "fmt,", "Object...", "values);", "4", "public", "static", "Object", "queryObject(String", "fmt,", "Object...", "values);", "5", "public", "static", "boolean", "queryBool(Object", "root,", "String", "fmt,", "Object...", "values);", "6", "public", "static", "boolean", "queryBool(String", "fmt,", "Object...", "values);", "7", "public", "static", "long", "queryLong(Object", "root,", "String", "fmt,", "Object...", "values);", "8", "public", "static", "long", "queryLong(String", "fmt,", "Object...", "values);", "9", "//", "similar", "for", "other", "primitive", "types"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 320.15999999999997,
+    "x2": 552.0,
+    "y1": 86.39999999999999,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure3-1.png"
+}, {
+  "caption": "Figure 10: Average time taken bymajor steps of OGO𝑁𝑒𝑜 with the introduced optimizations.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.201171875,
+    "y1": 687.4703369140625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 557.28,
+    "y1": 552.0,
+    "y2": 673.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Figure10-1.png"
+}, {
+  "caption": "Table 1: Positional arguments supported by OGO in the query formatting string.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2834167480469,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["checking", "if", "at", "any", "point", "all", "instances", "of", "a", "specific", "class", "have", "a", "field", "in", "a", "given", "range", "of", "values.", "Arguments.", "Both", "query", "methods", "in", "our", "API", "share", "the", "remain-", "ing", "arguments:", "formatting", "string", "(fmt)", "and", "values.", "The", "format-", "ting", "string", "in", "its", "simplest", "form", "is", "just", "a", "Cypher", "query", "such", "as", "”MATCH", "(n", ":", "‘java.util.ArrayList‘)", "RETURN", "n”.", "To", "enable", "constrain-", "ing", "queries", "by", "embedding", "runtime", "values,", "we", "introduce", "several", "kinds", "of", "positional", "arguments;", "the", "values", "are", "provided", "from", "the", "third", "argument", "onward.", "We", "show", "kinds", "of", "positional", "arguments", "in", "Table", "1.", "For", "each", "kind,", "we", "show", "an", "example", "and", "the", "expansion", "once", "the", "formatting", "is", "complete.", "We", "support", "embedding", "the", "unique", "id", "of", "an", "instance", "($),", "fully", "qualified", "class", "name", "of", "an", "instance", "(@),", "or", "doing", "a", "union", "of", "query", "results", "when", "we", "run", "a", "query", "on", "each", "element", "of", "a", "(Iterable)", "collection", "([]).", "Return", "value.", "The", "result", "of", "each", "query", "is", "an", "instance", "of", "ResultSet.", "ResultSet", "[85]", "is", "available", "in", "Java", "as", "an", "interface", "and", "a", "common", "structure", "for", "storing", "the", "results", "of", "queries;", "similar", "structure", "is", "used", "in", "other", "programming", "languages.", "Via", "the", "resulting", "instance", "one", "can", "access", "columns", "(e.g.,", "getArray(int", "columnIndex)),", "get", "the", "current", "row", "number", "(e.g.,", "getRow()),", "etc.", "Anybody", "already", "familiar", "with", "working", "with", "relational", "databases", "from", "Java", "would", "be", "familiar", "with", "the", "structure.", "query(\"MATCH", "(n", "{__id__:5777203})", "RETURN", "n.some_field\")...", "[", "]", "Embed", "unique", "id", "of", "instances", "from", "an", "Iterable", "collection", "and", "return", "union", "of", "results", "example", "query(\"MATCH", "(n", "{[]1})", "RETURN", "n.some_field\",", "nodes)", "expansion", "query(\"MATCH", "(n", "{__id__:8898223})", "RETURN", "n.some_field\")∪", "@", "Embed", "the", "fully", "qualified", "class", "name", "of", "an", "instance", "example", "query(\"MATCH", "(n:", "@1)", "RETURN", "n\",", "node)", "expansion", "query(\"MATCH", "(n:`com.package.Node`)", "RETURN", "n\")", "$", "Embed", "a", "unique", "id", "of", "an", "instance", "example", "query(\"MATCH", "(n", "{$1})", "RETURN", "n.some_field\",", "node)", "expansion", "query(\"MATCH", "(n", "{__id__:5777203})", "RETURN", "n.some_field\")"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 297.59999999999997,
+    "y1": 108.96,
+    "y2": 471.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623319-Table1-1.png"
+}]

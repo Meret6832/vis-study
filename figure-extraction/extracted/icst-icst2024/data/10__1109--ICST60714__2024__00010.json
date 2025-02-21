@@ -1,0 +1,241 @@
+[{
+  "caption": "Fig. 1. An illustration of our motivation. A yellow car is a vehicle under test called ego, and blue cars are adversarial vehicles. CSG aims to train adversarial vehicles to induce collisions with the ego vehicle deliberately, so as to generate diverse critical scenarios effectively and efficiently.",
+  "captionBoundary": {
+    "x1": 314.2785339355469,
+    "x2": 550.2733154296875,
+    "y1": 369.5198974609375,
+    "y2": 398.3337707519531
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 271.68,
+    "y2": 357.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure1-1.png"
+}, {
+  "caption": "Fig. 5. Some examples of driving rules for ego in experiments. When ego and adversaries are within a predefined safe distance, ego can choose an appropriate action randomly according to rules, including slowing down (S), keeping lane (K), changing left lane (L), and changing right lane (R) to avoid collision.",
+  "captionBoundary": {
+    "x1": 60.455440521240234,
+    "x2": 543.6826171875,
+    "y1": 221.158203125,
+    "y2": 233.115234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 530.4,
+    "y1": 72.96,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure5-1.png"
+}, {
+  "caption": "TABLE I HYPER PARAMETERS WHEN TRAINING RULE-BASED EGO IN ALG. 1.",
+  "captionBoundary": {
+    "x1": 323.7372131347656,
+    "x2": 539.7459716796875,
+    "y1": 263.49176025390625,
+    "y2": 275.44940185546875
+  },
+  "figType": "Table",
+  "imageText": ["γ", "discount", "factor", "0.95", "τ", "target", "update", "rate", "0.05", "Parameter", "Description", "Value", "B", "batch", "size", "750", "D", "replay", "buffer", "size", "1e6", "M", "episodes", "400", "C", "collision", "reward", "coefﬁcient", "5", "r̄ti2", "target", "reward", "coefﬁcient", "5"],
+  "name": "I",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 348.0,
+    "x2": 513.12,
+    "y1": 284.64,
+    "y2": 355.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-TableI-1.png"
+}, {
+  "caption": "TABLE III THE QUERY TIME OF DIFFERENT CONFIGURATIONS.",
+  "captionBoundary": {
+    "x1": 97.08641052246094,
+    "x2": 260.56207275390625,
+    "y1": 229.30999755859375,
+    "y2": 241.2669677734375
+  },
+  "figType": "Table",
+  "imageText": ["ence", "of", "the", "entropy", "term", "by", "incorporating", "it", "into", "the", "objective", "function", "of", "MADDPG.", "•", "MADDPG", "+", "Entropy", "Term(ET):", "We", "evaluate", "the", "inﬂu-", "integrating", "it", "into", "MADDPG.", "this", "experiment.", "FAILMAKER-ADVRL", "also", "takes", "con-", "tributor", "identiﬁcation", "and", "adversarial", "reward", "allocation", "(AdvRA)", "to", "handle", "the", "challenge", "of", "sparse", "reward.", "Addi-", "tionally,", "it", "employs", "prioritized", "sampling", "by", "replay", "buffer", "partition", "(PS-RBP)", "to", "enhance", "efﬁciency.", "We", "implement", "AdvRA", "and", "PS-RBP", "as", "our", "baseline.", "•", "MADDPG", "+", "HER", ":", "We", "evaluate", "the", "impact", "of", "HER", "by", "Methods", "Queries", "N", "=", "1", "N", "=", "2", "N", "=", "3", "MADDPG", "396592", "285957", "202319", "VDARS", "287794", "211535", "235786", "FAILMAKER-ADVRL", "179345", "144518*3", "154417*6", "MADDPG", "+", "HER", "106624", "67315", "68884", "MADDPG", "+", "ET", "91231", "73983", "81152", "MACS(MADDPG+HER+ET)", "89572", "81693", "77358"],
+  "name": "III",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 297.12,
+    "y1": 252.0,
+    "y2": 490.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-TableIII-1.png"
+}, {
+  "caption": "TABLE II TRAINING AND TESTING COLLISION RATE (%) WITH DIFFERENT CONFIGURATIONS. MACS OUTPERFORMS OTHER BASELINES BASED ON HER AND ET TO FOIL THE AGENT UNDER TEST. THE TRAINING COLLISION RATE OF UNIFORM SAMPLING IS NONE BECAUSE UNIFORM SAMPLING DOES NOT HAVE TO BE TRAINED.",
+  "captionBoundary": {
+    "x1": 61.01272964477539,
+    "x2": 543.8543090820312,
+    "y1": 74.01630401611328,
+    "y2": 102.830078125
+  },
+  "figType": "Table",
+  "imageText": ["Methods", "Collision", "Rate", "(Test)", "Collision", "Rate", "(Train)", "N", "=", "1", "N", "=", "2", "N", "=", "3", "N", "=", "1", "N", "=", "2", "N", "=", "3", "Uniform", "Sampling", "9.0", "14.0", "18.0", "-", "-", "-", "MADDPG", "14.0", "22.0", "35.5", "13.9", "21.4", "37.5", "VDARS", "14.0", "31.0", "39.0", "14.0", "30.9", "38.8", "FAILMAKER-ADVRL", "26.0", "30.0", "42.5", "25.8", "30.4", "42.5", "MADDPG", "+", "HER", "20.0", "34.0", "43.5", "19.8", "35.0", "47.1", "MADDPG", "+", "ET", "20.0", "34.6", "35.5", "20.7", "33.5", "44.8", "MACS(MADDPG+HER+ET)", "25.0", "37.5", "56.4", "25.8", "41", "57.5"],
+  "name": "II",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 148.79999999999998,
+    "x2": 454.08,
+    "y1": 111.83999999999999,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-TableII-1.png"
+}, {
+  "caption": "Fig. 8. Testing collision rate in four different settings with N adversarial agents. We train the DDPG algorithm for the ego across 4,000 scenarios using uniform sampling (US), and retrain the DDPG with 4,000 scenarios on our model MACS. We test 900 scenarios for US and MACS to statistic collision rates.",
+  "captionBoundary": {
+    "x1": 314.5133972167969,
+    "x2": 550.515625,
+    "y1": 365.0193786621094,
+    "y2": 402.2615966796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 539.04,
+    "y1": 199.68,
+    "y2": 352.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure8-1.png"
+}, {
+  "caption": "TABLE IV CRITICAL SCENARIOS CLUSTERING RESULTS BASED ON TRACLUS.",
+  "captionBoundary": {
+    "x1": 200.2543487548828,
+    "x2": 417.5328063964844,
+    "y1": 74.52082061767578,
+    "y2": 86.478515625
+  },
+  "figType": "Table",
+  "imageText": ["Methods", "N", "=", "1", "N", "=", "2", "N", "=", "3", "Adversary", "1", "Adversary", "1", "Adversary", "2", "Adversary1", "Adversary", "2", "Adversary", "3", "MADDPG", "24", "18", "13", "15", "26", "24", "VDARS", "25", "30", "36", "34", "22", "37", "FAILMAKER-ADVRL", "34", "35", "31", "19", "27", "27", "MADDPG", "+", "HER", "46", "45", "50", "13", "34", "34", "MADDPG", "+", "ET", "48", "44", "47", "21", "23", "42", "MACS(MADDPG+HER+ET)", "34", "87", "78", "86", "101", "106"],
+  "name": "IV",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 108.96,
+    "x2": 539.04,
+    "y1": 96.0,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-TableIV-1.png"
+}, {
+  "caption": "Fig. 2. An oveview of our model named MACS. MAC train MARL model with simulator SMARTS to get states and rewards. The model contains two key ideas: hindsight experience replay aims to mitigate the issue of sparse rewards by adapting goals and rewards, and the entropy term aims to augment the diversity of adversaries’ policies through exploiting the principle of maximum entropy.",
+  "captionBoundary": {
+    "x1": 60.6521110534668,
+    "x2": 296.64678955078125,
+    "y1": 256.7066650390625,
+    "y2": 302.37725830078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 285.12,
+    "y1": 70.56,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure2-1.png"
+}, {
+  "caption": "Fig. 6. Training reward in different settings. Note that we provide training curves for both total reward (N=1, N=2, N=3) and individual reward (N=1, (N=2, Adversary 1), (N=2, Adversary 2), (N=3, Adversary 1),(N=3,Adversary 2), (N=3, Adversary 3)). All rewards have been normalized to the (0, 1) interval for comparative analysis.",
+  "captionBoundary": {
+    "x1": 66.39452362060547,
+    "x2": 549.6368408203125,
+    "y1": 327.17431640625,
+    "y2": 347.55975341796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 550.0799999999999,
+    "y1": 66.72,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Critical scenarios clustering results based on DBSCAN. eps = 0.5 represents the maximum distance between two samples, which is 0.5 meters, and min sample = 10 indicates that the number of neighborhood samples is 10.",
+  "captionBoundary": {
+    "x1": 66.34764862060547,
+    "x2": 549.5747680664062,
+    "y1": 251.968017578125,
+    "y2": 263.925048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 550.0799999999999,
+    "y1": 60.96,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure7-1.png"
+}, {
+  "caption": "Fig. 4. The training process for RQ3 to evaluate the robustness of reinforcement learning control algorithm performance for ego before and after retraining.",
+  "captionBoundary": {
+    "x1": 314.4930114746094,
+    "x2": 550.488037109375,
+    "y1": 224.19732666015625,
+    "y2": 244.58282470703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 337.91999999999996,
+    "x2": 527.04,
+    "y1": 66.72,
+    "y2": 208.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. Test Map in SMARTS. The map is formed by the connection of two roads, with each road consisting of three lanes.",
+  "captionBoundary": {
+    "x1": 60.70370101928711,
+    "x2": 296.698486328125,
+    "y1": 175.846435546875,
+    "y2": 187.80352783203125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 274.08,
+    "y1": 72.0,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00010-Figure3-1.png"
+}]

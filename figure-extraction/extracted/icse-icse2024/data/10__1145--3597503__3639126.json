@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 3: Experimental Results of Accuracy (%)and ECE (%) Using Temperature Scaling(TS) and Label Smoothing(LS)",
+  "captionBoundary": {
+    "x1": 73.39901733398438,
+    "x2": 538.2858276367188,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder", "Acc", "97.03", "97.03", "97.22", "64.79", "64.79", "63.91", "81.72", "81.72", "81.42", "ECE", "2.89", "2.09", "2.30", "6.43", "1.99", "5.72", "15.13", "9.97", "5.60", "CodeT5", "Acc", "97.88", "97.88", "97.12", "63.91", "63.91", "62.15", "81.27", "81.27", "80.69", "ECE", "2.03", "1.17", "2.75", "↑", "9.72", "4.02", "17.42", "↑", "15.44", "12.30", "2.88", "GraphCodeBERT", "Acc", "96.53", "96.53", "96.50", "64.09", "64.09", "62.63", "80.66", "80.66", "81.36", "ECE", "3.42", "2.86", "1.83", "8.82", "2.86", "15.67", "↑", "12.31", "3.80", "5.63", "CodeBERT", "Acc", "96.75", "96.75", "97.03", "63.25", "63.25", "62.23", "79.85", "79.85", "79.41", "ECE", "3.11", "2.08", "1.30", "12.14", "5.97", "11.27", "17.21", "11.68", "6.44", "CodeBERTa", "Acc", "96.82", "96.82", "96.90", "62.52", "62.52", "61.57", "72.44", "72.44", "73.78", "ECE", "2.71", "2.02", "1.84", "9.83", "4.31", "11.89", "↑", "20.62", "11.62", "10.26", "ASTNN", "Acc", "97.53", "97.53", "97.43", "59.99", "59.99", "61.05", "52.89", "52.89", "53.93", "ECE", "1.27", "0.44", "4.94", "↑", "9.76", "3.95", "6.56", "9.39", "3.65", "0.94", "TextCNN", "Acc", "89.75", "89.75", "90.15", "62.63", "62.63", "63.40", "64.31", "64.31", "65.00", "ECE", "2.80", "2.55", "5.46", "↑", "7.46", "2.80", "1.43", "7.30", "4.41", "5.98", "Model", "Metric", "Original", "TS", "LS", "Original", "TS", "LS", "Original", "TS", "LS", "Task", "Clone", "Detection", "Defect", "Detection", "Exception", "Type"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 530.4,
+    "y1": 108.0,
+    "y2": 347.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Table3-1.png"
+}, {
+  "caption": "Figure 4: Confidence distribution (top row) and reliability diagrams (bottom row) for CodeT5 using Temperature Scaling(TS), Label Smoothing(LS) and both(LS + TS) on the task of Exception Type. The CodeT5models with TS or LS exhibit good calibration, whereas the combination of LS and TS may lead to over-calibration, resulting in potential under-confidence in predictions.",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 559.2708129882812,
+    "y1": 277.1843566894531,
+    "y2": 304.7330017089844
+  },
+  "figType": "Figure",
+  "imageText": ["Confidence", "(d)", "CodeT5-LS-TS", "Confidence", "(c)", "CodeT5-LS", "Confidence", "(b)", "CodeT5-TS", "Confidence", "(a)", "CodeT5", "A", "cc", "ur", "ac", "y", "Fr", "ac", "."],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 90.24,
+    "x2": 522.24,
+    "y1": 87.84,
+    "y2": 257.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Figure4-1.png"
+}, {
+  "caption": "Table 4: Statistics of Out-Of-Distribution Datasets",
+  "captionBoundary": {
+    "x1": 337.6369934082031,
+    "x2": 538.2155151367188,
+    "y1": 325.0053405761719,
+    "y2": 330.635986328125
+  },
+  "figType": "Table",
+  "imageText": ["Python800", "Token-based", "144,000", "48,000", "48,000", "Syntax-based", "144,000", "48,000", "48,000", "Semantic-based", "151,652", "37,914", "50,434", "Java250", "Token-based", "45,000", "15,000", "15,000", "Syntax-based", "45,000", "15,000", "15,000", "Semantic-based", "38,467", "9,617", "26,916", "Dateset", "OOD", "Type", "#Train", "#Validate", "#OOD", "Test"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 557.28,
+    "y1": 348.47999999999996,
+    "y2": 436.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Table4-1.png"
+}, {
+  "caption": "Figure 1: An illustration of the calculation of ECE. Note that the figure uses 2 bins for simplicity, while we use 10 bins in our experiments.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.032958984375,
+    "y1": 171.38937377929688,
+    "y2": 198.93701171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Figure1-1.png"
+}, {
+  "caption": "Table 1: Statistics of Datasets",
+  "captionBoundary": {
+    "x1": 379.55999755859375,
+    "x2": 496.29736328125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["𝜀/(𝑘", "−", "1),", "𝑖", "≠", "𝑦", "(6)", "{", "1", "−", "𝜀,", "𝑖", "=", "𝑦", "𝑦𝑖", "=", "Exception", "Type", "-", "18,480", "2,088", "10,348", "Python", "Defect", "Detection", "Devign", "21,854", "2,732", "2,732", "C", "Code", "Clone", "Detection", "BigCloneBench", "90,102", "4,000", "4,000", "Java", "Python800", "153,600", "38,400", "48,000", "Python", "Functionality", "Classification", "POJ104", "33,280", "8,320", "10,400", "C", "/", "C++", "Java250", "48,000", "12,000", "15,000", "Java", "Tasks", "Datasets", "#Train", "#Validate", "#Test", "Language"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 108.96,
+    "y2": 239.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Table1-1.png"
+}, {
+  "caption": "Table 5: Experimental Results of Accuracy(%) and ECE (%) on Out-Of-Distribution Datasets of Java250",
+  "captionBoundary": {
+    "x1": 100.697021484375,
+    "x2": 510.99005126953125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder", "Acc", "98.21", "94.21", "94.21", "94.51", "95.00", "95.00", "95.19", "97.52", "97.52", "97.93", "ECE", "0.75", "1.77", "2.08", "5.01", "1.65", "1.66", "4.76", "0.58", "6.86", "5.49", "CodeT5", "Acc", "98.09", "93.14", "93.14", "93.87", "94.58", "94.58", "94.93", "97.63", "97.63", "97.70", "ECE", "0.61", "2.86", "1.34", "8.05", "1.53", "0.61", "7.59", "1.07", "0.49", "8.61", "GraphCodeBERT", "Acc", "98.29", "93.99", "93.99", "94.05", "94.92", "94.92", "94.97", "97.95", "97.95", "98.07", "ECE", "0.41", "2.27", "2.48", "6.08", "1.90", "2.16", "5.81", "1.77", "11.32", "8.31", "CodeBERT", "Acc", "98.15", "93.50", "93.50", "93.87", "94.57", "94.57", "94.89", "97.79", "97.79", "97.94", "ECE", "0.87", "3.43", "1.24", "5.75", "2.65", "0.97", "6.31", "1.01", "1.40", "6.28", "CodeBERTa", "Acc", "97.59", "91.56", "91.56", "91.85", "93.68", "93.68", "94.09", "95.86", "95.86", "96.30", "ECE", "0.90", "3.68", "0.60", "6.33", "2.75", "0.54", "5.28", "1.01", "3.50", "7.28", "ASTNN", "Acc", "96.52", "80.21", "80.21", "82.94", "88.59", "88.59", "91.64", "91.57", "91.57", "92.44", "ECE", "1.76", "1.62", "8.82", "26.07", "4.55", "11.02", "26.58", "7.81", "14.42", "27.43", "TextCNN", "Acc", "96.37", "84.09", "84.09", "87.48", "89.59", "89.59", "91.59", "94.10", "94.10", "94.20", "ECE", "0.38", "2.84", "2.99", "24.01", "1.40", "3.40", "20.28", "2.48", "5.64", "22.36", "Models", "Metrics", "original", "original", "TS", "LS", "original", "TS", "LS", "original", "TS", "LS", "Dataset", "ID", "OOD-Token", "OOD-Syntax", "OOD-Semantic"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 530.4,
+    "y1": 108.0,
+    "y2": 332.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Table5-1.png"
+}, {
+  "caption": "Table 2: Experimental Results of Accuracy(%) and ECE (%)",
+  "captionBoundary": {
+    "x1": 189.11001586914062,
+    "x2": 422.58447265625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder", "Acc", "98.40", "98.21", "98.72", "97.03", "64.79", "81.72", "89.81", "ECE", "1.00", "0.75", "0.71", "2.89", "6.43", "15.13", "4.49", "CodeT5", "Acc", "98.48", "98.09", "98.44", "97.88", "63.91", "81.27", "89.68", "ECE", "1.05", "0.61", "0.78", "2.03", "9.72", "15.44", "4.94", "GraphCodeBERT", "Acc", "98.85", "98.29", "98.72", "96.53", "64.09", "80.66", "89.52", "ECE", "0.74", "0.41", "0.48", "3.42", "8.82", "12.31", "4.36", "CodeBERT", "Acc", "98.49", "98.15", "98.64", "96.75", "63.25", "79.85", "89.19", "ECE", "1.17", "0.87", "0.71", "3.11", "12.14", "17.21", "5.87", "CodeBERTa", "Acc", "98.41", "97.59", "98.38", "96.82", "62.52", "72.44", "87.69", "ECE", "1.12", "0.90", "0.71", "2.71", "9.83", "20.62", "5.98", "ASTNN", "Acc", "96.04", "96.52", "94.77", "97.53", "59.99", "52.89", "82.96", "ECE", "2.10", "1.76", "0.76", "1.27", "9.76", "9.39", "4.17", "TextCNN", "Acc", "98.33", "96.37", "97.71", "89.75", "62.63", "64.31", "84.85", "ECE", "0.53", "0.38", "0.34", "2.80", "7.46", "7.30", "3.14", "Task", "Functionality", "Classification", "Clone", "Detection", "Defect", "Detection", "Exception", "Type", "Average", "Model", "Metric", "POJ104", "Java250", "Python800"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 530.4,
+    "y1": 108.0,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Table2-1.png"
+}, {
+  "caption": "Figure 6: Confidence distribution (top row) and reliability diagrams (bottom row) for CodeT5 using Temperature Scaling(TS) and Label Smoothing(LS) on the Java250 OOD-token dataset. The CodeT5 model with TS exhibits good calibration, whereas LS may lead to over-calibration, resulting in potential under-confidence in predictions.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.740478515625,
+    "y1": 675.2803344726562,
+    "y2": 702.8289794921875
+  },
+  "figType": "Figure",
+  "imageText": ["Confidence", "(e)", "CodeT5-OOD-LS(0.05)", "Confidence", "(d)", "CodeT5-OOD-LS(0.1)", "Confidence", "(c)", "CodeT5-OOD-TS", "Confidence", "(b)", "CodeT5-OOD", "Confidence", "(a)", "CodeT5-ID", "A", "cc", "ur", "ac", "y", "Fr", "ac", "."],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.39999999999999,
+    "x2": 538.0799999999999,
+    "y1": 507.84,
+    "y2": 656.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Figure6-1.png"
+}, {
+  "caption": "Table 6: Experimental Results of Accuracy(%) and ECE (%) on Out-Of-Distribution Datasets of Python800",
+  "captionBoundary": {
+    "x1": 94.41201782226562,
+    "x2": 517.275390625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["UniXcoder", "Acc", "98.72", "95.46", "95.46", "95.67", "98.88", "98.88", "98.94", "98.61", "98.61", "98.72", "ECE", "0.71", "2.04", "0.97", "5.34", "0.50", "1.00", "4.74", "0.71", "1.02", "4.49", "CodeT5", "Acc", "98.44", "95.15", "95.15", "95.68", "98.74", "98.74", "98.90", "98.72", "98.72", "98.88", "ECE", "0.78", "2.81", "1.69", "7.87", "0.75", "0.41", "6.31", "0.87", "0.50", "5.89", "GraphCodeBERT", "Acc", "98.72", "95.04", "95.04", "95.17", "98.90", "98.90", "98.94", "98.74", "98.74", "98.82", "ECE", "0.48", "2.30", "1.16", "6.14", "0.44", "1.54", "5.91", "0.61", "1.51", "5.64", "CodeBERT", "Acc", "98.64", "94.48", "94.48", "95.16", "98.79", "98.79", "98.83", "98.59", "98.59", "98.73", "ECE", "0.71", "3.42", "1.39", "5.05", "0.68", "0.34", "5.58", "0.89", "0.45", "5.53", "CodeBERTa", "Acc", "98.38", "93.83", "93.83", "94.54", "98.38", "98.38", "98.58", "98.15", "98.15", "98.29", "ECE", "0.71", "3.00", "0.32", "6.33", "0.70", "0.53", "5.69", "0.88", "0.61", "5.49", "ASTNN", "Acc", "94.77", "80.98", "80.98", "84.32", "93.78", "93.78", "94.58", "91.13", "91.13", "91.62", "ECE", "0.76", "1.37", "6.51", "25.43", "1.75", "6.57", "17.75", "1.33", "6.90", "19.38", "TextCNN", "Acc", "97.71", "90.94", "90.94", "92.37", "97.48", "97.48", "97.93", "96.88", "96.88", "97.29", "ECE", "0.40", "3.66", "0.37", "21.23", "0.47", "1.21", "13.80", "0.36", "1.93", "15.65", "Models", "Metrics", "original", "original", "TS", "LS", "original", "TS", "LS", "original", "TS", "LS", "Dataset", "ID", "OOD-Token", "OOD-Syntax", "OOD-Semantic"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 530.4,
+    "y1": 108.0,
+    "y2": 332.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Table6-1.png"
+}, {
+  "caption": "Figure 5: Confidence distribution (top row) and reliability diagrams (bottom row) for different code models on Functionality Classification (Java250-OOD-token).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.428466796875,
+    "y1": 475.6973571777344,
+    "y2": 492.2869873046875
+  },
+  "figType": "Figure",
+  "imageText": ["Confidence", "(g)", "UniXcoder", "Confidence", "(f)", "CodeT5", "Confidence", "(e)", "GraphCodeBERT", "Confidence", "(d)", "CodeBERT", "Confidence", "(c)", "CodeBERTa", "Confidence", "(b)", "ASTNN", "Confidence", "(a)", "TextCNN", "A", "cc", "ur", "ac", "y", "Fr", "ac", "."],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 70.08,
+    "x2": 542.4,
+    "y1": 345.59999999999997,
+    "y2": 456.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Figure5-1.png"
+}, {
+  "caption": "Figure 2: Confidence distribution (top row) and reliability diagrams (bottom row) for different code models on Functionality Classification (Java250).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.428466796875,
+    "y1": 218.13833618164062,
+    "y2": 234.72802734375
+  },
+  "figType": "Figure",
+  "imageText": ["Confidence", "(g)", "UniXcoder", "Confidence", "(f)", "CodeT5", "Confidence", "(e)", "GraphCodeBERT", "Confidence", "(d)", "CodeBERT", "Confidence", "(c)", "CodeBERTa", "Confidence", "(b)", "ASTNN", "Confidence", "(a)", "TextCNN", "A", "cc", "ur", "ac", "y", "On", "Calibration", "of", "Pre-trained", "Code", "Models", "ICSE", "’24,", "April", "14–20,", "2024,", "Lisbon,", "Portugal", "Fr", "ac", "."],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 62.4,
+    "y2": 198.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Confidence distribution (top row) and reliability diagrams (bottom row) for different code models on Defect Detection.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1796875,
+    "y1": 383.7473449707031,
+    "y2": 389.37799072265625
+  },
+  "figType": "Figure",
+  "imageText": ["Confidence", "(g)", "UniXcoder", "Confidence", "(f)", "CodeT5", "Confidence", "(e)", "GraphCodeBERT", "Confidence", "(d)", "CodeBERT", "Confidence", "(c)", "CodeBERTa", "Confidence", "(b)", "ASTNN", "Confidence", "(a)", "TextCNN", "A", "cc", "ur", "ac", "y", "Fr", "ac", "."],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 70.08,
+    "x2": 542.4,
+    "y1": 253.92,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639126-Figure3-1.png"
+}]

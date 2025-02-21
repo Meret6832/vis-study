@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 5. Results for RQ2, shows the average state coverage (for 100 bins), total number of crashes, distinct types of crash-triggering scenarios (for 100 bins) found by the ablated CureFuzz",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 294.03900146484375,
+    "y1": 241.95785522460938,
+    "y2": 266.88897705078125
+  },
+  "figType": "Table",
+  "imageText": ["Acas", "Xu", "(DNN)", "2.5e-4%", "46.0", "7.8", "Carla", "(IL)", "1.3e-3%.", "52.6", "23.8", "Coop", "Navi", "(MARL)", "1.0e-17%", "28.8", "28.8", "BipedalWalker", "(RL)", "2.4e-1%", "367", "367", "State", "Coverage", "Total", "crash", "Distinct", "crash", "Carla", "(RL)", "4e-3%", "46.25", "26.6"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 281.76,
+    "y2": 339.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Table5-1.png"
+}, {
+  "caption": "Figure 3. Results for RQ2: Comparison between CureFuzz with and without the curiosity mechanism. The x-axis represents the time passed in hours and the y-axis represents the number of found crashes. The complete CureFuzz is represented with green color and triangles, the ablated CureFuzz is represented with blue color and circles.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.19921875,
+    "y1": 197.12582397460938,
+    "y2": 222.0570068359375
+  },
+  "figType": "Figure",
+  "imageText": ["(e)", "BipedalWalker(RL)", "CureFuzz", "ablated", "CureFuzz", "sh", "es", "f", "C", "ra", "be", "r", "o", "N", "um", "700", "600", "500", "400", "300", "200", "100", "2", "4", "6", "8", "10", "12", "0", "(d)", "Coop", "Navi(MARL)", "CureFuzz", "ablated", "CureFuzz", "sh", "es", "f", "C", "ra", "be", "r", "o", "N", "um", "80", "60", "40", "20", "2", "4", "6", "8", "10", "12", "0", "(c)", "Carla(RL)", "CureFuzz", "ablated", "CureFuzz", "sh", "es", "f", "C", "ra", "be", "r", "o", "N", "um", "300", "250", "200", "150", "100", "50", "2", "4", "6", "8", "10", "12", "0", "(b)", "Carla(IL)", "CureFuzz", "ablated", "CureFuzz", "sh", "es", "f", "C", "ra", "be", "r", "o", "N", "um", "175", "150", "125", "100", "75", "50", "25", "2", "4", "6", "8", "10", "12", "0", "(a)", "ACAS", "Xu(DNN)", "CureFuzz", "ablated", "CureFuzz", "sh", "es", "f", "C", "ra", "be", "r", "o", "N", "um", "250", "200", "150", "100", "50", "2", "4", "6", "8", "10", "12", "0"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 553.4399999999999,
+    "y1": 95.52,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Figure3-1.png"
+}, {
+  "caption": "Table 4. Time comparison between CureFuzz and MDPFuzz in seconds.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 559.6272583007812,
+    "y1": 286.4868469238281,
+    "y2": 301.4549865722656
+  },
+  "figType": "Table",
+  "imageText": ["Carla", "(IL)", "0.985", "0.005", "(+99.5%)", "Coop", "Navi", "(MARL)", "0.033", "0.006", "(+81.8%)", "BipedalWalker", "(RL)", "0.970", "0.011", "(+98.9%)", "Carla", "(RL)", "0.855", "0.008", "(+99.1%)", "ACAS", "Xu", "(DNN)", "0.231", "0.005", "(+97.8%)", "MDPFuzz", "CureFuzz"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 340.8,
+    "x2": 535.1999999999999,
+    "y1": 315.84,
+    "y2": 392.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Table4-1.png"
+}, {
+  "caption": "Table 3. Average distinct types of crash-triggering scenarios found by CureFuzz and baselines run across different SDMs and margin of errors in 95% confidence interval.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.2022094726562,
+    "y1": 85.65481567382812,
+    "y2": 110.58502197265625
+  },
+  "figType": "Table",
+  "imageText": ["Carla", "(IL)", "MDPFuzz", "9.0", "±", "0.9", "14.4", "±", "2.3", "21.6", "±", "3.0", "G-Model", "5.6", "±", "0.7", "12.8", "±", "3.2", "23.4", "±", "6.0", "CureFuzz", "10.0", "±", "0.0", "27.5", "±", "1.9", "60.0", "±", "10.5", "Coop", "Navi", "(MARL)", "MDPFuzz", "52", "±", "11.0", "52.4", "±", "11.7", "52.4", "±", "11.7", "G-Model", "104.8", "±", "35.5", "156.2", "±", "30.0", "184.6", "±", "38.8", "CureFuzz", "83.5", "±", "8.0", "85.3", "±", "7.3", "85.3", "±", "7.3", "BipedalWalker", "(RL)", "MDPFuzz", "126", "±", "31.8", "-", "-", "G-Model", "281", "±", "52.5", "-", "-", "CureFuzz", "658", "±", "98.3", "-", "-", "Carla", "(RL)", "MDPFuzz", "9.0", "±", "0.9", "17.8", "±", "2.4", "29.8", "±", "3.9", "G-Model", "6.8", "±", "1.0", "12.2", "±", "1.1", "20.6", "±", "1.5", "CureFuzz", "10.0", "±", "0.6", "30.2", "±", "3.1", "89.4", "±", "25.3", "ACAS", "Xu", "(DNN)", "MDPFuzz", "8.0", "±", "0.9", "9.0", "±", "0.9", "9.0", "±", "0.9", "G-Model", "5.8", "±", "1.6", "6.4", "±", "1.1", "6.6", "±", "1.7", "CureFuzz", "12.0", "±", "0.9", "13.6", "±", "0.7", "17.0", "±", "1.5", "Method", "5", "bins", "10", "bins", "100", "bins"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 124.8,
+    "y2": 269.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Table3-1.png"
+}, {
+  "caption": "Table 2. Average total number of crashes found by CureFuzz and the baselines run across different SDMs and margin of errors in 95% confidence interval.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 294.2965393066406,
+    "y1": 304.4978332519531,
+    "y2": 329.4280090332031
+  },
+  "figType": "Table",
+  "imageText": ["BipedalWalker", "(RL)", "MDPFuzz", "126", "±", "31.8", "G-Model", "281", "±", "52.5", "CureFuzz", "658", "±", "98.3", "Coop", "Navi", "(MARL)", "MDPFuzz", "52.4", "±", "8.8", "G-Model", "185.4", "±", "36.6", "CureFuzz", "85", "±", "7.3", "Carla", "(IL)", "MDPFuzz", "86", "±", "25.0", "G-Model", "113", "±", "33.5", "CureFuzz", "181", "±", "25.4", "ACAS", "Xu", "(DNN)", "MDPFuzz", "183", "±", "15.9", "G-Model", "138", "±", "27.9", "CureFuzz", "268", "±", "26.8", "Carla", "(RL)", "MDPFuzz", "120", "±", "22.8", "G-Model", "158", "±", "18.6", "CureFuzz", "295", "±", "38.3", "Method", "Mean"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 94.56,
+    "x2": 253.44,
+    "y1": 343.68,
+    "y2": 500.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Table2-1.png"
+}, {
+  "caption": "Figure 2. Visualization of Agent Positions in Crash-Triggering Scenarios found by various methods for Coop Navi (MARL). This graph plots the x and y coordinates, ranging from -1 to 1. The red crosses represent G-model, the green dots represent CureFuzz, and the blue triangles represent MDPFuzz.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.466064453125,
+    "y1": 239.52682495117188,
+    "y2": 284.38299560546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 271.2,
+    "y1": 82.56,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Figure2-1.png"
+}, {
+  "caption": "Table 1. State Coverage of CureFuzz and baselines with 95% confidence interval margins of error.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 559.6305541992188,
+    "y1": 85.65481567382812,
+    "y2": 100.62298583984375
+  },
+  "figType": "Table",
+  "imageText": ["BipedalWalker", "(DRL)", "MDPFuzz", "0.065%", "±", "0.002%", "–", "–", "G-Model", "0.011%", "±", "0.002%", "–", "–", "CureFuzz", "0.42%", "±", "0.02%", "–", "–", "Coop", "Navi", "(MARL)", "MDPFuzz", "0.034%", "±", "0.008%", "3e−7", "±", "1e−8", "5e−19", "±", "6e−20", "G-Model", "0.021%", "±", "0.008%", "6e−8", "±", "3e−9", "7e−20", "±", "3e−21", "CureFuzz", "0.059%", "±", "0.018%", "7e−7", "±", "1e−7", "1e−18", "±", "5e−19", "Carla(IL)", "MDPFuzz", "6.4%", "±", "1.2%", "1.0%", "±", "0.6%", "2e−5", "±", "2e−6", "G-Model", "6.7%", "±", "0.5%", "1.6%", "±", "0.5%", "3e−5", "±", "1e−6", "CureFuzz", "7.2%", "±", "0.1%", "1.6%", "±", "0.44%", "3e−5", "±", "1e−7", "ACAS", "Xu", "(DNN)", "MDPFuzz", "5.3%", "±", "0.5%", "0.48%", "±", "0.01%", "2e−6", "±", "4e−8", "G-Model", "6.7%", "±", "0.9%", "0.72%", "±", "0.02%", "3e−6", "±", "1e−7", "CureFuzz", "11%", "±", "0.6%", "1.2%", "±", "0.15%", "6e−6", "±", "1e−6", "Carla", "(RL)", "MDPFuzz", "7.3%", "±", "0.6%", "1.3%", "±", "0.1%", "3e−5", "±", "3e−6", "G-Model", "5.0%", "±", "1.2%", "1.6%", "±", "0.3%", "2.4e−5", "±", "5.5e−6", "CureFuzz", "8.0%", "±", "0.9%", "3.4%", "±", "0.3%", "1e−4", "±", "2e−5", "Method", "5", "bins", "10", "bins", "100", "bins"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 114.72,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Table1-1.png"
+}, {
+  "caption": "Figure 1. Illustration of the overall workflow of the proposed approach CureFuzz.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.6259765625,
+    "y1": 204.20883178710938,
+    "y2": 219.176025390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639149-Figure1-1.png"
+}]

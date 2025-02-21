@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 1: Extensions and Changes of Single-Language Analyses for Integration into AXA",
+  "captionBoundary": {
+    "x1": 128.43499755859375,
+    "x2": 483.25531005859375,
+    "y1": 138.00436401367188,
+    "y2": 143.635009765625
+  },
+  "figType": "Table",
+  "imageText": ["Analysis", "Detector", "Lattice", "Solver", "Connector", "Translator", "(to", "Java)", "Total", "(Framework)", "Java", "836", "(JS),", "0", "(Native)", "60", "(JS)", "0", "0", "-", "896", "(0.6%", "of", "OPAL)", "JavaScript", "166", "+", "2", "90+14", "2", "452", "137", "863", "(1.4%", "of", "TAJS)", "Native", "328", "107", "16", "1", "025", "16", "1", "492", "(1.9%", "of", "SVF)"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 519.36,
+    "y1": 84.96,
+    "y2": 135.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3696193-Table1-1.png"
+}, {
+  "caption": "Figure 1: Architecture overview, by the example of three languages, Java (J), JavaScript (JS), and Native (N). Arrows indicate interactions between components.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1932373046875,
+    "y1": 193.23434448242188,
+    "y2": 220.78302001953125
+  },
+  "figType": "Figure",
+  "imageText": ["Native", "Analysis", "•analysisN", "•detectorN", ",J", "•", "connectorN", "translatorJS,J", "translatorJ,N", "Java", "Analysis", "•analysisJ", "•detectorJ,JS", "•detectorJ,N", "•", "connectorJ", "JS", "Analysis", "•analysisJS", "•detectorJS,J", "•", "connectorJS", "coordinator"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 561.12,
+    "y1": 82.56,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3696193-Figure1-1.png"
+}, {
+  "caption": "Table 2: Benchmark Results",
+  "captionBoundary": {
+    "x1": 381.39300537109375,
+    "x2": 494.463134765625,
+    "y1": 369.6533508300781,
+    "y2": 375.28399658203125
+  },
+  "figType": "Table",
+  "imageText": ["Unidirectional", "Execution", "15", "/", "16", "2", "/", "2", "Interleaved", "Execution", "5", "/", "5", "7", "/", "7", "Mutual", "Recursion", "2", "/", "4", "1", "/", "1", "Unidirectional", "State", "Access", "6", "/", "6", "4", "/", "4", "Bidirectional", "State", "Access", "7", "/", "9", "2", "/", "2", "Sum", "35", "/", "40", "16", "/", "16", "Category", "Passed/Test", "JavaScript", "Native"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 331.68,
+    "x2": 544.3199999999999,
+    "y1": 264.0,
+    "y2": 367.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3696193-Table2-1.png"
+}, {
+  "caption": "Table 3: Precision And Recall of Points-To-Sets",
+  "captionBoundary": {
+    "x1": 79.11100006103516,
+    "x2": 268.4281005859375,
+    "y1": 168.95034790039062,
+    "y2": 174.58099365234375
+  },
+  "figType": "Table",
+  "imageText": ["False", "Negatives", "169", "50", "34", "3", "False", "Positives", "1", "1", "0", "0", "Precision", "99.7", "%", "99.8", "%", "100.0", "%", "100.0", "%", "Recall", "66.1", "%", "90.6", "%", "54.7", "%", "96.1", "%", "Java/JS", "Java/Native", "Points-To", "Analysis", "OPAL", "AXA", "OPAL", "AXA"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 84.96,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3696193-Table3-1.png"
+}, {
+  "caption": "Figure 2: Component Interaction",
+  "captionBoundary": {
+    "x1": 371.4490051269531,
+    "x2": 504.7024841308594,
+    "y1": 402.953369140625,
+    "y2": 408.5840148925781
+  },
+  "figType": "Figure",
+  "imageText": ["J10:", "Return", "Java", "Result", "J9:", "Return", "Java", "Value", "J8:", "Transl.", "JS", "Value", "J7:", "Resume", "with", "JS", "Result", "parallel", "JS2:", "Return", "JS", "Result", "JS1:", "Start", "J6:", "Return", "Java", "Result", "J5:", "Return", "Java", "Value", "J4:", "Transl.", "JS", "Value", "J3:", "JS", "Bottom", "Value", "J2:", "Query", "JS", "Result", "J1:", "Start", "coordinator", "Java", "Analysis", "translatorJS,J", "JS", "Analysis"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 573.12,
+    "y1": 84.0,
+    "y2": 389.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3696193-Figure2-1.png"
+}]

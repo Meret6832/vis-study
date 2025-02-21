@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 4: Given the assembly code and its corresponding textual explanation, we train themodel tomake the assembly code embedding and explanation embedding close through contrastive learning.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.3011779785156,
+    "y1": 221.5670928955078,
+    "y2": 258.739013671875
+  },
+  "figType": "Figure",
+  "imageText": ["flag", "here", "Assembly Embedding", "Explanation Embedding", "Assembly Embedding w/o Alignment", "Semantic Space", "Assembly Code and Explanation Pair", "Explanations", "Tags: network, data, ", "monitoring.", "Assembly Code", "This code reads network ", "data and assigns it to a list. ", "It does this by looping ", "through the list of network ", "data and assigning the data ", "to their respective names.", "0:     endbr64", "1:     push    rbx", "2:     mov     rbx ", "cs:qword_x", "3:     test      rbx, rbxx", "4:     jz          short INSTR12", "5:     mov     rax, [rbx]", "6:     mov     rdx, [rax+20h]", "…"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 282.24,
+    "y1": 84.0,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The comparison between contrastive pre-training from scratch and contrastive pre-training based on the rst pre-training stage model (batch size = 1024, epoch <= 1). The left gure shows the InfoNCE loss during pre-training. The right gure shows the Recall@1 result in the validation dataset, in which the model needs to select the sole natural language explanation that matches the assembly code from 65,536 natural language explanations.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.80419921875,
+    "y1": 226.7751007080078,
+    "y2": 307.7820129394531
+  },
+  "figType": "Figure",
+  "imageText": ["Two", "Stage", "Pre-training", "Contrastive", "Pre-training", "from", "Scratch", "Validation", "Result", "1", "al", "l@", "R", "ec", "0.8", "0.6", "0.4", "0.2", "0.0", "0", "1", "2", "Step", "×105", "Pre-training", "Loss", "Lo", "ss", "10", "9", "8", "7", "6", "0", "1", "2", "Step", "×105"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 323.03999999999996,
+    "x2": 554.4,
+    "y1": 88.32,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure5-1.png"
+}, {
+  "caption": "Figure 12: Assembly code of a bubble sort algorithm",
+  "captionBoundary": {
+    "x1": 68.88520050048828,
+    "x2": 278.9580078125,
+    "y1": 162.40809631347656,
+    "y2": 166.7030029296875
+  },
+  "figType": "Figure",
+  "imageText": [".L3:", "inc", "rax", "jmp", ".L2", ".L4:", "dec", "edx", "jnz", ".L1", "retn", "mov", "[rdi+rax*4],", "esi", "mov", "[rdi+rax*4+4],", "ecx", "cmp", "edx,", "eax", "jle", ".L4", "mov", "ecx,", "[rdi+rax*4]", "mov", "esi,", "[rdi+rax*4+4]", "cmp", "ecx,", "esi", "jle", ".L3", "xor", "eax,", "eax", ".L2:", "mov", "edx,", "6", ".L1:"],
+  "name": "12",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 69.12,
+    "x2": 258.71999999999997,
+    "y1": 85.92,
+    "y2": 149.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure12-1.png"
+}, {
+  "caption": "Figure 6: Zero-Shot Inference of CLAP",
+  "captionBoundary": {
+    "x1": 99.21410369873047,
+    "x2": 248.62991333007812,
+    "y1": 246.9361114501953,
+    "y2": 251.23101806640625
+  },
+  "figType": "Figure",
+  "imageText": ["CLAP-Text", "EncoderZero-shot", "prompt", "prediction", "er", "nc", "od", "sm", "E", "P-", "A", "C", "LA", "Bubble", "sort", "compiled", "with", "Os", "time", "audio", "sort", "...", "math", "A", "function", "related", "to", "sort", "A1·T1", "A2·T2", "A3·T3", "...", "An·TnA1", "T1", "T2", "T3", "...", "Tn", "A", "function", "related", "to", "{function", "class}"],
+  "name": "6",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 235.67999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure6-1.png"
+}, {
+  "caption": "Figure 7: (a) Accuracy of jTrans, PalmTree, and CLAP in crypto identi cation task with di erent percentages of the training set. The x-axis shows the ratios of the training set (%). (b) Accuracy distribution with full training set netuning.",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 558.77099609375,
+    "y1": 237.52406311035156,
+    "y2": 274.69598388671875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Accuracy", "(b)", "Acc.", "Distribution"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 541.4399999999999,
+    "y1": 86.88,
+    "y2": 222.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure7-1.png"
+}, {
+  "caption": "Figure 11: (a) Human evaluation of the explanations of each model by scoring 4 (best) to 1 (worst) individually. (b) Human evaluation by comparing the explanations from each model side by side, only codename is provided. Win signi es that the user ranks the model above GPT-3.5, while lose implies a lower ranking. A tie means that users perceive bothmodels to have comparable performance. Quant: Vicuña 13B model trained on a 50K dataset. Cypher: Vicuña 13B model trained on a 1.3M dataset. Nebula: LLaMA 30B model trained on a 50K dataset.",
+  "captionBoundary": {
+    "x1": 53.519901275634766,
+    "x2": 294.0468444824219,
+    "y1": 377.49310302734375,
+    "y2": 480.4179992675781
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 288.96,
+    "y1": 254.88,
+    "y2": 362.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure11-1.png"
+}, {
+  "caption": "Figure 10: Intrinsic Evaluation: t-SNE visualization of the embedding of assembly code from di erent models.",
+  "captionBoundary": {
+    "x1": 83.9352035522461,
+    "x2": 528.0669555664062,
+    "y1": 229.0401153564453,
+    "y2": 233.33502197265625
+  },
+  "figType": "Figure",
+  "imageText": ["audio", "file", "management", "graphics", "time", "encryption", "sorting", "authentication", "math", "search", "networking", "Trex", "PalmTree", "jTrans", "CLAP-ASM", "w/o", "Alignment", "CLAP-ASM"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 541.4399999999999,
+    "y1": 88.32,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure10-1.png"
+}, {
+  "caption": "Figure 1: A real-world function named xstrmode (a) and its assembly code (b)",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2000732421875,
+    "y1": 288.2621154785156,
+    "y2": 303.5159912109375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)", ".L20:", "cmp", "esi,", "1", "sbb", "ecx,", "ecx", "and", "ecx,", "-75", "add", "ecx,", "120", ".L21:", "add", "edx,", "9", "movzx", "esi,", "di", "movzx", "edx,", "dx", "mov", "BYTE", "PTR", "[rax+rsi],", "cl", "mov", "BYTE", "PTR", "[rax+rdx],", "0", "ret", "//", "...", "more", "assembly", "here", "...", "mov", "rax,", "rsi", "mov", "esi,", "edi", "mov", "ecx,", "edi", "and", "esi,", "61440", "cmp", "esi,", "16384", "jne", ".L2", "mov", "BYTE", "PTR", "[rax],", "100", "jmp", ".L3", ".L2:", "cmp", "esi,", "40960", "jne", ".L4", "mov", "BYTE", "PTR", "[rax],", "108", "return", "str;", "}", "str[i]", "=", "'\\0';", "?", "(mode", "&", "S_IXOTH", "?", "'t'", ":", "'T')", ":", "(mode", "&", "S_IXOTH", "?", "'x'", ":", "'-'));", "str[i++]", "=", "mode", "&", "S_IROTH", "?", "'r'", ":", "'-';", "str[i++]", "=", "mode", "&", "S_IWOTH", "?", "'w'", ":", "'-';", "str[i++]", "=", "(mode", "&", "S_ISVTX", "?", "(mode", "&", "S_IXGRP", "?", "'s'", ":", "'S')", ":", "(mode", "&", "S_IXGRP", "?", "'x'", ":", "'-'));", "str[i++]", "=", "mode", "&", "S_IRGRP", "?", "'r'", ":", "'-';", "str[i++]", "=", "mode", "&", "S_IWGRP", "?", "'w'", ":", "'-';", "str[i++]", "=", "(mode", "&", "S_ISGID", "?", "(mode", "&", "S_IXUSR", "?", "'s'", ":", "'S')", ":", "(mode", "&", "S_IXUSR", "?", "'x'", ":", "'-'));", "str[i++]", "=", "mode", "&", "S_IRUSR", "?", "'r'", ":", "'-';", "str[i++]", "=", "mode", "&", "S_IWUSR", "?", "'w'", ":", "'-';", "str[i++]", "=", "(mode", "&", "S_ISUID", "if", "(S_ISDIR(mode))", "str[i++]", "=", "'d';", "else", "if", "(S_ISLNK(mode))", "str[i++]", "=", "'l';", "else", "if", "(S_ISCHR(mode))", "str[i++]", "=", "'c';", "else", "if", "(S_ISBLK(mode))", "str[i++]", "=", "'b';", "else", "if", "(S_ISSOCK(mode))", "str[i++]", "=", "'s';", "else", "if", "(S_ISFIFO(mode))", "str[i++]", "=", "'p';", "else", "if", "(S_ISREG(mode))", "str[i++]", "=", "'-';", "char", "*xstrmode(mode_t", "mode,", "char", "*str)", "{", "unsigned", "short", "i", "=", "0;"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 321.12,
+    "x2": 554.4,
+    "y1": 85.92,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Overview of our primary work ow, consisting of two main components, the data generator, and the CLAP engine. The data generator compiles source code from the Ubuntu Repository into assembly code and uses GPT to generate explanations, forming an explanation dataset. We then ne-tune an LLaMAmodel using the source code with the corresponding explanation, resulting in a shadow model that generates the augmented explanation dataset. Within the CLAP engine, we rst pre-train the assembly code dataset to develop an initial assembly encoder. By employing contrastive learning with this assembly encoder and a text encoder on both assembly code and augmented explanation dataset, we produce the nal CLAP model.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.292724609375,
+    "y1": 210.5880889892578,
+    "y2": 269.677978515625
+  },
+  "figType": "Figure",
+  "imageText": ["Model", "CLAP", "Learning", "Contrastive", "Code", "Dataset", "Assembly", "Dataset", "Model", "Aug.", "Desc.", "Language", "(b)", "Contrastive", "Language", "Assembly", "Pre-training", "(CLAP)", "Engine", "4.", "3.", "1.", "2.", "Model", "Pre-trainAssembly", "Code", "Dataset", "Assembly", "Inference", "Llama", "Model", "Dataset", "Description", "Model", "Augmented", "Shadow", "Dataset", "Code", "Dataset", "Description", "(a)", "Data", "Generator", "Dataset", "ChatGPT", "Description", "Dataset", "Code", "Compile", "Code", "Dataset", "Assembly", "Repository", "Ubuntu", "Dataset", "Code", "Finetune", "Supervised"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 553.92,
+    "y1": 86.88,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure2-1.png"
+}, {
+  "caption": "Figure 9: Accuracy of di erent few samples on Crypto Identi-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.65350341796875,
+    "y1": 239.71107482910156,
+    "y2": 244.0059814453125
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Crypto", "(b)", "Protocol"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 279.36,
+    "y1": 86.88,
+    "y2": 225.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure9-1.png"
+}, {
+  "caption": "Figure 3: Illustration of CLAP-ASM. The raw assembly code is rst rebased and tokenized. Then, each token is converted to a token embedding, a position embedding, and an instruction embedding, and the sum of these three is output as the embedding. The instruction embedding remembers instruction boundaries and works with jump symbols to comprehend control ow. The token embedding of the jump symbol (e.g., EINSTR13) shares parameters with the target instruction embedding (e.g., I13).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.7371826171875,
+    "y1": 342.44610595703125,
+    "y2": 381.0328369140625
+  },
+  "figType": "Figure",
+  "imageText": ["Tokenization", "…", "…", "…", "19:", "retn", "16:", "mov", "rax", "[", "rbp", "+", "var", "_", "18", "]", "8:", "jz", "INSTR13", "9:", "mov", "rdi", "[", "rbp", "+", "var", "_", "10", "]", "10:", "call", "_", "ldns", "_", "rdf", "_", "clone", "11:", "mov", "[", "rbp", "+", "var", "_", "18", "]", "rax", "12:", "jmp", "INSTR16", "13:", "xor", "eax", "eax", "14:", "mov", "[", "rbp", "+", "var", "_", "18", "]", "rax", "1:", "push", "rbp", "2:", "mov", "rbp", "rsp", "…", "…", "Emov", "Erax", "…", "P94", "P95", "I17", "I17", "mov", "rax", "…", "…", "…", "…", "19:", "retn", "16:", "mov", "rax,", "[rbp+var_18]", "8:", "jz", "INSTR13", "9:", "mov", "rdi", "[rbp+var_10]", "10:", "call", "_ldns_rdf_clone", "11:", "mov", "[rbp+var_18],", "rax", "12:", "jmp", "INSTR16", "13:", "xor", "eax,", "eax", "14:", "mov", "[rbp+var_18],", "rax", "1:", "push", "rbp", "2:", "mov", "rbp,", "rsp", "…", "…", "…", "0x2c00a:", "retn", "0x2c001:", "mov", "rax,", "[rbp+var_18]", "0x2bfde:", "jz", "loc_2BFF6", "0x2bfe4:", "mov", "rdi", "[rbp+var_10]", "0x2bfe8:", "call", "_ldns_rdf_clone", "0x2bfed:", "mov", "[rbp+var_18],", "rax", "0x2bff1:", "jmp", "loc_2C001", "0x2bff6:", "xor", "eax,", "eax", "0x2bff8:", "mov", "[rbp+var_18],", "rax", "0x2bfc0:", "push", "rbp", "0x2bfc1:", "mov", "rbp,", "rsp", "Input", "token", "Token", "Embedding", "Position", "Embedding", "Instruction", "Embedding", "INSTR13", "Embedding", "INSTR16", "Embedding", "I1", "I1", "I9…", "I9", "…", "I13", "I13", "I14", "I14", "I14", "…", "I20", "…", "…", "…", "P82", "Eeax", "P81", "Eeax", "eax", "P79", "EINSTR16", "…", "INSTR16", "…", "…", "Instruction", "Embeddings", "Address", "Rebasing", "P1", "P2", "P53", "P78", "P80P54", "P108", "…", "Epush", "Erbp", "Ejz", "Ejmp", "Exor…EINSTR13", "Eretn", "push", "rbp", "jz", "jmp", "xor", "eax…INSTR13", "retn", "Token", "Embeddings", "Position", "Embeddings", "Input", "网络研究院"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 542.88,
+    "y1": 84.96,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652145-Figure3-1.png"
+}]

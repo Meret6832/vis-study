@@ -1,0 +1,121 @@
+[{
+  "caption": "Fig. 1. Workflows of the two types of automated oracles for finding defects in static analyzers.",
+  "captionBoundary": {
+    "x1": 68.68910217285156,
+    "x2": 417.31103515625,
+    "y1": 254.49249267578125,
+    "y2": 258.8949890136719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660781-Figure1-1.png"
+}, {
+  "caption": "Table 4. Details of the 38 found defects. The classes include “Implementation Errors” (I), “Defects in Heuristics” (II), “Defects in Handling Loops” (III), “Mishandling Language Features” (IV), “Overly Eager Assumption” (V), “Defects Related to Design Choice” (VI), “Defects Related to Optimizations” (VII), and “Others” (VIII), respectively. The “-” sign indicates that the defect is a false negative, while “+” sign a false positive.",
+  "captionBoundary": {
+    "x1": 45.558998107910156,
+    "x2": 441.2067565917969,
+    "y1": 87.95149993896484,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["1", "I", "xed", "~=0<82+", "GSA", "missed", "the", "logic", "for", "spotting", "comparison", "of", "&VAR", "against", "NULL.", "2", "I", "xed", "(C0C82", "GSA", "missed", "the", "logic", "that", "-X", "<=", "0", "is", "equivalent", "to", "X", ">=", "0,", "where", "X", "is", "a", "integer.", "3", "I", "con", "rmed", "(C0C82", "GSA", "does", "not", "treat", "the", "two", "pointers", "&b", "and", "&b[(int)0]", "as", "identical.", "4", "I", "xed", "(C0C82", "CSA", "does", "not", "treat", "c", ">=", "b", "and", "b", "<=", "c", "as", "the", "same", "in", "the", "true", "branch", "of", "c", ">=", "b", "where", "b", "and", "c", "are", "both", "pointers.", "5", "I", "pending", "(C0C82", "GSA", "evaluates", "e", "==", "d", "+", "1", "to", "be", "UNKNOWN", "with", "the", "fact", "that", "e", "==", "&d,", "d", "is", "an", "array", "and", "e", "is", "a", "pointer.", "6", "I", "con", "rmed", "~=0<82+", "Pinpoint", "mishandles", "modeling", "of", "intended", "two-dimensional", "array.", "7", "II", "duplicated", "(C0C82", "GSA", "evaluate", "a+3", ">", "b+1", "to", "be", "UNKNOWN", "but", "evaluate", "a+2", ">", "b+1", "to", "be", "TRUE", "in", "the", "true", "branch", "of", "if", "(a", ">", "b).", "8", "II", "pending", "(C0C82", "GSA", "evaluates", "a", ">", "b", "to", "be", "TRUE", "but", "evaluates", "b", "<", "a", "to", "be", "UNKNOWN", "under", "the", "context", "that", "a", "=", "c", "+", "2", "and", "b", "=", "c", "+", "1.", "9", "II", "con", "rmed", "(C0C82", "CSA", "evaluates", "the", "b", "==", "0", "as", "TRUE,", "but", "evaluates", "b+1", "==", "1", "as", "FALSE,", "where", "b", "is", "a", "pointer.", "10", "II", "con", "rmed", "~=0<82−", "CSA", "inline", "defensive", "checks", "suppression", "heuristic.", "11", "III", "con", "rmed", "~=0<82+", "CSA", "limitation", "of", "modeling", "only", "3", "iterations", "of", "loops", "leads", "to", "CSA", "making", "assumptions,", "which", "lead", "to", "FP.", "12", "III", "con", "rmed", "~=0<82+", "CSA", "widen-loop=true", "option", "causes", "CSA", "to", "make", "a", "wrong", "assumption.", "13", "III", "pending", "~=0<82−", "GSA", "limitation", "in", "tracking", "variable", "reassignment", "in", "the", "for", "loop.", "14", "III", "con", "rmed", "~=0<82−", "GSA", "limitation", "in", "handling", "the", "initialization", "of", "an", "array", "with", "a", "for", "loop.", "15", "III", "pending", "~=0<82+", "GSA", "assumes", "it", "enters", "a", "for", "loop", "for", "twice", "which", "actually", "it", "can", "only", "enter", "it", "for", "once.", "16", "III", "con", "rmed", "~=0<82−", "GSA", "does", "not", "know", "the", "value", "of", "the", "iterator", "d", "after", "a", "vacant", "loop", "for", "(d", "=", "-1;", "d", "!=0;", "++d)", "{;}.", "17", "III", "pending", "(C0C82", "GSA", "evaluates", "(c", "<=", "b)", "&&", "(c", "!=", "b)", "==", "false", "to", "be", "FALSE", "with", "the", "fact", "c", ">=", "b", "within", "goto", "statement.", "18", "IV", "con", "rmed", "(C0C82", "GSA", "gets", "confused", "about", "conditionals", "involving", "bit-", "elds.", "19", "IV", "pending", "(C0C82", "GSA", "misses", "handling", "of", "||", "logic.", "20", "IV", "con", "rmed", "~=0<82+", "Pinpoint", "mishandles", "alias", "analysis", "because", "of", "global", "variables.", "21", "IV", "con", "rmed", "~=0<82+", "Pinpoint", "mishandles", "the", "two-dimensional", "array", "initialization", "in", "the", "form", "of", "int", "a[2][7]", "=", "{9}.", "22", "IV", "xed", "~=0<82−", "GSA", "gives", "up", "exploring", "execution", "paths", "at", "the", "computed", "goto.", "23", "V", "con", "rmed", "(C0C82", "CSA", "evaluates", "if(-g.e", "&&", "g.e)", "to", "be", "FALSE,", "but", "it", "continues", "to", "do", "analysis", "of", "the", "code", "inside", "the", "if", "statement.", "24", "V", "pending", "(C0C82", "CSA", "do", "not", "handle", "in", "nite", "recursion.", "25", "V", "pending", "(C0C82", "CSA", "takes", "the", "true", "branch", "of", "if(255UL", "==", "b)", "with", "the", "fact", "that", "b", "is", "int8_t", "type.", "26", "VI", "con", "rmed", "~=0<82+", "GSA", "arguably", "improper", "design", "that", "every", "function", "could", "be", "top", "level", "function.", "27", "VI", "con", "rmed", "~=0<82+", "CSA", "improper", "assumption", "because", "of", "dead", "code.", "28", "VII", "con", "rmed", "~=0<82−", "GSA", "gives", "misleading", "messages", "at", "-O2", "&&", "False", "Nagetive", "at", "-O1", "and", "-O0.", "29", "VII", "con", "rmed", "~=0<82+", "GSA", "-O2", "optimization", "leads", "to", "the", "false", "positive", "NPD", "warning", "in", "a", "loop.", "30", "VII", "con", "rmed", "~=0<82−", "GSA", "–Wanalyzer-out-of-bounds", "false", "negative", "with", "return", "arr[9];", "at", "-O1", "and", "above.", "31", "VIII", "duplicated", "(C0C82", "GSA", "does", "not", "know", "b", ">", "0", "under", "the", "if", "condition", "that", "a>0", "&&", "b", ">", "a.", "32", "VIII", "pending", "(C0C82", "CSA", "does", "not", "know", "b", ">", "0", "under", "the", "if", "condition", "that", "a>0", "&&", "b", ">", "a.", "33", "VIII", "con", "rmed", "~=0<82+", "GSA", "e", "ected", "by", "deleting", "the", "unrelated", "code", "int", "*d", "=", "0;.", "34", "VIII", "duplicated", "(C0C82", "GSA", "div-by-zero", "false", "negative", "with", "(d.b", "=", "1)", "/", "f", "and", "(c", "=", "1)", "%", "f", "where", "f", "is", "zero.", "35", "VIII", "con", "rmed", "~=0<82+", "CSA", "does", "not", "support", "some", "C-library", "functions.", "36", "VIII", "duplicated", "~=0<82+", "GSA", "does", "not", "support", "some", "C-library", "functions.", "37", "VIII", "con", "rmed", "(C0C82", "GSA", "evaluates", "__analyzer_eval((a()<0)||(a()==0))", "to", "be", "TRUE,", "but", "function", "a()", "is", "a", "unknown", "function.", "38", "VIII", "pending", "(C0C82", "CSA", "assumes", "that", "a()<", "0||a()==0", "to", "be", "TRUE", "in", "the", "true", "brach", "of", "if(a()<=", "0)", "where", "a()", "is", "a", "external", "function.", "#", "Class", "Status", "Oracle", "Analyzer", "Defect", "Description"],
+  "name": "4",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 139.68,
+    "y2": 492.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660781-Table4-1.png"
+}, {
+  "caption": "Table 3. Results of the found defects in the studied static analyzers",
+  "captionBoundary": {
+    "x1": 118.88789367675781,
+    "x2": 366.87164306640625,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["total", "20", "18", "38", "CSA", "5", "7", "12", "GSA", "12", "11", "23", "Pinpoint", "3", "–", "3", "Static", "Analyzers", "Dynamic", "Oracle", "Static", "Oracle", "Total"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 145.92,
+    "x2": 340.32,
+    "y1": 94.56,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660781-Table3-1.png"
+}, {
+  "caption": "Table 2. Mutation strategies to generate equivalent boolean expressions for the static oracle.\" and # are in the range of {0,1,2,3}, and \" <= # . \" # and \" - denote the minimal and maximal values depending on variable types, respectively.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1726989746094,
+    "y1": 87.95149993896484,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["||", "a||b", "(1", "|", "|0)", "==", "CAD4;0", "==", "CAD4", "|", "|1", "==", "CAD4;", "!(0", "|", "|1)", "==", "5", "0;B4;", "–", "(!0&&!1)", "==", "5", "0;B4;", "(!1&&!0)", "==", "5", "0;B4;", "!(1", "|", "|0)", "==", "5", "0;B4;", "<", "0", "<", "1", "(1", ">", "0)", "==", "CAD4;", "!(0", "<", "1)", "==", "5", "0;B4;", "(0", ">=", "1)", "==", "5", "0;B4;", "(0", ">", "1)", "==", "5", "0;B4;", "(0", "==", "1)", "==", "5", "0;B4;", "MIN", "<=", "a", "+M", "<", "b", "+", "N", "<=", "MAX", ">", "0", ">", "1", "(1", "<", "0)", "==", "CAD4;", "!(0", ">", "1)", "==", "5", "0;B4;", "(0", "<=", "1)", "==", "5", "0;B4;", "(0", "<", "1)", "==", "5", "0;B4;", "(0", "==", "1)", "==", "5", "0;B4;", "MAX", ">=", "a", "+", "N", ">", "b", "+M", ">=", "MIN", "<=", "0", "<=", "1", "(1", ">=", "0)", "==", "CAD4;", "!(0", "<=", "1)", "==", "5", "0;B4;", "(0", ">", "1)", "==", "5", "0;B4;", "MIN", "<=", "a", "+M", "<=", "b", "+", "N", "<=", "MAX", ">=", "0", ">=", "1", "(1", "<=", "0)", "==", "CAD4;", "!(0", ">=", "1)", "==", "5", "0;B4;", "(0", "<", "1)", "==", "5", "0;B4;", "MAX", ">=", "a", "+", "N", ">=", "b", "+M", ">=", "MIN", "==", "0", "==", "1", "(1", "+\"", "==", "0", "+\")", "==", "CAD4;", "(0", "−\"", "==", "1", "−\")", "==", "CAD4;", "(0", "∗\"", "==", "1", "∗\")", "==", "CAD4;", "MIN", "<=", "a", "+M", "<", "b", "+", "N", "<=", "MAX", "!(0&&1)", "==", "CAD4;", "(!0", "|", "|1)", "==", "CAD4;", "(1&&!0)", "==", "5", "0;B4;", "(!0&&1)", "==", "5", "0;B4;", "!(1&&0)", "==", "CAD4;", "(!0", "|", "|!1)", "==", "5", "0;B4;", "(!1", "|", "|!0)", "==", "5", "0;B4;", "(!0&&!1)", "==", "5", "0;B4;", "(!1&&!0)", "==", "5", "0;B4;", "–", "(1", "|", "|!0)", "==", "CAD4;", "(0", "|", "|!1)", "==", "CAD4;", "!1", "|", "|0", "==", "CAD4;", "(!1&&0)", "==", "5", "0;B4;", "(0&&!1)", "==", "5", "0;B4;", "(1&&0)", "==", "CAD4;0", "==", "CAD4;1", "==", "CAD4;", "!0", "==", "5", "0;B4;", "!1", "==", "5", "0;B4;", "&&", "a", "&&", "b", "Operator", "Expr", "Tautological", "Transformation", "Partial", "Ordering", "Transformation"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 120.47999999999999,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660781-Table2-1.png"
+}, {
+  "caption": "Table 1. The Three Studied Static Analyzers",
+  "captionBoundary": {
+    "x1": 161.94390869140625,
+    "x2": 323.8144836425781,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Pinpoint", "LLVM", "IR", "Sparse", "Value", "Flow", "Analysis", "C,", "C++,", "JAVA", "CSA", "Clang", "AST", "Symbolic", "Execution", "C,", "C++,", "Object-C", "GSA", "Gimple", "IR", "Symbolic", "Execution", "C,", "C++,", "D", "Static", "Analyzer", "Intermediate", "Representation", "Inner", "Workings", "Supported", "Language"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 419.03999999999996,
+    "y1": 95.52,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660781-Table1-1.png"
+}, {
+  "caption": "Table 5. Key Di erences between the prior work and ours in testing static analyses.",
+  "captionBoundary": {
+    "x1": 88.77890014648438,
+    "x2": 396.9802551269531,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Our", "work", "o", "-the-shelf", "static", "analyzers", "Pseudo-oracles", "&", "Metamorphic", "Relations", "Bugariu", "et", "al.", "[3]", "abstract", "domain", "Speci", "cation", "Midtgaard", "et", "al.", "[27]", "type", "analysis", "Speci", "cation", "Wu", "et", "al.", "[47]", "alias", "analysis", "Pseudo-oracles", "Taneja", "et", "al.", "[37]", "data-", "ow", "analysis", "Pseudo-oracles", "Cuoq", "et", "al.", "[10]", "value", "analysis,", "constant", "propagation,", "slicing", "Pseudo-oracles", "Work", "Which", "static", "analyses", "were", "tested?", "What", "kinds", "of", "test", "oracles", "[2]", "are", "used?"],
+  "name": "5",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 434.4,
+    "y1": 100.8,
+    "y2": 173.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660781-Table5-1.png"
+}]

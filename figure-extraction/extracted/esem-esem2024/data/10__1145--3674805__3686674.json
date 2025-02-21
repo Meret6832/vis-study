@@ -1,0 +1,141 @@
+[{
+  "caption": "Figure 1: Data percentages (%) of the minority and the majority classes of the seven CVSS metrics of the SVs collected from National Vulnerability Database, illustrating the data imbalance issue for SV assessment. Note: The percentages do not add up to 100% as each CVSS metric has three classes.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8045043945312,
+    "y1": 264.4781188964844,
+    "y2": 313.94500732421875
+  },
+  "figType": "Figure",
+  "imageText": ["Minority", "class", "Majority", "class", "Severity", "Authentication", "Complexity", "Access", "Vector", "Access", "Availability", "Integrity", "Confidentiality", "57", "84.2", "58.5", "83.1", "43", "53", "49.3", "10.6", "20.52.42.9", "0.1", "17.7", "17.1"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686674-Figure1-1.png"
+}, {
+  "caption": "Table 2: Testing performance in terms of MCC and F1-Score of the baseline None models (without using data augmentation) and the models using nine different data augmentation techniques. Notes: The baseline performance is highlighted in yellow. The best performance of the models using data augmentation is highlighted in dark green.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.731201171875,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Paraphrasing", "0.573", "0.617", "0.591", "0.568", "0.416", "0.467", "0.537", "0.664", "0.576", "0.686", "0.541", "0.660", "0.311", "0.551", "Avg.", "%", "of", "Best", "Improvements", "31.8", "21.4", "12.9", "16.7", "22.4", "24.1", "5.3", "10.4", "7.2", "11.0", "7.0", "7.7", "15.5", "13.8", "𝑝-value", "of", "Best", "Improvements", "1.3e-4", "2.3e-7", "8.5e-7", "3.4e-7", "1.1e-3", "2.7e-5", "6.2e-3", "1.6e-3", "3.3e-3", "5.1e-3", "4.3e-5", "8.5e-6", "4.2e-7", "2.3e-7", "Effect", "size", "of", "Best", "Improvements", "0.501", "0.808", "0.244", "0.711", "0.433", "0.630", "0.148", "0.373", "0.143", "0.358", "0.221", "0.292", "0.431", "0.870", "Paraphrasing", "0.536", "0.606", "0.570", "0.540", "0.400", "0.461", "0.528", "0.656", "0.576", "0.686", "0.513", "0.644", "0.299", "0.530", "None", "0.585", "0.592", "0.589", "0.532", "0.500", "0.700", "0.570", "0.672", "0.583", "0.683", "0.544", "0.659", "0.342", "0.539", "Over-Sampling", "0.600", "0.579", "0.617", "0.544", "0.401", "0.446", "0.585", "0.699", "0.571", "0.687", "0.549", "0.671", "0.343", "0.565", "Under-Sampling", "0.492", "0.574", "0.450", "0.514", "0.135", "0.359", "0.541", "0.671", "0.572", "0.687", "0.546", "0.668", "0.344", "0.561", "Insertion", "0.647", "0.656", "0.648", "0.555", "0.508", "0.728", "0.590", "0.699", "0.596", "0.693", "0.555", "0.674", "0.364", "0.583", "Deletion", "0.634", "0.632", "0.639", "0.552", "0.479", "0.708", "0.580", "0.686", "0.612", "0.700", "0.568", "0.681", "0.353", "0.581", "Substitution", "0.638", "0.650", "0.644", "0.568", "0.465", "0.704", "0.586", "0.696", "0.609", "0.708", "0.558", "0.680", "0.345", "0.568", "Synonym", "Replacement", "0.637", "0.634", "0.663", "0.647", "0.514", "0.741", "0.589", "0.689", "0.604", "0.697", "0.563", "0.685", "0.381", "0.600", "Combination", "0.650", "0.675", "0.633", "0.605", "0.522", "0.743", "0.592", "0.700", "0.619", "0.711", "0.580", "0.686", "0.369", "0.596", "Back", "Translation", "0.236", "0.261", "0.254", "0.244", "0.189", "0.229", "0.268", "0.294", "0.267", "0.295", "0.217", "0.299", "0.139", "0.259", "LS", "TM", "Paraphrasing", "0.196", "0.313", "0.148", "0.376", "0.148", "0.326", "0.195", "0.384", "0.208", "0.381", "0.212", "0.419", "0.095", "0.358", "None", "0.578", "0.573", "0.613", "0.589", "0.465", "0.691", "0.574", "0.685", "0.592", "0.691", "0.540", "0.660", "0.338", "0.535", "Over-Sampling", "0.584", "0.570", "0.611", "0.544", "0.410", "0.453", "0.556", "0.677", "0.561", "0.688", "0.552", "0.673", "0.336", "0.559", "Under-Sampling", "0.491", "0.583", "0.445", "0.508", "0.183", "0.384", "0.560", "0.681", "0.581", "0.688", "0.547", "0.670", "0.358", "0.572", "Insertion", "0.620", "0.597", "0.630", "0.564", "0.437", "0.678", "0.580", "0.681", "0.610", "0.708", "0.572", "0.681", "0.352", "0.556", "Deletion", "0.594", "0.593", "0.641", "0.564", "0.474", "0.701", "0.584", "0.676", "0.607", "0.702", "0.564", "0.683", "0.358", "0.570", "Substitution", "0.627", "0.620", "0.620", "0.554", "0.491", "0.732", "0.571", "0.690", "0.612", "0.699", "0.559", "0.677", "0.372", "0.572", "Synonym", "Replacement", "0.619", "0.600", "0.633", "0.546", "0.489", "0.714", "0.582", "0.694", "0.601", "0.701", "0.569", "0.681", "0.334", "0.558", "Combination", "0.633", "0.627", "0.646", "0.629", "0.479", "0.701", "0.586", "0.701", "0.613", "0.712", "0.574", "0.684", "0.374", "0.589", "Back", "Translation", "0.327", "0.405", "0.362", "0.357", "0.270", "0.299", "0.329", "0.411", "0.388", "0.471", "0.335", "0.392", "0.180", "0.366", "CN", "N", "Paraphrasing", "0.396", "0.481", "0.403", "0.476", "0.181", "0.465", "0.461", "0.588", "0.495", "0.612", "0.480", "0.646", "0.297", "0.477", "None", "0.134", "0.302", "0.154", "0.307", "0.148", "0.327", "0.231", "0.354", "0.212", "0.338", "0.202", "0.368", "0.147", "0.373", "Over-Sampling", "0.243", "0.424", "0.200", "0.379", "0.211", "0.465", "0.256", "0.462", "0.247", "0.412", "0.212", "0.438", "0.168", "0.425", "Under-Sampling", "0.140", "0.293", "0.140", "0.290", "0.142", "0.313", "0.224", "0.430", "0.230", "0.410", "0.218", "0.393", "0.130", "0.322", "Insertion", "0.114", "0.374", "0.155", "0.296", "0.138", "0.305", "0.226", "0.446", "0.195", "0.452", "0.193", "0.440", "0.174", "0.400", "Deletion", "0.167", "0.387", "0.145", "0.296", "0.149", "0.328", "0.225", "0.428", "0.206", "0.445", "0.180", "0.429", "0.174", "0.400", "Substitution", "0.161", "0.398", "0.157", "0.302", "0.139", "0.306", "0.209", "0.453", "0.186", "0.451", "0.197", "0.421", "0.183", "0.382", "Synonym", "Replacement", "0.215", "0.408", "0.196", "0.317", "0.139", "0.307", "0.221", "0.419", "0.215", "0.452", "0.208", "0.413", "0.170", "0.394", "Combination", "0.219", "0.417", "0.198", "0.323", "0.167", "0.368", "0.240", "0.441", "0.220", "0.461", "0.221", "0.443", "0.189", "0.401", "Back", "Translation", "0.037", "0.064", "0.035", "0.090", "0.030", "0.052", "0.039", "0.076", "0.051", "0.059", "0.048", "0.098", "0.021", "0.063", "RF", "+", "D", "oc", "2V", "ec", "Access", "Vector", "Access", "Comp.", "Authentication", "Confidentiality", "Integrity", "Availability", "SeverityModel", "Data", "Augmentation", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "None", "0.458", "0.532", "0.604", "0.530", "0.311", "0.378", "0.509", "0.638", "0.531", "0.656", "0.507", "0.660", "0.327", "0.470", "Over-Sampling", "0.553", "0.632", "0.625", "0.609", "0.428", "0.537", "0.533", "0.667", "0.545", "0.658", "0.528", "0.667", "0.362", "0.565", "Under-Sampling", "0.543", "0.614", "0.602", "0.589", "0.115", "0.368", "0.528", "0.664", "0.540", "0.653", "0.524", "0.665", "0.355", "0.555", "Insertion", "0.540", "0.611", "0.625", "0.608", "0.420", "0.465", "0.532", "0.666", "0.540", "0.653", "0.472", "0.644", "0.357", "0.557", "Deletion", "0.451", "0.536", "0.481", "0.523", "0.278", "0.380", "0.497", "0.619", "0.508", "0.614", "0.479", "0.646", "0.311", "0.461", "Substitution", "0.441", "0.520", "0.460", "0.511", "0.253", "0.368", "0.488", "0.609", "0.506", "0.613", "0.478", "0.646", "0.306", "0.460", "Synonym", "Replacement", "0.562", "0.634", "0.608", "0.584", "0.398", "0.465", "0.526", "0.657", "0.535", "0.648", "0.525", "0.666", "0.344", "0.541", "Combination", "0.573", "0.647", "0.620", "0.596", "0.406", "0.474", "0.530", "0.660", "0.539", "0.650", "0.535", "0.679", "0.351", "0.552", "Back", "Translation", "0.149", "0.190", "0.140", "0.178", "0.062", "0.153", "0.157", "0.191", "0.192", "0.238", "0.187", "0.215", "0.089", "0.162", "RF", "+", "TF", "-ID", "F"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 127.67999999999999,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686674-Table2-1.png"
+}, {
+  "caption": "Figure 4: Percentage (%) differences in testing SV assessment performance (F1-Score and MCC) between using different data augmentation techniques and the baseline (without data augmentation) across different model types.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2034301757812,
+    "y1": 349.0951232910156,
+    "y2": 365.68499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["-70.5", "-78.7", "-41.1", "-57.9", "-62.1", "-65.3", "-75.8", "-38.5", "-56.7", "-59.1"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 84.0,
+    "y2": 308.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686674-Figure4-1.png"
+}, {
+  "caption": "Figure 2: Overview of the research methods used for the investigation of data augmentation for different SV assessment tasks.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1295166015625,
+    "y1": 226.51710510253906,
+    "y2": 232.14801025390625
+  },
+  "figType": "Figure",
+  "imageText": ["Augmented", "SV", "Descriptions", "Original", "SV", "Descriptions", "Data", "Augmentation", "•", "Data", "Sampling", "•", "Non-Contextual", "Data", "Changes", "•", "Contextual", "Data", "Changes", "RQ1:", "Impact", "of", "data", "augmentation", "on", "SV", "exploitability", "prediction", "SV", "Reports", "(e.g.,", "NVD)", "SV", "Assessment", "Models", "Time-based", "Evaluation", "Rounds", "Model", "Training", "Model", "Evaluation", "RQ3:", "Impact", "of", "data", "augmentation", "on", "SV", "severity", "prediction", "RQ2:", "Impact", "of", "data", "augmentation", "on", "SV", "impact", "prediction"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 92.64,
+    "x2": 520.3199999999999,
+    "y1": 84.47999999999999,
+    "y2": 210.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686674-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Data class distributions of the seven CVSS metrics used for SV assessment. Note: The total number of the collected SVs is 180,087.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8046264648438,
+    "y1": 448.4651184082031,
+    "y2": 476.0140075683594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 241.92,
+    "y2": 435.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686674-Figure3-1.png"
+}, {
+  "caption": "Table 3: Average cosine similarities between the Combination-augmented descriptions and the original descriptions of the same and other classes for each of the CVSS metrics. Note: The Other cells are the maximum values among the other classes. Higher value is better.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8046264648438,
+    "y1": 85.7260971069336,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Sim.", "CVSS", "Metrics", "Avg.AV", "AC", "Au", "C", "I", "A", "S", "Same", "0.223", "0.201", "0.171", "0.288", "0.305", "0.420", "0.262", "0.267", "Other", "0.208", "0.184", "0.151", "0.275", "0.293", "0.408", "0.250", "0.252"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 149.76,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686674-Table3-1.png"
+}, {
+  "caption": "Table 1: Examples of the original description and the descriptions generated by the studied data augmentation techniques of the CVE-1999-0315 SV. Note: The augmented descriptions were manually selected among multiple runs to enhance readability.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.2050170898438,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Back", "Translation", "Buffer", "overflow", "in", "Solaris", "fdformat", "command", "gives", "local", "users", "the", "root", "access.", "Translating", "the", "original", "description", "to", "German,", "i.e.,", "“pufferüberlauf", "im", "fehler", "solari", "fdformat", "gibt", "lokal", "benutzern", "rootzugriff", "”,", "and", "then", "translating", "the", "German", "description", "back", "to", "English", "Paraphrasing", "Solaris", "fdformat", "command", "allows", "users", "to", "access", "root", "via", "the", "buffer", "overflow", "bug,", "posing", "imminent", "threats.", "Rewriting", "the", "original", "description", "while", "retaining", "the", "key", "seman-", "tics", "of", "the", "description", "Contextual", "Text", "Augmentation", "Insertion", "Buffer", "overflow", "in", "Solaris", "fdformat", "command", "gives", "vulnerability", "root", "access", "to", "local", "users.", "Inserting", "the", "word", "“vulnerability”;", "vulnerability", "is", "a", "common", "word", "appearing", "in", "different", "SV", "descriptions.", "Deletion", "overflow", "in", "Solaris", "fdformat", "command", "gives", "root", "access", "to", "local", "users.", "Removing", "the", "word", "“Buffer”", "Substitution", "Buffer", "error", "in", "Solaris", "fdformat", "command", "gives", "root", "access", "to", "local", "users.", "Substituting/replacing", "the", "word", "“overflow”", "with", "the", "word", "“error”", "Synonym", "Replacement", "Buffer", "overflow", "in", "Solaris", "fdformat", "command", "gives", "root", "path", "to", "local", "users.", "Replacing", "the", "word", "“access”", "with", "the", "synonymous", "word", "“path”", "Combination", "error", "in", "Solaris", "fdformat", "command", "gives", "vulnerability", "root", "access", "to", "local", "users.", "Inserting", "the", "word", "“vulnerability”", "+", "Substituting", "the", "word", "“over-", "flow”", "with", "the", "word", "“error”", "+", "Removing", "the", "word", "“Buffer”", "Simple", "Text", "Augmentation", "access", "to", "local", "users.", "Original", "SV", "description", "Category", "Data", "Augmentation", "Software", "Vulnerability", "Description", "Explanation", "of", "the", "Changes", "None", "Buffer", "overflow", "in", "Solaris", "fdformat", "command", "gives", "root"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 116.64,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686674-Table1-1.png"
+}]

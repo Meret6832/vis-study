@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1: Features used in our matcher. App ID is the umbrella term for iOS bundle IDs and Android package names. We use the shared prefix length (SPL) and Levenshtein distance (LD) for names, as well as the “same domain” for URLs (SD). For longer strings (i. e., the descriptions) we use the term frequency-inverse document frequency (TF-IDF). For deep links we use URL Schemes (US) and App Links (AL). We compare icons using the average, perceptual, and wavelet hash. We normalized all values to the [0, 1] range.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.5640563964844,
+    "y1": 189.29336547851562,
+    "y2": 282.59600830078125
+  },
+  "figType": "Table",
+  "imageText": ["App", "Descriptions", "String", "Store", "TF-IDF", "App", "Icons", "Image", "Store", "max(ahash,", "phash,", "whash)", "Deep", "Links", "String", "App", "max(SD(US),", "SD(AL))", "Feature", "Type", "Source", "Comparison", "App", "Names", "String", "Store", "max(SPL,", "LD)", "Developer", "Names", "String", "Store", "max(SPL,", "LD)", "App", "IDs", "String", "Store", "max(SPL,", "LD)", "Privacy", "Policy", "URLs", "String", "Store", "max(SD,", "SPL,", "LD)"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644896-Table1-1.png"
+}, {
+  "caption": "Table 4: Impact of different subsets of features on matching rates, with a matching threshold of 0.5, for the Verifiable Set. w/o indicates that the specific feature was omitted. True positives (TP) increase without some features, but at the cost of false positives (FP) and false negatives (FN).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0391845703125,
+    "y1": 203.07736206054688,
+    "y2": 252.54400634765625
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "TP", "(%)", "FP", "(%)", "FN", "(%)", "Our", "Approach", "3,322", "(95.82", "%)", "14", "(0.40", "%)", "131", "(3.78", "%)"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 264.0,
+    "y2": 289.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644896-Table4-1.png"
+}, {
+  "caption": "Figure 1: Overview of our app retrieval and analysis pipeline. After discovering apps and retrieving their metadata, we filter apps based on their popularity and download them. We then preprocess the apps’ (meta)data and feed it into the matcher that tries to match apps between platforms. The final output is the list of matched cross-platform apps.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.375244140625,
+    "y1": 199.34933471679688,
+    "y2": 226.89801025390625
+  },
+  "figType": "Figure",
+  "imageText": ["54321", "Matching", "Modules", "Preparation", "(e.g.,", "TF-IDF)", "Icon", "Developer", "Privacy", "Policy", "URLDeep", "Links", "Description", "App", "ID", "Filter", "10k", "each", "by", "number", "of", "reviews", "Name", "oi", "d", "An", "dr", "iO", "S", "App", "Discovery", "&", "Metadata", "Retrieval", "App", "Download", "Preprocessing", "Cross-Platform", "App", "Matching", "Popularity", "Filter", "Result", "Cross-", "Platform", "App", "Pairs", "Android", "Preprocessing", "iOS", "Preprocessing", "Android", "Downloader", "iOS", "Downloader", "Crawler", "Recursive", "Related", "App", "Play", "Store", "Crawler", "App", "Store", "Crawler"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 558.24,
+    "y1": 85.92,
+    "y2": 192.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644896-Figure1-1.png"
+}, {
+  "caption": "Table 2: Number of apps in our Android and iOS app datasets after discovery (i. e., enumerating them in the store), filtering (for popularity and free apps), and download.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1954345703125,
+    "y1": 130.12936401367188,
+    "y2": 157.677978515625
+  },
+  "figType": "Table",
+  "imageText": ["Matches", "3,322", "(99.58", "%)", "7", "(2.47", "%)", "82", "(61.19", "%)", "Verifiable", "Set", "Unverifiable", "Set*", "No", "Reference", "Pairs*"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 168.95999999999998,
+    "y2": 203.51999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644896-Table2-1.png"
+}, {
+  "caption": "Table 3: Quality of our matches with a matching score ≥ 0.5 (n = 3,753). * indicates manually verified matches.",
+  "captionBoundary": {
+    "x1": 317.3900146484375,
+    "x2": 558.2012329101562,
+    "y1": 261.1153259277344,
+    "y2": 277.70501708984375
+  },
+  "figType": "Table",
+  "imageText": ["Unknown", "-", "20", "(7.07", "%)", "2", "(1.49", "%)", "Total", "3,336", "(33.55", "%)", "283", "(", "2.85", "%)", "134", "(1.35", "%)", "App", "Missing", "-", "256", "(90.46", "%)", "50", "(37.31", "%)", "Mismatches", "14", "(0.42", "%)", "-", "-"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 207.35999999999999,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644896-Table3-1.png"
+}, {
+  "caption": "Figure 2: Distribution of the similarity scores for the individual features, as well as the average matching score. Using the Verifiable Set, • shows matches according to the reference pairs, while • shows mismatches, i. e., all possible cross-combinations of apps we downloaded that both appear in the Verifiable Set but are not matches. Note that the number of app pairs on the 𝑦-axis is plotted on a log scale since there are far more mismatches than matches.",
+  "captionBoundary": {
+    "x1": 53.2599983215332,
+    "x2": 558.1986694335938,
+    "y1": 315.9193420410156,
+    "y2": 354.427001953125
+  },
+  "figType": "Figure",
+  "imageText": ["(h)", "Average", "of", "Scores", "rs", "P", "ai", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "100", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score", "(g)", "Deep", "Links", "rs", "P", "ai", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "100", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score", "(f)", "App", "Icon", "rs", "P", "ai", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "100", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score", "(e)", "App", "Description", "rs", "P", "ai", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "100", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score", "(d)", "Privacy", "Policy", "URL", "rs", "P", "ai", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "100", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score", "(c)", "Developer", "Name", "rs", "P", "ai", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score", "P", "ai", "rs", "(b)", "App", "ID", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "100", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score", "(a)", "App", "Name", "rs", "P", "ai", "f", "A", "pp", "be", "r", "o", "Nu", "m", "107", "106", "105", "104", "103", "102", "101", "100", "0.0", "0.2", "0.4", "0.6", "0.8", "1.0", "Similarity", "Score"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 546.24,
+    "y1": 93.6,
+    "y2": 300.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644896-Figure2-1.png"
+}]

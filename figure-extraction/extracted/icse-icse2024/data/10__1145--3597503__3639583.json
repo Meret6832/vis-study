@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 5: The exploit code of CVE-2021-44248, will cause the exploit.class to run on the server (in the exploit, it is hosted on localhost).",
+  "captionBoundary": {
+    "x1": 53.797996520996094,
+    "x2": 294.0339050292969,
+    "y1": 154.92979431152344,
+    "y2": 182.86395263671875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "private", "static", "final", "Logger", "logger", "=", "LogManager.", "getLogger(log4j.class);", "2", "public", "static", "void", "main(String", "[]", "args)", "{", "3", "logger.error(\"${jndi:ldap", "://", "localhost", ":8080/", "exploit}", "\");", "4", "}"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.28,
+    "x2": 295.2,
+    "y1": 84.0,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Figure5-1.png"
+}, {
+  "caption": "Table 1: Trigger conditions of vulnerabilities in VESTA.",
+  "captionBoundary": {
+    "x1": 325.9230041503906,
+    "x2": 549.929443359375,
+    "y1": 85.34037780761719,
+    "y2": 91.3565673828125
+  },
+  "figType": "Table",
+  "imageText": ["DOS", "Uncatch", "exception", "/", "Infinite", "loop", "RCE", "Target", "server", "receive", "request", "Wrong", "Behavior", "No", "exception", "throwed", "SQL", "Injection", "Database", "unexpected", "logs", "XXE", "Target", "server", "receive", "request", "Type", "Show"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 336.96,
+    "x2": 539.04,
+    "y1": 105.6,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Table1-1.png"
+}, {
+  "caption": "Figure 1: Description of CVE-2023-1370.",
+  "captionBoundary": {
+    "x1": 93.322998046875,
+    "x2": 254.51449584960938,
+    "y1": 388.6678161621094,
+    "y2": 394.6839904785156
+  },
+  "figType": "Figure",
+  "imageText": ["(stack", "overflow)", "and", "crash", "the", "software.", "recursively,", "nesting", "too", "many", "of", "them", "can", "cause", "a", "stack", "exhaustion", "arrays", "or", "objects.", "Since", "the", "parsing", "of", "nested", "arrays", "and", "objects", "is", "done", "discovered", "that", "the", "code", "does", "not", "have", "any", "limit", "to", "the", "nesting", "of", "such", "JSON", "input,", "the", "code", "parses", "an", "array", "or", "an", "object", "respectively.", "It", "was", "focused,", "JSON", "processor", "lib.", "When", "reaching", "a", "(", "『or'{'character", "in", "the", "Description", "[Json-sma", "rt]", "(https://netplex.githu", "b.io/json-sma", "rt/)", "is", "a", "performance", "．", "．", "悲CVE-2023-1370", "Detail"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 247.67999999999998,
+    "y2": 375.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Vulnerability exploit for CVE-2023-1370 in jfrog.",
+  "captionBoundary": {
+    "x1": 56.237998962402344,
+    "x2": 291.6051940917969,
+    "y1": 675.2348022460938,
+    "y2": 681.2509765625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "p", "=", "new", "JSONParser(JSONParser.MODE_JSON_SIMPLE);", "11", "p.parse(s.toString", "());", "1", "StringBuilder", "s", "=", "new", "StringBuilder", "();", "2", "for", "(int", "i", "=", "0;", "i", "<", "10000", ";", "i++)", "{", "3", "s.append(\"{\\\"a\\\":\");", "4", "}", "5", "s.append(\"1\");", "6", "for", "(int", "i", "=", "0;", "i", "<", "10000", ";", "i++)", "{", "7", "s.append(\"}\");", "8", "}", "9", "JSONParser", "p", "=", "null;"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 295.2,
+    "y1": 564.0,
+    "y2": 659.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The generated test case for exploiting CVE-20231370 in the project named Microservice.",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 559.7957763671875,
+    "y1": 453.8728332519531,
+    "y2": 470.8480224609375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "@Test(timeout", "=", "4000)", "2", "public", "void", "test05", "()", "throws", "Throwable", "{", "3", "try", "{", "4", "TokenUtil.of(POCValue);", "5", "fail(\"Expecting", "exception:", "ClassCastException\");", "6", "}", "catch(ClassCastException", "e)", "{", "7", "verifyException(\"TokenUtil\",e);", "8", "}", "9", "}"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 317.28,
+    "x2": 559.1999999999999,
+    "y1": 358.56,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Figure3-1.png"
+}, {
+  "caption": "Table 3: Vulnerable function parameter types in the experiment.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6382141113281,
+    "y1": 564.3788452148438,
+    "y2": 581.35400390625
+  },
+  "figType": "Table",
+  "imageText": ["Object", "5", "Number", "2", "String", "19", "File", "4", "Parameter", "Type", "Vulnerability"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 244.32,
+    "y1": 595.68,
+    "y2": 662.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Table3-1.png"
+}, {
+  "caption": "Table 2: Vulnerabilities in our experiment, including vulnerability numbers, library names, vulnerability trigger conditions. Each Vulnerability has two projects, we indicate 3 if themethod is a success in the project, 7 if themethod failed in the project, —— means no vulnerability witness test is added after fixed or the fixing test is not merged.",
+  "captionBoundary": {
+    "x1": 52.803009033203125,
+    "x2": 559.7130737304688,
+    "y1": 85.34080505371094,
+    "y2": 113.27496337890625
+  },
+  "figType": "Table",
+  "imageText": ["18", "Libraries", "30", "Vulnerabilities", "43/60", "11/60", "Database", "Hibernate", "CVE-2019-14900", "getResultList", "SQL", "injection", "7", "7", "7", "7", "Log", "Log4j2", "CVE-2021-44228", "error/info", "Remote", "Code", "Execution", "3", "7", "7", "7", "HTML", "Jsoup", "CVE-2021-37714", "parse", "Infinted", "Loop", "3", "7", "7", "7", "Net", "Httpclient", "CVE-2020-13956", "HttpGet", "Cross-site", "Scripting", "3", "3", "7", "7", "Framework", "Spring-beans", "CVE-2022-22965", "ClassLoader", "Remote", "Code", "Execution", "7", "7", "——", "Test", "Junit", "CVE-2020-15250", "TemporaryFolder", "Improper", "File", "Permission", "7", "7", "7", "7", "CVE-2018-1324", "ZipFile", "Wrong", "behavior", "3", "3", "——", "Compress", "Apache", "Compress", "CVE-2021-35516", "SevenZFile", "Out", "of", "Memory", "3", "7", "3", "7", "Apache", "PDFBox", "CVE-2021-31812", "load", "Stack", "Overflow", "3", "3", "——", "CVE-2021-29425", "normalize", "Path", "Traversal", "3", "3", "7", "7", "Apache", "IO", "IO-611", "normalize", "Path", "Traversal", "3", "3", "7", "7", "Zip-263", "ZipFile", "Wrong", "Behavior", "3", "3", "3", "3", "File", "Apache.poi", "CVE-2019-12415", "XSSFExportToXml", "XXE", "Injection", "3", "3", "——", "Zip4j", "CVE-2022-24615", "ZipInputStream", "Uncatch", "Exception", "3", "7", "——", "JSON", "CVE-2022-45688", "parse", "Uncatch", "Exception", "3", "3", "3", "7", "Jackson-databind", "CVE-2019-14540", "readValue", "Remote", "Code", "Execution", "7", "7", "7", "7", "CVE-2021-27568", "getAsNumber", "Uncatch", "Exception", "3", "7", "3", "7", "Json", "Json-smart", "CVE-2023-1370", "parse", "Stack", "Overflow", "3", "7", "7", "7", "LANG-1385", "createNumber", "Wrong", "Behavior", "3", "3", "7", "7", "Number", "Apache", "Lang", "LANG-1484", "isParsable", "Wrong", "Behavior", "3", "7", "——", "LANG-1645", "createNumber", "Wrong", "Behavior", "3", "3", "7", "7", "String", "Apache", "Text", "TEXT-215", "translate", "Wrong", "Behavior", "3", "3", "——", "CVE-2022-42889", "replace", "Remote", "Code", "Execution", "3", "7", "7", "7", "Base64/32", "Apache", "Codec", "CODEC-263", "decodeBase64", "Wrong", "Behavior", "3", "7", "——", "CODEC-270", "decodeBase64", "Wrong", "Behavior", "3", "3", "3", "3", "CVE-2021-39144", "fromXML", "Remote", "Code", "Execution", "3", "3", "——", "CVE-2021-21341", "fromXML", "Infinted", "Loop", "3", "3", "——", "CVE-2022-41966", "fromXML", "Stack", "Overflow", "3", "3", "3", "3", "CVE-2020-26217", "fromXML", "Remote", "Code", "Execution", "3", "3", "7", "7", "Xml", "XStream", "CVE-2017-7957", "fromXML", "Uncatch", "Exception", "3", "3", "3", "3", "Type", "Library", "Number", "Function", "Trigger", "Condition", "VESTA", "TRANSFER", "."],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 548.16,
+    "y1": 127.67999999999999,
+    "y2": 548.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Table2-1.png"
+}, {
+  "caption": "Figure 4: Overview of VESTA. Given the vulnerability exploits code, VESTA produces an exploit (Test Case) for the potential library vulnerability in the project.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.2028198242188,
+    "y1": 280.6025695800781,
+    "y2": 297.5780029296875
+  },
+  "figType": "Figure",
+  "imageText": ["String", "Manipulation", "MutationCrossoverTime", "Budget", "Evaluation", "Selection", "Guide", "Fitness", "Score", "Generator", "Bug", "Catcher", "Type", "Conversion", "File", "Processing", "Reproduce", "Manual", "Check", "Target", "Case", "Trigger", "Condition", "1.", "Execute", "2.", "Check", "Similarity", "Guarantee", "Suitable", "TestExploit", "Value", "1.", "Coverage", "2.", "Value", "Search", "GoalsTest", "Cases", "Entry", "Class", "Entry", "Function", "Collect", "Function", "NameExploit", "Value", "Vulnerability", "Top", "Public", "Method", "Static", "Analysis", "Call", "Relation", "Extract", "Source", "Code", "Search", "Goals", "Exploit", "Phase", "3:", "Migration", "Phase", "2:", "Generation", "Phase", "1:", "Pre-Process"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 103.2,
+    "x2": 507.35999999999996,
+    "y1": 84.96,
+    "y2": 265.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Figure4-1.png"
+}, {
+  "caption": "Table 4: Results of Ablation Study on VESTA.",
+  "captionBoundary": {
+    "x1": 82.43798828125,
+    "x2": 265.1022644042969,
+    "y1": 85.34080505371094,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Migration", "with", "Rules", "11", "18.4%", "Directly", "Migration", "27", "45.0%", "Directly", "Generated", "Test", "5", "8.3%", "Total", "43", "71.7%", "Method", "Exploit", "Effectiveness"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 72.96,
+    "x2": 274.08,
+    "y1": 105.6,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Table4-1.png"
+}, {
+  "caption": "Table 5: VESTA’s performance on projects with complete tests in three scenarios: direct migration, migration after generation, and test generation only.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.2212829589844,
+    "y1": 189.27281188964844,
+    "y2": 217.20697021484375
+  },
+  "figType": "Table",
+  "imageText": ["Migration", "on", "Generated", "Test", "8", "0", "100.0%", "Migration", "on", "Existing", "Test", "8", "0", "100.0%", "Directly", "Generated", "Test", "2", "6", "25.0%", "Method", "Found", "Omitted", "accuracy"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 231.84,
+    "y2": 286.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Table5-1.png"
+}, {
+  "caption": "Table 6: Exploit Generation Time. In VESTA, we evaluate time both using existing tests and generating tests.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.198974609375,
+    "y1": 85.34056091308594,
+    "y2": 102.31573486328125
+  },
+  "figType": "Table",
+  "imageText": ["CVE-2017-7957", "2.20s/18.71s", "31s", "CVE-2022-41966", "2.51s/18.41s", "32s", "CODEC-270", "3.51s/16.33s", "12s", "Vulnerability", "VESTA", "TRANSFER"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 348.0,
+    "x2": 529.4399999999999,
+    "y1": 116.64,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639583-Table6-1.png"
+}]

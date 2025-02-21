@@ -1,0 +1,341 @@
+[{
+  "caption": "Figure 9: Code snippet and corresponding operation sequences of the dataDriven constraint.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6460876464844,
+    "y1": 182.9724884033203,
+    "y2": 198.22637939453125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "mapping(address", "=>", "uint256)", "balance;", "2", "require(_value", "<=", "balance[msg.sender", "]);"],
+  "name": "9",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 46.08,
+    "x2": 295.2,
+    "y1": 86.88,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Taint analysis with awareness of the permission constraint: (a) detecting bypassed permission constraints, and (b) detecting PRD vulnerabilities based on the permissionless or permissioned-but-bypassed entry points.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6461486816406,
+    "y1": 666.889404296875,
+    "y2": 704.0614013671875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "(a)", "adversaryDetecting", "PRD", "Vulnerabilities", "High", "privilege", "P2P1", "Taint", "PDV1", "High", "privilege", "Safe", "P0", "Safe", "Safe", "Permissionless", "entry", "point", "Call", "chains", "P", "Permissioned", "Entry", "point", "w.r.t.", "PDV", "P", "Bypassed", "Permissioned", "Entry", "point", "Call", "path", "Attack", "path", "Detecting", "bypass", "permissions", "If", "PDV1", "is", "tainted,", "then", "P1", "could", "be", "bypassed", "adversary", "High", "privilege", "P2P1", "Taint", "PDV1", "High", "privilege", "Safe", "P0", "Safe", "Safe"],
+  "name": "10",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 284.15999999999997,
+    "y1": 511.68,
+    "y2": 651.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure10-1.png"
+}, {
+  "caption": "Table 6: Success rate of PC inference and bypass analysis",
+  "captionBoundary": {
+    "x1": 59.07609939575195,
+    "x2": 288.47247314453125,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "75", "69", "(92%)", "51", "50", "(98%)", "Bancor", "0", "0", "(100%)", "0", "0", "(100%)", "CVE-2018-10666", "7", "7", "(100%)", "5", "5", "(100%)", "CVE-2018-10705", "6", "6", "(100%)", "5", "5", "(100%)", "CVE-2018-11329", "2", "2", "(100%)", "0", "0", "(100%)", "CVE-2018-19830", "6", "3", "(50%)", "3", "3", "(100%)", "CVE-2018-19831", "12", "12", "(100%)", "12", "11", "(92%)", "CVE-2018-19832", "7", "5", "(71%)", "5", "5", "(100%)", "CVE-2018-19833", "4", "4", "(100%)", "3", "3", "(100%)", "CVE-2018-19834", "5", "5", "(100%)", "3", "3", "(100%)", "CVE-2019-15078", "9", "9", "(100%)", "5", "5", "(100%)", "CVE-2019-15079", "0", "0", "(100%)", "0", "0", "(100%)", "CVE-2019-15080", "4", "4", "(100%)", "4", "4", "(100%)", "CVE-2020-35962", "5", "5", "(100%)", "0", "0", "(100%)", "CVE-2021-34272", "5", "5", "(100%)", "5", "5", "(100%)", "CVE-2021-34273", "3", "2", "(66%)", "1", "1", "(100%)", "TransitS.1", "-", "7", "-", "0", "TransitS.2", "-", "8", "-", "0", "TransitS.3", "-", "7", "-", "0", "MEVBot1", "-", "14", "-", "0", "MEVBot2", "-", "-", "-", "-", "GT", "Inferred", "(Acc.)", "GT", "Inferred", "(Acc.)", "Contracts", "P.C.", "Inference", "Bypass", "Detection"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Table6-1.png"
+}, {
+  "caption": "Figure 1: The 2022 TransitSwap hack",
+  "captionBoundary": {
+    "x1": 99.51020050048828,
+    "x2": 248.33450317382812,
+    "y1": 159.00440979003906,
+    "y2": 163.29931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Polluted", "parameters", "Victim’s", "token", "asset", "Attacker", "Router", "contracts1.", "call", "function", "with", "malicious", "call", "data", "2.", "internal", "call", "with", "polluted", "parameters", "3.", "Manipulate", "sensitive", "function", "call:", "transferFrom(victim,", "attacker,", "amt)", "Permission", "man-", "agement", "contract", "TransitSwap"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 84.0,
+    "y2": 142.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure1-1.png"
+}, {
+  "caption": "Table 1: Key components of the first round taint analysis",
+  "captionBoundary": {
+    "x1": 58.7671012878418,
+    "x2": 288.7821960449219,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["Sinks", "(1)", "SSTORE", "to", "locations", "of", "PDVs.", "(1)", "data", "assignment", "and", "algorithmic", "operation;", "(2)", "SSTORE/MSTORE", "tainted", "variables", "to", "storage", "or", "memory", "location;", "(3)", "SLOAD/MLOAD", "tainted", "storage", "or", "memory", "locations", "to", "variables;", "(4)", "external", "function", "calls", "with", "tainted", "parameters.", "Propagation", "rules", "(3)", "return", "data", "of", "external", "calls", "with", "undetermined", "address.", "Sources", "(2)", "input", "of", "the", "entry", "point", "function;", "(1)", "msg.sender", "and", "tx.origin", "operations;"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Table1-1.png"
+}, {
+  "caption": "Table 5: Permission bug detection results on SmartBugs-wild",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.0489501953125,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["AChecker", "624", "254", "81%", "228", "PrettySmart", "673", "673", "90%", "-", "Slither", "2,361", "331", "21%", "79", "Maian", "44", "44", "64%", "21", "Securify", "614", "237", "22%", "9", "Mythril", "1076", "284", "39%", "305", "SPCon", "45", "45", "80%", "21", "Tool", "#", "Reported", "#", "Sampled", "Precision", "#", "Overlap"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 293.28,
+    "y1": 105.6,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Table5-1.png"
+}, {
+  "caption": "Figure 11: A false positive caused by underestimation of permission constraint for sensitive function.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.65423583984375,
+    "y1": 555.3291625976562,
+    "y2": 570.5831298828125
+  },
+  "figType": "Figure",
+  "imageText": ["10", "require(now", ">=", "timeLock);", "11", "msg.sender.transfer(address(this).balance);", "12", "}", "1", "address", "winner;", "2", "uint256", "timeLock;", "3", "function", "()", "payable", "external", "{", "4", "require(msg.value", ">=", "0.1", "ether);", "5", "timeLock", "=", "now", "+", "6", "hours;", "6", "winner", "=", "msg.sender;", "7", "}", "8", "function", "claim()", "public", "{", "9", "require(msg.sender", "==", "winner);"],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 44.16,
+    "x2": 295.2,
+    "y1": 429.59999999999997,
+    "y2": 538.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure11-1.png"
+}, {
+  "caption": "Figure 2: The ERC-20 standard interfaces for token transfers",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 294.04620361328125,
+    "y1": 140.5124053955078,
+    "y2": 144.80731201171875
+  },
+  "figType": "Figure",
+  "imageText": ["3", "function", "approve(address", "_spender", ",", "uint256", "_value)", "_value)", "1", "function", "transfer(address", "_to", ",", "uint256", "_value)", "2", "function", "transferFrom(address", "_from", ",", "address", "_to", ",", "uint256"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 46.08,
+    "x2": 295.2,
+    "y1": 86.88,
+    "y2": 123.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The core execution path of the TransitSwap attack",
+  "captionBoundary": {
+    "x1": 323.40960693359375,
+    "x2": 552.7489624023438,
+    "y1": 170.93251037597656,
+    "y2": 175.2274169921875
+  },
+  "figType": "Figure",
+  "imageText": ["Smart", "contract", "tio", "n", "Fu", "nc", "nc", "e", "passed", "passed", "msg.sender", "==", "proxy?", "msg.sender", "==", "router?", "En", "tra", "Functions", "Data", "propagationPermission", "Constraint", "P", "High", "Privilege", "Node", "R", "Revert", "Node", "ca", "ll", "by", "te", "s(", ")", "Router", "Contract", "cl", "ai", "mt", "ok", "en", "s(", ")", "R", "R", "P", "Proxy", "Contract", "Permission", "Contract", "Malicious", "CallData"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 551.04,
+    "y1": 84.0,
+    "y2": 155.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure3-1.png"
+}, {
+  "caption": "Table 3: Top 5 most used permission constraints.",
+  "captionBoundary": {
+    "x1": 339.6286926269531,
+    "x2": 536.235107421875,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["msg.sender", "==", "owner", "58,320", "compare2Owner", "_value", "≤", "balances[msg.sender]", "16,004", "dataDriven", "_value", "≤", "allowed[_from][msg.sender])", "13,003", "dataDriven", "_value", "≤", "allowance[_from][msg.sender])", "12,220", "dataDriven", "msg.sender", "==", "governance", "11,316", "compare2Owner", "Code", "No.", "Type"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 557.28,
+    "y1": 106.08,
+    "y2": 175.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Table3-1.png"
+}, {
+  "caption": "Table 2: Distribution of permission constraints in all require statements that occur more than 200 (or 100) times",
+  "captionBoundary": {
+    "x1": 53.50210189819336,
+    "x2": 294.0448303222656,
+    "y1": 87.06227111816406,
+    "y2": 102.31622314453125
+  },
+  "figType": "Table",
+  "imageText": ["#", "total", "-", "284,787", "-", "306,943", "queryOwner", "1.55%", "4,414", "1.58%", "4,852", "others", "0.97%", "2,762", "1.24%", "3,804", "compare2Owner", "61.78%", "175,941", "60.87%", "186,831", "dataDriven", "29.44%", "83,841", "29.08%", "89,245", "groupBased", "4.40%", "12,531", "5.31%", "16,314", "roleBased", "1.87%", "5,326", "1.92%", "5,897", "Type", "#", ">200", "#", ">100", "%", "Per.", "No.", "%", "Per.", "No."],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 279.36,
+    "y1": 117.11999999999999,
+    "y2": 206.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Table2-1.png"
+}, {
+  "caption": "Table 4: Results of detecting permission re-delegation bugs",
+  "captionBoundary": {
+    "x1": 318.6246032714844,
+    "x2": 557.2386474609375,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["recall", "(%)", "0", "18", "0", "0", "53", "71", "88", "†", "Vulnerabilities", "in", "these", "contracts", "can", "only", "be", "triggered", "in", "the", "cross-contract", "context.", "TransitSwap†", "MEVBot†", "Bancor†", "CVE-2018-10666", "CVE-2018-10705", "CVE-2018-11329", "CVE-2018-19830", "CVE-2018-19831", "CVE-2018-19832", "CVE-2018-19833", "CVE-2018-19834", "CVE-2019-15078", "CVE-2019-15079", "CVE-2019-15080", "CVE-2020-35962", "CVE-2021-34272", "CVE-2021-34273", "Ou", "rs", "r", "SP", "Co", "n", "AC", "he", "cke", "il", "My", "thr", "uri", "fy", "Contracts", "Sli", "the", "r", "Ma", "ian", "Sec"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 547.1999999999999,
+    "y1": 105.6,
+    "y2": 279.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Table4-1.png"
+}, {
+  "caption": "Figure 4: Framework of PrettySmart",
+  "captionBoundary": {
+    "x1": 234.22039794921875,
+    "x2": 377.7804870605469,
+    "y1": 147.10340881347656,
+    "y2": 151.3983154296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 527.52,
+    "y1": 84.0,
+    "y2": 128.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Code snippet and corresponding operation sequences of the compare2Owner constraint.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6460876464844,
+    "y1": 246.69557189941406,
+    "y2": 261.94952392578125
+  },
+  "figType": "Figure",
+  "imageText": ["msg.sender", "Falseowner", "REVERT", "True", "JUMPI", "CALLER", "…EQ", "offset", "SLOAD", "1", "address", "private", "owner;", "2", "require(msg.sender", "==", "owner);"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 46.08,
+    "x2": 295.2,
+    "y1": 172.79999999999998,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure5-1.png"
+}, {
+  "caption": "Figure 8: Code snippet and corresponding operation sequences of the roleBased constraint.",
+  "captionBoundary": {
+    "x1": 317.9555969238281,
+    "x2": 559.8046875,
+    "y1": 328.10272216796875,
+    "y2": 343.356689453125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "struct", "RoleData", "{", "2", "mapping(address", "=>", "bool)", "members;", "3", "bytes32", "adminRole;", "4", "}", "5", "mapping(bytes32", "=>", "RoleData)", "private", "_roles;", "6", "require(_roles[role].", "members[msg.sender", "]);"],
+  "name": "8",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 310.56,
+    "x2": 559.1999999999999,
+    "y1": 172.79999999999998,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure8-1.png"
+}, {
+  "caption": "Figure 6: Code snippet and corresponding operation sequences of the queryOwner constraint.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6460876464844,
+    "y1": 379.78289794921875,
+    "y2": 395.03680419921875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "mapping", "(uint256", "=>", "address)", "private", "nftOwner;", "2", "require(nftOwner[_nftId]", "==", "msg.sender);"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 46.08,
+    "x2": 295.2,
+    "y1": 284.64,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Code snippet and corresponding operation sequences of the groupBased constraint.",
+  "captionBoundary": {
+    "x1": 53.798099517822266,
+    "x2": 295.6460876464844,
+    "y1": 514.877197265625,
+    "y2": 530.1309814453125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "mapping(address", "=>", "bool)", "private", "allowlist;", "2", "require(allowlist[msg.sender", "]);"],
+  "name": "7",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 46.08,
+    "x2": 295.2,
+    "y1": 418.56,
+    "y2": 494.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639140-Figure7-1.png"
+}]

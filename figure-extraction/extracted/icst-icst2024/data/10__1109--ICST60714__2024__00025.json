@@ -1,0 +1,161 @@
+[{
+  "caption": "Fig. 1: ANDROID UI example and associated XML code.",
+  "captionBoundary": {
+    "x1": 68.68331909179688,
+    "x2": 290.1710205078125,
+    "y1": 356.70574951171875,
+    "y2": 361.1165771484375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "XML", "example", "for", "“Pepperoni”", "row", "in", "Figure", "1a."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 298.08,
+    "y1": 246.72,
+    "y2": 346.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: Example of an ESPRESSO test. This test builds an ESPRESSO View Matcher for selecting a view that has, at the same time, a resource identifier “R.id.button” and a parent with resource identifier “R.id.layout”. It then clicks on the selected view and asserts that its text is “Clicked”.",
+  "captionBoundary": {
+    "x1": 315.1274719238281,
+    "x2": 551.1271362304688,
+    "y1": 252.94859313964844,
+    "y2": 302.3112487792969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 542.4,
+    "y1": 72.96,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-Figure2-1.png"
+}, {
+  "caption": "TABLE I: View Actions used in ESPRESSOMAKER.",
+  "captionBoundary": {
+    "x1": 330.844482421875,
+    "x2": 533.0517578125,
+    "y1": 75.15159606933594,
+    "y2": 79.56243896484375
+  },
+  "figType": "Table",
+  "imageText": ["provided", "string", "into", "the", "view.", "pressBack()", "Clicks", "the", "“back”", "button.", "clearText()", "Clears", "text", "on", "the", "view.", "click()", "Clicks", "the", "view", "(i.e.,", "single", "tap).", "pressKey(ENTER)", "Presses", "the", "hardware", "enter", "key.", "longClick()", "Long", "clicks", "the", "view", "(i.e.,", "long", "single", "tap).", "pressMenuKey()", "Presses", "the", "hardware", "menu", "key.", "pressKey(SEARCH)", "Presses", "the", "hardware", "search", "key.", "swipeDown()", "Performs", "a", "swipe", "top-to-bottom", "across", "the", "hori-", "zontal", "center", "of", "the", "view.", "swipeLeft()", "Performs", "a", "swipe", "right-to-left", "across", "the", "vertical", "center", "of", "the", "view.", "swipeRight()", "Performs", "a", "swipe", "left-to-right", "across", "the", "vertical", "center", "of", "the", "view.", "swipeUp()", "Performs", "a", "swipe", "bottom-to-top", "across", "the", "hori-", "zontal", "center", "of", "the", "view.", "typeText(String)", "Selects", "the", "view", "(by", "clicking", "on", "it)", "and", "types", "the", "ESPRESSO", "action", "Description"],
+  "name": "I",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 87.84,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-TableI-1.png"
+}, {
+  "caption": "TABLE II: View Matchers used in ESPRESSOMAKER",
+  "captionBoundary": {
+    "x1": 327.60186767578125,
+    "x2": 536.071533203125,
+    "y1": 267.310302734375,
+    "y2": 271.72113037109375
+  },
+  "figType": "Table",
+  "imageText": ["expected", "state", "of", "the", "app", "against", "the", "actual", "observed", "state.", "•", "(Optionally)", "Having", "executed", "an", "action,", "contrast", "the", "selected", "action.", "•", "Given", "a", "chosen", "available", "action", "on", "the", "app,", "perform", "the", "available", "actions.", "•", "Given", "the", "current", "state", "of", "the", "app,", "retrieve", "the", "list", "of", "all", "withParent(ViewMatcher...)", "The", "view", "matches", "only", "if", "its", "parent", "view", "matches", "against", "speciﬁed", "matchers.", "direct", "child", "views", "matches", "against", "speci-", "ﬁed", "matchers.", "isRoot()", "The", "view", "is", "the", "root", "of", "the", "View", "Hierar-", "chy.", "withId(Integer)", "The", "view", "has", "a", "speciﬁc", "id.", "withResourceName(String)", "The", "view", "has", "a", "speciﬁc", "resource", "name.", "withText(String)", "The", "view", "has", "a", "speciﬁc", "text.", "withContentDesc.(String)", "The", "view", "has", "a", "speciﬁc", "content", "descrip-", "tion.", "withClassName(String)", "The", "view", "has", "a", "speciﬁc", "class", "name.", "allOf(ViewMatcher...)", "The", "view", "matches", "against", "all", "speciﬁed", "matchers.", "withChild(ViewMatcher...)", "The", "view", "matches", "only", "if", "one", "the", "view’s", "ESPRESSO", "matcher", "Description"],
+  "name": "II",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 280.32,
+    "y2": 516.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-TableII-1.png"
+}, {
+  "caption": "Fig. 4: Percentage of test cases successfully executed for RQ2.",
+  "captionBoundary": {
+    "x1": 315.01373291015625,
+    "x2": 551.0079345703125,
+    "y1": 183.53611755371094,
+    "y2": 187.94696044921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 535.1999999999999,
+    "y1": 72.96,
+    "y2": 176.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-Figure4-1.png"
+}, {
+  "caption": "Fig. 3: Iteratively combining View Property Constraints to locate a target view in the View Hierarchy. Each box represents a view in the View Hierarchy. Gray boxes indicate the views that match against the conjunction of constraints, while white boxes indicate the views that do not match. The constraints used in this example are: R1 =WITH ID(v,R.id.button), R2 = WITH ID(v.parent,R.id.layout) and R3 =WITH TEXT(v, “Bacon”)",
+  "captionBoundary": {
+    "x1": 68.83626556396484,
+    "x2": 552.060546875,
+    "y1": 222.25755310058594,
+    "y2": 261.78680419921875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Finally,", "adding", "the", "constraint", "R3", "(C", "=", "R1", "∧", "R2", "∧", "R3)", "narrows", "down", "the", "selection", "to", "one", "view.", "(b)", "Adding", "the", "constraint", "R2", "to", "the", "conjunction", "(C", "=", "R1", "∧R2)", "reﬁnes", "the", "selection", "to", "only", "two", "views.", "(a)", "Using", "only", "the", "constraint", "R1,", "the", "conjunction", "(C", "=", "R1)", "matches", "three", "views", "in", "the", "hierarchy."],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 96.0,
+    "x2": 525.12,
+    "y1": 72.96,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-Figure3-1.png"
+}, {
+  "caption": "Fig. 5: Mutation scores for Full and None assertion levels.",
+  "captionBoundary": {
+    "x1": 65.9751968383789,
+    "x2": 292.27667236328125,
+    "y1": 254.5529022216797,
+    "y2": 258.9637451171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 288.0,
+    "y1": 70.56,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-Figure5-1.png"
+}, {
+  "caption": "TABLE III: View Assertions used in ESPRESSOMAKER.",
+  "captionBoundary": {
+    "x1": 67.99032592773438,
+    "x2": 286.83612060546875,
+    "y1": 75.00389099121094,
+    "y2": 79.41473388671875
+  },
+  "figType": "Table",
+  "imageText": ["hasChildCount", "The", "view", "has", "a", "speciﬁc", "number", "of", "children", "in", "the", "View", "Hierarchy.", "This", "is", "value", "is", "always", "0", "if", "the", "view", "is", "not", "a", "ViewGroup.", "withInputType", "The", "view", "is", "an", "Editable", "object", "and", "has", "a", "speciﬁc", "type", "of", "basic", "content", "(e.g.,", "text,", "number,", "pass-", "words,", "etc.).", "withParentIndex", "The", "view", "is", "a", "child", "with", "the", "speciﬁc", "index", "in", "its", "parent.", "withVisibility", "The", "view", "has", "a", "speciﬁc", "Visibility", "state.", "Possible", "values", "are", "Visible,", "Invisible,", "and", "Gone.", "Invisible", "means", "that", "the", "view", "is", "not", "visible,", "but", "it", "still", "takes", "up", "space", "for", "layout", "purposes.", "Gone", "means", "that", "the", "view", "is", "invisible", "and", "it", "does", "not", "take", "up", "any", "space.", "from", "0", "to", "1,", "where", "0", "means", "the", "view", "is", "completely", "transparent", "and", "1", "means", "the", "view", "is", "completely", "opaque.", "isNotSelected", "The", "view", "is", "not", "selected.", "isChecked", "The", "view", "is", "checked.", "This", "can", "only", "be", "true", "for", "“checkable”", "views", "such", "as", "a", "CheckBox.", "isNotChecked", "The", "view", "is", "not", "checked.", "isClickable", "The", "view", "is", "clickable", "(i.e.,", "the", "view", "accepts", "and", "reacts", "to", "click/tap", "events).", "isNotClickable", "The", "view", "is", "not", "clickable.", "hasLinks", "The", "view", "is", "a", "TextView", "and", "contains", "URLs.", "hasContentDesc.", "The", "view’s", "content", "description", "is", "not", "null", "(can", "be", "empty", "String).", "withText", "The", "view", "has", "a", "speciﬁc", "text.", "hasErrorText", "The", "view", "has", "a", "speciﬁc", "error", "text.", "withContentDesc.", "The", "view", "has", "a", "speciﬁc", "content", "description.", "withHint", "The", "view", "has", "a", "speciﬁc", "hint.", "withAlpha", "The", "view", "has", "a", "speciﬁc", "opacity.", "This", "is", "a", "value", "focus,", "it", "refers", "to", "the", "selected", "status", "in", "the", "context", "of", "a", "list", "or", "similar", "(e.g.,", "view", "is", "highlighted).", "doesNotExist", "The", "view", "does", "not", "exist", "in", "the", "View", "Hierarchy.", "isDisplayed", "The", "view", "is", "displayed", "(and", "visible)", "at", "least", "90%", "on", "the", "screen.", "isEnabled", "The", "view", "is", "enabled.", "The", "interpretation", "of", "the", "enabled", "state", "varies", "by", "subclass.", "isNotEnabled", "The", "view", "is", "not", "enabled.", "isFocused", "The", "view", "is", "focused", "(i.e.,", "the", "user", "is", "directly", "interacting", "with", "the", "view).", "isNotFocused", "The", "view", "is", "not", "focused.", "isFocusable", "The", "view", "is", "focusable", "(i.e.,", "it", "can", "receive", "the", "focus).", "isNotFocusable", "The", "view", "is", "not", "focusable.", "hasFocus", "The", "view", "has", "focus.", "This", "means", "that", "the", "view", "or", "one", "of", "its", "descendants", "is", "focused.", "doesNotHaveFocus", "The", "view", "does", "not", "have", "focus.", "isSelected", "The", "view", "is", "selected.", "This", "is", "not", "the", "same", "as", "ESPRESSO", "assert.", "Description"],
+  "name": "III",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 295.2,
+    "y1": 87.84,
+    "y2": 521.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00025-TableIII-1.png"
+}]

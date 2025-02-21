@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 6: Detecting Data Race Examples with PredRacer",
+  "captionBoundary": {
+    "x1": 327.0426025390625,
+    "x2": 531.6009521484375,
+    "y1": 213.580810546875,
+    "y2": 217.86785888671875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "end()", "w(A)", "start()", "end()", "t4", "t5", "w(A)", "start()", "(a)", "end()", "w(flag)", "w(B)", "start()", "end()", "w(B)", "br", "r(flag)", "t1", "t2", "start()"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 320.15999999999997,
+    "x2": 538.56,
+    "y1": 72.0,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-Figure6-1.png"
+}, {
+  "caption": "TABLE VI: UAF Detection Results on real-world applications",
+  "captionBoundary": {
+    "x1": 314.0386047363281,
+    "x2": 543.4180908203125,
+    "y1": 75.36206817626953,
+    "y2": 79.64910888671875
+  },
+  "figType": "Table",
+  "imageText": ["clip", "Stack", "0", "0", "0", "0", "0", "0", "2", "0", "2", "InstaMaterial", "192", "0", "192", "0", "0", "0", "4", "0", "4", "KISS", "launcher", "21", "0", "21", "36", "0", "36", "0", "0", "0", "k9-mail", "514", "0", "514", "918", "0", "918", "1", "0", "1", "Omni", "Notes", "FOSS", "508", "1", "507", "0", "0", "0", "0", "0", "0", "OS", "Monitor", "20", "1", "19", "-", "-", "-", "1", "1", "0", "QKSMS", "235", "2", "233", "19", "2", "17", "3", "2", "1", "SoundRecorder", "0", "0", "0", "0", "0", "0", "0", "0", "0", "ToDoList", "Widget", "12", "0", "12", "0", "0", "0", "1", "0", "1", "Tomdroid", "0", "0", "0", "0", "0", "0", "1", "0", "1", "ZXing", "-", "-", "-", "2", "0", "2", "0", "0", "0", "Constellation", "8", "0", "8", "0", "0", "0", "2", "0", "2", "ForMusic", "0", "0", "0", "134", "4", "130", "3", "1", "2", "Music", "list", "10", "1", "9", "4", "1", "3", "1", "1", "0", "Myaddressbook", "0", "0", "0", "0", "0", "0", "0", "0", "0", "davidtgnews", "275", "0", "275", "0", "0", "0", "0", "0", "0", "Stickynote", "114", "0", "114", "0", "0", "0", "1", "0", "1", "Ebookapp", "-", "-", "-", "0", "0", "0", "0", "0", "0", "linkgame", "102", "0", "102", "0", "0", "0", "0", "0", "0", "SnakeGame", "0", "0", "0", "0", "0", "0", "0", "0", "0", "Total", "2011", "5", "2006", "1113", "7", "1106", "20", "5", "15", "Report", "TP", "FP", "Report", "TP", "FP", "Report", "TP", "FP", "Application", "ER", "Catcher", "nAdroid", "PredRacer"],
+  "name": "VI",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 539.04,
+    "y1": 87.84,
+    "y2": 277.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-TableVI-1.png"
+}, {
+  "caption": "TABLE V: Data Race Detection on real-world applications",
+  "captionBoundary": {
+    "x1": 70.64309692382812,
+    "x2": 292.2039489746094,
+    "y1": 74.92926788330078,
+    "y2": 79.21630859375
+  },
+  "figType": "Table",
+  "imageText": ["clip", "Stack", "710", "8", "702", "17", "4", "13", "11", "3", "8", "InstaMaterial", "237", "0", "237", "12", "0", "12", "21", "0", "21", "KISS", "launcher", "559", "2", "557", "14", "2", "12", "3", "3", "0", "k9-mail", "-", "-", "-", "14", "0", "14", "5", "0", "5", "Omni", "Notes", "FOSS", "619", "0", "619", "0", "0", "0", "0", "0", "0", "OS", "Monitor", "699", "3", "696", "27", "1", "26", "1", "1", "0", "QKSMS", "594", "10", "584", "0", "0", "0", "4", "2", "2", "SoundRecorder", "161", "3", "158", "1", "0", "1", "0", "0", "0", "ToDoList", "Widget", "211", "0", "211", "0", "0", "0", "1", "0", "1", "Tomdroid", "296", "2", "294", "0", "0", "0", "6", "2", "4", "ZXing", "-", "-", "-", "-", "-", "-", "0", "0", "0", "Constellation", "174", "2", "172", "3", "3", "0", "16", "2", "14", "ForMusic", "154", "4", "150", "0", "0", "0", "9", "3", "6", "Music", "list", "558", "8", "550", "0", "0", "0", "14", "4", "10", "Myaddressbook", "239", "3", "236", "1", "1", "0", "2", "1", "1", "davidtgnews", "174", "4", "170", "0", "0", "0", "4", "1", "3", "Stickynote", "0", "0", "0", "2", "2", "0", "6", "2", "4", "Ebookapp", "668", "3", "665", "-", "-", "-", "1", "1", "0", "linkgame", "254", "1", "253", "0", "0", "0", "4", "2", "2", "SnakeGame", "913", "2", "911", "1", "1", "0", "0", "0", "0", "Total", "7220", "55", "7165", "92", "14", "78", "108", "27", "81", "Report", "TP", "FP", "Report", "TP", "FP", "Report", "TP", "FP", "Application", "ER", "Catcher", "EventRacer", "PredRacer"],
+  "name": "V",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 295.2,
+    "y1": 87.84,
+    "y2": 276.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-TableV-1.png"
+}, {
+  "caption": "Fig. 7: Analysis time summary",
+  "captionBoundary": {
+    "x1": 123.34259796142578,
+    "x2": 239.50225830078125,
+    "y1": 420.0275573730469,
+    "y2": 424.3146057128906
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 278.4,
+    "y1": 294.71999999999997,
+    "y2": 408.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-Figure7-1.png"
+}, {
+  "caption": "Fig. 1: Motivating example",
+  "captionBoundary": {
+    "x1": 377.6886901855469,
+    "x2": 479.4490966796875,
+    "y1": 472.0112609863281,
+    "y2": 476.2983093261719
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Execution", "order", "of", "the", "code", "snippet", "(a)", "The", "code", "snippet", "of", "SingleActivity8"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 337.44,
+    "x2": 524.16,
+    "y1": 123.36,
+    "y2": 461.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-Figure1-1.png"
+}, {
+  "caption": "TABLE I: BenchERoid dataset",
+  "captionBoundary": {
+    "x1": 123.15691375732422,
+    "x2": 238.55201721191406,
+    "y1": 161.02557373046875,
+    "y2": 165.3126220703125
+  },
+  "figType": "Table",
+  "imageText": ["Category", "#App", "#Data", "Race", "AsyncTask", "6", "4", "Executor", "2", "2", "LifeCycle", "4", "6", "Looper", "3", "2", "Receiver", "1", "1", "Service", "5", "5", "SingleActivity", "8", "10", "TimerTask", "2", "2", "Thread", "2", "2", "MultiComp", "1", "2"],
+  "name": "I",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 118.56,
+    "x2": 245.28,
+    "y1": 173.76,
+    "y2": 275.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-TableI-1.png"
+}, {
+  "caption": "TABLE II: Datasets employed in our experiments(Size/KB)",
+  "captionBoundary": {
+    "x1": 317.005126953125,
+    "x2": 540.3135375976562,
+    "y1": 74.92792510986328,
+    "y2": 79.2149658203125
+  },
+  "figType": "Table",
+  "imageText": ["Google/Wandoujia", "dataset", "300", "58404", "46276", "754", "266381", "Real-world", "applications", "20", "8191", "2625", "87", "103387", "BenchERoid", "dataset", "34", "1123", "1024", "931", "1646", "Dataset", "#Apps", "Average", "Median", "Min", "Max"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 535.1999999999999,
+    "y1": 87.84,
+    "y2": 134.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-TableII-1.png"
+}, {
+  "caption": "Fig. 2: Overview of PredRacer",
+  "captionBoundary": {
+    "x1": 123.65989685058594,
+    "x2": 238.91844177246094,
+    "y1": 146.0335693359375,
+    "y2": 150.32061767578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 295.68,
+    "y1": 72.48,
+    "y2": 136.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-Figure2-1.png"
+}, {
+  "caption": "Fig. 3: Threadification example",
+  "captionBoundary": {
+    "x1": 369.7189025878906,
+    "x2": 487.0892028808594,
+    "y1": 184.9776611328125,
+    "y2": 189.26470947265625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 345.12,
+    "x2": 539.04,
+    "y1": 81.6,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-Figure3-1.png"
+}, {
+  "caption": "TABLE III: Data Race detection results in BenchERoid",
+  "captionBoundary": {
+    "x1": 78.0470962524414,
+    "x2": 286.56475830078125,
+    "y1": 75.74823760986328,
+    "y2": 80.0352783203125
+  },
+  "figType": "Table",
+  "imageText": ["AsyncTask", "4", "0", "0", "1", "1", "2", "4", "0", "0", "Executor", "1", "0", "1", "0", "0", "1", "1", "0", "1", "LifeCycle", "6", "1", "0", "0", "0", "4", "6", "0", "0", "Looper", "2", "0", "0", "0", "0", "2", "2", "0", "0", "MultiComp", "2", "0", "0", "0", "0", "2", "2", "0", "0", "Receiver", "1", "0", "0", "-", "-", "-", "1", "0", "0", "Service", "4", "2", "1", "0", "0", "4", "3", "0", "2", "SingleActivity", "9", "3", "0", "1", "0", "9", "9", "0", "0", "TimerTask", "2", "0", "0", "0", "0", "1", "2", "0", "0", "Thread", "2", "2", "0", "0", "0", "1", "2", "1", "0", "Total", "33", "8", "2", "2", "1", "26", "32", "1", "3", "Precision", "80.49%", "66.67%", "96.97%", "Recall", "94.29%", "7.14%", "91.42%", "F1", "86.84%", "12.90%", "94.11%", "TP", "FP", "FN", "TP", "FP", "FN", "TP", "FP", "FN", "Category", "Name", "ER", "Catcher", "EventRacer", "PredRacer"],
+  "name": "III",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 282.24,
+    "y1": 87.84,
+    "y2": 220.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-TableIII-1.png"
+}, {
+  "caption": "TABLE IV: UAF detection in BenchERoid",
+  "captionBoundary": {
+    "x1": 101.63030242919922,
+    "x2": 262.98138427734375,
+    "y1": 246.1983642578125,
+    "y2": 250.48541259765625
+  },
+  "figType": "Table",
+  "imageText": ["AsyncTask", "3", "0", "0", "0", "0", "3", "3", "0", "0", "Executor", "1", "0", "1", "1", "0", "1", "1", "0", "1", "LifeCycle", "6", "1", "0", "6", "1", "0", "6", "0", "0", "Looper", "2", "0", "0", "2", "0", "0", "2", "0", "0", "MultiComp", "2", "0", "0", "2", "0", "0", "2", "0", "0", "Receiver", "1", "0", "0", "1", "0", "0", "1", "0", "0", "Service", "3", "2", "1", "1", "1", "3", "3", "0", "1", "SingleActivity", "6", "2", "0", "5", "7", "1", "6", "0", "0", "TimerTask", "2", "0", "0", "2", "0", "0", "2", "0", "0", "Thread", "2", "2", "0", "0", "0", "2", "2", "1", "0", "Total", "28", "7", "2", "20", "9", "10", "28", "1", "2", "Precision", "80.00%", "68.97%", "96.55%", "Recall", "93.33%", "66.67%", "93.33%", "F1", "86.15%", "67.80%", "94.91%", "TP", "FP", "FN", "TP", "FP", "FN", "TP", "FP", "FN", "Category", "Name", "ER", "Catcher", "nAdroid", "PredRacer"],
+  "name": "IV",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 282.24,
+    "y1": 258.71999999999997,
+    "y2": 391.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-TableIV-1.png"
+}, {
+  "caption": "Fig. 4: The execution trace σ(a) is transformed into σ′(b) after Threadification.",
+  "captionBoundary": {
+    "x1": 66.5103759765625,
+    "x2": 295.8808288574219,
+    "y1": 276.142822265625,
+    "y2": 291.3475036621094
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "r", "br", "w", "w", "w(", "w", "w", "t", "t", "t", "t", "t", "(a)", "w", "r", "br", "w", "w", "w", "w"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 290.4,
+    "y1": 73.44,
+    "y2": 266.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-Figure4-1.png"
+}, {
+  "caption": "Fig. 5: Illustrations of program, observation and lock-close, the black solid arrows are program order, the blue dashed arrows is the execution orders and the red dashed arrows in (a) (b) is the observation order, in (c) is the lock order. These are partial orders introduced to ensure a trace is closed.",
+  "captionBoundary": {
+    "x1": 314.77288818359375,
+    "x2": 544.1524047851562,
+    "y1": 169.8326416015625,
+    "y2": 217.80938720703125
+  },
+  "figType": "Figure",
+  "imageText": ["rel", "brbr", "acq", "rel", "acq", "t2", "t1", "t2", "w'", "t1", "r", "w", "t2", "w'", "t1", "r", "w"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 324.47999999999996,
+    "x2": 533.76,
+    "y1": 72.0,
+    "y2": 158.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00031-Figure5-1.png"
+}]

@@ -1,0 +1,141 @@
+[{
+  "caption": "Table 2: The rules to restrict queries.",
+  "captionBoundary": {
+    "x1": 231.8839874267578,
+    "x2": 379.81390380859375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["†", "Rule", "5", "holds", "when", "both", "tables", "are", "not", "empty.", "1", "JOIN", "LEFT", "JOIN", "INNER", "JOIN", "SELECT", "*", "FROM", "t0", "LEFT", "INNER", "JOIN", "t1", "ON", "...;", "2", "JOIN", "RIGHT", "JOIN", "INNER", "JOIN", "SELECT", "*", "FROM", "t0", "RIGHT", "INNER", "JOIN", "t1", "ON", "...;", "3", "JOIN", "FULL", "JOIN", "LEFT", "JOIN", "SELECT", "*", "FROM", "t0", "FULL", "LEFT", "JOIN", "t1", "ON", "...;", "4", "JOIN", "FULL", "JOIN", "RIGHT", "JOIN", "SELECT", "*", "FROM", "t0", "FULL", "RIGHT", "JOIN", "t1", "ON", "...;", "5†", "JOIN", "CROSS", "JOIN", "FULL", "JOIN", "SELECT", "*", "FROM", "t0", "CROSS", "FULL", "JOIN", "t1;", "6", "SELECT", "ALL", "DISTINCT", "SELECT", "ALL", "DISTINCT", "*", "FROM", "t0;", "7", "GROUP", "BY", "<Empty>", "<Predicate>", "SELECT", "*", "FROM", "t0", "GROUP", "BY", "c0", ";", "8", "HAVING", "<Empty>", "<Predicate>", "SELECT", "*", "FROM", "t0", "GROUP", "BY", "c0", "HAVING", "c0>0", ";", "9", "WHERE", "<Empty>", "<Predicate>", "SELECT", "*", "FROM", "t0", "WHERE", "c0>0", ";", "10", "WHERE", "<Predicate>", "<Predicate>", "AND", "<Predicate>", "SELECT", "*", "FROM", "t0", "WHERE", "c0>0", "AND", "c0!=8", ";", "11", "WHERE", "<Predicate>", "OR", "<Predicate>", "<Predicate>", "SELECT", "*", "FROM", "t0", "WHERE", "c0>0", "OR", "c0!=8", ";", "12", "LIMIT", "<Natural", "number>", "<Natural", "number>", "-", "<Natural", "number>", "SELECT", "*", "FROM", "t0", "LIMIT", "10", "5", ";", "Clause", "Source", "Target", "Example"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 544.3199999999999,
+    "y1": 105.6,
+    "y2": 273.59999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639076-Table2-1.png"
+}, {
+  "caption": "Table 5: The average number of all queries (Queries), the queries that violate cardinality restriction monotonicity (Violations), and the geometric mean of percentage (%) of queries that violate the property across 10 runs and one hour.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0367736816406,
+    "y1": 85.72634887695312,
+    "y2": 124.2340087890625
+  },
+  "figType": "Table",
+  "imageText": ["Average:", "0.2%", "MySQL", "6,371,222", "30,841", "0.28%", "TiDB", "2,895,203", "8,108", "0.27%", "CockroachDB", "1,306,807", "661", "0.05%", "DBMS", "Queries", "(#)", "Violations", "(#)", "Violations", "(%)"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 279.36,
+    "y1": 138.72,
+    "y2": 197.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639076-Table5-1.png"
+}, {
+  "caption": "Table 3: The issues found by CERT . The red strike-through text is removed, while the content in green color is added.",
+  "captionBoundary": {
+    "x1": 68.52999877929688,
+    "x2": 543.159912109375,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["MySQL", "108833", "8.0.31", "9", "...", "WHERE", "t0.c0", ">", "t0.c1", "...", "Verified", "MySQL", "108851", "8.0.31", "9", "...", "WHERE", "t1.c1", "BETWEEN", "(SELECT", "1", "WHERE", "FALSE)", "AND", "(t1.c0)", "...", "Verified", "MySQL", "108852", "8.0.31", "6", "...", "DISTINCT", "...", "Verified", "TiDB", "38319", "51a6684f", "11", "...WHERE", "(TRUE)", "OR(TO_BASE64(t0.c0))", "...", "Confirmed", "TiDB", "38747", "3ef8352a", "7", "...", "GROUP", "BY", "t0.c0", "...", "Confirmed", "TiDB", "38479", "3ef8352a", "3", "&", "5", "...", "CROSS", "LEFT", "JOIN...", "Confirmed", "TiDB", "38482", "3ef8352a", "8", "...", "HAVING", "(t1.c0)REGEXP(NULL)", "...", "Confirmed", "TiDB", "38665", "6c55faf0", "2", "...", "RIGHT", "INNER", "JOIN...", "Confirmed", "TiDB", "38721", "6c55faf0", "9", "...", "WHERE", "v0.c2", "...", "Confirmed", "CockroachDB", "88455", "7cde315d", "1", "...", "LEFT", "INNER", "JOIN...", "Fixed", "CockroachDB", "89161", "f188d21d", "11", "...WHERE", "(t0.c0", "IS", "NOT", "NULL)", "OR", "(1", "<", "ALL", "(t0.c0", "&", "t0.c0))", "...", "Fixed", "(Known)", "CockroachDB", "89462", "81586f62", "8", "...", "HAVING", "(t1.c0", "::CHAR)", "=", "’a’", "...", "Backlogged", "CockroachDB", "90113", "fbfb71b9", "2", "...", "RIGHT", "INNER", "JOIN...", "Backlogged", "DBMS", "Bug", "ID", "Version", "Rules", "Modifications", "to", "the", "query", "Status"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639076-Table3-1.png"
+}, {
+  "caption": "Table 1: Previous performance issues.",
+  "captionBoundary": {
+    "x1": 97.74298095703125,
+    "x2": 249.79736328125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Sum", "6", "3", "MySQL", "61631", "✓", "MySQL", "56714", "✓", "MySQL", "25130", "X", "CockroachDB", "93410", "X", "CockroachDB", "71790", "X", "TiDB", "9067", "✓", "DBMS", "#ID", "Caused", "by", "Cardinality", "Estimation"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 277.44,
+    "y1": 105.6,
+    "y2": 193.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639076-Table1-1.png"
+}, {
+  "caption": "Table 4: The number of all (All) and confirmed or fixed (C/F) unique performance issues.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.7564697265625,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["MySQL", "3", "3", "100%", "-", "-", "-", "TiDB", "6", "6", "100%", "-", "-", "-", "CockroachDB", "4", "2", "50%", "25", "6", "24%", "Sum:", "13", "11", "85%", "25", "6", "24%", "DBMS", "All", "C/F", "%", "All", "C/F", "%", "CERT", "AMOEBA"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 350.88,
+    "x2": 523.1999999999999,
+    "y1": 116.64,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639076-Table4-1.png"
+}, {
+  "caption": "Figure 1: Overview of CERT .",
+  "captionBoundary": {
+    "x1": 248.49400329589844,
+    "x2": 363.5057373046875,
+    "y1": 239.38436889648438,
+    "y2": 245.0150146484375
+  },
+  "figType": "Figure",
+  "imageText": ["Query", "Restriction", "3", "1", "Query", "Generation", "Estimated", "row:60", "Estimated", "row:20", "<", "≥", "Checking", "Structural", "Similarity", "•", "cross", "join", "...", "|--•", "filter", "...", "|", "|--•", "scan", "...", "|--•", "scan", "...", "•", "cross", "join", "...", "|--•", "scan", "...", "|--•", "scan", "...", "2", "ON", "t0.c0", "<", "1", "OR", "t0.c0", ">", "1;", "EXPLAIN", "SELECT", "*", "FROM", "t0", "INNER", "JOIN", "t1", "Query", "Plan", "•", "cross", "join", "|", "estimated", "row:60", "|--•", "filter", "|", "|", "estimated", "row:12", "|", "|", "filter:", "(c0<1)OR(c0>1)", "|", "|--•", "scan", "|", "estimated", "row:13", "|", "table:", "t0@t0_pkey", "|", "spans:", "FULL", "SCAN", "|--•", "scan", "estimated", "row:5", "table:", "t1@t1_pkey", "spans:", "FULL", "SCAN", "Query", "Plan", "•", "cross", "join", "(left", "outer)", "|", "estimated", "row:20", "|", "pred:", "(c0<1)OR(c0>1)", "|--•", "scan", "|", "estimated", "row:13", "|", "table:", "t0@t0_pkey", "|", "spans:", "FULL", "SCAN", "|--•", "scan", "estimated", "row:5", "table:", "t1@t1_pkey", "spans:", "FULL", "SCAN", "4", "Validating", "Cardinality", "Estimation", "ON", "t0.c0", "<", "1", "OR", "t0.c0", ">", "1;", "EXPLAIN", "SELECT", "*", "FROM", "t0", "LEFT", "JOIN", "t1", "1"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 558.24,
+    "y1": 85.92,
+    "y2": 221.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639076-Figure1-1.png"
+}, {
+  "caption": "Figure 2: The inequality relationships of estimated cardinalities in the JOIN clause with an example to join two tables.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7994384765625,
+    "y1": 435.7423400878906,
+    "y2": 452.33099365234375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "1", "1", "A", "B", "C", "A", "B", "C", "A", "B", "C", "2", "2", "2", "3", "3", "3", "A", "B", "C", "1", "2", "3", "A", "B", "C", "2", "3", "1", "2", "3", "A", "B", "A", "B", "2", "3", "Table", "1", "Table", "2", "A", "B", "C", "1", "2", "3", "FULL", "JOIN", "CROSS", "JOIN≤", "≤", "≤", "RIGHT", "JOIN", "LEFT", "JOIN", "INNER", "JOIN"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 330.71999999999997,
+    "x2": 545.28,
+    "y1": 264.48,
+    "y2": 420.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639076-Figure2-1.png"
+}]

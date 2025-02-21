@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 8: Golang source code instrumentation.",
+  "captionBoundary": {
+    "x1": 344.447021484375,
+    "x2": 531.710205078125,
+    "y1": 152.41737365722656,
+    "y2": 156.7122802734375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "func", "goready(gp", "*g,", "traceskip", "int)", "{", "2", "gpFrom", ":=", "getg()", "3", "gpTo", ":=", "gp", "4", "//...", "record", "Goroutine", "wake", "-up", "5", "systemstack(func()", "{", "6", "ready(gp,", "traceskip,", "true)", "7", "})}"],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 84.96,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure8-1.png"
+}, {
+  "caption": "Figure 7: Call stack of idle threads in thread pool.",
+  "captionBoundary": {
+    "x1": 73.88790130615234,
+    "x2": 273.9549255371094,
+    "y1": 200.83607482910156,
+    "y2": 205.1309814453125
+  },
+  "figType": "Figure",
+  "imageText": ["|", "at", "java.lang.Thread.run", "|", "|at", "ThreadPoolExecutor.getTask|", "|at", "java.util.concurrent.ThreadPoolExecutor.runWorker", "\"worker", "-thread", "-10\"", "at", "jdk.internal.misc.Unsafe.park", "......", "at", "java.util.concurrent.ForkJoinPool.managedBlock", "at", "locks.AbstractQueuedSynchronizer.await", "|at", "ScheduledThreadPoolExecutor$DelayedWorkQueue.take"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 293.28,
+    "y1": 96.96,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure7-1.png"
+}, {
+  "caption": "Figure 9: A demo example of Besu’s full sync. where we rst identify a cycle indicative of Ine cient Synchronization. Then we use the call stacks of threads within the cycle to nd the corresponding test cases in the source code.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7314453125,
+    "y1": 264.6720886230469,
+    "y2": 301.843994140625
+  },
+  "figType": "Figure",
+  "imageText": ["\"Eth-Services-2", "(importBlock)\"", "at", "...besu.ethereum.rlp..isSingleRLPByte", "......", "at", "…MainnetBlockValidator.validateAnd…", "at", "...MainnetBlockImporter.importBlock", "......", "at", "...FullImportBlockStep.", "accept", "......", "at", "java.lang.Thread.run", "Source", "Code:"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 259.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Contract with numerous storage updates.",
+  "captionBoundary": {
+    "x1": 333.22119140625,
+    "x2": 542.9360961914062,
+    "y1": 595.1610717773438,
+    "y2": 599.4559936523438
+  },
+  "figType": "Figure",
+  "imageText": ["1", "contract", "IOHeavy", "{", "2", "bytes32", "[]", "private", "storage;", "3", "function", "heavyUpdate", "(uint256", "num)", "public", "{", "4", "for", "(uint", "i", "=", "0;", "i", "<", "num;", "i++){", "5", "storage.push(sth);", "6", "}}"],
+  "name": "10",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 528.48,
+    "y1": 546.24,
+    "y2": 588.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure10-1.png"
+}, {
+  "caption": "Figure 12: Edges and nodes in the graph at di erent thresholds. \"Merge E\" shows edges after merging similar threads; \"Merge + Remove E\" counts edges after merging similar threads and removing JVM threads.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8107299804688,
+    "y1": 663.8990478515625,
+    "y2": 701.0711059570312
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 546.24,
+    "y1": 576.0,
+    "y2": 656.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure12-1.png"
+}, {
+  "caption": "Table 4: Overhead of ThreadNeck.",
+  "captionBoundary": {
+    "x1": 101.33900451660156,
+    "x2": 246.20880126953125,
+    "y1": 90.05128479003906,
+    "y2": 94.34619140625
+  },
+  "figType": "Table",
+  "imageText": ["src/core.(*BlockChain).insertChain", "src", "/core.ApplyMessage", "src", "/core/vm.(*EVM).Call", "src", "/core/vm.(*EVMInterpreter).Run", "src", "/core/vm.opCall", "src", "/core/vm.opSload", "src", "/core/state.(*StateDB).GetState", "src", "/trie.(*StateTrie).GetStorage", "src", "/trie.(*Trie).resolveAndTrack", "src", "/trie/triedb/hashdb.(*Database).Node", "(+T)", "indicates", "the", "client", "is", "running", "with", "ThreadNeck.", "Client", "CPU", "CPU", "(+T)", "Memory", "Memory", "(+T)", "Geth", "597.7%", "628.8%", "14.76GB", "14.62GB", "Besu", "326.1%", "362.8%", "23.12GB", "23.33GB", "Reth", "170.1%", "188.7%", "50.6", "GB", "50.6GB", "BCOS", "16.3%", "18.4%", "0.39GB", "0.40GB"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 99.84,
+    "y2": 301.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Table4-1.png"
+}, {
+  "caption": "Figure 11: Case study for identifying bottlenecks.",
+  "captionBoundary": {
+    "x1": 74.21590423583984,
+    "x2": 273.62835693359375,
+    "y1": 580.462158203125,
+    "y2": 584.757080078125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Reth", "processing", "RPC", "requests.", "reth_rpc_api::debug::..debug_trace_transaction", "rpc::debug::trace_transaction", "revm::inspector::..Inspector", "evm::evm_impl::new_evm", "evm::evm_impl::run_interpreter", "revm_interpreter::instructions::opcode…", "revm_interpreter::instructions::stack::push", "(b)", "Besu", "processing", "batch", "downloaded", "data.", "rocksdb::CompactionJob::Run", "rocksdb::DBImpl::BGWorkCompaction", "rocksdb::ThreadPoolImpl::BGThread", "---------------", "org.rocksdb.RocksDBException:", "Busy", "at", "org.rocksdb.Transaction.commit", "at", "…BonsaiWorldStateKeyValueStorage.commit", "at", "...PersistDataStep.persist", "at", "...SnapWorldStateDownloadProcess.", "Build", "at", "...MapProcessor.processNextInput", "at", "…ThreadPoolExecutor.runWorker", "(a)", "Geth", "synchronizing", "new", "blocks."],
+  "name": "11",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 309.59999999999997,
+    "y2": 569.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure11-1.png"
+}, {
+  "caption": "Figure 1: Geth architecture.",
+  "captionBoundary": {
+    "x1": 118.5770034790039,
+    "x2": 229.2667694091797,
+    "y1": 185.03309631347656,
+    "y2": 189.3280029296875
+  },
+  "figType": "Figure",
+  "imageText": ["EVM", "Tx", "Processor", "…", "protocol", "LES", "protocol", "SNAP", "protocol", "ETH", "protocol", "RLPx", "devp2p", "Discovery", "Contract", "CodeHash", "Contract", "Storage", "Account", "Balance", "Account", "Nonce", "World", "State", "Database", "Engine", "API", "Networking", "Storage", "Execution", "Engine", "Pool", "Transaction", "Engines", "Pluggable", "Consensus", "Layer", "Interface", "Dapp,", "Wallet"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 287.03999999999996,
+    "y1": 83.52,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Di erent languages’ threading model.",
+  "captionBoundary": {
+    "x1": 78.36300659179688,
+    "x2": 269.4819641113281,
+    "y1": 696.7761840820312,
+    "y2": 701.0711059570312
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Golang.", "Go", "Scheduler", "goroutine", "goroutine", "thread", "thread", "thread", "goroutine", "OS", "kernel", "…..", "…..", "(a)", "Native-threaded", "languages.", "thread", "thread", "thread", "thread", "thread", "thread", "OS", "kernel", "…..", "….."],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 295.2,
+    "y1": 603.84,
+    "y2": 685.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure2-1.png"
+}, {
+  "caption": "Table 1: Blockchain clients used in our experiment.",
+  "captionBoundary": {
+    "x1": 69.84490203857422,
+    "x2": 277.7037658691406,
+    "y1": 90.05128479003906,
+    "y2": 94.34619140625
+  },
+  "figType": "Table",
+  "imageText": ["\"Abbr.\"", "stands", "for", "abbreviation", "for", "client,", "\"LOC\"", "stands", "for", "Line", "of", "Code.", "Client", "Abbr.", "Version", "Language", "LOC", "Go-Ethereum", "[14]", "Geth", "1.11.5", "Golang", "250,303", "Hyperledger", "Besu", "[4]", "Besu", "23.4.1", "Java", "342,997", "Reth", "[11]", "Reth", "0.1.0-alpha.1", "Rust", "136,273", "FISCO-BCOS", "[6]", "BCOS", "3.2.2", "C++", "172,928"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.68,
+    "y1": 99.84,
+    "y2": 162.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Table1-1.png"
+}, {
+  "caption": "Figure 3: Three examples of ine cient synchronization.",
+  "captionBoundary": {
+    "x1": 60.46099853515625,
+    "x2": 287.3825378417969,
+    "y1": 161.3440704345703,
+    "y2": 165.63897705078125
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Blocking", "IO.", "sync", "Disk", "C", "sync", "BA1,2.", "subm", "(b)", "Load", "imbalance.", "Process", "Process", "blocked", "Barrier", "Load", "data", "Load", "data", "Time", "Thread", "B", "Thread", "A", "(a)", "Lock", "contention.", "Thread", "A", "access", "Thread", "B", "blocked", "blocked", "Lock", "Thread", "C"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 83.52,
+    "y2": 149.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure3-1.png"
+}, {
+  "caption": "Table 3: Mitigation strategies.",
+  "captionBoundary": {
+    "x1": 114.01618957519531,
+    "x2": 233.5293731689453,
+    "y1": 346.9801330566406,
+    "y2": 351.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["13©", "Implement", "logic", "for", "downloading", "blocks", "in", "batches", "in", "downloader.", "12©", "Adaptively", "adjust", "download", "parameters", "based", "on", "the", "available", "memory.", "11©", "Incorporate", "detailed", "transaction", "checks", "in", "line", "with", "Geth’s", "approach.", "9©", "Add", "retry", "logic", "where", "exceptions", "are", "caught.", "8©", "Detect", "latent", "overdraft", "transactions", "when", "replacing", "tx", "in", "the", "pool.", "1©-", "7©,", "10©", "Limit", "remote", "RPC", "calls", "and", "the", "number", "of", "concurrent", "RPC.", "ID", "Mitigation"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 356.64,
+    "y2": 437.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Table3-1.png"
+}, {
+  "caption": "Table 2: Manipulatable bottleneck and their exploits.",
+  "captionBoundary": {
+    "x1": 198.8300018310547,
+    "x2": 412.87615966796875,
+    "y1": 90.05128479003906,
+    "y2": 94.34619140625
+  },
+  "figType": "Table",
+  "imageText": ["1", ";", "denotes", "bottlenecks", "caused", "by", "resource", "exhaustion.", "A;", "B", "indicates", "thread", "A", "exhausts", "resource", "B.", "2", "+", "denotes", "bottlenecks", "due", "to", "ine", "cient", "synchronization.", "A+", "B", "implies", "a", "cyclic", "waiting", "between", "threads", "A", "and", "B.", "3", "In", "the", "\"Known\"", "category,", "\"Re-con", "rm\"", "indicates", "re-con", "rmation", "of", "previously", "known", "bottlenecks,", "\"No\"", "indicates", "newly", "discovered", "bottlenecks", "con", "rmed", "by", "developers.", "12©", "Downloader", ";", "Mem", "No", "Reth’s", "downloader", "parameters(e.g.,", "bu", "er", "size)", "are", "constant,", "which", "risks", "crashing", "systems", "with", "limited", "memory.", "Reth", "13©", "Downloader", "+", "NIC", "No", "Manipulate", "peer", "to", "halt", "the", "download", "of", "a", "speci", "c", "block,", "leveraging", "the", "fact", "reth", "downloads", "block", "ranges", "one", "by", "one.", "Reth", "Send", "numerous", "blob", "transactions", "which", "carry", "a", "large", "amount", "of", "blob", "data.", "Besu", "Submit", "a", "large", "number", "of", "oversized", "transactions,", "exploiting", "the", "lack", "of", "size", "checks", "in", "transaction", "veri", "cation.", "BCOS", "Send", "numerous", "transactions", "using", "several", "accounts,", "exploiting", "the", "unlimited", "transactions", "per", "account.", "BCOS", "11©", "TxPool;", "Memory", "No", "10©", "Vert.x", "+", "NIC", "No", "Establish", "many", "open", "connections", "with", "clients,", "since", "JVM", "will", "accept", "indiscriminately", "all", "incoming", "connections", "[13].", "Besu", "which", "can", "make", "Downloader", "stuck", "at", "RocksDB", "due", "to", "the", "lack", "of", "a", "retry", "mechanism.", "Besu", "7©", "GetLogs", "+", "Disk", "Re-con", "rm", "Execute", "eth_getLogs", "request", "to", "retrieve", "logs", "over", "a", "massive", "block", "range.", "8©", "TxFetcher", "+", "TXPool", "No", "Submit", "invalid", "transactions", "to", "evict/pend", "executable", "transactions", "in", "txpool.", "BCOS", "9©", "Downloader", "+", "RocksDB", "No", "Submit", "multiple", "transactions", "that", "modify", "the", "same", "account,", "creating", "database", "write", "con", "icts,", "which", "in", "turn", "generate", "asymmetrically", "large", "sync", "responses", "(e.g.,", "body).", "3©", "EVM;", "Mem", "Re-con", "rm", "Execute", "numerous", "eth_call", "requests", "that", "allocate", "large", "memory.", "4©", "Debug", "Trace;Mem", "Re-con", "rm", "send", "numerous", "debug_trace_", "request", "to", "get", "the", "full", "trace", "of", "complex", "transactions.", "5©", "Downloader", "+", "NIC", "Re-con", "rm", "Manipulate", "malicious", "master", "peer", "to", "disrupt", "client’s", "sync", "operation", "as", "it", "nears", "completion.", "6©", "p2p", "server", "+", "NIC", "Re-con", "rm", "Manipulate", "multiple", "peers", "to", "send", "extensive", "sync", "requests", "to", "the", "client,", "Flood", "client", "with", "transactions", "that", "contain", "a", "large", "number", "of", "cheap", "instructions", "yet", "high", "CPU", "consumption.", "2©", "EVM;", "CPU", "Re-con", "rm", "Execute", "numerous", "eth_call", "requests", "that", "run", "a", "loop", "of", "hashing", "computation.", "Execute", "numerous", "eth_call", "requests", "simulating", "transactions", "with", "heavy", "SSTORE", "opcode", "to", "increase", "I/O", "on", "the", "trie.", "Geth,", "Besu,", "Reth,", "BCOS", "1©", "EVM+", "Disk", "Re-con", "rm", "Create", "numerous", "Ethereum", "accounts", "to", "increase", "the", "I/O", "operations", "on", "the", "trie.", "#ID", "Bottlenecks", "Known", "Possible", "Exploitation", "of", "Bottlenecks", "(PoC)", "Client"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 553.4399999999999,
+    "y1": 99.84,
+    "y2": 332.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Table2-1.png"
+}, {
+  "caption": "Figure 4: Work ow of ThreadNeck.",
+  "captionBoundary": {
+    "x1": 230.7949981689453,
+    "x2": 381.2059020996094,
+    "y1": 166.1460723876953,
+    "y2": 170.44097900390625
+  },
+  "figType": "Figure",
+  "imageText": ["PoC", "Generation❷", "Exhaustion", "Resource", "❶", "Test", "in", "Source", "Code", "@Test", "func", "A(,)", "{", ".", ".", ".", ".", ".", "}", "…", "Call", "Stack", "Method", "A()", "Dos?", "Synchronization", "Map", "Inefficient", "Bottleneck", "Graph", "Suspicious", "Thread", "Thread", "Wait&Wake", "Profiling", "Execution", "Clients", "Blockchain"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 545.28,
+    "y1": 82.56,
+    "y2": 159.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Thread wait&wake graph.",
+  "captionBoundary": {
+    "x1": 102.69300079345703,
+    "x2": 245.15103149414062,
+    "y1": 696.7761840820312,
+    "y2": 701.0711059570312
+  },
+  "figType": "Figure",
+  "imageText": ["Method", "a()", "…", "Thread", "C", "[CPU,", "Mem]", "call", "stack", "Thread", "B", "[CPU,", "Mem]", "NIC", "Disk", "Thread", "A", "[CPU,", "Mem]"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 82.56,
+    "x2": 264.0,
+    "y1": 631.68,
+    "y2": 691.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680372-Figure5-1.png"
+}]

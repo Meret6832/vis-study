@@ -1,0 +1,261 @@
+[{
+  "caption": "Fig. 1. Positioning of U-FUZZ in relation to previous state-of-the-art IoT fuzzers. Semi. means semi-automatic state machine generation, while auto. means automatic.",
+  "captionBoundary": {
+    "x1": 315.1155700683594,
+    "x2": 551.1160278320312,
+    "y1": 374.76641845703125,
+    "y2": 395.5543212890625
+  },
+  "figType": "Figure",
+  "imageText": ["2", "3", "4", "1", "Shared", "Memory", "Ethernet", "/", "IP", "Serial", "Port", "Custom", "Semi./Auto.", "State", "Machine", "Target", "Manual", "Blackbox", "White/Greybox", "Interfaces"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 550.0799999999999,
+    "y1": 250.56,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure1-1.png"
+}, {
+  "caption": "Fig. 7. Implementation Setup for U-FUZZ 5G testing and evaluation",
+  "captionBoundary": {
+    "x1": 321.68670654296875,
+    "x2": 542.8106689453125,
+    "y1": 218.36744689941406,
+    "y2": 222.29620361328125
+  },
+  "figType": "Figure",
+  "imageText": ["SIM", "Card", "USB", "Per-Port", "Power", "Control", "Software", "Setup", "(Mini", "PC)", "U-Fuzz", "Core", "Network", "Open5GS", "gNB", "OpenAirInterface", "5G", "Mini", "PC", "5G", "Smartphone", "Malicious", "gNB", "Setup", "UE", "Monitoring", "and", "Control", "USB", "3.0", "5G", "Edge", "Devices", "USRP", "B210", "nl", "in", "k", "M", "N", "C", ":", "0", "1", "M", "C", "C", ":", "0", "01", "U", "pl", "in", "k", "ADB", "D", "ow"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 546.24,
+    "y1": 72.96,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure7-1.png"
+}, {
+  "caption": "Fig. 2. Illustration of the U-FUZZ approach depicting key components: a multi-protocol state mapper (highlighted in light yellow), communication between IoT APP and SUT (in blue), interception of packets (via green arrows) and fuzzing engine (highlighted in white) that mutates or injects packets towards the SUT.",
+  "captionBoundary": {
+    "x1": 314.0244445800781,
+    "x2": 550.0537109375,
+    "y1": 325.8741149902344,
+    "y2": 363.521240234375
+  },
+  "figType": "Figure",
+  "imageText": ["Client", "RX", "TX", "listoutPlist", "listoutPlist", "Atomic", "List", "Finish", "<ΦSi,", "Si>", "ΦS", "&&", "&&", "Combined", "<Uknown>Filter", "Hunter", "S", "Plist", "Server", "State", "Machine", "Hold", "TX", "Uplink", "Downlink", "Release", "TX", "R", "X", "Capture", "Processor", "State", "Predication", "Dictionary", "Pkt", "Summary", "Dictionary", "Fuzzing", "Engine", "Optimization", "Exploits", "IOT", "Post-Fuzzing", "Analysis", "Fuzzing", "Actions", "Mutation", "Replay", "User", "Input", "Two", "Lists", "Capture", "File"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 549.12,
+    "y1": 73.92,
+    "y2": 313.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure2-1.png"
+}, {
+  "caption": "Fig. 8. Implementation Setup for U-FUZZ Zigbee and Coap Fuzzing.",
+  "captionBoundary": {
+    "x1": 65.93663024902344,
+    "x2": 288.02618408203125,
+    "y1": 229.2801055908203,
+    "y2": 233.2088623046875
+  },
+  "figType": "Figure",
+  "imageText": ["Crash", "Monitor", "Sniffer", "Zigbee2Mqtt", "Server", "/tty/V0", "Serialport", "CoAP", "Client", "Serial", "Packet", "CoAPthon", "Canopus", "Libcoap", "Jcoap", "CoAP", "Server", "Veth", "/", "Serial", "Tunnel", "ZNP", "Dissector", "/tty/V0", "Serialport", "Zigbee", "Coordinator", "Dongle", "Zigbee", "Smart", "Device", "Fuzzing", "Engine", "Ethernet", "Packet", "Vritual", "Interface", "Local", "Interface", "Connect", "to", "10.47.0.1", "Bind", "to", "10.47.0.1"],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 271.2,
+    "y1": 72.0,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure8-1.png"
+}, {
+  "caption": "TABLE I LIST OF TARGETS AND THEIR RESPECTIVE SOFTWARE OR FIRMWARE VERSION",
+  "captionBoundary": {
+    "x1": 62.6881217956543,
+    "x2": 291.2724304199219,
+    "y1": 243.2512969970703,
+    "y2": 255.6109619140625
+  },
+  "figType": "Table",
+  "imageText": ["Protocol", "Implementation", "/", "Devices", "Firmware", "/", "Commit", "Version", "OnePlus", "Nord", "CE", "2", "5G", "M_V3_P10", "Zigbee2Mqtt", "V1.30.1", "Texas", "Instrument", "CC2531", "USB", "Dongle", "Z-Stack_Home_1.2", "Sonoff", "Zigbee", "3.0", "USB", "Dongle", "Z-Stack_3.0.x", "Tuya", "Smart", "Plug", "20B+TZSKT11BS107", "Philips", "Hue", "Smart", "Light", "Bulb", "V1.76.11", "libcoap", "V4.3.1", "Jcoap", "Commit", "1c06936", "Canopus", "Commit", "e374f5b", "CoAPthon", "V4.0.2"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 293.28,
+    "y1": 264.96,
+    "y2": 348.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-TableI-1.png"
+}, {
+  "caption": "Fig. 3. An illustration of the U-FUZZ workflow in discovering and replicating the zero-day vulnerability V1 (see Table V)",
+  "captionBoundary": {
+    "x1": 114.145751953125,
+    "x2": 503.156005859375,
+    "y1": 196.9524688720703,
+    "y2": 200.8812255859375
+  },
+  "figType": "Figure",
+  "imageText": ["Exploitation", "&", "Replication", "OptimisedRandom", "Attack:", "Malformed", "RRC", "Conn.", "Setup", "StateMachine", "RRC", "Connection", "Request", "Attack", "Impact", "Assessment", "Fuzzing", "Post", "Fuzzing", "Analysis", "Methodology", "Overview", "Attack", "Vector", "Analysis", "Session", "Iteration", "UE", "Monitor", "Malicious", "gNB", "SpCellConfig", "Present.", "=", "0RRCMAC", "SpCellConfig", "Present.", "=", "1RRCMAC", "UE", "Target", "Fuzzing", "Session", "Iteration", "Attack", "Vector", "Analysis", "Attack", "Exploitation", "&", "Replication", "Random", "Access", "Response", "(RAR)", "RRC", "Connection", "Request", "Attack:", "Legitmate", "RRC", "Conn.", "Setup", "xPRACH", "RRC", "Release", "...", "Authentication", "RRC", "Attach", "RACH", "Process", "Syncronization", "RRC", "Release", "...", "Authentication", "RRC", "Attach", "RACH", "Process", "Syncronization", "UE", "TargetMalicious", "gNB", "RRC", "Release", "...", "Authentication", "RRC", "Attach", "RACH", "Process", "Syncronization", "3", "4", "2", "1", "CellGroupId.", "=", "2", "CellGroupId.", "=", "0", "...", "..."],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 551.04,
+    "y1": 72.0,
+    "y2": 184.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure3-1.png"
+}, {
+  "caption": "TABLE III EFFICIENCY AND COVERAGE OF U-FUZZ ACROSS VARIOUS SUBJECTS. THE MODEL COVERAGE FOR CERTAIN TARGETS IS SHOWN AS N.A AS THEIR RESPECTIVE VULNERABILITIES WERE FOUND DURING USE OF THE IOT APP (Zigbee2Mqtt) OR THE GENERIC INTERFACE (CC2531).",
+  "captionBoundary": {
+    "x1": 66.05886840820312,
+    "x2": 291.05072021484375,
+    "y1": 330.41802978515625,
+    "y2": 368.0614318847656
+  },
+  "figType": "Table",
+  "imageText": ["CoAPthon", "3h.", "28.3%", "Canopus", "15", "min.", "8.6%", "Jcoap", "5", "min.", "27%", "libcoap", "1h.", "18%", "Philips", "Hue", "Smart", "Light", "Bulb", "12h.", "61.2%", "Tuya", "Smart", "Plug", "1h.", "57.1%", "Texas", "Instrument", "CC2531", "USB", "Dongle", "7", "min.", "N.A", "Zigbee2Mqtt", "7", "min.", "N.A", "OnePlus", "Nord", "CE", "2", "5G", "18", "min.", "69.6%", "Protocol", "Implementation", "/", "Devices", "1st", "Crash/Hang", "Model", "Coverage"],
+  "name": "III",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 295.2,
+    "y1": 378.71999999999997,
+    "y2": 489.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-TableIII-1.png"
+}, {
+  "caption": "TABLE II EFFECTIVENESS OF U-FUZZ FRAMEWORK IN TERMS OF FINDING VULNERABILITIES IN OUR SUBJECTS. PREFIX V IS USED FOR VULNERABILITY WHEREAS PREFIX A IS USED FOR ANOMALY. THE VULNERABILITIES SHOWN IN RED ARE NEW AND WERE PREVIOUSLY UNKNOWN.",
+  "captionBoundary": {
+    "x1": 69.03987884521484,
+    "x2": 549.8985595703125,
+    "y1": 73.84132385253906,
+    "y2": 94.62713623046875
+  },
+  "figType": "Table",
+  "imageText": ["V11", "-", "Illegal_Argument_Exception_Invalid_Token_Length", "Jcoap", "Crash", "CVE-2023-34920", "V12", "-", "Slice_Bounds_out_of_Range", "Canopus", "Crash", "CVE-2023-34919", "V13", "-", "Bad", "Get", "Request", "Canopus", "Crash", "CVE-2023-34921", "V14", "-", "Invalid", "Size1", "Size2", "Options", "libcoap", "Crash", "CVE-2023-33605", "V15", "-", "Bad", "POST", "Request", "CoAPthon", "Crash", "CVE-2018-12680", "V16", "-", "Invalid", "Unicode", "Decoding", "CoAPthon", "Crash", "CVE-2018-12680", "CoAP", "V10", "-", "NullPointerException", "Jcoap", "Crash", "CVE-2023-34918", "V7", "-", "Invalid", "Transaction", "and", "Cluster", "ID", "Zigbee2Mqtt", "Version:3.8", "Control", "Service", "Failed", "CVE-2023-41003", "V8", "-", "Malformed", "AF_Data_Request", "Zigbee2Mqtt", "Version:3.8", "Crash", "CVE-2023-42386", "V9", "-", "Out", "of", "Sync", "State", "Information", "Zigbee2Mqtt", "Version:3.8", "Misleading", "State", "Information", "CVE-2023-41004", "A1", "-", "Skip", "Link", "Status", "Tuya", "Smart", "Plug", "Anomaly", "Not", "applicable", "A2", "-", "Skip", "Link", "Status", "Philips", "Hue", "Smart", "Light", "Bulb", "Anomaly", "Not", "applicable", "Crash", "CVE-2023-41388", "Zigbee", "V6", "-", "Invalid", "Transaction", "and", "Cluster", "ID", "Texas", "Instrument", "CC2531", "USB", "Dongle", "Z-stack", "version:", "Z-Stack_Home_1.2", "SONOFF", "Zigbee", "3.0", "USB", "Dongle-P", "Z-stack", "version:", "Z-Stack_3.0.x", "V2", "-", "Invalid", "CellGroupId", "OnePlus", "Nord", "CE", "2", "Crash", "CVE-2024-20003", "V3", "-", "Invalid", "RLC", "Sequence", "OnePlus", "Nord", "CE", "2", "Crash", "CVE-2023-20702", "V4", "-", "Invalid", "Uplink", "Conﬁg", "Element", "OnePlus", "Nord", "CE", "2", "Crash", "CVE-2023-32843", "V5", "-", "Null", "Uplink", "Conﬁg", "Element", "OnePlus", "Nord", "CE", "2", "Crash", "CVE-2023-32845", "5G", "V1", "-", "Invalid", "CellGroupConﬁg", "OnePlus", "Nord", "CE", "2", "Crash", "CVE-2024-20004", "Protocol", "Under", "Test", "Implementation", "Vulnerability", "Affected", "Hardware/Software", "Implementation", "Impact", "CVE", "Status"],
+  "name": "II",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 549.12,
+    "y1": 103.67999999999999,
+    "y2": 312.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-TableII-1.png"
+}, {
+  "caption": "Fig. 4. Example of the generated packet summary",
+  "captionBoundary": {
+    "x1": 96.88079833984375,
+    "x2": 259.7931213378906,
+    "y1": 177.5565948486328,
+    "y2": 181.4853515625
+  },
+  "figType": "Figure",
+  "imageText": ["Packet", "Summary", "Dictionary", "Atomic", "nr-rrc.c1", "nr-rrc.c1==1", "nr-rrc.establishmentCause", "combined", "nr-rrc.establishmentCause&&nr-rrc.c1", "...", "...", "...", "...", "...", "...", "...", "nr-rrc.ue_Identity:1", "nr-rrc.establishmentCause:2", "nr-rrc.c1:1", "udp.srcport:59302", "udp.dstport:9999", "mac-nr", "udp", "Packet", "2", "nr-rrc.periodicBSR_Timer:2", "nr-rrc.establishmentCause:3", "nr-rrc.c1:1", "udp.srcport:59302", "udp.dstport:9999", "mac-nr", "udp", "...", "Packet", "1", "nr-rrc.establishmentCause&&nr-rrc.c1==1"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 294.24,
+    "y1": 72.96,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Illustration of the common protocol layers of 5G NR Packets selected by Filter Hunter, prior to enumeration of the Potential filter list",
+  "captionBoundary": {
+    "x1": 314.61944580078125,
+    "x2": 550.6273193359375,
+    "y1": 155.77772521972656,
+    "y2": 168.1361083984375
+  },
+  "figType": "Figure",
+  "imageText": ["Common", "Protocol", "Layers", "Top", "Bottom", "UDP", "Frame", "MAC", "RLC", "PDCP", "NAS", "RRC", "UDP", "Frame", "MAC", "RLC", "PDCP", "RRC", "UDP", "Frame", "MAC", "RLC"],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 373.44,
+    "x2": 491.03999999999996,
+    "y1": 72.96,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure5-1.png"
+}, {
+  "caption": "Fig. 9. Vulnerabilities found by U-FUZZ in comparison to state-of-the-art fuzzing tools for respective protocols.",
+  "captionBoundary": {
+    "x1": 58.246891021728516,
+    "x2": 294.24847412109375,
+    "y1": 215.7565460205078,
+    "y2": 228.1148681640625
+  },
+  "figType": "Figure",
+  "imageText": ["Interface", "Crashes", "Anomalies", "Total", "Crashes", "Unique", "Crashes", "7", "0", "2", "102", "1", "43", "5", "1", "8", "121", "31", "5", "63", "58", "42", "s", "al", "ie", "An", "om", "es", "/", "ra", "sh", "of", "C", "be", "r", "N", "um", "U-Fuzz", "vs", "SOTA-5G", "(Nord", "CE", "2", "5G)", "U-Fuzz", "vs", "SOTA-Zigbee", "(Zigbee", "Light", "Bulb)", "U-Fuzz", "vs", "SOTA-Coap", "(libcoap)", "U-Fuzz", "vs", "SOTA-Coap", "(canopus)"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 294.24,
+    "y1": 72.96,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure9-1.png"
+}, {
+  "caption": "Fig. 10. Crashes found by U-FUZZ with and without State Mapper.",
+  "captionBoundary": {
+    "x1": 67.58065795898438,
+    "x2": 284.901123046875,
+    "y1": 344.6606140136719,
+    "y2": 348.58935546875
+  },
+  "figType": "Figure",
+  "imageText": ["1653U-Fuzz", "U-Fuzz", "-", "State", "Mapper", "441", "42", "63", "26", "44", "es", "ra", "sh", "of", "C", "be", "r", "N", "um", "One", "Plus", "Nord", "CE", "2", "(5G)", "Tuya", "Smart", "Plug", "(Zigbee)", "JCoap", "(Coap)"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 58.08,
+    "x2": 294.24,
+    "y1": 229.92,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure10-1.png"
+}, {
+  "caption": "Fig. 6. U-FUZZ Fuzzing Engine Characteristics and Workflow.",
+  "captionBoundary": {
+    "x1": 332.5874328613281,
+    "x2": 531.6138916015625,
+    "y1": 167.47828674316406,
+    "y2": 171.40704345703125
+  },
+  "figType": "Figure",
+  "imageText": ["Transitions", "Rsp.", "Time", "Malformed", "TX", "(iii)", "Feedback(i)", "Statefulness", "TX", "Response", "from", "Target", "(RX)", "IoT", "Target", "IoT", "APP", "(Binary)", "Hold", "Release", "(ii)", "Interception", "Based", "Engine", "Model", "Generator", "Fuzzing"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 550.0799999999999,
+    "y1": 72.96,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00027-Figure6-1.png"
+}]

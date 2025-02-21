@@ -1,0 +1,121 @@
+[{
+  "caption": "Figure 3: Root Causes of CRS Bugs.",
+  "captionBoundary": {
+    "x1": 235.10699462890625,
+    "x2": 376.8924560546875,
+    "y1": 204.8740997314453,
+    "y2": 209.16900634765625
+  },
+  "figType": "Figure",
+  "imageText": ["Vuln", "Flagged", "Root", "Causes", "16", "32", "89", "38", "25", "1432131712748", "62", "44", "30", "57", "34", "13281", "429", "A.", "Coding", "Error", "B.1.2", "Inaccurate", "Permission", "Assignment", "B.2.1", "Plugin", "Config", "Error", "B.1.1", "Incorrect", "Mount", "Options", "A.3.2", "Inappropriate", "Lifecycle", "Organization", "A.4.1", "Wrong", "Code", "Logic", "A.4.2", "Incorrect", "Image/Config", "Parsing", "B.2.2", "Incorrect", "System", "Config", "B.4", "Runtime", "Shim", "Config", "Error", "A.4", "Incorrect", "Function", "Implementation", "A.3", "Insecure", "Runtime", "Implementation", "B.2", "3rd", "Party", "Components", "Configuration", "Error", "B.3", "Build", "Configuration", "Error", "B.1", "Improper", "Authorization", "Config", "A.2", "Incorrect", "3rd", "Party", "Library", "Usage", "C.", "Others", "B.", "Configuration", "Error", "135", "A.1", "Improper", "Exception", "Handling", "A.3.1", "Unsafe", "API", "Usage", "Root", "Causes", "of", "Container", "Runtime", "Bugs"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 545.28,
+    "y1": 82.56,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680366-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Overview of Container Cloud and CRSs",
+  "captionBoundary": {
+    "x1": 207.239990234375,
+    "x2": 404.7606201171875,
+    "y1": 194.62208557128906,
+    "y2": 198.9169921875
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "Architecture", "of", "OCI", "Runtime", "OCI", "API", "Command", "cgroup", "namespace", "seccomp", "mount", "...", "Runtime", "Process", "Bundle", "Container", "System", "Files", "Runtime", "Initiator", "(b)", "Architecture", "of", "CRI", "Runtime", "Runtime", "(Network)", "Config", "Bundle", "OCI", "CRI", "API", "Cmd", "Image", "Hub", "...", "Plugins", "Runtime", "Service", "Metadata", "Storage", "Image", "Process", "(a)", "Overview", "of", "Container", "Cloud", "OCI", "gvisor", "CRI", "Kernel", "Layer", "Container", "Layer", "Orchestration", "Layer", "Host", "Kernel", "Docker", "Kubernetes", "User", "CLI", "runc"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 555.84,
+    "y1": 87.84,
+    "y2": 187.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680366-Figure1-1.png"
+}, {
+  "caption": "Figure 4: CRS Bug Taxonomy Distribution",
+  "captionBoundary": {
+    "x1": 352.70501708984375,
+    "x2": 523.4522094726562,
+    "y1": 257.4520568847656,
+    "y2": 261.7469482421875
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "CRI", "Root", "Causes", "(c)", "OCI", "Root", "Causes", "(b)", "CRI", "Symptoms", "(a)", "OCI", "Symptoms"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 548.16,
+    "y1": 82.56,
+    "y2": 250.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680366-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Proportion of Bugs Lacking Test Drivers inDi erent Root Causes",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0456237792969,
+    "y1": 201.3540802001953,
+    "y2": 216.60797119140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 288.0,
+    "y1": 82.56,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680366-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Proportion of Bugs without Oracles in Di erent Symptoms",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.204345703125,
+    "y1": 202.7700958251953,
+    "y2": 218.02398681640625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 552.0,
+    "y1": 82.56,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680366-Figure6-1.png"
+}, {
+  "caption": "Figure 2: Symptoms of CRS Bugs",
+  "captionBoundary": {
+    "x1": 239.7740020751953,
+    "x2": 372.2255554199219,
+    "y1": 187.5451202392578,
+    "y2": 191.84002685546875
+  },
+  "figType": "Figure",
+  "imageText": ["429", "Vuln", "Flagged", "Symptoms", "D.", "Poor", "Performance", "51", "C.", "Unexpected", "Functionality", "255", "B.", "Unexpected", "Termination", "90", "A.", "Build", "Failure", "33", "1511281916416162174320", "261784718080", "10", "28", "B.1.1", "Plugin", "Management", "Error", "B.1.2", "Runtime", "Daemon", "Crash", "B.1.3", "System", "Communication", "Error", "C.2.1", "Incorrect", "Return", "Value", "C.2.2", "Wrong", "Container", "Behavior", "C.2.3", "Incorrect", "Configuration", "Effect", "C.2.4", "Others", "C.3.1", "Access", "Permission", "Denied", "C.3.2", "Escalized", "Privilege", "D.3.1", "Out", "of", "Memory", "D.3.2", "Host", "Memory", "Leak", "B.2", "Preset", "Exit", "Code", "C.1", "Logging", "Error", "C.2", "Incorrect", "Execution", "Output", "C.3", "Authorization", "Error", "D.1", "High", "Disk", "Resource", "Occupancy", "D.2", "Excessive", "Execution", "Time", "D.3", "Memory", "Error", "B.1", "Unexpected", "Crash", "Symptoms", "of", "Container", "Runtime", "Bugs"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680366-Figure2-1.png"
+}]

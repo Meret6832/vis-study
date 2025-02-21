@@ -1,0 +1,201 @@
+[{
+  "caption": "Fig. 3. An Example of a Crossover",
+  "captionBoundary": {
+    "x1": 282.9410095214844,
+    "x2": 408.1205749511719,
+    "y1": 238.20184326171875,
+    "y2": 242.43399047851562
+  },
+  "figType": "Figure",
+  "imageText": ["ff", "sp", "ri", "n", "g", "500", "……", "O", "max_iter", "10.0", "jerk_weight", "false", "use_fix_time", "3.0", "decel_penalty", "1.0", "accel_penalty", "700", "……", "max_iter", "10.0", "jerk_weight", "true", "use_fix_time", "3.0", "decel_penalty", "5.0", "accel_penalty", "a", "re", "n", "ts", "max_iter", "500", "……", "P", "10.0", "jerk_weight", "true", "use_fix_time", "3.0", "decel_penalty", "5.0", "accel_penalty", "700", "……", "max_iter", "10.0", "jerk_weight", "false", "use_fix_time", "3.0", "decel_penalty", "1.0", "accel_penalty"],
+  "name": "3",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 250.56,
+    "x2": 439.68,
+    "y1": 146.88,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Figure3-1.png"
+}, {
+  "caption": "Table 1. Mutation Operators for Different Option Types, and Examples of Option Values Before and A er Mutation",
+  "captionBoundary": {
+    "x1": 230.92799377441406,
+    "x2": 441.1546936035156,
+    "y1": 335.8178405761719,
+    "y2": 351.0090026855469
+  },
+  "figType": "Table",
+  "imageText": ["Case", "Conversion", "AABB", "aabb", "Disorder", "AABB", "BBAA", "Repeat", "AABB", "AABBAABB", "Substitute", "\"aa/bb\"", "\"aa/cb\"", "Add", "\"aa/bb\"", "\"aa/bcb\"", "Delete", "\"aa/bb\"", "\"aabb\"", "Cut", "\"aa/bb\"", "\"aa\"", "String", "E-Number", "Generate", "Value", "4e7", "4e5", "Boolean", "Negation", "true/yes/max", "false/no/min", "Digit", "type", "change", "15.70", "15", "Float", "Generate", "Value", "15.70", "30.42", "Digit", "type", "change", "5", "6.5", "Integer", "Generate", "Value", "5", "10", "Mutation", "Operator", "Before", "After", "Option", "Type"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 240.95999999999998,
+    "x2": 431.03999999999996,
+    "y1": 357.59999999999997,
+    "y2": 471.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Table1-1.png"
+}, {
+  "caption": "Table 7. Runtime Efficiency of ConfVE Per Scenario (Scenario Generator + Duplicate Violation Eliminator)",
+  "captionBoundary": {
+    "x1": 242.7310028076172,
+    "x2": 440.17584228515625,
+    "y1": 511.8138732910156,
+    "y2": 527.0050048828125
+  },
+  "figType": "Table",
+  "imageText": ["Taiwan", "-", "-", "-", "-", "(57.79+4.50)", "AWF", "CICD", "-", "-", "-", "-", "(58.02+5.48)", "LEO-VM", "-", "-", "-", "-", "(60.67+3.90)", "San", "Francisco", "-", "-", "-", "(53.86+0.61)", "-", "San", "Mateo", "(33.33+3.23)", "(48.36+3.00)", "-", "-", "-", "Sunnyvale", "Loop", "(35.54+5.25)", "(48.94+11.95)", "-", "-", "-", "Borregas", "Ave", "(34.07+0.86)", "(45.55+0.74)", "(40.86+0.32)", "-", "-", "scenoRITA", "DoppelTest", "AutoFuzz", "AV-Fuzzer", "AutoEva.", "HD", "Maps", "Execution", "Time", "(sec.)"],
+  "name": "7",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 242.88,
+    "x2": 441.12,
+    "y1": 533.76,
+    "y2": 601.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Table7-1.png"
+}, {
+  "caption": "Table 6. Results of Duplication Violation Elimination",
+  "captionBoundary": {
+    "x1": 230.0449981689453,
+    "x2": 425.27911376953125,
+    "y1": 121.1276626586914,
+    "y2": 125.35980224609375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "7045", "1818", "74.19%", "7691", "1427", "81.45%", "3674", "1096", "70.17%", "Delay", "703", "95", "86.49%", "504", "91", "81.94%", "110", "36", "67.27%", "Malfunc.", "1743", "375", "78.49%", "4338", "428", "90.13%", "1322", "297", "77.53%", "Paralysis", "441", "182", "58.73%", "796", "200", "74.87%", "385", "145", "62.34%", "Speeding", "842", "223", "73.52%", "380", "133", "65.00%", "311", "113", "63.67%", "Unsafe", "LC", "1391", "415", "70.17%", "634", "238", "62.46%", "592", "205", "65.37%", "LC", "in", "Junc.", "314", "90", "71.34%", "225", "76", "66.22%", "162", "58", "64.20%", "Collision", "29", "19", "34.48%", "29", "13", "55.17%", "24", "12", "50.00%", "Fast", "Accel.", "100", "39", "61.00%", "44", "24", "45.45%", "34", "19", "44.12%", "Hard", "Brak.", "1482", "380", "74.36%", "741", "224", "69.77%", "734", "211", "71.25%", "All", "Uniq.", "Elim.", "All", "Uniq.", "Elim.", "All", "Uniq.", "Elim.", "ConfVE", "Pairwise", "ConfVD", "Type", "Violation"],
+  "name": "6",
+  "page": 17,
+  "regionBoundary": {
+    "x1": 214.56,
+    "x2": 441.12,
+    "y1": 132.96,
+    "y2": 232.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Table6-1.png"
+}, {
+  "caption": "Table 3. Example of Duplicate Collision Violations",
+  "captionBoundary": {
+    "x1": 149.99209594726562,
+    "x2": 335.7665710449219,
+    "y1": 120.96085357666016,
+    "y2": 125.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Collision-1", "559449.716550803", "4157214.07281456", "-2.44831086142857", "-2.42155592419325", "40.1479655443566", "68.5231404988578", "Collision-2", "559445.666180909", "4157210.72136067", "-2.47056667699013", "-2.42155667074278", "39.7015265216219", "68.5231404988578", "Collision-3", "559264.568996154", "4157220.94727521", "-1.38245939298376", "-1.09947073870517", "29.7268322456541", "59.1636072973156", "ID", "ego", "location", "x", "ego", "location", "y", "ego", "heading", "obstacle", "heading", "ego", "speed", "obstacle", "speed"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 132.0,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Table3-1.png"
+}, {
+  "caption": "Table 5. ConfVE (CE), Pairwise (Pa.), andConfVD (CD) in terms of Unique Emerged Violations in Autoware",
+  "captionBoundary": {
+    "x1": 242.75799560546875,
+    "x2": 440.7085876464844,
+    "y1": 228.29684448242188,
+    "y2": 243.48800659179688
+  },
+  "figType": "Table",
+  "imageText": ["Improv.", "(%)", "-", "18.75", "16.92", "-", "10.27", "2.51", "-", "6.98", "15.0", "Total", "76", "64", "65", "204", "185", "199", "46", "43", "40", "Delay", "11", "10", "7", "3", "5", "3", "2", "4", "1", "Malfunc.", "29", "23", "25", "14", "33", "24", "19", "23", "16", "Paralysis", "1", "1", "2", "1", "1", "2", "6", "7", "3", "Speeding", "0", "0", "0", "0", "0", "0", "0", "0", "0", "Unsafe", "LC", "22", "20", "22", "44", "44", "52", "11", "5", "13", "LC", "in", "Junc.", "0", "0", "0", "17", "15", "15", "0", "0", "0", "Fast", "Accel.", "2", "1", "0", "9", "5", "8", "0", "0", "0", "Hard", "Brak.", "9", "6", "5", "106", "77", "91", "6", "3", "5", "Collision", "2", "3", "4", "10", "5", "4", "2", "1", "2", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "LEO-VM", "AWF", "CICD", "Taiwan", "Autoware", "Evaluator", "Type", "Violation"],
+  "name": "5",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 242.88,
+    "x2": 441.12,
+    "y1": 250.56,
+    "y2": 377.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Table5-1.png"
+}, {
+  "caption": "Table 2. Feature Representations of Each Violation Type",
+  "captionBoundary": {
+    "x1": 238.81700134277344,
+    "x2": 440.17333984375,
+    "y1": 383.7888488769531,
+    "y2": 388.02099609375
+  },
+  "figType": "Table",
+  "imageText": ["Vehicle", "Paralysis", "{?", "C", ",", "B", "C", ",", "ℎ", "C", "}", "C~?4<>3D;4", "Module", "Malfunction", "{?", "C", ",", "B", "C", ",", "ℎ", "C", "}", "C~?4<>3D;4", "Module", "Delay", "{?", "C", ",", "B", "C", ",", "ℎ", "C", ",", "3DA0C8>=}", "C~?4<>3D;4", "Lane-change", "in", "Junction", "{?", "C", ",", "B", "C", ",", "ℎ", "C", "}", "83", "9D=2C8>=", "Unsafe", "Lane-change", "{?", "C", ",", "B", "C", ",", "ℎ", "C", ",", "3DA0C8>=}", "−", "Speeding", "{?", "C", ",", "B", "C", ",", "ℎ", "C", ",", "3DA0C8>=}", "−", "Hard", "Braking", "{?", "C", ",", "B", "C", ",", "ℎ", "C", ",", "3DA0C8>=,3424;", "}", "−", "Fast", "Acceleration", "{?", "C", ",", "B", "C", ",", "ℎ", "C", ",", "3DA0C8>=,", "0224;", "}", "−", "Collision", "{?", "C", ",", "B", "C", ",", "ℎ", "C", ",", "?", "$", "C", ",", "B$C", ",", "ℎ$C", "}", "−", "Violation", "Type", "Non-strict", "Features", "Strict", "Features"],
+  "name": "2",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 238.56,
+    "x2": 441.12,
+    "y1": 394.56,
+    "y2": 473.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Table2-1.png"
+}, {
+  "caption": "Fig. 2. Genetic Representation of a Configuration",
+  "captionBoundary": {
+    "x1": 246.05499267578125,
+    "x2": 429.2296142578125,
+    "y1": 554.910888671875,
+    "y2": 559.1430053710938
+  },
+  "figType": "Figure",
+  "imageText": ["Options", "(Genes)", "accel_penalty", "decel_penalty", "speed_weight", "jerk_weight", "lowest_speed…", "…", "(Individuals)", "Configuration", "1", "Configuration", "2", "Configuration", "m…Configurations"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 234.72,
+    "x2": 440.15999999999997,
+    "y1": 500.64,
+    "y2": 547.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Figure2-1.png"
+}, {
+  "caption": "Fig. 1. Overview of ConfVE",
+  "captionBoundary": {
+    "x1": 285.7980041503906,
+    "x2": 389.4847717285156,
+    "y1": 564.5169067382812,
+    "y2": 568.7490234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 234.72,
+    "x2": 441.12,
+    "y1": 461.76,
+    "y2": 557.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Figure1-1.png"
+}, {
+  "caption": "Table 4. ConfVE (CE), Pairwise (Pa.), and ConfVD (CD) in terms of Unique Emerged Violations by Apollo",
+  "captionBoundary": {
+    "x1": 47.80192947387695,
+    "x2": 437.9571533203125,
+    "y1": 212.45187377929688,
+    "y2": 216.68402099609375
+  },
+  "figType": "Table",
+  "imageText": ["Improv.", "(%)", "-", "32.14", "98.21", "-", "18.49", "79.62", "-", "33.74", "81.77", "-", "7.55", "56.16", "-", "35.96", "37.5", "-", "71.52", "208.33", "-", "37.78", "37.78", "-", "11.96", "98.08", "Total", "222", "168", "112", "282", "238", "157", "329", "246", "181", "114", "106", "73", "121", "89", "88", "259", "151", "84", "62", "45", "45", "103", "92", "52", "Delay", "12", "8", "3", "5", "10", "0", "6", "3", "1", "5", "9", "6", "2", "2", "1", "19", "13", "7", "0", "1", "1", "30", "26", "6", "Malfunc.", "53", "56", "34", "49", "66", "44", "49", "63", "42", "31", "33", "22", "30", "29", "29", "54", "52", "26", "17", "17", "15", "30", "33", "20", "Paralysis", "27", "30", "19", "21", "14", "12", "26", "36", "23", "24", "26", "19", "21", "25", "18", "23", "32", "18", "14", "11", "13", "18", "17", "16", "Speeding", "0", "0", "0", "98", "56", "53", "62", "43", "39", "16", "12", "5", "18", "12", "9", "16", "3", "3", "13", "7", "4", "0", "0", "0", "Unsafe", "LC", "78", "47", "30", "52", "44", "24", "42", "32", "23", "22", "13", "7", "23", "8", "16", "108", "20", "9", "13", "5", "9", "0", "0", "0", "LC", "in", "Junc.", "0", "0", "0", "38", "31", "18", "35", "30", "25", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "Collision", "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2", "2", "1", "0", "0", "0", "1", "1", "0", "1", "1", "0", "Fast", "Accel.", "2", "2", "3", "2", "1", "1", "8", "4", "1", "0", "1", "1", "4", "1", "1", "8", "5", "3", "0", "0", "0", "4", "4", "1", "Hard", "Brak.", "49", "25", "22", "17", "16", "5", "101", "35", "27", "16", "12", "13", "21", "10", "13", "31", "26", "18", "4", "3", "3", "20", "11", "9", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "CE", "Pa.", "CD", "Borregas", "Ave", "San", "Mateo", "Sunnyvale", "Borregas", "Ave", "San", "Mateo", "Sunnyvale", "Borregas", "Ave", "San", "Francisco", "scenoRITA", "DoppelTest", "AutoFuzz", "AV-Fuzzer", "Type", "Violation"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 223.67999999999998,
+    "y2": 325.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660792-Table4-1.png"
+}]

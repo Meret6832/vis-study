@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 1: A simple program (left) and two of its tests (right)",
+  "captionBoundary": {
+    "x1": 318.52099609375,
+    "x2": 557.6371459960938,
+    "y1": 297.69976806640625,
+    "y2": 299.77996826171875
+  },
+  "figType": "Figure",
+  "imageText": ["⊢", "determinant(1,2,1,2)", "=", "0", "⊢", "determinant(1,2,3,4)", "=", "-2", "#", "Tests", "1", "def", "determinant(a,b,c,d):", "2", "ad", "=", "a", "*", "d", "3", "bc", "=", "b", "*", "c", "4", "return", "ad", "-", "bc"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 541.92,
+    "y1": 248.16,
+    "y2": 280.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Killable (left) and equivalent (right) mutants",
+  "captionBoundary": {
+    "x1": 328.99798583984375,
+    "x2": 547.1595458984375,
+    "y1": 378.2178039550781,
+    "y2": 380.2980041503906
+  },
+  "figType": "Figure",
+  "imageText": ["return", "ad", "-", "bc", "def", "determinant(a,b,c,d):", "ad", "=", "a", "*", "d", "-", "bc", "=", "b", "*", "c", "+", "bc", "=", "c", "*", "b", "1", "def", "determinant(a,b,c,d):", "2", "-", "ad", "=", "a", "*", "d", "3", "+", "ad", "=", "a", "/", "d", "4", "bc", "=", "b", "*", "c", "5", "return", "ad", "-", "bc"],
+  "name": "2",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 533.76,
+    "y1": 319.68,
+    "y2": 360.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Figure2-1.png"
+}, {
+  "caption": "Table 3: Manual classification of live mutants.",
+  "captionBoundary": {
+    "x1": 80.93099975585938,
+    "x2": 266.6161804199219,
+    "y1": 243.8978271484375,
+    "y2": 245.97802734375
+  },
+  "figType": "Table",
+  "imageText": ["Id", "Project", "Sampled", "Misclass.", "EquivalentRB", "RC", "1", "commons-net", "100", "0", "4", "1", "2", "commons-math", "100", "10", "0", "8", "3", "commons-lang", "100", "7", "3", "12", "4", "commons-io", "100", "3", "2", "5", "5", "commons-imaging", "100", "0", "2", "0", "6", "commons-dbcp", "100", "0", "0", "1", "7", "commons-csv∗", "116", "3", "23", "9", "8", "commons-configuration", "100", "0", "2", "4", "9", "commons-compress", "100", "2", "4", "1", "10", "commons-collections", "100", "3", "2", "1"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 292.32,
+    "y1": 255.84,
+    "y2": 382.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Table3-1.png"
+}, {
+  "caption": "Table 2: Apache Commons projects — Projects and test suites measures",
+  "captionBoundary": {
+    "x1": 162.56500244140625,
+    "x2": 449.14019775390625,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Total", "Original", "Random", "DynaMOSA", "Id", "Name", "KLOC", "Mutants", "Size", "Stmt", "Branch", "Kill", "Size", "Stmt", "Branch", "Kill", "Size", "Stmt", "Branch", "Kill", "1", "commons-net", "20", "5764", "254", "33%", "28%", "28%", "1988", "48%", "35%", "32%", "3499", "51%", "42%", "35%", "2", "commons-math", "100", "47881", "6377", "92%", "84%", "76%", "11956", "74%", "61%", "77%", "17450", "79%", "68%", "18%", "3", "commons-lang", "28", "13061", "4114", "95%", "91%", "66%", "4500", "73%", "60%", "72%", "9027", "89%", "86%", "86%", "4", "commons-io", "10", "3273", "1316", "90%", "88%", "94%", "1677", "72%", "65%", "58%", "2822", "81%", "79%", "87%", "5", "commons-imaging", "31", "11597", "563", "73%", "59%", "47%", "2974", "63%", "45%", "44%", "4935", "67%", "53%", "45%", "6", "commons-dbcp", "14", "4230", "1409", "66%", "66%", "99%", "1026", "39%", "42%", "20%", "2970", "47%", "58%", "27%", "7", "commons-csv", "2", "635", "312", "89%", "85%", "81%", "365", "78%", "63%", "60%", "647", "89%", "83%", "76%", "8", "commons-configuration", "28", "6279", "2803", "87%", "83%", "99%", "2991", "75%", "62%", "39%", "4956", "80%", "72%", "40%", "9", "commons-compress", "24", "9566", "1047", "84%", "76%", "65%", "2610", "63%", "45%", "44%", "4306", "70%", "57%", "49%", "10", "commons-collections", "29", "8309", "25011", "86%", "81%", "75%", "3954", "67%", "59%", "57%", "5659", "74%", "69%", "93%"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 562.0799999999999,
+    "y1": 100.8,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Table2-1.png"
+}, {
+  "caption": "Table 9: Comparison ofmean difference (MD) between class",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2057495117188,
+    "y1": 288.06781005859375,
+    "y2": 290.14801025390625
+  },
+  "figType": "Table",
+  "imageText": ["Id", "Estimator", "Valid", "Est.", "CI", "Overlaps", "Mean", "(%)", "Stdev", "(%)", "1", "ICE-k0", "2", "2", "3.29", "2.74", "2", "Zelterman", "5", "1", "33.82", "19.44", "3", "Chao-Bunge", "1", "0", "26.3", "-", "4", "Jackknife", "3", "0", "36.82", "15.25", "5", "Chao", "6", "0", "28.66", "15.8", "6", "iChao", "5", "0", "30.06", "13.52", "7", "ICE", "5", "0", "23.69", "10.54", "8", "ICE-1", "2", "0", "31.15", "10.81", "9", "UNPMLE", "2", "0", "36.67", "27.71", "10", "Bootstrap", "9", "5", "6.79", "2.71", "11", "PNPMLE", "1", "0", "56.16", "-", "12", "PCG", "2", "1", "28.42", "37.91", "test", "suites"],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 107.03999999999999,
+    "y2": 256.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Table9-1.png"
+}, {
+  "caption": "Figure 4: Comparison of estimates from different test suites with methods (Figure 4a. . .Figure 4c) and classes (Fig-",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.8038330078125,
+    "y1": 510.9248046875,
+    "y2": 513.0050048828125
+  },
+  "figType": "Figure",
+  "imageText": ["(f)", "Originalvs", "Random", "(classes)", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress", "(e)", "DynaMOSAvs", "Random", "(classes)", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress", "(d)", "DynaMOSAvs", "Original", "(classes)", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress", "(c)", "Originalvs", "Random", "(methods)", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress", "(b)", "DynaMOSAvs", "Random", "(methods)", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress", "(a)", "DynaMOSAvs", "Original", "(methods)", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 554.4,
+    "y1": 271.68,
+    "y2": 496.79999999999995
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Killable mutants estimated by Chao estimator and manual sampling (i.e., ground truth). Ratio of mutants in x-axis,",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.2933349609375,
+    "y1": 210.37481689453125,
+    "y2": 212.45501708984375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "DynaMOSA", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress", "(b)", "Random", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress", "(a)", "Original", "commons-io", "commons-lang", "commons-math", "commons-net", "commons-dbcp", "commons-imaging", "commons-configuration", "commons-csv", "0.2", "0.4", "0.6", "0.8", "1", "commons-collections", "commons-compress"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 62.879999999999995,
+    "x2": 549.12,
+    "y1": 84.96,
+    "y2": 194.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Figure3-1.png"
+}, {
+  "caption": "Table 1: List of considered Apache Commons projects",
+  "captionBoundary": {
+    "x1": 65.4469985961914,
+    "x2": 282.10211181640625,
+    "y1": 89.27678680419922,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Release", "Commit", "Hash/Note", "commons-beanutils", "1.9.4-RC2", "32ceb2c925", "commons-cli", "1.4", "f7153c3c10", "commons-codec", "1.13", "beafa49f88", "commons-collections", "4.4", "cab58b3a80", "commons-compress", "1.18", "b95d5cde4c", "commons-configuration", "2.5", "dc00a04783", "commons-csv", "1.7", "a227a1e2fb", "commons-dbcp", "2.6.0", "3e7fca08d3", "commons-dbutils", "1.7", "77faa3caef", "commons-digester", "3.2", "ec75748096", "commons-email", "1.5", "5516c487a5", "commons-exec", "1.3", "0b1c1ff0cb", "commons-fileupload", "1.4", "047f315764", "commons-functor", "1.0_RC1", "62cd20998e", "commons-imaging", "1.0-alpha1-RC3", "6f04ccc2cf", "commons-io", "2.6-RC3", "2ae025fe5c", "commons-lang", "3.8_RC1", "9801e2fb9f", "commons-math", "3.6_RC2", "95a9d35e77", "commons-net", "3.6", "163fe46c01", "commons-pool", "2.7.0", "f4455dcb8a", "commons-validator", "1.6", "c4b93a7275", "commons-ognl", "no", "releases", "immature", "project", "commons-geometry", "no", "releases", "immature", "project", "commons-testing", "no", "releases", "immature", "project", "commons-bcel", "6.3.1", "fail", "build", "commons-vfs", "2.4", "complex", "structure", "commons-text", "1.7", "fail", "build", "commons-logging", "1.2", "fail", "mutation", "analysis", "commons-jexl", "v4.0-snapshot.4", "failing", "tests", "commons-crypto", "1.0.0", "failing", "tests", "commons-jcs", "2.2.1-RC4", "failing", "tests", "commons-chain", "1.2", "fail", "mutation", "analysis", "commons-jxpath", "1.3", "fail", "mutation", "analysis", "commons-scxml", "2.0-M1", "fail", "mutation", "analysis", "commons-rng", "1.2", "complex", "structure", "commons-rdf", "0.5.0", "complex", "structure", "commons-proxy", "2.0", "RC1", "fail", "build", "commons-bsf", "3.x-with-engines", "complex", "structure", "commons-weaver", "2.0", "complex", "structure", "commons-jelly", "1.0.1", "fail", "build", "commons-jci", "1.1", "complex", "structure"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 298.08,
+    "y1": 100.8,
+    "y2": 524.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686669-Table1-1.png"
+}]

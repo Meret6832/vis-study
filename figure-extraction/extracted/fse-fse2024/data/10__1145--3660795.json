@@ -1,0 +1,141 @@
+[{
+  "caption": "Fig. 2. Comprehension task example with the task prompt (top right), the code snippet CS-07 (le ), and the answer options (bo om right).",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1754455566406,
+    "y1": 439.07763671875,
+    "y2": 454.4750061035156
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 48.96,
+    "x2": 437.28,
+    "y1": 84.0,
+    "y2": 424.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660795-Figure2-1.png"
+}, {
+  "caption": "Table 1. Overview of code snippets and participant’s average comprehension performance.",
+  "captionBoundary": {
+    "x1": 75.44999694824219,
+    "x2": 410.30841064453125,
+    "y1": 87.91539001464844,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["CS", "-", "05", "-", "V2", "1.00", "4.67", "2", "124.50", "±", "33.53", "11", "6", "CS", "-", "05", "-", "V1", "1.00", "4.50", "2", "182.33", "±", "63.66", "13", "6", "CS", "-", "01", "1.00", "4.00", "7", "224.03", "±", "114.26", "38", "17", "CS", "-", "04", "-", "V1", "1.00", "3.83", "5", "271.33", "±", "145.73", "37", "6", "CS", "-", "09", "-", "V1", "1.00", "3.45", "2", "270.91", "±", "93.71", "26", "11", "CS", "-", "13", "0.83", "2.17", "3", "323.00", "±", "95.33", "24", "6", "CS", "-", "02", "0.76", "2.82", "8", "534.06", "±", "217.31", "29", "17", "CS", "-", "11", "0.69", "3.38", "11", "469.77", "±", "214.46", "37", "13", "CS", "-", "14", "0.62", "3.31", "14", "320.54", "±", "260.34", "38", "13", "CS", "-", "07", "0.61", "2.65", "12", "496.83", "±", "169.05", "37", "23", "CS", "-", "03", "-", "V1", "0.60", "2.80", "4", "611.40", "±", "154.85", "27", "5", "CS", "-", "08", "0.58", "2.58", "9", "566.11", "±", "192.68", "37", "19", "CS", "-", "10", "0.58", "2.08", "6", "725.00", "±", "248.64", "23", "12", "CS", "-", "03", "-", "V2", "0.50", "2.67", "4", "594.67", "±", "237.38", "13", "6", "CS", "-", "06", "-", "V1", "0.50", "2.42", "3", "356.42", "±", "156.19", "12", "12", "CS", "-", "09", "-", "V2", "0.42", "3.00", "2", "254.00", "±", "148.28", "2", "12", "CS", "-", "04", "-", "V2", "0.17", "2.42", "5", "759.50", "±", "152.22", "22", "12", "CS", "-", "16", "0.14", "3.14", "7", "301.86", "±", "89.86", "16", "7", "CS", "-", "15", "0.14", "1.71", "5", "355.14", "±", "84.76", "17", "7", "CS", "-", "12", "0.14", "1.57", "5", "594.14", "±", "198.58", "36", "7", "CS", "-", "03", "-", "V3", "0.08", "1.75", "4", "625.33", "±", "250.79", "13", "12", "CS", "-", "06", "-", "V2", "0.00", "2.00", "3", "331.40", "±", "115.35", "12", "5", "Perceived", "Di", "culty", "Cyclomatic", "Complexity", "Number", "of", "Fixations", "Lines", "of", "Code", "Number", "of", "Participants", "Correctness", "Code", "Snippet", "ID", "Comprehension"],
+  "name": "1",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 431.03999999999996,
+    "y1": 106.56,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660795-Table1-1.png"
+}, {
+  "caption": "Fig. 3. Physical setup of the experiment. The participant (P) sat in front of the monitor (1) of the display PC (DISP) with their head stabilized by a chin and forehead rest (4). Their eye movements were recorded by a stationary video-based eye tracker (2). A keyboard (3) was placed on the desk for the participant to interact with the experiment. The participant was seated inside a noise-insulated booth (5) with an observation window (6) for the experiment instructor (INS) who controls the eye tracker via the HOST computer that is synchronized with the display computer DISP.",
+  "captionBoundary": {
+    "x1": 45.50510025024414,
+    "x2": 440.1764221191406,
+    "y1": 220.50563049316406,
+    "y2": 279.7380065917969
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Plan", "of", "eye-tracking", "booth", "and", "host", "(b)", "Inside", "the", "booth"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 435.35999999999996,
+    "y1": 84.0,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660795-Figure3-1.png"
+}, {
+  "caption": "Fig. 4. Model architecture. The architecture processes both the code and the corresponding eye movement sequence. The properties of the following building blocks are treated as hyperparameters: Neural Sequence Model, Code-Fixation A ention, Word Positional Embedding, Dimensionality Reduction, Pooling and Fully Connected Network. For more details, see Section 6.1 and Table 2.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.3940734863281,
+    "y1": 349.1156311035156,
+    "y2": 386.4309997558594
+  },
+  "figType": "Figure",
+  "imageText": ["Code-Fixation", "Attention", "...", "Fixation", "Sequence", "WordPiece", "TokenizationCode", "d", "Prediction", "Pooling", "Fully-Connected", "Network", "Neural", "Sequence", "Model", "def", "fibonacci", "...", "d)", "[SEP][CLS]", "def", "fib", "on", "...", ")", "[SEP][CLS]", "Merging", "Tokens", "Natural", "Language", "Programming", "Language", "Model", "Dimensionality", "Reduction", "Word", "Positional", "Embedding"],
+  "name": "4",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 439.2,
+    "y1": 84.96,
+    "y2": 326.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660795-Figure4-1.png"
+}, {
+  "caption": "Table 2. Hyperparameters tuned during nested cross-validation.",
+  "captionBoundary": {
+    "x1": 124.52299499511719,
+    "x2": 361.235595703125,
+    "y1": 413.0266418457031,
+    "y2": 417.4649963378906
+  },
+  "figType": "Table",
+  "imageText": ["Number", "of", "Fully-Connected", "Layers", "{1,", ".", ".", ".", "5}", "Number", "of", "FC", "Hidden", "Units", "{28", "for", "8", "∈", "[4,", ".", ".", ".", ",", "8]}", "Fixation-Code", "Attention", "Window", "{1,", "3,", "5", "}", "Pooling", "Type", "{Max,", "Average,", "Last", "Hidden", "State}", "Bottleneck", "Embedding", "{yes,", "no}", "Number", "of", "Sequence", "Layers", "{1,", ".", ".", ".", ",", "5}", "Number", "of", "Sequence", "Units", "{28", "for", "8", "∈", "[4,", ".", ".", ".", ",", "10]}", "Neural", "Sequence", "Model", "LSTM,", "BiLSTM", "Word", "Positional", "Embedding", "{yes,", "no}", "NL-PL", "model", "GraphCodeBERT,", "CodeBERT", "Hyperparameter", "Values"],
+  "name": "2",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 432.47999999999996,
+    "y2": 595.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660795-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Two code snippets having vastly di erent comprehensibility, but same cyclomatic complexity [11].",
+  "captionBoundary": {
+    "x1": 48.68980026245117,
+    "x2": 437.31048583984375,
+    "y1": 215.85862731933594,
+    "y2": 220.2969970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 75.84,
+    "y2": 201.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660795-Figure1-1.png"
+}, {
+  "caption": "Table 3. AUC results ± standard error. Using a one-tailed t-test, the asterisk * indicates values that are be er than random guessing (p-value < 0.05), while † indicates models that are significantly worse than best model for a se ing (two-tailed t-test, p-value < 0.05). We perform nested cross-validation.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.3340759277344,
+    "y1": 87.91563415527344,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Our", "(code)", "0.663±0.042*", "0.449±0.023†", "Our", "(", "xations)", "0.690±0.090*", "0.730±0.040*", "Our", "(bimodal)", "0.739±0.026*", "0.743±0.058*", "Harada", "et", "al.", "[33]", "0.699±0.019*", "0.632±0.115*", "Code", "Di", "culty", "Al", "Madi", "et", "al.", "[3]", "0.539±0.049†", "0.521±0.096†", "Perceived", "Fritz", "et", "al.", "[25]", "0.487±0.097†", "0.461±0.028†", "Our", "(code)", "0.742±0.064*", "0.513±0.061†", "Our", "(", "xations)", "0.746±0.031*", "0.616±0.040*", "Our", "(bimodal)", "0.746±0.021*", "0.675±0.050*", "Harada", "et", "al.", "[33]", "0.596±0.022*†", "0.595±0.066*†", "Comprehension", "Al", "Madi", "et", "al.", "[3]", "0.597±0.041†", "0.549±0.014*†", "Code", "Fritz", "et", "al.", "[25]", "0.522±0.006*†", "0.515±0.025†", "Model", "New", "Participant", "New", "Code", "Snippet"],
+  "name": "3",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 131.51999999999998,
+    "y2": 344.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660795-Table3-1.png"
+}]

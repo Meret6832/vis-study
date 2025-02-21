@@ -1,0 +1,281 @@
+[{
+  "caption": "Fig. 5. The process of encoding traces in two parts: status-related and structure-related.",
+  "captionBoundary": {
+    "x1": 81.20700073242188,
+    "x2": 404.7954406738281,
+    "y1": 224.12498474121094,
+    "y2": 229.32998657226562
+  },
+  "figType": "Figure",
+  "imageText": ["(1+1)*", "(763+544)", "m1", "Feature", "Extraction", "Feature", "Calculation", "Hierarchical", "Structure", "2", "3", "4", "1", "···", "Input", "Trace", "Data", "Trace", "Vector", "Related", "Sub", "Span", "Bag", "Span:", "4", "Node:", "C", "Duration:", "544", "Status:", "OK", "Method:", "SQL", "Annotation:", "{...}", "Span:", "3", "Node:", "C", "Duration:", "763", "Status:", "Error", "Method:", "SQL", "Annotation:", "{...}", "depth", "1", "depth", "2", "depth", "3", "m2", "m3", "···", "mn", "(C,", "SQLCon-", "nectionTime)", "(s4)", "(s2,", "s3)", "(s1)", "···", "763", "2614", "895", "1470", "Invocation", "Tree", "Span", "3", "Span", "4", "Span", "1", "Span", "2", "Span", "Bag", "Span:", "3", "Node:", "C", "Annotation:", "{...}", "Span:", "2", "Node:", "B", "Annotation:", "{...}", "Span:", "4", "Node:", "C", "Annotation:", "{...}", "Span:", "1", "Node:", "A", "Annotation:", "{...}"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 419.03999999999996,
+    "y1": 84.0,
+    "y2": 217.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure5-1.png"
+}, {
+  "caption": "Table 3. Comparison of the effects of different sampling approaches in downstream root cause analysis.",
+  "captionBoundary": {
+    "x1": 51.558998107910156,
+    "x2": 434.2001647949219,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["TraStrainer", "42.59", "45.16", "50.00", "77.74", "78.52", "82.26", "0.5509", "0.5889", "0.6556", "TraStrainer", "w/oM", "12.96", "16.67", "24.07", "42.59", "42.59", "55.56", "0.2994", "0.3241", "0.4012", "TraStrainer", "w/o", "D", "29.63", "42.59", "46.30", "74.04", "68.52", "72.22", "0.5228", "0.5463", "0.5509", "HC", "7.41", "18.52", "22.22", "27.78", "46.30", "51.85", "0.1954", "0.3398", "0.3731", "Sifter", "5.56", "18.52", "27.78", "23.42", "46.30", "61.11", "0.1605", "0.3414", "0.4358", "Sieve", "9.26", "25.83", "35.19", "20.37", "58.15", "62.96", "0.1657", "0.4246", "0.4963", "Random", "5.56", "16.67", "27.78", "20.37", "50.00", "61.11", "0.1571", "0.3423", "0.4352", "MicroRank", "TraStrainer", "55.56", "55.56", "58.06", "70.37", "85.19", "89.63", "0.6265", "0.7019", "0.7510", "TraStrainer", "w/oM", "18.52", "33.33", "35.19", "44.44", "55.56", "55.56", "0.3191", "0.4432", "0.4642", "TraStrainer", "w/o", "D", "24.07", "55.56", "55.56", "38.89", "81.48", "77.78", "0.3650", "0.6880", "0.6843", "HC", "9.26", "24.07", "24.07", "46.30", "62.96", "62.96", "0.2546", "0.4324", "0.4627", "Sifter", "8.67", "19.63", "25.19", "37.04", "55.56", "61.11", "0.2449", "0.4272", "0.4836", "Sieve", "18.52", "31.48", "38.89", "42.59", "51.85", "57.41", "0.3008", "0.4157", "0.4873", "Random", "7.41", "20.37", "29.63", "40.74", "61.11", "68.52", "0.2525", "0.4123", "0.4991", "TraceRCA", "TraStrainer", "46.30", "51.61", "54.84", "66.67", "79.19", "87.10", "0.5707", "0.6438", "0.7151", "TraStrainer", "w/oM", "11.67", "20.37", "22.22", "45.15", "51.85", "55.56", "0.2903", "0.3722", "0.4068", "TraStrainer", "w/o", "D", "12.96", "38.89", "44.44", "49.81", "77.78", "75.93", "0.3485", "0.5948", "0.6247", "HC", "9.26", "12.96", "18.52", "37.04", "42.59", "55.56", "0.2590", "0.3664", "0.3747", "Sifter", "11.67", "24.07", "16.67", "37.04", "57.41", "62.96", "0.2753", "0.4025", "0.4145", "Sieve", "8.81", "18.52", "29.63", "44.44", "53.70", "57.41", "0.2620", "0.3762", "0.4383", "Random", "10.71", "9.26", "16.67", "44.73", "57.41", "57.41", "0.2820", "0.3503", "0.3997", "TraceAnomaly", "A@1", "A@3", "MRR", "0.1%", "1.0%", "2.5%", "0.1%", "1.0%", "2.5%", "0.1%", "1.0%", "2.5%", "Sampling", "Approach", "RCA", "Approach"],
+  "name": "3",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 96.47999999999999,
+    "y2": 344.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Table3-1.png"
+}, {
+  "caption": "Fig. 1. The relationship between system runtime state and trace sampling preference.",
+  "captionBoundary": {
+    "x1": 85.33599853515625,
+    "x2": 400.66632080078125,
+    "y1": 202.25502014160156,
+    "y2": 207.46002197265625
+  },
+  "figType": "Figure",
+  "imageText": [".", ".", ".", "Server", "Becomes", "Unavailable", "SQL", "Connection", "Time", "The", "SQL", "Bias", "towards", "Traces", "Passing", "through", "Node", "A", "CpuUsage", "Shift", "in", "CpuUsage", "on", "Node", "A", "Sampling", "Pre-", "ference", "for", "Traces", "System", "Runtime", "State", "Req", "3Req", "1", "Req", "2", ".", ".", ".", "SQL", "Access", "Bias", "towards", "Traces", "Involving", "Req", "4"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 429.12,
+    "y1": 84.47999999999999,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure1-1.png"
+}, {
+  "caption": "Table 1. Experiment Datasets Overview.",
+  "captionBoundary": {
+    "x1": 168.80799865722656,
+    "x2": 316.9508972167969,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["112,000", "32", "56", "5.0%", "5.0%", "5", "TrainTicket", "B", "OnlineBoutique", "and", "909,797", "121", "62", "2.5%", "2.5%", "6", "Microservice", "systems", "A", "13", "Production", "Trace", "Number", "Metric", "Number", "Batch", "Number", "Uncommon", "Label", "Rate", "Problem-related", "Label", "Rate", "Fault", "Types", "Number", "Dataset", "Microservice", "Benchmark"],
+  "name": "1",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 96.47999999999999,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Table1-1.png"
+}, {
+  "caption": "Table 2. Comparison of the result diversity of different sampling approaches across different budget settings.",
+  "captionBoundary": {
+    "x1": 45.58599853515625,
+    "x2": 440.173583984375,
+    "y1": 87.14900970458984,
+    "y2": 92.35400390625
+  },
+  "figType": "Table",
+  "imageText": ["TraStrainer", "14.65", "95.87", "139.84", "153.61", "159.15", "14.34", "47.34", "53.42", "54.44", "54.44", "TraStrainer", "w/o", "M", "15.7", "101.54", "158.27", "162.40", "166.35", "14.92", "53.50", "54.44", "54.44", "54.44", "TraStrainer", "w/o", "D", "8.06", "28.53", "42.66", "55.26", "73.23", "6.05", "17.73", "23.03", "27.34", "32.45", "HC", "7.27", "28.11", "40.68", "52.77", "67.60", "9.04", "27.56", "33.86", "39.02", "41.84", "Sifter", "9.24", "44.31", "58.07", "74.23", "85.62", "12.05", "35.50", "43.85", "44.02", "45.06", "Sieve", "13.70", "98.24", "151.27", "155.10", "161.24", "13.70", "51.27", "54.44", "54.44", "54.44", "Random", "5.95", "28.03", "36.77", "48.42", "61.68", "6.61", "21.16", "27.77", "32.79", "37.56", "DataSet", "A", "DataSet", "B", "0.1%", "1.0%", "2.5%", "5.0%", "10.0%", "0.1%", "1.0%", "2.5%", "5.0%", "10.0%", "Approach"],
+  "name": "2",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 410.4,
+    "y1": 96.47999999999999,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Table2-1.png"
+}, {
+  "caption": "Fig. 9. Distribution of different APIs in the sampling results.",
+  "captionBoundary": {
+    "x1": 132.2030029296875,
+    "x2": 353.7985534667969,
+    "y1": 401.2760009765625,
+    "y2": 406.4809875488281
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 420.47999999999996,
+    "y1": 192.95999999999998,
+    "y2": 398.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure9-1.png"
+}, {
+  "caption": "Fig. 2. Trace data and system metrics.",
+  "captionBoundary": {
+    "x1": 172.6320037841797,
+    "x2": 313.3685607910156,
+    "y1": 192.15797424316406,
+    "y2": 197.36297607421875
+  },
+  "figType": "Figure",
+  "imageText": ["TraceID:", "351", "SpanID:", "3", "Callee:", "svcc-01", "Annotations:", "{...}", "Event6", "Event3", "Event4", "Event1", "（Node", "B,", "LatencyP50）", "（Node", "A,", "CpuUsage）", "Time", "e", "Va", "lu", "Time", "e", "Va", "lu", "EventAnnotations", "Events:", "TimeStamp,", "Duration,", "TraceID:", "351", "SpanID:", "4", "Callee:", "svcc-02", "Annotations:", "{...}", "TraceID:", "351", "SpanID:", "2", "Callee:", "svcb-01", "Annotations:", "{...}", "TraceID:", "351", "SpanID:", "1", "Callee:", "svca-01", "Annotations:", "{...}", "(a)", "Distributed", "Trace", "Data", "(b)", "System", "Metrics", "Spans:", "TraceID,", "SpanID,", "Callee,", "Annotations", "Node/Pod,", "Metric", "Type,", "Value,", "TimeStamp"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 420.47999999999996,
+    "y1": 84.0,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure2-1.png"
+}, {
+  "caption": "Fig. 8. Proportions of uncommon, related, and uncommon-related traces sampled by different approaches across different budget settings in two datasets. the budget is around the label rate (2.5% in dataset A and 5% in B), TraStrainer’s proportion is lower than Sieve. This is because, in addition to bias towards uncommon traces, TraStrainer also exhibits a bias towards problem-related traces, which include some common traces. When the budget exceeds twice the label rate, both TraStrainer and Sieve achieve a proportion of 1, meaning all uncommon traces are captured.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.1763610839844,
+    "y1": 342.43902587890625,
+    "y2": 422.5409851074219
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 320.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure8-1.png"
+}, {
+  "caption": "Fig. 6. An example of assessing the anomaly degree of metrics.",
+  "captionBoundary": {
+    "x1": 127.0780029296875,
+    "x2": 358.9222106933594,
+    "y1": 198.86000061035156,
+    "y2": 204.06500244140625
+  },
+  "figType": "Figure",
+  "imageText": ["Linear", "Model", "Metric", "3", "pn", "p3", "p2", "p1", "Preference", "Vector", "Anomaly", "Degree", "α", "···", "Linear", "Model", "Expected", "Value", "vk'", "Trend", "Remainder", "Look-back", "Window", "Current", "Value", "vk"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 84.96,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure6-1.png"
+}, {
+  "caption": "Fig. 3. An example of the importance of system runtime state in trace sampling preferences setting.",
+  "captionBoundary": {
+    "x1": 59.611000061035156,
+    "x2": 426.3905029296875,
+    "y1": 198.6010284423828,
+    "y2": 203.8060302734375
+  },
+  "figType": "Figure",
+  "imageText": ["a", "b", "a", "b", "a", "b", "Sampler", "with", "System", "Status", "(b)", "Comparison", "of", "problem-related", "traces", "sample", "probability", "of", "samplers", "without", "and", "with", "system", "status(a)", "The", "two", "phases", "during", "the", "occurrence", "of", "an", "issue.", "①", "②", "Time", "Time", "Time", "Traces", "Sample", "Probability", "Sampler", "w/o", "System", "StatusProblem-related", "Node", "A", "CPU", "Utilization", "Phase", "②", ":", "Issue", "Exposed", "Phase", "①", ":", "Issue", "Arised", ".", ".", ".", ".", ".", ".", "CPU", "Utilization", "at", "Full", "Capacity", "Node", "A", "CPU", "Utilization", "Increased", "Node", "A"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 425.28,
+    "y1": 84.96,
+    "y2": 190.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure3-1.png"
+}, {
+  "caption": "Fig. 11. Efficiency Validation of TraStrainer.",
+  "captionBoundary": {
+    "x1": 162.83200073242188,
+    "x2": 323.1685791015625,
+    "y1": 195.7630157470703,
+    "y2": 200.968017578125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 441.12,
+    "y1": 84.0,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure11-1.png"
+}, {
+  "caption": "Fig. 7. The process of the dynamic voting mechanism that takes the budget into account to combine the sampling results from the two previous samplers.",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.17352294921875,
+    "y1": 220.33299255371094,
+    "y2": 236.49700927734375
+  },
+  "figType": "Figure",
+  "imageText": ["Current", "Sampling", "Rate", "θ", ",", "Budget", "Sampling", "Rate", "β", "Diversity", "Biased", "System", "Biased", "Trace", "tk+1", "Look-back", "Window", "Coming", "Sampling", "Decision", "N", "Y", "θ", ">", "β", "AND", "/", "OR", "Gate", "Sampling", "Result", "Sampling", "Result", "pd(tk+1)", "Sampling", "Probability", "ps", "(tk+1)", "Sampling", "Probability", "···", "f(n+m)(k+1)", "f(n+1)(k+1)", "···", "fnk+1", "f1k+1", "·", "·", "·", "·", "·", "·", "f(n+m)1", "···", "···", "···f(n+1)1", "···", "f(n+m)k", "f(n+1)k", "fn1", "···", "···", "···f11", "···", "fnk", "f1k"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 84.96,
+    "y2": 204.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure7-1.png"
+}, {
+  "caption": "Fig. 4. An overview of TraStrainer.",
+  "captionBoundary": {
+    "x1": 180.1230010986328,
+    "x2": 305.8765869140625,
+    "y1": 181.15101623535156,
+    "y2": 186.35601806640625
+  },
+  "figType": "Figure",
+  "imageText": ["···", "Sample", "Result", "Discard", "Storage", "Budget", "Sampling", "Rate", "System-", "Biased", "Result", "Biased", "Result", "Stucture-Related", "Features", "Diversity-", "System-Related", "Features", "Preference", "Vector", "Coming", "Trace", "···", "Runtime", "Status", "m1", "···", "Trace", "Encoder", "System", "Bias", "Extractor", "Diversity-Biased", "Sampler", "System-Biased", "Sampler", "[p1,", "...,", "pn]", "Tk", "T1", "Look-back", "Window", "Tk+1", "Composite", "Sampler", "Metric", "Keys", "mn", "·", "·", "·", "·", "·", "·", "···", "···", "···", "···", "···", "···", "···", "···", "···", "···"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 84.96,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure4-1.png"
+}, {
+  "caption": "Fig. 10. Distribution of different APIs in the sampling results of different variants.",
+  "captionBoundary": {
+    "x1": 92.49500274658203,
+    "x2": 393.5060729980469,
+    "y1": 166.1189727783203,
+    "y2": 171.323974609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 420.47999999999996,
+    "y1": 84.0,
+    "y2": 156.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643748-Figure10-1.png"
+}]

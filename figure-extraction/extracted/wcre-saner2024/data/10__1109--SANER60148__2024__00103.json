@@ -1,0 +1,181 @@
+[{
+  "caption": "TABLE I TASKS FOR APP 2. SERVICE NAMES AND NUMBER OF CONNECTIONS SLIGHTLY DIFFER FOR APP 1.",
+  "captionBoundary": {
+    "x1": 154.31936645507812,
+    "x2": 461.1596374511719,
+    "y1": 75.93029022216797,
+    "y2": 87.65277099609375
+  },
+  "figType": "Table",
+  "imageText": ["1", "What", "is", "the", "port", "number", "of", "the", "microservice", "gateway", "server?", "2", "What", "library", "is", "used", "to", "implement", "the", "API", "Gateway", "(service", "gateway", "server)?", "3", "There", "are", "two", "outgoing", "connections", "from", "the", "service", "customer", "service.", "To", "which", "services", "are", "they", "connected?", "4", "Are", "these", "outgoing", "connections", "encrypted,", "i.e.,", "sent", "with", "HTTPS?", "5", "Do", "all", "business", "logic", "services", "check", "whether", "incoming", "requests", "are", "authorized", "/", "authenticated?", "6", "Which", "service", "handles", "the", "authorization?", "ID", "Task", "Description"],
+  "name": "I",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 114.72,
+    "x2": 499.2,
+    "y1": 91.67999999999999,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-TableI-1.png"
+}, {
+  "caption": "Fig. 3. Participants’ (a) programming skills, (b) experience in reading Java code, and (c) work experience as developers. All self-reported.",
+  "captionBoundary": {
+    "x1": 98.07086944580078,
+    "x2": 519.2448120117188,
+    "y1": 272.78057861328125,
+    "y2": 276.23980712890625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)", "(c)"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 535.1999999999999,
+    "y1": 169.92,
+    "y2": 265.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure3-1.png"
+}, {
+  "caption": "Fig. 1. Example DFD provided to participants in model-supported condition.",
+  "captionBoundary": {
+    "x1": 314.15985107421875,
+    "x2": 545.5100708007812,
+    "y1": 439.305419921875,
+    "y2": 442.7646484375
+  },
+  "figType": "Figure",
+  "imageText": ["--feign_connection--", "--load_balanced_link--", "'Load", "Balancer':", "Ribbon", "--restful_http--", "--authenticated_request--", "--restful_http--", "--restful_http--", "Username:", "oauth2", "Password:", "oauth2", "--jdbc--", "--plaintext_credentials_link--", "Database:", "MySQL", "Username:", "oauth2", "Password:", "oauth2", "--plaintext_credentials--", "--tokenstore--", "--external_database--", "--entrypoint--", "--exitpoint--", "External", "Entity:", "database_auth_server", "--restful_http--", "--auth_provider--", "Pre-authorized", "Endpoints:", "['/{id}']", "Port:", "8083", "--resource_server--", "--local_logging--", "--internal--", "--pre_authorized_endpoints--", "Process:", "customer_service", "--restful_http--", "--auth_provider--", "--restful_http--", "--restful_http--", "--authenticated_request--", "'Password':", "default", "'Username':", "default", "--jdbc--", "--plaintext_credentials_link--", "--plaintext_credentials--", "Database:", "MySQL", "Password:", "default", "Username:", "default", "--external_database--", "--entrypoint--", "--exitpoint--", "External", "Entity:", "database_gateway_server", "--restful_http--", "Port:", "8082", "--resource_server--", "Pre-authorized", "Endpoints:", "['/{id}',", "'/']", "--internal--", "--pre_authorized_endpoints--", "Process:", "account_service", "--restful_http--", "--auth_provider--", "Authorization", "Server:", "Spring", "OAuth2", "Port:", "9999", "--infrastructural--", "--resource_server--", "--token_server--", "--local_logging--", "--authorization_server--", "--encryption--", "--restful_http--", "Process:", "auth_server", "External", "Entity:", "user", "--user_stereotype--", "--entrypoint--", "--exitpoint--", "--restful_http--", "Load", "Balancer:", "Ribbon", "Password:", "password", "Port:", "8765", "--authentication_scope_all_requests--", "--load_balancer--", "Gateway:", "Zuul", "Username:", "root", "--plaintext_credentials--", "--infrastructural--", "--gateway--", "--in_memory_authentication--", "Process:", "gateway_server", "Service", "Discovery:", "Eureka", "Port:", "8761", "--service_discovery--", "--infrastructural--", "Process:", "discovery_server"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 531.36,
+    "y1": 75.84,
+    "y2": 431.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure1-1.png"
+}, {
+  "caption": "Fig. 2. Screenshots of an example traceability information for the annotation authorization server (top) and the target of the URL (bottom).",
+  "captionBoundary": {
+    "x1": 314.1598815917969,
+    "x2": 545.5093994140625,
+    "y1": 542.3358154296875,
+    "y2": 554.05712890625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 527.04,
+    "y1": 449.76,
+    "y2": 535.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure2-1.png"
+}, {
+  "caption": "Fig. 8. Average scores in the correctness of evidence of those participants that reported using an artefact in more than 50% of the tasks (Using Artefact) and those that reported using it less (Not Using Artefact).",
+  "captionBoundary": {
+    "x1": 314.6094055175781,
+    "x2": 545.9588623046875,
+    "y1": 443.376220703125,
+    "y2": 463.3604431152344
+  },
+  "figType": "Figure",
+  "imageText": ["Source", "code", "Application", "artefact", "+315%", "+15%", "-20%", "Maximum", "achievable", "score", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", "Not", "UsingNot", "Using", "Traceability", "informationDataflow", "Diagram", "ce", "id", "en", "o", "f", "ev", "ne", "ss", "re", "ct", "C", "or", "Using", "UsingUsingNot", "Using"],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 542.4,
+    "y1": 274.56,
+    "y2": 436.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure8-1.png"
+}, {
+  "caption": "Fig. 6. Reported usage of provided artefacts per task (in the model-supported condition, where all artefacts were available).",
+  "captionBoundary": {
+    "x1": 64.70809936523438,
+    "x2": 296.0574035644531,
+    "y1": 205.62347412109375,
+    "y2": 217.34521484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 70.56,
+    "x2": 290.4,
+    "y1": 74.88,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure6-1.png"
+}, {
+  "caption": "Fig. 7. Average scores in analysis correctness of those participants that reported using an artefact in more than 50% of the tasks (Using Artefact) and those that reported using it less (Not Using Artefact).",
+  "captionBoundary": {
+    "x1": 314.609375,
+    "x2": 545.9588012695312,
+    "y1": 241.28668212890625,
+    "y2": 261.27093505859375
+  },
+  "figType": "Figure",
+  "imageText": ["+23%", "Maximum", "achievable", "score", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", "-17%", "+12%", "s", "tn", "es", "rr", "ec", "s", "co", "ly", "si", "A", "na", "Not", "Using", "Using", "Dataflow", "diagram", "Not", "Using", "Using", "Traceability", "information", "Application", "artefact", "Not", "Using", "Using", "Source", "code"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 542.4,
+    "y1": 74.88,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure7-1.png"
+}, {
+  "caption": "Fig. 4. Comparison across the two treatments of the participants’ average score in analysis correctness. Per task and overall.",
+  "captionBoundary": {
+    "x1": 315.3357238769531,
+    "x2": 546.685791015625,
+    "y1": 205.62689208984375,
+    "y2": 217.3486328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 542.4,
+    "y1": 74.88,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure4-1.png"
+}, {
+  "caption": "Fig. 5. Comparison across the two treatments of the participants’ average score in correctness of evidence. Per task and overall.",
+  "captionBoundary": {
+    "x1": 315.3357238769531,
+    "x2": 546.685791015625,
+    "y1": 357.18035888671875,
+    "y2": 368.902099609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 542.4,
+    "y1": 225.6,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/wcre-saner2024/figures/10_1109-SANER60148_2024_00103-Figure5-1.png"
+}]

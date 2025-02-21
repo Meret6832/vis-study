@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 4: Pipeline of the retrieval model.",
+  "captionBoundary": {
+    "x1": 224.052001953125,
+    "x2": 387.94140625,
+    "y1": 256.7743835449219,
+    "y2": 262.405029296875
+  },
+  "figType": "Figure",
+  "imageText": ["Minimize", "Similarity", "Minimize", "Similarity", "Maximize", "Similarity", "Sampled", "Code", "Graph", "Augment", "Code", "Graph", "Max-pooling", "Two-layer", "AST", "MGAB", "Global", "&", "Memory", "Attention", "Neighborhood", "Attention", "Source", "Code", "Graph"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 556.3199999999999,
+    "y1": 84.96,
+    "y2": 239.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Completion model: stage of information propagation and node prediction.",
+  "captionBoundary": {
+    "x1": 136.4510040283203,
+    "x2": 475.5361328125,
+    "y1": 511.8033142089844,
+    "y2": 517.4339599609375
+  },
+  "figType": "Figure",
+  "imageText": ["Memory", "Field", "References", "Field", "Information", "Propagation", "Node", "Prediction", "Token", "Loss", "Type", "Loss", "Generator", "Generator", "Token", "Aggregation", "Type", "Aggregation", "?", "?", "AST", "MGAB", "*", "N", "Classifier", "?", "Source", "Code", "Graph"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 557.28,
+    "y1": 277.92,
+    "y2": 492.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Completion model: stage of edge prediction.",
+  "captionBoundary": {
+    "x1": 197.7310028076172,
+    "x2": 414.25982666015625,
+    "y1": 641.5333251953125,
+    "y2": 647.1640014648438
+  },
+  "figType": "Figure",
+  "imageText": ["Edges", "Prediction", "Stage", "UNK", "UNK", "UNK", "UNK", "UNKUNK", "UNK", "50%UNK", "UNK", "UNKUNK", "30%", "20%", "match", "b", "Last", "use:4", "a", "b"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 556.3199999999999,
+    "y1": 530.4,
+    "y2": 625.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Figure6-1.png"
+}, {
+  "caption": "Figure 1: An example of AST-level code completion. According to the preorder traversal, the next node (marked with ?) is predicted based on all previous ones.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6366271972656,
+    "y1": 270.9553527832031,
+    "y2": 298.5039978027344
+  },
+  "figType": "Figure",
+  "imageText": ["Member", "Reference", "i", "++", "Member", "Reference", "PASSWORD_LENGTH", "Member", "Reference", "i", "Binary", "Operation", "<", "Literal", "0", "Variable", "Declarator", "i", "Basic", "Type", "int", "Variable", "Declaration", "EMPTY", "?", "?", "ForControl", "EMPTY", "ForStatement", "EMPTY"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 289.44,
+    "y1": 89.75999999999999,
+    "y2": 247.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An example of a heterogeneous code graph corresponding to the homogeneous code graph in Fig. 1.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.8004150390625,
+    "y1": 365.6323547363281,
+    "y2": 382.22198486328125
+  },
+  "figType": "Figure",
+  "imageText": ["?", "i", "++", "Member", "Reference", "i", "PASSWORD_LENGTH", "<", "Member", "Reference", "Member", "Reference", "Binary", "Operation", "0", "i", "Literal", "Variable", "Declaration", "int", "Basic", "Type", "Variable", "Declaration", "ForControl", "TokenTypeForStatement", "Child", "InField", "NextUse"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 553.4399999999999,
+    "y1": 200.64,
+    "y2": 349.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Figure2-1.png"
+}, {
+  "caption": "Table 1: Results of ReGCC and Baselines",
+  "captionBoundary": {
+    "x1": 223.79196166992188,
+    "x2": 387.9055480957031,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ReGCC", "80.8%", "87.4%", "83.7%", "87.8%", "86.7%", "90.0%", "75.1%", "82.0%", "77.0%", "82.1%", "76.8%", "82.3%", "CC-GGNN", "64.1%", "78.8%", "67.9%", "81.1%", "70.5%", "83.3%", "63.3%", "78.4%", "65.7%", "81.3%", "66.9%", "81.6%", "OPT", "67.8%", "86.4%", "75.6%", "87.6%", "79.0%", "87.9%", "62.1%", "81.9%", "67.4%", "82.0%", "68.9%", "82.3%", "Transformer-XL", "59.2%", "72.1%", "62.8%", "74.1%", "66.4%", "76.2%", "55.1%", "72.5%", "58.2%", "73.2%", "60.0%", "72.4%", "CCAG", "62.8%", "75.7%", "66.7%", "78.6%", "68.2%", "80.1%", "61.9%", "76.7%", "63.2%", "80.9%", "64.2%", "75.3%", "VanillaLSTM", "53.2%", "69.5%", "58.0%", "71.2%", "59.7%", "72.1%", "50.0%", "68.1%", "52.7%", "68.9%", "53.7%", "69.1%", "ParentLSTM", "56.5%", "72.0%", "61.5%", "73.5%", "63.4%", "74.2%", "52.6%", "70.1%", "55.9%", "76.3%", "56.9%", "71.0%", "PointerMixtureNet", "56.5%", "72.0%", "62.3%", "74.3%", "64.1%", "76.0%", "53.0%", "70.0%", "56.9%", "76.9%", "57.2%", "70.9%", "Transformer", "58.4%", "73.3%", "63.9%", "74.8%", "65.3%", "75.9%", "53.5%", "70.6%", "57.5%", "71.5%", "59.1%", "71.9%", "JS1K", "JS10K", "JS50K", "PY1K", "PY10K", "PY50K", "value", "type", "value", "type", "value", "type", "value", "type", "value", "type", "value", "type"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 535.1999999999999,
+    "y1": 108.0,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Table1-1.png"
+}, {
+  "caption": "Figure 3: AST MGAB with triple attention.",
+  "captionBoundary": {
+    "x1": 220.44700622558594,
+    "x2": 391.54510498046875,
+    "y1": 217.54037475585938,
+    "y2": 223.1710205078125
+  },
+  "figType": "Figure",
+  "imageText": ["+", "+", "+", "Reference", "Attention", "Global", "&", "Memory", "Attention", "Heterogeneous", "Code", "Graph", "Neighborhood", "Attention"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 57.12,
+    "x2": 556.3199999999999,
+    "y1": 88.8,
+    "y2": 198.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Figure3-1.png"
+}, {
+  "caption": "Table 2: Results of Ablation Study",
+  "captionBoundary": {
+    "x1": 237.23300170898438,
+    "x2": 374.4665222167969,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ReGCC", "80.8%", "87.4%", "83.7%", "87.8%", "86.7%", "90.0%", "75.1%", "82.0%", "77.0%", "82.1%", "76.8%", "82.3%", "-na", "77.8%", "84.2%", "80.5%", "84.6%", "81.7%", "85.2%", "72.1%", "79.0%", "72.8%", "79.3%", "71.0%", "79.2%", "-gma", "75.1%", "81.1%", "76.3%", "80.7%", "77.5%", "82.2%", "69.9%", "76.2%", "69.4%", "76.7%", "70.3%", "77.9%", "-ra", "73.9%", "80.2%", "79.4%", "83.4%", "75.2%", "80.6%", "72.5%", "79.1%", "72.4%", "79.2%", "73.7%", "80.3%", "-ep", "73.5%", "87.4%", "80.5%", "87.8%", "85.1%", "90.0%", "67.1%", "82.0%", "72.1%", "82.1%", "73.4%", "82.3%", "JS1K", "JS10K", "JS50K", "PY1K", "PY10K", "PY50K", "value", "type", "value", "type", "value", "type", "value", "type", "value", "type", "value", "type"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 68.64,
+    "x2": 541.4399999999999,
+    "y1": 108.0,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/iwpc-icpc2024/figures/10_1145-3643916_3644420-Table2-1.png"
+}]

@@ -1,0 +1,181 @@
+[{
+  "caption": "Fig. 1. An overview of the prompts used in the study. To answer RQ1, we used Prompt 1 to generate assumptions for each paper and evaluated them in a user study. To answer RQ2, we used Prompt 2 to create an analysis plan and evaluated it in a user study. We also used Prompt 3 to create the code modules of the analysis plan and evaluated it in a code review workshop. The prompts in the figure are only summaries of the actual ones; for the complete prompts, see the supplemental materials [43].",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.17333984375,
+    "y1": 308.6258544921875,
+    "y2": 356.6940002441406
+  },
+  "figType": "Figure",
+  "imageText": ["RQ2", "RQ1", "GPT-4", "Prompt", "1", "GPT-4", "Prompt", "2", "GPT-4", "Prompt", "3", "📝", "</>", "💭", "📄", "Papers", "(7x)", "User", "study", "evaluation", "User", "study", "evaluation", "Code", "review", "workshop", "[Role]: ", " ", "-", "SE", "Researcher", "[Skills]:", "-", "SE", "replication", "-", "Handling", "GitHub", "data", "[Info]: ", " ", "-", "Methodology", "section", "from", "paper", "[Request]:", "-", "Return", "assumptions", "as", "JSON", "[Role]: ", " ", "-", "SE", "Researcher", "[Skills]:", "-", "SE", "-", "Handling", "GitHub", "data", "-", "MySQL", "[Info]: ", " ", "-", "Database", "of", "Git/GitHub", "data", "-", "Module", "speciﬁcation", "from", "an", "analysis", "plan", "[Request]:", "-", "Write", "Python", "to", "replicate", "analysis", "and", "output", "JSON", "ﬁle", "Code", "(23x)", "[Role]: ", " ", "-", "SE", "Researcher", "[Skills]:", "-", "SE", "replication", "-", "Handling", "GitHub", "data", "[Info]: ", " ", "-", "Methodology", "section", "from", "paper", "[Request]:", "-", "Split", "methodology", "into", "code", "modules", "that", "generate", "code", "pipeline", "to", "replicate", "study", "-", "Write", "speciﬁcations", "as", "JSON", "Assumptions", "(111x)", "Analysis", "Plans", "(7x)"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 430.08,
+    "y1": 85.44,
+    "y2": 290.88
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Figure1-1.png"
+}, {
+  "caption": "Fig. 6. The distribution of participants’ scoring of the GPT-4-generated analysis plans by correctness (le ), as well as individual modules by correctness (middle) and descriptiveness (right), for all papers.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.15753173828125,
+    "y1": 193.52584838867188,
+    "y2": 208.71701049804688
+  },
+  "figType": "Figure",
+  "imageText": ["CorrectIncorrect", "DescriptiveNot", "descriptiveCorrectIncorrect", "Correctness", "(Plan)", "3", "18", "6", "1", "2", "3", "18", "13.5", "9", "4.5", "0", "t", "u", "n", "C", "o", "Correctness", "(Module)", "55", "76", "67", "1", "2", "3", "80", "60", "40", "20", "0", "Descriptiveness", "(Module)", "13", "9", "32", "21", "12", "1", "2", "3", "4", "5", "40", "30", "20", "10", "0"],
+  "name": "6",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 435.84,
+    "y1": 92.64,
+    "y2": 176.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Figure6-1.png"
+}, {
+  "caption": "Fig. 2. Example GPT-4 generated assumption, given the methodology from Fregnan et al. [22]. Assumptions",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1690673828125,
+    "y1": 157.58383178710938,
+    "y2": 161.81597900390625
+  },
+  "figType": "Figure",
+  "imageText": ["2", "1", "Description:", "The", "assumption", "that", "the", "number", "of", "lines", "added/deleted,", "whether", "the", "ﬁle", "is", "a", "test,", "and", "the", "number", "of", "commenters", "are", "the", "main", "confounding", "factors", "inﬂuencing", "the", "number", "of", "comments", "a", "ﬁle", "receives.", "There", "may", "be", "other", "unconsidered", "factors,", "such", "as", "the", "complexity", "of", "the", "changes,", "the", "expertise", "of", "the", "reviewers,", "or", "the", "clarity", "of", "the", "code.", "Name:", "Confounding", "Factors"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 425.28,
+    "y1": 87.84,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Figure2-1.png"
+}, {
+  "caption": "Fig. 3. Example GPT-4 generated module, given the methodology from Guzman et al. [27]. Modules contain",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1729736328125,
+    "y1": 306.98583984375,
+    "y2": 311.2179870605469
+  },
+  "figType": "Figure",
+  "imageText": ["5", "4", "3", "2", "1", "Methodology", "text:", "We", "extracted", "our", "analysis", "data", "from", "the", "dataset", "provided", "by", "Gousios", "[2],", "this", "dataset", "includes", "90", "of", "the", "10-top", "starred", "software", "projects", "for", "the", "top", "programming", "languages", "on", "Github.", "We", "analyzed", "a", "total", "60425", "commit", "comments.", "Outputs:", "Extracted", "commit", "comments", "Inputs:", "None", "Description:", "This", "module", "is", "responsible", "for", "extracting", "the", "required", "data", "from", "the", "dataset", "provided", "by", "Gousios.", "The", "data", "includes", "commit", "comments", "from", "90", "of", "the", "top-starred", "software", "projects", "for", "the", "top", "programming", "languages", "on", "Github.", "Name:", "Data", "Extraction"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 432.47999999999996,
+    "y1": 180.95999999999998,
+    "y2": 290.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Figure3-1.png"
+}, {
+  "caption": "Table 3. An overview of the grading rubrics to score the GPT-4-generated assumptions, analysis plans, and code modules to replicate empirical so ware engineering papers. Correctness is graded on a scale of 1 to 3. Other constructs are graded on scale of 1 to 5. The full rubrics are included in the supplemental materials [43].",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.55657958984375,
+    "y1": 80.1518325805664,
+    "y2": 106.301025390625
+  },
+  "figType": "Table",
+  "imageText": ["5", "Clearly", "describes", "the", "exact", "steps", "to", "follow", "for", "someone", "to", "run", "the", "analysis", "on", "their", "own.", "descriptiveness", "1", "Is", "unintelligible", "or", "too", "vague", "for", "someone", "to", "run", "the", "analysis", "on", "their", "own.", "1", "Describes", "a", "set", "of", "actions", "that", "should", "not", "be", "performed", "for", "the", "analysis", "pipeline.", "2", "Describes", "a", "set", "of", "actions", "that", "can", "partially", "be", "performed", "for", "the", "analysis", "pipeline.", "3", "Describes", "a", "set", "of", "actions", "that", "should", "be", "performed", "for", "the", "analysis", "pipeline.", "correctness", "Module", "1", "Cannot", "be", "used", "to", "repeat", "the", "study", "at", "all", "on", "a", "new", "set", "of", "data.", "2", "Can", "be", "partially", "used", "to", "repeat", "parts", "of", "the", "study", "on", "a", "new", "set", "of", "data.", "3", "Can", "be", "used", "as-is", "to", "repeat", "the", "study", "on", "a", "new", "set", "of", "data.", "correctness", "Analysis", "plan", "5", "Re", "ects", "a", "deep", "understanding", "of", "software", "engineering", "research", "methods", "or", "data.", "insightfulness", "1", "Does", "not", "re", "ect", "an", "understanding", "of", "software", "engineering", "research", "methods", "or", "data.", "5", "Must", "be", "considered", "to", "successfully", "repeat", "the", "analysis", "on", "a", "new", "set", "of", "data.", "relevance", "1", "Does", "not", "need", "to", "be", "considered", "at", "all", "to", "successfully", "repeat", "the", "analysis", "on", "a", "new", "set", "of", "data.", "1", "Does", "not", "make", "the", "following", "assumption.", "2", "Partially", "makes", "the", "following", "assumption.", "3", "Does", "make", "the", "following", "assumption.", "correctness", "Construct", "Rating", "&", "Description", "Assumptions"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 120.96,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Table3-1.png"
+}, {
+  "caption": "Fig. 4. Example GPT-4 generated code, given the module specification from the analysis plan for Pletea et al.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.5525817871094,
+    "y1": 285.6478576660156,
+    "y2": 289.8800048828125
+  },
+  "figType": "Figure",
+  "imageText": ["1", "import", "json", "2", "import", "nltk", "3", "from", "nltk.sentiment", "import", "SentimentIntensityAnalyzer", "4", "from", "nltk", "import", "download", "5", "download('vader_lexicon')", "6", "7", "#", "Load", "the", "comments", "8", "with", "open('./outputs/identification_of_security-related_comments_and_discussions.json',", "'r')", "as", "file:", "10", "comments", "=", "json.load(file)", "11", "12", "#", "Initialize", "the", "sentiment", "analyzer", "13", "sia", "=", "SentimentIntensityAnalyzer()", "14", "15", "#", "Perform", "sentiment", "analysis", "on", "each", "comment", "16", "sentiment_analysis_results", "=", "[]", "17", "for", "comment", "in", "comments:", "18", "sentiment", "=", "sia.polarity_scores(comment)", "19", "sentiment_analysis_results.append({", "20", "'comment':", "comment,", "21", "'sentiment':", "sentiment", "22", "})", "23", "24", "#", "Save", "the", "sentiment", "analysis", "results", "to", "a", "JSON", "file", "25", "with", "open('./outputs/sentiment_analysis.json',", "'w')", "as", "file:", "26", "json.dump(sentiment_analysis_results,", "file,", "indent=4)", "1", "2"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 86.88,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Figure4-1.png"
+}, {
+  "caption": "Table 1. A summary of the papers selected for GPT-4 to generate assumptions, analysis plans, and code. We report each paper’s venue, number of citations in the ACM Digital Library, and a brief description of the paper’s analysis. We also report number of assumptions and modules generated by GPT-4.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 440.1733093261719,
+    "y1": 80.1518325805664,
+    "y2": 106.301025390625
+  },
+  "figType": "Table",
+  "imageText": ["18", "3", "authors", "then", "train", "two", "classi", "ers", "to", "classify", "commit", "mes-", "sages", "with", "\"what\"", "and", "\"why\"", "information", "with", "various", "types", "of", "machine", "learning", "models.", "[59]", "ICSE’22", "5", "Analysis", "of", "commit", "messages", "on", "large", "GitHub", "projects.", "The", "16", "3", "Java", "projects.", "The", "authors", "use", "a", "Hurdle", "model", "to", "understand", "the", "impact", "of", "le", "position", "during", "code", "review", "on", "number", "of", "comments", "it", "receives.", "[22]", "ESEC/FSE’22", "1", "Analysis", "of", "review", "comments", "in", "pull", "requests", "on", "popular", "13", "3", "commits", "and", "pull", "requests.", "The", "authors", "lter", "for", "security-", "related", "comments", "through", "keyword", "search", "and", "then", "per-", "form", "sentiment", "analysis", "using", "nltk.", "[51]", "MSR’14", "103", "Analysis", "of", "the", "sentiment", "in", "security-related", "comments", "on", "14", "2", "GitHub.", "The", "authors", "use", "sentistrength", "to", "analyze", "com-", "mits", "of", "popular", "GitHub", "repositories.", "[27]", "MSR’14", "168", "Analysis", "of", "sentiments", "expressed", "in", "commit", "comments", "on", "15", "4", "vious", "version", "for", "each", "of", "the", "changed", "lines.", "xing", "commits,", "identify", "lines", "that", "changed", "in", "each", "bug-", "xing", "commit,", "and", "nd", "the", "commit", "responsible", "for", "the", "pre-", "[17]", "MSR’11", "111", "Analysis", "of", "bug-", "xing", "commits.", "The", "authors", "nd", "all", "bug-", "17", "4", "projects", "on", "GitHub.", "The", "authors", "identify", "performance-", "related", "issues", "and", "lter", "the", "issues", "to", "a", "set", "of", "changes", "that", "result", "in", "statistically", "signi", "cant", "performance", "improvements.", "[57]", "ICSE’16", "85", "Analysis", "of", "performance-related", "issues", "of", "JavaScript", "18", "4", "open-source", "projects.", "The", "authors", "identify", "bug", "x", "revisions", "and", "bug-introducing", "changes", "and", "use", "Change", "Distiller", "[19]", "to", "compute", "syntactic", "program", "di", "erences.", "[36]", "ICSE’11", "94", "Analysis", "of", "API-level", "refactorings", "and", "bug", "xes", "in", "large", "Paper", "Venue", "Citations", "Analysis", "Description", "Assumps.", "Modules", "#", "of", "GPT-4", "Generated"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 442.08,
+    "y1": 120.96,
+    "y2": 452.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Table1-1.png"
+}, {
+  "caption": "Fig. 5. The distribution of participants’ scoring of the GPT-4-generated assumptions by correctness (le ), relevance (middle), and insightfulness (right) for all papers.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.15936279296875,
+    "y1": 193.52584838867188,
+    "y2": 208.71701049804688
+  },
+  "figType": "Figure",
+  "imageText": ["CorrectIncorrect", "RelevantNot", "relevant", "InsightfulNot", "insightful", "Correctness", "52", "89", "226", "1", "2", "3", "300", "225", "150", "75", "0", "C", "o", "u", "n", "t", "Relevance", "55", "67", "76", "8386", "1", "2", "3", "4", "5", "90", "67.5", "45", "22.5", "0", "Insightfulness", "64", "102", "88", "75", "38", "1", "2", "3", "4", "5", "120", "90", "60", "30", "0"],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 48.48,
+    "x2": 433.44,
+    "y1": 92.64,
+    "y2": 176.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Figure5-1.png"
+}, {
+  "caption": "Table 2. An overview of the participants in the user study. We report each participant’s number of publications in top-tier so ware engineering venues, number of times served as a reviewer in so ware engineering venues, and years of experience doing so ware engineering research as well as programming. We also report the frequency of large language model usage, location, gender, and job position.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.15850830078125,
+    "y1": 80.1518325805664,
+    "y2": 117.260009765625
+  },
+  "figType": "Table",
+  "imageText": ["P1", "15", "20", "7", "11", "Daily", "U.S.", "Woman", "Post", "Doc", "Researcher", "P2", "6", "2", "5", "10", "Daily", "U.S.", "Woman", "Ph.D.", "Student", "P3", "3", "15", "8", "15", "Daily", "U.S.", "Man", "Security", "Program", "Manager", "P4", "4", "1", "5", "10", "Daily", "U.S.", "Man", "Senior", "Scientist", "P5", "10+", "10+", "5", "10+", "Weekly", "U.S.", "Man", "Principal", "Research", "Manager", "P6", "10", "20", "14", "20", "Daily", "U.S.", "Man", "Principal", "Research", "Manager", "P7", "3", "10+", "10", "15", "Daily", "U.S.", "Man", "Senior", "Technical", "Program", "Manager", "P8", "3", "5", "7", "12", "Weekly", "U.S.", "Woman", "Software", "Engineer", "II", "P9", "0", "0", "2.5", "8", "Weekly", "U.S.", "Woman", "Data", "Scientist", "P10", "2", "0", "1.5", "5", "Daily", "India", "Woman", "Senior", "Researcher", "P11", "50", "20", "15", "20", "Yearly", "U.S.", "Man", "Principal", "Engineering", "Manager", "P12", "2", "0", "2", "12", "Weekly", "India", "Man", "Senior", "Researcher", "P13", "4", "2", "5", "15", "Weekly", "U.S.", "Woman", "Principal", "Applied", "Research", "Scientist", "P14", "6", "10", "13", "–", "Yearly", "Canada", "Woman", "Sta", "Researcher", "ID", "Pubs.", "Revs.", "ResearchCoding", "LLM", "Usage", "Location", "Gender", "Position", "#", "of", "#", "of", "Years"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 132.0,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3660767-Table2-1.png"
+}]

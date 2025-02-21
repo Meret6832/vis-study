@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 2: Number of all pair-wise permutations (𝑃max ) and after our reductions (𝑃FD , 𝑃FDF , 𝑃OFS , 𝑃OFSFDF ) for all projects with some, but not a total reduction. Bold numbers indicate the minimum number of permutations required after the reductions. Column TSPmax shows the number of all possible test suite permutations and TSPOFSFDF the number of permutations that would be required with OFSFDF.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.8060302734375,
+    "y1": 85.72634887695312,
+    "y2": 157.11102294921875
+  },
+  "figType": "Table",
+  "imageText": ["Project", "𝑃𝑚𝑎𝑥", "𝑃𝐹𝐷", "𝑃𝐹𝐷𝐹", "𝑃𝑂𝐹𝑆", "𝑃𝑂𝐹𝑆𝐹𝐷𝐹", "𝑇𝑆𝑃𝑚𝑎𝑥", "𝑇𝑆𝑃𝑂𝐹𝑆𝐹𝐷𝐹", "ezstream", "182", "182", "2", "182", "2", "8.71×1010", "2", "flex", "65280", "40800", "40800", "25440", "25440", "8.13×10285960", "4.71×10284", "imagemagick", "272", "272", "245", "272", "208", "3.55×1014", "3.11×1010", "libbde", "6", "6", "6", "6", "4", "6", "4", "libevt", "12", "12", "12", "12", "6", "24", "6", "libevtx", "20", "20", "20", "20", "8", "120", "8", "libexe", "6", "6", "6", "6", "4", "6", "4", "libfastjson", "272", "272", "272", "272", "48", "3.55×1014", "90", "libfsapfs", "12", "12", "12", "12", "6", "24", "6", "libfsclfs", "6", "6", "6", "6", "4", "6", "4", "libfshfs", "6", "6", "6", "6", "4", "6", "4", "libfsntfs", "12", "12", "12", "12", "6", "24", "6", "libfsrefs", "6", "6", "6", "6", "4", "6", "4", "libfvde", "6", "6", "6", "6", "4", "6", "4", "libiff", "2550", "2550", "2057", "2550", "450", "1.55×1066", "15603840", "liblnk", "6", "6", "4", "6", "4", "6", "4", "libluksde", "6", "6", "5", "6", "4", "6", "4", "libmodi", "6", "6", "6", "6", "4", "6", "4", "libnsfdb", "6", "6", "6", "6", "2", "6", "2", "libolecf", "12", "12", "12", "12", "6", "24", "6", "libqcow", "6", "6", "6", "6", "4", "6", "4", "libregf", "12", "12", "12", "12", "6", "24", "6", "libscca", "6", "6", "6", "6", "4", "6", "4", "libvhdi", "6", "6", "6", "6", "4", "6", "4", "libvmdk", "6", "6", "6", "6", "4", "6", "4", "libvshadow", "2", "2", "2", "2", "1", "2", "1", "libvslvm", "6", "6", "6", "6", "4", "6", "4", "naemon-core", "1122", "1122", "1122", "1122", "2", "2.95×1038", "2", "numactl", "72", "72", "72", "72", "8", "362880", "8", "safeclib", "15750", "15750", "15750", "15750", "4", "2.37×10211", "4", "xz", "42", "42", "42", "42", "6", "5040", "6"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 171.84,
+    "y2": 412.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Table2-1.png"
+}, {
+  "caption": "Figure 4: Relative savings (for 112 projects) and overheads (for 22 projects) resulting from the proposed reduction.",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.193115234375,
+    "y1": 346.8133544921875,
+    "y2": 363.40301513671875
+  },
+  "figType": "Figure",
+  "imageText": ["S", "t", "r", "a", "t", "e", "g", "y", "Files", "detected", "as", "modified", "(per", "test,", "log", "scale)", "1", "10", "100", "1000", "10000", "FDF", "OFSFDF"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 557.28,
+    "y1": 382.56,
+    "y2": 480.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Distribution of the number of potential file modifications (log scale) found with the FDF and OFSFDF methods.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7970581054688,
+    "y1": 495.84234619140625,
+    "y2": 512.4320068359375
+  },
+  "figType": "Figure",
+  "imageText": ["Findings", "RQ1:", "Tracking", "potential", "accesses", "via", "system", "calls", "(FD)", "does", "not", "reduce", "the", "number", "of", "permutations", "sig-", "nificantly.", "By", "removing", "common", "build", "artifacts", "(FDF)", "and", "combining", "it", "with", "OverlayFS-based", "detection", "(OFSFDF),", "we", "drastically", "reduce", "the", "number", "of", "test", "pairs", "for", "interfer-", "ence", "detection;", "to", "0", "in", "the", "majority", "of", "the", "cases", "and", "27.5%", "on", "average", "across", "all", "projects", "in", "our", "study", "without", "missing", "any", "interferences", "compared", "to", "exhaustive", "permutations."],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 533.76,
+    "y2": 640.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Net savings (for 112 projects) and overheads (for 22 projects) resulting from the proposed reduction.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1954956054688,
+    "y1": 197.78536987304688,
+    "y2": 214.375
+  },
+  "figType": "Figure",
+  "imageText": ["Relative", "Overheads/Savings", "0.01", "0.10", "1.00", "n=112", "Net", "Savings", "n=22", "Net", "Overheads"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 327.36,
+    "x2": 557.28,
+    "y1": 233.76,
+    "y2": 331.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Figure3-1.png"
+}, {
+  "caption": "Figure 1: Illustration of the different types of interference targeted by our work.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 185.11233520507812,
+    "y2": 201.7020263671875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Figure1-1.png"
+}, {
+  "caption": "Table 3: Projects with flaky behavior due to test interference, with the category, the origin of interference, either test code (TC) or code under test (CUT), GitHub issue and its status, either acknowledged (ACK), fixed (FIX), won’t fix (WF) or no response (NR).",
+  "captionBoundary": {
+    "x1": 53.44900131225586,
+    "x2": 295.13372802734375,
+    "y1": 322.204345703125,
+    "y2": 371.6709899902344
+  },
+  "figType": "Table",
+  "imageText": ["clearlinux/cve-check-tool", "ETD", "n/a", "(user", "extendable", "timelimit)", "n/a", "xiph/ezstream", "ETD", "n/a", "(user", "extendable", "timelimit)", "n/a", "NICMx/FORT-validator", "ETD", "n/a", "(user", "extendable", "timelimit)", "n/a", "jbboehr/handlebars.c", "ETD", "n/a", "(user", "extendable", "timelimit)", "n/a", "chjj/lcdb", "ETD", "n/a", "issues/4", "NR", "intel/libnica", "ETD", "n/a", "(user", "extendable", "timelimit)", "alexanderchuranov/Metaresc", "ETD", "n/a", "issues/10", "WF", "naemon/naemon-core", "ETD", "n/a", "(user", "extendable", "timelimit)", "n/a", "cea-hpc/selFIe", "ETD", "n/a", "issues/19", "NR", "freeswitch/sofia-sip", "ETD", "n/a", "(user", "extendable", "timelimit)", "n/a", "stefanberger/swtpm", "ETD", "n/a", "(timeout", "appears", "sensible)", "n/a", "troglobit/sysklogd", "ETD", "n/a", "issues/63", "ACK", "videolan/vlc", "ETD", "n/a", "(reported", "via", "mailing", "list)", "ACK", "esnacc/esnacc-ng", "OD", "TC", "issues/56", "ACK", "ptesarik/libkdumpfile", "OD", "TC", "pull/70", "FIX", "strongswan/davici", "CD", "TC", "issues/12", "NR", "behdad/fontconfig/", "CD", "CUT", "(GitHub", "repo", "outdated)", "n/a", "farsightsec/fstrm", "CD", "TC", "issues/69", "ACK", "tlwg/libdatrie", "CD", "TC", "issues/28", "NR", "sustrik/libdill", "CD", "TC", "issues/222", "NR", "svanderburg/libiff", "CD", "TC", "issues/13", "NR", "rsyslog/liblognorm", "CD", "TC", "issues/371", "NR", "sustrik/libmill", "CD", "TC", "(deprecated", "by", "libdill)", "n/a", "lwes/lwes", "CD", "TC", "issues/8", "NR", "chjj/mako", "CD", "TC", "issues/13", "NR", "chaos/powerman", "CD", "TC", "issues/63", "FIX", "Project", "Category", "Origin", "Issue", "Status"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 385.91999999999996,
+    "y2": 590.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Table3-1.png"
+}, {
+  "caption": "Figure 2: Distribution of popularity (stars, forks, contributors) and code measures (LOC, test-covered LOC, tests) across the subject projects in this study.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.793701171875,
+    "y1": 216.73635864257812,
+    "y2": 244.28497314453125
+  },
+  "figType": "Figure",
+  "imageText": ["Tests", "LOC", "Stars", "Forks", "Contributors", "LOC", "Test-Covered", "100,000", "1,000", "10"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 335.03999999999996,
+    "x2": 539.04,
+    "y1": 84.0,
+    "y2": 209.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Figure2-1.png"
+}, {
+  "caption": "Figure 6: Distribution of the median change in execution time of the test suites while executing them in parallel in comparison to the default sequential execution.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.193359375,
+    "y1": 241.81936645507812,
+    "y2": 269.36798095703125
+  },
+  "figType": "Figure",
+  "imageText": ["Interference", "No", "Interference", "j", "e", "c", "t", "s", "P", "r", "o", "s", "s", "A", "c", "r", "o", "c", "e", "r", "r", "e", "n", "O", "c", "c", "u", "o", "f", "c", "y", "u", "e", "n", "F", "r", "e", "q", "l", "a", "t", "i", "v", "e", "m", "u", "C", "u", "Speedup", "Factor", "for", "Median", "Parallel", "over", "Median", "Sequential", "2.5", "5.0", "7.5", "10.0", "12.5", "1.00", "0.75", "0.50", "0.25", "0.00"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 558.24,
+    "y1": 84.96,
+    "y2": 226.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Figure6-1.png"
+}, {
+  "caption": "Table 1: List of file types excluded by the FDF and OFSFDF reduction approaches, in addition to files with identical names as a test.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.636474609375,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["system", "or", "the", "tests", "with", "unused", "write", "permissions", "*.m4,", "*.rules,", "*.in,", "*.la", "files,", "m4/,", "compat/", "directories", "build", "artifacts,", "used", "by", "Automake", "examples/", "directories", "test", "artifact,", "often", "accessed", "by", "the", "build", "tomake", "Makefile", "snippets", "*.aux", "files,", "build-aux/", "directories", "build", "artifacts,", "contain", "additional", "Au-", "libtool", "*.gcno,", "*.gcda", "gcov", "artifacts,", "contain", "coverage", "data", "/etc,", "/lib,", "/usr,", "/proc,", "/dev,", "/bin,", "/sbin", "directories", "system", "directories,", "no", "write-", "permission", "for", "unprivileged", "users", ".libs/,", ".deps/", ",", "libtool/", "directories", "build", "artifacts,", "created", "by", "Automake", "/", "tain", "test", "results", "*.trs", "files", "Automake", "test", "harness", "artifacts,", "con-", "compiled", "object", "files", "Names", "&", "name", "patterns", "Reason", "for", "exclusion", "*.c,", "*.cpp,", "*.h,", "*.o", "files", "build", "artifacts,", "contain", "source", "code", "and"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 292.32,
+    "y1": 127.67999999999999,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694995-Table1-1.png"
+}]

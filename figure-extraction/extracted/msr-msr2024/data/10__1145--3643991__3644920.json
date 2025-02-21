@@ -1,0 +1,281 @@
+[{
+  "caption": "Figure 8: The PR-AUC of machine learning (ML) algorithms for predicting performance bugs at file level. The ML algorithms are grouped in Gray, Red, and Blue colors based on the results from Nemenyi’s post-hoc tests.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368408203125,
+    "y1": 243.40933227539062,
+    "y2": 281.9169921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 230.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure8-1.png"
+}, {
+  "caption": "Figure 9: The MCC of machine learning (ML) algorithms for predicting performance bugs at file level. The ML algorithms are grouped in Gray, Red, and Blue colors based on the results from Nemenyi’s post-hoc tests.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.2240905761719,
+    "y1": 452.25634765625,
+    "y2": 490.7640075683594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 297.59999999999997,
+    "y2": 439.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure9-1.png"
+}, {
+  "caption": "Figure 1: The overview of our approach.",
+  "captionBoundary": {
+    "x1": 225.23599243164062,
+    "x2": 386.7584228515625,
+    "y1": 198.39035034179688,
+    "y2": 204.02099609375
+  },
+  "figType": "Figure",
+  "imageText": ["Build", "and", "evaluate", "performance", "bug", "prediction", "models", "files", "Buggy", "files", "and", "clean", "Calculate", "metrics", "Performance", "and", "non-", "performance", "bug", "reports", "calculated", "metrics", "Labeled", "files", "with", "Identify", "files", "with", "performance", "bugs", "GHTorrent", "Select", "projects", "Projects", "Download", "and", "classify", "bug", "reports"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 91.67999999999999,
+    "x2": 520.3199999999999,
+    "y1": 84.0,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure1-1.png"
+}, {
+  "caption": "Table 1: The proposed performance codemetrics. Themetrics are aggregated to a file level using average scheme.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1943969726562,
+    "y1": 460.7203674316406,
+    "y2": 477.30999755859375
+  },
+  "figType": "Table",
+  "imageText": ["Performance", "code", "metric", "Description", "Num_if_in_loop", "Number", "of", "if-conditions", "that", "are", "in-", "side", "loops", "Num_loop_in_if", "Number", "of", "loops", "that", "are", "inside", "if-", "conditions", "Num_file_operations", "Number", "of", "file", "operations", "Num_file_operations_in_loop", "Number", "of", "file", "operations", "inside", "loops", "Num_database_operations", "Number", "of", "databases", "operations", "Num_database_operations_in", "_loop", "Number", "of", "databases", "operations", "in-", "side", "loops", "Num_collection", "Number", "of", "operations", "on", "collection", "data", "structures", "Num_collection_in_loop", "Number", "of", "operations", "on", "collection", "data", "structure", "inside", "loops", "Num_synchronization", "Number", "of", "synchronization", "opera-", "tions", "Num_nested_loop", "Number", "of", "nested", "loops", "Num_nested_loop_in_crit", "Number", "of", "nested", "loops", "in", "critical", "sections", "in", "synchronization", "Num_thread", "Number", "of", "thread", "operations"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 492.0,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Table1-1.png"
+}, {
+  "caption": "Figure 2: The approach that is used to label the files that have performance bugs",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1915283203125,
+    "y1": 325.662353515625,
+    "y2": 342.25201416015625
+  },
+  "figType": "Figure",
+  "imageText": ["Time", "The", "latest", "commit", "time", "Six", "months", "before", "file", "collection", "time", "the", "latest", "commit", "File", "collection", "time,", "i.e,", "six", "months", "before"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 338.88,
+    "x2": 536.64,
+    "y1": 264.48,
+    "y2": 308.64
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure2-1.png"
+}, {
+  "caption": "Table 4: The effects of groups of metrics on performance bug predictionmodels. We highlight the highest effects of groups of metrics in each algorithm.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03729248046875,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["MCC", "7.8%", "4.4%", "14.2%", "2.7%", "18.0%", "PR-AUC", "11.9%", "8.1%", "17.7%", "10.6%", "22.7%", "AUC", "1.3%", "1.2%", "2.7%", "1.9%", "3.0%", "Process", "metrics", "MCC", "5.9%", "4.3%", "3.1%", "5.7%", "4.1%", "PR-AUC", "10.0%", "10.4%", "7.9%", "0.1%", "6.6%", "AUC", "6.2%", "6.7%", "1.4%", "0.1%", "0.2%", "Code", "metrics", "MCC", "19.0%", "18.5%", "20.3%", "20.0%", "13.2%", "PR-AUC", "27.2%", "24.7%", "13.3%", "23.2%", "14.3%", "AUC", "7.0%", "6.9%", "9.2%", "11.2%", "5.5%", "metrics", "Performance", "code", "Groups", "of", "metrics", "Median", "of", "performance", "drop", "percentage", "RF", "XGB", "LR", "MLP", "SVM"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 299.03999999999996,
+    "y1": 127.67999999999999,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Table4-1.png"
+}, {
+  "caption": "Table 5: The classified groups based on the results from Nemenyi’s post-hoc tests",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6407775878906,
+    "y1": 255.53738403320312,
+    "y2": 272.12701416015625
+  },
+  "figType": "Table",
+  "imageText": ["The", "proposed", "performance", "code", "metrics", "impact", "the", "per-", "formance", "of", "our", "prediction", "models", "the", "most.", "Specifically,", "the", "AUC,", "PR-AUC,", "and", "MCC", "of", "the", "five", "studied", "machine", "learning", "models", "drop", "a", "median", "of", "7.7%,", "25.4%,", "and", "20.2%", "without", "using", "the", "proposed", "performance", "code", "metrics.", "Summary", "of", "RQ", "2", "Process", "metrics", "Code", "metrics", "code", "metrics", "AUC", "Performance", "Code", "metrics", "Process", "metrics", "code", "metrics", "PR-AUC", "Performance", "Code", "metrics", "Process", "metrics", "code", "metrics", "MCC", "Performance", "Groups", "assigned", "based", "on", "the", "results", "from", "Nemenyi’s", "post-hoc", "tests", "First", "group", "Second", "group", "Third", "group", "Performance", "metrics"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 286.56,
+    "y2": 507.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Table5-1.png"
+}, {
+  "caption": "Table 6: The result of the manual analysis about the types of performance bugs predicted by our approach",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1942138671875,
+    "y1": 196.90835571289062,
+    "y2": 213.49798583984375
+  },
+  "figType": "Table",
+  "imageText": ["Memory", "leak", "bug", "26", "7.6%", "Infinite", "loop", "bug", "23", "6.8%", "Deadlock", "bug", "21", "6.2%", "Stuck/hang", "bug", "21", "6.2%", "Non-performance", "bug", "13", "3.8%", "Types", "of", "performance", "bugs", "Number", "of", "files", "Percentage", "of", "files", "Performance", "regression", "bug", "236", "69.4%"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 228.0,
+    "y2": 322.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Table6-1.png"
+}, {
+  "caption": "Figure 4: An example of data corruption hang performance bugs in file BenchmarkThroughput.java [9] of project Hadoop Distributed File System",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7936401367188,
+    "y1": 155.98934936523438,
+    "y2": 183.53802490234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 352.8,
+    "x2": 523.1999999999999,
+    "y1": 82.56,
+    "y2": 142.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure4-1.png"
+}, {
+  "caption": "Figure 5: An example of redundant traversal performance bugs in file CandlestickRenderer.java [52] of project JFreeChart",
+  "captionBoundary": {
+    "x1": 317.7850036621094,
+    "x2": 559.7927856445312,
+    "y1": 578.5853271484375,
+    "y2": 606.134033203125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 466.56,
+    "y2": 565.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure5-1.png"
+}, {
+  "caption": "Figure 3: An example of performance bugs that have nonintrusive fix and its resolution in project Tomcat [84]",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6368713378906,
+    "y1": 416.5773620605469,
+    "y2": 433.1669921875
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "fix", "for", "the", "performance", "bug", "example", "(a)", "The", "performance", "bug", "with", "non-intrusive", "fix"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 89.75999999999999,
+    "x2": 260.15999999999997,
+    "y1": 241.92,
+    "y2": 397.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure3-1.png"
+}, {
+  "caption": "Table 7: The result of the manual analysis on the types of performance bugs that our approach fails to predict",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03302001953125,
+    "y1": 204.75637817382812,
+    "y2": 221.344970703125
+  },
+  "figType": "Table",
+  "imageText": ["Non-performance", "bug", "29", "None", "Stuck/hang", "bug", "17", "Specific", "program", "input,", "configuration", "problem,", "device", "incompatibility", "Deadlock", "bug", "13", "Database", "binary", "storage,", "JDK", "related", "Memory", "leak", "bug", "12", "Specific", "program", "input,", "unclosed", "threats", "at", "runtime", "Infinite", "loop", "bug", "18", "Specific", "program", "input,", "wrong", "API", "usage", "Performance", "regression", "bug", "251", "Inefficient", "functional", "logic,", "inefficient", "memory", "usage", "Main", "root", "causes", "Number", "of", "files", "Type", "of", "performance", "bugs"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 235.67999999999998,
+    "y2": 380.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Table7-1.png"
+}, {
+  "caption": "Figure 6: An example of synchronization performance bugs in file JobImpl.java [11] of project Hadoop MapReduce",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.03643798828125,
+    "y1": 476.5723571777344,
+    "y2": 493.1610107421875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 88.8,
+    "x2": 258.24,
+    "y1": 396.0,
+    "y2": 463.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Figure6-1.png"
+}, {
+  "caption": "Table 2: The code and process metrics used in our study. The last column refers to the scheme to aggregate method-level metrics to a file level (\"none means that no aggregation is performed for metrics that are calculated at a file level\").",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1932983398438,
+    "y1": 282.81134033203125,
+    "y2": 321.3190002441406
+  },
+  "figType": "Table",
+  "imageText": ["Added_loc", "Lines", "of", "code", "added", "in", "a", "file", "in", "the", "history", "commits", "average", "Deleted_loc", "Lines", "of", "code", "deleted", "in", "a", "file", "in", "the", "history", "commits", "average", "Number", "of", "non-performance", "bugs", "happened", "in", "a", "file", "None", "Num_non", "_perf_bug", "Number", "of", "performance", "bugs", "hap-", "pened", "in", "a", "file", "None", "Num_perf", "_bug", "Number", "of", "revisions", "a", "file", "was", "in-", "volved", "in", "fixing", "non-performance", "bugs", "None", "Process", "Metrics", "Num_rev", "Number", "of", "revisions", "None", "Num_perf", "_rev", "Number", "of", "revisions", "a", "file", "was", "in-", "volved", "in", "fixing", "performance", "bugs", "None", "Num_non", "_perf_rev", "FANIN", "Number", "of", "input", "data", "of", "a", "method", "average", "FANOUT", "Number", "of", "output", "data", "of", "a", "method", "average", "a", "method", "average", "MNL", "Max", "nesting", "level", "of", "a", "method", "average", "CC", "McCable", "cyclomatic", "complexity", "of", "method", "average", "Code", "Metrics", "Metric", "name", "Description", "Aggregation", "scheme", "LOC", "Lines", "of", "code", "in", "a", "method", "average", "CL", "Comment", "lines", "in", "a", "method", "average", "NSTMT", "Number", "of", "statements", "in", "a", "method", "average", "RCC", "Ratio", "comments", "to", "codes", "of", "a"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 322.56,
+    "x2": 553.4399999999999,
+    "y1": 336.0,
+    "y2": 623.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/msr-msr2024/figures/10_1145-3643991_3644920-Table2-1.png"
+}]

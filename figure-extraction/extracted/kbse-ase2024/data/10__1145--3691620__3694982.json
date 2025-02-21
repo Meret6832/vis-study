@@ -1,0 +1,301 @@
+[{
+  "caption": "Figure 5: The logic flow of VulCoK.",
+  "captionBoundary": {
+    "x1": 102.73300170898438,
+    "x2": 245.1040802001953,
+    "y1": 258.5278625488281,
+    "y2": 260.60797119140625
+  },
+  "figType": "Figure",
+  "imageText": ["Traversed", "Path", "Non-Traversed", "Path", "OpItem", "Correction", "Hallucinatory", "Description", "Vul-Type", "Correction", "Hallucinatory", "Traversed", "Path", "Non-Traversed", "Path", "STEP", "3:", "Correcting", "Hallucination", "in", "VTP", "STEP", "2:", "Detecting", "Hallucination", "in", "VTP", "STEP", "1:", "Generating", "Golden", "Knowledge", "Queries", "Update", "Operation", "&", "Transitions", "Corrected", "𝐺𝑉𝑇𝑃", "′", "Vul-Type", "&", "Description", "Hallucinatory", "Halluci-", "nations", "Hal-", "Desc", "Hal-", "Types", "Knowledge", "Detection", "…", "Golden", "Vul-Type", "&", "Description", "…", "Hallucinatory", "Historical", "Transitions", "Operation", "&", "Knowledge", "Queried", "Golden", "…", "External", "Golden", "Database", "Generation", "Query", "Knowledge", "OpConn", "OpItem", "OpItem", "BFS", "𝐺𝑉𝑇𝑃"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 249.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure5-1.png"
+}, {
+  "caption": "Figure 1: The preliminary study to analyze the time cost of patching and the exploited ratio of the vulnerable IRs.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1926879882812,
+    "y1": 207.58090209960938,
+    "y2": 220.6199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["Time", "Lag", "(Days)", "ty", "b", "ili", "e", "ra", "u", "ln", "d", "V", "ix", "e", "o", "f", "F", "ti", "o", "0R", "a", "5", "0", "0", "4", "5", "0", "4", "0", "0", "3", "5", "0", "3", "0", "0", "2", "5", "0", "2", "0", "0", "1", "5", "0", "1", "0", "0", "5", "0", "100%", "80%", "60%", "40%", "20%", "0%", "(Exploited:", "71.7%)", "(a)", "Time", "cost", "of", "fixing", "vulnerabilities", "in", "vulnerable", "IRs", "in", "CVE.", "(Exploited:", "20.4%)", "Unexploited", "Exploited", "(Failed)", "Exploited", "(Successful)", "s", "I", "R", "b", "le", "e", "ra", "V", "u", "ln", "o", "f", "b", "e", "r", "N", "u", "m", "w/", "Tracked", "Insecure", "Commit", "w/o", "Tracked", "Insecure", "Commit", "3500", "3000", "2500", "2000", "1500", "1000", "500", "0", "2135", "273", "496", "571", "841", "(b)", "Exploit", "of", "IRs", "with/without", "tracked", "insecure", "commits", "in", "CVE."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 196.79999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure1-1.png"
+}, {
+  "caption": "Table 3: The size of the dataset with three sources.",
+  "captionBoundary": {
+    "x1": 72.37301635742188,
+    "x2": 275.1659851074219,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["GHArchive", "4,316", "1,072", "268", "2,976", "D2A", "662", "530", "132", "-", "PatchDB", "487", "390", "97", "-", "Total", "5,465", "1,992", "497", "2,976", "w/", "Labels", "w/o", "Labels", "#Evaluation", "Data", "Sources", "#Vul-IRs", "#Auto-Prompt"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 94.56,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Table3-1.png"
+}, {
+  "caption": "Table 7: The number (#) and the ratio of accepted generated insecure code & patches for ChatGPT and PatUntrack.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0341491699219,
+    "y1": 633.6868286132812,
+    "y2": 646.7260131835938
+  },
+  "figType": "Table",
+  "imageText": ["CWE-Types", "#Total-Pairs", "#Response-Pairs", "#Acc-PatUntrack", "#Acc-ChatGPT", "#Acc-Both", "CWE-79", "20", "12", "(60.0%)", "9", "(45.0%)", "4", "(20.0%)", "2", "(10.0%)", "CWE-787", "17", "8", "(47.1%)", "4", "(23.5%)", "4", "(23.5%)", "3", "(17.6%)", "CWE-78", "10", "7", "(70.0%)", "4", "(40.0%)", "2", "(20.0%)", "2", "(20.0%)", "CWE-352", "8", "3", "(37.5%)", "3", "(37.5%)", "1", "(12.5%)", "1", "(12.5%)", "CWE-287", "8", "3", "(37.5%)", "2", "(25.0%)", "2", "(25.0%)", "2", "(25.0%)", "CWE-121", "7", "2", "(28.6%)", "2", "(28.6%)", "1", "(14.3%)", "1", "(14.3%)", "CWE-119", "6", "2", "(33.3%)", "3", "(50.0%)", "1", "(16.7%)", "1", "(16.7%)", "Total", "76", "37", "(48.7%)", "27", "(35.5%)", "15", "(19.7%)", "12", "(15.8%)"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 293.28,
+    "y1": 649.92,
+    "y2": 715.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Table7-1.png"
+}, {
+  "caption": "Figure 8: The score distribution of human evaluation (PatUntrack utilizes the ChatGPT as the basic model).",
+  "captionBoundary": {
+    "x1": 317.677001953125,
+    "x2": 558.1932373046875,
+    "y1": 193.62387084960938,
+    "y2": 206.66302490234375
+  },
+  "figType": "Figure",
+  "imageText": ["Ttest:", "p=4.4e-6", "Ttest:", "p=9.2e-6", "Ttest:", "p=3.9e-3", "Ttest:", "p=2.3e-3", "(a)", "Score", "of", "accepted", "patches.", "(a)", "Scores", "of", "unaccepted", "patches.", "2.8", "1.6", "3.0", "1.7", "3.4", "2.7", "Accurateness", "Patch", "Example", "Insecure", "Code", "Example", "Accurateness", "te", "n", "e", "s", "s", "c", "c", "u", "ra", "o", "f", "A", "S", "c", "o", "re", "5", "4", "3", "2", "1", "3.9", "3.2", "Accurateness", "Patch", "Example", "Insecure", "Code", "Example", "Accurateness"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 181.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure8-1.png"
+}, {
+  "caption": "Figure 9: Insecure code’s effect to patch example generation.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.0957641601562,
+    "y1": 710.48388671875,
+    "y2": 712.5640258789062
+  },
+  "figType": "Figure",
+  "imageText": ["(71.3,", "62.3)", "(80.6,", "78.5)", "(62.1,", "61.7)", "(81.0,", "83.7)", "ChatGPT", "+PatUntrack", "Trig@10", "(%)", "F", "ix", "@", "1", "0", "(%", ")", "40", "45", "50", "55", "60", "65", "70", "75", "80", "100", "90", "80", "70", "60", "50", "40", "ChatGPT", "+PatUntrack", "MatchTrig", "(%)", "M", "a", "tc", "h", "F", "ix", "(%", ")", "40", "45", "50", "55", "60", "65", "70", "75", "80", "100", "90", "80", "70", "60", "50", "40"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 620.64,
+    "y2": 699.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure9-1.png"
+}, {
+  "caption": "Figure 2: The vulnerable IR and the generated insecure code & patch example (skoranga/node-dns-sync/issues/1 [1]).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0337829589844,
+    "y1": 393.3258972167969,
+    "y2": 406.364990234375
+  },
+  "figType": "Figure",
+  "imageText": ["Patch", "Example", "//", "Validation", "Check", "+", "function", "validateCheck(hostname){", "+", "var", "ValidRegex", "=", "new", "RegExp", "(/[^a-zA-Z0-9.-]/g\");", "+", "if", "(!ValidRegex.test(hostname)){", "+", "console.error('Invalid:',", "hostname);", "+", "return", "null;", "+", "}", "+", "}", "nodeBinary,", "scriptPath,", "hostname);", "...", "//", "hostname", "resolve", "in", "dns-sync.js", "function", "resolve(hostname){", "+", "if", "(validateCheck(hostname)){", "-", "cmd", "=", "util.format('\"%s\"", "\"%s\"", "%s',", "The", "OS", "command", "injection", "triggered", "➢", "Description:", "}", "nodeBinary,", "scriptPath,", "hostname);", "shell.execute(cmd,", "{silent:", "true})", "-", "nodeBinary", "=", "process.execPath;", "-", "scriptPath", "=", "path.join(__dirname,", "\"../scripts/dns-lookup-script\");", "-", "cmd", "=", "util.format('\"%s\"", "\"%s\"", "%s',", "}", "//", "hostname", "resolve", "in", "dns-sync.js", "function", "resolve(hostname){", "var", "dnsSync", "=", "require('dns-sync');", "-", "console.log(dnsSync.resolve(hostname);", "//", "hostname:", "'$(id", ">", "/tmp/foo)'", "function", "errorsync(hostname){", "VTP", "for", "Triggering", "this", "Vulnerability", "𝑉𝑎𝑙𝑖𝑑𝑎𝑡𝑒𝐸𝑟𝑟", ",", "CWE-78", "➢", "Types:", "Vul-Trigger", "➢", "Description:", "Attacker", "assign", "the", "hostname", "'$(id", ">", "/tmp/foo)'", "CWE-78", "resolve", "function", "will", "execute", "the", "shell", "shell.execute('", "/usr/bin/id", ">", "/tmp/foo'))", "➢", "Types:", "𝑉𝑎𝑙𝑖𝑑𝑎𝑡𝑒𝐸𝑟𝑟,", "Func-Call", "➢", "Description:", "In", "lib-", "dynSync,", "The", "CWE-77|78|79", "➢", "Types:", "𝑉𝑎𝑙𝑖𝑑𝑎𝑡𝑒𝐸𝑟𝑟,", "VulData-Transmit", "Func-Call", "➢", "Description:", "dynSync", "resolve", "dynSync.", "resolve(hostname)", "➢", "Types:", "𝜙,", "𝜙", "➢", "Types:", "𝜙,", "𝜙", "hostname=\"\"", "Src-Load", "➢", "Description:", "Load", "dynSync", "with", "the", "function", "require('dns-", "sync),", "initialize", "Insecure", "Code", "Example"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 293.28,
+    "y1": 173.76,
+    "y2": 384.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure2-1.png"
+}, {
+  "caption": "Table 5: The performances of baseline comparison on generating patch examples from vulnerable IRs (%).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.79736328125,
+    "y1": 89.27688598632812,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["+PatUntrack", "turbo-3.5", "69.7", "(↑19.4)", "73.2", "(↑11.5)", "78.5", "(↑16.2)", "ChatGPT", "turbo-3.5", "50.3", "61.7", "62.3", "GPT-3.5", "+PatUntrack", "davinci-003", "66.2", "(↑19.7)", "72.3", "(↑15.0)", "75.9", "(↑16.8)", "Codex", "davinci-003", "46.5", "57.3", "59.1", "GPT-3", "+PatUntrack", "t5-base", "51.5", "(↑11.0)", "60.0", "(↑4.8)", "67.1", "(↑10.7)", "CodeT5", "t5-base", "40.5", "55.2", "56.4", "T5", "CodeBert", "-", "38.4", "51.5", "54.2", "InCoder", "InCoder-6.8B", "56.6", "60.7", "62.1", "APR", "Non-LLM", "w/o", "Code", "Labels", "+PatUntrack", "turbo-3.5", "65.5", "(↑9.3)", "83.7", "(↑20.5)", "87.2", "(↑3.8)", "Exp", "Category", "Model", "Version", "Fix@1", "Fix@5", "Fix@10", "ChatGPT", "turbo-3.5", "56.2", "63.2", "83.4", "GPT-3.5", "+PatUntrack", "davinci-003", "59.4", "(↑6.4)", "80.5", "(↑18.3)", "84.9", "(↑8.7)", "Codex", "davinci-003", "53.0", "62.2", "76.2", "GPT-3", "+PatUntrack", "t5-base", "51.2", "(↑10.5)", "74.0", "(↑14.3)", "77.2", "(↑8.3)", "CodeT5", "t5-base", "40.7", "59.7", "68.9", "T5", "CodeBert", "-", "41.9", "56.5", "-", "InCoder", "InCoder-6.8B", "46.5", "67.3", "-", "APR", "Non-LLM", "Code", "Labels", "w/", "Exp", "Category", "Model", "Version", "MatchLine", "MatchFix", "AccType"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 105.6,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Table5-1.png"
+}, {
+  "caption": "Table 4: The performances of baseline comparison on generating insecure code examples from vulnerable IRs (%).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6404113769531,
+    "y1": 89.27688598632812,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["+PatUntrack", "turbo-3.5", "73.5", "(↑6.5)", "76.9", "(↑8.4)", "80.6", "(↑9.3)", "GPT-3.5", "+PatUntrack", "davinci-003", "72.6", "(↑14.1)", "74.2", "(↑10.8)", "77.5", "(↑12.3)", "ChatGPT", "turbo-3.5", "67.0", "68.5", "71.3", "GPT-3", "+PatUntrack", "t5-base", "64.2", "(↑27.0)", "68.6", "(↑13.0)", "73.2", "(↑10.0)", "Codex", "davinci-003", "58.5", "63.4", "65.2", "T5", "CodeT5", "t5-base", "37.2", "55.6", "63.2", "Non-LLM", "CodeGen", "CodeBert", "-", "39.2", "50.4", "61.3", "Codeium", "1.6.10", "20.5", "44.6", "47.9", "w/o", "Code", "Labels", "+PatUntrack", "turbo-3.5", "74.3", "(↑33.4)", "81.0", "(↑18.9)", "83.9", "(↑3.4)", "Exp", "Category", "Model", "Version", "Trig@1", "Trig@5", "Trig@10", "GPT-3.5", "+PatUntrack", "davinci-003", "66.2", "(↑38.7)", "79.5", "(↑29.3)", "80.7", "(↑17.8)", "ChatGPT", "turbo-3.5", "40.9", "62.1", "80.5", "GPT-3", "+PatUntrack", "t5-base", "57.3", "(↑39.1)", "68.2", "(↑29.5)", "78.6", "(↑12.3)", "Codex", "davinci-003", "27.5", "50.2", "62.9", "T5", "CodeT5", "t5-base", "18.2", "38.7", "66.3", "Non-LLM", "CodeGen", "CodeBert", "-", "16.6", "35.9", "-", "Codeium", "1.6.10", "45.2", "60.7", "-", "Code", "Labels", "w/", "Exp", "Category", "Model", "Version", "MatchLine", "MatchTrig", "AccType"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 105.6,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Table4-1.png"
+}, {
+  "caption": "Figure 6: The case study of ChatGPT+PatUntrack and ChatGPT on generating insecure code & patch example.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64471435546875,
+    "y1": 699.5248413085938,
+    "y2": 712.5640258789062
+  },
+  "figType": "Figure",
+  "imageText": ["", "These", "statements", "may", "also", "pose", "risks", "", "This", "patch", "cannot", "end", "the", "calling", "of", "system", "command.", "", "Miss", "the", "hostname,", "which", "comes", "from", "the", "URL.", "//", "Input", "Sanitizer", "+", "function", "sanitizeHostname(hostname){", "+", "return", "hostname.replace(\"/[^a-zA-Z0-9.-]/g\",\"\");", "+", "}", "}", "scriptPath,", "hostname);", "shell.execute(cmd,", "{silent:", "true})", "scriptPath,", "hostname);", "-", "cmd", "=", "util.format('\"%s\"", "\"%s\"", "%s',", "nodeBinary,", "=sanitizeHostname(hostname);", "+", "cmd", "=", "util.format('\"%s\"", "\"%s\"", "%s',", "nodeBinary,", "\"../scripts/dns-lookup-script\");", "+", "sanitizedHostname", "var", "dnsSync", "=", "require('dns-sync’);", "console.log(dnsSync.resolve('$(id>/tmp/foo)'));", "//", "hostname", "resolve", "in", "dns-sync.js", "function", "resolve(hostname){", "nodeBinary", "=", "process.execPath;", "scriptPath", "=", "path.join(__dirname,", "ChatGPT’s", "Insecure", "Code", "&", "Patch", "Example", "+", "function", "validateCheck(hostname){", "+", "var", "ValidRegex", "=", "new", "RegExp(/[^a-zA-Z0-9.-]/g\");", "+", "if", "(!ValidRegex.test(hostname)){", "+", "console.error('Invalid:',", "hostname);", "+", "return", "False;", "+", "}", "+", "}", "}", "}", "//", "Validation", "Check", "nodeBinary,", "scriptPath,", "hostname);", "shell.execute(cmd,", "{silent:", "true})", "\"../scripts/dns-lookup-script\");", "+", "if", "(validateCheck(hostname)){", "+", "cmd", "=", "util.format('\"%s\"", "\"%s\"", "%s’,", "nodeBinary,", "scriptPath,", "hostname);", "-", "cmd", "=", "util.format('\"%s\"", "\"%s\"", "%s’,", "-", "nodeBinary", "=", "process.execPath;", "-", "scriptPath", "=", "path.join(__dirname,", "//", "hostname:", "'$(id", ">", "/tmp/foo)'", "var", "dnsSync", "=", "require('dns-sync');", "console.log(dnsSync.resolve(hostname);", "function", "resolve(hostname){", "PatUntrack’s", "Insecure", "Code", "&", "Patch", "Example", "Comparison", "Results.", "Table", "4", "illustrates", "the", "results", "of", "PatUn-", "track", "on", "generating", "insecure", "code", "examples.", "Comparing", "the", "PatUn-", "track", "with", "all", "the", "code", "generation", "and", "LLM", "baselines,", "we", "can", "see", "that,", "the", "ChatGPT+PatUntrack", "can", "obtain", "the", "highest", "per-", "formances", "with", "74.3%", "(MatchLine),", "81.0%", "(MatchTrig),", "and", "80.6%", "(Trig@10),", "improving", "LLM", "baselines", "with", "+37.1%", "(MatchLine),", "+25.9%", "(MatchTrig),", "and", "+10.5%", "(Trig@10)", "on", "average.", "Moreover,", "PatUntrack", "also", "improves", "LLM", "baseline’s", "accuracy", "in", "predicting", "the", "vulnerability", "types", "with", "+11.2%", "on", "average.", "Case", "Study.We", "conduct", "the", "case", "study", "on", "the", "vulnerable", "IR", "in", "Fig-", "ure", "2", "to", "qualitatively", "evaluate", "the", "PatUntrack.", "Figure", "6", "shows", "the", "generated", "insecure", "code", "example", "of", "ChatGPT", "and", "+PatUntrack.", "Referring", "to", "the", "ground-truth", "insecure", "code", "in", "the", "repository,", "we", "can", "see", "that", "PatUntrack", "can", "accurately", "indicate", "that", "the", "hostname", "comes", "from", "the", "external", "URL", "and", "find", "all", "the", "statements", "that", "may", "contain", "CWE-78", "vulnerabilities.", "ChatGPT", "has", "made", "errors", "in", "these", "two", "points", "and", "generated", "inaccurate", "code", "examples.", "These", "results", "illustrate", "that", "our", "approach", "is", "more", "accurate", "than", "baselines", "on", "generating", "insecure", "code", "examples.", "Advantages", "of", "PatUntrack.", "We", "believe", "that", "the", "benefits", "of", "PatUntrack", "come", "from", "three", "aspects.", "❶", "First,", "PatUntrack", "can", "obtain", "the", "description", "of", "how", "to", "trigger", "a", "vulnerability,", "and", "the", "VTP", "extractor", "and", "VTP", "completer", "improve", "the", "completeness", "of"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.32,
+    "x2": 297.59999999999997,
+    "y1": 284.64,
+    "y2": 682.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure6-1.png"
+}, {
+  "caption": "Table 1: The error types in the VTB operation nodes.",
+  "captionBoundary": {
+    "x1": 67.43698120117188,
+    "x2": 280.1015319824219,
+    "y1": 362.5638732910156,
+    "y2": 364.64398193359375
+  },
+  "figType": "Table",
+  "imageText": ["The", "encoding", "or", "decoding", "have", "errors,", "leading", "to", "XSS", "or", "injection", "attacks.", "7", "Error", "handling", "&", "logging", "issues", "The", "error", "involves", "improper", "handling", "of", "bound-", "aries", "and", "limits", "in", "storage,", "leading", "to", "overflows.", "6", "Buffer", "overflow", "The", "error", "relates", "to", "the", "system", "conditions,", "af-", "fecting", "its", "correct", "operation.", "5", "Race", "&", "Configuration", "Errors", "The", "way", "how", "data", "is", "handled", "has", "errors,", "leading", "to", "exploitable", "conditions.", "Concurrency", "Errors", "4", "Memory", "Management", "&", "The", "functions", "are", "improperly", "used", "leading", "to", "incorrect", "execution.", "3", "Injection", "&", "Logic", "Errors", "The", "variables,", "functions,", "or", "libraries", "are", "unre-", "solved", "or", "incorrect.", "2", "Dependency", "Errors", "The", "error", "comes", "from", "improperly", "handled,", "lead-", "ing", "to", "unexpected", "behavior.", "1", "Encoding", "&", "Validation", "Errors", "ID", "Error", "Types", "(VTP)", "Description"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 367.68,
+    "y2": 501.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Table1-1.png"
+}, {
+  "caption": "Figure 3: The structure of PatUntrack.",
+  "captionBoundary": {
+    "x1": 224.81900024414062,
+    "x2": 387.1787414550781,
+    "y1": 235.03591918945312,
+    "y2": 237.11602783203125
+  },
+  "figType": "Figure",
+  "imageText": ["𝑃𝑒𝑥𝑡𝑟𝑎𝑐𝑡,", "𝑃𝑐𝑜𝑚𝑝𝑙𝑒𝑡𝑒", "𝑃ℎ𝑎𝑙𝐷𝑒𝑡𝑒𝑐𝑡,", "𝑃ℎ𝑎𝑙𝐶𝑜𝑟𝑟𝑒𝑐𝑡", "𝑃𝑡𝑦𝑝𝑒𝑃𝑟𝑒𝑑𝑖𝑐𝑡,", "𝑃𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒", "Auto-Prompting", "for", "Patch", "Example", "Generation", "Auto-Prompting", "for", "Generating", "VTP", "Description", "Auto-Prompting", "for", "VulCoK", "…", "Example", "Code", "&", "Patch", "K", "Insecure", "Generation", "&", "Patch", "Example", "Joint", "Insecure", "Code", "Predicted", "Types", "of", "Patch", "Example", "H", "a", "llu", "c", "in", "a", "to", "ry", "？", "Completed", "VTP", "Description", "N", "Type", "Prediction", "VTP-based", "Patch", "Y", "3.3", "Generating", "Insecure", "Code", "&", "Patch", "Example", "Description", "BTP", "Corrected", "3.2", "VulCoK:", "Correcting", "Hallucinatory", "VTP", "Description", "Y", "VTP", "Correction", "Hallucinatory", "Hallucinatory", "VTP", "Detection", "Golden", "Vulnerability", "Knowledge", "3.1", "Generating", "Complete", "VTP", "Description", "N", "Completing", "Complete?", "VTP", "Description", "Description", "VTP", "Extraction", "VTP", "Description", "IR", "Vulnerable"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 557.28,
+    "y1": 84.96,
+    "y2": 224.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure3-1.png"
+}, {
+  "caption": "Table 6: The performances on generating insecure code & patch examples with different numbers of iterations(%).",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0330505371094,
+    "y1": 516.1128540039062,
+    "y2": 529.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["+PatUntrack", "80.1", "(↑36.4)", "79.5", "(↑14.1)", "80.2", "(↑26.0)", "76.8", "(↑27.3)", "GPT-3.5", "+PatUntrack", "76.2", "(↑50.6)", "76.9", "(↑40.2)", "76.4", "(↑37.4)", "73.6", "(↑43.6)", "ChatGPT", "43.7", "65.4", "54.2", "49.5", "GPT-3", "+PatUntrack", "67.4", "(↑56.4)", "71.5", "(↑39.6)", "73.2", "(↑49.7)", "65.4", "(↑36.7)", "Codex", "25.6", "36.7", "39.0", "30.0", "T5", "CodeT5", "11.0", "31.9", "23.5", "28.7", "Iter.≥8", "+PatUntrack", "81.9", "(↑20.4)", "81.9", "(↑3.5)", "85.6", "(↑20.1)", "79.2", "(↑17.7)", "GPT-3.5", "+PatUntrack", "82.4", "(↑31.7)", "78.1", "(↑16.0)", "80.7", "(↑18.2)", "76.4", "(↑17.9)", "ChatGPT", "61.5", "78.4", "65.5", "61.5", "GPT-3", "+PatUntrack", "68.1", "(↑29.5)", "72.2", "(↑8.7)", "73.0", "(↑11.8)", "69.2", "(↑10.8)", "Codex", "50.7", "62.1", "62.5", "58.5", "T5", "CodeT5", "38.6", "63.5", "61.2", "58.4", "4≤Iter.<8", "+PatUntrack", "82.5", "(↑12.0)", "84.2", "(↑2.2)", "85.0", "(↑18.6)", "81.3", "(↑13.9)", "GPT-3.5", "+PatUntrack", "83.1", "(↑26.6)", "78.6", "(↑12.2)", "82.4", "(↑17.5)", "77.2", "(↑14.0)", "ChatGPT", "70.5", "82.0", "66.4", "67.4", "GPT-3", "+PatUntrack", "72.2", "(↑32.7)", "76.0", "(↑9.8)", "76.0", "(↑11.9)", "70.6", "(↑11.1)", "Codex", "56.5", "66.4", "64.9", "63.2", "T5", "CodeT5", "39.5", "66.2", "64.1", "59.5", "1≤Iter.<4", "Insecure", "Code", "Example", "Patch", "Example", "MatchTrig", "Trig@10", "MatchFix", "Fix@10", "Iterations", "Category", "Models"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 532.8,
+    "y2": 708.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Table6-1.png"
+}, {
+  "caption": "Figure 7: The results of the ablation study (PatUntrack and variants utilize the ChatGPT as the basic model).",
+  "captionBoundary": {
+    "x1": 317.72198486328125,
+    "x2": 558.2008056640625,
+    "y1": 285.5209045410156,
+    "y2": 298.5589904785156
+  },
+  "figType": "Figure",
+  "imageText": ["%", ")", "ti", "o", "n", "(", "e", "ra", "e", "n", "le", "G", "m", "p", "E", "x", "a", "e", "o", "d", "n", "C", "c", "e", "s", "o", "rm", "a", "n", "+PatUntrack", "&", "Patch-Type", "➢", "-4.3%", "MatchTrig,", "-6.9%", "MatchFix", "+PatUntrack", "&", "w/o", "Both", "➢", "-13.1%", "MatchTrig,", "-10.9%", "MatchFix", "P", "e", "rf", "o", "+PatUntrack", "&", "Patch-Type", "➢", "-5.4%", "MatchTrig,", "-6.7%", "MatchFix", "+PatUntrack", "&", "w/o", "Both", "➢", "-16.1%", "MatchTrig,", "-15.5%", "MatchFix", "+PatUntrack", "&", "CoK", "➢", "-7.1%", "MatchTrig,", "-6.9%", "MatchFix", "+PatUntrack", "&", "w/o", "VulCoK", "➢", "-15.9%", "MatchTrig,", "-14.3%", "MatchFix", "+PatUntrack", "&", "w/o", "Vul-Type", "➢", "-11.1%", "MatchTrig,", "-9.7%", "MatchFix", "+PatUntrack", "&", "w/o", "VTP", "Extractor", "➢", "-19.2%", "MatchTrig,", "-22.6%", "MatchFix", "%", ")", "ti", "o", "n", "(", "e", "ra", "e", "n", "le", "G", "m", "p", "E", "x", "a", "e", "o", "d", "n", "C", "c", "e", "s", "o", "rm", "a", "n", "rf", "o", "P", "e", "Type", "w/o", "Vul-", "(c)", "Variants", "of", "Patch", "Example", "Generator.", "(b)", "Variants", "of", "Auto-Prompting.", "w/o", "Both", "+PatUntrack", "w/o", "Focus-", "List", "ICL", "w/o", "Auto-", "Prompting", "w/o", "Joint", "Generator", "Type", "+PatUntrack", "w/o", "Patch-", "(a)", "Variants", "of", "VTP", "Generator.", "(b)", "Variants", "of", "VulCoK.", "w/o", "VTP", "Extractor", "+PatUntrack", "CoK", "ReAct", "w/o", "VulCoK", "Completer", "+PatUntrack", "w/o", "VTP"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Figure7-1.png"
+}, {
+  "caption": "Table 2: The golden external dataset D of VulCoK.",
+  "captionBoundary": {
+    "x1": 335.95599365234375,
+    "x2": 539.903076171875,
+    "y1": 89.27688598632812,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["1", "SARD", "2024", "https://samate.nist.gov/SARD/", "2", "OWASP", "2024", "https://owasp.org/www-project-benchmark", "3", "Debian", "2024", "https://bit.ly/3bX30ai", "4", "VDISC", "2024", "https://osf.io/d45bw/", "Id", "Golden", "Dataset", "Last", "Updated", "Link"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 559.1999999999999,
+    "y1": 94.56,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694982-Table2-1.png"
+}]

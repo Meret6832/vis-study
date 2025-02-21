@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 3: Mask generation at di erent granularities.",
+  "captionBoundary": {
+    "x1": 344.7049865722656,
+    "x2": 531.4521484375,
+    "y1": 278.75030517578125,
+    "y2": 282.5679931640625
+  },
+  "figType": "Figure",
+  "imageText": ["return", "result;", "}", "……", "//", "context", "after", "……", "//", "context", "before", "if(dataset", "==", "<MASK>){", "return", "result;", "}", "……", "//", "context", "after", "……", "//", "context", "before", "if(dataset", "<MASK>", "null){", "Buggy", "code", "……", "//", "context", "after", "return", "result;", "}", "……", "//", "context", "before", "if", "(dataset", "==", "null)", "{", "//", "Buggy", "line", "Token", "level", "mask", "return", "result;", "}", "……", "//", "context", "after", "……", "//", "context", "before", "if(<MASK>", "==", "null){", "return", "result;", "}", "……", "//", "context", "after", "Expression", "level", "mask", "……", "//", "context", "before", "if(<MASK>", "dataset", "==", "null){", "return", "result;", "}", "……", "//", "context", "after", "……", "//", "context", "before", "if(dataset", "==", "null<MASK>){", "return", "result;", "}", "……", "//", "context", "after", "……", "//", "context", "before", "if(<MASK>){", "}", "……", "//", "context", "after", "<MASK>", "return", "result;", "……", "//", "context", "before", "if(dataset", "==", "null){", "return", "result;", "}", "……", "//", "context", "after", "Statement", "level", "mask", "……", "//", "context", "before", "<MASK>", "……", "//", "context", "after", "……", "//", "context", "before", "<MASK>", "if(dataset", "==", "null){"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 84.96,
+    "y2": 274.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Figure3-1.png"
+}, {
+  "caption": "Table 7: The performance of Mulpor with di erent lengths of vulnerability (in PP).",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 559.6309814453125,
+    "y1": 88.33631134033203,
+    "y2": 102.11700439453125
+  },
+  "figType": "Table",
+  "imageText": ["†", "Average", "number", "of", "buggy", "lines", ">501", "28.9", "3.77", "11.7", "20.2", "1-100", "19.3", "1.67", "41.3", "47.2", "101-200", "19.0", "2.32", "25.3", "38.2", "201-300", "14.1", "2.31", "25.8", "40.8", "301-400", "11.6", "2.85", "20.3", "31.7", "401-500", "7.2", "3.78", "23.9", "21.8", "Length", "Percentage", "Avg.†", "VulRepair+", "Mulpor"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 331.2,
+    "x2": 535.1999999999999,
+    "y1": 105.6,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table7-1.png"
+}, {
+  "caption": "Table 8: Results of the ablation study (in %).",
+  "captionBoundary": {
+    "x1": 359.6011047363281,
+    "x2": 516.2926025390625,
+    "y1": 198.7151641845703,
+    "y2": 202.5328369140625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "−SG", "−EG", "−TG", "−RR", "Mulpor", "PP@1", "23.5", "22.7", "20.4", "23.4", "25.6", "PP", "28.7", "29.4", "27.6", "34.2", "34.2"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 348.0,
+    "x2": 528.0,
+    "y1": 206.88,
+    "y2": 242.39999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table8-1.png"
+}, {
+  "caption": "Table 6: Mulpor’s e ectiveness on the Top-10 most frequent CWEs.",
+  "captionBoundary": {
+    "x1": 54.60894012451172,
+    "x2": 292.97149658203125,
+    "y1": 153.15541076660156,
+    "y2": 156.97308349609375
+  },
+  "figType": "Table",
+  "imageText": ["CWE-416", "Use", "After", "Free", "35.7", "15/42", "CWE-190", "Integer", "Over", "ow", "or", "Wraparound", "34.2", "15/38", "CWE-787", "Out-of-bounds", "Write", "34.4", "11/32", "CWE-399", "Resource", "Management", "Errors", "41.9", "11/31", "Total", "31.9", "257/805", "an", "Unauthorized", "Actor", "37.2", "16/43", "CWE-125", "Out-of-bounds", "Read", "25.0", "28/112", "CWE-20", "Improper", "Input", "Validation", "26.7", "28/105", "CWE-264", "Permissions,", "Privileges,", "and", "Access", "Controls", "46.0", "23/50", "CWE-476", "NULL", "Pointer", "Dereference", "40.9", "18/44", "CWE-200", "Exposure", "of", "Sensitive", "Information", "to", "within", "the", "Bounds", "of", "a", "Memory", "Bu", "er", "29.9", "92/308", "CWE", "Type", "Name", "PP", "Proportion", "CWE-119", "Improper", "Restriction", "of", "Operations"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 291.36,
+    "y1": 160.79999999999998,
+    "y2": 284.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table6-1.png"
+}, {
+  "caption": "Table 2: Statistics of the datasets.",
+  "captionBoundary": {
+    "x1": 378.94000244140625,
+    "x2": 496.9531555175781,
+    "y1": 88.33631134033203,
+    "y2": 92.15399169921875
+  },
+  "figType": "Table",
+  "imageText": ["Dataset", "Train", "Valid", "Test", "CodeSearchNet", "454,451", "15,328", "-", "BFP", "58,909", "6,546", "-", "Defects4J-v1.2", "-", "-", "395", "Defects4J-v2.0", "-", "-", "430", "VulRD", "4,206", "600", "1,202"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 353.76,
+    "x2": 520.3199999999999,
+    "y1": 96.47999999999999,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table2-1.png"
+}, {
+  "caption": "Figure 1: Program repair at di erent granularities.",
+  "captionBoundary": {
+    "x1": 347.2950134277344,
+    "x2": 528.861328125,
+    "y1": 373.434326171875,
+    "y2": 377.25201416015625
+  },
+  "figType": "Figure",
+  "imageText": ["+", "value", "=", "Math.min(v,", "this.lowerBound);", "(this.upperBound", "-", "this.lowerBound)", "*", "255.0);", "//", "Patch", "generated", "by", "Rap-Gen", "-", "int", "g", "=", "(int)", "((value", "-", "this.lowerBound)", "/", "(this.upperBound", "-", "this.lowerBound)", "*", "255.0);", "+", "int", "g", "=", "(int)", "((", "v", "-", "this.lowerBound)", "/", "(this.upperBound", "-", "this.lowerBound)", "*", "255.0);", "//", "Patch", "generated", "by", "GAMMA", "-", "Context", "rhsContext", "=", "Context.OTHER;", "+", "Context", "rhsContext", "=", "Context.STATEMENT;", "//", "Patch", "generated", "by", "Rap-Gen", "-", "Context", "rhsContext", "=", "Context.OTHER;", "+", "ContextFactory", "rhsContext", "=", "getContext(context,", "false);", "Token-level", "repair", "from", "Chart-24:", "//", "Oracle", "Patch", "-", "int", "g", "=", "(int)", "((", "value", "-", "this.lowerBound)", "/", "+", "Context", "rhsContext", "=", "getContextForNoInOperator(context);", "//", "Patch", "generated", "by", "GAMMA", "-", "this.dataset", "=", "dataset;", "+", "this.data", "=", "dataset;", "Expression-level", "repair", "from", "Closure-123:", "//", "Oracle", "Patch", "-", "Context", "rhsContext", "=", "Context.OTHER;", "+", "setDataset(dataset);", "Statement-level", "repair", "from", "Chart-12:", "//", "Oracle", "Patch", "-", "this.dataset", "=", "dataset;"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 325.92,
+    "x2": 553.4399999999999,
+    "y1": 82.56,
+    "y2": 369.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Figure1-1.png"
+}, {
+  "caption": "Figure 4: The overlaps of the bugs xed by di erent approaches.",
+  "captionBoundary": {
+    "x1": 442.1910095214844,
+    "x2": 558.2032470703125,
+    "y1": 378.55731201171875,
+    "y2": 392.3380126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 441.59999999999997,
+    "x2": 559.1999999999999,
+    "y1": 252.95999999999998,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Figure4-1.png"
+}, {
+  "caption": "Table 4: Comparison with state-of-the-art APR techniques with Perfect FL (in number of correct repairs).",
+  "captionBoundary": {
+    "x1": 53.53519821166992,
+    "x2": 295.47100830078125,
+    "y1": 293.0843200683594,
+    "y2": 306.864990234375
+  },
+  "figType": "Table",
+  "imageText": ["Mulpor", "13", "26", "19", "23", "7", "4", "92", "GAMMA", "11", "24", "16", "25", "3", "3", "82", "CURE", "10", "14", "9", "19", "4", "1", "57", "SelfAPR", "9", "19", "10", "18", "5", "2", "63", "Recoder", "10", "21", "11", "18", "2", "3", "65", "Repilot", "6", "22", "15", "21", "0", "2", "66", "RAP-Gen", "9", "22", "12", "26", "2", "1", "72", "AlphaRepair", "9", "23", "13", "21", "5", "3", "74", "CoCoNuT", "7", "9", "7", "16", "4", "1", "44", "RewardRepair", "5", "12", "7", "17", "3", "1", "45", "Tool", "Chart", "Closure", "Lang", "Math", "Mockito", "Time", "Total", "TBar", "11", "16", "13", "22", "3", "3", "68"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 310.56,
+    "y2": 423.35999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table4-1.png"
+}, {
+  "caption": "Table 5: The performance of di erent approaches on the VulRD dataset (in %).",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.2033081054688,
+    "y1": 88.33631134033203,
+    "y2": 102.11700439453125
+  },
+  "figType": "Table",
+  "imageText": ["Approach", "PP", "PP@1", "PP@5", "PP@10", "VRepair", "12.3", "7.6", "11.2", "12.3", "SeqTran", "20.9", "15.4", "19.4", "20.0", "VulRepair", "18.1", "14.1", "17.0", "17.8", "VulRepair+", "22.5", "18.2", "21.7", "22.1", "Mulpor", "34.2", "25.6", "31.7", "33.2"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 353.76,
+    "x2": 522.24,
+    "y1": 105.6,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table5-1.png"
+}, {
+  "caption": "Table 3: The performance of di erent approaches on the Defects4J v1.2 and v2.0 dataset (in number of correct repairs).",
+  "captionBoundary": {
+    "x1": 53.53519821166992,
+    "x2": 294.048583984375,
+    "y1": 88.33631134033203,
+    "y2": 102.11700439453125
+  },
+  "figType": "Table",
+  "imageText": ["†", "PraPR", "and", "TBar", "are", "template-based", "tools.", "“-”", "indicates", "data", "unavailability.", "Mulpor", "92", "59", "56", "31", "GAMMA", "82", "45", "47", "20", "RAP-Gen", "72", "53", "48", "26", "AlphaRepair", "74", "36", "50", "20", "CURE", "55", "19", "38", "11", "SelfAPR", "63", "45", "39", "28", "Recoder", "65", "19", "49", "9", "Repilot", "66", "50", "47", "30", "RewardRepair", "44", "43", "27", "24", "TBar†", "68", "8", "43", "6", "CoCoNuT", "43", "-", "-", "-", "PraPR†", "-", "-", "41", "7", "v1.2", "v2.0", "v1.2", "v2.0", "Tool", "Perfect", "FL", "Spectrum-based", "FL"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 66.24,
+    "x2": 270.24,
+    "y1": 105.6,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table3-1.png"
+}, {
+  "caption": "Table 1: The proportion of repairs at di erent granularities.",
+  "captionBoundary": {
+    "x1": 66.18978881835938,
+    "x2": 281.390625,
+    "y1": 253.1325225830078,
+    "y2": 256.9501953125
+  },
+  "figType": "Table",
+  "imageText": ["†", "Types", "are", "from", "Eclipse", "JDT", "AST", "parser.", "Total", "33.4", "Total", "35.8", "Identi", "er", "19.4", "Type", "Literal", "5.7", "Modi", "ers", "5.7", "Others", "4.8", "Token", "Total", "30.8", "Method", "Invocation", "20.1", "Variable", "Declaration", "5.7", "Assignment", "3.1", "Others", "4.7", "Expression", "Expression", "Statement", "17.3", "If", "Statement", "7.8", "Return", "Statement", "3.3", "Others", "2.4", "Statement", "Granularity", "Type†", "Proportion(in", "%)"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 67.2,
+    "x2": 275.03999999999996,
+    "y1": 260.64,
+    "y2": 430.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Table1-1.png"
+}, {
+  "caption": "Figure 2: The overall work ow of Mulpor.",
+  "captionBoundary": {
+    "x1": 231.60299682617188,
+    "x2": 380.396484375,
+    "y1": 240.1813507080078,
+    "y2": 243.9990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 556.3199999999999,
+    "y1": 82.56,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680381-Figure2-1.png"
+}]

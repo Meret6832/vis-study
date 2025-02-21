@@ -1,0 +1,221 @@
+[{
+  "caption": "TABLE 5: Performance of Different GNNs on Vulnerability Fix Identification, CWE Classification, and Severity Classification",
+  "captionBoundary": {
+    "x1": 59.99259948730469,
+    "x2": 543.2385864257812,
+    "y1": 73.80075073242188,
+    "y2": 79.44329833984375
+  },
+  "figType": "Table",
+  "imageText": ["GRAPE", "89.14", "88.73", "88.32", "88.52", "79.63", "81.00", "61.90", "68.37", "0.657", "79.73", "84.04", "75.07", "78.57", "0.681", "GGNN", "84.26", "84.88", "81.31", "83.05", "76.85", "77.48", "62.62", "68.13", "0.608", "78.38", "82.66", "67.30", "70.58", "0.665", "GAT", "83.59", "82.11", "83.64", "82.87", "71.30", "65.42", "57.73", "60.38", "0.530", "69.59", "77.67", "67.95", "70.31", "0.544", "GCN", "84.70", "84.69", "82.71", "83.69", "68.98", "66.77", "59.69", "59.61", "0.526", "72.97", "82.50", "60.14", "65.83", "0.572", "Accurary", "Precision", "Recall", "F1-score", "Accurary", "Precision", "Recall", "F1-score", "MCC", "Accurary", "Precision", "Recall", "F1-score", "MCC", "Method", "Vulnerability", "Fix", "Identification", "CWE", "Classification", "Severity", "Classification"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 538.0799999999999,
+    "y1": 87.84,
+    "y2": 162.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Table5-1.png"
+}, {
+  "caption": "Fig. 1: Overall Architecture of GRAPE.",
+  "captionBoundary": {
+    "x1": 223.1147003173828,
+    "x2": 377.2196044921875,
+    "y1": 311.357666015625,
+    "y2": 317.0002136230469
+  },
+  "figType": "Figure",
+  "imageText": ["<file_path>", "@@", "-i,j", "+k,l", "@@", "f(){", "……", "-", "statement1", "+", "statement2", "……", "+", "statement3", "……", "MCPG", "github", "Slicing", "&", "Pruning", "fixed", "CPG", "buggy", "CPG", "commit", "fixed", "program", "`", "buggy", "program", "Merging", "CPGs", "l=1", "+", "edge", "vector", "node", "vector", "graph", "vector", "type", "code", "node", "embeddingnode", "Word2vec", "edge", "edge", "embedding", "classifier", "message", "passing", "GCN", "LearningGraph", "Embedding", "l=2", "+", "edge", "feature", "node", "feature", "l=3", "+", "edge", "feature", "node", "feature"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 518.4,
+    "y1": 72.96,
+    "y2": 304.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Figure1-1.png"
+}, {
+  "caption": "Fig. 4: Distribution of Vulnerable CWE Types.",
+  "captionBoundary": {
+    "x1": 341.56549072265625,
+    "x2": 522.430419921875,
+    "y1": 157.59317016601562,
+    "y2": 163.2357177734375
+  },
+  "figType": "Figure",
+  "imageText": ["59", "68", "69", "70", "79", "96", "627", "0", "100", "200", "300", "400", "500", "600"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 331.2,
+    "x2": 546.24,
+    "y1": 74.88,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Figure4-1.png"
+}, {
+  "caption": "TABLE 3: Results of Vulnerability Severity Classification",
+  "captionBoundary": {
+    "x1": 320.60247802734375,
+    "x2": 543.3108520507812,
+    "y1": 503.9834899902344,
+    "y2": 509.62603759765625
+  },
+  "figType": "Table",
+  "imageText": ["GRAPE", "79.73", "84.04", "75.07", "78.57", "0.681", "Transformer", "66.89", "84.11", "67.24", "69.05", "0.493", "TextCNN", "64.86", "47.88", "46.79", "46.54", "0.437", "Bi-LSTM", "71.62", "59.93", "59.89", "58.35", "0.556", "Method", "Accurary", "Precision", "Recall", "F1-score", "MCC"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 548.16,
+    "y1": 517.92,
+    "y2": 579.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Table3-1.png"
+}, {
+  "caption": "TABLE 1: Results of Vulnerability Fix Identification",
+  "captionBoundary": {
+    "x1": 75.00103759765625,
+    "x2": 278.3200988769531,
+    "y1": 180.45779418945312,
+    "y2": 186.100341796875
+  },
+  "figType": "Table",
+  "imageText": ["GRAPE", "89.14", "88.73", "88.32", "88.52", "10.14", "SPI", "82.04", "81.92", "82.15", "81.97", "16.37", "GraphSPD", "64.75", "63.72", "68.50", "66.02", "35.21", "PatchRNN", "81.56", "79.91", "80.62", "80.30", "18.30", "Transformer", "74.28", "74.19", "74.36", "74.20", "23.35", "TextCNN", "77.38", "77.26", "77.06", "77.14", "20.48", "Bi-LSTM", "78.73", "80.10", "72.37", "76.04", "16.23", "Method", "Accuracy/%", "Precision/%", "Recall/%", "F1-score/%", "FPR/%"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 295.2,
+    "y1": 194.88,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Table1-1.png"
+}, {
+  "caption": "TABLE 2: Results of Vulnerability CWE Classification",
+  "captionBoundary": {
+    "x1": 325.6202697753906,
+    "x2": 538.298828125,
+    "y1": 298.1493225097656,
+    "y2": 303.7918701171875
+  },
+  "figType": "Table",
+  "imageText": ["GRAPE", "79.63", "81.00", "61.90", "68.37", "0.657", "Transformer", "72.69", "90.88", "46.59", "56.07", "0.530", "TextCNN", "66.20", "53.54", "45.01", "45.86", "0.420", "Bi-LSTM", "68.52", "57.68", "49.75", "51.61", "0.480", "Method", "Accurary", "Precision", "Recall", "F1-score", "MCC"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 548.16,
+    "y1": 312.47999999999996,
+    "y2": 373.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Table2-1.png"
+}, {
+  "caption": "Fig. 2: A vulnerability fix in struts project with its commit ID 6efaf90.",
+  "captionBoundary": {
+    "x1": 163.6811065673828,
+    "x2": 438.60943603515625,
+    "y1": 190.24368286132812,
+    "y2": 195.88623046875
+  },
+  "figType": "Figure",
+  "imageText": ["---", "a/core/src/main/java/org/apache/struts2/result/ServletActionRedirectResult.java", "+++", "b/core/src/main/java/org/apache/struts2/result/ServletActionRedirectResult.java", "@@", "-159,9", "+159,9", "@@", "public", "ServletActionRedirectResult(String", "namespace,", "String", "actionName,", "String1", "1", "public", "void", "execute(ActionInvocation", "invocation)", "throws", "Exception", "{", "2", "actionName", "=", "conditionalParse(actionName,", "invocation);", "3", "+", "parseLocation", "=", "false;", "1", "4", "if", "(namespace", "==", "null)", "{", "5", "namespace", "=", "invocation.getProxy().getNamespace();", "6", "-", "parseLocation", "=", "false;", "1", "7", "}", "else", "{", "8", "namespace", "=", "conditionalParse(namespace,", "invocation);", "9", "}", "10", "}"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 494.4,
+    "y1": 72.96,
+    "y2": 181.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Figure2-1.png"
+}, {
+  "caption": "Fig. 5: Performance of Different Graph Data Structures.",
+  "captionBoundary": {
+    "x1": 67.73934936523438,
+    "x2": 283.93829345703125,
+    "y1": 422.7964172363281,
+    "y2": 428.43896484375
+  },
+  "figType": "Figure",
+  "imageText": ["(c)VSC", "CDG+DDG", "AST", "CPG", "MCC", "Rec", "F1", "Pre", "Acc", "(b)VTC", "CDG+DDG", "AST", "CPG", "MCC", "Rec", "F1", "Pre", "Acc", "(a)VFI", "CDG+DDG", "AST", "CPG", "F1", "Rec", "Pre", "Acc", "C.", "RQ3:", "Impact", "of", "GRAPE", "modules", "Answer", "to", "RQ2:", "GRAPE", "demonstrates", "a", "significant", "advantage", "over", "the", "baseline", "in", "both", "F1-score", "and", "MCC,", "which", "indicates", "that", "it", "can", "effectively", "capture", "the", "di-", "verse", "characteristics", "of", "vulnerabilities", "fix."],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 235.67999999999998,
+    "y2": 412.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Figure5-1.png"
+}, {
+  "caption": "TABLE 4: Performance of Different Node Embedding",
+  "captionBoundary": {
+    "x1": 326.4108581542969,
+    "x2": 535.8677978515625,
+    "y1": 368.217041015625,
+    "y2": 373.8595886230469
+  },
+  "figType": "Table",
+  "imageText": ["Severity", "Code", "76.35", "82.26", "64.87", "69.28", "0.626", "Classification", "Code+Type", "79.73", "84.04", "75.07", "78.57", "0.681", "CWE", "Code", "75.93", "80.15", "59.27", "64.14", "0.591", "Classification", "Code+Type", "79.63", "81.00", "61.90", "68.37", "0.657", "Vulnerability", "Fix", "Code", "85.81", "84.09", "86.45", "85.25", "-", "Identification", "Code+Type", "89.14", "88.73", "88.32", "88.52", "-", "Accuracy", "Precision", "Recall", "F1-score", "MCC", "Task", "Embedding", "Metric"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 550.0799999999999,
+    "y1": 382.56,
+    "y2": 478.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Table4-1.png"
+}, {
+  "caption": "Fig. 6: Visualization of GRAPE learned feature representation with/without graph merging module",
+  "captionBoundary": {
+    "x1": 313.140869140625,
+    "x2": 549.1380615234375,
+    "y1": 181.83584594726562,
+    "y2": 198.716064453125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "GRAPE", "(without)", "30", "Label", "0", "Label", "1", "20", "10", "0", "10", "20", "(a)", "GRAPE", "(with)", "40", "20", "0", "20", "40", "60", "30", "Label", "0", "Label", "1", "20", "10", "0", "10", "20", "40", "20", "0", "20", "40", "60"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.32,
+    "x2": 548.16,
+    "y1": 72.96,
+    "y2": 171.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Figure6-1.png"
+}, {
+  "caption": "Fig. 3: MCPG of the patch in Figure 2.",
+  "captionBoundary": {
+    "x1": 101.59449768066406,
+    "x2": 254.77212524414062,
+    "y1": 397.16094970703125,
+    "y2": 402.8034973144531
+  },
+  "figType": "Figure",
+  "imageText": ["AST", "identifier", "this", "CFG", "CFG", "AST", "AST", "identifier", "parseLocation", "literal", "false", "assignment", "parseLocation", "=", "false", "CFG", "AST", "ASTCFG", "DDG", "CDG", "AST", "AST", "CDGAST", "CDG", "AST", "AST", "AST", "AST", "getNamespace()", "identifier", "namespace", "identifier", "parseLocation", "literal", "false", "assignment", "parseLocation", "=", "false", "identifier", "namespace", "assignment", "namespace", "=", "getNamespace()", "literal", "null", "equals", "namespace", "==", "null", "block", "control_structure", "if(namespace", "==", "null)", "AST"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 297.12,
+    "y1": 250.56,
+    "y2": 390.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis2/issre-issre2024/figures/10_1109-ISSRE62328_2024_00022-Figure3-1.png"
+}]

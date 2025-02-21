@@ -1,0 +1,201 @@
+[{
+  "caption": "TABLE IV: Impact of inheritance and interface changes on test reusability features, such as on the depth of test class hierarchy tree, number of inherited and overridden test methods.",
+  "captionBoundary": {
+    "x1": 66.76594543457031,
+    "x2": 550.0117797851562,
+    "y1": 74.28689575195312,
+    "y2": 91.16717529296875
+  },
+  "figType": "Table",
+  "imageText": ["Extension", "Addition", "1.31", "1.0", "0", "4", "8.57", "4.0", "0", "69", "0.97", "0", "0", "7", "Removal", "-1.30", "-1.0", "-3", "-1", "-9.55", "-4.0", "-38", "0", "-0.68", "0", "-6", "Replacement", "0.07", "0", "-3", "4", "0.03", "0", "-43", "40", "0.03", "0", "-38", "7", "Implementation", "Addition", "0.33", "0", "0", "2", "0.41", "0", "0", "8", "0.67", "0", "0", "6", "Removal", "-1.0", "-1.0", "-1", "-1", "0", "0", "0", "0", "-1.0", "-1.0", "-1", "-1", "Replacement", "0.03", "0", "-1", "1", "-0.03", "0", "-1", "0", "0.02", "0", "0", "1", "mean", "median", "min", "max", "mean", "median", "min", "max", "mean", "median", "min", "max", "Type", "of", "Code", "Changes", "Test", "Hierarchy", "Changes", "Number", "of", "Inherited", "Method", "Changes", "Number", "of", "overridden", "Method", "Changes"],
+  "name": "IV",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 547.1999999999999,
+    "y1": 98.88,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-TableIV-1.png"
+}, {
+  "caption": "TABLE I: An overview of the studied systems, and the changes in test and source code from the beginning of history to the end of 2021.",
+  "captionBoundary": {
+    "x1": 314.806884765625,
+    "x2": 550.8109130859375,
+    "y1": 298.0258483886719,
+    "y2": 326.1447448730469
+  },
+  "figType": "Table",
+  "imageText": ["Test", "Src", "Systems", "Test", "LOC", "Test", "Class", "Src", "LOC", "Src", "Class", "cayenne", "32K→33K", "382→441", "112K→260K", "2K→4K", "commons-collections", "2K→37K", "5→230", "2K→30K", "5→360", "cucumber-jvm", "26→24K", "1→187", "26→26K", "1→598", "cxf", "70K→228K", "618→2K", "182K→457K", "2K→6K", "httpcomponents-client", "2K→70K", "11→618", "69K→70K", "618→686", "iotdb", "20→70K", "1→392", "4K→241K", "42→2K", "jclouds", "20→166K", "1→2K", "20→233K", "1→4K", "kylin", "20→9K", "1→129", "20→58K", "1→593", "maven", "20→19K", "1→196", "20→73K", "1→841", "ranger", "102→8K", "4→49", "37K→223K", "319→1K", "ratis", "313→3K", "7→18", "313→53K", "7→608", "wicket", "313→56K", "7→639", "313→160K", "7→3K", "Total", "106K→723K", "1K→6.9K", "406K→1884K", "1K→23.6K"],
+  "name": "I",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 554.4,
+    "y1": 334.56,
+    "y2": 451.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-TableI-1.png"
+}, {
+  "caption": "Fig. 1: The overview of the end-to-end process tracking the evolution of inheritance and interface in test and source code. TClass represents test class.",
+  "captionBoundary": {
+    "x1": 64.09612274169922,
+    "x2": 547.3418579101562,
+    "y1": 186.66287231445312,
+    "y2": 203.5430908203125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 544.3199999999999,
+    "y1": 68.64,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-Figure1-1.png"
+}, {
+  "caption": "TABLE II: Statistics on the changes of inheritance and interface, comparing both the source code and test code, where (+) is addition, (-) is removal and ∼ is replacement changes.",
+  "captionBoundary": {
+    "x1": 314.11370849609375,
+    "x2": 550.1175537109375,
+    "y1": 520.5678100585938,
+    "y2": 548.6857299804688
+  },
+  "figType": "Table",
+  "imageText": ["Source", "930", "563", "6451", "2132", "1428", "2592", "Total", "7,944", "Total", "6,152", "14,096", "6,721", "Test", "329", "1255", "2872", "90", "70", "80", "Total", "4,429", "Total", "233", "4,696", "3,043", "Extension", "Implementation", "Total", "#", "Evolution", "Type", "(+)", "(-)", "(∼)", "(+)", "(-)", "(∼)", "#", "Changes", "Graph"],
+  "name": "II",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 315.84,
+    "x2": 550.0799999999999,
+    "y1": 555.84,
+    "y2": 609.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-TableII-1.png"
+}, {
+  "caption": "Fig. 4: Issue 2: Under-utilized Inheritance. Test1 inherits utility methods from BaseTest, yet none of them are actually utilized.",
+  "captionBoundary": {
+    "x1": 60.27354049682617,
+    "x2": 296.2765197753906,
+    "y1": 613.3385620117188,
+    "y2": 641.4573974609375
+  },
+  "figType": "Figure",
+  "imageText": ["UtilityMethod2", "Utility", "Method", "is", "Never", "Utilized", "UtilityMethod1", "}", "public", "abstract", "class", "BaseTest", "{", "public", "class", "Test1", "extends", "BaseTest", "{", "@Test", "TestMethod{", "}", "}"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 274.08,
+    "y1": 557.28,
+    "y2": 601.92
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-Figure4-1.png"
+}, {
+  "caption": "Fig. 5: Issue 3: Duplicate Test Execution. In TestMethodName is executed both in Test1 and Test2.",
+  "captionBoundary": {
+    "x1": 314.52386474609375,
+    "x2": 550.5216674804688,
+    "y1": 227.04666137695312,
+    "y2": 243.9268798828125
+  },
+  "figType": "Figure",
+  "imageText": ["Executed", "in", "both", "parent", "and", "child", "TestMethod", "TestMethod", "}", "Non-abstract", "class", "BaseTest", "{", "@AfterClass", "@Test", "}", "public", "class", "Test1", "extends", "BaseTest", "{", "@BeforeClass", "@AfterClass", "@Test"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 315.36,
+    "x2": 529.92,
+    "y1": 166.07999999999998,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-Figure5-1.png"
+}, {
+  "caption": "Fig. 6: Issue 4: Obstructing Code Comprehension. Developers add duplicate fixture in both Test1 and Test2.",
+  "captionBoundary": {
+    "x1": 314.52386474609375,
+    "x2": 550.5276489257812,
+    "y1": 502.4346923828125,
+    "y2": 519.31494140625
+  },
+  "figType": "Figure",
+  "imageText": ["}", "}", "public", "abstract", "class", "BaseTest", "{", "@Before", "TestFixture", "{", "Duplicate", "Fixture", "}", "}", "public", "class", "Test1", "extends", "BaseTest", "{", "@Before", "TestFixture", "{"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 315.36,
+    "x2": 527.04,
+    "y1": 440.64,
+    "y2": 490.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-Figure6-1.png"
+}, {
+  "caption": "Fig. 3: Issue 1: Empty Inheritance. In Test1, we see an empty class because the code moved to the BaseTest. However, it may cause other subclasses depending on Test1 to create arbitrary inheritance relationship. i",
+  "captionBoundary": {
+    "x1": 60.27354049682617,
+    "x2": 296.2774658203125,
+    "y1": 278.0498962402344,
+    "y2": 328.6441955566406
+  },
+  "figType": "Figure",
+  "imageText": ["@Test", "@BeforeClass", "}", "public", "abstract", "class", "BaseTest", "{", "Move", "Test", "Code", "}", "public", "class", "Test1", "extends", "BaseTest", "{"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 273.12,
+    "y1": 232.79999999999998,
+    "y2": 264.96
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-Figure3-1.png"
+}, {
+  "caption": "Fig. 2: An example of class evolution graph.",
+  "captionBoundary": {
+    "x1": 92.40008544921875,
+    "x2": 265.13226318359375,
+    "y1": 618.6804809570312,
+    "y2": 624.322998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 279.36,
+    "y1": 516.96,
+    "y2": 612.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-Figure2-1.png"
+}, {
+  "caption": "TABLE III: For test and source code that undergoes inheritance and interface changes in evolution, we measure the prevalence of the initial version of the test and source Class vs. the snapshot analyzed at the end of 2021.",
+  "captionBoundary": {
+    "x1": 60.10009002685547,
+    "x2": 296.103759765625,
+    "y1": 206.27987670898438,
+    "y2": 245.636474609375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "=", "3,043", "Total", "=", "6,721", "Inheritance", "or", "Interface", "is", "added", "later", "on", "during", "software", "evolution.", "1,197", "(40%)", "1,052", "(16%)", "Inheritance", "or", "Interface", "is", "present", "from", "the", "beginning", "of", "code", "creation.", "Inheritance", "1,615", "(53%)", "2,985", "(44%)", "Inheritance", "&", "Interface", "142", "(4%)", "964", "(14%)", "Interface", "89", "(2.5%)", "1,720", "(25%)", "#", "Test", "Class", "#", "Source", "Class"],
+  "name": "III",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 296.15999999999997,
+    "y1": 253.44,
+    "y2": 342.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icsm-icsme2024/figures/10__1109--ICSME58944__2024_00031-TableIII-1.png"
+}]

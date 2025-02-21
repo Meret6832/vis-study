@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 3: Hyperparameters tuning for ML models.",
+  "captionBoundary": {
+    "x1": 338.7720031738281,
+    "x2": 537.0909423828125,
+    "y1": 162.9151153564453,
+    "y2": 168.5460205078125
+  },
+  "figType": "Table",
+  "imageText": ["Learning", "Rate", "Adam", "Optimizer", "Epsilon", "Hidden", "size", "No.", "of", "GNN", "layers", "5e-4", "to", "1e-1", "1e-8", "to", "1e-4", "32,", "64,", "128,", "256,", "512", "1,", "2,", "3,", "4,", "5", "G", "ra", "ph", "GGNN", "GCN", "Type", "Model", "Hyperparameters", "Range", "/", "Options"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 186.23999999999998,
+    "y2": 233.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Table3-1.png"
+}, {
+  "caption": "Table 4: Hyperparameters tuning for DL models. Note: Nongraph models include sequence-based models (CNN and LSTM) and Transformer-based model (CodeBERT).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8104858398438,
+    "y1": 330.1981201171875,
+    "y2": 357.74700927734375
+  },
+  "figType": "Table",
+  "imageText": ["CodeBERT", "Learning", "Rate", "Adam", "Optimizer", "Epsilon", "5e-4", "to", "1e-1", "1e-8", "to", "1e-4", "LSTM", "Learning", "Rate", "Adam", "Optimizer", "Epsilon", "No.", "of", "LSTM", "layers", "5e-4", "to", "1e-1", "1e-8", "to", "1e-4", "1,", "2,", "3", "-g", "ra", "ph", "N", "on", "Learning", "Rate", "Adam", "Optimizer", "Epsilon", "Kernel", "Size", "Padding", "5e-4", "to", "1e-1", "1e-8", "to", "1e-4", "1,", "3,", "5,", "7,", "9", "0,", "1,", "2,", "3", "CNN"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 234.72,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Table4-1.png"
+}, {
+  "caption": "Figure 1: An example of a C++ vulnerable function in Git, extracted from the fixing commit 34fa79a of the SV [CVE2016-2315]. Note: line 5 and 6 are vulnerable. Additions and removals are colored in green and red, respectively.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.1385803222656,
+    "y1": 301.6671142578125,
+    "y2": 340.17498779296875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "char", "*strdup(const", "char", "*s1)", "2", "{", "3", "char", "*s2", "=", "0;", "4", "if", "(s1)", "{", "5", "-", "s2", "=", "malloc(strlen(s1)", "+", "1);", "6", "-", "strcpy(s2", ",", "s1);", "7", "+", "size_t", "len", "=", "strlen(s1)", "+", "1;", "8", "+", "s2", "=", "malloc(len);", "9", "+", "memcpy(s2", ",", "s1,", "len);", "10", "}", "11", "return", "s2;", "12", "}"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 56.16,
+    "x2": 287.03999999999996,
+    "y1": 200.64,
+    "y2": 292.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Figure1-1.png"
+}, {
+  "caption": "Table 1: The CVSS assessment metrics considered in this study and their descriptions.",
+  "captionBoundary": {
+    "x1": 132.7519989013672,
+    "x2": 478.95379638671875,
+    "y1": 176.70008850097656,
+    "y2": 182.33099365234375
+  },
+  "figType": "Table",
+  "imageText": ["Metric", "group", "CVSS", "metric", "Description", "Exploitability", "Access", "Vector", "Medium/technique", "to", "attack/penetrate", "a", "system", "Access", "Complexity", "The", "complexity", "to", "exploit", "the", "SV", "and", "initiate", "an", "attack", "Authentication", "Whether/what", "authentication", "the", "attack", "requires", "to", "happen", "Impact", "Confidentiality", "The", "extent", "to", "which", "the", "attack", "allows", "unauthorized", "access", "to", "system", "sensitive/confidential", "data", "Integrity", "The", "extent", "to", "which", "the", "attack", "allows", "unauthorized", "modifications", "to", "system", "data", "Availability", "The", "extent", "to", "which", "the", "attack", "restricts", "accessibility", "to", "system", "data,", "resources,", "and", "services", "Severity", "Severity", "Level", "Combination", "of", "the", "Exploitability", "and", "Impact", "metrics,", "approximating", "the", "criticality", "of", "SVs"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Table1-1.png"
+}, {
+  "caption": "Figure 5: Training time of CodeBERT, multi-task CodeBERT and LGBM + BoST (in seconds). Note: CodeBERT multi-task does not have training time for each task.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.4947509765625,
+    "y1": 232.8130645751953,
+    "y2": 260.36199951171875
+  },
+  "figType": "Figure",
+  "imageText": ["RQ1", "Summary.", "Regarding", "multi-class", "ML", "models,", "ensemble", "models", "beat", "non-ensemble", "ones,", "and", "sub-token", "features", "are", "better", "than", "token", "ones,", "resulting", "in", "LGBM", "+", "BoST", "being", "the", "best", "ML", "model.", "Regarding", "multi-class", "DL", "models,", "CodeBERT", "is", "the", "best,", "followed", "by", "the", "graph-based", "models", "and", "finally", "the", "sequence-based", "models", "(CNN/LSTM)", "on", "average.", "Overall,", "the", "best", "MLmodel,", "LGBM", "+", "BoST,", "is", "competitive", "for", "function-level", "SV", "assessment", "with", "comparable", "performance", "to", "CodeBERT", "and", "significantly", "(75%)", "less", "training", "time."],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 558.24,
+    "y1": 296.64,
+    "y2": 408.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Figure5-1.png"
+}, {
+  "caption": "Table 5: Testing performance of different Machine Learning and Deep Learning models for CVSS-based function-level SV assessment. Notes: Values highlighted in grey are best task-wise for each method. Values in blue belong to the best ML model, i.e., LGBM + BoST.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.2943115234375,
+    "y1": 498.3791198730469,
+    "y2": 525.927978515625
+  },
+  "figType": "Table",
+  "imageText": ["CNN", "0.734", "0.853", "0.734", "0.843", "0.843", "0.707", "0.766", "0.651", "0.762", "0.652", "0.793", "0.708", "0.772", "0.677", "0.772", "0.727", "LSTM", "0.617", "0.840", "0.677", "0.805", "0.805", "0.663", "0.733", "0.599", "0.756", "0.639", "0.710", "0.605", "0.740", "0.634", "0.720", "0.683Non-", "Graph", "CodeBERT", "0.851", "0.857", "0.785", "0.840", "0.841", "0.680", "0.799", "0.650", "0.802", "0.684", "0.817", "0.711", "0.845", "0.715", "0.820", "0.734", "Average", "(by", "CVSS", "Metric)", "0.727", "0.846", "0.741", "0.827", "0.828", "0.669", "0.767", "0.638", "0.773", "0.654", "0.762", "0.672", "0.770", "0.655", "0.759", "0.709", "GGNN", "0.700", "0.828", "0.688", "0.831", "0.831", "0.676", "0.756", "0.627", "0.760", "0.636", "0.725", "0.645", "0.727", "0.627", "0.741", "0.696Graph-", "based", "GCN", "0.614", "0.874", "0.764", "0.831", "0.831", "0.664", "0.750", "0.674", "0.753", "0.642", "0.750", "0.666", "0.728", "0.616", "0.741", "0.709", "Type", "Model", "Multi-Task", "Deep", "Learning", "Models", "CNN", "0.619", "0.844", "0.484", "0.452", "0.763", "0.538", "0.728", "0.595", "0.775", "0.669", "0.754", "0.670", "0.451", "0.407", "0.653", "0.596", "LSTM", "0.619", "0.839", "0.731", "0.626", "0.729", "0.469", "0.423", "0.337", "0.768", "0.658", "0.707", "0.623", "0.745", "0.653", "0.675", "0.601Non-", "Graph", "CodeBERT", "0.619", "0.845", "0.739", "0.618", "0.800", "0.602", "0.765", "0.649", "0.749", "0.637", "0.763", "0.691", "0.786", "0.669", "0.746", "0.673", "Average", "(by", "CVSS", "Metric)", "0.683", "0.825", "0.671", "0.558", "0.780", "0.573", "0.673", "0.545", "0.743", "0.623", "0.712", "0.611", "0.667", "0.559", "0.704", "0.613", "GGNN", "0.765", "0.816", "0.716", "0.548", "0.783", "0.591", "0.674", "0.518", "0.739", "0.618", "0.719", "0.606", "0.694", "0.578", "0.727", "0.611Graph-", "based", "GCN", "0.826", "0.808", "0.734", "0.594", "0.785", "0.572", "0.738", "0.606", "0.717", "0.579", "0.681", "0.551", "0.671", "0.549", "0.736", "0.608", "Type", "Model", "Multi-Class", "Deep", "Learning", "Models", "fastText", "0.697", "0.795", "0.694", "0.598", "0.688", "0.451", "0.743", "0.603", "0.770", "0.659", "0.723", "0.653", "0.737", "0.659", "0.722", "0.631", "Average", "(by", "CVSS", "Metric)", "0.670", "0.737", "0.638", "0.510", "0.756", "0.567", "0.697", "0.544", "0.720", "0.586", "0.659", "0.574", "0.664", "0.571", "0.687", "0.584", "Word2Vec", "0.702", "0.811", "0.695", "0.585", "0.718", "0.502", "0.737", "0.599", "0.750", "0.629", "0.701", "0.624", "0.729", "0.650", "0.719", "0.628LGBM", "fastText", "0.667", "0.757", "0.599", "0.456", "0.696", "0.496", "0.652", "0.470", "0.678", "0.531", "0.615", "0.522", "0.611", "0.500", "0.645", "0.533", "BoT", "0.732", "0.789", "0.687", "0.563", "0.727", "0.544", "0.762", "0.630", "0.755", "0.640", "0.706", "0.630", "0.734", "0.639", "0.729", "0.634", "BoST", "0.754", "0.803", "0.732", "0.609", "0.783", "0.629", "0.780", "0.659", "0.801", "0.703", "0.737", "0.678", "0.751", "0.680", "0.763", "0.680", "Word2Vec", "0.710", "0.750", "0.568", "0.419", "0.718", "0.502", "0.653", "0.476", "0.655", "0.488", "0.611", "0.510", "0.578", "0.445", "0.642", "0.513XGB", "fastText", "0.635", "0.742", "0.508", "0.480", "0.626", "0.384", "0.676", "0.522", "0.705", "0.576", "0.606", "0.554", "0.588", "0.564", "0.621", "0.546", "BoT", "0.639", "0.750", "0.625", "0.479", "0.797", "0.632", "0.669", "0.499", "0.703", "0.572", "0.635", "0.562", "0.658", "0.578", "0.675", "0.582", "BoST", "0.711", "0.772", "0.662", "0.531", "0.820", "0.670", "0.686", "0.528", "0.736", "0.606", "0.670", "0.601", "0.673", "0.572", "0.708", "0.612", "Word2Vec", "0.634", "0.730", "0.500", "0.456", "0.626", "0.384", "0.674", "0.530", "0.707", "0.577", "0.609", "0.562", "0.561", "0.531", "0.616", "0.538RF", "fastText", "0.727", "0.795", "0.760", "0.626", "0.763", "0.560", "0.751", "0.619", "0.772", "0.658", "0.738", "0.649", "0.735", "0.642", "0.749", "0.650", "BoT", "0.587", "0.749", "0.531", "0.481", "0.808", "0.667", "0.623", "0.458", "0.673", "0.553", "0.599", "0.561", "0.594", "0.567", "0.631", "0.576", "BoST", "0.638", "0.750", "0.602", "0.516", "0.853", "0.738", "0.660", "0.502", "0.706", "0.591", "0.634", "0.582", "0.606", "0.584", "0.671", "0.609", "Word2Vec", "0.714", "0.800", "0.719", "0.582", "0.763", "0.560", "0.745", "0.612", "0.745", "0.618", "0.729", "0.635", "0.731", "0.624", "0.735", "0.633K-NN", "fastText", "0.579", "0.724", "0.546", "0.415", "0.727", "0.544", "0.636", "0.447", "0.669", "0.504", "0.589", "0.491", "0.594", "0.479", "0.620", "0.515", "BoT", "0.634", "0.730", "0.650", "0.455", "0.756", "0.588", "0.679", "0.521", "0.706", "0.560", "0.658", "0.544", "0.658", "0.517", "0.677", "0.559", "BoST", "0.650", "0.709", "0.683", "0.478", "0.787", "0.601", "0.715", "0.571", "0.721", "0.581", "0.680", "0.582", "0.672", "0.530", "0.701", "0.579", "Word2Vec", "0.632", "0.730", "0.561", "0.419", "0.773", "0.592", "0.629", "0.441", "0.668", "0.503", "0.570", "0.465", "0.563", "0.447", "0.628", "0.514SVM", "fastText", "0.504", "0.416", "0.580", "0.416", "0.783", "0.629", "0.638", "0.451", "0.668", "0.501", "0.597", "0.481", "0.595", "0.477", "0.623", "0.481", "BoT", "0.716", "0.784", "0.709", "0.564", "0.811", "0.629", "0.741", "0.611", "0.738", "0.611", "0.693", "0.585", "0.727", "0.623", "0.734", "0.629", "BoST", "0.724", "0.787", "0.700", "0.555", "0.753", "0.511", "0.748", "0.615", "0.757", "0.634", "0.720", "0.622", "0.756", "0.648", "0.737", "0.625", "Word2Vec", "0.506", "0.415", "0.554", "0.415", "0.782", "0.592", "0.628", "0.439", "0.676", "0.505", "0.573", "0.470", "0.577", "0.447", "0.614", "0.469LR", "BoT", "0.689", "0.789", "0.702", "0.566", "0.791", "0.591", "0.746", "0.618", "0.748", "0.621", "0.693", "0.586", "0.743", "0.643", "0.730", "0.630", "BoST", "0.740", "0.810", "0.734", "0.574", "0.804", "0.608", "0.761", "0.631", "0.766", "0.653", "0.726", "0.638", "0.759", "0.656", "0.756", "0.653", "Classifer", "Feature", "Multi-Class", "Machine", "Learning", "Models", "(by", "Model)", "Method", "CVSS", "Metric", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "F1", "MCC", "Confiden-", "tiality", "Integrity", "Availability", "Severity", "Average", "Authen-", "tication", "Access", "Complexity", "Access", "Vector"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 561.12,
+    "y1": 82.56,
+    "y2": 496.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Table5-1.png"
+}, {
+  "caption": "Figure 2: Methodology used to answer the research questions.",
+  "captionBoundary": {
+    "x1": 181.46600341796875,
+    "x2": 430.5347900390625,
+    "y1": 263.5541076660156,
+    "y2": 269.18499755859375
+  },
+  "figType": "Figure",
+  "imageText": ["RQ1:", "Multi-class", "Machine", "Learning", "vs.", "Multi-class", "Deep", "Learning", "for", "function-level", "SV", "assessment", "RQ2:", "Multi-task", "Deep", "Learning", "vs.", "Multi-class", "learning", "for", "function-", "level", "SV", "assessment", "Func", "fn", "After-fix:", "non-vulnerable", "Prior-fix:", "vulnerable", "...", "Func", "f1", "(VFCs)", "in", "C/C++", "Fixing", "Commits", "Vulnerability-", "SV", "Reports", "(e.g.,", "NVD)", "SV", "Assessment", "Models", "Train:Val:Test", "=", "80:10:10", "(Random", "+", "Stratified)", "Model", "Training", "Model", "Evaluation"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 559.1999999999999,
+    "y1": 87.84,
+    "y2": 246.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The CVSS metrics distributions in the dataset. Note: Access Complex., Auth., and Adj. Net. refer to Access Complexity, Authentication, and Adjacent Network, respectively.",
+  "captionBoundary": {
+    "x1": 317.62298583984375,
+    "x2": 559.8098754882812,
+    "y1": 426.58111572265625,
+    "y2": 454.1300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["-", "ili", "Severity", "r", "l", ".", "Auth.", "onfid-", "entiality", "Integ-", "rity", "(%", ")", "ge", "s", "ce", "n", "ta", "P", "er", "Access", "Vector", "Access", "Complex.", "Auth.", "Confiden", "-tiality", "Integrity", "Availa-", "bility", "Severity", "(", "L", ")", "L", "ow", ")", "(", "M", "iu", "m", "M", "ed", "H", ")", "h", "(", "H", "ig", ")", "(", "P", "ti", "al", "P", "ar", ")", "e", "(N", "N", "on", "C", ")", "te", "(", "p", "le", "C", "om", ")", "(", "P", "ti", "al", "P", "ar", ")", "e", "(N", "N", "on", "C", ")", "te", "(", "p", "le", "C", "om", ")", "(", "P", "ti", "al", "P", "ar", ")", "e", "(N", "N", "on", "C", ")", "te", "(", "p", "le", "C", "om", ")", "e", "(N", "N", "on", "(S", ")", "gl", "e", "S", "in", "(", "L", ")", "L", "ow", ")", "(", "M", "iu", "m", "M", "ed", "H", ")", "h", "(", "H", "ig", "N", ")", "k", "(", "w", "or", "N", "et", "L", ")", "al", "(", "L", "oc", ")", "et", ".", "(A", "A", "d", "j.", "N", "100.0", "80.0", "60.0", "40.0", "20.0", "0.0", "6.2", "54.0", "39.8", "57.0", "14.5", "28.4", "36.7", "45.9", "17.5", "47.8", "33.5", "18.7", "98.0", "2.0", "57.4", "39.2", "3.4", "78.2", "20.7", "1.2"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 276.96,
+    "y2": 413.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686670-Figure3-1.png"
+}]

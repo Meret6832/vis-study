@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 2: A simplified example of Improper Batch Size issues. “train_batch_size” and “eval_batch_size” are specified arguments for model training and evaluation, respectively. The fix is to increase their values independently (lines 3–4).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.7937622070312,
+    "y1": 162.18032836914062,
+    "y2": 200.68798828125
+  },
+  "figType": "Figure",
+  "imageText": ["eval_batch_size,", "shuffle", "=", "True)↩→", "train_batch_size,", "shuffle", "=", "True)↩→", "6", "eval_loader", "=", "DataLoader(dataset", "=", "eval_data,", "batch_size", "=", "1", "from", "torch.utils.data", "import", "DataLoader", "2", "3", "train_batch_size", "=", "32", "384", "4", "eval_batch_size", "=", "32", "448", "5", "train_loader", "=", "DataLoader(dataset", "=", "train_data,", "batch_size", "="],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 84.96,
+    "y2": 157.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Figure2-1.png"
+}, {
+  "caption": "Figure 3: A simplified example of Model Checkpointing issues. The fix is to save the checkpoint to a local temporary file (lines 25–26), followed by an asynchronous copy to the remote data store in a separate thread (lines 28–32).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.28887939453125,
+    "y1": 384.34735107421875,
+    "y2": 422.8550109863281
+  },
+  "figType": "Figure",
+  "imageText": ["1", "import", "torch", "2+import", "threading", "3+import", "shutil", "4+import", "os", "5", "6", "def", "main():", "7", "...", "8", "for", "epoch", "in", "range(start_epoch,", "num_epochs):", "9", "if", "step", ">", "num_training_steps:", "10", "break", "11", "...", "12", "for", "i,", "batch", "in", "enumerate(tqdm(train_loader)):", "13", "...", "14", "logits", "=", "model(input_data)", "15", "...", "16", "optimizer.zero_grad()", "17", "loss.backward()", "18", "optimizer.step()", "19", "...", "20", "f1,", "pred", "=", "evaluator.evaluate(val_loader,", "model,", "step)", "21", "...", "22", "if", "f1", ">", "max_f1:", "23", "max_f1", "=", "f1", "24", "torch.save(model,", "remote_path)", "25", "+", "local_path", "=", "make_tmp_path(epoch,", "i)", "26", "+", "torch.save(model,", "local_path)", "27", "28", "+", "def", "save_file(local_path,", "remote_path):", "29", "+", "shutil.copyfile(local_path,", "remote_path)", "30", "+", "os.remove(local_path)", "31", "32", "+", "threading.Thread(target", "=", "save_file,", "args", "=", "[local_path,", "remote_path]).start()↩→", "33", "34", "if", "__name__", "==", "'__main__':", "35", "main()"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 84.96,
+    "y2": 379.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Figure3-1.png"
+}, {
+  "caption": "Table 5: Experiments integrating large batch sizes, asynchronous model checkpointing, and automatic memory pinning.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.63653564453125,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Swin", "Transformer", "8", "Sync", "False", "53.40%", "(57.79%)", "1.00", "256", "Async", "True", "58.61%", "(87.50%)", "3.95", "BERT", "32", "Sync", "False", "55.21%", "(64.40%)", "1.00", "(large-uncased)", "768", "Async", "True", "85.78%", "(91.90%)", "7.52", "Model", "BZ", "Ckpt", "Memory", "Average", "GPU", "Speedup", "Mode", "Pinning", "Utilization"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 290.4,
+    "y1": 106.56,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Table5-1.png"
+}, {
+  "caption": "Figure 1: Workflow of Platform-X.",
+  "captionBoundary": {
+    "x1": 103.0510025024414,
+    "x2": 244.78549194335938,
+    "y1": 205.72238159179688,
+    "y2": 211.35302734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Figure1-1.png"
+}, {
+  "caption": "Table 4: Experiments on automatic memory pinning.",
+  "captionBoundary": {
+    "x1": 329.468994140625,
+    "x2": 546.3838500976562,
+    "y1": 233.58334350585938,
+    "y2": 239.2139892578125
+  },
+  "figType": "Table",
+  "imageText": ["256", "False", "61.81%", "(85.05%)", "3.41", "True", "62.64%", "(86.50%)", "3.50", "False", "53.40%", "(57.79%)", "1.00", "True", "54.82%", "(59.30%)", "1.03", "Swin", "Transformer", "8", "768", "False", "59.06%", "(90.78%)", "4.92", "True", "55.69%", "(92.06%)", "5.01", "(large-uncased)", "True", "56.25%", "(63.89%)", "1.15", "False", "55.21%", "(64.40%)", "1.00", "BERT", "32", "Pinning", "Utilization", "Model", "BZ", "Memory", "Average", "GPU", "Speedup"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 543.36,
+    "y1": 243.84,
+    "y2": 350.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Table4-1.png"
+}, {
+  "caption": "Table 3: Experiments on asynchronousmodel checkpointing.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.1942749023438,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "“Ckpt”", "denotes", "checkpointing.", "256", "Sync", "61.81%", "(85.05%)", "3.41", "Async", "56.66%", "(82.17%)", "3.82", "Sync", "53.40%", "(57.79%)", "1.00", "Async", "53.45%", "(57.81%)", "1.02", "Swin", "Transformer", "8", "768", "Sync", "59.06%", "(90.78%)", "4.92", "Async", "83.74%", "(90.69%)", "7.48", "(large-uncased)", "Async", "60.96%", "(63.65%)", "1.20", "Sync", "55.21%", "(64.40%)", "1.00", "BERT", "32", "Mode", "Utilization", "Model", "BZ", "Ckpt", "Average", "GPU", "Speedup"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 333.59999999999997,
+    "x2": 542.4,
+    "y1": 96.0,
+    "y2": 215.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Table3-1.png"
+}, {
+  "caption": "Table 2: Experiments on large batch sizes.",
+  "captionBoundary": {
+    "x1": 88.34700012207031,
+    "x2": 259.194091796875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Note:", "“BZ”", "denotes", "batch", "size,", "while", "“OOM”", "indicates", "that", "the", "job", "ran", "out", "of", "GPU", "memory", "and", "crashed.", "The", "numbers", "inside", "the", "parentheses", "represent", "the", "average", "GPU", "utilization", "during", "the", "model", "training", "stage.", "Swin", "Transformer", "8", "53.40%", "(57.79%)", "13.95%", "1.00", "16", "55.56%", "(63.80%)", "16.49%", "1.79", "32", "61.00%", "(73.90%)", "21.14%", "2.51", "64", "61.65%", "(79.36%)", "29.97%", "2.94", "128", "62.32%", "(82.46%)", "48.12%", "3.32", "256", "61.81%", "(85.05%)", "84.86%", "3.41", "384", "N/A:", "OOM", "N/A:", "OOM", "N/A:", "OOM", "(large-uncased)", "64", "55.52%", "(70.43%)", "22.03%", "1.96", "128", "54.91%", "(79.40%)", "27.92%", "3.10", "256", "62.38%", "(85.59%)", "39.15%", "4.16", "512", "57.32%", "(88.48%)", "61.53%", "4.67", "768", "59.06%", "(90.78%)", "84.87%", "4.92", "1024", "N/A:", "OOM", "N/A:", "OOM", "N/A:", "OOM", "32", "55.21%", "(64.40%)", "19.46%", "1.00", "BERT", "Utilization", "Utilization", "Model", "BZ", "Average", "GPU", "Peak", "GPU", "Mem", "Speedup"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 295.2,
+    "y1": 96.0,
+    "y2": 288.47999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Table2-1.png"
+}, {
+  "caption": "Table 1: Classification of the 706 low-GPU-utilization issues discovered across 400 deep learning jobs.",
+  "captionBoundary": {
+    "x1": 100.03399658203125,
+    "x2": 511.6540222167969,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Library", "Long", "Library", "Installation", "The", "installation", "of", "dependent", "libraries", "takes", "too", "much", "time", "(at", "least", "10", "minutes).", "12", "1.70%", "API", "Misuse", "API", "usage", "violates", "assumptions.", "16", "2.27%", "Subtotal", "28", "3.97%", "Total", "706", "100%", "Inefficient", "Host-GPU", "Data", "Transfer", "The", "data", "transfer", "between", "main", "memory", "and", "GPU", "memory", "is", "not", "efficient.", "197", "27.90%", "Data", "Preprocessing", "Raw", "input", "data", "is", "preprocessed", "using", "CPUs", "before", "model", "training.", "28", "3.97%", "Remote", "Data", "Read", "A", "job", "opens", "and", "reads", "input", "data", "directly", "from", "the", "distributed", "data", "store.", "18", "2.55%", "External", "Data", "Usage", "A", "job", "accesses", "input", "data", "or", "model", "files", "directly", "from", "external", "sites.", "18", "2.55%", "Intermediate", "Result", "Upload", "A", "job", "saves", "intermediate", "training", "results", "synchronously", "to", "the", "distributed", "data", "store.", "14", "1.98%", "Data", "Exchange", "The", "GPUs", "of", "a", "distributed", "job", "continually", "exchange", "data,", "such", "as", "gradients", "and", "output", "tensors,", "among", "one", "another.", "50", "7.08%", "Subtotal", "325", "46.03%", "Data", "Improper", "Batch", "Size", "Improper", "values", "of", "the", "batch", "size", "are", "used,", "which", "decrease", "the", "GPU", "computation", "of", "deep", "learning", "operators.", "181", "25.64%", "Insufficient", "GPU", "Memory", "The", "GPU", "memory", "is", "not", "sufficient", "to", "support", "more", "GPU", "computation.", "22", "3.12%", "Model", "Checkpointing", "A", "job", "saves", "model", "checkpoints", "synchronously", "to", "the", "distributed", "data", "store.", "116", "16.43%", "Subtotal", "319", "45.18%", "Model", "Interactive", "Job", "The", "execution", "of", "a", "job", "entails", "regular", "interaction", "with", "its", "owner.", "15", "2.12%", "GPU", "Oversubscription", "A", "job", "requests", "more", "GPUs", "than", "it", "actually", "utilizes.", "6", "0.85%", "Unreleased", "Job", "A", "job", "does", "not", "terminate", "promptly", "after", "completing", "its", "computation.", "9", "1.27%", "Non-DL", "Job", "A", "job", "is", "unrelated", "to", "deep", "learning", "and", "does", "not", "utilize", "GPUs", "at", "all.", "For", "example,", "the", "job", "performs", "data", "analysis", "using", "CPUs", "solely.", "4", "0.57%", "Subtotal", "34", "4.82%", "Job", "Dimension", "Category", "Description", "No.", "Ratio"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 59.519999999999996,
+    "x2": 552.0,
+    "y1": 98.39999999999999,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639232-Table1-1.png"
+}]

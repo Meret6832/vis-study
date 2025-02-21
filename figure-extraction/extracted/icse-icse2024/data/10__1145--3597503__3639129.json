@@ -1,0 +1,341 @@
+[{
+  "caption": "Figure 1:Motivating example. The necessity of assembly code for code clone detection.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1915893554688,
+    "y1": 511.3533630371094,
+    "y2": 527.9429931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Code", "A", "Code", "B", "(a)", "Assembly", "for", "code", "A", "(x86-64)", "(b)", "Assembly", "for", "code", "B", "(x86-64)", "sal", "eax,", "3", "jmp", ".L4", ".L2:", "mov", "eax,", "DWORD", "PTR", "[rbp-4]", ".L4:", "pop", "rbp", "ret", ".L3:", "pop", "rbp", "ret", "jmp", ".L3", ".L2:", "mov", "eax,", "DWORD", "PTR", "[rbp-4]", "sal", "eax,", "3", "int", "mul(int", "a){", "return", "(a<0)?", "a:(a*8);", "}", "mul(int):", "push", "rbp", "mov", "rbp,", "rsp", "mov", "DWORD", "PTR", "[rbp-4],", "edi", "cmp", "DWORD", "PTR", "[rbp-4],", "0", "js", ".L2", "mov", "eax,", "DWORD", "PTR", "[rbp-4]", "int", "mul(int", "num){", "if(num<0)", "return", "num;", "return", "num", "<<", "3;}", "mul(int):", "push", "rbp", "mov", "rbp,", "rsp", "mov", "DWORD", "PTR", "[rbp-4],", "edi", "cmp", "DWORD", "PTR", "[rbp-4],", "0", "jns", ".L2", "mov", "eax,", "DWORD", "PTR", "[rbp-4]"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 338.88,
+    "y2": 493.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure1-1.png"
+}, {
+  "caption": "Figure 6: Fine-tuning for HRM. We add a classification head and an FC layer to HRM. After fine-tuning, the classification head is stripped off directly. HRM is used to generate the code representation.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0428466796875,
+    "y1": 219.21835327148438,
+    "y2": 257.72601318359375
+  },
+  "figType": "Figure",
+  "imageText": ["Classification", "Head", "bert-base-uncased", "Label", "FC", "Layer", "Source", "Code", "A", "Source", "Code", "B", "[CLS]", "Tok1", "TokN'", "[SEP]", "Tok1", "TokM", "E[cls]", "E1", "EN'", "E[sep]", "E1'", "EM'...", "..."],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 270.24,
+    "y1": 85.44,
+    "y2": 202.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure6-1.png"
+}, {
+  "caption": "Figure 7: The overview of feature fusion module.",
+  "captionBoundary": {
+    "x1": 339.2239990234375,
+    "x2": 536.9241333007812,
+    "y1": 181.99337768554688,
+    "y2": 187.6240234375
+  },
+  "figType": "Figure",
+  "imageText": ["R", "R", "Reshape", "Matrix", "Multiplication", "C", "Concatenation", "Addition", "C", "Output", "MLP", "Mul.", "FjConvEHRM", "MLP", "Fi", "Erisc", "Ecisc", "Conv.", "Aggregation", "..."],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 557.76,
+    "y1": 84.0,
+    "y2": 166.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure7-1.png"
+}, {
+  "caption": "Table 7: Code classification accuracy (%) on GCJ and OJClone.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0374450683594,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Method", "OJClone", "GCJ", "ASTNN", "[64]", "(ICSE’2019)", "98.2", "93.4", "InferCode", "[10]", "(ICSE’2021)", "96.3", "90.8", "HELoC", "[58]", "(ICPC’2022)", "99.6", "97.2", "Prism", "100", "99.7"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 288.0,
+    "y1": 105.6,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Table7-1.png"
+}, {
+  "caption": "Figure 2: Motivating example 2. The difference between the CISC and RISC of code snippets with the same semantics. The grey and purple blocks respectively display a subset of machine instructions generated using the CISC and RISC instruction sets.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.4344482421875,
+    "y1": 263.5813293457031,
+    "y2": 280.1709899902344
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Accessing", "memory", "consistency", "in", "RISC", "CISC", "CISC", "RISC", "RISC", "CISC", "CISC", ".LFB0:", "cfi_startproc", "endbr64", "leal", "3(%rdi,%rsi,2),", "%eax", "ret", "ret", "endbr64", "leal", "3(%rdi,%rsi,2),", "%eax", ".LFB0:", "cfi_startproc", "int", "func(int", "a,", "int", "b){", "return", "a", "+", "b", "*", "2", "+", "3;", "}", "int", "func(int", "a,", "int", "b){", "int", "tmp", "=", "b", "*", "2;", "int", "tmp1", "=", "tmp", "+", "a;", "return", "tmp1", "+", "3;", "}", "(a)", "Calculation", "consistency", "in", "the", "CISC", "str", "w1,", "[x0,", "x1,", "lsl", "2]", "add", "x1,", "x1,", "1", "cmp", "x1,", "x2", "bne", ".L3", "str", "w1,", "[x0,", "x1,", "lsl", "2]", "add", "x1,", "x1,", "1", "cmp", "x1,", "1024", "bne", ".L2", "mov", "DWORD", "PTR", "[rdi+rax*4],", "eax", "lea", "rdx,", "[rax+1]", "add", "rax,", "2", "mov", "DWORD", "PTR", "[rdi+rdx*4],", "edx", "movdqa", "xmm1,", "xmm0", "add", "rdi,", "16", "paddd", "xmm0,", "xmm2", "movups", "XMMWORD", "PTR", "[rdi-16],", "xmm1", "void", "f(int", "arr[])", "{", "int", "i", "=", "0;", "while", "(i", "<", "1024)", "{", "arr[i]", "=", "i;", "i++;", "}", "}", "void", "f2(int", "arr[],", "int", "n)", "{", "for", "(int", "i=0;i<n;i++)", "{", "arr[i]", "=", "i;", "}", "}", "void", "outer2()", "{", "int", "arr[1024]", "=", "{};", "f2(arr,", "1024);", "}"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 558.24,
+    "y1": 86.88,
+    "y2": 245.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure2-1.png"
+}, {
+  "caption": "Table 6: Comparison of results from different methods on GCJ.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.18994140625,
+    "y1": 229.20736694335938,
+    "y2": 245.7960205078125
+  },
+  "figType": "Table",
+  "imageText": ["Method", "Precision", "Recall", "F1", "ASTNN", "[64]", "(ICSE’2019)", "0.954", "0.872", "0.911", "FCCA", "[25]", "(IEEE", "TR’2020)", "0.967", "0.898", "0.931", "InferCode[10]", "(ICSE’2021)", "0.932", "0.926", "0.929", "TreeCen", "[24]", "(ASE’2022)", "0.950", "0.950", "0.950", "HELoC", "[58]", "(ICPC’2022)", "0.987", "0.959", "0.974", "Prism", "0.999", "0.999", "0.999"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 552.0,
+    "y1": 260.64,
+    "y2": 340.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Table6-1.png"
+}, {
+  "caption": "Figure 9: Compiler sensitivity analysis. The coordinate XY represents the combination of ARM-Ox and x86-Oy combination.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6423034667969,
+    "y1": 179.75436401367188,
+    "y2": 207.302978515625
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "F1", "0.9825", "0.9800", "0.9850", "0.9875", "0.9900", "0.988", "0.986", "0.987", "0.985", "0.985", "0.985", "0.987", "0.983", "0.985", "0.986", "0.984", "0.985", "0.985", "0", "1", "2", "3", "0.9820.984", "0.989", "0.985", "0.984", "0.984", "0.980", "0.980", "0.982", "0.985", "0.979", "0.982", "0.984", "0.981", "0.981", "0.981", "0", "1", "2", "3", "0.9780.981", "0.986", "0.990", "0.988", "0.990", "0.989", "0.989", "0.989", "0.990", "0.987", "0.989", "0.989", "3", "0.987", "0.989", "0.990", "2", "1", "0", "0", "1", "2", "3", "0.9890.987", "0.992"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.76,
+    "y1": 85.44,
+    "y2": 163.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure9-1.png"
+}, {
+  "caption": "Figure 10: Dataset sensitivity analysis.",
+  "captionBoundary": {
+    "x1": 360.89599609375,
+    "x2": 515.254638671875,
+    "y1": 205.46633911132812,
+    "y2": 211.09698486328125
+  },
+  "figType": "Figure",
+  "imageText": ["=0.218", "Different", "Subset", "Group", "89.656", "F1", "（", "%", "）", "Fusion", "Concatenation", "Addition", "=2.829", "=4.911", "4.6G2.6G", "mean", "=99.829", "std", "=", "0.089", "5.9G", "94.861", "=2.035", "=2.791"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 557.76,
+    "y1": 82.56,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure10-1.png"
+}, {
+  "caption": "Figure 3: AST for code A and code B in Fig.1.",
+  "captionBoundary": {
+    "x1": 348.57598876953125,
+    "x2": 527.5729370117188,
+    "y1": 179.88235473632812,
+    "y2": 185.51300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["Operand", "differences", "Operator", "differences", "=", "4", "=", "3", "=", "2", "=", "1", "=", "0", "=", "3", "=", "2", "=", "1", "=", "0", "*", "a", "8", "a", "0a", "<", "?:", "R", "Body", "num", "3", "<<", "R", "num", "R", "num", "0", "<", "if", "Body"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 558.24,
+    "y1": 86.88,
+    "y2": 165.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure3-1.png"
+}, {
+  "caption": "Table 1: Comparison of experiment results from different methods on OJClone. The bold numbers are the best result.\"Syn\" and \"Sem\" mean the method based on syntactic and semantic information. \"Fusion\" means fusion multiprogramming language.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6365661621094,
+    "y1": 85.72634887695312,
+    "y2": 135.1929931640625
+  },
+  "figType": "Table",
+  "imageText": ["Method", "Prec.", "Recall", "F1", "Syn.", "Sem.", "Fusion", "DECKARD", "0.990", "0.050", "0.100", "✓", "×", "×", "CDLH", "0.470", "0.730", "0.570", "✓", "×", "×", "DeepSim", "(ESEC’2018)", "0.710", "0.830", "0.760", "✓", "✓", "×", "ASTNN", "(ICSE’2019)", "0.980", "0.920", "0.950", "✓", "×", "×", "FCCA", "(TR’2020)", "0.941", "0.873", "0.906", "✓", "✓", "×", "FA-AST", "(SANER’2020)", "0.947", "0.918", "0.932", "✓", "✓", "×", "FCDetector", "(ISSTA’2020)", "0.970", "0.950", "0.960", "✓", "✓", "×", "Code2vec", "(POPL’2019)", "0.560", "0.690", "0.610", "✓", "×", "×", "BERT", "(NAACL’2019)", "0.975", "0.918", "0.942", "✓", "✓", "×", "InferCode", "(ICSE’2021)", "0.952", "0.903", "0.927", "✓", "×", "×", "GraphCodeBert", "(ICLR’21)", "0.996", "0.977", "0.988", "✓", "✓", "×", "HELoC", "(ICPC’2022)", "0.995", "0.966", "0.980", "✓", "✓", "×", "Prism", "0.999", "0.999", "0.999", "✓", "✓", "✓"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 149.76,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Table1-1.png"
+}, {
+  "caption": "Table 2: Ablation study on effects of behavior semantics.",
+  "captionBoundary": {
+    "x1": 323.6360168457031,
+    "x2": 552.215087890625,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ID", "𝐸L𝐴𝑀", "𝐸risc", "𝐸cisc", "Prec.", "Recall", "F1", "1", "✓", "✓", "✓", "0.990", "0.984", "0.987", "2", "✓", "×", "×", "0.983", "0.926", "0.954", "3", "×", "✓", "✓", "0.989", "0.940", "0.964", "4", "✓", "✓", "×", "0.986", "0.949", "0.964", "5", "✓", "×", "✓", "0.986", "0.956", "0.971"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 105.6,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Table2-1.png"
+}, {
+  "caption": "Figure 4: t-SNE visualization of code representation. (a) displays the CISC and RISC representations from 5 tasks of the OJclone in a unified code representation space. The coolcolored points represent CISC embedding, and the warmcolored points represent RISC embedding. (b) and (c) shows the visualization of code representation from the fusion of CISC and RISC embedding.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6432189941406,
+    "y1": 158.52236938476562,
+    "y2": 229.906005859375
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "CISC", "and", "RISC", "(b)", "Addition", "(c)", "concatenation"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 82.56,
+    "y2": 143.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure4-1.png"
+}, {
+  "caption": "Table 4: The effectiveness of HRM.",
+  "captionBoundary": {
+    "x1": 103.5270004272461,
+    "x2": 244.01524353027344,
+    "y1": 258.2243347167969,
+    "y2": 263.85498046875
+  },
+  "figType": "Table",
+  "imageText": ["Code", "representation", "Prec.", "Recall", "F1", "𝐸𝑐𝑖𝑠𝑐", "|𝐸𝑟𝑖𝑠𝑐", "|𝐸𝑝𝑐𝑎", "0.985", "0.963", "0.974", "𝐸𝑐𝑖𝑠𝑐", "|𝐸𝑟𝑖𝑠𝑐", "|𝐸ℎ𝑒𝑎𝑑", "0.986", "0.967", "0.976", "𝐸𝑐𝑖𝑠𝑐", "|𝐸𝑟𝑖𝑠𝑐", "|𝐸𝑡𝑎𝑖𝑙", "0.986", "0.965", "0.975", "Prism", "0.999", "0.999", "0.999"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 278.88,
+    "y2": 335.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Table4-1.png"
+}, {
+  "caption": "Table 5: Comparisons of our fusion module and existing multi-feature fusion methods. *Compensated models with the same parameter numbers as our fusion module.",
+  "captionBoundary": {
+    "x1": 317.6590576171875,
+    "x2": 558.1900024414062,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Method", "Params", "Prec.", "(%)", "Recall", "(%)", "F1", "(%)", "Addition", "0.019M", "79.611", "74.489", "76.965", "Addition*", "0.224M", "94.230", "91.789", "92.993", "Concatenation", "0.167M", "95.732", "93.107", "94.401", "Concatenation*", "0.224M", "97.264", "96.088", "96.672", "(𝐹𝑟", "×", "𝐹𝑙", ")", "*", "𝐹𝑐", "0.224M", "99.767", "99.508", "99.637", "(𝐹𝑐", "×", "𝐹𝑙", ")", "*", "𝐹𝑟", "0.224M", "99.317", "99.276", "99.296", "Prism", "0.224M", "99.865", "99.886", "99.886"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 127.67999999999999,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Table5-1.png"
+}, {
+  "caption": "Figure 8: Visualization of task and token level embedding. Darkblue: 𝐸𝐻𝑅𝑀 (i.e. task embedding), Gray: 𝐸𝑝𝑐𝑎 (i.e. token embedding).",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.720703125,
+    "y1": 501.03936767578125,
+    "y2": 528.5880126953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 358.56,
+    "x2": 519.36,
+    "y1": 422.88,
+    "y2": 474.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure8-1.png"
+}, {
+  "caption": "Table 3: Comparative study between IR and assembly code for code clone detection. \"ref\" means reference experiments.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.03607177734375,
+    "y1": 85.72634887695312,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["ref", "9", "HRM", "𝐸𝐻𝑅𝑀", "0.983", "0.926", "0.954", "10", "Prism", "𝐸𝐻𝑅𝑀", ",", "𝐸𝑟𝑖𝑠𝑐", ",", "𝐸𝑐𝑖𝑠𝑐", "0.999", "0.999", "0.999", "II", "5", "HRM+IR2vec-FA", "𝐸𝐻𝑅𝑀", "|𝐸𝐼𝑅𝑓", "0.985", "0.931", "0.957", "6", "HRM+IR2vec-SYM", "𝐸𝐻𝑅𝑀", "|𝐸𝐼𝑅𝑠", "0.986", "0.929", "0.957", "7", "HRM+Asm2vec", "𝐸𝐻𝑅𝑀", "|𝐸𝑟𝑖𝑠𝑐", "0.986", "0.949", "0.964", "8", "HRM+Asm2vec", "𝐸𝐻𝑅𝑀", "|𝐸𝑐𝑖𝑠𝑐", "0.986", "0.956", "0.971", "I", "1", "IR2vec-FA", "𝐸𝐼𝑅𝑓", "0.950", "0.880", "0.914", "2", "IR2vec-SYM", "𝐸𝐼𝑅𝑠", "0.954", "0.878", "0.914", "3", "Asm2vec", "𝐸𝑟𝑖𝑠𝑐", "0.981", "0.938", "0.959", "4", "Asm2vec", "𝐸𝑐𝑖𝑠𝑐", "0.985", "0.939", "0.962", "GR", "ID", "Methods", "Code", "Repre.", "Prec.", "Recall", "F1"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 116.64,
+    "y2": 241.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Table3-1.png"
+}, {
+  "caption": "Figure 5: Overall structure of our Prism. The Prismmodel comprises three modules: the low-level language representation Module (LRM), the high-level language representation Module (HRM), and the Feature Fusion Module (FFM).",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1876831054688,
+    "y1": 325.8333435058594,
+    "y2": 342.4230041503906
+  },
+  "figType": "Figure",
+  "imageText": ["High-level", "language", "representation", "module", "(HRM)", "Low-level", "language", "representation", "module", "(LRM)", "Feature", "fusion", "module", "(FFM)", "Code", "Representation", "Clone?", "module", "fication", "classi-", "Compile", "Asm2Vec", "neural", "network", "model", "BERT", "mul(int):", "push", "{r7}", "sub", "sp,", "sp,", "#12", "add", "r7,", "sp,", "#0", "str", "r0,", "[r7,", "#4]", "ldr", "r3,", "[r7,", "#4]", "cmp", "r3,", "#0", "ble", ".L2", "ldr", "r3,", "[r7,", "#4]", "b", ".L3", "...", "mul(int):", "push", "rbp", "mov", "rbp,", "rsp", "mov", "DWORD", "PTR", "[rbp-4],", "edi", "cmp", "DWORD", "PTR", "[rbp-4],", "0", "jle", ".L2", "mov", "eax,", "DWORD", "PTR", "[rbp-4]", "jmp", ".L3", ".L2:", "mov", "eax,", "DWORD", "PTR", "[rbp-4]", "sal", "eax,", "3", ".L3:", "pop", "rbp", "ret", "int", "mul(int", "num){", "if(num>0)", "return", "num;", "return", "num", "<<", "3;}", "Code", "Clone", "Detection", "Input", "token", "function", "Assembly", "Sigmoid", "Average", "CISC", "RISC", "Source", "Code"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 87.84,
+    "y2": 311.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639129-Figure5-1.png"
+}]

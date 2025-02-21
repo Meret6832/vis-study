@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 6: The evolution of patches through di erent repair iterations of (a) FlakyDoctor-Magicoder and (b) FlakyDoctor-GPT-4. The notation To indicates the applicability and impact of the Stitching to the current patch",
+  "captionBoundary": {
+    "x1": 53.537899017333984,
+    "x2": 295.6501159667969,
+    "y1": 480.0881042480469,
+    "y2": 517.259033203125
+  },
+  "figType": "Figure",
+  "imageText": ["CE", "To", "CE:", "Stitching", "transforms", "CE", "to", "CE", "CE", "To", "F:", "Stitching", "transforms", "CE", "to", "F", "CE", "To", "P:", "Stitching", "transforms", "CE", "to", "P", "P:", "Test", "Pass", "F:", "Test", "Failure", "CE:", "Compilation", "Error", "0:F", "500", "0:F", "170", "Iter1", "Iter2", "Iter3", "Iter4", "Iter5start", "(b)", "(a)"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 301.44,
+    "y1": 82.56,
+    "y2": 465.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Figure6-1.png"
+}, {
+  "caption": "Figure 1: Example of a previously un xed OD akiness in Elasticjob [9] repaired by FlakyDoctor that cannot be repaired by alternative approaches",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.80810546875,
+    "y1": 375.8231201171875,
+    "y2": 402.0360107421875
+  },
+  "figType": "Figure",
+  "imageText": ["23", "}", "isPresent());", "18", "}", "19", "//", "OD-Victim", "20", "@Test", "21", "public", "void", "assertWithoutEventTraceRdbConfiguration(){", "22", "assertFalse(bootstrapEnvironment.getTracingConfiguration().", "properties\",", "new", "Properties());", "15", "@Test", "16", "public", "void", "cleaner()", "{", "17", "ReflectionUtils.setFieldValue(", "bootstrapEnvironment,", "\"", "been", "added", "for", "illustration)", "12", "+", "\"properties\",", "new", "Properties());", "13", "}", "14", "//", "OD-Cleaner", "(Does", "not", "exist", "in", "the", "original", "test", "suite", "and", "has", "10", "//...", "11", "+", "ReflectionUtils.setFieldValue(bootstrapEnvironment,", "properties);", "9", "ReflectionUtils.setFieldValue(bootstrapEnvironment,\"properties\",", "EVENT_TRACE_RDB_PASSWORD,", "\"password\");", "8", "properties.setProperty(BootstrapEnvironment.", "EVENT_TRACE_RDB_USERNAME,", "\"sa\");", "7", "properties.setProperty(BootstrapEnvironment.", "\"jdbc:h2:mem:job_event_trace\");", "6", "properties.setProperty(BootstrapEnvironment.EVENT_TRACE_RDB_URL,", "EVENT_TRACE_RDB_DRIVER,", "\"org.h2.Driver\");", "1", "//", "OD-Polluter", "2", "@Test", "3", "public", "void", "assertGetEventTraceRdbConfigurationMap()", "{", "4", "Properties", "properties", "=", "new", "Properties();", "5", "properties.setProperty(BootstrapEnvironment."],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 310.56,
+    "x2": 554.4,
+    "y1": 81.6,
+    "y2": 363.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Figure1-1.png"
+}, {
+  "caption": "Table 4: The results of vanilla prompting compared to FlakyDoctor. Patches: Total generated patches; C-Patches: Correct patches; FP-Patches: False Positives.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8029174804688,
+    "y1": 88.05909729003906,
+    "y2": 114.27099609375
+  },
+  "figType": "Table",
+  "imageText": ["Magicoder", "11", "0", "0", "OD-Brittle", "33", "GPT-4", "13", "0", "1", "Magicoder", "173", "1", "2", "OD-Victim", "299", "GPT-4", "251", "2", "2", "Magicoder", "255", "1", "10", "ID", "541", "GPT-4", "336", "11", "12", "Flakiness", "#Tests", "Model", "#Patches", "#C-Patches", "#FP-Patches"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 553.4399999999999,
+    "y1": 128.64,
+    "y2": 202.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Table4-1.png"
+}, {
+  "caption": "Table 3: Impact of precise akiness localization on the effectiveness of FlakyDoctor. Avg. Lines: Average length of entire test reports; Patches and O-Patches indicate correct patches with longer prompts and original FlakyDoctor.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6529541015625,
+    "y1": 88.05909729003906,
+    "y2": 125.22998046875
+  },
+  "figType": "Table",
+  "imageText": ["Magicoder", "0", "3", "OD-Brittle", "13", "489", "GPT-4", "0", "12", "Magicoder", "42", "77", "OD-Victim", "120", "164", "GPT-4", "52", "106", "Magicoder", "0", "28", "ID", "216", "606", "GPT-4", "2", "111", "Flakiness", "#Tests", "Avg.", "Lines", "Model", "#Patches", "#O-Patches"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 284.15999999999997,
+    "y1": 139.68,
+    "y2": 213.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Table3-1.png"
+}, {
+  "caption": "Figure 2: Example of a previously un xed ID akiness in Hadoop [8] repaired by FlakyDoctor that cannot be repaired by alternative approaches",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.81005859375,
+    "y1": 291.5121154785156,
+    "y2": 317.7250061035156
+  },
+  "figType": "Figure",
+  "imageText": ["18", "+", "decay\",", "expectedMap1,", "map1);", "19", "}", "17", "+", "assertEquals(\"Get", "expected", "JMX", "of", "CallVolumeSummary", "before", "16", "+", "expectedMap1.put(\"C\",", "2);", "15", "+", "expectedMap1.put(\"B\",", "2);", "14", "+", "expectedMap1.put(\"A\",", "6);", "13", "+", "Map<String,", "Integer>", "expectedMap1", "=", "new", "LinkedHashMap<>();", "12", "+", ".getType());", "11", "+", "cvs1,", "new", "TypeToken<LinkedHashMap<String,", "Integer>()", "10", "+", "Map<String,", "Integer>", "map1", "=", "new", "Gson().fromJson(", "9", "-", "decay\",", "cvs1.equals(\"\\{\"A\":6,\\\"B\\\":2,\\\"C\\\":2\\}\"));", "8", "-", "assertTrue(\"Get", "expected", "JMX", "of", "CallVolumeSummary", "before", "CallVolumeSummary\");", "1", "@Test", "//", "ID", "flaky", "test", "2", "public", "void", "testPriority()", "throws", "Exception", "{", "3", "//...", "4", "MBeanServer", "mbs", "=", "ManagementFactory.getPlatformMBeanServer();", "5", "ObjectName", "mxbeanName", "=", "new", "ObjectName(", "6", "\"Hadoop:service=\"+", "namespace", "+", "\",name=DecayRpcScheduler\");", "7", "String", "cvs1", "=", "(String)mbs.getAttribute(mxbeanName,\""],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 310.56,
+    "x2": 554.4,
+    "y1": 81.6,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Comparison between the correct patches generated by di erent approaches. Sub- gures a-b compare OD-Victim, c-d compare OD-Brittle, and e-f compare ID patches",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.292236328125,
+    "y1": 357.8851013183594,
+    "y2": 384.09698486328125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 547.1999999999999,
+    "y1": 96.0,
+    "y2": 329.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Overview of FlakyDoctor for repairing test akiness",
+  "captionBoundary": {
+    "x1": 177.10899353027344,
+    "x2": 434.89111328125,
+    "y1": 322.2181091308594,
+    "y2": 326.51300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["with", "original", "code", "Reverts", "method", "name", "to", "be", "consistent", "CI.3", "CI.2", "2", "CI.1", "1", "original", "code", "Reverts", "modiﬁer", "to", "be", "consistent", "with", "Adds", "an", "import", "statement", "public", "void", "convertToDatabaseColumn_twoElement_Fix()", "throws", "IOException", "{", "-", "Map<String,", "String>", "map", "=", "new", "HashMap<>(8);", "+", "Map<String,", "String>", "map", "=", "new", "LinkedHashMap<>(8);", "...", "assertEquals(expected,", "this.converter.convertToDatabaseColumn(map));", "}", "public", "void", "convertToDatabaseColumn_twoElement()", "throws", "IOException", "{", "Map<String,", "String>", "map", "=", "new", "HashMap<>(8);", "map.put(\"a\",", "\"1\");", "map.put(\"disableCheck\",", "\"true\");", "...", "assertEquals(expected,", "this.converter.convertToDatabaseColumn(map));", "}", "2.", "Execution", "results", "1.", "Original", "patch", "Response", "&", "Inspection", "Lines", "“Map<String,", "String>", "map", "=", "new", "HashMap<>(8);”", "may", "cause", "potential", "test", "flakiness.", "Test", "failure:", "“expected:", "<{\"a\":\"1\",\"disableCheck\":\"true\"}>", "but", "was:", "<{\"disableCheck\":\"true\",\"a\":\"1\"}>”", "Lines", "“assertEquals(expected,this.converter.", "convertToDatabaseColumn(map));”", "cause", "test", "failure.", "Compilation", "error:", "'cannot", "find", "symbol:", "class", "LinkedHashMap',", "'location:", "class", "com.ctrip.framework.apollo.biz.ent", "ity.JpaMapFieldJsonConverterTest'+", "import", "java.util.LinkedHashMap;", "public", "void", "convertToDatabaseColumn_twoElement_Fix()", "throws", "IOException", "{", "-", "Map<String,", "String>", "map", "=", "new", "HashMap<>(8);", "+", "Map<String,", "String>", "map", "=", "new", "LinkedHashMap<>(8);", "...", "assertEquals(expected,", "this.converter.convertToDatabaseColumn(map));", "}", "Inspection", "Results", "Repaired", "Test", "Suite", "FlakyDoctor", "Termination", "criteria:", "1-", "Identical", "error", "observed", "for", "3", "times", "2-", "Maximum", "5", "iterations", "otherwise", "Ofﬂine", "Stitched", "PatchValidator", "Tailor", "Stitching", "LLM", "Inspector", "Prompt", "Generator", "Prompt", "Flaky", "Test", "Suite"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 65.75999999999999,
+    "x2": 546.24,
+    "y1": 82.56,
+    "y2": 307.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Prompt templates for repairing OD-Victim (a), ID (b) and OD-Brittle (c) aky tests",
+  "captionBoundary": {
+    "x1": 122.0999984741211,
+    "x2": 489.9007873535156,
+    "y1": 364.76910400390625,
+    "y2": 369.0639953613281
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "@Test", "public", "void", "testEmitSingleLongTimeRt()", "{", "String", "resourceName", "=", "createResourceName(\"testEmitSingleLongTimeRt\");", "StepVeriﬁer.create(Mono.just(2)", ".delayElement(Duration.ofMillis(1000))", ".map(e", "->", "e", "*", "2)", "…", "assertEquals(1000,", "cn.avgRt(),", "20);", "}", "Rules", "When", "the", "test", "fails,", "I", "get", "the", "following", "error:", "expected:<1000.0>", "but", "was:<1047.0>", "The", "error", "is", "from", "line(s)", "assertEquals(1000,", "cn.avgRt(),", "20);", "testEmitSingleLongTimeRt", "is", "the", "flaky", "test", "you", "need", "to", "fix,", "which", "is", "located", "in", "the", "following", "java", "code:", "You", "are", "a", "software", "testing", "expert.", "I’m", "going", "to", "ask", "you", "to", "fix", "a", "flaky", "test.", "[Definition", "of", "Order-Dependent", "Brittle", "Tests]", "When", "OD", "Brittle", "tests", "run", "in", "isolation,", "they", "may", "fail", "due", "to", "improperly", "configured", "status…", "Flakiness", "can", "be", "fixed", "by", "ensuring", "that", "states", "are", "correctly", "set", "up", "(or", "shut", "down)", "at", "the", "test's", "beginning", "(or", "the", "end)...", "(a)", "(b)", "@Test", "void", "convertToDatabaseColumn_twoElement()", "throws", "IOException", "{", "Map<String,", "String>", "map", "=", "new", "HashMap<>(8);", "map.put(\"a\",", "\"1\");", "map.put(\"disableCheck\",", "\"true\");", "...", "assertEquals(expected,", "this.converter.convertToDatabaseColumn(map));", "}", "Rules", "When", "the", "test", "fails,", "I", "get", "the", "following", "error:", "expected:", "<{\"a\":\"1\",\"disableCheck\":\"true\"}>", "but", "was:", "<{\"disableCheck\":\"true\",\"a\":\"1\"}>", "The", "error", "is", "from", "line(s)", "assertEquals(expected,this.converter.", "convertToDatabaseColumn(map));", "Line", "Map<String,", "String>", "map", "=", "new", "HashMap<>(8);", "may", "cause", "the", "flakiness.", "convertToDatabaseColumn_twoElement", "is", "the", "flaky", "test", "you", "need", "to", "fix,", "which", "is", "located", "in", "the", "following", "java", "code:", "You", "are", "a", "software", "testing", "expert.", "I’m", "going", "to", "ask", "you", "to", "fix", "a", "flaky", "test.", "[Definition", "of", "Implementation-Dependent", "Tests]", "ID", "flaky", "tests", "are", "caused", "by", "using", "some", "APIs", "which", "assume", "the", "order", "of", "elements", "are", "guaranteed…", "Flakiness", "can", "be", "resolved", "by", "making", "sure", "the", "elements", "returned", "from", "collections", "are", "in", "a", "deterministic", "order…", "PolluterOther", "hepler", "methods", "Victim", "@Test", "public", "void", "testDefaultConﬁg()", "{", "//…", "assertEquals(SentinelConﬁg.DEFAULT_COLD_FACTOR,", "SentinelConﬁg.coldFactor());", "//…", "}", "@Test", "public", "void", "testColdFactoryLargerThanOne()", "{", "//…", "SentinelConﬁg.setConﬁg(SentinelConﬁg.COLD_FACTOR,", "\"2\");", "assertEquals(2,", "SentinelConﬁg.coldFactor());", "//…", "}", "Problem", "DefinitionInstruction", "Related", "Code", "Failure", "Location", "Rules", "Rules", "When", "the", "test", "fails,", "I", "get", "the", "following", "error:", "java.lang.AssertionError:", "expected:<3>", "but", "was:<4>", "The", "error", "is", "from", "line(s)", "assertEquals(SentinelConﬁg.DEFAULT_COLD_FACTOR,", "SentinelConﬁg.coldFactor());", "in", "method", "testDefaultConﬁg.", "testDefaultConﬁg", "is", "the", "victim", "flaky", "test", "you", "need", "to", "fix,", "testColdFactoryLargerThanOne", "is", "the", "polluter,", "they", "are", "located", "in", "the", "following", "java", "code:", "@Before", "public", "void", "setUp()", "{//...}", "@After", "public", "void", "tearDown()", "{//...}", "private", "DBHelper", "dbHelper;", "You", "are", "a", "software", "testing", "expert.", "I’m", "going", "to", "ask", "you", "to", "fix", "a", "flaky", "test.", "[Definition", "of", "Order-Dependent", "Victim", "Tests]", "When", "tests", "are", "dependent", "on", "each", "other", "through", "a", "shared", "state,", "changing", "the", "execution", "order", "results", "in", "a", "non-deterministic", "pass", "or", "failure…", "Flakiness", "can", "be", "resolved", "by", "removing", "the", "dependency", "between", "tests."],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 551.04,
+    "y1": 82.56,
+    "y2": 350.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680369-Figure4-1.png"
+}]

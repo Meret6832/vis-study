@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 3: Meta-Operations",
+  "captionBoundary": {
+    "x1": 387.00201416015625,
+    "x2": 488.8557434082031,
+    "y1": 423.8583679199219,
+    "y2": 429.489013671875
+  },
+  "figType": "Table",
+  "imageText": ["Meta-Operation", "description", "Construct", "Construct", "the", "container", "Resize", "Resize", "container", "size", "Add", "Increase", "container", "size", "Sub", "Decrease", "container", "size", "Swap", "Swap", "container", "sizes", "Other", "Independent", "of", "container", "size"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 341.76,
+    "x2": 532.3199999999999,
+    "y1": 444.0,
+    "y2": 525.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table3-1.png"
+}, {
+  "caption": "Table 1: operational semantics of Iterator Operations. (sc: sequence container, 𝜏 : offset, 𝜙 : valid.)",
+  "captionBoundary": {
+    "x1": 112.78204345703125,
+    "x2": 498.9211120605469,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Bind", "Bind(it,sc)", "𝑖𝑡=⟨id,unknown,𝜏,𝜙", "⟩", "𝑖𝑡=⟨id,𝑠𝑐,𝜏,𝜙", "⟩", "Invalidation", "Invalid(InSCIt)", "𝐼𝑛𝑆𝐶𝐼𝑡=⟨id,ct,𝜏,𝜙", "⟩", "𝐼𝑛𝑆𝐶𝐼𝑡=⟨id,ct,𝜏,false⟩", "Movement(Decrease)", "Decrease(it,n)", "𝑖𝑡=⟨id,ct,𝜏,𝜙", "⟩", "𝑖𝑡=⟨id,ct,𝜏−𝑛,𝜙", "⟩", "Movement(Increase)", "Increase(it,n)", "𝑖𝑡=⟨id,ct,𝜏,𝜙", "⟩", "𝑖𝑡=⟨id,ct,𝜏+𝑛,𝜙", "⟩", "Assignment", "Assign(𝑖𝑡1,", "𝑖𝑡2)", "𝑖𝑡1=⟨id,ct,𝜏,𝜙", "⟩", "𝑖𝑡1=⟨id,𝑖𝑡2", ".ct,𝑖𝑡2", ".𝜏,𝑖𝑡2", ".𝜙", "⟩", "Type", "Expression", "Operational", "Semantics"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 147.84,
+    "x2": 462.24,
+    "y1": 105.6,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table1-1.png"
+}, {
+  "caption": "Table 2: operational semantics of meta operations. (Δ: size change, sc: sequence container, \\ : size, 𝜏 : type.)",
+  "captionBoundary": {
+    "x1": 94.33799743652344,
+    "x2": 517.3651733398438,
+    "y1": 253.29837036132812,
+    "y2": 258.92901611328125
+  },
+  "figType": "Table",
+  "imageText": ["Swap", "Swap(𝑠𝑐1,", "𝑠𝑐2,InSCIt)", "𝑠𝑐1=⟨id1,\\1,𝜏", "⟩;", "𝑠𝑐2=⟨id2,\\2,𝜏", "⟩", "𝑠𝑐1=⟨id,\\2,𝜏", "⟩;", "𝑠𝑐2=⟨id,\\1,𝜏", "⟩;", "Invalid(𝐼𝑛𝑆𝐶𝐼𝑡", ")", "Sub", "Sub(sc,Δ,InSCIt)", "𝑠𝑐=⟨id,\\,𝜏", "⟩", "Resize(𝑠𝑐,\\−Δ,𝐼𝑛𝑆𝐶𝐼𝑡", ")", "Add", "Add(sc,Δ,InSCIt)", "𝑠𝑐=⟨id,\\,𝜏", "⟩", "Resize(𝑠𝑐,\\+Δ,𝐼𝑛𝑆𝐶𝐼𝑡", ")", "Resize", "Resize(sc,Δ,InSCIt)", "𝑠𝑐=⟨id,\\,𝜏", "⟩", "𝑠𝑐=⟨id,Δ,𝜏", "⟩;", "Invalid(𝐼𝑛𝑆𝐶𝐼𝑡", ")", "Construct", "Construct(sc,Δ)", "𝑠𝑐=⟨id,\\,𝜏", "⟩", "𝑠𝑐=⟨id,Δ,𝜏", "⟩", "Type", "Expression", "Operational", "Semantics"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 130.56,
+    "x2": 479.03999999999996,
+    "y1": 273.59999999999997,
+    "y2": 407.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table2-1.png"
+}, {
+  "caption": "Figure 1: The number of EASC-related commits. The EASCrelated commits typically involve iterator or sequence containers. So we use iterator, vector, list, deque, and array as keywords to search commits from projects with more than 10,000 stars on GitHub.",
+  "captionBoundary": {
+    "x1": 53.564998626708984,
+    "x2": 295.64215087890625,
+    "y1": 651.8113403320312,
+    "y2": 701.2780151367188
+  },
+  "figType": "Figure",
+  "imageText": ["deque", "array", "iterator", "vector", "list", "year", "2.5", "·104", "2.25", "2", "1.75", "1.5", "1.25", "1", "0.75", "0.5", "0.25", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "0"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 65.28,
+    "x2": 282.24,
+    "y1": 439.2,
+    "y2": 634.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Figure1-1.png"
+}, {
+  "caption": "Table 9: The number of bug patterns in the correct reports.",
+  "captionBoundary": {
+    "x1": 54.86600112915039,
+    "x2": 292.67120361328125,
+    "y1": 575.0162963867188,
+    "y2": 580.64697265625
+  },
+  "figType": "Table",
+  "imageText": ["Cataclysm-DDA", "0", "5", "39", "Jsoncons", "0", "0", "0", "Leveldb", "0", "0", "1", "Rgbds", "0", "0", "1", "Total", "0", "5", "67", "Project", "IIA", "ECA", "IOA", "Aria2", "0", "0", "2", "Assimp", "0", "0", "17", "Barony", "0", "0", "3", "Bitcoin", "0", "0", "4"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 98.88,
+    "x2": 245.28,
+    "y1": 595.68,
+    "y2": 707.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table9-1.png"
+}, {
+  "caption": "Table 10: Time and memory cost on benchmark OSP.",
+  "captionBoundary": {
+    "x1": 330.9530029296875,
+    "x2": 544.8995361328125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Aria2", "172.21", "380.07", "180.51", "(4.47%+)", "403.37", "Assimp", "412.38", "504.40", "613.08", "(48.66%+)", "487.11", "Barony", "261.68", "790.89", "405.78", "(55.06%+)", "777.14", "Bitcoin", "832.99", "856.30", "965.31", "(15.88%+)", "771.94", "Cataclysm-DDA", "1,928.24", "1,595.78", "2,823.93", "(46.45%+)", "1,477.76", "Jsoncons", "509.08", "903.02", "806.4", "(58.40%+)", "774.94", "Leveldb", "556.82", "385.75", "999.59", "(79.51%+)", "381.68", "Rgbds", "36.51", "421.64", "66.96", "(83.40%+)", "394.67", "Time", "Memory", "Time", "Memory", "(Sec.)", "(MB)", "(Sec.)", "(MB)", "Project", "CSA", "Scasa"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 564.0,
+    "y1": 105.6,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table10-1.png"
+}, {
+  "caption": "Figure 2: Iterator operations in sequence containers",
+  "captionBoundary": {
+    "x1": 80.9219970703125,
+    "x2": 266.9178771972656,
+    "y1": 341.6358337402344,
+    "y2": 346.6409912109375
+  },
+  "figType": "Figure",
+  "imageText": ["Invalidation", "Assignment", "Invalid(it1);", "movement", "it2", "=", "++it1;", "it3", "=", "--it1;", "it4", "=", "it1", "+", "2;", "It5", "=", "it1", "–", "2;", "it1", "it2", "it4it5", "it3", "it1", "it1", "=", "it2;", "it1it2", "it1", "it2", "it1", "it1"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 290.4,
+    "y1": 88.8,
+    "y2": 323.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Figure2-1.png"
+}, {
+  "caption": "Table 4: Statistics of benchmark HM. (ECA: Empty Container Access bug, IOA: Iterator Out-of-Bound Acess bug, IIA: Invalid Iterator Access bug)",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.201171875,
+    "y1": 85.72634887695312,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Type", "ECA", "IOA", "IIA", "vector", "160", "230", "160", "list", "180", "310", "50", "forward_list", "170", "280", "40", "deque", "170", "260", "190", "array", "10", "20", "0", "Total", "690", "1100", "440"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 368.64,
+    "x2": 503.03999999999996,
+    "y1": 127.67999999999999,
+    "y2": 207.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table4-1.png"
+}, {
+  "caption": "Table 5: Information of benchmark OSP. Tol nodes are all AST nodes that contain the methods that can change the states of sequence container.",
+  "captionBoundary": {
+    "x1": 317.623291015625,
+    "x2": 558.19091796875,
+    "y1": 220.82034301757812,
+    "y2": 248.3690185546875
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Commit", "Stars", "KLoc", "Tol", "nodes", "Aria2", "8cb271b", "33.5k", "93.25", "547", "Assimp", "7774f18", "10.2k", "212.84", "2,258", "Barony", "0110f8d", "466", "369.29", "1,340", "Bitcoin", "05b6a17", "75.6k", "168.98", "2,069", "Cataclysm-DDA", "03175a6", "9.7k", "467.27", "5,134", "Jsoncons", "c642f38", "666", "38.91", "1,384", "Leveldb", "068d5ee", "35k", "65.76", "352", "Rgbds", "8066d46", "1.3k", "20.36", "150"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 324.96,
+    "x2": 547.1999999999999,
+    "y1": 262.56,
+    "y2": 364.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table5-1.png"
+}, {
+  "caption": "Figure 4: The workflow of modeling the state and checking EASC",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1951904296875,
+    "y1": 445.8908386230469,
+    "y2": 450.89599609375
+  },
+  "figType": "Figure",
+  "imageText": ["STL", "Methods", "State", "of", "Iterators", "Meta", "Operations", "Bug", "Reports", "Checkers", "for", "Iterators", "Checkers", "for", "Containers", "Container", "Modeler", "Iterator", "Modeler", "Modeler", "Container", "Operations", "Statement", "Evaluator", "Source", "Code", "Iterator", "Operations"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 338.4,
+    "x2": 542.4,
+    "y1": 87.84,
+    "y2": 419.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Figure4-1.png"
+}, {
+  "caption": "Figure 3: The motivating example",
+  "captionBoundary": {
+    "x1": 113.10200500488281,
+    "x2": 234.74012756347656,
+    "y1": 311.2087707519531,
+    "y2": 316.21392822265625
+  },
+  "figType": "Figure",
+  "imageText": ["10", "const", "auto", "last", "=", "seki.back();", "11", "seki.pop_back", "();", "12", "seki.back()", "+=", "1;", "13", "//", "2.", "Empty", "Container", "Access", "bug", "14", "}", "else", "{", "15", "auto", "it", "=", "seki.begin", "();", "16", "auto", "it1", "=", "++", "it;", "17", "seki.erase(it);", "18", "*it1;", "19", "//", "3.", "Invalid", "Iterator", "Access", "bug", "20", "}", "21", "}", "22", "return", "seki.front();", "23", "}", "1", "int", "scoreOfParentheses(std::", "string", "S){", "2", "std::vector", "<int", ">", "seki(1,", "0);", "3", "for", "(char&", "c", ":", "S)", "{", "4", "if", "(c", "==", "'c')", "{", "5", "auto", "it", "=", "seki.begin", "();", "6", "it++;", "7", "it++;", "8", "//", "1.", "Iterator", "Out", "-of", "-Bound", "Access", "bug", "9", "}", "else", "if", "(c", "==", "'s'){"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 278.88,
+    "y1": 88.32,
+    "y2": 291.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Figure3-1.png"
+}, {
+  "caption": "Table 7: The analysis results on the benchmark HM. We assume the correct bug report to be true positive. The reason why the total number of reports of Scasa is more than others is that there are 30 snippets where Scasa reports a bug, but the bug location is wrong, those snippets are considered both FP and FN.",
+  "captionBoundary": {
+    "x1": 317.6050109863281,
+    "x2": 559.79345703125,
+    "y1": 85.72634887695312,
+    "y2": 146.1519775390625
+  },
+  "figType": "Table",
+  "imageText": ["Tool", "Scasa", "CSA", "Cppcheck", "Infer", "TP", "2,080", "320", "1,210", "0", "TN", "0", "0", "0", "0", "FP", "30", "0", "0", "0", "FN", "150", "1,910", "1,020", "2,030", "Precision", "98.57%", "100.00%", "100.00%", "N/A", "Recall", "93.27%", "14.34%", "54.26%", "N/A", "F1", "95.84%", "25.08%", "70.34%", "N/A"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 339.84,
+    "x2": 534.24,
+    "y1": 160.79999999999998,
+    "y2": 251.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table7-1.png"
+}, {
+  "caption": "Table 8: Evaluation on Benchmark OSP.",
+  "captionBoundary": {
+    "x1": 357.56500244140625,
+    "x2": 518.2893676757812,
+    "y1": 562.413330078125,
+    "y2": 568.0440063476562
+  },
+  "figType": "Table",
+  "imageText": ["Cataclysm-DDA", "44/70", "1/30", "1/4", "Jsoncons", "0/0", "0/0", "0/0", "Leveldb", "1/2", "0/3", "0/0", "Rgbds", "1/1", "0/1", "0/0", "Total", "72/125", "7/51", "1/4", "Project", "Scasa", "CSA", "Cppcheck", "Aria2", "2/4", "0/1", "0/0", "Assimp", "17/27", "6/10", "0/0", "Barony", "3/10", "0/3", "0/0", "Bitcoin", "4/11", "0/3", "0/0"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 345.59999999999997,
+    "x2": 525.12,
+    "y1": 582.72,
+    "y2": 695.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table8-1.png"
+}, {
+  "caption": "Table 6: The numbers of covered and analyzed AST nodes of sequence container state transition methods. Total represents all AST nodes that contain themethods that can change the sequence container state. Covered represents AST nodes that are covered by the static analysis tool. Analyzed represents AST nodes where the methods are modeled and the container states in the static analysis tools are changed.)",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.638427734375,
+    "y1": 85.72634887695312,
+    "y2": 157.11102294921875
+  },
+  "figType": "Table",
+  "imageText": ["Project", "Total", "Scasa", "CSA", "Covered", "Analyzed", "Covered", "Analyzed", "Aria2", "547", "487", "487", "524", "480", "Assimp", "2,258", "1,651", "1,650", "1,266", "1,230", "Barony", "1,340", "930", "930", "830", "718", "Bitcoin", "2,069", "1,568", "1,567", "1,512", "1,441", "Cataclysm-DDA", "5,134", "3,734", "3,733", "3,513", "3,265", "Jsoncons", "1,384", "896", "896", "836", "802", "Leveldb", "352", "142", "142", "149", "148", "Rgbds", "150", "109", "109", "106", "100", "Total", "13,234", "9,530", "9,527", "8,745", "8,193"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 299.03999999999996,
+    "y1": 171.84,
+    "y2": 281.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695471-Table6-1.png"
+}]

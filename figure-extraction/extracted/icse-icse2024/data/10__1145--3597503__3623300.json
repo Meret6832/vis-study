@@ -1,0 +1,221 @@
+[{
+  "caption": "Figure 4: An overview of Eagle.",
+  "captionBoundary": {
+    "x1": 236.4705047607422,
+    "x2": 358.5509948730469,
+    "y1": 207.5793914794922,
+    "y2": 211.755126953125
+  },
+  "figType": "Figure",
+  "imageText": ["ConPTA", "Step", "IV", "Sequential", "Order", "Verification", "Step", "III", "Sequential", "Order", "Mutation", "Step", "II", "Pair", "Identification", "Potentially", "Conflicting", "Real", "Bugs", "Step", "I", "Pointer", "Flow", "Analysis", "LLVM", "IR", "Trace", "Source", "Code", "Instrumentation", "&", "Running"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 117.11999999999999,
+    "x2": 476.15999999999997,
+    "y1": 116.64,
+    "y2": 195.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Figure4-1.png"
+}, {
+  "caption": "Figure 5: An example to illustrate the get-from relations. Blue notations mark the paired LLVM IR variables.",
+  "captionBoundary": {
+    "x1": 52.30550003051758,
+    "x2": 285.8869934082031,
+    "y1": 358.19866943359375,
+    "y2": 373.0293884277344
+  },
+  "figType": "Figure",
+  "imageText": ["rd(%3:", "0x300,", "%4:", "2)e4", "enter(", "goo", ")e5", "wr(%5:", "0x200,", "constant:", "4)e10", "exit(", "foo", ")e11", "rd(@p:", "0x1000,", "%1:", "0x100)e1", "rd(%1:", "0x100,", "%2:", "0x200)e2", "rd(@q:", "0x1000,", "%3:", "0x300)e3", "wr(%0:", "0x200,", "%1:", "2)e6", "rd(@p:", "0x1000,", "%3:", "0x100)e7", "rd(%3:", "0x100,", "%4:", "0x200)e8", "exit(", "goo", ")e9", "I4", "I5", "I10", "I11", "I1", "I2", "I3", "I6", "I7", "I8", "I9"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 277.44,
+    "y1": 224.64,
+    "y2": 351.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Figure5-1.png"
+}, {
+  "caption": "Table 5: Status of the bugs found by Eagle.",
+  "captionBoundary": {
+    "x1": 84.05650329589844,
+    "x2": 253.84828186035156,
+    "y1": 120.56316375732422,
+    "y2": 124.7388916015625
+  },
+  "figType": "Table",
+  "imageText": ["pbzip2", "2022-88832", "UAF", "Confirmed,", "Fixed", "pbzip2", "2022-88833", "NPD", "Confirmed,", "Fixed", "-", "pbzip2", "2022-88834", "UAF", "Confirmed,", "Fixed", "pbzip2", "2022-88835", "NPD", "Confirmed,", "Fixed", "-", "MySQL", "#106471", "NPD", "Code", "Removed", "-", "Program", "Bug", "ID", "Type", "Status", "Eagle", "UFO", "ConVul", "ConVulPOE"],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 288.0,
+    "y1": 129.6,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Table5-1.png"
+}, {
+  "caption": "Figure 6: An NPD bug found by Eagle in MySQL.",
+  "captionBoundary": {
+    "x1": 72.2396011352539,
+    "x2": 265.9525451660156,
+    "y1": 304.56658935546875,
+    "y2": 308.7423095703125
+  },
+  "figType": "Figure",
+  "imageText": ["I1", "if", "(list.start!=0){", "I2", "list.start=node.next;", "I3", "List::node_type&", "base_node=", "list.start->*list.node;", "I4", "base_node.prev=elem;", "Thread", "A", "Thread", "B", "void", "ut_list_remove(", "void", "ut_list_prepend(", "List&", "list,", "List&", "list,", "List::node_type&", "node", "List::elem_type*", "elem){", "Functor", "get_node){"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 260.15999999999997,
+    "y1": 202.56,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Figure6-1.png"
+}, {
+  "caption": "Table 4: The number of bug candidates.",
+  "captionBoundary": {
+    "x1": 348.4906921386719,
+    "x2": 503.07135009765625,
+    "y1": 253.01646423339844,
+    "y2": 257.19219970703125
+  },
+  "figType": "Table",
+  "imageText": ["Total", "43,424", "1,814,393", "N/A", "1,554", "N/A", "43,358", "Program", "Eagle", "UFO", "ConVul", "ConVulPOE", "Period", "Eagle𝑛", "pbzip2", "244", "202", "N/A", "66", "N/A", "269", "pixz", "6,567", "1,905", "N/A", "0", "N/A", "2,924", "pigz", "2,496", "9,289", "N/A", "1,363", "N/A", "4,459", "lbzip2", "2,562", "186", "N/A", "66", "N/A", "2,743", "httrack", "2,015", "0", "N/A", "50", "N/A", "1,769", "libwebp", "4,637", "19,859", "N/A", "9", "N/A", "2,815", "libvpx", "1,700", "#Err", "N/A", "0", "N/A", "1,687", "x264", "7,044", "1,180,993", "N/A", "0", "N/A", "6,178", "x265", "2,763", "588,052", "N/A", "0", "N/A", "5,395", "MySQL", "13,396", "13,906", "N/A", "0", "N/A", "15,119"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 531.36,
+    "y1": 261.59999999999997,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Table4-1.png"
+}, {
+  "caption": "Table 3: The results of ConVul and ConVulPOE given Eagle’s time budget.",
+  "captionBoundary": {
+    "x1": 52.0177001953125,
+    "x2": 287.4494323730469,
+    "y1": 253.01646423339844,
+    "y2": 267.8463134765625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "174h20m56s", "175h34m40s", "≈30", "-", "174h42m56s", "≈240", "-", "pbzip2", "0.04s", "3.07s", "1", "-", "10.16s", "1", "-", "pixz", "0.39s", "57.03s", "1", "-", "2m06s", "1", "-", "pigz", "5.00s", "27.55s", "1", "-", "5.65s", "1", "-", "lbzip2", "12m55s", "13m06s", "65", "-", "16m38s", "4", "-", "httrack", "58.43s", "#Err", "#Err", "#Err", "1m10s", "2", "-", "libwebp", "6m52s", "8m04s", "4", "-", "7m48s", "6", "-", "libvpx", "1h06m40s", "1h14m52s", "3", "-", "1h09m00s", "26", "-", "x264", "1h03m30s", "1h04m29s", "8", "-", "1h03m34s", "13", "-", "x265", "2h09m37s", "3h10m40s", "2", "-", "2h16m29s", "20", "-", "MySQL", "169h40m11s", "169h42m02s", "188", "-", "169h45m55s", "2324", "-", "Program", "Eagle", "ConVul", "Round", "Diff", "ConVulPOE", "Round", "Diff"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 284.15999999999997,
+    "y1": 272.64,
+    "y2": 366.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Table3-1.png"
+}, {
+  "caption": "Table 2: The time consumption of Eagle, UFO, ConVul, ConVulPOE, and ConPTA on the 10 real-world programs.",
+  "captionBoundary": {
+    "x1": 70.60910034179688,
+    "x2": 524.1232299804688,
+    "y1": 120.56316375732422,
+    "y2": 124.7388916015625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "2.26B", "9.24M", "1.00M", "916.33M", "1.38B", "476", "174h20m56s", ">899h48m28s", ">5.16", "3h06m05s", "1.78×10-2", "27m22s", "2.62×10-3", ">3000h", "48m33s", "0.46%", "Program", "𝑵𝒓𝒘", "𝑵𝒍", "𝑵𝒎", "𝑵𝒇", "𝑵𝒃𝒓", "#", "Eagle", "UFO", "SpeedUp", "ConVul", "SpeedUp", "ConVulPOE", "SpeedUp", "Period", "ConPTA", "Prop", "pbzip2", "1.57K", "84", "29", "212", "258", "10", "0.04s", "4m52s", "7.30×105", "3.06s", "7.65×101", "10.06s", "2.52×102", ">300h", "0.01s", "25.0%", "pixz", "31.48K", "1.14K", "2.17K", "3.16K", "4.72K", "90", "0.39s", "33.19s", "8.51×101", "57.20s", "1.47×102", "2m05s", "3.21×102", ">300h", "0.02s", "5.13%", "pigz", "25.27K", "2.70K", "1.36K", "10.44K", "33.41K", "50", "5.00s", "20h59m21s", "1.1×104", "27.83s", "5.57×100", "5.84s", "1.17×100", ">300h", "0.01s", "0.20%", "lbzip2", "126.65M", "462", "603", "437.64K", "16.73M", "55", "12m55s", "3m20s", "2.58×10-1", "12.20s", "1.57×10-2", "4m11s", "3.24×10-1", ">300h", "3m13s", "24.90%", "httrack", "19.76M", "1.60K", "66.10K", "3.91M", "26.82M", "5", "58.43s", "0.39s", "6.67×10-3", "#Err", "#Err", "36.68s", "6.68×10-1", ">300h", "8.57s", "14.67%", "libwebp", "115.74M", "564", "1.69K", "3.16M", "5.07M", "55", "6m52s", "141h41m59s", "1.24×103", "2m00s", "2.91×10-1", "1m17s", "1.87×10-1", ">300h", "1m21s", "19.63%", "libvpx", "98.56M", "8.37K", "11.12K", "5.40M", "38.88M", "90", "1h06m40s", "#Err", "#Err", "25m26s", "3.83×10-1", "2m40s", "4.00×10-2", ">300h", "1m16s", "1.90%", "x264", "152.13M", "7.13K", "49.23K", "4.86M", "38.92M", "70", "1h03m30s", ">300h", ">2.83×102", "8m01s", "1.26×10-1", "4m47s", "7.01×10-2", ">300h", "7m34s", "11.93%", "x265", "140.33M", "4.47K", "11.52K", "18.22M", "68.63M", "20", "2h09m37s", ">300h", ">1.39×102", "1h34m45s", "7.31×10-1", "6m52s", "5.30×10-2", ">300h", "3m03s", "2.35%", "MySQL", "1.61B", "9.21M", "859.56K", "880.33M", "1.15B", "31", "169h40m11s", "136h38m23s", "8.05×10-1", "54m13s", "5.33×10-3", "4m36s", "4.52×10-4", ">300h", "31m57s", "0.31%"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 538.0799999999999,
+    "y1": 129.6,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Table2-1.png"
+}, {
+  "caption": "Figure 1: The conflicting relation between 𝒆13 and 𝒆15 can be missed without actively reordering the pointer flow.",
+  "captionBoundary": {
+    "x1": 52.30550003051758,
+    "x2": 285.8893737792969,
+    "y1": 269.6414794921875,
+    "y2": 284.47222900390625
+  },
+  "figType": "Figure",
+  "imageText": ["Thread", "BThread", "A", "rd(0x100,0x1000)e1", "wr(0x200,0x1000)e2", "rd(0x1100,0x2000)e3", "wr(0x100,0x2000)e4", "rd(0x100,0x2000)e5", "wr(0x300,0x2000)e6", "rd(0x2100,0x3000)e7", "wr(0x100,0x3000)e8", "acq(0x500)e9", "rd(0x2008,", "7)e10", "wr(0x2008,", "8)e11", "rel(0x500)e12", "free(0x2000)e13", "acq(0x500)e14", "rd(0x1008,", "5)e15", "wr(0x1008,", "6)e16", "rel(0x500)e17", "free(0x1000)e18", "unlock(&l)I11", "free(p);I13", "unlock(&l)I7", "free(q)I8", "lock(&l)I9", "p->x++I10", "lock(&l)I5", "q->x++I6", "h=h", "next;I4", "q=h;I3", "h=h", "next;I2", "Thread", "BThread", "A", "p=h;I1"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 282.24,
+    "y1": 117.6,
+    "y2": 262.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Figure1-1.png"
+}, {
+  "caption": "Figure 2: All possible interleavings of the program shown in Figure 1. The check and cross marks indicate whether 𝒆13 and 𝒆15 are trace-conflicting under each interleaving.",
+  "captionBoundary": {
+    "x1": 309.13360595703125,
+    "x2": 542.7183837890625,
+    "y1": 211.1633758544922,
+    "y2": 237.9561767578125
+  },
+  "figType": "Figure",
+  "imageText": ["〈𝐼1,", "𝐼2,", "𝐼9,", ".", ".", ".", "〉", "〈𝐼1,", "𝐼2", "〉", "〈𝐼1,", "𝐼2,", "𝐼3,", ".", ".", ".", "〉", "〈𝐼1,", "𝐼3,", "𝐼2,", ".", ".", ".", "〉", "〈𝐼1,", "𝐼3", "〉", "〈𝐼1,", "𝐼3,", "𝐼4,", ".", ".", ".", "〉", "〈𝐼1", "〉", "〈𝐼3,", "𝐼1,", "𝐼2,", ".", ".", ".", "〉", "〈𝐼3,", "𝐼1", "〉", "〈𝐼3,", "𝐼1,", "𝐼4,", ".", ".", ".", "〉", "〈𝐼3,", "𝐼4,", "𝐼1,", ".", ".", ".", "〉", "〈𝐼3,", "𝐼4", "〉", "〈𝐼3,", "𝐼4,", "𝐼5,", ".", ".", ".", "〉", "〈𝐼3", "〉", "Start"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 334.08,
+    "x2": 509.28,
+    "y1": 119.52,
+    "y2": 203.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Figure2-1.png"
+}, {
+  "caption": "Table 1: Prediction results of Eagle, UFO, ConVul, ConVulPOE, Period, and Eagle𝑛 on the 10 real-world programs.",
+  "captionBoundary": {
+    "x1": 65.64769744873047,
+    "x2": 529.0850830078125,
+    "y1": 120.56316375732422,
+    "y2": 126.046875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "N/A", "N/A", "N/A", "72", "NPD,", "202", "UPU,", "12", "UAF,", "23", "DF", "4", "UAF", "23", "NPD,", "1", "UAF.", "1", "DF", "7", "NPD,", "2", "UAF,", "0", "DF", "0", "32", "NPD,", "155", "UPU,", "7", "UAF,", "19", "DF", "pbzip2", "v0.9.4", "45.9K", "5", "5", "NPD,", "5", "UPU,", "8", "UAF,", "1", "DF", "4", "UAF", "1", "NPD,", "1", "UAF,", "0", "DF", "3", "NPD,", "1", "UAF,", "0", "DF", "0", "5", "NPD,", "5", "UPU,", "4", "UAF,", "0", "DF", "pixz", "v1.0.7", "89.8K", "6", "0", "NPD,", "1", "UPU,", "0", "UAF,", "1", "DF", "0", "UAF", "0", "NPD,", "0", "UAF,", "1", "DF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "0", "NPD,", "1", "UPU,", "0", "UAF,", "0", "DF", "pigz", "v2.7", "107.1K", "6", "8", "NPD,", "3", "UPU,", "4", "UAF,", "0", "DF", "0", "UAF", "7", "NPD,", "0", "UAF,", "0", "DF", "4", "NPD,", "1", "UAF,", "0", "DF", "0", "8", "NPD,", "3", "UPU,", "3", "UAF,", "0", "DF", "lbzip2", "v2.5", "300.5K", "7", "0", "NPD,", "9", "UPU,", "0", "UAF,", "0", "DF", "0", "UAF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "0", "NPD,", "2", "UPU,", "0", "UAF,", "0", "DF", "httrack", "v3.43.9", "528.4K", "2", "0", "NPD,", "3", "UPU,", "0", "UAF,", "1", "DF", "0", "UAF", "#Err", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "0", "NPD,", "3", "UPU,", "0", "UAF,", "1", "DF", "libwebp", "v1.2.2", "822.2K", "3", "4", "NPD,", "0", "UPU,", "0", "UAF,", "2", "DF", "0", "UAF", "1", "NPD,", "0", "UAF,", "0", "DF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "0", "NPD,", "0", "UPU,", "0", "UAF,", "0", "DF", "libvpx", "v1.11.0", "2.1M", "4", "4", "NPD,", "31", "UPU,", "0", "UAF,", "0", "DF", "#Err", "4", "NPD,", "0", "UAF,", "0", "DF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "1", "NPD,", "31", "UPU,", "0", "UAF,", "0", "DF", "x264", "HEAD:", "19856c", "632.1K", "7", "34", "NPD,", "59", "UPU,", "0", "UAF,", "1", "DF", "0", "UAF", "10", "NPD,", "0", "UAF,", "0", "DF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "2", "NPD,", "47", "UPU,", "0", "UAF,", "1", "DF", "x265", "v3.4", "3.0M", "10", "0", "NPD,", "23", "UPU,", "0", "UAF,", "1", "DF", "0", "UAF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "0", "NPD,", "0", "UPU,", "0", "UAF,", "1", "DF", "MySQL", "v5.7.36", "10.9M", "27", "17", "NPD,", "68", "UPU,", "0", "UAF,", "16", "DF", "0", "UAF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "NPD,", "0", "UAF,", "0", "DF", "0", "16", "NPD,", "63", "UPU,", "0", "UAF,", "16", "DF", "Program", "Version", "LOC", "Thread", "Eagle", "UFO", "ConVul", "ConVulPOE", "Period", "Eagle𝑛"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 539.04,
+    "y1": 129.6,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Table1-1.png"
+}, {
+  "caption": "Figure 3: Sketch of the sequential order mutation process for the UAF bug shown in Figure 1. Thin lines indicate the real pointer flow. Hollow lines indicate how ConPTA utilizes get-from and read-from relations to infer the real pointer flow. Dashed lines indicate the occur-before relations. Given a potentially conflicting pair (𝒆15, 𝒆13), red parts indicate how Eagle reorders the pointer flow of the original trace to trigger the bug (Figure 3(b)). To do this, Eagle first infers the bug-triggering sequential order (Figure 3(c), Section 4.3) and then tries to verify it by generating a witness trace (Figure 3(d), Section 4.4).",
+  "captionBoundary": {
+    "x1": 52.30550003051758,
+    "x2": 542.8949584960938,
+    "y1": 265.90948486328125,
+    "y2": 312.70428466796875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Original", "pointer", "flow", "(b)", "Reordered", "pointer", "flow", "(c)", "Sequential", "order", "(d)", "Witness", "trace"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 61.919999999999995,
+    "x2": 536.16,
+    "y1": 125.28,
+    "y2": 258.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3623300-Figure3-1.png"
+}]

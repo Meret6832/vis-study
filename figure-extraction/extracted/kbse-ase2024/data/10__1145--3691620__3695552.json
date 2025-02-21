@@ -1,0 +1,241 @@
+[{
+  "caption": "Table 2: Selected LCMs.",
+  "captionBoundary": {
+    "x1": 126.59700012207031,
+    "x2": 220.94619750976562,
+    "y1": 87.71932983398438,
+    "y2": 93.3499755859375
+  },
+  "figType": "Table",
+  "imageText": ["Model", "size", "time", "instruct", "base", "DeepSeek", "Coder", "33B", "2023-01-01", "✓", "✓", "DeepSeek", "Coder", "6.7B", "2023-01-01", "✓", "✓", "DeepSeek", "Coder", "1.3B", "2023-01-01", "✓", "✓", "StarCoder", "2", "15B", "2023-09-14", "✓", "✓", "StarCoder", "2", "7B", "2023-09-14", "✗", "✓", "StarCoder", "2", "3B", "2023-09-14", "✗", "✓", "CodeLLaMa", "34B", "2023-01-01", "✓", "✓", "CodeLLaMa", "13B", "2023-01-01", "✓", "✓", "CodeLLaMa", "7B", "2023-01-01", "✓", "✓", "GPT-3.5-Turbo", "N/A", "2021-10-01", "✓", "✗"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 69.6,
+    "x2": 276.0,
+    "y1": 97.92,
+    "y2": 229.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Table2-1.png"
+}, {
+  "caption": "Table 7: Effectiveness with two prompt versions of ComplexCodeEval. OD and GD indicate old docstring and generated docstring , respectively. Bold numbers indicate the difference between GD and OD.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6373596191406,
+    "y1": 87.71932983398438,
+    "y2": 126.22698974609375
+  },
+  "figType": "Table",
+  "imageText": ["Average", "-", "24.55", "27.88", "(+3.33)", "29.50", "33.50", "(+4.00)", "DSC", "33B", "27.61", "29.93", "(+2.32)", "31.51", "34.75", "(+3.24)", "DSC", "6.7B", "27.99", "30.77", "(+2.78)", "33.40", "35.92", "(+2.52)", "DSC", "1.3B", "20.99", "23.60", "(+2.61)", "25.92", "28.26", "(+2.34)", "SC2", "15B", "28.62", "29.77", "(+1.15)", "33.72", "36.32", "(+2.60)", "SC2", "7B", "21.85", "29.41", "(+7.56)", "26.56", "35.26", "(+8.70)", "SC2", "3B", "21.92", "26.38", "(+4.46)", "27.18", "31.22", "(+4.04)", "CL", "34B", "27.89", "30.69", "(+2.80)", "32.56", "36.24", "(+3.68)", "CL", "13B", "19.03", "22.43", "(+3.40)", "24.56", "29.53", "(+4.97)", "CL", "7B", "25.07", "27.98", "(+2.91)", "30.12", "34.02", "(+3.90)", "LCMs", "Size", "CodeBLEU", "ES", "OD", "GD", "Δ", "OD", "GD", "Δ"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 130.56,
+    "y2": 282.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Table7-1.png"
+}, {
+  "caption": "Table 8: Performance of Codellama-34B on different benchmark.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 295.6368713378906,
+    "y1": 291.1193542480469,
+    "y2": 307.7090148925781
+  },
+  "figType": "Table",
+  "imageText": ["F1", "APIbench", "45.38", "29.54", "ComplexCodeEval", "52.24", "38.92", "Recall", "APIbench", "45.84", "29.72", "ComplexCodeEval", "52.14", "38.73", "API", "Recommendation", "CodeBLEU", "Method2Test", "-", "35.79", "ComplexCodeEval", "-", "29.90", "Edit", "Similarity", "Method2Test", "-", "30.15", "ComplexCodeEval", "-", "29.39", "Test", "Case", "Generation", "BLEU", "CrossCodeEval", "39.98", "40.51", "ComplexCodeEval", "13.79", "22.36", "Edit", "Similarity", "CrossCodeEval", "62.76", "62.84", "ComplexCodeEval", "25.48", "26.78", "CodeBLEU", "CoderEval", "26.38", "35.88", "ComplexCodeEval", "27.54", "34.08", "Edit", "Similarity", "CoderEval", "33.27", "42.71", "ComplexCodeEval", "32.93", "36.93", "Code", "Completion", "Metric", "Benchmark", "Python", "Java", "Code", "Generation"],
+  "name": "8",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 274.08,
+    "y1": 312.47999999999996,
+    "y2": 585.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Table8-1.png"
+}, {
+  "caption": "Table 1: The comparison between existing benchmarks and ComplexCodeEval. CC, M/A, NL, and ADL indicate cyclomatic complexity, Manual/Automated, nature language and avoiding data leak, respectively.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1773071289062,
+    "y1": 87.71932983398438,
+    "y2": 104.30902099609375
+  },
+  "figType": "Table",
+  "imageText": ["ComplexCodeEval-Java", "1,055", "3,897", "31.72", "251.45", "6.52", "ComplexCodeEval-Python", "2,107", "7,184", "38.21", "293.64", "7.57", "NL,", "Code,", "Depend,", "Context,", "Repository,", "Path,", "Test,", "Time", "A", "✔", "CG,", "CC,", "TCG,", "AR", "CoderEval-Java", "10", "230", "9.17", "66.42", "3.10", "CoderEval-Python", "43", "230", "20.64", "119.26", "4.52", "NL,", "Code,", "Depend,", "Context", "M", "✗", "CG", "APPS", "-", "10,000", "16.46", "140.61", "2.27", "NL,", "Code,", "Example", "A", "✔", "CG", "MBPP", "-", "974", "6.68", "48.60", "2.79", "NL,", "Code", "M", "✔", "CG", "HumanEval", "-", "164", "8.95", "57.57", "3.59", "NL,", "Code,", "Signature", "M", "✔", "CG", "DS-1000", "-", "1,000", "3.66", "43.34", "0.52", "NL,", "Code,", "Context", "A", "✔", "CG", "CrossCodeEval", "1,002", "9,928", "-", "-", "-", "NL,", "Code,", "Context", "A", "✔", "CC", "ClassEval", "-", "100", "45.70", "123.70", "-", "NL,", "Code,", "Depend", "M", "✔", "CG", "methods2test", "1,017", "78,388", "-", "-", "-", "Code,", "Test", "A", "✗", "TCG", "APIBench-C", "3,700", "-", "-", "-", "-", "Code", "A", "✗", "AR", "Concode", "-", "2,000", "1.00", "30.59", "1.49", "NL,", "Code", "A", "✗", "CG", "CoNaLA", "-", "500", "1.11", "14.28", "0.00", "NL,", "Code", "A", "✔", "CG", "Code", "DistributionBenchmark", "#Repos", "#Samples", "#LOC", "#Tokens", "#CC", "Annotation", "M/A", "ADL", "Task"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 552.0,
+    "y1": 108.96,
+    "y2": 287.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Table1-1.png"
+}, {
+  "caption": "Table 4: Performance of LCMs in code generation across different contexts. Bold numbers on a gray background indicate the maximum values and red indicates the growth relative to the baseline.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1832275390625,
+    "y1": 370.1763610839844,
+    "y2": 386.7659912109375
+  },
+  "figType": "Table",
+  "imageText": ["Edit", "Similarity", "D+S", "Python", "30.45", "29.70", "26.00", "32.15", "32.13", "30.17", "32.93", "26.92", "31.09", "30.17", "D+S+I", "Python", "35.57", "32.30", "26.20", "33.99", "30.97", "32.11", "36.31", "31.16", "34.83", "32.60", "(↑8.04%)", "D+S+C", "Python", "39.64", "36.54", "29.95", "39.39", "33.08", "33.95", "35.94", "31.98", "34.10", "34.95", "(↑15.83%)", "D+S+C+Dep", "Python", "42.06", "39.42", "32.82", "40.29", "35.85", "36.93", "39.08", "32.39", "35.84", "37.19", "(↑23.25%)", "D+S", "Java", "35.64", "34.24", "29.70", "35.90", "24.86", "26.38", "36.61", "34.04", "33.61", "32.33", "D+S+I", "Java", "41.73", "37.96", "31.37", "36.42", "24.72", "27.32", "39.17", "39.04", "34.53", "34.70", "(↑7.34%)", "D+S+C", "Java", "45.41", "43.95", "36.04", "44.29", "31.55", "35.88", "44.10", "44.36", "36.31", "40.21", "(↑24.39%)", "D+S+C+Dep", "Java", "55.16", "51.78", "41.83", "53.60", "44.05", "45.30", "52.76", "43.81", "48.41", "48.52", "(↑50.08%)", "D+S", "Python", "26.29", "25.72", "21.90", "26.70", "27.19", "24.68", "27.54", "19.95", "25.90", "25.10", "D+S+I", "Python", "31.13", "29.32", "22.83", "29.76", "28.19", "27.83", "31.04", "25.04", "28.91", "28.23", "(↑12.48%)", "D+S+C", "Python", "34.80", "32.01", "26.02", "35.34", "28.77", "30.63", "31.52", "26.49", "29.72", "30.59", "(↑21.88%)", "D+S+C+Dep", "Python", "38.52", "35.68", "28.52", "35.87", "32.18", "33.17", "35.15", "26.40", "32.44", "33.10", "(↑31.90%)", "D+S", "Java", "33.96", "32.23", "26.91", "32.59", "22.01", "22.46", "34.08", "28.98", "29.58", "29.20", "D+S+I", "Java", "42.52", "38.89", "31.42", "38.36", "24.37", "26.02", "38.80", "36.87", "35.04", "34.70", "(↑18.83%)", "D+S+C", "Java", "46.90", "47.21", "36.94", "46.39", "30.83", "35.72", "46.07", "43.90", "36.45", "41.16", "(↑40.95%)", "D+S+C+Dep", "Java", "56.69", "56.33", "42.96", "53.76", "43.64", "46.68", "55.35", "43.75", "49.53", "49.85", "(↑70.73%)", "Annotations", "Language", "DSC-33B", "DSC-6.7B", "DSC-1.3B", "SC2-15B", "SC2-7B", "SC2-3B", "CL-34B", "CL-13B", "CL-7B", "Average", "CodeBLEU"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 537.12,
+    "y1": 391.68,
+    "y2": 610.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Table4-1.png"
+}, {
+  "caption": "Table 3: Performance of various LCMs on ComplexCodeEval. Bold numbers on a gray background indicate the maximum values.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1770629882812,
+    "y1": 87.71932983398438,
+    "y2": 104.30902099609375
+  },
+  "figType": "Table",
+  "imageText": ["API", "Recommendation", "F1", "Java", "44.57", "41.85", "34.00", "32.20", "42.15", "39.43", "38.92", "48.31", "45.75", "47.21", "5.38", "Recall", "Java", "44.72", "42.00", "33.71", "32.29", "42.18", "39.57", "38.73", "47.56", "45.75", "46.67", "5.26", "F1", "Python", "49.76", "43.18", "37.47", "47.48", "45.61", "41.98", "52.24", "42.20", "36.09", "43.88", "5.04", "Recall", "Python", "49.84", "42.97", "37.35", "48.03", "46.31", "42.29", "52.14", "42.83", "36.36", "44.16", "5.05", "Test", "Case", "Generation", "CodeBLEU", "Java", "29.33", "27.05", "19.27", "25.27", "2.57", "13.10", "29.90", "25.67", "23.36", "25.58", "8.46", "ES", "Java", "29.13", "29.10", "22.99", "26.04", "5.24", "15.96", "29.39", "29.64", "26.24", "28.54", "7.89", "CodeBLEU", "Python", "19.40", "22.87", "9.79", "18.27", "14.32", "13.53", "21.40", "20.80", "19.41", "17.67", "4.05", "ES", "Python", "24.95", "28.65", "13.38", "25.92", "19.74", "18.37", "28.00", "27.70", "24.80", "25.54", "4.95", "Code", "Completion", "BLEU", "Java", "31.86", "30.81", "20.53", "21.67", "16.82", "15.91", "22.36", "21.28", "26.09", "20.31", "5.33", "ES", "Java", "33.09", "34.17", "26.38", "24.22", "17.35", "20.54", "26.78", "25.83", "29.34", "24.21", "5.16", "BLEU", "Python", "16.70", "15.33", "10.69", "12.18", "11.32", "11.50", "13.79", "10.97", "11.97", "19.62", "2.95", "ES", "Python", "29.18", "28.45", "21.77", "22.89", "19.47", "19.91", "25.48", "22.79", "22.99", "19.61", "3.47", "Code", "Generation", "CodeBLEU", "Java", "33.96", "32.23", "26.91", "32.59", "30.83", "22.46", "34.08", "28.98", "29.58", "19.92", "4.79", "ES", "Java", "35.64", "34.24", "29.70", "35.90", "31.55", "26.38", "36.61", "34.04", "33.61", "21.66", "4.78", "CodeBLEU", "Python", "26.29", "25.72", "21.90", "26.70", "27.19", "24.68", "27.54", "19.95", "25.90", "26.09", "2.43", "ES", "Python", "30.45", "29.70", "26.00", "32.15", "32.13", "30.17", "32.93", "26.92", "31.09", "31.05", "2.24", "Metrics", "Language", "DSC-33B", "DSC-6.7B", "DSC-1.3B", "SC2-15B", "SC2-7B", "SC2-3B", "CL-34B", "CL-13B", "CL-7B", "GPT-3.5", "𝜎"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 77.75999999999999,
+    "x2": 533.28,
+    "y1": 108.96,
+    "y2": 354.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Table3-1.png"
+}, {
+  "caption": "Figure 1: The process of ComplexCodeEval construction.",
+  "captionBoundary": {
+    "x1": 59.152000427246094,
+    "x2": 288.68157958984375,
+    "y1": 157.66934204101562,
+    "y2": 163.29998779296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Figure1-1.png"
+}, {
+  "caption": "Figure 2: An example of a Python test function. The choices function is invoked by filter_spec (line 9), where filter_spec is an instance of NullFieldListFilter. Considering that NullFieldListFilter is imported from the django_extensions.admin.filter.NullFieldListFilter class (line 2), the original path of choices is set as the imported class.",
+  "captionBoundary": {
+    "x1": 317.9539794921875,
+    "x2": 559.79931640625,
+    "y1": 171.97335815429688,
+    "y2": 232.39801025390625
+  },
+  "figType": "Figure",
+  "imageText": ["1.", "...", "2.", "from", "django_extensions.admin.filter", "import", "NullFieldListFilter,", "...", "3.", "...", "4.", "class", "NullFieldListFilterTests(BaseFieldFilter):", "5.", "...", "6.", "def", "test_choices(self):", "7.", "...", "8.", "filter_spec", "=", "NullFieldListFilter(...)", "9.", "result", "=", "filter_spec.choices(m_cl)", "10.", "...", "11.", "..."],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 82.56,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Figure2-1.png"
+}, {
+  "caption": "Table 5: Performance of LCMs in code completion across different contexts. Bold numbers on a gray background indicate the maximum values and red indicates the growth relative to the baseline.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1821899414062,
+    "y1": 87.71932983398438,
+    "y2": 104.30902099609375
+  },
+  "figType": "Table",
+  "imageText": ["Edit", "Similarity", "CS", "Python", "29.18", "28.45", "21.77", "22.89", "19.47", "19.91", "25.48", "22.79", "22.99", "23.66", "CS+D", "Python", "34.49", "32.71", "24.76", "28.63", "20.90", "20.55", "26.44", "26.50", "27.14", "26.90", "(↑13.71%)", "CS+D+C", "Python", "37.55", "38.59", "25.04", "33.09", "29.64", "21.98", "31.40", "29.85", "25.96", "30.73", "(↑29.89%)", "CS", "Java", "33.09", "34.17", "26.38", "24.22", "17.35", "20.54", "26.78", "25.83", "29.34", "26.41", "CS+D", "Java", "40.30", "40.57", "35.96", "33.73", "17.39", "22.28", "34.87", "30.43", "34.32", "32.21", "(↑21.94%)", "CS+D+C", "Java", "48.03", "45.11", "37.35", "34.95", "30.03", "30.84", "41.07", "31.58", "40.67", "38.24", "(↑44.80%)", "CS", "Python", "16.70", "15.33", "10.69", "12.18", "11.32", "11.50", "13.79", "10.97", "11.97", "12.72", "CS+D", "Python", "23.08", "21.21", "14.92", "17.68", "14.11", "13.35", "15.95", "17.04", "15.16", "16.94", "(↑33.25%)", "CS+D+C", "Python", "28.87", "30.63", "16.38", "24.63", "23.37", "15.92", "25.03", "20.79", "19.85", "23.41", "(↑84.12%)", "CS", "Java", "31.86", "30.81", "20.53", "21.67", "16.82", "15.91", "22.36", "21.28", "26.09", "23.04", "CS+D", "Java", "40.58", "39.14", "31.71", "31.21", "15.45", "19.16", "33.31", "29.00", "32.83", "30.27", "(↑31.38%)", "CS+D+C", "Java", "51.96", "51.11", "40.56", "38.89", "30.09", "29.90", "49.51", "29.37", "45.25", "40.88", "(↑77.44%)", "Annotations", "Language", "DSC-33B", "DSC-6.7B", "DSC-1.3B", "SC2-15B", "SC2-7B", "SC2-3B", "CL-34B", "CL-13B", "CL-7B", "Average", "BLEU"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 559.1999999999999,
+    "y1": 108.96,
+    "y2": 306.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Table5-1.png"
+}, {
+  "caption": "Figure 4: The prompt template used for generating docstrings.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6367492675781,
+    "y1": 549.8253173828125,
+    "y2": 566.4149780273438
+  },
+  "figType": "Figure",
+  "imageText": ["Python", "Template", "Java", "Template", "Returns:", "type:", "Description", "of", "the", "return", "value", "\"\"\"", "Args:", "param1", "(type):", "Description", "of", "param1", "param2", "(type):", "Description", "of", "param2", "...", "Here", "is", "the", "Python", "code:", "'''Python", "{code}", "'''", "Generate", "a", "Python", "Doc", "Comment", "for", "the", "Python", "code,", "which", "uses", "the", "API", "of", "{api}.", "Generate", "the", "code", "comment", "in", "such", "a", "way", "that", "it", "is", "suitable", "to", "be", "used", "as", "a", "prompt", "for", "code", "generation.", "Your", "response", "should", "only", "include", "the", "docstring,", "without", "explanation", "or", "formatting.", "Here", "is", "an", "example", "of", "Python", "Doc", "Comment:", "\"\"\"", "Description:", "This", "function", "is", "for", "...", "*", "Description:", "This", "method", "is", "for", "...", "*", "*", "@param", "...", "*", "@param", "...", "*", "@return", "...", "*/", "Here", "is", "the", "Java", "code:", "'''Java", "{code}", "'''", "Generate", "a", "Java", "Doc", "Comment", "for", "the", "Java", "code,", "which", "uses", "the", "API", "of", "{api}.", "Generate", "the", "code", "comment", "in", "such", "a", "way", "that", "it", "is", "suitable", "to", "be", "used", "as", "a", "prompt", "for", "code", "generation.", "Your", "response", "should", "only", "include", "the", "docstring,", "without", "explanation", "or", "formatting.", "Here", "is", "an", "example", "of", "Java", "Doc", "Comment:", "/**"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 365.76,
+    "y2": 546.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Figure4-1.png"
+}, {
+  "caption": "Figure 5: An example of the original docstring and the LLMgenerated docstring.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.7992553710938,
+    "y1": 175.98336791992188,
+    "y2": 192.572998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Generated", "docstring", "Original", "docstring", "/**", "*", "Parses", "the", "data", "of", "the", "current", "node", "as", "an", "XML", "declaration.", "*", "*", "This", "method", "ﬁrst", "checks", "if", "the", "data", "is", "a", "valid", "XML", "declaration.", "If", "it", "is", "not,", "it", "returns", "null.", "*", "Then,", "it", "constructs", "an", "XML", "fragment", "from", "the", "data", "and", "parses", "it", "using", "the", "HTML", "parser", "from", "jsoup.", "*", "If", "the", "parsed", "document", "has", "a", "body", "with", "at", "least", "one", "child,", "it", "creates", "a", "new", "XmlDeclaration", "object", "*", "with", "the", "tag", "name", "of", "the", "ﬁrst", "child", "element", "and", "the", "data's", "starting", "character.", "*", "It", "then", "adds", "all", "the", "attributes", "of", "the", "ﬁrst", "child", "element", "to", "the", "XmlDeclaration", "object.", "*", "*", "@return", "The", "parsed", "XML", "declaration", "or", "null", "if", "the", "data", "is", "not", "a", "valid", "XML", "declaration.", "*/", "/**", "*", "Attempt", "to", "cast", "this", "comment", "to", "an", "XML", "Declaration", "node.", "*", "@return", "an", "XML", "declaration", "if", "it", "could", "be", "parsed", "as", "one,", "null", "otherwise.", "*/"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 82.56,
+    "y2": 172.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Figure5-1.png"
+}, {
+  "caption": "Figure 3: An example of ComplexCodeEval.",
+  "captionBoundary": {
+    "x1": 85.60299682617188,
+    "x2": 262.233154296875,
+    "y1": 349.00634765625,
+    "y2": 354.6369934082031
+  },
+  "figType": "Figure",
+  "imageText": ["Method", "Signature", "Left", "Context", "public", "class", "MailUtils", "{", "���", "Time", "Test", "Function", "Right", "Context", "Reference", "Code", "Docstring", "Import", "Message", "Reference", "API", "/***", "Sends", "an", "HTML", "mail", "with", "the", "provided", "subject���*", "@param", "subject", "The", "subject", "of", "the", "email���*", "@return", "A", "SendStatus", "object��", "��public", "SendStatus", "sendHtmlMail(String", "subject,", "List<String>", "toList,", "��", ",", "String", "mailContent)", "Project", "create", "time:2022-06-29", "File", "create", "time:2024-03-14", "���", "{", "SendStatus", "sendStatus", "=", "new", "SendStatus(SEND_STATUS_FALSE,", "\"\");List<String>", "notInBlacklistAddress", "=", "checkNotInBlacklistAddress(toList,", "sendStatus);if", "(CollectionUtils.isEmpty(notInBlacklistAddress))", "{return", "sendStatus;}String", "html", "=", "readHtmlToString(\"mailTemplate.html\");Document", "doc", "=", "Jsoup.parse(html);doc.getElementById(\"username\").html(username);", "��return", "sendStatus;}", "public", "SendStatus", "sendHtmlMail(���)", "{���}}", "@Testvoid", "testSendHtmlMail_subjectNotNull()", "{�", "}", "���", "org.jsoup.Jsoup.parseorg.apache.commons.collections.CollectionUtils.isEmptypackage", "com.tapdata.tm.utils;import", "cn.hutool.extra.mail.MailAccount;���"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 81.6,
+    "y2": 345.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695552-Figure3-1.png"
+}]

@@ -1,0 +1,161 @@
+[{
+  "caption": "Figure 8: Example of profiled UML Activity Diagram.",
+  "captionBoundary": {
+    "x1": 330.87200927734375,
+    "x2": 545.2758178710938,
+    "y1": 289.9713439941406,
+    "y2": 295.60198974609375
+  },
+  "figType": "Figure",
+  "imageText": ["Rmax", "internalActivity=[sense_OnlyRead,", "sense_ReadAndProcess]", "SensedData", "sense_ReadAndProcess", "«MeasurementUncertainty»", "«MeasurementUncertainty»", "SensedData", "«MeasurementUncertainty»", "read", "sense_OnlyRead", "«MeasurementUncertainty»", "«Measurement", "Uncertainty»", "preprocess", "read", "«BeliefUncertainty, ", "MeasurementUncertainty»", "«MeasurementUncertainty,", "DiscretizationUncertainty»", "«MeasurementUncertainty,", "DiscretizationUncertainty»", "«MeasurementUncertainty»", "ShouldAdapt", "CompareWithreshold", "InModel", "«DiscretizationUncertainty»", "StoreResponseTime", "«MeasurementUncertainty»", "«DesignUncertainty»", "Sense", " ", "Adaptation", "Decision"],
+  "name": "8",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 556.3199999999999,
+    "y1": 83.52,
+    "y2": 285.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure8-1.png"
+}, {
+  "caption": "Figure 7: UFD profile, an UML profile for UFDs",
+  "captionBoundary": {
+    "x1": 79.49700164794922,
+    "x2": 268.33892822265625,
+    "y1": 193.99838256835938,
+    "y2": 199.6290283203125
+  },
+  "figType": "Figure",
+  "imageText": ["+", "internalActivity:", "Activity[*]", "«Stereotype»", "DesignUncertainty", "«Stereotype»", "MeasurementUncertainty", "«Stereotype»", "OccurrenceUncertainty", "«Stereotype»", "DiscretizationUncertainty", "+", "Measure:", "Type[1]", "«Stereotype»", "Uncertainty", "«Stereotype»", "BeliefUncertainty", "«Metaclass»", "Action", "«Metaclass»", "Pin"],
+  "name": "7",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 291.36,
+    "y1": 84.0,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure7-1.png"
+}, {
+  "caption": "Figure 1: Znn.com system architecture [15]",
+  "captionBoundary": {
+    "x1": 86.89900207519531,
+    "x2": 260.93798828125,
+    "y1": 151.67733764648438,
+    "y2": 157.3079833984375
+  },
+  "figType": "Figure",
+  "imageText": ["s3", "s2", "s1", "s0", "c2", "c1", "c0", "lbproxy", "db"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 264.0,
+    "y1": 84.0,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Model-Sensing interaction: (a) preventing required adaptation (b) causing spurious adaptation.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1897583007812,
+    "y1": 127.24636840820312,
+    "y2": 143.83599853515625
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "(b)", "rd", "Rmaxµ", "rd", "r̂dr̂r", "Rmax", "µ", "r̂d", "r̂", "r"],
+  "name": "2",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 343.68,
+    "x2": 535.1999999999999,
+    "y1": 83.52,
+    "y2": 123.83999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure2-1.png"
+}, {
+  "caption": "Figure 3: Overview of the envisaged solution showing the steps of design, specification, translation, and analysis.",
+  "captionBoundary": {
+    "x1": 77.84700012207031,
+    "x2": 534.1356201171875,
+    "y1": 183.71237182617188,
+    "y2": 189.343017578125
+  },
+  "figType": "Figure",
+  "imageText": ["Formalized", "system", "requirements", "UPI", "impact", "on", "system", "properties", "UF", "formal", "speciﬁcation(s)", "S1b.", "Requirements", "formalization", "Design", "&", "implementation", "artifacts", "Uncertainty", "Flow", "Diagram", "(UFD)", "S2.", "TranslationS3.", "Propagation", "analysis", "S1a.", "UFD", "speciﬁcation", "S0.", "Design", "&", "implementation", "Engineers", " ", " ", " ", "Input ", " ", "  ", " ", "  Output ", " ", "   ", " ", "  Process", "stage ", " ", "   ", " ", "  Artifact"],
+  "name": "3",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 104.64,
+    "x2": 507.35999999999996,
+    "y1": 85.92,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Uncertainty Flow Diagram (UFD) metamodel showing the relation of activities, flows, and different uncertainty types.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1795043945312,
+    "y1": 287.66534423828125,
+    "y2": 293.2959899902344
+  },
+  "figType": "Figure",
+  "imageText": ["*", "0..1", "*", "* ", "1", "1", "input ", " ", " ", " 1..*", "input", "1", "output ", " ", " 1..*", "output", "0..1", "input", "1", "target", "0..1", "output", "1", "source", "*", "*", "*", "0..1", "*", "*", "*", "1", "*", "1", "*", "internalActivity", "TypedElement", "Type", "MeasurableElement", "MeasurementUncertainty", "DesignUncertainty", "BeliefUncertaintyDiscretizationUncertainty", "OccurrenceUncertainty", "Uncertainty", "UncertainElement", "Measure", "Pin", "ActivityEdge", "ControlFlow", "Guard", "ConnectableElement", "Behavior", "Activity", "Action", "DataType", "UserDeﬁnedType", "FinalNode", "Decision", "Fork", "JoinMerge", "ExceptionNode", "InitialNode", "ControlNode", "ActivityNode"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 78.72,
+    "x2": 533.28,
+    "y1": 87.36,
+    "y2": 278.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Compare() operation handling different uncertainty For example, if 𝑟 = 3.4 and 𝑅𝑚𝑎𝑥 = 3.3. In this case, 𝑟 > 𝑅𝑚𝑎𝑥 but 𝑟𝑑 < 𝑅𝑚𝑎𝑥 . This is easy to solve, by simply discretizing the threshold before comparing it with the discretized value.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0419921875,
+    "y1": 370.7813415527344,
+    "y2": 411.4570007324219
+  },
+  "figType": "Figure",
+  "imageText": ["result", ":", "Boolean", "r", ":", "Real", "t", ":", "Real", "compare()", "«measurement", "uncertainty»", "+", "measure:", "Real", "«measurement", "uncertainty»", "+", "measure", ":", "Real", "«measurement", "uncertainty»", "+", "measure:", "Real", "result", ":", "Boolean", "r", ":", "Real", "t", ":", "Real", "uCompare()", "(c)", "(d)", "(a)", "(b)", "«belief", "uncertainty»", "+", "measure:", "Real", "«measurement", "uncertainty»", "+", "measure:", "Real", "«measurement", "uncertainty»", "+", "measure", ":", "Real", "«belief", "uncertainty»", "+", "measure:", "Real", "«measurement", "uncertainty»", "+", "measure", ":", "Real", "«discretization", "uncertainty»", "+", "measure", ":", "Real", "result", ":", "Boolean", "r", ":", "Real", "t", ":", "Real", "u2Compare()", "«measurement", "uncertainty»", "+", "measure:", "Real", "«measurement", "uncertainty»", "+", "measure:", "Real", "«belief", "uncertainty»", "+", "measure:", "Real", "«measurement", "uncertainty»", "+", "measure:", "Real", "«discretization", "uncertainty»", "+", "measure:", "Real", "result", ":", "Boolean", "r", ":", "Real", "t", ":", "Real", "u2Compare()"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 84.0,
+    "y2": 361.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Structural uncertainty encoded as internal activities",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.19140625,
+    "y1": 204.98434448242188,
+    "y2": 210.614990234375
+  },
+  "figType": "Figure",
+  "imageText": ["read()", "«measurement", "uncertainty»", "+", "uncertainty", ":", "Real", "preprocess()", "read()", "internalActivity", "sense_OnlyRead", "sense_ReadAndProcess", "r", ":", "Real", "sense()", "«design", "uncertainty»"],
+  "name": "6",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 353.76,
+    "x2": 520.3199999999999,
+    "y1": 86.88,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644084-Figure6-1.png"
+}]

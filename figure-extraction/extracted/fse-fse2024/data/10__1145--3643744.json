@@ -1,0 +1,221 @@
+[{
+  "caption": "Table 2. Summary of the 31 features for decompiled code readability. The symbols (↑, ↓) represent that higher and lower values for be er readability. The origin column indicates that each feature has been carefully elected from the existing [D]ecompiler efforts to enhance code readability [Hex-Rays 2023a; Křoustek et al. 2023; NSA 2023a; Shoshitaishvili et al. 2023a; Wargio et al. 2023a; Wiens et al. 2023], [P]rior work [Buse and Weimer 2008; Chen et al. 2010; Dorn 2012; Enders et al. 2023; Posne et al. 2011; Scalabrino et al. 2018, 2016; Schulte et al. 2018; Yakdan et al. 2015], or [S]yntatic errors. Note that (✳) means a feature that leads to indirect improvement. A,B,G,H, R2, and RD represent Angr [Shoshitaishvili et al. 2016], Binary ninja [Vector35 2023a], Ghidra [NSA 2023b], Hex-Rays [Hex-Rays 2023b], Radare2 [Radare 2023; Wargio et al. 2023a], and RetDec [Křoustek et al. 2017], respectively.",
+  "captionBoundary": {
+    "x1": 45.398040771484375,
+    "x2": 441.5525817871094,
+    "y1": 87.95149993896484,
+    "y2": 180.0250244140625
+  },
+  "figType": "Table",
+  "imageText": ["F29", "P", "[↓]", "#", "of", "loops", "Total", "number", "of", "loop", "statements", "N/A", "F30", "P", "[↓]", "#", "of", "assignments", "Total", "number", "of", "assignments", "N/A", "F31", "P", "[↓]", "Max", "#", "of", "nested", "loop", "statements", "Maximum", "number", "of", "nested", "loop", "statements", "N/A", "General", "F27", "P", "[↓]", "#", "of", "tokens", "Total", "number", "of", "tokens", "N/A", "Features", "F28", "P", "[↓]", "#", "of", "conditions", "Total", "number", "of", "conditional", "statements", "N/A", "F19", "S", "[↓]", "#", "of", "invalid", "goto", "statements", "A", "goto", "statement", "has", "been", "erroneously", "labelled", "B,", "G,", "R2", "F20", "S", "[↓]", "#", "of", "invalid", "do-while", "loops", "A", "do-while", "statement", "has", "been", "inaccurate", "(e.g.,", "boundary)", "R2", "F21", "S", "[↓]", "#", "of", "invalid", "function", "calls", "A", "function", "invocation", "has", "been", "invalid", "or", "unclear", "R2", "F22", "S", "[↓]", "#", "of", "remaining", "IRs", "A", "decompiled", "code", "contains", "intermediate", "representations", "A", "F23", "S", "[↓]", "#", "of", "unimplemented", "parts", "A", "code", "decompilation", "has", "been", "explicitly", "unimplemented", "B", "F24", "S", "[↓]", "#", "of", "unknown", "expressions", "A", "conditional", "expression", "or", "variable", "has", "been", "undeﬁned", "or", "unclear", "A,", "R2", "F25", "S", "[↓]", "#", "of", "invalid", "argument", "A", "function", "argument", "has", "been", "invalid", "RD", "F26", "S", "[↓]", "#", "of", "unknown", "operators", "A", "conditional", "expression", "contains", "an", "unknown", "operator", "R2", "A,", "G,", "H", "A", "data", "type", "has", "been", "unclearly", "deﬁned", "(e.g.,", "unknown,", "undeﬁned,", "or", "multiple", "type)", "Erroneous", "Syntax", "F18", "S", "[↓]", "#", "of", "multiple", "types", "Improvement", "on", "identifying", "inlined", "and", "built-in", "functions", "(✳)", "B,", "H", "Reduction", "of", "line", "of", "code", "by", "removing", "dead", "or", "redundant", "code", "A,", "B,", "G,", "RD", "F16", "D/P", "[↓]", "Max", "length", "of", "a", "line", "Reduction", "of", "the", "length", "of", "a", "line", "by", "decreasing", "cast", "and", "bitwise", "operators", "(✳)", "A,", "G,", "H,", "RD", "F17", "D/P", "[↓]", "Line", "of", "code", "Elimination", "of", "LLVM", "intrinsics:", "e.g.,", "llvm.ctpop.*", "(✳)", "RD", "Conﬂicting", "F14", "D", "[↓]", "Max", "#", "of", "conditions", "in", "if", "statements", "Increase", "if", "statements", "to", "reduce", "the", "length", "of", "a", "line", "H", "Features", "F15", "D/P", "[↓]", "Max", "#", "of", "nested", "if", "statements", "Increase", "the", "length", "of", "if", "conditions", "to", "reduce", "nested", "if", "statements", "A,", "H,", "RD", "F12", "D", "[↑]", "Ratio", "of", "loop", "statements", "Preference", "of", "for", "over", "while", "or", "do-while", "loops", "A,", "H,", "RD", "Preference", "of", "while", "over", "do-while", "loops", "H", "F13", "D", "[↑]", "Ratio", "of", "!strcmp", "in", "conditions", "Preference", "of", "!strcmp", "over", "strcmp", "in", "conditions", "H", "A", "Preference", "of", "ternary", "operators", "over", "if", "to", "reduce", "the", "line", "of", "code", "User", "Preference", "F11", "D", "[↑]", "Ratio", "of", "conditional", "statements", "Preference", "of", "switch", "over", "if", "statements", "A,", "B,", "RD", "F8", "D", "[↓]", "#", "of", "references/dereferences", "Improvement", "on", "identifying", "arrays", "and", "structures", "(✳)", "B,", "G,", "H,", "RD", "Elimination", "of", "dereferences", "of", "array", "arguments", "&", "addresses", "A,", "RD", "F9", "D", "[↓]", "#", "of", "unnecessary", "goto", "labels", "Elimination", "of", "unnecessary", "goto", "labels", "A,", "RD", "F10", "D/P", "[↓]", "#", "of", "variables", "Aggressive", "variable", "elimination", "and", "propagation", "A,", "H,", "RD", "G", "Improvement", "on", "identifying", "typedef", "relationships", "between", "data", "and", "types", "through", "TEK/KPCR", "reference", "support", "(✳)", "H", "Improvement", "on", "identifying", "64bit", "variables", "and", "bit", "operations", "(✳)", "H", "Improvement", "on", "identifying", "data", "type", "F7", "D/P", "[↓]", "#", "of", "nested", "casting", "operators", "Elimination", "of", "unnecessary", "casts", "G,", "RD", "e.g.,", "for(i=0;", ";++i)→", "for(i=0;condition;++i)", "H", "F6", "D", "[↓]", "#", "of", "missing", "conditions", "Clariﬁcation", "on", "conditions:", "e.g.,", "while(true)→", "while(condition)", "H,", "RD", "Clariﬁcation", "on", "conditions:", "SSE", "operations,", "and", "intrinsic", "functions", "H", "F5", "D", "[↓]", "#", "of", "inline", "assembly", "Improvement", "on", "identifying", "ﬂoating", "points,", "Reduction", "of", "goto", "statements", "A,", "H", "F3", "D/P", "[↓]", "#", "of", "comma", "operators", "in", "conditions", "Elimination", "of", "comma", "operators", "in", "conditions", "G,", "H", "F4", "D", "[↓]", "#", "of", "goto", "statements", "Elimination", "of", "goto", "statements", "to", "reduce", "redundant", "call", "invocations", "H", "Improvement", "on", "identifying", "compiler", "idioms", "(✳)", "H", "Simpliﬁcation", "of", "bit", "arithmetic", "expressions", "A,", "H,", "RD", "Simpliﬁcation", "of", "multi-part", "boolean", "expressions", "G", "Optimization", "of", "modulo/remainder", "calculations", "G", "Class", "No", "Origin", "Feature", "Description", "Decompiler", "Code", "F1", "D/P", "[↑]", "#", "of", "array", "detections", "Improvement", "on", "identifying", "arrays", "and", "structures", "B,", "G,", "H,", "RD", "Quality", "F2", "D/P", "[↓]", "#", "of", "operators", "Improvement", "on", "identifying", "64-bit", "variables", "and", "bit", "operations", "H"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 438.24,
+    "y1": 194.88,
+    "y2": 566.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Table2-1.png"
+}, {
+  "caption": "Fig. 7. R2I CDF comparisons from the (non-)obfuscated binaries (e.g., whoami from coreutils). R2I shows a clear distinction between a non-obfuscated binary (i.e., None) and obfuscation-technique-applied binaries (e.g., Bcf: bogus control flow, Flat: control flow fla ening, Sub: instruction substitution). Note that the decompiled code readability with all obfuscation techniques ranks the lowest with R2I.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.1585998535156,
+    "y1": 207.34051513671875,
+    "y2": 244.6199951171875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 435.35999999999996,
+    "y1": 86.88,
+    "y2": 190.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Figure7-1.png"
+}, {
+  "caption": "Table 3. Various syntax error examples in C-like decompiled code outputs. We fix those codes so that one can construct an AST for further computing a code readability index. We selectively define features (“Erroneous Syntax” category in Table 2) that hurt the readability, excluding trivial errors like a missing parenthesis (e.g., dash(-) in the feature column). The description column indicates a regular express pa ern to detect each example (unless otherwise stated).",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1590576171875,
+    "y1": 87.95149993896484,
+    "y2": 136.18902587890625
+  },
+  "figType": "Table",
+  "imageText": ["F23", "x", "=", "/*x", "=", "unimplemented", "{", "}*/;", "x=UNIMPL;", "//\\*.*\\*/(?=\\)*;)/", "Operators", "F26", "if(ebp", "overflow", "0)", "if(UNKNOWN_OP)", "/(if|while).*overflow/", "Eccentricities", "F22", "Conv(16", "->128,", "di);", "INVALID_IR;", "/Conv\\(|BinaryOp\\s[A-Z]/", "F24", "(?", ">", "?)", "?", "1", ":", "0;", "(unknown)", "?", "1", ":", "0;", "/\\(\\s*\\?\\s*[!<>=]+\\s*\\?\\)/", "F24", "?", "=", "fp_stack[0]", "(unknown)", "=", "fp_stack[0]", "/^\\s*\\?\\s\\=\\s/", "F25", "setjmp({(struct{", "})", "setjmp(INVAL_FORM)", "/jmp\\(\\s*\\{/", "-", "&&var5[0]", "&(&var5[0])", "/&&\\S/", "-", "__asm", "{", "}", "__asm", "(", ")", "/__asm\\s{.*}/", "-", "assert(\"!\\\"invalid\\\");", "assert(\"!\\\"invalid\\\"\");", "/[^\\\\]\\\\\"(,|\\)*;$)/", "-", "int", "start(..)", "__noreturn", "noreturn", "int", "start(..)", "/_{0,2}noreturn/", "-", "v1", "=", "10f", "v1", "=", "10.0f", "/[\\s\\(]-?\\d+f/", "Expressions", "F24", "if(...)", "if(unknown)", "/if\\s?\\(\\.\\.\\.\\)/", "-", "rdx:rax", "rdx_rax", "/(rdx:rax)|(edx:eax)/", "-", "rsp<8>", "=", "5;", "rsp", "=", "5;", "/(?<![a-z])[a-z]{2,3}<\\d+>/", "-", "v6", "=", "::s1;", "v6", "=", "s1;", "/\\S*::\\S*/", "Structures", "F19", "LAB_004c8dba:", "}", "INVAL_LAB;", "(Devising", "a", "detection", "routine)", "F20", "do{", "..", "}", "..", "}while(..)", "INVAL_DOWHILE;", "(Devising", "a", "detection", "routine)", "Identiﬁers", "F21", "void", "(*0x401350)()();", "INVAL_FUNCALL();", "/\\)\\([\\s\\S,()*+]*\\)\\s\\([\\s\\S,()*+]*\\);/", "F18", "undefined", "v1;", "typedef", "int", "undefined;", "(Deﬁning", "a", "new", "type", "in", "a", "custom", "header)", "F18", "(_UNKNOWN", "*)v19", "typedef", "void", "_UNKNOWN;", "(Deﬁning", "a", "new", "type", "in", "a", "custom", "header)", "F18", "code", "**ppcVar1;", "typedef", "int", "code;", "(Deﬁning", "a", "new", "type", "in", "a", "custom", "header)", "-", "signed", "int64_t", "var;", "int64_t", "var;", "/[\\s\\(]signed\\sint[^\\s\\)]+/", "Error", "Type", "Feature", "Example", "Correction", "Description", "Declarations", "F18", "unsigned", "int", "|", "char", "v0;", "undefined", "v0;", "/^[\\w\\s\\*(\\[\\d+\\])]+(\\|[\\w\\s\\*(\\[\\d+\\])]+)+/"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 441.12,
+    "y1": 150.72,
+    "y2": 343.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Table3-1.png"
+}, {
+  "caption": "Fig. 2. Illustration of decompiled code excerpts from Hex-Rays and Angr (le ), and Binary Ninja and Radare2 (right). The example codes help us to determine the common features of F1-2, F4-5, F7, F16-18, and F22.",
+  "captionBoundary": {
+    "x1": 45.558998107910156,
+    "x2": 440.173583984375,
+    "y1": 222.88650512695312,
+    "y2": 238.24798583984375
+  },
+  "figType": "Figure",
+  "imageText": ["4", "5", "6", "//Radare", "7", "if", "(rax", "<=", "0x41d810)", "{", "8", "goto", "label_0;", "//", "F4", "9", "}", "10", "__asm", "(\"comiss", "xmm1,", "dword", "[0x0041d82c]\");", "//", "F5", "11", "if", "(rax", "<", "0x41d810)", "{", "12", "goto", "label_0;", "//", "F4", "13", "}", "14", "label_0:", "//", "F4", "15", "*(rdi)", "=", "0x41d810;", "16", "eax", "=", "0;", "17", "rax", "=", "rcx", "+", "rax*2;", "((data_6256ef", "+", "((rax_5", "+", "((rdx_3", "+", "r8_1)", "<<", "1))", "<<", "1))", "<<", "1))", "<<", "3)", "+", "0x419580));", "↩→", "↩→", "1", "//Binary", "Ninja", "2", "//", "F2,", "F16", "vs", "F17", "3", "rax_2", "=", "sub_40edd0(rdi_1,", "rsi_1,", "*(((data_6256b4", "+", "CmpF", "&", "69)", ">>", "6))", "&", "1)", "!=", "1)", "//", "F7,", "F22↩→", "15", "{", "16", "v3", "=", "v2[1];", "//", "F1", "17", "}", "endness=Iend_LE));", "//", "F22↩→", "14", "if", "((char)((unsigned", "long", "long)(unsigned", "int)(BinaryOp", "1", "//Hex-Rays", "2", "//", "F16", "vs", "F17", "3", "return", "sub_40EDD0(", "4", "v9,", "5", "v8,", "6", "*(&off_419580[8", "*", "(unsigned", "int)(v7", "+", "v13)]", "7", "+", "4", "*", "v6", "8", "+", "2", "*", "(unsigned", "__int8)byte_6256EF", "9", "+", "(unsigned", "__int8)byte_6256B4));", "10", "11", "//Angr", "12", "unsigned", "long", "|", "unsigned", "int", "v4;", "//", "F18", "13", "xmm1<8>", "=", "Conv(32->128,", "Load(addr=rdx<8>,", "size=4,"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 43.199999999999996,
+    "x2": 438.24,
+    "y1": 84.0,
+    "y2": 212.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Figure2-1.png"
+}, {
+  "caption": "Fig. 8. (a) Source code of the function parse_long_options and three decompiled code snippets generated by (b) Hex-Rays, (c) RetDec, and (d) Radare2. The representations of conditional statements (e.g., if, switch-case in grey) vary depending on each decompiler. The R2I metrics are (b) 0.7055, (c) 0.5099, and (d) 0.4332, respectively. Note that part of the code has been omi ed for brevity.",
+  "captionBoundary": {
+    "x1": 45.559112548828125,
+    "x2": 441.15802001953125,
+    "y1": 528.7564697265625,
+    "y2": 566.0360107421875
+  },
+  "figType": "Figure",
+  "imageText": ["int64_t", "arg9)", "{↩→", "2", "int64_t", "var_8h;", "»", "14", "int64_t", "var_c0h;", "15", "rdi", "=", "arg1;", "»", "25", "if", "(al", "!=", "0)", "{", "26", "*((rsp", "+", "0x50))", "=", "xmm0;", "»", "33", "*((rsp", "+", "0xc0))", "=", "xmm7;", "34", "}", "»", "37", "while", "(eax", "==", "0xffffffff)", "{", "38", "label_0:", "»", "45", "ecx", "=", "0x405a40;", "46", "edx", "=", "0x405a18;", "47", "r14", "=", "r9;", "48", "eax", "=", "fcn_00404df0", "();", "49", "}", "50", "if", "(eax", "==", "0x68)", "{", "51", "goto", "label_1;", "52", "}", "53", "if", "(eax", "!=", "0x76)", "{", "54", "goto", "label_0;", "55", "}", "56", "rcx", "=", "r13;", "57", "rdx", "=", "r12;", "58", "rsi", "=", "rbp;", "59", "r8", "=", "rsp", "+", "8;", "60", "rax", "=", "rsp", "+", "0x100;", "»", "*((rsp", "+", "8))", "=", "0x30;", "66", "67", "fcn_00403c70", "(*(obj.stdout));", "68", "exit", "(0);", "69", "label_1:", "70", "edi", "=", "0;", "71", "void", "(*r14)()", "();", "72", "goto", "label_0;", "73", "}", "(d)", "Radare2", "(int64_t", "*)&g4,", "0,", "a6);", "//", "0x401bb9↩→", "26", "int32_t", "v4", "=", "result2;", "//", "0x401bbe", "27", "switch", "(v4)", "{", "28", "default:", "{", "29", "//", "0x401bc8", "30", "if", "(v4", "==", "118)", "{", "31", "int64_t", "v5", "=", "48;", "//", "bp-240,", "0x401bea", "32", "function_403c70((int64_t)g30,", "(int64_t)a3,", "(int64_t)a4,", "a5,", "&v5,", "a6);↩→", "33", "exit(0);", "34", "//", "UNREACHABLE", "35", "}", "36", "}", "37", "case", "-1:", "{", "38", "}", "39", "case", "104:", "{", "40", "//0x401b7f", "41", "g27", "=", "v3;", "42", "g28", "=", "0;", "43", "return", "result2;", "44", "}", "45", "}", "46", "}", "(c)", "RetDec", "a3,", "char", "*", "a4,", "int64_t", "a5,", "int64_t", "a6)", "{↩→", "»", "4", "if", "((char)v1", "!=", "0)", "{", "»", "12", "__asm_movaps(v2);", "13", "__asm_movaps(v2);", "14", "__asm_movaps(v2);", "15", "}", "»", "18", "if", "((int32_t)a1", "!=", "2)", "{", "19", "//0x401b7f", "20", "g27", "=", "v3;", "21", "g28", "=", "0;", "22", "int64_t", "result;", "//", "0x401b20", "23", "return", "result;", "24", "}", "25", "int64_t", "result2", "=", "function_404df0(a1,", "a2,", "&g3,"],
+  "name": "8",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 43.199999999999996,
+    "x2": 441.12,
+    "y1": 266.88,
+    "y2": 515.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Figure8-1.png"
+}, {
+  "caption": "Table 4. We curate six popular decompilers, most of which are under active development or improvement.",
+  "captionBoundary": {
+    "x1": 47.48006057739258,
+    "x2": 438.2801818847656,
+    "y1": 87.95125579833984,
+    "y2": 92.353759765625
+  },
+  "figType": "Table",
+  "imageText": ["Open-source", "RetDec", "[Křoustek", "et", "al.", "2017]", "LLVM", "IR", "5.0", "Dec.", "08,", "2022", "Ghidra", "[NSA", "2023b]", "p-code", "10.2.3", "Feb.", "09,", "2023", "Angr", "[Shoshitaishvili", "et", "al.", "2016]", "VEX", "IR", "9.2.40", "Mar.", "01,", "2023", "Radare2", "[Radare", "2023;", "Wargio", "et", "al.", "2023a]", "ESIL", "5.8.4", "Mar.", "15,", "2023", "Commercial", "Hex-Rays", "[Hex-Rays", "2023b]", "Microcode", "8.2", "Jan.", "08,", "2023", "Binary", "Ninja", "[Vector35", "2023a]", "BNIL", "3.3", "Jan.", "26,", "2023", "Decompiler", "IR", "Version", "Release"],
+  "name": "4",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 436.32,
+    "y1": 106.56,
+    "y2": 194.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Table4-1.png"
+}, {
+  "caption": "Fig. 4. Overview of our readability assessment system for decompiled code. With a given binary ( 1 ), target",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.1699523925781,
+    "y1": 343.5784912109375,
+    "y2": 347.9809875488281
+  },
+  "figType": "Figure",
+  "imageText": ["Computation", "Metric", "Readability", "Index", "Weights", "User", "Survey", "Feature", "Code", "Features", "Feature", "Extraction", "Abstract", "Syntax", "Tree", "Correction", "Erroneous", "Syntax", "Binary", "Decompilation"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 45.6,
+    "x2": 440.15999999999997,
+    "y1": 260.64,
+    "y2": 324.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. Survey results of participants’ preferences for the features (F11-13 in Table 3). The participants responded that code readability increases in the order of switch, if, and tenary for conditional statements; for, while, and do-while for loops; and !strcmp over strcmp for string comparisons. The hatched pa ern represents no preference.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 440.7618713378906,
+    "y1": 202.08047485351562,
+    "y2": 239.3590087890625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 67.67999999999999,
+    "x2": 418.08,
+    "y1": 85.92,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Figure3-1.png"
+}, {
+  "caption": "Fig. 1. Participants’ demographics in our user survey. We consider various factors including education, occupation, experience on decompilers, and C language proficiency.",
+  "captionBoundary": {
+    "x1": 45.82809829711914,
+    "x2": 441.1600646972656,
+    "y1": 202.22048950195312,
+    "y2": 217.58200073242188
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Education", "(b)", "Occupation", "(c)", "Decompiler", "Experience", "(d)", "Proficiency", "in", "C"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 86.88,
+    "y2": 185.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Figure1-1.png"
+}, {
+  "caption": "Table 1. Summary of survey questions. Note that we request consent to collect private information from a participant, including a name, phone number, and email. Additionally, we explicitly specify the purpose, items, and retention period of the collected information.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.16162109375,
+    "y1": 237.46649169921875,
+    "y2": 263.7869873046875
+  },
+  "figType": "Table",
+  "imageText": ["(3)", "Comparison", "of", "the", "decompiled", "outputs", "generated", "by", "six", "decompilers", "•", "Choose", "the", "most", "readable", "code", "excerpt.", "•", "Choose", "the", "least", "readable", "code", "excerpt.", "–", "longer", "if", "condition", "and", "line", "length,", "shorter", "code", "lines,", "less", "nested", "if", "vs", "shorter", "if", "condition", "and", "line", "length,", "longer", "code", "lines,", "more", "nested", "if", "–", "for", "vs", "while", "–", "while", "vs", "do-while", "–", "switch", "vs", "if", "–", "if", "vs", "ternary", "–", "!strcmp", "vs", "strcmp", "in", "condition", "(2)", "User", "Preference", "&", "Conﬂicting", "Features", "•", "Which", "of", "the", "two", "code", "snippets", "from", "the", "same", "source", "exhibits", "better", "readability?", "None,", "Less", "than", "six", "months,", "6", "-", "12", "months,", "12", "-", "36", "months,", "More", "than", "36", "months", "•", "Which", "decompiler", "do", "you", "mainly", "use?", "•", "How", "long", "have", "you", "been", "using", "a", "decompiler?", "None,", "Less", "than", "six", "months,", "6", "-", "12", "months,", "12", "-", "36", "months,", "More", "than", "36", "months", "•", "How", "long", "have", "you", "been", "programming", "in", "C?", "Undergraduate,", "Graduate,", "Security", "engineer,", "Software", "engineer,", "Faculty", "member", "–", "Describe", "the", "main", "area", "of", "your", "expertise", "and", "career", "(in", "the", "case", "of", "an", "engineer", "or", "faculty)", "–", "Describe", "the", "years", "of", "your", "experience.", "•", "What", "is", "your", "occupation?", "High", "school,", "Bachelor,", "Master,", "Doctorate", "(1)", "Participant", "Background", "•", "What", "is", "the", "highest", "level", "of", "education", "you", "have", "completed?"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 408.47999999999996,
+    "y1": 278.88,
+    "y2": 532.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Table1-1.png"
+}, {
+  "caption": "Table 5. Selective (weighted) features that affect R2I for the function at 0x401b20 from the hostid binary in our corpus. Figure 8a contains the source and the decompiled outputs. The RetDec’s switch-case gains a relatively high score (e.g., 0.0097) based on one of the user-preference features (e.g., F11-switch). However, other features like inline assembly (F5) and the number of conditions (F28), drop the overall R2I. Meanwhile, line of code (F17), the lower number of conditions (F28) and assignments (F30) in Hex-Rays than others benefit overall readability, leading the highest R2I of 0.7055.",
+  "captionBoundary": {
+    "x1": 45.585899353027344,
+    "x2": 441.1621398925781,
+    "y1": 87.95149993896484,
+    "y2": 147.14801025390625
+  },
+  "figType": "Table",
+  "imageText": ["Decompiler", "F4", "F5", "F10", "F11-switch", "F11-if", "F15", "F17", "F18", "F21", "F28", "F30", "R2I", "Hex-Rays", "0.0582", "0.0582", "0.0582", "0.0000", "0.0129", "0.0129", "0.0388", "0.0582", "0.0582", "0.0291", "0.0582", "0.7055", "Binary", "Ninja", "0.0582", "0.0582", "0.0029", "0.0000", "0.0129", "0.0129", "0.0017", "0.0582", "0.0582", "0.0194", "0.0044", "0.5368", "Ghidra", "0.0582", "0.0582", "0.0041", "0.0000", "0.0129", "0.0129", "0.0013", "0.0019", "0.0582", "0.0194", "0.0044", "0.5192", "RetDec", "0.0582", "0.0064", "0.0116", "0.0097", "0.0194", "0.0388", "0.0019", "0.0582", "0.0582", "0.0145", "0.0116", "0.5099", "Angr", "0.0582", "0.0582", "0.0027", "0.0000", "0.0129", "0.0194", "0.0010", "0.0582", "0.0582", "0.0194", "0.0041", "0.4370", "Radare2", "0.0145", "0.0582", "0.0027", "0.0000", "0.0129", "0.0388", "0.0008", "0.0582", "0.0291", "0.0582", "0.0016", "0.4332"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 46.559999999999995,
+    "x2": 439.2,
+    "y1": 161.76,
+    "y2": 225.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643744-Table5-1.png"
+}]

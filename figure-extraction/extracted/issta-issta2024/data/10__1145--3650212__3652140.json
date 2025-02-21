@@ -1,0 +1,281 @@
+[{
+  "caption": "Table 4: The performance of APR techniques on Defects4J single-line bugs",
+  "captionBoundary": {
+    "x1": 155.16799926757812,
+    "x2": 456.5380859375,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["#", "Bugs", "w/", "TCE", "Patches", "38", "(27.14%)", "35", "(25.00%)", "48", "(34.29%)", "44", "(31.43%)", "26", "(18.57%)", "15", "(10.71%)", "27", "(19.29%)", "6", "(4.29%)", "5", "(3.57%)", "36", "(25.71%)", "17", "(12.14%)", "20", "(14.29%)", "#", "Bugs", "w/", "SYE", "Patches", "19", "(13.57%)", "33", "(23.57%)", "45", "(32.14%)", "41", "(29.29%)", "17", "(12.14%)", "15", "(10.71%)", "26", "(18.57%)", "5", "(3.57%)", "3", "(2.14%)", "34", "(24.29%)", "16", "(11.43%)", "N/A", "#", "Bugs", "w/", "Genuine", "Patches", "40", "(28.57%)", "40", "(28.57%)", "50", "(35.71%)", "45", "(32.14%)", "27", "(19.29%)", "17", "(12.14%)", "31", "(22.14%)", "6", "(4.29%)", "6", "(4.29%)", "40", "(28.57%)", "17", "(12.14%)", "37", "(26.43%)", "#", "TCE", "Patches", "39", "(0.44%)", "245", "(1.75%)", "72", "(0.54%)", "116", "(0.83%)", "33", "(0.32%)", "22", "(0.17%)", "35", "(0.25%)", "7", "(0.05%)", "5", "(0.04%)", "37", "(0.35%)", "17", "(0.15%)", "20", "(1.27%)", "#", "SYE", "Patches", "19", "(0.22%)", "231", "(1.65%)", "45", "(0.33%)", "85", "(0.61%)", "17", "(0.17%)", "19", "(0.15%)", "26", "(0.19%)", "5", "(0.04%)", "3", "(0.02%)", "34", "(0.32%)", "16", "(0.14%)", "N/A", "#", "Genuine", "Patches", "47", "(0.54%)", "263", "(1.88%)", "152", "(1.13%)", "162", "(1.16%)", "55", "(0.54%)", "65", "(0.50%)", "55", "(0.40%)", "7", "(0.05%)", "6", "(0.05%)", "52", "(0.49%)", "18", "(0.16%)", "37", "(2.35%)", "#", "Bugs", "w/", "Plausible", "Patches", "56", "(40.00%)", "67", "(47.86%)", "73", "(52.14%)", "70", "(50.00%)", "44", "(31.43%)", "31", "(22.14%)", "52", "(37.14%)", "9", "(6.43%)", "17", "(12.14%)", "65", "(46.43%)", "26", "(18.57%)", "54", "(38.57%)", "#", "Bugs", "w/", "Compilable", "Patches", "125", "(89.29%)", "135", "(96.43%)", "128", "(91.43%)", "136", "(97.14%)", "106", "(75.71%)", "117", "(83.57%)", "126", "(90.00%)", "47", "(33.57%)", "76", "(54.29%)", "128", "(91.43%)", "89", "(63.57%)", "N/A", "#", "Plausible", "Patches", "172", "(1.96%)", "658", "(4.70%)", "584", "(4.35%)", "600", "(4.29%)", "270", "(2.65%)", "245", "(1.90%)", "311", "(2.24%)", "22", "(0.17%)", "46", "(0.35%)", "364", "(3.46%)", "318", "(2.77%)", "123", "(7.80%)", "#", "Total", "Patches", "8768", "14000", "13439", "14000", "10181", "12900", "13900", "13300", "13300", "10529", "11499", "1577", "#", "Compilable", "Patches", "2795", "(31.88%)", "5669", "(40.49%)", "3730", "(27.76%)", "4939", "(35.28%)", "2561", "(25.15%)", "2882", "(22.34%)", "3652", "(26.27%)", "291", "(2.19%)", "1427", "(10.73%)", "6439", "(61.15%)", "2699", "(23.47%)", "N/A", "Recoder", "SelfAPR", "AlphaRepair", "RewardRepair", "SequenceR", "CoCoNut", "CURE", "Edits", "Tufano", "Tbar", "SimFix", "PraPR", "Metrics", "Learning-based", "Techniques", "Traditional", "Techniques"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 96.0,
+    "y2": 183.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table4-1.png"
+}, {
+  "caption": "Table 5: The performance of APR techniques on di erent versions of Defects4J bugs",
+  "captionBoundary": {
+    "x1": 135.51419067382812,
+    "x2": 476.19281005859375,
+    "y1": 212.9892120361328,
+    "y2": 217.28411865234375
+  },
+  "figType": "Table",
+  "imageText": ["V1.2.0", "32", "(42.11%)", "31", "(40.79%)", "29", "(38.16%)", "30", "(39.47%)", "18", "(23.68%)", "10", "(13.16%)", "21", "(27.63%)", "2", "(2.63%)", "2", "(2.63%)", "32", "(42.11%)", "14", "(18.42%)", "28", "(36.84%)", "V2.0.0", "8", "(12.50%)", "9", "(14.06%)", "21", "(32.81%)", "15", "(23.44%)", "9", "(14.06%)", "7", "(10.94%)", "10", "(15.63%)", "4", "(6.25%)", "4", "(6.25%)", "8", "(12.50%)", "2", "(3.13%)", "9", "(14.06%)", "Ratio", "Change", "-70.31%", "-65.52%", "-14.01%", "-40.63%", "-40.63%", "-16.88%", "-43.45%", "+137.50%", "+137.50%", "-70.31%", "-83.04%", "-61.83%", "#", "Bugs", "w/", "Genuine", "Patches", "V1.2.0", "36", "(0.75%)", "210", "(2.76%)", "61", "(0.84%)", "125", "(1.64%)", "33", "(0.59%)", "45", "(0.63%)", "32", "(0.43%)", "2", "(0.03%)", "2", "(0.03%)", "41", "(0.87%)", "14", "(0.19%)", "28", "(3.14%)", "V2.0.0", "11", "(0.28%)", "53", "(0.83%)", "91", "(1.48%)", "37", "(0.58%)", "22", "(0.48%)", "20", "(0.35%)", "23", "(0.36%)", "5", "(0.08%)", "4", "(0.07%)", "11", "(0.19%)", "4", "(0.14%)", "9", "(1.31%)", "Ratio", "Change", "-63.36%", "-70.03%", "+77.18%", "-64.85%", "-17.59%", "-43.86%", "-15.77%", "+213.56%", "+150.85%", "-77.94%", "-27.64%", "-58.25%", "#", "Genuine", "Patches", "Recoder", "SelfAPR", "AlphaRepair", "RewardRepair", "SequenceR", "CoCoNut", "CURE", "Edits", "Tufano", "Tbar", "SimFix", "PraPR", "Metrics", "Learning-based", "Techniques", "Traditional", "Techniques"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 221.76,
+    "y2": 279.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table5-1.png"
+}, {
+  "caption": "Figure 4: The correlation of SYE and genuine metrics",
+  "captionBoundary": {
+    "x1": 331.177001953125,
+    "x2": 544.981201171875,
+    "y1": 462.08111572265625,
+    "y2": 466.3760070800781
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 343.68,
+    "y2": 457.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Figure4-1.png"
+}, {
+  "caption": "Figure 2: The correlation of plausible and genuine metrics",
+  "captionBoundary": {
+    "x1": 320.5159912109375,
+    "x2": 555.6421508789062,
+    "y1": 201.4461212158203,
+    "y2": 205.74102783203125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 197.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Figure2-1.png"
+}, {
+  "caption": "Figure 3: The correlation of TCE and genuine metrics",
+  "captionBoundary": {
+    "x1": 330.1679992675781,
+    "x2": 545.9894409179688,
+    "y1": 331.7701110839844,
+    "y2": 336.06500244140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 213.6,
+    "y2": 327.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Figure3-1.png"
+}, {
+  "caption": "Table 9: The statistic of duplicate/no-op patches on the MuBench benchmark.",
+  "captionBoundary": {
+    "x1": 149.08389282226562,
+    "x2": 462.6213684082031,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["#", "Bugs", "with", "no-op", "patches", "817", "(48.06%)", "928", "(54.59%)", "839", "(49.35%)", "1479", "(87.00%)", "750", "(44.12%)", "1277", "(75.12%)", "1162", "(68.35%)", "402", "(23.65%)", "345", "(20.29%)", "94", "(5.53%)", "4", "(0.24%)", "#", "Bugs", "with", "duplicate", "patches", "887", "(52.18%)", "1700", "(100.00%)", "47", "(2.76%)", "1685", "(99.12%)", "3", "(0.18%)", "741", "(43.59%)", "13", "(0.76%)", "31", "(1.82%)", "1169", "(68.76%)", "5", "(0.29%)", "215", "(12.65%)", "#", "No-op", "patches", "996", "(0.67%)", "5119", "(3.01%)", "877", "(0.52%)", "4020", "(2.36%)", "750", "(0.60%)", "1746", "(1.09%)", "1162", "(0.69%)", "402", "(0.24%)", "345", "(0.20%)", "94", "(0.10%)", "4", "(0.00%)", "#", "Duplicate", "patches", "2902", "(1.95%)", "67453", "(39.68%)", "443", "(0.26%)", "37284", "(21.93%)", "5", "(0.00%)", "4654", "(2.91%)", "57", "(0.03%)", "136", "(0.08%)", "25836", "(15.20%)", "21", "(0.02%)", "4830", "(4.22%)", "Recoder", "SelfAPR", "AlphaRepair", "RewardRepair", "Sequencer", "CoCoNut", "CURE", "Edits", "Tufano", "Tbar", "SimFix", "Metrics", "Learning-based", "Techniques", "Traditional", "Techniques"],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 96.0,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table9-1.png"
+}, {
+  "caption": "Table 1: Defects4J projects utilized by MuBench",
+  "captionBoundary": {
+    "x1": 341.8160095214844,
+    "x2": 534.0469970703125,
+    "y1": 87.06208801269531,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Time-1", "Joda-Time", "27801", "4041", "46", "20257", "Mockito-13", "Mockito", "framework", "7289", "946", "48", "2231", "Jsoup-1", "Jsoup", "HTML", "parser", "2546", "139", "13", "1511", "JxPath-1", "Apache", "commons-jxpath", "19373", "308", "34", "19278", "Lang-1", "Apache", "commons-lang", "21787", "2291", "31", "22793", "Math-1", "Apache", "commons-math", "84323", "4378", "61", "121346", "JacksonXml-1", "Jackson", "XML", "extensions", "4683", "138", "18", "2209", "Csv-1", "Apache", "commons-csv", "806", "54", "7", "695", "Gson-1", "Google", "GSON", "5418", "720", "29", "2295", "JacksonCore-1", "Google", "Guava", "15882", "206", "19", "16982", "JacksonDatabind-1", "Jackson", "data", "bindings", "42965", "1098", "56", "14810", "Compress-1", "Apache", "commons-compress", "6741", "73", "25", "11054", "Cli-1", "Apcache", "commons-cli", "1937", "94", "12", "1118", "Closure-1", "Google", "Closure", "compiler", "90697", "7911", "67", "52384", "Codec-1", "Apache", "commons-codec", "2584", "206", "11", "4408", "Collections-25", "Apache", "commons-collections", "26415", "15393", "45", "11899", "Chart-1", "JFreeChart", "96382", "2193", "70", "81006", "Project", "ID", "Project", "Name", "LoC", "#", "Tests", "#", "Seeds", "#", "Mutants"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 96.0,
+    "y2": 235.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table1-1.png"
+}, {
+  "caption": "Table 2: Mutators used by MuBench",
+  "captionBoundary": {
+    "x1": 365.64801025390625,
+    "x2": 510.2136535644531,
+    "y1": 243.8321075439453,
+    "y2": 248.12701416015625
+  },
+  "figType": "Table",
+  "imageText": ["AOR", "Arithmetic", "Operator", "Replacement", "0", "+", "1", "→", "0", "−", "1", "COR", "Conditional", "Expression", "Replacement", "0", "|", "|", "1", "→", "0", "LOR", "Bitwise", "Operator", "Replacement", "0", "^", "1", "→", "0", "|", "1", "LVR", "Literal", "Value", "Replacement", "1→", "−1", "ORU", "Operator", "Replacement", "Unary", "−0", "→", "∼", "0", "ROR", "Relational", "Operator", "Replacement", "0", "==", "1", "→", "0", ">=", "1", "SOR", "Shift", "Operator", "Replacement", "0", ">>", "1", "→", "0", "<<", "1", "Mutator", "Description", "Example"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 252.95999999999998,
+    "y2": 336.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table2-1.png"
+}, {
+  "caption": "Figure 5: Correlation of compilable and genuine metrics",
+  "captionBoundary": {
+    "x1": 182.33099365234375,
+    "x2": 295.6495056152344,
+    "y1": 494.1111145019531,
+    "y2": 509.364990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 181.92,
+    "x2": 295.2,
+    "y1": 377.76,
+    "y2": 489.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Figure5-1.png"
+}, {
+  "caption": "Table 6: The performance of APR techniques on the MuBench benchmark",
+  "captionBoundary": {
+    "x1": 155.86300659179688,
+    "x2": 455.8431701660156,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["#", "TCE", "Patches", "855", "(0.58%)", "11896", "(7.00%)", "2689", "(1.58%)", "2884", "(1.70%)", "1017", "(0.81%)", "1123", "(0.70%)", "1109", "(0.66%)", "118", "(0.07%)", "229", "(0.13%)", "380", "(0.41%)", "179", "(0.16%)", "216", "(1.22%)", "#", "SYE", "Patches", "257", "(0.17%)", "11273", "(6.63%)", "1175", "(0.69%)", "2171", "(1.28%)", "342", "(0.27%)", "777", "(0.49%)", "643", "(0.38%)", "100", "(0.06%)", "107", "(0.06%)", "341", "(0.37%)", "161", "(0.14%)", "N/A", "#", "Bugs", "w/", "TCE", "Patches", "761", "(44.76%)", "1157", "(68.06%)", "1194", "(70.24%)", "955", "(56.18%)", "708", "(41.65%)", "561", "(33.00%)", "664", "(39.06%)", "106", "(6.24%)", "144", "(8.47%)", "376", "(22.12%)", "173", "(10.18%)", "216", "(12.71%)", "#", "Bugs", "w/", "SYE", "Patches", "244", "(14.35%)", "1128", "(66.35%)", "1165", "(68.53%)", "915", "(53.82%)", "342", "(20.12%)", "542", "(31.88%)", "643", "(37.82%)", "100", "(5.88%)", "107", "(6.29%)", "341", "(20.06%)", "161", "(9.47%)", "N/A", "#", "Bugs", "w/", "Plausible", "Patches", "803", "(47.24%)", "1020", "(60.00%)", "1125", "(66.18%)", "947", "(55.71%)", "742", "(43.65%)", "615", "(36.18%)", "672", "(39.53%)", "185", "(10.88%)", "203", "(11.94%)", "637", "(37.47%)", "277", "(16.29%)", "649", "(38.18%)", "#", "Bugs", "w/", "Compilable", "Patches", "1654", "(97.29%)", "1594", "(93.76%)", "1650", "(97.06%)", "1678", "(98.71%)", "1593", "(93.71%)", "1551", "(91.24%)", "1518", "(89.29%)", "698", "(41.06%)", "878", "(51.65%)", "1681", "(98.88%)", "1335", "(78.53%)", "N/A", "#", "Plausible", "Patches", "3415", "(2.30%)", "15529", "(9.13%)", "11305", "(6.65%)", "8220", "(4.84%)", "3721", "(2.95%)", "4136", "(2.59%)", "4731", "(2.81%)", "339", "(0.20%)", "1012", "(0.60%)", "4088", "(4.40%)", "785", "(0.69%)", "1347", "(7.63%)", "#", "Total", "Patches", "148493", "170000", "169900", "170000", "125932", "160000", "168100", "169800", "170000", "92902", "114481", "17651", "#", "Compilable", "Patches", "55173", "(37.16%)", "80334", "(47.26%)", "72254", "(42.53%)", "81055", "(47.68%)", "40181", "(31.91%)", "46981", "(29.36%)", "56950", "(33.88%)", "3117", "(1.84%)", "19305", "(11.36%)", "62472", "(67.25%)", "50546", "(44.15%)", "N/A", "Recoder", "SelfAPR", "AlphaRepair", "RewardRepair", "SequenceR", "CoCoNut", "CURE", "Edits", "Tufano", "Tbar", "SimFix", "PraPR", "Metrics", "Learning-based", "Techniques", "Traditional", "Techniques"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 96.0,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table6-1.png"
+}, {
+  "caption": "Table 3: State-of-the-art APR techniques evaluated in this work.",
+  "captionBoundary": {
+    "x1": 176.38699340820312,
+    "x2": 435.31890869140625,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["SimFix", "[16]", "-", "-", "using", "existing", "patches", "and", "similar", "code", "as", "donor", "code", "PraPR", "[14]", "-", "-", "template-based,", "bytecode", "transformation", "TBar", "[24]", "-", "-", "template-based", "technique", "with", "widely-used", "templates", "AlphaRepair", "[55]", "-", "-", "cloze-style", "APR", "based", "on", "zero-shot", "large", "language", "models", "CURE", "[18]", "commits", "before", "2010", "on", "GitHub,", "projects", "from", "GitLab", "and", "Bitbucket", "4,040,000", "NMT-based,", "code-aware", "search,", "BPE", "tokenization", "Edits", "[11]", "10,235", "most-starred", "Java", "repositories", "on", "GitHub", "55,000", "transplanted", "NMT", "model", "Tufano2", "[49]", "BFP:", "commits", "between", "2010", "and", "2017", "on", "GitHub", "46,680", "+", "52,364", "NMT-based,", "code-abstraction", "Sequencer", "[8]", "original", "source", "of", "BFP", "35,578", "sequence", "to", "sequence", "learning", "CoCoNut", "[29]", "commits", "before", "2010", "on", "GitHub,", "projects", "from", "GitLab", "and", "Bitbucket", "3,241,966", "ensemble", "learning,", "CNN,", "context", "aware", "NMT", "RewardRepair", "[62]", "CoCoNut,", "Megadi", ",", "CodRep", "and", "Bears", "3,507,394", "combination", "of", "syntactic", "training", "and", "semantic", "training", "Recoder", "[66]", "Java", "projects", "between", "2011", "and", "2018", "on", "GitHub", "82,868", "syntax-guided", "edit", "decoder,", "placeholder", "generation", "SelfAPR", "[61]", "the", "perturbation", "bugs", "of", "subject", "projects", "1,039,873", "self-supervised", "training", "with", "error", "diagnostics", "APR", "technique", "Training", "source", "#", "Training", "Instance", "Features"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 559.1999999999999,
+    "y1": 96.0,
+    "y2": 210.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table3-1.png"
+}, {
+  "caption": "Table 7: The performance of APR techniques in terms of di erent mutators.",
+  "captionBoundary": {
+    "x1": 151.67100524902344,
+    "x2": 460.03460693359375,
+    "y1": 87.06227111816406,
+    "y2": 91.357177734375
+  },
+  "figType": "Table",
+  "imageText": ["AOR", "59", "70", "70", "59", "50", "37", "37", "4", "3", "21", "2", "16", "100", "COR", "10", "50", "57", "19", "8", "2", "11", "0", "1", "3", "4", "0", "100", "LOR", "39", "55", "5", "27", "16", "20", "21", "1", "5", "44", "15", "76", "100", "LVR", "74", "84", "74", "79", "72", "62", "57", "19", "17", "19", "16", "12", "100", "ORU", "34", "60", "5", "53", "15", "33", "25", "1", "7", "0", "2", "0", "100", "ROR", "30", "68", "74", "46", "37", "16", "37", "0", "6", "38", "14", "6", "100", "SOR", "39", "54", "2", "9", "1", "10", "8", "0", "0", "0", "3", "67", "100", "#Bugs", "Recoder", "SelfAPR", "AlphaRepair", "RewardRepair", "SequenceR", "CoCoNut", "CURE", "Edits", "Tufano", "Tbar", "SimFix", "PraPR", "Mutator", "Learning-based", "Techniques", "Traditional", "Techniques"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.0,
+    "x2": 527.04,
+    "y1": 96.0,
+    "y2": 171.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table7-1.png"
+}, {
+  "caption": "Table 8: The categories of compilation errors of studied APR techniques on the MuBench benchmark.",
+  "captionBoundary": {
+    "x1": 100.06997680664062,
+    "x2": 511.63714599609375,
+    "y1": 193.92176818847656,
+    "y2": 198.2166748046875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "73795", "75989", "82818", "74785", "73673", "94627", "93748", "155645", "128002", "16433", "58131", "927646", "illegal", "start", "of", "type", "2613", "2320", "786", "2485", "301", "58", "5318", "5888", "5779", "1", "5", "25554", "Total", "(Semantic", "Error)", "43051", "(58.34%)", "36051", "(47.44%)", "71177", "(85.94%)", "43465", "(58.12%)", "46555", "(63.19%)", "33556", "(35.46%)", "30809", "(32.86%)", "34204", "(21.98%)", "30348", "(23.71%)", "16238", "(98.81%)", "49899", "(85.84%)", "435353", "Total", "(Syntactic", "Error)", "30744", "(41.66%)", "39938", "(52.56%)", "11641", "(14.06%)", "31320", "(41.88%)", "27118", "(36.81%)", "61071", "(64.54%)", "62939", "(67.14%)", "121441", "(78.02%)", "97654", "(76.29%)", "195", "(1.19%)", "8232", "(14.16%)", "492293", "be", "applied", "to", "given", "types", "4587", "1707", "2065", "1860", "3879", "2076", "3726", "261", "4703", "1903", "402", "27169", "(method|constructor)", "...", "cannot", "not", "a", "statement", "1422", "3285", "1598", "7234", "5417", "639", "2683", "3735", "4373", "28", "179", "30593", "incomparable", "types", "6677", "1610", "1969", "2115", "5373", "1818", "3490", "0", "2858", "1888", "258", "28056", "incompatible", "types", "9391", "2157", "2102", "3027", "7144", "1552", "3587", "2403", "6531", "904", "679", "39477", "bad", "operand", "...", "for", "(binary|unary)", "operator", "10587", "2858", "1682", "2714", "7376", "2096", "3958", "305", "2529", "3202", "255", "37562", "...", "expected", "20041", "21294", "4695", "11272", "13192", "11038", "19183", "34533", "58534", "134", "3552", "197468", "illegal", "start", "of", "expression", "6668", "12136", "4181", "9998", "7945", "6963", "19737", "77050", "28968", "32", "3904", "177582", "unclosed", "character", "literal", "0", "903", "381", "331", "263", "42373", "16018", "235", "0", "0", "592", "61096", "cannot", "nd", "symbol", "11809", "27719", "63359", "33749", "22783", "26014", "16048", "31235", "13727", "8341", "48305", "303089", "Total", "Recoder", "SelfAPR", "AlphaRepair", "RewardRepair", "Sequencer", "CoCoNut", "CURE", "Edits", "Tufano", "Tbar", "SimFix", "Compilation", "Error", "Learning-based", "Techniques", "Traditional", "Techniques"],
+  "name": "8",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 557.28,
+    "y1": 202.56,
+    "y2": 327.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Table8-1.png"
+}, {
+  "caption": "Figure 1: Metrics relationship illustration",
+  "captionBoundary": {
+    "x1": 197.947998046875,
+    "x2": 295.6514892578125,
+    "y1": 687.8109741210938,
+    "y2": 703.0648193359375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 196.79999999999998,
+    "x2": 295.2,
+    "y1": 585.6,
+    "y2": 683.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3652140-Figure1-1.png"
+}]

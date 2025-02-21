@@ -1,0 +1,181 @@
+[{
+  "caption": "Figure 4: Function matching between source and binary files",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1319580078125,
+    "y1": 611.445068359375,
+    "y2": 617.0759887695312
+  },
+  "figType": "Figure",
+  "imageText": ["ELF", "header", "Binary", "File", "(ELF)", "Function", "Call", "Graph", "Source", "File", "(.c)", "Section", "header", "rv", "al", "In", "te", "tio", "n", "Fu", "nc", "FUN_000287b3", "…", "FUN_00028009", "FUN_00028061", "…", "FUN_00025697", "}", "…", "void", "cJSON_Delete", "(cJSON", "*item)", "{…}", "…", "cJSON_CreateTrue", "(void)", "{…}", "return", "true_item;", "}", "cJSON_Delete(true_item);", "return", "NULL;", "cJSON", "*true_item", "=", "cJSON_CreateTrue();", "if", "(add_item_to_object(…))", "{", "cJSON_AddTrueToObject", "(", "cJSON", "*", "const", "object,", "const", "char*", "const", "name", ")", "{", "[FUN_000287b3]", "000287b3", "PUSH", "EBP", "000287b4", "MOV", "EBP,ESP", "[FUN_00025697]", "00025697", "PUSH", "EBP", "00025698", "MOV", "EBP,ESP", "…", "000280a7", "CALL", "FUN_00025679", "[FUN_00028061]", "00028061", "PUSH", "EBP", "0002806d", "ADD", "EBX,0xbedcb", "00028073", "CALL", "FUN_000287b3"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 492.96,
+    "y2": 594.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Contribution of locality-driven matching",
+  "captionBoundary": {
+    "x1": 71.56599426269531,
+    "x2": 276.2686767578125,
+    "y1": 226.32437133789062,
+    "y2": 231.95501708984375
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "CodeCMR", "Recall@1", "Updated", "Recall@1", "Recall@k", "top-10", "top-50", "top-10", "10", "%", "75%", "50%", "25%", "0%", "Recall@1", "Updated", "Recall@1", "Recall@k", "top-10", "top-50", "top-10", "100%", "75%", "50%", "25%", "0%", "(a)", "BinaryAI", "Recall@1", "Updated", "Recall@1", "Recall@k", "top-10", "top-50", "top-100", "100%", "75%", "50%", "25%", "0%", "Recall@1", "Updated", "Recall@1", "Recall@k", "top-10", "top-50", "top-100", "100%", "75%", "50%", "25%", "0%"],
+  "name": "5",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 291.36,
+    "y1": 84.96,
+    "y2": 210.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Figure5-1.png"
+}, {
+  "caption": "Figure 6: Distribution of binary SCA results",
+  "captionBoundary": {
+    "x1": 349.9119873046875,
+    "x2": 526.2372436523438,
+    "y1": 565.9393310546875,
+    "y2": 571.5700073242188
+  },
+  "figType": "Figure",
+  "imageText": ["Precision", "Recall", "BinaryAI", "Black", "Duck", "Scantist", "B2SFinder", "OSSPolice", "0%", "25%", "50%", "75%", "100%", "Finding", "5:", "BinaryAI", "dominates", "the", "performance", "of", "TPL", "de-", "tection", "among", "the", "state-of-the-art", "binary", "SCA", "tools."],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 337.91999999999996,
+    "y2": 549.6
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Figure6-1.png"
+}, {
+  "caption": "Table 3: Result of binary-to-source SCA",
+  "captionBoundary": {
+    "x1": 357.93701171875,
+    "x2": 517.917236328125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["BinaryAI", "679", "112", "366", "85.84", "64.98", "73.97", "OSSPolice", "348", "191", "697", "64.56", "33.30", "43.94", "B2SFinder", "574", "1232", "471", "31.78", "54.93", "40.26", "Scantist", "232", "108", "813", "68.24", "22.20", "33.50", "Black", "Duck", "625", "227", "420", "73.36", "59.81", "65.90", "#TP", "#FP", "#FN", "P", "(%)", "R", "(%)", "F1", "(%)", "Tool", "Verification", "of", "TPL", "Detection"],
+  "name": "3",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 105.6,
+    "y2": 181.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Table3-1.png"
+}, {
+  "caption": "Figure 1: The workflow of BinaryAI",
+  "captionBoundary": {
+    "x1": 233.65899658203125,
+    "x2": 378.34088134765625,
+    "y1": 235.66810607910156,
+    "y2": 241.29901123046875
+  },
+  "figType": "Figure",
+  "imageText": ["1", "Feature", "Extraction", "2", "Embedding-based", "Retrieval", "3", "Locality-driven", "Matching", "4", "Third-party", "Library", "Detection", "SCA", "Database", "BUG", "&", "License", "Threats", "Third-party", "Library", "Component", "a.out", "Linker", "Compiler", "file1.c", "file2.c", "file3.c", "obj1.o", "obj2.o", "obj3.o", "Link-time", "Locality", "Matched", "Function", "Similar", "Functions", "with", "Files", "Source", "File", "Similar", "Function", "𝑒!", "𝑒\"", "od", "el", "g", "M", "dd", "in", "Em", "be", "tio", "n", "Fu", "nc", "Open-sourced", "C/C++", "Code", "(corpus)", "Pa", "rs", "er", "Source", "Function", "er", "-s", "itt", "Tr", "ee", "Ghidra", "Pseudo-C", "Binary", "Function", "(query)", "TPL", "Dataset", "Binary", "File"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 73.92,
+    "x2": 537.12,
+    "y1": 84.0,
+    "y2": 219.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Figure1-1.png"
+}, {
+  "caption": "Figure 2: CLIP over binary and source function pairs",
+  "captionBoundary": {
+    "x1": 331.85400390625,
+    "x2": 544.3041381835938,
+    "y1": 660.9640502929688,
+    "y2": 666.594970703125
+  },
+  "figType": "Figure",
+  "imageText": ["od", "el", "g", "M", "dd", "in", "Em", "be", "tio", "n", "Fu", "nc", "…", "…", "𝑒!&", "𝑒#&", "𝑒$&", "…", "𝑒%&", "𝑒%\"", "𝑒!\"", "𝑒#\"", "𝑒$\"", "…", "…", "…", "…", "…", "…", "…", "…", "…", "static", "const", "char", "return", "env", ";", "char", "FUN", "_", "return", "pc", "Var", "Ghidra", "Pseudo-C", "Binary", "Function", "Open-sourced", "C/C++", "Code", "Source", "Function"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 324.0,
+    "x2": 553.4399999999999,
+    "y1": 564.0,
+    "y2": 645.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Figure2-1.png"
+}, {
+  "caption": "Table 1: Result of retrieving similar source functions",
+  "captionBoundary": {
+    "x1": 198.9820098876953,
+    "x2": 412.7134704589844,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["BinaryAI", "CLIP", "0.3006", "7,235", "/", "22.40", "13,465", "/", "41.69", "14,682", "/", "45.46", "15,020", "/", "46.51", "0.3958", "5,348", "/", "22.73", "13,493", "/", "57.35", "15,873", "/", "67.46", "16,576", "/", "70.45", "CodeCMR", "Triplet", "0.1431", "3,195", "/", "9.89", "6,543", "/", "20.26", "7,827", "/", "24.24", "8,347", "/", "25.85", "0.2232", "2,805", "/", "11.92", "7,873", "/", "33.46", "9,875", "/", "41.97", "1,0561", "/", "44.89", "CodeCMR", "CLIP", "0.2319", "5,456", "/", "16.89", "10,589", "/", "32.79", "12,256", "/", "37.95", "12,801", "/", "39.64", "0.2820", "3,638", "/", "15.46", "9,889", "/", "42.03", "12,510", "/", "53.17", "13,319", "/", "56.61", "BinaryAI", "Triplet", "0.2774", "6,552", "/", "20.29", "12,627", "/", "39.10", "14,009", "/", "43.38", "14,460", "/", "44.77", "0.3539", "4,692", "/", "19.94", "12,113", "/", "51.48", "14,650", "/", "62.26", "15,395", "/", "65.43", "BinPro", "N/A", "0.0027", "771", "/", "2.39", "1,165", "/", "3.61", "1,593", "/", "4.93", "1,845", "/", "5.71", "0.0036", "612", "/", "2.60", "944", "/", "4.01", "1,262", "/", "5.36", "1,507", "/", "6.40", "B2SFinder", "N/A", "0.0042", "945", "/", "2.93", "1,717", "/", "5.32", "2,108", "/", "6.53", "2,436", "/", "7.54", "0.0048", "864", "/", "3.67", "1,305", "/", "5.55", "1,740", "/", "7.40", "2,082", "/", "8.85", "MRR", "Count/Recall@1", "Count/Recall@10", "Count/Recall@50", "Count/Recall@100", "MRR", "Count/Recall@1", "Count/Recall@10", "Count/Recall@50", "Count/Recall@100", "Model", "Objective", "Validation", "Set", "of", "Model", "(query=32,296)", "Binary", "SCA", "Test", "Set", "(query=23,529)"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 57.599999999999994,
+    "x2": 554.4,
+    "y1": 105.6,
+    "y2": 188.16
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Table1-1.png"
+}, {
+  "caption": "Table 2: Result of locality-driven matching (k=10)",
+  "captionBoundary": {
+    "x1": 337.5010070800781,
+    "x2": 538.3595581054688,
+    "y1": 365.43634033203125,
+    "y2": 371.0669860839844
+  },
+  "figType": "Table",
+  "imageText": ["Total", "23,529", "14,158", "11,557", "81.63", "49.12", "13,572", "95.86", "57.68", "controlblock", "185", "107", "86", "80.37", "46.49", "99", "92.52", "53.51", "db_bench", "359", "253", "209", "82.61", "58.22", "239", "94.47", "66.57", "dosbox_core", "2,804", "2,042", "1,854", "90.79", "66.12", "1,974", "96.67", "70.40", "eth_sc", "267", "232", "190", "81.90", "71.16", "221", "95.26", "82.77", "hyriseSystem", "318", "197", "187", "94.92", "58.81", "193", "97.97", "60.69", "kvrocks", "2,240", "1,452", "1,190", "81.96", "53.13", "1,415", "97.45", "63.17", "nano_node", "1,604", "939", "752", "80.09", "46.88", "923", "98.30", "57.54", "pagespeed", "6,430", "3,442", "2,683", "77.95", "41.73", "3,305", "96.02", "51.40", "prometheus", "204", "157", "138", "87.90", "67.65", "146", "92.99", "71.57", "replay-sorcery", "770", "454", "367", "80.84", "47.66", "437", "96.26", "56.75", "st-device-sdk", "801", "582", "486", "83.51", "60.67", "536", "92.10", "66.92", "tendisplus", "2,197", "1,541", "1,265", "82.09", "57.58", "1,498", "97.21", "68.18", "tic80", "832", "695", "573", "82.45", "68.87", "668", "96.12", "80.29", "turbobench", "762", "270", "203", "75.19", "26.64", "243", "90.00", "31.89", "yuzu-cmd", "3,756", "1,795", "1,374", "76.55", "36.58", "1,675", "93.31", "44.60", "#TP", "P", "(%)", "R", "(%)", "#TP", "P", "(%)", "R", "(%)", "Binary", "#Label", "BinaryAI", "Exact", "Match", "Fuzzy", "Match"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 556.3199999999999,
+    "y1": 385.91999999999996,
+    "y2": 544.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Table2-1.png"
+}, {
+  "caption": "Figure 3: Retrieved binary and source function pair",
+  "captionBoundary": {
+    "x1": 334.32000732421875,
+    "x2": 541.8289184570312,
+    "y1": 196.94137573242188,
+    "y2": 202.572021484375
+  },
+  "figType": "Figure",
+  "imageText": ["Binary", "Function", "Source", "Function", "cos", "similarity:", "0.982", "static", "const", "char*", "DefaultLogDir()", "{", "const", "char*", "env;", "env", "=", "getenv(\"GOOGLE_LOG_DIR\");", "if", "(env", "!=", "NULL", "&&", "env[0]", "!=", "'\\0')", "{", "return", "env;", "}", "env", "=", "getenv(\"TEST_TMPDIR\");", "if", "(env", "!=", "NULL", "&&", "env[0]", "!=", "'\\0')", "{", "return", "env;", "}", "return", "\"\";", "}", "char*", "FUN_00153d7b(void)", "{", "char*", "pcVar1;", "pcVar1", "=", "getenv(\"GOOGLE_LOG_DIR\");", "if", "(((pcVar1", "==", "(char*)0x0)", "||", "(*pcVar1", "==", "'\\0'))", "&&", "((pcVar1", "=", "getenv(\"TEST_TMPDIR\"),", "pcVar1", "==", "(char*)0x0", "||", "(*pcVar1", "==", "'\\0'))))", "{", "pcVar1", "=", "\"\";", "}", "return", "pcVar1;", "}"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 557.28,
+    "y1": 84.96,
+    "y2": 182.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icse-icse2024/figures/10_1145-3597503_3639100-Figure3-1.png"
+}]

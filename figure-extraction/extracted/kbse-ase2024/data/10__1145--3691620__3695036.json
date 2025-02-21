@@ -1,0 +1,101 @@
+[{
+  "caption": "Figure 4: The specification of Java’s java.util.Optional class. Other methods in the class need no annotations.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.3674926757812,
+    "y1": 563.3898315429688,
+    "y2": 576.9769897460938
+  },
+  "figType": "Figure",
+  "imageText": ["}", "public", "T", "get(@Present", "Optional<T>", "this);", "@EnsuresPresentIf(result", "=", "true,", "expression", "=", "\"this\")", "public", "boolean", "isPresent();", "@EnsuresPresentIf(result", "=", "false,", "expression", "=", "\"this\")", "public", "boolean", "isEmpty();", "public", "T", "orElseThrow(@Present", "Optional<T>", "this);", "@EnsuresPresent(\"this\")", "public", "T", "orElseThrow(Supplier", "exceptionSupplier);"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 508.32,
+    "y1": 465.59999999999997,
+    "y2": 559.1999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695036-Figure4-1.png"
+}, {
+  "caption": "Table 2: Style violations related to the Java Optional type; section 3.2 provides a description for each table header. Rule #2 is a violation of correctness, which appears in table 1.",
+  "captionBoundary": {
+    "x1": 53.53499984741211,
+    "x2": 294.04388427734375,
+    "y1": 84.36984252929688,
+    "y2": 106.458984375
+  },
+  "figType": "Table",
+  "imageText": ["SpotBugs", "1", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "n/a", "Error", "Prone", "0", "1", "1", "1", "n/a", "n/a", "n/a", "n/a", "IntelliJ", "IDEA", "3", "14", "2", "11", "30", "61", "102", "n/a", "Optional", "Checker", "7", "6", "43", "1", "22", "93", "67", "0", "1", "3", "4", "5", "6.a", "6.b", "6.c", "7"],
+  "name": "2",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 110.88,
+    "y2": 167.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695036-Table2-1.png"
+}, {
+  "caption": "Figure 2: The type hierarchy for possibly-present data.",
+  "captionBoundary": {
+    "x1": 340.0140075683594,
+    "x2": 536.1400146484375,
+    "y1": 192.56484985351562,
+    "y2": 197.57000732421875
+  },
+  "figType": "Figure",
+  "imageText": ["@Present", "@MaybePresent"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 411.35999999999996,
+    "x2": 464.64,
+    "y1": 147.35999999999999,
+    "y2": 174.72
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695036-Figure2-1.png"
+}, {
+  "caption": "Table 1: Defects reported by 4 static analysis tools. Annos is the number of machine-verified annotations we wrote as a specification in programs.",
+  "captionBoundary": {
+    "x1": 317.6919860839844,
+    "x2": 558.2014770507812,
+    "y1": 84.36984252929688,
+    "y2": 106.073974609375
+  },
+  "figType": "Table",
+  "imageText": ["SpotBugs", "0", "0", "n/a", "0%", "0", "Error", "Prone", "0", "0", "n/a", "0%", "0", "IntelliJ", "IDEA", "11", "5", "69%", "85%", "0", "Optional", "Checker", "13", "1", "93%", "100%", "6", "Recall", "Annos", "sion", "Preci-", "positives", "False", "positives", "True", "Tool"],
+  "name": "1",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 109.92,
+    "y2": 178.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695036-Table1-1.png"
+}, {
+  "caption": "Figure 3: The type hierarchy for container types.",
+  "captionBoundary": {
+    "x1": 86.40599822998047,
+    "x2": 261.43511962890625,
+    "y1": 653.767822265625,
+    "y2": 658.7730102539062
+  },
+  "figType": "Figure",
+  "imageText": ["@NonEmpty", "@UnknownNonEmpty"],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 139.2,
+    "x2": 204.48,
+    "y1": 620.16,
+    "y2": 648.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695036-Figure3-1.png"
+}]

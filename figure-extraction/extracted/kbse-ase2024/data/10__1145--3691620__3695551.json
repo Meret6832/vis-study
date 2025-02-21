@@ -1,0 +1,161 @@
+[{
+  "caption": "Table 1: Repositories used in our evaluation.",
+  "captionBoundary": {
+    "x1": 214.90200805664062,
+    "x2": 394.5536804199219,
+    "y1": 91.19485473632812,
+    "y2": 93.27496337890625
+  },
+  "figType": "Table",
+  "imageText": ["Σ", "-", "-", "11,067", "1,102,434", "4,249", "52,718", "3,521.54", "asterisk-java", "3576c01f", "51", "814", "57,208", "46", "252", "32.39", "commons-beanutils", "55a786a3", "51", "243", "31,831", "94", "1,273", "9.84", "commons-codec", "3c212236", "51", "133", "22,417", "58", "1,084", "44.92", "commons-collections", "c46666c5", "51", "536", "62,956", "168", "24,612", "25.72", "commons-compress", "2ed55677", "51", "356", "44,911", "137", "1,065", "24.19", "commons-configuration", "b84a0ef5", "51", "467", "69,625", "169", "2,831", "30.75", "commons-dbcp", "8e4a5652", "51", "109", "23,111", "32", "580", "102.36", "commons-imaging", "c5ca63fe", "51", "490", "38,664", "111", "573", "38.17", "commons-io", "d3137782", "51", "250", "30,500", "106", "1,362", "46.51", "commons-lang", "b41e9181", "51", "333", "77,448", "148", "4,091", "27.78", "commons-math", "aeb21280", "51", "1,488", "191,967", "477", "6,557", "109.81", "commons-net", "f4bc1441", "51", "273", "28,246", "44", "301", "76.35", "commons-pool", "1ff0aa0f", "51", "92", "14,395", "22", "290", "330.99", "fastjson", "30404ab3", "51", "2,936", "177,932", "2,278", "4,869", "83.82", "finmath-lib", "fbcac3da", "51", "1,166", "101,906", "90", "496", "1,479.98", "gerrit-events", "5201a56f", "51", "98", "6,649", "21", "109", "26.44", "HikariCP", "5d1ed1c6", "51", "90", "12,159", "37", "144", "112.40", "lmdbjava", "7cf8f02f", "51", "45", "4,914", "8", "105", "32.60", "LogicNG", "60dcb918", "51", "343", "39,532", "116", "878", "452.85", "rxjava-extras", "11a083ed", "51", "127", "12,898", "48", "686", "94.13", "sdk-rest", "a800949a", "51", "626", "46,621", "24", "361", "250.40", "tabula-java", "8247954b", "51", "52", "6,544", "15", "199", "89.14", "Code", "Base", "Size", "Test", "Suite", "#File", "LOC", "#Class", "#Method", "Time", "[s]", "#Ver.", "Ver.", "First", "Repository"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 136.79999999999998,
+    "x2": 475.2,
+    "y1": 108.0,
+    "y2": 372.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Table1-1.png"
+}, {
+  "caption": "Figure 1: Example of using iJaCoCo on commons-lang: when computing the code coverage on version 9fb4f47f, JaCoCo",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.2034912109375,
+    "y1": 274.1418762207031,
+    "y2": 287.1809997558594
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "Tests", "selected", "by", "iJaCoCo.", "org.apache.commons.lang3.builder.ReflectionDiffBuilderTest", "org.apache.commons.lang3.reflect.FieldUtilsTest", "org.apache.commons.lang3.reflect.TypeUtilsTest", "org.apache.commons.lang3.time.StopWatchTest", "(a)", "Code", "change", "between", "version", "b1deb442", "and", "9fb4f47f.", "}", "}", "//", "The", "modifiers", "field", "is", "made", "accessible", "}", "catch", "(final", "IllegalAccessException", "ignored)", "{", "//", "The", "field", "class", "contains", "always", "a", "modifiers", "field", "Validate.isTrue(field", "!=", "null,", "\"The", "field", "must", "not", "be", "null\");", "try", "{", "...", "}", "catch", "(final", "NoSuchFieldException", "ignored)", "{", "}", "catch", "(final", "NoSuchFieldException", "|", "IllegalAccessException", "ignored)", "{", "final", "boolean", "forceAccess)", "{", "//", "org/apache/commons/lang3/reflect/FieldUtils.java", "public", "static", "void", "removeFinalModifier(final", "Field", "field,", "-", "-", "-", "+"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 327.84,
+    "x2": 551.04,
+    "y1": 91.2,
+    "y2": 255.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Workflow of incremental code coverage analysis.",
+  "captionBoundary": {
+    "x1": 319.95098876953125,
+    "x2": 556.196044921875,
+    "y1": 212.66488647460938,
+    "y2": 214.7449951171875
+  },
+  "figType": "Figure",
+  "imageText": ["to", "nextversion", "from", "old", "version", "⊕", "merge", "⊕", "merge", "report", "generation", "D′", "G′", "T′", "sel", "DΔ", "GΔ", "⊖", "remove", "outdated", "Cupd", "T′", "rts", "D", "coverage", "data", "G", "dependency", "graph", "CΔ", "change", "set", "Collection", "Analysis", "Execution"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 332.64,
+    "x2": 558.24,
+    "y1": 85.92,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Experiment results for commons-lang.",
+  "captionBoundary": {
+    "x1": 207.70599365234375,
+    "x2": 402.0439758300781,
+    "y1": 206.09890747070312,
+    "y2": 208.17901611328125
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "code", "coverage", "iJaCoCo", "JaCoCo", "[%", "]", "ve", "ra", "ge", "Lin", "e", "Co", "100", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(c)", "test", "selection", "rate", "iJaCoCo", "Ekstazi", "]", "te", "[%", "tio", "n", "Ra", "Te", "st", "S", "el", "ec", "100", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(b)", "iJaCoCo", "speedup", "du", "p", "Sp", "ee", "2.5", "2.0", "1.5", "1.0", "0.5", "0.0", "0", "10", "20", "30", "40", "50", "Version", "(a)", "end-to-end", "time", "iJaCoCo", "JaCoCo", "ut", "io", "n", "Ti", "m", "e", "[s", "]", "Ex", "ec", "30", "25", "20", "15", "10", "5", "0", "0", "10", "20", "30", "40", "50", "Version"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 75.36,
+    "x2": 537.12,
+    "y1": 88.8,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Experiment results for commons-codec.",
+  "captionBoundary": {
+    "x1": 205.1999969482422,
+    "x2": 404.550048828125,
+    "y1": 347.75189208984375,
+    "y2": 349.8320007324219
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "code", "coverage", "iJaCoCo", "JaCoCo", "[%", "]", "ve", "ra", "ge", "Lin", "e", "Co", "100", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(c)", "test", "selection", "rate", "iJaCoCo", "Ekstazi", "]", "te", "[%", "tio", "n", "Ra", "Te", "st", "S", "el", "ec", "100", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(b)", "iJaCoCo", "speedup", "du", "p", "Sp", "ee", "6", "5", "4", "3", "2", "1", "0", "0", "10", "20", "30", "40", "50", "Version", "(a)", "end-to-end", "time", "iJaCoCo", "JaCoCo", "ut", "io", "n", "Ti", "m", "e", "[s", "]", "Ex", "ec", "50", "40", "30", "20", "10", "0", "0", "10", "20", "30", "40", "50", "Version"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 75.36,
+    "x2": 537.12,
+    "y1": 230.88,
+    "y2": 328.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Figure5-1.png"
+}, {
+  "caption": "Figure 3: Example showing the necessity for incremental",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0364074707031,
+    "y1": 242.85287475585938,
+    "y2": 244.9329833984375
+  },
+  "figType": "Figure",
+  "imageText": ["1", "class", "c3", "{", "2", "c3()", "{}", "3", "void", "m()", "{return;}", "4", "}", "possible", "changeset", "b", "new", "c3(", ")", ".m(", ")", ";", "a", "return;", "1", "class", "c2", "{", "2", "c2()", "{}", "3", "void", "m()", "{new", "c1().m();}", "4", "}", "1", "class", "c1", "{", "2", "c1()", "{}", "3", "void", "m()", "{return;}", "4", "}", "1", "class", "t3", "{", "2", "@Test", "void", "t()", "{", "3", "new", "c3();", "4", "}}", "1", "class", "t2", "{", "2", "@Test", "void", "t()", "{", "3", "new", "c2().m();", "4", "}}", "1", "class", "t1", "{", "2", "@Test", "void", "t()", "{", "3", "new", "c1();", "4", "}}"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 292.8,
+    "y1": 84.96,
+    "y2": 216.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Figure3-1.png"
+}, {
+  "caption": "Figure 6: Experiment results for commons-net.",
+  "captionBoundary": {
+    "x1": 209.97000122070312,
+    "x2": 399.7801818847656,
+    "y1": 529.3478393554688,
+    "y2": 531.427978515625
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "code", "coverage", "iJaCoCo", "JaCoCo", "80", "100", "Lin", "e", "Co", "ve", "ra", "ge", "[%", "]", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(c)", "test", "selection", "rate", "iJaCoCo", "Ekstazi", "]", "te", "[%", "tio", "n", "Ra", "Te", "st", "S", "el", "ec", "100", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(b)", "iJaCoCo", "speedup", "du", "p", "Sp", "ee", "10", "8", "6", "4", "2", "0", "0", "10", "20", "30", "40", "50", "Version", "(a)", "end-to-end", "time", "iJaCoCo", "JaCoCo", "ut", "io", "n", "Ti", "m", "e", "[s", "]", "Ex", "ec", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "avg", "20.63", "47.34", "38.05", "(25.9%)", "1.53", "(1.0%)", "106.34", "(72.5%)", "0.84", "(0.6%)", "asterisk-java", "5.97", "5.97", "9.87", "(72.8%)", "0.42", "(3.1%)", "2.04", "(15.1%)", "1.22", "(9.0%)", "commons-beanutils", "12.47", "85.09", "9.49", "(75.4%)", "0.40", "(3.2%)", "2.22", "(17.6%)", "0.48", "(3.8%)", "commons-codec", "6.34", "17.28", "7.70", "(41.5%)", "0.39", "(2.1%)", "10.00", "(53.9%)", "0.45", "(2.4%)", "commons-collections", "7.53", "34.60", "11.09", "(56.1%)", "0.49", "(2.5%)", "7.21", "(36.5%)", "0.98", "(5.0%)", "commons-compress", "20.31", "48.73", "10.29", "(22.4%)", "0.58", "(1.3%)", "34.32", "(74.6%)", "0.84", "(1.8%)", "commons-configuration", "17.89", "48.01", "11.73", "(36.7%)", "1.23", "(3.9%)", "18.10", "(56.7%)", "0.89", "(2.8%)", "commons-dbcp", "18.59", "31.62", "8.21", "(13.5%)", "0.63", "(1.0%)", "51.48", "(84.6%)", "0.50", "(0.8%)", "commons-imaging", "21.97", "32.70", "9.43", "(31.4%)", "0.42", "(1.4%)", "19.22", "(64.1%)", "0.93", "(3.1%)", "commons-io", "8.01", "11.56", "8.51", "(50.5%)", "0.52", "(3.1%)", "7.27", "(43.2%)", "0.55", "(3.3%)", "commons-lang", "11.58", "22.47", "10.47", "(63.5%)", "0.49", "(3.0%)", "4.65", "(28.2%)", "0.87", "(5.3%)", "commons-math", "9.76", "96.39", "19.83", "(10.9%)", "0.81", "(0.4%)", "159.32", "(87.6%)", "2.02", "(1.1%)", "commons-net", "9.40", "18.00", "7.64", "(29.5%)", "0.43", "(1.7%)", "17.13", "(66.2%)", "0.68", "(2.6%)", "commons-pool", "13.55", "34.49", "7.71", "(5.1%)", "0.39", "(0.3%)", "141.78", "(94.4%)", "0.36", "(0.2%)", "fastjson", "28.59", "41.41", "28.57", "(30.8%)", "5.79", "(6.2%)", "57.18", "(61.6%)", "1.23", "(1.3%)", "finmath-lib", "8.13", "7.97", "9.91", "(2.3%)", "0.48", "(0.1%)", "424.00", "(97.3%)", "1.59", "(0.4%)", "gerrit-events", "19.51", "54.02", "6.73", "(21.5%)", "0.81", "(2.6%)", "23.40", "(74.8%)", "0.36", "(1.2%)", "HikariCP", "47.99", "59.27", "8.46", "(8.5%)", "0.94", "(0.9%)", "90.22", "(90.2%)", "0.44", "(0.4%)", "lmdbjava", "28.10", "77.39", "6.93", "(11.7%)", "0.38", "(0.6%)", "51.56", "(87.1%)", "0.30", "(0.5%)", "LogicNG", "30.46", "84.99", "9.03", "(1.1%)", "0.64", "(0.1%)", "813.74", "(98.7%)", "0.92", "(0.1%)", "rxjava-extras", "8.77", "47.06", "6.67", "(11.1%)", "0.64", "(1.1%)", "52.16", "(86.8%)", "0.60", "(1.0%)", "sdk-rest", "85.13", "87.17", "10.79", "(2.8%)", "3.92", "(1.0%)", "371.25", "(95.8%)", "1.62", "(0.4%)", "tabula-java", "33.72", "95.38", "6.63", "(7.0%)", "0.49", "(0.5%)", "87.59", "(92.2%)", "0.34", "(0.4%)", "Selection", "Rate", "[%]", "iJaCoCo", "Phase", "Time", "[s]", "Ekstazi", "iJaCoCo", "Compilation", "Analysis", "Execution", "+", "Collection", "Report", "Repository"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 75.36,
+    "x2": 537.12,
+    "y1": 118.56,
+    "y2": 510.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Experiment results for fastjson.",
+  "captionBoundary": {
+    "x1": 221.82398986816406,
+    "x2": 387.9280700683594,
+    "y1": 671.0008544921875,
+    "y2": 673.0809936523438
+  },
+  "figType": "Figure",
+  "imageText": ["(d)", "code", "coverage", "iJaCoCo", "JaCoCo", "[%", "]", "ve", "ra", "ge", "Lin", "e", "Co", "100", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(c)", "test", "selection", "rate", "iJaCoCo", "Ekstazi", "]", "te", "[%", "tio", "n", "Ra", "Te", "st", "S", "el", "ec", "100", "80", "60", "40", "20", "0", "0", "10", "20", "30", "40", "50", "Version", "(b)", "iJaCoCo", "speedup", "du", "p", "Sp", "ee", "3.0", "2.5", "2.0", "1.5", "1.0", "0.5", "0.0", "0", "10", "20", "30", "40", "50", "Version", "(a)", "end-to-end", "time", "iJaCoCo", "JaCoCo", "ut", "io", "n", "Ti", "m", "e", "[s", "]", "Ex", "ec", "150", "125", "100", "75", "50", "25", "0", "0", "10", "20", "30", "40", "50", "Version"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 75.36,
+    "x2": 537.12,
+    "y1": 553.92,
+    "y2": 652.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695551-Figure7-1.png"
+}]

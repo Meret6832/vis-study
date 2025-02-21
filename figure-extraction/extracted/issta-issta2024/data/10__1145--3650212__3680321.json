@@ -1,0 +1,201 @@
+[{
+  "caption": "Figure 4: The architecture ofMidas.",
+  "captionBoundary": {
+    "x1": 101.70899963378906,
+    "x2": 246.1348114013672,
+    "y1": 172.8170928955078,
+    "y2": 178.447998046875
+  },
+  "figType": "Figure",
+  "imageText": ["Profitable", "Transaction", "Identification", "Profitable", "Exploits", "Diverse", "Validity", "Fuzzing", "Performance", "Waypoint", "Validity", "Waypoint", "Corpus", "mutator", "Mutated", "Transaction", "Historical", "Transactions", "Contracts", "Under", "Testing", "Transaction", "Sender", "Contracts", "Under", "Testing", "Blockchain"],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 85.92,
+    "y2": 158.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Figure4-1.png"
+}, {
+  "caption": "Figure 5: The pipeline of data preprocessing inMidas.",
+  "captionBoundary": {
+    "x1": 329.2829895019531,
+    "x2": 546.873779296875,
+    "y1": 245.8900909423828,
+    "y2": 251.52099609375
+  },
+  "figType": "Figure",
+  "imageText": ["Initial", "Corpus", "V(From,", ")\"#$)", "WETH", "USDC", "……", "TOKEN", "SET", "execution", "trace", "of", "&'!", "in", "the", "context", "of", "(!", "…", "0x5", "PUSH1", "0x73", "0x7", "PUSH1", "0x21", "0x9", "ADD", "…", "0xab", "CALL", "approve(addr)", "transfer(a,b)", "swap(t1,t2,a)", "ABI", "……", "Block", "Number", "Timestamp", "BLOCK", "ENV", "ABI", ":", "DICT", "&'!", "From:0x04…fff", "To", ":0x73…211", "Data:0x5f5755", "29…69b703ea66", "Env", ":", "BLOCK", "!\"%#$", "!&%#!&", "!\"!#$", "!\"!", "!\"\"", "!!\"#", "!$", "!#", "!!%#", "!!", "!!\"#", "!\"!", "!!", "(C)", "Corpus", "Initialization", "(A)", "Historical", "Transactions", "(B)", "Transaction", "Metadata", "Collection"],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 84.0,
+    "y2": 231.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Figure5-1.png"
+}, {
+  "caption": "Figure 8: Simplified real-world smart contracts with centralized risks.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.80615234375,
+    "y1": 506.4631042480469,
+    "y2": 523.052978515625
+  },
+  "figType": "Figure",
+  "imageText": ["12", "13", "uint256", "swapFeeAmount", "=", "_payFee(out", ",", "swapFee);", "14", "//", "swapFee", "can", "be", "changed", "by", "owner", "15", "actualOut", "=", "preOut", "-", "swapFeeAmount;", "16", "}", "17", "}", "10", "uint256", "preOut", "=", "IERC20(out).balanceOf(address(", "this));", "11", "require(preOut", ">=", "min);", "9", "...", "public", "auth", "{", "6", "7", "contract", "SwapVault", "{", "8", "function", "swap(address", "in,", "address", "out", ",", "uint256", "min)", "3", "SmartVault.swap(in,", "out", ",", "min);", "4", "}", "5", "}", "public", "{", "1", "contract", "Swapper", "{", "2", "function", "call(address", "in,", "address", "out", ",", "uint256", "min)"],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 559.1999999999999,
+    "y1": 310.56,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Figure8-1.png"
+}, {
+  "caption": "Figure 6: The number of valid and non-valid seeds versus the number of historical transactions for corpus initialization, in the Dexible DApp.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.13690185546875,
+    "y1": 253.10707092285156,
+    "y2": 280.6549987792969
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 289.44,
+    "y1": 82.56,
+    "y2": 240.48
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Figure6-1.png"
+}, {
+  "caption": "Figure 7: Simplified real-world smart contracts with inconsistent state updates.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 559.803466796875,
+    "y1": 273.6720886230469,
+    "y2": 290.260986328125
+  },
+  "figType": "Figure",
+  "imageText": ["14", "15", "function", "mint(uint8", "numTokens)", "external", "payable", "{", "16", "require(nextId", "+", "numTokens", "<=", "MAX_MINT);", "17", "_safeMint(msg.sender", ",", "++", "nextId);", "18", "}", "19", "}", "10", "11", "contract", "TokenB", "{", "12", "uint256", "nextId", "=", "100;", "13", "uint256", "MAX_MINT", "=", "200;", "4", "5", "function", "mint(uint8", "numTokens)", "external", "payable", "{", "6", "require(nextId", "+", "numTokens", "<=", "MAX_MINT);", "7", "_safeMint(msg.sender", ",", "++", "nextId);", "8", "}", "9", "}", "1", "contract", "TokenA", "{", "2", "uint256", "nextId", "=", "0;", "3", "uint256", "MAX_MINT", "=", "100;"],
+  "name": "7",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 312.96,
+    "x2": 559.1999999999999,
+    "y1": 86.88,
+    "y2": 257.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Figure7-1.png"
+}, {
+  "caption": "Figure 1: The demonstration examples for profitable exploits.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0452880859375,
+    "y1": 317.8821105957031,
+    "y2": 323.51300048828125
+  },
+  "figType": "Figure",
+  "imageText": ["(b)", "The", "second", "type", "of", "profitable", "exploit,", "where", "an", "adversary", "directly", "steals", "from", "an", "honest", "user.", "[CALL]", "transfer(", "USER,", "ADVERSARY,", "100", "ether", ")", "TX2", "TX1", "[STATICCALL]", "Opensea.getPrice(", "NFT_ID", ")", "[CALL]", "Opensea.buy(", "NFT_ID", ")", "[SENDER]", "USER", "[CALL]", "Opensea.setPrice(", "NFT_ID,", "100", "ether", ")", "[SENDER]", "ADVERSARY", "(a)", "The", "first", "type", "of", "profitable", "exploit,", "where", "an", "adversary", "tries", "to", "acquire", "extra", "profits.", "TX3", "TX2", "TX1", "[CALL]", "Uniswap.swap(", "USDC,", "WETH,", "100", "ether", ")", "[SENDER]", "ADVERSARY", "[STATICCALL]", "Uniswap.getPrice(", "USDC", ")", "[CALL]", "Unipound.borrow(", "USDC,", "1", "ether)", "[SENDER]", "ADVERSARY", "[CALL]", "Uniswap.swap(", "WETH,", "USDC,", "100", "ether", ")", "[SENDER]", "ADVERSARY"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 83.52,
+    "x2": 264.48,
+    "y1": 84.96,
+    "y2": 302.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Figure1-1.png"
+}, {
+  "caption": "Table 1: The average number of identified exploits of Midas and comparison tools, along with the number of true positives. Higher is better.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8045654296875,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Average", "102", "8", "19", "14", "50", "40", "Total", "(in", "three", "runs)", "102", "8", "20", "15", "54", "42", "#", "Total", "#", "TP", "#", "Total", "#", "TP", "#", "Total", "#", "TP", "Slither", "ItyFuzz", "Midas"],
+  "name": "1",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 127.67999999999999,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Table1-1.png"
+}, {
+  "caption": "Figure 2: The execution trace of a real-world exploitable example in Ethereum.",
+  "captionBoundary": {
+    "x1": 146.43499755859375,
+    "x2": 465.5672912597656,
+    "y1": 286.26611328125,
+    "y2": 291.8970031738281
+  },
+  "figType": "Figure",
+  "imageText": ["12", "Unsafe", "Dependency:", "The", "actual", "transfer", "can", "be", "manipulated", "by", "users", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", "0000000000000000000000000000000000000000000000000000000000000000", "000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7", "0000000000000000000000000000000000000000000000000069b703ea66a800", "000000000000000000000000000000000000000000000000000000000374c7a1", "0000000000000000000000000000000000000000000000000000000000000120", "0000000000000000000000000000000000000000000000000000ddd364dc5800", "000000000000000000000000f326e4de8f66a0bdc0970b79e0924e33c79f1915", "0000000000000000000000000000000000000000000000000000000000000000", "00000000000000000000000000000000000000000000000000000000000001e0", "000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7", "000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "000000000000000000000000000000000000000000000000000000000386d627", "0000000000000000000000000000000000000000000000000069b703ea66a800", "000000000000000000000000a69babef1ca67a37ffaf7a485dfff3382056e78c", "00000000000000000000000074de5d4fcbf63e00296fd95d33236b9794016631", "00000000000000000000000067be1dd67339d080f9d4ca1976fb0fc69ca6238a", "0000000000000000000000000000000000000000000000000000000000000000", "0000000000000000000000000000000000000000000000000000000064b12bc5", "01ffffffffffffffffffffffffffffffffffffff0ef5cf1364b12b2f00000033", "0000000000000000000000000000000000000000000000000000000000000003", "000000000000000000000000000000000000000000000000000000000000001c", "13469a2bda28e2628f4b25e047abcc27c28b3de9cca92aa79a87e381c7fa2847", "7d4a49b760817460a04baebc3066e5ec579eff7dabf72bb3bbb3e5e434bd80e5", "0000000000000000000000000000000000000000000000000069b703ea66a800", "[CALL]", "USD.transferFrom(", "AirSwap,", "USER,", "amount_2", ")", "[CALL]", "ETH.transferFrom(", "AirSwap,", "ADMIN,", "fee", ")", "[CALL]", "USD.transferFrom(Exchange,", "AirSwap,", "amount_2", ")", "[CALL]", "ETH.transferFrom(", "AirSwap,", "Exchange,", "amount_1", ")", "Precompiled.ecrecover(", "hash,", "v,", "r,", "s", ")", "Imp.fill(", "order", "=", "[USDT,", "WETH],", "amount_1", ")", "[CALL]", "Exchange.fill(", "order", "=", "[USDT,", "WETH],", "amount_1", ")", "[STATICCALL]", "ETH.allowance(", "AirSwap,", "Exchange", ")", "ETH.transferFrom(", "USER,", "AirSwap,", "amount", ")", "[DELEGATECALL]", "0x7bba…a748.0x92f5f037(", "raw_data", ")", "[CALL]", "AirSwap.swap(0x7bba…a748,", "raw_data", ")", "[CALL]", "Swap_Router.swap(", "aggregator_id,", "amount,", "raw_data", ")", "[SENDER]", "USER", "[CALL]", "[DELEGATECALL]", "[STATICCALL]"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 56.64,
+    "x2": 556.3199999999999,
+    "y1": 85.92,
+    "y2": 270.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Figure2-1.png"
+}, {
+  "caption": "Table 3: Average number of branches covered by test seeds, along with the number of identified smart contracts . Higher is better.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.2954711914062,
+    "y1": 196.40711975097656,
+    "y2": 223.95501708984375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "404K", "(5.1K)", "565K", "(6.2K)", "560K", "(6.0K)", "768K", "(8.4K)", "Median", "773", "(9)", "1,416", "(16)", "1,489", "(17)", "1,917", "(23)", "Average", "3.9K", "(50)", "5.5K", "(60)", "5.4K", "(58)", "7.5K", "(82)", "ItyFuzz", "Midas-valid", "Midas-perf", "Midas"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 238.56,
+    "y2": 294.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Table3-1.png"
+}, {
+  "caption": "Table 2: Number of valid seeds generated by Midas and comparison tools, along with the percentage of the total number of seeds. Higher is better.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.80712890625,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "8.7K", "(31.1%)", "91.6K", "(51.4%)", "73.3K", "(34.3%)", "229.0K", "(51.5%)", "Median", "44", "(31.6%)", "286", "(47.1%)", "262", "(30.7%)", "1,378", "(51.7%)", "Average", "84.2", "(31.1%)", "889.7", "(51.4%)", "711.6", "(34.3%)", "2.2K", "(51.5%)", "ItyFuzz", "Midas-valid", "Midas-perf", "Midas"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 320.64,
+    "x2": 555.36,
+    "y1": 127.67999999999999,
+    "y2": 179.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/issta-issta2024/figures/10_1145-3650212_3680321-Table2-1.png"
+}]

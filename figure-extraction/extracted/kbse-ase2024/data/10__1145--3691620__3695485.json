@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 3: Example of termination strategy.",
+  "captionBoundary": {
+    "x1": 88.13999938964844,
+    "x2": 259.703125,
+    "y1": 620.2020874023438,
+    "y2": 625.8330078125
+  },
+  "figType": "Figure",
+  "imageText": ["Selected", "for", "expansion", "Extended", "previous", "Expand", "the", "Causal", "Graph", "No", "Yes", "Select", "Action", "n?", "Output", "the", "Causal", "Graph", "(d)", "Update", "Action", "Action", "1", "E", "Action", "2", "F", "Masked", "......", "Action", "n", "End", "Q-value", "ak", "bk", "-inf", "……", "dk", "(e)", "Q-table", "Update", "Q-value", "by", "Bellman", "Equation", "G", "C", "D", "A", "Initial", "node", "B", "(c)", "One", "Step", "Expanded", "Graph", "𝑎𝑟𝑔𝑚𝑎𝑥𝑎", "𝑄", "𝑠,", "𝑎", "=", "𝑐1", "Action", "Action", "1", "E", "Action", "2", "F", "Action", "3", "G", "......", "Action", "n", "End", "Q-value", "a1", "b1", "c1", "……", "d1", "(b)", "Q-table", "C", "D", "A", "Initial", "node", "B", "(a)", "Causal", "Graph"],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 54.72,
+    "x2": 294.24,
+    "y1": 487.68,
+    "y2": 602.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Figure3-1.png"
+}, {
+  "caption": "Figure 4: Use the granger test to determine edge existence and select the node to expand based on Q-value.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0470886230469,
+    "y1": 209.7650909423828,
+    "y2": 226.35498046875
+  },
+  "figType": "Figure",
+  "imageText": ["Granger", "Test", "F", "Selective", "Extension", "CD", "A", "Initial", "node", "B"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 63.839999999999996,
+    "x2": 293.28,
+    "y1": 97.92,
+    "y2": 185.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Figure4-1.png"
+}, {
+  "caption": "Figure 6: Average time consuming to localize a single anomaly by different methods.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.6396484375,
+    "y1": 573.767333984375,
+    "y2": 590.3569946289062
+  },
+  "figType": "Figure",
+  "imageText": ["TrainTicket", "OnlineBoutique", ")", "e", "(s", "Ti", "m", "14", "12", "10", "8", "6", "4", "2", "CloudRanger", "MicroCause", "TraceDiag", "Nezha", "MRCA", "0"],
+  "name": "6",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 285.12,
+    "y1": 420.0,
+    "y2": 552.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Figure6-1.png"
+}, {
+  "caption": "Table 1: Abnormal patterns in multi-modal data for different failures. ‘-’ represents no detected unusual patterns.",
+  "captionBoundary": {
+    "x1": 76.26400756835938,
+    "x2": 535.4216918945312,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["Fault", "Type", "Metric", "Log", "Trace", "CPU", "Contention", "High", "CPU", "usage", "-", "-", "Code", "logic", "error", "-", "Error/", "Warning", "Changed", "calling", "relationship", "Network", "Interruption", "Error", "rate", "raises", "Error/", "Warning", "Latency", "increases", "Network", "Jam", "Throughput", "decreases", "-", "-", "Configuration", "Error", "-", "Error/", "Warning", "Call", "interrupt"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 123.83999999999999,
+    "x2": 488.15999999999997,
+    "y1": 105.6,
+    "y2": 174.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Table1-1.png"
+}, {
+  "caption": "Table 3: Performance comparison for anomaly detection.",
+  "captionBoundary": {
+    "x1": 58.38100051879883,
+    "x2": 289.1568298339844,
+    "y1": 267.9194030761719,
+    "y2": 273.550048828125
+  },
+  "figType": "Table",
+  "imageText": ["CloudRanger", "(2018)", "0.414", "0.379", "0.458", "MicroCause", "(2020)", "0.519", "0.467", "0.583", "TraceDiag", "(2023)", "0.571", "0.538", "0.609", "Nezha", "(2023)", "0.400", "0.457", "0.356", "MRCA", "(Ours)", "0.893", "0.875", "0.913", "Approaches", "F1", "Precision", "Recall"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 271.2,
+    "y1": 288.47999999999996,
+    "y2": 365.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Table3-1.png"
+}, {
+  "caption": "Table 2: Data set composition.",
+  "captionBoundary": {
+    "x1": 245.31100463867188,
+    "x2": 366.38787841796875,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["OnlineBoutique", "56", "42", "24", "3,907,981", "80,934", "TrainTicket", "45", "20", "25", "1,352,335", "51,604", "Benchmark", "Sum", "anomalies", "Resource", "faults", "Code", "faults", "Number", "of", "logs", "Number", "of", "traces"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 103.67999999999999,
+    "x2": 506.4,
+    "y1": 105.6,
+    "y2": 147.35999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Table2-1.png"
+}, {
+  "caption": "Figure 5: The sensitivity of the reward function parameters.",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.189453125,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["n", "=", "1", "n", "=", "3", "Time", "e(", "s)", "Ti", "m", "300", "250", "200", "150", "100", "50", "@", "n", "P", "R", "0.8", "0.7", "0.6", "0.5", "0.4", "0.3", "0.2", "0.1", "0.0010.005", "0.01", "0.02", "0.05", "0.1", "0.5", "1", "5", "10", "/"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 340.32,
+    "x2": 541.4399999999999,
+    "y1": 546.72,
+    "y2": 685.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Figure5-1.png"
+}, {
+  "caption": "Table 4: Comparison of approaches at service-level.",
+  "captionBoundary": {
+    "x1": 201.9810028076172,
+    "x2": 409.7142028808594,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["CloudRanger", "(2018)", "0.167", "0.411", "0.661", "0.328", "0.133", "0.378", "0.625", "0.294", "MicroCause", "(2020)", "0.232", "0.589", "0.714", "0.412", "0.222", "0.489", "0.578", "0.356", "TraceDiag", "(2023)", "0.304", "0.643", "0.768", "0.473", "0.356", "0.533", "0.689", "0.465", "Nezha", "(2023)", "0.321", "0.357", "0.357", "0.337", "0.378", "0.444", "0.444", "0.401", "MRCA", "(Ours)", "0.589", "0.804", "0.875", "0.691", "0.622", "0.822", "0.889", "0.735", "PR@1", "PR@3", "PR@5", "MRR", "PR@1", "PR@3", "PR@5", "MRR", "Approaches", "OnlineBoutique", "TrainTicket"],
+  "name": "4",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 139.68,
+    "x2": 470.4,
+    "y1": 105.6,
+    "y2": 198.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Table4-1.png"
+}, {
+  "caption": "Table 5: Comparison of PR at metric-level.",
+  "captionBoundary": {
+    "x1": 87.8489990234375,
+    "x2": 259.69134521484375,
+    "y1": 227.86135864257812,
+    "y2": 233.49200439453125
+  },
+  "figType": "Table",
+  "imageText": ["MicroCause", "(2020)", "0.238", "0.381", "0.548", "0.250", "0.350", "0.550", "𝜖-Diagnosis", "(2019)", "0.262", "0.429", "0.548", "0.300", "0.550", "0.600", "Nezha", "(2023)", "0.333", "0.381", "0.357", "0.400", "0.450", "0.450", "MRCA", "(Ours)", "0.738", "0.857", "0.905", "0.700", "0.850", "0.900", "PR@1", "PR@3", "PR@5", "PR@1", "PR@3", "PR@5", "Approach", "OnlineBoutique", "TrainTicket"],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 294.24,
+    "y1": 248.16,
+    "y2": 322.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Table5-1.png"
+}, {
+  "caption": "Table 6: Experimental results of the ablation study.",
+  "captionBoundary": {
+    "x1": 70.4540023803711,
+    "x2": 277.08441162109375,
+    "y1": 560.8003540039062,
+    "y2": 566.4310302734375
+  },
+  "figType": "Table",
+  "imageText": ["MRCA", "0.589", "0.875", "0.622", "0.889", "MRCA", "w/o", "L", "0.482", "0.768", "0.533", "0.733", "MRCA", "w/o", "T", "0.554", "0.857", "0.600", "0.822", "MRCA", "w/o", "A", "0.534", "0.839", "0.578", "0.800", "MRCA", "w/", "A", "in", "T", "0.518", "0.803", "0.556", "0.756", "PR@1", "PR@5", "PR@1", "PR@5", "Variants", "OnlineBoutique", "TrainTicket"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 280.32,
+    "y1": 581.28,
+    "y2": 675.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Table6-1.png"
+}, {
+  "caption": "Figure 1: The overflow of MRCA.",
+  "captionBoundary": {
+    "x1": 239.17799377441406,
+    "x2": 372.8222961425781,
+    "y1": 318.1811218261719,
+    "y2": 323.81201171875
+  },
+  "figType": "Figure",
+  "imageText": ["Service", "n", "–", "Metric", "q", "Offline", "Training", "Online", "Termination", "1.", "Service", "n", "-", "Metric", "q", "Service", "n", "-", "Metric", "p", "…...", "2.", "Service", "m", "-", "Metric", "q", "......", "Culprit", "Prune", "1.", "Service", "n", "–", "Anomaly", "j", "2.", "Service", "k", "–Anomaly", "h", "……", "Construct", "causal", "graph", "Service", "n", "–", "Metric", "q", "Classification", "Metrics", "Latency", "Frequency", "Aggregation", "Template", "Timestamp", "Latency", "Extraction", "Template", "Extraction", "Traces", "Logs", "Alarm", "VAE", "Detection", "Ranking", "1.", "Service", "n", "2.", "Service", "m", "3.", "Service", "k", "……", "No", "Normal?", "Yes"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 79.67999999999999,
+    "x2": 534.24,
+    "y1": 95.52,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Example of granger causality test on time series.",
+  "captionBoundary": {
+    "x1": 321.08099365234375,
+    "x2": 555.077392578125,
+    "y1": 651.8880615234375,
+    "y2": 657.5189819335938
+  },
+  "figType": "Figure",
+  "imageText": ["Time0", "t1", "t1+", "Tcausal", "(vi,", "mx)", "(vj,", "my)"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 346.08,
+    "x2": 538.0799999999999,
+    "y1": 516.0,
+    "y2": 624.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3695485-Figure2-1.png"
+}]

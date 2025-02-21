@@ -1,0 +1,101 @@
+[{
+  "caption": "Fig. 1: Example of a test with unnecessary stubbings.",
+  "captionBoundary": {
+    "x1": 75.01778411865234,
+    "x2": 282.280517578125,
+    "y1": 275.09185791015625,
+    "y2": 279.502685546875
+  },
+  "figType": "Figure",
+  "imageText": ["10", "when(currBld.getPreviousBuild()).thenReturn(failBld);", "11", "when(failBld.getNextBuild()).thenReturn(currBld);", "12", "String", "contentStr", "=", "content.evaluate(currBld,", "lis,", "13", "ChangesSinceLastUnstableBuildMacro.MACRO_NAME);", "14", "assertEquals(...,", "contentStr);", "15", "}", "16", "private", "AbstractBuild", "createBuild(Result", "result,", "17", "int", "buildNumber,", "String", "message)", "{", "18", "AbstractBuild", "build", "=", "mock(AbstractBuild.class);", "19", "when(build.getResult()).thenReturn(result);", "20", "ChangeLogSet", "changes1", "=", "createChangeLog(message);", "21", "when(build.getChangeSet()).thenReturn(changes1);", "22", "when(build.getChangeSets()).thenReturn(", "23", "Collections.singletonList(changes1));", "24", "when(build.getNumber()).thenReturn(buildNumber);", "25", "return", "build;", "26", "}", "27", "}", "1", "pulic", "class", "ChangesSinceLastUnstableBuildMacroTest", "{", "2", "...", "3", "@Test", "4", "public", "void", "testShouldReverseOrderOfChanges()", "...", "{", "5", "content.reverse", "=", "true;", "6", "AbstractBuild", "failBld", "=", "createBuild(Result.FAILURE,", "7", "41,", "\"Changes", "for", "a", "failed", "build.\");", "8", "AbstractBuild", "currBld", "=", "createBuild(Result.SUCCESS,", "9", "42,", "\"Changes", "for", "a", "successful", "build.\");"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 286.08,
+    "y1": 72.0,
+    "y2": 271.68
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00029-Figure1-1.png"
+}, {
+  "caption": "Fig. 2: High-level overview of ARUS.",
+  "captionBoundary": {
+    "x1": 359.7911682128906,
+    "x2": 508.92620849609375,
+    "y1": 147.5782928466797,
+    "y2": 151.9891357421875
+  },
+  "figType": "Figure",
+  "imageText": ["Calssiﬁcation", "Info", "Execution", "Info", "Test", "Suite", "Change", "Report", "Test", "Suite", "Unnecessary", "Stubbings", "Removal", "Updated", "Stubbings", "Analysis", "Under", "Test", "Test", "Suite", "ExecutionSoftware"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 554.88,
+    "y1": 73.92,
+    "y2": 139.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00029-Figure2-1.png"
+}, {
+  "caption": "TABLE I: Projects with unnecessary stubbings. For each project: ID = identifier; Name = name; Commit ID = version analyzed; LOCsc = # of code lines in the source code; LOCtc = # of code lines in the test code; Tests = # of tests; USDb = # of stubbings definitions leading to unnecessary stubbings before running ARUS; USDa = # of stubbings definitions leading to unnecessary stubbings after running ARUS; USOb = # of unnecessary stubbing occurrences before running ARUS; USOa = # of unnecessary stubbing occurrences after running ARUS; TU = # of totally-unnecessary stubbings; UUH = # of used-unnecessary-helper stubbings; UUS = # of used-unnecessary-setup stubbings.",
+  "captionBoundary": {
+    "x1": 66.80237579345703,
+    "x2": 550.0319213867188,
+    "y1": 74.90104675292969,
+    "y2": 116.77056884765625
+  },
+  "figType": "Table",
+  "imageText": ["Total", "143677", "65936", "5073", "280", "4", "1529", "508", "160", "50", "66", "P01", "ALLURE", "85a9408c", "1086", "135", "15", "2", "0", "5", "0", "1", "0", "1", "P02", "AMAZON-ECS", "44817eda", "2403", "231", "27", "3", "0", "3", "0", "3", "0", "0", "P03", "AMAZON-SQS", "450d5221", "481", "417", "35", "1", "0", "14", "0", "0", "0", "1", "P04", "APPCENTER", "986ec689", "1810", "1301", "146", "7", "0", "26", "0", "0", "0", "7", "P05", "AWS-CODEPIPELINE", "33952495", "762", "525", "45", "2", "0", "16", "0", "0", "0", "2", "P06", "BFTSMART", "44c1cb2e", "16053", "3379", "12", "8", "1", "42", "2", "7", "0", "0", "P07", "CAS", "a84c946c", "552", "357", "38", "1", "0", "1", "0", "1", "0", "0", "P08", "CHUCKNORRIS", "2a9dc4b0", "159", "208", "26", "4", "0", "12", "0", "0", "0", "4", "P09", "CONDUIT", "c6f82f67", "1400", "1415", "79", "24", "0", "112", "0", "17", "0", "7", "P10", "DATADOG", "875c82b9", "7670", "4127", "161", "17", "0", "34", "0", "14", "1", "2", "P11", "EASYTABLE", "b3c278a9", "1661", "1082", "57", "4", "0", "8", "0", "1", "3", "0", "P12", "GITHUB-BRANCH", "e708675a", "7056", "5924", "522", "2", "0", "3", "0", "2", "0", "0", "P13", "GIVWENZEN", "455a03aa", "1757", "1089", "57", "2", "0", "2", "0", "1", "0", "1", "P14", "GOOGLE-COMPUTE", "08e2f706", "2166", "1279", "50", "19", "0", "76", "0", "7", "1", "11", "P15", "GOOGLE-KUBERNETES", "ef890e4a", "999", "1089", "109", "8", "0", "36", "0", "0", "7", "1", "P16", "GOOGLE-OAUTH", "3e03b2cb", "1021", "1303", "89", "4", "0", "4", "0", "4", "0", "0", "P17", "HAP", "f4a9872d", "6066", "98", "12", "2", "0", "7", "0", "0", "0", "2", "P18", "HASHICORP", "182c0fba", "2477", "2028", "110", "15", "0", "144", "0", "3", "10", "2", "P19", "INSTANT-MESSAGING", "51f23def", "2992", "674", "41", "16", "2", "521", "503", "10", "4", "0", "P20", "KITTEHIRCCLIENTLIB", "46b57952", "9938", "2168", "198", "17", "0", "77", "0", "9", "1", "7", "P21", "LDBC", "0c019a46", "4736", "488", "3", "1", "0", "1", "0", "1", "0", "0", "P22", "MATOMO", "751823e6", "1285", "1503", "184", "8", "0", "8", "0", "8", "0", "0", "P23", "MOBARENA", "9164b125", "13906", "2572", "293", "4", "0", "8", "0", "1", "2", "1", "P24", "MUTABILITYDETECTOR", "ac1bc226", "6710", "3421", "371", "5", "0", "5", "0", "5", "0", "0", "P25", "NETCONF", "c0fbedac", "1570", "545", "51", "2", "0", "14", "0", "0", "0", "2", "P26", "OAUTH-FILTER", "eb27b214", "979", "241", "11", "3", "1", "5", "3", "2", "0", "0", "P27", "OFFHEAP", "05cc59ec", "11180", "7192", "125", "1", "0", "1", "0", "1", "0", "0", "P28", "OPML", "ae6a03d9", "904", "935", "58", "1", "0", "1", "0", "1", "0", "0", "P29", "PGADAPTER", "e64d3f0d", "2759", "1205", "86", "12", "0", "10", "0", "7", "0", "5", "P30", "PHOTON", "4343b9f3", "2201", "1513", "112", "5", "0", "22", "0", "3", "2", "0", "P31", "PROJOG", "70fea568", "9761", "9623", "1100", "1", "0", "53", "0", "0", "0", "1", "P32", "REPOSITORY-CONNECTOR", "34fef47d", "1418", "577", "23", "1", "0", "3", "0", "0", "0", "1", "P33", "SERENITY", "4c5476f3", "861", "523", "80", "2", "0", "3", "0", "0", "0", "2", "P34", "SLING", "ff2418ae", "1209", "189", "9", "1", "0", "1", "0", "1", "0", "0", "P35", "SONAR-AUTH", "99d86044", "395", "727", "65", "25", "0", "73", "0", "15", "6", "4", "P36", "SONAR-SCM", "115cc273", "357", "104", "6", "5", "0", "5", "0", "5", "0", "0", "P37", "SUBVERSION", "dd1693c1", "6463", "2517", "293", "2", "0", "13", "0", "1", "1", "0", "P38", "SWORNAPI", "0e33d2a1", "4182", "102", "7", "4", "0", "20", "0", "2", "2", "0", "P39", "TOKEN", "871c6edc", "2214", "1884", "176", "37", "0", "135", "0", "27", "10", "0", "P40", "XUNIT", "bf2a9c19", "2078", "1246", "191", "2", "0", "5", "0", "0", "0", "2", "Benchmarks", "Unnecessary", "Stubbings", "Types", "ID", "Name", "Commit", "ID", "LOCsc", "LOCtc", "Tests", "USDb", "USDa", "USOb", "USOa", "TU", "UUH", "UUS"],
+  "name": "I",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 75.84,
+    "x2": 541.4399999999999,
+    "y1": 120.96,
+    "y2": 490.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00029-TableI-1.png"
+}, {
+  "caption": "Fig. 4: Percentage variation of cognitive complexity.",
+  "captionBoundary": {
+    "x1": 331.2414855957031,
+    "x2": 533.1848754882812,
+    "y1": 164.8312225341797,
+    "y2": 169.2420654296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 72.0,
+    "y2": 161.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00029-Figure4-1.png"
+}, {
+  "caption": "Fig. 5: Percentage variation of LOC.",
+  "captionBoundary": {
+    "x1": 361.4530944824219,
+    "x2": 502.9745178222656,
+    "y1": 267.98681640625,
+    "y2": 272.39764404296875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 313.92,
+    "x2": 551.04,
+    "y1": 175.68,
+    "y2": 264.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/icst-icst2024/figures/10_1109-ICST60714_2024_00029-Figure5-1.png"
+}]

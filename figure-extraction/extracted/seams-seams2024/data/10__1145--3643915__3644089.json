@@ -1,0 +1,121 @@
+[{
+  "caption": "Table 1: Overview of RL training parameters.",
+  "captionBoundary": {
+    "x1": 82.66199493408203,
+    "x2": 264.8785095214844,
+    "y1": 573.703857421875,
+    "y2": 575.7839965820312
+  },
+  "figType": "Table",
+  "imageText": ["𝐻0", "(𝜇diff", "=", "0)", ":", "There", "is", "no", "difference", "between", "a", "reconfig-", "ured", "ego", "vehicle", "and", "the", "naiv̈e", "ego", "vehicle.", "𝐻1", "(𝜇diff", ">", "0)", ":", "There", "is", "a", "difference", "between", "a", "reconfig-", "ured", "ego", "vehicle", "and", "the", "naiv̈e", "ego", "vehicle", "RQ2:", "Can", "we", "use", "the", "non-ego", "vehicle", "model", "trained", "by", "SafeDriveRL", "to", "improve", "the", "ability", "of", "the", "ego", "vehicle", "to", "operate", "in", "the", "face", "of", "the", "discovered", "uncertainty?", "𝐻0", "(𝜇diff", "=", "0)", ":", "There", "is", "no", "difference", "in", "ego", "performance.", "𝐻1", "(𝜇diff", ">", "0)", ":", "There", "is", "a", "difference", "in", "ego", "performance.", "RQ1:", "Can", "SafeDriveRL", "train", "a", "non-ego", "vehicle", "model", "based", "on", "human", "objectives", "that", "induce", "failures", "in", "the", "ego", "vehicle", "compared", "to", "the", "baseline", "scenario?", "Research", "Questions"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 297.12,
+    "y1": 399.84,
+    "y2": 556.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644089-Table1-1.png"
+}, {
+  "caption": "Figure 3: Comparison of the naïve ego vehicle and retrained",
+  "captionBoundary": {
+    "x1": 317.9549865722656,
+    "x2": 558.1930541992188,
+    "y1": 655.5638427734375,
+    "y2": 657.6439819335938
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Average", "speed.", "(b)", "Average", "failure", "rate."],
+  "name": "3",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 559.1999999999999,
+    "y1": 486.71999999999997,
+    "y2": 647.52
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644089-Figure3-1.png"
+}, {
+  "caption": "Figure 1: A high-level data flow diagram for the SafeDriveRL framework.",
+  "captionBoundary": {
+    "x1": 154.85400390625,
+    "x2": 457.14422607421875,
+    "y1": 295.51788330078125,
+    "y2": 297.5979919433594
+  },
+  "figType": "Figure",
+  "imageText": ["Metrics", "Evaluated", "Performance", "Developer", "Scene/Environmental", "Conditions", "Domain", "Knowledge", "&", "Uncertainty", "3b.", "Assess", "Retrained", "Ego", "Vehicle", "Under", "Evaluated", "Performance", "Metrics", "Retrained", "Ego", "Vehicle", "Model3a.", "Retrain", "Ego", "Vehicle", "Retrained", "Ego", "Vehicle", "ModelRetrained", "Ego", "Vehicle", "Model", "Uncertainty", "Assess", "Naïve", "Ego", "Vehicle", "Under", "Metrics", "2c.", "Evaluated", "Performance", "Vehicle", "Non-ego", "Vehicle", "Model2b.", "Train", "Non-ego", "Human", "Driver", "Behaviors", "(e.g.,", "Aggressive,", "Distracted)", "Human", "Driver", "Properties", "Reward", "Functions", "Non-ego", "Vehicle", "Model", "Non-ego", "Vehicle", "Policies", "Non-ego", "Vehicle", "Policies", "Non-ego", "Vehicle", "Model", "2a.", "Define", "Non-ego", "Vehicle", "Behavior", "Naïve", "Ego", "Vehicle", "Model", "Naïve", "Ego", "Vehicle", "Policies", "Naïve", "Ego", "Vehicle", "Policies", "Naïve", "Ego", "Vehicle", "Model", "Vehicle", "1c.", "Assess", "Naïve", "Ego", "Evaluated", "Performance", "Metrics", "Vehicle", "Naïve", "Ego", "Vehicle", "Model1b.", "Train", "Naïve", "Ego", "1a.", "Create", "Road", "Scene", "Functional", "Objectives", "Road", "Scenario", "&", "Training", "Competing"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 558.24,
+    "y1": 84.0,
+    "y2": 277.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644089-Figure1-1.png"
+}, {
+  "caption": "Figure 2: Graphical depictions of a merge road scenario.",
+  "captionBoundary": {
+    "x1": 325.23699951171875,
+    "x2": 550.9111938476562,
+    "y1": 641.3998413085938,
+    "y2": 643.47998046875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 328.8,
+    "x2": 547.1999999999999,
+    "y1": 557.76,
+    "y2": 624.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644089-Figure2-1.png"
+}, {
+  "caption": "Figure 4: Example of discovered uncertain maneuver.",
+  "captionBoundary": {
+    "x1": 66.14099884033203,
+    "x2": 281.6999206542969,
+    "y1": 282.96588134765625,
+    "y2": 285.0459899902344
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 64.8,
+    "x2": 283.2,
+    "y1": 204.95999999999998,
+    "y2": 266.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644089-Figure4-1.png"
+}, {
+  "caption": "Figure 5: Comparison of the naïve ego vehicle and retrained",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0361328125,
+    "y1": 625.0338745117188,
+    "y2": 627.114013671875
+  },
+  "figType": "Figure",
+  "imageText": ["(a)", "Average", "speed.", "(b)", "Average", "failure", "rate."],
+  "name": "5",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 445.91999999999996,
+    "y2": 606.24
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/seams-seams2024/figures/10__1145--3643915__3644089-Figure5-1.png"
+}]

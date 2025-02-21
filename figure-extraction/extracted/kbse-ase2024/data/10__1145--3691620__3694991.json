@@ -1,0 +1,241 @@
+[{
+  "caption": "Figure 6: The way HybridTCG works represented by UML timing diagram. Where the glue tool is used to perform the collaboration between the fuzzer and solving engine.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.64837646484375,
+    "y1": 648.2183227539062,
+    "y2": 675.7669677734375
+  },
+  "figType": "Figure",
+  "imageText": ["…………", "……", "or Timeout)", "Terminate", "Testcases Reducing", "(All Metrics Covered", "Get Testcases", "Testcases", "One‐Step", "Solving", "Output Testcases", "New Testcase", "Testcases Reducing", "Send Reduced", "Testcases", "Get Testcases", "Testcases", "One‐Step", "Solving", "Output Testcases", "New Testcase", "Testcases Reducing", "Send Reduced", "Testcases", "Get Testcases", "Testcases", "Fuzzer", "Solving", "Engine", "Glue", "Tool", "Start Fuzzing"],
+  "name": "6",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 61.44,
+    "x2": 286.08,
+    "y1": 425.76,
+    "y2": 633.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure6-1.png"
+}, {
+  "caption": "Table 2: A simple abstraction of the coverage metrics for the example model in Figure 1",
+  "captionBoundary": {
+    "x1": 128.9410400390625,
+    "x2": 482.7481689453125,
+    "y1": 85.72634887695312,
+    "y2": 91.35699462890625
+  },
+  "figType": "Table",
+  "imageText": ["ID", "Metric", "Description", "State", "Required", "Difficulty", "for", "fuzzer", "Difficulty", "for", "solver", "1", "Register", "Success", "Connect", "a", "port", "to", "Switch.", "None", "Easy", "Easy", "2", "Register", "Failure", "A", "port", "can", "not", "connect", "to", "Switch.", "All", "port", "slots", "are", "occupied.", "Easy", "Hard", "3", "Send", "Success", "Send", "message", "between", "two", "ports.", "At", "least", "two", "ports", "are", "registered.", "Hard", "Hard", "4", "Send", "Failure", "(A)", "Src", "port", "or", "Dst", "port", "not", "found.", "None", "Easy", "Easy", "5", "Send", "Failure", "(B)", "The", "Dst", "port", "is", "busy.", "The", "Dst", "port", "is", "in", "busy", "status.", "Hard", "Hard", "6", "Check", "Success", "The", "checked", "port", "is", "connected.", "At", "least", "one", "port", "is", "registered.", "Easy", "Hard", "7", "Check", "Failure", "The", "checked", "port", "is", "not", "connected.", "None", "Easy", "Easy", "8", "Logout", "Success", "A", "connected", "port", "logout.", "At", "least", "one", "port", "is", "registered.", "Easy", "Hard", "9", "Logout", "Failure", "The", "target", "port", "does", "not", "exist.", "None", "Easy", "Easy"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 58.559999999999995,
+    "x2": 551.04,
+    "y1": 105.6,
+    "y2": 223.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Table2-1.png"
+}, {
+  "caption": "Figure 1: An example model with numerous states and complex control logic. This is a LAN Switch model. It mainly includes the registration, checking, data sending and logout functions of network devices.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 295.63665771484375,
+    "y1": 221.76333618164062,
+    "y2": 260.27099609375
+  },
+  "figType": "Figure",
+  "imageText": ["Complex", "Model", "Control", "Logic", "Numerous", "Model", "States"],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 295.2,
+    "y1": 82.56,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure1-1.png"
+}, {
+  "caption": "Figure 7: A test case generation example of collaboration between coverage guided fuzzer part and state solving engine part, corresponding to the LANSwitch model in Figure 1. Where circles with the same color represent the same model state. The text in red color responds the test case row(s).",
+  "captionBoundary": {
+    "x1": 53.340999603271484,
+    "x2": 295.5635986328125,
+    "y1": 267.0483703613281,
+    "y2": 316.5140075683594
+  },
+  "figType": "Figure",
+  "imageText": ["0x??,", "0x??,", "0x??⟩", "Register", "Failure", "⟨0x??,", "0x2711,", "0x09,", "0x??,", "0x??⟩", "Send", "Failure", "(B)", "⟨0x07,", "0x2712,", "0x09,", "0x??,", "0x??⟩", "Send", "Success", "×M", "⟨0x07,", "0x2712,", "0x09,", "0x??,", "0x??⟩", "0x??,", "0x??,", "0x??⟩", "Send", "Success", "⟨0x07,", "0x2712,", "Logout", "Success", "⟨0x01,", "0x2714,", "0x??,", "0x??,", "0x??⟩", "Register", "Success", "⟨0x09,", "0x2711,", "0x??,", "0x??,", "0x??⟩", "Check", "Success", "⟨0x07,", "0x2713,", "0x??,", "0x??,", "0x??⟩", "Check", "Failure", "⟨0x??,", "0x2713,", "0x??,", "0x??,", "0x??⟩", "Register", "Success×N", "⟨0x??,", "0x2711,", "0x??,", "0x??,", "0x??⟩", "Register", "Success", "⟨0x07,", "0x2711,", "Coverage", "Guided", "Fuzzer", "part", "is", "workable", "for", "this", "metric", "State", "Solving", "Engine", "part", "is", "workable", "for", "this", "metric", "Two", "parts", "are", "all", "workable", "S5", "Port", "9", "busy", "Port", "9", "working", "S5", "S4", "0x??,", "0x??,", "0x??⟩", "Logout", "Failure", "⟨0x??,", "0x2714,", "S0", "Port", "7", "registered", "S1", "0x??,", "0x??,", "0x??⟩", "Send", "Failure", "(A)", "⟨0x??,", "0x2712,", "S2", "S3", "Port", "7", "and", "9", "registered", "All", "port", "slots", "occupied", "S0", "S1", "S0", "S0", "S0", "S2", "Root", "state"],
+  "name": "7",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 294.24,
+    "y1": 84.0,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure7-1.png"
+}, {
+  "caption": "Figure 10: Comparison of coverage with test case generation methods in the software domain. Libfuzzer is an in-process coverage-guided fuzzing tool. Driller is a concolic testing tool that combines fuzzing with symbolic execution.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 558.1804809570312,
+    "y1": 693.1393432617188,
+    "y2": 709.72900390625
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "MCDC", "Libfuzzer", "Driller", "KLEE", "HybridTCG", "100%", "80%", "60%", "40%", "20%", "0%", "(b)", "Condition", "Coverage", "Libfuzzer", "Driller", "KLEE", "HybridTCG", "100%", "80%", "60%", "40%", "20%", "0%", "(a)", "Decision", "Coverage", "Libfuzzer", "Driller", "KLEE", "HybridTCG", "100%", "80%", "60%", "40%", "20%", "0%"],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 551.04,
+    "y1": 579.36,
+    "y2": 688.8
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure10-1.png"
+}, {
+  "caption": "Figure 2: Overview of HybridTCG. Two main parts are executed cyclically to obtain test cases. The coverage-guided fuzzer part focuses on quickly obtaining test cases using model-specific fuzzing techniques. The state-solving engine is used to accurately solve for coverage metrics based on model-specific states. The coverage-guided fuzzer provides more fundamental state space for the state-solving engine. The state-solving engine provides more higher-quality input corpus to the coverage-guided fuzzer. These two parts collaborate to quickly generate high-coverage test cases.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 559.7150268554688,
+    "y1": 223.06332397460938,
+    "y2": 272.52899169921875
+  },
+  "figType": "Figure",
+  "imageText": ["Hybrid", "Test", "Case", "Generation", "with", "Model", "Fuzzing", "and", "State", "Solving", "Test", "Cases", "Test", "Cases", "Reload", "New", "Model", "State(s)", "Coverage-Guided", "Fuzzer", "Model", "Input", "Execution", "Reducing", "Test", "Cases", "Test", "Cases", "Fuzzing", "Program", "One-Step", "Solving", "State-Solving", "Engine", "Model", "Input", "Mutation", "Corpus", "Fuzzing", "Code", "Generation", "Case", "Simulink", "Model", "Test"],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 530.4,
+    "y1": 84.0,
+    "y2": 218.4
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure2-1.png"
+}, {
+  "caption": "Figure 8: Ablation study on fuzzer part (coverage-guided fuzzer) and solver part (state solving engine) of HybridTCG",
+  "captionBoundary": {
+    "x1": 71.05401611328125,
+    "x2": 540.926025390625,
+    "y1": 698.4293212890625,
+    "y2": 704.0599975585938
+  },
+  "figType": "Figure",
+  "imageText": ["(c)", "MCDC", "FuzzerPart", "SolverPart", "HybridTCG", "100%", "80%", "60%", "40%", "20%", "0%", "(b)", "Condition", "Coverage", "FuzzerPart", "SolverPart", "HybridTCG", "100%", "80%", "60%", "40%", "20%", "0%", "(a)", "Decision", "Coverage", "FuzzerPart", "SolverPart", "HybridTCG", "100%", "80%", "60%", "40%", "20%", "0%"],
+  "name": "8",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 60.48,
+    "x2": 551.04,
+    "y1": 577.92,
+    "y2": 685.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure8-1.png"
+}, {
+  "caption": "Table 3: The description of benchmark models",
+  "captionBoundary": {
+    "x1": 79.64004516601562,
+    "x2": 267.89910888671875,
+    "y1": 82.89132690429688,
+    "y2": 88.52197265625
+  },
+  "figType": "Table",
+  "imageText": ["Model", "Functionality", "#Branch", "#Block", "CPUTask", "AutoSAR", "CPU", "task", "dispatch", "system", "107", "275", "SVPWM", "Space", "vector", "pulse", "width", "modulation", "916", "1233", "TWC", "Train", "wheel", "speed", "controller", "80", "214", "NICProtocol", "Vehicle", "NIC", "communication", "protocol", "46", "294", "LANSwitch", "LAN", "Switch", "controller", "131", "570", "UTPC", "Underwater", "thruster", "power", "control", "92", "214", "LEDLC", "LED", "matrix", "load", "control", "94", "270", "TCP", "TCP", "three-way", "handshake", "protocol", "146", "330", "RAC", "Robotic", "arm", "controller", "179", "667", "TCS1", "Control", "model", "dedicated", "to", "testing", "1597", "1742", "TCS2", "Control", "model", "dedicated", "to", "testing", "2752", "7196", "FMTM", "Factory", "Multi-point", "Temperature", "Monitor", "89", "152"],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 292.32,
+    "y1": 93.6,
+    "y2": 252.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Table3-1.png"
+}, {
+  "caption": "Figure 4: Example fuzz driver for LANSwitchmodel in Figure 1. Five variables in lines 5-9 are model inport variables. They are passed to the LanSwitch_step function for model onestep execution.",
+  "captionBoundary": {
+    "x1": 317.72174072265625,
+    "x2": 559.7937622070312,
+    "y1": 336.78936767578125,
+    "y2": 375.2969970703125
+  },
+  "figType": "Figure",
+  "imageText": ["}", "&Result,", "&MSG);", "}", "18", "19"],
+  "name": "4",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 318.24,
+    "x2": 476.64,
+    "y1": 308.15999999999997,
+    "y2": 327.84
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure4-1.png"
+}, {
+  "caption": "Figure 3: Workflow of HybridTCG. The collaborative process of the coverage-guided fuzzer and state-solving engine.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.0423278808594,
+    "y1": 540.5883178710938,
+    "y2": 557.177978515625
+  },
+  "figType": "Figure",
+  "imageText": ["9", "8", "7", "6", "5", "4", "3", "2", "1", "Read", "in", "high", "quality", "test", "cases", "from", "the", "corpus.", "Export", "new", "test", "cases", "to", "the", "fuzzing", "corpus.", "Splice", "the", "solved", "step", "input", "with", "the", "original", "test", "case.", "Solve", "for", "the", "selected", "branch", "on", "the", "specific", "model", "state.", "Random", "select", "an", "uncovered", "model", "branch.", "Get", "the", "model", "state", "after", "the", "last", "input", "step", "is", "executed.", "Bring", "a", "test", "case", "into", "the", "model", "for", "execution.", "Output", "the", "test", "cases", "that", "trigger", "new", "coverage.", "Refine", "the", "test", "cases", "by", "whether", "they", "trigger", "new", "coverage.", "9", "2", "8", "7", "6", "4", "5", "1", "3", "(Length", "+1)", "×", "Uncovered", "Branch", "Constraint", "Solver", "Model", "State", "Test", "Case", "New", "Step", "Input", "Test", "Case", "……", "Test", "Case", "Model", "Executor", "Corpus", "Folder", "Test", "Case", "Output", "Folder", "State", "Solving", "Engine", "Coverage-Guided", "Fuzzer"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 294.24,
+    "y1": 265.92,
+    "y2": 532.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure3-1.png"
+}, {
+  "caption": "Figure 9: The folded line plot of the Decision Coverage versus time. The X-axis is time (s) and the Y-axis is Decision Coverage (%). “◦” indicates that this coverage boost is achieved by the coverage-guided fuzzer. “△” indicates that this coverage boost is achieved by the state solving engine.",
+  "captionBoundary": {
+    "x1": 53.52000045776367,
+    "x2": 558.1961059570312,
+    "y1": 534.5033569335938,
+    "y2": 562.052001953125
+  },
+  "figType": "Figure",
+  "imageText": ["(l)", "FMTM", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "30", "60", "90", "120", "150", "100%", "80%", "60%", "40%", "20%", "0%", "(k)", "TCS2", "0", "500", "1000", "1500", "2000", "2500", "HybridTCG", "SLDV", "STCG", "SimCoTest", "1h", "100%", "80%", "60%", "40%", "20%", "0%", "(j)", "TCS1", "0", "600", "1200", "1800", "2400", "3000", "HybridTCG", "SLDV", "STCG", "SimCoTest", "1h", "100%", "80%", "60%", "40%", "20%", "0%", "(i)", "RAC", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "130", "260", "390", "520", "650", "100%", "80%", "60%", "40%", "20%", "0%", "(h)", "TCP", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "10", "20", "30", "40", "50", "100%", "80%", "60%", "40%", "20%", "0%", "(g)", "LEDLC", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "160", "320", "480", "640", "800", "100%", "80%", "60%", "40%", "20%", "0%", "(f)", "UTPC", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "70", "140", "210", "280", "350", "100%", "80%", "60%", "40%", "20%", "0%", "(e)", "LANSwitch", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "30", "60", "90", "120", "150", "100%", "80%", "60%", "40%", "20%", "0%", "(d)", "NICProtocol", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "600", "1200", "1800", "2400", "3000", "100%", "80%", "60%", "40%", "20%", "0%", "(c)", "TWC", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "40", "80", "120", "160", "200", "100%", "80%", "60%", "40%", "20%", "0%", "(b)", "SVPWM", "1h", "HybridTCG", "SLDV", "STCG", "SimCoTest", "0", "450", "900", "1350", "1800", "2250", "65%", "52%", "39%", "26%", "13%", "0%", "(a)", "CPUTask", "0", "12", "24", "36", "48", "60", "HybridTCG", "SLDV", "STCG", "SimCoTest", "1h", "100%", "80%", "60%", "40%", "20%", "0%"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 60.0,
+    "x2": 552.0,
+    "y1": 87.84,
+    "y2": 526.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Figure9-1.png"
+}, {
+  "caption": "Table 1: The strategies of model input mutation",
+  "captionBoundary": {
+    "x1": 77.20999145507812,
+    "x2": 270.3285827636719,
+    "y1": 371.5223693847656,
+    "y2": 377.15301513671875
+  },
+  "figType": "Table",
+  "imageText": ["Strategy", "Description", "Change", "Binary", "Integer", "Modify", "a", "binary", "integer", "value.", "Change", "Binary", "Float", "Modify", "a", "binary", "float", "value.", "Erase", "Rows", "Remove", "a", "range", "of", "rows.", "Insert", "Row", "Insert", "a", "new", "row", "with", "random", "values.", "Insert", "Repeated", "Rows", "Insert", "a", "sequence", "of", "repeated", "rows.", "Shuffle", "Rows", "Shuffle", "the", "order", "of", "rows.", "Copy", "Rows", "Copy", "rows", "into", "another", "position.", "Rows", "Cross", "Over", "Combine", "rows", "from", "two", "streams."],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 290.4,
+    "y1": 385.91999999999996,
+    "y2": 477.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/kbse-ase2024/figures/10_1145-3691620_3694991-Table1-1.png"
+}]

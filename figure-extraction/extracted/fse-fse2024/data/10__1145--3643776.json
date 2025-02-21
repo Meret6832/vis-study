@@ -1,0 +1,241 @@
+[{
+  "caption": "Fig. 2. Approach overview",
+  "captionBoundary": {
+    "x1": 194.54100036621094,
+    "x2": 291.4588317871094,
+    "y1": 248.17298889160156,
+    "y2": 253.37799072265625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 51.839999999999996,
+    "x2": 434.4,
+    "y1": 78.72,
+    "y2": 234.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure2-1.png"
+}, {
+  "caption": "Fig. 5. Examples of idiomatization module",
+  "captionBoundary": {
+    "x1": 164.78199768066406,
+    "x2": 321.21881103515625,
+    "y1": 187.3930206298828,
+    "y2": 192.5980224609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 84.0,
+    "y2": 180.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure5-1.png"
+}, {
+  "caption": "Fig. 7. The examples that our approach wrongly refactors or refrains from refactoring",
+  "captionBoundary": {
+    "x1": 85.31300354003906,
+    "x2": 400.68829345703125,
+    "y1": 152.89698791503906,
+    "y2": 158.10198974609375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 84.0,
+    "y2": 145.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure7-1.png"
+}, {
+  "caption": "Table 1. Pythonic Idioms Library for Thirteen Pythonic Idioms",
+  "captionBoundary": {
+    "x1": 127.61599731445312,
+    "x2": 358.14215087890625,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["fstring", "Dynamically", "combine", "data", "from", "variables", "and", "other", "data", "structures", "into", "a", "readable", "string", "output.", "log.info(‘sample_num_list", "is", "%s’", "%", "repr(self.sample_num_list))", "log.info(f‘sample_num_list", "is", "repr(self.sample_num_list)’)", "global_draw_name", "=", "_test_name", "=None", "global_draw_name", "=", "None", "_test_name", "=", "None", "Assign", "a", "value", "to", "multiple", "variables.", "chain-ass-", "same-value", "for", "(i,", "w)", "in", "enumerate(text):", "if", "w", "in", "token2id:", "R[i]", "=", "token2id[w]", "Return", "a", "tuple", "containing", "a", "count", "(from", "start", "which", "defaults", "to", "0)", "and", "the", "values", "obtained", "from", "iterating", "over", "iterable.", "for", "i", "in", "range(len(text)):", "w", "=", "text[i]", "if", "w", "in", "token2id:", "R[i]", "=", "token2id[w]", "enumerate", "with", "open(bamfile)", "as", "f:", "bamfiles", "=", "[x.strip()", "for", "x", "in", "f]", "bamfiles", "=", "[x.strip()", "for", "x", "in", "open(bamfile)]", "with", "Automatically", "close", "a", "file", "after", "it", "has", "been", "opened", "Farooq", "et", "al.", "[16]", "nn.Linear(*gate_channels[i:", "i", "+", "2])", "star-in-func-call", "Unpack", "an", "iterable", "to", "the", "positional", "arguments", "in", "a", "function", "call", "nn.Linear(gate_channels[i]", ",", "gate_channels[i+1])", "for", "e0,", "*e", "in", "family.samples:", "if", "e0", ">", "2:", "...", "for-multi-tar", "Unpack", "the", "iterated", "target", "of", "a", "for", "statement", "for", "sample", "in", "family.samples:", "if", "sample[0]", ">", "2:", "...", "self._ad,", "self._sl4a_client", "=", "device,", "None", "assign-multi-tar", "Assign", "multiple", "values", "to", "multiple", "variables", "in", "an", "assign", "statement", "self._ad", "=", "device", "self._sl4a_client", "=", "None", "while", "attempt", "<", "3:", "...", "if", "body", "is", "not", "None:", "break", "else:", "...", "if", "body", "is", "None:", "...", "loop-else", "A", "loop", "statement", "has", "an", "else", "clause", "while", "attempt", "<", "3:", "...", "if", "body", "is", "not", "None:", "break", "RIdiom", "[52]", "list/set/dict", "-comprehension", "Use", "one", "line", "to", "append", "elements", "to", "an", "iterable", "new_cols", "=", "[]", "for", "col", "in", "old_cols:", "new_cols.append(col", "+", "postfix)", "new_cols", "=", "[col", "+", "postfix", "for", "col", "in", "old_cols]", "chain-", "comparison", "Chain", "two", "comparison", "operations", "into", "one", "comparison", "operation", "[50]", "a", ">", "b", "and", "a", "<", "1", "b", "<", "a", "<", "1", "truth-test", "Directly", "check", "the", "“truthiness”", "of", "an", "object", "embedding_dim", "%", "2", "==", "0", "not", "embedding_dim", "%", "2", "RIdiom", "[52]", ",", "Farooq", "et", "al.", "[16]", "Source", "Idiom", "Explanation", "Non-Idiomatic", "Code", "Idiomatic", "Code"],
+  "name": "1",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 442.08,
+    "y1": 101.75999999999999,
+    "y2": 359.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Table1-1.png"
+}, {
+  "caption": "Fig. 4. Examples of extraction module",
+  "captionBoundary": {
+    "x1": 172.98199462890625,
+    "x2": 313.019287109375,
+    "y1": 251.8939971923828,
+    "y2": 257.0989990234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 433.44,
+    "y1": 78.72,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure4-1.png"
+}, {
+  "caption": "Fig. 6. Scatter plot with straight lines of accuracy, F1-score, precision and recall of three approaches for nine Pythonic idioms",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.16864013671875,
+    "y1": 289.552001953125,
+    "y2": 305.71600341796875
+  },
+  "figType": "Figure",
+  "imageText": ["Ours", "RIdiom", "Prompt-LLM", "d)", "recall", "comparison", "4.1", "4.2", "27.7", "23.7", "16.7", "2.4", "55.1", "60.2", "41.0", "91.8", "95.8", "82.7", "94.9", "90.1", "84.8", "86.1", "90.9", "82.5", "96.6", "98.2", "87.8", "93.4", "100.0", "93.1", "95.6", "93.0", "94.3", ")", "ll", "(%", "Re", "ca", "100", "10", "20", "30", "40", "50", "60", "70", "80", "85", "90", "95", "star-call", "0", "list-compre", "set-compre", "dict-compre", "chain-compare", "truth-test", "loop-else", "ass-mul-tar", "for-mul-tar", "Ours", "RIdiom", "Prompt-LLM", "c)", "precision", "comparison", "7.5", "7.3", "30.9", "34.3", "80.1", "8.1", "72.2", "74.5", "75.9", "100.0", "100.0", "100.0", "99.4", "98.5", "97.9", "100.0", "98.4", "98.7", "97.1", "97.7", "95.5", "97.4", "100.0", "93.8", "96.1", "95.1", "96.6", "(%", ")", "isi", "on", "Pr", "ec", "100", "10", "20", "30", "40", "50", "60", "70", "80", "85", "90", "95", "star-call", "0", "list-compre", "set-compre", "dict-compre", "chain-compare", "truth-test", "loop-else", "ass-mul-tar", "for-mul-tar", "Ours", "RIdiom", "Prompt-LLM", "b)", "F1", "comparison", "5.3", "5.3", "26.8", "22.5", "41.2", "3.7", "63.4", "67.2", "52.3", "95.0", "97.2", "93.8", "90.5", "91.8", "92.3", "96.7", "90.4", "95.2", "92.5", "96.0", "97.8", "100.0", "95.2", "93.4", "95.8", "94.0", "95.4", "(%", ")", "co", "re", "F1", "-S", "100", "10", "20", "30", "40", "50", "60", "70", "80", "85", "90", "95", "star-call", "0", "list-compre", "set-compre", "dict-compre", "chain-compare", "truth-test", "loop-else", "ass-mul-tar", "for-mul-tar", "Ours", "RIdiom", "Prompt-LLM", "a)", "accuracy", "comparison", "12.7", "3.7", "2.9", "27.3", "20.4", "2.1", "52.9", "54.9", "36.9", "90.9", "95.2", "82.7", "93.5", "89.6", "84.8", "86.1", "90.9", "82.5", "95.3", "95.8", "92.1", "87.8", "100.0", "93.1", "95.6", "93.0", "94.3", "(%", ")", "ra", "cy", "Ac", "cu", "100", "10", "20", "30", "40", "50", "60", "70", "80", "85", "90", "95", "star-call", "0", "list-compre", "set-compre", "dict-compre", "chain-compare", "truth-test", "loop-else", "ass-mul-tar", "for-mul-tar"],
+  "name": "6",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 432.47999999999996,
+    "y1": 80.64,
+    "y2": 281.76
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure6-1.png"
+}, {
+  "caption": "Table 3. Benchmark of Nine Pythonic Idioms",
+  "captionBoundary": {
+    "x1": 159.48699951171875,
+    "x2": 326.27099609375,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["Idiom", "Method", "Code", "Pair", "list-comprehension", "389", "512", "set-comprehension", "305", "361", "dict-comprehension", "370", "448", "chain-comparison", "391", "574", "truth-test", "394", "610", "loop-else", "319", "360", "assign-multi-targets", "395", "729", "for-multi-targets", "370", "463", "star-in-func-call", "381", "621", "Total", "3311", "4678"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 164.64,
+    "x2": 319.2,
+    "y1": 96.0,
+    "y2": 211.2
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Table3-1.png"
+}, {
+  "caption": "Table 2. Three Elements of Non-Idiomatic Code of Thirteen Pythonic Idioms",
+  "captionBoundary": {
+    "x1": 101.68600463867188,
+    "x2": 384.07391357421875,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["chain-comparison", "A", "BoolOP", "node", "whose", "op", "is", "“and”", "Two", "Compare", "nodes", "1.", "Compare", "operands", "of", "the", "two", "Compare", "nodes", "intersect", "truth-test", "A", "test-type", "node", "A", "Compare", "node", "1.", "The", "op", "of", "the", "Compare", "node", "is", "“==", "“or", "“!=”", "2.", "The", "one", "comparison", "operand", "is", "belong", "to", "EmptySet", "loop-else", "—", "A", "For/While", "node", "An", "If", "node", "1.", "The", "For/While", "node", "has", "break", "statements", "2.", "The", "If", "node", "is", "the", "next", "statement", "of", "For", "node", "assign-multi-tar", "—", "Consecutive", "Assign", "nodes", "—", "for-multi-tar", "—", "A", "For", "node", "1.", "The", "body", "of", "the", "For", "node", "has", "a", "Subscript", "node", "2.", "The", "value", "of", "the", "Subscript", "node", "is", "the", "iterated", "variable", "of", "the", "For", "node", "star-in-func-call", "A", "Call", "node", "Consecutive", "Subscript", "nodes", "1.", "The", "values", "of", "Subscript", "nodes", "are", "the", "same", "with", "—", "A", "Call", "node", "1.", "The", "function", "name", "of", "the", "Call", "node", "is", "“open”", "enumerate", "—", "A", "For", "node", "1.", "The", "iterated", "object", "is", "not", "a", "function", "call", "whose", "function", "name", "is", "“enumerate”", "chain-ass-same-value", "—", "Consecutive", "Assign", "nodes", "1.", "The", "values", "of", "consecutive", "Assign", "nodes", "are", "the", "same", "fstring", "—", "A", "BinOP", "node", "1.", "The", "op", "of", "the", "BinOp", "node", "is", "“%”", "1.", "The", "For", "node", "has", "an", "assign", "statement", "whose", "assigned", "variable", "is", "a", "Subscript", "node", "2.", "The", "value", "of", "the", "Subscript", "node", "is", "the", "assigned", "variable", "of", "the", "Assign", "node", "dict-comprehension", "—", "A", "For", "node", "An", "Assign", "node", "1.", "The", "For", "node", "has", "“append/add”", "function", "call", "2.", "The", "function", "name", "of", "“append/add”", "function", "call", "is", "the", "assigned", "variable", "of", "the", "Assign", "node", "list/set-comprehension", "—", "A", "For", "node", "An", "Assign", "node", "Idiom", "ASTscenario", "ASTcomponent", "Condition"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 44.64,
+    "x2": 443.03999999999996,
+    "y1": 98.88,
+    "y2": 297.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Table2-1.png"
+}, {
+  "caption": "Fig. 1. Motivating examples",
+  "captionBoundary": {
+    "x1": 191.22799682617188,
+    "x2": 294.77191162109375,
+    "y1": 367.10601806640625,
+    "y2": 372.3110046386719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 84.0,
+    "y2": 359.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure1-1.png"
+}, {
+  "caption": "Fig. 3. ARI library built by prompting LLMs to generate code",
+  "captionBoundary": {
+    "x1": 130.67799377441406,
+    "x2": 355.3222351074219,
+    "y1": 198.79298400878906,
+    "y2": 203.99798583984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 48.0,
+    "x2": 438.24,
+    "y1": 80.64,
+    "y2": 191.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure3-1.png"
+}, {
+  "caption": "Table 4. Benchmark of Four New Pythonic Idioms",
+  "captionBoundary": {
+    "x1": 150.2429962158203,
+    "x2": 335.5157470703125,
+    "y1": 87.1489486694336,
+    "y2": 92.35394287109375
+  },
+  "figType": "Table",
+  "imageText": ["b)", "F1", "comparison", "Ours", "Prompt-LLM", "48.4", "16.6", "44.4", "25.8", "100.0", "99.7", "98.7", "94.9", "(%", ")", "co", "re", "F1", "-S", "100", "95", "90", "50", "40", "30", "20", "10", "with", "enumerate", "chain-assign", "fstring", "0", "a)", "accuracy", "comparison", "Ours", "Prompt-LLM", "31.9", "9.0", "28.5", "14.8", "92.6", "100.0", "99.5", "97.4", "(%", ")", "ra", "cy", "Ac", "cu", "100", "95", "90", "50", "40", "30", "20", "10", "with", "enumerate", "chain-assign", "fstring", "0", "Idiom", "Methods", "Code", "Pairs", "with", "600", "64", "enumerate", "600", "565", "chain-assign-same-value", "600", "156", "fstring", "600", "223", "Total", "600", "1008"],
+  "name": "4",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 435.35999999999996,
+    "y1": 101.75999999999999,
+    "y2": 263.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Table4-1.png"
+}, {
+  "caption": "Fig. 8. Scatter plot with straight lines of accuracy, F1-score, precision and recall of two approaches for four new Pythonic idioms",
+  "captionBoundary": {
+    "x1": 45.827999114990234,
+    "x2": 440.335205078125,
+    "y1": 370.135009765625,
+    "y2": 386.2980041503906
+  },
+  "figType": "Figure",
+  "imageText": ["d)", "recall", "comparison", "Ours", "Prompt-LLM", "54.3", "34.5", "50.0", "46.3", "100.0", "100.0", "98.7", "97.0", ")", "ll", "(%", "Re", "ca", "100", "95", "90", "50", "40", "30", "20", "10", "with", "enumerate", "chain-assign", "fstring", "0", "c)", "precision", "comparison", "Ours", "Prompt-LLM", "43.6", "10.9", "42.6", "17.4", "93.0", "100.0", "99.5", "98.7", "(%", ")", "isi", "on", "Pr", "ec", "100", "95", "90", "50", "40", "30", "20", "10", "with", "enumerate", "chain-assign", "fstring", "0"],
+  "name": "8",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 50.879999999999995,
+    "x2": 435.35999999999996,
+    "y1": 275.03999999999996,
+    "y2": 361.91999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/fse-fse2024/figures/10_1145-3643776-Figure8-1.png"
+}]

@@ -1,0 +1,201 @@
+[{
+  "caption": "Table 1: Examples of two high-quality bootstrap queries for Java and Python, each with original samples containing the identifier \"python\" or \"java\" tag and their corresponding bootstrap queries excluding strings starting with \"how to\".",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 558.1998901367188,
+    "y1": 85.7260971069336,
+    "y2": 102.31597900390625
+  },
+  "figType": "Table",
+  "imageText": ["Java", "Post", "Id", "Original", "Queries", "Bootstrap", "Queries", "256899", "How", "to", "go", "about", "web", "service", "security", "in", "Java", "go", "about", "web", "service", "security", "in", "java", "60160", "How", "to", "escape", "text", "for", "regular", "expression", "in", "Java?", "escape", "text", "for", "regular", "expression", "in", "java", "Python", "Post", "Id", "Original", "Queries", "Bootstrap", "Queries", "43959896", "how", "to", "extract", "value", "from", "website", "with", "python?", "extract", "value", "from", "website", "with", "python", "35794173", "How", "to", "convert", "an", "integer", "number", "to", "words", "in", "python?", "convert", "an", "integer", "number", "to", "words", "in", "python"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 52.8,
+    "x2": 558.24,
+    "y1": 111.83999999999999,
+    "y2": 196.32
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table1-1.png"
+}, {
+  "caption": "Table 2: The training parameters for CoCoRF and DeepCS.",
+  "captionBoundary": {
+    "x1": 319.6510009765625,
+    "x2": 556.2116088867188,
+    "y1": 514.8521118164062,
+    "y2": 520.4830322265625
+  },
+  "figType": "Table",
+  "imageText": ["DeepCS", "query_len=30,", "code_len=50,", "epoch=100,", "learning_rate=1e-4,", "adam_epsilon=1e-8", "CoCoRF", "comment_len=20,", "epoch=200,", "batch_size=64,", "drop_out=0.1,", "learning_rate=1e-4,", "adam_beta1=0.9,", "adam_beta2=0.999,", "de-", "cay_ratio", "=0.95,", "embed_size=128,", "multi-heads=1", "and", "layers=1", "Model", "Training", "Parameters"],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 318.71999999999997,
+    "x2": 557.28,
+    "y1": 530.4,
+    "y2": 599.04
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table2-1.png"
+}, {
+  "caption": "Table 5: Human judgements on the comments in CC pair mined by NLQF and CoCoRF (AC: accuracy, AD: adequacy, CO: conciseness, US: usefulness).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.2926025390625,
+    "y1": 435.9051208496094,
+    "y2": 463.4530029296875
+  },
+  "figType": "Table",
+  "imageText": ["-1", "10", "19", "16", "2", "7", "3", "11", "2", "Neutral", "0", "47", "34", "27", "37", "45", "42", "25", "13", "Agree", "1", "27", "14", "19", "28", "27", "32", "42", "53", "2", "10", "27", "34", "30", "17", "17", "14", "30", "Overall", "Score", "25", "37", "63", "80", "46", "51", "43", "107", "oR", "F", "Disagree", "-2", "6", "6", "4", "3", "4", "6", "8", "2", "C", "oC", "Neutral", "0", "52", "42", "23", "42", "57", "53", "23", "25", "Agree", "1", "28", "10", "29", "32", "24", "22", "44", "37", "2", "5", "25", "28", "40", "10", "17", "13", "34", "Overall", "Score", "16", "32", "62", "64", "32", "44", "43", "100", "F", "Disagree", "-2", "7", "5", "3", "2", "3", "4", "7", "1", "-1", "8", "18", "17", "4", "4", "6", "13", "3", "N", "LQ", "Language", "Python", "Java", "Score", "/", "Metric", "AC", "AD", "CO", "US", "AC", "AD", "CO", "US"],
+  "name": "5",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 565.4399999999999,
+    "y1": 473.28,
+    "y2": 605.28
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table5-1.png"
+}, {
+  "caption": "Table 3: MRR, Answered@10, and UD results of DeepCS trained with Python dataset on CSNV and CosQA.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2008056640625,
+    "y1": 155.5880889892578,
+    "y2": 172.177978515625
+  },
+  "figType": "Table",
+  "imageText": ["MRR", "Answered@10", "UD(%)", "CSNV", "CosQACSNV", "CosQA", "CSNV", "CosQA", "CC", "Pairs", "Testing", "Set", "Training", "Set", "/", "Framework"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 181.92,
+    "y2": 217.44
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table3-1.png"
+}, {
+  "caption": "Table 4: MRR, Answered@10, and UD results of DeepCS trained with Java dataset on CSNV and CosBench.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2008056640625,
+    "y1": 306.089111328125,
+    "y2": 322.6789855957031
+  },
+  "figType": "Table",
+  "imageText": ["Gain", "(%)", "-16.9↓", "+14.03↑", "+8.07↑", "+5.99↑", "+0.54↑", "4.8248↑3.4036↑", "NLQF𝑒𝑚𝑏𝑒𝑑", "230,215", "0.2957", "0.1624", "802", "185", "-1.4440", "4.0759", "CoCoRF𝑒𝑚𝑏𝑒𝑑", "191,311", "0.3372", "0.1755", "850", "186", "3.3808", "7.4795", "CSN", "406,922", "0.3032", "0.1477", "837", "170", "/", "/", "CSNclean", "251,011", "0.2845", "0.1900", "812", "187", "-1.7546", "7.4015", "NLQF", "226,380", "0.3040", "0.1579", "834", "181", "-0.0222", "2.9684", "CoCoRF", "193,554", "0.3182", "0.1722", "832", "181", "1.1404", "6.0452", "Gain", "(%)", "-14.5↓", "+4.67↑", "+9.06↑", "-0.24↓", "+0", "1.1626↑3.0768↑"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 317.76,
+    "x2": 558.24,
+    "y1": 219.84,
+    "y2": 298.08
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table4-1.png"
+}, {
+  "caption": "Table 6: Results of ablation experiments of DeepCS model trained on Python dataset with different filter modules.",
+  "captionBoundary": {
+    "x1": 53.50199890136719,
+    "x2": 294.0437927246094,
+    "y1": 368.2711181640625,
+    "y2": 384.8609924316406
+  },
+  "figType": "Table",
+  "imageText": ["CSN", "-", "406,922", "0.3032", "0.1477", "837", "170", "Rule", "Rule", "only", "381,928", "0.3154", "0.1767", "840", "193", "NLQF", "Model", "only", "68,358", "0.1786", "0.0773", "561", "93", "CoCoRF", "Model", "only", "236,267", "0.3038", "0.1784", "840", "183", "NLQF𝑒𝑚𝑏𝑒𝑑", "Model", "only", "84,045", "0.2036", "0.0957", "605", "114", "CoCoRF𝑒𝑚𝑏𝑒𝑑", "Model", "only", "65,970", "0.1447", "0.0640", "441", "82", "NLQF", "Rule+Model", "226,380", "0.3040", "0.1579", "834", "181", "CoCoRF", "Rule+Model", "193,554", "0.3182", "0.1722", "832", "181", "NLQF𝑒𝑚𝑏𝑒𝑑", "Rule+Model", "230,215", "0.2957", "0.1624", "802", "185", "CoCoRF𝑒𝑚𝑏𝑒𝑑", "Rule+Model", "191,311", "0.3372", "0.1755", "850", "186", "MRR", "Answered@10", "(Rule,", "Model)", "CSNV", "CoSQA", "CSNV", "CoSQA", "Filter", "CC", "Pairs", "Testing", "Set", "Training", "Set", "/", "Framework"],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 53.76,
+    "x2": 293.28,
+    "y1": 394.56,
+    "y2": 531.36
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table6-1.png"
+}, {
+  "caption": "Figure 1: The overall workflow of CoCoRF. It consists of three core parts: (A) Unsupervised Driving Component, (B) Supervised Filtering Component, and (C) Application Task Verification. CoCoRF initially mines high-quality posts with WTFF algorithm to extract bootstrap query corpus and filters raw comment-code pairs based on syntactic rules. It then trains the transformerbased variational auto-encoder on query corpus to further sample the comment-code pairs. It finally validates the refined comment-code pairs using the CoDEnn network for performance evaluation in DeepCS code search.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 559.811279296875,
+    "y1": 399.297119140625,
+    "y2": 448.7640075683594
+  },
+  "figType": "Figure",
+  "imageText": ["High", "Quality", "Q&A", "Posts", "\"How", "to", "Do\"", "Query", "Corpus", "How", "to", "do", "Query", "Classifier", "WTFF-based", "Score", "Algorithm", "DeepCS", "CoDEnn Network", "Codes", "Description", "Code", "Vectors", "Description", "Vector", "...", "def start(self, timeout=None):", "    \"\"\"Startup of the node.\"\"\"", "    assert super(PyrosBase, self).start(timeout=timeout) ", "    #Because we currently use this to setup connection", "    return self.name", "def remove(parent, idx):", "    \"\"\"Remove a value from a dict.\"\"\"", "    if isinstance(parent, dict):", "        del parent[idx]", "    elif isinstance(parent, list):", "        del parent[int(idx)]", "   else:", "        raise JSONPathError(\"Invalid path for operation\")", "...", "Unsupervised", "Filtered", "Comment-Code", "Pairs", "def remove(parent, idx):", "    \"\"\"Remove a value from a dict.\"\"\"", "    if isinstance(parent, dict):", "        del parent[idx]", "    elif isinstance(parent, list):", "        del parent[int(idx)]", "   else:", "        raise JSONPathError(\"Invalid path for operation\")", "...", "...", "raw", "corpus", "filtered", "corpus", "Searching", "...", "Searing Query", "Code Base", "(C)", "Application", "Task", "Verification", "detach_with", "?", "...", "detach_brackets", "detach_HTML", "tags", "detach_short_sentence", "detach_non_English", "High", "Quality", "Bootstrap", "Query", "Corpus", "Defined", "Syntactic", "Rules", "(Rule", "Filtering", "Module)", "Mining", "Bootstrap", "Query", "Corpusdef _load_from_module(module):", "    \"\"\"从python模块中获取配置 \"\"\"", "    settings = OrderedDict()", "    for key in dir(module):", "        if key.isupper():", "            settings[key] = getattr(module, key)", "    return settings", "Post", "#qid=64076188", "Post", "#qid=1175208", "Post", "#qid=23205127", "A_Score", "Query:   Python", "Selenium", "iissue", "[Code, Query_Blocks, Answer_Blocks] ", "A_Comment", "Q_View", "Q_Answer", "Q_Favorite", "Q_Comment", "Q_Score", "Answer", "Social", "Features", "Query", "Query:", "Python", "function", "to", "convert", "CamelCCase", "to", "camel_c_case?", "[duplicate]", "[Code, Query_Blocks, Answer_Blocks] ", "Query: ", "How", "to", "make", "a", "program", "that", "verifies", "Card", "Security", "Codes", "?", "[Code, Query_Blocks, Answer_Blocks]   ", "Transformer-based", "VAE", "Model", "(", "Model", "Filtering", "Module)", "(B)", "Supervised", "Filtering", "Component", "(A)", "Unsupervised", "Driving", "Component", "Supervised", "Filtered", "Comment-Code", "Pairs", "Example", "of", "Raw", "Comment-Code", "Pairs", "def start(self, timeout=None):", "    \"\"\"Startup of the node.\"\"\"", "    assert super(PyrosBase, self).start(timeout=timeout) ", "    #Because we currently use this to setup connection", "    return self.name", "def remove(parent, idx):", "    \"\"\"Remove a value from a dict.\"\"\"", "    if isinstance(parent, dict):", "        del parent[idx]", "    elif isinstance(parent, list):", "        del parent[int(idx)]", "   else:", "        raise JSONPathError(\"Invalid path for operation\")"],
+  "name": "1",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 54.239999999999995,
+    "x2": 557.28,
+    "y1": 82.56,
+    "y2": 384.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Figure1-1.png"
+}, {
+  "caption": "Table 9: The statistics for the CodePRC datasets including data sizes, comment lengths (avg_len), and vocabulary sizes (dic_tokens) on frequency (≥ 3) and non-frequency tokens.",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 558.2025146484375,
+    "y1": 85.7260971069336,
+    "y2": 113.2750244140625
+  },
+  "figType": "Table",
+  "imageText": ["Python", "191,311", "7.6", "88630", "/", "32784", "48.2", "2088987", "/", "547632", "Java", "172,979", "8.4", "57102", "/", "24345", "59.9", "1605995", "/", "434398", "Language", "Data", "Comment", "Code", "Size", "avg_len", "dic_tokens", "avg_len", "dic_tokens"],
+  "name": "9",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 321.59999999999997,
+    "x2": 554.4,
+    "y1": 122.88,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table9-1.png"
+}, {
+  "caption": "Table 10: Comparison of open-source datasets for code intelligence research includes the used software tasks (code search, code generation, code summarization), language types, data sizes (including training, validation, testing), collectionmethods, and existing issues (1. Cannot scale language, 2. Incomplete code snippets, 3. Unstable code quality, 4. Unstable comment quality, 5. Comments are not real queries).",
+  "captionBoundary": {
+    "x1": 317.65899658203125,
+    "x2": 559.8104248046875,
+    "y1": 374.7571105957031,
+    "y2": 446.1409912109375
+  },
+  "figType": "Table",
+  "imageText": ["Python", "150.190", "CodeMF", "2SQL", "211,215", "Java", "156,432", "Hu", "et", "al.", "[18]", "Search", "C#", "171,773", "Hu", "et", "al.", "[17]", "Search", "C#", "68,870", "CodeMF", "2SQL", "34,668", "Iyer", "et", "al.", "[24]", "Summarization", "Python", "145,841", "Rules", "2,3SQL", "41,340", "StaQC", "[56]", "Search", "Python", "147,546", "BiV-HNN", "1,3Summarization", "Java", "119,519", "ve", "rfl", "ow", "St", "ac", "kO", "Barone", "et", "al.", "[3]", "Generation", "Python", "150,370", "Rules", "4,5Summarization", "CSN", "[22]", "Search", "Python", "457,461", "Rules", "4,5Java", "496,688", "CSN", "Clean", "[10]", "Search", "Python", "280,652", "Rules", "4,5Java", "181,062", "ub", "CodePRC", "Search", "Python", "191,311", "CoCoRF", "5Java", "172,979", "COFIC", "[50]", "Search", "Java", "1,048,519", "NLQF", "5", "Hu", "et", "al.", "[19]", "Generation", "Java", "588,108", "Rules", "4,5", "Hu", "et", "al.", "[20]", "Generation", "Java", "485,812", "Rules", "4,5", "CoDesc", "[14]", "Search", "Java", "4,211,516", "Rules", "4,5", "G", "itH", "Source", "Dataset", "Task", "Language", "Size", "Method", "Issues"],
+  "name": "10",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 560.16,
+    "y1": 456.0,
+    "y2": 705.12
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Table10-1.png"
+}, {
+  "caption": "Figure 2: Comparison of the training loss between CoCoRF and NLQF variation from 0 to 200 epochs.",
+  "captionBoundary": {
+    "x1": 53.79800033569336,
+    "x2": 294.28460693359375,
+    "y1": 423.6921081542969,
+    "y2": 440.2820129394531
+  },
+  "figType": "Figure",
+  "imageText": ["C", "o", "C", "o", "R", "F", "N", "L", "Q", "F", "E", "p", "o", "c", "h", "s", "ng", "los", "Tra", "ini", "0", "5", "1", "0", "1", "5", "2", "0", "2", "50", "2", "4", "6", "1", "0", "0", "2", "4", "6", "8"],
+  "name": "2",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 55.199999999999996,
+    "x2": 295.68,
+    "y1": 318.71999999999997,
+    "y2": 418.56
+  },
+  "renderDpi": 150,
+  "renderURL": "../datacollection/pdf_analysis/esem-esem2024/figures/10_1145-3674805_3686664-Figure2-1.png"
+}]
