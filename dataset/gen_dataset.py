@@ -26,7 +26,7 @@ df["url"] = df.apply(lambda row: "https://doi.org/" + row.doi, axis=1)
 
 # Reorder columns
 df = df.loc[:, ["doi", "conf", "title", "url", "fig_num",
-                "status", "category", "subcategory", "subsubcategory", "dimensionality", "multiplicity", "n_panels",
+                "status", "type", "category", "subcategory", "subsubcategory", "dimensionality", "multiplicity", "n_panels",
                 "width", "height", "colors", "visual_density"]]
 
 df.to_csv("vis_dataset.csv", index=False)
